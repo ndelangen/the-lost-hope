@@ -52,9 +52,19 @@ export default createNPC({
           target: { creatures: 1, range: 30 },
           onFail: {
             damage: [{ dice: '2d6', type: refs.rules.necrotic }],
-            also: ['It can’t regain ', refs.rules.hit_points, ' until the start of her next turn.'],
+
+            also: [{ effect: 'no-hp-regain' }],
           },
         },
+        effects: [
+          {
+            key: 'no-hp-regain',
+            name: 'Can’t regain hit points',
+            lands: { on: 'failed-save' },
+            text: ['It can’t regain ', refs.rules.hit_points, ' until the start of her next turn.'],
+            lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+          },
+        ],
       },
     ],
     source: {

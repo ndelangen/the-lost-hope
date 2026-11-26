@@ -132,8 +132,17 @@ export default createPublicationMonsters({
             },
             text: [
               "The intellect devourer targets one creature it can see within 10 feet of it that has a brain. Also on a failure, roll 3d6: if the total equals or exceeds the target's Intelligence score, that score is reduced to 0. The target is ",
-              rules.stunned,
-              ' until it regains at least one point of Intelligence.',
+              { effect: 'devour-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'devour-stun',
+                name: 'Stunned by devoured intellect',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ['it regains at least one point of Intelligence'] },
+              },
             ],
           },
           {

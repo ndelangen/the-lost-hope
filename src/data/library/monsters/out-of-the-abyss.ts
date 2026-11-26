@@ -102,10 +102,19 @@ export default createPublicationMonsters({
             },
             text: [
               'A creature hit is ',
-              rules.grappled,
-              ' (escape DC 16) and ',
-              rules.restrained,
-              ' for the duration. The rocktopus cannot use Tentacles on a different target until the grapple ends.',
+              { effect: 'tentacle-grapple' },
+              ' (escape DC 16)',
+              ' for the duration',
+              '. The rocktopus cannot use Tentacles on a different target until the grapple ends.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grapple',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until', text: ['the grapple ends'] },
+              },
             ],
           },
           {

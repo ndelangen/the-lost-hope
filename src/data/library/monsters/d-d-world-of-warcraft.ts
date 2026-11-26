@@ -45,10 +45,16 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'A Large or smaller creature hit by the bite is ',
-              rules.grappled,
-              ', escape DC 13.',
+            text: ['A Large or smaller creature hit by the bite is ', { effect: 'grappled' }, '.'],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
         ],

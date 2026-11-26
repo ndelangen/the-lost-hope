@@ -189,10 +189,16 @@ export default createPublicationMonsters({
                 damage: [{ dice: '2d4', type: rules.poison }],
               },
             },
-            text: [
-              'Become ',
-              rules.poisoned,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+            text: ['Become ', { effect: 'quasit-poison' }, '.'],
+            effects: [
+              {
+                key: 'quasit-poison',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -204,8 +210,20 @@ export default createPublicationMonsters({
               'One creature of the quasit’s choice within 20 feet of it must succeed on a ',
               { dc: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.',
+              { effect: 'scare-fright' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'scare-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                text: [
+                  'The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',

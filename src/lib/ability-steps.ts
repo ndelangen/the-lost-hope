@@ -1,5 +1,6 @@
 import type { Ability, AbilityTextToken, Attack, Save } from '#/definitions/stat-block'
 
+import { abilityTextSegments, plainAbilityText, type DerivedStatBlock } from './dm-ability-text'
 import { ruleOf, ruleRef, rules, type RuleKey } from './rules'
 import {
   damageLabel,
@@ -477,10 +478,13 @@ export function abilitySources(stats: AnyStatBlock): ReadonlyMap<string, Ability
 }
 
 /** The steps as one line of plain text, for tooltips and tests. */
-export function plainSteps(steps: readonly DmStep[]) {
+export function plainSteps(steps: readonly DmStep[], block?: DerivedStatBlock) {
   return steps.map((step) =>
     step.parts
       .map((part) => {
+        // With the creature's numbers, tokens read as the tracker shows them, effects included.
+        if (part.kind === 'tokens' && block)
+          return plainAbilityText(abilityTextSegments(part.tokens, block))
         if (part.kind === 'tokens')
           return part.tokens
             .map((token) =>

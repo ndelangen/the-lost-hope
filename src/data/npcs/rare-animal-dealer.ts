@@ -116,16 +116,26 @@ export default createNPC({
           dc: 'dex',
           target: { creatures: 1, range: 15, which: 'that is Large or smaller' },
           onFail: {
-            conditions: [refs.rules.restrained],
-            also: [
-              'To break free it must beat ',
-              { dc: 'dex' },
-              ' with a Strength or Dexterity check.',
-            ],
+            also: [{ effect: 'netted' }],
           },
         },
         uses: 1,
         recharge: 'Short or long rest',
+        effects: [
+          {
+            key: 'netted',
+            name: 'Restrained by net',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.restrained],
+            text: [
+              'To break free it must beat ',
+              { dc: 'dex' },
+              ' with a Strength or Dexterity check.',
+            ],
+            lasts: { kind: 'until-removed' },
+            ends: { escape: { dc: 'dex' } },
+          },
+        ],
       },
     ],
     source: {

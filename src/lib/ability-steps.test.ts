@@ -5,6 +5,7 @@ import type { StatBlock } from '#/definitions/stat-block'
 
 import { abilitySources, abilitySteps, plainSteps, sentences } from './ability-steps'
 import { resolveStatBlock } from './dm-campaign'
+import { deriveStatBlock } from './stat-block'
 
 const stats = resolveStatBlock(dragon.stats) as StatBlock
 const sources = abilitySources(stats)
@@ -47,10 +48,11 @@ describe('ability steps', () => {
   })
 
   it('names conditions a failed save gives and only the creatures picked', () => {
-    expect(plainSteps(steps('frightful-presence')).slice(1, 4)).toEqual([
+    expect(plainSteps(steps('frightful-presence'), deriveStatBlock(stats)).slice(1, 4)).toEqual([
       'Everything within 120 ft. of it is caught (an emanation). It picks which creatures in it are affected; the rest are safe.',
       'Every creature in it rolls a DC 21 Wisdom saving throw: d20 + its Wisdom save bonus. 21 or higher succeeds.',
-      'Fail: it has the frightened condition. It lasts 1 minute.',
+      // The effect reads as the tracker's chip: its condition and how long it lasts.
+      'Fail: Frightened for 1 minute',
     ])
   })
 

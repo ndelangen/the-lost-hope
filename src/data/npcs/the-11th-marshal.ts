@@ -117,12 +117,21 @@ export default createNPC({
           dc: 'con',
           target: { area: { shape: refs.rules.emanation, size: 5 } },
           onFail: {
-            also: ['It is diseased for 24 hours: it can breathe only underwater.'],
+            also: [{ effect: 'diseased' }],
           },
           onSuccess: 'none',
         },
         text: [
           'Only while it is underwater. A creature makes the save when it touches the aboleth, hits it with a melee attack within 5 ft., or starts its turn within 5 ft. of it.',
+        ],
+        effects: [
+          {
+            key: 'diseased',
+            name: 'Diseased',
+            lands: { on: 'failed-save' },
+            text: ['It can breathe only underwater.'],
+            lasts: { kind: 'time', amount: '24', unit: 'hour' },
+          },
         ],
       },
       {
@@ -177,8 +186,17 @@ export default createNPC({
         },
         text: [
           'A Large or smaller target is ',
-          refs.rules.grappled,
+          { effect: 'grabbed' },
           ' (escape DC 14) by one of its three tentacles.',
+        ],
+        effects: [
+          {
+            key: 'grabbed',
+            name: 'Grappled',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.grappled],
+            lasts: { kind: 'until-removed' },
+          },
         ],
       },
       {
@@ -212,14 +230,24 @@ export default createNPC({
           dc: 'int',
           target: { creatures: 1, range: 30 },
           onFail: {
-            conditions: [refs.rules.charmed],
-            also: [
-              'It stays charmed until the aboleth dies or they are on different planes of existence, and it obeys the aboleth’s telepathic commands.',
-            ],
+            also: [{ effect: 'dominated' }],
           },
         },
         uses: 2,
         recharge: 'Long rest',
+        effects: [
+          {
+            key: 'dominated',
+            name: 'Dominated',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.charmed],
+            text: ['It obeys the aboleth’s telepathic commands.'],
+            lasts: {
+              kind: 'until',
+              text: ['the aboleth dies or they are on different planes of existence'],
+            },
+          },
+        ],
       },
     ],
     legendary: {

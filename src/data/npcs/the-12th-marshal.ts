@@ -167,10 +167,19 @@ export default createNPC({
             dc: 'con',
             target: { creatures: 1, range: 60 },
             onFail: {
-              conditions: [refs.rules.restrained],
-              also: ['Ice holds it until the end of its next turn.'],
+              also: [{ effect: 'frozen' }],
             },
           },
+          effects: [
+            {
+              key: 'frozen',
+              name: 'Held by ice',
+              lands: { on: 'failed-save' },
+              conditions: [refs.rules.restrained],
+              text: ['Ice holds it.'],
+              lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+            },
+          ],
         },
       ],
     },

@@ -138,10 +138,18 @@ export default createNPC({
           dc: 'cha',
           target: { creatures: 1, range: 30 },
           onFail: {
-            conditions: [refs.rules.prone],
-            also: ['It is pushed 15 ft. away before it falls.'],
+            also: [{ effect: 'knocked-prone' }, 'It is pushed 15 ft. away before it falls.'],
           },
         },
+        effects: [
+          {
+            key: 'knocked-prone',
+            name: 'Knocked prone',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
       },
       {
         key: 'business-is-business',
@@ -149,11 +157,20 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiMoneyStack',
         text: ['Offers a deal.'],
+        effects: [
+          {
+            key: 'charmed-by-deal',
+            name: 'Charmed by a deal',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.charmed],
+            lasts: { kind: 'until', text: ['it takes damage'] },
+          },
+        ],
         save: {
           ability: 'wis',
           dc: 'cha',
           target: { creatures: 1, range: 30, which: 'that can hear him' },
-          onFail: { conditions: [refs.rules.charmed], also: ['It lasts until it takes damage.'] },
+          onFail: { also: [{ effect: 'charmed-by-deal' }] },
         },
         uses: 1,
         recharge: 'Recharge 5–6',
@@ -242,13 +259,23 @@ export default createNPC({
           target: { creatures: 1, range: 60, which: 'he can see or hear' },
           onFail: {
             damage: [{ dice: '2d6', type: refs.rules.psychic }],
-            also: [
+
+            also: [{ effect: 'mocked' }],
+          },
+        },
+        effects: [
+          {
+            key: 'mocked',
+            name: 'Mocked',
+            lands: { on: 'failed-save' },
+            text: [
               'It has ',
               refs.rules.disadvantage,
               ' on the next attack roll it makes before the end of its next turn.',
             ],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
           },
-        },
+        ],
       },
       {
         key: 'dispel-magic',

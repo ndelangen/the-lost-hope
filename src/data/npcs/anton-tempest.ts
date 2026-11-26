@@ -74,9 +74,18 @@ export default createNPC({
           ],
         },
         text: [
-          'If the target breaks a rule Anton stated this fight, it also has the ',
-          refs.rules.prone,
-          ' condition.',
+          'If the target breaks a rule Anton stated this fight, it also has ',
+          { effect: 'prone' },
+          '.',
+        ],
+        effects: [
+          {
+            key: 'prone',
+            name: 'Prone',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
         ],
       },
       {

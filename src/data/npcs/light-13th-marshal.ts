@@ -200,13 +200,22 @@ export default createNPC({
           target: { area: { shape: refs.rules.emanation, size: 30 }, chosen: true },
           onFail: {
             damage: [{ dice: '6d8', type: refs.rules.radiant }],
-            conditions: [refs.rules.blinded],
-            also: ['The blindness lasts until the end of its next turn.'],
+
+            also: [{ effect: 'blinded-by-light' }],
           },
           onSuccess: 'half',
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [
+          {
+            key: 'blinded-by-light',
+            name: 'Blindness',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.blinded],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+          },
+        ],
       },
       {
         key: 'grant-a-favour',

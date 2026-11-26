@@ -221,7 +221,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be infected with a disease—a minuscule slaad egg.',
+              ' Constitution saving throw or ',
+              { effect: 'slaad-egg' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slaad-egg',
+                name: 'Slaad egg infection',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['Infected with a disease—a minuscule slaad egg.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

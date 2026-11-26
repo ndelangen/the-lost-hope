@@ -41,13 +41,21 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiStomp',
         text: ['Sweeps a creature back with a limb without hurting it.'],
+        effects: [
+          {
+            key: 'knocked-prone',
+            name: 'Knocked prone',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
         save: {
           ability: 'str',
           dc: 'str',
           target: { creatures: 1, range: 10, which: 'that is Large or smaller' },
           onFail: {
-            conditions: [refs.rules.prone],
-            also: ['It is pushed 10 ft. away before it falls.'],
+            also: [{ effect: 'knocked-prone' }, 'It is pushed 10 ft. away before it falls.'],
           },
         },
       },
@@ -70,13 +78,21 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiTreeBranch',
         text: ['He spreads his spiny lower boughs to wall off the gate.'],
+        effects: [
+          {
+            key: 'walled-in',
+            name: 'Restrained by holly',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.restrained],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+          },
+        ],
         save: {
           ability: 'dex',
           dc: 'str',
           target: { area: { shape: refs.rules.cube, size: 15 }, range: 10 },
           onFail: {
-            conditions: [refs.rules.restrained],
-            also: ['It lasts until the end of its next turn.'],
+            also: [{ effect: 'walled-in' }],
           },
         },
         uses: 1,

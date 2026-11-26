@@ -79,13 +79,21 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiBull',
         text: ['After moving at least 10 ft. straight toward a creature, she shoves it.'],
+        effects: [
+          {
+            key: 'prone',
+            name: 'Prone',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
         save: {
           ability: 'str',
           dc: 'str',
           target: { creatures: 1, range: 5, which: 'she charged' },
           onFail: {
-            conditions: [refs.rules.prone],
-            also: ['It is pushed 10 ft. away before it falls.'],
+            also: ['It is pushed 10 ft. away before it falls', ': ', { effect: 'prone' }, '.'],
           },
         },
       },

@@ -93,12 +93,20 @@ export default createNPC({
           dc: 'cha',
           target: { creatures: 1, range: 30, which: 'that can hear her' },
           onFail: {
-            conditions: [refs.rules.charmed],
-            also: ['It lasts until the end of her next turn.'],
+            also: [{ effect: 'charmed-by-sylf' }],
           },
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [
+          {
+            key: 'charmed-by-sylf',
+            name: 'Charmed',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.charmed],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+          },
+        ],
       },
     ],
     source: {

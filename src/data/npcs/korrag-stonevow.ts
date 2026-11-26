@@ -106,14 +106,21 @@ export default createNPC({
           dc: 'cha',
           target: { area: { shape: refs.rules.emanation, size: 30 }, chosen: true },
           onFail: {
-            conditions: [refs.rules.frightened],
-            also: [
-              'For 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.',
-            ],
+            also: [{ effect: 'frightened-of-korrag' }],
           },
         },
         uses: 1,
         recharge: 'Short rest',
+        effects: [
+          {
+            key: 'frightened-of-korrag',
+            name: 'Frightened of Korrag',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.frightened],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+            ends: { repeatSave: ['end-of-turn'] },
+          },
+        ],
       },
       {
         key: 'command',
@@ -125,15 +132,24 @@ export default createNPC({
           dc: 'cha',
           target: { creatures: 1, range: 60 },
           onFail: {
-            also: [
-              'On its next turn it obeys one word: “Kneel” (it falls ',
-              refs.rules.prone,
-              ' and ends its turn), “Drop” (it drops what it holds), “Halt” (it does nothing) or “Flee” (it moves away from him). He gives it as an order: “Kneel, soldier!”',
-            ],
+            also: [{ effect: 'obeys-one-word' }],
           },
         },
         uses: 2,
         recharge: 'Long rest',
+        effects: [
+          {
+            key: 'obeys-one-word',
+            name: 'Obeys one word',
+            lands: { on: 'failed-save' },
+            text: [
+              'On its next turn it obeys one word: “Kneel” (it falls ',
+              refs.rules.prone,
+              ' and ends its turn), “Drop” (it drops what it holds), “Halt” (it does nothing) or “Flee” (it moves away from him). He gives it as an order: “Kneel, soldier!”',
+            ],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+          },
+        ],
       },
       {
         key: 'hold-person',
@@ -145,11 +161,20 @@ export default createNPC({
           dc: 'cha',
           target: { creatures: 1, range: 60, which: 'humanoid' },
           onFail: {
+            also: [{ effect: 'held' }],
+          },
+        },
+        uses: 1,
+        recharge: 'Long rest',
+        effects: [
+          {
+            key: 'held',
+            name: 'Held',
+            lands: { on: 'failed-save' },
             conditions: [refs.rules.paralyzed],
-            also: [
-              'It repeats the save at the end of each of its turns, ending the effect on a success. Lasts up to 1 minute (',
+            text: [
               refs.rules.concentration,
-              '). Melee hits from within 5 ft. on a ',
+              '. Melee hits from within 5 ft. on a ',
               refs.rules.paralyzed,
               ' target are ',
               refs.rules.critical_hit,
@@ -157,10 +182,10 @@ export default createNPC({
               refs.rules.paralyzed,
               ' creature cannot drink a potion.',
             ],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+            ends: { repeatSave: ['end-of-turn'] },
           },
-        },
-        uses: 1,
-        recharge: 'Long rest',
+        ],
       },
       {
         key: 'divine-smite',

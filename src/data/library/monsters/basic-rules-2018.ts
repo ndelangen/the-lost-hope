@@ -45,8 +45,17 @@ export default createPublicationMonsters({
               'A creature hit by the tail must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -133,10 +142,19 @@ export default createPublicationMonsters({
               ' Constitution saving throw if the basilisk isn’t ',
               rules.incapacitated,
               '. On a failed save, the creature magically begins to turn to stone and is ',
-              rules.restrained,
+              { effect: 'stone-gaze' },
               '. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is ',
               rules.petrified,
               ' until freed by the greater restoration spell or other magic. A creature that isn’t surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can’t see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save. If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze.',
+            ],
+            effects: [
+              {
+                key: 'stone-gaze',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -628,10 +646,19 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it is ',
-              rules.grappled,
-              ' (escape DC 16). Until this grapple ends, the target is ',
-              rules.restrained,
-              ', and the octopus can’t use its tentacles on another target.',
+              { effect: 'grappled' },
+              '. Until this grapple ends, ',
+              'the octopus can’t use its tentacles on another target.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -1207,8 +1234,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 10). Until this grapple ends, the octopus can’t use its tentacles on another target.',
+              { effect: 'grappled' },
+              '. Until this grapple ends, ',
+              'the octopus can’t use its tentacles on another target.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 10 } },
+              },
             ],
           },
           {
@@ -1639,11 +1677,20 @@ export default createPublicationMonsters({
             text: [
               'If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or be knocked ',
-              rules.prone,
+              ' Strength saving throw or be ',
+              { effect: 'prone' },
               '. If the target is ',
               rules.prone,
               ', the horse can make another attack with its hooves against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1744,15 +1791,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30 },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.cold }],
-                also: [
-                  'Then be ',
-                  rules.paralyzed,
-                  ' for 1 minute, unless it is immune to cold damage.',
-                ],
+
+                also: [{ effect: 'chilling-paralysis' }, ' unless it is immune to cold damage.'],
               },
             },
             text: [
-              'The yeti targets one creature it can see within 30 feet of it. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target’s saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.',
+              'The yeti targets one creature it can see within 30 feet of it.',
+              ' If the target’s saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'chilling-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],

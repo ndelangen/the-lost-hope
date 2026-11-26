@@ -178,10 +178,21 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 13) and pulled 5 feet toward the water weird. Until this grapple ends, the target is ',
-              rules.restrained,
-              ', the water weird tries to drown it, and the water weird can’t constrict another target.',
+              { effect: 'constricted' },
+              ' and pulled 5 feet toward the water weird.',
+            ],
+            effects: [
+              {
+                key: 'constricted',
+                name: 'Constricted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  'Escape DC 13.',
+                  'The water weird tries to drown it, and the water weird can’t constrict another target.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

@@ -109,12 +109,21 @@ export default createPublicationMonsters({
               ' on the same turn forces it to attempt a ',
               { dc: 'str' },
               ' Strength save. Failure knocks it ',
-              rules.prone,
+              { effect: 'prone' },
               '. If the target is ',
               rules.prone,
               ', the plainscow can use a bonus action for another ',
               { ability: 'hooves' },
               ' attack against it.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -214,7 +223,18 @@ export default createPublicationMonsters({
             text: [
               'Each creature within 30 ft. other than a Construct or Undead makes a ',
               { dc: 'wis', save: 'con' },
-              ' Constitution save. On failure its speed is halved and it becomes vulnerable to bludgeoning until the end of the tree’s next turn.',
+              ' Constitution save. On failure ',
+              { effect: 'wraithstorm-weakened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wraithstorm-weakened',
+                name: 'Halved speed, vulnerable to bludgeoning',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                text: ['its speed is halved and it becomes vulnerable to bludgeoning'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

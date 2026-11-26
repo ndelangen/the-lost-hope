@@ -171,15 +171,24 @@ export default createNPC({
           dc: 'wis',
           target: { creatures: 1, range: 60 },
           onFail: {
-            also: [
-              'On its next turn it obeys one word: “Kneel” (it falls ',
-              refs.rules.prone,
-              ' and ends its turn), “Drop” (it drops what it holds), “Halt” (it does nothing) or “Flee” (it moves away from him).',
-            ],
+            also: [{ effect: 'commanded' }],
           },
         },
         uses: 2,
         recharge: 'Long rest',
+        effects: [
+          {
+            key: 'commanded',
+            name: 'Commanded',
+            lands: { on: 'failed-save' },
+            text: [
+              'On its next turn it obeys one word: “Kneel” (it falls ',
+              refs.rules.prone,
+              ' and ends its turn), “Drop” (it drops what it holds), “Halt” (it does nothing) or “Flee” (it moves away from him).',
+            ],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+          },
+        ],
       },
       {
         key: 'hold-person',
@@ -191,9 +200,19 @@ export default createNPC({
           dc: 'wis',
           target: { creatures: 1, range: 60, which: 'humanoid' },
           onFail: {
+            also: [{ effect: 'held' }],
+          },
+        },
+        uses: 2,
+        recharge: 'Long rest',
+        effects: [
+          {
+            key: 'held',
+            name: 'Paralyzed',
+            lands: { on: 'failed-save' },
             conditions: [refs.rules.paralyzed],
-            also: [
-              'It repeats the save at the end of each of its turns, ending the effect on a success. Lasts up to 1 minute (',
+            text: [
+              'Lasts up to 1 minute (',
               refs.rules.concentration,
               '). Melee hits from within 5 ft. on a ',
               refs.rules.paralyzed,
@@ -201,10 +220,10 @@ export default createNPC({
               refs.rules.critical_hit,
               's.',
             ],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+            ends: { repeatSave: ['end-of-turn'] },
           },
-        },
-        uses: 2,
-        recharge: 'Long rest',
+        ],
       },
       {
         key: 'spirit-guardians',
@@ -247,12 +266,20 @@ export default createNPC({
         name: 'Invisibility',
         timing: 'action',
         icon: 'gi/GiInvisible',
-        text: [
-          'Touches himself or a willing creature, which turns ',
-          refs.rules.invisible,
-          ' for up to 1 hour (',
-          refs.rules.concentration,
-          '). It ends as soon as that creature attacks, deals damage or casts a spell.',
+        text: ['Touches himself or a willing creature, which turns ', { effect: 'invisible' }, '.'],
+        effects: [
+          {
+            key: 'invisible',
+            name: 'Invisible',
+            lands: { on: 'use' },
+            conditions: [refs.rules.invisible],
+            text: [
+              'For up to 1 hour (',
+              refs.rules.concentration,
+              '). It ends as soon as that creature attacks, deals damage or casts a spell.',
+            ],
+            lasts: { kind: 'time', amount: '1', unit: 'hour' },
+          },
         ],
       },
       {

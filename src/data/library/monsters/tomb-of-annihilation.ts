@@ -146,8 +146,17 @@ export default createPublicationMonsters({
               'A creature hit must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'knocked-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -357,7 +366,21 @@ export default createPublicationMonsters({
             text: [
               'When it detects a nearby creature, the mantrap can release pollen in a 30-ft. radius. Each beast or humanoid in the area must make a ',
               { dc: 'con', save: 'wis' },
-              ' Wisdom save. On a failure, the creature uses all its movement on each of its turns to get as close as it can to the mantrap. It can repeat the save at the end of each of its turns, ending the effect on a success.',
+              ' Wisdom save. On a failure, ',
+              { effect: 'drawn-to-mantrap' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'drawn-to-mantrap',
+                name: 'Drawn to the mantrap',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  'the creature uses all its movement on each of its turns to get as close as it can to the mantrap.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -601,12 +624,20 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 17) and ',
-              rules.restrained,
-              ' until the grapple ends. The dinosaur cannot bite another target or ',
+              { effect: 'grabbed' },
+              '. The dinosaur cannot bite another target or ',
               { ability: 'disgorge-zombie' },
               ' while holding it.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ['(escape DC 17)'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

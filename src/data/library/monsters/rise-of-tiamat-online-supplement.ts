@@ -239,12 +239,21 @@ export default createPublicationMonsters({
               ' on the same turn, the target must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'knocked-prone' },
               '. If the target is ',
               rules.prone,
               ', the horse can make another ',
               { ability: 'hooves' },
               ' attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -356,10 +365,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 14). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'grappled' },
+              ' (escape DC 14)',
               ', and the yuan-ti can’t constrict another target.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

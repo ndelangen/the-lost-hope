@@ -44,12 +44,21 @@ export default createPublicationMonsters({
               ' on that turn. The creature makes a ',
               { dc: 'str', printed: 13 },
               ' Strength save and falls ',
-              rules.prone,
+              { effect: 'prone' },
               ' on a failure. The baloth can follow up with a bonus-action ',
               { ability: 'stomp' },
               ' if the target is ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str', printed: 13 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -292,12 +301,21 @@ export default createPublicationMonsters({
               ' that turn. The target makes a ',
               { dc: 'str' },
               ' Strength save or falls ',
-              rules.prone,
+              { effect: 'prone' },
               '. If the target is ',
               rules.prone,
               ', the terastodon may make one ',
               { ability: 'stomp' },
               ' against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -376,10 +394,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it is ',
-              rules.grappled,
-              ' and ',
-              rules.restrained,
-              ' until the grapple ends. The escape DC is 17. During the grapple, the stomper cannot bite another target.',
+              { effect: 'grappled' },
+              '. During the grapple, the stomper cannot bite another target.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {

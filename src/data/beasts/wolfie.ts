@@ -66,7 +66,16 @@ export default createBeast({
           ability: 'str',
           damage: [{ dice: '1d10', type: refs.rules.piercing, addModifier: true }],
         },
-        text: ['If the target is Medium or smaller, it has the ', refs.rules.prone, ' condition.'],
+        text: ['If the target is Medium or smaller, it ', 'is ', { effect: 'prone' }, '.'],
+        effects: [
+          {
+            key: 'prone',
+            name: 'Prone',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
       },
       {
         key: 'claw',

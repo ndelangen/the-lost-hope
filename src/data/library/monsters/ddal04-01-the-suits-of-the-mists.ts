@@ -85,11 +85,20 @@ export default createPublicationMonsters({
             text: [
               'If the ice cat moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or be knocked ',
-              rules.prone,
+              ' Strength saving throw or be ',
+              { effect: 'knocked-prone' },
               '. If the target is ',
               rules.prone,
               ', the cat can make one bite attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

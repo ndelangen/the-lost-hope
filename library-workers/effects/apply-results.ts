@@ -19,6 +19,7 @@ import { readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
 import { AbilityEffect } from '#/definitions/stat-block'
+import { CONDITION_KEYS } from '#/lib/rules'
 
 const root = join(import.meta.dirname, '../..')
 const args = process.argv.slice(2)
@@ -47,10 +48,25 @@ let skipped = 0
 
 // --- Checks ---------------------------------------------------------------------------------------
 
+/** Words whose meaning an effect's structure carries, so they may leave the text. */
+const STRUCTURAL = new Set(
+  (
+    'until each end ends ending turn turns next start minute minutes round rounds hour hours ' +
+    'lasts last remains remain stays stay while long become becomes then also escape escapes ' +
+    'grapple grapples grappled held hold this that with have from takes repeat repeats save saves ' +
+    'saving throw throws success succeeds successful failure fails failed itself condition ' +
+    'conditions effect effects there they their them when target creature knocked fall falls ' +
+    'early otherwise'
+  ).split(' '),
+)
+
 const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b)
 const normalize = (text: string) => text.replace(/\s+/g, ' ').trim().toLowerCase()
 
-function check(result: Result, old: { text: Token[]; effectKeys: Set<string>; save: boolean }) {
+function check(
+  result: Result,
+  old: { text: Token[]; kept: Token[]; effectKeys: Set<string>; save: boolean; attack: boolean },
+) {
   const problems: string[] = []
   const effects = (result.effects ?? []).map((raw, index) => {
     const parsed = AbilityEffect.safeParse(raw)
@@ -63,8 +79,18 @@ function check(result: Result, old: { text: Token[]; effectKeys: Set<string>; sa
   if (!result.text && !result.also) problems.push('give the new `text` or `also`')
   const text = [...(result.text ?? []), ...(result.also ?? [])]
   const keys = new Set<string>()
+  const conditionKeys = new Set<string>(CONDITION_KEYS)
   for (const effect of effects) {
     if (!effect) continue
+    if (!effect.conditions && !effect.text)
+      problems.push(`effect ${effect.key} needs conditions or text`)
+    for (const condition of effect.conditions ?? [])
+      if (!conditionKeys.has(condition.key))
+        problems.push(`effect ${effect.key}: ${condition.key} is not a condition; say it in text`)
+    if (effect.lands.on === 'hit' && !old.attack)
+      problems.push(`effect ${effect.key} lands on a hit, but the ability has no attack`)
+    if (effect.lands.on === 'failed-save' && !old.save)
+      problems.push(`effect ${effect.key} lands on a failed save, but the ability has no save`)
     if (keys.has(effect.key) || old.effectKeys.has(effect.key))
       problems.push(`effect key ${effect.key} is used twice in this stat block`)
     keys.add(effect.key)
@@ -101,6 +127,23 @@ function check(result: Result, old: { text: Token[]; effectKeys: Set<string>; sa
   for (const token of text)
     if (typeof token === 'string' && normalize(token).length > 14 && !oldPlain.includes(normalize(token)))
       problems.push(`new wording not in the source: "${token.trim()}"`)
+  // Nothing the book says may vanish: each word of the old text is in the new text or an effect,
+  // apart from the wording an effect's structure now says (durations, grapples, repeat saves).
+  const kept = normalize(
+    [...text, ...old.kept, ...effects.flatMap((effect) => (effect ? [effect.name, effect] : []))]
+      .map((token) => (typeof token === 'string' ? token : JSON.stringify(token)))
+      .join(' '),
+  )
+  const lost = [
+    ...new Set(
+      normalize(old.text.filter((token) => typeof token === 'string').join(' '))
+        .match(/[a-z’']{4,}/g)
+        // A possessive names whose turn it lasts to, which `lasts.whose` now says.
+        ?.filter((word) => !STRUCTURAL.has(word) && !/[’']s$/.test(word) && !kept.includes(word)) ??
+        [],
+    ),
+  ]
+  if (lost.length) problems.push(`words from the book are lost: ${lost.join(', ')}`)
   return problems
 }
 
@@ -248,6 +291,11 @@ for (const [file, fileResults] of byFile) {
       ...added,
     ])
     const problems = check(result, {
+      attack: Boolean(ability.attack),
+      // Text that is not being replaced stays, so its words are not lost.
+      kept: [
+        ...(result.text ? [] : (ability.text ?? [])),
+      ],
       text: [
         ...(result.text ? (ability.text ?? []) : []),
         ...(result.also || ability.save?.onFail.conditions ? (ability.save?.onFail.also ?? []) : []),

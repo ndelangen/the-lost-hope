@@ -93,14 +93,16 @@ export default createNPC({
             },
           ],
         },
-        text: [
-          'A Medium or smaller target has the ',
-          refs.rules.grappled,
-          ' condition (escape ',
+        text: ['A Medium or smaller target ', { effect: 'grabbed' }, '.'],
+        effects: [
           {
-            dc: 'str',
+            key: 'grabbed',
+            name: 'Grabbed',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.grappled],
+            lasts: { kind: 'until-removed' },
+            ends: { escape: { dc: 'str' } },
           },
-          ').',
         ],
       },
     ],

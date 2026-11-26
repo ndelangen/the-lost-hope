@@ -135,13 +135,22 @@ export default createNPC({
           target: { creatures: 1, range: 60 },
           onFail: {
             damage: [{ dice: '6d10', type: refs.rules.psychic }],
-            conditions: [refs.rules.frightened],
-            also: ['The fear lasts until the end of its next turn.'],
+
+            also: [{ effect: 'frightened' }],
           },
           onSuccess: 'half',
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [
+          {
+            key: 'frightened',
+            name: 'Fear',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.frightened],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+          },
+        ],
       },
     ],
     source: {

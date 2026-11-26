@@ -73,12 +73,20 @@ export default createNPC({
           dc: 'wis',
           target: { creatures: 1, range: 30, which: 'that hears her' },
           onFail: {
-            conditions: [refs.rules.frightened],
-            also: ['It is afraid of her until the end of its next turn.'],
+            also: ['It is ', { effect: 'frightened' }, '.'],
           },
         },
         uses: 1,
         recharge: 'Recharge 6',
+        effects: [
+          {
+            key: 'frightened',
+            name: 'Afraid of her',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.frightened],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+          },
+        ],
       },
     ],
     source: {

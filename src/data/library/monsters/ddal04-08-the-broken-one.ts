@@ -47,9 +47,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or be knocked ',
-              rules.prone,
+              ' Strength saving throw or be ',
+              { effect: 'knocked-prone' },
               '. ersonal use only.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

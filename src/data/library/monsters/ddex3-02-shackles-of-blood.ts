@@ -77,8 +77,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con', printed: 15 },
               ' saving throw or become ',
-              rules.poisoned,
-              ' for 1d4 hours.',
+              { effect: 'poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1d4', unit: 'hour' },
+              },
             ],
           },
           {

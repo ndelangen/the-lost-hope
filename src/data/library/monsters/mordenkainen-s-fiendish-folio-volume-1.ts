@@ -59,15 +59,17 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              { dc: 'con' },
-              ' Constitution save or ',
-              rules.poisoned,
-              ' for 1 minute and ',
-              rules.paralyzed,
-              ' while ',
-              rules.poisoned,
-              ' this way. The target can repeat the save at each turn end to recover.',
+            text: [{ dc: 'con' }, ' Constitution save or ', { effect: 'poisoned-paralyzed' }, '.'],
+            effects: [
+              {
+                key: 'poisoned-paralyzed',
+                name: 'Poisoned and paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                text: ['The target can repeat the save at each turn end to recover.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -140,10 +142,20 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              rules.grappled,
-              ' (escape DC 14). A claw can automatically hit its ',
+              { effect: 'grappled-by-claw' },
+              '. A claw can automatically hit its ',
               rules.grappled,
               ' target and cannot attack another target while holding it. Each of the two claws can hold one target.',
+            ],
+            effects: [
+              {
+                key: 'grappled-by-claw',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
         ],
@@ -184,7 +196,20 @@ export default createPublicationMonsters({
             text: [
               'A creature other than a dire corby starting its turn within 60 ft. that can hear it makes a ',
               { dc: 'con', save: 'wis' },
-              ' Wisdom save. Failure prevents it from taking the Dash action, climbing, or casting non-cantrip spells until the start of its next turn.',
+              ' Wisdom save. ',
+              { effect: 'dire-cacophony' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dire-cacophony',
+                name: 'Dire cacophony',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  'Failure prevents it from taking the Dash action, climbing, or casting non-cantrip spells.',
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -497,8 +522,21 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
             },
             text: [
-              rules.grappled,
-              " (escape DC 14). The victim takes 11 piercing at the start of each of its turns until free. Each of the lord's two vines holds at most one target.",
+              { effect: 'grappled-by-vine' },
+              ". Each of the lord's two vines holds at most one target.",
+            ],
+            effects: [
+              {
+                key: 'grappled-by-vine',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: [
+                  'The victim takes 11 piercing at the start of each of its turns until free.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -786,8 +824,17 @@ export default createPublicationMonsters({
               'A creature other than a screaming devilkin that starts its turn within 30 ft. of one or more devilkins it can hear must pass a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or be ',
-              rules.incapacitated,
-              ' until its next turn starts.',
+              { effect: 'incapacitated' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {

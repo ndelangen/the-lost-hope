@@ -70,6 +70,20 @@ table.
   - `"escape": { "dc": "str" }`: "escape DC 14" from a `{ "dc": "str" }` token (copy `printed` too).
   - `"cure": [...]`: what removes it, in the book's words, e.g. `["any magic that cures disease"]`.
 
+## Nothing the book says may be lost
+
+Every word of the old text must end up somewhere: kept in the text, or inside an effect's `text`,
+`lasts.text` or `ends.cure`. Only wording that the effect's structure now says may go (its
+duration, the grapple and escape wording, the repeat save, the condition itself).
+
+- An effect that is not a condition ("has Disadvantage on attack rolls", "its Hit Point maximum is
+  reduced") needs `text` with the book's sentence, rule refs kept as tokens. An effect with neither
+  `conditions` nor `text` is rejected.
+- Rule terms that are not conditions (Disadvantage, Advantage, damage types) never go in
+  `conditions`.
+- What happens on a success ("takes half damage and isn't frightened") stays in the ability's
+  text: it is not part of the effect.
+
 ## Rewriting the text
 
 Replace the words the effect now holds with one `{ "effect": "<key>" }` token. The app shows it as

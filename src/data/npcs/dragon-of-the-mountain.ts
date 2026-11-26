@@ -123,10 +123,19 @@ export default createNPC({
           ability: 'wis',
           dc: 'cha',
           target: { area: { shape: refs.rules.emanation, size: 120 }, chosen: true },
-          onFail: { conditions: [refs.rules.frightened], also: ['It lasts 1 minute.'] },
+          onFail: { also: [{ effect: 'frightened-presence' }] },
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [
+          {
+            key: 'frightened-presence',
+            name: 'Frightened',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.frightened],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+          },
+        ],
       },
     ],
     legendary: {
@@ -154,11 +163,20 @@ export default createNPC({
             { speed: 'fly', times: 0.5 },
             '.',
           ],
+          effects: [
+            {
+              key: 'prone-wing',
+              name: 'Prone',
+              lands: { on: 'failed-save' },
+              conditions: [refs.rules.prone],
+              lasts: { kind: 'until-removed' },
+            },
+          ],
           save: {
             ability: 'str',
             dc: 'str',
             target: { area: { shape: refs.rules.emanation, size: 10 } },
-            onFail: { conditions: [refs.rules.prone] },
+            onFail: { also: [{ effect: 'prone-wing' }] },
           },
         },
       ],

@@ -100,12 +100,21 @@ export default createNPC({
           ability: 'str',
           dc: 'str',
           target: { creatures: 1, range: 5, which: 'that he just hit, Large or smaller' },
-          onFail: { conditions: [refs.rules.prone] },
+          onFail: { also: [{ effect: 'prone-trip' }] },
         },
         text: [
           'When his ',
           { ability: 'longsword' },
           ' hits, he adds 1d8 to the damage and forces the save.',
+        ],
+        effects: [
+          {
+            key: 'prone-trip',
+            name: 'Prone',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
         ],
       },
       {

@@ -77,13 +77,19 @@ export default createNPC({
           ],
         },
         text: [
-          'If two fists hit the same target this turn, it has the ',
-          refs.rules.grappled,
-          ' condition (escape ',
+          'If two fists hit the same target this turn, it has ',
+          { effect: 'cage-grapple' },
+          '.',
+        ],
+        effects: [
           {
-            dc: 'str',
+            key: 'cage-grapple',
+            name: 'Grappled',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.grappled],
+            lasts: { kind: 'until-removed' },
+            ends: { escape: { dc: 'str' } },
           },
-          ').',
         ],
       },
       {
@@ -98,9 +104,19 @@ export default createNPC({
           target: { creatures: 1, range: 5, which: 'he has grappled' },
           onFail: {
             damage: [{ dice: '2d8', type: refs.rules.bludgeoning, addModifier: true }],
-            conditions: [refs.rules.prone],
+
+            also: [{ effect: 'prone' }],
           },
         },
+        effects: [
+          {
+            key: 'prone',
+            name: 'Prone',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
       },
       {
         key: 'parry',

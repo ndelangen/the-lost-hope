@@ -102,14 +102,21 @@ export default createNPC({
           dc: 'cha',
           target: { area: { shape: refs.rules.emanation, size: 30 }, chosen: true },
           onFail: {
-            conditions: [refs.rules.frightened],
-            also: [
-              'It lasts 1 minute. It repeats the save at the end of each of its turns, ending the fear on a success.',
-            ],
+            also: [{ effect: 'feared' }],
           },
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [
+          {
+            key: 'feared',
+            name: 'Frightened',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.frightened],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+            ends: { repeatSave: ['end-of-turn'] },
+          },
+        ],
       },
       {
         key: 'rally-the-pack',

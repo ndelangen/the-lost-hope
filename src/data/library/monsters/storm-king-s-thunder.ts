@@ -225,12 +225,28 @@ export default createPublicationMonsters({
             },
             text: [
               'If that poison damage reduces it to 0 HP, it becomes stable and remains ',
-              rules.poisoned,
-              ' for 1 hour even if it regains HP. It is ',
-              rules.paralyzed,
+              { effect: 'ice-spider-poisoned' },
+              ' even if it regains HP. It is ',
+              { effect: 'ice-spider-paralyzed' },
               ' while ',
               rules.poisoned,
               ' by this effect.',
+            ],
+            effects: [
+              {
+                key: 'ice-spider-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
+              {
+                key: 'ice-spider-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'until', text: ['while ', rules.poisoned, ' by this effect'] },
+              },
             ],
           },
           {

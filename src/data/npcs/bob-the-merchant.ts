@@ -127,9 +127,9 @@ export default createNPC({
           dc: 'int',
           target: { creatures: 1, range: 60 },
           onFail: {
-            conditions: [refs.rules.charmed],
             also: [
-              'It lasts 1 minute. If he prefers, it takes 4d6 ',
+              { effect: 'charmed-trinket' },
+              '. If he prefers, it takes 4d6 ',
               refs.rules.force,
               ' damage instead of being ',
               refs.rules.charmed,
@@ -139,6 +139,15 @@ export default createNPC({
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [
+          {
+            key: 'charmed-trinket',
+            name: 'Charmed',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.charmed],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+          },
+        ],
       },
       {
         key: 'blink',

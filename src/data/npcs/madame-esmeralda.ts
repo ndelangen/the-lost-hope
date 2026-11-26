@@ -69,12 +69,20 @@ export default createNPC({
           dc: 'wis',
           target: { creatures: 1, range: 30 },
           onFail: {
-            conditions: [refs.rules.frightened],
-            also: ['It is afraid of her for 1 minute.'],
+            also: [{ effect: 'afraid-of-her' }],
           },
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [
+          {
+            key: 'afraid-of-her',
+            name: 'Afraid of her',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.frightened],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+          },
+        ],
       },
     ],
     source: {

@@ -37,12 +37,21 @@ export default createPublicationMonsters({
               ' hit after moving at least 20 ft. straight toward a creature that turn forces a ',
               { dc: 'wis', save: 'str' },
               ' Strength save. On a failure the target falls ',
-              rules.prone,
+              { effect: 'prone-charge' },
               '. Ophelia can then ',
               { ability: 'stomp' },
               ' that ',
               rules.prone,
               ' target once as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'prone-charge',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'wis' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

@@ -133,11 +133,20 @@ export default createNPC({
         text: [
           'Lit fuses in his beard fill the area with smoke that heavily obscures it until the start of his next turn.',
         ],
+        effects: [
+          {
+            key: 'frightened-smoke',
+            name: 'Frightened',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.frightened],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
         save: {
           ability: 'wis',
           dc: 'cha',
           target: { area: { shape: refs.rules.emanation, size: 10 }, chosen: true },
-          onFail: { conditions: [refs.rules.frightened] },
+          onFail: { also: [{ effect: 'frightened-smoke' }] },
         },
         uses: 1,
         recharge: 'Recharge 5–6',

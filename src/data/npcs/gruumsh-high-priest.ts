@@ -102,11 +102,21 @@ export default createNPC({
           target: { creatures: 1, range: 60 },
           onFail: {
             damage: [{ dice: '4d8', type: refs.rules.radiant }],
-            conditions: [refs.rules.frightened],
-            also: ['The fear lasts until the end of its next turn.'],
+
+            also: [{ effect: 'frightened-glare' }],
           },
           onSuccess: 'half',
         },
+        effects: [
+          {
+            key: 'frightened-glare',
+            name: 'Frightened',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.frightened],
+            text: ['The fear lasts until the end of its next turn.'],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+          },
+        ],
       },
       {
         key: 'blessing-of-gruumsh',

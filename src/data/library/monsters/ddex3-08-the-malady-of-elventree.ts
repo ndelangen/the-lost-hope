@@ -103,12 +103,24 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 hour. If the saving throw fails by 5 or more, the target is also ',
-              rules.unconscious,
-              ' while ',
-              rules.poisoned,
-              ' in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.',
+              { effect: 'hand-crossbow-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'hand-crossbow-poison',
+                name: 'Hand crossbow poison',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: [
+                  'If the saving throw fails by 5 or more, the target is also ',
+                  rules.unconscious,
+                  ' while ',
+                  rules.poisoned,
+                  ' in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -148,7 +160,20 @@ export default createPublicationMonsters({
               { dc: 'cha', printed: 15 },
               ' Charisma saving throw, unless the umber hulk is ',
               rules.incapacitated,
-              '. On a failed saving throw, the creature can’t take reactions until the start of its next turn and rolls a d8 to determine what it does during that turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, the creature makes one melee attack against a random creature, or it does nothing if no creature is within reach. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can’t see the umber hulk until the start of its next turn, when it can avert its eyes again. If the creature looks at the umber hulk in the meantime, it must immediately make the save.',
+              '. On a failed saving throw, ',
+              { effect: 'gaze-confusion' },
+              '. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can’t see the umber hulk until the start of its next turn, when it can avert its eyes again. If the creature looks at the umber hulk in the meantime, it must immediately make the save.',
+            ],
+            effects: [
+              {
+                key: 'gaze-confusion',
+                name: 'Gaze confusion',
+                lands: { on: 'save', save: 'cha', dc: 'cha', printed: 15 },
+                text: [
+                  'The creature can’t take reactions until the start of its next turn and rolls a d8 to determine what it does during that turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, the creature makes one melee attack against a random creature, or it does nothing if no creature is within reach.',
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {

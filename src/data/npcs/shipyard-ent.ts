@@ -37,13 +37,26 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiStomp',
         text: ['Sweeps a creature back with a limb without hurting it.'],
+        effects: [
+          {
+            key: 'knocked-prone',
+            name: 'Knocked prone',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
         save: {
           ability: 'str',
           dc: 'str',
           target: { creatures: 1, range: 10, which: 'that is Large or smaller' },
           onFail: {
-            conditions: [refs.rules.prone],
-            also: ['It is pushed 10 ft. away before it falls.'],
+            also: [
+              'It is pushed 10 ft. away before it falls.',
+              ' It is ',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
           },
         },
       },

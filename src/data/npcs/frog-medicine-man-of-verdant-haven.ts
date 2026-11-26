@@ -73,13 +73,22 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiSmokeBomb',
         text: ['The cloud lasts until the start of his next turn.'],
+        effects: [
+          {
+            key: 'poisoned-smoke',
+            name: 'Poisoned',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.poisoned],
+            text: ['Its speed is also halved while it’s ', refs.rules.poisoned, ' this way.'],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
         save: {
           ability: 'con',
           dc: 'wis',
           target: { area: { shape: refs.rules.sphere, size: 10 }, range: 60 },
           onFail: {
-            conditions: [refs.rules.poisoned],
-            also: ['Its speed is also halved while it’s ', refs.rules.poisoned, ' this way.'],
+            also: [{ effect: 'poisoned-smoke' }],
           },
         },
         uses: 1,

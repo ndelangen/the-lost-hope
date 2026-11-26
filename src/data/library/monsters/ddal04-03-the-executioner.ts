@@ -64,7 +64,18 @@ export default createPublicationMonsters({
             text: [
               'In hybrid form. If the target is a humanoid, it must succeed on a ',
               { dc: 'str', save: 'con' },
-              ' Constitution saving throw or be cursed with wereraven lycanthropy.',
+              ' Constitution saving throw or be cursed with ',
+              { effect: 'wereraven-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wereraven-lycanthropy',
+                name: 'Wereraven lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: ['Cursed with wereraven lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

@@ -306,11 +306,21 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '6d8', type: rules.fire }],
-                  also: ['The target’s Speed is halved until the end of its next turn.'],
+
+                  also: [{ effect: 'halved-speed' }],
                 },
               },
               text: [
                 'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
+              effects: [
+                {
+                  key: 'halved-speed',
+                  name: 'Halved speed',
+                  lands: { on: 'failed-save' },
+                  text: ['The target’s Speed is halved.'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -404,7 +414,20 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 60-foot Cone. Failure: The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn.',
+              ', each creature in a 60-foot Cone. Failure: ',
+              { effect: 'slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -445,13 +468,23 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 90, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '7d6', type: rules.psychic }],
-                  also: [
-                    'Until the end of its next turn, the target rolls 1d6 whenever it makes an ability check or attack roll and subtracts the number rolled from the D20 Test.',
-                  ],
+
+                  also: [{ effect: 'giggling' }],
                 },
               },
               text: [
                 'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
+              effects: [
+                {
+                  key: 'giggling',
+                  name: 'Giggling',
+                  lands: { on: 'failed-save' },
+                  text: [
+                    'The target rolls 1d6 whenever it makes an ability check or attack roll and subtracts the number rolled from the D20 Test.',
+                  ],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -614,11 +647,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 20 }, range: 90 },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.poison }],
-                  also: ['The target takes a −2 penalty to AC until the end of its next turn.'],
+
+                  also: [{ effect: 'ac-penalty' }],
                 },
               },
               text: [
                 'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
+              effects: [
+                {
+                  key: 'ac-penalty',
+                  name: 'AC penalty',
+                  lands: { on: 'failed-save' },
+                  text: ['The target takes a −2 penalty to AC.'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -729,11 +772,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 30 }, range: 120 },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.cold }],
-                  also: ['The target’s Speed is 0 until the end of the target’s next turn.'],
+
+                  also: [{ effect: 'speed-zero' }],
                 },
               },
               text: [
                 'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
+              effects: [
+                {
+                  key: 'speed-zero',
+                  name: 'Speed 0',
+                  lands: { on: 'failed-save' },
+                  text: ['The target’s Speed is 0.'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -992,11 +1045,34 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 90-foot Cone. Failure: The target has the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the ',
-              rules.unconscious,
-              ' condition for 10 minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.',
+              ', each creature in a 90-foot Cone. Failure: The target',
+              ' is ',
+              { effect: 'sleep-incapacitated' },
+              ', at which point it repeats the save. Second Failure: The target',
+              ' is ',
+              { effect: 'sleep-unconscious' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sleep-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+              {
+                key: 'sleep-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+                ends: {
+                  cure: [
+                    'it takes damage or a creature within 5 feet of it takes an action to wake it',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -1061,11 +1137,21 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '8d8', type: rules.fire }],
-                  also: ['The target’s Speed is halved until the end of its next turn.'],
+
+                  also: [{ effect: 'sand-speed' }],
                 },
               },
               text: [
                 'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
+              effects: [
+                {
+                  key: 'sand-speed',
+                  name: 'Speed halved',
+                  lands: { on: 'failed-save' },
+                  text: ['The target’s Speed is halved'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -1159,7 +1245,20 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 90-foot Cone. Failure: The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn.',
+              ', each creature in a 90-foot Cone. Failure: ',
+              { effect: 'slowed-by-breath' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowed-by-breath',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -1202,13 +1301,23 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '9d6', type: rules.psychic }],
-                  also: [
-                    'Until the end of its next turn, the target rolls 1d8 whenever it makes an ability check or attack roll and subtracts the number rolled from the D20 Test.',
-                  ],
+
+                  also: [{ effect: 'giggling' }],
                 },
               },
               text: [
                 'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
+              effects: [
+                {
+                  key: 'giggling',
+                  name: 'Giggling',
+                  lands: { on: 'failed-save' },
+                  text: [
+                    'The target rolls 1d8 whenever it makes an ability check or attack roll and subtracts the number rolled from the D20 Test.',
+                  ],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -1373,11 +1482,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 30 }, range: 90 },
                 onFail: {
                   damage: [{ dice: '5d6', type: rules.poison }],
-                  also: ['The target takes a −2 penalty to AC until the end of its next turn.'],
+
+                  also: [{ effect: 'noxious-ac' }],
                 },
               },
               text: [
                 'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
+              effects: [
+                {
+                  key: 'noxious-ac',
+                  name: 'AC penalty',
+                  lands: { on: 'failed-save' },
+                  text: ['The target takes a −2 penalty to AC'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -1488,12 +1607,22 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 30 }, range: 120 },
                 onFail: {
                   damage: [{ dice: '4d6', type: rules.cold }],
-                  also: ['The target’s Speed is 0 until the end of the target’s next turn.'],
+
+                  also: [{ effect: 'frozen-speed' }],
                 },
                 printedDc: 20,
               },
               text: [
                 'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
+              effects: [
+                {
+                  key: 'frozen-speed',
+                  name: 'Speed 0',
+                  lands: { on: 'failed-save' },
+                  text: ['The target’s Speed is 0'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -1735,10 +1864,15 @@ export default createPublicationMonsters({
                 { dice: '5d6', type: rules.poison },
               ],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              ' condition until the start of the assassin’s next turn.',
+            text: ['The target is ', { effect: 'shortsword-poison' }, '.'],
+            effects: [
+              {
+                key: 'shortsword-poison',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -2005,15 +2139,32 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 30-foot Cone. If the basilisk sees its reflection in the Cone, the basilisk must make this save. First Failure: The target has the ',
-              rules.restrained,
-              ' condition and repeats the save at the end of its next turn if it is still ',
-              rules.restrained,
-              ', ending the effect on itself on a success. Second Failure: The target has the ',
-              rules.petrified,
-              ' condition instead of the ',
-              rules.restrained,
-              ' condition.',
+              ', each creature in a 30-foot Cone. If the basilisk sees its reflection in the Cone, the basilisk must make this save. First Failure: The target',
+              ' is ',
+              { effect: 'gaze-restrained' },
+              '. Second Failure: The target',
+              ' is ',
+              { effect: 'gaze-petrified' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'gaze-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                text: ['repeats the save at the end of its next turn if it is still'],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+              {
+                key: 'gaze-petrified',
+                name: 'Petrified',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.petrified],
+                text: ['instead of the ', rules.restrained, ' condition'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
@@ -2380,12 +2531,16 @@ export default createPublicationMonsters({
                 { dice: '4d8', type: rules.poison },
               ],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              ' condition until the start of the devil’s next turn. While ',
-              rules.poisoned,
-              ', the target can’t regain Hit Points.',
+            text: ['The target is ', { effect: 'infernal-sting-poison' }, '.'],
+            effects: [
+              {
+                key: 'infernal-sting-poison',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                text: ['While ', rules.poisoned, ', the target can’t regain Hit Points.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
         ],
@@ -2449,11 +2604,32 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 15-foot Cone. Failure: The target has the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the ',
-              rules.unconscious,
-              ' condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.',
+              ', each creature in a 15-foot Cone. Failure: The target',
+              ' is ',
+              { effect: 'sleep-breath-incapacitated' },
+              ', at which point it repeats the save. Second Failure: The target',
+              ' is ',
+              { effect: 'sleep-breath-unconscious' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sleep-breath-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+              {
+                key: 'sleep-breath-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                text: [
+                  'This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -2531,9 +2707,19 @@ export default createPublicationMonsters({
             text: [
               'Strength Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 30-foot Cone. Failure: The target is pushed up to 30 feet straight away from the dragon and has the ',
-              rules.prone,
-              ' condition.',
+              ', each creature in a 30-foot Cone. Failure: The target is pushed up to 30 feet straight away from the dragon and',
+              ' is ',
+              { effect: 'repulsion-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'repulsion-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2612,9 +2798,20 @@ export default createPublicationMonsters({
             text: [
               'Dexterity Saving Throw: ',
               { dc: 'str' },
-              ', one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the ',
-              rules.grappled,
-              ' condition (escape DC 13).',
+              ', one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target',
+              ' is ',
+              { effect: 'grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str' } },
+              },
             ],
           },
         ],
@@ -2656,9 +2853,20 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 12).',
+              'If the target is a Medium or smaller creature, it',
+              ' is ',
+              { effect: 'grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: ['Escape DC 12.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2743,11 +2951,30 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 14) from one of two chains, and it has the ',
-              rules.restrained,
-              ' condition until the grapple ends.',
+              'If the target is a Large or smaller creature, it',
+              ' is ',
+              { effect: 'chain-grappled' },
+              ' from one of two chains, and it',
+              ' is ',
+              { effect: 'chain-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'chain-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: ['Escape DC 14.'],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'chain-restrained',
+                name: 'Restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until', text: ['the grapple ends'] },
+              },
             ],
           },
           {
@@ -2762,15 +2989,27 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60, which: 'the devil can see' },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.fire, addModifier: true }],
+
                 also: [
-                  'The target has the ',
-                  rules.restrained,
-                  ' condition until the end of the devil’s next turn, at which point the chain disappears. If the target is Large or smaller, the devil moves the target up to 30 feet straight toward itself.',
+                  'The target',
+                  ' is ',
+                  { effect: 'infernal-chain' },
+                  '. If the target is Large or smaller, the devil moves the target up to 30 feet straight toward itself.',
                 ],
               },
             },
             text: [
               'The devil conjures a fiery chain to bind a creature.   Success: The chain disappears.',
+            ],
+            effects: [
+              {
+                key: 'infernal-chain',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                text: ['At which point the chain disappears.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -2781,9 +3020,19 @@ export default createPublicationMonsters({
             text: [
               'Trigger: A creature the devil can see starts its turn within 30 feet of the devil and can see the devil. Response—Wisdom Saving Throw: ',
               { dc: 'con' },
-              ', the triggering creature. Failure: The target has the ',
-              rules.frightened,
-              ' condition until the end of its turn. Success: The target is immune to this devil’s Unnerving Gaze for 24 hours.',
+              ', the triggering creature. Failure: The target',
+              ' is ',
+              { effect: 'unnerving-gaze-frightened' },
+              '. Success: The target is immune to this devil’s Unnerving Gaze for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'unnerving-gaze-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -2944,9 +3193,22 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d6', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, the cloaker attaches to it. While the cloaker is attached, the target has the ',
-              rules.blinded,
-              ' condition, and the cloaker can’t make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage. The cloaker can detach itself by spending 5 feet of movement. The target or a creature within 5 feet of it can take an action to try to detach the cloaker, doing so by succeeding on a DC 14 Strength (Athletics) check.',
+              'If the target is a Large or smaller creature, the cloaker attaches to it.',
+              ' The target is ',
+              { effect: 'cloaker-attached' },
+              '. The cloaker can detach itself by spending 5 feet of movement. The target or a creature within 5 feet of it can take an action to try to detach the cloaker, doing so by succeeding on a DC 14 Strength (Athletics) check.',
+            ],
+            effects: [
+              {
+                key: 'cloaker-attached',
+                name: 'Attached',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded],
+                text: [
+                  'The cloaker can’t make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2970,9 +3232,19 @@ export default createPublicationMonsters({
             text: [
               'Wisdom Saving Throw: ',
               { dc: 'wis' },
-              ', each creature in a 60-foot Emanation originating from the cloaker. Failure: The target has the ',
-              rules.frightened,
-              ' condition until the end of the cloaker’s next turn. Success: The target is immune to this cloaker’s Moan for the next 24 hours.',
+              ', each creature in a 60-foot Emanation originating from the cloaker. Failure: The target',
+              ' is ',
+              { effect: 'moan-frightened' },
+              '. Success: The target is immune to this cloaker’s Moan for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'moan-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -3052,10 +3324,15 @@ export default createPublicationMonsters({
               range: [240, 240],
               damage: [{ dice: '3d6', type: rules.thunder, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn.',
+            text: ['The target is ', { effect: 'thundercloud-incapacitated' }, '.'],
+            effects: [
+              {
+                key: 'thundercloud-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'hit' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -3178,9 +3455,20 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '3d4', type: rules.bludgeoning }],
-                also: ['The target has the ', rules.grappled, ' condition (escape DC 12).'],
+
+                also: ['The target is ', { effect: 'constrict-grappled' }, '.'],
               },
             },
+            effects: [
+              {
+                key: 'constrict-grappled',
+                name: 'Grappled',
+                lands: { on: 'failed-save' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str' } },
+              },
+            ],
           },
         ],
       },
@@ -3243,7 +3531,20 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 15-foot Cone. Failure: The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn.',
+              ', each creature in a 15-foot Cone. Failure: ',
+              { effect: 'slowing-breath' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowing-breath',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -3287,10 +3588,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d12', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              ' condition until the end of the couatl’s next turn.',
+            text: ['The target is ', { effect: 'bite-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'bite-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -3309,15 +3615,20 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
-                also: [
-                  'The target has the ',
-                  rules.grappled,
-                  ' condition (escape DC 13), and it has the ',
-                  rules.restrained,
-                  ' condition until the grapple ends.',
-                ],
+
+                also: [{ effect: 'constricted' }],
               },
             },
+            effects: [
+              {
+                key: 'constricted',
+                name: 'Constricted',
+                lands: { on: 'failed-save' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
+            ],
           },
           {
             key: 'spellcasting',
@@ -3404,13 +3715,20 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 12). While ',
-              rules.grappled,
-              ', the target has the ',
-              rules.restrained,
-              ' condition.',
+              'If the target is a Medium or smaller creature, it',
+              ' is ',
+              { effect: 'grabbed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
         ],
@@ -3675,9 +3993,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Large or smaller creature, it',
+              ' is ',
+              { effect: 'prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -3747,9 +4075,20 @@ export default createPublicationMonsters({
             text: [
               'Wisdom Saving Throw: ',
               { dc: 'cha' },
-              ', each creature in a 15-foot Emanation originating from the doppelganger that can see the doppelganger. Failure: The target has the ',
-              rules.frightened,
-              ' condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              ', each creature in a 15-foot Emanation originating from the doppelganger that can see the doppelganger. Failure: ',
+              { effect: 'frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                text: ['After 1 minute, it succeeds automatically.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -3862,9 +4201,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d10', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the target is a Huge or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Huge or smaller creature, it',
+              ' is ',
+              { effect: 'prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3947,9 +4296,18 @@ export default createPublicationMonsters({
             text: [
               'Dexterity Saving Throw: ',
               { dc: 'cha' },
-              ', each creature in a 15-foot Cone. Failure: The target has the ',
-              rules.blinded,
-              ' condition until the end of the mephit’s next turn.',
+              ', each creature in a 15-foot Cone. Failure: ',
+              { effect: 'blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -4080,9 +4438,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Large or smaller creature, it',
+              ' is ',
+              { effect: 'prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -4237,9 +4605,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d8', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target',
+              ' is ',
+              { effect: 'prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4348,13 +4726,24 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120, which: 'the erinyes can see' },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.force }],
-                also: [
-                  'The target has the ',
-                  rules.restrained,
-                  ' condition until the rope is destroyed, the erinyes uses a Bonus Action to release the target, or the erinyes uses Entangling Rope again.',
-                ],
+
+                also: [{ effect: 'entangled' }],
               },
             },
+            effects: [
+              {
+                key: 'entangled',
+                name: 'Entangled',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the rope is destroyed, the erinyes uses a Bonus Action to release the target, or the erinyes uses Entangling Rope again',
+                  ],
+                },
+              },
+            ],
           },
           {
             key: 'parry',
@@ -4429,10 +4818,15 @@ export default createPublicationMonsters({
                 { dice: '1d4', type: rules.poison },
               ],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              ' condition until the start of the ettercap’s next turn.',
+            text: ['The target is ', { effect: 'poisoned' }, '.'],
+            effects: [
+              {
+                key: 'poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -4456,9 +4850,18 @@ export default createPublicationMonsters({
             text: [
               'Dexterity Saving Throw: ',
               { dc: 'str' },
-              ', one Large or smaller creature the ettercap can see within 30 feet. Failure: The target has the ',
-              rules.restrained,
-              ' condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage).',
+              ', one Large or smaller creature the ettercap can see within 30 feet. Failure: ',
+              { effect: 'webbed' },
+              ' (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage).',
+            ],
+            effects: [
+              {
+                key: 'webbed',
+                name: 'Webbed',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until', text: ['the web is destroyed'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4528,9 +4931,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d8', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Large or smaller creature, ',
+              'it is ',
+              { effect: 'battleaxe-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'battleaxe-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4809,15 +5222,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 5 } },
               onFail: {
                 damage: [{ dice: '7d6', type: rules.bludgeoning }],
+
                 also: [
-                  'If the target is a Large or smaller creature, it has the ',
-                  rules.prone,
-                  ' condition.',
+                  'If the target is a Large or smaller creature, ',
+                  'it is ',
+                  { effect: 'boulder-prone' },
+                  '.',
                 ],
               },
               onSuccess: 'half',
             },
             text: ['The ape hurls a boulder at a point it can see within 90 feet.'],
+            effects: [
+              {
+                key: 'boulder-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 6',
           },
@@ -4920,9 +5344,20 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.bludgeoning, addModifier: true }],
-                also: ['The target has the ', rules.grappled, ' condition (escape DC 14).'],
+
+                also: [{ effect: 'constricted' }],
               },
             },
+            effects: [
+              {
+                key: 'constricted',
+                name: 'Grappled',
+                lands: { on: 'failed-save' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
+            ],
           },
         ],
       },
@@ -4974,15 +5409,25 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d10', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 15). While ',
+              'If the target is a Large or smaller creature, ',
+              { effect: 'bite-grappled' },
+              '. While ',
               rules.grappled,
               ', the target has the ',
               rules.restrained,
               ' condition and can’t be targeted by the crocodile’s ',
               { ability: 'tail' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -4998,9 +5443,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d8', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Large or smaller creature, ',
+              'it is ',
+              { effect: 'tail-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -5244,9 +5699,18 @@ export default createPublicationMonsters({
             text: [
               'Dexterity Saving Throw: ',
               { dc: 'dex' },
-              ', one creature the spider can see within 60 feet. Failure: The target has the ',
-              rules.restrained,
-              ' condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).',
+              ', one creature the spider can see within 60 feet. Failure: ',
+              { effect: 'webbed' },
+              ' (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).',
+            ],
+            effects: [
+              {
+                key: 'webbed',
+                name: 'Webbed',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until', text: ['the web is destroyed'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -5406,7 +5870,20 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition. Wisdom Saving Throw: ',
               { dc: 'str' },
-              ', any creature that starts its turn within 20 feet of the mouther while it is babbling. Failure: The target rolls 1d8 to determine what it does during the current turn: 1–4. The target does nothing. 5–6. The target takes no action or Bonus Action and uses all its movement to move in a random direction. 7–8. The target makes a melee attack against a randomly determined creature within its reach or does nothing if it can’t make such an attack.',
+              ', any creature that starts its turn within 20 feet of the mouther while it is babbling. Failure: ',
+              { effect: 'babbling' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'babbling',
+                name: 'Babbling',
+                lands: { on: 'save', save: 'wis', dc: 'str' },
+                text: [
+                  'The target rolls 1d8 to determine what it does during the current turn: 1–4. The target does nothing. 5–6. The target takes no action or Bonus Action and uses all its movement to move in a random direction. 7–8. The target makes a melee attack against a randomly determined creature within its reach or does nothing if it can’t make such an attack.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -5422,9 +5899,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.prone,
-              ' condition. The target dies if it is reduced to 0 Hit Points by this attack. Its body is then absorbed into the mouther, leaving only equipment behind.',
+              'If the target is a Medium or smaller creature, ',
+              'it is ',
+              { effect: 'bite-prone' },
+              '. The target dies if it is reduced to 0 Hit Points by this attack. Its body is then absorbed into the mouther, leaving only equipment behind.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5439,15 +5926,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 10 }, range: 30 },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.radiant }],
-                also: [
-                  'The target has the ',
-                  rules.blinded,
-                  ' condition until the end of the mouther’s next turn.',
-                ],
+
+                also: [{ effect: 'spittle-blinded' }],
               },
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'spittle-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -5507,13 +6000,24 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5, which: 'that the gladiator can see' },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.bludgeoning, addModifier: true }],
+
                 also: [
-                  'If the target is a Medium or smaller creature, it has the ',
-                  rules.prone,
-                  ' condition.',
+                  'If the target is a Medium or smaller creature, ',
+                  'it is ',
+                  { effect: 'shield-prone' },
+                  '.',
                 ],
               },
             },
+            effects: [
+              {
+                key: 'shield-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'parry',
@@ -5738,9 +6242,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d12', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature and the gorgon moved 20+ feet straight toward it immediately before the hit, the target has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Large or smaller creature and the gorgon moved 20+ feet straight toward it immediately before the hit, ',
+              'the target is ',
+              { effect: 'gore-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'gore-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5751,15 +6265,35 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 30-foot Cone. First Failure: The target has the ',
-              rules.restrained,
-              ' condition and repeats the save at the end of its next turn if it is still ',
-              rules.restrained,
-              ', ending the effect on itself on a success. Second Failure: The target has the ',
-              rules.petrified,
-              ' condition instead of the ',
+              ', each creature in a 30-foot Cone. First Failure: ',
+              { effect: 'breath-restrained' },
+              '. Second Failure: ',
+              { effect: 'breath-petrified' },
+              ' instead of the ',
               rules.restrained,
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'breath-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                text: [
+                  'Repeats the save at the end of its next turn if it is still ',
+                  rules.restrained,
+                  ', ending the effect on itself on a success.',
+                ],
+              },
+              {
+                key: 'breath-petrified',
+                name: 'Petrified',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.petrified],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -6102,14 +6636,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60, which: 'the naga can see' },
               onFail: {
                 damage: [{ dice: '7d8', type: rules.poison }],
-                also: [
-                  'The target has the ',
-                  rules.blinded,
-                  ' condition until the start of the naga’s next turn.',
-                ],
+
+                also: [{ effect: 'spittle-blinded' }],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'spittle-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'spellcasting',
@@ -6253,9 +6793,19 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', any creature that starts its turn in a 10-foot Emanation originating from the hezrou. Failure: The target has the ',
-              rules.poisoned,
-              ' condition until the start of its next turn.',
+              ', any creature that starts its turn in a 10-foot Emanation originating from the hezrou. Failure: The target ',
+              'is ',
+              { effect: 'stench-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stench-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -6332,9 +6882,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d8', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Large or smaller creature, it ',
+              'is ',
+              { effect: 'tree-club-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tree-club-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6349,10 +6909,15 @@ export default createPublicationMonsters({
               range: [60, 240],
               damage: [{ dice: '2d10', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              ' condition until the end of its next turn.',
+            text: ['The target is ', { effect: 'trash-poison' }, '.'],
+            effects: [
+              {
+                key: 'trash-poison',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -7113,15 +7678,19 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5, which: 'the lamia can see' },
               onFail: {
                 damage: [{ dice: '3d8', type: rules.psychic }],
-                also: [
-                  'The target is cursed for 1 hour. Until the curse ends, the target has the ',
-                  rules.charmed,
-                  ' and ',
-                  rules.poisoned,
-                  ' conditions.',
-                ],
+
+                also: [{ effect: 'corrupting-curse' }],
               },
             },
+            effects: [
+              {
+                key: 'corrupting-curse',
+                name: 'Cursed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.charmed, rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
+            ],
           },
           {
             key: 'spellcasting',
@@ -7220,9 +7789,19 @@ export default createPublicationMonsters({
             text: [
               'Wisdom Saving Throw: ',
               { dc: 'wis' },
-              ', one creature within 15 feet. Failure: The target has the ',
-              rules.frightened,
-              ' condition until the start of the lion’s next turn.',
+              ', one creature within 15 feet. Failure: The target ',
+              'is ',
+              { effect: 'roar-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'roar-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
         ],
@@ -7434,9 +8013,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d10', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target ',
+              'is ',
+              { effect: 'gore-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'gore-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -7549,15 +8138,20 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '2d10', type: rules.bludgeoning, addModifier: true }],
-                also: [
-                  'The target has the ',
-                  rules.grappled,
-                  ' condition (escape DC 14), and it has the ',
-                  rules.restrained,
-                  ' condition until the grapple ends.',
-                ],
+
+                also: [{ effect: 'grappled' }],
               },
             },
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
+            ],
           },
           {
             key: 'teleport',
@@ -7609,9 +8203,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Medium or smaller creature, it ',
+              'is ',
+              { effect: 'prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -7736,15 +8340,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 } },
               onFail: {
                 damage: [{ dice: '8d6', type: rules.psychic }],
-                also: [
-                  'The target has the ',
-                  rules.frightened,
-                  ' condition for 1 minute, until it takes damage, or until it ends its turn with the nalfeshnee out of line of sight.',
-                ],
+
+                also: [{ effect: 'frightened' }],
               },
             },
             text: [
               'Success: The target is immune to this nalfeshnee’s Horror Nimbus for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '1 minute, until it takes damage, or until it ends its turn with the nalfeshnee out of line of sight',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -8090,9 +8705,19 @@ export default createPublicationMonsters({
             text: [
               'Wisdom Saving Throw: ',
               { dc: 'cha' },
-              ', one creature the pirate can see within 30 feet. Failure: The target has the ',
-              rules.charmed,
-              ' condition until the start of the pirate’s next turn.',
+              ', one creature the pirate can see within 30 feet. Failure: The target ',
+              'is ',
+              { effect: 'charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
         ],
@@ -8164,9 +8789,19 @@ export default createPublicationMonsters({
             text: [
               'Wisdom Saving Throw: ',
               { dc: 'cha' },
-              ', one creature the pirate can see within 30 feet. Failure: The target has the ',
-              rules.charmed,
-              ' condition until the start of the pirate’s next turn.',
+              ', one creature the pirate can see within 30 feet. Failure: The target ',
+              'is ',
+              { effect: 'charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -8483,17 +9118,34 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5, which: 'the pseudodragon can see' },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.poison }],
+
                 also: [
-                  'The target has the ',
-                  rules.poisoned,
-                  ' condition for 1 hour. Failure by 5 or More: While ',
-                  rules.poisoned,
-                  ', the target also has the ',
-                  rules.unconscious,
-                  ' condition, which ends early if the target takes damage or a creature within 5 feet of it takes an action to wake it.',
+                  { effect: 'poisoned' },
+                  '. Failure by 5 or More: ',
+                  { effect: 'unconscious' },
+                  '.',
                 ],
               },
             },
+            effects: [
+              {
+                key: 'poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
+              {
+                key: 'unconscious',
+                name: 'Unconscious',
+                lands: { on: 'failed-save' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'which ends early if the target takes damage or a creature within 5 feet of it takes an action to wake it.',
+                ],
+              },
+            ],
           },
         ],
       },
@@ -8578,10 +9230,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d4', type: rules.slashing, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              ' condition until the start of the quasit’s next turn.',
+            text: ['The target is ', { effect: 'poisoned' }, '.'],
+            effects: [
+              {
+                key: 'poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -8603,9 +9260,21 @@ export default createPublicationMonsters({
             text: [
               'Wisdom Saving Throw: ',
               { dc: 'cha' },
-              ', one creature within 20 feet. Failure: The target has the ',
-              rules.frightened,
-              ' condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              ', one creature within 20 feet. Failure: The target ',
+              'is ',
+              { effect: 'frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+                text: ['After 1 minute, it succeeds automatically.'],
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -8897,11 +9566,21 @@ export default createPublicationMonsters({
               damage: [{ dice: '4d6', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'If the target is a Huge or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 19) from both talons, and it has the ',
-              rules.restrained,
-              ' condition until the grapple ends.',
+              'If the target is a Huge or smaller creature, it ',
+              'is ',
+              { effect: 'grappled' },
+              ' from both talons',
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 19 } },
+              },
             ],
           },
           {
@@ -9208,11 +9887,31 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 15-foot Cone. First Failure: The target has the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn, when it repeats the save. Second Failure: The target has the ',
-              rules.paralyzed,
-              ' condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              ', each creature in a 15-foot Cone. First Failure: The target ',
+              'is ',
+              { effect: 'incapacitated' },
+              ', when it repeats the save. Second Failure: The target ',
+              'is ',
+              { effect: 'paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+              {
+                key: 'paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+                text: ['After 1 minute, it succeeds automatically.'],
+              },
             ],
           },
         ],
@@ -9554,14 +10253,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.fire }],
-                also: [
-                  'The target’s Speed decreases by 10 feet until the end of the mephit’s next turn.',
-                ],
+
+                also: [{ effect: 'reduced-speed' }],
               },
               onSuccess: 'half',
             },
             text: [
               'Failure or Success: Being underwater doesn’t grant Resistance to this Fire damage.',
+            ],
+            effects: [
+              {
+                key: 'reduced-speed',
+                name: 'Reduced speed',
+                lands: { on: 'failed-save' },
+                text: ['The target’s Speed decreases by 10 feet.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -9698,9 +10405,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Large or smaller creature, ',
+              'it is ',
+              { effect: 'prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -10064,9 +10781,20 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 14) from one of two hands.',
+              'If the target is a Large or smaller creature, ',
+              'it is ',
+              { effect: 'grappled' },
+              ' from one of two hands.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -10240,9 +10968,20 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d4', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 13) from one of two claws.',
+              'If the target is a Medium or smaller creature, ',
+              'it is ',
+              { effect: 'grappled' },
+              ' from one of two claws.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -10429,7 +11168,20 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: ',
               { dc: 'con' },
-              '. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werebear under the GM’s control and has 10 Hit Points. Success: The target is immune to this werebear’s curse for 24 hours.',
+              '. Failure: ',
+              { effect: 'werebear-curse' },
+              '. Success: The target is immune to this werebear’s curse for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'werebear-curse',
+                name: 'Werebear curse',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'If the cursed target drops to 0 Hit Points, it instead becomes a Werebear under the GM’s control and has 10 Hit Points.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -10513,7 +11265,20 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: ',
               { dc: 'con' },
-              '. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wererat under the GM’s control and has 10 Hit Points. Success: The target is immune to this wererat’s curse for 24 hours.',
+              '. Failure: ',
+              { effect: 'wererat-curse' },
+              '. Success: The target is immune to this wererat’s curse for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'wererat-curse',
+                name: 'Wererat curse',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'If the cursed target drops to 0 Hit Points, it instead becomes a Wererat under the GM’s control and has 10 Hit Points.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -10596,7 +11361,20 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: ',
               { dc: 'con' },
-              '. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Weretiger under the GM’s control and has 10 Hit Points. Success: The target is immune to this weretiger’s curse for 24 hours.',
+              '. Failure: ',
+              { effect: 'weretiger-curse' },
+              '. Success: The target is immune to this weretiger’s curse for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'weretiger-curse',
+                name: 'Weretiger curse',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'If the cursed target drops to 0 Hit Points, it instead becomes a Weretiger under the GM’s control and has 10 Hit Points.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -10700,7 +11478,20 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: ',
               { dc: 'con' },
-              '. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werewolf under the GM’s control and has 10 Hit Points. Success: The target is immune to this werewolf’s curse for 24 hours.',
+              '. Failure: ',
+              { effect: 'werewolf-curse' },
+              '. Success: The target is immune to this werewolf’s curse for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'werewolf-curse',
+                name: 'Cursed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'If the cursed target drops to 0 Hit Points, it instead becomes a Werewolf under the GM’s control and has 10 Hit Points.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -10900,12 +11691,25 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5 },
               onFail: {
                 damage: [{ dice: '1d8', type: rules.necrotic, addModifier: true }],
+
                 also: [
-                  'The target’s Hit Point maximum decreases by an amount equal to the damage taken. A Humanoid slain by this attack rises 24 hours later as a Zombie under the wight’s control, unless the Humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at a time.',
+                  { effect: 'reduced-hit-point-maximum' },
+                  '. A Humanoid slain by this attack rises 24 hours later as a Zombie under the wight’s control, unless the Humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at a time.',
                 ],
               },
               printedDc: 13,
             },
+            effects: [
+              {
+                key: 'reduced-hit-point-maximum',
+                name: 'Reduced Hit Point maximum',
+                lands: { on: 'failed-save' },
+                text: [
+                  'The target’s Hit Point maximum decreases by an amount equal to the damage taken.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
       },
@@ -10950,8 +11754,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -11179,11 +11992,32 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 30-foot Cone. Failure: The target has the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the ',
-              rules.unconscious,
-              ' condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.',
+              ', each creature in a 30-foot Cone. Failure: ',
+              { effect: 'sleep-incapacitated' },
+              ', at which point it repeats the save. Second Failure: ',
+              { effect: 'sleep-unconscious' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sleep-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+              {
+                key: 'sleep-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: {
+                  cure: [
+                    'it takes damage or a creature within 5 feet of it takes an action to wake it',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -11268,8 +12102,17 @@ export default createPublicationMonsters({
               'Strength Saving Throw: ',
               { dc: 'con' },
               ', each creature in a 30-foot Cone. Failure: The target is pushed up to 40 feet straight away from the dragon and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'repulsion-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'repulsion-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -11346,7 +12189,20 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 30-foot Cone. Failure: The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn.',
+              ', each creature in a 30-foot Cone. Failure: ',
+              { effect: 'slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -11557,11 +12413,29 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 30-foot Cone. First Failure: The target has the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn, when it repeats the save. Second Failure: The target has the ',
-              rules.paralyzed,
-              ' condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              ', each creature in a 30-foot Cone. First Failure: ',
+              { effect: 'paralyzing-incapacitated' },
+              ', when it repeats the save. Second Failure: ',
+              { effect: 'paralyzing-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+              {
+                key: 'paralyzing-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                text: ['After 1 minute, it succeeds automatically.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
