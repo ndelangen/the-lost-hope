@@ -10,12 +10,13 @@
  * - `POST /__dm/npc/portrait`        starts or retries that job
  * - `POST /__dm/tokens`              adds or removes one of a PC's DM or curse tokens
  */
-import { spawn } from 'node:child_process'
+import { execFile, spawn } from 'node:child_process'
 import { existsSync } from 'node:fs'
 import { copyFile, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import { tmpdir } from 'node:os'
 import path from 'node:path'
+import { promisify } from 'node:util'
 
 import type { Plugin, ViteDevServer } from 'vite'
 
@@ -234,7 +235,25 @@ async function registered(key: string) {
   return new RegExp(`ref\\(\\s*'npc',\\s*'${key}',?\\s*\\)`).test(generated)
 }
 
-const REFERENCE_AVATARS = ['sarogarth.png', 'bob-the-merchant.png']
+type ArtStyleBrief = {
+  guide: string[]
+  references: { name: string; file: string; present: boolean }[]
+}
+
+/**
+ * The portrait style from `src/data/dm/art-styles.ts`: its guide and reference portraits. Read
+ * through the script on every job, so a change to the picks applies without restarting Vite.
+ */
+async function portraitStyle(): Promise<ArtStyleBrief> {
+  const { stdout } = await promisify(execFile)(
+    'bun',
+    ['scripts/art-style.ts', 'portrait', '--json'],
+    {
+      cwd: ROOT,
+    },
+  )
+  return JSON.parse(stdout) as ArtStyleBrief
+}
 
 const TOKENS_MODULE = '/src/data/dm/tokens.ts'
 const TOKENS_PATH = path.resolve('src/data/dm/tokens.ts')
@@ -257,13 +276,13 @@ export function dmAuthoringPlugin(): Plugin {
     void (async () => {
       const scratch = await mkdtemp(path.join(tmpdir(), 'dm-portrait-'))
       try {
+        const style = await portraitStyle()
+        const references = style.references
+          .filter(({ present }) => present)
+          .map(({ file }, index) => ({ file, name: `reference-${index + 1}${path.extname(file)}` }))
+        if (references.length === 0) throw new Error('The portrait style has no reference files')
         await Promise.all(
-          REFERENCE_AVATARS.map((avatar) =>
-            copyFile(
-              path.join(ROOT, 'assets/images/content/npcs', avatar),
-              path.join(scratch, avatar),
-            ),
-          ),
+          references.map(({ file, name }) => copyFile(file, path.join(scratch, name))),
         )
         await runCodex({
           cwd: scratch,
@@ -272,7 +291,9 @@ export function dmAuthoringPlugin(): Plugin {
           prompt: [
             `Generate a square portrait for ${npc.name}, an NPC in a fantasy campaign, with your built-in image generation tool.`,
             `Look: ${description}`,
-            `Match the painted style of ${REFERENCE_AVATARS.join(' and ')} in this folder: head and shoulders, face clearly visible, works as a circular thumbnail.`,
+            `Match the painted style of the reference portraits in this folder (${references.map(({ name }) => name).join(', ')}). Copy their look, not their subjects.`,
+            'House style:',
+            ...style.guide.map((line) => `- ${line}`),
             'Save exactly one square PNG named portrait.png in this folder.',
           ].join('\n'),
         })

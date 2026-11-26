@@ -1,10 +1,12 @@
 ---
 name: campaign-images
 description: >-
-  Add, revise, remove or use campaign artwork (NPC/PC/beast portraits, location illustrations,
-  maps, scene art, handouts). Covers where originals go, registering them, uploading them to R2
-  with media:sync, pointing campaign data at them, and fixing image sync errors. Use whenever a
-  task creates or changes a raster under assets/images/ or makes a record show an image.
+  Generate, add, revise, remove or use campaign artwork (NPC/PC/beast portraits, location
+  illustrations, battlemaps, area maps, scene art, items, library creatures, handouts). Covers the
+  house style and reference pictures for each kind of art, where originals go, registering them,
+  uploading them to R2 with media:sync, pointing campaign data at them, and fixing image sync
+  errors. Use whenever a task generates art, creates or changes a raster under assets/images/, or
+  makes a record show an image.
 ---
 
 # Campaign images
@@ -22,9 +24,25 @@ Three places hold an image's facts, each owning a different one:
   `logicalSource` string exactly.
 - `assets/images.lock.json` is derived by `media:sync`. Never edit it by hand.
 
+## Match the house style
+
+Each kind of art has a house style in `src/data/dm/art-styles.ts`: a guide and about five
+reference pictures the DM chose (`/dm/tools/art-styles` shows them). Before generating, run
+`bun run art:style <style>` (no argument lists the styles). It prints the guide and the reference
+files: give those files to the image generator as visual references and follow the guide. Then
+compare the result side by side with the references and regenerate a poor match.
+
+Claude cannot paint images itself. Generate through Codex's built-in image generation, as the DM
+screen's portrait tool does (`runCodex` in `scripts/dm-authoring.ts`): run `codex exec` in a
+scratch folder that holds copies of the reference files, and install what it saves.
+
+To change a style, edit its record: references are refs to the record that owns the picture
+(`refs.npcs.borris`, a location, an event or scene, or a library slug), never file paths.
+
 ## Add an image
 
-1. Make or receive the art. Keep drafts, prompts and uncropped backups in `output/` (ignored).
+1. Make or receive the art in the house style (above). Keep drafts, prompts and uncropped backups
+   in `output/` (ignored).
 2. Shape it for its role, following AGENTS.md "Map artwork":
    - avatar: square, cropped so the face reads in a circular thumbnail; never stretch.
    - map: 3:2 landscape, new art at 1536 by 1024; store real dimensions in the location's `map`.

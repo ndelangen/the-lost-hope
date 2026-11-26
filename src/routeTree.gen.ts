@@ -44,6 +44,7 @@ import { Route as DmNpcsSlugRouteImport } from './routes/dm/npcs/$slug'
 import { Route as DmNpcsNewRouteImport } from './routes/dm/npcs/new'
 import { Route as DmScenesIndexRouteImport } from './routes/dm/scenes/index'
 import { Route as DmScenesSlugRouteImport } from './routes/dm/scenes/$slug'
+import { Route as DmToolsArtStylesRouteImport } from './routes/dm/tools/art-styles'
 import { Route as DmToolsDeckOfManyThingsRouteImport } from './routes/dm/tools/deck-of-many-things'
 import { Route as DmToolsFightSimsRouteImport } from './routes/dm/tools/fight-sims'
 import { Route as EffectsDetailSlugRouteImport } from './routes/effects/detail.$slug'
@@ -238,6 +239,11 @@ const DmScenesSlugRoute = DmScenesSlugRouteImport.update({
   path: '/scenes/$slug',
   getParentRoute: () => DmRouteRoute,
 } as any)
+const DmToolsArtStylesRoute = DmToolsArtStylesRouteImport.update({
+  id: '/tools/art-styles',
+  path: '/tools/art-styles',
+  getParentRoute: () => DmRouteRoute,
+} as any)
 const DmToolsDeckOfManyThingsRoute = DmToolsDeckOfManyThingsRouteImport.update({
   id: '/tools/deck-of-many-things',
   path: '/tools/deck-of-many-things',
@@ -363,6 +369,7 @@ export interface FileRoutesByFullPath {
   '/dm/npcs/$slug': typeof DmNpcsSlugRoute
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
+  '/dm/tools/art-styles': typeof DmToolsArtStylesRoute
   '/dm/tools/deck-of-many-things': typeof DmToolsDeckOfManyThingsRoute
   '/dm/tools/fight-sims': typeof DmToolsFightSimsRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
@@ -417,6 +424,7 @@ export interface FileRoutesByTo {
   '/dm/npcs/$slug': typeof DmNpcsSlugRoute
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
+  '/dm/tools/art-styles': typeof DmToolsArtStylesRoute
   '/dm/tools/deck-of-many-things': typeof DmToolsDeckOfManyThingsRoute
   '/dm/tools/fight-sims': typeof DmToolsFightSimsRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
@@ -473,6 +481,7 @@ export interface FileRoutesById {
   '/dm/npcs/$slug': typeof DmNpcsSlugRoute
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
+  '/dm/tools/art-styles': typeof DmToolsArtStylesRoute
   '/dm/tools/deck-of-many-things': typeof DmToolsDeckOfManyThingsRoute
   '/dm/tools/fight-sims': typeof DmToolsFightSimsRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
@@ -530,6 +539,7 @@ export interface FileRouteTypes {
     | '/dm/npcs/$slug'
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
+    | '/dm/tools/art-styles'
     | '/dm/tools/deck-of-many-things'
     | '/dm/tools/fight-sims'
     | '/effects/detail/$slug'
@@ -584,6 +594,7 @@ export interface FileRouteTypes {
     | '/dm/npcs/$slug'
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
+    | '/dm/tools/art-styles'
     | '/dm/tools/deck-of-many-things'
     | '/dm/tools/fight-sims'
     | '/effects/detail/$slug'
@@ -639,6 +650,7 @@ export interface FileRouteTypes {
     | '/dm/npcs/$slug'
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
+    | '/dm/tools/art-styles'
     | '/dm/tools/deck-of-many-things'
     | '/dm/tools/fight-sims'
     | '/effects/detail/$slug'
@@ -953,6 +965,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DmScenesSlugRouteImport
       parentRoute: typeof DmRouteRoute
     }
+    '/dm/tools/art-styles': {
+      id: '/dm/tools/art-styles'
+      path: '/tools/art-styles'
+      fullPath: '/dm/tools/art-styles'
+      preLoaderRoute: typeof DmToolsArtStylesRouteImport
+      parentRoute: typeof DmRouteRoute
+    }
     '/dm/tools/deck-of-many-things': {
       id: '/dm/tools/deck-of-many-things'
       path: '/tools/deck-of-many-things'
@@ -1090,6 +1109,7 @@ interface DmRouteRouteChildren {
   DmNpcsSlugRoute: typeof DmNpcsSlugRoute
   DmNpcsNewRoute: typeof DmNpcsNewRoute
   DmScenesSlugRoute: typeof DmScenesSlugRoute
+  DmToolsArtStylesRoute: typeof DmToolsArtStylesRoute
   DmToolsDeckOfManyThingsRoute: typeof DmToolsDeckOfManyThingsRoute
   DmToolsFightSimsRoute: typeof DmToolsFightSimsRoute
   DmArcsIndexRoute: typeof DmArcsIndexRoute
@@ -1104,6 +1124,7 @@ const DmRouteRouteChildren: DmRouteRouteChildren = {
   DmNpcsSlugRoute: DmNpcsSlugRoute,
   DmNpcsNewRoute: DmNpcsNewRoute,
   DmScenesSlugRoute: DmScenesSlugRoute,
+  DmToolsArtStylesRoute: DmToolsArtStylesRoute,
   DmToolsDeckOfManyThingsRoute: DmToolsDeckOfManyThingsRoute,
   DmToolsFightSimsRoute: DmToolsFightSimsRoute,
   DmArcsIndexRoute: DmArcsIndexRoute,

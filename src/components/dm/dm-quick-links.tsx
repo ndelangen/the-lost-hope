@@ -5,6 +5,7 @@ import {
   Layers,
   LayoutDashboard,
   Library,
+  Palette,
   ScrollText,
   Swords,
   Sword,
@@ -50,6 +51,9 @@ export function DmQuickLinks({ stackAt = 'lg' }: { stackAt?: 'lg' | 'xl' | 'neve
       </Link>
       <Link to="/dm/tools/fight-sims" className={linkClass}>
         <ChartBar className="size-4" /> Fight sims
+      </Link>
+      <Link to="/dm/tools/art-styles" className={linkClass}>
+        <Palette className="size-4" /> Art styles
       </Link>
       <Link to="/library" search={{ dm: true }} className={linkClass}>
         <Library className="size-4" /> Library

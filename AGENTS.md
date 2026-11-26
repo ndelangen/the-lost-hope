@@ -73,6 +73,9 @@ data changes.
   image generation rejects non-square sources. Keep uncropped backups locally under `output/`.
 
 - To add, revise, remove or use artwork, use the `campaign-images` skill.
+- Generate new art in the house style: `bun run art:style <style>` prints the guide and the
+  reference pictures for each kind of art (portraits, maps, illustrations, items, library
+  creatures). The styles and their references live in `src/data/dm/art-styles.ts`.
 - Original artwork lives in Cloudflare R2 (bucket `thelosthope-media-src`), not git. Place
   approved art under `assets/images/` and register it in `scripts/image-sources.ts` as before; git
   ignores those rasters (only the small `assets/images/app/` icons stay committed).
