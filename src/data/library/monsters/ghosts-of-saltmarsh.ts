@@ -11,6 +11,7 @@ export default createPublicationMonsters({
       name: 'Bard',
       tags: ['any race'],
       alignment: 'any alignment',
+      languages: ['Any two languages'],
       habitats: [
         'Settlements',
         'especially taverns. Bards also travel with adventurers or serve patrons',

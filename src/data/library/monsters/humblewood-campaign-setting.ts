@@ -12,6 +12,7 @@ export default createPublicationMonsters({
       tags: ['any birdfolk'],
       page: 190,
       alignment: 'any alignment',
+      languages: ['Understands Auran without speaking it'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -52,6 +53,7 @@ export default createPublicationMonsters({
       tags: ['gallus'],
       page: 197,
       alignment: 'any alignment',
+      languages: ['Speaks Birdfolk and understands Auran without speaking it'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -160,6 +162,7 @@ export default createPublicationMonsters({
       tags: ['jerbeen'],
       page: 200,
       alignment: 'neutral evil',
+      languages: ['Speaks Birdfolk and Jerbeen'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -225,6 +228,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 184,
       alignment: 'chaotic evil',
+      languages: ['Speaks Abyssal'],
       tableNotes: [
         ['The Foul Odor entry gives a 20-ft. sphere without specifying radius or diameter.'],
       ],
@@ -302,6 +306,7 @@ export default createPublicationMonsters({
       tags: ['Mapach'],
       page: 202,
       alignment: 'neutral evil',
+      languages: ['Speaks Birdfolk and Mapach'],
       tableNotes: [['This printing gives the Short Sword slashing damage.']],
       stats: {
         size: 'medium',
@@ -362,6 +367,7 @@ export default createPublicationMonsters({
       tags: ['Mapach'],
       page: 202,
       alignment: 'chaotic evil',
+      languages: ['Speaks Birdfolk and Mapach'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -444,6 +450,7 @@ export default createPublicationMonsters({
       tags: ['Raptor'],
       page: 204,
       alignment: 'any neutral alignment',
+      languages: ['Understands Auran and speaks Birdfolk'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -556,6 +563,7 @@ export default createPublicationMonsters({
       tags: ['Vulpin'],
       page: 208,
       alignment: 'neutral evil',
+      languages: ['Speaks Birdfolk and Vulpin'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -637,6 +645,7 @@ export default createPublicationMonsters({
       tags: ['Vulpin'],
       page: 209,
       alignment: 'any alignment',
+      languages: ['Speaks Birdfolk and Vulpin'],
       stats: {
         size: 'medium',
         type: 'humanoid',

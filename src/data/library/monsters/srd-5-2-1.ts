@@ -2208,7 +2208,7 @@ export default createPublicationMonsters({
       name: 'Bone Devil',
       tags: ['Devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal; telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -2585,7 +2585,7 @@ export default createPublicationMonsters({
       name: 'Chain Devil',
       tags: ['Devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal; telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -3154,7 +3154,7 @@ export default createPublicationMonsters({
     couatl: {
       name: 'Couatl',
       alignment: 'lawful good',
-      languages: ['All; telepathy 120 ft'],
+      languages: ['All', 'telepathy 120 ft'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -3442,7 +3442,7 @@ export default createPublicationMonsters({
       name: 'Deva',
       tags: ['Angel'],
       alignment: 'lawful good',
-      languages: ['All; telepathy 120 ft'],
+      languages: ['All', 'telepathy 120 ft'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -4166,7 +4166,7 @@ export default createPublicationMonsters({
       name: 'Erinyes',
       tags: ['Devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal; telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -4799,7 +4799,7 @@ export default createPublicationMonsters({
     giant_eagle: {
       name: 'Giant Eagle',
       alignment: 'neutral good',
-      languages: ['Celestial; understands Common and Primordial (Auran) but can’t speak them'],
+      languages: ['Celestial', 'understands Common and Primordial (Auran) but can’t speak them'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -4940,7 +4940,7 @@ export default createPublicationMonsters({
     giant_owl: {
       name: 'Giant Owl',
       alignment: 'neutral',
-      languages: ['Celestial; understands Common', 'Elvish', 'and Sylvan but can’t speak them'],
+      languages: ['Celestial', 'understands Common', 'Elvish', 'and Sylvan but can’t speak them'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -6017,7 +6017,7 @@ export default createPublicationMonsters({
       name: 'Hezrou',
       tags: ['Demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal; telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -6374,7 +6374,7 @@ export default createPublicationMonsters({
       name: 'Ice Devil',
       tags: ['Devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal; telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -7268,7 +7268,7 @@ export default createPublicationMonsters({
       name: 'Marilith',
       tags: ['Demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal; telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -7466,7 +7466,7 @@ export default createPublicationMonsters({
       name: 'Nalfeshnee',
       tags: ['Demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal; telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -7706,7 +7706,7 @@ export default createPublicationMonsters({
     nightmare: {
       name: 'Nightmare',
       alignment: 'neutral evil',
-      languages: ['Understands Abyssal', 'Common', 'and Infernal but can’t speak'],
+      languages: ['Understands Abyssal, Common, and Infernal but can’t speak'],
       stats: {
         size: 'large',
         type: 'fiend',

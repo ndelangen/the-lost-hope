@@ -2549,7 +2549,7 @@ export default createPublicationMonsters({
       name: 'Giant Owl',
       page: 358,
       alignment: 'neutral',
-      languages: ['Speaks Celestial and understands Common', 'Elvish', 'and Sylvan.'],
+      languages: ['Speaks Celestial and understands Common, Elvish, and Sylvan.'],
       habitats: ['Arctic', 'forest', 'hill'],
       stats: {
         size: 'large',
@@ -4568,7 +4568,7 @@ export default createPublicationMonsters({
       tags: ['devil'],
       page: 177,
       alignment: 'lawful evil',
-      languages: ['Common; Infernal'],
+      languages: ['Common', 'Infernal'],
       habitats: ['Any'],
       stats: {
         size: 'tiny',
@@ -6673,7 +6673,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.srd_5_2_1],
       page: 235,
       alignment: 'chaotic good',
-      languages: ['Understands Celestial', 'Common', 'Elvish', "and Sylvan. It can't speak."],
+      languages: ["Understands Celestial, Common, Elvish, and Sylvan. It can't speak."],
       habitats: ['Forest', 'Grassland', 'Hill', 'Upper Planes'],
       stats: {
         size: 'large',
@@ -7049,7 +7049,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 252,
       alignment: 'chaotic evil',
-      languages: ['Abyssal; Common'],
+      languages: ['Abyssal', 'Common'],
       habitats: ['Abyss'],
       stats: {
         size: 'tiny',

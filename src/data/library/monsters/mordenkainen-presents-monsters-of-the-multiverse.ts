@@ -3370,7 +3370,7 @@ export default createPublicationMonsters({
       tags: ['devil'],
       page: 179,
       alignment: 'typically lawful evil',
-      languages: ['Understands Infernal but cannot speak', 'telepathy 120 ft.'],
+      languages: ['Understands Infernal but cannot speak, telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -5137,9 +5137,7 @@ export default createPublicationMonsters({
       page: 251,
       alignment: 'typically chaotic evil',
       languages: [
-        'Understands Abyssal',
-        'Infernal',
-        'and languages it knew before transforming. It cannot speak.',
+        'Understands Abyssal, Infernal, and languages it knew before transforming. It cannot speak.',
       ],
       habitats: ['desert', 'swamp', 'underdark'],
       stats: {

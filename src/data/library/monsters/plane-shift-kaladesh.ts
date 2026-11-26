@@ -11,6 +11,9 @@ export default createPublicationMonsters({
       name: 'Drake (Large)',
       page: 324,
       alignment: 'neutral good',
+      languages: [
+        'Speaks Giant Eagle and understands Common and Auran without speaking them, per the Giant Eagle base',
+      ],
       habitats: ['mountain', 'grassland', 'hill', 'coastal'],
       appearance: [
         [

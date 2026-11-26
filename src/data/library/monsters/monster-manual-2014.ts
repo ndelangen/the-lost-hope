@@ -4695,6 +4695,7 @@ export default createPublicationMonsters({
       ],
       page: 327,
       alignment: 'neutral',
+      languages: ['Speaks Giant Owl'],
       habitats: ['Woodlands', 'Old-growth forests'],
       appearance: [
         [
@@ -4937,6 +4938,7 @@ export default createPublicationMonsters({
       ],
       page: 329,
       alignment: 'neutral evil',
+      languages: ['Understands Common but cannot speak'],
       habitats: ['Desert', 'Grassland'],
       appearance: [
         [
@@ -8507,7 +8509,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.srd_5_1],
       page: 235,
       alignment: 'neutral evil',
-      languages: ['Understands Abyssal', 'Common', 'and Infernal and cannot speak.'],
+      languages: ['Understands Abyssal, Common, and Infernal and cannot speak.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -9193,7 +9195,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 250,
       alignment: 'chaotic good',
-      languages: ['Understands Celestial', 'Common', 'Elvish', 'and Sylvan. It cannot speak.'],
+      languages: ['Understands Celestial, Common, Elvish, and Sylvan. It cannot speak.'],
       stats: {
         size: 'large',
         type: 'celestial',

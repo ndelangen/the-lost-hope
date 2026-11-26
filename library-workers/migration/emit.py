@@ -172,11 +172,11 @@ def main():
       if m.get('page'): L.append(f'      page: {m["page"]},')
       if m['alignment']: L.append(f'      alignment: {js(m["alignment"])},')
       langs=m['languages']
-      if langs is None: unrecorded.append(f"{PUBS[r['label']][1]}: {r['name']}")
+      if langs is None: unrecorded.append(f"{r['label']}: {r['name']}")
       elif langs.strip().lower() in ('none','—','-','—',''): L.append('      languages: [],')
       else:
         # Split on commas outside parentheses: "Primordial (Ignan, Terran)" is one language.
-        names=[x.strip() for x in re.split(r',(?![^()]*\))',langs)]
+        names=[x.strip() for x in re.split(r'[,;](?![^()]*\))',langs)] if not re.search(r'\b(Speaks|Understands)\b',langs) else [x.strip() for x in langs.split(';')]
         L.append(f'      languages: {js(names)},')
       hab=next((s['lines'] for s in src['gm'] if s['title']=='Habitats'),None)
       if hab:

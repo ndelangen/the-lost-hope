@@ -270,6 +270,9 @@ export default createPublicationMonsters({
       name: 'Large Drake',
       page: 324,
       alignment: 'neutral good',
+      languages: [
+        'Speaks Giant Eagle from the base stat block and understands Common and Auran without speaking either',
+      ],
       habitats: ['mountain', 'grassland', 'hill', 'coastal'],
       appearance: [
         ['A reptilian flyer with a scaled head, two legs, and enormous leathery wings.'],

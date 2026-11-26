@@ -2,11 +2,10 @@
 
 The library shows "Not recorded" for these. Fill them from the books when we have them.
 
-- Basic Rules: Giant Eagle
-- Basic Rules: Hell Hound
-- Basic Rules: Mummy
-- Basic Rules: Phase Spider
-- Basic Rules: Yeti
+- Basic Rules (2018): Hell Hound
+- Basic Rules (2018): Mummy
+- Basic Rules (2018): Phase Spider
+- Basic Rules (2018): Yeti
 - Bigby Presents: Glory of the Giants: Regisaur
 - DDAL04-01 - The Suits of the Mists: Vine Blight
 - DDAL04-03 - The Executioner: Ghast
@@ -105,7 +104,6 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - DDEX3-16 - Assault on Maerimydra: Orc War Chief
 - DDEX3-16 - Assault on Maerimydra: Quasit
 - DDEX3-16 - Assault on Maerimydra: Shadow Demon
-- Ghosts of Saltmarsh: Bard
 - Ghosts of Saltmarsh: Fathomer
 - Hoard of the Dragon Queen - Online Supplement: Assassin
 - Hoard of the Dragon Queen - Online Supplement: Gray Ooze
@@ -116,61 +114,45 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Hoard of the Dragon Queen - Online Supplement: Stone Golem
 - Hoard of the Dragon Queen - Online Supplement: Vampire
 - Hoard of the Dragon Queen - Online Supplement: Yuan-ti Malison
-- Humblewood Campaign Setting: Birdfolk Farmer
-- Humblewood Campaign Setting: Gallus Monk
-- Humblewood Campaign Setting: Jerbeen Thief
-- Humblewood Campaign Setting: Lesser Demon
-- Humblewood Campaign Setting: Mapach Bandit
-- Humblewood Campaign Setting: Mapach Brute
-- Humblewood Campaign Setting: Raptor Explorer
-- Humblewood Campaign Setting: Vulpin Captain
-- Humblewood Campaign Setting: Vulpin Noble
-- Icewind Dale: Rime of the Frostmaiden: Kingsport
-- Monster Manual: Axe Beak
-- Monster Manual: Basilisk
-- Monster Manual: Bulette Pup
-- Monster Manual: Carrion Crawler
-- Monster Manual: Cockatrice
-- Monster Manual: Cockatrice
-- Monster Manual: Darkmantle
-- Monster Manual: Deep Gnome (Svirfneblin)
-- Monster Manual: Ettercap
-- Monster Manual: Faerie Dragon (Younger)
-- Monster Manual: Flying Snake
-- Monster Manual: Giant Owl
-- Monster Manual: Giant Vulture
-- Monster Manual: Gibbering Mouther
-- Monster Manual: Githyanki Warrior
-- Monster Manual: Gnoll Fang of Yeenoghu
-- Monster Manual: Gnoll Pack Lord
-- Monster Manual: Goblin Boss
-- Monster Manual: Gorgon
-- Monster Manual: Gray Ooze
-- Monster Manual: Grick
-- Monster Manual: Grick Ancient
-- Monster Manual: Griffon
-- Monster Manual: Grimlock
-- Monster Manual: Hippogriff
-- Monster Manual: Hippogriff
-- Monster Manual: Hydra
-- Monster Manual: Ochre Jelly
-- Monster Manual: Orog
-- Monster Manual: Owlbear
-- Monster Manual: Phase Spider
-- Monster Manual: Phase Spider
-- Monster Manual: Roc
-- Monster Manual: Rust Monster
-- Monster Manual: Shadow
-- Monster Manual: Warhorse Skeleton
-- Monster Manual: Wyvern
+- Monster Manual (2014): Cockatrice
+- Monster Manual (2014): Darkmantle
+- Monster Manual (2014): Deep Gnome (Svirfneblin)
+- Monster Manual (2014): Faerie Dragon (Younger)
+- Monster Manual (2014): Gibbering Mouther
+- Monster Manual (2014): Githyanki Warrior
+- Monster Manual (2014): Gnoll Fang of Yeenoghu
+- Monster Manual (2014): Gnoll Pack Lord
+- Monster Manual (2014): Goblin Boss
+- Monster Manual (2014): Gorgon
+- Monster Manual (2014): Hippogriff
+- Monster Manual (2014): Orog
+- Monster Manual (2014): Phase Spider
+- Monster Manual (2024): Axe Beak
+- Monster Manual (2024): Basilisk
+- Monster Manual (2024): Bulette Pup
+- Monster Manual (2024): Carrion Crawler
+- Monster Manual (2024): Cockatrice
+- Monster Manual (2024): Ettercap
+- Monster Manual (2024): Flying Snake
+- Monster Manual (2024): Gray Ooze
+- Monster Manual (2024): Grick
+- Monster Manual (2024): Grick Ancient
+- Monster Manual (2024): Griffon
+- Monster Manual (2024): Grimlock
+- Monster Manual (2024): Hippogriff
+- Monster Manual (2024): Hydra
+- Monster Manual (2024): Ochre Jelly
+- Monster Manual (2024): Owlbear
+- Monster Manual (2024): Phase Spider
+- Monster Manual (2024): Roc
+- Monster Manual (2024): Rust Monster
+- Monster Manual (2024): Shadow
+- Monster Manual (2024): Warhorse Skeleton
+- Monster Manual (2024): Wyvern
 - Mordenkainen Presents: Monsters of the Multiverse: Cave Fisher
 - Mordenkainen Presents: Monsters of the Multiverse: Girallon
 - Mordenkainen Presents: Monsters of the Multiverse: Neogi Hatchling
 - Mordenkainen Presents: Monsters of the Multiverse: Oblex Spawn
-- Plane Shift: Amonkhet: Large Drake
-- Plane Shift: Dominaria: Kavu Predator
-- Plane Shift: Dominaria: Steel Leaf Kavu
-- Plane Shift: Kaladesh: Drake (Large)
 - Plane Shift: Zendikar: Drake (Large)
 - Planescape: Adventures in the Multiverse: Pixie
 - Princes of the Apocalypse - D&D Encounters: Feathergale Knight

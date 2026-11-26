@@ -23,7 +23,7 @@ TABLES={
      '¶Precipitation: 1 Clear; 2 Light clouds; 3 Overcast or ground fog; 4 Rain, hail, or snow; 5 Torrential rain, driving hail, or blizzard.¶Temperature: 1 Heat wave; 2 Hot; 3 Warm; 4 Cool; 5 Cold; 6 Freezing.¶Wind: 1 Calm; 2 Moderate wind; 3 Strong wind; 4 Gale; 5 Storm.')],
   'Teleport':[(r' Teleportation Outcome Mishap Similar Area Off Target On Target Permanent circle — — — 01–00 Linked object — — — 01–00 Very familiar 01–05 06–13 14–24 25–00 Seen casually 01–33 34–43 44–53 54–00 Viewed once or described 01–43 44–53 54–73 74–00 False destination 01–50 51–00 — — Familiarity Familiarity\. ',
      '¶Teleportation Outcome (d100: Mishap / Similar Area / Off Target / On Target)¶Permanent circle: — / — / — / 01–00¶Linked object: — / — / — / 01–00¶Very familiar: 01–05 / 06–13 / 14–24 / 25–00¶Seen casually: 01–33 / 34–43 / 44–53 / 54–00¶Viewed once or described: 01–43 / 44–53 / 54–73 / 74–00¶False destination: 01–50 / 51–00 / — / —¶Familiarity. ')],
-  'Prismatic Spray':[(r' Prismatic Rays 1d8 Ray ','¶Prismatic Rays (1d8)¶'),(r' 1d8 Ray ',' '),(r' ([2-8]) (Orange|Yellow|Green|Blue|Indigo|Violet|Special)\.',r'¶\1: \2.'),(r'¶1 Red\.','¶1: Red.'),(r'Prismatic Rays \(1d8\)¶1 Red\.','Prismatic Rays (1d8)¶1: Red.')],
+  'Prismatic Spray':[(r' Prismatic Rays 1d8 Ray ','¶Prismatic Rays (1d8)¶'),(r' 1d8 Ray ',' '),(r' ([2-8]) (Orange|Yellow|Green|Blue|Indigo|Violet|Special)\.',r'¶\1: \2.'),(r'¶1 Red\.','¶1: Red.')],
   'Prismatic Wall':[(r' Prismatic Layers Order Effects 1 Red\.','¶Prismatic Layers¶1: Red.'),(r' ([2-7]) (Orange|Yellow|Green|Blue|Indigo|Violet)\.',r'¶\1: \2.')],
   'Augury':[(r' Omens Omen For Results That Will Be … Weal Good Woe Bad Weal and woe Good and bad Indifference Neither good nor bad ',
      '¶Omens¶Weal: good results.¶Woe: bad results.¶Weal and woe: good and bad results.¶Indifference: neither good nor bad results.¶')],
@@ -33,14 +33,23 @@ TABLES={
   'Creation':[(r' Materials Material Duration Vegetable matter 24 hours Stone or crystal 12 hours Precious metals 1 hour Gems 10 minutes Adamantine or mithral 1 minute ',
      '¶Materials: vegetable matter, 24 hours; stone or crystal, 12 hours; precious metals, 1 hour; gems, 10 minutes; adamantine or mithral, 1 minute.¶')],
 }
+# Text that follows a bulleted list starts its own paragraph again.
+AFTER_LIST={'Commune with Nature':'For example,','Magic Circle':'Each time you cast this spell','Private Sanctum':'Casting this spell on the same spot'}
 for s_ in spells:
   rules=TABLES.get(s_['name'],[])
+  if s_['paragraphs']: s_['paragraphs'][0]=re.sub(r'^\d{3} ','',s_['paragraphs'][0])  # a stray page number
+  done={a:0 for a,_ in rules}
   out=[]
   for p in s_['paragraphs']:
-    for a,b in rules: p=re.sub(a,b,p)
+    for a,b in rules:
+      p,n=re.subn(a,b,p); done[a]+=n
+    if s_['name'] in AFTER_LIST: p=p.replace(' '+AFTER_LIST[s_['name']],'¶'+AFTER_LIST[s_['name']])
     p=p.replace(' • ','¶• ')
     out+=[x.strip() for x in p.split('¶') if x.strip()]
   s_['paragraphs']=out
+  # A table rule that no longer matches means the extraction changed: stop rather than flatten.
+  missed=[a for a,n in done.items() if n==0 and a!=r'^120 ']
+  if missed: sys.exit(f"{s_['name']}: table rule did not match: {missed[0][:50]}")
 L=["import { refs } from '#/data/generated/library-refs.ts'","import { refs as campaignRefs } from '#/data/generated/refs.ts'","import { createSpells } from '#/definitions/library.ts'","","const { rules } = campaignRefs","","/** The spells of the System Reference Document 5.2.1 (CC BY 4.0). */","export default createSpells({"]
 for s in sorted(spells,key=lambda x:key(x['name'])):
   L+=[f"  {key(s['name'])}: {{",f"    name: {js(s['name'])},",f"    level: {s['level']},",f"    school: {js(s['school'])},",f"    classes: {js(s['classes'])},",

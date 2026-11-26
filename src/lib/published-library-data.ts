@@ -79,6 +79,11 @@ export function loadLibraryDetail(type: string, slug: string) {
 /** The words each entry's printed text holds, by `type/slug`, once `loadLibrarySearch` ran. */
 export const searchWords = new Map<string, { player: string; gm: string }>()
 
+/** Whether search can match printed text yet. */
+export function libraryTextSearchLoaded() {
+  return searchWords.size > 0
+}
+
 /** Load what search matches in printed text; browsing without a query does not need it. */
 export async function loadLibrarySearch() {
   if (searchWords.size) return

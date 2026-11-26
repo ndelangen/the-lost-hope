@@ -334,6 +334,7 @@ export default createPublicationMonsters({
       name: 'Kingsport',
       page: 243,
       alignment: 'unaligned',
+      languages: ['Speaks Common'],
       habitats: ['Ythryn Library'],
       appearance: [
         ['An eyeless albino penguin, about five feet tall, in a plain leather harness.'],

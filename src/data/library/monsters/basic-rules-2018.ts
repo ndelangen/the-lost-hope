@@ -476,6 +476,7 @@ export default createPublicationMonsters({
       name: 'Giant Eagle',
       page: 132,
       alignment: 'neutral good',
+      languages: ['Speaks Giant Eagle', 'Understands Common and Auran without speaking them'],
       habitats: ['Mountains', 'Cliffs', 'Open skies'],
       appearance: [
         [

@@ -10,6 +10,7 @@ export default createPublicationMonsters({
     kavu_predator: {
       name: 'Kavu Predator',
       alignment: 'unaligned',
+      languages: ['Understands Elvish'],
       habitats: ['Dominaria', 'Llanowar forest', 'Forest canopy', 'Kelfae woodlands'],
       appearance: [
         [
@@ -91,6 +92,7 @@ export default createPublicationMonsters({
     steel_leaf_kavu: {
       name: 'Steel Leaf Kavu',
       alignment: 'unaligned',
+      languages: ['Understands Elvish'],
       habitats: ['Dominaria', 'Llanowar forest', 'Forest floor', 'Basiphem stables'],
       appearance: [
         [

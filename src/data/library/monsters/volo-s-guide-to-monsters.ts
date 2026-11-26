@@ -1973,9 +1973,7 @@ export default createPublicationMonsters({
       page: 195,
       alignment: 'chaotic evil',
       languages: [
-        'Understands Abyssal',
-        'Infernal',
-        "and any languages it knew before the transformation. It can't speak.",
+        "Understands Abyssal, Infernal, and any languages it knew before the transformation. It can't speak.",
       ],
       habitats: ['underdark', 'swamp', 'desert'],
       stats: {

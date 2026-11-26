@@ -424,6 +424,10 @@ def convert(r,p):
   if not langs:
     lm=re.search(r'Languages:? ([^.]+)',other)
     langs=lm
+  if not langs:
+    # Some workers wrote languages as sentences: "Speaks Giant Eagle. Understands Common…"
+    sm=re.findall(r'\b(?:Speaks|Understands|Any (?:one|two|three|four) languages?)\b[^.]*',other)
+    if sm: langs=re.match(r'(.*)$','; '.join(x.strip() for x in sm))
   if sec(p,'Languages'):
     langs=re.match(r'(.*)$','; '.join(sec(p,'Languages')))
   armor=re.search(r'\(([^)]*armor[^)]*|[^)]*mail[^)]*|[^)]*shield[^)]*)\)',ac or '')

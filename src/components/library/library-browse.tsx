@@ -8,6 +8,7 @@ import {
   browseLibrary,
   libraryBrowseTypes,
   libraryGroups,
+  libraryTextSearchLoaded,
   loadLibrarySearch,
 } from '#/lib/published-library'
 import { isLibraryType, libraryTypes, type LibraryType } from '#/lib/published-library-routing'
@@ -38,7 +39,9 @@ export function LibraryBrowse({
 }) {
   // Printed-text search words load after hydration, so the server and the first client render
   // agree; results then widen to matches inside printed text.
-  const [searchReady, setSearchReady] = useState(false)
+  const [searchReady, setSearchReady] = useState(
+    () => typeof window !== 'undefined' && libraryTextSearchLoaded(),
+  )
   useEffect(() => {
     if (q) void loadLibrarySearch().then(() => setSearchReady(true))
   }, [q])
@@ -46,7 +49,10 @@ export function LibraryBrowse({
   const availableTypes = libraryBrowseTypes(Boolean(dm))
   const groups = libraryGroups(Boolean(dm), type)
   const pageCount = Math.max(1, Math.ceil(entries.length / resultsPerPage))
-  const currentPage = Math.min(page ?? 1, pageCount)
+  // Until printed-text matches load, the list is partial: keep the requested page and hold the
+  // count back rather than show a number that is about to change.
+  const pending = Boolean(q) && !searchReady
+  const currentPage = pending ? (page ?? 1) : Math.min(page ?? 1, pageCount)
   const start = (currentPage - 1) * resultsPerPage
   const results = new Map<string, typeof entries>()
   for (const entry of entries.slice(start, start + resultsPerPage)) {
@@ -173,10 +179,16 @@ export function LibraryBrowse({
         </form>
       </search>
       <output className="text-muted-foreground text-sm">
-        {entries.length.toLocaleString()} {entries.length === 1 ? 'entry' : 'entries'}
-        {pageCount > 1 && ` · Page ${currentPage} of ${pageCount}`}
+        {pending ? (
+          'Searching…'
+        ) : (
+          <>
+            {entries.length.toLocaleString()} {entries.length === 1 ? 'entry' : 'entries'}
+            {pageCount > 1 && ` · Page ${currentPage} of ${pageCount}`}
+          </>
+        )}
       </output>
-      {!entries.length && <p>Try another search or group.</p>}
+      {!entries.length && !pending && <p>Try another search or group.</p>}
       {[...results].map(([label, cards]) => (
         <section key={label} className="grid gap-3">
           <h2 className="text-xl font-semibold">{label}</h2>

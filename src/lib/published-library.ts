@@ -8,7 +8,12 @@ export {
   libraryTypes,
   type LibraryType,
 } from './published-library-routing'
-export { loadLibraryDetail, loadLibrarySearch, type SrdVersion } from './published-library-data'
+export {
+  libraryTextSearchLoaded,
+  loadLibraryDetail,
+  loadLibrarySearch,
+  type SrdVersion,
+} from './published-library-data'
 
 const entriesByPath = new Map(
   publishedLibrary.map((entry) => [entry.type + '/' + entry.slug, entry]),
