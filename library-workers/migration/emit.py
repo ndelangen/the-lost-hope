@@ -12,7 +12,7 @@ PUBS={
 # Older reprints point at the book they reprint; that book holds the stat block.
 REPRINT_OF={'basic_rules_2018':'monster_manual_2014','srd_5_1':'monster_manual_2014','srd_5_2_1':'monster_manual_2024'}
 CONDS=['blinded','charmed','deafened','frightened','grappled','incapacitated','invisible','paralyzed','petrified','poisoned','prone','restrained','stunned','unconscious']
-ICONS=[('bite','gi/GiFangs'),('fang','gi/GiFangs'),('claw','gi/GiClaws'),('talon','gi/GiClaws'),('tusk','gi/GiBullHorns'),('horn','gi/GiBullHorns'),('gore','gi/GiBullHorns'),('ram','gi/GiBull'),('hoof','gi/GiStomp'),('hooves','gi/GiStomp'),('stomp','gi/GiStomp'),('trampl','gi/GiStomp'),('sting','gi/GiPoisonBottle'),('poison','gi/GiPoisonBottle'),('tentacle','gi/GiTentacleStrike'),('constrict','gi/GiTentacleStrike'),('web','gi/GiSpiderWeb'),('spider','lucide/MoveUp'),('climb','lucide/MoveUp'),('fist','gi/GiFist'),('slam','gi/GiFist'),('rock','gi/GiSlingshot'),('beak','gi/GiRaven'),('peck','gi/GiRaven'),('fly','gi/GiFeather'),('flyby','gi/GiFeather'),('wing','gi/GiBatWing'),('echolocation','gi/GiEchoRipples'),('hearing','gi/GiHumanEar'),('smell','gi/GiNoseSide'),('scent','gi/GiNoseSide'),('sight','lucide/Eye'),('pack','lucide/UsersRound'),('swarm','lucide/UsersRound'),('breath','gi/GiDragonBreath'),('hold breath','gi/GiWaterSplash'),('amphibious','gi/GiWaterSplash'),('water','gi/GiWaterSplash'),('charge','gi/GiBull'),('pounce','gi/GiPaw'),('leap','gi/GiFrogFoot'),('jump','gi/GiFrogFoot'),('multiattack','gi/GiPaw'),('tail','gi/GiWhiplash'),('tongue','gi/GiTongue'),('camouflage','gi/GiInvisible'),('spit','gi/GiPoisonBottle'),('frightful','gi/GiDeathSkull'),('rampage','gi/GiDeathSkull'),('relentless','lucide/HeartPulse'),('swallow','gi/GiSlime'),('engulf','gi/GiSlime')]
+ICONS=[('spellcasting','gi/GiWizardStaff'),('sword','gi/GiBroadsword'),('scimitar','gi/GiBroadsword'),('rapier','gi/GiBroadsword'),('axe','gi/GiBattleAxe'),('bow','gi/GiCrossbow'),('mace','gi/GiFlangedMace'),('morningstar','gi/GiFlangedMace'),('dagger','gi/GiThrownDaggers'),('javelin','gi/GiThrownDaggers'),('spear','gi/GiThrownDaggers'),('trident','gi/GiThrownDaggers'),('pike','gi/GiThrownDaggers'),('glaive','gi/GiThrownDaggers'),('halberd','gi/GiThrownDaggers'),('hammer','gi/GiWarhammer'),('maul','gi/GiWarhammer'),('staff','gi/GiWizardStaff'),('club','gi/GiSpikedBat'),('sling','gi/GiSlingshot'),('fire','gi/GiFlame'),('frost','gi/GiIceBolt'),('cold','gi/GiIceBolt'),('lightning','gi/GiPowerLightning'),('teleport','gi/GiTeleport'),('invisib','gi/GiInvisible'),('bite','gi/GiFangs'),('fang','gi/GiFangs'),('claw','gi/GiClaws'),('talon','gi/GiClaws'),('tusk','gi/GiBullHorns'),('horn','gi/GiBullHorns'),('gore','gi/GiBullHorns'),('ram','gi/GiBull'),('hoof','gi/GiStomp'),('hooves','gi/GiStomp'),('stomp','gi/GiStomp'),('trampl','gi/GiStomp'),('sting','gi/GiPoisonBottle'),('poison','gi/GiPoisonBottle'),('tentacle','gi/GiTentacleStrike'),('constrict','gi/GiTentacleStrike'),('web','gi/GiSpiderWeb'),('spider','lucide/MoveUp'),('climb','lucide/MoveUp'),('fist','gi/GiFist'),('slam','gi/GiFist'),('rock','gi/GiSlingshot'),('beak','gi/GiRaven'),('peck','gi/GiRaven'),('fly','gi/GiFeather'),('flyby','gi/GiFeather'),('wing','gi/GiBatWing'),('echolocation','gi/GiEchoRipples'),('hearing','gi/GiHumanEar'),('smell','gi/GiNoseSide'),('scent','gi/GiNoseSide'),('sight','lucide/Eye'),('pack','lucide/UsersRound'),('swarm','lucide/UsersRound'),('breath','gi/GiDragonBreath'),('hold breath','gi/GiWaterSplash'),('amphibious','gi/GiWaterSplash'),('water','gi/GiWaterSplash'),('charge','gi/GiBull'),('pounce','gi/GiPaw'),('leap','gi/GiFrogFoot'),('jump','gi/GiFrogFoot'),('multiattack','gi/GiPaw'),('tail','gi/GiWhiplash'),('tongue','gi/GiTongue'),('camouflage','gi/GiInvisible'),('spit','gi/GiPoisonBottle'),('frightful','gi/GiDeathSkull'),('rampage','gi/GiDeathSkull'),('relentless','lucide/HeartPulse'),('swallow','gi/GiSlime'),('engulf','gi/GiSlime')]
 def icon(name,ab):
   n=name.lower()
   for k,v in ICONS:
@@ -37,6 +37,7 @@ def tokens(parts):
   out=[]
   for t in parts:
     if isinstance(t,str): out.append(js(t))
+    elif 'toHit' in t: out.append('{ toHit: '+js(t['toHit'])+' }')
     elif 'dc' in t: out.append('{ dc: '+js(t['dc'])+(', save: '+js(t['save']) if 'save' in t else '')+' }')
     elif 'ability' in t: out.append('{ ability: '+js(t['ability'])+' }')
     else: out.append('rules.'+t['rule'])
@@ -44,7 +45,10 @@ def tokens(parts):
 def ability_ts(ab,keys,ind):
   i=' '*ind
   key=ab['key']
-  L=[f'{i}{{',f'{i}  key: {js(key)},',f'{i}  name: {js(ab["name"])},',f'{i}  timing: {js(ab["timing"])},',f'{i}  icon: {js(icon(ab["name"],ab))},']
+  L=[f'{i}{{',f'{i}  key: {js(key)},',f'{i}  name: {js(ab["name"])},']
+  if ab['timing'] not in ('legendary','lair'): L.append(f'{i}  timing: {js(ab["timing"])},')
+  L.append(f'{i}  icon: {js(icon(ab["name"],ab))},')
+  if 'cost' in ab: L.append(f'{i}  cost: {ab["cost"]},')
   if 'intent' in ab: L.append(f'{i}  intent: {js(ab["intent"])},')
   if 'attack' in ab:
     a=ab['attack']
@@ -53,6 +57,10 @@ def ability_ts(ab,keys,ind):
       L.append(f'{i}    reach: {a["reach"]},')
       if 'thrown' in a: L.append(f'{i}    thrown: [{a["thrown"][0]}, {a["thrown"][1]}],')
     else: L.append(f'{i}    range: [{a["range"][0]}, {a["range"][1]}],')
+    if 'twoHanded' in a:
+      L.append(f'{i}    twoHanded: [')
+      for d in a['twoHanded']: L.append(f'{i}      {{ dice: {js(d["dice"])}, type: rules.{d["type"]}, addModifier: true }},')
+      L.append(f'{i}    ],')
     L.append(f'{i}    damage: [')
     for d in a['damage']:
       add=', addModifier: true' if d.get('addModifier') else ''
@@ -125,7 +133,9 @@ def main():
       langs=m['languages']
       if langs and langs.lower() not in ('none','—','-','—'): L.append(f'      languages: {js([x.strip() for x in langs.split(",")])},')
       hab=next((s['lines'] for s in src['gm'] if s['title']=='Habitats'),None)
-      if hab: L.append(f'      habitats: {js(hab)},')
+      if hab:
+        hab=[h.strip().rstrip('.') for x in hab for h in x.split(',') if h.strip().rstrip('.')]
+        L.append(f'      habitats: {js(hab)},')
       app=next((s['lines'] for s in src['gm'] if s['title']=='Appearance'),None)
       if app: L.append(f'      appearance: [{js(app)}],')
       notes=[l for s in src['gm'] if s['title'].lower() in ('at the table','table notes') for l in s['lines']]
@@ -144,7 +154,19 @@ def main():
       L.append('        abilities: [')
       keys=set()
       for ab in b['abilities']: L+=ability_ts(ab,keys,10)
-      L.append('        ],'); L.append('      },'); L.append('    },')
+      L.append('        ],')
+      if 'legendary' in b:
+        lg=b['legendary']
+        L.append('        legendary: {'); L.append(f'          uses: {lg["uses"]},')
+        if 'lairUses' in lg: L.append(f'          lairUses: {lg["lairUses"]},')
+        L.append('          actions: [')
+        for ab in lg['actions']: L+=ability_ts(ab,keys,12)
+        L.append('          ],'); L.append('        },')
+      if b.get('lairActions'):
+        L.append('        lairActions: [')
+        for ab in b['lairActions']: L+=ability_ts(ab,keys,10)
+        L.append('        ],')
+      L.append('      },'); L.append('    },')
     L+=['  },','})','']
     txt='\n'.join(L).replace("refs.rules.","rules.").replace("import { refs as rules } from '#/data/generated/refs.ts'","import { refs as campaignRefs } from '#/data/generated/refs.ts'").replace("const refsRules = rules.rules","const { rules } = campaignRefs")
     open(os.path.join(outdir,pk.replace('_','-')+'.ts'),'w').write(txt)

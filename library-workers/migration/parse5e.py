@@ -61,14 +61,14 @@ def lenient(text):
     h=H()
   head=text[:200]
   reach=re.search(r'reach (\d+) ft|(\d+)-ft\.? reach|within (\d+) ft',head)
-  rng=re.search(r'range (\d+)/(\d+) ft',head)
+  rng=re.search(r'range (\d+)/(\d+) ft',head) or re.search(r'range (\d+)() ft',head)
   d=re.search(r'(\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+)(?: damage)?',text)
   flat=None if d else re.search(r'(?:Hit:?|hit,?|deals?|takes?)[^.]*?\b(\d+) (\w+) damage',text)
   if not d and not flat: return None
   g=[None]*14
   g[1]=h.group(1); g[2]=h.group(2)
   if reach: g[3]=next(x for x in reach.groups() if x)
-  if rng: g[4],g[5]=rng.groups()
+  if rng: g[4],g[5]=rng.group(1),(rng.group(2) or rng.group(1))
   if not reach and not rng: return None
   if d:
     g[8],g[9],g[10],g[11],g[12]=d.groups()
@@ -80,7 +80,8 @@ def lenient(text):
 # What a converted printing reads, and the worker notes and lore it may safely leave behind.
 READ={'statistics','classification','other statistics','skills','senses','saving throws','languages',
   'damage resistances','damage immunities','condition immunities','damage vulnerabilities','defenses',
-  'traits','actions','bonus actions','reactions','armor','initiative','proficiency bonus'}
+  'traits','actions','bonus actions','reactions','armor','initiative','proficiency bonus',
+  'legendary actions','lair actions','spellcasting','innate spellcasting'}
 NOTES={'at the table','table notes'}
 LORE={'description','habitats','habitat','appearance','printed source','references','lore topics in the source',
   'treasure','adapted from','source notes','printing note','encounter ecology'}
@@ -120,7 +121,7 @@ def extract_save(ab,text,scores,prof,issues):
     ab['save']=build_save(a,dc,target,[damage],rest_fail,'half' if success else 'none',scores,prof,issues,name)
     ab['intent']='damage'
     return (text[:m.start()]+' '+text[m.end():]).strip()
-  m=re.search(r'(?:the target|it|the creature|that creature|each creature[^.]*?)(?: also)?(?: must)? (?:make|makes|succeed on|succeeds on|pass|passes) a DC (\d+) '+ABW+r' sav(?:ing throw|e)(?:,? (?:taking|and takes|or take) |\. (?:It|The target|The creature|On a failure, the creature|On a failed save, the creature|A target) takes )'+DMG+r'(?: on a (?:failed save|failure))?(,? or half (?:as much )?(?:damage )?on a success(?:ful one)?|\. On a success, it takes half (?:that|as much) damage)?\.?',text,re.I)
+  m=re.search(r'\b(?:the target|it|the creature|that creature|each creature[^.]*?)(?: also)?(?: must)? (?:make|makes|succeed on|succeeds on|pass|passes) a DC (\d+) '+ABW+r' sav(?:ing throw|e)(?:,? (?:taking|and takes|or take) |\. (?:It|The target|The creature|On a failure, the creature|On a failed save, the creature|A target) takes )'+DMG+r'(?: on a (?:failed save|failure))?(,? or half (?:as much )?(?:damage )?on a success(?:ful one)?|\. On a success, it takes half (?:that|as much) damage)?\.?',text,re.I)
   if m:
     a=ANAME[m.group(2).lower()]; dc=int(m.group(1))
     damage=save_damage(type('M',(),{'group':lambda s,i:[None,*m.groups()[2:7]][i]})(),scores,a,issues,name)
@@ -140,6 +141,45 @@ def extract_save(ab,text,scores,prof,issues):
     rest=re.sub(r'^(?:and|,|\.)\s+','',rest,flags=re.I).strip()
     rest=re.sub(r'\s(?:and|,)\s*$','',rest).strip()
     return rest[:1].upper()+rest[1:]
+  # Any other phrasing: a DC save in one sentence and its damage in that sentence or the next.
+  m=re.search(r'DC (\d+) '+ABW+r' sav(?:ing throw|e)',text,re.I)
+  if m:
+    after=text[m.end():]
+    d=re.search(DMG,after[:260])
+    if d and not re.search(r'\bDC \d+',after[:d.start()]):
+      a=ANAME[m.group(2).lower()]; dc=int(m.group(1))
+      tail=after[d.end():d.end()+90]
+      half=re.match(r'[^.]*(?:\.\s*)?[^.]*\bhalf\b',tail,re.I) is not None
+      # Sentence edges, not counting the period of "ft.".
+      ends=[e.end() for e in re.finditer(r'(?<!\bft)(?<!\bfeet)\.\s',text)]
+      start=max([e for e in ends if e<=m.start()],default=0)
+      area=AREA.search(text[:m.end()])
+      if area:
+        target={'area':{'shape':area.group(2).lower(),'size':int(area.group(1))}}
+        if area.group(3): target['area']['width']=int(area.group(3))
+      elif 'attack' in ab and (ab['attack'].get('reach') or ab['attack'].get('range')):
+        at=ab['attack']; target={'creatures':1,'range':at['reach'] if 'reach' in at else at['range'][0],'which':'it hits'}
+      else:
+        if re.search(r'starts? its turn|enters|ends? its turn',text,re.I):
+          issues.append(f'{name}: aura save not structured'); return text
+        cm=re.search(r'(?:one|a) (?:creature|target)[^.]*? within (\d+) (?:feet|ft)',text[:m.end()+10],re.I)
+        if not cm: issues.append(f'{name}: save target not understood'); return text
+        target={'creatures':1,'range':int(cm.group(1))}
+      damage=save_damage(type('M',(),{'group':lambda s,i:[None,*d.groups()][i]})(),scores,a,issues,name)
+      ab['save']=build_save(a,dc,target,[damage],'','half' if half else 'none',scores,prof,issues,name)
+      ab['intent']='damage'
+      end=m.end()+d.end()
+      stop=min([e for e in ends if e>end],default=len(text))
+      if half:
+        h=re.search(r'\bhalf\b[^.]*\.?',text[end:]); stop=max(stop,end+h.end()) if h else stop
+      # The save sentence becomes structure only when it says nothing else: no condition, no
+      # duration, no further number. Otherwise the printing waits for a closer look.
+      span=text[start:stop].replace(m.group(0),'').replace(d.group(0),'')
+      if re.search(r'\b(?:'+'|'.join(CONDS)+r')\b|\d|minute|hour|round|until|speed|push|pull|knock',span,re.I):
+        ab.pop('save',None); ab['intent']=ab.get('intent','support') if 'attack' not in ab else 'damage'
+        issues.append(f'{name}: save rider not structured'); return text
+      rest=(text[:start]+' '+text[stop:]).strip()
+      return re.sub(r'\s+',' ',rest)
   return text
 def build_save(a,dc,target,damage,also,success,scores,prof,issues,name):
   built=next((b for b in [a,'con','str','dex','wis','int','cha'] if 8+prof+mod(scores[b])==dc),None)
@@ -153,12 +193,13 @@ def finalize(block,scores,prof,issues):
   abilities by key, conditions as rules terms. Anything that leaves a printed number in prose is
   held, because the stat block must derive it.'''
   keys={}
-  for ab in block['abilities']:
+  every=block['abilities']+block.get('legendary',{}).get('actions',[])+block.get('lairActions',[])
+  for ab in every:
     k=kebab(ab['name']); base=k; n=2
     while k in keys.values(): k=f'{base}-{n}'; n+=1
     keys[id(ab)]=k; ab['key']=k
-  names=sorted(((ab['name'],ab['key']) for ab in block['abilities'] if len(ab['name'])>3 and ab['name']!='Multiattack'),key=lambda x:-len(x[0]))
-  for ab in block['abilities']:
+  names=sorted(((ab['name'],ab['key']) for ab in every if len(ab['name'])>3 and ab['name']!='Multiattack'),key=lambda x:-len(x[0]))
+  for ab in every:
     text=' '.join(ab.pop('text',[])).strip()
     if re.fullmatch(r'(?:on a hit|on hit)\.?',text,re.I): text=''
     if not text: continue
@@ -168,24 +209,29 @@ def finalize(block,scores,prof,issues):
     if not text: continue
     if re.search(r'\d+ \(\d+d\d+',text) or re.search(r'[+]\d+ to hit|attack roll:? [+]',text,re.I):
       issues.append(f"{ab['name']}: printed numbers left in prose")
+    cm=re.search(r'(Intelligence|Wisdom|Charisma)\b[^.]{0,40}spellcasting ability|spellcasting ability (?:is )?(Intelligence|Wisdom|Charisma)|using (Intelligence|Wisdom|Charisma)\b',text)
+    caster=ANAME[(cm.group(1) or cm.group(2) or cm.group(3)).lower()] if cm else None
     toks=[]; pos=0
-    pat=re.compile(r'(?<!escape )\bDC (\d+)(?: (Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma))?\b|\b('+'|'.join(CONDS)+r')\b'+(r'|\b('+'|'.join(re.escape(n) for n,_ in names)+r')\b' if names else ''),re.I)
+    pat=re.compile(r'[+](\d+) to hit with spell attacks|(?<!escape )\bDC (\d+)(?: (Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma))?\b|\b('+'|'.join(CONDS)+r')\b'+(r'|\b('+'|'.join(re.escape(n) for n,_ in names)+r')\b' if names else ''),re.I)
     for m in pat.finditer(text):
       if m.start()>pos: toks.append(text[pos:m.start()])
       if m.group(1):
-        # The DC token also names the save, so it must be built from the ability saved with.
-        # Built from the ability saved with when that derives it, else the first that does.
-        dc=int(m.group(1)); named=ANAME.get((m.group(2) or '').lower())
-        order=([named] if named else [])+['con','str','dex','wis','int','cha']
+        v=int(m.group(1)); hits=[a for a in ([caster] if caster else [])+['int','wis','cha'] if mod(scores[a])+prof==v]
+        if hits: toks.append({'toHit':hits[0]}); toks.append(' to hit with spell attacks')
+        else: issues.append(f"{ab['name']}: spell attack bonus not derivable"); toks.append(m.group(0))
+      elif m.group(2):
+        # Built from the ability saved with when that derives it, then the casting ability.
+        dc=int(m.group(2)); named=ANAME.get((m.group(3) or '').lower())
+        order=([named] if named else [])+([caster] if caster else [])+['con','str','dex','wis','int','cha']
         built=next((a for a in order if 8+prof+mod(scores[a])==dc),None)
         if not built:
           issues.append(f"{ab['name']}: DC {dc} not derivable"); toks.append(m.group(0))
         else:
           toks.append({'dc':built,**({'save':named} if named and named!=built else {})})
-          if m.group(2): toks.append(' '+m.group(2))
-      elif m.group(3): toks.append({'rule':m.group(3).lower()})
+          if m.group(3): toks.append(' '+m.group(3))
+      elif m.group(4): toks.append({'rule':m.group(4).lower()})
       else:
-        hit=next((n for n,_ in names if n==m.group(4)),None)
+        hit=next((n for n,_ in names if n==m.group(5)),None)
         if hit is None: toks.append(m.group(0)); pos=m.end(); continue
         key=dict(names)[hit]
         if key==ab['key']: toks.append(m.group(0))
@@ -303,6 +349,12 @@ def convert(r,p):
   if not armor_text and re.search(r'natural armor',' '.join(sec(p,'Armor') or [])+' '+other,re.I): armor_text='natural armor'
   if armor_text: block['armor']=armor_text.strip()
   abilities=[]
+  for title in ['Spellcasting','Innate spellcasting']:
+    lines=sec(p,title)
+    if lines:
+      text=' '.join(x.strip() for l in lines for x in l.split('\n') if x.strip())
+      timing='action' if re.search(r'as (?:an|a Magic) action|Magic action',text,re.I) else 'trait'
+      abilities.append({'name':title,'timing':timing,'text':[text]})
   for timing,title in [('trait','Traits'),('action','Actions'),('bonus action','Bonus actions'),('reaction','Reactions')]:
     lines=sec(p,title)
     if not lines: continue
@@ -319,27 +371,35 @@ def convert(r,p):
       if am:
         kind='melee' if am.group(3) else 'ranged'
 
-        tohit=int(am.group(2)); cands=ability_for(tohit,scores,prof)
+        spell=bool(re.match(r'^(?:Make an? )?(?:Melee|Ranged|Melee or Ranged) spell attack',text,re.I))
+        tohit=int(am.group(2)); cands=ability_for(tohit,scores,prof,('int','wis','cha') if spell else ('str','dex'))
         dmgb=int(am.group(11) or 0)*(-1 if am.group(10) in ('-','−','–') else 1)
         cands=[a for a in cands if mod(scores[a])==dmgb] or cands
         if not cands: issues.append(f'{name}: to-hit +{tohit} not str/dex+PB'); continue
         a=cands[0]
         fixed='d' not in am.group(9)
-        if fixed: dmgb=mod(scores[a])  # a fixed amount never adds the modifier
-        if avg(am.group(9),0 if fixed else mod(scores[a]))!=int(am.group(8)): issues.append(f'{name}: damage avg')
-        if dmgb!=mod(scores[a]): issues.append(f'{name}: damage bonus {dmgb} != {a} mod')
+        # Damage adds the attack's modifier, or nothing at all (a fixed amount, most spell attacks).
+        plain=fixed or (dmgb==0 and mod(scores[a])!=0)
+        if avg(am.group(9),0 if plain else mod(scores[a]))!=int(am.group(8)): issues.append(f'{name}: damage avg')
+        if not plain and dmgb!=mod(scores[a]): issues.append(f'{name}: damage bonus {dmgb} != {a} mod')
         if am.group(12).lower() not in DAMAGE: issues.append(f'{name}: damage type {am.group(12)}')
         atk={'kind':kind,'ability':a}
         if kind=='melee':
           atk['reach']=int(am.group(3))
           if am.group(4): atk['thrown']=[int(am.group(4)),int(am.group(5))]
         else: atk['range']=[int(am.group(4)),int(am.group(5))]
-        dmg=[{'dice':am.group(9),'type':am.group(12).lower(),'addModifier':not fixed}]
+        dmg=[{'dice':am.group(9),'type':am.group(12).lower(),'addModifier':not plain}]
         rest=am.group(13).strip()
         em=EXTRA.match(rest)
         if em:
           if avg(em.group(2))!=int(em.group(1)): issues.append(f'{name}: extra damage avg')
           dmg.append({'dice':em.group(2),'type':em.group(3).lower()}); rest=rest[em.end():].strip()
+        vm=re.match(r'^,?\s*or (\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+) damage,? (?:if used with two hands|when used with two hands|with a two-handed (?:melee )?attack|if wielded with two hands|when wielded with two hands)[^.]*\.?',rest,re.I)
+        if vm and kind=='melee':
+          vb=int(vm.group(4) or 0)*(-1 if vm.group(3) in ('-','−','–') else 1)
+          if vb!=mod(scores[a]) or avg(vm.group(2),vb)!=int(vm.group(1)): issues.append(f'{name}: two-handed damage does not derive')
+          atk['twoHanded']=[{'dice':vm.group(2),'type':vm.group(5).lower(),'addModifier':True}]
+          rest=rest[vm.end():].strip()
         atk['damage']=dmg; ab['attack']=atk; ab['intent']='damage'
         rest=re.sub(r'^[.,;]?\s*(?:and\s+)?','',rest,flags=re.I).strip()
         if rest: rest=rest[0].upper()+rest[1:]
@@ -349,6 +409,30 @@ def convert(r,p):
         ab['text']=[text]
       abilities.append(ab)
   block['abilities']=abilities
+  NUM={'one':1,'two':2,'three':3,'four':4,'five':5}
+  leg=sec(p,'Legendary actions')
+  if leg:
+    joined=' '.join(leg)
+    um=re.search(r'\b(\d+|[Oo]ne|[Tt]wo|[Tt]hree|[Ff]our|[Ff]ive) (?:legendary actions|uses|actions per round)|Legendary Action Uses: (\d+)',joined)
+    if not um: issues.append('legendary uses not understood')
+    else:
+      uses=int(um.group(2) or NUM.get(um.group(1).lower(),um.group(1)))
+      lm=re.search(r'\((\d+) in (?:its |the )?[Ll]air\)',joined)
+      acts=[]
+      for name,text in split_abilities(leg)[1]:
+        cm=re.search(r'\((?:Costs )?(\d+) [Aa]ctions?\)',name)
+        ab={'name':re.sub(r' \([^)]*\)$','',name),'timing':'legendary','text':[text]}
+        if cm and int(cm.group(1))>1: ab['cost']=int(cm.group(1))
+        am=lenient(text)
+        if am: issues.append(f"{ab['name']}: legendary attack written out")
+        acts.append(ab)
+      if not acts: issues.append('legendary actions not understood')
+      block['legendary']={'uses':uses,'actions':acts,**({'lairUses':int(lm.group(1))} if lm else {})}
+  lair=sec(p,'Lair actions')
+  if lair:
+    pre,items=split_abilities(lair)
+    if not items: issues.append('lair actions are not named')
+    block['lairActions']=[{'name':re.sub(r' \([^)]*\)$','',n),'timing':'lair','text':[t]} for n,t in items]
   finalize(block,scores,prof,issues)
   src_line=' '.join(sec(p,'Printed source') or [])
   pg=re.search(r'\bpp?\. (\d+)',src_line)

@@ -98,6 +98,14 @@ function segmentFor(
         }
   }
 
+  if ('toHit' in token) {
+    return {
+      kind: 'number',
+      value: signed(block.modifier[token.toHit] + block.proficiencyBonus),
+      note: `Attack roll bonus: ${rules[token.toHit].name} modifier plus proficiency`,
+    }
+  }
+
   if ('mod' in token) {
     return {
       kind: 'number',

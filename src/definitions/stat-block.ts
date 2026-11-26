@@ -42,6 +42,11 @@ export const AbilityTextToken = z.union([
     ),
   }),
   z.strictObject({ mod: AbilityId }),
+  z.strictObject({
+    toHit: AbilityId.describe(
+      'Attack bonus with this ability: modifier + proficiency, e.g. spell attacks',
+    ),
+  }),
   z.strictObject({ pb: z.literal(true) }),
   RuleRef,
 ])

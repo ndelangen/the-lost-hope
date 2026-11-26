@@ -1886,110 +1886,18 @@
       {
         "id": "printing-9afe313d7a00300f07ef05ca",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 67",
-              "Hit dice · 9d8 + 27",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 12",
-              "XP · 700",
-              "Str · 17",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 6",
-              "Wis · 14",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A quaggoth with psionic gifts can fend off harm and strike at the mind as well as the body."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium monstrosity, chaotic neutral"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+1 (11)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Undercommon."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Bloodied Fury. While Bloodied, the quaggoth has Advantage on attack rolls."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Claw attacks.\nClaw. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) slashing damage plus 5 (2d4) psychic damage."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast one spell with Wisdom (save DC 12), requiring no spell components.\nAt will. Mage Hand (the hand is Invisible), Minor Illusion.\n2/day. Mind Spike."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Psionic Defense (3/day total). When Feather Fall or Shield is triggered, cast the triggering spell without components using Wisdom, as in Spellcasting. Both spells draw from the same three uses."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 251."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 251 · https://5e.tools/bestiary.html#quaggoth%20thonot_xmm",
-              "Mage Hand (spell) · https://5e.tools/spells.html#mage%20hand_xphb",
-              "Invisible (condition) · https://5e.tools/conditionsdiseases.html#invisible_xphb",
-              "Minor Illusion (spell) · https://5e.tools/spells.html#minor%20illusion_xphb",
-              "Mind Spike (spell) · https://5e.tools/spells.html#mind%20spike_xphb",
-              "Feather Fall (spell) · https://5e.tools/spells.html#feather%20fall_xphb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_xphb",
-              "Bloodied (status) · https://5e.tools/conditionsdiseases.html#bloodied_xphb",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#quaggoth%20thonot_xmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/184/1000/1000/638741964556929369.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/184/1000/1000/638741964556929369.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quaggoth_thonot"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-37a7551c7c4c6ae34211c6ec",
@@ -30119,123 +30027,20 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1/2",
-              "Type · Humanoid",
-              "Speed · 30 ft., swim 40 ft.",
-              "XP · 100",
-              "Str · 13",
-              "Dex · 11",
-              "Con · 12",
-              "Int · 12",
-              "Wis · 13",
-              "Cha · 9"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sahuagin"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (sahuagin), lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +5 Senses darkvision 120 ft., passive Perception 15 Languages Sahuagin"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Blood Frenzy. The sahuagin has advantage on melee attack rolls against any creature that doesn’t have all its hit points. Limited Amphibiousness. The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating. Shark Telepathy. The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The sahuagin makes two melee attacks: one with its bite and one with its claws or spear. Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage. Claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage. Spear. Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-4da7eaf3eb64ce2a7cc31b24",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft., swim 40 ft.",
-              "Passive Perception · 15",
-              "Initiative · 0",
-              "XP · 100",
-              "Str · 13",
-              "Dex · 11",
-              "Con · 12",
-              "Int · 12",
-              "Wis · 13",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An aquatic raider that worships the shark god Sekolah. A hunting party sounds a conch horn and can command sharks to join a raid."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (sahuagin), lawful evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft., passive Perception 15."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Sahuagin."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Blood Frenzy. The sahuagin has advantage on melee attack rolls against creatures below their hit point maximum.\nLimited Amphibiousness. It can breathe air and water. It must submerge at least once every 4 hours to avoid suffocating.\nShark Telepathy. The sahuagin can give magical telepathic commands to any shark within 120 ft."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two melee attacks, one Bite and either Claws or Spear.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 3 (1d4 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 3 (1d4 + 1) slashing damage.\nSpear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage with a two-handed melee attack."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 263."]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2014), p. 263 · https://5e.tools/bestiary.html#sahuagin_mm"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#sahuagin_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30835/789/1000/1000/638063921569706098.png",
         "art": [
@@ -30243,7 +30048,17 @@
             "file": "/assets/library/monsters/sahuagin.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sahuagin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-f1ca995468c93ce4be626d2b",
@@ -70393,101 +70208,18 @@
       {
         "id": "printing-5f317be948694669a8ce8ec7",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d6 + 5",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Elemental",
-              "Speed · 30 ft., fly 30 ft.",
-              "Passive Perception · 12",
-              "Initiative · 2",
-              "XP · 50",
-              "Str · 6",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Smoke pours from this creature of air and fire. It likes to mock travelers and send them the wrong way."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A small, winged elemental with a body made of smoke."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small elemental, neutral evil"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Fire and poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft., passive Perception 12."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Auran, Ignan."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Death Burst. When the mephit dies, a sphere of smoke with a 5-ft. radius forms around the center of its space. The area is heavily obscured. Wind disperses the smoke, which lasts 1 minute without wind."
-            ]
-          },
-          {
-            "title": "Innate spellcasting",
-            "lines": [
-              "Charisma. Once per day, the mephit casts Dancing Lights without material components."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 4 (1d4 + 2) slashing damage.\nCinder Breath (Recharge 6). Each creature in a 15-ft. cone must make a DC 10 Dexterity save. On a failure, it is Blinded until the end of the mephit's next turn."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 217."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 217 · https://5e.tools/bestiary.html#smoke%20mephit_mm",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#smoke%20mephit_mm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/34175/920/1000/1000/638190241654338728.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/34175/920/1000/1000/638190241654338728.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "smoke_mephit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-5fe73950b61a07b4924f2dd9",
@@ -79511,54 +79243,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 135",
-              "Hit dice · 18d10 + 36",
-              "Challenge · 8",
-              "Type · Fiend",
-              "Speed · 40 ft.",
-              "XP · 3900",
-              "Str · 18",
-              "Dex · 17",
-              "Con · 14",
-              "Int · 16",
-              "Wis · 15",
-              "Cha · 16",
-              "Initiative · +3 (13)",
-              "Proficiency bonus · +3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "spirit_naga"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Fiend, Chaotic Evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Immunities Poison; Charmed, Poisoned Senses Darkvision 60 ft.; Passive Perception 12 Languages Abyssal, Common"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Fiendish Restoration. If it dies, the naga returns to life in 1d6 days and regains all its Hit Points. Only a Wish spell can prevent this trait from functioning."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The naga makes three attacks, using Bite or Necrotic Ray in any combination. Bite. Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing damage plus 14 (4d6) Poison damage. Necrotic Ray. Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6, Con +5, Wis +5, Cha +6"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-d7b306482ae70117b8031ed0",
@@ -79698,110 +79392,6 @@
       {
         "id": "printing-637426c555db9cd5d63148b0",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 135",
-              "Hit dice · 18d10 + 36",
-              "Challenge · 8",
-              "Size · Large",
-              "Type · Fiend",
-              "Speed · 40 ft.",
-              "Passive Perception · 12",
-              "XP · 3900",
-              "Str · 18",
-              "Dex · 17",
-              "Con · 14",
-              "Int · 16",
-              "Wis · 15",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A fiendish serpent hurls necrotic rays and returns from death unless stopped by a Wish spell."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6", "Con +5", "Wis +5", "Cha +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large fiend, chaotic evil"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+3 (13)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison damage."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed and Poisoned."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Fiendish Restoration. It revives with full HP 1d6 days after death. Only Wish can prevent this return."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make three attacks in any combination of Bite and Necrotic Ray.\nBite. Melee attack, +7 to hit, reach 10 ft. On a hit, deal 7 (1d6 + 4) piercing damage plus 14 (4d6) poison damage.\nNecrotic Ray. Ranged attack, +6 to hit, range 60 ft. On a hit, deal 21 (6d6) necrotic damage."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast one spell using Intelligence (save DC 14), without Somatic or Material components.\nAt will. Detect Magic, Mage Hand, Minor Illusion, Water Breathing.\n2/day each. Detect Thoughts, Dimension Door, Hold Person (level 3), Lightning Bolt (level 4)."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Lower Planes and Underdark."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Arcana."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 297."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 297 · https://5e.tools/bestiary.html#spirit%20naga_xmm",
-              "Detect Magic (spell) · https://5e.tools/spells.html#detect%20magic_xphb",
-              "Mage Hand (spell) · https://5e.tools/spells.html#mage%20hand_xphb",
-              "Minor Illusion (spell) · https://5e.tools/spells.html#minor%20illusion_xphb",
-              "Water Breathing (spell) · https://5e.tools/spells.html#water%20breathing_xphb",
-              "Detect Thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_xphb",
-              "Dimension Door (spell) · https://5e.tools/spells.html#dimension%20door_xphb",
-              "Hold Person (spell) · https://5e.tools/spells.html#hold%20person_xphb",
-              "Lightning Bolt (spell) · https://5e.tools/spells.html#lightning%20bolt_xphb",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Wish (spell) · https://5e.tools/spells.html#wish_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#spirit%20naga_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/265/1000/1000/638741964671713861.png",
         "art": [
@@ -79809,7 +79399,17 @@
             "file": "/assets/library/monsters/spirit-naga.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "spirit_naga"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-e192522a5ba671dc69c62d76",
@@ -123119,48 +122719,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 138",
-              "Hit dice · 12d12 + 60",
-              "Challenge · 9",
-              "Type · Plant",
-              "Speed · 30 ft.",
-              "XP · 5000",
-              "Str · 23",
-              "Dex · 8",
-              "Con · 21",
-              "Int · 12",
-              "Wis · 16",
-              "Cha · 12",
-              "Initiative · +3 (13)",
-              "Proficiency bonus · +4"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "treant"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge Plant, Chaotic Good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Vulnerabilities Fire Resistances Bludgeoning, Piercing Senses Passive Perception 13 Languages Common, Druidic, Elvish, Sylvan"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Siege Monster. The treant deals double damage to objects and structures."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The treant makes two Slam attacks. Slam. Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage. Hail of Bark. Ranged Attack Roll: +10, range 180 ft. Hit: 28 (4d10 + 6) Piercing damage. Animate Trees (1/Day). The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has Intelligence and Charisma scores of 1, it can’t speak, and it lacks this action. The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-38d57813ce709d17ad9df8a0",
@@ -124998,124 +124566,37 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "XP · 25",
-              "Str · 13",
-              "Dex · 11",
-              "Con · 12",
-              "Int · 8",
-              "Wis · 11",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tribal_warrior"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (any race), any alignment"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses passive Perception 10 Languages any one language"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The warrior has advantage on an attack roll against a creature if at least one of the warrior’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Spear. Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack. Tribal warriors live beyond civilization, most often subsisting on fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest warrior of the tribe or a tribe member blessed by the gods."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-f4df669764c75fe08d164114",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · 0",
-              "XP · 25",
-              "Str · 13",
-              "Dex · 11",
-              "Con · 12",
-              "Int · 8",
-              "Wis · 11",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A spear fighter who relies on fighting alongside allies. The profile can fit fighters from many kinds of communities."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (any race), any alignment"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Hide armor."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Any one language."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The warrior has advantage on an attack roll against a creature if an ally is within 5 ft. of that creature and the ally is not Incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Spear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage with a two-handed melee attack."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 350."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 350 · https://5e.tools/bestiary.html#tribal%20warrior_mm",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#tribal%20warrior_mm",
         "art": [
           {
             "file": "/assets/library/monsters/tribal-warrior.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tribal_warrior"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-3d244d44b990cee1fc891545",
@@ -141770,66 +141251,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 195",
-              "Hit dice · 23d8 + 92",
-              "Challenge · 13",
-              "Type · Undead",
-              "Speed · 40 ft., Climb 40 ft.",
-              "XP · 10000",
-              "Str · 18",
-              "Dex · 18",
-              "Con · 18",
-              "Int · 17",
-              "Wis · 15",
-              "Cha · 18",
-              "Initiative · +14 (24)",
-              "Proficiency bonus · +5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vampire"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium or Small Undead, Lawful Evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +7, Stealth +9 Resistances Necrotic Senses Darkvision 120 ft.; Passive Perception 17 Languages Common plus two other languages"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day, or 4/Day in Lair). If the vampire fails a saving throw, it can choose to succeed instead. Misty Escape. If the vampire drops to 0 Hit Points outside its resting place, the vampire uses Shape-Shift to become mist (no action required). If it can’t use Shape- Shift, it is destroyed. While it has 0 Hit Points in mist form, it can’t return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the Paralyzed condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there. Spider Climb. The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check. Vampire Weakness. The vampire has these weaknesses: Forbiddance. The vampire can’t enter a residence without an invitation from an occupant. Running Water. The vampire takes 20 Acid damage if it ends its turn in running water. Stake to the Heart. If a weapon that deals Piercing damage is driven into the vampire’s heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed. Sunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack (Vampire Form Only). The vampire makes two Grave Strike attacks and uses Bite. Grave Strike (Vampire Form Only). Melee Attack Roll: +9, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two hands. Bite (Bat or Vampire Form Only). Constitution Saving Throw: DC 17, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. Failure: 6 (1d4 + 4) Piercing damage plus 13 (3d8) Necrotic damage. The target’s Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire’s control."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": [
-              "Charm (Recharge 5–6). The vampire casts Charm Person, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17), and the duration is 24 hours. The Charmed target is a willing recipient of the vampire’s Bite, the damage of which doesn’t end the spell. When the spell ends, the target is unaware it was Charmed by the vampire. Shape-Shift. If the vampire isn’t in sunlight or running water, it shape-shifts into a Tiny bat (Speed 5 ft., Fly Speed 30 ft.) or a Medium cloud of mist (Speed 5 ft., Fly Speed 20 ft. [hover]), or it returns to its vampire form. Anything it is wearing transforms with it. While in bat form, the vampire can’t speak. Its game statistics, other than its size and Speed, are unchanged. While in mist form, the vampire can’t take any actions, speak, or manipulate objects. It is weightless and can enter an enemy’s space and stop there. If air can pass through a space, the mist can do so, but it can’t pass through liquid. It has Resistance to all damage, except the damage it takes from sunlight."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns. Beguile. The vampire casts Command, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17). The vampire can’t take this action again until the start of its next turn. Deathless Strike. The vampire moves up to half its Speed, and it makes one Grave Strike attack."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +9, Con +9, Wis +7, Cha +9"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-b36e8d25be18a9846d927a06",
@@ -150212,42 +149643,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 58",
-              "Hit dice · 9d8 + 18",
-              "Challenge · 3",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "XP · 700",
-              "Str · 16",
-              "Dex · 13",
-              "Con · 14",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "veteran"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (any race), any alignment"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Athletics +5, Perception +2 Senses passive Perception 12 Languages any one language (usually Common)"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack. Longsword. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands. Shortsword. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. Heavy Crossbow. Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage. Veterans are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-21281a96f3b8c1a874ef4562",
@@ -180881,77 +180286,6 @@
       {
         "id": "printing-b5dd2d3bb85465305f30ee80",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 110",
-              "Hit dice · 13d10 + 39",
-              "Challenge · 6",
-              "Size · Large",
-              "Type · Dragon",
-              "Speed · 20 ft., fly 80 ft.",
-              "Passive Perception · 14",
-              "Initiative · 0",
-              "XP · 2300",
-              "Str · 19",
-              "Dex · 10",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A two-legged flying dragon with a long venomous stinger. It usually attacks from the air."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft. Passive Perception 14."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["None."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Stinger attack. While flying, the wyvern can replace either one with Claws.\nBite. Melee weapon attack, +7 to hit, reach 10 ft., one creature. Deal 11 (2d6 + 4) piercing damage on a hit.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Deal 13 (2d8 + 4) slashing damage on a hit.\nStinger. Melee weapon attack, +7 to hit, reach 10 ft., one creature. On a hit, deal 11 (2d6 + 4) piercing damage. The creature makes a DC 15 Constitution save, taking another 24 (7d6) poison damage on a failure or half the poison damage on a success."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 303."]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Multiattack is one bite and one stinger, with the claw available as described by its flying attack option. The stinger adds a DC 15 Constitution save against 7d6 poison, half on success."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2014), p. 303 · https://5e.tools/bestiary.html#wyvern_mm"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#wyvern_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/518/1000/1000/638063938742199028.png",
         "art": [
@@ -180959,7 +180293,17 @@
             "file": "/assets/library/monsters/wyvern.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wyvern"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-50105728a91c97886652d2b9",
@@ -189192,126 +188536,18 @@
       {
         "id": "printing-584faf191ff47d82ba5b2fe5",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 153",
-              "Hit dice · 18d8 + 72",
-              "Challenge · 10",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 12",
-              "XP · 5900",
-              "Str · 15",
-              "Dex · 19",
-              "Con · 18",
-              "Int · 13",
-              "Wis · 15",
-              "Cha · 17"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A one-eyed mass of shifting tentacles that often passes for a cultist or spider."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +8", "Int +5", "Wis +6", "Cha +7"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +11", "Insight +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (demon), chaotic evil"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+8 (18)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Elvish, Undercommon."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold, Fire, Lightning."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Demonic Restoration. If the yochlol dies away from the Abyss, its body dissolves. A new body forms immediately in the Abyss, where it revives at full HP.\nMagic Resistance. The yochlol has Advantage on saving throws against spells and other magical effects.\nSpider Climb. The yochlol can climb difficult surfaces, including ceilings, without an ability check.\nWeb Walker. Webs impose no movement restrictions on the yochlol."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Caustic Lash attacks. The yochlol can also cast Web or Dominate Person using Spellcasting if that spell is available.\nCaustic Lash. Melee or ranged attack, +8 to hit, reach 10 ft. or range 120 ft. A hit deals 25 (6d6 + 4) Acid damage."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast one spell using Charisma, save DC 15. The spells need no material components.\nAt will. Detect Thoughts, Gaseous Form (self only), and Web.\n1/day. Dominate Person."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Shape-Shift. Take the form of a Medium Humanoid or a Medium spider, or return to true form. The yochlol keeps its game statistics in each form. Worn and carried equipment stays as it was."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Toxic Escape. When an attack roll hits the yochlol, halve the attack's damage to it, rounding down. The yochlol also teleports to a visible unoccupied space within 30 ft. Every creature within 5 ft. of the destination makes a DC 15 Constitution save. On a failure, the target is Poisoned through the end of its next turn and is Incapacitated while Poisoned this way."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["The Abyss."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 341."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 341 · https://5e.tools/bestiary.html#yochlol_xmm",
-              "Detect Thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_xphb",
-              "Gaseous Form (spell) · https://5e.tools/spells.html#gaseous%20form_xphb",
-              "Web (spell) · https://5e.tools/spells.html#web_xphb",
-              "Dominate Person (spell) · https://5e.tools/spells.html#dominate%20person_xphb",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_xphb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#yochlol_xmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/390/1000/1000/638741964847498871.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/390/1000/1000/638741964847498871.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yochlol"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-963451909819ef9fd30f58f4",
@@ -197623,108 +196859,18 @@
       {
         "id": "printing-11ef8430471f4ae60c01fda7",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 127",
-              "Hit dice · 15d10 + 45",
-              "Challenge · 7",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 40 ft.",
-              "Passive Perception · 15",
-              "Initiative · 3",
-              "XP · 2900",
-              "Str · 19",
-              "Dex · 16",
-              "Con · 17",
-              "Int · 17",
-              "Wis · 15",
-              "Cha · 18"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A powerful serpent with a humanoid upper torso and arms. An abomination directs rituals and schemes from the highest yuan-ti caste."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest", "Swamp", "Desert"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A large serpent-bodied humanoid with scaled arms."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5", "Stealth +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity (shapechanger, yuan-ti), neutral evil"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common, Draconic."]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Shapechanger. The abomination spends an action to become a Large snake or to return to its true form. Its statistics and equipment stay the same. Death does not revert the transformation.\nMagic Resistance. Roll saving throws against spells and other magical effects with advantage."
-            ]
-          },
-          {
-            "title": "Innate spellcasting",
-            "lines": [
-              "Abomination form only. Charisma, save DC 15, no material components.\nAt will: Animal Friendship (snakes only).\n3/day: Suggestion.\n1/day: Fear."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack (abomination form only). Make two ranged attacks or three melee attacks. Use Bite and Constrict at most once each.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 7 (1d6 + 4) piercing plus 10 (3d6) poison damage.\nConstrict. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit 11 (2d6 + 4) bludgeoning. The target is Grappled (escape DC 14) and remains Restrained until this grapple ends. The abomination cannot constrict a second target while this grapple lasts.\nScimitar (abomination form only). Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage.\nLongbow (abomination form only). Ranged weapon attack, +6 to hit, range 150/600 ft., one target. Hit 12 (2d8 + 3) piercing plus 10 (3d6) poison damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 308."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 308 · https://5e.tools/bestiary.html#yuan-ti%20abomination_mm",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Fear (spell) · https://5e.tools/spells.html#fear_phb",
-              "Suggestion (spell) · https://5e.tools/spells.html#suggestion_phb",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#yuan-ti%20abomination_mm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/595/1000/1000/638063940401463536.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/595/1000/1000/638063940401463536.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_abomination"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-f8d7d7b298b8373f9fc78ac5",
@@ -202578,104 +201724,18 @@
       {
         "id": "printing-1e1e914051b505e6b64643ce",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 40",
-              "Hit dice · 9d8",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 13",
-              "Initiative · 1",
-              "XP · 200",
-              "Str · 11",
-              "Dex · 12",
-              "Con · 11",
-              "Int · 13",
-              "Wis · 12",
-              "Cha · 14"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An infiltrator who can pass for human at a glance. A forked tongue, slitted pupils, or scattered scales may give away the disguise."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest", "Swamp", "Urban", "Desert"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A mostly human-looking yuan-ti with subtle signs such as scales, slit eyes or a forked tongue."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +6", "Perception +3", "Stealth +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (yuan-ti), neutral evil"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common, Draconic."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Magic Resistance. Roll saving throws against spells and other magical effects with advantage."
-            ]
-          },
-          {
-            "title": "Innate spellcasting",
-            "lines": [
-              "Charisma, save DC 12, no material components.\nAt will: Animal Friendship (snakes only).\n3/day each: Poison Spray, Suggestion."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two melee attacks.\nScimitar. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) slashing damage.\nShortbow. Ranged weapon attack, +3 to hit, range 80/320 ft., one target. Hit 4 (1d6 + 1) piercing plus 7 (2d6) poison damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 310."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 310 · https://5e.tools/bestiary.html#yuan-ti%20pureblood_mm",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Poison spray (spell) · https://5e.tools/spells.html#poison%20spray_phb",
-              "Suggestion (spell) · https://5e.tools/spells.html#suggestion_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#yuan-ti%20pureblood_mm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/643/1000/1000/638063940934713785.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/643/1000/1000/638063940934713785.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_pureblood"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-f823725af62e1c32e7be0cd0",

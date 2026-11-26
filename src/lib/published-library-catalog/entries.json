@@ -10879,46 +10879,22 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 15",
-              "Hit dice · 2d10 + 4",
-              "Challenge · 1/8",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "XP · 25",
-              "Str · 16",
-              "Dex · 8",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 8",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses passive Perception 9 Languages —"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/camel.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "camel"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -10943,133 +10919,43 @@
       {
         "id": "printing-81cec86039a27715c2899b58",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 15",
-              "Hit dice · 2d10 + 4",
-              "Challenge · 1/8",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "XP · 25",
-              "Str · 16",
-              "Dex · 8",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 8",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Desert", "Dry steppe"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A sandy dromedary with one shaggy hump, a long arched neck and broad two-toed feet."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Passive Perception 9. No languages listed."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 121."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +5 to hit with 5-ft. reach against one target. Hit for 2 (1d4) bludgeoning damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/camel.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "camel"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-27b7041dc0f379960119d141",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 15",
-              "Hit dice · 2d10 + 4",
-              "Challenge · 1/8",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 9",
-              "Initiative · -1",
-              "XP · 25",
-              "Str · 16",
-              "Dex · 8",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 8",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Desert", "Dry steppe"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A sandy-coated dromedary with one shaggy hump, a long arched neck, a split upper lip, and broad two-toed pads."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Passive Perception 9. No listed languages, skill bonuses, or special senses."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), Appendix A, printed p. 320. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/322/"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +5 to hit with 5-ft. reach against one target. Hit for 2 (1d4) bludgeoning damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#camel_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/camel.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "camel"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-3cd54851be45987029da8d9b",
@@ -26009,186 +25895,58 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 5",
-              "Hit dice · 2d4",
-              "Challenge · 1/8",
-              "Type · Beast",
-              "Speed · 30 ft., fly 60 ft., swim 30 ft.",
-              "XP · 25",
-              "Str · 4",
-              "Dex · 18",
-              "Con · 11",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flying_snake"
           },
-          {
-            "title": "Classification",
-            "lines": ["Tiny beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses blindsight 10 ft., passive Perception 11 Languages —"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. The snake doesn’t provoke opportunity attacks when it flies out of an enemy’s reach."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-6993eac2e7abcac047ffc73b",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 5",
-              "Hit dice · 2d4",
-              "Challenge · 1/8",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 30 ft., fly 60 ft., swim 30 ft.",
-              "XP · 25",
-              "Str · 4",
-              "Dex · 18",
-              "Con · 11",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Remote jungle", "Forest", "Grassland", "Desert", "Urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A small jade-green serpent with muted gold banding and a pair of tapered reptilian wings."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Blindsight 10 ft. Passive Perception 11. No listed skills or languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 128."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. Leaving an enemy’s reach while flying does not provoke an opportunity attack from that enemy."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. +6 to hit in melee, reach 5 ft., one target. Hit for 1 piercing damage and 7 (3d4) poison damage. The poison is part of the hit and has no saving throw."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/flying-snake-c18f8bdfa42f.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flying_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-570fcb827e62e3d1bc9d6a47",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 5",
-              "Hit dice · 2d4",
-              "Challenge · 1/8",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 30 ft., fly 60 ft., swim 30 ft.",
-              "Passive Perception · 11",
-              "Initiative · 4",
-              "XP · 25",
-              "Str · 4",
-              "Dex · 18",
-              "Con · 11",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Remote jungle", "Forest", "Grassland", "Desert", "Urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A small jade-green serpent with muted gold banding and a pair of tapered reptilian wings."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Blindsight 10 ft. Passive Perception 11. No listed skills or languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), p. 322. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page323.html"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. Leaving an enemy’s reach while flying does not provoke an opportunity attack from that enemy."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. +6 to hit in melee, reach 5 ft., one target. Hit for 1 piercing damage and 7 (3d4) poison damage. The poison is part of the hit and has no saving throw."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#flying%20snake_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/16/517/1000/1000/636376319640572721.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/flying-snake-c18f8bdfa42f.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flying_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-3688fea1bc52f1141fcf1c17",
@@ -42518,77 +42276,22 @@
       {
         "id": "printing-bb8a226078d8b0d16d0fa178",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft., climb 40 ft.",
-              "XP · 50",
-              "Str · 12",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Open ground", "Burrows", "Crevices", "Hollows under debris"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A squat brown wolf spider with stout hairy legs, a compact oval abdomen, and a prominent central pair of dark forward-facing eyes."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +3 and Stealth +7. Blindsight 10 ft., darkvision 60 ft., and passive Perception 13. No listed languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 137."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. Move over difficult surfaces, including ceilings upside down, without an ability check.\nWeb Sense. While touching a web, the spider pinpoints each other creature touching that same web.\nWeb Walker. Webbing does not slow or restrict the spider's movement."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +3 to hit against one creature within 5 ft. On a hit, deal 4 (1d6 + 1) piercing damage. The target then makes a DC 11 Constitution save against 7 (2d6) poison damage, taking half on a success. If the poison damage drops the target to 0 HP, the target is stable, poisoned for 1 hour even if it regains HP, and paralyzed as long as this poisoning lasts."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "Track piercing and poison damage separately. A stable creature makes no death saving throws while at 0 HP. While poisoned, the target has disadvantage on attack rolls and ability checks. Paralysis also incapacitates it, prevents movement and speech, and causes automatic failure of Strength and Dexterity saves. Attacks against it have advantage, and hits from within 5 ft. are critical hits."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-wolf-spider-771ba99eb9e4.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_wolf_spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-f556a34a19914ce83d96a728",
@@ -42675,82 +42378,23 @@
       {
         "id": "printing-e3c0a73a7ea9d6bdb4c9b45f",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft., climb 40 ft.",
-              "Passive Perception · 13",
-              "Initiative · 3",
-              "XP · 50",
-              "Str · 12",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Open ground", "Burrows", "Crevices", "Hollows under debris"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A squat brown wolf spider with stout hairy legs, a compact oval abdomen, and a prominent central pair of dark forward-facing eyes."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +3 and Stealth +7. Blindsight 10 ft., darkvision 60 ft., and passive Perception 13. No listed languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Monster Manual, first printing (September 2014), Appendix A, printed p. 330. https://online.anyflip.com/pqhqn/sezy/index.html#p=331"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. Move over difficult surfaces, including ceilings upside down, without an ability check.\nWeb Sense. While touching a web, the spider pinpoints each other creature touching that same web.\nWeb Walker. Webbing does not slow or restrict the spider's movement."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +3 to hit against one creature within 5 ft. On a hit, deal 4 (1d6 + 1) piercing damage. The target then makes a DC 11 Constitution save against 7 (2d6) poison damage, taking half on a success. If the poison damage drops the target to 0 HP, the target is stable, poisoned for 1 hour even if it regains HP, and paralyzed as long as this poisoning lasts."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "Track piercing and poison damage separately. A stable creature makes no death saving throws while at 0 HP. While poisoned, the target has disadvantage on attack rolls and ability checks. Paralysis also incapacitates it, prevents movement and speech, and causes automatic failure of Strength and Dexterity saves. Attacks against it have advantage, and hits from within 5 ft. are critical hits."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20wolf%20spider_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-wolf-spider-771ba99eb9e4.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_wolf_spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-5dc4ac16903075f7e729b22e",
@@ -62055,169 +61699,57 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 1/8",
-              "Type · Beast",
-              "Speed · 30 ft., swim 30 ft.",
-              "XP · 25",
-              "Str · 2",
-              "Dex · 16",
-              "Con · 11",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "venomous_snake"
           },
-          {
-            "title": "Classification",
-            "lines": ["Tiny beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses blindsight 10 ft., passive Perception 10 Languages —"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-da4e7cbc6facbdf85d4692b8",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 1/8",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 30 ft., swim 30 ft.",
-              "XP · 25",
-              "Str · 2",
-              "Dex · 16",
-              "Con · 11",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest floor", "Scrub", "Water margins"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A slender, coral-snake-like reptile with a small black head and narrow bands of muted red, charcoal and cream."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Blindsight 10 ft. Passive Perception 10. No listed skills or languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 149."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +5 to hit and 5-ft. reach against one target. A hit deals 1 piercing damage and prompts a DC 10 Constitution save. The target takes 5 (2d4) poison damage on a failure, or half on a success."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/venomous-snake.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "venomous_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-9aa37df3e33cf029d1aec6c2",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 1/8",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 30 ft., swim 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · 3",
-              "XP · 25",
-              "Str · 2",
-              "Dex · 16",
-              "Con · 11",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest floor", "Scrub", "Water margins"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A slender, coral-snake-like reptile with a small black head and narrow bands of muted red, charcoal and cream."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Blindsight 10 ft. Passive Perception 10. No listed skills or languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 334. https://www.dndbeyond.com/sources/dnd/mm-2014"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +5 to hit and 5-ft. reach against one target. A hit deals 1 piercing damage and prompts a DC 10 Constitution save. The target takes 5 (2d4) poison damage on a failure, or half on a success."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#poisonous%20snake_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/venomous-snake.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "venomous_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-7b949379da259801d873b8f0",
@@ -73389,177 +72921,62 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 − 1",
-              "Challenge · 0",
-              "Type · Beast",
-              "Speed · 20 ft., climb 20 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 14",
-              "Con · 8",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Stealth +4 Senses darkvision 30 ft., passive Perception 10 Languages —"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Web Sense. While in contact with a web, the spider knows the exact location of any other creature in contact with the same web. Web Walker. The spider ignores movement restrictions caused by webbing."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/spider.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
       },
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 − 1",
-              "Challenge · 0",
-              "Type · Beast",
-              "Speed · 20 ft., Climb 20 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 14",
-              "Con · 8",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 2",
-              "Initiative · +2 (12)",
-              "Proficiency bonus · +2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Stealth +4 Senses Darkvision 30 ft.; Passive Perception 10 Languages None"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check. Web Walker. The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 2 (1d4) Poison damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/spider.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
       },
       {
         "id": "printing-208590c0cfbfdde97d4ff101",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 − 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft., climb 20 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 14",
-              "Con · 8",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Woodland undergrowth", "Cellars", "Ruins"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tiny mottled brown spider with long bristled legs and an ochre leaf-shaped mark on its rounded abdomen."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Stealth +4. Darkvision 30 ft. Passive Perception 10. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 153."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The spider can climb difficult surfaces and traverse ceilings upside down without an ability check.\nWeb Sense. While touching a web, it knows where every other creature touching that same web is located.\nWeb Walker. Webbing does not restrict its movement."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage. The target makes a DC 9 Constitution save. On a failure, it also takes 2 (1d4) poison damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/spider.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-77863bde4f64a6d0af2d6deb",
@@ -73644,153 +73061,46 @@
       {
         "id": "printing-c7879b8122ed375e2136de27",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 − 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft., climb 20 ft.",
-              "Passive Perception · 10",
-              "Initiative · 2",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 14",
-              "Con · 8",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Woodland undergrowth", "Cellars", "Ruins"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tiny mottled brown spider with long bristled legs and an ochre leaf-shaped mark on its rounded abdomen."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Stealth +4. Darkvision 30 ft. Passive Perception 10. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, p. 337. https://anyflip.com/kqwdv/eoae/basic/301-350"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The spider can climb difficult surfaces and traverse ceilings upside down without an ability check.\nWeb Sense. While touching a web, it knows where every other creature touching that same web is located.\nWeb Walker. Webbing does not restrict its movement."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage. The target makes a DC 9 Constitution save. On a failure, it also takes 2 (1d4) poison damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#spider_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/16/575/1000/1000/636376359864842950.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/spider.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-eb595a9b1085dff6790811c8",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft., climb 20 ft.",
-              "Passive Perception · 10",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 14",
-              "Con · 8",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str -4", "Dex +2", "Con -1", "Int -5", "Wis +0", "Cha -4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert", "forest", "swamp", "underdark", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A small olive-brown orb-weaver with a rounded, marked abdomen and eight slender legs."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency bonus +2. Stealth +4. Darkvision 30 ft. Passive Perception 10. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 369. https://www.dndbeyond.com/monsters/4775844-spider"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. Climb difficult surfaces and ceilings without an ability check.\nWeb Walker. Ignore movement restrictions from webs. The spider knows where other creatures are touching the same web."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee attack roll +4, reach 5 ft. On a hit, deal 1 piercing damage plus 2 (1d4) poison damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#spider_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/862/1000/1000/638607433377512962.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/spider.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-364b23e12c15d86afa288804",

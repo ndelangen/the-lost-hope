@@ -85,6 +85,11 @@ describe('ability text', () => {
     expect(dc).toMatchObject({ value: 'DC 13', note: expect.stringContaining('Dexterity saving') })
   })
 
+  it('derives a spell attack bonus from the casting ability', () => {
+    const [, bonus] = abilityTextSegments(['Spell attacks ', { toHit: 'str' }], wolfie)
+    expect(bonus).toMatchObject({ kind: 'number', value: '+5' })
+  })
+
   it('explains conditions and standard actions', () => {
     const [prone, disengage] = abilityTextSegments(
       ['Knocked ', refs.rules.prone, ' or ', refs.rules.disengage],
