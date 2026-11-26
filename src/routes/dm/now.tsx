@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { PanelLeftClose, ScrollText, X } from 'lucide-react'
+import { X } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { z } from 'zod'
 
@@ -46,7 +46,7 @@ function NowRoute() {
   const scene = sceneKey ? scenes[sceneKey] : undefined
   const [beatsOpen, setBeatsOpen] = useState(false)
   const [sideHidden, setSideHidden] = useState(false)
-  const wide = useRef(false)
+  const [wide, setWide] = useState(false)
 
   useEffect(() => {
     try {
@@ -55,10 +55,8 @@ function NowRoute() {
       // Without storage the beats simply start shown.
     }
     const query = window.matchMedia(WIDE_QUERY)
-    wide.current = query.matches
-    const onChange = (event: MediaQueryListEvent) => {
-      wide.current = event.matches
-    }
+    setWide(query.matches)
+    const onChange = (event: MediaQueryListEvent) => setWide(event.matches)
     query.addEventListener('change', onChange)
     return () => query.removeEventListener('change', onChange)
   }, [])
@@ -73,7 +71,7 @@ function NowRoute() {
   }
   // Wide, the beats fold in and out beside the fight; narrow, they slide in as a drawer.
   const toggleBeats = () => {
-    if (wide.current) setHidden(!sideHidden)
+    if (wide) setHidden(!sideHidden)
     else setBeatsOpen((open) => !open)
   }
   const toggleRef = useRef(toggleBeats)
@@ -136,20 +134,6 @@ function NowRoute() {
       </ul>
     ) : null
 
-  const beatsButton = (className?: string) => (
-    <button
-      type="button"
-      onClick={toggleBeats}
-      className={cn(
-        'border-border hover:bg-muted flex h-11 w-fit items-center gap-2 rounded-xl border-2 px-4 font-semibold',
-        className,
-      )}
-    >
-      <ScrollText className="size-5" aria-hidden /> Beats
-      <kbd className="text-muted-foreground border-border rounded border px-1.5 text-xs">B</kbd>
-    </button>
-  )
-
   const beatsDrawer = beatsOpen ? (
     <aside
       aria-label="Beats"
@@ -179,7 +163,6 @@ function NowRoute() {
         !sideHidden && 'xl:grid-cols-[24rem_minmax(0,1fr)] 2xl:grid-cols-[28rem_minmax(0,1fr)]',
       )}
     >
-      {beatsButton(sideHidden ? undefined : 'xl:hidden')}
       <aside
         aria-label="Beats"
         className={cn(
@@ -187,18 +170,10 @@ function NowRoute() {
           !sideHidden && 'xl:grid',
         )}
       >
-        <button
-          type="button"
-          onClick={() => setHidden(true)}
-          className="border-border hover:bg-muted flex h-11 w-fit items-center gap-2 rounded-xl border px-3 font-semibold"
-        >
-          <PanelLeftClose className="size-5" aria-hidden /> Hide beats
-          <kbd className="text-muted-foreground border-border rounded border px-1.5 text-xs">B</kbd>
-        </button>
         {mapList}
         {beats}
       </aside>
-      <LiveFight />
+      <LiveFight beats={{ shown: wide ? !sideHidden : beatsOpen, onToggle: toggleBeats }} />
       {beatsDrawer}
     </div>
   )

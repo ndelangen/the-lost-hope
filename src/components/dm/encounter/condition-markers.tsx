@@ -220,8 +220,9 @@ export function ConditionBadges({
     'inline-flex items-center justify-center rounded-md',
     focus ? 'size-7 [&_svg]:size-4' : 'size-5 [&_svg]:size-3.5',
   )
+  // One row that never wraps: a narrow place scrolls the badges sideways instead.
   return (
-    <span className="flex flex-wrap items-center gap-1">
+    <span className="flex items-center gap-1 [&>*]:shrink-0">
       {out ? (
         <span
           className={cn(

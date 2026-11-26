@@ -59,6 +59,7 @@ import {
 } from '#/lib/encounter-combat'
 import { focusShortcut, type EncounterDrawer } from '#/lib/encounter-focus'
 import { enemyLetters } from '#/lib/player-turn-order'
+import { cn } from '#/lib/utils'
 
 import { AddEnemiesSheet } from './add-enemies-sheet'
 import type { ApplyEffectActions } from './apply-effect'
@@ -80,7 +81,12 @@ import { newConditionId, useEncounter } from './use-encounter-store'
  * drawers to add to the fight, read the prep notes, or open the DM screen. Pages that run the fight
  * place it; it keeps its own fight state and shortcuts.
  */
-export function LiveFight() {
+export function LiveFight({
+  beats,
+}: {
+  /** The page's beats beside the fight, shown and hidden from the fight's bar. */
+  beats?: { shown: boolean; onToggle: () => void }
+}) {
   const [encounter, update] = useEncounter()
   const [selected, setSelected] = useState<string>()
   const [openAbility, setOpenAbility] = useState<string>()
@@ -465,6 +471,7 @@ export function LiveFight() {
             if (window.confirm('End this fight and clear everyone from it?'))
               updateEncounter(emptyEncounter)
           }}
+          beats={beats}
         />
         <DmScreen open={drawer === 'screen'} onClose={() => setDrawer(undefined)} />
         {scene ? (
@@ -478,7 +485,14 @@ export function LiveFight() {
         ) : null}
         {addEnemiesSheet}
         {running ? (
-          <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-3 @2xl:grid-cols-[17rem_minmax(0,1fr)] @5xl:grid-cols-[20rem_minmax(0,1fr)]">
+          <div
+            className={cn(
+              'grid grid-cols-[minmax(0,1fr)] items-start gap-3 @2xl:grid-cols-[minmax(0,1fr)_17rem] @5xl:grid-cols-[minmax(0,1fr)_20rem]',
+              // In dev the player-screen dock floats over the fight's bottom right; leave it room.
+              import.meta.env.DEV && 'pb-16',
+            )}
+          >
+            {/* Stacked, the turn order stays on top; side by side, it sits right of the fight. */}
             <InitiativeRail
               rows={rows}
               active={encounter.active}
@@ -488,7 +502,7 @@ export function LiveFight() {
                 updateEncounter((current) => moveCombatant(current, id, toIndex))
               }
             />
-            <div className="grid min-w-0 content-start gap-3">
+            <div className="grid min-w-0 content-start gap-3 @2xl:order-first">
               {concentrationPrompt}
               {turnCard}
               {legendaryRow}

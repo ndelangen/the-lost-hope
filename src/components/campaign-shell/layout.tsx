@@ -31,7 +31,7 @@ export function CampaignShellLayout({
   if (focused) {
     return (
       <div className="bg-background text-foreground min-h-screen">
-        <main className="min-w-0 px-3 pt-3 pb-24 sm:px-4">{children}</main>
+        <main className="min-w-0 p-3 sm:px-4">{children}</main>
       </div>
     )
   }

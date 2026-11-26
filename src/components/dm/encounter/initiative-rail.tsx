@@ -94,9 +94,6 @@ export function InitiativeRail({
                   dragging === row.id && 'opacity-50',
                 )}
               >
-                <span className="text-muted-foreground w-5 text-right text-sm font-semibold tabular-nums">
-                  {index + 1}
-                </span>
                 {row.avatar ? (
                   <Avatar src={row.avatar} sizes="36px" maxWidth={64} className="size-9" />
                 ) : (
@@ -114,30 +111,36 @@ export function InitiativeRail({
                       <ScreenLetter letter={row.letter} />
                       <span
                         className={cn(
-                          'line-clamp-2 text-base leading-tight break-words',
+                          'truncate text-base leading-tight',
                           current ? 'font-bold' : 'font-medium',
                         )}
                       >
+                        <span className="sr-only">
+                          {index + 1} of {rows.length}:{' '}
+                        </span>
                         {row.name}
                       </span>
                     </span>
-                    <ConditionBadges
-                      conditions={row.combat.conditions}
-                      appliedEffects={row.combat.appliedEffects}
-                      concentration={row.combat.concentration}
-                      effects={row.effects}
-                      out={
-                        row.combat.dead
-                          ? 'dead'
-                          : row.combat.dying
-                            ? 'dying'
-                            : row.combat.stable
-                              ? 'stable'
-                              : row.combat.down
-                                ? 'down'
-                                : undefined
-                      }
-                    />
+                    {/* The badges give way to the name first: one row, at least two badges wide, scrolling sideways. */}
+                    <span className="flex min-w-14 shrink-[20] overflow-x-auto [scrollbar-width:thin] empty:hidden">
+                      <ConditionBadges
+                        conditions={row.combat.conditions}
+                        appliedEffects={row.combat.appliedEffects}
+                        concentration={row.combat.concentration}
+                        effects={row.effects}
+                        out={
+                          row.combat.dead
+                            ? 'dead'
+                            : row.combat.dying
+                              ? 'dying'
+                              : row.combat.stable
+                                ? 'stable'
+                                : row.combat.down
+                                  ? 'down'
+                                  : undefined
+                        }
+                      />
+                    </span>
                   </span>
                   <span className="text-muted-foreground flex items-center gap-2 text-sm tabular-nums">
                     <span className="grow">
