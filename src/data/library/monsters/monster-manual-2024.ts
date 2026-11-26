@@ -10111,6 +10111,17 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Modron.'],
       habitats: ['Mechanus'],
+      appearance: [
+        [
+          'A large, many-limbed construct of metal plates with five arms, moving with calm mechanical purpose. Its gears tick quietly and its eyes glow as it surveys the room.',
+        ],
+      ],
+      lore: [
+        [
+          "Modrons are a hive-like collective of law-bound constructs from Mechanus, ranked in a strict pyramid. Each rank speaks only with its own and the ranks directly above and below, obeys without ego or morality, and refers to itself as 'we'. A destroyed modron dissolves, and the rank below is promoted to replace it. A modron that breaks down or is touched by chaos can go rogue, and other modrons then hunt it down. Pentadrones oversee the worker populace of Mechanus and are the rank that improvises when something unexpected happens. In a fight it pummels with its five arms and breathes a cone of paralysing gas, so expect it to open with the gas on a clustered group.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 224'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -10206,6 +10217,17 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Modron.'],
       habitats: ['Mechanus'],
+      appearance: [
+        [
+          'A medium metal construct with four limbs and a faint hum, hovering just off the ground. It carries a bow and tracks every target with unblinking eyes.',
+        ],
+      ],
+      lore: [
+        [
+          "Modrons are a hive-like collective of law-bound constructs from Mechanus, ranked in a strict pyramid. Each rank speaks only with its own and the ranks directly above and below, obeys without ego or morality, and refers to itself as 'we'. A destroyed modron dissolves, and the rank below is promoted to replace it. A modron that breaks down or is touched by chaos can go rogue, and other modrons then hunt it down. Quadrones act as artillery and field officers in modron armies, so they hang back and shoot while lesser modrons hold the front. They are cold and efficient rather than cruel.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 224'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -10275,6 +10297,17 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Modron.'],
       habitats: ['Mechanus'],
+      appearance: [
+        [
+          'A squat metal construct shaped like an inverted pyramid, with three arms folded neatly against its body. It moves in step with the modrons around it.',
+        ],
+      ],
+      lore: [
+        [
+          "Modrons are a hive-like collective of law-bound constructs from Mechanus, ranked in a strict pyramid. Each rank speaks only with its own and the ranks directly above and below, obeys without ego or morality, and refers to itself as 'we'. A destroyed modron dissolves, and the rank below is promoted to replace it. A modron that breaks down or is touched by chaos can go rogue, and other modrons then hunt it down. Tridrones lead lesser modrons in battle, directing monodrones and duodrones from the front line and fighting with fists or thrown javelins. They obey orders from the ranks above and give them to those below.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 224'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -10600,6 +10633,17 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Telepathy 240 ft.'],
       habitats: ['Underdark'],
+      appearance: [
+        [
+          'A hulking fungus person with a thick stalk body and a broad, mushroom-like cap, trailing a faint haze of drifting spores. It moves slowly and deliberately.',
+        ],
+      ],
+      lore: [
+        [
+          "Myconids are intelligent ambulatory fungi of the Underdark that seek enlightenment and dislike violence. The sovereign is the largest of a colony and presides over its circles of twenty or more myconids. It uses spores to talk telepathically with other thinking creatures and to join its colony in melds, a shared meditation and dream. Approached peacefully, it will offer shelter or safe passage; if its colony is threatened, it defends with spores. Its animating spores can also raise a dead creature as an obedient spore servant. All myconids sense each other's pain across a wide area and suffer badly in sunlight.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 230'],
+      ],
       stats: {
         size: 'large',
         type: 'plant',
@@ -10703,6 +10747,17 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Telepathy 240 ft.'],
       habitats: ['Underdark'],
+      appearance: [
+        [
+          'A knee-high fungus creature with a small pale cap on a stubby stalk, shuffling on tiny legs and leaving a trace of spores.',
+        ],
+      ],
+      lore: [
+        [
+          'Sprouts are the youngest and smallest myconids of an Underdark colony. Like their elders they are peaceful and gentle, and they feel the distress of any other myconid nearby. They are no threat to most visitors, but harming one will bring the rest of the circle running. Myconids reproduce by carefully controlled sporing, so a colony keeps its young protected.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 230'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -10757,6 +10812,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal and telepathy 120 ft..'],
       habitats: ['Abyss'],
+      appearance: [
+        [
+          'A bloated demon twice the height of a human, a mix of ape and boar, with feathered wings that look far too small to lift its mass.',
+        ],
+      ],
+      lore: [
+        [
+          'The nalfeshnee looks brutish but is clever and cunning. It uses its wings to rise over the front rank and reach weak targets, and from the thick of battle it bellows telepathic orders to lesser demons while an aura of dread makes foes scatter. It feeds on hatred and despair but craves humanoid flesh most of all, keeping abducted captives in a larder and eating them alive at lavish feasts with stained, rusty cutlery. It considers itself refined and cultured.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 54'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -11075,6 +11141,13 @@ export default createPublicationMonsters({
       page: 230,
       alignment: 'unaligned',
       habitats: ['Underdark'],
+      appearance: [['A yellowish blob that slides under doors and through narrow cracks.']],
+      lore: [
+        [
+          'The ochre jelly is a hunting ooze with enough animal cunning to avoid large groups. It trails its prey at a safe distance. Its digestive enzymes dissolve flesh quickly but leave bone, wood and metal untouched, so remains may lie in its path. Expect it to wait for a lone straggler rather than charge a whole party.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 241'],
+      ],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -11206,6 +11279,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Understands Common and Giant and cannot speak.'],
       habitats: ['Shadowfell (planar)', 'Underdark', 'Urban'],
+      appearance: [
+        [
+          'A towering, bloated ogre corpse lurching forward, dragging its feet and trailing the stench of rot. It still wears the scraps it was buried or killed in.',
+        ],
+      ],
+      lore: [
+        [
+          "A zombie is a corpse animated by necromancy to carry out its creator's will without fear or hesitation, and an ogre zombie is simply a bigger, stronger one. It has no memory or imagination, takes the shortest route to its target, and cannot grasp obstacles, tactics or danger. Without orders it stands where it is and rots until a living creature comes near, then attacks it. It follows simple commands and tells friend from foe, but cannot reason beyond that.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 315'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -11406,6 +11490,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ["Understands Celestial, Common, Elvish, and Sylvan. It can't speak."],
       habitats: ['Forest', 'Grassland', 'Hill', 'Upper Planes'],
+      appearance: [
+        [
+          'A winged white horse of striking grace, landing only briefly beside a spring or lake before taking off again at the slightest sound.',
+        ],
+      ],
+      lore: [
+        [
+          'Pegasi are shy, wild and as intelligent as humanoids, so they cannot be broken like ordinary horses. One must be persuaded to carry a good-aligned rider, and then it forms a lifelong bond. They come from the Olympian Glades of Arborea, where they carry the elven gods, and the gods sometimes send them to the Material Plane to help those in need. Mated pairs nest for life in hard-to-reach places. A startled pegasus flees by air rather than fight.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 250'],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -11449,6 +11544,17 @@ export default createPublicationMonsters({
         'Planar (Ethereal Plane)',
         'Underdark',
         'Urban',
+      ],
+      appearance: [
+        [
+          'A large spider that seems to appear out of nowhere, bites, and vanishes again just as fast.',
+        ],
+      ],
+      lore: [
+        [
+          'A phase spider can slip in and out of the Ethereal Plane, so its attacks seem to come from nowhere and it appears to teleport when it moves through the Ethereal before returning. It ambushes prey, delivers a venom that can leave a victim paralysed, then retreats. Expect it to strike from an unseen angle and disappear when threatened.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 334'],
       ],
       stats: {
         size: 'large',
@@ -11721,6 +11827,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['None.'],
       habitats: ['Forest'],
+      appearance: [
+        [
+          'A huge, shaggy, feathered bear-beast with round furious owl eyes, its screech carrying through the dark woods.',
+        ],
+      ],
+      lore: [
+        [
+          'Owlbears are among the most feared predators in the wild: aggressive, ill-tempered and unafraid even of larger monsters. They leave their dens at sunset and hunt through the night in forests dense enough to limit escape, hooting or screeching to claim territory or drive prey. The den is a cave or ruin littered with bones, and the smell of blood and rot attracts scavengers. They hunt alone or in mated pairs and can only be tamed with great patience. This primeval kind is an older, tougher version of the same creature.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 249'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -11814,6 +11931,17 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ["understands Common and Draconic but can't speak."],
       habitats: ['Coasts', 'deserts', 'forests', 'hills', 'mountains', 'and urban areas'],
+      appearance: [
+        [
+          'A tiny red-brown dragon with horns, sharp teeth and a barbed tail, flitting about with a playful air.',
+        ],
+      ],
+      lore: [
+        [
+          'Pseudodragons live quietly in hollow trees and small caves, avoiding other creatures when they can. When attacked they fight back with the venomous stinger on the tail, whose sting can leave a victim senseless for hours. Their telepathy, resistance to magic and agreeable temper make them sought after as familiars. A pseudodragon can end its service at any time for any reason.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 254'],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -11976,6 +12104,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['Deserts and Underdark'],
+      appearance: [
+        [
+          'A gargantuan worm that bursts from solid rock, its huge maw wide enough to swallow a horse whole.',
+        ],
+      ],
+      lore: [
+        [
+          'The purple worm is a dim, ravenous force of nature that tunnels through stone after anything it counts as food. Loud noise draws it, and it has been known to break into underground battles and cities. The drow, duergar and mind flayers all ward their settlements against it. It is most common in the Underdark but also turns up in rocky and mountainous lands. It rushes forward by compressing and expanding its body and swallows what it catches.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 255'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -12163,6 +12302,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Undercommon.'],
       habitats: ['Underdark'],
+      appearance: [
+        [
+          'A shaggy, pale-furred quaggoth with a faint psionic gleam, standing apart from its tribe as a shaman.',
+        ],
+      ],
+      lore: [
+        [
+          'Quaggoths were once surface arboreal hunters, driven into the Underdark by elves. Down there they turned savage and cannibal, fighting in a frenzy that grows worse as they near death. The drow breed and use them as shock troops and stoke their hatred of elves. A thonot is a quaggoth that has absorbed psionic energy from the Underdark, and its tribe makes it their shaman.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 256'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -12247,6 +12397,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common'],
       habitats: ['Abyss'],
+      appearance: [
+        [
+          'A tiny green humanoid with a barbed tail, horns and clawed fingers and toes, often seen only as a shape-changed animal or not at all.',
+        ],
+      ],
+      lore: [
+        [
+          'Quasits swarm the Lower Planes. They are physically weak, so they lurk in the shadows and plot mischief. More powerful demons use them as spies and messengers when not eating or tearing them apart for fun. A quasit can take animal forms and prefers to be invisible when it strikes, using claws that deliver an irritating poison.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 54'],
+      ],
       stats: {
         size: 'tiny',
         type: 'fiend',
@@ -12342,6 +12503,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['Arctic'],
+      appearance: [
+        [
+          'A huge arctic beast bursting from the snow in a cloud of steam, its back glowing with heat and winglike fins flared behind its head.',
+        ],
+      ],
+      lore: [
+        [
+          'Remorhazes live in arctic lands and hunt elk, polar bears and anything else on their territory. They cannot stand warm weather, because their bodies generate fierce internal heat. A remorhaz buries itself under ice and snow, lowering its temperature so it does not melt its cover, and waits for the vibration of passing prey. Frost giants hunt for nests and eggs to raise young ones as guards for their citadels.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 258'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -12567,6 +12739,17 @@ export default createPublicationMonsters({
       page: 261,
       alignment: 'unaligned',
       habitats: ['Arctic', 'Coastal', 'Desert', 'Hill', 'Mountain'],
+      appearance: [
+        [
+          'A silhouette like a bird of prey that grows into something impossibly huge as it dives, with a wingspan of hundreds of feet.',
+        ],
+      ],
+      lore: [
+        [
+          'Rocs were created, so legend says, by Annam so giants could challenge dragons for the sky. Cloud and storm giants sometimes tame them, but rocs treat even giants as prey. They live alone for centuries on mountain peaks, nesting in tangles of trees, tents, wrecked ships and caravan remains out of the reach of lesser creatures. A roc seldom bothers with fast or small prey and ignores places where prey can hide; it dives to seize large slow targets in its talons.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 260'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -12759,6 +12942,15 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Sahuagin.'],
       habitats: ['Coastal', 'underwater'],
+      appearance: [
+        ['A scaly, fish-faced humanoid with webbed claws, lunging out of the surf with a spear.'],
+      ],
+      lore: [
+        [
+          'Sahuagin are predatory sea devils that raid ships and coastal villages without mercy, rallying to the drone of a conch-shell horn. They live in deep ocean trenches but claim the whole sea as hunting ground. They worship the shark god Sekolah and can command sharks, and blood drives them into a frenzy. Their great enemies are the aquatic elves. Some sahuagin are mutants with extra arms who rule as barons.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 263'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -12834,6 +13026,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Understands Primordial but cannot speak.'],
       habitats: ['Elemental Plane of Fire', 'Underdark'],
+      appearance: [
+        [
+          'A coiled, serpentine creature of embers and obsidian scales, glowing like a hot coal and warping the air around it.',
+        ],
+      ],
+      lore: [
+        [
+          'Salamanders hatch from smouldering obsidian eggs and emerge as fire snakes, maturing into adults in about a year. They love power and delight in setting things alight. The efreet enslaved the salamanders long ago and use them to wage war across the planes, stoking their hatred of the azers. Free salamanders copy efreet-style rule, with larger ones commanding smaller ones.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 265'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -12880,6 +13083,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Primordial (Ignan).'],
       habitats: ['Elemental Plane of Fire', 'Underdark'],
+      appearance: [
+        [
+          'A serpent-bodied fire elemental with a hawkish face, glowing yellow eyes and weapons that burn red, so hot that flesh blisters nearby.',
+        ],
+      ],
+      lore: [
+        [
+          'Salamanders slither across the Sea of Ash on the Plane of Fire. They adore power and delight in burning things, and the largest and strongest rule lesser kin as cruel nobles over wandering raiding bands. They are skilled smiths, shaping iron and steel with bare hands, and their weapons sear foes on contact. The efreet enslaved them long ago and use them as soldiers, and they hate azers.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 265'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -12993,6 +13207,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan.'],
       habitats: ['Forest', 'Feywild'],
+      appearance: [
+        [
+          'A goat-legged fey with curling horns, shaggy hair and a beard, carrying a flask or pipes and ready to celebrate anything.',
+        ],
+      ],
+      lore: [
+        [
+          'Satyrs are fey driven by curiosity and hedonism, craving strong drink, rich spice and wild dancing. They join any festival they have heard of, and may kidnap a minstrel or sneak into a palace to satisfy a craving. They give no thought to the chaos they cause in others. A satyr may carry panpipes that work charming, frightening or lulling magic, usually one in a group.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 267'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -13234,6 +13459,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       habitats: ['Planar (Shadowfell)', 'Underdark', 'Urban'],
       tableNotes: [['Draining Swipe leaves the duration of the Strength reduction unspecified.']],
+      appearance: [
+        [
+          'A dark, flickering silhouette of a person, thin as smoke, that slides along walls and floors toward the living.',
+        ],
+      ],
+      lore: [
+        [
+          "Shadows are undead that look like exaggerated human shadows. They drain the vitality of living creatures and are especially drawn to the good and pious, whose suppressed impulses gather in the dark. A creature slain by a shadow's draining can have its own shadow rise as a new one. If the original creature returns to life, the shadow may hunt it, and until it is destroyed the person casts no shadow of their own. It needs no air, food, drink or sleep.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 269'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -13702,6 +13938,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common.'],
       habitats: ['Lower Planes and Underdark'],
+      appearance: [
+        [
+          'A large serpent with a human-like head, dark scales and hooded eyes, lurking in a dismal cave or ruin.',
+        ],
+      ],
+      lore: [
+        [
+          'Nagas are intelligent serpents that live in ruins, collecting magic items and lore; their spirits reform in a new body within days of death. The spirit naga lives in gloom and spite, always scheming revenge on those who wronged it. It builds new spells, enslaves mortals, and likes to charm enemies and draw them close for a poisonous bite. It rules its lair with absolute authority and has a long rivalry with the yuan-ti.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 233'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -13804,6 +14051,17 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Common', 'Elvish', 'Sylvan.'],
       habitats: ['Forests and the Feywild'],
+      appearance: [
+        [
+          'A tiny winged humanoid with dragonfly wings, darting between branches in a shaded glen, a small bow in hand.',
+        ],
+      ],
+      lore: [
+        [
+          "Sprites are fey guardians of secret groves who lack warmth and are fierce, hardy fighters. They sense whether a creature's heart is good or evil, judge it, and then put intruders to sleep or scare them off. They first lead strangers astray with rustling bushes and snapping twigs, then shoot poisoned arrows that cause sleep, and retreat deeper into the forest while the victim slumbers. They brew potions and poisons from rare plants and fungi and build villages in tree boughs.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 283'],
+      ],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -14028,6 +14286,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["understands Common but can't speak."],
       habitats: ['Any'],
+      appearance: [
+        [
+          'A heap of severed hands scuttling and climbing over each other across the floor, fingers scrabbling on stone.',
+        ],
+      ],
+      lore: [
+        [
+          'Crawling claws are the severed hands of murderers, animated by dark necromancy so the life force of the dead killer can keep killing. They cannot be turned and cannot be controlled by spells that command undead; they obey only the creator, and can follow only simple commands, such as killing everything in a place. Left alone they repeat the murders they committed in life, crawling from room to room and feeling their way past locks and door handles. Dark wizards and warlocks use them as extra hands.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 44'],
+      ],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -14102,6 +14371,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal. Telepathy 60 ft.', 'limited to creatures that understand Abyssal.'],
       habitats: ['The Abyss'],
+      appearance: [
+        [
+          'A churning mob of squat, repulsive demons, hooting, snarling and grunting as they press forward together.',
+        ],
+      ],
+      lore: [
+        [
+          'Dretches are among the weakest demons: repulsive, self-loathing and always discontented. They are too dim for anything but simple tasks, but make up for it with malice, milling about in mobs and voicing their displeasure in hoots, snarls and grunts. As a swarm they simply overwhelm a target by weight of numbers.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 53'],
+      ],
       stats: {
         swarmOf: 'small',
         size: 'large',
@@ -14254,6 +14534,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ["Understands Infernal but can't speak."],
       habitats: ['The Nine Hells'],
+      appearance: [
+        [
+          'A writhing mass of molten-looking flesh with vaguely humanoid heads and torsos, oozing slowly toward the living.',
+        ],
+      ],
+      lore: [
+        [
+          'A lemure is the twisted soul of an evil mortal, banished to the Nine Hells as a shapeless, repugnant mass of molten-looking flesh with a vaguely humanoid head and torso. It is the lowest form of devil and is doomed to suffer until promoted to a higher devil, most often an imp. A lemure killed in the Hells is only truly destroyed by a blessed weapon or holy water. A swarm is a mob of these tormented souls.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 69'],
+      ],
       stats: {
         swarmOf: 'medium',
         size: 'large',
@@ -14394,6 +14685,17 @@ export default createPublicationMonsters({
         'swamp',
         'underdark',
         'urban',
+      ],
+      appearance: [
+        [
+          'A buzzing cloud of bat-and-mosquito creatures with pincer legs and long needle-like proboscises, swarming in search of blood.',
+        ],
+      ],
+      lore: [
+        [
+          'Stirges feed on the blood of living creatures, landing on a victim, plunging in a proboscis and latching on with pincer legs, then flying off when full. In small numbers they pose little threat, but a pack can be dangerous, since they reattach as fast as a weakened victim pulls them off. A swarm attacks by sheer numbers and keeps coming until prey is drained or driven off.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 284'],
       ],
       stats: {
         swarmOf: 'tiny',
@@ -14720,6 +15022,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Thri-kreen', 'telepathy 60 ft.'],
       habitats: ['Desert', 'grassland'],
+      appearance: [
+        [
+          'A tall insectoid hunter with a chitinous carapace that shifts to match the colour of its surroundings, mandibles clacking and antennae waving.',
+        ],
+      ],
+      lore: [
+        [
+          'Thri-kreen wander the deserts and savannas of the world and avoid other races. They speak a wordless language of clacking mandibles and waving antennae that other creatures cannot read or copy, so with outsiders they draw pictures in sand or arrange twigs. They feel the full range of emotion but are less prone to it than most. They can leap high and far, and use their carapace to hide. Some carry exotic weapons or have psionic powers.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 288'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -14941,6 +15254,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Understands Common and cannot speak.'],
       habitats: ['Forest'],
+      appearance: [
+        [
+          'A shuffling hunched shape of twisted branches with a head and limbs, or a dead-looking shrub, until it moves.',
+        ],
+      ],
+      lore: [
+        [
+          'Blights are corrupted plants, usually under the control of a Gulthias tree, spreading ruin through forests. Twig blights root in soil when prey is scarce and look like woody shrubs; to move, they pull free and twist their branches into a humanoid form. They set ambushes at campsites and watering holes, huddled together among vegetation or firewood. They are dry and very vulnerable to fire.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 32'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -15261,6 +15585,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['None.'],
       habitats: ['Underdark'],
+      appearance: [
+        [
+          'A purplish mushroom creeping over cavern floors on root-like feelers, with four stalks that lash out at passing creatures.',
+        ],
+      ],
+      lore: [
+        [
+          'The violet fungus uses its stalks to lash out at prey, and the slightest touch rots flesh. A creature it kills decomposes quickly, and a new violet fungus sprouts from the corpse and grows to full size in a couple of weeks. It is a stationary ambusher: it does not chase, and simply waits for something to blunder into reach.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 138'],
+      ],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -15404,6 +15739,17 @@ export default createPublicationMonsters({
       page: 282,
       alignment: 'lawful evil',
       habitats: ['Shadowfell', 'Underdark', 'Urban'],
+      appearance: [
+        [
+          "A horse's skeleton, bones held together by dark energy, clattering forward with hollow eye sockets.",
+        ],
+      ],
+      lore: [
+        [
+          "Skeletons are animated by dark magic, called from tombs and old battlefields or risen where death and necromantic energy gather. They have only a rudimentary, pale version of their old mind and follow their creator's orders to the letter, adapting badly to change. They cannot speak and communicate only by nodding or pointing. Skeletons can be made from creatures other than humanoids, such as a warhorse.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 272'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -15453,6 +15799,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ["Understands Primordial but can't speak."],
       habitats: ['Underdark', 'Urban'],
+      appearance: [
+        [
+          'A serpentine coil of water that is invisible while in a pool or fountain and shows itself only when it rises to attack.',
+        ],
+      ],
+      lore: [
+        [
+          'A water weird is an elemental guardian bound to a specific water-filled place, such as a pool or fountain. It stays invisible in the water and emerges to crush intruders, sparing its summoner and anyone the summoner names. When it dies it becomes an ordinary puddle. It has no sense of good or evil, but one bound to a sacred or foul water source can drift to neutral good (scaring intruders away) or neutral evil (killing for pleasure and possibly turning on its summoner). Cleansing the water removes the evil.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 299'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -15623,6 +15980,15 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Goblin and Worg.'],
       habitats: ['Forests', 'grasslands', 'hills', 'and the Feywild'],
+      appearance: [
+        ['A wolf-like predator, larger and meaner than a wolf, growling in a low, wicked voice.'],
+      ],
+      lore: [
+        [
+          'A worg is an evil predator that enjoys hunting and eating weaker creatures. It is cunning and malevolent, roaming the remote wilds or raised by goblins and hobgoblins, who ride them. A worg turns on its rider if it feels mistreated or underfed. Worgs have their own language, speak Goblin, and a few learn Common.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 341'],
+      ],
       stats: {
         size: 'large',
         type: 'fey',
@@ -15659,6 +16025,17 @@ export default createPublicationMonsters({
       page: 337,
       alignment: 'unaligned',
       habitats: ['Hills and mountains'],
+      appearance: [
+        [
+          'A dark-winged, two-legged dragon kin with leathery wings and a long tail ending in a poison stinger.',
+        ],
+      ],
+      lore: [
+        [
+          'Wyverns are lesser cousins of dragons that hunt the same forests and caverns. They prefer to fight from the air and only fight on the ground if forced, keeping the stinger poised over the head. They are aggressive and reckless, backing off only when badly hurt or when an easier meal appears, and they lack the intelligence of dragons, so keeping calm or setting a trap can fool them. Their venom is prized by alchemists and for coating weapons, and a wyvern can be tamed as a difficult and dangerous mount.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 303'],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -15732,6 +16109,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Primordial (Terran).'],
       habitats: ['Planar', 'earth', 'Underdark'],
+      appearance: [
+        [
+          'A heavy, stony Medium creature with a big mouth on top of its head, three long taloned arms and three stone-lidded eyes that see all around.',
+        ],
+      ],
+      lore: [
+        [
+          'Xorn are native to the Elemental Plane of Earth. They sniff out precious metals and gems and tunnel through earth and rock to eat them. On the Material Plane they roam far through the Underdark to feed, and turn aggressive towards miners and treasure hunters when the valuable minerals of their diet are scarce.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 304'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -15819,6 +16207,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Elvish', 'Undercommon.'],
       habitats: ['The Abyss'],
+      appearance: [
+        [
+          'A pillar of yellow slime with a single malevolent eye in its true form. Outside the Abyss it often wears the guise of a female drow or a monstrous spider.',
+        ],
+      ],
+      lore: [
+        [
+          'Yochlols are the Handmaidens of Lolth, extensions of her will who act as spies, taskmasters and agents. They attend the goddess in the Demonweb Pits, and she sends them to guard her temples or help her devout priestesses on the Material Plane. They form only in her realm and serve no one else. Even in drow or spider form a yochlol keeps the venomous touch of its true form.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 54'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -15967,6 +16366,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['Arctic'],
+      appearance: [
+        [
+          'A large arctic beast bursting from snow and ice in a puff of steam, glowing hot, with fins flared behind its head.',
+        ],
+      ],
+      lore: [
+        [
+          'Remorhazes live in arctic climes and cannot tolerate warm weather, generating a furnace-like heat within. They bury themselves in snow and ice and wait for the vibrations of prey above, cooling themselves so they do not melt their cover. Frost giants hunt for remorhaz nests and eggs to rear the young as guards for their citadels, training them from hatching. Unlike adults, young remorhazes gnaw at victims rather than swallowing them whole.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 258'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -16015,6 +16425,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Understands Common plus one other language but cannot speak.'],
       habitats: ['Shadowfell', 'Underdark', 'Urban'],
+      appearance: [
+        [
+          'A shambling corpse in the rotting clothes it was buried in, dragging a foot, arms raised and hands broken, trailing the stench of decay.',
+        ],
+      ],
+      lore: [
+        [
+          'Zombies are corpses raised by necromancy to follow orders without fear or hesitation. They keep nothing of their old selves, take the shortest route to a target, and cannot understand obstacles, tactics or danger, walking into fire, rivers and acid alike. Without orders a zombie stands and rots until a living creature comes close, then attacks. They can follow simple commands and tell friend from foe. They look as they did in life, with the wounds that killed them.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 315'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',

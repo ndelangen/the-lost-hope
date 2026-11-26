@@ -99,6 +99,13 @@ export default createPublicationMonsters({
       page: 10,
       alignment: 'any alignment',
       languages: ['One language', 'usually Common.'],
+      appearance: [['A junior cleric in simple vestments, carrying a club and a holy symbol.']],
+      lore: [
+        [
+          'Acolytes are junior members of a clergy, usually answerable to a priest. They perform varied duties in a temple and have minor spellcasting power granted by their deities. Use them as temple staff, cult servants or hangers-on.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 342'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -386,6 +393,13 @@ export default createPublicationMonsters({
       page: 343,
       alignment: 'any non-good alignment',
       languages: ["Thieves' Cant and any two languages."],
+      appearance: [['A quiet, well-equipped killer with a light crossbow and poisoned weapons.']],
+      lore: [
+        [
+          'Assassins are skilled in poison and are remorseless killers who work for anyone who can pay: nobles, guildmasters, sovereigns and others. They strike from hiding and favour poisoned weapons.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 343'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -630,6 +644,18 @@ export default createPublicationMonsters({
       page: 22,
       alignment: 'lawful neutral',
       languages: ['Ignan.'],
+      appearance: [
+        [
+          'A stocky dwarf-like figure with metallic bronze-looking skin and hair and beard of living flame, in a shield and armour.',
+        ],
+      ],
+      lore: [
+        [
+          'Azers come from the Elemental Plane of Fire. They look like male dwarves but are beings of fire beneath metallic skin. They do not reproduce: each is sculpted from bronze by another azer, which gives it a share of its own flame, so they remain rare. They live in a kingdom of volcanoes on the border of Earth and Fire, mining metals and gems and patrolling against salamander raiders sent by the efreet. They once helped build the City of Brass before the efreet betrayed them, and they remain wary enemies.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 22'],
+      ],
+      habitats: ['Plane of Fire', 'Volcanic'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -801,6 +827,15 @@ export default createPublicationMonsters({
       page: 343,
       alignment: 'any non-lawful alignment',
       languages: ['One language', 'usually Common.'],
+      appearance: [
+        ['A rough, wary figure in ragged leather armour with a scimitar and a crossbow.'],
+      ],
+      lore: [
+        [
+          'Bandits roam in gangs, sometimes led by thugs, veterans or spellcasters. Not all are evil: oppression, drought, disease or famine can drive honest people to banditry. Pirates are bandits of the high seas.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 344'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -902,6 +937,13 @@ export default createPublicationMonsters({
         [
           'It can opt into advantage on melee attacks at the start of its turn. Attacks against it then have advantage until its following turn.',
         ],
+      ],
+      appearance: [['A wild warrior in hide armour with a greataxe, hungry for a fight.']],
+      lore: [
+        [
+          'Berserkers come from uncivilised lands, are unpredictable, and gather in war parties, seeking conflict wherever they can find it.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 344'],
       ],
       stats: {
         size: 'medium',
@@ -1510,6 +1552,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common plus one other language.'],
       habitats: ['underdark'],
+      appearance: [["A serpent's skeleton with a humanoid skull, hissing softly in a dusty ruin."]],
+      lore: [
+        [
+          "Nagas are intelligent serpents of ruined places who hoard arcane knowledge. Yuan-ti created a necromantic ritual to stop a naga's resurrection by turning the living naga into a skeletal undead servant. A bone naga keeps only a few of its former spells. This one was a guardian naga in life: it casts divine spells like those of a protector of sacred places.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 233'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -1585,6 +1634,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common plus one other language.'],
       habitats: ['underdark'],
+      appearance: [["A serpent's skeleton with a humanoid skull, hissing softly in a dusty ruin."]],
+      lore: [
+        [
+          "Nagas are intelligent serpents of ruined places who hoard arcane knowledge. Yuan-ti created a necromantic ritual to stop a naga's resurrection by turning the living naga into a skeletal undead servant. A bone naga keeps only a few of its former spells. This one was a spirit naga in life, so it casts arcane wizard spells.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 233'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -1731,6 +1787,15 @@ export default createPublicationMonsters({
       page: 33,
       alignment: 'chaotic evil',
       languages: ['Common', 'Goblin.'],
+      appearance: [
+        ['A big, heavily built goblinoid in armour that moves with surprising stealth.'],
+      ],
+      lore: [
+        [
+          'Bugbears are made for battle and mayhem, living by raiding and hunting. They bully the weak, resent orders, but will serve a powerful master if bloodshed and treasure are guaranteed. They are often with goblins and hobgoblins, enslaving goblins and extorting gold and food from hobgoblins. They worship Hruggek. Despite their size they move quietly, love ambushes, and flee if outmatched. They forget any loyalty when their own life is at stake.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 33'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1914,6 +1979,18 @@ export default createPublicationMonsters({
       page: 34,
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A huge armoured land shark that bursts out of the ground with jaws spread wide, leaving torn earth and sinkholes behind it.',
+        ],
+      ],
+      lore: [
+        [
+          'The bulette is a massive, irritable predator that lives only to feed and fears nothing, attacking regardless of the odds. It tunnels with its claws, uprooting trees and causing landslides, and when vibrations in the ground reveal movement it shoots to the surface to strike. It ranges across temperate lands eating animals and humanoids. It dislikes dwarf and elf flesh, though it often kills them before noticing, and loves halfling most of all.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 34'],
+      ],
+      habitats: ['Temperate lands'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2084,6 +2161,17 @@ export default createPublicationMonsters({
       page: 36,
       alignment: 'any evil alignment',
       languages: ['Abyssal', 'Common', 'Infernal.'],
+      appearance: [
+        [
+          'A humanoid with horns, leathery wings and a sinewy tail, the clear mark of fiendish blood.',
+        ],
+      ],
+      lore: [
+        [
+          'A cambion is the child of a fiend, usually a succubus or incubus, and a humanoid. It grows into a ruthless adult who sees itself as a natural overlord of mortals, and may stir up uprisings and gather gangs of humanoids and lesser devils. A cambion forced to serve its fiendish parent does so from admiration and dread, expecting to rise one day. In the Nine Hells they serve as soldiers, envoys and attendants; in the Abyss they hold only the authority they can win by force.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 36'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -2392,6 +2480,17 @@ export default createPublicationMonsters({
       page: 38,
       alignment: 'neutral good',
       languages: ['Elvish', 'Sylvan.'],
+      appearance: [
+        [
+          "A large creature with a human torso on a horse's body, carrying a pike and longbow and usually wearing light furs or oiled skins.",
+        ],
+      ],
+      lore: [
+        [
+          'Centaurs are reclusive wanderers and omen-readers who avoid conflict but fight fiercely when pressed. Tribes roam mild to hot lands as hunter-gatherers, rarely building shelters, on migrations that take decades to repeat. They keep clear of borders and laws, which can bring them into conflict with settlements on their old routes. A centaur that cannot keep up is left behind and may settle with other peoples, who value its knowledge of nature. They trade with elves and with benevolent caravans. In combat it charges with the pike or shoots from range.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 38'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2709,6 +2808,18 @@ export default createPublicationMonsters({
       page: 151,
       alignment: 'neutral good (50%) or neutral evil (50%)',
       languages: ['Common', 'Giant.'],
+      appearance: [
+        [
+          'A tall, muscular giant with light skin and silver or blue hair, dressed in rich finery and heavy jewellery.',
+        ],
+      ],
+      lore: [
+        [
+          'Cloud giants live extravagant lives high above the world, taking little interest in other races except for amusement. They dwell in castles on mountain peaks or on solid clouds left from their old empires, and can turn into mist and form fog banks. Some can control weather and winds nearly as well as storm giants. They judge rank by the beauty and value of the treasures a giant owns and gives away, rule lesser giants (fire giants as smiths, frost giants as raiders, hill giants as brutes), and gamble on the outcomes of events, including the lives of others. They worship Memnor the Trickster.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 150'],
+      ],
+      habitats: ['Mountain', 'Sky'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2875,6 +2986,15 @@ export default createPublicationMonsters({
       page: 345,
       alignment: 'any alignment',
       languages: ['One language', 'usually Common.'],
+      appearance: [
+        ['A plain, ordinary person in everyday clothes, probably unarmed or holding a club.'],
+      ],
+      lore: [
+        [
+          'Commoners cover peasants, serfs, slaves, servants, pilgrims, merchants, artisans and hermits. They are ordinary people who avoid a fight if they can.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 345'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2974,6 +3094,13 @@ export default createPublicationMonsters({
       page: 43,
       alignment: 'lawful good',
       languages: ['All languages. Telepathy 120 ft.'],
+      appearance: [['A feathered serpent with brilliantly coloured wings and a gentle manner.']],
+      lore: [
+        [
+          'Couatls are benevolent serpent beings of great intellect and insight, created long ago as guardians and caretakers by a forgotten god. Most of their original mandates are fulfilled or failed, but some still watch over ancient power, wait for a prophecy, or guard heirs of those they once guided. They prefer to stay hidden and show themselves only as a last resort. A couatl cannot lie but may withhold, answer vaguely, or let others draw wrong conclusions to protect a secret or a promise. It can change shape. A dying couatl with unfinished work seeks a mate so its offspring can finish the task.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 43'],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -3327,6 +3454,17 @@ export default createPublicationMonsters({
           'Multiattack is two melee attacks. Wisdom spellcasting uses DC 11 and +3 to hit. Cantrips are light, sacred flame, and thaumaturgy. It has four 1st-level slots for command, inflict wounds, and shield of faith, and three 2nd-level slots for hold person and spiritual weapon.',
         ],
       ],
+      appearance: [
+        [
+          'A zealot in robes with a dagger and a holy symbol of a dark power, driven by fierce devotion.',
+        ],
+      ],
+      lore: [
+        [
+          "Fanatics are often part of a cult's leadership, using charisma and dogma to influence and prey on weak-willed people. Most care about personal power above all. They are devout spellcasters who fight hard for their dark patron.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 345'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3418,6 +3556,17 @@ export default createPublicationMonsters({
       page: 345,
       alignment: 'any non-good alignment',
       languages: ['Any one language', 'usually Common.'],
+      appearance: [
+        [
+          'An ordinary-looking follower in plain clothes, often hiding the sign of a dark loyalty, with a scimitar at hand.',
+        ],
+      ],
+      lore: [
+        [
+          'Cultists swear allegiance to dark powers such as elemental princes, demon lords or archdevils. Most hide their loyalties to avoid being shunned, jailed or killed for them. Unlike evil acolytes, cultists often show signs of madness in their beliefs and practices.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 345'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3468,6 +3617,18 @@ export default createPublicationMonsters({
       page: 45,
       alignment: 'chaotic neutral',
       languages: ['Giant.'],
+      appearance: [
+        [
+          'A one-eyed giant in rough clothes, wearing a necklace of feathers, coins and scraps of metal.',
+        ],
+      ],
+      lore: [
+        [
+          'Cyclopes are one-eyed giants who scrape out a living in wild lands and avoid other races, driving off strangers. They pay little heed to the gods, keep herds, and live alone or in small family groups in caves, ruins or dry-stone houses they build, sealing the entrance with boulders at night. They are reasonably intelligent but slow to learn and bound to tradition, so clever foes can trick them. They speak little, using grunts and gestures, and like shiny, colourful things.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 45'],
+      ],
+      habitats: ['Wilderness', 'Caves'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3532,6 +3693,18 @@ export default createPublicationMonsters({
       page: 143,
       alignment: 'neutral evil',
       languages: ['Terran.'],
+      appearance: [
+        [
+          'A genie adorned with jewellery of precious gems and rare metals, whose lower body becomes a swirling column of sand when it flies.',
+        ],
+      ],
+      lore: [
+        [
+          'Dao are greedy, malicious genies of the Elemental Plane of Earth. They live in ever-expanding tunnel complexes and glittering ore-veined caverns, and want to be envied by other dao. They never help a mortal unless they gain something, preferably treasure, and trade with efreet but scorn djinn and marids. They are always seeking slaves to mine their floating earth islands, and they hate being enslaved themselves.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 141'],
+      ],
+      habitats: ['Plane of Earth'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -3682,6 +3855,18 @@ export default createPublicationMonsters({
           'A hit attaches it. It can attach to a Medium or smaller head, blinding the victim and blocking breathing. The victim or another creature can remove it with a DC 13 Strength check. Its darkness aura is available once per day and requires concentration.',
         ],
       ],
+      appearance: [
+        [
+          'A small, still lump on a cavern ceiling that looks like a stalactite, until it drops and unfurls in a burst of magical darkness.',
+        ],
+      ],
+      lore: [
+        [
+          'Darkmantles hang motionless from cavern ceilings, passing as stalactites or rocks. They drop onto creatures below, wrapping and crushing them while surrounding themselves in magical darkness. They are common in the Underdark and the Shadowfell, where they fill a niche like that of bats, and intelligent Shadowfell creatures sometimes train them as guards or companions.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 46'],
+      ],
+      habitats: ['Underdark', 'Shadowfell'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -3990,6 +4175,18 @@ export default createPublicationMonsters({
       tags: ['gnome'],
       page: 164,
       alignment: 'neutral good',
+      appearance: [
+        [
+          'A small, stocky, grey-skinned gnome, three feet tall and heavy for its size, with stone-coloured skin that blends into rock.',
+        ],
+      ],
+      lore: [
+        [
+          'Deep gnomes live in twisting warrens and sculpted caverns far below the surface, surviving by stealth, cleverness and tenacity. An enclave holds several hundred and is well fortified, with secret tunnels for evacuation. Females usually run the enclaves while males patrol the outskirts and hunt for gems. They prize fine gems, especially rubies, which brings them into conflict with beholders, drow, kuo-toa, duergar and mind flayers.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 164'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4286,6 +4483,18 @@ export default createPublicationMonsters({
       page: 144,
       alignment: 'chaotic good',
       languages: ['Auran.'],
+      appearance: [
+        [
+          'A tall, well-muscled blue-skinned genie with dark eyes in airy, shimmering silks, whose lower body becomes a column of swirling air in flight.',
+        ],
+      ],
+      lore: [
+        [
+          'Djinn are proud, sensuous genies of the Elemental Plane of Air who rule floating cloud islands with great pavilions and gardens. They love comfort and are known for mischief and a friendly attitude to mortals. They despise the dao, and view efreet and marids as haughty. They ride whirlwinds, create their own, and spin away on the wind if outmatched. Djinn accept servitude as fate and treat servants kindly, but hate being bound in bottles, flasks or instruments, and a betrayal brings deadly vengeance.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 142'],
+      ],
+      habitats: ['Plane of Air', 'Sky'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -4405,6 +4614,15 @@ export default createPublicationMonsters({
       page: 82,
       alignment: 'neutral',
       languages: ['Common.'],
+      appearance: [
+        ["An ordinary-looking person of any race, whose appearance is a copy of someone else's."],
+      ],
+      lore: [
+        [
+          "Doppelgangers are devious shapeshifters who copy other humanoids to dodge pursuit or lure victims in. Few creatures sow fear, suspicion and deceit better. The shape does not give languages, mannerisms or memories, so a doppelganger often follows or captures its target and reads surface thoughts to learn names, desires, fears and a few memories, sometimes keeping the victim alive for weeks. They work alone or in small groups, swapping roles, and live on a murdered victim's wealth. They are too lazy to raise young, seducing others and leaving them to rear the child.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 82'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -4781,6 +4999,16 @@ export default createPublicationMonsters({
       page: 122,
       alignment: 'lawful evil',
       languages: ['Dwarvish', 'Undercommon.'],
+      appearance: [
+        ['A bald, ashen-grey dwarf in drab clothing and simple jewellery, severe and utilitarian.'],
+      ],
+      lore: [
+        [
+          'Duergar, or grey dwarves, are tyrants who dwell in great cities deep in the Underdark, working their slaves hard to expand them. They were dwarves enslaved by mind flayers for generations before winning freedom with the help of the god Laduguer, and slavery left them dour, pessimistic and evil. They war on their dwarven kin and other subterranean races, make and break alliances at will, and keep slaves. They resist charms, illusions and spells, can enlarge themselves or turn invisible, and have eyes hurt by sunlight. Asmodeus has been known to pose as a duergar god.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 122'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4874,6 +5102,13 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Modron.'],
       habitats: ['Mechanus'],
+      appearance: [['A blocky metal construct with two arms, ticking and humming as it moves.']],
+      lore: [
+        [
+          "Modrons are a hive-like collective of law-bound constructs from Mechanus, ranked in a strict pyramid. Each rank only deals with its own and the ranks directly next to it, obeying without ego or morality and calling itself 'we'. Duodrones supervise units of monodrones and can do two tasks at once. A destroyed modron is replaced by a promotion from the rank below.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 224'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -4949,6 +5184,18 @@ export default createPublicationMonsters({
       page: 215,
       alignment: 'neutral evil',
       languages: ['Auran', 'Terran.'],
+      appearance: [
+        [
+          'A tiny, mischievous imp-like creature of earth and air, trailing grit and dust and drawn to tombs.',
+        ],
+      ],
+      lore: [
+        [
+          'Mephits are capricious, imp-like creatures from the elemental planes that gather in large numbers. They also turn up on the Material Plane near places rich in their elements. Dust mephits are made of earth and air, are drawn to catacombs, and find death morbidly fascinating. A mephit needs no food, drink or sleep.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 215'],
+      ],
+      habitats: ['Catacombs'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -5099,6 +5346,17 @@ export default createPublicationMonsters({
       page: 123,
       alignment: 'neutral',
       languages: ['Terran.'],
+      appearance: [
+        [
+          'A walking hill of dirt and stone with club-like arms of jagged rock, sometimes set with metal and gems.',
+        ],
+      ],
+      lore: [
+        [
+          'Elementals are incarnations of air, earth, fire and water, often conjured by spells and resentful of being bound into service. An earth elemental plods like a walking hill and glides through rock and earth as if through water. It can pinpoint any foe standing on the ground nearby, so earthbound creatures have much to fear. It has no society or culture of its own.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 123'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -5176,6 +5434,18 @@ export default createPublicationMonsters({
       page: 145,
       alignment: 'lawful evil',
       languages: ['Ignan.'],
+      appearance: [
+        [
+          'A huge genie with magma-red or coal-black skin, wearing silk caftans and gold jewellery, whose lower body becomes smoke and embers in flight.',
+        ],
+      ],
+      lore: [
+        [
+          'Efreet are hulking genies of the Elemental Plane of Fire, immune to flame, cruel and deceptive, and relentless in revenge. They hate servitude and take all others as enemies or future serfs. They raid the planes for slaves and rule as oppressive tyrants from black-glass fortresses and the City of Brass. They despise marids and keep salamanders as slave soldiers.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 142'],
+      ],
+      habitats: ['Plane of Fire'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -15912,6 +16182,13 @@ export default createPublicationMonsters({
       page: 247,
       alignment: 'chaotic evil',
       languages: ['Common and Orc.'],
+      appearance: [['A savage orc priest missing an eye, with blood-stained weapons.']],
+      lore: [
+        [
+          "Orcs worship Gruumsh One-Eye, who lost an eye to Corellon Larethian's arrow. An orc that kills an elf in his name may be visited by an aspect of the god that demands it sacrifice an eye. If it does, it gains spellcasting and the title Eye of Gruumsh. When not guiding war chiefs through auguries, Eyes charge into battle with bloodied weapons.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 245'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -16983,6 +17260,13 @@ export default createPublicationMonsters({
         'None. The servant follows orders received through myconid Rapport Spores and prioritizes the most powerful myconid.',
       ],
       habitats: ['Underdark'],
+      appearance: [['A quaggoth moving stiffly, mindless and silent, ordered about by myconids.']],
+      lore: [
+        [
+          "A spore servant is a creature raised by the animating spores of a myconid sovereign. It keeps its body but loses its mind, speech and any special senses, and is a plant. It obeys the myconids' rapport-spore orders, and the strongest myconid's orders come first.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 230'],
+      ],
       stats: {
         size: 'medium',
         type: 'plant',

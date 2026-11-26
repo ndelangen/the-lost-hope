@@ -3781,6 +3781,18 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'lawful good',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'A small dragon with yellow-green scales and a ribbed crest and curving horns on its head, webbed feet and smooth scales.',
+        ],
+      ],
+      lore: [
+        [
+          "Bronze dragons live on coasts and eat mostly aquatic plants and fish. They take the shape of friendly animals, such as dolphins, gulls or rats, to inspect interesting creatures and ships. They are fascinated by warfare and eagerly join armies fighting for a just cause. A wyrmling's scales are yellow with a green tinge, deepening to rich bronze as it matures.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 109'],
+      ],
+      habitats: ['Coast'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -3873,6 +3885,13 @@ export default createPublicationMonsters({
       tags: ['Goblinoid'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Goblin'],
+      appearance: [['A big, heavy-set goblinoid that moves with surprising stealth.']],
+      lore: [
+        [
+          'Bugbears are born for battle and mayhem, living by raiding and hunting. They bully the weak and resent orders, but will serve a powerful master if bloodshed and treasure are assured. They live with goblins and hobgoblins, enslaving goblins and extorting hobgoblins. They worship Hruggek. They move stealthily, like ambushes, and flee if outmatched. In the 2024 book bugbears are fey; the older book lists them as humanoids.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 33'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -3967,6 +3986,13 @@ export default createPublicationMonsters({
       tags: ['Goblinoid'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Goblin'],
+      appearance: [['A big, heavy-set goblinoid in armour.']],
+      lore: [
+        [
+          'Bugbears are born for battle and mayhem, living by raiding and hunting. They bully the weak and resent orders, but will serve a powerful master if bloodshed and treasure are assured. They live with goblins and hobgoblins, enslaving goblins and extorting hobgoblins. They worship Hruggek. They move stealthily, like ambushes, and flee if outmatched. In the 2024 book bugbears are fey; the older book lists them as humanoids.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 33'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -4038,6 +4064,13 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral good',
       languages: ['Elvish', 'Sylvan'],
+      appearance: [["A large creature with a human torso on a horse's body, armed for war."]],
+      lore: [
+        [
+          'Centaurs are reclusive wanderers and omen-readers who avoid conflict but fight fiercely when pressed. Tribes roam mild to hot lands as hunter-gatherers, rarely building shelters, on migrations that take decades to repeat. They keep clear of borders and laws, which can bring them into conflict with settlements on their old routes. A centaur that cannot keep up is left behind and may settle with other peoples, who value its knowledge of nature. They trade with elves and with benevolent caravans. A trooper is a fighting member of such a tribe, hitting hard with a charge or shooting from range.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 38'],
+      ],
       stats: {
         size: 'large',
         type: 'fey',
