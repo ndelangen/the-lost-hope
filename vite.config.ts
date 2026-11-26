@@ -83,8 +83,10 @@ const config = defineConfig(({ mode }) => {
                 name: (id) => {
                   if (id === '\0virtual:library-index') return 'published-library-index'
                   if (id === '\0virtual:library-search') return 'published-library-search'
-                  const detail = /^\0virtual:library-detail\/([\w-]+)$/.exec(id)
-                  return detail ? `published-library-detail-${detail[1]}` : null
+                  const detail = '\0virtual:library-detail/'
+                  return id.startsWith(detail)
+                    ? `published-library-detail-${id.slice(detail.length)}`
+                    : null
                 },
                 includeDependenciesRecursively: false,
               },

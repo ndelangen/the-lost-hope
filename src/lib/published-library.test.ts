@@ -26,9 +26,9 @@ test('DM search finds hidden text and the selected printing controls the mechani
   expect(
     getLibraryEntry('monsters', 'wolf', true, 'srd-5-2-1')?.selected.typed?.publication.key,
   ).toBe('srd_5_2_1')
-  expect(getLibraryEntry('monsters', 'wolf', true, 'srd-5-1')?.selected.typed?.publication.key).toBe(
-    'srd_5_1',
-  )
+  expect(
+    getLibraryEntry('monsters', 'wolf', true, 'srd-5-1')?.selected.typed?.publication.key,
+  ).toBe('srd_5_1')
   // Beasts are creatures now: one entry, grouped as a beast.
   expect(getLibraryEntry('beasts', 'wolf', true)).toBeUndefined()
   expect(getLibraryEntry('monsters', 'wolf', true)?.groups).toEqual(['Beast'])
@@ -90,7 +90,9 @@ test('staged printings retain exact editions and their own portraits', () => {
   expect(srd.selected.label).toBe('SRD 5.2.1')
   expect(other.selected.label).toBe('Player’s Handbook')
   expect(srd.art[0]?.file).not.toBe(other.art[0]?.file)
-  expect(getLibraryEntry('monsters', 'giant-insect-centipede', false, otherId)?.sections).toEqual([])
+  expect(getLibraryEntry('monsters', 'giant-insect-centipede', false, otherId)?.sections).toEqual(
+    [],
+  )
 })
 
 test('preserves older beast mechanics as DM content under their own publication', () => {
