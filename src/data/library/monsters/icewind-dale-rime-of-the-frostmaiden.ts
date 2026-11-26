@@ -147,6 +147,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               " to hit with spell attacks. No components. At will · Chill Touch, Detect Thoughts, Mage Hand, Zone of Truth. 3/day each · Charm Person, Hold Person. 1/day each · Compulsion, Hold Monster, Sleep (cast at 3rd level), Tasha's Hideous Laughter.",
             ],
+            effects: [],
           },
           {
             key: 'detect-sentience',
@@ -199,10 +200,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '3d8', type: rules.psychic, addModifier: true }],
-                also: ['Become ', rules.stunned, ' for 1 minute.'],
+
+                also: ['Become ', { effect: 'blast-stun' }, '.'],
               },
             },
-            text: ['It can repeat the save at each turn end to recover.'],
+            text: ['It can repeat the save at each turn end to recover. '],
+            effects: [
+              {
+                key: 'blast-stun',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -553,12 +565,21 @@ export default createPublicationMonsters({
               ' on the same turn, the target makes a ',
               { dc: 'str' },
               ' Strength save or falls ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               '. The cat can then make a ',
               { ability: 'bite' },
               ' attack against that target as a bonus action if it is ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -639,6 +660,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               ' to hit with spell attacks. Cantrips (at will) · Light, Sacred Flame, Thaumaturgy. 1st level (4 slots) · Command, Inflict Wounds, Shield of Faith. 2nd level (3 slots) · Hold Person, Spiritual Weapon.',
             ],
+            effects: [],
           },
           {
             key: 'dark-devotion',
@@ -652,6 +674,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'icy-doom',
@@ -724,6 +747,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'icy-doom',
@@ -1251,6 +1275,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
         ],
       },

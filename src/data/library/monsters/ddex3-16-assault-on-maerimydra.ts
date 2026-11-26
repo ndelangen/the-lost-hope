@@ -323,6 +323,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'sticky-leg-recharges-when-no-creatures-are-grappled-by-the-steeder',

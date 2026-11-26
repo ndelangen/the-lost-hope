@@ -87,10 +87,22 @@ export default createPublicationMonsters({
             },
             text: [
               'A target knocked to 0 HP by the poison is stable and ',
-              rules.poisoned,
-              ' for one hour, including after healing. It is ',
-              rules.paralyzed,
-              ' while that poisoning lasts.',
+              { effect: 'spider-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spider-poison',
+                name: 'Poisoned and paralyzed',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                text: [
+                  'including after healing. It is ',
+                  rules.paralyzed,
+                  ' while that poisoning lasts.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -189,10 +201,22 @@ export default createPublicationMonsters({
             },
             text: [
               'A target knocked to 0 HP by the poison is stable and ',
-              rules.poisoned,
-              ' for one hour, including after healing. It is ',
-              rules.paralyzed,
-              ' while that poisoning lasts.',
+              { effect: 'spider-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spider-poison',
+                name: 'Poisoned and paralyzed',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                text: [
+                  'including after healing. It is ',
+                  rules.paralyzed,
+                  ' while that poisoning lasts.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {

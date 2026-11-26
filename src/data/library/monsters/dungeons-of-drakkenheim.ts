@@ -66,6 +66,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution save or gains 1 contamination level.',
             ],
+            effects: [],
           },
           {
             key: 'engulf',
@@ -76,16 +77,24 @@ export default createPublicationMonsters({
               'Each creature in the sludge’s space makes a ',
               { dc: 'str' },
               ' Strength save. On a failure, a Large or smaller target is ',
-              rules.grappled,
-              ' (escape DC 14) and ',
-              rules.restrained,
-              ' until the grapple ends. On a success, push the target out of the sludge’s space. The sludge can hold either one Large target or up to two targets of Medium size or smaller. At the start of each of the sludge’s turns, each ',
+              { effect: 'sludge-grappled' },
+              '. On a success, push the target out of the sludge’s space. The sludge can hold either one Large target or up to two targets of Medium size or smaller. At the start of each of the sludge’s turns, each ',
               rules.grappled,
               ' target takes ',
               { roll: '8d6' },
               ' necrotic damage and makes a ',
               { dc: 'con' },
               ' Constitution save or gains 1 contamination level. A creature within 5 ft. can use an action to pull out a creature or object with a successful DC 14 Strength check.',
+            ],
+            effects: [
+              {
+                key: 'sludge-grappled',
+                name: 'Engulfed',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
         ],
@@ -215,6 +224,7 @@ export default createPublicationMonsters({
               refs.spells.hypnotic_pattern_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'incorporeal-movement',
@@ -251,7 +261,18 @@ export default createPublicationMonsters({
             text: [
               'On a failed ',
               { dc: 'con' },
-              " Constitution save, reduce the target's maximum HP by the necrotic damage taken until it finishes a long rest. The target dies if the reduction brings its maximum to 0.",
+              ' Constitution save, ',
+              { effect: 'drain-reduction' },
+              '. The target dies if the reduction brings its maximum to 0.',
+            ],
+            effects: [
+              {
+                key: 'drain-reduction',
+                name: 'Maximum HP reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ["reduce the target's maximum HP by the necrotic damage taken"],
+                lasts: { kind: 'until', text: ['it finishes a long rest'] },
+              },
             ],
           },
           {
@@ -298,6 +319,7 @@ export default createPublicationMonsters({
               { toHit: 'cha' },
               ' to hit with spell attacks. 1st level (4 slots). Bless, Command, Cure Wounds. 2nd level (3 slots). Branding Smite, Find Steed.',
             ],
+            effects: [],
           },
           {
             key: 'bravery',
@@ -305,6 +327,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Advantage on saves against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'light-s-fury',
@@ -479,6 +502,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -511,11 +535,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 20 } },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.psychic }],
-                also: ['Is ', rules.frightened, ' for 1 minute.'],
+
+                also: ['Is ', { effect: 'shriek-frightened' }, '.'],
               },
             },
-            text: [
-              'It can repeat the save at the end of each of its turns, ending the condition on a success.',
+            text: [],
+            effects: [
+              {
+                key: 'shriek-frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -615,6 +648,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or its speed is 0.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -839,7 +873,18 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' necrotic. On a failed ',
               { dc: 'con' },
-              " Constitution save, reduce the target's maximum HP by the necrotic damage taken until it finishes a long rest. A target whose maximum HP becomes 0 dies. The blade returns immediately after a ranged attack.",
+              ' Constitution save, ',
+              { effect: 'blade-reduction' },
+              '. A target whose maximum HP becomes 0 dies. The blade returns immediately after a ranged attack.',
+            ],
+            effects: [
+              {
+                key: 'blade-reduction',
+                name: 'Maximum HP reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ["reduce the target's maximum HP by the necrotic damage taken"],
+                lasts: { kind: 'until', text: ['it finishes a long rest'] },
+              },
             ],
           },
           {
@@ -860,6 +905,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1053,8 +1099,17 @@ export default createPublicationMonsters({
               'A creature hit must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'rock-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'rock-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

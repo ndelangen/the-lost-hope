@@ -398,6 +398,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'dex' },
               ' Dexterity save.',
             ],
+            effects: [],
           },
           {
             key: 'pseudopod',
@@ -683,7 +684,19 @@ export default createPublicationMonsters({
               { dc: 'con' },
               '), taking ',
               { roll: '2d10' },
-              " necrotic damage on a failed save, or half as much damage on a successful one. Reduce the target's hit point maximum by the necrotic damage dealt and restore the same number of hit points to the cobblefright. The reduction lasts until the target completes a short or long rest.",
+              ' necrotic damage on a failed save, or half as much damage on a successful one. ',
+              { effect: 'siphoned' },
+            ],
+            effects: [
+              {
+                key: 'siphoned',
+                name: 'Reduced hit point maximum',
+                lands: { on: 'use' },
+                text: [
+                  "Reduce the target's hit point maximum by the necrotic damage dealt and restore the same number of hit points to the cobblefright. The reduction lasts until the target completes a short or long rest.",
+                ],
+                lasts: { kind: 'until', text: ['the target completes a short or long rest'] },
+              },
             ],
           },
         ],
@@ -950,6 +963,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks. Cantrips (at will). Chill Touch, Light, Mage Hand, Prestidigitation. 1st level (4 slots). Disguise Self, False Life, Mage Armor, Magic Missile. 2nd level (3 slots). Misty Step, Suggestion, Ray of Enfeeblement. 3rd level (3 slots). Animate Dead, Counterspell, Fear. 4th level (3 slots). Greater Invisibility, Blight. 5th level (1 slot). Dominate Person.',
             ],
+            effects: [],
           },
           {
             key: 'glide',
@@ -1040,6 +1054,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: [rules.deafened, ' prevents the emberbat from using blindsight.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -1239,6 +1254,7 @@ export default createPublicationMonsters({
               refs.spells.wind_wall_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'seedspeech',
@@ -1488,6 +1504,7 @@ export default createPublicationMonsters({
               refs.spells.passwall_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'seedspeech',
@@ -1574,6 +1591,7 @@ export default createPublicationMonsters({
               refs.spells.gust_of_wind_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'seedspeech',
@@ -1670,6 +1688,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1721,6 +1740,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' in its space at the end of the turn. The hedge can uncurl at any point during its own turn.',
             ],
+            effects: [],
           },
           {
             key: 'taunt',
@@ -1730,7 +1750,18 @@ export default createPublicationMonsters({
             text: [
               'Choose a creature within 30 ft. If it can hear the bard, it makes a ',
               { dc: 'cha' },
-              ' Charisma save. On a failure, its ability checks, attacks and saves have disadvantage until the start of the bard’s next turn.',
+              ' Charisma save. On a failure, ',
+              { effect: 'taunted' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'taunted',
+                name: 'Taunted',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: ['its ability checks, attacks and saves have disadvantage'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -1777,6 +1808,7 @@ export default createPublicationMonsters({
               refs.spells.unseen_servant_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dark-one-s-blessing',
@@ -1824,6 +1856,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' in its space at the end of the turn. The hedge can uncurl at any point during its own turn.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2025,6 +2058,7 @@ export default createPublicationMonsters({
               refs.spells.beacon_of_hope_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fated',
@@ -2072,6 +2106,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '. This casting needs no somatic components.',
             ],
+            effects: [],
           },
           {
             key: 'wing-flap',
@@ -2168,10 +2203,19 @@ export default createPublicationMonsters({
               ') against an enemy within 120 ft. It deals 4d8 radiant damage on a hit. The target then makes a ',
               { dc: 'int', save: 'con' },
               ' Constitution save or is ',
-              rules.blinded,
-              ' until the start of the wizard’s next turn. The spell ends when time runs out, the wizard falls ',
+              { effect: 'stars-blind' },
+              '. The spell ends when time runs out, the wizard falls ',
               rules.unconscious,
               ', or all stars are spent. Each two slot levels above 4th add one star and 5 ft. to the light radius.',
+            ],
+            effects: [
+              {
+                key: 'stars-blind',
+                name: 'Blinded by stars',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -2231,6 +2275,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -2548,8 +2593,17 @@ export default createPublicationMonsters({
               ' on the same turn, the target makes a ',
               { dc: 'str' },
               ' Strength save or falls ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2596,6 +2650,7 @@ export default createPublicationMonsters({
             text: [
               'Once per short or long rest, while in mountainous terrain, center a rockslide on a visible space within 60 ft.',
             ],
+            effects: [],
           },
           {
             key: 'pounce-bite',
@@ -2609,6 +2664,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' target.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2783,9 +2839,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d6', type: rules.acid, addModifier: true }],
             },
             text: [
-              'Grapple the target (escape DC 13). The target is ',
-              rules.restrained,
-              ' until the grapple ends. The slime cannot use Pseudopod on another target while the grapple lasts.',
+              'The target is ',
+              { effect: 'pseudopod-grapple' },
+              '. The slime cannot use Pseudopod on another target while the grapple lasts.',
+            ],
+            effects: [
+              {
+                key: 'pseudopod-grapple',
+                name: 'Grappled by the slime',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -2799,16 +2865,28 @@ export default createPublicationMonsters({
               ' attack against a ',
               rules.grappled,
               ' target at least one size smaller than the slime. On a hit, the grapple ends and the target is swallowed. A swallowed target is ',
-              rules.restrained,
-              ' and has total cover against attacks and effects from outside the slime. At the start of each of the target’s turns, it makes a Constitution saving throw (',
-              { dc: 'con', printed: 13 },
-              ') and takes ',
-              { roll: '1d6' },
-              ' acid damage on a failure. If ',
+              { effect: 'slime-swallowed' },
+              '. If ',
               { ability: 'adaptive' },
               ' gives the slime damage immunity, use that damage type instead. The slime can keep one creature swallowed. If the slime dies, the target is free to move and is no longer ',
               rules.restrained,
               '.',
+            ],
+            effects: [
+              {
+                key: 'slime-swallowed',
+                name: 'Swallowed by the slime',
+                lands: { on: 'use' },
+                conditions: [rules.restrained],
+                text: [
+                  'has total cover against attacks and effects from outside the slime. At the start of each of the target’s turns, it makes a Constitution saving throw (',
+                  { dc: 'con', printed: 13 },
+                  ') and takes ',
+                  { roll: '1d6' },
+                  ' acid damage on a failure.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2874,10 +2952,20 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'The slime’s trail remains sticky for up to 15 minutes. A creature that steps in the trail becomes ',
-              rules.restrained,
+              { effect: 'trail-stuck' },
               ' on a failed ',
               { dc: 'con', save: 'str' },
-              ' Strength save. The creature repeats the save at the end of each of its turns and ends the effect on a success.',
+              ' Strength save.',
+            ],
+            effects: [
+              {
+                key: 'trail-stuck',
+                name: 'Stuck in the trail',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2890,6 +2978,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength save. A creature can use an action to free it with a DC 12 Strength (Athletics) check. All stuck weapons can be recovered once the slime dies.',
             ],
+            effects: [],
           },
           {
             key: 'pseudopod',
@@ -2944,6 +3033,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: [rules.deafened, ' prevents the swarm from using blindsight.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -2964,6 +3054,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution save.',
             ],
+            effects: [],
           },
           {
             key: 'swarm',
@@ -3283,8 +3374,18 @@ export default createPublicationMonsters({
               'On a failed ',
               { dc: 'str' },
               ' Strength save, the target is ',
-              rules.grappled,
-              ' (escape DC 16). While grappling a creature, the wakewyrm cannot grapple a second creature or Bite a different target.',
+              { effect: 'wake-grapple' },
+              '. While grappling a creature, the wakewyrm cannot grapple a second creature or Bite a different target.',
+            ],
+            effects: [
+              {
+                key: 'wake-grapple',
+                name: 'Grappled by the wakewyrm',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -3309,18 +3410,28 @@ export default createPublicationMonsters({
               'Make a ',
               { ability: 'bite' },
               ' attack against a Large or smaller creature the wakewyrm is grappling. On a hit, the grapple ends and the target is swallowed. It is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', has total cover against attacks and effects outside the wakewyrm, and takes ',
-              { roll: '3d6', printed: 11 },
-              ' acid damage at the start of each of the wakewyrm’s turns. If a creature inside deals at least 18 damage to the wakewyrm, the wakewyrm must make a ',
+              { effect: 'wake-swallowed' },
+              '. If a creature inside deals at least 18 damage to the wakewyrm, the wakewyrm must make a ',
               { dc: 'con' },
               ' Constitution save at the end of that creature’s turn. On a failure, the wakewyrm disgorges every swallowed creature, and each falls ',
               rules.prone,
               ' in a space within 10 ft. If the wakewyrm dies, swallowed creatures are no longer ',
               rules.restrained,
               ' by it and can spend 20 ft. of movement to escape. Its body floats for several hours before gradually sinking.',
+            ],
+            effects: [
+              {
+                key: 'wake-swallowed',
+                name: 'Swallowed by the wakewyrm',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'has total cover against attacks and effects outside the wakewyrm, and takes ',
+                  { roll: '3d6', printed: 11 },
+                  ' acid damage at the start of each of the wakewyrm’s turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

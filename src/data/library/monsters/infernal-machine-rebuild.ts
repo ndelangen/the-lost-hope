@@ -52,6 +52,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wakeful',
@@ -80,11 +81,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'Grapples the creature, escape DC 12. The captive is ',
-              rules.restrained,
-              ' while ',
-              rules.grappled,
+              'The captive is ',
+              { effect: 'croc-grapple' },
               '. The head holding it cannot bite another target until the grapple ends.',
+            ],
+            effects: [
+              {
+                key: 'croc-grapple',
+                name: 'Grappled by the crocodile',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
         ],

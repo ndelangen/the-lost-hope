@@ -94,6 +94,7 @@ export default createPublicationMonsters({
               refs.spells.command_srd_5_1,
               ', Compelled Duel.',
             ],
+            effects: [],
           },
           {
             key: 'immortal-nature',
@@ -112,6 +113,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', it cannot be surprised. It and its mount have advantage on Dexterity saving throws. If the mounted archon reaches 0 HP, its mount also drops to 0 HP.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -137,8 +139,17 @@ export default createPublicationMonsters({
               ' force damage. A creature hit must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'hammer-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'hammer-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -150,8 +161,19 @@ export default createPublicationMonsters({
               'Choose any number of creatures the archon can see within 120 ft. On a failed ',
               { dc: 'wis' },
               ' Wisdom save, a target drops held weapons, loses concentration, and becomes ',
-              rules.charmed,
-              ' by the archon for 1 minute. It can repeat the save at the end of each of its turns to end the effect. A creature that succeeds on the save or recovers from the effect is immune to this archon’s Pacifying Presence for 24 hours.',
+              { effect: 'pacified' },
+              ' by the archon',
+              '. A creature that succeeds on the save or recovers from the effect is immune to this archon’s Pacifying Presence for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'pacified',
+                name: 'Charmed by the archon',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -203,7 +225,18 @@ export default createPublicationMonsters({
               text: [
                 'Choose a visible creature within 60 ft. On a failed ',
                 { dc: 'wis', save: 'cha' },
-                ' Charisma save, the target is magically sent to a harmless demiplane. At the end of the archon’s next turn, it reappears where it left or in the nearest unoccupied space.',
+                ' Charisma save, ',
+                { effect: 'detained' },
+                '. At the end of the archon’s next turn, it reappears where it left or in the nearest unoccupied space.',
+              ],
+              effects: [
+                {
+                  key: 'detained',
+                  name: 'Sent to a demiplane',
+                  lands: { on: 'save', save: 'cha', dc: 'wis' },
+                  text: ['the target is magically sent to a harmless demiplane'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
           ],
@@ -298,6 +331,7 @@ export default createPublicationMonsters({
             text: [
               'When the phoenix dies:    Only a warm Tiny egg with a mizzium shell remains. A spell that deals lightning damage hatches it if the egg is in the spell’s area. A creature touching the egg can also hatch it by spending spell slots totaling at least 13 levels. The new phoenix appears in the egg’s space.',
             ],
+            effects: [],
           },
           {
             key: 'arclight-touch',
@@ -318,6 +352,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Dexterity save.',
             ],
+            effects: [],
           },
         ],
       },
@@ -696,6 +731,7 @@ export default createPublicationMonsters({
             text: [
               'The weird needs no air, food, drink, or sleep. Feed on Fire. Fire damage from a spell or another magical effect increases the weird’s size by one category, limited by available space. At Large or bigger, it has advantage on Strength checks and saves. If it starts its turn Gargantuan, it explodes and returns to Medium.    The explosion ignites flammable objects that nobody wears or carries.',
             ],
+            effects: [],
           },
           {
             key: 'form-of-fire-and-water',
@@ -803,7 +839,31 @@ export default createPublicationMonsters({
             text: [
               'A humanoid hit makes a ',
               { dc: 'cha' },
-              ' Charisma save. On a failure, the vampire charms it for 1 minute and it becomes infatuated with the vampire for that duration. Reduce the target’s hit point maximum by the necrotic damage it took. The vampire regains the same amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum reaches 0.',
+              ' Charisma save. On a failure, ',
+              { effect: 'vampire-charm' },
+              '. ',
+              { effect: 'vampire-drain' },
+            ],
+            effects: [
+              {
+                key: 'vampire-charm',
+                name: 'Charmed by the vampire',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: [
+                  'the vampire charms it for 1 minute and it becomes infatuated with the vampire for that duration.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
+              {
+                key: 'vampire-drain',
+                name: 'Reduced hit point maximum',
+                lands: { on: 'hit' },
+                text: [
+                  'Reduce the target’s hit point maximum by the necrotic damage it took. The vampire regains the same amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum reaches 0.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {
@@ -908,6 +968,7 @@ export default createPublicationMonsters({
               refs.spells.suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -965,6 +1026,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ' Charisma save, the creature uses its reaction to move up to 30 ft. in a direction the witch chooses.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1279,6 +1341,7 @@ export default createPublicationMonsters({
               refs.spells.hideous_laughter_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'last-laugh',
@@ -1295,6 +1358,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['When the cackler dies:'],
+            effects: [],
           },
           {
             key: 'mimicry',
@@ -1574,8 +1638,17 @@ export default createPublicationMonsters({
               'A creature hit must make a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1668,9 +1741,20 @@ export default createPublicationMonsters({
             text: [
               'A creature hit makes a ',
               { dc: 'wis', save: 'dex' },
-              ' Dexterity save. On a failure, vines restrain it for 1 minute. It can use an action to end the effect on itself with a successful ',
+              ' Dexterity save. On a failure, vines ',
+              { effect: 'vines' },
+              '. It can use an action to end the effect on itself with a successful ',
               { dc: 'wis', save: 'str' },
               ' Strength (Athletics) or Dexterity (Acrobatics) check.',
+            ],
+            effects: [
+              {
+                key: 'vines',
+                name: 'Restrained by vines',
+                lands: { on: 'save', save: 'dex', dc: 'wis' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -1709,6 +1793,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1835,6 +1920,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'rapier',
@@ -1968,8 +2054,17 @@ export default createPublicationMonsters({
               ' that it can see within 90 ft. It must succeed on a ',
               { dc: 'cha' },
               ' Charisma save or become ',
-              rules.paralyzed,
-              ' for 1 minute. Taking any damage ends this paralysis.',
+              { effect: 'chains-paralysis' },
+              '. Taking any damage ends this paralysis.',
+            ],
+            effects: [
+              {
+                key: 'chains-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -1984,6 +2079,7 @@ export default createPublicationMonsters({
               { roll: '2d10' },
               ' necrotic damage to it and gain temporary HP equal to the damage it takes.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2027,6 +2123,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               " to hit with spell attacks). Cantrips (at will). Acid Splash, Chill Touch, Mage Hand, Poison Spray, Prestidigitation. 1st level (4 slots). Chromatic Orb, Magic Missile, Ray of Sickness. 2nd level (3 slots). Melf's Acid Arrow, Ray of Enfeeblement, Spider Climb, Web. 3rd level (3 slots). Animate Dead, Bestow Curse, Fear, Vampiric Touch. 4th level (3 slots). Blight, Evard's Black Tentacles. 5th level (2 slots). Cloudkill, Insect Plague. 6th level (1 slot). Circle of Death, Create Undead. 7th level (1 slot). Finger of Death.",
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2063,6 +2160,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               ' plus the damage taken. Skip this save for radiant damage or damage from a critical hit. On a success, the lich drops to 1 HP.',
             ],
+            effects: [],
           },
           {
             key: 'undead-nature',
@@ -2087,8 +2185,18 @@ export default createPublicationMonsters({
               'The creature must also succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution save or become ',
-              rules.poisoned,
-              ' for 1 minute. It can repeat the save at the end of each of its turns and end the effect on itself on a success.',
+              { effect: 'noxious-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'noxious-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -2127,6 +2235,7 @@ export default createPublicationMonsters({
                 },
                 onSuccess: 'half',
               },
+              effects: [],
             },
           ],
         },
@@ -2246,12 +2355,21 @@ export default createPublicationMonsters({
               ' on the same turn, the victim must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               '. If the victim is ',
               rules.prone,
               ', the felidar can make a ',
               { ability: 'claws' },
               ' attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2325,6 +2443,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               " to hit with spell attacks). Cantrips (at will). Fire Bolt, Light, Sacred Flame, Spare the Dying. 1st level (4 slots). Guiding Bolt, Healing Word, Heroism, Shield of Faith. 2nd level (3 slots). Lesser Restoration, Scorching Ray. 3rd level (3 slots). Blinding Smite, Crusader's Mantle, Revivify. 4th level (3 slots). Banishment, Wall of Fire. 5th level (1 slot). Flame Strike.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2512,6 +2631,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -2628,6 +2748,7 @@ export default createPublicationMonsters({
               { roll: '1d10' },
               ' force damage whether the attack hit or missed.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2687,6 +2808,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' creatures.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2722,8 +2844,19 @@ export default createPublicationMonsters({
               'Each creature within 30 ft. that can hear the screech must pass a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or become ',
-              rules.frightened,
-              ' of the horror for 1 minute. The creature can repeat the save at the end of each of its turns, ending the effect on a success. Once it succeeds on the save or the effect ends, it is immune to this horror’s screech for 24 hours.',
+              { effect: 'screech-fear' },
+              ' of the horror',
+              '. Once it succeeds on the save or the effect ends, it is immune to this horror’s screech for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'screech-fear',
+                name: 'Frightened of the horror',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2919,6 +3052,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['When the weird dies:'],
+            effects: [],
           },
           {
             key: 'elemental-nature',
@@ -2945,7 +3079,18 @@ export default createPublicationMonsters({
             text: [
               'A creature hit must pass a ',
               { dc: 'con' },
-              ' Constitution save or lose its reactions until the start of the weird’s next turn.',
+              ' Constitution save or ',
+              { effect: 'slam-no-reactions' },
+              ' until the start of the weird’s next turn.',
+            ],
+            effects: [
+              {
+                key: 'slam-no-reactions',
+                name: 'Loses reactions',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['lose its reactions'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
         ],
@@ -3089,6 +3234,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               ' to hit with spell attacks). Cantrips (at will). Poison Spray, Shillelagh, Thorn Whip. 1st level (4 slots). Cure Wounds, Entangle, Ray of Sickness. 2nd level (3 slots). Pass without Trace, Ray of Enfeeblement, Spike Growth. 3rd level (3 slots). Animate Dead, Dispel Magic, Plant Growth. 4th level (2 slots). Blight, Giant Insect.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -3100,6 +3246,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -3141,6 +3288,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['Or half that damage on a success.'],
+            effects: [],
           },
           {
             key: 'feed-on-death',
@@ -3171,8 +3319,17 @@ export default createPublicationMonsters({
               'Sewage spills from sewer openings the Golgari can see. A creature within 20 ft. of an affected opening must pass a ',
               { dc: 'dex', printed: 15 },
               ' Dexterity save or fall ',
-              rules.prone,
+              { effect: 'sewage-prone' },
               ' and be pushed up to 20 ft. straight away from that opening.',
+            ],
+            effects: [
+              {
+                key: 'sewage-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 15 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3188,6 +3345,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' poison damage. The cloud lasts until a Golgari defender dismisses it as an action, the group uses this option again, or all defenders die.',
             ],
+            effects: [],
           },
           {
             key: 'fungal-tendrils',
@@ -3197,8 +3355,22 @@ export default createPublicationMonsters({
               'Center a 15-ft.-radius sphere within 60 ft. of any member of the group. Creatures in it who are not allied with the group must pass a ',
               { dc: 'dex', printed: 15 },
               ' Dexterity save or become ',
-              rules.restrained,
-              '. An affected creature can use its action to end the restraint on itself with a successful DC 15 Strength check. The restraint also ends if the group uses this option again, all defenders die, or no member remains within 60 ft. of the effect.',
+              { effect: 'tendrils' },
+              '. An affected creature can use its action to end the restraint on itself with a successful DC 15 Strength check.',
+            ],
+            effects: [
+              {
+                key: 'tendrils',
+                name: 'Restrained by tendrils',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 15 },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the group uses this option again, all defenders die, or no member remains within 60 ft. of the effect',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -3505,17 +3677,28 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.bludgeoning }],
             },
             text: [
-              'A ',
-              rules.poisoned,
-              ' target takes ',
-              { roll: '1d6' },
-              ' poison damage when it fails a repeated save, and the poison ends on a success. The target must pass a ',
+              'The target must pass a ',
               { dc: 'con' },
               ' Constitution save or become ',
-              rules.poisoned,
-              ' for 1 minute. At the end of each of its turns while ',
-              rules.poisoned,
-              ' this way, it must repeat the save.',
+              { effect: 'toxic-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'toxic-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: [
+                  'A ',
+                  rules.poisoned,
+                  ' target takes ',
+                  { roll: '1d6' },
+                  ' poison damage when it fails a repeated save, and the poison ends on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -3770,6 +3953,7 @@ export default createPublicationMonsters({
               refs.spells.vampiric_touch_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'feed-on-death',
@@ -3783,6 +3967,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'hive-mind',
@@ -3796,6 +3981,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'pack-tactics',
@@ -3807,6 +3993,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -3879,6 +4066,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'pack-tactics',
@@ -3890,6 +4078,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -4291,6 +4480,7 @@ export default createPublicationMonsters({
               refs.spells.major_image_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -4359,6 +4549,7 @@ export default createPublicationMonsters({
             text: ['On a success, halve the damage and reveal only its general emotional state.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'shadow-stealth',
@@ -4419,6 +4610,7 @@ export default createPublicationMonsters({
               refs.spells.modify_memory_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -4480,6 +4672,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', the specter is immune to surprise, and both rider and mount have advantage on Dexterity saves.',
             ],
+            effects: [],
           },
           {
             key: 'undead-nature',
@@ -4520,10 +4713,18 @@ export default createPublicationMonsters({
               ') or take ',
               { roll: '5d8' },
               ' psychic damage and be ',
-              rules.stunned,
-              ' for 1 minute. At the end of each of its turns, a ',
-              rules.stunned,
-              ' target can repeat the save to end the effect on itself.',
+              { effect: 'twist-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'twist-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4542,6 +4743,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'mount-2',
@@ -4593,6 +4795,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks). Cantrips (at will). Fire Bolt, Light, Prestidigitation, Ray of Frost, Shocking Grasp. 1st level (4 slots). Detect Magic, Magic Missile, Shield, Thunderwave, Unseen Servant. 2nd level (3 slots). Blur, Enlarge/Reduce, Flaming Sphere, Scorching Ray. 3rd level (3 slots). Counterspell, Fireball, Hold Person, Lightning Bolt, Slow. 4th level (3 slots). Confusion, Dimension Door, Fabricate. 5th level (2 slots). Conjure Elemental, Polymorph, Wall of Fire, Wall of Force. 6th level (1 slot). Chain Lightning, Disintegrate, True Seeing. 7th level (1 slot). Project Image, Reverse Gravity, Teleport. 8th level (1 slot). Control Weather, Maze, Power Word Stun. 9th level (1 slot). Prismatic Wall.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -4698,6 +4901,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -4727,14 +4931,23 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d4', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
-                    'Fall ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. Niv-Mizzet can then fly up to half his flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
             {
               key: 'dracogenius',
@@ -4871,6 +5084,7 @@ export default createPublicationMonsters({
               refs.spells.spirit_guardians_srd_5_1,
               ' (cast at; 4th level).',
             ],
+            effects: [],
           },
           {
             key: 'council-of-five',
@@ -4930,7 +5144,20 @@ export default createPublicationMonsters({
             text: [
               'The ghost regains HP equal to half the damage the target takes. The target must pass a ',
               { dc: 'con', printed: 13 },
-              ' Constitution save or reduce its HP maximum by the full damage it took. The reduction lasts until the target finishes a long rest. The target dies if its HP maximum reaches 0.',
+              ' Constitution save or ',
+              { effect: 'life-drain-max' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'life-drain-max',
+                name: 'Reduced HP maximum',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 13 },
+                text: [
+                  'reduce its HP maximum by the full damage it took. The reduction lasts until the target finishes a long rest. The target dies if its HP maximum reaches 0.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {
@@ -4953,7 +5180,20 @@ export default createPublicationMonsters({
               text: [
                 'One target that all five ghosts can see makes a ',
                 { dc: 'wis' },
-                ' Wisdom save. On a failure, the target bows until the end of its next turn. While bowing it cannot take actions or reactions and its speed is 0 and cannot increase.',
+                ' Wisdom save. On a failure, the target bows ',
+                { effect: 'bowing' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'bowing',
+                  name: 'Bowing',
+                  lands: { on: 'save', save: 'wis', dc: 'wis' },
+                  text: [
+                    'While bowing it cannot take actions or reactions and its speed is 0 and cannot increase.',
+                  ],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -5062,6 +5302,7 @@ export default createPublicationMonsters({
               refs.spells.locate_object_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -5088,8 +5329,17 @@ export default createPublicationMonsters({
               ' psychic damage and must pass a ',
               { dc: 'int' },
               ' Intelligence save or be ',
-              rules.stunned,
-              ' until the end of its next turn.',
+              { effect: 'glimpse-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'glimpse-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -5148,6 +5398,7 @@ export default createPublicationMonsters({
               refs.spells.hellish_rebuke_srd_5_1,
               ' (cast at; 5th level).',
             ],
+            effects: [],
           },
           {
             key: 'captivating-presence',
@@ -5158,8 +5409,17 @@ export default createPublicationMonsters({
               'Any creature starting its turn within 30 ft. of Rakdos makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On a failure, it becomes ',
-              rules.charmed,
-              ' by Rakdos for 1 minute or until it gets farther than 30 ft. from him. A successful save grants immunity to Captivating Presence for 24 hours.',
+              { effect: 'captivated' },
+              ' or until it gets farther than 30 ft. from him. A successful save grants immunity to Captivating Presence for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'captivated',
+                name: 'Charmed by Rakdos',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -5251,6 +5511,7 @@ export default createPublicationMonsters({
                 rules.charmed,
                 ' by him within 60 ft. must use its reaction. It moves up to half its speed toward the nearest creature it can see if it is more than 5 ft. away, then makes one melee attack against that creature if able.',
               ],
+              effects: [],
             },
             {
               key: 'scythe',
@@ -5274,10 +5535,18 @@ export default createPublicationMonsters({
                 ' attack against a creature within 10 ft. The target makes a ',
                 { dc: 'cha', save: 'con' },
                 ' Constitution save. On a failure it is ',
-                rules.poisoned,
-                ' for 1 minute and cannot maintain concentration while ',
-                rules.poisoned,
-                ' this way. It can repeat the save at the end of each of its turns, ending the effect on a success.',
+                { effect: 'pain-poison' },
+              ],
+              effects: [
+                {
+                  key: 'pain-poison',
+                  name: 'Poisoned',
+                  lands: { on: 'save', save: 'con', dc: 'con' },
+                  conditions: [rules.poisoned],
+                  text: ['cannot maintain concentration while ', rules.poisoned, ' this way.'],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
           ],
@@ -5450,6 +5719,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'nimble',
@@ -5691,6 +5961,7 @@ export default createPublicationMonsters({
               { ability: 'scorchbringer' },
               ' recharge check.    The blast ignites flammable objects no one wears or carries and destroys the scorchbringer.',
             ],
+            effects: [],
           },
           {
             key: 'light-hammer',
@@ -5724,6 +5995,7 @@ export default createPublicationMonsters({
             text: ['The device emits a line of fire.'],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -6040,8 +6312,17 @@ export default createPublicationMonsters({
               'Choose a visible creature within 30 ft. If it can see or hear the horror, it makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On a failure it is ',
-              rules.paralyzed,
-              ' until the end of its next turn. On a success it is immune to this horror’s Maddening Presence for 24 hours.',
+              { effect: 'maddened' },
+              '. On a success it is immune to this horror’s Maddening Presence for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'maddened',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -6164,18 +6445,28 @@ export default createPublicationMonsters({
               'On a hit. A Large or smaller creature hit must pass a Dexterity save (',
               { dc: 'str' },
               ') or be swallowed. A swallowed creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', has total cover against attacks and other effects outside the skyswimmer, and takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the skyswimmer's turns. If a swallowed creature deals at least 30 damage to the skyswimmer in one turn, the skyswimmer must pass a Constitution save (",
+              { effect: 'skyswallowed' },
+              '. If a swallowed creature deals at least 30 damage to the skyswimmer in one turn, the skyswimmer must pass a Constitution save (',
               { dc: 'con', printed: 18 },
               ') at the end of that turn. On a failure, it regurgitates that creature, which falls ',
               rules.prone,
               ' in a space within 10 ft. If the skyswimmer dies, it no longer restrains the swallowed creature. That creature can spend 15 ft. of movement to escape the corpse and emerges ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'skyswallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'has total cover against attacks and other effects outside the skyswimmer, and takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the skyswimmer's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6309,7 +6600,20 @@ export default createPublicationMonsters({
             text: [
               'Every creature in the lair makes a ',
               { dc: 'con' },
-              ' Constitution save. On a failure it becomes 1d20 years older or younger, as the sphinx chooses. The creature cannot become younger than 1 year. Greater Restoration can restore its age.',
+              ' Constitution save. On a failure ',
+              { effect: 'aged' },
+            ],
+            effects: [
+              {
+                key: 'aged',
+                name: 'Aged by the sphinx',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'it becomes 1d20 years older or younger, as the sphinx chooses. The creature cannot become younger than 1 year.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['Greater Restoration can restore its age.'] },
+              },
             ],
           },
           {
@@ -6550,6 +6854,7 @@ export default createPublicationMonsters({
               refs.spells.misty_step_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -6603,9 +6908,30 @@ export default createPublicationMonsters({
             text: [
               'Choose one visible creature within 60 ft. that can see the medusa’s eyes. It makes a ',
               { dc: 'con' },
-              ' Constitution save. Failure by 5 or more petrifies it immediately. Any other failure restrains it as it turns to stone. A ',
-              rules.restrained,
-              ' creature repeats the save at the end of its next turn. Failure petrifies it and success ends the effect. Greater Restoration or similar magic ends the petrification.',
+              ' Constitution save. Failure by 5 or more petrifies it immediately. Any other failure ',
+              { effect: 'gaze-restrained' },
+              ' Failure ',
+              { effect: 'gaze-petrified' },
+              '. Greater Restoration or similar magic ends the petrification.',
+            ],
+            effects: [
+              {
+                key: 'gaze-restrained',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                text: ['restrains it as it turns to stone.'],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'gaze-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  text: ['petrifies it'],
+                  lasts: { kind: 'until-removed' },
+                },
+              },
             ],
           },
         ],
@@ -6664,12 +6990,21 @@ export default createPublicationMonsters({
               ' on the same turn, that creature must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               '. If the target is ',
               rules.prone,
               ', the felidar can make one ',
               { ability: 'claws' },
               ' attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6751,6 +7086,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'pack-tactics',
@@ -6762,6 +7098,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -6881,13 +7218,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30 },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.bludgeoning }],
-                also: ['Knocks it ', rules.prone, '.'],
+
+                also: ['Knocks it ', { effect: 'tremor-prone' }, '.'],
               },
             },
             text: [
               'A ground-anchored object or structure that first comes within the same distance on a turn takes ',
               { roll: '3d6' },
               ' force damage.',
+            ],
+            effects: [
+              {
+                key: 'tremor-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6930,12 +7277,22 @@ export default createPublicationMonsters({
               ' by it. They can spend 20 ft. of movement to exit ',
               rules.prone,
               '. A swallowed creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' inside, has total cover from external attacks and effects, and takes ',
-              { roll: '5d6' },
-              ' acid damage at the start of each of the wurm’s turns.',
+              { effect: 'wurm-swallowed' },
+              ' inside.',
+            ],
+            effects: [
+              {
+                key: 'wurm-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'has total cover from external attacks and effects, and takes ',
+                  { roll: '5d6' },
+                  ' acid damage at the start of each of the wurm’s turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

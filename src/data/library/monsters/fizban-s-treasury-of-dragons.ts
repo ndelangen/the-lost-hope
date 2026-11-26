@@ -938,6 +938,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -969,8 +970,17 @@ export default createPublicationMonsters({
                 ' attack. A creature hit must succeed on a ',
                 { dc: 'str', save: 'wis' },
                 ' Wisdom save or be ',
-                rules.frightened,
-                ' of the aspect until the end of its own next turn.',
+                { effect: 'furious-bite-frightened' },
+                ' of the aspect.',
+              ],
+              effects: [
+                {
+                  key: 'furious-bite-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'str' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -1077,10 +1087,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The aspect can hold only one creature with this attack at a time.',
+              { effect: 'claw-grappled' },
+              '. The aspect can hold only one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -1099,8 +1117,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1117,6 +1144,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1139,8 +1167,17 @@ export default createPublicationMonsters({
                 ' attack. A creature hit must succeed on a ',
                 { dc: 'con', save: 'wis' },
                 ' Wisdom save or be ',
-                rules.frightened,
-                ' of the aspect until the end of its own next turn.',
+                { effect: 'furious-bite-frightened' },
+                ' of the aspect.',
+              ],
+              effects: [
+                {
+                  key: 'furious-bite-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'con' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -1242,10 +1279,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The greatwyrm can hold only one creature with this attack at a time.',
+              { effect: 'claw-grappled' },
+              '. The greatwyrm can hold only one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -1264,8 +1309,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1285,6 +1339,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1308,14 +1363,23 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
-                    'Fall ',
-                    rules.prone,
+                    { effect: 'wing-attack-prone' },
                     '. The greatwyrm can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-attack-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
             {
               key: 'arcane-spear',
@@ -1427,10 +1491,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The greatwyrm can hold only one creature with this attack at a time.',
+              { effect: 'claw-grappled' },
+              '. The greatwyrm can hold only one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -1449,8 +1521,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1470,6 +1551,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1493,14 +1575,23 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
-                    'Fall ',
-                    rules.prone,
+                    { effect: 'wing-attack-prone' },
                     '. The greatwyrm can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-attack-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
             {
               key: 'arcane-spear',
@@ -1612,10 +1703,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The greatwyrm can hold only one creature with this attack at a time.',
+              { effect: 'claw-grappled' },
+              '. The greatwyrm can hold only one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -1634,8 +1733,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1668,6 +1776,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'sapping-breath',
@@ -1678,10 +1787,18 @@ export default createPublicationMonsters({
               'Each creature in a 300-ft. cone makes a ',
               { dc: 'con' },
               ' Constitution save. A failure leaves the creature ',
-              rules.unconscious,
-              ' for 1 minute. An ',
-              rules.unconscious,
-              ' creature can repeat the save at the end of each of its turns, ending the effect on a success. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.',
+              { effect: 'sapping-breath-unconscious' },
+              '. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.',
+            ],
+            effects: [
+              {
+                key: 'sapping-breath-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1715,14 +1832,23 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
-                    'Fall ',
-                    rules.prone,
+                    { effect: 'wing-attack-prone' },
                     '. The greatwyrm can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-attack-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -1823,10 +1949,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The greatwyrm can hold only one creature with this attack at a time.',
+              { effect: 'claw-grappled' },
+              '. The greatwyrm can hold only one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -1845,8 +1979,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1879,6 +2022,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'sapping-breath',
@@ -1889,10 +2033,18 @@ export default createPublicationMonsters({
               'Each creature in a 300-ft. cone makes a ',
               { dc: 'con' },
               ' Constitution save. A failure leaves the creature ',
-              rules.unconscious,
-              ' for 1 minute. An ',
-              rules.unconscious,
-              ' creature can repeat the save at the end of each of its turns, ending the effect on a success. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.',
+              { effect: 'sapping-breath-unconscious' },
+              '. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.',
+            ],
+            effects: [
+              {
+                key: 'sapping-breath-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1926,14 +2078,23 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
-                    'Fall ',
-                    rules.prone,
+                    { effect: 'wing-attack-prone' },
                     '. The greatwyrm can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-attack-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -2034,10 +2195,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The greatwyrm can hold only one creature with this attack at a time.',
+              { effect: 'claw-grappled' },
+              '. The greatwyrm can hold only one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -2056,8 +2225,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2090,6 +2268,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'sapping-breath',
@@ -2100,10 +2279,18 @@ export default createPublicationMonsters({
               'Each creature in a 300-ft. cone makes a ',
               { dc: 'con' },
               ' Constitution save. A failure leaves the creature ',
-              rules.unconscious,
-              ' for 1 minute. An ',
-              rules.unconscious,
-              ' creature can repeat the save at the end of each of its turns, ending the effect on a success. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.',
+              { effect: 'sapping-breath-unconscious' },
+              '. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.',
+            ],
+            effects: [
+              {
+                key: 'sapping-breath-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2137,14 +2324,23 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
-                    'Fall ',
-                    rules.prone,
+                    { effect: 'wing-attack-prone' },
                     '. The greatwyrm can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-attack-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -2209,6 +2405,7 @@ export default createPublicationMonsters({
             text: ['The wyrmling then gains 5 temporary hit points.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'spellcasting-psionics',
@@ -2276,13 +2473,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '1d10', type: rules.psychic }],
-                also: ['Leaves the creature ', rules.frightened, ' of the wyrmling for 1 minute.'],
+
+                also: [
+                  'Leaves the creature ',
+                  { effect: 'nightmare-breath-frightened' },
+                  '.',
+                  ' A success halves the damage and prevents the fright.',
+                ],
               },
             },
-            text: [
-              'A success halves the damage and prevents the fright. A ',
-              rules.frightened,
-              ' creature can repeat the save at the end of each of its turns, ending the effect on a success.',
+            text: [],
+            effects: [
+              {
+                key: 'nightmare-breath-frightened',
+                name: 'Frightened of the wyrmling',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2323,6 +2532,7 @@ export default createPublicationMonsters({
               printedDc: 13,
             },
             text: ['At 0 hit points, the dreadnought burns to ash.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2366,8 +2576,17 @@ export default createPublicationMonsters({
               'A Large or smaller creature hit must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2494,6 +2713,7 @@ export default createPublicationMonsters({
             text: [
               'At 0 HP, the draconian’s flesh and scales wither immediately and its bones explode.',
             ],
+            effects: [],
           },
           {
             key: 'glide',
@@ -2505,6 +2725,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', subtract up to 100 ft. from the distance used to calculate falling damage. For each foot of descent, the draconian can also move up to 2 ft. horizontally.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2561,6 +2782,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ') and requires no material components.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2834,16 +3056,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 60 } },
               onFail: {
                 damage: [{ dice: '10d10', type: rules.psychic }],
+
                 also: [
                   'Is ',
-                  rules.stunned,
-                  ' until the end of its next turn. On a success, it takes half damage and avoids the stun.',
+                  { effect: 'psychic-crush-stunned' },
+                  '. On a success, it takes half damage and avoids the stun.',
                 ],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'psychic-crush-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'spellcasting-psionics',
@@ -2855,6 +3087,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ') and requires no components.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -2886,10 +3119,20 @@ export default createPublicationMonsters({
                 'One creature the shard can see within 30 ft. must pass a ',
                 { dc: 'int', save: 'wis' },
                 ' Wisdom saving throw or be ',
-                rules.charmed,
-                ' until the end of its next turn. While ',
-                rules.charmed,
-                ', it moves and acts as the shard directs telepathically. On its turn, its only action options are Dash and Attack, and the shard chooses the target of any Attack.',
+                { effect: 'commanding-thought-charmed' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'commanding-thought-charmed',
+                  name: 'Charmed',
+                  lands: { on: 'save', save: 'wis', dc: 'int' },
+                  conditions: [rules.charmed],
+                  text: [
+                    'It moves and acts as the shard directs telepathically. On its turn, its only action options are Dash and Attack, and the shard chooses the target of any Attack.',
+                  ],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -2985,6 +3228,7 @@ export default createPublicationMonsters({
               refs.spells.tongues_srd_5_1,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3200,6 +3444,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -3535,8 +3780,17 @@ export default createPublicationMonsters({
               ' radiant damage. Once per turn, the dragonborn can make the sword flare on a hit. The target then makes a ',
               { dc: 'cha', save: 'con' },
               ' Constitution save or is ',
-              rules.blinded,
-              ' until the start of the dragonborn’s next turn.',
+              { effect: 'longsword-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'longsword-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -3572,6 +3826,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -3685,8 +3940,17 @@ export default createPublicationMonsters({
               'At the start of the abomination’s turn, each creature within 5 ft. makes a ',
               { dc: 'con' },
               ' Constitution save. On a failure, it is ',
-              rules.poisoned,
-              ' until the start of the abomination’s next turn.',
+              { effect: 'cloying-miasma-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'cloying-miasma-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -3745,8 +4009,17 @@ export default createPublicationMonsters({
               'A creature hit must make a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3779,6 +4052,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -3858,6 +4132,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4181,8 +4456,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller target is also ',
-              rules.grappled,
-              ' (escape DC 18). The dragon can grapple up to four creatures with its tentacles at once.',
+              { effect: 'tentacle-grappled' },
+              '. The dragon can grapple up to four creatures with its tentacles at once.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -4200,8 +4485,17 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
-            text: [
-              'Either result infests the creature with illithid tadpoles unless it is a Construct or an Undead.',
+            text: [{ effect: 'tadpole-brine-infestation' }],
+            effects: [
+              {
+                key: 'tadpole-brine-infestation',
+                name: 'Illithid tadpoles',
+                lands: { on: 'use' },
+                text: [
+                  'Either result infests the creature with illithid tadpoles unless it is a Construct or an Undead.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4229,6 +4523,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' ends the infestation and prevents the transformation.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -4252,6 +4547,7 @@ export default createPublicationMonsters({
                 { roll: '3d12' },
                 ' psychic damage.',
               ],
+              effects: [],
             },
           ],
         },
@@ -4327,13 +4623,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '5d6', type: rules.psychic }],
-                also: [
-                  'Until the end of its next turn, the creature also subtracts 1d4 from each attack roll and ability check it makes.',
-                ],
+
+                also: [{ effect: 'disorienting-breath-penalty' }],
               },
               onSuccess: 'half',
             },
             text: ['The creature also avoids the penalty.'],
+            effects: [
+              {
+                key: 'disorienting-breath-penalty',
+                name: 'Disoriented',
+                lands: { on: 'failed-save' },
+                text: [
+                  'the creature also subtracts 1d4 from each attack roll and ability check it makes.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -4351,6 +4657,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               '). Neither spell requires components.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4615,17 +4922,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 90 } },
               onFail: {
                 damage: [{ dice: '9d8', type: rules.cold }],
-                also: ['Leaves it ', rules.frightened, ' of the dragon for 1 minute.'],
+
+                also: [
+                  'Leaves it ',
+                  { effect: 'terrifying-breath-frightened' },
+                  '.',
+                  ' Success halves the damage and prevents the condition.',
+                  ' After succeeding on the save or when the effect ends for it, a creature is immune to this dragon’s Terrifying Breath for 24 hours.',
+                ],
               },
             },
-            text: [
-              'The creature is ',
-              rules.paralyzed,
-              ' while ',
-              rules.frightened,
-              ' of the dragon this way. Success halves the damage and prevents the condition. A ',
-              rules.frightened,
-              ' creature can repeat the save at the end of each of its turns, ending the effect on a success. After succeeding on the save or when the effect ends for it, a creature is immune to this dragon’s Terrifying Breath for 24 hours.',
+            text: [],
+            effects: [
+              {
+                key: 'terrifying-breath-frightened',
+                name: 'Frightened of the dragon and paralyzed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened, rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -4774,10 +5090,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The greatwyrm can hold one creature with this attack at a time.',
+              { effect: 'claw-grappled' },
+              '. The greatwyrm can hold one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -4796,8 +5120,17 @@ export default createPublicationMonsters({
               'A creature hit must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4830,6 +5163,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'sapping-breath',
@@ -4840,8 +5174,18 @@ export default createPublicationMonsters({
               'Each creature in a 300-ft. cone makes a ',
               { dc: 'con' },
               ' Constitution save. On a failure it falls ',
-              rules.unconscious,
-              " for 1 minute and can repeat the save at the end of each of its turns to end the effect on a success. On an initial success, it has disadvantage on attacks and saving throws until the end of the greatwyrm's next turn.",
+              { effect: 'sapping-breath-unconscious' },
+              ". On an initial success, it has disadvantage on attacks and saving throws until the end of the greatwyrm's next turn.",
+            ],
+            effects: [
+              {
+                key: 'sapping-breath-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4875,14 +5219,23 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
-                    'Fall ',
-                    rules.prone,
+                    { effect: 'wing-attack-prone' },
                     '. The greatwyrm can then fly up to half its fly speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-attack-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -4989,10 +5342,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The greatwyrm can hold one creature with this attack at a time.',
+              { effect: 'claw-grappled' },
+              '. The greatwyrm can hold one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -5011,8 +5372,17 @@ export default createPublicationMonsters({
               'A creature hit must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5032,6 +5402,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -5055,14 +5426,23 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
-                    'Fall ',
-                    rules.prone,
+                    { effect: 'wing-attack-prone' },
                     '. The greatwyrm can then fly up to half its fly speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-attack-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
             {
               key: 'arcane-spear',
@@ -5252,7 +5632,18 @@ export default createPublicationMonsters({
             text: [
               'Each creature the dragon chooses within 60 ft. makes a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom save. On a failure its speed is halved and it has disadvantage on attacks until the end of its next turn. A success grants immunity to this dragon's Sapping Presence for 24 hours.",
+              ' Wisdom save. On a failure ',
+              { effect: 'sapping-presence-sapped' },
+              ". A success grants immunity to this dragon's Sapping Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'sapping-presence-sapped',
+                name: 'Sapped',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: ['its speed is halved and it has disadvantage on attacks'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -5272,6 +5663,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -5292,8 +5684,17 @@ export default createPublicationMonsters({
                 'A creature the dragon can see within 60 ft. must pass a ',
                 { dc: 'con', save: 'str' },
                 ' Strength save or be ',
-                rules.restrained,
-                " until the end of the dragon's next turn.",
+                { effect: 'ghostly-binding-restrained' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'ghostly-binding-restrained',
+                  name: 'Restrained',
+                  lands: { on: 'save', save: 'str', dc: 'con' },
+                  conditions: [rules.restrained],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
             {
@@ -5311,6 +5712,7 @@ export default createPublicationMonsters({
                 },
                 onSuccess: 'half',
               },
+              effects: [],
             },
           ],
         },
@@ -5670,10 +6072,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '4d10', type: rules.thunder }],
-                also: ['Incapacitates the creature until the end of its next turn.'],
+
+                also: [{ effect: 'debilitating-breath-incapacitated' }],
               },
             },
             text: ['A success halves the damage and avoids incapacitation.'],
+            effects: [
+              {
+                key: 'debilitating-breath-incapacitated',
+                name: 'Incapacitates the creature',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -5788,10 +6200,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The greatwyrm can hold only one creature with this attack at a time.',
+              { effect: 'claw-grappled' },
+              '. The greatwyrm can hold only one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -5810,8 +6230,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5844,6 +6273,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'sapping-breath',
@@ -5854,10 +6284,18 @@ export default createPublicationMonsters({
               'Each creature in a 300-ft. cone makes a ',
               { dc: 'con' },
               ' Constitution save. A failure leaves the creature ',
-              rules.unconscious,
-              ' for 1 minute. An ',
-              rules.unconscious,
-              ' creature can repeat the save at the end of each of its turns, ending the effect on a success. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.',
+              { effect: 'sapping-breath-unconscious' },
+              '. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.',
+            ],
+            effects: [
+              {
+                key: 'sapping-breath-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5891,14 +6329,23 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
-                    'Fall ',
-                    rules.prone,
+                    { effect: 'wing-attack-prone' },
                     '. The greatwyrm can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-attack-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -6057,11 +6504,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.necrotic }],
-                also: ['Weakens the creature until the end of its next turn.'],
+
+                also: [{ effect: 'desiccating-breath-weakened' }],
               },
             },
-            text: [
-              'While weakened, it has disadvantage on Strength-based ability checks and Strength saves, and weapon attacks that use Strength deal half damage. A success halves the damage and avoids the weakening.',
+            text: ['A success halves the damage and avoids the weakening.'],
+            effects: [
+              {
+                key: 'desiccating-breath-weakened',
+                name: 'Weakens the creature',
+                lands: { on: 'failed-save' },
+                text: [
+                  'it has disadvantage on Strength-based ability checks and Strength saves, and weapon attacks that use Strength deal half damage.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -6078,6 +6535,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               '). The spell requires no components.',
             ],
+            effects: [],
           },
         ],
       },

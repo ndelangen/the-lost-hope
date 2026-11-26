@@ -55,6 +55,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -84,6 +85,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['On failure or half on success.'],
+            effects: [],
           },
         ],
       },
@@ -136,6 +138,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -165,6 +168,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['On failure or half on success.'],
+            effects: [],
           },
         ],
       },
@@ -814,8 +818,17 @@ export default createPublicationMonsters({
               ', a creature hit. Failure: Roll 1d3 for the poison effect. On a 1, Poison Damage: the target takes ',
               { roll: '3d8' },
               ' poison damage. On a 2, Confusion: on its next turn the target spends its action on a weapon attack against a random creature it sees within 30 ft., using its held weapon or an Unarmed Strike. Move first if needed for range. If no creature is visible within 30 ft., the target Dashes toward the nearest creature. On a 3, Paralysis: the target is ',
-              rules.paralyzed,
-              ' until the end of its next turn.',
+              { effect: 'cobra-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'cobra-paralysis',
+                name: 'Paralysis',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -1051,6 +1064,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' and +5 to spell attacks. Cantrips · Light, Sacred Flame, Thaumaturgy. 1st (4 slots) · Cure Wounds, Guiding Bolt, Sanctuary. 2nd (3 slots) · Lesser Restoration, Spiritual Weapon. 3rd (2 slots) · Dispel Magic, Speak with Dead.',
             ],
+            effects: [],
           },
           {
             key: 'unarmed-strike',
@@ -1266,8 +1280,21 @@ export default createPublicationMonsters({
               'A humanoid starting its turn within 30 ft. that sees her true form makes a ',
               { dc: 'wis' },
               ' Wisdom save. Failure leaves it ',
-              rules.frightened,
-              ' for 1 minute. It can repeat the save at the end of each turn, with Disadvantage if the hag is in sight. Success or the effect ending grants 24 hours of immunity to this feature. If the humanoid is not Surprised and the reveal is not sudden, it may avert its eyes to skip the initial save. Its attacks against the hag have Disadvantage until its next turn.',
+              { effect: 'hag-fear' },
+              '. Success or the effect ending grants 24 hours of immunity to this feature. If the humanoid is not Surprised and the reveal is not sudden, it may avert its eyes to skip the initial save. Its attacks against the hag have Disadvantage until its next turn.',
+            ],
+            effects: [
+              {
+                key: 'hag-fear',
+                name: 'Frightened of the hag',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                text: [
+                  'It can repeat the save at the end of each turn, with Disadvantage if the hag is in sight.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1295,6 +1322,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Wisdom save or drop to 0 HP.',
             ],
+            effects: [],
           },
           {
             key: 'illusory-appearance',

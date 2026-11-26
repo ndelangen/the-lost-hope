@@ -56,12 +56,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If this poison damage brings the target to 0 HP, it is stable, ',
-              rules.poisoned,
-              ' for 1 hour even after healing, and ',
-              rules.paralyzed,
-              ' while ',
-              rules.poisoned,
-              ' by this attack.',
+              { effect: 'grub-poison' },
+              ' even after healing',
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grub-poison',
+                name: 'Poisoned and paralyzed by this attack',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
         ],
@@ -109,6 +115,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally of the peacock.',
             ],
+            effects: [],
           },
           {
             key: 'beak',

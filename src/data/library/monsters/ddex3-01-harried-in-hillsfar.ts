@@ -194,10 +194,19 @@ export default createPublicationMonsters({
               'Move at least 20 ft. straight toward a target and hit it with Ram on the same turn. The target takes ',
               { roll: '2d4' },
               ' extra bludgeoning damage. If it is a creature, it falls ',
-              rules.prone,
+              { effect: 'charge-prone' },
               ' on a failed ',
               { dc: 'str' },
               ' Strength saving throw.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -210,6 +219,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

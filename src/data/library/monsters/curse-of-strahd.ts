@@ -37,6 +37,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -123,7 +124,18 @@ export default createPublicationMonsters({
             text: [
               'In hybrid form. A humanoid hit must succeed on a ',
               { dc: 'con' },
-              ' Constitution save or contract wereraven lycanthropy.',
+              ' Constitution save or ',
+              { effect: 'wereraven-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wereraven-lycanthropy',
+                name: 'Wereraven lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['contract wereraven lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
