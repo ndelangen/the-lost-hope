@@ -161,6 +161,31 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
     }
   }
 
+  // A location that is not a shop shows only the way to make it one.
+  if (!shown) {
+    if (!editable) return null
+    return (
+      <div className="flex flex-wrap items-center gap-3">
+        <span className="text-muted-foreground inline-flex items-center gap-2 text-sm">
+          <Store className="size-4" aria-hidden /> Make this place a shop:
+        </span>
+        <Select
+          aria-label="Kind of shop"
+          containerClassName="w-52"
+          value=""
+          onChange={(event) => edit({ type: event.target.value as ShopType, stock: [] })}
+        >
+          <option value="">Choose a kind…</option>
+          {SHOP_TYPES.map((type) => (
+            <option key={type} value={type}>
+              {SHOP_TYPE_LABELS[type]}
+            </option>
+          ))}
+        </Select>
+      </div>
+    )
+  }
+
   return (
     <section
       aria-label="Shop"
@@ -170,7 +195,7 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
       <header className="flex flex-wrap items-center justify-between gap-3">
         <h2 className="inline-flex items-center gap-2 text-lg font-bold">
           <Store className="size-5" aria-hidden />
-          {shown ? SHOP_TYPE_LABELS[shown.type] : 'Not a shop'}
+          {SHOP_TYPE_LABELS[shown.type]}
         </h2>
         {draft && editable ? (
           <div className="flex gap-2">
@@ -199,10 +224,9 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
               value={shown?.type ?? ''}
               onChange={(event) => {
                 const type = event.target.value as ShopType
-                edit({ ...(shown ?? { stock: [] }), type })
+                edit({ ...shown, type })
               }}
             >
-              {shown ? null : <option value="">Choose…</option>}
               {SHOP_TYPES.map((type) => (
                 <option key={type} value={type}>
                   {SHOP_TYPE_LABELS[type]}
@@ -226,8 +250,8 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
           <button
             type="button"
             className={`${buttonClass} border-transparent bg-indigo-600 text-white hover:bg-indigo-700`}
-            disabled={!shown || !library}
-            onClick={() => shown && roll(shown.type)}
+            disabled={!library}
+            onClick={() => roll(shown.type)}
           >
             <Dices className="size-4" aria-hidden />
             {library ? 'Roll stock' : 'Loading the library…'}
@@ -235,14 +259,12 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
         </div>
       ) : null}
 
-      {shown ? (
-        <StockTable
-          stock={shown.stock}
-          library={library}
-          onChange={editable ? setStock : undefined}
-        />
-      ) : null}
-      {shown && editable ? (
+      <StockTable
+        stock={shown.stock}
+        library={library}
+        onChange={editable ? setStock : undefined}
+      />
+      {editable ? (
         <AddFromLibrary stock={shown.stock} onAdd={(line) => setStock([...shown.stock, line])} />
       ) : null}
     </section>
