@@ -31,17 +31,24 @@ function LicensesPage() {
       <section className="grid gap-2">
         <h2 className="text-xl font-semibold">Open Game License 1.0a</h2>
         <p>
-          Open Game Content: the spell and creature text of the publications below. Product Identity
-          of those publications is not Open Game Content.
+          Open Game Content: the spell, creature and item text of the publications below. Product
+          Identity of those publications is not Open Game Content.
         </p>
-        {OPEN_GAME_LICENSE.map((paragraph) => (
-          <p key={paragraph}>{paragraph}</p>
-        ))}
-        <p className="font-semibold">15. COPYRIGHT NOTICE</p>
-        <p>Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.</p>
+        {OPEN_GAME_LICENSE.filter((paragraph) => paragraph !== 'END OF LICENSE').map(
+          (paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ),
+        )}
+        <p>
+          System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike
+          Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J.
+          Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by
+          E. Gary Gygax and Dave Arneson.
+        </p>
         {ogl.map(({ name, notice }) => (
           <p key={name}>{notice}</p>
         ))}
+        <p>END OF LICENSE</p>
       </section>
     </article>
   )

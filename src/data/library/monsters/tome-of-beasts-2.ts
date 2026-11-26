@@ -2404,8 +2404,8 @@ export default createPublicationMonsters({
             text: ['The flithidir makes two melee attacks.'],
           },
           {
-            key: 'dagger',
-            name: 'Dagger',
+            key: 'dagger-humanoid-or-fey-form-only-form-only',
+            name: 'Dagger (Humanoid or Fey Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiThrownDaggers',
             intent: 'damage',
@@ -2418,8 +2418,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'beak',
-            name: 'Beak',
+            key: 'beak-bird-form-only-form-only',
+            name: 'Beak (Bird Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiRaven',
             intent: 'damage',
@@ -4705,8 +4705,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'bite',
-            name: 'Bite',
+            key: 'bite-hydra-form-only-form-only',
+            name: 'Bite (Hydra Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiFangs',
             intent: 'damage',
@@ -4718,8 +4718,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'greataxe',
-            name: 'Greataxe',
+            key: 'greataxe-giant-form-only-form-only',
+            name: 'Greataxe (Giant Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiBattleAxe',
             intent: 'damage',

@@ -6633,8 +6633,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'bite',
-            name: 'Bite',
+            key: 'bite-hybrid-or-horse-form-only-form-only',
+            name: 'Bite (Hybrid or Horse Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiFangs',
             intent: 'damage',
@@ -6646,8 +6646,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'longsword',
-            name: 'Longsword',
+            key: 'longsword-humanoid-or-hybrid-form-only-form-only',
+            name: 'Longsword (Humanoid or Hybrid Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiBroadsword',
             intent: 'damage',
@@ -6660,8 +6660,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'longbow',
-            name: 'Longbow',
+            key: 'longbow-humanoid-or-hybrid-form-only-form-only',
+            name: 'Longbow (Humanoid or Hybrid Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiCrossbow',
             intent: 'damage',

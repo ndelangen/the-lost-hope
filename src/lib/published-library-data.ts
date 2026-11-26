@@ -24,6 +24,8 @@ type LibraryPrinting = {
   gm?: readonly LibrarySection[]
   /** A printing converted to typed data: its statistics live in `src/data/library`, not here. */
   typed?: { monster: EntityRef<'monster'>; publication: EntityRef<'publication'> }
+  /** The open-licensed publication whose text this printing shows, for its notice. */
+  publication?: EntityRef<'publication'>
   artReference?: string
   abilityDisplay?: LibraryAbilityDisplay
 }

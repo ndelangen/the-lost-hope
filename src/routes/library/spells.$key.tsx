@@ -7,7 +7,7 @@ import { spellLevelLabel, spells } from '#/lib/library-spells'
 
 export const Route = createFileRoute('/library/spells/$key')({
   beforeLoad: ({ params }) => {
-    const spell = spells[params.key]
+    const spell = Object.hasOwn(spells, params.key) ? spells[params.key] : undefined
     if (!spell) throw notFound()
     return { spell }
   },

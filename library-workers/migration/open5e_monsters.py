@@ -40,6 +40,7 @@ for c in json.load(open(sys.argv[1])):
     name=a['name']; u=a.get('usage_limits') or {}
     if u.get('type')=='RECHARGE_ON_ROLL' and '(' not in name: name+=f" (Recharge {u['param']}–6)" if u['param']<6 else ' (Recharge 6)'
     if u.get('type')=='PER_DAY' and '(' not in name: name+=f" ({u['param']}/Day)"
+    if a.get('limited_to_form') and '(' not in name: name+=f" ({a['limited_to_form']} Form Only)"
     if a.get('legendary_action_cost',0) and a['legendary_action_cost']>1 and '(' not in name: name+=f" (Costs {a['legendary_action_cost']} Actions)"
     desc=re.sub(r'\s+',' ',a['desc'].strip())
     return f"{name}. {desc}"

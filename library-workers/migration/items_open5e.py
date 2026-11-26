@@ -3,8 +3,11 @@
 an item the catalog lacks becomes a new library entry. Run after items_add_srd.py.
 Usage: items_open5e.py <magicitems.json> <items.json>"""
 import json,os,re,sys
+sys.path.insert(0,os.path.dirname(__file__))
+from md_text import paragraphs as md_paragraphs
 REPO=os.path.abspath(os.path.join(os.path.dirname(__file__),'..','..'))
 LABELS={'vom':('Vault of Magic','vault-of-magic'),'srd-2014':('SRD 5.1','srd-5-1'),'srd-2024':('SRD 5.2.1','srd-5-2-1')}
+PUB={'vom':'vault_of_magic','srd-2014':'srd_5_1','srd-2024':'srd_5_2_1'}
 norm=lambda n: re.sub(r'[^a-z0-9]','',n.lower().replace('’','').replace("'",'').rstrip('s'))
 slug=lambda n: re.sub(r'[^a-z0-9]+','-',n.lower().replace('’','').replace("'",'')).strip('-')
 def lines_of(x,magic):
@@ -17,14 +20,15 @@ def lines_of(x,magic):
     gp=float(x['cost']); head.append('Price · '+(f'{gp:g} GP' if gp>=1 else f'{gp*10:g} SP' if gp>=0.1 else f'{gp*100:g} CP'))
   if x.get('armor'): head.append('Armor Class · '+x['armor']['ac_display'])
   if x.get('weight') and float(x['weight'])>0: head.append(f"Weight · {float(x['weight']):g} {x.get('weight_unit') or 'lb'}")
-  body=[re.sub(r'\*\*\*?([^*]+?)\*\*\*?',r'\1',p).strip() for p in re.split(r'\n\s*\n|\n',x.get('desc') or '') if p.strip()]
-  body=[' · '.join(c.strip() for c in p.strip('|').split('|')) if p.startswith('|') else p for p in body if not re.fullmatch(r'\|?[\s:|-]+\|?',p)]
+  desc=re.split(r'\n#+ Sentient Magic Items',x.get('desc') or '')[0]   # Open5e appends this to some items
+  body=md_paragraphs(desc)
   return head+body
 path=os.path.join(REPO,'src/lib/published-library-catalog/entries.json')
 data=json.load(open(path))
 byname={}
 for r in data:
   if r['type']=='items': byname.setdefault(norm(r['name']),r)
+existing=set(byname)
 added=new=0
 def collapse(items):
   """Open5e lists "Flame Tongue Battleaxe", "Flame Tongue Club" … with one text: keep one, named
@@ -38,7 +42,9 @@ def collapse(items):
     for ws in zip(*words):
       if len(set(ws))==1: common.append(ws[0])
       else: break
-    if len(xs)>1 and desc and len(common)>=1:
+    same=len({((x.get('rarity') or {}).get('key'),x.get('cost'),x.get('weight')) for x in xs})==1
+    name=' '.join(common).rstrip(',')
+    if len(xs)>1 and desc and same and len(common)>=2 and norm(name) not in existing:
       one=dict(xs[0]); one['name']=' '.join(common).rstrip(','); one['armor']=None; out.append(one)
     else: out+=xs
   return out
@@ -47,7 +53,7 @@ for src,magic in [(sys.argv[1],True),(sys.argv[2],False)]:
     doc=x['document']['key']
     if doc not in LABELS or not (x.get('desc') or '').strip(): continue
     label,pid=LABELS[doc]
-    printing={'id':pid,'label':label,'edition':'2024 fifth edition' if doc=='srd-2024' else '2014 fifth edition','status':'Published rules','player':[{'title':'Rules','lines':lines_of(x,magic)}],'gm':[]}
+    printing={'id':pid,'publication':{'ref':'publication','key':PUB[doc]},'label':label,'edition':'2024 fifth edition' if doc=='srd-2024' else '2014 fifth edition','status':'Published rules','player':[{'title':'Rules','lines':lines_of(x,magic)}],'gm':[]}
     r=byname.get(norm(x['name']))
     if r:
       if any(p['id']==pid for p in r['printings']): continue   # e.g. the SRD 5.2.1 PDF printing

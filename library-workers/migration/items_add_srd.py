@@ -13,7 +13,7 @@ for r in data:
   lines=([f"Price · {x['price']}"] if x.get('price') else [])+([x['category']] if x.get('category') else [])
   # Shown first when the shop's own printing has no rules to read.
   first_empty=not (r['printings'][0].get('player') or r['printings'][0].get('gm'))
-  r['printings'].insert(0 if first_empty else len(r['printings']),{'id':'srd-5-2-1','label':'SRD 5.2.1','edition':'2024 fifth edition','status':'Published rules',
+  r['printings'].insert(0 if first_empty else len(r['printings']),{'id':'srd-5-2-1','publication':{'ref':'publication','key':'srd_5_2_1'},'label':'SRD 5.2.1','edition':'2024 fifth edition','status':'Published rules',
     'player':[{'title':'Rules','lines':lines+[x['text']]}],'gm':[]})
   added+=1
 json.dump(data,open(path,'w'),indent=2,ensure_ascii=False)

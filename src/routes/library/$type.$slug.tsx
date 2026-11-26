@@ -41,11 +41,15 @@ export const Route = createFileRoute('/library/$type/$slug')({
     await loadLibraryDetail(type, slug)
     const entry = getLibraryEntry(type, slug, Boolean(search.dm), search.version)
     if (!entry) throw notFound()
-    const { typed: ref } = entry.selected
+    const { typed: ref, publication } = entry.selected
+    // Text used under an open license shows the notice that license asks for.
+    const notice = publication
+      ? (await import('#/data/library/publications')).default[publication.key]?.notice
+      : undefined
     const typed = ref
       ? (await import('#/lib/library-monsters')).monsterPrinting(ref.monster, ref.publication)
       : undefined
-    return { entry, type, typed }
+    return { entry, type, typed, notice }
   },
   head: ({ match }) => ({
     meta: [
@@ -61,7 +65,7 @@ export const Route = createFileRoute('/library/$type/$slug')({
 })
 
 function LibraryEntryPage() {
-  const { entry, type, typed } = Route.useRouteContext()
+  const { entry, type, typed, notice } = Route.useRouteContext()
   const search = Route.useSearch()
   const params = Route.useParams()
 
@@ -99,7 +103,14 @@ function LibraryEntryPage() {
           Publisher artwork reference
         </a>
       )}
-      {entry.selected.id === 'srd-5-1' || entry.selected.id === 'srd-5-2-1' ? (
+      {notice ? (
+        <p className="text-muted-foreground text-xs">
+          {notice}{' '}
+          <Link to="/library/licenses" className="underline">
+            Licenses
+          </Link>
+        </p>
+      ) : entry.selected.id === 'srd-5-1' || entry.selected.id === 'srd-5-2-1' ? (
         <LibraryAttribution versions={[entry.selected.id]} />
       ) : (
         !entry.selected.source && (

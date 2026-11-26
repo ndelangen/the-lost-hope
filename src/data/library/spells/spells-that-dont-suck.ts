@@ -20,19 +20,19 @@ export default createSpells({
         'You touch a creature, modifying it for a specific environment. The target chooses one of the following options for the duration. It can end one option as an action to gain the benefits of a different one. The spell ends if you cast it again or dismiss it as an action.',
       ],
       [
-        '•  The creature grows gills and webbing between its digits. It can breathe underwater and gains a swimming speed equal to its walking speed.',
+        '• The creature grows gills and webbing between its digits. It can breathe underwater and gains a swimming speed equal to its walking speed.',
       ],
       [
-        '•  The creature grows a membrane between its limbs. When the creature falls, it can use its reaction to subtract up to 100 feet from the fall when calculating falling damage and can glide horizontally a number of feet equal to its walking speed.',
+        '• The creature grows a membrane between its limbs. When the creature falls, it can use its reaction to subtract up to 100 feet from the fall when calculating falling damage and can glide horizontally a number of feet equal to its walking speed.',
       ],
       [
-        '•  The creature grows a prehensile tail. The tail has a 5-foot reach and can lift a number of pounds equal to five times the creature’s Strength score. It can grasp, lift, drop, hold, push, or pull an object or a creature, open or close a door or a container, grapple someone, or make an unarmed strike.',
+        '• The creature grows a prehensile tail. The tail has a 5-foot reach and can lift a number of pounds equal to five times the creature’s Strength score. It can grasp, lift, drop, hold, push, or pull an object or a creature, open or close a door or a container, grapple someone, or make an unarmed strike.',
       ],
       [
-        '•  The creature’s appearance changes. For the duration, it can use an action to change its height, weight, facial features, voice, hair length and coloration, and distinguishing characteristics. It cannot change its size or number of limbs.',
+        '• The creature’s appearance changes. For the duration, it can use an action to change its height, weight, facial features, voice, hair length and coloration, and distinguishing characteristics. It cannot change its size or number of limbs.',
       ],
       [
-        '•  The creature grows a natural weapon. Unarmed strikes with the weapon deal 1d6 bludgeoning, piercing, or slashing damage as appropriate. The natural weapon is magical and has a +1 bonus to its attack and damage rolls.',
+        '• The creature grows a natural weapon. Unarmed strikes with the weapon deal 1d6 bludgeoning, piercing, or slashing damage as appropriate. The natural weapon is magical and has a +1 bonus to its attack and damage rolls.',
       ],
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the natural weapon’s bonus increases to +2. When you use a spell slot of 6th level or higher, the natural weapon’s bonus increases to +3. Additionally, the target can select one additional option for every two slot levels above 2nd.',
@@ -56,136 +56,9 @@ export default createSpells({
       [
         'When you cast the spell, you can choose to shift the precipitation, temperature, and wind each by one stage on the charts below. It takes 30 minutes for the conditions to change, after which you can change them again. The charts suggest weather effects, and your GM may determine any additional effects resulting from the change in weather. Your GM may rule that fire or cold resistance, hot or cold weather gear, or other measures partly or completely protect a creature against the effects. After the spell ends, the weather returns to its original state, changing at the same rate. The spell ends if you cast it again or dismiss it as an action.',
       ],
-      ['##### Precipitation'],
-      ['Higher stages include all the effects of lower stages.'],
-      ['<table>'],
-      ['<thead><tr>'],
-      ['<th>Stage</th>'],
-      ['<th>Condition</th>'],
-      ['<th>Effects</th>'],
-      ['</tr></thead>'],
-      ['<tbody>'],
-      ['<tr>'],
-      ['<td>1</td>'],
-      ['<td>Clear</td>'],
-      ['<td>—</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>2</td>'],
-      ['<td>Light clouds</td>'],
-      ['<td>—</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>3</td>'],
-      ['<td>Overcast or ground fog</td>'],
-      ['<td>The area lacks sunlight, for effects or traits dependent on it.</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>4</td>'],
-      ['<td>Rain, hail, or snow</td>'],
-      ['<td>Objects and creatures are lightly obscured more than 60 feet away.</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>5</td>'],
-      ['<td>Torrential rain, driving hail, or blizzard</td>'],
+      ['Precipitation'],
       [
-        '<td>Objects and creatures are heavily obscured more than 30 feet away, and all terrain is difficult terrain.</td>',
-      ],
-      ['</tr>'],
-      ['</tbody>'],
-      ['</table>'],
-      ['<h5>Temperature</h5>'],
-      ['Stage 1 includes the effects of stage 2, and stage 7 includes the effects of stage 6.'],
-      ['<table>'],
-      ['<thead><tr>'],
-      ['<th>Stage</th>'],
-      ['<th>Condition</th>'],
-      ['<th>Effects</th>'],
-      ['</tr></thead>'],
-      ['<tbody>'],
-      ['<tr>'],
-      ['<td>1</td>'],
-      ['<td>Unbearable heat</td>'],
-      [
-        '<td>All creatures must make a DC 10 Constitution saving throw every hour or suffer one level of exhaustion.</td>',
-      ],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>2</td>'],
-      ['<td>Hot</td>'],
-      [
-        '<td>All creatures suffer disadvantage on all Constitution saves except against weather effects.</td>',
-      ],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>3</td>'],
-      ['<td>Warm</td>'],
-      ['<td>—</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>4</td>'],
-      ['<td>Pleasant</td>'],
-      ['<td>—</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>5</td>'],
-      ['<td>Cool</td>'],
-      ['<td>—</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>6</td>'],
-      ['<td>Cold</td>'],
-      ['<td>All creatures suffer disadvantage on Dexterity checks.</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>7</td>'],
-      ['<td>Bitter cold</td>'],
-      [
-        '<td>All creatures must make a DC 10 Constitution saving throw every hour or suffer one level of exhaustion.</td>',
-      ],
-      ['</tr>'],
-      ['</tbody>'],
-      ['</table>'],
-      ['<h5>Wind</h5>'],
-      ['Higher stages include all the effects of lower stages.'],
-      ['<table>'],
-      ['<thead><tr>'],
-      ['<th>Stage</th>'],
-      ['<th>Condition</th>'],
-      ['<th>Effects</th>'],
-      ['</tr></thead>'],
-      ['<tbody>'],
-      ['<tr>'],
-      ['<td>1</td>'],
-      ['<td>Calm</td>'],
-      ['<td>—</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>2</td>'],
-      ['<td>Moderate wind</td>'],
-      ['<td>—</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>3</td>'],
-      ['<td>Strong wind</td>'],
-      ['<td>Ranged attacks are made at disadvantage.</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>4</td>'],
-      ['<td>Gale</td>'],
-      ['<td>All creatures have resistance to damage from ranged attacks.</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>5</td>'],
-      ['<td>Hurricane</td>'],
-      [
-        '<td>Ranged attacks are impossible, and all movement against the wind costs twice as much.</td>',
-      ],
-      ['</tr>'],
-      ['</tbody>'],
-      ['</table>'],
-      [
-        '<em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 7th level, the duration is 8 hours, and the area increases to a 5-mile radius. When you cast this spell using a spell slot of 8th level, the duration is 24 hours, and the area increases to a 10-mile radius. When you cast this spell using a spell slot of 9th level, the duration is 7 days, and the area increases to a 25-mile radius.',
+        'Higher stages include all the effects of lower stages. <table> <thead><tr> <th>Stage</th> <th>Condition</th> <th>Effects</th> </tr></thead> <tbody> <tr> <td>1</td> <td>Clear</td> <td>—</td> </tr> <tr> <td>2</td> <td>Light clouds</td> <td>—</td> </tr> <tr> <td>3</td> <td>Overcast or ground fog</td> <td>The area lacks sunlight, for effects or traits dependent on it.</td> </tr> <tr> <td>4</td> <td>Rain, hail, or snow</td> <td>Objects and creatures are lightly obscured more than 60 feet away.</td> </tr> <tr> <td>5</td> <td>Torrential rain, driving hail, or blizzard</td> <td>Objects and creatures are heavily obscured more than 30 feet away, and all terrain is difficult terrain.</td> </tr> </tbody> </table> <h5>Temperature</h5> Stage 1 includes the effects of stage 2, and stage 7 includes the effects of stage 6. <table> <thead><tr> <th>Stage</th> <th>Condition</th> <th>Effects</th> </tr></thead> <tbody> <tr> <td>1</td> <td>Unbearable heat</td> <td>All creatures must make a DC 10 Constitution saving throw every hour or suffer one level of exhaustion.</td> </tr> <tr> <td>2</td> <td>Hot</td> <td>All creatures suffer disadvantage on all Constitution saves except against weather effects.</td> </tr> <tr> <td>3</td> <td>Warm</td> <td>—</td> </tr> <tr> <td>4</td> <td>Pleasant</td> <td>—</td> </tr> <tr> <td>5</td> <td>Cool</td> <td>—</td> </tr> <tr> <td>6</td> <td>Cold</td> <td>All creatures suffer disadvantage on Dexterity checks.</td> </tr> <tr> <td>7</td> <td>Bitter cold</td> <td>All creatures must make a DC 10 Constitution saving throw every hour or suffer one level of exhaustion.</td> </tr> </tbody> </table> <h5>Wind</h5> Higher stages include all the effects of lower stages. <table> <thead><tr> <th>Stage</th> <th>Condition</th> <th>Effects</th> </tr></thead> <tbody> <tr> <td>1</td> <td>Calm</td> <td>—</td> </tr> <tr> <td>2</td> <td>Moderate wind</td> <td>—</td> </tr> <tr> <td>3</td> <td>Strong wind</td> <td>Ranged attacks are made at disadvantage.</td> </tr> <tr> <td>4</td> <td>Gale</td> <td>All creatures have resistance to damage from ranged attacks.</td> </tr> <tr> <td>5</td> <td>Hurricane</td> <td>Ranged attacks are impossible, and all movement against the wind costs twice as much.</td> </tr> </tbody> </table> <em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 7th level, the duration is 8 hours, and the area increases to a 5-mile radius. When you cast this spell using a spell slot of 8th level, the duration is 24 hours, and the area increases to a 10-mile radius. When you cast this spell using a spell slot of 9th level, the duration is 7 days, and the area increases to a 25-mile radius.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -203,10 +76,10 @@ export default createSpells({
       [
         'You connect your mind to that of a friendly beast within range. You can use your action to use its senses instead of your own until the start of your next turn. While the beast is within 120 feet of you, you and the beast can communicate telepathically, and the beast gains the following benefits:',
       ],
-      ['•  The beast can add your proficiency bonus to all of its ability checks.'],
-      ['•  The beast deals an extra 1d6 damage to a target whenever it hits with an attack'],
+      ['• The beast can add your proficiency bonus to all of its ability checks.'],
+      ['• The beast deals an extra 1d6 damage to a target whenever it hits with an attack'],
       [
-        '•  The beast has advantage on attack rolls against any creature you have attacked since the start of your last turn.',
+        '• The beast has advantage on attack rolls against any creature you have attacked since the start of your last turn.',
       ],
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the spell’s duration increases to 8 hours. When you cast this spell using a spell slot of 6th level or higher, the spell’s duration increases to 24 hours.',
@@ -275,9 +148,7 @@ export default createSpells({
     duration: 'Concentration, up to 10 minutes',
     text: [
       [
-        'An ',
-        rules.invisible,
-        ' wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (your choice which side).',
+        'An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (your choice which side).',
       ],
       [
         'Nothing can physically pass through the wall. Each panel has AC 15 and 100 hit points. The wall can’t be dispelled by dispel magic, and is immune to psychic and nonmagical bludgeoning, piercing, and slashing damage. A disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.',
@@ -300,13 +171,13 @@ export default createSpells({
         'You create a glowing sword-shaped plane of force that hovers within range for the duration. When the sword appears and as a bonus action on subsequent turns, you can give the sword one of the following commands.',
       ],
       [
-        '•  Attack. The sword moves up to 20 feet toward a creature and makes a melee spell attack against it. On a hit, the target takes force damage equal to 3d10 + your spellcasting ability modifier.',
+        '• Attack. The sword moves up to 20 feet toward a creature and makes a melee spell attack against it. On a hit, the target takes force damage equal to 3d10 + your spellcasting ability modifier.',
       ],
       [
-        '•  Guard. The sword moves up to 20 feet into a creature’s space and grants the creature half cover as it attempts to deflect incoming attacks. The first time a hostile creature comes within 5 feet of the sword, the sword makes a melee spell attack against that creature. On a hit, the target takes force damage equal to 3d10 + your spellcasting ability modifier. The sword cannot attack again until you command it again.',
+        '• Guard. The sword moves up to 20 feet into a creature’s space and grants the creature half cover as it attempts to deflect incoming attacks. The first time a hostile creature comes within 5 feet of the sword, the sword makes a melee spell attack against that creature. On a hit, the target takes force damage equal to 3d10 + your spellcasting ability modifier. The sword cannot attack again until you command it again.',
       ],
       [
-        '•  Whirl. The sword moves up to 20 feet toward a point and then begins to spin in a deadly whirl. A creature that starts in the sword’s space or passes within 5 feet of the sword on its turn must succeed on a Dexterity saving throw or take 3d10 force damage.',
+        '• Whirl. The sword moves up to 20 feet toward a point and then begins to spin in a deadly whirl. A creature that starts in the sword’s space or passes within 5 feet of the sword on its turn must succeed on a Dexterity saving throw or take 3d10 force damage.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -346,10 +217,10 @@ export default createSpells({
       [
         'You magically assemble unfinished materials you can see within range that are not being worn or carried into products. With enough unfinished material, you can assemble up to eight nonmagical objects. A Large object (contained within a 10-foot cube, or eight connected 5-foot cubes) counts as eight, a Medium or Small object as one, and a Tiny object as one-eighth. The object cannot be securely attached to a surface or a larger object, and if you are working with metal or stone, the assembled object can be no larger than Medium. Unfinished materials can be raw (freshly felled trees or mined ores) or partlyworked (wooden boards or metal ingots), but cannot be finished goods (a constructed building or suit of armor). Examples include:',
       ],
-      ['•  Metals and alloys (such as bronze, iron, or silver)'],
-      ['•  Organic byproducts (such as canvas, silk, or wool)'],
-      ['•  Plant matter (such as flax, hemp, or oak)'],
-      ['•  Stone (such as granite, marble, or sandstone)'],
+      ['• Metals and alloys (such as bronze, iron, or silver)'],
+      ['• Organic byproducts (such as canvas, silk, or wool)'],
+      ['• Plant matter (such as flax, hemp, or oak)'],
+      ['• Stone (such as granite, marble, or sandstone)'],
       [
         'You cannot affect creatures or magic items, and you must have proficiency in the appropriate set of artisan’s tools to create items of commensurate craftsmanship. For this type of artisanal crafting, the spell completes the equivalent of eight hours’ work, which can be part of a longer-term project.',
       ],
@@ -368,9 +239,6 @@ export default createSpells({
     text: [
       [
         'You radiate concealing magic in an aura with a 30-foot radius, making you and your allies more difficult to detect. Until the spell ends, whenever you or a creature you choose within 30 feet of you must make a Dexterity (Stealth) check, the creature may add a +5 bonus. A chosen creature leaves no trace of its passage and cannot be tracked except by magical means.',
-      ],
-      [
-        'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the bonus increases by 1 for each slot level above 2nd.\n\n> In most situations where Aura of Concealment is appropriate, the party will be making group stealth checks against an enemy’s passive Perception. It’s strongly recommended that GMs run those as written in the basic rules. Sometimes GMs require every PC to succeed, or roll active Perception for each enemy—either option will artificially inflate the check’s difficulty (a GM might even do so unconsciously, because they’re used to accounting for a +10 bonus from Pass Without Trace_)._',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -410,16 +278,16 @@ export default createSpells({
       [
         'When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.',
       ],
-      ['•  Darkvision. You gain darkvision out to 30 feet.'],
+      ['• Darkvision. You gain darkvision out to 30 feet.'],
       [
-        '•  Echolocation. You gain blindsight out to 10 feet, but only if you continuously make high-pitched sounds, preventing you from speaking normally while you do. Your squeaking can be heard from up to 60 feet away.',
+        '• Echolocation. You gain blindsight out to 10 feet, but only if you continuously make high-pitched sounds, preventing you from speaking normally while you do. Your squeaking can be heard from up to 60 feet away.',
       ],
-      ['•  Keen Hearing. You have advantage on Wisdom (Perception) checks that rely on hearing.'],
-      ['•  Keen Sight. You have advantage on Wisdom (Perception) checks that rely on sight.'],
-      ['•  Keen Smell. You have advantage on Wisdom (Perception) checks that rely on smell.'],
-      ['•  Tremorsense. You gain tremorsense out to 30 feet.'],
+      ['• Keen Hearing. You have advantage on Wisdom (Perception) checks that rely on hearing.'],
+      ['• Keen Sight. You have advantage on Wisdom (Perception) checks that rely on sight.'],
+      ['• Keen Smell. You have advantage on Wisdom (Perception) checks that rely on smell.'],
+      ['• Tremorsense. You gain tremorsense out to 30 feet.'],
       [
-        '•  Websense. While in contact with a web, you know the exact location of any other creature in contact with the same web.',
+        '• Websense. While in contact with a web, you know the exact location of any other creature in contact with the same web.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -451,14 +319,10 @@ export default createSpells({
     duration: '1 hour',
     text: [
       [
-        'You magically persuade a beast that you are a trusted ally. Choose a beast that you can see within range, which must be able to see and hear you. The beast must succeed on a Wisdom saving throw or be ',
-        rules.charmed,
-        ' by you for the spell’s duration. Beasts with Intelligence 4 or higher automatically succeed. If you or one of your companions harms the target, the spell ends.',
+        'You magically persuade a beast that you are a trusted ally. Choose a beast that you can see within range, which must be able to see and hear you. The beast must succeed on a Wisdom saving throw or be charmed by you for the spell’s duration. Beasts with Intelligence 4 or higher automatically succeed. If you or one of your companions harms the target, the spell ends.',
       ],
       [
-        'While ',
-        rules.charmed,
-        ' in this way, the beast is willing to perform simple tasks on your behalf, including scouting locations, finding things, or delivering objects. If asked to deliver a message, it can understand locations and a general description of a target, though it cannot reliably find an individual. A beast delivering a message typically covers 1 mile per hour walking, or 2 miles per hour if it can fly.',
+        'While charmed in this way, the beast is willing to perform simple tasks on your behalf, including scouting locations, finding things, or delivering objects. If asked to deliver a message, it can understand locations and a general description of a target, though it cannot reliably find an individual. A beast delivering a message typically covers 1 mile per hour walking, or 2 miles per hour if it can fly.',
       ],
       [
         'At Higher Levels. If you cast this spell using a spell slot of 2nd level, the duration of the spell increases to 24 hours. If you use a spell slot of 3rd level or higher, you can either increase the duration by another 24 hours for each slot level above 2nd or affect one additional beast for each slot level above 2nd.',
@@ -483,7 +347,7 @@ export default createSpells({
         'A creature with 4 Intelligence or higher that perceives your spellcasting is aware of its magical influence and responds accordingly.',
       ],
       [
-        '> Stacking bonus-die buffs can easily break skill checks. The following house rule is strongly recommended: Only one bonus-die effect (the largest) can be applied to any given d20 roll.',
+        'Stacking bonus-die buffs can easily break skill checks. The following house rule is strongly recommended: Only one bonus-die effect (the largest) can be applied to any given d20 roll.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -510,9 +374,7 @@ export default createSpells({
         '2 · The creature treats every other creature as its enemy until the start of its next turn, fighting them with its typical tactics.',
       ],
       [
-        '3 · The creature becomes ',
-        rules.frightened,
-        ' of every other creature it can see until the start of its next turn.',
+        '3 · The creature becomes frightened of every other creature it can see until the start of its next turn.',
       ],
       [
         "4 · The creature drops any weapons or items it is holding, and doesn't move or take actions this turn.",
@@ -537,9 +399,7 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'You cause a patch of nearly transparent ice to form on ground that you can see within range. Until the spell ends, the magic ice fills a 5-foot square. Any creature on the ice’s space when you cast the spell must succeed on a Dexterity saving throw or take 1d6 cold damage. If the creature is Medium or smaller, it also falls ',
-        rules.prone,
-        ' on a failed save.',
+        'You cause a patch of nearly transparent ice to form on ground that you can see within range. Until the spell ends, the magic ice fills a 5-foot square. Any creature on the ice’s space when you cast the spell must succeed on a Dexterity saving throw or take 1d6 cold damage. If the creature is Medium or smaller, it also falls prone on a failed save.',
       ],
       [
         'A creature must also make the saving throw when it moves onto the ice’s space for the first time on a turn or ends its turn atop it.',
@@ -629,15 +489,15 @@ export default createSpells({
         'You summon up a fiery explosion, creating light, heat, or smoke. You may conjure the explosion at any point within 60 feet, but it will have added effect if you conjure it atop an existing nonmagical flame (extinguishing up to a 5-foot cube of flame). Choose one of the following effects.',
       ],
       [
-        '•  Light. You create a shower of sparks, blinding onlookers. Each creature in a 10-foot radius must make a Constitution saving throw or be ',
+        '• Light. You create a shower of sparks, blinding onlookers. Each creature in a 10-foot radius must make a Constitution saving throw or be ',
         rules.blinded,
         ' until the end of your next turn. If you target an existing flame, the radius increases to 20 feet.',
       ],
       [
-        '•  Heat. You conjure a blast of intense heat. Each creature in a 10-foot radius must make a Constitution saving throw. On a failed save, a creature takes 3d6 fire damage, or half as much on a successful save. If you target an existing flame, the damage increases to 4d6.',
+        '• Heat. You conjure a blast of intense heat. Each creature in a 10-foot radius must make a Constitution saving throw. On a failed save, a creature takes 3d6 fire damage, or half as much on a successful save. If you target an existing flame, the damage increases to 4d6.',
       ],
       [
-        '•  Smoke. You create a 15-foot radius cloud of thick, oily smoke. It spreads around corners, and its area is heavily obscured. If you target an existing flame, the radius is 30 feet. The cloud lasts for 1 minute or until dispersed by a strong breeze.',
+        '• Smoke. You create a 15-foot radius cloud of thick, oily smoke. It spreads around corners, and its area is heavily obscured. If you target an existing flame, the radius is 30 feet. The cloud lasts for 1 minute or until dispersed by a strong breeze.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -675,16 +535,10 @@ export default createSpells({
     duration: '1 minute',
     text: [
       [
-        'You enact a performance laced with subtle magic, your gestures and voice causing others to focus on you to the exclusion of all else. Creatures you choose within range must succeed on a Wisdom saving throw or be ',
-        rules.charmed,
-        ' by you. If you or your companions are fighting a creature, it has advantage on the save. While ',
-        rules.charmed,
-        ' by you in this way, a creature has disadvantage on initiative rolls as well as Wisdom (Perception) checks made to perceive any creature other than you until the spell ends, or until the target can no longer see or hear you.',
+        'You enact a performance laced with subtle magic, your gestures and voice causing others to focus on you to the exclusion of all else. Creatures you choose within range must succeed on a Wisdom saving throw or be charmed by you. If you or your companions are fighting a creature, it has advantage on the save. While charmed by you in this way, a creature has disadvantage on initiative rolls as well as Wisdom (Perception) checks made to perceive any creature other than you until the spell ends, or until the target can no longer see or hear you.',
       ],
       [
-        'Additionally, if a creature rolls initiative while affected by this spell, its speed is reduced by 10 feet and it can’t take reactions until after its first turn ends. The spell ends if you are ',
-        rules.incapacitated,
-        ' or can no longer speak. A creature that fails its saving throw doesn’t realize that you used magic to influence it, even if it witnessed the spell being cast.',
+        'Additionally, if a creature rolls initiative while affected by this spell, its speed is reduced by 10 feet and it can’t take reactions until after its first turn ends. The spell ends if you are incapacitated or can no longer speak. A creature that fails its saving throw doesn’t realize that you used magic to influence it, even if it witnessed the spell being cast.',
       ],
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 minute and the radius increases by 10 feet for each slot level above 2nd.',
@@ -767,9 +621,7 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'You attempt to take control of a beast you can see within range. It must succeed on a Wisdom saving throw or be ',
-        rules.charmed,
-        ' by you for the duration. A beast of challenge rating 4 or higher automatically succeeds on this saving throw. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.',
+        'You attempt to take control of a beast you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. A beast of challenge rating 4 or higher automatically succeeds on this saving throw. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.',
       ],
       [
         'While the beast is ',
@@ -801,76 +653,9 @@ export default createSpells({
       [
         'You magically animate nearby objects, bending them to your will. Choose up to six nonmagical objects within range that are not being worn or carried. All objects must be the same size, and you can animate six Tiny, four Small, three Medium, two Large, or one Huge object(s). Each object animates until spell ends or until reduced to 0 hit points; when an object drops to 0 hit points, any remaining damage carries over to its original object form.',
       ],
-      ['##### Command Objects Statistics'],
-      ['<table>'],
-      ['<thead><tr>'],
-      ['<th>Size</th>'],
-      ['<th>HP</th>'],
-      ['<th>AC</th>'],
-      ['<th>Str</th>'],
-      ['<th>Dex</th>'],
-      ['<th>Damage</th>'],
-      ['<th>Speed</th>'],
-      ['</tr></thead>'],
-      ['<tbody>'],
-      ['<tr>'],
-      ['<td>Tiny</td>'],
-      ['<td>5</td>'],
-      ['<td>19</td>'],
-      ['<td>12</td>'],
-      ['<td>28</td>'],
-      ['<td>1d4 + 1 damage</td>'],
-      ['<td>fly 30 (hover)</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>Small</td>'],
-      ['<td>10</td>'],
-      ['<td>18</td>'],
-      ['<td>16</td>'],
-      ['<td>24</td>'],
-      ['<td>1d6 + 3 damage</td>'],
-      ['<td>fly 30</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>Medium</td>'],
-      ['<td>20</td>'],
-      ['<td>17</td>'],
-      ['<td>20</td>'],
-      ['<td>20</td>'],
-      ['<td>1d10 + 5 damage</td>'],
-      ['<td>30</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>Large</td>'],
-      ['<td>30</td>'],
-      ['<td>16</td>'],
-      ['<td>24</td>'],
-      ['<td>16</td>'],
-      ['<td>2d10 + 7 damage</td>'],
-      ['<td>25</td>'],
-      ['</tr>'],
-      ['<tr>'],
-      ['<td>Huge</td>'],
-      ['<td>60</td>'],
-      ['<td>15</td>'],
-      ['<td>28</td>'],
-      ['<td>12</td>'],
-      ['<td>5d12 + 9 damage</td>'],
-      ['<td>20</td>'],
-      ['</tr>'],
-      ['</tbody>'],
-      ['</table>'],
+      ['Command Objects Statistics'],
       [
-        'An animated object has blindsight with a radius of 30 feet and statistics as shown in the table above. The GM might rule an object has immunities, resistances, and vulnerabilities to specific damage types based on its form. If an object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0.',
-      ],
-      [
-        'In combat, an object shares your initiative count, but takes its turn immediately after yours.',
-      ],
-      [
-        'As a bonus action, you can issue one command to any number of objects within the spell’s range. That command can be to attack, or some other action. Otherwise, the only action an object takes on its turn is the Dodge action. An object may also be commanded to attempt an action available to all creatures, such as grapple or shove, if its form permits it to do so.',
-      ],
-      [
-        'If commanded to attack, an object makes one melee attack against a target you specify within 5 feet of it. Its attack bonus is equal to your spell attack modifier. An object usually deals bludgeoning damage, but the GM might rule it deals slashing or piercing damage based on its form.',
+        '<table> <thead><tr> <th>Size</th> <th>HP</th> <th>AC</th> <th>Str</th> <th>Dex</th> <th>Damage</th> <th>Speed</th> </tr></thead> <tbody> <tr> <td>Tiny</td> <td>5</td> <td>19</td> <td>12</td> <td>28</td> <td>1d4 + 1 damage</td> <td>fly 30 (hover)</td> </tr> <tr> <td>Small</td> <td>10</td> <td>18</td> <td>16</td> <td>24</td> <td>1d6 + 3 damage</td> <td>fly 30</td> </tr> <tr> <td>Medium</td> <td>20</td> <td>17</td> <td>20</td> <td>20</td> <td>1d10 + 5 damage</td> <td>30</td> </tr> <tr> <td>Large</td> <td>30</td> <td>16</td> <td>24</td> <td>16</td> <td>2d10 + 7 damage</td> <td>25</td> </tr> <tr> <td>Huge</td> <td>60</td> <td>15</td> <td>28</td> <td>12</td> <td>5d12 + 9 damage</td> <td>20</td> </tr> </tbody> </table> An animated object has blindsight with a radius of 30 feet and statistics as shown in the table above. The GM might rule an object has immunities, resistances, and vulnerabilities to specific damage types based on its form. If an object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. In combat, an object shares your initiative count, but takes its turn immediately after yours. As a bonus action, you can issue one command to any number of objects within the spell’s range. That command can be to attack, or some other action. Otherwise, the only action an object takes on its turn is the Dodge action. An object may also be commanded to attempt an action available to all creatures, such as grapple or shove, if its form permits it to do so. If commanded to attack, an object makes one melee attack against a target you specify within 5 feet of it. Its attack bonus is equal to your spell attack modifier. An object usually deals bludgeoning damage, but the GM might rule it deals slashing or piercing damage based on its form.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -948,9 +733,6 @@ export default createSpells({
       [
         'If you command the beasts to attack, choose a target for each beast to attack within its reach, making a single melee spell attack for each target. On a hit, the target takes 1d4 bludgeoning or piercing damage (your choice), plus 1d4 extra damage for each additional beast attacking it. You have advantage on the attack roll if three or more beasts attack the same target, and you add your spellcasting ability modifier to the damage dealt if six or more beasts attack the same target.',
       ],
-      [
-        'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you summon two additional beasts for each slot level above 3rd.\n\n> # Sample Beasts\n> \n> Note that a conjured beast pack does not use the normal attack within their stat blocks, and so does not apply any additional effects. Below are all the eligible beasts in the SRD 5.1.\n> \n> * * *\n> \n> Frog, Sea Horse, Baboon, Badger, Bat, Cat, Crab, Eagle, Giant Fire Beetle, Hawk, Jackal, Lizard, Octopus, Owl, Quipper, Rat, Raven, Scorpion, Spider, Weasel, Blood Hawk, Flying Snake, Giant Rat, Poisonous Snake, Stirge, Badger, Giant Centipede',
-      ],
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -968,12 +750,12 @@ export default createSpells({
         'You create a floating spirit which conveys a message of your choice. The herald appears to be a Medium or Small creature of ghostly form, with you determining its appearance otherwise. The herald knows a fixed message of up to 25 words. When you cast this spell, choose one of the following effects:',
       ],
       [
-        '•  Ward. The herald is cast at a particular location, or on a statue or other object with a mouth, and is fixed to that point. It is ',
+        '• Ward. The herald is cast at a particular location, or on a statue or other object with a mouth, and is fixed to that point. It is ',
         rules.invisible,
         ' and motionless until a specific condition is met within 30 feet of its location. When the condition is met, it appears and recites its message. If cast on an object, it moves the object’s mouth rather than appearing directly. You determine whether it does so once or disappears again and repeats the message every time the condition is met. When cast in this way, the herald lasts until dispelled.',
       ],
       [
-        '•  Announcement. The herald floats through the air up to 100 feet up and 30 feet per round, repeating its message every round. It traverses an area up to a 5-mile radius around its location, conveying its message to every creature it sees. When cast in this way, the herald lasts for 1 hour.',
+        '• Announcement. The herald floats through the air up to 100 feet up and 30 feet per round, repeating its message every round. It traverses an area up to a 5-mile radius around its location, conveying its message to every creature it sees. When cast in this way, the herald lasts for 1 hour.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -998,48 +780,31 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot above 3rd level, the number of minor fiends or the combined challenge rating of the summoned fiends increases by 1 for each slot level above 3rd.',
       ],
-      ['## Minor Fiend'],
+      ['Minor Fiend'],
       ['Medium fiend (demon)'],
-      ['• * *'],
-      ['•  Armor Class 14'],
+      ['• Armor Class 14'],
       ['• Hit Points 32 (5d8+10)'],
       ['• Speed 30 ft.'],
-      ['• * *'],
       ['STR · DEX · CON · INT · WIS · CHA'],
       ['16 (+3) · 14 (+2) · 16 (+3) · 8 (-1) · 14 (+2) · 8 (-1)'],
-      ['• * *'],
-      ['•  Damage Resistances cold, fire, lightning'],
+      ['• Damage Resistances cold, fire, lightning'],
       ['• Damage Immunities poison'],
-      ['• Condition Immunities ', rules.charmed, ', ', rules.frightened, ', ', rules.poisoned],
+      ['• Condition Immunities ', rules.charmed, ', ', rules.frightened, ', poisoned'],
       ['• Senses darkvision 60 ft., passive Perception 12'],
       ['• Languages Abyssal or Infernal, understands one language you can speak'],
       ['• Proficiency Bonus 2'],
       ['• Challenge 1'],
-      ['• * *'],
       [
         'Magic Resistance. The fiend has advantage on saving throws against spells and other magical effects.',
       ],
-      ['• * *'],
-      ['<h3>Actions</h3>'],
       [
-        '<em><strong>Multiattack.</strong></em> The fiend can make two attacks, only one of which can be Abyssal Bile.',
-      ],
-      [
-        '<em><strong>Claws.</strong></em> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 1d8 + 3 slashing damage.',
-      ],
-      [
-        '<em><strong>Abyssal Bile.</strong></em> The fiend sprays abyssal bile at one creature within 10 feet of it. The target must make a Charisma saving throw against your spell save DC. On a failed save, it rolls 1d4 and is afflicted by a condition according to the result.',
-      ],
-      ['<ul>'],
-      ['<li>1: The target is ', rules.frightened, ' of the fiend.</li>'],
-      ['<li>2: The target is ', rules.poisoned, '.</li>'],
-      ['<li>3: The target is ', rules.restrained, '.</li>'],
-      [
-        '<li>4: The target erupts into black flames, taking 1d6 fire damage at the start of each of its turns.</li>',
-      ],
-      ['</ul>'],
-      [
-        'The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. Once a creature successfully saves against this ability, it is immune for 24 hours.',
+        '<h3>Actions</h3> <em><strong>Multiattack.</strong></em> The fiend can make two attacks, only one of which can be Abyssal Bile. <em><strong>Claws.</strong></em> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 1d8 + 3 slashing damage. <em><strong>Abyssal Bile.</strong></em> The fiend sprays abyssal bile at one creature within 10 feet of it. The target must make a Charisma saving throw against your spell save DC. On a failed save, it rolls 1d4 and is afflicted by a condition according to the result. <ul> <li>1: The target is ',
+        rules.frightened,
+        ' of the fiend.</li> <li>2: The target is ',
+        rules.poisoned,
+        '.</li> <li>3: The target is ',
+        rules.restrained,
+        '.</li> <li>4: The target erupts into black flames, taking 1d6 fire damage at the start of each of its turns.</li> </ul> The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. Once a creature successfully saves against this ability, it is immune for 24 hours.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -1062,13 +827,6 @@ export default createSpells({
       ],
       [
         'The puppets are under your control until the spell ends, after which they become inanimate once more.',
-      ],
-      [
-        'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th.\n\n## Corpse Puppet\n\nMedium undead\n\n* * *\n\n### Skeleton\n\n -  Armor Class 13\n- Hit Points 15 (2d8+6)\n- Speed 35 ft.\n\n| STR | DEX | CON | INT | WIS | CHA |\n| --- | --- | --- | --- | --- | --- |\n| 12 (+1) | 16 (+3) | 12 (+1) | 6 (-2) | 8 (-1) | 5 (-3) |\n\n* * *\n\n### Zombie\n\n -  Armor Class 8\n- Hit Points 25 (4d8+7)\n- Speed 20 ft.\n\n| STR | DEX | CON | INT | WIS | CHA |\n| --- | --- | --- | --- | --- | --- |\n| 14 (+2) | 6 (-2) | 16 (+3) | 6 (-2) | 8 (-1) | 5 (-3) |\n\n* * *\n\n -  Damage Vulnerabilities (Skeleton) bludgeoning\n- Damage Immunities poison\n- Condition Immunities exhaustion, ',
-        rules.poisoned,
-        "\n- Senses darkvision 60 ft., passive Perception 9\n- Languages understands all languages it spoke in life but can't speak\n- Proficiency 2\n- Challenge 1/2\n\n* * *\n\nFestering Fortitude (Zombie Only). If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC equal to the damage taken, unless the damage is radiant or from a critical hit. On a success, the puppet drops to 1 hit point instead.\n\nSeizing Swarm (Zombie Only). The puppet has advantage on its grapple check against a creature if at least one other allied Zombie Puppet is within 5 feet of the creature and the ally isn't ",
-        rules.incapacitated,
-        '.\n\n\n<h3>Actions</h3>\n<em><strong>Multiattack (Skeleton Only).</strong></em> The puppet makes two Skeletal Slash attacks.\n<em><strong>Skeletal Slash (Skeleton Only).</strong></em> <em>Melee Weapon Attack</em>: your spell attack modifier to hit, reach 5 ft., one target. <em>Hit</em>: 1d6 + 1 slashing damage.\n<em><strong>Body Bash (Zombie Only).</strong></em> <em>Melee Weapon Attack</em>: your spell attack modifier to hit, reach 5 ft., one target. <em>Hit</em>: 2d4 + 2 bludgeoning damage.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -1253,14 +1011,10 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'You empower your weapon, giving it the ability to tear the fabric of the planes. The next time you hit a creature with a melee weapon attack before this spell ends, you tear a hole to another plane and tangle it within the interplanar aether. The attack deals an extra 5d10 force damage, and the target must make a Charisma saving throw. On a failure, it is partly phased out of the plane, becoming ',
-        rules.incapacitated,
-        ' and gaining resistance to all damage until the spell ends,',
+        'You empower your weapon, giving it the ability to tear the fabric of the planes. The next time you hit a creature with a melee weapon attack before this spell ends, you tear a hole to another plane and tangle it within the interplanar aether. The attack deals an extra 5d10 force damage, and the target must make a Charisma saving throw. On a failure, it is partly phased out of the plane, becoming incapacitated and gaining resistance to all damage until the spell ends,',
       ],
       [
-        'A creature ',
-        rules.incapacitated,
-        ' by this spell makes another Charisma saving throw at the end of each of its turns. On a successful save, the spell ends.',
+        'A creature incapacitated by this spell makes another Charisma saving throw at the end of each of its turns. On a successful save, the spell ends.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -1474,11 +1228,11 @@ export default createSpells({
       [
         'You create an elemental ward, gaining resistance to the triggering damage. When you cast the spell, you can choose to either extend the resistance until the end of your next turn, or you can cause your next weapon attack before the end of your next turn to deal an additional 1d8 damage of the triggering type and an additional effect depending on the triggering damage type.',
       ],
-      ['•  Acid. The target takes 1d4 acid damage at the end of its next turn.'],
-      ["•  Cold. The target's speed is reduced by 10 feet until the end of your next turn."],
-      ['•  Fire. The attack ignites flammable objects not being worn or carried.'],
-      ["•  Lightning. The target can't take reactions until the start of its next turn."],
-      ['•  Thunder. The target is ', rules.deafened, ' until the end of its next turn.'],
+      ['• Acid. The target takes 1d4 acid damage at the end of its next turn.'],
+      ["• Cold. The target's speed is reduced by 10 feet until the end of your next turn."],
+      ['• Fire. The attack ignites flammable objects not being worn or carried.'],
+      ["• Lightning. The target can't take reactions until the start of its next turn."],
+      ['• Thunder. The target is ', rules.deafened, ' until the end of its next turn.'],
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the additional damage increases by 1d8 for each slot level above 1st.',
       ],
@@ -1588,9 +1342,7 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'You brandish a repellent item at a creature you can see within range and attempt to expel them from this plane. The target must make a Charisma saving throw. On a failure, it is partly wrenched off its current plane. For the duration, it becomes ',
-        rules.incapacitated,
-        ' and gains resistance to all damage.',
+        'You brandish a repellent item at a creature you can see within range and attempt to expel them from this plane. The target must make a Charisma saving throw. On a failure, it is partly wrenched off its current plane. For the duration, it becomes incapacitated and gains resistance to all damage.',
       ],
       [
         'The target makes another Charisma save at the end of each of its turns, ending the spell on a success. A creature on its home plane continues making saves for the duration. An extraplanar creature failing its second Charisma save disappears from its current plane entirely. An extraplanar creature failing the third Charisma save is banished back to its home plane and stops making saving throws. If you maintain concentration for the full duration, this banishment becomes permanent.',
@@ -1629,9 +1381,7 @@ export default createSpells({
         'The spell ends once the target has left the false state. Additionally, you can use an action to touch the target and dismiss the spell.',
       ],
       [
-        'If the target is diseased or ',
-        rules.poisoned,
-        ' when you cast the spell or becomes diseased or ',
+        'If the target is diseased or poisoned when you cast the spell or becomes diseased or ',
         rules.poisoned,
         ' while under the spell’s effect, the disease and poison have no effect until the spell ends.',
       ],
@@ -1686,9 +1436,7 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'You bewitch a creature’s mind, terrifying it. The target must succeed on a Wisdom saving throw or become ',
-        rules.frightened,
-        ' of you for the duration. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A target that is more than 90 feet away from you has advantage on its saving throw.',
+        'You bewitch a creature’s mind, terrifying it. The target must succeed on a Wisdom saving throw or become frightened of you for the duration. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A target that is more than 90 feet away from you has advantage on its saving throw.',
       ],
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.',
@@ -1854,16 +1602,16 @@ export default createSpells({
       [
         'You become elemental fire, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Until the spell ends, you gain the following benefits:',
       ],
-      ['•  You are immune to fire damage.'],
+      ['• You are immune to fire damage.'],
       [
-        '•  You can move through the space of other creatures and ignore difficult terrain. The first time on your turn you enter the space of another creature, it takes 2d6 fire damage.',
+        '• You can move through the space of other creatures and ignore difficult terrain. The first time on your turn you enter the space of another creature, it takes 2d6 fire damage.',
       ],
-      ['•  If a creature within 5 feet hits you with a melee attack, it takes 2d6 fire damage.'],
+      ['• If a creature within 5 feet hits you with a melee attack, it takes 2d6 fire damage.'],
       [
-        '•  You can use your action to create a line of fire 30 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 6d6 fire damage on a failed save, or half as much damage on a successful one.',
+        '• You can use your action to create a line of fire 30 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 6d6 fire damage on a failed save, or half as much damage on a successful one.',
       ],
       [
-        '•  During your turn, if you roll fire damage, you can maximize one die of the fire damage dealt.',
+        '• During your turn, if you roll fire damage, you can maximize one die of the fire damage dealt.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -1881,18 +1629,18 @@ export default createSpells({
       [
         'You freeze over, taking on a form of elemental ice. Until the spell ends, you gain the following benefits:',
       ],
-      ['•  You are immune to cold damage.'],
+      ['• You are immune to cold damage.'],
       [
-        '•  You can move across difficult terrain created by ice or snow without spending extra movement.',
+        '• You can move across difficult terrain created by ice or snow without spending extra movement.',
       ],
       [
-        '•  The ground in a 15-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.',
+        '• The ground in a 15-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.',
       ],
       [
-        '•  You can use your action to create a 30-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d8 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.',
+        '• You can use your action to create a 30-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d8 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.',
       ],
       [
-        '•  During your turn, if you roll cold damage, you gain temporary hit points equal to one die rolled (your choice).',
+        '• During your turn, if you roll cold damage, you gain temporary hit points equal to one die rolled (your choice).',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -1909,15 +1657,15 @@ export default createSpells({
     text: [
       ['You become made of stone. Until the spell ends, you gain the following benefits:'],
       [
-        '•  You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.',
+        '• You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.',
       ],
       [
-        '•  You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can’t end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are ',
+        '• You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can’t end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are ',
         rules.stunned,
         ' until the end of your next turn.',
       ],
       [
-        '•  You can use your action to call spikes of stone to raise from the ground. All creatures of your choice within 15 feet of you must make a Dexterity saving throw. A creature takes 4d8 piercing damage on a failed save, or half as much on a successful one. Its space becomes difficult terrain either way.',
+        '• You can use your action to call spikes of stone to raise from the ground. All creatures of your choice within 15 feet of you must make a Dexterity saving throw. A creature takes 4d8 piercing damage on a failed save, or half as much on a successful one. Its space becomes difficult terrain either way.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -1936,7 +1684,7 @@ export default createSpells({
         'You become a surge of elemental water. Until the spell ends, you gain the following benefits:',
       ],
       [
-        '•  You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.',
+        '• You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.',
       ],
       [
         '• You can move through the space of other creatures and ignore difficult terrain; the first time you move through a Large or smaller creature, it must pass a Strength saving throw or be knocked ',
@@ -1944,11 +1692,7 @@ export default createSpells({
         '.',
       ],
       [
-        '• You can use your action to unleash a blast of water 15 feet long and 5 feet wide extending from you in a direction of your choice. Each creature in the line must make a Strength saving throw. A creature takes 5d6 bludgeoning damage and is knocked ',
-        rules.prone,
-        " on a failed save, or half as much and isn't knocked ",
-        rules.prone,
-        ' on a successful one.',
+        "• You can use your action to unleash a blast of water 15 feet long and 5 feet wide extending from you in a direction of your choice. Each creature in the line must make a Strength saving throw. A creature takes 5d6 bludgeoning damage and is knocked prone on a failed save, or half as much and isn't knocked prone on a successful one.",
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -1966,13 +1710,13 @@ export default createSpells({
       [
         'You become a gust of elemental wind. Until the spell ends, you gain the following benefits:',
       ],
-      ['•  You have a flying speed of 60 feet.'],
+      ['• You have a flying speed of 60 feet.'],
       [
-        '•  You can move through and occupy the space of other creatures, and you ignore difficult terrain.',
+        '• You can move through and occupy the space of other creatures, and you ignore difficult terrain.',
       ],
-      ['•  You are ', rules.invisible, '.'],
+      ['• You are ', rules.invisible, '.'],
       [
-        '•  You can use your action to unleash a powerful blast of wind in a 30 foot cone. Each creature in the cone must make a Strength saving throw. A creature takes 4d8 bludgeoning damage and is knocked 15 feet away from you on a failed save, or takes half as much damage and isn’t knocked backward on a successful one.',
+        '• You can use your action to unleash a powerful blast of wind in a 30 foot cone. Each creature in the cone must make a Strength saving throw. A creature takes 4d8 bludgeoning damage and is knocked 15 feet away from you on a failed save, or takes half as much damage and isn’t knocked backward on a successful one.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -2093,32 +1837,30 @@ export default createSpells({
         'You can refine the trigger by specifying or exempting creatures or creature types, or by specifying a password a creature can speak as a reaction to prevent the glyph from triggering.',
       ],
       [
-        'The glyph is nearly ',
-        rules.invisible,
-        ' and requires a successful Intelligence (Investigation) check against your spell save DC to be found. A creature has advantage on this check if it is able to perceive magical effects, such as by casting detect magic. If a creature uses its action to destroy the glyph, or the surface is destroyed, the spell ends without triggering.',
+        'The glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found. A creature has advantage on this check if it is able to perceive magical effects, such as by casting detect magic. If a creature uses its action to destroy the glyph, or the surface is destroyed, the spell ends without triggering.',
       ],
       [
         'When you create the glyph, choose one of the options below, expending its material component. When the glyph triggers, it flares with colored light until destroyed. The effect immediately occurs, targeting every non-exempt creature within 60 feet.',
       ],
       [
-        '•  Weakness (Amethyst). Each target must make a Strength saving throw. On a failure, it suffers crippling weakness for 1 hour. Its speed drops to 15 feet, and all its weapon attacks deal damage as if it rolled the minimum result.',
+        '• Weakness (Amethyst). Each target must make a Strength saving throw. On a failure, it suffers crippling weakness for 1 hour. Its speed drops to 15 feet, and all its weapon attacks deal damage as if it rolled the minimum result.',
       ],
       [
-        '•  Binding (Topaz). Each target must make a Dexterity saving throw. On a failure, it is ',
+        '• Binding (Topaz). Each target must make a Dexterity saving throw. On a failure, it is ',
         rules.restrained,
         ' by magical lines of force for 1 hour.',
       ],
       [
-        '•  Death (Black Sapphire). Each target must make a Constitution saving throw, dropping to 0 hit points on a failure or suffering 10d8 necrotic damage on a success.',
+        '• Death (Black Sapphire). Each target must make a Constitution saving throw, dropping to 0 hit points on a failure or suffering 10d8 necrotic damage on a success.',
       ],
       [
-        '•  Bafflement (Citrine). Each target must make an Intelligence saving throw. On a failed save, it loses its ability to understand the world for 1 hour. It cannot cast spells and has disadvantage on all ability checks and attack rolls.',
+        '• Bafflement (Citrine). Each target must make an Intelligence saving throw. On a failed save, it loses its ability to understand the world for 1 hour. It cannot cast spells and has disadvantage on all ability checks and attack rolls.',
       ],
       [
-        '•  Rage (Garnet). Each target must make a Wisdom saving throw. On a failed save, it becomes hostile to all other creatures and attacks the nearest target. It can repeat the save at the end of each of its turns.',
+        '• Rage (Garnet). Each target must make a Wisdom saving throw. On a failed save, it becomes hostile to all other creatures and attacks the nearest target. It can repeat the save at the end of each of its turns.',
       ],
       [
-        '•  Stupor (Emerald). Each target must make a Charisma saving throw, or enter a dazed state, its mind disconnected from its body. A creature takes no actions, and its speed is reduced by half. It recovers after 1 hour or when it takes any damage.',
+        '• Stupor (Emerald). Each target must make a Charisma saving throw, or enter a dazed state, its mind disconnected from its body. A creature takes no actions, and its speed is reduced by half. It recovers after 1 hour or when it takes any damage.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -2238,10 +1980,10 @@ export default createSpells({
       [
         'You touch a melee weapon and enhance it with elemental power. Choose one of the following damage types: acid, cold, fire, or lightning. For the duration, the weapon deals 1d6 bonus damage on a hit, and the weapon’s base damage is changed to the chosen type. In addition, once per round after a creature takes damage from the weapon, it suffers an effect based on the damage type chosen:',
       ],
-      ['•  Acid. The target takes 2d4 acid damage at the end of its next turn.'],
-      ['•  Cold. The target’s speed is halved until the end of its next turn.'],
-      ['•  Fire. The target takes 1d6 additional fire damage.'],
-      ['•  Lightning. The target can’t take reactions until the end of its next turn.'],
+      ['• Acid. The target takes 2d4 acid damage at the end of its next turn.'],
+      ['• Cold. The target’s speed is halved until the end of its next turn.'],
+      ['• Fire. The target takes 1d6 additional fire damage.'],
+      ['• Lightning. The target can’t take reactions until the end of its next turn.'],
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the bonus damage increases by 1d6 for every two slot levels above 3rd.',
       ],
@@ -2259,16 +2001,10 @@ export default createSpells({
     duration: 'Instantaneous',
     text: [
       [
-        'You haul up to six mighty spikes of rock out of the ground, erupting at locations you can see within range. Each spike occupies a 5-foot space, is up to 30 feet tall, and has AC 11 and 30 hit points. Any creature above a spike when the spell is cast must make a Dexterity saving throw. On a failure, it takes 5d10 piercing damage and is impaled if it is Large or smaller, becoming ',
-        rules.restrained,
-        ' at the top of the spike. Huge creatures can be ',
-        rules.restrained,
-        ' if targeted with two or more spikes, and Gargantuan creatures with six or more. On a success, a target suffers half as much damage and no other effects. A creature in the area of more than one spike is only damaged once.',
+        'You haul up to six mighty spikes of rock out of the ground, erupting at locations you can see within range. Each spike occupies a 5-foot space, is up to 30 feet tall, and has AC 11 and 30 hit points. Any creature above a spike when the spell is cast must make a Dexterity saving throw. On a failure, it takes 5d10 piercing damage and is impaled if it is Large or smaller, becoming restrained at the top of the spike. Huge creatures can be restrained if targeted with two or more spikes, and Gargantuan creatures with six or more. On a success, a target suffers half as much damage and no other effects. A creature in the area of more than one spike is only damaged once.',
       ],
       [
-        'An impaled target can use its action to attempt to free itself with a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC. On a success, it is no longer ',
-        rules.restrained,
-        ' and falls. A target is also freed if all spikes impaling it are destroyed.',
+        'An impaled target can use its action to attempt to free itself with a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC. On a success, it is no longer restrained and falls. A target is also freed if all spikes impaling it are destroyed.',
       ],
       [
         'If a creature is slammed into a ceiling or other obstacle when it gets impaled, it takes an additional 2d10 bludgeoning damage, and attempts to free itself are made with disadvantage.',
@@ -2316,24 +2052,24 @@ export default createSpells({
         'At the end of each of the target’s turns, it must make another Constitution saving throw. If it succeeds, it suffers no effects from the disease until the end of its next turn. When the target has succeeded on three of these saving throws, it is no longer diseased. When it has failed on three of these saving throws, the disease sets in, and lasts for 7 days, or until treated by an appropriate means. Once the target has either three successes or three failures on these saving throws, it stops making saves for this spell.',
       ],
       [
-        '•  Muscle Weakness. The creature’s arms become unbearably weak. It has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength. Its attacks using Strength deal half damage.',
+        '• Muscle Weakness. The creature’s arms become unbearably weak. It has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength. Its attacks using Strength deal half damage.',
       ],
       [
-        '•  Trembling Spasms. The creature is overcome with terrible tremors. It has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity. Its attacks using Dexterity do half damage.',
+        '• Trembling Spasms. The creature is overcome with terrible tremors. It has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity. Its attacks using Dexterity do half damage.',
       ],
       [
-        '•  Skinslough. The creature’s skin becomes paper-thin and causes agonizing pain when it tears. It has disadvantage on Constitution checks and Constitution saving throws, except those caused by this spell. In addition, when the creature takes damage, its speed is reduced to 10 feet until the end of its next turn.',
+        '• Skinslough. The creature’s skin becomes paper-thin and causes agonizing pain when it tears. It has disadvantage on Constitution checks and Constitution saving throws, except those caused by this spell. In addition, when the creature takes damage, its speed is reduced to 10 feet until the end of its next turn.',
       ],
       [
-        '•  Mindrot. The creature becomes disoriented and confused. The creature has disadvantage on Intelligence checks and Intelligence saving throws and cannot tell friend from foe in combat.',
+        '• Mindrot. The creature becomes disoriented and confused. The creature has disadvantage on Intelligence checks and Intelligence saving throws and cannot tell friend from foe in combat.',
       ],
       [
-        '•  Fire-eyes Fever. The creature’s eyes turn milky white and are searingly painful. It has disadvantage on Wisdom checks and Wisdom saving throws and is ',
+        '• Fire-eyes Fever. The creature’s eyes turn milky white and are searingly painful. It has disadvantage on Wisdom checks and Wisdom saving throws and is ',
         rules.blinded,
         '.',
       ],
       [
-        '•  Flesh Rot. The creature’s flesh decays. It has disadvantage on Charisma checks and Charisma saving throws and takes 5 additional points of damage when it suffers bludgeoning, piercing, or slashing damage.',
+        '• Flesh Rot. The creature’s flesh decays. It has disadvantage on Charisma checks and Charisma saving throws and takes 5 additional points of damage when it suffers bludgeoning, piercing, or slashing damage.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -2349,11 +2085,7 @@ export default createSpells({
     duration: '30 days',
     text: [
       [
-        'You magically bind a creature that can understand you within range to either complete or abstain from some action or activity. It must succeed on a Wisdom saving throw or become ',
-        rules.charmed,
-        ' by you for the duration. Once per turn while ',
-        rules.charmed,
-        " in this way, the target's current and maximum hit points are reduced by 5d10 if its behavior contradicts your instructions. This reduction lasts until the spell ends.",
+        "You magically bind a creature that can understand you within range to either complete or abstain from some action or activity. It must succeed on a Wisdom saving throw or become charmed by you for the duration. Once per turn while charmed in this way, the target's current and maximum hit points are reduced by 5d10 if its behavior contradicts your instructions. This reduction lasts until the spell ends.",
       ],
       [
         "You can issue any command you choose, though the spell ends if you issue a suicidal command. The creature's death does not end the spell.",
@@ -2571,9 +2303,7 @@ export default createSpells({
     duration: 'Instantaneous',
     text: [
       [
-        'You construct a magical 5-foot radius, 10-foot high cylinder snare trap at a point on the ground within range. The trap is barely visible but can be detected with a successful Intelligence check against your spell save DC. If a creature detects the trap, it is immune to the spell. When a creature moves into the cylinder, it must succeed on a Dexterity saving throw or become ',
-        rules.restrained,
-        ' and be magically lifted 10 feet up into the air, where it hangs upside down. Huge or larger creatures automatically succeed. As an action, a creature can attempt to free itself by making a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC, ending the spell on a success.',
+        'You construct a magical 5-foot radius, 10-foot high cylinder snare trap at a point on the ground within range. The trap is barely visible but can be detected with a successful Intelligence check against your spell save DC. If a creature detects the trap, it is immune to the spell. When a creature moves into the cylinder, it must succeed on a Dexterity saving throw or become restrained and be magically lifted 10 feet up into the air, where it hangs upside down. Huge or larger creatures automatically succeed. As an action, a creature can attempt to free itself by making a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC, ending the spell on a success.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -2592,13 +2322,13 @@ export default createSpells({
         'You mold earth you can see within range, causing it to twist and buckle to your command. Select one of the following effects:',
       ],
       [
-        '•  You can excavate a 5-foot cube of loose dirt or soil and move it along the ground to another unoccupied space within 5 feet.',
+        '• You can excavate a 5-foot cube of loose dirt or soil and move it along the ground to another unoccupied space within 5 feet.',
       ],
       [
-        '•  You can make minor alterations to dirt or stone, such as changing its color or carving small, simple shapes.',
+        '• You can make minor alterations to dirt or stone, such as changing its color or carving small, simple shapes.',
       ],
       [
-        '•  You can turn a 5-foot square of earth or stone into difficult terrain for 1 hour. You can create up to three patches of difficult terrain this way; if you create additional patches, the first one you created returns to normal terrain.',
+        '• You can turn a 5-foot square of earth or stone into difficult terrain for 1 hour. You can create up to three patches of difficult terrain this way; if you create additional patches, the first one you created returns to normal terrain.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -2617,14 +2347,14 @@ export default createSpells({
         'You control a fire you can see within range, causing it to bend to your command. Select one of the following effects:',
       ],
       [
-        '•  You can grant a creature of your choice within range resistance to fire damage until the start of your next turn.',
+        '• You can grant a creature of your choice within range resistance to fire damage until the start of your next turn.',
       ],
       [
-        '•  You can spark or spread fire in a 5-foot cube, as long as there is fuel that can be ignited within the area.',
+        '• You can spark or spread fire in a 5-foot cube, as long as there is fuel that can be ignited within the area.',
       ],
-      ['•  You can douse fire within a 5-foot cube.'],
+      ['• You can douse fire within a 5-foot cube.'],
       [
-        '•  You can adjust a flame’s brightness (halving or doubling it), color (turning the flames to any color of your choice), or shape (forming simple shapes) within a 5-foot cube for 10 minutes.',
+        '• You can adjust a flame’s brightness (halving or doubling it), color (turning the flames to any color of your choice), or shape (forming simple shapes) within a 5-foot cube for 10 minutes.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -2643,16 +2373,16 @@ export default createSpells({
         'You shape water you can see within range, causing it to move at your command. Select one of the following effects:',
       ],
       [
-        '•  You can move or direct the flow of a 5-foot cube of water in a direction of your choice, but the water will revert back to its natural flow at the start of your next turn unless you concentrate on keeping it in place.',
+        '• You can move or direct the flow of a 5-foot cube of water in a direction of your choice, but the water will revert back to its natural flow at the start of your next turn unless you concentrate on keeping it in place.',
       ],
       [
-        '•  You can mold the water into small shapes or simple animations. This change lasts for 1 minute.',
+        '• You can mold the water into small shapes or simple animations. This change lasts for 1 minute.',
       ],
       [
-        '•  You can change the color or opacity of a 5-foot cube of water. This change lasts for 1 hour.',
+        '• You can change the color or opacity of a 5-foot cube of water. This change lasts for 1 hour.',
       ],
       [
-        '•  You can freeze up to a 5-foot cube of unoccupied water or thaw up to a 5-foot cube of ice. The water unfreezes or refreezes naturally based on the environmental conditions (usually taking an hour or more to completely melt or freeze unless in extreme conditions).',
+        '• You can freeze up to a 5-foot cube of unoccupied water or thaw up to a 5-foot cube of ice. The water unfreezes or refreezes naturally based on the environmental conditions (usually taking an hour or more to completely melt or freeze unless in extreme conditions).',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -2671,18 +2401,16 @@ export default createSpells({
         'You create a small gust within range, causing the air to surge and swirl to your command. Select one of the following effects:',
       ],
       [
-        '•  The next ranged weapon attack against a creature of your choice within range has disadvantage.',
+        '• The next ranged weapon attack against a creature of your choice within range has disadvantage.',
       ],
       [
-        '•  One Large or smaller creature of your choice within range must succeed on a Strength saving throw or be pushed 5 feet or knocked ',
-        rules.prone,
-        ' (your choice).',
+        '• One Large or smaller creature of your choice within range must succeed on a Strength saving throw or be pushed 5 feet or knocked prone (your choice).',
       ],
       [
-        '•  You can increase the next jump made by a creature of your choice within range by 5 feet.',
+        '• You can increase the next jump made by a creature of your choice within range by 5 feet.',
       ],
       [
-        '•  You manipulate the wind in a minor way, such as pushing a light object up to 10 feet, rustling plants, slamming a door, or similar effects. These aren’t powerful enough to move creatures or deal damage.',
+        '• You manipulate the wind in a minor way, such as pushing a light object up to 10 feet, rustling plants, slamming a door, or similar effects. These aren’t powerful enough to move creatures or deal damage.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -2700,18 +2428,18 @@ export default createSpells({
       [
         'You empower yourself with the physical prowess and battle knowledge of famous warriors. Until the spell ends, you can’t cast spells or concentrate on them, and you gain the following benefits:',
       ],
-      ['•  You gain 50 temporary hit points for the duration.'],
+      ['• You gain 50 temporary hit points for the duration.'],
       [
-        '•  You have advantage on all weapon attacks, and when you hit a target with a weapon attack, it takes an extra 2d12 force damage.',
+        '• You have advantage on all weapon attacks, and when you hit a target with a weapon attack, it takes an extra 2d12 force damage.',
       ],
       [
-        '•  You have proficiency in all armor, shields, simple weapons, martial weapons, and with Strength and Constitution saving throws.',
+        '• You have proficiency in all armor, shields, simple weapons, martial weapons, and with Strength and Constitution saving throws.',
       ],
       [
-        '•  You can attack twice, instead of once, when you take the Attack action on your turn, unless you already have a feature (such as Extra Attack) which gives you extra attacks.',
+        '• You can attack twice, instead of once, when you take the Attack action on your turn, unless you already have a feature (such as Extra Attack) which gives you extra attacks.',
       ],
       [
-        '•  You can conjure and equip (as part of the action used to cast the spell) any armor and any simple or martial weapon of your choice. These items have no strength requirements and are magical in nature, but otherwise have the same properties as their nonmagical counterparts. The equipment vanishes when the spell ends.',
+        '• You can conjure and equip (as part of the action used to cast the spell) any armor and any simple or martial weapon of your choice. These items have no strength requirements and are magical in nature, but otherwise have the same properties as their nonmagical counterparts. The equipment vanishes when the spell ends.',
       ],
       [
         'Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion. You can end the spell as a bonus action.',
@@ -2787,7 +2515,7 @@ export default createSpells({
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
-  misdirection: {
+  misdirection_spells_that_dont_suck: {
     name: 'Misdirection',
     level: 5,
     school: 'illusion',
@@ -2803,16 +2531,10 @@ export default createSpells({
         ', hidden and create an illusory double of yourself in your space. The double can move at your speed, can gesture or speak as you choose, and mimics any action you take (your attacks or spells appear to originate from the double). The double has the same AC as you.',
       ],
       [
-        'Any time a creature would damage the double, or perceives the double making an attack or casting a spell, it makes an Intelligence (Investigation) check against your spell save DC. If the check succeeds, it realizes the double is an illusion and you are no longer ',
-        rules.invisible,
-        ' to that creature.',
+        'Any time a creature would damage the double, or perceives the double making an attack or casting a spell, it makes an Intelligence (Investigation) check against your spell save DC. If the check succeeds, it realizes the double is an illusion and you are no longer invisible to that creature.',
       ],
       [
-        'As an action, you can use the double’s senses instead of your own until you use your action to return to your normal senses, or until the spell ends. While you do so, you are ',
-        rules.blinded,
-        ' and ',
-        rules.deafened,
-        ' to your own surroundings.',
+        'As an action, you can use the double’s senses instead of your own until you use your action to return to your normal senses, or until the spell ends. While you do so, you are blinded and deafened to your own surroundings.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -2848,18 +2570,14 @@ export default createSpells({
       [
         'Create Mud. Rock and dirt in the area becomes mud for the spell’s duration. Creatures sink into the ground, and each foot that a creature moves costs 4 feet of movement. If a creature is on the ground when you cast the spell, moves into the area for the first time, or ends its turn there, it must make a Strength saving throw. On a failure, the creature is ',
         rules.restrained,
-        '. As an action, a ',
-        rules.restrained,
-        ' target or another creature within 5 feet can end the ',
+        '. As an action, a restrained target or another creature within 5 feet can end the ',
         rules.restrained,
         ' condition.',
       ],
       [
         'Create Rock. An area of wet earth less than 10 feet deep becomes rock for the spell’s duration. Any creature standing in the mixture when it hardens must make a Dexterity saving throw. On a success, a creature moves to an unoccupied space on the rock’s surface. On a failure, a creature is ',
         rules.restrained,
-        '. As an action, a ',
-        rules.restrained,
-        ' target or another creature within 5 feet can end the ',
+        '. As an action, a restrained target or another creature within 5 feet can end the ',
         rules.restrained,
         ' condition by succeeding on a Strength (Athletics) check against your spell save DC. The rock has AC 15 and 25 hit points and is immune to poison and psychic damage.',
       ],
@@ -2877,17 +2595,13 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'You take control of loose soil and rock and mold it into a small construct, creating a Medium mud golem which occupies a 5-foot space within range. The mud golem has AC 12 and 20 hit points. It can immediately grab at a Large or smaller creature within 5 feet, forcing the target to make a Strength saving throw. On a failure, the target becomes ',
-        rules.restrained,
-        ' and takes 2d6 bludgeoning damage.',
+        'You take control of loose soil and rock and mold it into a small construct, creating a Medium mud golem which occupies a 5-foot space within range. The mud golem has AC 12 and 20 hit points. It can immediately grab at a Large or smaller creature within 5 feet, forcing the target to make a Strength saving throw. On a failure, the target becomes restrained and takes 2d6 bludgeoning damage.',
       ],
       [
         'As long as the mud golem is within 30 feet of you, you can mentally command it as an action. If it is restraining a target, you can command it to squeeze. The target makes a Strength saving throw, taking 2d6 bludgeoning damage on a failure, or half as much on a success. Alternatively, you can command the golem to dissolve and reform (with full hit points, even if it has been destroyed) anywhere within the spell’s range and attempt to grab a creature within 5 feet. You can order the golem to let go of a creature at any time (no action required).',
       ],
       [
-        'To break out, a ',
-        rules.restrained,
-        ' target can use its action to attempt a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC. On a success, it is no longer ',
+        'To break out, a restrained target can use its action to attempt a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC. On a success, it is no longer ',
         rules.restrained,
         '.',
       ],
@@ -2908,22 +2622,18 @@ export default createSpells({
         'You summon the power of the natural world to assault your foes. For the duration of the spell, all terrain within 60 feet of you is difficult terrain except for creatures you specify. When you cast the spell and as a bonus action on your subsequent turns, you can create one of the following effects, targeting any point you can see within 60 feet of you.',
       ],
       [
-        '•  Trees. A tree erupts from the ground and reaches out to rake your enemies with its branches. Each creature of your choice within 10 feet must succeed on a Dexterity saving throw or take 6d6 slashing damage.',
+        '• Trees. A tree erupts from the ground and reaches out to rake your enemies with its branches. Each creature of your choice within 10 feet must succeed on a Dexterity saving throw or take 6d6 slashing damage.',
       ],
       [
-        '•  Roots. Roots erupt from the ground, seizing creatures within a 10-foot radius. Each creature must make a Strength saving throw or become ',
+        '• Roots. Roots erupt from the ground, seizing creatures within a 10-foot radius. Each creature must make a Strength saving throw or become ',
         rules.restrained,
-        '. Any creature within 5 feet of a ',
-        rules.restrained,
-        ' creature can use an action to make a Strength (Athletics) check against your spell save DC, ending the effect on a success.',
+        '. Any creature within 5 feet of a restrained creature can use an action to make a Strength (Athletics) check against your spell save DC, ending the effect on a success.',
       ],
       [
-        '•  Rocks. You conjure a boulder and hurl it at a creature. Make a ranged spell attack. On a hit, the target takes 6d10 bludgeoning damage and is knocked ',
-        rules.prone,
-        ' if it is Large or smaller.',
+        '• Rocks. You conjure a boulder and hurl it at a creature. Make a ranged spell attack. On a hit, the target takes 6d10 bludgeoning damage and is knocked prone if it is Large or smaller.',
       ],
       [
-        '•  Wind. You summon a mighty gust. The gust takes the shape of a line 60 feet long and 20 feet wide, originating at a location you can see and traveling in a direction of your choice. All Large or smaller creatures within the area must succeed on a Strength saving throw or be swept 25 feet in the direction of the gust and knocked ',
+        '• Wind. You summon a mighty gust. The gust takes the shape of a line 60 feet long and 20 feet wide, originating at a location you can see and traveling in a direction of your choice. All Large or smaller creatures within the area must succeed on a Strength saving throw or be swept 25 feet in the direction of the gust and knocked ',
         rules.prone,
         '.',
       ],
@@ -3038,16 +2748,12 @@ export default createSpells({
     duration: 'Concentration, up to 3 rounds',
     text: [
       [
-        'You attempt to petrify a creature that you can see within range. If the target’s body is made of flesh, the creature must make a Constitution saving throw. If it fails its saving throw by 5 or more, the creature is instantly ',
-        rules.petrified,
-        '; otherwise, a creature that fails the save begins to turn to stone and is ',
+        'You attempt to petrify a creature that you can see within range. If the target’s body is made of flesh, the creature must make a Constitution saving throw. If it fails its saving throw by 5 or more, the creature is instantly petrified; otherwise, a creature that fails the save begins to turn to stone and is ',
         rules.restrained,
         '.',
       ],
       [
-        'A creature ',
-        rules.restrained,
-        ' by this spell must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends; if it fails its save, it is ',
+        'A creature restrained by this spell must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends; if it fails its save, it is ',
         rules.petrified,
         '.',
       ],
@@ -3075,15 +2781,15 @@ export default createSpells({
       [
         'You plant a debilitating phantasm into the mind of a creature you can see within range. The target must succeed on a Wisdom saving throw or it believes the phantasm to be real and capable of hindering and harming it. When you cast the spell, select one of the following options:',
       ],
-      ['•  ', rules.blinded, '. Your phantasm blocks the target’s sight, blinding it.'],
-      ['•  ', rules.restrained, '. Your phantasm entangles the target, restraining it.'],
+      ['• ', rules.blinded, '. Your phantasm blocks the target’s sight, blinding it.'],
+      ['• ', rules.restrained, '. Your phantasm entangles the target, restraining it.'],
       [
-        '•  Terrified. Your phantasm takes the form of the target’s greatest fears, making it ',
+        '• Terrified. Your phantasm takes the form of the target’s greatest fears, making it ',
         rules.frightened,
         '.',
       ],
       [
-        '•  Assailed. Your phantasm is real enough to cause harm. The target takes 2d10 psychic damage at the start of each of its turns.',
+        '• Assailed. Your phantasm is real enough to cause harm. The target takes 2d10 psychic damage at the start of each of its turns.',
       ],
       [
         'The target can repeat the saving throw at the end of each of its turns, ending the spell on a success.',
@@ -3125,9 +2831,7 @@ export default createSpells({
       [
         'You create horrifying illusions in the minds of creatures you can see. Select any number of creatures within 30 feet of a point you can see within range. Each target must make a Wisdom saving throw or become ',
         rules.frightened,
-        ' for the duration. While ',
-        rules.frightened,
-        ' in this way, at the start of a creature’s turn, it takes 6d10 psychic damage and must roll 1d10, suffering an effect from the table below. Unless noted, effects last until the start of the creature’s next turn.',
+        ' for the duration. While frightened in this way, at the start of a creature’s turn, it takes 6d10 psychic damage and must roll 1d10, suffering an effect from the table below. Unless noted, effects last until the start of the creature’s next turn.',
       ],
       ['d10 · Effect'],
       [
@@ -3177,9 +2881,7 @@ export default createSpells({
     duration: 'Special',
     text: [
       [
-        'You command up to three willing ',
-        rules.prone,
-        ' creatures of your choice that you can see within range to sleep. The spell ends for a target if it wakes up, such as through damage or being shaken awake as an action. If a target remains ',
+        'You command up to three willing prone creatures of your choice that you can see within range to sleep. The spell ends for a target if it wakes up, such as through damage or being shaken awake as an action. If a target remains ',
         rules.unconscious,
         ' for the full duration, that target gains the benefit of a short rest, and it can’t benefit from this spell again until it finishes a long rest. The spell’s duration is one-fifth the time normally required for a short rest (for example, 12 minutes for a one-hour rest).',
       ],
@@ -3210,9 +2912,7 @@ export default createSpells({
       ],
       ['3 · Fire · The target takes 3d6 fire damage.'],
       [
-        '4 · Force · The target takes 3d4 force damage and is knocked ',
-        rules.prone,
-        ' if it is Large or smaller.',
+        '4 · Force · The target takes 3d4 force damage and is knocked prone if it is Large or smaller.',
       ],
       [
         "5 · Lightning · The target takes 1d12 lightning damage and can't take reactions until the start of its next turn.",
@@ -3276,10 +2976,10 @@ export default createSpells({
         'You attempt to mentally manipulate a creature or object you can see within range. Choose one of the following effects:',
       ],
       [
-        '•  Creature. You attempt to move a Huge or smaller creature, including yourself. The creature must make a Strength saving throw. A creature can willingly fail this save. On a failure, you move the creature up to 30 feet in any direction within the spell’s range, and you may restrain the creature until the end of your next turn.',
+        '• Creature. You attempt to move a Huge or smaller creature, including yourself. The creature must make a Strength saving throw. A creature can willingly fail this save. On a failure, you move the creature up to 30 feet in any direction within the spell’s range, and you may restrain the creature until the end of your next turn.',
       ],
       [
-        '•  Object. You attempt to move an object that weighs up to 1,000 pounds and can exert fine control on it. If the object isn’t being worn or carried, you move it up to 30 feet in any direction within the spell’s range. If the object is worn or carried by a creature, the creature must make a Strength saving throw. On a failure, you pull the object away from that creature and can move it up to 30 feet in any direction within the spell’s range.',
+        '• Object. You attempt to move an object that weighs up to 1,000 pounds and can exert fine control on it. If the object isn’t being worn or carried, you move it up to 30 feet in any direction within the spell’s range. If the object is worn or carried by a creature, the creature must make a Strength saving throw. On a failure, you pull the object away from that creature and can move it up to 30 feet in any direction within the spell’s range.',
       ],
       ['A creature or object moved into mid-air will hover until the end of your next turn.'],
       [
@@ -3326,13 +3026,6 @@ export default createSpells({
       [
         'The creature is under your control for 24 hours, after which it becomes hostile to you and all living things. You can control a number of minions up to your proficiency bonus through this spell, but their combined challenge rating cannot exceed 3, and you must wait 24 hours after creating one before you can create another. If you cast the spell while you have any controlled reanimated servants, you may renew the duration of their control rather than creating a new one.',
       ],
-      [
-        'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the target’s maximum challenge rating and the combined maximum challenge rating of your minions both increase by 1 for each slot level above 3rd. When you cast this spell using a spell slot of 4th level or higher, you can also reanimate beast corpses. If you use a slot of 5th level or higher, you can reanimate giant or monstrosity corpses.\n\n<h5>Skeleton Template</h5>When reanimated as a skeleton, a creature receives the following modifications:g <ul><li>Its type becomes Undead.g</li> <li>Its Strength becomes 10 if it was lower.g</li> <li>Its Dexterity becomes 14 if it was lower.</li><li>Its Constitution becomes 15, Its Intelligence becomes 6, its Wisdom becomes 8, and its Charisma becomes 5.</li><li>It gains vulnerability to bludgeoning damage, immunity to poison damage, and immunity to the exhaustion and ',
-        rules.poisoned,
-        ' conditions.</li><li>It has 60-foot darkvision.</li><li>Its hit points become 13 if they were lower than 13.</li><li>Its challenge rating becomes 1/4 if it was lower than 1/4.</li></ul>A reanimated creature retains its weapon and armor proficiencies and any damage resistances or immunities. It loses all languages, but can understand its creator’s speech. It retains any natural weapon attacks. Other features are generally lost, but may be retained at your GM’s discretion. <h5>Zombie Template</h5> \nWhen reanimated as a zombie, a creature receives the following modifications:\n <ul>\n<li>Its type becomes Undead.</li>\n<li>Its Strength becomes 13 if it was lower.</li>\n<li>Its Dexterity becomes 6 if it was higher.</li>\n<li>Its Constitution becomes 16, Its Intelligence becomes 3, its Wisdom becomes 6, and its Charisma becomes 5.</li>\n<li>Its speed is reduced by 10 feet.</li>\n<li>It gains immunity to poison damage, and immunity to the ',
-        rules.poisoned,
-        ' condition.</li>\n<li>It has 60-foot darkvision.</li>\n<li>Its hit points become 22 if they were lower than 22.</li>\n<li>Its challenge rating becomes 1/4 if it was lower than 1/4.</li>\n<li>It gains the trait: <strong>Undead Fortitude</strong>. If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</li>\n</ul>\nA reanimated creature retains its weapon and armor proficiencies and any damage resistances or immunities. It loses all languages, but can understand its creator’s speech. It retains any natural weapon attacks. Other features are generally lost, but may be retained at your GM’s discretion.\n\n<blockquote>Note that if applied to commoners or other minimal-threat humanoids, these will produce ordinary skeletons and zombies.</blockquote>',
-      ],
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -3354,19 +3047,6 @@ export default createSpells({
       ],
       [
         'The targets are under your control for 24 hours, after which they become hostile to you and all living things. You can control a number of minions up to your proficiency bonus through this spell, but their combined challenge rating cannot exceed 10. You can cast this spell without any targets to renew the duration of control on all your current minions, as well as any created through reanimation. Minions created through reanimation also count towards the challenge rating limit of 10.',
-      ],
-      [
-        'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the target’s maximum challenge rating and the combined maximum challenge rating of your minions both increase by 1 for each slot level above 3rd. When you cast this spell using a spell slot of 4th level or higher, you can also reanimate beast corpses. If you use a slot of 5th level or higher, you can reanimate giant or monstrosity corpses.\n\n<h5>Skeleton Template</h5>When reanimated as a skeleton, a creature receives the following modifications:g <ul><li>Its type becomes Undead.g</li> <li>Its Strength becomes 10 if it was lower.g</li> <li>Its Dexterity becomes 14 if it was lower.</li><li>Its Constitution becomes 15, Its Intelligence becomes 6, its Wisdom becomes 8, and its Charisma becomes 5.</li><li>It gains vulnerability to bludgeoning damage, immunity to poison damage, and immunity to the exhaustion and ',
-        rules.poisoned,
-        ' conditions.</li><li>It has 60-foot darkvision.</li><li>Its hit points become 13 if they were lower than 13.</li><li>Its challenge rating becomes 1/4 if it was lower than 1/4.</li></ul>A reanimated creature retains its weapon and armor proficiencies and any damage resistances or immunities. It loses all languages, but can understand its creator’s speech. It retains any natural weapon attacks. Other features are generally lost, but may be retained at your GM’s discretion. <h5>Zombie Template</h5> \nWhen reanimated as a zombie, a creature receives the following modifications:\n <ul>\n<li>Its type becomes Undead.</li>\n<li>Its Strength becomes 13 if it was lower.</li>\n<li>Its Dexterity becomes 6 if it was higher.</li>\n<li>Its Constitution becomes 16, Its Intelligence becomes 3, its Wisdom becomes 6, and its Charisma becomes 5.</li>\n<li>Its speed is reduced by 10 feet.</li>\n<li>It gains immunity to poison damage, and immunity to the ',
-        rules.poisoned,
-        ' condition.</li>\n<li>It has 60-foot darkvision.</li>\n<li>Its hit points become 22 if they were lower than 22.</li>\n<li>Its challenge rating becomes 1/4 if it was lower than 1/4.</li>\n<li>It gains the trait: <strong>Undead Fortitude</strong>. If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</li>\n</ul>\nA reanimated creature retains its weapon and armor proficiencies and any damage resistances or immunities. It loses all languages, but can understand its creator’s speech. It retains any natural weapon attacks. Other features are generally lost, but may be retained at your GM’s discretion.\n<h5>Ghoul Template</h5>\nWhen reanimated as a ghoul, a creature receives the following modifications:\n<ul>\n<li>Its type becomes Undead.</li>\n<li>Its Strength becomes 13 if it was lower.</li>\n<li>Its Dexterity becomes 15 if it was lower.</li>\n<li>Its Constitution becomes 10, Its Intelligence becomes 7, its Wisdom becomes 10, and its Charisma becomes 6.</li>\n<li>It gains immunity to poison damage, and immunity to the ',
-        rules.charmed,
-        ', exhaustion, and ',
-        rules.poisoned,
-        ' conditions.</li>\n<li>It has 60-foot darkvision.</li>\n<li>Its hit points become 22 if they were lower than 22.</li>\n<li>Its challenge rating becomes 1 if it was lower than 1.</li>\n<li>It gains a bite attack, which deals 2d6 damage on a hit.</li>\n<li>It gains a claw attack, which deals 2d4 damage on a hit and can use its Dexterity modifier in place of Strength. Additionally, once on each of its turns when it hits with this attack, it can force the target to make a DC 10 Constitution saving throw or be ',
-        rules.paralyzed,
-        ' for one minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. Elves and the undead are immune to this effect.</li>\n</ul>\nA reanimated creature retains its weapon and armor proficiencies and any damage resistances or immunities. It loses all languages, but can understand its creator’s speech. It retains any natural weapon attacks. Other features are generally lost, but may be retained at your GM’s discretion.\n\n<blockquote>Note that if applied to commoners or other minimal-threat humanoids, these will produce ordinary skeletons, zombies, and ghouls.</blockquote>',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -3485,9 +3165,7 @@ export default createSpells({
     duration: 'Until dispelled',
     text: [
       [
-        'You touch up to 8 willing creatures or objects, hiding each target for the duration. You can turn each target ',
-        rules.invisible,
-        ' or into an object of the same size, such as a statue or full-length portrait.',
+        'You touch up to 8 willing creatures or objects, hiding each target for the duration. You can turn each target invisible or into an object of the same size, such as a statue or full-length portrait.',
       ],
       [
         'Divination spells can’t locate or perceive the target. A creature is ',
@@ -3578,9 +3256,7 @@ export default createSpells({
     duration: '10 days',
     text: [
       [
-        'You pen a secret message on a parchment, paper, or other writing material. When you write the message, choose a password or passphrase; when a creature speaks this code while holding the parchment, the secret message appears for 10 minutes before fading again. Alternatively, you can specify a creature. The message automatically appears when it holds the parchment. You can write any other text on the parchment, which becomes ',
-        rules.invisible,
-        ' anytime the secret message is displayed. When the spell ends, the secret message disappears forever.',
+        'You pen a secret message on a parchment, paper, or other writing material. When you write the message, choose a password or passphrase; when a creature speaks this code while holding the parchment, the secret message appears for 10 minutes before fading again. Alternatively, you can specify a creature. The message automatically appears when it holds the parchment. You can write any other text on the parchment, which becomes invisible anytime the secret message is displayed. When the spell ends, the secret message disappears forever.',
       ],
       [
         'Creatures with truesight can see the secret message. A dispel magic cast on the parchment ends the spell without revealing the secret message.',
@@ -3605,15 +3281,15 @@ export default createSpells({
         'You seize control of the air in a cube up to 300 feet on a side you can see within range, bending it to your will. Choose one of the following effects. The effect persists until the spell ends, or until you use your action to pause it or change it to a different effect. You can resume a paused effect as an action.',
       ],
       [
-        '•  Gale. A steady wind blows in a horizontal direction of your choice. Every foot of movement against the wind costs 2 extra feet, and ranged attacks made against the wind automatically miss. Creatures moving with the wind can move 1 extra foot for each foot of movement spent. When a creature or projectile moves within the area, you can use your reaction to change the wind’s direction. As a bonus action, you can create a gust. All creatures within the area must succeed on a Strength saving throw or be pushed 30 feet in the wind’s direction.',
+        '• Gale. A steady wind blows in a horizontal direction of your choice. Every foot of movement against the wind costs 2 extra feet, and ranged attacks made against the wind automatically miss. Creatures moving with the wind can move 1 extra foot for each foot of movement spent. When a creature or projectile moves within the area, you can use your reaction to change the wind’s direction. As a bonus action, you can create a gust. All creatures within the area must succeed on a Strength saving throw or be pushed 30 feet in the wind’s direction.',
       ],
       [
-        '•  Turbulence. You whip the wind into a chaotic vortex. Ranged attacks passing through the wind are made with disadvantage. Any creature that flies into the wind’s area, starts its turn flying there, or takes flight there has its flying speed halved, and must succeed on a Strength saving throw or be knocked ',
+        '• Turbulence. You whip the wind into a chaotic vortex. Ranged attacks passing through the wind are made with disadvantage. Any creature that flies into the wind’s area, starts its turn flying there, or takes flight there has its flying speed halved, and must succeed on a Strength saving throw or be knocked ',
         rules.prone,
         '.',
       ],
       [
-        '•  Thermal Column. You direct the wind to blow upwards. All creatures suffering fall damage within the wind can reduce that damage by five times your spellcasting ability modifier. When a creature within the wind makes a vertical jump, its jump height is tripled.',
+        '• Thermal Column. You direct the wind to blow upwards. All creatures suffering fall damage within the wind can reduce that damage by five times your spellcasting ability modifier. When a creature within the wind makes a vertical jump, its jump height is tripled.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -3728,9 +3404,7 @@ export default createSpells({
     duration: 'Until dispelled',
     text: [
       [
-        'Your body falls ',
-        rules.unconscious,
-        ' as your soul enters the spell’s material component. You perceive from the component using your senses, but can’t move or use reactions. You can only use your action to project your soul up to 100 feet, either to return to your living body (ending the spell) or to try to possess a humanoid’s body that you can see. Creatures warded by a protection from evil and good or circle of protection spell can’t be possessed.',
+        'Your body falls unconscious as your soul enters the spell’s material component. You perceive from the component using your senses, but can’t move or use reactions. You can only use your action to project your soul up to 100 feet, either to return to your living body (ending the spell) or to try to possess a humanoid’s body that you can see. Creatures warded by a protection from evil and good or circle of protection spell can’t be possessed.',
       ],
       [
         'The target must make a Charisma saving throw. On a failure, its soul is trapped in the component, and you take control of its body. You use its physical statistics and features, but retain your alignment and mental ability scores, and your GM determines which mental features you may use. You can use your action to return to the component if it is within 100 feet, returning the target creature’s soul to its body. If the target succeeds at its Charisma saving throw, you can’t attempt to possess it again for 24 hours.',
@@ -3788,9 +3462,7 @@ export default createSpells({
         'The knowledge, awareness, and personality of a beast is limited by its intelligence, but you may deceive, intimidate, persuade, or otherwise influence a beast at the GM’s discretion. A creature is under no compulsion to answer (or answer truthfully) if you are hostile to it, or it recognizes you as an enemy.',
       ],
       [
-        'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you imbue plants with limited sentience, allowing you to communicate with them like beasts. When you cast this spell using a spell slot of 3rd level or higher, you imbue plants with limited animation, allowing them to freely move branches, tendrils, and stalks. You can command plants to release a ',
-        rules.restrained,
-        ' creature, to turn ordinary terrain into difficult terrain (or the opposite), or to perform other tasks at the GM’s discretion.',
+        'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you imbue plants with limited sentience, allowing you to communicate with them like beasts. When you cast this spell using a spell slot of 3rd level or higher, you imbue plants with limited animation, allowing them to freely move branches, tendrils, and stalks. You can command plants to release a restrained creature, to turn ordinary terrain into difficult terrain (or the opposite), or to perform other tasks at the GM’s discretion.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -3834,9 +3506,7 @@ export default createSpells({
         'You can refine the trigger by specifying or exempting creatures or creature types, or by specifying a password a creature can speak as a reaction to prevent the glyph from triggering.',
       ],
       [
-        'The glyph is nearly ',
-        rules.invisible,
-        ' and requires a successful Intelligence (Investigation) check against your spell save DC to be found. A creature has advantage on this check if it is able to perceive magical effects, such as by casting detect magic. If a creature uses its action to destroy the glyph, or the surface is destroyed, the spell ends without triggering.',
+        'The glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found. A creature has advantage on this check if it is able to perceive magical effects, such as by casting detect magic. If a creature uses its action to destroy the glyph, or the surface is destroyed, the spell ends without triggering.',
       ],
       [
         'As part of the casting, you must cast another prepared spell of 3rd level or lower, storing it in the glyph. The spell must have a casting time of 1 action and must be able to target a creature other than the caster. When the glyph triggers, it releases the stored spell, targeting the triggering creature. If the spell targets an area or summons creatures, the effect is centered on the triggering creature. A spell requiring concentration lasts for its full duration. A triggered glyph glows brightly for the stored spell’s full duration. If a creature uses its action to destroy the triggered glyph, or the surface is destroyed, the spell ends.',
@@ -3918,13 +3588,13 @@ export default createSpells({
         'You lay your hand on an outcropping of rock or a stone wall and speak to the stone, coaxing it to grant a mighty boon. Choose one of the following options:',
       ],
       [
-        '•  Stone Meld. You and up to 7 other Large or smaller creatures you choose are able to meld with the stone. Until the end of your next round, each willing creature can touch a 5-foot area of the stone and be absorbed into it. While absorbed, a creature cannot see or hear anything, but has tremorsense within 30 feet. A creature may exit the stone voluntarily as an action, or be ejected if the stone is destroyed or the spell ends.',
+        '• Stone Meld. You and up to 7 other Large or smaller creatures you choose are able to meld with the stone. Until the end of your next round, each willing creature can touch a 5-foot area of the stone and be absorbed into it. While absorbed, a creature cannot see or hear anything, but has tremorsense within 30 feet. A creature may exit the stone voluntarily as an action, or be ejected if the stone is destroyed or the spell ends.',
       ],
       [
-        '•  Stone Armor. The stone joins with you, covering your body in a rocky exterior. You gain 10 temporary hit points and have resistance to nonmagical damage as long as you have these temporary hit points.',
+        '• Stone Armor. The stone joins with you, covering your body in a rocky exterior. You gain 10 temporary hit points and have resistance to nonmagical damage as long as you have these temporary hit points.',
       ],
       [
-        '•  Stone Step. Your feet blend into the stone. You gain tremorsense within 30 feet, and as long as you are standing on the ground, you are immune to the ',
+        '• Stone Step. Your feet blend into the stone. You gain tremorsense within 30 feet, and as long as you are standing on the ground, you are immune to the ',
         rules.prone,
         ' condition or to being moved against your will.',
       ],
@@ -3993,11 +3663,6 @@ export default createSpells({
       [
         'The creature is an ally to you and your companions. In combat, it shares your initiative count, and takes its turn immediately after yours. It obeys your verbal commands. If you don’t issue any command, it takes the Dodge action and moves only to avoid hazards.',
       ],
-      [
-        "At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, certain values increase in its stat block.\n\n* * *\n\n## Animal Spirit\n\nMedium beast, unaligned\n\n* * *\n\n -  Armor Class 12 + the level of the spell (natural armor)\n- Hit Points 15 (Sky) or 25 (Earth & Sea) + 5 for each spell level above 2nd\n- Speed (Earth) 30 ft., climb 30 ft.\n- Speed (Sea) 10 ft., swim 30 ft.\n- Speed (Sky) 15 ft., fly 60 ft.\n\n* * *\n\n| STR | DEX | CON | INT | WIS | CHA |\n| --- | --- | --- | --- | --- | --- |\n| 16 (+3) | 12 (+1) | 16 (+3) | 4 (-3) | 14 (+2) | 8 (-1) |\n\n* * *\n\n -  Senses darkvision 60 ft., passive Perception 12\n- Languages understands the languages you speak\n- Proficiency equals your bonus\n\n* * *\n\nFlyby (Sky Only). The animal doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.\n\nPack Tactics (Earth Only). The animal has advantage on attacks against enemies within 5 feet of an ally who isn't ",
-        rules.incapacitated,
-        ".\n\nBlood in the Water (Sea Only). The animal has advantage on attacks against enemies below their maximum hit points.\n\nWater Breathing (Sea Only). The animal can breathe underwater.\n\n* * *\n\n<h3>Actions</h3>\n<em><strong>Multiattack.</strong></em> The animal makes a number of attacks equal to half this spell's level (rounded down).\n<em><strong>Maul (Earth and Sea Only).</strong></em> <em>Melee Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., one target. <em>Hit:</em> 1d6+3 + the spell's level piercing damage.\n<em><strong>Talons (Sky Only).</strong></em> <em>Melee Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., one target. <em>Hit:</em> 1d4+1 + the spell's level slashing damage.",
-      ],
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -4017,21 +3682,6 @@ export default createSpells({
       [
         'The creature is an ally to you and your companions. In combat, it shares your initiative count, and takes its turn immediately after yours. It obeys your verbal commands. If you don’t issue any command, it takes the Dodge action and moves only to avoid hazards.',
       ],
-      [
-        'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, certain values increase in its stat block.\n\n## Golem Spirit\n\nMedium construct\n\n* * *\n\n -  Armor Class 11 + the level of the spell (natural armor, Flesh) or 13 + the level of the spell (natural armor, Iron & Stone)\n- Hit Points 50 + 15 for each spell level above 4th (Flesh) or 35 + 10 for each spell level above 4th (Iron & Stone)\n- Speed 30 ft.\n\n* * *\n\n| STR | DEX | CON | INT | WIS | CHA |\n| --- | --- | --- | --- | --- | --- |\n| 18 (+4) | 10 (0) | 16 (+3) | 6 (-2) | 10 (0) | 10 (0) |\n\n* * *\n\n -  Condition Immunities ',
-        rules.charmed,
-        ', exhaustion, ',
-        rules.frightened,
-        ', ',
-        rules.paralyzed,
-        ', ',
-        rules.petrified,
-        ', ',
-        rules.poisoned,
-        "\n- Damage Immunities (Flesh Only) Lightning\n- Damage Immunities (Iron Only) Fire\n- Senses passive Perception 10\n- Languages understands the languages you speak\n- Proficiency equals your bonus\n\n* * *\n\nDissolving Rage (Flesh Only). When the golem starts its turn below half its maximum hit points, it goes berserk. It gains advantage on all its attacks, but loses 5 hit points at the end of its turn if it does not attack anything.\n\nSlowing Smash (Stone Only). Once per turn when the golem hits a creature with an attack, it can force the target to make a Wisdom saving throw against your spell save DC. On a failure, the target's speed is halved and it can no longer take reactions until the end of its next turn.\n\n* * *\n\n<h3>Actions</h3>\n<em><strong>Multiattack.</strong></em> The golem makes a number of attacks equal to half this spell's level (rounded down). Only one can be a Poisonous Gas attack, if available.\n<em><strong>Slam.</strong></em> <em>Melee Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., one target. <em>Hit</em>: 1d8 + 4 + the spell's level bludgeoning damage.\n<em><strong>Poisonous Gas (Iron Only)</strong></em>. All other creatures within 5 feet must make a Constitution saving throw against your spell save DC. On a failure, they take 1d12 + the spell's level poison damage and are ",
-        rules.poisoned,
-        ' until the end of their next turn.',
-      ],
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -4050,23 +3700,6 @@ export default createSpells({
       ],
       [
         'The creature is an ally to you and your companions. In combat, the creature shares your initiative count, and it takes its turn immediately after yours. It obeys your verbal commands. If you don’t issue a command, it takes the Dodge action and moves only to avoid hazards.',
-      ],
-      [
-        'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, certain values increase in its stat block.\n\n## Grave Spirit\n\nMedium undead\n\n* * *\n\n -  Armor Class 10 + the level of the spell (natural armor)\n- Hit Points 15 (Ethereal) or 25 (Ghoulish & Bone) + 10 for each spell level above 3rd\n- Speed (Ghoulish & Bone) 30 ft.\n- Speed (Ethereal) 20 ft. fly\n\n* * *\n\n| STR | DEX | CON | INT | WIS | CHA |\n| --- | --- | --- | --- | --- | --- |\n| 16 (+3) | 14 (+2) | 14 (+2) | 6 (-2) | 10 (+0) | 8 (-1) |\n\n* * *\n\n -  Damage Immunities necrotic, poison\n- Condition Immunities exhaustion, ',
-        rules.frightened,
-        ', ',
-        rules.paralyzed,
-        ', ',
-        rules.poisoned,
-        '\n- Senses darkvision 60 ft., passive Perception 11\n- Languages understands the languages you speak\n- Proficiency equals your bonus\n\n* * *\n\nGhostly Movement (Ethereal Only). The spirit can move through creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it appears in the nearest unoccupied space and takes 1d10 force damage for every 5 feet traveled.\n\nTerrifying Grasp (Ethereal Only). Once on its turn when it hits an enemy with a melee attack, the spirit can force the target to make a Wisdom saving throw against your spell save DC or become ',
-        rules.frightened,
-        " until the end of its next turn.\n\nRevive From Bones (Bone Only). When reduced to 0 hp by anything other than a critical hit or bludgeoning, force, or radiant damage, the spirit leaves its bones behind instead of disappearing. As a bonus action, you can revive it at 1 hit point.\n\n* * *\n\n<h3>Actions</h3>\n<em><strong>Multiattack.</strong></em> The spirit makes a number of attacks equal to half this spell's level (rounded down).\n<em><strong>Deathly Chill (Ethereal Only).</strong></em> <em>Melee Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., one target. <em>Hit:</em> 1d4 + 2 + the spell's level necrotic damage.\n<em><strong>Bone Arrow (Bone Only).</strong></em> <em>Ranged Weapon Attack:</em> your spell attack modifier to hit, range 80/320, one target. <em>Hit:</em> 1d6 + 2 + the spell's level piercing damage.\n<em><strong>Vile Claws (Ghoulish Only).</strong></em> <em>Melee Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 + 3 + the spell's level slashing damage. The target must make a Constitution saving throw against your spell save DC or become ",
-        rules.poisoned,
-        ' until the end of its next turn. If the target is already ',
-        rules.poisoned,
-        ', they are ',
-        rules.paralyzed,
-        ' instead.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -4112,9 +3745,7 @@ export default createSpells({
         '. On a success, it suffers half as much damage and no other effects.',
       ],
       [
-        'At the end of each of a ',
-        rules.stunned,
-        ' creature’s turns, it rolls 1d6. Its Intelligence score is reduced by an amount equal to the roll. The creature then repeats the saving throw using its original intelligence score, gaining a bonus to the roll equal to the total amount its Intelligence score has been reduced. On a success, it is no longer ',
+        'At the end of each of a stunned creature’s turns, it rolls 1d6. Its Intelligence score is reduced by an amount equal to the roll. The creature then repeats the saving throw using its original intelligence score, gaining a bonus to the roll equal to the total amount its Intelligence score has been reduced. On a success, it is no longer ',
         rules.stunned,
         '. If a creature’s Intelligence is reduced to 0, it dies.',
       ],
@@ -4166,21 +3797,21 @@ export default createSpells({
         'As long as you maintain concentration on the spell, you can use your action to intensify the storm. You can add one of the following effects to the storm, which lasts for the duration. Adding an effect does not remove prior effects, though most effects can be added only once.',
       ],
       [
-        '•  Lightning. Lightning strikes rain down. As a bonus action, you can designate two points below the cloud to be struck by lightning. All creatures within a 10-foot radius of either point must make a Dexterity saving throw, taking 4d12 lightning damage on a failure or half as much on a success.',
+        '• Lightning. Lightning strikes rain down. As a bonus action, you can designate two points below the cloud to be struck by lightning. All creatures within a 10-foot radius of either point must make a Dexterity saving throw, taking 4d12 lightning damage on a failure or half as much on a success.',
       ],
       [
-        '•  Downpour. Torrential rain falls. The storm’s entire area becomes difficult terrain, and heavily obscured to every creature except you.',
+        '• Downpour. Torrential rain falls. The storm’s entire area becomes difficult terrain, and heavily obscured to every creature except you.',
       ],
       [
-        '•  Hurricane. Gusting winds whip with brutal ferocity. Ranged weapon attacks in the area automatically miss. Every Huge or smaller creature starting its turn below the cloud must succeed on a Strength saving throw or be thrown 30 feet in a random direction and knocked ',
+        '• Hurricane. Gusting winds whip with brutal ferocity. Ranged weapon attacks in the area automatically miss. Every Huge or smaller creature starting its turn below the cloud must succeed on a Strength saving throw or be thrown 30 feet in a random direction and knocked ',
         rules.prone,
         '.',
       ],
       [
-        '•  Hailstorm. Icy stones rain down. Each creature starting its turn below the cloud takes 2d10 bludgeoning damage. Any creature below the cloud has disadvantage on saving throws it makes to maintain concentration.',
+        '• Hailstorm. Icy stones rain down. Each creature starting its turn below the cloud takes 2d10 bludgeoning damage. Any creature below the cloud has disadvantage on saving throws it makes to maintain concentration.',
       ],
       [
-        '•  Expansion. You can move the storm 120 feet or increase its radius by 60 feet. You can add this effect any number of times.',
+        '• Expansion. You can move the storm 120 feet or increase its radius by 60 feet. You can add this effect any number of times.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -4266,11 +3897,7 @@ export default createSpells({
       [
         'When a creature enters the twister on its turn or starts its turn there, it must make a Strength saving throw. On a failure, it takes 10d6 bludgeoning damage, and a Large or smaller creature is sucked up into the twister and ',
         rules.restrained,
-        '. ',
-        rules.restrained,
-        ' creatures move with the twister when it moves and are carried vertically 25 feet each round toward the twister’s center. At the end of each of its turns, a ',
-        rules.restrained,
-        ' creature can repeat the saving throw. On a success, it is hurled 60 feet horizontally out of the twister in a random direction.',
+        '. Restrained creatures move with the twister when it moves and are carried vertically 25 feet each round toward the twister’s center. At the end of each of its turns, a restrained creature can repeat the saving throw. On a success, it is hurled 60 feet horizontally out of the twister in a random direction.',
       ],
       [
         'The twister’s area is lightly obscured, and ranged attacks that pass through the twister automatically miss.',
@@ -4289,9 +3916,7 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'You plant an unquenchable rage in the mind of one humanoid you can see within range. The target must succeed on a Wisdom saving throw or become ',
-        rules.charmed,
-        ' by you, its eyes glowing with a fiery light. When you cast the spell and as an action on subsequent turns, you can activate this rage.',
+        'You plant an unquenchable rage in the mind of one humanoid you can see within range. The target must succeed on a Wisdom saving throw or become charmed by you, its eyes glowing with a fiery light. When you cast the spell and as an action on subsequent turns, you can activate this rage.',
       ],
       [
         'If you activate a target’s rage, it must move up to its speed at the start of its turn towards the nearest creature and use its action to make one melee attack against that creature. If you don’t activate its rage or it can’t reach another creature with its movement, the target takes its turn as normal. The target can repeat the saving throw at the end of each of its turns, ending the spell on a success.',
@@ -4338,9 +3963,7 @@ export default createSpells({
       [
         'When you cast the spell, designate any number of creatures you can see as the sentry’s allies. The sentry is ',
         rules.invisible,
-        ' to everyone except its allies, and if any other creature of challenge rating 1/4 or higher comes within 60 feet of it, it calls out an alarm. It can see ',
-        rules.invisible,
-        ' creatures, see into the Ethereal Plane, and cannot be deceived by illusions.',
+        ' to everyone except its allies, and if any other creature of challenge rating 1/4 or higher comes within 60 feet of it, it calls out an alarm. It can see invisible creatures, see into the Ethereal Plane, and cannot be deceived by illusions.',
       ],
       [
         'As an action on your turn, you may direct the sentry to attack a target you can see within 100 feet of its original location. It can move up to 30 feet, and attack a creature within 5 feet of it. Make a melee spell attack. On a hit, it deals 4d8 force damage. If you are ',
@@ -4429,13 +4052,13 @@ export default createSpells({
         'When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one:',
       ],
       [
-        '•  Dowsing. The pendulum tugs in a direction with increasing urgency as you near your destination, informing you of its distance and direction.',
+        '• Dowsing. The pendulum tugs in a direction with increasing urgency as you near your destination, informing you of its distance and direction.',
       ],
       [
-        '•  Ascertainment. Whenever you are presented with a choice of paths along the way to the destination, the pendulum points towards the shortest and most direct route (ignoring safety).',
+        '• Ascertainment. Whenever you are presented with a choice of paths along the way to the destination, the pendulum points towards the shortest and most direct route (ignoring safety).',
       ],
       [
-        '•  Forecast. The mirror displays images of the next 30 miles on the path to the destination, granting a general awareness of natural hazards or obstacles, such as decaying bridges or cliffs.',
+        '• Forecast. The mirror displays images of the next 30 miles on the path to the destination, granting a general awareness of natural hazards or obstacles, such as decaying bridges or cliffs.',
       ],
     ],
     publication: refs.publications.spells_that_dont_suck,
@@ -4492,28 +4115,16 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'You create a swirling ball of water in a 10-foot radius at a point on the ground or in water you can see within range. Any creature that enters the sphere on its turn or starts its turn in it must succeed on a Strength saving throw or be ',
-        rules.restrained,
-        ' and trapped within the water. At the start of each of its turns, a ',
-        rules.restrained,
-        ' target can repeat the saving throw, ending the effect on a success. A Huge or smaller creature partially within the sphere makes its saving throw with advantage, while a Gargantuan creature automatically succeeds.',
+        'You create a swirling ball of water in a 10-foot radius at a point on the ground or in water you can see within range. Any creature that enters the sphere on its turn or starts its turn in it must succeed on a Strength saving throw or be restrained and trapped within the water. At the start of each of its turns, a restrained target can repeat the saving throw, ending the effect on a success. A Huge or smaller creature partially within the sphere makes its saving throw with advantage, while a Gargantuan creature automatically succeeds.',
       ],
       [
-        'As an action, you can cause the sphere to roll up to 30 feet, carrying all ',
-        rules.restrained,
-        ' creatures with it and dousing all nonmagical flame it passes through. If this causes a creature in the sphere to collide with a creature outside it, both creatures take 4d6 bludgeoning damage. ',
-        rules.restrained,
-        ' creatures are not affected by any terrain the sphere passes over.',
+        'As an action, you can cause the sphere to roll up to 30 feet, carrying all restrained creatures with it and dousing all nonmagical flame it passes through. If this causes a creature in the sphere to collide with a creature outside it, both creatures take 4d6 bludgeoning damage. Restrained creatures are not affected by any terrain the sphere passes over.',
       ],
       [
-        'As a bonus action, you can hurl a ',
-        rules.restrained,
-        ' creature out of the sphere. It is thrown 20 feet in a direction of your choice and takes 4d6 bludgeoning damage. If it collides with another creature, that creature must succeed on a Dexterity saving throw or take 4d6 bludgeoning damage.',
+        'As a bonus action, you can hurl a restrained creature out of the sphere. It is thrown 20 feet in a direction of your choice and takes 4d6 bludgeoning damage. If it collides with another creature, that creature must succeed on a Dexterity saving throw or take 4d6 bludgeoning damage.',
       ],
       [
-        'When the spell ends, creatures ',
-        rules.restrained,
-        ' by it fall ',
+        'When the spell ends, creatures restrained by it fall ',
         rules.prone,
         ', and all fires within 20 feet are extinguished. The water disappears afterward.',
       ],

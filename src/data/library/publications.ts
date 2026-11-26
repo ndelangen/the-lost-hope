@@ -335,14 +335,6 @@ export default createPublications({
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
   },
-  kobold_press_compilation: {
-    name: 'Kobold Press Compilation',
-    publisher: 'Kobold Press',
-    ruleset: '5e-2014',
-    license: 'ogl-1.0a',
-    notice:
-      'Kobold Press Compilation, as published by Open5e. © Open Design LLC d/b/a Kobold Press.',
-  },
   monster_manual_2014: {
     name: 'Monster Manual',
     publisher: 'Wizards of the Coast',
@@ -548,6 +540,15 @@ export default createPublications({
   turn_of_fortune_s_wheel: {
     name: "Turn of Fortune's Wheel",
     ruleset: '5e-2014',
+  },
+  vault_of_magic: {
+    name: 'Vault of Magic',
+    publisher: 'Kobold Press',
+    year: 2021,
+    ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice:
+      'Vault of Magic. © 2021 Open Design LLC; Authors: Phillip Larwood, Jeff Lee, and Christopher Lockey.',
   },
   volo_s_guide_to_monsters: {
     name: "Volo's Guide to Monsters",

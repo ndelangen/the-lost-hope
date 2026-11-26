@@ -154,6 +154,7 @@ export function getLibraryEntry(type: string, slug: string, dm: boolean, version
       status: dm ? selected.status : undefined,
       glossary,
       typed: selected.typed,
+      publication: selected.publication ?? selected.typed?.publication,
     },
     sections: [...(selected.player ?? []), ...(dm ? (selected.gm ?? []) : [])],
     abilityDisplay: dm ? selected.abilityDisplay : undefined,

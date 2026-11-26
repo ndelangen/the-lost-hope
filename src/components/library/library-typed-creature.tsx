@@ -1,3 +1,4 @@
+import { Link } from '@tanstack/react-router'
 import type { ReactNode } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
@@ -112,6 +113,14 @@ export function LibraryTypedCreature({
           </div>
           <p className="text-muted-foreground text-xs">Library rulings, not printed in the book.</p>
         </section>
+      ) : null}
+      {heldBy.notice ? (
+        <p className="text-muted-foreground text-xs">
+          {heldBy.notice}{' '}
+          <Link to="/library/licenses" className="underline">
+            Licenses
+          </Link>
+        </p>
       ) : null}
       {dm ? (
         <section className="bg-card rounded-xl border p-4 sm:p-6">

@@ -29,7 +29,7 @@ LICENSES={
   'deep_magic':('ogl-1.0a','Deep Magic for 5th Edition. © 2020 Open Design LLC; Authors: Dan Dillon, Chris Harris, and Jeff Lee.'),
   'deep_magic_extended':('ogl-1.0a','Deep Magic Extended. © Open Design LLC d/b/a Kobold Press.'),
   'tome_of_heroes':('ogl-1.0a','Tome of Heroes. © 2022 Open Design LLC; Authors: Kelly Pawlik, Ben McFarland, and Brian Suskind.'),
-  'kobold_press_compilation':('ogl-1.0a','Kobold Press Compilation, as published by Open5e. © Open Design LLC d/b/a Kobold Press.'),
+  'vault_of_magic':('ogl-1.0a','Vault of Magic. © 2021 Open Design LLC; Authors: Phillip Larwood, Jeff Lee, and Christopher Lockey.'),
   'warlock_zine':('ogl-1.0a','Warlock. © 2017 Open Design LLC; Authors: Wolfgang Baur and others.'),
   'tome_of_beasts':('ogl-1.0a','Tome of Beasts. © 2016 Open Design; Authors: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.'),
   'tome_of_beasts_2':('ogl-1.0a','Tome of Beasts 2. © 2020 Open Design LLC; Authors: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.'),
@@ -44,7 +44,7 @@ SPELL_PUBS={
   'deep_magic':('deep_magic','Deep Magic for 5th Edition','Kobold Press',2020,'5e-2014',None),
   'deep_magic_extended':('deep_magic_extended','Deep Magic Extended','Kobold Press',None,'5e-2014',None),
   'tome_of_heroes':('tome_of_heroes','Tome of Heroes','Kobold Press',2022,'5e-2014',None),
-  'kobold_press_compilation':('kobold_press_compilation','Kobold Press Compilation','Kobold Press',None,'5e-2014',None),
+  'vault_of_magic':('vault_of_magic','Vault of Magic','Kobold Press',2021,'5e-2014',None),
   'warlock_zine':('warlock_zine','Warlock','Kobold Press',2017,'5e-2014',None),
   'spells_that_dont_suck':('spells_that_dont_suck',"Spells That Don't Suck",'Somanyrobots',2025,'5e-2014',None),
 }
@@ -263,7 +263,7 @@ def main():
   open(os.path.join(outdir,'_index.ts'),'w').write('\n'.join(L))
   # publications
   L=["import { createPublications } from '#/definitions/library.ts'","","export default createPublications({"]
-  used={pk for pk in bypub}|{x for v in reprints.values() for x in v}|set(CORE)
+  used={pk for pk in bypub}|{x for v in reprints.values() for x in v}|set(CORE)|{'vault_of_magic'}
   # Spell books need their publication too (src/data/library/spells).
   spell_dir=os.path.join(REPO,'src/data/library/spells')
   for f in os.listdir(spell_dir):

@@ -2,9 +2,13 @@ import { useState } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { HoverPreview } from '#/components/ui/hover-preview'
-import { spellNames } from '#/data/generated/spell-names'
+import { spellBooks, spellNames } from '#/data/generated/spell-names'
 import type { EntityRef } from '#/definitions/kind'
 import type { Spell } from '#/definitions/library'
+
+const spellModules = import.meta.glob<{ default: Readonly<Record<string, Spell>> }>(
+  '/src/data/library/spells/*.ts',
+)
 
 /**
  * A spell named in rules text: hover, focus, or tap shows the full spell. Spell text loads on
@@ -15,10 +19,16 @@ export function SpellTerm({ spell: ref }: { spell: EntityRef<'spell'> }) {
   // The spell list loads the first time someone hovers or focuses a spell, not with the page.
   const load = () => {
     if (loaded) return
-    void import('#/lib/library-spells').then(({ spellOf, spellLevelLabel }) => {
-      const spell = spellOf(ref)
-      setLoaded({ spell, label: spellLevelLabel(spell) })
-    })
+    // Only the spell's own book loads, not every spell the library holds.
+    const book = spellBooks[ref.key]
+    const load = book ? spellModules[`/src/data/library/spells/${book}.ts`] : undefined
+    if (!load) return
+    void Promise.all([load(), import('#/lib/spell-level-label')]).then(
+      ([{ default: spells }, { spellLevelLabel }]) => {
+        const spell = spells[ref.key]
+        if (spell) setLoaded({ spell, label: spellLevelLabel(spell) })
+      },
+    )
   }
   const name = spellNames[ref.key] ?? ref.key
   return (

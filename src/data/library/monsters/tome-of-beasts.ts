@@ -3934,8 +3934,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'scimitar',
-            name: 'Scimitar',
+            key: 'scimitar-nkosi-form-only-form-only',
+            name: 'Scimitar (Nkosi Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiBroadsword',
             intent: 'damage',
@@ -3947,8 +3947,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'mambele-throwing-knife',
-            name: 'Mambele Throwing Knife',
+            key: 'mambele-throwing-knife-nkosi-form-only-form-only',
+            name: 'Mambele Throwing Knife (Nkosi Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiBatWing',
             intent: 'damage',
@@ -4041,8 +4041,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'scimitar',
-            name: 'Scimitar',
+            key: 'scimitar-nkosi-form-only-form-only',
+            name: 'Scimitar (Nkosi Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiBroadsword',
             intent: 'damage',
@@ -4054,8 +4054,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'mambele-throwing-knife',
-            name: 'Mambele Throwing Knife',
+            key: 'mambele-throwing-knife-nkosi-form-only-form-only',
+            name: 'Mambele Throwing Knife (Nkosi Form Only Form Only)',
             timing: 'action',
             icon: 'gi/GiBatWing',
             intent: 'damage',

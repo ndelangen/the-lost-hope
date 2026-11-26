@@ -124,11 +124,7 @@ export default createSpells({
     duration: 'Instantaneous',
     text: [
       [
-        'You emit a soul-shattering wail. Every creature within a 30-foot cone who hears the wail must make a Wisdom saving throw. Those that fail take 6d10 psychic damage and become ',
-        rules.frightened,
-        ' of you; a ',
-        rules.frightened,
-        " creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. Those that succeed take 3d10 psychic damage and aren't ",
+        "You emit a soul-shattering wail. Every creature within a 30-foot cone who hears the wail must make a Wisdom saving throw. Those that fail take 6d10 psychic damage and become frightened of you; a frightened creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. Those that succeed take 3d10 psychic damage and aren't ",
         rules.frightened,
         '. This spell has no effect on constructs and undead.',
       ],
@@ -155,7 +151,7 @@ export default createSpells({
     name: 'Borrowing',
     level: 3,
     school: 'necromancy',
-    classes: ['—'],
+    classes: ['Unlisted'],
     castingTime: 'Action',
     range: 'Touch',
     components: 'V, S, M',
@@ -353,9 +349,7 @@ export default createSpells({
     duration: '1 minute',
     text: [
       [
-        'Deep Magic: clockwork You target a construct and summon a plague of ',
-        rules.invisible,
-        ' spirits to harass it. The target resists the spell and negates its effect with a successful Wisdom saving throw. While the spell remains in effect, the construct has disadvantage on attack rolls, ability checks, and saving throws, and it takes 3d8 force damage at the start of each of its turns as it is magically disassembled by the spirits.',
+        'Deep Magic: clockwork You target a construct and summon a plague of invisible spirits to harass it. The target resists the spell and negates its effect with a successful Wisdom saving throw. While the spell remains in effect, the construct has disadvantage on attack rolls, ability checks, and saving throws, and it takes 3d8 force damage at the start of each of its turns as it is magically disassembled by the spirits.',
       ],
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th or higher, the damage increases by 1d8 for each slot above 4th.',
@@ -374,9 +368,7 @@ export default createSpells({
     duration: '1 minute',
     text: [
       [
-        'Deep Magic: clockwork You designate a spot within range, and massive gears emerge from the ground at that spot, creating difficult terrain in a 20-foot radius. Creatures that move in the area must make successful Dexterity saving throws after every 10 feet of movement or when they stand up. Failure indicates that the creature falls ',
-        rules.prone,
-        ' and takes 1d8 points of bludgeoning damage.',
+        'Deep Magic: clockwork You designate a spot within range, and massive gears emerge from the ground at that spot, creating difficult terrain in a 20-foot radius. Creatures that move in the area must make successful Dexterity saving throws after every 10 feet of movement or when they stand up. Failure indicates that the creature falls prone and takes 1d8 points of bludgeoning damage.',
       ],
     ],
     publication: refs.publications.deep_magic_extended,
@@ -472,9 +464,7 @@ export default createSpells({
     duration: '1 hour',
     text: [
       [
-        'You touch a willing creature and infuse it with ley energy, creating a bond between the creature and the land. For the duration of the spell, if the target is in contact with the ground, the target has advantage on saving throws and ability checks made to avoid being moved or knocked ',
-        rules.prone,
-        ' against its will. Additionally, the creature ignores nonmagical difficult terrain and is immune to effects from extreme environments such as heat, cold (but not cold or fire damage), and altitude.',
+        'You touch a willing creature and infuse it with ley energy, creating a bond between the creature and the land. For the duration of the spell, if the target is in contact with the ground, the target has advantage on saving throws and ability checks made to avoid being moved or knocked prone against its will. Additionally, the creature ignores nonmagical difficult terrain and is immune to effects from extreme environments such as heat, cold (but not cold or fire damage), and altitude.',
       ],
     ],
     publication: refs.publications.deep_magic_extended,
@@ -599,9 +589,7 @@ export default createSpells({
       [
         'You unleash the power of a ley line within 5 miles, releasing a spark that flares into a 30-foot sphere centered around a point within 150 feet of you. Each creature in the sphere takes 14d6 force damage and is ',
         rules.stunned,
-        ' for 1 minute; a successful Constitution saving throw halves the damage and negates the stun. A ',
-        rules.stunned,
-        ' creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. Special. A geomancer with a bound ley line can cast this spell as long as he or she is on the same plane as the bound line.',
+        ' for 1 minute; a successful Constitution saving throw halves the damage and negates the stun. A stunned creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. Special. A geomancer with a bound ley line can cast this spell as long as he or she is on the same plane as the bound line.',
       ],
     ],
     publication: refs.publications.deep_magic_extended,
@@ -855,7 +843,7 @@ export default createSpells({
     name: 'Risen Road',
     level: 4,
     school: 'transmutation',
-    classes: ['—'],
+    classes: ['Unlisted'],
     castingTime: '1 minute',
     range: '30 feet',
     components: 'V, S, M',
@@ -1001,7 +989,7 @@ export default createSpells({
     name: 'Strength of the Underworld',
     level: 3,
     school: 'necromancy',
-    classes: ['—'],
+    classes: ['Unlisted'],
     castingTime: 'Action',
     range: 'Touch',
     components: 'V, S, M',

@@ -55,3 +55,6 @@ bunx oxfmt src/data/library src/lib/published-library-catalog && bun run generat
 - `items_open5e.py <magicitems.json> <items.json>` (Open5e) gives items the rules Vault of Magic
   and the SRDs print, and adds the ones the catalog lacks; per-weapon copies of one magic item
   ("Flame Tongue Battleaxe", "… Club") with one text are kept once.
+- `md_text.py` turns Open5e's hard-wrapped markdown into plain paragraphs (tables one row per line).
+  Run `items_open5e.py` last, after `species_srd521.py`. The Kobold Press Compilation is left out:
+  Open5e lists it under Kobold Press's Community Use Policy, not only the OGL.

@@ -207,6 +207,14 @@ export type SpellKey = keyof typeof refs.spells
  * Each spell's printed name, so rules text shows a spell ref by name without loading the spell
  * list. Kept apart from the library refs so campaign pages carry only these few kilobytes.
  */
+/** The spell modules the registry lists. */
+async function spellModuleFiles() {
+  const registry = await readFile(path.join(LIBRARY_PATH, 'spells', '_index.ts'), 'utf8')
+  return [...registry.matchAll(/from '\.\/(?<file>[\w-]+)\.ts'/gu)].map(
+    ({ groups }) => groups!.file!,
+  )
+}
+
 /** Every spell module the registry lists, read as one text. */
 async function spellModulesSource() {
   const spellDir = path.join(LIBRARY_PATH, 'spells')
@@ -221,6 +229,12 @@ async function spellModulesSource() {
 }
 
 export async function generatedSpellNamesSource(): Promise<string> {
+  // Which module holds each spell, so a spell's text loads alone with its book.
+  const books: string[] = []
+  for (const file of await spellModuleFiles()) {
+    const text = await readFile(path.join(LIBRARY_PATH, 'spells', `${file}.ts`), 'utf8')
+    for (const key of libraryKeys(text, '  ')) books.push(`  ${key}: '${file}',`)
+  }
   const source = await spellModulesSource()
   const names = [...source.matchAll(/^ {2}([a-z0-9_]+): \{\n {4}name: (['"])(.+?)\2,$/gmu)].map(
     // Quoted as the formatter writes them, so the check compares like with like.
@@ -232,6 +246,11 @@ export async function generatedSpellNamesSource(): Promise<string> {
 
 export const spellNames: Readonly<Record<string, string>> = {
 ${names.join('\n')}
+}
+
+/** The spell module (src/data/library/spells) that holds each spell. */
+export const spellBooks: Readonly<Record<string, string>> = {
+${books.join('\n')}
 }
 `
 }
