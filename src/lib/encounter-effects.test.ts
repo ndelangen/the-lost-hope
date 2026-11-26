@@ -11,7 +11,7 @@ import {
   parseEncounter,
   type Encounter,
 } from './encounter'
-import type { EffectApplication } from './encounter-combat'
+import { damageReminders, type EffectApplication } from './encounter-combat'
 
 const wolf = { ref: 'beast', key: 'wolf' } as const
 const [w1, w2] = ['beast:wolf:1', 'beast:wolf:2']
@@ -151,5 +151,24 @@ describe('applied effects', () => {
     )
     expect(parsed.values[w1]?.conditions?.[0]?.condition).toBe('paralyzed')
     expect(parsed.values[w1]?.conditions?.[0]).not.toHaveProperty('origin')
+  })
+})
+
+describe('effects that react to damage', () => {
+  it('remembers what damage does, and reminds once per effect', () => {
+    const encounter = applyEffect(
+      fight(),
+      [w1],
+      { ...holdPerson, onDamage: { kind: 'save', dc: 13, ability: 'wis' } },
+      ids(),
+    )
+    expect(damageReminders(w1, encounter.values[w1])).toEqual([
+      {
+        combatant: w1,
+        effect: expect.objectContaining({ id: 'e1' }),
+        onDamage: { kind: 'save', dc: 13, ability: 'wis' },
+      },
+    ])
+    expect(damageReminders(w2, encounter.values[w2])).toEqual([])
   })
 })

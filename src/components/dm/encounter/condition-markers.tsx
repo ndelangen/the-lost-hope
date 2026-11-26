@@ -12,13 +12,21 @@ import {
   originName,
   type ActiveCondition,
   type AppliedEffect,
+  type OnDamage,
 } from '#/lib/encounter-combat'
-import { ruleRef } from '#/lib/rules'
+import { ruleRef, rules } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
 import { useDensity } from './density'
 
 const unnamedAbility = () => undefined
+
+/** "Damage calls for a DC 14 Wisdom save to end it." */
+function onDamageText(onDamage: OnDamage) {
+  return onDamage.kind === 'save'
+    ? `Damage calls for a DC ${onDamage.dc} ${rules[onDamage.ability].name} save to end it.`
+    : 'Damage ends it.'
+}
 const noEffects: readonly AppliedEffect[] = []
 
 /**
@@ -102,6 +110,9 @@ export function ConditionMarkers({
                   <span className="text-muted-foreground">
                     {describeDuration(effect.duration, nameOf)}
                   </span>
+                  {effect.onDamage ? (
+                    <span className="text-muted-foreground">{onDamageText(effect.onDamage)}</span>
+                  ) : null}
                 </>
               }
             >
@@ -143,6 +154,11 @@ export function ConditionMarkers({
                       <span className="text-muted-foreground">
                         From {describeOrigin(effectOf(held)!.origin, names)}
                       </span>
+                      {effectOf(held)!.onDamage ? (
+                        <span className="text-muted-foreground">
+                          {onDamageText(effectOf(held)!.onDamage!)}
+                        </span>
+                      ) : null}
                       {onRemoveEffect ? (
                         <button
                           type="button"

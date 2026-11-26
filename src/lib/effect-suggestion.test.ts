@@ -8,6 +8,8 @@ import type { DerivedStatBlock } from './dm-ability-text'
 import {
   abilityLeavesEffect,
   durationFromText,
+  onDamageFromText,
+  onDamageOf,
   suggestFromAbility,
   suggestFromSpell,
 } from './effect-suggestion'
@@ -147,5 +149,31 @@ describe('effect suggestions', () => {
       candidates: ['incapacitated'],
     })
     expect(abilityLeavesEffect(packTactics)).toBe(false)
+  })
+
+  it('reads what damage does to an effect', () => {
+    expect(
+      onDamageFromText(
+        'The target repeats the save whenever it takes damage, ending the effect on a success.',
+        { dc: 16, ability: 'wis' },
+      ),
+    ).toEqual({ kind: 'save', dc: 16, ability: 'wis' })
+    expect(
+      onDamageFromText(
+        'The effect ends for an affected creature if it takes any damage.',
+        undefined,
+      ),
+    ).toEqual({ kind: 'ends' })
+    expect(
+      onDamageFromText('It takes 2d6 fire damage.', { dc: 12, ability: 'dex' }),
+    ).toBeUndefined()
+    expect(
+      onDamageOf({ repeatSave: ['end-of-turn', 'damaged'], save: { dc: 14, ability: 'wis' } }),
+    ).toEqual({ kind: 'save', dc: 14, ability: 'wis' })
+    expect(suggestFromSpell(spells.hideous_laughter!, { caster: 'c', dc: 15 }).onDamage).toEqual({
+      kind: 'save',
+      dc: 15,
+      ability: 'wis',
+    })
   })
 })

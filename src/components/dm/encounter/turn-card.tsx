@@ -18,6 +18,7 @@ import { EffectIcon } from '#/lib/effect-icons'
 import {
   describeDuration,
   describeOrigin,
+  type DamageReminder,
   type EffectReminder,
   type OriginNames,
   type LairPrompt,
@@ -296,6 +297,65 @@ export function ConcentrationPrompt({
       <ActionButton tone="danger" onClick={onLost}>
         <X aria-hidden /> Lost
       </ActionButton>
+    </div>
+  )
+}
+
+/**
+ * Damage just landed on a creature with an effect that reacts to damage: the save it repeats, or
+ * an effect that ends. One line each, answered with a click.
+ */
+export function DamagePrompt({
+  name,
+  reminders,
+  describe,
+  onEnd,
+  onKeep,
+}: {
+  name: string
+  reminders: readonly DamageReminder[]
+  /** "Dominate Mind, from the aboleth": where the effect came from. */
+  describe: (reminder: DamageReminder) => string
+  onEnd: (reminder: DamageReminder) => void
+  onKeep: (reminder: DamageReminder) => void
+}) {
+  const focus = useDensity() === 'focus'
+  if (reminders.length === 0) return null
+  return (
+    <div
+      role="alert"
+      className={cn(
+        'grid gap-2 rounded-2xl border-2 border-sky-500/60 bg-sky-500/10',
+        focus ? 'p-4 text-lg' : 'p-3',
+      )}
+    >
+      {reminders.map((reminder) => (
+        <div key={reminder.effect.id} className="flex flex-wrap items-center gap-3">
+          <ShieldQuestion aria-hidden className={cn('text-sky-600', focus ? 'size-7' : 'size-5')} />
+          <span className="flex-1">
+            {reminder.onDamage.kind === 'save' ? (
+              <>
+                <strong>{name}</strong> took damage: a{' '}
+                <strong>
+                  DC {reminder.onDamage.dc} {rules[reminder.onDamage.ability].name} save
+                </strong>{' '}
+                ends <strong>{describe(reminder)}</strong>.
+              </>
+            ) : (
+              <>
+                <strong>{name}</strong> took damage, which ends{' '}
+                <strong>{describe(reminder)}</strong>.
+              </>
+            )}
+          </span>
+          <ActionButton tone="heal" onClick={() => onEnd(reminder)}>
+            <Check aria-hidden /> {reminder.onDamage.kind === 'save' ? 'Saved: end it' : 'End it'}
+          </ActionButton>
+          <ActionButton onClick={() => onKeep(reminder)}>
+            <X aria-hidden /> {reminder.onDamage.kind === 'save' ? 'Failed' : 'Keep it'}
+          </ActionButton>
+        </div>
+      ))}
     </div>
   )
 }

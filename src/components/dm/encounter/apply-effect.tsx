@@ -16,10 +16,10 @@ import {
   suggestFromSpellEffect,
   type EffectSuggestion,
 } from '#/lib/effect-suggestion'
-import type { EffectApplication, EffectOrigin } from '#/lib/encounter-combat'
+import type { AbilityId, EffectApplication, EffectOrigin, OnDamage } from '#/lib/encounter-combat'
 import { loadMagicItem } from '#/lib/library-magic-items'
 import { loadSpell } from '#/lib/load-spell'
-import { CONDITION_KEYS, plainRuleText, rules, type Condition } from '#/lib/rules'
+import { ABILITY_KEYS, CONDITION_KEYS, plainRuleText, rules, type Condition } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
 import { useDurationDraft } from './condition-picker'
@@ -84,6 +84,15 @@ function EffectForm({
   const [allConditions, setAllConditions] = useState(false)
   const [text, setText] = useState(suggestion.text ?? '')
   const [concentrate, setConcentrate] = useState(Boolean(suggestion.concentration && caster))
+  const [onDamage, setOnDamage] = useState<OnDamage['kind'] | 'nothing'>(
+    suggestion.onDamage?.kind ?? 'nothing',
+  )
+  const [damageDc, setDamageDc] = useState(
+    suggestion.onDamage?.kind === 'save' ? suggestion.onDamage.dc : 13,
+  )
+  const [damageAbility, setDamageAbility] = useState<AbilityId>(
+    suggestion.onDamage?.kind === 'save' ? suggestion.onDamage.ability : 'wis',
+  )
   const duration = useDurationDraft({
     combatants: actions.combatants,
     initial: suggestion.duration,
@@ -109,7 +118,17 @@ function EffectForm({
         if (targets.length === 0) return
         actions.apply(
           targets,
-          { origin, conditions, text: text.trim() || undefined, duration: duration.choice() },
+          {
+            origin,
+            conditions,
+            text: text.trim() || undefined,
+            duration: duration.choice(),
+            ...(onDamage === 'save'
+              ? { onDamage: { kind: 'save', dc: damageDc, ability: damageAbility } }
+              : onDamage === 'ends'
+                ? { onDamage: { kind: 'ends' } }
+                : {}),
+          },
           concentrate && caster && spell ? { caster, on: spell.name, spell: spell.ref } : undefined,
         )
         onDone()
@@ -182,6 +201,60 @@ function EffectForm({
       </label>
 
       {duration.fields}
+
+      <fieldset className="m-0 grid min-w-0 gap-1 border-0 p-0">
+        <legend className={legend}>When it takes damage</legend>
+        <div className="flex flex-wrap items-center gap-2 text-sm">
+          <select
+            aria-label="When it takes damage"
+            value={onDamage}
+            onChange={(event) =>
+              setOnDamage(event.currentTarget.value as OnDamage['kind'] | 'nothing')
+            }
+            className={cn(
+              'border-input bg-background rounded-lg border px-2',
+              focus ? 'h-11 text-base' : 'h-8',
+            )}
+          >
+            <option value="nothing">Nothing changes</option>
+            <option value="save">It repeats a save</option>
+            <option value="ends">The effect ends</option>
+          </select>
+          {onDamage === 'save' ? (
+            <>
+              <span>DC</span>
+              <input
+                aria-label="Save DC when it takes damage"
+                type="number"
+                min={1}
+                value={damageDc}
+                onChange={(event) =>
+                  setDamageDc(Math.max(1, event.currentTarget.valueAsNumber || 1))
+                }
+                className={cn(
+                  'border-input bg-background w-16 rounded-lg border px-2 text-center',
+                  focus ? 'h-11 text-base' : 'h-8',
+                )}
+              />
+              <select
+                aria-label="Saving throw ability when it takes damage"
+                value={damageAbility}
+                onChange={(event) => setDamageAbility(event.currentTarget.value as AbilityId)}
+                className={cn(
+                  'border-input bg-background rounded-lg border px-2',
+                  focus ? 'h-11 text-base' : 'h-8',
+                )}
+              >
+                {ABILITY_KEYS.map((id) => (
+                  <option key={id} value={id}>
+                    {rules[id].name}
+                  </option>
+                ))}
+              </select>
+            </>
+          ) : null}
+        </div>
+      </fieldset>
 
       {suggestion.concentration && caster ? (
         <label className="flex items-center gap-2 text-sm">

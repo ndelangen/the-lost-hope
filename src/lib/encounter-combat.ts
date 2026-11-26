@@ -86,11 +86,22 @@ export const ActiveCondition = z.strictObject({
  * it does beyond its conditions ("−2 to AC", "can't regain hit points"). Its conditions are held
  * as conditions, linked back to it, so everything that reads conditions sees them.
  */
+/**
+ * What taking damage does to an effect: the target repeats the save that put it on ("whenever it
+ * takes damage, it repeats the save"), or the effect simply ends ("it ends if the target takes
+ * damage"). The tracker asks the DM when damage lands.
+ */
+export const OnDamage = z.discriminatedUnion('kind', [
+  z.strictObject({ kind: z.literal('save'), dc: z.number().int().positive(), ability: AbilityId }),
+  z.strictObject({ kind: z.literal('ends') }),
+])
+
 export const AppliedEffect = z.strictObject({
   id: z.string(),
   ...applied,
   origin: EffectOrigin,
   text: z.string().trim().min(1).optional(),
+  onDamage: OnDamage.optional(),
 })
 
 export const DeathSaves = z.strictObject({
@@ -137,6 +148,7 @@ export type ConditionDuration = z.infer<typeof ConditionDuration>
 export type ActiveCondition = z.infer<typeof ActiveCondition>
 export type AppliedEffect = z.infer<typeof AppliedEffect>
 export type EffectOrigin = z.infer<typeof EffectOrigin>
+export type OnDamage = z.infer<typeof OnDamage>
 export type DeathSaves = z.infer<typeof DeathSaves>
 export type AbilityId = z.infer<typeof AbilityId>
 
@@ -194,6 +206,7 @@ export type EffectApplication = {
   conditions: readonly Condition[]
   text?: string
   duration: DurationChoice
+  onDamage?: OnDamage
 }
 
 /**
@@ -219,6 +232,7 @@ export function applyEffectTo<H extends CombatValues>(
     appliedDuring: active,
     origin: application.origin,
     ...(text ? { text } : {}),
+    ...(application.onDamage ? { onDamage: application.onDamage } : {}),
   }
   const conditions = application.conditions.map((condition, index): ActiveCondition => ({
     ...makeCondition(condition, duration, {
@@ -622,5 +636,18 @@ export function effectTriggerReminders(
           reminder: entry.reminder,
         })),
     ),
+  )
+}
+
+/** A reminder that damage just landed on a creature with an effect that reacts to damage. */
+export type DamageReminder = { combatant: string; effect: AppliedEffect; onDamage: OnDamage }
+
+/** The effects on a combatant that taking damage may end: one reminder each. */
+export function damageReminders(
+  combatant: string,
+  held: Pick<CombatValues, 'appliedEffects'> | undefined,
+): DamageReminder[] {
+  return (held?.appliedEffects ?? []).flatMap((effect) =>
+    effect.onDamage ? [{ combatant, effect, onDamage: effect.onDamage }] : [],
   )
 }

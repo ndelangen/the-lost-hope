@@ -52,9 +52,12 @@ import {
 } from '#/lib/encounter'
 import {
   concentrationDc,
+  damageReminders,
+  describeOrigin,
   effectTriggerReminders,
   lairPrompts,
   startOfTurnReminders,
+  type DamageReminder,
   type TurnNote,
 } from '#/lib/encounter-combat'
 import { focusShortcut, type EncounterDrawer } from '#/lib/encounter-focus'
@@ -73,7 +76,7 @@ import { ActionButton } from './icon-button'
 import { InitiativeRail, type RosterRow } from './initiative-rail'
 import { LegendaryRow, type LegendaryGroup } from './legendary-row'
 import { PresetPicker } from './preset-picker'
-import { ConcentrationPrompt, TurnCard } from './turn-card'
+import { ConcentrationPrompt, DamagePrompt, TurnCard } from './turn-card'
 import { newConditionId, useEncounter } from './use-encounter-store'
 
 /**
@@ -103,6 +106,8 @@ export function LiveFight({
   const [turnNotes, setTurnNotes] = useState<TurnNote[]>([])
   const [answered, setAnswered] = useState<ReadonlySet<string>>(new Set())
   const [concentrationCheck, setConcentrationCheck] = useState<{ id: string; dc: number }>()
+  // Effects that a hit may end: a save to repeat, or an effect that ends on damage.
+  const [damaged, setDamaged] = useState<DamageReminder[]>([])
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -269,6 +274,14 @@ export function LiveFight({
         // Damage to a concentrating creature calls for a save right away.
         if (delta < 0 && values[row.id]?.concentration)
           setConcentrationCheck({ id: row.id, dc: concentrationDc(-delta) })
+        // And any effect on it that a hit may end asks again, once per effect.
+        if (delta < 0) {
+          const fresh = damageReminders(row.id, values[row.id])
+          setDamaged((current) => [
+            ...current.filter((held) => !fresh.some(({ effect }) => effect.id === held.effect.id)),
+            ...fresh,
+          ])
+        }
       },
       reset: () => updateEncounter((current) => resetCombatant(current, row.id)),
       remove: () => updateEncounter((current) => removeCombatant(current, row.id)),
@@ -446,6 +459,30 @@ export function LiveFight({
       />
     ) : null
 
+  const damagePrompts = [...new Set(damaged.map(({ combatant }) => combatant))].map((rowId) => {
+    // Effects that ended some other way since have nothing left to ask.
+    const reminders = damaged.filter(
+      (reminder) =>
+        reminder.combatant === rowId &&
+        values[rowId]?.appliedEffects?.some(({ id: effectId }) => effectId === reminder.effect.id),
+    )
+    const dismiss = (reminder: DamageReminder) =>
+      setDamaged((current) => current.filter(({ effect }) => effect.id !== reminder.effect.id))
+    return (
+      <DamagePrompt
+        key={rowId}
+        name={nameOf(rowId)}
+        reminders={reminders}
+        describe={(reminder) => describeOrigin(reminder.effect.origin, { nameOf, abilityName })}
+        onEnd={(reminder) => {
+          updateEncounter((current) => removeEffect(current, rowId, reminder.effect.id))
+          dismiss(reminder)
+        }}
+        onKeep={dismiss}
+      />
+    )
+  })
+
   return (
     <EncounterDensity value="focus">
       <div className="@container grid gap-3">
@@ -504,6 +541,7 @@ export function LiveFight({
             />
             <div className="grid min-w-0 content-start gap-3 @2xl:order-first">
               {concentrationPrompt}
+              {damagePrompts}
               {turnCard}
               {legendaryRow}
               {focus ? panelFor(focus) : null}

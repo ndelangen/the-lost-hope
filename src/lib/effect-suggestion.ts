@@ -9,7 +9,7 @@ import {
   plainAbilityText,
   type DerivedStatBlock,
 } from './dm-ability-text'
-import { EACH_TARGET, type AbilityId, type DurationChoice } from './encounter-combat'
+import { EACH_TARGET, type AbilityId, type DurationChoice, type OnDamage } from './encounter-combat'
 import { ABILITY_KEYS, CONDITION_KEYS, rules, type Condition } from './rules'
 
 /**
@@ -29,6 +29,47 @@ export type EffectSuggestion = {
   duration: DurationChoice
   /** A spell the caster concentrates on. */
   concentration?: boolean
+  /** What taking damage does to it: the save comes again, or it ends. */
+  onDamage?: OnDamage
+}
+
+const TAKES_DAMAGE = /\b(takes?|taking|deals?) (any )?damage\b/i
+
+/**
+ * Whether damage brings the save back or ends the effect: from structured repeat-save moments,
+ * or from the words of what ends it ("it takes any damage").
+ */
+export function onDamageOf({
+  repeatSave,
+  ending,
+  save,
+}: {
+  repeatSave?: readonly string[]
+  ending?: string
+  save?: { dc: number | undefined; ability: AbilityId }
+}): OnDamage | undefined {
+  if (repeatSave?.includes('damaged') && save?.dc !== undefined)
+    return { kind: 'save', dc: save.dc, ability: save.ability }
+  if (ending && TAKES_DAMAGE.test(ending)) return { kind: 'ends' }
+  return undefined
+}
+
+/** The same, read from rules text: "whenever it takes damage, it repeats the save". */
+export function onDamageFromText(
+  text: string,
+  save: { dc: number | undefined; ability: AbilityId } | undefined,
+): OnDamage | undefined {
+  const sentences = text.split(/(?<=[.!?])\s+/)
+  for (const sentence of sentences) {
+    if (!TAKES_DAMAGE.test(sentence)) continue
+    if (
+      /repeat|another .*sav|can make .*sav|saving throw/i.test(sentence) &&
+      save?.dc !== undefined
+    )
+      return { kind: 'save', dc: save.dc, ability: save.ability }
+    if (/\bends?\b|\bwakes?\b|snaps? out|is freed/i.test(sentence)) return { kind: 'ends' }
+  }
+  return undefined
 }
 
 const isCondition = (key: string): key is Condition =>
@@ -199,11 +240,13 @@ export function suggestFromAbility(
       : fromToken?.dc !== undefined
         ? { dc: fromToken.dc, ability: fromToken.ability }
         : undefined
+  const onDamage = onDamageFromText(plain(tokens), saveTerms)
   return {
     conditions,
     candidates: named.candidates.filter((condition) => !conditions.includes(condition)),
     text,
     duration: durationFromText(plain(tokens), { source, save: saveTerms }),
+    ...(onDamage ? { onDamage } : {}),
   }
 }
 
@@ -255,11 +298,13 @@ export function suggestFromSpell(
     save: ability ? { dc, ability } : undefined,
   }) ??
     lengthFromText(spell.duration) ?? { kind: 'until-removed' }
+  const onDamage = onDamageFromText(text, ability ? { dc, ability } : undefined)
   return {
     conditions,
     candidates,
     duration,
     concentration: /^concentration/i.test(spell.duration),
+    ...(onDamage ? { onDamage } : {}),
   }
 }
 
@@ -302,11 +347,20 @@ export function suggestFromAbilityEffect(
   const text = [rider, !turnly && howLong ? `Lasts ${howLong}.` : '', ending]
     .filter(Boolean)
     .join(' ')
+  const onDamage = onDamageOf({
+    repeatSave: effect.ends?.repeatSave,
+    ending: [
+      effect.ends?.cure ? plainAbilityText(abilityTextSegments(effect.ends.cure, block)) : '',
+      lasts.kind === 'until' ? plainAbilityText(abilityTextSegments(lasts.text, block)) : '',
+    ].join(' '),
+    save,
+  })
   return {
     conditions: (effect.conditions ?? []).map((ref) => ref.key).filter(isCondition),
     candidates: [],
     text: text || undefined,
     duration: turnly ?? { kind: 'until-removed' },
+    ...(onDamage ? { onDamage } : {}),
   }
 }
 
@@ -359,6 +413,14 @@ export function suggestFromSpellEffect(
       : lasts.kind === 'until'
         ? `until ${spellTokens(lasts.text)}`
         : ''
+  const onDamage = onDamageOf({
+    repeatSave: effect.ends?.repeatSave,
+    ending: [
+      effect.ends?.cure ? spellTokens(effect.ends.cure) : '',
+      lasts.kind === 'until' ? spellTokens(lasts.text) : '',
+    ].join(' '),
+    save,
+  })
   const ends = [
     effect.ends?.repeatSave && save && !duration?.kind.startsWith('save')
       ? `A DC ${dc} ${rules[save.ability].name} save ${momentWords(effect.ends.repeatSave)} ends it.`
@@ -381,6 +443,7 @@ export function suggestFromSpellEffect(
         .join(' ') || undefined,
     duration: duration ?? { kind: 'until-removed' },
     concentration: /^concentration/i.test(spell.duration),
+    ...(onDamage ? { onDamage } : {}),
   }
 }
 
