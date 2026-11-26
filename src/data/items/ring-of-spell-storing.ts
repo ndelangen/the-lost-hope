@@ -1,23 +1,12 @@
+import { refs as libraryRefs } from '#/data/generated/library-refs.ts'
 import { create as createItem } from '#/definitions/item.ts'
 
 export default createItem({
   name: 'Ring of Spell Storing',
   icon: 'gi/GiRing',
-  category: 'Ring',
+  library: libraryRefs.magicItems.ring_of_spell_storing,
   currentOwner: null,
   carriedBy: null,
   craftedBy: null,
-  notes: [
-    [
-      'Stores spells totaling up to five spell levels for later casting. A spell must be cast into the ring before it can be released; it remains stored until used.',
-    ],
-    ['The DM warned that exceeding its capacity would trigger a roll on the chaos table.'],
-    [
-      {
-        type: 'link',
-        label: 'Standard Ring of Spell Storing rules on D&D Beyond',
-        url: 'https://www.dndbeyond.com/magic-items/4730-ring-of-spell-storing',
-      },
-    ],
-  ],
+  notes: [['The DM warned that exceeding its capacity would trigger a roll on the chaos table.']],
 })

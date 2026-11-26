@@ -598,7 +598,6 @@ export const refs = {
     phoenix_feather: ref('item', 'phoenix_feather'),
     purple_dragon_horn: ref('item', 'purple_dragon_horn'),
     rare_dragon_scales: ref('item', 'rare_dragon_scales'),
-    sack_of_pearls: ref('item', 'sack_of_pearls'),
     robertos_map_pages: ref('item', 'robertos_map_pages'),
     letter_from_the_father: ref('item', 'letter_from_the_father'),
     the_hand_s_directive_on_jim: ref('item', 'the_hand_s_directive_on_jim'),

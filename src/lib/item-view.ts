@@ -1,7 +1,10 @@
-import type { CampaignItemCategory } from '#/definitions/item'
+import type { CampaignItemCategory, Item } from '#/definitions/item'
 import type { EntityRef } from '#/definitions/kind'
 import type { Price, PriceRange } from '#/definitions/price'
 import { scenes, sceneMentions } from '#/lib/dm-campaign'
+import { loadEquipment } from '#/lib/library-equipment'
+import { loadMagicItem } from '#/lib/library-magic-items'
+import { publishedLibrary } from '#/lib/published-library-data'
 
 const amount = (price: Price) => price.amount.toLocaleString('en')
 
@@ -48,4 +51,49 @@ export function scenesMentioningItem(key: string): EntityRef<'scene'>[] {
       sceneMentions(scene).some((ref) => ref.ref === 'item' && ref.key === key),
     )
     .map(([sceneKey]) => ({ ref: 'scene', key: sceneKey }) as EntityRef<'scene'>)
+}
+
+/** What an item is, whether it says so itself or takes it from its library entry. */
+export type ItemFacts = {
+  category: CampaignItemCategory
+  price?: Price | PriceRange
+  /** The library entry it is one of: where its rules live, and its picture. */
+  library?: { name: string; slug: string; picture?: string }
+}
+
+/** The catalog record whose typed printing is this library entry. */
+function catalogRecordFor(ref: NonNullable<Item['library']>) {
+  for (const record of publishedLibrary) {
+    for (const printing of record.printings) {
+      const typed = printing.typed
+      if (!typed) continue
+      const key =
+        ref.ref === 'magicItem'
+          ? 'magicItem' in typed && typed.magicItem.key
+          : 'equipment' in typed && typed.equipment.key
+      if (key === ref.key) return { record, publication: typed.publication }
+    }
+  }
+  return undefined
+}
+
+/**
+ * An item's category and price: its own, or for an item that is one of a library entry, that
+ * entry's, with its picture. Loads only the library book the entry is in.
+ */
+export async function loadItemFacts(item: Item): Promise<ItemFacts> {
+  if (!item.library) return { category: item.category!, price: item.price }
+  const found = catalogRecordFor(item.library)
+  if (!found)
+    throw new Error(`${item.name}: library entry ${item.library.key} is not in the catalog`)
+  const { record, publication } = found
+  const library = { name: record.name, slug: record.slug, picture: record.art?.[0]?.file }
+  if (item.library.ref === 'magicItem') {
+    const entry = await loadMagicItem(item.library, publication)
+    if (!entry) throw new Error(`${item.name}: magic item ${item.library.key} did not load`)
+    return { category: entry.category, library }
+  }
+  const entry = await loadEquipment(item.library, publication)
+  if (!entry) throw new Error(`${item.name}: equipment ${item.library.key} did not load`)
+  return { category: entry.category, price: entry.price, library }
 }

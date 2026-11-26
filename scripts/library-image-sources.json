@@ -5035,6 +5035,11 @@
     "repositoryPath": "assets/images/content/library-release/items/pear-and-sorrel-relish-jar.webp"
   },
   {
+    "id": "library-e360b680406103387f65",
+    "logicalSource": "/assets/library/items/pearl.webp",
+    "repositoryPath": "assets/images/content/library-release/items/pearl.webp"
+  },
+  {
     "id": "library-2b34b54392ea7cca0c8e",
     "logicalSource": "/assets/library/items/pegged-lid-blank.webp",
     "repositoryPath": "assets/images/content/library-release/items/pegged-lid-blank.webp"

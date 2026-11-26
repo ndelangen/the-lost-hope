@@ -12,21 +12,21 @@ import { VESSEL_CLASS_LABELS } from '#/definitions/item'
 import { getEntity, refLink } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { ItemIcon } from '#/lib/item-icons'
-import { formatItemPrice } from '#/lib/item-view'
+import { formatItemPrice, loadItemFacts } from '#/lib/item-view'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/items/detail/$slug')({
-  loader: ({ params }) => {
+  loader: async ({ params }) => {
     const entity = getEntity('item', params.slug)
     if (!entity) throw notFound()
-    return entity
+    return { entity, facts: await loadItemFacts(entity.data) }
   },
   head: ({ params }) => publicEntityPageHead('item', params.slug),
   component: ItemPage,
 })
 
 function ItemPage() {
-  const entity = Route.useLoaderData()
+  const { entity, facts } = Route.useLoaderData()
 
   const item = entity.data
   const owner = item.currentOwner ? refLink(item.currentOwner) : undefined
@@ -49,8 +49,8 @@ function ItemPage() {
       }
     >
       <Grid as="section" gap="lg" smTemplate={2}>
-        <Attribute label="Category" value={item.category} />
-        {item.price ? <Attribute label="Worth" value={formatItemPrice(item.price)} /> : null}
+        <Attribute label="Category" value={facts.category} />
+        {facts.price ? <Attribute label="Worth" value={formatItemPrice(facts.price)} /> : null}
         <Relationship label="Current owner" relationship={owner} />
         {controller ? <Relationship label="Controlled by" relationship={controller} /> : null}
         <Relationship label="Carried by" relationship={carrier} />

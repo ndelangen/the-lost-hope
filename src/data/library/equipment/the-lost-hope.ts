@@ -3109,6 +3109,17 @@ export default createEquipment({
     text: [['A sweet-sour preserve for a cheese or meat plate.']],
     publication: refs.publications.the_lost_hope,
   },
+  pearl: {
+    name: 'Pearl',
+    category: 'Trade Good',
+    price: { amount: 50, coin: 'gp' },
+    text: [
+      [
+        'A round sea pearl with a soft pink-white sheen. It sells as it is, or a jeweller or enchanter can work it into something finer.',
+      ],
+    ],
+    publication: refs.publications.the_lost_hope,
+  },
   pegged_lid_blank: {
     name: 'Pegged lid blank',
     category: 'Adventuring Gear',

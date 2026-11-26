@@ -1,10 +1,11 @@
+import { refs as libraryRefs } from '#/data/generated/library-refs.ts'
 import { refs } from '#/data/generated/refs.ts'
 import { create as createItem } from '#/definitions/item.ts'
 
 export default createItem({
   name: "Cassian's Replacement Bag of Holding",
   icon: 'gi/GiKnapsack',
-  category: 'Wondrous Item',
+  library: libraryRefs.magicItems.bag_of_holding,
   currentOwner: refs.pcs.cassian_veyl,
   carriedBy: refs.pcs.cassian_veyl,
   craftedBy: null,
