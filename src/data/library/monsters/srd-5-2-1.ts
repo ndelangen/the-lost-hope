@@ -11,6 +11,25 @@ export default createPublicationMonsters({
       name: 'Aboleth',
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A huge fish-like horror rises from dark water, slime dripping from it as it studies you.',
+        ],
+      ],
+      lore: [
+        [
+          'Aboleths lair in underground lakes or the deep ocean, often among the ruins of a fallen city, and spend most of their lives underwater. They are lawful evil aberrations that read the minds of those who speak to them, learning their deepest desires, and they can enslave a creature and link it telepathically. A slimy disease follows a touch, and the aboleth holds sway over the area around its lair, so avoid fighting it in its own water.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: aboleth',
+            url: 'https://www.dndbeyond.com/monsters/aboleth',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -221,6 +240,25 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A huge blue dragon fills the sky or the cave mouth, its scales unmistakable and its presence frightening.',
+        ],
+      ],
+      lore: [
+        [
+          "Blue dragons are lawful evil and make their lairs in coasts and deserts, burrowing under the sands and carving crystallised caverns and tunnels. Thunderstorms gather around a legendary blue dragon's lair, and hidden sinkholes guard its approaches. If invaders come, it collapses the tunnels and leaves them to be crushed or suffocated, then returns for the spoils. In combat it breathes a line of lightning, frightens foes and can ignore a failed save a few times a day.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: adult blue dragon',
+            url: 'https://www.dndbeyond.com/monsters/adult-blue-dragon',
+          },
+        ],
+      ],
+      habitats: ['Coastal', 'Desert'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -361,6 +399,25 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A huge brass dragon fills the sky or the cave mouth, its scales unmistakable and its presence frightening.',
+        ],
+      ],
+      lore: [
+        [
+          "Brass dragons are chaotic good desert dwellers whose lairs sit in ruins, canyons or cave networks with openings that let sunlight in. The magic around the lair leaves tracks in the sand that lead travellers to water and shelter and away from the dragon's rest, and illusory monsters roam the dunes. It can breathe fire in a line or sleep gas in a cone, so non-lethal control is possible.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: adult brass dragon',
+            url: 'https://www.dndbeyond.com/monsters/adult-brass-dragon',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -567,6 +624,25 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A huge copper dragon fills the sky or the cave mouth, its scales unmistakable and its presence frightening.',
+        ],
+      ],
+      lore: [
+        [
+          'Copper dragons are chaotic good and favour narrow caves in hills and dry uplands. They hide secret chambers behind false walls to store ore, art and curios, and leave worthless items in open caves to mislead treasure seekers. Their magic carves smiling dragon faces into nearby stone and makes nearby people giggle. Its breath is acid in a line or a gas cone that slows foes.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: adult copper dragon',
+            url: 'https://www.dndbeyond.com/monsters/adult-copper-dragon',
+          },
+        ],
+      ],
+      habitats: ['Hills'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -755,6 +831,25 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A huge green dragon fills the sky or the cave mouth, its scales unmistakable and its presence frightening.',
+        ],
+      ],
+      lore: [
+        [
+          'Green dragons are lawful evil and are regarded as the most cunning and treacherous of the true dragons, preferring misdirection and trickery. They often share territory with black dragons in marshes and with white dragons in the cold northern forests. Its forest has fog, tightly packed trees and muffled sounds, and its lair is often a hidden cave behind a waterfall or underwater. In combat it can breathe poison gas and uses the terrain to its advantage.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: adult green dragon',
+            url: 'https://www.dndbeyond.com/monsters/adult-green-dragon',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -922,6 +1017,25 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A huge white dragon fills the sky or the cave mouth, its scales unmistakable and its presence frightening.',
+        ],
+      ],
+      lore: [
+        [
+          'White dragons are chaotic evil and live in ice caves, glacial mazes and cliff-face caverns far from sunlight. They climb and hang from ceilings with ease and slide down crevasses. It perches on ice shelves and flies between them to attack prey struggling over slippery ground, breathing a cone of freezing air.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: adult white dragon',
+            url: 'https://www.dndbeyond.com/monsters/adult-white-dragon',
+          },
+        ],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -1061,6 +1175,25 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A gargantuan blue dragon fills the sky or the cave mouth, its scales unmistakable and its presence frightening.',
+        ],
+      ],
+      lore: [
+        [
+          'An ancient blue dragon is lawful evil and lairs in barren coastal and desert places, burrowing beneath the sand to carve crystal-lined caves. Thunderstorms gather around the lair, and sinkholes guard its approaches. If invaded, it collapses the caverns and leaves intruders to be crushed or suffocated, then reclaims its possessions and the treasure of the dead. It breathes a line of lightning and can ignore failed saves.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: ancient blue dragon',
+            url: 'https://www.dndbeyond.com/monsters/ancient-blue-dragon',
+          },
+        ],
+      ],
+      habitats: ['Coastal', 'Desert'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1201,6 +1334,25 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A gargantuan brass dragon fills the sky or the cave mouth, its scales unmistakable and its presence frightening.',
+        ],
+      ],
+      lore: [
+        [
+          'An ancient brass dragon is chaotic good and lairs in desert ruins, canyons or cave networks with openings for sunlight. The surrounding magic leaves sand tracks that guide travellers to water and shelter, and illusory monsters wander the dunes. It can change into a humanoid or beast while keeping its mind, and it breathes fire or sleep gas.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: ancient brass dragon',
+            url: 'https://www.dndbeyond.com/monsters/ancient-brass-dragon',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1409,6 +1561,25 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A gargantuan copper dragon fills the sky or the cave mouth, its scales unmistakable and its presence frightening.',
+        ],
+      ],
+      lore: [
+        [
+          'An ancient copper dragon is chaotic good and lives in narrow caves in dry hills. False walls hide storerooms of ore and art, while worthless trinkets lie in open caves. Its magic carves smiling dragon faces into stone, lets small animals speak Draconic and praise it, and makes people nearby giggle. It breathes acid or a slowing gas and can take a humanoid or beast shape.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: ancient copper dragon',
+            url: 'https://www.dndbeyond.com/monsters/ancient-copper-dragon',
+          },
+        ],
+      ],
+      habitats: ['Hills'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1599,6 +1770,25 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A gargantuan green dragon fills the sky or the cave mouth, its scales unmistakable and its presence frightening.',
+        ],
+      ],
+      lore: [
+        [
+          'An ancient green dragon is lawful evil, cunning and treacherous, and relies on misdirection. It shares territory with black dragons in marshes and white dragons in cold northern forests. Its woods are foggy, with mossy trees and maze-like paths, and its lair is usually a cave behind a waterfall or underwater. Local birds and rodents act as its spies, and it breathes poison.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: ancient green dragon',
+            url: 'https://www.dndbeyond.com/monsters/ancient-green-dragon',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1768,6 +1958,25 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A gargantuan white dragon fills the sky or the cave mouth, its scales unmistakable and its presence frightening.',
+        ],
+      ],
+      lore: [
+        [
+          "An ancient white dragon is chaotic evil and lives in icy caves, glacier mazes and high cliffs. Its magic chills the region, freezing caverns fast and changing the wind's sound when intruders come. It climbs and perches high, and breathes a cone of cold while prey struggles on slippery ice.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: ancient white dragon',
+            url: 'https://www.dndbeyond.com/monsters/ancient-white-dragon',
+          },
+        ],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1955,6 +2164,24 @@ export default createPublicationMonsters({
       name: 'Animated Flying Sword',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A sword hangs in the air and dances about, striking like a duellist that cannot be hurt.',
+        ],
+      ],
+      lore: [
+        [
+          'An animated flying sword is a magical blade that fights on its own. While still it looks like an ordinary sword. It has a limited sense of its surroundings, and an antimagic field or dispel magic can shut it down.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: flying sword',
+            url: 'https://www.dndbeyond.com/monsters/flying-sword',
+          },
+        ],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -1997,6 +2224,20 @@ export default createPublicationMonsters({
       name: 'Animated Rug of Smothering',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['An ordinary rug lies still on the floor.']],
+      lore: [
+        [
+          'The rug of smothering is a magically animated trap that looks like a plain rug until it moves. It wraps a victim, holding and suffocating it, and shares the damage it takes with the creature it holds. An antimagic field or dispel magic can disable it.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: rug of smothering',
+            url: 'https://www.dndbeyond.com/monsters/rug-of-smothering',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -2057,6 +2298,23 @@ export default createPublicationMonsters({
       name: 'Ankheg',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A large burrowing creature bursts up from the ground, mandibles open and acid dripping.'],
+      ],
+      lore: [
+        [
+          'An ankheg is an unaligned monstrosity of forests and grasslands that burrows and senses ground vibrations. It grabs prey in its jaws and keeps biting, and it can spit a line of acid when it is not holding anyone. Staying off the ground where it feels you helps.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: ankheg',
+            url: 'https://www.dndbeyond.com/monsters/ankheg',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Grassland'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2371,6 +2629,22 @@ export default createPublicationMonsters({
       tags: ['Demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft'],
+      appearance: [
+        ['A huge fiend wreathed in fire looms, a flaming whip and lightning sword in hand.'],
+      ],
+      lore: [
+        [
+          'A balor is a huge chaotic evil demon that speaks Abyssal and uses telepathy. It burns creatures near it, is hard to affect with spells, and teleports short distances. It pulls foes in with its whip and strikes with a lightning sword. When it dies it explodes, hurting those nearby, so fight it from range or expect to take that last blast.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: balor',
+            url: 'https://www.dndbeyond.com/monsters/balor',
+          },
+        ],
+      ],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -2557,6 +2831,21 @@ export default createPublicationMonsters({
       name: 'Bandit Captain',
       alignment: 'neutral',
       languages: ['Common', 'Thieves’ Cant'],
+      appearance: [['A swaggering leader with scimitar and dagger stands among the band.']],
+      lore: [
+        [
+          'A bandit captain leads through personality, cunning and charm, and keeps the crew loyal with regular rewards and punishments. Fame matters more than treasure, so a prisoner who flatters the captain may be treated better. In a fight the captain can strike twice and parry, or throw daggers.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: bandit captain',
+            url: 'https://www.dndbeyond.com/monsters/bandit-captain',
+          },
+        ],
+      ],
+      habitats: ['Arctic', 'Coastal', 'Desert', 'Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2723,6 +3012,25 @@ export default createPublicationMonsters({
       name: 'Behir',
       alignment: 'neutral evil',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'A huge serpentine monster with many legs slithers or climbs towards you, lightning crackling.',
+        ],
+      ],
+      lore: [
+        [
+          'The behir is a neutral evil monstrosity of the Underdark that moves fast and climbs well. It breathes a line of lightning, bites, and constricts one victim while another can be swallowed whole, where it takes acid damage. A swallowed creature that does enough damage in one turn can get out, and anyone inside can crawl out if the behir dies.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: behir',
+            url: 'https://www.dndbeyond.com/monsters/behir',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -2936,6 +3244,24 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'chaotic evil',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'A small, medium-sized dragon with black scales swims or skulks into view, mean and cocky.',
+        ],
+      ],
+      lore: [
+        [
+          'A black dragon wyrmling is a chaotic evil young dragon that can breathe air and water. It bites with acid and exhales a line of acid that recharges after use. It is a smaller version of the adult black dragon.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: black dragon wyrmling',
+            url: 'https://www.dndbeyond.com/monsters/black-dragon-wyrmling',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -3095,6 +3421,27 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Draconic'],
+      appearance: [['A young blue dragon rears up from the sand, small but sparking.']],
+      lore: [
+        [
+          'A blue dragon wyrmling is a lawful evil young dragon that can burrow and fly, resists lightning and bites with an extra jolt. It breathes a line of lightning that recharges after use. Adult blue dragons favour coasts and deserts, which suggests where wyrmlings are likely to be found.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: blue dragon wyrmling',
+            url: 'https://www.dndbeyond.com/monsters/blue-dragon-wyrmling',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: adult blue dragon',
+            url: 'https://www.dndbeyond.com/monsters/adult-blue-dragon',
+          },
+        ],
+      ],
+      habitats: ['Coastal', 'Desert'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -3307,6 +3654,27 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'chaotic good',
       languages: ['Draconic'],
+      appearance: [['A young brass dragon scuttles or flaps into view, small but alert.']],
+      lore: [
+        [
+          'A brass dragon wyrmling is a chaotic good young dragon that can burrow and fly. It bites, and it can breathe a line of fire or a cone of sleep gas, each recharging after use. Adult brass dragons live in deserts, so that is where wyrmlings are most likely to be found.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: brass dragon wyrmling',
+            url: 'https://www.dndbeyond.com/monsters/brass-dragon-wyrmling',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: adult brass dragon',
+            url: 'https://www.dndbeyond.com/monsters/adult-brass-dragon',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'medium',
         type: 'dragon',

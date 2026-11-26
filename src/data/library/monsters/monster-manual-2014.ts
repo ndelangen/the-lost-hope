@@ -21354,6 +21354,25 @@ export default createPublicationMonsters({
       page: 350,
       alignment: 'any alignment',
       languages: ['Any one language', 'usually Common.'],
+      appearance: [
+        [
+          'A seasoned fighter with a longsword and a shortsword on the hip looks you over, calm and alert.',
+        ],
+      ],
+      lore: [
+        [
+          'Veterans are professional fighters who take up arms for pay or to protect something they value. Many are retired soldiers or mercenaries who fight only for their own benefit. Expect two sword strikes a turn and a crossbow at range.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: veteran',
+            url: 'https://www.dndbeyond.com/monsters/veteran',
+          },
+        ],
+      ],
+      habitats: ['Arctic', 'Coastal', 'Forest', 'Grassland'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -21665,6 +21684,21 @@ export default createPublicationMonsters({
       page: 300,
       alignment: 'neutral evil',
       languages: ['The languages it knew in life.'],
+      appearance: [['An armed and armoured corpse advances, intelligent and relentless.']],
+      lore: [
+        [
+          "Wights are intelligent undead humanoids that wage endless war on the living. They fight with longswords and longbows and a life-draining touch that lowers a victim's maximum health, and a humanoid killed this way rises as a zombie under the wight's control a day later. Sunlight hampers them, and silver or magic weapons are needed to hurt them properly.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: wight',
+            url: 'https://www.dndbeyond.com/monsters/wight',
+          },
+        ],
+      ],
+      habitats: ['Desert', 'Swamp', 'Underdark', 'Urban'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -21778,6 +21812,23 @@ export default createPublicationMonsters({
       page: 301,
       alignment: 'chaotic evil',
       languages: ['The languages it knew in life.'],
+      appearance: [
+        ['A small ghostly light drifts through the gloom, brightening and dimming as it moves.'],
+      ],
+      lore: [
+        [
+          "A will-o'-wisp is a tiny chaotic evil undead light that hovers and passes through creatures and objects. It can turn itself and its light invisible, shocks with lightning, and can finish off a downed creature to heal itself. Sources differ on its origin, but the 2014 entry has it feeding on the victims it lures.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: will o wisp',
+            url: 'https://www.dndbeyond.com/monsters/will-o-wisp',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Swamp', 'Urban'],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -22025,6 +22076,23 @@ export default createPublicationMonsters({
       page: 302,
       alignment: 'neutral evil',
       languages: ['The languages it knew in life.'],
+      appearance: [
+        ['A dim, spectral figure glides closer, holding itself in the world by will alone.'],
+      ],
+      lore: [
+        [
+          "Wraiths are undead spirits that drift through walls and creatures. Their touch drains life and lowers a victim's maximum health until a long rest. A wraith can call up the spirit of a recently and violently slain humanoid as a specter under its control. Sunlight weakens it, so light is a good tool against it.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: wraith',
+            url: 'https://www.dndbeyond.com/monsters/wraith',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -22305,6 +22373,23 @@ export default createPublicationMonsters({
       page: 305,
       alignment: 'chaotic evil',
       languages: ['Yeti.'],
+      appearance: [
+        ['A huge, white-furred brute stalks through the snow, almost invisible against it.'],
+      ],
+      lore: [
+        [
+          'Yetis are brutish creatures that roam mountain peaks, always hunting for food. Their white fur blends them into the snow, and a strong sense of smell helps them find prey. A yeti can freeze a victim in place with its gaze before it mauls it, and it fears fire, so flames can send it back.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: yeti',
+            url: 'https://www.dndbeyond.com/monsters/yeti',
+          },
+        ],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'large',
         type: 'monstrosity',
