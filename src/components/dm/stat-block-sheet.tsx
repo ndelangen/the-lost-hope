@@ -96,6 +96,9 @@ function AbilityTitle({ ability }: { ability: Ability }) {
           {ability.uses === 1 ? 'once' : `${ability.uses} uses`}
         </span>
       ) : null}
+      {ability.cost ? (
+        <span className="text-muted-foreground text-sm font-normal">costs {ability.cost}</span>
+      ) : null}
     </span>
   )
 }

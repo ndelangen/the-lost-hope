@@ -153,6 +153,8 @@ type DerivedAttack = {
   /** Added to the d20 for the attack roll. */
   bonus: number
   damage: DerivedDamage[]
+  /** A versatile weapon's damage with two hands. */
+  twoHanded?: DerivedDamage[]
 }
 
 function flatBonus(bonus: number) {
@@ -162,9 +164,8 @@ function flatBonus(bonus: number) {
 export function deriveAttack(attack: Attack, stats: AnyStatBlock): DerivedAttack {
   const mod = modifier(stats.scores[attack.ability])
   const magic = attack.magic ?? 0
-  return {
-    bonus: mod + proficiencyOf(stats) + magic,
-    damage: attack.damage.map((roll) => {
+  const derive = (rolls: Attack['damage']): DerivedDamage[] =>
+    rolls.map((roll) => {
       const extra = roll.addModifier ? mod + magic : 0
       return {
         kind: 'damage',
@@ -172,7 +173,11 @@ export function deriveAttack(attack: Attack, stats: AnyStatBlock): DerivedAttack
         roll: `${roll.dice}${flatBonus(extra)}`,
         type: roll.type,
       }
-    }),
+    })
+  return {
+    bonus: mod + proficiencyOf(stats) + magic,
+    damage: derive(attack.damage),
+    ...(attack.kind === 'melee' && attack.twoHanded ? { twoHanded: derive(attack.twoHanded) } : {}),
   }
 }
 
@@ -214,6 +219,15 @@ export function abilitySummary(ability: Ability, stats: AnyStatBlock): StatPart[
       ...derived.damage.flatMap((damage, index): StatPart[] =>
         index === 0 ? [damage] : [{ kind: 'text', text: ' plus ' }, damage],
       ),
+      ...(derived.twoHanded
+        ? [
+            { kind: 'text', text: ', or ' } as const,
+            ...derived.twoHanded.flatMap((damage, index): StatPart[] =>
+              index === 0 ? [damage] : [{ kind: 'text', text: ' plus ' }, damage],
+            ),
+            { kind: 'text', text: ' with two hands' } as const,
+          ]
+        : []),
     ]
   }
   if (ability.save)

@@ -279,3 +279,36 @@ describe('fixed damage', () => {
     expect(deriveStatBlock(hawk).hitPoints).toBe('1 (1d4 − 1)')
   })
 })
+
+describe('versatile weapons', () => {
+  const guard = PrintedStatBlock.parse({
+    size: 'medium',
+    type: 'humanoid',
+    cr: '1/8',
+    ac: 16,
+    hitDice: '2d8',
+    speed: { walk: 30 },
+    scores: { str: 13, dex: 12, con: 12, int: 10, wis: 11, cha: 10 },
+    abilities: [
+      {
+        key: 'spear',
+        name: 'Spear',
+        timing: 'action',
+        icon: 'gi/GiThrownDaggers',
+        attack: {
+          kind: 'melee',
+          ability: 'str',
+          thrown: [20, 60],
+          damage: [{ dice: '1d6', type: refs.rules.piercing, addModifier: true }],
+          twoHanded: [{ dice: '1d8', type: refs.rules.piercing, addModifier: true }],
+        },
+      },
+    ],
+  })
+
+  it('reads the two-handed damage after the one-handed damage', () => {
+    expect(plainStatParts(abilitySummary(guard.abilities[0]!, guard) ?? [])).toBe(
+      '+3, 4 (1d6 + 1) piercing, or 5 (1d8 + 1) piercing with two hands',
+    )
+  })
+})

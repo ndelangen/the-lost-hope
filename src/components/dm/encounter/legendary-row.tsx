@@ -82,7 +82,14 @@ export function LegendaryRow({
           ability={openAction}
           uses={{
             count: openGroup.pool,
-            onUse: () => actionsFor(openGroup.id).use(LEGENDARY_POOL, openGroup.pool),
+            onUse: () =>
+              openAction.cost
+                ? actionsFor(openGroup.id).setUses(
+                    LEGENDARY_POOL,
+                    'uses',
+                    Math.max(0, openGroup.pool.uses - openAction.cost),
+                  )
+                : actionsFor(openGroup.id).use(LEGENDARY_POOL, openGroup.pool),
             onRecharge: () => actionsFor(openGroup.id).recharge(LEGENDARY_POOL, openGroup.pool),
             onSetUses: (value) => actionsFor(openGroup.id).setUses(LEGENDARY_POOL, 'uses', value),
             onSetMaxUses: (value) =>

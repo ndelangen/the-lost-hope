@@ -85,6 +85,11 @@ const Attack = z.discriminatedUnion('kind', [
       .tuple([z.number().int().positive(), z.number().int().positive()])
       .optional()
       .describe('Feet: a melee attack that can also be thrown, like a javelin, at this range'),
+    twoHanded: z
+      .array(Damage)
+      .min(1)
+      .optional()
+      .describe('A versatile weapon: the damage instead of `damage` when wielded with two hands'),
     magic: MagicBonus,
     damage: z.array(Damage).min(1),
   }),
@@ -209,6 +214,12 @@ const Ability = z.strictObject({
     .string()
     .optional()
     .describe('When the DM may mark it ready again, e.g. `Recharge 5–6`. Recharge stays manual.'),
+  cost: z
+    .number()
+    .int()
+    .min(2)
+    .optional()
+    .describe('Legendary actions only: uses it spends from the shared pool, when more than one'),
 })
 
 export type Ability = z.infer<typeof Ability>
@@ -323,6 +334,7 @@ const creatureShape = {
   legendary: z
     .strictObject({
       uses: z.number().int().positive().describe('Shared pool, refilled at the start of its turn'),
+      lairUses: z.number().int().positive().optional().describe('The pool while in its lair'),
       actions: z.array(Ability).min(1),
     })
     .optional(),

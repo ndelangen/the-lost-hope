@@ -36,7 +36,7 @@ export function abilityGroups(stats: AnyStatBlock): AbilityGroup[] {
     groups.push({
       key: 'legendary',
       label: ABILITY_GROUP_LABEL.legendary,
-      note: `${stats.legendary.uses} per round, at the end of another creature's turn; spent uses come back at the start of its turn.`,
+      note: `${stats.legendary.uses} per round${stats.legendary.lairUses ? ` (${stats.legendary.lairUses} in its lair)` : ''}, at the end of another creature's turn; spent uses come back at the start of its turn.`,
       abilities: stats.legendary.actions,
     })
   if (stats.lairActions)
