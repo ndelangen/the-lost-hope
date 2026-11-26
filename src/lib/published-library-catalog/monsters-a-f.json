@@ -34439,32 +34439,16 @@
       {
         "id": "printing-1aad8f4e5e9aee39127e795f",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 33",
-              "Hit dice · 6d8 + 6",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 25 ft.",
-              "Str · 14",
-              "Dex · 11",
-              "Con · 13",
-              "Int · 1",
-              "Wis · 3",
-              "Cha · 1"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "animated_armor"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +4 to hit · reach 5 ft. · 1d6 + 2 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9ae0228f1a416f63e07ae067",
@@ -58914,32 +58898,16 @@
       {
         "id": "printing-8da5a6ebbe18552fb63e10c3",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 10",
-              "Hit dice · 3d6",
-              "Challenge · 0",
-              "Size · Small",
-              "Type · Plant",
-              "Speed · walk 20 ft.",
-              "Str · 3",
-              "Dex · 8",
-              "Con · 11",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "awakened_shrub"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Rake · melee · +1 to hit · reach 5 ft. · 1d4 − 1 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-cbb110d31930bfaba3e93135",
@@ -59156,32 +59124,16 @@
       {
         "id": "printing-1617a35ea8bc74bab52b2c46",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 59",
-              "Hit dice · 7d12 + 14",
-              "Challenge · 2",
-              "Size · Huge",
-              "Type · Plant",
-              "Speed · walk 20 ft.",
-              "Str · 19",
-              "Dex · 6",
-              "Con · 15",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "awakened_tree"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +6 to hit · reach 10 ft. · 3d6 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-1dec05d02bc69f5470ca84f8",
@@ -66497,35 +66449,16 @@
       {
         "id": "printing-95822a274a5ae0c813fbcd4e",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 11",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bandit"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Scimitar · melee · +3 to hit · reach 5 ft. · 1d6 + 1 slashing",
-              "Light Crossbow · ranged · +3 to hit · range 80/320 ft. · 1d8 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-57003a0936d005c1f00fb637",
@@ -72741,28 +72674,16 @@
       {
         "id": "printing-160b1107398571228498fdc1",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 52",
-              "Hit dice · 8d8 + 16",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 20 ft.",
-              "Str · 16",
-              "Dex · 8",
-              "Con · 15",
-              "Int · 2",
-              "Wis · 8",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "basilisk"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-d95f3c2323f6749ef9cd5039",
@@ -79350,32 +79271,16 @@
       {
         "id": "printing-d6accf3cb937a38f31e670c9",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 67",
-              "Hit dice · 9d8 + 27",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 12",
-              "Con · 17",
-              "Int · 9",
-              "Wis · 11",
-              "Cha · 9"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "berserker"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Greataxe · melee · +5 to hit · reach 5 ft. · 1d12 + 3 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-31fb6f4a4f853d90874eebdb",
@@ -86450,32 +86355,16 @@
       {
         "id": "printing-3ac67117a4ec3aed8108fdb7",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Fey",
-              "Speed · walk 40 ft.",
-              "Str · 12",
-              "Dex · 17",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "blink_dog"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +3 to hit · reach 5 ft. · 1d6 + 1 piercing"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-c666cf467303b9ef8e5e989c",
@@ -125035,32 +124924,16 @@
       {
         "id": "printing-a070359ba77dfa70e2547cbd",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 27",
-              "Hit dice · 6d6 + 6",
-              "Challenge · 1/2",
-              "Size · Small",
-              "Type · Monstrosity",
-              "Speed · walk 20 ft., fly 40 ft.",
-              "Str · 6",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 2",
-              "Wis · 13",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cockatrice"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +3 to hit · reach 5 ft. · 1d4 + 1 piercing"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-b7b2f0353d740a84f694c908",
@@ -126375,32 +126248,16 @@
       {
         "id": "printing-8c4cbc7f10a9457d15ad2422",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 4",
-              "Hit dice · 1d8",
-              "Challenge · 0",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 10",
-              "Dex · 10",
-              "Con · 10",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "commoner"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Club · melee · +2 to hit · reach 5 ft. · 1d4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-a623615b6b93eeaec499114e",
@@ -138107,32 +137964,16 @@
       {
         "id": "printing-3225f8aaef6e1bbb1d82b318",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 9",
-              "Hit dice · 2d8",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 11",
-              "Dex · 12",
-              "Con · 10",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cultist"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Scimitar · melee · +3 to hit · reach 5 ft. · 1d6 + 1 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-c00497b50f0c40eb39e98ce8",
@@ -140016,35 +139857,16 @@
       {
         "id": "printing-4afffb658ea3c6c673c10772",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 138",
-              "Hit dice · 12d12 + 60",
-              "Challenge · 6",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · walk 30 ft.",
-              "Str · 22",
-              "Dex · 11",
-              "Con · 20",
-              "Int · 8",
-              "Wis · 6",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cyclops"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatclub · melee · +9 to hit · reach 10 ft. · 3d8 + 6 bludgeoning",
-              "Rock · ranged · +9 to hit · range 30/120 ft. · 4d10 + 6 bludgeoning"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-48271028043f03f3b082e780",
@@ -226287,35 +226109,16 @@
       {
         "id": "printing-462b11ed871eb12cc2aab54d",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 162",
-              "Hit dice · 13d12 + 78",
-              "Challenge · 9",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · walk 30 ft.",
-              "Str · 25",
-              "Dex · 9",
-              "Con · 23",
-              "Int · 10",
-              "Wis · 14",
-              "Cha · 13"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fire_giant"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatsword · melee · +11 to hit · reach 10 ft. · 6d6 + 7 slashing",
-              "Rock · ranged · +11 to hit · range 60/240 ft. · 4d10 + 7 bludgeoning"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-1f98695fcf7ab5f26d630f9c",
@@ -234136,32 +233939,16 @@
       {
         "id": "printing-7ed0261867057dcc174d1a27",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 17",
-              "Hit dice · 5d6",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Construct",
-              "Speed · walk 0 ft., fly 50 ft.",
-              "Str · 12",
-              "Dex · 15",
-              "Con · 11",
-              "Int · 1",
-              "Wis · 5",
-              "Cha · 1"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flying_sword"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Longsword · melee · +3 to hit · reach 5 ft. · 1d8 + 1 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6198c17d50944263b8ea182f",
@@ -239452,35 +239239,16 @@
       {
         "id": "printing-796a98c729ab5b1afc976bca",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 138",
-              "Hit dice · 12d12 + 60",
-              "Challenge · 8",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · walk 40 ft.",
-              "Str · 23",
-              "Dex · 9",
-              "Con · 21",
-              "Int · 9",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "frost_giant"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greataxe · melee · +9 to hit · reach 10 ft. · 3d12 + 6 slashing",
-              "Rock · ranged · +9 to hit · range 60/240 ft. · 4d10 + 6 bludgeoning"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-923af6c3aaca628ef775c3cf",

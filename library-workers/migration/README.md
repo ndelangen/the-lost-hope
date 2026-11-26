@@ -37,3 +37,6 @@ bunx oxfmt src/data/library src/lib/published-library-catalog && bun run generat
 - `srd521_monsters.py <srd521-cols.txt> <out.json>` reads the SRD 5.2.1 stat blocks straight from
   the PDF text into catalog-shaped printings. Pass the file to `parse5e.py` and `emit.py` with
   `EXTRA_PRINTINGS=<out.json>`; a printing read from the PDF wins over the worker's text of it.
+- `srd51_monsters.py <cols.txt> <out.json> <label> <id>` reads 2014-format stat blocks the same way
+  (SRD 5.1 and the 2018 Basic Rules work; the 2014 Monster Manual's layout does not yet). PDF
+  printings take the catalog's own printing id and type, matched by slug and label.

@@ -22521,71 +22521,22 @@
       {
         "id": "printing-4052761c279e0275ccc18f30",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft., swim 20 ft.",
-              "XP · 0",
-              "Str · 1",
-              "Dex · 13",
-              "Con · 8",
-              "Int · 1",
-              "Wis · 8",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Near water", "Trees", "Underground", "Freshwater ponds", "Marshes"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A compact frog with a blunt head, amber eyes, olive-brown skin and powerful folded hind legs."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +1 and Stealth +3. Darkvision 30 ft. Passive Perception 11. No listed languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 128."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. Breathe in air or water.\nStanding Leap. Jump up to 10 ft. horizontally or 5 ft. vertically from a standstill or after a run-up."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": ["The printed Frog has no effective attacks."]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/frog.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "frog"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-f0827a6aa3576fd571369c85",

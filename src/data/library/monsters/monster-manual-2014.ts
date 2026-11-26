@@ -276,7 +276,7 @@ export default createPublicationMonsters({
     },
     awakened_shrub: {
       name: 'Awakened Shrub',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 317,
       alignment: 'unaligned',
       languages: ['One language its creator knows.'],
@@ -316,6 +316,7 @@ export default createPublicationMonsters({
     },
     awakened_tree: {
       name: 'Awakened Tree',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 317,
       alignment: 'unaligned',
       languages: ['One language its creator knows.'],
@@ -574,7 +575,6 @@ export default createPublicationMonsters({
     },
     berserker: {
       name: 'Berserker',
-      reprintedIn: [refs.publications.srd_5_1],
       tags: ['any race'],
       page: 344,
       alignment: 'any chaotic alignment',
@@ -691,7 +691,7 @@ export default createPublicationMonsters({
     },
     blink_dog: {
       name: 'Blink Dog',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 318,
       alignment: 'lawful good',
       languages: ['Blink Dog. It understands Sylvan but cannot speak it.'],
@@ -1127,6 +1127,7 @@ export default createPublicationMonsters({
     },
     chuul: {
       name: 'Chuul',
+      reprintedIn: [refs.publications.srd_5_1],
       page: 40,
       alignment: 'chaotic evil',
       languages: ['Understands Deep Speech. Cannot speak.'],
@@ -1395,7 +1396,7 @@ export default createPublicationMonsters({
     },
     commoner: {
       name: 'Commoner',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       tags: ['any race'],
       page: 345,
       alignment: 'any alignment',
@@ -1595,7 +1596,7 @@ export default createPublicationMonsters({
     },
     crab: {
       name: 'Crab',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 320,
       alignment: 'unaligned',
       habitats: ['Coastal', 'Rocky shores', 'Tide pools'],
@@ -1713,6 +1714,7 @@ export default createPublicationMonsters({
         refs.publications.basic_rules_2018,
         refs.publications.ddex1_07_drums_in_the_marsh,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.srd_5_1,
       ],
       page: 320,
       alignment: 'unaligned',
@@ -1866,7 +1868,6 @@ export default createPublicationMonsters({
     },
     cultist: {
       name: 'Cultist',
-      reprintedIn: [refs.publications.srd_5_1],
       tags: ['any race'],
       page: 345,
       alignment: 'any non-good alignment',
@@ -1912,6 +1913,7 @@ export default createPublicationMonsters({
     },
     cyclops: {
       name: 'Cyclops',
+      reprintedIn: [refs.publications.basic_rules_2018],
       page: 45,
       alignment: 'chaotic neutral',
       languages: ['Giant.'],
@@ -2012,7 +2014,7 @@ export default createPublicationMonsters({
     },
     dire_wolf: {
       name: 'Dire Wolf',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 321,
       alignment: 'unaligned',
       habitats: ['Forest', 'Hills'],
@@ -2476,6 +2478,7 @@ export default createPublicationMonsters({
     },
     elephant: {
       name: 'Elephant',
+      reprintedIn: [refs.publications.srd_5_1],
       page: 322,
       alignment: 'unaligned',
       habitats: ['Grasslands', 'Savannas', 'Open woodlands'],
@@ -2549,6 +2552,7 @@ export default createPublicationMonsters({
     },
     ettin: {
       name: 'Ettin',
+      reprintedIn: [refs.publications.srd_5_1],
       page: 132,
       alignment: 'chaotic evil',
       languages: ['Giant', 'Orc.'],
@@ -3322,7 +3326,7 @@ export default createPublicationMonsters({
     },
     fire_giant: {
       name: 'Fire Giant',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 154,
       alignment: 'lawful evil',
       languages: ['Giant.'],
@@ -3493,7 +3497,6 @@ export default createPublicationMonsters({
     },
     frost_giant: {
       name: 'Frost Giant',
-      reprintedIn: [refs.publications.srd_5_1],
       page: 155,
       alignment: 'neutral evil',
       languages: ['Giant.'],
@@ -3625,7 +3628,7 @@ export default createPublicationMonsters({
     },
     ghoul: {
       name: 'Ghoul',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 148,
       alignment: 'chaotic evil',
       languages: ['Common.'],
@@ -3864,6 +3867,7 @@ export default createPublicationMonsters({
       reprintedIn: [
         refs.publications.basic_rules_2018,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.srd_5_1,
       ],
       page: 323,
       alignment: 'unaligned',
@@ -3985,7 +3989,7 @@ export default createPublicationMonsters({
     },
     giant_crab: {
       name: 'Giant Crab',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 324,
       alignment: 'unaligned',
       habitats: ['Coastal shallows', 'Tide pools', 'Underwater'],
@@ -4039,7 +4043,7 @@ export default createPublicationMonsters({
     },
     giant_crocodile: {
       name: 'Giant Crocodile',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 324,
       alignment: 'unaligned',
       habitats: ['Rivers', 'Marshes', 'Wetlands'],
@@ -4116,7 +4120,7 @@ export default createPublicationMonsters({
     },
     giant_fire_beetle: {
       name: 'Giant Fire Beetle',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 325,
       alignment: 'unaligned',
       habitats: ['Underground', 'Dark forests'],
@@ -4222,7 +4226,6 @@ export default createPublicationMonsters({
     },
     giant_octopus: {
       name: 'Giant Octopus',
-      reprintedIn: [refs.publications.basic_rules_2018],
       page: 326,
       alignment: 'unaligned',
       habitats: ['Underwater', 'Rocky reefs', 'Kelp forests'],
@@ -4302,7 +4305,7 @@ export default createPublicationMonsters({
     },
     giant_scorpion: {
       name: 'Giant Scorpion',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 327,
       alignment: 'unaligned',
       habitats: ['Desert'],
@@ -4381,6 +4384,7 @@ export default createPublicationMonsters({
       reprintedIn: [
         refs.publications.basic_rules_2018,
         refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.srd_5_1,
       ],
       page: 328,
       alignment: 'unaligned',
@@ -4674,7 +4678,6 @@ export default createPublicationMonsters({
     },
     goblin: {
       name: 'Goblin',
-      reprintedIn: [refs.publications.srd_5_1],
       tags: ['goblinoid'],
       page: 166,
       alignment: 'neutral evil',
@@ -5227,7 +5230,7 @@ export default createPublicationMonsters({
     },
     griffon: {
       name: 'Griffon',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 174,
       alignment: 'unaligned',
       languages: ['None.'],
@@ -5360,7 +5363,7 @@ export default createPublicationMonsters({
     },
     harpy: {
       name: 'Harpy',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 181,
       alignment: 'chaotic evil',
       languages: ['Common.'],
@@ -5568,6 +5571,7 @@ export default createPublicationMonsters({
     },
     hill_giant: {
       name: 'Hill Giant',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 152,
       alignment: 'chaotic evil',
       languages: ['Giant.'],
@@ -5683,7 +5687,7 @@ export default createPublicationMonsters({
     },
     hunter_shark: {
       name: 'Hunter Shark',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 330,
       alignment: 'unaligned',
       habitats: ['Deep water', 'Underwater'],
@@ -5738,6 +5742,7 @@ export default createPublicationMonsters({
     },
     hydra: {
       name: 'Hydra',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 190,
       alignment: 'unaligned',
       languages: ['None.'],
@@ -6004,7 +6009,7 @@ export default createPublicationMonsters({
     },
     killer_whale: {
       name: 'Killer Whale',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 331,
       alignment: 'unaligned',
       habitats: ['Underwater', 'Coastal waters', 'Open ocean'],
@@ -6143,7 +6148,7 @@ export default createPublicationMonsters({
     },
     kobold: {
       name: 'Kobold',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       tags: ['kobold'],
       page: 195,
       alignment: 'lawful evil',
@@ -6519,7 +6524,7 @@ export default createPublicationMonsters({
     },
     mammoth: {
       name: 'Mammoth',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 332,
       alignment: 'unaligned',
       habitats: ['Cold steppe', 'Tundra', 'Subtropical regions'],
@@ -6639,6 +6644,7 @@ export default createPublicationMonsters({
     },
     manticore: {
       name: 'Manticore',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 213,
       alignment: 'lawful evil',
       languages: ['Common.'],
@@ -6772,6 +6778,7 @@ export default createPublicationMonsters({
     },
     medusa: {
       name: 'Medusa',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 214,
       alignment: 'lawful evil',
       languages: ['Common.'],
@@ -6870,6 +6877,7 @@ export default createPublicationMonsters({
     },
     merrow: {
       name: 'Merrow',
+      reprintedIn: [refs.publications.srd_5_1],
       page: 219,
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Aquan.'],
@@ -7379,6 +7387,7 @@ export default createPublicationMonsters({
     },
     nightmare: {
       name: 'Nightmare',
+      reprintedIn: [refs.publications.srd_5_1],
       page: 235,
       alignment: 'neutral evil',
       languages: ['Understands Abyssal', 'Common', 'and Infernal and cannot speak.'],
@@ -7555,7 +7564,6 @@ export default createPublicationMonsters({
     },
     octopus: {
       name: 'Octopus',
-      reprintedIn: [refs.publications.basic_rules_2018],
       page: 333,
       alignment: 'unaligned',
       habitats: ['Underwater', 'Coastal waters', 'Reefs'],
@@ -7631,7 +7639,6 @@ export default createPublicationMonsters({
     },
     ogre: {
       name: 'Ogre',
-      reprintedIn: [refs.publications.srd_5_1],
       page: 237,
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant.'],
@@ -7727,7 +7734,6 @@ export default createPublicationMonsters({
     },
     orc: {
       name: 'Orc',
-      reprintedIn: [refs.publications.srd_5_1],
       tags: ['orc'],
       page: 246,
       alignment: 'chaotic evil',
@@ -7845,6 +7851,7 @@ export default createPublicationMonsters({
     },
     owlbear: {
       name: 'Owlbear',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 249,
       alignment: 'unaligned',
       languages: ['None.'],
@@ -8001,7 +8008,7 @@ export default createPublicationMonsters({
     },
     pegasus: {
       name: 'Pegasus',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 250,
       alignment: 'chaotic good',
       languages: ['Understands Celestial', 'Common', 'Elvish', 'and Sylvan. It cannot speak.'],
@@ -8107,7 +8114,7 @@ export default createPublicationMonsters({
     },
     plesiosaurus: {
       name: 'Plesiosaurus',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 80,
       alignment: 'unaligned',
       habitats: ['Coastal waters', 'Underwater'],
@@ -8188,6 +8195,7 @@ export default createPublicationMonsters({
     },
     pseudodragon: {
       name: 'Pseudodragon',
+      reprintedIn: [refs.publications.srd_5_1],
       page: 254,
       alignment: 'neutral good',
       languages: ["Understands Common and Draconic. It can't speak."],
@@ -8603,7 +8611,7 @@ export default createPublicationMonsters({
     },
     reef_shark: {
       name: 'Reef Shark',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 336,
       alignment: 'unaligned',
       habitats: ['Shallow water', 'Coral reefs'],
@@ -8826,6 +8834,7 @@ export default createPublicationMonsters({
     },
     roc: {
       name: 'Roc',
+      reprintedIn: [refs.publications.srd_5_1],
       page: 260,
       alignment: 'unaligned',
       languages: ['None.'],
@@ -8985,6 +8994,7 @@ export default createPublicationMonsters({
     },
     rust_monster: {
       name: 'Rust Monster',
+      reprintedIn: [refs.publications.srd_5_1],
       page: 262,
       alignment: 'unaligned',
       languages: ['None.'],
@@ -9046,6 +9056,7 @@ export default createPublicationMonsters({
     },
     sahuagin: {
       name: 'Sahuagin',
+      reprintedIn: [refs.publications.srd_5_1],
       tags: ['sahuagin'],
       page: 263,
       alignment: 'lawful evil',
@@ -9148,7 +9159,6 @@ export default createPublicationMonsters({
     },
     satyr: {
       name: 'Satyr',
-      reprintedIn: [refs.publications.srd_5_1],
       page: 267,
       alignment: 'chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan.'],
@@ -9213,7 +9223,7 @@ export default createPublicationMonsters({
     },
     scorpion: {
       name: 'Scorpion',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 337,
       alignment: 'unaligned',
       habitats: ['Desert', 'Rocky scrub'],
@@ -9619,7 +9629,6 @@ export default createPublicationMonsters({
     },
     sprite: {
       name: 'Sprite',
-      reprintedIn: [refs.publications.srd_5_1],
       page: 283,
       alignment: 'neutral good',
       languages: ['Common', 'Elvish', 'Sylvan.'],
@@ -9698,6 +9707,7 @@ export default createPublicationMonsters({
     },
     stone_giant: {
       name: 'Stone Giant',
+      reprintedIn: [refs.publications.srd_5_1],
       page: 152,
       alignment: 'neutral',
       languages: ['Giant.'],
@@ -9883,7 +9893,6 @@ export default createPublicationMonsters({
     },
     thug: {
       name: 'Thug',
-      reprintedIn: [refs.publications.srd_5_1],
       tags: ['any race'],
       page: 350,
       alignment: 'any non-good alignment',
@@ -10024,6 +10033,7 @@ export default createPublicationMonsters({
     },
     treant: {
       name: 'Treant',
+      reprintedIn: [refs.publications.srd_5_1],
       page: 289,
       alignment: 'chaotic good',
       languages: ['Common', 'Druidic', 'Elvish', 'Sylvan.'],
@@ -10104,7 +10114,6 @@ export default createPublicationMonsters({
     },
     tribal_warrior: {
       name: 'Tribal Warrior',
-      reprintedIn: [refs.publications.srd_5_1],
       tags: ['any race'],
       page: 350,
       alignment: 'any alignment',
@@ -10149,7 +10158,7 @@ export default createPublicationMonsters({
     },
     triceratops: {
       name: 'Triceratops',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 80,
       alignment: 'unaligned',
       habitats: ['Grassland', 'Open plains', 'Open woodland'],
@@ -10386,6 +10395,7 @@ export default createPublicationMonsters({
     },
     troll: {
       name: 'Troll',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 291,
       alignment: 'chaotic evil',
       languages: ['Giant.'],
@@ -10455,6 +10465,7 @@ export default createPublicationMonsters({
     },
     twig_blight: {
       name: 'Twig Blight',
+      reprintedIn: [refs.publications.basic_rules_2018],
       page: 31,
       alignment: 'neutral evil',
       languages: ['Understands Common and cannot speak.'],
@@ -10497,7 +10508,7 @@ export default createPublicationMonsters({
     },
     tyrannosaurus_rex: {
       name: 'Tyrannosaurus Rex',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 80,
       alignment: 'unaligned',
       habitats: ['Grassland', 'Open plains', 'Woodland edges'],
@@ -10927,6 +10938,7 @@ export default createPublicationMonsters({
         refs.publications.basic_rules_2018,
         refs.publications.ddep1_corruption_in_kryptgarden,
         refs.publications.rise_of_tiamat_online_supplement,
+        refs.publications.srd_5_1,
       ],
       page: 341,
       alignment: 'unaligned',
@@ -10990,6 +11002,7 @@ export default createPublicationMonsters({
     },
     worg: {
       name: 'Worg',
+      reprintedIn: [refs.publications.basic_rules_2018],
       page: 341,
       alignment: 'neutral evil',
       languages: ['Goblin and Worg.'],
@@ -11037,6 +11050,7 @@ export default createPublicationMonsters({
     },
     wyvern: {
       name: 'Wyvern',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 303,
       alignment: 'unaligned',
       languages: ['None.'],

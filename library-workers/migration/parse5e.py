@@ -567,7 +567,13 @@ def main():
   types=set(sys.argv[1].split(',')) if len(sys.argv)>1 else {'beasts'}
   # Printings read straight from a source PDF (srd521_monsters.py) join the worker printings.
   for extra in filter(None,os.environ.get('EXTRA_PRINTINGS','').split(':')):
+    by_slug={}
+    for r_ in recs: by_slug.setdefault(r_['slug'],[]).append(r_)
     for rec in json.load(open(extra)):
+      # Take the catalog's own id and type for this printing, so the conversion lands on it.
+      for p in rec['printings']:
+        same=next(((r_,q) for r_ in by_slug.get(rec['slug'],[]) for q in r_['printings'] if q['label']==p['label']),None)
+        if same: p['id']=same[1]['id']; rec['type']=same[0]['type']
       rec['from_pdf']=True; recs.append(rec)
   out=[]; tally=collections.Counter(); why=collections.Counter()
   for r in recs:
