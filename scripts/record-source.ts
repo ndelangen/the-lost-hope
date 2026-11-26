@@ -356,3 +356,48 @@ export function definitionModule(source: string): string {
   }
   throw new NotEditable(`Could not find where ${helper} comes from`)
 }
+
+const RESERVED_WORDS = new Set(
+  'break case catch class const continue debugger default delete do else enum export extends false finally for function if import in instanceof new null return super switch this throw true try typeof var void while with yield let static implements interface package private protected public await'.split(
+    ' ',
+  ),
+)
+
+/** A new record's file slug and registry key, both derived from its name. */
+export function recordIdentity(slug: string): { slug: string; key: string } {
+  const key = slug.replaceAll('-', '_')
+  if (!slug) throw new NotEditable('Give it a name with letters or numbers in it')
+  if (!/^[a-z_][a-z0-9_]*$/u.test(key) || RESERVED_WORDS.has(key))
+    throw new NotEditable('Start the name with a letter, and make it more than one common word')
+  return { slug, key }
+}
+
+const capitalised = (kind: string) => kind[0]!.toUpperCase() + kind.slice(1)
+
+/** A whole data module for a new record: `export default create<Kind>({ … })`. */
+export function recordModule(kind: string, record: Record<string, unknown>): string {
+  const names: Required<RefImports> = { campaign: 'refs', library: 'libraryRefs' }
+  const used = new Set<keyof RefImports>()
+  const body = Object.entries(record)
+    .filter(([, value]) => value !== undefined)
+    .map(
+      ([name, value]) =>
+        `  ${IDENTIFIER.test(name) ? name : quote(name)}: ${print(value, names, used)},`,
+    )
+    .join('\n')
+  const helper = `create${capitalised(kind)}`
+  const source = `import { create as ${helper} } from '#/definitions/${kind}.ts'\n\nexport default ${helper}({\n${body}\n})\n`
+  return withImports(source, used, names)
+}
+
+/** Registers a new record in its kind's `_index.ts`: an import and a registry entry. */
+export function addToIndex(index: string, { slug, key }: { slug: string; key: string }): string {
+  const importLine = `import ${key} from './${slug}.ts'`
+  if (index.includes(importLine)) throw new Conflict(`${key} is already registered`)
+  const lines = index.split('\n')
+  lines.splice(lines.findLastIndex((line) => line.startsWith('import ')) + 1, 0, importLine)
+  const withImport = lines.join('\n')
+  const close = withImport.lastIndexOf('\n}')
+  if (close === -1) throw new NotEditable('Could not find the end of the registry')
+  return `${withImport.slice(0, close)}\n  ${key},${withImport.slice(close)}`
+}

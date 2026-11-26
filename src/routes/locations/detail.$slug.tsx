@@ -3,6 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmFields } from '#/components/dm/dm-fields'
+import { NewPlaceOnMap } from '#/components/dm/new-place-on-map'
 import { ShopPanel } from '#/components/dm/shop/shop-panel'
 import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
@@ -202,7 +203,8 @@ function LocationDetailPage() {
               </p>
             ) : null}
           </Inline>
-          <LocationMapPlot
+          <NewPlaceOnMap
+            parentKey={sourceRecordBySlug('location', slug)?.key}
             map={destinationMap}
             label={
               connections.length > 0

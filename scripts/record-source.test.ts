@@ -1,11 +1,13 @@
 import { describe, expect, it } from 'vitest'
 
 import {
+  addToIndex,
   applyRecordEdits,
   Conflict,
   definitionModule,
   NotEditable,
   readRecord,
+  recordModule,
 } from './record-source.ts'
 
 const BADESH = `import { refs } from '#/data/generated/refs.ts'
@@ -97,5 +99,38 @@ describe('applyRecordEdits', () => {
         { op: 'set', path: ['shop'], value: { type: 'bakery', stock: [] } },
       ]),
     ).toThrow(NotEditable)
+  })
+})
+
+describe('recordModule', () => {
+  it('prints a new record with the imports its refs need', () => {
+    const source = recordModule('location', {
+      name: 'The Gilded Flask',
+      type: 'building',
+      parent: { ref: 'location', key: 'fairhaven' },
+      at: [100, 200],
+      shop: { type: 'alchemist', stock: [{ item: { ref: 'equipment', key: 'antitoxin' } }] },
+    })
+    expect(source).toContain("import { create as createLocation } from '#/definitions/location.ts'")
+    expect(source).toContain("import { refs } from '#/data/generated/refs.ts'")
+    expect(source).toContain(
+      "import { refs as libraryRefs } from '#/data/generated/library-refs.ts'",
+    )
+    expect(readRecord(source)).toEqual({
+      name: 'The Gilded Flask',
+      type: 'building',
+      parent: { ref: 'location', key: 'fairhaven' },
+      at: [100, 200],
+      shop: { type: 'alchemist', stock: [{ item: { ref: 'equipment', key: 'antitoxin' } }] },
+    })
+  })
+})
+
+describe('addToIndex', () => {
+  it('adds the import and the registry entry', () => {
+    const index = "import a from './a.ts'\n\nexport default {\n  a,\n}\n"
+    expect(addToIndex(index, { slug: 'b-c', key: 'b_c' })).toBe(
+      "import a from './a.ts'\nimport b_c from './b-c.ts'\n\nexport default {\n  a,\n  b_c,\n}\n",
+    )
   })
 })

@@ -24,3 +24,20 @@ export async function saveRecordEdits(
   const body = (await response?.json().catch(() => undefined)) as { error?: string } | undefined
   throw new Error(body?.error ?? 'Not saved. Is the dev server running?')
 }
+
+/** Creates a campaign record through the dev server; resolves with its slug and key. */
+export async function createRecord(
+  kind: string,
+  record: Record<string, unknown>,
+): Promise<{ slug: string; key: string }> {
+  const response = await fetch('/__dev/records', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ kind, create: record }),
+  }).catch(() => undefined)
+  const body = (await response?.json().catch(() => undefined)) as
+    | { slug?: string; key?: string; error?: string }
+    | undefined
+  if (response?.ok && body?.slug && body.key) return { slug: body.slug, key: body.key }
+  throw new Error(body?.error ?? 'Not created. Is the dev server running?')
+}

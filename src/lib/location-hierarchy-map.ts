@@ -10,6 +10,8 @@ export type LocationHierarchyMapPoint = {
   left: number
   top: number
   current: boolean
+  /** A place the party has not met, which only the DM's map shows. */
+  unmet?: true
 }
 
 export type LocationHierarchyMapModel = {
@@ -94,4 +96,34 @@ export function normalizedMapCoordinateDistance(
   map: Location['map'],
 ): number {
   return Math.hypot((first[0] - second[0]) / map.width, (first[1] - second[1]) / map.height)
+}
+
+type SourceLocation = Location & { slug: string }
+
+/**
+ * A location's map for the DM: every place recorded directly within it, met by the party or not.
+ * Unmet places are marked so the map links them to their DM page.
+ */
+export function sourceLocationMap(
+  owner: SourceLocation,
+  locations: Readonly<Record<string, SourceLocation>>,
+  met: (slug: string) => boolean,
+): LocationHierarchyMapModel {
+  const ownerKey = Object.keys(locations).find((key) => locations[key]?.slug === owner.slug)
+  const points = Object.values(locations).flatMap((location) => {
+    if (!location.parent || location.parent.key !== ownerKey || !location.at) return []
+    return [
+      {
+        id: `location:${location.slug}`,
+        slug: location.slug,
+        name: location.name,
+        icon: location.icon,
+        left: (location.at[0] / owner.map.width) * 100,
+        top: (location.at[1] / owner.map.height) * 100,
+        current: false,
+        ...(met(location.slug) ? {} : { unmet: true as const }),
+      },
+    ]
+  })
+  return { asset: owner.map, points }
 }

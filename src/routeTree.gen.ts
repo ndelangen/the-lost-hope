@@ -40,6 +40,7 @@ import { Route as CardsDetailSlugRouteImport } from './routes/cards/detail.$slug
 import { Route as DmArcsIndexRouteImport } from './routes/dm/arcs/index'
 import { Route as DmArcsSlugRouteImport } from './routes/dm/arcs/$slug'
 import { Route as DmItemsSlugRouteImport } from './routes/dm/items/$slug'
+import { Route as DmLocationsSlugRouteImport } from './routes/dm/locations/$slug'
 import { Route as DmNpcsSlugRouteImport } from './routes/dm/npcs/$slug'
 import { Route as DmNpcsNewRouteImport } from './routes/dm/npcs/new'
 import { Route as DmScenesIndexRouteImport } from './routes/dm/scenes/index'
@@ -219,6 +220,11 @@ const DmItemsSlugRoute = DmItemsSlugRouteImport.update({
   path: '/items/$slug',
   getParentRoute: () => DmRouteRoute,
 } as any)
+const DmLocationsSlugRoute = DmLocationsSlugRouteImport.update({
+  id: '/locations/$slug',
+  path: '/locations/$slug',
+  getParentRoute: () => DmRouteRoute,
+} as any)
 const DmNpcsSlugRoute = DmNpcsSlugRouteImport.update({
   id: '/npcs/$slug',
   path: '/npcs/$slug',
@@ -366,6 +372,7 @@ export interface FileRoutesByFullPath {
   '/cards/detail/$slug': typeof CardsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/items/$slug': typeof DmItemsSlugRoute
+  '/dm/locations/$slug': typeof DmLocationsSlugRoute
   '/dm/npcs/$slug': typeof DmNpcsSlugRoute
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
@@ -421,6 +428,7 @@ export interface FileRoutesByTo {
   '/cards/detail/$slug': typeof CardsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/items/$slug': typeof DmItemsSlugRoute
+  '/dm/locations/$slug': typeof DmLocationsSlugRoute
   '/dm/npcs/$slug': typeof DmNpcsSlugRoute
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
@@ -478,6 +486,7 @@ export interface FileRoutesById {
   '/cards/detail/$slug': typeof CardsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/items/$slug': typeof DmItemsSlugRoute
+  '/dm/locations/$slug': typeof DmLocationsSlugRoute
   '/dm/npcs/$slug': typeof DmNpcsSlugRoute
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
@@ -536,6 +545,7 @@ export interface FileRouteTypes {
     | '/cards/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/items/$slug'
+    | '/dm/locations/$slug'
     | '/dm/npcs/$slug'
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
@@ -591,6 +601,7 @@ export interface FileRouteTypes {
     | '/cards/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/items/$slug'
+    | '/dm/locations/$slug'
     | '/dm/npcs/$slug'
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
@@ -647,6 +658,7 @@ export interface FileRouteTypes {
     | '/cards/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/items/$slug'
+    | '/dm/locations/$slug'
     | '/dm/npcs/$slug'
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
@@ -937,6 +949,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DmItemsSlugRouteImport
       parentRoute: typeof DmRouteRoute
     }
+    '/dm/locations/$slug': {
+      id: '/dm/locations/$slug'
+      path: '/locations/$slug'
+      fullPath: '/dm/locations/$slug'
+      preLoaderRoute: typeof DmLocationsSlugRouteImport
+      parentRoute: typeof DmRouteRoute
+    }
     '/dm/npcs/$slug': {
       id: '/dm/npcs/$slug'
       path: '/npcs/$slug'
@@ -1106,6 +1125,7 @@ interface DmRouteRouteChildren {
   DmIndexRoute: typeof DmIndexRoute
   DmArcsSlugRoute: typeof DmArcsSlugRoute
   DmItemsSlugRoute: typeof DmItemsSlugRoute
+  DmLocationsSlugRoute: typeof DmLocationsSlugRoute
   DmNpcsSlugRoute: typeof DmNpcsSlugRoute
   DmNpcsNewRoute: typeof DmNpcsNewRoute
   DmScenesSlugRoute: typeof DmScenesSlugRoute
@@ -1121,6 +1141,7 @@ const DmRouteRouteChildren: DmRouteRouteChildren = {
   DmIndexRoute: DmIndexRoute,
   DmArcsSlugRoute: DmArcsSlugRoute,
   DmItemsSlugRoute: DmItemsSlugRoute,
+  DmLocationsSlugRoute: DmLocationsSlugRoute,
   DmNpcsSlugRoute: DmNpcsSlugRoute,
   DmNpcsNewRoute: DmNpcsNewRoute,
   DmScenesSlugRoute: DmScenesSlugRoute,

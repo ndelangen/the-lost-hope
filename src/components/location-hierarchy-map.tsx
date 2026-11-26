@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { Link } from '@tanstack/react-router'
+import { useState, type ReactNode } from 'react'
 
 import { LocationReference } from '#/components/location-reference'
 import { ResponsiveImage } from '#/components/responsive-image'
@@ -9,7 +10,16 @@ import { LocationIcon } from '#/lib/location-icons'
 import { hasPublicAsset } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
 
-export function LocationMapPlot({ map, label }: { map: LocationHierarchyMapModel; label: string }) {
+export function LocationMapPlot({
+  map,
+  label,
+  overlay,
+}: {
+  map: LocationHierarchyMapModel
+  label: string
+  /** Drawn over the map, in the same box as its markers, such as a layer that places a new one. */
+  overlay?: ReactNode
+}) {
   const [failedSource, setFailedSource] = useState<string>()
   const { url, width, height, schematicPositions } = map.asset
   const hasArtwork = failedSource !== url && !url.includes('placehold') && hasPublicAsset(url)
@@ -37,37 +47,54 @@ export function LocationMapPlot({ map, label }: { map: LocationHierarchyMapModel
           />
         ) : null}
 
-        {map.points.map((point) => (
-          <LocationReference
-            key={point.id}
-            slug={point.slug}
-            label={locationMapPointLabel(point)}
-            unstyled
-            wrapperClassName="group absolute -translate-x-1/2 -translate-y-1/2"
-            wrapperStyle={{ left: `${point.left}%`, top: `${point.top}%` }}
-            className="block rounded-full focus-visible:ring-4 focus-visible:ring-sky-500/50 focus-visible:outline-none"
-          >
-            {() => (
-              <span
-                className={cn(
-                  'bg-background text-primary flex size-9 items-center justify-center rounded-full border-2 shadow-md transition-transform group-hover:scale-110',
-                  point.current ? 'border-sky-500 ring-4 ring-sky-500/30' : 'border-primary/70',
-                  point.connection?.type === 'portal' &&
-                    'border-violet-500 ring-2 ring-violet-500/30',
-                )}
-                title={
-                  point.current ? `${point.name} — You are here` : locationMapPointLabel(point)
-                }
-              >
+        {map.points.map((point) =>
+          point.unmet ? (
+            <Link
+              key={point.id}
+              to="/dm/locations/$slug"
+              params={{ slug: point.slug }}
+              title={`${point.name} — the party has not been here`}
+              className="group absolute block -translate-x-1/2 -translate-y-1/2 rounded-full focus-visible:ring-4 focus-visible:ring-sky-500/50 focus-visible:outline-none"
+              style={{ left: `${point.left}%`, top: `${point.top}%` }}
+            >
+              <span className="bg-background/90 text-muted-foreground flex size-9 items-center justify-center rounded-full border-2 border-dashed border-amber-500 shadow-md transition-transform group-hover:scale-110">
                 <LocationIcon icon={point.icon} className="size-4" />
-                <span className="sr-only">
-                  {locationMapPointLabel(point)}
-                  {point.current ? ' — You are here' : ''}
-                </span>
+                <span className="sr-only">{point.name}, not yet met</span>
               </span>
-            )}
-          </LocationReference>
-        ))}
+            </Link>
+          ) : (
+            <LocationReference
+              key={point.id}
+              slug={point.slug}
+              label={locationMapPointLabel(point)}
+              unstyled
+              wrapperClassName="group absolute -translate-x-1/2 -translate-y-1/2"
+              wrapperStyle={{ left: `${point.left}%`, top: `${point.top}%` }}
+              className="block rounded-full focus-visible:ring-4 focus-visible:ring-sky-500/50 focus-visible:outline-none"
+            >
+              {() => (
+                <span
+                  className={cn(
+                    'bg-background text-primary flex size-9 items-center justify-center rounded-full border-2 shadow-md transition-transform group-hover:scale-110',
+                    point.current ? 'border-sky-500 ring-4 ring-sky-500/30' : 'border-primary/70',
+                    point.connection?.type === 'portal' &&
+                      'border-violet-500 ring-2 ring-violet-500/30',
+                  )}
+                  title={
+                    point.current ? `${point.name} — You are here` : locationMapPointLabel(point)
+                  }
+                >
+                  <LocationIcon icon={point.icon} className="size-4" />
+                  <span className="sr-only">
+                    {locationMapPointLabel(point)}
+                    {point.current ? ' — You are here' : ''}
+                  </span>
+                </span>
+              )}
+            </LocationReference>
+          ),
+        )}
+        {overlay}
       </div>
       {!hasArtwork || schematicPositions ? (
         <figcaption className="text-muted-foreground border-border border-t px-3 py-2 text-xs">

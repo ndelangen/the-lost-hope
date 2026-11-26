@@ -7,18 +7,22 @@
  * The plugin applies only to `vite dev`, so nothing here reaches the static deployment.
  */
 import { spawn } from 'node:child_process'
-import { readFile, rename, writeFile } from 'node:fs/promises'
+import { readFile, rename, rm, writeFile } from 'node:fs/promises'
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import path from 'node:path'
 
 import type { Plugin, ViteDevServer } from 'vite'
 
+import { generateRefs } from './generate-refs.ts'
 import {
+  addToIndex,
   applyRecordEdits,
   Conflict,
   definitionModule,
   NotEditable,
   readRecord,
+  recordIdentity,
+  recordModule,
   type RecordEdit,
 } from './record-source.ts'
 
@@ -118,7 +122,7 @@ function oxfmt(file: string) {
   })
 }
 
-type EditRequest = { kind?: unknown; key?: unknown; edits?: unknown }
+type EditRequest = { kind?: unknown; key?: unknown; edits?: unknown; create?: unknown }
 
 const isEdit = (edit: unknown): edit is RecordEdit => {
   if (!edit || typeof edit !== 'object') return false
@@ -147,7 +151,11 @@ async function handle(server: ViteDevServer, request: IncomingMessage, response:
   if (request.method !== 'POST') return send(response, 405, { error: 'POST edits here' })
   if (!allowed(request)) return send(response, 403, { error: 'Not allowed from this page' })
   try {
-    const { kind, key, edits } = (await readJson(request)) as EditRequest
+    const { kind, key, edits, create: input } = (await readJson(request)) as EditRequest
+    if (typeof kind === 'string' && input !== undefined) {
+      const result = await createRecord(server, kind, input)
+      return send(response, result.status, result.body)
+    }
     if (typeof kind !== 'string' || typeof key !== 'string')
       return send(response, 422, { error: 'Say which record to edit' })
     if (!Array.isArray(edits) || edits.length === 0 || !edits.every(isEdit))
@@ -196,4 +204,86 @@ async function handle(server: ViteDevServer, request: IncomingMessage, response:
     if (error instanceof NotEditable) return send(response, 422, { error: error.message })
     return send(response, 500, { error: (error as Error).message })
   }
+}
+
+type Outcome = { status: number; body: unknown }
+
+/** Every name already taken: record keys and slugs of every kind, since slugs are shared. */
+async function takenIdentities(server: ViteDevServer) {
+  const { SOURCE_REGISTRIES } = (await server.ssrLoadModule('/src/lib/campaign-registries.ts')) as {
+    SOURCE_REGISTRIES: Record<string, Record<string, { slug?: string }>>
+  }
+  const dm = (await server.ssrLoadModule('/src/lib/dm-campaign.ts')) as Record<
+    string,
+    Record<string, { slug?: string }>
+  >
+  const registries = [...Object.values(SOURCE_REGISTRIES), dm.arcs, dm.scenes, dm.creatures]
+  return {
+    keys: new Set(registries.flatMap((registry) => Object.keys(registry ?? {}))),
+    slugs: new Set(
+      registries.flatMap((registry) =>
+        Object.values(registry ?? {}).flatMap((record) => (record.slug ? [record.slug] : [])),
+      ),
+    ),
+  }
+}
+
+/**
+ * Creates a campaign record: validates it, writes its file, registers it and regenerates the refs.
+ * The refs change reaches almost every module, so the page reloads after a create.
+ */
+async function createRecord(server: ViteDevServer, kind: string, input: unknown): Promise<Outcome> {
+  const folder = EDITABLE_KINDS[kind]
+  if (!folder) return { status: 404, body: { error: `Cannot create a ${kind} here` } }
+  if (!input || typeof input !== 'object' || Array.isArray(input))
+    return { status: 422, body: { error: 'Send the new record' } }
+  const record = input as Record<string, unknown>
+  const { create } = (await server.ssrLoadModule(`/src/definitions/${kind}.ts`)) as {
+    create?: (input: unknown) => { slug: string }
+  }
+  if (!create) return { status: 404, body: { error: `No definition for ${kind}` } }
+  let slug: string
+  try {
+    slug = create(record).slug
+  } catch (error) {
+    const issues = (error as { issues?: { path: PropertyKey[]; message: string }[] }).issues
+    return {
+      status: 422,
+      body: {
+        error: issues
+          ? issues.map((issue) => `${issue.path.join('.')}: ${issue.message}`).join('; ')
+          : (error as Error).message,
+      },
+    }
+  }
+  const identity = recordIdentity(slug)
+  const missing = await missingRefs(server, record)
+  if (missing.length > 0) {
+    return {
+      status: 422,
+      body: { error: `Unknown references: ${missing.map((r) => `${r.ref} ${r.key}`).join(', ')}` },
+    }
+  }
+
+  return exclusive(async () => {
+    const taken = await takenIdentities(server)
+    if (taken.keys.has(identity.key) || taken.slugs.has(identity.slug))
+      return { status: 409, body: { error: `Something called ${identity.slug} already exists` } }
+    const file = path.join(ROOT, 'src/data', folder, `${identity.slug}.ts`)
+    const indexPath = path.join(ROOT, 'src/data', folder, '_index.ts')
+    const index = await readFile(indexPath, 'utf8')
+    await writeFile(file, recordModule(kind, record), { flag: 'wx' })
+    try {
+      await writeFile(indexPath, addToIndex(index, identity))
+      await oxfmt(file)
+      await oxfmt(indexPath)
+      await generateRefs()
+    } catch (error) {
+      await writeFile(indexPath, index)
+      await rm(file, { force: true })
+      await generateRefs()
+      throw error
+    }
+    return { status: 201, body: identity }
+  })
 }
