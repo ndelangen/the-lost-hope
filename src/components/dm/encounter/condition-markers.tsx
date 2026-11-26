@@ -1,4 +1,4 @@
-import { Brain, X } from 'lucide-react'
+import { Brain, Sparkles, X } from 'lucide-react'
 
 import { EffectText } from '#/components/effect-text'
 import { RuleExplanation } from '#/components/rule-term'
@@ -6,32 +6,54 @@ import { HoverPreview } from '#/components/ui/hover-preview'
 import type { Effect } from '#/definitions/effect'
 import { CONDITION_ICONS } from '#/lib/condition-icons'
 import { EffectIcon } from '#/lib/effect-icons'
-import { describeDuration, type ActiveCondition } from '#/lib/encounter-combat'
+import {
+  describeDuration,
+  describeOrigin,
+  originName,
+  type ActiveCondition,
+  type AppliedEffect,
+} from '#/lib/encounter-combat'
 import { ruleRef } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
 import { useDensity } from './density'
 
+const unnamedAbility = () => undefined
+const noEffects: readonly AppliedEffect[] = []
+
 /**
- * A combatant's conditions as small icon + name markers, with the rule and its duration on hover,
- * tap, or keyboard focus. Concentration shows alongside.
+ * A combatant's conditions as small icon + name markers, with the rule, its duration, and where
+ * it came from on hover, tap, or keyboard focus. Applied effects that do more than their
+ * conditions get a marker of their own. Concentration shows alongside.
  */
 export function ConditionMarkers({
   conditions,
+  appliedEffects = noEffects,
   concentration,
   nameOf,
+  abilityName = unnamedAbility,
   onRemove,
+  onRemoveEffect,
   compact = false,
 }: {
   conditions: readonly ActiveCondition[]
+  appliedEffects?: readonly AppliedEffect[]
   concentration?: { on: string }
   nameOf: (id: string) => string
+  /** Names abilities that effects came from: a combatant's ability by its key. */
+  abilityName?: (combatant: string, key: string) => string | undefined
   onRemove?: (conditionId: string) => void
+  onRemoveEffect?: (effectId: string) => void
   /** Icons only, for tight rows. */
   compact?: boolean
 }) {
   const focus = useDensity() === 'focus'
-  if (conditions.length === 0 && !concentration) return null
+  const names = { nameOf, abilityName }
+  // An effect whose conditions say it all is shown by those conditions.
+  const riders = appliedEffects.filter((effect) => effect.text)
+  if (conditions.length === 0 && riders.length === 0 && !concentration) return null
+  const effectOf = (held: ActiveCondition) =>
+    held.effect ? appliedEffects.find((effect) => effect.id === held.effect) : undefined
   const marker = cn(
     'inline-flex items-center gap-1 rounded-md border font-medium outline-none focus-visible:ring-3 focus-visible:ring-ring/50',
     focus ? 'h-8 px-2 text-sm [&_svg]:size-4' : 'h-6 px-1.5 text-xs [&_svg]:size-3.5',
@@ -65,6 +87,45 @@ export function ConditionMarkers({
           </button>
         </HoverPreview>
       ) : null}
+      {riders.map((effect) => {
+        const label = originName(effect.origin, names)
+        const tone =
+          'border-sky-500/40 bg-sky-500/10 text-sky-800 dark:text-sky-300 hover:bg-sky-500/20'
+        return (
+          <span key={effect.id} className="inline-flex items-center">
+            <HoverPreview
+              interactive
+              content={
+                <>
+                  <strong>{describeOrigin(effect.origin, names)}</strong>
+                  <span>{effect.text}</span>
+                  <span className="text-muted-foreground">
+                    {describeDuration(effect.duration, nameOf)}
+                  </span>
+                </>
+              }
+            >
+              <button
+                type="button"
+                className={cn(marker, tone, onRemoveEffect && 'rounded-r-none')}
+              >
+                <Sparkles aria-hidden />
+                {compact ? <span className="sr-only">{label}</span> : label}
+              </button>
+            </HoverPreview>
+            {onRemoveEffect ? (
+              <button
+                type="button"
+                aria-label={`End ${label}`}
+                onClick={() => onRemoveEffect(effect.id)}
+                className={cn(marker, tone, 'rounded-l-none border-l-0')}
+              >
+                <X aria-hidden />
+              </button>
+            ) : null}
+          </span>
+        )
+      })}
       {conditions.map((held) => {
         const Icon = CONDITION_ICONS[held.condition]
         return (
@@ -77,6 +138,22 @@ export function ConditionMarkers({
                   <span className="text-muted-foreground">
                     {describeDuration(held.duration, nameOf)}
                   </span>
+                  {effectOf(held) ? (
+                    <span className="flex flex-wrap items-center gap-2">
+                      <span className="text-muted-foreground">
+                        From {describeOrigin(effectOf(held)!.origin, names)}
+                      </span>
+                      {onRemoveEffect ? (
+                        <button
+                          type="button"
+                          onClick={() => onRemoveEffect(effectOf(held)!.id)}
+                          className="border-border hover:bg-muted rounded-md border px-2 py-0.5 text-xs font-medium"
+                        >
+                          End {originName(effectOf(held)!.origin, names)}
+                        </button>
+                      ) : null}
+                    </span>
+                  ) : null}
                 </>
               }
             >
@@ -115,11 +192,14 @@ export function ConditionMarkers({
 /** Compact, non-interactive condition icons for places that are already a button, like rows. */
 export function ConditionBadges({
   conditions,
+  appliedEffects = noEffects,
   concentration,
   out,
   effects = [],
 }: {
   conditions: readonly ActiveCondition[]
+  /** Spell and ability effects applied in this fight; those with a rider get a badge. */
+  appliedEffects?: readonly AppliedEffect[]
   concentration?: { on: string }
   /** Down or dead. */
   out?: 'down' | 'dead' | 'dying' | 'stable'
@@ -127,7 +207,15 @@ export function ConditionBadges({
   effects?: readonly Pick<Effect, 'name' | 'icon'>[]
 }) {
   const focus = useDensity() === 'focus'
-  if (conditions.length === 0 && !concentration && !out && effects.length === 0) return null
+  const riders = appliedEffects.filter((effect) => effect.text)
+  if (
+    conditions.length === 0 &&
+    riders.length === 0 &&
+    !concentration &&
+    !out &&
+    effects.length === 0
+  )
+    return null
   const badge = cn(
     'inline-flex items-center justify-center rounded-md',
     focus ? 'size-7 [&_svg]:size-4' : 'size-5 [&_svg]:size-3.5',
@@ -156,6 +244,16 @@ export function ConditionBadges({
         >
           <EffectIcon icon={effect.icon} />
           <span className="sr-only">{effect.name}</span>
+        </span>
+      ))}
+      {riders.map((effect) => (
+        <span
+          key={effect.id}
+          title={effect.text}
+          className={cn(badge, 'bg-sky-500/15 text-sky-800 dark:text-sky-300')}
+        >
+          <Sparkles aria-hidden />
+          <span className="sr-only">Effect: {effect.text}</span>
         </span>
       ))}
       {concentration ? (

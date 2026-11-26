@@ -17,7 +17,9 @@ import { CONDITION_ICONS } from '#/lib/condition-icons'
 import { EffectIcon } from '#/lib/effect-icons'
 import {
   describeDuration,
+  describeOrigin,
   type EffectReminder,
+  type OriginNames,
   type LairPrompt,
   type TurnNote,
   type TurnReminder,
@@ -27,6 +29,8 @@ import { cn } from '#/lib/utils'
 
 import { useDensity } from './density'
 import { ActionButton } from './icon-button'
+
+const unnamedAbility = () => undefined
 
 /**
  * What the DM should do now: reminders for the creature whose turn it is, and what just happened
@@ -42,6 +46,8 @@ export function TurnCard({
   lair = [],
   onLairAction,
   effectReminders = [],
+  abilityName = unnamedAbility,
+  onEndEffect,
 }: {
   name: string
   reminders: readonly TurnReminder[]
@@ -54,6 +60,10 @@ export function TurnCard({
   onLairAction?: (combatant: string, key: string) => void
   /** Campaign effects that ask for a reminder as the encounter starts. */
   effectReminders?: readonly EffectReminder[]
+  /** Names the abilities that applied effects came from. */
+  abilityName?: (combatant: string, key: string) => string | undefined
+  /** End an applied effect, when its save succeeds. */
+  onEndEffect?: (combatant: string, effectId: string) => void
 }) {
   const focus = useDensity() === 'focus'
   if (
@@ -118,7 +128,12 @@ export function TurnCard({
         {notes.map((note, index) => (
           // oxlint-disable-next-line react/no-array-index-key -- notes are positional
           <Item key={`note-${index}`} icon={noteIcon(note)}>
-            {noteText(note, nameOf)}
+            {noteText(note, { nameOf, abilityName })}
+            {note.kind === 'effect-save' && onEndEffect ? (
+              <ActionButton onClick={() => onEndEffect(note.combatant, note.effect.id)}>
+                <Check aria-hidden /> Saved: end it
+              </ActionButton>
+            ) : null}
           </Item>
         ))}
         {reminders.map((reminder) => {
@@ -176,12 +191,29 @@ export function TurnCard({
 
 function noteIcon(note: TurnNote) {
   if (note.kind === 'legendary-refilled') return <Crown aria-hidden className="text-amber-600" />
-  if (note.kind === 'save-to-end') return <ShieldQuestion aria-hidden className="text-sky-600" />
+  if (note.kind === 'save-to-end' || note.kind === 'effect-save')
+    return <ShieldQuestion aria-hidden className="text-sky-600" />
   return <Hourglass aria-hidden className="text-muted-foreground" />
 }
 
-function noteText(note: TurnNote, nameOf: (id: string) => string): ReactNode {
+function noteText(note: TurnNote, names: OriginNames): ReactNode {
+  const { nameOf } = names
   switch (note.kind) {
+    case 'effect-expired':
+      return (
+        <span>
+          <strong>{describeOrigin(note.effect.origin, names)}</strong> ends on{' '}
+          {nameOf(note.combatant)}
+          {note.conditions.length ? `: no longer ${note.conditions.join(' or ')}` : ''}.
+        </span>
+      )
+    case 'effect-save':
+      return (
+        <span>
+          <strong>{nameOf(note.combatant)}</strong> rolls a DC {note.dc} {rules[note.ability].name}{' '}
+          save to end <strong>{describeOrigin(note.effect.origin, names)}</strong>.
+        </span>
+      )
     case 'expired':
       return (
         <span>

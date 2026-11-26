@@ -11,6 +11,7 @@ import { cn } from '#/lib/utils'
 import { AbilityQuickList } from '../ability-quick-list'
 import { AbilityDetail } from './ability-controls'
 import { describeReferences } from './ability-text'
+import { AbilityEffect, type ApplyEffectActions } from './apply-effect'
 import { CombatantPlan } from './combatant-plan'
 import { useDensity } from './density'
 import { EditableNumber, HpControl } from './hp-control'
@@ -41,6 +42,7 @@ export function CombatantPanel({
   openAbility,
   actions,
   status,
+  applyEffects,
 }: {
   combatant: CombatantView
   isActive: boolean
@@ -50,6 +52,8 @@ export function CombatantPanel({
   actions: CombatantActions
   /** Conditions, concentration, and 0 HP for this combatant. */
   status?: ReactNode
+  /** Applying an open ability's effect to whoever it hits. */
+  applyEffects?: ApplyEffectActions
 }) {
   const focus = useDensity() === 'focus'
   const { stats, derived: block } = combatant
@@ -83,7 +87,18 @@ export function CombatantPanel({
         }
         block={block!}
         describe={describeReferences(stats!, block!, counts, actions.use)}
-      />
+      >
+        {applyEffects ? (
+          <AbilityEffect
+            key={open.key}
+            ability={open}
+            block={block!}
+            source={combatant.id}
+            sourceName={combatant.name}
+            actions={applyEffects}
+          />
+        ) : null}
+      </AbilityDetail>
     ) : null
   return (
     <section

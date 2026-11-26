@@ -1,11 +1,17 @@
-import { Brain, Castle, Check, HeartCrack, HeartPulse, Plus, Skull, X } from 'lucide-react'
+import { Brain, Castle, Check, HeartCrack, HeartPulse, Plus, Skull, Wand2, X } from 'lucide-react'
 import { useState } from 'react'
 
 import type { Effect } from '#/definitions/effect'
-import type { ActiveCondition, DeathSaves, DurationChoice } from '#/lib/encounter-combat'
+import type {
+  ActiveCondition,
+  AppliedEffect,
+  DeathSaves,
+  DurationChoice,
+} from '#/lib/encounter-combat'
 import type { Condition } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
+import { SpellEffect, type ApplyEffectActions } from './apply-effect'
 import { ConditionMarkers, EffectMarkers, WouldDie } from './condition-markers'
 import { ConditionPicker } from './condition-picker'
 import { useDensity } from './density'
@@ -13,6 +19,8 @@ import { ActionButton } from './icon-button'
 
 export type CombatState = {
   conditions: readonly ActiveCondition[]
+  /** Spell and ability effects applied in this fight. */
+  appliedEffects?: readonly AppliedEffect[]
   concentration?: { on: string }
   dying?: DeathSaves
   stable?: boolean
@@ -26,6 +34,8 @@ export type CombatState = {
 export type CombatStatusActions = {
   addCondition: (condition: Condition, duration: DurationChoice) => void
   removeCondition: (conditionId: string) => void
+  /** End an applied effect early, with its conditions. */
+  removeEffect?: (effectId: string) => void
   setConcentration: (on: string | undefined) => void
   startDying: () => void
   deathSave: (result: 'success' | 'failure', count?: number) => void
@@ -44,6 +54,7 @@ export function CombatStatus({
   actions,
   lair,
   effects = [],
+  applyEffects,
 }: {
   name: string
   isPc: boolean
@@ -56,9 +67,14 @@ export function CombatStatus({
   lair?: { inLair: boolean; onChange: (inLair: boolean) => void }
   /** Campaign effects in force, shown read-only beside the fight's conditions. */
   effects?: readonly Pick<Effect, 'name' | 'icon' | 'rules' | 'triggers'>[]
+  /** Applying spell effects to this combatant, and naming the abilities effects came from. */
+  applyEffects?: ApplyEffectActions & {
+    id: string
+    abilityName: (combatant: string, key: string) => string | undefined
+  }
 }) {
   const focus = useDensity() === 'focus'
-  const [picking, setPicking] = useState(false)
+  const [picking, setPicking] = useState<'condition' | 'spell'>()
   const [concentrationOn, setConcentrationOn] = useState('')
 
   return (
@@ -70,9 +86,12 @@ export function CombatStatus({
       <div className="flex flex-wrap items-center gap-2">
         <ConditionMarkers
           conditions={state.conditions}
+          appliedEffects={state.appliedEffects}
           concentration={state.concentration}
           nameOf={nameOf}
+          abilityName={applyEffects?.abilityName}
           onRemove={actions.removeCondition}
+          onRemoveEffect={actions.removeEffect}
         />
         {lair ? (
           <ActionButton
@@ -84,12 +103,21 @@ export function CombatStatus({
           </ActionButton>
         ) : null}
         <ActionButton
-          aria-expanded={picking}
-          onClick={() => setPicking((value) => !value)}
-          className={cn(picking && 'bg-muted')}
+          aria-expanded={picking === 'condition'}
+          onClick={() => setPicking((value) => (value === 'condition' ? undefined : 'condition'))}
+          className={cn(picking === 'condition' && 'bg-muted')}
         >
           <Plus aria-hidden /> Condition
         </ActionButton>
+        {applyEffects ? (
+          <ActionButton
+            aria-expanded={picking === 'spell'}
+            onClick={() => setPicking((value) => (value === 'spell' ? undefined : 'spell'))}
+            className={cn(picking === 'spell' && 'bg-muted')}
+          >
+            <Wand2 aria-hidden /> Spell effect
+          </ActionButton>
+        ) : null}
         {state.concentration ? (
           <ActionButton onClick={() => actions.setConcentration(undefined)}>
             <X aria-hidden /> Stop concentrating
@@ -123,14 +151,21 @@ export function CombatStatus({
         )}
       </div>
 
-      {picking ? (
+      {picking === 'condition' ? (
         <ConditionPicker
           combatants={combatants}
           defaultTurnOf={activeId}
           onApply={(condition, duration) => {
             actions.addCondition(condition, duration)
-            setPicking(false)
+            setPicking(undefined)
           }}
+        />
+      ) : null}
+      {picking === 'spell' && applyEffects ? (
+        <SpellEffect
+          target={applyEffects.id}
+          actions={applyEffects}
+          onDone={() => setPicking(undefined)}
         />
       ) : null}
     </section>

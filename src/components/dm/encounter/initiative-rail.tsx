@@ -123,6 +123,7 @@ export function InitiativeRail({
                     </span>
                     <ConditionBadges
                       conditions={row.combat.conditions}
+                      appliedEffects={row.combat.appliedEffects}
                       concentration={row.combat.concentration}
                       effects={row.effects}
                       out={

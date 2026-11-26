@@ -6,9 +6,15 @@ import type { Condition } from '#/lib/rules'
 import {
   CombatFields,
   applyTurnBoundary,
+  applyEffectTo,
+  endConcentrationEffects,
+  replaceable,
   makeCondition,
   recordDeathSave,
+  removeConditionFrom,
+  removeEffectFrom,
   type DurationChoice,
+  type EffectApplication,
   type TurnNote,
 } from './encounter-combat'
 
@@ -215,7 +221,8 @@ export function removeCombatant(encounter: Encounter, id: string): Encounter {
   if (index < 0) return encounter
   const roster = encounter.roster.toSpliced(index, 1)
   const active = encounter.active === id ? (roster[index] ?? roster[0])?.id : encounter.active
-  const { [id]: _removed, ...values } = encounter.values
+  // A caster who leaves the fight stops concentrating, which ends what it was holding.
+  const { [id]: _removed, ...values } = setConcentration(encounter, id, undefined).values
   return { ...encounter, roster, active, values }
 }
 
@@ -434,24 +441,59 @@ export function addCondition(
   })
   return updateValues(encounter, id, (values) => ({
     ...values,
-    conditions: [...(values.conditions ?? []).filter((c) => c.condition !== condition), held],
+    conditions: [...replaceable(values, [condition]), held],
   }))
 }
 
 export function removeCondition(encounter: Encounter, id: string, conditionId: string): Encounter {
-  return updateValues(encounter, id, (values) => ({
-    ...values,
-    conditions: (values.conditions ?? []).filter((held) => held.id !== conditionId),
-  }))
+  return updateValues(encounter, id, (values) => removeConditionFrom(values, conditionId))
 }
 
+/**
+ * Apply a spell or ability's effect to each target. `newId` gives each target's share its own id,
+ * so one can end (a save succeeds) while the others hold.
+ */
+export function applyEffect(
+  encounter: Encounter,
+  targets: readonly string[],
+  application: EffectApplication,
+  newId: () => string,
+): Encounter {
+  return targets.reduce(
+    (current, target) =>
+      updateValues(current, target, (values) =>
+        applyEffectTo(values, application, {
+          id: newId(),
+          target,
+          round: current.round,
+          active: current.active,
+        }),
+      ),
+    encounter,
+  )
+}
+
+export function removeEffect(encounter: Encounter, id: string, effectId: string): Encounter {
+  return updateValues(encounter, id, (values) => removeEffectFrom(values, effectId))
+}
+
+/**
+ * Start or stop concentrating. Concentrating on a spell from the library (`spell`) ties it to the
+ * effects of that casting: when the caster stops, or starts concentrating on anything else (a new
+ * casting of the same spell too), those effects end on everyone.
+ */
 export function setConcentration(
   encounter: Encounter,
   id: string,
   on: string | undefined,
+  spell?: EntityRef<'spell'>,
 ): Encounter {
-  return updateValues(encounter, id, ({ concentration: _previous, ...values }) =>
-    on === undefined ? values : { ...values, concentration: { on } },
+  const previous = encounter.values[id]?.concentration?.spell
+  const values = previous
+    ? endConcentrationEffects(encounter.values, id, previous)
+    : encounter.values
+  return updateValues({ ...encounter, values }, id, ({ concentration: _previous, ...rest }) =>
+    on === undefined ? rest : { ...rest, concentration: { on, ...(spell ? { spell } : {}) } },
   )
 }
 
