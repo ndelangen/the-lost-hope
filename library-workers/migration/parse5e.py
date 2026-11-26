@@ -677,6 +677,12 @@ def convert(r,p):
   page=int(pg.group(1)) if pg else None
   # Languages the source never recorded stay unknown rather than holding the printing back.
   meta={'lore':lore,'alignment':align,'tags':tags,'languages':langs.group(1).strip() if langs else None,'page':page}
+  # Shapes the typed stat block rejects: hold the printing rather than emit a block that fails.
+  for ab_ in block.get('abilities',[])+block.get('legendary',{}).get('actions',[])+block.get('lairActions',[]):
+    t_=ab_.get('save',{}).get('target',{})
+    ar=t_.get('area')
+    if ar and ((ar['shape']=='line')!=('width' in ar) or not ar.get('size')): issues.append(f"{ab_['name']}: save area not readable")
+    if 'range' in t_ and not t_['range']: issues.append(f"{ab_['name']}: save range of 0")
   return block,meta,issues
 def main():
   recs=[]
