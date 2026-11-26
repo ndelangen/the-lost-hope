@@ -35063,50 +35063,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 31",
-              "Hit dice · 7d8",
-              "Challenge · 1/2",
-              "Type · Fey",
-              "Speed · 40 ft.",
-              "XP · 100",
-              "Str · 12",
-              "Dex · 16",
-              "Con · 11",
-              "Int · 12",
-              "Wis · 10",
-              "Cha · 14",
-              "Initiative · +3 (13)",
-              "Proficiency bonus · +2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "satyr"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium Fey, Chaotic Neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +2, Performance +6, Stealth +5 Senses Passive Perception 12 Languages Common, Elvish, Sylvan"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Magic Resistance. The satyr has Advantage on saving throws against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Hooves. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the satyr pushes the target up to 10 feet straight away from itself. Mockery. Wisdom Saving Throw: DC 12, one creature the satyr can see within 90 feet. Failure: 5 (1d6 + 2) Psychic damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-b2f648e77c2819985decca3f",
@@ -63638,44 +63604,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 13",
-              "Hit dice · 2d8 + 4",
-              "Challenge · 1/4",
-              "Type · Undead",
-              "Speed · 30 ft.",
-              "XP · 50",
-              "Str · 10",
-              "Dex · 16",
-              "Con · 15",
-              "Int · 6",
-              "Wis · 8",
-              "Cha · 5",
-              "Initiative · +3 (13)",
-              "Proficiency bonus · +2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "skeleton"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium Undead, Lawful Evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Vulnerabilities Bludgeoning Immunities Poison; Exhaustion, Poisoned Gear Shortbow, Shortsword Senses Darkvision 60 ft.; Passive Perception 9 Languages Understands Common plus one other language but can’t speak"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Shortsword. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage. Shortbow. Ranged Attack Roll: +5, range 80/320 ft. Hit: 6 (1d6 + 3) Piercing damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-4ec954e2b11bcf1e4a439c24",
@@ -169982,50 +169920,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 82",
-              "Hit dice · 11d8 + 33",
-              "Challenge · 3",
-              "Type · Undead",
-              "Speed · 30 ft.",
-              "XP · 700",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 15",
-              "Initiative · +4 (14)",
-              "Proficiency bonus · +2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wight"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium Undead, Neutral Evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +3, Stealth +4 Resistances Necrotic Immunities Poison; Exhaustion, Poisoned Gear Studded Leather Armor Senses Darkvision 60 ft.; Passive Perception 13 Languages Common plus one other language"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Sunlight Sensitivity. While in sunlight, the wight has Disadvantage on ability checks and attack rolls."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The wight makes two attacks, using Necrotic Sword or Necrotic Bow in any combination. It can replace one attack with a use of Life Drain. Necrotic Sword. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage plus 4 (1d8) Necrotic damage. Necrotic Bow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 4 (1d8) Necrotic damage. Life Drain. Constitution Saving Throw: DC 13, one creature within 5 feet. Failure: 6 (1d8 + 2) Necrotic damage, and the target’s Hit Point maximum decreases by an amount equal to the damage taken. A Humanoid slain by this attack rises 24 hours later as a Zombie under the wight’s control, unless the Humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at a time."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-3de4dfbad4e068128ac4e1c9",
@@ -188395,52 +188299,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 127",
-              "Hit dice · 15d10 + 45",
-              "Challenge · 7",
-              "Type · Dragon (Chromatic)",
-              "Speed · 40 ft., Fly 80 ft., Swim 40 ft.",
-              "XP · 2900",
-              "Str · 19",
-              "Dex · 14",
-              "Con · 17",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 15",
-              "Initiative · +5 (15)",
-              "Proficiency bonus · +3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_black_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Dragon (Chromatic), Chaotic Evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +6, Stealth +5 Immunities Acid Senses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The dragon can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three Rend attacks. Rend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 3 (1d6) Acid damage. Acid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-footwide Line. Failure: 49 (14d6) Acid damage. Success: Half damage."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +5, Wis +3"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-a9314ebb859f099026ab614b",
@@ -188725,48 +188593,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 152",
-              "Hit dice · 16d10 + 64",
-              "Challenge · 9",
-              "Type · Dragon (Chromatic)",
-              "Speed · 40 ft., Burrow 20 ft., Fly 80 ft.",
-              "XP · 5000",
-              "Str · 21",
-              "Dex · 10",
-              "Con · 19",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 17",
-              "Initiative · +4 (14)",
-              "Proficiency bonus · +4"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_blue_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Dragon (Chromatic), Lawful Evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +9, Stealth +4 Immunities Lightning Senses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 19 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three Rend attacks. Rend. Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 5 (1d10) Lightning damage. Lightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-footwide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +4, Wis +5"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-2abea274523e582b87ce0f29",
@@ -189043,48 +188879,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 110",
-              "Hit dice · 13d10 + 39",
-              "Challenge · 6",
-              "Type · Dragon (Metallic)",
-              "Speed · 40 ft., Burrow 20 ft., Fly 80 ft.",
-              "XP · 2300",
-              "Str · 19",
-              "Dex · 10",
-              "Con · 17",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 15",
-              "Initiative · +3 (13)",
-              "Proficiency bonus · +3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_brass_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Dragon (Metallic), Chaotic Good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +6, Persuasion +5, Stealth +3 Immunities Fire Senses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three Rend attacks. It can replace two attacks with a use of Sleep Breath. Rend. Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing damage. Fire Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-footwide Line. Failure: 38 (11d6) Fire damage. Success: Half damage. Sleep Breath. Constitution Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the Unconscious condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +3, Wis +3"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-ca6a828f23a9ddec4c27a1fa",
@@ -189369,52 +189173,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 142",
-              "Hit dice · 15d10 + 60",
-              "Challenge · 8",
-              "Type · Dragon (Metallic)",
-              "Speed · 40 ft., Fly 80 ft., Swim 40 ft.",
-              "XP · 3900",
-              "Str · 21",
-              "Dex · 10",
-              "Con · 19",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 17",
-              "Initiative · +3 (13)",
-              "Proficiency bonus · +3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_bronze_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Dragon (Metallic), Lawful Good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Insight +4, Perception +7, Stealth +3 Immunities Lightning Senses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The dragon can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Repulsion Breath. Rend. Melee Attack Roll: +8, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage. Lightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 15, each creature in a 60-foot-long, 5-footwide Line. Failure: 49 (9d10) Lightning damage. Success: Half damage. Repulsion Breath. Strength Saving Throw: DC 15, each creature in a 30-foot Cone. Failure: The target is pushed up to 40 feet straight away from the dragon and has the Prone condition."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +3, Wis +4"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-7da62da2c46f68d0cd7bf1bf",
@@ -189784,48 +189552,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 119",
-              "Hit dice · 14d10 + 42",
-              "Challenge · 7",
-              "Type · Dragon (Metallic)",
-              "Speed · 40 ft., Climb 40 ft., Fly 80 ft.",
-              "XP · 2900",
-              "Str · 19",
-              "Dex · 12",
-              "Con · 17",
-              "Int · 16",
-              "Wis · 13",
-              "Cha · 15",
-              "Initiative · +4 (14)",
-              "Proficiency bonus · +3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_copper_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Dragon (Metallic), Chaotic Good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Deception +5, Perception +7, Stealth +4 Immunities Acid Senses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Slowing Breath. Rend. Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing damage. Acid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-footwide Line. Failure: 40 (9d8) Acid damage. Success: Half damage. Slowing Breath. Constitution Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +4, Wis +4"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-79f2113d88ba2b41fffc678c",

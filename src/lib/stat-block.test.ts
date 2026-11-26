@@ -348,3 +348,12 @@ describe('printed numbers that break the formula', () => {
     })
   })
 })
+
+describe('initiative', () => {
+  it('adds proficiency where the stat block grants it', () => {
+    const { source: _, ...printed } = { ...direWolf }
+    const dragon = PrintedStatBlock.parse({ ...printed, cr: '15', initiative: 'expert' })
+    // Dexterity +2 and proficiency +5, doubled.
+    expect(deriveStatBlock(dragon).initiative).toBe(12)
+  })
+})

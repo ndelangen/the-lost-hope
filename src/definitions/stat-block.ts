@@ -281,6 +281,9 @@ const statCore = {
   scores: z.record(AbilityId, Score).describe('Every ability, Strength to Charisma'),
   saves: z.partialRecord(AbilityId, Proficiency).optional(),
   skills: z.partialRecord(z.enum(SKILL_KEYS), Proficiency).optional(),
+  initiative: Proficiency.optional().describe(
+    'Proficiency added to initiative, as 2024 stat blocks print it (e.g. a dragon’s +11)',
+  ),
   senses: z
     .partialRecord(z.enum(SENSE_KEYS), z.number().int().positive())
     .optional()

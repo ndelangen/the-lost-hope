@@ -60,8 +60,8 @@ def lenient(text):
       def group(s,i): return {1:h2.group(2),2:h2.group(1)}[i]
     h=H()
   head=text[:200]
-  reach=re.search(r'reach (\d+) ft|(\d+)-ft\.? reach|within (\d+) ft',head)
-  rng=re.search(r'range (\d+)/(\d+) ft',head) or re.search(r'range (\d+)() ft',head)
+  reach=re.search(r'reach (\d+) (?:ft|feet)|(\d+)-ft\.? reach|within (\d+) (?:ft|feet)',head)
+  rng=re.search(r'range (\d+)/(\d+) (?:ft|feet)',head) or re.search(r'range (\d+)() (?:ft|feet)',head)
   d=re.search(r'(\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+)(?: damage)?',text)
   flat=None if d else re.search(r'(?:Hit:?|hit,?|deals?|takes?)[^.]*?\b(\d+) (\w+) damage',text)
   if not d and not flat: return None
@@ -101,13 +101,24 @@ def kebab(x): return re.sub(r'[^a-z0-9]+','-',x.lower()).strip('-')
 ABW=r'(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma)'
 DMG=r'(\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+) damage'
 AREA=re.compile(r'(?:each creature|creatures?) (?:of its choice )?in (?:a|an|that|its) (\d+)-(?:foot|ft\.?)[- ](?:radius |high |long )?(cone|line|cube|sphere|emanation)(?: that is (\d+) (?:feet|ft\.?) wide)?',re.I)
+LINE=re.compile(r'(\d+)-foot-long, (\d+)-foot-?wide Line',re.I)
+def area_of(text):
+  '''A save's area: "a 15-foot Cone", "a 20-foot-radius Sphere", "a 60-foot-long, 5-foot-wide Line".'''
+  lm=LINE.search(text)
+  if lm: return {'area':{'shape':'line','size':int(lm.group(1)),'width':int(lm.group(2))}}
+  am=AREA.search(text)
+  if am:
+    t={'area':{'shape':am.group(2).lower(),'size':int(am.group(1))}}
+    if am.group(3): t['area']['width']=int(am.group(3))
+    return t
+  return None
 def save_damage(m,scores,save_ab,issues,name):
   dice=m.group(2); bonus=int(m.group(4) or 0)*(-1 if m.group(3) in ('-','−','–') else 1)
   d={'dice':dice,'type':m.group(5).lower()}
   if d['type'] not in DAMAGE: issues.append(f'{name}: damage type {d["type"]}')
   if bonus:
-    if bonus!=mod(scores[save_ab]): issues.append(f'{name}: save damage bonus {bonus} is not a modifier the block has')
-    d['addModifier']=True
+    # The save's DC ability supplies this modifier; build_save picks an ability that fits both.
+    d['addModifier']=True; d['_bonus']=bonus
   if avg(dice,bonus)!=int(m.group(1)): issues.append(f'{name}: save damage avg')
   return d
 CTX={'caster':None}
@@ -151,17 +162,17 @@ def extract_save(ab,text,scores,prof,issues):
     if xm:
       extra=save_damage(type('M',(),{'group':lambda s_,i:[None,*xm.groups()][i]})(),scores,ANAME[m.group(1).lower()],issues,name)
       rest_fail=rest_fail[xm.end():].strip(' ,.')
-    area=AREA.search(who)
+    area=area_of(who)
     if area:
-      target={'area':{'shape':area.group(2).lower(),'size':int(area.group(1))}}
-      if area.group(3): target['area']['width']=int(area.group(3))
+      target=area
       where=re.search(r'within (\d+) (?:feet|ft)',who)
       if where: target['range']=int(where.group(1))
     else:
-      tm=re.match(r'(one|two|three) creatures?(?: (.*?))? within (\d+) (?:feet|ft\.?)(?: (.*))?$',who)
+      tm=re.match(r'(one|two|three) ((?:[A-Z]\w+ or \w+ |\w+ )?)creatures?(?: (.*?))? within (\d+) (?:feet|ft\.?)(?: (.*))?$',who)
       if not tm: issues.append(f'{name}: save target not understood: {who[:40]}'); return text
-      target={'creatures':{'one':1,'two':2,'three':3}[tm.group(1)],'range':int(tm.group(3))}
-      which=' '.join(x for x in [tm.group(2),tm.group(4)] if x)
+      target={'creatures':{'one':1,'two':2,'three':3}[tm.group(1)],'range':int(tm.group(4))}
+      which=' '.join(x.strip() for x in [tm.group(3),tm.group(5)] if x and x.strip())
+      if tm.group(2).strip(): which=('that is '+tm.group(2).strip()+(' '+which if which else '')).strip()
       if which: target['which']=which
     ab['save']=build_save(a,dc,target,[damage]+([extra] if extra else []),rest_fail,'half' if success else 'none',scores,prof,issues,name)
     ab['intent']='damage'
@@ -171,10 +182,8 @@ def extract_save(ab,text,scores,prof,issues):
   if m:
     a=ANAME[m.group(2).lower()]; dc=int(m.group(1))
     damage=save_damage(type('M',(),{'group':lambda s,i:[None,*m.groups()[2:7]][i]})(),scores,a,issues,name)
-    area=AREA.search(text[:m.start()+60])
-    if area:
-      target={'area':{'shape':area.group(2).lower(),'size':int(area.group(1))}}
-      if area.group(3): target['area']['width']=int(area.group(3))
+    area=area_of(text[:m.start()+60])
+    if area: target=area
     elif 'attack' in ab:
       at=ab['attack']; rng=at['reach'] if 'reach' in at else at['range'][0]
       if not rng: issues.append(f'{name}: save on a creature in its space'); return text
@@ -199,10 +208,8 @@ def extract_save(ab,text,scores,prof,issues):
       # Sentence edges, not counting the period of "ft.".
       ends=[e.end() for e in re.finditer(r'(?<!\bft)(?<!\bfeet)\.\s',text)]
       start=max([e for e in ends if e<=m.start()],default=0)
-      area=AREA.search(text[:m.end()])
-      if area:
-        target={'area':{'shape':area.group(2).lower(),'size':int(area.group(1))}}
-        if area.group(3): target['area']['width']=int(area.group(3))
+      area=area_of(text[:m.end()])
+      if area: target=area
       elif 'attack' in ab and (ab['attack'].get('reach') or ab['attack'].get('range')):
         at=ab['attack']; target={'creatures':1,'range':at['reach'] if 'reach' in at else at['range'][0],'which':'it hits'}
       else:
@@ -229,8 +236,18 @@ def extract_save(ab,text,scores,prof,issues):
   return text
 def build_save(a,dc,target,damage,also,success,scores,prof,issues,name):
   order=[a]+([CTX['caster']] if CTX['caster'] else [])+['con','str','dex','wis','int','cha']
-  built=next((b for b in order if 8+prof+mod(scores[b])==dc),None)
-  sv={'ability':a,'dc':built or a,**({} if built else {'printedDc':dc}),'target':target,'onFail':{'damage':damage}}
+  bonuses={d_.pop('_bonus') for d_ in damage if '_bonus' in d_}
+  if len(bonuses)>1: issues.append(f'{name}: save damage adds two different modifiers')
+  fits=lambda b: all(mod(scores[b])==x for x in bonuses)
+  built=next((b for b in order if 8+prof+mod(scores[b])==dc and fits(b)),None)
+  if not built and bonuses:
+    # The book's DC breaks the formula: keep it printed, on the ability the damage uses.
+    built=next((b for b in order if fits(b)),None)
+    if not built: issues.append(f'{name}: save damage bonus is not a modifier the block has')
+    sv={'ability':a,'dc':built or a,'printedDc':dc,'target':target,'onFail':{'damage':damage}}
+  else:
+    sv=None
+  if sv is None: sv={'ability':a,'dc':built or a,**({} if built else {'printedDc':dc}),'target':target,'onFail':{'damage':damage}}
   also=re.sub(r'^(?:and|,)\s+','',also or '',flags=re.I).strip()
   if also: sv['onFail']['also']=[also[0].upper()+also[1:]+'.']
   if success=='half': sv['onSuccess']='half'
@@ -357,6 +374,12 @@ def convert(r,p):
   if pp:
     want=10+mod(scores['wis'])+{'proficient':prof,'expert':2*prof}.get(skills.get('perception'),0)
     if int(pp.group(1))!=want: issues.append(f'passive perception {pp.group(1)} != {want}')
+  ini=g('Initiative') or (re.search(r'Initiative ([+−-]?\d+)',other) or [None,None])[1]
+  if ini:
+    iv=int(re.match(r'[+−-]?\d+',ini.replace('−','-')).group().replace('+',''))
+    if iv==mod(scores['dex'])+prof: block['initiative']='proficient'
+    elif iv==mod(scores['dex'])+2*prof: block['initiative']='expert'
+    elif iv!=mod(scores['dex']): issues.append(f'initiative {iv} not derivable')
   saves={}
   for l in sec(p,'Saving throws') or []:
     for nm,val in re.findall(r'(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|Str|Dex|Con|Int|Wis|Cha)\b ([+−-]\d+)',l,re.I):
@@ -542,6 +565,10 @@ def main():
   recs=[]
   for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']: recs+=json.load(open(os.path.join(D,f+'.json')))
   types=set(sys.argv[1].split(',')) if len(sys.argv)>1 else {'beasts'}
+  # Printings read straight from a source PDF (srd521_monsters.py) join the worker printings.
+  for extra in filter(None,os.environ.get('EXTRA_PRINTINGS','').split(':')):
+    for rec in json.load(open(extra)):
+      rec['from_pdf']=True; recs.append(rec)
   out=[]; tally=collections.Counter(); why=collections.Counter()
   for r in recs:
     if r['type'] not in types: continue
@@ -551,7 +578,7 @@ def main():
         b,meta,iss=convert(r,p)
         tally['clean' if not iss else 'needs review']+=1
         for i in iss: why[re.sub(r'^[^:]*: ','',re.sub(r'\d+','N',i))[:50]]+=1
-        out.append({'type':r['type'],'slug':r['slug'],'name':r['name'],'printing':p['id'],'label':p['label'],'edition':p.get('edition'),'block':b,'meta':meta,'issues':iss})
+        out.append({'pdf':bool(r.get('from_pdf')),'type':r['type'],'slug':r['slug'],'name':r['name'],'printing':p['id'],'label':p['label'],'edition':p.get('edition'),'block':b,'meta':meta,'issues':iss})
       except Fail as e:
         tally['unparsed']+=1; why['FAIL '+str(e)[:40]]+=1
   json.dump(out,open(os.path.join(os.environ.get('MIGRATION_OUT',os.path.dirname(__file__)),'out-'+'-'.join(sorted(types))+'.json'),'w'),indent=1)

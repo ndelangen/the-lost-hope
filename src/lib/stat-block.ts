@@ -358,7 +358,7 @@ export function deriveStatBlock(stats: AnyStatBlock): DerivedStats {
         ? rollText(stats.hitDice, dice(stats.hitDice).count * modifiers.con)
         : String(stats.maxHp),
     ac: stats.ac,
-    initiative: modifiers.dex,
+    initiative: modifiers.dex + pb * proficiencyMultiplier(stats.initiative),
     experience: 'cr' in stats ? experience(stats.cr) : 0,
     saves: Object.fromEntries(
       ABILITY_KEYS.map((id) => [id, modifiers[id] + pb * proficiencyMultiplier(stats.saves?.[id])]),

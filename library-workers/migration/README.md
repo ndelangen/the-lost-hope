@@ -34,3 +34,6 @@ bunx oxfmt src/data/library src/lib/published-library-catalog && bun run generat
 - `spells_srd521.py <text> <out.json>` and `emit_spells.py <json>` build `src/data/library/spells.ts`
   from the SRD 5.2.1 spell chapter. `parse5e.py` reads that file to turn spell names in spell lists
   (and after "cast") into spell refs, so build the spells before converting creatures.
+- `srd521_monsters.py <srd521-cols.txt> <out.json>` reads the SRD 5.2.1 stat blocks straight from
+  the PDF text into catalog-shaped printings. Pass the file to `parse5e.py` and `emit.py` with
+  `EXTRA_PRINTINGS=<out.json>`; a printing read from the PDF wins over the worker's text of it.

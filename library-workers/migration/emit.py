@@ -118,13 +118,17 @@ def same_block(a,b):
 def main():
   types=sys.argv[1]
   rows=json.load(open(os.path.join(os.environ.get('MIGRATION_OUT',H),'out-'+types+'.json')))
-  rows=[r for r in rows if not r['issues']]
+  # A printing read from the source PDF wins over the worker's text of the same printing.
+  rows=sorted((r for r in rows if not r['issues']),key=lambda r:not r.get('pdf'))
   recs_for_pubs={}
   for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
     for rec in json.load(open(os.path.join(os.environ.get('LIBRARY_JSON_DIR',os.path.join(REPO,'src/lib/published-library-catalog')),f+'.json'))):
       for p in rec['printings']: recs_for_pubs[(rec['type'],rec['slug'],p['id'])]=p
+  for extra in filter(None,os.environ.get('EXTRA_PRINTINGS','').split(':')):
+    for rec in json.load(open(extra)):
+      for p in rec['printings']: recs_for_pubs.setdefault((rec['type'],rec['slug'],p['id']),p)
   for r in rows:
-    if r['label'] not in PUBS: PUBS[r['label']]=publication_for(r,recs_for_pubs[(r['type'],r['slug'],r['printing'])])
+    if r['label'] not in PUBS: PUBS[r['label']]=publication_for(r,recs_for_pubs.get((r['type'],r['slug'],r['printing'])) or {'gm':[]})
   # appearance/habitats from the source records
   recs={}
   for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
@@ -136,7 +140,9 @@ def main():
   for r in rows:
     key=ALIASES.get(keyify(r['slug']),keyify(r['slug'])); pk=PUBS[r['label']][0]
     if pk in bykey[key]:
-      held.append(f'{pk}/{key}: second printing in one publication ({r["slug"]})'); continue
+      # The worker's copy of a printing already read from the PDF is expected; anything else is news.
+      if not bykey[key][pk].get('pdf'): held.append(f'{pk}/{key}: second printing in one publication ({r["slug"]})')
+      continue
     bykey[key][pk]=r
   for h in held: print('held',h)
   for key,pubs in bykey.items():
@@ -151,7 +157,9 @@ def main():
     L=["import { refs } from '#/data/generated/library-refs.ts'","import { refs as rules } from '#/data/generated/refs.ts'","import { createPublicationMonsters } from '#/definitions/library.ts'","","const refsRules = rules.rules","",
        "export default createPublicationMonsters({",f"  publication: refs.publications.{pk},","  monsters: {"]
     for key in sorted(mons):
-      r=mons[key]; b=r['block']; m=r['meta']; src=recs[(r['type'],r['slug'],r['printing'])]
+      r=mons[key]; b=r['block']; m=r['meta']
+      # Habitats, appearance and notes come from the worker's record of the same printing.
+      src=next((recs[k] for k in [(t,r['slug'],r['printing']) for t in ('monsters','beasts','npcs')] if k in recs),{'gm':[]})
       L.append(f'    {key}: {{'); L.append(f'      name: {js(r["name"])},')
       rp=reprints.get((pk,key))
       if rp: L.append('      reprintedIn: ['+', '.join(f'refs.publications.{x}' for x in sorted(rp))+'],')
@@ -176,6 +184,7 @@ def main():
       L.append(f'        hitDice: {js(b["hitDice"])},')
       L.append('        speed: {'+', '.join(f'{k}: {v}' for k,v in b['speed'].items())+'},')
       L.append('        scores: {'+', '.join(f'{k}: {v}' for k,v in b['scores'].items())+'},')
+      if 'initiative' in b: L.append(f'        initiative: {js(b["initiative"])},')
       for k in ['saves','skills','senses']:
         if k in b: L.append(f'        {k}: {{'+', '.join(f'{kk.replace("-","_")}: {js(v)}' for kk,v in b[k].items())+'},')
       for k in ['damageResistances','damageImmunities','damageVulnerabilities','conditionImmunities']:

@@ -11267,44 +11267,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 13",
-              "Hit dice · 2d10 + 2",
-              "Challenge · 1/4",
-              "Type · Beast",
-              "Speed · 30 ft., Swim 30 ft.",
-              "XP · 50",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3",
-              "Initiative · +2 (12)",
-              "Proficiency bonus · +2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "constrictor_snake"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +2, Stealth +4 Senses Blindsight 10 ft.; Passive Perception 12 Languages None"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. Constrict. Strength Saving Throw: DC 12, one Medium or smaller creature the snake can see within 5 feet. Failure: 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12)."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-c33001b48c73bed53894eb97",
@@ -18622,48 +18594,22 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 4",
-              "Hit dice · 1d6 + 1",
-              "Challenge · 0",
-              "Type · Beast",
-              "Speed · 10 ft., Fly 60 ft.",
-              "XP · 10",
-              "Str · 6",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 2",
-              "Wis · 14",
-              "Cha · 7",
-              "Initiative · +2 (12)",
-              "Proficiency bonus · +2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Skills Perception +6 Senses Passive Perception 16 Languages None"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Talons. Melee Attack Roll: +4, reach 5 feet. Hit: 4 (1d4 + 2) Slashing damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/eagle.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "eagle"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
       },
       {
         "id": "printing-211cc0a3b1e31172941195d5",
@@ -19764,54 +19710,22 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 76",
-              "Hit dice · 8d12 + 24",
-              "Challenge · 4",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "XP · 1100",
-              "Str · 22",
-              "Dex · 9",
-              "Con · 17",
-              "Int · 3",
-              "Wis · 11",
-              "Cha · 6",
-              "Initiative · -1 (9)",
-              "Proficiency bonus · +2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses Passive Perception 10 Languages None"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The elephant makes two Gore attacks. Gore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": [
-              "Trample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/elephant.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "elephant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
       },
       {
         "id": "printing-55c4a8f9bd6a7255da1b9f74",
@@ -25435,44 +25349,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 60",
-              "Hit dice · 8d12 + 8",
-              "Challenge · 2",
-              "Type · Beast",
-              "Speed · 30 ft., Swim 30 ft.",
-              "XP · 450",
-              "Str · 19",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3",
-              "Initiative · +2 (12)",
-              "Proficiency bonus · +2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_constrictor_snake"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +2 Senses Blindsight 10 ft.; Passive Perception 12 Languages None"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The snake makes one Bite attack and uses Constrict. Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage. Constrict. Strength Saving Throw: DC 14, one Large or smaller creature the snake can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14)."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-18182426ccacea9b783e87cf",
@@ -31499,54 +31385,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 7",
-              "Hit dice · 2d6",
-              "Challenge · 1/8",
-              "Type · Beast",
-              "Speed · 30 ft., Climb 30 ft.",
-              "XP · 25",
-              "Str · 7",
-              "Dex · 16",
-              "Con · 11",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 4",
-              "Initiative · +3 (13)",
-              "Proficiency bonus · +2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_rat"
           },
-          {
-            "title": "Classification",
-            "lines": ["Small Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +2 Senses Darkvision 60 ft.; Passive Perception 12 Languages None"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The rat has Advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +5"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-d2934072fd0abd17891c920f",
@@ -46115,58 +45963,22 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 126",
-              "Hit dice · 11d12 + 55",
-              "Challenge · 6",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "XP · 2300",
-              "Str · 24",
-              "Dex · 9",
-              "Con · 21",
-              "Int · 3",
-              "Wis · 11",
-              "Cha · 6",
-              "Initiative · +2 (12)",
-              "Proficiency bonus · +3"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses Passive Perception 10 Languages None"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The mammoth makes two Gore attacks. Gore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": [
-              "Trample. Dexterity Saving Throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29 (4d10 + 7) Bludgeoning damage. Success: Half damage."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +10, Con +8"]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/mammoth.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mammoth"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
       },
       {
         "id": "printing-7f59be03e8f2664ac01d9707",

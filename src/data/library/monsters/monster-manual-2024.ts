@@ -141,7 +141,6 @@ export default createPublicationMonsters({
     },
     animated_armor: {
       name: 'Animated Armor',
-      reprintedIn: [refs.publications.srd_5_2_1],
       page: 16,
       alignment: 'unaligned',
       languages: ['None.'],
@@ -504,7 +503,6 @@ export default createPublicationMonsters({
     },
     bone_devil: {
       name: 'Bone Devil',
-      reprintedIn: [refs.publications.srd_5_2_1],
       tags: ['devil'],
       page: 52,
       alignment: 'lawful evil',
@@ -900,6 +898,7 @@ export default createPublicationMonsters({
         hitDice: '14d10',
         speed: { walk: 10, fly: 40 },
         scores: { str: 17, dex: 15, con: 12, int: 13, wis: 14, cha: 7 },
+        initiative: 'proficient',
         skills: { stealth: 'proficient' },
         senses: { darkvision: 120 },
         conditionImmunities: [rules.frightened],
@@ -1238,6 +1237,7 @@ export default createPublicationMonsters({
         hitDice: '9d10',
         speed: { walk: 40 },
         scores: { str: 18, dex: 15, con: 16, int: 6, wis: 12, cha: 8 },
+        initiative: 'proficient',
         senses: { darkvision: 60 },
         abilities: [
           {
@@ -1613,7 +1613,6 @@ export default createPublicationMonsters({
     },
     fire_giant: {
       name: 'Fire Giant',
-      reprintedIn: [refs.publications.srd_5_2_1],
       page: 119,
       alignment: 'lawful evil',
       languages: ['Giant.'],
@@ -2153,6 +2152,7 @@ export default createPublicationMonsters({
     },
     giant_rat: {
       name: 'Giant Rat',
+      reprintedIn: [refs.publications.srd_5_2_1],
       page: 358,
       alignment: 'unaligned',
       habitats: ['forest', 'swamp', 'underdark', 'urban'],
@@ -2286,6 +2286,7 @@ export default createPublicationMonsters({
         hitDice: '8d12',
         speed: { walk: 5, swim: 60 },
         scores: { str: 23, dex: 11, con: 21, int: 1, wis: 10, cha: 5 },
+        initiative: 'proficient',
         skills: { perception: 'proficient' },
         senses: { blindsight: 60 },
         abilities: [
@@ -3190,7 +3191,6 @@ export default createPublicationMonsters({
     },
     hezrou: {
       name: 'Hezrou',
-      reprintedIn: [refs.publications.srd_5_2_1],
       tags: ['demon'],
       page: 167,
       alignment: 'chaotic evil',
@@ -3274,7 +3274,6 @@ export default createPublicationMonsters({
     },
     hill_giant: {
       name: 'Hill Giant',
-      reprintedIn: [refs.publications.srd_5_2_1],
       page: 168,
       alignment: 'chaotic evil',
       languages: ['Giant.'],
@@ -3585,7 +3584,6 @@ export default createPublicationMonsters({
     },
     ice_devil: {
       name: 'Ice Devil',
-      reprintedIn: [refs.publications.srd_5_2_1],
       tags: ['devil'],
       page: 176,
       alignment: 'lawful evil',
@@ -6806,6 +6804,7 @@ export default createPublicationMonsters({
         hitDice: '13d12',
         speed: { walk: 50 },
         scores: { str: 25, dex: 10, con: 19, int: 2, wis: 12, cha: 9 },
+        initiative: 'proficient',
         saves: { str: 'proficient', wis: 'proficient' },
         skills: { perception: 'proficient' },
         abilities: [
