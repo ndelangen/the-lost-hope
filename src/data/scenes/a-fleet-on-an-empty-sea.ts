@@ -293,10 +293,13 @@ export default createScene({
         {
           do: [
             [
-              'After the meal, the hall goes quiet. On a stage stands one luxurious chair, super comfortable, made of mermaid hair and leather.',
+              'After the meal, the hall goes quiet. On a stage stands one luxurious chair, super comfortable, made of mermaid bones, mermaid leather and mermaid hair: super intricate, sublime artwork.',
             ],
             [
               'One by one, each party member is asked to come up and sit in it, and tell their story.',
+            ],
+            [
+              'The entire cave is listening, every one of its people, in complete silence, captivated by the story.',
             ],
           ],
         },
