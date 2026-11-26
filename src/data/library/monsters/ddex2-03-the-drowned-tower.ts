@@ -74,6 +74,7 @@ export default createPublicationMonsters({
     },
     crushing_wave_reaver: {
       name: 'Crushing Wave Reaver',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse],
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],

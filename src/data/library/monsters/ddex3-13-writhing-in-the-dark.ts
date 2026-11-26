@@ -9,6 +9,11 @@ export default createPublicationMonsters({
   monsters: {
     githyanki_warrior: {
       name: 'Githyanki Warrior',
+      reprintedIn: [
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.spelljammer_academy,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['gith'],
       alignment: 'lawful evil',
       languages: ['Gith'],
@@ -71,6 +76,10 @@ export default createPublicationMonsters({
     },
     intellect_devourer: {
       name: 'Intellect Devourer',
+      reprintedIn: [
+        refs.publications.waterdeep_dragon_heist,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       alignment: 'lawful evil',
       languages: ["understands Deep Speech but can't speak", 'telepathy 60 ft'],
       stats: {

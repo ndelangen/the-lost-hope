@@ -98,6 +98,7 @@ export default createPublicationMonsters({
     },
     bard: {
       name: 'Bard',
+      reprintedIn: [refs.publications.waterdeep_dragon_heist],
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['Any two languages'],
@@ -552,6 +553,11 @@ export default createPublicationMonsters({
     },
     kuo_toa_monitor: {
       name: 'Kuo-toa Monitor',
+      reprintedIn: [
+        refs.publications.ddex3_03_the_occupation_of_szith_morcane,
+        refs.publications.ddex3_08_the_malady_of_elventree,
+        refs.publications.ddex3_09_the_waydown,
+      ],
       tags: ['kuo-toa'],
       alignment: 'neutral evil',
       languages: ['Undercommon'],
@@ -743,6 +749,7 @@ export default createPublicationMonsters({
     },
     sea_lion: {
       name: 'Sea Lion',
+      reprintedIn: [refs.publications.tales_from_the_yawning_portal],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Coastal waters and islands at sea'],
@@ -843,6 +850,7 @@ export default createPublicationMonsters({
     },
     swarm_of_insects_spiders: {
       name: 'Swarm of Insects (Spiders)',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'unaligned',
       languages: [],
       habitats: [

@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     apprentice_wizard: {
       name: 'Apprentice Wizard',
+      reprintedIn: [refs.publications.waterdeep_dragon_heist],
       tags: ['any race'],
       page: 209,
       alignment: 'any alignment',
@@ -60,6 +61,7 @@ export default createPublicationMonsters({
     },
     archdruid: {
       name: 'Archdruid',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       tags: ['any race'],
       page: 210,
       alignment: 'any alignment',
@@ -855,6 +857,10 @@ export default createPublicationMonsters({
     },
     brontosaurus: {
       name: 'Brontosaurus',
+      reprintedIn: [
+        refs.publications.mordenkainen_presents_monsters_of_the_multiverse,
+        refs.publications.tomb_of_annihilation,
+      ],
       page: 139,
       alignment: 'unaligned',
       languages: [],
@@ -1522,6 +1528,10 @@ export default createPublicationMonsters({
     },
     deinonychus: {
       name: 'Deinonychus',
+      reprintedIn: [
+        refs.publications.mordenkainen_presents_monsters_of_the_multiverse,
+        refs.publications.tomb_of_annihilation,
+      ],
       page: 139,
       alignment: 'unaligned',
       languages: [],
@@ -1606,6 +1616,10 @@ export default createPublicationMonsters({
     },
     dimetrodon: {
       name: 'Dimetrodon',
+      reprintedIn: [
+        refs.publications.mordenkainen_presents_monsters_of_the_multiverse,
+        refs.publications.tomb_of_annihilation,
+      ],
       page: 139,
       alignment: 'unaligned',
       languages: [],
@@ -2708,6 +2722,7 @@ export default createPublicationMonsters({
     },
     martial_arts_adept: {
       name: 'Martial Arts Adept',
+      reprintedIn: [refs.publications.waterdeep_dragon_heist],
       tags: ['any race'],
       page: 216,
       alignment: 'any alignment',
@@ -3793,6 +3808,7 @@ export default createPublicationMonsters({
     },
     rothe: {
       name: 'Rothé',
+      reprintedIn: [refs.publications.chains_of_asmodeus],
       page: 207,
       alignment: 'unaligned',
       languages: [],
@@ -4424,6 +4440,7 @@ export default createPublicationMonsters({
     },
     swarm_of_rot_grubs: {
       name: 'Swarm of Rot Grubs',
+      reprintedIn: [refs.publications.ghosts_of_saltmarsh],
       page: 208,
       alignment: 'unaligned',
       languages: [],
@@ -4480,6 +4497,10 @@ export default createPublicationMonsters({
     },
     swashbuckler: {
       name: 'Swashbuckler',
+      reprintedIn: [
+        refs.publications.mordenkainen_presents_monsters_of_the_multiverse,
+        refs.publications.waterdeep_dragon_heist,
+      ],
       tags: ['any race'],
       page: 217,
       alignment: 'any non-lawful alignment',
@@ -4990,6 +5011,7 @@ export default createPublicationMonsters({
     },
     velociraptor: {
       name: 'Velociraptor',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       page: 140,
       alignment: 'unaligned',
       habitats: ['grassland', 'forest'],
@@ -5065,6 +5087,7 @@ export default createPublicationMonsters({
     },
     warlord: {
       name: 'Warlord',
+      reprintedIn: [refs.publications.mordenkainen_presents_monsters_of_the_multiverse],
       tags: ['any race'],
       page: 220,
       alignment: 'any alignment',

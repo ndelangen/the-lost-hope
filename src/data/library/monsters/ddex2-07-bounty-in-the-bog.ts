@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     black_earth_guard: {
       name: 'Black Earth Guard',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse],
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],

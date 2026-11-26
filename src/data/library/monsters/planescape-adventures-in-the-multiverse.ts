@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     athar_null: {
       name: 'Athar Null',
+      reprintedIn: [refs.publications.morte_s_planar_parade],
       alignment: 'any alignment',
       languages: ['Common plus two more languages'],
       habitats: ['Sigil', 'Planar settlements'],
@@ -223,6 +224,7 @@ export default createPublicationMonsters({
     },
     cranium_rat_squeaker: {
       name: 'Cranium Rat Squeaker',
+      reprintedIn: [refs.publications.morte_s_planar_parade],
       alignment: 'unaligned',
       languages: ['telepathy 30 ft'],
       habitats: ['Sigil'],
@@ -286,6 +288,7 @@ export default createPublicationMonsters({
     },
     dabus: {
       name: 'Dabus',
+      reprintedIn: [refs.publications.morte_s_planar_parade],
       alignment: 'lawful neutral',
       languages: ["understands all languages but can't speak", 'communicates via Symbol Speech'],
       habitats: ['Sigil'],
@@ -378,6 +381,7 @@ export default createPublicationMonsters({
     },
     lantern_archon: {
       name: 'Lantern Archon',
+      reprintedIn: [refs.publications.morte_s_planar_parade],
       alignment: 'lawful good',
       languages: ['all'],
       habitats: ['Mount Celestia', 'Upper Planes'],
@@ -503,6 +507,7 @@ export default createPublicationMonsters({
     },
     morte: {
       name: 'Morte',
+      reprintedIn: [refs.publications.turn_of_fortune_s_wheel],
       alignment: 'chaotic good',
       languages: ['Common'],
       habitats: ['Sigil', 'Mortuary', 'Planar routes'],
@@ -600,6 +605,7 @@ export default createPublicationMonsters({
     },
     razorvine_blight: {
       name: 'Razorvine Blight',
+      reprintedIn: [refs.publications.morte_s_planar_parade],
       alignment: 'neutral evil',
       languages: ["understands Common but can't speak"],
       habitats: ['Sigil', 'Lower Planes', 'Travel routes'],
@@ -683,6 +689,7 @@ export default createPublicationMonsters({
     },
     sunfly: {
       name: 'Sunfly',
+      reprintedIn: [refs.publications.morte_s_planar_parade],
       alignment: 'chaotic good',
       languages: ["understands Celestial but can't speak"],
       habitats: ['Outer Planes', 'Sigil'],
@@ -753,6 +760,7 @@ export default createPublicationMonsters({
     },
     swarm_of_sunflies: {
       name: 'Swarm of Sunflies',
+      reprintedIn: [refs.publications.morte_s_planar_parade],
       alignment: 'chaotic good',
       languages: ["understands Celestial but can't speak"],
       habitats: ['Outer Planes', 'Sigil'],

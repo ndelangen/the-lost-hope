@@ -159,6 +159,7 @@ export default createPublicationMonsters({
     },
     ankylosaurus: {
       name: 'Ankylosaurus',
+      reprintedIn: [refs.publications.monster_manual_2014],
       page: 117,
       alignment: 'unaligned',
       languages: [],
@@ -214,6 +215,8 @@ export default createPublicationMonsters({
     bandit: {
       name: 'Bandit',
       reprintedIn: [
+        refs.publications.ddal04_02_the_beast,
+        refs.publications.ddep2_mulmaster_undone_v2,
         refs.publications.ddex1_01_defiance_in_phlan,
         refs.publications.ddex1_04_dues_for_the_dead,
         refs.publications.ddex1_09_outlaws_of_the_iron_route,
@@ -337,6 +340,10 @@ export default createPublicationMonsters({
     },
     berserker: {
       name: 'Berserker',
+      reprintedIn: [
+        refs.publications.ddex1_12_raiders_of_the_twilight_marsh,
+        refs.publications.ddex2_03_the_drowned_tower,
+      ],
       tags: ['any race'],
       alignment: 'any chaotic alignment',
       languages: ['any one language (usually Common)'],
@@ -449,6 +456,12 @@ export default createPublicationMonsters({
     },
     chimera: {
       name: 'Chimera',
+      reprintedIn: [
+        refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
+        refs.publications.ddex2_04_mayhem_in_the_earthspur_mines,
+        refs.publications.monster_manual_2014,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       alignment: 'chaotic evil',
       languages: ['understands Draconic but can’t speak'],
       stats: {
@@ -536,6 +549,7 @@ export default createPublicationMonsters({
     },
     cultist: {
       name: 'Cultist',
+      reprintedIn: [refs.publications.ddep2_mulmaster_undone_v2],
       tags: ['any race'],
       alignment: 'any non-good alignment',
       languages: ['any one language (usually Common)'],
@@ -700,6 +714,7 @@ export default createPublicationMonsters({
     },
     frog: {
       name: 'Frog',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Near water', 'Trees', 'Underground', 'Freshwater ponds', 'Marshes'],
@@ -793,6 +808,7 @@ export default createPublicationMonsters({
     },
     giant_eagle: {
       name: 'Giant Eagle',
+      reprintedIn: [refs.publications.monster_manual_2014],
       page: 132,
       alignment: 'neutral good',
       languages: ['Speaks Giant Eagle', 'Understands Common and Auran without speaking them'],
@@ -863,6 +879,7 @@ export default createPublicationMonsters({
     },
     giant_lizard: {
       name: 'Giant Lizard',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Underdark', 'Caverns', 'Woodland', 'Wetlands'],
@@ -995,6 +1012,7 @@ export default createPublicationMonsters({
     },
     giant_rat: {
       name: 'Giant Rat',
+      reprintedIn: [refs.publications.monster_manual_2014],
       page: 135,
       alignment: 'unaligned',
       languages: [],
@@ -1209,6 +1227,13 @@ export default createPublicationMonsters({
     },
     hell_hound: {
       name: 'Hell Hound',
+      reprintedIn: [
+        refs.publications.ddal04_09_the_tempter,
+        refs.publications.ddex1_13_pool_of_radiance_resurgent,
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.ddex3_15_szith_morcane_unbound,
+        refs.publications.monster_manual_2014,
+      ],
       alignment: 'lawful evil',
       languages: ['understands Infernal but can’t speak it'],
       stats: {
@@ -1286,6 +1311,10 @@ export default createPublicationMonsters({
     },
     hobgoblin: {
       name: 'Hobgoblin',
+      reprintedIn: [
+        refs.publications.ddep1_corruption_in_kryptgarden,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+      ],
       tags: ['goblinoid'],
       alignment: 'lawful evil',
       languages: ['Common', 'Goblin'],
@@ -1432,7 +1461,9 @@ export default createPublicationMonsters({
     lizardfolk: {
       name: 'Lizardfolk',
       reprintedIn: [
+        refs.publications.ddal04_11_the_donjon,
         refs.publications.ddex1_06_the_scroll_thief,
+        refs.publications.ddex1_07_drums_in_the_marsh,
         refs.publications.ddex2_07_bounty_in_the_bog,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
         refs.publications.rise_of_tiamat_online_supplement,
@@ -1563,6 +1594,7 @@ export default createPublicationMonsters({
     },
     mummy: {
       name: 'Mummy',
+      reprintedIn: [refs.publications.rise_of_tiamat_online_supplement],
       alignment: 'lawful evil',
       languages: ['the languages it knew in life'],
       stats: {
@@ -1934,6 +1966,7 @@ export default createPublicationMonsters({
     },
     polar_bear: {
       name: 'Polar Bear',
+      reprintedIn: [refs.publications.monster_manual_2014],
       page: 149,
       alignment: 'unaligned',
       languages: [],
@@ -2112,6 +2145,7 @@ export default createPublicationMonsters({
     },
     thug: {
       name: 'Thug',
+      reprintedIn: [refs.publications.ddep2_mulmaster_undone_v2],
       tags: ['any race'],
       alignment: 'any non-good alignment',
       languages: ['any one language (usually Common)'],
@@ -2215,6 +2249,7 @@ export default createPublicationMonsters({
     },
     warhorse: {
       name: 'Warhorse',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Stables', 'Training grounds', 'Military camps', 'Battlefields'],
@@ -2279,6 +2314,7 @@ export default createPublicationMonsters({
     },
     winter_wolf: {
       name: 'Winter Wolf',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'neutral evil',
       languages: ['Common', 'Giant', 'Winter Wolf'],
       stats: {
@@ -2481,6 +2517,7 @@ export default createPublicationMonsters({
     },
     young_green_dragon: {
       name: 'Young Green Dragon',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -2566,6 +2603,11 @@ export default createPublicationMonsters({
     },
     zombie: {
       name: 'Zombie',
+      reprintedIn: [
+        refs.publications.ddex1_02_secrets_of_sokol_keep,
+        refs.publications.ddex1_04_dues_for_the_dead,
+        refs.publications.ddex1_05_the_courting_of_fire,
+      ],
       alignment: 'neutral evil',
       languages: ['understands the languages it knew in life but can’t speak'],
       stats: {

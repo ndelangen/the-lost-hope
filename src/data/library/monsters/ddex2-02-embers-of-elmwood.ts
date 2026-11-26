@@ -95,6 +95,13 @@ export default createPublicationMonsters({
     },
     smoke_mephit: {
       name: 'Smoke Mephit',
+      reprintedIn: [
+        refs.publications.curse_of_strahd,
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.tomb_of_annihilation,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       alignment: 'neutral evil',
       languages: ['Auran', 'Ignan'],
       stats: {

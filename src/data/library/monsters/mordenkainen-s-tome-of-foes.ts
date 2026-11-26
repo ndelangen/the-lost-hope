@@ -1185,6 +1185,7 @@ export default createPublicationMonsters({
     },
     drow_house_captain: {
       name: 'Drow House Captain',
+      reprintedIn: [refs.publications.mordenkainen_presents_monsters_of_the_multiverse],
       tags: ['elf'],
       page: 184,
       alignment: 'neutral evil',

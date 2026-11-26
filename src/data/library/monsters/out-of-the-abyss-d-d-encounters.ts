@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     drow_spore_servant: {
       name: 'Drow Spore Servant',
+      reprintedIn: [refs.publications.out_of_the_abyss],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -41,6 +42,7 @@ export default createPublicationMonsters({
     },
     duergar_spore_servant: {
       name: 'Duergar Spore Servant',
+      reprintedIn: [refs.publications.out_of_the_abyss],
       alignment: 'unaligned',
       languages: [],
       stats: {

@@ -12,6 +12,14 @@ export default createPublications({
     name: 'Bigby Presents: Glory of the Giants',
     ruleset: '5e-2014',
   },
+  candlekeep_mysteries: {
+    name: 'Candlekeep Mysteries',
+    ruleset: '5e-2014',
+  },
+  chains_of_asmodeus: {
+    name: 'Chains of Asmodeus',
+    ruleset: '5e-2014',
+  },
   creature_codex: {
     name: 'Creature Codex',
     publisher: 'Kobold Press',
@@ -20,6 +28,15 @@ export default createPublications({
     license: 'ogl-1.0a',
     notice:
       'Creature Codex. © 2018 Open Design LLC; Authors: Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky.',
+  },
+  critical_role_call_of_the_netherdeep: {
+    name: 'Critical Role: Call of the Netherdeep',
+    ruleset: '5e-2014',
+  },
+  curse_of_strahd: {
+    name: 'Curse of Strahd',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/Curse of Strahd.pdf',
   },
   d_d_world_of_warcraft: {
     name: 'D&D: World of Warcraft',
@@ -296,6 +313,18 @@ export default createPublications({
     license: 'ogl-1.0a',
     notice: 'Deep Magic Extended. © Open Design LLC d/b/a Kobold Press.',
   },
+  dragonlance_shadow_of_the_dragon_queen: {
+    name: 'Dragonlance: Shadow of the Dragon Queen',
+    ruleset: '5e-2014',
+  },
+  eberron_rising_from_the_last_war: {
+    name: 'Eberron: Rising from the Last War',
+    ruleset: '5e-2014',
+  },
+  explorer_s_guide_to_wildemount: {
+    name: "Explorer's Guide to Wildemount",
+    ruleset: '5e-2014',
+  },
   fizban_s_treasury_of_dragons: {
     name: "Fizban's Treasury of Dragons",
     ruleset: '5e-2014',
@@ -332,6 +361,10 @@ export default createPublications({
     name: 'Humblewood Campaign Setting',
     ruleset: '5e-2014',
   },
+  humblewood_the_wakewyrm_s_fury: {
+    name: "Humblewood: The Wakewyrm's Fury",
+    ruleset: '5e-2014',
+  },
   icewind_dale_rime_of_the_frostmaiden: {
     name: 'Icewind Dale: Rime of the Frostmaiden',
     ruleset: '5e-2014',
@@ -354,9 +387,19 @@ export default createPublications({
     year: 2024,
     ruleset: '5e-2024',
   },
+  monster_manual_2025: {
+    name: 'Monster Manual',
+    year: 2025,
+    ruleset: '5e-2024',
+    pdf: 'D&D - 5th Edition (2014)/Rules/Monster Manual.pdf',
+  },
   mordenkainen_presents_monsters_of_the_multiverse: {
     name: 'Mordenkainen Presents: Monsters of the Multiverse',
     publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
+  },
+  mordenkainen_s_fiendish_folio: {
+    name: "Mordenkainen's Fiendish Folio",
     ruleset: '5e-2014',
   },
   mordenkainen_s_fiendish_folio_volume_1: {
@@ -390,6 +433,10 @@ export default createPublications({
     name: 'Out of the Abyss - D&D Encounters',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/Out of the Abyss - D&D Encounters.pdf',
+  },
+  phandelver_and_below_the_shattered_obelisk: {
+    name: 'Phandelver and Below: The Shattered Obelisk',
+    ruleset: '5e-2014',
   },
   plane_shift_amonkhet: {
     name: 'Plane Shift: Amonkhet',
@@ -459,6 +506,10 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Reference/Rise of Tiamat - Online Supplement.pdf',
   },
+  spelljammer_academy: {
+    name: 'Spelljammer Academy',
+    ruleset: '5e-2014',
+  },
   spelljammer_adventures_in_space: {
     name: 'Spelljammer: Adventures in Space',
     publisher: 'Wizards of the Coast',
@@ -506,6 +557,10 @@ export default createPublications({
   },
   tal_dorei_campaign_setting_reborn: {
     name: 'Tal’Dorei Campaign Setting Reborn',
+    ruleset: '5e-2014',
+  },
+  tales_from_the_yawning_portal: {
+    name: 'Tales from the Yawning Portal',
     ruleset: '5e-2014',
   },
   the_lost_hope: {
@@ -599,6 +654,10 @@ export default createPublications({
     ruleset: '5e-2014',
     license: 'ogl-1.0a',
     notice: 'Warlock. © 2017 Open Design LLC; Authors: Wolfgang Baur and others.',
+  },
+  waterdeep_dragon_heist: {
+    name: 'Waterdeep: Dragon Heist',
+    ruleset: '5e-2014',
   },
   waterdeep_dungeon_of_the_mad_mage: {
     name: 'Waterdeep: Dungeon of the Mad Mage',

@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     bandit_captain: {
       name: 'Bandit Captain',
+      reprintedIn: [refs.publications.ddal04_02_the_beast, refs.publications.monster_manual_2014],
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
@@ -74,6 +75,10 @@ export default createPublicationMonsters({
     },
     ghast: {
       name: 'Ghast',
+      reprintedIn: [
+        refs.publications.ddal04_03_the_executioner,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       alignment: 'chaotic evil',
       languages: ['Common'],
       stats: {
@@ -170,6 +175,7 @@ export default createPublicationMonsters({
     },
     ghoul: {
       name: 'Ghoul',
+      reprintedIn: [refs.publications.ddal04_08_the_broken_one],
       alignment: 'lawful evil',
       languages: ['Common'],
       stats: {
@@ -341,6 +347,7 @@ export default createPublicationMonsters({
     },
     sacred_stone_monk: {
       name: 'Sacred Stone Monk',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse],
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
@@ -533,6 +540,12 @@ export default createPublicationMonsters({
     },
     water_weird: {
       name: 'Water Weird',
+      reprintedIn: [
+        refs.publications.dragonlance_shadow_of_the_dragon_queen,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.journeys_through_the_radiant_citadel,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+      ],
       alignment: 'neutral',
       languages: ['understands Aquan but doesn’t speak'],
       stats: {

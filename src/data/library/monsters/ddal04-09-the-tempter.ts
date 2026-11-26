@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     animated_armor: {
       name: 'Animated Armor',
+      reprintedIn: [refs.publications.basic_rules_2018],
       alignment: 'unaligned',
       languages: [],
       stats: {

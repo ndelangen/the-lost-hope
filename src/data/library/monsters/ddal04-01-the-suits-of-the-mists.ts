@@ -132,6 +132,10 @@ export default createPublicationMonsters({
     },
     orog: {
       name: 'Orog',
+      reprintedIn: [
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['orc'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Orc'],

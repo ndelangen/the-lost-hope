@@ -427,6 +427,7 @@ export default createPublicationMonsters({
     },
     war_spider: {
       name: 'War Spider',
+      reprintedIn: [refs.publications.flee_mortals_public_preview],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Caves', 'Ruins', 'Forests', 'Jagged Edge Hideaway'],

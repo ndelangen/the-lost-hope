@@ -150,6 +150,7 @@ export default createPublicationMonsters({
     },
     strahd_zombie: {
       name: 'Strahd Zombie',
+      reprintedIn: [refs.publications.curse_of_strahd],
       alignment: 'unaligned',
       languages: ['understands Common but can’t speak'],
       stats: {

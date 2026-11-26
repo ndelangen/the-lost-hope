@@ -9,6 +9,12 @@ export default createPublicationMonsters({
   monsters: {
     barlgura: {
       name: 'Barlgura',
+      reprintedIn: [
+        refs.publications.critical_role_call_of_the_netherdeep,
+        refs.publications.monster_manual_2014,
+        refs.publications.waterdeep_dragon_heist,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft'],
@@ -104,6 +110,10 @@ export default createPublicationMonsters({
     },
     chasme: {
       name: 'Chasme',
+      reprintedIn: [
+        refs.publications.critical_role_call_of_the_netherdeep,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft'],
@@ -194,6 +204,10 @@ export default createPublicationMonsters({
     },
     derro: {
       name: 'Derro',
+      reprintedIn: [
+        refs.publications.out_of_the_abyss,
+        refs.publications.out_of_the_abyss_d_d_encounters,
+      ],
       tags: ['derro'],
       alignment: 'chaotic evil',
       languages: ['Dwarvish', 'Undercommon'],
@@ -608,6 +622,11 @@ export default createPublicationMonsters({
     },
     myconid_sovereign: {
       name: 'Myconid Sovereign',
+      reprintedIn: [
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       alignment: 'lawful neutral',
       languages: [],
       stats: {

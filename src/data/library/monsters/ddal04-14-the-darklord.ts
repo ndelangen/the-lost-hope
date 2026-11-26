@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     strahds_animated_armor: {
       name: "Strahd's Animated Armor",
+      reprintedIn: [refs.publications.ddal04_09_the_tempter],
       alignment: 'lawful evil',
       languages: ["Understands Common but can't speak"],
       stats: {

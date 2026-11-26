@@ -9,6 +9,12 @@ export default createPublicationMonsters({
   monsters: {
     bullywug: {
       name: 'Bullywug',
+      reprintedIn: [
+        refs.publications.explorer_s_guide_to_wildemount,
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.the_wild_beyond_the_witchlight,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['bullywug'],
       alignment: 'neutral evil',
       languages: ['Bullywug'],

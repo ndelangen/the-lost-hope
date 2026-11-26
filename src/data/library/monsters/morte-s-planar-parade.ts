@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     bleak_cabal_void_soother: {
       name: 'Bleak Cabal Void Soother',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 54,
       alignment: 'any alignment',
       languages: ['Common plus one more language.'],
@@ -113,6 +114,7 @@ export default createPublicationMonsters({
     },
     eater_of_knowledge: {
       name: 'Eater of Knowledge',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 29,
       alignment: 'typically neutral evil',
       languages: ['telepathy 120 ft.'],
@@ -236,6 +238,7 @@ export default createPublicationMonsters({
     },
     hands_of_havoc_fire_starter: {
       name: 'Hands of Havoc Fire Starter',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 58,
       alignment: 'any alignment',
       languages: ['Common plus one more language.'],
@@ -319,6 +322,7 @@ export default createPublicationMonsters({
     },
     maelephant: {
       name: 'Maelephant',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 35,
       alignment: 'typically lawful evil',
       languages: ['Infernal.'],

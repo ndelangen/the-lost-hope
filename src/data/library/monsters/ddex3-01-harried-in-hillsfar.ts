@@ -226,6 +226,7 @@ export default createPublicationMonsters({
     },
     jackalwere: {
       name: 'Jackalwere',
+      reprintedIn: [refs.publications.ghosts_of_saltmarsh],
       tags: ['shapechanger'],
       alignment: 'chaotic evil',
       languages: ['Common (can’t speak in jackal form)'],
@@ -327,6 +328,12 @@ export default createPublicationMonsters({
     },
     manes: {
       name: 'Manes',
+      reprintedIn: [
+        refs.publications.critical_role_call_of_the_netherdeep,
+        refs.publications.ddex2_01_city_of_danger,
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.the_wild_beyond_the_witchlight,
+      ],
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['understands Abyssal but can’t speak'],

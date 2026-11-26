@@ -506,7 +506,7 @@ export default createPublicationMonsters({
     },
     archelon: {
       name: 'Archelon',
-      reprintedIn: [refs.publications.srd_5_2_1],
+      reprintedIn: [refs.publications.monster_manual_2025, refs.publications.srd_5_2_1],
       tags: ['Dinosaur'],
       page: 349,
       alignment: 'unaligned',
@@ -769,7 +769,10 @@ export default createPublicationMonsters({
     },
     barbed_devil: {
       name: 'Barbed Devil',
-      reprintedIn: [refs.publications.srd_5_2_1],
+      reprintedIn: [
+        refs.publications.srd_5_2_1,
+        refs.publications.stranger_things_welcome_to_the_hellfire_club,
+      ],
       tags: ['devil'],
       page: 30,
       alignment: 'lawful evil',
@@ -1077,7 +1080,10 @@ export default createPublicationMonsters({
     },
     bearded_devil: {
       name: 'Bearded Devil',
-      reprintedIn: [refs.publications.srd_5_2_1],
+      reprintedIn: [
+        refs.publications.srd_5_2_1,
+        refs.publications.stranger_things_welcome_to_the_hellfire_club,
+      ],
       tags: ['devil'],
       page: 33,
       alignment: 'lawful evil',
@@ -2894,7 +2900,10 @@ export default createPublicationMonsters({
     },
     dretch: {
       name: 'Dretch',
-      reprintedIn: [refs.publications.srd_5_2_1],
+      reprintedIn: [
+        refs.publications.srd_5_2_1,
+        refs.publications.stranger_things_welcome_to_the_hellfire_club,
+      ],
       tags: ['demon'],
       page: 103,
       alignment: 'chaotic evil',
@@ -5193,6 +5202,7 @@ export default createPublicationMonsters({
     },
     giant_wasp: {
       name: 'Giant Wasp',
+      reprintedIn: [refs.publications.monster_manual_2025],
       page: 361,
       alignment: 'unaligned',
       languages: [],
@@ -5756,7 +5766,10 @@ export default createPublicationMonsters({
     },
     gnoll_warrior: {
       name: 'Gnoll Warrior',
-      reprintedIn: [refs.publications.srd_5_2_1],
+      reprintedIn: [
+        refs.publications.srd_5_2_1,
+        refs.publications.stranger_things_welcome_to_the_hellfire_club,
+      ],
       page: 140,
       alignment: 'chaotic evil',
       languages: ['Gnoll.'],
@@ -6794,6 +6807,7 @@ export default createPublicationMonsters({
     },
     hell_hound: {
       name: 'Hell Hound',
+      reprintedIn: [refs.publications.stranger_things_welcome_to_the_hellfire_club],
       page: 165,
       alignment: 'lawful evil',
       languages: ["Understands Infernal but can't speak."],
@@ -9725,6 +9739,7 @@ export default createPublicationMonsters({
     },
     myconid_adult: {
       name: 'Myconid Adult',
+      reprintedIn: [refs.publications.stranger_things_welcome_to_the_hellfire_club],
       page: 223,
       alignment: 'lawful neutral',
       languages: ['Telepathy 240 ft.'],
@@ -10074,6 +10089,7 @@ export default createPublicationMonsters({
     },
     needle_blight: {
       name: 'Needle Blight',
+      reprintedIn: [refs.publications.stranger_things_welcome_to_the_hellfire_club],
       page: 43,
       alignment: 'neutral evil',
       languages: ['Understands Common and cannot speak.'],
@@ -12315,6 +12331,7 @@ export default createPublicationMonsters({
     },
     scarecrow: {
       name: 'Scarecrow',
+      reprintedIn: [refs.publications.stranger_things_welcome_to_the_hellfire_club],
       page: 269,
       alignment: 'chaotic evil',
       languages: ['Common plus one other language.'],
@@ -12431,7 +12448,10 @@ export default createPublicationMonsters({
     },
     shadow: {
       name: 'Shadow',
-      reprintedIn: [refs.publications.srd_5_2_1],
+      reprintedIn: [
+        refs.publications.srd_5_2_1,
+        refs.publications.stranger_things_welcome_to_the_hellfire_club,
+      ],
       page: 272,
       alignment: 'chaotic evil',
       habitats: ['Planar (Shadowfell)', 'Underdark', 'Urban'],
@@ -13510,6 +13530,7 @@ export default createPublicationMonsters({
     },
     swarm_of_rats: {
       name: 'Swarm of Rats',
+      reprintedIn: [refs.publications.monster_manual_2025],
       page: 370,
       alignment: 'unaligned',
       languages: [],
@@ -14440,7 +14461,10 @@ export default createPublicationMonsters({
     },
     violet_fungus: {
       name: 'Violet Fungus',
-      reprintedIn: [refs.publications.srd_5_2_1],
+      reprintedIn: [
+        refs.publications.srd_5_2_1,
+        refs.publications.stranger_things_welcome_to_the_hellfire_club,
+      ],
       page: 126,
       alignment: 'unaligned',
       languages: ['None.'],

@@ -9,6 +9,15 @@ export default createPublicationMonsters({
   monsters: {
     crawling_claw: {
       name: 'Crawling Claw',
+      reprintedIn: [
+        refs.publications.curse_of_strahd,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.journeys_through_the_radiant_citadel,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+        refs.publications.spelljammer_adventures_in_space,
+        refs.publications.tomb_of_annihilation,
+        refs.publications.waterdeep_dragon_heist,
+      ],
       alignment: 'neutral evil',
       languages: ['understands Common but can’t speak'],
       stats: {
@@ -82,6 +91,13 @@ export default createPublicationMonsters({
     },
     helmed_horror: {
       name: 'Helmed Horror',
+      reprintedIn: [
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.journeys_through_the_radiant_citadel,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.waterdeep_dragon_heist,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       alignment: 'neutral',
       languages: ['understands the languages of its creator but can’t speak'],
       stats: {
@@ -153,6 +169,14 @@ export default createPublicationMonsters({
     },
     red_slaad: {
       name: 'Red Slaad',
+      reprintedIn: [
+        refs.publications.dragonlance_shadow_of_the_dragon_queen,
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.waterdeep_dragon_heist,
+      ],
       alignment: 'chaotic neutral',
       languages: ['Slaad', 'telepathy 60 ft'],
       stats: {
@@ -240,6 +264,13 @@ export default createPublicationMonsters({
     },
     slaad_tadpole: {
       name: 'Slaad Tadpole',
+      reprintedIn: [
+        refs.publications.dragonlance_shadow_of_the_dragon_queen,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.monster_manual_2014,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       alignment: 'chaotic neutral',
       languages: ['understands Slaad but can’t speak'],
       stats: {

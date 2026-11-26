@@ -621,6 +621,7 @@ export default createPublicationMonsters({
     },
     adult_copper_dragon: {
       name: 'Adult Copper Dragon',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Metallic'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic'],
@@ -828,6 +829,7 @@ export default createPublicationMonsters({
     },
     adult_green_dragon: {
       name: 'Adult Green Dragon',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
@@ -1172,6 +1174,7 @@ export default createPublicationMonsters({
     },
     ancient_blue_dragon: {
       name: 'Ancient Blue Dragon',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
@@ -1331,6 +1334,7 @@ export default createPublicationMonsters({
     },
     ancient_brass_dragon: {
       name: 'Ancient Brass Dragon',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Metallic'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic'],
@@ -1767,6 +1771,7 @@ export default createPublicationMonsters({
     },
     ancient_green_dragon: {
       name: 'Ancient Green Dragon',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
@@ -1955,6 +1960,7 @@ export default createPublicationMonsters({
     },
     ancient_white_dragon: {
       name: 'Ancient White Dragon',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Chromatic'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
@@ -2162,6 +2168,7 @@ export default createPublicationMonsters({
     },
     animated_flying_sword: {
       name: 'Animated Flying Sword',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       appearance: [
@@ -2222,6 +2229,7 @@ export default createPublicationMonsters({
     },
     animated_rug_of_smothering: {
       name: 'Animated Rug of Smothering',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       appearance: [['An ordinary rug lies still on the floor.']],
@@ -2296,6 +2304,10 @@ export default createPublicationMonsters({
     },
     ankheg: {
       name: 'Ankheg',
+      reprintedIn: [
+        refs.publications.monster_manual_2024,
+        refs.publications.stranger_things_welcome_to_the_hellfire_club,
+      ],
       alignment: 'unaligned',
       languages: [],
       appearance: [
@@ -2382,6 +2394,7 @@ export default createPublicationMonsters({
     },
     assassin: {
       name: 'Assassin',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common', 'Thieves’ Cant'],
       stats: {
@@ -2594,6 +2607,7 @@ export default createPublicationMonsters({
     },
     badger: {
       name: 'Badger',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -2829,6 +2843,7 @@ export default createPublicationMonsters({
     },
     bandit_captain: {
       name: 'Bandit Captain',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common', 'Thieves’ Cant'],
       appearance: [['A swaggering leader with scimitar and dagger stands among the band.']],
@@ -3854,6 +3869,7 @@ export default createPublicationMonsters({
     },
     bugbear_stalker: {
       name: 'Bugbear Stalker',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Goblinoid'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Goblin'],
@@ -3947,6 +3963,7 @@ export default createPublicationMonsters({
     },
     bugbear_warrior: {
       name: 'Bugbear Warrior',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Goblinoid'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Goblin'],
@@ -4018,6 +4035,7 @@ export default createPublicationMonsters({
     },
     centaur_trooper: {
       name: 'Centaur Trooper',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral good',
       languages: ['Elvish', 'Sylvan'],
       stats: {
@@ -4756,6 +4774,7 @@ export default createPublicationMonsters({
     },
     constrictor_snake: {
       name: 'Constrictor Snake',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -5027,6 +5046,7 @@ export default createPublicationMonsters({
     },
     crocodile: {
       name: 'Crocodile',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -5203,6 +5223,7 @@ export default createPublicationMonsters({
     },
     deva: {
       name: 'Deva',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Angel'],
       alignment: 'lawful good',
       languages: ['All', 'telepathy 120 ft'],
@@ -5881,6 +5902,7 @@ export default createPublicationMonsters({
     },
     earth_elemental: {
       name: 'Earth Elemental',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Primordial (Terran)'],
       stats: {
@@ -5977,6 +5999,7 @@ export default createPublicationMonsters({
     },
     efreeti: {
       name: 'Efreeti',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Genie'],
       alignment: 'neutral',
       languages: ['Primordial (Ignan)'],
@@ -6489,6 +6512,7 @@ export default createPublicationMonsters({
     },
     fire_elemental: {
       name: 'Fire Elemental',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Primordial (Ignan)'],
       stats: {
@@ -6838,6 +6862,7 @@ export default createPublicationMonsters({
     },
     gargoyle: {
       name: 'Gargoyle',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'chaotic evil',
       languages: ['Primordial (Terran)'],
       stats: {
@@ -6888,6 +6913,7 @@ export default createPublicationMonsters({
     },
     giant_ape: {
       name: 'Giant Ape',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -6968,6 +6994,7 @@ export default createPublicationMonsters({
     },
     giant_badger: {
       name: 'Giant Badger',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -7944,6 +7971,7 @@ export default createPublicationMonsters({
     },
     goblin_boss: {
       name: 'Goblin Boss',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Goblinoid'],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Goblin'],
@@ -8026,6 +8054,7 @@ export default createPublicationMonsters({
     },
     goblin_minion: {
       name: 'Goblin Minion',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Goblinoid'],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Goblin'],
@@ -8066,6 +8095,7 @@ export default createPublicationMonsters({
     },
     goblin_warrior: {
       name: 'Goblin Warrior',
+      reprintedIn: [refs.publications.stranger_things_welcome_to_the_hellfire_club],
       tags: ['Goblinoid'],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Goblin'],
@@ -8527,6 +8557,7 @@ export default createPublicationMonsters({
     },
     guard_captain: {
       name: 'Guard Captain',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common'],
       stats: {
@@ -8949,6 +8980,7 @@ export default createPublicationMonsters({
     },
     hobgoblin_captain: {
       name: 'Hobgoblin Captain',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Goblinoid'],
       alignment: 'lawful evil',
       languages: ['Common', 'Goblin'],
@@ -9025,6 +9057,7 @@ export default createPublicationMonsters({
     },
     hobgoblin_warrior: {
       name: 'Hobgoblin Warrior',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Goblinoid'],
       alignment: 'lawful evil',
       languages: ['Common', 'Goblin'],
@@ -9620,6 +9653,7 @@ export default createPublicationMonsters({
     },
     kobold_warrior: {
       name: 'Kobold Warrior',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -9672,6 +9706,7 @@ export default createPublicationMonsters({
     },
     lamia: {
       name: 'Lamia',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common'],
       stats: {
@@ -10948,6 +10983,7 @@ export default createPublicationMonsters({
     },
     ogre: {
       name: 'Ogre',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant'],
       stats: {
@@ -10992,6 +11028,7 @@ export default createPublicationMonsters({
     },
     pirate: {
       name: 'Pirate',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common plus one other language'],
       stats: {
@@ -11328,6 +11365,7 @@ export default createPublicationMonsters({
     },
     planetar: {
       name: 'Planetar',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Angel'],
       alignment: 'lawful good',
       languages: ['All', 'telepathy 120 ft'],
@@ -12711,6 +12749,7 @@ export default createPublicationMonsters({
     },
     satyr: {
       name: 'Satyr',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan'],
       stats: {
@@ -12971,6 +13010,10 @@ export default createPublicationMonsters({
     },
     shrieker_fungus: {
       name: 'Shrieker Fungus',
+      reprintedIn: [
+        refs.publications.monster_manual_2024,
+        refs.publications.stranger_things_welcome_to_the_hellfire_club,
+      ],
       alignment: 'unaligned',
       languages: [],
       appearance: [
@@ -13118,6 +13161,7 @@ export default createPublicationMonsters({
     },
     skeleton: {
       name: 'Skeleton',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'lawful evil',
       languages: ['Understands Common plus one other language but can’t speak'],
       stats: {
@@ -14315,6 +14359,7 @@ export default createPublicationMonsters({
     },
     storm_giant: {
       name: 'Storm Giant',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'chaotic good',
       languages: ['Common', 'Giant'],
       stats: {
@@ -14437,6 +14482,7 @@ export default createPublicationMonsters({
     },
     swarm_of_bats: {
       name: 'Swarm of Bats',
+      reprintedIn: [refs.publications.monster_manual_2024, refs.publications.monster_manual_2025],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -14605,7 +14651,7 @@ export default createPublicationMonsters({
     },
     swarm_of_ravens: {
       name: 'Swarm of Ravens',
-      reprintedIn: [refs.publications.monster_manual_2024],
+      reprintedIn: [refs.publications.monster_manual_2024, refs.publications.monster_manual_2025],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -15048,6 +15094,7 @@ export default createPublicationMonsters({
     },
     tough: {
       name: 'Tough',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common'],
       stats: {
@@ -15102,6 +15149,7 @@ export default createPublicationMonsters({
     },
     tough_boss: {
       name: 'Tough Boss',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common plus one other language'],
       stats: {
@@ -15243,7 +15291,7 @@ export default createPublicationMonsters({
     },
     triceratops: {
       name: 'Triceratops',
-      reprintedIn: [refs.publications.monster_manual_2024],
+      reprintedIn: [refs.publications.monster_manual_2024, refs.publications.monster_manual_2025],
       tags: ['Dinosaur'],
       alignment: 'unaligned',
       languages: [],
@@ -15703,6 +15751,7 @@ export default createPublicationMonsters({
     },
     vampire_spawn: {
       name: 'Vampire Spawn',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral evil',
       languages: ['Common plus one other language'],
       stats: {
@@ -15989,6 +16038,7 @@ export default createPublicationMonsters({
     },
     warrior_infantry: {
       name: 'Warrior Infantry',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common'],
       stats: {
@@ -16031,6 +16081,7 @@ export default createPublicationMonsters({
     },
     warrior_veteran: {
       name: 'Warrior Veteran',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common plus one other language'],
       stats: {
@@ -16766,6 +16817,7 @@ export default createPublicationMonsters({
     },
     wight: {
       name: 'Wight',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral evil',
       languages: ['Common plus one other language'],
       stats: {

@@ -1554,6 +1554,7 @@ export default createPublicationMonsters({
     },
     naiad: {
       name: 'Naiad',
+      reprintedIn: [refs.publications.candlekeep_mysteries],
       page: 236,
       alignment: 'chaotic neutral',
       languages: ['Common', 'Sylvan.'],

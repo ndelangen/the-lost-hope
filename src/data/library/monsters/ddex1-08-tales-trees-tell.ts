@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     pixie: {
       name: 'Pixie',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'neutral good',
       languages: ['Sylvan'],
       stats: {
@@ -82,6 +83,11 @@ export default createPublicationMonsters({
     },
     scarecrow: {
       name: 'Scarecrow',
+      reprintedIn: [
+        refs.publications.curse_of_strahd,
+        refs.publications.tomb_of_annihilation,
+        refs.publications.waterdeep_dragon_heist,
+      ],
       alignment: 'chaotic evil',
       languages: ['understands the languages of its creator but can’t speak'],
       stats: {

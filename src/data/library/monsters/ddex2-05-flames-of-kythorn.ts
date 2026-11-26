@@ -9,6 +9,12 @@ export default createPublicationMonsters({
   monsters: {
     commoner: {
       name: 'Commoner',
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],

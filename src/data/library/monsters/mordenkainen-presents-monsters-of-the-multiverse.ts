@@ -1944,6 +1944,10 @@ export default createPublicationMonsters({
     },
     champion: {
       name: 'Champion',
+      reprintedIn: [
+        refs.publications.tomb_of_annihilation,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 74,
       alignment: 'any alignment',
       languages: ['Any one language (usually Common).'],
@@ -2429,6 +2433,7 @@ export default createPublicationMonsters({
     },
     cranium_rat: {
       name: 'Cranium Rat',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 83,
       alignment: 'unaligned',
       languages: ['Telepathy 30 ft.'],
@@ -2652,6 +2657,7 @@ export default createPublicationMonsters({
     },
     deathlock: {
       name: 'Deathlock',
+      reprintedIn: [refs.publications.mordenkainen_s_tome_of_foes],
       tags: ['warlock'],
       page: 86,
       alignment: 'typically neutral evil',
@@ -3095,6 +3101,7 @@ export default createPublicationMonsters({
     },
     derro: {
       name: 'Derro',
+      reprintedIn: [refs.publications.mordenkainen_s_tome_of_foes],
       page: 91,
       alignment: 'typically chaotic evil',
       languages: ['Dwarvish', 'Undercommon.'],
@@ -3828,6 +3835,7 @@ export default createPublicationMonsters({
     },
     duergar_hammerer: {
       name: 'Duergar Hammerer',
+      reprintedIn: [refs.publications.icewind_dale_rime_of_the_frostmaiden],
       tags: ['dwarf'],
       page: 112,
       alignment: 'any alignment',
@@ -4725,6 +4733,7 @@ export default createPublicationMonsters({
     },
     firenewt_warlock_of_imix: {
       name: 'Firenewt Warlock of Imix',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 125,
       alignment: 'typically neutral evil',
       languages: ['Draconic', 'Ignan.'],
@@ -5169,6 +5178,7 @@ export default createPublicationMonsters({
     },
     girallon: {
       name: 'Girallon',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       page: 139,
       alignment: 'unaligned',
       habitats: ['forest'],
@@ -5351,6 +5361,7 @@ export default createPublicationMonsters({
     },
     githyanki_kithrak: {
       name: 'Githyanki Kith’rak',
+      reprintedIn: [refs.publications.mordenkainen_s_tome_of_foes],
       tags: ['gith'],
       page: 140,
       alignment: 'any alignment',
@@ -6067,6 +6078,7 @@ export default createPublicationMonsters({
     },
     grung_elite_warrior_blue: {
       name: 'Grung Elite Warrior (Blue)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 150,
       alignment: 'any alignment',
       languages: ['Grung.'],
@@ -6206,6 +6218,7 @@ export default createPublicationMonsters({
     },
     grung_elite_warrior_gold: {
       name: 'Grung Elite Warrior (Gold)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 150,
       alignment: 'any alignment',
       languages: ['Grung.'],
@@ -6347,6 +6360,7 @@ export default createPublicationMonsters({
     },
     grung_elite_warrior_green: {
       name: 'Grung Elite Warrior (Green)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 150,
       alignment: 'any alignment',
       languages: ['Grung.'],
@@ -6486,6 +6500,7 @@ export default createPublicationMonsters({
     },
     grung_elite_warrior_orange: {
       name: 'Grung Elite Warrior (Orange)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 150,
       alignment: 'any alignment',
       languages: ['Grung.'],
@@ -6627,6 +6642,7 @@ export default createPublicationMonsters({
     },
     grung_elite_warrior_purple: {
       name: 'Grung Elite Warrior (Purple)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 150,
       alignment: 'any alignment',
       languages: ['Grung.'],
@@ -6766,6 +6782,7 @@ export default createPublicationMonsters({
     },
     grung_elite_warrior_red: {
       name: 'Grung Elite Warrior (Red)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 150,
       alignment: 'any alignment',
       languages: ['Grung.'],
@@ -8818,6 +8835,7 @@ export default createPublicationMonsters({
     },
     neogi_hatchling: {
       name: 'Neogi Hatchling',
+      reprintedIn: [refs.publications.spelljammer_academy],
       page: 191,
       alignment: 'typically lawful evil',
       habitats: ['hill', 'underdark'],
@@ -9454,6 +9472,7 @@ export default createPublicationMonsters({
     },
     phoenix: {
       name: 'Phoenix',
+      reprintedIn: [refs.publications.mordenkainen_s_tome_of_foes],
       page: 206,
       alignment: 'typically neutral',
       habitats: ['desert', 'mountain'],
@@ -10884,6 +10903,7 @@ export default createPublicationMonsters({
     },
     star_spawn_hulk: {
       name: 'Star Spawn Hulk',
+      reprintedIn: [refs.publications.mordenkainen_s_tome_of_foes],
       page: 227,
       alignment: 'typically chaotic evil',
       languages: ['Deep Speech.'],
@@ -11056,6 +11076,7 @@ export default createPublicationMonsters({
     },
     stegosaurus: {
       name: 'Stegosaurus',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       tags: ['Dinosaur'],
       page: 96,
       alignment: 'unaligned',
@@ -11382,6 +11403,10 @@ export default createPublicationMonsters({
     },
     sword_wraith_commander: {
       name: 'Sword Wraith Commander',
+      reprintedIn: [
+        refs.publications.critical_role_call_of_the_netherdeep,
+        refs.publications.mordenkainen_s_tome_of_foes,
+      ],
       page: 239,
       alignment: 'typically lawful evil',
       languages: ['The languages it knew in life.'],
@@ -11494,6 +11519,7 @@ export default createPublicationMonsters({
     },
     sword_wraith_warrior: {
       name: 'Sword Wraith Warrior',
+      reprintedIn: [refs.publications.critical_role_call_of_the_netherdeep],
       page: 239,
       alignment: 'typically lawful evil',
       languages: ['The languages it knew in life.'],

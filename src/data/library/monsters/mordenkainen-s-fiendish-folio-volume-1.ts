@@ -93,6 +93,7 @@ export default createPublicationMonsters({
     },
     crab_folk: {
       name: 'Crab Folk',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       alignment: 'neutral',
       languages: ['Common', 'Giant'],
       habitats: ['Coasts', 'Rocky shores', 'Isolated coastal settlements'],
@@ -163,6 +164,7 @@ export default createPublicationMonsters({
     },
     dire_corby: {
       name: 'Dire Corby',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       tags: ['dire corby'],
       alignment: 'neutral evil',
       languages: ['Undercommon'],
@@ -244,6 +246,7 @@ export default createPublicationMonsters({
     },
     eye_of_fear_and_flame: {
       name: 'Eye of Fear and Flame',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       alignment: 'chaotic evil',
       languages: ['Common', 'all languages known by any creature within 30 feet of it'],
       habitats: ['Haunted sites', 'Settlements'],
@@ -384,6 +387,7 @@ export default createPublicationMonsters({
     },
     fog_giant: {
       name: 'Fog Giant',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       alignment: 'neutral evil',
       languages: ['Common', 'Giant'],
       habitats: ['Remote wilderness', 'Bandit lairs'],
@@ -484,6 +488,7 @@ export default createPublicationMonsters({
     },
     forlarren: {
       name: 'Forlarren',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Sylvan'],
       habitats: ['Feywild', 'Forests'],
@@ -649,6 +654,7 @@ export default createPublicationMonsters({
     },
     killmoulis: {
       name: 'Killmoulis',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       alignment: 'neutral',
       languages: ['Common', 'Sylvan', 'telepathy 60 ft'],
       habitats: ['Feywild', 'Roadsides', 'Traveler camps'],
@@ -764,6 +770,7 @@ export default createPublicationMonsters({
     },
     needle_lord: {
       name: 'Needle Lord',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       alignment: 'chaotic evil',
       languages: ['Sylvan'],
       habitats: ['Forests', 'Infected woodland'],
@@ -862,6 +869,7 @@ export default createPublicationMonsters({
     },
     needle_spawn: {
       name: 'Needle Spawn',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       alignment: 'chaotic evil',
       languages: ['Sylvan'],
       habitats: ['Forests', 'Infected woodland'],
@@ -940,6 +948,7 @@ export default createPublicationMonsters({
     },
     norker: {
       name: 'Norker',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       tags: ['goblinoid'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Goblin'],
@@ -1093,6 +1102,7 @@ export default createPublicationMonsters({
     },
     screaming_devilkin: {
       name: 'Screaming Devilkin',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       alignment: 'lawful evil',
       languages: ['Sylvan'],
       habitats: ['Feywild'],
@@ -1170,6 +1180,7 @@ export default createPublicationMonsters({
     },
     xill: {
       name: 'Xill',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       alignment: 'lawful evil',
       languages: ['Common'],
       habitats: ['Ethereal Plane', 'Demiplanes'],

@@ -59,6 +59,7 @@ export default createPublicationMonsters({
     },
     howling_hatred_initiate: {
       name: 'Howling Hatred Initiate',
+      reprintedIn: [refs.publications.ddep2_mulmaster_undone_v2],
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],

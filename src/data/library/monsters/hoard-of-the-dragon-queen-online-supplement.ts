@@ -271,6 +271,10 @@ export default createPublicationMonsters({
     },
     yuan_ti_pureblood: {
       name: 'Yuan-ti Pureblood',
+      reprintedIn: [
+        refs.publications.tomb_of_annihilation,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['yuan-ti'],
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic'],

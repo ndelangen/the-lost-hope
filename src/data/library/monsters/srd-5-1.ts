@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     aboleth: {
       name: 'Aboleth',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'telepathy 120 ft'],
       stats: {
@@ -198,6 +199,7 @@ export default createPublicationMonsters({
     },
     adult_black_dragon: {
       name: 'Adult Black Dragon',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -356,6 +358,10 @@ export default createPublicationMonsters({
     },
     adult_blue_dragon: {
       name: 'Adult Blue Dragon',
+      reprintedIn: [
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -680,6 +686,7 @@ export default createPublicationMonsters({
     },
     adult_bronze_dragon: {
       name: 'Adult Bronze Dragon',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       alignment: 'lawful good',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -1219,6 +1226,7 @@ export default createPublicationMonsters({
     },
     adult_green_dragon: {
       name: 'Adult Green Dragon',
+      reprintedIn: [refs.publications.rise_of_tiamat_online_supplement],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -1719,6 +1727,10 @@ export default createPublicationMonsters({
     },
     adult_white_dragon: {
       name: 'Adult White Dragon',
+      reprintedIn: [
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -4297,6 +4309,7 @@ export default createPublicationMonsters({
     },
     black_dragon_wyrmling: {
       name: 'Black Dragon Wyrmling',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'chaotic evil',
       languages: ['Draconic'],
       stats: {
@@ -4444,6 +4457,7 @@ export default createPublicationMonsters({
     },
     blue_dragon_wyrmling: {
       name: 'Blue Dragon Wyrmling',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'lawful evil',
       languages: ['Draconic'],
       stats: {
@@ -4659,6 +4673,7 @@ export default createPublicationMonsters({
     },
     brass_dragon_wyrmling: {
       name: 'Brass Dragon Wyrmling',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'chaotic good',
       languages: ['Draconic'],
       stats: {
@@ -4747,6 +4762,7 @@ export default createPublicationMonsters({
     },
     bronze_dragon_wyrmling: {
       name: 'Bronze Dragon Wyrmling',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'lawful good',
       languages: ['Draconic'],
       stats: {
@@ -5319,6 +5335,7 @@ export default createPublicationMonsters({
     },
     copper_dragon_wyrmling: {
       name: 'Copper Dragon Wyrmling',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'chaotic good',
       languages: ['Draconic'],
       stats: {
@@ -5604,6 +5621,7 @@ export default createPublicationMonsters({
     },
     dragon_turtle: {
       name: 'Dragon Turtle',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       alignment: 'neutral',
       languages: ['Aquan', 'Draconic'],
       stats: {
@@ -5722,6 +5740,7 @@ export default createPublicationMonsters({
         refs.publications.ddex2_01_city_of_danger,
         refs.publications.ddex3_01_harried_in_hillsfar,
         refs.publications.ddex3_03_the_occupation_of_szith_morcane,
+        refs.publications.monster_manual_2014,
       ],
       tags: ['demon'],
       alignment: 'chaotic evil',
@@ -5935,6 +5954,7 @@ export default createPublicationMonsters({
     },
     dryad: {
       name: 'Dryad',
+      reprintedIn: [refs.publications.ddal04_11_the_donjon, refs.publications.plane_shift_ixalan],
       alignment: 'neutral',
       languages: ['Elvish', 'Sylvan'],
       stats: {
@@ -6658,6 +6678,7 @@ export default createPublicationMonsters({
     flesh_golem: {
       name: 'Flesh Golem',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddex1_10_tyranny_in_phlan,
         refs.publications.ddex2_04_mayhem_in_the_earthspur_mines,
       ],
@@ -7691,6 +7712,7 @@ export default createPublicationMonsters({
     },
     gold_dragon_wyrmling: {
       name: 'Gold Dragon Wyrmling',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'lawful good',
       languages: ['Draconic'],
       stats: {
@@ -7860,6 +7882,7 @@ export default createPublicationMonsters({
     },
     green_dragon_wyrmling: {
       name: 'Green Dragon Wyrmling',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'lawful evil',
       languages: ['Draconic'],
       stats: {
@@ -8484,6 +8507,10 @@ export default createPublicationMonsters({
     },
     invisible_stalker: {
       name: 'Invisible Stalker',
+      reprintedIn: [
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       alignment: 'neutral',
       languages: ['Auran', 'understands Common but doesn’t speak it'],
       stats: {
@@ -9135,6 +9162,11 @@ export default createPublicationMonsters({
     },
     magmin: {
       name: 'Magmin',
+      reprintedIn: [
+        refs.publications.ddex2_02_embers_of_elmwood,
+        refs.publications.ddex2_05_flames_of_kythorn,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       alignment: 'chaotic neutral',
       languages: ['Ignan'],
       stats: {
@@ -9202,6 +9234,7 @@ export default createPublicationMonsters({
     },
     marilith: {
       name: 'Marilith',
+      reprintedIn: [refs.publications.monster_manual_2014],
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft'],
@@ -10453,6 +10486,7 @@ export default createPublicationMonsters({
     },
     red_dragon_wyrmling: {
       name: 'Red Dragon Wyrmling',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'chaotic evil',
       languages: ['Draconic'],
       stats: {
@@ -10981,6 +11015,7 @@ export default createPublicationMonsters({
     },
     silver_dragon_wyrmling: {
       name: 'Silver Dragon Wyrmling',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'lawful good',
       languages: ['Draconic'],
       stats: {
@@ -11377,6 +11412,7 @@ export default createPublicationMonsters({
     stone_golem: {
       name: 'Stone Golem',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddex3_04_it_s_all_in_the_blood,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
       ],
@@ -11593,6 +11629,7 @@ export default createPublicationMonsters({
     },
     swarm_of_insects: {
       name: 'Swarm of Insects',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -12523,6 +12560,7 @@ export default createPublicationMonsters({
     vampire_spawn: {
       name: 'Vampire Spawn',
       reprintedIn: [
+        refs.publications.ddal04_08_the_broken_one,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
         refs.publications.princes_of_the_apocalypse_online_supplement,
         refs.publications.rise_of_tiamat_online_supplement,
@@ -12845,6 +12883,7 @@ export default createPublicationMonsters({
     },
     white_dragon_wyrmling: {
       name: 'White Dragon Wyrmling',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'chaotic evil',
       languages: ['Draconic'],
       stats: {
@@ -13296,6 +13335,7 @@ export default createPublicationMonsters({
     },
     young_black_dragon: {
       name: 'Young Black Dragon',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -13380,6 +13420,7 @@ export default createPublicationMonsters({
     },
     young_blue_dragon: {
       name: 'Young Blue Dragon',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -13457,6 +13498,7 @@ export default createPublicationMonsters({
     },
     young_brass_dragon: {
       name: 'Young Brass Dragon',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -13660,6 +13702,7 @@ export default createPublicationMonsters({
     },
     young_copper_dragon: {
       name: 'Young Copper Dragon',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -13764,6 +13807,7 @@ export default createPublicationMonsters({
     },
     young_gold_dragon: {
       name: 'Young Gold Dragon',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'lawful good',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -13967,6 +14011,10 @@ export default createPublicationMonsters({
     },
     young_red_dragon: {
       name: 'Young Red Dragon',
+      reprintedIn: [
+        refs.publications.monster_manual_2014,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -14044,6 +14092,7 @@ export default createPublicationMonsters({
     },
     young_silver_dragon: {
       name: 'Young Silver Dragon',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'lawful good',
       languages: ['Common', 'Draconic'],
       stats: {
@@ -14153,6 +14202,7 @@ export default createPublicationMonsters({
     },
     young_white_dragon: {
       name: 'Young White Dragon',
+      reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       stats: {

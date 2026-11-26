@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     lightbender: {
       name: 'Lightbender',
+      reprintedIn: [refs.publications.flee_mortals, refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Sunlit wilderness'],

@@ -116,6 +116,14 @@ export default createPublicationMonsters({
     },
     drow_elite_warrior: {
       name: 'Drow Elite Warrior',
+      reprintedIn: [
+        refs.publications.critical_role_call_of_the_netherdeep,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.monster_manual_2014,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.waterdeep_dragon_heist,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['elf'],
       alignment: 'neutral evil',
       languages: ['Elvish', 'Undercommon'],
