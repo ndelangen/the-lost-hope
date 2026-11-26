@@ -8446,134 +8446,58 @@
       {
         "id": "printing-8cc8e2e3f79af9acd33a1603",
         "label": "DDAL04-05 - The Seer",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 36",
-              "Hit dice · 8d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ghast"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +3 to hit · reach 5 ft. · 2d8 + 3 piercing",
-              "Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_05_the_seer"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-8740a4faa25e83d32a20785b",
         "label": "DDAL04-06 - The Ghost",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 36",
-              "Hit dice · 8d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ghast"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +3 to hit · reach 5 ft. · 2d8 + 3 piercing",
-              "Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_06_the_ghost"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-4fa54db492f9bbe7906be448",
         "label": "DDAL04-07 - The Innocent",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 36",
-              "Hit dice · 8d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ghast"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +3 to hit · reach 5 ft. · 2d8 + 3 piercing",
-              "Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_07_the_innocent"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-912be95f637122b5f888341e",
         "label": "DDAL04-08 - The Broken One",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 36",
-              "Hit dice · 8d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ghast"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +3 to hit · reach 5 ft. · 2d8 + 3 piercing",
-              "Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_08_the_broken_one"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-5c86405c88d3a54d0cd4337f",
@@ -10014,35 +9938,16 @@
       {
         "id": "printing-3948e799095499aef06ada9e",
         "label": "DDAL04-03 - The Executioner",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 15",
-              "Con · 10",
-              "Int · 7",
-              "Wis · 10",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ghoul"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +2 to hit · reach 5 ft. · 2d6 + 2 piercing",
-              "Claws · melee · +4 to hit · reach 5 ft. · 2d4 + 2 slashing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_03_the_executioner"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-8fd9c35c4e8bf62a7c6dd02b",
@@ -19852,22 +19757,16 @@
       {
         "id": "printing-42863d3ed46f91507b21d5ef",
         "label": "DDEX3-13 - Writhing in the Dark",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 49",
-              "Hit dice · 9d8 + 9",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft."
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "githyanki_warrior"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_13_writhing_in_the_dark"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-20f9f437dab5bbf9c88f5946",
@@ -22715,62 +22614,30 @@
       {
         "id": "printing-60d5701ea68ad3919e61dca0",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 112",
-              "Hit dice · 15d8 + 45",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 12",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gladiator"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Shield Bash · melee · +7 to hit · reach 5 ft. · 2d4 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-41d7a6b7bb924cf7a7696a42",
         "label": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 112",
-              "Hit dice · 15d8 + 45",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 12",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gladiator"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Shield Bash · melee · +7 to hit · reach 5 ft. · 2d4 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_11_dark_pyramid_of_sorcerer_s_isle"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-b7c58dbdd35f4ce0e2e32ba9",
@@ -22884,32 +22751,16 @@
       {
         "id": "printing-ed05fd982e1513a319a522dc",
         "label": "Rise of Tiamat - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 112",
-              "Hit dice · 15d8 + 45",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 12",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gladiator"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Shield Bash · melee · +7 to hit · reach 5 ft. · 2d4 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "art": [
@@ -27219,35 +27070,16 @@
       {
         "id": "printing-721f37eab947661376c5772a",
         "label": "DDAL04-01 - The Suits of the Mists",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 7",
-              "Hit dice · 2d6",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 8",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 10",
-              "Wis · 8",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "goblin"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Scimitar · melee · +4 to hit · reach 5 ft. · 1d6 + 2 slashing",
-              "Shortbow · ranged · +4 to hit · range 80/320 ft. · 1d6 + 2 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_01_the_suits_of_the_mists"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-a72ddd19e5a98aaf8809c1a8",
@@ -38592,92 +38424,44 @@
       {
         "id": "printing-217bc8fa20cbfb693b191a9e",
         "label": "DDAL04-01 - The Suits of the Mists",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 82",
-              "Hit dice · 11d8 + 33",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Fey",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 13",
-              "Wis · 14",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "green_hag"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Claws · melee · +6 to hit · reach 5 ft. · 2d8 + 4 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_01_the_suits_of_the_mists"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-c2fd26cf66a7e5c6289e3f82",
         "label": "DDAL04-11 - The Donjon",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 82",
-              "Hit dice · 11d8 + 33",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Fey",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 13",
-              "Wis · 14",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "green_hag"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Claws · melee · +6 to hit · reach 5 ft. · 2d8 + 4 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_11_the_donjon"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-12f8364d2892183b5b895f89",
         "label": "DDEX1-12 - Raiders of the Twilight Marsh",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 82",
-              "Hit dice · 11d8 + 33",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Fey",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 13",
-              "Wis · 14",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "green_hag"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Claws · melee · +6 to hit · reach 5 ft. · 2d8 + 4 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_12_raiders_of_the_twilight_marsh"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-3d07f34d20b6425100e3d82b",
@@ -40224,32 +40008,16 @@
       {
         "id": "printing-9507710c3bc80fea72fa87be",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 55",
-              "Hit dice · 10d8 + 10",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Aberration",
-              "Speed · walk 10 ft., fly 30 ft.",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 9"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "grell"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Beak · melee · +4 to hit · reach 5 ft. · 2d4 + 2 piercing"]
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9a81dd7a54fc4044100d06ec",
@@ -43466,35 +43234,16 @@
       {
         "id": "printing-df01b547983fd7917b44925d",
         "label": "DDEX1-09 - Outlaws of the Iron Route",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "grimshackle_jailer"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Shortsword · melee · +3 to hit · reach 5 ft. · 1d6 + 1 piercing",
-              "Light Crossbow · ranged · +3 to hit · range 80/320 ft. · 1d8 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_09_outlaws_of_the_iron_route"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -50606,469 +50355,212 @@
       {
         "id": "printing-d7439daa7178f9106695fc48",
         "label": "DDAL04-01 - The Suits of the Mists",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_01_the_suits_of_the_mists"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-bbd29cae988dd208938d9728",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-8504f6458734919fad754f5f",
         "label": "DDEX1-01 - Defiance in Phlan",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft."
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_01_defiance_in_phlan"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-8c0c84bfe3593b78cb274c5a",
         "label": "DDEX1-03 - Shadows over the Moonsea",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_03_shadows_over_the_moonsea"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-bac29d17b90c850d99821256",
         "label": "DDEX1-06 - The Scroll Thief",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_06_the_scroll_thief"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-d94f7d74e00508751057bdcb",
         "label": "DDEX1-09 - Outlaws of the Iron Route",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_09_outlaws_of_the_iron_route"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6b07f59d0e26990ba80ab070",
         "label": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_11_dark_pyramid_of_sorcerer_s_isle"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-d7ecd42f0015d177f851f5f1",
         "label": "DDEX2-01 - City of Danger",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_01_city_of_danger"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-21c6880c9e0e4310af4df5eb",
         "label": "DDEX2-02 - Embers of Elmwood",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_02_embers_of_elmwood"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-793a0b15bc98887fb1304318",
         "label": "DDEX2-05 - Flames of Kythorn",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_05_flames_of_kythorn"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-5915ad049a25a38451f65754",
         "label": "DDEX3-01 - Harried in Hillsfar",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_01_harried_in_hillsfar"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-34a57a82d4b75dabfd859a7b",
         "label": "DDEX3-05 - Bane of the Tradeways",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_05_bane_of_the_tradeways"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-78fc3f54f0950c647e5e8930",
         "label": "DDEX3-12 - Hillsfar Reclaimed",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_12_hillsfar_reclaimed"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6d93c1f216b4d04b51a3df55",
         "label": "DDEX3-14 - Death on the Wall",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_14_death_on_the_wall"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-cc69bfcb295d5bb16712285d",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-8e3769496c4db1aae21212aa",
@@ -51167,34 +50659,16 @@
       {
         "id": "printing-9183cea5a136f82d2d8ad404",
         "label": "Rise of Tiamat - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Spear · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6c2c185ae1d6646074335c40",
@@ -56051,34 +55525,16 @@
       {
         "id": "printing-ae2c89fc287113e10ae0e485",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 30",
-              "Hit dice · 4d10 + 8",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Giant",
-              "Speed · walk 30 ft.",
-              "Str · 17",
-              "Dex · 10",
-              "Con · 14",
-              "Int · 7",
-              "Wis · 9",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "half_ogre"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Javelin · melee or ranged · +5 to hit · reach 5 ft. · range 30/120 ft. · 2d6 + 3 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Giant"],
@@ -56526,35 +55982,16 @@
       {
         "id": "printing-7688f729735813f8143d649a",
         "label": "DDEX1-09 - Outlaws of the Iron Route",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 9",
-              "Hit dice · 2d8",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 25 ft.",
-              "Str · 9",
-              "Dex · 13",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "halfling_bandits"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Shortsword · melee · +3 to hit · reach 5 ft. · 1d6 + 1 piercing",
-              "Sling · ranged · +3 to hit · range 30/120 ft. · 1d4 + 1 bludgeoning"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_09_outlaws_of_the_iron_route"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -58838,35 +58275,16 @@
       {
         "id": "printing-5bbc87f740923164e17c15d6",
         "label": "DDAL04-04 - The Marionette",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 20 ft., fly 40 ft.",
-              "Str · 12",
-              "Dex · 13",
-              "Con · 12",
-              "Int · 7",
-              "Wis · 10",
-              "Cha · 13"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "harpy"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Claws · melee · +3 to hit · reach 5 ft. · 2d4 + 1 slashing",
-              "Club · melee · +3 to hit · reach 5 ft. · 1d4+1 bludgeoning"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_04_the_marionette"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-d69d1a1cf6e7f3d629bf060c",
@@ -67544,35 +66962,16 @@
       {
         "id": "printing-5c4bccdf72214cc3b9f10283",
         "label": "DDEX3-07 - Herald of the Moon",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 105",
-              "Hit dice · 10d12 + 40",
-              "Challenge · 5",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · walk 40 ft.",
-              "Str · 21",
-              "Dex · 8",
-              "Con · 19",
-              "Int · 5",
-              "Wis · 9",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hill_giant"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatclub · melee · +8 to hit · reach 10 ft. · 3d8 + 5 bludgeoning",
-              "Rock · ranged · +8 to hit · range 60/240 ft. · 3d10 + 5 bludgeoning"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_07_herald_of_the_moon"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9a957c3a62f9e76c88427350",
@@ -68585,35 +67984,16 @@
       {
         "id": "printing-03b6f1c3a823c5fdd1db35c7",
         "label": "DDEX2-01 - City of Danger",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 19",
-              "Hit dice · 3d10 + 3",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 40 ft., fly 60 ft.",
-              "Str · 17",
-              "Dex · 13",
-              "Con · 13",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hippogriff"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Beak · melee · +5 to hit · reach 5 ft. · 1d10 + 3 piercing",
-              "Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_01_city_of_danger"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-eb44bea7d0d7975c29a60ffb",
@@ -75905,34 +75285,16 @@
       {
         "id": "printing-844d03d8363c1787099a897b",
         "label": "Princes of the Apocalypse - D&D Encounters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 9",
-              "Hit dice · 2d8",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 10",
-              "Dex · 15",
-              "Con · 10",
-              "Int · 10",
-              "Wis · 9",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "howling_hatred_initiate"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Dagger · melee or ranged · +4 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_d_d_encounters"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -82387,32 +81749,6 @@
       {
         "id": "printing-0dfeebd0105b88d304f3dd93",
         "label": "DDEX2-03 - The Drowned Tower",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 172",
-              "Hit dice · 15d12 + 75",
-              "Challenge · 8",
-              "Size · Huge",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Str · 20",
-              "Dex · 12",
-              "Con · 20",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +8 to hit · reach 10 ft. · 1d10 + 5 piercing"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "art": [
           {
             "file": "/assets/library/monsters/hydra.png",
@@ -82422,7 +81758,17 @@
             "file": "/assets/library/monsters/hydra-alternate.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hydra"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_03_the_drowned_tower"
+          }
+        }
       },
       {
         "id": "printing-3958da51e9ae73698a515cde",
@@ -91439,32 +90785,16 @@
       {
         "id": "printing-8d1bef52112619f955c0f89b",
         "label": "DDEX3-13 - Writhing in the Dark",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 21",
-              "Hit dice · 6d4 + 6",
-              "Challenge · 2",
-              "Size · Tiny",
-              "Type · Aberration",
-              "Speed · walk 40 ft.",
-              "Str · 6",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "intellect_devourer"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Claws · melee · +4 to hit · reach 5 ft. · 2d4 + 2 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_13_writhing_in_the_dark"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-b4cddec3ffb2a87d2c7b7b88",
@@ -109622,35 +108952,16 @@
       {
         "id": "printing-613bccae6d8df85cd1159651",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 10",
-              "Dex · 16",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "kenku"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Shortsword · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing",
-              "Shortbow · ranged · +5 to hit · range 80/320 ft. · 1d6 + 3 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-97bd1b0b04aa49ec120d6a05",
@@ -113977,134 +113288,58 @@
       {
         "id": "printing-7105d128b165a7b106ba3d5c",
         "label": "DDEX1-04 - Dues for the Dead",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 52",
-              "Hit dice · 8d8 + 16",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 14",
-              "Int · 11",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "knight"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatsword · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing",
-              "Heavy Crossbow · ranged · +2 to hit · range 100/400 ft. · 1d10 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_04_dues_for_the_dead"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6b0ef705ad32b149e2d84f27",
         "label": "DDEX1-14 - Escape from Phlan",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 52",
-              "Hit dice · 8d8 + 16",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 14",
-              "Int · 11",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "knight"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatsword · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing",
-              "Heavy Crossbow · ranged · +2 to hit · range 100/400 ft. · 1d10 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_14_escape_from_phlan"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-fa7cebaa046551e7d5819be3",
         "label": "DDEX3-14 - Death on the Wall",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 52",
-              "Hit dice · 8d8 + 16",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 14",
-              "Int · 11",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "knight"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatsword · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing",
-              "Heavy Crossbow · ranged · +2 to hit · range 100/400 ft. · 1d10 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_14_death_on_the_wall"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-86ca9fcec8b206ae2c3600c3",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 52",
-              "Hit dice · 8d8 + 16",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 14",
-              "Int · 11",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "knight"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatsword · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing",
-              "Heavy Crossbow · ranged · +2 to hit · range 100/400 ft. · 1d10 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-2c06b660d0863f9a0dbd7ef3",
@@ -114213,35 +113448,16 @@
       {
         "id": "printing-5bd1c225dddf8b9237b3ad42",
         "label": "Rise of Tiamat - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 52",
-              "Hit dice · 8d8 + 16",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 14",
-              "Int · 11",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "knight"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatsword · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing",
-              "Heavy Crossbow · ranged · +2 to hit · range 100/400 ft. · 1d10 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "art": [
@@ -129994,32 +129210,16 @@
       {
         "id": "printing-4bf71189c8120e33d5da223f",
         "label": "DDEX1-03 - Shadows over the Moonsea",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 7",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 0",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 15 ft.",
-              "Str · 10",
-              "Dex · 5",
-              "Con · 11",
-              "Int · 1",
-              "Wis · 11",
-              "Cha · 3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lemure"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Fist · melee · +3 to hit · reach 5 ft. · 1d4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_03_shadows_over_the_moonsea"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-8f6dd0fe5722958c730276d6",
@@ -138170,107 +137370,44 @@
       {
         "id": "printing-9aabec88a516619738e49518",
         "label": "DDEX1-06 - The Scroll Thief",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 13",
-              "Int · 7",
-              "Wis · 12",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lizardfolk"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing",
-              "Heavy Club · melee · +4 to hit · reach 5 ft. · 1d6 + 2 bludgeoning",
-              "Javelin · melee or ranged · +4 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 2 piercing",
-              "Spiked Shield · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_06_the_scroll_thief"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-cab961ea11e2fcf286aa41f0",
         "label": "DDEX1-07 - Drums in the Marsh",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 13",
-              "Int · 7",
-              "Wis · 12",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lizardfolk"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing",
-              "Heavy Club · melee · +4 to hit · reach 5 ft. · 1d6 + 2 bludgeoning",
-              "Javelin · melee or ranged · +4 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 2 piercing",
-              "Spiked Shield · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_07_drums_in_the_marsh"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-be4f5386d697142441792d60",
         "label": "DDEX2-07 - Bounty in the Bog",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 13",
-              "Int · 7",
-              "Wis · 12",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lizardfolk"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing",
-              "Heavy Club · melee · +4 to hit · reach 5 ft. · 1d6 + 2 bludgeoning",
-              "Javelin · melee or ranged · +4 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 2 piercing",
-              "Spiked Shield · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_07_bounty_in_the_bog"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-c98898e24642e8ab6555b420",
@@ -152072,32 +151209,16 @@
       {
         "id": "printing-b7f33a86d196b7e725020e86",
         "label": "DDEX3-01 - Harried in Hillsfar",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 9",
-              "Hit dice · 2d6 + 2",
-              "Challenge · 1/8",
-              "Size · Small",
-              "Type · Fiend",
-              "Speed · walk 20 ft.",
-              "Str · 10",
-              "Dex · 9",
-              "Con · 13",
-              "Int · 3",
-              "Wis · 8",
-              "Cha · 4"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "manes"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Claws · melee · +2 to hit · reach 5 ft. · 2d4 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_01_harried_in_hillsfar"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-0c5c0d6c779af6bc2caa5668",
@@ -169158,32 +168279,16 @@
       {
         "id": "printing-d005079f55c513106d507912",
         "label": "DDEX2-04 - Mayhem in the Earthspur Mines",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "miner"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Pick · melee · +3 to hit · reach 5 ft. · 1d6 + 1 piercing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_04_mayhem_in_the_earthspur_mines"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -188914,101 +188019,44 @@
       {
         "id": "printing-fdfbc40a542c20d81545a7de",
         "label": "DDAL04-01 - The Suits of the Mists",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Plant",
-              "Speed · walk 30 ft.",
-              "Str · 12",
-              "Dex · 12",
-              "Con · 13",
-              "Int · 4",
-              "Wis · 8",
-              "Cha · 3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "needle_blight"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Claws · melee · +3 to hit · reach 5 ft. · 2d4 + 1 piercing",
-              "Needles · ranged · +3 to hit · range 30/60 ft. · 2d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_01_the_suits_of_the_mists"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-5e218e4e5197959ee6ffa173",
         "label": "DDAL04-06 - The Ghost",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Plant",
-              "Speed · walk 30 ft.",
-              "Str · 12",
-              "Dex · 12",
-              "Con · 13",
-              "Int · 4",
-              "Wis · 8",
-              "Cha · 3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "needle_blight"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Claws · melee · +3 to hit · reach 5 ft. · 2d4 + 1 piercing",
-              "Needles · ranged · +3 to hit · range 30/60 ft. · 2d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_06_the_ghost"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-52d1be3bb875bdb886861c7f",
         "label": "DDAL04-11 - The Donjon",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Plant",
-              "Speed · walk 30 ft.",
-              "Str · 12",
-              "Dex · 12",
-              "Con · 13",
-              "Int · 4",
-              "Wis · 8",
-              "Cha · 3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "needle_blight"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Claws · melee · +3 to hit · reach 5 ft. · 2d4 + 1 piercing",
-              "Needles · ranged · +3 to hit · range 30/60 ft. · 2d6 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_11_the_donjon"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-cd1afde4e8988235eb26d78e",
@@ -203114,29 +202162,16 @@
       {
         "id": "printing-ec0503a4560c7f3f7138f656",
         "label": "DDAL04-06 - The Ghost",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 59",
-              "Hit dice · 7d10 + 21",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Giant",
-              "Speed · walk 40 ft."
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ogre"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatclub · melee · +6 to hit · reach 5 ft. · 2d8 + 4 bludgeoning",
-              "Javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 2d6 + 4 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_06_the_ghost"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-0e9577157d785fabfba23ee7",
@@ -203234,35 +202269,16 @@
       {
         "id": "printing-fc503178465eabf2d8d0192c",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 59",
-              "Hit dice · 7d10 + 21",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Giant",
-              "Speed · walk 40 ft.",
-              "Str · 19",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 7",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ogre"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatclub · melee · +6 to hit · reach 5 ft. · 2d8 + 4 bludgeoning",
-              "Javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 2d6 + 4 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-2d6f170aebe8eda6390877a0",
@@ -203396,35 +202412,16 @@
       {
         "id": "printing-0076e90632a3c44efff2dd4e",
         "label": "Rise of Tiamat - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 59",
-              "Hit dice · 7d10 + 21",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Giant",
-              "Speed · walk 40 ft.",
-              "Str · 19",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 7",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ogre"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatclub · melee · +6 to hit · reach 5 ft. · 2d8 + 4 bludgeoning",
-              "Javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 2d6 + 4 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "art": [
@@ -204642,32 +203639,16 @@
       {
         "id": "printing-a1a31fa0d633221d4d6d9cf6",
         "label": "DDAL04-10 - The Artifact",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 85",
-              "Hit dice · 9d10 + 36",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 19",
-              "Dex · 6",
-              "Con · 18",
-              "Int · 3",
-              "Wis · 6",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ogre_zombie"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Morningstar · melee · +6 to hit · reach 5 ft. · 2d8 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_10_the_artifact"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-5e380cfe2eba812ba525f83b",
@@ -208210,101 +207191,44 @@
       {
         "id": "printing-c115da720435314a136d20a2",
         "label": "DDAL04-01 - The Suits of the Mists",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 15",
-              "Hit dice · 2d8 + 6",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 7",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orc"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greataxe · melee · +5 to hit · reach 5 ft. · 1d12 + 3 slashing",
-              "Javelin · melee or ranged · +5 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 3 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_01_the_suits_of_the_mists"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9b9d6926ab3d1239dbb678a9",
         "label": "DDAL04-07 - The Innocent",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 15",
-              "Hit dice · 2d8 + 6",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 7",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orc"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greataxe · melee · +5 to hit · reach 5 ft. · 1d12 + 3 slashing",
-              "Javelin · melee or ranged · +5 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 3 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_07_the_innocent"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-65d1ec370b48adb73e50c7cf",
         "label": "DDAL04-12 - The Raven",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 15",
-              "Hit dice · 2d8 + 6",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 7",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orc"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greataxe · melee · +5 to hit · reach 5 ft. · 1d12 + 3 slashing",
-              "Javelin · melee or ranged · +5 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 3 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_12_the_raven"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-cccae7168784a9ba1d2741d6",
@@ -208408,35 +207332,16 @@
       {
         "id": "printing-0ee2a275409e24d914b6a805",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 15",
-              "Hit dice · 2d8 + 6",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 7",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orc"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greataxe · melee · +5 to hit · reach 5 ft. · 1d12 + 3 slashing",
-              "Javelin · melee or ranged · +5 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 3 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-f23db4620effa16b986090d0",
@@ -212354,68 +211259,30 @@
       {
         "id": "printing-645be5b25415d06ac2ee4faf",
         "label": "DDAL04-01 - The Suits of the Mists",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 42",
-              "Hit dice · 5d8 + 20",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 18",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orog"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greataxe · melee · +6 to hit · reach 5 ft. · 1d12 + 4 slashing",
-              "Javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 4 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_01_the_suits_of_the_mists"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-c2ae062cb536b3fed382ddb4",
         "label": "DDAL04-12 - The Raven",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 42",
-              "Hit dice · 5d8 + 20",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 18",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orog"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greataxe · melee · +6 to hit · reach 5 ft. · 1d12 + 4 slashing",
-              "Javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 4 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_12_the_raven"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-b4848430e40a3a93c2698854",
@@ -212508,35 +211375,16 @@
       {
         "id": "printing-720c4ff70cfa1d688cbbee99",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 42",
-              "Hit dice · 5d8 + 20",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 18",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orog"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greataxe · melee · +6 to hit · reach 5 ft. · 1d12 + 4 slashing",
-              "Javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 4 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-d39a677bdb8624bb1e82e79f",

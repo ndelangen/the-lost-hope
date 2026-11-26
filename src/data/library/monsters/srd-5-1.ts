@@ -867,6 +867,10 @@ export default createPublicationMonsters({
     },
     animated_armor: {
       name: 'Animated Armor',
+      reprintedIn: [
+        refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
+        refs.publications.ddex2_05_flames_of_kythorn,
+      ],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -984,6 +988,10 @@ export default createPublicationMonsters({
     },
     bandit_captain: {
       name: 'Bandit Captain',
+      reprintedIn: [
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       tags: ['any race'],
       alignment: 'any non-­‐lawful alignment',
       languages: ['any two languages'],
@@ -1048,6 +1056,7 @@ export default createPublicationMonsters({
     },
     basilisk: {
       name: 'Basilisk',
+      reprintedIn: [refs.publications.ddex1_10_tyranny_in_phlan],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -1099,6 +1108,7 @@ export default createPublicationMonsters({
     },
     berserker: {
       name: 'Berserker',
+      reprintedIn: [refs.publications.hoard_of_the_dragon_queen_online_supplement],
       tags: ['any race'],
       alignment: 'any chaotic alignment',
       languages: ['any one language (usually Common)'],
@@ -1139,6 +1149,7 @@ export default createPublicationMonsters({
     },
     black_bear: {
       name: 'Black Bear',
+      reprintedIn: [refs.publications.ddal04_03_the_executioner],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -1470,6 +1481,13 @@ export default createPublicationMonsters({
     },
     cultist: {
       name: 'Cultist',
+      reprintedIn: [
+        refs.publications.ddex2_02_embers_of_elmwood,
+        refs.publications.ddex2_05_flames_of_kythorn,
+        refs.publications.ddex3_01_harried_in_hillsfar,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       tags: ['any race'],
       alignment: 'any non-good alignment',
       languages: ['any one language (usually Common)'],
@@ -1567,6 +1585,11 @@ export default createPublicationMonsters({
     },
     dretch: {
       name: 'Dretch',
+      reprintedIn: [
+        refs.publications.ddex2_01_city_of_danger,
+        refs.publications.ddex3_01_harried_in_hillsfar,
+        refs.publications.ddex3_03_the_occupation_of_szith_morcane,
+      ],
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 60 ft'],
@@ -1765,6 +1788,7 @@ export default createPublicationMonsters({
     },
     dust_mephit: {
       name: 'Dust Mephit',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       alignment: 'neutral evil',
       languages: ['Auran', 'Terran'],
       stats: {
@@ -1934,6 +1958,7 @@ export default createPublicationMonsters({
     },
     ettercap: {
       name: 'Ettercap',
+      reprintedIn: [refs.publications.ddal04_06_the_ghost],
       alignment: 'neutral evil',
       languages: [],
       stats: {
@@ -2008,6 +2033,10 @@ export default createPublicationMonsters({
     },
     flying_sword: {
       name: 'Flying Sword',
+      reprintedIn: [
+        refs.publications.ddex1_09_outlaws_of_the_iron_route,
+        refs.publications.ddex2_05_flames_of_kythorn,
+      ],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -2304,6 +2333,7 @@ export default createPublicationMonsters({
     },
     giant_rat: {
       name: 'Giant Rat',
+      reprintedIn: [refs.publications.ddex3_06_no_foolish_matter],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -2584,6 +2614,7 @@ export default createPublicationMonsters({
     },
     goblin: {
       name: 'Goblin',
+      reprintedIn: [refs.publications.ddal04_01_the_suits_of_the_mists],
       tags: ['goblinoid'],
       alignment: 'neutral evil',
       languages: ['Common', 'Goblin'],
@@ -2696,6 +2727,11 @@ export default createPublicationMonsters({
     },
     gray_ooze: {
       name: 'Gray Ooze',
+      reprintedIn: [
+        refs.publications.ddex1_05_the_courting_of_fire,
+        refs.publications.ddex2_07_bounty_in_the_bog,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+      ],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -2767,6 +2803,11 @@ export default createPublicationMonsters({
     },
     green_hag: {
       name: 'Green Hag',
+      reprintedIn: [
+        refs.publications.ddal04_01_the_suits_of_the_mists,
+        refs.publications.ddal04_11_the_donjon,
+        refs.publications.ddex1_12_raiders_of_the_twilight_marsh,
+      ],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Sylvan'],
       stats: {
@@ -2879,6 +2920,11 @@ export default createPublicationMonsters({
     },
     knight: {
       name: 'Knight',
+      reprintedIn: [
+        refs.publications.ddex1_04_dues_for_the_dead,
+        refs.publications.ddex1_14_escape_from_phlan,
+        refs.publications.ddex3_14_death_on_the_wall,
+      ],
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
@@ -2961,6 +3007,7 @@ export default createPublicationMonsters({
     },
     lemure: {
       name: 'Lemure',
+      reprintedIn: [refs.publications.ddex1_03_shadows_over_the_moonsea],
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['understands Infernal but can’t speak'],
@@ -3012,6 +3059,11 @@ export default createPublicationMonsters({
     },
     lizardfolk: {
       name: 'Lizardfolk',
+      reprintedIn: [
+        refs.publications.ddex1_06_the_scroll_thief,
+        refs.publications.ddex1_07_drums_in_the_marsh,
+        refs.publications.ddex2_07_bounty_in_the_bog,
+      ],
       tags: ['lizardfolk'],
       alignment: 'neutral',
       languages: ['Draconic'],
@@ -3232,6 +3284,10 @@ export default createPublicationMonsters({
     },
     ochre_jelly: {
       name: 'Ochre Jelly',
+      reprintedIn: [
+        refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
+        refs.publications.ddex3_07_herald_of_the_moon,
+      ],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -3370,6 +3426,11 @@ export default createPublicationMonsters({
     },
     ogre: {
       name: 'Ogre',
+      reprintedIn: [
+        refs.publications.ddal04_06_the_ghost,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant'],
       stats: {
@@ -3457,6 +3518,12 @@ export default createPublicationMonsters({
     },
     orc: {
       name: 'Orc',
+      reprintedIn: [
+        refs.publications.ddal04_01_the_suits_of_the_mists,
+        refs.publications.ddal04_07_the_innocent,
+        refs.publications.ddal04_12_the_raven,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+      ],
       tags: ['orc'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Orc'],
@@ -3513,6 +3580,7 @@ export default createPublicationMonsters({
     },
     phase_spider: {
       name: 'Phase Spider',
+      reprintedIn: [refs.publications.ddal04_11_the_donjon, refs.publications.ddal04_12_the_raven],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -3647,6 +3715,10 @@ export default createPublicationMonsters({
     },
     rug_of_smothering: {
       name: 'Rug of Smothering',
+      reprintedIn: [
+        refs.publications.ddep1_corruption_in_kryptgarden,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+      ],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -3718,6 +3790,7 @@ export default createPublicationMonsters({
     },
     satyr: {
       name: 'Satyr',
+      reprintedIn: [refs.publications.ddep1_corruption_in_kryptgarden],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan'],
       stats: {
@@ -3820,6 +3893,12 @@ export default createPublicationMonsters({
     },
     skeleton: {
       name: 'Skeleton',
+      reprintedIn: [
+        refs.publications.ddal04_11_the_donjon,
+        refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
+        refs.publications.ddex2_03_the_drowned_tower,
+        refs.publications.ddex3_15_szith_morcane_unbound,
+      ],
       alignment: 'lawful evil',
       languages: ['understands all languages it knew in life but can’t speak'],
       stats: {
@@ -3994,6 +4073,10 @@ export default createPublicationMonsters({
     },
     thug: {
       name: 'Thug',
+      reprintedIn: [
+        refs.publications.ddal04_03_the_executioner,
+        refs.publications.ddal04_11_the_donjon,
+      ],
       tags: ['any race'],
       alignment: 'any non-good alignment',
       languages: ['any one language (usually Common)'],
@@ -4057,6 +4140,10 @@ export default createPublicationMonsters({
     },
     tribal_warrior: {
       name: 'Tribal Warrior',
+      reprintedIn: [
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language'],
@@ -4126,6 +4213,11 @@ export default createPublicationMonsters({
     },
     violet_fungus: {
       name: 'Violet Fungus',
+      reprintedIn: [
+        refs.publications.ddex2_07_bounty_in_the_bog,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -4333,6 +4425,10 @@ export default createPublicationMonsters({
     },
     zombie: {
       name: 'Zombie',
+      reprintedIn: [
+        refs.publications.ddal04_01_the_suits_of_the_mists,
+        refs.publications.ddal04_03_the_executioner,
+      ],
       alignment: 'neutral evil',
       languages: ['understands the languages it knew in life but can’t speak'],
       stats: {

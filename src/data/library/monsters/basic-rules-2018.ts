@@ -586,6 +586,11 @@ export default createPublicationMonsters({
     },
     giant_octopus: {
       name: 'Giant Octopus',
+      reprintedIn: [
+        refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
+        refs.publications.ddex3_09_the_waydown,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Underwater', 'Rocky reefs', 'Kelp forests'],
@@ -1210,7 +1215,6 @@ export default createPublicationMonsters({
     },
     phase_spider: {
       name: 'Phase Spider',
-      reprintedIn: [refs.publications.ddal04_11_the_donjon, refs.publications.ddal04_12_the_raven],
       stats: {
         size: 'large',
         type: 'monstrosity',

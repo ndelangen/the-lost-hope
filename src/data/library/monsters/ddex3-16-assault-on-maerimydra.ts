@@ -1,5 +1,8 @@
 import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
 import { createPublicationMonsters } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
 
 export default createPublicationMonsters({
   publication: refs.publications.ddex3_16_assault_on_maerimydra,
@@ -19,15 +22,169 @@ export default createPublicationMonsters({
     },
     drow_elite_warrior: {
       name: 'Drow Elite Warrior',
+      tags: ['elf'],
+      alignment: 'neutral evil',
+      languages: ['Elvish', 'Undercommon'],
       stats: {
         size: 'medium',
         type: 'humanoid',
         cr: '5',
         ac: 18,
+        armor: 'studded leather, shield',
         hitDice: '11d8',
         speed: { walk: 30 },
         scores: { str: 13, dex: 18, con: 14, int: 11, wis: 13, cha: 12 },
-        abilities: [],
+        saves: { dex: 'proficient', con: 'proficient', wis: 'proficient' },
+        skills: { perception: 'proficient', stealth: 'expert' },
+        senses: { darkvision: 120 },
+        abilities: [
+          {
+            key: 'fey-ancestry',
+            name: 'Fey Ancestry',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The drow has advantage on saving throws against being ',
+              rules.charmed,
+              ", and magic can't put the drow to sleep.",
+            ],
+          },
+          {
+            key: 'sunlight-sensitivity',
+            name: 'Sunlight Sensitivity',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.',
+            ],
+          },
+          {
+            key: 'innate-spellcasting',
+            name: 'Innate Spellcasting',
+            timing: 'trait',
+            icon: 'gi/GiWizardStaff',
+            text: [
+              "The drow's spellcasting ability is Charisma (spell ",
+              { dc: 'cha' },
+              '). It can innately cast the following spells, requiring no material components. At will: ',
+              refs.spells.dancing_lights,
+              '; 1/day each: ',
+              refs.spells.darkness,
+              ', ',
+              refs.spells.faerie_fire,
+              ', ',
+              refs.spells.levitate,
+              ' (self only)',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['The drow makes two shortsword attacks.'],
+          },
+          {
+            key: 'shortsword',
+            name: 'Shortsword',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [
+                { dice: '1d6', type: rules.piercing, addModifier: true },
+                { dice: '3d6', type: rules.poison },
+              ],
+            },
+          },
+          {
+            key: 'hand-crossbow',
+            name: 'Hand Crossbow',
+            timing: 'action',
+            icon: 'gi/GiCrossbow',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'dex',
+              range: [30, 120],
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+            text: [
+              'The target must succeed on a ',
+              { dc: 'con' },
+              ' Constitution saving throw or be ',
+              rules.poisoned,
+              ' for 1 hour. If the saving throw fails by 5 or more, the target is also ',
+              rules.unconscious,
+              ' while ',
+              rules.poisoned,
+              ' in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.',
+            ],
+          },
+          {
+            key: 'parry',
+            name: 'Parry',
+            timing: 'reaction',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon.',
+            ],
+          },
+        ],
+      },
+    },
+    fiendborne_fire_giant: {
+      name: 'Fiendborne Fire Giant',
+      alignment: 'lawful evil',
+      languages: ['Abyssal', 'Giant'],
+      stats: {
+        size: 'huge',
+        type: 'giant',
+        cr: '9',
+        ac: 18,
+        hitDice: '13d12',
+        speed: { walk: 30 },
+        scores: { str: 25, dex: 9, con: 23, int: 10, wis: 14, cha: 13 },
+        saves: { dex: 'proficient', con: 'proficient', cha: 'proficient' },
+        skills: { athletics: 'proficient', perception: 'proficient' },
+        senses: { blindsight: 60 },
+        damageImmunities: [rules.fire, rules.poison],
+        conditionImmunities: [rules.poisoned],
+        abilities: [
+          {
+            key: 'innate-spellcasting',
+            name: 'Innate Spellcasting',
+            timing: 'trait',
+            icon: 'gi/GiWizardStaff',
+            text: [
+              'The fiendborne fire giant can innately cast the following spell, requiring no material components. 1/day: ',
+              refs.spells.darkness,
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['The giant makes two greatsword attacks.'],
+          },
+          {
+            key: 'greatsword',
+            name: 'Greatsword',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 10,
+              damage: [{ dice: '6d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
       },
     },
     grazzt: {

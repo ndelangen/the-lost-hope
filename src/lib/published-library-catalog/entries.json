@@ -5926,69 +5926,6 @@
       {
         "id": "printing-207c10c23526bf82de11d29d",
         "label": "DDAL04-03 - The Executioner",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 19",
-              "Hit dice · 3d8 + 6",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft., climb 30 ft.",
-              "XP · 100",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest", "Orașnou"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A lean black bear with round ears, a pale muzzle and a narrow, hollow flank."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Perception +3. Passive Perception 13. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Wizards of the Coast, DDAL04-03 The Executioner, p. 23."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Claws attack.\nBite. Make a melee weapon attack at +3 against one target within 5 ft. A hit deals 5 (1d6 + 2) piercing damage.\nClaws. Make a melee weapon attack at +3 against one target within 5 ft. A hit deals 7 (2d4 + 2) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter",
-            "lines": [
-              "On 13–15 on the Orașnou encounter table, an emaciated black bear emerges from the forest looking for food. The creature block lists CR 1/2 and 100 XP. The adventure’s combat rewards table assigns 200 XP per black bear."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/black-bear-9b7699396b96.png",
@@ -6002,7 +5939,17 @@
             "file": "/assets/library/beasts/black-bear-alternate.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "black_bear"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_03_the_executioner"
+          }
+        }
       },
       {
         "id": "printing-f59960929246a7b74aa5671d",
@@ -6745,77 +6692,22 @@
       {
         "id": "printing-dcc49a3f45024a7d69bfac2b",
         "label": "DDEX2-01 - City of Danger",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 7",
-              "Hit dice · 2d6",
-              "Challenge · 1/8",
-              "Size · Small",
-              "Type · Beast",
-              "Speed · 10 ft., fly 60 ft.",
-              "XP · 25",
-              "Str · 6",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 3",
-              "Wis · 14",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Urban", "Planar"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A compact raptor with russet feathers, a sharp hooked beak, and strong talons."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Perception +4. Passive Perception 14. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "DDEX2-1 City of Danger, 2015 release , p. 12. Adventure context on pp. 10, 11."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Sight. The hawk has advantage on Wisdom (Perception) checks that use sight.\nPack Tactics. The hawk has advantage on attacks against a creature if an ally of the hawk is within 5 ft. of that creature and the ally is not incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit for 4 (1d4 + 2) piercing damage."
-            ]
-          },
-          {
-            "title": "Adventure encounter",
-            "lines": [
-              "Eight blood hawks swarm the characters at the tower and try to fight in pairs. A successful DC 10 Intelligence (Arcana) check identifies their origin on the Elemental Plane of Air. For a weak party, remove four blood hawks and two guards."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/blood-hawk-c77a0ce92dc5.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "blood_hawk"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_01_city_of_danger"
+          }
+        }
       },
       {
         "id": "printing-263d29a86c9b99fe74e5199d",
@@ -23438,152 +23330,42 @@
       {
         "id": "printing-eb6b4d4beda4b8b69a228b4b",
         "label": "DDEX2-01 - City of Danger",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 13",
-              "Hit dice · 2d8 + 4",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 30 ft., burrow 10 ft.",
-              "XP · 50",
-              "Str · 13",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underground"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A large striped badger with sharp black teeth and claws that look like obsidian."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Darkvision 30 ft. Passive Perception 11. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "DDEX2-1 City of Danger, 2015 release , p. 25. Adventure context on pp. 22, 23."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The badger has advantage on Wisdom (Perception) checks that use smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit for 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit for 6 (2d4 + 1) slashing damage."
-            ]
-          },
-          {
-            "title": "Mad Badgers encounter",
-            "lines": [
-              "The Cult of the Black Earth has enchanted four giant badgers to patrol the mine and tunnels. They automatically surprise characters who failed at least two checks while navigating the maze. Otherwise, determine initiative normally. A DC 10 Intelligence (Nature) check reveals behavior consistent with a magical compulsion. On a successful DC 15 Wisdom (Animal Handling) check, the badgers have disadvantage on all attacks until the end of their next turn."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-badger-dfc95d54d973.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_badger"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_01_city_of_danger"
+          }
+        }
       },
       {
         "id": "printing-85603bf9594ef91d565d9f93",
         "label": "DDEX2-07 - Bounty in the Bog",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 13",
-              "Hit dice · 2d8 + 4",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 30 ft., burrow 10 ft.",
-              "XP · 50",
-              "Str · 13",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underground", "Swamp"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A stocky burrowing badger with dark fur, pale facial stripes, and strong digging claws."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Darkvision 30 ft. Passive Perception 11. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "DDEX2-7 Bounty in the Bog, 2015 release , p. 22. Adventure context on pp. 14, 15, 18."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The badger has advantage on Wisdom (Perception) checks that use smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit for 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit for 6 (2d4 + 1) slashing damage."
-            ]
-          },
-          {
-            "title": "Grotto encounter",
-            "lines": [
-              "The badger with the Sacred Stone monks attacks the closest target and fights to the death. The encounter adjustment removes the badger for a weak or very weak party."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-badger-73873c0bfe4e.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_badger"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_07_bounty_in_the_bog"
+          }
+        }
       },
       {
         "id": "printing-9c1d13889e6a21e3d480f61f",
@@ -23811,77 +23593,22 @@
       {
         "id": "printing-bc36efba3faa50b8fd00aa1e",
         "label": "DDAL04-01 - The Suits of the Mists",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 22",
-              "Hit dice · 4d10",
-              "Challenge · 1/4",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 10 ft., Fly 60 ft.",
-              "XP · 50",
-              "Str · 15",
-              "Dex · 16",
-              "Con · 11",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest", "Urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A heavy brown bat with large ears and broad leathery wings extended in flight."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Blindsight 60 ft. Passive Perception 11. No languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast D&D Adventurers League, Shawn Merwin, Suits of the Mists (DDAL4-01, ©2016), Mission 5, Mists, Appendix: Monster/NPC Statistics, printed and p. 42. https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Echolocation. The bat loses use of its blindsight while deafened.\n\nKeen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on hearing."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 5 (1d6 + 2) piercing damage."
-            ]
-          },
-          {
-            "title": "Encounter notes",
-            "lines": [
-              "Four giant bats emerge from Barovia. They use the fog to conceal their movement as they swoop past the children and attack the characters."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-bat-c50887fca840.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_bat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_01_the_suits_of_the_mists"
+          }
+        }
       },
       {
         "id": "printing-374d08112becbf5d8dae7c70",
@@ -30322,74 +30049,6 @@
       {
         "id": "printing-5095757ad97e5610c99bb91d",
         "label": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 52",
-              "Hit dice · 8d10 + 8",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 10 ft., swim 60 ft.",
-              "Passive Perception · 14",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 13",
-              "Con · 13",
-              "Int · 4",
-              "Wis · 10",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["River", "Underwater"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A green octopus with a rounded mantle and eight curling arms lined with pale suckers."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +4, Stealth +5. Darkvision 60 ft. Passive Perception 14. Languages —."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, DDEX1-11, Dark Pyramid of Sorcerer's Isle, Appendix 1: Monster/NPC Statistics, p. 36."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Hold Breath. Out of water, the octopus can hold its breath for 1 hour.\nUnderwater Camouflage. It has advantage on Dexterity (Stealth) checks made underwater.\nWater Breathing. It can breathe only underwater."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Tentacles. Melee weapon attack, +5 to hit, reach 15 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage. A creature hit is grappled (escape DC 16) and remains restrained while grappled. The octopus cannot use Tentacles on another target until the grapple ends.\nInk Cloud (recharges after a short or long rest). While underwater, release a 20-ft.-radius cloud centered on the octopus. The cloud heavily obscures its area for 1 minute, and a strong current can disperse it. After releasing the ink, the octopus can take the Dash action as a bonus action."
-            ]
-          },
-          {
-            "title": "Encounter variant",
-            "lines": [
-              "Two giant octopuses try to pull people from a boat into the river. Two swarms of quippers attack anyone pulled into the water and leave the octopuses alone. The waist-deep river is difficult terrain and does not hinder attacks. The boat has AC 15 and 50 HP. A very weak party faces one octopus and one swarm. A weak party faces two octopuses and one swarm. A strong party faces two octopuses and three swarms. A very strong party faces three of each."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-octopus-42ca7fdcd1f3.png",
@@ -30403,78 +30062,21 @@
             "file": "/assets/library/beasts/giant-octopus-alternate.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_octopus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_11_dark_pyramid_of_sorcerer_s_isle"
+          }
+        }
       },
       {
         "id": "printing-92a14079eda0acdca3874a74",
         "label": "DDEX3-09 - The Waydown",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 52",
-              "Hit dice · 8d10 + 8",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 10 ft., Swim 60 ft.",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 13",
-              "Con · 13",
-              "Int · 4",
-              "Wis · 10",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underground", "Underwater"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A large ivory octopus with a rounded mantle, eight arms, and pale pink suckers."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +4. Stealth +5. Darkvision 60 ft. Passive Perception 14. No languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast D&D Adventurers League, Cole Kronewitter, The Waydown, November 1, 2015 release, Appendix: Monster/NPC Statistics, printed and p. 30. https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Hold Breath. The octopus can hold its breath for 1 hour outside water.\n\nUnderwater Camouflage. The octopus has advantage on Dexterity (Stealth) checks while underwater.\n\nWater Breathing. The octopus can breathe only underwater."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Tentacles. Melee weapon attack, +5 to hit, reach 15 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). It remains restrained while that grapple lasts, and the octopus cannot use its tentacles on a different target until the grapple ends.\n\nInk Cloud (Recharges after a Short or Long Rest). While underwater, the octopus releases a 20-ft.-radius cloud around itself. The cloud heavily obscures the area for 1 minute unless a significant current disperses it earlier. After releasing the ink, the octopus can Dash as a bonus action."
-            ]
-          },
-          {
-            "title": "Encounter notes",
-            "lines": [
-              "The Octopus Den contains three albino specimens if an eligible rank 2 Lords’ Alliance member is present. They attack in a group if the coin is disturbed, each targeting one character and trying to drag them away."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-octopus-365a84d443b2.png",
@@ -30488,7 +30090,17 @@
             "file": "/assets/library/beasts/giant-octopus-alternate.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_octopus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_09_the_waydown"
+          }
+        }
       },
       {
         "id": "printing-8d999e835713c10173f27a02",
@@ -30984,73 +30596,22 @@
       {
         "id": "printing-c6e36907782e477e28a253fa",
         "label": "DDAL04-11 - The Donjon",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 30 ft., Swim 30 ft.",
-              "XP · 50",
-              "Str · 10",
-              "Dex · 18",
-              "Con · 13",
-              "Int · 2",
-              "Wis · 11",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Swamp", "Underground"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A coiled olive-brown snake with dark blotches, a pale underside, and a narrow tapering tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "AC includes natural armor. Perception +2. Blindsight 10 ft. Passive Perception 12. No languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast D&D Adventurers League, Ash Law, The Donjon, version 1.0, ©2016, Appendix: Monster/NPC Statistics, printed and p. 33. https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +5 to hit, reach 10 ft., one creature. A hit deals 6 (1d4 + 4) piercing damage. The target makes a DC 11 Constitution save, taking 10 (3d6) poison damage on a failure or half as much on a success."
-            ]
-          },
-          {
-            "title": "Encounter notes",
-            "lines": [
-              "The Rat-Bone Corridor contains 4d4 giant poisonous snakes. The separate swamp encounter entry uses 2d4 − 1."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/giant-venomous-snake.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_venomous_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_11_the_donjon"
+          }
+        }
       },
       {
         "id": "printing-a92a8f636d5fdf74665b7bd5",
@@ -31258,73 +30819,22 @@
       {
         "id": "printing-7c20d2fdd4d90167a0f499a6",
         "label": "DDEX3-06 - No Foolish Matter",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 7",
-              "Hit dice · 2d6",
-              "Challenge · 1/8",
-              "Size · Small",
-              "Type · Beast",
-              "Speed · 30 ft.",
-              "XP · 25",
-              "Str · 7",
-              "Dex · 15",
-              "Con · 11",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["An oversized brown rat with thick fur, fine whiskers, and a long bare tail."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Darkvision 60 ft. Passive Perception 10. No languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast D&D Adventurers League, Ash Law, No Foolish Matter, October 1, 2015 release, Appendix: Monster/NPC Statistics, printed and p. 18. https://www.dmsguild.com/product/170499/DDEX306-No-Foolish-Matter-5e"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The rat has advantage on Wisdom (Perception) checks relying on smell.\n\nPack Tactics. The rat has advantage when attacking a creature within 5 ft. of one of its allies, provided that ally is not incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage."
-            ]
-          },
-          {
-            "title": "Encounter notes",
-            "lines": ["Two giant rats attack alongside the carnival thugs and rat swarms."]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-rat-5b455816adf4.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_rat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_06_no_foolish_matter"
+          }
+        }
       },
       {
         "id": "printing-2808cd669c969e6a7f8a26cd",
@@ -34819,80 +34329,22 @@
       {
         "id": "printing-ecb220b80593bebd4ad14d31",
         "label": "DDEX1-09 - Outlaws of the Iron Route",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 9",
-              "Hit dice · 2d8",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 13",
-              "XP · 25",
-              "Str · 11",
-              "Dex · 16",
-              "Con · 10",
-              "Int · 4",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["King's Pyre", "Kobold Caverns"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A chestnut weasel with a cream throat, long belly and raised, curling tail."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3", "Stealth +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Darkvision 60 ft. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Outlaws of the Iron Route, DDEX1-9, December 2014, Appendix 1, p. 26."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Hearing and Smell. The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 5 (1d4 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Encounter",
-            "lines": [
-              "The caverns hold three kobolds and five giant weasels, three of them chained. At the first sign of trouble, a kobold rushes to free them. The weasels attack anyone who threatens their handlers. For a very weak or weak party, remove one weasel. For a very strong party, add one."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-weasel-67bb74e2d5d5.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_weasel"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_09_outlaws_of_the_iron_route"
+          }
+        }
       },
       {
         "id": "printing-c72dfaf834aeccc2cbfb329f",
@@ -40606,79 +40058,22 @@
       {
         "id": "printing-86c2d7cc8810ed9e882df27b",
         "label": "DDAL04-01 - The Suits of the Mists",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 50 ft., Climb 40 ft.",
-              "XP · 50",
-              "Str · 14",
-              "Dex · 15",
-              "Con · 10",
-              "Int · 3",
-              "Wis · 14",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Arctic", "Hills"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A pale spotted feline with a thick coat, tufted ears, and a thick ringed tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +4. Stealth +6. Fire damage vulnerability. Cold damage resistance. Passive Perception 14. No languages or special senses."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast D&D Adventurers League, Shawn Merwin, Suits of the Mists (DDAL4-01, ©2016), Mission 1, Stars, Appendix: Monster/NPC Statistics, printed and p. 14. https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Ice Walk. The cat can cross and climb ice without making an ability check. Ice or snow difficult terrain costs no extra movement.\n\nKeen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell.\n\nPounce. If the cat moves at least 20 ft. straight toward a creature and hits it with Claw on the same turn, the creature must succeed on a DC 12 Strength save or fall prone. If the target is prone, the cat can make one Bite against it as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\n\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter notes",
-            "lines": [
-              "Four cats rest among boulders at the top of an icy slope. They can pursue prey onto the ice and prefer to avoid the flame thistles."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/ice-cat-b792f018d221.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ice_cat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_01_the_suits_of_the_mists"
+          }
+        }
       }
     ],
     "art": [
@@ -41460,80 +40855,22 @@
       {
         "id": "printing-87931d4739c727b2bd9cb537",
         "label": "DDEX3-01 - Harried in Hillsfar",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 3",
-              "Hit dice · 1d6",
-              "Challenge · 0",
-              "Size · Small",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 13",
-              "XP · 10",
-              "Str · 8",
-              "Dex · 15",
-              "Con · 11",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Cormanthor Forest", "Spring of Blessed Life"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A tawny jackal with a dark saddle, upright ears and a narrow muzzle."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Harried in Hillsfar, DDEX3-1, 2015, p. 29. The Life, Battling the Jackalweres."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Hearing and Smell. The beast has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. The beast has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack +1, reach 5 ft., one target. On a hit, deal 1 (1d4 - 1) piercing damage."
-            ]
-          },
-          {
-            "title": "Encounter",
-            "lines": [
-              "Three jackals join and attack at the end of round two. Three more join at the end of round three. For a strong or very strong party, an additional jackalwere and three jackals arrive at the end of round three."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/jackal.png",
             "credit": "Original portrait generated with built-in OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "jackal"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_01_harried_in_hillsfar"
+          }
+        }
       },
       {
         "id": "printing-b4e29729bfbb8bdfe1e01ffe",
@@ -44092,86 +43429,22 @@
       {
         "id": "printing-56aadef73ddd32542f8f849f",
         "label": "DDEX2-04 - Mayhem in the Earthspur Mines",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 26",
-              "Hit dice · 4d10 + 4",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 13",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 13",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Urban", "Arena"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A tawny lion with a full mane and heavy forepaws."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3", "Stealth +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Perception +3, Stealth +6. Passive Perception 13. No languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, DDEX2-04 - Mayhem in the Earthspur Mines, d&d expeditions release, april 1, 2015, Appendix, Monster/NPC Statistics, p. 26. https://www.dmsguild.com/product/170478/DDEX204-Mayhem-in-the-Earthspur-Mines-5e"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The lion has advantage on Wisdom (Perception) checks based on scent.\nPack Tactics. The lion has advantage on an attack roll against a creature if an ally is within 5 ft. of that target and the ally is not incapacitated.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claw on that turn. The creature falls prone on a failed DC 13 Strength save. A prone target can then be bitten once as a bonus action.\nRunning Leap. A 10-ft. running start lets the lion long jump up to 25 ft."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 7 (1d8 + 3) piercing damage.\nClaw. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 6 (1d6 + 3) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "Darmov adds two lions to the arena when more than two characters join Bhún Ludwakazar in the fight."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The standalone block on p. 26 gives CR 1 and 200 XP. The adventure’s Combat Awards table on p. 23 lists 100 XP per lion for session rewards."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/lion.png",
             "credit": "Original portrait generated with OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lion"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_04_mayhem_in_the_earthspur_mines"
+          }
+        }
       },
       {
         "id": "printing-dbae858b041c95856f5a0a8d",
@@ -46430,226 +45703,62 @@
       {
         "id": "printing-ed994efcafbfd5c5a3d0d3c9",
         "label": "DDAL04-01 - The Suits of the Mists",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 5",
-              "Hit dice · 1d8 + 1",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "XP · 25",
-              "Str · 13",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tall, muscular tawny dog with a short coat, heavy muzzle, and dark facial mask."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Perception +3. Passive Perception 13. No languages or special senses."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast D&D Adventurers League, Shawn Merwin, Suits of the Mists (DDAL4-01, ©2016), Mission 4, Glyphs, Appendix: Monster/NPC Statistics, printed and p. 35. https://www.dmsguild.com/product/177576/DDAL401-Suits-of-the-Mists-5e"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage. A creature hit must succeed on a DC 11 Strength save or fall prone."
-            ]
-          },
-          {
-            "title": "Encounter notes",
-            "lines": [
-              "Four Cooshee use this block during the Mad Elves encounter. The adventure describes them as large elven hounds with greenish coats mottled brown. Its mission rewards table lists 50 XP per mastiff. The printed creature remains CR 1/8 (25 XP)."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/mastiff.png",
             "credit": "Original portrait generated with OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mastiff"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_01_the_suits_of_the_mists"
+          }
+        }
       },
       {
         "id": "printing-30b956015c4ac378489cf1f4",
         "label": "DDEX2-02 - Embers of Elmwood",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 5",
-              "Hit dice · 1d8 + 1",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 13",
-              "XP · 25",
-              "Str · 13",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A fawn guard mastiff with folded ears, a dark muzzle and stitched brown leather barding."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Perception +3. Passive Perception 13. Languages —."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, DDEX2-02, Embers of Elmwood, Appendix: Monster/NPC Statistics, p. 22."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks that depend on hearing or smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage. If the target is a creature, it must pass a DC 11 Strength saving throw or fall prone."
-            ]
-          },
-          {
-            "title": "Encounter variant",
-            "lines": [
-              "Two mastiffs accompany a thug in the manor’s Grand Room. Their leather barding raises their AC to 13."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/mastiff-0f57b73c2f6f.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mastiff"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_02_embers_of_elmwood"
+          }
+        }
       },
       {
         "id": "printing-e4f1d2aae0174ce783670331",
         "label": "DDEX3-14 - Death on the Wall",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 5",
-              "Hit dice · 1d8 + 1",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "XP · 25",
-              "Str · 13",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A fawn mastiff with a broad black muzzle, dropped ears, and a heavy chest."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Perception +3. Passive Perception 13. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "DDEX3-14 Death on the Wall, March 1, 2016 release , p. 23. Patrol and kennel context on pp. 11–12."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. A hit deals 4 (1d6 + 1) piercing damage. A creature hit must succeed on a DC 11 Strength saving throw or fall prone."
-            ]
-          },
-          {
-            "title": "Patrols and kennels",
-            "lines": [
-              "The Yûlash camp keeps four mastiffs. One accompanies two guards on a patrol that moves through the camp. The patrol calls to unidentified people and demands identification before taking hostile action. The dogs at the kennel are tethered to a rail and cannot move more than 10 ft. from the kennel."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/mastiff.png",
             "credit": "Original portrait generated with OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mastiff"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_14_death_on_the_wall"
+          }
+        }
       },
       {
         "id": "printing-b779eaa9f403766e981569f3",
@@ -72709,82 +71818,22 @@
       {
         "id": "printing-08039fa5b386242e0a8868b7",
         "label": "DDEX3-01 - Harried in Hillsfar",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 5",
-              "Hit dice · 1d8 + 1",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 13",
-              "XP · 25",
-              "Str · 13",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Farbough Farm", "Far pasture"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A lean wild dog with rounded ears and a patchwork black, brown and cream coat."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Harried in Hillsfar, DDEX3-1, 2015, p. 14. The Birth, Rescuing Pynroth."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Hearing and Smell. The beast has advantage on Wisdom (Perception) checks that rely on hearing or smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack +3, reach 5 ft., one target. On a hit, deal 4 (1d6 + 1) piercing damage."
-            ]
-          },
-          {
-            "title": "Encounter",
-            "lines": [
-              "Five wild dogs pin down Beralt and Pynroth in the far pasture. If a character attacks a dog or moves adjacent to a dog or either victim, the dogs turn on the party. Once the alpha and at least half the other dogs are defeated, remaining dogs Disengage and flee. Remove three wild dogs for a weak party or add three for a strong or very strong party. The party has advantage on initiative if the first DC 10 Charisma check to get Pynroth's location succeeds, or disadvantage if it fails by more than 5."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/wild-dog-fbb0c2e35a46.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wild_dog"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_01_harried_in_hillsfar"
+          }
+        }
       },
       {
         "id": "printing-c0c3862ca7518ba852082bde",
@@ -72878,82 +71927,22 @@
       {
         "id": "printing-28f7d2b4a76560e7729f28dd",
         "label": "DDEX3-01 - Harried in Hillsfar",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 26",
-              "Hit dice · 4d10 + 4",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 13",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 13",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Farbough Farm", "Far pasture"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A larger wild dog with upright ears, a dark muzzle and a mottled brown-and-black coat."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Harried in Hillsfar, DDEX3-1, 2015, p. 14. The Birth, Rescuing Pynroth."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Hearing and Smell. The beast has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. The beast has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Bite on the same turn. On a failed DC 13 Strength saving throw, the creature falls prone. If the target is prone, the alpha can make one additional Bite against it as a bonus action.\nRunning Leap. With a 10-ft. run-up, the alpha can long jump up to 25 ft."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 7 (1d8 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Encounter",
-            "lines": [
-              "The alpha hides among weeping willows and attacks at the end of the first round in which the party engages the smaller dogs. A successful Wisdom (Perception) check spots it. On a failure, it has advantage on its first attack. For a weak party, it starts combat in plain view."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/wild-dog-alpha-d19643d63a07.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wild_dog_alpha"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_01_harried_in_hillsfar"
+          }
+        }
       }
     ],
     "art": [

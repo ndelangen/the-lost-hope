@@ -18,11 +18,18 @@ export default createPublications({
   },
   ddal04_01_the_suits_of_the_mists: {
     name: 'DDAL04-01 - The Suits of the Mists',
+    publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-01 - The Suits of the Mists.pdf',
   },
+  ddal04_02_the_beast: {
+    name: 'DDAL04-02 - The Beast',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-02 - The Beast.pdf',
+  },
   ddal04_03_the_executioner: {
     name: 'DDAL04-03 - The Executioner',
+    publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-03 - The Executioner.pdf',
   },
@@ -38,7 +45,6 @@ export default createPublications({
   },
   ddal04_06_the_ghost: {
     name: 'DDAL04-06 - The Ghost',
-    publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-06 - The Ghost.pdf',
   },
@@ -85,7 +91,6 @@ export default createPublications({
   },
   ddep1_corruption_in_kryptgarden: {
     name: 'DDEP1 - Corruption in Kryptgarden',
-    publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEP1 - Corruption in Kryptgarden.pdf',
   },
@@ -93,6 +98,16 @@ export default createPublications({
     name: 'DDEP2 - Mulmaster Undone V2',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEP2 - Mulmaster Undone V2.pdf',
+  },
+  ddex1_01_defiance_in_phlan: {
+    name: 'DDEX1-01 - Defiance in Phlan',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-01 - Defiance in Phlan.pdf',
+  },
+  ddex1_02_secrets_of_sokol_keep: {
+    name: 'DDEX1-02 - Secrets of Sokol Keep',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-02 - Secrets of Sokol Keep.pdf',
   },
   ddex1_03_shadows_over_the_moonsea: {
     name: 'DDEX1-03 - Shadows over the Moonsea',
@@ -109,17 +124,25 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-05 - The Courting of Fire.pdf',
   },
+  ddex1_06_the_scroll_thief: {
+    name: 'DDEX1-06 - The Scroll Thief',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-06 - The Scroll Thief.pdf',
+  },
   ddex1_07_drums_in_the_marsh: {
     name: 'DDEX1-07 - Drums in the Marsh',
-    publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-07 - Drums in the Marsh.pdf',
   },
   ddex1_08_tales_trees_tell: {
     name: 'DDEX1-08 - Tales Trees Tell',
-    publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-08 - Tales Trees Tell.pdf',
+  },
+  ddex1_09_outlaws_of_the_iron_route: {
+    name: 'DDEX1-09 - Outlaws of the Iron Route',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-09 - Outlaws of the Iron Route.pdf',
   },
   ddex1_10_tyranny_in_phlan: {
     name: 'DDEX1-10 - Tyranny in Phlan',
@@ -130,6 +153,11 @@ export default createPublications({
     name: "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
     ruleset: '5e-2014',
     pdf: "D&D - 5th Edition (2014)/Adventures/DDEX1-11 - Dark Pyramid of Sorcerer's Isle.pdf",
+  },
+  ddex1_12_raiders_of_the_twilight_marsh: {
+    name: 'DDEX1-12 - Raiders of the Twilight Marsh',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-12 - Raiders of the Twilight Marsh.pdf',
   },
   ddex1_13_pool_of_radiance_resurgent: {
     name: 'DDEX1-13 - Pool of Radiance Resurgent',
@@ -173,6 +201,7 @@ export default createPublications({
   },
   ddex3_01_harried_in_hillsfar: {
     name: 'DDEX3-01 - Harried in Hillsfar',
+    publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-01 - Harried in Hillsfar.pdf',
   },
@@ -196,6 +225,11 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-05 - Bane of the Tradeways.pdf',
   },
+  ddex3_06_no_foolish_matter: {
+    name: 'DDEX3-06 - No Foolish Matter',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-06 - No Foolish Matter.pdf',
+  },
   ddex3_07_herald_of_the_moon: {
     name: 'DDEX3-07 - Herald of the Moon',
     ruleset: '5e-2014',
@@ -206,10 +240,25 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-08 - The Malady of Elventree.pdf',
   },
+  ddex3_09_the_waydown: {
+    name: 'DDEX3-09 - The Waydown',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-09 - The Waydown.pdf',
+  },
+  ddex3_12_hillsfar_reclaimed: {
+    name: 'DDEX3-12 - Hillsfar Reclaimed',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-12 - Hillsfar Reclaimed.pdf',
+  },
   ddex3_13_writhing_in_the_dark: {
     name: 'DDEX3-13 - Writhing in the Dark',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-13 - Writhing in the Dark.pdf',
+  },
+  ddex3_14_death_on_the_wall: {
+    name: 'DDEX3-14 - Death on the Wall',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-14 - Death on the Wall.pdf',
   },
   ddex3_15_szith_morcane_unbound: {
     name: 'DDEX3-15 - Szith Morcane Unbound',
@@ -244,7 +293,6 @@ export default createPublications({
   },
   hoard_of_the_dragon_queen_online_supplement: {
     name: 'Hoard of the Dragon Queen - Online Supplement',
-    publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Reference/Hoard of the Dragon Queen - Online Supplement.pdf',
   },
@@ -305,6 +353,11 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/Out of the Abyss.pdf',
   },
+  out_of_the_abyss_d_d_encounters: {
+    name: 'Out of the Abyss - D&D Encounters',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/Out of the Abyss - D&D Encounters.pdf',
+  },
   plane_shift_amonkhet: {
     name: 'Plane Shift: Amonkhet',
     year: 2017,
@@ -359,7 +412,6 @@ export default createPublications({
   },
   rise_of_tiamat_online_supplement: {
     name: 'Rise of Tiamat - Online Supplement',
-    publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Reference/Rise of Tiamat - Online Supplement.pdf',
   },

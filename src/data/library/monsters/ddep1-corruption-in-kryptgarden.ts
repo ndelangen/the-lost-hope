@@ -30,18 +30,5 @@ export default createPublicationMonsters({
         abilities: [],
       },
     },
-    rug_of_smothering: {
-      name: 'Rug of Smothering',
-      stats: {
-        size: 'large',
-        type: 'construct',
-        cr: '2',
-        ac: 12,
-        hitDice: '6d10',
-        speed: { walk: 10 },
-        scores: { str: 17, dex: 14, con: 10, int: 1, wis: 3, cha: 1 },
-        abilities: [],
-      },
-    },
   },
 })

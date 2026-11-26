@@ -1,20 +1,44 @@
 import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
 import { createPublicationMonsters } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
 
 export default createPublicationMonsters({
   publication: refs.publications.ddex1_05_the_courting_of_fire,
   monsters: {
-    gray_ooze: {
-      name: 'Gray Ooze',
+    skeleton: {
+      name: 'Skeleton',
+      alignment: 'lawful evil',
+      languages: ['understands all languages it knew in life but can’t speak'],
       stats: {
         size: 'medium',
-        type: 'ooze',
-        cr: '1/2',
-        ac: 8,
-        hitDice: '3d8',
-        speed: { walk: 10, climb: 10 },
-        scores: { str: 12, dex: 6, con: 16, int: 1, wis: 6, cha: 2 },
-        abilities: [],
+        type: 'undead',
+        cr: '1/4',
+        ac: 13,
+        armor: 'armor scraps',
+        hitDice: '2d8',
+        speed: { walk: 30 },
+        scores: { str: 10, dex: 14, con: 15, int: 6, wis: 8, cha: 5 },
+        senses: { darkvision: 60 },
+        damageImmunities: [rules.poison],
+        damageVulnerabilities: [rules.bludgeoning],
+        conditionImmunities: [rules.exhaustion, rules.poisoned],
+        abilities: [
+          {
+            key: 'shortsword',
+            name: 'Shortsword',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
       },
     },
   },

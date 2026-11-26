@@ -40,3 +40,8 @@ bunx oxfmt src/data/library src/lib/published-library-catalog && bun run generat
 - `srd51_monsters.py <cols.txt> <out.json> <label> <id>` reads 2014-format stat blocks the same way
   (SRD 5.1 and the 2018 Basic Rules work; the 2014 Monster Manual's layout does not yet). PDF
   printings take the catalog's own printing id and type, matched by slug and label.
+- Adventure PDFs: list the held printings' books that have a PDF in `Books/output/Catalog.csv`, run
+  `columns.sh` and `srd51_monsters.py <txt> <json> "<catalog label>" pdf-N` on each, and pass every
+  JSON in `EXTRA_PRINTINGS`. Text PDFs (Adventurers League modules, online supplements) work; the
+  hardcover adventures and the 2014 Monster Manual are scans without usable text. A PDF stat block
+  converts only when the catalog has an entry for that creature and book.

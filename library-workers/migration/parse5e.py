@@ -333,6 +333,7 @@ def convert(r,p):
     v=g(a.capitalize()) or g({'str':'Strength','dex':'Dexterity','con':'Constitution','int':'Intelligence','wis':'Wisdom','cha':'Charisma'}[a])
     if not v: raise Fail('missing score '+a)
     scores[a]=int(v)
+    if not 1<=scores[a]<=30: raise Fail(f"score {a} {v} out of range")
   m=re.match(r'(\d+d\d+)(?: ?([+−-]) ?(\d+))?$',hd.replace('–','-'))
   if not m: raise Fail('hit dice '+hd)
   dice=m.group(1); n=int(dice.split('d')[0])
@@ -577,10 +578,13 @@ def main():
     for r_ in recs: by_slug.setdefault(r_['slug'],[]).append(r_)
     for rec in json.load(open(extra)):
       # Take the catalog's own id and type for this printing, so the conversion lands on it.
+      matched=False
       for p in rec['printings']:
         same=next(((r_,q) for r_ in by_slug.get(rec['slug'],[]) for q in r_['printings'] if q['label']==p['label']),None)
-        if same: p['id']=same[1]['id']; rec['type']=same[0]['type']
-      rec['from_pdf']=True; recs.append(rec)
+        if same: p['id']=same[1]['id']; rec['type']=same[0]['type']; matched=True
+      # A stat block the catalog has no entry for would be unreachable; leave it for later.
+      if matched or rec['printings'][0]['label'] in ('SRD 5.2.1',):
+        rec['from_pdf']=True; recs.append(rec)
   out=[]; tally=collections.Counter(); why=collections.Counter()
   for r in recs:
     if r['type'] not in types: continue

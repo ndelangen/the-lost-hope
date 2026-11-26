@@ -17,18 +17,5 @@ export default createPublicationMonsters({
         abilities: [],
       },
     },
-    zombie: {
-      name: 'Zombie',
-      stats: {
-        size: 'medium',
-        type: 'undead',
-        cr: '1/4',
-        ac: 8,
-        hitDice: '3d8',
-        speed: { walk: 20 },
-        scores: { str: 13, dex: 6, con: 16, int: 3, wis: 6, cha: 5 },
-        abilities: [],
-      },
-    },
   },
 })

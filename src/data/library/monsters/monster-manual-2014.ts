@@ -318,7 +318,11 @@ export default createPublicationMonsters({
     },
     awakened_tree: {
       name: 'Awakened Tree',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.ddal04_06_the_ghost,
+        refs.publications.ddal04_13_the_horseman,
+        refs.publications.srd_5_1,
+      ],
       page: 317,
       alignment: 'unaligned',
       languages: ['One language its creator knows.'],
@@ -752,7 +756,11 @@ export default createPublicationMonsters({
     },
     blood_hawk: {
       name: 'Blood Hawk',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex2_01_city_of_danger,
+        refs.publications.srd_5_1,
+      ],
       page: 319,
       alignment: 'unaligned',
       languages: [],
@@ -1002,6 +1010,7 @@ export default createPublicationMonsters({
     },
     carrion_crawler: {
       name: 'Carrion Crawler',
+      reprintedIn: [refs.publications.ddex1_14_escape_from_phlan],
       page: 37,
       alignment: 'unaligned',
       languages: ['None.'],
@@ -1465,7 +1474,21 @@ export default createPublicationMonsters({
     },
     commoner: {
       name: 'Commoner',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.ddex1_09_outlaws_of_the_iron_route,
+        refs.publications.ddex2_02_embers_of_elmwood,
+        refs.publications.ddex2_03_the_drowned_tower,
+        refs.publications.ddex2_05_flames_of_kythorn,
+        refs.publications.ddex3_02_shackles_of_blood,
+        refs.publications.ddex3_03_the_occupation_of_szith_morcane,
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.ddex3_05_bane_of_the_tradeways,
+        refs.publications.ddex3_06_no_foolish_matter,
+        refs.publications.ddex3_09_the_waydown,
+        refs.publications.ddex3_12_hillsfar_reclaimed,
+        refs.publications.ddex3_14_death_on_the_wall,
+        refs.publications.srd_5_1,
+      ],
       tags: ['any race'],
       page: 345,
       alignment: 'any alignment',
@@ -2011,7 +2034,11 @@ export default createPublicationMonsters({
     },
     cyclops: {
       name: 'Cyclops',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex1_13_pool_of_radiance_resurgent,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       page: 45,
       alignment: 'chaotic neutral',
       languages: ['Giant.'],
@@ -2336,6 +2363,7 @@ export default createPublicationMonsters({
     },
     displacer_beast: {
       name: 'Displacer Beast',
+      reprintedIn: [refs.publications.ddex1_08_tales_trees_tell],
       page: 81,
       alignment: 'lawful evil',
       languages: ['None.'],
@@ -2812,7 +2840,11 @@ export default createPublicationMonsters({
     },
     ettin: {
       name: 'Ettin',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+        refs.publications.rise_of_tiamat_online_supplement,
+        refs.publications.srd_5_1,
+      ],
       page: 132,
       alignment: 'chaotic evil',
       languages: ['Giant', 'Orc.'],
@@ -3698,7 +3730,14 @@ export default createPublicationMonsters({
     },
     fire_giant: {
       name: 'Fire Giant',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.ddex3_03_the_occupation_of_szith_morcane,
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.ddex3_15_szith_morcane_unbound,
+        refs.publications.srd_5_1,
+      ],
       page: 154,
       alignment: 'lawful evil',
       languages: ['Giant.'],
@@ -3923,7 +3962,14 @@ export default createPublicationMonsters({
     },
     ghast: {
       name: 'Ghast',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.ddal04_04_the_marionette,
+        refs.publications.ddal04_05_the_seer,
+        refs.publications.ddal04_06_the_ghost,
+        refs.publications.ddal04_07_the_innocent,
+        refs.publications.ddal04_08_the_broken_one,
+        refs.publications.srd_5_1,
+      ],
       page: 148,
       alignment: 'chaotic evil',
       languages: ['Common.'],
@@ -4001,7 +4047,7 @@ export default createPublicationMonsters({
     },
     ghoul: {
       name: 'Ghoul',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.ddal04_03_the_executioner, refs.publications.srd_5_1],
       page: 148,
       alignment: 'chaotic evil',
       languages: ['Common.'],
@@ -4122,6 +4168,8 @@ export default createPublicationMonsters({
       reprintedIn: [
         refs.publications.basic_rules_2018,
         refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.ddex2_01_city_of_danger,
+        refs.publications.ddex2_07_bounty_in_the_bog,
         refs.publications.srd_5_1,
       ],
       page: 323,
@@ -4188,7 +4236,11 @@ export default createPublicationMonsters({
     },
     giant_bat: {
       name: 'Giant Bat',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddal04_01_the_suits_of_the_mists,
+        refs.publications.srd_5_1,
+      ],
       page: 323,
       alignment: 'unaligned',
       languages: [],
@@ -4931,11 +4983,7 @@ export default createPublicationMonsters({
     },
     giant_vulture: {
       name: 'Giant Vulture',
-      reprintedIn: [
-        refs.publications.basic_rules_2018,
-        refs.publications.ddep2_mulmaster_undone_v2,
-        refs.publications.srd_5_1,
-      ],
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 329,
       alignment: 'neutral evil',
       languages: ['Understands Common but cannot speak'],
@@ -5079,7 +5127,11 @@ export default createPublicationMonsters({
     },
     giant_weasel: {
       name: 'Giant Weasel',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex1_09_outlaws_of_the_iron_route,
+        refs.publications.srd_5_1,
+      ],
       page: 329,
       alignment: 'unaligned',
       languages: [],
@@ -6415,7 +6467,7 @@ export default createPublicationMonsters({
     },
     harpy: {
       name: 'Harpy',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.ddal04_04_the_marionette, refs.publications.srd_5_1],
       page: 181,
       alignment: 'chaotic evil',
       languages: ['Common.'],
@@ -6624,7 +6676,11 @@ export default createPublicationMonsters({
     },
     hill_giant: {
       name: 'Hill Giant',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex3_07_herald_of_the_moon,
+        refs.publications.srd_5_1,
+      ],
       page: 152,
       alignment: 'chaotic evil',
       languages: ['Giant.'],
@@ -6677,7 +6733,7 @@ export default createPublicationMonsters({
     },
     hippogriff: {
       name: 'Hippogriff',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.ddex2_01_city_of_danger, refs.publications.srd_5_1],
       page: 184,
       alignment: 'unaligned',
       stats: {
@@ -6854,7 +6910,7 @@ export default createPublicationMonsters({
     },
     hydra: {
       name: 'Hydra',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.ddex2_03_the_drowned_tower, refs.publications.srd_5_1],
       page: 190,
       alignment: 'unaligned',
       languages: ['None.'],
@@ -6992,7 +7048,11 @@ export default createPublicationMonsters({
     },
     jackal: {
       name: 'Jackal',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex3_01_harried_in_hillsfar,
+        refs.publications.srd_5_1,
+      ],
       page: 331,
       alignment: 'unaligned',
       languages: [],
@@ -7053,6 +7113,7 @@ export default createPublicationMonsters({
     },
     kenku: {
       name: 'Kenku',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       tags: ['kenku'],
       page: 194,
       alignment: 'chaotic neutral',
@@ -7334,7 +7395,11 @@ export default createPublicationMonsters({
     },
     lion: {
       name: 'Lion',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex2_04_mayhem_in_the_earthspur_mines,
+        refs.publications.srd_5_1,
+      ],
       page: 331,
       alignment: 'unaligned',
       languages: [],
@@ -7845,7 +7910,13 @@ export default createPublicationMonsters({
     },
     mastiff: {
       name: 'Mastiff',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddal04_01_the_suits_of_the_mists,
+        refs.publications.ddex2_02_embers_of_elmwood,
+        refs.publications.ddex3_14_death_on_the_wall,
+        refs.publications.srd_5_1,
+      ],
       page: 332,
       alignment: 'unaligned',
       languages: [],
@@ -8458,6 +8529,11 @@ export default createPublicationMonsters({
     },
     needle_blight: {
       name: 'Needle Blight',
+      reprintedIn: [
+        refs.publications.ddal04_01_the_suits_of_the_mists,
+        refs.publications.ddal04_06_the_ghost,
+        refs.publications.ddal04_11_the_donjon,
+      ],
       page: 32,
       alignment: 'neutral evil',
       languages: ['Understands Common but cannot speak.'],
@@ -8910,6 +8986,11 @@ export default createPublicationMonsters({
     },
     orog: {
       name: 'Orog',
+      reprintedIn: [
+        refs.publications.ddal04_01_the_suits_of_the_mists,
+        refs.publications.ddal04_12_the_raven,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       tags: ['orc'],
       page: 247,
       alignment: 'chaotic evil',
@@ -10976,6 +11057,11 @@ export default createPublicationMonsters({
     },
     stone_giant: {
       name: 'Stone Giant',
+      reprintedIn: [
+        refs.publications.ddex1_13_pool_of_radiance_resurgent,
+        refs.publications.ddex3_15_szith_morcane_unbound,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+      ],
       page: 152,
       alignment: 'neutral',
       languages: ['Giant.'],
@@ -11991,6 +12077,10 @@ export default createPublicationMonsters({
     },
     vine_blight: {
       name: 'Vine Blight',
+      reprintedIn: [
+        refs.publications.ddal04_01_the_suits_of_the_mists,
+        refs.publications.ddex3_07_herald_of_the_moon,
+      ],
       page: 32,
       alignment: 'neutral evil',
       languages: ['Common.'],

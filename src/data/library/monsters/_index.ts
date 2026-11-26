@@ -2,6 +2,7 @@ import basic_rules_2018 from './basic-rules-2018.ts'
 import bigby_presents_glory_of_the_giants from './bigby-presents-glory-of-the-giants.ts'
 import d_d_world_of_warcraft from './d-d-world-of-warcraft.ts'
 import ddal04_01_the_suits_of_the_mists from './ddal04-01-the-suits-of-the-mists.ts'
+import ddal04_02_the_beast from './ddal04-02-the-beast.ts'
 import ddal04_03_the_executioner from './ddal04-03-the-executioner.ts'
 import ddal04_04_the_marionette from './ddal04-04-the-marionette.ts'
 import ddal04_05_the_seer from './ddal04-05-the-seer.ts'
@@ -16,10 +17,14 @@ import ddal04_13_the_horseman from './ddal04-13-the-horseman.ts'
 import ddal04_14_the_darklord from './ddal04-14-the-darklord.ts'
 import ddep1_corruption_in_kryptgarden from './ddep1-corruption-in-kryptgarden.ts'
 import ddep2_mulmaster_undone_v2 from './ddep2-mulmaster-undone-v2.ts'
+import ddex1_01_defiance_in_phlan from './ddex1-01-defiance-in-phlan.ts'
+import ddex1_02_secrets_of_sokol_keep from './ddex1-02-secrets-of-sokol-keep.ts'
 import ddex1_03_shadows_over_the_moonsea from './ddex1-03-shadows-over-the-moonsea.ts'
 import ddex1_04_dues_for_the_dead from './ddex1-04-dues-for-the-dead.ts'
 import ddex1_05_the_courting_of_fire from './ddex1-05-the-courting-of-fire.ts'
+import ddex1_06_the_scroll_thief from './ddex1-06-the-scroll-thief.ts'
 import ddex1_08_tales_trees_tell from './ddex1-08-tales-trees-tell.ts'
+import ddex1_09_outlaws_of_the_iron_route from './ddex1-09-outlaws-of-the-iron-route.ts'
 import ddex1_10_tyranny_in_phlan from './ddex1-10-tyranny-in-phlan.ts'
 import ddex1_11_dark_pyramid_of_sorcerer_s_isle from './ddex1-11-dark-pyramid-of-sorcerer-s-isle.ts'
 import ddex1_13_pool_of_radiance_resurgent from './ddex1-13-pool-of-radiance-resurgent.ts'
@@ -37,7 +42,9 @@ import ddex3_04_it_s_all_in_the_blood from './ddex3-04-it-s-all-in-the-blood.ts'
 import ddex3_05_bane_of_the_tradeways from './ddex3-05-bane-of-the-tradeways.ts'
 import ddex3_07_herald_of_the_moon from './ddex3-07-herald-of-the-moon.ts'
 import ddex3_08_the_malady_of_elventree from './ddex3-08-the-malady-of-elventree.ts'
+import ddex3_12_hillsfar_reclaimed from './ddex3-12-hillsfar-reclaimed.ts'
 import ddex3_13_writhing_in_the_dark from './ddex3-13-writhing-in-the-dark.ts'
+import ddex3_14_death_on_the_wall from './ddex3-14-death-on-the-wall.ts'
 import ddex3_15_szith_morcane_unbound from './ddex3-15-szith-morcane-unbound.ts'
 import ddex3_16_assault_on_maerimydra from './ddex3-16-assault-on-maerimydra.ts'
 import fizban_s_treasury_of_dragons from './fizban-s-treasury-of-dragons.ts'
@@ -57,6 +64,7 @@ import mordenkainen_s_fiendish_folio_volume_1 from './mordenkainen-s-fiendish-fo
 import mordenkainen_s_tome_of_foes from './mordenkainen-s-tome-of-foes.ts'
 import morte_s_planar_parade from './morte-s-planar-parade.ts'
 import mythic_odysseys_of_theros from './mythic-odysseys-of-theros.ts'
+import out_of_the_abyss_d_d_encounters from './out-of-the-abyss-d-d-encounters.ts'
 import out_of_the_abyss from './out-of-the-abyss.ts'
 import plane_shift_amonkhet from './plane-shift-amonkhet.ts'
 import plane_shift_dominaria from './plane-shift-dominaria.ts'
@@ -86,6 +94,7 @@ export default [
   bigby_presents_glory_of_the_giants,
   d_d_world_of_warcraft,
   ddal04_01_the_suits_of_the_mists,
+  ddal04_02_the_beast,
   ddal04_03_the_executioner,
   ddal04_04_the_marionette,
   ddal04_05_the_seer,
@@ -100,10 +109,14 @@ export default [
   ddal04_14_the_darklord,
   ddep1_corruption_in_kryptgarden,
   ddep2_mulmaster_undone_v2,
+  ddex1_01_defiance_in_phlan,
+  ddex1_02_secrets_of_sokol_keep,
   ddex1_03_shadows_over_the_moonsea,
   ddex1_04_dues_for_the_dead,
   ddex1_05_the_courting_of_fire,
+  ddex1_06_the_scroll_thief,
   ddex1_08_tales_trees_tell,
+  ddex1_09_outlaws_of_the_iron_route,
   ddex1_10_tyranny_in_phlan,
   ddex1_11_dark_pyramid_of_sorcerer_s_isle,
   ddex1_13_pool_of_radiance_resurgent,
@@ -121,7 +134,9 @@ export default [
   ddex3_05_bane_of_the_tradeways,
   ddex3_07_herald_of_the_moon,
   ddex3_08_the_malady_of_elventree,
+  ddex3_12_hillsfar_reclaimed,
   ddex3_13_writhing_in_the_dark,
+  ddex3_14_death_on_the_wall,
   ddex3_15_szith_morcane_unbound,
   ddex3_16_assault_on_maerimydra,
   fizban_s_treasury_of_dragons,
@@ -141,6 +156,7 @@ export default [
   mordenkainen_s_tome_of_foes,
   morte_s_planar_parade,
   mythic_odysseys_of_theros,
+  out_of_the_abyss_d_d_encounters,
   out_of_the_abyss,
   plane_shift_amonkhet,
   plane_shift_dominaria,

@@ -9,7 +9,6 @@ export default createPublicationMonsters({
   monsters: {
     frederick_mastiff: {
       name: 'Frederick (Mastiff)',
-      page: 22,
       alignment: 'unaligned',
       languages: [],
       habitats: ['Orașnou', 'Village'],
@@ -31,7 +30,7 @@ export default createPublicationMonsters({
             name: 'Keen Smell',
             timing: 'trait',
             icon: 'gi/GiNoseSide',
-            text: ['Frederick has advantage on Wisdom (Perception) checks that rely on smell.'],
+            text: ['The mastiff has advantage on Wisdom (Perception) checks that rely on smell.'],
           },
           {
             key: 'bite',
@@ -46,11 +45,11 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'A creature hit must pass a ',
+              'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or fall ',
+              ' Strength saving throw or be knocked ',
               rules.prone,
-              '.',
+              '. ersonal use only.',
             ],
           },
         ],
