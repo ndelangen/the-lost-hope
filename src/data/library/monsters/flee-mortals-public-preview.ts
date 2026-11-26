@@ -205,12 +205,16 @@ export default createPublicationMonsters({
             name: 'Charm Beam',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'Wisdom ',
-              { dc: 'con' },
-              ' or ',
-              rules.charmed,
-              ' for an hour, ending if the overmind harms the target or an ally.',
+            text: ['Wisdom ', { dc: 'con' }, ' or ', { effect: 'charm-beam-charmed' }, '.'],
+            effects: [
+              {
+                key: 'charm-beam-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.charmed],
+                text: ['Ending if the overmind harms the target or an ally.'],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -225,6 +229,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' also stops this effect.',
             ],
+            effects: [],
           },
           {
             key: 'toxic-vapors',
@@ -235,8 +240,18 @@ export default createPublicationMonsters({
               'Choose a visible point within 120 ft. Creatures within 10 ft. of it make Constitution ',
               { dc: 'con' },
               ' or are ',
-              rules.poisoned,
-              ' for 1 minute, save ends at end of turn.',
+              { effect: 'toxic-vapors-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'toxic-vapors-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -251,6 +266,7 @@ export default createPublicationMonsters({
               { roll: '2d6' },
               ' force. Alternatively move a visible object of up to 300 lb. within 120 ft. by up to 30 ft., provided nobody wears or carries it. It can also operate simple objects with the beam.',
             ],
+            effects: [],
           },
           {
             key: 'lightning-bolt',
@@ -264,6 +280,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' halves.',
             ],
+            effects: [],
           },
           {
             key: 'fire-beam',
@@ -275,9 +292,22 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' or take ',
               { roll: '8d8' },
-              ' fire and catch fire for 1 minute. Take ',
-              { roll: '2d8' },
-              ' fire at each turn start, save ends at end of turn. Any creature can spend an action to put out the flames.',
+              ' fire and ',
+              { effect: 'fire-beam-burning' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'fire-beam-burning',
+                name: 'Catch fire',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                text: ['Take ', { roll: '2d8' }, ' fire at each turn start.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: {
+                  repeatSave: ['end-of-turn'],
+                  cure: ['Any creature can spend an action to put out the flames.'],
+                },
+              },
             ],
           },
           {
@@ -309,7 +339,21 @@ export default createPublicationMonsters({
             text: [
               "One creature of the overmind's choice within 120 ft. makes a ",
               { dc: 'cha', save: 'dex' },
-              ' Dexterity save. On failure it is vulnerable to fire and lightning until either damage type hits it or initiative 20 of the next round.',
+              ' Dexterity save. On failure ',
+              { effect: 'slime-vulnerable' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slime-vulnerable',
+                name: 'Vulnerable to fire and lightning',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                text: ['it is vulnerable to fire and lightning'],
+                lasts: {
+                  kind: 'until',
+                  text: ['either damage type hits it or initiative 20 of the next round'],
+                },
+              },
             ],
           },
           {
@@ -319,7 +363,18 @@ export default createPublicationMonsters({
             text: [
               'Up to three selected creatures within 60 ft. make ',
               { dc: 'cha', save: 'str' },
-              " Strength saves. On failure a creature's speed drops to 0 and it rises 20 ft. until initiative 20 of the next round, when it falls.",
+              ' Strength saves. On failure ',
+              { effect: 'lift-lifted' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'lift-lifted',
+                name: 'Lifted',
+                lands: { on: 'save', save: 'str', dc: 'cha' },
+                text: ["a creature's speed drops to 0 and it rises 20 ft."],
+                lasts: { kind: 'until', text: ['initiative 20 of the next round, when it falls'] },
+              },
             ],
           },
           {
@@ -330,8 +385,17 @@ export default createPublicationMonsters({
               'A 20-ft. sphere opens at a point within 60 ft. until initiative 20 of the next round. On first entry or starting a turn inside, a creature must pass a ',
               { dc: 'cha', save: 'con' },
               ' Constitution save or be ',
-              rules.poisoned,
-              ' until the start of its next turn.',
+              { effect: 'gas-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'gas-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
         ],

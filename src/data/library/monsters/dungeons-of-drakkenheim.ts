@@ -1128,6 +1128,7 @@ export default createPublicationMonsters({
               },
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'rock-catching',
@@ -1139,6 +1140,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'dex' },
               ' Dexterity save to prevent the bludgeoning damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1204,6 +1206,7 @@ export default createPublicationMonsters({
             text: ['Choose a visible point within 120 ft.'],
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1329,6 +1332,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution save also gives the target one contamination level.',
             ],
+            effects: [],
           },
           {
             key: 'create-haze-husk',
@@ -1412,6 +1416,7 @@ export default createPublicationMonsters({
               refs.spells.web_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -1485,6 +1490,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' too.',
             ],
+            effects: [],
           },
           {
             key: 'lashing-tendrils',
@@ -1500,8 +1506,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Large or smaller target is ',
-              rules.grappled,
-              ', escape DC 15. The hunter has two tendrils and can hold two targets at once.',
+              { effect: 'tendrils-grappled' },
+              '. The hunter has two tendrils and can hold two targets at once.',
+            ],
+            effects: [
+              {
+                key: 'tendrils-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -1571,6 +1587,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution save or gains 1 contamination level.',
             ],
+            effects: [],
           },
           {
             key: 'hypnotic-pollen-short-or-long-rest',
@@ -1581,12 +1598,25 @@ export default createPublicationMonsters({
               'Each creature within 30 ft. makes a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save or is ',
-              rules.charmed,
-              ' for 1 minute. While ',
-              rules.charmed,
-              ' this way, it is ',
-              rules.incapacitated,
-              ' and must spend all its movement getting as close as possible to the blossom on its turns. The effect ends if the target takes damage or another creature uses an action to shake it awake.',
+              { effect: 'pollen-charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'pollen-charmed',
+                name: 'Hypnotized',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed, rules.incapacitated],
+                text: [
+                  'must spend all its movement getting as close as possible to the blossom on its turns',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: {
+                  cure: [
+                    'the target takes damage or another creature uses an action to shake it awake',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -1634,6 +1664,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               ' plus the damage taken, unless the damage is radiant or comes from a critical hit. On a success it drops to 1 HP.',
             ],
+            effects: [],
           },
           {
             key: 'trampling-charge',
@@ -1646,12 +1677,21 @@ export default createPublicationMonsters({
               ' that turn, that target makes a ',
               { dc: 'str', printed: 16 },
               ' Strength save or falls ',
-              rules.prone,
+              { effect: 'trample-prone' },
               '. If the target is ',
               rules.prone,
               ', the juggernaut can ',
               { ability: 'slam' },
               ' it again as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'trample-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str', printed: 16 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1755,6 +1795,7 @@ export default createPublicationMonsters({
             text: [
               'Choose one creature the dreg can see within 60 ft. A failure by at least 5 also adds one level of contamination.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1893,6 +1934,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' necrotic damage and gains 1 contamination level.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1995,6 +2037,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' creatures within 120 ft.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2028,6 +2071,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution save or one level of Contamination.',
             ],
+            effects: [],
           },
           {
             key: 'claws',
@@ -2061,6 +2105,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution save or one level of Contamination.',
             ],
+            effects: [],
           },
           {
             key: 'ensnaring-arrow',
@@ -2078,8 +2123,17 @@ export default createPublicationMonsters({
               'A Large or smaller target must pass a ',
               { dc: 'dex' },
               ' Dexterity save or become ',
-              rules.restrained,
-              ' for 1 minute. It can spend an action to repeat the save and escape.',
+              { effect: 'arrow-restrained' },
+              '. It can spend an action to repeat the save and escape.',
+            ],
+            effects: [
+              {
+                key: 'arrow-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -2099,6 +2153,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength save or be pulled up to 20 ft. directly toward him.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -2183,6 +2238,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', and the dreg does not have disadvantage on the attack.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -2239,6 +2295,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -2321,6 +2378,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally is within 5 ft. of it.',
             ],
+            effects: [],
           },
           {
             key: 'sneak-attack-1-turn',
@@ -2334,6 +2392,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the attack did not have disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2431,6 +2490,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '), Minor Illusion, Prestidigitation. 1st level (4 slots). Charm Person, Disguise Self, Sleep. 2nd level (2 slots). Invisibility, Suggestion.',
             ],
+            effects: [],
           },
           {
             key: 'sneak-attack-1-turn',
@@ -2444,6 +2504,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the attack did not have disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'shortsword',
@@ -2564,10 +2625,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A creature hit is ',
-              rules.grappled,
-              ' (escape DC 12) and ',
-              rules.restrained,
-              ' until the grapple ends. The dreg cannot use Tentacles on another target while it holds that creature.',
+              { effect: 'tentacles-grappled' },
+              '. The dreg cannot use Tentacles on another target while it holds that creature.',
+            ],
+            effects: [
+              {
+                key: 'tentacles-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
         ],
@@ -2605,6 +2674,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               ' to hit with spell attacks. 1st level (4 slots). Cure Wounds, Fog Cloud, Hunter’s Mark. 2nd level (3 slots). Pass without Trace, Spike Growth.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2701,6 +2771,7 @@ export default createPublicationMonsters({
             text: [
               'If damage drops the geode to 0 HP, its crystals explode unless the damage was force, radiant, or thunder. The explosion also triggers a random effect from the Arcane Anomalies d20 table in Appendix D, p. 225.',
             ],
+            effects: [],
           },
           {
             key: 'earth-glide',
@@ -2733,6 +2804,7 @@ export default createPublicationMonsters({
               },
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -2884,6 +2956,7 @@ export default createPublicationMonsters({
               refs.spells.misty_step_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'keen-smell',

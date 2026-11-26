@@ -1208,10 +1208,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic }],
-                also: ['Is magically bewildered until the end of its next turn.'],
+
+                also: [{ effect: 'bewildered' }],
               },
             },
-            text: ['While bewildered, it subtracts 1d4 from its saving throws.'],
+            text: [],
+            effects: [
+              {
+                key: 'bewildered',
+                name: 'Magically bewildered',
+                lands: { on: 'failed-save' },
+                text: ['While bewildered, it subtracts 1d4 from its saving throws.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'magic-resistance',
@@ -3060,8 +3070,18 @@ export default createPublicationMonsters({
               'Wisdom save. Failure deals ',
               { roll: '3d8' },
               ' psychic damage and leaves the target ',
-              rules.charmed,
-              ' for 1 hour or until it takes damage. Success halves the damage and avoids the condition. 2.',
+              { effect: 'charm-ray-charmed' },
+              '. Success halves the damage and avoids the condition. 2.',
+            ],
+            effects: [
+              {
+                key: 'charm-ray-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'str' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+                ends: { cure: ['it takes damage'] },
+              },
             ],
           },
           {
@@ -3071,8 +3091,18 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'Constitution save. Failure leaves the target ',
-              rules.paralyzed,
-              '. Repeat the save at the end of each of its turns to end the effect on success. It automatically succeeds after 1 minute. 3.',
+              { effect: 'paralyzing-ray-paralyzed' },
+              '. It automatically succeeds after 1 minute. 3.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-ray-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3137,9 +3167,24 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'Strength save. A Gargantuan target succeeds automatically. On failure the beholder moves the target up to 30 ft. in any direction and Restrains it until the start of the beholder’s next turn or until the beholder is ',
-              rules.incapacitated,
+              'Strength save. A Gargantuan target succeeds automatically. On failure the beholder moves the target up to 30 ft. in any direction and Restrains it ',
+              { effect: 'telekinetic-ray-restrained' },
               '. This ray can also manipulate objects precisely, for example to open a door or operate a tool. 7.',
+            ],
+            effects: [
+              {
+                key: 'telekinetic-ray-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the start of the beholder’s next turn or until the beholder is ',
+                    rules.incapacitated,
+                  ],
+                },
+              },
             ],
           },
           {
@@ -3169,14 +3214,31 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'Constitution save. Failure leaves the target ',
-              rules.restrained,
+              { effect: 'petrification-ray-restrained' },
               '. If it is still ',
               rules.restrained,
               ' at the end of its next turn, it repeats the save. Success ends the effect. Failure changes ',
               rules.restrained,
               ' to ',
-              rules.petrified,
+              { effect: 'petrification-ray-petrified' },
               '. 9.',
+            ],
+            effects: [
+              {
+                key: 'petrification-ray-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'petrification-ray-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                },
+              },
             ],
           },
           {
@@ -3674,10 +3736,24 @@ export default createPublicationMonsters({
               "Move up to the blob's Speed, passing through spaces occupied by Huge or smaller creatures or objects. Each target makes a ",
               { dc: 'str' },
               ' Strength save the first time the blob enters its space during this move. Failure engulfs the target. Engulfed targets move with the blob and have Total Cover against attacks and effects outside it. A nonmagical object is destroyed after 1 minute inside. An engulfed creature is ',
-              rules.restrained,
-              ' and suffocating, takes ',
-              { roll: '6d6' },
-              ' Force damage at the start of each of its turns, and repeats the save at the end of each of its turns. If it drops to 0 HP while engulfed, it dissolves into ash and the blob ejects the ash into the Astral Sea. On a successful save, the target escapes to the nearest unoccupied space.',
+              { effect: 'engulfed' },
+              '. On a successful save, the target escapes to the nearest unoccupied space.',
+            ],
+            effects: [
+              {
+                key: 'engulfed',
+                name: 'Engulfed',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.restrained],
+                text: [
+                  'suffocating, takes ',
+                  { roll: '6d6' },
+                  ' Force damage at the start of each of its turns',
+                  '. If it drops to 0 HP while engulfed, it dissolves into ash and the blob ejects the ash into the Astral Sea.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3696,16 +3772,26 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.acid, addModifier: true }],
+
                 also: [
                   'The creature rolls 60 ft. straight toward the blob and is ',
-                  rules.restrained,
-                  ' until the end of its next turn, when the glob dissolves harmlessly.',
+                  { effect: 'glob-restrained' },
+                  ', when the glob dissolves harmlessly.',
                 ],
               },
               onSuccess: 'half',
             },
             text: [
               'Choose a creature.    A creature that succeeds avoids the movement and restraint.',
+            ],
+            effects: [
+              {
+                key: 'glob-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -5798,14 +5884,31 @@ export default createPublicationMonsters({
               'A creature hit also makes a ',
               { dc: 'con' },
               ' Constitution save. On a failure it is ',
-              rules.restrained,
+              { effect: 'bite-restrained' },
               '. If it is still ',
               rules.restrained,
               ' at the end of its next turn, it repeats the save. A success ends the effect. A second failure replaces ',
               rules.restrained,
               ' with ',
-              rules.petrified,
+              { effect: 'bite-petrified' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'bite-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                },
+              },
             ],
           },
           {
@@ -6102,7 +6205,20 @@ export default createPublicationMonsters({
             text: [
               'Each creature in a 15-ft. Cone makes a ',
               { dc: 'con' },
-              ' Constitution save. On a failure, its Speed is halved, it loses access to Reactions, and it can take at most one action or Bonus Action on its turn. These restrictions end at the end of its next turn.',
+              ' Constitution save. On a failure, ',
+              { effect: 'slowing-breath-slowed' },
+              '. These restrictions end at the end of its next turn.',
+            ],
+            effects: [
+              {
+                key: 'slowing-breath-slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'its Speed is halved, it loses access to Reactions, and it can take at most one action or Bonus Action on its turn.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -7410,14 +7526,44 @@ export default createPublicationMonsters({
             },
             text: [
               "Roll a d4 to determine the condition affecting the target until the start of the slaad's next turn. On 1 it is ",
-              rules.charmed,
+              { effect: 'chaos-charmed' },
               ', on 2 ',
-              rules.frightened,
+              { effect: 'chaos-frightened' },
               ', on 3 ',
-              rules.poisoned,
+              { effect: 'chaos-poisoned' },
               ', and on 4 ',
-              rules.incapacitated,
+              { effect: 'chaos-incapacitated' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'chaos-charmed',
+                name: 'Charmed',
+                lands: { on: 'hit' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+              {
+                key: 'chaos-frightened',
+                name: 'Frightened',
+                lands: { on: 'hit' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+              {
+                key: 'chaos-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+              {
+                key: 'chaos-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'hit' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -7523,8 +7669,18 @@ export default createPublicationMonsters({
               'Wisdom save. Failure deals ',
               { roll: '3d8' },
               ' psychic damage and leaves the target ',
-              rules.charmed,
-              ' for 1 hour or until it takes damage. Success halves the damage and avoids the condition. 2.',
+              { effect: 'charm-ray-charmed' },
+              '. Success halves the damage and avoids the condition. 2.',
+            ],
+            effects: [
+              {
+                key: 'charm-ray-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'str' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+                ends: { cure: ['it takes damage'] },
+              },
             ],
           },
           {
@@ -7534,8 +7690,18 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'Constitution save. Failure leaves the target ',
-              rules.paralyzed,
-              '. Repeat the save at the end of each of its turns to end the effect on success. It automatically succeeds after 1 minute. 3.',
+              { effect: 'paralyzing-ray-paralyzed' },
+              '. It automatically succeeds after 1 minute. 3.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-ray-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -7600,9 +7766,24 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'Strength save. A Gargantuan target succeeds automatically. On failure the death tyrant moves the target up to 30 ft. in any direction and Restrains it until the start of the death tyrant’s next turn or until the death tyrant is ',
-              rules.incapacitated,
+              'Strength save. A Gargantuan target succeeds automatically. On failure the death tyrant moves the target up to 30 ft. in any direction and Restrains it ',
+              { effect: 'telekinetic-ray-restrained' },
               '. This ray can also manipulate objects precisely, for example to open a door or operate a tool. 7.',
+            ],
+            effects: [
+              {
+                key: 'telekinetic-ray-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the start of the death tyrant’s next turn or until the death tyrant is ',
+                    rules.incapacitated,
+                  ],
+                },
+              },
             ],
           },
           {
@@ -7632,14 +7813,31 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'Constitution save. Failure leaves the target ',
-              rules.restrained,
+              { effect: 'petrification-ray-restrained' },
               '. If it is still ',
               rules.restrained,
               ' at the end of its next turn, it repeats the save. Success ends the effect. Failure changes ',
               rules.restrained,
               ' to ',
-              rules.petrified,
+              { effect: 'petrification-ray-petrified' },
               '. 9.',
+            ],
+            effects: [
+              {
+                key: 'petrification-ray-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'petrification-ray-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                },
+              },
             ],
           },
           {
@@ -7774,15 +7972,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 }, range: 30 },
               onFail: {
                 damage: [{ dice: '8d8', type: rules.psychic }],
-                also: [
-                  'It is ',
-                  rules.frightened,
-                  " until the start of the dire worg's next turn.",
-                ],
+
+                also: ['It is ', { effect: 'howl-frightened' }, '.'],
               },
               onSuccess: 'half',
             },
             text: ['The howl affects each creature other than a worg.'],
+            effects: [
+              {
+                key: 'howl-frightened',
+                name: 'Dire worg’s howl',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -8118,8 +8322,18 @@ export default createPublicationMonsters({
               'Each creature in a 15-ft. Emanation from the doppelganger that can see it makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.frightened,
-              ' and repeats the save at the end of each of its turns. Success ends the effect on that creature. After 1 minute, the save succeeds automatically.',
+              { effect: 'visage-frightened' },
+              '. After 1 minute, the save succeeds automatically.',
+            ],
+            effects: [
+              {
+                key: 'visage-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'recharge 6',
@@ -8309,15 +8523,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d10', type: rules.psychic }],
-                  also: [
-                    'Becomes ',
-                    rules.frightened,
-                    " until the end of that creature's next turn.",
-                  ],
+
+                  also: ['Becomes ', { effect: 'presence-frightened' }, '.'],
                 },
               },
               text: [
                 'The dracolich can use this option only once before the start of its next turn.',
+              ],
+              effects: [
+                {
+                  key: 'presence-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -9912,10 +10132,27 @@ export default createPublicationMonsters({
               'Choose one creature the flumph can see within 15 ft. The target makes a ',
               { dc: 'con', save: 'dex' },
               ' Dexterity save. On a failure, a foul liquid coats the target, causing a stench for 1d4 hours and leaving it ',
-              rules.poisoned,
-              ' while the stench lasts. Other creatures are ',
-              rules.poisoned,
-              ' while in a 5-ft. Emanation from the coated target. The target can end the stench early by bathing during a Short or Long Rest.',
+              { effect: 'stench' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stench',
+                name: 'Stench',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: [
+                  'Other creatures are ',
+                  rules.poisoned,
+                  ' while in a 5-ft. Emanation from the coated target.',
+                ],
+                lasts: { kind: 'time', amount: '1d4', unit: 'hour' },
+                ends: {
+                  cure: [
+                    'The target can end the stench early by bathing during a Short or Long Rest.',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -10651,11 +10888,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.psychic, addModifier: true }],
-                also: ['Is ', rules.frightened, " until the start of the ghost's next turn."],
+
+                also: ['Is ', { effect: 'visage-frightened' }, '.'],
               },
             },
             text: [
               "A successful save grants immunity to this ghost's Horrific Visage for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'visage-frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -13377,9 +13624,23 @@ export default createPublicationMonsters({
             text: [
               'Each creature in a 15-ft. Cone that is unaffected by this breath makes a ',
               { dc: 'con', save: 'str' },
-              ' Strength save. On a failure, it has Disadvantage on Strength-based D20 Tests and subtracts ',
-              { roll: '1d4' },
-              ' from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on a success. After 1 minute the save succeeds automatically.',
+              ' Strength save. On a failure, ',
+              { effect: 'weakening-breath-weakened' },
+              '. After 1 minute the save succeeds automatically.',
+            ],
+            effects: [
+              {
+                key: 'weakening-breath-weakened',
+                name: 'Weakened',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                text: [
+                  'it has Disadvantage on Strength-based D20 Tests and subtracts ',
+                  { roll: '1d4' },
+                  ' from its damage rolls.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -13890,14 +14151,44 @@ export default createPublicationMonsters({
             },
             text: [
               "Roll a d4 to determine the condition affecting the target until the start of the slaad's next turn. On 1 it is ",
-              rules.charmed,
+              { effect: 'chaos-charmed' },
               ', on 2 ',
-              rules.frightened,
+              { effect: 'chaos-frightened' },
               ', on 3 ',
-              rules.poisoned,
+              { effect: 'chaos-poisoned' },
               ', and on 4 ',
-              rules.incapacitated,
+              { effect: 'chaos-incapacitated' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'chaos-charmed',
+                name: 'Charmed',
+                lands: { on: 'hit' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+              {
+                key: 'chaos-frightened',
+                name: 'Frightened',
+                lands: { on: 'hit' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+              {
+                key: 'chaos-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+              {
+                key: 'chaos-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'hit' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -14147,13 +14438,31 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
             },
             text: [
-              "If the target is Medium or smaller, two of the grell's ten tentacles Grapple it (escape DC 12). The target also makes a ",
+              "If the target is Medium or smaller, two of the grell's ten tentacles ",
+              { effect: 'tentacle-grapple' },
+              '. The target also makes a ',
               { dc: 'con' },
               ' Constitution save. On a failure, it is ',
-              rules.poisoned,
-              ' and remains ',
-              rules.paralyzed,
-              ' while that poison lasts. It repeats the save at the end of each of its turns, ending the effect on a success. The save succeeds automatically after 1 minute.',
+              { effect: 'tentacle-poison' },
+              '. The save succeeds automatically after 1 minute.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
+              {
+                key: 'tentacle-poison',
+                name: 'Poisoned and paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -14670,21 +14979,30 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.necrotic, addModifier: true }],
+
                 also: [
                   'The creature is ',
-                  rules.grappled,
-                  " by one of the blight's six roots (escape DC 17).",
+                  { effect: 'root-grapple' },
+                  " by one of the blight's six roots",
+                  '.',
                 ],
               },
             },
-            text: [
-              'Until the grapple ends, a creature ',
-              rules.grappled,
-              ' by this action is ',
-              rules.restrained,
-              ' and takes ',
-              { roll: '4d6' },
-              " Necrotic damage at the start of each of its turns. The creature's Hit Point maximum decreases by the Necrotic damage it takes from this action, and the blight regains that many Hit Points.",
+            text: [],
+            effects: [
+              {
+                key: 'root-grapple',
+                name: 'Grappled',
+                lands: { on: 'failed-save' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  'takes ',
+                  { roll: '4d6' },
+                  " Necrotic damage at the start of each of its turns. The creature's Hit Point maximum decreases by the Necrotic damage it takes from this action, and the blight regains that many Hit Points.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
         ],
@@ -15597,9 +15915,32 @@ export default createPublicationMonsters({
               printedDc: 17,
             },
             text: [
-              'The devil chooses one creature it can see within 10 ft. On a failed save, it also gains an infernal wound if it does not already have one. Until the wound closes, the target loses ',
-              { roll: '3d6' },
-              ' HP at the start of each of its turns. The wound closes after 1 minute or when a spell restores HP to the target. The target or a creature within 5 ft. of it can also use an action to close the wound with a successful DC 17 Wisdom (Medicine) check.',
+              'The devil chooses one creature it can see within 10 ft. On a failed save, it also gains ',
+              { effect: 'infernal-wound' },
+              ' if it does not already have one.',
+            ],
+            effects: [
+              {
+                key: 'infernal-wound',
+                name: 'Infernal wound',
+                lands: { on: 'save', save: 'dex', dc: 'str', printed: 17 },
+                text: [
+                  'the target loses ',
+                  { roll: '3d6' },
+                  ' HP at the start of each of its turns.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the wound closes after 1 minute or when a spell restores HP to the target',
+                  ],
+                },
+                ends: {
+                  cure: [
+                    'The target or a creature within 5 ft. of it can also use an action to close the wound with a successful DC 17 Wisdom (Medicine) check.',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -32421,7 +32762,8 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.poison }],
-                also: ['Is ', rules.poisoned, " until the end of the yuan-ti's next turn."],
+
+                also: ['Is ', { effect: 'spray-poisoned' }, '.'],
               },
             },
             text: [
@@ -32429,7 +32771,16 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' this way is also ',
               rules.blinded,
-              ' for the duration of that condition. On a success, it takes half damage.',
+              ' for the duration of that condition. On a success, it takes half damage. ',
+            ],
+            effects: [
+              {
+                key: 'spray-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned, rules.blinded],
+                lasts: { kind: 'until', text: ["the end of the yuan-ti's next turn"] },
+              },
             ],
             uses: 1,
             recharge: 'recharge 5–6',

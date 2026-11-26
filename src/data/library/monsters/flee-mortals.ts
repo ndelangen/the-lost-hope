@@ -63,6 +63,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'stormsurge',
@@ -106,11 +107,18 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'Grapple the target (escape DC 17). The ',
-              rules.grappled,
-              ' target is ',
-              rules.restrained,
+              { effect: 'bite-grappled' },
               '. The ancient eel cannot bite another target while that grapple lasts.',
+            ],
+            effects: [
+              {
+                key: 'bite-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -125,12 +133,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '6d8', type: rules.lightning }],
+
                 also: [
-                  'Is Dazed until the end of its next turn. On a success, it takes half damage and avoids Dazed.',
+                  { effect: 'electric-pulse-dazed' },
+                  '. On a success, it takes half damage and avoids Dazed.',
                 ],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'electric-pulse-dazed',
+                name: 'Dazed',
+                lands: { on: 'failed-save' },
+                text: ['Is Dazed.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'coiling-storm',
@@ -140,7 +159,19 @@ export default createPublicationMonsters({
             text: [
               'One creature within 5 ft. makes a ',
               { dc: 'str', save: 'dex' },
-              ' Dexterity save. On a failure, the ancient eel grapples it (escape DC 17).',
+              ' Dexterity save. On a failure, ',
+              { effect: 'coiling-storm-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'coiling-storm-grappled',
+                name: 'Grappled by the ancient eel',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -426,13 +457,25 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120 },
               onFail: {
                 damage: [{ dice: '3d8', type: rules.radiant }],
-                also: ['Sheds dim light out to 10 ft. for 1 minute.'],
+
+                also: [{ effect: 'refulgent-beam-lit' }],
               },
             },
-            text: [
-              'While lit, attacks against it have advantage, it gets no benefit from being ',
-              rules.invisible,
-              ', and it cannot Hide. The creature repeats the save at the end of each of its turns to end the effect early.',
+            text: [],
+            effects: [
+              {
+                key: 'refulgent-beam-lit',
+                name: 'Lit',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Sheds dim light out to 10 ft.',
+                  ' While lit, attacks against it have advantage, it gets no benefit from being ',
+                  rules.invisible,
+                  ', and it cannot Hide.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -455,6 +498,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'psychedelic-drone',
@@ -468,11 +512,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 60 } },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic }],
-                also: ['Is Dazed for 1 minute.'],
+
+                also: [{ effect: 'psychedelic-drone-dazed' }],
               },
             },
-            text: [
-              'The enemy repeats the save at the end of each of its turns to end the effect early.',
+            text: [],
+            effects: [
+              {
+                key: 'psychedelic-drone-dazed',
+                name: 'Dazed enemy',
+                lands: { on: 'failed-save' },
+                text: ['Is Dazed.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -609,6 +662,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
           {
             key: 'spell-reflection',
@@ -622,6 +676,7 @@ export default createPublicationMonsters({
               { roll: '2d10' },
               ' damage of one type the triggering spell dealt to the swarm. The swarm picks the type if there were several.',
             ],
+            effects: [],
           },
         ],
       },
@@ -662,6 +717,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'delusions-of-grandeur',
@@ -715,10 +771,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.blinded,
-              ' until the start of its next turn on a failed ',
+              { effect: 'divine-mace-blinded' },
+              ' on a failed ',
               { dc: 'str', save: 'con' },
               ' Constitution save.',
+            ],
+            effects: [
+              {
+                key: 'divine-mace-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -858,13 +923,27 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 10 },
               onFail: {
                 damage: [{ dice: '3d10', type: rules.piercing }],
-                also: ['Becomes ', rules.restrained, '.'],
+
+                also: [{ effect: 'impale-restrained' }, '.'],
               },
             },
             text: [
-              'At the start of each of its turns, it takes ',
-              { roll: '3d10' },
-              ' necrotic damage. If this damage reduces it to 0 HP, it dies and joins the corpse supply. A creature can use an action and pass a DC 17 Strength (Athletics) check to free itself or someone it can reach. Destroying the hoarder releases everyone it has impaled.',
+              'A creature can use an action and pass a DC 17 Strength (Athletics) check to free itself or someone it can reach. Destroying the hoarder releases everyone it has impaled.',
+            ],
+            effects: [
+              {
+                key: 'impale-restrained',
+                name: 'Impaled',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                text: [
+                  'At the start of each of its turns, it takes ',
+                  { roll: '3d10' },
+                  ' necrotic damage. If this damage reduces it to 0 HP, it dies and joins the corpse supply.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -879,11 +958,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 } },
               onFail: {
                 damage: [{ dice: '6d10', type: rules.necrotic }],
-                also: ["Cannot regain HP until the start of the hoarder's next turn."],
+
+                also: [{ effect: 'corpse-bomb-no-healing' }, '.'],
               },
             },
             text: [
               'Hurl and destroy one corpse up to 60 ft. away. On a success, they take half damage.',
+            ],
+            effects: [
+              {
+                key: 'corpse-bomb-no-healing',
+                name: 'Cannot regain HP',
+                lands: { on: 'failed-save' },
+                text: ['Cannot regain HP'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -934,6 +1023,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'evasion',
@@ -958,6 +1048,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' extra psychic damage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -983,8 +1074,17 @@ export default createPublicationMonsters({
               'On a failed ',
               { dc: 'dex', save: 'wis' },
               ' Wisdom save, the target is ',
-              rules.frightened,
-              ' of Athmia until the end of her next turn.',
+              { effect: 'soul-blade-frightened' },
+              ' of Athmia.',
+            ],
+            effects: [
+              {
+                key: 'soul-blade-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -995,7 +1095,18 @@ export default createPublicationMonsters({
             text: [
               'Each enemy within 60 ft. makes a ',
               { dc: 'dex', save: 'wis' },
-              ' Wisdom save. On a failure, it is Dazed until the start of Athmia’s next turn. Athmia gains 5 temporary HP for each enemy that fails.',
+              ' Wisdom save. On a failure, it is ',
+              { effect: 'psychic-frenzy-dazed' },
+              '. Athmia gains 5 temporary HP for each enemy that fails.',
+            ],
+            effects: [
+              {
+                key: 'psychic-frenzy-dazed',
+                name: 'Dazed',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                text: ['It is Dazed.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -1111,10 +1222,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature on the ground, it falls ',
-              rules.prone,
-              ' and is ',
-              rules.restrained,
+              { effect: 'forked-knives-pinned' },
               ' by the knife. The target or a creature that can reach the knife can spend an action and succeed on a DC 18 Strength (Athletics) check to pull it free and end the restraint.',
+            ],
+            effects: [
+              {
+                key: 'forked-knives-pinned',
+                name: 'Pinned by the knife',
+                lands: { on: 'hit' },
+                conditions: [rules.prone, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -1127,6 +1246,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength save. On a failure, the giant pushes it up to 10 ft. away.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1169,6 +1289,7 @@ export default createPublicationMonsters({
               rules.petrified,
               ' creature as an action. The condition ends for that creature 1 minute later.',
             ],
+            effects: [],
           },
           {
             key: 'toxic-ichor',
@@ -1221,14 +1342,37 @@ export default createPublicationMonsters({
               'Choose one or two creatures the basilisk can see within 30 ft. Each makes a Constitution saving throw (',
               { dc: 'con' },
               ') or is ',
-              rules.restrained,
-              ' as it begins turning to stone. Up to the end of the target’s next turn, the target or an ally within 5 ft. can spend an action to cut away the stone with a slashing weapon. This deals ',
-              { roll: '2d12' },
-              ' slashing damage to the target, which cannot be reduced, and frees it from the restraint. If the target is still ',
-              rules.restrained,
-              ' by the beams at the end of its turn, it repeats the save. On a success the effect ends. On a failure the target is ',
-              rules.petrified,
-              ' until cured by Cure Ailment of 4th order or higher, Greater Restoration, or similar supernatural means.',
+              { effect: 'eye-beams-restrained' },
+              ' as it begins turning to stone.',
+            ],
+            effects: [
+              {
+                key: 'eye-beams-restrained',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                text: [
+                  'Up to the end of the target’s next turn, the target or an ally within 5 ft. can spend an action to cut away the stone with a slashing weapon. This deals ',
+                  { roll: '2d12' },
+                  ' slashing damage to the target, which cannot be reduced, and frees it from the restraint. If the target is still ',
+                  rules.restrained,
+                  ' by the beams at the end of its turn, it repeats the save.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'eye-beams-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: {
+                    kind: 'until',
+                    text: [
+                      'cured by Cure Ailment of 4th order or higher, Greater Restoration, or similar supernatural means',
+                    ],
+                  },
+                },
+              },
             ],
           },
           {
@@ -1248,6 +1392,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'poison-splash',
@@ -1258,8 +1403,18 @@ export default createPublicationMonsters({
               'When the basilisk takes piercing or slashing damage, each creature within 10 ft. makes a ',
               { dc: 'con' },
               ' Constitution save or is ',
-              rules.poisoned,
-              ' for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'poison-splash-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'poison-splash-poisoned',
+                name: 'Poisoned (affected creature)',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -1337,7 +1492,16 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d4', type: rules.slashing, addModifier: true }],
             },
-            text: ['A Medium or smaller target falls ', rules.prone, '.'],
+            text: ['A Medium or smaller target falls ', { effect: 'claw-prone' }, '.'],
+            effects: [
+              {
+                key: 'claw-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'powerful-swipe',
@@ -1353,10 +1517,19 @@ export default createPublicationMonsters({
             },
             text: [
               'Push a Medium or smaller target up to 10 ft. and knock it ',
-              rules.prone,
+              { effect: 'powerful-swipe-prone' },
               '. If the target hits a solid surface, it takes an extra ',
               { roll: '2d6' },
               ' bludgeoning damage.',
+            ],
+            effects: [
+              {
+                key: 'powerful-swipe-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'recharge 6',
@@ -1433,13 +1606,25 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d4', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'The bird grapples a Tiny creature it hits (escape DC 12). It instead attaches to a Small or larger creature it hits. While attached, the bird can attack only that creature and has advantage on ',
+              'The bird grapples a Tiny creature it hits ',
+              { effect: 'talons-grappled' },
+              '. It instead attaches to a Small or larger creature it hits. While attached, the bird can attack only that creature and has advantage on ',
               { ability: 'beak' },
               ' attacks against it. The creature or someone within reach of it can spend an action to roll ',
               { dc: 'str', printed: 12 },
               ' Strength (Athletics). The attached creature takes ',
               { roll: '1d4' },
               ' slashing damage whether the check succeeds or fails. A success detaches the bird. The bird can detach by spending 5 ft. of movement.',
+            ],
+            effects: [
+              {
+                key: 'talons-grappled',
+                name: 'Grappled by the bird',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
           {
@@ -1521,13 +1706,25 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d4', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'The bird grapples a Tiny creature it hits (escape DC 12). It instead attaches to a Small or larger creature it hits. While attached, the bird can attack only that creature and has advantage on ',
+              'The bird grapples a Tiny creature it hits ',
+              { effect: 'talons-grappled' },
+              '. It instead attaches to a Small or larger creature it hits. While attached, the bird can attack only that creature and has advantage on ',
               { ability: 'beak' },
               ' attacks against it. The creature or someone within reach of it can spend an action to roll ',
               { dc: 'str', printed: 12 },
               ' Strength (Athletics). The attached creature takes ',
               { roll: '1d4' },
               ' slashing damage whether the check succeeds or fails. A success detaches the bird. The bird can detach by spending 5 ft. of movement.',
+            ],
+            effects: [
+              {
+                key: 'talons-grappled',
+                name: 'Grappled by the bird',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
           {
@@ -1709,8 +1906,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Medium or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 13). While holding that creature, the bog body can use Slam only on it.',
+              { effect: 'slam-grappled' },
+              '. While holding that creature, the bog body can use Slam only on it.',
+            ],
+            effects: [
+              {
+                key: 'slam-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -1733,11 +1940,25 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'In swampy terrain the bog body sinks into the mud and water, becoming heavily obscured and taking any target it is grappling down with it. A submerged captive is heavily obscured, ',
-              rules.restrained,
-              ', unable to breathe, and takes ',
-              { roll: '1d8' },
-              ' acid at the start of each of its turns.',
+              'In swampy terrain the bog body sinks into the mud and water, becoming heavily obscured and taking any target it is grappling down with it. A submerged captive is ',
+              { effect: 'submerge-captive' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'submerge-captive',
+                name: 'Submerged',
+                lands: { on: 'use' },
+                conditions: [rules.restrained],
+                text: [
+                  'Heavily obscured, ',
+                  rules.restrained,
+                  ', unable to breathe, and takes ',
+                  { roll: '1d8' },
+                  ' acid at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1843,8 +2064,17 @@ export default createPublicationMonsters({
               'On a hit, it can destroy a Fey skull to force a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On failure, the target is ',
-              rules.frightened,
-              ' of the Bonestalker until the start of the Bonestalker’s next turn.',
+              { effect: 'scream-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'scream-frightened',
+                name: 'Frightened of the Bonestalker',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1859,6 +2089,7 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' psychic damage on a failure or half as much on a success.',
             ],
+            effects: [],
           },
           {
             key: 'power-from-the-conquered',
@@ -1870,6 +2101,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' until the end of its next turn.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1904,6 +2136,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['In true form, immune to ', rules.blinded, ' and ', rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'rejuvenation',
@@ -1949,11 +2182,28 @@ export default createPublicationMonsters({
             text: [
               'The target makes a ',
               { dc: 'con' },
-              ' Constitution save. On a failure, its head lands at its feet. It survives while above 0 HP and is ',
-              rules.blinded,
-              ', ',
-              rules.deafened,
-              ', and unable to speak. A creature can spend an action to reattach the head and end the effect. Separation beyond 24 hours kills the target.',
+              ' Constitution save. On a failure, ',
+              { effect: 'beheading-strike-beheaded' },
+              '. Separation beyond 24 hours kills the target.',
+            ],
+            effects: [
+              {
+                key: 'beheading-strike-beheaded',
+                name: 'Beheaded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded, rules.deafened],
+                text: [
+                  'Its head lands at its feet. It survives while above 0 HP and is ',
+                  rules.blinded,
+                  ', ',
+                  rules.deafened,
+                  ', and unable to speak.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: ['A creature can spend an action to reattach the head and end the effect.'],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

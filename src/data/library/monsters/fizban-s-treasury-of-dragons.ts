@@ -52,6 +52,7 @@ export default createPublicationMonsters({
               refs.spells.revivify_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -114,8 +115,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -142,8 +152,18 @@ export default createPublicationMonsters({
               'Each creature in a 90-ft. cone must pass a ',
               { dc: 'con' },
               ' Constitution save or fall ',
-              rules.unconscious,
-              ' for 10 minutes. Damage or another creature using an action to wake it ends the effect.',
+              { effect: 'dream-unconscious' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dream-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+                ends: { cure: ['Damage or another creature using an action to wake it'] },
+              },
             ],
           },
           {
@@ -161,6 +181,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
         legendary: {
@@ -190,8 +211,18 @@ export default createPublicationMonsters({
               'A visible creature in the lair must succeed on a ',
               { dc: 'int', printed: 15 },
               ' Intelligence save or become ',
-              rules.incapacitated,
-              ' and spend all movement dancing until initiative count 20 next round. Only it hears the music.',
+              { effect: 'dance-incapacitated' },
+              '. Only it hears the music.',
+            ],
+            effects: [
+              {
+                key: 'dance-incapacitated',
+                name: 'Compelled to dance',
+                lands: { on: 'save', save: 'int', dc: 'int', printed: 15 },
+                conditions: [rules.incapacitated],
+                text: ['spend all movement dancing'],
+                lasts: { kind: 'until', text: ['initiative count 20 next round'] },
+              },
             ],
           },
           {
@@ -201,7 +232,18 @@ export default createPublicationMonsters({
             text: [
               'Every creature in the lair must succeed on a ',
               { dc: 'int', save: 'wis' },
-              ' Wisdom save or have disadvantage on ability checks until initiative count 20 next round.',
+              ' Wisdom save or have ',
+              { effect: 'visions-disadvantage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'visions-disadvantage',
+                name: 'Disorienting visions',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                text: ['disadvantage on ability checks'],
+                lasts: { kind: 'until', text: ['initiative count 20 next round'] },
+              },
             ],
           },
         ],
@@ -312,8 +354,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or be pushed up to 30 ft. away and knocked ',
-              rules.prone,
+              { effect: 'serpent-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'serpent-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -333,6 +384,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -415,8 +467,17 @@ export default createPublicationMonsters({
               ' acid damage. A creature that starts its turn within 5 ft. of the elemental must make a ',
               { dc: 'con' },
               ' Constitution save or be ',
-              rules.poisoned,
-              ' until the start of its next turn.',
+              { effect: 'aura-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'aura-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -742,8 +803,17 @@ export default createPublicationMonsters({
               ' acid damage. A creature that starts its turn within 5 ft. of the elemental must make a ',
               { dc: 'con' },
               ' Constitution save or be ',
-              rules.poisoned,
-              ' until the start of its next turn.',
+              { effect: 'poison-aura-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'poison-aura-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -871,10 +941,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The aspect can hold only one creature with this attack at a time.',
+              { effect: 'aspect-grappled' },
+              '. The aspect can hold only one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'aspect-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -893,8 +971,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'bahamut-tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bahamut-tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6635,10 +6722,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 20) and ',
-              rules.restrained,
-              ' until the grapple ends. The greatwyrm can hold only one creature with this attack at a time.',
+              { effect: 'claw-grappled' },
+              '. The greatwyrm can hold only one creature with this attack at a time.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -6657,8 +6752,17 @@ export default createPublicationMonsters({
               'A creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6678,6 +6782,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -6701,14 +6806,23 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
-                    'Fall ',
-                    rules.prone,
+                    { effect: 'wing-attack-prone' },
                     '. The greatwyrm can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-attack-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
             {
               key: 'arcane-spear',
@@ -6803,10 +6917,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the creature is Large or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 15) and ',
-              rules.restrained,
-              ' until the grapple ends. The serpent cannot constrict another target while this grapple lasts.',
+              { effect: 'constrict-grappled' },
+              '. The serpent cannot constrict another target while this grapple lasts.',
+            ],
+            effects: [
+              {
+                key: 'constrict-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -6825,8 +6947,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength save or be pushed up to 20 ft. away and knocked ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6846,6 +6977,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

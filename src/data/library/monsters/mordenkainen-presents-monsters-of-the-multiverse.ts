@@ -303,13 +303,26 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5 },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.psychic }],
+
                 also: ['Is memory drained.'],
               },
             },
             text: [
-              'A short or long rest, Greater Restoration, or Heal ends the drain. While drained, the target rolls a d4 and subtracts the result from its ability checks and attack rolls. Each further drain increases the die by one size through d6, d8, d10, d12, then d20. When the die reaches d20, the target falls ',
-              rules.unconscious,
-              " for 1 hour. The effect then ends. The oblex learns the drained creature's languages and gains all its skill proficiencies.",
+              { effect: 'memory-drained' },
+              " The oblex learns the drained creature's languages and gains all its skill proficiencies. ",
+            ],
+            effects: [
+              {
+                key: 'memory-drained',
+                name: 'Memory drained',
+                lands: { on: 'failed-save' },
+                text: [
+                  'A short or long rest, Greater Restoration, or Heal ends the drain. While drained, the target rolls a d4 and subtracts the result from its ability checks and attack rolls. Each further drain increases the die by one size through d6, d8, d10, d12, then d20. When the die reaches d20, the target falls ',
+                  rules.unconscious,
+                  ' for 1 hour. The effect then ends.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -382,8 +395,17 @@ export default createPublicationMonsters({
               ' lightning damage. The target makes a ',
               { dc: 'con' },
               ' Constitution save or is ',
-              rules.stunned,
-              " until the end of the myrmidon's next turn.",
+              { effect: 'strike-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'strike-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ["the end of the myrmidon's next turn"] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -468,6 +490,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_force_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -537,11 +560,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.psychic, addModifier: true }],
-                also: ['Is ', rules.stunned, ' for 1 minute.'],
+
+                also: ['Is ', { effect: 'blast-stunned' }, '.'],
               },
             },
-            text: [
-              'The alhoon releases magical psychic energy. It repeats the save at the end of each of its turns, ending the stun on a success.',
+            text: ['The alhoon releases magical psychic energy. '],
+            effects: [
+              {
+                key: 'blast-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -770,15 +802,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.psychic, addModifier: true }],
+
                 also: [
                   'Is ',
-                  rules.stunned,
-                  ' until the end of its next turn. On a success, it takes half damage and avoids the stun.',
+                  { effect: 'babble-stunned' },
+                  '. On a success, it takes half damage and avoids the stun.',
                 ],
               },
               onSuccess: 'half',
             },
             text: ['Constructs and undead are immune.'],
+            effects: [
+              {
+                key: 'babble-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 6',
           },
@@ -794,6 +836,7 @@ export default createPublicationMonsters({
               { roll: '2d8', mod: 'dex' },
               ' psychic damage and must use its reaction to make a melee weapon attack against a creature the allip can see and chooses. Constructs and undead are immune.',
             ],
+            effects: [],
           },
         ],
       },
@@ -841,6 +884,7 @@ export default createPublicationMonsters({
               refs.spells.feeblemind,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -901,9 +945,19 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.necrotic }],
-                also: ['Is ', rules.blinded, " until the start of the amnizu's next turn."],
+
+                also: ['Is ', { effect: 'rot-blinded' }, '.'],
               },
             },
+            effects: [
+              {
+                key: 'rot-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'forgetfulness',
@@ -917,11 +971,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.psychic }],
-                also: ['Is ', rules.stunned, ' for 1 minute.'],
+
+                also: ['Is ', { effect: 'forgetfulness-stunned' }, '.'],
               },
             },
-            text: [
-              'It repeats the save at the end of each of its turns, ending the effect on a success. If the stun lasts the full minute, the creature forgets everything it sensed, experienced, or learned in the previous 5 hours.',
+            text: [],
+            effects: [
+              {
+                key: 'forgetfulness-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                text: [
+                  'If the stun lasts the full minute, the creature forgets everything it sensed, experienced, or learned in the previous 5 hours.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -936,6 +1002,7 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'wis' },
               " Wisdom save. On a failure, the attacker must instead target the creature closest to it, excluding itself and the amnizu. The attacker breaks ties. On a success, the attacker is immune to this amnizu's Instinctive Charm for 24 hours.",
             ],
+            effects: [],
           },
         ],
       },
@@ -980,6 +1047,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ', no material components. At will · Command. 3/day · Dominate Monster. 1/day · Feeblemind.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -1035,8 +1103,17 @@ export default createPublicationMonsters({
               ' Wisdom save or takes ',
               { roll: '4d12' },
               ' necrotic and is ',
-              rules.blinded,
-              " until the start of the amnizu's next turn.",
+              { effect: 'rot-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'rot-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1050,10 +1127,23 @@ export default createPublicationMonsters({
               ' Intelligence save or takes ',
               { roll: '4d12' },
               ' psychic and is ',
-              rules.stunned,
-              ' for 1 minute. It can repeat the save at each turn end. If ',
-              rules.stunned,
-              ' for the entire minute, it loses memories of everything it experienced in the last 5 hours.',
+              { effect: 'forgetfulness-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'forgetfulness-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'cha' },
+                conditions: [rules.stunned],
+                text: [
+                  'If ',
+                  rules.stunned,
+                  ' for the entire minute, it loses memories of everything it experienced in the last 5 hours.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -1079,6 +1169,7 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'wis' },
               " Wisdom save. On failure, it attacks the nearest creature other than the amnizu or itself, choosing among ties. Success grants immunity to this amnizu's Instinctive Charm for 24 hours.",
             ],
+            effects: [],
           },
         ],
       },
@@ -1123,6 +1214,7 @@ export default createPublicationMonsters({
               refs.spells.fog_cloud_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1216,6 +1308,7 @@ export default createPublicationMonsters({
               refs.spells.mage_armor_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'arcane-burst',
@@ -1283,6 +1376,7 @@ export default createPublicationMonsters({
               refs.spells.mass_cure_wounds_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1343,6 +1437,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -1502,8 +1597,17 @@ export default createPublicationMonsters({
               'A Large or smaller creature hit must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'hooves-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'hooves-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1537,6 +1641,7 @@ export default createPublicationMonsters({
             text: ['Release lightning in a line 60 ft. long and 10 ft. wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1582,6 +1687,7 @@ export default createPublicationMonsters({
               rules.blinded,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'astral-entity',
@@ -1660,6 +1766,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or if this damage reduces it to 0 hit points. It and its worn and carried gear appear in a free space on the Donjon floor.',
             ],
+            effects: [],
           },
           {
             key: 'claw',
@@ -1694,6 +1801,7 @@ export default createPublicationMonsters({
                 { dc: 'cha' },
                 ' Charisma save. On a failure it teleports to an unoccupied space on the Donjon floor. At the end of its next turn, it reappears in the space it left or the nearest unoccupied space if that space is occupied.',
               ],
+              effects: [],
             },
             {
               key: 'psychic-projection',
@@ -1710,6 +1818,7 @@ export default createPublicationMonsters({
                 },
                 onSuccess: 'half',
               },
+              effects: [],
             },
           ],
         },
@@ -2093,6 +2202,7 @@ export default createPublicationMonsters({
               refs.spells.dominate_monster_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dread',
@@ -21846,15 +21956,28 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 30 } },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.poison }],
-                also: ['The creature is ', rules.poisoned, '.'],
+
+                also: ['The creature is ', { effect: 'plague-poison' }, '.'],
               },
             },
             text: [
-              "Blight a 30-ft.-radius sphere centered on the oinoloth for 24 hours. Normal plants in the area wither and die. A creature that enters the area or starts its turn there must make the save below.   Success: It gains immunity to this oinoloth's Bringer of Plagues for 24 hours. A creature ",
-              rules.poisoned,
-              ' this way cannot regain hit points. Every 24 hours, it can repeat the save. Each failure reduces its hit point maximum by ',
-              { roll: '1d10' },
-              ' until the poison ends. The creature dies if its maximum drops to 0. Three successful saves end the poison.',
+              "Blight a 30-ft.-radius sphere centered on the oinoloth for 24 hours. Normal plants in the area wither and die. A creature that enters the area or starts its turn there must make the save below.   Success: It gains immunity to this oinoloth's Bringer of Plagues for 24 hours. ",
+            ],
+            effects: [
+              {
+                key: 'plague-poison',
+                name: 'Poisoned by plague',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                text: [
+                  'cannot regain hit points',
+                  '. Each failure reduces its hit point maximum by ',
+                  { roll: '1d10' },
+                  ' until the poison ends. The creature dies if its maximum drops to 0.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['every-24-hours'], successes: 3 },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
