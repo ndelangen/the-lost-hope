@@ -5872,6 +5872,25 @@ export default createPublicationMonsters({
       name: 'Garroter Crab',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A tiny blue-black crab scuttles over the mud, one oversized claw trailing behind it like a barbed whip. Clacking sounds carry from the bank.',
+        ],
+      ],
+      lore: [
+        [
+          "Garroter crabs live in rivers, streams and marshes and hunt rodents, cats and other small animals at the water's edge. The whip-like claw grips and chokes, which keeps a victim from calling out or casting. In the mating season thousands gather on remote banks, and the males clack their shells to attract mates, so a bank that rattles with noise is best avoided.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Garroter Crab (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/garroter-crab/',
+          },
+        ],
+      ],
+      habitats: ['Freshwater', 'Marsh'],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -5929,6 +5948,25 @@ export default createPublicationMonsters({
       name: 'Gbahali (Postosuchus)',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A boulder on the grassland seems to shift. A huge, dagger-toothed reptile whose hide ripples to match the rocks and grass around it rises from the ground.',
+        ],
+      ],
+      lore: [
+        [
+          'Gbahali are land-going relatives of crocodiles with chameleon-like hides. They lie motionless for hours beside trails, caravan routes and waterholes, then strike fast, favouring weak or solitary targets and scattering herds to pick off the slowest. They live alone, apart from a brief autumn mating, and mothers guard eggs but abandon the young. Plains hunters count killing one as a mark of skill, and their hide makes prized leather.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Gbahali (Postosuchus) (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/gbahali-postosuchus/',
+          },
+        ],
+      ],
+      habitats: ['Grassland', 'Savanna'],
       stats: {
         size: 'huge',
         type: 'beast',
@@ -6005,6 +6043,24 @@ export default createPublicationMonsters({
       name: 'Gearforged Templar',
       alignment: 'lawful neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A heavy figure of bronze, steel, copper and mithral advances with a slow, ponderous stride. Its eye lenses glow dark blue and gears click as it swings a glaive.',
+        ],
+      ],
+      lore: [
+        [
+          'A gearforged templar is a champion among gearforged, a living spirit housed in a soulgem inside a body of gears and springs. It is fixed on its duty and unusually resistant to distraction and magical coercion. Templars command guard and military units, protect important people or serve nobles as personal champions. In a fight it holds the line with its long reach, shoves enemies about and sweeps its glaive around when surrounded.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Gearforged Templar (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/gearforged-templar/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6238,6 +6294,24 @@ export default createPublicationMonsters({
       name: 'Giant Ant',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A pony-sized ant with a waspish segmented body, thick chitin, serrated mandibles and a shortsword-sized stinger clacks into view, with others behind it.',
+        ],
+      ],
+      lore: [
+        [
+          'Giant ants live in colonies ruled by a queen, with sterile females working as builders, nurses and soldiers while queens and drones rarely leave the nest. They hunt and scavenge in organised groups, haul big prey home and mostly ignore animals away from the colony unless hungry or threatened. They talk mainly through pheromones, plus sound and touch, and fight fiercely to protect their queen.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Giant Ant Queen (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/giant-ant-queen/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -6317,6 +6391,24 @@ export default createPublicationMonsters({
       name: 'Giant Ant Queen',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Several pony-sized ants swarm around one the size of a draft horse, clacking their serrated mandibles and raising their stingers.',
+        ],
+      ],
+      lore: [
+        [
+          'The queen rules a colony of giant ants and rarely leaves the nest, so meeting her usually means you have walked into the colony itself. Her scent makes the ants around her fight harder, and the whole nest turns on anything that threatens her. She is both predator and scavenger like her workers and fights with grappling bites and a heavily poisoned sting.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Giant Ant Queen (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/giant-ant-queen/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -6405,6 +6497,25 @@ export default createPublicationMonsters({
       name: 'Glass Gator',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Something nearly transparent writhes in the water, a long centipede-like body with four oversized forelimbs. Its last meal is faintly visible inside it.',
+        ],
+      ],
+      lore: [
+        [
+          'The glass gator is an ambush hunter that lurks in still or flowing water, sometimes using its visible gut to pass for a wriggling eel or snake. It lunges, grabs prey in its forelimbs and wraps around it, pressing its belly of stingers to the victim to deliver nerve poison. Its forelimbs tire quickly, so it uses its lunge sparingly. It is slowest just after eating, so one found in its lair after a meal may be sluggish. Cave variants, some glowing, have been reported.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Glass Gator (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/glass-gator/',
+          },
+        ],
+      ],
+      habitats: ['Swamp', 'Freshwater'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -6512,6 +6623,25 @@ export default createPublicationMonsters({
       name: 'Gnoll Havoc Runner',
       alignment: 'chaotic evil',
       languages: ['Gnoll'],
+      appearance: [
+        [
+          'A spotted, bristle-maned gnoll sprints past laughing, axe raised high, a mottled blur in the sun.',
+        ],
+      ],
+      lore: [
+        [
+          "Havoc runners look like other gnolls until they explode into violence. They raid the trade routes across a tribe's territory, and can tell at a glance which goods in a loaded wagon or camel train are worth the most. They strike into a caravan, seize the best items and withdraw before the guards react, and they fight alongside the pack, harrying one target and then another.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Gnoll Havoc Runner (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/gnoll-havoc-runner/',
+          },
+        ],
+      ],
+      habitats: ['Grassland', 'Desert'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6593,6 +6723,24 @@ export default createPublicationMonsters({
       name: 'Greater Death Butterfly Swarm',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'A huge cloud of orange and green butterflies beats overhead, and the stench of rot hangs in the air around it.',
+        ],
+      ],
+      lore: [
+        [
+          'A death butterfly swarm forms when carrion-eating butterflies, drawn by great decay, feed on the corpse of a fiend or demon. The dizzying flurry of wings blinds and staggers victims while a fast poison rots flesh the swarm can eat at once. Its poison works on corporeal undead too, and given the choice it always attacks undead first, with ghouls and vampires favourite prey. Some good-aligned forces summon them as a necessary evil.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Greater Death Butterfly Swarm (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/greater-death-butterfly-swarm/',
+          },
+        ],
+      ],
       stats: {
         size: 'huge',
         type: 'beast',
@@ -6693,6 +6841,25 @@ export default createPublicationMonsters({
       name: 'Hound Of The Night',
       alignment: 'unaligned',
       languages: ["understands Elvish and Umbral but can't speak"],
+      appearance: [
+        [
+          'A huge black hound pants in the moonlight, steam rising from its muzzle, running with a nocturnal hunting party.',
+        ],
+      ],
+      lore: [
+        [
+          'Hounds of the night are bred by the shadow fey as hunting companions and guardians, and are far smarter than other hounds. They track through phase shifts, ethereal travel and fey steps, though not teleport or plane shift. Part of the pack distracts prey while others use dimension door for a larger goal, such as stealing treasure or reaching a spellcaster in the back ranks. They are distant kin of winter wolves and share their cold breath.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Hound Of The Night (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/hound-of-the-night/',
+          },
+        ],
+      ],
+      habitats: ['Feywild', 'Forest'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -7062,6 +7229,25 @@ export default createPublicationMonsters({
       name: 'Idolic Deity',
       alignment: 'neutral evil',
       languages: ['telepathy 60 ft'],
+      appearance: [
+        [
+          'A small demonic idol fades in and out of reality, its will pressing on those nearby like a physical weight.',
+        ],
+      ],
+      lore: [
+        [
+          'Idolic deities are relics of an elder age found in ancient temples and deserted tombs. They are shadow remnants of the favoured servants of deceiving dark gods, sent to corrupt worshippers of light gods slowly rather than through war. Ancient tribes worshipped them as gods and they forgot their purpose, until they were struck down for their treachery and sealed in stony idols that barely hold solid.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Idolic Deity (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/idolic-deity/',
+          },
+        ],
+      ],
+      habitats: ['Ruins', 'Tomb'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -7162,6 +7348,25 @@ export default createPublicationMonsters({
       name: "J'ba Fofi Spider",
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A large brown spider like a tarantula with exaggeratedly long legs gracefully emerges from the bushes, followed by smaller yellow ones.',
+        ],
+      ],
+      lore: [
+        [
+          "The j'ba fofi is an intelligent oversized tarantula. The young are yellow and turn brown with age, and immature ones draw ordinary spiders into a following that moves with them. Leaf litter on their bristles and woven into their webs hides them and their enclosed lairs in forest and jungle.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: "Open5e: J'ba Fofi Spider (Tome of Beasts)",
+            url: 'https://api.open5e.com/v1/monsters/jba-fofi-spider/',
+          },
+        ],
+      ],
+      habitats: ['Jungle', 'Forest'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -7276,6 +7481,25 @@ export default createPublicationMonsters({
       name: 'Kalke',
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal'],
+      appearance: [
+        [
+          "A creature with a goat's head and a monkey's body capers about with scholarly airs, baboon manners and a comic dignity.",
+        ],
+      ],
+      lore: [
+        [
+          "Kalkes are fiendish pests that infest derelict wizards' towers and laboratories, born of botched gates or an evil god's contempt for wizards. They behave with a mage's arrogance and a baboon's social habits, never age and need no food or drink. They perform spontaneous mumming rituals and hoard components, foci and jewellery they cannot use, stealing from nearby spellcasters. Troops live around places of strong magic and sometimes carry off small children or animals for sacrifice.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Kalke (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/kalke/',
+          },
+        ],
+      ],
+      habitats: ['Ruins', 'Forest'],
       stats: {
         size: 'small',
         type: 'fiend',

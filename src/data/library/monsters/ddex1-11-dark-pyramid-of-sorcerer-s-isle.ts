@@ -100,6 +100,17 @@ export default createPublicationMonsters({
       ],
       alignment: 'neutral',
       languages: ['understands the languages of its creator but can’t speak'],
+      appearance: [
+        [
+          'An empty-looking suit of plate armour moves with purpose, sometimes rising into the air to attack.',
+        ],
+      ],
+      lore: [
+        [
+          "A helmed horror is an intelligent construct that serves its maker with complete loyalty, even after the maker's death, without ambition or emotion. It needs less direction than lesser animated armour and understands the intent behind an order, not just its wording. It fights with a warrior's cunning, taking to the air to hit weaker characters and spellcasters first, but it does not improve or fortify its position.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 183'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
