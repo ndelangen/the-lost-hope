@@ -101,22 +101,6 @@ export default createScene({
             ],
           ],
         },
-        {
-          note: [
-            [
-              refs.npcs.crowy,
-              ' can scout the deck before they land and warn them about the helm, or carry a message to ',
-              refs.items.master_of_puppets,
-              '.',
-            ],
-            [
-              refs.pcs.fix,
-              ' is not aboard the cruiser of ',
-              refs.npcs.onana_tempest,
-              ', but may show up again on the cruiser the party boards.',
-            ],
-          ],
-        },
       ],
     },
     {
@@ -401,9 +385,22 @@ export default createScene({
           do: [
             [
               refs.npcs.korrag_stonevow,
-              ' is sober and can talk. What drives him is in his motivations.',
+              ' is sober and can talk. He blames ',
+              refs.pcs.devan,
+              ': when ',
+              refs.pcs.devan,
+              ' left the squad, the squad got killed. ',
+              refs.npcs.the_father,
+              ' brought him back for a new chance at glory, and he offers ',
+              refs.pcs.devan,
+              ' a place in the squad again.',
             ],
           ],
+        },
+        { do: [['If ', refs.pcs.devan, ' refuses:']] },
+        {
+          speaker: refs.npcs.korrag_stonevow,
+          say: [['Thank you. Then I will now take my revenge.']],
         },
         {
           do: [
@@ -652,9 +649,7 @@ export default createScene({
         [
           'Supplies in the middle of the fight: ',
           refs.npcs.captain_garran,
-          ' can fire a boarding torpedo packed with supplies into whatever part of the ship the party holds. It opens like the others, with Potions of Healing inside. This is your call, not something they can count on: watch how they are doing, and send it when the fight is going badly and they would rather go on than bail out through the escape pods. A player can also think to signal for it. ',
-          refs.npcs.crowy,
-          ' can carry the request across.',
+          ' can fire a boarding torpedo packed with supplies into whatever part of the ship the party holds. It opens like the others, with Potions of Healing inside. This is your call, not something they can count on: watch how they are doing, and send it when the fight is going badly and they would rather go on than bail out through the escape pods. A player can also think to signal for it.',
         ],
       ],
     },

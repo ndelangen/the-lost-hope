@@ -1,5 +1,14 @@
-import { Check, Info, MoveRight, RotateCcw, SkipForward, Swords, Undo2 } from 'lucide-react'
-import { useEffect, useRef } from 'react'
+import {
+  Check,
+  ChevronRight,
+  Info,
+  MoveRight,
+  RotateCcw,
+  SkipForward,
+  Swords,
+  Undo2,
+} from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { FightLineUp } from '#/components/dm/fight-line-up'
@@ -21,17 +30,22 @@ export function SceneScript({
   sceneKey,
   script,
   picture,
+  compact = false,
 }: {
   sceneKey: string
   script: ScriptBeat[]
   /** The scene's picture on the player screen, which a beat's group save is drawn over. */
   picture: PlayerScreenImage | undefined
+  /** Beside a fight: only the current beat is open, the rest fold to their titles. */
+  compact?: boolean
 }) {
   const { progress, mark, startOver } = useSceneScript(sceneKey, script.length)
   const current = currentBeat(script, progress)
   const played = script.length - script.filter((beat) => progress[beat.number] === undefined).length
   const list = useRef<HTMLOListElement>(null)
   const follow = useRef(false)
+  // In compact mode, the upcoming beats the DM opened to read ahead.
+  const [peeked, setPeeked] = useState<ReadonlySet<number>>(new Set())
 
   // After a beat is ticked off, bring the next one to the top. Not on load or reopening.
   useEffect(() => {
@@ -73,10 +87,16 @@ export function SceneScript({
                   status={status}
                   onReopen={() => mark(beat.number, undefined)}
                 />
+              ) : compact && beat.number !== current && !peeked.has(beat.number) ? (
+                <UpcomingBeat
+                  beat={beat}
+                  onOpen={() => setPeeked((open) => new Set([...open, beat.number]))}
+                />
               ) : (
                 <OpenBeat
                   beat={beat}
                   current={beat.number === current}
+                  compact={compact}
                   groupSave={
                     beat.groupSave ? (
                       <GroupSaveTracker
@@ -119,12 +139,14 @@ function BeatNumber({ children, tone }: { children: React.ReactNode; tone: 'curr
 function OpenBeat({
   beat,
   current,
+  compact,
   groupSave,
   onDone,
   onSkip,
 }: {
   beat: ScriptBeat
   current: boolean
+  compact: boolean
   /** The tracker of the beat's group save, when it has one. */
   groupSave: React.ReactNode
   onDone: () => void
@@ -133,14 +155,22 @@ function OpenBeat({
   return (
     <article
       className={cn(
-        'bg-card grid gap-4 rounded-xl border p-4',
+        'bg-card grid rounded-xl border',
+        compact ? 'gap-3 p-3 text-sm' : 'gap-4 p-4',
         current ? 'border-primary ring-primary/30 ring-2' : 'border-border',
       )}
     >
       <header className="grid gap-2">
         <div className="flex items-center gap-3">
           <BeatNumber tone={current ? 'current' : 'quiet'}>{beat.number}</BeatNumber>
-          <h3 className="min-w-0 flex-1 text-lg leading-tight font-semibold">{beat.title}</h3>
+          <h3
+            className={cn(
+              'min-w-0 flex-1 leading-tight font-semibold',
+              compact ? 'text-base' : 'text-lg',
+            )}
+          >
+            {beat.title}
+          </h3>
         </div>
         {beat.onlyIf ? (
           <div className="flex items-baseline gap-2 rounded-lg bg-amber-500/15 px-3 py-2 text-amber-900 dark:text-amber-100">
@@ -174,7 +204,7 @@ function OpenBeat({
   )
 }
 
-/** What a beat holds: its lines in order, a group save, who joins the fight, and its branches. */
+/** What a beat holds: who joins the fight first, then its lines in order, a group save, and its branches. */
 export function BeatBody({
   beat,
   groupSave = null,
@@ -185,6 +215,15 @@ export function BeatBody({
 }) {
   return (
     <>
+      {beat.fight ? (
+        <div className="border-border bg-muted/30 grid gap-2 rounded-lg border p-3">
+          <p className="text-muted-foreground flex items-center gap-2 text-xs font-semibold uppercase">
+            <Swords className="size-4" aria-hidden />
+            Joins the fight
+          </p>
+          <FightLineUp lineUp={beat.fight} />
+        </div>
+      ) : null}
       <ul className="grid gap-4">
         {beat.lines.map((line, index) => (
           // oxlint-disable-next-line react/no-array-index-key -- a beat's lines have no ids and never reorder
@@ -196,18 +235,28 @@ export function BeatBody({
 
       {groupSave}
 
-      {beat.fight ? (
-        <div className="border-border bg-muted/30 grid gap-2 rounded-lg border p-3">
-          <p className="text-muted-foreground flex items-center gap-2 text-xs font-semibold uppercase">
-            <Swords className="size-4" aria-hidden />
-            Joins the fight
-          </p>
-          <FightLineUp lineUp={beat.fight} />
-        </div>
-      ) : null}
-
       {beat.branches.length > 0 ? <SceneBranches branches={beat.branches} label="If…" /> : null}
     </>
+  )
+}
+
+/** A beat still to come, folded to its title until the DM opens it. */
+function UpcomingBeat({ beat, onOpen }: { beat: ScriptBeat; onOpen: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onOpen}
+      className="border-border hover:bg-muted flex min-h-12 w-full items-center gap-3 rounded-xl border px-3 py-2 text-left"
+    >
+      <BeatNumber tone="quiet">{beat.number}</BeatNumber>
+      <span className="min-w-0 flex-1 font-medium">
+        {beat.title}
+        {beat.onlyIf ? (
+          <span className="text-muted-foreground text-sm font-normal"> · only if</span>
+        ) : null}
+      </span>
+      <ChevronRight className="text-muted-foreground size-5 shrink-0" aria-hidden />
+    </button>
   )
 }
 

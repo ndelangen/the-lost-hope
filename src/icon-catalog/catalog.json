@@ -306362,6 +306362,7 @@
         "src/components/home-action-card.test.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/entity-kind-visuals.ts",
+        "src/routes/dm/now.tsx",
         "src/routes/index.tsx"
       ]
     },
@@ -321886,7 +321887,8 @@
       "usedIn": [
         "src/components/dm/dm-quick-links.tsx",
         "src/components/dm/encounter/add-enemies-sheet.tsx",
-        "src/components/dm/encounter/encounter-toolbar.tsx"
+        "src/components/dm/encounter/encounter-toolbar.tsx",
+        "src/components/dm/encounter/live-fight.tsx"
       ]
     },
     {
@@ -325153,6 +325155,7 @@
         "src/components/play/hp-pad.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/player-screen/pointing-view.tsx",
+        "src/routes/dm/now.tsx",
         "src/routes/dm/scenes/$slug.tsx",
         "src/routes/dm/tools/deck-of-many-things.tsx",
         "src/routes/pcs/detail.$slug_.play.tsx"

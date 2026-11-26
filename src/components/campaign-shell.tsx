@@ -31,8 +31,8 @@ const PlayerScreenDock = import.meta.env.DEV
 export function CampaignShell({ initialPreferences }: { initialPreferences: UiPreferences }) {
   const pathname = useRouterState({ select: (state) => state.location.pathname })
   const hasNavigation = pathname !== '/_icons'
-  // The encounter takes the whole screen.
-  const focused = pathname.startsWith('/dm/encounter')
+  // The fight screens take the whole screen.
+  const focused = pathname.startsWith('/dm/encounter') || pathname === '/dm/now'
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [{ dmMode, navigationCollapsed }, setPreference] = useUiPreferences(initialPreferences)

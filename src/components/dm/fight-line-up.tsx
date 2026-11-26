@@ -10,13 +10,13 @@ export function FightLineUp({ lineUp, className }: { lineUp: LineUp; className?:
   ]
   const planned = groups.some(({ group }) => group.plan)
   return (
-    <div className={cn('grid gap-2', className)}>
+    <div className={cn('@container grid gap-2', className)}>
       {planned ? (
         <ul className="grid gap-2">
           {groups.map(({ group, ally }) => (
             <li
               key={groupKey(group)}
-              className="grid items-start gap-x-3 gap-y-1 sm:grid-cols-[minmax(0,14rem)_minmax(0,1fr)]"
+              className="grid items-start gap-x-3 gap-y-1 @lg:grid-cols-[minmax(0,14rem)_minmax(0,1fr)]"
             >
               <Group group={group} ally={ally} />
               {group.plan ? <ContentRenderer content={group.plan} className="pt-1.5" /> : null}

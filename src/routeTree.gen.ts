@@ -19,6 +19,7 @@ import { Route as QuestionsRouteImport } from './routes/questions'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
 import { Route as CardsIndexRouteImport } from './routes/cards/index'
 import { Route as DmIndexRouteImport } from './routes/dm/index'
+import { Route as DmNowRouteImport } from './routes/dm/now'
 import { Route as EffectsIndexRouteImport } from './routes/effects/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as ItemsIndexRouteImport } from './routes/items/index'
@@ -111,6 +112,11 @@ const CardsIndexRoute = CardsIndexRouteImport.update({
 const DmIndexRoute = DmIndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => DmRouteRoute,
+} as any)
+const DmNowRoute = DmNowRouteImport.update({
+  id: '/now',
+  path: '/now',
   getParentRoute: () => DmRouteRoute,
 } as any)
 const EffectsIndexRoute = EffectsIndexRouteImport.update({
@@ -337,6 +343,7 @@ export interface FileRoutesByFullPath {
   '/intro': typeof IntroRoute
   '/novel': typeof NovelRoute
   '/questions': typeof QuestionsRoute
+  '/dm/now': typeof DmNowRoute
   '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
   '/letters/jim': typeof LettersJimRoute
   '/library/licenses': typeof LibraryLicensesRoute
@@ -391,6 +398,7 @@ export interface FileRoutesByTo {
   '/intro': typeof IntroRoute
   '/novel': typeof NovelRoute
   '/questions': typeof QuestionsRoute
+  '/dm/now': typeof DmNowRoute
   '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
   '/letters/jim': typeof LettersJimRoute
   '/library/licenses': typeof LibraryLicensesRoute
@@ -447,6 +455,7 @@ export interface FileRoutesById {
   '/intro': typeof IntroRoute
   '/novel': typeof NovelRoute
   '/questions': typeof QuestionsRoute
+  '/dm/now': typeof DmNowRoute
   '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
   '/letters/jim': typeof LettersJimRoute
   '/library/licenses': typeof LibraryLicensesRoute
@@ -504,6 +513,7 @@ export interface FileRouteTypes {
     | '/intro'
     | '/novel'
     | '/questions'
+    | '/dm/now'
     | '/letters/book-of-gruumsh'
     | '/letters/jim'
     | '/library/licenses'
@@ -558,6 +568,7 @@ export interface FileRouteTypes {
     | '/intro'
     | '/novel'
     | '/questions'
+    | '/dm/now'
     | '/letters/book-of-gruumsh'
     | '/letters/jim'
     | '/library/licenses'
@@ -613,6 +624,7 @@ export interface FileRouteTypes {
     | '/intro'
     | '/novel'
     | '/questions'
+    | '/dm/now'
     | '/letters/book-of-gruumsh'
     | '/letters/jim'
     | '/library/licenses'
@@ -776,6 +788,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/dm/'
       preLoaderRoute: typeof DmIndexRouteImport
+      parentRoute: typeof DmRouteRoute
+    }
+    '/dm/now': {
+      id: '/dm/now'
+      path: '/now'
+      fullPath: '/dm/now'
+      preLoaderRoute: typeof DmNowRouteImport
       parentRoute: typeof DmRouteRoute
     }
     '/effects/': {
@@ -1083,6 +1102,7 @@ declare module '@tanstack/react-router' {
 }
 
 interface DmRouteRouteChildren {
+  DmNowRoute: typeof DmNowRoute
   DmIndexRoute: typeof DmIndexRoute
   DmArcsSlugRoute: typeof DmArcsSlugRoute
   DmItemsSlugRoute: typeof DmItemsSlugRoute
@@ -1097,6 +1117,7 @@ interface DmRouteRouteChildren {
 }
 
 const DmRouteRouteChildren: DmRouteRouteChildren = {
+  DmNowRoute: DmNowRoute,
   DmIndexRoute: DmIndexRoute,
   DmArcsSlugRoute: DmArcsSlugRoute,
   DmItemsSlugRoute: DmItemsSlugRoute,

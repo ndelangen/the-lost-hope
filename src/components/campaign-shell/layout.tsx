@@ -79,7 +79,9 @@ export function CampaignShellLayout({
               'min-w-0 pt-8 pl-0',
               // Local dev floats the player-screen dock over the page bottom; leave room for it.
               import.meta.env.DEV ? 'pb-24' : 'pb-8',
-              hasNavigation && 'lg:pl-8',
+              // Pinned to the second column, so a hidden navigation never leaves the page in the
+              // auto-sized first one.
+              hasNavigation && 'col-start-2 lg:pl-8',
             )}
           >
             {children}

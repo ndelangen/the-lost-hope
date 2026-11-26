@@ -10,9 +10,18 @@ export default createNPC({
   ],
   motivations: [
     [
-      'Take his revenge on the one who killed him. ',
+      'Take his revenge on ',
+      refs.pcs.devan,
+      ', whose leaving got the squad killed. ',
       refs.npcs.the_father,
       ' promised him that chance if he works for him.',
+    ],
+    [
+      'Have ',
+      refs.pcs.devan,
+      ' back in the squad. He offers that first, and only takes his revenge when ',
+      refs.pcs.devan,
+      ' refuses.',
     ],
     [
       'Glory. He was given a second life, so he means to be twice as glorious in it. He is fixed on that course and does not see that he is being steered further and further.',
@@ -35,7 +44,12 @@ export default createNPC({
       refs.pcs.devan,
       ' and can talk to him.',
     ],
-    ['Open for the DM: who killed him.'],
+    [
+      refs.pcs.devan,
+      ' leaving the squad got it killed, him with it. ',
+      refs.npcs.the_father,
+      ' revived him to give him a new chance at glory.',
+    ],
   ],
   stats: {
     size: 'medium',

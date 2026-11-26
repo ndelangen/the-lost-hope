@@ -1,0 +1,174 @@
+import { createFileRoute } from '@tanstack/react-router'
+import { ChevronRight, ScrollText, X } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { z } from 'zod'
+
+import { LiveFight } from '#/components/dm/encounter/live-fight'
+import { useEncounter } from '#/components/dm/encounter/use-encounter-store'
+import { SceneScript } from '#/components/dm/scene-script'
+import { ShipRoomBoard } from '#/components/dm/ship-room-board'
+import { ImageViewer } from '#/components/image-viewer'
+import type { Location } from '#/definitions/location'
+import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
+import { sceneShipAboard, scenes, table } from '#/lib/dm-campaign'
+import { resolvePlayerScreenImage } from '#/lib/player-screen'
+import type { PlayerScreenImage } from '#/lib/player-screen-state'
+import { buildSceneScript } from '#/lib/scene-script'
+import { cn } from '#/lib/utils'
+
+const locationRecords: Readonly<Partial<Record<string, Location>>> = SOURCE_REGISTRIES.location
+
+const Search = z.strictObject({
+  /** The scene to run; without one, the fight's scene or the first likely scene. */
+  scene: z.string().optional().catch(undefined),
+})
+
+export const Route = createFileRoute('/dm/now')({
+  validateSearch: Search,
+  head: () => ({
+    meta: [{ title: 'Now | DM' }, { name: 'robots', content: 'noindex, nofollow' }],
+  }),
+  component: NowRoute,
+})
+
+/** The one screen at the table: the scene's maps and beats beside the running fight. */
+function NowRoute() {
+  const search = Route.useSearch()
+  const [encounter] = useEncounter()
+  const sceneKey =
+    Object.entries(scenes).find(([, scene]) => scene.slug === search.scene)?.[0] ??
+    encounter?.scene?.key ??
+    table.likely[0]?.key
+  const scene = sceneKey ? scenes[sceneKey] : undefined
+  const [beatsOpen, setBeatsOpen] = useState(false)
+
+  // B opens and closes the beats drawer.
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement | null
+      if (target?.closest('input, textarea, select, [contenteditable="true"]')) return
+      if (event.altKey || event.ctrlKey || event.metaKey) return
+      if (event.key === 'b' || event.key === 'B') setBeatsOpen((open) => !open)
+      else if (event.key === 'Escape') setBeatsOpen(false)
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [])
+
+  const script = scene ? buildSceneScript(scene.beats) : []
+  const sceneImage: PlayerScreenImage | undefined = sceneKey
+    ? { image: 'illustration', ref: { ref: 'scene', key: sceneKey }, index: 0 }
+    : undefined
+  const picture =
+    import.meta.env.DEV && sceneImage && resolvePlayerScreenImage(sceneImage)
+      ? sceneImage
+      : undefined
+  const ship = scene ? sceneShipAboard(scene) : undefined
+
+  const beats =
+    sceneKey && script.length > 0 ? (
+      <SceneScript sceneKey={sceneKey} script={script} picture={picture} compact />
+    ) : (
+      <p className="text-muted-foreground">This scene has no beats.</p>
+    )
+  const shipBoard = sceneKey && ship ? <ShipRoomBoard sceneKey={sceneKey} ship={ship} /> : null
+  // The scene's battle maps, or the map of where it happens when it has none.
+  const maps = scene
+    ? (scene.battleMaps.length > 0 ? scene.battleMaps : [scene.location]).flatMap((ref) => {
+        const place = Object.hasOwn(locationRecords, ref.key) ? locationRecords[ref.key] : undefined
+        return place?.map ? [{ ref, place, map: place.map }] : []
+      })
+    : []
+  const mapList =
+    maps.length > 0 ? (
+      <ul className="grid gap-3">
+        {maps.map(({ ref, place, map }) => (
+          <li key={ref.key} className="grid min-w-0 gap-1">
+            <ImageViewer
+              src={map.url}
+              alt={place.name}
+              title={place.name}
+              eyebrow="Battlemap"
+              accessibleLabel={`battlemap of ${place.name}`}
+              previewSizes="28rem"
+              previewMaxWidth={768}
+              className="aspect-[3/2] h-auto w-full rounded-lg"
+              playerScreen={{ image: 'map', ref }}
+            />
+            <p className="text-sm font-medium">{place.name}</p>
+          </li>
+        ))}
+      </ul>
+    ) : null
+  // The map stays open; the ship's room board folds under it.
+  const sidePanels = (
+    <>
+      {mapList}
+      {shipBoard ? <Fold title="Rooms">{shipBoard}</Fold> : null}
+    </>
+  )
+
+  const beatsButton = (className?: string) => (
+    <button
+      type="button"
+      onClick={() => setBeatsOpen((open) => !open)}
+      className={cn(
+        'border-border hover:bg-muted flex h-11 w-fit items-center gap-2 rounded-xl border-2 px-4 font-semibold',
+        className,
+      )}
+    >
+      <ScrollText className="size-5" aria-hidden /> Beats
+      <kbd className="text-muted-foreground border-border rounded border px-1.5 text-xs">B</kbd>
+    </button>
+  )
+
+  const beatsDrawer = beatsOpen ? (
+    <aside
+      aria-label="Beats"
+      className="border-border bg-background fixed inset-y-0 left-0 z-40 grid w-[min(28rem,100vw)] content-start gap-3 overflow-y-auto border-r-2 p-4 shadow-2xl"
+    >
+      <header className="flex items-center justify-between gap-3">
+        <h2 className="text-lg font-semibold">{scene?.name ?? 'Beats'}</h2>
+        <button
+          type="button"
+          onClick={() => setBeatsOpen(false)}
+          className="border-border hover:bg-muted flex h-11 items-center gap-2 rounded-xl border px-3 font-semibold"
+        >
+          <X className="size-5" aria-hidden /> Close
+        </button>
+      </header>
+      {sidePanels}
+      {beats}
+    </aside>
+  ) : null
+
+  // Beats on the left follow the DM down; the fight takes the rest of the width.
+  // Below xl there is no room beside the fight, so the beats slide in on B instead.
+  return (
+    <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-3 xl:grid-cols-[24rem_minmax(0,1fr)] 2xl:grid-cols-[28rem_minmax(0,1fr)]">
+      {beatsButton('xl:hidden')}
+      <aside
+        aria-label="Beats"
+        className="border-border bg-card hidden content-start gap-3 rounded-xl border p-3 xl:sticky xl:top-3 xl:grid xl:max-h-[calc(100vh-1.5rem)] xl:overflow-y-auto"
+      >
+        {sidePanels}
+        {beats}
+      </aside>
+      <LiveFight />
+      {beatsDrawer}
+    </div>
+  )
+}
+
+/** A section folded down to its title. */
+function Fold({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <details className="group border-border rounded-xl border">
+      <summary className="hover:bg-muted flex h-11 cursor-pointer list-none items-center gap-2 rounded-xl px-3 font-semibold [&::-webkit-details-marker]:hidden">
+        <ChevronRight className="size-5 transition-transform group-open:rotate-90" aria-hidden />
+        {title}
+      </summary>
+      <div className="grid gap-3 p-3 pt-1">{children}</div>
+    </details>
+  )
+}
