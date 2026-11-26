@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'The Hand’s Directive on Jim',
   icon: 'gi/GiTiedScroll',
+  category: 'Other',
   currentOwner: null,
   carriedBy: null,
   craftedBy: refs.organizations.the_eyeless_hand,

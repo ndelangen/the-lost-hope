@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: "Grimgor's Skull Breaker",
   icon: 'gi/GiMagicAxe',
+  category: 'Weapon',
   currentOwner: refs.npcs.sarogarth,
   carriedBy: refs.npcs.sarogarth,
   craftedBy: null,

@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: "Grimgor's Bloodied Bandages",
   icon: 'gi/GiBandageRoll',
+  category: 'Other',
   currentOwner: refs.organizations.church_of_gruumsh,
   carriedBy: null,
   craftedBy: null,

@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Ring of Hunger',
   icon: 'fa/FaRing',
+  category: 'Ring',
   currentOwner: refs.pcs.cassian_veyl,
   carriedBy: null,
   craftedBy: null,

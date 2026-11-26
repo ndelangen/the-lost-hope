@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Screaming for Vengeance',
   icon: 'gi/GiScreaming',
+  category: 'Mount or Vehicle',
   currentOwner: refs.organizations.tempest_family,
   carriedBy: null,
   craftedBy: null,

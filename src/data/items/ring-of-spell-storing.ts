@@ -3,6 +3,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Ring of Spell Storing',
   icon: 'gi/GiRing',
+  category: 'Ring',
   currentOwner: null,
   carriedBy: null,
   craftedBy: null,

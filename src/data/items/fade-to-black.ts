@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Fade to Black',
   icon: 'gi/GiEclipse',
+  category: 'Mount or Vehicle',
   currentOwner: refs.organizations.tempest_family,
   carriedBy: null,
   craftedBy: null,

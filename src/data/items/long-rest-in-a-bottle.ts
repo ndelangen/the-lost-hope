@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Long Rest in a Bottle',
   icon: 'gi/GiPotionBall',
+  category: 'Potion',
   currentOwner: refs.npcs.onana_tempest,
   carriedBy: null,
   craftedBy: null,

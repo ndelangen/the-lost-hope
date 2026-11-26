@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Jaded Amulet',
   icon: 'gi/GiEmeraldNecklace',
+  category: 'Wondrous Item',
   currentOwner: null,
   carriedBy: null,
   craftedBy: null,

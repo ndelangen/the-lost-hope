@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Roberto’s Map Pages',
   icon: 'fa/FaAtlas',
+  category: 'Other',
   currentOwner: refs.pcs.swift_starblade,
   carriedBy: refs.pcs.swift_starblade,
   craftedBy: null,

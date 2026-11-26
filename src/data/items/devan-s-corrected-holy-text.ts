@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: "Devan's Corrected Holy Text",
   icon: 'gi/GiSecretBook',
+  category: 'Other',
   currentOwner: refs.pcs.devan,
   carriedBy: refs.pcs.devan,
   craftedBy: null,

@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Flask of Never-Ending Booze',
   icon: 'gi/GiRoundBottomFlask',
+  category: 'Wondrous Item',
   currentOwner: refs.pcs.devan,
   carriedBy: refs.pcs.devan,
   craftedBy: null,

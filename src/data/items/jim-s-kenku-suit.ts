@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Jim’s Kenku Suit',
   icon: 'gi/GiClothes',
+  category: 'Other',
   currentOwner: refs.pcs.swift_starblade,
   carriedBy: null,
   craftedBy: null,

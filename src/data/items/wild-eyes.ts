@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Wild Eyes',
   icon: 'gi/GiBeastEye',
+  category: 'Mount or Vehicle',
   currentOwner: refs.organizations.tempest_family,
   carriedBy: null,
   craftedBy: null,

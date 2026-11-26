@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Bag of Holding',
   icon: 'gi/GiBackpack',
+  category: 'Wondrous Item',
   currentOwner: null,
   carriedBy: null,
   craftedBy: null,

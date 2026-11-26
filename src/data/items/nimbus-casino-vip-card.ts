@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Nimbus Casino VIP Card',
   icon: 'gi/GiToken',
+  category: 'Other',
   currentOwner: refs.pcs.cassian_veyl,
   carriedBy: null,
   craftedBy: null,

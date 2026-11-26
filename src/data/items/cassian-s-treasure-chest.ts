@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: "Cassian's Treasure Chest",
   icon: 'gi/GiChest',
+  category: 'Wondrous Item',
   currentOwner: refs.pcs.cassian_veyl,
   carriedBy: null,
   craftedBy: null,

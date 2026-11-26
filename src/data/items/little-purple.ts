@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Little Purple',
   icon: 'gi/GiShipBow',
+  category: 'Mount or Vehicle',
   currentOwner: refs.organizations.beasts_and_dwarf,
   carriedBy: null,
   craftedBy: null,

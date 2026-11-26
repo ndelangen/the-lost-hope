@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Letter from the Father',
   icon: 'gi/GiWaxSeal',
+  category: 'Other',
   currentOwner: null,
   carriedBy: null,
   craftedBy: refs.npcs.the_father,

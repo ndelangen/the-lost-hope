@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Steve, Mace of Returning',
   icon: 'gi/GiMaceHead',
+  category: 'Weapon',
   currentOwner: refs.pcs.devan,
   carriedBy: refs.pcs.devan,
   craftedBy: refs.npcs.bessy,

@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Bulls on Parade',
   icon: 'gi/GiBull',
+  category: 'Mount or Vehicle',
   currentOwner: refs.organizations.tempest_family,
   carriedBy: null,
   craftedBy: null,

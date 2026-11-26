@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: "Devan's Wandering Priest Robe",
   icon: 'gi/GiRobe',
+  category: 'Wondrous Item',
   currentOwner: refs.pcs.devan,
   carriedBy: refs.pcs.devan,
   craftedBy: null,

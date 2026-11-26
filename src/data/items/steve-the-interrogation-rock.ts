@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Steve the Interrogation Rock',
   icon: 'gi/GiDrippingStone',
+  category: 'Other',
   currentOwner: null,
   carriedBy: null,
   craftedBy: null,

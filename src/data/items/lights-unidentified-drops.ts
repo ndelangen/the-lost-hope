@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Light’s Unidentified Drops',
   icon: 'fa/FaPrescriptionBottleAlt',
+  category: 'Potion',
   currentOwner: null,
   carriedBy: null,
   craftedBy: null,

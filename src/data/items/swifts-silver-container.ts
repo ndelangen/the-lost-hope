@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Swift’s Silver Container',
   icon: 'gi/GiLockedChest',
+  category: 'Wondrous Item',
   currentOwner: refs.pcs.swift_starblade,
   carriedBy: refs.pcs.swift_starblade,
   craftedBy: null,

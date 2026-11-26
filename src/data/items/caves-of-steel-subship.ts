@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Caves of Steel Subship',
   icon: 'gi/GiSubmarine',
+  category: 'Mount or Vehicle',
   currentOwner: refs.npcs.the_11th_marshal,
   carriedBy: null,
   craftedBy: null,

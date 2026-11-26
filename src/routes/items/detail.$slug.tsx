@@ -12,6 +12,7 @@ import { VESSEL_CLASS_LABELS } from '#/definitions/item'
 import { getEntity, refLink } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { ItemIcon } from '#/lib/item-icons'
+import { formatItemPrice } from '#/lib/item-view'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/items/detail/$slug')({
@@ -48,6 +49,8 @@ function ItemPage() {
       }
     >
       <Grid as="section" gap="lg" smTemplate={2}>
+        <Attribute label="Category" value={item.category} />
+        {item.price ? <Attribute label="Worth" value={formatItemPrice(item.price)} /> : null}
         <Relationship label="Current owner" relationship={owner} />
         {controller ? <Relationship label="Controlled by" relationship={controller} /> : null}
         <Relationship label="Carried by" relationship={carrier} />

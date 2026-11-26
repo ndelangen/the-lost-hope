@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Serpent Eclipse Trial Disk',
   icon: 'gi/GiMetalDisc',
+  category: 'Other',
   currentOwner: refs.organizations.beasts_and_dwarf,
   carriedBy: null,
   craftedBy: null,

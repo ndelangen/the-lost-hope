@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: "Devan's Plate Armour",
   icon: 'gi/GiBreastplate',
+  category: 'Armor',
   currentOwner: refs.pcs.devan,
   carriedBy: null,
   craftedBy: null,

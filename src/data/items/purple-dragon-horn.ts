@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Purple Dragon Horn',
   icon: 'gi/GiHornInternal',
+  category: 'Trade Good',
   currentOwner: null,
   carriedBy: null,
   craftedBy: null,

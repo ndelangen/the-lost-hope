@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Cursed Shadow Sword',
   icon: 'gi/GiSwordWound',
+  category: 'Weapon',
   currentOwner: null,
   carriedBy: null,
   craftedBy: null,

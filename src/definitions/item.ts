@@ -4,7 +4,18 @@ import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { Foretold } from './foretold'
 import { EntityRefSchema } from './kind'
+import { EQUIPMENT_CATEGORIES, ITEM_CATEGORIES as MAGIC_ITEM_CATEGORIES } from './library'
+import { Price, PriceRange } from './price'
 import { deriveSlug } from './slug'
+
+/** What kind of thing a campaign item is: the library's equipment and magic-item categories, once each. */
+export type CampaignItemCategory =
+  | (typeof MAGIC_ITEM_CATEGORIES)[number]
+  | (typeof EQUIPMENT_CATEGORIES)[number]
+
+export const CAMPAIGN_ITEM_CATEGORIES = [
+  ...new Set<CampaignItemCategory>([...MAGIC_ITEM_CATEGORIES, ...EQUIPMENT_CATEGORIES]),
+] as [CampaignItemCategory, ...CampaignItemCategory[]]
 
 export const ITEM_STATUSES = ['under-construction', 'destroyed'] as const
 
@@ -48,6 +59,11 @@ const Item = deriveSlug(
       .describe(
         "A unique icon-catalog id for this item's icon, e.g. `gi/GiBroadsword` — see src/lib/item-icons.tsx.",
       ),
+    category: z.enum(CAMPAIGN_ITEM_CATEGORIES).describe('What kind of thing it is'),
+    price: z
+      .union([Price, PriceRange])
+      .optional()
+      .describe('What it is worth: one price, or a range when that varies'),
     currentOwner: EntityRefSchema.nullable().describe(
       'The current owner of the item, or null when ownership is unknown',
     ),

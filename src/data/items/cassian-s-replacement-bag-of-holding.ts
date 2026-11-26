@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: "Cassian's Replacement Bag of Holding",
   icon: 'gi/GiKnapsack',
+  category: 'Wondrous Item',
   currentOwner: refs.pcs.cassian_veyl,
   carriedBy: refs.pcs.cassian_veyl,
   craftedBy: null,

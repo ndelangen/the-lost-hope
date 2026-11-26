@@ -11,3 +11,10 @@ export const Price = z.strictObject({
 })
 
 export type Price = z.infer<typeof Price>
+
+/** What something is worth when that varies, from `min` to `max`, e.g. a sack of 1 to 20 pearls. */
+export const PriceRange = z
+  .strictObject({ min: Price, max: Price })
+  .describe('The lowest and highest it is worth')
+
+export type PriceRange = z.infer<typeof PriceRange>

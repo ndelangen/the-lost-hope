@@ -7,6 +7,7 @@ describe('Item', () => {
     const item = createItem({
       name: 'Unclaimed Relic',
       icon: 'gi/GiRock',
+      category: 'Other',
       currentOwner: null,
       carriedBy: null,
       craftedBy: null,

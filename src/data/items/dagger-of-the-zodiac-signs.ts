@@ -4,6 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Dagger of the Zodiac Signs',
   icon: 'gi/GiBroadDagger',
+  category: 'Weapon',
   currentOwner: refs.pcs.auren,
   carriedBy: refs.pcs.auren,
   craftedBy: null,
