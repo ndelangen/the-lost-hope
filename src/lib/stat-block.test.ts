@@ -312,3 +312,39 @@ describe('versatile weapons', () => {
     )
   })
 })
+
+/** Monster Manual (2014) Crab: the book prints +0 to hit where the formula gives +2. */
+describe('printed numbers that break the formula', () => {
+  const crab = PrintedStatBlock.parse({
+    size: 'tiny',
+    type: 'beast',
+    cr: '0',
+    ac: 11,
+    hitDice: '1d4',
+    speed: { walk: 20, swim: 20 },
+    scores: { str: 2, dex: 11, con: 10, int: 1, wis: 8, cha: 2 },
+    abilities: [
+      {
+        key: 'claw',
+        name: 'Claw',
+        timing: 'action',
+        icon: 'gi/GiClaws',
+        attack: {
+          kind: 'melee',
+          ability: 'dex',
+          printedBonus: 0,
+          damage: [{ dice: '1', type: refs.rules.bludgeoning }],
+        },
+      },
+    ],
+  })
+
+  it('uses the printed bonus and says what the formula gives', () => {
+    const [bonus] = abilitySummary(crab.abilities[0]!, crab) ?? []
+    expect(bonus).toEqual({
+      kind: 'value',
+      text: '+0',
+      note: 'As printed; the formula gives +2',
+    })
+  })
+})

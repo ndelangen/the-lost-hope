@@ -23,7 +23,16 @@ export function StatParts({
           case 'text':
             return <span key={key}>{part.text}</span>
           case 'value':
-            return (
+            return part.note ? (
+              // The book prints this number differently from the formula; the DM sees which.
+              <span
+                key={key}
+                title={part.note}
+                className="tabular-nums underline decoration-amber-500 decoration-dotted underline-offset-4"
+              >
+                {part.text}
+              </span>
+            ) : (
               <span key={key} className="tabular-nums">
                 {part.text}
               </span>

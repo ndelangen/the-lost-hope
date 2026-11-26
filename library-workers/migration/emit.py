@@ -38,7 +38,7 @@ def tokens(parts):
   for t in parts:
     if isinstance(t,str): out.append(js(t))
     elif 'toHit' in t: out.append('{ toHit: '+js(t['toHit'])+' }')
-    elif 'dc' in t: out.append('{ dc: '+js(t['dc'])+(', save: '+js(t['save']) if 'save' in t else '')+' }')
+    elif 'dc' in t: out.append('{ dc: '+js(t['dc'])+(', save: '+js(t['save']) if 'save' in t else '')+(', printed: '+str(t['printed']) if 'printed' in t else '')+' }')
     elif 'ability' in t: out.append('{ ability: '+js(t['ability'])+' }')
     else: out.append('rules.'+t['rule'])
   return '['+', '.join(out)+']'
@@ -61,6 +61,7 @@ def ability_ts(ab,keys,ind):
       L.append(f'{i}    twoHanded: [')
       for d in a['twoHanded']: L.append(f'{i}      {{ dice: {js(d["dice"])}, type: rules.{d["type"]}, addModifier: true }},')
       L.append(f'{i}    ],')
+    if 'printedBonus' in a: L.append(f'{i}    printedBonus: {a["printedBonus"]},')
     L.append(f'{i}    damage: [')
     for d in a['damage']:
       add=', addModifier: true' if d.get('addModifier') else ''
@@ -85,6 +86,7 @@ def ability_ts(ab,keys,ind):
     if 'also' in sv['onFail']: L.append(f'{i}      also: {tokens(cond_tokens(sv["onFail"]["also"][0]))},')
     L.append(f'{i}    }},')
     if sv.get('onSuccess')=='half': L.append(f"{i}    onSuccess: 'half',")
+    if 'printedDc' in sv: L.append(f'{i}    printedDc: {sv["printedDc"]},')
     L.append(f'{i}  }},')
   if ab.get('text'): L.append(f'{i}  text: {tokens(ab["text"])},')
   if 'uses' in ab: L.append(f'{i}  uses: {ab["uses"]},')

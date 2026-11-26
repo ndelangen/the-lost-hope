@@ -7,6 +7,50 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.basic_rules_2018,
   monsters: {
+    ankylosaurus: {
+      name: 'Ankylosaurus',
+      page: 117,
+      alignment: 'unaligned',
+      habitats: ['Remote mountain valleys', 'Isolated plateaus', 'Tropical islands', 'Deep fens'],
+      appearance: [
+        [
+          'A low four-legged dinosaur with a broad beaked head, rounded armor plates, and a heavy bony club at the tip of its tail.',
+        ],
+      ],
+      stats: {
+        size: 'huge',
+        type: 'beast',
+        cr: '3',
+        ac: 15,
+        armor: 'natural armor',
+        hitDice: '8d12',
+        speed: { walk: 30 },
+        scores: { str: 19, dex: 11, con: 15, int: 2, wis: 12, cha: 5 },
+        abilities: [
+          {
+            key: 'tail',
+            name: 'Tail',
+            timing: 'action',
+            icon: 'gi/GiWhiplash',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 10,
+              printedBonus: 7,
+              damage: [{ dice: '4d6', type: rules.bludgeoning, addModifier: true }],
+            },
+            text: [
+              'A creature hit by the tail must pass a ',
+              { dc: 'str' },
+              ' Strength save or fall ',
+              rules.prone,
+              '.',
+            ],
+          },
+        ],
+      },
+    },
     giant_lizard: {
       name: 'Giant Lizard',
       alignment: 'unaligned',

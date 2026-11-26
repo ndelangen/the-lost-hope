@@ -183,8 +183,7 @@ def extract_save(ab,text,scores,prof,issues):
   return text
 def build_save(a,dc,target,damage,also,success,scores,prof,issues,name):
   built=next((b for b in [a,'con','str','dex','wis','int','cha'] if 8+prof+mod(scores[b])==dc),None)
-  if not built: issues.append(f'{name}: save DC {dc} not derivable'); built=a
-  sv={'ability':a,'dc':built,'target':target,'onFail':{'damage':damage}}
+  sv={'ability':a,'dc':built or a,**({} if built else {'printedDc':dc}),'target':target,'onFail':{'damage':damage}}
   if also: sv['onFail']['also']=[also[0].upper()+also[1:]+'.']
   if success=='half': sv['onSuccess']='half'
   return sv
@@ -224,11 +223,12 @@ def finalize(block,scores,prof,issues):
         dc=int(m.group(2)); named=ANAME.get((m.group(3) or '').lower())
         order=([named] if named else [])+([caster] if caster else [])+['con','str','dex','wis','int','cha']
         built=next((a for a in order if 8+prof+mod(scores[a])==dc),None)
+        printed={}
         if not built:
-          issues.append(f"{ab['name']}: DC {dc} not derivable"); toks.append(m.group(0))
-        else:
-          toks.append({'dc':built,**({'save':named} if named and named!=built else {})})
-          if m.group(3): toks.append(' '+m.group(3))
+          # The book breaks the formula: keep its DC on the save's or casting ability.
+          built=named or caster or 'con'; printed={'printed':dc}
+        toks.append({'dc':built,**({'save':named} if named and named!=built else {}),**printed})
+        if m.group(3): toks.append(' '+m.group(3))
       elif m.group(4): toks.append({'rule':m.group(4).lower()})
       else:
         hit=next((n for n,_ in names if n==m.group(5)),None)
@@ -375,7 +375,13 @@ def convert(r,p):
         tohit=int(am.group(2)); cands=ability_for(tohit,scores,prof,('int','wis','cha') if spell else ('str','dex'))
         dmgb=int(am.group(11) or 0)*(-1 if am.group(10) in ('-','−','–') else 1)
         cands=[a for a in cands if mod(scores[a])==dmgb] or cands
-        if not cands: issues.append(f'{name}: to-hit +{tohit} not str/dex+PB'); continue
+        printed=None
+        if not cands:
+          # The book breaks the formula: keep its bonus, on the ability its damage uses.
+          pool=('int','wis','cha') if spell else ('str','dex')
+          by_damage=[x for x in pool if mod(scores[x])==dmgb]
+          cands=by_damage or [max(pool,key=lambda x:scores[x])]
+          printed=tohit
         a=cands[0]
         fixed='d' not in am.group(9)
         # Damage adds the attack's modifier, or nothing at all (a fixed amount, most spell attacks).
@@ -383,7 +389,7 @@ def convert(r,p):
         if avg(am.group(9),0 if plain else mod(scores[a]))!=int(am.group(8)): issues.append(f'{name}: damage avg')
         if not plain and dmgb!=mod(scores[a]): issues.append(f'{name}: damage bonus {dmgb} != {a} mod')
         if am.group(12).lower() not in DAMAGE: issues.append(f'{name}: damage type {am.group(12)}')
-        atk={'kind':kind,'ability':a}
+        atk={'kind':kind,'ability':a,**({'printedBonus':printed} if printed is not None else {})}
         if kind=='melee':
           atk['reach']=int(am.group(3))
           if am.group(4): atk['thrown']=[int(am.group(4)),int(am.group(5))]

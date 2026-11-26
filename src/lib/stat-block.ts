@@ -143,15 +143,18 @@ function proficiencyMultiplier(level: 'proficient' | 'expert' | undefined) {
 export type StatPart =
   | { kind: 'text'; text: string }
   | { kind: 'term'; rule: RuleRef; label: string }
-  | { kind: 'value'; text: string }
+  /** `note` explains a number the book prints differently from the formula. */
+  | { kind: 'value'; text: string; note?: string }
   /** "8 (1d10 + 3) piercing": the average to deal, the dice to roll instead, and the type. */
   | { kind: 'damage'; amount: number; roll: string; type?: RuleRef }
 
 type DerivedDamage = Extract<StatPart, { kind: 'damage' }>
 
 type DerivedAttack = {
-  /** Added to the d20 for the attack roll. */
+  /** Added to the d20 for the attack roll: as printed, where the book breaks the formula. */
   bonus: number
+  /** What the formula gives, when the printed bonus differs. */
+  formula?: number
   damage: DerivedDamage[]
   /** A versatile weapon's damage with two hands. */
   twoHanded?: DerivedDamage[]
@@ -174,8 +177,11 @@ export function deriveAttack(attack: Attack, stats: AnyStatBlock): DerivedAttack
         type: roll.type,
       }
     })
+  const formula = mod + proficiencyOf(stats) + magic
+  const printed = attack.printedBonus
   return {
-    bonus: mod + proficiencyOf(stats) + magic,
+    bonus: printed ?? formula,
+    ...(printed !== undefined && printed !== formula ? { formula } : {}),
     damage: derive(attack.damage),
     ...(attack.kind === 'melee' && attack.twoHanded ? { twoHanded: derive(attack.twoHanded) } : {}),
   }
@@ -214,7 +220,13 @@ export function abilitySummary(ability: Ability, stats: AnyStatBlock): StatPart[
   if (ability.attack) {
     const derived = deriveAttack(ability.attack, stats)
     return [
-      { kind: 'value', text: signed(derived.bonus) },
+      {
+        kind: 'value',
+        text: signed(derived.bonus),
+        ...(derived.formula !== undefined
+          ? { note: `As printed; the formula gives ${signed(derived.formula)}` }
+          : {}),
+      },
       { kind: 'text', text: ', ' },
       ...derived.damage.flatMap((damage, index): StatPart[] =>
         index === 0 ? [damage] : [{ kind: 'text', text: ' plus ' }, damage],
@@ -233,7 +245,14 @@ export function abilitySummary(ability: Ability, stats: AnyStatBlock): StatPart[
   if (ability.save)
     return [
       { kind: 'term', rule: ruleRef('difficulty_class'), label: 'DC' },
-      { kind: 'value', text: ` ${saveDc(stats, ability.save.dc)} ${SHORT[ability.save.ability]} ` },
+      {
+        kind: 'value',
+        text: ` ${ability.save.printedDc ?? saveDc(stats, ability.save.dc)} ${SHORT[ability.save.ability]} `,
+        ...(ability.save.printedDc !== undefined &&
+        ability.save.printedDc !== saveDc(stats, ability.save.dc)
+          ? { note: `As printed; the formula gives ${saveDc(stats, ability.save.dc)}` }
+          : {}),
+      },
       { kind: 'term', rule: ruleRef('saving_throw'), label: 'save' },
       ...(ability.save.onFail.damage
         ? [

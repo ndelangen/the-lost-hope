@@ -40,6 +40,11 @@ export const AbilityTextToken = z.union([
     save: AbilityId.optional().describe(
       'The ability the target saves with, when it is not the one the DC is built from',
     ),
+    printed: z
+      .number()
+      .int()
+      .optional()
+      .describe('The DC as the book prints it, kept only where it breaks the formula'),
   }),
   z.strictObject({ mod: AbilityId }),
   z.strictObject({
@@ -95,6 +100,11 @@ const Attack = z.discriminatedUnion('kind', [
       .min(1)
       .optional()
       .describe('A versatile weapon: the damage instead of `damage` when wielded with two hands'),
+    printedBonus: z
+      .number()
+      .int()
+      .optional()
+      .describe('The to-hit bonus as the book prints it, kept only where it breaks the formula'),
     magic: MagicBonus,
     damage: z.array(Damage).min(1),
   }),
@@ -102,6 +112,11 @@ const Attack = z.discriminatedUnion('kind', [
     kind: z.literal('ranged'),
     ability: AbilityId,
     range: z.tuple([z.number().int().positive(), z.number().int().positive()]).describe('Feet'),
+    printedBonus: z
+      .number()
+      .int()
+      .optional()
+      .describe('The to-hit bonus as the book prints it, kept only where it breaks the formula'),
     magic: MagicBonus,
     damage: z.array(Damage).min(1),
   }),
@@ -172,6 +187,11 @@ const Save = z.strictObject({
       .optional()
       .describe('Full sentences for what else happens on a failure, e.g. how long it lasts'),
   }),
+  printedDc: z
+    .number()
+    .int()
+    .optional()
+    .describe('The save DC as the book prints it, kept only where it breaks the formula'),
   onSuccess: z
     .enum(['half', 'none'])
     .default('none')

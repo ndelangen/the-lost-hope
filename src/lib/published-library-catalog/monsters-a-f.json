@@ -29964,60 +29964,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 333",
-              "Hit dice · 18d20 + 144",
-              "Challenge · 20",
-              "Type · Dragon (Chromatic)",
-              "Speed · 40 ft., Burrow 40 ft., Fly 80 ft., Swim 40 ft.",
-              "XP · 25000",
-              "Str · 26",
-              "Dex · 10",
-              "Con · 26",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 18",
-              "Initiative · +12 (22)",
-              "Proficiency bonus · +6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_white_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan Dragon (Chromatic), Chaotic Evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +13, Stealth +6 Immunities Cold Senses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 23 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn’t cost it extra movement. Legendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three Rend attacks. Rend. Melee Attack Roll: +14, reach 15 ft. Hit: 17 (2d8 + 8) Slashing damage plus 7 (2d6) Cold damage. Cold Breath (Recharge 5–6). Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: 63 (14d8) Cold damage. Success: Half damage."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns. Freezing Burst. Constitution Saving Throw: DC 20, each creature in a 30-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 14 (4d6) Cold damage, and the target’s Speed is 0 until the end of the target’s next turn. Failure or Success: The dragon can’t take this action again until the start of its next turn. Frightful Presence. The dragon casts Fear, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18). The dragon can’t take this action again until the start of its next turn. Pounce. The dragon moves up to half its Speed, and it makes one Rend attack."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6, Wis +7"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-2081b39294017a021a16a869",
@@ -110346,94 +110302,18 @@
       {
         "id": "printing-1c5180d9d24866113bffd8ca",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 51",
-              "Hit dice · 6d10 + 18",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 13",
-              "Initiative · 1",
-              "XP · 450",
-              "Str · 14",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 1",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "This scavenger patrols sewers, caves, and ruins. It can drop from a ceiling to paralyze prey and drag it away."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A long segmented scavenger with numerous legs and a fringe of paralytic tentacles around its mouth."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft., passive Perception 13."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["None."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. Advantage on Wisdom (Perception) checks based on smell.\nSpider Climb. Climb difficult surfaces and ceilings without an ability check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Tentacles attack and one Bite attack.\nTentacles. Melee weapon attack, +8 to hit, reach 10 ft., one creature. Hit 4 (1d4 + 2) poison damage. The creature makes a DC 13 Constitution save. On failure it is Poisoned for 1 minute and Paralyzed while that poison lasts. Repeat the save at the end of each of its turns, ending the poison on a success.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 37."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 37 · https://5e.tools/bestiary.html#carrion%20crawler_mm",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#carrion%20crawler_mm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30762/228/1000/1000/638061113870717182.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30762/228/1000/1000/638061113870717182.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "carrion_crawler"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-4d6b3b5de0705d931e85a5d8",
@@ -123671,48 +123551,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 78",
-              "Hit dice · 12d10 + 12",
-              "Challenge · 8",
-              "Type · Aberration",
-              "Speed · 10 ft., fly 40 ft.",
-              "XP · 3900",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 13",
-              "Wis · 12",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cloaker"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large aberration, chaotic neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Stealth +5 Senses darkvision 60 ft., passive Perception 11 Languages Deep Speech, Undercommon"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Damage Transfer. While attached to a creature, the cloaker takes only half the damage dealt to it (rounded down), and that creature takes the other half. False Appearance. While the cloaker remains motionless without its underside exposed, it is indistinguishable from a dark leather cloak. Light Sensitivity. While in bright light, the cloaker has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The cloaker makes two attacks: one with its bite and one with its tail. Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage, and if the target is Large or smaller, the cloaker attaches to it. If the cloaker has advantage against the target, the cloaker attaches to the target’s head, and the target is blinded and unable to breathe while the cloaker is attached. While attached, the cloaker can make this attack only against the target and has advantage on the attack roll. The cloaker can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach the cloaker by succeeding on a DC 16 Strength check. Tail. Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 7 (1d8 + 3) slashing damage. Moan. Each creature within 60 feet of the cloaker that can hear its moan and that isn’t an aberration must succeed on a DC 13 Wisdom saving throw or become frightened until the end of the cloaker’s next turn. If a creature’s saving throw is successful, the creature is immune to the cloaker’s moan for the next 24 hours Phantasms (Recharges after a Short or Long Rest). The cloaker magically creates three illusory duplicates of itself if it isn’t in bright light. The duplicates move with it and mimic its actions, shifting position so as to make it impossible to track which cloaker is the real one. If the cloaker is ever in an area of bright light, the duplicates disappear. Whenever any creature targets the cloaker with an attack or a harmful spell while a duplicate remains, that creature rolls randomly to determine whether it targets the cloaker or one of the duplicates. A creature is unaffected by this magical effect if it can’t see or if it relies on senses other than sight. A duplicate has the cloaker’s AC and uses its saving throws. If an attack hits a duplicate, or if a duplicate fails a saving throw against an effect that deals damage, the duplicate disappears."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -123731,82 +123579,6 @@
       {
         "id": "printing-810b9100e6f716b6ff1bf911",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 78",
-              "Hit dice · 12d10 + 12",
-              "Challenge · 8",
-              "Size · Large",
-              "Type · Aberration",
-              "Speed · 10 ft., fly 40 ft.",
-              "Passive Perception · 11",
-              "Initiative · 2",
-              "XP · 3900",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 13",
-              "Wis · 12",
-              "Cha · 14"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A cave predator with a raylike body and a lashing tail. When it folds its fins, it resembles a dark leather cloak."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large aberration, chaotic neutral"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Deep Speech, Undercommon."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Damage Transfer. While attached, the cloaker takes half of any damage dealt to it, rounded down. The creature it is attached to takes the rest.\nFalse Appearance. If it stays still and keeps its underside hidden, it looks exactly like a dark leather cloak.\nLight Sensitivity. In bright light, the cloaker has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. Hit 10 (2d6 + 3) piercing damage. The cloaker attaches to a Large or smaller target. When it attaches this way, it latches onto the target's head if it had advantage on the roll, leaving that creature Blinded and unable to breathe until detached. While attached, it can Bite only that creature, and the attack has advantage. The cloaker can spend 5 ft. of movement to detach. Any creature, including the target, can detach it with an action and a successful DC 16 Strength check.\nTail. Melee weapon attack, +6 to hit, reach 10 ft., one creature. Hit 7 (1d8 + 3) slashing damage.\nMoan. Each creature other than an aberration within 60 ft. that hears the moan makes a DC 13 Wisdom save. On a failure it is Frightened until the end of the cloaker's next turn. On a success it is immune to the moan for 24 hours.\nPhantasms (Recharges after a Short or Long Rest). Outside bright light, the cloaker magically creates three illusory doubles that copy its motions and change positions with it. If it enters bright light, all doubles vanish. When a creature targets the cloaker with an attack or harmful spell while any double remains, randomly determine whether it targets the cloaker or one of the remaining doubles. Creatures that cannot see or rely on other senses ignore this effect. A double uses the cloaker's AC and saves. It vanishes if an attack hits it or if it fails a save against a damaging effect."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 41."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 41 · https://5e.tools/bestiary.html#cloaker_mm",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#cloaker_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30767/348/1000/1000/638061293461506894.png",
         "art": [
@@ -123814,7 +123586,17 @@
             "file": "/assets/library/monsters/cloaker.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cloaker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-842f2aebd47498229a04c1bc",
@@ -133995,114 +133777,6 @@
       {
         "id": "printing-93f5239eff036a16cf833b23",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 97",
-              "Hit dice · 13d8 + 39",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Celestial",
-              "Speed · 30 ft., fly 90 ft.",
-              "Passive Perception · 15",
-              "Initiative · 5",
-              "XP · 1100",
-              "Str · 16",
-              "Dex · 20",
-              "Con · 17",
-              "Int · 18",
-              "Wis · 20",
-              "Cha · 18"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A winged serpent keeps an ancient charge in secret and may appear in another shape to guide those it protects."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +5", "Wis +7", "Cha +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium celestial, lawful good"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Radiant."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": [
-              "Psychic. Bludgeoning, piercing, and slashing damage from nonmagical attacks."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["All languages. Telepathy 120 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Magic Weapons. Its weapon attacks are magical.\nShielded Mind. The couatl is immune to scrying and to effects that sense its emotions, read its thoughts, or find its location.\nTruth Tellers. A couatl can omit details, but cannot lie."
-            ]
-          },
-          {
-            "title": "Innate spellcasting",
-            "lines": [
-              "Charisma is the spellcasting ability, with save DC 14. Spells require only verbal components.\nAt will. Detect Evil and Good, Detect Magic, Detect Thoughts.\n3/day each. Bless, Create Food and Water, Cure Wounds, Lesser Restoration, Protection from Poison, Sanctuary, Shield.\n1/day each. Dream, Greater Restoration, Scrying."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +8 to hit, reach 5 ft., one creature. Hit 8 (1d6 + 5) piercing damage. The target must pass a DC 13 Constitution save or be Poisoned for 24 hours. It becomes Unconscious while the poison lasts. Another creature can use an action to shake it awake.\nConstrict. Melee weapon attack, +6 to hit, reach 10 ft., one Medium or smaller creature. Hit 10 (2d6 + 3) bludgeoning damage and Grapple the target, escape DC 15. The target is Restrained during the grapple, and the couatl cannot constrict another target until this grapple ends.\nChange Shape. Magically take the form of a Beast or Humanoid whose CR is no higher than the couatl's, or return to its true form. It reverts to its true form on death. It chooses whether the new form absorbs its equipment or wears or carries it. It keeps its statistics and speech except for AC, movement modes, Strength, Dexterity, and its other actions, which come from the new form. It also gains statistics and capabilities it lacks, excluding class features, legendary actions, lair actions, and regional effects. If the form has a bite attack, the couatl can use its own Bite while in that form."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Monster Manual (2014), p. 43. Immunity wording and the limits on gaining a legendary form's abilities follow the official errata."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 43 · https://5e.tools/bestiary.html#couatl_mm",
-              "Detect evil and good (spell) · https://5e.tools/spells.html#detect%20evil%20and%20good_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Bless (spell) · https://5e.tools/spells.html#bless_phb",
-              "Create food and water (spell) · https://5e.tools/spells.html#create%20food%20and%20water_phb",
-              "Cure wounds (spell) · https://5e.tools/spells.html#cure%20wounds_phb",
-              "Lesser restoration (spell) · https://5e.tools/spells.html#lesser%20restoration_phb",
-              "Protection from poison (spell) · https://5e.tools/spells.html#protection%20from%20poison_phb",
-              "Sanctuary (spell) · https://5e.tools/spells.html#sanctuary_phb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_phb",
-              "Dream (spell) · https://5e.tools/spells.html#dream_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Scrying (spell) · https://5e.tools/spells.html#scrying_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#couatl_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30763/227/1000/1000/638061153443493893.png",
         "art": [
@@ -134110,7 +133784,17 @@
             "file": "/assets/library/monsters/couatl.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "couatl"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-b5ec2dad9e38a8c57db5277d",
@@ -182318,98 +182002,6 @@
       {
         "id": "printing-ac66bffcc46cfd1ec175b5a4",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 12",
-              "Initiative · 2",
-              "XP · 50",
-              "Str · 10",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 11",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A dark elf of the Underdark who can outline enemies in Faerie Fire or slip away in magical darkness."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (elf), neutral evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Chain shirt."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Elvish, Undercommon."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks."
-            ]
-          },
-          {
-            "title": "Innate spellcasting",
-            "lines": [
-              "Charisma (spell save DC 11). No material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nHand Crossbow. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage. The target makes a DC 13 Constitution save. On failure it is Poisoned for 1 hour. If it fails by at least 5, it is also Unconscious while Poisoned by the bolt. Damage wakes it, and another creature can spend an action shaking it awake."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 128."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 128 · https://5e.tools/bestiary.html#drow_mm",
-              "Chain shirt (item) · https://5e.tools/items.html#chain%20shirt_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Faerie fire (spell) · https://5e.tools/spells.html#faerie%20fire_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb",
-              "Drow (creature) · https://5e.tools/bestiary.html#drow_mm",
-              "+1 chain shirt (item) · https://5e.tools/items.html#%2B1%20chain%20shirt_dmg",
-              "+1 shortsword (item) · https://5e.tools/items.html#%2B1%20shortsword_dmg",
-              "Drow +1 chain shirt (item) · https://5e.tools/items.html#drow%20%2B1%20chain%20shirt_mm",
-              "Drow +1 shortsword (item) · https://5e.tools/items.html#drow%20%2B1%20shortsword_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#drow_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/16/501/1000/1000/636376310726273495.jpeg",
         "art": [
@@ -182417,7 +182009,17 @@
             "file": "/assets/library/worker-art/drow-f1c258e289138c92.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "drow"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-d1bfa270b4b8c4cfa76d6d24",
@@ -199778,54 +199380,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 212",
-              "Hit dice · 17d10 + 119",
-              "Challenge · 11",
-              "Type · Elemental (Genie)",
-              "Speed · 40 ft., Fly 60 ft. (hover)",
-              "XP · 7200",
-              "Str · 22",
-              "Dex · 12",
-              "Con · 24",
-              "Int · 16",
-              "Wis · 15",
-              "Cha · 19",
-              "Initiative · +1 (11)",
-              "Proficiency bonus · +4"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "efreeti"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Elemental (Genie), Neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Immunities Fire Senses Darkvision 120 ft.; Passive Perception 12 Languages Primordial (Ignan)"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Elemental Restoration. If the efreeti dies outside the Elemental Plane of Fire, its body dissolves into ash, and it gains a new body in 1d4 days, reviving with all its Hit Points somewhere on the Plane of Fire. Magic Resistance. The efreeti has Advantage on saving throws against spells and other magical effects. Wishes. The efreeti has a 30 percent chance of knowing the Wish spell. If the efreeti knows it, the efreeti can cast it only on behalf of a non-genie creature who communicates a wish in a way the efreeti can understand. If the efreeti casts the spell for the creature, the efreeti suffers none of the spell’s stress. Once the efreeti has cast it three times, the efreeti can’t do so again for 365 days."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The efreeti makes three attacks, using Heated Blade or Hurl Flame in any combination. Heated Blade. Melee Attack Roll: +10, reach 5 ft. Hit: 13 (2d6 + 6) Slashing damage plus 13 (2d12) Fire damage. Hurl Flame. Ranged Attack Roll: +8, range 120 ft. Hit: 24 (7d6) Fire damage."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Wis +6, Cha +8"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-8ebb690862ffab5454028248",
@@ -206879,48 +206443,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 1/4",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "XP · 50",
-              "Str · 10",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 11",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "elf_drow"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (elf), neutral evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +2, Stealth +4 Senses darkvision 120 ft., passive Perception 12 Languages Elvish, Undercommon"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Fey Ancestry. The drow has advantage on saving throws against being charmed, and magic can’t put the drow to sleep. Innate Spellcasting. The drow’s spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components: At will: dancing lights 1/day each: darkness, faerie fire Sunlight Sensitivity. While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Shortsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Hand Crossbow. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-70d37e87ea99ce9ae9c67e1f",

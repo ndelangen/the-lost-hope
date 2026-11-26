@@ -90,6 +90,11 @@ describe('ability text', () => {
     expect(bonus).toMatchObject({ kind: 'number', value: '+5' })
   })
 
+  it('shows a printed DC and the formula when they differ', () => {
+    const [, dc] = abilityTextSegments(['Make a ', { dc: 'str', printed: 12 }, ' save'], wolfie)
+    expect(dc).toMatchObject({ value: 'DC 12', note: expect.stringContaining('formula gives 13') })
+  })
+
   it('explains conditions and standard actions', () => {
     const [prone, disengage] = abilityTextSegments(
       ['Knocked ', refs.rules.prone, ' or ', refs.rules.disengage],

@@ -1225,70 +1225,22 @@
       {
         "id": "printing-39ab17babf0acca80f36afd5",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 68",
-              "Hit dice · 8d12 + 16",
-              "Challenge · 3",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 30 ft.",
-              "XP · 700",
-              "Str · 19",
-              "Dex · 11",
-              "Con · 15",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": [
-              "Remote mountain valleys",
-              "Isolated plateaus",
-              "Tropical islands",
-              "Deep fens"
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A low four-legged dinosaur with a broad beaked head, rounded armor plates, and a heavy bony club at the tip of its tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Passive Perception 11. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 117."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 18 (4d6 + 4) bludgeoning damage. A creature hit by the tail must pass a DC 14 Strength save or fall prone."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/ankylosaurus-12e17f9424f8.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ankylosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-20fbc187f543dbd2fa73f4fa",
@@ -3717,46 +3669,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 − 1",
-              "Challenge · 0",
-              "Type · Beast",
-              "Speed · 5 ft., fly 30 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 15",
-              "Con · 8",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 4"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bat"
           },
-          {
-            "title": "Classification",
-            "lines": ["Tiny beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses blindsight 60 ft., passive Perception 11 Languages —"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Echolocation. The bat can’t use its blindsight while deafened. Keen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on hearing."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -3775,152 +3697,44 @@
       {
         "id": "printing-933a05fb3f526fbce68ddd84",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 − 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 5 ft., fly 30 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 15",
-              "Con · 8",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Caves", "Woodland roosts", "Attics"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tiny brown bat with large upright ears, a short muzzle, and wide membranous wings."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Blindsight 60 ft. Passive Perception 11. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 119."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Echolocation. While deafened, the bat loses access to its blindsight.\nKeen Hearing. The bat has advantage on Wisdom (Perception) checks that depend on hearing."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": ["A deafened bat automatically fails ability checks that require hearing."]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/bat-166fc642f25c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-cb3d2e032f0f75d047b76eb5",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 − 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 5 ft., fly 30 ft.",
-              "Passive Perception · 11",
-              "Initiative · 2",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 15",
-              "Con · 8",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Caves", "Woodland roosts", "Attics"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tiny brown bat with large upright ears, a short muzzle, and wide membranous wings."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Blindsight 60 ft. Passive Perception 11. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, p. 318. https://anyflip.com/kqwdv/eoae/basic/301-350"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Echolocation. While deafened, the bat loses access to its blindsight.\nKeen Hearing. The bat has advantage on Wisdom (Perception) checks that depend on hearing."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": ["A deafened bat automatically fails ability checks that require hearing."]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#bat_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/18/305/1000/1000/636379812593010967.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/bat-166fc642f25c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-13f3e5e4f0761fe7f1422e8b",
@@ -7434,46 +7248,6 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 19",
-              "Hit dice · 3d8 + 6",
-              "Challenge · 1/2",
-              "Type · Beast",
-              "Speed · 40 ft., climb 30 ft.",
-              "XP · 100",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Skills Perception +3 Senses passive Perception 13 Languages —"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The bear makes two attacks: one with its bite and one with its claws. Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/black-bear.png",
@@ -7483,7 +7257,17 @@
             "file": "/assets/library/beasts/black-bear-alternate.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "black_bear"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -10157,53 +9941,23 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 34",
-              "Hit dice · 4d10 + 12",
-              "Challenge · 1",
-              "Type · Beast",
-              "Speed · 40 ft., climb 30 ft.",
-              "XP · 200",
-              "Str · 19",
-              "Dex · 10",
-              "Con · 16",
-              "Int · 2",
-              "Wis · 13",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Skills Perception +3 Senses passive Perception 13 Languages —"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The bear makes two attacks: one with its bite and one with its claws. Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage. Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
-            ]
-          }
-        ],
         "artReference": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
         "art": [
           {
             "file": "/assets/library/beasts/brown-bear.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "brown_bear"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -11627,46 +11381,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Type · Beast",
-              "Speed · 40 ft., climb 30 ft.",
-              "XP · 10",
-              "Str · 3",
-              "Dex · 15",
-              "Con · 10",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cat"
           },
-          {
-            "title": "Classification",
-            "lines": ["Tiny beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Skills Perception +3, Stealth +4 Senses passive Perception 13 Languages —"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claws. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -11685,145 +11409,43 @@
       {
         "id": "printing-51f361d896ef306925946548",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 40 ft., climb 30 ft.",
-              "XP · 10",
-              "Str · 3",
-              "Dex · 15",
-              "Con · 10",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Settlements", "Farms", "Woodland edges"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A curled brown tabby with dark stripes, a pale chin, pointed ears and a long tail wrapped around its paws."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Perception +3. Stealth +4. Passive Perception 13. No languages listed."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 121."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The cat has advantage on Wisdom (Perception) checks that use smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claws. Melee weapon attack, +0 to hit with 5-ft. reach against one target. Hit for 1 slashing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/cat-f5931b59d47a.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-490fed338ba33343d1aceb62",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 40 ft., climb 30 ft.",
-              "Passive Perception · 13",
-              "Initiative · 2",
-              "XP · 10",
-              "Str · 3",
-              "Dex · 15",
-              "Con · 10",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Settlements", "Farms", "Woodland edges"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A small, slim brown tabby with dark stripes, upright ears, and a long curved tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +3. Stealth +4. Passive Perception 13. No listed languages or special senses."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), Appendix A, printed page 320. https://www.dndbeyond.com/monsters/16820-cat"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The cat has advantage on Wisdom (Perception) checks based on scent."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claws. Melee weapon attack, +0 to hit with 5-ft. reach against one target. On a hit, deal 1 slashing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#cat_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/cat-839ed684fa8a.png",
             "credit": "Original portrait generated with built-in OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-4491a4c85f4d8a6758560255",
@@ -14502,52 +14124,22 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Type · Beast",
-              "Speed · 20 ft., swim 20 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 8",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Stealth +2 Senses blindsight 30 ft., passive Perception 9 Languages —"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The crab can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claw. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/crab.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "crab"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -14572,143 +14164,43 @@
       {
         "id": "printing-9ff25dd3a40a99110bc45d97",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft., swim 20 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 8",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Coastal", "Rocky shores", "Tide pools"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A small crab with a mottled olive shell, two front claws, and slender jointed walking legs."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Stealth +2. Blindsight 30 ft. Passive Perception 9. No listed languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 122."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The crab can breathe both air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claw. Melee weapon attack, +0 to hit, 5-ft. reach, one target. On a hit, deal 1 bludgeoning damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/crab.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "crab"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-cc80b93efd1e9fd2ebdd75af",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft., swim 20 ft.",
-              "Passive Perception · 9",
-              "Initiative · 0",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 8",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Coastal", "Rocky shores", "Tide pools"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A small crab with a mottled olive shell, two front claws, and slender jointed walking legs."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Stealth +2. Blindsight 30 ft. Passive Perception 9. No listed languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 320. https://www.dndbeyond.com/monsters/16833-crab"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The crab can breathe both air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claw. Melee weapon attack, +0 to hit, 5-ft. reach, one target. On a hit, deal 1 bludgeoning damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#crab_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/crab.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "crab"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-51ddc758937d3aa4de1d0341",
@@ -22995,52 +22487,22 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 76",
-              "Hit dice · 8d12 + 24",
-              "Challenge · 4",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "XP · 1100",
-              "Str · 22",
-              "Dex · 9",
-              "Con · 17",
-              "Int · 3",
-              "Wis · 11",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses passive Perception 10 Languages —"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Trampling Charge. If the elephant moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the elephant can make one stomp attack against it as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) piercing damage. Stomp. Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/elephant.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "elephant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -23178,88 +22640,23 @@
       {
         "id": "printing-aad101267620caa720e7253e",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 76",
-              "Hit dice · 8d12 + 24",
-              "Challenge · 4",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 10",
-              "Initiative · -1",
-              "XP · 1100",
-              "Str · 22",
-              "Dex · 9",
-              "Con · 17",
-              "Int · 3",
-              "Wis · 11",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Grasslands", "Savannas", "Open woodlands"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A massive grey elephant with broad ears, long ivory tusks and a trunk that curls at the tip."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Proficiency bonus +2. Passive Perception 10. No listed skill proficiencies, special senses or languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 322. Official online reference: https://www.dndbeyond.com/monsters/16855-elephant\nMonster Manual errata v2.0 (2018):"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Trampling Charge. Move at least 20 ft. in a straight line toward a creature and hit it with Gore on the same turn. The target makes a DC 12 Strength save and falls prone on a failure. The elephant may make one Stomp against that target as a bonus action if it is prone."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Melee weapon attack, +8 to hit against one target within 5 ft. On a hit, deal 19 (3d8 + 6) piercing damage.\nStomp. Melee weapon attack, +8 to hit against one prone creature within 5 ft. On a hit, deal 22 (3d10 + 6) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "Stomp can be used as an action against a prone creature. Trampling Charge also permits the bonus-action use described in the trait."
-            ]
-          },
-          {
-            "title": "Printing note",
-            "lines": [
-              "The first printing has +5 in both damage formulas. Official Monster Manual errata v2.0 specifically applies the +6 values to this block."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#elephant_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/elephant.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "elephant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-a4245100681a1231e0c73df0",
@@ -41415,46 +40812,22 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 1/2",
-              "Type · Beast",
-              "Speed · 10 ft., fly 50 ft.",
-              "XP · 100",
-              "Str · 10",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses passive Perception 10 Languages —"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/giant-wasp.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_wasp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -41479,69 +40852,22 @@
       {
         "id": "printing-4ba409924331bf724a3119c2",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 10 ft., fly 50 ft.",
-              "XP · 100",
-              "Str · 10",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forests", "Grasslands", "Settlements"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A giant wasp with a narrow waist, black-and-ochre bands, long curved antennae, thin veined wings, and a tapered stinger."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Passive Perception 10. No listed skills, special senses, or languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 137."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Sting. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 5 (1d6 + 2) piercing damage. The target then makes a DC 11 Constitution save against 10 (3d6) poison damage, taking half on a success. If the poison damage drops the target to 0 HP, the target is stable, poisoned for 1 hour even if it regains HP, and paralyzed as long as this poisoning lasts."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "Track piercing and poison damage separately. A stable creature makes no death saving throws while at 0 HP. While poisoned, the target has disadvantage on attack rolls and ability checks. Paralysis also incapacitates it, prevents movement and speech, and causes automatic failure of Strength and Dexterity saves. Attacks against it have advantage, and hits from within 5 ft. are critical hits."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/giant-wasp.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_wasp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-0aeb3099cf1f5d206abb9dfc",
@@ -41615,80 +40941,23 @@
       {
         "id": "printing-64517a0e66f8cc41cde363b0",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 10 ft., fly 50 ft.",
-              "Passive Perception · 10",
-              "Initiative · 2",
-              "XP · 100",
-              "Str · 10",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forests", "Grasslands", "Settlements"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A giant wasp with a narrow waist, black-and-ochre bands, long curved antennae, thin veined wings, and a tapered stinger."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Passive Perception 10. No listed skills, special senses, or languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Monster Manual, first printing (September 2014), Appendix A, printed p. 329. https://online.anyflip.com/pqhqn/sezy/index.html#p=330"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Sting. Melee weapon attack, +4 to hit against one creature within 5 ft. On a hit, deal 5 (1d6 + 2) piercing damage. The target then makes a DC 11 Constitution save against 10 (3d6) poison damage, taking half on a success. If the poison damage drops the target to 0 HP, the target is stable, poisoned for 1 hour even if it regains HP, and paralyzed as long as this poisoning lasts."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "Track piercing and poison damage separately. A stable creature makes no death saving throws while at 0 HP. While poisoned, the target has disadvantage on attack rolls and ability checks. Paralysis also incapacitates it, prevents movement and speech, and causes automatic failure of Strength and Dexterity saves. Attacks against it have advantage, and hits from within 5 ft. are critical hits."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "After the piercing hit, the target makes a DC 11 Constitution save against 3d6 poison (half on success). If the poison reduces it to 0 HP, it is stable, poisoned for one hour, and paralyzed while that poison lasts."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20wasp_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/giant-wasp.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_wasp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-da6ad8325b490bbcb969b727",
@@ -52761,40 +52030,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Type · Beast",
-              "Speed · 20 ft., climb 20 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 8",
-              "Cha · 3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lizard"
           },
-          {
-            "title": "Classification",
-            "lines": ["Tiny beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses darkvision 30 ft., passive Perception 9 Languages —"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -52813,131 +52058,43 @@
       {
         "id": "printing-6a60c1c1169e2994deca923a",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft., climb 20 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 8",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Rocky ground", "Dry scrub", "Stone walls"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tiny olive-brown lizard with pebbled scales, four splayed legs, and a long curved tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Darkvision 30 ft. Passive Perception 9. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 142."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one target. The hit deals 1 piercing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/lizard-2c5b93547010.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lizard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-aa0325a5442cf7c8aa4e2b6c",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft., climb 20 ft.",
-              "Passive Perception · 9",
-              "Initiative · 0",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 8",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Rocky ground", "Dry scrub", "Stone walls"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tiny olive-brown lizard with pebbled scales, four splayed legs, and a long curved tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Darkvision 30 ft. Passive Perception 9. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, p. 332. https://anyflip.com/kqwdv/eoae/basic/301-350"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one target. The hit deals 1 piercing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#lizard_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/lizard-2c5b93547010.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lizard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-14699e9192a8eec1a431280a",
@@ -63970,46 +63127,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 1",
-              "Hit dice · 1d4 − 1",
-              "Challenge · 0",
-              "Type · Beast",
-              "Speed · 20 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 9",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 4"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rat"
           },
-          {
-            "title": "Classification",
-            "lines": ["Tiny beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses darkvision 30 ft., passive Perception 10 Languages —"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The rat has advantage on Wisdom (Perception) checks that rely on smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -64028,150 +63155,44 @@
       {
         "id": "printing-f04b838f74606b04c741a77a",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 9",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Settlements", "Cellars", "Sewers", "Wetlands"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A small brown rodent with rounded ears, a pointed whiskered muzzle, pink feet, and a long ringed tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Darkvision 30 ft. Passive Perception 10. No listed languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Wizards of the Coast, Basic Rules (2018), and printed page 150."]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Keen Smell. Wisdom (Perception) checks that depend on smell have advantage."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +0 to hit against one target within 5 ft. A hit deals 1 piercing damage."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "For a passive Perception check based on smell, advantage raises the printed 10 to 15. The Bite deals fixed damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/rat-3ecfd8f4bf0d.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-4edc8dbd1bf87cfef32607d9",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft.",
-              "Passive Perception · 10",
-              "Initiative · 0",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 9",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Settlements", "Cellars", "Sewers", "Wetlands"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A small brown rodent with rounded ears, a pointed whiskered muzzle, pink feet, and a long ringed tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Darkvision 30 ft. Passive Perception 10. No listed languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), printed p. 335. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/337/"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Keen Smell. Wisdom (Perception) checks that depend on smell have advantage."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +0 to hit against one target within 5 ft. A hit deals 1 piercing damage."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "For a passive Perception check based on smell, advantage raises the printed 10 to 15. The Bite deals fixed damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#rat_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/16/541/1000/1000/636376335435407571.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/rat-3ecfd8f4bf0d.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-1dcd4f5ef99b04f82d529521",
@@ -65143,46 +64164,6 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 − 1",
-              "Challenge · 0",
-              "Type · Beast",
-              "Speed · 10 ft., fly 50 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 14",
-              "Con · 8",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Skills Perception +3 Senses passive Perception 13 Languages —"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Mimicry. The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Beak. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/raven.png",
@@ -65196,7 +64177,17 @@
             "file": "/assets/library/worker-art/raven-600befd6a0e33f23.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "raven"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -65229,67 +64220,6 @@
       {
         "id": "printing-0562f6f9d2848ca581635fbe",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 10 ft., fly 50 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 14",
-              "Con · 8",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Woodland edges", "Rocky uplands", "Settlements", "Carrion sites"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A black corvid with a heavy beak, shaggy throat feathers and a slate sheen across its folded wings."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +3. Passive Perception 13. No listed special senses or languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, D&D Basic Rules v1.0 (2018), chapter 12, printed and p. 150."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Mimicry. The raven can imitate simple sounds it has heard. A creature hearing the imitation identifies it with a successful DC 10 Wisdom (Insight) check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 1 piercing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/raven.png",
@@ -65303,7 +64233,17 @@
             "file": "/assets/library/worker-art/raven-600befd6a0e33f23.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "raven"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-83b84338197a97057afcda8d",
@@ -65387,71 +64327,8 @@
       {
         "id": "printing-8567e260c86d3cd4a15dda92",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 10 ft., fly 50 ft.",
-              "Passive Perception · 13",
-              "Initiative · 2",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 14",
-              "Con · 8",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Woodland edges", "Rocky uplands", "Settlements", "Carrion sites"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A black corvid with a heavy beak, shaggy throat feathers and a slate sheen across its folded wings."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +3. Passive Perception 13. No listed special senses or languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), Appendix A, printed p. 335. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page336.html"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Mimicry. The raven can imitate simple sounds it has heard. A creature hearing the imitation identifies it with a successful DC 10 Wisdom (Insight) check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 1 piercing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#raven_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/16/553/1000/1000/636376341568391037.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/raven.png",
@@ -65465,7 +64342,17 @@
             "file": "/assets/library/worker-art/raven-600befd6a0e33f23.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "raven"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-6f8d2134bf33e2358890c055",
@@ -81305,207 +80192,63 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 95",
-              "Hit dice · 10d12 + 30",
-              "Challenge · 5",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "XP · 1800",
-              "Str · 22",
-              "Dex · 9",
-              "Con · 17",
-              "Int · 2",
-              "Wis · 11",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses passive Perception 10 Languages —"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Trampling Charge. If the triceratops moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the triceratops can make one stomp attack against it as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) piercing damage. Stomp. Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/triceratops.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "triceratops"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
       },
       {
         "id": "printing-4dc167eff46ebbbad7593c8a",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 95",
-              "Hit dice · 10d12 + 30",
-              "Challenge · 5",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "XP · 1800",
-              "Str · 22",
-              "Dex · 9",
-              "Con · 17",
-              "Int · 2",
-              "Wis · 11",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Grassland", "Open plains", "Open woodland"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A heavy four-legged dinosaur with rough brown hide, a broad bony frill, two long brow horns, a shorter nose horn, and a heavy tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "AC from natural armor. Passive Perception 10. No listed languages or special senses."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Wizards of the Coast, Basic Rules (2018), and printed page 156."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Trampling Charge. Move at least 20 ft. directly toward a creature and hit it with Gore that turn. The creature must pass a DC 13 Strength save or fall prone. If that target is prone, the triceratops can Stomp it once as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Melee weapon attack, +9 to hit against one target within 5 ft. A hit deals 24 (4d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit against one prone creature within 5 ft. A hit deals 22 (3d10 + 6) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "Stomp can be chosen as the normal action against a prone creature. Trampling Charge is what enables the bonus-action Stomp against the creature hit by Gore."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/triceratops.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "triceratops"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-08449a0a6a1e44f919e01796",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 95",
-              "Hit dice · 10d12 + 30",
-              "Challenge · 5",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 10",
-              "Initiative · -1",
-              "XP · 1800",
-              "Str · 22",
-              "Dex · 9",
-              "Con · 17",
-              "Int · 2",
-              "Wis · 11",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Grassland", "Open plains", "Open woodland"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A heavy four-legged dinosaur with rough brown hide, a broad bony frill, two long brow horns, a shorter nose horn, and a heavy tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "AC from natural armor. Passive Perception 10. No listed languages or special senses."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), printed p. 80. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/82/"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Trampling Charge. Move at least 20 ft. directly toward a creature and hit it with Gore that turn. The creature must pass a DC 13 Strength save or fall prone. If that target is prone, the triceratops can Stomp it once as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Melee weapon attack, +9 to hit against one target within 5 ft. A hit deals 24 (4d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit against one prone creature within 5 ft. A hit deals 22 (3d10 + 6) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "Stomp can be chosen as the normal action against a prone creature. Trampling Charge is what enables the bonus-action Stomp against the creature hit by Gore."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#triceratops_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/triceratops.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "triceratops"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-a7594358e6d8ffa4e41ca102",

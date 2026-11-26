@@ -87,14 +87,19 @@ function segmentFor(
   }
 
   if ('dc' in token) {
-    const dc = block.saveDc[token.dc]
+    const formula = block.saveDc[token.dc]
+    const dc = token.printed ?? formula
     const save = rules[token.save ?? token.dc].name
+    const printed =
+      token.printed !== undefined && token.printed !== formula
+        ? ` As printed; the formula gives ${formula}.`
+        : ''
     return dc === undefined
       ? { kind: 'text', text: `${save} save` }
       : {
           kind: 'number',
           value: `DC ${dc}`,
-          note: `The target rolls d20 + its ${save} saving throw bonus and succeeds on ${dc} or higher.`,
+          note: `The target rolls d20 + its ${save} saving throw bonus and succeeds on ${dc} or higher.${printed}`,
         }
   }
 

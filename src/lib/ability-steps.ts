@@ -279,7 +279,7 @@ function targetStep(save: Save, you: boolean): DmStep {
 }
 
 function saveSteps(save: Save, stats: AnyStatBlock): DmStep[] {
-  const dc = 8 + proficiencyOf(stats) + modifier(stats.scores[save.dc])
+  const dc = save.printedDc ?? 8 + proficiencyOf(stats) + modifier(stats.scores[save.dc])
   const ability = rules[save.ability].name
   const who =
     'creatures' in save.target && save.target.creatures === 1
