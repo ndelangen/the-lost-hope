@@ -162,9 +162,12 @@ def main():
   for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
     for rec in json.load(open(os.path.join(os.environ.get('LIBRARY_JSON_DIR',os.path.join(REPO,'src/lib/published-library-catalog')),f+'.json'))):
       for p in rec['printings']: recs_for_pubs[(rec['type'],rec['slug'],p['id'])]=p
+  extras={}
   for extra in filter(None,os.environ.get('EXTRA_PRINTINGS','').split(':')):
     for rec in json.load(open(extra)):
-      for p in rec['printings']: recs_for_pubs.setdefault((rec['type'],rec['slug'],p['id']),p)
+      for p in rec['printings']:
+        recs_for_pubs.setdefault((rec['type'],rec['slug'],p['id']),p)
+        extras[(rec['type'],rec['slug'],p['id'])]=p
   for r in rows:
     if r['label'] in OPEN5E_PUBS: PUBS[r['label']]=OPEN5E_PUBS[r['label']]
     if r['label'] not in PUBS: PUBS[r['label']]=publication_for(r,recs_for_pubs.get((r['type'],r['slug'],r['printing'])) or {'gm':[]})
@@ -200,7 +203,8 @@ def main():
     for key in sorted(mons):
       r=mons[key]; b=r['block']; m=r['meta']
       # Habitats, appearance and notes come from the worker's record of the same printing.
-      src=next((recs[k] for k in [(t,r['slug'],r['printing']) for t in ('monsters','beasts','npcs')] if k in recs),{'gm':[]})
+      # A printing rewritten or read from a PDF (EXTRA_PRINTINGS) carries its own notes and lore.
+      src=next((d[k] for d in (extras,recs) for k in [(t,r['slug'],r['printing']) for t in ('monsters','beasts','npcs')] if k in d),{'gm':[]})
       L.append(f'    {key}: {{'); L.append(f'      name: {js(r["name"])},')
       rp=reprints.get((pk,key))
       if rp: L.append('      reprintedIn: ['+', '.join(f'refs.publications.{x}' for x in sorted(rp))+'],')
