@@ -71,9 +71,7 @@ function build() {
   const typedEquipment = typedWords('equipment')
   const typedText = (printings: Printing[]) =>
     printings.flatMap(({ typed }) => {
-      const ref = typed as
-        | { magicItem?: { key: string }; equipment?: { key: string } }
-        | undefined
+      const ref = typed as { magicItem?: { key: string }; equipment?: { key: string } } | undefined
       if (ref?.magicItem) return typedItems.get(ref.magicItem.key) ?? []
       if (ref?.equipment) return typedEquipment.get(ref.equipment.key) ?? []
       return []

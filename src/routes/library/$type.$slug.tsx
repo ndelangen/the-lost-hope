@@ -7,12 +7,12 @@ import {
 } from '@tanstack/react-router'
 import { ArrowLeft } from 'lucide-react'
 
+import { EquipmentRules } from '#/components/library/equipment-rules'
 import { LibraryAttribution } from '#/components/library/library-attribution'
 import { LibraryCreatureSheet } from '#/components/library/library-creature-sheet'
 import { LibraryGallery } from '#/components/library/library-gallery'
 import { LibraryRuleText } from '#/components/library/library-rule-text'
 import { LibraryTypedCreature } from '#/components/library/library-typed-creature'
-import { EquipmentRules } from '#/components/library/equipment-rules'
 import { MagicItemRules } from '#/components/library/magic-item-rules'
 import {
   isLibraryType,

@@ -841,9 +841,7 @@ export function ItemEffectPicker({
     setPicked({ state: 'loading', name })
     const publication = { ref: 'publication', key: book.replaceAll('-', '_') } as const
     void (
-      item.ref === 'equipment'
-        ? loadEquipment(item, publication)
-        : loadMagicItem(item, publication)
+      item.ref === 'equipment' ? loadEquipment(item, publication) : loadMagicItem(item, publication)
     ).then((loaded) =>
       setPicked((current) =>
         current?.name !== name

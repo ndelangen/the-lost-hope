@@ -303,35 +303,35 @@ export const EQUIPMENT_CATEGORIES = [
  */
 export const Equipment = z
   .strictObject({
-  name: z.string().trim().min(1),
-  category: z.enum(EQUIPMENT_CATEGORIES),
-  detail: z
-    .string()
-    .trim()
-    .min(1)
-    .optional()
-    .describe('A finer kind, e.g. `Ingested` for a poison or `Artisan’s Tools`'),
-  price: Price.optional().describe('What it costs, as the publication prints it'),
-  priceEstimated: z
-    .literal(true)
-    .optional()
-    .describe('The price is our estimate, not printed by any book'),
-  weight: z.number().nonnegative().optional().describe('Pounds'),
-  text: Content,
-  effects: z
-    .array(ItemEffect)
-    .refine((effects) => {
-      const keys = effects.flatMap((effect) => [
-        effect.key,
-        ...(effect.becomes ? [effect.becomes.key] : []),
-      ])
-      return new Set(keys).size === keys.length
-    }, 'Effect keys are unique within the equipment')
-    .optional()
-    .describe(
-      'What it leaves on a creature, for the tracker to apply. `[]`: checked, nothing lasting; left out: not checked yet',
-    ),
-  publication: PublicationRef,
+    name: z.string().trim().min(1),
+    category: z.enum(EQUIPMENT_CATEGORIES),
+    detail: z
+      .string()
+      .trim()
+      .min(1)
+      .optional()
+      .describe('A finer kind, e.g. `Ingested` for a poison or `Artisan’s Tools`'),
+    price: Price.optional().describe('What it costs, as the publication prints it'),
+    priceEstimated: z
+      .literal(true)
+      .optional()
+      .describe('The price is our estimate, not printed by any book'),
+    weight: z.number().nonnegative().optional().describe('Pounds'),
+    text: Content,
+    effects: z
+      .array(ItemEffect)
+      .refine((effects) => {
+        const keys = effects.flatMap((effect) => [
+          effect.key,
+          ...(effect.becomes ? [effect.becomes.key] : []),
+        ])
+        return new Set(keys).size === keys.length
+      }, 'Effect keys are unique within the equipment')
+      .optional()
+      .describe(
+        'What it leaves on a creature, for the tracker to apply. `[]`: checked, nothing lasting; left out: not checked yet',
+      ),
+    publication: PublicationRef,
   })
   .refine((item) => !item.priceEstimated || item.price, 'An estimated price needs a price')
 
