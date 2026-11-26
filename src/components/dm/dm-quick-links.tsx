@@ -42,8 +42,8 @@ export function DmQuickLinks({ stackAt = 'lg' }: { stackAt?: 'lg' | 'xl' | 'neve
       <Link to="/dm/arcs" className={linkClass}>
         <BookOpen className="size-4" /> Arcs
       </Link>
-      <Link to="/dm/encounter" className={linkClass}>
-        <Sword className="size-4" /> Encounters
+      <Link to="/dm/now" className={linkClass}>
+        <Sword className="size-4" /> Now
       </Link>
       <Link to="/dm/tools/deck-of-many-things" className={linkClass}>
         <Layers className="size-4" /> Deck

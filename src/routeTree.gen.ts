@@ -39,7 +39,6 @@ import { Route as BeastsDetailSlugRouteImport } from './routes/beasts/detail.$sl
 import { Route as CardsDetailSlugRouteImport } from './routes/cards/detail.$slug'
 import { Route as DmArcsIndexRouteImport } from './routes/dm/arcs/index'
 import { Route as DmArcsSlugRouteImport } from './routes/dm/arcs/$slug'
-import { Route as DmEncounterIndexRouteImport } from './routes/dm/encounter/index'
 import { Route as DmItemsSlugRouteImport } from './routes/dm/items/$slug'
 import { Route as DmNpcsSlugRouteImport } from './routes/dm/npcs/$slug'
 import { Route as DmNpcsNewRouteImport } from './routes/dm/npcs/new'
@@ -214,11 +213,6 @@ const DmArcsSlugRoute = DmArcsSlugRouteImport.update({
   path: '/arcs/$slug',
   getParentRoute: () => DmRouteRoute,
 } as any)
-const DmEncounterIndexRoute = DmEncounterIndexRouteImport.update({
-  id: '/encounter/',
-  path: '/encounter/',
-  getParentRoute: () => DmRouteRoute,
-} as any)
 const DmItemsSlugRoute = DmItemsSlugRouteImport.update({
   id: '/items/$slug',
   path: '/items/$slug',
@@ -384,7 +378,6 @@ export interface FileRoutesByFullPath {
   '/quests/detail/$slug': typeof QuestsDetailSlugRoute
   '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
   '/dm/arcs/': typeof DmArcsIndexRoute
-  '/dm/encounter/': typeof DmEncounterIndexRoute
   '/dm/scenes/': typeof DmScenesIndexRoute
   '/library/$type/': typeof LibraryTypeIndexRoute
   '/library/spells/': typeof LibrarySpellsIndexRoute
@@ -439,7 +432,6 @@ export interface FileRoutesByTo {
   '/quests/detail/$slug': typeof QuestsDetailSlugRoute
   '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
   '/dm/arcs': typeof DmArcsIndexRoute
-  '/dm/encounter': typeof DmEncounterIndexRoute
   '/dm/scenes': typeof DmScenesIndexRoute
   '/library/$type': typeof LibraryTypeIndexRoute
   '/library/spells': typeof LibrarySpellsIndexRoute
@@ -496,7 +488,6 @@ export interface FileRoutesById {
   '/quests/detail/$slug': typeof QuestsDetailSlugRoute
   '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
   '/dm/arcs/': typeof DmArcsIndexRoute
-  '/dm/encounter/': typeof DmEncounterIndexRoute
   '/dm/scenes/': typeof DmScenesIndexRoute
   '/library/$type/': typeof LibraryTypeIndexRoute
   '/library/spells/': typeof LibrarySpellsIndexRoute
@@ -554,7 +545,6 @@ export interface FileRouteTypes {
     | '/quests/detail/$slug'
     | '/sessions/detail/$slug'
     | '/dm/arcs/'
-    | '/dm/encounter/'
     | '/dm/scenes/'
     | '/library/$type/'
     | '/library/spells/'
@@ -609,7 +599,6 @@ export interface FileRouteTypes {
     | '/quests/detail/$slug'
     | '/sessions/detail/$slug'
     | '/dm/arcs'
-    | '/dm/encounter'
     | '/dm/scenes'
     | '/library/$type'
     | '/library/spells'
@@ -665,7 +654,6 @@ export interface FileRouteTypes {
     | '/quests/detail/$slug'
     | '/sessions/detail/$slug'
     | '/dm/arcs/'
-    | '/dm/encounter/'
     | '/dm/scenes/'
     | '/library/$type/'
     | '/library/spells/'
@@ -930,13 +918,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DmArcsSlugRouteImport
       parentRoute: typeof DmRouteRoute
     }
-    '/dm/encounter/': {
-      id: '/dm/encounter/'
-      path: '/encounter'
-      fullPath: '/dm/encounter/'
-      preLoaderRoute: typeof DmEncounterIndexRouteImport
-      parentRoute: typeof DmRouteRoute
-    }
     '/dm/items/$slug': {
       id: '/dm/items/$slug'
       path: '/items/$slug'
@@ -1112,7 +1093,6 @@ interface DmRouteRouteChildren {
   DmToolsDeckOfManyThingsRoute: typeof DmToolsDeckOfManyThingsRoute
   DmToolsFightSimsRoute: typeof DmToolsFightSimsRoute
   DmArcsIndexRoute: typeof DmArcsIndexRoute
-  DmEncounterIndexRoute: typeof DmEncounterIndexRoute
   DmScenesIndexRoute: typeof DmScenesIndexRoute
 }
 
@@ -1127,7 +1107,6 @@ const DmRouteRouteChildren: DmRouteRouteChildren = {
   DmToolsDeckOfManyThingsRoute: DmToolsDeckOfManyThingsRoute,
   DmToolsFightSimsRoute: DmToolsFightSimsRoute,
   DmArcsIndexRoute: DmArcsIndexRoute,
-  DmEncounterIndexRoute: DmEncounterIndexRoute,
   DmScenesIndexRoute: DmScenesIndexRoute,
 }
 

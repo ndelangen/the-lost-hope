@@ -1,7 +1,7 @@
 import type { DmContent } from '#/definitions/content'
 import type { EntityRef } from '#/definitions/kind'
 import { DEFAULT_AVATAR } from '#/definitions/media'
-import type { FightPlace, Scene, SceneBeatFight, SceneOpponent } from '#/definitions/scene'
+import type { Scene, SceneBeatFight, SceneOpponent } from '#/definitions/scene'
 import type { OwnOrSharedStatBlock, PcStatBlock } from '#/definitions/stat-block'
 import { effectsOn, type EntityOf } from '#/lib/campaign'
 import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
@@ -252,13 +252,6 @@ export type SceneFight = FightLineUp & {
   key: string
   onlyIf: DmContent | undefined
   creatures: CreatureRef[]
-  /** The rooms of the vessel it is fought in. Empty when it is not tied to a room. */
-  where: FightPlace[]
-}
-
-/** The rooms of its vessel that the party has already fought through, from every beat. */
-export function sceneCleared(scene: Scene): FightPlace[] {
-  return scene.beats.flatMap((beat) => beat.cleared)
 }
 
 /** The fights of a scene, in the order of its script. */
@@ -271,7 +264,6 @@ export function sceneFights(scene: Scene): SceneFight[] {
             onlyIf: beat.onlyIf,
             ...fightLineUp(beat.fight),
             creatures: creaturesOf([...beat.fight.opponents, ...beat.fight.allies]),
-            where: beat.fight.where,
           },
         ]
       : [],

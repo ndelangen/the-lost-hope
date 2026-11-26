@@ -118,7 +118,9 @@ export default createScene({
         {
           note: [
             [
-              'Escape pods: the room board shows which rooms have them. Climbing in and launching costs an action, and that character is out of the fight.',
+              'Escape pods: the deck plan of ',
+              refs.items.ride_the_lightning,
+              ' shows which rooms have them. Climbing in and launching costs an action, and that character is out of the fight.',
             ],
           ],
         },
@@ -126,7 +128,6 @@ export default createScene({
     },
     {
       title: 'The bow',
-      cleared: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 1 }],
       lines: [
         {
           do: [
@@ -141,7 +142,6 @@ export default createScene({
     {
       title: 'The batteries',
       fight: {
-        where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 2 }],
         opponents: [
           {
             creature: refs.npcs.hand_breaker,
@@ -188,7 +188,6 @@ export default createScene({
     {
       title: 'The lower deck',
       fight: {
-        where: [{ deck: refs.locations.ride_the_lightning_gun_deck }],
         opponents: [
           {
             creature: refs.npcs.cloaked_snatcher,
@@ -228,7 +227,6 @@ export default createScene({
     {
       title: 'The Barracks',
       fight: {
-        where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 3, side: 'port' }],
         opponents: [
           {
             creature: refs.npcs.hand_breaker,
@@ -589,7 +587,6 @@ export default createScene({
     {
       title: 'The Helm',
       fight: {
-        where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 4, side: 'starboard' }],
         opponents: [
           {
             creature: refs.npcs.ilsa_corrow,

@@ -1,39 +1,30 @@
-import { Link, createFileRoute, notFound, useNavigate } from '@tanstack/react-router'
-import { ArrowRight, ChevronRight, Pin, X } from 'lucide-react'
-import { useEffect, useRef, useState } from 'react'
-import { z } from 'zod'
+import { Link, createFileRoute, notFound } from '@tanstack/react-router'
+import { ArrowRight, Pin } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { SceneBranches } from '#/components/dm/scene-branches'
 import { SceneBriefsPanel } from '#/components/dm/scene-briefs'
 import { SceneEncounterStart } from '#/components/dm/scene-encounter-start'
-import { BeatBody, SceneScript } from '#/components/dm/scene-script'
-import { ShipRoomBoard } from '#/components/dm/ship-room-board'
+import { SceneScript } from '#/components/dm/scene-script'
 import { ImageViewer } from '#/components/image-viewer'
 import type { Item } from '#/definitions/item'
 import type { EntityRef } from '#/definitions/kind'
 import type { Location } from '#/definitions/location'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { arcs, sceneBriefs, sceneShipAboard, scenes, table } from '#/lib/dm-campaign'
+import { arcs, sceneBriefs, scenes, table } from '#/lib/dm-campaign'
 import { plotsByScene } from '#/lib/dm-dashboard'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import type { PlayerScreenImage } from '#/lib/player-screen-state'
 import { buildSceneBranches } from '#/lib/scene-branches'
 import { nextScenes } from '#/lib/scene-flow'
-import { buildSceneScript, buildScriptBeat } from '#/lib/scene-script'
+import { buildSceneScript } from '#/lib/scene-script'
 import { cn } from '#/lib/utils'
 
 const locationRecords: Readonly<Partial<Record<string, Location>>> = SOURCE_REGISTRIES.location
 const itemRecords: Readonly<Partial<Record<string, Item>>> = SOURCE_REGISTRIES.item
 
-const Search = z.strictObject({
-  /** A scene aboard a ship leads with the ship; `full` is the whole page top to bottom. */
-  layout: z.enum(['ship', 'full']).optional().catch(undefined),
-})
-
 export const Route = createFileRoute('/dm/scenes/$slug')({
-  validateSearch: Search,
   loader: ({ params }) => {
     const entry = Object.entries(scenes).find(([, scene]) => scene.slug === params.slug)
     if (!entry) throw notFound()
@@ -74,18 +65,6 @@ function SceneRoute() {
   // The player screen only runs in local dev, and only shows scenes that have a picture.
   const picture =
     import.meta.env.DEV && resolvePlayerScreenImage(sceneImage) ? sceneImage : undefined
-  const ship = sceneShipAboard(scene)
-  const search = Route.useSearch()
-  const navigate = useNavigate({ from: Route.fullPath })
-  const shipFirst = Boolean(ship) && search.layout !== 'full'
-  // The room whose notes are open under the ship, by the title of its beat.
-  const [room, setRoom] = useState<string>()
-  const roomAt = scene.beats.findIndex((beat) => beat.title === room)
-  const roomBeat = roomAt >= 0 ? buildScriptBeat(scene.beats[roomAt]!, roomAt + 1) : undefined
-  const roomSheet = useRef<HTMLElement>(null)
-  useEffect(() => {
-    if (room) roomSheet.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
-  }, [room])
 
   const illustrations =
     scene.illustrations.length > 0 ? (
@@ -140,13 +119,6 @@ function SceneRoute() {
     ) : null
   const briefsPanel = briefCount > 0 ? <SceneBriefsPanel briefs={briefs} /> : null
   const setup = <ContentRenderer content={scene.setup} />
-  const shipBoard = ship ? (
-    <ShipRoomBoard
-      sceneKey={key}
-      ship={ship}
-      onNotes={shipFirst ? (fight) => setRoom(fight.key) : undefined}
-    />
-  ) : null
   const scriptList =
     script.length > 0 ? <SceneScript sceneKey={key} script={script} picture={picture} /> : null
   const anyTime = scene.outcomes.length > 0 ? <SceneBranches branches={branches} /> : null
@@ -200,7 +172,6 @@ function SceneRoute() {
     ) : null
 
   return (
-    // The ship board needs the width, so the shortcuts sit in a row above the scene.
     <div className="grid grid-cols-[minmax(0,1fr)] gap-4">
       <DmQuickLinks stackAt="never" />
       <article className="border-border bg-card grid min-w-0 content-start gap-5 rounded-xl border p-6">
@@ -228,130 +199,29 @@ function SceneRoute() {
           <ContentRenderer
             content={[locations.flatMap((ref, index) => [index === 0 ? 'at ' : ' or ', ref])]}
           />
-          {ship ? (
-            <fieldset className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-2">
-              <legend className="sr-only">Page layout</legend>
-              <span aria-hidden className="text-sm font-semibold">
-                Page layout
-              </span>
-              <div className="border-border flex overflow-hidden rounded-xl border-2">
-                {(
-                  [
-                    ['ship', 'Ship first'],
-                    ['full', 'Full page'],
-                  ] as const
-                ).map(([value, label]) => (
-                  <label
-                    key={value}
-                    className={cn(
-                      'border-border has-focus-visible:ring-ring/50 grid h-12 cursor-pointer place-items-center border-l-2 px-4 text-base font-bold first:border-l-0 has-focus-visible:ring-3',
-                      (value === 'ship') === shipFirst
-                        ? 'bg-primary text-primary-foreground'
-                        : 'hover:bg-muted',
-                    )}
-                  >
-                    <input
-                      type="radio"
-                      name="scene-layout"
-                      className="sr-only"
-                      checked={(value === 'ship') === shipFirst}
-                      onChange={() =>
-                        void navigate({
-                          search: { layout: value === 'full' ? 'full' : undefined },
-                          replace: true,
-                          resetScroll: false,
-                        })
-                      }
-                    />
-                    {label}
-                  </label>
-                ))}
-              </div>
-            </fieldset>
-          ) : null}
         </header>
 
-        {shipFirst ? (
-          <>
-            {shipBoard}
-            {roomBeat ? (
-              <section
-                ref={roomSheet}
-                aria-label={`Notes for ${roomBeat.title}`}
-                className="border-primary ring-primary/30 bg-card grid scroll-mt-20 gap-4 rounded-xl border p-4 ring-2"
-              >
-                <header className="flex items-center gap-3">
-                  <h2 className="min-w-0 flex-1 text-lg leading-tight font-semibold">
-                    {roomBeat.title}
-                  </h2>
-                  <button
-                    type="button"
-                    onClick={() => setRoom(undefined)}
-                    className="border-border hover:bg-muted flex h-12 items-center gap-2 rounded-xl border px-4 font-semibold"
-                  >
-                    <X className="size-5" aria-hidden /> Close
-                  </button>
-                </header>
-                <BeatBody beat={roomBeat} />
-              </section>
-            ) : null}
-            <Fold title="Setup">{setup}</Fold>
-            {scriptList ? (
-              <Fold title={`Script · ${script.length} beats`}>{scriptList}</Fold>
-            ) : null}
-            {anyTime ? (
-              <Fold title={`At any time, if… · ${scene.outcomes.length}`}>{anyTime}</Fold>
-            ) : null}
-            {briefsPanel ? (
-              <Fold title={`People and items · ${briefCount}`}>{briefsPanel}</Fold>
-            ) : null}
-            {illustrations || battleMapList ? (
-              <Fold title="Pictures and battlemaps">
-                {illustrations}
-                {battleMapList ? <Titled title="Battlemaps">{battleMapList}</Titled> : null}
-              </Fold>
-            ) : null}
-          </>
-        ) : (
-          <>
-            {illustrations}
-            {battleMapList ? <Titled title="Battlemaps">{battleMapList}</Titled> : null}
-            {/* The ship board needs the full width, so it sits above the side column. */}
-            {shipBoard}
-            {/* From lg up, the people stay in reach in a column that follows the script down. */}
-            <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_20rem]">
-              {briefsPanel ? (
-                <aside
-                  aria-label="People and items"
-                  className="lg:sticky lg:top-20 lg:col-start-2 lg:row-start-1 lg:max-h-[calc(100vh-6rem)] lg:self-start lg:overflow-y-auto"
-                >
-                  {briefsPanel}
-                </aside>
-              ) : null}
-              <div className="grid min-w-0 grid-cols-[minmax(0,1fr)] content-start gap-5 lg:col-start-1 lg:row-start-1">
-                <Titled title="Setup">{setup}</Titled>
-                {scriptList}
-                {anyTime ? <Titled title="At any time, if…">{anyTime}</Titled> : null}
-              </div>
-            </div>
-          </>
-        )}
+        {illustrations}
+        {battleMapList ? <Titled title="Battlemaps">{battleMapList}</Titled> : null}
+        {/* From lg up, the people stay in reach in a column that follows the script down. */}
+        <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_20rem]">
+          {briefsPanel ? (
+            <aside
+              aria-label="People and items"
+              className="lg:sticky lg:top-20 lg:col-start-2 lg:row-start-1 lg:max-h-[calc(100vh-6rem)] lg:self-start lg:overflow-y-auto"
+            >
+              {briefsPanel}
+            </aside>
+          ) : null}
+          <div className="grid min-w-0 grid-cols-[minmax(0,1fr)] content-start gap-5 lg:col-start-1 lg:row-start-1">
+            <Titled title="Setup">{setup}</Titled>
+            {scriptList}
+            {anyTime ? <Titled title="At any time, if…">{anyTime}</Titled> : null}
+          </div>
+        </div>
         {nextList}
       </article>
     </div>
-  )
-}
-
-/** A section of the page folded down to its title, opened when the DM needs it. */
-function Fold({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <details className="group border-border rounded-xl border">
-      <summary className="hover:bg-muted flex h-12 cursor-pointer list-none items-center gap-2 rounded-xl px-4 font-semibold [&::-webkit-details-marker]:hidden">
-        <ChevronRight className="size-5 transition-transform group-open:rotate-90" aria-hidden />
-        {title}
-      </summary>
-      <div className="grid gap-5 p-4 pt-2">{children}</div>
-    </details>
   )
 }
 

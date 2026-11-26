@@ -11,7 +11,6 @@ import {
   plotCast,
   sceneBriefs,
   sceneMentions,
-  sceneShipAboard,
   scenes,
   sessionsForArc,
   validateDmReferences,
@@ -110,13 +109,6 @@ describe('DM campaign model', () => {
       .filter(([, entry]) => entry.beats.length === 0)
       .map(([key]) => key)
     expect(withoutScript).toEqual([])
-  })
-
-  it('gives every scene fought aboard a vessel one with a hull', () => {
-    const withoutHull = Object.entries(scenes)
-      .filter(([, entry]) => entry.aboard && !sceneShipAboard(entry))
-      .map(([key]) => key)
-    expect(withoutHull).toEqual([])
   })
 
   it('allows the same event in several arcs while the session owns play order', () => {

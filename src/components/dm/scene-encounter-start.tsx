@@ -11,7 +11,7 @@ import { useLoadPreset } from './use-load-preset'
 
 /**
  * A scene's starting enemies, loaded into the one encounter: they start the fight, join the
- * running one, or replace it. A scene without them links to the encounter.
+ * running one, or replace it. A scene without them opens on the Now screen.
  */
 export function SceneEncounterStart({ sceneKey, scene }: { sceneKey: string; scene: Scene }) {
   const [encounter] = useEncounter()
@@ -20,10 +20,11 @@ export function SceneEncounterStart({ sceneKey, scene }: { sceneKey: string; sce
   if (!preset)
     return (
       <Link
-        to="/dm/encounter"
+        to="/dm/now"
+        search={{ scene: scene.slug }}
         className="border-border hover:bg-muted flex w-fit items-center gap-2 rounded-md border px-3 py-1.5 text-sm"
       >
-        <Sword className="size-4" /> Open the encounter
+        <Sword className="size-4" /> Run it on the Now screen
       </Link>
     )
   return (

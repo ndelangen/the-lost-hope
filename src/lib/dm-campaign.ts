@@ -15,8 +15,6 @@ import { campaignSessions, resolveRef, sessionSlugForEvent } from '#/lib/campaig
 import { collectReferences } from '#/lib/campaign-read-model'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { buildDeckCards } from '#/lib/deck'
-import { vesselHull } from '#/lib/ship-decks'
-import type { ShipAboard } from '#/lib/ship-rooms'
 
 export const arcs: Readonly<Record<string, Arc>> = arcRecords
 export const scenes: Readonly<Record<string, Scene>> = sceneRecords
@@ -100,12 +98,6 @@ export function plotCast(plot: Plot): EntityRef<'npc'>[] {
   const scene = plot.scene ? resolveScene(plot.scene) : undefined
   const keys = new Set(plot.npcs.map((npc) => npc.key))
   return [...plot.npcs, ...(scene?.npcs ?? []).filter((npc) => !keys.has(npc.key))]
-}
-
-/** The vessel a scene is fought aboard, with its layout, when the vessel has one. */
-export function sceneShipAboard(scene: Scene): ShipAboard | undefined {
-  const vessel = scene.aboard ? vesselHull(scene.aboard.key) : undefined
-  return scene.aboard && vessel ? { vessel: scene.aboard, ...vessel } : undefined
 }
 
 export function npcMotivations(ref: EntityRef<'npc'>) {
