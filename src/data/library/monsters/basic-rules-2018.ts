@@ -128,6 +128,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales fire in a 60-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -528,6 +529,7 @@ export default createPublicationMonsters({
             text: ['The dragon head exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1241,6 +1243,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -1276,6 +1279,7 @@ export default createPublicationMonsters({
             text: ['The hound exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1308,6 +1312,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'longsword',
@@ -2307,6 +2312,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'snow-camouflage',
@@ -2364,6 +2370,7 @@ export default createPublicationMonsters({
             text: ['The wolf exhales a blast of freezing wind in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2552,6 +2559,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales poisonous gas in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

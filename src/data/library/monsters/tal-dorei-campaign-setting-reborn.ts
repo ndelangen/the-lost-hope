@@ -34,6 +34,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               '. Cantrips at will · Guidance, Shillelagh. 1st level, 4 slots · Entangle, Fog Cloud, Jump. 2nd level, 2 slots · Gust of Wind, Pass without Trace.',
             ],
+            effects: [],
           },
           {
             key: 'evasion',
@@ -90,6 +91,7 @@ export default createPublicationMonsters({
               refs.spells.fly_srd_5_1,
               ' spell on oneself. Its duration is up to 1 minute and it requires no concentration.',
             ],
+            effects: [],
           },
           {
             key: 'slow-fall',
@@ -203,6 +205,7 @@ export default createPublicationMonsters({
               { toHit: 'cha' },
               '. These spells require no material components. At will · Ray of Frost (3d8), Water Walk. 3/day each · Ice Storm, Sleet Storm, Wind Wall. 1/day each · Control Weather, Storm of Vengeance.',
             ],
+            effects: [],
           },
           {
             key: 'one-eyed',

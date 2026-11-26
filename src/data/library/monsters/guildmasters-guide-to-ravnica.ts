@@ -187,6 +187,7 @@ export default createPublicationMonsters({
               rules.prone,
               ', or both, she can prevent both outcomes.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -344,6 +345,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks). Cantrips (at will). Acid Splash, Light, Mending, Poison Spray, Shocking Grasp. 1st level (4 slots). Detect Magic, Grease, Shield. 2nd level (3 slots). Alter Self, Darkvision, Enlarge/Reduce, Hold Person. 3rd level (3 slots). Counterspell, Dispel Magic, Haste, Protection from Energy. 4th level (3 slots). Confusion, Conjure Minor Elementals, Polymorph. 5th level (2 slots). Cone of Cold, Creation, Hold Monster. 6th level (1 slot). Move Earth, Wall of Ice. 7th level (1 slot). Prismatic Spray. 8th level (1 slot). Control Weather.',
             ],
+            effects: [],
           },
           {
             key: 'bolstering-presence',
@@ -754,6 +756,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               ' to hit with spell attacks). Cantrips (at will). Druidcraft, Produce Flame, Resistance, Thorn Whip. 1st level (4 slots). Cure Wounds, Faerie Fire, Thunderwave. 2nd level (3 slots). Beast Sense, Flame Blade, Pass without Trace. 3rd level (3 slots). Conjure Animals, Dispel Magic, Plant Growth. 4th level (3 slots). Dominate Beast, Freedom of Movement, Wall of Fire. 5th level (2 slots). Commune with Nature, Conjure Elemental, Scrying. 6th level (1 slot). Transport via Plants, Wall of Thorns.',
             ],
+            effects: [],
           },
           {
             key: 'siege-monster',
@@ -908,6 +911,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               '). Cantrips (at will). Mending, Resistance, Spare the Dying. 1st level (4 slots). Cure Wounds, Sanctuary. 2nd level (2 slots). Aid, Lesser Restoration.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -1110,6 +1114,7 @@ export default createPublicationMonsters({
               refs.spells.conjure_animals_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'speak-with-beasts',
@@ -1432,6 +1437,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks). Cantrips (at will). Fire Bolt, Friends, Light, Message. Level 1 (4 slots). Alarm, Expeditious Retreat, Shield. Level 2 (3 slots). Arcane Lock, Detect Thoughts, Hold Person. Level 3 (3 slots). Clairvoyance, Dispel Magic, Slow. Level 4 (2 slots). Locate Creature, Stoneskin.',
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -1503,6 +1509,7 @@ export default createPublicationMonsters({
               refs.spells.telepathic_bond_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'elusive',
@@ -1514,6 +1521,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1534,6 +1542,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', magic cannot read his thoughts, detect lies he tells, reveal his alignment, or identify his creature type. Telepathic communication with him requires his permission.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1597,6 +1606,7 @@ export default createPublicationMonsters({
                 { roll: '4d8' },
                 ' damage. Lazav chooses acid, cold, fire, lightning, or necrotic damage.',
               ],
+              effects: [],
             },
           ],
         },
@@ -1642,6 +1652,7 @@ export default createPublicationMonsters({
               refs.spells.dominate_person_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'aura-of-blood-lust',
@@ -1653,6 +1664,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On a failure it immediately takes the Attack action and makes one melee attack against a random creature within reach. If no creature is in reach, it makes one ranged attack against a random creature within range, throwing its weapon if necessary. Feed on the Crowd. When a creature dies within 60 ft., the master gains 15 temporary HP and has advantage on attacks, checks, and saves through the end of its next turn.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1880,6 +1892,7 @@ export default createPublicationMonsters({
               { toHit: 'cha' },
               ' to hit with spell attacks). At will (cantrips). Dancing Lights, Minor Illusion, Vicious Mockery. 1st level (4 slots). Bane, Dissonant Whispers, Silent Image, Tasha’s Hideous Laughter, Thunderwave. 2nd level (3 slots). Crown of Madness, Enthrall, Suggestion.',
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -2041,6 +2054,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks). At will (cantrips). Blade Ward, Light, Message, Shocking Grasp. 1st level (4 slots). Guiding Bolt, Shield, Thunderwave, Witch Bolt. 2nd level (3 slots). Blur, Levitate. 3rd level (2 slots). Lightning Bolt.',
             ],
+            effects: [],
           },
           {
             key: 'first-strike',
@@ -2287,6 +2301,7 @@ export default createPublicationMonsters({
               refs.spells.mass_suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'aura-of-mind-erosion',

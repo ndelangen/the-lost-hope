@@ -174,6 +174,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['When the ant is reduced to 0 hp, it explodes in a burst of acid.'],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -951,6 +952,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put the archer to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'hunter-s-aim',
@@ -1055,6 +1057,7 @@ export default createPublicationMonsters({
             text: ['The alkonost sings a beautiful melody. the next time it moves.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -2369,6 +2372,7 @@ export default createPublicationMonsters({
             text: [
               'When the cacus giant dies, it exhales a final breath of divine essence in a gout of intense fire.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2421,6 +2425,7 @@ export default createPublicationMonsters({
             text: ['The cacus giant exhales fire in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -2827,6 +2832,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -3130,6 +3136,7 @@ export default createPublicationMonsters({
               { ability: 'devouring-embrace' },
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -3348,6 +3355,7 @@ export default createPublicationMonsters({
             text: [
               'When the assassin is destroyed, its core explodes, projecting superheated steam and shrapnel.',
             ],
+            effects: [],
           },
           {
             key: 'immutable-form',
@@ -3388,6 +3396,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the assassin doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'standing-leap',
@@ -3776,6 +3785,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by its bite attack.',
             ],
+            effects: [],
           },
           {
             key: 'like-calls-to-like',
@@ -4280,6 +4290,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution saving throw or be reduced to 0 hp. The dream wraith gains temporary hp for 1 hour equal to the amount of hp the creature lost.',
             ],
+            effects: [],
           },
           {
             key: 'dreamer-s-gaze',
@@ -4635,6 +4646,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' conditions on itself.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4674,6 +4686,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -4791,6 +4804,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['When the toad is reduced to 0 hp, it explodes in a 10-foot-radius sphere.'],
+            effects: [],
           },
           {
             key: 'mad-hopping',
@@ -5406,6 +5420,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -5653,6 +5668,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 15 feet away from the polyp.',
             ],
+            effects: [],
           },
           {
             key: 'incorporeal-movement',
@@ -5680,6 +5696,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.control_weather_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -5795,6 +5812,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw or be pushed 15 feet away from the flying polyp in a direction following the line. Any creature in the line treats all movement as difficult terrain.',
             ],
+            effects: [],
           },
         ],
       },
@@ -5880,6 +5898,7 @@ export default createPublicationMonsters({
             text: ['The drake exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -6031,6 +6050,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' condition. While in glass form, the fragrite has vulnerability to thunder damage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6079,6 +6099,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -6472,6 +6493,7 @@ export default createPublicationMonsters({
               },
               printedDc: 17,
             },
+            effects: [],
           },
           {
             key: 'etherealness',
@@ -6968,6 +6990,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' in unoccupied spaces within 10 feet of the behemoth, spilling from the wound.',
             ],
+            effects: [],
           },
           {
             key: 'fleshbag',
@@ -6979,6 +7002,7 @@ export default createPublicationMonsters({
               rules.prone,
               ". If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed.",
             ],
+            effects: [],
           },
           {
             key: 'turning-defiance',
@@ -7382,6 +7406,7 @@ export default createPublicationMonsters({
               text: [
                 'Gugalanna spreads his wings and stomps his hooves, shaking the earth. Gugalanna can then fly up to half his flying speed.',
               ],
+              effects: [],
             },
             {
               key: 'blazing-sun-disc',
@@ -7399,6 +7424,7 @@ export default createPublicationMonsters({
                 onSuccess: 'half',
               },
               text: ["The sun disc floating between Gugalanna's horns flares."],
+              effects: [],
             },
           ],
         },
@@ -7715,6 +7741,7 @@ export default createPublicationMonsters({
               rules.prone,
               ', dismounted, or moved against its will while mounted.',
             ],
+            effects: [],
           },
           {
             key: 'mounted-warrior',
@@ -7728,6 +7755,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'lance',
@@ -7800,6 +7828,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragonborn breathes fire in a 15-foot cone.'],
+            effects: [],
           },
         ],
       },
@@ -8010,6 +8039,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it or not.',
             ],
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -8323,6 +8353,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -8647,6 +8678,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -8806,6 +8838,7 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature that is not undead, The külmking regains hp equal to the amount of necrotic damage dealt.',
             ],
+            effects: [],
           },
           {
             key: 'claws',
@@ -9156,6 +9189,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put it to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'keen-sight',
@@ -9464,6 +9498,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' until it attacks, or until its concentration ends (as if concentrating on a spell).',
             ],
+            effects: [],
           },
           {
             key: 'corpse-revealed',
@@ -9861,6 +9896,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'cavalry-saber',
@@ -9904,6 +9940,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragonborn breathes fire in a 15-foot cone.'],
+            effects: [],
           },
         ],
       },
@@ -9981,6 +10018,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'flaring-breath',
@@ -10173,6 +10211,7 @@ export default createPublicationMonsters({
             text: [
               'When a living star dies, it erupts, and A creature reduced to 0 hp by this damage dies.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -11542,6 +11581,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' until a wearer uses an action to switch the dragon to active. Each circlet is a magic item that must be attuned.',
             ],
+            effects: [],
           },
           {
             key: 'immutable-form',
@@ -11624,6 +11664,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales fire in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'oil-spray',
@@ -11663,6 +11704,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon swings its bladed tail.'],
+            effects: [],
           },
         ],
       },
@@ -11726,6 +11768,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.true_resurrection_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -11776,6 +11819,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -11938,6 +11982,7 @@ export default createPublicationMonsters({
               { roll: '5d8' },
               ' hp.',
             ],
+            effects: [],
           },
           {
             key: 'variegated-scales',
@@ -12010,6 +12055,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'reactive-hide',
@@ -12573,6 +12619,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', and contact with it no longer causes damage. As soon as any portion of it is exposed to the air again, it resumes moving at full speed.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -13017,6 +13064,7 @@ export default createPublicationMonsters({
               { roll: '2d6' },
               ' points of necrotic damage. The preta regains hp equal to half the necrotic damage dealt.',
             ],
+            effects: [],
           },
           {
             key: 'etherealness',
@@ -13045,6 +13093,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ', the preta can create small illusory sounds and images like the minor illusion spell except it can create either two images, two sounds, or one sound and one image.',
             ],
+            effects: [],
           },
         ],
       },
@@ -13477,6 +13526,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' by the razorleaf while within the area. Plants and trees inside the area turn an ashen color. The razorleaf can recall its roots and end this effect as a bonus action.',
             ],
+            effects: [],
           },
           {
             key: 'do-not-touch',
@@ -13536,6 +13586,7 @@ export default createPublicationMonsters({
             text: ['The razorleaf shakes loose a deadly shower of slicing leaves.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -13706,6 +13757,7 @@ export default createPublicationMonsters({
             text: ['The ring servant discharges a spinning ring of magical energy.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -14035,6 +14087,7 @@ export default createPublicationMonsters({
               { dc: 'str', printed: 16 },
               ' Strength saving throw or be pushed 10 feet away from the angel.',
             ],
+            effects: [],
           },
           {
             key: 'whip-punisher-form-only-form-only',
@@ -14568,6 +14621,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'evasion',
@@ -14588,6 +14642,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put it to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'shadow-traveler',
@@ -14612,6 +14667,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ", and the poisoner doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -14659,6 +14715,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'longbow',
@@ -14681,6 +14738,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -15060,6 +15118,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'come-together',
@@ -15206,6 +15265,7 @@ export default createPublicationMonsters({
               { ability: 'fulminating-wings' },
               ' in the last 24 hours.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -15444,6 +15504,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -15587,6 +15648,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mass_cure_wounds_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'scimitar',
@@ -15714,6 +15776,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'oozing-slam',
@@ -15993,6 +16056,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be pushed 15 feet away from the storm lord. Any creature within 30 feet of the storm lord must spend 2 feet of movement for every 1 foot it moves when moving closer to the storm lord.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -16264,6 +16328,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -16379,6 +16444,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -16457,6 +16523,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -17195,6 +17262,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it regains at least 1 hp. After spending 1 hour in its resting place with 0 hp, it regains 1 hp.',
             ],
+            effects: [],
           },
           {
             key: 'noble-resilience-recharges-after-a-long-rest',
@@ -17407,6 +17475,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Dexterity saving throw or drop its weapon in a space within 10 feet of the target.',
             ],
+            effects: [],
           },
           {
             key: 'sling',
@@ -17766,6 +17835,7 @@ export default createPublicationMonsters({
             text: ['The vines of Nemthyr shoots poisonous thorns in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -17941,6 +18011,7 @@ export default createPublicationMonsters({
             text: ['The dragon blasts warped arcane energy in a 20-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -18230,6 +18301,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or until it dies.',
             ],
+            effects: [],
           },
           {
             key: 'incorporeal-movement',
@@ -18259,6 +18331,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.mirage_arcane_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shadow-blend',
@@ -18274,6 +18347,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -18435,6 +18509,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put the woodwose to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -18452,6 +18527,7 @@ export default createPublicationMonsters({
               refs.spells.entangle_srd_5_1,
               ' Speak with Beasts and',
             ],
+            effects: [],
           },
           {
             key: 'plants',
@@ -18967,6 +19043,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Wisdom saving throw or return the hooting sound, if it can make noise. The yann-an-oed is able to unerringly track a creature that responds to its call for 1 hour, even if the creature is hidden by magic or on another plane of existence.',
             ],
+            effects: [],
           },
         ],
       },
@@ -19145,6 +19222,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'flaring-breath',
@@ -19252,6 +19330,7 @@ export default createPublicationMonsters({
             text: ['The dragon blasts warped arcane energy in a 40-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },

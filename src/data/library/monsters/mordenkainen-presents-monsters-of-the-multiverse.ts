@@ -387,6 +387,7 @@ export default createPublicationMonsters({
               refs.spells.revivify_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'enchanting-presence',
@@ -491,6 +492,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' by the eladrin succeeds on an attack roll within 60 ft., the eladrin can magically turn that hit into a miss if it can see the attacker.',
             ],
+            effects: [],
           },
         ],
       },
@@ -710,6 +712,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength save, the target is pulled into a space within 5 ft. of the banderhobb.',
             ],
+            effects: [],
           },
           {
             key: 'shadow-step',
@@ -993,6 +996,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               " while the duplicate exists, and it can have only one at a time. The duplicate disappears if either one drops to 0 hit points or if the berbalang dismisses it, which takes no action. The duplicate shares the berbalang's statistics and knowledge. The berbalang knows what the duplicate experiences. All damage from the duplicate's attacks is psychic.",
             ],
+            effects: [],
           },
         ],
       },
@@ -3456,6 +3460,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ', no material components. At will · Command, Dancing Lights, Detect Magic, Thaumaturgy. 2/day each · Banishment, Blade Barrier, Cure Wounds, Hold Person, Plane Shift, Silence. 1/day each · Clairvoyance, Darkness, Detect Thoughts, Dispel Magic, Faerie Fire, Gate, Levitate (self only), Suggestion.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -3467,6 +3472,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic cannot put the drow to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -3583,6 +3589,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
         legendary: {
@@ -3654,6 +3661,7 @@ export default createPublicationMonsters({
               { dc: 'wis', save: 'str' },
               ' Strength save or is thrown 2d6 × 10 ft. A solid collision deals 1d6 bludgeoning per 10 ft. moved. Normal falling damage applies if it lands from midair.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3708,6 +3716,7 @@ export default createPublicationMonsters({
               refs.spells.stinking_cloud_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -3795,6 +3804,7 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d10', type: rules.bludgeoning, addModifier: true }],
             },
             text: ['Or ', { roll: '3d10', mod: 'str' }, ' if the target is ', rules.prone, '.'],
+            effects: [],
           },
           {
             key: 'flame-jet',
@@ -3811,6 +3821,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -4148,6 +4159,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' conditions.',
             ],
+            effects: [],
           },
           {
             key: 'phalanx-formation',
@@ -4219,6 +4231,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' for up to 1 hour. This effect ends early if the duergar attacks, forces a creature to make a saving throw, or loses concentration as if concentrating on a spell.',
             ],
+            effects: [],
           },
           {
             key: 'enlarge-recharges-after-a-short-or-long-rest',
@@ -4273,6 +4286,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' conditions.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -4354,6 +4368,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'recharge 4–6',
+            effects: [],
           },
           {
             key: 'enlarge-recharges-after-a-short-or-long-rest',
@@ -4524,6 +4539,7 @@ export default createPublicationMonsters({
               refs.spells.telekinesis_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'amorphous',
@@ -4907,6 +4923,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4942,6 +4959,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'wis' },
               ' Wisdom save, the target must use its reaction, if available, to make one melee attack against a randomly chosen creature other than the flind within reach. If there is no such creature, it moves half its speed in a random direction instead.',
             ],
+            effects: [],
           },
           {
             key: 'flail-of-pain',
@@ -5144,6 +5162,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength save, pull it to an unoccupied space within 5 ft. of the froghemoth.',
             ],
+            effects: [],
           },
         ],
       },
@@ -5266,6 +5285,7 @@ export default createPublicationMonsters({
               refs.spells.telekinesis_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7328,6 +7348,7 @@ export default createPublicationMonsters({
               refs.spells.lightning_bolt_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'army-arcana',
@@ -8095,6 +8116,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ', no material components. At will · Dispel Magic, Polymorph, Telekinesis, Teleport. 3/day · Lightning Bolt.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -9485,6 +9507,7 @@ export default createPublicationMonsters({
               { roll: '6d6' },
               ' fire damage at most once per round. A new phoenix hatches after 1d6 days.',
             ],
+            effects: [],
           },
           {
             key: 'fire-form',
@@ -11305,6 +11328,7 @@ export default createPublicationMonsters({
               refs.spells.dominate_monster_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'swarm',
@@ -11748,6 +11772,7 @@ export default createPublicationMonsters({
               refs.spells.modify_memory_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -12122,6 +12147,7 @@ export default createPublicationMonsters({
               rules.prone,
               ', its speed is 0 and cannot increase, and it has disadvantage on Dexterity saves. It cannot take reactions, and its only available action is a bonus action to emerge.',
             ],
+            effects: [],
           },
         ],
       },
@@ -12836,6 +12862,7 @@ export default createPublicationMonsters({
               refs.spells.lightning_bolt_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',

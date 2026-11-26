@@ -65,6 +65,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' in most situations. The following situations reveal its location and enough of its form that attacks vs. it don’t have disadvantage while the situation lasts:In temperatures lower than 50 degrees Fahrenheit or for 1 round after it takes cold: its natural heat outlines it in steam.Darkness: its burning eyes shine visibly marking its location.',
             ],
+            effects: [],
           },
           {
             key: 'elemental-nature',
@@ -758,6 +759,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Wis save or use its reaction to protect the barnacle. Barnacle takes half the damage dealt to it and host takes the other half.',
             ],
+            effects: [],
           },
         ],
       },
@@ -844,6 +846,7 @@ export default createPublicationMonsters({
               { roll: '1d4' },
               ' acid.',
             ],
+            effects: [],
           },
           {
             key: 'flexible-form',
@@ -1491,6 +1494,7 @@ export default createPublicationMonsters({
               { roll: '2d4' },
               ' lightning. The creature has disadvantage on the save if it is within 15 ft. of three or more death worms.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -1988,6 +1992,7 @@ export default createPublicationMonsters({
               { roll: '1d8' },
               ' piercing damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2451,6 +2456,7 @@ export default createPublicationMonsters({
               { roll: '2d4' },
               ' hp from blood loss.',
             ],
+            effects: [],
           },
           {
             key: 'standing-leap',
@@ -2997,6 +3003,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' by that same source again for 24 hrs.',
             ],
+            effects: [],
           },
           {
             key: 'ice-slide',
@@ -3490,6 +3497,7 @@ export default createPublicationMonsters({
               { roll: '2d6' },
               ' psychic.',
             ],
+            effects: [],
           },
           {
             key: 'translucent',
@@ -3497,6 +3505,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Is ', rules.invisible, " to creatures more than 60' away from it."],
+            effects: [],
           },
           {
             key: 'enthralling-defense',
@@ -3899,6 +3908,7 @@ export default createPublicationMonsters({
               { roll: '2d4' },
               ' cold on a failed save or half damage if made.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4568,6 +4578,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' and removed from the ground this trait doesn’t function at start of its next turn. It dies only if it starts its turn with 0 hp and doesn’t regenerate.',
             ],
+            effects: [],
           },
           {
             key: 'unstable-bulb',
@@ -4583,6 +4594,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Dex half).',
             ],
+            effects: [],
           },
         ],
       },
@@ -5414,6 +5426,7 @@ export default createPublicationMonsters({
               rules.petrified,
               ' in hibernation for up to 1d100+10 years after which it dies.',
             ],
+            effects: [],
           },
           {
             key: 'lava-camouflage',
@@ -5638,6 +5651,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Con half). Smoke lasts for 1 min or until a wind of moderate or greater speed (at least 10 miles per hr) disperses it.',
             ],
+            effects: [],
           },
           {
             key: 'undead-fortitude',

@@ -61,6 +61,7 @@ export default createPublicationMonsters({
               rules.restrained,
               '. At the end of the ashwalker’s next turn, it is destroyed.',
             ],
+            effects: [],
           },
           {
             key: 'undead-nature',
@@ -105,6 +106,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -472,6 +474,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 17 },
               ", and the size increases by 5 feet, to a maximum of a 40-foot square. The entangled area must include at least one of the children involved in the casting. All participating children of the briar are immune to the spell's effects.",
             ],
+            effects: [],
           },
         ],
       },
@@ -857,6 +860,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' creature in its space up to 5 feet away from it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1257,6 +1261,7 @@ export default createPublicationMonsters({
               { roll: '1d4' },
               ' for every 24 hours it remains lit and active, and no effect short of a wish spell can remove this reduction. The living wick dies when its hp maximum is reduced to 0.',
             ],
+            effects: [],
           },
           {
             key: 'slam',
@@ -1289,6 +1294,7 @@ export default createPublicationMonsters({
             text: [
               "The living wick's controller can command the living wick to rapidly burn through the remains of its wick, creating a devastating ball of fire. Flammable objects in the area and that aren't being worn or carried ignite. The living wick then dies, becoming a lifeless puddle of wax.",
             ],
+            effects: [],
           },
         ],
       },
@@ -1555,6 +1561,7 @@ export default createPublicationMonsters({
               { roll: '1d4' },
               ' poison damage.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',

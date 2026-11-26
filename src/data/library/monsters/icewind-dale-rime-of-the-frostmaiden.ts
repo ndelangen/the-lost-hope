@@ -65,6 +65,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -528,6 +529,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'ram',
@@ -599,6 +601,7 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'con' },
               ' Constitution save against extreme cold.',
             ],
+            effects: [],
           },
           {
             key: 'glowing-antlers-roughly-one-in-six',

@@ -416,6 +416,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the roll had no disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -446,6 +447,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -469,6 +471,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -1501,6 +1504,7 @@ export default createPublicationMonsters({
               refs.spells.bestow_curse_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'immortal-nature',
@@ -1575,6 +1579,7 @@ export default createPublicationMonsters({
               refs.spells.lightning_bolt_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'immortal-nature',
@@ -1798,6 +1803,7 @@ export default createPublicationMonsters({
               rules.stunned,
               ', or put to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'surprise-attack',
@@ -2060,6 +2066,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'fiendish-blessing',
@@ -3501,6 +3508,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_stone_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'earth-glide',
@@ -3530,6 +3538,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' with advantage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3698,6 +3707,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3806,6 +3816,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -4236,6 +4247,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'elemental-demise',
@@ -4444,6 +4456,7 @@ export default createPublicationMonsters({
               refs.spells.faerie_fire_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -4455,6 +4468,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -4686,6 +4700,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -4744,6 +4759,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' for up to 1 hour. It concentrates as it would on a spell. The effect ends early if concentration breaks or the duergar attacks, casts a spell, or uses Enlarge.',
             ],
+            effects: [],
           },
         ],
       },
@@ -5090,6 +5106,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_fire_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'elemental-demise',
@@ -6824,6 +6841,7 @@ export default createPublicationMonsters({
               refs.spells.fireball_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'illumination',
@@ -6931,6 +6949,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'dex' },
               ' Dexterity save to right itself and end the incapacitation.',
             ],
+            effects: [],
           },
           {
             key: 'telepathic-shroud',
@@ -7286,6 +7305,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -8558,6 +8578,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'ram',
@@ -9691,6 +9712,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The gladiator has advantage on saves against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'brute',
@@ -10093,6 +10115,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'ram',
@@ -11743,6 +11766,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'longsword',
@@ -11818,6 +11842,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -11919,6 +11944,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -13205,6 +13231,7 @@ export default createPublicationMonsters({
               refs.spells.plant_growth_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -13971,6 +13998,7 @@ export default createPublicationMonsters({
               refs.spells.cloudkill_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -15428,6 +15456,7 @@ export default createPublicationMonsters({
               refs.spells.sleep_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',
@@ -15601,6 +15630,7 @@ export default createPublicationMonsters({
               refs.spells.spiritual_weapon_srd_5_1,
               ' (spear).',
             ],
+            effects: [],
           },
           {
             key: 'gruumsh-s-fury',
@@ -16358,6 +16388,7 @@ export default createPublicationMonsters({
               refs.spells.dispel_magic_srd_5_1,
               ', Spirit',
             ],
+            effects: [],
           },
           {
             key: 'guardians',
@@ -17836,6 +17867,7 @@ export default createPublicationMonsters({
               refs.spells.tongues_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'blood-frenzy',
@@ -19151,6 +19183,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -19408,6 +19441,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ['The swarm loses the use of blindsight while ', rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -21082,6 +21116,7 @@ export default createPublicationMonsters({
               refs.spells.mass_suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -21823,6 +21858,7 @@ export default createPublicationMonsters({
               { ability: 'consume-life' },
               ', or loses Concentration as if concentrating on a spell.',
             ],
+            effects: [],
           },
           {
             key: 'consume-life',
@@ -21836,6 +21872,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' hit points.',
             ],
+            effects: [],
           },
           {
             key: 'variable-illumination-2',

@@ -149,6 +149,7 @@ export default createPublicationMonsters({
             text: [
               'Failure or Success: The aboleth gains the target’s memories if the target is a Humanoid and is reduced to 0 Hit Points by this action.',
             ],
+            effects: [],
           },
           {
             key: 'dominate-mind',
@@ -209,6 +210,7 @@ export default createPublicationMonsters({
                 { roll: '1d10' },
                 ' Hit Points.',
               ],
+              effects: [],
             },
           ],
         },
@@ -2302,6 +2304,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'illumination',
@@ -2405,6 +2408,7 @@ export default createPublicationMonsters({
             text: [
               'The balor explodes when it dies.    Failure or Success: If the balor dies outside the Abyss, it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.',
             ],
+            effects: [],
           },
           {
             key: 'fire-aura',
@@ -2808,6 +2812,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'swallow',
@@ -3062,6 +3067,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'beak',
@@ -4001,6 +4007,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -5144,6 +5151,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift,
             ],
+            effects: [],
           },
         ],
       },
@@ -7811,6 +7819,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'weakening-breath',
@@ -9982,6 +9991,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the mimic.',
             ],
+            effects: [],
           },
           {
             key: 'pseudopod',
@@ -10943,6 +10953,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -11054,6 +11065,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'spellcasting',
@@ -11074,6 +11086,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead,
             ],
+            effects: [],
           },
           {
             key: 'divine-aid',
@@ -12516,6 +12529,7 @@ export default createPublicationMonsters({
               refs.spells.unseen_servant,
               '. The hag must finish a Long Rest before using this trait to cast that spell again.',
             ],
+            effects: [],
           },
           {
             key: 'vile-appearance',
@@ -12568,6 +12582,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'illusory-appearance',
@@ -12581,6 +12596,7 @@ export default createPublicationMonsters({
               { dc: 'int', printed: 13 },
               '). The spell’s duration is 24 hours.',
             ],
+            effects: [],
           },
         ],
       },
@@ -12878,6 +12894,7 @@ export default createPublicationMonsters({
               { roll: '8d8' },
               ' Radiant damage.',
             ],
+            effects: [],
           },
           {
             key: 'spellcasting',
@@ -12898,6 +12915,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.resurrection,
             ],
+            effects: [],
           },
           {
             key: 'divine-aid',
@@ -12954,6 +12972,7 @@ export default createPublicationMonsters({
                 onSuccess: 'half',
               },
               text: ['The solar teleports up to 60 feet to an unoccupied space it can see.'],
+              effects: [],
             },
           ],
         },
@@ -13155,6 +13174,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.tongues,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -13363,6 +13383,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.zone_of_truth,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -13817,6 +13838,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -14023,6 +14045,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'spellcasting',
@@ -14039,6 +14062,7 @@ export default createPublicationMonsters({
               '; 1/Day: ',
               refs.spells.control_weather,
             ],
+            effects: [],
           },
         ],
       },
@@ -15048,6 +15072,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.word_of_recall,
             ],
+            effects: [],
           },
           {
             key: 'unicorn-s-blessing',
@@ -17154,6 +17179,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'weakening-breath',

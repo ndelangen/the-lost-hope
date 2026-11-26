@@ -254,6 +254,7 @@ export default createPublicationMonsters({
               refs.spells.raise_dead_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'enchanting-presence',
@@ -340,6 +341,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' by this eladrin hits with an attack roll within 60 ft., the eladrin can magically turn the hit into a miss if it can see the attacker.',
             ],
+            effects: [],
           },
         ],
       },
@@ -405,6 +407,7 @@ export default createPublicationMonsters({
               refs.spells.symbol_srd_5_1,
               ' (stunning only).',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -798,6 +801,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks). Cantrips (at will). Friends, Mage Hand, Message, Minor Illusion, Shocking Grasp. Level 1 (4 slots). Chromatic Orb, Disguise Self, Expeditious Retreat, Magic Missile, Charm Person, Thunderwave. Level 2 (3 slots). Darkness, Mirror Image, Misty Step. Level 3 (3 slots). Dispel Magic, Fear, Lightning Bolt. Level 4 (3 slots). Dimension Door, Greater Invisibility, Ice Storm. Level 5 (2 slots). Cone of Cold, Wall of Force. Level 6 (1 slot). Chain Lightning. Level 7 (1 slot). Teleport.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -896,6 +900,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution save. On a failure, it takes 1d6 necrotic damage plus 1 necrotic damage for each bulezau within 30 ft. of it.',
             ],
+            effects: [],
           },
           {
             key: 'standing-leap',
@@ -916,6 +921,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'barbed-tail',
@@ -1223,6 +1229,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' and is immune to magical sleep.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1367,6 +1374,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               ' to hit with spell attacks). Cantrips (at will). Guidance, Mending, Resistance, Sacred Flame, Thaumaturgy. 1st level (4 slots). Bane, Command, Cure Wounds, Guiding Bolt. 2nd level (3 slots). Hold Person, Silence, Spiritual Weapon. 3rd level (3 slots). Bestow Curse, Clairvoyance, Dispel Magic, Spirit Guardians. 4th level (3 slots). Banishment, Death Ward, Freedom of Movement, Guardian of Faith. 5th level (3 slots). Contagion, Flame Strike, Geas, Mass Cure Wounds. 6th level (2 slots). Blade Barrier, Harm. 7th level (2 slots). Divine Word, Plane Shift. 8th level (1 slot). Holy Aura. 9th level (1 slot). Gate.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -1405,6 +1413,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' and is immune to magical sleep.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1591,6 +1600,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ', no material components. At will · Dancing Lights. 1/day each · Darkness, Faerie Fire, Levitate (self only).',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -1602,6 +1612,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic cannot put the drow to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2020,6 +2031,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'phalanx-formation',
@@ -2087,6 +2099,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' for up to 1 hour. The effect ends if the duergar attacks, casts a spell, uses Enlarge, or loses concentration as if concentrating on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2121,6 +2134,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2212,6 +2226,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'scouring-instruction',
@@ -2590,6 +2605,7 @@ export default createPublicationMonsters({
               refs.spells.mass_suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -2981,6 +2997,7 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'con' },
               ' Constitution save. Roll 1d3 for the poison effect on a failure. 1.',
             ],
+            effects: [],
           },
           {
             key: 'poison-damage',
@@ -3376,6 +3393,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ', no material components. At will · Dispel Magic, Polymorph, Telekinesis, Teleport. 3/day · Lightning Bolt. 1/day · Imprisonment.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3679,6 +3697,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks). Cantrips (at will). Chill Touch, Fire Bolt, Mage Hand, Message, Minor Illusion. 1st level (4 slots). Charm Person, Detect Magic, Protection from Evil and Good, Witch Bolt. 2nd level (3 slots). Hold Person, Ray of Enfeeblement, Suggestion. 3rd level (3 slots). Counterspell, Fireball, Fly. 4th level (3 slots). Confusion, Hallucinatory Terrain, Wall of Fire. 5th level (2 slots). Dominate Person, Dream, Geas. 6th level (1 slot). Circle of Death, Disintegrate. 7th level (1 slot). Etherealness, Prismatic Spray. 8th level (1 slot). Feeblemind.',
             ],
+            effects: [],
           },
           {
             key: 'staff',
@@ -4399,6 +4418,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4507,6 +4527,7 @@ export default createPublicationMonsters({
               { toHit: 'cha' },
               ' to hit with spell attacks). Cantrips (at will). Chill Touch, Fire Bolt, Mage Hand, Poison Spray, Ray of Frost, Shocking Grasp. 1st level (4 slots). Magic Missile, Expeditious Retreat, Thunderwave. 2nd level (3 slots). Mirror Image, Scorching Ray. 3rd level (3 slots). Fear, Haste. 4th level (3 slots). Dimension Door, Ice Storm. 5th level (2 slots). Cloudkill, Cone of Cold. 6th level (1 slot). Eyebite. 7th level (1 slot). Finger of Death.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -4753,6 +4774,7 @@ export default createPublicationMonsters({
               refs.spells.irresistible_dance_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'joyful-presence',
@@ -4908,6 +4930,7 @@ export default createPublicationMonsters({
               refs.spells.sleep_srd_5_1,
               ' only).',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -5170,6 +5193,7 @@ export default createPublicationMonsters({
               rules.prone,
               ', its speed is 0 and cannot increase, it has disadvantage on Dexterity saves, and it cannot take reactions or take any action except a bonus action to emerge.',
             ],
+            effects: [],
           },
         ],
       },
@@ -5204,6 +5228,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               ' to hit with spell attacks). Cantrips (at will). Druidcraft, Guidance, Produce Flame. 1st level (4 slots). Animal Friendship, Cure Wounds, Speak with Animals, Thunderwave. 2nd level (3 slots). Darkvision, Hold Person.',
             ],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -5249,6 +5274,7 @@ export default createPublicationMonsters({
               rules.prone,
               ', has disadvantage on Dexterity saves, has a speed of 0 that cannot increase, and cannot take reactions. The only action it can take is a bonus action to emerge.',
             ],
+            effects: [],
           },
         ],
       },
@@ -5303,6 +5329,7 @@ export default createPublicationMonsters({
               refs.spells.lightning_bolt_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',

@@ -446,6 +446,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' poison on a failure or half that poison damage on a success.',
             ],
+            effects: [],
           },
         ],
       },

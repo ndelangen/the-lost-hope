@@ -216,6 +216,7 @@ export default createPublicationMonsters({
               refs.spells.resistance_srd_5_1,
               ' (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.',
             ],
+            effects: [],
           },
           {
             key: 'truespeak',
@@ -318,6 +319,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales lightning in a 90-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -1033,6 +1035,7 @@ export default createPublicationMonsters({
               refs.spells.resistance_srd_5_1,
               ' (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.',
             ],
+            effects: [],
           },
           {
             key: 'truespeak',
@@ -1135,6 +1138,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales lightning in a 120-foot line that is 10 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -1543,6 +1547,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hold_person_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'jumper',
@@ -2651,6 +2656,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['When the violet takes bludgeoning, piercing, or slashing damage,'],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -2801,6 +2807,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' while on the carnivorous ship and can attach itself to the ship as a reaction when the ship moves. The carnivorous ship can have no more than 12 drones under its control at one time.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -2852,6 +2859,7 @@ export default createPublicationMonsters({
             text: [
               'The carnivorous ship spits cannonball-like lumps of indigestible metal at up to three points it can see within 100 feet of it.',
             ],
+            effects: [],
           },
           {
             key: 'surge',
@@ -2905,6 +2913,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 10 },
               ' Constitution saving throw or lose concentration on the spell.',
             ],
+            effects: [],
           },
           {
             key: 'impaling-proboscis',
@@ -3167,6 +3176,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -3276,6 +3286,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'fire-absorption',
@@ -3323,6 +3334,7 @@ export default createPublicationMonsters({
             text: [
               'At the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target takes fire damage, the effect ends.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4328,6 +4340,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the darakhul doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'stench',
@@ -4636,6 +4649,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4692,6 +4706,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -4927,6 +4942,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the shadowseeker doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -5483,6 +5499,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -5752,6 +5769,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -6109,6 +6127,7 @@ export default createPublicationMonsters({
               { roll: '1d4' },
               ' psychic damage when it hits with any attack. Temporary hp gained from this trait replenish every 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'phrenic-antennae',
@@ -6157,6 +6176,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' condition on itself on a success.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6333,6 +6353,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7160,6 +7181,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' poison damage.',
             ],
+            effects: [],
           },
           {
             key: 'underwater-camouflage',
@@ -7442,6 +7464,7 @@ export default createPublicationMonsters({
             text: [
               'When the gorao-ka is reduced to 0 hp, it explodes in a spray of silver pieces. The silver pieces disappear after 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'sack-of-coins',
@@ -7582,6 +7605,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -7862,6 +7886,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'deafening-clatter',
@@ -7949,6 +7974,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -8710,6 +8736,7 @@ export default createPublicationMonsters({
               { dc: 'dex', printed: 15 },
               ' Dexterity saving throw to prevent the object from being vaporized. If the object is magical, the creature has advantage on the saving throw. The herald can choose to not vaporize an object.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -8772,6 +8799,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -9085,6 +9113,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -9290,6 +9319,7 @@ export default createPublicationMonsters({
             text: [
               "If the target is a perpetrator of the crime that provoked the hooden horse's creation, it has disadvantage on this saving throw.",
             ],
+            effects: [],
           },
           {
             key: 'call-to-judgment',
@@ -9564,6 +9594,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.protection_from_poison_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'purify-water',
@@ -9707,6 +9738,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'icicle-fist',
@@ -9858,6 +9890,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -10107,6 +10140,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales lightning in a 30-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -10156,6 +10190,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -10196,6 +10231,7 @@ export default createPublicationMonsters({
             text: ['The infernal centaur exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -10749,6 +10785,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it up to 25 feet straight toward it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -11419,6 +11456,7 @@ export default createPublicationMonsters({
               refs.spells.sleep_srd_5_1,
               ' (affects 9d8 hp) Speak with',
             ],
+            effects: [],
           },
           {
             key: 'beasts',
@@ -11466,6 +11504,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -11573,6 +11612,7 @@ export default createPublicationMonsters({
               rules.petrified,
               ', transforming into basalt. Its body returns to normal if it is submerged in lava for 1 round.',
             ],
+            effects: [],
           },
           {
             key: 'lava-swimmer',
@@ -11648,6 +11688,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -12092,6 +12133,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.zone_of_truth_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -12202,6 +12244,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -13502,6 +13545,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -13777,6 +13821,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -13990,6 +14035,7 @@ export default createPublicationMonsters({
               { roll: '1d10' },
               ' fire damage. The mammoth’s saturated body douses the fire at the end of the peat mammoth’s turn. Creatures engulfed by the mammoth don’t take fire damage from this effect. If the peat mammoth dies while it is on fire, it explodes in a burst of fire and flaming peat. If a creature is engulfed by the mammoth when it dies in this way, the creature has disadvantage on the saving throw.',
             ],
+            effects: [],
           },
           {
             key: 'swamp-camouflage',
@@ -14287,6 +14333,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -14491,6 +14538,7 @@ export default createPublicationMonsters({
               { ability: 'bonerot' },
               ' trait).',
             ],
+            effects: [],
           },
           {
             key: 'absorb-flesh',
@@ -15308,6 +15356,7 @@ export default createPublicationMonsters({
               { ability: 'bog-rot' },
               ' trait).',
             ],
+            effects: [],
           },
         ],
       },
@@ -15378,6 +15427,7 @@ export default createPublicationMonsters({
               '; 3/day: ',
               refs.spells.command_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -15389,6 +15439,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' enemy with any weapon, the target takes an extra 1d6 poison damage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -15597,6 +15648,7 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' cold (isaz), fire (kaunen), radiant (sowilo) or lightning (turisaz) damage on a failed save, or half as much damage on a successful one. Roll a d4 to determine the rune: isaz (1), kaunen (2), sowilo (3), turisaz (4). 6.',
             ],
+            effects: [],
           },
           {
             key: 'tewaz',
@@ -15979,6 +16031,7 @@ export default createPublicationMonsters({
             text: ['The sarsaok spews burning blood in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -16234,6 +16287,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -16563,6 +16617,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -16604,6 +16659,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['When the shadow of death dies, it explodes,'],
+            effects: [],
           },
           {
             key: 'deathly-shroud',
@@ -16622,6 +16678,7 @@ export default createPublicationMonsters({
             text: [
               'At the start of each of the shadow of death’s turns, In addition, light within 30 feet of the shadow of death is less effective. Bright light in the area becomes dim light, and dim light in the area becomes darkness.',
             ],
+            effects: [],
           },
           {
             key: 'destroyer-of-life',
@@ -16820,6 +16877,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '. In all other terrain, the shimmer seal has advantage on Dexterity (Stealth) checks. Seals, other pinnipeds, and creatures chosen by the shimmer seal can see it.',
             ],
+            effects: [],
           },
           {
             key: 'sureflippered',
@@ -16891,6 +16949,7 @@ export default createPublicationMonsters({
               rules.blinded,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'self-made-pack',
@@ -16902,6 +16961,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -17512,6 +17572,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the spawn doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'speak-with-birds',
@@ -18435,6 +18496,7 @@ export default createPublicationMonsters({
               { ability: 'fake-feast' },
               ' action.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -18464,6 +18526,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'fake-feast',
@@ -18552,6 +18615,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw or detach from the creature and be pushed up to 5 feet away.',
             ],
+            effects: [],
           },
           {
             key: 'fiery-death',
@@ -18571,6 +18635,7 @@ export default createPublicationMonsters({
             text: [
               'If the swampgas bubble has half its hp or fewer and takes any fire damage, it dies explosively.',
             ],
+            effects: [],
           },
           {
             key: 'pseudopod',
@@ -18818,6 +18883,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               " Constitution saving throw or be instantly killed as its head is removed. A creature is immune to this effect if it is immune to piercing damage or doesn't have or need a head.",
             ],
+            effects: [],
           },
           {
             key: 'claws',
@@ -19219,6 +19285,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '. In addition, when a friendly creature within 20 feet of the uridimmu makes an attack roll or a saving throw, it can roll a d4 and add the result to the attack roll or saving throw. The uridimmu’s aura doesn’t work in the area of an antimagic field spell or while in a temple, shrine, or other structure dedicated to a chaotic deity.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -19247,6 +19314,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -19623,6 +19691,7 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'con' },
               ' Constitution saving throw or it loses concentration on the spell.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -20194,6 +20263,7 @@ export default createPublicationMonsters({
             text: ['The vine drake exhales acid in a 30-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -20440,6 +20510,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -20483,6 +20554,7 @@ export default createPublicationMonsters({
             text: ['The wanyudo exhales fire in a 20-foot cone from one of its heads.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -21106,6 +21178,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -21152,6 +21225,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.stinking_cloud_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -21204,6 +21278,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales lightning in a 60-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -21520,6 +21595,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'rewind',
@@ -21535,6 +21611,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },

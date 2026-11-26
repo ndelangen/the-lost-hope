@@ -190,6 +190,7 @@ export default createPublicationMonsters({
                 { roll: '3d6' },
                 ' psychic damage, and the aboleth regains hit points equal to the damage the creature takes.',
               ],
+              effects: [],
             },
           ],
         },
@@ -3703,6 +3704,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the assassin doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3733,6 +3735,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -3756,6 +3759,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -3864,6 +3868,7 @@ export default createPublicationMonsters({
             text: [
               'When the balor dies, it explodes, and The explosion ignites flammable objects in that area that aren’t being worn or carried, and it destroys the balor’s weapons.',
             ],
+            effects: [],
           },
           {
             key: 'fire-aura',
@@ -3940,6 +3945,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be pulled up to 25 feet toward the balor.',
             ],
+            effects: [],
           },
           {
             key: 'teleport',
@@ -4348,6 +4354,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales acid in a 15-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4487,6 +4494,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales lightning in a 30-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4705,6 +4713,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales fire in an 20-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'sleep-breath',
@@ -4799,6 +4808,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales lightning in a 40-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -4810,6 +4820,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 30 feet away from the dragon.',
             ],
+            effects: [],
           },
         ],
       },
@@ -5104,6 +5115,7 @@ export default createPublicationMonsters({
             text: ['The dragon head exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -5361,6 +5373,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales acid in an 20-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'slowing-breath',
@@ -5698,6 +5711,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -5955,6 +5969,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shillelagh_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -6056,6 +6071,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -6114,6 +6130,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell).',
             ],
+            effects: [],
           },
         ],
       },
@@ -7735,6 +7752,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales fire in a 15-foot cone.'],
+            effects: [],
           },
           {
             key: 'weakening-breath',
@@ -7900,6 +7918,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales poisonous gas in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -8070,6 +8089,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -8105,6 +8125,7 @@ export default createPublicationMonsters({
             text: ['The hound exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -8229,6 +8250,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'longsword',
@@ -8639,6 +8661,7 @@ export default createPublicationMonsters({
             text: ['The golem exhales poisonous gas in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -8805,6 +8828,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'siege-monster',
@@ -8946,6 +8970,7 @@ export default createPublicationMonsters({
             text: [
               'The kraken magically creates three bolts of lightning, each of which can strike a target the kraken can see within 120 feet of it.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -9143,6 +9168,7 @@ export default createPublicationMonsters({
             text: [
               'When the magmin dies, it explodes in a burst of fire and magma. Flammable objects that aren’t being worn or carried in that area are ignited.',
             ],
+            effects: [],
           },
           {
             key: 'ignited-illumination',
@@ -10037,6 +10063,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',
@@ -10476,6 +10503,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -11007,6 +11035,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales an icy blast in a 15-foot cone.'],
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -11307,6 +11336,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the spy doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -11501,6 +11531,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -11555,6 +11586,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -12166,6 +12198,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.entangle_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -12862,6 +12895,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales an icy blast of hail in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -13011,6 +13045,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' hit points.',
             ],
+            effects: [],
           },
           {
             key: 'ephemeral',
@@ -13064,6 +13099,7 @@ export default createPublicationMonsters({
               { ability: 'consume-life' },
               ', or until its concentration ends (as if concentrating on a spell).',
             ],
+            effects: [],
           },
         ],
       },
@@ -13103,6 +13139,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'snow-camouflage',
@@ -13160,6 +13197,7 @@ export default createPublicationMonsters({
             text: ['The wolf exhales a blast of freezing wind in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -13335,6 +13373,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales acid in a 30-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -13411,6 +13450,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales lightning in an 60-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -13491,6 +13531,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales fire in a 40-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'sleep-breath',
@@ -13600,6 +13641,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales lightning in a 60-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -13611,6 +13653,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 40 feet away from the dragon.',
             ],
+            effects: [],
           },
         ],
       },
@@ -13691,6 +13734,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales acid in an 40-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'slowing-breath',
@@ -13806,6 +13850,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales fire in a 30-foot cone.'],
+            effects: [],
           },
           {
             key: 'weakening-breath',
@@ -13915,6 +13960,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales poisonous gas in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -13991,6 +14037,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales fire in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -14076,6 +14123,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales an icy blast in a 30-foot cone.'],
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -14184,6 +14232,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales an icy blast in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

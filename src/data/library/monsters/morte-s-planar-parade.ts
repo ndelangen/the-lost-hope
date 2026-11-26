@@ -51,6 +51,7 @@ export default createPublicationMonsters({
               refs.spells.protection_from_energy_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

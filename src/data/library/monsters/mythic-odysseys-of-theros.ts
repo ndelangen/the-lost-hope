@@ -309,6 +309,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'surprise-attack',
@@ -422,6 +423,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -751,6 +753,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'evasion',
@@ -762,6 +765,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'incorporeal-movement',
@@ -1062,6 +1066,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '. If it takes at least 35 damage in a single turn, one head dies. The hydra dies if it loses every head. At the end of its turn, it grows two heads for each head lost since its last turn and regains 10 HP per head grown. Any fire damage since its last turn prevents regrowth that turn.',
             ],
+            effects: [],
           },
           {
             key: 'reactive-heads',
@@ -1458,6 +1463,7 @@ export default createPublicationMonsters({
               refs.spells.minor_illusion_srd_5_1,
               ', Ray of',
             ],
+            effects: [],
           },
           {
             key: 'frost',
@@ -1686,6 +1692,7 @@ export default createPublicationMonsters({
               refs.spells.scrying_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'blessings-of-the-gods',
@@ -1783,6 +1790,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               ' + the damage taken. On a success, it falls to 1 HP instead. Radiant damage and critical hits bypass this save.',
             ],
+            effects: [],
           },
           {
             key: 'vigilant',
@@ -1914,6 +1922,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '. Taking 40 or more damage during a single turn kills one head. Losing every head kills Polukranos. At the end of its own turn, it grows two heads for each head lost since its last turn, unless it has taken at least 40 fire damage since its last turn. It heals 20 HP for each head it regrows.',
             ],
+            effects: [],
           },
           {
             key: 'reactive-heads',
@@ -1988,6 +1997,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength save or be pushed up to 20 ft. away from Polukranos.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -2232,6 +2242,7 @@ export default createPublicationMonsters({
               refs.spells.wind_wall_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',

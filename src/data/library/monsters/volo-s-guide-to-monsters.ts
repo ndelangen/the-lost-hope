@@ -39,6 +39,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks). Cantrips (at will). Fire Bolt, Mending, Prestidigitation. 1st level (2 slots). Burning Hands, Disguise Self, Shield.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -90,6 +91,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               " to hit with spell attacks). Cantrips (at will). Druidcraft, Mending, Poison Spray, Produce Flame. 1st level (4 slots). Cure Wounds, Entangle, Faerie Fire, Speak with Animals. 2nd level (3 slots). Animal Messenger, Beast Sense, Hold Person. 3rd level (3 slots). Conjure Animals, Meld into Stone, Water Breathing. 4th level (3 slots). Dominate Beast, Locate Creature, Stoneskin, Wall of Fire. 5th level (3 slots). Commune with Nature, Mass Cure Wounds, Tree Stride. 6th level (1 slot). Heal, Heroes' Feast, Sunbeam. 7th level (1 slot). Fire Storm. 8th level (1 slot). Animal Shapes. 9th level (1 slot). Foresight.",
             ],
+            effects: [],
           },
           {
             key: 'scimitar',
@@ -116,6 +118,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -287,6 +290,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -443,6 +447,7 @@ export default createPublicationMonsters({
               { ability: 'bite' },
               ' it as a bonus action.',
             ],
+            effects: [],
           },
           {
             key: 'swallow',
@@ -524,6 +529,7 @@ export default createPublicationMonsters({
               { toHit: 'cha' },
               ' to hit with spell attacks). Cantrips (at will). Friends, Mage Hand, Vicious Mockery. 1st level (4 slots). Charm Person, Healing Word, Heroism, Sleep, Thunderwave. 2nd level (3 slots). Invisibility, Shatter.',
             ],
+            effects: [],
           },
           {
             key: 'song-of-rest',
@@ -746,6 +752,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks).',
             ],
+            effects: [],
           },
           {
             key: 'nimble-escape',
@@ -1295,6 +1302,7 @@ export default createPublicationMonsters({
               { toHit: 'cha' },
               ' to hit with spell attacks). Cantrips (at will). Minor Illusion, Prestidigitation, Vicious Mockery. 1st level (4 slots). Cure Wounds, Disguise Self, Silent Image, Tasha’s Hideous Laughter. 2nd level (3 slots). Invisibility, Suggestion. 3rd level (2 slots). Major Image, Tongues.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -1324,6 +1332,7 @@ export default createPublicationMonsters({
               refs.spells.gaseous_form_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -2384,6 +2393,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               " to hit with spell attacks). Cantrips (at will). Acid Splash, Fire Bolt, Ray of Frost, Shocking Grasp. Level 1 (4 slots). Fog Cloud, Magic Missile, Thunderwave. Level 2 (3 slots). Gust of Wind, Melf's Acid Arrow, Scorching Ray. Level 3 (3 slots). Fireball, Fly, Lightning Bolt. Level 4 (1 slot). Ice Storm.",
             ],
+            effects: [],
           },
           {
             key: 'arcane-advantage',
@@ -2397,6 +2407,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'army-arcana',
@@ -2454,6 +2465,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks). Cantrips (at will). Minor Illusion, Prestidigitation, True Strike. Level 1 (3 slots). Charm Person, Disguise Self, Expeditious Retreat, Silent Image.',
             ],
+            effects: [],
           },
           {
             key: 'unarmored-defense',
@@ -2548,6 +2560,7 @@ export default createPublicationMonsters({
               { toHit: 'cha' },
               ' to hit with spell attacks). Cantrips (at will). Fire Bolt, Mage Hand, Mending, Poison Spray. 1st level (4 slots). Charm Person, Chromatic Orb, Expeditious Retreat. 2nd level (2 slots). Scorching Ray.',
             ],
+            effects: [],
           },
           {
             key: 'sorcery-points',
@@ -2568,6 +2581,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2898,6 +2912,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '. Magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -3022,6 +3037,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' with advantage and cannot be put to sleep by magic.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -3103,6 +3119,7 @@ export default createPublicationMonsters({
               { toHit: 'cha' },
               ' to hit with spell attacks). It recovers expended spell slots after a short or long rest. Cantrips (at will). Eldritch Blast (range 300 ft., +4 to each damage roll), Guidance, Mage Hand, Minor Illusion, Prestidigitation, Vicious Mockery. 1st- through 4th-level spells (two 4th-level slots). Arms of Hadar, Counterspell, Dimension Door, Fear, Hold Person, Hunger of Hadar, Invisibility, Unseen Servant.',
             ],
+            effects: [],
           },
           {
             key: 'mental-fortitude',
@@ -3116,6 +3133,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' with advantage and cannot be put to sleep by magic.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -3340,6 +3358,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               ' to hit with spell attacks). Cantrips (at will). Guidance, Mending, Resistance, Thaumaturgy. 1st level (4 slots). Bane, Cure Wounds, Guiding Bolt. 2nd level (3 slots). Augury, Warding Bond. 3rd level (2 slots). Bestow Curse, Create Food and Water.',
             ],
+            effects: [],
           },
           {
             key: 'aggressive',
@@ -3412,6 +3431,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               ' to hit with spell attacks). Its spells require no verbal components. Cantrips (at will). Guidance, Mending, Resistance, Thaumaturgy. 1st level (4 slots). Bane, Detect Magic, Inflict Wounds, Protection from Evil and Good. 2nd level (3 slots). Blindness/Deafness, Silence.',
             ],
+            effects: [],
           },
           {
             key: 'aggressive',
@@ -3969,6 +3989,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' creature takes the other half.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',

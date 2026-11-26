@@ -56,6 +56,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', and the attack has no disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -271,6 +272,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               ' to hit with spell attacks. Cantrips (at will). Guidance, Light, Spare the Dying. 1st level (4 slots). Bless, Cure Wounds, Guiding Bolt, Shield of Faith. 2nd level (2 slots). Calm Emotions, Warding Bond.',
             ],
+            effects: [],
           },
           {
             key: 'surge-of-vigor-recharges-after-a-long-rest',
@@ -297,6 +299,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength save or be pushed 10 ft. away.',
             ],
+            effects: [],
           },
           {
             key: 'antlers',
@@ -382,6 +385,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' is within 5 ft. of the target and the assassin did not have disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'skulker',
@@ -441,6 +445,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'dagger',
@@ -464,6 +469,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'glide',
@@ -510,6 +516,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks. Cantrips (at will). Fire Bolt, Light, Mage Hand, Prestidigitation. 1st level (4 slots). Detect Magic, Mage Armor, Magic Missile, Shield. 2nd level (2 slots). Augury, Misty Step. 3rd level (3 slots). Clairvoyance, Counterspell, Fly. 4th level (3 slots). Greater Invisibility, Locate Creature. 5th level (1 slot). Scrying.',
             ],
+            effects: [],
           },
           {
             key: 'glide',
@@ -645,6 +652,7 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d8', type: rules.piercing, addModifier: true }],
             },
             text: ['A ', rules.prone, ' target takes ', { roll: '1d8' }, ' extra piercing damage.'],
+            effects: [],
           },
           {
             key: 'ambuscade',
@@ -1083,6 +1091,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The tinkerer rolls saves against being ', rules.poisoned, ' with advantage.'],
+            effects: [],
           },
           {
             key: 'skulker',
@@ -1162,6 +1171,7 @@ export default createPublicationMonsters({
               { roll: '1d10' },
               ' piercing damage. 4.',
             ],
+            effects: [],
           },
           {
             key: 'grease-balloon',
@@ -1331,6 +1341,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['He has advantage on saves against being ', rules.poisoned, '.'],
+            effects: [],
           },
           {
             key: 'drop-attack',

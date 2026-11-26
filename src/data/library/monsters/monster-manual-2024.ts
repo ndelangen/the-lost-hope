@@ -181,6 +181,7 @@ export default createPublicationMonsters({
               refs.spells.minor_illusion,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -263,6 +264,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -682,6 +684,7 @@ export default createPublicationMonsters({
               { roll: '1d10' },
               ' Fire damage to every creature it chooses in a 5-ft.',
             ],
+            effects: [],
           },
           {
             key: 'emanation',
@@ -926,6 +929,7 @@ export default createPublicationMonsters({
               refs.spells.phantasmal_killer,
               ' (level 6).',
             ],
+            effects: [],
           },
           {
             key: 'demonic-restoration',
@@ -1434,6 +1438,7 @@ export default createPublicationMonsters({
               refs.spells.lightning_bolt,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1859,6 +1864,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6505,6 +6511,7 @@ export default createPublicationMonsters({
               refs.spells.true_seeing,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'celestial-restoration',
@@ -8248,6 +8255,7 @@ export default createPublicationMonsters({
               refs.spells.spike_growth,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -11296,6 +11304,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -11639,6 +11648,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -12251,6 +12261,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'charming',
@@ -12692,6 +12703,7 @@ export default createPublicationMonsters({
               refs.spells.remove_curse,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -13883,6 +13895,7 @@ export default createPublicationMonsters({
                 rules.prone,
                 '. Wait until the start of the tarrasque’s next turn before repeating this option.',
               ],
+              effects: [],
             },
           ],
         },
@@ -14420,6 +14433,7 @@ export default createPublicationMonsters({
             text: ['Cast Entangle using Constitution (spell save ', { dc: 'con' }, ').'],
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
       },

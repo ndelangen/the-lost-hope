@@ -587,6 +587,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' creatures and creatures on the Ethereal Plane within 30 ft. It can pinpoint them while they move.',
             ],
+            effects: [],
           },
           {
             key: 'slippery',

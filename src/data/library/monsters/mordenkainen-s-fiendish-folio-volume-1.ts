@@ -287,6 +287,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ', no components. At will · Detect Evil and Good, Detect Thoughts. 1/day each · Etherealness, True Seeing.',
             ],
+            effects: [],
           },
           {
             key: 'turn-immunity',
@@ -515,6 +516,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ", no material components. At will · Expeditious Retreat, False Life, Minor Illusion, Prestidigitation. 3/day each · Aid, Misty Step, Tasha's Hideous Laughter. 1/day each · Heal, Heat Metal, Mirror Image.",
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1294,6 +1296,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ', +15 to spell attacks, no material components. Shield retains its normal reaction trigger. At will · Blight, Blink, Chaos Bolt, Detect Magic, Fly, Shield. 3/day each · Circle of Death, Enervation, Symbol (discord). 2/day each · Finger of Death, Harm, Mental Prison. 1/day each · Power Word Kill, Power Word Stun, Symbol (death), Weird.',
             ],
+            effects: [],
           },
           {
             key: 'entropic-aura',
@@ -1431,6 +1434,7 @@ export default createPublicationMonsters({
                 { roll: '12d6' },
                 ' necrotic, halved on success. Ygorl heals for half the total damage those creatures take.',
               ],
+              effects: [],
             },
           ],
         },

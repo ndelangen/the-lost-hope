@@ -624,6 +624,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or suffer one of the following effects, chosen by the echo.',
             ],
+            effects: [],
           },
           {
             key: 'confused-reaction',
@@ -856,6 +857,7 @@ export default createPublicationMonsters({
               rules.petrified,
               ' until it is out of the sunlight.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1219,6 +1221,7 @@ export default createPublicationMonsters({
               { ability: 'harpoon' },
               ' up to 20 ft. toward the giant.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1951,6 +1954,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'spell-reflection',
@@ -1972,6 +1976,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -2132,6 +2137,7 @@ export default createPublicationMonsters({
               rules.prone,
               ', or both, it succeeds instead.',
             ],
+            effects: [],
           },
         ],
       },

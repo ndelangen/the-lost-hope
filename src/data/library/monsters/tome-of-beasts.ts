@@ -94,6 +94,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -337,6 +338,7 @@ export default createPublicationMonsters({
               ' (5 questions), ',
               refs.spells.wall_of_force_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -372,6 +374,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'reality-bomb',
@@ -691,6 +694,7 @@ export default createPublicationMonsters({
               rules.restrained,
               " by its own or other angler worms' snare lines.",
             ],
+            effects: [],
           },
           {
             key: 'transparent-trap',
@@ -726,6 +730,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' by its threads and within reach of its coils-once it has coiled around one creature it stops coil attacks against others.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -883,6 +888,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1708,6 +1714,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'ichorous-infusions',
@@ -1841,6 +1848,7 @@ export default createPublicationMonsters({
               { dc: 'wis', printed: 11 },
               ' Wisdom save or be compelled to move toward that creature and attack it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2002,6 +2010,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.wall_of_ice_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'water-mastery',
@@ -2580,6 +2589,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2648,6 +2658,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the cactid is pulled up to 5 feet straight toward the cactid.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2858,6 +2869,7 @@ export default createPublicationMonsters({
               { ability: 'thorny-grapple' },
               ' on it.',
             ],
+            effects: [],
           },
           {
             key: 'claw',
@@ -2924,6 +2936,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3146,6 +3159,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'dex' },
               ' Dexterity saving throw.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3281,6 +3295,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' creature whose space it occupies 5 feet.',
             ],
+            effects: [],
           },
           {
             key: 'shifting-floor',
@@ -4382,6 +4397,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -4572,6 +4588,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'swan-song',
@@ -4820,6 +4837,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '. An elder shadow drake can suspend or resume this ability at will, so long as the drake is in dim light or darkness.',
             ],
+            effects: [],
           },
           {
             key: 'shadow-jump',
@@ -4890,6 +4908,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -5440,6 +5459,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' (escape DC 15), and the flab giant uses its squatting pin against the target as a bonus action.',
             ],
+            effects: [],
           },
           {
             key: 'slam',
@@ -5538,6 +5558,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -5967,6 +5988,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'parry',
@@ -6376,6 +6398,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution saving throw.',
             ],
+            effects: [],
           },
           {
             key: 'silt-cloud',
@@ -6433,6 +6456,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6524,6 +6548,7 @@ export default createPublicationMonsters({
               { dc: 'dex', printed: 16 },
               ' Dexterity saving throw',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6609,6 +6634,7 @@ export default createPublicationMonsters({
               '). It can innately cast the following spells, requiring no material components: at will: ',
               refs.spells.dimension_door_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -6653,6 +6679,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -6915,6 +6942,7 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'wis' },
               ' Wisdom saving throw. On a failed save, the spell or class feature is spent as if it was used, but it has no effect.',
             ],
+            effects: [],
           },
           {
             key: 'incorporeal-movement',
@@ -7304,6 +7332,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -7539,6 +7568,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_ice_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'jet',
@@ -7559,6 +7589,7 @@ export default createPublicationMonsters({
               rules.grappled,
               " at the start of the krake spawn's turn, but it never constricts more than once per turn.",
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -7638,6 +7669,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'vomit-forth-the-deeps',
@@ -7804,6 +7836,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the lemurfolk doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'kukri-dagger',
@@ -8731,6 +8764,7 @@ export default createPublicationMonsters({
               { dc: 'cha', printed: 15 },
               ' Charisma saving throw or one of its lowest-level, unused spell slots is expended.',
             ],
+            effects: [],
           },
         ],
       },
@@ -8794,6 +8828,7 @@ export default createPublicationMonsters({
               ' 1/week: ',
               refs.spells.gate_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'single-minded-purpose',
@@ -8834,6 +8869,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'wis' },
               " Wisdom saving throw or some cherished material thing disappears from the universe, and only the target retains any memory of it. This item can be as large as a building, but it can't be a living entity and it can't be on the target's person or within the target's sight.",
             ],
+            effects: [],
           },
           {
             key: 'enervating-spiked-gauntlet',
@@ -8982,6 +9018,7 @@ export default createPublicationMonsters({
               { roll: '3d10', mod: 'str' },
               ' bludgeoning damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -9029,6 +9066,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 19 },
               ' Arcana check can reveal the purpose and proper functioning of a mi-go item.',
             ],
+            effects: [],
           },
           {
             key: 'sneak-attack-1-turn',
@@ -9042,6 +9080,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the mi-go doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -9399,6 +9438,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -9423,6 +9463,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               " Dexterity saving throw. Damage done to puppet zombies doesn't affect the mordant snare. If the snare is killed, all of its puppets die immediately without causing any acid damage.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -10292,6 +10333,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ") but is nonmagical, and therefore can't be detected using detect magic or similar magic, and can't be dispelled.",
             ],
+            effects: [],
           },
           {
             key: 'waters-of-unfathomable-compulsion',
@@ -10305,6 +10347,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ', cast as a 7th-level spell) in addition to the effects of dream.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -10417,6 +10460,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the pombero doesn't have disadvantage on the roll.",
             ],
+            effects: [],
           },
           {
             key: 'soft-step',
@@ -10507,6 +10551,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' until it chooses to end the effect as a bonus action, or when it attacks.',
             ],
+            effects: [],
           },
         ],
       },
@@ -11175,6 +11220,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.major_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -11367,6 +11413,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution saving throw.',
             ],
+            effects: [],
           },
           {
             key: 'trapdoor-ambush',
@@ -11854,6 +11901,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -12055,6 +12103,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put it to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -12074,6 +12123,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the forest hunter doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -12368,6 +12418,7 @@ export default createPublicationMonsters({
               { roll: '2d4' },
               ' uninterrupted rounds of exposure to direct, natural sunlight.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -12474,6 +12525,7 @@ export default createPublicationMonsters({
               rules.grappled,
               " by a shoggoth is completely absorbed into the shoggoth's mass. No portion of it remains to be used in raise dead, reincarnate, and comparable spells that require touching the dead person's body.",
             ],
+            effects: [],
           },
           {
             key: 'amorphous',
@@ -12723,6 +12775,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -12782,6 +12835,7 @@ export default createPublicationMonsters({
               '; 3/day: ',
               refs.spells.chain_lightning_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'storm-form',
@@ -12824,6 +12878,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -13342,6 +13397,7 @@ export default createPublicationMonsters({
               refs.spells.resistance_srd_5_1,
               ' (2/day). If the star drake fails a saving throw, it can choose to succeed instead.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -13430,6 +13486,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'searing-star',
@@ -14069,6 +14126,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'algid-aura',
@@ -14518,6 +14576,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'dex' },
               ' Dexterity saving throw.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -14789,6 +14848,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hold_monster_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'blood-puppet',
@@ -15101,6 +15161,7 @@ export default createPublicationMonsters({
               rules.grappled,
               " moves up to 20 feet toward the vesiculosa's main body. Rootlets wander up to 100 feet from the main body.",
             ],
+            effects: [],
           },
           {
             key: 'engulf',
@@ -15358,6 +15419,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'dex' },
               ' Dexterity saving throw.',
             ],
+            effects: [],
           },
         ],
       },
@@ -16096,6 +16158,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -16210,6 +16273,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw or be pushed 10 feet away from the zaratan.',
             ],
+            effects: [],
           },
           {
             key: 'swallow',
