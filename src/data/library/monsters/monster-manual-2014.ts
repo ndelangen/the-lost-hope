@@ -30067,12 +30067,8 @@ export default createPublicationMonsters({
               'A Large or smaller creature hit must pass a Dexterity save (',
               { dc: 'con' },
               ') or the worm swallows it. Inside, the creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', has total cover against attacks and effects from outside, and takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the worm's turns. If a creature inside deals at least 30 damage to the worm in one turn, the worm must pass a Constitution save (",
+              { effect: 'swallowed' },
+              '. If a creature inside deals at least 30 damage to the worm in one turn, the worm must pass a Constitution save (',
               { dc: 'con', printed: 21 },
               ") at that turn's end or regurgitate every swallowed creature. They fall ",
               rules.prone,
@@ -30081,6 +30077,20 @@ export default createPublicationMonsters({
               ' by it and can spend 20 ft. of movement to escape the corpse, emerging ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'Has total cover against attacks and effects from outside, and takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the worm's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -30104,6 +30114,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -30446,6 +30457,7 @@ export default createPublicationMonsters({
               refs.spells.heat_metal_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wounded-fury',
@@ -30559,11 +30571,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5, which: 'it hits' },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.poison }],
-                also: ['Becomes ', rules.poisoned, ' for 1 minute.'],
+
+                also: [{ effect: 'quasit-poisoned' }],
               },
             },
-            text: [
-              'It repeats the save at the end of each turn, ending the condition on a success.',
+            text: [],
+            effects: [
+              {
+                key: 'quasit-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -30575,8 +30596,18 @@ export default createPublicationMonsters({
               'Choose one creature within 20 ft. It makes a ',
               { dc: 'wis' },
               ' Wisdom save or becomes ',
-              rules.frightened,
-              ' for 1 minute. It repeats the save at the end of each turn, with disadvantage if it can see the quasit, ending the effect on a success.',
+              { effect: 'scare-frightened' },
+              '. It repeats the save at the end of each turn, with disadvantage if it can see the quasit, ending the effect on a success.',
+            ],
+            effects: [
+              {
+                key: 'scare-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -30593,6 +30624,7 @@ export default createPublicationMonsters({
               { ability: 'scare' },
               ', or loses Concentration as if concentrating on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -30911,6 +30943,7 @@ export default createPublicationMonsters({
               { roll: '4d10' },
               ' psychic damage to the slaad.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -30947,7 +30980,17 @@ export default createPublicationMonsters({
             text: [
               'A humanoid hit by the claw makes a ',
               { dc: 'con' },
-              ' Constitution save. On a failure it contracts a disease by receiving a slaad egg.',
+              ' Constitution save. On a failure ',
+              { effect: 'slaad-egg' },
+            ],
+            effects: [
+              {
+                key: 'slaad-egg',
+                name: 'Slaad egg',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['It contracts a disease by receiving a slaad egg.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -32271,6 +32314,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' condition are exempt. Affected creatures can retry the save at the end of each of their turns, ending the effect on a success. After a successful save or the effect ending, that creature is immune to this set of panpipes for 24 hours.',
             ],
+            effects: [],
           },
           {
             key: 'charming-melody',
@@ -32279,8 +32323,18 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'On a failed save, the creature is ',
-              rules.charmed,
-              ' by the satyr for 1 minute. The effect ends immediately if the satyr or one of its companions harms the creature.',
+              { effect: 'melody-charmed' },
+              '. The effect ends immediately if the satyr or one of its companions harms the creature.',
+            ],
+            effects: [
+              {
+                key: 'melody-charmed',
+                name: 'Charmed by the satyr',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -32288,7 +32342,17 @@ export default createPublicationMonsters({
             name: 'Frightening Strain',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: ['On a failed save, the creature is ', rules.frightened, ' for 1 minute.'],
+            text: ['On a failed save, the creature is ', { effect: 'strain-frightened' }, '.'],
+            effects: [
+              {
+                key: 'strain-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
           {
             key: 'gentle-lullaby',
@@ -32297,8 +32361,23 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'On a failed save, the creature falls asleep and becomes ',
-              rules.unconscious,
-              ' for 1 minute. Taking damage or someone using an action to shake it awake ends the effect.',
+              { effect: 'lullaby-unconscious' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'lullaby-unconscious',
+                name: 'Asleep',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: {
+                  repeatSave: ['end-of-turn'],
+                  cure: [
+                    'Taking damage or someone using an action to shake it awake ends the effect.',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -32695,8 +32774,20 @@ export default createPublicationMonsters({
               'A humanoid that starts its turn within 30 ft. and sees the hag’s true form makes a ',
               { dc: 'wis' },
               ' Wisdom save or becomes ',
-              rules.frightened,
-              ' for 1 minute. It can save again at the end of each turn, with disadvantage if the hag is in its line of sight. A success ends the condition. Once the creature saves or the effect ends for it, it is immune to this hag’s Horrific Appearance for 24 hours. The creature can avert its eyes to skip the initial save unless it is Surprised or the hag reveals her true form suddenly. A creature that averts its eyes has disadvantage on attack rolls against her until the start of its next turn.',
+              { effect: 'hag-frightened' },
+              '.',
+              ' It can save again at the end of each turn, with disadvantage if the hag is in its line of sight.',
+              ' Once the creature saves or the effect ends for it, it is immune to this hag’s Horrific Appearance for 24 hours. The creature can avert its eyes to skip the initial save unless it is Surprised or the hag reveals her true form suddenly. A creature that averts its eyes has disadvantage on attack rolls against her until the start of its next turn.',
+            ],
+            effects: [
+              {
+                key: 'hag-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -32724,6 +32815,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Wisdom save against the magic or drop to 0 HP.',
             ],
+            effects: [],
           },
           {
             key: 'illusory-appearance',
@@ -33017,10 +33109,20 @@ export default createPublicationMonsters({
               'Make two ',
               { ability: 'slam' },
               ' attacks. If both hit the same Medium or smaller target, it is ',
-              rules.grappled,
-              ', escape DC 14, and the mound immediately uses ',
+              { effect: 'mound-grappled' },
+              ', and the mound immediately uses ',
               { ability: 'engulf' },
               ' on it.',
+            ],
+            effects: [
+              {
+                key: 'mound-grappled',
+                name: 'Grappled',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -33043,14 +33145,24 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               'Choose a Medium or smaller creature the mound is grappling. The creature becomes ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', cannot breathe, and moves with the mound. At the start of each of the mound’s turns, the creature must make a Constitution saving throw (',
-              { dc: 'con' },
-              ') or take ',
-              { roll: '2d8', mod: 'str' },
-              ' bludgeoning damage. The mound can engulf only one creature at a time.',
+              { effect: 'engulfed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'engulfed',
+                name: 'Engulfed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'Cannot breathe, and moves with the mound. At the start of each of the mound’s turns, the creature must make a Constitution saving throw (',
+                  { dc: 'con' },
+                  ') or take ',
+                  { roll: '2d8', mod: 'str' },
+                  ' bludgeoning damage. The mound can engulf only one creature at a time.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -33377,8 +33489,17 @@ export default createPublicationMonsters({
               'Each creature in a 15-ft. cone must make a ',
               { dc: 'wis', save: 'dex' },
               ' Dexterity save. On a failure, it is ',
-              rules.blinded,
-              " until the end of the mephit's next turn.",
+              { effect: 'cinder-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'cinder-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'dex', dc: 'wis' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -33450,7 +33571,20 @@ export default createPublicationMonsters({
             text: [
               'On a failed ',
               { dc: 'wis', printed: 13 },
-              ' Wisdom save, the target loses its reactions until the end of its next turn. On that turn it cannot move, and it spends its action making a melee or ranged attack against a randomly selected creature within reach or range. If unable to attack, it does nothing that turn.',
+              ' Wisdom save, ',
+              { effect: 'confusion-ray' },
+            ],
+            effects: [
+              {
+                key: 'confusion-ray',
+                name: 'Confused',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 13 },
+                text: [
+                  'The target loses its reactions.',
+                  ' On that turn it cannot move, and it spends its action making a melee or ranged attack against a randomly selected creature within reach or range. If unable to attack, it does nothing that turn.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -33462,8 +33596,18 @@ export default createPublicationMonsters({
               'On a failed ',
               { dc: 'con', printed: 13 },
               ' Constitution save, the target is ',
-              rules.paralyzed,
-              ' for 1 minute. It repeats the save at the end of each of its turns, ending the paralysis on a success.',
+              { effect: 'ray-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'ray-paralyzed',
+                name: 'Paralysis',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 13 },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -33475,8 +33619,19 @@ export default createPublicationMonsters({
               'On a failed ',
               { dc: 'wis', printed: 13 },
               ' Wisdom save, the target is ',
-              rules.frightened,
-              ' for 1 minute. It repeats the save at the end of each of its turns to end the fear. It has disadvantage on the repeat save if it can see the spectator.',
+              { effect: 'ray-frightened' },
+              '.',
+              ' It has disadvantage on the repeat save if it can see the spectator.',
+            ],
+            effects: [
+              {
+                key: 'ray-frightened',
+                name: 'Fear',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 13 },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -33495,6 +33650,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 13,
             },
+            effects: [],
           },
           {
             key: 'create-food-and-water',
@@ -33861,6 +34017,7 @@ export default createPublicationMonsters({
               refs.spells.dominate_person_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'rejuvenation',
@@ -33899,6 +34056,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -34140,6 +34298,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Dexterity save.',
             ],
+            effects: [],
           },
           {
             key: 'elemental-nature',
@@ -34181,6 +34340,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },

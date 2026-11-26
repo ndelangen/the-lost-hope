@@ -2231,6 +2231,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'dex' },
               ' Dexterity save.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2366,8 +2367,17 @@ export default createPublicationMonsters({
               'If the predator hits a creature with a melee weapon attack rolled with advantage, that creature must pass a ',
               { dc: 'con' },
               ' Constitution save or become ',
-              rules.blinded,
-              ' until the end of its next turn.',
+              { effect: 'dirty-fighting-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dirty-fighting-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -2599,16 +2609,26 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
           {
             key: 'gaze-of-the-decay',
             name: 'Gaze of the Decay',
             timing: 'bonus action',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'Mark a creature Caithas can see within 60 ft. for 24 hours. While on the same plane, Caithas knows its distance and direction. The marked creature cannot hide from him and gains no benefit from being ',
-              rules.invisible,
-              ' against him.',
+            text: ['Mark a creature Caithas can see within 60 ft. ', { effect: 'gaze-marked' }],
+            effects: [
+              {
+                key: 'gaze-marked',
+                name: 'Marked',
+                lands: { on: 'use' },
+                text: [
+                  'While on the same plane, Caithas knows its distance and direction. The marked creature cannot hide from him and gains no benefit from being ',
+                  rules.invisible,
+                  ' against him.',
+                ],
+                lasts: { kind: 'time', amount: '24', unit: 'hour' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -2667,6 +2687,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' on itself.',
             ],
+            effects: [],
           },
           {
             key: 'kick',
@@ -2684,8 +2705,17 @@ export default createPublicationMonsters({
               'The target makes a ',
               { dc: 'str' },
               ' Strength save or falls ',
-              rules.prone,
+              { effect: 'kick-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'kick-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2697,12 +2727,22 @@ export default createPublicationMonsters({
               'One visible creature within 10 ft. makes a ',
               { dc: 'con' },
               ' Constitution save. On a failure, it is ',
-              rules.poisoned,
-              ' for 1 minute. It repeats the save at the end of each turn, ending the effect on a success. If the initial save fails by 5 or more, the creature is also ',
+              { effect: 'bilious-spit-poisoned' },
+              '. If the initial save fails by 5 or more, the creature is also ',
               rules.blinded,
               ' while ',
               rules.poisoned,
               ' by this effect.',
+            ],
+            effects: [
+              {
+                key: 'bilious-spit-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'recharge 5–6',
@@ -2793,6 +2833,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength save or is moved up to 20 ft. in any direction.',
             ],
+            effects: [],
           },
           {
             key: 'dragon-s-eruption',
@@ -2812,6 +2853,7 @@ export default createPublicationMonsters({
             text: ['Choose a point the chimera sees within 120 ft.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'roar',
@@ -2822,8 +2864,18 @@ export default createPublicationMonsters({
               'Every enemy within 60 ft. that can hear the chimera makes a ',
               { dc: 'wis' },
               ' Wisdom save or becomes ',
-              rules.frightened,
-              ' of it for 1 minute. Each affected creature repeats the save at the end of each of its turns, ending the effect on success. A creature that succeeds on a save against Roar or for whom the effect ends gains immunity to this chimera’s Roar for 24 hours.',
+              { effect: 'roar-frightened' },
+              '. A creature that succeeds on a save against Roar or for whom the effect ends gains immunity to this chimera’s Roar for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'roar-frightened',
+                name: 'Frightened of the chimera (affected creature)',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2835,8 +2887,17 @@ export default createPublicationMonsters({
               'When a creature within 30 ft. misses the chimera with an attack, the chimera can move in a straight line toward it up to half its speed. If the chimera ends within 5 ft. of it, the creature makes a ',
               { dc: 'str' },
               ' Strength save or falls ',
-              rules.prone,
+              { effect: 'ram-s-defiance-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'ram-s-defiance-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2943,7 +3004,16 @@ export default createPublicationMonsters({
                 { dice: '2d8', type: rules.thunder },
               ],
             },
-            text: ['The target falls ', rules.prone, '.'],
+            text: ['The target falls ', { effect: 'booming-bite-prone' }, '.'],
+            effects: [
+              {
+                key: 'booming-bite-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'chilling-bite-1-soul',
@@ -3035,6 +3105,7 @@ export default createPublicationMonsters({
               rules.restrained,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'electrocute',
@@ -3052,6 +3123,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -3091,6 +3163,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3204,6 +3277,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The crux cannot benefit from being ', rules.invisible, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3247,6 +3321,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'it-stares-back',
@@ -3259,12 +3334,27 @@ export default createPublicationMonsters({
               ' if it is within 60 ft. If it can see the crux, it makes a Wisdom saving throw (',
               { dc: 'cha' },
               '). Failure leaves it ',
-              rules.frightened,
-              ' of the crux for 1 minute or until the reflection ends. It repeats the save at the end of each of its turns to end the fear. It takes an extra ',
-              { roll: '2d10' },
-              ' psychic damage every time it takes damage while ',
-              rules.frightened,
-              ' this way. A successful save prevents the fear and grants immunity to It Stares Back from any crux for 24 hours.',
+              { effect: 'it-stares-back-frightened' },
+              ' of the crux',
+              ' or until the reflection ends.',
+              ' A successful save prevents the fear and grants immunity to It Stares Back from any crux for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'it-stares-back-frightened',
+                name: 'Frightened of the crux',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.frightened],
+                text: [
+                  'It takes an extra ',
+                  { roll: '2d10' },
+                  ' psychic damage every time it takes damage while ',
+                  rules.frightened,
+                  ' this way.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'recharge 5–6',
@@ -3290,6 +3380,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'dex' },
               ' Dexterity save. On a failure, the attack’s damage and effects hit the attacker as if the Elemental made the attack. On a success, the attacker takes half the damage and suffers no other effects.',
             ],
+            effects: [],
           },
           {
             key: 'frost-squall',
@@ -3382,6 +3473,7 @@ export default createPublicationMonsters({
             text: [
               'For each remaining flower, choose up to one visible creature within 60 ft. of the Dancing Lady. On a success, it takes half damage and stays in place.',
             ],
+            effects: [],
           },
           {
             key: 'disarming-quickstep',
@@ -3395,14 +3487,25 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '5d6', type: rules.bludgeoning }],
+
                 also: [
-                  'Is Dazed until the start of the Dancing Lady’s next turn. On a success, it takes half damage and avoids Dazed.',
+                  { effect: 'disarming-quickstep-dazed' },
+                  '. On a success, it takes half damage and avoids Dazed.',
                 ],
               },
               onSuccess: 'half',
             },
             text: [
               'For each remaining flower, choose up to one visible creature within 60 ft. of the Dancing Lady.',
+            ],
+            effects: [
+              {
+                key: 'disarming-quickstep-dazed',
+                name: 'Dazed',
+                lands: { on: 'failed-save' },
+                text: ['Is Dazed.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -3414,8 +3517,18 @@ export default createPublicationMonsters({
               'Each enemy within 120 ft. that can smell the flowers’ mist makes a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.frightened,
-              ' of the Dancing Lady for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'ballet-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'ballet-frightened',
+                name: 'Frightened of the Dancing Lady',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -3521,7 +3634,19 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'wis' },
               ' Wisdom save. Creatures immune to ',
               rules.frightened,
-              ' succeed automatically. On failure, an enemy is horrified for 1 minute and subtracts 1d4 from each attack roll and saving throw. It repeats the save at the end of each of its turns, ending the effect on success. Once an enemy succeeds or the effect ends on it, it is immune to this shriek from all deathhawks for 24 hours.',
+              ' succeed automatically. On failure, an enemy is ',
+              { effect: 'shriek-horrified' },
+              '. Once an enemy succeeds or the effect ends on it, it is immune to this shriek from all deathhawks for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'shriek-horrified',
+                name: 'Horrified',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: ['subtracts 1d4 from each attack roll and saving throw.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -3601,7 +3726,18 @@ export default createPublicationMonsters({
             text: [
               'The target makes a ',
               { dc: 'cha', save: 'wis' },
-              ' Wisdom save. On a failure, the adjudicator either Charms or Frightens the target, its choice, until the end of the target’s next turn.',
+              ' Wisdom save. On a failure, ',
+              { effect: 'injunction-charmed-or-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'injunction-charmed-or-frightened',
+                name: 'Charmed or frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                text: ['The adjudicator either Charms or Frightens the target, its choice.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -3612,7 +3748,25 @@ export default createPublicationMonsters({
             text: [
               'Choose one visible creature within 120 ft. It makes a ',
               { dc: 'cha' },
-              ' Charisma save. On a failure it is interdicted until the adjudicator dies. While interdicted, its speed is halved, it cannot take reactions, and it cannot regain hit points. Cure Ailment, Lesser Restoration, Remove Curse, or a similar supernatural effect ends it early.',
+              ' Charisma save. On a failure it is ',
+              { effect: 'interdiction-interdicted' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'interdiction-interdicted',
+                name: 'Interdicted',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: [
+                  'its speed is halved, it cannot take reactions, and it cannot regain hit points.',
+                ],
+                lasts: { kind: 'until', text: ['the adjudicator dies'] },
+                ends: {
+                  cure: [
+                    'Cure Ailment, Lesser Restoration, Remove Curse, or a similar supernatural effect',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -3625,7 +3779,21 @@ export default createPublicationMonsters({
             text: [
               'Three visible creatures within 60 ft. each make a ',
               { dc: 'cha' },
-              ' Charisma save. A creature that fails chooses a −5 penalty to AC or a −5 penalty to both ability checks and attack rolls. The penalty lasts for 10 minutes. It repeats the save at the end of each of its turns, ending the penalty on a success.',
+              ' Charisma save. A creature that fails ',
+              { effect: 'bad-deal-penalty' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bad-deal-penalty',
+                name: 'Bad deal',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: [
+                  'Chooses a −5 penalty to AC or a −5 penalty to both ability checks and attack rolls.',
+                ],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -3719,9 +3887,27 @@ export default createPublicationMonsters({
             text: [
               'The target makes a Constitution saving throw (',
               { dc: 'dex' },
-              ') or gains a festering wound. At the start of each of its turns, the target takes ',
-              { roll: '1d8' },
-              ' fire damage per festering wound. Receiving supernatural healing removes every festering wound from that creature.',
+              ') or gains ',
+              { effect: 'brimstone-festering-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'brimstone-festering-wound',
+                name: 'Festering wound',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                text: [
+                  'At the start of each of its turns, the target takes ',
+                  { roll: '1d8' },
+                  ' fire damage per festering wound.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'Receiving supernatural healing removes every festering wound from that creature.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -3953,10 +4139,15 @@ export default createPublicationMonsters({
                 { dice: '2d8', type: rules.fire },
               ],
             },
-            text: [
-              'The target becomes ',
-              rules.frightened,
-              ' of its own allies until the end of the target’s next turn.',
+            text: ['The target becomes ', { effect: 'infernal-knife-frightened' }, '.'],
+            effects: [
+              {
+                key: 'infernal-knife-frightened',
+                name: 'Frightened of its own allies',
+                lands: { on: 'hit' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -3974,7 +4165,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is ',
               rules.frightened,
-              ', it cannot take reactions until that condition ends.',
+              ', ',
+              { effect: 'obsidian-kris-no-reactions' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'obsidian-kris-no-reactions',
+                name: 'Cannot take reactions',
+                lands: { on: 'hit' },
+                text: ['it cannot take reactions'],
+                lasts: { kind: 'until', text: ['that condition ends'] },
+              },
             ],
           },
           {
@@ -4026,6 +4228,7 @@ export default createPublicationMonsters({
               { roll: '4d10' },
               ' psychic damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
           {
             key: 'immutable-form',
@@ -4070,13 +4273,16 @@ export default createPublicationMonsters({
               reach: 10,
               damage: [{ dice: '4d10', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              rules.grappled,
-              ', escape DC 20. The target is ',
-              rules.restrained,
-              ' while ',
-              rules.grappled,
-              ' this way.',
+            text: [{ effect: 'slam-grappled' }, '.'],
+            effects: [
+              {
+                key: 'slam-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -4104,8 +4310,18 @@ export default createPublicationMonsters({
               'Each creature within 60 ft. makes a ',
               { dc: 'con' },
               ' Constitution save or becomes ',
-              rules.blinded,
-              ' for 1 minute. It can repeat the save at the end of each of its turns to end the effect.',
+              { effect: 'dust-storm-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dust-storm-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -4181,6 +4397,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', he can attack an enemy before the loss of HP resolves, without an action. If the attack hits and drops the enemy to 0 HP, Raskovar drops to 1 HP instead.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4309,11 +4526,25 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiDragonBreath',
             text: [
-              'Light coats every object in a 15-ft. cone for 1 minute. A creature in the cone is also outlined for 1 minute unless it succeeds on a ',
+              'Light coats every object in a 15-ft. cone for 1 minute. A creature in the cone is also ',
+              { effect: 'revealing-breath-outlined' },
+              ' unless it succeeds on a ',
               { dc: 'dex' },
-              ' Dexterity save. Outlined targets shed dim light for 5 ft. and cannot benefit from being ',
-              rules.invisible,
-              '. Attacks against an outlined target have advantage if the attacker can see it. By looking at an outlined target that bears magic, the dragonet can identify the school, if any.',
+              ' Dexterity save.',
+              ' By looking at an outlined target that bears magic, the dragonet can identify the school, if any.',
+            ],
+            effects: [
+              {
+                key: 'revealing-breath-outlined',
+                name: 'Outlined',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                text: [
+                  'Outlined targets shed dim light for 5 ft. and cannot benefit from being ',
+                  rules.invisible,
+                  '. Attacks against an outlined target have advantage if the attacker can see it.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -4387,11 +4618,25 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiDragonBreath',
             text: [
-              'Light coats every object in a 15-ft. cone for 1 minute. A creature in the cone is also outlined for 1 minute unless it succeeds on a ',
+              'Light coats every object in a 15-ft. cone for 1 minute. A creature in the cone is also ',
+              { effect: 'revealing-breath-outlined' },
+              ' unless it succeeds on a ',
               { dc: 'dex' },
-              ' Dexterity save. Outlined targets shed dim light for 5 ft. and cannot benefit from being ',
-              rules.invisible,
-              '. Attacks against an outlined target have advantage if the attacker can see it. By looking at an outlined target that bears magic, the dragonet can identify the school, if any.',
+              ' Dexterity save.',
+              ' By looking at an outlined target that bears magic, the dragonet can identify the school, if any.',
+            ],
+            effects: [
+              {
+                key: 'revealing-breath-outlined',
+                name: 'Outlined',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                text: [
+                  'Outlined targets shed dim light for 5 ft. and cannot benefit from being ',
+                  rules.invisible,
+                  '. Attacks against an outlined target have advantage if the attacker can see it.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -4490,6 +4735,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'starlight-infusion',
@@ -4598,6 +4844,7 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'con' },
               ' Constitution save, the Elemental enters the target’s body until the start of the Elemental’s next turn. Inside, the Elemental cannot take actions and has total cover from attacks and other effects outside the target.',
             ],
+            effects: [],
           },
           {
             key: 'toxic-breath',
@@ -4606,10 +4853,19 @@ export default createPublicationMonsters({
             icon: 'gi/GiDragonBreath',
             text: [
               'The Elemental emits a 10-ft. aura for 1 minute or until moderate or stronger wind disperses it. The aura is lightly obscured. A creature that needs to breathe and starts its turn there is ',
-              rules.poisoned,
-              ' until the end of its next turn on a failed ',
+              { effect: 'toxic-breath-poisoned' },
+              ' on a failed ',
               { dc: 'con' },
               ' Constitution save.',
+            ],
+            effects: [
+              {
+                key: 'toxic-breath-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -4626,6 +4882,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -4725,14 +4982,24 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.fire }],
+
                 also: [
                   'Leaves the creature ',
-                  rules.blinded,
-                  ' until the end of its next turn. Success deals half damage and avoids the condition.',
+                  { effect: 'scalding-steam-blinded' },
+                  '. Success deals half damage and avoids the condition.',
                 ],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'scalding-steam-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'waters-of-vitality',
@@ -4754,6 +5021,7 @@ export default createPublicationMonsters({
               rules.stunned,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4818,10 +5086,23 @@ export default createPublicationMonsters({
             },
             text: [
               'A Medium or smaller creature is ',
-              rules.grappled,
-              ' (escape DC 14) and takes ',
-              { roll: '1d4' },
-              ' poison damage at the start of each of Excess’s turns. Excess cannot bite anyone else before this grapple ends.',
+              { effect: 'bite-grappled' },
+              '. Excess cannot bite anyone else before this grapple ends.',
+            ],
+            effects: [
+              {
+                key: 'bite-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: [
+                  'Takes ',
+                  { roll: '1d4' },
+                  ' poison damage at the start of each of Excess’s turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -4840,8 +5121,18 @@ export default createPublicationMonsters({
               'On a failed ',
               { dc: 'con' },
               ' Constitution save, the target is ',
-              rules.poisoned,
-              ' for 1 minute and can repeat the save at the end of each of its turns to end the condition.',
+              { effect: 'sting-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sting-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4857,16 +5148,26 @@ export default createPublicationMonsters({
               ' by Excess or from which Excess is hidden. On a hit, swallow the creature. It is no longer ',
               rules.grappled,
               ', but is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' and has total cover from attacks and other effects outside Excess. At the start of each of Excess’s turns, it takes ',
-              { roll: '3d6' },
-              ' acid damage. Excess can hold one swallowed creature. If Excess dies, the creature is no longer ',
+              { effect: 'swallow-swallowed' },
+              '. Excess can hold one swallowed creature. If Excess dies, the creature is no longer ',
               rules.restrained,
               ' and can spend 5 ft. of movement to leave the corpse, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallow-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'has total cover from attacks and other effects outside Excess. At the start of each of Excess’s turns, it takes ',
+                  { roll: '3d6' },
+                  ' acid damage.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4906,8 +5207,17 @@ export default createPublicationMonsters({
               'An enemy that hears the mournling and begins its turn within 30 ft. makes a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.frightened,
-              ' of the mournling until the start of its next turn. On a success, it is immune to Horrid Sob from all flesh mournlings for 24 hours.',
+              { effect: 'horrid-sob-frightened' },
+              '. On a success, it is immune to Horrid Sob from all flesh mournlings for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'horrid-sob-frightened',
+                name: 'Frightened of the mournling',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -4940,8 +5250,17 @@ export default createPublicationMonsters({
               'Creatures ',
               rules.frightened,
               ' of the mournling also fall ',
-              rules.prone,
+              { effect: 'slam-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'slam-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
