@@ -1,28 +1,57 @@
+import { readdirSync } from 'node:fs'
+import path from 'node:path'
+
 import { describe, expect, it } from 'vitest'
 
+import { refs } from '#/data/generated/library-refs'
+import books from '#/data/library/monsters/_index'
 import publications from '#/data/library/publications'
+import { publishedLibrary } from '#/lib/published-library-data'
 
-import { monsterPrinting, typedLibraryPrinting } from './library-monsters'
+import { monsterPrinting, printingsByMonster } from './library-monsters'
+
+const wolf = refs.monsters.wolf
+const mm2014 = refs.publications.monster_manual_2014
 
 describe('library monsters', () => {
   it('derives the printed numbers from the stored stat block', () => {
-    const allosaurus = monsterPrinting('allosaurus', 'monster_manual_2014')
-    expect(allosaurus?.derived.hitPoints).toBe('51 (6d10 + 18)')
-    expect(allosaurus?.derived.passivePerception).toBe(15)
+    const printing = monsterPrinting(wolf, mm2014)
+    expect(printing?.derived.hitPoints).toBe('11 (2d8 + 2)')
+    expect(printing?.derived.passivePerception).toBe(13)
   })
 
   it('finds a reprint through the book that holds the stat block', () => {
-    const reprint = monsterPrinting('allosaurus', 'basic_rules_2018')
+    const reprint = monsterPrinting(wolf, refs.publications.basic_rules_2018)
     expect(reprint?.heldBy.name).toBe('Monster Manual')
-    expect(reprint?.printing).toBe(monsterPrinting('allosaurus', 'monster_manual_2014')?.printing)
+    expect(reprint?.printing).toBe(monsterPrinting(wolf, mm2014)?.printing)
   })
 
-  it('maps the older text library onto typed printings', () => {
-    expect(typedLibraryPrinting('allosaurus', 'Basic Rules (2018)')).toBeDefined()
-    expect(typedLibraryPrinting('allosaurus', 'Unknown book')).toBeUndefined()
+  it('registers every publication module', () => {
+    const files = readdirSync(path.join(import.meta.dirname, '../data/library/monsters')).filter(
+      (file) => file.endsWith('.ts') && file !== '_index.ts',
+    )
+    expect(books).toHaveLength(files.length)
   })
 
-  it('knows every publication a printing names', () => {
-    expect(Object.keys(publications)).toContain('monster_manual_2014')
+  it('has a generated ref for exactly the monsters it holds', () => {
+    expect(Object.keys(refs.monsters).toSorted()).toEqual([...printingsByMonster.keys()].toSorted())
+  })
+
+  it('names only publications it knows', () => {
+    for (const { publication, monsters } of books) {
+      expect(publications[publication.key]).toBeDefined()
+      for (const { reprintedIn = [] } of Object.values(monsters))
+        for (const { key } of reprintedIn) expect(publications[key]).toBeDefined()
+    }
+  })
+
+  it('resolves every converted printing of the older catalog', () => {
+    const converted = publishedLibrary.flatMap(({ printings }) =>
+      printings.flatMap(({ typed }) => (typed ? [typed] : [])),
+    )
+    expect(converted.length).toBeGreaterThan(0)
+    expect(
+      converted.filter(({ monster, publication }) => !monsterPrinting(monster, publication)),
+    ).toEqual([])
   })
 })

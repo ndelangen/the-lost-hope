@@ -7,68 +7,6 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.basic_rules_2018,
   monsters: {
-    giant_eagle: {
-      name: 'Giant Eagle',
-      alignment: 'neutral good',
-      habitats: ['Mountains', 'Cliffs', 'Open skies'],
-      appearance: [
-        [
-          'A golden-brown raptor with tawny neck feathers, a hooked beak, broad dark wings and powerful talons.',
-        ],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1',
-        ac: 13,
-        hitDice: '4d10',
-        speed: { walk: 10, fly: 80 },
-        scores: { str: 16, dex: 17, con: 13, int: 8, wis: 14, cha: 10 },
-        skills: { perception: 'proficient' },
-        abilities: [
-          {
-            key: 'keen-sight',
-            name: 'Keen Sight',
-            timing: 'trait',
-            icon: 'lucide/Eye',
-            text: ['The eagle has advantage on Wisdom (Perception) checks that rely on sight.'],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['Make one Beak and one Talons attack.'],
-          },
-          {
-            key: 'beak',
-            name: 'Beak',
-            timing: 'action',
-            icon: 'gi/GiRaven',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
-            },
-          },
-          {
-            key: 'talons',
-            name: 'Talons',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
     giant_lizard: {
       name: 'Giant Lizard',
       alignment: 'unaligned',
@@ -112,6 +50,7 @@ export default createPublicationMonsters({
     },
     giant_rat: {
       name: 'Giant Rat',
+      page: 135,
       alignment: 'unaligned',
       habitats: ['Settlements', 'Sewers', 'Cellars'],
       appearance: [
@@ -165,6 +104,7 @@ export default createPublicationMonsters({
     },
     polar_bear: {
       name: 'Polar Bear',
+      page: 149,
       alignment: 'unaligned',
       habitats: ['Arctic coasts', 'Sea ice', 'Tundra'],
       appearance: [
@@ -195,7 +135,7 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: ['Make one Bite and one Claws attack.'],
+            text: ['Make one ', { ability: 'bite' }, ' and one ', { ability: 'claws' }, ' attack.'],
           },
           {
             key: 'bite',
@@ -228,6 +168,7 @@ export default createPublicationMonsters({
     },
     warhorse: {
       name: 'Warhorse',
+      page: 157,
       alignment: 'unaligned',
       habitats: ['Stables', 'Training grounds', 'Military camps', 'Battlefields'],
       appearance: [
@@ -255,11 +196,17 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiBull',
             text: [
-              'If the horse goes at least 20 ft. straight toward a creature and hits it with Hooves on the same turn, the creature makes a DC 14 Strength save or falls ',
+              'If the horse goes at least 20 ft. straight toward a creature and hits it with ',
+              { ability: 'hooves' },
+              ' on the same turn, the creature makes a ',
+              { dc: 'str' },
+              ' Strength save or falls ',
               rules.prone,
               '. If the target is ',
               rules.prone,
-              ', the horse can make another Hooves attack against it as a bonus action.',
+              ', the horse can make another ',
+              { ability: 'hooves' },
+              ' attack against it as a bonus action.',
             ],
           },
           {

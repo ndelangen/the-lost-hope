@@ -16,11 +16,11 @@ test('DM search finds hidden text and the selected printing controls the mechani
   expect(
     getLibraryEntry('ideas', 'the-bell-was-muffled-between-strikes', true)?.sections,
   ).toHaveLength(1)
-  expect(getLibraryEntry('beasts', 'wolf', true, 'srd-5-2-1')?.sections[0]?.lines).toContain(
-    'Armor class · 12',
-  )
-  expect(getLibraryEntry('beasts', 'wolf', true, 'srd-5-1')?.sections[0]?.lines).toContain(
-    'Armor class · 13',
+  expect(
+    getLibraryEntry('beasts', 'wolf', true, 'srd-5-2-1')?.selected.typed?.publication.key,
+  ).toBe('srd_5_2_1')
+  expect(getLibraryEntry('beasts', 'wolf', true, 'srd-5-1')?.selected.typed?.publication.key).toBe(
+    'srd_5_1',
   )
   expect(getLibraryEntry('monsters', 'wolf', true)).toBeUndefined()
   expect(getLibraryEntry('beasts', 'wolf', true, 'unknown')).toBeUndefined()

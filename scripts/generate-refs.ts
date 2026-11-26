@@ -1,4 +1,5 @@
-import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
+import { readdirSync } from 'node:fs'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import process from 'node:process'
 import { fileURLToPath } from 'node:url'
@@ -31,6 +32,10 @@ const IDENTIFIER = /^[A-Za-z_$][\w$]*$/
 
 export const REFERENCE_SOURCE_PATHS = [
   ENTITY_KINDS_PATH,
+  path.join(LIBRARY_PATH, 'publications.ts'),
+  ...readdirSync(path.join(LIBRARY_PATH, 'monsters'))
+    .filter((file) => file.endsWith('.ts'))
+    .map((file) => path.join(LIBRARY_PATH, 'monsters', file)),
   ...COLLECTIONS.map(({ plural }) => path.join(ROOT, 'src/data', plural, '_index.ts')),
 ]
 
@@ -157,7 +162,11 @@ export async function generatedLibrarySource(): Promise<string> {
     '  ',
   )
   const monsterDir = path.join(LIBRARY_PATH, 'monsters')
-  const files = (await readdir(monsterDir)).filter((file) => file.endsWith('.ts')).toSorted()
+  // The registry lists the publication modules; the lookup in src/lib reads the same list.
+  const registry = await readFile(path.join(monsterDir, '_index.ts'), 'utf8')
+  const files = [...registry.matchAll(/from '\.\/(?<file>[\w-]+\.ts)'/gu)].map(
+    ({ groups }) => groups!.file!,
+  )
   const monsters = new Set<string>()
   for (const file of files)
     for (const key of libraryKeys(await readFile(path.join(monsterDir, file), 'utf8'), '    '))

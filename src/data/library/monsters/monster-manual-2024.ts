@@ -10,6 +10,7 @@ export default createPublicationMonsters({
     allosaurus: {
       name: 'Allosaurus',
       tags: ['Dinosaur'],
+      page: 348,
       alignment: 'unaligned',
       habitats: ['grassland'],
       appearance: [
@@ -55,7 +56,9 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Large or smaller creature and the allosaurus moved at least 30 ft. straight toward it immediately before the hit, the creature gains the ',
               rules.prone,
-              ' condition and the allosaurus can make one Bite against it.',
+              ' condition and the allosaurus can make one ',
+              { ability: 'bite' },
+              ' against it.',
             ],
           },
         ],
@@ -64,6 +67,7 @@ export default createPublicationMonsters({
     ankylosaurus: {
       name: 'Ankylosaurus',
       tags: ['Dinosaur'],
+      page: 348,
       alignment: 'unaligned',
       habitats: ['grassland'],
       appearance: [
@@ -84,7 +88,7 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: ['Make two Tail attacks.'],
+            text: ['Make two ', { ability: 'tail' }, ' attacks.'],
           },
           {
             key: 'tail',
@@ -106,6 +110,7 @@ export default createPublicationMonsters({
     ape: {
       name: 'Ape',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 348,
       alignment: 'unaligned',
       habitats: ['forest'],
       appearance: [
@@ -131,7 +136,7 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: ['Make two Fist attacks.'],
+            text: ['Make two ', { ability: 'fist' }, ' attacks.'],
           },
           {
             key: 'fist',
@@ -167,6 +172,7 @@ export default createPublicationMonsters({
     archelon: {
       name: 'Archelon',
       tags: ['Dinosaur'],
+      page: 349,
       alignment: 'unaligned',
       habitats: ['underwater'],
       appearance: [
@@ -196,7 +202,7 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: ['Make two Bite attacks.'],
+            text: ['Make two ', { ability: 'bite' }, ' attacks.'],
           },
           {
             key: 'bite',
@@ -217,6 +223,7 @@ export default createPublicationMonsters({
     baboon: {
       name: 'Baboon',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 349,
       alignment: 'unaligned',
       habitats: ['forest', 'hill'],
       appearance: [
@@ -260,6 +267,8 @@ export default createPublicationMonsters({
     },
     brown_bear: {
       name: 'Brown Bear',
+      reprintedIn: [refs.publications.srd_5_2_1],
+      page: 350,
       alignment: 'unaligned',
       habitats: ['arctic', 'forest', 'hill'],
       appearance: [
@@ -281,31 +290,48 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: ['Make one Bite attack and one Claw attack.'],
+            text: [
+              'Make one ',
+              { ability: 'bite' },
+              ' attack and one ',
+              { ability: 'claw' },
+              ' attack.',
+            ],
           },
           {
             key: 'bite',
             name: 'Bite',
             timing: 'action',
             icon: 'gi/GiFangs',
-            text: ['+5 to hit in melee, reach 5 ft. On a hit, deal 7 (1d8 + 3) Piercing damage.'],
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
+            },
           },
           {
             key: 'claw',
             name: 'Claw',
             timing: 'action',
             icon: 'gi/GiClaws',
-            text: [
-              '+5 to hit in melee, reach 5 ft. On a hit, deal 5 (1d4 + 3) Slashing damage. A Large or smaller creature hit by Claw becomes ',
-              rules.prone,
-              '.',
-            ],
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.slashing, addModifier: true }],
+            },
+            text: ['A Large or smaller creature hit by Claw becomes ', rules.prone, '.'],
           },
         ],
       },
     },
     camel: {
       name: 'Camel',
+      reprintedIn: [refs.publications.srd_5_2_1],
+      page: 351,
       alignment: 'unaligned',
       habitats: ['desert'],
       appearance: [
@@ -327,15 +353,21 @@ export default createPublicationMonsters({
             name: 'Bite',
             timing: 'action',
             icon: 'gi/GiFangs',
-            text: [
-              '+4 to hit in melee, reach 5 ft. On a hit, deal 4 (1d4 + 2) Bludgeoning damage.',
-            ],
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.bludgeoning, addModifier: true }],
+            },
           },
         ],
       },
     },
     cat: {
       name: 'Cat',
+      reprintedIn: [refs.publications.srd_5_2_1],
+      page: 351,
       alignment: 'unaligned',
       habitats: ['desert', 'forest', 'grassland', 'urban'],
       appearance: [
@@ -366,53 +398,22 @@ export default createPublicationMonsters({
             key: 'scratch',
             name: 'Scratch',
             timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: ['+4 to hit in melee, reach 5 ft. On a hit, deal 1 Slashing damage.'],
-          },
-        ],
-      },
-    },
-    constrictor_snake: {
-      name: 'Constrictor Snake',
-      alignment: 'unaligned',
-      habitats: ['desert', 'forest', 'swamp', 'underwater'],
-      appearance: [
-        ['A heavy-bodied brown snake with dark saddle-shaped markings and a broad head.'],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1/4',
-        ac: 13,
-        hitDice: '2d10',
-        speed: { walk: 30, swim: 30 },
-        scores: { str: 15, dex: 14, con: 12, int: 1, wis: 10, cha: 3 },
-        skills: { perception: 'proficient', stealth: 'proficient' },
-        senses: { blindsight: 10 },
-        abilities: [
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            text: ['+4 to hit in melee, reach 5 ft. On a hit, deal 6 (1d8 + 2) Piercing damage.'],
-          },
-          {
-            key: 'constrict',
-            name: 'Constrict',
-            timing: 'action',
-            icon: 'gi/GiTentacleStrike',
-            text: [
-              'One Medium or smaller creature the snake can see within 5 ft. makes a DC 12 Strength save. On a failure, it takes 7 (3d4) Bludgeoning damage and becomes ',
-              rules.grappled,
-              ' (escape DC 12).',
-            ],
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1', type: rules.slashing }],
+            },
           },
         ],
       },
     },
     crab: {
       name: 'Crab',
+      reprintedIn: [refs.publications.srd_5_2_1],
+      page: 351,
       alignment: 'unaligned',
       habitats: ['coastal', 'underwater'],
       appearance: [
@@ -441,107 +442,13 @@ export default createPublicationMonsters({
             name: 'Claw',
             timing: 'action',
             icon: 'gi/GiClaws',
-            text: ['+2 to hit in melee, reach 5 ft. On a hit, deal 1 Bludgeoning damage.'],
-          },
-        ],
-      },
-    },
-    elephant: {
-      name: 'Elephant',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['grassland'],
-      appearance: [
-        [
-          'A massive grey elephant with broad ears, long ivory tusks and a trunk that curls at the tip.',
-        ],
-      ],
-      stats: {
-        size: 'huge',
-        type: 'beast',
-        cr: '4',
-        ac: 12,
-        hitDice: '8d12',
-        speed: { walk: 40 },
-        scores: { str: 22, dex: 9, con: 17, int: 3, wis: 11, cha: 6 },
-        abilities: [
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['Make two Gore attacks.'],
-          },
-          {
-            key: 'gore',
-            name: 'Gore',
-            timing: 'action',
-            icon: 'gi/GiBullHorns',
             intent: 'damage',
             attack: {
               kind: 'melee',
-              ability: 'str',
+              ability: 'dex',
               reach: 5,
-              damage: [{ dice: '2d8', type: rules.piercing, addModifier: true }],
+              damage: [{ dice: '1', type: rules.bludgeoning }],
             },
-            text: [
-              'If the target is a Huge or smaller creature and the elephant moved at least 20 ft. straight toward it immediately before the hit, the target falls ',
-              rules.prone,
-              '.',
-            ],
-          },
-          {
-            key: 'trample',
-            name: 'Trample',
-            timing: 'bonus action',
-            icon: 'gi/GiBull',
-            text: [
-              'Choose one ',
-              rules.prone,
-              ' creature within 5 ft. It makes a DC 16 Dexterity saving throw. Failure deals 17 (2d10 + 6) Bludgeoning damage. Success halves the damage.',
-            ],
-          },
-        ],
-      },
-    },
-    elk: {
-      name: 'Elk',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['forest', 'grassland', 'hill'],
-      appearance: [
-        [
-          'A tawny bull elk with long legs, a dark shaggy neck and a broad set of branching antlers.',
-        ],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1/4',
-        ac: 10,
-        hitDice: '2d10',
-        speed: { walk: 50 },
-        scores: { str: 16, dex: 10, con: 11, int: 2, wis: 10, cha: 6 },
-        skills: { perception: 'proficient' },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'ram',
-            name: 'Ram',
-            timing: 'action',
-            icon: 'gi/GiBull',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
-            },
-            text: [
-              'If the target is a Large or smaller creature and the elk moved at least 20 ft. straight toward it immediately before the hit, the target also takes 3 (1d6) Bludgeoning damage and falls ',
-              rules.prone,
-              '.',
-            ],
           },
         ],
       },
@@ -549,6 +456,7 @@ export default createPublicationMonsters({
     frog: {
       name: 'Frog',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 354,
       alignment: 'unaligned',
       habitats: ['forest', 'swamp'],
       appearance: [['A squat olive-green frog with mottled skin, gold eyes and folded hind legs.']],
@@ -595,77 +503,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    giant_ape: {
-      name: 'Giant Ape',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['forest'],
-      appearance: [
-        [
-          'A huge gorilla-like ape with charcoal fur, a broad chest and muscular knuckle-walking arms.',
-        ],
-      ],
-      tableNotes: [
-        [
-          'Once Boulder Toss is used, it becomes available again on a 6 on 1d6 at the start of a turn, or after a Short or Long Rest.',
-        ],
-      ],
-      stats: {
-        size: 'huge',
-        type: 'beast',
-        cr: '7',
-        ac: 12,
-        hitDice: '16d12',
-        speed: { walk: 40, climb: 40 },
-        scores: { str: 23, dex: 14, con: 18, int: 5, wis: 12, cha: 7 },
-        skills: { athletics: 'proficient', perception: 'proficient', survival: 'proficient' },
-        abilities: [
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['Make two Fist attacks.'],
-          },
-          {
-            key: 'fist',
-            name: 'Fist',
-            timing: 'action',
-            icon: 'gi/GiFist',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 10,
-              damage: [{ dice: '3d10', type: rules.bludgeoning, addModifier: true }],
-            },
-          },
-          {
-            key: 'boulder-toss',
-            name: 'Boulder Toss',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'Choose a visible point within 90 ft. Each creature in a 5-ft.-radius Sphere centered there makes a DC 17 Dexterity saving throw. On a failure, deal 24 (7d6) Bludgeoning damage. A Large or smaller creature that fails also falls ',
-              rules.prone,
-              '. On a success, deal half damage only.',
-            ],
-            uses: 1,
-            recharge: 'Recharge 6',
-          },
-          {
-            key: 'leap',
-            name: 'Leap',
-            timing: 'bonus action',
-            icon: 'gi/GiFrogFoot',
-            text: ['Spend 10 ft. of movement to jump up to 30 ft.'],
-          },
-        ],
-      },
-    },
     giant_bat: {
       name: 'Giant Bat',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 355,
       alignment: 'unaligned',
       habitats: ['forest', 'mountain', 'underdark'],
       appearance: [['A large brown bat with a furry body, pointed ears and wide leathery wings.']],
@@ -695,59 +536,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    giant_boar: {
-      name: 'Giant Boar',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['forest', 'grassland', 'hill'],
-      appearance: [
-        [
-          'An oversized dark bristled boar with a high ridge of coarse hair, stout legs and long ivory tusks.',
-        ],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '2',
-        ac: 13,
-        hitDice: '5d10',
-        speed: { walk: 40 },
-        scores: { str: 17, dex: 10, con: 16, int: 2, wis: 7, cha: 5 },
-        saves: { str: 'proficient' },
-        abilities: [
-          {
-            key: 'bloodied-fury',
-            name: 'Bloodied Fury',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'The boar has advantage on melee attack rolls when Bloodied, at half its HP or fewer.',
-            ],
-          },
-          {
-            key: 'gore',
-            name: 'Gore',
-            timing: 'action',
-            icon: 'gi/GiBullHorns',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
-            },
-            text: [
-              'If the target is a Large or smaller creature and the boar moved at least 20 ft. straight toward it immediately before the hit, it takes another 7 (2d6) piercing damage and falls ',
-              rules.prone,
-              '.',
-            ],
-          },
-        ],
-      },
-    },
     giant_centipede: {
       name: 'Giant Centipede',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 355,
       alignment: 'unaligned',
       habitats: ['underdark', 'urban'],
       appearance: [
@@ -777,64 +569,7 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'And inflict ',
-              rules.poisoned,
-              ' until the start of the centipede’s next turn.',
-            ],
-          },
-        ],
-      },
-    },
-    giant_constrictor_snake: {
-      name: 'Giant Constrictor Snake',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['desert', 'forest', 'swamp', 'underwater'],
-      appearance: [
-        ['A heavy coiled snake with a broad head and irregular amber and dark olive blotches.'],
-      ],
-      stats: {
-        size: 'huge',
-        type: 'beast',
-        cr: '2',
-        ac: 12,
-        hitDice: '8d12',
-        speed: { walk: 30, swim: 30 },
-        scores: { str: 19, dex: 14, con: 12, int: 1, wis: 10, cha: 3 },
-        skills: { perception: 'proficient' },
-        senses: { blindsight: 10 },
-        abilities: [
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['Make one Bite attack and use Constrict.'],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 10,
-              damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
-            },
-          },
-          {
-            key: 'constrict',
-            name: 'Constrict',
-            timing: 'action',
-            icon: 'gi/GiTentacleStrike',
-            text: [
-              'One visible Large or smaller creature within 10 ft. makes a DC 14 Strength save. On a failure, it takes 13 (2d8 + 4) bludgeoning damage and is ',
-              rules.grappled,
-              ', escape DC 14.',
-            ],
+            text: ['Inflict ', rules.poisoned, ' until the start of the centipede’s next turn.'],
           },
         ],
       },
@@ -842,6 +577,7 @@ export default createPublicationMonsters({
     giant_crab: {
       name: 'Giant Crab',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 356,
       alignment: 'unaligned',
       habitats: ['coastal', 'underwater'],
       appearance: [
@@ -891,6 +627,7 @@ export default createPublicationMonsters({
     giant_lizard: {
       name: 'Giant Lizard',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 358,
       alignment: 'unaligned',
       habitats: ['coastal', 'desert', 'forest', 'swamp', 'underdark'],
       appearance: [
@@ -937,6 +674,7 @@ export default createPublicationMonsters({
     giant_octopus: {
       name: 'Giant Octopus',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 358,
       alignment: 'unaligned',
       habitats: ['underwater'],
       appearance: [
@@ -996,6 +734,7 @@ export default createPublicationMonsters({
     },
     giant_rat: {
       name: 'Giant Rat',
+      page: 358,
       alignment: 'unaligned',
       habitats: ['forest', 'swamp', 'underdark', 'urban'],
       appearance: [
@@ -1040,125 +779,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    giant_scorpion: {
-      name: 'Giant Scorpion',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['desert'],
-      appearance: [
-        [
-          'An ochre scorpion with a thick segmented body, broad pincers, and a curved tail tipped with a raised stinger.',
-        ],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '3',
-        ac: 15,
-        hitDice: '7d10',
-        speed: { walk: 40 },
-        scores: { str: 16, dex: 13, con: 15, int: 1, wis: 9, cha: 3 },
-        senses: { blindsight: 60 },
-        abilities: [
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['Make two Claw attacks and one Sting attack.'],
-          },
-          {
-            key: 'claw',
-            name: 'Claw',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
-            },
-            text: [
-              'A Large or smaller creature is ',
-              rules.grappled,
-              ' by one of the scorpion’s two claws (escape DC 13).',
-            ],
-          },
-          {
-            key: 'sting',
-            name: 'Sting',
-            timing: 'action',
-            icon: 'gi/GiPoisonBottle',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
-            },
-            text: ['Plus 11 (2d10) poison damage.'],
-          },
-        ],
-      },
-    },
-    giant_seahorse: {
-      name: 'Giant Seahorse',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['underwater'],
-      appearance: [
-        [
-          'An olive-gray seahorse with a narrow tubular snout, overlapping ridged plates, and a tightly coiled tail.',
-        ],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1/2',
-        ac: 14,
-        hitDice: '3d10',
-        speed: { walk: 5, swim: 40 },
-        scores: { str: 15, dex: 12, con: 11, int: 2, wis: 12, cha: 5 },
-        abilities: [
-          {
-            key: 'water-breathing',
-            name: 'Water Breathing',
-            timing: 'trait',
-            icon: 'gi/GiDragonBreath',
-            text: ['The seahorse can breathe only underwater.'],
-          },
-          {
-            key: 'ram',
-            name: 'Ram',
-            timing: 'action',
-            icon: 'gi/GiBull',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-            },
-            text: [
-              'If the seahorse moved at least 20 ft. straight toward the target immediately before the hit, deal 11 (2d8 + 2) bludgeoning damage instead.',
-            ],
-          },
-          {
-            key: 'bubble-dash',
-            name: 'Bubble Dash',
-            timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'While underwater, the seahorse can move up to half its Swim Speed without provoking opportunity attacks.',
-            ],
-          },
-        ],
-      },
-    },
     giant_shark: {
       name: 'Giant Shark',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 359,
       alignment: 'unaligned',
       habitats: ['underwater'],
       appearance: [
@@ -1187,7 +811,7 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: ['Make two Bite attacks.'],
+            text: ['Make two ', { ability: 'bite' }, ' attacks.'],
           },
           {
             key: 'bite',
@@ -1205,75 +829,9 @@ export default createPublicationMonsters({
         ],
       },
     },
-    giant_spider: {
-      name: 'Giant Spider',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['desert', 'forest', 'swamp', 'underdark', 'urban'],
-      appearance: [
-        [
-          'A broad brown spider with gold chevrons on its round abdomen and eight long, banded legs.',
-        ],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1',
-        ac: 14,
-        hitDice: '4d10',
-        speed: { walk: 30, climb: 30 },
-        scores: { str: 14, dex: 16, con: 12, int: 2, wis: 11, cha: 4 },
-        skills: { perception: 'expert', stealth: 'expert' },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'spider-climb',
-            name: 'Spider Climb',
-            timing: 'trait',
-            icon: 'lucide/MoveUp',
-            text: ['Climb difficult surfaces, including ceilings, without an ability check.'],
-          },
-          {
-            key: 'web-walker',
-            name: 'Web Walker',
-            timing: 'trait',
-            icon: 'gi/GiSpiderWeb',
-            text: [
-              'Webs do not impede the spider’s movement. It knows where any other creature touching the same web is.',
-            ],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
-            },
-            text: ['And 7 (2d6) Poison damage.'],
-          },
-          {
-            key: 'web',
-            name: 'Web',
-            timing: 'action',
-            icon: 'gi/GiSpiderWeb',
-            text: [
-              'One creature the spider sees within 60 ft. must make a DC 13 Dexterity saving throw. On a failure, the creature is ',
-              rules.restrained,
-              ' until the web is destroyed. The web has AC 10, 5 HP, Vulnerability to Fire damage and Immunity to Poison and Psychic damage.',
-            ],
-            uses: 1,
-            recharge: 'Recharge 5–6',
-          },
-        ],
-      },
-    },
     giant_squid: {
       name: 'Giant Squid',
+      page: 360,
       alignment: 'unaligned',
       habitats: ['underwater'],
       appearance: [
@@ -1306,7 +864,13 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: ['Make one Bite attack and one Tentacle attack.'],
+            text: [
+              'Make one ',
+              { ability: 'bite' },
+              ' attack and one ',
+              { ability: 'tentacle' },
+              ' attack.',
+            ],
           },
           {
             key: 'bite',
@@ -1353,158 +917,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    giant_toad: {
-      name: 'Giant Toad',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['coastal', 'forest', 'swamp', 'underdark'],
-      appearance: [
-        ['A squat, mottled brown toad with pebbled skin, thick hind legs and amber eyes.'],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1',
-        ac: 11,
-        hitDice: '6d10',
-        speed: { walk: 30, swim: 30 },
-        scores: { str: 15, dex: 13, con: 13, int: 2, wis: 10, cha: 3 },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'amphibious',
-            name: 'Amphibious',
-            timing: 'trait',
-            icon: 'gi/GiWaterSplash',
-            text: ['Breathe air and water.'],
-          },
-          {
-            key: 'standing-leap',
-            name: 'Standing Leap',
-            timing: 'trait',
-            icon: 'gi/GiFrogFoot',
-            text: [
-              'Long jump up to 20 ft. or high jump up to 10 ft. with or without a running start.',
-            ],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
-            },
-            text: [
-              'And 5 (2d4) Poison damage. A Medium or smaller creature hit by the bite is ',
-              rules.grappled,
-              ' (escape DC 12).',
-            ],
-          },
-          {
-            key: 'swallow',
-            name: 'Swallow',
-            timing: 'action',
-            icon: 'gi/GiSlime',
-            text: [
-              'Swallow one Medium or smaller target the toad is grappling. End that grapple. The swallowed target is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' and has Total Cover against attacks and effects outside the toad. It takes 10 (3d6) Acid damage at the end of each of the toad’s turns. The toad can hold one swallowed target at a time and cannot use Bite while holding it. If the toad dies, end the restraint. The target can spend 5 ft. of movement to leave the corpse and emerge ',
-              rules.prone,
-              '.',
-            ],
-          },
-        ],
-      },
-    },
-    giant_venomous_snake: {
-      name: 'Giant Venomous Snake',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['coastal', 'desert', 'forest', 'grassland', 'hill', 'swamp'],
-      appearance: [
-        ['A coiled olive-brown snake with dark bands, a pale throat and a raised head.'],
-      ],
-      stats: {
-        size: 'medium',
-        type: 'beast',
-        cr: '1/4',
-        ac: 14,
-        hitDice: '2d8',
-        speed: { walk: 40, swim: 40 },
-        scores: { str: 10, dex: 18, con: 13, int: 2, wis: 10, cha: 3 },
-        skills: { perception: 'proficient' },
-        senses: { blindsight: 10 },
-        abilities: [
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 10,
-              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
-            },
-            text: ['And 4 (1d8) Poison damage.'],
-          },
-        ],
-      },
-    },
-    giant_wasp: {
-      name: 'Giant Wasp',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['forest', 'grassland', 'urban'],
-      appearance: [
-        [
-          'A golden-and-dark striped wasp with a narrow waist, transparent veined wings, hooked feet, and a pointed stinger.',
-        ],
-      ],
-      stats: {
-        size: 'medium',
-        type: 'beast',
-        cr: '1/2',
-        ac: 13,
-        hitDice: '5d8',
-        speed: { walk: 10, fly: 50 },
-        scores: { str: 10, dex: 14, con: 10, int: 1, wis: 10, cha: 3 },
-        abilities: [
-          {
-            key: 'flyby',
-            name: 'Flyby',
-            timing: 'trait',
-            icon: 'gi/GiFeather',
-            text: ['Flying out of an enemy’s reach does not trigger an Opportunity Attack.'],
-          },
-          {
-            key: 'sting',
-            name: 'Sting',
-            timing: 'action',
-            icon: 'gi/GiPoisonBottle',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
-            },
-            text: ['And 5 (2d4) poison damage.'],
-          },
-        ],
-      },
-    },
     giant_weasel: {
       name: 'Giant Weasel',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 361,
       alignment: 'unaligned',
       habitats: ['forest', 'grassland', 'hill'],
       appearance: [
@@ -1539,56 +955,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    giant_wolf_spider: {
-      name: 'Giant Wolf Spider',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['coastal', 'desert', 'forest', 'grassland', 'hill'],
-      appearance: [
-        [
-          'A hairy brown spider with dark radial markings, a cluster of glossy eyes, visible fangs, and eight banded legs.',
-        ],
-      ],
-      stats: {
-        size: 'medium',
-        type: 'beast',
-        cr: '1/4',
-        ac: 13,
-        hitDice: '2d8',
-        speed: { walk: 40, climb: 40 },
-        scores: { str: 12, dex: 16, con: 13, int: 3, wis: 12, cha: 4 },
-        skills: { perception: 'proficient', stealth: 'expert' },
-        senses: { darkvision: 60, blindsight: 10 },
-        abilities: [
-          {
-            key: 'spider-climb',
-            name: 'Spider Climb',
-            timing: 'trait',
-            icon: 'lucide/MoveUp',
-            text: [
-              'The spider can scale difficult surfaces and travel along ceilings without an ability check.',
-            ],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
-            },
-            text: ['And 5 (2d4) poison damage.'],
-          },
-        ],
-      },
-    },
     goat: {
       name: 'Goat',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 362,
       alignment: 'unaligned',
       habitats: ['grassland', 'hill', 'mountain', 'urban'],
       appearance: [
@@ -1630,6 +1000,7 @@ export default createPublicationMonsters({
     hawk: {
       name: 'Hawk',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 362,
       alignment: 'unaligned',
       habitats: ['arctic', 'coastal', 'forest', 'grassland', 'hill', 'mountain'],
       appearance: [
@@ -1666,6 +1037,7 @@ export default createPublicationMonsters({
     hippopotamus: {
       name: 'Hippopotamus',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 362,
       alignment: 'unaligned',
       habitats: ['forest', 'grassland', 'swamp'],
       appearance: [
@@ -1694,7 +1066,7 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: ['Make two Bite attacks.'],
+            text: ['Make two ', { ability: 'bite' }, ' attacks.'],
           },
           {
             key: 'bite',
@@ -1715,6 +1087,7 @@ export default createPublicationMonsters({
     hunter_shark: {
       name: 'Hunter Shark',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 363,
       alignment: 'unaligned',
       habitats: ['underwater'],
       appearance: [
@@ -1759,6 +1132,7 @@ export default createPublicationMonsters({
     hyena: {
       name: 'Hyena',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 363,
       alignment: 'unaligned',
       habitats: ['desert', 'forest', 'grassland', 'hill'],
       appearance: [
@@ -1804,6 +1178,8 @@ export default createPublicationMonsters({
     },
     jackal: {
       name: 'Jackal',
+      reprintedIn: [refs.publications.srd_5_2_1],
+      page: 364,
       alignment: 'unaligned',
       habitats: ['desert', 'grassland'],
       appearance: [
@@ -1841,6 +1217,7 @@ export default createPublicationMonsters({
     killer_whale: {
       name: 'Killer Whale',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 364,
       alignment: 'unaligned',
       habitats: ['underwater'],
       appearance: [
@@ -1884,6 +1261,8 @@ export default createPublicationMonsters({
     },
     octopus: {
       name: 'Octopus',
+      reprintedIn: [refs.publications.srd_5_2_1],
+      page: 365,
       alignment: 'unaligned',
       habitats: ['underwater'],
       appearance: [
@@ -1921,7 +1300,13 @@ export default createPublicationMonsters({
             name: 'Tentacles',
             timing: 'action',
             icon: 'gi/GiTentacleStrike',
-            text: ['+4 to hit in melee, reach 5 ft. On a hit, deal 1 Bludgeoning damage.'],
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1', type: rules.bludgeoning }],
+            },
           },
           {
             key: 'ink-cloud',
@@ -1939,6 +1324,8 @@ export default createPublicationMonsters({
     },
     owl: {
       name: 'Owl',
+      reprintedIn: [refs.publications.srd_5_2_1],
+      page: 366,
       alignment: 'unaligned',
       habitats: ['arctic', 'forest', 'hill'],
       appearance: [
@@ -1971,13 +1358,21 @@ export default createPublicationMonsters({
             name: 'Talons',
             timing: 'action',
             icon: 'gi/GiClaws',
-            text: ['+3 to hit in melee, reach 5 ft. On a hit, deal 1 Slashing damage.'],
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1', type: rules.slashing }],
+            },
           },
         ],
       },
     },
     panther: {
       name: 'Panther',
+      reprintedIn: [refs.publications.srd_5_2_1],
+      page: 366,
       alignment: 'unaligned',
       habitats: ['forest', 'grassland', 'hill'],
       appearance: [
@@ -1998,8 +1393,14 @@ export default createPublicationMonsters({
             key: 'rend',
             name: 'Rend',
             timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: ['+5 to hit in melee, reach 5 ft. On a hit, deal 6 (1d6 + 3) Slashing damage.'],
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.slashing, addModifier: true }],
+            },
           },
           {
             key: 'nimble-escape',
@@ -2011,9 +1412,54 @@ export default createPublicationMonsters({
         ],
       },
     },
+    piranha: {
+      name: 'Piranha',
+      reprintedIn: [refs.publications.srd_5_2_1],
+      page: 366,
+      alignment: 'unaligned',
+      habitats: ['underwater'],
+      appearance: [
+        [
+          'A single deep-bodied silver fish with a rusty belly, a blunt toothed jaw, and a forked tail.',
+        ],
+      ],
+      stats: {
+        size: 'tiny',
+        type: 'beast',
+        cr: '0',
+        ac: 13,
+        hitDice: '1d4',
+        speed: { walk: 5, swim: 40 },
+        scores: { str: 2, dex: 16, con: 9, int: 1, wis: 7, cha: 2 },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'water-breathing',
+            name: 'Water Breathing',
+            timing: 'trait',
+            icon: 'gi/GiDragonBreath',
+            text: ['It breathes only underwater.'],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1', type: rules.piercing }],
+            },
+          },
+        ],
+      },
+    },
     plesiosaurus: {
       name: 'Plesiosaurus',
       tags: ['Dinosaur'],
+      page: 366,
       alignment: 'unaligned',
       habitats: ['arctic', 'underwater'],
       appearance: [
@@ -2043,7 +1489,13 @@ export default createPublicationMonsters({
             name: 'Bite',
             timing: 'action',
             icon: 'gi/GiFangs',
-            text: ['+6 to hit in melee, reach 10 ft. On a hit, deal 11 (2d6 + 4) Piercing damage.'],
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 10,
+              damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
+            },
           },
         ],
       },
@@ -2051,6 +1503,7 @@ export default createPublicationMonsters({
     seahorse: {
       name: 'Seahorse',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 369,
       alignment: 'unaligned',
       habitats: ['underwater'],
       appearance: [
@@ -2090,6 +1543,7 @@ export default createPublicationMonsters({
     tyrannosaurus_rex: {
       name: 'Tyrannosaurus Rex',
       tags: ['Dinosaur'],
+      page: 372,
       alignment: 'unaligned',
       habitats: ['grassland'],
       appearance: [
@@ -2113,7 +1567,13 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: ['Make one Bite attack and one Tail attack.'],
+            text: [
+              'Make one ',
+              { ability: 'bite' },
+              ' attack and one ',
+              { ability: 'tail' },
+              ' attack.',
+            ],
           },
           {
             key: 'bite',
@@ -2132,7 +1592,9 @@ export default createPublicationMonsters({
               rules.grappled,
               ' (escape DC 17). While this grapple lasts, the target is ',
               rules.restrained,
-              ' and cannot be targeted by the tyrannosaurus’s Tail.',
+              ' and cannot be targeted by the tyrannosaurus’s ',
+              { ability: 'tail' },
+              '.',
             ],
           },
           {
@@ -2152,46 +1614,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    venomous_snake: {
-      name: 'Venomous Snake',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['coastal', 'desert', 'forest', 'grassland', 'hill', 'swamp'],
-      appearance: [
-        [
-          'A slender snake with alternating ochre, dark gray, and russet bands, shown in a loose coil.',
-        ],
-      ],
-      stats: {
-        size: 'tiny',
-        type: 'beast',
-        cr: '1/8',
-        ac: 12,
-        hitDice: '2d4',
-        speed: { walk: 30, swim: 30 },
-        scores: { str: 2, dex: 15, con: 11, int: 1, wis: 10, cha: 3 },
-        senses: { blindsight: 10 },
-        abilities: [
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
-            },
-            text: ['Plus 3 (1d6) poison damage.'],
-          },
-        ],
-      },
-    },
     vulture: {
       name: 'Vulture',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 372,
       alignment: 'unaligned',
       habitats: ['desert', 'grassland', 'hill'],
       appearance: [
@@ -2236,48 +1662,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    warhorse: {
-      name: 'Warhorse',
-      reprintedIn: [refs.publications.srd_5_2_1],
-      alignment: 'unaligned',
-      habitats: ['urban'],
-      appearance: [
-        ['A muscular bay horse with a black mane, dark lower legs, and a long black tail.'],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1/2',
-        ac: 11,
-        hitDice: '3d10',
-        speed: { walk: 60 },
-        scores: { str: 18, dex: 12, con: 13, int: 2, wis: 12, cha: 7 },
-        saves: { wis: 'proficient' },
-        abilities: [
-          {
-            key: 'hooves',
-            name: 'Hooves',
-            timing: 'action',
-            icon: 'gi/GiStomp',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d4', type: rules.bludgeoning, addModifier: true }],
-            },
-            text: [
-              'If the horse moved at least 20 ft. straight toward a Large or smaller creature immediately before hitting it, deal another 5 (2d4) bludgeoning damage and knock that creature ',
-              rules.prone,
-              '.',
-            ],
-          },
-        ],
-      },
-    },
     weasel: {
       name: 'Weasel',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 373,
       alignment: 'unaligned',
       habitats: ['forest', 'grassland', 'hill'],
       appearance: [
@@ -2315,6 +1703,7 @@ export default createPublicationMonsters({
     wolf: {
       name: 'Wolf',
       reprintedIn: [refs.publications.srd_5_2_1],
+      page: 373,
       alignment: 'unaligned',
       habitats: ['forest', 'grassland', 'hill'],
       appearance: [['A gray-brown wolf with pointed ears, a pale muzzle and a thick tail.']],

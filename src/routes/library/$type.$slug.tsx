@@ -17,10 +17,10 @@ export const Route = createFileRoute('/library/$type/$slug')({
     const { getLibraryEntry } = await import('#/lib/published-library')
     const entry = getLibraryEntry(type, slug, Boolean(search.dm), search.version)
     if (!entry) throw notFound()
-    const typed =
-      type === 'beasts' || type === 'monsters'
-        ? (await import('#/lib/library-monsters')).typedLibraryPrinting(slug, entry.selected.label)
-        : undefined
+    const { typed: ref } = entry.selected
+    const typed = ref
+      ? (await import('#/lib/library-monsters')).monsterPrinting(ref.monster, ref.publication)
+      : undefined
     return { entry, type, typed }
   },
   head: ({ match }) => ({

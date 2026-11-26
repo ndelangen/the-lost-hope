@@ -19,23 +19,31 @@ def icon(name,ab):
     if k in n: return v
   if 'attack' in ab: return 'lucide/Target'
   return 'gi/GiPaw' if ab['timing']=='trait' else 'gi/GiMagicSwirl'
+# One key per monster across publications; renamed reprints use the current (2024) name.
+ALIASES={'giant_sea_horse':'giant_seahorse','sea_horse':'seahorse','giant_poisonous_snake':'giant_venomous_snake',
+  'poisonous_snake':'venomous_snake','swarm_of_poisonous_snakes':'swarm_of_venomous_snakes','giant_rat_diseased':'diseased_giant_rat'}
 def keyify(s): return re.sub(r'[^a-z0-9]+','_',s.lower()).strip('_')
 def kebab(s): return re.sub(r'[^a-z0-9]+','-',s.lower()).strip('-')
 def js(v): return json.dumps(v,ensure_ascii=False)
-def tokens(text):
-  # Condition names become rules references the UI explains in place.
-  pat=re.compile(r'\b('+'|'.join(CONDS)+r')\b',re.I)
+CONDS=['blinded','charmed','deafened','frightened','grappled','incapacitated','invisible','paralyzed','petrified','poisoned','prone','restrained','stunned','unconscious']
+def cond_tokens(text):
   out=[]; last=0
-  for m in pat.finditer(text):
-    if m.start()>last: out.append(js(text[last:m.start()]))
-    out.append('refs.rules.'+m.group(1).lower()); last=m.end()
-  if last<len(text): out.append(js(text[last:]))
+  for m in re.finditer(r'\b('+'|'.join(CONDS)+r')\b',text,re.I):
+    if m.start()>last: out.append(text[last:m.start()])
+    out.append({'rule':m.group(1).lower()}); last=m.end()
+  if last<len(text): out.append(text[last:])
+  return out
+def tokens(parts):
+  out=[]
+  for t in parts:
+    if isinstance(t,str): out.append(js(t))
+    elif 'dc' in t: out.append('{ dc: '+js(t['dc'])+' }')
+    elif 'ability' in t: out.append('{ ability: '+js(t['ability'])+' }')
+    else: out.append('rules.'+t['rule'])
   return '['+', '.join(out)+']'
 def ability_ts(ab,keys,ind):
   i=' '*ind
-  key=kebab(ab['name']); base=key; n=2
-  while key in keys: key=f'{base}-{n}'; n+=1
-  keys.add(key)
+  key=ab['key']
   L=[f'{i}{{',f'{i}  key: {js(key)},',f'{i}  name: {js(ab["name"])},',f'{i}  timing: {js(ab["timing"])},',f'{i}  icon: {js(icon(ab["name"],ab))},']
   if 'intent' in ab: L.append(f'{i}  intent: {js(ab["intent"])},')
   if 'attack' in ab:
@@ -50,7 +58,26 @@ def ability_ts(ab,keys,ind):
       add=', addModifier: true' if d.get('addModifier') else ''
       L.append(f'{i}      {{ dice: {js(d["dice"])}, type: refs.rules.{d["type"]}{add} }},')
     L.append(f'{i}    ],'); L.append(f'{i}  }},')
-  if ab.get('text'): L.append(f'{i}  text: {tokens(" ".join(ab["text"]))},')
+  if 'save' in ab:
+    sv=ab['save']; t=sv['target']
+    L.append(f'{i}  save: {{'); L.append(f'{i}    ability: {js(sv["ability"])},'); L.append(f'{i}    dc: {js(sv["dc"])},')
+    if 'area' in t:
+      ar=t['area']; w=f', width: {ar["width"]}' if 'width' in ar else ''
+      L.append(f'{i}    target: {{ area: {{ shape: rules.{ar["shape"]}, size: {ar["size"]}{w} }} }},')
+    else:
+      wh=f', which: {js(t["which"])}' if 'which' in t else ''
+      L.append(f'{i}    target: {{ creatures: {t["creatures"]}, range: {t["range"]}{wh} }},')
+    L.append(f'{i}    onFail: {{')
+    L.append(f'{i}      damage: [')
+    for d in sv['onFail']['damage']:
+      add=', addModifier: true' if d.get('addModifier') else ''
+      L.append(f'{i}        {{ dice: {js(d["dice"])}, type: rules.{d["type"]}{add} }},')
+    L.append(f'{i}      ],')
+    if 'also' in sv['onFail']: L.append(f'{i}      also: {tokens(cond_tokens(sv["onFail"]["also"][0]))},')
+    L.append(f'{i}    }},')
+    if sv.get('onSuccess')=='half': L.append(f"{i}    onSuccess: 'half',")
+    L.append(f'{i}  }},')
+  if ab.get('text'): L.append(f'{i}  text: {tokens(ab["text"])},')
   if 'uses' in ab: L.append(f'{i}  uses: {ab["uses"]},')
   if 'recharge' in ab: L.append(f'{i}  recharge: {js(ab["recharge"])},')
   L.append(f'{i}}},')
@@ -66,10 +93,16 @@ def main():
   recs={}
   for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
     for r in json.load(open(os.path.join(os.environ.get('LIBRARY_JSON_DIR',os.path.join(REPO,'src/lib/published-library-catalog')),f+'.json'))):
-      for p in r['printings']: recs[p['id']]=p
+      for p in r['printings']: recs[(r['type'],r['slug'],p['id'])]=p
   bypub=collections.defaultdict(dict); reprints=collections.defaultdict(list)
   bykey=collections.defaultdict(dict)
-  for r in rows: bykey[keyify(r['slug'])][PUBS[r['label']][0]]=r
+  held=[]
+  for r in rows:
+    key=ALIASES.get(keyify(r['slug']),keyify(r['slug'])); pk=PUBS[r['label']][0]
+    if pk in bykey[key]:
+      held.append(f'{pk}/{key}: second printing in one publication ({r["slug"]})'); continue
+    bykey[key][pk]=r
+  for h in held: print('held',h)
   for key,pubs in bykey.items():
     for pk,r in pubs.items():
       target=REPRINT_OF.get(pk)
@@ -81,11 +114,12 @@ def main():
     L=["import { refs } from '#/data/generated/library-refs.ts'","import { refs as rules } from '#/data/generated/refs.ts'","import { createPublicationMonsters } from '#/definitions/library.ts'","","const refsRules = rules.rules","",
        "export default createPublicationMonsters({",f"  publication: refs.publications.{pk},","  monsters: {"]
     for key in sorted(mons):
-      r=mons[key]; b=r['block']; m=r['meta']; src=recs[r['printing']]
+      r=mons[key]; b=r['block']; m=r['meta']; src=recs[(r['type'],r['slug'],r['printing'])]
       L.append(f'    {key}: {{'); L.append(f'      name: {js(r["name"])},')
       rp=reprints.get((pk,key))
       if rp: L.append('      reprintedIn: ['+', '.join(f'refs.publications.{x}' for x in sorted(rp))+'],')
       if m['tags']: L.append(f'      tags: {js([t.strip() for t in m["tags"].split(",")])},')
+      if m.get('page'): L.append(f'      page: {m["page"]},')
       if m['alignment']: L.append(f'      alignment: {js(m["alignment"])},')
       langs=m['languages']
       if langs and langs.lower() not in ('none','—','-','—'): L.append(f'      languages: {js([x.strip() for x in langs.split(",")])},')
@@ -114,6 +148,10 @@ def main():
     txt='\n'.join(L).replace("refs.rules.","rules.").replace("import { refs as rules } from '#/data/generated/refs.ts'","import { refs as campaignRefs } from '#/data/generated/refs.ts'").replace("const refsRules = rules.rules","const { rules } = campaignRefs")
     open(os.path.join(outdir,pk.replace('_','-')+'.ts'),'w').write(txt)
     print(pk,len(mons))
+  files=sorted(pk.replace('_','-')+'.ts' for pk in bypub)
+  L=[f"import {f[:-3].replace('-','_')} from './{f}'" for f in files]
+  L+=['','/** Every publication whose monsters the library holds as typed data. */','export default ['+', '.join(f[:-3].replace('-','_') for f in files)+']','']
+  open(os.path.join(outdir,'_index.ts'),'w').write('\n'.join(L))
   # publications
   L=["import { createPublications } from '#/definitions/library.ts'","","export default createPublications({"]
   for label,(pk,name,pub,year,rs,pdf) in PUBS.items():
@@ -123,4 +161,21 @@ def main():
   L+=['})','']
   open(os.path.join(REPO,'src/data/library/publications.ts'),'w').write('\n'.join(L))
   print('reprints',sum(len(v) for v in reprints.values()))
+  # Each converted printing keeps only its place in the old catalog (label, art, link) and points
+  # at its typed printing, so its statistics exist once.
+  typed={}
+  for key,pubs in bykey.items():
+    for pk,r in pubs.items(): typed[(r['type'],r['slug'],r['printing'])]=(key,pk)
+  cat=os.path.join(REPO,'src/lib/published-library-catalog')
+  for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
+    path=os.path.join(cat,f+'.json'); data=json.load(open(path)); changed=0
+    for rec in data:
+      for p in rec['printings']:
+        if (rec['type'],rec['slug'],p['id']) in typed:
+          key,pk=typed[(rec['type'],rec['slug'],p['id'])]
+          for k in ['gm','player','status','edition','abilityDisplay','variantName']: p.pop(k,None)
+          p['typed']={'monster':{'ref':'monster','key':key},'publication':{'ref':'publication','key':pk}}
+          changed+=1
+    json.dump(data,open(path,'w'),indent=2,ensure_ascii=False)
+    print('catalog',f,changed)
 if __name__=="__main__": main()

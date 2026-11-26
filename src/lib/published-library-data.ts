@@ -1,3 +1,5 @@
+import type { EntityRef } from '#/definitions/kind'
+
 import entries from './published-library-catalog/entries.json'
 import monstersAtoF from './published-library-catalog/monsters-a-f.json'
 import monstersGtoP from './published-library-catalog/monsters-g-p.json'
@@ -21,7 +23,9 @@ type LibraryPrinting = {
   source?: string
   art?: readonly LibraryArt[]
   player?: readonly LibrarySection[]
-  gm: readonly LibrarySection[]
+  gm?: readonly LibrarySection[]
+  /** A printing converted to typed data: its statistics live in `src/data/library`, not here. */
+  typed?: { monster: EntityRef<'monster'>; publication: EntityRef<'publication'> }
   artReference?: string
   abilityDisplay?: LibraryAbilityDisplay
 }

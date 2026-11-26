@@ -86,11 +86,10 @@ test('separates named non-attack actions and traits in compact printings', () =>
     actions.lines.flatMap((line) => creatureRuleParagraphs(line)).map(({ title }) => title),
   ).toEqual(['Bite.', 'Wedge.'])
 
+  // A converted printing keeps its statistics in typed data, not in text sections.
   const lion = getLibraryEntry('beasts', 'lion', true, 'srd-5-1')!
-  const traits = lion.sections.find(({ title }) => title === 'Traits')!
-  expect(
-    traits.lines.flatMap((line) => creatureRuleParagraphs(line)).map(({ title }) => title),
-  ).toEqual(['Keen Smell.', 'Pack Tactics.', 'Pounce.', 'Running Leap.'])
+  expect(lion.sections).toEqual([])
+  expect(lion.selected.typed?.monster.key).toBe('lion')
 })
 
 test('preserves prose before a saving throw in a named action', () => {

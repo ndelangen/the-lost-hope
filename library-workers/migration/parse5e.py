@@ -53,11 +53,16 @@ class M:
   def group(s,i): return s.g[i]
 def lenient(text):
   h=re.match(r'^(?:Make an? )?(Melee|Ranged|Melee or Ranged) (?:weapon |spell )?attack(?: roll)?[:,]? ?(?:at )?\+?(-?\d+)(?: to hit)?',text,re.I)
-  if not h: return None
+  if not h:
+    h2=re.match(r'^\+(\d+) to hit (?:in|with a) (melee|ranged)',text,re.I)
+    if not h2: return None
+    class H:
+      def group(s,i): return {1:h2.group(2),2:h2.group(1)}[i]
+    h=H()
   head=text[:200]
   reach=re.search(r'reach (\d+) ft|(\d+)-ft\.? reach|within (\d+) ft',head)
   rng=re.search(r'range (\d+)/(\d+) ft',head)
-  d=re.search(r'(\d+) \((\d+d\d+)(?: ?([+−-]) ?(\d+))?\) (\w+)(?: damage)?',text)
+  d=re.search(r'(\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+)(?: damage)?',text)
   flat=None if d else re.search(r'(?:Hit:?|hit,?|deals?|takes?)[^.]*?\b(\d+) (\w+) damage',text)
   if not d and not flat: return None
   g=[None]*14
@@ -79,6 +84,111 @@ READ={'statistics','classification','other statistics','skills','senses','saving
 NOTES={'at the table','table notes'}
 LORE={'description','habitats','habitat','appearance','printed source','references','lore topics in the source',
   'treasure','adapted from','source notes','printing note','encounter ecology'}
+def kebab(x): return re.sub(r'[^a-z0-9]+','-',x.lower()).strip('-')
+ABW=r'(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma)'
+DMG=r'(\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+) damage'
+AREA=re.compile(r'(?:each creature|creatures?) (?:of its choice )?in (?:a|an|that) (\d+)-(?:foot|ft\.?)[- ](?:radius )?(cone|line|cube|sphere|emanation)(?: that is (\d+) (?:feet|ft\.?) wide)?',re.I)
+def save_damage(m,scores,save_ab,issues,name):
+  dice=m.group(2); bonus=int(m.group(4) or 0)*(-1 if m.group(3) in ('-','−','–') else 1)
+  d={'dice':dice,'type':m.group(5).lower()}
+  if d['type'] not in DAMAGE: issues.append(f'{name}: damage type {d["type"]}')
+  if bonus:
+    if bonus!=mod(scores[save_ab]): issues.append(f'{name}: save damage bonus {bonus} is not a modifier the block has')
+    d['addModifier']=True
+  if avg(dice,bonus)!=int(m.group(1)): issues.append(f'{name}: save damage avg')
+  return d
+def extract_save(ab,text,scores,prof,issues):
+  """Structure the most common save shapes; returns the text left for the ability."""
+  name=ab['name']
+  m=re.search(r'^'+ABW+r' Saving Throw: DC (\d+), (.*?)\. Failure: '+DMG+r'(.*?)\.(?: Success: (Half damage)\.)?',text)
+  if m:
+    a=ANAME[m.group(1).lower()]; dc=int(m.group(2)); who=m.group(3)
+    damage=save_damage(type('M',(),{'group':lambda s,i:[None,*m.groups()[3:8]][i]})(),scores,a,issues,name)
+    rest_fail=m.group(9).strip(' ,.'); success=m.group(10)
+    area=AREA.search(who)
+    if area:
+      target={'area':{'shape':area.group(2).lower(),'size':int(area.group(1))}}
+      if area.group(3): target['area']['width']=int(area.group(3))
+    else:
+      tm=re.match(r'(one|two|three) creatures?(?: (.*?))? within (\d+) (?:feet|ft\.?)(?: (.*))?$',who)
+      if not tm: issues.append(f'{name}: save target not understood: {who[:40]}'); return text
+      target={'creatures':{'one':1,'two':2,'three':3}[tm.group(1)],'range':int(tm.group(3))}
+      which=' '.join(x for x in [tm.group(2),tm.group(4)] if x)
+      if which: target['which']=which
+    ab['save']=build_save(a,dc,target,[damage],rest_fail,'half' if success else 'none',scores,prof,issues,name)
+    ab['intent']='damage'
+    return text[m.end():].strip()
+  m=re.search(r'(?:the target|it|the creature|that creature|each creature[^.]*?)(?: also)?(?: must)? (?:make|makes|succeed on|succeeds on|pass|passes) a DC (\d+) '+ABW+r' sav(?:ing throw|e),? (?:taking|and takes|or take) '+DMG+r'(?: on a (?:failed save|failure))?(,? or half as much(?: damage)? on a success(?:ful one)?)?\.?',text,re.I)
+  if m:
+    a=ANAME[m.group(2).lower()]; dc=int(m.group(1))
+    damage=save_damage(type('M',(),{'group':lambda s,i:[None,*m.groups()[2:7]][i]})(),scores,a,issues,name)
+    area=AREA.search(text[:m.start()+60])
+    if area:
+      target={'area':{'shape':area.group(2).lower(),'size':int(area.group(1))}}
+      if area.group(3): target['area']['width']=int(area.group(3))
+    elif 'attack' in ab:
+      at=ab['attack']; target={'creatures':1,'range':at.get('reach') or at['range'][0],'which':'it hits'}
+    else:
+      issues.append(f'{name}: save target not understood'); return text
+    ab['save']=build_save(a,dc,target,[damage],'', 'half' if m.group(8) else 'none',scores,prof,issues,name)
+    ab['intent']='damage'
+    rest=re.sub(r'\s+',' ',(text[:m.start()]+' '+text[m.end():])).strip()
+    rest=re.sub(r'^(?:and|,|\.)\s+','',rest,flags=re.I).strip()
+    rest=re.sub(r'\s(?:and|,)\s*$','',rest).strip()
+    return rest[:1].upper()+rest[1:]
+  return text
+def build_save(a,dc,target,damage,also,success,scores,prof,issues,name):
+  if 8+prof+mod(scores[a])!=dc: issues.append(f'{name}: save DC {dc} not derivable from {a}')
+  sv={'ability':a,'dc':a,'target':target,'onFail':{'damage':damage}}
+  if also: sv['onFail']['also']=[also[0].upper()+also[1:]+'.']
+  if success=='half': sv['onSuccess']='half'
+  return sv
+def finalize(block,scores,prof,issues):
+  '''Give each ability a key and turn its text into tokens: save DCs the block derives, sibling
+  abilities by key, conditions as rules terms. Anything that leaves a printed number in prose is
+  held, because the stat block must derive it.'''
+  keys={}
+  for ab in block['abilities']:
+    k=kebab(ab['name']); base=k; n=2
+    while k in keys.values(): k=f'{base}-{n}'; n+=1
+    keys[id(ab)]=k; ab['key']=k
+  names=sorted(((ab['name'],ab['key']) for ab in block['abilities'] if len(ab['name'])>3 and ab['name']!='Multiattack'),key=lambda x:-len(x[0]))
+  for ab in block['abilities']:
+    text=' '.join(ab.pop('text',[])).strip()
+    if re.fullmatch(r'(?:on a hit|on hit)\.?',text,re.I): text=''
+    if not text: continue
+    text=extract_save(ab,text,scores,prof,issues)
+    if 'save' in ab and 'also' in ab['save']['onFail']:
+      ab['save']['onFail']['also']=[ab['save']['onFail']['also'][0]]
+    if not text: continue
+    if re.search(r'\d+ \(\d+d\d+',text) or re.search(r'[+]\d+ to hit|attack roll:? [+]',text,re.I):
+      issues.append(f"{ab['name']}: printed numbers left in prose")
+    toks=[]; pos=0
+    pat=re.compile(r'(?<!escape )\bDC (\d+)(?: (Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma))?\b|\b('+'|'.join(CONDS)+r')\b'+(r'|\b('+'|'.join(re.escape(n) for n,_ in names)+r')\b' if names else ''),re.I)
+    for m in pat.finditer(text):
+      if m.start()>pos: toks.append(text[pos:m.start()])
+      if m.group(1):
+        # The DC token also names the save, so it must be built from the ability saved with.
+        dc=int(m.group(1)); a=ANAME.get((m.group(2) or '').lower())
+        if not a or 8+prof+mod(scores[a])!=dc:
+          issues.append(f"{ab['name']}: DC {dc} not derivable from the save it names"); toks.append(m.group(0))
+        else:
+          toks.append({'dc':a})
+          if m.group(2): toks.append(' '+m.group(2))
+      elif m.group(3): toks.append({'rule':m.group(3).lower()})
+      else:
+        hit=next((n for n,_ in names if n==m.group(4)),None)
+        if hit is None: toks.append(m.group(0)); pos=m.end(); continue
+        key=dict(names)[hit]
+        if key==ab['key']: toks.append(m.group(0))
+        else: toks.append({'ability':key})
+      pos=m.end()
+    if pos<len(text): toks.append(text[pos:])
+    merged=[]
+    for t in toks:
+      if isinstance(t,str) and merged and isinstance(merged[-1],str): merged[-1]+=t
+      elif t!='': merged.append(t)
+    ab['text']=merged
 def convert(r,p):
   issues=[]
   for s_ in p['gm']+(p.get('player') or []):
@@ -139,15 +249,14 @@ def convert(r,p):
     if int(pp.group(1))!=want: issues.append(f'passive perception {pp.group(1)} != {want}')
   saves={}
   for l in sec(p,'Saving throws') or []:
-    mm=re.match(r'(\w+) ([+−-]\d+)',l)
-    if mm:
-      a=ANAME.get(mm.group(1).lower(),mm.group(1).lower()[:3]); v=int(mm.group(2).replace('−','-'))
+    for nm,val in re.findall(r'(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|Str|Dex|Con|Int|Wis|Cha)\b ([+−-]\d+)',l,re.I):
+      a=ANAME.get(nm.lower(),nm.lower()[:3]); v=int(val.replace('−','-'))
       if v==mod(scores[a])+prof: saves[a]='proficient'
       elif v!=mod(scores[a]): issues.append(f'save {a} {v}')
   sm=re.search(r'Saving Throws ([^.]*?)(?: Skills| Senses| Damage| Condition|\.|$)',other)
   if sm:
-    for a,v in re.findall(r'(Str|Dex|Con|Int|Wis|Cha) ([+−-]\d+)',sm.group(1)):
-      a=a.lower(); v=int(v.replace('−','-'))
+    for a,v in re.findall(r'(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|Str|Dex|Con|Int|Wis|Cha)\b ([+−-]\d+)',sm.group(1),re.I):
+      a=ANAME.get(a.lower(),a.lower()[:3]); v=int(v.replace('−','-'))
       if v==mod(scores[a])+prof: saves[a]='proficient'
       else: issues.append(f'save {a} {v}')
   if saves: block['saves']=saves
@@ -174,6 +283,11 @@ def convert(r,p):
     if re.search(word,defense_text,re.I) and field not in block and not (word=='immun' and 'conditionImmunities' in block) and not any('defense' in i for i in issues):
       issues.append(f'{word} mentioned but not captured')
   langs=re.search(r'Languages ([^.]*?)(?:\.|$)',other)
+  if not langs and re.search(r'\bno(?: listed)?\b[^.]*\blanguages\b|\bno languages\b|lists no languages',other,re.I):
+    langs=re.match(r'(none)','none')
+  if not langs:
+    lm=re.search(r'Languages:? ([^.]+)',other)
+    langs=lm
   if sec(p,'Languages'):
     langs=re.match(r'(.*)$','; '.join(sec(p,'Languages')))
   armor=re.search(r'\(([^)]*armor[^)]*|[^)]*mail[^)]*|[^)]*shield[^)]*)\)',ac or '')
@@ -198,7 +312,7 @@ def convert(r,p):
         kind='melee' if am.group(3) else 'ranged'
 
         tohit=int(am.group(2)); cands=ability_for(tohit,scores,prof)
-        dmgb=int(am.group(11) or 0)*(-1 if am.group(10) in ('-','−') else 1)
+        dmgb=int(am.group(11) or 0)*(-1 if am.group(10) in ('-','−','–') else 1)
         cands=[a for a in cands if mod(scores[a])==dmgb] or cands
         if not cands: issues.append(f'{name}: to-hit +{tohit} not str/dex+PB'); continue
         a=cands[0]
@@ -219,19 +333,21 @@ def convert(r,p):
           if avg(em.group(2))!=int(em.group(1)): issues.append(f'{name}: extra damage avg')
           dmg.append({'dice':em.group(2),'type':em.group(3).lower()}); rest=rest[em.end():].strip()
         atk['damage']=dmg; ab['attack']=atk; ab['intent']='damage'
-        rest=re.sub(r'^[.,;]\s*','',rest).strip()
+        rest=re.sub(r'^[.,;]?\s*(?:and\s+)?','',rest,flags=re.I).strip()
         if rest: rest=rest[0].upper()+rest[1:]
         if rest: ab['text']=[rest]
       else:
-        sv=SAVE.search(text)
-        if sv:
-          dc=int(sv.group(1)); hits=[a for a in ABIL if 8+prof+mod(scores[a])==dc]
-          if not hits: issues.append(f'{name}: DC {dc} not derivable')
         if re.search(r'attack',text,re.I) and re.search(r'\+\d+',text) and not name.startswith('Multiattack'): issues.append(f'{name}: unparsed attack')
         ab['text']=[text]
       abilities.append(ab)
   block['abilities']=abilities
-  meta={'alignment':align,'tags':tags,'languages':langs.group(1).strip() if langs else None}
+  finalize(block,scores,prof,issues)
+  src_line=' '.join(sec(p,'Printed source') or [])
+  pg=re.search(r'\bpp?\. (\d+)',src_line)
+  page=int(pg.group(1)) if pg else None
+  if langs is None and not sec(p,'Languages'):
+    issues.append('languages not captured')
+  meta={'alignment':align,'tags':tags,'languages':langs.group(1).strip() if langs else None,'page':page}
   return block,meta,issues
 def main():
   recs=[]

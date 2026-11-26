@@ -1,12 +1,13 @@
 import type { ReactNode } from 'react'
 
+import { ContentRenderer } from '#/components/content-renderer'
 import { StatBlockSheet } from '#/components/dm/stat-block-sheet'
-import type { typedLibraryPrinting } from '#/lib/library-monsters'
+import type { monsterPrinting } from '#/lib/library-monsters'
 import type { getLibraryEntry } from '#/lib/published-library'
 
 import { LibraryGallery } from './library-gallery'
 
-type Typed = NonNullable<ReturnType<typeof typedLibraryPrinting>>
+type Typed = NonNullable<ReturnType<typeof monsterPrinting>>
 
 /** A library monster whose printing is typed data: the same stat block the encounter runs. */
 export function LibraryTypedCreature({
@@ -55,11 +56,11 @@ export function LibraryTypedCreature({
                 {reprints.map(({ name, year }) => `${name} (${year})`).join(', ')}.
               </p>
             )}
-            {printing.appearance?.map((paragraph) => (
-              <p key={paragraph.join('')} className="max-w-prose text-sm leading-relaxed">
-                {paragraph.map((part) => (typeof part === 'string' ? part : '')).join('')}
-              </p>
-            ))}
+            {printing.appearance && (
+              <div className="max-w-prose text-sm leading-relaxed">
+                <ContentRenderer content={printing.appearance} />
+              </div>
+            )}
           </div>
           {gallery && (
             <div className="col-start-2 row-start-1 sm:row-span-2">
@@ -90,11 +91,9 @@ export function LibraryTypedCreature({
       {dm && printing.tableNotes ? (
         <section aria-label="At the table" className="grid gap-2">
           <h2 className="text-sm font-semibold">At the table</h2>
-          {printing.tableNotes.map((paragraph) => (
-            <p key={paragraph.join('')} className="text-muted-foreground max-w-prose text-sm">
-              {paragraph.map((part) => (typeof part === 'string' ? part : '')).join('')}
-            </p>
-          ))}
+          <div className="text-muted-foreground max-w-prose text-sm">
+            <ContentRenderer content={printing.tableNotes} />
+          </div>
           <p className="text-muted-foreground text-xs">Library rulings, not printed in the book.</p>
         </section>
       ) : null}

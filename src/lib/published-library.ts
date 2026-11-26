@@ -44,7 +44,7 @@ export function browseLibrary(dm: boolean, query?: string, type?: LibraryType, g
       const searchable = [name, summary, ...groups, price ?? '']
       for (const printing of record.printings) {
         searchable.push(printing.label, printing.edition ?? '', printing.variantName ?? '')
-        const sections = [...(printing.player ?? []), ...(dm ? printing.gm : [])]
+        const sections = [...(printing.player ?? []), ...(dm ? (printing.gm ?? []) : [])]
         searchable.push(...sections.flatMap(({ title, lines }) => [title, ...lines]))
       }
       const text = normalize(searchable.join(' '))
@@ -128,8 +128,9 @@ export function getLibraryEntry(type: string, slug: string, dm: boolean, version
       artReference: selected.artReference,
       status: dm ? selected.status : undefined,
       glossary,
+      typed: selected.typed,
     },
-    sections: [...(selected.player ?? []), ...(dm ? selected.gm : [])],
+    sections: [...(selected.player ?? []), ...(dm ? (selected.gm ?? []) : [])],
     abilityDisplay: dm ? selected.abilityDisplay : undefined,
   }
 }
