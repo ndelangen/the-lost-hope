@@ -26,7 +26,7 @@ export const GLOSSARY_KINDS = ['rule'] as const
 export type GlossaryKind = (typeof GLOSSARY_KINDS)[number]
 
 /** The published library: books and what they print, apart from campaign canon. */
-export const LIBRARY_KINDS = ['publication', 'monster', 'spell'] as const
+export const LIBRARY_KINDS = ['publication', 'monster', 'spell', 'magicItem'] as const
 
 export type LibraryKind = (typeof LIBRARY_KINDS)[number]
 

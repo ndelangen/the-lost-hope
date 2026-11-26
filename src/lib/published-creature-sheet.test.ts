@@ -92,13 +92,17 @@ test('separates named non-attack actions and traits in compact printings', () =>
   // A converted printing keeps its statistics in typed data, not in text sections.
   const lion = getLibraryEntry('monsters', 'lion', true, 'srd-5-1')!
   expect(lion.sections).toEqual([])
-  expect(lion.selected.typed?.monster.key).toBe('lion')
+  expect(
+    lion.selected.typed && 'monster' in lion.selected.typed && lion.selected.typed.monster.key,
+  ).toBe('lion')
 })
 
 test('keeps prose before a saving throw beside the structured save', async () => {
   const ape = getLibraryEntry('monsters', 'giant-ape', true, 'srd-5-2-1')!
   const { monsterPrinting } = await import('./library-monsters')
-  const typed = monsterPrinting(ape.selected.typed!.monster, ape.selected.typed!.publication)!
+  const ref = ape.selected.typed
+  if (!ref || !('monster' in ref)) throw new Error('the ape is typed')
+  const typed = monsterPrinting(ref.monster, ref.publication)!
   const toss = typed.printing.stats.abilities.find(({ key }) => key === 'boulder-toss')!
   expect(toss.text[0]).toMatch(/^The ape hurls/u)
   expect(toss.save).toMatchObject({ ability: 'dex', onSuccess: 'half' })

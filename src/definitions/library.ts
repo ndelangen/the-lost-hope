@@ -169,3 +169,109 @@ export const createSpells = (input: Record<string, z.input<typeof Spell>>) =>
   Object.fromEntries(
     Object.entries(input).map(([key, value]) => [key, Spell.parse(value)]),
   ) as Record<string, Spell>
+
+export const ITEM_CATEGORIES = [
+  'Ammunition',
+  'Armor',
+  'Potion',
+  'Ring',
+  'Rod',
+  'Scroll',
+  'Shield',
+  'Staff',
+  'Wand',
+  'Weapon',
+  'Wondrous Item',
+] as const
+
+export const ITEM_RARITIES = [
+  'common',
+  'uncommon',
+  'rare',
+  'very rare',
+  'legendary',
+  'artifact',
+  'varies',
+] as const
+
+const itemEffectSchemas = statusEffectSchemas(
+  z.union([z.string().min(1), entityRefOf('rule')]),
+  z.strictObject({ dc: z.number().int().positive() }).describe('The escape DC the item prints'),
+)
+
+/**
+ * What a magic item leaves on a creature: a potion on whoever drinks it, a weapon on whoever it
+ * hits, an item's power on its target. A sub-entity of the item (see `./status-effect`).
+ */
+export const ItemEffect = z
+  .strictObject({
+    ...itemEffectSchemas.shape,
+    lands: z
+      .discriminatedUnion('on', [
+        z
+          .strictObject({ on: z.literal('use') })
+          .describe('When it is drunk, applied, read or activated on the creature'),
+        z.strictObject({ on: z.literal('hit') }).describe('When an attack with it hits'),
+        z
+          .strictObject({
+            on: z.literal('failed-save'),
+            save: z.enum(ABILITY_KEYS),
+            dc: z.number().int().positive().describe('The DC the item prints'),
+          })
+          .describe('When the creature fails this save'),
+      ])
+      .describe('How it lands on a creature'),
+  })
+  .superRefine((effect, context) => {
+    if (!effect.conditions && !effect.text)
+      context.addIssue({ code: 'custom', message: `${effect.key}: needs conditions or text` })
+    for (const condition of effect.conditions ?? [])
+      if (!(CONDITION_KEYS as readonly string[]).includes(condition.key))
+        context.addIssue({
+          code: 'custom',
+          message: `${effect.key}: ${condition.key} is not a condition`,
+        })
+    if (effect.ends?.repeatSave && effect.lands.on !== 'failed-save')
+      context.addIssue({
+        code: 'custom',
+        message: `${effect.key}: repeats a save it never called for`,
+      })
+  })
+
+export type ItemEffect = z.infer<typeof ItemEffect>
+
+/** A magic item as its publication prints it. */
+export const MagicItem = z.strictObject({
+  name: z.string().trim().min(1),
+  category: z.enum(ITEM_CATEGORIES),
+  detail: z
+    .string()
+    .trim()
+    .min(1)
+    .optional()
+    .describe('What the category line adds in parentheses, e.g. `Longsword` or `Any Heavy Armor`'),
+  rarity: z.enum(ITEM_RARITIES),
+  attunement: z
+    .union([z.literal(true), z.string().trim().min(1)])
+    .optional()
+    .describe('`true`, or who can attune, e.g. `by a Wizard`'),
+  text: Content,
+  effects: z
+    .array(ItemEffect)
+    .min(1)
+    .refine(
+      (effects) => new Set(effects.map((effect) => effect.key)).size === effects.length,
+      'Effect keys are unique within the item',
+    )
+    .optional()
+    .describe('What it leaves on a creature, for the tracker to apply'),
+  publication: PublicationRef,
+})
+
+export type MagicItem = z.infer<typeof MagicItem>
+
+/** Every magic item one publication prints, by item key. */
+export const createMagicItems = (input: Record<string, z.input<typeof MagicItem>>) =>
+  Object.fromEntries(
+    Object.entries(input).map(([key, value]) => [key, MagicItem.parse(value)]),
+  ) as Record<string, MagicItem>

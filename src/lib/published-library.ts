@@ -72,6 +72,7 @@ export function browseLibrary(
         const typed =
           dm &&
           printing.typed &&
+          'monster' in printing.typed &&
           monsterPrinting(printing.typed.monster, printing.typed.publication)
         if (typed) searchable.push(...allAbilities(typed.printing.stats).map(({ name }) => name))
       }

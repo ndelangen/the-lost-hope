@@ -37,6 +37,9 @@ export const REFERENCE_SOURCE_PATHS = [
   ...readdirSync(path.join(LIBRARY_PATH, 'spells'))
     .filter((file) => file.endsWith('.ts'))
     .map((file) => path.join(LIBRARY_PATH, 'spells', file)),
+  ...readdirSync(path.join(LIBRARY_PATH, 'magic-items'))
+    .filter((file) => file.endsWith('.ts'))
+    .map((file) => path.join(LIBRARY_PATH, 'magic-items', file)),
   ...readdirSync(path.join(LIBRARY_PATH, 'monsters'))
     .filter((file) => file.endsWith('.ts'))
     .map((file) => path.join(LIBRARY_PATH, 'monsters', file)),
@@ -177,6 +180,7 @@ export async function generatedLibrarySource(): Promise<string> {
       monsters.add(key)
   const spellSource = await spellModulesSource()
   const spells = libraryKeys(spellSource, '  ')
+  const magicItems = libraryKeys(await registrySource('magic-items'), '  ')
   const namespace = (kind: string, plural: string, keys: Iterable<string>) =>
     `  ${plural}: {\n${[...keys]
       .toSorted()
@@ -195,6 +199,7 @@ export const refs = {
 ${namespace('publication', 'publications', publications)}
 ${namespace('monster', 'monsters', monsters)}
 ${namespace('spell', 'spells', spells)}
+${namespace('magicItem', 'magicItems', magicItems)}
 } as const
 
 export type PublicationKey = keyof typeof refs.publications
@@ -217,7 +222,12 @@ async function spellModuleFiles() {
 
 /** Every spell module the registry lists, read as one text. */
 async function spellModulesSource() {
-  const spellDir = path.join(LIBRARY_PATH, 'spells')
+  return registrySource('spells')
+}
+
+/** Every module a library registry (`<folder>/_index.ts`) lists, read as one text. */
+async function registrySource(folder: string) {
+  const spellDir = path.join(LIBRARY_PATH, folder)
   const registry = await readFile(path.join(spellDir, '_index.ts'), 'utf8')
   const files = [...registry.matchAll(/from '\.\/(?<file>[\w-]+\.ts)'/gu)].map(
     ({ groups }) => groups!.file!,

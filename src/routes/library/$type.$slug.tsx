@@ -12,6 +12,7 @@ import { LibraryCreatureSheet } from '#/components/library/library-creature-shee
 import { LibraryGallery } from '#/components/library/library-gallery'
 import { LibraryRuleText } from '#/components/library/library-rule-text'
 import { LibraryTypedCreature } from '#/components/library/library-typed-creature'
+import { MagicItemRules } from '#/components/library/magic-item-rules'
 import {
   isLibraryType,
   librarySearch,
@@ -46,10 +47,17 @@ export const Route = createFileRoute('/library/$type/$slug')({
     const notice = publication
       ? (await import('#/data/library/publications')).default[publication.key]?.notice
       : undefined
-    const typed = ref
-      ? (await import('#/lib/library-monsters')).monsterPrinting(ref.monster, ref.publication)
-      : undefined
-    return { entry, type, typed, notice }
+    const typed =
+      ref && 'monster' in ref
+        ? (await import('#/lib/library-monsters')).monsterPrinting(ref.monster, ref.publication)
+        : undefined
+    const magicItem =
+      ref && 'magicItem' in ref
+        ? await (
+            await import('#/lib/library-magic-items')
+          ).loadMagicItem(ref.magicItem, ref.publication)
+        : undefined
+    return { entry, type, typed, magicItem, notice }
   },
   head: ({ match }) => ({
     meta: [
@@ -65,7 +73,7 @@ export const Route = createFileRoute('/library/$type/$slug')({
 })
 
 function LibraryEntryPage() {
-  const { entry, type, typed, notice } = Route.useRouteContext()
+  const { entry, type, typed, magicItem, notice } = Route.useRouteContext()
   const search = Route.useSearch()
   const params = Route.useParams()
 
@@ -210,6 +218,7 @@ function LibraryEntryPage() {
                 </p>
               )}
               {printings}
+              {magicItem ? <MagicItemRules item={magicItem} /> : null}
               {entry.sections.map((section) => (
                 <section key={section.title + ':' + section.lines[0]} className="grid gap-2">
                   <h2 className="text-lg font-semibold">{section.title}</h2>

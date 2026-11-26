@@ -47,7 +47,7 @@ describe('library monsters', () => {
 
   it('resolves every converted printing of the older catalog', () => {
     const converted = publishedLibrary.flatMap(({ printings }) =>
-      printings.flatMap(({ typed }) => (typed ? [typed] : [])),
+      printings.flatMap(({ typed }) => (typed && 'monster' in typed ? [typed] : [])),
     )
     expect(converted.length).toBeGreaterThan(0)
     expect(

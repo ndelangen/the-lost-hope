@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs'
+import { readFileSync, readdirSync } from 'node:fs'
 import path from 'node:path'
 
 import type { Plugin } from 'vite'
@@ -35,6 +35,28 @@ function words(texts: Iterable<string>) {
   return [...found].join(' ')
 }
 
+/**
+ * The words of each typed magic item, by key, read from the modules' string literals: a typed
+ * printing's rules live there, not in the catalog, and search still finds them.
+ */
+function magicItemWords() {
+  const dir = path.join(ROOT, 'src/data/library/magic-items')
+  const found = new Map<string, string[]>()
+  for (const file of readdirSync(dir).filter(
+    (name) => name.endsWith('.ts') && name !== '_index.ts',
+  )) {
+    const source = readFileSync(path.join(dir, file), 'utf8')
+    for (const block of source.split(/\n {2}(?=[a-z0-9_]+: \{\n)/u).slice(1)) {
+      const key = block.slice(0, block.indexOf(':'))
+      const strings = [...block.matchAll(/'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)"/gu)].map(
+        (match) => match[1] ?? match[2] ?? '',
+      )
+      found.set(key, strings)
+    }
+  }
+  return found
+}
+
 const sectionText = (sections: Section[] = []) =>
   sections.flatMap(({ title, lines }) => [title, ...lines])
 
@@ -44,6 +66,12 @@ function build() {
   )
   const details = new Map<string, Map<string, unknown>>()
   const search: [string, string, string][] = []
+  const typedItems = magicItemWords()
+  const typedText = (printings: Printing[]) =>
+    printings.flatMap(({ typed }) => {
+      const key = (typed as { magicItem?: { key: string } } | undefined)?.magicItem?.key
+      return key ? (typedItems.get(key) ?? []) : []
+    })
   const index = records.map((record) => {
     // Rules stay whole in the index: rules text links to them from every library page.
     if (record.type === 'rules') return record
@@ -56,7 +84,10 @@ function build() {
     details.set(bucket, sections)
     search.push([
       `${record.type}/${record.slug}`,
-      words(record.printings.flatMap(({ player }) => sectionText(player))),
+      words([
+        ...record.printings.flatMap(({ player }) => sectionText(player)),
+        ...typedText(record.printings),
+      ]),
       words(record.printings.flatMap(({ gm }) => sectionText(gm))),
     ])
     return {
