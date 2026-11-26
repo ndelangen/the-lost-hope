@@ -609,6 +609,11 @@ export default createScene({
                 refs.npcs.ilsa_corrow,
                 ' on her feet.',
               ],
+              [
+                'Leaves the moment he drops below 60% of his hit points (39), or ',
+                refs.npcs.ilsa_corrow,
+                ' drops below 20% of hers (16): Invisibility, out of the window.',
+              ],
             ],
           },
           {
@@ -622,12 +627,6 @@ export default createScene({
               ],
             ],
           },
-        ],
-        tactics: [
-          [
-            refs.npcs.silas_wren,
-            ' leaving is your dial: once the fight starts to turn against them, he turns himself invisible with his Invisibility spell and bails.',
-          ],
         ],
       },
       lines: [
@@ -654,7 +653,7 @@ export default createScene({
           do: [
             [
               refs.npcs.silas_wren,
-              ' does not stay to the end. He bails the moment he thinks they might lose: not too early, but always before he is in serious danger of dying. He jumps out of a window. As he leaves, he says to ',
+              ' does not stay to the end. When his plan says he leaves, he jumps out of a window. As he leaves, he says to ',
               refs.npcs.ilsa_corrow,
               ':',
             ],
