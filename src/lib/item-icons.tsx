@@ -62,6 +62,7 @@ import {
   GiPublicSpeaker,
   GiHeavenGate,
   GiScreaming,
+  GiOysterPearl,
 } from 'react-icons/gi'
 
 import { cn } from '#/lib/utils'
@@ -132,6 +133,7 @@ export const ITEM_ICONS = {
   'gi/GiSlaveryWhip': GiSlaveryWhip,
   'gi/GiTiedScroll': GiTiedScroll,
   'gi/GiWaxSeal': GiWaxSeal,
+  'gi/GiOysterPearl': GiOysterPearl,
 } as const satisfies Record<string, IconType>
 
 export function resolveItemIcon(icon: string): IconType {

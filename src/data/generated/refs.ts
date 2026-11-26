@@ -556,6 +556,7 @@ export const refs = {
     master_of_puppets: ref('item', 'master_of_puppets'),
     ride_the_lightning: ref('item', 'ride_the_lightning'),
     creeping_death: ref('item', 'creeping_death'),
+    sack_of_pearls: ref('item', 'sack_of_pearls'),
     seek_and_destroy: ref('item', 'seek_and_destroy'),
     fade_to_black: ref('item', 'fade_to_black'),
     apocalypse_please: ref('item', 'apocalypse_please'),

@@ -47,6 +47,7 @@ import ride_the_lightning from './ride-the-lightning.ts'
 import ring_of_hunger from './ring-of-hunger.ts'
 import ring_of_spell_storing from './ring-of-spell-storing.ts'
 import robertos_map_pages from './robertos-map-pages.ts'
+import sack_of_pearls from './sack-of-pearls.ts'
 import screaming_for_vengeance from './screaming-for-vengeance.ts'
 import seek_and_destroy from './seek-and-destroy.ts'
 import serpent_eclipse_trial_disk from './serpent-eclipse-trial-disk.ts'
@@ -118,6 +119,7 @@ export default {
   phoenix_feather,
   purple_dragon_horn,
   rare_dragon_scales,
+  sack_of_pearls,
   robertos_map_pages,
   letter_from_the_father,
   the_hand_s_directive_on_jim,

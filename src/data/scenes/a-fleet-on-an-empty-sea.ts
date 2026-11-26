@@ -329,7 +329,9 @@ export default createScene({
         {
           do: [
             [
-              'Each party member gets a sack of pearls, as thanks for their wonderful story. The better the story, the more pearls.',
+              'Each party member gets a ',
+              refs.items.sack_of_pearls,
+              ', as thanks for their wonderful story. The better the story, the more pearls: up to 20 for a perfect one.',
             ],
           ],
         },
