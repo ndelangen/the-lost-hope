@@ -50,7 +50,7 @@ export default createPC({
         text: [
           'You cast bard and sorcerer spells with Charisma (save ',
           { dc: 'cha' },
-          '). Disguise Self once per long rest without a slot (Magic Initiate).',
+          '). One Disguise Self a day is free (Magic Initiate): once between long rests you can cast it without spending a slot.',
         ],
         effects: [],
       },

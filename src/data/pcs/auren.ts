@@ -254,7 +254,7 @@ export default createPC({
           },
         },
         text: [
-          'Once per long rest from your runes without a slot, otherwise a 1st-level slot. ',
+          'Your runes cast it for free once between long rests; after that it costs a 1st-level slot. ',
           refs.rules.concentration,
           ', up to 1 minute.',
         ],
@@ -307,7 +307,7 @@ export default createPC({
           refs.rules.hit_points,
           '. While they last, a creature that hits you in melee takes 5 ',
           refs.rules.cold,
-          ' damage. Once per long rest from your runes without a slot, otherwise a 1st-level slot.',
+          ' damage. Your runes cast it for free once between long rests; after that it costs a 1st-level slot.',
         ],
       },
       {

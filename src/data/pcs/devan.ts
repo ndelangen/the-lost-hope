@@ -159,7 +159,7 @@ export default createPC({
         text: [
           'Right after you hit with a melee weapon, you spend a spell slot: the target takes an extra 2d8 ',
           refs.rules.radiant,
-          ' damage, 3d8 with a 2nd-level slot, plus 1d8 against a Fiend or Undead. Once per long rest you can do it without a slot.',
+          ' damage, 3d8 with a 2nd-level slot, plus 1d8 against a Fiend or Undead. One smite a day is free: once between long rests you can smite without spending a slot.',
         ],
       },
       {
@@ -195,7 +195,9 @@ export default createPC({
         name: 'Find Steed',
         timing: 'action',
         icon: 'gi/GiWingfoot',
-        text: ['You summon your otherworldly steed. Once per long rest without a slot.'],
+        text: [
+          'You summon your otherworldly steed. One casting a day is free: once between long rests you can cast it without spending a slot.',
+        ],
       },
     ],
   },
