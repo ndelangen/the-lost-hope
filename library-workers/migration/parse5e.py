@@ -464,6 +464,23 @@ def convert(r,p):
         extra={'timing':ab['timing']}; extra['name']=usage(n_,extra); extra['text']=[x_]; split.append(extra)
     else: ab['text']=[t]
   abilities=split
+  # SRD 5.1's background text follows its stat block, and the worker text ran it into the last
+  # ability. Trailing sentences with no game terms move to lore.
+  lore=None
+  if p.get('label')=='SRD 5.1' and abilities and abilities[-1].get('text'):
+    t=' '.join(abilities[-1]['text'])
+    sents=re.split(r'(?<=[a-z\)\.])(?<!\bft\.)\s+(?=[A-Z])',t)
+    RULES=re.compile(r'\d|\bDC\b|damage|saving throw|hit points|\baction|reaction|advantage|\bspeed\b|\b(can|must|equipment|trait|control|grappl\w*|attack\w*|invisible|dies|turns?|moves?|target|hits?|regains?|immune|effect|spells?|engulf\w*|size)\b',re.I)
+    words={w.lower() for w in re.findall(r'[A-Za-z]+',r['name']) if len(w)>2}
+    OPEN=re.compile(r'^(Unlike|Smaller|Larger|These|Some|Many|Most|Although|Found|Known|Often|Typically|Usually|Few|Even|In the wild|Whether)\b')
+    def starts_lore(x):
+      head={w.lower().rstrip('s') for w in re.findall(r'[A-Za-z]+',x)[:4]}
+      return (OPEN.match(x) or head & {w.rstrip('s') for w in words}) and not RULES.search(x)
+    cut=len(sents)
+    for i in range(1,len(sents)):
+      if starts_lore(sents[i]) and not any(RULES.search(y) for y in sents[i:]): cut=i; break
+    if cut<len(sents):
+      lore=' '.join(sents[cut:]); abilities[-1]['text']=[' '.join(sents[:cut])]
   block['abilities']=abilities
   NUM={'one':1,'two':2,'three':3,'four':4,'five':5}
   leg=sec(p,'Legendary actions')
@@ -496,7 +513,7 @@ def convert(r,p):
   page=int(pg.group(1)) if pg else None
   if langs is None and not sec(p,'Languages'):
     issues.append('languages not captured')
-  meta={'alignment':align,'tags':tags,'languages':langs.group(1).strip() if langs else None,'page':page}
+  meta={'lore':lore,'alignment':align,'tags':tags,'languages':langs.group(1).strip() if langs else None,'page':page}
   return block,meta,issues
 def main():
   recs=[]

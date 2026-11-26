@@ -2027,6 +2027,11 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.ddep2_mulmaster_undone_v2],
       alignment: 'neutral evil',
       languages: ['understands Common but can’t speak'],
+      lore: [
+        [
+          'Giant vultures have been known to haunt a thirsty, starving creature for days to enjoy its suffering.',
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -2090,7 +2095,7 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'A giant vulture has advanced intelligence and a malevolent bent. Unlike its smaller kin, it will attack a wounded creature to hasten its end. Giant vultures have been known to haunt a thirsty, starving creature for days to enjoy its suffering.',
+              'A giant vulture has advanced intelligence and a malevolent bent. Unlike its smaller kin, it will attack a wounded creature to hasten its end.',
             ],
           },
         ],
@@ -2188,6 +2193,11 @@ export default createPublicationMonsters({
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
+      lore: [
+        [
+          'Gladiators battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-‑or-‑death struggle, while others are professional duelists who command huge fees but rarely fight to the death.',
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2267,7 +2277,7 @@ export default createPublicationMonsters({
             timing: 'reaction',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon. Gladiators battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-‑or-‑death struggle, while others are professional duelists who command huge fees but rarely fight to the death.',
+              'The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon.',
             ],
           },
         ],
@@ -2987,6 +2997,11 @@ export default createPublicationMonsters({
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
+      lore: [
+        [
+          'Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight’s alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners.',
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3058,7 +3073,7 @@ export default createPublicationMonsters({
             timing: 'reaction',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon. Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight’s alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners.',
+              'The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon.',
             ],
           },
         ],
@@ -5292,6 +5307,9 @@ export default createPublicationMonsters({
       name: 'Worg',
       alignment: 'neutral evil',
       languages: ['Goblin', 'Worg'],
+      lore: [
+        ['Worgs speak in their own language and Goblin, and a few learn to speak Common as well.'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -5329,7 +5347,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
               rules.prone,
-              '. A worg is an evil predator that delights in hunting and devouring creatures weaker than itself. Cunning and malevolent, worgs roam across the remote wilderness or are raised by goblins and hobgoblins. Those creatures use worgs as mounts, but a worg will turn on its rider if it feels mistreated or malnourished. Worgs speak in their own language and Goblin, and a few learn to speak Common as well.',
+              '. A worg is an evil predator that delights in hunting and devouring creatures weaker than itself. Cunning and malevolent, worgs roam across the remote wilderness or are raised by goblins and hobgoblins. Those creatures use worgs as mounts, but a worg will turn on its rider if it feels mistreated or malnourished.',
             ],
           },
         ],

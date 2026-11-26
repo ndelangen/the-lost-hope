@@ -89,6 +89,12 @@ export function LibraryTypedCreature({
           </>
         )}
       </dl>
+      {printing.lore ? (
+        <section aria-label="Lore" className="grid max-w-prose gap-2 text-sm">
+          <h2 className="text-sm font-semibold">Lore</h2>
+          <ContentRenderer content={printing.lore} />
+        </section>
+      ) : null}
       {dm && printing.tableNotes ? (
         <section aria-label="At the table" className="grid gap-2">
           <h2 className="text-sm font-semibold">At the table</h2>

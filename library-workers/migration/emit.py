@@ -165,6 +165,7 @@ def main():
         L.append(f'      habitats: {js(hab)},')
       app=next((s['lines'] for s in src['gm'] if s['title']=='Appearance'),None)
       if app: L.append(f'      appearance: [{js(app)}],')
+      if m.get('lore'): L.append(f'      lore: [[{js(m["lore"])}]],')
       notes=[l for s in src['gm'] if s['title'].lower() in ('at the table','table notes') for l in s['lines']]
       if notes: L.append(f'      tableNotes: [{", ".join("["+js(n)+"]" for n in notes)}],')
       L.append('      stats: {')
