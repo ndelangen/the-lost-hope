@@ -541,6 +541,25 @@ export default createPublicationMonsters({
       name: 'Amphiptere',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          "A flock of small, bat-winged serpents bursts out of the foliage, their wings tipped with greenish-yellow feathers and gold crests on their heads. Each has a stinger on its tail like a wyvern's.",
+        ],
+      ],
+      lore: [
+        [
+          'Amphipteres are small, agile fliers that lurk in dense foliage and burst out when prey comes into view. They strike in quick hit-and-run passes with teeth and venomous stingers, then close in as a tight mass once a target is poisoned and hurt. They are not brave alone, but in large groups they grow cunning and may harass foes for minutes or hours before moving in for the kill.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Amphiptere (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/amphiptere/',
+          },
+        ],
+      ],
+      habitats: ['Jungle', 'Forest'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -633,6 +652,24 @@ export default createPublicationMonsters({
       name: 'Angatra',
       alignment: 'neutral evil',
       languages: ['all languages it knew in life'],
+      appearance: [
+        [
+          'A withered figure wrapped in gore-stained rags. It pulls back a tattered hood to show glowing eyes full of bloodlust, with scabrous claws and hard, leathery skin.',
+        ],
+      ],
+      lore: [
+        [
+          'An angatra rises when an ancestral spirit, cursed for breaking a tribal taboo, takes over a body that was wrapped and sealed in a distant tomb. The ritual cleansing that would have eased the spirit was abandoned, or the tomb was violated. Within days it tears free of its bindings, fast and agile, and hunts its own descendants to make them share the torment and anger it suffered.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Angatra (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/angatra/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -725,6 +762,25 @@ export default createPublicationMonsters({
       name: 'Angler Worm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A glowing lure hangs in the dark of a cave or tunnel ceiling, with sticky silk threads dangling around it.',
+        ],
+      ],
+      lore: [
+        [
+          'The angler worm burrows into cave and tunnel ceilings and spins strong silk snares coated in sticky mucus. It lights a lure to draw prey into the snares while it stays hidden, coming out only to feed. With dozens of snares set, a meal arrives sooner or later.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Angler Worm (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/angler-worm/',
+          },
+        ],
+      ],
+      habitats: ['Caves', 'Underdark'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -897,6 +953,24 @@ export default createPublicationMonsters({
       name: 'Apau Perape',
       alignment: 'chaotic evil',
       languages: ['Ape', 'Infernal', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A large, black-furred ape-demon with a mouth full of sharp teeth and long, muscular arms ending in curved claws. Its eyes glow deep red when it is angry.',
+        ],
+      ],
+      lore: [
+        [
+          'The apau perape serve only their demon lord, though they may work for others for a time. They are fearless and savage, never break in battle, and have no fear of fire. They gleefully burn villages and crops if their master is insulted. Like that master they are insatiably hungry and leave no dead behind, eating even the bones.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Apau Perape (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/apau-perape/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1019,6 +1093,25 @@ export default createPublicationMonsters({
       name: 'Arboreal Grappler',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        [
+          'Long, shaggy red tentacle-limbs coil through the canopy like furred serpents, dangling from a striped ape-like creature above.',
+        ],
+      ],
+      lore: [
+        [
+          'An arboreal grappler is a primate whose legs have warped into long tentacles. It snatches prey, hauls it up into the canopy, and constricts it until it stops struggling before eating it. On open ground it drags itself clumsily. Clans of forty or more build bone-decorated nests 80 feet or more up, hard to spot from below. They are carnivores that prefer humanoid flesh, elves above all.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Arboreal Grappler (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/arboreal-grappler/',
+          },
+        ],
+      ],
+      habitats: ['Jungle', 'Forest'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -1105,6 +1198,22 @@ export default createPublicationMonsters({
       name: 'Aridni',
       alignment: 'neutral evil',
       languages: ['Common', 'Gnoll', 'Sylvan', 'Void Speech'],
+      appearance: [
+        ['An ashen-faced fey with grey moth wings, sneering as it looses green-glowing arrows.'],
+      ],
+      lore: [
+        [
+          'Aridni are rugged, ruthless and greedy pixie-kin who raid caravans for captives to enslave and sell, charming foes into servitude where they can. They prefer to fight at range and are hard to draw into melee, though a personal challenge or a charge of cowardice can sometimes do it. They take plunder from humans and dwarves mainly as proof of their power over mortals, whom they despise.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Aridni (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/aridni/',
+          },
+        ],
+      ],
       stats: {
         size: 'small',
         type: 'fey',
@@ -1290,6 +1399,25 @@ export default createPublicationMonsters({
       name: 'Ash Drake',
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A lean, dull-scaled drake about three feet long with a four-foot tail that seems to trail off into smoke. It often sits on a chimney as if it had just crawled out, soot billowing around it.',
+        ],
+      ],
+      lore: [
+        [
+          'Ash drakes nest in chimney flues and delight in dusting crowds with choking ash and soot, laughing in wheezing tones. Smiths and smelters leave piles of ash for them to roll in, hoping to be left alone. They eat rats and strays but can rarely resist an unattended pet, and anyone who interrupts their ash play gets a blast of hot, sooty breath. Kobolds often befriend them. Outside cities they live near volcanic plateaus.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Ash Drake (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/ash-drake/',
+          },
+        ],
+      ],
+      habitats: ['Urban', 'Volcanic'],
       stats: {
         size: 'small',
         type: 'dragon',
@@ -1395,6 +1523,25 @@ export default createPublicationMonsters({
       name: 'Azza Gremlin',
       alignment: 'neutral',
       languages: ['Common', 'Primordial'],
+      appearance: [
+        [
+          'A tiny, hairless, rail-thin creature, 12 to 18 inches tall, crackling with static. Arcs of lightning snap between its long ears.',
+        ],
+      ],
+      lore: [
+        [
+          'Azza gremlins live among storm clouds, lightning machinery and other places rich in lightning. Wingless, they float on electromagnetic fields, ride bolts between clouds and ground, and feed on lightning. Alone they are hazardous pests, but malicious creatures and lightning-using casters work with them to amplify their own destruction.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Azza Gremlin (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/azza-gremlin/',
+          },
+        ],
+      ],
+      habitats: ['Sky'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -1561,6 +1708,24 @@ export default createPublicationMonsters({
       name: 'Bearfolk',
       alignment: 'chaotic good',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          "A hulking humanoid at least seven feet tall with a shaggy bear's head, dark fur, heavy jaws and sharp teeth. It wears armour and carries a battleaxe and a warhammer.",
+        ],
+      ],
+      lore: [
+        [
+          'Bearfolk are brutish, powerful and boisterous, a people of extremes who celebrate with great passion and anger quickly. They settle disputes with scarring wrestling matches, and it is common to see two bloodied bearfolk share a cask of mead and a loud song afterwards.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Bearfolk (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/bearfolk/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1728,6 +1893,25 @@ export default createPublicationMonsters({
       name: 'Behtu',
       alignment: 'chaotic evil',
       languages: ['Behtu', 'Common', 'Infernal'],
+      appearance: [
+        [
+          "A pygmy half-ape, half-human with a mandrill's face and a great boar's tusks, covered in demonic tattoos.",
+        ],
+      ],
+      lore: [
+        [
+          'Behtus are bred by a demon lord to combine demonic cruelty, human cunning and ape ferocity, and they carry his worship from island to island, raising shrines wherever they go. Idols in his volcanic temples weep ichor that they brew into infusions giving inhuman strength and speed, and they use it to etch tattoos granting infernal powers. They ride demonic iguanas as mounts, and the strongest sorcerers and druids ride crimson drakes or small flame dragons.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Behtu (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/behtu/',
+          },
+        ],
+      ],
+      habitats: ['Island', 'Jungle', 'Volcanic'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1818,6 +2002,25 @@ export default createPublicationMonsters({
       name: 'Bereginyas',
       alignment: 'neutral evil',
       languages: ['Common', 'Elvish', 'Sylvan'],
+      appearance: [
+        [
+          'A small winged fey that seems made of grey mist and can hide completely in fog and cloud.',
+        ],
+      ],
+      lore: [
+        [
+          "Bereginyas are cunning, evil mist-fey that kill by seeping into victims' lungs and choking them. They live in the highest mountain ranges, often above the treeline, and in any foggy, misty mountain country. Shepherds and goatherds leave bits of milk or cheese to placate them, especially at lambing time.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Bereginyas (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/bereginyas/',
+          },
+        ],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -1893,6 +2096,22 @@ export default createPublicationMonsters({
       name: 'Blemmyes',
       alignment: 'chaotic evil',
       languages: ['Giant'],
+      appearance: [
+        ['A headless giant with a large mouth in its chest and eyes bulging on either side of it.'],
+      ],
+      lore: [
+        [
+          'Blemmyes are brutes that savour humanoid flesh and see every humanoid as a meal. Some patiently tend flocks of humans, goblins or halflings and fatten them for the table. Their hunger is so great that they eat the weakest of their own kind when food is short, and they seldom wait for a victim to die, or a fight to end, before starting to feast.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Blemmyes (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/blemmyes/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2034,6 +2253,25 @@ export default createPublicationMonsters({
       name: 'Boloti',
       alignment: 'neutral evil',
       languages: ['Common', 'Primordial', 'Sylvan'],
+      appearance: [
+        [
+          'A small, leering water spirit like a cross between a grey frog and a damp scarecrow, with tendrils sprouting from every limb and jellyfish-like water wings that jet it through the water.',
+        ],
+      ],
+      lore: [
+        [
+          "Bolotis are swamp-dwelling water spirits that drown unwary victims in shallow pools and springs, then rob the bodies of shiny objects. They use a magical vortex to hold victims and drag them under, and store kills in larders under winter ice or logs. They sometimes team up with vodyanoi, miremals and will-o'-wisps for ambushes, and are content with one kill at a time.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Boloti (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/boloti/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -2139,6 +2377,25 @@ export default createPublicationMonsters({
       name: 'Bone Crab',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'A cracked skull scurries forward on spiny, bone-white legs. The crab inside blends in with bones and pale driftwood.',
+        ],
+      ],
+      lore: [
+        [
+          "Bone crabs live in the skulls of large fish, humanoids and other creatures, or gnaw shelters into driftwood or coral if they lack bone. They hunt in packs in seaside crags and coves, cracking open skulls to eat the brains, and drag prey above the tide line to rot in the sun. Years of feeding have given them a shared intelligence, and some keep fragments of memory, recognising friends or attacking enemies of the skull's former owner. They carry a feverish disease called white ghost shivers.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Bone Crab (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/bone-crab/',
+          },
+        ],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'small',
         type: 'beast',
@@ -2246,6 +2503,24 @@ export default createPublicationMonsters({
       name: 'Broodiken',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'A one-foot caricature of its creator, with the same limbs and basic features but an oversized head full of pointed teeth.',
+        ],
+      ],
+      lore: [
+        [
+          "Broodikens are crude servants grown inside the body of a willing spellcaster, started by eating the heart of a dead broodiken. They have little personality and echo their creator's mood, growling when angry and babbling when happy. If their creator is more than 100 feet away they cry like children of the creator's species, and attack anyone else who finds them crying. When their creator is angry at someone they attack as a group, sneaking up to overwhelm single targets.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Broodiken (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/broodiken/',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -2447,6 +2722,24 @@ export default createPublicationMonsters({
       name: 'Buraq',
       alignment: 'lawful good',
       languages: ['Celestial', 'Common', 'Primordial', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A handsome white human-headed equine, smaller than a mule but larger than a donkey, with short, strong feathered wings and a gilded band on its head or neck. An aura of holiness surrounds it.',
+        ],
+      ],
+      lore: [
+        [
+          'A buraq is fast, determined and resilient, but serves only the pure-hearted. The band it wears is said to be an angelic seal or warding. It is the ultimate courier and heavenly steed, most likely ridden by paladins and good clerics, though other virtuous characters have been allowed.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Buraq (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/buraq/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -2559,6 +2852,25 @@ export default createPublicationMonsters({
       name: 'Burrowling',
       alignment: 'lawful neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'Light brown furred creatures that look curiously about, each comforted by the presence of the others.',
+        ],
+      ],
+      lore: [
+        [
+          'Burrowlings work together at everything, from digging and foraging to raising young, and eat roots, berries, insects and reptiles, snakes especially. Larger towns farm and sometimes keep prairie dogs as sentries; adult pairs guard the edge and sound the alarm, then everyone retreats to the warrens. They defend the young with crude slings, teeth and claws. A burrowling cut off from its group usually dies of loneliness within a week unless it finds other burrowlings.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Burrowling (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/burrowling/',
+          },
+        ],
+      ],
+      habitats: ['Grassland'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2641,6 +2953,25 @@ export default createPublicationMonsters({
       name: 'Cactid',
       alignment: 'unaligned',
       languages: ['understands Sylvan', "but can't speak"],
+      appearance: [
+        [
+          'A tall cactus bristling with needles, with rootlike tendrils bursting from the sand at its base to reach for prey. Shapes range from ground-hugging barrels to towering saguaros with clublike arms, with ribs, flowers or fruit.',
+        ],
+      ],
+      lore: [
+        [
+          'Cactids are semi-sentient cacti made by a nomadic sect of druids, whose original purpose is lost. They pull prey in with tendrils and drain the fluids through their spines, leaving a husk. Flowers, fruit and scattered shiny objects lure victims within reach. A dead cactid holds water that desert travellers can use.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Cactid (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/cactid/',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -2843,6 +3174,25 @@ export default createPublicationMonsters({
       name: 'Cavelight Moss',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'Patches of tangled, lacy moss cling to a cave ceiling, pulsing with a pale yellow glow that turns icy blue when agitated, dusting the floor below with glowing spores.',
+        ],
+      ],
+      lore: [
+        [
+          "Cavelight moss looks harmless but hunts living flesh, immobilising its meals before slowly digesting them. It is a collective of smaller life forms sharing sensations, barely cognitive, and positions itself over well-used cavern routes to feed on rats, bats and insects, creeping toward larger prey. It can live 200 years, and its spores take root in victims' bodies. Where no real protectors exist and food is plentiful, colonies gather, most often among huge bat colonies.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Cavelight Moss (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/cavelight-moss/',
+          },
+        ],
+      ],
+      habitats: ['Caves', 'Underdark'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -2930,6 +3280,25 @@ export default createPublicationMonsters({
       name: 'Child Of The Briar',
       alignment: 'neutral evil',
       languages: ['Briarclick', 'Common', 'Sylvan'],
+      appearance: [
+        [
+          'A tiny, spiked and thorny creature with eyes like polished walnuts and a sly smile. Its waist is no thicker than a fist and its arms are finger-thin and twice its body length.',
+        ],
+      ],
+      lore: [
+        [
+          'Children of the briar grow in briar patches in clearings, hillsides and riverbanks, and more rarely spawn from spilled sorcerer or magical blood or druidic items. They gather in numbers, turning thickets into fortresses, and have the caprice and spite of wicked children and a taste for blood. They scout and spy across the forest, sometimes riding spiders, giant centipedes or dragonflies, and talk to travellers with news in words laced with malice and lies. They will murder.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Child Of The Briar (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/child-of-the-briar/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'tiny',
         type: 'plant',
@@ -3039,6 +3408,24 @@ export default createPublicationMonsters({
       name: 'Clockwork Beetle',
       alignment: 'unaligned',
       languages: ['understands Common', 'telepathy 100 ft'],
+      appearance: [
+        [
+          'A housecat-sized mechanical insect of gleaming metal and whirring gears. Designs vary, from ladybugs to stag beetles, darkling beetles with prehensile antennae and weevils, and scarab patterns are popular in the southern deserts. Its movement gives off a rhythmic buzz and, in flight, a cacophony of clicks and whirs.',
+        ],
+      ],
+      lore: [
+        [
+          'Clockwork beetles are forged by skilled jewellers and sold to gear-mages and aristocrats as prized familiars. The most talented designers sometimes hide a countdown clock in one that, after years or decades, triggers a sudden transformation into a different clockwork creature, a surprise known only to its maker.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Clockwork Beetle (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/clockwork-beetle/',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -3108,6 +3495,24 @@ export default createPublicationMonsters({
       name: 'Clockwork Beetle Swarm',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'Light glints off the moving parts of nearly a thousand clockwork beetles in a biting cloud.',
+        ],
+      ],
+      lore: [
+        [
+          "A clockwork beetle swarm forms when several beetles break free of their creators and bond into a noisy clattering mass. Cut off from their creators' bond, the swarm lacks the telepathy of single beetles and has reduced mental capacity.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Clockwork Beetle Swarm (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/clockwork-beetle-swarm/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -3162,6 +3567,24 @@ export default createPublicationMonsters({
       name: 'Clockwork Huntsman',
       alignment: 'unaligned',
       languages: ['understands Common'],
+      appearance: [
+        [
+          'A mechanical soldier in flat-black armour with matte-black paint and mithral trim, gears ticking and whirring beneath its breastplate.',
+        ],
+      ],
+      lore: [
+        [
+          'Clockwork huntsmen were the tools of corrupt aristocrats for hunting escaped slaves, and some serve secret police tracking wanted people. They work alone or in groups of two or three and are unsleeping and tireless, so few can hide from them long without magic. They follow specific orders, patrol or stand sentry as told, and focus on set targets such as priests, spellcasters or armoured intruders. Common folk despise them.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Clockwork Huntsman (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/clockwork-huntsman/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3262,6 +3685,25 @@ export default createPublicationMonsters({
       name: 'Clockwork Watchman',
       alignment: 'unaligned',
       languages: ['Common'],
+      appearance: [
+        [
+          'A brass and iron mechanical being in a loose city watch uniform, with armour over its joints and vital parts, moving slowly but steadily.',
+        ],
+      ],
+      lore: [
+        [
+          'Clockwork watchmen are sturdier versions of clockwork scullions, built with iron instead of tin and keener senses. They patrol the city day and night, stopping only for maintenance and new boots. Their speech is slow and halting, but their shouts and whistles bring human guards running. They need no air, food, drink or sleep.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Clockwork Watchman (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/clockwork-watchman/',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3351,6 +3793,25 @@ export default createPublicationMonsters({
       name: 'Cobbleswarm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Paving stones underfoot suddenly lurch and tumble as thousands of tiny limbs, pincers and stingers break from the stony surface and scuttle forward. Each cobble is a small, crablike creature with a smooth stony shell, six segmented legs, a whiplike stinger and a single eye.',
+        ],
+      ],
+      lore: [
+        [
+          'With eye shut and limbs tucked in, cobbles are nearly indistinguishable from paving stones, so victims are caught unaware when the floor writhes. Cobbleswarms have a rudimentary grasp of traps and hide where they can slide intruders into pits or across trapped areas, which kobold tribes prize them for.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Cobbleswarm (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/cobbleswarm/',
+          },
+        ],
+      ],
+      habitats: ['Urban', 'Underdark'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3449,6 +3910,24 @@ export default createPublicationMonsters({
       name: 'Corpse Mound',
       alignment: 'neutral evil',
       languages: ["Understands Common but can't speak"],
+      appearance: [
+        [
+          'A reeking pile of bodies and bones as large as a giant lurches forward, and corpses that tumble off it rise as undead and follow it.',
+        ],
+      ],
+      lore: [
+        [
+          'Corpse mounds rise from mass graves of plague and war when necromantic magic seeps in without sanctifying rites. It is driven by the anger and loneliness of the dead within to kill and absorb victims, attacking any living creature larger than a dog, humanoids especially. It never tires, and whole towns have been wiped out. It needs no air, food, drink or sleep.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Corpse Mound (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/corpse-mound/',
+          },
+        ],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',

@@ -497,6 +497,24 @@ export default createPublicationMonsters({
       name: 'Cikavak',
       alignment: 'neutral',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A remarkably ugly magical bird with a floppy dark grey comb, shapeless wattles on its throat and a long dull-grey beak. It seems unimposing.',
+        ],
+      ],
+      lore: [
+        [
+          'Cikavaks are conjured through a lengthy ritual, known to peasants and townsfolk as well as mages, and stay loyal to their master until death. They cannot speak but understand Common and can talk with animals to help their master, and often silence more tuneful birds by magic. Their beaks draw up nectar or stab like daggers, and their ventral pouches hold up to half a gallon of nearly any liquid without harm, so thieves use them to steal honey, milk, beer and wine.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Cikavak (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/cikavak/',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'fey',

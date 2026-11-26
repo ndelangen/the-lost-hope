@@ -996,6 +996,25 @@ export default createPublicationMonsters({
       name: 'Amber Ooze',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A slow-moving pool of golden sap drifts through the trees. Small birds and rodents hang motionless inside it, perfectly preserved.',
+        ],
+      ],
+      lore: [
+        [
+          'An amber ooze forms from the old sap of a magical tree. It wanders forests, and the creatures it swallows stay preserved within it rather than rotting.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Amber Ooze (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/amber-ooze/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -1106,6 +1125,25 @@ export default createPublicationMonsters({
       name: 'Ancient Imperial Dragon',
       alignment: 'neutral',
       languages: ['all'],
+      appearance: [
+        [
+          'A long, wingless serpentine dragon with shimmering, opalescent scales, serene and majestic. Its colour is usually rich golden-yellow, though azure, jade, vermilion, white and black ones are reported.',
+        ],
+      ],
+      lore: [
+        [
+          'Imperial dragons are tied to the spirit world and will parley with celestials, fiends and spirits for knowledge of the outer planes. The oldest serve the gods as go-betweens with mortals. They can change colour and form, fly without wings thanks to an organ in the skull (hunted for a rumoured promise of eternal life), and the eldest command wind and rain. They favour the sea as a home and often guard sacred sites on or under the waves, which puts them at odds with militant aquatic peoples.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Ancient Imperial Dragon (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/ancient-imperial-dragon/',
+          },
+        ],
+      ],
+      habitats: ['Coastal', 'Underwater'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1308,6 +1346,24 @@ export default createPublicationMonsters({
       name: 'Angel of Judgment',
       alignment: 'neutral',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A celestial with two faces, one stern and dispassionate, the other a fiendish judge. Both seem to weigh everything they see.',
+        ],
+      ],
+      lore: [
+        [
+          'Angels of judgment are agents of cosmic balance who exist to keep law and chaos equal, unlike most angels. They prefer to settle disputes by talk but use force when it is prudent, and when called to war the dispassionate face turns into that of an avenging angel. In times of upheaval they watch events as stoic spectators and step in only if universal harmony is threatened.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Angel of Judgment (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/angel-of-judgment/',
+          },
+        ],
+      ],
       stats: {
         size: 'huge',
         type: 'celestial',
@@ -1450,6 +1506,24 @@ export default createPublicationMonsters({
       name: 'Angelic Enforcer',
       alignment: 'lawful good',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A gold-furred, lion-headed angel with white wings fixes an intense stare on its target and roars, raising a flaming greatsword.',
+        ],
+      ],
+      lore: [
+        [
+          'Angelic enforcers are made from souls chosen for firm devotion to law and good, and their task is to hunt rogue angels. They try to capture an angel that broke a tenet but is still good at heart, and destroy one that has fully fallen to evil. They show no mercy to anything in the way, treating obstruction as service to evil and blaming any collateral damage on the quarry. They need no food, drink or sleep.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Angelic Enforcer (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/angelic-enforcer/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -1590,6 +1664,24 @@ export default createPublicationMonsters({
       name: 'August Rooster',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          "A nearly human-sized bird made of many species: a pheasant's head, duck's body, peacock's tail, heron's legs, parrot's beak and swallow's wings, crowing proudly as it hops forward. Individuals vary, and some have snake necks, turtle shells or stag bodies.",
+        ],
+      ],
+      lore: [
+        [
+          'August roosters are magical hybrids, usually fused from avian parts and full grown at creation, or hatched and mature in six to eight months. They have the mind and temper of a spoiled, malicious child and care only about their own comfort, using their gifts to force nearby humanoids to wait on them. Young ones openly work their servants to exhaustion. Only a small share of the eggs they father or lay hatch as more august roosters.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: August Rooster (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/august-rooster/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1711,6 +1803,25 @@ export default createPublicationMonsters({
       name: 'Avalanche Screamer',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'Ice shards scrape together as it moves on many icicle-like legs. Its icy body parts to reveal several toothy maws, and a scream erupts from deep inside.',
+        ],
+      ],
+      lore: [
+        [
+          "Avalanche screamers are ancient predators of an icier age that retreated to mountain peaks and polar regions. They hunt cleverly from below or from cliffs and trees above, picking off stragglers one at a time, and use their scream against groups. In unstable terrain the scream can trigger avalanches, which the screamer rides out, then it feels for survivors by vibration and tunnels to them. Warm weather makes them sluggish, so they hide through the short summers after fattening up or stocking their lairs, which are littered with victims' bones.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Avalanche Screamer (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/avalanche-screamer/',
+          },
+        ],
+      ],
+      habitats: ['Mountain', 'Arctic'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -1836,6 +1947,22 @@ export default createPublicationMonsters({
       name: 'Aviere',
       alignment: 'any good',
       languages: ['Celestial', 'Common', 'telepathy 60 ft'],
+      appearance: [
+        ['A small bird with a fiery belly perches on a shoulder, singing a divine hymn.'],
+      ],
+      lore: [
+        [
+          "Avieres are fiery songbirds made by good deities and sent to holy sites as protectors and teachers. They know their deity's tenets by instinct and urge others to keep them. Their hymns, sung at all hours, heal and lift the area, giving healthier plants and animals and calmer weather. They dislike leaving their post but sometimes go out to heal or preach to passers-by. In temples they coach acolytes and give light to scribes as they sing the teachings.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Aviere (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/aviere/',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'celestial',
@@ -1926,6 +2053,24 @@ export default createPublicationMonsters({
       name: 'Avulzor',
       alignment: 'lawful evil',
       languages: ['Common', 'Deep Speech', 'Void Speech'],
+      appearance: [
+        [
+          'A horrid biped with cracked, leathery skin, long limbs ending in flensing talons, and three unblinking purple eyes set in its chest. Its neck ends in a nest of lamprey-like heads, and it wears a kilt of bones that rattles as it moves.',
+        ],
+      ],
+      lore: [
+        [
+          'Avulzors come from a dimension soaked in necrotic energy, where they plot to dominate other planes. They send expeditions to other worlds to kidnap humanoids for experiments, steal magical devices or destroy threats, and they despise all living things. They know humanoid anatomy well and use it to strengthen their undead constructs, and they can shape bone like putty into furniture or instruments.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Avulzor (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/avulzor/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2030,6 +2175,25 @@ export default createPublicationMonsters({
       name: 'Barometz',
       alignment: 'chaotic neutral',
       languages: ["understands Sylvan but can't speak"],
+      appearance: [
+        [
+          'A large horned goat covered in thick green moss, with a vine running from its udder to a nearby tree. It smells of fresh bread and floral grapes.',
+        ],
+      ],
+      lore: [
+        [
+          'A barometz arises from a fruit tree, where an oversized fruit drops and bursts to reveal it, possibly through old druidic or fey magic. It stays joined to its parent tree by a vine and spends its life clearing weeds and noxious plants around it. Its flesh is a delicacy to nearly all humanoids and giants, so few survive long once trollkin or hill giants find them. It does not breed naturally, and attempts to breed it have failed.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Barometz (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/barometz/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -2140,6 +2304,24 @@ export default createPublicationMonsters({
       name: 'Bleakheart',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A humanoid in blurred grey tones settles into a shadowed corner of a dim room and vanishes from view.',
+        ],
+      ],
+      lore: [
+        [
+          'A bleakheart is born when a performer who craved fame dies in despair, such as a minstrel driven off stage or an actor drunk into an early grave. It spreads hopelessness and tries to make more bleakhearts. It lingers on the edges of society near taverns and theatres, ignored like any drifter, and skims the thoughts of passers-by. It takes grim satisfaction in distressing the living, especially those who have just felt joy. Merriment can rouse it to a rage, whose carnage tends to create new bleakhearts.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Bleakheart (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/bleakheart/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2372,6 +2554,20 @@ export default createPublicationMonsters({
       name: 'Blood Imp',
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [['A crimson fiend with blood dripping from its lips.']],
+      lore: [
+        [
+          "Blood imps are devilish servants of gods of blood, death and decay. On the Material Plane they hurry the deaths of sacrifices and drink spilled blood in their masters' names. They loathe temples of life and healing gods and, near the altar of such a deity, fly into a mad rage and try to defile or destroy it.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Blood Imp (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/blood-imp/',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'fiend',
@@ -2461,6 +2657,24 @@ export default createPublicationMonsters({
       name: 'Bone Colossus',
       alignment: 'chaotic evil',
       languages: ['Common', 'Darakhul'],
+      appearance: [
+        [
+          'A huge undead mass of bone, built from tiny skeletal creatures called posthumes gathered in vast numbers.',
+        ],
+      ],
+      lore: [
+        [
+          'Bone colossuses are a kind of necrotech, made by necromancers who theorised that posthumes could be gathered in far greater numbers to form bigger, stronger creatures. In nations ruled by undead, such creations serve as siege weapons or powerful transport.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Bone Colossus (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/bone-colossus/',
+          },
+        ],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'undead',
@@ -2689,6 +2903,24 @@ export default createPublicationMonsters({
       name: "Boreas' Chosen",
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'A humanoid with piercing blue eyes and ice-rimed weapons charges with a bloodcurdling battle cry, flinging spears. Their blood has frozen to ice and wintry runes mark the flesh.',
+        ],
+      ],
+      lore: [
+        [
+          "Any humanoid can become one of Boreas' chosen, and some are born marked with runes. Most face trials first: surviving the highest peaks in deep winter, beating a frost giant alone, and making a spear from the fang or claw of an icy beast. Even then Boreas may refuse. The chosen further his aims, guard his holy places, spread winter and honour the North Wind with every fallen foe.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Boreas’ Chosen (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/boreas-chosen/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2792,6 +3024,25 @@ export default createPublicationMonsters({
       name: 'Bulbous Violet',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'An enormous deep purple flower on vines covered in throbbing black growths, one of which bursts to spray sizzling green acid on the ground.',
+        ],
+      ],
+      lore: [
+        [
+          'Bulbous violets are carnivorous plants whose acid-filled growths pop on impact and dissolve prey, which they then drink as liquefied gore. They travel in packs following warm weather, sensing flesh-and-blood creatures nearby, and sometimes raid farms. Their seeds only grow in ground soaked in blood and corpses, so when ready to seed they slaughter everything in a crowded area such as a monster den, herd or village.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Bulbous Violet (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/bulbous-violet/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -2882,6 +3133,18 @@ export default createPublicationMonsters({
       name: 'Bull',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A bulky quadruped with vicious horns.']],
+      lore: [
+        ['Bulls are territorial beasts that charge creatures they see as challenges.'],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Bull (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/bull/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -2937,6 +3200,25 @@ export default createPublicationMonsters({
       name: 'Carnivorous Ship',
       alignment: 'neutral',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          "A ship's prow opens into a huge tooth-filled maw, while humanoid-shaped blobs of flesh swarm over the rails.",
+        ],
+      ],
+      lore: [
+        [
+          'A carnivorous ship is a giant cousin of the mimic and a cunning sea hunter, living and hunting alone. It prefers wood, metal, rope and cloth but readily eats whole ships with their crews. Careful captains carry tithes and offerings to placate it in known hunting grounds. It reproduces asexually after a good season, and the young are about the size of rowboats.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Carnivorous Ship (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/carnivorous-ship/',
+          },
+        ],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -3114,6 +3396,21 @@ export default createPublicationMonsters({
       name: 'Cave Goat',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A spaniel-sized goat with dog-like paws rather than hooves.']],
+      lore: [
+        [
+          'Cave goats climb steep, uneven Underworld terrain well. They are loyal if surly and strong, and a favourite companion of Underworld travellers.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Cave Goat (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/cave-goat/',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'beast',
@@ -3163,6 +3460,25 @@ export default createPublicationMonsters({
       name: 'Cavefish Zombie',
       alignment: 'neutral evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A bloated, wet corpse with webbed fingers and toes, and slick, fleshy fins running down its spine and legs through dead flesh. An overpowering rot stench surrounds it.',
+        ],
+      ],
+      lore: [
+        [
+          'Cavefish zombies arise where dark magic soaks a lightless watery place such as an underground lake or the deep ocean. Instead of keeping its old shape, the body sheds skin as aquatic features burst through. Its dead tissue holds water, giving it a loose look and a lasting rot and smell, in water or out. It needs no air, food, drink or sleep.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Cavefish Zombie (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/cavefish-zombie/',
+          },
+        ],
+      ],
+      habitats: ['Underdark', 'Underwater'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3227,6 +3543,24 @@ export default createPublicationMonsters({
       name: 'Chamrosh',
       alignment: 'neutral good',
       languages: ['Celestial', 'Common', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A large sheepdog with luxuriant white-gold fur, broad wings on its back and an intelligent silvery gleam in its eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'Chamrosh are celestials made from the souls of faithful guards and retainers who died protecting others. They sniff out evil, hold firm against any odds, and are used as guard beasts by other celestials though never treated as pets. Between postings they roam the planes of good in small packs, attacking fiends and evil monsters and leading lost good or neutral mortals to safety or the nearest portal home. They can speak.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Chamrosh (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/chamrosh/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -3346,6 +3680,24 @@ export default createPublicationMonsters({
       name: 'Chatterlome',
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A fiend with a featureless grey head, large round eyes, a round mouth of needle teeth, a misshapen torso, short bandy legs and four arms that always hold woodworking tools.',
+        ],
+      ],
+      lore: [
+        [
+          "Chatterlomes prey on scorned lovers, offering violent revenge. The supplicant receives a carved oak box with an obsidian heart inlay, which they must deliver to the one who wronged them. When it is opened the chatterlome springs out to take the victim's heart, and even unopened it tracks the victim relentlessly. The supplicant must then deliver the box to nine more victims or forfeit their own life. A run of deaths after mysterious boxes arrive is the warning sign.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Chatterlome (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/chatterlome/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -3408,6 +3760,25 @@ export default createPublicationMonsters({
       name: 'Chill Haunt',
       alignment: 'neutral evil',
       languages: ['the languages it knew in life'],
+      appearance: [
+        [
+          'A ghostly humanoid whose hands end in frozen claws, water dripping from them and freezing before it hits the ground.',
+        ],
+      ],
+      lore: [
+        [
+          'Chill haunts arise from those who froze to death, mostly alone, though stories tell of whole families or villages returning. They dread cold and flee cold magic. They seek warm buildings and fires, which ease their shivering and heal their wounds, and crave warmth from the living, touching creatures to chill them in a deepening freeze that fire can reverse. Destroying one is temporary: like a ghost, it returns after 24 hours.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Chill Haunt (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/chill-haunt/',
+          },
+        ],
+      ],
+      habitats: ['Arctic', 'Mountain'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3504,6 +3875,25 @@ export default createPublicationMonsters({
       name: 'Clockwork Leech',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'An enormous leech that proves, close up, to be a clockwork device. Blood stains its maw, and it leaks a green, faintly astringent fluid.',
+        ],
+      ],
+      lore: [
+        [
+          'Hags and other practitioners who need blood for rituals build clockwork leeches to scout marshes and nearby settlements for groups of living creatures, drain them, and return so their reservoirs can be emptied. Without masters they cycle between draining blood and violently disgorging it. Most retreat once full. Copper plating keeps water off the works and lets them swim, and unmaintained ones turn green as it corrodes.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Clockwork Leech (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/clockwork-leech/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3603,6 +3993,24 @@ export default createPublicationMonsters({
       name: 'Clockwork Tiger',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'Bronze and steel cats with sharp metal teeth and razor claws, giving away their presence only by the ticking of gears.',
+        ],
+      ],
+      lore: [
+        [
+          'Clockwork tigers were invented as guardians in forgotten times and still guard ancient ruins and new masters alike. Their numbers are slowly rising, and scholars suspect rediscovered instructions or an unearthed vault. They are almost always found in pairs guarding a spellcaster or magical object they treat as their ward, leaping in and out of combat in tandem. They can think but care little for talking. They need no air, food, drink or sleep.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Clockwork Tiger (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/clockwork-tiger/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -3774,6 +4182,25 @@ export default createPublicationMonsters({
       name: 'Corpse Worm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A large, bloated, grey-white worm slicked in yellow mucus, crawling over corpses on dozens of legs. A second jaw bursts out of its fanged maw to slurp up flesh.',
+        ],
+      ],
+      lore: [
+        [
+          'Corpse worms prowl deep caverns, feeding mainly on death and decay but hunting living prey when hungry, locating wounded prey and carrion by smell. They eat the living and dead but ignore undead unless attacked, and some intelligent undead tame them as pets, guardians or shock troops. A female lays up to two dozen head-sized eggs in rubbery grey membranes, fixed in remote spots with a sticky, strong-smelling secretion.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Corpse Worm (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/corpse-worm/',
+          },
+        ],
+      ],
+      habitats: ['Caves', 'Underdark'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3911,6 +4338,25 @@ export default createPublicationMonsters({
       name: 'Crimson Shambler',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A bloody corpse stands up dripping red slime, and each drop splatters into little red spores.',
+        ],
+      ],
+      lore: [
+        [
+          'The crimson shambler is a mobile form of a hazardous slime mold from deep caverns. A slime mold animates a decaying corpse, so it is often mistaken for undead, wandering dark passages to infect creatures with spores until it finds a place to spawn, where it falls and becomes a new colony of crimson slime.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Crimson Shambler (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/crimson-shambler/',
+          },
+        ],
+      ],
+      habitats: ['Caves', 'Underdark'],
       stats: {
         size: 'medium',
         type: 'plant',
