@@ -24,6 +24,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2024): Cockatrice
 - Monster Manual (2024): Ettercap
 - Monster Manual (2024): Flying Snake
+- Monster Manual (2024): Gibbering Mouther
 - Monster Manual (2024): Gray Ooze
 - Monster Manual (2024): Grick
 - Monster Manual (2024): Grick Ancient

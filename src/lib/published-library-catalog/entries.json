@@ -393,6 +393,20 @@
             "credit": "OpenAI ImageGen"
           }
         ]
+      },
+      {
+        "id": "open5e-tob2_alligator",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alligator"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -476,6 +490,20 @@
             "credit": "OpenAI ImageGen"
           }
         ]
+      },
+      {
+        "id": "open5e-tob2_alligator-turtle",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alligator_turtle"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
       }
     ],
     "art": [
@@ -22938,6 +22966,20 @@
         ],
         "edition": "AD&D 1st edition",
         "status": "Combat summary"
+      },
+      {
+        "id": "open5e-tob_giant-ant",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_ant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -36223,6 +36265,20 @@
             "credit": "OpenAI ImageGen"
           }
         ]
+      },
+      {
+        "id": "open5e-tob2_grove-bear",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "grove_bear"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
       }
     ],
     "art": [
@@ -38208,6 +38264,20 @@
           "publication": {
             "ref": "publication",
             "key": "monster_manual_2024"
+          }
+        }
+      },
+      {
+        "id": "open5e-tob3_hippopotamus",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hippopotamus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
           }
         }
       }
@@ -51969,55 +52039,17 @@
       {
         "id": "printing-69af8d7e45d9f2a8e853c6a5",
         "label": "Tal’Dorei Campaign Setting Reborn",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 42",
-              "Hit dice · 5d10 + 15",
-              "Challenge · 2",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "XP · 450",
-              "Str · 18",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 6"
-            ]
+        "source": "https://www.dndbeyond.com/monsters/3768355-plainscow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "plainscow"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Resists bludgeoning, piercing and slashing from nonmagical attacks. Insight +2, passive Perception 10. No languages."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Trampling Charge. Moving straight at least 20 ft. toward a creature before hitting it with Hooves on the same turn forces it to attempt a DC 14 Strength save. Failure knocks it Prone. If the target is Prone, the plainscow can use a bonus action for another Hooves attack against it."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Hooves. Melee weapon attack +6, reach 5 ft., one target. Hit for 11 (2d6 + 4) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Tal’Dorei Campaign Setting Reborn, p. 248."]
+          "publication": {
+            "ref": "publication",
+            "key": "tal_dorei_campaign_setting_reborn"
           }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
-        "source": "https://www.dndbeyond.com/monsters/3768355-plainscow"
+        }
       }
     ],
     "groups": ["Beast"],
@@ -59558,6 +59590,20 @@
             "credit": "Original portrait generated with built-in OpenAI ImageGen"
           }
         ]
+      },
+      {
+        "id": "open5e-tob_serpopard",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "serpopard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
       }
     ],
     "groups": ["Beast"]

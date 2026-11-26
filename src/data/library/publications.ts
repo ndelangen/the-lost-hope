@@ -12,6 +12,15 @@ export default createPublications({
     name: 'Bigby Presents: Glory of the Giants',
     ruleset: '5e-2014',
   },
+  creature_codex: {
+    name: 'Creature Codex',
+    publisher: 'Kobold Press',
+    year: 2018,
+    ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice:
+      'Creature Codex. © 2018 Open Design LLC; Authors: Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky.',
+  },
   d_d_world_of_warcraft: {
     name: 'D&D: World of Warcraft',
     ruleset: '5e-2024',
@@ -490,6 +499,42 @@ export default createPublications({
     year: 2017,
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/Tomb of Annihilation.pdf',
+  },
+  tome_of_beasts: {
+    name: 'Tome of Beasts',
+    publisher: 'Kobold Press',
+    year: 2016,
+    ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice:
+      'Tome of Beasts. © 2016 Open Design; Authors: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.',
+  },
+  tome_of_beasts_2: {
+    name: 'Tome of Beasts 2',
+    publisher: 'Kobold Press',
+    year: 2020,
+    ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice:
+      'Tome of Beasts 2. © 2020 Open Design LLC; Authors: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.',
+  },
+  tome_of_beasts_2023: {
+    name: 'Tome of Beasts 1 (2023 Edition)',
+    publisher: 'Kobold Press',
+    year: 2023,
+    ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice:
+      'Tome of Beasts 1 (2023 Edition). © 2023 Open Design LLC; Authors: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, and Wolfgang Baur.',
+  },
+  tome_of_beasts_3: {
+    name: 'Tome of Beasts 3',
+    publisher: 'Kobold Press',
+    year: 2022,
+    ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice:
+      'Tome of Beasts 3. © 2022 Open Design LLC; Authors: Eytan Bernstein, Celeste Conowitch, Benjamin L. Eastman, Robert Fairbanks, Scott Gable, Basheer Ghouse, Richard Green, Jeremy Hochhalter, Jeff Lee, Christopher Lockey, Sarah Madsen, Ben McFarland, Jonathan Miley, Kelly Pawlik, Sebastian Rombach, Chelsea Steverson, Brian Suskind, Mike Welham.',
   },
   tome_of_heroes: {
     name: 'Tome of Heroes',

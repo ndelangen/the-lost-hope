@@ -7,6 +7,82 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddal04_03_the_executioner,
   monsters: {
+    wererat: {
+      name: 'Wererat',
+      tags: ['human', 'shapechanger'],
+      alignment: 'lawful evil',
+      languages: ["Common (can't speak in rat form)"],
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '2',
+        ac: 12,
+        hitDice: '6d8',
+        speed: { walk: 30 },
+        scores: { str: 10, dex: 15, con: 12, int: 11, wis: 10, cha: 8 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        nonmagicalExcept: 'silvered',
+        nonmagicalImmunities: [rules.bludgeoning, rules.piercing, rules.slashing],
+        abilities: [
+          {
+            key: 'shapechanger',
+            name: 'Shapechanger',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              "The wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+            ],
+          },
+          {
+            key: 'keen-smell',
+            name: 'Keen Smell',
+            timing: 'trait',
+            icon: 'gi/GiNoseSide',
+            text: ['The were rat has advantage on Wisdom (Perception) checks that rely on smell.'],
+          },
+          {
+            key: 'multiattack-human-or-hybrid-form-only',
+            name: 'Multiattack (Human or Hybrid Form Only)',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'The wereraven makes two weapon attacks, one of which can be with its hand crossbow.',
+            ],
+          },
+          {
+            key: 'beak-raven-or-hybrid-form-only',
+            name: 'Beak (Raven or Hybrid Form Only)',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+            text: [
+              'In hybrid form. If the target is a humanoid, it must succeed on a ',
+              { dc: 'str', save: 'con' },
+              ' Constitution saving throw or be cursed with wereraven lycanthropy.',
+            ],
+          },
+          {
+            key: 'shortsword-humanoid-or-hybrid-form-only',
+            name: 'Shortsword (Humanoid or Hybrid Form Only)',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     zombie: {
       name: 'Zombie',
       alignment: 'neutral evil',

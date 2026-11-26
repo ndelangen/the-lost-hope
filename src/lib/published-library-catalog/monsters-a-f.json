@@ -17905,6 +17905,20 @@
         "edition": "Black Flag Roleplaying",
         "status": "Stat block",
         "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/"
+      },
+      {
+        "id": "open5e-tob_alseid",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alseid"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
       }
     ],
     "groups": ["Fey", "Monstrosity"]
@@ -69191,96 +69205,18 @@
       {
         "id": "printing-30dab3c99e997e2719b35ada",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 44",
-              "Hit dice · 8d8 + 8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 15",
-              "XP · 450",
-              "Str · 11",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 14"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A performer who fights with sword or bow and uses magic to scatter enemies."]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +4", "Wis +3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +4", "Perception +5", "Performance +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid, any alignment"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Any two languages."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks using Shortsword or Shortbow. Spellcasting can replace one of those attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nCacophony (Recharge 4–6). Every creature in a 15-ft. cube originating from the bard makes a DC 12 Constitution save. On a failure, it takes 9 (2d8) thunder damage and is pushed up to 10 ft. away from the bard. On a success, it takes half the damage and stays in place."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast one listed spell using Charisma (spell save DC 12).\nAt will. Dancing Lights, Mage Hand, Prestidigitation.\n1/day each. Charm Person, Invisibility, Sleep."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Taunt (2/day). Choose one creature within 30 ft. If it can hear the bard, it makes a DC 12 Charisma save. On a failure, it has disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 59."]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Chain shirt."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 59 · https://5e.tools/bestiary.html#bard_mpmm",
-              "Chain shirt (item) · https://5e.tools/items.html#chain%20shirt_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Sleep (spell) · https://5e.tools/spells.html#sleep_phb",
-              "Performance (skill) · https://5e.tools/skills.html#performance_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#bard_mpmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/168/1000/1000/637880557185989045.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/168/1000/1000/637880557185989045.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-2f410358dd312f9248e1a0c8",
@@ -90876,48 +90812,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 142",
-              "Hit dice · 15d10 + 60",
-              "Challenge · 9",
-              "Type · Fiend",
-              "Speed · 40 ft., fly 40 ft.",
-              "XP · 5000",
-              "Str · 18",
-              "Dex · 16",
-              "Con · 18",
-              "Int · 13",
-              "Wis · 14",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bone_devil"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large fiend (devil), lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Int +5, Wis +6, Cha +7 Skills Deception +7, Insight +6 Damage Resistances cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered Damage Immunities fire, poison Condition Immunities poisoned Senses darkvision 120 ft., passive Perception 12 Languages Infernal, telepathy 120 ft."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Devil’s Sight. Magical darkness doesn’t impede the devil’s darkvision. Magic Resistance. The devil has advantage on saving throws against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The devil makes three attacks: two with its claws and one with its sting. Claw. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage. Sting. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -105456,62 +105360,30 @@
       {
         "id": "printing-a520eaa106a8198466552c13",
         "label": "DDEX1-10 - Tyranny in Phlan",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 82",
-              "Hit dice · 11d8 + 33",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft., fly 60 ft.",
-              "Str · 18",
-              "Dex · 18",
-              "Con · 16",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cambion"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Fire Ray · ranged · +7 to hit · range 120 ft. · 3d6 fire"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_10_tyranny_in_phlan"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-432a2340ac5d04c38e87cef4",
         "label": "DDEX3-04 - It's All in the Blood",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 82",
-              "Hit dice · 11d8 + 33",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft., fly 60 ft.",
-              "Str · 18",
-              "Dex · 18",
-              "Con · 16",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cambion"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Fire Ray · ranged · +7 to hit · range 120 ft. · 3d6 fire"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_04_it_s_all_in_the_blood"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-78660aa36cce3a71fc93d297",
@@ -106095,100 +105967,6 @@
       {
         "id": "printing-ffccd82c1ed4ba7bee4330dd",
         "label": "Mordenkainen’s Tome of Foes",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 120",
-              "Hit dice · 16d8 + 48",
-              "Challenge · 8",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 50 ft.",
-              "Passive Perception · 19",
-              "XP · 3900",
-              "Str · 18",
-              "Dex · 10",
-              "Con · 17",
-              "Int · 5",
-              "Wis · 17",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A canoloth guards valuables under contract. Its tongue drags intruders close, and the terms of its contract determine whether it holds them or kills them."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "underdark", "urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Investigation +3", "Perception +9"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (yugoloth), neutral evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "Cold, fire, lightning, and bludgeoning, piercing, and slashing from nonmagical attacks."
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Acid, poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft., truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Infernal, telepathy 60 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Dimensional Lock. Creatures other than the canoloth cannot teleport into or out of a space within 60 ft. of it. An attempt to do so is wasted.\nMagic Resistance. The canoloth has advantage on saves against spells and other magical effects.\nMagic Weapons. The canoloth's weapon attacks are magical.\nUncanny Senses. The canoloth can be surprised only while incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite or Tongue attack and one Claws attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 25 (6d6 + 4) piercing damage.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 15 (2d10 + 4) slashing damage.\nTongue. Ranged weapon attack, +7 to hit, range 30 ft., one target. A hit deals 17 (2d12 + 4) piercing damage. If the target is Medium or smaller, the canoloth grapples it (escape DC 15) and pulls it up to 30 ft. closer. The target remains restrained until the grapple ends. The tongue can grapple one target at a time."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen’s Tome of Foes, p. 247."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen's Tome of Foes, p. 247 · https://5e.tools/bestiary.html#canoloth_mtf",
-              "Surprised (status) · https://5e.tools/conditionsdiseases.html#surprised_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#canoloth_mtf",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/264/743/1000/1000/636595910064668065.png",
         "art": [
@@ -106196,7 +105974,17 @@
             "file": "/assets/library/worker-art/canoloth-863f32dde3d6d228.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "canoloth"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_s_tome_of_foes"
+          }
+        }
       }
     ],
     "groups": ["Fiend"]
@@ -122024,6 +121812,20 @@
         ],
         "edition": "Black Flag Roleplaying",
         "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/"
+      },
+      {
+        "id": "open5e-tob_clockwork-watchman",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clockwork_watchman"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
       }
     ],
     "groups": ["Construct"],
@@ -129956,48 +129758,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 97",
-              "Hit dice · 13d8 + 39",
-              "Challenge · 4",
-              "Type · Celestial",
-              "Speed · 30 ft., fly 90 ft.",
-              "XP · 1100",
-              "Str · 16",
-              "Dex · 20",
-              "Con · 17",
-              "Int · 18",
-              "Wis · 20",
-              "Cha · 18"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "couatl"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium celestial, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Con +5, Wis +7, Cha +6 Damage Resistances radiant Damage Immunities psychic; bludgeoning, piercing, and slashing from nonmagical attacks Senses truesight 120 ft., passive Perception 15 Languages all, telepathy 120 ft."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Innate Spellcasting. The couatl’s spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components: At will: detect evil and good, detect magic, detect thoughts 3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield 1/day each: dream, greater restoration, scrying Magic Weapons. The couatl’s weapon attacks are magical. Shielded Mind. The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake. Constrict. Melee Weapon Attack: +6 to hit, reach 10 ft., one Medium or smaller creature. Hit: 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can’t constrict another target. Change Shape. The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl’s choice). In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -158863,6 +158633,20 @@
         "label": "Denizens of Darkness",
         "gm": [],
         "edition": "3.0 edition"
+      },
+      {
+        "id": "open5e-ccdx_dhampir",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dhampir"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
       }
     ],
     "groups": ["Unclassified"],
@@ -170807,87 +170591,6 @@
       {
         "id": "printing-3ad5f8ff907be9f59e6a24b3",
         "label": "Fizban's Treasury of Dragons",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 161",
-              "Hit dice · 19d10 + 57",
-              "Challenge · 11",
-              "Size · Large",
-              "Type · Construct",
-              "Speed · 40 ft.",
-              "Passive Perception · 10",
-              "XP · 7200",
-              "Str · 20",
-              "Dex · 10",
-              "Con · 17",
-              "Int · 3",
-              "Wis · 11",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A dragon animates the etched bones of defeated rivals and binds them with adamantine wire to make a lair guardian."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large construct, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, exhaustion, frightened, paralyzed, petrified, poisoned."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Understands Draconic and its creator’s languages. It cannot speak."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Fear Aura. When a creature of the golem’s choice starts its turn within 20 ft., it makes a DC 15 Wisdom save unless the golem is incapacitated. A failure leaves it frightened until the start of its next turn. A success grants 24 hours of immunity to this golem’s aura.\nMagic Resistance. The golem makes saves against spells and other magical effects with advantage.\nUnusual Nature. The golem needs no air, food, drink, or sleep."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Pinion attack and two Rend attacks.\nPinion. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) piercing damage. A Medium or smaller creature hit is pinned and restrained. Each of the golem’s two pinions can restrain one creature. An occupied pinion cannot attack. At the start of its turn, the restrained creature can free itself with a DC 17 Strength (Athletics) check.\nRend. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) piercing damage plus 5 (1d10) necrotic damage.\nPetrifying Breath (Recharge 5–6). Each creature in a 60-ft. cone makes a DC 15 Constitution save. A failure deals 35 (10d6) poison damage and restrains the creature while it starts to turn to stone. The restrained creature repeats the save at the end of its next turn. The effect ends on a success and petrifies it on a failure."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Fizban's Treasury of Dragons, p. 183."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Fizban's Treasury of Dragons, p. 183 · https://5e.tools/bestiary.html#dragonbone%20golem_ftd",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Athletics (skill) · https://5e.tools/skills.html#athletics_phb",
-              "Petrified (condition) · https://5e.tools/conditionsdiseases.html#petrified_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#dragonbone%20golem_ftd",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/21205/226/1000/1000/637707682451137391.jpeg",
         "art": [
@@ -170895,7 +170598,17 @@
             "file": "/assets/library/worker-art/dragonbone-golem-017fd9cdf9bf99b9.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dragonbone_golem"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "fizban_s_treasury_of_dragons"
+          }
+        }
       }
     ],
     "groups": ["Construct"]
@@ -171255,84 +170968,6 @@
       {
         "id": "printing-30fd74113691a9bdad3c77ad",
         "label": "Fizban's Treasury of Dragons",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 85",
-              "Hit dice · 10d8 + 40",
-              "Challenge · 7",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 14",
-              "XP · 2900",
-              "Str · 20",
-              "Dex · 11",
-              "Con · 18",
-              "Int · 10",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Often called Talons of Tiamat, these champions seek to free the Dragon Queen from Avernus. Some work with the Cult of the Dragon."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +8", "Con +7", "Wis +4", "Cha +6"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +8", "Intimidation +6", "Perception +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid, typically chaotic evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Plate armor."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Frightened."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Draconic."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (1/day). After failing a saving throw, the dragonborn can succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Greataxe attacks.\nGreataxe. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 11 (1d12 + 5) slashing damage plus 13 (3d8) necrotic damage.\nNecrotic Breath (Recharge 6). Creatures in a 30-ft. cone make a DC 15 Wisdom save. On a failure, a creature takes 36 (8d8) necrotic damage and is frightened of the dragonborn for 1 minute. On a success, it takes half damage and avoids the fear. A frightened creature can repeat the save at the end of each of its turns, ending the fear on a success."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Fizban's Treasury of Dragons, p. 185."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Fizban's Treasury of Dragons, p. 185 · https://5e.tools/bestiary.html#dragonborn%20of%20tiamat_ftd",
-              "Plate armor (item) · https://5e.tools/items.html#plate%20armor_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#dragonborn%20of%20tiamat_ftd",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/21205/235/1000/1000/637707682464397223.jpeg",
         "art": [
@@ -171340,7 +170975,17 @@
             "file": "/assets/library/worker-art/dragonborn-of-tiamat-ec68155d3d006344.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dragonborn_of_tiamat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "fizban_s_treasury_of_dragons"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -191311,48 +190956,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 126",
-              "Hit dice · 12d10 + 60",
-              "Challenge · 5",
-              "Type · Elemental",
-              "Speed · 30 ft., burrow 30 ft.",
-              "XP · 1800",
-              "Str · 20",
-              "Dex · 8",
-              "Con · 20",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "earth_elemental"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large elemental, neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Damage Vulnerabilities thunder Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks Damage Immunities poison Condition Immunities exhaustion, paralyzed, petrified, poisoned, unconscious Senses darkvision 60 ft., tremorsense 60 ft., passive Perception 10 Languages Terran"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Earth Glide. The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn’t disturb the material it moves through. Siege Monster. The elemental deals double damage to objects and structures."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The elemental makes two slam attacks. Slam. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -191371,93 +190984,6 @@
       {
         "id": "printing-5ad0dcf6f73dbcc3c807a11f",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 126",
-              "Hit dice · 12d10 + 60",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Elemental",
-              "Speed · 30 ft., burrow 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · -1",
-              "XP · 1800",
-              "Str · 20",
-              "Dex · 8",
-              "Con · 20",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A walking mass of soil and jagged stone that can sense footsteps through the ground."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large elemental, neutral"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["Thunder."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Bludgeoning, piercing, and slashing from nonmagical attacks."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Exhaustion, paralyzed, petrified, poisoned, unconscious."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft., tremorsense 60 ft., passive Perception 10."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Terran."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Earth Glide. It can burrow through nonmagical, unworked earth and stone without disturbing it.\nSiege Monster. It deals double damage to objects and structures.\nElemental Nature. It needs no air, food, drink, or sleep."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +8 to hit, reach 10 ft., one target. On a hit, deal 14 (2d8 + 5) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Monster Manual (2014), pp. 123–124. Damage resistance wording follows the official errata."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 124 · https://5e.tools/bestiary.html#earth%20elemental_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#earth%20elemental_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30783/692/1000/1000/638062015664899420.png",
         "art": [
@@ -191465,7 +190991,17 @@
             "file": "/assets/library/monsters/earth-elemental.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "earth_elemental"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-e328aea348822550c9ad212a",
@@ -192903,6 +192439,20 @@
         "edition": "2024 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#echo_pl"
+      },
+      {
+        "id": "open5e-ccdx_echo",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "echo"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
       }
     ],
     "groups": ["Construct"]
@@ -228556,48 +228106,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 93",
-              "Hit dice · 11d8 + 44",
-              "Challenge · 5",
-              "Type · Construct",
-              "Speed · 30 ft.",
-              "XP · 1800",
-              "Str · 19",
-              "Dex · 9",
-              "Con · 18",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flesh_golem"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium construct, neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Damage Immunities lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned Senses darkvision 60 ft., passive Perception 10 Languages understands the languages of its creator but can’t speak"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Berserk. Whenever the golem starts its turn with 40 hit points or fewer, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points. The golem’s creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a DC 15 Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again. Aversion of Fire. If the golem takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn. Immutable Form. The golem is immune to any spell or effect that would alter its form. Lightning Absorption. Whenever the golem is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt. Magic Resistance. The golem has advantage on saving throws against spells and other magical effects. Magic Weapons. The golem’s weapon attacks are magical."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The golem makes two slam attacks. Slam. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -228756,62 +228274,30 @@
       {
         "id": "printing-e130a99bc72ba1f4193801f8",
         "label": "DDEX1-10 - Tyranny in Phlan",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 93",
-              "Hit dice · 11d8 + 44",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft.",
-              "Str · 19",
-              "Dex · 9",
-              "Con · 18",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flesh_golem"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +7 to hit · reach 5 ft. · 2d8 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_10_tyranny_in_phlan"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-5ae5324ac508df5a129dd0ad",
         "label": "DDEX2-04 - Mayhem in the Earthspur Mines",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 93",
-              "Hit dice · 11d8 + 44",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft.",
-              "Str · 19",
-              "Dex · 9",
-              "Con · 18",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flesh_golem"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +7 to hit · reach 5 ft. · 2d8 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_04_mayhem_in_the_earthspur_mines"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9f6c15657f308036999af12d",
@@ -239719,5 +239205,2554 @@
       }
     ],
     "groups": ["Fiend"]
+  },
+  {
+    "type": "monsters",
+    "slug": "albino-death-weasel",
+    "name": "Albino Death Weasel",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-ccdx_albino-death-weasel",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "albino_death_weasel"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "alchemical-apprentice",
+    "name": "Alchemical Apprentice",
+    "summary": "",
+    "group": "Ooze",
+    "printings": [
+      {
+        "id": "open5e-ccdx_alchemical-apprentice",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alchemical_apprentice"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "alliumite",
+    "name": "Alliumite",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-ccdx_alliumite",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alliumite"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "alp",
+    "name": "Alp",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-ccdx_alp",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "ammut",
+    "name": "Ammut",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-ccdx_ammut",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ammut"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "arcamag",
+    "name": "Arcamag",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-ccdx_arcamag",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "arcamag"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "archaeopteryx",
+    "name": "Archaeopteryx",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-ccdx_archaeopteryx",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "archaeopteryx"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "bearmit-crab",
+    "name": "Bearmit Crab",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-ccdx_bearmit-crab",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bearmit_crab"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "black-sun-orc",
+    "name": "Black Sun Orc",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-ccdx_black-sun-orc",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "black_sun_orc"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "boot-grabber",
+    "name": "Boot Grabber",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-ccdx_boot-grabber",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "boot_grabber"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "carbuncle",
+    "name": "Carbuncle",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-ccdx_carbuncle",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "carbuncle"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "cave-giant",
+    "name": "Cave Giant",
+    "summary": "",
+    "group": "Giant",
+    "printings": [
+      {
+        "id": "open5e-ccdx_cave-giant",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cave_giant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "child-of-yggdrasil",
+    "name": "Child of Yggdrasil",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-ccdx_child-of-yggdrasil",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "child_of_yggdrasil"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "clacking-skeleton",
+    "name": "Clacking Skeleton",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-ccdx_clacking-skeleton",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clacking_skeleton"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "clockwork-servant",
+    "name": "Clockwork Servant",
+    "summary": "",
+    "group": "Construct",
+    "printings": [
+      {
+        "id": "open5e-ccdx_clockwork-servant",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clockwork_servant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "corpse-thief",
+    "name": "Corpse Thief",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-ccdx_corpse-thief",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "corpse_thief"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dark-servant",
+    "name": "Dark Servant",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-ccdx_dark-servant",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dark_servant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dhampir-commander",
+    "name": "Dhampir Commander",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-ccdx_dhampir-commander",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dhampir_commander"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dream-squire",
+    "name": "Dream Squire",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-ccdx_dream-squire",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dream_squire"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dvarapala",
+    "name": "Dvarapala",
+    "summary": "",
+    "group": "Giant",
+    "printings": [
+      {
+        "id": "open5e-ccdx_dvarapala",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dvarapala"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "flesh-reaver",
+    "name": "Flesh Reaver",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-ccdx_flesh-reaver",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flesh_reaver"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "foxin",
+    "name": "Foxin",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-ccdx_foxin",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "foxin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "azza-gremlin",
+    "name": "Azza Gremlin",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob-2023_azza-gremlin",
+        "label": "Tome of Beasts 1 (2023 Edition)",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "azza_gremlin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2023"
+          }
+        }
+      },
+      {
+        "id": "open5e-tob_azza-gremlin",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "azza_gremlin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "beggar-ghoul",
+    "name": "Beggar Ghoul",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-tob-2023_beggar-ghoul",
+        "label": "Tome of Beasts 1 (2023 Edition)",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "beggar_ghoul"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2023"
+          }
+        }
+      },
+      {
+        "id": "open5e-tob_beggar-ghoul",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "beggar_ghoul"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "cikavak",
+    "name": "Cikavak",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob-2023_cikavak",
+        "label": "Tome of Beasts 1 (2023 Edition)",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cikavak"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2023"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "clockwork-beetle",
+    "name": "Clockwork Beetle",
+    "summary": "",
+    "group": "Construct",
+    "printings": [
+      {
+        "id": "open5e-tob-2023_clockwork-beetle",
+        "label": "Tome of Beasts 1 (2023 Edition)",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clockwork_beetle"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2023"
+          }
+        }
+      },
+      {
+        "id": "open5e-tob_clockwork-beetle",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clockwork_beetle"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "clockwork-weaving-spider",
+    "name": "Clockwork Weaving Spider",
+    "summary": "",
+    "group": "Construct",
+    "printings": [
+      {
+        "id": "open5e-tob-2023_clockwork-weaving-spider",
+        "label": "Tome of Beasts 1 (2023 Edition)",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clockwork_weaving_spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2023"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "aalpamac",
+    "name": "Aalpamac",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob2_aalpamac",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "aalpamac"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "abbanith-giant",
+    "name": "Abbanith Giant",
+    "summary": "",
+    "group": "Giant",
+    "printings": [
+      {
+        "id": "open5e-tob2_abbanith-giant",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "abbanith_giant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "akaasit",
+    "name": "Akaasit",
+    "summary": "",
+    "group": "Construct",
+    "printings": [
+      {
+        "id": "open5e-tob2_akaasit",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "akaasit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "akhlut",
+    "name": "Akhlut",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob2_akhlut",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "akhlut"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "alchemical-skunk",
+    "name": "Alchemical Skunk",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob2_alchemical-skunk",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alchemical_skunk"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "angel-of-judgment",
+    "name": "Angel of Judgment",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-tob2_angel-of-judgment",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "angel_of_judgment"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "angelic-enforcer",
+    "name": "Angelic Enforcer",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-tob2_angelic-enforcer",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "angelic_enforcer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "aviere",
+    "name": "Aviere",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-tob2_aviere",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "aviere"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "avulzor",
+    "name": "Avulzor",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-tob2_avulzor",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "avulzor"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "barometz",
+    "name": "Barometz",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-tob2_barometz",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "barometz"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "bleakheart",
+    "name": "Bleakheart",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-tob2_bleakheart",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bleakheart"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "blood-imp",
+    "name": "Blood Imp",
+    "summary": "",
+    "group": "Fiend",
+    "printings": [
+      {
+        "id": "open5e-tob2_blood-imp",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "blood_imp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "cave-goat",
+    "name": "Cave Goat",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob2_cave-goat",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cave_goat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "cavefish-zombie",
+    "name": "Cavefish Zombie",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-tob2_cavefish-zombie",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cavefish_zombie"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "chatterlome",
+    "name": "Chatterlome",
+    "summary": "",
+    "group": "Fiend",
+    "printings": [
+      {
+        "id": "open5e-tob2_chatterlome",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "chatterlome"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "clockwork-tiger",
+    "name": "Clockwork Tiger",
+    "summary": "",
+    "group": "Construct",
+    "printings": [
+      {
+        "id": "open5e-tob2_clockwork-tiger",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clockwork_tiger"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "compsognathus",
+    "name": "Compsognathus",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob2_compsognathus",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "compsognathus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "crimson-shambler",
+    "name": "Crimson Shambler",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-tob2_crimson-shambler",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "crimson_shambler"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "culicoid",
+    "name": "Culicoid",
+    "summary": "",
+    "group": "Fiend",
+    "printings": [
+      {
+        "id": "open5e-tob2_culicoid",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "culicoid"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "derro-explorer",
+    "name": "Derro Explorer",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob2_derro-explorer",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "derro_explorer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "derro-guard",
+    "name": "Derro Guard",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob2_derro-guard",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "derro_guard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "destroyer",
+    "name": "Destroyer",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob2_destroyer",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "destroyer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "edjet-initiate",
+    "name": "Edjet Initiate",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob2_edjet-initiate",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "edjet_initiate"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "far-dorocha",
+    "name": "Far Dorocha",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob2_far-dorocha",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "far_dorocha"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "fennec-fox",
+    "name": "Fennec Fox",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob2_fennec-fox",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fennec_fox"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "flithidir",
+    "name": "Flithidir",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob2_flithidir",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flithidir"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "frost-mole",
+    "name": "Frost Mole",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob2_frost-mole",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "frost_mole"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "alabroza",
+    "name": "Alabroza",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob3_alabroza",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alabroza"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "alliumite-husker",
+    "name": "Alliumite, Husker",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-tob3_alliumite-husker",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alliumite_husker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "alpine-creeper",
+    "name": "Alpine Creeper",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-tob3_alpine-creeper",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alpine_creeper"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "angel-haladron",
+    "name": "Angel, Haladron",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-tob3_angel-haladron",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "angel_haladron"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "animated-instrument",
+    "name": "Animated Instrument",
+    "summary": "",
+    "group": "Construct",
+    "printings": [
+      {
+        "id": "open5e-tob3_animated-instrument",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "animated_instrument"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "animated-instrument-quartet",
+    "name": "Animated Instrument, Quartet",
+    "summary": "",
+    "group": "Construct",
+    "printings": [
+      {
+        "id": "open5e-tob3_animated-instrument-quartet",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "animated_instrument_quartet"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "archon-word",
+    "name": "Archon, Word",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-tob3_archon-word",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "archon_word"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "asp-vine",
+    "name": "Asp Vine",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-tob3_asp-vine",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "asp_vine"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "beetle-clacker-soldier",
+    "name": "Beetle, Clacker Soldier",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob3_beetle-clacker-soldier",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "beetle_clacker_soldier"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "black-patch",
+    "name": "Black Patch",
+    "summary": "",
+    "group": "Ooze",
+    "printings": [
+      {
+        "id": "open5e-tob3_black-patch",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "black_patch"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "blestsessebe",
+    "name": "Blestsessebe",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-tob3_blestsessebe",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "blestsessebe"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "catterball",
+    "name": "Catterball",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob3_catterball",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "catterball"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "cloudhoof-assassin",
+    "name": "Cloudhoof Assassin",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob3_cloudhoof-assassin",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cloudhoof_assassin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "coastline-reaper",
+    "name": "Coastline Reaper",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob3_coastline-reaper",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "coastline_reaper"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "copperkill-slime",
+    "name": "Copperkill Slime",
+    "summary": "",
+    "group": "Ooze",
+    "printings": [
+      {
+        "id": "open5e-tob3_copperkill-slime",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "copperkill_slime"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "crab-duffel",
+    "name": "Crab, Duffel",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob3_crab-duffel",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "crab_duffel"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "cueyatl-warchief",
+    "name": "Cueyatl Warchief",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob3_cueyatl-warchief",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cueyatl_warchief"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "cyonaxin",
+    "name": "Cyonaxin",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-tob3_cyonaxin",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cyonaxin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "daeodon",
+    "name": "Daeodon",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob3_daeodon",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "daeodon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "demon-inciter",
+    "name": "Demon, Inciter",
+    "summary": "",
+    "group": "Fiend",
+    "printings": [
+      {
+        "id": "open5e-tob3_demon-inciter",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "demon_inciter"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "desert-slime",
+    "name": "Desert Slime",
+    "summary": "",
+    "group": "Ooze",
+    "printings": [
+      {
+        "id": "open5e-tob3_desert-slime",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "desert_slime"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dinosaur-therizinosaurus",
+    "name": "Dinosaur, Therizinosaurus",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob3_dinosaur-therizinosaurus",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dinosaur_therizinosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "diving-gel",
+    "name": "Diving Gel",
+    "summary": "",
+    "group": "Ooze",
+    "printings": [
+      {
+        "id": "open5e-tob3_diving-gel",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "diving_gel"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dokkaebi",
+    "name": "Dokkaebi",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob3_dokkaebi",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dokkaebi"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "doppelixir",
+    "name": "Doppelixir",
+    "summary": "",
+    "group": "Ooze",
+    "printings": [
+      {
+        "id": "open5e-tob3_doppelixir",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "doppelixir"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "drake-bakery",
+    "name": "Drake, Bakery",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-tob3_drake-bakery",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "drake_bakery"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "drake-reef",
+    "name": "Drake, Reef",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-tob3_drake-reef",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "drake_reef"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dubius",
+    "name": "Dubius",
+    "summary": "",
+    "group": "Fiend",
+    "printings": [
+      {
+        "id": "open5e-tob3_dubius",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dubius"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "ettin-kobold",
+    "name": "Ettin, Kobold",
+    "summary": "",
+    "group": "Giant",
+    "printings": [
+      {
+        "id": "open5e-tob3_ettin-kobold",
+        "label": "Tome of Beasts 3",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ettin_kobold"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "amphiptere",
+    "name": "Amphiptere",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob_amphiptere",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "amphiptere"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "angatra",
+    "name": "Angatra",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-tob_angatra",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "angatra"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "arboreal-grappler",
+    "name": "Arboreal Grappler",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-tob_arboreal-grappler",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "arboreal_grappler"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "aridni",
+    "name": "Aridni",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob_aridni",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "aridni"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "bandit-lord",
+    "name": "Bandit Lord",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob_bandit-lord",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bandit_lord"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "bereginyas",
+    "name": "Bereginyas",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob_bereginyas",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bereginyas"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "bone-crab",
+    "name": "Bone Crab",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob_bone-crab",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bone_crab"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "broodiken",
+    "name": "Broodiken",
+    "summary": "",
+    "group": "Construct",
+    "printings": [
+      {
+        "id": "open5e-tob_broodiken",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "broodiken"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "buraq",
+    "name": "Buraq",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-tob_buraq",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "buraq"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "burrowling",
+    "name": "Burrowling",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob_burrowling",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "burrowling"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "cavelight-moss",
+    "name": "Cavelight Moss",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-tob_cavelight-moss",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cavelight_moss"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "clockwork-beetle-swarm",
+    "name": "Clockwork Beetle Swarm",
+    "summary": "",
+    "group": "Construct",
+    "printings": [
+      {
+        "id": "open5e-tob_clockwork-beetle-swarm",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clockwork_beetle_swarm"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dau",
+    "name": "Dau",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob_dau",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dau"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "derro-fetal-savant",
+    "name": "Derro Fetal Savant",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob_derro-fetal-savant",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "derro_fetal_savant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "desert-giant",
+    "name": "Desert Giant",
+    "summary": "",
+    "group": "Giant",
+    "printings": [
+      {
+        "id": "open5e-tob_desert-giant",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "desert_giant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dipsa",
+    "name": "Dipsa",
+    "summary": "",
+    "group": "Ooze",
+    "printings": [
+      {
+        "id": "open5e-tob_dipsa",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dipsa"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dissimortuum",
+    "name": "Dissimortuum",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-tob_dissimortuum",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dissimortuum"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dogmole",
+    "name": "Dogmole",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob_dogmole",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dogmole"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "domovoi",
+    "name": "Domovoi",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob_domovoi",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "domovoi"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dorreq",
+    "name": "Dorreq",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-tob_dorreq",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dorreq"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dust-goblin",
+    "name": "Dust Goblin",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob_dust-goblin",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dust_goblin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "eel-hound",
+    "name": "Eel Hound",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob_eel-hound",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "eel_hound"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "elemental-locus",
+    "name": "Elemental Locus",
+    "summary": "",
+    "group": "Elemental",
+    "printings": [
+      {
+        "id": "open5e-tob_elemental-locus",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "elemental_locus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "eonic-drifter",
+    "name": "Eonic Drifter",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob_eonic-drifter",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "eonic_drifter"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "fate-eater",
+    "name": "Fate Eater",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-tob_fate-eater",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fate_eater"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "fraughashar",
+    "name": "Fraughashar",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob_fraughashar",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fraughashar"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
   }
 ]

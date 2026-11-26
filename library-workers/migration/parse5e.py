@@ -32,6 +32,7 @@ def parse_speed(s):
     m=re.match(r'(?:(walk|climb|fly|swim|burrow)\s*)?(\d+)\s*(?:ft\.?)?(?:\s*\((hover)\))?',part.strip(),re.I)
     if not m: raise Fail('speed '+s)
     out[(m.group(1) or 'walk').lower()]=int(m.group(2))
+  out.setdefault('walk',0)  # a creature that only swims or flies has a walking speed of 0
   return out
 def ability_for(bonus,scores,prof,cands=('str','dex')):
   hits=[a for a in cands if mod(scores[a])+prof==bonus]
@@ -239,8 +240,18 @@ def extract_save(ab,text,scores,prof,issues):
       # duration, no further number. Otherwise the printing waits for a closer look.
       span=text[start:stop].replace(m.group(0),'').replace(d.group(0),'')
       if re.search(r'\b(?:'+'|'.join(CONDS)+r')\b|\d|minute|hour|round|until|speed|push|pull|knock',span,re.I):
-        ab.pop('save',None); ab['intent']=ab.get('intent','support') if 'attack' not in ab else 'damage'
-        issues.append(f'{name}: save rider not structured'); return text
+        # What a failure adds after the damage ("and is poisoned for 1 minute") is its rider, as
+        # long as it carries no further roll or DC of its own.
+        after=text[end:stop]
+        if half: after=re.sub(r',? or half as much damage on a successful one\.?|\. On a success(?:ful save)?, (?:it|the creature|the target) takes half (?:as much|that) damage\.?','',after,flags=re.I)
+        before=text[start:m.start()]
+        follows=re.match(r'^\s*(?:damage)?\s*,?\s*and\s+',after,re.I)
+        rider=after[follows.end():].strip(' .') if follows else ''
+        rider=re.sub(r',?\s*(?:on a (?:failure|failed save))?,?\s*(?:or )?half (?:as much )?(?:damage )?on a success(?:ful one)?$','',rider,flags=re.I).strip(' .,')
+        if re.search(r'\d+d\d+|\bDC \d|\(\d+d',rider) or re.search(r'\b(?:'+'|'.join(CONDS)+r')\b|minute|hour|round|until|speed|push|pull|knock',before,re.I) or not rider:
+          ab.pop('save',None); ab['intent']=ab.get('intent','support') if 'attack' not in ab else 'damage'
+          issues.append(f'{name}: save rider not structured'); return text
+        ab['save']['onFail']['also']=[rider[0].upper()+rider[1:]+'.']
       rest=(text[:start]+' '+text[stop:]).strip()
       return re.sub(r'\s+',' ',rest)
   return text
@@ -414,6 +425,17 @@ def convert(r,p):
     +[t+' '+'; '.join(sec(p,t) or []) for t in ['Damage resistances','Damage immunities','Condition immunities','Damage vulnerabilities'] if sec(p,t)])
   for m in re.finditer('('+KW+r')\s*:?\s*(.*?)(?=\s'+KW+r'|\sSenses|\sLanguages|\. |\.$|;\s*(?:Senses|Languages)|$)',defense_text,re.I):
     head=m.group(1).lower(); body=m.group(2).lower()
+    qm=re.search(r"(?:from )?nonmagical (?:attacks|weapons)(?: that aren['’]?t (silvered|adamantine)(?: weapons)?)?",body)
+    if qm and ('resist' in head or 'immun' in head):
+      # "bludgeoning, piercing, and slashing from nonmagical attacks (that aren't silvered)"
+      plain,qual=body[:qm.start()],body[qm.start():]
+      qual_types=[d for d in DAMAGE if re.search(r'\b'+d+r'\b',plain.split(';')[-1])]
+      rest=';'.join(plain.split(';')[:-1])
+      field='nonmagicalResistances' if 'resist' in head else 'nonmagicalImmunities'
+      block[field]=sorted(set(block.get(field,[])+qual_types),key=DAMAGE.index)
+      if qm.group(1): block['nonmagicalExcept']=qm.group(1)
+      body=rest+(';'+qual[qm.end()-qm.start():] if qual[qm.end()-qm.start():].strip(' .;,') else '')
+      if not body.strip(' .;,'): continue
     if 'nonmagical' in body or 'silvered' in body or 'adamantine' in body or 'magic' in body:
       issues.append('qualified damage defense needs a rule'); continue
     dmg=[d for d in DAMAGE if re.search(r'\b'+d+r'\b',body)]
@@ -428,7 +450,7 @@ def convert(r,p):
     if dmg: block[field]=sorted(set(block.get(field,[])+dmg),key=DAMAGE.index)
     if cond and 'immun' in head: block['conditionImmunities']=sorted(set(block.get('conditionImmunities',[])+cond),key=CONDS.index)
   for word,field in [('resist','damageResistances'),('immun','damageImmunities'),('vulnerab','damageVulnerabilities')]:
-    if re.search(word,defense_text,re.I) and field not in block and not (word=='immun' and 'conditionImmunities' in block) and not any('defense' in i for i in issues):
+    if re.search(word,defense_text,re.I) and field not in block and not (word=='immun' and ('conditionImmunities' in block or 'nonmagicalImmunities' in block)) and not (word=='resist' and 'nonmagicalResistances' in block) and not any('defense' in i for i in issues):
       issues.append(f'{word} mentioned but not captured')
   langs=re.search(r'Languages ([^.]*?)(?:\.|$)',other)
   if not langs and re.search(r'\bno(?: listed)?\b[^.]*\blanguages\b|\bno languages\b|lists no languages',other,re.I):
@@ -598,7 +620,7 @@ def main():
         same=next(((r_,q) for r_ in by_slug.get(rec['slug'],[]) for q in r_['printings'] if q['label']==p['label']),None)
         if same: p['id']=same[1]['id']; rec['type']=same[0]['type']; matched=True
       # A stat block the catalog has no entry for would be unreachable; leave it for later.
-      if matched or rec['printings'][0]['label'] in ('SRD 5.2.1',):
+      if matched or rec.get('new_entry') or rec['printings'][0]['label'] in ('SRD 5.2.1',):
         rec['from_pdf']=True; recs.append(rec)
   out=[]; tally=collections.Counter(); why=collections.Counter()
   for r in recs:
@@ -609,7 +631,7 @@ def main():
         b,meta,iss=convert(r,p)
         tally['clean' if not iss else 'needs review']+=1
         for i in iss: why[re.sub(r'^[^:]*: ','',re.sub(r'\d+','N',i))[:50]]+=1
-        out.append({'pdf':bool(r.get('from_pdf')),'type':r['type'],'slug':r['slug'],'name':r['name'],'printing':p['id'],'label':p['label'],'edition':p.get('edition'),'block':b,'meta':meta,'issues':iss})
+        out.append({'new_entry':bool(r.get('new_entry')) and not any(q['id']==p['id'] for q in r['printings'] if False),'group':r.get('group'),'pdf':bool(r.get('from_pdf')),'type':r['type'],'slug':r['slug'],'name':r['name'],'printing':p['id'],'label':p['label'],'edition':p.get('edition'),'block':b,'meta':meta,'issues':iss})
       except Fail as e:
         tally['unparsed']+=1; why['FAIL '+str(e)[:40]]+=1
   json.dump(out,open(os.path.join(os.environ.get('MIGRATION_OUT',os.path.dirname(__file__)),'out-'+'-'.join(sorted(types))+'.json'),'w'),indent=1)

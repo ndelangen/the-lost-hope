@@ -1662,6 +1662,102 @@ export default createPublicationMonsters({
         ],
       },
     },
+    yeti: {
+      name: 'Yeti',
+      reprintedIn: [refs.publications.ddex2_04_mayhem_in_the_earthspur_mines],
+      alignment: 'chaotic evil',
+      languages: ['Yeti'],
+      stats: {
+        size: 'large',
+        type: 'monstrosity',
+        cr: '3',
+        ac: 12,
+        armor: 'natural armor',
+        hitDice: '6d10',
+        speed: { walk: 40, climb: 40 },
+        scores: { str: 18, dex: 13, con: 16, int: 8, wis: 12, cha: 7 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        senses: { darkvision: 60 },
+        damageImmunities: [rules.cold],
+        abilities: [
+          {
+            key: 'fear-of-fire',
+            name: 'Fear of Fire',
+            timing: 'trait',
+            icon: 'gi/GiFlame',
+            text: [
+              'If the yeti takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.',
+            ],
+          },
+          {
+            key: 'keen-smell',
+            name: 'Keen Smell',
+            timing: 'trait',
+            icon: 'gi/GiNoseSide',
+            text: ['The yeti has advantage on Wisdom (Perception) checks that rely on smell.'],
+          },
+          {
+            key: 'snow-camouflage',
+            name: 'Snow Camouflage',
+            timing: 'trait',
+            icon: 'gi/GiInvisible',
+            text: [
+              'The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'The yeti can use its ',
+              { ability: 'chilling-gaze' },
+              ' and makes two claw attacks.',
+            ],
+          },
+          {
+            key: 'claw',
+            name: 'Claw',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [
+                { dice: '1d6', type: rules.slashing, addModifier: true },
+                { dice: '1d6', type: rules.cold },
+              ],
+            },
+          },
+          {
+            key: 'chilling-gaze',
+            name: 'Chilling Gaze',
+            timing: 'action',
+            icon: 'gi/GiMagicSwirl',
+            intent: 'damage',
+            save: {
+              ability: 'con',
+              dc: 'con',
+              target: { creatures: 1, range: 30 },
+              onFail: {
+                damage: [{ dice: '3d6', type: rules.cold }],
+                also: [
+                  'Then be ',
+                  rules.paralyzed,
+                  ' for 1 minute, unless it is immune to cold damage.',
+                ],
+              },
+            },
+            text: [
+              'The yeti targets one creature it can see within 30 feet of it. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target’s saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.',
+            ],
+          },
+        ],
+      },
+    },
     zombie: {
       name: 'Zombie',
       alignment: 'neutral evil',

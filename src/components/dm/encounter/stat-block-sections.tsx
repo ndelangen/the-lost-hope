@@ -149,12 +149,12 @@ export function StatFacts({ stats, block }: { stats: AnyStatBlock; block: Derive
     {
       key: 'resistant',
       label: <RuleTerm rule={refs.rules.resistance}>Resistant</RuleTerm>,
-      value: termList(stats.damageResistances),
+      value: joinedTerms(termList(stats.damageResistances), nonmagical(stats, 'resistances')),
     },
     {
       key: 'immune',
       label: <RuleTerm rule={refs.rules.immunity}>Immune</RuleTerm>,
-      value: termList(immune),
+      value: joinedTerms(termList(immune), nonmagical(stats, 'immunities')),
     },
   ]
 
@@ -207,6 +207,31 @@ export function StatSource({ stats }: { stats: AnyStatBlock }) {
       )}
       {stats.source.changes}
     </p>
+  )
+}
+
+/** Damage a 2014 creature shrugs off only from nonmagical attacks, read as the book prints it. */
+function nonmagical(stats: AnyStatBlock, which: 'resistances' | 'immunities') {
+  if (!('cr' in stats)) return undefined
+  const types = which === 'resistances' ? stats.nonmagicalResistances : stats.nonmagicalImmunities
+  const list = termList(types)
+  if (!list) return undefined
+  const except = stats.nonmagicalExcept ? ` that aren’t ${stats.nonmagicalExcept}` : ''
+  return (
+    <>
+      {list} from nonmagical attacks{except}
+    </>
+  )
+}
+
+/** Two term lists as one, separated by a semicolon. */
+function joinedTerms(first: ReactNode, second: ReactNode) {
+  if (!first) return second
+  if (!second) return first
+  return (
+    <>
+      {first}; {second}
+    </>
   )
 }
 

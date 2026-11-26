@@ -291,6 +291,18 @@ const statCore = {
   damageVulnerabilities: z.array(RuleRef).optional().describe('Damage types'),
   damageResistances: z.array(RuleRef).optional().describe('Damage types'),
   damageImmunities: z.array(RuleRef).optional().describe('Damage types'),
+  nonmagicalResistances: z
+    .array(RuleRef)
+    .optional()
+    .describe('Damage types resisted only from nonmagical attacks (2014 rules)'),
+  nonmagicalImmunities: z
+    .array(RuleRef)
+    .optional()
+    .describe('Damage types it is immune to only from nonmagical attacks (2014 rules)'),
+  nonmagicalExcept: z
+    .enum(['silvered', 'adamantine'])
+    .optional()
+    .describe('Weapons that get through those nonmagical defences anyway'),
   conditionImmunities: z.array(RuleRef).optional().describe('Conditions'),
   abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).default([]),
 }

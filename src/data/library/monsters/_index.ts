@@ -1,5 +1,6 @@
 import basic_rules_2018 from './basic-rules-2018.ts'
 import bigby_presents_glory_of_the_giants from './bigby-presents-glory-of-the-giants.ts'
+import creature_codex from './creature-codex.ts'
 import d_d_world_of_warcraft from './d-d-world-of-warcraft.ts'
 import ddal04_01_the_suits_of_the_mists from './ddal04-01-the-suits-of-the-mists.ts'
 import ddal04_02_the_beast from './ddal04-02-the-beast.ts'
@@ -81,6 +82,10 @@ import storm_king_s_thunder from './storm-king-s-thunder.ts'
 import tal_dorei_campaign_setting_reborn from './tal-dorei-campaign-setting-reborn.ts'
 import the_wild_beyond_the_witchlight from './the-wild-beyond-the-witchlight.ts'
 import tomb_of_annihilation from './tomb-of-annihilation.ts'
+import tome_of_beasts_2 from './tome-of-beasts-2.ts'
+import tome_of_beasts_3 from './tome-of-beasts-3.ts'
+import tome_of_beasts_2023 from './tome-of-beasts-2023.ts'
+import tome_of_beasts from './tome-of-beasts.ts'
 import turn_of_fortune_s_wheel from './turn-of-fortune-s-wheel.ts'
 import volo_s_guide_to_monsters from './volo-s-guide-to-monsters.ts'
 import where_evil_lives from './where-evil-lives.ts'
@@ -89,6 +94,7 @@ import where_evil_lives from './where-evil-lives.ts'
 export default [
   basic_rules_2018,
   bigby_presents_glory_of_the_giants,
+  creature_codex,
   d_d_world_of_warcraft,
   ddal04_01_the_suits_of_the_mists,
   ddal04_02_the_beast,
@@ -170,6 +176,10 @@ export default [
   tal_dorei_campaign_setting_reborn,
   the_wild_beyond_the_witchlight,
   tomb_of_annihilation,
+  tome_of_beasts_2,
+  tome_of_beasts_2023,
+  tome_of_beasts_3,
+  tome_of_beasts,
   turn_of_fortune_s_wheel,
   volo_s_guide_to_monsters,
   where_evil_lives,

@@ -47,3 +47,8 @@ bunx oxfmt src/data/library src/lib/published-library-catalog && bun run generat
   converts only when the catalog has an entry for that creature and book.
 - After `merge_beasts.py`, run `items_add_srd.py <srd-items.json>` (from `items_srd521.py`) and
   `species_srd521.py <srd521-cols.txt>`: they give items and species the SRD 5.2.1's printed rules.
+- Open5e (openly licensed books): download `https://api.open5e.com/v2/{creatures,spells}/` with
+  curl (paginate on `next`), then `spells_open5e.py <spells.json>` writes one spell module per book
+  and `open5e_monsters.py <creatures.json> <out.json>` makes catalog-shaped printings to add to
+  `EXTRA_PRINTINGS`. Creatures the catalog lacks become new library entries. Legendary uses are
+  not in Open5e's data; Kobold Press creatures are given the 5e standard of three.

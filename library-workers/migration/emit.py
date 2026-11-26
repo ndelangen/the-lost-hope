@@ -31,6 +31,12 @@ LICENSES={
   'tome_of_heroes':('ogl-1.0a','Tome of Heroes. © 2022 Open Design LLC; Authors: Kelly Pawlik, Ben McFarland, and Brian Suskind.'),
   'kobold_press_compilation':('ogl-1.0a','Kobold Press Compilation, as published by Open5e. © Open Design LLC d/b/a Kobold Press.'),
   'warlock_zine':('ogl-1.0a','Warlock. © 2017 Open Design LLC; Authors: Wolfgang Baur and others.'),
+  'tome_of_beasts':('ogl-1.0a','Tome of Beasts. © 2016 Open Design; Authors: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.'),
+  'tome_of_beasts_2':('ogl-1.0a','Tome of Beasts 2. © 2020 Open Design LLC; Authors: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.'),
+  'tome_of_beasts_3':('ogl-1.0a','Tome of Beasts 3. © 2022 Open Design LLC; Authors: Eytan Bernstein, Celeste Conowitch, Benjamin L. Eastman, Robert Fairbanks, Scott Gable, Basheer Ghouse, Richard Green, Jeremy Hochhalter, Jeff Lee, Christopher Lockey, Sarah Madsen, Ben McFarland, Jonathan Miley, Kelly Pawlik, Sebastian Rombach, Chelsea Steverson, Brian Suskind, Mike Welham.'),
+  'tome_of_beasts_2023':('ogl-1.0a','Tome of Beasts 1 (2023 Edition). © 2023 Open Design LLC; Authors: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, and Wolfgang Baur.'),
+  'creature_codex':('ogl-1.0a','Creature Codex. © 2018 Open Design LLC; Authors: Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky.'),
+  'taldorei_campaign_setting':('ogl-1.0a',"Critical Role: Tal'Dorei Campaign Setting. © 2017 Green Ronin Publishing, LLC; Authors: Matthew Mercer, James Haeck."),
   'spells_that_dont_suck':('cc-by-4.0',"Spells That Don't Suck by Ben Somers (somanyrobots) and Omega Ankh, licensed under the Creative Commons Attribution 4.0 International License."),
 }
 # Openly licensed spell books loaded from Open5e (spells_open5e.py).
@@ -41,6 +47,14 @@ SPELL_PUBS={
   'kobold_press_compilation':('kobold_press_compilation','Kobold Press Compilation','Kobold Press',None,'5e-2014',None),
   'warlock_zine':('warlock_zine','Warlock','Kobold Press',2017,'5e-2014',None),
   'spells_that_dont_suck':('spells_that_dont_suck',"Spells That Don't Suck",'Somanyrobots',2025,'5e-2014',None),
+}
+OPEN5E_PUBS={
+  'Tome of Beasts':('tome_of_beasts','Tome of Beasts','Kobold Press',2016,'5e-2014',None),
+  'Tome of Beasts 2':('tome_of_beasts_2','Tome of Beasts 2','Kobold Press',2020,'5e-2014',None),
+  'Tome of Beasts 3':('tome_of_beasts_3','Tome of Beasts 3','Kobold Press',2022,'5e-2014',None),
+  'Tome of Beasts 1 (2023 Edition)':('tome_of_beasts_2023','Tome of Beasts 1 (2023 Edition)','Kobold Press',2023,'5e-2014',None),
+  'Creature Codex':('creature_codex','Creature Codex','Kobold Press',2018,'5e-2014',None),
+  "Tal'dorei Campaign Setting":('taldorei_campaign_setting',"Tal'Dorei Campaign Setting",'Green Ronin Publishing',2017,'5e-2014',None),
 }
 CORE=['monster_manual_2014','monster_manual_2024','srd_5_1','srd_5_2_1','basic_rules_2018']
 PUBLISHERS=['Wizards of the Coast','Kobold Press','MCDM','Ghostfire Gaming','Darrington Press','Hit Point Press','Green Ronin','Free League','Critical Role','Legendary Games','Mage Hand Press','Loot Tavern','Ghostfire']
@@ -151,6 +165,7 @@ def main():
     for rec in json.load(open(extra)):
       for p in rec['printings']: recs_for_pubs.setdefault((rec['type'],rec['slug'],p['id']),p)
   for r in rows:
+    if r['label'] in OPEN5E_PUBS: PUBS[r['label']]=OPEN5E_PUBS[r['label']]
     if r['label'] not in PUBS: PUBS[r['label']]=publication_for(r,recs_for_pubs.get((r['type'],r['slug'],r['printing'])) or {'gm':[]})
   # appearance/habitats from the source records
   recs={}
@@ -217,7 +232,8 @@ def main():
       if 'initiative' in b: L.append(f'        initiative: {js(b["initiative"])},')
       for k in ['saves','skills','senses']:
         if k in b: L.append(f'        {k}: {{'+', '.join(f'{kk.replace("-","_")}: {js(v)}' for kk,v in b[k].items())+'},')
-      for k in ['damageResistances','damageImmunities','damageVulnerabilities','conditionImmunities']:
+      if b.get('nonmagicalExcept'): L.append(f"        nonmagicalExcept: {js(b['nonmagicalExcept'])},")
+      for k in ['damageResistances','damageImmunities','damageVulnerabilities','conditionImmunities','nonmagicalResistances','nonmagicalImmunities']:
         if b.get(k): L.append(f'        {k}: ['+', '.join('refs.rules.'+x for x in b[k])+'],')
       L.append('        abilities: [')
       keys=set()
@@ -279,6 +295,33 @@ def main():
     for pk,r in pubs.items():
       if (pk,key) in kept: typed[(r['type'],r['slug'],r['printing'])]=(key,pk)
   cat=os.path.join(REPO,'src/lib/published-library-catalog')
+  # Typed creatures from new sources that the catalog has no entry for get one, so they can be
+  # found; the printing itself is only a typed ref.
+  have={(r_['type'],r_['slug']) for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z'] for r_ in json.load(open(os.path.join(cat,f+'.json')))}
+  have|={('monsters',sl) for t,sl in have if t=='beasts'}|{('beasts',sl) for t,sl in have if t=='monsters'}
+  new_entries={}
+  for key,pubs in bykey.items():
+    for pk,r in pubs.items():
+      if (pk,key) in kept and r.get('new_entry') and ('monsters',r['slug']) not in have:
+        e=new_entries.setdefault(r['slug'],{'type':'monsters','slug':r['slug'],'name':r['name'],'summary':'','group':(r.get('group') or 'Unclassified').capitalize(),'printings':[]})
+        if not any(p_['id']==r['printing'] for p_ in e['printings']): e['printings'].append({'id':r['printing'],'label':r['label'],'gm':[]})
+  for slug_,e in new_entries.items():
+    f='monsters-a-f' if slug_[:1]<='f' else 'monsters-g-p' if slug_[:1]<='p' else 'monsters-q-z'
+    path=os.path.join(cat,f+'.json'); data=json.load(open(path)); data.append(e)
+    json.dump(data,open(path,'w'),indent=2,ensure_ascii=False)
+  print('new catalog entries',len(new_entries))
+  # A creature that the catalog already has gains a printing for each new source.
+  added=0
+  for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
+    path=os.path.join(cat,f+'.json'); data=json.load(open(path))
+    for rec in data:
+      if rec['type'] not in ('monsters','beasts') or rec['slug'] in new_entries: continue
+      for key,pubs in bykey.items():
+        for pk,r in pubs.items():
+          if (pk,key) in kept and r.get('new_entry') and r['slug']==rec['slug'] and not any(p_['id']==r['printing'] for p_ in rec['printings']):
+            rec['printings'].append({'id':r['printing'],'label':r['label'],'gm':[]}); added+=1
+    json.dump(data,open(path,'w'),indent=2,ensure_ascii=False)
+  print('new printings on existing entries',added)
   for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
     path=os.path.join(cat,f+'.json'); data=json.load(open(path)); changed=0
     for rec in data:
