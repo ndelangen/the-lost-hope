@@ -2686,6 +2686,7 @@ export default createPublicationMonsters({
     },
     bat: {
       name: 'Bat',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -2888,6 +2889,7 @@ export default createPublicationMonsters({
     },
     black_bear: {
       name: 'Black Bear',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -3037,6 +3039,7 @@ export default createPublicationMonsters({
     },
     blood_hawk: {
       name: 'Blood Hawk',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -3147,6 +3150,7 @@ export default createPublicationMonsters({
     },
     boar: {
       name: 'Boar',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -4764,6 +4768,7 @@ export default createPublicationMonsters({
     },
     deer: {
       name: 'Deer',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -4905,6 +4910,7 @@ export default createPublicationMonsters({
     },
     dire_wolf: {
       name: 'Dire Wolf',
+      reprintedIn: [refs.publications.ddal04_05_the_seer, refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -5220,6 +5226,7 @@ export default createPublicationMonsters({
     },
     draft_horse: {
       name: 'Draft Horse',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -5448,6 +5455,7 @@ export default createPublicationMonsters({
     },
     eagle: {
       name: 'Eagle',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -6654,6 +6662,7 @@ export default createPublicationMonsters({
     },
     giant_crocodile: {
       name: 'Giant Crocodile',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -6847,6 +6856,7 @@ export default createPublicationMonsters({
     },
     giant_fire_beetle: {
       name: 'Giant Fire Beetle',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -6887,6 +6897,7 @@ export default createPublicationMonsters({
     },
     giant_goat: {
       name: 'Giant Goat',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -6935,6 +6946,7 @@ export default createPublicationMonsters({
     },
     giant_hyena: {
       name: 'Giant Hyena',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -9314,6 +9326,7 @@ export default createPublicationMonsters({
     },
     lion: {
       name: 'Lion',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -9400,6 +9413,7 @@ export default createPublicationMonsters({
     },
     lizard: {
       name: 'Lizard',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -9991,6 +10005,7 @@ export default createPublicationMonsters({
     },
     mule: {
       name: 'Mule',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -10979,6 +10994,7 @@ export default createPublicationMonsters({
     },
     polar_bear: {
       name: 'Polar Bear',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -11018,6 +11034,7 @@ export default createPublicationMonsters({
     },
     pony: {
       name: 'Pony',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -11312,6 +11329,7 @@ export default createPublicationMonsters({
     },
     pteranodon: {
       name: 'Pteranodon',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Dinosaur'],
       alignment: 'unaligned',
       languages: [],
@@ -11575,6 +11593,7 @@ export default createPublicationMonsters({
     },
     rat: {
       name: 'Rat',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -11615,6 +11634,7 @@ export default createPublicationMonsters({
     },
     raven: {
       name: 'Raven',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -11718,6 +11738,7 @@ export default createPublicationMonsters({
     },
     reef_shark: {
       name: 'Reef Shark',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -11868,6 +11889,7 @@ export default createPublicationMonsters({
     },
     rhinoceros: {
       name: 'Rhinoceros',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -11913,6 +11935,7 @@ export default createPublicationMonsters({
     },
     riding_horse: {
       name: 'Riding Horse',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -12031,6 +12054,7 @@ export default createPublicationMonsters({
     },
     saber_toothed_tiger: {
       name: 'Saber-Toothed Tiger',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -12239,6 +12263,7 @@ export default createPublicationMonsters({
     },
     scorpion: {
       name: 'Scorpion',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -13976,6 +14001,7 @@ export default createPublicationMonsters({
     },
     swarm_of_ravens: {
       name: 'Swarm of Ravens',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -14057,6 +14083,7 @@ export default createPublicationMonsters({
     },
     swarm_of_venomous_snakes: {
       name: 'Swarm of Venomous Snakes',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -14326,6 +14353,7 @@ export default createPublicationMonsters({
     },
     tiger: {
       name: 'Tiger',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -14574,6 +14602,7 @@ export default createPublicationMonsters({
     },
     triceratops: {
       name: 'Triceratops',
+      reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Dinosaur'],
       alignment: 'unaligned',
       languages: [],

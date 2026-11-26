@@ -55,13 +55,21 @@ class M:
 def lenient(text):
   h=re.match(r'^(?:Make an? )?(Melee|Ranged|Melee or Ranged) (?:weapon |spell )?attack(?: roll)?[:,]? ?(?:at )?\+?(-?\d+)(?: to hit)?',text,re.I)
   if not h:
-    h2=re.match(r'^\+(\d+) to hit (?:in|with a) (melee|ranged)',text,re.I)
+    # "+5 to hit with a melee…", or the bonus before the kind: "Make a +7 melee weapon attack".
+    h2=re.match(r'^\+(\d+) to hit (?:in|with a) (melee|ranged)',text,re.I) or re.match(r'^Make an? ([+−-]?\d+) (melee or ranged|melee|ranged) (?:weapon |spell )?attack',text,re.I)
+    if h2 and not h2.group(1)[0].isdigit() and h2.group(1)[0] not in '+−-': h2=None
     if not h2: return None
-    class H:
-      def group(s,i): return {1:h2.group(2),2:h2.group(1)}[i]
-    h=H()
+    if not re.match(r'^\+(\d+) to hit',text):
+      kind,bonus=h2.group(2),h2.group(1).replace('−','-').lstrip('+')
+      class H2:
+        def group(s,i): return {1:kind,2:bonus}[i]
+      h=H2()
+    else:
+      class H:
+        def group(s,i): return {1:h2.group(2),2:h2.group(1)}[i]
+      h=H()
   head=text[:200]
-  reach=re.search(r'reach (\d+) (?:ft|feet)|(\d+)-ft\.? reach|within (\d+) (?:ft|feet)',head)
+  reach=re.search(r'reach (?:of )?(\d+) (?:ft|feet)|(\d+)-ft\.? reach|within (\d+) (?:ft|feet)',head)
   rng=re.search(r'range (\d+)(?: ft\.)?/(\d+) (?:ft|feet)',head) or re.search(r'range (\d+)() (?:ft|feet)',head)
   d=re.search(r'(\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+)(?: damage)?',text)
   flat=None if d else re.search(r'(?:Hit:?|hit,?|deals?|takes?)[^.]*?\b(\d+) (\w+) damage',text)

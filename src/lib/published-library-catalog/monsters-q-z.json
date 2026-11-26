@@ -91307,87 +91307,24 @@
       {
         "id": "printing-6dbaac24f36ba798a2ebb259",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 14",
-              "Hit dice · 4d8 − 4",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 10",
-              "XP · 50",
-              "Str · 9",
-              "Dex · 11",
-              "Con · 9",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength -1",
-              "Dexterity +0",
-              "Constitution -1",
-              "Intelligence -4",
-              "Wisdom +0",
-              "Charisma -4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "swamp", "underdark", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tight heap of brown and gray rats with rounded ears, whiskers, and tangled bare tails."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Swarm of Tiny Beasts, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +0 (10). Proficiency Bonus +2. Senses Darkvision 30 ft., Passive Perception 10. Languages none. Resistances Bludgeoning, Piercing, Slashing. Condition immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 370. https://www.dndbeyond.com/monsters/5195228-swarm-of-rats"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Swarm. The swarm and other creatures can share spaces. It can move through openings that admit a Tiny rat. It cannot regain Hit Points or gain Temporary Hit Points."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bites. Make a +2 melee attack within 5 ft. A hit deals 5 (2d4) piercing damage, or 2 (1d4) piercing damage while the swarm is Bloodied."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#swarm%20of%20rats_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/291/1000/1000/638741964709600525.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/monsters/swarm-of-rats.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "swarm_of_rats"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-3d06d99f60a01405687d2d75",
@@ -91629,91 +91566,24 @@
       {
         "id": "printing-fb9dd552d95e7a69269b4376",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 10 ft., fly 50 ft.",
-              "Passive Perception · 15",
-              "XP · 50",
-              "Str · 6",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 5",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength -2",
-              "Dexterity +2",
-              "Constitution +1",
-              "Intelligence -3",
-              "Wisdom +1",
-              "Charisma -2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["hill", "swamp", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A flock of dark ravens with black bills and broad wings spread at different angles."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Swarm of Tiny Beasts, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Senses Passive Perception 15. Languages none. Resistances Bludgeoning, Piercing, Slashing. Condition immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 371. https://www.dndbeyond.com/monsters/5195229-swarm-of-ravens"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Swarm. The swarm and other creatures can share spaces. It can move through openings that admit a Tiny raven. It cannot regain Hit Points or gain Temporary Hit Points."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Beaks. Make a +4 melee attack within 5 ft. A hit deals 5 (1d6 + 2) piercing damage, or 2 (1d4) piercing damage while the swarm is Bloodied.\nCacophony (Recharge 6). Choose one creature in the swarm’s space. It makes a DC 10 Wisdom saving throw. On a failure it is Deafened until the start of the swarm’s next turn and has Disadvantage on ability checks and attack rolls while Deafened by this action."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#swarm%20of%20ravens_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/293/1000/1000/638741964713344563.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/monsters/swarm-of-ravens.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "swarm_of_ravens"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-f49dff7812f6a7c9c0cf5d5c",
@@ -116010,81 +115880,24 @@
       {
         "id": "printing-a7594358e6d8ffa4e41ca102",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 114",
-              "Hit dice · 12d12 + 36",
-              "Challenge · 5",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 10",
-              "XP · 1800",
-              "Str · 22",
-              "Dex · 9",
-              "Con · 17",
-              "Int · 2",
-              "Wis · 11",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +6",
-              "Dexterity -1",
-              "Constitution +3",
-              "Intelligence -4",
-              "Wisdom +0",
-              "Charisma -3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A low, heavy dinosaur with a bony neck frill, two long brow horns, and a shorter nose horn."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast (Dinosaur), unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative -1 (9). Proficiency Bonus +3. Senses Passive Perception 10. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 372. https://www.dndbeyond.com/monsters/5195238-triceratops"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Gore attacks.\nGore. Make a +9 melee attack within 5 ft. A hit deals 19 (2d12 + 6) piercing damage. If the target is Huge or smaller and the triceratops moved at least 20 ft. straight toward it immediately before the hit, add 9 (2d8) piercing damage and apply Prone."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#triceratops_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/311/1000/1000/638741964737897619.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/triceratops.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "triceratops"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-6248fb8ec082ee81e8f26718",

@@ -1310,74 +1310,24 @@
       {
         "id": "printing-529d3354dc68085a6d747ecf",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 38",
-              "Hit dice · 4d10 + 16",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 11",
-              "XP · 450",
-              "Str · 20",
-              "Dex · 10",
-              "Con · 19",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "hill", "mountain"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A broad, muscular wild bovine with a thick neck and long, outward-pointing horns."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast (Cattle), unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Passive Perception 11. Languages none. Proficiency Bonus +2."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, first printing, p. 71, Cattle, Aurochs."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Make a +7 melee weapon attack against one target within 5 ft. A hit deals 14 (2d8 + 5) piercing damage. If the aurochs moved at least 20 ft. straight toward the target immediately before the hit, it deals another 9 (2d8) piercing damage. A creature hit after that movement must succeed on a DC 15 Strength save or fall prone."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "Aurochs roam in wild herds. Orcs and humans sometimes train them from an early age to carry riders in combat."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#aurochs_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/150/1000/1000/637880557153896045.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/aurochs-ec87d80c9f5b.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "aurochs"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-e65b52492a268ad6e8034743",
@@ -5923,66 +5873,8 @@
       {
         "id": "printing-15df73801e2ef5257d5f3ed2",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 19",
-              "Hit dice · 3d8 + 6",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 30 ft., climb 30 ft., swim 30 ft.",
-              "Passive Perception · 15",
-              "XP · 100",
-              "Str · 15",
-              "Dex · 12",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +2", "Dex +1", "Con +2", "Int -4", "Wis +1", "Cha -2"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A dark-coated bear with rounded ears, a lighter muzzle and stocky forelegs."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +1 (11). Proficiency Bonus +2. Perception +5. Darkvision 60 ft. Passive Perception 15. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 349, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775804-black-bear"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Rend attacks.\nRend. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 5 (1d6 + 2) slashing damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#black%20bear_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43938/930/1000/1000/638607409968563176.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/black-bear-039517fda89a.png",
@@ -5996,7 +5888,17 @@
             "file": "/assets/library/beasts/black-bear-alternate.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "black_bear"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-a3d93f6307cd04e1a3ca5ccf",
@@ -6559,80 +6461,24 @@
       {
         "id": "printing-e54845be8ab16069fd4985e4",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 7",
-              "Hit dice · 2d6",
-              "Challenge · 1/8",
-              "Size · Small",
-              "Type · Beast",
-              "Speed · 10 ft., fly 60 ft.",
-              "Passive Perception · 16",
-              "XP · 25",
-              "Str · 6",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 3",
-              "Wis · 14",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str -2", "Dex +2", "Con +0", "Int -4", "Wis +2", "Cha -3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic", "coastal", "forest", "grassland", "hill", "mountain"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A rust-red hawk with a hooked bill, banded tail, folded wings and pale underparts."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Perception +6. Passive Perception 16. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 350, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/5194927-blood-hawk"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. When attacking a creature, roll with advantage if an ally within 5 ft. of that creature is free of the Incapacitated condition."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Beak. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 4 (1d4 + 2) piercing damage. Use 6 (1d8 + 2) piercing damage if the target is Bloodied."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#blood%20hawk_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47144/686/1000/1000/638742156673267018.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/blood-hawk-c77a0ce92dc5.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "blood_hawk"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-ae86ad0426e75eea531f7d26",
@@ -6947,76 +6793,24 @@
       {
         "id": "printing-3aec06a1035653603f25e0a8",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 13",
-              "Hit dice · 2d8 + 4",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 9",
-              "XP · 50",
-              "Str · 13",
-              "Dex · 11",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 9",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +1", "Dex +0", "Con +2", "Int -4", "Wis -1", "Cha -3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "grassland", "hill"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A dark, bristly boar with a low head, raised shoulders and curved tusks."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +0 (10). Proficiency Bonus +2. Passive Perception 9. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 350, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775805-boar"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Bloodied Fury. Roll attacks with advantage while the boar is Bloodied."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Make a melee attack roll at +3 with a reach of 5 ft. A hit deals 4 (1d6 + 1) piercing damage. If the target is a Medium or smaller creature and the boar moved at least 20 ft. straight toward it just before the hit, deal another 3 (1d6) piercing damage and apply Prone to the target."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#boar_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/58415/683/1000/1000/639226665175002998.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/boar.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "boar"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-1041d45fe0b6738a2ae31220",
@@ -12798,78 +12592,24 @@
       {
         "id": "printing-3f29fc3fb6ffbddad19cf061",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 13",
-              "Hit dice · 2d8 + 4",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 30 ft.",
-              "Passive Perception · 10",
-              "XP · 50",
-              "Str · 18",
-              "Dex · 10",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A shaggy Underdark bovine with thick curled horns and a low, compact build."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast (Cattle), unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Darkvision 60 ft. Passive Perception 10. Languages none. Proficiency Bonus +2."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, first printing, p. 71, Cattle, Deep Rothé."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Beast of Burden. Count the creature as one size larger when determining its carrying capacity."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Make a +6 melee weapon attack against one target within 5 ft. A hit deals 7 (1d6 + 4) piercing damage. If the rothé moved at least 20 ft. straight toward the target immediately before the hit, add 7 (2d6) piercing damage.\nDancing Lights. The rothé casts dancing lights using Wisdom as its spellcasting ability. The casting requires no components."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": ["Deep rothé communicate with others of their kind using dancing lights."]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#deep%20roth%c3%a9_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/258/1000/1000/637880557338283147.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/deep-rothe-c295a1c3bb90.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "deep_rothe"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-b567e1b50147dcdf346eaf6f",
@@ -13163,91 +12903,24 @@
       {
         "id": "printing-6e5b38f89cf60ffe0ae188e1",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 4",
-              "Hit dice · 1d8",
-              "Challenge · 0",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 14",
-              "XP · 10",
-              "Str · 11",
-              "Dex · 16",
-              "Con · 11",
-              "Int · 2",
-              "Wis · 14",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +0",
-              "Dexterity +3",
-              "Constitution +0",
-              "Intelligence -4",
-              "Wisdom +2",
-              "Charisma -3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "grassland"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tawny stag with a pale throat and underside, slender legs, and wide branching antlers."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +3 (13). Proficiency Bonus +2. Senses Darkvision 60 ft., Passive Perception 14. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast’s 2024-rules Monster Manual, p. 352, as published on D&D Beyond. https://www.dndbeyond.com/monsters/5194966-deer"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Agile. Moving out of an enemy’s reach does not provoke an Opportunity Attack."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Ram. Make a +2 melee attack within 5 ft. A hit deals 2 (1d4) bludgeoning damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#deer_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/755/1000/1000/638741963968756119.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/deer.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "deer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-b660663d230b8586eeed2399",
@@ -16448,80 +16121,22 @@
       {
         "id": "printing-f8c804ad49fd8d107f38a714",
         "label": "DDAL04-05 - The Seer",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 37",
-              "Hit dice · 5d10 + 10",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 13",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 15",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Barovia", "Snowy forest", "Pine forest"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A large, heavy-built gray wolf with a thick neck ruff, long legs and a bushy tail."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Passive Perception 13. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["The Seer, appendix stat block, p. 18."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Hearing and Smell. It has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. It has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Make a +5 melee weapon attack against one target within 5 ft. A hit deals 10 (2d6 + 3) piercing damage. A creature hit must succeed on a DC 13 Strength save or fall Prone."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The adventure references lurking wolves but gives no exact group size or placement for the Dire Wolf."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/dire-wolf-1158da2a59e3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dire_wolf"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_05_the_seer"
+          }
+        }
       },
       {
         "id": "printing-af8a7177fcd0dc691ddfab39",
@@ -16548,91 +16163,24 @@
       {
         "id": "printing-b41ee6ced4af5d744015d2d5",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 22",
-              "Hit dice · 3d10 + 6",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 15",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 15",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +3",
-              "Dexterity +2",
-              "Constitution +2",
-              "Intelligence -4",
-              "Wisdom +1",
-              "Charisma -2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "hill"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A heavy-built gray wolf with a thick neck ruff, pointed ears, long legs and a bushy tail."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Senses Darkvision 60 ft., Passive Perception 15. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast’s 2024-rules Monster Manual, p. 352, as published on D&D Beyond. https://www.dndbeyond.com/monsters/4775812-dire-wolf"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. It has Advantage on an attack against a creature if at least one ally within 5 ft. of that creature does not have the Incapacitated condition."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Make a +5 melee attack within 5 ft. A hit deals 8 (1d10 + 3) piercing damage and knocks a Large or smaller creature Prone."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#dire%20wolf_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47158/804/1000/1000/638742831347754764.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/dire-wolf-1158da2a59e3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dire_wolf"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-9fa6f1831d844a487900857a",
@@ -17145,84 +16693,24 @@
       {
         "id": "printing-9d8b4eb861f3fa9f2b64bb5f",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 0 ft., swim 60 ft.",
-              "Passive Perception · 13",
-              "XP · 25",
-              "Str · 14",
-              "Dex · 13",
-              "Con · 13",
-              "Int · 6",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "underwater"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A sleek dolphin with a tapered beak, curved dorsal fin and streamlined gray body."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Blindsight 60 ft. Passive Perception 13. Languages none. Proficiency Bonus +2."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, first printing, p. 97, Dolphins, Dolphin."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Hold Breath. The dolphin can hold its breath for 20 minutes."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Slam. Make a +4 melee weapon attack against one target within 5 ft. A hit deals 5 (1d6 + 2) bludgeoning damage. If the dolphin moved at least 30 ft. straight toward the target immediately before the hit, add 3 (1d6) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "Dolphins are social marine mammals about 5 to 6 ft. long as adults. They hunt small fish and squid in oceans and the Elemental Plane of Water."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#dolphin_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/287/1000/1000/637880557385497402.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/dolphin-04ad7363d846.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dolphin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-2b7072cdb3d68ffa7d060ed4",
@@ -17535,81 +17023,24 @@
       {
         "id": "printing-c82f938562968c29262d60fe",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 15",
-              "Hit dice · 2d10 + 4",
-              "Challenge · 1/4",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 10",
-              "XP · 50",
-              "Str · 18",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 2",
-              "Wis · 11",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +4",
-              "Dexterity +0",
-              "Constitution +2",
-              "Intelligence -4",
-              "Wisdom +0",
-              "Charisma -2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A stocky bay workhorse with a broad chest, a dark mane and tail, and feathered lower legs."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +0 (10). Proficiency Bonus +2. Senses Passive Perception 10. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast’s 2024-rules Monster Manual, p. 352, as published on D&D Beyond. https://www.dndbeyond.com/monsters/4775813-draft-horse"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Hooves. Make a +6 melee attack within 5 ft. A hit deals 6 (1d4 + 4) bludgeoning damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#draft%20horse_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/172/1000/1000/638607416542360472.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/draft-horse-34a08aa6cfeb.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "draft_horse"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-8413df10b7289d3d958c2b85",
@@ -17968,85 +17399,24 @@
       {
         "id": "printing-d33c5f0bd66688e6a8a85bc6",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 4",
-              "Hit dice · 1d6 + 1",
-              "Challenge · 0",
-              "Size · Small",
-              "Type · Beast",
-              "Speed · 10 ft., fly 60 ft.",
-              "Passive Perception · 16",
-              "XP · 10",
-              "Str · 6",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 2",
-              "Wis · 14",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength -2",
-              "Dexterity +2",
-              "Constitution +1",
-              "Intelligence -4",
-              "Wisdom +2",
-              "Charisma -2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "grassland", "hill", "mountain"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A brown eagle with a pale head and tail, a hooked yellow beak and dark, layered flight feathers."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Senses Passive Perception 16. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast’s 2024-rules Monster Manual, p. 353, as published on D&D Beyond. https://www.dndbeyond.com/monsters/5194979-eagle"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Talons. Make a +4 melee attack within 5 ft. A hit deals 4 (1d4 + 2) slashing damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#eagle_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/782/1000/1000/638741964003618292.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/eagle.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "eagle"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-b49174a064866c340c4b76be",
@@ -24737,89 +24107,24 @@
       {
         "id": "printing-8305ac87faaa579bdc0e7707",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 85",
-              "Hit dice · 9d12 + 27",
-              "Challenge · 5",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 30 ft., swim 50 ft.",
-              "Passive Perception · 10",
-              "XP · 1800",
-              "Str · 21",
-              "Dex · 9",
-              "Con · 17",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +5",
-              "Dexterity -1",
-              "Constitution +3",
-              "Intelligence -4",
-              "Wisdom +0",
-              "Charisma -2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "swamp"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "An olive-brown crocodile with a broad toothed snout, raised back scutes, and a long curled tail."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative -1 (9). Proficiency Bonus +3. Senses Passive Perception 10. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 356. https://www.dndbeyond.com/monsters/5195016-giant-crocodile"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Hold Breath. The crocodile can hold its breath for 1 hour."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Tail attack.\nBite. Make a +8 melee attack within 5 ft. On a hit, deal 21 (3d10 + 5) piercing damage. A Large or smaller creature hit is Grappled (escape DC 15). While held in this grapple, it is Restrained and the crocodile cannot target it with Tail.\nTail. Make a +8 melee attack within 10 ft. On a hit, deal 18 (3d8 + 5) bludgeoning damage. A Large or smaller creature hit also falls Prone."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20crocodile_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/858/1000/1000/638741964106958659.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-crocodile-47c163be19bc.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_crocodile"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-3e1eb74c905ba9af339539a8",
@@ -26441,85 +25746,24 @@
       {
         "id": "printing-426fa41934a075969d8d0faf",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 19",
-              "Hit dice · 3d10 + 3",
-              "Challenge · 1/2",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft., climb 30 ft.",
-              "Passive Perception · 13",
-              "XP · 100",
-              "Str · 17",
-              "Dex · 13",
-              "Con · 12",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +5",
-              "Dexterity +1",
-              "Constitution +1",
-              "Intelligence -4",
-              "Wisdom +1",
-              "Charisma -2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "hill", "mountain"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A heavy gray goat with coarse hair, a pointed beard, and long ridged horns that sweep back."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +1 (11). Proficiency Bonus +2. Senses Darkvision 60 ft., Passive Perception 13. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 357. https://www.dndbeyond.com/monsters/4775819-giant-goat"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Ram. Make a +5 melee attack within 5 ft. On a hit, deal 6 (1d6 + 3) bludgeoning damage. If the goat moved at least 20 ft. straight toward the target immediately before the hit and the creature is Large or smaller, deal 5 (2d4) extra bludgeoning damage and knock it Prone."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20goat_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47158/877/1000/1000/638742834566538984.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-goat-45321fd1c552.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_goat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-368afe6572a791874143aab7",
@@ -26865,91 +26109,24 @@
       {
         "id": "printing-006785bf075d2503be8f405c",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 45",
-              "Hit dice · 6d10 + 12",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 13",
-              "XP · 200",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +3",
-              "Dexterity +2",
-              "Constitution +2",
-              "Intelligence -4",
-              "Wisdom +1",
-              "Charisma -2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert", "forest", "grassland", "hill"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tawny spotted hyena with a dark muzzle, rounded ears, high shoulders, and a bristled back."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Senses Darkvision 60 ft., Passive Perception 13. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 357. https://www.dndbeyond.com/monsters/5195021-giant-hyena"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Make a +5 melee attack within 5 ft. On a hit, deal 10 (2d6 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Rampage (1/day). Immediately after damaging a creature that was already Bloodied, the hyena can move up to half its Speed, then makes one Bite attack."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20hyena_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/58417/106/1000/1000/639226714460189806.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-hyena-e79074ef555e.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_hyena"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-7710523e5d88dfc7841dc729",
@@ -40845,78 +40022,24 @@
       {
         "id": "printing-1cc704da77bb44c29ff4da29",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 4d10",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 13",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 11",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +3", "Dex +2", "Con +0", "Int -4", "Wis +1", "Cha -1"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert", "grassland", "hill", "mountain"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A tawny lion with a full dark mane, broad paws and a tufted tail."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Perception +3. Stealth +4. Darkvision 60 ft. Passive Perception 13. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 364, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775826-lion"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The lion rolls with advantage when it attacks a creature if an ally within 5 ft. of that creature is free of the Incapacitated condition.\nRunning Leap. After a 10-ft. running start, the lion can long jump up to 25 ft."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Rend attacks. The lion can substitute one use of Roar for one Rend.\nRend. Make a melee attack roll at +5 with a reach of 5 ft. A hit deals 7 (1d8 + 3) slashing damage.\nRoar. One creature within 15 ft. makes a DC 11 Wisdom saving throw. On a failure, it is Frightened until the start of the lion’s next turn."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#lion_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/666/1000/1000/638607428023707263.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/lion.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lion"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-928a20896b76836090ede414",
@@ -41600,80 +40723,24 @@
       {
         "id": "printing-14699e9192a8eec1a431280a",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft., climb 20 ft.",
-              "Passive Perception · 9",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 8",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str -4", "Dex +0", "Con +0", "Int -5", "Wis -1", "Cha -4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "desert", "forest", "swamp", "underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A low, mottled lizard with splayed toes, speckled scales and a long tapering tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +0 (10). Proficiency Bonus +2. Darkvision 30 ft. Passive Perception 9. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 364, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775827-lizard"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The lizard moves on difficult climbing surfaces, including along ceilings, without an ability check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Make a melee attack roll at +2 with a reach of 5 ft. A hit deals 1 piercing damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#lizard_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/58415/745/1000/1000/639226667173629035.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/lizard-2c5b93547010.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lizard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-184f619379a5c34f0e3d3290",
@@ -43160,74 +42227,24 @@
       {
         "id": "printing-af39f88061b178309162946d",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 5",
-              "Hit dice · 1d8 + 1",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 15",
-              "XP · 25",
-              "Str · 13",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +1", "Dex +2", "Con +1", "Int -4", "Wis +1", "Cha -2"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "hill", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A muscular fawn dog with a broad dark muzzle, dropped ears and loose skin around its neck."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Perception +5. Darkvision 60 ft. Passive Perception 15. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 365, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775828-mastiff"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Make a melee attack roll at +3 with a reach of 5 ft. A hit deals 4 (1d6 + 1) piercing damage and makes a Medium or smaller creature Prone."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#mastiff_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/693/1000/1000/638607428417058052.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/mastiff.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mastiff"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-d2c63aa1cd590803551e677b",
@@ -45379,78 +44396,24 @@
       {
         "id": "printing-0195a65f973531da5b052aba",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 10",
-              "XP · 25",
-              "Str · 14",
-              "Dex · 10",
-              "Con · 13",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +4", "Dex +0", "Con +1", "Int -4", "Wis +0", "Cha -3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert", "hill", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A brown mule with long upright ears, a pale muzzle and a short dark mane."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +0 (10). Proficiency Bonus +2. Passive Perception 10. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 365, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775829-mule"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Beast of Burden. Use the carrying capacity of a creature one size category larger."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Hooves. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 4 (1d4 + 2) bludgeoning damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#mule_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/705/1000/1000/638607428704668674.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/mule.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mule"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-16a05e73dccb005509df4106",
@@ -47877,77 +46840,23 @@
       {
         "id": "printing-119da0ab3790da039857d378",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 15",
-              "Hit dice · 2d10 + 4",
-              "Challenge · 1/4",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 30 ft.",
-              "Passive Perception · 10",
-              "XP · 50",
-              "Str · 18",
-              "Dex · 10",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A heavy domesticated bovine with a broad body, strong shoulders and long curved horns."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast (Cattle), unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Passive Perception 10. Languages none. Proficiency Bonus +2."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, first printing, p. 72, Cattle, Ox."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Beast of Burden. Count the creature as one size larger when determining its carrying capacity."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Make a +6 melee weapon attack against one target within 5 ft. A hit deals 7 (1d6 + 4) piercing damage. If the ox moved at least 20 ft. straight toward the target immediately before the hit, add 7 (2d6) piercing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": ["Oxen are domesticated cattle raised for hauling and for milk or meat."]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#ox_mpmm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/ox-c3ff960383a3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ox"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-dcaa833bce61ff8429808940",
@@ -49555,89 +48464,24 @@
       {
         "id": "printing-c1bd145ee975a197bc92c889",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 42",
-              "Hit dice · 5d10 + 15",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft., swim 40 ft.",
-              "Passive Perception · 15",
-              "XP · 450",
-              "Str · 20",
-              "Dex · 14",
-              "Con · 16",
-              "Int · 2",
-              "Wis · 13",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +5",
-              "Dexterity +2",
-              "Constitution +3",
-              "Intelligence -4",
-              "Wisdom +1",
-              "Charisma -2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A large bear with dense ivory fur, broad paws, black nose and a long, low profile."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Darkvision 60 ft. Passive Perception 15. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast’s 2024-rules Monster Manual, p. 367, as published on D&D Beyond. https://www.dndbeyond.com/monsters/5195167-polar-bear"
-            ]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Rend attacks.\nRend. Make a +7 melee attack within 5 ft. A hit deals 9 (1d8 + 5) slashing damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#polar%20bear_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/168/1000/1000/638741964537541931.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/polar-bear-ea58cc6437d6.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "polar_bear"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-b77ce1b76b825cf424d62f1a",
@@ -49994,81 +48838,24 @@
       {
         "id": "printing-92e3811ba55588df7f67a868",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 10",
-              "XP · 25",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 13",
-              "Int · 2",
-              "Wis · 11",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +4",
-              "Dexterity +0",
-              "Constitution +1",
-              "Intelligence -4",
-              "Wisdom +0",
-              "Charisma -2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A small sturdy chestnut horse with a flaxen mane and tail, white blaze and pale lower legs."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +0 (10). Proficiency Bonus +2. Passive Perception 10. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast’s 2024-rules Monster Manual, p. 367, as published on D&D Beyond. https://www.dndbeyond.com/monsters/4775833-pony"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Hooves. Make a +4 melee attack within 5 ft. A hit deals 4 (1d4 + 2) bludgeoning damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#pony_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/742/1000/1000/638607429635179822.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/pony.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "pony"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-1643ecf1c1674ef19c60a248",
@@ -51091,89 +49878,24 @@
       {
         "id": "printing-1dcd4f5ef99b04f82d529521",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 20 ft., climb 20 ft.",
-              "Passive Perception · 12",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 9",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength -4",
-              "Dexterity +0",
-              "Constitution -1",
-              "Intelligence -4",
-              "Wisdom +0",
-              "Charisma -3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "swamp", "underdark", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A brown rat with rounded ears, a pointed whiskered nose and a long bare tail."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +0 (10). Proficiency Bonus +2. Darkvision 30 ft. Passive Perception 12. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast’s 2024-rules Monster Manual, p. 367, as published on D&D Beyond. https://www.dndbeyond.com/monsters/4775836-rat"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Agile. The rat can move out of an enemy’s reach without provoking Opportunity Attacks."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Bite. Make a +2 melee attack within 5 ft. A hit deals 1 piercing damage."]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#rat_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47158/970/1000/1000/638742838304678258.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/rat-3ecfd8f4bf0d.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-88a1eea70609320a8f0477cb",
@@ -52255,83 +50977,8 @@
       {
         "id": "printing-6f8d2134bf33e2358890c055",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 10 ft., fly 50 ft.",
-              "Passive Perception · 13",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 5",
-              "Wis · 13",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength -4",
-              "Dexterity +2",
-              "Constitution +0",
-              "Intelligence -3",
-              "Wisdom +1",
-              "Charisma -2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["hill", "swamp", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A black raven with layered blue-black feathers, a heavy curved bill and a shaggy throat."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Passive Perception 13. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast’s 2024-rules Monster Manual, p. 368, as published on D&D Beyond. https://www.dndbeyond.com/monsters/4775837-raven"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Mimicry. The raven can copy simple sounds it has heard. A listener who succeeds on a DC 10 Wisdom (Insight) check recognizes the imitation."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Beak. Make a +4 melee attack within 5 ft. A hit deals 1 piercing damage."]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#raven_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47158/985/1000/1000/638742838863997460.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/raven.png",
@@ -52345,7 +50992,17 @@
             "file": "/assets/library/worker-art/raven-600befd6a0e33f23.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "raven"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-da4f00a1f5bcaf3f8bc1dc08",
@@ -52868,80 +51525,24 @@
       {
         "id": "printing-bffef8bb19b671c0b6dee7dc",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 5 ft., swim 30 ft.",
-              "Passive Perception · 12",
-              "XP · 100",
-              "Str · 14",
-              "Dex · 15",
-              "Con · 13",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +2", "Dex +2", "Con +1", "Int -5", "Wis +0", "Cha -3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underwater"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A slender blue-gray shark with a pale underside, pointed snout and swept fins."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Perception +2. Blindsight 30 ft. Passive Perception 12. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 368, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775838-reef-shark"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The shark has Advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of that creature and the ally is free of the Incapacitated condition.\nWater Breathing. The shark breathes only underwater."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 7 (2d4 + 2) piercing damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#reef%20shark_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/787/1000/1000/638607431063881100.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/reef-shark-6f2fab1af6cf.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "reef_shark"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-2a223bcade709a5292d56505",
@@ -53307,74 +51908,24 @@
       {
         "id": "printing-e43562032c8d6273d460ad60",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 45",
-              "Hit dice · 6d10 + 12",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 11",
-              "XP · 450",
-              "Str · 21",
-              "Dex · 8",
-              "Con · 15",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +5", "Dex -1", "Con +2", "Int -4", "Wis +1", "Cha -2"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A heavy gray rhinoceros with deeply folded skin, stout legs and two nose horns."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative −1 (9). Proficiency Bonus +2. Passive Perception 11. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 368, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/5195183-rhinoceros"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Make a melee attack roll at +7 with a reach of 5 ft. A hit deals 14 (2d8 + 5) piercing damage. If the target is a Large or smaller creature and the rhinoceros moved at least 20 ft. straight toward it immediately before the hit, the target takes an extra 9 (2d8) piercing damage and falls Prone."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#rhinoceros_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/200/1000/1000/638741964579661943.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/rhinoceros.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rhinoceros"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-1e6babad1b19858c7eeff618",
@@ -53910,72 +52461,24 @@
       {
         "id": "printing-511034e6c51a40893bca499a",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 13",
-              "Hit dice · 2d10 + 2",
-              "Challenge · 1/4",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 60 ft.",
-              "Passive Perception · 10",
-              "XP · 50",
-              "Str · 16",
-              "Dex · 13",
-              "Con · 12",
-              "Int · 2",
-              "Wis · 11",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +3", "Dex +1", "Con +1", "Int -4", "Wis +0", "Cha -2"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A bay horse with a dark mane, black lower legs and a small white blaze."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +1 (11). Proficiency Bonus +2. Passive Perception 10. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 368, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775839-riding-horse"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Hooves. Make a melee attack roll at +5 with a reach of 5 ft. A hit deals 7 (1d8 + 3) bludgeoning damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#riding%20horse_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/799/1000/1000/638607431386011024.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/warhorse.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "riding_horse"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-d72c6d12e58c9a977682ac3f",
@@ -54607,84 +53110,24 @@
       {
         "id": "printing-2fb4d3e39b42f2ddb4300cf5",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 52",
-              "Hit dice · 7d10 + 14",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 15",
-              "XP · 450",
-              "Str · 18",
-              "Dex · 17",
-              "Con · 15",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +6", "Dex +5", "Con +2", "Int -4", "Wis +1", "Cha -1"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic", "hill", "mountain"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A muscular tawny cat with spotted flanks, thick forelegs and long upper canines."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +3 (13). Proficiency Bonus +2. Perception +5. Stealth +7. Darkvision 60 ft. Passive Perception 15. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 369, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/5195187-saber-toothed-tiger"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Running Leap. With a 10-ft. running start, the tiger can Long Jump up to 25 ft."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Rend attacks.\nRend. Make a melee attack roll at +6 with a reach of 5 ft. A hit deals 11 (2d6 + 4) slashing damage."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": ["Nimble Escape. Take the Disengage or Hide action."]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#saber-toothed%20tiger_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/208/1000/1000/638741964592184244.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/saber-toothed-tiger-77a042eb.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "saber_toothed_tiger"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-8c08735b8482d303d31c325a",
@@ -55315,74 +53758,24 @@
       {
         "id": "printing-6134e3a2aa11ed90bd528b14",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 10 ft.",
-              "Passive Perception · 9",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 11",
-              "Con · 8",
-              "Int · 1",
-              "Wis · 8",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str -4", "Dex +0", "Con -1", "Int -5", "Wis -1", "Cha -4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "An ochre scorpion with paired pincers and a segmented tail curled over its back."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +0 (10). Proficiency Bonus +2. Blindsight 10 ft. Passive Perception 9. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 369, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775840-scorpion"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Sting. Make a melee attack roll at +2 with a reach of 5 ft. A hit deals 1 piercing damage plus 3 (1d6) poison damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#scorpion_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/816/1000/1000/638607431888752085.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/scorpion.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "scorpion"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "art": [
@@ -62385,87 +60778,24 @@
       {
         "id": "printing-f9238718730b8632f7a79864",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 36",
-              "Hit dice · 8d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 30 ft., swim 30 ft.",
-              "Passive Perception · 10",
-              "XP · 450",
-              "Str · 8",
-              "Dex · 18",
-              "Con · 11",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength -1",
-              "Dexterity +4",
-              "Constitution +0",
-              "Intelligence -5",
-              "Wisdom +0",
-              "Charisma -4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "desert", "forest", "grassland", "hill", "swamp"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tangle of brown and olive snakes with patterned scales, raised heads, and forked tongues."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Swarm of Tiny Beasts, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +4 (14). Proficiency Bonus +2. Senses Blindsight 10 ft., Passive Perception 10. Languages none. Resistances Bludgeoning, Piercing, Slashing. Condition immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 371. https://www.dndbeyond.com/monsters/5195231-swarm-of-venomous-snakes"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Swarm. The swarm and other creatures can share spaces. It can move through openings that admit a Tiny snake. It cannot regain Hit Points or gain Temporary Hit Points."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bites. Make a +6 melee attack within 5 ft. A hit deals 8 (1d8 + 4) piercing damage, or 6 (1d4 + 4) piercing damage while the swarm is Bloodied. A hit also deals 10 (3d6) poison damage in either case."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#swarm%20of%20venomous%20snakes_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/297/1000/1000/638741964720072977.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/monsters/swarm-of-poisonous-snakes.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "swarm_of_venomous_snakes"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "art": [
@@ -62871,89 +61201,24 @@
       {
         "id": "printing-06173602278890afc8ec742d",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 30",
-              "Hit dice · 4d10 + 8",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 13",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 16",
-              "Con · 14",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +3",
-              "Dexterity +3",
-              "Constitution +2",
-              "Intelligence -4",
-              "Wisdom +1",
-              "Charisma -1"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "grassland"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "An orange tiger with black stripes, a pale muzzle, heavy paws, and a long ringed tail."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3", "Stealth +7"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +3 (13). Proficiency Bonus +2. Senses Darkvision 60 ft., Passive Perception 13. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 371. https://www.dndbeyond.com/monsters/4775846-tiger"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Rend. Make a +5 melee attack within 5 ft. A hit deals 10 (2d6 + 3) slashing damage. A Large or smaller creature hit also falls Prone."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Nimble Escape. Use Disengage or Hide as a Bonus Action."]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#tiger_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/899/1000/1000/638607434272563738.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/tiger.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tiger"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-11a105f92294d5ad3f8b8402",

@@ -11152,85 +11152,24 @@
       {
         "id": "printing-862d991dd1efbc3fc92a1825",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 4",
-              "Hit dice · 1d6 + 1",
-              "Challenge · 0",
-              "Size · Small",
-              "Type · Beast",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 8",
-              "XP · 10",
-              "Str · 8",
-              "Dex · 10",
-              "Con · 12",
-              "Int · 1",
-              "Wis · 7",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength -1",
-              "Dexterity +0",
-              "Constitution +1",
-              "Intelligence -5",
-              "Wisdom -2",
-              "Charisma -4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A six-legged beetle with a dark bronze shell, curved antennae, and amber light near its head."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +0 (10). Proficiency Bonus +2. Senses Blindsight 30 ft., Passive Perception 8. Languages none. Resistances Fire."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 357. https://www.dndbeyond.com/monsters/5195019-giant-fire-beetle"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Illumination. The beetle casts Bright Light within 10 ft., followed by another 10 ft. of Dim Light."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Bite. Make a +1 melee attack within 5 ft. On a hit, deal 1 fire damage."]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20fire%20beetle_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/864/1000/1000/638741964115265335.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/giant-fire-beetle.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_fire_beetle"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-128550d49eb7102ec0b81133",
@@ -225690,91 +225629,24 @@
       {
         "id": "printing-e53c1870226b03643e49b675",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 10 ft., fly 60 ft.",
-              "Passive Perception · 11",
-              "XP · 50",
-              "Str · 12",
-              "Dex · 15",
-              "Con · 10",
-              "Int · 2",
-              "Wis · 9",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +1",
-              "Dexterity +2",
-              "Constitution +0",
-              "Intelligence -4",
-              "Wisdom -1",
-              "Charisma -3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "grassland", "mountain"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A slender flying reptile with stretched leathery wings, a long pointed beak and a swept-back reddish crest."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +1"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast (Dinosaur), unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Passive Perception 11. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast’s 2024-rules Monster Manual, p. 367, as published on D&D Beyond. https://www.dndbeyond.com/monsters/5195173-pteranodon"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. The pteranodon can fly out of an enemy’s reach without provoking an Opportunity Attack."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Make a +4 melee attack within 5 ft. A hit deals 6 (1d8 + 2) piercing damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#pteranodon_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/180/1000/1000/638741964552089955.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/monsters/pteranodon.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "pteranodon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "art": [

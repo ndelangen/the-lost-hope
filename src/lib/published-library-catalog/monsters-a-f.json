@@ -70526,72 +70526,24 @@
       {
         "id": "printing-13f3e5e4f0761fe7f1422e8b",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 5 ft., fly 30 ft.",
-              "Passive Perception · 11",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 15",
-              "Con · 8",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str -4", "Dex +2", "Con -1", "Int -4", "Wis +1", "Cha -3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "mountain", "underdark", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A small brown bat with prominent ears and outstretched membranous wings."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +2. Blindsight 60 ft. Passive Perception 11. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 349, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775803-bat"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 1 piercing damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#bat_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43938/918/1000/1000/638607409599142805.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/bat-166fc642f25c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-a1ef70f8ca4c27f83c30d565",

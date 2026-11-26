@@ -492,6 +492,7 @@ export const refs = {
     deathlock_mastermind: ref('monster', 'deathlock_mastermind'),
     deathlock_wight: ref('monster', 'deathlock_wight'),
     deep_gnome_svirfneblin: ref('monster', 'deep_gnome_svirfneblin'),
+    deep_rothe: ref('monster', 'deep_rothe'),
     deer: ref('monster', 'deer'),
     deinonychus: ref('monster', 'deinonychus'),
     demon_inciter: ref('monster', 'demon_inciter'),
