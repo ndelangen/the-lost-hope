@@ -1,7 +1,8 @@
 import { Brain, Check, Sparkles, X } from 'lucide-react'
 import { useState, type ReactNode } from 'react'
 
-import { RuleTerm } from '#/components/rule-term'
+import { RuleExplanation, RuleTerm } from '#/components/rule-term'
+import { HoverPreview } from '#/components/ui/hover-preview'
 import { CONDITION_ICONS } from '#/lib/condition-icons'
 import {
   describeDuration,
@@ -100,6 +101,7 @@ export function StatusLine({ children, ...props }: ListProps & { children?: Reac
         text: undefined,
         endLabel: `End ${rules[held.condition].name}`,
         onEnd: () => props.onRemoveCondition(held.id),
+        explain: [held.condition],
       }
     }
     const { effect } = entry
@@ -130,6 +132,7 @@ export function StatusLine({ children, ...props }: ListProps & { children?: Reac
       text: effect.text,
       endLabel: `End ${name}`,
       onEnd: props.onRemoveEffect ? () => props.onRemoveEffect!(effect.id) : undefined,
+      explain: entry.conditions.map((held) => held.condition),
     }
   })
   const shown = items.find((item) => item.id === open)
@@ -146,7 +149,8 @@ export function StatusLine({ children, ...props }: ListProps & { children?: Reac
         >
           <p className={cn('min-w-0 py-1 font-medium', focus ? 'text-base' : 'text-sm')}>
             <Brain aria-hidden className="mr-2 inline size-5 text-violet-600" />
-            Concentrating{concentration.on ? ` on ${concentration.on}` : ''}
+            <RuleTerm rule={ruleRef('concentration')}>Concentrating</RuleTerm>
+            {concentration.on ? ` on ${concentration.on}` : ''}
             <span className="text-muted-foreground font-normal">
               {concentration.targets?.length ? `, held on ${listNames(concentration.targets)}` : ''}
             </span>
@@ -164,21 +168,39 @@ export function StatusLine({ children, ...props }: ListProps & { children?: Reac
       {items.length || children ? (
         <div className="flex flex-wrap items-center gap-2">
           {items.map((item) => (
-            <button
+            <HoverPreview
               key={item.id}
-              type="button"
-              aria-expanded={item.id === open}
-              onClick={() => setOpen((current) => (current === item.id ? undefined : item.id))}
-              className={cn(
-                'focus-visible:ring-ring/50 inline-flex items-center gap-2 rounded-xl border px-3 font-medium outline-none focus-visible:ring-3',
-                focus ? 'h-12 text-base [&_svg]:size-5' : 'h-9 text-sm [&_svg]:size-4',
-                item.tone,
-                item.id === open && 'ring-ring/60 ring-4',
-              )}
+              interactive
+              content={
+                <span className="grid max-w-sm gap-2">
+                  <span>
+                    <strong>{item.label}</strong>
+                    {item.facts ? (
+                      <span className="text-muted-foreground block text-sm">{item.facts}</span>
+                    ) : null}
+                    {item.text ? <span className="block text-sm">{item.text}</span> : null}
+                  </span>
+                  {item.explain.map((condition) => (
+                    <RuleExplanation key={condition} rule={ruleRef(condition)} />
+                  ))}
+                </span>
+              }
             >
-              {item.icon}
-              {item.label}
-            </button>
+              <button
+                type="button"
+                aria-expanded={item.id === open}
+                onClick={() => setOpen((current) => (current === item.id ? undefined : item.id))}
+                className={cn(
+                  'focus-visible:ring-ring/50 inline-flex items-center gap-2 rounded-xl border px-3 font-medium outline-none focus-visible:ring-3',
+                  focus ? 'h-12 text-base [&_svg]:size-5' : 'h-9 text-sm [&_svg]:size-4',
+                  item.tone,
+                  item.id === open && 'ring-ring/60 ring-4',
+                )}
+              >
+                {item.icon}
+                {item.label}
+              </button>
+            </HoverPreview>
           ))}
           {children}
         </div>
@@ -191,6 +213,11 @@ export function StatusLine({ children, ...props }: ListProps & { children?: Reac
             <p className={cn('font-semibold', focus && 'text-lg')}>{shown.title}</p>
             <p className="text-muted-foreground text-sm">{shown.facts}</p>
             {shown.text ? <p className="text-sm">{shown.text}</p> : null}
+            {shown.explain.map((condition) => (
+              <div key={condition} className="border-border/60 mt-2 border-t pt-2">
+                <RuleExplanation rule={ruleRef(condition)} />
+              </div>
+            ))}
           </div>
           {shown.onEnd ? (
             <ActionButton aria-label={shown.endLabel} onClick={shown.onEnd} className="shrink-0">
