@@ -263987,8 +263987,9 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/brain",
       "usedIn": [
-        "src/components/dm/encounter/combat-status.tsx",
+        "src/components/dm/encounter/combatant-acts.tsx",
         "src/components/dm/encounter/condition-markers.tsx",
+        "src/components/dm/encounter/status-layout.tsx",
         "src/components/dm/encounter/turn-card.tsx",
         "src/routes/pcs/detail.$slug_.play.tsx"
       ]
@@ -267997,6 +267998,7 @@
       "usedIn": [
         "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/combat-status.tsx",
+        "src/components/dm/encounter/status-layout.tsx",
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/dm/group-save-tracker.tsx",
         "src/components/dm/scene-script.tsx",
@@ -270158,7 +270160,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/circle-dot",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/encounter/combatant-acts.tsx"
+      ]
     },
     {
       "id": "lucide/CircleDotDashed",
@@ -275998,6 +276002,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/crosshair",
       "usedIn": [
+        "src/components/dm/ability-quick-list.tsx",
         "src/components/dm/encounter/combatant-plan.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/player-screen/pointing-view.tsx"
@@ -282527,7 +282532,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/flask-conical",
       "usedIn": [
-        "src/components/dm/encounter/combat-status.tsx",
+        "src/components/dm/encounter/combatant-acts.tsx",
         "src/lib/condition-icons.tsx",
         "src/lib/location-icons.tsx"
       ]
@@ -287700,6 +287705,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/heart-plus",
       "usedIn": [
+        "src/components/dm/encounter/combatant-acts.tsx",
         "src/components/dm/encounter/hp-control.tsx",
         "src/components/play/hp-pad.tsx",
         "src/routes/pcs/detail.$slug_.play.tsx"
@@ -300839,7 +300845,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/panel-left-close",
       "usedIn": [
-        "src/components/campaign-shell.tsx"
+        "src/components/campaign-shell.tsx",
+        "src/components/dm/encounter/encounter-toolbar.tsx"
       ]
     },
     {
@@ -300929,7 +300936,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/panel-left-open",
       "usedIn": [
-        "src/components/campaign-shell.tsx"
+        "src/components/campaign-shell.tsx",
+        "src/components/dm/encounter/encounter-toolbar.tsx"
       ]
     },
     {
@@ -303328,7 +303336,6 @@
       "sourceUrl": "https://lucide.dev/icons/plus",
       "usedIn": [
         "src/components/dm/encounter/add-enemies-sheet.tsx",
-        "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/hp-control.tsx",
         "src/components/dm/encounter/preset-buttons.tsx",
         "src/components/dm/encounter/preset-picker.tsx",
@@ -307202,7 +307209,6 @@
         "src/components/home-action-card.test.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/entity-kind-visuals.ts",
-        "src/routes/dm/now.tsx",
         "src/routes/index.tsx"
       ]
     },
@@ -310536,6 +310542,7 @@
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/apply-effect.tsx",
         "src/components/dm/encounter/condition-markers.tsx",
+        "src/components/dm/encounter/status-layout.tsx",
         "src/components/dm/fight-sim-replay.tsx",
         "src/components/dm/npc-draft-editor.tsx",
         "src/components/dm/stat-block-sheet.tsx",
@@ -318456,7 +318463,9 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/sword",
       "usedIn": [
+        "src/components/dm/ability-quick-list.tsx",
         "src/components/dm/dm-quick-links.tsx",
+        "src/components/dm/encounter/combatant-acts.tsx",
         "src/components/dm/encounter/hp-control.tsx",
         "src/components/play/hp-pad.tsx",
         "src/routes/pcs/detail.$slug_.play.tsx"
@@ -318483,8 +318492,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/swords",
       "usedIn": [
-        "src/components/dm/dm-hidden-reference.tsx",
         "src/components/dm/dm-quick-links.tsx",
+        "src/components/dm/dm-reference.tsx",
         "src/components/dm/encounter/preset-buttons.tsx",
         "src/components/dm/encounter/preset-picker.tsx",
         "src/components/dm/encounter/stat-block-sections.tsx",
@@ -319203,6 +319212,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/target",
       "usedIn": [
+        "src/components/dm/encounter/apply-effect.tsx",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -321987,6 +321997,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/undo-2",
       "usedIn": [
+        "src/components/dm/encounter/encounter-toolbar.tsx",
         "src/components/dm/scene-script.tsx",
         "src/routes/pcs/detail.$slug_.play.tsx"
       ]
@@ -325993,12 +326004,12 @@
         "src/components/dm/encounter/dm-screen.tsx",
         "src/components/dm/encounter/encounter-notes.tsx",
         "src/components/dm/encounter/preset-buttons.tsx",
+        "src/components/dm/encounter/status-layout.tsx",
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/image-viewer.tsx",
         "src/components/play/hp-pad.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/player-screen/pointing-view.tsx",
-        "src/routes/dm/now.tsx",
         "src/routes/dm/scenes/$slug.tsx",
         "src/routes/dm/tools/deck-of-many-things.tsx",
         "src/routes/pcs/detail.$slug_.play.tsx"
