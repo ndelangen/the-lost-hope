@@ -541,9 +541,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The bird can imitate simple sounds it has heard, including snippets of humanoid voices. A listener who succeeds on a ',
-              { dc: 'wis', printed: 10 },
-              ' Wisdom (Insight) check can tell it is an imitation.',
+              'The bird can imitate simple sounds it has heard, including snippets of humanoid voices. A listener who succeeds on a DC 10 Wisdom (Insight) check can tell it is an imitation.',
             ],
           },
           {
@@ -593,9 +591,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The bird can imitate simple sounds it has heard, including snippets of humanoid voices. A listener who succeeds on a ',
-              { dc: 'wis', printed: 10 },
-              ' Wisdom (Insight) check can tell it is an imitation.',
+              'The bird can imitate simple sounds it has heard, including snippets of humanoid voices. A listener who succeeds on a DC 10 Wisdom (Insight) check can tell it is an imitation.',
             ],
           },
           {

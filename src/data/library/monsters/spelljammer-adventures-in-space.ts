@@ -128,8 +128,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'spellcasting',
-            name: 'Spellcasting',
+            key: 'spellcasting-psionics-3-day',
+            name: 'Spellcasting (Psionics, 3/day)',
             timing: 'action',
             icon: 'gi/GiWizardStaff',
             text: [
@@ -241,8 +241,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'spellcasting',
-            name: 'Spellcasting',
+            key: 'spellcasting-psionics',
+            name: 'Spellcasting (Psionics)',
             timing: 'action',
             icon: 'gi/GiWizardStaff',
             text: [
@@ -312,8 +312,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'spellcasting',
-            name: 'Spellcasting',
+            key: 'spellcasting-psionics',
+            name: 'Spellcasting (Psionics)',
             timing: 'action',
             icon: 'gi/GiWizardStaff',
             text: [

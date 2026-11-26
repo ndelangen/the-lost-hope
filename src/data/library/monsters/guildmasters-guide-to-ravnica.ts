@@ -144,6 +144,8 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Borborygmos can turn a failed saving throw into a success.'],
+            uses: 3,
+            recharge: 'Long rest',
           },
           {
             key: 'poor-depth-perception',

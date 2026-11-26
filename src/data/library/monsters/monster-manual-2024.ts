@@ -32,7 +32,7 @@ export default createPublicationMonsters({
             text: [
               'Cast one of these spells as an action. Wisdom is the spellcasting ability, with save ',
               { dc: 'wis' },
-              '. These spells need no material components. At will. Elementalism, Gust of Wind, Mage Hand, Message. 1/day. Lightning Bolt.',
+              '. These spells need no material components.; At will. Elementalism, Gust of Wind, Mage Hand, Message.; 1/day. Lightning Bolt.',
             ],
           },
           {
@@ -73,6 +73,8 @@ export default createPublicationMonsters({
             text: [
               'Cast Feather Fall when its trigger occurs, using Wisdom as the spellcasting ability.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -492,6 +494,8 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiTeleport',
             text: ['The dog teleports up to 40 ft. to a vacant space it can see.'],
+            uses: 1,
+            recharge: 'recharge 4–6',
           },
         ],
       },
@@ -877,7 +881,6 @@ export default createPublicationMonsters({
     },
     cloaker: {
       name: 'Cloaker',
-      reprintedIn: [refs.publications.srd_5_2_1],
       page: 73,
       alignment: 'chaotic neutral',
       languages: ['Deep Speech. Undercommon.'],
@@ -934,9 +937,7 @@ export default createPublicationMonsters({
             text: [
               'The cloaker latches onto a Large or smaller creature it hits. Until detached, that creature is ',
               rules.blinded,
-              ' and the cloaker cannot use Attach against another target. Whenever the cloaker takes damage while attached, halve the damage and round down. The cloaker and the attached creature each take that amount. The cloaker can spend 5 ft. of movement to detach. The attached creature or a creature within 5 ft. of it can take an action to detach the cloaker with a successful ',
-              { dc: 'str' },
-              ' Strength (Athletics) check.',
+              ' and the cloaker cannot use Attach against another target. Whenever the cloaker takes damage while attached, halve the damage and round down. The cloaker and the attached creature each take that amount. The cloaker can spend 5 ft. of movement to detach. The attached creature or a creature within 5 ft. of it can take an action to detach the cloaker with a successful DC 14 Strength (Athletics) check.',
             ],
           },
           {
@@ -966,10 +967,10 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'phantasms',
-            name: 'Phantasms',
+            key: 'phantasms-recharges-after-a-short-or-long-rest',
+            name: 'Phantasms (recharges after a Short or Long Rest)',
             timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: [
               'The cloaker casts Mirror Image using Wisdom and no spell components. The spell ends early if the cloaker starts or ends its turn in Bright Light.',
             ],
@@ -1086,7 +1087,7 @@ export default createPublicationMonsters({
             text: [
               'Cast one listed spell as an action using Wisdom (spell save ',
               { dc: 'wis' },
-              ') and omitting Material components. 2/day each. Arcane Eye, Detect Magic, Locate Object. 1/day. Legend Lore.',
+              ') and omitting Material components.; 2/day each. Arcane Eye, Detect Magic, Locate Object.; 1/day. Legend Lore.',
             ],
           },
           {
@@ -1139,6 +1140,8 @@ export default createPublicationMonsters({
             text: [
               "When the cyclops or an ally it can see makes a D20 Test, roll 1d20. The cyclops may substitute its roll for the test's d20.",
             ],
+            uses: 1,
+            recharge: 'recharge 4–6',
           },
         ],
       },
@@ -1206,6 +1209,8 @@ export default createPublicationMonsters({
             text: [
               "When a visible creature makes an attack roll against the cyclops, impose Disadvantage on the roll. The cyclops gains Advantage on attacks against that creature until the end of the cyclops's next turn.",
             ],
+            uses: 1,
+            recharge: 'recharge 6',
           },
         ],
       },
@@ -1346,6 +1351,8 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' by the cloud, it cannot take Reactions and must choose between an action and a Bonus Action on its turn.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -1473,7 +1480,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Charisma (save ',
               { dc: 'cha' },
-              ') without material components. At will. Dancing Lights, Mage Hand, Minor Illusion. 1/day each. Hallucinatory Terrain, Polymorph.',
+              ') without material components.; At will. Dancing Lights, Mage Hand, Minor Illusion.; 1/day each. Hallucinatory Terrain, Polymorph.',
             ],
           },
           {
@@ -1511,6 +1518,8 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '. It spends all its movement going in a random direction on each of its turns while affected. It repeats the save at the end of each of its turns. Success ends the effect, and the target succeeds automatically after 1 minute.',
             ],
+            uses: 1,
+            recharge: 'recharge 5–6',
           },
           {
             key: 'superior-invisibility',
@@ -1547,7 +1556,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Charisma (save ',
               { dc: 'cha' },
-              ') without material components. At will. Dancing Lights, Mage Hand, Minor Illusion.',
+              ') without material components.; At will. Dancing Lights, Mage Hand, Minor Illusion.',
             ],
           },
           {
@@ -1585,6 +1594,8 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' until the end of its next turn and spends all its movement that turn going in a random direction.',
             ],
+            uses: 1,
+            recharge: 'recharge 5–6',
           },
           {
             key: 'superior-invisibility',
@@ -2108,7 +2119,7 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiWizardStaff',
             text: [
-              'As an action, cast one listed spell with Wisdom and without components. At will. Detect Evil and Good, Detect Magic. 1/day. Clairvoyance.',
+              'As an action, cast one listed spell with Wisdom and without components.; At will. Detect Evil and Good, Detect Magic.; 1/day. Clairvoyance.',
             ],
           },
           {
@@ -2501,9 +2512,9 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiWizardStaff',
             text: [
-              'As an action, cast one of the following spells using Wisdom, with no components. At will. Mage Hand (the hand is ',
+              'As an action, cast one of the following spells using Wisdom, with no components.; At will. Mage Hand (the hand is ',
               rules.invisible,
-              '). 1/day. See Invisibility.',
+              ').; 1/day. See Invisibility.',
             ],
           },
           {
@@ -2535,6 +2546,8 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiFrogFoot',
             text: ['Cast Jump using Wisdom, with no components.'],
+            uses: 2,
+            recharge: 'Long rest',
           },
           {
             key: 'psionic-defense',
@@ -2544,6 +2557,8 @@ export default createPublicationMonsters({
             text: [
               'When the trigger for Feather Fall or Shield occurs, cast that spell using Wisdom, with no components. Both spells use the same two daily uses.',
             ],
+            uses: 2,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -2574,9 +2589,9 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Wisdom (spell save ',
               { dc: 'wis' },
-              '), with no components. At will. Mage Hand (the hand is ',
+              '), with no components.; At will. Mage Hand (the hand is ',
               rules.invisible,
-              '). 1/day each. Phantasmal Killer (level 6), Plane Shift, and See Invisibility.',
+              ').; 1/day each. Phantasmal Killer (level 6), Plane Shift, and See Invisibility.',
             ],
           },
           {
@@ -2608,6 +2623,8 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiFrogFoot',
             text: ['Cast Jump using Wisdom, with no components.'],
+            uses: 2,
+            recharge: 'Long rest',
           },
           {
             key: 'psionic-defense',
@@ -2617,6 +2634,8 @@ export default createPublicationMonsters({
             text: [
               'When the trigger for Feather Fall or Shield occurs, cast that spell using Wisdom, with no components. Both spells use the same two daily uses.',
             ],
+            uses: 2,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -2691,6 +2710,8 @@ export default createPublicationMonsters({
               { ability: 'bite' },
               ' attack.',
             ],
+            uses: 2,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -2762,6 +2783,8 @@ export default createPublicationMonsters({
               { ability: 'rampage' },
               ' bonus action. That creature can use its Reaction to make one melee attack.',
             ],
+            uses: 1,
+            recharge: 'recharge 5–6',
           },
           {
             key: 'rampage',
@@ -2773,6 +2796,8 @@ export default createPublicationMonsters({
               { ability: 'bone-whip' },
               ' attack.',
             ],
+            uses: 2,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -3649,6 +3674,8 @@ export default createPublicationMonsters({
             text: [
               'Cast Wall of Ice at level 8 without spell components. Intelligence is the spellcasting ability and the save DC is 17.',
             ],
+            uses: 1,
+            recharge: 'recharge 6',
           },
         ],
       },
@@ -3777,9 +3804,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The kenku can imitate sounds it has heard, including voices. A listener can recognize an imitation with a successful ',
-              { dc: 'wis', printed: 14 },
-              ' Wisdom (Insight) check.',
+              'The kenku can imitate sounds it has heard, including voices. A listener can recognize an imitation with a successful DC 14 Wisdom (Insight) check.',
             ],
           },
           {
@@ -3881,7 +3906,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Wisdom (save ',
               { dc: 'wis' },
-              ') without Material components. At will. Detect Magic, Thaumaturgy. 1/day each. Destructive Wave, Divination, Hold Monster (level 6 version), Scrying, Tongues.',
+              ') without Material components.; At will. Detect Magic, Thaumaturgy.; 1/day each. Destructive Wave, Divination, Hold Monster (level 6 version), Scrying, Tongues.',
             ],
           },
           {
@@ -3925,6 +3950,8 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiMagicSwirl',
             text: ['Cast Shield of Faith using Wisdom, as in ', { ability: 'spellcasting' }, '.'],
+            uses: 2,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -4057,6 +4084,8 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiMagicSwirl',
             text: ['Cast Shield of Faith using Wisdom.'],
+            uses: 2,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -4620,7 +4649,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells without Material components. Wisdom is the spellcasting ability (save ',
               { dc: 'wis' },
-              '). 1/day each. Cloudkill, Darkness, Dispel Magic.',
+              ').; 1/day each. Cloudkill, Darkness, Dispel Magic.',
             ],
           },
           {
@@ -4702,6 +4731,8 @@ export default createPublicationMonsters({
             text: [
               'Teleport up to 60 ft. to a visible unoccupied space. The mezzoloth can bring one creature it is grappling and place it in an unoccupied space within 5 ft. of the destination.',
             ],
+            uses: 1,
+            recharge: 'recharge 5–6',
           },
         ],
       },
@@ -5077,6 +5108,8 @@ export default createPublicationMonsters({
               rules.restrained,
               " until the end of the mephit's next turn.",
             ],
+            uses: 1,
+            recharge: 'recharge 6',
           },
         ],
       },
@@ -5134,6 +5167,8 @@ export default createPublicationMonsters({
               rules.stunned,
               '. It can end the effect by succeeding on a repeat save at the end of any of its turns. After 1 minute, the save succeeds automatically.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
           {
             key: 'rapport-spores',
@@ -5209,6 +5244,8 @@ export default createPublicationMonsters({
             text: [
               'Release spores on a Small or Medium corpse within 5 ft. It must have belonged to a creature other than a Construct or Undead. After 24 hours, it rises as a Myconid Spore Servant. The animation lasts 1d4 + 1 weeks or ends when the servant is destroyed. These spores can animate that corpse only once.',
             ],
+            uses: 3,
+            recharge: 'Long rest',
           },
           {
             key: 'pacifying-spores',
@@ -5719,7 +5756,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Charisma (save ',
               { dc: 'cha' },
-              ') without Material components. At will. Dancing Lights, Druidcraft, and Invisibility (self only). 1/day each. Detect Thoughts, Fly, and Sleep.',
+              ') without Material components.; At will. Dancing Lights, Druidcraft, and Invisibility (self only).; 1/day each. Detect Thoughts, Fly, and Sleep.',
             ],
           },
           {
@@ -5737,10 +5774,9 @@ export default createPublicationMonsters({
             intent: 'damage',
             attack: {
               kind: 'melee',
-              ability: 'dex',
+              ability: 'cha',
               reach: 5,
               thrown: [60, 60],
-              printedBonus: 4,
               damage: [{ dice: '1', type: rules.radiant }],
             },
             text: [
@@ -5826,9 +5862,9 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell with Wisdom (save ',
               { dc: 'wis' },
-              '), requiring no spell components. At will. Mage Hand (the hand is ',
+              '), requiring no spell components.; At will. Mage Hand (the hand is ',
               rules.invisible,
-              '), Minor Illusion. 2/day. Mind Spike.',
+              '), Minor Illusion.; 2/day. Mind Spike.',
             ],
           },
           {
@@ -5871,6 +5907,8 @@ export default createPublicationMonsters({
               { ability: 'spellcasting' },
               '. Both spells draw from the same three uses.',
             ],
+            uses: 3,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -5929,6 +5967,8 @@ export default createPublicationMonsters({
               rules.frightened,
               '. It repeats the save at the end of each of its turns, ending the effect on a success. The save succeeds automatically after 1 minute.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
           {
             key: 'shape-shift',
@@ -6045,6 +6085,8 @@ export default createPublicationMonsters({
             text: [
               'Curse a visible creature within 30 ft. The revenant knows its distance and direction, even across planes. This curse ends when the revenant uses Vow of Revenge on a different creature.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -6287,6 +6329,8 @@ export default createPublicationMonsters({
               rules.blinded,
               " until the end of the mephit's next turn.",
             ],
+            uses: 1,
+            recharge: 'recharge 6',
           },
         ],
       },
@@ -6370,7 +6414,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Intelligence (save ',
               { dc: 'int' },
-              '), without Somatic or Material components. At will. Detect Magic, Mage Hand, Minor Illusion, Water Breathing. 2/day each. Detect Thoughts, Dimension Door, Hold Person (level 3), Lightning Bolt (level 4).',
+              '), without Somatic or Material components.; At will. Detect Magic, Mage Hand, Minor Illusion, Water Breathing.; 2/day each. Detect Thoughts, Dimension Door, Hold Person (level 3), Lightning Bolt (level 4).',
             ],
           },
           {
@@ -6419,7 +6463,7 @@ export default createPublicationMonsters({
             intent: 'damage',
             attack: {
               kind: 'ranged',
-              ability: 'dex',
+              ability: 'int',
               range: [60, 60],
               damage: [{ dice: '6d6', type: rules.necrotic }],
             },
@@ -6646,6 +6690,8 @@ export default createPublicationMonsters({
               rules.exhaustion,
               '. The next time it regains hit points, it regrows the missing limbs.',
             ],
+            uses: 4,
+            recharge: 'Long rest',
           },
           {
             key: 'regeneration',
@@ -6862,6 +6908,8 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'wis' },
               ' Wisdom save. A creature that fails loses its reactions until the umber hulk starts its next turn and rolls 1d8 to determine what it does on its own next turn. 1–4. Do nothing. 5–6. Take neither an action nor a bonus action. Spend all movement going in a random direction. 7–8. Make a melee attack against a creature chosen at random from those within reach. Do nothing if no such attack is possible.',
             ],
+            uses: 1,
+            recharge: 'recharge 5–6',
           },
         ],
       },
@@ -7299,7 +7347,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Charisma, save ',
               { dc: 'cha' },
-              '. The spells need no material components. At will. Detect Thoughts, Gaseous Form (self only), and Web. 1/day. Dominate Person.',
+              '. The spells need no material components.; At will. Detect Thoughts, Gaseous Form (self only), and Web.; 1/day. Dominate Person.',
             ],
           },
           {

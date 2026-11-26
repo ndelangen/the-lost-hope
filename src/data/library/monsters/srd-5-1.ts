@@ -537,9 +537,7 @@ export default createPublicationMonsters({
             text: [
               'If the target is Large or smaller, the cloaker attaches to it. If the cloaker has advantage against the target, the cloaker attaches to the target’s head, and the target is ',
               rules.blinded,
-              ' and unable to breathe while the cloaker is attached. While attached, the cloaker can make this attack only against the target and has advantage on the attack roll. The cloaker can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach the cloaker by succeeding on a ',
-              { dc: 'str', printed: 16 },
-              ' Strength check.',
+              ' and unable to breathe while the cloaker is attached. While attached, the cloaker can make this attack only against the target and has advantage on the attack roll. The cloaker can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach the cloaker by succeeding on a DC 16 Strength check.',
             ],
           },
           {
@@ -599,7 +597,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiWizardStaff',
             text: [
-              'The giant’s innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components: At will: detect magic, fog cloud, light 3/day each: feather fall, fly, misty step, telekinesis 1/day each: control weather, gaseous form',
+              'The giant’s innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components: At will: detect magic, fog cloud, light; 3/day each: feather fall, fly, misty step, telekinesis; 1/day each: control weather, gaseous form',
             ],
           },
           {
@@ -804,9 +802,7 @@ export default createPublicationMonsters({
             text: [
               'The darkmantle attaches to the target. If the target is Medium or smaller and the darkmantle has advantage on the attack roll, it attaches by engulfing the target’s head, and the target is also ',
               rules.blinded,
-              ' and unable to breathe while the darkmantle is attached in this way. While attached to the target, the darkmantle can attack no other creature except the target but has advantage on its attack rolls. The darkmantle’s speed also becomes 0, it can’t benefit from any bonus to its speed, and it moves with the target. A creature can detach the darkmantle by making a successful ',
-              { dc: 'str' },
-              ' Strength check as an action. On its turn, the darkmantle can detach itself from the target by using 5 feet of movement.',
+              ' and unable to breathe while the darkmantle is attached in this way. While attached to the target, the darkmantle can attack no other creature except the target but has advantage on its attack rolls. The darkmantle’s speed also becomes 0, it can’t benefit from any bonus to its speed, and it moves with the target. A creature can detach the darkmantle by making a successful DC 13 Strength check as an action. On its turn, the darkmantle can detach itself from the target by using 5 feet of movement.',
             ],
           },
           {
@@ -984,7 +980,16 @@ export default createPublicationMonsters({
             text: [
               'The drider’s innate spellcasting ability is Wisdom (spell save ',
               { dc: 'wis' },
-              '). The drider can innately cast the following spells, requiring no material components: At will: dancing lights 1/day each: darkness, faerie fire Spider Climb. The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.',
+              '). The drider can innately cast the following spells, requiring no material components: At will: dancing lights; 1/day each: darkness, faerie fire',
+            ],
+          },
+          {
+            key: 'spider-climb',
+            name: 'Spider Climb',
+            timing: 'trait',
+            icon: 'lucide/MoveUp',
+            text: [
+              'The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.',
             ],
           },
           {
@@ -1125,7 +1130,7 @@ export default createPublicationMonsters({
             icon: 'gi/GiDragonBreath',
             text: [
               'The mephit exhales a 15- foot cone of blinding dust. Each creature in that area must succeed on a ',
-              { dc: 'con', save: 'dex' },
+              { dc: 'cha', save: 'dex' },
               ' Dexterity saving throw or be ',
               rules.blinded,
               ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
@@ -1227,7 +1232,16 @@ export default createPublicationMonsters({
             text: [
               'The drow’s spellcasting ability is Charisma (spell save ',
               { dc: 'cha' },
-              '). It can innately cast the following spells, requiring no material components: At will: dancing lights 1/day each: darkness, faerie fire Sunlight Sensitivity. While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.',
+              '). It can innately cast the following spells, requiring no material components: At will: dancing lights; 1/day each: darkness, faerie fire',
+            ],
+          },
+          {
+            key: 'sunlight-sensitivity',
+            name: 'Sunlight Sensitivity',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.',
             ],
           },
           {
@@ -1726,6 +1740,75 @@ export default createPublicationMonsters({
             },
             text: [
               'A giant lizard can be ridden or used as a draft animal. Lizardfolk also keep them as pets, and subterranean giant lizards are used as mounts and pack animals by drow, duergar, and others.',
+            ],
+          },
+        ],
+      },
+    },
+    giant_octopus: {
+      name: 'Giant Octopus',
+      alignment: 'unaligned',
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 11,
+        hitDice: '8d10',
+        speed: { walk: 10, swim: 60 },
+        scores: { str: 17, dex: 13, con: 13, int: 4, wis: 10, cha: 4 },
+        skills: { perception: 'expert', stealth: 'expert' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'hold-breath',
+            name: 'Hold Breath',
+            timing: 'trait',
+            icon: 'gi/GiDragonBreath',
+            text: ['While out of water, the octopus can hold its breath for 1 hour.'],
+          },
+          {
+            key: 'underwater-camouflage',
+            name: 'Underwater Camouflage',
+            timing: 'trait',
+            icon: 'gi/GiWaterSplash',
+            text: [
+              'The octopus has advantage on Dexterity (Stealth) checks made while underwater.',
+            ],
+          },
+          {
+            key: 'water-breathing',
+            name: 'Water Breathing',
+            timing: 'trait',
+            icon: 'gi/GiDragonBreath',
+            text: ['The octopus can breathe only underwater.'],
+          },
+          {
+            key: 'tentacles',
+            name: 'Tentacles',
+            timing: 'action',
+            icon: 'gi/GiTentacleStrike',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 15,
+              damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+            },
+            text: [
+              'If the target is a creature, it is ',
+              rules.grappled,
+              ' (escape DC 16). Until this grapple ends, the target is ',
+              rules.restrained,
+              ', and the octopus can’t use its tentacles on another target.',
+            ],
+          },
+          {
+            key: 'ink-cloud-recharges-after-a-short-or-long-rest',
+            name: 'Ink Cloud (Recharges after a Short or Long Rest)',
+            timing: 'action',
+            icon: 'gi/GiBull',
+            text: [
+              'A 20‐ foot‐radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.',
             ],
           },
         ],
@@ -2300,7 +2383,7 @@ export default createPublicationMonsters({
             text: [
               'The gnome’s innate spellcasting ability is Intelligence (spell save ',
               { dc: 'int' },
-              '). It can innately cast the following spells, requiring no material components: At will: nondetection (self only) 1/day each: blindness/deafness, blur, disguise self',
+              '). It can innately cast the following spells, requiring no material components: At will: nondetection (self only); 1/day each: blindness/deafness, blur, disguise self',
             ],
           },
           {
@@ -2522,9 +2605,16 @@ export default createPublicationMonsters({
             text: [
               'The hag’s innate spellcasting ability is Charisma (spell save ',
               { dc: 'cha' },
-              '). She can innately cast the following spells, requiring no material components: At will: dancing lights, minor illusion, vicious mockery Mimicry. The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful ',
-              { dc: 'str', save: 'wis' },
-              ' Wisdom (Insight) check.',
+              '). She can innately cast the following spells, requiring no material components: At will: dancing lights, minor illusion, vicious mockery',
+            ],
+          },
+          {
+            key: 'mimicry',
+            name: 'Mimicry',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.',
             ],
           },
           {
@@ -2546,9 +2636,7 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies. The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a ',
-              { dc: 'int', printed: 20 },
-              ' Intelligence (Investigation) check to discern that the hag is disguised.',
+              'The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies. The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised.',
             ],
           },
           {
@@ -2890,6 +2978,88 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '5d6', type: rules.piercing, addModifier: true }],
             },
+          },
+        ],
+      },
+    },
+    knight: {
+      name: 'Knight',
+      tags: ['any race'],
+      alignment: 'any alignment',
+      languages: ['any one language (usually Common)'],
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '3',
+        ac: 18,
+        hitDice: '8d8',
+        speed: { walk: 30 },
+        scores: { str: 16, dex: 11, con: 14, int: 11, wis: 11, cha: 15 },
+        saves: { con: 'proficient', wis: 'proficient' },
+        abilities: [
+          {
+            key: 'brave',
+            name: 'Brave',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The knight has advantage on saving throws against being ',
+              rules.frightened,
+              '.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['The knight makes two melee attacks.'],
+          },
+          {
+            key: 'greatsword',
+            name: 'Greatsword',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+          {
+            key: 'heavy-crossbow',
+            name: 'Heavy Crossbow',
+            timing: 'action',
+            icon: 'gi/GiCrossbow',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'dex',
+              range: [100, 400],
+              damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'leadership-recharges-after-a-short-or-long-rest',
+            name: 'Leadership (Recharges after a Short or Long Rest)',
+            timing: 'action',
+            icon: 'gi/GiBull',
+            text: [
+              'For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is ',
+              rules.incapacitated,
+              '.',
+            ],
+          },
+          {
+            key: 'parry',
+            name: 'Parry',
+            timing: 'reaction',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon. Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight’s alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners.',
+            ],
           },
         ],
       },
@@ -3401,8 +3571,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'adhesive',
-            name: 'Adhesive',
+            key: 'adhesive-object-form-only',
+            name: 'Adhesive (Object Form Only)',
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
@@ -3412,8 +3582,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'false-appearance',
-            name: 'False Appearance',
+            key: 'false-appearance-object-form-only',
+            name: 'False Appearance (Object Form Only)',
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
@@ -3444,9 +3614,7 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d8', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the mimic is in object form, the target is subjected to its ',
-              { ability: 'adhesive' },
-              ' trait.',
+              'If the mimic is in object form, the target is subjected to its Adhesive trait.',
             ],
           },
           {
@@ -3590,6 +3758,73 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'When a jelly that is Medium or larger is subjected to lightning or slashing damage, it splits into two new jellies if it has at least 10 hit points. Each new jelly has hit points equal to half the original jelly’s, rounded down. New jellies are one size smaller than the original jelly.',
+            ],
+          },
+        ],
+      },
+    },
+    octopus: {
+      name: 'Octopus',
+      alignment: 'unaligned',
+      stats: {
+        size: 'small',
+        type: 'beast',
+        cr: '0',
+        ac: 12,
+        hitDice: '1d6',
+        speed: { walk: 5, swim: 30 },
+        scores: { str: 4, dex: 15, con: 11, int: 3, wis: 10, cha: 4 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        senses: { darkvision: 30 },
+        abilities: [
+          {
+            key: 'hold-breath',
+            name: 'Hold Breath',
+            timing: 'trait',
+            icon: 'gi/GiDragonBreath',
+            text: ['While out of water, the octopus can hold its breath for 30 minutes.'],
+          },
+          {
+            key: 'underwater-camouflage',
+            name: 'Underwater Camouflage',
+            timing: 'trait',
+            icon: 'gi/GiWaterSplash',
+            text: [
+              'The octopus has advantage on Dexterity (Stealth) checks made while underwater.',
+            ],
+          },
+          {
+            key: 'water-breathing',
+            name: 'Water Breathing',
+            timing: 'trait',
+            icon: 'gi/GiDragonBreath',
+            text: ['The octopus can breathe only underwater.'],
+          },
+          {
+            key: 'tentacles',
+            name: 'Tentacles',
+            timing: 'action',
+            icon: 'gi/GiTentacleStrike',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1', type: rules.bludgeoning }],
+            },
+            text: [
+              'The target is ',
+              rules.grappled,
+              ' (escape DC 10). Until this grapple ends, the octopus can’t use its tentacles on another target.',
+            ],
+          },
+          {
+            key: 'ink-cloud-recharges-after-a-short-or-long-rest',
+            name: 'Ink Cloud (Recharges after a Short or Long Rest)',
+            timing: 'action',
+            icon: 'gi/GiBull',
+            text: [
+              'A 5- foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.',
             ],
           },
         ],
@@ -4378,9 +4613,7 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies. The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a ',
-              { dc: 'int', printed: 16 },
-              ' Intelligence (Investigation) check to discern that the hag is disguised.',
+              'The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies. The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised.',
             ],
           },
         ],

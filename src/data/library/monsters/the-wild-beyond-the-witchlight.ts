@@ -66,10 +66,10 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'croak-of-charming',
-            name: 'Croak of Charming',
+            key: 'croak-of-charming-recharges-after-a-short-or-long-rest',
+            name: 'Croak of Charming (recharges after a short or long rest)',
             timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: [
               'Target one creature the knight can see within 30 ft. The knight croaks loudly. The target must pass a ',
               { dc: 'cha', save: 'wis' },

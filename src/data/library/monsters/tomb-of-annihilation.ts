@@ -246,9 +246,7 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'con' },
               ' Constitution save to stay upright. When ',
               rules.prone,
-              ', it is upside down. To right itself, it must succeed on a ',
-              { dc: 'dex' },
-              ' Dexterity check on its turn and then spend all its movement for that turn.',
+              ', it is upside down. To right itself, it must succeed on a DC 10 Dexterity check on its turn and then spend all its movement for that turn.',
             ],
           },
           {
@@ -436,6 +434,8 @@ export default createPublicationMonsters({
             text: [
               'During a short rest, the minstrel spends 1 minute performing. Choose up to five other creatures that can see and hear it. At the end of the minstrel’s rest, each gains 8 temporary HP.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
           {
             key: 'multiattack',

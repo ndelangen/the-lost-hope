@@ -126,9 +126,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              "The alkilith has advantage on initiative if motionless at the start of combat. A creature that hasn't seen it move or act needs a successful ",
-              { dc: 'con', save: 'int' },
-              ' Intelligence (Investigation) check to recognize it as something other than slime or fungus.',
+              "The alkilith has advantage on initiative if motionless at the start of combat. A creature that hasn't seen it move or act needs a successful DC 18 Intelligence (Investigation) check to recognize it as something other than slime or fungus.",
             ],
           },
           {
@@ -253,6 +251,8 @@ export default createPublicationMonsters({
             text: [
               "Immediately after making an attack roll or damage roll with a ranged weapon, the archer can roll 1d10 and add it to that roll's total.",
             ],
+            uses: 3,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -287,7 +287,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Wisdom (spell save ',
               { dc: 'wis' },
-              '). No material components are required. At will. Darkness, Dispel Magic, Fear, Heat Metal, Levitate.',
+              '). No material components are required.; At will. Darkness, Dispel Magic, Fear, Heat Metal, Levitate.',
             ],
           },
           {
@@ -433,7 +433,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Intelligence (spell save ',
               { dc: 'int' },
-              '). At will. Disguise Self, Mage Hand, Minor Illusion. 2/day each. Charm Person, Dispel Magic, Greater Invisibility, Wall of Force.',
+              ').; At will. Disguise Self, Mage Hand, Minor Illusion.; 2/day each. Charm Person, Dispel Magic, Greater Invisibility, Wall of Force.',
             ],
           },
           {
@@ -633,9 +633,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength save on entering the puddle or starting its turn there. On a failure, it is ',
               rules.restrained,
-              '. On its turn, the creature can spend an action to attempt a ',
-              { dc: 'con', save: 'str' },
-              ' Strength check. If it succeeds, the restraint ends and it moves to the nearest unoccupied space it chooses.',
+              '. On its turn, the creature can spend an action to attempt a DC 11 Strength check. If it succeeds, the restraint ends and it moves to the nearest unoccupied space it chooses.',
             ],
           },
           {
@@ -760,10 +758,10 @@ export default createPublicationMonsters({
             recharge: 'Recharge 5–6',
           },
           {
-            key: 'summon-specters',
-            name: 'Summon Specters',
+            key: 'summon-specters-recharges-after-a-short-or-long-rest',
+            name: 'Summon Specters (Recharges after a Short or Long Rest)',
             timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: [
               'Summon 1d4 specters without Sunlight Sensitivity in unoccupied spaces within 15 ft. of the collector. They share its initiative and act immediately after it. They fight until destroyed and vanish if the collector is destroyed.',
             ],
@@ -910,6 +908,8 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The champion can reroll a failed saving throw.'],
+            uses: 2,
+            recharge: 'Long rest',
           },
           {
             key: 'multiattack',
@@ -959,10 +959,10 @@ export default createPublicationMonsters({
             text: ['If the champion has more than half its hit points.'],
           },
           {
-            key: 'second-wind',
-            name: 'Second Wind',
+            key: 'second-wind-recharges-after-a-short-or-long-rest',
+            name: 'Second Wind (Recharges after a Short or Long Rest)',
             timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: ['The champion regains 20 hit points.'],
           },
         ],
@@ -1064,10 +1064,10 @@ export default createPublicationMonsters({
         senses: { darkvision: 60 },
         abilities: [
           {
-            key: 'aberrant-quickness',
-            name: 'Aberrant Quickness',
+            key: 'aberrant-quickness-recharges-after-a-short-or-long-rest',
+            name: 'Aberrant Quickness (Recharges after a Short or Long Rest)',
             timing: 'trait',
-            icon: 'gi/GiPaw',
+            icon: 'gi/GiBull',
             text: ['The choker can take an additional action on its turn.'],
           },
           {
@@ -1262,7 +1262,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Charisma (spell save ',
               { dc: 'cha' },
-              '). At will. Detect Magic, Disguise Self, Mage Armor, Mage Hand. 1/day each. Dispel Magic, Hunger of Hadar, Invisibility, Spider Climb.',
+              ').; At will. Detect Magic, Disguise Self, Mage Armor, Mage Hand.; 1/day each. Dispel Magic, Hunger of Hadar, Invisibility, Spider Climb.',
             ],
           },
           {
@@ -1353,7 +1353,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Charisma (spell save ',
               { dc: 'cha' },
-              '). At will. Detect Magic, Disguise Self, Mage Armor, Minor Illusion. 1/day each. Darkness, Dimension Door, Dispel Magic, Fly, Invisibility.',
+              ').; At will. Detect Magic, Disguise Self, Mage Armor, Minor Illusion.; 1/day each. Darkness, Dimension Door, Dispel Magic, Fly, Invisibility.',
             ],
           },
           {
@@ -1459,7 +1459,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Charisma (spell save ',
               { dc: 'cha' },
-              '). At will. Detect Magic, Disguise Self, Mage Armor. 1/day each. Fear, Hold Person.',
+              ').; At will. Detect Magic, Disguise Self, Mage Armor.; 1/day each. Fear, Hold Person.',
             ],
           },
           {
@@ -1622,7 +1622,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell without material components using Charisma (spell save ',
               { dc: 'cha' },
-              '). At will. Dancing Lights, Darkness. 1/day each. Confusion, Faerie Fire.',
+              ').; At will. Dancing Lights, Darkness.; 1/day each. Confusion, Faerie Fire.',
             ],
           },
           {
@@ -1847,8 +1847,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'shared-invisibility',
-            name: 'Shared Invisibility',
+            key: 'shared-invisibility-recharges-after-a-short-or-long-rest',
+            name: 'Shared Invisibility (recharges after a short or long rest)',
             timing: 'action',
             icon: 'gi/GiInvisible',
             text: [
@@ -2066,9 +2066,9 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell with no components, using Intelligence (spell save ',
               { dc: 'int' },
-              '). At will. Mage Hand (',
+              ').; At will. Mage Hand (',
               rules.invisible,
-              ' hand). 3/day each. Blur, Nondetection (self only). 1/day each. Plane Shift, Telekinesis.',
+              ' hand).; 3/day each. Blur, Nondetection (self only).; 1/day each. Plane Shift, Telekinesis.',
             ],
           },
           {
@@ -2102,6 +2102,8 @@ export default createPublicationMonsters({
             text: [
               'Teleport up to 30 ft. to a visible, unoccupied space, taking along anything the githyanki is wearing or carrying.',
             ],
+            uses: 1,
+            recharge: 'recharge 4–6',
           },
           {
             key: 'rally-the-troops',
@@ -2154,9 +2156,9 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell with no components, using Wisdom (spell save ',
               { dc: 'wis' },
-              '). At will. Mage Hand (',
+              ').; At will. Mage Hand (',
               rules.invisible,
-              ' hand). 3/day. See Invisibility. 1/day each. Plane Shift, Teleport.',
+              ' hand).; 3/day. See Invisibility.; 1/day each. Plane Shift, Teleport.',
             ],
           },
           {
@@ -2211,6 +2213,8 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Wisdom save. On a failure, it moves one round forward in time. It vanishes for that round and then reappears in the space it left. If that space is occupied, it reappears in the nearest unoccupied space.',
             ],
+            uses: 1,
+            recharge: 'recharge 6',
           },
           {
             key: 'slow-fall',
@@ -2836,7 +2840,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell using Intelligence (spell save ',
               { dc: 'int' },
-              '). At will. Minor Illusion, Prestidigitation. 1/day each. Charm Person, Disguise Self, Silent Image.',
+              ').; At will. Minor Illusion, Prestidigitation.; 1/day each. Charm Person, Disguise Self, Silent Image.',
             ],
           },
           {
@@ -2926,7 +2930,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell using Wisdom (spell save ',
               { dc: 'wis' },
-              "), without material components. At will. Command, Create or Destroy Water. 3/day each. Control Water, Darkness, Water Breathing, Water Walk. 1/day. Evard's Black Tentacles.",
+              "), without material components.; At will. Command, Create or Destroy Water.; 3/day each. Control Water, Darkness, Water Breathing, Water Walk.; 1/day. Evard's Black Tentacles.",
             ],
           },
           {
@@ -2980,10 +2984,10 @@ export default createPublicationMonsters({
             text: ['Knocks the target ', rules.prone, '.'],
           },
           {
-            key: 'voice-of-the-kraken',
-            name: 'Voice of the Kraken',
+            key: 'voice-of-the-kraken-recharges-after-a-short-or-long-rest',
+            name: 'Voice of the Kraken (recharges after a short or long rest)',
             timing: 'action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: [
               'The kraken speaks through the priest in Abyssal, Infernal, or Primordial, and its voice carries 300 ft. Each creature the priest chooses that can hear the words must succeed on a ',
               { dc: 'con', save: 'wis' },
@@ -3021,9 +3025,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The leucrotta can imitate Beast sounds and Humanoid voices. A listener can identify the imitation with a successful ',
-              { dc: 'str', save: 'wis' },
-              ' Wisdom (Insight) check.',
+              'The leucrotta can imitate Beast sounds and Humanoid voices. A listener can identify the imitation with a successful DC 14 Wisdom (Insight) check.',
             ],
           },
           {
@@ -3208,7 +3210,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell using Intelligence (spell save ',
               { dc: 'int' },
-              '). At will. Detect Magic, Mage Hand, Message, Minor Illusion. 2/day each. Fireball, Fly, Hold Person, Suggestion, Wall of Fire. 1/day each. Dominate Person, Etherealness, Feeblemind.',
+              ').; At will. Detect Magic, Mage Hand, Message, Minor Illusion.; 2/day each. Fireball, Fly, Hold Person, Suggestion, Wall of Fire.; 1/day each. Dominate Person, Etherealness, Feeblemind.',
             ],
           },
           {
@@ -3387,6 +3389,8 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: ['The narzugon or one creature it touches regains 100 hit points.'],
+            uses: 1,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -3481,10 +3485,10 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'enslave',
-            name: 'Enslave',
+            key: 'enslave-recharges-after-a-short-or-long-rest',
+            name: 'Enslave (recharges after a short or long rest)',
             timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: [
               'Choose one visible creature within 30 ft. It makes a ',
               { dc: 'wis', printed: 14 },
@@ -3528,7 +3532,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell using Charisma (spell save ',
               { dc: 'cha' },
-              '). At will. Guidance, Mage Hand, Minor Illusion, Prestidigitation. 1/day each. Dimension Door, Hold Person, Hunger of Hadar.',
+              ').; At will. Guidance, Mage Hand, Minor Illusion, Prestidigitation.; 1/day each. Dimension Door, Hold Person, Hunger of Hadar.',
             ],
           },
           {
@@ -3626,10 +3630,10 @@ export default createPublicationMonsters({
             text: ["The target cannot take reactions until the end of the neogi's next turn."],
           },
           {
-            key: 'enslave',
-            name: 'Enslave',
+            key: 'enslave-recharges-after-a-short-or-long-rest',
+            name: 'Enslave (recharges after a short or long rest)',
             timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: [
               'Choose a creature the neogi can see within 30 ft. It makes a ',
               { dc: 'cha', save: 'wis' },
@@ -4134,7 +4138,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast a listed spell using Charisma (spell save ',
               { dc: 'cha' },
-              '), without material components. At will. Arcane Eye, Mage Armor, Minor Illusion, Prestidigitation, Speak with Dead. 1/day each. Arcane Gate, Bane, Confusion, Darkness, Fear, Major Image, True Seeing.',
+              '), without material components.; At will. Arcane Eye, Mage Armor, Minor Illusion, Prestidigitation, Speak with Dead.; 1/day each. Arcane Gate, Bane, Confusion, Darkness, Fear, Major Image, True Seeing.',
             ],
           },
           {
@@ -4589,7 +4593,7 @@ export default createPublicationMonsters({
             text: [
               'Use an action to cast one listed spell. Wisdom is the spellcasting ability (spell save ',
               { dc: 'wis' },
-              '). At will. Druidcraft, Guidance. 2/day each. Cure Wounds, Hold Person, Speak with Animals, Thunderwave.',
+              ').; At will. Druidcraft, Guidance.; 2/day each. Cure Wounds, Hold Person, Speak with Animals, Thunderwave.',
             ],
           },
           {

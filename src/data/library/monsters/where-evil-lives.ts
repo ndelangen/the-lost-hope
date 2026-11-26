@@ -162,6 +162,8 @@ export default createPublicationMonsters({
             text: [
               'Willing allies within 30 ft. that can hear the underboss gain advantage on attacks until the start of its next turn. Attacks targeting those allies also have advantage until then.',
             ],
+            uses: 1,
+            recharge: 'recharge 6',
           },
           {
             key: 'cowardly-commander',

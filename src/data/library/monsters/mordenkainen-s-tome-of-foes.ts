@@ -241,7 +241,7 @@ export default createPublicationMonsters({
             text: [
               'Use Intelligence (spell save ',
               { dc: 'dex' },
-              '). These spells require no material components. At will. Speak with Dead. 1/day. Plane Shift (self only).',
+              '). These spells require no material components.; At will. Speak with Dead.; 1/day. Plane Shift (self only).',
             ],
           },
           {
@@ -284,10 +284,10 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'spectral-duplicate',
-            name: 'Spectral Duplicate',
+            key: 'spectral-duplicate-recharges-after-a-short-or-long-rest',
+            name: 'Spectral Duplicate (recharges after a short or long rest)',
             timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: [
               'Create one spectral duplicate in a visible, unoccupied space within 60 ft. The berbalang is ',
               rules.unconscious,
@@ -434,10 +434,10 @@ export default createPublicationMonsters({
         senses: { darkvision: 60 },
         abilities: [
           {
-            key: 'aberrant-quickness',
-            name: 'Aberrant Quickness',
+            key: 'aberrant-quickness-recharges-after-a-short-or-long-rest',
+            name: 'Aberrant Quickness (Recharges after a Short or Long Rest)',
             timing: 'trait',
-            icon: 'gi/GiPaw',
+            icon: 'gi/GiBull',
             text: ['The choker can take an extra action on its turn.'],
           },
           {
@@ -577,8 +577,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'shared-invisibility',
-            name: 'Shared Invisibility',
+            key: 'shared-invisibility-recharges-after-a-short-or-long-rest',
+            name: 'Shared Invisibility (Recharges after a Short or Long Rest)',
             timing: 'action',
             icon: 'gi/GiInvisible',
             text: [
@@ -706,7 +706,7 @@ export default createPublicationMonsters({
             text: [
               'The hydroloth casts with Intelligence (spell save ',
               { dc: 'int' },
-              ') without material components. At will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only), Water Walk. 3/day each. Control Water, Crown of Madness, Fear, Phantasmal Killer, Suggestion.',
+              ') without material components.; At will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only), Water Walk.; 3/day each. Control Water, Crown of Madness, Fear, Phantasmal Killer, Suggestion.',
             ],
           },
           {
@@ -791,6 +791,8 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ' Intelligence save. A success grants immunity to this hydroloth’s Steal Memory for 24 hours. On a failure, the target loses all proficiencies and the ability to cast spells or understand language. If both its Intelligence and Charisma scores are above 5, both become 5. The target can repeat the save at the end of each long rest, ending the effect on a success. Greater Restoration or Remove Curse also ends it.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
           {
             key: 'teleport',

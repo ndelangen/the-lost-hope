@@ -49,8 +49,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'scimitar',
-            name: 'Scimitar',
+            key: 'scimitar-printed-action',
+            name: 'Scimitar (printed action)',
             timing: 'action',
             icon: 'gi/GiBroadsword',
             intent: 'damage',

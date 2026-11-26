@@ -122,9 +122,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: [
-              'While motionless with eyestalks and pincers tucked in, the crab resembles a natural formation or piled debris. A creature within 30 ft. can identify it with a ',
-              { dc: 'str', save: 'int' },
-              ' Intelligence (Nature) check.',
+              'While motionless with eyestalks and pincers tucked in, the crab resembles a natural formation or piled debris. A creature within 30 ft. can identify it with a DC 15 Intelligence (Nature) check.',
             ],
           },
           {
@@ -248,9 +246,7 @@ export default createPublicationMonsters({
             text: [
               'At the start of each of its turns. The ',
               rules.restrained,
-              ' creature can use its action to burst the web with a ',
-              { dc: 'str' },
-              ' Strength check. The web has AC 10 and 5 HP, is vulnerable to fire, and is immune to poison and psychic damage. Bludgeoning damage works normally against it.',
+              ' creature can use its action to burst the web with a DC 12 Strength check. The web has AC 10 and 5 HP, is vulnerable to fire, and is immune to poison and psychic damage. Bludgeoning damage works normally against it.',
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

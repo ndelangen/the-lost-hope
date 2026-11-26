@@ -63,6 +63,8 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiMagicSwirl',
             text: ['Add 1d10 to the next attack or damage roll with a longbow or shortbow.'],
+            uses: 3,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -531,7 +533,7 @@ export default createPublicationMonsters({
             text: [
               'Use Charisma (spell save ',
               { dc: 'wis' },
-              ') and omit material components. At will. Darkness. 1/day each. Confusion, Dancing Lights, Faerie Fire.',
+              ') and omit material components.; At will. Darkness.; 1/day each. Confusion, Dancing Lights, Faerie Fire.',
             ],
           },
           {
@@ -1037,9 +1039,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The leucrotta imitates animal sounds and humanoid voices. A listener can recognize the imitation with a successful ',
-              { dc: 'str', save: 'wis' },
-              ' Wisdom (Insight) check.',
+              'The leucrotta imitates animal sounds and humanoid voices. A listener can recognize the imitation with a successful DC 14 Wisdom (Insight) check.',
             ],
           },
           {
@@ -1337,10 +1337,10 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'veil-of-shargaas',
-            name: 'Veil of Shargaas',
+            key: 'veil-of-shargaas-recharges-on-a-short-or-long-rest',
+            name: 'Veil of Shargaas (recharges on a short or long rest)',
             timing: 'action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: ['The orc uses Wisdom to cast Darkness without components.'],
           },
           {
@@ -1900,6 +1900,8 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The warlord can reroll a failed saving throw and must use the new result.'],
+            uses: 3,
+            recharge: 'Long rest',
           },
           {
             key: 'survivor',

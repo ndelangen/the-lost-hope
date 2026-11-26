@@ -245,7 +245,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiWizardStaff',
             text: [
-              'Charisma, no material components. At will · Detect Magic, Fog Cloud, Light. 3/day each · Feather Fall, Misty Step.',
+              'Charisma, no material components.; At will · Detect Magic, Fog Cloud, Light.; 3/day each · Feather Fall, Misty Step.',
             ],
           },
           {
@@ -349,6 +349,8 @@ export default createPublicationMonsters({
             text: [
               'Up to eight visible creatures within 100 ft. regain all spent Hit Dice and gain 10 temporary HP the next time they finish a long rest.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
           {
             key: 'curse-of-poor-hospitality',
@@ -358,6 +360,8 @@ export default createPublicationMonsters({
             text: [
               'Up to eight visible creatures within 100 ft. regain no spent Hit Dice the next time they finish a long rest.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
         ],
       },

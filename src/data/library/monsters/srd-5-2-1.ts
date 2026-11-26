@@ -44,6 +44,8 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['If the dragon fails a saving throw, it can choose to succeed instead.'],
+            uses: 3,
+            recharge: 'Long rest (4/Day in its lair)',
           },
           {
             key: 'multiattack',
@@ -100,7 +102,7 @@ export default createPublicationMonsters({
             text: [
               'The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '): At Will: Detect Magic, Mind Spike (level 3 version) 1/Day: Geas',
+              '): At Will: Detect Magic, Mind Spike (level 3 version); 1/Day: Geas',
             ],
           },
         ],
@@ -125,15 +127,16 @@ export default createPublicationMonsters({
               intent: 'damage',
               save: {
                 ability: 'con',
-                dc: 'int',
+                dc: 'cha',
                 target: { area: { shape: rules.sphere, size: 20 }, range: 90 },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.poison }],
-                  also: [
-                    'And the target takes a −2 penalty to AC until the end of its next turn. Failure or Success: The dragon can’t take this action again until the start of its next turn.',
-                  ],
+                  also: ['The target takes a −2 penalty to AC until the end of its next turn.'],
                 },
               },
+              text: [
+                'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
             },
             {
               key: 'pounce',
@@ -182,6 +185,8 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['If the dragon fails a saving throw, it can choose to succeed instead.'],
+            uses: 3,
+            recharge: 'Long rest (4/Day in its lair)',
           },
           {
             key: 'multiattack',
@@ -236,15 +241,16 @@ export default createPublicationMonsters({
               intent: 'damage',
               save: {
                 ability: 'con',
-                dc: 'wis',
+                dc: 'cha',
                 target: { area: { shape: rules.sphere, size: 30 }, range: 120 },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.cold }],
-                  also: [
-                    'And the target’s Speed is 0 until the end of the target’s next turn. Failure or Success: The dragon can’t take this action again until the start of its next turn.',
-                  ],
+                  also: ['The target’s Speed is 0 until the end of the target’s next turn.'],
                 },
               },
+              text: [
+                'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
             },
             {
               key: 'frightful-presence',
@@ -307,6 +313,8 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['If the dragon fails a saving throw, it can choose to succeed instead.'],
+            uses: 4,
+            recharge: 'Long rest (5/Day in its lair)',
           },
           {
             key: 'multiattack',
@@ -363,7 +371,7 @@ export default createPublicationMonsters({
             text: [
               'The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '): At Will: Detect Magic, Mind Spike (level 5 version) 1/Day Each: Geas, Modify Memory',
+              '): At Will: Detect Magic, Mind Spike (level 5 version); 1/Day Each: Geas, Modify Memory',
             ],
           },
         ],
@@ -392,11 +400,12 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 30 }, range: 90 },
                 onFail: {
                   damage: [{ dice: '5d6', type: rules.poison }],
-                  also: [
-                    'And the target takes a −2 penalty to AC until the end of its next turn. Failure or Success: The dragon can’t take this action again until the start of its next turn.',
-                  ],
+                  also: ['The target takes a −2 penalty to AC until the end of its next turn.'],
                 },
               },
+              text: [
+                'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
             },
             {
               key: 'pounce',
@@ -445,6 +454,8 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['If the dragon fails a saving throw, it can choose to succeed instead.'],
+            uses: 4,
+            recharge: 'Long rest (5/Day in its lair)',
           },
           {
             key: 'multiattack',
@@ -503,12 +514,13 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 30 }, range: 120 },
                 onFail: {
                   damage: [{ dice: '4d6', type: rules.cold }],
-                  also: [
-                    'And the target’s Speed is 0 until the end of the target’s next turn. Failure or Success: The dragon can’t take this action again until the start of its next turn.',
-                  ],
+                  also: ['The target’s Speed is 0 until the end of the target’s next turn.'],
                 },
                 printedDc: 20,
               },
+              text: [
+                'Failure or Success: The dragon can’t take this action again until the start of its next turn',
+              ],
             },
             {
               key: 'frightful-presence',
@@ -1171,6 +1183,100 @@ export default createPublicationMonsters({
         ],
       },
     },
+    cloaker: {
+      name: 'Cloaker',
+      alignment: 'chaotic neutral',
+      languages: ['Deep Speech', 'Undercommon'],
+      stats: {
+        size: 'large',
+        type: 'aberration',
+        cr: '8',
+        ac: 14,
+        hitDice: '14d10',
+        speed: { walk: 10, fly: 40 },
+        scores: { str: 17, dex: 15, con: 12, int: 13, wis: 14, cha: 7 },
+        skills: { stealth: 'proficient' },
+        senses: { darkvision: 120 },
+        conditionImmunities: [rules.frightened],
+        abilities: [
+          {
+            key: 'light-sensitivity',
+            name: 'Light Sensitivity',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ['While in Bright Light, the cloaker has Disadvantage on attack rolls.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'The cloaker makes one ',
+              { ability: 'attach' },
+              ' attack and two ',
+              { ability: 'tail' },
+              ' attacks.',
+            ],
+          },
+          {
+            key: 'attach',
+            name: 'Attach',
+            timing: 'action',
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '3d6', type: rules.piercing, addModifier: true }],
+            },
+            text: [
+              'If the target is a Large or smaller creature, the cloaker attaches to it. While the cloaker is attached, the target has the ',
+              rules.blinded,
+              ' condition, and the cloaker can’t make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage. The cloaker can detach itself by spending 5 feet of movement. The target or a creature within 5 feet of it can take an action to try to detach the cloaker, doing so by succeeding on a DC 14 Strength (Athletics) check.',
+            ],
+          },
+          {
+            key: 'tail',
+            name: 'Tail',
+            timing: 'action',
+            icon: 'gi/GiWhiplash',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 10,
+              damage: [{ dice: '1d10', type: rules.slashing, addModifier: true }],
+            },
+          },
+          {
+            key: 'moan',
+            name: 'Moan',
+            timing: 'bonus action',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'Wisdom Saving Throw: ',
+              { dc: 'wis' },
+              ', each creature in a 60-foot Emanation originating from the cloaker. Failure: The target has the ',
+              rules.frightened,
+              ' condition until the end of the cloaker’s next turn. Success: The target is immune to this cloaker’s Moan for the next 24 hours.',
+            ],
+          },
+          {
+            key: 'phantasms',
+            name: 'Phantasms',
+            timing: 'bonus action',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'The cloaker casts the Mirror Image spell, requiring no spell components and using Wisdom as the spellcasting ability. The spell ends early if the cloaker starts or ends its turn in Bright Light.',
+            ],
+            uses: 1,
+            recharge: 'Recharge after a Short or Long Rest',
+          },
+        ],
+      },
+    },
     cloud_giant: {
       name: 'Cloud Giant',
       alignment: 'neutral',
@@ -1243,7 +1349,7 @@ export default createPublicationMonsters({
             text: [
               'The giant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '): At Will: Detect Magic, Fog Cloud, Light 1/Day Each: Control Weather, Gaseous Form, Telekinesis',
+              '): At Will: Detect Magic, Fog Cloud, Light; 1/Day Each: Control Weather, Gaseous Form, Telekinesis',
             ],
           },
           {
@@ -1448,9 +1554,7 @@ export default createPublicationMonsters({
             text: [
               'The darkmantle attaches to the target. If the target is a Medium or smaller creature and the darkmantle had Advantage on the attack roll, it covers the target, which has the ',
               rules.blinded,
-              ' condition and is suffocating while the darkmantle is attached in this way. While attached to a target, the darkmantle can attack only the target but has Advantage on its attack rolls. Its Speed becomes 0, it can’t benefit from any bonus to its Speed, and it moves with the target. A creature can take an action to try to detach the darkmantle from itself, doing so with a successful ',
-              { dc: 'str' },
-              ' Strength (Athletics) check. On its turn, the darkmantle can detach itself by using 5 feet of movement.',
+              ' condition and is suffocating while the darkmantle is attached in this way. While attached to a target, the darkmantle can attack only the target but has Advantage on its attack rolls. Its Speed becomes 0, it can’t benefit from any bonus to its Speed, and it moves with the target. A creature can take an action to try to detach the darkmantle from itself, doing so with a successful DC 13 Strength (Athletics) check. On its turn, the darkmantle can detach itself by using 5 feet of movement.',
             ],
           },
           {
@@ -1574,7 +1678,7 @@ export default createPublicationMonsters({
             text: [
               'The deva casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '): At Will: Detect Evil and Good, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell) 1/Day Each: Commune, Raise Dead',
+              '): At Will: Detect Evil and Good, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell); 1/Day Each: Commune, Raise Dead',
             ],
           },
           {
@@ -1699,7 +1803,7 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'Wisdom Saving Throw: ',
-              { dc: 'con' },
+              { dc: 'cha' },
               ', each creature in a 15-foot Emanation originating from the doppelganger that can see the doppelganger. Failure: The target has the ',
               rules.frightened,
               ' condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
@@ -1868,7 +1972,7 @@ export default createPublicationMonsters({
             intent: 'damage',
             save: {
               ability: 'dex',
-              dc: 'con',
+              dc: 'cha',
               target: { area: { shape: rules.emanation, size: 5 } },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.bludgeoning }],
@@ -1897,7 +2001,7 @@ export default createPublicationMonsters({
             icon: 'gi/GiDragonBreath',
             text: [
               'Dexterity Saving Throw: ',
-              { dc: 'con' },
+              { dc: 'cha' },
               ', each creature in a 15-foot Cone. Failure: The target has the ',
               rules.blinded,
               ' condition until the end of the mephit’s next turn.',
@@ -2141,9 +2245,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The erinyes has a magic rope. While bearing it, the erinyes can use the ',
-              { ability: 'entangling-rope' },
-              ' action. The rope has AC 20, HP 90, and Immunity to Poison and Psychic damage. The rope turns to dust if reduced to 0 Hit Points, if it is 5+ feet away from the erinyes for 1 hour or more, or if the erinyes dies. If the rope is damaged or destroyed, the erinyes can fully restore it when finishing a Short or Long Rest.',
+              'The erinyes has a magic rope. While bearing it, the erinyes can use the Entangling Rope action. The rope has AC 20, HP 90, and Immunity to Poison and Psychic damage. The rope turns to dust if reduced to 0 Hit Points, if it is 5+ feet away from the erinyes for 1 hour or more, or if the erinyes dies. If the rope is damaged or destroyed, the erinyes can fully restore it when finishing a Short or Long Rest.',
             ],
           },
           {
@@ -2154,9 +2256,7 @@ export default createPublicationMonsters({
             text: [
               'The erinyes makes three ',
               { ability: 'withering-sword' },
-              ' attacks and can use ',
-              { ability: 'entangling-rope' },
-              '.',
+              ' attacks and can use Entangling Rope.',
             ],
           },
           {
@@ -2176,8 +2276,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'entangling-rope',
-            name: 'Entangling Rope',
+            key: 'entangling-rope-requires-magic-rope',
+            name: 'Entangling Rope (Requires Magic Rope)',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             intent: 'damage',
@@ -2188,7 +2288,7 @@ export default createPublicationMonsters({
               onFail: {
                 damage: [{ dice: '4d6', type: rules.force }],
                 also: [
-                  'And the target has the ',
+                  'The target has the ',
                   rules.restrained,
                   ' condition until the rope is destroyed, the erinyes uses a Bonus Action to release the target, or the erinyes uses Entangling Rope again.',
                 ],
@@ -2355,9 +2455,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'Whenever the golem starts its turn Bloodied, roll 1d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object. Once the golem goes berserk, it remains so until it is destroyed or it is no longer Bloodied. The golem’s creator, if within 60 feet of the berserk golem, can try to calm it by taking an action to make a ',
-              { dc: 'con', save: 'cha' },
-              ' Charisma (Persuasion) check; the golem must be able to hear its creator. If this check succeeds, the golem ceases being berserk until the start of its next turn, at which point it resumes rolling for the Berserk trait again if it is still Bloodied.',
+              'Whenever the golem starts its turn Bloodied, roll 1d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object. Once the golem goes berserk, it remains so until it is destroyed or it is no longer Bloodied. The golem’s creator, if within 60 feet of the berserk golem, can try to calm it by taking an action to make a DC 15 Charisma (Persuasion) check; the golem must be able to hear its creator. If this check succeeds, the golem ceases being berserk until the start of its next turn, at which point it resumes rolling for the Berserk trait again if it is still Bloodied.',
             ],
           },
           {
@@ -3102,7 +3200,7 @@ export default createPublicationMonsters({
               onFail: {
                 damage: [{ dice: '2d6', type: rules.radiant }],
                 also: [
-                  'And the target has the ',
+                  'The target has the ',
                   rules.blinded,
                   ' condition until the end of the mouther’s next turn.',
                 ],
@@ -3546,9 +3644,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful ',
-              { dc: 'str', save: 'wis' },
-              ' Wisdom (Insight) check.',
+              'The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful DC 14 Wisdom (Insight) check.',
             ],
           },
           {
@@ -3876,7 +3972,7 @@ export default createPublicationMonsters({
               onFail: {
                 damage: [{ dice: '7d8', type: rules.poison }],
                 also: [
-                  'And the target has the ',
+                  'The target has the ',
                   rules.blinded,
                   ' condition until the start of the naga’s next turn.',
                 ],
@@ -4568,12 +4664,12 @@ export default createPublicationMonsters({
             intent: 'damage',
             save: {
               ability: 'wis',
-              dc: 'str',
+              dc: 'cha',
               target: { creatures: 1, range: 5, which: 'the lamia can see' },
               onFail: {
                 damage: [{ dice: '3d8', type: rules.psychic }],
                 also: [
-                  'And the target is cursed for 1 hour. Until the curse ends, the target has the ',
+                  'The target is cursed for 1 hour. Until the curse ends, the target has the ',
                   rules.charmed,
                   ' and ',
                   rules.poisoned,
@@ -4590,7 +4686,7 @@ export default createPublicationMonsters({
             text: [
               'The lamia casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '): At Will: Disguise Self (can appear as a Large or Medium biped), Minor Illusion 1/Day Each: Geas, Major Image, Scrying',
+              '): At Will: Disguise Self (can appear as a Large or Medium biped), Minor Illusion; 1/Day Each: Geas, Major Image, Scrying',
             ],
           },
           {
@@ -5001,7 +5097,7 @@ export default createPublicationMonsters({
               onFail: {
                 damage: [{ dice: '8d6', type: rules.psychic }],
                 also: [
-                  'And the target has the ',
+                  'The target has the ',
                   rules.frightened,
                   ' condition for 1 minute, until it takes damage, or until it ends its turn with the nalfeshnee out of line of sight.',
                 ],
@@ -5110,6 +5206,8 @@ export default createPublicationMonsters({
               { ability: 'spellcasting' },
               '. Only the hag can serve as the spell’s messenger, and the target must be a creature the hag can see on the Material Plane. The spell fails and is wasted if the target is under the effect of the Protection from Evil and Good spell or within a Magic Circle spell. If the target takes damage from the Dream spell, the target’s Hit Point maximum decreases by an amount equal to that damage. If the spell kills the target, its soul is trapped in the hag’s soul bag, and the target can’t be raised from the dead until its soul is released.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
           {
             key: 'spellcasting',
@@ -5119,7 +5217,7 @@ export default createPublicationMonsters({
             text: [
               'The hag casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save ',
               { dc: 'int' },
-              '): At Will: Detect Magic, Etherealness, Magic Missile (level 4 version) 2/Day Each: Phantasmal Killer, Plane Shift (self only)',
+              '): At Will: Detect Magic, Etherealness, Magic Missile (level 4 version); 2/Day Each: Phantasmal Killer, Plane Shift (self only)',
             ],
           },
           {
@@ -5726,7 +5824,7 @@ export default createPublicationMonsters({
             intent: 'damage',
             attack: {
               kind: 'ranged',
-              ability: 'str',
+              ability: 'wis',
               range: [60, 60],
               damage: [{ dice: '2d10', type: rules.radiant }],
             },
@@ -5739,7 +5837,7 @@ export default createPublicationMonsters({
             text: [
               'The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save ',
               { dc: 'wis' },
-              '): At Will: Light, Thaumaturgy 1/Day: Spirit Guardians',
+              '): At Will: Light, Thaumaturgy; 1/Day: Spirit Guardians',
             ],
           },
           {
@@ -5797,7 +5895,7 @@ export default createPublicationMonsters({
             intent: 'damage',
             attack: {
               kind: 'ranged',
-              ability: 'str',
+              ability: 'wis',
               range: [60, 60],
               damage: [{ dice: '2d6', type: rules.radiant }],
             },
@@ -5884,7 +5982,7 @@ export default createPublicationMonsters({
               onFail: {
                 damage: [{ dice: '2d4', type: rules.poison }],
                 also: [
-                  'And the target has the ',
+                  'The target has the ',
                   rules.poisoned,
                   ' condition for 1 hour. Failure by 5 or More: While ',
                   rules.poisoned,
@@ -5999,7 +6097,7 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'Wisdom Saving Throw: ',
-              { dc: 'con' },
+              { dc: 'cha' },
               ', one creature within 20 feet. Failure: The target has the ',
               rules.frightened,
               ' condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
@@ -6077,9 +6175,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful ',
-              { dc: 'con', save: 'wis' },
-              ' Wisdom (Insight) check.',
+              'The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check.',
             ],
           },
           {
@@ -6964,7 +7060,7 @@ export default createPublicationMonsters({
               onFail: {
                 damage: [{ dice: '2d4', type: rules.fire }],
                 also: [
-                  'And the target’s Speed decreases by 10 feet until the end of the mephit’s next turn.',
+                  'The target’s Speed decreases by 10 feet until the end of the mephit’s next turn.',
                 ],
               },
               onSuccess: 'half',
@@ -7380,6 +7476,8 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['If the vampire fails a saving throw, it can choose to succeed instead.'],
+            uses: 3,
+            recharge: 'Long rest (4/Day in its lair)',
           },
           {
             key: 'misty-escape',
@@ -7442,21 +7540,15 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'multiattack',
-            name: 'Multiattack',
+            key: 'multiattack-vampire-form-only',
+            name: 'Multiattack (Vampire Form Only)',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: [
-              'The vampire makes two ',
-              { ability: 'grave-strike' },
-              ' attacks and uses ',
-              { ability: 'bite' },
-              '.',
-            ],
+            text: ['The vampire makes two Grave Strike attacks and uses Bite.'],
           },
           {
-            key: 'grave-strike',
-            name: 'Grave Strike',
+            key: 'grave-strike-vampire-form-only',
+            name: 'Grave Strike (Vampire Form Only)',
             timing: 'action',
             icon: 'lucide/Target',
             intent: 'damage',
@@ -7476,8 +7568,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'bite',
-            name: 'Bite',
+            key: 'bite-bat-or-vampire-form-only',
+            name: 'Bite (Bat or Vampire Form Only)',
             timing: 'action',
             icon: 'gi/GiFangs',
             intent: 'damage',
@@ -7491,9 +7583,12 @@ export default createPublicationMonsters({
                   'that is willing or that has the Grappled, Incapacitated, or Restrained condition',
               },
               onFail: {
-                damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+                damage: [
+                  { dice: '1d4', type: rules.piercing, addModifier: true },
+                  { dice: '3d8', type: rules.necrotic },
+                ],
                 also: [
-                  'Plus 13 (3d8) Necrotic damage. The target’s Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire’s control.',
+                  'The target’s Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire’s control.',
                 ],
               },
             },
@@ -7508,9 +7603,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '), and the duration is 24 hours. The ',
               rules.charmed,
-              ' target is a willing recipient of the vampire’s ',
-              { ability: 'bite' },
-              ', the damage of which doesn’t end the spell. When the spell ends, the target is unaware it was ',
+              ' target is a willing recipient of the vampire’s Bite, the damage of which doesn’t end the spell. When the spell ends, the target is unaware it was ',
               rules.charmed,
               ' by the vampire.',
             ],
@@ -7546,9 +7639,7 @@ export default createPublicationMonsters({
               name: 'Deathless Strike',
               icon: 'gi/GiMagicSwirl',
               text: [
-                'The vampire moves up to half its Speed, and it makes one ',
-                { ability: 'grave-strike' },
-                ' attack.',
+                'The vampire moves up to half its Speed, and it makes one Grave Strike attack.',
               ],
             },
           ],
@@ -7664,9 +7755,12 @@ export default createPublicationMonsters({
                   'that is willing or that has the Grappled, Incapacitated, or Restrained condition',
               },
               onFail: {
-                damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+                damage: [
+                  { dice: '1d4', type: rules.piercing, addModifier: true },
+                  { dice: '3d6', type: rules.necrotic },
+                ],
                 also: [
-                  'Plus 10 (3d6) Necrotic damage. The target’s Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount.',
+                  'The target’s Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount.',
                 ],
               },
             },
@@ -7846,18 +7940,12 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiPaw',
             text: [
-              'The werebear makes two attacks, using ',
-              { ability: 'handaxe' },
-              ' or ',
-              { ability: 'rend' },
-              ' in any combination. It can replace one attack with a ',
-              { ability: 'bite' },
-              ' attack.',
+              'The werebear makes two attacks, using Handaxe or Rend in any combination. It can replace one attack with a Bite attack.',
             ],
           },
           {
-            key: 'bite',
-            name: 'Bite',
+            key: 'bite-bear-or-hybrid-form-only',
+            name: 'Bite (Bear or Hybrid Form Only)',
             timing: 'action',
             icon: 'gi/GiFangs',
             intent: 'damage',
@@ -7874,8 +7962,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'handaxe',
-            name: 'Handaxe',
+            key: 'handaxe-humanoid-or-hybrid-form-only',
+            name: 'Handaxe (Humanoid or Hybrid Form Only)',
             timing: 'action',
             icon: 'gi/GiBattleAxe',
             intent: 'damage',
@@ -7888,8 +7976,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'rend',
-            name: 'Rend',
+            key: 'rend-bear-or-hybrid-form-only',
+            name: 'Rend (Bear or Hybrid Form Only)',
             timing: 'action',
             icon: 'lucide/Target',
             intent: 'damage',
@@ -7936,16 +8024,12 @@ export default createPublicationMonsters({
             text: [
               'The wererat makes two attacks, using ',
               { ability: 'scratch' },
-              ' or ',
-              { ability: 'hand-crossbow' },
-              ' in any combination. It can replace one attack with a ',
-              { ability: 'bite' },
-              ' attack.',
+              ' or Hand Crossbow in any combination. It can replace one attack with a Bite attack.',
             ],
           },
           {
-            key: 'bite',
-            name: 'Bite',
+            key: 'bite-rat-or-hybrid-form-only',
+            name: 'Bite (Rat or Hybrid Form Only)',
             timing: 'action',
             icon: 'gi/GiFangs',
             intent: 'damage',
@@ -7975,8 +8059,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'hand-crossbow',
-            name: 'Hand Crossbow',
+            key: 'hand-crossbow-humanoid-or-hybrid-form-only',
+            name: 'Hand Crossbow (Humanoid or Hybrid Form Only)',
             timing: 'action',
             icon: 'gi/GiCrossbow',
             intent: 'damage',
@@ -8023,16 +8107,12 @@ export default createPublicationMonsters({
             text: [
               'The weretiger makes two attacks, using ',
               { ability: 'scratch' },
-              ' or ',
-              { ability: 'longbow' },
-              ' in any combination. It can replace one attack with a ',
-              { ability: 'bite' },
-              ' attack.',
+              ' or Longbow in any combination. It can replace one attack with a Bite attack.',
             ],
           },
           {
-            key: 'bite',
-            name: 'Bite',
+            key: 'bite-tiger-or-hybrid-form-only',
+            name: 'Bite (Tiger or Hybrid Form Only)',
             timing: 'action',
             icon: 'gi/GiFangs',
             intent: 'damage',
@@ -8062,8 +8142,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'longbow',
-            name: 'Longbow',
+            key: 'longbow-humanoid-or-hybrid-form-only',
+            name: 'Longbow (Humanoid or Hybrid Form Only)',
             timing: 'action',
             icon: 'gi/GiCrossbow',
             intent: 'damage',
@@ -8075,8 +8155,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'prowl',
-            name: 'Prowl',
+            key: 'prowl-tiger-or-hybrid-form-only',
+            name: 'Prowl (Tiger or Hybrid Form Only)',
             timing: 'bonus action',
             icon: 'gi/GiMagicSwirl',
             text: [
@@ -8130,16 +8210,12 @@ export default createPublicationMonsters({
             text: [
               'The werewolf makes two attacks, using ',
               { ability: 'scratch' },
-              ' or ',
-              { ability: 'longbow' },
-              ' in any combination. It can replace one attack with a ',
-              { ability: 'bite' },
-              ' attack.',
+              ' or Longbow in any combination. It can replace one attack with a Bite attack.',
             ],
           },
           {
-            key: 'bite',
-            name: 'Bite',
+            key: 'bite-wolf-or-hybrid-form-only',
+            name: 'Bite (Wolf or Hybrid Form Only)',
             timing: 'action',
             icon: 'gi/GiFangs',
             intent: 'damage',
@@ -8169,8 +8245,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'longbow',
-            name: 'Longbow',
+            key: 'longbow-humanoid-or-hybrid-form-only',
+            name: 'Longbow (Humanoid or Hybrid Form Only)',
             timing: 'action',
             icon: 'gi/GiCrossbow',
             intent: 'damage',

@@ -34,9 +34,9 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiWizardStaff',
             text: [
-              'As an action, cast one listed spell. Spellcasting (Psionics). Intelligence (spell save ',
+              'As an action, cast one listed spell.; Spellcasting (Psionics). Intelligence (spell save ',
               { dc: 'str' },
-              '), no components. Once per day per spell, subject to the number of brains already consumed. 0 brains: Plane Shift (self only). 1: Detect Magic. 2: Silent Image. 3: Invisibility. 4: Hypnotic Pattern. 5: Major Image. 6 brains: Telekinesis. 7: Arcane Eye. 8: Mislead. 9: Greater Invisibility. 10 or more: Mass Suggestion.',
+              '), no components. Once per day per spell, subject to the number of brains already consumed.; 0 brains: Plane Shift (self only). 1: Detect Magic. 2: Silent Image. 3: Invisibility. 4: Hypnotic Pattern. 5: Major Image.; 6 brains: Telekinesis. 7: Arcane Eye. 8: Mislead. 9: Greater Invisibility. 10 or more: Mass Suggestion.',
             ],
           },
           {

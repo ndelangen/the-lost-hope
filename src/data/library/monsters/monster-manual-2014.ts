@@ -31,7 +31,9 @@ export default createPublicationMonsters({
             text: [
               '1st-level cleric, using Wisdom. Spell save ',
               { dc: 'wis' },
-              '. Spell attacks +4. Cantrips (at will): Light, Sacred Flame, Thaumaturgy. 1st level (3 slots): Bless, Cure Wounds, Sanctuary. For attunement and magic item use, treat this NPC as a member of the listed class and as having access to its spell list.',
+              '. Spell attacks ',
+              { toHit: 'wis' },
+              '.; Cantrips (at will): Light, Sacred Flame, Thaumaturgy.; 1st level (3 slots): Bless, Cure Wounds, Sanctuary.; For attunement and magic item use, treat this NPC as a member of the listed class and as having access to its spell list.',
             ],
           },
           {
@@ -1267,9 +1269,7 @@ export default createPublicationMonsters({
             text: [
               "The cloaker attaches to a Large or smaller target. When it attaches this way, it latches onto the target's head if it had advantage on the roll, leaving that creature ",
               rules.blinded,
-              ' and unable to breathe until detached. While attached, it can Bite only that creature, and the attack has advantage. The cloaker can spend 5 ft. of movement to detach. Any creature, including the target, can detach it with an action and a successful ',
-              { dc: 'str', printed: 16 },
-              ' Strength check.',
+              ' and unable to breathe until detached. While attached, it can Bite only that creature, and the attack has advantage. The cloaker can spend 5 ft. of movement to detach. Any creature, including the target, can detach it with an action and a successful DC 16 Strength check.',
             ],
           },
           {
@@ -1299,10 +1299,10 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'phantasms',
-            name: 'Phantasms',
+            key: 'phantasms-recharges-after-a-short-or-long-rest',
+            name: 'Phantasms (Recharges after a Short or Long Rest)',
             timing: 'action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: [
               "Outside bright light, the cloaker magically creates three illusory doubles that copy its motions and change positions with it. If it enters bright light, all doubles vanish. When a creature targets the cloaker with an attack or harmful spell while any double remains, randomly determine whether it targets the cloaker or one of the remaining doubles. Creatures that cannot see or rely on other senses ignore this effect. A double uses the cloaker's AC and saves. It vanishes if an attack hits it or if it fails a save against a damaging effect.",
             ],
@@ -1335,7 +1335,7 @@ export default createPublicationMonsters({
             text: [
               'Charisma. The giant needs no material components for these spells. For a spell that calls for a save, use ',
               { dc: 'wis' },
-              ', calculated from Charisma +3 and proficiency +4. At will. Detect Magic, Fog Cloud, Light. 3/day each. Feather Fall, Fly, Misty Step, Telekinesis. 1/day each. Control Weather, Gaseous Form.',
+              ', calculated from Charisma +3 and proficiency +4.; At will. Detect Magic, Fog Cloud, Light.; 3/day each. Feather Fall, Fly, Misty Step, Telekinesis.; 1/day each. Control Weather, Gaseous Form.',
             ],
           },
           {
@@ -1499,7 +1499,7 @@ export default createPublicationMonsters({
             text: [
               'Charisma is the spellcasting ability, with save ',
               { dc: 'cha' },
-              '. Spells require only verbal components. At will. Detect Evil and Good, Detect Magic, Detect Thoughts. 3/day each. Bless, Create Food and Water, Cure Wounds, Lesser Restoration, Protection from Poison, Sanctuary, Shield. 1/day each. Dream, Greater Restoration, Scrying.',
+              '. Spells require only verbal components.; At will. Detect Evil and Good, Detect Magic, Detect Thoughts.; 3/day each. Bless, Create Food and Water, Cure Wounds, Lesser Restoration, Protection from Poison, Sanctuary, Shield.; 1/day each. Dream, Greater Restoration, Scrying.',
             ],
           },
           {
@@ -1787,7 +1787,9 @@ export default createPublicationMonsters({
             text: [
               '4th-level cleric spellcaster using Wisdom. Spell save ',
               { dc: 'wis' },
-              '. Spell attacks +3. Cantrips (at will): Light, Sacred Flame, Thaumaturgy. 1st level (4 slots): Command, Inflict Wounds, Shield of Faith. 2nd level (3 slots): Hold Person, Spiritual Weapon. For magic item use and attunement, treat this NPC as a cleric with access to the cleric spell list.',
+              '. Spell attacks ',
+              { toHit: 'wis' },
+              '.; Cantrips (at will): Light, Sacred Flame, Thaumaturgy.; 1st level (4 slots): Command, Inflict Wounds, Shield of Faith.; 2nd level (3 slots): Hold Person, Spiritual Weapon.; For magic item use and attunement, treat this NPC as a cleric with access to the cleric spell list.',
             ],
           },
           {
@@ -2614,7 +2616,7 @@ export default createPublicationMonsters({
             text: [
               'Innate Spellcasting. Charisma is the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '). The dragon casts these spells without material components. 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion, Major Image.',
+              '). The dragon casts these spells without material components.; 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion, Major Image.',
             ],
           },
           {
@@ -2700,7 +2702,7 @@ export default createPublicationMonsters({
             text: [
               'Innate Spellcasting. Charisma is the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '). The dragon casts these spells without material components. 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion.',
+              '). The dragon casts these spells without material components.; 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion.',
             ],
           },
           {
@@ -2786,7 +2788,7 @@ export default createPublicationMonsters({
             text: [
               'Innate Spellcasting. Charisma is the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '). The dragon casts these spells without material components. 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion, Major Image, Hallucinatory Terrain.',
+              '). The dragon casts these spells without material components.; 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion, Major Image, Hallucinatory Terrain.',
             ],
           },
           {
@@ -2872,7 +2874,7 @@ export default createPublicationMonsters({
             text: [
               'Innate Spellcasting. Charisma is the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '). The dragon casts these spells without material components. 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray.',
+              '). The dragon casts these spells without material components.; 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray.',
             ],
           },
           {
@@ -2958,7 +2960,7 @@ export default createPublicationMonsters({
             text: [
               'Innate Spellcasting. Charisma is the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '). The dragon casts these spells without material components. 1/day each: Dancing Lights, Mage Hand, Minor Illusion.',
+              '). The dragon casts these spells without material components.; 1/day each: Dancing Lights, Mage Hand, Minor Illusion.',
             ],
           },
           {
@@ -3044,7 +3046,7 @@ export default createPublicationMonsters({
             text: [
               'Innate Spellcasting. Charisma is the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '). The dragon casts these spells without material components. 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion, Major Image, Hallucinatory Terrain, Polymorph.',
+              '). The dragon casts these spells without material components.; 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion, Major Image, Hallucinatory Terrain, Polymorph.',
             ],
           },
           {
@@ -3130,7 +3132,7 @@ export default createPublicationMonsters({
             text: [
               'Innate Spellcasting. Charisma is the spellcasting ability (spell save ',
               { dc: 'cha' },
-              '). The dragon casts these spells without material components. 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image.',
+              '). The dragon casts these spells without material components.; 1/day each: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image.',
             ],
           },
           {
@@ -4093,11 +4095,7 @@ export default createPublicationMonsters({
     },
     giant_octopus: {
       name: 'Giant Octopus',
-      reprintedIn: [
-        refs.publications.basic_rules_2018,
-        refs.publications.rise_of_tiamat_online_supplement,
-        refs.publications.srd_5_1,
-      ],
+      reprintedIn: [refs.publications.basic_rules_2018],
       page: 326,
       alignment: 'unaligned',
       habitats: ['Underwater', 'Rocky reefs', 'Kelp forests'],
@@ -4715,7 +4713,7 @@ export default createPublicationMonsters({
             text: [
               'Charisma, spell save ',
               { dc: 'cha' },
-              '. No material components. At will. Detect Magic, Detect Thoughts, Invisibility (self only), Mage Hand, Major Image. 2/day each. Fear, Fly, Fireball, Tongues. 1/day. Plane Shift (self only).',
+              '. No material components.; At will. Detect Magic, Detect Thoughts, Invisibility (self only), Mage Hand, Major Image.; 2/day each. Fear, Fly, Fireball, Tongues.; 1/day. Plane Shift (self only).',
             ],
           },
           {
@@ -4753,19 +4751,11 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: [
-              'Make one ',
-              { ability: 'bite' },
-              ' and two ',
-              { ability: 'claw' },
-              ' or ',
-              { ability: 'greatsword' },
-              ' attacks.',
-            ],
+            text: ['Make one Bite and two Claw or ', { ability: 'greatsword' }, ' attacks.'],
           },
           {
-            key: 'bite',
-            name: 'Bite',
+            key: 'bite-slaad-form-only',
+            name: 'Bite (slaad form only)',
             timing: 'action',
             icon: 'gi/GiFangs',
             intent: 'damage',
@@ -4777,8 +4767,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'claw',
-            name: 'Claw',
+            key: 'claw-slaad-form-only',
+            name: 'Claw (slaad form only)',
             timing: 'action',
             icon: 'gi/GiClaws',
             intent: 'damage',
@@ -4835,7 +4825,7 @@ export default createPublicationMonsters({
             text: [
               'Charisma (spell save ',
               { dc: 'wis' },
-              '). She needs no material components. At will: Dancing Lights, Minor Illusion, Vicious Mockery.',
+              '). She needs no material components.; At will: Dancing Lights, Minor Illusion, Vicious Mockery.',
             ],
           },
           {
@@ -4851,9 +4841,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'She can imitate animal sounds and humanoid voices. A listener identifies the imitation with a successful ',
-              { dc: 'str', save: 'wis' },
-              ' Wisdom (Insight) check.',
+              'She can imitate animal sounds and humanoid voices. A listener identifies the imitation with a successful DC 14 Wisdom (Insight) check.',
             ],
           },
           {
@@ -4875,9 +4863,7 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The hag disguises herself and everything she wears or carries as a creature of her general size and humanoid shape. She can end the effect with a bonus action, and it ends if she dies. Touch can reveal discrepancies between the illusion and her body. A creature can also spend an action inspecting the disguise and identify it with a successful ',
-              { dc: 'int', printed: 20 },
-              ' Intelligence (Investigation) check.',
+              'The hag disguises herself and everything she wears or carries as a creature of her general size and humanoid shape. She can end the effect with a bonus action, and it ends if she dies. Touch can reveal discrepancies between the illusion and her body. A creature can also spend an action inspecting the disguise and identify it with a successful DC 20 Intelligence (Investigation) check.',
             ],
           },
           {
@@ -4936,7 +4922,7 @@ export default createPublicationMonsters({
             text: [
               'Charisma, spell save ',
               { dc: 'cha' },
-              '. No material components. At will. Detect Magic, Detect Thoughts, Mage Hand. 2/day each. Fear, Invisibility (self only). 1/day. Fireball.',
+              '. No material components.; At will. Detect Magic, Detect Thoughts, Mage Hand.; 2/day each. Fear, Invisibility (self only).; 1/day. Fireball.',
             ],
           },
           {
@@ -4968,11 +4954,7 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiPaw',
             text: [
-              'Make one ',
-              { ability: 'bite' },
-              ' and two ',
-              { ability: 'claw' },
-              ' or ',
+              'Make one Bite and two Claw or ',
               { ability: 'staff' },
               ' attacks, or use ',
               { ability: 'hurl-flame' },
@@ -4980,8 +4962,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'bite',
-            name: 'Bite',
+            key: 'bite-slaad-form-only',
+            name: 'Bite (slaad form only)',
             timing: 'action',
             icon: 'gi/GiFangs',
             intent: 'damage',
@@ -4993,8 +4975,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'claw',
-            name: 'Claw',
+            key: 'claw-slaad-form-only',
+            name: 'Claw (slaad form only)',
             timing: 'action',
             icon: 'gi/GiClaws',
             intent: 'damage',
@@ -5855,9 +5837,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'It can reproduce sounds it has heard, including voices. A listener recognizes the imitation with a successful ',
-              { dc: 'wis', printed: 14 },
-              ' Wisdom (Insight) check.',
+              'It can reproduce sounds it has heard, including voices. A listener recognizes the imitation with a successful DC 14 Wisdom (Insight) check.',
             ],
           },
           {
@@ -5951,7 +5931,6 @@ export default createPublicationMonsters({
     },
     knight: {
       name: 'Knight',
-      reprintedIn: [refs.publications.srd_5_1],
       tags: ['any race'],
       page: 347,
       alignment: 'any alignment',
@@ -6007,10 +5986,10 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'leadership',
-            name: 'Leadership',
+            key: 'leadership-recharges-after-a-short-or-long-rest',
+            name: 'Leadership (recharges after a short or long rest)',
             timing: 'action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: [
               'For 1 minute, the knight can call out whenever a nonhostile creature it can see within 30 ft. rolls an attack or saving throw. The creature can add 1d4 if it hears and understands the knight. It can benefit from one Leadership die at a time. Leadership ends if the knight becomes ',
               rules.incapacitated,
@@ -6344,7 +6323,9 @@ export default createPublicationMonsters({
             text: [
               '9th-level wizard, using Intelligence. Spell save ',
               { dc: 'int' },
-              '. Spell attacks +6. Cantrips (at will): Fire Bolt, Light, Mage Hand, Prestidigitation. 1st level (4 slots): Detect Magic, Mage Armor, Magic Missile, Shield. 2nd level (3 slots): Misty Step, Suggestion. 3rd level (3 slots): Counterspell, Fireball, Fly. 4th level (3 slots): Greater Invisibility, Ice Storm. 5th level (1 slot): Cone of Cold. For attunement and magic item use, treat this NPC as a member of the listed class and as having access to its spell list.',
+              '. Spell attacks ',
+              { toHit: 'int' },
+              '.; Cantrips (at will): Fire Bolt, Light, Mage Hand, Prestidigitation.; 1st level (4 slots): Detect Magic, Mage Armor, Magic Missile, Shield.; 2nd level (3 slots): Misty Step, Suggestion.; 3rd level (3 slots): Counterspell, Fireball, Fly.; 4th level (3 slots): Greater Invisibility, Ice Storm.; 5th level (1 slot): Cone of Cold.; For attunement and magic item use, treat this NPC as a member of the listed class and as having access to its spell list.',
             ],
           },
           {
@@ -7003,6 +6984,8 @@ export default createPublicationMonsters({
               rules.stunned,
               ' for 1 minute. It repeats the save at the end of each of its turns and ends the effect on a success.',
             ],
+            uses: 3,
+            recharge: 'Long rest',
           },
           {
             key: 'rapport-spores',
@@ -7072,6 +7055,8 @@ export default createPublicationMonsters({
             text: [
               'Release spores in a 10-ft. radius. They spread around corners and affect creatures with Intelligence 2 or higher, excluding constructs, elementals, and undead. For 1 hour, affected creatures can speak telepathically to each other within 30 ft.',
             ],
+            uses: 3,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -7398,7 +7383,7 @@ export default createPublicationMonsters({
     },
     octopus: {
       name: 'Octopus',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.basic_rules_2018],
       page: 333,
       alignment: 'unaligned',
       habitats: ['Underwater', 'Coastal waters', 'Reefs'],
@@ -7461,10 +7446,10 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'ink-cloud',
-            name: 'Ink Cloud',
+            key: 'ink-cloud-recharges-after-a-short-or-long-rest',
+            name: 'Ink Cloud (recharges after a short or long rest)',
             timing: 'action',
-            icon: 'gi/GiMagicSwirl',
+            icon: 'gi/GiBull',
             text: [
               'As an action while underwater, release ink in a 5-ft. radius around the octopus. That area is heavily obscured for 1 minute unless a strong current disperses the ink sooner. After releasing ink, the octopus can Dash as a bonus action.',
             ],
@@ -7942,6 +7927,8 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' for 1 minute. It repeats the save at the end of each of its turns and ends the effect on a success.',
             ],
+            uses: 1,
+            recharge: 'recharge 5–6',
           },
         ],
       },
@@ -8337,9 +8324,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The raven can imitate simple sounds it has heard. A creature hearing the imitation identifies it with a successful ',
-              { dc: 'wis', printed: 10 },
-              ' Wisdom (Insight) check.',
+              'The raven can imitate simple sounds it has heard. A creature hearing the imitation identifies it with a successful DC 10 Wisdom (Insight) check.',
             ],
           },
           {
@@ -9225,9 +9210,7 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The hag magically disguises herself and her equipment as an ugly creature of her general size and humanoid shape. She can dismiss the effect as a bonus action, and it ends when she dies. Physical contact reveals discrepancies. Otherwise, spotting the illusion takes an action to inspect it and a successful ',
-              { dc: 'int', printed: 16 },
-              ' Intelligence (Investigation) check.',
+              'The hag magically disguises herself and her equipment as an ugly creature of her general size and humanoid shape. She can dismiss the effect as a bonus action, and it ends when she dies. Physical contact reveals discrepancies. Otherwise, spotting the illusion takes an action to inspect it and a successful DC 16 Intelligence (Investigation) check.',
             ],
           },
         ],
@@ -9939,6 +9922,8 @@ export default createPublicationMonsters({
               { ability: 'slam' },
               ' is its only listed action option. A tree stays animated for up to 1 day. The effect ends early if the tree dies, if the treant dies or gets more than 120 ft. away, or if the treant uses a bonus action to turn it back into an ordinary tree. It then takes root if possible.',
             ],
+            uses: 1,
+            recharge: 'Long rest',
           },
         ],
       },
@@ -10609,9 +10594,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength save. On a failure, it is ',
               rules.restrained,
-              '. As an action, a creature can make a ',
-              { dc: 'str' },
-              ' Strength check to free itself or an entangled creature within reach.',
+              '. As an action, a creature can make a DC 12 Strength check to free itself or an entangled creature within reach.',
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -10996,7 +10979,7 @@ export default createPublicationMonsters({
             text: [
               'Abomination form only. Charisma, save ',
               { dc: 'str' },
-              ', no material components. At will: Animal Friendship (snakes only). 3/day: Suggestion. 1/day: Fear.',
+              ', no material components.; At will: Animal Friendship (snakes only).; 3/day: Suggestion.; 1/day: Fear.',
             ],
           },
           {
@@ -11016,8 +10999,8 @@ export default createPublicationMonsters({
             text: ['Roll saving throws against spells and other magical effects with advantage.'],
           },
           {
-            key: 'multiattack',
-            name: 'Multiattack',
+            key: 'multiattack-abomination-form-only',
+            name: 'Multiattack (abomination form only)',
             timing: 'action',
             icon: 'gi/GiPaw',
             text: [
@@ -11065,8 +11048,8 @@ export default createPublicationMonsters({
             ],
           },
           {
-            key: 'scimitar',
-            name: 'Scimitar',
+            key: 'scimitar-abomination-form-only',
+            name: 'Scimitar (abomination form only)',
             timing: 'action',
             icon: 'gi/GiBroadsword',
             intent: 'damage',
@@ -11078,8 +11061,8 @@ export default createPublicationMonsters({
             },
           },
           {
-            key: 'longbow',
-            name: 'Longbow',
+            key: 'longbow-abomination-form-only',
+            name: 'Longbow (abomination form only)',
             timing: 'action',
             icon: 'gi/GiCrossbow',
             intent: 'damage',
@@ -11129,7 +11112,7 @@ export default createPublicationMonsters({
             text: [
               'Charisma, save ',
               { dc: 'cha' },
-              ', no material components. At will: Animal Friendship (snakes only). 3/day each: Poison Spray, Suggestion.',
+              ', no material components.; At will: Animal Friendship (snakes only).; 3/day each: Poison Spray, Suggestion.',
             ],
           },
           {
