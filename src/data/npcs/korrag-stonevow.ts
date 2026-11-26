@@ -19,13 +19,6 @@ export default createNPC({
       ' promised him that chance if he works for him.',
     ],
     [
-      'Have ',
-      refs.pcs.devan,
-      ' back in the squad. He offers that first, and only takes his revenge when ',
-      refs.pcs.devan,
-      ' refuses.',
-    ],
-    [
       'Glory. He was given a second life, so he means to be twice as glorious in it. He is fixed on that course and does not see that he is being steered further and further.',
     ],
   ],

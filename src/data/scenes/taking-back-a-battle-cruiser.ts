@@ -404,9 +404,9 @@ export default createScene({
               refs.pcs.devan,
               ' left to join a guild and never came back to help protect the city. ',
               refs.npcs.the_father,
-              ' brought him back for a new chance at glory, and he offers ',
+              ' brought him back for a new chance at glory. All he offers ',
               refs.pcs.devan,
-              ' a place in the squad again.',
+              ' is an end to his coward’s existence.',
             ],
           ],
         },
@@ -421,29 +421,44 @@ export default createScene({
               refs.pcs.devan,
               ' did leave on a ship, while loading civilians onto it in ',
               refs.events.n2_e069,
-              '. Let the players catch what is missing, and do not explain who changed his memory.',
+              '. Do not explain who changed his memory.',
             ],
           ],
         },
         {
           do: [
             [
-              'Talking him round: the party can argue with what ',
-              refs.npcs.korrag_stonevow,
-              ' remembers, for example by telling him what really happened on that ship. Play it as a conversation. If the argument is really convincing, have ',
+              'Catching him out: the way through is for ',
               refs.pcs.devan,
-              ' roll ',
+              ' to spot the twist in the memory and point it out, by asking questions or by putting the real story against his. Answer the questions as ',
+              refs.npcs.korrag_stonevow,
+              ' and let him trip over the gaps. If they catch an inconsistency and point it out, he is confused: see the outcomes.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'Gaps they can find: he died in the city, so how did he watch the ship sail? He calls it fleeing, but it was the third ship out, full of civilians, while the military had already left on the first. And ',
+              refs.pcs.devan,
+              ' had joined the guild days earlier, in ',
+              refs.locations.fajanet,
+              ', so he cannot have walked out on the squad in the middle of the fight.',
+            ],
+          ],
+        },
+        {
+          do: [
+            [
+              'If they only want to roll: ',
+              refs.pcs.devan,
+              ' rolls ',
               refs.rules.persuasion,
-              ', DC 15. Others can help with a good line, which gives him ',
+              ', DC 15. Another player can help only by making a convincing argument for how they could possibly help, which gives him ',
               refs.rules.advantage,
               '. If the roll fails, the fight starts as usual.',
             ],
           ],
-        },
-        { do: [['If ', refs.pcs.devan, ' refuses:']] },
-        {
-          speaker: refs.npcs.korrag_stonevow,
-          say: [['Thank you. Then I will now take my revenge.']],
         },
         {
           do: [
@@ -467,8 +482,15 @@ export default createScene({
       ],
       outcomes: [
         {
-          icon: 'gi/GiConversation',
-          when: [['They talk ', refs.npcs.korrag_stonevow, ' round.']],
+          icon: 'gi/GiPointing',
+          when: [
+            [
+              refs.pcs.devan,
+              ' catches ',
+              refs.npcs.korrag_stonevow,
+              ' on an inconsistency in his memory.',
+            ],
+          ],
           response: [
             [
               'The two memories collide. ',
@@ -479,6 +501,17 @@ export default createScene({
               'The reward: the whole party goes first in this fight, in the order they choose, and has a round to deal with the others before ',
               refs.npcs.korrag_stonevow,
               ' comes for them.',
+            ],
+          ],
+        },
+        {
+          icon: 'gi/GiConversation',
+          when: [['They only roll ', refs.rules.persuasion, ' and succeed.']],
+          response: [
+            [
+              'His certainty slips for a moment: ',
+              refs.npcs.korrag_stonevow,
+              ' takes a −1 on his initiative.',
             ],
           ],
         },
