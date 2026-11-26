@@ -11,7 +11,8 @@ export const magicItemNames: Readonly<Record<string, string>> = {
   adamantine_armor_scale_mail_srd_5_1: 'Adamantine Armor (Scale Mail)',
   adamantine_armor_splint_srd_5_1: 'Adamantine Armor (Splint)',
   amulet_of_health_srd_5_1: 'Amulet of Health',
-  amulet_of_proof_against_detection_and_location_srd_5_1: 'Amulet of Proof against Detection and Location',
+  amulet_of_proof_against_detection_and_location_srd_5_1:
+    'Amulet of Proof against Detection and Location',
   amulet_of_the_planes_srd_5_1: 'Amulet of the Planes',
   animated_shield_srd_5_1: 'Animated Shield',
   apparatus_of_the_crab_srd_5_1: 'Apparatus of the Crab',
@@ -132,7 +133,8 @@ export const magicItemNames: Readonly<Record<string, string>> = {
   figurine_of_wondrous_power_ebony_fly_srd_5_1: 'Figurine of Wondrous Power (Ebony Fly)',
   figurine_of_wondrous_power_golden_lions_srd_5_1: 'Figurine of Wondrous Power (Golden Lions)',
   figurine_of_wondrous_power_ivory_goats_srd_5_1: 'Figurine of Wondrous Power (Ivory Goats)',
-  figurine_of_wondrous_power_marble_elephant_srd_5_1: 'Figurine of Wondrous Power (Marble Elephant)',
+  figurine_of_wondrous_power_marble_elephant_srd_5_1:
+    'Figurine of Wondrous Power (Marble Elephant)',
   figurine_of_wondrous_power_obsidian_steed: 'Figurine of Wondrous Power (Obsidian Steed)',
   figurine_of_wondrous_power_onyx_dog_srd_5_1: 'Figurine of Wondrous Power (Onyx Dog)',
   figurine_of_wondrous_power_serpentine_owl_srd_5_1: 'Figurine of Wondrous Power (Serpentine Owl)',

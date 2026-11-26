@@ -28,12 +28,12 @@ doubt, skip.
 
 ```jsonc
 {
-  "key": "poisoned",                                          // lowercase-hyphenated, unique in the item
-  "name": "Poisoned",                                         // what a DM would call it
-  "lands": { "on": "failed-save", "save": "con", "dc": 13 },  // or { "on": "use" } (drunk, applied, activated), { "on": "hit" }
+  "key": "poisoned", // lowercase-hyphenated, unique in the item
+  "name": "Poisoned", // what a DM would call it
+  "lands": { "on": "failed-save", "save": "con", "dc": 13 }, // or { "on": "use" } (drunk, applied, activated), { "on": "hit" }
   "conditions": [{ "ref": "rule", "key": "poisoned" }],
-  "text": ["…the book's own words for what else it does…"],  // optional
-  "lasts": { "kind": "time", "amount": "1", "unit": "hour" }
+  "text": ["…the book's own words for what else it does…"], // optional
+  "lasts": { "kind": "time", "amount": "1", "unit": "hour" },
 }
 ```
 

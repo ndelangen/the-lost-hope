@@ -284,10 +284,15 @@ export async function generatedMagicItemNamesSource(): Promise<string> {
   const books: string[] = []
   for (const file of files) {
     const text = await readFile(path.join(dir, `${file}.ts`), 'utf8')
-    for (const [, key, , name] of text.matchAll(/^ {2}([a-z0-9_]+): \{\n {4}name: (['"])(.+?)\2,$/gmu)) {
-      names.push(
-        `  ${key}: ${name!.includes("'") ? JSON.stringify(name) : `'${name!.replaceAll('\\', '\\\\')}'`},`,
-      )
+    for (const [, key, , name] of text.matchAll(
+      /^ {2}([a-z0-9_]+): \{\n {4}name: (['"])(.+?)\2,$/gmu,
+    )) {
+      const quoted = name!.includes("'")
+        ? JSON.stringify(name)
+        : `'${name!.replaceAll('\\', '\\\\')}'`
+      // Wrapped as the formatter wraps a line past 100 characters.
+      const line = `  ${key}: ${quoted},`
+      names.push(line.length > 100 ? `  ${key}:\n    ${quoted},` : line)
       books.push(`  ${key}: '${file}',`)
     }
   }

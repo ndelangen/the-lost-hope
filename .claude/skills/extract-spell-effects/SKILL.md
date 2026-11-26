@@ -29,13 +29,13 @@ doubt, skip.
 
 ```jsonc
 {
-  "key": "held",                                   // lowercase-hyphenated, unique in the spell
-  "name": "Held",                                  // what a DM would call it
+  "key": "held", // lowercase-hyphenated, unique in the spell
+  "name": "Held", // what a DM would call it
   "lands": { "on": "failed-save", "save": "wis" }, // or { "on": "hit" } (spell attack), { "on": "use" } (no roll)
   "conditions": [{ "ref": "rule", "key": "paralyzed" }],
-  "text": ["…the book's own sentence for what else it does…"],   // optional
+  "text": ["…the book's own sentence for what else it does…"], // optional
   "lasts": { "kind": "time", "amount": "1", "unit": "minute" },
-  "ends": { "repeatSave": ["end-of-turn"] }                       // optional
+  "ends": { "repeatSave": ["end-of-turn"] }, // optional
 }
 ```
 
@@ -54,7 +54,7 @@ doubt, skip.
     of its next turn" (target) or "until the start of your next turn" (source = the caster);
   - `{ "kind": "until", "text": [...] }` for an ending in the book's words;
   - `{ "kind": "until-removed" }` when it lasts until dispelled or removed.
-  Concentration comes from the spell's duration; do not restate it.
+    Concentration comes from the spell's duration; do not restate it.
 - `ends.repeatSave`: moments the target repeats the save ("at the end of each of its turns" →
   `end-of-turn`, "whenever it takes damage" → `damaged`). Only when `lands` is a failed save.
 - `ends.escape`: `{ "dc": "spell" }` when it can escape with a check against the spell save DC.

@@ -35,11 +35,11 @@ table.
 
 ```jsonc
 {
-  "key": "ghoul-paralysis",            // lowercase-hyphenated, unique in the whole stat block
-  "name": "Ghoul paralysis",           // what a DM would call it; sentence case
+  "key": "ghoul-paralysis", // lowercase-hyphenated, unique in the whole stat block
+  "name": "Ghoul paralysis", // what a DM would call it; sentence case
   "lands": { "on": "save", "save": "con", "dc": "con" },
   "conditions": [{ "ref": "rule", "key": "paralyzed" }],
-  "lasts": { "kind": "turn", "boundary": "end", "whose": "target" }
+  "lasts": { "kind": "turn", "boundary": "end", "whose": "target" },
 }
 ```
 
@@ -91,15 +91,31 @@ a chip reading e.g. "Paralyzed until the end of its next turn". Keep every other
 exactly as it was. Don't paraphrase. Join with the smallest connecting words ("is ", ": ").
 
 Before:
+
 ```json
-["A creature other than an Undead or an elf makes a ", { "dc": "con" }, " Constitution save after the hit. On failure, it is ", { "ref": "rule", "key": "paralyzed" }, " until the end of its next turn."]
+[
+  "A creature other than an Undead or an elf makes a ",
+  { "dc": "con" },
+  " Constitution save after the hit. On failure, it is ",
+  { "ref": "rule", "key": "paralyzed" },
+  " until the end of its next turn."
+]
 ```
+
 After:
+
 ```json
-["A creature other than an Undead or an elf makes a ", { "dc": "con" }, " Constitution save after the hit. On failure, it is ", { "effect": "ghoul-paralysis" }, "."]
+[
+  "A creature other than an Undead or an elf makes a ",
+  { "dc": "con" },
+  " Constitution save after the hit. On failure, it is ",
+  { "effect": "ghoul-paralysis" },
+  "."
+]
 ```
 
 Grapple (the escape DC moves into the effect):
+
 ```json
 "text": ["A Medium or smaller target is ", { "effect": "grabbed" }, "."],
 "effects": [{ "key": "grabbed", "name": "Grabbed", "lands": { "on": "hit" }, "conditions": [{ "ref": "rule", "key": "grappled" }], "lasts": { "kind": "until-removed" }, "ends": { "escape": { "dc": "str" } } }]
@@ -121,11 +137,19 @@ where it is.
 
 ```jsonc
 // Grasping Roots: save { ability: "str", dc: "str", onFail: { conditions: [restrained], also: ["It lasts until the end of its next turn."] } }
-{ "ability": "entangle",
+{
+  "ability": "entangle",
   "also": [{ "effect": "rooted" }],
-  "effects": [{ "key": "rooted", "name": "Rooted", "lands": { "on": "failed-save" },
-                "conditions": [{ "ref": "rule", "key": "restrained" }],
-                "lasts": { "kind": "turn", "boundary": "end", "whose": "target" } }] }
+  "effects": [
+    {
+      "key": "rooted",
+      "name": "Rooted",
+      "lands": { "on": "failed-save" },
+      "conditions": [{ "ref": "rule", "key": "restrained" }],
+      "lasts": { "kind": "turn", "boundary": "end", "whose": "target" },
+    },
+  ],
+}
 ```
 
 One ability can leave several effects (a bite that poisons, and a second failure that knocks
