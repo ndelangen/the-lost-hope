@@ -9612,6 +9612,30 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common plus two other languages.'],
       habitats: ['Desert', 'Swamp'],
+      appearance: [
+        [
+          'A gaunt, desiccated figure in rotting funeral wrappings shuffles out of the dark, trailing the dry smell of old dust and tomb spices.',
+        ],
+      ],
+      lore: [
+        [
+          'Mummies are undead raised by burial rites, and they rise to punish those who disturb their tomb, treasures, lands or loved ones. They lurk in ruined temples and tombs and guard them until intruders arrive. Their stare can frighten even hardened fighters, so expect them to open with that and then close to melee. Fire is the classic danger to wrapped, dry corpses.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: Mummy',
+            url: 'https://www.dndbeyond.com/monsters/mummy',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: 'Web search summary of dnd-wiki.org: Mummy (5e)',
+            url: 'https://new.dnd-wiki.org/wiki/Mummy_(5e)',
+          },
+        ],
+      ],
       stats: {
         size: 'small',
         type: 'undead',
@@ -10476,6 +10500,24 @@ export default createPublicationMonsters({
       tableNotes: [
         [
           'Start with a blocked trail and the animal guarding food. Leave space to back away, lure it off the trail, or fight.',
+        ],
+      ],
+      appearance: [
+        [
+          'A huge, feathered bear-like beast crashes through the undergrowth, hooting and screeching, with a hooked beak and heavy claws.',
+        ],
+      ],
+      lore: [
+        [
+          "The owlbear is an aggressive carnivore that lives in caves, usually in mated pairs, and will hunt almost anything bigger than a mouse. It grabs prey in a bear hug and rips with its beak. Its origin is unclear, and the likeliest guess is a wizard's experiment, though some fey claim it has always lived in the Feywild. Some communities tame them as guards or race them, but a handler is as likely to be attacked as obeyed.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Wikipedia: Owlbear',
+            url: 'https://en.wikipedia.org/wiki/Owlbear',
+          },
         ],
       ],
       stats: {
@@ -11808,6 +11850,24 @@ export default createPublicationMonsters({
       tableNotes: [
         [
           'Give it a noisy scrap pile to follow. Players who notice what it is after can spend cheap metal to save better gear.',
+        ],
+      ],
+      appearance: [
+        [
+          'A tick-like, armoured creature with scaly plates, four legs, a long tail and two twitching antennae scuttles toward the party, sniffing the air.',
+        ],
+      ],
+      lore: [
+        [
+          "The rust monster feeds on metal and goes straight for the party's armour and weapons rather than the people wearing them. It finds metal by its keen sense of smell and corrodes it with its antennae, and metal that strikes it can rust too. It is hard to outrun, so adventurers have traditionally escaped by throwing metal items away to distract it. It is found in dark underground passages.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Wikipedia: Rust monster',
+            url: 'https://en.wikipedia.org/wiki/Rust_monster',
+          },
         ],
       ],
       stats: {
@@ -13585,6 +13645,24 @@ export default createPublicationMonsters({
       page: 305,
       alignment: 'unaligned',
       habitats: ['urban'],
+      appearance: [
+        [
+          'A gigantic, broad-shouldered lizard-like beast, scabbed and warty, with a glossy shell over its back and tail and spikes along its jaw, neck and elbows, stomps into view with two horns pointing forward.',
+        ],
+      ],
+      lore: [
+        [
+          'The tarrasque exists to eat, kill and destroy, and is counted among the most dreaded monsters of the Material Plane. It shrugs off most magic and heals quickly, so it is a disaster to survive or avoid rather than a foe to fight conventionally. It can flatten a whole city. Some editions present it as a living weapon made by an ancient power to be used against the gods.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Wikipedia: Tarrasque',
+            url: 'https://en.wikipedia.org/wiki/Tarrasque',
+          },
+        ],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -13950,6 +14028,24 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant.'],
       habitats: ['Arctic', 'forests', 'hills', 'mountains', 'swamps', 'and the Underdark'],
+      appearance: [
+        [
+          'A hunched, long-armed green brute with a long nose and rubbery skin lumbers forward, its knuckles nearly scraping the ground.',
+        ],
+      ],
+      lore: [
+        [
+          'Trolls are dim, carnivorous and fearless, and are more agile than their clumsy look suggests. Many worship Vaprak the Destroyer. They are most often met in cold, mountainous country but can turn up almost anywhere. Their regeneration is their strength: wounds must be sealed with fire or acid to stop it, which is why fire is also their great vulnerability.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Wikipedia: Troll (Dungeons & Dragons)',
+            url: 'https://en.wikipedia.org/wiki/Troll_(Dungeons_%26_Dragons)',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'giant',

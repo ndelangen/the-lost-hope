@@ -4543,6 +4543,21 @@ export default createPublicationMonsters({
       page: 128,
       alignment: 'neutral evil',
       languages: ['Elvish', 'Undercommon.'],
+      appearance: [
+        [
+          'A slight, sharp-featured elf with obsidian-black skin and white or silver hair steps from the shadows, eyes glowing red in the dark.',
+        ],
+      ],
+      lore: [
+        [
+          'Drow live in underground city-states built around noble houses, ruled by priestesses of the spider goddess Lolth. Their society prizes cunning, ruthlessness and status, and rivals scheme and betray freely. They are stealthy, use hand crossbows, are skilled in magic, and dislike bright light. Some drow cultures reject Lolth.',
+        ],
+        [
+          'Sources: ',
+          { type: 'link', label: 'Wikipedia: Drow', url: 'https://en.wikipedia.org/wiki/Drow' },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5302,6 +5317,25 @@ export default createPublicationMonsters({
       page: 132,
       alignment: 'chaotic evil',
       languages: ['Giant', 'Orc.'],
+      appearance: [
+        [
+          'A hulking two-headed giant lumbers out, a weapon swinging in each hand while both heads glare and mutter at different things.',
+        ],
+      ],
+      lore: [
+        [
+          'Ettins are brutish giants of hills, mountains and the Underdark, driven by a chaotic and evil temper. Two minds make one hard to surprise: if one head sleeps, the other keeps watch, and the creature shrugs off many attempts to stun, charm or frighten it. It fights by hammering a foe with both weapons at once, so focus fire or sneak attacks are the best answer.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: ettin',
+            url: 'https://www.dndbeyond.com/monsters/ettin',
+          },
+        ],
+      ],
+      habitats: ['Hills', 'Mountain', 'Underdark'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -5391,6 +5425,30 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Draconic', 'Sylvan.'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A cat-sized dragon with butterfly wings and blue scales flits into view, often with a tinkling giggle that gives it away. It may vanish from sight a moment later.',
+        ],
+      ],
+      lore: [
+        [
+          'Faerie dragons are playful pranksters, not killers, and they often hide and watch a target before showing themselves once the joke is over. A blue one is well along in years and has picked up a handful of stronger illusions and enchantments by now. They love treasure, sweets and company, so baked goods or trinkets win their favour. They prefer to slip away or lure pursuers towards other dangers rather than fight, though animal and fey neighbours may help if one is attacked. Their scales shift through the rainbow with age, red being the youngest and violet the oldest, and older ones know stronger magic.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: faerie dragon older',
+            url: 'https://www.dndbeyond.com/monsters/faerie-dragon-older',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: '2d4chan: Faerie_Dragon',
+            url: 'https://2d4chan.org/wiki/Faerie_Dragon',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -5506,6 +5564,30 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Draconic', 'Sylvan.'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A cat-sized dragon with butterfly wings and green scales flits into view, often with a tinkling giggle that gives it away. It may vanish from sight a moment later.',
+        ],
+      ],
+      lore: [
+        [
+          'Faerie dragons are playful pranksters, not killers, and they often hide and watch a target before showing themselves once the joke is over. A green one is in mid-life, with a growing list of spells beyond the minor tricks of its youth. They love treasure, sweets and company, so baked goods or trinkets win their favour. They prefer to slip away or lure pursuers towards other dangers rather than fight, though animal and fey neighbours may help if one is attacked. Their scales shift through the rainbow with age, red being the youngest and violet the oldest, and older ones know stronger magic.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: faerie dragon older',
+            url: 'https://www.dndbeyond.com/monsters/faerie-dragon-older',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: '2d4chan: Faerie_Dragon',
+            url: 'https://2d4chan.org/wiki/Faerie_Dragon',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -5619,6 +5701,30 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Draconic', 'Sylvan.'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A cat-sized dragon with butterfly wings and indigo scales flits into view, often with a tinkling giggle that gives it away. It may vanish from sight a moment later.',
+        ],
+      ],
+      lore: [
+        [
+          'Faerie dragons are playful pranksters, not killers, and they often hide and watch a target before showing themselves once the joke is over. An indigo one is nearly at its full age and commands some of the stronger spells the species gets, such as suggestion. They love treasure, sweets and company, so baked goods or trinkets win their favour. They prefer to slip away or lure pursuers towards other dangers rather than fight, though animal and fey neighbours may help if one is attacked. Their scales shift through the rainbow with age, red being the youngest and violet the oldest, and older ones know stronger magic.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: faerie dragon older',
+            url: 'https://www.dndbeyond.com/monsters/faerie-dragon-older',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: '2d4chan: Faerie_Dragon',
+            url: 'https://2d4chan.org/wiki/Faerie_Dragon',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -5738,6 +5844,30 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Draconic', 'Sylvan.'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A cat-sized dragon with butterfly wings and orange scales flits into view, often with a tinkling giggle that gives it away. It may vanish from sight a moment later.',
+        ],
+      ],
+      lore: [
+        [
+          'Faerie dragons are playful pranksters, not killers, and they often hide and watch a target before showing themselves once the joke is over. An orange one is still young and knows only minor tricks. They love treasure, sweets and company, so baked goods or trinkets win their favour. They prefer to slip away or lure pursuers towards other dangers rather than fight, though animal and fey neighbours may help if one is attacked. Their scales shift through the rainbow with age, red being the youngest and violet the oldest, and older ones know stronger magic.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: faerie dragon older',
+            url: 'https://www.dndbeyond.com/monsters/faerie-dragon-older',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: '2d4chan: Faerie_Dragon',
+            url: 'https://2d4chan.org/wiki/Faerie_Dragon',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -5849,6 +5979,30 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Draconic', 'Sylvan.'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A cat-sized dragon with butterfly wings and red scales flits into view, often with a tinkling giggle that gives it away. It may vanish from sight a moment later.',
+        ],
+      ],
+      lore: [
+        [
+          'Faerie dragons are playful pranksters, not killers, and they often hide and watch a target before showing themselves once the joke is over. A red one is the youngest, with only a few simple illusions and utilities. They love treasure, sweets and company, so baked goods or trinkets win their favour. They prefer to slip away or lure pursuers towards other dangers rather than fight, though animal and fey neighbours may help if one is attacked. Their scales shift through the rainbow with age, red being the youngest and violet the oldest, and older ones know stronger magic.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: faerie dragon older',
+            url: 'https://www.dndbeyond.com/monsters/faerie-dragon-older',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: '2d4chan: Faerie_Dragon',
+            url: 'https://2d4chan.org/wiki/Faerie_Dragon',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -5958,6 +6112,30 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Draconic', 'Sylvan.'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A cat-sized dragon with butterfly wings and violet scales flits into view, often with a tinkling giggle that gives it away. It may vanish from sight a moment later.',
+        ],
+      ],
+      lore: [
+        [
+          'Faerie dragons are playful pranksters, not killers, and they often hide and watch a target before showing themselves once the joke is over. A violet one is the oldest of its kind and holds the strongest spells, including major image and polymorph. They love treasure, sweets and company, so baked goods or trinkets win their favour. They prefer to slip away or lure pursuers towards other dangers rather than fight, though animal and fey neighbours may help if one is attacked. Their scales shift through the rainbow with age, red being the youngest and violet the oldest, and older ones know stronger magic.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: faerie dragon older',
+            url: 'https://www.dndbeyond.com/monsters/faerie-dragon-older',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: '2d4chan: Faerie_Dragon',
+            url: 'https://2d4chan.org/wiki/Faerie_Dragon',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -6079,6 +6257,30 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Draconic', 'Sylvan.'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A cat-sized dragon with butterfly wings and yellow scales flits into view, often with a tinkling giggle that gives it away. It may vanish from sight a moment later.',
+        ],
+      ],
+      lore: [
+        [
+          'Faerie dragons are playful pranksters, not killers, and they often hide and watch a target before showing themselves once the joke is over. A yellow one is a young adult and has begun to learn a few more spells. They love treasure, sweets and company, so baked goods or trinkets win their favour. They prefer to slip away or lure pursuers towards other dangers rather than fight, though animal and fey neighbours may help if one is attacked. Their scales shift through the rainbow with age, red being the youngest and violet the oldest, and older ones know stronger magic.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: faerie dragon older',
+            url: 'https://www.dndbeyond.com/monsters/faerie-dragon-older',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: '2d4chan: Faerie_Dragon',
+            url: 'https://2d4chan.org/wiki/Faerie_Dragon',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -6320,6 +6522,25 @@ export default createPublicationMonsters({
       page: 123,
       alignment: 'neutral',
       languages: ['Ignan.'],
+      appearance: [
+        [
+          'A blaze given a vague humanoid shape sweeps forward, lighting the area and leaving ash, smoke and cinders behind it.',
+        ],
+      ],
+      lore: [
+        [
+          "A fire elemental is a wandering blaze with no purpose beyond destruction, setting alight whatever it touches. It can squeeze through narrow gaps and will move into a foe's space to set it burning, and the flames keep burning until someone puts them out. Water is its weak point, and it ignores most ordinary weapons, so dousing it or using magic works best.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: fire elemental',
+            url: 'https://www.dndbeyond.com/monsters/fire-elemental',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -6540,6 +6761,25 @@ export default createPublicationMonsters({
       page: 134,
       alignment: 'neutral evil',
       languages: ['Common.'],
+      appearance: [
+        [
+          'A skull wreathed in blazing green flame hangs in the air, its mad laughter echoing around it.',
+        ],
+      ],
+      lore: [
+        [
+          'A flameskull is a tiny undead spellcaster that hovers and sheds light. It attacks with bolts of fire from its eyes and casts wizard spells from memory, including fireball and magic missile. If it is destroyed it reforms after an hour, unless holy water is sprinkled on the remains or dispel magic or remove curse is cast on them.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: flameskull',
+            url: 'https://www.dndbeyond.com/monsters/flameskull',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -6814,6 +7054,24 @@ export default createPublicationMonsters({
       page: 19,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [
+        [
+          'A sword hangs in the air and dances about, striking like a duellist that cannot be hurt.',
+        ],
+      ],
+      lore: [
+        [
+          'A flying sword is a magically animated blade, often used as a guardian. While it lies still it looks like an ordinary weapon, so it can ambush anyone who picks it up. It fights without fear and has only a short sense of its surroundings, and an antimagic field or dispel magic can shut it down.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: flying sword',
+            url: 'https://www.dndbeyond.com/monsters/flying-sword',
+          },
+        ],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -7042,6 +7300,25 @@ export default createPublicationMonsters({
           'It can remain still and pass for a statue. Its Multiattack is one bite and one claw. It resists nonmagical weapon damage of the bludgeoning, piercing, and slashing types unless the weapon is adamantine.',
         ],
       ],
+      appearance: [
+        [
+          'A grotesque, fiendish statue breaks from its perch on the masonry, wings spreading and claws out.',
+        ],
+      ],
+      lore: [
+        [
+          'Gargoyles are malevolent elemental creatures that lurk in ruins and among buildings, sitting motionless as statues until prey comes close. They enjoy the fear they cause when they spring to life. They fly, resist ordinary weapons, and strike with both bite and claws, so spotting one before it moves removes its surprise.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: gargoyle',
+            url: 'https://www.dndbeyond.com/monsters/gargoyle',
+          },
+        ],
+      ],
+      habitats: ['Underdark', 'Urban'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -9382,6 +9659,21 @@ export default createPublicationMonsters({
       page: 346,
       alignment: 'any alignment',
       languages: ['Any one language', 'usually Common.'],
+      appearance: [['A scarred fighter in arena kit steps forward with spear and shield.']],
+      lore: [
+        [
+          'Gladiators fight for the amusement of loud crowds. Some are brutal pit fighters who treat every bout as a fight to the death, while others are professional duellists who charge large fees and seldom kill. Either kind is fearless and hits hard, and it can knock a foe down with its shield or turn aside a blow.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: gladiator',
+            url: 'https://www.dndbeyond.com/monsters/gladiator',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -9482,6 +9774,23 @@ export default createPublicationMonsters({
       page: 163,
       alignment: 'chaotic evil',
       languages: ['Gnoll.'],
+      appearance: [
+        ['A feral, hyena-headed humanoid bounds in, snarling and ready to tear into prey.'],
+      ],
+      lore: [
+        [
+          'Gnolls attack without warning, kill their victims and devour them. They roam deserts, forests, grasslands and hills in chaotic evil packs. A gnoll that drops a foe can rush on to bite another, so it is most dangerous when many enemies are weakened.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: gnoll',
+            url: 'https://www.dndbeyond.com/monsters/gnoll',
+          },
+        ],
+      ],
+      habitats: ['Desert', 'Forest', 'Grassland', 'Hills'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -9808,6 +10117,23 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Goblin.'],
       tableNotes: [['After attacking, it can use a bonus action to Hide or Disengage.']],
+      appearance: [
+        ['A small, black-hearted humanoid scurries out of the dark with a blade or bow.'],
+      ],
+      lore: [
+        [
+          'Goblins lair in ruined dungeons and other gloomy places. One alone is weak, but they gather in numbers to torment others. They use bows and quick blades, then dart away or vanish into cover, so expect hit-and-run fighting.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: goblin',
+            url: 'https://www.dndbeyond.com/monsters/goblin',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Grassland', 'Hills', 'Underdark'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -9934,6 +10260,25 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.rise_of_tiamat_online_supplement, refs.publications.srd_5_1],
       page: 171,
       alignment: 'unaligned',
+      appearance: [
+        [
+          'A large bull-like monster charges in, hooves pounding, ready to exhale a cloud of petrifying gas.',
+        ],
+      ],
+      lore: [
+        [
+          'A gorgon is an unaligned beast-like monster of forests, grasslands and hills. It charges, gores and tramples, and it can breathe a cloud that starts turning those caught in it to stone. Staying out of its cone and avoiding a straight run at it blunts its attack.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: gorgon',
+            url: 'https://www.dndbeyond.com/monsters/gorgon',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Grassland', 'Hills'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -10260,6 +10605,25 @@ export default createPublicationMonsters({
       page: 177,
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Sylvan.'],
+      appearance: [
+        [
+          'A hunched hag with a voice that can imitate anything creeps from the trees or reeds, perhaps wearing a kinder face than her own.',
+        ],
+      ],
+      lore: [
+        [
+          'Green hags live in forests, hills and swamps. They are deceivers: a hag can mimic animal cries and human voices, appear as an ordinary humanoid, or turn invisible and leave no trace, so she is more likely to lure and trick than to charge in. She is at home in water and speaks Common, Draconic and Sylvan.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: green hag',
+            url: 'https://www.dndbeyond.com/monsters/green-hag',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Hills', 'Swamp'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -10887,6 +11251,21 @@ export default createPublicationMonsters({
       page: 347,
       alignment: 'any alignment',
       languages: ['Any one language', 'usually Common.'],
+      appearance: [['A watchful sentry in a chain shirt with spear and shield blocks the way.']],
+      lore: [
+        [
+          'Guards serve as city watchmen, sentries in forts and towns, or bodyguards for merchants and nobles. They are alert but ordinary fighters, using spear and shield. Expect them to call for help rather than fight alone.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: guard',
+            url: 'https://www.dndbeyond.com/monsters/guard',
+          },
+        ],
+      ],
+      habitats: ['Urban', 'Coastal', 'Grassland', 'Hills'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -11323,6 +11702,25 @@ export default createPublicationMonsters({
       page: 186,
       alignment: 'lawful evil',
       languages: ['Common', 'Goblin.'],
+      appearance: [
+        [
+          'A disciplined goblinoid with dark orange or reddish skin stands in formation, weapon ready.',
+        ],
+      ],
+      lore: [
+        [
+          'Hobgoblins value physical strength and martial skill above all else. They fight as a unit, and each blow lands harder when an ally stands near the target, so breaking up their formation helps. They have longswords and longbows and live in deserts, forests, grasslands, hills and the Underdark.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: hobgoblin',
+            url: 'https://www.dndbeyond.com/monsters/hobgoblin',
+          },
+        ],
+      ],
+      habitats: ['Desert', 'Forest', 'Grassland', 'Hills'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -12188,6 +12586,25 @@ export default createPublicationMonsters({
       page: 347,
       alignment: 'any alignment',
       languages: ['Any one language', 'usually Common.'],
+      appearance: [
+        [
+          'An armoured warrior with greatsword and crossbow rides or marches up, often with squires and hirelings in tow.',
+        ],
+      ],
+      lore: [
+        [
+          'Knights pledge service to a ruler, a religious order or a noble cause, and how well they keep the pledge depends on their alignment. They are brave and hard to frighten, can parry blows, and can rally allies with a shouted order. Expect a knight to fight in a group and to go on defending its people.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: knight',
+            url: 'https://www.dndbeyond.com/monsters/knight',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -12287,6 +12704,21 @@ export default createPublicationMonsters({
           'In direct sunlight, it attacks and makes sight-based Perception checks at disadvantage. It has advantage to attack if a non-incapacitated ally is within 5 feet of the target.',
         ],
       ],
+      appearance: [['A small reptilian creature squeaks and scrabbles out, hating the daylight.']],
+      lore: [
+        [
+          'Kobolds are cowardly reptilian humanoids that infest dungeons, relying on traps to make up for their weakness. They fight in packs, striking best when allies are close, and they do badly in bright sunlight. They speak Common and Draconic.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: kobold',
+            url: 'https://www.dndbeyond.com/monsters/kobold',
+          },
+        ],
+      ],
+      habitats: ['Underdark', 'Arctic', 'Coastal', 'Desert'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -12501,6 +12933,25 @@ export default createPublicationMonsters({
       page: 204,
       alignment: 'chaotic evil',
       languages: ['Abyssal and Draconic.'],
+      appearance: [
+        [
+          'A larger-than-usual lizardfolk with unreadable reptilian eyes strides out among its bone-decked, shell-shielded tribe, a trident in hand.',
+        ],
+      ],
+      lore: [
+        [
+          "Lizard kings and queens are lizardfolk touched by the demon lord Sess'inek, which makes them bigger, cleverer and thoroughly evil. They wrest a tribe from its shaman and push it to violence. In a fight the king uses a trident and natural weapons, grows tougher as it goes, and can lurk underwater for ambushes. The tribe prefers hunting parties and luring intruders towards dangerous beasts.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'DnD Notes: lizard king',
+            url: 'https://dnd-notes-7fb.pages.dev/mechanics/cli/bestiary/humanoid/lizard-king',
+          },
+        ],
+      ],
+      habitats: ['Swamp', 'Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -12604,6 +13055,23 @@ export default createPublicationMonsters({
       page: 204,
       alignment: 'neutral',
       languages: ['Draconic.'],
+      appearance: [
+        ['A scaly, reptilian humanoid steps from the swamp with a club and spiked shield.'],
+      ],
+      lore: [
+        [
+          'Lizardfolk are primitive reptilian humanoids of swamps and jungles. They are fiercely territorial and will do what it takes to survive, including killing. They can hold their breath for a long time, which suits ambushes from the water, and they fight with bites, clubs, shields and javelins.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: lizardfolk',
+            url: 'https://www.dndbeyond.com/monsters/lizardfolk',
+          },
+        ],
+      ],
+      habitats: ['Swamp', 'Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -12813,6 +13281,25 @@ export default createPublicationMonsters({
       page: 10,
       alignment: 'any alignment',
       languages: ['Any four languages.'],
+      appearance: [
+        [
+          'A robed spellcaster appears, a few spells already on the tip of the tongue and a dagger at the belt.',
+        ],
+      ],
+      lore: [
+        [
+          'Mages spend their lives studying magic. Good ones serve as advisers to rulers and nobles, while evil ones hide away to carry out dark experiments. A mage fights from range with spells such as fireball and cone of cold, and can slip away with misty step or fly, so it should be pressured before it can use them.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: mage',
+            url: 'https://www.dndbeyond.com/monsters/mage',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -13179,6 +13666,25 @@ export default createPublicationMonsters({
       page: 214,
       alignment: 'lawful evil',
       languages: ['Common.'],
+      appearance: [
+        [
+          'A figure with a serpent-haired head watches from the shadows, and statues of past victims stand nearby.',
+        ],
+      ],
+      lore: [
+        [
+          'A medusa is a victim of a terrible curse whose gaze turns onlookers to stone, and she surrounds herself with the monuments to her corruption. She lives in deserts and fights with her snake hair, a shortsword or a longbow. Fighting with eyes averted lowers the risk but makes the fight harder, and her own reflection in a bright polished surface can turn the gaze against her.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: medusa',
+            url: 'https://www.dndbeyond.com/monsters/medusa',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -13279,6 +13785,21 @@ export default createPublicationMonsters({
       page: 218,
       alignment: 'neutral',
       languages: ['Aquan', 'Common.'],
+      appearance: [["A humanoid with a fish's lower body rises from the waves, spear in hand."]],
+      lore: [
+        [
+          'Merfolk are aquatic humanoids that live in small tribes beneath the waves. They breathe both air and water and fight with spears, thrown or in melee. Expect them to defend their home waters rather than hunt on land.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: merfolk',
+            url: 'https://www.dndbeyond.com/monsters/merfolk',
+          },
+        ],
+      ],
+      habitats: ['Coastal', 'Underwater'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -13533,6 +14054,25 @@ export default createPublicationMonsters({
       page: 223,
       alignment: 'chaotic evil',
       languages: ['Abyssal.'],
+      appearance: [
+        [
+          'A massive bull-headed humanoid roars a battle cry, its fur stained with the blood of past victims.',
+        ],
+      ],
+      lore: [
+        [
+          'Minotaurs are savage, chaotic evil monstrosities that other creatures fear. A minotaur never forgets a route it has walked, which makes mazes its home ground. It charges to gore a foe and shove it down, and it may fight recklessly, hitting harder but leaving itself open. Breaking its charge by keeping some distance or terrain between you helps.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: minotaur',
+            url: 'https://www.dndbeyond.com/monsters/minotaur',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -14292,6 +14832,20 @@ export default createPublicationMonsters({
       page: 235,
       alignment: 'neutral evil',
       languages: ['Understands Abyssal, Common, and Infernal and cannot speak.'],
+      appearance: [['A large fiendish horse sheds light around itself, its hooves trailing fire.']],
+      lore: [
+        [
+          'A nightmare is a neutral evil fiend in horse form that cannot speak but understands Common and Infernal. It kicks with hooves that burn, and it can carry itself and up to three willing riders between the Material and Ethereal planes, so it often serves as a mount for something wicked. Fire does nothing to it.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: nightmare',
+            url: 'https://www.dndbeyond.com/monsters/nightmare',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -14351,6 +14905,25 @@ export default createPublicationMonsters({
       page: 348,
       alignment: 'any alignment',
       languages: ['Any two languages.'],
+      appearance: [
+        [
+          'A well-dressed person of high rank arrives, likely with guards and servants close behind.',
+        ],
+      ],
+      lore: [
+        [
+          'Nobles are members of the upper class whose wealth and connections give them influence as great as a ruler or general. They often travel with guards and commoner servants, and the same profile can stand in for a courtier of lower birth. A noble is skilled at deceiving, reading and persuading people, and fights with a rapier while parrying blows.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: noble',
+            url: 'https://www.dndbeyond.com/monsters/noble',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -14696,6 +15269,21 @@ export default createPublicationMonsters({
       page: 237,
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant.'],
+      appearance: [['A brutish giant in hide armour lumbers up, club in hand.']],
+      lore: [
+        [
+          'Ogres are chaotic evil giants known for their short tempers, and a provoked ogre goes on a rampage until nothing nearby is left intact. They live in almost every region, from the arctic to the Underdark, and speak Common and Giant. In a fight it clubs the nearest foe or throws javelins.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: ogre',
+            url: 'https://www.dndbeyond.com/monsters/ogre',
+          },
+        ],
+      ],
+      habitats: ['Arctic', 'Coastal', 'Desert', 'Forest'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -14791,6 +15379,21 @@ export default createPublicationMonsters({
       page: 239,
       alignment: 'lawful evil',
       languages: ['Common', 'Giant.'],
+      appearance: [
+        [
+          'A big, clawed giant looms over the party, a glaive in its grip, or perhaps it looks like a smaller humanoid.',
+        ],
+      ],
+      lore: [
+        [
+          'Oni are lawful evil giants of forests and cities. They can turn invisible, create darkness, and change shape between a small or medium humanoid, a large giant and their true form. Some of their stronger magic, such as charm, sleep and cone of cold, can only be used once a day. An oni heals itself every turn unless it is badly hurt, so fighting it in a single burst works best.',
+        ],
+        [
+          'Sources: ',
+          { type: 'link', label: 'D&D Beyond: oni', url: 'https://www.dndbeyond.com/monsters/oni' },
+        ],
+      ],
+      habitats: ['Forest', 'Urban'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -14892,6 +15495,19 @@ export default createPublicationMonsters({
       page: 246,
       alignment: 'chaotic evil',
       languages: ['Common', 'Orc.'],
+      appearance: [
+        ['A burly raider with tusk-like lower canines charges in with an axe, shouting.'],
+      ],
+      lore: [
+        [
+          'Orcs live in tribes and vent their aggression on any humanoids that oppose them. They fight with heavy axes and javelins, and they can rush a visible enemy as a bonus action. Expect them in many wild regions, usually in numbers.',
+        ],
+        [
+          'Sources: ',
+          { type: 'link', label: 'D&D Beyond: orc', url: 'https://www.dndbeyond.com/monsters/orc' },
+        ],
+      ],
+      habitats: ['Arctic', 'Forest', 'Grassland', 'Hills'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -15685,6 +16301,23 @@ export default createPublicationMonsters({
       page: 10,
       alignment: 'any alignment',
       languages: ['Any two languages.'],
+      appearance: [
+        ['A robed servant of a god steps forward with a mace, often with acolytes at their side.'],
+      ],
+      lore: [
+        [
+          "Priests spread their gods' teachings and lead temples and shrines, and they often hold sway in their communities. Evil ones serve tyrants openly or run hidden cults that perform corrupt rites. A priest fights with a mace and divine spells, including healing, protection and spells that dispel magic, and can add radiant damage to its blows.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: priest',
+            url: 'https://www.dndbeyond.com/monsters/priest',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -16766,6 +17399,20 @@ export default createPublicationMonsters({
           'Smother uses +5 at 5 feet against a Medium or smaller creature. A hit grapples (escape DC 13), restrains, blinds, and blocks breathing. The target takes 2d6 + 3 bludgeoning at the start of its turns. Half the damage dealt to the rug is transferred to its captive.',
         ],
       ],
+      appearance: [['An ordinary-looking rug lies on the floor, perfectly still.']],
+      lore: [
+        [
+          'A rug of smothering is a magically animated trap that looks like a plain rug until it moves. It leaps on a victim, wraps it up, blinds and holds it, and crushes it while the target struggles to breathe. It shares damage with the creature it holds, so killing it is easier by dealing with it rather than the person trapped inside. An antimagic field or dispel magic can disable it.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: rug of smothering',
+            url: 'https://www.dndbeyond.com/monsters/rug-of-smothering',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -16913,6 +17560,25 @@ export default createPublicationMonsters({
       page: 263,
       alignment: 'lawful evil',
       languages: ['Sahuagin.'],
+      appearance: [
+        [
+          'A scaled, sea-dwelling humanoid surges from the water with claws and a spear, sharks nearby.',
+        ],
+      ],
+      lore: [
+        [
+          'Sahuagin are lawful evil sea devils of coastal and underwater regions. They can breathe air but must return to the water now and then, they command nearby sharks by telepathy, and they get fiercer against wounded prey. Expect them to attack with bite, claws and spear and to strike while their sharks circle.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: sahuagin',
+            url: 'https://www.dndbeyond.com/monsters/sahuagin',
+          },
+        ],
+      ],
+      habitats: ['Coastal', 'Underwater'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -17237,6 +17903,23 @@ export default createPublicationMonsters({
       page: 265,
       alignment: 'neutral evil',
       languages: ['Ignan.'],
+      appearance: [
+        ['A heat-shimmering elemental with a lashing tail and a burning spear strides forward.'],
+      ],
+      lore: [
+        [
+          'Salamanders are neutral evil fire elementals of the Underdark that hatch from fire snakes. They are scorching to touch, their metal weapons burn those they hit, and their tails grab and hold foes while burning them. Cold or distance from them helps, and anyone grabbed is easily hit.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: salamander',
+            url: 'https://www.dndbeyond.com/monsters/salamander',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -17349,6 +18032,23 @@ export default createPublicationMonsters({
       page: 267,
       alignment: 'chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan.'],
+      appearance: [
+        ["A stocky fey with a goat's furry legs and hooves capers out of the trees, grinning."],
+      ],
+      lore: [
+        [
+          'Satyrs are rowdy fey of the wild woodlands, driven by curiosity and a love of indulgence. They are hard to sway with spells and fight with a ram, a short sword, or a short bow. They prefer play to combat but will fight if pushed.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: satyr',
+            url: 'https://www.dndbeyond.com/monsters/satyr',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -17566,6 +18266,21 @@ export default createPublicationMonsters({
       page: 349,
       alignment: 'any alignment',
       languages: ['Any one language', 'usually Common.'],
+      appearance: [['A lean tracker in practical gear watches from cover, bow ready.']],
+      lore: [
+        [
+          'Scouts are hunters and trackers who sell their services. Most hunt game, others work as bounty hunters, guides or military scouts. They have sharp hearing and sight, and favour a shortsword up close or a longbow at range.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: scout',
+            url: 'https://www.dndbeyond.com/monsters/scout',
+          },
+        ],
+      ],
+      habitats: ['Arctic', 'Coastal', 'Desert', 'Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -17627,6 +18342,21 @@ export default createPublicationMonsters({
       page: 179,
       alignment: 'chaotic evil',
       languages: ['Aquan', 'Common', 'Giant.'],
+      appearance: [['A twisted hag rises from the water, her real face horrifying to behold.']],
+      lore: [
+        [
+          'Sea hags are chaotic evil fey of coasts and the sea floor. Her true face frightens those who see it, and she can drop a frightened creature with a death glare, so looking away helps. She can also disguise herself as an ugly humanoid, though touch or a close look will reveal the illusion. She speaks Aquan, Common and Giant.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: sea hag',
+            url: 'https://www.dndbeyond.com/monsters/sea-hag',
+          },
+        ],
+      ],
+      habitats: ['Coastal', 'Underwater'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -17859,6 +18589,25 @@ export default createPublicationMonsters({
           'Bludgeoning damage is doubled. Poison damage has no effect, and neither does the poisoned condition or exhaustion.',
         ],
       ],
+      appearance: [
+        [
+          'A figure of bare bones shuffles forward, red points of light glowing in its empty eye sockets.',
+        ],
+      ],
+      lore: [
+        [
+          'Skeletons are animated by necromantic power and compelled to attack the living until destroyed or until the controlling power is gone. They understand the languages they knew in life but cannot speak. They are vulnerable to bludgeoning weapons and immune to poison, and they fight with shortswords and shortbows.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: skeleton',
+            url: 'https://www.dndbeyond.com/monsters/skeleton',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -17993,6 +18742,21 @@ export default createPublicationMonsters({
       page: 279,
       alignment: 'chaotic evil',
       languages: ['Understands every language it knew in life. It cannot speak.'],
+      appearance: [['A faint, hostile spirit drifts through a wall or floor, trailing chill.']],
+      lore: [
+        [
+          'A specter is an undead spirit that no longer remembers what it was, condemned to walk the world. It passes through creatures and objects and hates the sun. Its touch drains the life from a victim, shrinking its health until a long rest.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: specter',
+            url: 'https://www.dndbeyond.com/monsters/specter',
+          },
+        ],
+      ],
+      habitats: ['Underdark', 'Urban'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -18344,6 +19108,19 @@ export default createPublicationMonsters({
       page: 349,
       alignment: 'any alignment',
       languages: ['Any two languages.'],
+      appearance: [
+        ['An unremarkable person lingers at the edge of the crowd, listening and watching.'],
+      ],
+      lore: [
+        [
+          'Spies are hired by rulers, nobles, merchants and guildmasters to gather information in secret. Loyal ones would rather die than reveal what could expose their masters. In a fight a spy strikes from advantage with a shortsword or hand crossbow and uses quick moves to dash, disengage or hide.',
+        ],
+        [
+          'Sources: ',
+          { type: 'link', label: 'D&D Beyond: spy', url: 'https://www.dndbeyond.com/monsters/spy' },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -18487,6 +19264,23 @@ export default createPublicationMonsters({
       page: 152,
       alignment: 'neutral',
       languages: ['Giant.'],
+      appearance: [
+        ['A huge giant, at home on rocky ground, appears with a massive club and a rock in hand.'],
+      ],
+      lore: [
+        [
+          'Stone giants live in hills, mountains and the Underdark. They are natural athletes and the most graceful of the giants. They blend into rocky terrain, throw rocks that can knock a foe down, and can catch a thrown rock out of the air. Fighting them on open or rocky ground favours them.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: stone giant',
+            url: 'https://www.dndbeyond.com/monsters/stone-giant',
+          },
+        ],
+      ],
+      habitats: ['Hills', 'Mountain', 'Underdark'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -19415,6 +20209,21 @@ export default createPublicationMonsters({
       page: 350,
       alignment: 'any non-good alignment',
       languages: ['Any one language', 'usually Common.'],
+      appearance: [['A menacing enforcer hefts a mace, perhaps with others close by.']],
+      lore: [
+        [
+          'Thugs are ruthless enforcers skilled at intimidation and violence. They work for pay and have few moral limits. They fight better when allies are close, striking with maces or heavy crossbows.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: thug',
+            url: 'https://www.dndbeyond.com/monsters/thug',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -19570,6 +20379,21 @@ export default createPublicationMonsters({
       page: 289,
       alignment: 'chaotic good',
       languages: ['Common', 'Druidic', 'Elvish', 'Sylvan.'],
+      appearance: [['A huge tree stands motionless in the wood until it opens its limbs.']],
+      lore: [
+        [
+          'Treants are huge plants of chaotic good alignment that live in forests and speak Common, Druidic, Elvish and Sylvan. Motionless, a treant looks like a normal tree. It slams foes, hurls rocks, and once a day can animate nearby trees to fight for it. It does extra harm to structures.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: treant',
+            url: 'https://www.dndbeyond.com/monsters/treant',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -19651,6 +20475,23 @@ export default createPublicationMonsters({
       page: 350,
       alignment: 'any alignment',
       languages: ['Any one language.'],
+      appearance: [
+        ['A fighter from outside civilisation approaches with a spear, flanked by tribe-mates.'],
+      ],
+      lore: [
+        [
+          'Tribal warriors live outside civilisation and mostly support themselves by fishing and hunting. Each tribe follows a chief, who may be its oldest or strongest warrior or one the gods have blessed. They fight best in groups and attack with spears.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: tribal warrior',
+            url: 'https://www.dndbeyond.com/monsters/tribal-warrior',
+          },
+        ],
+      ],
+      habitats: ['Arctic', 'Coastal', 'Desert', 'Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -19780,6 +20621,24 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Modron.'],
       habitats: ['Mechanus'],
+      appearance: [
+        [
+          'An inverted pyramid shape marches in, each triangular face with its own arm, face and legs.',
+        ],
+      ],
+      lore: [
+        [
+          'Tridrones are lawful neutral modrons that oversee groups of duodrones and are commonly used as commanders when modrons go to battle. Modrons obey orders from the rank above them and give them to the rank below, and they cannot be compelled to act against their nature or instructions. A tridrone fights with three fist or three javelin attacks.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Black Citadel RPG: Modrons in 5e',
+            url: 'https://blackcitadelrpg.com/?p=6090',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -20149,6 +21008,22 @@ export default createPublicationMonsters({
       page: 314,
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 120 ft.'],
+      appearance: [
+        ['A fiend steps forward with a mercurial whip, its hypnotic gaze sizing up the party.'],
+      ],
+      lore: [
+        [
+          "Ultroloths are yugoloths, neutral evil fiends from Gehenna driven by wealth and self-preservation. They hire themselves out and will switch sides for a better offer, twisting an employer's aims to their own ends. In a fight an ultroloth stays clear of harm by teleporting or using its hypnotic gaze when foes close in, and holds enemies off with spells such as wall of fire. If it is losing, it may bargain.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: How to play a yugoloth',
+            url: 'https://www.dndbeyond.com/posts/601-how-to-play-a-yugoloth-like-the-ultimate-mercenary',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',

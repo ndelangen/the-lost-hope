@@ -3879,6 +3879,25 @@ export default createPublicationMonsters({
       name: 'Chimera',
       alignment: 'chaotic evil',
       languages: ['Understands Draconic but can’t speak'],
+      appearance: [
+        [
+          "A lion-bodied beast with wings and three heads: its own, a goat's and a dragon's. The dragon head smokes before it breathes.",
+        ],
+      ],
+      lore: [
+        [
+          'A chimera is a vile blend of lion, goat and dragon, found in grasslands, hills, mountains and the Underdark. It hunts from the air: it dives, washes its prey in fire from the dragon head, then lands to finish the job with all three heads. Fighting it where it cannot dive, such as under cover or in tunnels, takes away its favourite opening.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: chimera monster entry',
+            url: 'https://www.dndbeyond.com/monsters/chimera',
+          },
+        ],
+      ],
+      habitats: ['Grassland', 'Hill', 'Mountain', 'Underdark'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -6256,6 +6275,24 @@ export default createPublicationMonsters({
       name: 'Flesh Golem',
       alignment: 'neutral',
       languages: ['Understands Common plus one other language but can’t speak'],
+      appearance: [
+        [
+          'A hulking figure stitched and bolted together from humanoid body parts. It lumbers silently, understanding its maker but unable to speak.',
+        ],
+      ],
+      lore: [
+        [
+          "A flesh golem is a construct whose enchantments turn aside most spells and all but the strongest weapons. It obeys its creator, and wounded badly it can go berserk and attack whatever is nearest until its creator talks it down. Lightning feeds it, while fire makes it clumsy, so fire is the party's best answer.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: flesh golem monster entry',
+            url: 'https://www.dndbeyond.com/monsters/flesh-golem',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -7911,6 +7948,22 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Draconic'],
+      appearance: [
+        ['A small, lean dragon with a crest running from above the eyes down its spine.'],
+      ],
+      lore: [
+        [
+          'Green dragons are the most cunning of the true dragons, and even a wyrmling prefers misdirection and trickery to a straight fight. It breathes poison and is itself immune to it, so poison-based tactics against it are wasted. It can swim and breathe water, so it may retreat into a river or pond when hurt.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: green dragon wyrmling monster entry',
+            url: 'https://www.dndbeyond.com/monsters/green-dragon-wyrmling',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -8835,6 +8888,23 @@ export default createPublicationMonsters({
       name: 'Ice Mephit',
       alignment: 'neutral evil',
       languages: ['Primordial (Aquan, Auran)'],
+      appearance: [
+        ['A small elemental that looks like a jagged shard of ice when it keeps still.'],
+      ],
+      lore: [
+        [
+          'Ice mephits are small, spiteful elementals native to arctic lands. They like to sit motionless and pass for ice until prey is close, then blast a cone of frost and flutter off. When one dies it shatters into sharp ice that can hurt neighbours and set off its fellows. Fire and bludgeoning hurt them badly.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: ice mephit monster entry',
+            url: 'https://www.dndbeyond.com/monsters/ice-mephit',
+          },
+        ],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -9455,6 +9525,25 @@ export default createPublicationMonsters({
       name: 'Magma Mephit',
       alignment: 'neutral evil',
       languages: ['Primordial (Ignan, Terran)'],
+      appearance: [
+        [
+          'A small elemental with short limbs and glowing eyes that rises from lava. Still, it looks like a lump of volcanic rock, and it grins just before it breathes fire.',
+        ],
+      ],
+      lore: [
+        [
+          'Magma mephits are small, malicious fire elementals tied to lava and volcanic places. They hide as rock, burn foes with a cone of flame, and can heat metal to punish armoured targets. Dying, one bursts into lava that splashes anyone adjacent. Cold hurts them more than most things.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: magma mephit monster entry',
+            url: 'https://www.dndbeyond.com/monsters/magma-mephit',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -10863,6 +10952,24 @@ export default createPublicationMonsters({
       tags: ['Angel'],
       alignment: 'lawful good',
       languages: ['All', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A towering celestial warrior whose look varies: some are bald and statuesque, others resemble classical winged angels. It carries a great sword.',
+        ],
+      ],
+      lore: [
+        [
+          'A planetar is a powerful celestial servant of the upper planes, speaking with the authority of a divine agent. It can tell when someone lies, heal allies, and call back the dead, so bargaining with it is mostly about honesty. In a fight it hits with a radiant-charged blade and shrugs off ordinary weapons and spells.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: planetar monster entry',
+            url: 'https://www.dndbeyond.com/monsters/planetar',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -11677,6 +11784,24 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'chaotic evil',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'A young dragon that reeks of sulfur and pumice. Smoke leaks from its beaked snout, and its eyes flare with flame when it is angry.',
+        ],
+      ],
+      lore: [
+        [
+          'A red wyrmling is already proud and aggressive, relying on its fire breath and its ability to climb and fly to pick its moment. It is immune to fire, so fire-based answers fail against it, and its senses let it fight in dim or smoky places. Once its breath is spent it leans on melee until it recharges.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: red dragon wyrmling monster entry',
+            url: 'https://www.dndbeyond.com/monsters/red-dragon-wyrmling',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -12464,6 +12589,29 @@ export default createPublicationMonsters({
       name: 'Shrieker Fungus',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A human-sized purple mushroom that sits still and looks like any ordinary fungus.'],
+      ],
+      lore: [
+        [
+          'A shrieker is a harmless fungus whose danger is the noise it makes. When light or a creature comes close it lets out a piercing shriek heard from far off, and it keeps shrieking for a few turns afterwards. Underdark dwellers and monsters use that alarm to find intruders, so the party should expect company soon after.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: shrieker fungus monster entry',
+            url: 'https://www.dndbeyond.com/monsters/shrieker-fungus',
+          },
+          ', ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: shrieker monster entry',
+            url: 'https://www.dndbeyond.com/monsters/shrieker',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -15307,6 +15455,24 @@ export default createPublicationMonsters({
       tags: ['Demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A winged demon that leaks clouds of toxic spores from its body and lets out a horrific, disorienting screech.',
+        ],
+      ],
+      lore: [
+        [
+          "The vrock is an Abyssal demon that flies in to scatter spores that poison everything near it, then screeches to stun enemies. It resists most elemental damage and nonmagical weapons, and it reads minds telepathically. Holy water ends the spore cloud's effect.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: vrock monster entry',
+            url: 'https://www.dndbeyond.com/monsters/vrock',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -15541,6 +15707,21 @@ export default createPublicationMonsters({
       tags: ['Lycanthrope'],
       alignment: 'neutral good',
       languages: ['Common (can’t speak in bear form)'],
+      appearance: [['A towering bear-man, caught between human reason and the beast within.']],
+      lore: [
+        [
+          'A werebear is a cursed person who can switch between humanoid, hybrid and bear forms at will, and its bite spreads the curse of lycanthropy. It is tough and ignores ordinary unsilvered weapons. Its keen sense of smell makes hiding from it hard.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: werebear monster entry',
+            url: 'https://www.dndbeyond.com/monsters/werebear',
+          },
+        ],
+      ],
+      habitats: ['Arctic', 'Forest', 'Hill'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -15748,6 +15929,23 @@ export default createPublicationMonsters({
       tags: ['Lycanthrope'],
       alignment: 'lawful evil',
       languages: ['Common (can’t speak in rat form)'],
+      appearance: [
+        ['A cursed person who shifts between humanoid, rat-humanoid hybrid and giant rat.'],
+      ],
+      lore: [
+        [
+          "Wererats organise like a thieves' guild and spread their curse only to recruits they choose. They prefer stealth and escape over open fighting, and their keen smell helps them track targets. Unsilvered weapons barely hurt them, so expect them to bolt rather than slug it out.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: wererat monster entry',
+            url: 'https://www.dndbeyond.com/monsters/wererat',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Urban'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -15844,6 +16042,21 @@ export default createPublicationMonsters({
       tags: ['Lycanthrope'],
       alignment: 'neutral',
       languages: ['Common (can’t speak in tiger form)'],
+      appearance: [['A cursed humanoid that becomes a tiger or a savage tiger-human hybrid.']],
+      lore: [
+        [
+          'A weretiger can pass its curse on with a bite. It pounces after a charge, knocking a target down and biting again, and in humanoid form it uses a scimitar or a bow. Keen hearing and smell make it hard to surprise, and unsilvered weapons do it little harm.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: weretiger monster entry',
+            url: 'https://www.dndbeyond.com/monsters/weretiger',
+          },
+        ],
+      ],
+      habitats: ['Desert', 'Forest', 'Grassland'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -15949,6 +16162,23 @@ export default createPublicationMonsters({
       tags: ['Lycanthrope'],
       alignment: 'chaotic evil',
       languages: ['Common (can’t speak in wolf form)'],
+      appearance: [
+        ['A savage predator that shifts between human, wolf and a hulking wolf-headed hybrid.'],
+      ],
+      lore: [
+        [
+          "A werewolf's bite can curse a victim to become one too. Changing form takes an action, so it may run in as a fast wolf and then fight as a hybrid brute, or use a spear in human form. It resists ordinary unsilvered weapons and is hard to ambush because of its keen hearing and smell.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: werewolf monster entry',
+            url: 'https://www.dndbeyond.com/monsters/werewolf',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Hill'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -16058,6 +16288,21 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'chaotic evil',
       languages: ['Draconic'],
+      appearance: [['A young dragon of frozen lands, small beside its elders.']],
+      lore: [
+        [
+          'White wyrmlings are often abandoned by their parents, though some are allowed to remain in the lair. Greedy and proud, they may resent feeling small beside larger dragons. Immune to cold, it breathes frost in a cone, and it can burrow, swim and fly to reposition.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: white dragon wyrmling monster entry',
+            url: 'https://www.dndbeyond.com/monsters/white-dragon-wyrmling',
+          },
+        ],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -16240,6 +16485,21 @@ export default createPublicationMonsters({
       name: 'Winter Wolf',
       alignment: 'neutral evil',
       languages: ['Common', 'Giant'],
+      appearance: [['A snow-white wolf with pale eyes, as big as a dire wolf.']],
+      lore: [
+        [
+          'Frost giants keep winter wolves as guards and hunting partners, and they understand simple Common and Giant. They breathe a freezing cone whenever they can, bite to knock foes prone, and gain an edge when allies flank a target. Hiding in snow and sensing by smell make them hard to ambush, and cold-based attacks do nothing to them.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: winter wolf monster entry',
+            url: 'https://www.dndbeyond.com/monsters/winter-wolf',
+          },
+        ],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -16931,6 +17191,21 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [['A dragon with a crest running from its eyes down its spine.']],
+      lore: [
+        [
+          'Green dragons are the most cunning true dragons and win through misdirection and trickery. It bites and claws in melee and breathes a poison cone, and it is immune to poison. It breathes both air and water, so it can use water to flee or attack.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: young green dragon monster entry',
+            url: 'https://www.dndbeyond.com/monsters/young-green-dragon',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -17003,6 +17278,25 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A dragon that reeks of sulfur and ash, with smoke drifting from its snout and flame flickering in its eyes when angry.',
+        ],
+      ],
+      lore: [
+        [
+          'It opens with a cone of fire, then closes with bite and claws, using flight to reposition. Immune to fire, it may fight in melee for several rounds while its breath recharges.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: young red dragon monster entry',
+            url: 'https://www.dndbeyond.com/monsters/young-red-dragon',
+          },
+        ],
+      ],
+      habitats: ['Hill', 'Mountain'],
       stats: {
         size: 'large',
         type: 'dragon',

@@ -89,6 +89,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ["Understands Abyssal but can't speak."],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'A dripping, slimy fungal growth clings around a doorway or window frame, stuck fast by a gluey secretion. It looks like harmless mould until it moves.',
+        ],
+      ],
+      lore: [
+        [
+          'Alkiliths are off-casts of the demon lord Juiblex that slowly gained minds and want to reach the Material Plane. Most cultists will not summon one because it opens portals to the Abyss, so it finds a door or window, wraps itself around it and waits. Left alone, the opening attunes to the Abyss and becomes a portal, and each one weakens reality and lets worse demons through.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -206,6 +217,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Any one language (usually Common).'],
       habitats: ['forest', 'urban'],
+      appearance: [
+        [
+          'Archers stand on walls or lurk at the edge of settled land. A notable one is recognised by distinctive fletching, such as owlbear mane, cockatrice feathers or dryad leaves.',
+        ],
+      ],
+      lore: [
+        [
+          'Archers work as castle guards, frontier hunters and battlefield artillery, and some turn brigand or guard caravans. They fight at range and are most dangerous when posted somewhere they can shoot freely.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -321,6 +343,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan.'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'An autumn eladrin works its magic to ease the troubles of those who ask for help, and tolerates no fighting near it.',
+        ],
+      ],
+      lore: [
+        [
+          'An eladrin takes on the autumn aspect when it feels goodwill. It heals the ailments of those who seek its aid and quickly ends disputes to keep the peace. It will not allow violence in its presence, so a party that starts a brawl near one can expect it to step in.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -469,6 +502,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Abyssal.'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'A gaunt fiend with leathery skin, a long skull and a single curved horn, its claws dripping acidic slime. Its glare saps the strength of whoever it fixes on.',
+        ],
+      ],
+      lore: [
+        [
+          "Babaus combine devilish cunning with demonic bloodlust. The first arose from the blood of the demon lord Graz'zt, spilled in a fight that helped break the archdevil Glasya's forces. They are bloodthirsty killers that weaken enemies with their stare before tearing into them.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -569,6 +613,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ["Understands Common and the languages of its creator but can't speak."],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A huge toad-like biped stands upright, a blend of shadow and flesh. Tarry goo drips from it and wisps of shadow trail behind.',
+        ],
+      ],
+      lore: [
+        [
+          'Hags make banderhobbs with foul magic and use them as thugs, thieves and kidnappers. It swallows its victims whole, and once it has a target in mind it can sense that creature from up to a mile away. It only lasts a few days before collapsing into tarry goo and shadow.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -846,6 +901,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['All.'],
       habitats: ['desert'],
+      appearance: [
+        [
+          'A creature of the Astral Plane that picks its way over the petrified remains of dead gods, recording secrets on bones. Its spectral double may appear while its body lies still.',
+        ],
+      ],
+      lore: [
+        [
+          'Berbalangs seek secrets by calling up the spirits of the dead and writing what they learn on bones. A berbalang can send a spectral duplicate to spy on gods and their servants, leaving its real body unconscious and defenceless, so it keeps those trips short. Finding the helpless body is the best way to stop one.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -938,6 +1004,17 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Draconic', 'Infernal', 'telepathy 120 ft.'],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A draconic devil that weaves shadows around itself to hide and slip close to its victim.',
+        ],
+      ],
+      lore: [
+        [
+          'Black abishais are mortals turned into dragon-like devils and are fanatically loyal to Tiamat. They serve as assassins and infiltrators, using shadows to cover their approach before a lethal strike.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1105,6 +1182,15 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Draconic', 'Infernal', 'telepathy 120 ft.'],
       habitats: ['coastal', 'urban'],
+      appearance: [
+        ['A draconic devil with the bearing of a scholar, often found among old texts and relics.'],
+      ],
+      lore: [
+        [
+          "Blue abishais are the most cunning and learned of Tiamat's devils. They hunt forgotten lore and lost relics, and their study makes them capable spellcasters who use magic to devastate Tiamat's enemies.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1283,6 +1369,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic neutral',
       languages: ['Sylvan.'],
       habitats: ['forest', 'hill', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A small fey peers from under a bed or out of a closet, oil on its hands, ready to bother whoever lives there.',
+        ],
+      ],
+      lore: [
+        [
+          'Boggles are born from the loneliness of thinking beings near places where the Feywild touches the world. They hide in homes to frighten and pester people and use oil for petty mischief. If threatened they run rather than fight, and they can open short-lived invisible rifts beside a frame to reach or cross short distances.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'fey',
@@ -1413,6 +1510,17 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ["Understands all languages but can't speak."],
       habitats: ['grassland'],
+      appearance: [
+        [
+          'A hulking war machine sheathed in the armour and weapons of fallen soldiers, with corpses impaled on it.',
+        ],
+      ],
+      lore: [
+        [
+          "Cadaver collectors are ancient war machines that roam Acheron until a necromancer summons them to bolster an army. They gather on big battlefields, wear the arms of the dead and impale corpses on themselves, and can summon those corpses' spirits to fight. If its summoner dies, one may wander the Material Plane for centuries gathering bodies.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -1516,6 +1624,15 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 60 ft.'],
       habitats: ['coastal', 'underdark', 'urban'],
+      appearance: [
+        ['A yugoloth hunter and guardian whose spiny tongue lashes out to seize intruders.'],
+      ],
+      lore: [
+        [
+          'Evil powers hire canoloths to track targets and guard treasures or important places. They sense invisible creatures and create a field that blocks teleportation nearby. They grab trespassers with their tongues and keep them captive or tear them apart if told to kill. They follow the terms of a contract exactly, doing neither more nor less.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1716,6 +1833,17 @@ export default createPublicationMonsters({
       page: 73,
       alignment: 'unaligned',
       habitats: ['underdark'],
+      appearance: [
+        [
+          'A subterranean arachnid sits motionless in the dark while sticky filaments hang from its snout.',
+        ],
+      ],
+      lore: [
+        [
+          'Cave fishers use sticky filaments to snare prey, bats in particular, and reel in whatever blunders into a strand. Neighbouring cave fishers compete for the same catch. Their blood is flammable, so they avoid fire. Their filaments, shells and blood are valued, and hatchlings can be trained as guardians or war beasts.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1899,6 +2027,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Undercommon.'],
       habitats: ['underdark'],
+      appearance: [
+        [
+          'A multi-armed, spider-like biped scuttles through a cavern draped in webs and spider shrines.',
+        ],
+      ],
+      lore: [
+        [
+          'Chitines are devoted to Lolth and live in Underdark colonies ruled by choldriths, in worker and warrior castes. They spin webbing for buildings and traps, love spiders, build shrines to Lolth and turn any area they settle into a treacherous web-filled place. They are bound to sacrifice themselves to protect their choldriths.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -1977,6 +2116,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Deep Speech.'],
       habitats: ['forest', 'mountain', 'underdark'],
+      appearance: [
+        [
+          'A small, boneless-looking creature with flexible limbs squeezes out of a crack in a cave wall, long starfish-like hands reaching.',
+        ],
+      ],
+      lore: [
+        [
+          "Chokers hunt alone from narrow cracks in cave walls, using a previous victim's corpse as bait. When prey draws near, they seize the throat and pin the victim to the wall. They talk to other chokers with keening howls.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -2058,6 +2208,15 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["Understands one language of its creator but can't speak."],
       habitats: ['forest', 'grassland', 'hill', 'mountain'],
+      appearance: [
+        ['A snake of metal and gears slides forward, its fangs loaded with alchemical venom.'],
+      ],
+      lore: [
+        [
+          'Gnomes build iron cobras as poisonous guardians. Its bite can paralyse or cloud the mind, and as a clockwork it can be customised with enhancements and malfunctions by its builder.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -2145,6 +2304,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: [],
       habitats: ['forest', 'swamp', 'urban'],
+      appearance: [
+        [
+          'An enormous plant tears itself free of the ground, fibrous tentacles dragging at corpses, and a nauseating stench rolls out ahead of it.',
+        ],
+      ],
+      lore: [
+        [
+          'A corpse flower sprouts on the grave of an evil necromancer or powerful undead and, unless uprooted and burned as a seedling, grows huge and pulls free to scavenge bodies. It despises the living, and its stench can sicken those nearby. The smell fades a few days after the plant dies.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'plant',
@@ -2259,6 +2429,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Telepathy 30 ft.'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'A rat with an uncanny, watchful look scurries in a group, moving as though the whole group thinks as one.',
+        ],
+      ],
+      lore: [
+        [
+          'Mind flayers make cranium rats by bathing ordinary rats in psionic energy until they grow cleverer. A big enough swarm merges into one mind with psionic powers. Illithid colonies use them as spies, and their thoughts reach the elder brain when they are within its telepathic range.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'tiny',
         type: 'aberration',
@@ -2309,6 +2490,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic neutral',
       languages: ['Elvish', 'Sylvan.'],
       habitats: ['forest', 'swamp', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A small fey wrapped in clothes against the light, with a body that seems to swallow brightness.',
+        ],
+      ],
+      lore: [
+        [
+          "Darklings descend from a cursed fey house and live in hidden caverns under other peoples' towns as thieves and assassins. Their curse pulls light into their bodies and ages them quickly, so they cover up when light threatens them. When one dies, the stored light bursts out, destroying the body and much of what it carried.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'fey',
@@ -2461,6 +2653,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['The languages it knew in life.'],
       habitats: ['urban'],
+      appearance: [['An undead warlock, still tied to the patron it failed.']],
+      lore: [
+        [
+          "A deathlock rises when a warlock breaks a pact with an evil patron. It drops its own goals for the patron's desires, such as wrecking a temple or hunting materials for a dreadful entity. It may need to serve a stronger being or gather servants to succeed.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2567,6 +2766,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['The languages it knew in life.'],
       habitats: ['urban'],
+      appearance: [['A deathlock of great power, giving orders to lesser creatures.']],
+      lore: [
+        [
+          'A deathlock mastermind still serves its patron, but is free to devise its own plans and tactics. It recruits lesser creatures and runs wide conspiracies that end in great evil.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2702,6 +2908,17 @@ export default createPublicationMonsters({
       page: 87,
       alignment: 'typically neutral evil',
       languages: ['The languages it knew in life.'],
+      appearance: [
+        [
+          'A deathlock stripped of much of its magic, caught between the warlock it was and the wretched state of a wight.',
+        ],
+      ],
+      lore: [
+        [
+          'A deathlock wight has lost most of its magic as a special punishment. It lingers between warlock and wight, and still serves the aims of its patron.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2878,6 +3095,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Dwarvish', 'Undercommon.'],
       habitats: ['mountain', 'underdark'],
+      appearance: [
+        [
+          'Small, dwarf-like folk howl in a crowd, alone looking weak and fearful but fierce together.',
+        ],
+      ],
+      lore: [
+        [
+          'Derro are subterranean dwarf-kin, thought to be dwarves warped by mind flayers. Cowardly before the strong and vicious toward the weak, they are weak alone but terrifying as a howling horde. They are wary and distrustful, usually led by savants with strong sorcerous talent, and believe survival at any price is a virtue.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -2995,6 +3223,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic good',
       languages: ['Aquan', 'telepathy 120 ft..'],
       habitats: ['coastal', 'underwater'],
+      appearance: [
+        [
+          'A dolphin leaps from glowing water and vanishes, then reappears further on, singing telepathically.',
+        ],
+      ],
+      lore: [
+        [
+          "Dolphin delighters live in the Feywild's seas and also on the Material Plane, lifting the mood of sailors with telepathic sea chanteys. They leap and teleport through luminous waters and are loyal allies of anyone fighting gloom and cruelty beneath the waves. They often accompany sea elves, tritons and tortles.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -3077,6 +3316,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'Elvish', 'Undercommon.'],
       habitats: ['underdark'],
+      appearance: [
+        [
+          'An ogre-sized, four-armed biped with purple skin and pale hair, glowing red eyes and a doglike snout, with two heavy clawed arms and two slim, elf-like ones.',
+        ],
+      ],
+      lore: [
+        [
+          "A draegloth results when an elf priest of Lolth merges their own fey essence with a glabrezu's fiendish essence, a ritual that rarely works. Among the drow of Menzoberranzan it is a weapon against rival houses and can swing a battle. Most resent orders but are taught to vent their anger on their creator's enemies, and an ambitious one may leave its creator and go its own way.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -3415,6 +3665,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Dwarvish', 'Undercommon.'],
       habitats: ['mountain', 'underdark'],
+      appearance: [['A duergar whose body is partly replaced with mechanical devices.']],
+      lore: [
+        [
+          'Duergar despots replace parts of themselves with mechanisms that they control through psionic power. Like all duergar, they are deep-Underdark dwarves whose psionics and gloom came from their mind flayer captors.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3652,6 +3909,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Dwarvish', 'Undercommon.'],
       habitats: ['mountain', 'underdark'],
+      appearance: [['A duergar rider charges in on a female steeder or another Underdark mount.']],
+      lore: [
+        [
+          'Kavalrachni are duergar cavalry, trained to fight from the backs of female steeders and other Underdark creatures. They are mobile shock troops of duergar armies.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3759,6 +4023,15 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ["Understands Dwarvish but can't speak."],
       habitats: ['mountain', 'underdark'],
+      appearance: [
+        ['A grinding machine of stone-crushing sound, sometimes with a duergar fused into it.'],
+      ],
+      lore: [
+        [
+          'The screamer uses sonic energy to grind rock to dust and knock invaders down. It may have a duergar fused into it whose psionic energy powers the machine, and that duergar can turn pain from attacks into power.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3843,6 +4116,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Dwarvish', 'Undercommon.'],
       habitats: ['mountain', 'underdark'],
+      appearance: [['An elite duergar soldier in a war band.']],
+      lore: [
+        [
+          'Stone guards are elite duergar troops. They are sent in small numbers to strengthen ordinary war bands, or gathered into strike forces for particular missions.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3959,6 +4239,15 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Dwarvish', 'Undercommon.'],
       habitats: ['mountain', 'underdark'],
+      appearance: [
+        ['A merciless duergar commander driving warriors forward with bursts of psionic energy.'],
+      ],
+      lore: [
+        [
+          'The duergar warlord is cunning, inspiring and without mercy. It leads well and uses spikes of psionic energy to push the warriors it commands to fight harder.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4094,6 +4383,18 @@ export default createPublicationMonsters({
       page: 122,
       alignment: 'typically neutral',
       languages: ['Terran', "one language of its creator's choice."],
+      appearance: [
+        [
+          "A suit of plate armour animated by a bound earth elemental, moving only on its masters' orders.",
+        ],
+      ],
+      lore: [
+        [
+          'A myrmidon is an elemental conjured and bound into a ritually made suit of plate armour. It remembers nothing of its free life and exists only to obey its creators.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Elemental Plane of Earth'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -4164,6 +4465,17 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Common plus six other languages.'],
       habitats: ['swamp', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A figure that looks exactly like someone the party knows, joined to a mass of goo by long tendrils, with a faint smell of sulphur.',
+        ],
+      ],
+      lore: [
+        [
+          'Older oblexes have eaten so many memories that they can build duplicates of past victims from their own bodies. The duplicates stay tethered by goo tendrils and are told apart from the original only by a faint sulphur smell. The oblex uses them to lure prey into danger or to slip into settlements and reach better victims.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'huge',
         type: 'ooze',
@@ -4318,6 +4630,14 @@ export default createPublicationMonsters({
       page: 123,
       alignment: 'typically neutral',
       languages: ['Ignan and one language chosen by its creator.'],
+      appearance: [['A suit of plate armour animated by a bound fire elemental.']],
+      lore: [
+        [
+          'A fire myrmidon is a fire elemental bound into a ritually made suit of plate armour. It has no memory of its former existence and serves only its creators.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Elemental Plane of Fire'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -4393,6 +4713,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Draconic', 'Ignan.'],
       habitats: ['hill', 'mountain', 'underdark'],
+      appearance: [['A firenewt in the service of Imix, Prince of Evil Fire.']],
+      lore: [
+        [
+          'Firenewt warlocks of Imix come from militaristic theocracies that worship destructive fire and promote cruelty and aggression. They lead those theocracies or advise a high priest.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -4551,6 +4878,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Gnoll', 'Abyssal.'],
       habitats: ['coastal', 'forest', 'grassland', 'hill'],
+      appearance: [['A large, vicious gnoll at the head of a war band, carrying a flail.']],
+      lore: [
+        [
+          "Yeenoghu turns an unusually strong and cruel gnoll into a flind to lead a war band, and each band has only one. The flind sets the band's course and uses demonic insight to steer it toward weak prey. It leads the charge, and its flail inflicts crippling pain, paralysis and disorientation.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -4674,6 +5008,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['swamp', 'underdark'],
+      appearance: [
+        [
+          'A huge elephant-sized amphibian with four tentacles, rubbery hide, a fanged mouth with a prehensile tongue and an eyestalk with three eyes, lying submerged in a murky pool with only the eyestalk showing.',
+        ],
+      ],
+      lore: [
+        [
+          'The froghemoth hides in swamp water and erupts to grab several targets at once, eating one with its tongue and holding the rest. Bullywugs may worship it as a god and bring it tribute, and it can be tamed after a fashion with food.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -4875,6 +5220,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Gith.'],
       habitats: ['desert', 'mountain', 'urban'],
+      appearance: [['A tall, gaunt githyanki who blends sword and spell.']],
+      lore: [
+        [
+          'Gish mix magic with swordplay, which makes them dangerous in battle and well suited to assassination, raiding and spying. They belong to the psionic githyanki, most of whom live on the Astral Plane.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4984,6 +5336,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Gith.'],
       habitats: ['desert', 'mountain', 'urban'],
+      appearance: [['A githyanki champion at the head of a column of troops.']],
+      lore: [
+        [
+          "Kith'raks command ten sarths, each of whom commands ten warriors. They go through torturous training and psionic testing before their underlings respect them.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5086,6 +5445,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Gith.'],
       habitats: ['desert', 'mountain', 'urban'],
+      appearance: [['A githzerai deep in meditation, beyond the limits of ordinary form.']],
+      lore: [
+        [
+          'The enlightened meditate for long hours to rise past the limits of the body and grasp reality. They are zerths who have completed the next tier of training.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5205,6 +5571,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Gnoll.'],
       habitats: ['arctic', 'forest', 'grassland', 'hill'],
+      appearance: [['A fast gnoll with short blades snarling as it runs.']],
+      lore: [
+        [
+          'Flesh gnawers avoid ranged weapons and fight with short blades, darting across a battlefield. They run down stragglers and finish off the wounded.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -5284,6 +5657,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Gnoll.'],
       habitats: ['arctic', 'forest', 'grassland', 'hill'],
+      appearance: [['A stealthy gnoll with a longbow, creeping ahead of its band.']],
+      lore: [
+        [
+          'Hunters are the stealthiest gnolls in a war band. They sneak ahead to pick off isolated enemies and clear the way for the main force. Their barbed arrows leave a victim too hobbled to flee easily.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -5376,6 +5756,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Understands Gnoll but cannot speak.'],
       habitats: ['arctic', 'forest', 'grassland', 'hill'],
+      appearance: [['A reanimated gnoll marching with its war band, bones showing, never hungry.']],
+      lore: [
+        [
+          "Gnolls that turn on each other in famine or power struggles may rise as witherlings. Survivors eat their dead comrades' flesh, keep the bones and use rituals to Yeenoghu to animate them. Witherlings travel with the war band and attack anything in their way, but never eat.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5469,6 +5856,13 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Draconic', 'Infernal', 'telepathy 120 ft.'],
       habitats: ['urban'],
+      appearance: [["A draconic devil with a diplomat's manner."]],
+      lore: [
+        [
+          'Green abishais are skilled at uncovering secrets and sensitive information. Their diplomacy and magic let them manipulate even shrewd opponents.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -6500,6 +6894,15 @@ export default createPublicationMonsters({
           'Source variant of Guard Drake. Check the variant rules for changes to actions and traits.',
         ],
       ],
+      appearance: [
+        ['A wingless, squat, muscular reptile that looks like a small version of a black dragon.'],
+      ],
+      lore: [
+        [
+          "Guard drakes are made from dragon scales through a grisly ritual, usually with a chromatic dragon's help, and resemble the black dragon they came from. They are obedient and territorial and are trained as watch beasts. A drake imprints on whoever feeds it first, reaches full size in two to three weeks and cannot breed.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -6567,6 +6970,15 @@ export default createPublicationMonsters({
           'Source variant of Guard Drake. Check the variant rules for changes to actions and traits.',
         ],
       ],
+      appearance: [
+        ['A wingless, squat, muscular reptile that looks like a small version of a blue dragon.'],
+      ],
+      lore: [
+        [
+          "Guard drakes are made from dragon scales through a grisly ritual, usually with a chromatic dragon's help, and resemble the blue dragon they came from. They are obedient and territorial and are trained as watch beasts. A drake imprints on whoever feeds it first, reaches full size in two to three weeks and cannot breed.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -6626,6 +7038,15 @@ export default createPublicationMonsters({
         [
           'Source variant of Guard Drake. Check the variant rules for changes to actions and traits.',
         ],
+      ],
+      appearance: [
+        ['A wingless, squat, muscular reptile that looks like a small version of a green dragon.'],
+      ],
+      lore: [
+        [
+          "Guard drakes are made from dragon scales through a grisly ritual, usually with a chromatic dragon's help, and resemble the green dragon they came from. They are obedient and territorial and are trained as watch beasts. A drake imprints on whoever feeds it first, reaches full size in two to three weeks and cannot breed.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -6694,6 +7115,15 @@ export default createPublicationMonsters({
           'Source variant of Guard Drake. Check the variant rules for changes to actions and traits.',
         ],
       ],
+      appearance: [
+        ['A wingless, squat, muscular reptile that looks like a small version of a red dragon.'],
+      ],
+      lore: [
+        [
+          "Guard drakes are made from dragon scales through a grisly ritual, usually with a chromatic dragon's help, and resemble the red dragon they came from. They are obedient and territorial and are trained as watch beasts. A drake imprints on whoever feeds it first, reaches full size in two to three weeks and cannot breed.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -6753,6 +7183,15 @@ export default createPublicationMonsters({
         [
           'Source variant of Guard Drake. Check the variant rules for changes to actions and traits.',
         ],
+      ],
+      appearance: [
+        ['A wingless, squat, muscular reptile that looks like a small version of a white dragon.'],
+      ],
+      lore: [
+        [
+          "Guard drakes are made from dragon scales through a grisly ritual, usually with a chromatic dragon's help, and resemble the white dragon they came from. They are obedient and territorial and are trained as watch beasts. A drake imprints on whoever feeds it first, reaches full size in two to three weeks and cannot breed.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -6847,6 +7286,13 @@ export default createPublicationMonsters({
       alignment: 'typically lawful neutral',
       languages: ['Common', 'Goblin.'],
       habitats: ['forest', 'grassland', 'hill'],
+      appearance: [['A hobgoblin spellcaster in a fey court, ready to call down fire.']],
+      lore: [
+        [
+          'Devastators are trained to cast fireballs and other destructive magic to defend courts in the Feywild or on the Material Plane, and also learn the basics of weapons. They are respected for the enemies they beat with magic, and many archfey want them to strengthen their armies.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -6958,6 +7404,17 @@ export default createPublicationMonsters({
       alignment: 'typically lawful neutral',
       languages: ['Common', 'Goblin.'],
       habitats: ['forest', 'grassland', 'hill'],
+      appearance: [
+        [
+          'A hobgoblin martial artist in a monstrous mask, mixing unarmed strikes with shadow magic.',
+        ],
+      ],
+      lore: [
+        [
+          'Iron shadows work as secret police, scouts and assassins for fey and mortal courts, wearing monster masks on secret missions. Recruits face treachery tests and those who fail are killed, before long secret training.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -7059,6 +7516,15 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ["Understands Abyssal but can't speak."],
       habitats: ['desert', 'grassland', 'hill', 'underdark'],
+      appearance: [
+        ['A nightmare hound whose howl floods the mind and makes clear thought impossible.'],
+      ],
+      lore: [
+        [
+          'Howlers come from Pandemonium and are found across the Lower Planes, where fiends train them as war hounds. Their speed and numbers let them corner prey, trained packs follow their leader without hesitation, and fiends value them for briefly crippling enemies in battle.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -7283,6 +7749,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'Gnoll.'],
       habitats: ['desert', 'grassland'],
+      appearance: [
+        [
+          "A creature with the head of a giant badger, deer legs and a large hyena's body, reeking of death, with steel-hard bony ridges in place of fangs.",
+        ],
+      ],
+      lore: [
+        [
+          "The leucrotta was reanimated with demon ichor and is clever and cruel, enjoying deceit, torture and killing. Its tracks are almost the same as a deer's, and it mimics the calls and voices of creatures it has heard to lure victims in, then attacks while they are confused. Yeenoghu's followers respect and enjoy watching them.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -7395,6 +7872,15 @@ export default createPublicationMonsters({
         'underdark',
         'urban',
       ],
+      appearance: [
+        ['A bitter, twisted hermit stepping out of a pool of darkness, strangling cord in hand.'],
+      ],
+      lore: [
+        [
+          'Meazels fled into the Shadowfell and were warped by its shadows into cruel beings who resent intruders. They step between pools of darkness to ambush travellers and may strangle them with cords, or carry victims to dangerous isolated places. Those pulled through the shadows are cursed, drawing sorrowsworn and undead to them.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -7467,6 +7953,18 @@ export default createPublicationMonsters({
       page: 179,
       alignment: 'typically lawful evil',
       languages: ['Understands Infernal but cannot speak, telepathy 120 ft.'],
+      appearance: [
+        [
+          'A faceless soldier in a metal mask marked with its commander and the layer of Hell it guards.',
+        ],
+      ],
+      lore: [
+        [
+          "Merregons are souls of soldiers, mercenaries and bodyguards who served evil in life, now serving as infernal legionnaires. They are the backbone of many devils' retinues, shrink from no danger and do not retreat unless ordered.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -7740,6 +8238,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft.'],
       habitats: ['swamp', 'underdark', 'urban'],
+      appearance: [["A soul-hunting demon that picks off weaker demons on the Abyss's fringes."]],
+      lore: [
+        [
+          "Nabassus are insatiable and hunt souls across the multiverse, attacking anything they think they can kill and eat, other demons included. Most demons shun them, so they live on the Abyss's edges, picking off the weak or hunting in packs for bigger prey. A summoned one tries to break free and eat its summoner, though a steady supply of souls may keep it cooperative.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -7864,6 +8369,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Common plus up to five other languages.'],
       habitats: ['coastal', 'desert', 'forest', 'swamp', 'underdark', 'urban'],
+      appearance: [['A scabrous, birdlike wizard lurking in the shadows of a ruin.']],
+      lore: [
+        [
+          'Nagpas are cursed by the Raven Queen and can gain lore and power only from ruins and calamity. They fear her and grovel when they cannot avoid her. They pursue ruin from the shadows, turning others into unwitting agents and running several schemes at once, striking only for the finishing blow before looting the wreckage.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -8020,6 +8532,18 @@ export default createPublicationMonsters({
       page: 190,
       alignment: 'typically lawful evil',
       languages: ['Common', 'Infernal', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A knight in infernal armour with a hell-forged lance, riding a nightmare in infernal tack.',
+        ],
+      ],
+      lore: [
+        [
+          "Narzugons are paladins who pacted with devils and kept a twisted sense of honour, serving archdukes of the Nine Hells as knights errant. Their lances send victims' souls to the Styx to be reborn as lemures. The nightmare it rides obeys whoever wears its tack.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -8140,6 +8664,13 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Common', 'Deep Speech', 'Undercommon.'],
       habitats: ['hill', 'underdark'],
+      appearance: [["An oversized spider with an eel's neck and head."]],
+      lore: [
+        [
+          'Neogi poison both body and mind to subjugate stronger foes. They think mind control is perfectly proper and cannot grasp love or hatred, valuing only control. They live in remote places on the Material, Astral and Ethereal Planes, and show rank through dyes and markings they must obey.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -8350,6 +8881,13 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Common', 'Deep Speech', 'Undercommon', 'telepathy 30 ft.'],
       habitats: ['hill', 'underdark'],
+      appearance: [['A neogi marked out by its rank, drawing magic from an ancient pact.']],
+      lore: [
+        [
+          'Neogi masters draw magic from a pact their kind made with star-like aberrant entities that embody evil. Otherwise they behave like ordinary neogi, ruling through control.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -8534,6 +9072,13 @@ export default createPublicationMonsters({
       page: 197,
       alignment: 'typically lawful evil',
       habitats: ['swamp', 'underdark', 'urban'],
+      appearance: [['A small ooze that has just split from a larger oblex.']],
+      lore: [
+        [
+          'Spawn form when a full memory drain makes an oblex grow too large and shed a personality, making a new oblex. They are weaker than elders and only want to feed on memories and grow until they can impersonate their victims.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'tiny',
         type: 'ooze',
@@ -8600,6 +9145,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Common', 'Giant.'],
       habitats: ['grassland', 'hill', 'mountain'],
+      appearance: [['An ogre hefting an enormous club made for smashing doors.']],
+      lore: [
+        [
+          'The battering ram is a specialised ogre trained to rush forward and shatter enemy fortifications, and to use its club to stop advancing enemies.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -8658,6 +9210,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Common', 'Giant.'],
       habitats: ['grassland', 'hill', 'mountain'],
+      appearance: [['An ogre carrying a gigantic crossbow that is more like a ballista.']],
+      lore: [
+        [
+          'The bolt launcher reloads nearly as quickly as a dwarf reloads a crossbow, but its bolts are so big it holds only about half a dozen. When ammunition runs out it has been known to rip up trees or tear beams from buildings to shoot instead.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -8778,6 +9337,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Common', 'Giant.'],
       habitats: ['grassland', 'hill', 'mountain'],
+      appearance: [
+        [
+          'An ogre with a wooden palisaded fort strapped to its back, small creatures peering over the top.',
+        ],
+      ],
+      lore: [
+        [
+          "The howdah's fort carries up to four Small creatures, most often goblins with bows and spears, but also kobolds, deep gnomes or other small folk.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -8865,6 +9435,13 @@ export default createPublicationMonsters({
       page: 206,
       alignment: 'typically neutral',
       habitats: ['desert', 'mountain'],
+      appearance: [['A huge fiery bird inside an explosion of fire and smoke.']],
+      lore: [
+        [
+          'A phoenix is an elder elemental driven to burn everything to ash. It appears when released from the Inner Planes and rarely stays in one place long, trying to turn the world into an inferno.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -9079,6 +9656,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Common', 'Sylvan.'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A slender, miniature fey moving so fast it is a blur, while everyone else seems slow to it.',
+        ],
+      ],
+      lore: [
+        [
+          'A curse from the Queen of Air and Darkness gave quicklings great speed at the cost of lives of no more than fifteen years. They are capricious tricksters who love petty pranks and ruining lives through theft and framing others, but avoid outright murder.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -9150,6 +9738,15 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Draconic', 'Infernal', 'telepathy 120 ft.'],
       habitats: ['mountain', 'urban'],
+      appearance: [
+        ['A fearsome draconic devil whose appearance stirs allies to fight fanatically.'],
+      ],
+      lore: [
+        [
+          "Red abishais are the ablest leaders of abishais, commanding other devils in battle or overseeing cults to carry out Tiamat's orders.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -9374,6 +9971,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Giant.'],
       habitats: ['desert', 'forest', 'swamp', 'underdark'],
+      appearance: [['A troll whose flesh withers and drops away as fast as it regrows.']],
+      lore: [
+        [
+          "A rot troll's regeneration is infused with necrotic energy so it rots as quickly as it heals. It eventually loses regeneration entirely, though it still heals normally. Its body is so saturated with necrotic energy that simply standing near it can harm others.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -9452,6 +10056,14 @@ export default createPublicationMonsters({
       page: 210,
       alignment: 'typically chaotic evil',
       languages: ["Understands Abyssal but can't speak."],
+      appearance: [['A warped demon in a mob, whose fear aura freezes victims before it charges.']],
+      lore: [
+        [
+          'Rutterkins roam the Abyss in mobs and attack intruders. They release a wave of fear before charging, leaving victims terrified and unable to move. Their bites carry a disease that disfigures victims until they become manes that follow the mob.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -9533,6 +10145,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Common', 'Elvish.'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'A shadar-kai warrior lurking in the shadows, whose presence makes those near feel death approaching.',
+        ],
+      ],
+      lore: [
+        [
+          'Gloom weavers are formidable fighters who prefer to lurk in shadow while their bleak presence weighs on nearby creatures. When found, they use shadow magic to reduce foes to ghastly corpses.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -9660,6 +10283,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Common', 'Elvish.'],
       habitats: ['underdark', 'urban'],
+      appearance: [['A shadar-kai radiating an aching void, with a moan like a tortured soul.']],
+      lore: [
+        [
+          "Soul mongers are consumed by despair over lost memories of a brighter time and crave others' vitality. The void around them drains the strength of nearby creatures, and survivors remember the moaning sound they make.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

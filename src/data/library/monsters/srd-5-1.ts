@@ -6965,6 +6965,25 @@ export default createPublicationMonsters({
       name: 'Gelatinous Cube',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A translucent, wobbling cube gliding through tunnels, nearly invisible until it is on top of you. Meals drift inside it, slowly dissolving.',
+        ],
+      ],
+      lore: [
+        [
+          'A gelatinous cube ambushes the unaware by staying still and almost unseen. It engulfs creatures, restraining them and dissolving them with acid every round, and engulfed victims cannot be hit by allies except through the cube itself. Rescuers pulling someone out take acid damage too.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: gelatinous cube monster entry',
+            url: 'https://www.dndbeyond.com/monsters/gelatinous-cube',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -8727,6 +8746,25 @@ export default createPublicationMonsters({
         'and Primordial but can’t speak',
         'telepathy 120 ft',
       ],
+      appearance: [
+        [
+          'A titanic sea monster of the dark ocean depths, with ten tentacles. Its presence warps the sea and sky around it.',
+        ],
+      ],
+      lore: [
+        [
+          'A kraken is a chaotic evil titan lairing in sunken rifts or caverns full of treasure and wrecked ships, with storms and water elementals gathering near. It grapples and hurls foes with tentacles, swallows them whole, strikes with lightning at range, and uses ink clouds to blind attackers underwater. Nonmagical weapons barely harm it.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'D&D Beyond: kraken monster entry',
+            url: 'https://www.dndbeyond.com/monsters/kraken',
+          },
+        ],
+      ],
+      habitats: ['Underwater'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
