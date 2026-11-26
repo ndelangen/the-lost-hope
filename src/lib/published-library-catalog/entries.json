@@ -95608,6 +95608,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 50 GP",
+              "As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour. Arcane Focus (Varies) An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus. Arcane Focuses Focus Weight Cost Crystal 1 lb. 10 GP Orb 3 lb. 20 GP Rod 2 lb. 10 GP Staff (also a Quarterstaff) 4 lb. 5 GP Wand 1 lb. 10 GP"
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -95915,6 +95931,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Armor (Shield), Rare (Requires Attunement)",
+              "You gain a +2 bonus to Armor Class against ranged attack rolls while you wield this Shield. This bonus is in addition to the Shield’s normal bonus to AC. Whenever an attacker makes a ranged attack roll against a target within 5 feet of you, you can take a Reaction to become the target of the attack instead."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -96227,6 +96259,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 2 GP",
+              "A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -96413,6 +96461,22 @@
             ]
           }
         ]
+      },
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "This bag has an interior space considerably larger than its outside dimensions—roughly 2 feet square and 4 feet deep on the inside. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 5 pounds, regardless of its contents. Retrieving an item from the bag requires a Utilize action. If the bag is overloaded, pierced, or torn, it is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth unharmed, but the bag must be put right before it can be used again. The bag holds enough air for 10 minutes of breathing, divided by the number of breathing creatures inside. Placing a Bag of Holding inside an extradimensional space created by a Handy Haversack, Portable Hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within a 10-foot-radius Sphere centered on the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way and can’t be reopened."
+            ]
+          }
+        ],
+        "gm": []
       }
     ],
     "art": [
@@ -96765,6 +96829,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 2 GP",
+              "A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -96933,6 +97013,19 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": ["Price · 4 SP", "A Basket holds up to 40 pounds within 2 cubic feet."]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -97182,6 +97275,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 1 GP",
+              "A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see “Gameplay Toolbox”)."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -97281,6 +97390,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 1 GP",
+              "When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -97788,6 +97913,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 1 GP",
+              "A Block and Tackle allows you to hoist up to four times the weight you can normally lift."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -98200,6 +98341,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -98330,6 +98487,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon (Requires Attunement)",
+              "These furred boots are snug and feel warm. While wearing them, you gain the following benefits. Cold Resistance. You have Resistance to Cold damage and can tolerate temperatures of 0 degrees Fahrenheit or lower without any additional protection. Winter Strider. You ignore Difficult Terrain created by ice or snow."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -98752,6 +98925,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon (Requires Attunement)",
+              "While wearing this brooch, you have Resistance to Force damage, and you have Immunity to damage from the Magic Missile spell."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -98950,6 +99139,19 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": ["Price · 5 CP", "A Bucket holds up to half a cubic foot of contents."]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -99089,6 +99291,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 16 GP",
+              "A Burglar’s Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -99596,6 +99814,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 1 CP",
+              "For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -100881,6 +101115,19 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": ["Price · 5 GP", "A Chest holds up to 12 cubic feet of contents."]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -100950,6 +101197,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Rare",
+              "This hollow metal tube measures about 1 foot long and weighs 1 pound. As a Magic action, you can strike the chime to cast Knock. The spell’s customary knocking sound is replaced by the clear, ringing tone of the chime, which is audible out to 300 feet. The chime can be used 10 times. After the tenth time, it cracks and becomes useless."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -101139,6 +101402,22 @@
       "useful": 3
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "While wearing this circlet, you can cast Scorching Ray with it (+5 to hit). The circlet can’t cast this spell again until the next dawn."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -101463,6 +101742,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon (Requires Attunement)",
+              "While you wear this cloak, Wisdom (Perception) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity (Stealth) checks."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -101597,6 +101892,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon (Requires Attunement)",
+              "You gain a +1 bonus to Armor Class and saving throws while you wear this cloak."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -101656,6 +101967,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon (Requires Attunement)",
+              "While wearing this cloak, you can breathe underwater, and you have a Swim Speed of 60 feet."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -102685,6 +103012,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 25 GP",
+              "A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -103675,6 +104018,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 2 GP",
+              "Using a Crowbar gives you Advantage on Strength checks where the Crowbar’s leverage can be applied."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -103999,6 +104358,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds. You can take a Magic action to remove the stopper and issue one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following command words: Splash. The decanter produces 1 gallon of water. Fountain. The decanter produces 5 gallons of water. Geyser. The decanter produces 30 gallons of water that gushes forth in a Line 30 feet long and 1 foot wide. If you’re holding the decanter, you can aim the geyser in one direction (no action required). One creature of your choice in the Line must succeed on a DC 13 Strength saving throw or take 1d4 Bludgeoning damage and have the Prone condition. Instead of a creature, you can target one object in the Line that isn’t being worn or carried and that weighs no more than 200 pounds. The object is knocked over by the geyser."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -104095,6 +104470,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "This box contains a set of cards. A full deck has 34 cards: 32 depicting specific creatures and two with a mirrored surface. A deck found as treasure is usually missing 1d20 − 1 cards. The magic of the deck functions only if its cards are drawn at random. You can take a Magic action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of yourself. An illusion of a creature, determined by rolling on the Deck of Illusions table, forms over the thrown card and remains until dispelled. The illusory creature created by the card looks and behaves like a real creature of its kind, except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can take a Magic action to move it anywhere within 30 feet of its card. Any physical interaction with the illusory creature reveals it to be false, because objects pass through it. A creature that takes a Study action to visually inspect the illusory creature identifies it as an illusion with a successful DC 15 Intelligence (Investigation) check. The illusion lasts until its card is moved or the illusion is dispelled (using a Dispel Magic spell or a similar effect). When the illusion ends, the image on its card disappears, and that card can’t be used again. Deck of Illusions 1d100 Illusion* 01–03 Adult Red Dragon 04–06 Archmage 07–09 Assassin 10–12 Bandit Captain 13–15 Basilisk 16–18 Berserker 19–21 Bugbear Warrior 22–24 Cloud Giant 25–27 Druid 28–30 Erinyes 31–33 Ettin 34–36 Fire Giant 37–39 Frost Giant 40–42 Gnoll Warrior 43–45 Goblin Warrior 46–48 Guardian Naga 49–51 Hill Giant 52–54 Hobgoblin Warrior 55–57 Incubus 58–60 Iron Golem 61–63 Knight 64–66 Kobold Warrior 67–69 Lich 70–72 Medusa 73–75 Night Hag 76–78 Ogre 79–81 Oni 1d100 Illusion* 82–84 Priest 85–87 Succubus 88–90 Troll 91–93 Veteran Warrior 94–96 Wyvern 97–00 The card drawer *Stat blocks for these creatures (except the card drawer) appear in “Monsters.”"
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -104550,6 +104941,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 39 GP",
+              "A Diplomat’s Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox. Druidic Focus (Varies) A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus. Druidic Focuses Focus Weight Cost — 1 GP Wooden staff (also a Quarterstaff) 4 lb. 5 GP Yew wand 1 lb. 10 GP Sprig of mistletoe"
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -105708,6 +106115,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 12 GP",
+              "A Dungeoneer’s Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -105875,6 +106298,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "This powder resembles fine sand. There is enough of it for one use. When you take a Utilize action to throw the dust into the air, you and each creature and object within a 10-foot Emanation originating from you have the Invisible condition for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. Immediately after an affected creature makes an attack roll, deals damage, or casts a spell, the Invisible condition ends for that creature."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -105947,6 +106386,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "This small packet contains 1d6 + 4 pinches of dust. As a Utilize action, you can sprinkle a pinch of the dust over water, turning up to a 15-foot Cube of water into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet’s weight is negligible. A creature can take a Utilize action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so destroys the pellet and ends its magic. As a Utilize action, you can sprinkle a pinch of the dust on an Elemental within 5 feet of yourself that is composed mostly of water (such as a Water Elemental). Such a creature exposed to a pinch of the dust makes a DC 13 Constitution saving throw, taking 10d6 Necrotic damage on a failed save or half as much damage on a successful one."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -106093,6 +106548,22 @@
       "useful": 3
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "Each of the quiver’s three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows, Quarterstaffs, or Spears. You can draw any item the quiver contains as if doing so from a regular quiver or scabbard."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -106278,6 +106749,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Rare",
+              "When you drink this potion, you are cured of all magical contagions. In addition, the following conditions end on you: Blinded, Deafened, Paralyzed, and Poisoned. The clear, red liquid has tiny bubbles of light in it."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -106648,6 +107135,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 40 GP",
+              "An Entertainer’s Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -106794,6 +107297,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "As a Magic action, you can open or close this bottle. Opening the bottle causes thick smoke to billow out, forming a cloud that fills a 60-foot Emanation originating from the bottle. The area within the smoke is Heavily Obscured. Each minute the bottle remains open, the size of the Emanation increases by 10 feet until it reaches its maximum size of 120 feet. Closing the bottle causes the cloud to become fixed in place until it disperses after 10 minutes. A strong wind (such as that created by the Gust of Wind spell) disperses the cloud after 1 minute."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -106931,6 +107450,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 10 GP",
+              "An Explorer’s Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -107053,6 +107588,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "These crystal lenses fit over the eyes. While wearing them, your vision improves significantly out to a range of 1 foot, granting you Darkvision within that range and Advantage on Intelligence (Investigation) checks made to examine something within that range."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -107123,6 +107674,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "These crystal lenses fit over the eyes. While wearing them, you have Advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -108169,6 +108736,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Rare",
+              "This object appears as a wooden box that measures 12 inches long, 6 inches wide, and 6 inches deep. It weighs 4 pounds and floats. It can be opened to store items inside. This item also has three command words, each requiring a Magic action to use: First Command Word. The box unfolds into a Rowboat. Second Command Word. The box unfolds into a Keelboat. Third Command Word. The Folding Boat folds back into a box if no creatures are aboard. Any objects in the vessel that can’t fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so. When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat. Statistics for the Rowboat and Keelboat appear in “Equipment.” If either vessel is reduced to 0 Hit Points, the Folding Boat is destroyed. Frost Brand Weapon (Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword), Very Rare (Requires Attunement) When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage. In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can’t be used again for 1 hour."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -109510,6 +110093,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "While wearing these dark lenses, you have Darkvision out to 60 feet. If you already have Darkvision, wearing the goggles increases its range by 60 feet."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -109705,6 +110304,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 2 GP",
+              "As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -110743,6 +111358,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon (Requires Attunement)",
+              "While wearing this hat, you can cast the Disguise Self spell. The spell ends if the hat is removed."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -110913,6 +111544,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 5 GP",
+              "A Healer’s Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check. Holy Symbol (Varies) A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield. Holy Symbols Symbol Amulet (worn or held) Emblem (borne on fabric or a Shield) Reliquary (held) Weight Cost 1 lb. 5 GP — 5 GP 2 lb. 5 GP"
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -111853,6 +112500,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Very Rare",
+              "These horseshoes come in a set of four. As a Magic action, you can touch one of the horseshoes to the hoof of a horse or similar creature, whereupon the horseshoe affixes itself to the hoof. Removing a horseshoe also takes a Magic action. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above a surface. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores Difficult Terrain. In addition, the creature can travel for up to 12 hours a day without gaining Exhaustion levels from extended travel."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -111925,6 +112588,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Rare",
+              "These horseshoes come in a set of four. As a Magic action, you can touch one of the horseshoes to the hoof of a horse or similar creature, whereupon the horseshoe affixes itself to the hoof. Removing a horseshoe also takes a Magic action. While all four horseshoes are attached to the same creature, its Speed is increased by 30 feet."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -112204,6 +112883,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 5 GP",
+              "As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -112386,6 +113081,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Rod, Uncommon",
+              "This iron rod has a button on one end. You can take a Utilize action to press the button, which causes the rod to become magically fixed in place. Until you or another creature takes a Utilize action to push the button again, the rod doesn’t move, even if it defies gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can take a Utilize action to make a DC 30 Strength (Athletics) check, moving the fixed rod up to 10 feet on a successful check."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -112478,6 +113189,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 10 GP",
+              "Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -113178,6 +113905,19 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": ["Price · 2 CP", "A Jug holds up to 1 gallon."]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -113758,6 +114498,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern’s Bright Light. You can take a Utilize action to lower the hood, reducing the lantern’s light to Dim Light in a 5-foot radius. Luck Blade Weapon (Glaive, Greatsword, Longsword, Rapier, Scimitar, Sickle, or Shortsword), Legendary (Requires Attunement) You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. While the weapon is on your person, you also gain a +1 bonus to saving throws. Luck. If the weapon is on your person, you can call on its luck (no action required) to reroll one failed D20 Test if you don’t have the Incapacitated condition. You must use the second roll. Once used, this property can’t be used again until the next dawn. Wish. The weapon has 1d3 charges. While holding it, you can expend 1 charge and cast Wish from it. Once used, this property can’t be used again until the next dawn. The weapon loses this property if it has no charges."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -115618,6 +116374,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 100 GP",
+              "A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -115763,6 +116535,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 2 GP",
+              "As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action. Each set of Manacles comes with a key. Without the key, a creature can use Thieves’ Tools to pick the Manacles’ lock with a successful DC 15 Dexterity (Sleight of Hand) check."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -118130,6 +118918,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Rare",
+              "One vial of this oil can cover one Medium or smaller creature, along with the equipment it’s wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the Etherealness spell for 1 hour. Beads of this cloudy, gray oil form on the outside of its container and quickly evaporate."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -118197,6 +119001,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Uncommon",
+              "One vial of this oil can cover one Medium or smaller creature, along with the equipment it’s wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the Freedom of Movement spell for 8 hours. Alternatively, the oil can be poured on the ground as a Magic action, where it covers a 10-foot square, duplicating the effect of the Grease spell in that area for 8 hours. This sticky, black unguent is thick and heavy, but it flows quickly when poured."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -119738,6 +120558,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon (Requires Attunement)",
+              "While wearing this pendant, you can take a Magic action to regain 2d4 + 2 Hit Points. Once used, this property can’t be used again until the next dawn. In addition, you have Advantage on saving throws to avoid or end the Poisoned condition while you wear this pendant."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -119809,6 +120645,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon (Requires Attunement)",
+              "While wearing this pendant, you gain the following benefits. Life Preservation. Whenever you make a Death Saving Throw, you can change a roll of 9 or lower to a 10, turning a failed save into a successful one. Natural Healing Boost. Whenever you roll a Hit Point Die to regain Hit Points, double the number of Hit Points it restores."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -120021,6 +120873,22 @@
       "useful": 1
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Uncommon",
+              "The next time you see a creature within 10 minutes after drinking this philter, you are charmed by that creature and have the Charmed condition for 1 hour. This rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -121432,6 +122300,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Uncommon",
+              "When you drink this potion, you can cast the level 3 version of the Animal Friendship spell (save DC 13). Agitating this potion’s muddy liquid brings little bits into view: a fish scale, a hummingbird feather, a cat claw, or a squirrel hair."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -121504,6 +122388,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Rare",
+              "When you drink this potion, you gain the effect of the Clairvoyance spell (no Concentration required). An eyeball bobs in this potion’s yellowish liquid but vanishes when the potion is opened."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -121575,6 +122475,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Common",
+              "When you drink this potion, you gain a Climb Speed equal to your Speed for 1 hour. During this time, you have Advantage on Strength (Athletics) checks to climb. This potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -121642,6 +122558,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Rare",
+              "When you drink this potion, you gain the “reduce” effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required). The red in the potion’s liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -121777,6 +122709,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Very Rare",
+              "When you drink this potion, you gain a Fly Speed equal to your Speed for 1 hour and can hover. If you’re in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potion’s clear liquid floats at the top of its container and has cloudy white impurities drifting in it."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -121836,6 +122784,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Rare",
+              "When you drink this potion, you gain the effect of the Gaseous Form spell for 1 hour (no Concentration required) or until you end the effect as a Bonus Action. This potion’s container seems to hold fog that moves and pours like water."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -121970,6 +122934,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Uncommon",
+              "When you drink this potion, you gain the “enlarge” effect of the Enlarge/Reduce spell for 10 minutes (no Concentration required). The red in the potion’s liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -122110,6 +123090,22 @@
             ]
           }
         ]
+      },
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 50 GP",
+              "This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points."
+            ]
+          }
+        ],
+        "gm": []
       }
     ],
     "art": [
@@ -122132,6 +123128,22 @@
       "useful": 3
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Rare",
+              "When you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required). This potion’s blue liquid bubbles and steams as if boiling."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -122207,6 +123219,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Rare",
+              "This potion’s container looks empty but feels as though it holds liquid. When you drink the potion, you have the Invisible condition for 1 hour. The effect ends early if you make an attack roll, deal damage, or cast a spell."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -122279,6 +123307,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Rare",
+              "For 1 minute after you drink this potion, you have Resistance to all damage. This potion’s syrupy liquid looks like liquefied iron."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -122338,6 +123382,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Rare",
+              "When you drink this potion, you gain the effect of the Detect Thoughts spell (save DC 13) for 10 minutes (no Concentration required). This potion’s dense, purple liquid has an ovoid cloud of pink floating in it."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -122412,6 +123472,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Uncommon",
+              "When you drink this potion, you have Resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly by rolling on the following table. 1d10 Damage Type 1d10 Damage Type Acid Necrotic Cold Poison Fire Psychic Force Radiant Lightning Thunder"
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -122437,6 +123513,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Very Rare",
+              "When you drink this potion, you gain the effect of the Haste spell for 1 minute (no Concentration required) without suffering the wave of lethargy that typically occurs when the effect ends. This potion’s yellow fluid is streaked with black and swirls on its own."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -122572,6 +123664,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Very Rare",
+              "When you drink this potion, it removes any Exhaustion levels you have and ends the Poisoned condition on you. For the next 24 hours, you regain the maximum number of Hit Points for any Hit Point Die you spend. This potion’s crimson liquid regularly pulses with dull light, calling to mind a heartbeat."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -122644,6 +123752,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Potion, Uncommon",
+              "You can breathe underwater for 24 hours after drinking this potion. This potion’s cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -122917,6 +124041,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 33 GP",
+              "A Priest’s Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -123403,6 +124543,19 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": ["Price · 1 GP", "A Quiver holds up to 20 Arrows."]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -124383,6 +125536,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Ring, Rare (Requires Attunement)",
+              "When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -124442,6 +125611,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Ring, Uncommon (Requires Attunement)",
+              "While wearing this ring, you can cast Jump from it, but can target only yourself when you do so."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -124510,6 +125695,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Ring, Uncommon (Requires Attunement)",
+              "While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it. You can take a Magic action to cause the ring to become imperceptible until you take another Magic action to make it perceptible, until you remove the ring, or until you die. If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can’t prevent this telepathic communication."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -124631,6 +125832,19 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": ["Ring, Uncommon", "You have a Swim Speed of 40 feet while wearing this ring."]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -124690,6 +125904,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Ring, Uncommon",
+              "While wearing this ring, you cast Water Walk from it, targeting only yourself."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -124911,6 +126141,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can take a Magic action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment. The robe has two of each of the following patches: • • • • • • Bullseye Lantern (filled and lit) Dagger Mirror Pole Rope (coiled) Sack In addition, the robe has 4d4 other patches. The GM chooses the patches or determines them randomly by rolling on the following table. 1d100 Patch 01–08 Bag of 100 GP 09–15 Silver coffer (1 foot long, 6 inches wide and deep) worth 500 GP 16–22 Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself 23–30 10 gems worth 100 GP each 31–44 Wooden ladder (24 feet long) 45–51 Riding Horse with a Riding Saddle 52–59 Open pit (a 10-foot Cube), which you can place on the ground within 10 feet of yourself 60–68 4 Potions of Healing 69–75 Rowboat (12 feet long) 76–83 Spell Scroll containing one spell of level 1, 2, or 3 (your choice) 1d100 Patch 84–90 2 Mastiffs 91–96 Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach 97–00 Portable Ram"
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -125107,6 +126353,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "This 60-foot length of rope can hold up to 3,000 pounds. While holding one end of the rope, you can take a Magic action to command the other end of the rope to animate and move toward a destination you choose, up to the rope’s length away from you. That end moves 10 feet on your turn when you first command it and 10 feet at the start of each of your subsequent turns until reaching its destination or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying. If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants Advantage on ability checks made to climb using the rope. The rope has AC 20, HP 20, and Immunity to Poison and Psychic damage. It regains 1 Hit Point every 5 minutes as long as it has at least 1 Hit Point. If the rope drops to 0 Hit Points, it is destroyed."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -125435,6 +126697,19 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": ["Price · 1 CP", "A Sack holds up to 30 pounds within 1 cubic foot."]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -125997,6 +127272,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 40 GP",
+              "A Scholar’s Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -126702,6 +127993,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon",
+              "Sending Stones come in pairs, with each stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can cast Sending from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone, and you don’t cast the spell. Once Sending is cast using either stone, the stones can’t be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -127576,6 +128883,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 2 GP",
+              "Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -127847,6 +129170,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 5 CP",
+              "When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away. Spell Scroll (Cantrip, 30 GP; Level 1, 50 GP) A Spell Scroll (Cantrip) or Spell Scroll (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll’s creator. If the spell is on your class’s spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components. If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -128567,6 +129906,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wondrous Item, Uncommon (Requires Attunement)",
+              "While you wear these light shoes, you can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free. You have a Climb Speed equal to your Speed. However, the slippers don’t allow you to move this way on a slippery surface, such as one covered by ice or oil."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -129640,6 +130995,22 @@
       "useful": 4
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 1,000 GP",
+              "Objects viewed through a Spyglass are magnified to twice their size."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -131411,6 +132782,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 5 SP",
+              "A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -131779,6 +133166,22 @@
             "lines": ["Attack (action) · https://5e.tools/actions.html#attack_xphb"]
           }
         ]
+      },
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 1 CP",
+              "A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage."
+            ]
+          }
+        ],
+        "gm": []
       }
     ],
     "art": [
@@ -133175,6 +134578,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wand, Uncommon",
+              "This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast Magic Missile from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell’s level by 1 for each additional charge you expend. Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -133247,6 +134666,22 @@
     },
     "printings": [
       {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wand, Uncommon",
+              "This wand has 3 charges and regains 1d3 expended charges daily at dawn. While holding it, you can take a Magic action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you."
+            ]
+          }
+        ],
+        "gm": []
+      },
+      {
         "id": "original",
         "label": "Shop stock",
         "gm": []
@@ -133310,6 +134745,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Wand, Uncommon (Requires Attunement by a",
+              "Spellcaster) This wand has 7 charges. While holding it, you can expend 1 charge to cast Web (save DC 13) from it. Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
@@ -133758,6 +135209,22 @@
       "useful": 5
     },
     "printings": [
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Published rules",
+        "player": [
+          {
+            "title": "Rules",
+            "lines": [
+              "Price · 2 SP",
+              "A Waterskin holds up to 4 pints. If you don’t drink sufficient water, you risk dehydration (see “Rules Glossary”)."
+            ]
+          }
+        ],
+        "gm": []
+      },
       {
         "id": "original",
         "label": "Shop stock",
