@@ -12,6 +12,25 @@ export default createPublicationMonsters({
       page: 9,
       alignment: 'typically lawful evil',
       languages: ['Aartuk.'],
+      appearance: [
+        [
+          'Aartuk are star-shaped plant creatures covered in thick spiked bark, moving on suction-tipped branches, with a head on a snake-like stalk. They can blend into sand, rock or foliage.',
+        ],
+      ],
+      lore: [
+        [
+          'Aartuk are nomadic, war-minded fanatics in small tribes led by elders, who hate beholder-kin after their homeworld was said to have been destroyed. They live in wildspace and the phlogiston, and some tribes hold stolen spelljamming ships. They prize gems and war trophies, often release prisoners after taking valuables, and generally keep agreements. Warriors spit hard pellets and seize targets with a sticky tongue. They withdraw when a fight goes badly. Note this describes the older aartuk warrior, which the weedling replaced in name.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'DMDave: Aartuk for Dungeons & Dragons Fifth Edition',
+            url: 'https://dmdave.com/aartuk/',
+          },
+        ],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'plant',

@@ -13,6 +13,18 @@ export default createPublicationMonsters({
       page: 210,
       alignment: 'any alignment',
       languages: ['Common and Dwarvish.'],
+      appearance: [
+        [
+          'An albino dwarf of the Chultan jungle wearing armour of dinosaur hide and carrying weapons of bone, flint and wood, with ornate jewellery of bones, feathers, tusks and stone beads.',
+        ],
+      ],
+      lore: [
+        [
+          'Albino dwarves of Chult were driven from their underground homes by volcanic activity. Those who did not go to Port Nyanzaru adapted to jungle life. They still know how to forge metal but seldom have the means.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'medium',
         type: 'humanoid',

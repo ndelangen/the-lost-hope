@@ -11,6 +11,25 @@ export default createPublicationMonsters({
       name: 'Aalpamac',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          "A chimeric beast with a massive trout's body and a wolverine's head and front claws bursts out of cold water, green-eyed, the air around it warping as if seen through a thick lens.",
+        ],
+      ],
+      lore: [
+        [
+          "The aalpamac is a freshwater predator of lakes and rivers that can haul itself ashore to catch prey at the water's edge. It is ravenous and territorial, not evil, ranging up to a dozen miles for food, eating almost anything and attacking big boats if hungry. It is solitary except at mating time. A long-lived one becomes a local legend with exaggerated stories and a nickname, which draws trophy hunters, most of whom never find it or die trying.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e API: Aalpamac (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/?search=aalpamac&fields=name,desc,environments,document__title',
+          },
+        ],
+      ],
+      habitats: ['Lake', 'River'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -97,6 +116,25 @@ export default createPublicationMonsters({
       name: 'Abbanith Giant',
       alignment: 'neutral',
       languages: ['Giant', 'Terran'],
+      appearance: [
+        [
+          'A bulky, muscular giant with small eyes in a broad, flat face, and large black claws on its thumbs.',
+        ],
+      ],
+      lore: [
+        [
+          "Abbanith giants are among the oldest giants, said to date from the world's creation, with oral traditions going back millennia. They dress in tunics or shorts woven from underground fungus, with leaders occasionally in armour. They live almost wholly underground and dig huge tunnels with their hard thumb claws, which seem to soften stone and metal. Peaceable by nature, they violently resist derro and duergar slavers who want them to mine gems or build fortifications.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e API: Abbanith Giant (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/?document__slug=tob2&search=abbanith&fields=name,desc,environments,document__title',
+          },
+        ],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -165,6 +203,25 @@ export default createPublicationMonsters({
       name: 'Adult Imperial Dragon',
       alignment: 'neutral',
       languages: ['all'],
+      appearance: [
+        [
+          'A long, serpentine, wingless dragon with shimmering, opalescent scales, serene and majestic.',
+        ],
+      ],
+      lore: [
+        [
+          'Imperial dragons are tied to the world of celestials, fiends and spirits, and parley freely with them for knowledge of the outer planes. The most powerful become servants of the gods in exchange for wisdom. They can change colour and form, and are usually golden-yellow, though azure, jade, vermilion, white and black appear. A magical organ in the skull lets them fly without wings, and hunters seek it because it is rumoured to grant eternal life. They love the sea, guard sacred sites beneath the waves, and master wind and rain.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e API: Adult Imperial Dragon (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/?document__slug=tob2&search=imperial&fields=name,desc,environments,document__title',
+          },
+        ],
+      ],
+      habitats: ['Coastal', 'Underwater'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -363,6 +420,24 @@ export default createPublicationMonsters({
       name: 'Akaasit',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A cloud of flat grey triangles in the rough shape of a mantis, flickering from place to place and clicking softly as its arm blades swing out.',
+        ],
+      ],
+      lore: [
+        [
+          'Akaasits are constructs from a plane destroyed by a catastrophic misuse of time magic, and exist partly in the past and future. They are mindless, and always move toward some unknown destination, ignoring or attacking creatures at random. They defend themselves but rarely chase a fleeing foe. They are drawn to time-magic casters, but may protect or kill one, and their mood changes daily. When destroyed, the triangles fade within ten minutes, leaving the two blades.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e API: Akaasit (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/?document__slug=tob2&search=akaasit&fields=name,desc,environments,document__title',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -449,6 +524,21 @@ export default createPublicationMonsters({
       name: 'Akhlut',
       alignment: 'unaligned',
       languages: [],
+      appearance: [["A killer whale's body, head and tail with the powerful legs of a huge wolf."]],
+      lore: [
+        [
+          'The akhlut is the top predator of polar lands, moving freely between sea and shore. They live in pods of up to about a dozen and hunt anything from seals to mammoths and whales. Only dragons and other akhluts can drive a pod from its territory. They are curious and mischievous, follow ships and caravans seeking novelty, and free fish from traps just to hunt them. They make dangerous, willful but loyal mounts if tamed.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e API: Akhlut (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/?document__slug=tob2&search=akhlut&fields=name,desc,environments,document__title',
+          },
+        ],
+      ],
+      habitats: ['Arctic', 'Coastal'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -540,6 +630,24 @@ export default createPublicationMonsters({
       name: 'Alchemical Skunk',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A large skunk that waddles and sniffs about, with stripes along its back that keep changing colour.',
+        ],
+      ],
+      lore: [
+        [
+          "Alchemical skunks came from a magic school prank where an ordinary skunk drank mixed potions. They look and act like ordinary skunks except for the shifting stripes, whose colours tell foresters which magical malady the animal is about to spray. They scavenge alchemical lab waste and eat potions and components, to alchemists' dismay.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e API: Alchemical Skunk (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/?document__slug=tob2&search=skunk&fields=name,desc,environments,document__title',
+          },
+        ],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -816,6 +924,24 @@ export default createPublicationMonsters({
       name: 'Alligator Turtle',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A turtle with a long, flexible neck and beak-like jaws that can strike from a surprising distance.',
+        ],
+      ],
+      lore: [
+        [
+          'Alligator turtles are ornery reptiles, known for a combative temper on land. The extendable neck lets them bite from farther than expected.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e API: Alligator Turtle (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/?document__slug=tob2&search=alligator%20turtle&fields=name,desc,environments,document__title',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -2145,11 +2271,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.poison }],
-                also: ['Be ', rules.poisoned, ' until the end of its next turn.'],
+
+                also: ['Be ', { effect: 'unholy-stench-poisoned' }, '.'],
               },
             },
             text: [
               'When the bloated ghoul takes piercing or slashing damage, noxious vapors burst from its distended stomach.',
+            ],
+            effects: [
+              {
+                key: 'unholy-stench-poisoned',
+                name: 'Unholy stench',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -2174,7 +2310,18 @@ export default createPublicationMonsters({
             text: [
               'And, if the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or contract darakhul fever.',
+              ' Constitution saving throw or ',
+              { effect: 'darakhul-fever' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'darakhul-fever',
+                name: 'Darakhul fever',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['Contract darakhul fever.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2192,7 +2339,21 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature other than an undead, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or have its speed halved and have disadvantage on Dexterity-based checks and saving throws for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              ' Constitution saving throw or ',
+              { effect: 'claw-slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claw-slowed',
+                name: 'Crippling claw',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'have its speed halved and have disadvantage on Dexterity-based checks and saving throws',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4149,8 +4310,17 @@ export default createPublicationMonsters({
               'Any creature that starts its turn within 5 feet of the darakhul must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' until the start of its next turn. On a successful saving throw, the creature is immune to the darakhul’s Stench for 24 hours.',
+              { effect: 'stench-poisoned' },
+              '. On a successful saving throw, the creature is immune to the darakhul’s Stench for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Stench',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -4198,7 +4368,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or contract darakhul fever.',
+              ' Constitution saving throw or ',
+              { effect: 'darakhul-fever' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'darakhul-fever',
+                name: 'Darakhul fever',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['Contract darakhul fever.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4220,10 +4401,29 @@ export default createPublicationMonsters({
               'If the target is a creature other than an undead, it must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
+              { effect: 'claw-paralyzed' },
+              '. If a humanoid is ',
               rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a humanoid is ',
-              rules.paralyzed,
-              ' for more than 2 rounds, it contracts darakhul fever.',
+              ' for more than 2 rounds, ',
+              { effect: 'claw-fever' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claw-paralyzed',
+                name: 'Paralyzing claw',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+              {
+                key: 'claw-fever',
+                name: 'Darakhul fever',
+                lands: { on: 'use' },
+                text: ['it contracts darakhul fever'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4272,11 +4472,25 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: [
-              'The darakhul captain targets one ',
+              'The darakhul captain targets one',
+              { effect: 'hp-maximum-reduced' },
+              ' ',
               rules.incapacitated,
               " creature it can see within 30 feet. The target's hp maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. If the victim has darakhul fever, this reduction can't be removed until the victim recovers from the disease. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain by this attack rises as a ghast 1d4 hours later under the darakhul captain's control, unless the humanoid is restored to life Leadership. For 1 minute, the darakhul captain can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the captain. A creature can benefit from only one Leadership die at a time. This effect ends if the captain is ",
               rules.incapacitated,
               '.',
+            ],
+            effects: [
+              {
+                key: 'hp-maximum-reduced',
+                name: 'Hit Point maximum reduced',
+                lands: { on: 'failed-save' },
+                text: [
+                  "The target's hp maximum is reduced by an amount equal to the damage taken.",
+                  " If the victim has darakhul fever, this reduction can't be removed until the victim recovers from the disease.",
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -14663,6 +14877,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' by that creature for the next 24 hours.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -14683,8 +14898,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bite-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -14705,6 +14929,7 @@ export default createPublicationMonsters({
             text: [
               'The qiqirn releases a spirt-infused yip at one creature it can see within 30 feet of it. If the target can hear the qiqirn,',
             ],
+            effects: [],
           },
           {
             key: 'horrifying-wail',
@@ -14715,8 +14940,17 @@ export default createPublicationMonsters({
               'When the qiqirn takes damage, the spirits infusing it cry out, afraid of losing their host. If the creature that dealt the damage can hear the qiqirn, it must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' until the end of its next turn.',
+              { effect: 'wail-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wail-frightened',
+                name: 'Horrifying wail',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],

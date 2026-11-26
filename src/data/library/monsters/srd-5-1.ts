@@ -294,8 +294,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'adult-black-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'adult-black-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -316,6 +326,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales acid in a 60-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -345,11 +356,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'adult-black-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'adult-black-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -449,8 +470,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'adult-blue-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'adult-blue-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -471,6 +502,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales lightning in a 90-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -500,11 +532,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'adult-blue-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'adult-blue-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -602,8 +644,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'adult-brass-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'adult-brass-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -631,6 +683,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales fire in an 60-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'sleep-breath',
@@ -641,8 +694,20 @@ export default createPublicationMonsters({
               'The dragon exhales sleep gas in a 60-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or fall ',
-              rules.unconscious,
-              ' for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.',
+              { effect: 'sleep-unconscious' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sleep-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                text: [
+                  'This effect ends for a creature if the creature takes damage or someone uses an action to wake it.',
+                ],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -673,11 +738,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'adult-brass-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'adult-brass-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -778,8 +853,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'adult-bronze-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'adult-bronze-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -807,6 +892,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales lightning in a 90-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -818,6 +904,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 60 feet away from the dragon.',
             ],
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -858,11 +945,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'adult-bronze-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'adult-bronze-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -955,8 +1052,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'adult-copper-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'adult-copper-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -984,6 +1091,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales acid in an 60-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'slowing-breath',
@@ -993,7 +1101,22 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.',
+              ' Constitution saving throw. On a failed save, ',
+              { effect: 'slowing-slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowing-slowed',
+                name: 'Slowed by breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'The creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. ',
+                  'These effects last for 1 minute.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -1024,11 +1147,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'adult-copper-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'adult-copper-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -1133,8 +1266,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'adult-gold-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'adult-gold-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1162,6 +1305,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales fire in a 60-foot cone.'],
+            effects: [],
           },
           {
             key: 'weakening-breath',
@@ -1171,7 +1315,21 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con', save: 'str' },
-              ' Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              ' Strength saving throw or ',
+              { effect: 'weakening-weakened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'weakening-weakened',
+                name: 'Weakened by breath',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                text: [
+                  'Disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1213,11 +1371,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'adult-gold-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'adult-gold-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -1328,8 +1496,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'adult-green-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'adult-green-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1350,6 +1528,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales poisonous gas in a 60-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1379,11 +1558,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'adult-green-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'adult-green-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -1479,8 +1668,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'adult-red-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'adult-red-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1501,6 +1700,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales fire in a 60-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1530,11 +1730,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'adult-red-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'adult-red-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -1632,8 +1842,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'adult-silver-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'adult-silver-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1661,6 +1881,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales an icy blast in a 60-foot cone.'],
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -1671,8 +1892,18 @@ export default createPublicationMonsters({
               'The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'paralyzing-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1714,11 +1945,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'adult-silver-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'adult-silver-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -1827,8 +2068,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'adult-white-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'adult-white-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1849,6 +2100,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales an icy blast in a 60-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1878,11 +2130,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'adult-white-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'adult-white-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -1985,8 +2247,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'ancient-black-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'ancient-black-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2007,6 +2279,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales acid in a 90-foot line that is 10 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -2036,11 +2309,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'ancient-black-dragon-wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'ancient-black-dragon-wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -2136,8 +2419,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'ancient-blue-dragon-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'ancient-blue-dragon-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2158,6 +2451,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales lightning in a 120-foot line that is 10 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -2187,11 +2481,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -2289,8 +2593,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'frightful-presence-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2313,6 +2627,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'sleep-breath',
@@ -2323,8 +2638,20 @@ export default createPublicationMonsters({
               'The dragon exhales sleep gas in a 90-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or fall ',
-              rules.unconscious,
-              ' for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.',
+              { effect: 'sleep-breath-unconscious' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sleep-breath-unconscious',
+                name: 'Sleep breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                text: [
+                  'This effect ends for a creature if the creature takes damage or someone uses an action to wake it.',
+                ],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
           },
           {
@@ -2366,11 +2693,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -2470,8 +2807,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'frightful-presence-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2499,6 +2846,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales lightning in a 120-foot line that is 10 feet wide.'],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -2510,6 +2858,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 60 feet away from the dragon.',
             ],
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -2550,11 +2899,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -2647,8 +3006,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'frightful-presence-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2676,6 +3045,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales acid in an 90-foot line that is 10 feet wide.'],
+            effects: [],
           },
           {
             key: 'slowing-breath',
@@ -2685,7 +3055,22 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales gas in a 90-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.',
+              ' Constitution saving throw. On a failed save, ',
+              { effect: 'slowing-breath-slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowing-breath-slowed',
+                name: 'Slowing breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both.',
+                  ' These effects last for 1 minute.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2727,11 +3112,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -2836,8 +3231,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'frightful-presence-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2865,6 +3270,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales fire in a 90-foot cone.'],
+            effects: [],
           },
           {
             key: 'weakening-breath',
@@ -2874,7 +3280,21 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales gas in a 90-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con', save: 'str' },
-              ' Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              ' Strength saving throw or have ',
+              { effect: 'weakening-breath-weakened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'weakening-breath-weakened',
+                name: 'Weakening breath',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                text: [
+                  'disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2916,11 +3336,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -3030,8 +3460,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'frightful-presence-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3052,6 +3492,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales poisonous gas in a 90-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3081,11 +3522,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -3181,8 +3632,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'frightful-presence-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3203,6 +3664,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales fire in a 90-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3232,11 +3694,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -3334,8 +3806,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'frightful-presence-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3363,6 +3845,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales an icy blast in a 90-foot cone.'],
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -3373,8 +3856,18 @@ export default createPublicationMonsters({
               'The dragon exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'paralyzing-breath-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-breath-paralyzed',
+                name: 'Paralyzing breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3416,11 +3909,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -3525,8 +4028,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'frightful-presence-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3547,6 +4060,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales an icy blast in a 90-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3576,11 +4090,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],

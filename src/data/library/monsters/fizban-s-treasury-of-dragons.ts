@@ -116,16 +116,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 } },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.lightning }],
+
                 also: [
-                  'Is ',
-                  rules.stunned,
-                  ' until the end of its next turn. On a success, it takes half the damage and avoids the stun.',
+                  { effect: 'throes-stunned' },
+                  ' On a success, it takes half the damage and avoids the stun.',
                 ],
               },
               onSuccess: 'half',
             },
             text: [
               'At 0 HP, lightning strikes the nearest creature within 30 ft., then arcs to up to two other creatures within 15 ft. of the first.',
+            ],
+            effects: [
+              {
+                key: 'throes-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -179,14 +188,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.poison }],
+
                 also: [
-                  'Gains one level of exhaustion. On a success, it takes half damage, avoids exhaustion, and is immune to Noxious Breath from all draconians for 24 hours.',
+                  { effect: 'breath-exhaustion' },
+                  ' On a success, it takes half damage, avoids exhaustion, and is immune to Noxious Breath from all draconians for 24 hours.',
                 ],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'breath-exhaustion',
+                name: 'Exhaustion',
+                lands: { on: 'failed-save' },
+                text: ['Gains one level of ', rules.exhaustion, '.'],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'spellcasting',
@@ -198,6 +218,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ') and requires no material components.',
             ],
+            effects: [],
           },
           {
             key: 'magic-shield',

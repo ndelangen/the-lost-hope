@@ -13,6 +13,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Aarakocra', 'Primordial (Auran).'],
       habitats: ['mountain', 'planar', 'air'],
+      appearance: [
+        [
+          'A birdlike figure with a feathered body and broad wings drops out of the sky, trailing wind and crackling lightning from a staff.',
+        ],
+      ],
+      lore: [
+        [
+          'Aarakocra are bird folk of many worlds and of the Plane of Air, and their looks follow the local birds, from hawks and condors to hummingbirds. The aeromancer is a spellcaster who commands storm winds and lightning. It fights from the air, pushing foes about with gusts and keeping out of reach, and it can soften a fall if it is knocked from the sky. Aarakocra tell of ancient battles against a wicked Queen of Chaos beside the Wind Dukes of Aaqa.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -98,6 +109,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Aarakocra', 'Primordial (Auran).'],
       habitats: ['mountain', 'planar', 'air'],
+      appearance: [
+        [
+          'A birdlike humanoid with feathers like a local hawk or condor swoops in low and fast, a javelin in one hand.',
+        ],
+      ],
+      lore: [
+        [
+          'Aarakocra are bird folk who range over many worlds and the Plane of Air, and they look like the birds of their home lands. The skirmisher is a light scout and fighter. It prefers a diving charge with its talons, or throwing a wind-charged javelin that returns to its hand, so it can harass from above without closing for long.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -155,6 +177,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Deep Speech. Telepathy 30 ft.'],
       habitats: ['Any'],
+      appearance: [
+        [
+          'A robed fanatic whose body has been twisted by an alien patron, with lashing tentacle limbs and a stare that feels wrong.',
+        ],
+      ],
+      lore: [
+        [
+          'Cultists use magic and extreme methods to spread radical beliefs, some chasing hidden secrets and others working in shadowy cabals toward a terrible end. This one serves an alien power and carries its gifts as grasping tentacles and a mind-rotting attack. Cults usually have a charismatic leader, and members take orders from someone with greater supernatural power. They mark objects and bodies with symbols that may mean something only to the cult.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -344,6 +377,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['None.'],
       habitats: ['Urban'],
+      appearance: [
+        [
+          'An empty suit of armour clanks forward, sometimes with a steady tread and sometimes with a lurching gait.',
+        ],
+      ],
+      lore: [
+        [
+          'Magic can animate ordinary objects so they carry out simple orders from whoever made them. If left alone, they guard a place for ages or repeat a task until they wear out. Animated armour is often built from plate and is easy to mistake for a soldier or a helmed horror, though other armour or metal statues can be animated too. It only follows its instructions and does not bargain or flee.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -564,6 +608,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common plus one other language.'],
       habitats: ['Forest'],
+      appearance: [
+        [
+          'A knee-high bush shifts its roots and twigs and turns to face you, with a small voice rustling out of its leaves.',
+        ],
+      ],
+      lore: [
+        [
+          'Magic can give plants movement, intelligence and speech. The Awaken spell or the influence of other planes can do this, and some unusual plants are like this naturally. An awakened shrub is weak in a fight, and its main role is to defend its patch of woodland and to speak for the forest around it.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -597,6 +652,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common plus one other language.'],
       habitats: ['Forest'],
+      appearance: [
+        [
+          'A tree uproots itself with a groan of wood, swings its great limbs and speaks in a creaking voice.',
+        ],
+      ],
+      lore: [
+        [
+          'Magic can give plants movement, intelligence and speech, through spells like Awaken or planar influence. Awakened trees guard woodland, and they use long reach and heavy blows to keep intruders away from it.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -660,6 +726,17 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Primordial (Ignan).'],
       habitats: ['Mountain', 'Elemental Plane of Fire'],
+      appearance: [
+        [
+          'A man-shaped figure of living bronze glows with heat, sheds light around it and swings a hammer wreathed in flame.',
+        ],
+      ],
+      lore: [
+        [
+          'Azers are metal folk of the Plane of Fire who forge weapons and magical wonders in great infernos. The sentinel stands guard, and its body burns anything that stays next to it.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -778,6 +855,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Infernal and telepathy 120 ft.'],
       habitats: ['Nine Hells'],
+      appearance: [
+        [
+          'A devil whose hide bristles with thorns and spikes, hung with trophies and prized treasures it has taken.',
+        ],
+      ],
+      lore: [
+        [
+          'Barbed devils, called hamatulas in the Nine Hells, are collectors that fanatically guard hoards and hunt the planes for new pieces. Each tends to obsess over one kind of thing, such as rare items or emblems of power. They will not steal what they want but will strike a bargain for treasure and souls. Powerful devils use them as guards and accountants, and many run networks of imps to find items. In a fight they grapple with thorny limbs and throw hellfire.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -899,6 +987,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal and telepathy 120 ft.'],
       habitats: ['The Abyss'],
+      appearance: [
+        [
+          'A hulking, ape-like demon with powerful arms, often decorated with horns or markings borrowed from local predators and with hunt trophies set into its body.',
+        ],
+      ],
+      lore: [
+        [
+          'Barlguras embody brutality and killer instinct. They hunt anything that enters their territory, in the Abyss or wherever they were summoned, and leave fiendish symbols and grisly remains to mark it. They work with other demons while there is plenty of prey, but when it runs out they turn on each other. They climb fast, strike hard, and can conjure illusions and grasping vines when strength is not enough.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1012,6 +1111,17 @@ export default createPublicationMonsters({
       page: 32,
       alignment: 'unaligned',
       habitats: ['Mountains and the Underdark'],
+      appearance: [
+        [
+          'A heavy, eight-legged reptile with crystal-like spines and powerful jaws, surrounded by stone figures in odd poses.',
+        ],
+      ],
+      lore: [
+        [
+          'Basilisks are slow hunters that turn prey to stone with their gaze and eat at leisure. They like underground lairs, but many are captured and kept by people who want a guard for their treasure. Petrified victims, whole or broken, litter their hunting grounds, which can warn travellers that one is near.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1089,6 +1199,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Infernal and telepathy 120 ft.'],
       habitats: ['Nine Hells'],
+      appearance: [
+        [
+          "A devil in soldier's gear with a writhing beard of barbed, tentacle-like growths, carrying a long glaive.",
+        ],
+      ],
+      lore: [
+        [
+          'Bearded devils, or barbazus, are the rank-and-file soldiers of the Nine Hells and follow their generals into defence, invasion and the wars against demons. Left alone, they push mortals to be cruel and abuse their power. Villains tied to the Nine Hells use them as guards and enforcers. The beard carries a poison that blocks magical healing, and the glaive leaves infernal wounds that keep getting worse until they are closed.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1197,6 +1318,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['Underdark'],
+      appearance: [
+        [
+          'A shapeless dark mass creeps over the floor and walls, eating through anything in its way.',
+        ],
+      ],
+      lore: [
+        [
+          'A black pudding is a mass of predatory cells that moves toward organic matter once it senses it, dissolving flesh and many objects as it goes. Lightning and slashing blows split it into smaller, separate puddings, so fighting it carelessly makes the problem worse. Strange supernatural events can create one, and its origin can be a hook of its own.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -1276,6 +1408,13 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ["Blink Dog. It understands Elvish and Sylvan and can't speak either."],
       habitats: ['Forest', 'Feywild'],
+      appearance: [['A dog-like animal flickers out of sight and reappears somewhere else.']],
+      lore: [
+        [
+          'Blink dogs carry magic that lets them teleport, and they use it to chase prey, confuse foes and show joy. They are often found with Feywild folk such as centaurs and pixies, running with them in hunts that cross between worlds.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -1319,6 +1458,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Infernal and telepathy 120 ft..'],
       habitats: ['Nine Hells'],
+      appearance: [
+        [
+          'A gaunt, pale devil with skin pulled tight over a frame that mixes human and insect features.',
+        ],
+      ],
+      lore: [
+        [
+          "Bone devils, or osyluths, command lesser devils and other beings in infernal armies. They make sure that devils' orders are carried out and that mortals keep their deals, and they kill those who break them. When not serving, they flatter self-obsessed mortals with promises of obedience and adulation and encourage tyranny. If short of help they may force mortals into service.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1412,6 +1562,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common plus one other language.'],
       habitats: ['Underdark'],
+      appearance: [
+        [
+          "A skeletal serpent with a bare skull, still moving with a naga's coils and a stare that pulls at the mind.",
+        ],
+      ],
+      lore: [
+        [
+          'Bone nagas are undead made from nagas slain by magic, or killed before they could rejuvenate, raised by cultists, yuan-ti and spirit nagas. They usually obey their creators as tireless guards and share what they remember, although undeath leaves gaps and scrambled details in that memory. Rare free-willed ones pursue their old goals: those raised from spirit nagas are mostly evil, while ones from guardian nagas can be good but confused.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -1582,6 +1743,15 @@ export default createPublicationMonsters({
       page: 63,
       alignment: 'unaligned',
       habitats: ['Grassland', 'hill', 'mountain'],
+      appearance: [
+        ['A young land shark with an armoured back and a wide mouth bursts out of the ground.'],
+      ],
+      lore: [
+        [
+          'Bulettes, called land sharks, are single-minded predators that tunnel just below the surface, then erupt when they sense movement to catch prey in their jaws. A pup has the same habit on a smaller scale.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1622,6 +1792,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Bullywug', 'Common.'],
       habitats: ['swamp'],
+      appearance: [
+        [
+          'A human-sized, frog- or toad-like creature in a swamp, carrying a rapier made from an insect part.',
+        ],
+      ],
+      lore: [
+        [
+          'Bullywugs are fey embodiments of swamplands who guard the muck and see themselves as favoured for that task. They have close ties to swamp animals and can speak simply with frogs and toads. They fight in their home terrain and use poisoned weapons.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -1845,6 +2026,17 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Druidic', 'Elvish', 'Sylvan.'],
       habitats: ['forest', 'grassland', 'planar', 'feywild'],
+      appearance: [
+        [
+          "A centaur with a human torso on a horse's body, carrying a staff of living wood and lighting up with a beam of sunlight.",
+        ],
+      ],
+      lore: [
+        [
+          'Centaurs defend forests, plains and places of ancient power, and they charge against anyone who threatens their allies. The warden is a Feywild guardian who combines a poisonous staff with a blinding sunlit ray.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'fey',
@@ -1963,6 +2155,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Infernal and telepathy 120 ft.'],
       habitats: ['Nine Hells'],
+      appearance: [
+        [
+          'A devil wrapped in animate chains, whose face appears as a different, frightening mask to each viewer.',
+        ],
+      ],
+      lore: [
+        [
+          'Chain devils, or kytons, think of themselves as artists of pain who coerce prisoners into betraying themselves. Many serve more powerful devils by dragging secrets from captive souls. On their own they encourage ruthless people to seek forbidden magic. Their gaze makes victims see their worst fear in place of the devil, and they use fiery chains to bind targets.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -2102,6 +2305,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal and telepathy 120 ft.'],
       habitats: ['The Abyss'],
+      appearance: [
+        ['A horse-sized fly with a long proboscis, droning so loudly that it dulls the mind.'],
+      ],
+      lore: [
+        [
+          'Chasmes come from the Abyss and put foes out of action with a droning noise before draining them with their proboscis. Most are servile to stronger demons and hunt for captives to be pressed into demon hordes.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -2199,6 +2411,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["understands Deep Speech but can't speak."],
       habitats: ['Coastal', 'Swamp', 'Underdark'],
+      appearance: [
+        ['A huge armoured crustacean with big pincers and a mass of tentacles around its mouth.'],
+      ],
+      lore: [
+        [
+          'Chuuls date from the age when aboleths ruled the seas and turned deep-sea predators into servants that could leave the water and bring back magic and creatures. Many still serve aboleths, and others serve beholders, grells or mind flayers, while some follow their own drives and collect old magic. They seize a victim in the pincers, then paralyse it with tentacles. They do not age and can lie dormant for thousands of years until something wakes them.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2414,6 +2635,13 @@ export default createPublicationMonsters({
       page: 75,
       alignment: 'unaligned',
       habitats: ['Grasslands'],
+      appearance: [['A bird that looks like an irate rooster crossed with a starving reptile.']],
+      lore: [
+        [
+          'Cockatrices combine the look of an angry rooster with a starving lizard, and a bite or peck can turn the victim to stone.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -2560,6 +2788,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Giant.'],
       habitats: ['Coastal', 'desert', 'grassland', 'hill', 'mountain', 'underdark'],
+      appearance: [
+        [
+          'A gigantic one-eyed humanoid whose single eye seems to look past you at events yet to come.',
+        ],
+      ],
+      lore: [
+        [
+          'Cyclopes are giant one-eyed descendants of the gods, and their sight lets them see how events are likely to turn out. The oracle uses this to guide allies and hamper enemies, and it blasts foes with radiant light. It makes a good seer figure for a lonely place.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2654,6 +2893,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Giant.'],
       habitats: ['Coastal', 'desert', 'grassland', 'hill', 'mountain', 'underdark'],
+      appearance: [['A gigantic one-eyed humanoid stands guard with a stone club in hand.']],
+      lore: [
+        [
+          'Cyclopes are giant one-eyed descendants of the gods, able to see likely future events. The sentry is a guard, and its foresight lets it avoid an attack and strike back. It fights with a heavy club that can knock big creatures down, and it throws rocks from a distance.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2733,6 +2979,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: [],
       habitats: ['Desert'],
+      appearance: [['A two-headed dog with diseased jaws prowls the dry ground nearby.']],
+      lore: [
+        [
+          'Death dogs plague arid regions. They ambush creatures they think are weak, especially wounded or sick ones, and they attack recklessly to infect as many as they can. If driven off, they stay close and wait while the disease weakens the victims before attacking again. Old tales link them to death gods and cursed rulers, which comes from the illness they spread.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -2911,6 +3164,15 @@ export default createPublicationMonsters({
         'Abyssal and telepathy 60 ft. It can communicate telepathically only with creatures that understand Abyssal.',
       ],
       habitats: ['Abyss'],
+      appearance: [
+        ['A squat, reeking demon, one of a huge crowd of its kind, clawing and slashing.'],
+      ],
+      lore: [
+        [
+          'Dretches are the servants and victims of greater demons and stand for petty instincts, chaotic urges and violent impulses. They exist in unfathomable numbers in the Abyss, where their stinking throngs fill demon hordes. A dretch can release a poisonous cloud around itself once a day.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'fiend',
@@ -2974,6 +3236,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Elvish', 'Undercommon'],
       habitats: ['Forest', 'Underdark'],
+      appearance: [
+        [
+          "A creature with a drow's upper body on the lower body of a giant spider, clinging to walls and ceilings.",
+        ],
+      ],
+      lore: [
+        [
+          "Driders mix drow and giant spider features. Lolth likes to turn her drow worshippers into driders, as a reward or as a curse, and they either become fanatical servants or give in to predatory spider instincts. Whole communities can be transformed by a god's wrath or other magic, and some worlds have natural driders. Most live underground or in dense forest, where they can climb freely and move through webs. Sunlight hampers them.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3128,6 +3401,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Infernal', 'telepathy 120 ft.'],
       habitats: ['Nine Hells'],
+      appearance: [
+        [
+          'A winged devil in fiendish armour, carrying a magic rope; nobody sees what lies inside the armour.',
+        ],
+      ],
+      lore: [
+        [
+          'Erinyes, also called furies, are fallen-angel devils who deliver merciless justice. They hunt oath breakers and drag the damned to the Nine Hells in the grip of their ropes. They often serve archdevils and guard the Hells against trespassers and escapees, and they hunt in trios on occasion. They also hear oaths and curses sworn in their names, and a wronged mortal crying out for justice may draw one. A summoned erinyes does not leave without the soul of either its quarry or the summoner. They pursue targets across the multiverse for as long as it takes.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -3243,6 +3527,17 @@ export default createPublicationMonsters({
       page: 115,
       alignment: 'neutral evil',
       habitats: ['Forest'],
+      appearance: [
+        [
+          'A hunched, two-legged, spider-like hunter that lurks among trees and shoots webs to snare prey.',
+        ],
+      ],
+      lore: [
+        [
+          'Ettercaps lurk in forest depths and drag prey into web-choked lairs, often hunting with giant spiders and spider swarms. They overhunt, and unchecked they fill whole woodlands with webs and cocooned remains, which brings them into conflict with the Fey. Spiteful ones torment and feed on small Fey such as pixies and sprites. They rarely eat sapient captives quickly, preferring to cocoon them and terrorise them for days. Fire is their weakness, because it burns their webs and the dead trees they live in.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3371,6 +3666,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Draconic and Sylvan. Telepathy 60 ft. with faerie dragons only.'],
       habitats: ['Forest'],
+      appearance: [['A cat-sized dragon with butterfly-like wings and cool-coloured scales.']],
+      lore: [
+        [
+          'Faerie dragons are small draconic pranksters, with warm-coloured scales in youth and cool ones as adults. The adult is a trickster that uses a breath weapon that leaves foes helpless with euphoria rather than hurting them. It also resists spells well.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -3472,6 +3774,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Draconic and Sylvan. Telepathy 60 ft. with faerie dragons only.'],
       habitats: ['Forest'],
+      appearance: [['A cat-sized dragon with butterfly-like wings and warm-coloured scales.']],
+      lore: [
+        [
+          'Faerie dragons are small draconic pranksters, with warm-coloured scales in youth and cool ones as adults. The youth has the same euphoria-inducing breath as its elders, although weaker, and it resists spells well.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -3564,6 +3873,15 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Giant.'],
       habitats: ['Mountain', 'Underdark'],
+      appearance: [
+        ['A broad-framed giant with rocklike skin in various shades and hair like flame.'],
+      ],
+      lore: [
+        [
+          'Fire giants live in hollow vaults and molten rivers in mountain depths, using heat and riches to craft everything from huge weapons to delicate art. Most live in volcanic mountains or caverns with fortress-forges. Evil ones tend to be martial and forge arms to conquer neighbours and take resources, while more temperate ones trade their work. They favour ambitious designs and rarely tolerate interruptions in their workshops. In a fight they use a fiery sword and throw hammers.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3725,6 +4043,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Giant.'],
       habitats: ['Arctic', 'Mountain'],
+      appearance: [['A giant with skin and hair in icy tones, at home in snow and cold.']],
+      lore: [
+        [
+          'Frost giants come from glacial heights and tundra and are immune to cold, which lets them live where little else can. They use it to help in hunting and battle, and their war cries bolster allies. They travel far for food and goods, so many become raiders. Others hunt giant game or build shelters from the cold, with hot springs or contests in the snow. Some serve icy Fey or fire giants underground as guardians in return for treasure, weapons and crafts.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3880,6 +4205,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common.'],
       habitats: ['Swamp', 'Underdark', 'Urban'],
+      appearance: [
+        ['A reeking corpse, related to ghouls, that has an air of ruling over the dead.'],
+      ],
+      lore: [
+        [
+          'Ghasts are foul undying corpses closely related to ghouls. They crave the vices they enjoyed in life as much as they crave rotting flesh. Their stench sickens those near them.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3971,6 +4305,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common.'],
       habitats: ['Swamp', 'Underdark', 'Urban'],
+      appearance: [
+        ['A gaunt, animate corpse with an unnaturally long tongue, usually one of a pack.'],
+      ],
+      lore: [
+        [
+          'Ghoul packs haunt catacombs, ruins and rotten corners of the world, hunting for corpses and for creatures that soon will be. They eat the contents of graves and paralyse foes with their claws, which do not affect undead or elves.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4044,6 +4387,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['Arctic', 'grassland', 'hill'],
+      appearance: [
+        [
+          'A big flightless bird with an axe-shaped beak, with feathers that may be bright in the tropics or white in the tundra.',
+        ],
+      ],
+      lore: [
+        [
+          'Axe beaks are fast predators that chase down prey and chop through foliage with their beaks. They are difficult to train, but ones raised in captivity can become reliable mounts. The giant version hits hard with its beak and can cut a second creature standing next to the target.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -5337,6 +5691,17 @@ export default createPublicationMonsters({
       page: 133,
       alignment: 'chaotic neutral',
       habitats: ['Underdark'],
+      appearance: [
+        [
+          'A heap of flesh covered in eyes, mouths and strange organs, babbling in many voices from horrible to familiar.',
+        ],
+      ],
+      lore: [
+        [
+          'Gibbering mouthers constantly feed on their own bodies and regrow them. They sing, scream, laugh and cry with a chorus of voices, and exist only to feed and to show contempt for reality. Their babbling disorients nearby creatures and the ground around them turns hard to cross.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -5434,6 +5799,17 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Common', 'Gith'],
       habitats: ['Planar (Limbo)'],
+      appearance: [
+        [
+          'A gaunt, humanlike figure, physically the same as a githyanki, fighting with psychic force rather than weapons.',
+        ],
+      ],
+      lore: [
+        [
+          "Githzerai were physically and psychically changed by mind flayers, as were githyanki. They follow the teachings of their first leader, Zerthimon, and reshape mind and body to find peace instead of accepting their former masters' programming. They build serene hidden sanctuaries in chaotic parts of the multiverse, most drifting in Limbo, to hone psionic ability and avoid githyanki and mind flayers.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -5514,6 +5890,15 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Common', 'Gith'],
       habitats: ['Planar (Limbo)'],
+      appearance: [
+        ['A gaunt, humanlike master of psychic combat, physically identical to a githyanki.'],
+      ],
+      lore: [
+        [
+          "Githzerai were changed by mind flayers in body and mind, and they follow the teachings of Zerthimon in order to find peace. They live in hidden sanctuaries they create with their minds, mostly in Limbo but also in the Abyss, the Elemental Chaos and the Feywild. The zerth is a more powerful fighter who strikes with psionic force, and shares the species' wish to avoid githyanki and mind flayers.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -5774,6 +6159,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Gnoll.'],
       habitats: ['Desert', 'Forest', 'Grassland', 'Hill'],
+      appearance: [
+        ['A hyena-like humanoid warrior with a cackling voice, carrying a bow made of bone.'],
+      ],
+      lore: [
+        [
+          'Gnolls arose from hyenas that fed on flesh tainted by the Abyss, and the demon lord Yeenoghu spread them across the multiverse. They are his cackling servants, living to cause ruin and to feast on what is left. He sees them as maggots released to infest a despised carcass, not as his own brood.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -5900,8 +6294,17 @@ export default createPublicationMonsters({
             },
             text: [
               'A Large or smaller creature hit by the attack falls ',
-              rules.prone,
+              { effect: 'gore-prone' },
               ' if the gorgon moved at least 20 ft. straight toward it immediately before the hit.',
+            ],
+            effects: [
+              {
+                key: 'gore-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5913,14 +6316,31 @@ export default createPublicationMonsters({
               'Each creature in a 30-ft. cone makes a ',
               { dc: 'con' },
               ' Constitution save. An initial failure makes the creature ',
-              rules.restrained,
+              { effect: 'breath-restrained' },
               '. If it is still ',
               rules.restrained,
               ' at the end of its next turn, it repeats the save. Success ends the effect. On a second failure, ',
-              rules.petrified,
+              { effect: 'breath-petrified' },
               ' replaces ',
               rules.restrained,
               '.',
+            ],
+            effects: [
+              {
+                key: 'breath-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'breath-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                },
+              },
             ],
             uses: 1,
             recharge: 'recharge 5–6',
@@ -5941,6 +6361,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Choose one ', rules.prone, ' creature within 5 ft.'],
+            effects: [],
           },
         ],
       },
@@ -5952,6 +6373,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal.'],
       habitats: ['Planar (Abyss)'],
+      appearance: [
+        [
+          'A giant, hunched demon like a primeval minotaur, scarred by Abyssal wars or by war machines.',
+        ],
+      ],
+      lore: [
+        [
+          'Goristros are demons the size of a building, able to ruin whole cities. They stand for senseless anarchy and destruction, and they take particular offence at creatures and structures that rival them in size, such as castles, towers, giants and war beasts. Baphomet created them, and they prowl his Abyssal realm, the Endless Maze, pulping non-demons that they find there. They are good at breaking buildings and magic does little to hold them.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -6063,6 +6495,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common plus two other languages.'],
       habitats: ['Forest', 'Swamp', 'Urban'],
+      appearance: [
+        [
+          'A walking body animated by a wrathful spirit, intent on punishing the person who wronged it.',
+        ],
+      ],
+      lore: [
+        [
+          'Revenants are wrathful spirits that possess corpses and other materials to take revenge on those who wronged them. They will not rest until their targets are dead, and if their body is destroyed they take a new one and carry on. This one returns after 24 hours unless Dispel Evil and Good is cast on its remains, and then it raises another set of corpses elsewhere.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -6166,6 +6609,13 @@ export default createPublicationMonsters({
       page: 151,
       alignment: 'unaligned',
       habitats: ['Underdark'],
+      appearance: [['A grey slime that blends into stone surfaces.']],
+      lore: [
+        [
+          'Gray oozes are hungry, corrosive slimes that blend in with stony surroundings. They can squeeze through gaps an inch wide, and their bodies eat away at nonmagical weapons and ammunition.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -6229,6 +6679,17 @@ export default createPublicationMonsters({
       page: 158,
       alignment: 'unaligned',
       habitats: ['Forest', 'Underdark'],
+      appearance: [
+        [
+          'A worm-like predator that bursts from hiding with flailing tentacles and a snapping beak.',
+        ],
+      ],
+      lore: [
+        [
+          'Gricks hide in cavernous crags or deadfalls and burst out to grab whatever passes. Scattered bones and belongings are the only warning. Their origin is unclear, though some say they come from natural worms warped by magic, and a population in an area may mean a portal to another plane, a legendary magic item or a powerful supernatural being.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -6303,6 +6764,15 @@ export default createPublicationMonsters({
       page: 158,
       alignment: 'unaligned',
       habitats: ['Forest', 'Underdark'],
+      appearance: [
+        ['A huge worm-like predator with a beak and a mass of tentacles, bursting from cover.'],
+      ],
+      lore: [
+        [
+          'Gricks hide in crags or deadfalls and burst out to snare passing prey. The ancient is a far larger one, with a beak, a slam and grasping tentacles. Some people think the presence of gricks in a place points to portals, legendary items or powerful supernatural beings nearby.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -6390,6 +6860,17 @@ export default createPublicationMonsters({
       page: 159,
       alignment: 'unaligned',
       habitats: ['Arctic', 'Coastal', 'Grassland', 'Hill', 'Mountain'],
+      appearance: [
+        [
+          'A creature with the front of a raptor and the back of a big cat, most often an eagle and a lion.',
+        ],
+      ],
+      lore: [
+        [
+          'Griffons mix raptor and big-cat features, with rarer ones resembling condors and panthers or hawks and tigers, and they hunt with precision and ferocity. They are often linked with royalty and are called the Masters of Animals. In a fight they grab with both sets of claws.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -6446,6 +6927,17 @@ export default createPublicationMonsters({
       page: 160,
       alignment: 'neutral evil',
       habitats: ['Underdark'],
+      appearance: [
+        [
+          'A blind-looking humanoid with shallow hollows where its eyes should be, carrying a bone cudgel.',
+        ],
+      ],
+      lore: [
+        [
+          'Grimlocks are humanoids that mind flayers captured, exposed to Underdark radiation and gave new commands, wiping out any trace of who they were. They sense their surroundings without eyes, and psychic energy left by the change charges their blows. They serve illithids as tools.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -6482,6 +6974,13 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Celestial', 'Common.'],
       habitats: ['Desert', 'forest', 'and Upper Planes'],
+      appearance: [['A serpentine scholar holding the memory of a whole culture.']],
+      lore: [
+        [
+          'Guardian nagas are immortal, serpentine scholars with perfect memories. They collect the history and lore of the peoples they live among and pass it on accurately. If their host civilisation ends, one may stay in the ruins to keep its stories alive. It returns to life a few days after dying unless Dispel Evil and Good is cast on its remains.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -6607,6 +7106,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common.'],
       habitats: ['Coast', 'forest', 'hills', 'and mountains'],
+      appearance: [
+        [
+          'A creature with a human face and the wings and talons of a scavenging bird, singing as it approaches.',
+        ],
+      ],
+      lore: [
+        [
+          'Harpies are hate-filled and want to cause pain and end love and life. Their songs draw listeners toward them, and charmed victims often die on their claws or from natural hazards on the way. They live in remote, dismal places marked by tragedy. Some stories say they offended the gods and were transformed, and each harpy has its own song, some of them lovely and others a screech that only works on the magically enthralled.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6666,6 +7176,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common plus two other languages.'],
       habitats: ['Forest', 'Swamp', 'Urban'],
+      appearance: [['A Gargantuan object or structure animated by a vengeful spirit.']],
+      lore: [
+        [
+          'Revenants are wrathful spirits that possess corpses and other materials to take revenge on those who wronged them. This one inhabits a huge object or structure, and it ruins spells cast inside its space and can swallow creatures by teleporting them into itself. It revives after 24 hours unless Dispel Evil and Good is cast on its remains, taking another large object or structure elsewhere.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'undead',
@@ -6812,6 +7329,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ["Understands Infernal but can't speak."],
       habitats: ['Mountains', 'the Lower Planes', 'and the Underdark'],
+      appearance: [['A fiery canine with scorching jaws and breath, hunting in a pack.']],
+      lore: [
+        [
+          "Hell hounds come from the pits of Acheron, Gehenna and the Nine Hells, where they stop souls escaping their afterlives. On the Material Plane they serve cruel masters such as fire giants and cultists, who value their viciousness and fire. They are cleverer than ordinary dogs, good trackers who use tricks and ambushes in packs, and they like to prolong their victims' terror. They serve as long as they get to hunt and kill, and they turn on anyone who treats them as mere animals.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -6888,6 +7412,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal and telepathy 120 ft..'],
       habitats: ['Abyss'],
+      appearance: [
+        [
+          'An ogre-sized demon with oozing hide that keeps erupting into fangs, fungus or half-formed features before roiling away.',
+        ],
+      ],
+      lore: [
+        [
+          'Hezrous make up the bulk of many demonic hordes, croaking and reeking as they crush and eat foes. They serve stronger demons such as nalfeshnees and mariliths and pass the abuse on to weaker dretches and manes. Left alone on the Material Plane they go on reckless, short-sighted rampages, and only magic or threats from stronger masters can steer them to greater plots. Spellcasters use Magic Circle and Planar Binding to compel them.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -6979,6 +7514,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant.'],
       habitats: ['Hill'],
+      appearance: [
+        [
+          "A giant three times a human's height with skin and hair in earthy or mossy shades, dressed in hide and rough tools.",
+        ],
+      ],
+      lore: [
+        [
+          "Hill giants live among rugged bluffs and highlands, where nature usually meets their needs and they make clothes, tools and weapons from stone, wood and hides. They can be suspicious and protective of their land, but some will share with travellers who entertain them. Disaster, invasion or hunger may push them into other people's lands, where some steal, take revenge on smaller folk, raid, or serve other giants in return for protection.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -7057,6 +7603,15 @@ export default createPublicationMonsters({
       page: 169,
       alignment: 'unaligned',
       habitats: ['Grassland', 'Hill', 'Mountain'],
+      appearance: [
+        ['A creature that is part hunting bird and part horse, flying overhead and keen to hunt.'],
+      ],
+      lore: [
+        [
+          'Hippogriffs hunt opportunistically as they migrate, often targeting lone travellers and livestock. Migrations can take months or years and sages often predict the routes. They may carry riders along their journey in exchange for food or other help. They can fly out of a fight without being struck as they leave.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -7157,6 +7712,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ["Understands Common and one other language but can't speak."],
       habitats: ['Any'],
+      appearance: [
+        ['A cat-sized winged creature whose look reflects the tastes of the mage who made it.'],
+      ],
+      lore: [
+        [
+          "A mage makes a homunculus with a ritual using the mage's blood. It is a loyal, obedient assistant that shares a telepathic bond with its creator while they are on the same plane. If the creator dies, it falls apart into inert material. Its bite is weak but carries a poison.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -7314,6 +7878,17 @@ export default createPublicationMonsters({
       page: 175,
       alignment: 'unaligned',
       habitats: ['Coasts and swamps'],
+      appearance: [
+        [
+          'A many-headed serpent, most often with five heads, hungry and quick to regrow what it loses.',
+        ],
+      ],
+      lore: [
+        [
+          'Hydras are legendary hero-slayers known for regeneration, and they eat anything they catch. When they empty an area of prey they often sink into a long torpor until more arrives. Elder hydras with more heads may become local legends. Many keep their own territory, and wicked deities might use them to guard treasures or magical sites. Most are found in coastal or swamp country.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -7437,6 +8012,15 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Infernal and telepathy 120 ft..'],
       habitats: ['Nine Hells'],
+      appearance: [
+        ['An insect-like devil from the cold reaches of the Hells, with a cold, calculating air.'],
+      ],
+      lore: [
+        [
+          'Ice devils, or gelugons, are heartless strategists who set emotion aside for their own cruel version of logic, seeing the multiverse as a puzzle to be solved for themselves and the Hells. They plan the movements of infernal armies and make good guardians, able to reshape a battlefield with walls of ice. On their own they tempt mortals to give up empathy and friendships, isolate them, then drain their secrets or send them out spreading cruel doctrines. They usually live in frozen realms, especially Cania.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -7537,6 +8121,15 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
       habitats: ['Any'],
+      appearance: [
+        ['A tiny devil that can pass for a rat, a raven or a spider and slip about unseen.'],
+      ],
+      lore: [
+        [
+          "Imps are cowardly and fawning devils that serve devils and wicked spellcasters. They shape-shift and turn invisible, so they make good spies and escape artists. They often leave out key details or put events in the worst light to steer their masters toward the imps' own advice. Without a master they manipulate others for fun and to feed their ego. They might take over bands of weaker monsters or pose as helpful spirits to push important people toward bad ends.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'tiny',
         type: 'fiend',
@@ -7599,6 +8192,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ["Understands Deep Speech but can't speak. Telepathy 60 ft.."],
       habitats: ['underdark'],
+      appearance: [['A small brain-like creature walking on four legs, sensing any mind nearby.']],
+      lore: [
+        [
+          "Intellect devourers serve mind flayers by eating other creatures' brains and puppeteering the empty bodies. They ambush thinking beings, drain their thoughts, and if the victim is a Humanoid, move into the skull. With the victim's knowledge and body they pass as the person and advance mind flayer plots. A friend may only notice that something is slightly wrong about the person.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'tiny',
         type: 'aberration',
@@ -7850,6 +8450,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Undercommon.'],
       habitats: ['Coastal and Underdark'],
+      appearance: [
+        [
+          'A slimy humanoid with the head of a goggle-eyed deep-sea fish, holding a strange scepter.',
+        ],
+      ],
+      lore: [
+        [
+          'Kuo-toa claim that they once ruled whole worlds under fish gods, and they blame elves, humans, mind flayers and their own gods for its fall. They withdrew to deep trenches and Underdark seas, where they brood and plan revenge for slights that may never have happened. They hate surface and Underdark civilisations, kidnap people for their secrets, and make strange sacrifices. They try to take creatures alive with nets and odd weapons, and they raid drow, dwarf and gnome communities and surface settlements near flooded passages. Sunlight hampers them.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -7998,6 +8609,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Undercommon.'],
       habitats: ['Coastal and Underdark'],
+      appearance: [
+        [
+          'A slimy humanoid with a goggle-eyed fish head, wielding a long staff with a pincer at the end.',
+        ],
+      ],
+      lore: [
+        [
+          "Kuo-toa say they once ruled whole worlds under fish gods and blame others for its end. They now live in deep trenches and Underdark seas, plotting revenge. They try to capture creatures alive, and the whip's pincer staff can grab a target from a distance. Sunlight hampers them.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -8082,6 +8704,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common.'],
       habitats: ['Swamp', 'Underdark', 'urban'],
+      appearance: [['A gaunt, animate corpse with a long tongue, whose bite chills and slows.']],
+      lore: [
+        [
+          "Ghouls hunt in packs around catacombs and ruins, looking for corpses and for creatures that soon will be. They eat what is buried and paralyse foes with claws that do not work on undead or elves. The lacedon's bite brings a bitter cold that slows its victim.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -8163,6 +8792,15 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["Understands Common plus one other language but can't speak."],
       habitats: ['The Lower Planes'],
+      appearance: [
+        ['A repulsive, maggot-like creature with twisted features that recall the person it was.'],
+      ],
+      lore: [
+        [
+          'Larvae are the damned souls of the Lower Planes, almost helpless and trying to avoid notice from stronger beings. Many fiends eat them, evil spellcasters use them for depraved rituals, and night hags often herd and trade them. A larva that survives long enough can turn into a lesser fiend.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -8197,6 +8835,15 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Understands Infernal and cannot speak.'],
       habitats: ['Nine Hells'],
+      appearance: [
+        ['A slurry of infernal matter from which only vague limbs and anguished faces protrude.'],
+      ],
+      lore: [
+        [
+          'Lemures are the lowest of devils, formed from wicked souls with their memories scoured away. A lemure killed in the Nine Hells comes back after some days unless a creature under Bless kills it or it is otherwise put down.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -8241,6 +8888,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Draconic and Primordial (Terran).'],
       habitats: ['Forest and swamp'],
+      appearance: [
+        ['A lizardfolk whose scales are marked by earth magic, flinging bursts of stone.'],
+      ],
+      lore: [
+        [
+          'Lizardfolk live in wildernesses full of primal magic, and some bond with the Plane of Earth, linking them to cycles of growth and rebirth. The geomancer uses that link to throw earth bursts and to call down a hail of stone on an area.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -8334,6 +8990,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Draconic and Primordial (Terran).'],
       habitats: ['Forest and swamp'],
+      appearance: [['A lizardfolk leader with an earthen maul and a savage bite.']],
+      lore: [
+        [
+          'Lizardfolk live in wildernesses full of primal magic, and some form strong bonds with the Plane of Earth. The sovereign leads with a heavy maul and a bite that restores its own vitality from living victims.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -8456,8 +9119,17 @@ export default createPublicationMonsters({
             },
             text: [
               'A Huge or smaller creature hit is also ',
-              rules.prone,
+              { effect: 'gore-prone' },
               ' if the mammoth moved at least 20 ft. straight toward it immediately before the hit.',
+            ],
+            effects: [
+              {
+                key: 'gore-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -8476,6 +9148,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Choose one ', rules.prone, ' creature within 5 ft.'],
+            effects: [],
           },
         ],
       },
@@ -8523,6 +9196,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["Understands Abyssal but can't speak."],
       habitats: ['The Abyss'],
+      appearance: [
+        [
+          'A distorted demon whose body crawls with Abyssal parasites and gives off sickening fumes.',
+        ],
+      ],
+      lore: [
+        [
+          'Manes are the lowest demons, formed from loathsome souls sent to the Abyss. Their features are misshapen and they are gripped by constant terror and demonic urges, so they only know shock and frenzy. Their vapors can leave nearby creatures unable to act. They can squeeze through narrow gaps.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -8607,6 +9291,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common.'],
       habitats: ['Arctic', 'coasts', 'grasslands', 'hills', 'and mountains'],
+      appearance: [
+        [
+          'A winged creature with lion-like claws, leathery wings, a wide toothy mouth, and a tail bristling with spikes.',
+        ],
+      ],
+      lore: [
+        [
+          'Manticores ambush travellers from above and eat them, preferring humans but taking other peoples and livestock. They launch tail spikes at targets on the ground or in the air. Despite being ravenous they like to talk to those they plan to eat and sometimes strike deals with them, such as for a more tempting meal.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -8693,7 +9388,16 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
             },
-            text: ['Makes a Medium or smaller creature ', rules.prone, '.'],
+            text: ['Makes a Medium or smaller creature ', { effect: 'bite-prone' }, '.'],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
       },
@@ -8705,6 +9409,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Primordial (Aquan).'],
       habitats: ['Coastal', 'underwater'],
+      appearance: [
+        ["A creature with a human upper body and a sea creature's lower half, armed with a spear."],
+      ],
+      lore: [
+        [
+          'Merfolk live under the waves and combine human and sea-creature features. Some are curious about land dwellers while others distrust them. The skirmisher harasses with a spear that chills and slows its target.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -8751,6 +9464,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Primordial (Aquan).'],
       habitats: ['Coastal and underwater'],
+      appearance: [
+        [
+          'A sea predator that mixes ogre features with those of a primeval fish, carrying a harpoon.',
+        ],
+      ],
+      lore: [
+        [
+          'Merrow lurk in coastal waters and burst out to grab prey or skewer it with harpoons, then drag land dwellers to dismal undersea lairs and keep prisoners as meals. They raid coastal settlements and merfolk communities for weapons and treasure, which brings conflict with merfolk and leads surface dwellers to blame merfolk for merrow attacks. Their origins are traced to aquatic ogres, corrupt merfolk and worse.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -8992,6 +9716,17 @@ export default createPublicationMonsters({
           'Place the mimic among several normal objects. Let it give itself away when a mundane clue, such as a drag mark or missing dust, fails to line up.',
         ],
       ],
+      appearance: [
+        [
+          'An ordinary object such as a chest, door or chair, which turns out to be a blob with eyes and teeth.',
+        ],
+      ],
+      lore: [
+        [
+          'In its natural form a mimic is roughly a moving stomach with eyes and teeth over its body. It changes colour, texture and size to copy a similar-sized object, as camouflage and bait. When victims come close it strikes with sticky pseudopods and a toothy mouth, then usually moves on, changes shape and waits for its next meal. Anything that touches it in object form sticks to it.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -9098,6 +9833,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal.'],
       habitats: ['Underdark'],
+      appearance: [
+        [
+          'A hulking horned brute that looks more like the demon lord Baphomet than other minotaurs, carrying a glaive.',
+        ],
+      ],
+      lore: [
+        [
+          'Baphomet says that he made minotaurs and demands worship. Most minotaurs are free of him, but those who serve him become minotaurs of Baphomet and wreak havoc in his name. Rarely, non-minotaurs cursed by wizards or spiteful gods turn into them. They often live in mazes, guiding allies to hidden places and stalking trespassers.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -9164,6 +9910,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Understands Abyssal but cannot speak.'],
       habitats: ['Shadowfell', 'Underdark', 'Urban'],
+      appearance: [
+        [
+          "A skeleton with a minotaur's horned skull, charging with its horns and swinging heavy blows.",
+        ],
+      ],
+      lore: [
+        [
+          'Skeletons rise at the call of necromancers and foul spirits, and they work tirelessly as guards, soldiers or labourers for whatever raised them. The minotaur skeleton charges to gore its target and follows up with heavy blows.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -9228,6 +9985,15 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Modron.'],
       habitats: ['Mechanus'],
+      appearance: [
+        ['A small mechanical being from Mechanus, with a clockwork blade that returns to it.'],
+      ],
+      lore: [
+        [
+          'Modrons are beings of magic and machinery who embody absolute law. They live on the clockwork plane of Mechanus, tend its mechanisms, and oppose chaos across the multiverse. They form a strict hierarchy that runs from monodrones up to the godlike Primus, and each obeys orders from its superiors without question. They are good at patient, precise work but do not grasp art or humour. A rare modron goes rogue and develops its own will, and other modrons are sent to recover or destroy it. A dead modron turns to dust.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -9281,6 +10047,15 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Modron.'],
       habitats: ['Mechanus'],
+      appearance: [
+        ['A small, quirky mechanical being from Mechanus, armed with gears it hurls or swings.'],
+      ],
+      lore: [
+        [
+          'Modrons are beings of magic and machinery who embody absolute law and live on Mechanus. The monodrone is the lowest rank in their hierarchy, and it carries out orders from higher modrons without question. It has little grasp of non-literal ideas such as humour or art. It disintegrates to dust when killed.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -10192,6 +10967,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Choose one creature the nothic can see within 120 ft.'],
+            effects: [],
           },
           {
             key: 'weird-insight',
@@ -10205,6 +10981,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'recharge 6',
+            effects: [],
           },
         ],
       },
@@ -11177,6 +11954,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['Choose one visible creature within 60 ft.'],
+            effects: [],
           },
           {
             key: 'mind-corrosion',
@@ -13202,7 +13980,20 @@ export default createPublicationMonsters({
               range: [60, 240],
               damage: [{ dice: '2d8', type: rules.bludgeoning, addModifier: true }],
             },
-            text: ['A Large or smaller creature hit by the boulder falls ', rules.prone, '.'],
+            text: [
+              'A Large or smaller creature hit by the boulder falls ',
+              { effect: 'boulder-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'boulder-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'deflect-missile',
@@ -13225,6 +14016,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
       },

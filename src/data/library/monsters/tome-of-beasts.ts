@@ -11,6 +11,25 @@ export default createPublicationMonsters({
       name: 'Accursed Defiler',
       alignment: 'neutral evil',
       languages: ['understands an ancient language', "but can't speak"],
+      appearance: [
+        [
+          'A gaunt figure in a tattered black mantle, wrapped in a cloud of whirling sand. Its dry skin is cracked and its eyes are hollow and black.',
+        ],
+      ],
+      lore: [
+        [
+          'Accursed defilers are the remains of an ancient tribe that desecrated a sacred oasis, cursed by angry spirits to wander the wastes with an unquenchable thirst. They carry a sandstorm in the lungs and flowing sand in the veins, and leave desiccated husks behind. Talking to one is pointless since it is full of hatred and despair. Rarely, evil high priests, fext or soulsworn warlocks use them as bodyguards.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e API: Accursed Defiler (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/?document__slug=tob&search=defiler&fields=name,desc,environments,document__title',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -203,10 +222,18 @@ export default createPublicationMonsters({
               "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A ',
-              rules.frightened,
-              " creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+              { effect: 'frightful-presence-frightened' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -221,7 +248,21 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'dex' },
               ' Dexterity saving throw. Each creature in that area must also succeed on a ',
               { dc: 'cha', save: 'wis' },
-              ' Wisdom saving throw or go on a rampage for 1 minute. A rampaging creature must attack the nearest living creature or smash some object smaller than itself if no creature can be reached with a single move. A rampaging creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              ' Wisdom saving throw or ',
+              { effect: 'rampage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'rampage',
+                name: 'Rampage',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                text: [
+                  'A rampaging creature must attack the nearest living creature or smash some object smaller than itself if no creature can be reached with a single move.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -265,11 +306,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -280,6 +331,24 @@ export default createPublicationMonsters({
       name: 'Algorith',
       alignment: 'lawful neutral',
       languages: ['Common', 'Celestial', 'Draconic', 'Infernal'],
+      appearance: [
+        [
+          'A lawful being built of force and mathematics, sometimes called a folding angel, with formulas etched into its skin.',
+        ],
+      ],
+      lore: [
+        [
+          "Algoriths guard the border of the Conceptual Realms, keep subjective beings out of the Realms of the Absolute and hunt chaos everywhere, even in gods' abodes. They visit mortal worlds when chaos threatens a place or fate tangles, and may serve a god of Law or answer a skein witch. They conjure blades of force and summon energy that deconstructs randomness. In groups they move silently in step. Five matters to them, though they will not say why.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e API: Algorith (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/?document__slug=tob&search=algorith&fields=name,desc,environments,document__title',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -2344,9 +2413,10 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 } },
               onFail: {
                 damage: [{ dice: '8d8', type: rules.thunder }],
+
                 also: [
                   'Are permanently ',
-                  rules.deafened,
+                  { effect: 'croaking-deafened' },
                   '. Those succeeding on the saving throw take half damage and are not ',
                   rules.deafened,
                   '.',
@@ -2355,7 +2425,17 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: [
-              'A bukavac can emit a howling thunderclap that deafens and damages those nearby. The deafness can be cured with lesser restoration.',
+              'A bukavac can emit a howling thunderclap that deafens and damages those nearby. ',
+            ],
+            effects: [
+              {
+                key: 'croaking-deafened',
+                name: 'Deafness',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['cured with lesser restoration'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2729,15 +2809,29 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.poison }],
-                also: ['The target is ', rules.poisoned, ' if it is a creature.'],
+
+                also: ['The target is ', { effect: 'breath-poisoned' }, ' if it is a creature.'],
               },
             },
             text: [
-              'The dragon exhales a cone of black poison gas in a 15-foot cone. The ',
+              'The dragon exhales a cone of black poison gas in a 15-foot cone.',
+              ' If the save is successful, the target takes half the damage and does not become ',
               rules.poisoned,
-              ' condition lasts until the target takes a long or short rest or removes the condition with lesser restoration. If the save is successful, the target takes half the damage and does not become ',
-              rules.poisoned,
-              '.',
+              '. ',
+            ],
+            effects: [
+              {
+                key: 'breath-poisoned',
+                name: 'Poison breath',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the target takes a long or short rest or removes the condition with lesser restoration',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -6713,18 +6807,43 @@ export default createPublicationMonsters({
               "on initiative count 20 (losing initiative ties), Hraesvelgr takes a lair action to cause one of the following effects; Hraesvelgr can't use the same effect two rounds in a row: - Hraesvelgr unleashes a blast of wind in a 60-foot cone. All creatures in the area must succeed on a ",
               { dc: 'dex', printed: 15 },
               ' Dexterity saving throw or be knocked ',
-              rules.prone,
+              { effect: 'lair-prone' },
               '. - One creature within 60 feet that Hraesvelgr can see must succeed on a ',
               { dc: 'str', printed: 15 },
               ' Strength saving throw or be swept up in a pillar of wind. The creature is ',
-              rules.restrained,
-              ' and suspended 15 feet off the ground. If the creature has something to pull on, it can pull itself out of the wind by using an action and making a successful DC 15 Strength check; another creature who can reach the suspended creature can pull it free in the same way. Alternatively, a flying creature can repeat the saving throw as an action. On a success, it moves 5 feet out of the pillar of wind. This effect lasts until Hraesvelgr takes this action again or dies. - Hraesvelgr lets out a thunderous bellow in giant form or an ear-splitting shriek in roc form. All creatures within 30 feet must make a successful ',
+              { effect: 'lair-pillar' },
+              '. - Hraesvelgr lets out a thunderous bellow in giant form or an ear-splitting shriek in roc form. All creatures within 30 feet must make a successful ',
               { dc: 'con', printed: 15 },
               ' Constitution saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. A ',
-              rules.frightened,
-              ' creature repeats the saving throw at the end of its turn, ending the effect on itself on a success.',
+              { effect: 'lair-bellow' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'lair-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 15 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'lair-pillar',
+                name: 'Pillar of wind',
+                lands: { on: 'save', save: 'str', dc: 'str', printed: 15 },
+                conditions: [rules.restrained],
+                text: [
+                  'suspended 15 feet off the ground. If the creature has something to pull on, it can pull itself out of the wind by using an action and making a successful DC 15 Strength check; another creature who can reach the suspended creature can pull it free in the same way. Alternatively, a flying creature can repeat the saving throw as an action. On a success, it moves 5 feet out of the pillar of wind.',
+                ],
+                lasts: { kind: 'until', text: ['Hraesvelgr takes this action again or dies'] },
+              },
+              {
+                key: 'lair-bellow',
+                name: 'Bellow',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -6743,6 +6862,7 @@ export default createPublicationMonsters({
               refs.spells.control_weather_srd_5_1,
               ' Keen Sight (Roc Form Only). Hraesvelgr has advantage on Wisdom (Perception) checks that rely on sight.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -6807,8 +6927,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.stunned,
-              " until the start of Hraesvelgr's next turn.",
+              { effect: 'fist-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'fist-stunned',
+                name: 'Fist stun',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -6823,12 +6952,17 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '4d6', type: rules.slashing, addModifier: true }],
             },
-            text: [
-              'The target is ',
-              rules.grappled,
-              ' (escape DC 17). Until this grapple ends, the target is ',
-              rules.restrained,
-              " and Hraesvelgr can't use his talons against another target.",
+            text: ['The target is ', { effect: 'talons-grappled' }, '.'],
+            effects: [
+              {
+                key: 'talons-grappled',
+                name: 'Talons',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["Hraesvelgr can't use his talons against another target."],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -6845,6 +6979,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -6867,11 +7002,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '3d6', type: rules.bludgeoning }],
-                  also: ['Fall ', rules.prone, '.'],
+
+                  also: ['Fall ', { effect: 'move-prone' }, '.'],
                 },
                 printedDc: 15,
               },
               text: ['Hraesvelgr moves half his speed.'],
+              effects: [
+                {
+                  key: 'move-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
             {
               key: 'swallow-roc-form-only-form-only',
@@ -6883,12 +7028,8 @@ export default createPublicationMonsters({
                 '. If he hits, he swallows the creature. A swallowed creature is no longer ',
                 rules.grappled,
                 ', but is ',
-                rules.blinded,
-                ', ',
-                rules.restrained,
-                ', and has advantage against attacks and effects originating from outside Hraesvelgr. A swallowed creature takes ',
-                { roll: '4d6' },
-                " acid damage at the start of each of Hraesvelgr's turns. If Hraesvelgr returns to giant form, or takes 40 damage or more in a single turn from a swallowed creature, he must succeed on a ",
+                { effect: 'swallowed' },
+                '. If Hraesvelgr returns to giant form, or takes 40 damage or more in a single turn from a swallowed creature, he must succeed on a ',
                 { dc: 'con', printed: 20 },
                 ' Constitution saving throw or regurgitate all swallowed creatures, which land ',
                 rules.prone,
@@ -6897,6 +7038,20 @@ export default createPublicationMonsters({
                 ' and can escape the corpse by spending 30 feet of movement, exiting ',
                 rules.prone,
                 '.',
+              ],
+              effects: [
+                {
+                  key: 'swallowed',
+                  name: 'Swallowed',
+                  lands: { on: 'use' },
+                  conditions: [rules.blinded, rules.restrained],
+                  text: [
+                    'has advantage against attacks and effects originating from outside Hraesvelgr. A swallowed creature takes ',
+                    { roll: '4d6' },
+                    " acid damage at the start of each of Hraesvelgr's turns.",
+                  ],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -8020,13 +8175,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 40 },
               onFail: {
                 damage: [{ dice: '3d4', type: rules.psychic, addModifier: true }],
-                also: [
-                  'Have disadvantage on Intelligence-based checks, saving throws, and attacks until the end of its next turn.',
-                ],
+
+                also: ['Have ', { effect: 'gaze-confused' }, '.'],
               },
             },
             text: [
               'The library automaton chooses one creature it can see within 40 feet. If the saving throw succeeds, then the target takes half damage and suffers no other effect.',
+            ],
+            effects: [
+              {
+                key: 'gaze-confused',
+                name: 'Gaze of confusion',
+                lands: { on: 'failed-save' },
+                text: ['disadvantage on Intelligence-based checks, saving throws, and attacks'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {

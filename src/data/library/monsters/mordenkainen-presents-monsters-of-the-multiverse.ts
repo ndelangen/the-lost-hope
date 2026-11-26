@@ -329,8 +329,17 @@ export default createPublicationMonsters({
               ' piercing damage. A creature hit after that movement must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'gore-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'gore-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1784,8 +1793,18 @@ export default createPublicationMonsters({
               'A creature other than a catoblepas that starts its turn within 10 ft. of the catoblepas makes a ',
               { dc: 'con' },
               ' Constitution save. On a failure, it is ',
-              rules.poisoned,
-              " until its next turn starts. On a success, it is immune to every catoblepas's Stench for 1 hour.",
+              { effect: 'stench-poisoned' },
+              '. ',
+              "On a success, it is immune to every catoblepas's Stench for 1 hour.",
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -1804,8 +1823,17 @@ export default createPublicationMonsters({
               'Makes a ',
               { dc: 'con' },
               ' Constitution save. On a failure, it is ',
-              rules.stunned,
-              " until the start of the catoblepas's next turn.",
+              { effect: 'tail-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tail-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1828,6 +1856,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2622,11 +2651,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.radiant }],
-                also: ['Is ', rules.blinded, ' until the end of its next turn.'],
+
+                also: [{ effect: 'burn-blinded' }],
               },
             },
             text: [
               'When the elder dies, its body and belongings burn to ash, except for metal and magic objects. A successful save halves the damage and prevents the blindness.',
+            ],
+            effects: [
+              {
+                key: 'burn-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -4892,6 +4931,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Target one creature within 10 ft.'],
+            effects: [],
           },
         ],
       },
@@ -9341,8 +9381,18 @@ export default createPublicationMonsters({
               'The target must pass a ',
               { dc: 'str', save: 'con' },
               ' Constitution save or be ',
-              rules.stunned,
-              ' for 1 minute. It can repeat the save whenever it takes damage and at the end of each of its turns, ending the effect on a success.',
+              { effect: 'smash-stunned' },
+              '. It can repeat the save whenever it takes damage and at the end of each of its turns, ending the effect on a success.',
+            ],
+            effects: [
+              {
+                key: 'smash-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['damaged', 'end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -9359,14 +9409,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '1d8', type: rules.bludgeoning, addModifier: true }],
+
                 also: [
-                  'Falls ',
-                  rules.prone,
-                  '. A creature that succeeds takes half damage and stays upright.',
+                  { effect: 'sweep-prone' },
+                  ' A creature that succeeds takes half damage and stays upright.',
                 ],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'sweep-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
       },
@@ -10471,6 +10530,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'Gnoll', 'telepathy 120 ft.'],
       habitats: ['coastal', 'forest', 'grassland', 'hill'],
+      appearance: [
+        [
+          'A hyena-like demon steps out of a billowing, fetid cloud of smoke, jaws slavering and a stinging tail lashing behind it.',
+        ],
+      ],
+      lore: [
+        [
+          'A shoosuva is a hyena-demon that Yeenoghu gives to a powerful follower, usually a gnoll fang, after a war band wins a great victory. Each one bonds to a single master and fights beside it. In a fight it clamps its jaws on one victim while stinging another with its poisonous tail, leaving paralysed prey for the war band to finish. A gnoll with a shoosuva ranks just below a flind in its war band.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -10563,6 +10633,17 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['All languages it knew in life.'],
       habitats: ['desert', 'swamp', 'underdark'],
+      appearance: [
+        [
+          'Three hateful figures are fused into one undead mass, and the thing seems to argue with itself as it moves.',
+        ],
+      ],
+      lore: [
+        [
+          "Skull lords rule large stretches of the Shadowfell and send hordes of undead against rival domains. Each is made from three individuals bound together, so it is always scheming against itself. The first appeared after Vecna's attempt to conquer Greyhawk collapsed: his warlords turned on one another and he fused them in threes in a rage. Later skull lords tend to be made from other commanders who betrayed their masters. Expect treachery and infighting, which a clever party can exploit.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -10741,6 +10822,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Giant.'],
       habitats: ['coastal', 'forest', 'swamp', 'underdark'],
+      appearance: [
+        [
+          'A troll that is partly ghostly, able to drift through creatures and solid objects as if they were thick undergrowth.',
+        ],
+      ],
+      lore: [
+        [
+          'Spirit trolls are one of the odd troll forms that arise when a troll that has been nearly destroyed regenerates amid magical or planar energy, disease, or mass death. Its attacks hit the mind rather than the body, and its bite can leave a victim stunned. It still regenerates, but psychic or force damage interrupts that for a turn, so those attacks are the way to put it down. It turns up in coastal, forest, swamp and Underdark settings.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -10849,6 +10941,22 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Deep Speech.'],
       habitats: ['mountain', 'swamp'],
+      appearance: [['A spindly, ghoulish humanoid whose shrieking unsettles everyone nearby.']],
+      lore: [
+        [
+          'Star spawn are the heralds, servants and soldiers of Elder Evils, shaped to travel to the Material Plane. They tend to arrive after a comet, called in by cultists performing mind-searing rituals. The grue is the weakest kind, and disrupts its foes with a shrieking aura that spoils their saving throws and distracts them from everything but other grues. Its bite leaves a target open to attack. Anyone who is not an aberration suffers from the aura.',
+        ],
+        [
+          'Sources: ',
+          'Mordenkainen Presents: Monsters of the Multiverse',
+          ', ',
+          {
+            type: 'link',
+            label: '2d4chan: Star Spawn',
+            url: 'https://2d4chan.org/wiki/Star_Spawn',
+          },
+        ],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -10907,6 +11015,22 @@ export default createPublicationMonsters({
       page: 227,
       alignment: 'typically chaotic evil',
       languages: ['Deep Speech.'],
+      appearance: [['A skinless, ogre-like brute with long reach, towering over its foes.']],
+      lore: [
+        [
+          'Star spawn are the servants and soldiers of the Elder Evils, summoned by cultists when a comet signals the right time. The hulk is the heavy hitter: it pounds with huge slams and can sweep everyone around it with reaping arms, knocking them down. It reflects psychic harm onto creatures near it, and magic cannot find its thoughts or location. Focus fire from range and avoid crowding around it.',
+        ],
+        [
+          'Sources: ',
+          'Mordenkainen Presents: Monsters of the Multiverse',
+          ', ',
+          {
+            type: 'link',
+            label: '2d4chan: Star Spawn',
+            url: 'https://2d4chan.org/wiki/Star_Spawn',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -11004,6 +11128,22 @@ export default createPublicationMonsters({
       page: 229,
       alignment: 'typically chaotic evil',
       languages: ['Deep Speech.'],
+      appearance: [['A many-armed horror that slithers along the ground, blending into shadow.']],
+      lore: [
+        [
+          "Star spawn serve the Elder Evils and are called to the Material Plane by cultists after a comet appears. The mangler is an ambusher: it hides in dim light or darkness, usually acts first, and can unleash a flurry of claws and then move away freely. It hits hardest against targets that cannot defend themselves well, so keep the party's attention drawn to lit areas.",
+        ],
+        [
+          'Sources: ',
+          'Mordenkainen Presents: Monsters of the Multiverse',
+          ', ',
+          {
+            type: 'link',
+            label: '2d4chan: Star Spawn',
+            url: 'https://2d4chan.org/wiki/Star_Spawn',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -11178,6 +11318,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic neutral',
       languages: ['Common', 'Giant.'],
       habitats: ['coastal', 'hill', 'mountain'],
+      appearance: [
+        [
+          'A stone giant wandering the open surface, with objects and even creatures that caught its fancy slowly embedded into its stony body.',
+        ],
+      ],
+      lore: [
+        [
+          'Stone giants regard the surface as a changeable dream where nothing is real. Some go there on dream quests and get lost in it; others are banished. A dreamwalker who stays out from under stone grows delirious, believes its actions have no consequences, and acts on impulse as a force of chaos. Its madness leaks into creatures that come too close. Other stone giants treat dreamwalkers as outcasts but value them as guides to the surface.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -11307,6 +11458,17 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Telepathy 30 ft.'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'A mass of rats with large exposed brains, moving together and chittering in a shared mind.',
+        ],
+      ],
+      lore: [
+        [
+          'Mind flayers make cranium rats by blasting ordinary rats with psionic energy. One rat is little smarter than any other, but a swarm pools its minds into a single clever intelligence that remembers everything its members do, and it awakens psionic powers. It talks as one voice, saying we and us. A rat cut off from the swarm gradually loses its intellect. Illithid colonies use them as spies, relaying what they see to an elder brain when within range.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -11601,6 +11763,18 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'Common', 'and one other language.'],
       habitats: ['hill', 'mountain', 'underdark'],
+      appearance: [['A brutish demon-orc, snarling and eager for violence.']],
+      lore: [
+        [
+          'Tanarukks are orcs corrupted into fiends. Leaders who fall under demonic influence make them, using rituals from Baphomet or the cult of Gruumsh. They are fearsome fighters but dangerous allies: between battles they are destructive and volatile, and are normally kept chained. A free tanarukk tries to seize power by force, and one that succeeds drives the group toward reckless raids or war.',
+        ],
+        [
+          'Sources: ',
+          'Mordenkainen Presents: Monsters of the Multiverse',
+          ', ',
+          { type: 'link', label: '2d4chan: Tanarukk', url: 'https://2d4chan.org/wiki/Tanarukk' },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -11689,6 +11863,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral',
       languages: [],
       habitats: ['forest', 'swamp'],
+      appearance: [['A tough, spiny plant creature, hard to tell from the undergrowth around it.']],
+      lore: [
+        [
+          'Vegepygmies are fungus creatures that live in simple bands and spread by spores. They prefer dark, damp places such as caves and light-starved forests, and get along with myconids, shriekers and violet fungi. A thorny is a tougher, bristling member that hides well in thick vegetation and regenerates, though cold, fire or necrotic harm stops that for a moment. Anything that grapples it gets pricked.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -11753,6 +11934,14 @@ export default createPublicationMonsters({
       page: 242,
       alignment: 'lawful evil',
       languages: ['All languages', 'telepathy 120 ft.'],
+      appearance: [['A charming, smooth-talking devil who seems friendly.']],
+      lore: [
+        [
+          'Titivilus is the second-most powerful devil in Dis. Weak physically compared with other archdevils, he rose through persuasion, negotiation and well-timed words. He convinced Dispater that plots against him were everywhere and now handles day-to-day rule and bargains with mortals who try to summon Dispater. Some say he is Dispater in disguise or has replaced him. Expect manipulation and twisted wording rather than open fighting.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -11989,6 +12178,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral',
       languages: ['Tlincalli.'],
       habitats: ['desert'],
+      appearance: [
+        [
+          'A chitin-covered creature with a humanlike upper body and the body of a huge scorpion, ending in a stinger.',
+        ],
+      ],
+      lore: [
+        [
+          'Tlincallis, or scorpion folk, hunt in deserts at dawn and dusk and bury themselves in sand or hide in ruins to sit out the heat or cold. They move on when hunting goes poorly and settle only to lay eggs, often among cacti, in poison-coated shells. They paralyse and bind prey, keep some alive as food for newly hatched young, and see themselves as great hunters. They respect stronger hunters and may serve, avoid or fight one.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -12104,6 +12304,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Aquan', 'Common.'],
       habitats: ['coastal'],
+      appearance: [['A bipedal, turtle-like traveller with a shell covering most of its body.']],
+      lore: [
+        [
+          'Tortles are omnivores that carry their homes on their backs and feel little need to stay in one place. Most enjoy seeing how others live. A tortle may spend decades away from its homeland without homesickness and often treats its current companions as family.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -12184,6 +12391,15 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Aquan', 'Common.'],
       habitats: ['coastal'],
+      appearance: [
+        ['A turtle-like biped with a shell covering most of its body, calling up the elements.'],
+      ],
+      lore: [
+        [
+          'Tortles are shelled omnivores who carry their homes with them and like to see how others live. The druid is a tortle who commands elemental forces from range, hurling cold, fire, lightning or thunder, and who withdraws into its shell when pressed. It is usually found along coasts.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -12287,6 +12503,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['underdark'],
+      appearance: [
+        [
+          'A flat, manta-like creature plastered against a wall, floor or ceiling, matching the stone, earth or wood around it.',
+        ],
+      ],
+      lore: [
+        [
+          'A trapper changes the colour and texture of its outer side to blend in and clings with its soft underside. It waits motionless until prey is in reach, then peels away, wraps around the victim, crushes, smothers and digests it. It may hide leftovers or use bones as bait and does not change to resemble grass or snow, though it can hide under a layer of them. It needs a small meal weekly and hibernates for months when food is scarce, making it a threat on busy corridors and routes.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -12358,6 +12585,13 @@ export default createPublicationMonsters({
         'Understands Abyssal, Infernal, and languages it knew before transforming. It cannot speak.',
       ],
       habitats: ['desert', 'swamp', 'underdark'],
+      appearance: [['A severed-head-like creature with wing-like ears, shrieking as it flaps.']],
+      lore: [
+        [
+          "Vargouilles boil out of the Abyss and infest other planes. Their shrieks can paralyse victims with fear, and their bite carries a curse. Left alone, the curse transforms the victim's head over hours with fangs, horns and large wing-like ears, until it tears free as another vargouille. They crave living prey and slip into the Material Plane as stowaways on summoned demons. They fly in flocks and are a menace when loose.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'tiny',
         type: 'fiend',
@@ -12446,6 +12680,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Giant.'],
       habitats: ['forest', 'swamp', 'underdark'],
+      appearance: [['A troll whose body weeps poison, with venom dripping from claws and teeth.']],
+      lore: [
+        [
+          'Venom trolls are an unusual troll form that arises when a troll regenerates amid planar energy, disease, death or elemental damage, or is shaped by ritual. Poison coats everything it does, and splashes onto creatures next to it when it takes damage. It can slice itself to release a cloud of venom. It regenerates, but acid or fire stops this for a turn.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -12581,6 +12822,15 @@ export default createPublicationMonsters({
       page: 123,
       alignment: 'typically neutral',
       languages: ['Aquan and one language chosen by its creator.'],
+      appearance: [
+        ['A suit of ritually made plate armour animated by a water elemental, wielding a trident.'],
+      ],
+      lore: [
+        [
+          "Elemental myrmidons are elementals conjured and bound by magic into plate armour made for the purpose. In this form they have no memory of being free and exist only to follow their creators' orders. The water myrmidon fights with a trident and can strike in a chilling flurry that slows those it hits.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -12710,6 +12960,17 @@ export default createPublicationMonsters({
       alignment: 'typically lawful neutral',
       languages: ['Sylvan.'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A bipedal figure of tough bark with a gnarled club and shield, a hollow where the heart should be, and drifting lights in its eye sockets.',
+        ],
+      ],
+      lore: [
+        [
+          "A wood woad is a plant given the soul of someone who gave up life to guard a place for ever. The ritual, passed down by forest societies and druid circles, buries the sacrifice among a tree's roots and a sprout grows into the woad within days. It keeps no sentiment or free will, follows its master's orders, and protects woodland and its people. It speaks little and roots itself when idle. Some outlive their purpose.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -12781,6 +13042,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Abyssal.'],
       habitats: ['hill', 'underdark'],
+      appearance: [
+        [
+          'A small blue-skinned, orange-eyed creature about three feet tall, with a receding hairline.',
+        ],
+      ],
+      lore: [
+        [
+          'Xvarts are cowardly and greedy, spawned by the renegade demigod Raxivort, whom they resemble. They live in remote hills, forests and caves and befriend rats and bats. Tribes fear humans, dwarves and elves, and avoid civilised places, plundering farms if hunting is poor. When things go badly they kidnap and sacrifice a handy victim to their craven god.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -12845,6 +13117,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 60 ft.'],
       habitats: ['urban'],
+      appearance: [['A fiend with one human-sized arm for writing and one huge arm for fighting.']],
+      lore: [
+        [
+          "Yagnoloths are negotiators among the yugoloths. They write the contracts for fellow yugoloths and pass employers' wishes to the yugoloths they command. They answer to arcanaloths and ultroloths and expect obedience from those below them. They keep to their contracts but always leave a loophole. They sign with the small arm and attack with the giant one when force is needed.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -13015,6 +13294,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Kruthik.'],
       habitats: ['desert', 'mountain', 'underdark'],
+      appearance: [
+        [
+          'A chitin-covered reptile like a horse-sized ant, with spiked limbs, chittering and hissing as it comes.',
+        ],
+      ],
+      lore: [
+        [
+          'Kruthiks hunt in packs and nest in warrens, usually near heat such as forges and lava. Tunnels are often the first sign. They hiss and chitter before an attack and tap the floor to raise an alarm. They sense vibrations, smell well and see in the dark. They prefer live prey, impale it, then grind it. They dislike places where many of their own have died. Young ones are smaller, but still hunt in packs.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -13070,6 +13360,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic.'],
       habitats: ['desert', 'forest', 'underdark'],
+      appearance: [
+        [
+          'A hairless, emaciated, scaly humanoid with a forked tongue and a faint smell of rotting meat.',
+        ],
+      ],
+      lore: [
+        [
+          'Broodguards are humanoids, usually human captives, transformed by yuan-ti into simple, scaly guards. They are driven to obey any yuan-ti and to rage at non-reptilian creatures. Yuan-ti call them histachii, egg-watchers, and use them to guard eggs and patrol. They speak rarely, preferring hisses and guttural sounds.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',

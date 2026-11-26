@@ -352,6 +352,14 @@ export default createPublicationMonsters({
       page: 170,
       alignment: 'lawful evil',
       languages: ['All languages', 'telepathy 120 ft.'],
+      appearance: [['A fiend general of the Nine Hells, a duke and soldier by temperament.']],
+      lore: [
+        [
+          "Duke Bael is a vassal of Mammon, commanding sixty-six companies of barbed devils, and a tactical genius known as the Bronze General. He is frustrated by infernal politics, where critics call him naive behind his back. He likes turning defeated foes into servants, sparing those who pledge their souls to him, but always destroys demons. He recruits shrewd mortals to represent him at Mammon's court.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -876,6 +884,18 @@ export default createPublicationMonsters({
       page: 131,
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 60 ft.'],
+      appearance: [
+        [
+          'A goat-headed demon, diseased, with crusted eyes, maggot-filled sores and a reek of rotten meat.',
+        ],
+      ],
+      lore: [
+        [
+          'Bulezaus are diseased embodiments of animal rage that lurk in canyons and crags in the Abyss, and serve as foot soldiers in demon armies. They crave violence and are keen to kill and willing to die. Without a bigger demon to boss them they gather in scrabbling mobs, fighting each other until a better target comes along.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1191,6 +1211,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Elvish', 'Undercommon'],
       habitats: ['underdark'],
+      appearance: [["A drow officer in charge of a house's troops."]],
+      lore: [
+        [
+          "A house captain leads the troops of an Underdark faction, defending strongholds or leading forces, and has studied strategy and tactics. In Menzoberranzan each noble house gives its military to a captain, usually the matron mother's first or second son. Elsewhere captains fight the war against Lolth, often allied with duergar and others who want her gone.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1345,6 +1372,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Elvish', 'Undercommon'],
       habitats: ['underdark'],
+      appearance: [['A priestess who rules a drow noble house, usually surrounded by guards.']],
+      lore: [
+        [
+          "A matron mother is an influential priestess of Lolth who leads a drow house and serves the goddess's will while advancing her family. She sits at the centre of a web of conspiracy, with demons, spiders and soldiers between her and her enemies. Her power depends on Lolth's favour, which the goddess sometimes withdraws on a whim. She is rarely alone, usually with a favoured consort and a house captain. Some matron mothers renounce Lolth and fight her followers.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2792,6 +2826,13 @@ export default createPublicationMonsters({
       page: 249,
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 60 ft.'],
+      appearance: [['A yugoloth rising from deep water, the kind that sinks ships.']],
+      lore: [
+        [
+          'Like the thought-stealing River Styx where they live, hydroloths take memories from creatures they attack, delivering them to their masters. They like finding lost things, especially those swallowed by deep water. In amphibious or underwater fights they have no equal among yugoloths, and they hire themselves out to scuttle ships and raid coasts. They are immune to memory theft and fight best submerged.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -2954,6 +2995,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Understands one language of its creator but cannot speak.'],
       habitats: ['forest', 'grassland', 'hill', 'mountain'],
+      appearance: [['A gnome-built clockwork serpent, metal and mechanical.']],
+      lore: [
+        [
+          'Gnome tinkering with magic and machinery has produced clockworks, with methods shared between gnome communities over generations. Artisans prefer unique clockworks to copies, so each may carry its own enhancement and quirk. The iron cobra bites with a random poison effect, and resists magic. It is found in forest, grassland, hill and mountain areas.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3042,6 +3090,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Elvish', 'telepathy 120 ft.'],
       habitats: ['swamp', 'urban'],
+      appearance: [
+        [
+          'A demon wearing the appearance of a humanoid it just devoured, which rots away over the following days to show its true form.',
+        ],
+      ],
+      lore: [
+        [
+          "The demon king of ghouls Doresain corrupted a society of elves and created the maurezhi to lead packs of ghouls and ghasts on the Material Plane. It takes about ten minutes to eat a slain humanoid, after which it takes that person's appearance as in life. The disguise rots over several days. Its bite is contagion: it can erase a victim's sense of self and, if it goes far enough, a hunger for flesh turns the victim into a ghoul.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -3979,10 +4038,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '1d8', type: rules.bludgeoning, addModifier: true }],
-                also: ['Falls ', rules.prone, ' without falling ', rules.prone, '.'],
+
+                also: [{ effect: 'sweep-prone-tome' }, ' without falling ', rules.prone, '.'],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'sweep-prone-tome',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'chain-smash',
@@ -4000,8 +4069,18 @@ export default createPublicationMonsters({
               'The target makes a ',
               { dc: 'str', save: 'con' },
               ' Constitution save or falls ',
-              rules.unconscious,
-              ' for 1 minute. It repeats the save whenever it takes damage and at the end of each of its turns, ending the effect on a success.',
+              { effect: 'smash-unconscious' },
+              '. It repeats the save whenever it takes damage and at the end of each of its turns, ending the effect on a success.',
+            ],
+            effects: [
+              {
+                key: 'smash-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['damaged', 'end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -4395,6 +4474,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Elvish.'],
       habitats: ['forest', 'underdark', 'urban'],
+      appearance: [
+        ['A shadar-kai elf, gaunt with ashen skin, a deathly cast even when looking young.'],
+      ],
+      lore: [
+        [
+          'Shadar-kai descend from elves who served the Raven Queen and were taken to the Shadowfell, which shaped them to be joyless and mournful. In that realm they have pale hair, wrinkled gray skin and swollen joints, and they hate mirrors. On other planes they look younger, but their skin stays ashen. Those of the Raven Queen look for choice souls and tragedies that might please her, rumoured to steer events to sad ends. Her messages come as vague omens.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4738,6 +4826,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan.'],
       habitats: ['forest', 'grassland'],
+      appearance: [['An eladrin, an elf-like fey whose look shifts with its mood.']],
+      lore: [
+        [
+          'Eladrin live in the Feywild, are related to elves and are ruled by emotion. Their magic changes them into a seasonal aspect matching their temperament. Some stay in a season for years and others cycle through in a week. After a long rest an eladrin can change to another season, keeping injuries and conditions. Most have become fey from centuries in the Feywild.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',

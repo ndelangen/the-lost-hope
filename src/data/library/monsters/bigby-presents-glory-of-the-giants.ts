@@ -2330,6 +2330,7 @@ export default createPublicationMonsters({
               refs.spells.sending_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2387,12 +2388,23 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Large or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 18) and ',
-              rules.restrained,
-              '. It takes ',
-              { roll: '3d10' },
-              ' psychic damage at the start of each of its turns until this grapple ends. The herald can grapple only one creature with its tentacles at a time.',
+              { effect: 'tentacles-grappled' },
+              '. The herald can grapple only one creature with its tentacles at a time.',
+            ],
+            effects: [
+              {
+                key: 'tentacles-grappled',
+                name: 'Grappled by tentacles',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  'It takes ',
+                  { roll: '3d10' },
+                  ' psychic damage at the start of each of its turns until this grapple ends.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -2427,13 +2439,24 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 90 } },
               onFail: {
                 damage: [{ dice: '3d10', type: rules.psychic, addModifier: true }],
-                also: ['Stuns the creature for 1 minute.'],
+
+                also: [{ effect: 'psychic-wave-stunned' }],
               },
             },
             text: [
-              'Success halves the damage and avoids the stun. A ',
-              rules.stunned,
-              ' creature can repeat the save at the end of each of its turns, ending the effect on a success. A creature reduced to 0 HP by this damage dies, and its head explodes if it has one.',
+              'Success halves the damage and avoids the stun. ',
+              'A creature reduced to 0 HP by this damage dies, and its head explodes if it has one.',
+            ],
+            effects: [
+              {
+                key: 'psychic-wave-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                text: ['Stuns the creature for 1 minute.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',

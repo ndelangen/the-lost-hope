@@ -13,6 +13,17 @@ export default createPublicationMonsters({
       page: 228,
       alignment: 'any alignment',
       languages: ['Common.'],
+      appearance: [
+        [
+          'A trained soldier from one of the poleis of Theros, fighting in formation with comrades.',
+        ],
+      ],
+      lore: [
+        [
+          "Hoplites are highly trained warriors who know strategy and tactics and share an ethos of the warrior's spirit that forges an unbreakable bond between members of a unit. They typically fight in groups with coordinated tactics. The source gives them unit names by polis, so a hoplite is best used as part of a formation, not a lone fighter.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -97,6 +108,27 @@ export default createPublicationMonsters({
       page: 234,
       alignment: 'chaotic good',
       languages: ['Common', 'Sylvan.'],
+      appearance: [
+        [
+          "A graceful woodland creature with the slender upper body of an elf and a deer's lower body, with antlers on its forehead and a white tail.",
+        ],
+      ],
+      lore: [
+        [
+          'Alseids are woodland cousins to centaurs, more elf than nymph, rarely far from their glades. They see the forest as a friend and distrust outsiders who do not. Lost travellers who respect the forest may be led to a road by a white tail, while the disrespectful are led to doom, and they kill those who burn or fell trees. Antlers show status and are never used to fight. Cutting them is a grave punishment. Their leaders often follow the druid or ranger path.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e API: Alseid (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/?document__slug=tob&search=alseid&fields=name,desc,environments,document__title',
+          },
+          ', ',
+          'Mythic Odysseys of Theros',
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'fey',

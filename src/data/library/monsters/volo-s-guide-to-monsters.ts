@@ -731,6 +731,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Goblin.'],
       habitats: ['underdark', 'grassland', 'forest', 'hill'],
+      appearance: [['A goblin who can use magic, a rarity among its kind.']],
+      lore: [
+        [
+          'Spellcasters are rare among goblins, who lack the patience for study. Goblins call all magic booyahg and the name goes to any practitioner. A goblin with booyahg joins the lashers and can rise to be a boss. Skills fade within a few generations.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -799,6 +806,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Goblin.'],
       habitats: ['underdark', 'grassland', 'forest', 'hill'],
+      appearance: [['A goblin who can use magic, counted among the lashers of its tribe.']],
+      lore: [
+        [
+          'Spellcasters are rare among goblins, who lack the patience for study. Goblins call all magic booyahg and give the name to its users. A goblin with the gift joins the lashers and can rise to boss, but the knowledge seldom lasts more than a couple of generations.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -959,8 +973,17 @@ export default createPublicationMonsters({
               'A creature other than a catoblepas that starts its turn within 10 ft. must make a ',
               { dc: 'con' },
               ' Constitution save. On a failure, it is ',
-              rules.poisoned,
-              ' until the start of its next turn. On a success, it is immune to the stench of any catoblepas for 1 hour.',
+              { effect: 'stench-poisoned' },
+              '. On a success, it is immune to the stench of any catoblepas for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Stench',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -977,10 +1000,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.stunned,
-              ' until the start of the catoblepas’s next turn unless it succeeds on a ',
+              { effect: 'tail-stunned' },
+              ' unless it succeeds on a ',
               { dc: 'con' },
               ' Constitution save.',
+            ],
+            effects: [
+              {
+                key: 'tail-stunned',
+                name: 'Tail stun',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1003,6 +1035,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1279,6 +1312,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common', 'Giant.'],
       habitats: ['mountain'],
+      appearance: [
+        [
+          'A cloud giant wearing a strange two-faced mask, one half smiling or smirking and the other frowning.',
+        ],
+      ],
+      lore: [
+        [
+          'Smiling ones are cloud giants who revere the trickster deity Memnor and prize craftiness and deceit. They use sleight of hand, misdirection and magic to gain wealth, and have a wicked sense of humour and a love of unpredictability. They break ordinary manners, saying and doing things even other rogues would avoid. The mask hides their true expression: the frown stands for their resentment at ranking below storm giants in the ordning.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2550,6 +2594,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic.'],
       habitats: ['underdark', 'mountain', 'forest', 'hill', 'urban'],
+      appearance: [
+        [
+          'A kobold with an innate gift for arcane magic, sometimes wearing artificial wings when serving a dragon.',
+        ],
+      ],
+      lore: [
+        [
+          'Scale sorcerers are valued community members, usually serving as advisors, who lash out with colourful magic when threatened. One living near a dragon may act as its diplomat and mouthpiece, giving orders for it and reporting back, often wearing false wings as a badge of that office. They revere dragons but know they would be the first to die if the dragon was displeased, so they swing between adoration and terror.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2831,6 +2886,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant.'],
       habitats: ['grassland', 'hill'],
+      appearance: [
+        [
+          'A thin, twitchy, alert hill giant, nothing like the sluggish, fat kind, often shackled or caged.',
+        ],
+      ],
+      lore: [
+        [
+          "Among hill giants who worship Grolantor, one who can no longer keep food down is seen as a vessel for the god. Others isolate it, and a priest reads omens in what it vomits. If the sickness does not pass, the giant is starved until it embodies Grolantor's hunger. Mouths are kept imprisoned and are released only for war, raids or last-ditch defence. If one breaks free it kills anyone nearby. After gorging on enemies it passes out among the remains and is easy to recapture.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3962,6 +4028,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Understands the languages it knew in its previous form but cannot speak.'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'A pool of semiliquid, sentient water that flows into spaces a normal creature cannot reach.',
+        ],
+      ],
+      lore: [
+        [
+          "A slithering tracker is a vengeful person who underwent a ritual known to hags, liches and priests of vengeance gods, which drains all moisture from the body. The mind survives in the puddle. It tastes the ground to follow its quarry, then rises up to enshroud it, drowning it and draining blood. After its revenge it may extend the hunt to the target's friends, but most go mad and attack indiscriminately until destroyed.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -4100,6 +4177,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Understands the languages it knew in life but cannot speak.'],
       habitats: ['underdark', 'desert'],
+      appearance: [
+        [
+          'From a distance or in poor light it looks like a normal zombie, but as it nears, many little green worms can be seen crawling in and out of it.',
+        ],
+      ],
+      lore: [
+        [
+          "Kyuss was a high priest of Orcus who raised the first spawn from plundered corpses, and his disciples still perform his rites. The worms leap to nearby humanoids and burrow to the brain, killing the host and animating its corpse as another spawn. They express Orcus's wish to replace life with undeath. A lone spawn wanders aimlessly and attacks any living creature it finds to make more spawn, and numbers grow exponentially if nothing stops them.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4671,6 +4759,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['None.'],
       habitats: ['forest', 'swamp'],
+      appearance: [['A tough, spiny fungus creature of a vegepygmy band.']],
+      lore: [
+        [
+          'Vegepygmies are fungus creatures living in simple tribal units, hunting and spreading the spores that reproduce them. They favour dark, warm, wet places such as underground and dense forests, and they get on with myconids, shriekers and violet fungi. They hiss and tap rather than speak, build little and use whatever gear they gather or copy. Older ones grow tougher and bear spore clusters, and are deferred to as chiefs. A creature that dies infected makes more of them, as with russet mold.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -5093,6 +5188,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Any two languages.'],
       habitats: ['urban'],
+      appearance: [['A legendary battlefield commander, shouting exhortations to the troops.']],
+      lore: [
+        [
+          'Warlords are famed commanders whose names are spoken with awe. After a string of decisive wins, a warlord can easily become a monarch or general and gather followers willing to die for the banner. A warlord urges troops into battle with shouted battle cries.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5425,6 +5527,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal and one other language', 'usually Common or Goblin.'],
       habitats: ['underdark', 'hill'],
+      appearance: [
+        [
+          'A blue-skinned, orange-eyed xvart about three feet tall, in heavy robes and perched on short wooden stilts to look imposing.',
+        ],
+      ],
+      lore: [
+        [
+          'Each xvart tribe is led by a speaker, usually its brightest member, who acts as ambassador and tries to look taller and more imperious. The rest hunt, and raid farms for crops and livestock if hunting is poor. Xvarts live in remote hills, forests and caves, and fear humans, dwarves and elves, so they are not much of a threat to civilised places. When things go badly they kidnap and sacrifice captives to their craven god Raxivort.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

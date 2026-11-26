@@ -356,7 +356,20 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'cha' },
-              ' Charisma saving throw or be enraged until the end of its next turn. While enraged, the target has advantage on melee attack rolls and must move to and attack the nearest creature other than the spirit. In addition, attack rolls against the enraged target have advantage.',
+              ' Charisma saving throw or be ',
+              { effect: 'essence-of-rage-enraged' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'essence-of-rage-enraged',
+                name: 'Enraged',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: [
+                  'While enraged, the target has advantage on melee attack rolls and must move to and attack the nearest creature other than the spirit. In addition, attack rolls against the enraged target have advantage.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -379,6 +392,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },

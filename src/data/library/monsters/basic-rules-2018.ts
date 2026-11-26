@@ -11,6 +11,18 @@ export default createPublicationMonsters({
       name: 'Adult Red Dragon',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A dragon with swept-back horns and a spinal frill, smoke from its beaked snout, with scarlet scales that darken with age. The air smells of sulfur and pumice, and its eyes dance with flame when it is angry.',
+        ],
+      ],
+      lore: [
+        [
+          'Red dragons are the greediest true dragons, vain and arrogant, convinced Tiamat chose them to rule. They prefer mountains and badlands, and lair in caverns beneath snowy peaks, abandoned mines or volcanic caves. They fly into destructive rages and act on impulse when angry. They know each item in the hoard and where it is, and a missing coin can trigger a rampage. They force chaotic evil humanoids into service, kill leaders who refuse, and use lesser creatures as spies.',
+        ],
+        ['Sources: ', 'Basic Rules'],
+      ],
+      habitats: ['Mountain', 'Hill'],
       stats: {
         size: 'huge',
         type: 'dragon',
