@@ -14,11 +14,22 @@ export default createScene({
       refs.scenes.garran_comes_for_the_cruiser,
       ': once they have left the fleet behind, ',
       refs.npcs.crowy,
-      ' returns and vomits up a letter from ',
+      ' returns to them.',
+    ],
+    [
+      'There is one letter from ',
       refs.npcs.onana_tempest,
       ' to ',
       refs.npcs.light_13th_marshal,
-      '.',
+      ', and how it reaches the party depends on the road. If they ran off with the cruiser, ',
+      refs.npcs.crowy,
+      ' vomits it up here. If they handed her over, ',
+      refs.npcs.onana_tempest,
+      ' already gave it to them to deliver by hand in ',
+      refs.scenes.onana_sends_the_party_on,
+      ', worded a little differently, and ',
+      refs.npcs.crowy,
+      ' brings nothing up.',
     ],
     [
       'If they stole the cruiser, the party expects fury. The letter does not read that way. Why is in the motivations of ',
@@ -32,22 +43,13 @@ export default createScene({
     {
       title: 'Crowy returns',
       lines: [
-        {
-          do: [
-            [
-              refs.npcs.crowy,
-              ' returns to the party, lands among them, heaves, and vomits up a single folded sheet.',
-            ],
-          ],
-        },
+        { do: [[refs.npcs.crowy, ' returns to the party and lands among them.']] },
         {
           note: [
             [
-              'This is how ',
-              refs.npcs.crowy,
-              ' produces paperwork, and he can speak with ',
+              'He can speak with ',
               refs.npcs.light_13th_marshal,
-              ' directly. Let the players pick the letter up and react first.',
+              ' directly. On the road where they handed the cruiser over, skip the letter and go to the outcomes below.',
             ],
           ],
         },
@@ -55,7 +57,18 @@ export default createScene({
     },
     {
       title: 'A letter from Tempest',
+      onlyIf: [['The party ran off with ', refs.items.ride_the_lightning, '.']],
       lines: [
+        { do: [[refs.npcs.crowy, ' heaves, and vomits up a single folded sheet.']] },
+        {
+          note: [
+            [
+              'This is how ',
+              refs.npcs.crowy,
+              ' produces paperwork. Let the players pick the letter up and react first.',
+            ],
+          ],
+        },
         {
           say: [
             ['To the 13th Marshal Light, from Onana Tempest.'],
@@ -69,28 +82,12 @@ export default createScene({
               'I have observed the party as requested, and they have shown courage, strength and a strong mind. Attached you will see their answers to the question you wished me to ask. It is my humble opinion they might be ready to endure your test.',
             ],
             ['Whilst we rebuild, perhaps we could renegotiate having a guildhall here, again.'],
-          ],
-        },
-        {
-          note: [
-            [
-              'Read it evenly, without comment. On the road where they handed the cruiser over, it ends here.',
-            ],
-          ],
-        },
-      ],
-    },
-    {
-      title: 'My ship returned to me',
-      onlyIf: [['The party ran off with ', refs.items.ride_the_lightning, '.']],
-      lines: [
-        {
-          say: [
             [
               'Would you be so kind to tell them I expect my ship returned to me, and that once so, they are welcome again.',
             ],
           ],
         },
+        { note: [['Read it evenly, without comment.']] },
       ],
       outcomes: [
         {
@@ -125,6 +122,23 @@ export default createScene({
           ' in ',
           refs.locations.rustmoor,
           ' comes after it.',
+        ],
+      ],
+    },
+    {
+      icon: 'gi/GiPathDistance',
+      when: [
+        [
+          'They ask ',
+          refs.npcs.crowy,
+          ' about the guildhall in ',
+          refs.locations.rustmoor,
+          ', or whether to go there.',
+        ],
+      ],
+      response: [
+        [
+          '“Still under construction. It will be operational soon, though. Good choice.” That is all he knows.',
         ],
       ],
     },
