@@ -23,7 +23,10 @@ for f in FILES:
       if same is None: target['printings'].append(p); continue
       dropped+=1
       if weight(p)>weight(same): target['printings'][target['printings'].index(same)]=p
-    if not target.get('art') and r.get('art'): target['art']=r['art']
+    # Keep the beast's artwork too, after the creature's own, as alternates.
+    for image in r.get('art') or []:
+      if image['file'] not in {a['file'] for a in target.get('art') or []}:
+        target.setdefault('art',[]).append(image)
     merged+=1
   data[f]=keep
 for f in FILES:

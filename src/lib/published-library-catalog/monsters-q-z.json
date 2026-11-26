@@ -23893,6 +23893,10 @@
       {
         "file": "/assets/library/monsters/roc.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/worker-art/roc-86967e05f8faca49.webp",
+        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
   },
@@ -85690,6 +85694,10 @@
     "art": [
       {
         "file": "/assets/library/monsters/stirge.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/beasts/stirge.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -174167,6 +174175,10 @@
     "art": [
       {
         "file": "/assets/library/monsters/winter-wolf.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/worker-art/winter-wolf-cee1873dc5e6bafd.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]

@@ -124,3 +124,30 @@ describe('who acts', () => {
     expect(steps('legendary-resistance')[0]?.who).toBeUndefined()
   })
 })
+
+describe('versatile weapons', () => {
+  it('offers the two-handed damage on a hit', () => {
+    const versatile = {
+      ...stats,
+      abilities: [
+        {
+          key: 'spear',
+          name: 'Spear',
+          timing: 'action',
+          icon: 'gi/GiThrownDaggers',
+          intent: 'damage',
+          text: [],
+          attack: {
+            kind: 'melee',
+            ability: 'str',
+            reach: 5,
+            damage: [{ dice: '1d6', type: { ref: 'rule', key: 'piercing' }, addModifier: true }],
+            twoHanded: [{ dice: '1d8', type: { ref: 'rule', key: 'piercing' }, addModifier: true }],
+          },
+        },
+      ],
+    } as unknown as StatBlock
+    const lines = plainSteps(abilitySteps(versatile.abilities[0]!, versatile, 'action'))
+    expect(lines.join(' ')).toMatch(/or wielded with two hands \d+/u)
+  })
+})

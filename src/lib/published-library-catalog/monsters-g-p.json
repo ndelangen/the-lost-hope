@@ -11828,6 +11828,14 @@
       {
         "file": "/assets/library/monsters/giant-eagle.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/beasts/giant-eagle.png",
+        "credit": "The Lost Hope"
+      },
+      {
+        "file": "/assets/library/beasts/staged/giant-eagle-4e2e41e58b04.webp",
+        "credit": "OpenAI ImageGen"
       }
     ]
   },
@@ -12258,6 +12266,10 @@
       {
         "file": "/assets/library/monsters/giant-elk.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/beasts/staged/giant-elk-61e93218ed82.webp",
+        "credit": "OpenAI ImageGen"
       }
     ]
   },
@@ -12586,6 +12598,10 @@
     "art": [
       {
         "file": "/assets/library/beasts/staged/insect-giant-fire-beetle-b389d8b02dd5.webp",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/beasts/giant-fire-beetle.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -13680,6 +13696,10 @@
       {
         "file": "/assets/library/monsters/giant-owl.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/beasts/staged/giant-owl-ab0d25636c2d.webp",
+        "credit": "OpenAI ImageGen"
       }
     ]
   },
@@ -15167,6 +15187,10 @@
       {
         "file": "/assets/library/monsters/giant-vulture.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/beasts/staged/giant-vulture-e586cb9345ea.webp",
+        "credit": "OpenAI ImageGen"
       }
     ]
   },
@@ -197688,6 +197712,14 @@
       {
         "file": "/assets/library/worker-art/nightwing-ed09a9282b4a5a97.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/worker-art/nightwing-fca6bae4ba4cdc59.webp",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/worker-art/nightwing-f895af17882bd122.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
   },
@@ -237951,6 +237983,10 @@
     "art": [
       {
         "file": "/assets/library/monsters/pseudodragon.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/worker-art/pseudodragon-41958751cd965326.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]

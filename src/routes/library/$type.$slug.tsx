@@ -25,8 +25,17 @@ export const Route = createFileRoute('/library/$type/$slug')({
   beforeLoad: async ({ params, search }) => {
     const { type, slug } = params
     const merged = MERGED_LIBRARY_TYPES[type]
-    if (merged)
-      throw redirect({ to: '/library/$type/$slug', params: { type: merged, slug }, search })
+    if (merged) {
+      // A merged entry may not keep the old printing; open its first one instead of a 404.
+      const library = await import('#/lib/published-library')
+      await library.loadLibraryDetail(merged, slug)
+      const kept = library.getLibraryEntry(merged, slug, Boolean(search.dm), search.version)
+      throw redirect({
+        to: '/library/$type/$slug',
+        params: { type: merged, slug },
+        search: kept ? search : { ...search, version: undefined },
+      })
+    }
     if (!isLibraryType(type)) throw notFound()
     const { getLibraryEntry, loadLibraryDetail } = await import('#/lib/published-library')
     await loadLibraryDetail(type, slug)

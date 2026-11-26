@@ -60194,6 +60194,10 @@
       {
         "file": "/assets/library/monsters/axe-beak.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/beasts/axe-beak.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
   },
@@ -234613,6 +234617,10 @@
       {
         "file": "/assets/library/monsters/flying-snake.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "file": "/assets/library/beasts/staged/flying-snake-3f3c80de23cb.webp",
+        "credit": "OpenAI ImageGen"
       }
     ]
   },

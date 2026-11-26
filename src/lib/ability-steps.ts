@@ -180,6 +180,14 @@ function attackSteps(attack: Attack, stats: AnyStatBlock): DmStep[] {
         ...derived.damage.flatMap((damage, index): StepPart[] =>
           index === 0 ? [damage] : [text(' plus '), damage],
         ),
+        ...(derived.twoHanded
+          ? [
+              text(you ? ', or with two hands ' : ', or wielded with two hands '),
+              ...derived.twoHanded.flatMap((damage, index): StepPart[] =>
+                index === 0 ? [damage] : [text(' plus '), damage],
+              ),
+            ]
+          : []),
         text('.'),
       ],
     },

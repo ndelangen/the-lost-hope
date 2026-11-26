@@ -82,14 +82,14 @@ export function LegendaryRow({
           ability={openAction}
           uses={{
             count: openGroup.pool,
-            onUse: () =>
-              openAction.cost
-                ? actionsFor(openGroup.id).setUses(
-                    LEGENDARY_POOL,
-                    'uses',
-                    Math.max(0, openGroup.pool.uses - openAction.cost),
-                  )
-                : actionsFor(openGroup.id).use(LEGENDARY_POOL, openGroup.pool),
+            onUse: () => {
+              // An action that costs more uses than are left can't be taken.
+              const cost = openAction.cost ?? 1
+              if (openGroup.pool.uses < cost) return
+              if (cost === 1) actionsFor(openGroup.id).use(LEGENDARY_POOL, openGroup.pool)
+              else
+                actionsFor(openGroup.id).setUses(LEGENDARY_POOL, 'uses', openGroup.pool.uses - cost)
+            },
             onRecharge: () => actionsFor(openGroup.id).recharge(LEGENDARY_POOL, openGroup.pool),
             onSetUses: (value) => actionsFor(openGroup.id).setUses(LEGENDARY_POOL, 'uses', value),
             onSetMaxUses: (value) =>
