@@ -2632,6 +2632,17 @@ export default createPublicationMonsters({
       name: 'Tyrannosaurus Zombie',
       page: 241,
       alignment: 'unaligned',
+      appearance: [
+        [
+          'A rotting tyrannosaurus lurches forward, showing the wounds that killed it and reeking of decay.',
+        ],
+      ],
+      lore: [
+        [
+          'Zombies are mindless corpses raised by necromantic magic, and the flesh of any formerly living creature can be used. A zombie takes the most direct route to its foe, blind to obstacles and danger, and obeys its creator without fear. Left without orders it stands in place and rots, attacking any living creature it meets.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 315'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',

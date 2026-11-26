@@ -977,6 +977,25 @@ export default createPublicationMonsters({
       name: 'Library Automaton',
       alignment: 'lawful neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'Servos hum, gears tick and small puffs of steam hiss as a small clockwork custodian rolls up, with a single human eyeball on a jointed stalk.',
+        ],
+      ],
+      lore: [
+        [
+          "Library automatons were built to look after huge libraries short on staff. They have no arms and handle books telekinetically, cataloguing, translating, fetching texts for visitors and clearing out pests. The eye is often a scholar's own, left in a will so they can keep serving. Some learn enough about the world to leave and seek adventure, and wizards value them as caretakers for spellbooks and scrolls on the road.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: library_automaton (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/library-automaton/',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -1086,6 +1105,24 @@ export default createPublicationMonsters({
       name: 'Liosalfar',
       alignment: 'neutral',
       languages: ['Common', 'Celestial', 'Elvish', 'Giant'],
+      appearance: [
+        [
+          'A curtain of rippling colour takes on a humanoid shape, its body a glittering, shifting kaleidoscope of patterns.',
+        ],
+      ],
+      lore: [
+        [
+          'Liosalfar, sometimes called light elves, are shapeshifters from the edge of the world, where reality bends. They signal each other in flashing colours and speak to others in an echoing, choral voice from no fixed place. Their aims look trivial or baffling, yet they have broken mountains and toppled kingdoms; some think they serve Fate, others that they follow an alien sense of beauty or just amusement. They see existence as patterns to arrange and barely grasp mortal concerns, and they despise the portal-making ramag as corruptors of the patterns.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: liosalfar (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/liosalfar/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -1252,6 +1289,24 @@ export default createPublicationMonsters({
       name: 'Living Wick',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A rough little wax figure of a person stands at attention, with a flicker of light around its head from a wick running down its back.',
+        ],
+      ],
+      lore: [
+        [
+          'Living wicks are obedient wax statues animated by a wick from nape to lower back. New ones move like people, but as the wick burns the wax melts into a twisted, hunched shape and they are usually spent within about a month. They act only while lit and take telepathic orders from whoever lit them, so they pass easily between owners. They are cheap labour for quick building or an army for one battle, and the magic stored in them lets them blow themselves up.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: living_wick (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/living-wick/',
+          },
+        ],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -1411,6 +1466,25 @@ export default createPublicationMonsters({
       name: 'Ratfolk',
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'Halfling-sized but slimmer and quicker, with twitching snouts, bony feet and long pink tails, ratfolk could pass for halflings at a glance.',
+        ],
+      ],
+      lore: [
+        [
+          'Ratfolk are canny survivors and tricksters with strong family ties that suit criminal societies, though many are scouts and saboteurs who slip into army camps, sewers and dungeons. They swim well and live on little, in tropical islands, forests, sewers, labyrinths and ruins. They fight fast with light weapons and armour and numbers, sometimes allying with goblins, darakhul and kobolds, but usually serve a Rat King, which could be a wererat, rat king, ogre, minor demon or intelligent undead.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: ratfolk (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/ratfolk/',
+          },
+        ],
+      ],
+      habitats: ['Urban', 'Island', 'Forest'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1478,6 +1552,25 @@ export default createPublicationMonsters({
       name: 'Ravenfolk Scout',
       alignment: 'neutral',
       languages: ['Common', 'Feather Speech', 'Ravenfolk'],
+      appearance: [
+        [
+          "A wingless avian humanoid with a raven's or crow's face and a solid frame, mostly pitch black but sometimes white with red flecks.",
+        ],
+      ],
+      lore: [
+        [
+          "Ravenfolk are Odin's agents, made from feathers of his ravens Huginn and Muninn to spy for him. They steal secrets above all, trade information and help hatch plots, are seen as informers and troublemakers, and keep any oath they swear.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: ravenfolk_scout (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/ravenfolk-scout/',
+          },
+        ],
+      ],
+      habitats: ['Roads', 'Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1568,6 +1661,25 @@ export default createPublicationMonsters({
       name: 'Red-Banded Line Spider',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A furry brown spider about as big as a spread hand, or sometimes as a small dog, with deep red swirls on its abdomen, perches in the canopy.',
+        ],
+      ],
+      lore: [
+        [
+          'Line spiders spin no webs, instead waiting on a perch, firing a line of silk at prey and pouncing along it for a deep bite. The potent venom incapacitates much bigger creatures. They live in temperate and subtropical forests and in cities, are used in some divination in place of a garroter crab, are favourites of exotic-pet dealers, and goblins, kobolds and some humans keep them to control mice and rats.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: red_banded_line_spider (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/red-banded-line-spider/',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Urban'],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -1800,6 +1912,24 @@ export default createPublicationMonsters({
       name: 'Shroud',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A flickering, translucent outline of the person it once was, with the same height and build, stands out starkly in bright light and vanishes into darkness. Its voice is weak.',
+        ],
+      ],
+      lore: [
+        [
+          'A shroud is what is left of a wicked person who died but refuses to rest, and it has not yet grown strong enough to become a shadow. It attacks the living and the light that sustains them. It cannot hold a conversation, but may be heard whispering a name or phrase that mattered to it in life, over and over.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Shroud (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/shroud/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1889,6 +2019,25 @@ export default createPublicationMonsters({
       name: 'Skin Bat',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        [
+          'A repulsive, batlike creature darts out of the dark, its body made entirely of rotting sheets of stolen skin. Its eyes are glassy and lifeless, and its toothless mouth spreads wide in hunger.',
+        ],
+      ],
+      lore: [
+        [
+          'Skin bats are made from skin flayed from sacrificial victims and animated by a ritual using Abyssal flesh vats and invocations to demon lords. They feed on living skin to replace their own decaying hide, and their acidic saliva paralyses and scars. They have no schemes of their own: flocks roost on cliffs and in ancient dungeons reachable only by flying or climbing. Cold preserves them so they feed rarely in cool lands, but in hot wet climates they are voracious. Rings or necklaces from past victims sometimes end up embedded in their folds.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Skin Bat (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/skin-bat/',
+          },
+        ],
+      ],
+      habitats: ['Cliffs', 'Dungeons'],
       stats: {
         size: 'small',
         type: 'undead',
@@ -2181,6 +2330,25 @@ export default createPublicationMonsters({
       name: 'Wharfling',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A hairless, ugly creature, usually dripping wet, with large webbed hands and feet and an oversized mouth.',
+        ],
+      ],
+      lore: [
+        [
+          'Wharflings raid by night and love to steal from fishmongers and jewellers alike. They dig dens near seas, lakes and rivers and move in family groups of three or more, catching fish skilfully. Their needle-like teeth hurt, but coastal communities hate them more for the theft, and their lairs are full of stolen metal trinkets.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Wharfling (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/wharfling/',
+          },
+        ],
+      ],
+      habitats: ['Coast'],
       stats: {
         size: 'tiny',
         type: 'beast',

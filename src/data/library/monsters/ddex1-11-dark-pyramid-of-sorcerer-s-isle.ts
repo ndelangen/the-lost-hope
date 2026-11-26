@@ -284,6 +284,17 @@ export default createPublicationMonsters({
       ],
       alignment: 'chaotic neutral',
       languages: ['understands Slaad but can’t speak'],
+      appearance: [
+        [
+          'A small slaad larva chews its way out through the chest of a dying host, then goes looking for more fresh meat.',
+        ],
+      ],
+      lore: [
+        [
+          "A red slaad injects an egg with a claw, and over three months the egg moves to the host's chest and grows into a tadpole. In the last day the host feels ill, slows and fights badly, and then the tadpole eats its way out, killing the host, and feeds on the remains. It then hunts any other fresh meat, and within hours it can grow into a blue or green slaad if its host could cast spells of a high enough level. If the disease is cured before the birth, the unborn slaad is destroyed.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 276'],
+      ],
       stats: {
         size: 'tiny',
         type: 'aberration',
@@ -406,6 +417,18 @@ export default createPublicationMonsters({
       name: 'Young Purple Worm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A huge worm bursts out of solid rock, lunging forward by rhythmically squeezing and stretching its body.',
+        ],
+      ],
+      lore: [
+        [
+          'The Monster Manual describes the full-grown purple worm, so scale it down for a young one. Purple worms are dim-witted, ravenous burrowers that treat anything they meet as food, and loud noise draws them. They are most common in the Underdark but often seen on rocky and mountainous surface lands, and they swallow prey whole. Their tunnels become highways for other creatures, and metals and gems excreted from rock can be found inside their bodies.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 255'],
+      ],
+      habitats: ['Underdark', 'Mountain'],
       stats: {
         size: 'large',
         type: 'monstrosity',

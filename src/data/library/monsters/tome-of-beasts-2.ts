@@ -12322,6 +12322,25 @@ export default createPublicationMonsters({
       name: 'Keyhole Dragonette',
       alignment: 'neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A wingless, lithe reptile with overlapping bands of scales, a pointed snout and a broad flat tail scurries after vermin, poking its snout into every hole.',
+        ],
+      ],
+      lore: [
+        [
+          'Keyhole dragonettes were bred by magic to squeeze into closed-off places and clear cities of rats. They pick locks with their long, nimble tongues, so some end up working as living lockpicks. They find prey by feeling vibrations, eat nearly anything and have huge appetites, and they sometimes eat the pets of the households they are clearing. Young ones train easily and bond tightly with guards, scouts and rogues, and a dragonette that loses its companion can sink into years of low spirits.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: keyhole_dragonette (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/keyhole-dragonette/',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -12430,6 +12449,25 @@ export default createPublicationMonsters({
       name: 'Khodumodumo',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A grassy hillock heaves upward to reveal a blind, toad-like monster with a huge mouth, from which six thick red tongues, each ending in a sharp point, lash out.',
+        ],
+      ],
+      lore: [
+        [
+          'The khodumodumo hides as a hill in badlands and hill country and waits for prey to come close before it rises and impales it on its tongues. It is not evil, just permanently hungry, and will try to eat anything within reach. Fire resistant by nature, it is a traditional trial for fire giants who want to challenge a clan leader, and red dragons sometimes hunt it for sport.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: khodumodumo (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/khodumodumo/',
+          },
+        ],
+      ],
+      habitats: ['Hill', 'Badlands'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -12548,6 +12586,24 @@ export default createPublicationMonsters({
       name: 'Knight Ab-errant',
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
+      appearance: [
+        [
+          'A towering, impossibly muscular man in a ruined tabard swings a great hammer as if it were a branch, while glowing runes and sigils swirl over his skin.',
+        ],
+      ],
+      lore: [
+        [
+          'Knights ab-errant were once ordinary warriors warped by wild magic left in forgotten or forbidden places. Some were changed by a trophy taken from something alien, some by a wrong potion drunk mid-fight, and some by divine magic, perhaps granted to followers of trickster or cruel gods or to those who prayed in unorthodox ways. They now walk the world as hulking, powerful distortions of what they were.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: knight_ab_errant (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/knight-ab-errant/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'humanoid',
@@ -12658,6 +12714,25 @@ export default createPublicationMonsters({
       name: 'Lambent Witchfyre',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A creature of pure blue fire trickles across a cavern floor, burning everything but the stone.',
+        ],
+      ],
+      lore: [
+        [
+          "The lambent witchfyre flows like an ooze but is made of living blue flame, and it hunts any organic matter that can burn. Nobody knows where it came from: a wizard's attempt to put elemental essence into life, or the fallout of a spell experiment on an outsider are both suggested. Once well fed it finds a quiet place and splits into two, and they spread through deep caves as a hazard to explorers.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: lambent_witchfyre (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/lambent-witchfyre/',
+          },
+        ],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -12783,6 +12858,25 @@ export default createPublicationMonsters({
       name: 'Lazavik',
       alignment: 'neutral good',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'A cat-sized humanoid with a snow-white beard and one blazing golden eye holds a long reed whip.',
+        ],
+      ],
+      lore: [
+        [
+          'Lazaviks are male fey of swamps and marshes who pick a stretch of wetland as home, build a tiny hut of rushes, mud and sticks, and spend their days fishing and keeping company with local animals and good-aligned fey. They are thought to grow out of damp soil like reeds.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: lazavik (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/lazavik/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -12886,6 +12980,23 @@ export default createPublicationMonsters({
       name: 'Leech Swarm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['Hundreds of leeches seethe together in a swampy shallow, drawn by the scent of blood.'],
+      ],
+      lore: [
+        [
+          'Leech swarms gather where food is plentiful and find warm-blooded prey easily by its blood. Leeches stay attached after a victim leaves the swarm, wriggling into gaps in armour or boots, and removing them takes extra time. When food runs short the leeches turn on each other and the swarm can destroy itself.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: leech_swarm (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/leech-swarm/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -12982,6 +13093,25 @@ export default createPublicationMonsters({
       name: 'Lesser Lunarchidna',
       alignment: 'neutral evil',
       languages: ['Deep Speech', 'Elvish'],
+      appearance: [
+        [
+          'A four-armed, four-legged, faceless figure that seems woven from fine spider silk climbs down a tree under the full moon, chanting a spell.',
+        ],
+      ],
+      lore: [
+        [
+          'Lunarchidnas form in forests soaked in residual dark magic, when a moonlit web comes alive and gathers other webs into a humanoid body. They hate elves, poisoning water, burning villages, driving monsters into elf settlements, and stealing elf children as bait for rescuers. Their power follows the moon: at a new moon they are dim, savage and animal-like, while at a full moon they gain sharp intellect, plot and plan from the trees, and channel lunar light.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: lesser_lunarchidna (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/lesser-lunarchidna/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -13083,6 +13213,25 @@ export default createPublicationMonsters({
       name: 'Lymarien',
       alignment: 'neutral good',
       languages: ['Sylvan'],
+      appearance: [
+        [
+          "A tiny bird with a hawk's body, butterfly wings and an elf's head with large luminous eyes swoops down and lands on a branch.",
+        ],
+      ],
+      lore: [
+        [
+          'Lymarien are among the smallest fey, barely bigger than a wasp, living in pastoral woods and rich farmland. They are often mistaken for butterflies and ignored. Owls, crows and some evil fey prey on them.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: lymarien (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/lymarien/',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Farmland'],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -13145,6 +13294,25 @@ export default createPublicationMonsters({
       name: 'Lymarien Swarm',
       alignment: 'neutral good',
       languages: ['Sylvan'],
+      appearance: [
+        [
+          'A cloud of tiny birds with hawk bodies, butterfly wings and elf faces with luminous eyes sweeps through the air together.',
+        ],
+      ],
+      lore: [
+        [
+          'A lymarien swarm is a gathering of the smallest fey, each barely bigger than a wasp, from pastoral woods and rich farmland. Alone they are overlooked as butterflies and hunted by owls, crows and evil fey, and together they are far harder to ignore.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: lymarien_swarm (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/lymarien-swarm/',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Farmland'],
       stats: {
         size: 'large',
         type: 'fey',
@@ -13267,6 +13435,24 @@ export default createPublicationMonsters({
       name: 'Mad Piper',
       alignment: 'neutral',
       languages: ['understands Common and Void Speech', "but can't speak"],
+      appearance: [
+        [
+          'A grey mound of flesh scuttles on mismatched limbs, five heads trilling on bone flutes while a harrowing tune rises from a column of pipes in its middle.',
+        ],
+      ],
+      lore: [
+        [
+          "Mad pipers are heralds of the Great Old Ones, a sign a cult is nearing its goal, and a cult usually makes one per cell. Five humanoids, one a musician, are tied to bagpipes made from an ogre's bones and stomach, and the ritual melts them into one mass that begins to play. In battle they follow the cult and inspire the faithful with alien song. They are not naturally evil: ones made from commoners are docile and loyal and often treated as pets, while those made from powerful evil people are fiercer and harder to control.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: mad_piper (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/mad-piper/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -13343,6 +13529,25 @@ export default createPublicationMonsters({
       name: 'Magma Octopus',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'Eight tentacles reach from a scorched, octopus-shaped body with glowing yellow, orange and red patches that flare like embers.',
+        ],
+      ],
+      lore: [
+        [
+          'Magma octopuses swim through lava as ordinary octopuses swim through water. They came from the Plane of Fire and now live in caverns with open lava, volcano craters and underground magma networks. They have quiet intelligence a little above a sea octopus, no language, and remember those who hurt or helped them. They fight only if attacked but turn very territorial if intruders come too close to home, and can be recruited as guardians by wizards, efreeti and other fiery beings.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: magma_octopus (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/magma-octopus/',
+          },
+        ],
+      ],
+      habitats: ['Volcanic', 'Underground'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -13451,6 +13656,25 @@ export default createPublicationMonsters({
       name: 'Magnetic Elemental',
       alignment: 'neutral',
       languages: ['Terran'],
+      appearance: [
+        [
+          'A large, smooth rock walks with the air humming around it, and nearby daggers, lanterns and buckled boots drift after it.',
+        ],
+      ],
+      lore: [
+        [
+          'Magnetic elementals appear where the Plane of Earth meets the Plane of Air, and the air wears them smooth. They fly using that air and, on the Material Plane, stay where wide stretches of rock are open to the sky, like peaks and deep canyons. A summoner has to mix iron shavings into the clay, and the elemental tends to pull in the armour and weapons of anyone nearby by accident.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: magnetic_elemental (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/magnetic-elemental/',
+          },
+        ],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -13665,6 +13889,25 @@ export default createPublicationMonsters({
       name: 'Mangrove Treant',
       alignment: 'neutral',
       languages: ['Common', 'Draconic', 'Druidic', 'Sylvan'],
+      appearance: [
+        [
+          'Gnarled roots in the muck serve as legs for a group of trees joined into one thinking being.',
+        ],
+      ],
+      lore: [
+        [
+          'Mangrove treants shelter many creatures: fish among their roots, insects over the water and arboreal animals high in the boughs. Unlike forest treants they care more about those under their protection than the swamp as a whole, reacting hard to direct threats but perhaps ignoring dangers outside their groves. They grow all their long lives, up to millennia if undisturbed, absorb ordinary mangroves and their ecosystems, and are wary of civilisation but friendly to lizardfolk.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: mangrove_treant (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/mangrove-treant/',
+          },
+        ],
+      ],
+      habitats: ['Swamp', 'Coastal'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -13749,6 +13992,25 @@ export default createPublicationMonsters({
       name: 'Marsh Dire',
       alignment: 'neutral evil',
       languages: ["understands all languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A waterlogged, half-rotten humanoid has plant matter worked into its body, including three whipping vines.',
+        ],
+      ],
+      lore: [
+        [
+          'Marsh dires are the remains of people who drowned in marshes, held down by muck and constricting vines. The body rots for some weeks, taking in the plants that killed it, and then rises as undead.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: marsh_dire (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/marsh-dire/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -13852,6 +14114,24 @@ export default createPublicationMonsters({
       name: 'Mead Archon',
       alignment: 'chaotic good',
       languages: ['all', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'An amber-skinned angelic figure in leather armour spreads white wings as it takes a long pull from an enormous drinking horn.',
+        ],
+      ],
+      lore: [
+        [
+          "Mead archons are emissaries of gods who love battle and strong drink. They are good-natured, loud warriors who inspire others with courage and feats of strength, sent when a god needs to bolster mortal troops. After a win they stay to drink, sing and swap tales. They also coach a deity's mortal champion before a contest or key battle, tough but encouraging, celebrating wins and drinking away losses.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: mead_archon (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/mead-archon/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -14007,6 +14287,25 @@ export default createPublicationMonsters({
       name: 'Moonkite',
       alignment: 'lawful good',
       languages: ['Celestial', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'An almost perfectly round creature of six pairs of bright silver hawk wings beating in unison moves gracefully through the air.',
+        ],
+      ],
+      lore: [
+        [
+          'Moonkites are spherical celestials that many angels see as perfect union of form and function. They rarely speak, and when they do their wings vibrate in time. Celestial generals and heroes, especially non-humanoid ones, sometimes ride them: fast, hardy against demon and devil powers, and treated as equals who are asked for advice. When a great chaotic or evil threat looms, they have carried good heroes as steeds.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: moonkite (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/moonkite/',
+          },
+        ],
+      ],
+      habitats: ['Celestial'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -14139,6 +14438,25 @@ export default createPublicationMonsters({
       name: 'Mountain Dryad',
       alignment: 'neutral',
       languages: ['Sylvan', 'Terran'],
+      appearance: [
+        [
+          'An enormous woman covered in rocky outcrops and crystals rises out of the mountainside, with lichen-coloured hair and stone-coloured skin.',
+        ],
+      ],
+      lore: [
+        [
+          'Mountain dryads are huge fey tied to primal mountains, often mistaken for giants, sturdier and more rugged than ordinary dryads. They sleep for long periods deep inside their mountain and resent damage to it, especially from dwarves, kobolds and others who mine mountains for a living.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: mountain_dryad (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/mountain-dryad/',
+          },
+        ],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'huge',
         type: 'fey',
@@ -14279,6 +14597,25 @@ export default createPublicationMonsters({
       name: 'Mountain Nymph',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan'],
+      appearance: [
+        [
+          'An elven creature with pitch-black eyes, no whites or irises, wearing leathers and carrying a yew bow, appears on the mountainside fully grown.',
+        ],
+      ],
+      lore: [
+        [
+          'Mountain nymphs say they are children of hunting and moon gods and are among the best stalkers and trappers of the fey. They carry no arrows, as one appears nocked whenever a finger touches the string. They despise mortals who take more than they need from their territory, and a new settlement draws attention at once. Failed mountain towns may be their work. Once a nymph picks a quarry she is hard to shake and will follow it across continents into cities.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: mountain_nymph (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/mountain-nymph/',
+          },
+        ],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -14365,6 +14702,25 @@ export default createPublicationMonsters({
       name: 'Murgrik',
       alignment: 'chaotic evil',
       languages: ["understands Deep Speech but can't speak"],
+      appearance: [
+        [
+          'A reptile like an alligator with two extra mouths, one on a stalk between its eyes and one stretched across its belly, has bat-like membranes on its forelimbs and a tail of a dozen spinning tentacles that drives it through the air.',
+        ],
+      ],
+      lore: [
+        [
+          'Murgriks hunt intelligent prey and enjoy the fear they cause, adding terrifying wails from their head stalks. Once they smell blood they attack and chase until one side is dead. Scholars think they are ordinary alligators warped where deep swamps touch the Abyss, which fits their cruelty. The one known way to put one off is a heron, real or illusory, for reasons unknown.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: murgrik (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/murgrik/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -14537,6 +14893,25 @@ export default createPublicationMonsters({
       name: 'Mydnari',
       alignment: 'neutral evil',
       languages: ['Deep Speech', 'Undercommon'],
+      appearance: [
+        [
+          'A tall, lanky, eyeless humanoid, its eyes only useless spots, is wrapped in thick orange jelly that wobbles and slides over its body as if alive.',
+        ],
+      ],
+      lore: [
+        [
+          'Mydnari are an evil, eyeless underground race living among oozes. They capture creatures to experiment on or feed to their ooze colonies and keep inventing serums and tonics to improve themselves and their link to their oozes. Each bonds symbiotically with a mutated strain of ooze, which forms the jelly coat.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: mydnari (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/mydnari/',
+          },
+        ],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -14633,6 +15008,25 @@ export default createPublicationMonsters({
       name: 'Mystic',
       alignment: 'neutral evil',
       languages: ['Common', 'Void Speech'],
+      appearance: [
+        [
+          'A pale reptile in clean dark robes gestures with its claws and sends a bolt of Void energy at its foes.',
+        ],
+      ],
+      lore: [
+        [
+          'Satarre mystics sense the fates of living creatures nearby and control lesser creatures with magic and words of decay. They think of destruction and death but value their own lives above other satarres. They ponder big ideas even mid-fight, which sometimes yields a clever move and sometimes leaves them easy to surprise, capture or fool with a shiny bit of magic. They mutter constantly, and the sounds sometimes take shape as a glowing rune circling the head.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: mystic (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/mystic/',
+          },
+        ],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -14788,6 +15182,24 @@ export default createPublicationMonsters({
       name: 'Nharyth',
       alignment: 'chaotic evil',
       languages: ["understands Deep Speech but can't speak"],
+      appearance: [
+        [
+          'A hideous mass of coiling intestines undulates through the air, ejecting thin transparent resin spears from its many openings with a wet slithering sound.',
+        ],
+      ],
+      lore: [
+        [
+          'The nharyth floats with no visible means of flight, even where there is no magic. Most scholars think it came from an insane magical experiment, others that it spawned from an unknown horror between the stars. It is not part of any natural ecosystem.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: nharyth (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/nharyth/',
+          },
+        ],
+      ],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -14907,6 +15319,25 @@ export default createPublicationMonsters({
       name: 'Nyctli',
       alignment: 'chaotic evil',
       languages: ['Sylvan'],
+      appearance: [
+        [
+          'A small ball of sickly flesh with an elven face clings under a rotting log, its body covered in barbed stingers.',
+        ],
+      ],
+      lore: [
+        [
+          'Nyctli live in moist, dark places where their colour and size hide them. They enjoy torturing other creatures and giggle most when a victim flounders under their venom. The first were born from hag boils.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: nyctli (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/nyctli/',
+          },
+        ],
+      ],
+      habitats: ['Swamp', 'Forest'],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -14963,6 +15394,24 @@ export default createPublicationMonsters({
       name: 'Ogrepede',
       alignment: 'chaotic evil',
       languages: ["understands all languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'An ogre comes forward lop-sided, then rises to show it is a mass of ogre torsos and heads stitched together by necromancy, with arms sprouting at random.',
+        ],
+      ],
+      lore: [
+        [
+          "Ogrepedes are undead amalgams whose makers deserve special torment. They are as bad-tempered as ogres and want to destroy things, especially beautiful ones. One that slips its master's control keeps a lair of ruined treasures and sometimes mutilated living victims. They moan constantly as if mourning what they lost, and even when told to be quiet their fingers drum noisily, so they rarely surprise anyone.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: ogrepede (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/ogrepede/',
+          },
+        ],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -15055,6 +15504,24 @@ export default createPublicationMonsters({
       name: 'One-Horned Ogre',
       alignment: 'any evil alignment',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'A towering, rippling ogre in burnished scale mail hefts a gleaming greatsword, with a large white horn on its forehead glowing blue.',
+        ],
+      ],
+      lore: [
+        [
+          'One-horned ogres are bigger than other ogres and carry a terrible majesty that makes most other ogres supplicate themselves.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: one_horned_ogre (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/one-horned-ogre/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -15188,6 +15655,22 @@ export default createPublicationMonsters({
       name: 'Ortifex',
       alignment: 'neutral evil',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        ['A large, rotting heart floats forward, its hypnotic heartbeat echoing around it.'],
+      ],
+      lore: [
+        [
+          'An ortifex exists to absorb blood. It disorients prey with its heartbeat and magically drains them, leaving a shrivelled husk. Only large hearts work, from giants, dragons and huge beasts, and necromancers pay well for a big, fresh one. Blood cults, necromancers and intelligent undead send them to demoralise a village or collect a blood sacrifice.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: ortifex (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/ortifex/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -15308,6 +15791,25 @@ export default createPublicationMonsters({
       name: 'Otterfolk',
       alignment: 'chaotic good',
       languages: ['Common'],
+      appearance: [
+        [
+          "A fully brown-furred humanoid with an otter's black nose and small ears wears piecemeal leather armour and holds a weapon ready.",
+        ],
+      ],
+      lore: [
+        [
+          'Otterfolk are generally peaceful but hate reptilians, since giant alligators and other swamp predators nearly wiped them out, and they are wary of lizardfolk and naga that prey on them. Kits learn the atlatl as soon as they can walk. They are cordial to others and are good swamp guides who charge according to how well their clients can fight, valuing visitors who can prove themselves in combat.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: otterfolk (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/otterfolk/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15487,6 +15989,23 @@ export default createPublicationMonsters({
       name: 'Pal-Rai-Yuk',
       alignment: 'neutral evil',
       languages: ['Aquan', 'Common', 'Draconic'],
+      appearance: [
+        ['A long, two-headed, serpentine creature with three dorsal fins and six legs.'],
+      ],
+      lore: [
+        [
+          "Pal-rai-yuks were once underwater dragons who angered a sea god, were cursed, and escaped by learning to tunnel through earth, though they still sometimes hunt in water. Victims swallowed can see out but cannot be seen, and the creature can erase them from others' memories, leaving them isolated as they are digested. The god split their stomachs to curb their hunger, which only made them greedier. When a powerful humanoid or an army takes notice, the pal-rai-yuk gorges, then digs deep and hibernates for years.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: pal_rai_yuk (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/pal-rai-yuk/',
+          },
+        ],
+      ],
+      habitats: ['Underground', 'Coastal'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -15656,6 +16175,25 @@ export default createPublicationMonsters({
       name: 'Pale Screamer',
       alignment: 'neutral evil',
       languages: ['Deep Speech'],
+      appearance: [
+        [
+          'A milk-white creature with an emaciated humanoid lower body and a slimy jellyfish upper body, covered in dark blue eyespots, trails long, frilled, translucent tentacles.',
+        ],
+      ],
+      lore: [
+        [
+          "Pale screamers haunt caves and waterways deep underground and in the sea, announced by an unholy wail, hunting victims to eat or carry to their alien masters' lairs. They enjoy eating prey alive, often in front of paralysed companions. They are artificial and do not breed, but their masters sometimes form blooms of two or more, which signal silently by changing eyespot colours.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: pale_screamer (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/pale-screamer/',
+          },
+        ],
+      ],
+      habitats: ['Underground', 'Deep sea'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -15755,6 +16293,25 @@ export default createPublicationMonsters({
       name: 'Peat Mammoth',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'A pile of rotting plants shaped like a tuskless woolly mammoth shambles on four stumpy legs, plants drooping to the ground from its hide.',
+        ],
+      ],
+      lore: [
+        [
+          'The peat mammoth is a mobile peat bog driven by the souls of intelligent creatures who died in bogs. With no real pilot among the trapped spirits it just shambles on, mostly walking over prey to absorb it, though it can extrude parts of itself to strike. Its rotting mass gives off flammable swamp gas; the soaked body resists fire, but the gas ignites easily.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: peat_mammoth (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/peat-mammoth/',
+          },
+        ],
+      ],
+      habitats: ['Swamp', 'Bog'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -15863,6 +16420,25 @@ export default createPublicationMonsters({
       name: 'Pestilence Swarm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Dust-coated flying insects like huge fat houseflies cover the walls, ceiling and floor of a dark room, motionless, until lantern light touches one and the swarm erupts.',
+        ],
+      ],
+      lore: [
+        [
+          'Pestilence swarms are drawn underground or into shallow caves by the smell of carrion and are immobile and near-dead in darkness, waking in light to swarm everything nearby. Rare but devastating, a swarm can strip a field of crops, fruit, grain and even livestock within hours. They carry disease, descend on settlements to eat left-out food and bite people, then move on, spreading illness from place to place.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: pestilence_swarm (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/pestilence-swarm/',
+          },
+        ],
+      ],
+      habitats: ['Caves'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -15953,6 +16529,25 @@ export default createPublicationMonsters({
       name: 'Pine Doom',
       alignment: 'neutral',
       languages: ['Druidic', 'Sylvan'],
+      appearance: [
+        [
+          'A living pine festooned with razor-edged pinecones glares at the intrusion on its solitude.',
+        ],
+      ],
+      lore: [
+        [
+          'Pine dooms tower over the pines of their groves and see themselves as responsible for the forest: they manage tree growth, clear undergrowth and kill pests. They distrust humanoids but let someone who is truly in trouble shelter, and retaliate hard if that charity is abused.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: pine_doom (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/pine-doom/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -16162,6 +16757,24 @@ export default createPublicationMonsters({
       name: 'Pustulent Shambler',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A quivering mound of pus-covered flesh sits ringed by piles of bones that look eaten away by acid.',
+        ],
+      ],
+      lore: [
+        [
+          'Pustulent shamblers carry a corrosive substance that dissolves bone. They drag victims of bonerot to their lairs and feed on the boneless flesh, keeping a few corpses in reserve to heal themselves quickly. Their link to the disease lets them track escaping victims and be there when it takes hold.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: pustulent_shambler (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/pustulent-shambler/',
+          },
+        ],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'ooze',
@@ -16312,6 +16925,23 @@ export default createPublicationMonsters({
       name: 'Putrescent Slime',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['An algae-covered pool suddenly comes alive and swallows a rat that came to drink.'],
+      ],
+      lore: [
+        [
+          'Putrescent slimes form in large pools of foul water and are mistaken for algae by new explorers deep underground. They lurk and only attack desperate creatures that drink from their pools, then slowly digest the prey as it rots in the water.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: putrescent_slime (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/putrescent-slime/',
+          },
+        ],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -16500,6 +17130,23 @@ export default createPublicationMonsters({
       name: 'Quickserpent',
       alignment: 'unaligned',
       languages: ["understands Terran but can't speak"],
+      appearance: [
+        ['A muscular snake covered in muck seems more at home in silt and water than in branches.'],
+      ],
+      lore: [
+        [
+          'Quickserpents came from the Plane of Earth centuries ago, when a catastrophe wrecked their home region and drove survivors into swamps linked to that plane. They lost many elemental traits but still understand earth elementals and avoid attacking them, and some powerful elementals have tried to return them home with mixed results. They ambush from beneath the surface by sensing vibrations, can churn suitable ground into quicksand, and then wrap their helpless prey.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: quickserpent (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/quickserpent/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -16590,6 +17237,25 @@ export default createPublicationMonsters({
       name: 'Quoreq',
       alignment: 'chaotic evil',
       languages: ["understands Common but can't speak", 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A faceless, vaguely humanoid creature with long raking claws and a jerking gait has mushroom-grey skin covered in bumps and eddies, as if something seethed under it.',
+        ],
+      ],
+      lore: [
+        [
+          'Quoreqs live on the edges of human society in abandoned buildings, polluted thickets and grimy alleys, born from misery and squalor as negative thoughts given form. They are drawn to people in despair or pain. They feel no fear or love and hurt victims to share the intense emotions, often asking them telepathically how it feels. With mouths hidden under rigid flesh, they must rip open their own bodies to eat.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: quoreq (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/quoreq/',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -16695,6 +17361,21 @@ export default createPublicationMonsters({
       name: 'Radiant Spark Swarm',
       alignment: 'neutral',
       languages: [],
+      appearance: [['A big cloud of tiny glowing sparks of fire floats silently through the air.']],
+      lore: [
+        [
+          'Radiant spark swarms form when the border between the Plane of Fire and the Upper Planes is unstable, with thousands of sparks created at once, then they wander alone, usually on planar borders but sometimes into the Material Plane through portals. They are drawn to powerful magic, which seems to comfort them though they cannot use or eat it. They are not very intelligent or evil and are almost always destroyed eventually.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: radiant_spark_swarm (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/radiant-spark-swarm/',
+          },
+        ],
+      ],
+      habitats: ['Planar'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -16791,6 +17472,25 @@ export default createPublicationMonsters({
       name: 'Resinous Frog',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A small frog whose skin and tongue are coated in a sticky fluid that clings to almost anything, even in water.',
+        ],
+      ],
+      lore: [
+        [
+          'Its adhesive secretion leaves most creatures exhausted from struggling, giving the patient frog a later meal. If a dangerous predator sticks to its tongue, the frog can detach the tongue and escape, and it can regrow lost tongues.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: resinous_frog (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/resinous-frog/',
+          },
+        ],
+      ],
+      habitats: ['Wetland'],
       stats: {
         size: 'small',
         type: 'beast',
@@ -16884,6 +17584,25 @@ export default createPublicationMonsters({
       name: 'Rock Roach',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'An insect clings to a big rock and drips saliva on it, a puff of steam rises, and it laps at the liquid remains, leaving a pockmark in the stone.',
+        ],
+      ],
+      lore: [
+        [
+          'Rock roaches are giant relatives of roaches that eat rock deep underground, dissolving it with acidic saliva. A group can chew through a wall and open routes between caves, with little regard for stability, which can cause cave-ins. They are hostile to everything nearby including each other. Parents abandon eggs, and the young stay together for a few months, eating the rock they hatched in, then scatter. Their carapaces are valued by some groups.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: rock_roach (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/rock-roach/',
+          },
+        ],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -16954,6 +17673,23 @@ export default createPublicationMonsters({
       name: 'Rotsam',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ["A quivering glob wraps around a corpse's arm, and the dead flesh seems to rot faster."],
+      ],
+      lore: [
+        [
+          'Rotsams feed on rotting flesh, speeding decay in rotten corpses and starting it in preserved ones, and they affect living tissue just as well. They cling like leeches but are harder to remove and live underwater. Cultists of disease, death and decay raise them for sacrificial rituals.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: rotsam (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/rotsam/',
+          },
+        ],
+      ],
+      habitats: ['Underwater'],
       stats: {
         size: 'tiny',
         type: 'ooze',
@@ -17050,6 +17786,25 @@ export default createPublicationMonsters({
       name: 'Rotsam Swarm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A mass of quivering globs wraps around a corpse, and the dead flesh seems to rot faster.',
+        ],
+      ],
+      lore: [
+        [
+          'Rotsams feed on rotting flesh, speeding decay in rotten corpses and starting it in preserved ones, and they affect living tissue equally. They attach like leeches but are harder to remove and live underwater. Cultists of disease, death and decay raise them for sacrificial rituals.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: rotsam_swarm (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/rotsam-swarm/',
+          },
+        ],
+      ],
+      habitats: ['Underwater'],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -17297,6 +18052,20 @@ export default createPublicationMonsters({
       name: 'Runeswarm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A cloud of inky runes churns, and some of the markings light up briefly.']],
+      lore: [
+        [
+          'Runes left unused for years, or made on ley lines, can gain a little sentience and gather into a runeswarm. It drifts in random directions, inert until it meets living beings. It sets off one of its runes at random, but the rune lights up moments before taking effect, giving watchful people a chance to prepare.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: runeswarm (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/runeswarm/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -17453,6 +18222,25 @@ export default createPublicationMonsters({
       name: 'Sanddrift Drake',
       alignment: 'neutral',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'A serpentine body the colour of desert sand, with six legs that grip canyon walls, bursts from the ground to snatch prey.',
+        ],
+      ],
+      lore: [
+        [
+          'Sanddrift drakes live in the hottest deserts and hunt by hiding under the sand, with transparent eyelids that let them see approaching prey. Their bite carries a paralytic poison that they use to separate prey from a group or herd.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: sanddrift_drake (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/sanddrift-drake/',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -17585,6 +18373,25 @@ export default createPublicationMonsters({
       name: 'Sapphire Jelly',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Wisps of frosty air rise from a quivering blue puddle with ice clinging to its edges and a crystalline surface.',
+        ],
+      ],
+      lore: [
+        [
+          'Sapphire jellies live in glacial and mountain regions among rocks and ice, above or below ground, and avoid warm or dry places. Warm-blooded settlements treat them as a threat, so they avoid those and prefer creatures unbothered by cold. They are extremely cold, freezing water and objects they touch, chilling those they hit, and those they kill become undead permanently.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: sapphire_jelly (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/sapphire-jelly/',
+          },
+        ],
+      ],
+      habitats: ['Glacier', 'Mountain'],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -17688,6 +18495,25 @@ export default createPublicationMonsters({
       name: 'Sarsaok',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A huge, six-horned, bull-like creature with a mane of writhing flames and shimmering metal skin.',
+        ],
+      ],
+      lore: [
+        [
+          'All sarsaok descend from a celestial ox said to have been there when humanity was made. They live in very hot places like volcanoes and geologically active land, eating plants and drinking liquid magma and grazing on obsidian and pumice. They are peaceful herbivores like wild oxen, but if threatened the whole herd attacks until the threat ends.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: sarsaok (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/sarsaok/',
+          },
+        ],
+      ],
+      habitats: ['Volcanic'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -17814,6 +18640,25 @@ export default createPublicationMonsters({
       name: 'Sasori Fukurowashi',
       alignment: 'neutral good',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'A pair of glowing golden avian eyes in a tree, horn-like feathered ears on a muscular winged form, with insect-like claws beneath the wings, and a soft, echoing voice asks if you are lost.',
+        ],
+      ],
+      lore: [
+        [
+          'Sasori fukurowashi are kami born of reincarnated noble souls who protected nature. Unlike other kami they are not bound to a shrine and cannot be summoned. They act as divine agents, messengers or roaming guardians, generally peaceable, befriending non-evil humanoids, fey and others who do not defile nature. They rest or meditate by day and are active from dusk to dawn, and can shift to the Ethereal Plane to help nearby kami or respectful, contrite travellers.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: sasori_fukurowashi (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/sasori-fukurowashi/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -17947,6 +18792,25 @@ export default createPublicationMonsters({
       name: 'Sasquatch',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A nine-foot, ape-like figure walks upright out of the trees, covered in black, brown or red fur, with heavy fists and a jaw full of long, pointed teeth.',
+        ],
+      ],
+      lore: [
+        [
+          'Sasquatches are solitary and nocturnal, eating plants and insects and avoiding fights. By day one sleeps in a lair hidden behind boulders, brush, fallen trees or a waterfall, where it also stores food and shiny finds. It turns savage when cornered or when its home or food is threatened. Folk tales say lullaby-like music calms it, but stopping the song before it falls asleep sends it into a rage.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Sasquatch (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/sasquatch/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -18070,6 +18934,25 @@ export default createPublicationMonsters({
       name: 'Scarlet Ibis',
       alignment: 'neutral',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'An oversized marsh bird with blood-red feathers and a scythe-shaped beak looks over its surroundings with obvious intelligence.',
+        ],
+      ],
+      lore: [
+        [
+          'Its beak brings bad luck to anything it touches, and the bird mostly uses this as revenge. Swamp dwellers sometimes beg one to punish people who wronged them, and it judges such requests carefully. In dreams it is an omen of coming setbacks, and it shows itself in person only once the bad luck has ended, which tempts fools to blame and kill it. It keeps company with egret harpies.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Scarlet Ibis (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/scarlet-ibis/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -18161,6 +19044,24 @@ export default createPublicationMonsters({
       name: 'Scrofin',
       alignment: 'lawful neutral',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'An upright, muscular boar with short brown fur stands on cloven hooves, its arms ending in oversized fists.',
+        ],
+      ],
+      lore: [
+        [
+          'A scrofin seeks a worthy opponent for a wrestling bout, won by holding the rival in a grapple for half a minute. It takes care not to injure the opponent and lets go the moment they yield. It goes berserk if it believes its opponent is cheating, if something outside the match hurts it, or when it has taken too many injuries, and it calms only when it thinks its foes are truly sorry. Other fey find its pride in its strength tiresome, so it wanders the mortal world looking for champions.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Scrofin (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/scrofin/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -18278,6 +19179,25 @@ export default createPublicationMonsters({
       name: 'Shadow Boxer',
       alignment: 'chaotic neutral',
       languages: ['Sylvan'],
+      appearance: [
+        [
+          'A shadow shaped like a house cat slides along a wall and onto the floor with no cat to cast it, and light seems to bend oddly behind the watcher. An invisible creature purrs contentedly nearby.',
+        ],
+      ],
+      lore: [
+        [
+          "A shadow boxer is the embodiment of cats' shared memory, found where people gather in towns and cities. It lets itself be noticed so that people leave it gifts, adopts one household at a time and guards it, and punishes households that stop paying tribute. When it sleeps it shares dreams with every ordinary cat and other shadow boxer within a mile, so a large, peaceful clowder is a sign that one is planning mischief.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Shadow Boxer (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/shadow-boxer/',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -18400,6 +19320,24 @@ export default createPublicationMonsters({
       name: 'Shadow of Death',
       alignment: 'chaotic evil',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A skeletal angel in black funerary garb stands before you, its ribbons stirring of their own accord.',
+        ],
+      ],
+      lore: [
+        [
+          "Shadows of death were celestial champions of justice until an agent of entropy cast their bodies into the Void. Their celestial nature saved them from annihilation, but the Void darkened their minds. They sometimes answer the call of death cults, yet instead of helping the cultists they kill them and then spread the grave's shadow across the world. They need no food, drink or sleep.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Shadow of Death (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/shadow-of-death/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -18575,6 +19513,25 @@ export default createPublicationMonsters({
       name: 'Shiftshroom',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A plain white mushroom with a forked stalk suddenly twists and shifts into a poisonous deathcap.',
+        ],
+      ],
+      lore: [
+        [
+          "The shiftshroom's mimicry evolved to stop animals eating it. Roasted, it has a nutty flavour, and Underworld dwellers and surface gourmands pay well for the caps, which are hard to harvest below ground and hard to grow above it. Colonies hide among deadlier fungi, with only a few outer mushrooms truly dangerous and the rest shiftshrooms in disguise.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Shiftshroom (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/shiftshroom/',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -18628,6 +19585,25 @@ export default createPublicationMonsters({
       name: 'Shimmer Seal',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A tusked seal is almost transparent, organs included, apart from a few spots on its hide. Against anything but water or ice it leaves a telltale shimmer.',
+        ],
+      ],
+      lore: [
+        [
+          'It blends into water and icy backgrounds, and loses its transparency only while eating fish or small mammals, so it feeds in hidden spots. Scholars think shimmer seals form when the spirit of someone devoted to protecting overhunted animals merges with an ordinary seal. When one dies defending a pod from hunters, another seal in the pod turns into a new shimmer seal within a minute. Arctic druids and rangers who befriend them use them as spies or as an advance wave of attack.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Shimmer Seal (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/shimmer-seal/',
+          },
+        ],
+      ],
+      habitats: ['Arctic coast'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -18698,6 +19674,25 @@ export default createPublicationMonsters({
       name: 'Shukankor',
       alignment: 'chaotic evil',
       languages: ['Deep Speech'],
+      appearance: [
+        [
+          'A huge creature with gaudy green and purple feathers, stunted humanoid limbs and a cruel, vulture-like beak. Several eyes swivel on long lime-green stalks, and it hoots as it comes.',
+        ],
+      ],
+      lore: [
+        [
+          'Shukankors hunt in badlands, deserts and sorcery-blighted wastelands, killing and eating anything they meet, and in a pinch even rotting flesh, rock or dirt. They are intelligent and can be bargained with, though their demands are usually extravagant and vile. In a fight one makes smaller replicas of itself that obey it telepathically and sacrifice themselves for it. They have no sexes: replicas left alive become independent after a day and grow into full shukankors in a month.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Shukankor (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/shukankor/',
+          },
+        ],
+      ],
+      habitats: ['Wasteland', 'Desert'],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -18801,6 +19796,25 @@ export default createPublicationMonsters({
       name: 'Shurale',
       alignment: 'neutral evil',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'A satyr-like creature with brown fur and goat hooves on its lower body, a twisted horn on its forehead and a wide, manic grin on a comical face.',
+        ],
+      ],
+      lore: [
+        [
+          "A shurale tickles victims into fatal laughter that ruptures their organs, then cuts the body up and leaves it for scavengers. It feeds on the sobbing laughter of the dying, which heals it, so its lair is usually within a few miles of a settlement where it can lure loners into the woods. It will also attack orcs, ogres, trolls and even hill giants, and it is handy with a woodcutter's axe. Some say it is the ghost of a bitter woodcutter who was mocked by his family, though sages scoff at this.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Shurale (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/shurale/',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Mountain'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -18952,6 +19966,25 @@ export default createPublicationMonsters({
       name: 'Silenal',
       alignment: 'chaotic neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A halfling-sized figure with wild, greying hair, a pointed nose and chin and bloodshot, mischievous eyes sets down a mug.',
+        ],
+      ],
+      lore: [
+        [
+          'A silenal adopts a tavern or inn. The owner notices slowly: bar towels mended, empty bottles left out back. If the owner accepts the help and leaves gifts of food and drink, it grows more active and cleans the place to a shine after hours, but a falling-out brings mishaps that can drive the business under. By day it drinks and talks with patrons, fascinated by their troubles, and any advice it gives is deliberately flawed so that they come back with more dramatic tales. It stays calm however wild a brawl gets.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Silenal (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/silenal/',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -19093,6 +20126,25 @@ export default createPublicationMonsters({
       name: 'Snake with a Hundred Mage Hands',
       alignment: 'neutral',
       languages: ['Common', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A small snake slithers up to a door, and spectral hands appear all around it to open and push it.',
+        ],
+      ],
+      lore: [
+        [
+          "Thieves' guilds with magical members enhance crafty snakes with keen intelligence, telepathy and the power to summon dozens of mage hands, then use them on heists that bulkier humanoids could not manage. Many escape their creators and settle in the seedier parts of cities where nobody guesses what they are. They are mischievous, and many are kleptomaniacs and swindlers who steal things that please them.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Snake with a Hundred Mage Hands (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/snake-with-a-hundred-mage-hands/',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -19292,6 +20344,24 @@ export default createPublicationMonsters({
       name: 'Spawn of Alquam',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A large, thin, sinewy demon with sickly green skin, feathered wings, backswept horns, a narrow, vicious beak and talon-like claws. It exudes darkness and contempt.',
+        ],
+      ],
+      lore: [
+        [
+          'These demons serve and guard Alquam, Demon Lord of Night, and he sends them to aid his cults or to assassinate people who threaten his followers. Cults often worship them as physical stand-ins for the demon lord and believe offerings to them reach his planar home. On the Material Plane they keep to places cloaked in darkness, finding direct light uncomfortable though harmless, and often flee it. Birds obey their mental commands, so sudden odd behaviour in birds can mean one is near, and swarms attack its chosen targets and carry its messages.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Spawn of Alquam (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/spawn-of-alquam/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -19428,6 +20498,25 @@ export default createPublicationMonsters({
       name: 'Spawn of Hriggala',
       alignment: 'chaotic evil',
       languages: ['Common', 'Darakhul', 'Void Speech'],
+      appearance: [
+        [
+          'An enormous worm bursts from the floor, its mouth ringed with writhing tentacles that grab everything edible. Chanting echoes from inside, as if a hundred evil priests were trapped in its gullet.',
+        ],
+      ],
+      lore: [
+        [
+          'It resembles a young purple worm with a tendril-fringed mouth full of razor teeth, and it serves its demon lord on the Material Plane, fed on flesh and stone. Followers of the undead god of hunger summon one with ritual and sacrifice, though controlling it once it arrives is another matter. Fiends, darakhul and other underworld monsters use them to dig new tunnels.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Spawn of Hriggala (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/spawn-of-hriggala/',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -19550,6 +20639,21 @@ export default createPublicationMonsters({
       name: 'Spellhound',
       alignment: 'lawful neutral',
       languages: [],
+      appearance: [['A monstrous hound with a shimmering coat and a ridged snout.']],
+      lore: [
+        [
+          "The first spellhounds were scent hounds that a fey lord blessed and mutated at a houndmaster's request so they could hunt a hag. Since then warring fey keep them as prized pets or loose them in fey forests to prey on lone spellcasters. They can smell the odour of a spellcaster, their coats repel spells and their howls disrupt magic, so they are a menace to anyone with arcane talent.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Spellhound (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/spellhound/',
+          },
+        ],
+      ],
+      habitats: ['Fey forests'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -19778,6 +20882,25 @@ export default createPublicationMonsters({
       name: 'Spurred Water Skate',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A water-walking insect stands on the surface of even moderately choppy water, held up by air bubbles caught in the bristles on its legs. Its forelimbs end in sharp spurs.',
+        ],
+      ],
+      lore: [
+        [
+          'A daytime carnivore with weak mandibles, the water skate kills weaker prey outright with its forelimbs, but prefers to grab a target and hold it under the surface until it drowns. Its weight distribution and bristled legs let it move across water without sinking. People in swamps and marshes value them as mounts.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Spurred Water Skate (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/spurred-water-skate/',
+          },
+        ],
+      ],
+      habitats: ['Swamp', 'Marsh'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -19833,6 +20956,25 @@ export default createPublicationMonsters({
       name: 'Ssadar',
       alignment: 'chaotic evil',
       languages: ['Common', 'Ignan'],
+      appearance: [
+        [
+          'A bipedal reptile with golden scales that turn red in shadow and clawed hands wields a sword. Its breath smells of brimstone and a little smoke leaks from its nostrils.',
+        ],
+      ],
+      lore: [
+        [
+          'Ssadar live in jungles and rarely leave them, though they can survive in desert. They dwell in small cities, usually at the foot of mountains near plentiful water, and watch the surrounding land closely, attacking anyone who approaches. Captured intruders are usually sacrificed to their evil lizard gods. They build terraced pyramids carved with dragons and lizard gods, which serve as temples and hold multi-level labyrinths inside, entered from the top.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Ssadar (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/ssadar/',
+          },
+        ],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -19930,6 +21072,25 @@ export default createPublicationMonsters({
       name: 'Stone Creeper',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A cluster of vines with elongated tendrils and leaves, clear fluid dripping from its thorns onto the floor.',
+        ],
+      ],
+      lore: [
+        [
+          'Stone creepers are semi-intelligent plants that feed on the mortar holding walls together, dissolving it with acid. They hide deep in stonework in ruined castles and reinforced tunnels, passing for ordinary vines, and pull back when a threat is below, dropping loose bricks and stones on intruders. They live in groups of three to five, eating through a room until it collapses and then moving on.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Stone Creeper (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/stone-creeper/',
+          },
+        ],
+      ],
+      habitats: ['Ruins', 'Underground'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -20042,6 +21203,24 @@ export default createPublicationMonsters({
       name: 'Strobing Fungus',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A translucent stalk with a white core and a bulbous head suddenly blazes with bright light, then flashes bright and dark in rapid pulses.',
+        ],
+      ],
+      lore: [
+        [
+          "Chemicals in its body mix to make it shine brighter than a torch, and when it senses danger it squirts the mixture at the threat, where it turns corrosive and toxic in open air. It creeps along by cutting loose its base and gliding to a new spot, where it fixes itself again. It is a popular guard, especially for creatures with blindsight: it understands rudimentary Common, can be told not to attack its master's allies, and treats anyone it has not been introduced to as an enemy.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Strobing Fungus (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/strobing-fungus/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -20105,6 +21284,25 @@ export default createPublicationMonsters({
       name: 'Sulsha',
       alignment: 'lawful evil',
       languages: ['Common', 'Simian'],
+      appearance: [
+        [
+          'A monstrous ape bigger than a gorilla with bright red fur, twin tufts of black hair rising like horns and a bony spur on its long tail. Its eyes glow with evil intelligence and it carries a bag of incendiary devices.',
+        ],
+      ],
+      lore: [
+        [
+          'Sulshas are tyrannical simian humanoids of thick jungles, especially in hilly or mountainous country. They are obsessed with conquering their neighbours and are in constant war with the other creatures of their homeland. They even force their simian cousins into service.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Sulsha (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/sulsha/',
+          },
+        ],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'large',
         type: 'humanoid',
@@ -20245,6 +21443,25 @@ export default createPublicationMonsters({
       name: 'Swamp Lily',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A large, delicate orange flower stands guard over a lavish banquet laid out near its roots.',
+        ],
+      ],
+      lore: [
+        [
+          "Swamp lilies are carnivorous plants that feed on the rotting remains of creatures they poison. They lure prey with an illusory feast scented like fruit and prey animals, and victims who eat it swallow the lily's roots and toxin. Once it has killed enough, it wanders toward places where creatures crave food, sensing their hungry thoughts. Druids and others resistant to the illusion sometimes make partners of lilies and let them guard groves.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Swamp Lily (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/swamp-lily/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -20358,6 +21575,21 @@ export default createPublicationMonsters({
       name: 'Swampgas Bubble',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A semi-permeable bubble full of blue-tinged gas bobs jauntily in the air.']],
+      lore: [
+        [
+          "It feeds on the exhaled breath of living creatures, wrapping around a victim's head, and panicked, heavy breathing gives it more. It usually loses interest as the victim's breathing slows, so encounters are rarely fatal. It is drawn to fire even though it is highly flammable, and burning one risks an explosion in a beautiful blue burst. That end is part of its life cycle, as the shell hardens and shatters, and the pieces fall into the swamp and grow into new bubbles.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Swampgas Bubble (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/swampgas-bubble/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -20533,6 +21765,21 @@ export default createPublicationMonsters({
       name: 'Swarm of Esteron',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A crowd of small, winged salamanders clusters around an underground pool.']],
+      lore: [
+        [
+          'Esteron are highly sociable and have no dominant leader. They gather around subterranean water and defend it fiercely, and some underground creatures eat them as a delicacy, though they swarm quickly against the unprepared. Two groups meeting are peaceful when water and food are plentiful and may even swap members. When resources are scarce, the group that holds the water drives off the outsiders with as little violence as possible.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Swarm of Esteron (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/swarm-of-esteron/',
+          },
+        ],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -20602,6 +21849,25 @@ export default createPublicationMonsters({
       name: 'Tembril',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A bear-sized creature like a squirrel stands on its hind legs, with brown scales, immense claws, sabre-like fangs and soulless black eyes. It holds a severed human head and chitters softly.',
+        ],
+      ],
+      lore: [
+        [
+          'In the forests of the north the tembril is a savage hunter of sapient fey, humanoids and giants only, feeding on their eyes, tongues and brains. It eviscerates a victim with its claws while its teeth pierce the skull, then takes the head to eat at once or later. In long winters it hides stored heads in hollow trees or other places and packs them in ice. The headless bodies are left for forest scavengers.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Tembril (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/tembril/',
+          },
+        ],
+      ],
+      habitats: ['Northern forest'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -20858,6 +22124,25 @@ export default createPublicationMonsters({
       name: 'Thin Giant',
       alignment: 'chaotic evil',
       languages: ['Common', 'Deep Speech', 'Giant'],
+      appearance: [
+        [
+          'A tall, emaciated, hairless giant with dark grey-green skin, unnaturally long arms ending in razor talons, a strangely conical head, glowing red eyes and fearsome fangs.',
+        ],
+      ],
+      lore: [
+        [
+          "Thin giants lurk in abandoned mansions, dark wells and old mine shafts, and are the stuff of children's nightmares, feared even by other giants for their life-draining bite and ability to squeeze into tight spaces. They get along with few creatures but have been seen leading ghouls, ettercaps and trolls to catch and devour prey. They can twist their limbs into unnatural positions, even bend double, which lets them shrug off crushing blows and hold ambush poses for a very long time.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Thin Giant (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/thin-giant/',
+          },
+        ],
+      ],
+      habitats: ['Ruins', 'Mines'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -20932,6 +22217,25 @@ export default createPublicationMonsters({
       name: 'Trollkin Raider',
       alignment: 'neutral',
       languages: ['Common', 'Trollkin'],
+      appearance: [
+        [
+          'Screams echo in the night as spears meet wood and flesh, and trollkin raiders strip a larder while their friends fight.',
+        ],
+      ],
+      lore: [
+        [
+          'Trollkin raiders are greedy and efficient, moving under a leader to take apart a village, caravan or small fortress, mostly for food and portable wealth. They have little formal training but trust and fight for one another. They attack at night, using panicked animals or a fire as a diversion while the real assault comes elsewhere, and avoid daylight attacks over open ground. They can lope for miles but prefer to ride horses or row up rivers, which gives them speed and room for plunder.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Trollkin Raider (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/trollkin-raider/',
+          },
+        ],
+      ],
+      habitats: ['Taiga', 'Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -21022,6 +22326,24 @@ export default createPublicationMonsters({
       name: 'Uridimmu',
       alignment: 'lawful good',
       languages: ['all', 'telepathy 60 ft'],
+      appearance: [
+        [
+          "A tall, muscular humanoid with bronze skin and a hawk's wings. It has a hunting hound's head with a lion's teeth and reddish-gold mane, and it holds a flaming mace.",
+        ],
+      ],
+      lore: [
+        [
+          'The first uridimmus were illegitimate children of a demon lord and an unknown chaos entity, defeated by a powerful god of law, and they then chose to serve that god as guardians of his realm. Their tainted origin shows in the chaotic fire, lightning and radiance clinging to their mace heads. They are tireless guardians, mostly of portals into lawful planes, and some act as bodyguards or lead lesser celestials in battle. They are merciless and will make examples of trespassers, which causes friction with other angels.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Uridimmu (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/uridimmu/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -21173,6 +22495,25 @@ export default createPublicationMonsters({
       name: 'Valkruung',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Goblin'],
+      appearance: [
+        [
+          'A simian creature only a few feet tall with charcoal skin and glowing eyes, almost every inch of it covered in thin blue-grey tendrils. It smells faintly of burnt honey.',
+        ],
+      ],
+      lore: [
+        [
+          "Valkruungs are incorrigible thieves that lurk on roofs and in trees and steal anything that glitters, jangles or smells nice, whatever its worth, then refuse to give it back. The loot piles up in a shrine-like heap in the nest, often around a statue or altar, and they attack anyone who tries to take something from it. They live in groups of ten to twenty that share childcare, and the young ride on adults' backs, held safe by the tendrils.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Valkruung (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/valkruung/',
+          },
+        ],
+      ],
+      habitats: ['Urban', 'Forest'],
       stats: {
         size: 'tiny',
         type: 'monstrosity',
@@ -21251,6 +22592,25 @@ export default createPublicationMonsters({
       name: 'Vallowex',
       alignment: 'chaotic neutral',
       languages: [],
+      appearance: [
+        [
+          'A creature on two legs with a flat tail emerges from the water, opening a wide mouth to show a spiked tongue.',
+        ],
+      ],
+      lore: [
+        [
+          "A vallowex haunts woodland rivers and lures prey with an aura that makes them thirsty. When a creature stops to drink it attacks and drags the victim into the water to feed. It breeds by releasing eggs into drinkable water: a swallowed egg hatches a tadpole in the drinker's stomach that eats the host from within and emerges as a vallowex when the host dies.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Vallowex (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/vallowex/',
+          },
+        ],
+      ],
+      habitats: ['River', 'Forest'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -21434,6 +22794,24 @@ export default createPublicationMonsters({
       name: 'Vangsluagh',
       alignment: 'chaotic evil',
       languages: ['Void Speech'],
+      appearance: [
+        [
+          'A writhing mass of hundreds of rubbery blue-grey tentacles rises from a human-sized pair of legs ending in elephantine feet. Every tentacle ends in an eerily human mouth.',
+        ],
+      ],
+      lore: [
+        [
+          'Vangsluagh make a din wherever they go, as the mouths scream, whistle, bleat, growl and cry, and this betrays them even when they want a quiet ambush. They despise pretty things, whether creatures, objects or buildings, and would rather smash beauty to bits. When nothing beautiful is left they are not always calmed and turn on living creatures first. Stories from their magic-blasted homeland say some can silence the noise around them.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Vangsluagh (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/vangsluagh/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -21557,6 +22935,25 @@ export default createPublicationMonsters({
       name: 'Vent Linnorm',
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'An immense, sleek reptile soars through the water, its powerful tail undulating rhythmically.',
+        ],
+      ],
+      lore: [
+        [
+          'Vent linnorms live near hydrothermal fissures in the deepest parts of the ocean. When not hunting they bask in their lairs in the dark, warm water. They are proficient hunters whose prey includes sharks, whales and giant squid.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Vent Linnorm (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/vent-linnorm/',
+          },
+        ],
+      ],
+      habitats: ['Deep ocean'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -21711,6 +23108,20 @@ export default createPublicationMonsters({
       name: 'Veteran Swordbreaker Skeleton',
       alignment: 'lawful evil',
       languages: ["understands all languages it knew in life but can't speak"],
+      appearance: [['A skeleton whose bones have fossilised and turned stony.']],
+      lore: [
+        [
+          'These undead are raised from remains that have fossilised, so they are tougher than ordinary animated skeletons. Most weapons shatter against the stony bones, but the same fossilisation leaves them more vulnerable to magic that harms stone and to concussive bursts of sound.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Veteran Swordbreaker Skeleton (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/veteran-swordbreaker-skeleton/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -21791,6 +23202,25 @@ export default createPublicationMonsters({
       name: 'Vexxeh',
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [
+        [
+          'A bestial creature that would stand over fifteen feet tall if upright, but crouches with its knuckles on the ground. It wears a vest and trousers plainly made for someone far smaller, and its cunning eyes show a malignant intelligence.',
+        ],
+      ],
+      lore: [
+        [
+          "Vexxeh are natives of the Hells, though not devils, and are susceptible to magical domination, so evil spellcasters make them lieutenants. Once one agrees to serve it keeps to the letter of the deal, even on pain of destruction. It enjoys harming living creatures, above all torturing mortals for no purpose. It is unfailingly polite, copying its master's etiquette and even noble mannerisms, and sounds regretful and apologetic while tearing someone apart.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Vexxeh (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/vexxeh/',
+          },
+        ],
+      ],
+      habitats: ['The Hells'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -21885,6 +23315,25 @@ export default createPublicationMonsters({
       name: 'Vine Drake',
       alignment: 'neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A draconic creature whose wings are grasping vines, with nettle-like teeth, a tail that branches like a plant and long thorns down its head and spine.',
+        ],
+      ],
+      lore: [
+        [
+          'A vine drake hides in its swampy home among its own vines and squeezes the life from prey, and its fangs drip venom that causes a severe rash. It prefers deer and game but will eat humanoids when hungry, and can barely live on sunlight if it basks. It shakes down travellers for green treasure such as emeralds, hidden in its vines, by seizing someone and threatening to strangle them. It backs off into the undergrowth if badly hurt or outmatched. Unlike most dragons it cannot fly.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Vine Drake (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/vine-drake/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -22046,6 +23495,25 @@ export default createPublicationMonsters({
       name: 'Walled Horror',
       alignment: 'chaotic evil',
       languages: ["understands all languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'It looks like an ordinary stretch of wall, until an unnatural, cloying chill fills the air and many ghostly hands burst out to pummel and grab.',
+        ],
+      ],
+      lore: [
+        [
+          'A walled horror is made when a group of humanoids is bound and entombed behind a wall where necrotic energy is strong. They die of thirst or suffocation in terror, and their spirits merge with the wall and then hunt to add others to the collection. Their bodies and belongings stay in the cavity behind, and when the horror is destroyed it collapses into rubble that reveals them.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Walled Horror (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/walled-horror/',
+          },
+        ],
+      ],
+      habitats: ['Dungeons'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -22206,6 +23674,25 @@ export default createPublicationMonsters({
       name: 'Wanyudo',
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [
+        [
+          'A giant wheel hurtles along the street, its spokes tipped with sputtering red flame. Devilish faces are fixed to either side by long strands of greasy black hair, their eyes ablaze, laughing and crying as fire leaps from their mouths.',
+        ],
+      ],
+      lore: [
+        [
+          'Wanyudos are the souls of powerful lords damned to burn after they denied the gods and then died in battle or by their own hand. They are proud, violent, minor fiends who resent their low rank in Hell. They hate all the living but most of all anyone marked by a divine power, such as clerics, paladins and holy-symbol wearers, and try to burn any temple or monastery they pass. Sites in affected areas fireproof their buildings and keep water close. Wanyudos roll endlessly along the roads between the Hells and the mortal world and know many secret ways into the planes.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Wanyudo (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/wanyudo/',
+          },
+        ],
+      ],
+      habitats: ['Roads'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -22429,6 +23916,25 @@ export default createPublicationMonsters({
       name: 'Werynax',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A giant scaled stoat with savage tusks at the corners of its mouth and diaphanous, mothlike wings that glow with every colour of the spectrum.',
+        ],
+      ],
+      lore: [
+        [
+          "A werynax is a fierce predator that also feeds on the magical energy of the natural world, sometimes disrupting plant growth, water cycles and weather. It is solitary, but females protect litters of up to a dozen with great ferocity. Sages disagree about why it exists: an insane lich's or fey lord's experiment, divine punishment for misusing the land, or part of nature's cycle, as many druids hold.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Werynax (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/werynax/',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Grassland'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -22653,6 +24159,25 @@ export default createPublicationMonsters({
       name: 'Wintergrim',
       alignment: 'chaotic good',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'A squat creature bundled in furs, almost as wide as it is tall, with a large nose poking out and gentle, shining eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'A wintergrim is a solitary fey that builds its home somewhere remote and patrols nearby, watching for creatures in trouble or in need of shelter. It offers lodging, spare furs and warm soups and drinks, and rushes to help anyone in immediate peril. Each has its own taboos inside its home, from keeping boots on to not attacking a fellow guest, and breaking one is so abhorrent to it that it will not even discuss them. It ignores transgressions outside its home, perhaps with a cryptic warning, and demands that rulebreakers leave at once.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Wintergrim (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/wintergrim/',
+          },
+        ],
+      ],
+      habitats: ['Remote cold lands'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -22961,6 +24486,25 @@ export default createPublicationMonsters({
       name: 'Young Imperial Dragon',
       alignment: 'neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A long, wingless, serpentine dragon with shimmering opalescent scales, both serene and majestic.',
+        ],
+      ],
+      lore: [
+        [
+          'Imperial dragons are tied to the worlds of celestials, fiends and spirits and parley freely with them for knowledge of the outer planes, and some serve gods as go-betweens. They can change colour and form, and are usually rich golden-yellow, though azure, jade, vermilion, white and black ones are reported. A magical organ in the skull lets them fly without wings, and hunters seek it because rumour says eating it grants eternal life. They love the seas where they live and may guard sacred sites near or under the waves.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Young Imperial Dragon (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/young-imperial-dragon/',
+          },
+        ],
+      ],
+      habitats: ['Sea'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -23061,6 +24605,24 @@ export default createPublicationMonsters({
       name: 'Yowler',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'A small house cat purrs and twitches its tail, then lets out a blood-curdling yowl and arches its back. An illusion falls away to show a rotting undead cat with glowing green eyes, long teeth and knife-like claws.',
+        ],
+      ],
+      lore: [
+        [
+          'Yowlers are undead house pets and familiars with a score to settle and a hatred of the living. Many were mistreated in life by terrible masters.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Yowler (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/yowler/',
+          },
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -23172,6 +24734,24 @@ export default createPublicationMonsters({
       name: 'Yumerai',
       alignment: 'neutral',
       languages: ['all', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A slender, silvery-skinned creature moves delicately, as though unsure the world is real, with star-like motes of white light dancing in its black eyes.',
+        ],
+      ],
+      lore: [
+        [
+          "Yumerai are fey said to be born from the dreams of an ancient primeval being, and they walk in both the waking and dreaming worlds. They cannot sleep or dream themselves and think dreaming a gift. A yumerai can enter someone's dream and use it to travel to another sleeper's dream, so a shared dream may mean one passed through. They gather dream energy as currency in the fey realms, where it is used like paint or to make illusions. They struggle to tell dreams from reality.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Yumerai (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/yumerai/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -23265,6 +24845,24 @@ export default createPublicationMonsters({
       name: 'Zeitgeist',
       alignment: 'chaotic neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A mumbling humanoid alternates between bursts of speed and stillness, struggling to focus on the reality around it.',
+        ],
+      ],
+      lore: [
+        [
+          'Zeitgeists are humanoids warped by a misuse or accident of time magic, flitting between planes and timelines and never anchoring for long. They jump between racing around foes and barely keeping up, at random and outside their control, which can pull them forward mid-conversation or slow them when they try to flee. Most are unfocused at best and deranged at worst, though a moment of clarity may bring a brief chat or quiet stillness. They are not dead, and like ghosts may be tied to a place such as the site of the mishap or somewhere steeped in time or planar magic.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Zeitgeist (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/zeitgeist/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -23394,6 +24992,24 @@ export default createPublicationMonsters({
       name: 'Zouyu',
       alignment: 'chaotic good',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          "An elephant-sized feline with sleek fur, four upward-turned fangs and a long tail ending in several strands like a pheasant's.",
+        ],
+      ],
+      lore: [
+        [
+          "Zouyu live as mated pairs on large territories that overlap for mutual protection, and are gentle and social. Despite fangs and claws they eat fruit, bamboo leaves and insects, and need little food. They are seen as symbols of good luck: a tail feather freely given can be made into a potion that brings a day of minor good fortune, but one taken without the zouyu's knowledge brings a day of bad luck.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Zouyu (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/zouyu/',
+          },
+        ],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',

@@ -153,6 +153,17 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.curse_of_strahd],
       alignment: 'unaligned',
       languages: ['understands Common but can’t speak'],
+      appearance: [
+        [
+          'A bloated corpse in moldering clothes lurches into view, dragging one foot and raising broken hands, groaning from deep in its throat.',
+        ],
+      ],
+      lore: [
+        [
+          "Zombies are mindless dead raised by necromantic magic, and they are driven to kill anyone too slow to escape. They carry out their creator's orders without fear, take the most direct route to any foe and cannot grasp obstacles or tactics. Left without orders one stands and rots until something living comes along to kill.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 315'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
