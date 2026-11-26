@@ -54,6 +54,7 @@ export const AbilityTextToken = z.union([
   }),
   z.strictObject({ pb: z.literal(true) }),
   RuleRef,
+  entityRefOf('spell').describe('A spell from the library, e.g. `refs.spells.fireball`'),
 ])
 
 export type AbilityTextToken = z.infer<typeof AbilityTextToken>

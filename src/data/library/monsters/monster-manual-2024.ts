@@ -32,7 +32,7 @@ export default createPublicationMonsters({
             text: [
               'Cast one of these spells as an action. Wisdom is the spellcasting ability, with save ',
               { dc: 'wis' },
-              '. These spells need no material components.; At will. Elementalism, Gust of Wind, Mage Hand, Message.; 1/day. Lightning Bolt.',
+              '. These spells need no material components. At will. Elementalism, Gust of Wind, Mage Hand, Message. 1/day. Lightning Bolt.',
             ],
           },
           {
@@ -45,7 +45,9 @@ export default createPublicationMonsters({
               { ability: 'wind-staff' },
               ' attacks. The aarakocra can also use ',
               { ability: 'spellcasting' },
-              ' to cast Gust of Wind.',
+              ' to cast ',
+              refs.spells.gust_of_wind,
+              '.',
             ],
           },
           {
@@ -972,7 +974,9 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiBull',
             text: [
-              'The cloaker casts Mirror Image using Wisdom and no spell components. The spell ends early if the cloaker starts or ends its turn in Bright Light.',
+              'The cloaker casts ',
+              refs.spells.mirror_image,
+              ' using Wisdom and no spell components. The spell ends early if the cloaker starts or ends its turn in Bright Light.',
             ],
           },
         ],
@@ -1087,7 +1091,7 @@ export default createPublicationMonsters({
             text: [
               'Cast one listed spell as an action using Wisdom (spell save ',
               { dc: 'wis' },
-              ') and omitting Material components.; 2/day each. Arcane Eye, Detect Magic, Locate Object.; 1/day. Legend Lore.',
+              ') and omitting Material components. 2/day each. Arcane Eye, Detect Magic, Locate Object. 1/day. Legend Lore.',
             ],
           },
           {
@@ -1480,7 +1484,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Charisma (save ',
               { dc: 'cha' },
-              ') without material components.; At will. Dancing Lights, Mage Hand, Minor Illusion.; 1/day each. Hallucinatory Terrain, Polymorph.',
+              ') without material components. At will. Dancing Lights, Mage Hand, Minor Illusion. 1/day each. Hallucinatory Terrain, Polymorph.',
             ],
           },
           {
@@ -1556,7 +1560,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Charisma (save ',
               { dc: 'cha' },
-              ') without material components.; At will. Dancing Lights, Mage Hand, Minor Illusion.',
+              ') without material components. At will. Dancing Lights, Mage Hand, Minor Illusion.',
             ],
           },
           {
@@ -2119,7 +2123,7 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiWizardStaff',
             text: [
-              'As an action, cast one listed spell with Wisdom and without components.; At will. Detect Evil and Good, Detect Magic.; 1/day. Clairvoyance.',
+              'As an action, cast one listed spell with Wisdom and without components. At will. Detect Evil and Good, Detect Magic. 1/day. Clairvoyance.',
             ],
           },
           {
@@ -2512,9 +2516,9 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiWizardStaff',
             text: [
-              'As an action, cast one of the following spells using Wisdom, with no components.; At will. Mage Hand (the hand is ',
+              'As an action, cast one of the following spells using Wisdom, with no components. At will. Mage Hand (the hand is ',
               rules.invisible,
-              ').; 1/day. See Invisibility.',
+              '). 1/day. See Invisibility.',
             ],
           },
           {
@@ -2589,9 +2593,9 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Wisdom (spell save ',
               { dc: 'wis' },
-              '), with no components.; At will. Mage Hand (the hand is ',
+              '), with no components. At will. Mage Hand (the hand is ',
               rules.invisible,
-              ').; 1/day each. Phantasmal Killer (level 6), Plane Shift, and See Invisibility.',
+              '). 1/day each. Phantasmal Killer (level 6), Plane Shift, and See Invisibility.',
             ],
           },
           {
@@ -3906,7 +3910,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Wisdom (save ',
               { dc: 'wis' },
-              ') without Material components.; At will. Detect Magic, Thaumaturgy.; 1/day each. Destructive Wave, Divination, Hold Monster (level 6 version), Scrying, Tongues.',
+              ') without Material components. At will. Detect Magic, Thaumaturgy. 1/day each. Destructive Wave, Divination, Hold Monster (level 6 version), Scrying, Tongues.',
             ],
           },
           {
@@ -4649,7 +4653,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells without Material components. Wisdom is the spellcasting ability (save ',
               { dc: 'wis' },
-              ').; 1/day each. Cloudkill, Darkness, Dispel Magic.',
+              '). 1/day each. Cloudkill, Darkness, Dispel Magic.',
             ],
           },
           {
@@ -5756,7 +5760,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Charisma (save ',
               { dc: 'cha' },
-              ') without Material components.; At will. Dancing Lights, Druidcraft, and Invisibility (self only).; 1/day each. Detect Thoughts, Fly, and Sleep.',
+              ') without Material components. At will. Dancing Lights, Druidcraft, and Invisibility (self only). 1/day each. Detect Thoughts, Fly, and Sleep.',
             ],
           },
           {
@@ -5862,9 +5866,9 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell with Wisdom (save ',
               { dc: 'wis' },
-              '), requiring no spell components.; At will. Mage Hand (the hand is ',
+              '), requiring no spell components. At will. Mage Hand (the hand is ',
               rules.invisible,
-              '), Minor Illusion.; 2/day. Mind Spike.',
+              '), Minor Illusion. 2/day. Mind Spike.',
             ],
           },
           {
@@ -6031,7 +6035,9 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The revenant returns 24 hours after it dies unless someone casts Dispel Evil and Good on its corpse. It animates a different Humanoid corpse elsewhere on the same plane. Its appearance changes, and it returns at full HP using this stat block.',
+              'The revenant returns 24 hours after it dies unless someone casts ',
+              refs.spells.dispel_evil_and_good,
+              ' on its corpse. It animates a different Humanoid corpse elsewhere on the same plane. Its appearance changes, and it returns at full HP using this stat block.',
             ],
           },
           {
@@ -6414,7 +6420,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Intelligence (save ',
               { dc: 'int' },
-              '), without Somatic or Material components.; At will. Detect Magic, Mage Hand, Minor Illusion, Water Breathing.; 2/day each. Detect Thoughts, Dimension Door, Hold Person (level 3), Lightning Bolt (level 4).',
+              '), without Somatic or Material components. At will. Detect Magic, Mage Hand, Minor Illusion, Water Breathing. 2/day each. Detect Thoughts, Dimension Door, Hold Person (level 3), Lightning Bolt (level 4).',
             ],
           },
           {
@@ -6532,7 +6538,9 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiInvisible',
             text: [
-              'The sprite casts Invisibility on itself using Charisma. The spell requires no components.',
+              'The sprite casts ',
+              refs.spells.invisibility,
+              ' on itself using Charisma. The spell requires no components.',
             ],
           },
         ],
@@ -7347,7 +7355,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell using Charisma, save ',
               { dc: 'cha' },
-              '. The spells need no material components.; At will. Detect Thoughts, Gaseous Form (self only), and Web.; 1/day. Dominate Person.',
+              '. The spells need no material components. At will. Detect Thoughts, Gaseous Form (self only), and Web. 1/day. Dominate Person.',
             ],
           },
           {
@@ -7392,7 +7400,11 @@ export default createPublicationMonsters({
             text: [
               'Make two ',
               { ability: 'caustic-lash' },
-              ' attacks. The yochlol can also cast Web or Dominate Person using ',
+              ' attacks. The yochlol can also cast ',
+              refs.spells.web,
+              ' or ',
+              refs.spells.dominate_person,
+              ' using ',
               { ability: 'spellcasting' },
               ' if that spell is available.',
             ],

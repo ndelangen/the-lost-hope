@@ -55,6 +55,7 @@ def tokens(parts):
   out=[]
   for t in parts:
     if isinstance(t,str): out.append(js(t))
+    elif 'spell' in t: out.append('refs.spells.'+t['spell'])
     elif 'toHit' in t: out.append('{ toHit: '+js(t['toHit'])+' }')
     elif 'dc' in t: out.append('{ dc: '+js(t['dc'])+(', save: '+js(t['save']) if 'save' in t else '')+(', printed: '+str(t['printed']) if 'printed' in t else '')+' }')
     elif 'ability' in t: out.append('{ ability: '+js(t['ability'])+' }')

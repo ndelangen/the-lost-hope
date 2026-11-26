@@ -33,6 +33,7 @@ const IDENTIFIER = /^[A-Za-z_$][\w$]*$/
 export const REFERENCE_SOURCE_PATHS = [
   ENTITY_KINDS_PATH,
   path.join(LIBRARY_PATH, 'publications.ts'),
+  path.join(LIBRARY_PATH, 'spells.ts'),
   ...readdirSync(path.join(LIBRARY_PATH, 'monsters'))
     .filter((file) => file.endsWith('.ts'))
     .map((file) => path.join(LIBRARY_PATH, 'monsters', file)),
@@ -171,6 +172,7 @@ export async function generatedLibrarySource(): Promise<string> {
   for (const file of files)
     for (const key of libraryKeys(await readFile(path.join(monsterDir, file), 'utf8'), '    '))
       monsters.add(key)
+  const spells = libraryKeys(await readFile(path.join(LIBRARY_PATH, 'spells.ts'), 'utf8'), '  ')
   const namespace = (kind: string, plural: string, keys: Iterable<string>) =>
     `  ${plural}: {\n${[...keys]
       .toSorted()
@@ -188,10 +190,12 @@ function ref<K extends LibraryKind>(kind: K, key: string): EntityRef<K> {
 export const refs = {
 ${namespace('publication', 'publications', publications)}
 ${namespace('monster', 'monsters', monsters)}
+${namespace('spell', 'spells', spells)}
 } as const
 
 export type PublicationKey = keyof typeof refs.publications
 export type MonsterKey = keyof typeof refs.monsters
+export type SpellKey = keyof typeof refs.spells
 `
 }
 

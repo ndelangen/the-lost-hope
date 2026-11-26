@@ -241,7 +241,7 @@ export default createPublicationMonsters({
             text: [
               'Use Intelligence (spell save ',
               { dc: 'dex' },
-              '). These spells require no material components.; At will. Speak with Dead.; 1/day. Plane Shift (self only).',
+              '). These spells require no material components. At will. Speak with Dead. 1/day. Plane Shift (self only).',
             ],
           },
           {
@@ -706,7 +706,7 @@ export default createPublicationMonsters({
             text: [
               'The hydroloth casts with Intelligence (spell save ',
               { dc: 'int' },
-              ') without material components.; At will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only), Water Walk.; 3/day each. Control Water, Crown of Madness, Fear, Phantasmal Killer, Suggestion.',
+              ') without material components. At will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only), Water Walk. 3/day each. Control Water, Crown of Madness, Fear, Phantasmal Killer, Suggestion.',
             ],
           },
           {

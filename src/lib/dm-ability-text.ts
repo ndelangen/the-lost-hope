@@ -1,3 +1,4 @@
+import type { EntityRef } from '#/definitions/kind'
 import type { AbilityTextToken } from '#/definitions/stat-block'
 
 import type { DmStep } from './ability-steps'
@@ -42,6 +43,7 @@ export type AbilityTextSegment =
   | { kind: 'ability'; key: string; name: string; summary?: readonly StatPart[] }
   | { kind: 'number'; value: string; note: string }
   | { kind: 'rule'; rule: RuleRef; label: string }
+  | { kind: 'spell'; spell: EntityRef<'spell'> }
 
 export function formatFeet(feet: number) {
   const whole = Math.floor(feet)
@@ -65,6 +67,7 @@ function segmentFor(
   if (typeof token === 'string') return { kind: 'text', text: token }
 
   if ('ref' in token) {
+    if (token.ref === 'spell') return { kind: 'spell', spell: token }
     return { kind: 'rule', rule: token, label: termLabel(ruleOf(token), textBefore) }
   }
 
@@ -151,6 +154,8 @@ export function plainAbilityText(segments: readonly AbilityTextSegment[]) {
             : segment.name
         case 'rule':
           return segment.label
+        case 'spell':
+          return segment.spell.key.replaceAll('_', ' ')
       }
     })
     .join('')

@@ -32,7 +32,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiWizardStaff',
             text: [
-              'Charisma sets the spell save DC at 14. These spells require no material components.; 3/day each. Cure Wounds, Charm Person, Sleep.; 1/day each. Calm Emotions, Lesser Restoration, Plant Growth.',
+              'Charisma sets the spell save DC at 14. These spells require no material components. 3/day each. Cure Wounds, Charm Person, Sleep. 1/day each. Calm Emotions, Lesser Restoration, Plant Growth.',
             ],
           },
           {
@@ -403,7 +403,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiWizardStaff',
             text: [
-              'Charisma grants +6 to spell attacks. These spells require no material components.; At will. Chill Touch, Gentle Repose.',
+              'Charisma grants +6 to spell attacks. These spells require no material components. At will. Chill Touch, Gentle Repose.',
             ],
           },
           {
@@ -502,7 +502,7 @@ export default createPublicationMonsters({
             text: [
               'Wisdom sets spell save ',
               { dc: 'con' },
-              '. These spells require no material components.; 1/day each. Banishment, Detect Evil and Good.',
+              '. These spells require no material components. 1/day each. Banishment, Detect Evil and Good.',
             ],
           },
           {
@@ -712,7 +712,7 @@ export default createPublicationMonsters({
             text: [
               'Charisma sets spell save ',
               { dc: 'cha' },
-              '. These spells require no material components.; At will. Minor Illusion.; 3/day. Phantasmal Force.; 1/day each. Fly, Hypnotic Pattern.',
+              '. These spells require no material components. At will. Minor Illusion. 3/day. Phantasmal Force. 1/day each. Fly, Hypnotic Pattern.',
             ],
           },
           {
@@ -950,7 +950,7 @@ export default createPublicationMonsters({
             text: [
               'Wisdom is the spellcasting ability (save ',
               { dc: 'wis' },
-              '). The spells require no material components.; 1/day each. Fog Cloud, Gust of Wind.',
+              '). The spells require no material components. 1/day each. Fog Cloud, Gust of Wind.',
             ],
           },
           {

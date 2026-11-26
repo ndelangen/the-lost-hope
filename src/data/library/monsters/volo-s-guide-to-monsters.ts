@@ -533,7 +533,7 @@ export default createPublicationMonsters({
             text: [
               'Use Charisma (spell save ',
               { dc: 'wis' },
-              ') and omit material components.; At will. Darkness.; 1/day each. Confusion, Dancing Lights, Faerie Fire.',
+              ') and omit material components. At will. Darkness. 1/day each. Confusion, Dancing Lights, Faerie Fire.',
             ],
           },
           {
@@ -1341,7 +1341,7 @@ export default createPublicationMonsters({
             name: 'Veil of Shargaas (recharges on a short or long rest)',
             timing: 'action',
             icon: 'gi/GiBull',
-            text: ['The orc uses Wisdom to cast Darkness without components.'],
+            text: ['The orc uses Wisdom to cast ', refs.spells.darkness, ' without components.'],
           },
           {
             key: 'cunning-action',

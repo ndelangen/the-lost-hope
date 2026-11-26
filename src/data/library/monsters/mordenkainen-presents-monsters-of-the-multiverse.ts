@@ -287,7 +287,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Wisdom (spell save ',
               { dc: 'wis' },
-              '). No material components are required.; At will. Darkness, Dispel Magic, Fear, Heat Metal, Levitate.',
+              '). No material components are required. At will. Darkness, Dispel Magic, Fear, Heat Metal, Levitate.',
             ],
           },
           {
@@ -433,7 +433,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Intelligence (spell save ',
               { dc: 'int' },
-              ').; At will. Disguise Self, Mage Hand, Minor Illusion.; 2/day each. Charm Person, Dispel Magic, Greater Invisibility, Wall of Force.',
+              '). At will. Disguise Self, Mage Hand, Minor Illusion. 2/day each. Charm Person, Dispel Magic, Greater Invisibility, Wall of Force.',
             ],
           },
           {
@@ -1262,7 +1262,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Charisma (spell save ',
               { dc: 'cha' },
-              ').; At will. Detect Magic, Disguise Self, Mage Armor, Mage Hand.; 1/day each. Dispel Magic, Hunger of Hadar, Invisibility, Spider Climb.',
+              '). At will. Detect Magic, Disguise Self, Mage Armor, Mage Hand. 1/day each. Dispel Magic, Hunger of Hadar, Invisibility, Spider Climb.',
             ],
           },
           {
@@ -1353,7 +1353,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Charisma (spell save ',
               { dc: 'cha' },
-              ').; At will. Detect Magic, Disguise Self, Mage Armor, Minor Illusion.; 1/day each. Darkness, Dimension Door, Dispel Magic, Fly, Invisibility.',
+              '). At will. Detect Magic, Disguise Self, Mage Armor, Minor Illusion. 1/day each. Darkness, Dimension Door, Dispel Magic, Fly, Invisibility.',
             ],
           },
           {
@@ -1459,7 +1459,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one of the following spells using Charisma (spell save ',
               { dc: 'cha' },
-              ').; At will. Detect Magic, Disguise Self, Mage Armor.; 1/day each. Fear, Hold Person.',
+              '). At will. Detect Magic, Disguise Self, Mage Armor. 1/day each. Fear, Hold Person.',
             ],
           },
           {
@@ -1622,7 +1622,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one spell without material components using Charisma (spell save ',
               { dc: 'cha' },
-              ').; At will. Dancing Lights, Darkness.; 1/day each. Confusion, Faerie Fire.',
+              '). At will. Dancing Lights, Darkness. 1/day each. Confusion, Faerie Fire.',
             ],
           },
           {
@@ -2066,9 +2066,9 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell with no components, using Intelligence (spell save ',
               { dc: 'int' },
-              ').; At will. Mage Hand (',
+              '). At will. Mage Hand (',
               rules.invisible,
-              ' hand).; 3/day each. Blur, Nondetection (self only).; 1/day each. Plane Shift, Telekinesis.',
+              ' hand). 3/day each. Blur, Nondetection (self only). 1/day each. Plane Shift, Telekinesis.',
             ],
           },
           {
@@ -2156,9 +2156,9 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell with no components, using Wisdom (spell save ',
               { dc: 'wis' },
-              ').; At will. Mage Hand (',
+              '). At will. Mage Hand (',
               rules.invisible,
-              ' hand).; 3/day. See Invisibility.; 1/day each. Plane Shift, Teleport.',
+              ' hand). 3/day. See Invisibility. 1/day each. Plane Shift, Teleport.',
             ],
           },
           {
@@ -2840,7 +2840,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell using Intelligence (spell save ',
               { dc: 'int' },
-              ').; At will. Minor Illusion, Prestidigitation.; 1/day each. Charm Person, Disguise Self, Silent Image.',
+              '). At will. Minor Illusion, Prestidigitation. 1/day each. Charm Person, Disguise Self, Silent Image.',
             ],
           },
           {
@@ -2930,7 +2930,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell using Wisdom (spell save ',
               { dc: 'wis' },
-              "), without material components.; At will. Command, Create or Destroy Water.; 3/day each. Control Water, Darkness, Water Breathing, Water Walk.; 1/day. Evard's Black Tentacles.",
+              "), without material components. At will. Command, Create or Destroy Water. 3/day each. Control Water, Darkness, Water Breathing, Water Walk. 1/day. Evard's Black Tentacles.",
             ],
           },
           {
@@ -3210,7 +3210,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell using Intelligence (spell save ',
               { dc: 'int' },
-              ').; At will. Detect Magic, Mage Hand, Message, Minor Illusion.; 2/day each. Fireball, Fly, Hold Person, Suggestion, Wall of Fire.; 1/day each. Dominate Person, Etherealness, Feeblemind.',
+              '). At will. Detect Magic, Mage Hand, Message, Minor Illusion. 2/day each. Fireball, Fly, Hold Person, Suggestion, Wall of Fire. 1/day each. Dominate Person, Etherealness, Feeblemind.',
             ],
           },
           {
@@ -3532,7 +3532,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast one listed spell using Charisma (spell save ',
               { dc: 'cha' },
-              ').; At will. Guidance, Mage Hand, Minor Illusion, Prestidigitation.; 1/day each. Dimension Door, Hold Person, Hunger of Hadar.',
+              '). At will. Guidance, Mage Hand, Minor Illusion, Prestidigitation. 1/day each. Dimension Door, Hold Person, Hunger of Hadar.',
             ],
           },
           {
@@ -4138,7 +4138,7 @@ export default createPublicationMonsters({
             text: [
               'As an action, cast a listed spell using Charisma (spell save ',
               { dc: 'cha' },
-              '), without material components.; At will. Arcane Eye, Mage Armor, Minor Illusion, Prestidigitation, Speak with Dead.; 1/day each. Arcane Gate, Bane, Confusion, Darkness, Fear, Major Image, True Seeing.',
+              '), without material components. At will. Arcane Eye, Mage Armor, Minor Illusion, Prestidigitation, Speak with Dead. 1/day each. Arcane Gate, Bane, Confusion, Darkness, Fear, Major Image, True Seeing.',
             ],
           },
           {
@@ -4593,7 +4593,7 @@ export default createPublicationMonsters({
             text: [
               'Use an action to cast one listed spell. Wisdom is the spellcasting ability (spell save ',
               { dc: 'wis' },
-              ').; At will. Druidcraft, Guidance.; 2/day each. Cure Wounds, Hold Person, Speak with Animals, Thunderwave.',
+              '). At will. Druidcraft, Guidance. 2/day each. Cure Wounds, Hold Person, Speak with Animals, Thunderwave.',
             ],
           },
           {

@@ -69,3 +69,36 @@ export const createPublications = (input: Record<string, z.input<typeof Publicat
   Object.fromEntries(
     Object.entries(input).map(([key, value]) => [key, Publication.parse(value)]),
   ) as Record<string, Publication>
+
+export const SPELL_SCHOOLS = [
+  'abjuration',
+  'conjuration',
+  'divination',
+  'enchantment',
+  'evocation',
+  'illusion',
+  'necromancy',
+  'transmutation',
+] as const
+
+/** A spell as its publication prints it. Stat blocks name spells by ref, never by text. */
+export const Spell = z.strictObject({
+  name: z.string().trim().min(1),
+  level: z.number().int().min(0).max(9).describe('0 for a cantrip'),
+  school: z.enum(SPELL_SCHOOLS),
+  classes: z.array(z.string().trim().min(1)).min(1),
+  castingTime: z.string().trim().min(1).describe('As printed, e.g. `Action or Ritual`'),
+  range: z.string().trim().min(1),
+  components: z.string().trim().min(1).describe('As printed, e.g. `V, S, M (a feather)`'),
+  duration: z.string().trim().min(1),
+  text: Content,
+  publication: PublicationRef,
+})
+
+export type Spell = z.infer<typeof Spell>
+
+/** Every spell the library holds, by spell key. */
+export const createSpells = (input: Record<string, z.input<typeof Spell>>) =>
+  Object.fromEntries(
+    Object.entries(input).map(([key, value]) => [key, Spell.parse(value)]),
+  ) as Record<string, Spell>

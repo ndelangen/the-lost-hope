@@ -2,6 +2,7 @@ import { Play } from 'lucide-react'
 import { useId, useRef, useState, type ReactNode } from 'react'
 
 import { RuleTerm } from '#/components/rule-term'
+import { SpellTerm } from '#/components/spell-term'
 import { HoverPreview } from '#/components/ui/hover-preview'
 import {
   abilityTextSegments,
@@ -84,6 +85,8 @@ function Segment({
       )
     case 'rule':
       return <RuleTerm rule={segment.rule}>{segment.label}</RuleTerm>
+    case 'spell':
+      return <SpellTerm spell={segment.spell} />
     case 'ability':
       return <AbilityChip segment={segment} chip={chip} referenced={describe?.(segment.key)} />
   }

@@ -487,7 +487,9 @@ export function plainSteps(steps: readonly DmStep[]) {
               typeof token === 'string'
                 ? token
                 : 'ref' in token
-                  ? ruleOf(token).name.toLowerCase()
+                  ? token.ref === 'spell'
+                    ? token.key.replaceAll('_', ' ')
+                    : ruleOf(token).name.toLowerCase()
                   : '…',
             )
             .join('')

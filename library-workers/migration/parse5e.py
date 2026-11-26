@@ -111,6 +111,26 @@ def save_damage(m,scores,save_ab,issues,name):
   if avg(dice,bonus)!=int(m.group(1)): issues.append(f'{name}: save damage avg')
   return d
 CTX={'caster':None}
+# Spell names the library holds (src/data/library/spells.ts), longest first so "Greater
+# Invisibility" wins over "Invisibility".
+_SPELLS_TS=os.path.join(os.path.dirname(__file__),'..','..','src','data','library','spells.ts')
+SPELLS={}
+if os.path.exists(_SPELLS_TS):
+  src_=open(_SPELLS_TS,encoding='utf8').read()
+  for k_,n_ in re.findall(r"^  ([a-z0-9_]+): \{\n    name: ['\"](.+?)['\"],",src_,re.M): SPELLS[n_.lower()]=k_
+SPELL_RE=re.compile(r'\b('+'|'.join(re.escape(n) for n in sorted(SPELLS,key=len,reverse=True))+r')\b',re.I) if SPELLS else None
+def spell_tokens(text):
+  '''Spell names in a spell list (after the first colon) or right after "cast(s)" become spell refs.'''
+  if not SPELL_RE: return [text]
+  out=[]; pos=0
+  colon=text.find(':')
+  for m in SPELL_RE.finditer(text):
+    listed=colon>=0 and m.start()>colon
+    cast=re.search(r'\bcasts? (?:the )?(?:[A-Z][\w’\']*(?:,| or| and)? )*$',text[max(0,m.start()-60):m.start()]) is not None
+    if not (listed or cast): continue
+    out.append(text[pos:m.start()]); out.append({'spell':SPELLS[m.group(1).lower()]}); pos=m.end()
+  out.append(text[pos:])
+  return [x for x in out if x!='']
 CASTER=re.compile(r'(Intelligence|Wisdom|Charisma)\b[^.]{0,40}spellcasting ability|spellcasting ability (?:is )?(Intelligence|Wisdom|Charisma)|using (Intelligence|Wisdom|Charisma)\b')
 def caster_of(text):
   m=CASTER.search(text or '')
@@ -275,6 +295,8 @@ def finalize(block,scores,prof,issues):
     for t in toks:
       if isinstance(t,str) and merged and isinstance(merged[-1],str): merged[-1]+=t
       elif t!='': merged.append(t)
+    if 'spellcasting' in ab['name'].lower() or re.search(r'\bcasts? ',' '.join(x for x in merged if isinstance(x,str))):
+      merged=[y for x in merged for y in (spell_tokens(x) if isinstance(x,str) else [x])]
     ab['text']=merged
 def convert(r,p):
   issues=[]
@@ -386,7 +408,8 @@ def convert(r,p):
   for title in ['Spellcasting','Innate spellcasting']:
     lines=sec(p,title)
     if lines:
-      text='; '.join(x.strip().rstrip(';') for l in lines for x in l.split('\n') if x.strip())
+      parts=[x.strip().rstrip(';') for l in lines for x in l.split('\n') if x.strip()]
+      text=''.join(x+('' if i==len(parts)-1 else (' ' if x.endswith(('.',':')) else '; ')) for i,x in enumerate(parts))
       timing='action' if re.search(r'as (?:an|a Magic) action|Magic action',text,re.I) else 'trait'
       abilities.append({'name':title,'timing':timing,'text':[text]})
   for timing,title in [('trait','Traits'),('action','Actions'),('bonus action','Bonus actions'),('reaction','Reactions')]:

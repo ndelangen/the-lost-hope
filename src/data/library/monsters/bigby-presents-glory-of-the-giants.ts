@@ -743,7 +743,11 @@ export default createPublicationMonsters({
             name: 'Lynx’s Sight',
             timing: 'trait',
             icon: 'lucide/Eye',
-            text: ['The lynx casts Clairvoyance using Wisdom and needs no spell components.'],
+            text: [
+              'The lynx casts ',
+              refs.spells.clairvoyance,
+              ' using Wisdom and needs no spell components.',
+            ],
             uses: 1,
             recharge: 'Long rest',
           },

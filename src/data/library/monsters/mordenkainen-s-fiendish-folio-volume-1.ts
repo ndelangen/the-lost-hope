@@ -245,7 +245,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiWizardStaff',
             text: [
-              'Charisma, no material components.; At will · Detect Magic, Fog Cloud, Light.; 3/day each · Feather Fall, Misty Step.',
+              'Charisma, no material components. At will · Detect Magic, Fog Cloud, Light. 3/day each · Feather Fall, Misty Step.',
             ],
           },
           {
@@ -269,7 +269,13 @@ export default createPublicationMonsters({
             name: 'Multiattack',
             timing: 'action',
             icon: 'gi/GiPaw',
-            text: ['Make two ', { ability: 'greatsword' }, ' attacks and cast Fog Cloud.'],
+            text: [
+              'Make two ',
+              { ability: 'greatsword' },
+              ' attacks and cast ',
+              refs.spells.fog_cloud,
+              '.',
+            ],
           },
           {
             key: 'greatsword',

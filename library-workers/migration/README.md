@@ -29,3 +29,8 @@ bunx oxfmt src/data/library src/lib/published-library-catalog && bun run generat
 - `merge_beasts.py` folds the catalog's beasts into its monsters, so the library has one creature
   list filtered by creature type. A beast with a monster record gives it its printings, keeping one
   printing per publication. Old `/library/beasts/...` links redirect.
+- `columns.sh <pdf> <out.txt>` extracts a two-column PDF in reading order (each page's left column,
+  then its right), which plain `pdftotext` scrambles.
+- `spells_srd521.py <text> <out.json>` and `emit_spells.py <json>` build `src/data/library/spells.ts`
+  from the SRD 5.2.1 spell chapter. `parse5e.py` reads that file to turn spell names in spell lists
+  (and after "cast") into spell refs, so build the spells before converting creatures.
