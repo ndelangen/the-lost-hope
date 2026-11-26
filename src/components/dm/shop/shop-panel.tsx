@@ -2,7 +2,9 @@ import { Dices, Plus, Store, Trash2 } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 
 import { useDmMode } from '#/components/dm-mode'
+import { Input } from '#/components/ui/input'
 import { SearchInput } from '#/components/ui/search-input'
+import { Select } from '#/components/ui/select'
 import { equipmentNames } from '#/data/generated/equipment-names'
 import { magicItemNames } from '#/data/generated/magic-item-names'
 import type { Equipment, MagicItem } from '#/definitions/library'
@@ -30,8 +32,8 @@ import {
 } from '#/lib/shop'
 
 const buttonClass =
-  'inline-flex min-h-10 items-center justify-center gap-2 rounded-lg border px-4 text-sm font-semibold disabled:opacity-50'
-const fieldClass = 'border-border bg-background rounded-lg border px-3 py-2 text-sm'
+  'inline-flex h-10 items-center justify-center gap-2 rounded-lg border px-4 text-sm font-semibold disabled:opacity-50'
+const labelClass = 'text-muted-foreground text-xs font-semibold tracking-wider uppercase'
 
 /** The SRD 5.1 copy of an item that SRD 5.2.1 also prints, which a shop should not offer twice. */
 const isOlderCopy = (key: string) =>
@@ -46,6 +48,15 @@ function candidatesFrom(items: ReadonlyMap<string, MagicItem>): StockCandidate[]
       rarity: item.rarity,
       category: item.category,
     }))
+}
+
+/** The usual rarity colours, so a rare item stands out on a long shelf. */
+const RARITY_TONES: Readonly<Record<string, string>> = {
+  common: 'bg-muted text-muted-foreground',
+  uncommon: 'bg-emerald-600/15 text-emerald-700 dark:text-emerald-300',
+  rare: 'bg-sky-600/15 text-sky-700 dark:text-sky-300',
+  'very rare': 'bg-violet-600/15 text-violet-700 dark:text-violet-300',
+  legendary: 'bg-amber-500/20 text-amber-800 dark:text-amber-200',
 }
 
 const NAMES = { magicItem: magicItemNames, equipment: equipmentNames }
@@ -182,10 +193,9 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
 
       {editable ? (
         <div className="flex flex-wrap items-end gap-3">
-          <label className="grid gap-1 text-sm">
-            <span className="text-muted-foreground">Kind of shop</span>
-            <select
-              className={fieldClass}
+          <label className="grid w-52 gap-1.5">
+            <span className={labelClass}>Kind of shop</span>
+            <Select
               value={shown?.type ?? ''}
               onChange={(event) => {
                 const type = event.target.value as ShopType
@@ -198,12 +208,11 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
                   {SHOP_TYPE_LABELS[type]}
                 </option>
               ))}
-            </select>
+            </Select>
           </label>
-          <label className="grid gap-1 text-sm">
-            <span className="text-muted-foreground">Settlement</span>
-            <select
-              className={fieldClass}
+          <label className="grid w-36 gap-1.5">
+            <span className={labelClass}>Settlement</span>
+            <Select
               value={size}
               onChange={(event) => setSize(event.target.value as SettlementSize)}
             >
@@ -212,7 +221,7 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
                   {SETTLEMENT_SIZE_LABELS[option]}
                 </option>
               ))}
-            </select>
+            </Select>
           </label>
           <button
             type="button"
@@ -283,16 +292,26 @@ function StockTable({
             const view = describeStockLine(line, library ?? {}, NAMES)
             return (
               <tr key={lineKey(line)} className="border-border border-b last:border-0">
-                <td className="px-3 py-2 font-medium">
+                <td className="px-3 py-2.5 font-medium">
                   {view.name}
                   {view.category ? (
                     <span className="text-muted-foreground block text-xs">{view.category}</span>
                   ) : null}
                 </td>
-                <td className="px-3 py-2 capitalize">
-                  {line.item.ref === 'magicItem' ? (view.rarity ?? '…') : '—'}
-                </td>
                 <td className="px-3 py-2">
+                  {view.rarity ? (
+                    <span
+                      className={`rounded-full px-2 py-0.5 text-xs font-medium capitalize ${RARITY_TONES[view.rarity] ?? RARITY_TONES.common}`}
+                    >
+                      {view.rarity}
+                    </span>
+                  ) : line.item.ref === 'magicItem' ? (
+                    '…'
+                  ) : (
+                    <span className="text-muted-foreground text-xs">Mundane</span>
+                  )}
+                </td>
+                <td className="px-3 py-2 tabular-nums">
                   {view.price ? (
                     formatPrice(view.price)
                   ) : library ? (
@@ -306,11 +325,11 @@ function StockTable({
                 </td>
                 <td className="px-3 py-2">
                   {onChange ? (
-                    <input
+                    <Input
                       type="number"
                       min={1}
                       aria-label={`How many ${view.name}`}
-                      className={`${fieldClass} w-24`}
+                      className="h-8 w-20 tabular-nums"
                       placeholder="Plenty"
                       value={line.quantity ?? ''}
                       onChange={(event) => {
