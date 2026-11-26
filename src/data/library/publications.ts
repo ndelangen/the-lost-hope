@@ -274,12 +274,18 @@ export default createPublications({
   deep_magic: {
     name: 'Deep Magic for 5th Edition',
     publisher: 'Kobold Press',
+    year: 2020,
     ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice:
+      'Deep Magic for 5th Edition. © 2020 Open Design LLC; Authors: Dan Dillon, Chris Harris, and Jeff Lee.',
   },
   deep_magic_extended: {
     name: 'Deep Magic Extended',
     publisher: 'Kobold Press',
     ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice: 'Deep Magic Extended. © Open Design LLC d/b/a Kobold Press.',
   },
   fizban_s_treasury_of_dragons: {
     name: "Fizban's Treasury of Dragons",
@@ -324,6 +330,9 @@ export default createPublications({
     name: 'Kobold Press Compilation',
     publisher: 'Kobold Press',
     ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice:
+      'Kobold Press Compilation, as published by Open5e. © Open Design LLC d/b/a Kobold Press.',
   },
   monster_manual_2014: {
     name: 'Monster Manual',
@@ -434,13 +443,21 @@ export default createPublications({
   },
   spells_that_dont_suck: {
     name: "Spells That Don't Suck",
+    publisher: 'Somanyrobots',
+    year: 2025,
     ruleset: '5e-2014',
+    license: 'cc-by-4.0',
+    notice:
+      "Spells That Don't Suck by Ben Somers (somanyrobots) and Omega Ankh, licensed under the Creative Commons Attribution 4.0 International License.",
   },
   srd_5_1: {
     name: 'System Reference Document 5.1',
     publisher: 'Wizards of the Coast',
     year: 2016,
     ruleset: '5e-2014',
+    license: 'cc-by-4.0',
+    notice:
+      'This work includes material from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC, available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License.',
     pdf: 'D&D - 5th Edition (2014)/Rules/System Reference Document 5.1 (CC BY).pdf',
   },
   srd_5_2_1: {
@@ -448,6 +465,9 @@ export default createPublications({
     publisher: 'Wizards of the Coast',
     year: 2025,
     ruleset: '5e-2024',
+    license: 'cc-by-4.0',
+    notice:
+      'This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License.',
     pdf: 'D&D - 5th Edition (2024)/System Reference Document 5.2.1 (CC BY).pdf',
   },
   storm_king_s_thunder: {
@@ -474,7 +494,11 @@ export default createPublications({
   tome_of_heroes: {
     name: 'Tome of Heroes',
     publisher: 'Kobold Press',
+    year: 2022,
     ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice:
+      'Tome of Heroes. © 2022 Open Design LLC; Authors: Kelly Pawlik, Ben McFarland, and Brian Suskind.',
   },
   turn_of_fortune_s_wheel: {
     name: "Turn of Fortune's Wheel",
@@ -486,9 +510,12 @@ export default createPublications({
     ruleset: '5e-2014',
   },
   warlock_zine: {
-    name: 'Warlock Zine',
+    name: 'Warlock',
     publisher: 'Kobold Press',
+    year: 2017,
     ruleset: '5e-2014',
+    license: 'ogl-1.0a',
+    notice: 'Warlock. © 2017 Open Design LLC; Authors: Wolfgang Baur and others.',
   },
   where_evil_lives: {
     name: 'Where Evil Lives',

@@ -22,14 +22,25 @@ def icon(name,ab):
 # One key per monster across publications; renamed reprints use the current (2024) name.
 ALIASES={'giant_sea_horse':'giant_seahorse','sea_horse':'seahorse','giant_poisonous_snake':'giant_venomous_snake',
   'poisonous_snake':'venomous_snake','swarm_of_poisonous_snakes':'swarm_of_venomous_snakes','giant_rat_diseased':'diseased_giant_rat'}
+# The open licenses the library uses text under, with the notices they ask for (OGL Section 15).
+LICENSES={
+  'srd_5_1':('cc-by-4.0','This work includes material from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC, available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License.'),
+  'srd_5_2_1':('cc-by-4.0','This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License.'),
+  'deep_magic':('ogl-1.0a','Deep Magic for 5th Edition. © 2020 Open Design LLC; Authors: Dan Dillon, Chris Harris, and Jeff Lee.'),
+  'deep_magic_extended':('ogl-1.0a','Deep Magic Extended. © Open Design LLC d/b/a Kobold Press.'),
+  'tome_of_heroes':('ogl-1.0a','Tome of Heroes. © 2022 Open Design LLC; Authors: Kelly Pawlik, Ben McFarland, and Brian Suskind.'),
+  'kobold_press_compilation':('ogl-1.0a','Kobold Press Compilation, as published by Open5e. © Open Design LLC d/b/a Kobold Press.'),
+  'warlock_zine':('ogl-1.0a','Warlock. © 2017 Open Design LLC; Authors: Wolfgang Baur and others.'),
+  'spells_that_dont_suck':('cc-by-4.0',"Spells That Don't Suck by Ben Somers (somanyrobots) and Omega Ankh, licensed under the Creative Commons Attribution 4.0 International License."),
+}
 # Openly licensed spell books loaded from Open5e (spells_open5e.py).
 SPELL_PUBS={
-  'deep_magic':('deep_magic','Deep Magic for 5th Edition','Kobold Press',None,'5e-2014',None),
+  'deep_magic':('deep_magic','Deep Magic for 5th Edition','Kobold Press',2020,'5e-2014',None),
   'deep_magic_extended':('deep_magic_extended','Deep Magic Extended','Kobold Press',None,'5e-2014',None),
-  'tome_of_heroes':('tome_of_heroes','Tome of Heroes','Kobold Press',None,'5e-2014',None),
+  'tome_of_heroes':('tome_of_heroes','Tome of Heroes','Kobold Press',2022,'5e-2014',None),
   'kobold_press_compilation':('kobold_press_compilation','Kobold Press Compilation','Kobold Press',None,'5e-2014',None),
-  'warlock_zine':('warlock_zine','Warlock Zine','Kobold Press',None,'5e-2014',None),
-  'spells_that_dont_suck':('spells_that_dont_suck',"Spells That Don't Suck",None,None,'5e-2014',None),
+  'warlock_zine':('warlock_zine','Warlock','Kobold Press',2017,'5e-2014',None),
+  'spells_that_dont_suck':('spells_that_dont_suck',"Spells That Don't Suck",'Somanyrobots',2025,'5e-2014',None),
 }
 CORE=['monster_manual_2014','monster_manual_2024','srd_5_1','srd_5_2_1','basic_rules_2018']
 PUBLISHERS=['Wizards of the Coast','Kobold Press','MCDM','Ghostfire Gaming','Darrington Press','Hit Point Press','Green Ronin','Free League','Critical Role','Legendary Games','Mage Hand Press','Loot Tavern','Ghostfire']
@@ -249,6 +260,8 @@ def main():
     if pub: L.append(f'    publisher: {js(pub)},')
     if year: L.append(f'    year: {year},')
     L.append(f'    ruleset: {js(rs)},')
+    if pk in LICENSES:
+      L.append(f'    license: {js(LICENSES[pk][0])},'); L.append(f'    notice: {js(LICENSES[pk][1])},')
     if pdf: L.append(f'    pdf: {js(pdf)},')
     L.append('  },')
   L+=['})','']

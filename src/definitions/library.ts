@@ -15,6 +15,16 @@ export const Publication = z.strictObject({
   publisher: z.string().trim().min(1).optional().describe('Left out when the source does not say'),
   year: z.number().int().min(1974).optional().describe('Left out when the source does not say'),
   ruleset: z.enum(RULESETS),
+  license: z
+    .enum(['cc-by-4.0', 'ogl-1.0a'])
+    .optional()
+    .describe('The open license the library uses its text under; left out for summaries'),
+  notice: z
+    .string()
+    .trim()
+    .min(1)
+    .optional()
+    .describe('The attribution or OGL Section 15 notice the license asks us to show'),
   pdf: z
     .string()
     .regex(/\.pdf$/)

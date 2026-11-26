@@ -111,6 +111,9 @@ export function LibraryBrowse({
             </Link>
           )
         })}
+        <Link to="/library/spells" search={{ dm }} className={control}>
+          Spells
+        </Link>
       </nav>
       <search>
         <form
