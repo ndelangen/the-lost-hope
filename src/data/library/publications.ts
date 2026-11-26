@@ -1,6 +1,11 @@
 import { createPublications } from '#/definitions/library.ts'
 
 export default createPublications({
+  baldur_s_gate_descent_into_avernus: {
+    name: "Baldur's Gate: Descent Into Avernus",
+    year: 2014,
+    ruleset: '5e-2014',
+  },
   basic_rules_2018: {
     name: 'Basic Rules',
     publisher: 'Wizards of the Coast',
@@ -317,6 +322,10 @@ export default createPublications({
     name: 'Dragonlance: Shadow of the Dragon Queen',
     ruleset: '5e-2014',
   },
+  dungeons_of_drakkenheim: {
+    name: 'Dungeons of Drakkenheim',
+    ruleset: '5e-2014',
+  },
   eberron_rising_from_the_last_war: {
     name: 'Eberron: Rising from the Last War',
     ruleset: '5e-2014',
@@ -566,6 +575,10 @@ export default createPublications({
   the_lost_hope: {
     name: 'The Lost Hope',
     ruleset: '5e-2024',
+  },
+  the_lost_hope_dm_library: {
+    name: 'The Lost Hope DM Library',
+    ruleset: '5e-2014',
   },
   the_wild_beyond_the_witchlight: {
     name: 'The Wild Beyond the Witchlight',

@@ -216,6 +216,79 @@ export default createPublicationMonsters({
         ],
       },
     },
+    gnarlid: {
+      name: 'Gnarlid',
+      page: 319,
+      alignment: 'unaligned (enlarged state)',
+      languages: [],
+      habitats: ['forest', 'hill', 'arctic'],
+      appearance: [
+        [
+          'A shaggy quadruped with bear and wolverine features, backward-swept horns and low shoulder spines. It is about as big as a large dog before enlargement.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Zendikar rule: Green mana can enlarge the gnarlid. This stat block represents that enlarged state. If magic reduces its size, halve its hit point maximum and the damage dealt by its attacks. No action, timing or recharge for growth is specified.',
+        ],
+        [
+          'The fixed reduced hit point maximum is 17. Halve each attack’s damage separately, rounding down under the 2014 rule. The source supplies no separate reduced-size stat block.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 11,
+        armor: 'natural armor',
+        hitDice: '4d10',
+        speed: { walk: 40, climb: 30 },
+        scores: { str: 19, dex: 10, con: 16, int: 2, wis: 13, cha: 7 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-smell',
+            name: 'Keen Smell',
+            timing: 'trait',
+            icon: 'gi/GiNoseSide',
+            text: ['Gain advantage on Wisdom (Perception) checks based on smell.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['Make one ', { ability: 'bite' }, ' and one ', { ability: 'claws' }, ' attack.'],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'claws',
+            name: 'Claws',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     heartstabber_mosquito: {
       name: 'Heartstabber Mosquito',
       page: 284,

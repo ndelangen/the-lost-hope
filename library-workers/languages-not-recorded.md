@@ -2,15 +2,36 @@
 
 The library shows "Not recorded" for these. Fill them from the books when we have them.
 
+- Bigby Presents: Glory of the Giants: Giant Ram
 - Bigby Presents: Glory of the Giants: Gigant
 - Bigby Presents: Glory of the Giants: Regisaur
+- Dungeons of Drakkenheim: Haze Hulk
+- Dungeons of Drakkenheim: Lord of the Feast
+- Flee, Mortals!: Gnoll Abyssal Archer
+- Flee, Mortals!: Gnoll Abyssal Summoner
+- Flee, Mortals!: Gnoll Bonesplitter
+- Flee, Mortals!: Gnoll Cackler
+- Flee, Mortals!: Gnoll Marauder
+- Flee, Mortals!: Grilp
+- Flee, Mortals!: Halorin Yandres
+- Flee, Mortals!: Harpy (MCDM)
+- Flee, Mortals!: Hulking Brain
+- Flee, Mortals!: Human Knave
+- Flee, Mortals!: Human Scoundrel
+- Flee, Mortals!: Human Trickshot
+- Flee, Mortals!: Lizardfolk Bloodeye
+- Flee, Mortals!: Lizardfolk Scaletooth
+- Flee, Mortals!: Lizardfolk Terrorsaur
 - Ghosts of Saltmarsh: Fathomer
+- Humblewood Campaign Setting: Cervan Bandit General
+- Monster Manual (2014): Abominable Yeti
 - Monster Manual (2014): Cockatrice
 - Monster Manual (2014): Darkmantle
 - Monster Manual (2014): Deep Gnome (Svirfneblin)
 - Monster Manual (2014): Faerie Dragon (Younger)
 - Monster Manual (2014): Gibbering Mouther
 - Monster Manual (2014): Githyanki Warrior
+- Monster Manual (2014): Githzerai Zerth
 - Monster Manual (2014): Gnoll Fang of Yeenoghu
 - Monster Manual (2014): Gnoll Pack Lord
 - Monster Manual (2014): Goblin Boss
@@ -23,8 +44,11 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2024): Bulette Pup
 - Monster Manual (2024): Carrion Crawler
 - Monster Manual (2024): Cockatrice
+- Monster Manual (2024): Cockatrice Regent
+- Monster Manual (2024): Darkmantle
 - Monster Manual (2024): Ettercap
 - Monster Manual (2024): Flying Snake
+- Monster Manual (2024): Gelatinous Cube
 - Monster Manual (2024): Gibbering Mouther
 - Monster Manual (2024): Gorgon
 - Monster Manual (2024): Gray Ooze
@@ -46,7 +70,9 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2024): Wyvern
 - Mordenkainen Presents: Monsters of the Multiverse: Catoblepas
 - Mordenkainen Presents: Monsters of the Multiverse: Cave Fisher
+- Mordenkainen Presents: Monsters of the Multiverse: Giant Strider
 - Mordenkainen Presents: Monsters of the Multiverse: Girallon
+- Mordenkainen Presents: Monsters of the Multiverse: Leviathan
 - Mordenkainen Presents: Monsters of the Multiverse: Neogi Hatchling
 - Mordenkainen Presents: Monsters of the Multiverse: Oblex Spawn
 - Mordenkainen Presents: Monsters of the Multiverse: Phoenix
@@ -54,16 +80,34 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Plane Shift: Zendikar: Drake (Large)
 - Planescape: Adventures in the Multiverse: Pixie
 - Spelljammer: Adventures in Space: Brown Scavver
+- Spelljammer: Adventures in Space: Chwinga Astronaut
 - Spelljammer: Adventures in Space: Gray Scavver
 - Tal’Dorei Campaign Setting Reborn: Ashari Stoneguard
+- Tal’Dorei Campaign Setting Reborn: Ashari Waverider
+- Tal’Dorei Campaign Setting Reborn: Clasp Cutthroat
+- Tal’Dorei Campaign Setting Reborn: Clasp Enforcer
+- Tal’Dorei Campaign Setting Reborn: Jourrael, the Caedogeist
 - Tal’Dorei Campaign Setting Reborn: Wraithroot Tree
+- The Wild Beyond the Witchlight: Displacer Beast Kitten
+- The Wild Beyond the Witchlight: Glasswork Golem
 - The Wild Beyond the Witchlight: Gloam
 - The Wild Beyond the Witchlight: Pixie
+- Tomb of Annihilation: Clay Gladiator
 - Tomb of Annihilation: Mantrap
 - Tomb of Annihilation: Su-monster
 - Tomb of Annihilation: Tyrannosaurus Zombie
 - Volo's Guide to Monsters: Catoblepas
 - Volo's Guide to Monsters: Cave Fisher
+- Volo's Guide to Monsters: Froghemoth
 - Volo's Guide to Monsters: Hadrosaurus
 - Volo's Guide to Monsters: Stegosaurus
 - Volo's Guide to Monsters: Velociraptor
+- Waterdeep: Dragon Heist: Elzerina Cassalanter
+- Waterdeep: Dragon Heist: Jenks
+- Waterdeep: Dungeon of the Mad Mage: Haungharassk
+- Where Evil Lives: Gnoll Bonesplitter
+- Where Evil Lives: Grilp
+- Where Evil Lives: Hulking Brain
+- Where Evil Lives: Human Knave
+- Where Evil Lives: Human Scoundrel
+- Where Evil Lives: Human Trickshot

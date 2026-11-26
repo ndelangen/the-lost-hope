@@ -1,3 +1,4 @@
+import baldur_s_gate_descent_into_avernus from './baldur-s-gate-descent-into-avernus.ts'
 import basic_rules_2018 from './basic-rules-2018.ts'
 import bigby_presents_glory_of_the_giants from './bigby-presents-glory-of-the-giants.ts'
 import creature_codex from './creature-codex.ts'
@@ -47,6 +48,8 @@ import ddex3_13_writhing_in_the_dark from './ddex3-13-writhing-in-the-dark.ts'
 import ddex3_14_death_on_the_wall from './ddex3-14-death-on-the-wall.ts'
 import ddex3_15_szith_morcane_unbound from './ddex3-15-szith-morcane-unbound.ts'
 import ddex3_16_assault_on_maerimydra from './ddex3-16-assault-on-maerimydra.ts'
+import dungeons_of_drakkenheim from './dungeons-of-drakkenheim.ts'
+import explorer_s_guide_to_wildemount from './explorer-s-guide-to-wildemount.ts'
 import fizban_s_treasury_of_dragons from './fizban-s-treasury-of-dragons.ts'
 import flee_mortals_public_preview from './flee-mortals-public-preview.ts'
 import flee_mortals from './flee-mortals.ts'
@@ -84,6 +87,8 @@ import srd_5_1 from './srd-5-1.ts'
 import srd_5_2_1 from './srd-5-2-1.ts'
 import storm_king_s_thunder from './storm-king-s-thunder.ts'
 import tal_dorei_campaign_setting_reborn from './tal-dorei-campaign-setting-reborn.ts'
+import tales_from_the_yawning_portal from './tales-from-the-yawning-portal.ts'
+import the_lost_hope_dm_library from './the-lost-hope-dm-library.ts'
 import the_wild_beyond_the_witchlight from './the-wild-beyond-the-witchlight.ts'
 import tomb_of_annihilation from './tomb-of-annihilation.ts'
 import tome_of_beasts_2 from './tome-of-beasts-2.ts'
@@ -93,11 +98,13 @@ import tome_of_beasts from './tome-of-beasts.ts'
 import turn_of_fortune_s_wheel from './turn-of-fortune-s-wheel.ts'
 import van_richten_s_guide_to_ravenloft from './van-richten-s-guide-to-ravenloft.ts'
 import volo_s_guide_to_monsters from './volo-s-guide-to-monsters.ts'
+import waterdeep_dragon_heist from './waterdeep-dragon-heist.ts'
 import waterdeep_dungeon_of_the_mad_mage from './waterdeep-dungeon-of-the-mad-mage.ts'
 import where_evil_lives from './where-evil-lives.ts'
 
 /** Every publication whose monsters the library holds as typed data. */
 export default [
+  baldur_s_gate_descent_into_avernus,
   basic_rules_2018,
   bigby_presents_glory_of_the_giants,
   creature_codex,
@@ -147,6 +154,8 @@ export default [
   ddex3_14_death_on_the_wall,
   ddex3_15_szith_morcane_unbound,
   ddex3_16_assault_on_maerimydra,
+  dungeons_of_drakkenheim,
+  explorer_s_guide_to_wildemount,
   fizban_s_treasury_of_dragons,
   flee_mortals,
   flee_mortals_public_preview,
@@ -184,6 +193,8 @@ export default [
   srd_5_2_1,
   storm_king_s_thunder,
   tal_dorei_campaign_setting_reborn,
+  tales_from_the_yawning_portal,
+  the_lost_hope_dm_library,
   the_wild_beyond_the_witchlight,
   tomb_of_annihilation,
   tome_of_beasts,
@@ -193,6 +204,7 @@ export default [
   turn_of_fortune_s_wheel,
   van_richten_s_guide_to_ravenloft,
   volo_s_guide_to_monsters,
+  waterdeep_dragon_heist,
   waterdeep_dungeon_of_the_mad_mage,
   where_evil_lives,
 ]

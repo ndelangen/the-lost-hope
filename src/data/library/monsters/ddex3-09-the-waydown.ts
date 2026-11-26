@@ -7,6 +7,74 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddex3_09_the_waydown,
   monsters: {
+    guard_dog_wolf: {
+      name: 'Guard Dog (Wolf)',
+      page: 26,
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['Urban'],
+      appearance: [
+        ['A wolf-like guard dog with a thick gray-brown coat, upright ears, and a long muzzle.'],
+      ],
+      tableNotes: [
+        [
+          'Encounter notes: Eight guard dogs sleep in a cage. If roused, they bark and howl and draw two nearby Red Plume sergeants after five rounds. The Red Plumes also include a guard dog in each patrol.',
+        ],
+      ],
+      stats: {
+        size: 'medium',
+        type: 'beast',
+        cr: '1/4',
+        ac: 13,
+        armor: 'natural armor',
+        hitDice: '2d8',
+        speed: { walk: 40 },
+        scores: { str: 12, dex: 15, con: 12, int: 3, wis: 12, cha: 6 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-hearing-and-smell',
+            name: 'Keen Hearing and Smell',
+            timing: 'trait',
+            icon: 'gi/GiHumanEar',
+            text: [
+              'The guard dog has advantage on Wisdom (Perception) checks relying on hearing or smell.',
+            ],
+          },
+          {
+            key: 'pack-tactics',
+            name: 'Pack Tactics',
+            timing: 'trait',
+            icon: 'lucide/UsersRound',
+            text: [
+              'The guard dog has advantage when attacking a creature within 5 ft. of one of its allies, provided that ally is not ',
+              rules.incapacitated,
+              '.',
+            ],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '2d4', type: rules.piercing, addModifier: true }],
+            },
+            text: [
+              'If the target is a creature, it must succeed on a ',
+              { dc: 'str' },
+              ' Strength save or fall ',
+              rules.prone,
+              '.',
+            ],
+          },
+        ],
+      },
+    },
     red_plume_soldier_thug: {
       name: 'Red Plume Soldier (Thug)',
       tags: ['any race'],

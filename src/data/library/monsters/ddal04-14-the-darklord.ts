@@ -7,6 +7,85 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddal04_14_the_darklord,
   monsters: {
+    brown_bear: {
+      name: 'Brown Bear',
+      page: 30,
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['Barovia', 'Orașnou', 'Pine forest', 'Cave mouth'],
+      appearance: [
+        [
+          'A heavy brown bear with dense fur, a long muzzle, a broad shoulder hump and thick forepaws.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Encounter: For a Very Weak party, the brown bear replaces the giant ape in Vid’s fight. The beast obeys Vid and fights until it dies, when it becomes a giant stuffed toy. For a Very Strong party, add a brown bear alongside the giant ape and add 20 HP, +1 to hit and +5 damage to each of the three opponents. These adjustments do not stack.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 11,
+        armor: 'natural armor',
+        hitDice: '4d10',
+        speed: { walk: 40, climb: 30 },
+        scores: { str: 19, dex: 10, con: 16, int: 2, wis: 13, cha: 7 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-smell',
+            name: 'Keen Smell',
+            timing: 'trait',
+            icon: 'gi/GiNoseSide',
+            text: ['The bear has advantage on Wisdom (Perception) checks that rely on smell.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make one ',
+              { ability: 'bite' },
+              ' attack and one ',
+              { ability: 'claws' },
+              ' attack.',
+            ],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              printedBonus: 5,
+              damage: [{ dice: '8', type: rules.piercing }],
+            },
+            text: ['The printed dice expression is 1d8 + 8.'],
+          },
+          {
+            key: 'claws',
+            name: 'Claws',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              printedBonus: 5,
+              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     strahds_animated_armor: {
       name: "Strahd's Animated Armor",
       reprintedIn: [refs.publications.ddal04_09_the_tempter],
