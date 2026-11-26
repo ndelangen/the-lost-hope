@@ -117,6 +117,7 @@ export default createNPC({
         },
         uses: 1,
         recharge: 'Long rest',
+        effects: [],
       },
       {
         key: 'misty-step',

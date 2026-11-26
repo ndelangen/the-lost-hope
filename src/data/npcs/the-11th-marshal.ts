@@ -106,6 +106,7 @@ export default createNPC({
           refs.rules.charmed,
           ' at any distance.',
         ],
+        effects: [],
       },
       {
         key: 'mucus-cloud',
@@ -219,6 +220,7 @@ export default createNPC({
           refs.rules.grappled,
           '. If this drops a humanoid to 0 hit points, the aboleth takes its memories.',
         ],
+        effects: [],
       },
       {
         key: 'dominate-mind',
@@ -274,6 +276,7 @@ export default createNPC({
             { ability: 'consume-memories' },
             ' and regains 1d10 hit points.',
           ],
+          effects: [],
         },
       ],
     },

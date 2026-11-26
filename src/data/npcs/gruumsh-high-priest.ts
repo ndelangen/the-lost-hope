@@ -53,6 +53,7 @@ export default createNPC({
           refs.rules.grappled,
           ' up to 15 ft.',
         ],
+        effects: [],
       },
       {
         key: 'multiattack',

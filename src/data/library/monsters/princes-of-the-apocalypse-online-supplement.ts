@@ -111,6 +111,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'reckless',
@@ -218,6 +219,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disguise_self_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'war-pick',
@@ -518,6 +520,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite-jackal-or-hybrid-form-only',
@@ -815,6 +818,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['The water weird is ', rules.invisible, ' while fully immersed in water.'],
+            effects: [],
           },
           {
             key: 'water-bound',

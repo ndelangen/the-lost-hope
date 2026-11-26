@@ -35,6 +35,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               '. Cantrips at will · Druidcraft, Resistance. 1st level, 4 slots · Goodberry, Speak with Animals, Thunderwave. 2nd level, 2 slots · Hold Person, Spike Growth.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

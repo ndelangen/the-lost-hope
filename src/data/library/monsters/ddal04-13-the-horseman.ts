@@ -139,6 +139,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               '), targeting only beasts that have an Intelligence of 3 or lower  Speak with animals This ring is decorated with canid and raptor symbols. The wearer feels predatory urges and desires a diet of fresh meat. This item can be found in the Dungeon Master’s Guide.',
             ],
+            effects: [],
           },
         ],
       },

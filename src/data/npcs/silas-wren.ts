@@ -131,6 +131,7 @@ export default createNPC({
           { ability: 'pass-without-trace' },
           '.',
         ],
+        effects: [],
       },
       {
         key: 'hooked-blade',
@@ -160,6 +161,7 @@ export default createNPC({
             also: ['The target gains no benefit from ', refs.rules.cover, '.'],
           },
         },
+        effects: [],
       },
       {
         key: 'command',
@@ -247,6 +249,7 @@ export default createNPC({
         },
         uses: 1,
         recharge: 'Long rest',
+        effects: [],
       },
       {
         key: 'dispel-magic',
@@ -309,6 +312,7 @@ export default createNPC({
           { dc: 'wis' },
           '.',
         ],
+        effects: [],
       },
       {
         key: 'guidance',
@@ -348,6 +352,7 @@ export default createNPC({
           { dc: 'wis' },
           '.',
         ],
+        effects: [],
       },
       {
         key: 'spiritual-weapon',
@@ -410,6 +415,7 @@ export default createNPC({
         ],
         uses: 3,
         recharge: 'One on a short rest, all on a long rest',
+        effects: [],
       },
       {
         key: 'signal',

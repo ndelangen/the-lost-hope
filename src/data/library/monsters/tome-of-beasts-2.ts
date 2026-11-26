@@ -270,6 +270,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ['The akhlut can’t use its blindsight while ', rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -297,6 +298,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -736,6 +738,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -867,6 +870,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.protection_from_evil_and_good_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1275,6 +1279,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['While in dim light or darkness, the bleakheart is ', rules.invisible, '.'],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -1292,6 +1297,7 @@ export default createPublicationMonsters({
               refs.spells.disguise_self_srd_5_1,
               ' Silent Entry (3/Day). As a bonus action, the bleakheart can silently unlock a door within 10 feet of it that is held shut by a mundane lock. If a door has multiple locks, only one is unlocked per use of this trait.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-weakness',
@@ -1761,6 +1767,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -1869,6 +1876,7 @@ export default createPublicationMonsters({
               { ability: 'spores' },
               ' trait).',
             ],
+            effects: [],
           },
         ],
       },
@@ -2072,6 +2080,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'scimitar',
@@ -2094,6 +2103,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'shortbow',
@@ -2116,6 +2126,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -2245,6 +2256,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'void-weapons',
@@ -2365,6 +2377,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shortsword',
@@ -2441,6 +2454,7 @@ export default createPublicationMonsters({
               refs.spells.darkness_srd_5_1,
               ' and reappears in an unoccupied space it can see within 30 feet. A tendril of inky smoke appears at the origin and destination when it uses this trait.',
             ],
+            effects: [],
           },
           {
             key: 'traveler-in-darkness',
@@ -2629,6 +2643,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.enthrall_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -2819,6 +2834,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' (escape DC 14).',
             ],
+            effects: [],
           },
           {
             key: 'claw',
@@ -2895,6 +2911,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ', sapling-shaped sensor anywhere in its forest within 1 mile of it. It can see and hear everything within 60 feet of this sensor, but it is deaf and blind with regard to its own senses while doing so. The sensor lasts for 1 minute or until the ghillie dubh dismisses it (no action required).',
             ],
+            effects: [],
           },
           {
             key: 'speak-with-beasts-and-plants',
@@ -2930,6 +2947,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -2956,6 +2974,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ['The ghoul bat can’t use its blindsight while ', rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -3215,6 +3234,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' in this way.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3252,6 +3272,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the husk.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3350,6 +3371,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -3402,6 +3424,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'silent-hunters',
@@ -3553,6 +3576,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ", the greater ghast can automatically hit the target with its claws, and the greater ghast can't make claw attacks against other targets.",
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -3612,6 +3636,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -3706,6 +3731,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.zone_of_truth_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3795,6 +3821,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger-sensitivity',
@@ -4053,6 +4080,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or grow hostile. On its turn, a hostile creature must move to and make one attack against the nearest creature other than the herald. If no other creature is near enough to move to and attack, the hostile creature stalks off in a random direction, seeking a target for its hostility. At the start of each of the herald’s turn, it chooses whether this aura is active.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -4075,6 +4103,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.seeming_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',
@@ -4106,6 +4135,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ' Charisma saving throw or use its reaction to immediately move up to half its speed and make one melee attack against a random target within range.',
             ],
+            effects: [],
           },
           {
             key: 'enkindle-hate',
@@ -4224,6 +4254,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'gas-form',
@@ -4257,6 +4288,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' condition has disadvantage on saving throws against the disease or poison afflicting it. In addition, the hongaek can pinpoint the location of such creatures within 30 feet of it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4307,6 +4339,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4336,6 +4369,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fist',
@@ -4479,6 +4513,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4534,6 +4569,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be pushed up to 10 feet away from the kaveph.',
             ],
+            effects: [],
           },
           {
             key: 'rock',
@@ -4704,6 +4740,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -5126,6 +5163,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '. Whenever the manggus takes 15 or more damage in a single turn, one of its heads dies. If all its heads die and the manggus still lives, the manggus immediately reverts to its true form and can’t change into its hydra form again until it finishes a long rest. At the end of its turn, the manggus regrows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The manggus regains 5 hp for each head regrown in this way.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5199,6 +5237,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'siege-monster',
@@ -5287,6 +5326,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '. In addition, it has advantage on saving throws against spells and effects that would banish it from its current plane or that would bind it to a particular location or creature. The moonkite can grant this trait to anyone riding it.',
             ],
+            effects: [],
           },
           {
             key: 'flyby',
@@ -5562,6 +5602,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.pass_without_trace_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'mountain-walk',
@@ -5848,6 +5889,7 @@ export default createPublicationMonsters({
               '; 1/day each: ',
               refs.spells.fear_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magical-horn',
@@ -5876,6 +5918,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' creature with any weapon, the weapon deals an extra 1d6 psychic damage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5941,6 +5984,7 @@ export default createPublicationMonsters({
             text: [
               "The one-horned ogre directs the power of its horn at a target it can see within 30 feet of it. On a success, the target takes half the damage and doesn't suffer the condition. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
             ],
+            effects: [],
           },
         ],
       },
@@ -5978,6 +6022,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'reptile-foe',
@@ -6027,6 +6072,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -6280,6 +6326,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -6415,6 +6462,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw or the weapon sticks to the frog. A stuck weapon can’t be used. A creature can take its action to remove one creature or object from the frog by succeeding on a DC 12 Strength check. As a bonus action, the frog can release one creature or weapon stuck to it. The frog can’t be affected by another resinous frog’s Adhesive Skin.',
             ],
+            effects: [],
           },
           {
             key: 'detach-tongue',
@@ -6435,6 +6483,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -6595,6 +6644,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'talons',
@@ -6641,6 +6691,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'cha' },
               ' Charisma saving throw or suffer the curses it just removed.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6730,6 +6781,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'relentless-recharges-after-a-short-or-long-rest',
@@ -6813,6 +6865,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '. Alternatively, it can end its anger as a bonus action.',
             ],
+            effects: [],
           },
         ],
       },
@@ -7207,6 +7260,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.confusion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -7236,6 +7290,7 @@ export default createPublicationMonsters({
               { ability: 'tickle' },
               ' action. If a creature dies while suffering from the laughter, the shurale gains 15 temporary hp.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7867,6 +7922,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The target'],
+            effects: [],
           },
           {
             key: 'terrifying-display',
@@ -7992,6 +8048,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw or its armor is destroyed. A creature wearing magical armor has advantage on this saving throw. A creature wearing adamantine armor is unaffected.',
             ],
+            effects: [],
           },
           {
             key: 'wing-buffet',
@@ -8273,6 +8330,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               " Dexterity saving throw or its weapon is knocked out of its grasp into a random unoccupied space within 5 feet of the attacker. The valkruung can't use this reaction against attackers wielding a heavy or two-handed weapon.",
             ],
+            effects: [],
           },
         ],
       },
@@ -8395,6 +8453,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -8669,6 +8728,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.protection_from_poison_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'unique-rules',
@@ -8680,6 +8740,7 @@ export default createPublicationMonsters({
               { dc: 'int', printed: 12 },
               ' Intelligence (Investigation) or Wisdom (Insight) check can determine the wintergrim’s rules before enraging it.',
             ],
+            effects: [],
           },
           {
             key: 'fist',
@@ -8747,6 +8808,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.slow_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'water-breathing',
@@ -8982,6 +9044,7 @@ export default createPublicationMonsters({
               rules.stunned,
               ' until the end of its next turn.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -9008,6 +9071,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.major_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -9041,6 +9105,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'wis' },
               " Wisdom saving throw, awakening and ending the yumerai's control on a success. The yumerai can control only one sleeping creature at a time. If it takes control of another, the effect on the previous target ends.",
             ],
+            effects: [],
           },
         ],
       },

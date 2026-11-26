@@ -131,6 +131,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -551,6 +552,7 @@ export default createPublicationMonsters({
               refs.spells.detect_evil_and_good_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'evasion',
@@ -562,6 +564,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'unarmored-defense',
@@ -646,6 +649,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '. Failure by 5 or more petrifies the creature immediately. A lesser failure restrains it as it turns to stone. It repeats the save at the end of its next turn. Success ends the effect and failure petrifies it. Greater Restoration or other magic can end the petrification. A creature that is not surprised can avert its eyes at the start of its turn to avoid the save. It cannot see the medusa until its next turn starts and must make the save immediately if it looks before then. Seeing its reflection on a polished surface within 30 ft. in bright light subjects the medusa to its own gaze.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -777,6 +781,7 @@ export default createPublicationMonsters({
               refs.spells.hypnotic_pattern_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -791,6 +796,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['While fully submerged, the naiad is ', rules.invisible, '.'],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -951,6 +957,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1032,6 +1039,7 @@ export default createPublicationMonsters({
               refs.spells.gust_of_wind_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',

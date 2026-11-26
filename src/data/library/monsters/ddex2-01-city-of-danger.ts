@@ -242,6 +242,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it. City of Danger DM Appendix: NPC This section is provided to the Dungeon Master to help keep track of the various NPCs present in the adventure.',
             ],
+            effects: [],
           },
           {
             key: 'astrid-saj-saw',

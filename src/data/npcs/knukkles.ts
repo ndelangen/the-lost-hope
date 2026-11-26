@@ -80,6 +80,7 @@ export default createNPC({
           },
           ').',
         ],
+        effects: [],
       },
       {
         key: 'crush',
@@ -94,6 +95,7 @@ export default createNPC({
           refs.rules.bludgeoning,
           ' damage.',
         ],
+        effects: [],
       },
     ],
     source: {

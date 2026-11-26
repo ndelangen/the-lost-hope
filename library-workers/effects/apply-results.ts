@@ -24,6 +24,7 @@ import { CONDITION_KEYS } from '#/lib/rules'
 const root = join(import.meta.dirname, '../..')
 const args = process.argv.slice(2)
 const dry = args.includes('--dry')
+const recordSkips = args.includes('--record-skips')
 const inputs = args.filter((arg) => !arg.startsWith('--'))
 
 type Token = string | Record<string, unknown>
@@ -45,6 +46,7 @@ type Result = {
 const failures: { result: Result; problems: string[] }[] = []
 let applied = 0
 let skipped = 0
+let done = 0
 
 // --- Checks ---------------------------------------------------------------------------------------
 
@@ -248,6 +250,13 @@ function patch(source: string, result: Result) {
   return source.slice(0, open) + body + source.slice(close)
 }
 
+/** Mark an ability as checked with nothing lasting: `effects: []` at the end of its object. */
+function recordNothing(source: string, result: Result) {
+  const { open, close } = abilitySpan(source, result.creature, result.ability)
+  const body = source.slice(open, close)
+  return `${source.slice(0, open)}${body.slice(0, -1)}effects: [],\n}${source.slice(close)}`
+}
+
 /** In an ability's `save.onFail`, drop `conditions` and set `also`. */
 function patchFailure(body: string, also: string) {
   const at = body.indexOf('onFail: {')
@@ -288,7 +297,7 @@ for (const [file, fileResults] of byFile) {
   // Keys this run gives each creature, which the imported module doesn't know yet.
   const addedKeys = new Map<string | null, Set<string>>()
   for (const result of fileResults) {
-    if (result.skip) {
+    if (result.skip && !recordSkips) {
       skipped++
       continue
     }
@@ -303,6 +312,21 @@ for (const [file, fileResults] of byFile) {
     const ability = all.find((candidate: any) => candidate.key === result.ability)
     if (!ability) {
       failures.push({ result, problems: ['ability not found'] })
+      continue
+    }
+    // Written already, by an earlier run: leave it.
+    if (ability.effects) {
+      done++
+      continue
+    }
+    // A skip is recorded as `effects: []`: checked, it leaves nothing lasting.
+    if (result.skip) {
+      try {
+        source = recordNothing(source, result)
+        skipped++
+      } catch (error) {
+        failures.push({ result, problems: [String(error)] })
+      }
       continue
     }
     const added = addedKeys.get(result.creature) ?? new Set<string>()
@@ -340,6 +364,8 @@ for (const [file, fileResults] of byFile) {
   if (!dry) writeFileSync(path, source)
 }
 
-console.log(`${applied} applied, ${skipped} skipped, ${failures.length} failed`)
+console.log(
+  `${applied} applied, ${skipped} skipped, ${done} already written, ${failures.length} failed`,
+)
 for (const { result, problems } of failures)
   console.log(`- ${result.file} ${result.creature ?? ''} ${result.ability}: ${problems.join(' | ')}`)

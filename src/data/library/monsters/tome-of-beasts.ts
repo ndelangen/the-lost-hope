@@ -103,6 +103,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -385,6 +386,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.spike_growth_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -618,6 +620,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -663,6 +666,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -711,6 +715,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'savage-hunger',
@@ -796,6 +801,7 @@ export default createPublicationMonsters({
               { ability: 'smother' },
               ' against it as a bonus action.',
             ],
+            effects: [],
           },
           {
             key: 'claw',
@@ -1077,6 +1083,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wind_walk_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1368,6 +1375,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution saving throw.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1554,6 +1562,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.project_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2067,6 +2076,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.haste_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2126,6 +2136,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shatter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'wasteland-stride',
@@ -2146,6 +2157,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' (escape DC 14).',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -2314,6 +2326,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'slick-spittle',
@@ -2424,6 +2437,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' and can move no farther that turn.',
             ],
+            effects: [],
           },
           {
             key: 'siege-monster',
@@ -2595,6 +2609,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -2635,6 +2650,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hallucinatory_terrain_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'visionary-flesh',
@@ -2684,6 +2700,7 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'cha' },
               " Charisma saving throw:1- Seeing the Alternates: Suffers the effects of the confusion spell for 1d4 rounds2- Untied from the Loom: Character's speed is randomized for four rounds. Roll 3d20 at the start of each of the character's turns to determine his or her speed in feet that turn3- Shifting Memories: Permanently loses 2 from a random skill and gains 2 in a random untrained skill4- Not So Fast: Loses the use of one class ability, chosen at random5- Lost Potential: Loses 1 point from one randomly chosen ability score6- Took the Lesser Path: The character's current hit point total becomes his or her hit point maximum effects 3-6 are permanent until the character makes a successful Charisma saving throw. The saving throw is repeated after every long rest, but the DC increases by 1 after every long rest, as the character becomes more entrenched in this new destiny. Otherwise, these new fates can be undone by nothing short of a wish spell or comparable magic.",
             ],
+            effects: [],
           },
         ],
       },
@@ -2714,6 +2731,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' because of icy or snowy ground.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2972,6 +2990,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution saving throw.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3059,6 +3078,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 14 },
               ' Constitution saving throw.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3172,6 +3192,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' for 1 hour, even after regaining hit points.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3273,6 +3294,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.dominate_person_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -3312,6 +3334,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '. Variant: Demon Summoning. some kishi demons have an action option that allows them to summon other demons. summon Demon (1/Day): The kishi demon has a 35 percent chance of summoning one kishi demon',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3602,6 +3625,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hideous_laughter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'mimicry',
@@ -3784,6 +3808,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -3835,6 +3860,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw or lose an appendage. Roll on the following table for the result: 1-2: right hand 3-4: left hand 5-6: right food 7-8: left foot 9: right forearm 10: left forearm 11: right lower leg 12: left lower leg',
             ],
+            effects: [],
           },
         ],
       },
@@ -3872,6 +3898,7 @@ export default createPublicationMonsters({
               refs.spells.magic_missile_srd_5_1,
               ' through his or her sword at the same target.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -3964,6 +3991,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ' spellcasting check to maintain concentration if they spend any part of their turn inside the aura.',
             ],
+            effects: [],
           },
           {
             key: 'flyby',
@@ -4048,6 +4076,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               " by the mamura's claws, it takes another 1d6 poison damage at the start of each of its turns while the poisoning remains in effect.",
             ],
+            effects: [],
           },
         ],
       },
@@ -4260,6 +4289,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'running-leap',
@@ -4813,6 +4843,7 @@ export default createPublicationMonsters({
               rules.invisible,
               " while it's buried in swamp muck.",
             ],
+            effects: [],
           },
           {
             key: 'swamp-shamble',
@@ -5070,6 +5101,7 @@ export default createPublicationMonsters({
               ' 1/week: ',
               refs.spells.legend_lore_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -5753,6 +5785,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put it to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -5854,6 +5887,7 @@ export default createPublicationMonsters({
               refs.spells.darkvision_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -6058,6 +6092,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 15 },
               ' Constitution saving throw.',
             ],
+            effects: [],
           },
           {
             key: 'soul-drain',
@@ -6073,6 +6108,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' and stable with 0 hit points.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6710,6 +6746,7 @@ export default createPublicationMonsters({
               { dc: 'cha', printed: 13 },
               ' Charisma saving throw.',
             ],
+            effects: [],
           },
           {
             key: 'sew',
@@ -6814,6 +6851,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' condition. Poisonous and spoiled foodstuffs are common in a thursir lair.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6895,6 +6933,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'claws',
@@ -6949,6 +6988,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7224,6 +7264,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.remove_curse_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -7306,6 +7347,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -7574,6 +7616,7 @@ export default createPublicationMonsters({
               '; 2/day: ',
               refs.spells.hex,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -7705,6 +7748,7 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'con' },
               ' Constitution saving throw or contract the arcane wasting disease (see sidebar).',
             ],
+            effects: [],
           },
           {
             key: 'claw',
@@ -7855,6 +7899,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dwarven-resistance',
@@ -7873,6 +7918,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'reckless',
@@ -8052,6 +8098,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },

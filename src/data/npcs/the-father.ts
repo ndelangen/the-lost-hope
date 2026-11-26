@@ -134,6 +134,7 @@ export default createNPC({
           },
           '.',
         ],
+        effects: [],
       },
       {
         key: 'multiattack',
@@ -208,6 +209,7 @@ export default createNPC({
           refs.rules.invisible,
           ' until he attacks.',
         ],
+        effects: [],
       },
     ],
     source: {

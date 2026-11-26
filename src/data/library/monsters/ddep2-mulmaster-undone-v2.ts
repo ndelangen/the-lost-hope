@@ -563,6 +563,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['The water weird is ', rules.invisible, ' while fully immersed in water.'],
+            effects: [],
           },
           {
             key: 'water-bound',
@@ -648,6 +649,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'scimitar-printed-action',
@@ -751,6 +753,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' residents can be heard uttering oaths to their chosen deities for protection. As the rumbling reaches a crescendo one of the homes adjacent the Gate of Good Fortune emits a tremendous cracking noise followed by a spray of dust and masonry. The front of the home has collapsed! Striding past the choking dust is a rough looking man with the taint of orcish blood on his face, white enameled plate mail scarred with the signs of frequent battle and a silver bladed battle axe strapped to his back. "Be about it!” he bellows, pointing to the collapsed home, "Hear the cries of the innocent? To action fellows!" This striking fellow is Zern Xerkstil, the faction representative for the Order of the Gauntlet in the Moonsea region. He was in the midst of discussing some troubling information with the good priests of Tymora\'s house when the temblor struck.',
             ],
+            effects: [],
           },
         ],
       },

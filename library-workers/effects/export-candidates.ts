@@ -80,6 +80,7 @@ const scan = async (pattern: string, library: boolean) => {
 }
 
 await scan('src/data/beasts/*.ts', false)
+await scan('src/data/pcs/*.ts', false)
 await scan('src/data/npcs/*.ts', false)
 await scan('src/data/library/monsters/*.ts', true)
 

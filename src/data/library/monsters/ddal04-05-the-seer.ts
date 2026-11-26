@@ -42,6 +42,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '. ersonal use only.',
             ],
+            effects: [],
           },
         ],
       },

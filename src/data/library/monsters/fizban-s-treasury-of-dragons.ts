@@ -33,6 +33,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', reduce the distance used to calculate its falling damage by up to 100 ft.',
             ],
+            effects: [],
           },
           {
             key: 'death-throes',
@@ -209,6 +210,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '). At will.',
             ],
+            effects: [],
           },
           {
             key: 'dancing-lights',

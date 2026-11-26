@@ -33,6 +33,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put the drider to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -74,6 +75,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.faerie_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -161,6 +163,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put the drow to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -189,6 +192,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -573,6 +577,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },

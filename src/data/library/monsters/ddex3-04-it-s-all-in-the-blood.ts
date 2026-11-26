@@ -46,6 +46,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'reckless',
@@ -150,6 +151,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

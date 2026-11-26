@@ -14,6 +14,10 @@ Read `src/definitions/status-effect.ts` and `SpellEffect` in `src/definitions/li
 
 ## What counts as an effect
 
+An effect is a **reminder for later**: the tracker keeps it on the creature so the DM is reminded
+while it lasts. Anything that happens once and is over (damage, healing, a push, a forced move,
+a single roll) needs no reminder, so it is never an effect: skip it.
+
 Something that **lands on a creature the caster targets and lasts**: Hold Person's Paralyzed,
 Bane's −1d4, Bless's +1d4, Faerie Fire's outline, Slow, Hideous Laughter, Hex. It may help or
 harm.

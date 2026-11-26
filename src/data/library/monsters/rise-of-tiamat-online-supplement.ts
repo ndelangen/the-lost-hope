@@ -45,6 +45,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -316,6 +317,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.fear_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -444,6 +446,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',

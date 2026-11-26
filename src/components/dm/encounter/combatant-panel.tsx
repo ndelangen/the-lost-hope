@@ -3,15 +3,19 @@ import type { ReactNode } from 'react'
 
 import { RuleTerm } from '#/components/rule-term'
 import { refs } from '#/data/generated/refs'
+import type { Ability } from '#/definitions/stat-block'
 import { abilityIndex } from '#/lib/ability-index'
 import type { CombatantView } from '#/lib/dm-encounter'
 import { abilityKey, type LiveStats, type UseCount } from '#/lib/encounter'
+import type { AbilityId } from '#/lib/encounter-combat'
 import { cn } from '#/lib/utils'
 
 import { AbilityQuickList } from '../ability-quick-list'
 import { AbilityDetail } from './ability-controls'
 import { describeReferences } from './ability-text'
 import { AbilityEffect, type ApplyEffectActions } from './apply-effect'
+import type { CombatStatusActions } from './combat-status'
+import { ActionBar, type CombatantActsProps } from './combatant-acts'
 import { CombatantPlan } from './combatant-plan'
 import { useDensity } from './density'
 import { EditableNumber, HpControl } from './hp-control'
@@ -43,6 +47,7 @@ export function CombatantPanel({
   actions,
   status,
   applyEffects,
+  addStatus,
 }: {
   combatant: CombatantView
   isActive: boolean
@@ -54,6 +59,8 @@ export function CombatantPanel({
   status?: ReactNode
   /** Applying an open ability's effect to whoever it hits. */
   applyEffects?: ApplyEffectActions
+  /** Starting a condition or concentration by hand, from the panel's actions. */
+  addStatus?: Pick<CombatStatusActions, 'addCondition' | 'setConcentration'>
 }) {
   const focus = useDensity() === 'focus'
   const { stats, derived: block } = combatant
@@ -100,6 +107,13 @@ export function CombatantPanel({
         ) : null}
       </AbilityDetail>
     ) : null
+  const acts: CombatantActsProps = {
+    combatant,
+    onAdjustHp: combatant.tracked && live.hp !== undefined ? actions.adjustHp : undefined,
+    status: addStatus,
+    casterDc: spellSaveDc(abilities, block),
+    effects: applyEffects,
+  }
   return (
     <section
       aria-labelledby="combatant-heading"
@@ -116,7 +130,7 @@ export function CombatantPanel({
           </h2>
           {stats && block ? <StatBlockHeadline stats={stats} block={block} /> : null}
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center justify-end gap-2">
           {combatant.sheetUrl ? (
             <a
               href={combatant.sheetUrl}
@@ -164,15 +178,21 @@ export function CombatantPanel({
             live={live}
             onAdjust={actions.adjustHp}
             onSet={actions.setStat}
+            // The action bar holds damage and healing with everything else.
+            quickEntry={false}
           />
           <div className="flex flex-wrap items-center gap-3">
             <div
+              // As tall as the HP counter beside it, so both read at a glance.
               className={cn(
                 'border-border bg-card flex items-center gap-2 pr-1 pl-3',
-                focus ? 'h-12 rounded-xl border-2' : 'h-10 rounded-lg border',
+                focus ? 'h-14 rounded-xl border-2' : 'h-10 rounded-lg border',
               )}
             >
-              <Shield aria-hidden className="text-muted-foreground size-5" />
+              <Shield
+                aria-hidden
+                className={cn('text-muted-foreground', focus ? 'size-7' : 'size-5')}
+              />
               <span className="text-muted-foreground text-sm font-medium">
                 <RuleTerm rule={refs.rules.armor_class} />
               </span>
@@ -183,7 +203,7 @@ export function CombatantPanel({
                 onCommit={(value) => actions.setStat('ac', value)}
                 className={cn(
                   'font-bold tabular-nums',
-                  focus ? 'h-9 w-12 text-xl' : 'h-8 w-10 text-lg',
+                  focus ? 'h-11 w-16 text-3xl' : 'h-8 w-10 text-lg',
                 )}
               />
             </div>
@@ -193,8 +213,11 @@ export function CombatantPanel({
 
       {status}
 
+      {/* Keyed by combatant, so an open picker never follows the DM to another creature. */}
+      <ActionBar key={combatant.id} {...acts} />
+
       {abilities.length > 0 ? (
-        <div className="grid gap-3">
+        <div className="grid gap-2">
           <AbilityQuickList
             groups={quickGroups}
             current={open?.key}
@@ -217,4 +240,20 @@ export function CombatantPanel({
       ) : null}
     </section>
   )
+}
+
+/** The caster's spell save DC: the DC its spellcasting trait names, when it has one. */
+function spellSaveDc(
+  abilities: readonly Ability[],
+  block: CombatantView['derived'],
+): number | undefined {
+  const casting = abilities.find(
+    (ability) => ability.key === 'spellcasting' || /spellcasting|pact magic/i.test(ability.name),
+  )
+  const token = casting?.text.find(
+    (candidate): candidate is { dc: AbilityId; printed?: number } =>
+      typeof candidate === 'object' && 'dc' in candidate,
+  )
+  if (!token) return undefined
+  return token.printed ?? block?.saveDc[token.dc]
 }

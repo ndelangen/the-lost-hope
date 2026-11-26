@@ -95,6 +95,7 @@ export default createNPC({
           { ability: 'mislead' },
           '.',
         ],
+        effects: [],
       },
       {
         key: 'multiattack',
@@ -195,6 +196,7 @@ export default createNPC({
         },
         uses: 1,
         recharge: 'Long rest',
+        effects: [],
       },
       {
         key: 'detect-thoughts',
@@ -227,6 +229,7 @@ export default createNPC({
             ],
           },
         },
+        effects: [],
       },
       {
         key: 'silence',
@@ -246,6 +249,7 @@ export default createNPC({
         ],
         uses: 3,
         recharge: 'Long rest',
+        effects: [],
       },
       {
         key: 'vicious-mockery',
@@ -319,6 +323,7 @@ export default createNPC({
         ],
         uses: 1,
         recharge: 'Long rest',
+        effects: [],
       },
       {
         key: 'message',
@@ -343,6 +348,7 @@ export default createNPC({
           { dc: 'cha' },
           '.',
         ],
+        effects: [],
       },
       {
         key: 'comprehend-languages',

@@ -40,6 +40,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' and +4 to spell attacks. Cantrips · Friends, Mage Hand, Vicious Mockery. 1st (4 slots) · Charm Person, Healing Word, Heroism, Sleep, Thunderwave. 2nd (3 slots) · Invisibility, Shatter.',
             ],
+            effects: [],
           },
           {
             key: 'song-of-rest',
@@ -134,6 +135,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' and +4 to spell attacks. Both 3rd-level slots return after a short or long rest. Cantrips · Chill Touch, Eldritch Blast, Mage Hand. 1st–3rd (two 3rd-level slots) · Armor of Agathys, Expeditious Retreat, Hex, Invisibility, Vampiric Touch.',
             ],
+            effects: [],
           },
           {
             key: 'olhydra-s-armor-human-form-only',
@@ -157,6 +159,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '. It can stop in hostile creatures’ spaces and move through any opening water can cross without squeezing.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -170,6 +173,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'constrict-serpent-only',
@@ -351,6 +355,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               " and +5 to spell attacks. No material components. At will · Command, Create or Destroy Water. 3/day each · Control Water, Darkness, Water Breathing, Water Walk. 1/day each · Call Lightning, Evard's Black Tentacles.",
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -448,6 +453,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'swimming-leap',

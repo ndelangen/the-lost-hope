@@ -61,6 +61,7 @@ export default createSpells({
         'Higher stages include all the effects of lower stages. <table> <thead><tr> <th>Stage</th> <th>Condition</th> <th>Effects</th> </tr></thead> <tbody> <tr> <td>1</td> <td>Clear</td> <td>—</td> </tr> <tr> <td>2</td> <td>Light clouds</td> <td>—</td> </tr> <tr> <td>3</td> <td>Overcast or ground fog</td> <td>The area lacks sunlight, for effects or traits dependent on it.</td> </tr> <tr> <td>4</td> <td>Rain, hail, or snow</td> <td>Objects and creatures are lightly obscured more than 60 feet away.</td> </tr> <tr> <td>5</td> <td>Torrential rain, driving hail, or blizzard</td> <td>Objects and creatures are heavily obscured more than 30 feet away, and all terrain is difficult terrain.</td> </tr> </tbody> </table> <h5>Temperature</h5> Stage 1 includes the effects of stage 2, and stage 7 includes the effects of stage 6. <table> <thead><tr> <th>Stage</th> <th>Condition</th> <th>Effects</th> </tr></thead> <tbody> <tr> <td>1</td> <td>Unbearable heat</td> <td>All creatures must make a DC 10 Constitution saving throw every hour or suffer one level of exhaustion.</td> </tr> <tr> <td>2</td> <td>Hot</td> <td>All creatures suffer disadvantage on all Constitution saves except against weather effects.</td> </tr> <tr> <td>3</td> <td>Warm</td> <td>—</td> </tr> <tr> <td>4</td> <td>Pleasant</td> <td>—</td> </tr> <tr> <td>5</td> <td>Cool</td> <td>—</td> </tr> <tr> <td>6</td> <td>Cold</td> <td>All creatures suffer disadvantage on Dexterity checks.</td> </tr> <tr> <td>7</td> <td>Bitter cold</td> <td>All creatures must make a DC 10 Constitution saving throw every hour or suffer one level of exhaustion.</td> </tr> </tbody> </table> <h5>Wind</h5> Higher stages include all the effects of lower stages. <table> <thead><tr> <th>Stage</th> <th>Condition</th> <th>Effects</th> </tr></thead> <tbody> <tr> <td>1</td> <td>Calm</td> <td>—</td> </tr> <tr> <td>2</td> <td>Moderate wind</td> <td>—</td> </tr> <tr> <td>3</td> <td>Strong wind</td> <td>Ranged attacks are made at disadvantage.</td> </tr> <tr> <td>4</td> <td>Gale</td> <td>All creatures have resistance to damage from ranged attacks.</td> </tr> <tr> <td>5</td> <td>Hurricane</td> <td>Ranged attacks are impossible, and all movement against the wind costs twice as much.</td> </tr> </tbody> </table> <em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 7th level, the duration is 8 hours, and the area increases to a 5-mile radius. When you cast this spell using a spell slot of 8th level, the duration is 24 hours, and the area increases to a 10-mile radius. When you cast this spell using a spell slot of 9th level, the duration is 7 days, and the area increases to a 25-mile radius.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   animal_ally: {
@@ -167,6 +168,7 @@ export default createSpells({
         'Nothing can physically pass through the wall. Each panel has AC 15 and 100 hit points. The wall can’t be dispelled by dispel magic, and is immune to psychic and nonmagical bludgeoning, piercing, and slashing damage. A disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   arcanists_sword: {
@@ -193,6 +195,7 @@ export default createSpells({
         '• Whirl. The sword moves up to 20 feet toward a point and then begins to spin in a deadly whirl. A creature that starts in the sword’s space or passes within 5 feet of the sword on its turn must succeed on a Dexterity saving throw or take 3d10 force damage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   arctic_breath: {
@@ -451,6 +454,7 @@ export default createSpells({
         'This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   blade_burst: {
@@ -661,6 +665,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the maximum challenge rating of affected creatures increases by 3 for each slot level above 3rd. When you cast this spell using a spell slot of 5th or 6th level, the duration is concentration, up to 12 hours. When cast using a spell slot of 7th or 8th level, the duration is concentration, up to 24 hours. When cast using a 9th-level spell slot, the spell lasts until dispelled, and there is no challenge rating limit on affected creatures.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   cold_snap: {
@@ -743,6 +748,7 @@ export default createSpells({
         '<table> <thead><tr> <th>Size</th> <th>HP</th> <th>AC</th> <th>Str</th> <th>Dex</th> <th>Damage</th> <th>Speed</th> </tr></thead> <tbody> <tr> <td>Tiny</td> <td>5</td> <td>19</td> <td>12</td> <td>28</td> <td>1d4 + 1 damage</td> <td>fly 30 (hover)</td> </tr> <tr> <td>Small</td> <td>10</td> <td>18</td> <td>16</td> <td>24</td> <td>1d6 + 3 damage</td> <td>fly 30</td> </tr> <tr> <td>Medium</td> <td>20</td> <td>17</td> <td>20</td> <td>20</td> <td>1d10 + 5 damage</td> <td>30</td> </tr> <tr> <td>Large</td> <td>30</td> <td>16</td> <td>24</td> <td>16</td> <td>2d10 + 7 damage</td> <td>25</td> </tr> <tr> <td>Huge</td> <td>60</td> <td>15</td> <td>28</td> <td>12</td> <td>5d12 + 9 damage</td> <td>20</td> </tr> </tbody> </table> An animated object has blindsight with a radius of 30 feet and statistics as shown in the table above. The GM might rule an object has immunities, resistances, and vulnerabilities to specific damage types based on its form. If an object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. In combat, an object shares your initiative count, but takes its turn immediately after yours. As a bonus action, you can issue one command to any number of objects within the spell’s range. That command can be to attack, or some other action. Otherwise, the only action an object takes on its turn is the Dodge action. An object may also be commanded to attempt an action available to all creatures, such as grapple or shove, if its form permits it to do so. If commanded to attack, an object makes one melee attack against a target you specify within 5 feet of it. Its attack bonus is equal to your spell attack modifier. An object usually deals bludgeoning damage, but the GM might rule it deals slashing or piercing damage based on its form.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   cone_of_flame: {
@@ -797,6 +803,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 8th level or higher, the cage’s AC increases by 1 and its hit points increase by 20 for each slot level above 7th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   conjure_beast_pack: {
@@ -819,6 +826,7 @@ export default createSpells({
         'If you command the beasts to attack, choose a target for each beast to attack within its reach, making a single melee spell attack for each target. On a hit, the target takes 1d4 bludgeoning or piercing damage (your choice), plus 1d4 extra damage for each additional beast attacking it. You have advantage on the attack roll if three or more beasts attack the same target, and you add your spellcasting ability modifier to the damage dealt if six or more beasts attack the same target.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   conjure_herald: {
@@ -843,6 +851,7 @@ export default createSpells({
         '• Announcement. The herald floats through the air up to 100 feet up and 30 feet per round, repeating its message every round. It traverses an area up to a 5-mile radius around its location, conveying its message to every creature it sees. When cast in this way, the herald lasts for 1 hour.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   conjure_minor_fiends: {
@@ -892,6 +901,7 @@ export default createSpells({
         '.</li> <li>4: The target erupts into black flames, taking 1d6 fire damage at the start of each of its turns.</li> </ul> The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. Once a creature successfully saves against this ability, it is immune for 24 hours.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   corpse_puppets: {
@@ -1174,6 +1184,7 @@ export default createSpells({
         "At Higher Levels. When you cast this spell using a spell slot of 7th level or higher, the casting time increases by 1 hour and the temple's size increases by 60 feet on each side for each spell level above 6th. The temple counters divination spells of a level less than or equal to the slot level used.",
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   draining_bolt: {
@@ -1246,6 +1257,7 @@ export default createSpells({
         'If the dust cyclone moves over sand, dust, loose dirt, or small gravel, it sucks up the material and heavily obscures its radius until the start of your next turn.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   earth_forming: {
@@ -1456,6 +1468,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the fire damage increases by 1d4 for each slot level above 2nd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   erudition: {
@@ -1848,6 +1861,7 @@ export default createSpells({
         '• During your turn, if you roll fire damage, you can maximize one die of the fire damage dealt.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   form_of_ice: {
@@ -1877,6 +1891,7 @@ export default createSpells({
         '• During your turn, if you roll cold damage, you gain temporary hit points equal to one die rolled (your choice).',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   form_of_stone: {
@@ -1902,6 +1917,7 @@ export default createSpells({
         '• You can use your action to call spikes of stone to raise from the ground. All creatures of your choice within 15 feet of you must make a Dexterity saving throw. A creature takes 4d8 piercing damage on a failed save, or half as much on a successful one. Its space becomes difficult terrain either way.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   form_of_water: {
@@ -1929,6 +1945,7 @@ export default createSpells({
         "• You can use your action to unleash a blast of water 15 feet long and 5 feet wide extending from you in a direction of your choice. Each creature in the line must make a Strength saving throw. A creature takes 5d6 bludgeoning damage and is knocked prone on a failed save, or half as much and isn't knocked prone on a successful one.",
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   form_of_wind: {
@@ -1953,6 +1970,7 @@ export default createSpells({
         '• You can use your action to unleash a powerful blast of wind in a 30 foot cone. Each creature in the cone must make a Strength saving throw. A creature takes 4d8 bludgeoning damage and is knocked 15 feet away from you on a failed save, or takes half as much damage and isn’t knocked backward on a successful one.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   fortune: {
@@ -2208,6 +2226,7 @@ export default createSpells({
         'A creature caught in the wall can attempt to swim through it by making a successful Strength (Athletics) check against your spell save DC. If it fails the check, it can’t move. A creature that moves out of the spell’s area falls to the ground.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   hailstorm: {
@@ -2227,6 +2246,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the bludgeoning and cold damage both increase by 1d4 for each slot level above 4th. Additionally, the radius and height increase by 5 feet for each slot level above 4th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   hallucination: {
@@ -2344,6 +2364,7 @@ export default createSpells({
         'As a bonus action, you can spread the flames from any target creature to another within 10 feet of it, making that creature an additional target. If damage from this spell reduces a target to 0 hit points, the target is turned to ash.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   inflict_disease: {
@@ -2574,6 +2595,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the range and distance the vine can pull a creature increases by 10 feet for each slot level above 2nd. If you cast this spell using a spell slot of 4th level or higher, the vine can attempt to pull a Huge or smaller creature.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   life_drain_spells_that_dont_suck: {
@@ -2684,6 +2706,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d8 for each slot level above 2nd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   lunar_beam: {
@@ -2709,6 +2732,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   magic_fruit: {
@@ -2900,6 +2924,7 @@ export default createSpells({
         'Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion. You can end the spell as a bonus action.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   mass_freeze: {
@@ -3014,6 +3039,7 @@ export default createSpells({
         'As an action, you can use the double’s senses instead of your own until you use your action to return to your normal senses, or until the spell ends. While you do so, you are blinded and deafened to your own surroundings.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   misfortune: {
@@ -4035,6 +4061,7 @@ export default createSpells({
         'The spell’s duration is related to the quality of ink used. Magical ink worth 10 gp gives it a duration of 10 days. More expensive ink lasts an additional day for each 1 gp spent; if 100 gp worth of magical ink is used, the duration becomes permanent.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   shape_winds: {
@@ -4229,6 +4256,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 8th level or higher, the possessed creature can repeat its saving throw once per day. When you cast this spell using a spell slot of 9th level, the possessed creature can repeat its saving throw once per year.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   sparking_shot: {
@@ -4249,6 +4277,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d12 for each slot level above 3rd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   speak_with_nature: {
@@ -4271,6 +4300,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you imbue plants with limited sentience, allowing you to communicate with them like beasts. When you cast this spell using a spell slot of 3rd level or higher, you imbue plants with limited animation, allowing them to freely move branches, tendrils, and stalks. You can command plants to release a restrained creature, to turn ordinary terrain into difficult terrain (or the opposite), or to perform other tasks at the GM’s discretion.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   spectral_champion: {
@@ -4337,6 +4367,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the stored spell’s maximum level increases by 1 and the material component cost increases by 50 gp for each slot level above 3rd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   spirit_remnant: {
@@ -4908,6 +4939,7 @@ export default createSpells({
         ', or otherwise unable to direct the sentry, then at the end of your turn it attacks the nearest creature of challenge rating 1/4 or higher that is not its ally.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   wall_of_dust: {
@@ -4976,6 +5008,7 @@ export default createSpells({
         'A creature that starts its turn in the wall or enters it on its turn must make a Strength saving throw, suffering 2d6 bludgeoning damage on a failure or half as much on a success. Ranged attacks passing through the wall have disadvantage and deal half damage. Fire effects passing through are instantly extinguished. Cold effects passing through apply to any creature within 5 feet of the point they touch the wall. Lightning effects apply half their damage to any creature in contact with the wall when they pass through.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   wayfinding: {
@@ -5046,6 +5079,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   whirling_water: {
@@ -5102,6 +5136,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.spells_that_dont_suck,
   },
   withering_field: {

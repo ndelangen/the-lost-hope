@@ -47,6 +47,7 @@ export default createPublicationMonsters({
               refs.spells.sanctuary_srd_5_1,
               '. For attunement and magic item use, treat this NPC as a member of the listed class and as having access to its spell list.',
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -187,6 +188,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -436,6 +438,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally of the baboon is within 5 ft. of that attack’s target.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -568,6 +571,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ['While ', rules.deafened, ', the bat loses access to its blindsight.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -805,6 +809,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally is within 5 ft. of that creature.',
             ],
+            effects: [],
           },
           {
             key: 'beak',
@@ -1227,6 +1232,7 @@ export default createPublicationMonsters({
               { ability: 'tentacles' },
               ' once.',
             ],
+            effects: [],
           },
           {
             key: 'pincer',
@@ -1354,6 +1360,7 @@ export default createPublicationMonsters({
               rules.blinded,
               ' and unable to breathe until detached. While attached, it can Bite only that creature, and the attack has advantage. The cloaker can spend 5 ft. of movement to detach. Any creature, including the target, can detach it with an action and a successful DC 16 Strength check.',
             ],
+            effects: [],
           },
           {
             key: 'tail',
@@ -1447,6 +1454,7 @@ export default createPublicationMonsters({
               refs.spells.gaseous_form_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -1527,6 +1535,7 @@ export default createPublicationMonsters({
               rules.petrified,
               ' for 24 hours.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1700,6 +1709,7 @@ export default createPublicationMonsters({
               refs.spells.scrying_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',
@@ -2034,6 +2044,7 @@ export default createPublicationMonsters({
               refs.spells.hold_person_srd_5_1,
               ', Spiritual',
             ],
+            effects: [],
           },
           {
             key: 'weapon',
@@ -2056,6 +2067,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2109,6 +2121,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'scimitar',
@@ -2221,6 +2234,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ['The darkmantle loses the use of its blindsight while ', rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -2248,6 +2262,7 @@ export default createPublicationMonsters({
               rules.blinded,
               ' and cannot breathe while its head is engulfed. While attached, the darkmantle moves with the target. Its speed becomes 0, speed bonuses have no effect, and it can attack only the target, with advantage. A creature can take an action and succeed on a DC 13 Strength check to remove it. The darkmantle can detach on its turn by spending 5 ft. of movement.',
             ],
+            effects: [],
           },
           {
             key: 'darkness-aura',
@@ -2297,6 +2312,7 @@ export default createPublicationMonsters({
               refs.spells.disguise_self_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'stone-camouflage',
@@ -2445,6 +2461,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -2520,6 +2537,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or its speed is 0.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2617,6 +2635,7 @@ export default createPublicationMonsters({
               refs.spells.faerie_fire_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2628,6 +2647,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -3107,6 +3127,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wakeful',
@@ -3198,6 +3219,7 @@ export default createPublicationMonsters({
               refs.spells.major_image_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -3266,6 +3288,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3309,6 +3332,7 @@ export default createPublicationMonsters({
               refs.spells.suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -3377,6 +3401,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3424,6 +3449,7 @@ export default createPublicationMonsters({
               refs.spells.hallucinatory_terrain_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -3494,6 +3520,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3533,6 +3560,7 @@ export default createPublicationMonsters({
               refs.spells.color_spray_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -3603,6 +3631,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3640,6 +3669,7 @@ export default createPublicationMonsters({
               refs.spells.minor_illusion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -3710,6 +3740,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3759,6 +3790,7 @@ export default createPublicationMonsters({
               refs.spells.polymorph_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -3829,6 +3861,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3870,6 +3903,7 @@ export default createPublicationMonsters({
               refs.spells.mirror_image_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -3940,6 +3974,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' along with worn and carried equipment. The effect lasts while the dragon maintains Concentration as it would on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3997,6 +4032,7 @@ export default createPublicationMonsters({
               refs.spells.mirror_image_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'superior-invisibility',
@@ -4008,6 +4044,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '. It maintains Concentration as it would on a spell. The effect ends when its concentration ends.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -4209,6 +4246,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -4716,6 +4754,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: [rules.deafened, " shuts off the bat's blindsight."],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -5367,6 +5406,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -5474,6 +5514,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -5521,6 +5562,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5965,6 +6007,7 @@ export default createPublicationMonsters({
               refs.spells.nondetection_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6054,6 +6097,7 @@ export default createPublicationMonsters({
                 damage: [{ dice: '2d6', type: rules.poison }],
               },
             },
+            effects: [],
           },
           {
             key: 'claw',
@@ -6540,6 +6584,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -6658,6 +6703,7 @@ export default createPublicationMonsters({
               refs.spells.vicious_mockery_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -6707,6 +6753,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ', as does everything she wears or carries. The effect ends when she attacks, casts a spell, or loses Concentration as if concentrating on a spell. During the effect she leaves no physical evidence of her passage. Only magic can track her.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6767,6 +6814,7 @@ export default createPublicationMonsters({
               refs.spells.fireball_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -7204,6 +7252,7 @@ export default createPublicationMonsters({
               rules.deafened,
               ' and unable to smell.',
             ],
+            effects: [],
           },
           {
             key: 'keen-hearing-and-smell',
@@ -7621,6 +7670,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ['Being ', rules.deafened, ' shuts off its blindsight.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -7753,6 +7803,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '. Whenever it takes at least 25 total damage in one turn, one head dies. It dies if it loses all its heads. At the end of its turn, it grows two heads for each one lost since its last turn, unless it took fire damage in that interval. It regains 10 HP per head regrown this way.',
             ],
+            effects: [],
           },
           {
             key: 'reactive-heads',
@@ -7829,6 +7880,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally of the hyena is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -7894,6 +7946,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -7957,6 +8010,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite-jackal-or-hybrid-form',
@@ -8113,6 +8167,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ['Being ', rules.deafened, ' prevents the whale from using its blindsight.'],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -8166,6 +8221,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The knight has advantage on saves against becoming ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -8210,6 +8266,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -8276,6 +8333,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -8349,6 +8407,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'pounce',
@@ -8599,6 +8658,7 @@ export default createPublicationMonsters({
               refs.spells.ice_storm_srd_5_1,
               '. 5th level (1 slot): Cone of',
             ],
+            effects: [],
           },
           {
             key: 'cold',
@@ -8940,6 +9000,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '. Failure by 5 or more immediately Petrifies the creature. A smaller failure Restrains it as it begins turning to stone. At the end of its next turn it repeats the save. Failure Petrifies it and success ends the effect. Greater Restoration or other magic can end the petrification. Unless surprised, a creature can avert its eyes at the start of its turn to avoid the save. It cannot see the medusa until the start of its next turn, when it can avert its eyes again. If it looks at the medusa in the meantime, it must immediately save. The medusa is subject to its own gaze if it sees its reflection on a polished surface within 30 ft. in an area of bright light.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -10440,6 +10501,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' this way.',
             ],
+            effects: [],
           },
           {
             key: 'ethereal-jaunt',
@@ -11015,6 +11077,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'water-breathing',
@@ -11336,6 +11399,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'damage-transfer',
@@ -11440,6 +11504,7 @@ export default createPublicationMonsters({
               { ability: 'rust-metal' },
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -11899,6 +11964,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Wisdom save against the magic or drop to 0 HP.',
             ],
+            effects: [],
           },
           {
             key: 'illusory-appearance',
@@ -12337,6 +12403,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ' Charisma save, the sprite also learns its alignment. Celestials, fiends, and undead automatically fail.',
             ],
+            effects: [],
           },
           {
             key: 'invisibility',
@@ -12348,6 +12415,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' along with all equipment it wears or carries. The effect ends when it attacks, casts a spell, or loses Concentration as if on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -12444,6 +12512,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'dex' },
               ' Dexterity save as a reaction. On a success, it catches the object and takes no bludgeoning damage from it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -12589,6 +12658,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -12823,6 +12893,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -13578,6 +13649,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'beak',
@@ -13731,6 +13803,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -13912,6 +13985,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -14041,6 +14115,7 @@ export default createPublicationMonsters({
               refs.spells.fear_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -14188,6 +14263,7 @@ export default createPublicationMonsters({
               refs.spells.suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',

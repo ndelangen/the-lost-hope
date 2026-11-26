@@ -74,6 +74,7 @@ export default createNPC({
           refs.rules.frightened,
           '.',
         ],
+        effects: [],
       },
       {
         key: 'multiattack',
@@ -107,6 +108,7 @@ export default createNPC({
           ],
         },
         text: ['A ', refs.rules.critical_hit, ' also leaves the target ', refs.rules.prone, '.'],
+        effects: [],
       },
       {
         key: 'javelin',

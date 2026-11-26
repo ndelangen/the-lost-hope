@@ -44,6 +44,7 @@ export default createNPC({
           refs.rules.poisoned,
           '; drugs and drink barely touch her.',
         ],
+        effects: [],
       },
       {
         key: 'cane',

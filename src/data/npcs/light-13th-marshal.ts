@@ -145,6 +145,7 @@ export default createNPC({
           refs.rules.disadvantage,
           ' on saves against his abilities.',
         ],
+        effects: [],
       },
       {
         key: 'legendary-resistance',

@@ -49,6 +49,7 @@ export default createPC({
           refs.rules.disadvantage,
           '.',
         ],
+        effects: [],
       },
       {
         key: 'cunning-strike',
@@ -60,6 +61,7 @@ export default createPC({
           refs.rules.prone,
           '), Withdraw (you move half your speed without provoking), or Poison (needs a poisoner’s kit).',
         ],
+        effects: [],
       },
       {
         key: 'fey-ancestry',
@@ -73,6 +75,7 @@ export default createPC({
           refs.rules.charmed,
           ', and magic can’t put you to sleep.',
         ],
+        effects: [],
       },
       {
         key: 'lucky',
@@ -95,6 +98,7 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiWizardStaff',
         text: ['Arcane Trickster: you cast with Intelligence (save ', { dc: 'int' }, ').'],
+        effects: [],
       },
       {
         key: 'rapier',
@@ -142,6 +146,7 @@ export default createPC({
           onFail: { damage: [{ dice: '3d8', type: refs.rules.bludgeoning }] },
         },
         text: ['You hurl an object of up to 5 lb. Uses a 1st-level slot.'],
+        effects: [],
       },
       {
         key: 'magic-missile',

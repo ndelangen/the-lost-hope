@@ -143,6 +143,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' this way.',
             ],
+            effects: [],
           },
         ],
       },
@@ -176,6 +177,7 @@ export default createPublicationMonsters({
               rules.prone,
               '. If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0 feet, and can’t benefit from bonuses to speed.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

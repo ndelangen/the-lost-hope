@@ -16,7 +16,7 @@ describe('playerTurnOrder', () => {
     expect([0, 25, 26, 27, 52].map(enemyLetter)).toEqual(['A', 'Z', 'AA', 'AB', 'BA'])
   })
 
-  it('names the party and met enemies, letters the rest, and marks the current turn', () => {
+  it('letters every enemy, names the party and met enemies, and marks the current turn', () => {
     const rows = playerTurnOrder(
       [
         row('devan', { side: 'party', name: 'Devan', avatar: '/devan.png' }),
@@ -26,7 +26,9 @@ describe('playerTurnOrder', () => {
       ],
       'snatcher 1',
     )
-    expect(rows.map(({ label }) => label)).toEqual(['Devan', 'A', 'Ilsa Corrow', 'B'])
+    expect(rows.map(({ label }) => label)).toEqual(['Devan', 'A', 'Ilsa Corrow', 'C'])
+    // A met enemy keeps its letter beside its name.
+    expect(rows.map(({ letter }) => letter)).toEqual([undefined, undefined, 'B', undefined])
     expect(rows[1]).toMatchObject({ current: true, avatar: undefined })
     expect(rows[2]?.avatar).toBe('/i.png')
     expect(rows.map(({ bloodied }) => bloodied)).toEqual([false, false, false, true])

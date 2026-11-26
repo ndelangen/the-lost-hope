@@ -122,6 +122,7 @@ export default createNPC({
         },
         uses: 2,
         recharge: 'Long rest',
+        effects: [],
       },
       {
         key: 'teleport',

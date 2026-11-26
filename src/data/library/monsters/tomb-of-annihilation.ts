@@ -129,6 +129,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               ' + the damage taken. On a success it stays at 1 HP. Radiant damage and critical hits bypass this trait.',
             ],
+            effects: [],
           },
           {
             key: 'tail',
@@ -195,6 +196,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -260,6 +262,7 @@ export default createPublicationMonsters({
               rules.prone,
               ', it is upside down. To right itself, it must succeed on a DC 10 Dexterity check on its turn and then spend all its movement for that turn.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -587,6 +590,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               ' plus the damage taken. On a success, it drops to 1 HP instead. Radiant damage and critical hits bypass this trait.',
             ],
+            effects: [],
           },
           {
             key: 'disgorge-zombie',

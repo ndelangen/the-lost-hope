@@ -44,6 +44,7 @@ export default createNPC({
           refs.rules.frightened,
           ' while an audience watches.',
         ],
+        effects: [],
       },
       {
         key: 'multiattack',

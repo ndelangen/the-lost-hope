@@ -130,6 +130,7 @@ export default createBeast({
         timing: 'bonus action',
         icon: 'gi/GiWaterSplash',
         text: ['Pulls a creature it has ', refs.rules.grappled, ' underwater with it.'],
+        effects: [],
       },
     ],
     source: {

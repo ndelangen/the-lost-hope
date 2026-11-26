@@ -83,6 +83,7 @@ if (command === 'export') {
   console.log(`${out.length} candidate items in ${Math.ceil(out.length / per)} batches → ${outDir}`)
 } else if (command === 'apply') {
   const dry = rest.includes('--dry')
+  const recordSkips = rest.includes('--record-skips')
   type Result = { file: string; item: string; effects?: unknown[]; skip?: string }
   const results: Result[] = rest
     .filter((arg) => !arg.startsWith('--'))
@@ -93,15 +94,22 @@ if (command === 'export') {
   const failures: string[] = []
   let applied = 0
   let skipped = 0
+  let done = 0
   const sources = new Map<string, string>()
   for (const result of results) {
-    if (result.skip) {
+    // A skip is recorded too: `effects: []` says it was checked and leaves nothing lasting.
+    if (result.skip && !recordSkips) {
       skipped++
       continue
     }
     const item = files.get(result.file)?.[result.item]
     if (!item) {
       failures.push(`${result.file} ${result.item}: item not found`)
+      continue
+    }
+    // Written already, by an earlier run: leave it.
+    if (item.effects) {
+      done++
       continue
     }
     const problems: string[] = []
@@ -113,7 +121,7 @@ if (command === 'export') {
         )
       return parsed.success ? parsed.data : undefined
     })
-    if (!effects.length) problems.push('no effects: skip it instead')
+    if (!effects.length && !result.skip) problems.push('no effects: skip it instead')
     const keys = effects.map((effect) => effect?.key)
     if (new Set(keys).size !== keys.length) problems.push('effect keys repeat')
     const source = normalize(plain(item))
@@ -156,7 +164,9 @@ if (command === 'export') {
       failures.push(`${result.file} ${result.item}: not found in the source`)
       continue
     }
-    const serialized = JSON.stringify(result.effects).replace(
+    if (result.skip) skipped++
+    else applied++
+    const serialized = JSON.stringify(result.effects ?? []).replace(
       /\{"ref":"rule","key":"([a-z_]+)"\}/g,
       'rules.$1',
     )
@@ -173,10 +183,11 @@ if (command === 'export') {
           "import { createMagicItems } from '#/definitions/library.ts'\n\nconst { rules } = campaignRefs\n",
         )
     sources.set(path, text)
-    applied++
   }
   if (!dry) for (const [path, text] of sources) writeFileSync(path, text)
-  console.log(`${applied} applied, ${skipped} skipped, ${failures.length} failed`)
+  console.log(
+    `${applied} applied, ${skipped} skipped, ${done} already written, ${failures.length} failed`,
+  )
   for (const failure of failures) console.log(`- ${failure}`)
 } else {
   console.log('Usage: items.ts export <out-dir> [size] | apply <result.json>... [--dry]')

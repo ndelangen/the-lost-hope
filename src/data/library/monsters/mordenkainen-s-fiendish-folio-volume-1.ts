@@ -591,6 +591,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' does not impose Disadvantage on its ranged attack if the attack target is also within 5 ft. of the spawn.',
             ],
+            effects: [],
           },
           {
             key: 'needle-volley',

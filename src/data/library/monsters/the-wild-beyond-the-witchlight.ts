@@ -294,6 +294,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               '. Pixie dust is its sole component. At will · Druidcraft. 1/day each · Confusion, Dancing Lights, Detect Evil and Good, Detect Thoughts, Dispel Magic, Entangle, Fly, Phantasmal Force, Polymorph and Sleep.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -312,6 +313,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' while it maintains Concentration.',
             ],
+            effects: [],
           },
         ],
       },

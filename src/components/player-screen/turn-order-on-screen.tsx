@@ -76,6 +76,16 @@ export function TurnOrderOnScreen() {
                   row.current ? 'font-bold' : 'font-medium',
                 )}
               >
+                {row.letter ? (
+                  <span
+                    className={cn(
+                      'mr-[0.5vw] inline-flex items-center justify-center rounded-md px-[0.4vw] font-bold',
+                      row.current ? 'bg-red-800 text-white' : 'bg-red-600 text-white',
+                    )}
+                  >
+                    {row.letter}
+                  </span>
+                ) : null}
                 {row.label}
               </span>
               {row.bloodied ? (

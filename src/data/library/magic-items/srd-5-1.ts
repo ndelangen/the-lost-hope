@@ -155,6 +155,7 @@ export default createMagicItems({
         'While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are incapacitated or die, at which point the shield falls to the ground or into your hand if you have one free.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   apparatus_of_the_crab_srd_5_1: {
@@ -202,6 +203,7 @@ export default createMagicItems({
       ],
       ['10 · The rear hatch unseals and opens. · The rear hatch closes and seals.'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   armor_of_invulnerability_srd_5_1: {
@@ -565,6 +567,7 @@ export default createMagicItems({
         'An arrow of slaying is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both arrows of dragon slaying and arrows of blue dragon slaying. If a creature belonging to the type, race, or group associated with an arrow of slaying takes damage from the arrow, the creature must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.\\n\\nOnce an arrow of slaying deals its extra damage to a creature, it becomes a nonmagical arrow.\\n\\nOther types of magic ammunition of this kind exist, such as bolts of slaying meant for a crossbow, though arrows are most common.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   bag_of_beans_srd_5_1: {
@@ -614,6 +617,7 @@ export default createMagicItems({
         "100 · A giant beanstalk sprouts, growing to a height of the GM's choice. The top leads where the GM chooses, such as to a great view, a cloud giant's castle, or a different plane of existence.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   bag_of_devouring_srd_5_1: {
@@ -778,6 +782,7 @@ export default createMagicItems({
       ['• You have darkvision out to a range of 60 feet.'],
       ['• You can speak, read, and write Dwarvish.'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   belt_of_fire_giant_strength: {
@@ -1045,6 +1050,7 @@ export default createMagicItems({
         'Alternatively, when you light the candle for the first time, you can cast the gate spell with it. Doing so destroys the candle.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   cape_of_the_mountebank_srd_5_1: {
@@ -1153,6 +1159,7 @@ export default createMagicItems({
         'While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   cloak_of_elvenkind_srd_5_1: {
@@ -1173,6 +1180,7 @@ export default createMagicItems({
     rarity: 'uncommon',
     attunement: true,
     text: [['You gain a +1 bonus to AC and saving throws while you wear this cloak.']],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   cloak_of_the_bat_srd_5_1: {
@@ -1428,6 +1436,7 @@ export default createMagicItems({
       ['Prismatic spray · 1d20'],
       ['Wall of fire · 1d4'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   cubic_gate_srd_5_1: {
@@ -1779,6 +1788,7 @@ export default createMagicItems({
       ],
       ['#'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   defender_greatsword_srd_5_1: {
@@ -1792,6 +1802,7 @@ export default createMagicItems({
         "The first time you attack with the sword on each of your turns, you can transfer some or all of the sword's bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   defender_longsword_srd_5_1: {
@@ -1806,6 +1817,7 @@ export default createMagicItems({
         "The first time you attack with the sword on each of your turns, you can transfer some or all of the sword's bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   defender_rapier_srd_5_1: {
@@ -1820,6 +1832,7 @@ export default createMagicItems({
         "The first time you attack with the sword on each of your turns, you can transfer some or all of the sword's bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   defender_shortsword_srd_5_1: {
@@ -1834,6 +1847,7 @@ export default createMagicItems({
         "The first time you attack with the sword on each of your turns, you can transfer some or all of the sword's bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   demon_armor: {
@@ -1851,6 +1865,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   dimensional_shackles_srd_5_1: {
@@ -1865,6 +1880,7 @@ export default createMagicItems({
         'You and any creature you designate when you use the shackles can use an action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength (Athletics) check. On a success, the creature breaks free and destroys the shackles.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   dragon_scale_mail_srd_5_1: {
@@ -1896,6 +1912,7 @@ export default createMagicItems({
       ['Silver · Cold'],
       ['White · Cold'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   dragon_slayer_greatsword: {
@@ -1984,6 +2001,7 @@ export default createMagicItems({
         'An elemental composed mostly of water that is exposed to a pinch of the dust must make a DC 13 Constitution saving throw, taking 10d6 necrotic damage on a failed save, or half as much damage on a successful one.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   dust_of_sneezing_and_choking_srd_5_1: {
@@ -2074,6 +2092,7 @@ export default createMagicItems({
         '91-100 · The efreeti can cast the wish spell three times for you. It disappears when it grants the final wish or after 1 hour, and the bottle loses its magic.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   elemental_gem_srd_5_1: {
@@ -2191,6 +2210,7 @@ export default createMagicItems({
         'As a bonus action on your turn, you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of it. The whip disappears after 1 hour, when you use an action to dismiss it, or when you are incapacitated or die.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   figurine_of_wondrous_power_bronze_griffon_srd_5_1: {
@@ -2279,6 +2299,7 @@ export default createMagicItems({
         "A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.\\n\\nThe creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.\\n\\nThe creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.\\n\\n_Onyx Dog (Rare)_. This onyx statuette of a dog can become a mastiff for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has darkvision out to a range of 60 feet and can see invisible creatures and objects within that range. Once it has been used, it can’t be used again until 7 days have passed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   figurine_of_wondrous_power_serpentine_owl_srd_5_1: {
@@ -3035,6 +3056,7 @@ export default createMagicItems({
         'Roll a d20 if you are wearing the helm and take fire damage as a result of failing a saving throw against a spell. On a roll of 1, the helm emits beams of light from its remaining gems. Each creature within 60 feet of the helm other than you must succeed on a DC 17 Dexterity saving throw or be struck by a beam, taking radiant damage equal to the number of gems in the helm. The helm and its gems are then destroyed.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   helm_of_comprehending_languages_srd_5_1: {
@@ -3088,6 +3110,7 @@ export default createMagicItems({
         'While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   holy_avenger_longsword_srd_5_1: {
@@ -3104,6 +3127,7 @@ export default createMagicItems({
         'While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   holy_avenger_rapier_srd_5_1: {
@@ -3120,6 +3144,7 @@ export default createMagicItems({
         'While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   holy_avenger_shortsword_srd_5_1: {
@@ -3136,6 +3161,7 @@ export default createMagicItems({
         'While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   horn_of_blasting_srd_5_1: {
@@ -3257,6 +3283,7 @@ export default createMagicItems({
         'The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance to all other damage. Only a wish spell can repair the fortress (this use of the spell counts as replicating a spell of 8th level or lower). Each casting of wish causes the roof, the door, or one wall to regain 50 hit points.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   ioun_stone_absorption: {
@@ -3538,6 +3565,7 @@ export default createMagicItems({
         "The javelin's property can't be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   lance_1_srd_5_1: {
@@ -3582,6 +3610,7 @@ export default createMagicItems({
         "While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern's bright light. You can use an action to lower the hood, reducing the light to dim light in a 5* foot radius.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   light_hammer_1_srd_5_1: {
@@ -3699,6 +3728,7 @@ export default createMagicItems({
         "Wish. The sword has 1d4 - 1 charges. While holding it, you can use an action to expend 1 charge and cast the wish spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   luck_blade_longsword: {
@@ -3718,6 +3748,7 @@ export default createMagicItems({
         "Wish. The sword has 1d4 - 1 charges. While holding it, you can use an action to expend 1 charge and cast the wish spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   luck_blade_rapier: {
@@ -3737,6 +3768,7 @@ export default createMagicItems({
         "Wish. The sword has 1d4 - 1 charges. While holding it, you can use an action to expend 1 charge and cast the wish spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   luck_blade_shortsword: {
@@ -3756,6 +3788,7 @@ export default createMagicItems({
         "Wish. The sword has 1d4 - 1 charges. While holding it, you can use an action to expend 1 charge and cast the wish spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   mace_1_srd_5_1: {
@@ -3805,6 +3838,7 @@ export default createMagicItems({
         'While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   mace_of_smiting_srd_5_1: {
@@ -3855,6 +3889,7 @@ export default createMagicItems({
     rarity: 'rare',
     attunement: true,
     text: [['You have advantage on saving throws against spells while you wear this cloak.']],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   manual_of_bodily_health_srd_5_1: {
@@ -4167,6 +4202,7 @@ export default createMagicItems({
         'While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as cloudkill and stinking cloud effects, inhaled poisons, and the breath weapons of some dragons).',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   necklace_of_fireballs_srd_5_1: {
@@ -4249,6 +4285,7 @@ export default createMagicItems({
         'The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   nine_lives_stealer_longsword_srd_5_1: {
@@ -4263,6 +4300,7 @@ export default createMagicItems({
         'The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   nine_lives_stealer_rapier_srd_5_1: {
@@ -4277,6 +4315,7 @@ export default createMagicItems({
         'The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   nine_lives_stealer_shortsword_srd_5_1: {
@@ -4291,6 +4330,7 @@ export default createMagicItems({
         'The sword has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   oathbow: {
@@ -4341,6 +4381,7 @@ export default createMagicItems({
         'This clear, gelatinous oil sparkles with tiny, ultrathin silver shards. The oil can coat one slashing or piercing weapon or up to 5 pieces of slashing or piercing ammunition. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +3 bonus to attack and damage rolls.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   oil_of_slipperiness_srd_5_1: {
@@ -4378,6 +4419,7 @@ export default createMagicItems({
         "Ages past, elves and humans waged a terrible war against evil dragons. When the world seemed doomed, powerful wizards came together and worked their greatest magic, forging five Orbs of Dragonkind (or Dragon Orbs) to help them defeat the dragons. One orb was taken to each of the five wizard towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.\\n\\nAs the wizard towers fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped and twisted over the centuries, so although their primary purpose of calling dragons still functions, they also allow some measure of control over dragons.\\n\\nEach orb contains the essence of an evil dragon, a presence that resents any attempt to coax magic from it. Those lacking in force of personality might find themselves enslaved to an orb.\\n\\nAn orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.\\n\\nWhile attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become charmed by the orb for as long as you remain attuned to it.\\n\\nWhile you are charmed by the orb, you can't voluntarily end your attunement to it, and the orb casts suggestion on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the GM decides.\\n\\n_Random Properties_. An Orb of Dragonkind has the following random properties:\\n\\n* 2 minor beneficial properties\\n* 1 minor detrimental property\\n* 1 major detrimental property\\n\\n_Spells_. The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: cure wounds (5th-level version, 3 charges), daylight (1 charge), death ward (2 charges), or scrying (3 charges).\\n\\nYou can also use an action to cast the detect magic spell from the orb without using any charges.\\n\\n_Call Dragons_. While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as Tiamat are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.\\n\\n_Destroying an Orb_. An Orb of Dragonkind appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A disintegrate spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   pearl_of_power_srd_5_1: {
@@ -4412,6 +4454,7 @@ export default createMagicItems({
         'This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, poisons have no effect on you. You are immune to the poisoned condition and have immunity to poison damage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   periapt_of_wound_closure_srd_5_1: {
@@ -4596,6 +4639,7 @@ export default createMagicItems({
         'When you drink this potion, you gain the effect of the clairvoyance spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   potion_of_climbing_srd_5_1: {
@@ -4761,6 +4805,7 @@ export default createMagicItems({
         "You regain hit points when you drink this potion. The number of hit points depends on the potion's rarity, as shown in the Potions of Healing table. Whatever its potency, the potion's red liquid glimmers when agitated.\\n\\nPotions of Healing (table)\\n\\n| Potion of ... | Rarity | HP Regained |\\n|------------------|-----------|-------------|\\n| Healing | Common | 2d4 + 2 |\\n| Greater healing | Uncommon | 4d4 + 4 |\\n| Superior healing | Rare | 8d4 + 8 |\\n| Supreme healing | Very rare | 10d4 + 20 |",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   potion_of_growth_srd_5_1: {
@@ -4864,6 +4909,7 @@ export default createMagicItems({
         "When you drink this potion, you gain the effect of the detect thoughts spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   potion_of_poison_srd_5_1: {
@@ -5006,6 +5052,7 @@ export default createMagicItems({
         "You regain hit points when you drink this potion. The number of hit points depends on the potion's rarity, as shown in the Potions of Healing table. Whatever its potency, the potion's red liquid glimmers when agitated.\\n\\nPotions of Healing (table)\\n\\n| Potion of ... | Rarity | HP Regained |\\n|------------------|-----------|-------------|\\n| Healing | Common | 2d4 + 2 |\\n| Greater healing | Uncommon | 4d4 + 4 |\\n| Superior healing | Rare | 8d4 + 8 |\\n| Supreme healing | Very rare | 10d4 + 20 |",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   potion_of_supreme_healing: {
@@ -5017,6 +5064,7 @@ export default createMagicItems({
         "You regain hit points when you drink this potion. The number of hit points depends on the potion's rarity, as shown in the Potions of Healing table. Whatever its potency, the potion's red liquid glimmers when agitated.\\n\\nPotions of Healing (table)\\n\\n| Potion of ... | Rarity | HP Regained |\\n|------------------|-----------|-------------|\\n| Healing | Common | 2d4 + 2 |\\n| Greater healing | Uncommon | 4d4 + 4 |\\n| Superior healing | Rare | 8d4 + 8 |\\n| Supreme healing | Very rare | 10d4 + 20 |",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   potion_of_water_breathing_srd_5_1: {
@@ -5117,6 +5165,7 @@ export default createMagicItems({
         'As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   ring_of_animal_influence_srd_5_1: {
@@ -5149,6 +5198,7 @@ export default createMagicItems({
         "After the djinni departs, it can't be summoned again for 24 hours, and the ring becomes nonmagical if the djinni dies.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   ring_of_elemental_command_srd_5_1: {
@@ -5223,6 +5273,7 @@ export default createMagicItems({
         'This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your reaction to expend 1 of its charges to succeed on that saving throw instead.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   ring_of_feather_falling_srd_5_1: {
@@ -5247,6 +5298,7 @@ export default createMagicItems({
         "While you wear this ring, difficult terrain doesn't cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be paralyzed or restrained.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   ring_of_invisibility_srd_5_1: {
@@ -5304,6 +5356,7 @@ export default createMagicItems({
         "If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   ring_of_protection_srd_5_1: {
@@ -5312,6 +5365,7 @@ export default createMagicItems({
     rarity: 'rare',
     attunement: true,
     text: [['You gain a +1 bonus to AC and saving throws while wearing this ring.']],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   ring_of_regeneration_srd_5_1: {
@@ -5380,6 +5434,7 @@ export default createMagicItems({
         'Shooting Stars. You can expend 1 to 3 charges as an action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of you. Each creature within a 15-foot cube originating from that point is showered in sparks and must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   ring_of_spell_storing_srd_5_1: {
@@ -5410,6 +5465,7 @@ export default createMagicItems({
         'While wearing this ring, you have advantage on saving throws against any spell that targets only you (not in an area of effect). In addition, if you roll a 20 for the save and the spell is 7th level or lower, the spell has no effect on you and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   ring_of_swimming_srd_5_1: {
@@ -5493,6 +5549,7 @@ export default createMagicItems({
         'Whenever you use the ring again before taking a long rest, you must succeed on a DC 15 Constitution saving throw or gain one level of exhaustion.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   robe_of_eyes_srd_5_1: {
@@ -5518,6 +5575,7 @@ export default createMagicItems({
         'A light spell cast on the robe or a daylight spell cast within 5 feet of the robe causes you to be blinded for 1 minute. At the end of each of your turns, you can make a Constitution saving throw (DC 11 for light or DC 15 for daylight), ending the blindness on a success.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   robe_of_scintillating_colors_srd_5_1: {
@@ -5557,6 +5615,7 @@ export default createMagicItems({
         'While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   robe_of_the_archmagi_srd_5_1: {
@@ -5573,6 +5632,7 @@ export default createMagicItems({
       ['• You have advantage on saving throws against spells and other magical effects.'],
       ['• Your spell save DC and spell attack bonus each increase by 2.'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   robe_of_useful_items_srd_5_1: {
@@ -5657,6 +5717,7 @@ export default createMagicItems({
         "The rod's head stops glowing and the effect ends after 10 minutes, or when a creature uses an action to pull the rod from the ground. This property can't be used again until the next dawn.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   rod_of_lordly_might_srd_5_1: {
@@ -5823,6 +5884,7 @@ export default createMagicItems({
         '• The scarab has 12 charges. If you fail a saving throw against a necromancy spell or a harmful effect originating from an undead creature, you can use your reaction to expend 1 charge and turn the failed save into a successful one. The scarab crumbles into powder and is destroyed when its last charge is expended.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   scimitar_1_srd_5_1: {
@@ -6084,6 +6146,7 @@ export default createMagicItems({
         "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.\\n\\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\\n\\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.\\n\\nSpell Scroll (table)\\n\\n| Spell Level | Rarity | Save DC | Attack Bonus |\\n|-------------|-----------|---------|--------------|\\n| Cantrip | Common | 13 | +5 |\\n| 1st | Common | 13 | +5 |\\n| 2nd | Uncommon | 13 | +5 |\\n| 3rd | Uncommon | 15 | +7 |\\n| 4th | Rare | 15 | +7 |\\n| 5th | Rare | 17 | +9 |\\n| 6th | Very rare | 17 | +9 |\\n| 7th | Very rare | 18 | +10 |\\n| 8th | Very rare | 18 | +10 |\\n| 9th | Legendary | 19 | +11 |\\n\\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   spell_scroll_2nd_level: {
@@ -6095,6 +6158,7 @@ export default createMagicItems({
         "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.\\n\\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\\n\\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.\\n\\nSpell Scroll (table)\\n\\n| Spell Level | Rarity | Save DC | Attack Bonus |\\n|-------------|-----------|---------|--------------|\\n| Cantrip | Common | 13 | +5 |\\n| 1st | Common | 13 | +5 |\\n| 2nd | Uncommon | 13 | +5 |\\n| 3rd | Uncommon | 15 | +7 |\\n| 4th | Rare | 15 | +7 |\\n| 5th | Rare | 17 | +9 |\\n| 6th | Very rare | 17 | +9 |\\n| 7th | Very rare | 18 | +10 |\\n| 8th | Very rare | 18 | +10 |\\n| 9th | Legendary | 19 | +11 |\\n\\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   spell_scroll_3rd_level: {
@@ -6106,6 +6170,7 @@ export default createMagicItems({
         "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.\\n\\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\\n\\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.\\n\\nSpell Scroll (table)\\n\\n| Spell Level | Rarity | Save DC | Attack Bonus |\\n|-------------|-----------|---------|--------------|\\n| Cantrip | Common | 13 | +5 |\\n| 1st | Common | 13 | +5 |\\n| 2nd | Uncommon | 13 | +5 |\\n| 3rd | Uncommon | 15 | +7 |\\n| 4th | Rare | 15 | +7 |\\n| 5th | Rare | 17 | +9 |\\n| 6th | Very rare | 17 | +9 |\\n| 7th | Very rare | 18 | +10 |\\n| 8th | Very rare | 18 | +10 |\\n| 9th | Legendary | 19 | +11 |\\n\\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   spell_scroll_4th_level: {
@@ -6117,6 +6182,7 @@ export default createMagicItems({
         "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.\\n\\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\\n\\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.\\n\\nSpell Scroll (table)\\n\\n| Spell Level | Rarity | Save DC | Attack Bonus |\\n|-------------|-----------|---------|--------------|\\n| Cantrip | Common | 13 | +5 |\\n| 1st | Common | 13 | +5 |\\n| 2nd | Uncommon | 13 | +5 |\\n| 3rd | Uncommon | 15 | +7 |\\n| 4th | Rare | 15 | +7 |\\n| 5th | Rare | 17 | +9 |\\n| 6th | Very rare | 17 | +9 |\\n| 7th | Very rare | 18 | +10 |\\n| 8th | Very rare | 18 | +10 |\\n| 9th | Legendary | 19 | +11 |\\n\\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   spell_scroll_5th_level: {
@@ -6128,6 +6194,7 @@ export default createMagicItems({
         "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.\\n\\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\\n\\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.\\n\\nSpell Scroll (table)\\n\\n| Spell Level | Rarity | Save DC | Attack Bonus |\\n|-------------|-----------|---------|--------------|\\n| Cantrip | Common | 13 | +5 |\\n| 1st | Common | 13 | +5 |\\n| 2nd | Uncommon | 13 | +5 |\\n| 3rd | Uncommon | 15 | +7 |\\n| 4th | Rare | 15 | +7 |\\n| 5th | Rare | 17 | +9 |\\n| 6th | Very rare | 17 | +9 |\\n| 7th | Very rare | 18 | +10 |\\n| 8th | Very rare | 18 | +10 |\\n| 9th | Legendary | 19 | +11 |\\n\\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   spell_scroll_6th_level: {
@@ -6139,6 +6206,7 @@ export default createMagicItems({
         "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.\\n\\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\\n\\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.\\n\\nSpell Scroll (table)\\n\\n| Spell Level | Rarity | Save DC | Attack Bonus |\\n|-------------|-----------|---------|--------------|\\n| Cantrip | Common | 13 | +5 |\\n| 1st | Common | 13 | +5 |\\n| 2nd | Uncommon | 13 | +5 |\\n| 3rd | Uncommon | 15 | +7 |\\n| 4th | Rare | 15 | +7 |\\n| 5th | Rare | 17 | +9 |\\n| 6th | Very rare | 17 | +9 |\\n| 7th | Very rare | 18 | +10 |\\n| 8th | Very rare | 18 | +10 |\\n| 9th | Legendary | 19 | +11 |\\n\\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   spell_scroll_7th_level: {
@@ -6150,6 +6218,7 @@ export default createMagicItems({
         "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.\\n\\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\\n\\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.\\n\\nSpell Scroll (table)\\n\\n| Spell Level | Rarity | Save DC | Attack Bonus |\\n|-------------|-----------|---------|--------------|\\n| Cantrip | Common | 13 | +5 |\\n| 1st | Common | 13 | +5 |\\n| 2nd | Uncommon | 13 | +5 |\\n| 3rd | Uncommon | 15 | +7 |\\n| 4th | Rare | 15 | +7 |\\n| 5th | Rare | 17 | +9 |\\n| 6th | Very rare | 17 | +9 |\\n| 7th | Very rare | 18 | +10 |\\n| 8th | Very rare | 18 | +10 |\\n| 9th | Legendary | 19 | +11 |\\n\\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   spell_scroll_8th_level: {
@@ -6161,6 +6230,7 @@ export default createMagicItems({
         "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.\\n\\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\\n\\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.\\n\\nSpell Scroll (table)\\n\\n| Spell Level | Rarity | Save DC | Attack Bonus |\\n|-------------|-----------|---------|--------------|\\n| Cantrip | Common | 13 | +5 |\\n| 1st | Common | 13 | +5 |\\n| 2nd | Uncommon | 13 | +5 |\\n| 3rd | Uncommon | 15 | +7 |\\n| 4th | Rare | 15 | +7 |\\n| 5th | Rare | 17 | +9 |\\n| 6th | Very rare | 17 | +9 |\\n| 7th | Very rare | 18 | +10 |\\n| 8th | Very rare | 18 | +10 |\\n| 9th | Legendary | 19 | +11 |\\n\\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   spell_scroll_9th_level: {
@@ -6172,6 +6242,7 @@ export default createMagicItems({
         "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.\\n\\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\\n\\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.\\n\\nSpell Scroll (table)\\n\\n| Spell Level | Rarity | Save DC | Attack Bonus |\\n|-------------|-----------|---------|--------------|\\n| Cantrip | Common | 13 | +5 |\\n| 1st | Common | 13 | +5 |\\n| 2nd | Uncommon | 13 | +5 |\\n| 3rd | Uncommon | 15 | +7 |\\n| 4th | Rare | 15 | +7 |\\n| 5th | Rare | 17 | +9 |\\n| 6th | Very rare | 17 | +9 |\\n| 7th | Very rare | 18 | +10 |\\n| 8th | Very rare | 18 | +10 |\\n| 9th | Legendary | 19 | +11 |\\n\\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   spell_scroll_cantrip: {
@@ -6183,6 +6254,7 @@ export default createMagicItems({
         "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.\\n\\nIf the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.\\n\\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.\\n\\nSpell Scroll (table)\\n\\n| Spell Level | Rarity | Save DC | Attack Bonus |\\n|-------------|-----------|---------|--------------|\\n| Cantrip | Common | 13 | +5 |\\n| 1st | Common | 13 | +5 |\\n| 2nd | Uncommon | 13 | +5 |\\n| 3rd | Uncommon | 15 | +7 |\\n| 4th | Rare | 15 | +7 |\\n| 5th | Rare | 17 | +9 |\\n| 6th | Very rare | 17 | +9 |\\n| 7th | Very rare | 18 | +10 |\\n| 8th | Very rare | 18 | +10 |\\n| 9th | Legendary | 19 | +11 |\\n\\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   spellguard_shield_srd_5_1: {
@@ -6195,6 +6267,7 @@ export default createMagicItems({
         'While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   sphere_of_annihilation_srd_5_1: {
@@ -6224,6 +6297,7 @@ export default createMagicItems({
         '86-00 · A spatial rift sends each creature and object within 180 feet of the sphere, including the sphere, to a random plane of existence.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   staff_of_charming_srd_5_1: {
@@ -6242,6 +6316,7 @@ export default createMagicItems({
         'The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   staff_of_fire_srd_5_1: {
@@ -6320,6 +6395,7 @@ export default createMagicItems({
       ['11 to 20 ft. away · 6 × the number of charges in the staff'],
       ['21 to 30 ft. away · 4 × the number of charges in the staff'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   staff_of_striking_srd_5_1: {
@@ -6353,6 +6429,7 @@ export default createMagicItems({
         'Insect Cloud. While holding the staff, you can use an action and expend 1 charge to cause a swarm of harmless flying insects to spread out in a 30-foot radius from you. The insects remain for 10 minutes, making the area heavily obscured for creatures other than you. The swarm moves with you, remaining centered on you. A wind of at least 10 miles per hour disperses the swarm and ends the effect.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   staff_of_the_magi_srd_5_1: {
@@ -6387,6 +6464,7 @@ export default createMagicItems({
       ['11 to 20 ft. away · 6 × the number of charges in the staff'],
       ['21 to 30 ft. away · 4 × the number of charges in the staff'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   staff_of_the_python_srd_5_1: {
@@ -6405,6 +6483,7 @@ export default createMagicItems({
         'If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   staff_of_the_woodlands_srd_5_1: {
@@ -6519,6 +6598,7 @@ export default createMagicItems({
         'While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   sun_blade_srd_5_1: {
@@ -6809,6 +6889,7 @@ export default createMagicItems({
         'The talisman has 7 charges. If you are wearing or holding it, you can use an action to expend 1 charge from it and choose one creature you can see on the ground within 120 feet of you. If the target is of evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   talisman_of_the_sphere_srd_5_1: {
@@ -6839,6 +6920,7 @@ export default createMagicItems({
         'The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   tome_of_clear_thought_srd_5_1: {
@@ -7452,6 +7534,7 @@ export default createMagicItems({
         'Assisted Escape. While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being paralyzed or restrained, or you can expend 1 charge and gain advantage on any check you make to escape a grapple.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   wand_of_enemy_detection_srd_5_1: {
@@ -7467,6 +7550,7 @@ export default createMagicItems({
         "The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   wand_of_fear_srd_5_1: {
@@ -7720,6 +7804,7 @@ export default createMagicItems({
         "98-100 · If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly petrified. On any other failed save, the target is restrained and begins to turn to stone. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the target is freed by the greater restoration spell or similar magic.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
   war_pick_1_srd_5_1: {
@@ -7869,6 +7954,7 @@ export default createMagicItems({
         "While wearing this cloak, you can use an action to speak its command word. This turns the cloak into a pair of bat wings or bird wings on your back for 1 hour or until you repeat the command word as an action. The wings give you a flying speed of 60 feet. When they disappear, you can't use them again for 1d12 hours.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_1,
   },
 })

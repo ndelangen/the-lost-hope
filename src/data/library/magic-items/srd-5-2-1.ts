@@ -167,6 +167,7 @@ export default createMagicItems({
       ['86–90 · Plants'],
       ['91–00 · Undead'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   amulet_of_health: {
@@ -229,6 +230,7 @@ export default createMagicItems({
         ' condition, at which point the Shield falls to the ground or into your hand if you have one free.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   apparatus_of_the_crab: {
@@ -840,6 +842,7 @@ export default createMagicItems({
         "96–00 · A giant beanstalk sprouts, growing to a height of the GM's choice. The top leads where the GM chooses, such as to a great view, a cloud giant's castle, or another plane of existence.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   bag_of_devouring: {
@@ -862,6 +865,7 @@ export default createMagicItems({
         'This bag has an interior space considerably larger than its outside dimensions—roughly 2 feet square and 4 feet deep on the inside. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 5 pounds, regardless of its contents. Retrieving an item from the bag requires a Utilize action. If the bag is overloaded, pierced, or torn, it is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth unharmed, but the bag must be put right before it can be used again. The bag holds enough air for 10 minutes of breathing, divided by the number of breathing creatures inside. Placing a Bag of Holding inside an extradimensional space created by a Handy Haversack, Portable Hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within a 10-foot-radius Sphere centered on the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way and can’t be reopened.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   bag_of_tricks: {
@@ -995,6 +999,7 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   belt_of_giant_strength_cloud: {
@@ -1404,6 +1409,7 @@ export default createMagicItems({
       ['91–95 · Pandemonium'],
       ['96–00 · Ysgard'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   cape_of_the_mountebank: {
@@ -1415,6 +1421,7 @@ export default createMagicItems({
         "This cape smells faintly of brimstone. While wearing it, you can use it to cast Dimension Door as a Magic action. This property can't be used again until the next dawn. When you teleport with that spell, you leave behind a cloud of smoke. The space you left is Lightly Obscured by that smoke until the end of your next turn.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   carpet_of_flying: {
@@ -1569,6 +1576,7 @@ export default createMagicItems({
         'While you wear this cloak, it magically projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have Disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while your Speed is 0.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   cloak_of_elvenkind: {
@@ -1589,6 +1597,7 @@ export default createMagicItems({
     rarity: 'uncommon',
     attunement: true,
     text: [['You gain a +1 bonus to Armor Class and saving throws while you wear this cloak.']],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   cloak_of_the_bat: {
@@ -1892,6 +1901,7 @@ export default createMagicItems({
         ' condition. Instead of a creature, you can target one object in the Line that isn’t being worn or carried and that weighs no more than 200 pounds. The object is knocked over by the geyser.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   deck_of_illusions: {
@@ -1915,6 +1925,7 @@ export default createMagicItems({
         "You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_battleaxe: {
@@ -1929,6 +1940,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_blowgun: {
@@ -1943,6 +1955,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_club: {
@@ -1957,6 +1970,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_dagger: {
@@ -1971,6 +1985,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_dart: {
@@ -1985,6 +2000,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_flail: {
@@ -1999,6 +2015,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_glaive: {
@@ -2013,6 +2030,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_greataxe: {
@@ -2027,6 +2045,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_greatclub: {
@@ -2041,6 +2060,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_greatsword: {
@@ -2055,6 +2075,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_halberd: {
@@ -2069,6 +2090,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_hand_crossbow: {
@@ -2083,6 +2105,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_handaxe: {
@@ -2097,6 +2120,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_heavy_crossbow: {
@@ -2111,6 +2135,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_javelin: {
@@ -2125,6 +2150,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_lance: {
@@ -2139,6 +2165,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_light_crossbow: {
@@ -2153,6 +2180,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_light_hammer: {
@@ -2167,6 +2195,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_longbow: {
@@ -2181,6 +2210,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_longsword: {
@@ -2195,6 +2225,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_mace: {
@@ -2209,6 +2240,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_maul: {
@@ -2223,6 +2255,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_morningstar: {
@@ -2237,6 +2270,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_musket: {
@@ -2251,6 +2285,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_pike: {
@@ -2265,6 +2300,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_pistol: {
@@ -2279,6 +2315,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_quarterstaff: {
@@ -2293,6 +2330,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_rapier: {
@@ -2307,6 +2345,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_scimitar: {
@@ -2321,6 +2360,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_shortbow: {
@@ -2335,6 +2375,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_shortsword: {
@@ -2349,6 +2390,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_sickle: {
@@ -2363,6 +2405,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_sling: {
@@ -2376,6 +2419,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_spear: {
@@ -2390,6 +2434,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_trident: {
@@ -2404,6 +2449,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_war_pick: {
@@ -2418,6 +2464,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_warhammer: {
@@ -2432,6 +2479,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   defender_whip: {
@@ -2446,6 +2494,7 @@ export default createMagicItems({
         "The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_breastplate: {
@@ -2463,6 +2512,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_chain_mail: {
@@ -2480,6 +2530,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_chain_shirt: {
@@ -2497,6 +2548,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_half_plate_armor: {
@@ -2514,6 +2566,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_hide_armor: {
@@ -2531,6 +2584,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_leather_armor: {
@@ -2548,6 +2602,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_padded_armor: {
@@ -2565,6 +2620,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_plate_armor: {
@@ -2582,6 +2638,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_ring_mail: {
@@ -2599,6 +2656,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_scale_mail: {
@@ -2616,6 +2674,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_splint_armor: {
@@ -2633,6 +2692,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demon_studded_leather_armor: {
@@ -2650,6 +2710,7 @@ export default createMagicItems({
         "Curse. Once you don this cursed armor, you can't doff it unless you are targeted by a Remove Curse spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   dimensional_shackles: {
@@ -2751,6 +2812,7 @@ export default createMagicItems({
       ['Silver · Cold'],
       ['White · Cold'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   dragon_slayer: {
@@ -2800,6 +2862,7 @@ export default createMagicItems({
         'This small packet contains 1d6 + 4 pinches of dust. As a Utilize action, you can sprinkle a pinch of the dust over water, turning up to a 15-foot Cube of water into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet’s weight is negligible. A creature can take a Utilize action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so destroys the pellet and ends its magic. As a Utilize action, you can sprinkle a pinch of the dust on an Elemental within 5 feet of yourself that is composed mostly of water (such as a Water Elemental). Such a creature exposed to a pinch of the dust makes a DC 13 Constitution saving throw, taking 10d6 Necrotic damage on a failed save or half as much damage on a successful one.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   dust_of_sneezing_and_choking: {
@@ -2898,6 +2961,7 @@ export default createMagicItems({
         '10 · The efreeti understands your languages and can cast Wish once for you. It disappears when it grants the wish or after 1 hour, and the bottle loses its magic.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   elemental_gem: {
@@ -2925,6 +2989,7 @@ export default createMagicItems({
         'When you drink this potion, you are cured of all magical contagions. In addition, the following conditions end on you: Blinded, Deafened, Paralyzed, and Poisoned. The clear, red liquid has tiny bubbles of light in it.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   elven_chain_mail: {
@@ -3032,6 +3097,7 @@ export default createMagicItems({
       ['66–90 · Tree · Uncommon'],
       ['91–00 · Whip · Rare'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   feather_token_bird: {
@@ -3070,6 +3136,7 @@ export default createMagicItems({
       ['66–90 · Tree · Uncommon'],
       ['91–00 · Whip · Rare'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   feather_token_fan: {
@@ -3108,6 +3175,7 @@ export default createMagicItems({
       ['66–90 · Tree · Uncommon'],
       ['91–00 · Whip · Rare'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   feather_token_swan_boat: {
@@ -3146,6 +3214,7 @@ export default createMagicItems({
       ['66–90 · Tree · Uncommon'],
       ['91–00 · Whip · Rare'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   feather_token_tree: {
@@ -3184,6 +3253,7 @@ export default createMagicItems({
       ['66–90 · Tree · Uncommon'],
       ['91–00 · Whip · Rare'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   feather_token_whip: {
@@ -3222,6 +3292,7 @@ export default createMagicItems({
       ['66–90 · Tree · Uncommon'],
       ['91–00 · Whip · Rare'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   figurine_of_wondrous_power_bronze_griffon: {
@@ -3855,6 +3926,7 @@ export default createMagicItems({
         'This object appears as a wooden box that measures 12 inches long, 6 inches wide, and 6 inches deep. It weighs 4 pounds and floats. It can be opened to store items inside. This item also has three command words, each requiring a Magic action to use: First Command Word. The box unfolds into a Rowboat. Second Command Word. The box unfolds into a Keelboat. Third Command Word. The Folding Boat folds back into a box if no creatures are aboard. Any objects in the vessel that can’t fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so. When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat. Statistics for the Rowboat and Keelboat appear in “Equipment.” If either vessel is reduced to 0 Hit Points, the Folding Boat is destroyed. Frost Brand Weapon (Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword), Very Rare (Requires Attunement) When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage. In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can’t be used again for 1 hour.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   frost_brand: {
@@ -3867,6 +3939,7 @@ export default createMagicItems({
         "When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage. In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can't be used again for 1 hour.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   gauntlets_of_ogre_power: {
@@ -5313,6 +5386,7 @@ export default createMagicItems({
         "This backpack has a central pouch and two side pouches, each of which is an extradimensional space. Each side pouch can hold up to 200 pounds of material, not exceeding a volume of 25 cubic feet. The central pouch can hold up to 500 pounds of material, not exceeding a volume of 64 cubic feet. The haversack always weighs 5 pounds, regardless of its contents. Retrieving an item from the haversack requires a Utilize action or a Bonus Action (your choice). When you reach into the haversack for a specific item, the item is always magically on top. If any of its pouches is overloaded, pierced, or torn, the haversack ruptures and is destroyed. If the haversack is destroyed, its contents are lost forever, although an Artifact always turns up again somewhere. If the haversack is turned inside out, its contents spill forth unharmed, and the haversack must be put right before it can be used again. Each pouch of the haversack holds enough air for 10 minutes of breathing, divided by the number of breathing creatures inside. Placing the haversack inside an extradimensional space created by a Bag of Holding, Portable Hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate and not behind Total Cover is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   hat_of_disguise: {
@@ -5385,6 +5459,7 @@ export default createMagicItems({
         "This helm is set with 1d10 diamonds, 2d10 rubies, 3d10 fire opals, and 4d10 opals. Any gem pried from the helm crumbles to dust. When all the gems are removed or destroyed, the helm loses its magic. You gain the following benefits while wearing the helm. Diamond Light. As long as it has at least one diamond, the helm emits a 30-foot Emanation. When at least one Undead is within that area, the Emanation is filled with Dim Light. Any Undead that starts its turn in that area takes 1d6 Radiant damage. Fire Opal Flames. As long as the helm has at least one fire opal, you can take a Magic action to cause one weapon you are holding to burst into flames. The flames emit Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. The flames are harmless to you and the weapon. When you hit with an attack using the blazing weapon, the target takes an extra 1d6 Fire damage. The flames last until you take a Bonus Action to extinguish them or until you drop or stow the weapon. Ruby Resistance. As long as the helm has at least one ruby, you have Resistance to Fire damage. Spells. You can cast one of the following spells (save DC 18), using one of the helm's gems of the specified type as a component: Daylight (opal), Fireball (fire opal), Prismatic Spray (diamond), or Wall of Fire (ruby). The gem is destroyed when the spell is cast and disappears from the helm. Taking Fire Damage. Roll 1d20 if you are wearing the helm and take Fire damage as a result of failing a saving throw against a spell. On a roll of 1, the helm emits beams of light from its remaining gems and is then destroyed. Each creature within a 60 foot Emanation originating from you must succeed on a DC 17 Dexterity saving throw or be struck by a beam, taking Radiant damage equal to the number of gems in the helm.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   helm_of_comprehending_languages: {
@@ -5467,6 +5542,7 @@ export default createMagicItems({
         'You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. When you hit a Fiend or an Undead with it, that creature takes an extra 2d10 Radiant damage. While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_battleaxe: {
@@ -5483,6 +5559,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_blowgun: {
@@ -5499,6 +5576,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_club: {
@@ -5515,6 +5593,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_dagger: {
@@ -5531,6 +5610,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_dart: {
@@ -5547,6 +5627,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_flail: {
@@ -5563,6 +5644,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_glaive: {
@@ -5579,6 +5661,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_greataxe: {
@@ -5595,6 +5678,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_greatclub: {
@@ -5611,6 +5695,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_greatsword: {
@@ -5627,6 +5712,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_halberd: {
@@ -5643,6 +5729,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_hand_crossbow: {
@@ -5659,6 +5746,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_handaxe: {
@@ -5675,6 +5763,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_heavy_crossbow: {
@@ -5691,6 +5780,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_javelin: {
@@ -5707,6 +5797,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_lance: {
@@ -5723,6 +5814,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_light_crossbow: {
@@ -5739,6 +5831,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_light_hammer: {
@@ -5755,6 +5848,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_longbow: {
@@ -5771,6 +5865,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_longsword: {
@@ -5787,6 +5882,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_mace: {
@@ -5803,6 +5899,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_maul: {
@@ -5819,6 +5916,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_morningstar: {
@@ -5835,6 +5933,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_musket: {
@@ -5851,6 +5950,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_pike: {
@@ -5867,6 +5967,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_pistol: {
@@ -5883,6 +5984,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_quarterstaff: {
@@ -5899,6 +6001,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_rapier: {
@@ -5915,6 +6018,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_scimitar: {
@@ -5931,6 +6035,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_shortbow: {
@@ -5947,6 +6052,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_shortsword: {
@@ -5963,6 +6069,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_sickle: {
@@ -5979,6 +6086,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_sling: {
@@ -5994,6 +6102,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_spear: {
@@ -6010,6 +6119,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_trident: {
@@ -6026,6 +6136,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_war_pick: {
@@ -6042,6 +6153,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_warhammer: {
@@ -6058,6 +6170,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   holy_avenger_whip: {
@@ -6074,6 +6187,7 @@ export default createMagicItems({
         'While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have Advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the Paladin class, the size of the Emanation increases to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   horn_of_blasting: {
@@ -6120,6 +6234,7 @@ export default createMagicItems({
       ['76–90 · Bronze · 4 · Training with all Medium armor'],
       ['91–00 · Iron · 5 · Proficiency with all Martial weapons'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   horseshoes_of_a_zephyr: {
@@ -6202,6 +6317,7 @@ export default createMagicItems({
         "While holding this brass-stoppered iron flask, you can take a Magic action to target a creature that you can see within 60 feet of yourself. If the flask is empty and the target is native to a plane of existence other than the one you're on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has Advantage on the save. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn't age and doesn't need to breathe, eat, or drink. You can take a Magic action to remove the flask's stopper and release the creature in the flask. The creature then obeys your commands for 1 hour, understanding those commands even if it doesn't know the language in which the commands are given. If you issue no commands or give the creature a command that is likely to result in its death or imprisonment, it defends itself but otherwise takes no actions. At the end of the duration, the creature acts in accordance with its normal disposition and alignment. An Identify spell reveals if the flask contains a creature, but the only way to determine the type of creature is to open the flask. A newly discovered Iron Flask might already contain a creature chosen by the GM.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   javelin_1: {
@@ -6249,6 +6365,7 @@ export default createMagicItems({
         "Each time you make an attack roll with this magic weapon and hit, you can have it deal Lightning damage instead of Piercing damage. Lightning Bolt. When you throw this weapon at a target no farther than 120 feet from you, you can forgo making a ranged attack roll and instead turn the weapon into a bolt of lightning. This bolt forms a 5-foot-wide Line between you and the target. The target and each other creature in the Line (excluding you) makes a DC 13 Dexterity saving throw, taking 4d6 Lightning damage on a failed save or half as much damage on a successful one. Immediately after dealing this damage, the weapon reappears in your hand. This property can't be used again until the next dawn.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   lance_1: {
@@ -6298,6 +6415,7 @@ export default createMagicItems({
         ' condition. You must use the second roll. Once used, this property can’t be used again until the next dawn. Wish. The weapon has 1d3 charges. While holding it, you can expend 1 charge and cast Wish from it. Once used, this property can’t be used again until the next dawn. The weapon loses this property if it has no charges.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   leather_armor_1: {
@@ -6547,6 +6665,7 @@ export default createMagicItems({
         " condition. You must use the second roll. Once used, this property can't be used again until the next dawn. Wish. The weapon has 1d3 charges. While holding it, you can expend 1 charge and cast Wish from it. Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   mace_1: {
@@ -6597,6 +6716,7 @@ export default createMagicItems({
         ' condition until the end of your next turn. Light. While you hold this weapon, it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   mace_of_smiting: {
@@ -6640,6 +6760,7 @@ export default createMagicItems({
     rarity: 'rare',
     attunement: true,
     text: [['You have Advantage on saving throws against spells while you wear this cloak.']],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   manual_of_bodily_health: {
@@ -6765,6 +6886,7 @@ export default createMagicItems({
         "When this 4-foot-tall, 2-foot-wide mirror is viewed indirectly, its surface shows faint images of creatures. The mirror weighs 50 pounds, and it has AC 11, HP 10, Immunity to Poison and Psychic damage, and Vulnerability to Bludgeoning damage. It shatters and is destroyed when reduced to 0 Hit Points. If the mirror is hanging on a vertical surface and you are within 5 feet of it, you can take a Magic action and use a command word to activate it. It remains activated until you take a Magic action and repeat the command word to deactivate it. Any creature other than you that sees its reflection in the activated mirror while within 30 feet of the mirror must succeed on a DC 15 Charisma saving throw or be trapped, along with anything it is wearing or carrying, in one of the mirror's twelve extradimensional cells. A creature that knows the mirror's nature makes the save with Advantage, and Constructs succeed on the save automatically. An extradimensional cell is an infinite expanse filled with thick fog that reduces visibility to 10 feet. Creatures trapped in the mirror's cells don't age, and they don't need to eat, drink, or sleep. A creature trapped within a cell can escape using magic that permits planar travel. Otherwise, the creature is confined to the cell until freed. If the mirror traps a creature but its twelve extradimensional cells are already occupied, the mirror frees one trapped creature at random to accommodate the new prisoner. A freed creature appears in an unoccupied space within sight of the mirror but facing away from it. If the mirror is shattered, all creatures it contains are freed and appear in unoccupied spaces near it. While within 5 feet of the mirror, you can take a Magic action to name one creature trapped in it or call out a particular cell by number. The creature named or contained in the named cell appears as an image on the mirror's surface. You and the creature can then communicate. In a similar way, you can take a Magic action and use a second command word to free one creature trapped in the mirror. The freed creature appears, along with its possessions, in the unoccupied space nearest to the mirror and facing away from it. Placing the mirror inside an extradimensional space created by a Bag of Holding, Portable Hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate and not behind Total Cover is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   mithral_armor_breastplate: {
@@ -7057,6 +7179,7 @@ export default createMagicItems({
         "Multiattack. The avatar makes a number of Reaping Scythe attacks equal to half the summoner's Proficiency Bonus (rounded up). Reaping Scythe. Melee Attack Roll: Automatic hit, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 4 (1d8) Necrotic damage.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   necklace_of_adaptation: {
@@ -7071,6 +7194,7 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   necklace_of_fireballs: {
@@ -7118,6 +7242,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_blowgun: {
@@ -7132,6 +7257,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_club: {
@@ -7146,6 +7272,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_dagger: {
@@ -7160,6 +7287,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_dart: {
@@ -7174,6 +7302,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_flail: {
@@ -7188,6 +7317,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_glaive: {
@@ -7202,6 +7332,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_greataxe: {
@@ -7216,6 +7347,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_greatclub: {
@@ -7230,6 +7362,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_greatsword: {
@@ -7244,6 +7377,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_halberd: {
@@ -7258,6 +7392,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_hand_crossbow: {
@@ -7272,6 +7407,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_handaxe: {
@@ -7286,6 +7422,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_heavy_crossbow: {
@@ -7300,6 +7437,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_javelin: {
@@ -7314,6 +7452,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_lance: {
@@ -7328,6 +7467,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_light_crossbow: {
@@ -7342,6 +7482,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_light_hammer: {
@@ -7356,6 +7497,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_longbow: {
@@ -7370,6 +7512,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_longsword: {
@@ -7384,6 +7527,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_mace: {
@@ -7398,6 +7542,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_maul: {
@@ -7412,6 +7557,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_morningstar: {
@@ -7426,6 +7572,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_musket: {
@@ -7440,6 +7587,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_pike: {
@@ -7454,6 +7602,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_pistol: {
@@ -7468,6 +7617,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_quarterstaff: {
@@ -7482,6 +7632,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_rapier: {
@@ -7496,6 +7647,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_scimitar: {
@@ -7510,6 +7662,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_shortbow: {
@@ -7524,6 +7677,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_shortsword: {
@@ -7538,6 +7692,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_sickle: {
@@ -7552,6 +7707,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_sling: {
@@ -7565,6 +7721,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_spear: {
@@ -7579,6 +7736,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_trident: {
@@ -7593,6 +7751,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_war_pick: {
@@ -7607,6 +7766,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_warhammer: {
@@ -7621,6 +7781,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   nine_lives_stealer_whip: {
@@ -7635,6 +7796,7 @@ export default createMagicItems({
         'Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   oathbow_longbow: {
@@ -7690,6 +7852,7 @@ export default createMagicItems({
         'One vial of this oil can coat one Melee weapon or twenty pieces of ammunition, but only ammunition and Melee weapons that are nonmagical and deal Slashing or Piercing damage are affected. Applying the oil takes 1 minute, after which the oil magically seeps into whatever it coats, turning the coated weapon into a +3 Weapon or the coated ammunition into +3 Ammunition. This clear, gelatinous oil sparkles with tiny, ultrathin silver shards.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   oil_of_slipperiness: {
@@ -7777,6 +7940,7 @@ export default createMagicItems({
         ' condition while you wear this pendant.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   periapt_of_proof_against_poison: {
@@ -7791,6 +7955,7 @@ export default createMagicItems({
         ' condition and Poison damage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   periapt_of_wound_closure: {
@@ -7803,6 +7968,7 @@ export default createMagicItems({
         'While wearing this pendant, you gain the following benefits. Life Preservation. Whenever you make a Death Saving Throw, you can change a roll of 9 or lower to a 10, turning a failed save into a successful one. Natural Healing Boost. Whenever you roll a Hit Point Die to regain Hit Points, double the number of Hit Points it restores.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   philter_of_love: {
@@ -7896,6 +8062,7 @@ export default createMagicItems({
         "While these pipes are on your person, ordinary rats and giant rats are Indifferent toward you and won't attack you unless you threaten or harm them. The pipes have 3 charges and regain 1d3 expended charges daily at dawn. If you play the pipes as a Magic action, you can take a Bonus Action to expend 1 to 3 charges, calling forth one Swarm of Rats with each expended charge if enough rats are within half a mile of you to be called in this fashion (as determined by the GM). If there aren't enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren't under your control otherwise. Whenever a Swarm of Rats that isn't under another creature's control comes within 30 feet of you while you are playing the pipes, the swarm makes a DC 15 Wisdom saving throw. On a successful save, the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours. On a failed save, the swarm is swayed by the pipes' music and becomes Friendly to you and your allies for as long as you continue to play the pipes each round as a Magic action. A Friendly swarm obeys your commands. If you issue no commands to a Friendly swarm, it defends itself but otherwise takes no actions. If a Friendly swarm starts its turn more than 30 feet away from you, your control over that swarm ends, and the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   pistol_1: {
@@ -7995,6 +8162,7 @@ export default createMagicItems({
         "This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter. You can take a Magic action to unfold a Portable Hole and place it on or against a solid surface, whereupon the Portable Hole creates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane of existence, so it can't be used to create open passages. Any creature inside an open Portable Hole can exit the hole by climbing out of it. You can take a Magic action to close a Portable Hole by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what's in it, the hole weighs next to nothing. If the hole is folded up, a creature within the hole's extradimensional space can take an action to make a DC 10 Strength (Athletics) check. On a successful check, the creature forces its way out and appears within 5 feet of the Portable Hole. A closed Portable Hole holds enough air for 1 hour of breathing, divided by the number of breathing creatures inside. Placing a Portable Hole inside an extradimensional space created by a Bag of Holding, Handy Haversack, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate and not behind Total Cover is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_animal_friendship: {
@@ -8006,6 +8174,7 @@ export default createMagicItems({
         'When you drink this potion, you can cast the level 3 version of the Animal Friendship spell (save DC 13). Agitating this potion’s muddy liquid brings little bits into view: a fish scale, a hummingbird feather, a cat claw, or a squirrel hair.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_clairvoyance: {
@@ -8017,6 +8186,7 @@ export default createMagicItems({
         'When you drink this potion, you gain the effect of the Clairvoyance spell (no Concentration required). An eyeball bobs in this potion’s yellowish liquid but vanishes when the potion is opened.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_climbing: {
@@ -8523,6 +8693,7 @@ export default createMagicItems({
         "While wearing this ring, you can take a Magic action to summon a particular Djinni from the Elemental Plane of Air. The djinni appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain Concentration, to a maximum of 1 hour, or until it drops to 0 Hit Points. While summoned, the djinni is Friendly to you and your allies, and it obeys your commands. If you fail to command it, the djinni defends itself against attackers but takes no other actions. After the djinni departs, it can't be summoned again for 24 hours, and the ring becomes nonmagical if the djinni dies. Rings of Djinni Summoning are often created by the djinn they summon and given to mortals as gifts of friendship or tokens of esteem.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   ring_of_elemental_command: {
@@ -8593,6 +8764,7 @@ export default createMagicItems({
         'This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing the ring, you can take a Reaction to expend 1 charge to succeed on that save instead.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   ring_of_feather_falling: {
@@ -8619,6 +8791,7 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   ring_of_invisibility: {
@@ -8679,6 +8852,7 @@ export default createMagicItems({
     rarity: 'rare',
     attunement: true,
     text: [['You gain a +1 bonus to Armor Class and saving throws while wearing this ring.']],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   ring_of_regeneration: {
@@ -8742,6 +8916,7 @@ export default createMagicItems({
         'Shooting Stars. You can expend 1 to 3 charges as a Magic action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of yourself. Each creature in a 15-foot Cube originating from that point is showered in sparks and makes a DC 15 Dexterity saving throw, taking 5d4 Radiant damage on a failed save or half as much damage on a successful one.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   ring_of_spell_storing: {
@@ -8766,6 +8941,7 @@ export default createMagicItems({
         "While wearing this ring, you have Advantage on saving throws against spells. If you succeed on the save for a spell of level 7 or lower, the spell has no effect on you. If that spell targeted only you and didn't create an area of effect, you can take a Reaction to deflect the spell back at the spell's caster; the caster must make a saving throw against the spell using their own spell save DC.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   ring_of_swimming: {
@@ -8835,6 +9011,7 @@ export default createMagicItems({
         "While wearing this ring, you can take a Magic action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead block the vision. Whenever you use the ring again before taking a Long Rest, you must succeed on a DC 15 Constitution saving throw or gain 1 Exhaustion level.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   robe_of_eyes: {
@@ -8849,6 +9026,7 @@ export default createMagicItems({
         ' condition for 1 minute. At the end of each of your turns, you make a Constitution saving throw (DC 11 for Light or DC 15 for Daylight), ending the condition on yourself on a success.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   robe_of_scintillating_colors: {
@@ -8884,6 +9062,7 @@ export default createMagicItems({
         "This black or dark-blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it. Six stars, located on the robe's upper-front portion, are particularly large. While wearing this robe, you can take a Magic action to remove one of the stars and expend it to cast the level 5 version of Magic Missile. Daily at dusk, 1d6 removed stars reappear on the robe. While you wear the robe, you can take a Magic action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you take a Magic action to return to the plane you were on. You reappear in the last space you occupied or, if that space is occupied, the nearest unoccupied space.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   robe_of_the_archmagi: {
@@ -8896,6 +9075,7 @@ export default createMagicItems({
         "This elegant garment is made from exquisite cloth and adorned with runes. You gain these benefits while wearing the robe. Armor. If you aren't wearing armor, your base Armor Class is 15 plus your Dexterity modifier. Magic Resistance. You have Advantage on saving throws against spells and other magical effects. War Mage. Your spell save DC and spell attack bonus each increase by 2.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   robe_of_useful_items: {
@@ -9096,6 +9276,7 @@ export default createMagicItems({
         'This beetle-shaped medallion provides three benefits while it is on your person. Defense. You gain a +1 bonus to Armor Class. Preservation. The scarab has 12 charges. If you fail a saving throw against a Necromancy spell or a harmful effect originating from an Undead, you can take a Reaction to expend 1 charge and turn the failed save into a successful one. The scarab crumbles into powder and is destroyed when its last charge is expended. Spell Resistance. You have Advantage on saving throws against spells.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   scimitar_1: {
@@ -9506,6 +9687,7 @@ export default createMagicItems({
         'While holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   sphere_of_annihilation: {
@@ -9535,6 +9717,7 @@ export default createMagicItems({
         '86–00 · A spatial rift sends the sphere and each creature and object within 180 feet of the sphere to a random plane of existence.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   splint_armor_1: {
@@ -9586,6 +9769,7 @@ export default createMagicItems({
         "This staff has 10 charges. While holding the staff, you can use any of its properties: Cast Spell. You can expend 1 of the staff's charges to cast Charm Person, Command, or Comprehend Languages from it using your spell save DC. Reflect Enchantment.* If you succeed on a saving throw against an Enchantment spell that targets only you, you can take a Reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell. Resist Enchantment. If you fail a saving throw against an Enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn. Regaining Charges. The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   staff_of_fire: {
@@ -9677,6 +9861,7 @@ export default createMagicItems({
         'Retributive Strike. You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 4 times the number of charges in the staff. On a successful save, a creature takes half as much damage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   staff_of_striking: {
@@ -9711,6 +9896,7 @@ export default createMagicItems({
         'Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   staff_of_the_magi: {
@@ -9755,6 +9941,7 @@ export default createMagicItems({
         'Retributive Strike. You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 6 times the number of charges in the staff. On a successful save, a creature takes half as much damage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   staff_of_the_python: {
@@ -9769,6 +9956,7 @@ export default createMagicItems({
         " condition. You decide what action the snake takes and where it moves during its turn, or you can issue it a general command, such as to attack your enemies or guard a location. Absent commands from you, the snake defends itself. As a Bonus Action, you can command the snake to revert to staff form in its current space, and you can't use the staff's property again for 1 hour. If the snake is reduced to 0 Hit Points, it dies and reverts to its staff form; the staff then shatters and is destroyed. If the snake reverts to staff form before losing all its Hit Points, it regains all of them.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   staff_of_the_woodlands: {
@@ -9877,6 +10065,7 @@ export default createMagicItems({
         'While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   studded_leather_armor_1: {
@@ -9940,6 +10129,7 @@ export default createMagicItems({
         "This talisman is a mighty symbol of goodness. A Fiend or an Undead that touches the talisman takes 8d6 Radiant damage and takes the damage again each time it ends its turn holding or carrying the talisman. Holy Symbol. You can use the talisman as a Holy Symbol. You gain a +2 bonus to spell attack rolls while you wear or hold it. Pure Rebuke. The talisman has 7 charges. While wearing or holding the talisman, you can take a Magic action to expend 1 charge and target one creature you can see on the ground within 120 feet of yourself. A flaming fissure opens under the target, and the target makes a DC 20 Dexterity saving throw. If the target is a Fiend or an Undead, it has Disadvantage on the save. On a failed save, the target falls into the fissure and is destroyed, leaving no remains. On a successful save, the target isn't cast into the fissure but takes 4d6 Psychic damage from the ordeal. In either case, the fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   talisman_of_the_sphere: {
@@ -9964,6 +10154,7 @@ export default createMagicItems({
         "This item symbolizes unrepentant evil. A creature that isn't a Fiend or an Undead that touches the talisman takes 8d6 Necrotic damage and takes the damage again each time it ends its turn holding or carrying the talisman. Holy Symbol. You can use the talisman as a Holy Symbol. You gain a +2 bonus to spell attack rolls while you wear or hold it. Ultimate End. The talisman has 6 charges. While wearing or holding the talisman, you can take a Magic action to expend 1 charge and target one creature you can see on the ground within 120 feet of yourself. A flaming fissure opens under the target, and the target makes a DC 20 Dexterity saving throw. If the target is a Celestial, it has Disadvantage on the save. On a failed save, the target falls into the fissure and is destroyed, leaving no remains. On a successful save, the target isn't cast into the fissure but takes 4d6 Psychic damage from the ordeal. In either case, the fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   tome_of_clear_thought: {
@@ -10606,6 +10797,7 @@ export default createMagicItems({
         "This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge. For 1 minute, you know the direction of the nearest creature Hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of Hostile creatures that are Invisible, ethereal, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand. Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   wand_of_fear: {
@@ -10779,6 +10971,7 @@ export default createMagicItems({
         ' condition. The petrification lasts until the creature is freed by the Greater Restoration spell or similar magic. |',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   war_pick_1: {
@@ -11566,6 +11759,7 @@ export default createMagicItems({
         'These boots have 4 charges and regain 1d4 expended charges daily at dawn. While wearing the boots, you can take a Magic action to expend 1 charge, gaining a Fly Speed of 30 feet for 1 hour. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   wings_of_flying: {
@@ -11578,6 +11772,7 @@ export default createMagicItems({
         "While wearing this cloak, you can take a Magic action to turn the cloak into a pair of wings on your back. The wings lasts for 1 hour or until you end the effect early as a Magic action. The wings give you a Fly Speed of 60 feet. If you are aloft when the wings disappear, you fall. When the wings disappear, you can't use them again for 1d12 hours.",
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
 })

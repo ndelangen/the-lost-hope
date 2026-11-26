@@ -146,6 +146,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '), with no components.',
             ],
+            effects: [],
           },
         ],
       },
@@ -260,6 +261,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               '). At will.',
             ],
+            effects: [],
           },
           {
             key: 'light-and-mage-hand',
@@ -267,6 +269,7 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: ['The hand is ', rules.invisible, '. 1/day each. Plane Shift and Telekinesis.'],
+            effects: [],
           },
           {
             key: 'astral-step',
@@ -331,6 +334,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               '). At will.',
             ],
+            effects: [],
           },
           {
             key: 'light-and-mage-hand',
@@ -342,6 +346,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '. 2/day each. Detect Magic, Invisibility (self only), Mage Armor (self only), and Tongues. 1/day each. Contact Other Plane (takes one action), Plane Shift, and Telekinesis.',
             ],
+            effects: [],
           },
           {
             key: 'astral-step',
@@ -426,6 +431,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition prevents it from gliding.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -505,6 +511,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition prevents it from gliding.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -558,6 +565,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition prevents it from gliding.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

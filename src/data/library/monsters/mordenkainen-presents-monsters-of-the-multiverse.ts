@@ -35,6 +35,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'tunneler',
@@ -310,6 +311,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -407,6 +409,7 @@ export default createPublicationMonsters({
               refs.spells.sleep_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -467,6 +470,7 @@ export default createPublicationMonsters({
             text: ['On a success, it takes half the damage and stays in place.'],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'taunt',
@@ -609,6 +613,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_force_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -865,6 +870,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' rift in an opening or frame the boggle can see within 5 ft. No side of the opening can exceed 10 ft. The rift reaches a destination within 30 ft. of the opening, either one the boggle can see or one it specifies by direction and distance. While beside the rift, the boggle can see through it and counts as being beside the destination. Anything it pushes through, including part of its body, emerges there. Only the boggle can use the rift, which closes at the end of its next turn.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1015,6 +1021,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The canoloth can be surprised only while ', rules.incapacitated, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1171,6 +1178,7 @@ export default createPublicationMonsters({
               { ability: 'adhesive-filament' },
               " until that target's grapple ends.",
             ],
+            effects: [],
           },
           {
             key: 'adhesive-filament',
@@ -1306,6 +1314,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1606,6 +1615,7 @@ export default createPublicationMonsters({
               refs.spells.spider_climb_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'turn-resistance',
@@ -1715,6 +1725,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -1841,6 +1852,7 @@ export default createPublicationMonsters({
               refs.spells.hold_person_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1968,6 +1980,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' instead of dealing damage.',
             ],
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -2025,6 +2038,7 @@ export default createPublicationMonsters({
               refs.spells.faerie_fire_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2036,6 +2050,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2201,6 +2216,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2261,6 +2277,7 @@ export default createPublicationMonsters({
               rules.invisible,
               " too. The mount's invisibility ends immediately after it attacks.",
             ],
+            effects: [],
           },
         ],
       },
@@ -2333,6 +2350,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['Fall ', rules.prone, '.'],
+            effects: [],
           },
           {
             key: 'engine-of-pain',
@@ -2375,6 +2393,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '). Guidance, Light, Mage Armor, Mage Hand, or Prestidigitation.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2546,6 +2565,7 @@ export default createPublicationMonsters({
               refs.spells.telekinesis_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2593,6 +2613,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' conditions on the githyanki and any creatures of its choice that it can see within 30 ft.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -2644,6 +2665,7 @@ export default createPublicationMonsters({
               refs.spells.teleport_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'psychic-defense',
@@ -2950,6 +2972,7 @@ export default createPublicationMonsters({
               refs.spells.mass_suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -3473,6 +3496,7 @@ export default createPublicationMonsters({
               refs.spells.silent_image_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'unarmored-defense',
@@ -3566,6 +3590,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally is within 5 ft. of that creature.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3594,6 +3619,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '. The attack ignores damage resistance.',
             ],
+            effects: [],
           },
           {
             key: 'mind-breaking-howl',
@@ -3671,6 +3697,7 @@ export default createPublicationMonsters({
               refs.spells.black_tentacles_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -4001,6 +4028,7 @@ export default createPublicationMonsters({
               refs.spells.feeblemind,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4180,6 +4208,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' until the end of the narzugon’s next turn.',
             ],
+            effects: [],
           },
           {
             key: 'terrifying-command',
@@ -4246,6 +4275,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' and cannot be put to sleep by magic.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -4377,6 +4407,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' and cannot be put to sleep by magic.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -4471,6 +4502,7 @@ export default createPublicationMonsters({
               refs.spells.hold_person_srd_5_1,
               ', Hunger of Hadar.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -4491,6 +4523,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '. Magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -4848,6 +4881,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or its speed is 0.',
             ],
+            effects: [],
           },
           {
             key: 'evasion',
@@ -4859,6 +4893,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', the quickling takes no damage on a successful Dexterity save against an effect that normally deals half damage on a success. It takes half damage on a failed save against that effect.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5243,6 +5278,7 @@ export default createPublicationMonsters({
               refs.spells.true_seeing_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'burden-of-time',
@@ -5263,6 +5299,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5309,6 +5346,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -5352,6 +5390,7 @@ export default createPublicationMonsters({
               refs.spells.seeming_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -5363,6 +5402,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -5605,6 +5645,7 @@ export default createPublicationMonsters({
               refs.spells.cone_of_cold_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'evasion',
@@ -5616,6 +5657,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -6070,6 +6112,7 @@ export default createPublicationMonsters({
               refs.spells.thunderwave_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -6128,6 +6171,7 @@ export default createPublicationMonsters({
               rules.prone,
               ', its speed is 0 and cannot increase, and it has disadvantage on Dexterity saves. It cannot take reactions, and its only available action is a bonus action to emerge.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6446,6 +6490,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'tunneler',

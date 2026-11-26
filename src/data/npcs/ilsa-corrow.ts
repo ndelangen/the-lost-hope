@@ -76,6 +76,7 @@ export default createNPC({
         },
         uses: 2,
         recharge: 'Long rest',
+        effects: [],
       },
       {
         key: 'cone-of-cold',
@@ -92,6 +93,7 @@ export default createNPC({
         },
         uses: 1,
         recharge: 'Long rest',
+        effects: [],
       },
       {
         key: 'misty-step',
@@ -126,6 +128,7 @@ export default createNPC({
         },
         uses: 1,
         recharge: 'Long rest',
+        effects: [],
       },
     ],
     source: {

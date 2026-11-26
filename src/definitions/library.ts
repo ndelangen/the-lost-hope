@@ -152,13 +152,14 @@ export const Spell = z.strictObject({
   text: Content,
   effects: z
     .array(SpellEffect)
-    .min(1)
     .refine(
       (effects) => new Set(effects.map((effect) => effect.key)).size === effects.length,
       'Effect keys are unique within the spell',
     )
     .optional()
-    .describe('What it leaves on its targets, for the tracker to apply'),
+    .describe(
+      'What it leaves on its targets, for the tracker to apply. `[]`: checked, nothing lasting; left out: not checked yet',
+    ),
   publication: PublicationRef,
 })
 
@@ -258,13 +259,14 @@ export const MagicItem = z.strictObject({
   text: Content,
   effects: z
     .array(ItemEffect)
-    .min(1)
     .refine(
       (effects) => new Set(effects.map((effect) => effect.key)).size === effects.length,
       'Effect keys are unique within the item',
     )
     .optional()
-    .describe('What it leaves on a creature, for the tracker to apply'),
+    .describe(
+      'What it leaves on a creature, for the tracker to apply. `[]`: checked, nothing lasting; left out: not checked yet',
+    ),
   publication: PublicationRef,
 })
 

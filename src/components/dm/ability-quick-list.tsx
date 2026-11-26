@@ -1,8 +1,8 @@
-import { Sparkles } from 'lucide-react'
+import { Crosshair, Sparkles, Sword } from 'lucide-react'
 import { Fragment, type ReactNode } from 'react'
 
 import { ABILITY_ICONS } from '#/lib/ability-icons'
-import type { AbilityIndexEntry, AbilityIndexGroup } from '#/lib/ability-index'
+import type { AbilityIndexEntry, AbilityIndexGroup, AttackReach } from '#/lib/ability-index'
 import { ABILITY_KIND } from '#/lib/ability-kind-presentation'
 import type { StatPart } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
@@ -110,12 +110,15 @@ function QuickEntry({
       >
         <Icon />
       </span>
-      {number ? (
+      {number || entry.reach ? (
         <span className="grid">
           {entry.name}
-          <span className="text-muted-foreground text-xs font-normal tabular-nums no-underline">
-            <StatParts parts={number} interactive={false} />
-          </span>
+          {entry.reach ? <ReachLabel reach={entry.reach} /> : null}
+          {number ? (
+            <span className="text-muted-foreground text-xs font-normal tabular-nums no-underline">
+              <StatParts parts={number} interactive={false} />
+            </span>
+          ) : null}
         </span>
       ) : (
         entry.name
@@ -140,5 +143,24 @@ function QuickEntry({
     <a href={`#${entry.anchor}`} className={className}>
       {content}
     </a>
+  )
+}
+
+/** Melee or ranged, said in words and colour so it reads at a glance. */
+export function ReachLabel({ reach, className }: { reach: AttackReach; className?: string }) {
+  const Icon = reach.kind === 'melee' ? Sword : Crosshair
+  return (
+    <span
+      className={cn(
+        'inline-flex items-center gap-1 text-xs font-semibold no-underline',
+        reach.kind === 'melee'
+          ? 'text-orange-700 dark:text-orange-300'
+          : 'text-sky-700 dark:text-sky-300',
+        className,
+      )}
+    >
+      <Icon aria-hidden className="size-3.5" />
+      {reach.text}
+    </span>
   )
 }

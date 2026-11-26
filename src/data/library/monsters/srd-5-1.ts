@@ -49,6 +49,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -539,6 +540,7 @@ export default createPublicationMonsters({
               rules.blinded,
               ' and unable to breathe while the cloaker is attached. While attached, the cloaker can make this attack only against the target and has advantage on the attack roll. The cloaker can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach the cloaker by succeeding on a DC 16 Strength check.',
             ],
+            effects: [],
           },
           {
             key: 'tail',
@@ -717,6 +719,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',
@@ -845,6 +848,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'scimitar',
@@ -977,6 +981,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic can’t put the drider to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -993,6 +998,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.faerie_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -1264,6 +1270,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic can’t put the drow to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -1280,6 +1287,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.faerie_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1544,6 +1552,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -1930,6 +1939,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -1979,6 +1989,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'brute',
@@ -2173,6 +2184,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disguise_self_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'war-pick',
@@ -2403,6 +2415,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.vicious_mockery_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'mimicry',
@@ -2445,6 +2458,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell).',
             ],
+            effects: [],
           },
         ],
       },
@@ -2756,6 +2770,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'invisibility',
@@ -2769,6 +2784,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2806,6 +2822,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['The stalker is ', rules.invisible, '.'],
+            effects: [],
           },
           {
             key: 'faultless-tracker',
@@ -2872,6 +2889,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2916,6 +2934,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -3292,6 +3311,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'pseudopod',
@@ -3855,6 +3875,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' in this way.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4032,6 +4053,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4076,6 +4098,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'damage-transfer',
@@ -4087,6 +4110,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the rug takes the other half.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -4251,6 +4275,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Wisdom saving throw against this magic or drop to 0 hit points.',
             ],
+            effects: [],
           },
           {
             key: 'illusory-appearance',
@@ -4535,6 +4560,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ' Charisma saving throw, the sprite also knows the creature’s alignment. Celestials, fiends, and undead automatically fail the saving throw.',
             ],
+            effects: [],
           },
           {
             key: 'invisibility',
@@ -4548,6 +4574,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4700,6 +4727,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4766,6 +4794,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -4841,6 +4870,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -4881,6 +4911,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until the stake is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -5061,6 +5092,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' in its resting place.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',

@@ -91,6 +91,7 @@ export default createSpells({
         '• Three allies who can see and hear you on your turn are given the benefit of a bless, guidance, or resistance spell on their turns; you choose the benefit individually for each ally. An ally must use the benefit on its turn, or the benefit is lost.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   beast_within: {
@@ -472,6 +473,7 @@ export default createSpells({
         'You study a creature you can see within range, learning its weaknesses. The creature must make a Charisma saving throw. If it fails, you learn its damage vulnerabilities, damage resistances, and damage immunities, and the next attack one of your allies in range makes against the target before the end of your next turn has advantage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   deadly_salvo: {
@@ -600,6 +602,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of a higher level, the duration of the slumber increases to 7 days with a 6th-level slot, to 30 days with a 7th-level slot, to 180 days with an 8th-level slot, and to a year with a 9th-level spell slot.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   eruption: {
@@ -938,6 +941,7 @@ export default createSpells({
         ". On a successful save, the creature can choose to be pushed 5 feet away from the space through which the vehicle passed. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. If the creature piloting the armored vehicle isn't proficient in land, water, or air vehicles (whichever is appropriate for the vehicle's type), each target has advantage on the saving throw against the Careen action.",
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   invested_champion: {
@@ -1007,6 +1011,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the maximum distance between the tethered creatures increases by 5 feet, and the damage increases by 1d6 for each slot level above 3rd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   jarring_growl: {
@@ -1117,6 +1122,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the duration increases by 2 hours for each slot level above 1st.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   long_game: {
@@ -1133,6 +1139,7 @@ export default createSpells({
         "While casting this spell, you must engage your target in conversation. At the completion of the casting, the target must make a Charisma saving throw. If it fails, you place a latent magical effect in the target's mind for the duration. If the target succeeds on the saving throw, it realizes that you used magic to affect its mind and might become hostile toward you, at the GM's discretion. Once before the spell ends, you can use an action to trigger the magical effect in the target's mind, provided you are on the same plane of existence as the target. When the effect is triggered, the target takes 5d8 psychic damage plus an extra 1d8 psychic damage for every 24 hours that has passed since you cast the spell, up to a total of 12d8 psychic damage. The spell has no effect on the target if it ends before you trigger the magical effect. A greater restoration or wish spell cast on the target ends the spell early. You know if the spell is ended early, provided you are on the same plane of existence as the target.",
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   magma_spray: {
@@ -1152,6 +1159,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   mantle_of_the_brave: {
@@ -1305,6 +1313,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   never_surrender: {
@@ -1325,6 +1334,7 @@ export default createSpells({
         "At Higher Levels. If you cast this spell using a spell slot of 6th level or higher, the target doesn't have disadvantage on its first death saving throw.",
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   oathbound_implement: {
@@ -1476,6 +1486,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can create one additional portal for each slot level above 2nd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   power_word_fling: {
@@ -1595,6 +1606,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   retribution: {
@@ -1611,6 +1623,7 @@ export default createSpells({
         'You wrap yourself in shimmering ethereal armor. The next time a creature hits you with a melee attack, it takes force damage equal to half the damage it dealt to you, and it must make a Strength saving throw. On a failed save, the creature is pushed up to 5 feet away from you. Then the spell ends.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   rockfall_ward: {
@@ -1774,6 +1787,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the duration is concentration, up to 1 minute. When you use a spell slot of 5th level or higher, the duration is concentration, up to 10 minutes. When you use a spell slot of 7th level or higher, the duration is concentration, up to 1 hour.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   silvershout: {
@@ -1856,6 +1870,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the number of barriers you create increases by two for each slot level above 3rd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   spite: {
@@ -1900,6 +1915,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8, and you can create one additional gout of steam for each slot level above 3rd. A creature in the area of more than one gout of steam is affected only once.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   stone_aegis: {
@@ -1935,6 +1951,7 @@ export default createSpells({
         "At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the explosion damage increases by 1d10 for each slot level above 4th. In addition, when you cast this spell using a spell slot of 6th level or higher, the duration is 1 hour. When you cast this spell using a spell slot of 8th level or higher, the duration is 8 hours. Using a spell slot of 6th level or higher grants a duration that doesn't require concentration.",
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   sudden_slue: {
@@ -1955,6 +1972,7 @@ export default createSpells({
         '. The bears disappear after making their charge.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   sudden_stampede: {
@@ -1975,6 +1993,7 @@ export default createSpells({
         '.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   toadstool_ring: {
@@ -2043,6 +2062,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   vine_carpet: {
@@ -2059,6 +2079,7 @@ export default createSpells({
         'You cause a thick carpet of vines to grow from a point on the ground within range. The vines cover objects and prone creatures within 20 feet of that point. While covered in this way, objects and creatures have total cover as long as they remain motionless. A creature that moves while beneath the carpet has only three-quarters cover from attacks on the other side of the carpet. A covered creature that stands up from prone stands atop the carpet and is no longer covered. The carpet of vines is plush enough that a Large or smaller creature can walk across it without harming or detecting those covered by it. When the spell ends, the vines wither away into nothingness, revealing any objects and creatures that were still covered.',
       ],
     ],
+    effects: [],
     publication: refs.publications.tome_of_heroes,
   },
   war_horn: {

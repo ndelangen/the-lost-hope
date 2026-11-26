@@ -1,32 +1,21 @@
-import {
-  Brain,
-  Castle,
-  Check,
-  FlaskConical,
-  HeartCrack,
-  HeartPulse,
-  Plus,
-  Skull,
-  Wand2,
-  X,
-} from 'lucide-react'
-import { useState } from 'react'
+import { Castle, Check, HeartCrack, HeartPulse, Skull, X } from 'lucide-react'
 
 import type { Effect } from '#/definitions/effect'
 import type {
   ActiveCondition,
   AppliedEffect,
+  DamageReminder,
   DeathSaves,
   DurationChoice,
 } from '#/lib/encounter-combat'
 import type { Condition } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
-import { ItemEffectPicker, SpellEffect, type ApplyEffectActions } from './apply-effect'
-import { ConditionMarkers, EffectMarkers, WouldDie } from './condition-markers'
-import { ConditionPicker } from './condition-picker'
+import type { ApplyEffectActions } from './apply-effect'
+import { EffectMarkers, WouldDie } from './condition-markers'
 import { useDensity } from './density'
 import { ActionButton } from './icon-button'
+import { StatusLine } from './status-layout'
 
 export type CombatState = {
   conditions: readonly ActiveCondition[]
@@ -59,19 +48,16 @@ export function CombatStatus({
   name,
   isPc,
   state,
-  combatants,
-  activeId,
   nameOf,
   actions,
   lair,
   effects = [],
   applyEffects,
+  damage,
 }: {
   name: string
   isPc: boolean
   state: CombatState
-  combatants: readonly { id: string; name: string }[]
-  activeId: string | undefined
   nameOf: (id: string) => string
   actions: CombatStatusActions
   /** For creatures with lair actions: whether this fight is in its lair. */
@@ -83,27 +69,33 @@ export function CombatStatus({
     id: string
     abilityName: (combatant: string, key: string) => string | undefined
   }
+  /** Saves damage just called for on this combatant, answered on the effect's row. */
+  damage?: {
+    reminders: readonly DamageReminder[]
+    onEnd: (reminder: DamageReminder) => void
+    onKeep: (reminder: DamageReminder) => void
+  }
 }) {
-  const focus = useDensity() === 'focus'
-  const [picking, setPicking] = useState<'condition' | 'spell' | 'item'>()
-  const [concentrationOn, setConcentrationOn] = useState('')
-
+  // Adding starts from the panel's actions; here is only what is on the creature now.
   return (
-    <section aria-label="Conditions and status" className="grid gap-2">
+    <section aria-label="Conditions and status" className="grid gap-3 empty:hidden">
       <ZeroHp name={name} isPc={isPc} state={state} actions={actions} />
       {state.down || state.dying ? <WouldDie effects={effects} /> : null}
-      <EffectMarkers effects={effects} />
-
-      <div className="flex flex-wrap items-center gap-2">
-        <ConditionMarkers
-          conditions={state.conditions}
-          appliedEffects={state.appliedEffects}
-          concentration={state.concentration}
-          nameOf={nameOf}
-          abilityName={applyEffects?.abilityName}
-          onRemove={actions.removeCondition}
-          onRemoveEffect={actions.removeEffect}
-        />
+      <StatusLine
+        conditions={state.conditions}
+        appliedEffects={state.appliedEffects ?? []}
+        concentration={
+          state.concentration && {
+            on: state.concentration.on,
+            targets: applyEffects?.holding(applyEffects.id)?.targets,
+          }
+        }
+        names={{ nameOf, abilityName: applyEffects?.abilityName ?? (() => undefined) }}
+        onRemoveCondition={actions.removeCondition}
+        onRemoveEffect={actions.removeEffect}
+        onStopConcentrating={() => actions.setConcentration(undefined)}
+        damage={damage}
+      >
         {lair ? (
           <ActionButton
             aria-pressed={lair.inLair}
@@ -113,87 +105,14 @@ export function CombatStatus({
             <Castle aria-hidden /> {lair.inLair ? 'In its lair' : 'Not in its lair'}
           </ActionButton>
         ) : null}
-        <ActionButton
-          aria-expanded={picking === 'condition'}
-          onClick={() => setPicking((value) => (value === 'condition' ? undefined : 'condition'))}
-          className={cn(picking === 'condition' && 'bg-muted')}
-        >
-          <Plus aria-hidden /> Condition
-        </ActionButton>
-        {applyEffects ? (
-          <ActionButton
-            aria-expanded={picking === 'spell'}
-            onClick={() => setPicking((value) => (value === 'spell' ? undefined : 'spell'))}
-            className={cn(picking === 'spell' && 'bg-muted')}
-          >
-            <Wand2 aria-hidden /> Spell effect
-          </ActionButton>
-        ) : null}
-        {applyEffects ? (
-          <ActionButton
-            aria-expanded={picking === 'item'}
-            onClick={() => setPicking((value) => (value === 'item' ? undefined : 'item'))}
-            className={cn(picking === 'item' && 'bg-muted')}
-          >
-            <FlaskConical aria-hidden /> Item effect
-          </ActionButton>
-        ) : null}
-        {state.concentration ? (
-          <ActionButton onClick={() => actions.setConcentration(undefined)}>
-            <X aria-hidden /> Stop concentrating
-          </ActionButton>
-        ) : (
-          <form
-            className="flex items-center gap-1"
-            onSubmit={(event) => {
-              event.preventDefault()
-              actions.setConcentration(concentrationOn.trim())
-              setConcentrationOn('')
-            }}
-          >
-            <label className="sr-only" htmlFor={`concentration-${name}`}>
-              Concentrating on
-            </label>
-            <input
-              id={`concentration-${name}`}
-              placeholder="Spell (optional)"
-              value={concentrationOn}
-              onChange={(event) => setConcentrationOn(event.currentTarget.value)}
-              className={cn(
-                'border-input bg-background rounded-lg border px-2',
-                focus ? 'h-12 w-44 text-base' : 'h-9 w-36 text-sm',
-              )}
-            />
-            <ActionButton type="submit">
-              <Brain aria-hidden /> Concentrating
-            </ActionButton>
-          </form>
-        )}
-      </div>
-
-      {picking === 'condition' ? (
-        <ConditionPicker
-          combatants={combatants}
-          defaultTurnOf={activeId}
-          onApply={(condition, duration) => {
-            actions.addCondition(condition, duration)
-            setPicking(undefined)
-          }}
-        />
-      ) : null}
-      {picking === 'item' && applyEffects ? (
-        <ItemEffectPicker
-          target={applyEffects.id}
-          actions={applyEffects}
-          onDone={() => setPicking(undefined)}
-        />
-      ) : null}
-      {picking === 'spell' && applyEffects ? (
-        <SpellEffect
-          target={applyEffects.id}
-          actions={applyEffects}
-          onDone={() => setPicking(undefined)}
-        />
+      </StatusLine>
+      {effects.length ? (
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
+            Always
+          </span>
+          <EffectMarkers effects={effects} />
+        </div>
       ) : null}
     </section>
   )

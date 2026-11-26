@@ -85,6 +85,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 8th level or higher, you can allow one additional creature to use the gate for each slot level above 7th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   acid_rain: {
@@ -104,6 +105,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   adjust_position: {
@@ -214,6 +216,7 @@ export default createSpells({
         ' until the start of your next turn.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   ale_dritch_blast: {
@@ -684,6 +687,7 @@ export default createSpells({
         'When you transform, you choose whether your equipment falls to the ground, merges into the new form, or is worn by it. Worn equipment functions normally, but equipment doesn’t change shape or size to match the new form. Any equipment that the new form can’t wear must either fall to the ground or merge into the new form. The GM has final say on whether the new form can wear or use a particular piece of equipment. Equipment that merges has no effect in that state.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   aspect_of_the_serpent: {
@@ -794,6 +798,7 @@ export default createSpells({
         "A creature can end the spell's effect on itself voluntarily at any time, as can you. When the effect ends or the duration expires, a creature's spirit returns to its body and it regains consciousness. A creature that withdraws voluntarily from the assembly can't rejoin it even if the spell is still active. If a gem is broken while occupied by a creature's astral self, the spirit in the gem returns to its body and the creature suffers two levels of exhaustion.",
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   awaken_object: {
@@ -887,6 +892,7 @@ export default createSpells({
         'Nightwing Breath (Recharge 4–6). You exhale shadow‐substance in a 30-foot cone. Each creature in the area takes 5d6 necrotic damage, or half the damage with a successful Dexterity saving throw.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   beguiling_bet: {
@@ -1178,6 +1184,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the feathers deal an extra 1d8 force damage for each slot level above 2nd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   black_well: {
@@ -1286,6 +1293,7 @@ export default createSpells({
         'On your turn, you can guide the chariot in place of your own movement. You can use a bonus action to direct it to take the Dash, Disengage, or Dodge action. As an action, you can use the chariot to overrun creatures in its path. On this turn, the chariot can enter a hostile creature’s space. The creature takes damage as if it had touched the chariot, is shunted to the nearest unoccupied space that it can occupy, and must make a successful Strength saving throw or fall prone in that space.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   bleating_call: {
@@ -1484,6 +1492,7 @@ export default createSpells({
         'If the creature you struck was a celestial, blood armor also grants you advantage on Charisma saving throws for the duration of the spell.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   blood_lure: {
@@ -2052,6 +2061,7 @@ export default createSpells({
         'When you stop concentrating on the spell, its duration expires, or it’s dispelled, the extradimensional reservoir and the liquid it contains cease to exist.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   breathtaking_wind: {
@@ -2109,6 +2119,7 @@ export default createSpells({
         "You infuse an ordinary flask of alchemist's fire with magical brimstone. While so enchanted, the alchemist's fire can be thrown 40 feet instead of 20, and it does 2d6 fire damage instead of 1d4. The Dexterity saving throw to extinguish the flames uses your spell save DC instead of DC 10. Infused alchemist's fire returns to its normal properties after 24 hours.",
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   brittling: {
@@ -2179,6 +2190,7 @@ export default createSpells({
         'The glow does not make invisible creatures visible, but it does indicate an invisible creature’s general location (somewhere within the 5-foot beam). The light continues to illuminate any target that moves, but a target that moves out of the spell’s area is no longer illuminated. A threat that enters the area after the spell is cast is not subject to the spell’s effect.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   call_shadow_mastiff: {
@@ -2290,6 +2302,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d10, the distance thrown increases by 10 feet, and the weight thrown increases by 100 pounds for each slot level above 6th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   catch_the_breath: {
@@ -2603,6 +2616,7 @@ export default createSpells({
         ' for 1 round.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   chronal_lance: {
@@ -2650,6 +2664,7 @@ export default createSpells({
         'Light wind encircles you, leaving you in the center of a mild vortex. For the duration, you gain a +2 bonus to your AC against ranged attacks. You also have advantage on saving throws against extreme environmental heat and against harmful gases, vapors, and inhaled poisons.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   clash_of_glaciers: {
@@ -2685,6 +2700,7 @@ export default createSpells({
         'You shape shadows into claws that grow from your fingers and drip inky blackness. The claws have a reach of 10 feet. While the spell lasts, you can make a melee spell attack with them that deals 1d10 cold damage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   claws_of_the_earth_dragon: {
@@ -2706,6 +2722,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage done by the attack increases by 1d8 and the range increases by 10 feet for each slot level above 5th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   clearing_the_field: {
@@ -2725,6 +2742,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the spell lasts for an additional hour for each slot level above 2nd.\n\nRitual Focus. If you expend your ritual focus, plant creatures in the area must make a successful Constitution saving throw or be affected as though by a [enlarge/reduce](https://api.open5e.com/spells/enlargereduce) spell.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   cloak_of_shadow: {
@@ -2893,6 +2911,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the duration is extended by 1 round for each slot level above 3rd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   comprehend_wild_shape: {
@@ -2986,6 +3005,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a 9th‐level spell slot, you summon two forest defenders instead of one, and you can control up to two forest defenders at a time.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   conjure_greater_spectral_dead: {
@@ -3186,6 +3206,7 @@ export default createSpells({
         'This spell doesn’t change a dragon’s disposition toward you or your allies, it only opens a channel of communication. In some cases, unwanted telepathic contact can worsen the dragon’s attitude toward you.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   costly_victory: {
@@ -3553,6 +3574,7 @@ export default createSpells({
         'You lay a curse upon a ring you touch that isn’t being worn or carried. When you cast this spell, select one of the possible effects of [bestow curse](https://api.open5e.com/spells/bestow-curse). The next creature that willingly wears the ring suffers the chosen effect with no saving throw. The curse transfers from the ring to the wearer once the ring is put on; the ring becomes a mundane ring that can be taken off, but the curse remains on the creature that wore the ring until the curse is removed or dispelled. An [identify](https://api.open5e.com/spells/identify) spell cast on the cursed ring reveals the fact that it is cursed.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   cursed_gift: {
@@ -3572,6 +3594,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the duration increases by 24 hours for each slot level above 4th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   cynophobia: {
@@ -3619,6 +3642,7 @@ export default createSpells({
         'When daggerhawk is cast on a nonmagical dagger, a ghostly hawk appears around the weapon. The hawk and dagger fly into the air and make a melee attack against one creature you select within 60 feet, using your spell attack modifier and dealing piercing damage equal to 1d4 + your Intelligence modifier on a hit. On your subsequent turns, you can use an action to cause the daggerhawk to attack the same target. The daggerhawk has AC 14 and, although it’s invulnerable to all damage, a successful attack against it that deals bludgeoning, force, or slashing damage sends the daggerhawk tumbling, so it can’t attack again until after your next turn.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   dark_dementing: {
@@ -3705,6 +3729,7 @@ export default createSpells({
         'At Higher Levels. This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   dark_path: {
@@ -3819,6 +3844,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 8th level or higher, the damage increases by 2d10 for each slot level above 7th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   decay: {
@@ -3966,6 +3992,7 @@ export default createSpells({
         'If the target drops to 0 hit points while affected by this spell, the demon tears through the body and appears in the same space as its now incapacitated or dead victim. You do not control this demon; it is free to either attack or leave the area as it chooses. The demon disappears after 24 hours or when it drops to 0 hit points.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   desiccating_breath: {
@@ -4107,6 +4134,7 @@ export default createSpells({
         'Your eyes burn with scintillating motes of unholy crimson light. Until the spell ends, you have advantage on Charisma (Intimidation) checks made against creatures that can see you, and you have advantage on spell attack rolls that deal necrotic damage to creatures that can see your eyes.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   disruptive_aura: {
@@ -4266,6 +4294,7 @@ export default createSpells({
         '.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   doom_of_disenchantment: {
@@ -4428,6 +4457,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the extra cold damage and the cold damage dealt to the secondary creatures increases by 1d6 for each slot level above 1st.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   dragon_breath: {
@@ -4560,6 +4590,7 @@ export default createSpells({
         'Until the end of your turn, you can enter the space of a creature up to one size larger than yourself when you take the Dash action. The creature must make a Strength saving throw. It takes 4d6 bludgeoning damage and is knocked prone on a failed save, or takes half as much damage and isn’t knocked prone on a succesful one.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   earworm_melody: {
@@ -4610,6 +4641,7 @@ export default createSpells({
         'When you hit a creature with a melee weapon attack, you can use a bonus action to cast echoes of steel. All creatures you designate within 30 feet of you take thunder damage equal to the damage from the melee attack, or half as much damage with a successful Constitution saving throw.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   ectoplasm: {
@@ -4839,6 +4871,7 @@ export default createSpells({
         'At Higher Levels. If you cast this spell using a spell slot of 7th or 8th level, the duration is 8 hours. If you use a 9th‐level spell slot, the duration is 24 hours.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   energy_absorption: {
@@ -4858,6 +4891,7 @@ export default createSpells({
         'If the spell is used against an unwilling creature, you must make a melee spell attack with a reach of 5 feet. If the attack hits, for the duration of the spell the affected creature must make a saving throw using its spellcasting ability whenever it casts a spell that deals one of the given damage types. On a failed save, the spell is not cast but its slot is expended; on a successful save, the spell is cast but its damage is halved before applying the effects of saving throws, resistance, and other factors.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   energy_foreknowledge: {
@@ -4919,6 +4953,7 @@ export default createSpells({
         'The tomb has AC 18 and 50 hit points. It is resistant to fire, cold, lightning, bludgeoning, and slashing damage, is immune to poison and psychic damage, and is vulnerable to thunder damage. When reduced to 0 hit points, the tomb crumbles into harmless powder.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   entropic_damage_field: {
@@ -4973,6 +5008,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the aura lasts 1 minute longer and the poison damage increases by 1d6 for each slot level above 5th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   evercold: {
@@ -5442,6 +5478,7 @@ export default createSpells({
         'Thanks to your foreknowledge, you know exactly when your foe will take his or her eyes off you. Casting this spell has the same effect as making a successful Dexterity (Stealth) check, provided cover or concealment is available within 10 feet of you. It doesn’t matter whether enemies can see you when you cast the spell; they glance away at just the right moment. You can move up to 10 feet as part of casting the spell, provided you’re able to move (not restrained or grappled or reduced to a speed of less than 10 feet for any other reason). This move doesn’t count as part of your normal movement. After the spell is cast, you must be in a position where you can remain hidden: a lightly obscured space, for example, or a space where you have total cover. Otherwise, enemies see you again immediately and you’re not hidden.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   form_of_the_gods: {
@@ -5535,6 +5572,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   frenzied_bolt: {
@@ -5639,6 +5677,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   furious_hooves: {
@@ -5770,6 +5809,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 8th level or higher, the damage increases by 1d6 for each slot level above 7th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   gliding_step: {
@@ -5902,6 +5942,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, its duration increases by 24 hours and the maximum distance to the destination increases by 5 miles for each slot level above 2nd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   goats_hoof_charm: {
@@ -5964,6 +6005,7 @@ export default createSpells({
         'You create an intoxicating aroma that fills the area within 30 feet of a point you can see within range. Creatures in this area smell something they find so pleasing that it’s distracting. Each creature in the area that makes an attack roll must first make a Wisdom saving throw; on a failed save, the attack is made with disadvantage. Only a creature’s first attack in a round is affected this way; subsequent attacks are resolved normally. On a successful save, a creature becomes immune to the effect of this particular scent, but they can be affected again by a new casting of the spell.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   grasp_of_the_tupilak: {
@@ -6008,6 +6050,7 @@ export default createSpells({
         'Escaping this maze is especially difficult. To do so, the target must use an action to make a DC 20 Intelligence check. It escapes when it makes its second successful check.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   greater_seal_of_sanctuary: {
@@ -6035,6 +6078,7 @@ export default createSpells({
         'The seal has AC 18, 75 hit points, resistance to bludgeoning, piercing, and slashing damage, and immunity to psychic and poison damage. Ranged attacks against the seal are made with disadvantage. If it is scribed on the surface of an object that is later destroyed (such as a wooden door), the seal is not damaged and remains in place, perhaps suspended in midair. The spell ends only if the seal itself is reduced to 0 hit points.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   green_decay: {
@@ -6324,6 +6368,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the extra damage on a hit increases by 1d6 for each slot level above 4th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   heart_to_heart: {
@@ -6342,6 +6387,7 @@ export default createSpells({
         ' while it has 0 hit points. If both of you are reduced to 0 hit points, you must both make death saving throws, as normal. If you or the target regain hit points, either of you can choose to split those hit points between the two of you if both of you are within 60 feet of each other.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   heartache: {
@@ -6428,6 +6474,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, add 1 to your to your roll for each slot level above 3rd when determining if an attack misses or when making a check to intercept the attack.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   hematomancy: {
@@ -6473,6 +6520,7 @@ export default createSpells({
         ' for 1 round. If the creature has more than 30 hit points but fewer than the weapon’s wielder currently has, it becomes frightened instead; a frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a successful save. A creature that succeeds on the saving throw is immune to castings of this spell on the same weapon for 24 hours.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   hide_in_ones_shadow: {
@@ -6647,6 +6695,7 @@ export default createSpells({
         ' in your line of sight.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   hunting_stand: {
@@ -7112,6 +7161,7 @@ export default createSpells({
         ". Slaying. Once per turn, when a helped creature hits with any weapon, the weapon deals an extra 1d6 damage of its type to a hindered creature. Tracking. A helped creature has advantage on Wisdom (Survival) and Dexterity (Stealth) checks against a hindered creature. You can create a permanent killing field by casting this spell in the same location every day for one year. Structures built in the area after the killing field is permanent don't end the spell.",
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   kiss_of_the_succubus: {
@@ -7346,6 +7396,7 @@ export default createSpells({
         'You call down a legion of shadowy soldiers in a 10-foot cube. Their features resemble a mockery of once-living creatures. Whenever a creature starts its turn inside the cube or within 5 feet of it, or enters the cube for the first time on its turn, the conjured shades make an attack using your melee spell attack modifier; on a hit, the target takes 3d8 necrotic damage. The space inside the cube is difficult terrain.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   legion_of_rabid_squirrels: {
@@ -7381,6 +7432,7 @@ export default createSpells({
         'This spell functions as [maze](https://api.open5e.com/spells/maze), but the target can resist being sent to the extradimensional prison with a successful Intelligence saving throw. In addition, the maze is easier to navigate, requiring only a DC 12 Intelligence check to escape.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   life_drain: {
@@ -7419,6 +7471,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   life_hack: {
@@ -7454,6 +7507,7 @@ export default createSpells({
         'For the duration, you can sense the location of any creature that isn’t a construct or an undead within 30 feet of you, regardless of impediments to your other senses. This spell doesn’t sense creatures that are dead. A creature trying to hide its life force from you can make a Charisma saving throw. On a success, you can’t sense the creature with this casting of the spell. If you cast the spell again, the creature must make the saving throw again to remain hidden from your senses.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   life_transference_arrow: {
@@ -7731,6 +7785,7 @@ export default createSpells({
         'The diameter of the ash pit increases by 10 feet at the start of each of your turns for the duration of the spell. The ash pit remains after the spell ends, but the grasping arms disappear and restrained creatures are freed automatically. As the ash slowly cools, it deals 1d6 less fire damage for each hour that passes after the spell ends.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   mark_prey: {
@@ -7930,6 +7985,7 @@ export default createSpells({
         'The effects of the exchange can be made permanent with a [wish](https://api.open5e.com/spells/wish) spell or comparable magic.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   mire: {
@@ -7994,6 +8050,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, it affects any spell cast using a spell slot of any lower level. For instance, using a 6th-level slot enables you to transform a spell of 5th level or lower into another spell of the same level.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   monstrous_empathy: {
@@ -8047,6 +8104,7 @@ export default createSpells({
         'The glyph lasts until the next sunrise, at which time it flares with bright light, and any creature trapped inside returns to the space it last occupied, unharmed. If that space has become occupied or dangerous, the creature appears in the nearest safe unoccupied space.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   mosquito_bane: {
@@ -8245,6 +8303,7 @@ export default createSpells({
         'You can’t use any of the target’s abilities except for nonmagical movement and darkvision. You don’t have access to its knowledge, proficiencies, or anything else that was held in its now dead mind, and you can’t make it speak.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   not_this_day: {
@@ -8362,6 +8421,7 @@ export default createSpells({
         'Each round, as a bonus action, you can cause an automatic chaos magic surge, choosing either yourself or another creature you can see within 60 feet as the caster for the purpose of resolving the effect. You must choose the target before rolling percentile dice to determine the nature of the surge. The DC of any required saving throw is calculated as if you were the caster.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   pendulum: {
@@ -8444,6 +8504,7 @@ export default createSpells({
         'If the original target makes a successful saving throw, you can use a bonus action on your turn to reopen the pit in any location within range that you can see. The spell ends when a creature has fallen through the pit and taken damage, or when the duration expires.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   poisoned_volley: {
@@ -8615,6 +8676,7 @@ export default createSpells({
       ['• You gain a +2 bonus to AC.'],
       ['• You have proficiency on Constitution saving throws.'],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   prismatic_ray: {
@@ -8888,6 +8950,7 @@ export default createSpells({
         'You transform an ordinary cloak into a highly reflective, silvery garment. This mantle increases your AC by 2 and grants advantage on saving throws against gaze attacks. In addition, whenever you are struck by a ray such as a [ray of enfeeblement](https://api.open5e.com/spells/ray-of-enfeeblement), [scorching ray](https://api.open5e.com/spells/scorching-ray), or even [disintegrate](https://api.open5e.com/spells/disintegrate), roll 1d4. On a result of 4, the cloak deflects the ray, which instead strikes a randomly selected target within 10 feet of you. The cloak deflects only the first ray that strikes it each round; rays after the first affect you as normal.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   quintessence: {
@@ -8947,6 +9010,7 @@ export default createSpells({
         'The caster has advantage on Constitution saving throws to maintain concentration on this spell.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   rain_of_blades: {
@@ -9146,6 +9210,7 @@ export default createSpells({
         'You subtly warp the flow of space and time to enhance your conjurations with cosmic potency. Until the spell ends, the maximum duration of any conjuration spell you cast that requires concentration is doubled, any creature that you summon or create with a conjuration spell has 30 temporary hit points, and you have advantage on Charisma checks and Charisma saving throws.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   ring_strike: {
@@ -9165,6 +9230,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can affect up to two additional rings for each spell slot level above 1st.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   ring_ward: {
@@ -9604,6 +9670,7 @@ export default createSpells({
         'This spell intensifies the light and heat of the sun, so that it burns exposed flesh. You must be able to see the sun when you cast the spell. The searing sunlight affects a cylindrical area 50 feet in radius and 200 feet high, centered on the a point within range. Each creature that starts its turn in that area takes 5d8 fire damage, or half the damage with a successful Constitution saving throw. A creature that’s shaded by a solid object —such as an awning, a building, or an overhanging boulder— has advantage on the saving throw. On your turn, you can use an action to move the center of the cylinder up to 20 feet along the ground in any direction.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   see_beyond: {
@@ -10119,6 +10186,7 @@ export default createSpells({
         'With a few perfectly timed steps, you interpose a foe between you and danger. You cast this spell when an enemy makes a ranged attack or a ranged spell attack against you but before the attack is resolved. At least one other foe must be within 10 feet of you when you cast sidestep arrow. As part of casting the spell, you can move up to 15 feet to a place where an enemy lies between you and the attacker. If no such location is available, the spell has no effect. You must be able to move (not restrained or grappled or prevented from moving for any other reason), and this move does not provoke opportunity attacks. After you move, the ranged attack is resolved with the intervening foe as the target instead of you.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   sign_of_koth: {
@@ -10156,6 +10224,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 8th level or higher, the radius increases by 30 feet for each slot level above 7th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   silhouette: {
@@ -10601,6 +10670,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 8th level or higher, the bonus to AC increases by 1 for each slot level above 7th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   stars_heart: {
@@ -10828,6 +10898,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a 7th- or 8th-level spell slot, you can summon four [ghasts of Leng](https://api.open5e.com/monsters/ghast-of-leng) or a [hound of Tindalos](https://api.open5e.com/monsters/hound-of-tindalos). When you cast it with a 9th-level spell slot, you can summon five [ghasts of Leng](https://api.open5e.com/monsters/ghast-of-leng) or a [nightgaunt](https://api.open5e.com/monsters/nightgaunt).',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   summon_star: {
@@ -11073,6 +11144,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 8th level or higher, the damage from all effects of the lines increases by 1d8 for each slot level above 7th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   targeting_foreknowledge: {
@@ -12269,6 +12341,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the radius increases by 5 feet for every two slot levels above 1st.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   waft: {
@@ -12329,6 +12402,7 @@ export default createSpells({
         'The wall has AC 12 and 200 hit points, and is immune to necrotic, poison, psychic, and piercing damage. If it is reduced to 0 hit points or when the spell’s duration ends, the wall disappears and the miniature axes fall to the ground in a tidy heap.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   wall_of_time: {
@@ -12345,6 +12419,7 @@ export default createSpells({
         'You create a wall of shimmering, transparent blocks on a solid surface within range. You can make a straight wall up to 60 feet long, 20 feet high, and 1 foot thick, or a cylindrical wall up to 20 feet high, 1 foot thick, and 20 feet in diameter. Nonmagical ranged attacks that cross the wall vanish into the time stream with no other effect. Ranged spell attacks and ranged weapon attacks made with magic weapons that pass through the wall are made with disadvantage. A creature that intentionally enters or passes through the wall is affected as if it had just failed its initial saving throw against a [slow](https://api.open5e.com/spells/slow) spell.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   warning_shout: {
@@ -12424,6 +12499,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the number of orbs increases by one for each slot level above 2nd.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   wild_shield: {
@@ -12484,6 +12560,7 @@ export default createSpells({
         'The sphere moves 10 feet away from you at the start of each of your turns, drifting along the surface of the ground. It is not heavier than air but drifts in a straight line for the duration of the spell, even if that carries it over a cliff or gully. If the sphere meets a wall or other impassable obstacle, it turns to the left or right (select randomly).',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   wind_tunnel: {
@@ -12575,6 +12652,7 @@ export default createSpells({
         'If the mass of ice or snow is destroyed while you are transiting it, you must make a successful Constitution saving throw against your spell save DC to avoid taking 4d6 bludgeoning damage and falling prone at the midpoint of a line between your entrance point and your intended exit point.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic,
   },
   withered_sight: {

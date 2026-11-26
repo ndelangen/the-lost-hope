@@ -80,6 +80,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ', and the ammit cannot bite a different target until that grapple ends.',
             ],
+            effects: [],
           },
           {
             key: 'tail',

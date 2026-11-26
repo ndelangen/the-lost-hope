@@ -15,6 +15,10 @@ Read `src/definitions/status-effect.ts` and `ItemEffect` in `src/definitions/lib
 
 ## What counts as an effect
 
+An effect is a **reminder for later**: the tracker keeps it on the creature so the DM is reminded
+while it lasts. Anything that happens once and is over (damage, healing, a push, a forced move,
+a single roll) needs no reminder, so it is never an effect: skip it.
+
 Something that **lands on a creature and lasts**: Potion of Giant Strength's Strength score for
 1 hour, Potion of Poison's Poisoned for 1 hour, Potion of Invisibility, Oil of Etherealness, a
 dagger whose hit poisons, a wand that paralyzes on a failed save. It may help or harm.

@@ -104,6 +104,7 @@ export default createNPC({
         text: ['It vents burnt Arcane Dust from its chest.'],
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [],
       },
     ],
     source: {

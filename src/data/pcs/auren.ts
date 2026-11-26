@@ -45,6 +45,7 @@ export default createPC({
           refs.rules.poisoned,
           ', are immune to disease, and magic can’t put you to sleep. You don’t eat, drink, breathe or sleep.',
         ],
+        effects: [],
       },
       {
         key: 'spellcasting',
@@ -60,6 +61,7 @@ export default createPC({
           { ability: 'booming-blade' },
           '.',
         ],
+        effects: [],
       },
       {
         key: 'thunder-gauntlets',
@@ -150,6 +152,7 @@ export default createPC({
           onSuccess: 'half',
         },
         text: ['Uses a 1st-level slot. The boom is heard 300 ft. away.'],
+        effects: [],
       },
       {
         key: 'faerie-fire',
@@ -161,16 +164,26 @@ export default createPC({
           dc: 'int',
           target: { area: { shape: refs.rules.cube, size: 20 }, range: 60 },
           onFail: {
-            also: [
-              'It glows for up to 1 minute: attack rolls against it have ',
+            also: [{ effect: 'glowing' }],
+          },
+        },
+        text: ['Uses a 1st-level slot. ', refs.rules.concentration, '.'],
+        effects: [
+          {
+            key: 'glowing',
+            name: 'Glowing',
+            lands: { on: 'failed-save' },
+            text: [
+              'It glows',
+              ': attack rolls against it have ',
               refs.rules.advantage,
               ' and it can’t be ',
               refs.rules.invisible,
               '.',
             ],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
           },
-        },
-        text: ['Uses a 1st-level slot. ', refs.rules.concentration, '.'],
+        ],
       },
       {
         key: 'grease',
@@ -182,11 +195,22 @@ export default createPC({
           dc: 'int',
           target: { area: { shape: refs.rules.cube, size: 10 }, range: 60 },
           onFail: {
-            conditions: [refs.rules.prone],
-            also: ['The ground stays slick for 1 minute and is difficult terrain.'],
+            also: [
+              { effect: 'prone' },
+              ' The ground stays slick for 1 minute and is difficult terrain.',
+            ],
           },
         },
         text: ['Uses a 1st-level slot.'],
+        effects: [
+          {
+            key: 'prone',
+            name: 'Prone',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
       },
       {
         key: 'hideous-laughter',
@@ -198,13 +222,23 @@ export default createPC({
           dc: 'int',
           target: { creatures: 1, range: 30 },
           onFail: {
-            conditions: [refs.rules.prone, refs.rules.incapacitated],
-            also: [
-              'It repeats the save at the end of each of its turns and whenever it takes damage.',
-            ],
+            also: [{ effect: 'laughing' }],
           },
         },
         text: ['Uses a 1st-level slot. ', refs.rules.concentration, ', up to 1 minute.'],
+        effects: [
+          {
+            key: 'laughing',
+            name: 'Laughing',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.prone, refs.rules.incapacitated],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+            ends: { repeatSave: ['end-of-turn', 'damaged'] },
+            text: [
+              'It repeats the save at the end of each of its turns and whenever it takes damage.',
+            ],
+          },
+        ],
       },
       {
         key: 'entangle',
@@ -216,14 +250,24 @@ export default createPC({
           dc: 'int',
           target: { area: { shape: refs.rules.cube, size: 20 }, range: 90 },
           onFail: {
-            conditions: [refs.rules.restrained],
-            also: ['It can spend its action on a Strength check against your DC to break free.'],
+            also: [{ effect: 'entangled' }],
           },
         },
         text: [
           'Once per long rest from your runes without a slot, otherwise a 1st-level slot. ',
           refs.rules.concentration,
           ', up to 1 minute.',
+        ],
+        effects: [
+          {
+            key: 'entangled',
+            name: 'Entangled',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.restrained],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+            ends: { escape: { dc: 'int' } },
+            text: ['It can spend its action on a Strength check against your DC to break free.'],
+          },
         ],
       },
       {

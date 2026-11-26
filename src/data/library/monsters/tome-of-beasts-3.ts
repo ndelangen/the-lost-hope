@@ -229,6 +229,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 min.',
             ],
+            effects: [],
           },
           {
             key: 'construct-nature',
@@ -287,6 +288,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 min.',
             ],
+            effects: [],
           },
           {
             key: 'construct-nature',
@@ -312,6 +314,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' causing the quartet to deal one die less of damage with its Trouble Clef and Orchestra Hit actions.',
             ],
+            effects: [],
           },
         ],
       },
@@ -458,6 +461,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and can see the creature. Fail: creature is mesmerized 1 min. Mesmerized creature over 5 ft. away from patch must move on its turn toward ooze by most direct route trying to get within 5 feet. It doesn’t avoid opportunity attacks but before moving into damaging terrain such as lava or a pit and whenever it takes damage from a source other than ooze target can re-save. Mesmerized target can also re-save at end of each of its turns success ends effect on itself. If creature’s save succeeds or effect ends for it is immune to patch's Eldritch Luminance for next 24 hrs.",
             ],
+            effects: [],
           },
           {
             key: 'flowing-form',
@@ -517,6 +521,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -539,6 +544,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' blestsessebe can make one hooves attack vs. it as a bonus action.',
             ],
+            effects: [],
           },
           {
             key: 'free-runner',
@@ -619,6 +625,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Str save or be pushed up to 10 ft. away from the cloudhoof. If a creature fails this save by 5 or more it is pushed up to 15 ft..',
             ],
+            effects: [],
           },
           {
             key: 'sure-hooved',
@@ -630,6 +637,7 @@ export default createPublicationMonsters({
               rules.prone,
               '. In addition it has advantage on Str (Athletics) checks to climb rocky surfaces and Dex (Acrobatics) checks to maintain its balance on rocky surfaces.',
             ],
+            effects: [],
           },
         ],
       },
@@ -828,6 +836,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' dismounted or moved vs. its will while mounted.',
             ],
+            effects: [],
           },
           {
             key: 'mounted-warrior',
@@ -835,6 +844,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['While mounted mount can’t be ', rules.charmed, ' or ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'slippery',
@@ -927,6 +937,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -963,6 +974,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' cyonaxin can make one Bite attack vs. it as a bonus action.',
             ],
+            effects: [],
           },
           {
             key: 'free-runner',
@@ -1018,6 +1030,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' daeodon can make one Slam vs. it as a bonus action.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1088,6 +1101,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1255,6 +1269,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '. Works for another only if dokkaebi formally allows that creature to borrow it. A creature wearing hat with permission can use its Invisibility action. If hat is not returned when requested hat loses all magical properties.',
             ],
+            effects: [],
           },
           {
             key: 'wrestler',
@@ -1359,6 +1374,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' until end of its next turn.',
             ],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -1533,6 +1549,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'might-of-giants',
@@ -1865,6 +1882,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 16 },
               ' Con save to cast a spell with verbal component. A creature that succeeds on three saves recovers from the disease.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1916,6 +1934,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Int check.',
             ],
+            effects: [],
           },
           {
             key: 'filth-dweller',
@@ -1961,6 +1980,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 13 },
               ' Int check.',
             ],
+            effects: [],
           },
           {
             key: 'filth-dweller',
@@ -2295,6 +2315,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. In addition Wis (Animal Handling) checks are made with disadvantage vs. the jubjub bird.',
             ],
+            effects: [],
           },
           {
             key: 'unpredictable',
@@ -2342,6 +2363,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Has advantage on saves vs. being ', rules.poisoned, '.'],
+            effects: [],
           },
         ],
       },
@@ -2380,6 +2402,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Dex save to leave its space. The creature has advantage on its save if the swarm has half of its hp or fewer.',
             ],
+            effects: [],
           },
           {
             key: 'keen-sight',
@@ -2394,6 +2417,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Has advantage on saves vs. being ', rules.poisoned, '.'],
+            effects: [],
           },
           {
             key: 'swarm',
@@ -2607,6 +2631,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' suffers death save failure as normal but immediately stabilizes if not its final death save.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2648,6 +2673,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Has disadvantage on saves vs. being knocked ', rules.prone, '.'],
+            effects: [],
           },
         ],
       },
@@ -2679,6 +2705,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bend-the-spoon',
@@ -2690,6 +2717,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ' Wis save. Warped weapon deals only half its normal damage on a hit and creature wielding warped weapon has disadvantage on attack rolls with it. A creature can repair a warped weapon with mending spell or by spending a short rest repairing it with the appropriate tools.',
             ],
+            effects: [],
           },
           {
             key: 'appeal-to-the-fervent',
@@ -2736,6 +2764,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Advantage on attacks vs. ', rules.poisoned, ' creatures.'],
+            effects: [],
           },
           {
             key: 'plant-powered-mobility',
@@ -2747,6 +2776,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' at the start of its turn it can immediately stand with o costing movement.',
             ],
+            effects: [],
           },
           {
             key: 'spore-cloud',
@@ -2832,6 +2862,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Str check vs. it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2880,6 +2911,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Dex save catch the missile and take no bludgeoning from it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3557,6 +3589,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Wis (Insight) check.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -3612,6 +3645,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' until it takes damage or someone uses action to wake it. If effect is nonmagical mimic has advantage on the save.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -3773,6 +3807,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 15 },
               ' Con save or be ejected from the body which falls apart and is destroyed. Its stats except size are same in each body.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -3791,6 +3826,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Wis (Perception) check to spot a xecha that has neither moved nor attacked. A creature that tries to enter the xecha’s space while unaware of it is surprised by the xecha.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3840,6 +3876,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
         ],
       },

@@ -58,6 +58,7 @@ export default createBeast({
           ],
         },
         text: [refs.rules.advantage, ' against a creature it has ', refs.rules.grappled, '.'],
+        effects: [],
       },
       {
         key: 'pseudopod',

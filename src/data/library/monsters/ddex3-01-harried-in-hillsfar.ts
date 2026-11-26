@@ -34,6 +34,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -72,6 +73,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mirror_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -267,6 +269,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite-jackal-or-hybrid-form-only',
@@ -457,6 +460,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'pounce',

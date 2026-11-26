@@ -78,6 +78,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'tunneler',
@@ -177,6 +178,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'wis' },
               ' Wisdom save. On a failure, buzzing in its head gives it disadvantage on its next attack roll, saving throw or ability check, whichever comes first. If it fails by 5 or more, it is affected by Confusion for 1 minute instead. This effect requires no concentration. The creature is immune to Foment Madness while that Confusion lasts.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -247,6 +249,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -297,6 +300,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' while the duplicate exists and can have only one duplicate at a time. The duplicate has the same statistics and knowledge as the berbalang. Everything it experiences becomes known to the berbalang, and its attacks deal psychic damage in place of their normal damage types. The duplicate disappears when it or the berbalang reaches 0 HP, or when the berbalang dismisses it without spending an action.',
             ],
+            effects: [],
           },
         ],
       },
@@ -477,6 +481,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The canoloth can be surprised only while ', rules.incapacitated, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -677,6 +682,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -737,6 +743,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ". The steeder's invisibility ends immediately if it attacks.",
             ],
+            effects: [],
           },
         ],
       },
@@ -771,6 +778,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' is within 5 ft. of that creature.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -799,6 +807,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '. The attack ignores damage resistance.',
             ],
+            effects: [],
           },
           {
             key: 'mind-breaking-howl',
@@ -879,6 +888,7 @@ export default createPublicationMonsters({
               refs.spells.suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -1632,6 +1642,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'tunneler',

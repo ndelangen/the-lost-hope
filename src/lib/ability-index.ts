@@ -61,6 +61,22 @@ export type AbilityIndexEntry = {
   uses?: number
   /** The id of the ability's card on a page that writes every ability out. */
   anchor: string
+  /** For an attack: melee or ranged, and how far it reaches. */
+  reach?: AttackReach
+}
+
+/** "Melee · 5 ft.", "Ranged · 80/320 ft.", "Melee · 5 ft. or thrown 20/60 ft." */
+export type AttackReach = { kind: 'melee' | 'ranged'; text: string }
+
+export function attackReach(ability: Pick<Ability, 'attack'>): AttackReach | undefined {
+  const { attack } = ability
+  if (!attack) return undefined
+  if (attack.kind === 'ranged')
+    return { kind: 'ranged', text: `Ranged · ${attack.range[0]}/${attack.range[1]} ft.` }
+  return {
+    kind: 'melee',
+    text: `Melee · ${attack.reach} ft.${attack.thrown ? ` or thrown ${attack.thrown[0]}/${attack.thrown[1]} ft.` : ''}`,
+  }
 }
 
 export type AbilityIndexGroup = {
@@ -86,6 +102,7 @@ export function abilityIndex(stats: AnyStatBlock): AbilityIndexGroup[] {
       kind: abilityKind(ability),
       ...(ability.uses ? { uses: ability.uses } : {}),
       anchor: abilityAnchor(ability.key),
+      ...(ability.attack ? { reach: attackReach(ability) } : {}),
     })),
   }))
 }

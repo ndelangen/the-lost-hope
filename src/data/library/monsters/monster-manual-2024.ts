@@ -44,6 +44,7 @@ export default createPublicationMonsters({
               refs.spells.lightning_bolt,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -505,6 +506,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -1464,6 +1466,7 @@ export default createPublicationMonsters({
               refs.spells.legend_lore,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1631,6 +1634,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'displacement',
@@ -1642,6 +1646,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1855,6 +1860,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1981,6 +1987,7 @@ export default createPublicationMonsters({
               rules.restrained,
               '. Pull it up to 25 ft. straight toward the ettercap.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2022,6 +2029,7 @@ export default createPublicationMonsters({
               refs.spells.polymorph,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2118,6 +2126,7 @@ export default createPublicationMonsters({
               refs.spells.minor_illusion,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2854,6 +2863,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -3135,6 +3145,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'gouge',
@@ -3236,6 +3247,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               " Wisdom save. On a failure, roll 1d8 to determine that creature's behavior for the current turn. 1–4. It does nothing. 5–6. It takes no action or Bonus Action and spends all its movement moving in a random direction. 7–8. It makes a melee attack against a randomly chosen creature within reach. If it cannot make this attack, it does nothing.",
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -3327,6 +3339,7 @@ export default createPublicationMonsters({
               refs.spells.see_invisibility,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3412,6 +3425,7 @@ export default createPublicationMonsters({
               refs.spells.see_invisibility,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4261,6 +4275,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'con' },
               ' Constitution save. On failure, the spell fails and is wasted.',
             ],
+            effects: [],
           },
           {
             key: 'undead-restoration',
@@ -4392,6 +4407,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4433,6 +4449,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4968,6 +4985,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -5238,6 +5256,7 @@ export default createPublicationMonsters({
             text: ['Cast Faerie Fire using Intelligence (spell save ', { dc: 'int' }, ').'],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -5327,6 +5346,7 @@ export default createPublicationMonsters({
               refs.spells.tongues,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -6122,6 +6142,7 @@ export default createPublicationMonsters({
               refs.spells.dispel_magic,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fiendish-restoration',
@@ -7105,6 +7126,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' condition ends immediately after it deals damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -7642,6 +7664,7 @@ export default createPublicationMonsters({
               refs.spells.sleep,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -7771,6 +7794,7 @@ export default createPublicationMonsters({
               refs.spells.mind_spike,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bloodied-fury',
@@ -8107,6 +8131,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -8175,6 +8200,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Dexterity save. On a failure, the item takes a cumulative −1 penalty to the AC it provides or to attack rolls made with it. Destroy the armor if the penalty drops its AC to 10, or the weapon if its penalty reaches −5. Mending removes the penalty from the item.',
             ],
+            effects: [],
           },
           {
             key: 'destroy-metal',
@@ -8642,6 +8668,7 @@ export default createPublicationMonsters({
               refs.spells.lightning_bolt,
               ' (level 4).',
             ],
+            effects: [],
           },
           {
             key: 'fiendish-restoration',
@@ -8761,6 +8788,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               " Charisma save. Celestials, Fiends, and Undead fail automatically. On failure the sprite learns the target's emotions and alignment.",
             ],
+            effects: [],
           },
           {
             key: 'invisibility',
@@ -9008,6 +9036,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'claw',
@@ -9308,6 +9337,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'beak',
@@ -9408,6 +9438,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['The weird is ', rules.invisible, ' while completely submerged.'],
+            effects: [],
           },
           {
             key: 'water-bound',
@@ -9514,6 +9545,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -9777,6 +9809,7 @@ export default createPublicationMonsters({
               refs.spells.dominate_person,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'demonic-restoration',

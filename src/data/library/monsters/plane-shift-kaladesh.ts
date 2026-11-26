@@ -189,6 +189,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Dexterity save. An unattended device automatically loses aether. Reduce any bonus it grants by 1. A device with charges also loses one charge. A device without charges stops working for 1 round. Left unhindered, the gremlin can ruin a device.',
             ],
+            effects: [],
           },
         ],
       },

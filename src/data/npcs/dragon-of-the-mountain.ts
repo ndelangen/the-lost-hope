@@ -113,6 +113,7 @@ export default createNPC({
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [],
       },
       {
         key: 'frightful-presence',

@@ -52,6 +52,7 @@ export default createNPC({
           refs.rules.incapacitated,
           ' condition until someone talks it back to itself.',
         ],
+        effects: [],
       },
       {
         key: 'boarding-axe',

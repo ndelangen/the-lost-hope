@@ -43,6 +43,7 @@ export default createPC({
           { dc: 'cha' },
           '). Magical Cunning: once per long rest a 1-minute rite brings one pact slot back. Your Book of Shadows (Pact of the Tome) holds Guidance, Mage Hand, Prestidigitation, Comprehend Languages and Detect Magic.',
         ],
+        effects: [],
       },
       {
         key: 'eldritch-mind',
@@ -111,9 +112,19 @@ export default createPC({
           target: { creatures: 1, range: 60 },
           onFail: {
             damage: [{ dice: '2d6', type: refs.rules.psychic }],
-            also: ['It subtracts 1d4 from its next saving throw before the end of your next turn.'],
+
+            also: [{ effect: 'sliver-penalty' }],
           },
         },
+        effects: [
+          {
+            key: 'sliver-penalty',
+            name: 'Saving throw penalty',
+            lands: { on: 'failed-save' },
+            text: ['It subtracts 1d4 from its next saving throw before the end of your next turn.'],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+          },
+        ],
       },
       {
         key: 'counterspell',
@@ -127,6 +138,7 @@ export default createPC({
           onFail: { also: ['The spell fails and the caster keeps its slot.'] },
         },
         text: ['Uses a pact slot.'],
+        effects: [],
       },
       {
         key: 'hunger-of-hadar',
@@ -140,16 +152,26 @@ export default createPC({
           target: { area: { shape: refs.rules.sphere, size: 20 }, range: 150 },
           onFail: {
             damage: [{ dice: '2d6', type: refs.rules.acid }],
+
             also: [
               'A sphere of magical darkness for up to 1 minute (',
               refs.rules.concentration,
               '); everything in it is ',
-              refs.rules.blinded,
+              { effect: 'hunger-darkness' },
               ' and it is difficult terrain. A creature starting its turn inside takes 2d6 cold damage; one ending its turn inside makes this save.',
             ],
           },
         },
         text: ['Uses a pact slot.'],
+        effects: [
+          {
+            key: 'hunger-darkness',
+            name: 'Blinded',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.blinded],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+          },
+        ],
       },
       {
         key: 'dissonant-whispers',
@@ -168,6 +190,7 @@ export default createPC({
           onSuccess: 'half',
         },
         text: ['Uses a pact slot (3rd level: 5d6).'],
+        effects: [],
       },
       {
         key: 'hideous-laughter',
@@ -179,17 +202,31 @@ export default createPC({
           dc: 'cha',
           target: { creatures: 3, range: 30 },
           onFail: {
-            conditions: [refs.rules.prone, refs.rules.incapacitated],
             also: [
               'For up to 1 minute (',
               refs.rules.concentration,
-              '). It repeats the save at the end of each of its turns, and when it takes damage, with ',
-              refs.rules.advantage,
-              ' if the damage caused it.',
+              '). ',
+              { effect: 'laughing' },
+              '.',
             ],
           },
         },
         text: ['Uses a pact slot (3rd level: three creatures).'],
+        effects: [
+          {
+            key: 'laughing',
+            name: 'Laughing',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.prone, refs.rules.incapacitated],
+            text: [
+              'It repeats the save at the end of each of its turns, and when it takes damage, with ',
+              refs.rules.advantage,
+              ' if the damage caused it.',
+            ],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+            ends: { repeatSave: ['end-of-turn', 'damaged'] },
+          },
+        ],
       },
       {
         key: 'phantasmal-force',
@@ -202,15 +239,28 @@ export default createPC({
           target: { creatures: 1, range: 60 },
           onFail: {
             also: [
-              'It believes in an illusion you make, up to a 10-ft. cube, for up to 1 minute (',
-              refs.rules.concentration,
-              '). A harmful one deals 2d8 ',
+              { effect: 'illusion' },
+              ' A harmful one deals 2d8 ',
               refs.rules.psychic,
               ' damage to it on each of its turns while it is in or next to it.',
             ],
           },
         },
         text: ['Uses a pact slot.'],
+        effects: [
+          {
+            key: 'illusion',
+            name: 'Believes an illusion',
+            lands: { on: 'failed-save' },
+            text: [
+              'It believes in an illusion you make, up to a 10-ft. cube',
+              ' (',
+              refs.rules.concentration,
+              ').',
+            ],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+          },
+        ],
       },
       {
         key: 'suggestion',
@@ -222,15 +272,25 @@ export default createPC({
           dc: 'cha',
           target: { creatures: 1, range: 30 },
           onFail: {
-            conditions: [refs.rules.charmed],
-            also: [
-              'It follows one reasonable-sounding course of action you suggest, for up to 8 hours (',
-              refs.rules.concentration,
-              ').',
-            ],
+            also: [{ effect: 'suggested' }],
           },
         },
         text: ['Uses a pact slot.'],
+        effects: [
+          {
+            key: 'suggested',
+            name: 'Suggested course',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.charmed],
+            text: [
+              'It follows one reasonable-sounding course of action you suggest',
+              ' (',
+              refs.rules.concentration,
+              ').',
+            ],
+            lasts: { kind: 'time', amount: '8', unit: 'hour' },
+          },
+        ],
       },
       {
         key: 'detect-thoughts',
@@ -244,6 +304,7 @@ export default createPC({
           { dc: 'cha' },
           '. Uses a pact slot.',
         ],
+        effects: [],
       },
       {
         key: 'armor-of-agathys',
@@ -287,10 +348,21 @@ export default createPC({
         icon: 'gi/GiInvisible',
         text: [
           'You and one more creature you touch become ',
-          refs.rules.invisible,
-          ' for up to 1 hour (',
+          { effect: 'invisible' },
+          ' (',
           refs.rules.concentration,
-          '); it ends for one of them when that one attacks, deals damage or casts a spell. Uses a pact slot.',
+          ').',
+          ' Uses a pact slot.',
+        ],
+        effects: [
+          {
+            key: 'invisible',
+            name: 'Invisible',
+            lands: { on: 'use' },
+            conditions: [refs.rules.invisible],
+            text: ['It ends for one of them when that one attacks, deals damage or casts a spell.'],
+            lasts: { kind: 'time', amount: '1', unit: 'hour' },
+          },
         ],
       },
       {

@@ -76,6 +76,7 @@ export default createPublicationMonsters({
               { ability: 'contagious-lightning' },
               '.',
             ],
+            effects: [],
           },
           {
             key: 'ride-the-bolt',
@@ -122,6 +123,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'savage-hunger',
@@ -335,6 +337,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -403,6 +406,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Dexterity saving throw or one nonmagical cloth, leather, or paper object on the target becomes damaged and unusable until repaired. This effect can deface or ruin clothing, backpacks, journals, and similar objects, but it can’t destroy armor.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -416,6 +420,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' Needle Shuttle attacks.',
             ],
+            effects: [],
           },
           {
             key: 'trimming-blade',
@@ -583,6 +588,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ', shapeless, magical force that can perform simple tasks at the automaton’s command. This force has a Strength equal to the automaton’s Strength, and it can interact with objects up to 15 feet away from the automaton. The automaton can use this force to perform simple tasks that a Small humanoid with two hands could do, such as opening a door, moving a bookshelf’s ladder, picking up and organizing books, and similar tasks. The automaton can’t use this force to make attacks or wield a weapon or shield.',
             ],
+            effects: [],
           },
           {
             key: 'book-safekeeper',
@@ -884,6 +890,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -923,6 +930,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -1135,6 +1143,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic can’t put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1298,6 +1307,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ['The skin bat can’t use its blindsight while ', rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'hungry-dead-nature',
@@ -1472,6 +1482,7 @@ export default createPublicationMonsters({
               rules.blinded,
               '. A creature, including the target, can take its action to cut open one of the sewn orifices by succeeding on a DC 12 Dexterity check with an edged weapon or tool.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1555,6 +1566,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'construct-nature',

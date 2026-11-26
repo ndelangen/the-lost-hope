@@ -417,6 +417,7 @@ export default createPublicationMonsters({
               { ability: 'claw' },
               ' attack against it as a bonus action. Reeling it in releases everyone else attached to the filament. The cave fisher cannot extend another filament until its grapple on the reeled-in creature ends.',
             ],
+            effects: [],
           },
         ],
       },
@@ -448,6 +449,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -658,6 +660,7 @@ export default createPublicationMonsters({
               refs.spells.faerie_fire_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -669,6 +672,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -741,6 +745,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', any creature with Rampage can use a bonus action to make a bite attack while within 10 ft. of it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1431,6 +1436,7 @@ export default createPublicationMonsters({
               { ability: 'fist' },
               ' attacks against one random target within reach. If no other creature is within reach, the giant rages as on a roll of 1–3.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -1593,6 +1599,7 @@ export default createPublicationMonsters({
               rules.restrained,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'evasion',
@@ -2296,6 +2303,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' allies is within 5 ft. of it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2540,6 +2548,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'raxivort-s-tongue',
@@ -2614,6 +2623,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'raxivort-s-tongue',

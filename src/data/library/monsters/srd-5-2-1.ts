@@ -83,6 +83,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'spellcasting',
@@ -105,6 +106,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sending,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -228,6 +230,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'sleep-breath',
@@ -243,6 +246,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' condition for 10 minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.',
             ],
+            effects: [],
           },
           {
             key: 'spellcasting',
@@ -267,6 +271,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.control_weather,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -405,6 +410,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'slowing-breath',
@@ -451,6 +457,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.major_image,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -602,6 +609,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'spellcasting',
@@ -618,6 +626,7 @@ export default createPublicationMonsters({
               ' (level 3 version); 1/Day: ',
               refs.spells.geas,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -755,6 +764,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -800,6 +810,7 @@ export default createPublicationMonsters({
                 { dc: 'cha' },
                 '). The dragon can’t take this action again until the start of its next turn.',
               ],
+              effects: [],
             },
             {
               key: 'pounce',
@@ -891,6 +902,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'spellcasting',
@@ -913,6 +925,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sending,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -1036,6 +1049,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'sleep-breath',
@@ -1098,6 +1112,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.detect_thoughts,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -1236,6 +1251,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'slowing-breath',
@@ -1284,6 +1300,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.project_image,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -1435,6 +1452,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'spellcasting',
@@ -1453,6 +1471,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.modify_memory,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -1590,6 +1609,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1636,6 +1656,7 @@ export default createPublicationMonsters({
                 { dc: 'cha' },
                 '). The dragon can’t take this action again until the start of its next turn.',
               ],
+              effects: [],
             },
             {
               key: 'pounce',
@@ -1786,6 +1807,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the ankheg.',
             ],
+            effects: [],
           },
           {
             key: 'acid-spray',
@@ -1804,6 +1826,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -1835,6 +1858,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2344,6 +2368,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2447,6 +2472,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2595,6 +2621,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'sleep-breath',
@@ -2698,6 +2725,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -2789,6 +2817,7 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d8', type: rules.piercing, addModifier: true }],
             },
             text: ['With Advantage if the target is ', rules.grappled, ' by the bugbear.'],
+            effects: [],
           },
           {
             key: 'quick-grapple',
@@ -2883,6 +2912,7 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d4', type: rules.bludgeoning, addModifier: true }],
             },
             text: ['With Advantage if the target is ', rules.grappled, ' by the bugbear.'],
+            effects: [],
           },
         ],
       },
@@ -3356,6 +3386,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis,
             ],
+            effects: [],
           },
           {
             key: 'misty-step',
@@ -3522,6 +3553,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'slowing-breath',
@@ -3657,6 +3689,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep,
             ],
+            effects: [],
           },
           {
             key: 'divine-aid',
@@ -3799,6 +3832,7 @@ export default createPublicationMonsters({
               rules.blinded,
               ' condition and is suffocating while the darkmantle is attached in this way. While attached to a target, the darkmantle can attack only the target but has Advantage on its attack rolls. Its Speed becomes 0, it can’t benefit from any bonus to its Speed, and it moves with the target. A creature can take an action to try to detach the darkmantle from itself, doing so with a successful DC 13 Strength (Athletics) check. On its turn, the darkmantle can detach itself by using 5 feet of movement.',
             ],
+            effects: [],
           },
           {
             key: 'darkness-aura',
@@ -3931,6 +3965,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead,
             ],
+            effects: [],
           },
           {
             key: 'divine-aid',
@@ -3979,6 +4014,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -4066,6 +4102,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ').',
             ],
+            effects: [],
           },
           {
             key: 'unsettling-visage',
@@ -4236,6 +4273,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4274,6 +4312,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The mephit explodes when it dies.'],
+            effects: [],
           },
           {
             key: 'claw',
@@ -4326,6 +4365,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -4568,6 +4608,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_fire,
               ' (level 7 version)',
             ],
+            effects: [],
           },
         ],
       },
@@ -4635,6 +4676,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -4878,6 +4920,7 @@ export default createPublicationMonsters({
               { ability: 'web-strand' },
               ' up to 25 feet straight toward itself.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6313,6 +6356,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -6384,6 +6428,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -6437,6 +6482,7 @@ export default createPublicationMonsters({
               refs.spells.unseen_servant,
               '. The hag must finish a Long Rest before using this trait to cast that spell again.',
             ],
+            effects: [],
           },
           {
             key: 'mimicry',
@@ -6672,6 +6718,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.true_seeing,
             ],
+            effects: [],
           },
         ],
       },
@@ -6702,6 +6749,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6743,6 +6791,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -6949,6 +6998,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7024,6 +7074,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'longsword',
@@ -7230,6 +7281,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -7268,6 +7320,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The mephit explodes when it dies.'],
+            effects: [],
           },
           {
             key: 'claw',
@@ -7315,6 +7368,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -7495,6 +7549,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -7595,6 +7650,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -7711,6 +7767,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying,
             ],
+            effects: [],
           },
           {
             key: 'leap',
@@ -7747,6 +7804,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'running-leap',
@@ -7880,6 +7938,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The mephit explodes when it dies.'],
+            effects: [],
           },
           {
             key: 'claw',
@@ -7914,6 +7973,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -7949,6 +8009,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The magmin explodes when it dies.'],
+            effects: [],
           },
           {
             key: 'touch',
@@ -8043,6 +8104,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -8423,6 +8485,7 @@ export default createPublicationMonsters({
               refs.spells.unseen_servant,
               '. The hag must finish a Long Rest before using this trait to cast that spell again.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -8499,6 +8562,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'shape-shift',
@@ -8959,6 +9023,7 @@ export default createPublicationMonsters({
               '; 1/Day: ',
               refs.spells.spirit_guardians,
             ],
+            effects: [],
           },
           {
             key: 'divine-aid',
@@ -9429,6 +9494,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -9458,6 +9524,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'water-breathing',
@@ -9595,6 +9662,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -9705,6 +9773,7 @@ export default createPublicationMonsters({
                 damage: [{ dice: '1d6', type: rules.psychic, addModifier: true }],
               },
             },
+            effects: [],
           },
         ],
       },
@@ -9878,6 +9947,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -10112,6 +10182,7 @@ export default createPublicationMonsters({
               refs.spells.lightning_bolt,
               ' (level 4 version)',
             ],
+            effects: [],
           },
         ],
       },
@@ -10207,6 +10278,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'death-burst',
@@ -10224,6 +10296,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The mephit explodes when it dies.'],
+            effects: [],
           },
           {
             key: 'claw',
@@ -10373,6 +10446,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -10453,6 +10527,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'mace',
@@ -10507,6 +10582,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -10710,6 +10786,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -10748,6 +10825,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' condition until the weapon is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight',
@@ -10822,6 +10900,7 @@ export default createPublicationMonsters({
                 ],
               },
             },
+            effects: [],
           },
           {
             key: 'charm',
@@ -10841,6 +10920,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'shape-shift',
@@ -10867,6 +10947,7 @@ export default createPublicationMonsters({
                 { dc: 'cha' },
                 '). The vampire can’t take this action again until the start of its next turn.',
               ],
+              effects: [],
             },
             {
               key: 'deathless-strike',
@@ -10932,6 +11013,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight',
@@ -11009,6 +11091,7 @@ export default createPublicationMonsters({
                 ],
               },
             },
+            effects: [],
           },
           {
             key: 'deathless-agility',
@@ -11043,6 +11126,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -11451,6 +11535,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -11600,6 +11685,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -11739,6 +11825,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -11784,6 +11871,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -11854,6 +11942,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -11917,6 +12006,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -11983,6 +12073,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'sleep-breath',
@@ -12092,6 +12183,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -12180,6 +12272,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'slowing-breath',
@@ -12275,6 +12368,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -12338,6 +12432,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -12404,6 +12499,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'paralyzing-breath',

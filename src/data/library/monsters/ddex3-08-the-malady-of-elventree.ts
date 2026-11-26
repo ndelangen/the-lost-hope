@@ -35,6 +35,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic can’t put the drow to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -54,6 +55,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',

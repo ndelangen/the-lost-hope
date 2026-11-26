@@ -154,6 +154,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['The water weird is ', rules.invisible, ' while fully immersed in water.'],
+            effects: [],
           },
           {
             key: 'water-bound',

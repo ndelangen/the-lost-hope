@@ -1,6 +1,7 @@
-import { Sparkles, Wand2 } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { Sparkles, Target, TriangleAlert, Wand2 } from 'lucide-react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 
+import { Avatar } from '#/components/ui/avatar'
 import { magicItemBooks, magicItemNames } from '#/data/generated/magic-item-names'
 import { spellBooks, spellNames } from '#/data/generated/spell-names'
 import type { EntityRef } from '#/definitions/kind'
@@ -16,7 +17,14 @@ import {
   suggestFromSpellEffect,
   type EffectSuggestion,
 } from '#/lib/effect-suggestion'
-import type { AbilityId, EffectApplication, EffectOrigin, OnDamage } from '#/lib/encounter-combat'
+import {
+  EACH_TARGET,
+  type AbilityId,
+  type DurationChoice,
+  type EffectApplication,
+  type EffectOrigin,
+  type OnDamage,
+} from '#/lib/encounter-combat'
 import { loadMagicItem } from '#/lib/library-magic-items'
 import { loadSpell } from '#/lib/load-spell'
 import { ABILITY_KEYS, CONDITION_KEYS, plainRuleText, rules, type Condition } from '#/lib/rules'
@@ -25,8 +33,15 @@ import { cn } from '#/lib/utils'
 import { useDurationDraft } from './condition-picker'
 import { useDensity } from './density'
 import { ActionButton } from './icon-button'
+import { listNames } from './status-layout'
 
-type Combatant = { id: string; name: string }
+type Combatant = {
+  id: string
+  name: string
+  /** Player characters list first among targets. */
+  isPc?: boolean
+  avatar?: string
+}
 
 /** What the encounter page does with an applied effect. */
 export type ApplyEffectActions = {
@@ -38,12 +53,57 @@ export type ApplyEffectActions = {
     application: EffectApplication,
     concentrate?: { caster: string; on: string; spell: EntityRef<'spell'> },
   ) => void
+  /**
+   * What a combatant concentrates on now, and who that spell's effects are on. A creature holds one
+   * thing at a time, so starting another ends this.
+   */
+  holding: (combatant: string) => HeldConcentration | undefined
+}
+
+export type HeldConcentration = { on: string; targets: readonly string[] }
+
+/** Said before concentration switches: "Casting this ends Hideous Laughter on Cassian Veyl." */
+export function EndsConcentration({
+  held,
+  holder,
+  starting = 'Casting this',
+}: {
+  held: HeldConcentration
+  /** Who is concentrating. */
+  holder: string
+  starting?: string
+}) {
+  const focus = useDensity() === 'focus'
+  return (
+    <p
+      role="alert"
+      className={cn(
+        'flex items-start gap-2 rounded-lg border border-amber-500/60 bg-amber-500/15 px-3 py-2 font-medium',
+        focus ? 'text-base' : 'text-sm',
+      )}
+    >
+      <TriangleAlert aria-hidden className="mt-0.5 size-5 shrink-0 text-amber-600" />
+      <span>
+        {starting} ends {held.on || `what ${holder} is concentrating on`}
+        {held.targets.length ? ` on ${listNames(held.targets)}` : ''}.{' '}
+        <span className="text-muted-foreground font-normal">
+          {holder} concentrates on one thing at a time.
+        </span>
+      </span>
+    </p>
+  )
 }
 
 const toggle = <T,>(list: readonly T[], value: T) =>
   list.includes(value) ? list.filter((item) => item !== value) : [...list, value]
 
 const noTargets: readonly string[] = []
+
+/** Player characters first, then everyone else, each in initiative order. */
+const pcsFirst = (combatants: readonly Combatant[]) => [
+  ...combatants.filter(({ isPc }) => isPc),
+  ...combatants.filter(({ isPc }) => !isPc),
+]
 
 const chip = (focus: boolean, pressed: boolean) =>
   cn(
@@ -58,6 +118,24 @@ const chip = (focus: boolean, pressed: boolean) =>
  * Check and apply a spell or ability's effect: who it lands on, its conditions, what else it does,
  * and how long it lasts. Everything starts from what the rules text says and stays editable.
  */
+/** "1 minute (10 rounds)", "until the end of each target’s next turn", "save ends: DC 13 Wisdom". */
+function describeChoice(choice: DurationChoice, nameOf: (id: string) => string) {
+  switch (choice.kind) {
+    case 'until-removed':
+      return 'until removed'
+    case 'end-of-turn':
+      return `until the end of ${nameOf(choice.of)}’s next turn`
+    case 'start-of-turn':
+      return `until the start of ${nameOf(choice.of)}’s next turn`
+    case 'rounds':
+      return choice.rounds % 10 === 0
+        ? `${choice.rounds / 10} minute${choice.rounds === 10 ? '' : 's'}`
+        : `${choice.rounds} round${choice.rounds === 1 ? '' : 's'}`
+    case 'save-ends':
+      return `save ends: DC ${choice.dc} ${rules[choice.ability].name}`
+  }
+}
+
 function EffectForm({
   title,
   origin,
@@ -66,11 +144,20 @@ function EffectForm({
   initialTargets = noTargets,
   caster,
   spell,
+  known = false,
+  maxTargets,
   onDone,
 }: {
   title: string
   origin: EffectOrigin
   suggestion: EffectSuggestion
+  /**
+   * The effect is the source's own data, not a guess: it applies as it is, asking only on whom.
+   * Its details can still be opened and changed.
+   */
+  known?: boolean
+  /** How many creatures it can land on, when the source says: one target, or two within range. */
+  maxTargets?: number
   actions: ApplyEffectActions
   initialTargets?: readonly string[]
   caster?: string
@@ -108,6 +195,19 @@ function EffectForm({
           conditions.includes(key),
       )
   const legend = 'text-muted-foreground mb-1 text-xs font-semibold uppercase'
+  const [editing, setEditing] = useState(!known)
+  const nameOf = (id: string) =>
+    id === EACH_TARGET ? 'each target' : (actions.combatants.find((c) => c.id === id)?.name ?? id)
+  const summary = [
+    describeChoice(suggestion.duration, nameOf),
+    suggestion.onDamage
+      ? suggestion.onDamage.kind === 'save'
+        ? `damage: DC ${suggestion.onDamage.dc} ${rules[suggestion.onDamage.ability].name} save ends it`
+        : 'damage ends it'
+      : '',
+  ]
+    .filter(Boolean)
+    .join(' · ')
 
   return (
     <form
@@ -140,121 +240,164 @@ function EffectForm({
       </p>
 
       <fieldset className="m-0 grid min-w-0 gap-1 border-0 p-0">
-        <legend className={legend}>On whom</legend>
+        <legend className={legend}>
+          On whom
+          {maxTargets ? ` · ${maxTargets === 1 ? 'one creature' : `up to ${maxTargets}`}` : ''}
+        </legend>
         <div className="flex flex-wrap gap-1">
-          {actions.combatants.map((combatant) => (
+          {pcsFirst(actions.combatants).map((combatant) => (
             <button
               key={combatant.id}
               type="button"
               aria-pressed={targets.includes(combatant.id)}
-              onClick={() => setTargets((current) => toggle(current, combatant.id))}
-              className={cn(chip(focus, targets.includes(combatant.id)), 'normal-case')}
+              onClick={() =>
+                setTargets((current) =>
+                  // One target: picking another moves it. Up to n: the oldest pick gives way.
+                  current.includes(combatant.id) || !maxTargets || current.length < maxTargets
+                    ? toggle(current, combatant.id)
+                    : [...current.slice(current.length - maxTargets + 1), combatant.id],
+                )
+              }
+              className={cn(
+                chip(focus, targets.includes(combatant.id)),
+                'normal-case',
+                combatant.avatar && 'pl-1',
+              )}
             >
+              {combatant.avatar ? (
+                <Avatar
+                  src={combatant.avatar}
+                  sizes="32px"
+                  maxWidth={64}
+                  className={focus ? 'size-8' : 'size-6'}
+                />
+              ) : null}
               {combatant.name}
             </button>
           ))}
         </div>
       </fieldset>
 
-      <fieldset className="m-0 grid min-w-0 gap-1 border-0 p-0">
-        <legend className={legend}>Conditions</legend>
-        <div className="flex flex-wrap gap-1">
-          {shown.map((condition) => {
-            const Icon = CONDITION_ICONS[condition]
-            return (
+      {editing ? (
+        <>
+          <fieldset className="m-0 grid min-w-0 gap-1 border-0 p-0">
+            <legend className={legend}>Conditions</legend>
+            <div className="flex flex-wrap gap-1">
+              {shown.map((condition) => {
+                const Icon = CONDITION_ICONS[condition]
+                return (
+                  <button
+                    key={condition}
+                    type="button"
+                    title={plainRuleText(rules[condition].summary)}
+                    aria-pressed={conditions.includes(condition)}
+                    onClick={() => setConditions((current) => toggle(current, condition))}
+                    className={chip(focus, conditions.includes(condition))}
+                  >
+                    <Icon aria-hidden />
+                    {rules[condition].name}
+                  </button>
+                )
+              })}
               <button
-                key={condition}
                 type="button"
-                title={plainRuleText(rules[condition].summary)}
-                aria-pressed={conditions.includes(condition)}
-                onClick={() => setConditions((current) => toggle(current, condition))}
-                className={chip(focus, conditions.includes(condition))}
+                aria-expanded={allConditions}
+                onClick={() => setAllConditions((value) => !value)}
+                className="text-muted-foreground px-2 text-sm underline-offset-4 hover:underline"
               >
-                <Icon aria-hidden />
-                {rules[condition].name}
+                {allConditions ? 'Fewer' : shown.length ? 'Other conditions' : 'Add a condition'}
               </button>
-            )
-          })}
-          <button
-            type="button"
-            aria-expanded={allConditions}
-            onClick={() => setAllConditions((value) => !value)}
-            className="text-muted-foreground px-2 text-sm underline-offset-4 hover:underline"
-          >
-            {allConditions ? 'Fewer' : shown.length ? 'Other conditions' : 'Add a condition'}
-          </button>
-        </div>
-      </fieldset>
+            </div>
+          </fieldset>
 
-      <label className="grid gap-1">
-        <span className={legend}>What else it does</span>
-        <textarea
-          value={text}
-          rows={text.length > 120 ? 3 : 2}
-          placeholder="e.g. Its speed is 0. It can’t regain hit points."
-          onChange={(event) => setText(event.currentTarget.value)}
-          className={cn(
-            'border-input bg-background rounded-lg border px-2 py-1.5',
-            focus ? 'text-base' : 'text-sm',
-          )}
-        />
-      </label>
+          <label className="grid gap-1">
+            <span className={legend}>What else it does</span>
+            <textarea
+              value={text}
+              rows={text.length > 120 ? 3 : 2}
+              placeholder="e.g. Its speed is 0. It can’t regain hit points."
+              onChange={(event) => setText(event.currentTarget.value)}
+              className={cn(
+                'border-input bg-background rounded-lg border px-2 py-1.5',
+                focus ? 'text-base' : 'text-sm',
+              )}
+            />
+          </label>
 
-      {duration.fields}
+          {duration.fields}
 
-      <fieldset className="m-0 grid min-w-0 gap-1 border-0 p-0">
-        <legend className={legend}>When it takes damage</legend>
-        <div className="flex flex-wrap items-center gap-2 text-sm">
-          <select
-            aria-label="When it takes damage"
-            value={onDamage}
-            onChange={(event) =>
-              setOnDamage(event.currentTarget.value as OnDamage['kind'] | 'nothing')
-            }
-            className={cn(
-              'border-input bg-background rounded-lg border px-2',
-              focus ? 'h-11 text-base' : 'h-8',
-            )}
-          >
-            <option value="nothing">Nothing changes</option>
-            <option value="save">It repeats a save</option>
-            <option value="ends">The effect ends</option>
-          </select>
-          {onDamage === 'save' ? (
-            <>
-              <span>DC</span>
-              <input
-                aria-label="Save DC when it takes damage"
-                type="number"
-                min={1}
-                value={damageDc}
-                onChange={(event) =>
-                  setDamageDc(Math.max(1, event.currentTarget.valueAsNumber || 1))
-                }
-                className={cn(
-                  'border-input bg-background w-16 rounded-lg border px-2 text-center',
-                  focus ? 'h-11 text-base' : 'h-8',
-                )}
-              />
+          <fieldset className="m-0 grid min-w-0 gap-1 border-0 p-0">
+            <legend className={legend}>When it takes damage</legend>
+            <div className="flex flex-wrap items-center gap-2 text-sm">
               <select
-                aria-label="Saving throw ability when it takes damage"
-                value={damageAbility}
-                onChange={(event) => setDamageAbility(event.currentTarget.value as AbilityId)}
+                aria-label="When it takes damage"
+                value={onDamage}
+                onChange={(event) =>
+                  setOnDamage(event.currentTarget.value as OnDamage['kind'] | 'nothing')
+                }
                 className={cn(
                   'border-input bg-background rounded-lg border px-2',
                   focus ? 'h-11 text-base' : 'h-8',
                 )}
               >
-                {ABILITY_KEYS.map((id) => (
-                  <option key={id} value={id}>
-                    {rules[id].name}
-                  </option>
-                ))}
+                <option value="nothing">Nothing changes</option>
+                <option value="save">It repeats a save</option>
+                <option value="ends">The effect ends</option>
               </select>
-            </>
-          ) : null}
+              {onDamage === 'save' ? (
+                <>
+                  <span>DC</span>
+                  <input
+                    aria-label="Save DC when it takes damage"
+                    type="number"
+                    min={1}
+                    value={damageDc}
+                    onChange={(event) =>
+                      setDamageDc(Math.max(1, event.currentTarget.valueAsNumber || 1))
+                    }
+                    className={cn(
+                      'border-input bg-background w-16 rounded-lg border px-2 text-center',
+                      focus ? 'h-11 text-base' : 'h-8',
+                    )}
+                  />
+                  <select
+                    aria-label="Saving throw ability when it takes damage"
+                    value={damageAbility}
+                    onChange={(event) => setDamageAbility(event.currentTarget.value as AbilityId)}
+                    className={cn(
+                      'border-input bg-background rounded-lg border px-2',
+                      focus ? 'h-11 text-base' : 'h-8',
+                    )}
+                  >
+                    {ABILITY_KEYS.map((id) => (
+                      <option key={id} value={id}>
+                        {rules[id].name}
+                      </option>
+                    ))}
+                  </select>
+                </>
+              ) : null}
+            </div>
+          </fieldset>
+        </>
+      ) : (
+        <div className="bg-muted/40 grid gap-1 rounded-lg px-3 py-2">
+          <p className={cn('font-medium', focus && 'text-lg')}>
+            {conditions.length
+              ? conditions.map((condition) => rules[condition].name).join(' and ')
+              : 'No condition'}
+            <span className="text-muted-foreground font-normal"> · {summary}</span>
+          </p>
+          {text ? <p className="text-sm">{text}</p> : null}
+          <button
+            type="button"
+            onClick={() => setEditing(true)}
+            className="text-muted-foreground justify-self-start text-sm underline-offset-4 hover:underline"
+          >
+            Change details
+          </button>
         </div>
-      </fieldset>
+      )}
 
       {suggestion.concentration && caster ? (
         <label className="flex items-center gap-2 text-sm">
@@ -265,6 +408,9 @@ function EffectForm({
           />
           The caster is concentrating on {spell?.name}
         </label>
+      ) : null}
+      {concentrate && caster && actions.holding(caster) ? (
+        <EndsConcentration held={actions.holding(caster)!} holder={nameOf(caster)} />
       ) : null}
 
       <div className="flex flex-wrap gap-2">
@@ -304,7 +450,7 @@ export function AbilityEffect({
   const [open, setOpen] = useState<string>()
   const choices = useMemo(
     () =>
-      ability.effects
+      ability.effects?.length
         ? ability.effects.map((effect) => ({
             key: effect.key,
             label: effect.name,
@@ -313,14 +459,22 @@ export function AbilityEffect({
         : [{ key: '', label: 'effect', suggestion: suggestFromAbility(ability, block, source) }],
     [ability, block, source],
   )
-  if (!ability.effects && !abilityLeavesEffect(ability)) return null
+  // Without recorded effects, offer the button only when the text puts a condition on someone:
+  // a one-off like being pushed or forced to move leaves nothing to track.
+  if (
+    // `[]`: checked, it leaves nothing lasting.
+    ability.effects?.length === 0 ||
+    (!ability.effects &&
+      (!abilityLeavesEffect(ability) || choices[0]!.suggestion.conditions.length === 0))
+  )
+    return null
   const chosen = choices.find((choice) => choice.key === open)
   if (!chosen)
     return (
       <div className="flex flex-wrap gap-2">
         {choices.map((choice) => (
           <ActionButton key={choice.key} onClick={() => setOpen(choice.key)}>
-            <Sparkles aria-hidden /> Apply {choice.label}
+            <Target aria-hidden /> Put {choice.key ? choice.label : 'its effect'} on a target
           </ActionButton>
         ))}
       </div>
@@ -340,6 +494,14 @@ export function AbilityEffect({
         ...(chosen.key ? { effect: chosen.key } : {}),
       }}
       suggestion={chosen.suggestion}
+      known={Boolean(chosen.key)}
+      maxTargets={
+        ability.save && 'creatures' in ability.save.target
+          ? ability.save.target.creatures
+          : ability.attack && !ability.save
+            ? 1
+            : undefined
+      }
       actions={actions}
       onDone={() => setOpen(undefined)}
     />
@@ -366,17 +528,29 @@ const spellChoices = (() => {
  */
 export function SpellEffect({
   target,
+  caster: fixedCaster,
+  casterDc,
   actions,
   onDone,
 }: {
-  target: string
+  /** Who it lands on to start with; the DM picks in the form when not given. */
+  target?: string
+  /** The caster, when the spell is cast from its own panel. */
+  caster?: string
+  /** That caster's spell save DC, when its stat block says. */
+  casterDc?: number
   actions: ApplyEffectActions
   onDone: () => void
 }) {
   const focus = useDensity() === 'focus'
   const [query, setQuery] = useState('')
-  const [caster, setCaster] = useState(actions.activeId ?? '')
-  const [dc, setDc] = useState(13)
+  // Opened to search: the cursor starts in the search box.
+  const search = useRef<HTMLInputElement>(null)
+  useEffect(() => search.current?.focus(), [])
+  const [caster, setCaster] = useState(fixedCaster ?? actions.activeId ?? '')
+  // A spell with no effect in the library can still be described by hand.
+  const [byHand, setByHand] = useState(false)
+  const [dc, setDc] = useState(casterDc ?? 13)
   const [picked, setPicked] = useState<
     | { state: 'loading'; name: string }
     | { state: 'missing'; name: string }
@@ -392,6 +566,7 @@ export function SpellEffect({
 
   const pick = (choice: { key: string; name: string }) => {
     const spell: EntityRef<'spell'> = { ref: 'spell', key: choice.key }
+    setByHand(false)
     setPicked({ state: 'loading', name: choice.name })
     void loadSpell(spell).then((loaded) =>
       setPicked((current) =>
@@ -402,7 +577,7 @@ export function SpellEffect({
                 state: 'ready',
                 name: choice.name,
                 spell,
-                options: loaded.effects
+                options: loaded.effects?.length
                   ? loaded.effects.map((effect) => ({
                       key: effect.key,
                       label: effect.name,
@@ -466,6 +641,19 @@ export function SpellEffect({
         </div>
       </div>
     )
+  if (picked?.state === 'ready' && option && !option.key && !byHand)
+    return (
+      <div className="border-border bg-muted/30 grid gap-2 rounded-xl border p-3">
+        <p>
+          <strong>{picked.name}</strong> leaves no lasting effect on a creature in the library’s
+          data: roll its damage or healing and you’re done.
+        </p>
+        <div className="flex flex-wrap gap-2">
+          <ActionButton onClick={() => setByHand(true)}>Describe an effect by hand</ActionButton>
+          <ActionButton onClick={() => setPicked(undefined)}>Choose another spell</ActionButton>
+        </div>
+      </div>
+    )
   if (picked?.state === 'ready' && option)
     return (
       <div className="grid gap-2">
@@ -491,8 +679,9 @@ export function SpellEffect({
             ...(option.key ? { effect: option.key } : {}),
           }}
           suggestion={option.suggestion}
+          known={Boolean(option.key)}
           actions={actions}
-          initialTargets={[target]}
+          initialTargets={target ? [target] : undefined}
           caster={caster || undefined}
           spell={{ ref: picked.spell, name: picked.name }}
           onDone={onDone}
@@ -502,8 +691,8 @@ export function SpellEffect({
 
   return (
     <div className="border-border bg-muted/30 grid gap-3 rounded-xl border p-3">
-      <div className="flex flex-wrap items-center gap-2 text-sm">
-        <label className="flex items-center gap-2">
+      {fixedCaster ? null : (
+        <label className="flex flex-wrap items-center gap-2 text-sm">
           <span>Cast by</span>
           <select
             value={caster}
@@ -518,26 +707,31 @@ export function SpellEffect({
             ))}
           </select>
         </label>
-        <label className="flex items-center gap-2">
-          <span>Its spell save DC</span>
-          <input
-            type="number"
-            min={1}
-            value={dc}
-            onChange={(event) => setDc(Math.max(1, event.currentTarget.valueAsNumber || 1))}
-            className={cn(control, 'w-16 text-center')}
-          />
-        </label>
-      </div>
+      )}
       <div className="grid gap-1">
-        <input
-          aria-label="Find a spell"
-          aria-describedby="spell-effect-results"
-          placeholder="Find a spell: Hold Person, Bane, Faerie Fire…"
-          value={query}
-          onChange={(event) => setQuery(event.currentTarget.value)}
-          className={control}
-        />
+        {/* The search leads; the save DC sits beside it, already filled from the stat block. */}
+        <div className="flex items-center gap-2">
+          <input
+            ref={search}
+            aria-label="Find a spell"
+            aria-describedby="spell-effect-results"
+            placeholder="Find a spell: Hold Person, Bane, Faerie Fire…"
+            value={query}
+            onChange={(event) => setQuery(event.currentTarget.value)}
+            className={cn(control, 'min-w-0 flex-1')}
+          />
+          <label className="text-muted-foreground flex shrink-0 items-center gap-2 text-sm">
+            <span>Save DC</span>
+            <input
+              aria-label="Its spell save DC"
+              type="number"
+              min={1}
+              value={dc}
+              onChange={(event) => setDc(Math.max(1, event.currentTarget.valueAsNumber || 1))}
+              className={cn(control, 'text-foreground w-16 text-center font-semibold')}
+            />
+          </label>
+        </div>
         <p id="spell-effect-results" aria-live="polite" className="text-muted-foreground text-xs">
           {picked?.state === 'loading'
             ? `Loading ${picked.name}…`
@@ -554,7 +748,10 @@ export function SpellEffect({
                 <button
                   type="button"
                   onClick={() => pick(spell)}
-                  className="hover:bg-muted w-full rounded-md px-2 py-1 text-left text-sm italic"
+                  className={cn(
+                    'hover:bg-muted w-full rounded-md text-left italic',
+                    focus ? 'h-11 px-3 text-base' : 'px-2 py-1 text-sm',
+                  )}
                 >
                   {spell.name}
                 </button>
@@ -589,16 +786,23 @@ const itemChoices = (() => {
  */
 export function ItemEffectPicker({
   target,
+  user: fixedUser,
   actions,
   onDone,
 }: {
-  target: string
+  /** Who it lands on to start with; the DM picks in the form when not given. */
+  target?: string
+  /** Who uses it, when it is used from their own panel. */
+  user?: string
   actions: ApplyEffectActions
   onDone: () => void
 }) {
   const focus = useDensity() === 'focus'
   const [query, setQuery] = useState('')
-  const [user, setUser] = useState(target)
+  // Opened to search: the cursor starts in the search box.
+  const search = useRef<HTMLInputElement>(null)
+  useEffect(() => search.current?.focus(), [])
+  const [user, setUser] = useState(fixedUser ?? target ?? '')
   const [picked, setPicked] = useState<
     | { state: 'loading' | 'missing' | 'none'; name: string }
     | {
@@ -624,7 +828,7 @@ export function ItemEffectPicker({
           ? current
           : !loaded
             ? { state: 'missing', name: choice.name }
-            : !loaded.effects
+            : !loaded.effects?.length
               ? { state: 'none', name: choice.name }
               : {
                   state: 'ready',
@@ -703,8 +907,9 @@ export function ItemEffectPicker({
             effect: option.key,
           }}
           suggestion={option.suggestion}
+          known
           actions={actions}
-          initialTargets={[target]}
+          initialTargets={target ? [target] : undefined}
           onDone={onDone}
         />
       </div>
@@ -712,23 +917,26 @@ export function ItemEffectPicker({
 
   return (
     <div className="border-border bg-muted/30 grid gap-3 rounded-xl border p-3">
-      <label className="flex flex-wrap items-center gap-2 text-sm">
-        <span>Used by</span>
-        <select
-          value={user}
-          onChange={(event) => setUser(event.currentTarget.value)}
-          className={control}
-        >
-          <option value="">Someone outside the fight</option>
-          {actions.combatants.map((combatant) => (
-            <option key={combatant.id} value={combatant.id}>
-              {combatant.name}
-            </option>
-          ))}
-        </select>
-      </label>
+      {fixedUser ? null : (
+        <label className="flex flex-wrap items-center gap-2 text-sm">
+          <span>Used by</span>
+          <select
+            value={user}
+            onChange={(event) => setUser(event.currentTarget.value)}
+            className={control}
+          >
+            <option value="">Someone outside the fight</option>
+            {actions.combatants.map((combatant) => (
+              <option key={combatant.id} value={combatant.id}>
+                {combatant.name}
+              </option>
+            ))}
+          </select>
+        </label>
+      )}
       <div className="grid gap-1">
         <input
+          ref={search}
           aria-label="Find a magic item"
           aria-describedby="item-effect-results"
           placeholder="Find an item: Potion of Heroism, Oil of Etherealness…"
@@ -754,7 +962,10 @@ export function ItemEffectPicker({
                 <button
                   type="button"
                   onClick={() => pick(item)}
-                  className="hover:bg-muted w-full rounded-md px-2 py-1 text-left text-sm"
+                  className={cn(
+                    'hover:bg-muted w-full rounded-md text-left',
+                    focus ? 'h-11 px-3 text-base' : 'px-2 py-1 text-sm',
+                  )}
                 >
                   {item.name}
                 </button>

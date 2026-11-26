@@ -52,6 +52,7 @@ export default createPC({
           { dc: 'cha' },
           '). Disguise Self once per long rest without a slot (Magic Initiate).',
         ],
+        effects: [],
       },
       {
         key: 'alert',
@@ -94,13 +95,23 @@ export default createPC({
           target: { creatures: 1, range: 60 },
           onFail: {
             damage: [{ dice: '2d6', type: refs.rules.psychic }],
-            also: [
+
+            also: [{ effect: 'mocked' }],
+          },
+        },
+        effects: [
+          {
+            key: 'mocked',
+            name: 'Disadvantage on next attack',
+            lands: { on: 'failed-save' },
+            text: [
               'It has ',
               refs.rules.disadvantage,
               ' on its next attack roll before the end of its next turn.',
             ],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
           },
-        },
+        ],
       },
       {
         key: 'sleep',
@@ -112,15 +123,26 @@ export default createPC({
           dc: 'cha',
           target: { area: { shape: refs.rules.sphere, size: 5 }, range: 60, chosen: true },
           onFail: {
-            conditions: [refs.rules.incapacitated],
-            also: [
-              'At the end of its next turn it repeats the save; on a second failure it falls unconscious for the rest of the spell, up to 1 minute (',
-              refs.rules.concentration,
-              '), until it takes damage or someone wakes it.',
-            ],
+            also: [{ effect: 'asleep' }],
           },
         },
         text: ['Uses a slot.'],
+        effects: [
+          {
+            key: 'asleep',
+            name: 'Asleep',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.incapacitated],
+            text: [
+              'At the end of its next turn it repeats the save; on a second failure it falls ',
+              refs.rules.unconscious,
+              ' for the rest of the spell, up to 1 minute (',
+              refs.rules.concentration,
+              '), until it takes damage or someone wakes it.',
+            ],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+          },
+        ],
       },
       {
         key: 'heroism',
@@ -129,13 +151,26 @@ export default createPC({
         icon: 'gi/GiKnightBanner',
         intent: 'support',
         text: [
-          'A creature you touch can’t be ',
-          refs.rules.frightened,
-          ' and gains 3 temporary ',
-          refs.rules.hit_points,
-          ' at the start of each of its turns, for up to 1 minute (',
-          refs.rules.concentration,
-          '). One more creature per slot level above 1st.',
+          'A creature you touch ',
+          { effect: 'emboldened' },
+          '. One more creature per slot level above 1st.',
+        ],
+        effects: [
+          {
+            key: 'emboldened',
+            name: 'Emboldened',
+            lands: { on: 'use' },
+            text: [
+              'It can’t be ',
+              refs.rules.frightened,
+              ' and gains 3 temporary ',
+              refs.rules.hit_points,
+              ' at the start of each of its turns, for up to 1 minute (',
+              refs.rules.concentration,
+              ').',
+            ],
+            lasts: { kind: 'time', amount: '1', unit: 'minute' },
+          },
         ],
       },
       {
@@ -167,14 +202,25 @@ export default createPC({
           dc: 'cha',
           target: { creatures: 1, range: 10, which: 'creature that isn’t fighting you' },
           onFail: {
-            conditions: [refs.rules.charmed],
-            also: [
-              'For 1 minute (',
-              refs.rules.concentration,
-              '), or until you or your allies harm it.',
-            ],
+            also: [{ effect: 'friends-charm' }],
           },
         },
+        effects: [
+          {
+            key: 'friends-charm',
+            name: 'Charmed',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.charmed],
+            lasts: {
+              kind: 'until',
+              text: [
+                '1 minute (',
+                refs.rules.concentration,
+                '), or until you or your allies harm it',
+              ],
+            },
+          },
+        ],
       },
       {
         key: 'utility-cantrips',

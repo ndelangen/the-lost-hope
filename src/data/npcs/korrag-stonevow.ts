@@ -89,6 +89,7 @@ export default createNPC({
           refs.rules.psychic,
           ' damage.',
         ],
+        effects: [],
       },
       {
         key: 'multiattack',

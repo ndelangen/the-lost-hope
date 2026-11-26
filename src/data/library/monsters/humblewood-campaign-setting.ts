@@ -219,6 +219,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' plus that creature’s Dexterity modifier. On a success, the thief takes one item the GM chooses. It must be something the attacker is carrying without holding or wearing it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -297,6 +298,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -325,6 +327,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The bandit rolls saves against being ', rules.poisoned, ' with advantage.'],
+            effects: [],
           },
           {
             key: 'skulker',
@@ -386,6 +389,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The brute rolls saves against being ', rules.poisoned, ' with advantage.'],
+            effects: [],
           },
           {
             key: 'skulker',

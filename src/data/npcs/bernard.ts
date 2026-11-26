@@ -37,6 +37,7 @@ export default createNPC({
         timing: 'trait',
         icon: 'lucide/Footprints',
         text: [refs.rules.advantage, ' on saves against being knocked ', refs.rules.prone, '.'],
+        effects: [],
       },
       {
         key: 'ram',

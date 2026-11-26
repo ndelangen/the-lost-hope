@@ -261,9 +261,10 @@ const Ability = z.strictObject({
   save: Save.optional(),
   effects: z
     .array(AbilityEffect)
-    .min(1)
     .optional()
-    .describe('What it leaves on whoever it hits or catches, for the tracker to apply'),
+    .describe(
+      'What it leaves on whoever it hits or catches, for the tracker to apply. `[]`: checked, it leaves nothing lasting (damage, a push); left out: not checked yet',
+    ),
   text: z
     .array(AbilityTextToken)
     .default([])

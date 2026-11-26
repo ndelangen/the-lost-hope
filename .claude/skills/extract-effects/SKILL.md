@@ -14,6 +14,10 @@ The schema is `AbilityEffect` in `src/definitions/stat-block.ts`, built from
 
 ## What counts as an effect
 
+An effect is a **reminder for later**: the tracker keeps it on the creature so the DM is reminded
+while it lasts. Anything that happens once and is over (damage, healing, a push, a forced move,
+a single roll) needs no reminder, so it is never an effect: skip it.
+
 An effect is something that **lands on another creature and lasts**: a condition, a curse, a
 disease, a grapple, "can't take reactions until the end of its next turn", "its speed is 0 for
 1 minute". It must be applied to a target the DM picks.

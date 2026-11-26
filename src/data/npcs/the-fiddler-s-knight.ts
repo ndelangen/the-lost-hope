@@ -37,6 +37,7 @@ export default createNPC({
           refs.rules.frightened,
           ' into acting against the Fiddler.',
         ],
+        effects: [],
       },
       {
         key: 'action-surge',

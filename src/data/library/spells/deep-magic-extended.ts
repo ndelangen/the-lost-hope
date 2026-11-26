@@ -25,6 +25,7 @@ export default createSpells({
         "At Higher Levels. When you cast this spell using higher-level spell slots, you may control a construct with a challenge rating 2 higher for each slot level you use above 4th. The construct's range also increases by 10 feet for each slot level.",
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   amplify_ley_field: {
@@ -76,6 +77,7 @@ export default createSpells({
         'Deep Magic: temporal By touching an object, you retrieve another version of the object from elsewhere in time. If the object is attended, you must succeed on a melee spell attack roll against the creature holding or controlling the object. Any effect that affects the original object also affects the duplicate (charges spent, damage taken, etc.) and any effect that affects the duplicate also affects the original object. If either object is destroyed, both are destroyed. This spell does not affect sentient items or unique artifacts.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   armored_heart: {
@@ -111,6 +113,7 @@ export default createSpells({
         'At Higher Levels. Casting armored shell using a higher-level spell slot creates stronger armor: a chain shirt (AC 13) at level 2, scale mail (AC 14) at level 3, chain mail (AC 16) at level 4, and plate armor (AC 18) at level 5.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   banshee_wail: {
@@ -174,6 +177,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level, its duration increases to 1 hour. Additionally, the target loses the stolen power for the duration of the spell.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   call_the_hunter: {
@@ -206,6 +210,7 @@ export default createSpells({
         "You create a 10-foot tall, 20-foot radius ring of destructive energy around a point you can see within range. The area inside the ring is difficult terrain. When you cast the spell and as a bonus action on each of your turns, you can choose one of the following damage types: cold, fire, lightning, necrotic, or radiant. Creatures and objects that touch the ring, that are inside it when it's created, or that end their turn inside the ring take 6d6 damage of the chosen type, or half damage with a successful Constitution saving throw. A creature or object reduced to 0 hit points by the spell is reduced to fine ash. At the start of each of your subsequent turns, the ring's radius expands by 20 feet. Any creatures or objects touched by the expanding ring are subject to its effects immediately.",
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   cloying_darkness: {
@@ -225,6 +230,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   cosmic_alignment: {
@@ -241,6 +247,7 @@ export default createSpells({
         'Deep Magic: illumination You arrange the forces of the cosmos to your benefit. Choose a cosmic event from the Comprehension of the Starry Sky ability that affects spellcasting (conjunction, eclipse, or nova; listed after the spell). You cast spells as if under the effect of the cosmic event until the next sunrise or 24 hours have passed. When the ability requires you to expend your insight, you expend your ritual focus instead. This spell must be cast outdoors, and the casting of this spell is obvious to everyone within 100 miles of its casting when an appropriate symbol, such as a flaming comet, appears in the sky above your location while you are casting the spell. Conjunction: Planetary conjunctions destabilize minds and emotions. You can give one creature you can see disadvantage on a saving throw against one enchantment or illusion spell cast by you. Eclipse: Eclipses plunge the world into darkness and strengthen connections to the shadow plane. When you cast a spell of 5th level or lower that causes necrotic damage, you can reroll a number of damage dice up to your Intelligence modifier (minimum of one). You must use the new rolls. Nova: The nova is a powerful aid to divination spells. You can treat one divination spell you cast as though you had used a spell slot one level higher than the slot actually used.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   cruor_of_visions: {
@@ -257,6 +264,7 @@ export default createSpells({
         "You prick your finger with a bone needle as you cast this spell, taking 1 necrotic damage. This drop of blood must be caught in a container such as a platter or a bowl, where it grows into a pool 1 foot in diameter. This pool acts as a crystal ball for the purpose of scrying. If you place a drop (or dried flakes) of another creature's blood in the cruor of visions, the creature has disadvantage on any Wisdom saving throw to resist scrying. Additionally, you can treat the pool of blood as a crystal ball of telepathy (see the crystal ball description in the Fifth Edition rules). I When you cast this spell using a spell slot of 7th level or higher, the pool of blood acts as either a crystal ball of mind reading or a crystal ball of true seeing (your choice when the spell is cast).",
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   extract_foyson: {
@@ -424,6 +432,7 @@ export default createSpells({
         'Deep Magic: clockwork You designate a spot within range, and massive gears emerge from the ground at that spot, creating difficult terrain in a 20-foot radius. Creatures that move in the area must make successful Dexterity saving throws after every 10 feet of movement or when they stand up. Failure indicates that the creature falls prone and takes 1d8 points of bludgeoning damage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   hearth_charm: {
@@ -577,6 +586,7 @@ export default createSpells({
         '. If you cast this spell in an area within the influence of a ley line, creatures have disadvantage on their saving throws against its effect. Special. A geomancer with a bound ley line is “within the influence of a ley line” for purposes of ley disruption as long as he or she is on the same plane as the bound line.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   ley_energy_bolt: {
@@ -647,6 +657,7 @@ export default createSpells({
         "A roiling stormcloud of ley energy forms, centered around a point you can see and extending horizontally to a radius of 360 feet, with a thickness of 30 feet. Shifting color shoots through the writhing cloud, and thunder roars out of it. Each creature under the cloud at the moment when it's created (no more than 5,000 feet beneath it) takes 2d6 thunder damage and is disruptive aura spell. Rounds 5-10. Flashes of multicolored light burst through and out of the cloud, causing creatures to have disadvantage on Wisdom (Perception) checks that rely on sight while they are beneath the cloud. In addition, each round, you trigger a burst of energy that fills a 20-foot sphere centered on a point you can see beneath the cloud. Each creature in the sphere takes 4d8 force damage (no saving throw). Special. A geomancer who casts this spell regains 4d10 hit points.",
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   ley_surge: {
@@ -691,6 +702,7 @@ export default createSpells({
         "You channel the power of a ley line within 1 mile into a crackling tendril of multicolored ley energy. The tendril extends from your hand but doesn't interfere with your ability to hold or manipulate objects. When you cast the spell and as a bonus action on subsequent turns, you can direct the tendril to strike a target within 50 feet of you. Make a melee spell attack; on a hit, the tendril does 3d8 force damage and the target must make a Strength saving throw. If the saving throw fails, you can push the target away or pull it closer, up to 10 feet in either direction. Special. A geomancer with a bound ley line can cast this spell as long as he or she is on the same plane as the bound line.",
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   lokis_gift: {
@@ -707,6 +719,7 @@ export default createSpells({
         "Loki's gift makes even the most barefaced lie seem strangely plausible: you gain advantage to Charisma (Deception) checks for whatever you're currently saying. If your Deception check fails, the creature knows that you tried to manipulate it with magic. If you lie to a creature that has a friendly attitude toward you and it fails a Charisma saving throw, you can also coax him or her to reveal a potentially embarrassing secret. The secret can involve wrongdoing (adultery, cheating at tafl, a secret fear, etc.) but not something life-threatening or dishonorable enough to earn the subject repute as a nithling. The verbal component of this spell is the lie you are telling.",
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   machine_sacrifice: {
@@ -774,6 +787,7 @@ export default createSpells({
         'Deep Magic: clockwork Your voice, and to a lesser extent your mind, changes to communicate only in the whirring clicks of machine speech. Until the end of your next turn, all clockwork spells you cast have advantage on their attack rolls or the targets have disadvantage on their saving throws.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   machines_load: {
@@ -941,6 +955,7 @@ export default createSpells({
         '.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   read_memory: {
@@ -1120,6 +1135,7 @@ export default createSpells({
         'Deep Magic: clockwork You surround yourself with the perfect order of clockwork. Chaotic creatures that start their turn in the area or enter it on their turn take 5d8 psychic damage. The damage is 8d8 for Chaotic aberrations, celestials, elementals, and fiends. A successful Wisdom saving throw halves the damage, but Chaotic creatures (the only ones affected by the spell) make the saving throw with disadvantage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   spire_of_stone: {
@@ -1190,6 +1206,7 @@ export default createSpells({
         "Deep Magic: void magic You summon a worldly incarnation of a Great Old One, which appears in an unoccupied space you can see within range. This avatar manifests as a Void speaker (Creature Codex NPC) augmented by boons from the Void. Choose one of the following options for the type of avatar that appears (other options might be available if the GM allows): Avatar of Cthulhu. The Void speaker is a goat-man with the ability to cast black goat's blessing and unseen strangler at will. Avatar of Yog-Sothoth. The Void speaker is a human with 1d4 + 1 flesh warps and the ability to cast gift of Azathoth and thunderwave at will. When the avatar appears, you must make a Charisma saving throw. If it succeeds, the avatar is friendly to you and your allies. If it fails, the avatar is friendly to no one and attacks the nearest creature to it, pursuing and fighting for as long as possible. Roll initiative for the avatar, which takes its own turn. If friendly to you, it obeys verbal commands you issue to it (no action required by you). If the avatar has no command, it attacks the nearest creature. Each round you maintain concentration on the spell, you must make a successful DC 15 Wisdom saving throw or take 1d6 psychic damage. If the cumulative total of this damage exceeds your Wisdom score, you gain one point of Void taint and you are afflicted with a short-term madness. The same penalty recurs when the damage exceeds twice your Wisdom, three times your Wisdom, etc. The avatar disappears when it drops to 0 hit points or when the spell ends. If you stop concentrating on the spell before an hour has elapsed, the avatar becomes uncontrolled and hostile and doesn't disappear until 1d6 rounds later or it's killed.",
       ],
     ],
+    effects: [],
     publication: refs.publications.deep_magic_extended,
   },
   tick_stop: {

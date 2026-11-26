@@ -58,6 +58,7 @@ export default createNPC({
           refs.rules.frightened,
           '.',
         ],
+        effects: [],
       },
       {
         key: 'legendary-resistance',
@@ -119,6 +120,7 @@ export default createNPC({
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [],
       },
     ],
     source: {

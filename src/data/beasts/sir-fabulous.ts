@@ -44,6 +44,7 @@ export default createBeast({
           refs.rules.incapacitated,
           '.',
         ],
+        effects: [],
       },
       {
         key: 'bite',

@@ -3,11 +3,13 @@ import type { ReactNode } from 'react'
 
 import type { Ability } from '#/definitions/stat-block'
 import { ABILITY_ICONS } from '#/lib/ability-icons'
+import { attackReach } from '#/lib/ability-index'
 import type { DerivedStatBlock } from '#/lib/dm-ability-text'
 import type { UseCount } from '#/lib/encounter'
 import { plainStatParts } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
+import { ReachLabel } from '../ability-quick-list'
 import { AbilitySteps } from './ability-steps'
 import { AbilityTextView, abilityPlainText, type ReferencedAbility } from './ability-text'
 import { useDensity } from './density'
@@ -123,6 +125,7 @@ export function AbilityDetail({
   const focus = useDensity() === 'focus'
   const summary = block.abilities[ability.key]?.summary
   const steps = block.steps?.[ability.key]
+  const reach = attackReach(ability)
   return (
     <div
       className={cn(
@@ -133,9 +136,10 @@ export function AbilityDetail({
     >
       <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
         <h3 className={cn('font-semibold', focus && 'text-lg')}>{title}</h3>
-        {summary ? (
-          <p className="text-muted-foreground text-sm">
-            <StatParts parts={summary} />
+        {summary || reach ? (
+          <p className="text-muted-foreground flex flex-wrap items-baseline gap-x-2 text-sm">
+            {reach ? <ReachLabel reach={reach} className="text-sm" /> : null}
+            {summary ? <StatParts parts={summary} /> : null}
           </p>
         ) : null}
       </div>

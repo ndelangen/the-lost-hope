@@ -177,6 +177,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 12 },
               ' Constitution saving throw or die.',
             ],
+            effects: [],
           },
           {
             key: 'produce-potion',
@@ -329,6 +330,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.dream_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shadow-stealth',
@@ -516,6 +518,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'ghost-breath',
@@ -554,6 +557,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -732,6 +736,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               " Strength saving throw, or its weapon becomes stuck to the bearmit crab's shell. While the weapon is stuck, it can't be used. A creature can pull the weapon free by taking an action to make a DC 13 Strength check and succeeding.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -969,6 +974,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Wisdom saving throw or move toward the boot grabber on its turn by the shortest and most direct route, ending its turn when it comes within 5 feet of the boot grabber.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1060,6 +1066,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1091,6 +1098,7 @@ export default createPublicationMonsters({
               rules.petrified,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1413,6 +1421,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'wis' },
               " Wisdom saving throw. On a success, it gets the sensation that it is being watched. * If the most recent owner is dead, the corpse thief can learn five things about the person's life through dream-like visions and emotions. This works like the speak with dead spell, except the spirit can only answer questions about events in which the object was present.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1444,6 +1453,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Dexterity saving throw or lose one non-weapon, non-armor object that is small enough to fit in one hand.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1475,6 +1485,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'darksight',
@@ -1493,6 +1504,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1783,6 +1795,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '. Dinosaur',
             ],
+            effects: [],
           },
         ],
       },
@@ -1817,6 +1830,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '. If an effect would cause the squire to take a harmful action against its master, it can immediately repeat the saving throw (if any), ending the effect on a success. The squire has disadvantage on attack rolls or ability checks made against its master.',
             ],
+            effects: [],
           },
           {
             key: 'master-s-bond',
@@ -1922,6 +1936,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wind_wall_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'keen-senses',
@@ -1967,6 +1982,7 @@ export default createPublicationMonsters({
               { dc: 'str', printed: 16 },
               ' Strength saving throw or be pushed up to 15 feet away from the dvarapala.',
             ],
+            effects: [],
           },
           {
             key: 'javelin',
@@ -2003,6 +2019,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -2163,6 +2180,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'claw',
@@ -2199,6 +2217,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 13,
             },
+            effects: [],
           },
         ],
       },
@@ -2454,6 +2473,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ["The bat can't use its blindsight while ", rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -2569,6 +2589,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' in this way.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2714,6 +2735,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' creatures and objects as if they were visible and can see into the Ethereal Plane. This trait is granted by the ancestral spirits.',
             ],
+            effects: [],
           },
           {
             key: 'steadfast',
@@ -2727,6 +2749,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' conditions. This trait is granted by the ancestral spirits.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3022,6 +3045,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'planar-rift',
@@ -3035,6 +3059,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -3066,6 +3091,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ["The jiangshi can't use its blindsight while ", rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -3232,6 +3258,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'head-bowl',
@@ -3245,6 +3272,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'slippery',
@@ -3265,6 +3293,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3360,6 +3389,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' at any distance and across different planes.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3791,6 +3821,7 @@ export default createPublicationMonsters({
               rules.exhaustion,
               ' levels as normal.',
             ],
+            effects: [],
           },
           {
             key: 'weakening-shadow',
@@ -4032,6 +4063,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' by that same source again for 24 hours.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -4084,6 +4116,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -4140,6 +4173,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'utterly-silent',
@@ -4388,6 +4422,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wakeful',
@@ -4613,6 +4648,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.stone_shape_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'light-sensitivity',
@@ -4724,6 +4760,7 @@ export default createPublicationMonsters({
               '; 3/day: ',
               refs.spells.shatter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'light-sensitivity',
@@ -5055,6 +5092,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' until it attacks or until its concentration ends (as if concentrating on a spell).',
             ],
+            effects: [],
           },
         ],
       },
@@ -5213,6 +5251,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' on a failed save, or waking on a successful one.',
             ],
+            effects: [],
           },
         ],
       },
@@ -5516,6 +5555,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disguise_self_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -5634,6 +5674,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' by it or its allies.',
             ],
+            effects: [],
           },
           {
             key: 'snake-body',
@@ -5645,6 +5686,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5747,6 +5789,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put it to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'shadow-traveler',
@@ -5927,6 +5970,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put it to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6025,6 +6069,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'unctuous-hide',
@@ -6042,6 +6087,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' while mounted, it must make the same saving throw. In addition, the shantak can attempt to shake off a rider as a bonus action, forcing the rider to make the saving throw to stay mounted.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6200,6 +6246,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'shell-protection',
@@ -6325,6 +6372,7 @@ export default createPublicationMonsters({
               { ability: 'sunlight-sensitivity' },
               " trait. # The creature secretes black oil from its skin, and it has advantage on ability checks and saving throws made to escape a grapple. # The creature's veins turn black, slowly working their way up through the body from the appendages over 24 hours. # When the blackened veins reach its head after the final long rest, the creature experiences excruciating, stabbing pains in its temples. At sunset, the creature dies as the antlers of an elk burst from its head. The oil secreting from the corpse pools and forms a spawn of Chernobog at midnight.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -6517,6 +6565,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'passing-bite',
@@ -6548,6 +6597,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['At the beginning of its next turn.'],
+            effects: [],
           },
         ],
       },
@@ -6586,6 +6636,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " while in the area of an antimagic field. If targeted by dispel magic, the snake must succeed on a Constitution saving throw against the caster's spell save DC or return to the textile to which it is bound for 1 minute.",
             ],
+            effects: [],
           },
           {
             key: 'immutable-form',
@@ -6689,6 +6740,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wakeful',
@@ -6725,6 +6777,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -6845,6 +6898,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wakeful',
@@ -7081,6 +7135,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['Contract the carrion curse disease (see sidebar).'],
+            effects: [],
           },
           {
             key: 'claws',
@@ -7452,6 +7507,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'ring-of-feather-falling',
@@ -7622,6 +7678,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ', or confused, as well as against any effect that causes corruption or madness.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7700,6 +7757,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               " Constitution saving throw or its Constitution score is reduced by 1d4 as the demons feast upon the creature's flesh.",
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -7720,6 +7778,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

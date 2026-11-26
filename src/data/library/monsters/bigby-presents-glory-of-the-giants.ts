@@ -239,6 +239,7 @@ export default createPublicationMonsters({
               refs.spells.light_srd_5_1,
               '. 2/day.',
             ],
+            effects: [],
           },
           {
             key: 'telekinesis',
@@ -320,6 +321,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ', the giant gains temporary hit points equal to the damage dealt.',
             ],
+            effects: [],
           },
           {
             key: 'frightening-teleport',
@@ -576,6 +578,7 @@ export default createPublicationMonsters({
               refs.spells.disguise_self_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'hidden-step',
@@ -589,6 +592,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -690,6 +694,7 @@ export default createPublicationMonsters({
               refs.spells.polymorph_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'duplicitous-movement',
@@ -703,6 +708,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -996,6 +1002,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' by Swallow.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1033,6 +1040,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'rend',

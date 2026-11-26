@@ -37,6 +37,7 @@ export default createNPC({
           refs.rules.incapacitated,
           '.',
         ],
+        effects: [],
       },
       {
         key: 'sap',

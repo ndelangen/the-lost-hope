@@ -56,6 +56,7 @@ export default createNPC({
           refs.rules.frightened,
           '.',
         ],
+        effects: [],
       },
       {
         key: 'legendary-resistance',

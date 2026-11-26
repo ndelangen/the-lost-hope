@@ -355,6 +355,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic can’t put it to sleep.',
             ],
+            effects: [],
           },
         ],
       },

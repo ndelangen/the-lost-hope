@@ -186,6 +186,7 @@ export default createSpells({
         'Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 1-10, you take the form of a humanoid made of pure, searing light. On a roll of 11-20, you take the form of a humanoid made of bone-chilling darkness. In both forms, you have immunity to bludgeoning, piercing, and slashing damage from nonmagical attacks, and a creature that attacks you has disadvantage on the attack roll. You gain additional benefits while in each form: Light Form. You shed bright light in a 60-foot radius and dim light for an additional 60 feet, you are immune to fire damage, and you have resistance to radiant damage. Once per turn, as a bonus action, you can teleport to a space you can see within the light you shed. Darkness Form. You are immune to cold damage, and you have resistance to necrotic damage. Once per turn, as a bonus action, you can target up to three Large or smaller creatures within 30 feet of you. Each target must succeed on a Strength saving throw or be pulled or pushed (your choice) up to 20 feet straight toward or away from you.',
       ],
     ],
+    effects: [],
     publication: refs.publications.warlock_zine,
   },
   commanders_pavilion: {
@@ -269,6 +270,7 @@ export default createSpells({
         'You gain a portentous voice of compelling power, commanding all undead within 60 feet that fail a Wisdom saving throw. This overrides any prior loyalty to spellcasters such as necromancers or evil priests, and it can nullify the effect of a Turn Undead result from a cleric.',
       ],
     ],
+    effects: [],
     publication: refs.publications.warlock_zine,
   },
   ethereal_stairs: {
@@ -304,6 +306,7 @@ export default createSpells({
         "When you cast this spell, you open a conduit to the Castle Library, granting access to difficult-to-obtain information. For the spell's duration, you double your proficiency bonus whenever you make an Intelligence check to recall information about any subject. Additionally, you can gain advantage on an Intelligence check to recall information. To do so, you must either sacrifice another lore-filled book or succeed on a Charisma saving throw. On a failed save, the spell ends, and you have disadvantage on all Intelligence checks to recall information for 1 week. A wish spell ends this effect.",
       ],
     ],
+    effects: [],
     publication: refs.publications.warlock_zine,
   },
   hedgehog_dozen: {
@@ -523,6 +526,7 @@ export default createSpells({
         'At Higher Levels. When you cast the spell using a slot of 4th level or higher, you can target one additional weapon or bundle of ammunition for each slot level above fourth.',
       ],
     ],
+    effects: [],
     publication: refs.publications.warlock_zine,
   },
   pierce_the_veil: {
@@ -727,6 +731,7 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target +1 creature for each slot level above second.',
       ],
     ],
+    effects: [],
     publication: refs.publications.warlock_zine,
   },
   rise_of_the_green: {
@@ -803,6 +808,7 @@ export default createSpells({
         "Your flesh and clothing pale and become faded as your body takes on a tiny fragment of the Shadow Realm. For the duration of this spell, you are immune to shadow corruption and have resistance to necrotic damage. In addition, you have advantage on saving throws against effects that reduce your Strength score or hit point maximum, such as a shadow's Strength Drain or the harm spell.",
       ],
     ],
+    effects: [],
     publication: refs.publications.warlock_zine,
   },
   skull_road: {
@@ -835,6 +841,7 @@ export default createSpells({
         'Deep Magic: battle You conjure up dozens of axes and direct them in a pattern in chopping, whirling mayhem. The blades fill eight 5-foot squares in a line 40 feet long or in a double-strength line 20 feet long and 10 deep. The axes cause 6d8 slashing damage to creatures in the area at the moment the spell is cast or half damage with a successful Dexterity saving throw. By maintaining concentration, you can move the swarm of axes up to 20 feet per round in any direction you wish. If the storm of axes moves into spaces containing creatures, they immediately must make another Dexterity saving throw or suffer damage again.',
       ],
     ],
+    effects: [],
     publication: refs.publications.warlock_zine,
   },
   subliminal_aversion: {
@@ -982,6 +989,7 @@ export default createSpells({
         'At Higher Levels. When casting this spell using a spell slot of 6th level, the damage from all effects of the spell increase by 1d6 for each slot level above 6th.',
       ],
     ],
+    effects: [],
     publication: refs.publications.warlock_zine,
   },
   who_goes_there: {

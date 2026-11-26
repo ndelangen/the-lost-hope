@@ -108,6 +108,8 @@ export function LiveFight({
   const [concentrationCheck, setConcentrationCheck] = useState<{ id: string; dc: number }>()
   // Effects that a hit may end: a save to repeat, or an effect that ends on damage.
   const [damaged, setDamaged] = useState<DamageReminder[]>([])
+  const dismissDamage = (reminder: DamageReminder) =>
+    setDamaged((current) => current.filter(({ effect }) => effect.id !== reminder.effect.id))
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -169,8 +171,34 @@ export function LiveFight({
     rows.find((row) => row.id === rowId)?.stats?.abilities.find((ability) => ability.key === key)
       ?.name
   const applyEffects: ApplyEffectActions = {
-    combatants: rows.map(({ id: rowId, name }) => ({ id: rowId, name })),
+    combatants: rows.map(({ id: rowId, name, kind, avatar }) => ({
+      id: rowId,
+      name,
+      isPc: kind === 'PC' || kind === 'Player',
+      ...(avatar ? { avatar } : {}),
+    })),
     activeId: encounter.active,
+    holding: (rowId) => {
+      const held = values[rowId]?.concentration
+      if (!held) return undefined
+      // The same castings `setConcentration` ends when this combatant concentrates on anything else.
+      const spell = held.spell
+      return {
+        on: held.on,
+        targets: spell
+          ? rows
+              .filter((row) =>
+                row.combat.appliedEffects?.some(
+                  ({ origin }) =>
+                    origin.kind === 'spell' &&
+                    origin.caster === rowId &&
+                    origin.spell.key === spell.key,
+                ),
+              )
+              .map((row) => row.name)
+          : [],
+      }
+    },
     apply: (targets, application, concentrate) =>
       updateEncounter((current) =>
         // Concentrating first ends whatever the caster held before, a casting of the same spell too.
@@ -311,12 +339,25 @@ export function LiveFight({
       name={row.name}
       isPc={row.kind === 'PC' || row.kind === 'Player'}
       state={row.combat}
-      combatants={rows.map(({ id: rowId, name }) => ({ id: rowId, name }))}
-      activeId={encounter.active}
       nameOf={nameOf}
       actions={combatActionsFor(row.id)}
       effects={row.effects}
       applyEffects={{ ...applyEffects, id: row.id, abilityName }}
+      damage={
+        // The save is asked in the panel, under the status line.
+        {
+          reminders: damaged.filter(
+            (reminder) =>
+              reminder.combatant === row.id &&
+              values[row.id]?.appliedEffects?.some(({ id }) => id === reminder.effect.id),
+          ),
+          onEnd: (reminder) => {
+            updateEncounter((current) => removeEffect(current, row.id, reminder.effect.id))
+            dismissDamage(reminder)
+          },
+          onKeep: (reminder) => dismissDamage(reminder),
+        }
+      }
       lair={
         row.stats?.lairActions
           ? {
@@ -371,6 +412,7 @@ export function LiveFight({
         actions={actions}
         status={statusFor(row)}
         applyEffects={applyEffects}
+        addStatus={combatActionsFor(row.id)}
       />
     )
   }
@@ -459,7 +501,11 @@ export function LiveFight({
       />
     ) : null
 
-  const damagePrompts = [...new Set(damaged.map(({ combatant }) => combatant))].map((rowId) => {
+  // The selected combatant's saves are asked in its panel, except in the old layout.
+  const askedInPanel = (rowId: string) => rowId === focusId
+  const damagePrompts = [
+    ...new Set(damaged.map(({ combatant }) => combatant).filter((rowId) => !askedInPanel(rowId))),
+  ].map((rowId) => {
     // Effects that ended some other way since have nothing left to ask.
     const reminders = damaged.filter(
       (reminder) =>

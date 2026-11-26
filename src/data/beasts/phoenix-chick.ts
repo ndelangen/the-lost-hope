@@ -93,6 +93,7 @@ export default createBeast({
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [],
       },
       {
         key: 'warming-glow',

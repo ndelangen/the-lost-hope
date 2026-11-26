@@ -56,6 +56,7 @@ export default createPublicationMonsters({
               rules.prone,
               " to throwing a tantrum if he doesn't get his way.",
             ],
+            effects: [],
           },
           {
             key: 'zora-tiega-gos-zore-uh-tee-egg-uh-goss',

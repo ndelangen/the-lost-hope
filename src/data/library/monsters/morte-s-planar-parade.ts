@@ -60,6 +60,7 @@ export default createPublicationMonsters({
               refs.spells.mass_suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'brains-devoured',
@@ -95,6 +96,7 @@ export default createPublicationMonsters({
               rules.stunned,
               ' until that grapple ends.',
             ],
+            effects: [],
           },
           {
             key: 'slam',

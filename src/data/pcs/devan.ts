@@ -148,6 +148,7 @@ export default createPC({
           { dc: 'cha' },
           '). No oath chosen yet, so you have no oath spells.',
         ],
+        effects: [],
       },
       {
         key: 'divine-smite',
@@ -176,6 +177,7 @@ export default createPC({
         ],
         pool: 25,
         recharge: 'Long rest',
+        effects: [],
       },
       {
         key: 'divine-sense',

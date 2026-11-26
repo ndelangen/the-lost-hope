@@ -160,6 +160,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The spell’s duration increases by 48 hours for each spell slot level above 2.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   animal_shapes: {
@@ -228,6 +229,7 @@ export default createSpells({
         'Slam. Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: Force damage equal to 1d4 + 3 (Medium or smaller), 2d6 + 3 + your spellcasting ability modifier (Large), or 2d12 + 3 + your spellcasting ability modifier (Huge).',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   antilife_shell: {
@@ -337,6 +339,7 @@ export default createSpells({
         'You create an Invisible, invulnerable eye within range that hovers for the duration. You mentally receive visual information from the eye, which can see in every direction. It also has Darkvision with a range of 30 feet. As a Bonus Action, you can move the eye up to 30 feet in any direction. A solid barrier blocks the eye’s movement, but the eye can pass through an opening as small as 1 inch in diameter.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   arcane_hand: {
@@ -415,6 +418,7 @@ export default createSpells({
         'You create a spectral sword that hovers within range. It lasts for the duration. When the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes Force damage equal to 4d12 plus your spellcasting ability modifier. On your later turns, you can take a Bonus Action to move the sword up to 30 feet to a spot you can see and repeat the attack against the same target or a different one.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   arcanists_magic_aura: {
@@ -759,6 +763,7 @@ export default createSpells({
         'You create a wall of whirling blades made of magical energy. The wall appears within range and lasts for the duration. You make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides Three-Quarters Cover, and its space is Difficult Terrain. Any creature in the wall’s space makes a Dexterity saving throw, taking 6d10 Force damage on a failed save or half as much damage on a successful one. A creature also makes that save if it enters the wall’s space or ends it turn there. A creature makes that save only once per turn.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   bless: {
@@ -917,6 +922,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 3.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   calm_emotions: {
@@ -1123,6 +1129,7 @@ export default createSpells({
         'You create an Invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The intangible, invulnerable sensor remains in place for the duration. When you cast the spell, choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As a Bonus Action, you can switch between seeing and hearing. A creature that sees the sensor (such as a creature benefiting from See Invisibility or Truesight) sees a luminous orb about the size of your fist.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   clone: {
@@ -1159,6 +1166,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 5.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   color_spray: {
@@ -1421,6 +1429,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 3.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   conjure_celestial: {
@@ -1446,6 +1455,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The healing and damage increase by 1d12 for each spell slot level above 7.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   conjure_elemental: {
@@ -1545,6 +1555,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   contact_other_plane: {
@@ -1668,6 +1679,7 @@ export default createSpells({
         'Whirlpool. You cause a whirlpool to form in the center of the area, which must be at least 50 feet square and 25 feet deep. The whirlpool lasts until you choose a different effect or the spell ends. The whirlpool is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature in the water and within 25 feet of the whirlpool is pulled 10 feet toward it. When a creature enters the whirlpool for the first time on a turn or ends its turn there, it makes a Strength saving throw. On a failed save, the creature takes 2d8 Bludgeoning damage. On a successful save, the creature takes half as much damage. A creature can swim away from the whirlpool only if it first takes an action to pull away and succeeds on a Strength (Athletics) check against your spell save DC.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   control_weather: {
@@ -1902,6 +1914,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The base damage increases by 1d6 for each spell slot level above 7.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   demiplane: {
@@ -1920,6 +1933,7 @@ export default createSpells({
         ' condition in the unoccupied spaces closest to the door’s former space. Each time you cast this spell, you can create a new demiplane or connect the shadowy door to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can connect the shadowy door to that demiplane instead.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   detect_evil_and_good: {
@@ -1990,6 +2004,7 @@ export default createSpells({
         'Read Thoughts. Target one creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected with the Sense Thoughts option. You learn what is most on the target’s mind right now. If the target doesn’t know any languages and isn’t telepathic, you learn nothing. As a Magic action on your next turn, you can try to probe deeper into the target’s mind. If you probe deeper, the target makes a Wisdom saving throw. On a failed save, you discern the target’s reasoning, emotions, and something that looms large in its mind (such as a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are probing into its mind, and until you shift your attention away from the target’s mind, the target can take an action on its turn to make an Intelligence (Arcana) check against your spell save DC, ending the spell on a success.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   dimension_door: {
@@ -2065,6 +2080,7 @@ export default createSpells({
         'Dismissal. As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn’t there already. If they aren’t on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   dispel_magic: {
@@ -2180,6 +2196,7 @@ export default createSpells({
       ['31–40: The target has the Blinded and ', rules.deafened, ' conditions for 10 minutes.'],
       ['41–50: The target has the ', rules.deafened, ' condition for 1 minute.'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   dominate_beast: {
@@ -2292,6 +2309,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   dream: {
@@ -2308,6 +2326,7 @@ export default createSpells({
         'You target a creature you know on the same plane of existence. You or a willing creature you touch enters a trance state to act as a dream messenger. While in the trance, the messenger is Incapacitated and has a Speed of 0. If the target is asleep, the messenger appears in the target’s dreams and can converse with the target as long as it remains asleep, through the spell’s duration. The messenger can also shape the dream’s environment, creating landscapes, objects, and other images. The messenger can emerge from the trance at any time, ending the spell. The target recalls the dream perfectly upon waking. If the target is awake when you cast the spell, the messenger knows it and can either end the trance (and the spell) or wait for the target to sleep, at which point the messenger enters its dreams. You can make the messenger terrifying to the target. If you do so, the messenger can deliver a message of no more than ten words, and then the target makes a Wisdom saving throw. On a failed save, the target gains no benefit from its rest, and it takes 3d6 Psychic damage when it wakes up.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   druidcraft: {
@@ -2718,6 +2737,7 @@ export default createSpells({
         'You conjure a phantom watchdog in an unoccupied space that you can see within range. The hound remains for the duration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound has Truesight with a range of 30 feet. At the start of each of your turns, the hound attempts to bite one enemy within 5 feet of it. That enemy must succeed on a Dexterity saving throw or take 4d8 Force damage. On your later turns, you can take a Magic action to move the hound up to 30 feet.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   false_life: {
@@ -2868,6 +2888,7 @@ export default createSpells({
         'Healing Touch (Celestial Only; Recharges after a Long Rest). One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell’s level.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   find_the_path: {
@@ -3005,6 +3026,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   flame_strike: {
@@ -3043,6 +3065,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   flesh_to_stone: {
@@ -3243,6 +3266,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 6.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   gaseous_form: {
@@ -3386,6 +3410,7 @@ export default createSpells({
         ' condition until the start of the insect’s next turn.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   glibness: {
@@ -3449,6 +3474,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage of an explosive rune increases by 1d8 for each spell slot level above 3. If you create a spell glyph, you can store any spell of up to the same level as the spell slot you use for the Glyph of Warding.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   goodberry: {
@@ -3532,6 +3558,7 @@ export default createSpells({
       ['• Any reduction to one of the target’s ability scores'],
       ['• Any reduction to the target’s Hit Point maximum'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   guardian_of_faith: {
@@ -3548,6 +3575,7 @@ export default createSpells({
         'A Large spectral guardian appears and hovers for the duration in an unoccupied space that you can see within range. The guardian occupies that space and is invulnerable, and it appears in a form appropriate for your deity or pantheon. Any enemy that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there makes a Dexterity saving throw, taking 20 Radiant damage on a failed save or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   guards_and_wards: {
@@ -3649,6 +3677,7 @@ export default createSpells({
         'A Line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration. Each creature in the Line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the Line. A creature that ends its turn in the Line must make the same save. Any creature in the Line must spend 2 feet of movement for every 1 foot it moves when moving closer to you. The gust disperses gas or vapor, and it extinguishes candles and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them. As a Bonus Action on your later turns, you can change the direction in which the Line blasts from you.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   hallow: {
@@ -3790,6 +3819,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The healing increases by 10 for each spell slot level above 6.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   healing_word: {
@@ -3828,6 +3858,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 2.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   hellish_rebuke: {
@@ -4311,6 +4342,7 @@ export default createSpells({
         'A swirling cloud of embers and smoke fills a 20-foot-radius Sphere centered on a point within range. The cloud’s area is Heavily Obscured. It lasts for the duration or until a strong wind (like that created by Gust of Wind) disperses it. When the cloud appears, each creature in it makes a Dexterity saving throw, taking 10d8 Fire damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn. The cloud moves 10 feet away from you in a direction you choose at the start of each of your turns.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   inflict_wounds: {
@@ -4349,6 +4381,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 5.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   instant_summons: {
@@ -4365,6 +4398,7 @@ export default createSpells({
         'You touch the sapphire used in the casting and an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an Invisible mark on that object and invisibly inscribes the object’s name on the sapphire. Each time you cast this spell, you must use a different sapphire. Thereafter, you can take a Magic action to speak the object’s name and crush the sapphire. The object instantly appears in your hand regardless of physical or planar distances, and the spell ends. If another creature is holding or carrying the object, crushing the sapphire doesn’t transport it, but instead you learn who that creature is and where that creature is currently located.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   invisibility: {
@@ -4496,6 +4530,7 @@ export default createSpells({
         'You touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   levitate: {
@@ -4512,6 +4547,7 @@ export default createSpells({
         'One creature or loose object of your choice that you can see within range rises vertically up to 20 feet and remains suspended there for the duration. The spell can levitate an object that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected. The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target’s altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can take a Magic action to move the target, which must remain within the spell’s range. When the spell ends, the target floats gently to the ground if it is still aloft.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   light: {
@@ -4675,6 +4711,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The duration increases by 1 hour for each spell slot level above 3.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   magic_jar: {
@@ -4831,6 +4868,7 @@ export default createSpells({
         ' conditions removed from them.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   mass_healing_word: {
@@ -4916,6 +4954,7 @@ export default createSpells({
         ' condition.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   mending: {
@@ -5085,6 +5124,7 @@ export default createSpells({
         ' condition, Blindsight, or Truesight.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   mislead: {
@@ -5103,6 +5143,7 @@ export default createSpells({
         ' condition at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends immediately after you make an attack roll, deal damage, or cast a spell. As a Magic action, you can move the illusory double up to twice your Speed and make it gesture, speak, and behave in whatever way you choose. It is intangible and invulnerable. You can see through its eyes and hear through its ears as if you were located where it is.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   misty_step: {
@@ -5170,6 +5211,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 2.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   move_earth: {
@@ -5455,6 +5497,7 @@ export default createSpells({
         ' condition, it can use its Reaction to stand up.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   power_word_kill: {
@@ -5715,6 +5758,7 @@ export default createSpells({
         'Cantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   programmed_illusion: {
@@ -6069,6 +6113,7 @@ export default createSpells({
         'This spell reverses gravity in a 50-foot-radius, 100foot high Cylinder centered on a point within range. All creatures and objects in that area that aren’t anchored to the ground fall upward and reach the top of the Cylinder. A creature can make a Dexterity saving throw to grab a fixed object it can reach, thus avoiding the fall upward. If a ceiling or an anchored object is encountered in this upward fall, creatures and objects strike it just as they would during a downward fall. If an affected creature or object reaches the Cylinder’s top without striking anything, it hovers there for the duration. When the spell ends, affected objects and creatures fall downward.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   revivify: {
@@ -6101,6 +6146,7 @@ export default createSpells({
         'You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope’s upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it. The space can hold up to eight Medium or smaller creatures. Attacks, spells, and other effects can’t pass into or out of the space, but creatures inside it can see through the portal. Anything inside the space drops out when the spell ends.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   sacred_flame: {
@@ -6192,6 +6238,7 @@ export default createSpells({
         'On a successful save, the target isn’t affected, and you can’t use this spell on it again for 24 hours. On a failed save, the spell creates an Invisible, intangible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it appears as a luminous orb about the size of your fist. Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn’t move.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   searing_smite: {
@@ -6258,6 +6305,7 @@ export default createSpells({
         ' condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   seeming: {
@@ -6274,6 +6322,7 @@ export default createSpells({
         'You give an illusory appearance to each creature of your choice that you can see within range. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell. You can give the same appearance or different ones to the targets. The spell can change the appearance of the targets’ bodies and equipment. You can make each creature seem 1 foot shorter or taller and appear heavier or lighter. A target’s new appearance must have the same basic arrangement of limbs as the target, but the extent of the illusion is otherwise up to you. The spell lasts for the duration. The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to a creature’s outfit, objects pass through the hat. A creature that takes the Study action to examine a target can make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   sending: {
@@ -6783,6 +6832,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d8 for every slot level above 2.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   starry_wisp: {
@@ -6979,6 +7029,7 @@ export default createSpells({
         'Breath Weapon. Dexterity Saving Throw: DC equals your spell save DC, each creature in a 30-foot Cone. Failure: 2d6 damage of a type this spirit has Resistance to (your choice when you cast the spell). Success: Half damage.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   sunbeam: {
@@ -7274,6 +7325,7 @@ export default createSpells({
       ],
       ['Tremors. You cause harmless tremors in the ground for 1 minute.'],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   thunderwave: {
@@ -7389,6 +7441,7 @@ export default createSpells({
         'Choose one creature or nonmagical object that you can see within range. The creature shape-shifts into a different creature or a nonmagical object, or the object shape-shifts into a creature (the object must be neither worn nor carried). The transformation lasts for the duration or until the target dies or is destroyed, but if you maintain Concentration on this spell for the full duration, the spell lasts until dispelled. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn’t affected by this spell. Creature into Creature. If you turn a creature into another kind of creature, the new form can be any kind you choose that has a Challenge Rating equal to or less than the target’s Challenge Rating or level. The target’s game statistics are replaced by the stat block of the new form, but it retains its Hit Points, Hit Point Dice, alignment, and personality. The target gains a number of Temporary Hit Points equal to the Hit Points of the new form. These Temporary Hit Points vanish if any remain when the spell ends. The target is limited in the actions it can perform by the anatomy of its new form, and it can’t speak or cast spells. The target’s gear melds into the new form. The creature can’t use or otherwise benefit from any of that equipment. Object into Creature. You can turn an object into any kind of creature, as long as the creature’s size is no larger than the object’s size and the creature has a Challenge Rating of 9 or lower. The creature is Friendly to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands. If the spell lasts more than an hour, you no longer control the creature. It might remain Friendly to you, depending on how you have treated it. Creature into Object. If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form, as long as the object’s size is no larger than the creature’s size. The creature’s statistics become those of the object, and the creature has no memory of time spent in this form after the spell ends and it returns to normal.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   true_resurrection: {
@@ -7454,6 +7507,7 @@ export default createSpells({
         'A wall of water springs into existence at a point you choose within range. You can make the wall up to 300 feet long, 300 feet high, and 50 feet thick. The wall lasts for the duration. When the wall appears, each creature in its area makes a Strength saving throw, taking 6d10 Bludgeoning damage on a failed save or half as much damage on a successful one. At the start of each of your turns after the wall appears, the wall, along with any creatures in it, moves 50 feet away from you. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a Strength saving throw or take 5d10 Bludgeoning damage. A creature can take this damage only once per round. At the end of the turn, the wall’s height is reduced by 50 feet, and the damage the wall deals on later rounds is reduced by 1d10. When the wall reaches 0 feet in height, the spell ends. A creature caught in the wall can move by swimming. Because of the wave’s force, though, the creature must succeed on a Strength (Athletics) check against your spell save DC to move at all. If it fails the check, it can’t move. A creature that moves out of the wall falls to the ground.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   unseen_servant: {
@@ -7470,6 +7524,7 @@ export default createSpells({
         'This spell creates an Invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 Hit Point, and a Strength of 2, and it can’t attack. If it drops to 0 Hit Points, the spell ends. Once on each of your turns as a Bonus Action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring drinks. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command. If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   vampiric_touch: {
@@ -7489,6 +7544,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 3.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   vicious_mockery: {
@@ -7546,6 +7602,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   wall_of_force: {
@@ -7562,6 +7619,7 @@ export default createSpells({
         'An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick and lasts for the duration. If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (you choose which side). Nothing can physically pass through the wall. It is immune to all damage and can’t be dispelled by Dispel Magic. A Disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane and blocks ethereal travel through the wall.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   wall_of_ice: {
@@ -7581,6 +7639,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. The damage the wall deals when it appears increases by 2d6 and the damage from passing through the sheet of frigid air increases by 1d6 for each spell slot level above 6.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   wall_of_stone: {
@@ -7597,6 +7656,7 @@ export default createSpells({
         'A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by10-foot panels. Each panel must be contiguous with another panel. Alternatively, you can create 10-footby-20-foot panels that are only 3 inches thick. If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its Reaction to move up to its Speed so that it is no longer enclosed by the wall. The wall can have any shape you desire, though it can’t occupy the same space as a creature or object. The wall doesn’t need to be vertical or rest on a firm foundation. It must, however, merge with and be solidly supported by existing stone. Thus, you can use this spell to bridge a chasm or create a ramp. If you create a span greater than 20 feet in length, you must halve the size of each panel to create supports. You can crudely shape the wall to create battlements and the like. The wall is an object made of stone that can be damaged and thus breached. Each panel has AC 15 and 30 Hit Points per inch of thickness, and it has Immunity to Poison and Psychic damage. Reducing a panel to 0 Hit Points destroys it and might cause connected panels to collapse at the GM’s discretion. If you maintain your Concentration on this spell for its full duration, the wall becomes permanent and can’t be dispelled. Otherwise, the wall disappears when the spell ends.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   wall_of_thorns: {
@@ -7616,6 +7676,7 @@ export default createSpells({
         'Using a Higher-Level Spell Slot. Both types of damage increase by 1d8 for each spell slot level above 6.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   warding_bond: {
@@ -7784,6 +7845,7 @@ export default createSpells({
         'A wall of strong wind rises from the ground at a point you choose within range. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration. When the wall appears, each creature in its area makes a Strength saving throw, taking 4d8 Bludgeoning damage on a failed save or half as much damage on a successful one. The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or objects can’t pass through the wall. Loose, lightweight materials brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and miss automatically. Boulders hurled by Giants or siege engines, and similar projectiles, are unaffected. Creatures in gaseous form can’t pass through it.',
       ],
     ],
+    effects: [],
     publication: refs.publications.srd_5_2_1,
   },
   wish: {
