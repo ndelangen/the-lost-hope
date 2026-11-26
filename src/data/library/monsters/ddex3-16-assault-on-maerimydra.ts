@@ -332,8 +332,18 @@ export default createPublicationMonsters({
             icon: 'gi/GiBull',
             text: [
               'Melee weapon attack, attack bonus 5, reach 5 ft., one Medium or smaller creature. On a hit, the target sticks to its leg and is ',
-              rules.grappled,
-              ' until it escapes (escape DC 12).',
+              { effect: 'sticky-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sticky-grappled',
+                name: 'Stuck to the leg',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
         ],

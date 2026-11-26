@@ -19863,8 +19863,22 @@ export default createPublicationMonsters({
               'Each creature in a 30-ft. cone of magical energy makes a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.charmed,
-              " by the morkoth for 1 minute and must try to get as close to the morkoth as possible, using its actions to Dash until within 5 ft. It can repeat the save at the end of each of its turns and whenever it takes damage, ending the charm on a success. When a creature succeeds on a save or the effect ends for it, it has advantage on saves against this morkoth's Hypnosis for 24 hours.",
+              { effect: 'hypnosis' },
+              ". It can repeat the save at the end of each of its turns and whenever it takes damage, ending the charm on a success. When a creature succeeds on a save or the effect ends for it, it has advantage on saves against this morkoth's Hypnosis for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'hypnosis',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.charmed],
+                text: [
+                  'by the morkoth',
+                  ' and must try to get as close to the morkoth as possible, using its actions to Dash until within 5 ft.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn', 'damaged'] },
+              },
             ],
           },
           {
@@ -21104,7 +21118,21 @@ export default createPublicationMonsters({
             text: [
               'The target makes a ',
               { dc: 'con' },
-              ' Constitution save. On a failure its hit point maximum drops by the necrotic damage taken until it finishes a long rest. If its maximum reaches 0, it dies.',
+              ' Constitution save. On a failure ',
+              { effect: 'enervated' },
+            ],
+            effects: [
+              {
+                key: 'enervated',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'its hit point maximum drops by the necrotic damage taken',
+                  '.',
+                  ' If its maximum reaches 0, it dies.',
+                ],
+                lasts: { kind: 'until', text: ['it finishes a long rest'] },
+              },
             ],
           },
           {
