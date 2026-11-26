@@ -466,12 +466,20 @@ export default createPublicationMonsters({
             name: 'Infernal Command',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'Allies within 60 ft. of Bael cannot be ',
-              rules.charmed,
-              ' or ',
-              rules.frightened,
-              ' until the end of his next turn.',
+            text: [{ effect: 'infernal-command-ward' }, '.'],
+            effects: [
+              {
+                key: 'infernal-command-ward',
+                name: 'Warded',
+                lands: { on: 'use' },
+                text: [
+                  'Allies within 60 ft. of Bael cannot be ',
+                  rules.charmed,
+                  ' or ',
+                  rules.frightened,
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -2415,15 +2423,30 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5 },
               onFail: {
                 damage: [{ dice: '8d10', type: rules.psychic }],
-                also: [
-                  'Becomes memory drained until it finishes a short or long rest or receives Greater Restoration or Heal.',
-                ],
+
+                also: ['Becomes ', { effect: 'memory-drained-2' }, '.'],
               },
             },
             text: [
-              'It subtracts a d4 from its ability checks and attack rolls. Each further drain raises the penalty die in order from d4 to d6, d8, d10, d12 and d20. At d20 the target becomes ',
-              rules.unconscious,
-              ' for 1 hour, after which the effect ends. Whenever the oblex drains a target’s memories, it learns the target’s languages and gains its proficiencies except saving throw proficiencies.',
+              'Whenever the oblex drains a target’s memories, it learns the target’s languages and gains its proficiencies except saving throw proficiencies. ',
+            ],
+            effects: [
+              {
+                key: 'memory-drained-2',
+                name: 'Memory drained',
+                lands: { on: 'failed-save' },
+                text: [
+                  'It subtracts a d4 from its ability checks and attack rolls. Each further drain raises the penalty die in order from d4 to d6, d8, d10, d12 and d20. At d20 the target becomes ',
+                  rules.unconscious,
+                  ' for 1 hour, after which the effect ends.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'it finishes a short or long rest or receives Greater Restoration or Heal',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -3185,7 +3208,20 @@ export default createPublicationMonsters({
             text: [
               'Teleport up to 500 ft. with worn or carried gear and any ',
               rules.grappled,
-              ' creature. Both spaces must be in dim light or darkness. The meazel must have seen the destination before, but does not need to see it now. If the destination is occupied, arrive in the nearest unoccupied space. Any other creature transported is cursed for 1 hour. Undead and creatures native to the Shadowfell within 300 ft. can sense the cursed creature, which cannot hide from them.',
+              ' creature. Both spaces must be in dim light or darkness. The meazel must have seen the destination before, but does not need to see it now. If the destination is occupied, arrive in the nearest unoccupied space. Any other creature transported is ',
+              { effect: 'shadow-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'shadow-curse',
+                name: 'Cursed',
+                lands: { on: 'use' },
+                text: [
+                  'Undead and creatures native to the Shadowfell within 300 ft. can sense the cursed creature, which cannot hide from them.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4315,15 +4351,31 @@ export default createPublicationMonsters({
             text: [
               'The target makes a ',
               { dc: 'dex' },
-              ' Dexterity save. On a failure, choose one effect. If the target is a Medium or smaller creature, grapple it (escape DC 14). It is ',
-              rules.restrained,
-              ' while ',
-              rules.grappled,
-              ', and the shadow dancer cannot grapple another target until that grapple ends. Alternatively knock the target ',
-              rules.prone,
+              ' Dexterity save. On a failure, choose one effect. If the target is a Medium or smaller creature, ',
+              { effect: 'chain-grapple' },
+              ' Alternatively knock the target ',
+              { effect: 'chain-prone' },
               ' or deal ',
               { roll: '4d10' },
               ' necrotic damage.',
+            ],
+            effects: [
+              {
+                key: 'chain-grapple',
+                name: 'Grappled by the chain',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ['the shadow dancer cannot grapple another target until that grapple ends.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'dex', printed: 14 } },
+              },
+              {
+                key: 'chain-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4948,7 +5000,18 @@ export default createPublicationMonsters({
                 rules.charmed,
                 '. That creature makes a ',
                 { dc: 'cha' },
-                ' Charisma save. On a failure, Titivilus decides how the creature acts during its next turn.',
+                ' Charisma save. On a failure, ',
+                { effect: 'guidance-controlled' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'guidance-controlled',
+                  name: 'Controlled',
+                  lands: { on: 'save', save: 'cha', dc: 'cha' },
+                  text: ['Titivilus decides how the creature acts during its next turn'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {

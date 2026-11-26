@@ -335,11 +335,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30 },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.psychic }],
-                also: ['Is ', rules.incapacitated, ' by laughter for 1 minute.'],
+
+                also: [{ effect: 'cackling' }],
               },
             },
             text: [
-              'It repeats the save at the end of each of its turns, ending the effect on a success. A creature that succeeds on any of those saves is immune to this doll’s Cackle for 24 hours.',
+              'A creature that succeeds on any of those saves is immune to this doll’s Cackle for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'cackling',
+                name: 'Incapacitated by laughter',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                text: ['by laughter'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',

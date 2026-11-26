@@ -1476,9 +1476,19 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic, addModifier: true }],
-                also: ['Is ', rules.charmed, " until the start of the naga's next turn."],
+
+                also: ['Is ', { effect: 'serpentine-charm' }, '.'],
               },
             },
+            effects: [
+              {
+                key: 'serpentine-charm',
+                name: 'Charmed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -1891,10 +1901,15 @@ export default createPublicationMonsters({
               range: [90, 90],
               damage: [{ dice: '3d6', type: rules.radiant, addModifier: true }],
             },
-            text: [
-              'Leaves the target ',
-              rules.blinded,
-              " until the start of the centaur's next turn.",
+            text: ['Leaves the target ', { effect: 'sun-ray-blind' }, '.'],
+            effects: [
+              {
+                key: 'sun-ray-blind',
+                name: 'Blinded',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1909,10 +1924,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 5 } },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                also: ['Is ', rules.restrained, ' until the end of its next turn.'],
+
+                also: ['Is ', { effect: 'trail-restrained' }, '.'],
               },
             },
             text: ["Move up to the centaur's speed without provoking Opportunity Attacks."],
+            effects: [
+              {
+                key: 'trail-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
             uses: 1,
             recharge: 'recharge 5–6',
           },
@@ -1985,10 +2010,19 @@ export default createPublicationMonsters({
             },
             text: [
               'A Large or smaller creature hit is ',
-              rules.grappled,
-              " by one of the devil's two chains (escape DC 14) and ",
-              rules.restrained,
-              ' until the grapple ends.',
+              { effect: 'devil-chain' },
+              " by one of the devil's two chains",
+              '.',
+            ],
+            effects: [
+              {
+                key: 'devil-chain',
+                name: 'Chained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -2003,15 +2037,25 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.fire, addModifier: true }],
+
                 also: [
                   'Is ',
-                  rules.restrained,
-                  " until the end of the devil's next turn, when the chain vanishes.",
+                  { effect: 'infernal-chain-restrained' },
+                  ', when the chain vanishes.',
                 ],
               },
             },
             text: [
               'If the target is Large or smaller, the devil moves it up to 30 ft. straight toward itself. On a success, the chain vanishes without effects.',
+            ],
+            effects: [
+              {
+                key: 'infernal-chain-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -2023,8 +2067,17 @@ export default createPublicationMonsters({
               'When a creature the devil can see starts its turn within 30 ft. and can see the devil, the devil can force that creature to make a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save. On a failure, the creature is ',
-              rules.frightened,
-              " until the end of its turn. On a success, it is immune to this devil's Unnerving Gaze for 24 hours.",
+              { effect: 'unnerving-frightened' },
+              ". On a success, it is immune to this devil's Unnerving Gaze for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'unnerving-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -3139,13 +3192,24 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120 },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.force }],
-                also: [
-                  'Is ',
-                  rules.restrained,
-                  ' until the rope is destroyed, the erinyes releases it as a Bonus Action, or the erinyes uses Entangling Rope again.',
-                ],
+
+                also: ['Is ', { effect: 'rope-restrained' }, '.'],
               },
             },
+            effects: [
+              {
+                key: 'rope-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the rope is destroyed, the erinyes releases it as a Bonus Action, or the erinyes uses Entangling Rope again',
+                  ],
+                },
+              },
+            ],
           },
           {
             key: 'parry',
@@ -6418,14 +6482,24 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '7d8', type: rules.poison }],
+
                 also: [
                   'Is ',
-                  rules.blinded,
-                  " until the start of the naga's next turn. On a success, it takes half damage only.",
+                  { effect: 'spittle-blinded' },
+                  '. On a success, it takes half damage only.',
                 ],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'spittle-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -7487,13 +7561,19 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5 },
               onFail: {
                 damage: [{ dice: '2d10', type: rules.psychic }],
-                also: [
-                  'Leaves the target ',
-                  rules.stunned,
-                  " until the end of the intellect devourer's next turn.",
-                ],
+
+                also: ['Leaves the target ', { effect: 'devour-stunned' }, '.'],
               },
             },
+            effects: [
+              {
+                key: 'devour-stunned',
+                name: 'Stunned by the intellect devourer',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'steal-body',
@@ -7505,9 +7585,22 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and has 10 HP or fewer. The target makes a ',
               { dc: 'int' },
-              " Intelligence save. On a failure, the intellect devourer possesses the target, eats its brain, and teleports into its skull. Inside the host, the intellect devourer has Total Cover against attacks and effects from outside. It uses the host's statistics except for its own Intelligence, Wisdom, and Charisma scores, understanding of Deep Speech, telepathy, and ",
+              ' Intelligence save. On a failure, ',
+              { effect: 'possessed' },
+              " Inside the host, the intellect devourer has Total Cover against attacks and effects from outside. It uses the host's statistics except for its own Intelligence, Wisdom, and Charisma scores, understanding of Deep Speech, telepathy, and ",
               { ability: 'detect-intelligence' },
               ". It acquires the host's knowledge, including spells and languages. The intellect devourer must leave if the host body dies or Wish restores the host's brain. It can also spend 5 ft. of movement to leave voluntarily, teleporting to the nearest unoccupied space within 5 ft. of the host. The vacated body dies unless its brain returns before the end of the intellect devourer's next turn.",
+            ],
+            effects: [
+              {
+                key: 'possessed',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                text: [
+                  'the intellect devourer possesses the target, eats its brain, and teleports into its skull.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -8113,12 +8206,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 } },
               onFail: {
                 damage: [{ dice: '6d4', type: rules.bludgeoning }],
-                also: ['Is knocked ', rules.prone, '. On a success, it takes half damage.'],
+
+                also: [
+                  'Is knocked ',
+                  { effect: 'hail-prone' },
+                  '. On a success, it takes half damage.',
+                ],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [
+              {
+                key: 'hail-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
       },
@@ -10700,17 +10807,24 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5 },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.poison }],
-                also: ['Becomes ', rules.poisoned, ' for 1 hour.'],
+
+                also: [{ effect: 'sting-poison' }],
               },
             },
-            text: [
-              'While ',
-              rules.poisoned,
-              ' this way it is also ',
-              rules.unconscious,
-              '. That ',
-              rules.unconscious,
-              ' condition ends early if the creature takes damage or someone within 5 ft. of it uses an action to wake it.',
+            text: [],
+            effects: [
+              {
+                key: 'sting-poison',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned, rules.unconscious],
+                text: [
+                  'That ',
+                  rules.unconscious,
+                  ' condition ends early if the creature takes damage or someone within 5 ft. of it uses an action to wake it.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
         ],
@@ -11676,15 +11790,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 30 } },
               onFail: {
                 damage: [{ dice: '10d6', type: rules.fire }],
-                also: ['Starts Burning.'],
+
+                also: ['Starts ', { effect: 'inferno-burning' }, '.'],
               },
             },
-            text: [
-              'Replace the normal Burning damage with ',
-              { roll: '1d10' },
-              ' Fire damage at the start of each of its turns. It gains one ',
-              rules.exhaustion,
-              ' level every time it takes this Burning damage. A successful save halves the initial damage and avoids Burning.',
+            text: ['A successful save halves the initial damage and avoids Burning. '],
+            effects: [
+              {
+                key: 'inferno-burning',
+                name: 'Burning',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Replace the normal Burning damage with ',
+                  { roll: '1d10' },
+                  ' Fire damage at the start of each of its turns. It gains one ',
+                  rules.exhaustion,
+                  ' level every time it takes this Burning damage.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -12168,13 +12292,28 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.psychic }],
-                also: ['Is cursed.'],
+
+                also: [{ effect: 'riddle-curse' }],
               },
             },
-            text: [
-              'The curse gives it Disadvantage on ability checks and attack rolls. Whenever it takes the Magic action, it must pass a ',
-              { dc: 'int' },
-              ' Intelligence save or waste the action. It can take the Study action to try a DC 15 Intelligence check, solving the riddle and ending the curse on a success. The curse also ends if the sphinx curses another target.',
+            text: [],
+            effects: [
+              {
+                key: 'riddle-curse',
+                name: 'Cursed',
+                lands: { on: 'failed-save' },
+                text: [
+                  'The curse gives it Disadvantage on ability checks and attack rolls. Whenever it takes the Magic action, it must pass a ',
+                  { dc: 'int' },
+                  ' Intelligence save or waste the action.',
+                ],
+                lasts: { kind: 'until', text: ['the sphinx curses another target'] },
+                ends: {
+                  cure: [
+                    'It can take the Study action to try a DC 15 Intelligence check, solving the riddle and ending the curse on a success.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -13147,10 +13286,17 @@ export default createPublicationMonsters({
               reach: 15,
               damage: [{ dice: '4d12', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'Grapples the target (escape DC 20). Until the grapple ends the target is ',
-              rules.restrained,
-              ' and cannot teleport.',
+            text: ['Grapples the target ', { effect: 'tarrasque-grapple' }, '.'],
+            effects: [
+              {
+                key: 'tarrasque-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ['cannot teleport'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -13178,7 +13324,16 @@ export default createPublicationMonsters({
               reach: 30,
               damage: [{ dice: '3d8', type: rules.bludgeoning, addModifier: true }],
             },
-            text: ['A Huge or smaller creature hit also falls ', rules.prone, '.'],
+            text: ['A Huge or smaller creature hit also falls ', { effect: 'tail-prone' }, '.'],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'thunderous-bellow',
@@ -13192,16 +13347,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 150 } },
               onFail: {
                 damage: [{ dice: '12d12', type: rules.thunder }],
-                also: [
-                  'Leaves the target ',
-                  rules.deafened,
-                  ' and ',
-                  rules.frightened,
-                  ' until the end of its next turn.',
-                ],
+
+                also: ['Leaves the target ', { effect: 'bellow-deafened' }, '.'],
               },
             },
             text: ['Success halves the damage and avoids both conditions.'],
+            effects: [
+              {
+                key: 'bellow-deafened',
+                name: 'Deafened and frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened, rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
             uses: 1,
             recharge: 'recharge 5–6',
           },
@@ -13216,12 +13375,8 @@ export default createPublicationMonsters({
               ' by the tarrasque makes a ',
               { dc: 'str' },
               ' Strength save. On failure, the grapple ends and the creature is swallowed. The tarrasque can have up to six creatures inside it. A swallowed creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', cannot teleport, has Total Cover against outside attacks and effects, and takes ',
-              { roll: '16d6' },
-              ' acid damage at the start of each of the tarrasque’s turns. When a creature inside deals at least 60 damage to the tarrasque in a single turn, it makes a ',
+              { effect: 'swallowed' },
+              ' When a creature inside deals at least 60 damage to the tarrasque in a single turn, it makes a ',
               { dc: 'con', printed: 20 },
               ' Constitution save at the end of that turn. On failure it expels everyone it swallowed, and they fall ',
               rules.prone,
@@ -13230,6 +13385,20 @@ export default createPublicationMonsters({
               '. They can spend 20 ft. of movement to escape and exit ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'cannot teleport, has Total Cover against outside attacks and effects, and takes ',
+                  { roll: '16d6' },
+                  ' acid damage at the start of each of the tarrasque’s turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

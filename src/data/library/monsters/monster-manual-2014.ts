@@ -1255,7 +1255,18 @@ export default createPublicationMonsters({
             text: [
               'A humanoid hit by the claw makes a ',
               { dc: 'con' },
-              ' Constitution save. On a failure it contracts chaos phage.',
+              ' Constitution save. On a failure it ',
+              { effect: 'chaos-phage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'chaos-phage',
+                name: 'Chaos phage',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['Contracts chaos phage.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6702,14 +6713,22 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'Plus ',
-              { roll: '1d4' },
-              ' acid. At the end of each of its turns, the creature must make a ',
-              { dc: 'con' },
-              ' Constitution save. It takes ',
-              { roll: '1d4' },
-              ' acid on a failure. Success or Lesser Restoration ends the recurring damage.',
+            text: ['Plus ', { roll: '1d4' }, ' acid. ', { effect: 'tendril-acid' }],
+            effects: [
+              {
+                key: 'tendril-acid',
+                name: 'Tendril acid',
+                lands: { on: 'hit' },
+                text: [
+                  'At the end of each of its turns, the creature must make a ',
+                  { dc: 'con' },
+                  ' Constitution save. It takes ',
+                  { roll: '1d4' },
+                  ' acid on a failure.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['Success or Lesser Restoration ends the recurring damage.'] },
+              },
             ],
           },
           {
@@ -7149,9 +7168,22 @@ export default createPublicationMonsters({
             text: [
               'When reduced to 0 HP, the gas spore explodes. A creature immune to being ',
               rules.poisoned,
-              " cannot contract it. Spore disease. Roll 1d12 and add the infected creature's Constitution score. That is the number of hours before the disease kills it, unless removed. Halfway through, the creature becomes ",
-              rules.poisoned,
-              ' for the remaining time. After it dies, 2d4 Tiny gas spores sprout from its corpse and reach full size in 7 days.',
+              ' cannot contract it. ',
+              { effect: 'spore-disease' },
+              ' After it dies, 2d4 Tiny gas spores sprout from its corpse and reach full size in 7 days.',
+            ],
+            effects: [
+              {
+                key: 'spore-disease',
+                name: 'Spore disease',
+                lands: { on: 'failed-save' },
+                text: [
+                  "Roll 1d12 and add the infected creature's Constitution score. That is the number of hours before the disease kills it, unless removed. Halfway through, the creature becomes ",
+                  rules.poisoned,
+                  ' for the remaining time.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -7177,11 +7209,22 @@ export default createPublicationMonsters({
               damage: [{ dice: '1', type: rules.poison }],
             },
             text: [
-              'The target contracts the spore disease unless it succeeds on a ',
+              'The target ',
+              { effect: 'touch-spore-disease' },
+              ' unless it succeeds on a ',
               { dc: 'con', printed: 10 },
               ' Constitution save or is immune to being ',
               rules.poisoned,
               '.',
+            ],
+            effects: [
+              {
+                key: 'touch-spore-disease',
+                name: 'Spore disease',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 10 },
+                text: ['contracts the spore disease'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -11418,10 +11461,19 @@ export default createPublicationMonsters({
             name: 'Leadership (recharges after a short or long rest)',
             timing: 'action',
             icon: 'gi/GiBull',
-            text: [
-              'For 1 minute, when a nonhostile creature the hobgoblin can see within 30 ft. rolls an attack or saving throw, the hobgoblin can call out and let that creature add 1d4 if it can hear and understand the command. A creature can use only one Leadership die per roll. The effect ends if the hobgoblin is ',
-              rules.incapacitated,
-              '.',
+            text: [{ effect: 'captain-leadership' }],
+            effects: [
+              {
+                key: 'captain-leadership',
+                name: 'Leadership',
+                lands: { on: 'use' },
+                text: [
+                  'when a nonhostile creature the hobgoblin can see within 30 ft. rolls an attack or saving throw, the hobgoblin can call out and let that creature add 1d4 if it can hear and understand the command. A creature can use only one Leadership die per roll. The effect ends if the hobgoblin is ',
+                  rules.incapacitated,
+                  '.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -11542,10 +11594,19 @@ export default createPublicationMonsters({
             name: 'Leadership (recharges after a short or long rest)',
             timing: 'action',
             icon: 'gi/GiBull',
-            text: [
-              'For 1 minute, when a nonhostile creature the hobgoblin can see within 30 ft. rolls an attack or saving throw, the hobgoblin can call out and let that creature add 1d4 if it can hear and understand the command. A creature can use only one Leadership die per roll. The effect ends if the hobgoblin is ',
-              rules.incapacitated,
-              '.',
+            text: [{ effect: 'warlord-leadership' }],
+            effects: [
+              {
+                key: 'warlord-leadership',
+                name: 'Leadership',
+                lands: { on: 'use' },
+                text: [
+                  'when a nonhostile creature the hobgoblin can see within 30 ft. rolls an attack or saving throw, the hobgoblin can call out and let that creature add 1d4 if it can hear and understand the command. A creature can use only one Leadership die per roll. The effect ends if the hobgoblin is ',
+                  rules.incapacitated,
+                  '.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -14433,10 +14494,24 @@ export default createPublicationMonsters({
                 damage: [{ dice: '2d4', type: rules.slashing }],
               },
             },
-            text: [
-              'Each further hit with Claw on the wounded creature increases the recurring damage by ',
-              { roll: '2d4' },
-              '. Any creature can spend an action to attempt a DC 13 Wisdom (Medicine) check, closing the wound on success. Magical healing also closes it.',
+            text: [{ effect: 'claw-wound' }],
+            effects: [
+              {
+                key: 'claw-wound',
+                name: 'Claw wound',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Each further hit with Claw on the wounded creature increases the recurring damage by ',
+                  { roll: '2d4' },
+                  '.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'Any creature can spend an action to attempt a DC 13 Wisdom (Medicine) check, closing the wound on success. Magical healing also closes it.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -21397,11 +21472,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30 },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.cold }],
-                also: ['Becomes ', rules.paralyzed, ' for 1 minute.'],
+
+                also: ['Becomes ', { effect: 'chilling-paralysis' }, '.'],
               },
             },
             text: [
-              'Cold immunity prevents both effects. It can repeat the save at the end of each of its turns to end the effect on a success. If it succeeds on a save or the effect on it ends, it is immune to the Chilling Gaze of all normal yetis for 1 hour. The hour of immunity does not apply to abominable yetis.',
+              'Cold immunity prevents both effects. ',
+              'If it succeeds on a save or the effect on it ends, it is immune to the Chilling Gaze of all normal yetis for 1 hour. The hour of immunity does not apply to abominable yetis. ',
+            ],
+            effects: [
+              {
+                key: 'chilling-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],

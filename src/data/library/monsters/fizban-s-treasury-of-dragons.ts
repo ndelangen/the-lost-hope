@@ -305,12 +305,21 @@ export default createPublicationMonsters({
                 { dice: '4d6', type: rules.acid },
               ],
             },
-            text: [
-              'A Large or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 15) and takes ',
-              { roll: '2d6' },
-              ' acid damage at the start of each of its turns until the grapple ends.',
+            text: ['A Large or smaller creature hit is ', { effect: 'pseudopod-grappled' }, '.'],
+            effects: [
+              {
+                key: 'pseudopod-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: [
+                  'Takes ',
+                  { roll: '2d6' },
+                  ' acid damage at the start of each of its turns until the grapple ends.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {

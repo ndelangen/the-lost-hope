@@ -455,16 +455,26 @@ export default createPublicationMonsters({
               ' attack against a Medium or smaller creature already ',
               rules.grappled,
               ' by the banderhobb. On a hit, swallow the creature and end the grapple. The creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', has total cover from outside attacks and effects, and takes ',
-              { roll: '3d6' },
-              " necrotic damage at the start of each of the banderhobb's turns. If that damage reduces it to 0 HP, it stabilizes and stops taking the necrotic damage. The banderhobb can hold only one swallowed creature. It can expel that creature at any time without an action while free of the ",
+              { effect: 'swallowed-by-banderhobb' },
+              ' The banderhobb can hold only one swallowed creature. It can expel that creature at any time without an action while free of the ',
               rules.incapacitated,
               ' condition. It also expels the creature if it dies. The creature lands ',
               rules.prone,
               ' in a space within 5 ft. of the banderhobb.',
+            ],
+            effects: [
+              {
+                key: 'swallowed-by-banderhobb',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'has total cover from outside attacks and effects, and takes ',
+                  { roll: '3d6' },
+                  " necrotic damage at the start of each of the banderhobb's turns. If that damage reduces it to 0 HP, it stabilizes and stops taking the necrotic damage.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4032,9 +4042,26 @@ export default createPublicationMonsters({
             text: [
               'Launch a worm at one humanoid the spawn can see within 10 ft. The worm latches onto its skin unless the humanoid succeeds on a ',
               { dc: 'dex' },
-              " Dexterity saving throw. The worm is a Tiny undead with AC 6, 1 hit point, speed 1 ft., and 2 (-4) in every ability score. Before it burrows, the worm can be killed normally or scraped off with an action. The spawn can use that action to launch a scraped-off worm at a humanoid it can see within 10 ft. of the worm. If still attached at the end of the target's next turn, the worm burrows into its skin and deals 1 piercing damage. At the end of each of that target's subsequent turns, it takes ",
-              { roll: '2d6' },
-              ' necrotic damage per burrowed worm, up to a total of 10d6. An infested target dies upon reaching 0 hit points and rises 10 minutes later as a spawn of Kyuss. An effect targeting the victim that cures disease or removes a curse kills all the infesting worms.',
+              ' Dexterity saving throw. The worm is a Tiny undead with AC 6, 1 hit point, speed 1 ft., and 2 (-4) in every ability score. Before it burrows, the worm can be killed normally or scraped off with an action. The spawn can use that action to launch a scraped-off worm at a humanoid it can see within 10 ft. of the worm. ',
+              { effect: 'burrowing-worm' },
+            ],
+            effects: [
+              {
+                key: 'burrowing-worm',
+                name: 'Burrowing worm',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                text: [
+                  "If still attached at the end of the target's next turn, the worm burrows into its skin and deals 1 piercing damage. At the end of each of that target's subsequent turns, it takes ",
+                  { roll: '2d6' },
+                  ' necrotic damage per burrowed worm, up to a total of 10d6. An infested target dies upon reaching 0 hit points and rises 10 minutes later as a spawn of Kyuss.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'An effect targeting the victim that cures disease or removes a curse kills all the infesting worms.',
+                  ],
+                },
+              },
             ],
           },
           {

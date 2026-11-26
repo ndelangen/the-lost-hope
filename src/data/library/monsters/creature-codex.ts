@@ -2082,9 +2082,22 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'For 1 minute, the centaur chieftain can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the centaur chieftain. A creature can benefit from only one Leadership die at a time. This effect ends if the centaur chieftain is ',
+              'For 1 minute, the centaur chieftain can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. ',
+              { effect: 'leadership-die' },
+              ' This effect ends if the centaur chieftain is ',
               rules.incapacitated,
               '.',
+            ],
+            effects: [
+              {
+                key: 'leadership-die',
+                name: 'Leadership die',
+                lands: { on: 'use' },
+                text: [
+                  'The creature can add a d4 to its roll provided it can hear and understand the centaur chieftain. A creature can benefit from only one Leadership die at a time.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -2635,7 +2648,16 @@ export default createPublicationMonsters({
               },
               printedDc: 15,
             },
-            text: ['Be ', rules.poisoned, ' for 1 minute.'],
+            text: ['Be ', { effect: 'rapier-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'rapier-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
+            ],
           },
           {
             key: 'disassembly',
@@ -3931,10 +3953,19 @@ export default createPublicationMonsters({
               ' Dexterity saving throw. On a failure, a creature takes ',
               { roll: '2d6' },
               ' bludgeoning damage and is knocked ',
-              rules.prone,
+              { effect: 'split-earth-prone' },
               ". On a success, a creature takes half the damage and isn't knocked ",
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'split-earth-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4108,9 +4139,21 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The eye of the gods inspires all allies within 10 feet. For 1 minute, all inspired creatures have advantage on saving throws against being ',
-              rules.frightened,
-              '.',
+              'The eye of the gods inspires all allies within 10 feet. ',
+              { effect: 'divine-inspiration-ward' },
+            ],
+            effects: [
+              {
+                key: 'divine-inspiration-ward',
+                name: 'Inspired',
+                lands: { on: 'use' },
+                text: [
+                  'All inspired creatures have advantage on saving throws against being ',
+                  rules.frightened,
+                  '.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4179,13 +4222,9 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The fang of the Great Wolf grows in size. This works like the enlarge/reduce spell, except the worg can only enlarge and it lasts for 1 minute. While enlarged, the fang of the Great Wolf gains the following action: Swallow. The worg makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has total cover against attacks and other effects outside the worg, and it takes ',
-              { roll: '3d6' },
-              " acid damage at the start of each of the worg's turns. The worg can have only one creature swallowed at a time. If the worg takes 10 damage or more on a single turn from the swallowed creature, the worg must succeed on a ",
+              'The fang of the Great Wolf grows in size. This works like the enlarge/reduce spell, except the worg can only enlarge and it lasts for 1 minute. While enlarged, the fang of the Great Wolf gains the following action: Swallow. The worg makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. ',
+              { effect: 'swallowed' },
+              ' The worg can have only one creature swallowed at a time. If the worg takes 10 damage or more on a single turn from the swallowed creature, the worg must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw at the end of that turn or regurgitate the creature, which falls ',
               rules.prone,
@@ -4194,6 +4233,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 10 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'It has total cover against attacks and other effects outside the worg, and it takes ',
+                  { roll: '3d6' },
+                  " acid damage at the start of each of the worg's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -4540,10 +4593,19 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 16). Until the grapple ends, the target is ',
-              rules.restrained,
-              ", the flame-scourged scion can automatically hit the target with its tentacle, and it can't use the same tentacle on another target. The flame-scourged scion can grapple up to two creatures at one time.",
+              { effect: 'tentacle-grappled' },
+              '.',
+              " The flame-scourged scion can automatically hit the target with its tentacle, and it can't use the same tentacle on another target. The flame-scourged scion can grapple up to two creatures at one time.",
+            ],
+            effects: [
+              {
+                key: 'tentacle-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -4755,7 +4817,9 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: [
-              'On a failed saving throw, the target is also infected with the eggs of the fleshpod hornet. The injected eggs form a circular lotus pod tumor, roughly half a foot in diameter, on the target within 1 minute of injection. While carrying this tumor, the target has disadvantage on skill checks and saving throws. Exactly 24 hours after the lotus pod appears, a young fleshpod hornet (use giant wasp statistics) erupts from the tumor, dealing does ',
+              'On a failed saving throw, the target is also infected with the eggs of the fleshpod hornet. The injected eggs form a circular lotus pod tumor, roughly half a foot in diameter, on the target within 1 minute of injection. ',
+              { effect: 'hornet-eggs' },
+              ' Exactly 24 hours after the lotus pod appears, a young fleshpod hornet (use giant wasp statistics) erupts from the tumor, dealing does ',
               { roll: '6d10' },
               ' slashing damage to the target. The tumor can be excised with a DC 15 Wisdom (Medicine) check, causing ',
               { roll: '3d10' },
@@ -4764,6 +4828,17 @@ export default createPublicationMonsters({
               ' Constitution saving throw or take ',
               { roll: '4d10' },
               ' slashing damage.',
+            ],
+            effects: [
+              {
+                key: 'hornet-eggs',
+                name: 'Hornet eggs',
+                lands: { on: 'failed-save' },
+                text: [
+                  'While carrying this tumor, the target has disadvantage on skill checks and saving throws.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -4858,12 +4933,21 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 17). Until this grapple ends, the target is ',
-              rules.restrained,
-              " and is not affected by the flying polyp's ",
+              { effect: 'tentacle-grappled' },
+              '.',
+              " Not affected by the flying polyp's ",
               { ability: 'aura-of-wind' },
               '. The flying polyp can grapple up to two creatures at one time.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -4891,9 +4975,10 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '5d10', type: rules.bludgeoning }],
+
                 also: [
                   'Is knocked ',
-                  rules.prone,
+                  { effect: 'cyclone-prone' },
                   ". On a success, a creature takes half the damage but isn't knocked ",
                   rules.prone,
                   '.',
@@ -4903,6 +4988,15 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'cyclone-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'etherealness',
@@ -5622,20 +5716,27 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '8d10', type: rules.psychic }],
+
                 also: [
                   'Is ',
-                  rules.frightened,
-                  " for 1 minute. On a success, it takes half the damage and isn't ",
+                  { effect: 'horrifying-frightened' },
+                  ". On a success, it takes half the damage and isn't ",
                   rules.frightened,
                   '.',
                 ],
               },
               onSuccess: 'half',
             },
-            text: [
-              'The ghost dragon exhales a blast of icy terror in a 30-foot cone. A ',
-              rules.frightened,
-              ' target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+            text: ['The ghost dragon exhales a blast of icy terror in a 30-foot cone. '],
+            effects: [
+              {
+                key: 'horrifying-frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -6171,8 +6272,11 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '11d6', type: rules.necrotic }],
+
                 also: [
-                  "Is covered in rotting slime for 1 minute. On a success, a target takes half the necrotic damage and isn't covered in slime.",
+                  { effect: 'rotting-slime' },
+                  '.',
+                  " On a success, a target takes half the necrotic damage and isn't covered in slime.",
                 ],
               },
               onSuccess: 'half',
@@ -6180,7 +6284,23 @@ export default createPublicationMonsters({
             text: [
               'The grave behemoth vomits putrid flesh and ',
               { roll: '2d4' },
-              " zombies in a 30-foot cone. A creature, including the target, can take an action to clean off the slime. Zombies under the grave behemoth's control have advantage on attack rolls against creatures covered in a grave behemoth's slime.",
+              ' zombies in a 30-foot cone.',
+            ],
+            effects: [
+              {
+                key: 'rotting-slime',
+                name: 'Covered in rotting slime',
+                lands: { on: 'failed-save' },
+                text: [
+                  "Zombies under the grave behemoth's control have advantage on attack rolls against creatures covered in a grave behemoth's slime.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: {
+                  cure: [
+                    'A creature, including the target, can take an action to clean off the slime.',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -6417,10 +6537,19 @@ export default createPublicationMonsters({
               'If Gugalanna moves at least 20 feet straight toward a creature and then hits it with a horns attack on the same turn, that target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '. If the target is ',
               rules.prone,
               ', Gugalanna can make one kick attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6579,7 +6708,18 @@ export default createPublicationMonsters({
             text: [
               'When the gumienniki is missed by an attack, it can taunt the attacker. The attacking creature must succeed on a ',
               { dc: 'int', save: 'wis' },
-              ' Wisdom saving throw or have disadvantage on its next attack roll or saving throw.',
+              ' Wisdom saving throw or ',
+              { effect: 'taunted' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'taunted',
+                name: 'Taunted',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                text: ['Have disadvantage on its next attack roll or saving throw.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -6853,8 +6993,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'trample-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'trample-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -7016,7 +7165,20 @@ export default createPublicationMonsters({
             text: [
               'After encountering an ijiraq, a creature must succeed on a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw to remember the events. On a failure, the details of the encounter rapidly fade away from the creature's mind, including the presence of the ijiraq.",
+              ' Wisdom saving throw to remember the events. On a failure, ',
+              { effect: 'forgotten-encounter' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'forgotten-encounter',
+                name: 'Forgotten encounter',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "The details of the encounter rapidly fade away from the creature's mind, including the presence of the ijiraq.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -8761,10 +8923,28 @@ export default createPublicationMonsters({
               'The dragon emits a flash of dazzling light from its maw in a 15-foot cone. Each creature in that area must make a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.blinded,
+              { effect: 'flaring-blinded' },
               '. Undead within the area of effect must also make a ',
               { dc: 'wis' },
-              ' Wisdom saving throw or be turned for 1 minute. Undead of CR 1/2 or lower who fail the saving throw are instantly destroyed.',
+              ' Wisdom saving throw or be ',
+              { effect: 'flaring-turned' },
+              '. Undead of CR 1/2 or lower who fail the saving throw are instantly destroyed.',
+            ],
+            effects: [
+              {
+                key: 'flaring-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'flaring-turned',
+                name: 'Turned',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: ['Is turned.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -8894,8 +9074,17 @@ export default createPublicationMonsters({
               'A creature that starts its turn within 30 feet of the living star must make a ',
               { dc: 'int' },
               ' Intelligence saving throw. On a failed save, the creature is ',
-              rules.blinded,
-              " for 1 minute. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the living star's Starshine for the next 24 hours.",
+              { effect: 'starshine-blinded' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to the living star's Starshine for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'starshine-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -8960,8 +9149,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con', save: 'cha' },
               ' Charisma saving throw or be ',
-              rules.stunned,
-              ' until the end of its next turn.',
+              { effect: 'silvered-ray-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'silvered-ray-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'cha', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -9347,11 +9545,12 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '9d12', type: rules.bludgeoning }],
+
                 also: [
                   'Is knocked ',
-                  rules.prone,
+                  { effect: 'boulder-prone' },
                   ' and ',
-                  rules.restrained,
+                  { effect: 'boulder-restrained' },
                   ". On a success, the creature takes half the damage and isn't knocked ",
                   rules.prone,
                   ' or ',
@@ -9371,6 +9570,22 @@ export default createPublicationMonsters({
               rules.restrained,
               ' creature on a success.',
             ],
+            effects: [
+              {
+                key: 'boulder-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'boulder-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -9386,8 +9601,17 @@ export default createPublicationMonsters({
                 'The mountain giant commands the earth itself to assist in the fight. The giant chooses three creatures it can see within 60 feet. Each target must succeed on a ',
                 { dc: 'con', save: 'dex' },
                 ' Dexterity saving throw or be ',
-                rules.restrained,
-                ' until the start of its next turn.',
+                { effect: 'grasping-soil-restrained' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'grasping-soil-restrained',
+                  name: 'Restrained',
+                  lands: { on: 'save', save: 'dex', dc: 'con' },
+                  conditions: [rules.restrained],
+                  lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+                },
               ],
             },
             {
@@ -9402,9 +9626,10 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 20 } },
                 onFail: {
                   damage: [{ dice: '6d6', type: rules.thunder }],
+
                   also: [
                     'Is knocked ',
-                    rules.prone,
+                    { effect: 'roar-prone' },
                     ". On a success, a creature takes half the damage and isn't knocked ",
                     rules.prone,
                     '.',
@@ -9413,6 +9638,15 @@ export default createPublicationMonsters({
                 onSuccess: 'half',
               },
               text: ['The mountain giant emits a tremendous growl.'],
+              effects: [
+                {
+                  key: 'roar-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
             {
               key: 'spawn-elemental',
@@ -10161,7 +10395,18 @@ export default createPublicationMonsters({
             text: [
               'The dragon sprays oil in a 30-foot-cone. Each creature in the area must succeed on a ',
               { dc: 'con', save: 'dex' },
-              " Dexterity saving throw or become vulnerable to fire damage until the end of the dragon's next turn.",
+              ' Dexterity saving throw or become ',
+              { effect: 'oil-vulnerable' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'oil-vulnerable',
+                name: 'Vulnerable to fire',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                text: ['Vulnerable to fire damage.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -10498,8 +10743,19 @@ export default createPublicationMonsters({
               "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a ",
               { dc: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.incapacitated,
-              " for 1 minute as the creature is overcome by introspective thoughts. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Introspective Presence for the next 24 hours.",
+              { effect: 'introspective-incapacitated' },
+              ' as the creature is overcome by introspective thoughts.',
+              " If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Introspective Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'introspective-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -10542,9 +10798,22 @@ export default createPublicationMonsters({
               icon: 'gi/GiMagicSwirl',
               cost: 2,
               text: [
-                "The ouroboros blurs and shifts light around itself or another creature it can see within 60 feet of it. Attacks against the target have disadvantage until the end of the ouroboros' next turn. The target can resist this effect with a successful ",
+                'The ouroboros blurs and shifts light around itself or another creature it can see within 60 feet of it. ',
+                { effect: 'blurred' },
+                ' The target can resist this effect with a successful ',
                 { dc: 'wis' },
                 ' Wisdom saving throw.',
+              ],
+              effects: [
+                {
+                  key: 'blurred',
+                  name: 'Blurred',
+                  lands: { on: 'use' },
+                  text: [
+                    "Attacks against the target have disadvantage until the end of the ouroboros' next turn.",
+                  ],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
             {
@@ -10553,9 +10822,22 @@ export default createPublicationMonsters({
               icon: 'gi/GiMagicSwirl',
               cost: 2,
               text: [
-                "The ouroboros causes itself or another creature it can see within 60 feet of it to illuminate with white flame. Attacks against the target have advantage until the end of the ouroboros' next turn. The target can resist this effect with a successful ",
+                'The ouroboros causes itself or another creature it can see within 60 feet of it to illuminate with white flame. ',
+                { effect: 'beacon-lit' },
+                ' The target can resist this effect with a successful ',
                 { dc: 'wis' },
                 ' Wisdom saving throw.',
+              ],
+              effects: [
+                {
+                  key: 'beacon-lit',
+                  name: 'Lit by white flame',
+                  lands: { on: 'use' },
+                  text: [
+                    "Attacks against the target have advantage until the end of the ouroboros' next turn.",
+                  ],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
           ],
@@ -10960,7 +11242,8 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.cold }],
-                also: ['Is ', rules.frightened, " until the end of the phantom's next turn."],
+
+                also: ['Is ', { effect: 'moan-frightened' }, '.'],
               },
               printedDc: 13,
             },
@@ -10970,6 +11253,15 @@ export default createPublicationMonsters({
               " for the same duration. On a success, the target takes half the damage and isn't ",
               rules.frightened,
               '.',
+            ],
+            effects: [
+              {
+                key: 'moan-frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -12025,8 +12317,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'slam-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'slam-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -13449,8 +13750,17 @@ export default createPublicationMonsters({
               'A 20-foot radius burst of electricity releases from the shockwing. Each creature in that area must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.stunned,
-              ' until the end of its next turn.',
+              { effect: 'wings-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wings-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -13819,10 +14129,11 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '5d6', type: rules.thunder }],
+
                 also: [
                   'Is ',
-                  rules.deafened,
-                  " for 1 minute. On a success, a creature takes half the damage but isn't ",
+                  { effect: 'horn-deafened' },
+                  ". On a success, a creature takes half the damage but isn't ",
                   rules.deafened,
                   '.',
                 ],
@@ -13833,6 +14144,15 @@ export default createPublicationMonsters({
               "The song angel blows on its ram's horn, emitting a thunderous blast in a 30-foot cone that is audible 600 feet away. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take ",
               { roll: '10d6' },
               ' thunder damage instead.',
+            ],
+            effects: [
+              {
+                key: 'horn-deafened',
+                name: 'Deafened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -14232,9 +14552,10 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '12d8', type: rules.thunder }],
+
                 also: [
                   'Is ',
-                  rules.deafened,
+                  { effect: 'thunder-deafened' },
                   ". On a success, a target takes half the damage but isn't ",
                   rules.deafened,
                   '.',
@@ -14242,8 +14563,16 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
-            text: [
-              'The storm lord creates a peal of ear-splitting thunder. The deafness lasts until it is lifted by the lesser restoration spell or similar magic.',
+            text: ['The storm lord creates a peal of ear-splitting thunder. '],
+            effects: [
+              {
+                key: 'thunder-deafened',
+                name: 'Deafness',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['lifted by the lesser restoration spell or similar magic.'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -14339,9 +14668,20 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or become infected with the seeping death disease (see the ',
+              ' Constitution saving throw or become ',
+              { effect: 'seeping-death-infection' },
+              ' (see the ',
               { ability: 'seeping-death' },
               ' trait).',
+            ],
+            effects: [
+              {
+                key: 'seeping-death-infection',
+                name: 'Seeping death',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['Infected with the seeping death disease.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -14581,8 +14921,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.blinded,
-              ' until the end of its next turn.',
+              { effect: 'sulfur-slam-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sulfur-slam-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -15079,16 +15428,30 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 } },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.acid }],
+
                 also: [
-                  "Goes berserk. On a success, a creature takes half the damage and doesn't go berserk.",
+                  'Goes ',
+                  { effect: 'berserk' },
+                  ". On a success, a creature takes half the damage and doesn't go berserk.",
                 ],
               },
               onSuccess: 'half',
             },
             text: [
-              "If the tusked crimson ogre doesn't have all of its hp, it flexes and roars, spraying blood from its wounds. On each of its turns, a berserk creature must attack the nearest creature it can see, eschewing ranged or magical attacks in favor of melee attacks. If no creature is near enough to move to and attack, the berserk creature attacks an object, with preference for an object smaller than itself. Once a creature goes berserk, it continues to do so until it is ",
-              rules.unconscious,
-              ', regains all of its hp, or is cured through lesser restoration or similar magic.',
+              "If the tusked crimson ogre doesn't have all of its hp, it flexes and roars, spraying blood from its wounds. ",
+            ],
+            effects: [
+              {
+                key: 'berserk',
+                name: 'Berserk',
+                lands: { on: 'failed-save' },
+                text: [
+                  'On each of its turns, a berserk creature must attack the nearest creature it can see, eschewing ranged or magical attacks in favor of melee attacks. If no creature is near enough to move to and attack, the berserk creature attacks an object, with preference for an object smaller than itself. Once a creature goes berserk, it continues to do so until it is ',
+                  rules.unconscious,
+                  ', regains all of its hp, or is cured through lesser restoration or similar magic.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -15506,7 +15869,20 @@ export default createPublicationMonsters({
             text: [
               "As a bonus action, the vanara can use its tail to distract an opponent within 5 feet of it by pulling on an arm, tossing dirt in the target's face, or some other method of interfering. The target must succeed on a ",
               { dc: 'dex' },
-              " Dexterity saving throw or have disadvantage on all attacks against the vanara until the vanara's next turn.",
+              ' Dexterity saving throw or ',
+              { effect: 'distracted' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'distracted',
+                name: 'Distracted',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                text: [
+                  "Have disadvantage on all attacks against the vanara until the vanara's next turn.",
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -15570,17 +15946,27 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.thunder }],
+
                 also: [
                   'Is ',
-                  rules.deafened,
-                  " for 1 minute. On a success, the creature takes half the damage and isn't ",
+                  { effect: 'howl-deafened' },
+                  ". On a success, the creature takes half the damage and isn't ",
                   rules.deafened,
                   '.',
                 ],
               },
               onSuccess: 'half',
             },
-            text: ['The vanara releases a sonorous howl in a 15-foot cone.'],
+            text: ['The vanara releases a sonorous howl in a 15-foot cone. '],
+            effects: [
+              {
+                key: 'howl-deafened',
+                name: 'Deafened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -15861,10 +16247,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 15). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'lash-grappled' },
               '. The vines of Nemthyr has two thorny lashes, each of which can grapple only one target.',
+            ],
+            effects: [
+              {
+                key: 'lash-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -16943,13 +17337,9 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiSlime',
             text: [
-              'The yann-an-oed makes a bite attack against a Large or smaller creature it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has total cover against attacks and other effects outside the yann-an-oed, and it takes ',
-              { roll: '2d6' },
-              " acid damage at the start of each of the yann-an-oed's turns. A yannan-oed can have only one creature swallowed at a time. If the yann-an-oed takes 10 damage or more on a single turn from the swallowed creature, the yann-an-oed must succeed on a ",
+              'The yann-an-oed makes a bite attack against a Large or smaller creature it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. ',
+              { effect: 'swallowed' },
+              ' A yannan-oed can have only one creature swallowed at a time. If the yann-an-oed takes 10 damage or more on a single turn from the swallowed creature, the yann-an-oed must succeed on a ',
               { dc: 'con', printed: 11 },
               ' Constitution saving throw at the end of that turn or regurgitate the creature, which falls ',
               rules.prone,
@@ -16958,6 +17348,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 10 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'It has total cover against attacks and other effects outside the yann-an-oed, and it takes ',
+                  { roll: '2d6' },
+                  " acid damage at the start of each of the yann-an-oed's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -17158,10 +17562,28 @@ export default createPublicationMonsters({
               'The dragon emits a flash of dazzling light from its maw in a 30-foot cone. Each creature in that area must make a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.blinded,
+              { effect: 'flaring-blinded' },
               '. Undead within the area of effect must also make a ',
               { dc: 'con', save: 'wis' },
-              ' Wisdom saving throw or be turned for 1 minute. Undead of CR 1 or lower who fail the saving throw are instantly destroyed.',
+              ' Wisdom saving throw or be ',
+              { effect: 'flaring-turned' },
+              '. Undead of CR 1 or lower who fail the saving throw are instantly destroyed.',
+            ],
+            effects: [
+              {
+                key: 'flaring-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'flaring-turned',
+                name: 'Turned',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: ['Is turned.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],

@@ -12960,15 +12960,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 300 } },
               onFail: {
                 damage: [{ dice: '10d6', type: rules.psychic }],
-                also: [
-                  'The target has the ',
-                  rules.incapacitated,
-                  ' condition until the start of the sphinx’s next turn.',
-                ],
+
+                also: [{ effect: 'mind-rent' }],
               },
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'mind-rent',
+                name: 'Mind-rending roar',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'spellcasting',
@@ -13024,11 +13030,24 @@ export default createPublicationMonsters({
               text: [
                 'Constitution Saving Throw: ',
                 { dc: 'int' },
-                ', one creature the sphinx can see within 120 feet. Failure: The target gains 1 ',
-                rules.exhaustion,
-                ' level. While the target has any ',
-                rules.exhaustion,
-                ' levels, it appears 3d10 years older. Failure or Success: The sphinx can’t take this action again until the start of its next turn.',
+                ', one creature the sphinx can see within 120 feet. Failure: ',
+                { effect: 'weight-of-years' },
+                ' Failure or Success: The sphinx can’t take this action again until the start of its next turn.',
+              ],
+              effects: [
+                {
+                  key: 'weight-of-years',
+                  name: 'Weight of years',
+                  lands: { on: 'save', save: 'con', dc: 'int' },
+                  text: [
+                    'The target gains 1 ',
+                    rules.exhaustion,
+                    ' level. While the target has any ',
+                    rules.exhaustion,
+                    ' levels, it appears 3d10 years older.',
+                  ],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -13108,8 +13127,17 @@ export default createPublicationMonsters({
               'The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest): First Roar. Wisdom Saving Throw: ',
               { dc: 'wis' },
               ', each enemy in a 500-foot Emanation originating from the sphinx. Failure: The target has the ',
-              rules.frightened,
-              ' condition for 1 minute.',
+              { effect: 'first-roar' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'first-roar',
+                name: 'First Roar',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 3,
             recharge: 'Long rest',
@@ -13123,8 +13151,18 @@ export default createPublicationMonsters({
               'Wisdom Saving Throw: ',
               { dc: 'wis' },
               ', each enemy in a 500-foot Emanation originating from the sphinx. Failure: The target has the ',
-              rules.paralyzed,
-              ' condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              { effect: 'second-roar' },
+              '. After 1 minute, it succeeds automatically.',
+            ],
+            effects: [
+              {
+                key: 'second-roar',
+                name: 'Second Roar',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -13139,10 +13177,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 500 } },
               onFail: {
                 damage: [{ dice: '8d10', type: rules.thunder }],
-                also: ['The target has the ', rules.prone, ' condition.'],
+
+                also: [{ effect: 'thunder-prone' }],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'thunder-prone',
+                name: 'Knocked prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'spellcasting',
@@ -13190,11 +13238,24 @@ export default createPublicationMonsters({
               text: [
                 'Constitution Saving Throw: ',
                 { dc: 'wis', printed: 16 },
-                ', one creature the sphinx can see within 120 feet. Failure: The target gains 1 ',
-                rules.exhaustion,
-                ' level. While the target has any ',
-                rules.exhaustion,
-                ' levels, it appears 3d10 years older. Failure or Success: The sphinx can’t take this action again until the start of its next turn.',
+                ', one creature the sphinx can see within 120 feet. Failure: ',
+                { effect: 'weight-of-years' },
+                ' Failure or Success: The sphinx can’t take this action again until the start of its next turn.',
+              ],
+              effects: [
+                {
+                  key: 'weight-of-years',
+                  name: 'Weight of years',
+                  lands: { on: 'save', save: 'con', dc: 'wis', printed: 16 },
+                  text: [
+                    'The target gains 1 ',
+                    rules.exhaustion,
+                    ' level. While the target has any ',
+                    rules.exhaustion,
+                    ' levels, it appears 3d10 years older.',
+                  ],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -13786,12 +13847,15 @@ export default createPublicationMonsters({
               range: [500, 500],
               damage: [{ dice: '2d12', type: rules.lightning, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.blinded,
-              ' and ',
-              rules.deafened,
-              ' conditions until the start of the giant’s next turn.',
+            text: ['The target has the ', { effect: 'thunderbolt-stun' }, '.'],
+            effects: [
+              {
+                key: 'thunderbolt-stun',
+                name: 'Blinded and deafened',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded, rules.deafened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -14228,12 +14292,17 @@ export default createPublicationMonsters({
               reach: 15,
               damage: [{ dice: '4d12', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.grappled,
-              ' condition (escape DC 20). Until the grapple ends, the target has the ',
-              rules.restrained,
-              ' condition and can’t teleport.',
+            text: ['The target is ', { effect: 'swallow-grapple' }, '.'],
+            effects: [
+              {
+                key: 'swallow-grapple',
+                name: 'Grappled by the bite',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ['can’t teleport.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -14263,8 +14332,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Huge or smaller creature, it has the ',
-              rules.prone,
+              { effect: 'tail-prone' },
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Knocked prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -14279,18 +14357,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 150 } },
               onFail: {
                 damage: [{ dice: '12d12', type: rules.thunder }],
-                also: [
-                  'The target has the ',
-                  rules.deafened,
-                  ' and ',
-                  rules.frightened,
-                  ' conditions until the end of its next turn.',
-                ],
+
+                also: ['The target has the ', { effect: 'bellow-daze' }, '.'],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'bellow-daze',
+                name: 'Deafened and frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened, rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'swallow',
@@ -14304,13 +14386,9 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the tarrasque (it can have up to six creatures swallowed at a time). Failure: The target is swallowed, and the ',
               rules.grappled,
-              ' condition ends. A swallowed creature has the ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' conditions and can’t teleport, it has Total Cover against attacks and other effects outside the tarrasque, and it takes ',
-              { roll: '16d6' },
-              ' Acid damage at the start of each of the tarrasque’s turns. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a ',
+              ' condition ends. A swallowed creature has ',
+              { effect: 'swallowed' },
+              '. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a ',
               { dc: 'con', printed: 20 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the tarrasque and has the ',
               rules.prone,
@@ -14319,6 +14397,20 @@ export default createPublicationMonsters({
               ' condition and can escape from the corpse using 20 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'can’t teleport, it has Total Cover against attacks and other effects outside the tarrasque, and it takes ',
+                  { roll: '16d6' },
+                  ' Acid damage at the start of each of the tarrasque’s turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -14342,9 +14434,18 @@ export default createPublicationMonsters({
               name: 'World-Shaking Movement',
               icon: 'gi/GiMagicSwirl',
               text: [
-                'The tarrasque moves up to its Speed. At the end of this movement, the tarrasque creates an instantaneous shock wave in a 60-foot Emanation originating from itself. Creatures in that area lose Concentration and, if Medium or smaller, have the ',
-                rules.prone,
-                ' condition. The tarrasque can’t take this action again until the start of its next turn.',
+                'The tarrasque moves up to its Speed. At the end of this movement, the tarrasque creates an instantaneous shock wave in a 60-foot Emanation originating from itself. Creatures in that area lose Concentration and, if Medium or smaller, have ',
+                { effect: 'shockwave-prone' },
+                '. The tarrasque can’t take this action again until the start of its next turn.',
+              ],
+              effects: [
+                {
+                  key: 'shockwave-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'use' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],

@@ -803,10 +803,19 @@ export default createPublicationMonsters({
             name: 'Upper Plane',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'The target sheds bright light within 5 ft. until the end of its next turn and gains no benefit from ',
-              rules.invisible,
-              ' in that time.',
+            text: [{ effect: 'sunfly-glow' }],
+            effects: [
+              {
+                key: 'sunfly-glow',
+                name: 'Shedding light',
+                lands: { on: 'use' },
+                text: [
+                  'The target sheds bright light within 5 ft. until the end of its next turn and gains no benefit from ',
+                  rules.invisible,
+                  ' in that time.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {

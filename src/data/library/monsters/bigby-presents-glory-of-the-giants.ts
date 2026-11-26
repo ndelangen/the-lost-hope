@@ -204,8 +204,17 @@ export default createPublicationMonsters({
               'The target must pass a ',
               { dc: 'con', save: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'rock-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'rock-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -220,7 +229,8 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 10 },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.force }],
-                also: ['Becomes ', rules.restrained, ' as it turns to stone.'],
+
+                also: ['Becomes ', { effect: 'petrifying-restrained' }, ' as it turns to stone.'],
               },
             },
             text: [
@@ -229,6 +239,23 @@ export default createPublicationMonsters({
               ' with ',
               rules.petrified,
               '.',
+            ],
+            effects: [
+              {
+                key: 'petrifying-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'petrifying-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1581,10 +1608,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The gigant releases magical dust from its wings in a 30-ft. cube. Either result leaves the creature ',
-              rules.poisoned,
-              ' for 1 hour. It cannot regain hit points while ',
-              rules.poisoned,
-              ' this way.',
+              { effect: 'scale-dust-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'scale-dust-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned],
+                text: ['It cannot regain hit points while ', rules.poisoned, ' this way.'],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1601,14 +1636,24 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.thunder }],
+
                 also: [
                   'Is ',
-                  rules.incapacitated,
-                  ' until the end of its next turn. The gigant can then fly up to half its flying speed.',
+                  { effect: 'drone-incapacitated' },
+                  '. The gigant can then fly up to half its flying speed.',
                 ],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'drone-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
         ],
       },
@@ -1857,14 +1902,33 @@ export default createPublicationMonsters({
               'A Huge or smaller creature hit must succeed on a ',
               { dc: 'con', save: 'dex' },
               ' Dexterity save to avoid falling ',
-              rules.prone,
+              { effect: 'stomp-prone' },
               '. The creature is ',
-              rules.restrained,
-              ' until the colossus uses Stomp again or moves. The ',
-              rules.restrained,
-              ' creature or another creature within 5 ft. of it can use an action to attempt a DC 22 Strength check. On a success, the ',
-              rules.restrained,
-              ' creature moves to an unoccupied space of its choice within 5 ft. of the colossus and the restraint ends.',
+              { effect: 'stomp-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stomp-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'stomp-restrained',
+                name: 'Restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                text: [
+                  'The ',
+                  rules.restrained,
+                  ' creature or another creature within 5 ft. of it can use an action to attempt a DC 22 Strength check. On a success, the ',
+                  rules.restrained,
+                  ' creature moves to an unoccupied space of its choice within 5 ft. of the colossus and the restraint ends.',
+                ],
+                lasts: { kind: 'until', text: ['the colossus uses Stomp again or moves'] },
+              },
             ],
           },
           {

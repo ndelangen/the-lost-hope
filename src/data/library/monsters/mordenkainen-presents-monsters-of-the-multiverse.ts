@@ -2035,11 +2035,31 @@ export default createPublicationMonsters({
             text: [
               'A creature hit must make a ',
               { dc: 'dex', save: 'con' },
-              ' Constitution save. On a failure, roll 1d6 for the effect below. 1–2, Confusion. On its next turn, the target must use its action to make one weapon attack against a random creature it can see within 30 ft. of itself. It uses the weapon it is holding and moves into attack range first if necessary. If it holds no weapon, it makes an unarmed strike. If it sees no creature within 30 ft., it takes the Dash action and moves toward the nearest creature. 3–4, Paralysis. The target is ',
-              rules.paralyzed,
-              ' until the end of its next turn. 5–6, Poison. The target takes ',
+              ' Constitution save. On a failure, roll 1d6 for the effect below. 1–2, ',
+              { effect: 'cobra-confusion' },
+              ' 3–4, ',
+              { effect: 'cobra-paralysis' },
+              ' 5–6, Poison. The target takes ',
               { roll: '3d8' },
               ' poison damage.',
+            ],
+            effects: [
+              {
+                key: 'cobra-confusion',
+                name: 'Confusion',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                text: [
+                  'On its next turn, the target must use its action to make one weapon attack against a random creature it can see within 30 ft. of itself. It uses the weapon it is holding and moves into attack range first if necessary. If it holds no weapon, it makes an unarmed strike. If it sees no creature within 30 ft., it takes the Dash action and moves toward the nearest creature.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+              {
+                key: 'cobra-paralysis',
+                name: 'Paralysis',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -3097,8 +3117,19 @@ export default createPublicationMonsters({
               ' psychic. A ',
               { dc: 'wis' },
               ' Wisdom save prevents being ',
-              rules.frightened,
-              ' of her for 1 minute. Repeat the save at each turn end to recover.',
+              { effect: 'staff-frightened' },
+              ' of her. ',
+              'Repeat the save at each turn end to recover.',
+            ],
+            effects: [
+              {
+                key: 'staff-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3175,10 +3206,19 @@ export default createPublicationMonsters({
             key: 'perceive-interlopers',
             name: 'Perceive Interlopers',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'Until initiative 20 next round, hostile creatures in the lair cannot hide from her and get no benefit from being ',
-              rules.invisible,
-              ' against her.',
+            text: [{ effect: 'interlopers-exposed' }],
+            effects: [
+              {
+                key: 'interlopers-exposed',
+                name: 'Exposed',
+                lands: { on: 'use' },
+                text: [
+                  'hostile creatures in the lair cannot hide from her and get no benefit from being ',
+                  rules.invisible,
+                  ' against her.',
+                ],
+                lasts: { kind: 'until', text: ['initiative 20 next round'] },
+              },
             ],
           },
           {
@@ -4085,13 +4125,28 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5 },
               onFail: {
                 damage: [{ dice: '8d10', type: rules.psychic }],
-                also: ['Is memory drained.'],
+
+                also: [{ effect: 'memory-drained' }],
               },
             },
             text: [
-              'A short or long rest, Greater Restoration, or Heal ends the drain. While drained, the target subtracts a d4 roll from each ability check and attack roll. Each further drain increases the die by one size through d6, d8, d10, d12, then d20. When the die reaches d20, the target falls ',
-              rules.unconscious,
-              ' for 1 hour, then the effect ends. The oblex learns all the drained creature’s languages and gains all its skill proficiencies.',
+              'The oblex learns all the drained creature’s languages and gains all its skill proficiencies.',
+            ],
+            effects: [
+              {
+                key: 'memory-drained',
+                name: 'Memory drained',
+                lands: { on: 'failed-save' },
+                text: [
+                  'While drained, the target subtracts a d4 roll from each ability check and attack roll. Each further drain increases the die by one size through d6, d8, d10, d12, then d20. When the die reaches d20, the target falls ',
+                  rules.unconscious,
+                  ' for 1 hour, then the effect ends.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: ['A short or long rest, Greater Restoration, or Heal ends the drain.'],
+                },
+              },
             ],
           },
           {
@@ -7570,7 +7625,18 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: [
-              'Choose one visible creature within 30 ft., excluding Constructs and Undead. The reduction lasts until a short or long rest. The target dies if its maximum reaches 0. A Humanoid killed this way immediately rises as a ghoul controlled by the nabassu.',
+              'Choose one visible creature within 30 ft., excluding Constructs and Undead. ',
+              { effect: 'maximum-reduced' },
+              ' A Humanoid killed this way immediately rises as a ghoul controlled by the nabassu.',
+            ],
+            effects: [
+              {
+                key: 'maximum-reduced',
+                name: 'Hit Point maximum reduction',
+                lands: { on: 'failed-save' },
+                text: ['The target dies if its maximum reaches 0.'],
+                lasts: { kind: 'until', text: ['a short or long rest'] },
+              },
             ],
           },
         ],
@@ -10905,7 +10971,18 @@ export default createPublicationMonsters({
                 rules.charmed,
                 '. On a failed ',
                 { dc: 'cha' },
-                ' Charisma save, he decides how it acts during its next turn.',
+                ' Charisma save, ',
+                { effect: 'guidance-controlled' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'guidance-controlled',
+                  name: 'Controlled',
+                  lands: { on: 'save', save: 'cha', dc: 'cha' },
+                  text: ['he decides how it acts during its next turn'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -11459,10 +11536,15 @@ export default createPublicationMonsters({
                 { dice: '1d8', type: rules.poison },
               ],
             },
-            text: [
-              'A creature hit is ',
-              rules.poisoned,
-              ' until the start of the troll’s next turn.',
+            text: ['A creature hit is ', { effect: 'bite-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'bite-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -11493,10 +11575,10 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cube, size: 15 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.poison }],
+
                 also: [
-                  'Is ',
-                  rules.poisoned,
-                  ' for 1 minute. On a success, it takes half damage and avoids the condition.',
+                  { effect: 'spray-poisoned' },
+                  '. On a success, it takes half damage and avoids the condition.',
                 ],
               },
               onSuccess: 'half',
@@ -11504,9 +11586,17 @@ export default createPublicationMonsters({
             text: [
               'The troll cuts itself to release poison in a 15-ft. cube, taking ',
               { roll: '2d6' },
-              ' slashing damage that cannot be reduced. A ',
-              rules.poisoned,
-              ' creature repeats the save at the end of each of its turns, ending the effect on a success.',
+              ' slashing damage that cannot be reduced.',
+            ],
+            effects: [
+              {
+                key: 'spray-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',

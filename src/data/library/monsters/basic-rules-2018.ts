@@ -96,8 +96,18 @@ export default createPublicationMonsters({
               'Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+              { effect: 'frightful-presence-frightened' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2323,8 +2333,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bite-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
