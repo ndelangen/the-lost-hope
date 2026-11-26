@@ -292,8 +292,6 @@ def finalize(block,scores,prof,issues):
     if 'save' in ab and 'also' in ab['save']['onFail']:
       ab['save']['onFail']['also']=[ab['save']['onFail']['also'][0]]
     if not text: continue
-    if re.search(r'\d+ \(\d+d\d+',text) or re.search(r'[+]\d+ to hit|attack roll:? [+]',text,re.I):
-      issues.append(f"{ab['name']}: printed numbers left in prose")
     cm=re.search(r'(Intelligence|Wisdom|Charisma)\b[^.]{0,40}spellcasting ability|spellcasting ability (?:is )?(Intelligence|Wisdom|Charisma)|using (Intelligence|Wisdom|Charisma)\b',text)
     caster=ANAME[(cm.group(1) or cm.group(2) or cm.group(3)).lower()] if cm else CTX['caster']
     toks=[]; pos=0
@@ -338,7 +336,32 @@ def finalize(block,scores,prof,issues):
       elif t!='': merged.append(t)
     if 'spellcasting' in ab['name'].lower() or re.search(r'\bcasts? ',' '.join(x for x in merged if isinstance(x,str))):
       merged=[y for x in merged for y in (spell_tokens(x) if isinstance(x,str) else [x])]
+    # Rolls in the prose ("6 (1d12) acid damage") become roll tokens the block works out.
+    merged=[y for x in merged for y in (roll_tokens(x,scores) if isinstance(x,str) else [x])]
+    left=' '.join(x for x in merged if isinstance(x,str))
+    if re.search(r'\d+ \(\d+d\d+',left) or re.search(r'[+−-]\d+ to hit|attack(?: roll)?:? [+−-]\d',left,re.I):
+      issues.append(f"{ab['name']}: printed numbers left in prose")
     ab['text']=merged
+ROLL=re.compile(r'(\d+) \((\d+d(?:4|6|8|10|12|20))(?: ?([+−-]) ?(\d+))?\)')
+def roll_tokens(text,scores):
+  '''"6 (1d12)" and "12 (2d6 + 5)" as roll tokens: the dice, and the ability whose modifier the
+  bonus is. The book's average is kept only where it breaks the formula. A bonus no modifier
+  explains stays in prose, and the printing is held.'''
+  out=[]; pos=0
+  for m in ROLL.finditer(text):
+    sign=-1 if m.group(3) in ('-','−') else 1
+    bonus=sign*int(m.group(4)) if m.group(4) else 0
+    tok={'roll':m.group(2)}
+    if bonus:
+      hit=next((a for a in ['str','dex','con','wis','int','cha'] if mod(scores[a])==bonus),None)
+      if not hit: continue
+      tok['mod']=hit
+    # A roll never comes to less than 1, as printed stat blocks show it.
+    if max(1,avg(m.group(2),bonus))!=int(m.group(1)): tok['printed']=int(m.group(1))
+    if m.start()>pos: out.append(text[pos:m.start()])
+    out.append(tok); pos=m.end()
+  if pos<len(text): out.append(text[pos:])
+  return out
 def convert(r,p):
   issues=[]
   CTX['edition']=p.get('edition') or ''

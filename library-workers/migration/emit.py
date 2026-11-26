@@ -1,7 +1,7 @@
 """Emit typed library TS modules from parse5e output for chosen publications."""
 import json,re,os,sys,collections
 H=os.path.dirname(__file__)
-REPO='/Users/me/Projects/DND/TheLostHope'
+REPO=os.path.abspath(os.path.join(os.path.dirname(__file__),'..','..'))
 PUBS={
  'SRD 5.1':('srd_5_1','System Reference Document 5.1','Wizards of the Coast',2016,'5e-2014','D&D - 5th Edition (2014)/Rules/System Reference Document 5.1 (CC BY).pdf'),
  'Basic Rules (2018)':('basic_rules_2018','Basic Rules','Wizards of the Coast',2018,'5e-2014','D&D - 5th Edition (2014)/Rules/Basic Rules (2018).pdf'),
@@ -93,6 +93,7 @@ def tokens(parts):
     elif 'toHit' in t: out.append('{ toHit: '+js(t['toHit'])+' }')
     elif 'dc' in t: out.append('{ dc: '+js(t['dc'])+(', save: '+js(t['save']) if 'save' in t else '')+(', printed: '+str(t['printed']) if 'printed' in t else '')+' }')
     elif 'ability' in t: out.append('{ ability: '+js(t['ability'])+' }')
+    elif 'roll' in t: out.append('{ roll: '+js(t['roll'])+(', mod: '+js(t['mod']) if 'mod' in t else '')+(', printed: '+str(t['printed']) if 'printed' in t else '')+' }')
     else: out.append('rules.'+t['rule'])
   return '['+', '.join(out)+']'
 def ability_ts(ab,keys,ind):

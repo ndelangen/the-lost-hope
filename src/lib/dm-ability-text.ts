@@ -118,6 +118,23 @@ function segmentFor(
         }
   }
 
+  if ('roll' in token) {
+    const bonus = token.mod ? block.modifier[token.mod] : 0
+    // A roll never comes to less than 1.
+    const formula = Math.max(1, averageRoll(token.roll) + bonus)
+    const average = token.printed ?? formula
+    const dice = bonus ? `${token.roll} ${bonus < 0 ? '−' : '+'} ${Math.abs(bonus)}` : token.roll
+    return {
+      kind: 'number',
+      value: `${average} (${dice})`,
+      note: `Roll ${dice}, or take ${average}.${
+        token.printed !== undefined && token.printed !== formula
+          ? ` As printed; the formula gives ${formula}.`
+          : ''
+      }`,
+    }
+  }
+
   if ('toHit' in token) {
     return {
       kind: 'number',
@@ -183,6 +200,12 @@ const plainTokens = (tokens: readonly AbilityTextToken[], block: DerivedStatBloc
       block,
     ),
   ).trim()
+
+/** The average of a roll such as `2d6`, rounded down as stat blocks print it. */
+function averageRoll(roll: string) {
+  const [count, faces] = roll.split('d').map(Number)
+  return Math.floor((count! * (faces! + 1)) / 2)
+}
 
 const countWord = (count: number) =>
   (['one', 'two', 'three', 'four', 'five'] as const)[count - 1] ?? String(count)

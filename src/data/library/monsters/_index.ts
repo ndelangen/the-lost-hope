@@ -53,6 +53,7 @@ import flee_mortals from './flee-mortals.ts'
 import ghosts_of_saltmarsh from './ghosts-of-saltmarsh.ts'
 import guildmasters_guide_to_ravnica from './guildmasters-guide-to-ravnica.ts'
 import hoard_of_the_dragon_queen_online_supplement from './hoard-of-the-dragon-queen-online-supplement.ts'
+import hoard_of_the_dragon_queen from './hoard-of-the-dragon-queen.ts'
 import humblewood_campaign_setting from './humblewood-campaign-setting.ts'
 import icewind_dale_rime_of_the_frostmaiden from './icewind-dale-rime-of-the-frostmaiden.ts'
 import journeys_through_the_radiant_citadel from './journeys-through-the-radiant-citadel.ts'
@@ -63,6 +64,7 @@ import mordenkainen_s_fiendish_folio_volume_1 from './mordenkainen-s-fiendish-fo
 import mordenkainen_s_tome_of_foes from './mordenkainen-s-tome-of-foes.ts'
 import morte_s_planar_parade from './morte-s-planar-parade.ts'
 import mythic_odysseys_of_theros from './mythic-odysseys-of-theros.ts'
+import nerds_restoring_harmony_a_web_of_lies from './nerds-restoring-harmony-a-web-of-lies.ts'
 import out_of_the_abyss_d_d_encounters from './out-of-the-abyss-d-d-encounters.ts'
 import out_of_the_abyss from './out-of-the-abyss.ts'
 import plane_shift_amonkhet from './plane-shift-amonkhet.ts'
@@ -73,6 +75,8 @@ import plane_shift_zendikar from './plane-shift-zendikar.ts'
 import planescape_adventures_in_the_multiverse from './planescape-adventures-in-the-multiverse.ts'
 import princes_of_the_apocalypse_d_d_encounters from './princes-of-the-apocalypse-d-d-encounters.ts'
 import princes_of_the_apocalypse_online_supplement from './princes-of-the-apocalypse-online-supplement.ts'
+import princes_of_the_apocalypse from './princes-of-the-apocalypse.ts'
+import ravenloft_the_horrors_within from './ravenloft-the-horrors-within.ts'
 import rise_of_tiamat_online_supplement from './rise-of-tiamat-online-supplement.ts'
 import rise_of_tiamat from './rise-of-tiamat.ts'
 import spelljammer_adventures_in_space from './spelljammer-adventures-in-space.ts'
@@ -87,7 +91,9 @@ import tome_of_beasts_3 from './tome-of-beasts-3.ts'
 import tome_of_beasts_2023 from './tome-of-beasts-2023.ts'
 import tome_of_beasts from './tome-of-beasts.ts'
 import turn_of_fortune_s_wheel from './turn-of-fortune-s-wheel.ts'
+import van_richten_s_guide_to_ravenloft from './van-richten-s-guide-to-ravenloft.ts'
 import volo_s_guide_to_monsters from './volo-s-guide-to-monsters.ts'
+import waterdeep_dungeon_of_the_mad_mage from './waterdeep-dungeon-of-the-mad-mage.ts'
 import where_evil_lives from './where-evil-lives.ts'
 
 /** Every publication whose monsters the library holds as typed data. */
@@ -142,10 +148,11 @@ export default [
   ddex3_15_szith_morcane_unbound,
   ddex3_16_assault_on_maerimydra,
   fizban_s_treasury_of_dragons,
-  flee_mortals_public_preview,
   flee_mortals,
+  flee_mortals_public_preview,
   ghosts_of_saltmarsh,
   guildmasters_guide_to_ravnica,
+  hoard_of_the_dragon_queen,
   hoard_of_the_dragon_queen_online_supplement,
   humblewood_campaign_setting,
   icewind_dale_rime_of_the_frostmaiden,
@@ -157,18 +164,21 @@ export default [
   mordenkainen_s_tome_of_foes,
   morte_s_planar_parade,
   mythic_odysseys_of_theros,
-  out_of_the_abyss_d_d_encounters,
+  nerds_restoring_harmony_a_web_of_lies,
   out_of_the_abyss,
+  out_of_the_abyss_d_d_encounters,
   plane_shift_amonkhet,
   plane_shift_dominaria,
   plane_shift_ixalan,
   plane_shift_kaladesh,
   plane_shift_zendikar,
   planescape_adventures_in_the_multiverse,
+  princes_of_the_apocalypse,
   princes_of_the_apocalypse_d_d_encounters,
   princes_of_the_apocalypse_online_supplement,
-  rise_of_tiamat_online_supplement,
+  ravenloft_the_horrors_within,
   rise_of_tiamat,
+  rise_of_tiamat_online_supplement,
   spelljammer_adventures_in_space,
   srd_5_1,
   srd_5_2_1,
@@ -176,11 +186,13 @@ export default [
   tal_dorei_campaign_setting_reborn,
   the_wild_beyond_the_witchlight,
   tomb_of_annihilation,
+  tome_of_beasts,
   tome_of_beasts_2,
   tome_of_beasts_2023,
   tome_of_beasts_3,
-  tome_of_beasts,
   turn_of_fortune_s_wheel,
+  van_richten_s_guide_to_ravenloft,
   volo_s_guide_to_monsters,
+  waterdeep_dungeon_of_the_mad_mage,
   where_evil_lives,
 ]

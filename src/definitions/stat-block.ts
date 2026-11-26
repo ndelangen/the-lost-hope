@@ -55,6 +55,20 @@ export const AbilityTextToken = z.union([
       .describe('The DC as the book prints it, kept only where it breaks the formula'),
   }),
   z.strictObject({ mod: AbilityId }),
+  z
+    .strictObject({
+      roll: z
+        .string()
+        .regex(/^\d+d(4|6|8|10|12|20)$/)
+        .describe('Dice, e.g. `1d12`; shown with its average: "6 (1d12)"'),
+      mod: AbilityId.optional().describe('Adds this ability modifier, e.g. "12 (2d6 + 5)"'),
+      printed: z
+        .number()
+        .int()
+        .optional()
+        .describe('The average as the book prints it, kept only where it breaks the formula'),
+    })
+    .describe('A roll in the rules text, e.g. damage every 10 minutes or hit points regained'),
   z.strictObject({
     toHit: AbilityId.describe(
       'Attack bonus with this ability: modifier + proficiency, e.g. spell attacks',

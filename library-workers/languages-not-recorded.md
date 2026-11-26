@@ -44,14 +44,18 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Mordenkainen Presents: Monsters of the Multiverse: Girallon
 - Mordenkainen Presents: Monsters of the Multiverse: Neogi Hatchling
 - Mordenkainen Presents: Monsters of the Multiverse: Oblex Spawn
+- Mordenkainen Presents: Monsters of the Multiverse: Phoenix
+- Mythic Odysseys of Theros: Polukranos
 - Plane Shift: Zendikar: Drake (Large)
 - Planescape: Adventures in the Multiverse: Pixie
+- Spelljammer: Adventures in Space: Brown Scavver
 - Spelljammer: Adventures in Space: Gray Scavver
 - Tal’Dorei Campaign Setting Reborn: Ashari Stoneguard
 - Tal’Dorei Campaign Setting Reborn: Wraithroot Tree
 - The Wild Beyond the Witchlight: Gloam
 - The Wild Beyond the Witchlight: Pixie
 - Tomb of Annihilation: Mantrap
+- Tomb of Annihilation: Su-monster
 - Tomb of Annihilation: Tyrannosaurus Zombie
 - Volo's Guide to Monsters: Cave Fisher
 - Volo's Guide to Monsters: Hadrosaurus

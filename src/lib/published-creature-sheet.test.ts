@@ -11,9 +11,9 @@ import { loadAllLibraryDetails } from './published-library-data'
 
 await loadAllLibraryDetails()
 
-test('keeps reviewed Aboleth action icons with the matching SRD printing', () => {
-  const legacy = getLibraryEntry('monsters', 'aboleth', true, 'srd-5-1')!
-  const revised = getLibraryEntry('monsters', 'aboleth', true, 'srd-5-2-1')!
+test('keeps reviewed Aboleth action icons with the matching Monster Manual printing', () => {
+  const legacy = getLibraryEntry('monsters', 'aboleth', true, 'printing-d4d72e21bff182fcabfdacb7')!
+  const revised = getLibraryEntry('monsters', 'aboleth', true, 'printing-5ff2dfa174c6eb4a41b25648')!
   const actions = (entry: typeof legacy) =>
     entry.sections
       .find(({ title }) => title === 'Actions')!
@@ -23,7 +23,7 @@ test('keeps reviewed Aboleth action icons with the matching SRD printing', () =>
     'Multiattack.',
     'Tentacle.',
     'Tail.',
-    'Enslave (3/Day).',
+    'Enslave (3/day).',
   ])
   expect(actions(legacy)[1]?.presentation).toEqual({
     icon: 'gi/GiTentacleStrike',
@@ -33,14 +33,14 @@ test('keeps reviewed Aboleth action icons with the matching SRD printing', () =>
     'Multiattack.',
     'Tentacle.',
     'Consume Memories.',
-    'Dominate Mind (2/Day).',
+    'Dominate Mind (2/day).',
   ])
   const traits = revised.sections.find(({ title }) => title === 'Traits')!
   const cloud = traits.lines
     .flatMap((line) => creatureRuleParagraphs(line, revised.abilityDisplay))
     .find(({ title }) => title === 'Mucus Cloud.')
   expect(cloud?.presentation).toEqual({ icon: 'gi/GiSmokeBomb', kind: 'save' })
-  expect(cloud?.text).toContain('Constitution Saving Throw: DC 14')
+  expect(cloud?.text).toContain('DC 14 Constitution save')
   expect(getLibraryEntry('monsters', 'aboleth', false)?.abilityDisplay).toBeUndefined()
 })
 
@@ -61,7 +61,7 @@ test('separates action introductions from named options', () => {
 })
 
 test('splits legacy Aboleth statistics into the original sheet sections', () => {
-  const entry = getLibraryEntry('monsters', 'aboleth', true, 'srd-5-1')!
+  const entry = getLibraryEntry('monsters', 'aboleth', true, 'printing-d4d72e21bff182fcabfdacb7')!
   const sheet = publishedCreatureSheet(entry.sections)
   expect(sheet.savingThrows.map(({ name, modifier }) => [name, modifier])).toEqual([
     ['Constitution', 6],

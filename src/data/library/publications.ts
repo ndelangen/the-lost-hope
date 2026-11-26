@@ -317,6 +317,12 @@ export default createPublications({
     name: 'Guildmasters’ Guide to Ravnica',
     ruleset: '5e-2014',
   },
+  hoard_of_the_dragon_queen: {
+    name: 'Hoard of the Dragon Queen',
+    publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/Hoard of the Dragon Queen.pdf',
+  },
   hoard_of_the_dragon_queen_online_supplement: {
     name: 'Hoard of the Dragon Queen - Online Supplement',
     ruleset: '5e-2014',
@@ -369,6 +375,11 @@ export default createPublications({
     name: 'Mythic Odysseys of Theros',
     ruleset: '5e-2014',
   },
+  nerds_restoring_harmony_a_web_of_lies: {
+    name: 'NERDS Restoring Harmony: A Web of Lies',
+    publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
+  },
   out_of_the_abyss: {
     name: 'Out of the Abyss',
     publisher: 'Wizards of the Coast',
@@ -415,6 +426,12 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: "D&D - 5th Edition (2014)/Rules/Player's Handbook.pdf",
   },
+  princes_of_the_apocalypse: {
+    name: 'Princes of the Apocalypse',
+    publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/Princes of the Apocalypse.pdf',
+  },
   princes_of_the_apocalypse_d_d_encounters: {
     name: 'Princes of the Apocalypse - D&D Encounters',
     ruleset: '5e-2014',
@@ -424,6 +441,11 @@ export default createPublications({
     name: 'Princes of the Apocalypse - Online Supplement',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Reference/Princes of the Apocalypse - Online Supplement.pdf',
+  },
+  ravenloft_the_horrors_within: {
+    name: 'Ravenloft: The Horrors Within',
+    publisher: 'Wizards of the Coast',
+    ruleset: '5e-2024',
   },
   rise_of_tiamat: {
     name: 'Rise of Tiamat',
@@ -475,6 +497,12 @@ export default createPublications({
     name: "Storm King's Thunder",
     ruleset: '5e-2014',
     pdf: "D&D - 5th Edition (2014)/Adventures/Storm King's Thunder.pdf",
+  },
+  stranger_things_welcome_to_the_hellfire_club: {
+    name: 'Stranger Things: Welcome to the Hellfire Club',
+    publisher: 'Wizards of the Coast',
+    year: 2025,
+    ruleset: '5e-2024',
   },
   tal_dorei_campaign_setting_reborn: {
     name: 'Tal’Dorei Campaign Setting Reborn',
@@ -541,6 +569,11 @@ export default createPublications({
     name: "Turn of Fortune's Wheel",
     ruleset: '5e-2014',
   },
+  van_richten_s_guide_to_ravenloft: {
+    name: 'Van Richten’s Guide to Ravenloft',
+    publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
+  },
   vault_of_magic: {
     name: 'Vault of Magic',
     publisher: 'Kobold Press',
@@ -562,6 +595,10 @@ export default createPublications({
     ruleset: '5e-2014',
     license: 'ogl-1.0a',
     notice: 'Warlock. © 2017 Open Design LLC; Authors: Wolfgang Baur and others.',
+  },
+  waterdeep_dungeon_of_the_mad_mage: {
+    name: 'Waterdeep: Dungeon of the Mad Mage',
+    ruleset: '5e-2014',
   },
   where_evil_lives: {
     name: 'Where Evil Lives',

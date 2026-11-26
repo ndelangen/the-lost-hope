@@ -114,7 +114,8 @@ function check(
     const kept = text.some((candidate) => same(candidate, token))
     const inEffect =
       ('ref' in token && taken.includes(`"key":"${String(token.key)}"`)) ||
-      ('dc' in token && taken.includes(`"dc":"${String(token.dc)}"`))
+      ('dc' in token && taken.includes(`"dc":"${String(token.dc)}"`)) ||
+      ('roll' in token && taken.includes(JSON.stringify(token)))
     if (!kept && !inEffect) problems.push(`lost ${JSON.stringify(token)} from the text`)
   }
   const oldPlain = normalize(old.text.filter((token) => typeof token === 'string').join(' '))

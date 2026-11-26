@@ -369,6 +369,78 @@ export default createPublicationMonsters({
         ],
       },
     },
+    serpopard: {
+      name: 'Serpopard',
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['Amonkhet', 'Luxa River', 'Hekma interior', 'Desert oasis', 'Riverside trees'],
+      appearance: [
+        [
+          'A venomous feline with a long, flexible serpentine body and a sensitive tongue. The credited illustration shows a sinuous neck and a russet and dark-banded coat.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Pounce refers to a Claw attack, but the printing supplies only Bite. Use Bite for the runnable printed actions. Resolve Pounce only if the table separately supplies its missing Claw prerequisite. The text describes perching in trees, and the stat block lists only a walking speed.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '3',
+        ac: 12,
+        hitDice: '7d10',
+        speed: { walk: 40 },
+        scores: { str: 18, dex: 14, con: 15, int: 3, wis: 12, cha: 8 },
+        skills: { perception: 'proficient', stealth: 'expert' },
+        abilities: [
+          {
+            key: 'keen-smell',
+            name: 'Keen Smell',
+            timing: 'trait',
+            icon: 'gi/GiNoseSide',
+            text: ['Advantage on Wisdom (Perception) checks that rely on smell.'],
+          },
+          {
+            key: 'pounce',
+            name: 'Pounce',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'After moving at least 20 ft. straight toward a creature and landing a claw hit on it in the same turn, the creature makes a ',
+              { dc: 'str' },
+              ' Strength save. On a failure, it falls ',
+              rules.prone,
+              '. The trait then permits a bonus-action ',
+              { ability: 'bite' },
+              ' against the ',
+              rules.prone,
+              ' target.',
+            ],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
+            },
+            text: [
+              'The target makes a ',
+              { dc: 'str', save: 'con' },
+              ' Constitution save, taking ',
+              { roll: '3d6' },
+              ' poison on a failure or half that poison damage on a success.',
+            ],
+          },
+        ],
+      },
+    },
     small_drake: {
       name: 'Small Drake',
       page: 80,

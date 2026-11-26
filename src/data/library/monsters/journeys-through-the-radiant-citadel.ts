@@ -7,6 +7,65 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.journeys_through_the_radiant_citadel,
   monsters: {
+    koi_prawn: {
+      name: 'Koi Prawn',
+      page: 25,
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['underwater'],
+      appearance: [
+        [
+          'An eight-foot jagged prawn with a segmented violet shell, cyan bands, long blue-violet antennae, and a spiny pointed rostrum.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1/2',
+        ac: 13,
+        armor: 'natural armor',
+        hitDice: '3d10',
+        speed: { walk: 0, swim: 40 },
+        scores: { str: 12, dex: 15, con: 11, int: 2, wis: 12, cha: 5 },
+        abilities: [
+          {
+            key: 'charge',
+            name: 'Charge',
+            timing: 'trait',
+            icon: 'gi/GiBull',
+            text: [
+              'Moving at least 20 ft. straight toward a target and hitting it with Ram on the same turn adds ',
+              { roll: '2d6' },
+              ' bludgeoning damage. A creature hit this way makes a ',
+              { dc: 'str' },
+              ' Strength save or falls ',
+              rules.prone,
+              '.',
+            ],
+          },
+          {
+            key: 'water-breathing',
+            name: 'Water Breathing',
+            timing: 'trait',
+            icon: 'gi/GiDragonBreath',
+            text: ['The prawn breathes only underwater.'],
+          },
+          {
+            key: 'ram',
+            name: 'Ram',
+            timing: 'action',
+            icon: 'gi/GiBull',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     rooster: {
       name: 'Rooster',
       page: 206,

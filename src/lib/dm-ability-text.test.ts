@@ -128,3 +128,26 @@ describe('ability text', () => {
     expect(formatFeet(25)).toBe('25 ft.')
   })
 })
+
+describe('rolls in ability text', () => {
+  const numbers = (token: AbilityTextToken) =>
+    abilityTextSegments([token], wolfie).map((segment) =>
+      segment.kind === 'number' ? segment.value : segment.kind,
+    )
+
+  it('shows the average beside the dice, with the modifier added', () => {
+    expect(numbers({ roll: '1d12' })).toEqual(['6 (1d12)'])
+    expect(numbers({ roll: '2d6', mod: 'str' })).toEqual(['10 (2d6 + 3)'])
+    expect(numbers({ roll: '1d4', mod: 'int' })).toEqual(['1 (1d4 − 1)'])
+  })
+
+  it('never comes to less than 1', () => {
+    const weak = { ...wolfie, modifier: { ...wolfie.modifier, str: -4 } }
+    const [segment] = abilityTextSegments([{ roll: '1d4', mod: 'str' }], weak)
+    expect(segment).toMatchObject({ kind: 'number', value: '1 (1d4 − 4)' })
+  })
+
+  it('keeps a printed average that breaks the formula', () => {
+    expect(numbers({ roll: '3d6', printed: 11 })).toEqual(['11 (3d6)'])
+  })
+})
