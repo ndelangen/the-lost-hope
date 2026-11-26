@@ -45,3 +45,5 @@ bunx oxfmt src/data/library src/lib/published-library-catalog && bun run generat
   JSON in `EXTRA_PRINTINGS`. Text PDFs (Adventurers League modules, online supplements) work; the
   hardcover adventures and the 2014 Monster Manual are scans without usable text. A PDF stat block
   converts only when the catalog has an entry for that creature and book.
+- After `merge_beasts.py`, run `items_add_srd.py <srd-items.json>` (from `items_srd521.py`) and
+  `species_srd521.py <srd521-cols.txt>`: they give items and species the SRD 5.2.1's printed rules.
