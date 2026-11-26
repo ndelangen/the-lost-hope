@@ -26484,16 +26484,36 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "giant_fly"
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 11",
+              "Hit points · 19",
+              "Hit dice · 3d10 + 3",
+              "Challenge · 0",
+              "Type · Beast",
+              "Speed · 30 ft., Fly 60 ft.",
+              "XP · 0",
+              "Str · 14",
+              "Dex · 13",
+              "Con · 13",
+              "Int · 2",
+              "Wis · 10",
+              "Cha · 3",
+              "Initiative · +1 (11)",
+              "Proficiency bonus · +2"
+            ]
           },
-          "publication": {
-            "ref": "publication",
-            "key": "srd_5_2_1"
+          {
+            "title": "Classification",
+            "lines": ["Large Beast, Unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Senses Darkvision 60 ft., Passive Perception 10 Languages None"]
           }
-        }
+        ]
       },
       {
         "id": "printing-187a365731bcf6f728926979",
@@ -51564,23 +51584,67 @@
       {
         "id": "printing-c51dd79efdfd4df32cd0931f",
         "label": "Storm King's Thunder",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 10",
+              "Hit points · 5",
+              "Hit dice · 1d8 + 1",
+              "Challenge · 0",
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 30 ft.",
+              "Passive Perception · 9",
+              "XP · 0",
+              "Str · 13",
+              "Dex · 11",
+              "Con · 12",
+              "Int · 2",
+              "Wis · 9",
+              "Cha · 5"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["grassland", "forest", "hill"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A fat domestic pig with pale bristly skin, a rounded snout, and a curled tail."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Medium Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Passive Perception 9. Languages none."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Storm King's Thunder p. 143, Chapter 5, Grudd Haug, area 12 Pigpen. Base rules from the 2014 Monster Manual, Boar, p. 319."
+            ]
+          },
+          {
+            "title": "At the table",
+            "lines": [
+              "The pig has no effective attacks. It uses the retained ability scores and passive Perception from Boar."
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#pig_skt",
+        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/pig-789f965913cf.png",
             "credit": "OpenAI ImageGen"
           }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "pig"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "storm_king_s_thunder"
-          }
-        }
+        ]
       }
     ],
     "groups": ["Beast"]

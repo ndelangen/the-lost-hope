@@ -7,19 +7,6 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddex2_07_bounty_in_the_bog,
   monsters: {
-    bandit_mage: {
-      name: 'Bandit Mage',
-      stats: {
-        size: 'medium',
-        type: 'humanoid',
-        cr: '2',
-        ac: 12,
-        hitDice: '5d8',
-        speed: { walk: 30 },
-        scores: { str: 9, dex: 14, con: 11, int: 17, wis: 12, cha: 11 },
-        abilities: [],
-      },
-    },
     black_earth_guard: {
       name: 'Black Earth Guard',
       tags: ['human'],
@@ -30,6 +17,7 @@ export default createPublicationMonsters({
         type: 'humanoid',
         cr: '2',
         ac: 18,
+        armor: 'plate',
         hitDice: '6d8',
         speed: { walk: 30 },
         scores: { str: 17, dex: 11, con: 14, int: 10, wis: 10, cha: 9 },
@@ -65,7 +53,7 @@ export default createPublicationMonsters({
               rules.prone,
               ', or both, it can use its reaction to be neither moved nor knocked ',
               rules.prone,
-              '. py this document for personal use only.',
+              '.',
             ],
           },
         ],

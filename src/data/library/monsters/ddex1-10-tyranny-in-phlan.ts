@@ -17,6 +17,7 @@ export default createPublicationMonsters({
         type: 'humanoid',
         cr: '3',
         ac: 17,
+        armor: 'splint',
         hitDice: '9d8',
         speed: { walk: 30 },
         scores: { str: 16, dex: 13, con: 14, int: 10, wis: 11, cha: 10 },

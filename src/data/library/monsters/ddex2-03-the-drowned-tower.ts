@@ -7,17 +7,69 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddex2_03_the_drowned_tower,
   monsters: {
-    black_pudding: {
-      name: 'Black Pudding',
+    bandit_captain: {
+      name: 'Bandit Captain',
+      tags: ['any race'],
+      alignment: 'any non-lawful alignment',
+      languages: ['any two languages'],
       stats: {
-        size: 'large',
-        type: 'ooze',
-        cr: '4',
-        ac: 7,
-        hitDice: '10d10',
-        speed: { walk: 20, climb: 20 },
-        scores: { str: 16, dex: 5, con: 16, int: 1, wis: 6, cha: 1 },
-        abilities: [],
+        size: 'medium',
+        type: 'humanoid',
+        cr: '2',
+        ac: 15,
+        armor: 'studded leather',
+        hitDice: '10d8',
+        speed: { walk: 30 },
+        scores: { str: 15, dex: 16, con: 14, int: 14, wis: 11, cha: 14 },
+        saves: { str: 'proficient', dex: 'proficient', wis: 'proficient' },
+        skills: { athletics: 'proficient', deception: 'proficient' },
+        abilities: [
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.',
+            ],
+          },
+          {
+            key: 'scimitar',
+            name: 'Scimitar',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+          {
+            key: 'dagger',
+            name: 'Dagger',
+            timing: 'action',
+            icon: 'gi/GiThrownDaggers',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              thrown: [20, 60],
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'parry',
+            name: 'Parry',
+            timing: 'reaction',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.',
+            ],
+          },
+        ],
       },
     },
     crushing_wave_reaver: {
@@ -66,7 +118,6 @@ export default createPublicationMonsters({
               thrown: [30, 120],
               damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
             },
-            text: ['Py this document for personal use only.'],
           },
         ],
       },

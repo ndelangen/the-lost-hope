@@ -4,10 +4,10 @@ Usage: srd51_monsters.py <cols.txt> <out.json> <label> <printing id>"""
 import json,re,sys
 SIZE=r'(?:Tiny|Small|Medium|Large|Huge|Gargantuan)'
 raw=[re.sub(r'[\t\r \xa0]+',' ',l.replace('\x0c','').replace('\u00ad','').replace('\u2010','-')).strip() for l in open(sys.argv[1],encoding='utf8',newline='').read().split('\n')]
-raw=[re.sub(r'-{2,}','-',l) for l in raw]
+raw=[re.sub(r'-{2,}','-',l.replace('\u2011','-')) for l in raw]
 # Page furniture: page numbers, running heads and legal footers.
 lines=[l for l in raw if l and not re.fullmatch(r'\d{1,3}',l) and not l.startswith('System Reference Document')
-  and 'photocopy this document' not in l and not re.match(r'Chapter \d+: ',l) and not l.startswith('Not for resale')]
+  and not re.search(r'personal use only|ermission granted|photocopy',l) and not re.match(r'Chapter \d+: ',l) and not l.startswith('Not for resale')]
 label,pid=sys.argv[3],sys.argv[4]
 starts=[i for i in range(1,len(lines)-2) if re.match(SIZE+r'(?: or '+SIZE+r')? [a-z]',lines[i],re.I) and ',' in lines[i] and lines[i+1].startswith('Armor Class')]
 HEADS={'Actions','Reactions','Legendary Actions','Bonus Actions','Lair Actions'}
@@ -18,15 +18,19 @@ for n,i in enumerate(starts):
   name=lines[i-1]
   end=(starts[n+1]-1) if n+1<len(starts) else min(len(lines),i+150)
   body=lines[i+1:end]
-  stats={}; nums=[]; other=[]; sections={'Traits':[]}; cur=None; phase='head'
-  ENTRY=re.compile(r'^[A-Z][\w’\'-]*(?: [\w’\'()/,–-]+){0,8}\. ')
+  stats={}; nums=[]; other=[]; sections={'Traits':[]}; cur=None; phase='head'; raise_variant=False
+  ENTRY=re.compile(r'^[A-Z][\w’\'-]*(?: [\w’\'()/,–-]+){0,8}\. |^[A-Z][\w’\'-]*(?: [A-Z][\w’\'-]*){0,3} (?=(?:Melee|Ranged) (?:Weapon|Spell) Attack)')
+  HEADING=re.compile(r"^[A-Z][\w’'-]*(?: [A-Z][\w’'-]*){0,4}$")
   for k,l in enumerate(body):
     if l in HEADS: cur=l; sections[cur]=[]; continue
+    if re.match(r'(?:Actions|Reactions) for ',l): raise_variant=True; break
     if cur:
       prev=sections[cur][-1] if sections[cur] else ''
-      # After the actions, a new paragraph that is not an entry is the next chapter or lore.
-      if prev.endswith('.') and not ENTRY.match(l) and l[:1].isupper(): break
-      if len(sections[cur])>40: break
+      if HEADING.match(l) and len(l)<40: continue          # a page's running head
+      if prev.endswith('.') and not ENTRY.match(l) and l[:1].isupper():
+        # A new paragraph: part of the entry while more entries follow, else the block is over.
+        if not any(ENTRY.match(x) for x in body[k+1:k+15]): break
+      if len(sections[cur])>60: break
       sections[cur].append(l); continue
     m=re.match(r'Armor Class (\d+)(?: \((.*)\))?',l)
     if m: stats['Armor class']=m.group(1)+(f' ({m.group(2)})' if m.group(2) else ''); continue
@@ -43,7 +47,7 @@ for n,i in enumerate(starts):
       continue
     if phase=='props' and other: other[-1]+=' '+l; continue
     if phase=='traits': sections['Traits'].append(l)
-  if len(nums)<6 or 'Armor class' not in stats: continue
+  if len(nums)<6 or 'Armor class' not in stats or raise_variant: continue
   scores=dict(zip(['Str','Dex','Con','Int','Wis','Cha'],[v for v,_ in nums[:6]]))
   saves=[]
   for o in other:

@@ -184,6 +184,7 @@ export default createPublicationMonsters({
         type: 'giant',
         cr: '7',
         ac: 17,
+        armor: 'splint',
         hitDice: '11d12',
         speed: { walk: 40 },
         scores: { str: 23, dex: 9, con: 20, int: 10, wis: 12, cha: 9 },

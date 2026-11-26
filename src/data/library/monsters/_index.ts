@@ -15,7 +15,6 @@ import ddal04_11_the_donjon from './ddal04-11-the-donjon.ts'
 import ddal04_12_the_raven from './ddal04-12-the-raven.ts'
 import ddal04_13_the_horseman from './ddal04-13-the-horseman.ts'
 import ddal04_14_the_darklord from './ddal04-14-the-darklord.ts'
-import ddep1_corruption_in_kryptgarden from './ddep1-corruption-in-kryptgarden.ts'
 import ddep2_mulmaster_undone_v2 from './ddep2-mulmaster-undone-v2.ts'
 import ddex1_01_defiance_in_phlan from './ddex1-01-defiance-in-phlan.ts'
 import ddex1_02_secrets_of_sokol_keep from './ddex1-02-secrets-of-sokol-keep.ts'
@@ -27,7 +26,6 @@ import ddex1_08_tales_trees_tell from './ddex1-08-tales-trees-tell.ts'
 import ddex1_09_outlaws_of_the_iron_route from './ddex1-09-outlaws-of-the-iron-route.ts'
 import ddex1_10_tyranny_in_phlan from './ddex1-10-tyranny-in-phlan.ts'
 import ddex1_11_dark_pyramid_of_sorcerer_s_isle from './ddex1-11-dark-pyramid-of-sorcerer-s-isle.ts'
-import ddex1_13_pool_of_radiance_resurgent from './ddex1-13-pool-of-radiance-resurgent.ts'
 import ddex1_14_escape_from_phlan from './ddex1-14-escape-from-phlan.ts'
 import ddex2_01_city_of_danger from './ddex2-01-city-of-danger.ts'
 import ddex2_02_embers_of_elmwood from './ddex2-02-embers-of-elmwood.ts'
@@ -42,6 +40,7 @@ import ddex3_04_it_s_all_in_the_blood from './ddex3-04-it-s-all-in-the-blood.ts'
 import ddex3_05_bane_of_the_tradeways from './ddex3-05-bane-of-the-tradeways.ts'
 import ddex3_07_herald_of_the_moon from './ddex3-07-herald-of-the-moon.ts'
 import ddex3_08_the_malady_of_elventree from './ddex3-08-the-malady-of-elventree.ts'
+import ddex3_09_the_waydown from './ddex3-09-the-waydown.ts'
 import ddex3_12_hillsfar_reclaimed from './ddex3-12-hillsfar-reclaimed.ts'
 import ddex3_13_writhing_in_the_dark from './ddex3-13-writhing-in-the-dark.ts'
 import ddex3_14_death_on_the_wall from './ddex3-14-death-on-the-wall.ts'
@@ -56,7 +55,6 @@ import hoard_of_the_dragon_queen_online_supplement from './hoard-of-the-dragon-q
 import humblewood_campaign_setting from './humblewood-campaign-setting.ts'
 import icewind_dale_rime_of_the_frostmaiden from './icewind-dale-rime-of-the-frostmaiden.ts'
 import journeys_through_the_radiant_citadel from './journeys-through-the-radiant-citadel.ts'
-import keys_from_the_golden_vault from './keys-from-the-golden-vault.ts'
 import monster_manual_2014 from './monster-manual-2014.ts'
 import monster_manual_2024 from './monster-manual-2024.ts'
 import mordenkainen_presents_monsters_of_the_multiverse from './mordenkainen-presents-monsters-of-the-multiverse.ts'
@@ -85,7 +83,6 @@ import the_wild_beyond_the_witchlight from './the-wild-beyond-the-witchlight.ts'
 import tomb_of_annihilation from './tomb-of-annihilation.ts'
 import turn_of_fortune_s_wheel from './turn-of-fortune-s-wheel.ts'
 import volo_s_guide_to_monsters from './volo-s-guide-to-monsters.ts'
-import waterdeep_dungeon_of_the_mad_mage from './waterdeep-dungeon-of-the-mad-mage.ts'
 import where_evil_lives from './where-evil-lives.ts'
 
 /** Every publication whose monsters the library holds as typed data. */
@@ -107,7 +104,6 @@ export default [
   ddal04_12_the_raven,
   ddal04_13_the_horseman,
   ddal04_14_the_darklord,
-  ddep1_corruption_in_kryptgarden,
   ddep2_mulmaster_undone_v2,
   ddex1_01_defiance_in_phlan,
   ddex1_02_secrets_of_sokol_keep,
@@ -119,7 +115,6 @@ export default [
   ddex1_09_outlaws_of_the_iron_route,
   ddex1_10_tyranny_in_phlan,
   ddex1_11_dark_pyramid_of_sorcerer_s_isle,
-  ddex1_13_pool_of_radiance_resurgent,
   ddex1_14_escape_from_phlan,
   ddex2_01_city_of_danger,
   ddex2_02_embers_of_elmwood,
@@ -134,6 +129,7 @@ export default [
   ddex3_05_bane_of_the_tradeways,
   ddex3_07_herald_of_the_moon,
   ddex3_08_the_malady_of_elventree,
+  ddex3_09_the_waydown,
   ddex3_12_hillsfar_reclaimed,
   ddex3_13_writhing_in_the_dark,
   ddex3_14_death_on_the_wall,
@@ -148,7 +144,6 @@ export default [
   humblewood_campaign_setting,
   icewind_dale_rime_of_the_frostmaiden,
   journeys_through_the_radiant_citadel,
-  keys_from_the_golden_vault,
   monster_manual_2014,
   monster_manual_2024,
   mordenkainen_presents_monsters_of_the_multiverse,
@@ -177,6 +172,5 @@ export default [
   tomb_of_annihilation,
   turn_of_fortune_s_wheel,
   volo_s_guide_to_monsters,
-  waterdeep_dungeon_of_the_mad_mage,
   where_evil_lives,
 ]

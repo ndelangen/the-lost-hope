@@ -7,19 +7,6 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddex3_13_writhing_in_the_dark,
   monsters: {
-    githyanki_knight: {
-      name: 'Githyanki Knight',
-      stats: {
-        size: 'medium',
-        type: 'humanoid',
-        cr: '8',
-        ac: 18,
-        hitDice: '14d8',
-        speed: { walk: 30 },
-        scores: { str: 16, dex: 14, con: 15, int: 14, wis: 14, cha: 15 },
-        abilities: [],
-      },
-    },
     githyanki_warrior: {
       name: 'Githyanki Warrior',
       tags: ['gith'],
@@ -30,6 +17,7 @@ export default createPublicationMonsters({
         type: 'humanoid',
         cr: '3',
         ac: 17,
+        armor: 'half plate',
         hitDice: '9d8',
         speed: { walk: 30 },
         scores: { str: 15, dex: 14, con: 12, int: 13, wis: 13, cha: 10 },

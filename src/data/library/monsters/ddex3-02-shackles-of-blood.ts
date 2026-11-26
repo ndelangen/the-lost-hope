@@ -95,19 +95,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    druid: {
-      name: 'Druid',
-      stats: {
-        size: 'medium',
-        type: 'humanoid',
-        cr: '2',
-        ac: 11,
-        hitDice: '5d8',
-        speed: { walk: 30 },
-        scores: { str: 10, dex: 12, con: 13, int: 12, wis: 15, cha: 11 },
-        abilities: [],
-      },
-    },
     veteran: {
       name: 'Veteran',
       tags: ['any race'],
@@ -118,6 +105,7 @@ export default createPublicationMonsters({
         type: 'humanoid',
         cr: '3',
         ac: 17,
+        armor: 'splint',
         hitDice: '9d8',
         speed: { walk: 30 },
         scores: { str: 16, dex: 13, con: 14, int: 10, wis: 11, cha: 10 },

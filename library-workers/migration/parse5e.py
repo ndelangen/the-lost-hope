@@ -61,7 +61,7 @@ def lenient(text):
     h=H()
   head=text[:200]
   reach=re.search(r'reach (\d+) (?:ft|feet)|(\d+)-ft\.? reach|within (\d+) (?:ft|feet)',head)
-  rng=re.search(r'range (\d+)/(\d+) (?:ft|feet)',head) or re.search(r'range (\d+)() (?:ft|feet)',head)
+  rng=re.search(r'range (\d+)(?: ft\.)?/(\d+) (?:ft|feet)',head) or re.search(r'range (\d+)() (?:ft|feet)',head)
   d=re.search(r'(\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+)(?: damage)?',text)
   flat=None if d else re.search(r'(?:Hit:?|hit,?|deals?|takes?)[^.]*?\b(\d+) (\w+) damage',text)
   if not d and not flat: return None
@@ -76,6 +76,9 @@ def lenient(text):
   else:
     g[8]=flat.group(1); g[9]=flat.group(1); g[12]=flat.group(2)
     g[13]=text[flat.end():]
+  # A condition printed inside the attack line ("(with advantage … metal armor)") is a rider.
+  par=re.search(r'\((with [^)]*)\)',text[:(d or flat).start()])
+  if par: g[13]=g[13].rstrip()+' '+par.group(1)[0].upper()+par.group(1)[1:]+'.'
   return M(g)
 # What a converted printing reads, and the worker notes and lore it may safely leave behind.
 READ={'statistics','classification','other statistics','skills','senses','saving throws','languages',
@@ -295,11 +298,14 @@ def finalize(block,scores,prof,issues):
         # Built from the ability saved with when that derives it, then the casting ability.
         dc=int(m.group(3)); named=ANAME.get((m.group(4) or '').lower())
         order=([named] if named else [])+([caster] if caster else [])+['con','str','dex','wis','int','cha']
+        spell_dc=caster and re.search(r'spell save $',text[max(0,m.start()-12):m.start()])
+        if spell_dc: order=[caster]
         built=next((a for a in order if 8+prof+mod(scores[a])==dc),None)
+        if not built and spell_dc: built=None
         printed={}
         if not built:
           # The book breaks the formula: keep its DC on the save's or casting ability.
-          built=named or caster or 'con'; printed={'printed':dc}
+          built=(caster if spell_dc else None) or named or caster or 'con'; printed={'printed':dc}
         toks.append({'dc':built,**({'save':named} if named and named!=built else {}),**printed})
         if m.group(4): toks.append(' '+m.group(4))
       elif m.group(5): toks.append({'rule':m.group(5).lower()})
@@ -431,7 +437,7 @@ def convert(r,p):
     if sm: langs=re.match(r'(.*)$','; '.join(x.strip() for x in sm))
   if sec(p,'Languages'):
     langs=re.match(r'(.*)$','; '.join(sec(p,'Languages')))
-  armor=re.search(r'\(([^)]*armor[^)]*|[^)]*mail[^)]*|[^)]*shield[^)]*)\)',ac or '')
+  armor=re.search(r'\(([a-z][^)]*)\)',ac or '',re.I)
   armor_text=armor.group(1) if armor else None
   if not armor_text and re.search(r'natural armor',' '.join(sec(p,'Armor') or [])+' '+other,re.I): armor_text='natural armor'
   if armor_text: block['armor']=armor_text.strip()
@@ -535,6 +541,10 @@ def convert(r,p):
       if starts_lore(sents[i]) and not any(RULES.search(y) for y in sents[i:]): cut=i; break
     if cut<len(sents):
       lore=' '.join(sents[cut:]); abilities[-1]['text']=[' '.join(sents[:cut])]
+  # Every 5e stat block prints its passive Perception and at least one trait or action; a
+  # printing without them lost part of its block on the way here.
+  if not abilities and not sec(p,'Legendary actions'): issues.append('no traits or actions')
+  if not re.search(r'passive Perception',other+' '+' '.join(sec(p,'Statistics') or []),re.I): issues.append('no passive Perception')
   block['abilities']=abilities
   NUM={'one':1,'two':2,'three':3,'four':4,'five':5}
   leg=sec(p,'Legendary actions')

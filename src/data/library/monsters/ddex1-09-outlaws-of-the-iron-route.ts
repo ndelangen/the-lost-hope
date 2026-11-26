@@ -45,7 +45,7 @@ export default createPublicationMonsters({
             attack: {
               kind: 'ranged',
               ability: 'str',
-              range: [80, 80],
+              range: [80, 320],
               damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
             },
           },
@@ -142,7 +142,7 @@ export default createPublicationMonsters({
             attack: {
               kind: 'ranged',
               ability: 'dex',
-              range: [30, 30],
+              range: [30, 120],
               damage: [{ dice: '1d4', type: rules.bludgeoning, addModifier: true }],
             },
           },

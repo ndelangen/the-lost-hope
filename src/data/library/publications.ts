@@ -131,6 +131,7 @@ export default createPublications({
   },
   ddex1_07_drums_in_the_marsh: {
     name: 'DDEX1-07 - Drums in the Marsh',
+    publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-07 - Drums in the Marsh.pdf',
   },
@@ -309,10 +310,6 @@ export default createPublications({
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
   },
-  keys_from_the_golden_vault: {
-    name: 'Keys from the Golden Vault',
-    ruleset: '5e-2014',
-  },
   monster_manual_2014: {
     name: 'Monster Manual',
     publisher: 'Wizards of the Coast',
@@ -462,10 +459,6 @@ export default createPublications({
   volo_s_guide_to_monsters: {
     name: "Volo's Guide to Monsters",
     publisher: 'Wizards of the Coast',
-    ruleset: '5e-2014',
-  },
-  waterdeep_dungeon_of_the_mad_mage: {
-    name: 'Waterdeep: Dungeon of the Mad Mage',
     ruleset: '5e-2014',
   },
   where_evil_lives: {

@@ -505,7 +505,6 @@ export default createPublicationMonsters({
     },
     basilisk: {
       name: 'Basilisk',
-      reprintedIn: [refs.publications.srd_5_2_1],
       page: 32,
       alignment: 'unaligned',
       habitats: ['Mountains and the Underdark'],
@@ -561,7 +560,6 @@ export default createPublicationMonsters({
     },
     blink_dog: {
       name: 'Blink Dog',
-      reprintedIn: [refs.publications.srd_5_2_1],
       page: 46,
       alignment: 'lawful good',
       languages: ["Blink Dog. It understands Elvish and Sylvan and can't speak either."],
@@ -1733,7 +1731,6 @@ export default createPublicationMonsters({
     },
     ettercap: {
       name: 'Ettercap',
-      reprintedIn: [refs.publications.srd_5_2_1],
       page: 115,
       alignment: 'neutral evil',
       habitats: ['Forest'],

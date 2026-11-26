@@ -7,19 +7,6 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddal04_04_the_marionette,
   monsters: {
-    guardian_portrait: {
-      name: 'Guardian Portrait',
-      stats: {
-        size: 'medium',
-        type: 'construct',
-        cr: '1',
-        ac: 5,
-        hitDice: '5d8',
-        speed: { walk: 0 },
-        scores: { str: 1, dex: 1, con: 10, int: 14, wis: 10, cha: 10 },
-        abilities: [],
-      },
-    },
     skeleton: {
       name: 'Skeleton',
       alignment: 'neutral evil',
@@ -111,7 +98,7 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'NPC Summary This section is provided to the Dungeon Master to help keep track of the various NPCs present in the adventure.',
+              'NPC This section is provided to the Dungeon Master to help keep track of the various NPCs present in the adventure.',
             ],
           },
           {
@@ -183,7 +170,18 @@ export default createPublicationMonsters({
             name: 'Vasile (vah-SEEL)',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: ['Male human nephew of Marku and Crina Grelon.'],
+            text: [
+              'Male human nephew of Marku and Crina Grelon. Petr Fitzparck (orde #87649) ersonal use only.',
+            ],
+          },
+          {
+            key: 'dm-appendix-2',
+            name: 'DM Appendix',
+            timing: 'action',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'Tips for Pacing & Extending the This adventure is intended to be a 4-hour adventure, but there are several opportunities to expand for extended play beyond that constraint. If the 4-hour time limit is critical, use these tips to avoid an extended session.  Remove the difficulty checks in the “In Search of Vasile” event and simply advise the adventurers of the opportunity to scare off the harpies.',
+            ],
           },
         ],
       },

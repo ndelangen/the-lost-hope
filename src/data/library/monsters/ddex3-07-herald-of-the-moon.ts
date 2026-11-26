@@ -7,19 +7,6 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddex3_07_herald_of_the_moon,
   monsters: {
-    black_pudding: {
-      name: 'Black Pudding',
-      stats: {
-        size: 'large',
-        type: 'ooze',
-        cr: '4',
-        ac: 7,
-        hitDice: '10d10',
-        speed: { walk: 20, climb: 20 },
-        scores: { str: 16, dex: 5, con: 16, int: 1, wis: 6, cha: 1 },
-        abilities: [],
-      },
-    },
     drow: {
       name: 'Drow',
       tags: ['elf'],
@@ -30,6 +17,7 @@ export default createPublicationMonsters({
         type: 'humanoid',
         cr: '1/4',
         ac: 15,
+        armor: 'chain shirt',
         hitDice: '3d8',
         speed: { walk: 30 },
         scores: { str: 10, dex: 14, con: 10, int: 11, wis: 11, cha: 12 },
@@ -222,36 +210,10 @@ export default createPublicationMonsters({
             timing: 'reaction',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon. py this document for personal use only.',
+              'The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon.',
             ],
           },
         ],
-      },
-    },
-    drow_mage: {
-      name: 'Drow Mage',
-      stats: {
-        size: 'medium',
-        type: 'humanoid',
-        cr: '7',
-        ac: 12,
-        hitDice: '10d8',
-        speed: { walk: 30 },
-        scores: { str: 9, dex: 14, con: 10, int: 17, wis: 13, cha: 12 },
-        abilities: [],
-      },
-    },
-    shadow_demon: {
-      name: 'Shadow Demon',
-      stats: {
-        size: 'medium',
-        type: 'fiend',
-        cr: '4',
-        ac: 13,
-        hitDice: '12d8',
-        speed: { walk: 30, fly: 30 },
-        scores: { str: 1, dex: 17, con: 12, int: 14, wis: 13, cha: 14 },
-        abilities: [],
       },
     },
   },

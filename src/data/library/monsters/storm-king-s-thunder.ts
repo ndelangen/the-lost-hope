@@ -256,30 +256,5 @@ export default createPublicationMonsters({
         ],
       },
     },
-    pig: {
-      name: 'Pig',
-      page: 143,
-      alignment: 'unaligned',
-      languages: [],
-      habitats: ['grassland', 'forest', 'hill'],
-      appearance: [
-        ['A fat domestic pig with pale bristly skin, a rounded snout, and a curled tail.'],
-      ],
-      tableNotes: [
-        [
-          'The pig has no effective attacks. It uses the retained ability scores and passive Perception from Boar.',
-        ],
-      ],
-      stats: {
-        size: 'medium',
-        type: 'beast',
-        cr: '0',
-        ac: 10,
-        hitDice: '1d8',
-        speed: { walk: 30 },
-        scores: { str: 13, dex: 11, con: 12, int: 2, wis: 9, cha: 5 },
-        abilities: [],
-      },
-    },
   },
 })

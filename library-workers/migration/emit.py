@@ -113,7 +113,7 @@ def ability_ts(ab,keys,ind):
   L.append(f'{i}}},')
   return L
 def same_block(a,b):
-  strip=lambda x: json.dumps({k:v for k,v in x.items() if k!='abilities'},sort_keys=True)+json.dumps([(y['name'],y.get('attack')) for y in x['abilities']],sort_keys=True)
+  strip=lambda x: json.dumps({k:v for k,v in x.items() if k not in ('abilities','legendary','lairActions')},sort_keys=True)+json.dumps([(y['name'],y.get('attack'),y.get('save'),y.get('uses'),y.get('recharge'),y.get('cost')) for y in x['abilities']+x.get('legendary',{}).get('actions',[])+x.get('lairActions',[])],sort_keys=True)
   return strip(a)==strip(b)
 def main():
   types=sys.argv[1]
@@ -173,7 +173,7 @@ def main():
       if m['alignment']: L.append(f'      alignment: {js(m["alignment"])},')
       langs=m['languages']
       if langs is None: unrecorded.append(f"{r['label']}: {r['name']}")
-      elif langs.strip().lower() in ('none','—','-','—',''): L.append('      languages: [],')
+      elif langs.strip().lower() in ('none','—','-','—','–',''): L.append('      languages: [],')
       else:
         # Split on commas outside parentheses: "Primordial (Ignan, Terran)" is one language.
         names=[x.strip() for x in re.split(r'[,;](?![^()]*\))',langs)] if not re.search(r'\b(Speaks|Understands)\b',langs) else [x.strip() for x in langs.split(';')]

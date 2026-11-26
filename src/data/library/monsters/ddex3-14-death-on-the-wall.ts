@@ -36,7 +36,6 @@ export default createPublicationMonsters({
               thrown: [20, 60],
               damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
             },
-            text: ['Ocopy this document for personal use only.'],
           },
         ],
       },
