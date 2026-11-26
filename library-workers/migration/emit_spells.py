@@ -33,6 +33,33 @@ TABLES={
   'Creation':[(r' Materials Material Duration Vegetable matter 24 hours Stone or crystal 12 hours Precious metals 1 hour Gems 10 minutes Adamantine or mithral 1 minute ',
      '¶Materials: vegetable matter, 24 hours; stone or crystal, 12 hours; precious metals, 1 hour; gems, 10 minutes; adamantine or mithral, 1 minute.¶')],
 }
+def statblock_lines(p):
+  """A summoned creature's stat block printed inside a spell, back to one line per part."""
+  if 'MOD SAVE' not in p: return p
+  m=re.search(r"((?:[A-Z][\w’'-]*\s){1,4})(?:Tiny|Small|Medium|Large|Huge|Gargantuan)\b[^.]*? AC ",p)
+  if not m: return p
+  head,block=p[:m.start()].strip(),p[m.start():]
+  block=re.sub(r'(?: ?MOD SAVE)+',' ',block)
+  scores=re.findall(r'\b(Str|Dex|Con|Int|Wis|Cha) (\d+) ([+−-]\d+) ([+−-]\d+)',block)
+  order=['Str','Dex','Con','Int','Wis','Cha']
+  table=', '.join(f'{a} {v} ({mo})'+(f', save {sv}' if sv!=mo else '') for a,v,mo,sv in sorted(scores,key=lambda x:order.index(x[0])))
+  block=re.sub(r'\s*\b(?:Str|Dex|Con|Int|Wis|Cha) \d+ [+−-]\d+ [+−-]\d+','',block)
+  name=m.group(1).strip()
+  rest=block[len(m.group(1)):]
+  for label in [' AC ',' HP ',' Speed ',' Resistances ',' Immunities ',' Senses ',' Languages ',' CR ',' Traits ',' Actions ',' Bonus Actions ',' Reactions ']:
+    rest=rest.replace(label,'¶'+label.strip()+' ',1)
+  rest=rest.replace('¶Speed ','¶Speed ',1)
+  # Scores go after Speed.
+  parts=rest.split('¶')
+  i=next((k for k,x in enumerate(parts) if x.startswith('Speed ')),len(parts)-1)
+  parts.insert(i+1,table)
+  # Entries ("Life Bond. …") start their own line.
+  out=[]
+  for x in parts:
+    out.append(re.sub(r'(?<=[.)]) (?=[A-Z][\w’\'-]*(?: [A-Z(][\w’\'(),;+ -]*?)?\. )','¶',x) if x.split(' ',1)[0] in ('Traits','Actions','Bonus','Reactions') else x)
+  joined='¶'.join(y.strip() for y in out if y.strip())
+  joined=re.sub(r'(^|¶)(Traits|Actions|Bonus Actions|Reactions) ',r'\1\2¶',joined)
+  return head+'¶'+name+'¶'+joined
 # Text that follows a bulleted list starts its own paragraph again.
 AFTER_LIST={'Commune with Nature':'For example,','Magic Circle':'Each time you cast this spell','Private Sanctum':'Casting this spell on the same spot'}
 for s_ in spells:
@@ -44,6 +71,7 @@ for s_ in spells:
     for a,b in rules:
       p,n=re.subn(a,b,p); done[a]+=n
     if s_['name'] in AFTER_LIST: p=p.replace(' '+AFTER_LIST[s_['name']],'¶'+AFTER_LIST[s_['name']])
+    p=statblock_lines(p)
     p=p.replace(' • ','¶• ')
     out+=[x.strip() for x in p.split('¶') if x.strip()]
   s_['paragraphs']=out
