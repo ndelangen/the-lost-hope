@@ -92,13 +92,13 @@ test('separates named non-attack actions and traits in compact printings', () =>
   expect(lion.selected.typed?.monster.key).toBe('lion')
 })
 
-test('preserves prose before a saving throw in a named action', () => {
+test('keeps prose before a saving throw beside the structured save', async () => {
   const ape = getLibraryEntry('beasts', 'giant-ape', true, 'srd-5-2-1')!
-  const actions = ape.sections.find(({ title }) => title === 'Actions')!
-  const toss = actions.lines
-    .flatMap((line) => creatureRuleParagraphs(line))
-    .find(({ title }) => title === 'Boulder Toss (Recharge 6).')
-  expect(toss?.text).toMatch(/^The ape hurls.*Dexterity Saving Throw:/u)
+  const { monsterPrinting } = await import('./library-monsters')
+  const typed = monsterPrinting(ape.selected.typed!.monster, ape.selected.typed!.publication)!
+  const toss = typed.printing.stats.abilities.find(({ key }) => key === 'boulder-toss')!
+  expect(toss.text[0]).toMatch(/^The ape hurls/u)
+  expect(toss.save).toMatchObject({ ability: 'dex', onSuccess: 'half' })
 })
 
 test('keeps both the structured and prose statistics of a staged scalable printing', () => {

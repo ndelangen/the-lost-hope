@@ -37,7 +37,7 @@ def tokens(parts):
   out=[]
   for t in parts:
     if isinstance(t,str): out.append(js(t))
-    elif 'dc' in t: out.append('{ dc: '+js(t['dc'])+' }')
+    elif 'dc' in t: out.append('{ dc: '+js(t['dc'])+(', save: '+js(t['save']) if 'save' in t else '')+' }')
     elif 'ability' in t: out.append('{ ability: '+js(t['ability'])+' }')
     else: out.append('rules.'+t['rule'])
   return '['+', '.join(out)+']'
@@ -63,7 +63,8 @@ def ability_ts(ab,keys,ind):
     L.append(f'{i}  save: {{'); L.append(f'{i}    ability: {js(sv["ability"])},'); L.append(f'{i}    dc: {js(sv["dc"])},')
     if 'area' in t:
       ar=t['area']; w=f', width: {ar["width"]}' if 'width' in ar else ''
-      L.append(f'{i}    target: {{ area: {{ shape: rules.{ar["shape"]}, size: {ar["size"]}{w} }} }},')
+      rg=f', range: {t["range"]}' if 'range' in t else ''
+      L.append(f'{i}    target: {{ area: {{ shape: rules.{ar["shape"]}, size: {ar["size"]}{w} }}{rg} }},')
     else:
       wh=f', which: {js(t["which"])}' if 'which' in t else ''
       L.append(f'{i}    target: {{ creatures: {t["creatures"]}, range: {t["range"]}{wh} }},')

@@ -88,12 +88,13 @@ function segmentFor(
 
   if ('dc' in token) {
     const dc = block.saveDc[token.dc]
+    const save = rules[token.save ?? token.dc].name
     return dc === undefined
-      ? { kind: 'text', text: `${rules[token.dc].name} save` }
+      ? { kind: 'text', text: `${save} save` }
       : {
           kind: 'number',
           value: `DC ${dc}`,
-          note: `The target rolls d20 + its ${rules[token.dc].name} saving throw bonus and succeeds on ${dc} or higher.`,
+          note: `The target rolls d20 + its ${save} saving throw bonus and succeeds on ${dc} or higher.`,
         }
   }
 

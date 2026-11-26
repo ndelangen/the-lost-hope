@@ -46,7 +46,7 @@ def split_abilities(lines):
     res.append((parts[i],parts[i+1].strip())); i+=2
   return pre,res
 ATK=re.compile(r'^(Melee|Ranged|Melee or Ranged) (?:Weapon |Spell )?Attack(?: Roll)?:?,? \+?(-?\d+)(?: to hit)?,? (?:reach (\d+) ft\.|range (\d+)/(\d+) ft\.)(?:,? (?:or range (\d+)/(\d+) ft\.))?,?(?: one target| one creature)?\.? Hit:? (?:for )?(\d+) \((\d+d\d+)(?: ?([+−-]) ?(\d+))?\) (\w+) damage(.*)$',re.I)
-EXTRA=re.compile(r'^,? plus (\d+) \((\d+d\d+)\) (\w+) damage',re.I)
+EXTRA=re.compile(r'^,?\s*plus (\d+) \((\d+d\d+)\) (\w+) damage',re.I)
 SAVE=re.compile(r'DC (\d+) (Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) sav',re.I)
 class M:
   def __init__(s,g): s.g=g
@@ -87,7 +87,7 @@ LORE={'description','habitats','habitat','appearance','printed source','referenc
 def kebab(x): return re.sub(r'[^a-z0-9]+','-',x.lower()).strip('-')
 ABW=r'(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma)'
 DMG=r'(\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+) damage'
-AREA=re.compile(r'(?:each creature|creatures?) (?:of its choice )?in (?:a|an|that) (\d+)-(?:foot|ft\.?)[- ](?:radius )?(cone|line|cube|sphere|emanation)(?: that is (\d+) (?:feet|ft\.?) wide)?',re.I)
+AREA=re.compile(r'(?:each creature|creatures?) (?:of its choice )?in (?:a|an|that|its) (\d+)-(?:foot|ft\.?)[- ](?:radius |high |long )?(cone|line|cube|sphere|emanation)(?: that is (\d+) (?:feet|ft\.?) wide)?',re.I)
 def save_damage(m,scores,save_ab,issues,name):
   dice=m.group(2); bonus=int(m.group(4) or 0)*(-1 if m.group(3) in ('-','−','–') else 1)
   d={'dice':dice,'type':m.group(5).lower()}
@@ -100,7 +100,7 @@ def save_damage(m,scores,save_ab,issues,name):
 def extract_save(ab,text,scores,prof,issues):
   """Structure the most common save shapes; returns the text left for the ability."""
   name=ab['name']
-  m=re.search(r'^'+ABW+r' Saving Throw: DC (\d+), (.*?)\. Failure: '+DMG+r'(.*?)\.(?: Success: (Half damage)\.)?',text)
+  m=re.search(ABW+r' Saving Throw: DC (\d+), (.*?)\. Failure: '+DMG+r'(.*?)(?:(?<=\.) Success: (Half damage)(?: only)?\.|$|(?<=\.) (?=Success:))',text)
   if m:
     a=ANAME[m.group(1).lower()]; dc=int(m.group(2)); who=m.group(3)
     damage=save_damage(type('M',(),{'group':lambda s,i:[None,*m.groups()[3:8]][i]})(),scores,a,issues,name)
@@ -109,6 +109,8 @@ def extract_save(ab,text,scores,prof,issues):
     if area:
       target={'area':{'shape':area.group(2).lower(),'size':int(area.group(1))}}
       if area.group(3): target['area']['width']=int(area.group(3))
+      where=re.search(r'within (\d+) (?:feet|ft)',who)
+      if where: target['range']=int(where.group(1))
     else:
       tm=re.match(r'(one|two|three) creatures?(?: (.*?))? within (\d+) (?:feet|ft\.?)(?: (.*))?$',who)
       if not tm: issues.append(f'{name}: save target not understood: {who[:40]}'); return text
@@ -117,8 +119,8 @@ def extract_save(ab,text,scores,prof,issues):
       if which: target['which']=which
     ab['save']=build_save(a,dc,target,[damage],rest_fail,'half' if success else 'none',scores,prof,issues,name)
     ab['intent']='damage'
-    return text[m.end():].strip()
-  m=re.search(r'(?:the target|it|the creature|that creature|each creature[^.]*?)(?: also)?(?: must)? (?:make|makes|succeed on|succeeds on|pass|passes) a DC (\d+) '+ABW+r' sav(?:ing throw|e),? (?:taking|and takes|or take) '+DMG+r'(?: on a (?:failed save|failure))?(,? or half as much(?: damage)? on a success(?:ful one)?)?\.?',text,re.I)
+    return (text[:m.start()]+' '+text[m.end():]).strip()
+  m=re.search(r'(?:the target|it|the creature|that creature|each creature[^.]*?)(?: also)?(?: must)? (?:make|makes|succeed on|succeeds on|pass|passes) a DC (\d+) '+ABW+r' sav(?:ing throw|e)(?:,? (?:taking|and takes|or take) |\. (?:It|The target|The creature|On a failure, the creature|On a failed save, the creature|A target) takes )'+DMG+r'(?: on a (?:failed save|failure))?(,? or half (?:as much )?(?:damage )?on a success(?:ful one)?|\. On a success, it takes half (?:that|as much) damage)?\.?',text,re.I)
   if m:
     a=ANAME[m.group(2).lower()]; dc=int(m.group(1))
     damage=save_damage(type('M',(),{'group':lambda s,i:[None,*m.groups()[2:7]][i]})(),scores,a,issues,name)
@@ -127,7 +129,9 @@ def extract_save(ab,text,scores,prof,issues):
       target={'area':{'shape':area.group(2).lower(),'size':int(area.group(1))}}
       if area.group(3): target['area']['width']=int(area.group(3))
     elif 'attack' in ab:
-      at=ab['attack']; target={'creatures':1,'range':at.get('reach') or at['range'][0],'which':'it hits'}
+      at=ab['attack']; rng=at['reach'] if 'reach' in at else at['range'][0]
+      if not rng: issues.append(f'{name}: save on a creature in its space'); return text
+      target={'creatures':1,'range':rng,'which':'it hits'}
     else:
       issues.append(f'{name}: save target not understood'); return text
     ab['save']=build_save(a,dc,target,[damage],'', 'half' if m.group(8) else 'none',scores,prof,issues,name)
@@ -138,8 +142,9 @@ def extract_save(ab,text,scores,prof,issues):
     return rest[:1].upper()+rest[1:]
   return text
 def build_save(a,dc,target,damage,also,success,scores,prof,issues,name):
-  if 8+prof+mod(scores[a])!=dc: issues.append(f'{name}: save DC {dc} not derivable from {a}')
-  sv={'ability':a,'dc':a,'target':target,'onFail':{'damage':damage}}
+  built=next((b for b in [a,'con','str','dex','wis','int','cha'] if 8+prof+mod(scores[b])==dc),None)
+  if not built: issues.append(f'{name}: save DC {dc} not derivable'); built=a
+  sv={'ability':a,'dc':built,'target':target,'onFail':{'damage':damage}}
   if also: sv['onFail']['also']=[also[0].upper()+also[1:]+'.']
   if success=='half': sv['onSuccess']='half'
   return sv
@@ -169,11 +174,14 @@ def finalize(block,scores,prof,issues):
       if m.start()>pos: toks.append(text[pos:m.start()])
       if m.group(1):
         # The DC token also names the save, so it must be built from the ability saved with.
-        dc=int(m.group(1)); a=ANAME.get((m.group(2) or '').lower())
-        if not a or 8+prof+mod(scores[a])!=dc:
-          issues.append(f"{ab['name']}: DC {dc} not derivable from the save it names"); toks.append(m.group(0))
+        # Built from the ability saved with when that derives it, else the first that does.
+        dc=int(m.group(1)); named=ANAME.get((m.group(2) or '').lower())
+        order=([named] if named else [])+['con','str','dex','wis','int','cha']
+        built=next((a for a in order if 8+prof+mod(scores[a])==dc),None)
+        if not built:
+          issues.append(f"{ab['name']}: DC {dc} not derivable"); toks.append(m.group(0))
         else:
-          toks.append({'dc':a})
+          toks.append({'dc':built,**({'save':named} if named and named!=built else {})})
           if m.group(2): toks.append(' '+m.group(2))
       elif m.group(3): toks.append({'rule':m.group(3).lower()})
       else:

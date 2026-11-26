@@ -603,155 +603,43 @@
       {
         "id": "printing-7e77de04466cdf54d6ed3a5f",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 51",
-              "Hit dice · 6d10 + 18",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 60 ft.",
-              "XP · 450",
-              "Str · 19",
-              "Dex · 13",
-              "Con · 17",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": [
-              "Open ground",
-              "Remote mountain valleys",
-              "Isolated plateaus",
-              "Tropical islands",
-              "Deep fens"
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A long-legged bipedal predator with ochre-brown scales, low ridges above its eyes, clawed forelimbs, and a long balancing tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Perception +5. Passive Perception 15. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 116."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pounce. Move at least 30 ft. straight toward a creature and hit it with Claw that turn. The target must pass a DC 13 Strength save or fall prone. If that target is prone, the allosaurus can make one Bite attack against it as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 8 (1d8 + 4) slashing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/allosaurus-bfd45c756e44.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "allosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-57613cd0736f52c483b71705",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 51",
-              "Hit dice · 6d10 + 18",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 60 ft.",
-              "Passive Perception · 15",
-              "Initiative · 1",
-              "XP · 450",
-              "Str · 19",
-              "Dex · 13",
-              "Con · 17",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": [
-              "Open ground",
-              "Remote mountain valleys",
-              "Isolated plateaus",
-              "Tropical islands",
-              "Deep fens"
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A long-legged bipedal predator with ochre-brown scales, low ridges above its eyes, clawed forelimbs, and a long balancing tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Perception +5. Passive Perception 15. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), 11th printing, Dinosaurs, p. 79. https://anyflip.com/kqwdv/eoae/basic/51-100#p=80"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pounce. Move at least 30 ft. straight toward a creature and hit it with Claw that turn. The target must pass a DC 13 Strength save or fall prone. If that target is prone, the allosaurus can make one Bite attack against it as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 8 (1d8 + 4) slashing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#allosaurus_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/allosaurus-bfd45c756e44.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "allosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-a53cfecc35efb6b6eff91be6",
@@ -27667,48 +27555,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 168",
-              "Hit dice · 16d12 + 64",
-              "Challenge · 7",
-              "Type · Beast",
-              "Speed · 40 ft., Climb 40 ft.",
-              "XP · 2900",
-              "Str · 23",
-              "Dex · 14",
-              "Con · 18",
-              "Int · 5",
-              "Wis · 12",
-              "Cha · 7",
-              "Initiative · +5 (15)",
-              "Proficiency bonus · +3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_ape"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Athletics +9, Perception +4, Survival +4 Senses Passive Perception 14 Languages None"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The ape makes two Fist attacks. Fist. Melee Attack Roll: +9, reach 10 ft. Hit: 22 (3d10 + 6) Bludgeoning damage. Boulder Toss (Recharge 6). The ape hurls a boulder at a point it can see within 90 feet. Dexterity Saving Throw: DC 17, each creature in a 5-foot-radius Sphere centered on that point. Failure: 24 (7d6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition. Success: Half damage only."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": ["Leap. The ape jumps up to 30 feet by spending 10 feet of movement."]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-c83004d1d8da1954b9efe034",
@@ -38327,48 +38183,22 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 52",
-              "Hit dice · 7d10 + 14",
-              "Challenge · 3",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "XP · 700",
-              "Str · 16",
-              "Dex · 13",
-              "Con · 15",
-              "Int · 1",
-              "Wis · 9",
-              "Cha · 3",
-              "Initiative · +1 (11)",
-              "Proficiency bonus · +2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses Blindsight 60 ft.; Passive Perception 9 Languages None"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The scorpion makes two Claw attacks and one Sting attack. Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws. Sting. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/giant-scorpion.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_scorpion"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
       },
       {
         "id": "printing-8c3480647b143a7941be0052",
@@ -38414,74 +38244,24 @@
       {
         "id": "printing-aa5c9ff2850b9d6fc2162f58",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 52",
-              "Hit dice · 7d10 + 14",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 9",
-              "XP · 700",
-              "Str · 16",
-              "Dex · 13",
-              "Con · 15",
-              "Int · 1",
-              "Wis · 9",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +3", "Dex +1", "Con +2", "Int -5", "Wis -1", "Cha -4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "An ochre scorpion with a thick segmented body, broad pincers, and a curved tail tipped with a raised stinger."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +1 (11). Proficiency bonus +2. Blindsight 60 ft. Passive Perception 9. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 359. https://www.dndbeyond.com/monsters/5195026-giant-scorpion"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Claw attacks and one Sting attack.\n\nClaw. Melee attack roll +5, reach 5 ft. On a hit, deal 6 (1d6 + 3) bludgeoning damage. A Large or smaller creature is grappled by one of the scorpion’s two claws (escape DC 13).\n\nSting. Melee attack roll +5, reach 5 ft. On a hit, deal 7 (1d8 + 3) piercing damage plus 11 (2d10) poison damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20scorpion_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/58417/123/1000/1000/639226714851940076.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/giant-scorpion.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_scorpion"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-8a69f4dc4c5c304b5d94902e",
@@ -39903,50 +39683,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 26",
-              "Hit dice · 4d10 + 4",
-              "Challenge · 1",
-              "Type · Beast",
-              "Speed · 30 ft., Climb 30 ft.",
-              "XP · 200",
-              "Str · 14",
-              "Dex · 16",
-              "Con · 12",
-              "Int · 2",
-              "Wis · 11",
-              "Cha · 4",
-              "Initiative · +3 (13)",
-              "Proficiency bonus · +2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_spider"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +4, Stealth +7 Senses Darkvision 60 ft.; Passive Perception 14 Languages None"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check. Web Walker. The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage. Web (Recharge 5–6). Dexterity Saving Throw: DC 13, one creature the spider can see within 60 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage)."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-fb0aa45868a4801b9c0b70f0",
@@ -41407,50 +41153,22 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/4",
-              "Type · Beast",
-              "Speed · 40 ft., Swim 40 ft.",
-              "XP · 50",
-              "Str · 10",
-              "Dex · 18",
-              "Con · 13",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 3",
-              "Initiative · +4 (14)",
-              "Proficiency bonus · +2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +2 Senses Blindsight 10 ft.; Passive Perception 12 Languages None"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 6 (1d4 + 4) Piercing damage plus 4 (1d8) Poison damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/giant-venomous-snake.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_venomous_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
       },
       {
         "id": "printing-f86977cd56f597d725b144ab",
@@ -41983,54 +41701,22 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1/2",
-              "Type · Beast",
-              "Speed · 10 ft., Fly 50 ft.",
-              "XP · 100",
-              "Str · 10",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3",
-              "Initiative · +2 (12)",
-              "Proficiency bonus · +2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses Passive Perception 10 Languages None"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. The wasp doesn’t provoke an Opportunity Attack when it flies out of an enemy’s reach."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Sting. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/giant-wasp.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_wasp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
       },
       {
         "id": "printing-4ba409924331bf724a3119c2",
@@ -42818,50 +42504,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/4",
-              "Type · Beast",
-              "Speed · 40 ft., Climb 40 ft.",
-              "XP · 50",
-              "Str · 12",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 4",
-              "Initiative · +3 (13)",
-              "Proficiency bonus · +2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_wolf_spider"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +3, Stealth +7 Senses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 13 Languages None"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-bb8a226078d8b0d16d0fa178",
@@ -52635,56 +52287,22 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 4d10",
-              "Challenge · 1",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 11",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 8",
-              "Initiative · +2 (12)",
-              "Proficiency bonus · +2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +3, Stealth +4 Senses Darkvision 60 ft.; Passive Perception 13 Languages None"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The lion has Advantage on an attack roll against a creature if at least one of the lion’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition. Running Leap. With a 10-foot running start, the lion can Long Jump up to 25 feet."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The lion makes two Rend attacks. It can replace one attack with a use of Roar. Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage. Roar. Wisdom Saving Throw: DC 11, one creature within 15 feet. Failure: The target has the Frightened condition until the start of the lion’s next turn."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/lion.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lion"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
       },
       {
         "id": "printing-592d8b90020bdc3ab0ef1c8a",
@@ -66051,46 +65669,6 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Type · Beast",
-              "Speed · 10 ft., Fly 50 ft.",
-              "XP · 10",
-              "Str · 2",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 5",
-              "Wis · 13",
-              "Cha · 6",
-              "Initiative · +2 (12)",
-              "Proficiency bonus · +2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Skills Perception +3 Senses Passive Perception 13 Languages None"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Mimicry. The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage."]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/raven.png",
@@ -66104,7 +65682,17 @@
             "file": "/assets/library/worker-art/raven-600befd6a0e33f23.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "raven"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
       },
       {
         "id": "printing-0562f6f9d2848ca581635fbe",
@@ -84280,120 +83868,44 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 5",
-              "Hit dice · 2d4",
-              "Challenge · 1/8",
-              "Type · Beast",
-              "Speed · 30 ft., Swim 30 ft.",
-              "XP · 25",
-              "Str · 2",
-              "Dex · 15",
-              "Con · 11",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3",
-              "Initiative · +2 (12)",
-              "Proficiency bonus · +2"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Senses Blindsight 10 ft.; Passive Perception 10 Languages None"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/beasts/venomous-snake.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "venomous_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
       },
       {
         "id": "printing-2af5a9bb0bab82c25de8e756",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 5",
-              "Hit dice · 2d4",
-              "Challenge · 1/8",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 30 ft., Swim 30 ft.",
-              "Passive Perception · 10",
-              "XP · 25",
-              "Str · 2",
-              "Dex · 15",
-              "Con · 11",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str -4", "Dex +2", "Con +0", "Int -5", "Wis +0", "Cha -4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "desert", "forest", "grassland", "hill", "swamp"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A slender snake with alternating ochre, dark gray, and russet bands, shown in a loose coil."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency bonus +2. Blindsight 10 ft. Passive Perception 10. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), Appendix A, p. 372. https://www.dndbeyond.com/monsters/4775847-venomous-snake"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee attack roll +4, reach 5 ft. On a hit, deal 4 (1d4 + 2) piercing damage plus 3 (1d6) poison damage."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#venomous%20snake_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/58416/782/1000/1000/639226703391554093.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/venomous-snake.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "venomous_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "art": [

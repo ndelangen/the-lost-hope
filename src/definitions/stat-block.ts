@@ -35,7 +35,12 @@ export const AbilityTextToken = z.union([
   z.string().min(1),
   z.strictObject({ speed: SpeedMode, times: z.number().positive().optional() }),
   z.strictObject({ ability: z.string().min(1).describe('Key of another ability in this block') }),
-  z.strictObject({ dc: AbilityId.describe('Save DC: 8 + proficiency + this modifier') }),
+  z.strictObject({
+    dc: AbilityId.describe('Save DC: 8 + proficiency + this modifier'),
+    save: AbilityId.optional().describe(
+      'The ability the target saves with, when it is not the one the DC is built from',
+    ),
+  }),
   z.strictObject({ mod: AbilityId }),
   z.strictObject({ pb: z.literal(true) }),
   RuleRef,

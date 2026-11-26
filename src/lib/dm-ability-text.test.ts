@@ -80,6 +80,11 @@ describe('ability text', () => {
     expect(segments[5]).toMatchObject({ kind: 'number', value: '+2', note: 'Proficiency bonus' })
   })
 
+  it('names the save when the DC is built from another ability', () => {
+    const [, dc] = abilityTextSegments(['Make a ', { dc: 'str', save: 'dex' }, ' save'], wolfie)
+    expect(dc).toMatchObject({ value: 'DC 13', note: expect.stringContaining('Dexterity saving') })
+  })
+
   it('explains conditions and standard actions', () => {
     const [prone, disengage] = abilityTextSegments(
       ['Knocked ', refs.rules.prone, ' or ', refs.rules.disengage],
