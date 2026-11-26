@@ -52,3 +52,6 @@ bunx oxfmt src/data/library src/lib/published-library-catalog && bun run generat
   and `open5e_monsters.py <creatures.json> <out.json>` makes catalog-shaped printings to add to
   `EXTRA_PRINTINGS`. Creatures the catalog lacks become new library entries. Legendary uses are
   not in Open5e's data; Kobold Press creatures are given the 5e standard of three.
+- `items_open5e.py <magicitems.json> <items.json>` (Open5e) gives items the rules Vault of Magic
+  and the SRDs print, and adds the ones the catalog lacks; per-weapon copies of one magic item
+  ("Flame Tongue Battleaxe", "… Club") with one text are kept once.
