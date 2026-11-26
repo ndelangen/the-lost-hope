@@ -780,7 +780,7 @@ export default createPublicationMonsters({
                 conditions: [rules.petrified],
                 text: [
                   'Bludgeoning damage shatters the statue and kills the creature.',
-                  'Fire damage thaws it without dealing damage and ends the petrification.',
+                  ' Fire damage thaws it without dealing damage and ends the petrification.',
                 ],
                 lasts: { kind: 'until-removed' },
               },

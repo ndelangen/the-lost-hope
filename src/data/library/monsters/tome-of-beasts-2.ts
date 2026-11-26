@@ -1826,7 +1826,7 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'con', dc: 'dex' },
                 text: [
                   'The diseased creature’s lungs fill with the spores, which kill the creature in a number of days equal to 1d10 + the creature’s Constitution score, unless the disease is removed.',
-                  'One hour after infection, the creature becomes ',
+                  ' One hour after infection, the creature becomes ',
                   rules.poisoned,
                   ' for the rest of the duration.',
                 ],
@@ -4894,8 +4894,8 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'con', dc: 'con' },
                 text: [
                   'Its hp maximum is reduced by an amount equal to the damage taken.',
-                  'This reduction lasts until the target finishes a long rest.',
-                  'The target dies if this effect reduces its hp maximum to 0.',
+                  ' This reduction lasts until the target finishes a long rest.',
+                  ' The target dies if this effect reduces its hp maximum to 0.',
                 ],
                 lasts: { kind: 'until', text: ['the target finishes a long rest'] },
               },

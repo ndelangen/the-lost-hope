@@ -1507,7 +1507,7 @@ export default createPublicationMonsters({
                 conditions: [rules.charmed],
                 text: [
                   'treats the abishai as a trusted friend to heed and protect.',
-                  'The charm ends if the abishai or its companions damage the dragon.',
+                  ' The charm ends if the abishai or its companions damage the dragon.',
                 ],
                 lasts: { kind: 'time', amount: '1', unit: 'hour' },
               },

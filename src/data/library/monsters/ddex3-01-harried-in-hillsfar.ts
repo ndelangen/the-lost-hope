@@ -105,8 +105,8 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'wis', dc: 'wis' },
                 text: [
                   'The target can’t take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4.',
-                  'The target takes no action or bonus action and uses all of its movement to move in a random direction.',
-                  '5–6. The target doesn’t move, and the only thing it can do on its turn is make a ',
+                  ' The target takes no action or bonus action and uses all of its movement to move in a random direction.',
+                  ' 5–6. The target doesn’t move, and the only thing it can do on its turn is make a ',
                   { dc: 'wis' },
                   ' Wisdom saving throw, ending the effect on itself on a success.',
                 ],

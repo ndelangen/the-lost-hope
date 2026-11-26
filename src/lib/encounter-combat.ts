@@ -49,6 +49,8 @@ export const EffectOrigin = z.discriminatedUnion('kind', [
     kind: z.literal('spell'),
     spell: entityRefOf('spell'),
     caster: z.string().optional(),
+    /** The spell's effect by key, when the spell defines it. */
+    effect: z.string().optional(),
   }),
 ])
 

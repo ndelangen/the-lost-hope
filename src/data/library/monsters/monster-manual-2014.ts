@@ -13351,7 +13351,7 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'cha', dc: 'cha', printed: 15 },
                 text: [
                   'The creature has no reactions until the start of its next turn and rolls a d8 to determine its current turn. 1–4: do nothing. 5–6: take no action and use all movement to move in a random direction. 7–8: make one melee attack against a random creature within reach, or do nothing if no creature is within reach.',
-                  'It cannot see the umber hulk until the start of its next turn. If it looks sooner, it makes the save immediately.',
+                  ' It cannot see the umber hulk until the start of its next turn. If it looks sooner, it makes the save immediately.',
                 ],
                 lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
               },

@@ -3093,7 +3093,7 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'cha', dc: 'dex' },
                 text: [
                   'Cursed for 5 days.',
-                  'Cursed creature can be detected as a fiend with spells such as detect evil and good. In addition for the duration cursed creature gains only half the benefit of magic that restores hp and gains no benefits from finishing a long rest.',
+                  ' Cursed creature can be detected as a fiend with spells such as detect evil and good. In addition for the duration cursed creature gains only half the benefit of magic that restores hp and gains no benefits from finishing a long rest.',
                 ],
                 lasts: { kind: 'time', amount: '5', unit: 'day' },
                 ends: { cure: ['Curse can be lifted by a remove curse spell or similar magic'] },

@@ -11,6 +11,7 @@ import {
   suggestFromAbility,
   suggestFromAbilityEffect,
   suggestFromSpell,
+  suggestFromSpellEffect,
   type EffectSuggestion,
 } from '#/lib/effect-suggestion'
 import type { EffectApplication, EffectOrigin } from '#/lib/encounter-combat'
@@ -303,7 +304,14 @@ export function SpellEffect({
   const [picked, setPicked] = useState<
     | { state: 'loading'; name: string }
     | { state: 'missing'; name: string }
-    | { state: 'ready'; name: string; spell: EntityRef<'spell'>; suggestion: EffectSuggestion }
+    | {
+        state: 'ready'
+        name: string
+        spell: EntityRef<'spell'>
+        /** The spell's own effects, or one first guess from its text. */
+        options: { key: string; label: string; suggestion: EffectSuggestion }[]
+        chosen?: string
+      }
   >()
 
   const pick = (choice: { key: string; name: string }) => {
@@ -318,7 +326,25 @@ export function SpellEffect({
                 state: 'ready',
                 name: choice.name,
                 spell,
-                suggestion: suggestFromSpell(loaded, { caster: caster || undefined, dc }),
+                options: loaded.effects
+                  ? loaded.effects.map((effect) => ({
+                      key: effect.key,
+                      label: effect.name,
+                      suggestion: suggestFromSpellEffect(effect, loaded, {
+                        caster: caster || undefined,
+                        dc,
+                      }),
+                    }))
+                  : [
+                      {
+                        key: '',
+                        label: choice.name,
+                        suggestion: suggestFromSpell(loaded, { caster: caster || undefined, dc }),
+                      },
+                    ],
+                ...(loaded.effects && loaded.effects.length > 1
+                  ? {}
+                  : { chosen: loaded.effects?.[0]?.key ?? '' }),
               }
             : { state: 'missing', name: choice.name },
       ),
@@ -341,7 +367,30 @@ export function SpellEffect({
   )
   const casterName = actions.combatants.find(({ id }) => id === caster)?.name
 
-  if (picked?.state === 'ready')
+  const option =
+    picked?.state === 'ready'
+      ? picked.options.find((candidate) => candidate.key === picked.chosen)
+      : undefined
+  if (picked?.state === 'ready' && !option)
+    return (
+      <div className="grid gap-2">
+        <p className="text-sm">{picked.name} can leave one of these. Which one?</p>
+        <div className="flex flex-wrap gap-2">
+          {picked.options.map((candidate) => (
+            <ActionButton
+              key={candidate.key}
+              onClick={() => setPicked({ ...picked, chosen: candidate.key })}
+            >
+              <Sparkles aria-hidden /> {candidate.label}
+            </ActionButton>
+          ))}
+          <ActionButton type="button" onClick={() => setPicked(undefined)}>
+            Choose another spell
+          </ActionButton>
+        </div>
+      </div>
+    )
+  if (picked?.state === 'ready' && option)
     return (
       <div className="grid gap-2">
         <div>
@@ -350,9 +399,22 @@ export function SpellEffect({
           </ActionButton>
         </div>
         <EffectForm
-          title={casterName ? `${picked.name}, cast by ${casterName}` : picked.name}
-          origin={{ kind: 'spell', spell: picked.spell, ...(caster ? { caster } : {}) }}
-          suggestion={picked.suggestion}
+          key={option.key}
+          title={[
+            option.key && option.label !== picked.name
+              ? `${option.label}, from ${picked.name}`
+              : picked.name,
+            casterName ? `cast by ${casterName}` : '',
+          ]
+            .filter(Boolean)
+            .join(', ')}
+          origin={{
+            kind: 'spell',
+            spell: picked.spell,
+            ...(caster ? { caster } : {}),
+            ...(option.key ? { effect: option.key } : {}),
+          }}
+          suggestion={option.suggestion}
           actions={actions}
           initialTargets={[target]}
           caster={caster || undefined}

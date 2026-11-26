@@ -144,6 +144,27 @@ function check(
     ),
   ]
   if (lost.length) problems.push(`words from the book are lost: ${lost.join(', ')}`)
+  // Pieces of text must join the way the book's do: a space between sentences and words.
+  const lists = [
+    text,
+    ...effects.flatMap((effect) =>
+      effect
+        ? [effect.text ?? [], effect.lasts.kind === 'until' ? effect.lasts.text : [], effect.ends?.cure ?? []]
+        : [],
+    ),
+  ]
+  for (const list of lists as Token[][])
+    for (let index = 1; index < list.length; index++) {
+      const left = list[index - 1]
+      const right = list[index]
+      if (
+        typeof left === 'string' &&
+        typeof right === 'string' &&
+        /[\w.,;:!?)]$/.test(left) &&
+        /^[\w(]/.test(right)
+      )
+        problems.push(`no space between "${left.slice(-12)}" and "${right.slice(0, 12)}"`)
+    }
   return problems
 }
 

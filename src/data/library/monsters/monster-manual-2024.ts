@@ -2066,7 +2066,7 @@ export default createPublicationMonsters({
                 conditions: [rules.incapacitated],
                 text: [
                   'It spends all its movement going in a random direction on each of its turns while affected.',
-                  'The target succeeds automatically after 1 minute.',
+                  ' The target succeeds automatically after 1 minute.',
                 ],
                 lasts: { kind: 'time', amount: '1', unit: 'minute' },
                 ends: { repeatSave: ['end-of-turn'] },
@@ -4209,8 +4209,8 @@ export default createPublicationMonsters({
                 conditions: [rules.charmed, rules.incapacitated],
                 text: [
                   "ignores other harpies' Luring Songs.",
-                  'If it is more than 5 ft. away on its turn, it follows the most direct route toward the harpy, trying to get within 5 ft. It does not avoid Opportunity Attacks for this movement.',
-                  'The target repeats the save at the end of each of its turns, before entering damaging terrain, and whenever a source other than the harpy damages it.',
+                  ' If it is more than 5 ft. away on its turn, it follows the most direct route toward the harpy, trying to get within 5 ft. It does not avoid Opportunity Attacks for this movement.',
+                  ' The target repeats the save at the end of each of its turns, before entering damaging terrain, and whenever a source other than the harpy damages it.',
                 ],
                 lasts: { kind: 'until', text: ['the song ends'] },
                 ends: { repeatSave: ['end-of-turn', 'damaged'] },
@@ -4317,7 +4317,7 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'cha', dc: 'cha' },
                 text: [
                   'Swallowed creatures have Total Cover against attacks and effects from outside the revenant.',
-                  'As long as the revenant has HP, a swallowed creature can escape its space only through magic that enables planar travel, such as Plane Shift.',
+                  ' As long as the revenant has HP, a swallowed creature can escape its space only through magic that enables planar travel, such as Plane Shift.',
                 ],
                 lasts: { kind: 'until-removed' },
               },

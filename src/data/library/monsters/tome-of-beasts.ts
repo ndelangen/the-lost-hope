@@ -557,7 +557,7 @@ export default createPublicationMonsters({
                   'For the duration, attacks that cause lightning damage have advantage against this creature, the creature has disadvantage on saving throws against lightning damage and lightning effects, and if the creature takes lightning damage, it is ',
                   rules.paralyzed,
                   ' until the end of its next turn.',
-                  'An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+                  ' An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.',
                 ],
                 lasts: { kind: 'time', amount: '1', unit: 'minute' },
                 ends: { repeatSave: ['end-of-turn'] },
@@ -829,7 +829,7 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'str', dc: 'str', printed: 14 },
                 text: [
                   'It is immediately out of breath and begins suffocating.',
-                  'Suffocation ends if the grapple is broken or if the bereginyas is killed.',
+                  ' Suffocation ends if the grapple is broken or if the bereginyas is killed.',
                 ],
                 lasts: {
                   kind: 'until',
@@ -5231,9 +5231,9 @@ export default createPublicationMonsters({
                 lands: { on: 'failed-save' },
                 text: [
                   'The creature is bleeding profusely.',
-                  'On a successful save the creature takes no necrotic damage and the effect ends.',
-                  "A creature takes only 10 necrotic damage per turn from this effect no matter how many times it's been bitten, and a single successful saving throw ends all bleeding.",
-                  'Constructs and undead are immune to the bleeding effect.',
+                  ' On a successful save the creature takes no necrotic damage and the effect ends.',
+                  " A creature takes only 10 necrotic damage per turn from this effect no matter how many times it's been bitten, and a single successful saving throw ends all bleeding.",
+                  ' Constructs and undead are immune to the bleeding effect.',
                 ],
                 lasts: { kind: 'until-removed' },
                 ends: {
@@ -5712,7 +5712,7 @@ export default createPublicationMonsters({
                 },
                 text: [
                   'the creature becomes drenched in musk.',
-                  'Serpopard musk (and the poisoning) wear off naturally in 1d4 hours.',
+                  ' Serpopard musk (and the poisoning) wear off naturally in 1d4 hours.',
                 ],
               },
               {

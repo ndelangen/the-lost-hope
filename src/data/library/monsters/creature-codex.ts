@@ -1641,7 +1641,7 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'cha', dc: 'cha' },
                 text: [
                   'The dhampir has advantage on Charisma checks against the target.',
-                  'If the dhampir or any of its allies damage the target, the effect ends.',
+                  ' If the dhampir or any of its allies damage the target, the effect ends.',
                 ],
                 lasts: { kind: 'time', amount: '1', unit: 'hour' },
               },
@@ -1767,7 +1767,7 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'cha', dc: 'cha' },
                 text: [
                   'The dhampir has advantage on Charisma checks against the target.',
-                  'If the dhampir or any of its allies damage the target, the effect ends.',
+                  ' If the dhampir or any of its allies damage the target, the effect ends.',
                 ],
                 lasts: { kind: 'time', amount: '1', unit: 'hour' },
               },
@@ -3003,8 +3003,8 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'con', dc: 'con' },
                 text: [
                   'Its hp maximum is reduced by an amount equal to the necrotic damage taken.',
-                  'This reduction lasts until the target finishes a long rest.',
-                  'The target dies if this effect reduces its hp maximum to 0.',
+                  ' This reduction lasts until the target finishes a long rest.',
+                  ' The target dies if this effect reduces its hp maximum to 0.',
                 ],
                 lasts: { kind: 'until', text: ['the target finishes a long rest'] },
               },
@@ -3185,8 +3185,8 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'con', dc: 'str' },
                 text: [
                   'Its hp maximum is reduced by an amount equal to the necrotic damage taken.',
-                  'This reduction lasts until the target finishes a long rest.',
-                  'The target dies if this effect reduces its hp maximum to 0.',
+                  ' This reduction lasts until the target finishes a long rest.',
+                  ' The target dies if this effect reduces its hp maximum to 0.',
                 ],
                 lasts: { kind: 'until', text: ['the target finishes a long rest'] },
               },
@@ -3409,7 +3409,7 @@ export default createPublicationMonsters({
                 conditions: [rules.charmed],
                 text: [
                   "The target obeys the fiend's commands.",
-                  'If the target suffers any harm or receives a suicidal command, it can repeat the saving throw to end the effect.',
+                  ' If the target suffers any harm or receives a suicidal command, it can repeat the saving throw to end the effect.',
                 ],
                 lasts: { kind: 'until', text: ['dawn'] },
               },

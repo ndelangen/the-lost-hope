@@ -189,7 +189,7 @@ export default createPublicationMonsters({
                 conditions: [rules.grappled, rules.restrained],
                 text: [
                   'Escape DC 13.',
-                  'The water weird tries to drown it, and the water weird can’t constrict another target.',
+                  ' The water weird tries to drown it, and the water weird can’t constrict another target.',
                 ],
                 lasts: { kind: 'until-removed' },
               },

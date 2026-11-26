@@ -1,8 +1,11 @@
 import { z } from 'zod'
 
+import { ABILITY_KEYS, CONDITION_KEYS } from '#/lib/rules'
+
 import { Content } from './content'
 import { entityRefOf } from './kind'
 import { PrintedStatBlock } from './stat-block'
+import { statusEffectSchemas } from './status-effect'
 
 /** The rules a publication is written for; it decides how its stat blocks read. */
 export const RULESETS = ['5e-2014', '5e-2024'] as const
@@ -94,6 +97,49 @@ export const SPELL_SCHOOLS = [
 ] as const
 
 /** A spell as its publication prints it. Stat blocks name spells by ref, never by text. */
+const spellEffectSchemas = statusEffectSchemas(
+  z.union([z.string().min(1), entityRefOf('rule')]),
+  z.strictObject({ dc: z.literal('spell') }).describe('Against the caster’s spell save DC'),
+)
+
+/**
+ * What a spell leaves on its targets, as a sub-entity of the spell (see `./status-effect`). The
+ * spell's printed text stays as published; its effects say the same in a form the encounter
+ * tracker applies. Save DCs are the caster's spell save DC.
+ */
+export const SpellEffect = z
+  .strictObject({
+    ...spellEffectSchemas.shape,
+    lands: z
+      .discriminatedUnion('on', [
+        z
+          .strictObject({ on: z.literal('failed-save'), save: z.enum(ABILITY_KEYS) })
+          .describe('When a target fails this save against the spell save DC'),
+        z.strictObject({ on: z.literal('hit') }).describe('When the spell attack hits'),
+        z
+          .strictObject({ on: z.literal('use') })
+          .describe('No roll: it lands on each target, willing or not'),
+      ])
+      .describe('How it lands on a target'),
+  })
+  .superRefine((effect, context) => {
+    if (!effect.conditions && !effect.text)
+      context.addIssue({ code: 'custom', message: `${effect.key}: needs conditions or text` })
+    for (const condition of effect.conditions ?? [])
+      if (!(CONDITION_KEYS as readonly string[]).includes(condition.key))
+        context.addIssue({
+          code: 'custom',
+          message: `${effect.key}: ${condition.key} is not a condition`,
+        })
+    if (effect.ends?.repeatSave && effect.lands.on !== 'failed-save')
+      context.addIssue({
+        code: 'custom',
+        message: `${effect.key}: repeats a save it never called for`,
+      })
+  })
+
+export type SpellEffect = z.infer<typeof SpellEffect>
+
 export const Spell = z.strictObject({
   name: z.string().trim().min(1),
   level: z.number().int().min(0).max(9).describe('0 for a cantrip'),
@@ -104,6 +150,15 @@ export const Spell = z.strictObject({
   components: z.string().trim().min(1).describe('As printed, e.g. `V, S, M (a feather)`'),
   duration: z.string().trim().min(1),
   text: Content,
+  effects: z
+    .array(SpellEffect)
+    .min(1)
+    .refine(
+      (effects) => new Set(effects.map((effect) => effect.key)).size === effects.length,
+      'Effect keys are unique within the spell',
+    )
+    .optional()
+    .describe('What it leaves on its targets, for the tracker to apply'),
   publication: PublicationRef,
 })
 

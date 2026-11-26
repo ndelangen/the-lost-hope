@@ -4645,8 +4645,8 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'wis', dc: 'con' },
                 text: [
                   'A target can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn.',
-                  'In addition, the target can take either an action or a bonus action on its turn, not both.',
-                  'These effects last for 1 minute.',
+                  ' In addition, the target can take either an action or a bonus action on its turn, not both.',
+                  ' These effects last for 1 minute.',
                 ],
                 lasts: { kind: 'time', amount: '1', unit: 'minute' },
                 ends: { repeatSave: ['end-of-turn'] },

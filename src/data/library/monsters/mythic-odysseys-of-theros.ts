@@ -866,7 +866,7 @@ export default createPublicationMonsters({
                 conditions: [rules.charmed],
                 text: [
                   'Idolizing the satyr and joining its revels.',
-                  'The charm ends after 1 hour, if the target takes damage, if the satyr attacks it, or if it sees the satyr attack or damage one of its allies.',
+                  ' The charm ends after 1 hour, if the target takes damage, if the satyr attacks it, or if it sees the satyr attack or damage one of its allies.',
                 ],
                 lasts: { kind: 'time', amount: '1', unit: 'hour' },
               },

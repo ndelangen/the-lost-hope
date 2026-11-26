@@ -2706,8 +2706,8 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'wis', dc: 'wis' },
                 text: [
                   'It moves one round forward in time.',
-                  'It vanishes for that round and then reappears in the space it left.',
-                  'If that space is occupied, it reappears in the nearest unoccupied space.',
+                  ' It vanishes for that round and then reappears in the space it left.',
+                  ' If that space is occupied, it reappears in the nearest unoccupied space.',
                 ],
                 lasts: { kind: 'time', amount: '1', unit: 'round' },
               },

@@ -1,6 +1,7 @@
 import type { Content } from '#/definitions/content'
-import type { Spell } from '#/definitions/library'
+import type { Spell, SpellEffect } from '#/definitions/library'
 import type { Ability, AbilityEffect } from '#/definitions/stat-block'
+import { EFFECT_SAVE_MOMENTS } from '#/definitions/status-effect'
 
 import {
   abilityTextSegments,
@@ -306,5 +307,79 @@ export function suggestFromAbilityEffect(
     candidates: [],
     text: text || undefined,
     duration: turnly ?? { kind: 'until-removed' },
+  }
+}
+
+const momentWords = (moments: readonly string[]) =>
+  moments
+    .map((moment) => EFFECT_SAVE_MOMENTS[moment as keyof typeof EFFECT_SAVE_MOMENTS])
+    .join(' or ')
+
+const spellTokens = (tokens: readonly (string | { ref: 'rule'; key: string })[]) =>
+  tokens
+    .map((token) =>
+      typeof token === 'string'
+        ? token
+        : ((rules as Readonly<Record<string, { name: string }>>)[token.key]?.name ?? token.key),
+    )
+    .join('')
+
+/**
+ * What an effect a spell defines does, with the caster's save DC: its turn-based duration in this
+ * fight's turns, and in the rider what the turn order can't track.
+ */
+export function suggestFromSpellEffect(
+  effect: SpellEffect,
+  spell: Pick<Spell, 'duration'>,
+  { caster, dc }: { caster: string | undefined; dc: number },
+): EffectSuggestion {
+  const { lasts } = effect
+  const save = effect.lands.on === 'failed-save' ? { dc, ability: effect.lands.save } : undefined
+  const duration: DurationChoice | undefined =
+    effect.ends?.repeatSave?.includes('end-of-turn') && save
+      ? { kind: 'save-ends', ...save }
+      : lasts.kind === 'turn' && (lasts.whose === 'target' || caster)
+        ? {
+            kind: lasts.boundary === 'end' ? 'end-of-turn' : 'start-of-turn',
+            of: lasts.whose === 'target' ? EACH_TARGET : caster!,
+          }
+        : lasts.kind === 'time' &&
+            /^\d+$/.test(lasts.amount) &&
+            lasts.unit !== 'hour' &&
+            lasts.unit !== 'day'
+          ? {
+              kind: 'rounds',
+              rounds: Number(lasts.amount) * (lasts.unit === 'minute' ? 10 : 1),
+              of: EACH_TARGET,
+            }
+          : undefined
+  const howLong =
+    lasts.kind === 'time'
+      ? `${lasts.amount} ${lasts.unit}${lasts.amount === '1' ? '' : 's'}`
+      : lasts.kind === 'until'
+        ? `until ${spellTokens(lasts.text)}`
+        : ''
+  const ends = [
+    effect.ends?.repeatSave && save && !duration?.kind.startsWith('save')
+      ? `A DC ${dc} ${rules[save.ability].name} save ${momentWords(effect.ends.repeatSave)} ends it.`
+      : effect.ends?.repeatSave?.some((moment) => moment !== 'end-of-turn') && save
+        ? `Also saves ${momentWords(effect.ends.repeatSave.filter((moment) => moment !== 'end-of-turn'))}.`
+        : '',
+    effect.ends?.escape ? `Escape: a check against DC ${dc}.` : '',
+    effect.ends?.cure ? `Ends early: ${spellTokens(effect.ends.cure)}.` : '',
+  ]
+  return {
+    conditions: (effect.conditions ?? []).map((ref) => ref.key).filter(isCondition),
+    candidates: [],
+    text:
+      [
+        effect.text ? spellTokens(effect.text) : '',
+        !duration && howLong ? `Lasts ${howLong}.` : '',
+        ...ends,
+      ]
+        .filter(Boolean)
+        .join(' ') || undefined,
+    duration: duration ?? { kind: 'until-removed' },
+    concentration: /^concentration/i.test(spell.duration),
   }
 }
