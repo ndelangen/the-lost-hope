@@ -12,6 +12,11 @@ because it follows `refs.*` links and backlinks, derives what the party has met,
 data changes.
 
 - Start with `overview`. Read records with `get`, `links`, `timeline`, `motives`, `met` and `arc`.
+- For the published library (creatures, spells, magic items, equipment, species, NPCs, rules,
+  encounter ideas), use `library_search` and `library_get`. `get` and `check_idea` also show the
+  library entries their records point at, and `check_idea` the ones an idea names in capitals.
+  Library entries are rules reference, not canon: the party has met none of them unless campaign
+  data says so.
 - Run `check_idea` on every suggestion before proposing it, and resolve each warning: a
   contradicted event or motivation, a retired PC, a dead NPC, or a reveal of a record the party has
   not met.

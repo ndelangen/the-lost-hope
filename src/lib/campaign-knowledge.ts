@@ -4,9 +4,11 @@ import type { Event } from '#/definitions/event'
 import {
   DM_ENTITY_KINDS,
   ENTITY_KINDS,
+  LIBRARY_KINDS,
   type DmEntityKind,
   type EntityKind,
   type EntityRef,
+  type LibraryKind,
 } from '#/definitions/kind'
 import { campaignToday, effectEntry, getEntity } from '#/lib/campaign'
 import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
@@ -108,6 +110,34 @@ export function resolveQuery(query: string): KnowledgeRef[] {
   if (shortest && group.every((ref) => nameOf(ref).includes(nameOf(shortest)))) return [shortest]
   const named = groups.flat()
   return [...named, ...partial.filter((ref) => ref.ref === 'event')].slice(0, 10)
+}
+
+const LIBRARY_KIND_SET: ReadonlySet<string> = new Set(LIBRARY_KINDS)
+
+function isLibraryRef(value: unknown): value is EntityRef<LibraryKind> {
+  return (
+    !!value &&
+    typeof value === 'object' &&
+    typeof (value as EntityRef<LibraryKind>).key === 'string' &&
+    LIBRARY_KIND_SET.has((value as EntityRef<LibraryKind>).ref)
+  )
+}
+
+/** `refs.magicItems.bag_of_holding`: a library entry, which the library tools read. */
+function libraryRefText(ref: EntityRef<LibraryKind>): string {
+  const plural = ref.ref === 'equipment' ? 'equipment' : `${ref.ref}s`
+  return `refs.${plural}.${ref.key} (library)`
+}
+
+/** Every library entry a value points at, such as a campaign item's `library` entry. */
+function collectLibrary(value: unknown, out: EntityRef<LibraryKind>[]): void {
+  if (!value || typeof value !== 'object') return
+  if (isLibraryRef(value)) {
+    if (!out.some((ref) => ref.ref === value.ref && ref.key === value.key)) out.push(value)
+    return
+  }
+  for (const child of Array.isArray(value) ? value : Object.values(value))
+    collectLibrary(child, out)
 }
 
 function aliasesOf(record: SourceRecord): string[] {
@@ -276,6 +306,7 @@ function renderValue(value: unknown): string {
   }
   if (value instanceof Date) return value.toISOString().slice(0, 10)
   if (isKnowledgeRef(value) || (value as { ref?: unknown }).ref === 'rule') return sourceText(value)
+  if (isLibraryRef(value)) return libraryRefText(value)
   if (isMembership(value)) {
     return `${value.rank}, ${sourceText(value.organization)}${value.status === 'active' ? '' : ` (${value.status})`}`
   }
@@ -896,15 +927,40 @@ function openQuestionsAbout(refs: readonly KnowledgeRef[]): string[] {
  * with visibility, motivations, secrets, recent events, effects, and open plots, plus warnings for
  * the usual conflicts. The judgement itself stays with the caller.
  */
-export function checkIdea(idea: string, involves: readonly string[] = []): string {
+function ideaRecords(idea: string, involves: readonly string[]) {
   const refs = new Map<string, KnowledgeRef>()
-  const unresolved: string[] = []
+  const unresolved: { query: string; reason: string }[] = []
   for (const query of involves) {
     const ref = resolveOne(query)
-    if (typeof ref === 'string') unresolved.push(ref)
+    if (typeof ref === 'string') unresolved.push({ query, reason: ref })
     else refs.set(refId(ref), ref)
   }
   for (const ref of mentionsIn(idea)) refs.set(refId(ref), ref)
+  return { refs, unresolved }
+}
+
+/**
+ * What the library side of a canon check needs: the library entries the idea's records point at,
+ * and the `involves` names that are not campaign records, which may be library entries.
+ */
+export function ideaLibraryContext(idea: string, involves: readonly string[] = []) {
+  const { refs, unresolved } = ideaRecords(idea, involves)
+  const pointers: EntityRef<LibraryKind>[] = []
+  for (const ref of refs.values()) collectLibrary(recordOf(ref), pointers)
+  return { pointers, queries: unresolved.map(({ query }) => query) }
+}
+
+/** The library entries a record points at, such as the Bag of Holding an item is one of. */
+export function libraryPointersOf(query: string): EntityRef<LibraryKind>[] {
+  const ref = resolveOne(query)
+  if (typeof ref === 'string') return []
+  const pointers: EntityRef<LibraryKind>[] = []
+  collectLibrary(recordOf(ref), pointers)
+  return pointers
+}
+
+export function checkIdea(idea: string, involves: readonly string[] = []): string {
+  const { refs, unresolved } = ideaRecords(idea, involves)
 
   const latest = chronology().at(-1)
   const out = [
@@ -930,7 +986,12 @@ export function checkIdea(idea: string, involves: readonly string[] = []): strin
       ...questions,
     )
   }
-  if (unresolved.length > 0) out.push('', '## Could not resolve', ...unresolved)
+  if (unresolved.length > 0)
+    out.push(
+      '',
+      '## Not campaign records (the library section says if they are library entries)',
+      ...unresolved.map(({ reason }) => reason),
+    )
   return out.join('\n')
 }
 
