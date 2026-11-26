@@ -62,12 +62,16 @@ export default createNPC({
           ability: 'str',
           damage: [{ dice: '1d4', type: refs.rules.bludgeoning, addModifier: true }],
         },
-        text: [
-          'A Medium or smaller target has the ',
-          refs.rules.grappled,
-          ' condition (escape ',
-          { dc: 'str' },
-          ').',
+        text: ['A Medium or smaller target is ', { effect: 'grabbed' }, '.'],
+        effects: [
+          {
+            key: 'grabbed',
+            name: 'Grabbed',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.grappled],
+            lasts: { kind: 'until-removed' },
+            ends: { escape: { dc: 'str' } },
+          },
         ],
       },
     ],

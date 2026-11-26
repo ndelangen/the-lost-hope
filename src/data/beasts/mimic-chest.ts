@@ -27,13 +27,20 @@ export default createBeast({
         timing: 'trait',
         icon: 'lucide/Link',
         text: [
-          'Anything that touches the mimic sticks to it. A Huge or smaller creature stuck to it has the ',
-          refs.rules.grappled,
-          ' condition (escape ',
-          { dc: 'str' },
-          '), and ability checks to escape have ',
-          refs.rules.disadvantage,
+          'Anything that touches the mimic sticks to it. A Huge or smaller creature stuck to it has ',
+          { effect: 'stuck' },
           '.',
+        ],
+        effects: [
+          {
+            key: 'stuck',
+            name: 'Stuck to the mimic',
+            lands: { on: 'use' },
+            conditions: [refs.rules.grappled],
+            text: ['Ability checks to escape have ', refs.rules.disadvantage, '.'],
+            lasts: { kind: 'until-removed' },
+            ends: { escape: { dc: 'str' } },
+          },
         ],
       },
       {
@@ -66,14 +73,17 @@ export default createBeast({
             { dice: '1d8', type: refs.rules.acid },
           ],
         },
-        text: [
-          'A Large or smaller target has the ',
-          refs.rules.grappled,
-          ' condition (escape ',
-          { dc: 'str' },
-          '), with ',
-          refs.rules.disadvantage,
-          ' on checks to escape.',
+        text: ['A Large or smaller target has ', { effect: 'grappled' }, '.'],
+        effects: [
+          {
+            key: 'grappled',
+            name: 'Grappled',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.grappled],
+            text: [refs.rules.disadvantage, ' on checks to escape.'],
+            lasts: { kind: 'until-removed' },
+            ends: { escape: { dc: 'str' } },
+          },
         ],
       },
       {

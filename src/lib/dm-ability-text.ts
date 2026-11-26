@@ -1,6 +1,7 @@
 import { spellNames } from '#/data/generated/spell-names'
 import type { EntityRef } from '#/definitions/kind'
-import type { AbilityTextToken } from '#/definitions/stat-block'
+import type { Ability, AbilityEffect, AbilityTextToken } from '#/definitions/stat-block'
+import { EFFECT_SAVE_MOMENTS } from '#/definitions/status-effect'
 
 import type { DmStep } from './ability-steps'
 import { ruleOf, rules, termLabel, type AbilityId, type RuleRef } from './rules'
@@ -36,6 +37,8 @@ export type DerivedStatBlock = {
   proficiencyBonus: number
   /** Plain DM steps per ability key, from `src/lib/ability-steps.ts`. */
   steps?: Readonly<Record<string, readonly DmStep[]>>
+  /** Effects by key, unique in the stat block, with the ability that owns each. */
+  effects?: Readonly<Record<string, { ability: Ability; effect: AbilityEffect }>>
 }
 
 export type AbilityTextSegment =
@@ -45,6 +48,7 @@ export type AbilityTextSegment =
   | { kind: 'number'; value: string; note: string }
   | { kind: 'rule'; rule: RuleRef; label: string }
   | { kind: 'spell'; spell: EntityRef<'spell'> }
+  | { kind: 'effect'; key: string; summary: string; details: string }
 
 export function formatFeet(feet: number) {
   const whole = Math.floor(feet)
@@ -66,6 +70,13 @@ function segmentFor(
   textBefore: string,
 ): AbilityTextSegment {
   if (typeof token === 'string') return { kind: 'text', text: token }
+
+  if ('effect' in token) {
+    const owned = block.effects?.[token.effect]
+    if (!owned) return { kind: 'text', text: token.effect }
+    const { summary, details } = describeAbilityEffect(owned.effect, owned.ability, block)
+    return { kind: 'effect', key: token.effect, summary, details }
+  }
 
   if ('ref' in token) {
     if (token.ref === 'spell') return { kind: 'spell', spell: token }
@@ -157,7 +168,66 @@ export function plainAbilityText(segments: readonly AbilityTextSegment[]) {
           return segment.label
         case 'spell':
           return spellNames[segment.spell.key] ?? segment.spell.key
+        case 'effect':
+          return segment.summary
       }
     })
     .join('')
+}
+
+const plainTokens = (tokens: readonly AbilityTextToken[], block: DerivedStatBlock) =>
+  plainAbilityText(
+    abilityTextSegments(
+      // An effect's own text never points at another effect.
+      tokens.filter((token) => typeof token === 'string' || !('effect' in token)),
+      block,
+    ),
+  ).trim()
+
+const joinOr = (parts: readonly string[]) =>
+  parts.length < 2 ? (parts[0] ?? '') : `${parts.slice(0, -1).join(', ')} or ${parts.at(-1)}`
+
+/**
+ * An effect read aloud: `summary` for the text it sits in ("Paralyzed until the end of its next
+ * turn"), `details` for its popover (what else it does, and what ends it).
+ */
+export function describeAbilityEffect(
+  effect: AbilityEffect,
+  ability: Pick<Ability, 'save'>,
+  block: DerivedStatBlock,
+) {
+  const conditions = (effect.conditions ?? []).map((ref) => ruleOf(ref).name)
+  const what = conditions.length ? conditions.join(' and ') : effect.name
+  const { lasts } = effect
+  const howLong =
+    lasts.kind === 'turn'
+      ? `until the ${lasts.boundary} of ${lasts.whose === 'target' ? 'its' : 'the source’s'} next turn`
+      : lasts.kind === 'time'
+        ? `for ${lasts.amount} ${lasts.unit}${lasts.amount === '1' ? '' : 's'}`
+        : lasts.kind === 'until'
+          ? `until ${plainTokens(lasts.text, block)}`
+          : ''
+  const save =
+    effect.lands.on === 'save'
+      ? { ability: effect.lands.save, dc: effect.lands.printed ?? block.saveDc[effect.lands.dc] }
+      : effect.lands.on === 'failed-save' && ability.save
+        ? {
+            ability: ability.save.ability,
+            dc: ability.save.printedDc ?? block.saveDc[ability.save.dc],
+          }
+        : undefined
+  const ends: string[] = []
+  if (effect.ends?.repeatSave && save)
+    ends.push(
+      `DC ${save.dc} ${rules[save.ability].name} save ${joinOr(effect.ends.repeatSave.map((moment) => EFFECT_SAVE_MOMENTS[moment]))} ends it`,
+    )
+  if (effect.ends?.escape)
+    ends.push(`escape DC ${effect.ends.escape.printed ?? block.saveDc[effect.ends.escape.dc]}`)
+  if (effect.ends?.cure) ends.push(`cured by ${plainTokens(effect.ends.cure, block)}`)
+  const summary = [what, howLong].filter(Boolean).join(' ')
+  const rider = effect.text ? plainTokens(effect.text, block) : ''
+  const ending = ends.length
+    ? `${ends.join('; ')}.`.replace(/^./, (first) => first.toUpperCase())
+    : ''
+  return { summary, howLong, rider, ending, details: [rider, ending].filter(Boolean).join(' ') }
 }

@@ -38,7 +38,13 @@ const ConditionDuration = z.discriminatedUnion('kind', [
  * ability's key in its stat block) or a spell from the library, cast by a combatant.
  */
 export const EffectOrigin = z.discriminatedUnion('kind', [
-  z.strictObject({ kind: z.literal('ability'), combatant: z.string(), ability: z.string() }),
+  z.strictObject({
+    kind: z.literal('ability'),
+    combatant: z.string(),
+    ability: z.string(),
+    /** The ability's effect by key, when its stat block defines it. */
+    effect: z.string().optional(),
+  }),
   z.strictObject({
     kind: z.literal('spell'),
     spell: entityRefOf('spell'),

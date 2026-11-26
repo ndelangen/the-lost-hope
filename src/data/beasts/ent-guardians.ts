@@ -73,12 +73,20 @@ export default createBeast({
           dc: 'str',
           target: { creatures: 1, range: 10 },
           onFail: {
-            conditions: [refs.rules.restrained],
-            also: ['It lasts until the end of its next turn.'],
+            also: [{ effect: 'rooted' }],
           },
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [
+          {
+            key: 'rooted',
+            name: 'Rooted',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.restrained],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+          },
+        ],
       },
     ],
     source: {

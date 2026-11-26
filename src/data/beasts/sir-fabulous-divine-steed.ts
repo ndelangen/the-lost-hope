@@ -94,7 +94,16 @@ export default createBeast({
             },
           ],
         },
-        text: ['If the target is Large or smaller, it has the ', refs.rules.prone, ' condition.'],
+        text: ['If the target is Large or smaller, it has ', { effect: 'prone' }, '.'],
+        effects: [
+          {
+            key: 'prone',
+            name: 'Prone',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
       },
       {
         key: 'fell-glare',
@@ -102,13 +111,21 @@ export default createBeast({
         timing: 'reaction',
         icon: 'gi/GiSunbeams',
         text: ['When a creature within 60 ft. hits Devan:'],
+        effects: [
+          {
+            key: 'frightened',
+            name: 'Frightened',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.frightened],
+            lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+          },
+        ],
         save: {
           ability: 'wis',
           dc: 'cha',
           target: { creatures: 1, range: 60, which: 'that hit Devan' },
           onFail: {
-            conditions: [refs.rules.frightened],
-            also: ['It lasts until the end of its next turn.'],
+            also: [{ effect: 'frightened' }],
           },
         },
       },

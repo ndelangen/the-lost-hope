@@ -89,6 +89,28 @@ function Segment({
       return <SpellTerm spell={segment.spell} />
     case 'ability':
       return <AbilityChip segment={segment} chip={chip} referenced={describe?.(segment.key)} />
+    case 'effect':
+      return (
+        <HoverPreview
+          interactive
+          content={
+            <>
+              <strong>{segment.summary}</strong>
+              {segment.details ? <span>{segment.details}</span> : null}
+            </>
+          }
+        >
+          <button
+            type="button"
+            className={cn(
+              chip,
+              'cursor-help bg-amber-500/15 font-medium text-amber-900 dark:text-amber-200',
+            )}
+          >
+            {segment.summary}
+          </button>
+        </HoverPreview>
+      )
   }
 }
 

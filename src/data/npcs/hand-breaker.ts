@@ -73,7 +73,16 @@ export default createNPC({
           ability: 'str',
           damage: [{ dice: '2d4', type: refs.rules.bludgeoning, addModifier: true }],
         },
-        text: ['A Large or smaller target falls ', refs.rules.prone, '.'],
+        text: ['A Large or smaller target is ', { effect: 'knocked-prone' }, '.'],
+        effects: [
+          {
+            key: 'knocked-prone',
+            name: 'Knocked prone',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
       },
       {
         key: 'parry',

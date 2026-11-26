@@ -1,8 +1,16 @@
 import { z } from 'zod'
 
-import { ABILITY_KEYS, CREATURE_TYPE_KEYS, SENSE_KEYS, SIZE_KEYS, SKILL_KEYS } from '#/lib/rules'
+import {
+  ABILITY_KEYS,
+  CONDITION_KEYS,
+  CREATURE_TYPE_KEYS,
+  SENSE_KEYS,
+  SIZE_KEYS,
+  SKILL_KEYS,
+} from '#/lib/rules'
 
 import { entityRefOf } from './kind'
+import { EffectKey, statusEffectSchemas } from './status-effect'
 
 export const ABILITY_TIMINGS = ['action', 'bonus action', 'reaction', 'trait'] as const
 
@@ -55,6 +63,9 @@ export const AbilityTextToken = z.union([
   z.strictObject({ pb: z.literal(true) }),
   RuleRef,
   entityRefOf('spell').describe('A spell from the library, e.g. `refs.spells.fireball`'),
+  z.strictObject({
+    effect: EffectKey.describe('An effect of this ability by key; shown with what it does'),
+  }),
 ])
 
 export type AbilityTextToken = z.infer<typeof AbilityTextToken>
@@ -201,6 +212,40 @@ const Save = z.strictObject({
 
 export type Save = z.infer<typeof Save>
 
+/** A DC from this creature's numbers: 8 + proficiency + the modifier, or as the book prints it. */
+const CreatureDc = z.strictObject({
+  dc: AbilityId.describe('The creature ability the DC is built from'),
+  printed: z
+    .number()
+    .int()
+    .optional()
+    .describe('The DC as the book prints it, kept only where it breaks the formula'),
+})
+
+const effectSchemas = statusEffectSchemas(AbilityTextToken, CreatureDc)
+
+/**
+ * What an ability leaves on whoever it hits or catches, as a sub-entity of the ability. See
+ * `./status-effect`. Its numbers (save DC, escape DC) come from this stat block.
+ */
+export const AbilityEffect = z.strictObject({
+  ...effectSchemas.shape,
+  lands: z
+    .discriminatedUnion('on', [
+      z.strictObject({ on: z.literal('hit') }).describe('When the attack hits'),
+      z
+        .strictObject({ on: z.literal('failed-save') })
+        .describe('When the target fails the ability’s own `save`'),
+      z
+        .strictObject({ on: z.literal('save'), save: AbilityId, ...CreatureDc.shape })
+        .describe('When the target fails a save the ability’s text calls for'),
+      z.strictObject({ on: z.literal('use') }).describe('No roll: it simply lands'),
+    ])
+    .describe('How it lands on someone'),
+})
+
+export type AbilityEffect = z.infer<typeof AbilityEffect>
+
 const Ability = z.strictObject({
   key: z
     .string()
@@ -214,6 +259,11 @@ const Ability = z.strictObject({
     ),
   attack: Attack.optional(),
   save: Save.optional(),
+  effects: z
+    .array(AbilityEffect)
+    .min(1)
+    .optional()
+    .describe('What it leaves on whoever it hits or catches, for the tracker to apply'),
   text: z
     .array(AbilityTextToken)
     .default([])
@@ -322,6 +372,13 @@ function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
     ...(block.lairActions ?? []),
   ]
   const keys = new Set<string>()
+  // Effects are keyed across the whole stat block, so a ref names one by creature and key.
+  const effectKeys = new Set<string>()
+  for (const effect of all.flatMap((ability) => ability.effects ?? [])) {
+    if (effectKeys.has(effect.key))
+      context.addIssue({ code: 'custom', message: `Duplicate effect key: ${effect.key}` })
+    effectKeys.add(effect.key)
+  }
   for (const ability of all) {
     if (keys.has(ability.key))
       context.addIssue({ code: 'custom', message: `Duplicate ability key: ${ability.key}` })
@@ -352,8 +409,45 @@ function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
         code: 'custom',
         message: `${ability.name}: half on a success needs damage on a failure`,
       })
+    for (const effect of ability.effects ?? []) {
+      if (effect.lands.on === 'failed-save' && !save)
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name}: effect ${effect.key} lands on a failed save, but it has none`,
+        })
+      if (effect.lands.on === 'hit' && !ability.attack)
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name}: effect ${effect.key} lands on a hit, but it has no attack`,
+        })
+      if (
+        effect.ends?.repeatSave &&
+        effect.lands.on !== 'failed-save' &&
+        effect.lands.on !== 'save'
+      )
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name}: effect ${effect.key} repeats a save it never called for`,
+        })
+      for (const condition of effect.conditions ?? [])
+        if (!(CONDITION_KEYS as readonly string[]).includes(condition.key))
+          context.addIssue({
+            code: 'custom',
+            message: `${ability.name}: effect ${effect.key} lists ${condition.key}, not a condition`,
+          })
+      if (!effect.conditions && !effect.text)
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name}: effect ${effect.key} needs conditions or text`,
+        })
+    }
     for (const token of [...ability.text, ...(save?.onFail.also ?? [])]) {
       if (typeof token === 'string') continue
+      if ('effect' in token && !effectKeys.has(token.effect))
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name} refers to a missing effect: ${token.effect}`,
+        })
       if ('ability' in token && !keys.has(token.ability))
         context.addIssue({
           code: 'custom',

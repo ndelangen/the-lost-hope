@@ -1,8 +1,13 @@
 import type { Content } from '#/definitions/content'
 import type { Spell } from '#/definitions/library'
-import type { Ability } from '#/definitions/stat-block'
+import type { Ability, AbilityEffect } from '#/definitions/stat-block'
 
-import { abilityTextSegments, plainAbilityText, type DerivedStatBlock } from './dm-ability-text'
+import {
+  abilityTextSegments,
+  describeAbilityEffect,
+  plainAbilityText,
+  type DerivedStatBlock,
+} from './dm-ability-text'
 import { EACH_TARGET, type AbilityId, type DurationChoice } from './encounter-combat'
 import { ABILITY_KEYS, CONDITION_KEYS, rules, type Condition } from './rules'
 
@@ -254,5 +259,52 @@ export function suggestFromSpell(
     candidates,
     duration,
     concentration: /^concentration/i.test(spell.duration),
+  }
+}
+
+/**
+ * What an effect the stat block defines does: no guessing, only turning its portable duration into
+ * this fight's turns. Durations longer than a fight, and endings the tracker can't time, are said
+ * in the text instead.
+ */
+export function suggestFromAbilityEffect(
+  effect: AbilityEffect,
+  ability: Pick<Ability, 'save'>,
+  block: DerivedStatBlock,
+  source: string,
+): EffectSuggestion {
+  const { howLong, rider, ending } = describeAbilityEffect(effect, ability, block)
+  const save =
+    effect.lands.on === 'save'
+      ? { dc: effect.lands.printed ?? block.saveDc[effect.lands.dc], ability: effect.lands.save }
+      : effect.lands.on === 'failed-save' && ability.save
+        ? {
+            dc: ability.save.printedDc ?? block.saveDc[ability.save.dc],
+            ability: ability.save.ability,
+          }
+        : undefined
+  const { lasts } = effect
+  const turnly: DurationChoice | undefined =
+    effect.ends?.repeatSave?.includes('end-of-turn') && save?.dc !== undefined
+      ? { kind: 'save-ends', dc: save.dc, ability: save.ability }
+      : lasts.kind === 'turn'
+        ? {
+            kind: lasts.boundary === 'end' ? 'end-of-turn' : 'start-of-turn',
+            of: lasts.whose === 'target' ? EACH_TARGET : source,
+          }
+        : lasts.kind === 'time' && /^\d+$/.test(lasts.amount) && lasts.unit === 'round'
+          ? { kind: 'rounds', rounds: Number(lasts.amount), of: EACH_TARGET }
+          : lasts.kind === 'time' && /^\d+$/.test(lasts.amount) && lasts.unit === 'minute'
+            ? { kind: 'rounds', rounds: Number(lasts.amount) * 10, of: EACH_TARGET }
+            : undefined
+  // What the turn order can't track goes in the rider, so nothing the book says is lost.
+  const text = [rider, !turnly && howLong ? `Lasts ${howLong}.` : '', ending]
+    .filter(Boolean)
+    .join(' ')
+  return {
+    conditions: (effect.conditions ?? []).map((ref) => ref.key).filter(isCondition),
+    candidates: [],
+    text: text || undefined,
+    duration: turnly ?? { kind: 'until-removed' },
   }
 }

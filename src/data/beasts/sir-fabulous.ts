@@ -56,7 +56,16 @@ export default createBeast({
           ability: 'str',
           damage: [{ dice: '1d10', type: refs.rules.piercing, addModifier: true }],
         },
-        text: ['If the target is Large or smaller, it has the ', refs.rules.prone, ' condition.'],
+        text: ['If the target is Large or smaller, it has ', { effect: 'prone' }, '.'],
+        effects: [
+          {
+            key: 'prone',
+            name: 'Prone',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.prone],
+            lasts: { kind: 'until-removed' },
+          },
+        ],
       },
     ],
     source: { adaptedFrom: ['srd-2024_dire-wolf'] },

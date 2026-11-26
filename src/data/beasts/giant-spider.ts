@@ -72,14 +72,21 @@ export default createBeast({
           dc: 'dex',
           target: { creatures: 1, range: 60, which: 'it can see' },
           onFail: {
-            conditions: [refs.rules.restrained],
-            also: [
-              'It stays stuck until the web is destroyed: AC 10, 5 HP, vulnerable to fire, immune to poison and psychic.',
-            ],
+            also: [{ effect: 'stuck-in-web' }],
           },
         },
         uses: 1,
         recharge: 'Recharge 5–6',
+        effects: [
+          {
+            key: 'stuck-in-web',
+            name: 'Stuck in the web',
+            lands: { on: 'failed-save' },
+            conditions: [refs.rules.restrained],
+            text: ['AC 10, 5 HP, vulnerable to fire, immune to poison and psychic.'],
+            lasts: { kind: 'until', text: ['the web is destroyed'] },
+          },
+        ],
       },
     ],
     source: { adaptedFrom: ['srd-2024_giant-spider'] },

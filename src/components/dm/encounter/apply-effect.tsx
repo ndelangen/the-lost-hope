@@ -9,6 +9,7 @@ import type { DerivedStatBlock } from '#/lib/dm-ability-text'
 import {
   abilityLeavesEffect,
   suggestFromAbility,
+  suggestFromAbilityEffect,
   suggestFromSpell,
   type EffectSuggestion,
 } from '#/lib/effect-suggestion'
@@ -206,7 +207,10 @@ function EffectForm({
   )
 }
 
-/** Under an open ability: apply what it does to whoever it hits. */
+/**
+ * Under an open ability: apply what it does to whoever it hits. Effects the stat block defines
+ * are applied as written, one button each; otherwise the text gives a first guess.
+ */
 export function AbilityEffect({
   ability,
   block,
@@ -220,28 +224,47 @@ export function AbilityEffect({
   sourceName: string
   actions: ApplyEffectActions
 }) {
-  const [open, setOpen] = useState(false)
-  const suggestion = useMemo(
-    () => suggestFromAbility(ability, block, source),
+  const [open, setOpen] = useState<string>()
+  const choices = useMemo(
+    () =>
+      ability.effects
+        ? ability.effects.map((effect) => ({
+            key: effect.key,
+            label: effect.name,
+            suggestion: suggestFromAbilityEffect(effect, ability, block, source),
+          }))
+        : [{ key: '', label: 'effect', suggestion: suggestFromAbility(ability, block, source) }],
     [ability, block, source],
   )
-  if (!abilityLeavesEffect(ability)) return null
-  if (!open)
+  if (!ability.effects && !abilityLeavesEffect(ability)) return null
+  const chosen = choices.find((choice) => choice.key === open)
+  if (!chosen)
     return (
-      <div>
-        <ActionButton onClick={() => setOpen(true)}>
-          <Sparkles aria-hidden /> Apply effect
-        </ActionButton>
+      <div className="flex flex-wrap gap-2">
+        {choices.map((choice) => (
+          <ActionButton key={choice.key} onClick={() => setOpen(choice.key)}>
+            <Sparkles aria-hidden /> Apply {choice.label}
+          </ActionButton>
+        ))}
       </div>
     )
   return (
     <EffectForm
-      key={ability.key}
-      title={`${sourceName}’s ${ability.name}`}
-      origin={{ kind: 'ability', combatant: source, ability: ability.key }}
-      suggestion={suggestion}
+      key={`${ability.key}-${chosen.key}`}
+      title={
+        chosen.key
+          ? `${chosen.label}, from ${sourceName}’s ${ability.name}`
+          : `${sourceName}’s ${ability.name}`
+      }
+      origin={{
+        kind: 'ability',
+        combatant: source,
+        ability: ability.key,
+        ...(chosen.key ? { effect: chosen.key } : {}),
+      }}
+      suggestion={chosen.suggestion}
       actions={actions}
-      onDone={() => setOpen(false)}
+      onDone={() => setOpen(undefined)}
     />
   )
 }

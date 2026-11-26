@@ -112,18 +112,16 @@ export default createBeast({
             },
           ],
         },
-        text: [
-          'A Huge or smaller target has the ',
-          refs.rules.grappled,
-          ' condition (escape ',
+        text: ['A Huge or smaller target has ', { effect: 'grappled' }, '.'],
+        effects: [
           {
-            dc: 'str',
+            key: 'grappled',
+            name: 'Grappled and restrained',
+            lands: { on: 'hit' },
+            conditions: [refs.rules.grappled, refs.rules.restrained],
+            lasts: { kind: 'until-removed' },
+            ends: { escape: { dc: 'str' } },
           },
-          ') and is ',
-          refs.rules.restrained,
-          ' while ',
-          refs.rules.grappled,
-          '.',
         ],
       },
       {

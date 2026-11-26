@@ -343,6 +343,11 @@ export function deriveStatBlock(stats: AnyStatBlock): DerivedStats {
         },
       ]),
     ),
+    effects: Object.fromEntries(
+      allAbilities(stats).flatMap((ability) =>
+        (ability.effects ?? []).map((effect) => [effect.key, { ability, effect }]),
+      ),
+    ),
     saveDc: Object.fromEntries(ABILITY_KEYS.map((id) => [id, 8 + pb + modifiers[id]])) as Record<
       AbilityId,
       number

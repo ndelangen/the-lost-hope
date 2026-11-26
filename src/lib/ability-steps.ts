@@ -486,11 +486,13 @@ export function plainSteps(steps: readonly DmStep[]) {
             .map((token) =>
               typeof token === 'string'
                 ? token
-                : 'ref' in token
-                  ? token.ref === 'spell'
-                    ? token.key.replaceAll('_', ' ')
-                    : ruleOf(token).name.toLowerCase()
-                  : '…',
+                : 'effect' in token
+                  ? token.effect
+                  : 'ref' in token
+                    ? token.ref === 'spell'
+                      ? token.key.replaceAll('_', ' ')
+                      : ruleOf(token).name.toLowerCase()
+                    : '…',
             )
             .join('')
         if (part.kind === 'damage')
