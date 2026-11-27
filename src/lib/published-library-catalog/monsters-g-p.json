@@ -369,10 +369,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/gallus-druid-47a5f13183a77c23.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/gallus-druid-42866012f570314d.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -4004,10 +4000,6 @@
     ],
     "groups": ["Undead"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/ghost-isabella-fad3464d7c186214.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/monsters/ghost.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -11809,10 +11801,6 @@
     "groups": ["Dragon"],
     "art": [
       {
-        "file": "/assets/library/worker-art/gnawb-7639319b5154e86c.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/gnawb-dd2bc592aa27128f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -13105,10 +13093,6 @@
     "groups": ["Unclassified"],
     "art": [
       {
-        "file": "/assets/library/worker-art/gnome-vampire-7395140bc1390d56.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/gnome-vampire-032c3197c7138ff0.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -13165,10 +13149,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/monsters/gnome-deep-svirfneblin.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/gnome-deep-svirfneblin-dbdb4bd56cd2c4fd.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -14439,10 +14419,6 @@
     ],
     "groups": ["Humanoid"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/goblin-underboss-slime-servant-9be2d237f05bfdce.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/goblin-underboss-slime-servant-cbed07f69f9fae2d.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -16318,10 +16294,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/grabber-forth-e24aed9bc0b855aa.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/grabber-forth-cf48657df7518db1.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -16600,10 +16572,6 @@
     ],
     "groups": ["Undead"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/grasping-shadow-2c61074182887bcf.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/grasping-shadow-37925af2eaadf5f7.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -21320,10 +21288,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/grimshackle-jailer-5e690e601b6ce898.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/grimshackle-jailer-3aa94702c53249ec.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -23873,7 +23837,7 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/guard-drake-1c2e141487aa.webp",
+            "file": "/assets/library/worker-art/guard-drake-6ff8d59ebbe98390.png",
             "credit": "OpenAI ImageGen"
           }
         ]
@@ -23881,10 +23845,6 @@
     ],
     "groups": ["Dragon"],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/guard-drake-1c2e141487aa.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/guard-drake-6ff8d59ebbe98390.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -24413,10 +24373,6 @@
     ],
     "groups": ["Humanoid"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/guild-mage-2a91e3170a68b526.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/guild-mage-5aa50c5f842b7550.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -25842,10 +25798,6 @@
     "groups": ["Giant"],
     "art": [
       {
-        "file": "/assets/library/worker-art/half-dragon-ettin-5e2e9a851a1b9ac5.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/half-dragon-ettin-4aa83b3cfb1aeea4.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -25895,10 +25847,6 @@
     "groups": ["Giant"],
     "art": [
       {
-        "file": "/assets/library/worker-art/half-dragon-troll-7d7de4b3bd278082.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/half-dragon-troll-4a8ab5996980aa24.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -25944,10 +25892,6 @@
     ],
     "groups": ["Humanoid"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/half-elf-priest-875b4e11793ff938.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/half-elf-priest-4c1d382220ad1b1c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -26140,10 +26084,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/monsters/half-red-dragon-veteran.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/half-red-dragon-veteran-cfd1449df68e1e04.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -26213,10 +26153,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/monsters/half-red-dragon-veteran.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/half-red-dragon-veteran-cfd1449df68e1e04.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -26246,10 +26182,6 @@
     ],
     "groups": ["Humanoid"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/halfling-bandits-e4a08c67bf881739.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/halfling-bandits-276f6c4229855d50.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -26853,10 +26785,6 @@
     ],
     "groups": ["Unclassified"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/hangman-tree-30bd75aeb2b000a3.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/hangman-tree-9045e494ed1dd521.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -28777,10 +28705,6 @@
     ],
     "groups": ["Unclassified"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/hearth-crab-a9cacd684e914707.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/hearth-crab-cbf82f4e8e178e3f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -31319,10 +31243,6 @@
     "groups": ["Giant"],
     "art": [
       {
-        "file": "/assets/library/worker-art/hill-giant-optional-actions-9f58e5c45db98b11.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/monsters/hill-giant.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -32106,10 +32026,6 @@
     ],
     "groups": ["Giant"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/hledh-hellspawn-cbc8bd4fae430a57.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/hledh-hellspawn-fb99211fe842c7f3.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -37146,10 +37062,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/human-brawler-slime-servant-f595abc260007fc4.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/human-brawler-slime-servant-2c943bc0dbac6f2a.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -37981,10 +37893,6 @@
     ],
     "groups": ["Humanoid"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/human-trickshot-slime-servant-a666028a340c4d5e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/human-trickshot-slime-servant-bf976b674587a846.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -39174,10 +39082,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/iarno-glasstaff-albrek-5467b9fb01e96c44.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/iarno-glasstaff-albrek-80d7f791f6f7c5ca.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -39209,10 +39113,6 @@
     ],
     "groups": ["Humanoid"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/iarno-glasstaff-albrek-5467b9fb01e96c44.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/iarno-glasstaff-albrek-80d7f791f6f7c5ca.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -45442,10 +45342,6 @@
     ],
     "groups": ["Wererat"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/jacqueline-renier-cad3700ee60543e2.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/jacqueline-renier-63b6157a8f232f8b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -51913,10 +51809,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/kobold-berserker-040a94b13a83bbac.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/kobold-berserker-f19fed9adf96e5c8.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -52052,10 +51944,6 @@
     ],
     "groups": ["Humanoid"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/kobold-cult-fanatic-6ff1fd1652d24197.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/kobold-cult-fanatic-18541f0a7ca83272.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -57883,10 +57771,6 @@
     "groups": ["Annis"],
     "art": [
       {
-        "file": "/assets/library/worker-art/laveeda-e645283b8bce2d7c.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/laveeda-bacd17df580652c4.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -58461,10 +58345,6 @@
     ],
     "groups": ["Undead"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/lela-vampire-spawn-a88f4c7df55fac6c.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/lela-vampire-spawn-a5ea90f57e89175f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -59081,10 +58961,6 @@
     ],
     "groups": ["Sea Hag"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/leticia-bfbef89657951a68.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/leticia-713e2b6a795de85e.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -61393,10 +61269,6 @@
     "groups": ["Unclassified"],
     "art": [
       {
-        "file": "/assets/library/worker-art/lightning-quasi-elemental-f27d6883322363ea.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/lightning-quasi-elemental-9e30fa80a7dae52b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -63229,10 +63101,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/lizardfolk-bloodeye-slime-servant-ca24fb5532d203f7.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/lizardfolk-bloodeye-slime-servant-53ac23f94cb55541.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -64150,10 +64018,6 @@
     "groups": ["Undead"],
     "art": [
       {
-        "file": "/assets/library/worker-art/lord-6db5b3f52e56b176.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/vragni-moonsmith-12db98310446347b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -64557,10 +64421,6 @@
     ],
     "groups": ["Ghost"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/lord-wilfred-godefroy-671d1b833e0f0914.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/lord-wilfred-godefroy-78fe947f893c8a85.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -65096,10 +64956,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/luca-barbu-commoner-bea20a3d304f8361.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/luca-barbu-commoner-35511591d391fbf7.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -65135,10 +64991,6 @@
     ],
     "groups": ["Undead"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/luca-the-revenant-revenant-f54bd65bc5b846ae.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/luca-the-revenant-revenant-33e25dbf4e60117b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -66522,10 +66374,6 @@
     ],
     "groups": ["Fey"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/madcap-a31b7e09a0dbaf03.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/madcap-78460e8be56bb7be.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -72609,10 +72457,6 @@
     "groups": ["Undead"],
     "art": [
       {
-        "file": "/assets/library/worker-art/meira-faerenduil-145371df65b019ac.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/meira-faerenduil-5b510f2f897f33c2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -74941,10 +74785,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/militiaman-bandit-1263afc2b5cdc187.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/militiaman-bandit-1e72db60b99e83c6.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -75859,10 +75699,6 @@
     "groups": ["Monstrosity"],
     "art": [
       {
-        "file": "/assets/library/worker-art/mind-leech-3ba29452584f7c52.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/mind-leech-0bbc1a9fdecbc1fc.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -76232,10 +76068,6 @@
     ],
     "groups": ["Humanoid"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/miner-31582b99609349d5.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/miner-0c7034a11f9084e6.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -77860,10 +77692,6 @@
     "groups": ["Undead"],
     "art": [
       {
-        "file": "/assets/library/worker-art/mist-zombie-lesser-strahd-zombie-3542474c7c6ab156.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/mist-zombie-lesser-strahd-zombie-9a11f2307a02b597.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -78815,10 +78643,6 @@
     ],
     "groups": ["Fiend"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/molydeus-summoner-053074806c9a21ee.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/molydeus-summoner-636be132f8652e1f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -80146,10 +79970,6 @@
     ],
     "groups": ["Fiend"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/mother-0149ec33d1dc5a79.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/mother-192b0a2de64487a2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -81699,10 +81519,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/mutated-derro-savant-afa165f6ee6ed2f7.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/mutated-derro-savant-76534f7ae77052c5.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -82111,10 +81927,6 @@
     "groups": ["Plant"],
     "art": [
       {
-        "file": "/assets/library/worker-art/myconid-adult-additional-spore-effects-cff20c14a4641ce6.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/myconid-adult-additional-spore-effects-59c4bb834708df90.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -82316,10 +82128,6 @@
     ],
     "groups": ["Plant"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/myconid-sovereign-additional-spore-effects-97ec8642d3d3261b.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/myconid-sovereign-additional-spore-effects-b1f733e6859843e1.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -87090,10 +86898,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
-        "file": "/assets/library/worker-art/nightwing-fca6bae4ba4cdc59.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/nightwing-f895af17882bd122.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -91600,10 +91404,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/omou-d9641ed58e6b4f77.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/omou-edb0f380f8d63e0a.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -92691,10 +92491,6 @@
     "groups": ["Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/orc-blood-shaman-orc-war-chief-0bf542b630e84ee0.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/orc-blood-shaman-orc-war-chief-d7f55ca6a00613a3.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -93358,10 +93154,6 @@
     ],
     "groups": ["Humanoid"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/orc-rampart-slime-servant-4939abb3b3716d98.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/orc-rampart-slime-servant-bd03944665a92bea.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -97951,10 +97743,6 @@
     "groups": ["Immortal magical beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/phane-b30fe5f0fa814672.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/phane-0687d1bb9f95506f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -101705,10 +101493,6 @@
     "groups": ["Undead"],
     "art": [
       {
-        "file": "/assets/library/worker-art/poltergeist-specter-variant-e0818c5dd8b18bab.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/poltergeist-specter-variant-a01081f811cb6ba5.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -104284,10 +104068,6 @@
     "art": [
       {
         "file": "/assets/library/monsters/pseudodragon.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
-        "file": "/assets/library/worker-art/pseudodragon-41958751cd965326.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]

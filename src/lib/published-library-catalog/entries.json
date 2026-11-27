@@ -424,7 +424,7 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/alligator-turtle-24c4c189d95d.webp",
+            "file": "/assets/library/worker-art/alligator-turtle-23c79e693abf31fb.png",
             "credit": "OpenAI ImageGen"
           }
         ]
@@ -445,10 +445,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/alligator-turtle-24c4c189d95d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/alligator-turtle-23c79e693abf31fb.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -583,10 +579,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/ambush-vine-7c6fd06f08128961.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/ambush-vine-d9bb88c4d5a4362c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -649,10 +641,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/ancient-lightning-eel-da274d913a21d188.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/ancient-lightning-eel-2721a928e9b3f722.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -1088,10 +1076,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-ape-ed824c2481df.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/ape-giant-222783a97d6a329a.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -1310,10 +1294,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/axolotl-giant-4055e4c5273a08ba.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/axolotl-giant-632055c8d38a40a7.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -1750,17 +1730,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/baboon-howler-b225968ca311.webp",
+            "file": "/assets/library/worker-art/baboon-howler-f1c37f4bf57ecf29.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/baboon-howler-b225968ca311.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/baboon-howler-f1c37f4bf57ecf29.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -2186,10 +2162,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-badger-4cfab667484e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/badger-giant-bbf7aab016182a82.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -2463,10 +2435,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-bat-84653e2ce0d1.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/bat-giant-e3317c6f7453d1c8.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -2553,10 +2521,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/bat-strossen-c3be9be12ae5d18e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/bat-strossen-cfa359910ba50173.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -2841,7 +2805,7 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/black-bear-2ce8b3b947ef.webp",
+        "file": "/assets/library/worker-art/bear-black-85c1117829950d79.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
@@ -2851,10 +2815,6 @@
       {
         "file": "/assets/library/beasts/black-bear-alternate.png",
         "credit": "Black bear wading in a river · The Lost Hope · OpenAI ImageGen · Monster Vault"
-      },
-      {
-        "file": "/assets/library/worker-art/bear-black-85c1117829950d79.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ],
     "groups": ["Beast"]
@@ -2941,16 +2901,12 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/brown-bear-84dd7b07d9e1.webp",
+        "file": "/assets/library/worker-art/bear-brown-6ba21e6dd7f6266c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
         "file": "/assets/library/beasts/brown-bear.png",
         "credit": "Brown bear on a rocky slope · The Lost Hope · OpenAI ImageGen · Monster Vault"
-      },
-      {
-        "file": "/assets/library/worker-art/bear-brown-6ba21e6dd7f6266c.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ],
     "groups": ["Beast"]
@@ -3030,10 +2986,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/polar-bear-560ef43f27b4.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/bear-polar-30f69508e26fd6b6.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -3778,17 +3730,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/beetle-giant-bombardier-008dd728f2c5.webp",
+            "file": "/assets/library/worker-art/beetle-giant-bombardier-7abae290a7bc60c7.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/beetle-giant-bombardier-008dd728f2c5.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/beetle-giant-bombardier-7abae290a7bc60c7.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -3872,10 +3820,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/beetle-giant-round-5e57b611579d07a8.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/beetle-giant-round-19ad27698cb74e39.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -5955,10 +5899,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/blood-hound-e3c3baafe7e62400.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/blood-hound-40541a4074abbf6a.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -6444,10 +6384,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-boar-d465c22a5df0.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/boar-giant-bde9f166b0b25c50.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -7254,7 +7190,7 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/bull-1fde3ddb1896.webp",
+            "file": "/assets/library/worker-art/bull-9a94ee9f8ec69a6b.png",
             "credit": "OpenAI ImageGen"
           }
         ]
@@ -7275,10 +7211,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/bull-1fde3ddb1896.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/bull-9a94ee9f8ec69a6b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -7841,16 +7773,12 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/cavalry-camel-49d256d261f429fa.webp",
+        "file": "/assets/library/worker-art/cavalry-camel-f6dfadaf2d970f4c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
         "file": "/assets/library/beasts/staged/camel-cavalry-08b0422f73b2.png",
         "credit": "OpenAI ImageGen"
-      },
-      {
-        "file": "/assets/library/worker-art/cavalry-camel-f6dfadaf2d970f4c.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ],
     "groups": ["Beast"]
@@ -8031,10 +7959,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/caterpede-27fa47e59bcafb48.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/caterpede-e2f890f83f2557ba.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -8073,10 +7997,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/cavalry-camel-49d256d261f429fa.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/cavalry-camel-f6dfadaf2d970f4c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -8362,17 +8282,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/cheetah-253a3782fe00.webp",
+            "file": "/assets/library/worker-art/cheetah-9788be4925a8dba8.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/cheetah-253a3782fe00.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/cheetah-9788be4925a8dba8.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -9178,10 +9094,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/cooshee-mastiff-818f50e36cee1f4e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/cooshee-mastiff-080a5ecf68e58e9a.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -9603,17 +9515,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/giant-crab-e4793e097140.webp",
+            "file": "/assets/library/worker-art/crab-giant-021d94eff223d6cd.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-crab-e4793e097140.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/crab-giant-021d94eff223d6cd.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -10223,17 +10131,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/giant-crocodile-e4d6edea0beb.webp",
+            "file": "/assets/library/worker-art/crocodile-giant-27a777dc845ddc5a.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-crocodile-e4d6edea0beb.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/crocodile-giant-27a777dc845ddc5a.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -10334,10 +10238,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/death-butterfly-swarm-62de7d6ea70e60fe.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/death-butterfly-swarm-60133ad99a6d3335.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -10377,10 +10277,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/death-butterfly-swarm-greater-6b616fe271840122.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/death-butterfly-swarm-greater-3798a894dd867f92.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -10411,10 +10307,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/deathhawk-fb6a3e9d5f326f91.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/deathhawk-d60fb6e02ade7284.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -10513,7 +10405,7 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/deathjump-spider-033c73c9e336.webp",
+            "file": "/assets/library/worker-art/deathjump-spider-100d3f5b7a69eee8.png",
             "credit": "OpenAI ImageGen"
           }
         ]
@@ -10601,17 +10493,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/deathjump-spider-033c73c9e336.webp",
+            "file": "/assets/library/worker-art/deathjump-spider-100d3f5b7a69eee8.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/deathjump-spider-033c73c9e336.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/deathjump-spider-100d3f5b7a69eee8.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -12047,17 +11935,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dinosaur-velociraptor-4a5f84fff3f1.webp",
+            "file": "/assets/library/worker-art/dinosaur-velociraptor-a48fb1d89ac25b02.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/dinosaur-velociraptor-4a5f84fff3f1.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dinosaur-velociraptor-a48fb1d89ac25b02.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -12176,17 +12060,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dire-ape-129fb4d7249a.webp",
+            "file": "/assets/library/worker-art/dire-ape-e57c2efa4fb625d0.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/dire-ape-129fb4d7249a.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-ape-e57c2efa4fb625d0.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -12293,17 +12173,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dire-badger-32a67b10a55e.webp",
+            "file": "/assets/library/worker-art/dire-badger-662b0d21d297facd.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/dire-badger-32a67b10a55e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-badger-662b0d21d297facd.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -12410,17 +12286,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dire-bat-cf197320afdb.webp",
+            "file": "/assets/library/worker-art/dire-bat-df1273b76d4d8659.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/dire-bat-cf197320afdb.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-bat-df1273b76d4d8659.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -12535,7 +12407,7 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dire-bear-2cfb04880a3e.webp",
+            "file": "/assets/library/worker-art/dire-bear-c64904fb04d44703.png",
             "credit": "OpenAI ImageGen"
           }
         ]
@@ -12623,10 +12495,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/dire-bear-2cfb04880a3e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/dire-bear-c64904fb04d44703.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -12659,10 +12527,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/dire-bird-of-prey-large-1dc8f7fe384f0125.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/dire-bird-of-prey-large-ad428db9c14850ce.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -12693,10 +12557,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/dire-bird-of-prey-medium-4639c1bf5db192c0.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-bird-of-prey-medium-95713f719e1606c5.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -12808,17 +12668,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dire-boar-a7128942891a.webp",
+            "file": "/assets/library/worker-art/dire-boar-6d83679eb3519052.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/dire-boar-a7128942891a.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-boar-6d83679eb3519052.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -12933,17 +12789,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dire-lion-721cca6d4953.webp",
+            "file": "/assets/library/worker-art/dire-lion-3b8eed579490418e.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/dire-lion-721cca6d4953.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-lion-3b8eed579490418e.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -13052,17 +12904,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dire-rat-b760bc302966.webp",
+            "file": "/assets/library/worker-art/dire-rat-59295c85a4091617.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/dire-rat-b760bc302966.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-rat-59295c85a4091617.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -13171,17 +13019,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dire-shark-1209bda61c65.webp",
+            "file": "/assets/library/worker-art/dire-shark-44d82d04ec69c524.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/dire-shark-1209bda61c65.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-shark-44d82d04ec69c524.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -13288,17 +13132,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dire-tiger-a27de36b5fc3.webp",
+            "file": "/assets/library/worker-art/dire-tiger-495f4c7bc2fdcf4e.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/dire-tiger-a27de36b5fc3.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-tiger-495f4c7bc2fdcf4e.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -13492,10 +13332,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/dire-weasel-de8c064b3ba84094.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-weasel-15387f838f80b17f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -13924,17 +13760,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/dire-wolverine-9f193036f148.webp",
+            "file": "/assets/library/worker-art/dire-wolverine-6c96ab85cfba54d5.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/dire-wolverine-9f193036f148.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/dire-wolverine-6c96ab85cfba54d5.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -14133,10 +13965,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/dog-f59535e5b07e07a6.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/dog-24f94b5a22eef171.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -14316,17 +14144,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/donkey-f10a084216e4.webp",
+            "file": "/assets/library/worker-art/donkey-18b82def0f547251.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/donkey-f10a084216e4.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/donkey-18b82def0f547251.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -15133,7 +14957,7 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/giant-eagle-4e2e41e58b04.webp",
+            "file": "/assets/library/worker-art/eagle-giant-812043ecefaab1b5.png",
             "credit": "OpenAI ImageGen"
           },
           {
@@ -15145,16 +14969,12 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-eagle-4e2e41e58b04.webp",
+        "file": "/assets/library/worker-art/eagle-giant-812043ecefaab1b5.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
         "file": "/assets/library/beasts/giant-eagle.png",
         "credit": "Giant Eagle on a mountain crag · The Lost Hope · OpenAI ImageGen · Monster Vault"
-      },
-      {
-        "file": "/assets/library/worker-art/eagle-giant-812043ecefaab1b5.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ],
     "groups": ["Beast"]
@@ -15242,10 +15062,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/earthworm-giant-9a43566f0a7c4bc0.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/earthworm-giant-e4d00ae8077d8f1b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -15560,17 +15376,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/elasmosaurus-6a90b8f752c6.webp",
+            "file": "/assets/library/worker-art/elasmosaurus-b40e56d98625f5ae.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/elasmosaurus-6a90b8f752c6.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/elasmosaurus-b40e56d98625f5ae.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -16469,17 +16281,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/giant-elk-61e93218ed82.webp",
+            "file": "/assets/library/worker-art/elk-giant-94076fe41236e04c.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-elk-61e93218ed82.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/elk-giant-94076fe41236e04c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -16895,10 +16703,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/feymount-raccoon-eaa57bb3e58f666a.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/feymount-raccoon-e18a5828240d63ba.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -17021,17 +16825,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/fire-beetles-69935e2171f2.webp",
+            "file": "/assets/library/worker-art/fire-beetles-6fb845f84e108960.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/fire-beetles-69935e2171f2.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/fire-beetles-6fb845f84e108960.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -17177,7 +16977,7 @@
         "label": "DDAL04-01 - The Suits of the Mists",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/fire-stirge-81dcd954b965.webp",
+            "file": "/assets/library/worker-art/fire-stirge-3ddc9cf09ebf3aab.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -17194,10 +16994,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/fire-stirge-81dcd954b965.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/fire-stirge-3ddc9cf09ebf3aab.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -17377,7 +17173,7 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/forest-falcon-1e53c70fcf11.webp",
+            "file": "/assets/library/worker-art/forest-falcon-6fb1d05d9291deb3.png",
             "credit": "OpenAI ImageGen"
           }
         ]
@@ -17398,10 +17194,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/forest-falcon-1e53c70fcf11.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/forest-falcon-6fb1d05d9291deb3.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -17604,10 +17396,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/frederick-mastiff-b65b23c335988cb1.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/frederick-mastiff-d9b1b31e59afb315.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -17965,17 +17753,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/giant-frog-dc1c59560c0d.webp",
+            "file": "/assets/library/worker-art/frog-giant-a283d16ae9a6f4d3.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-frog-dc1c59560c0d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/frog-giant-a283d16ae9a6f4d3.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -18059,17 +17843,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/frog-giant-poisonous-7751179636ae.webp",
+            "file": "/assets/library/worker-art/frog-giant-poisonous-0c9df579dd5cc2dc.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/frog-giant-poisonous-7751179636ae.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/frog-giant-poisonous-0c9df579dd5cc2dc.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -18216,10 +17996,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/ghamoo-ra-63e7ce48ba210776.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/ghamoo-ra-0ed942551c0d0721.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -19355,17 +19131,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/giant-bumblebee-65a717519a62.webp",
+            "file": "/assets/library/worker-art/giant-bumblebee-155a3b8675bae9b2.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-bumblebee-65a717519a62.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/giant-bumblebee-155a3b8675bae9b2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -19660,10 +19432,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-insect-centipede-206faa150481.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/giant-centipede-insect-4e12f32c1a0c76f0.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -22010,17 +21778,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/giant-honey-bee-soldier-a7ee4c181b19.webp",
+            "file": "/assets/library/worker-art/giant-honey-bee-soldier-2d0979e50c5a30cc.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-honey-bee-soldier-a7ee4c181b19.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/giant-honey-bee-soldier-2d0979e50c5a30cc.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -22107,17 +21871,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/giant-honey-bee-worker-bd0d63cdfd57.webp",
+            "file": "/assets/library/worker-art/giant-honey-bee-worker-bc425a102cb8b838.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-honey-bee-worker-bd0d63cdfd57.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/giant-honey-bee-worker-bc425a102cb8b838.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -23347,7 +23107,7 @@
         "source": "https://www.dndbeyond.com/monsters/275699-giant-lizard-variant",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/giant-lizard-hold-breath-and-spider-climb-d337638b8b6b.webp",
+            "file": "/assets/library/worker-art/giant-lizard-variant-4a7ce3a8045bcda7.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -23368,7 +23128,7 @@
         "source": "https://www.dndbeyond.com/monsters/275699-giant-lizard-variant",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/giant-lizard-hold-breath-and-spider-climb-d337638b8b6b.webp",
+            "file": "/assets/library/worker-art/giant-lizard-variant-4a7ce3a8045bcda7.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -23385,10 +23145,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-lizard-hold-breath-and-spider-climb-d337638b8b6b.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/giant-lizard-variant-4a7ce3a8045bcda7.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -24093,10 +23849,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/giant-poisonous-frog-39b6a0e53ac206f5.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/giant-poisonous-frog-38e45608a182d9d4.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -25090,10 +24842,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/giant-scorpion-insect-1b0f04f2dc2318c5.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/giant-scorpion-insect-cd1c1148d620abb9.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -26485,10 +26233,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/giant-two-headed-goat-1c3a1007ee74d763.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/giant-two-headed-goat-c91e105b98290c3c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -27262,10 +27006,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/glassbeetle-52ad7e3493afbc6d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/glassbeetle-2eb255fc890d4b58.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -27658,10 +27398,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-goat-49b758d06d9f.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/goat-giant-20a9c08746acd82c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -27791,17 +27527,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/gray-wolves-665be0ad0fbc.webp",
+            "file": "/assets/library/worker-art/gray-wolves-fe8a1711064c95ca.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/gray-wolves-665be0ad0fbc.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/gray-wolves-fe8a1711064c95ca.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -28056,7 +27788,7 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/grove-bear-fd888bcd265e.webp",
+            "file": "/assets/library/worker-art/grove-bear-4d37023ca5cff136.png",
             "credit": "OpenAI ImageGen"
           }
         ]
@@ -28078,10 +27810,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/grove-bear-fd888bcd265e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/grove-bear-4d37023ca5cff136.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -28100,7 +27828,7 @@
         "label": "DDEX3-09 - The Waydown",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/guard-dog-wolf-55b5fbe4a9c2.webp",
+            "file": "/assets/library/worker-art/guard-dog-wolf-a5f793da44a72696.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -28117,10 +27845,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/guard-dog-wolf-55b5fbe4a9c2.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/guard-dog-wolf-a5f793da44a72696.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -28282,10 +28006,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/gutter-ray.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/gutter-ray-1223db277f3a2ad2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -28430,10 +28150,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/hammberbill-goose-3ca447a698df16cb.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/hammberbill-goose-668ed905e82976a2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -28537,10 +28253,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/handrail-crawler.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/handrail-crawler-1992bab22b082abc.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -29045,10 +28757,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/blood-hawk-6faecf7259f4.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/hawk-blood-057085cf9a9622f2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -29178,10 +28886,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/heavy-horse-90816d99ac98b188.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/heavy-horse-f5358f2615b30b91.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -29283,10 +28987,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/heavy-warhorse-c37e705b752e5cf8.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/heavy-warhorse-412e7a162f914bd4.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -29326,10 +29026,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/hedgehog-giant-39d1e69f1b339bbf.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/hedgehog-giant-6f4cd777fb9f5e04.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -29454,17 +29150,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/herathian-voat-3dcbb4ef9a9a.webp",
+            "file": "/assets/library/worker-art/herathian-voat-04ae81fb8fa9a4c9.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/herathian-voat-3dcbb4ef9a9a.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/herathian-voat-04ae81fb8fa9a4c9.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -29543,7 +29235,7 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/hippocampus-92d835bad956.webp",
+            "file": "/assets/library/worker-art/hippocampus-6d9a67cb650bd929.png",
             "credit": "OpenAI ImageGen"
           }
         ]
@@ -29619,17 +29311,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/hippocampus-92d835bad956.webp",
+            "file": "/assets/library/worker-art/hippocampus-6d9a67cb650bd929.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/hippocampus-92d835bad956.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/hippocampus-6d9a67cb650bd929.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -29764,10 +29452,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/honey-bee-giant-f355fefc9f3ec9dd.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/honey-bee-giant-6f5ba034954e18e1.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -29806,10 +29490,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/honey-bee-swarm-of-bees-270b3037baa64afa.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/honey-bee-swarm-of-bees-88f57d92c22e9577.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -29921,10 +29601,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/draft-horse-7c88a9aaf795.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/horse-draft-50debce0d3844eb2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -30009,10 +29685,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/riding-horse-3aa832ecfa41.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/horse-riding-1a07a50b2b319e46.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -30096,10 +29768,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/horse-war-aa42463d8e7abcb5.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/horse-war-c06d1eb973c4e6d2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -30194,16 +29862,12 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/hound-hunting-59b2e12b37e24b5e.webp",
+        "file": "/assets/library/worker-art/hound-hunting-c4e618a2ee820560.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
         "file": "/assets/library/beasts/staged/hound-hunting-a9018e3619dd.png",
         "credit": "OpenAI ImageGen"
-      },
-      {
-        "file": "/assets/library/worker-art/hound-hunting-c4e618a2ee820560.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ],
     "groups": ["Beast"]
@@ -30538,17 +30202,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/huge-shark-66b340e9ff06.webp",
+            "file": "/assets/library/worker-art/huge-shark-5fc5264564d6ee33.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/huge-shark-66b340e9ff06.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/huge-shark-5fc5264564d6ee33.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -30713,10 +30373,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/huge-viper-snake-7fd3b69635b2c05d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/huge-viper-snake-4998519c56e7f971.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -31395,10 +31051,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-hyena-8d08d4181ef5.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/hyena-giant-a7beaac1a4006bd5.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -31417,7 +31069,7 @@
         "label": "DDAL04-01 - The Suits of the Mists",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/ice-cat-b792f018d221.webp",
+            "file": "/assets/library/worker-art/ice-cat-c9671c22da742395.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -31434,10 +31086,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/ice-cat-b792f018d221.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/ice-cat-c9671c22da742395.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -31649,10 +31297,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/insect-giant-centipede-92ee34f106714cb7.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/insect-giant-centipede-1883ca2bd64e7524.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -31835,17 +31479,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/insect-giant-scorpion-860f597874ee.webp",
+            "file": "/assets/library/worker-art/insect-giant-scorpion-fc900e496f70aaaa.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/insect-giant-scorpion-860f597874ee.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/insect-giant-scorpion-fc900e496f70aaaa.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -32023,17 +31663,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/insect-scorpion-6997e27e56ec.webp",
+            "file": "/assets/library/worker-art/insect-scorpion-81d33f825300c76a.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/insect-scorpion-6997e27e56ec.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/insect-scorpion-81d33f825300c76a.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -32533,17 +32169,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/jorri-e77650da26ca.webp",
+            "file": "/assets/library/worker-art/jorri-9126d0431d6f7927.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/jorri-e77650da26ca.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/jorri-9126d0431d6f7927.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -32679,10 +32311,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/juvenile-forest-prowler-10e2b11641fbecdd.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/juvenile-forest-prowler-2ed19e1584430936.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -33241,17 +32869,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/kruthik-adult-b6c76c4a1c53.webp",
+            "file": "/assets/library/worker-art/kruthik-adult-6cf6301344955689.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/kruthik-adult-b6c76c4a1c53.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/kruthik-adult-6cf6301344955689.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -33356,17 +32980,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/kruthik-hatchling-cd06c7118ae7.webp",
+            "file": "/assets/library/worker-art/kruthik-hatchling-c82aff07b3e0fcc4.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/kruthik-hatchling-cd06c7118ae7.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/kruthik-hatchling-c82aff07b3e0fcc4.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -33468,17 +33088,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/kruthik-young-d0c0f1ab6c4a.webp",
+            "file": "/assets/library/worker-art/kruthik-young-f12a0e45cb2608b8.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/kruthik-young-d0c0f1ab6c4a.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/kruthik-young-f12a0e45cb2608b8.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -33876,10 +33492,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/large-shark-2d5ce5a314140b05.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/large-shark-e4f385eaf890271f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -34040,10 +33652,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/large-viper-snake-a3fa12459a5c3964.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/large-viper-snake-ee7bd4ac0cad7f23.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -34113,17 +33721,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/leech-giant-e52510559022.webp",
+            "file": "/assets/library/worker-art/leech-giant-37c9b97aeed307a8.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/leech-giant-e52510559022.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/leech-giant-37c9b97aeed307a8.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -34232,17 +33836,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/leopard-9646d6a7c161.webp",
+            "file": "/assets/library/worker-art/leopard-37ead8cb0b634f64.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/leopard-9646d6a7c161.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/leopard-37ead8cb0b634f64.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -34341,10 +33941,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/light-horse-3f3b8ac387de6dcd.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/light-horse-dd2479f44752091f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -34447,10 +34043,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/light-warhorse-bc53071502404068.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/light-warhorse-3a5b332d014b1128.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -34482,10 +34074,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-lightning-eel-6861b14702b7.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/lightning-eel-15686a689bf88e68.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -35010,10 +34598,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/little-wildcat-small-83ebfdbd8392156e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/little-wildcat-small-7423ff599554a631.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -35044,10 +34628,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/little-wildcat-tiny-00fde35dd5f9b4b3.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/little-wildcat-tiny-cd29912b6f2e848b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -35444,10 +35024,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-lizard-e104c2d92ea6.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/lizard-giant-cd39e9e3bcf07c82.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -35529,17 +35105,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/lizard-giant-frilled-94c3df2b6326.webp",
+            "file": "/assets/library/worker-art/lizard-giant-frilled-96bbda539f5d459b.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/lizard-giant-frilled-94c3df2b6326.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/lizard-giant-frilled-96bbda539f5d459b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -35628,17 +35200,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/lupasus-51744344fa8e.webp",
+            "file": "/assets/library/worker-art/lupasus-98cf7398361fa5a2.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/lupasus-51744344fa8e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/lupasus-98cf7398361fa5a2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -36052,17 +35620,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/manta-ray-530cc0a70fd2.webp",
+            "file": "/assets/library/worker-art/manta-ray-403fcaf89655d4e3.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/manta-ray-530cc0a70fd2.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/manta-ray-403fcaf89655d4e3.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -36149,17 +35713,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/margreve-hound-d89d419a3c65.webp",
+            "file": "/assets/library/worker-art/margreve-hound-561ae73cb36bcd79.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/margreve-hound-d89d419a3c65.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/margreve-hound-561ae73cb36bcd79.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -36244,17 +35804,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/margreve-stag-d6bfbd388d02.webp",
+            "file": "/assets/library/worker-art/margreve-stag-1f2e3bdf74fb2ebf.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/margreve-stag-d6bfbd388d02.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/margreve-stag-1f2e3bdf74fb2ebf.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -36345,17 +35901,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/marine-cat-79b713a31144.webp",
+            "file": "/assets/library/worker-art/marine-cat-c5230db7261305c1.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/marine-cat-79b713a31144.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/marine-cat-c5230db7261305c1.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -36967,10 +36519,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/medium-shark-5cae2963c6fb2467.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/medium-shark-6075af7cdba3cdaf.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -37075,10 +36623,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/medium-viper-snake-239fde8e0a226c92.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/medium-viper-snake-2b6ee3dcda4af219.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -37265,17 +36809,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/megaraptor-f6edf380dce6.webp",
+            "file": "/assets/library/worker-art/megaraptor-d94729f4775d2c9b.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/megaraptor-f6edf380dce6.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/megaraptor-d94729f4775d2c9b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -37316,10 +36856,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/millipede-giant-7054151507939e88.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/millipede-giant-d5bd68c571b59c60.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -37580,17 +37116,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/mongoose-giant-dbc9d49bb467.webp",
+            "file": "/assets/library/worker-art/mongoose-giant-2d08fb51cb31d3a8.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/mongoose-giant-dbc9d49bb467.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/mongoose-giant-2d08fb51cb31d3a8.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -37697,17 +37229,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/monitor-lizard-d3ae5a0f3e60.webp",
+            "file": "/assets/library/worker-art/monitor-lizard-46a4eae54d0e1083.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/monitor-lizard-d3ae5a0f3e60.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/monitor-lizard-46a4eae54d0e1083.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -37816,17 +37344,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/monkey-3c8e2379babc.webp",
+            "file": "/assets/library/worker-art/monkey-6956eadcade88f55.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/monkey-3c8e2379babc.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/monkey-6956eadcade88f55.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -37997,10 +37521,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/moose-cf8867f3684ca8ab.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/moose-4d93b21e6397385d.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -39266,7 +38786,7 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-octopus-a22bdb33b47b.webp",
+        "file": "/assets/library/worker-art/octopus-giant-b960b301581cbae2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
@@ -39276,10 +38796,6 @@
       {
         "file": "/assets/library/beasts/giant-octopus-alternate.png",
         "credit": "Giant Octopus among coastal kelp · The Lost Hope · OpenAI ImageGen · Monster Vault"
-      },
-      {
-        "file": "/assets/library/worker-art/octopus-giant-b960b301581cbae2.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ],
     "groups": ["Beast"]
@@ -39486,17 +39002,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/oliphant-daa6992b4877.webp",
+            "file": "/assets/library/worker-art/oliphant-1a81238a6d3be133.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/oliphant-daa6992b4877.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/oliphant-1a81238a6d3be133.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -39603,16 +39115,12 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/oliphaunt-warbeast-f74dc5ef2ea94d2e.webp",
+        "file": "/assets/library/worker-art/oliphaunt-warbeast-feb9751de7f94802.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
         "file": "/assets/library/beasts/staged/oliphant-warbeast-4de27ef553a1.png",
         "credit": "OpenAI ImageGen"
-      },
-      {
-        "file": "/assets/library/worker-art/oliphaunt-warbeast-feb9751de7f94802.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ],
     "groups": ["Beast"]
@@ -39650,10 +39158,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/oliphaunt-warbeast-f74dc5ef2ea94d2e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/oliphaunt-warbeast-feb9751de7f94802.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -39754,17 +39258,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/omm-wa-d43d52b53f64.webp",
+            "file": "/assets/library/worker-art/omm-wa-a28f6872823ff863.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/omm-wa-d43d52b53f64.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/omm-wa-a28f6872823ff863.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -39868,10 +39368,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/opossum-366eefeb75d786d4.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/opossum-f98e7cea73ba1574.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -39910,10 +39406,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/opossum-giant-bd0eecddf0ada985.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/opossum-giant-c452ee4039977827.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -40066,10 +39558,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/orca-c80388326a25841d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/orca-d82243fdb0fb6816.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -40497,10 +39985,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-owl-ab0d25636c2d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/owl-giant-33a735cf93f96133.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -40578,17 +40062,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/owl-great-gray-284e3edce207.webp",
+            "file": "/assets/library/worker-art/owl-great-gray-e2ef61bf65214a72.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/owl-great-gray-284e3edce207.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/owl-great-gray-e2ef61bf65214a72.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -40692,7 +40172,7 @@
         "source": "https://5e.tools/bestiary.html#pandarian%20dragon%20turtle_wow",
         "art": [
           {
-            "file": "/assets/library/monsters/dragon-turtle.webp",
+            "file": "/assets/library/worker-art/pandarian-dragon-turtle-3629818d19beb911.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -40709,10 +40189,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/monsters/dragon-turtle.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/pandarian-dragon-turtle-3629818d19beb911.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -41413,16 +40889,12 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/war-pig-acec5c7ebef435b9.webp",
+        "file": "/assets/library/worker-art/war-pig-fbdb68a5613f6f0b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
         "file": "/assets/library/beasts/staged/pig-war-b407c6e5db13.png",
         "credit": "OpenAI ImageGen"
-      },
-      {
-        "file": "/assets/library/worker-art/war-pig-fbdb68a5613f6f0b.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ],
     "groups": ["Beast"]
@@ -41500,16 +40972,12 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/pigeon-homing-ba9670f5e30a284e.webp",
+        "file": "/assets/library/worker-art/pigeon-homing-b47f835c0bd0a112.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
         "file": "/assets/library/beasts/staged/pigeon-homing-6b2f5ce7ab49.png",
         "credit": "OpenAI ImageGen"
-      },
-      {
-        "file": "/assets/library/worker-art/pigeon-homing-b47f835c0bd0a112.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ],
     "groups": ["Beast"]
@@ -41666,10 +41134,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/plainscow-78a70413d9c089fb.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/plainscow-9e2f5eb70b4af565.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -42671,10 +42135,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/porch-sentinel.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/porch-sentinel-067cfb069f1a869f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -42780,17 +42240,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/porpoise-9146ea9b0010.webp",
+            "file": "/assets/library/worker-art/porpoise-5bcae192dcd3914d.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/porpoise-9146ea9b0010.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/porpoise-5bcae192dcd3914d.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -44063,10 +43519,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-rat-3e30f432990d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/rat-giant-09664997b827dc46.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -44201,10 +43653,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/rattus-eel-33bce760304be13e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/rattus-eel-518bd005c23a6c1b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -44243,10 +43691,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/rattus-eel-swarm-of-rattus-eels-757c67dfcda08173.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/rattus-eel-swarm-of-rattus-eels-36bbd492f6e3e81f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -44856,17 +44300,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/redspawn-firebelcher-a9ecfc55941a.webp",
+            "file": "/assets/library/worker-art/redspawn-firebelcher-332e681ffd0564d7.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/redspawn-firebelcher-a9ecfc55941a.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/redspawn-firebelcher-332e681ffd0564d7.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -45723,17 +45163,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/riding-dog-8881f86a90d7.webp",
+            "file": "/assets/library/worker-art/riding-dog-e06c18812c884b45.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/riding-dog-8881f86a90d7.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/riding-dog-e06c18812c884b45.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -46024,10 +45460,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/rivetback-eel.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/rivetback-eel-d4897fe07ed13896.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -46512,7 +45944,7 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/saber-toothed-tiger-77a042eb.webp",
+            "file": "/assets/library/worker-art/saber-toothed-tiger-2ee63efb99220d6f.png",
             "credit": "OpenAI ImageGen"
           }
         ]
@@ -46600,17 +46032,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/saber-toothed-tiger-77a042eb.webp",
+            "file": "/assets/library/worker-art/saber-toothed-tiger-2ee63efb99220d6f.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/saber-toothed-tiger-77a042eb.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/saber-toothed-tiger-2ee63efb99220d6f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -46971,10 +46399,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/scorpion-insect-b937f3b86b2bd76c.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/scorpion-insect-c1e761617dc9aab5.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -47193,16 +46617,12 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/sea-serpent-c1756ee974783142.webp",
+        "file": "/assets/library/worker-art/sea-serpent-9cf88a56a316ba70.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       },
       {
         "file": "/assets/library/worker-art/sea-serpent-8f79b68fd73e0353.png",
         "credit": "OpenAI ImageGen"
-      },
-      {
-        "file": "/assets/library/worker-art/sea-serpent-9cf88a56a316ba70.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
   },
@@ -47472,10 +46892,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-seahorse-91b2d6e0084e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/seahorse-giant-0b76dade90b45cdb.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -47817,10 +47233,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-shark-6f25152dfad7.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/shark-giant-e5be3742d7cff221.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -47907,10 +47319,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/hunter-shark-87ad37d588f2.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/shark-hunter-d3ff3fa72132a408.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -47992,10 +47400,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/reef-shark-60e9cdbb91fb.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/shark-reef-832b2f94f7a35307.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -48150,10 +47554,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/sill-moth-colony.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/sill-moth-colony-a881d0201302a96f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -48240,10 +47640,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/skunk-29cf78752fe90136.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/skunk-f3c5d0702a1a77a3.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -48282,10 +47678,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/skunk-giant-21ef1f3e5f4810c0.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/skunk-giant-17de8aaffffa3ec2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -48556,10 +47948,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/small-viper-snake-c438a562df2cb95c.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/small-viper-snake-49154d83aa0d1882.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -48639,10 +48027,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/constrictor-snake-e9370a413880.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/snake-constrictor-30cd353cddef7c45.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -48730,10 +48114,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/flying-snake-3f3c80de23cb.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/snake-flying-91a6de0614ff72f8.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -48813,10 +48193,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-constrictor-snake-2156e2fd298b.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/snake-giant-constrictor-2abe9145dc659e41.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -48908,10 +48284,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-poisonous-snake-5503a0af95e2.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/snake-giant-poisonous-0792725a40094c88.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -49000,10 +48372,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/poisonous-snake-a8c91177876d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/snake-poisonous-ace5438df0dd653c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -49248,10 +48616,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/snowfox-2537381bfbf8e3cd.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/snowfox-5d134845562f9550.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -49282,10 +48646,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/snowfox-familiar-variant-9d5e7b25067349e8.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/snowfox-familiar-variant-80f84235832de887.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -49972,10 +49332,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-spider-1c6010464889.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/spider-giant-8f8916ed62014dfd.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -50061,10 +49417,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-wolf-spider-31c99f8b34b3.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/spider-giant-wolf-6b409bbf8fff65db.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -50254,10 +49606,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/spitting-drake-5dd7be62d62cee38.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/spitting-drake-59323ecb427a5c9d.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -50331,10 +49679,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/spooltail-tern.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/spooltail-tern-e8aabdaaa9c993a1.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -50475,17 +49819,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/squid-8dcb2884bc0e.webp",
+            "file": "/assets/library/worker-art/squid-12d30a92edca5879.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/squid-8dcb2884bc0e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/squid-12d30a92edca5879.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -50955,17 +50295,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/swampmare-e91fbf1ed393.webp",
+            "file": "/assets/library/worker-art/swampmare-ecee5515b192c536.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/swampmare-e91fbf1ed393.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/swampmare-ecee5515b192c536.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -51108,10 +50444,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/swarm-of-contaminated-insects-7f5864853249440f.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/swarm-of-contaminated-insects-b73073ca47c334bf.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -51170,7 +50502,7 @@
         "source": "https://www.dndbeyond.com/monsters/4237050-swarm-of-emberbats",
         "art": [
           {
-            "file": "/assets/library/worker-art/swarm-of-emberbats-cadd4320db049b7b.webp",
+            "file": "/assets/library/worker-art/swarm-of-emberbats-e8f304671b6357e9.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -51188,10 +50520,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/swarm-of-emberbats-cadd4320db049b7b.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/swarm-of-emberbats-e8f304671b6357e9.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -51231,10 +50559,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/swarm-of-gimlet-larvae-e8c746f1007c6ebd.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/swarm-of-gimlet-larvae-2d74677d15a9f540.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -51325,7 +50649,7 @@
         "source": "https://www.dndbeyond.com/monsters/301407-swarm-of-insects-beetles",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/swarm-of-beetles-02360d39e5f8.webp",
+            "file": "/assets/library/worker-art/swarm-of-insects-beetles-fa2db9557273768b.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -51342,10 +50666,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/swarm-of-beetles-02360d39e5f8.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/swarm-of-insects-beetles-fa2db9557273768b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -51379,10 +50699,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/swarm-of-insects-bullet-ants-9f1f8da8efe67628.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/swarm-of-insects-bullet-ants-7fa74a5bbfed15ba.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -51401,7 +50717,7 @@
         "source": "https://www.dndbeyond.com/monsters/301411-swarm-of-insects-centipedes",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/swarm-of-centipedes-577be4022202.webp",
+            "file": "/assets/library/worker-art/swarm-of-insects-centipedes-c8d27a997750f79e.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -51418,10 +50734,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/swarm-of-centipedes-577be4022202.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/swarm-of-insects-centipedes-c8d27a997750f79e.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -51455,10 +50767,6 @@
     "groups": ["Beast"],
     "art": [
       {
-        "file": "/assets/library/worker-art/swarm-of-insects-mcdm-5ac10cbd4b7cf59c.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/swarm-of-insects-mcdm-136d58ed0646450a.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -51477,7 +50785,7 @@
         "source": "https://www.dndbeyond.com/monsters/301414-swarm-of-insects-spiders",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/swarm-of-insects-spiders-f2e8a398cbb4.webp",
+            "file": "/assets/library/worker-art/swarm-of-insects-spiders-3e5604dc0ca63eae.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -51510,10 +50818,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/swarm-of-insects-spiders-f2e8a398cbb4.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/swarm-of-insects-spiders-3e5604dc0ca63eae.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -51533,7 +50837,7 @@
         "source": "https://www.dndbeyond.com/monsters/301415-swarm-of-insects-wasps",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/swarm-of-insects-wasps-13329a234d17.webp",
+            "file": "/assets/library/worker-art/swarm-of-insects-wasps-de7cca62bce3de6f.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -51550,10 +50854,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/swarm-of-insects-wasps-13329a234d17.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/swarm-of-insects-wasps-de7cca62bce3de6f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -52782,10 +52082,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/saber-toothed-tiger-aaa36d1e4f31.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/tiger-saber-toothed-ec4cb558a5e580f9.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -52889,10 +52185,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/tiny-viper-snake-aad88c0c4213f82e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/tiny-viper-snake-d4138b98aab988a1.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -53014,10 +52306,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/toad-f7ae83e45509de00.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/toad-bf2f6a8c553ff30b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -53057,10 +52345,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/toxic-caterpede-5fa41a830d05a8f9.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/toxic-caterpede-86dfe4bef78a6345.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -53209,10 +52493,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/tress-lizard-d3de829e1f87646c.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/tress-lizard-2dc1f94bf17fa0d0.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -53443,17 +52723,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/trosip-c1e136bef794.webp",
+            "file": "/assets/library/worker-art/trosip-fca5ccd214e6c09c.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/trosip-c1e136bef794.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/trosip-fca5ccd214e6c09c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -53542,17 +52818,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/tsuchinoko-704b44eb2203.webp",
+            "file": "/assets/library/worker-art/tsuchinoko-e452c3386844b085.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/tsuchinoko-704b44eb2203.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/tsuchinoko-e452c3386844b085.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -54190,17 +53462,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/voat-7818ff5599db.webp",
+            "file": "/assets/library/worker-art/voat-02ae68ae2093b4c5.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/voat-7818ff5599db.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/voat-02ae68ae2093b4c5.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -54556,10 +53824,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-vulture-e586cb9345ea.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/vulture-giant-f29b05bd500215eb.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -54665,17 +53929,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/vulturehound-d804139e1e1b.webp",
+            "file": "/assets/library/worker-art/vulturehound-d9f34d8dcc813dcc.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/vulturehound-d804139e1e1b.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/vulturehound-d9f34d8dcc813dcc.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -54968,10 +54228,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/worker-art/war-horse-7ded40bd2e745783.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/war-horse-ba8f8eea0be786b8.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -55011,10 +54267,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/war-pig-acec5c7ebef435b9.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/war-pig-fbdb68a5613f6f0b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -55126,17 +54378,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/war-pony-b564a87e30ce.webp",
+            "file": "/assets/library/worker-art/war-pony-18d088d00c07a110.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/war-pony-b564a87e30ce.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/war-pony-18d088d00c07a110.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -55987,10 +55235,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/giant-weasel-0b8089dff87e.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/weasel-giant-50d9a8a756db3516.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -56156,7 +55400,7 @@
         "label": "DDEX3-01 - Harried in Hillsfar",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/wild-dog-alpha-d19643d63a07.webp",
+            "file": "/assets/library/worker-art/wild-dog-alpha-f4b6b7790296047e.png",
             "credit": "OpenAI ImageGen"
           }
         ],
@@ -56173,10 +55417,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/wild-dog-alpha-d19643d63a07.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/wild-dog-alpha-f4b6b7790296047e.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -56241,10 +55481,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/wildcat-medium-de2d30e3fea0f704.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/wildcat-medium-f5d3353558d00b6c.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -56914,10 +56150,6 @@
     ],
     "art": [
       {
-        "file": "/assets/library/beasts/staged/dire-wolf-d20eed104a14.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
         "file": "/assets/library/worker-art/wolf-dire-09c48d39f0560967.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
@@ -57033,17 +56265,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/wolverine-696bfc4e9a3d.webp",
+            "file": "/assets/library/worker-art/wolverine-a03fae9e4d73103e.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/wolverine-696bfc4e9a3d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/wolverine-a03fae9e4d73103e.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -57115,10 +56343,6 @@
     ],
     "groups": ["Beast"],
     "art": [
-      {
-        "file": "/assets/library/worker-art/wooly-hippopotamus-a774d0b29281741d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/wooly-hippopotamus-6fafabb8c137d4cb.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -57212,17 +56436,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/wynzet-46ca43296a4d.webp",
+            "file": "/assets/library/worker-art/wynzet-06c491001e4571fb.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/wynzet-46ca43296a4d.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/wynzet-06c491001e4571fb.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -57321,17 +56541,13 @@
         "status": "Stat block",
         "art": [
           {
-            "file": "/assets/library/beasts/staged/wyverns-84dea5d07f56.webp",
+            "file": "/assets/library/worker-art/wyverns-44e299824367b493.png",
             "credit": "OpenAI ImageGen"
           }
         ]
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/beasts/staged/wyverns-84dea5d07f56.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/worker-art/wyverns-44e299824367b493.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
@@ -57430,10 +56646,6 @@
       }
     ],
     "art": [
-      {
-        "file": "/assets/library/worker-art/young-bulette-rhinoceros-ed9b462f2c6ab9ea.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
       {
         "file": "/assets/library/monsters/bulette.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
