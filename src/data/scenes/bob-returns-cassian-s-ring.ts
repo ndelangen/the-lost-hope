@@ -261,7 +261,9 @@ export default createScene({
             [
               'The place is out on ',
               refs.locations.the_old_battlefield,
-              '. The monster and the legendary reward are not decided yet.',
+              '. If they take the quest, run ',
+              refs.scenes.four_stomps_under_the_moon,
+              '. The legendary reward is not decided yet.',
             ],
           ],
         },

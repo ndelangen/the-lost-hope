@@ -33,5 +33,6 @@ export default createTable({
     refs.scenes.questions_for_light,
     refs.scenes.the_bard_s_new_song,
     refs.scenes.bob_returns_cassian_s_ring,
+    refs.scenes.four_stomps_under_the_moon,
   ],
 })

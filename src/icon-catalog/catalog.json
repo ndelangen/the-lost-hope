@@ -83350,6 +83350,9 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/angel-wings.html",
       "usedIn": [
         "src/data/events/n2-e033.ts",
+        "src/data/library/monsters/arcana-unleashed.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/npcs/misha.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/event-icons.tsx"
@@ -87320,7 +87323,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/auto-repair.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/eberron-forge-of-the-artificer.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiAvocado",
@@ -93896,7 +93902,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/bird-claw.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiBirdHouse",
@@ -99747,6 +99756,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/breaking-chain.html",
       "usedIn": [
+        "src/data/beasts/thorn-creeper.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/silas-wren.ts",
         "src/data/pcs/devan.ts",
@@ -100215,6 +100225,7 @@
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
         "src/data/library/monsters/planescape-adventures-in-the-multiverse.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/quests-from-the-infinite-staircase.ts",
         "src/data/library/monsters/ravenloft-the-horrors-within.ts",
@@ -100226,6 +100237,7 @@
         "src/data/library/monsters/storm-king-s-thunder.ts",
         "src/data/library/monsters/tal-dorei-campaign-setting-reborn.ts",
         "src/data/library/monsters/tales-from-the-yawning-portal.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/library/monsters/the-book-of-many-things.ts",
         "src/data/library/monsters/the-orrery-of-the-wanderer.ts",
         "src/data/library/monsters/the-wild-beyond-the-witchlight.ts",
@@ -101826,6 +101838,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/bull-horns.html",
       "usedIn": [
         "src/data/beasts/chimera.ts",
+        "src/data/library/monsters/arcana-unleashed.ts",
         "src/data/library/monsters/baldur-s-gate-descent-into-avernus.ts",
         "src/data/library/monsters/bigby-presents-glory-of-the-giants.ts",
         "src/data/library/monsters/candlekeep-mysteries.ts",
@@ -111071,7 +111084,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/charging-bull.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts"
+      ]
     },
     {
       "id": "gi/GiChariot",
@@ -113892,6 +113907,7 @@
         "src/data/library/monsters/dragonlance-shadow-of-the-dragon-queen.ts",
         "src/data/library/monsters/dragons-of-stormwreck-isle.ts",
         "src/data/library/monsters/dungeons-of-drakkenheim.ts",
+        "src/data/library/monsters/eberron-forge-of-the-artificer.ts",
         "src/data/library/monsters/eberron-rising-from-the-last-war.ts",
         "src/data/library/monsters/explorer-s-guide-to-wildemount.ts",
         "src/data/library/monsters/fizban-s-treasury-of-dragons.ts",
@@ -113936,6 +113952,7 @@
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
         "src/data/library/monsters/planescape-adventures-in-the-multiverse.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/quests-from-the-infinite-staircase.ts",
         "src/data/library/monsters/ravenloft-the-horrors-within.ts",
@@ -117295,6 +117312,7 @@
         "src/data/scenes/chaos-on-the-sky-islands.ts",
         "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/down-through-the-rubble.ts",
+        "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/hex-loses-patience.ts",
         "src/data/scenes/onana-sends-the-party-on.ts",
         "src/data/scenes/questions-for-light.ts",
@@ -119818,6 +119836,7 @@
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
         "src/data/library/monsters/planescape-adventures-in-the-multiverse.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse-online-supplement.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/quests-from-the-infinite-staircase.ts",
@@ -119830,6 +119849,7 @@
         "src/data/library/monsters/storm-king-s-thunder.ts",
         "src/data/library/monsters/tal-dorei-campaign-setting-reborn.ts",
         "src/data/library/monsters/tales-from-the-yawning-portal.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/library/monsters/the-book-of-many-things.ts",
         "src/data/library/monsters/the-orrery-of-the-wanderer.ts",
         "src/data/library/monsters/the-wild-beyond-the-witchlight.ts",
@@ -120351,6 +120371,7 @@
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
         "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/fix-s-last-delivery.ts",
+        "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/garran-comes-for-the-cruiser.ts",
         "src/data/scenes/onana-calls-the-party-to-war.ts",
         "src/data/scenes/running-from-the-battle-cruiser.ts",
@@ -124106,6 +124127,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/sbed/death-skull.html",
       "usedIn": [
+        "src/data/beasts/violet-fungus.ts",
         "src/data/library/monsters/baldur-s-gate-descent-into-avernus.ts",
         "src/data/library/monsters/basic-rules-2018.ts",
         "src/data/library/monsters/candlekeep-mysteries.ts",
@@ -124132,6 +124154,7 @@
         "src/data/library/monsters/srd-5-2-1.ts",
         "src/data/library/monsters/storm-king-s-thunder.ts",
         "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
+        "src/data/library/monsters/the-book-of-many-things.ts",
         "src/data/library/monsters/tome-of-beasts-2.ts",
         "src/data/library/monsters/tome-of-beasts.ts",
         "src/data/library/monsters/vecna-eve-of-ruin.ts",
@@ -127754,7 +127777,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/dodging.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/eberron-forge-of-the-artificer.ts"
+      ]
     },
     {
       "id": "gi/GiDogBowl",
@@ -129062,6 +129087,7 @@
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
         "src/data/library/monsters/planescape-adventures-in-the-multiverse.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse-d-d-encounters.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/quests-from-the-infinite-staircase.ts",
@@ -129217,7 +129243,9 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/faithtoken/dragon-head.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/fizban-s-treasury-of-dragons.ts"
+      ]
     },
     {
       "id": "gi/GiDragonOrb",
@@ -135192,7 +135220,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/evil-eyes.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/the-book-of-many-things.ts"
+      ]
     },
     {
       "id": "gi/GiEvilFork",
@@ -135986,7 +136017,11 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/explosion-rays.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/ravenloft-the-horrors-within.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiExplosiveMaterials",
@@ -136483,7 +136518,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/eye-target.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiF1Car",
@@ -137003,6 +137041,7 @@
       "sourceUrl": "https://game-icons.net/1x1/sbed/falling.html",
       "usedIn": [
         "src/data/scenes/a-fleet-on-an-empty-sea.ts",
+        "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -137629,11 +137668,13 @@
         "src/data/beasts/mimic-chest.ts",
         "src/data/beasts/sir-fabulous-divine-steed.ts",
         "src/data/beasts/sir-fabulous.ts",
+        "src/data/beasts/the-mossback.ts",
         "src/data/beasts/wolfie.ts",
         "src/data/library/monsters/acquisitions-incorporated.ts",
         "src/data/library/monsters/adventures-in-the-forgotten-realms-deepest-night.ts",
         "src/data/library/monsters/adventures-in-the-forgotten-realms-the-hidden-page.ts",
         "src/data/library/monsters/arcana-unleashed-deadfall.ts",
+        "src/data/library/monsters/arcana-unleashed.ts",
         "src/data/library/monsters/astarion-s-book-of-hungers.ts",
         "src/data/library/monsters/baldur-s-gate-descent-into-avernus.ts",
         "src/data/library/monsters/basic-rules-2018.ts",
@@ -137717,6 +137758,7 @@
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
         "src/data/library/monsters/planescape-adventures-in-the-multiverse.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse-online-supplement.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/project-lamordia.ts",
@@ -138144,6 +138186,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/feather.html",
       "usedIn": [
         "src/data/beasts/captain-squawk.ts",
+        "src/data/beasts/silverspore-puffball.ts",
         "src/data/events/n2-e015.ts",
         "src/data/events/n2-e081.ts",
         "src/data/items/phoenix-feather.ts",
@@ -138172,10 +138215,12 @@
         "src/data/library/monsters/plane-shift-ixalan.ts",
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/planescape-adventures-in-the-multiverse.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/ravenloft-the-horrors-within.ts",
         "src/data/library/monsters/spelljammer-adventures-in-space.ts",
         "src/data/library/monsters/srd-5-2-1.ts",
         "src/data/library/monsters/tal-dorei-campaign-setting-reborn.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/library/monsters/the-wild-beyond-the-witchlight.ts",
         "src/data/library/monsters/tomb-of-annihilation.ts",
         "src/data/library/monsters/tome-of-beasts-2.ts",
@@ -141498,6 +141543,7 @@
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/fist.html",
       "usedIn": [
+        "src/data/beasts/thornwall-gate-tree.ts",
         "src/data/library/monsters/acquisitions-incorporated.ts",
         "src/data/library/monsters/adventure-atlas-the-mortuary.ts",
         "src/data/library/monsters/astarion-s-book-of-hungers.ts",
@@ -141560,6 +141606,7 @@
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
         "src/data/library/monsters/planescape-adventures-in-the-multiverse.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/project-lamordia.ts",
         "src/data/library/monsters/quests-from-the-infinite-staircase.ts",
@@ -141573,6 +141620,7 @@
         "src/data/library/monsters/strixhaven-a-curriculum-of-chaos.ts",
         "src/data/library/monsters/tal-dorei-campaign-setting-reborn.ts",
         "src/data/library/monsters/tales-from-the-yawning-portal.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/library/monsters/the-book-of-many-things.ts",
         "src/data/library/monsters/the-orrery-of-the-wanderer.ts",
         "src/data/library/monsters/the-wild-beyond-the-witchlight.ts",
@@ -141901,6 +141949,7 @@
         "src/data/library/monsters/plane-shift-ixalan.ts",
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/quests-from-the-infinite-staircase.ts",
         "src/data/library/monsters/ravenloft-the-horrors-within.ts",
@@ -142632,6 +142681,7 @@
         "src/data/library/monsters/plane-shift-dominaria.ts",
         "src/data/library/monsters/plane-shift-innistrad.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/quests-from-the-infinite-staircase.ts",
         "src/data/library/monsters/spelljammer-adventures-in-space.ts",
         "src/data/library/monsters/srd-5-1.ts",
@@ -142639,6 +142689,7 @@
         "src/data/library/monsters/storm-king-s-thunder.ts",
         "src/data/library/monsters/tal-dorei-campaign-setting-reborn.ts",
         "src/data/library/monsters/tales-from-the-yawning-portal.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/library/monsters/the-book-of-many-things.ts",
         "src/data/library/monsters/the-lost-dungeon-of-rickedness-big-rick-energy.ts",
         "src/data/library/monsters/the-orrery-of-the-wanderer.ts",
@@ -148608,7 +148659,9 @@
       "classification": "questionable",
       "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/gears.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/eberron-forge-of-the-artificer.ts"
+      ]
     },
     {
       "id": "gi/GiGearStick",
@@ -148963,7 +149016,11 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "duplicateOf": "lucide/Ghost",
       "sourceUrl": "https://game-icons.net/1x1/lorc/ghost.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
+        "src/data/library/monsters/the-book-of-many-things.ts"
+      ]
     },
     {
       "id": "gi/GiGhostAlly",
@@ -154540,7 +154597,11 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/hand-of-god.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/arcana-unleashed.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiHandOk",
@@ -155807,6 +155868,8 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/healing.html",
       "usedIn": [
+        "src/data/library/monsters/arcana-unleashed.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/npcs/captain-garran.ts",
         "src/data/npcs/durgan-ashfang.ts",
         "src/data/npcs/korrag-stonevow.ts",
@@ -156038,7 +156101,11 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/sbed/health-increase.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/ravenloft-the-horrors-within.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiHealthNormal",
@@ -173175,7 +173242,9 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/linked-rings.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/eberron-forge-of-the-artificer.ts"
+      ]
     },
     {
       "id": "gi/GiLion",
@@ -176194,6 +176263,8 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/magic-portal.html",
       "usedIn": [
         "src/components/location-hierarchy-map.test.tsx",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/quests/fajanet-tunnels-shadow-realm.ts",
         "src/lib/location-hierarchy-map.test.ts",
         "src/lib/location-hierarchy-map.ts",
@@ -176329,7 +176400,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/magic-shield.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiMagicSwirl",
@@ -176526,7 +176600,8 @@
         "src/data/pcs/jim.ts",
         "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx",
-        "src/lib/location-icons.tsx"
+        "src/lib/location-icons.tsx",
+        "src/lib/stat-block.test.ts"
       ]
     },
     {
@@ -184661,7 +184736,9 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/mushrooms-cluster.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/arcana-unleashed.ts"
+      ]
     },
     {
       "id": "gi/GiMusicalKeyboard",
@@ -192491,6 +192568,7 @@
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
         "src/data/library/monsters/planescape-adventures-in-the-multiverse.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse-online-supplement.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/project-lamordia.ts",
@@ -198317,7 +198395,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/sbed/poison-cloud.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiPoisonGas",
@@ -198369,7 +198450,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/poison-gas.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/srd-5-2-1.ts"
+      ]
     },
     {
       "id": "gi/GiPokecog",
@@ -199980,6 +200064,9 @@
         "src/data/beasts/displacer-beast.ts",
         "src/data/beasts/dragon-children.ts",
         "src/data/beasts/serpent-eclipse-lake-serpent.ts",
+        "src/data/beasts/shambling-mound.ts",
+        "src/data/beasts/the-mossback.ts",
+        "src/data/beasts/violet-fungus.ts",
         "src/data/beasts/wolfie.ts",
         "src/data/creatures/alchemist.ts",
         "src/data/creatures/mage.ts",
@@ -201090,6 +201177,8 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/psychic-waves.html",
       "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/rules/damage-types.ts",
         "src/lib/rule-icons.tsx"
       ]
@@ -201582,6 +201671,9 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/punch.html",
       "usedIn": [
         "src/data/events/n2-e052.ts",
+        "src/data/library/monsters/arcana-unleashed.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -201868,6 +201960,7 @@
         "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/bob-returns-cassian-s-ring.ts",
         "src/data/scenes/down-through-the-rubble.ts",
+        "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/the-bard-s-new-song.ts",
         "src/data/scenes/the-green-beam-over-the-sky-islands.ts",
@@ -203462,6 +203555,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/rally-the-troops.html",
       "usedIn": [
+        "src/data/beasts/shambling-mound.ts",
         "src/data/npcs/captain-garran.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -207325,6 +207419,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/rope-coil.html",
       "usedIn": [
         "src/data/events/n2-e143.ts",
+        "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/garran-comes-for-the-cruiser.ts",
         "src/data/scenes/running-from-the-battle-cruiser.ts",
         "src/lib/event-icons.tsx",
@@ -208271,6 +208366,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/run.html",
       "usedIn": [
         "src/data/scenes/down-through-the-rubble.ts",
+        "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/garran-comes-for-the-cruiser.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -208428,7 +208524,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/darkzaitzev/running-ninja.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/arcana-unleashed.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiRunningShoe",
@@ -208459,7 +208558,9 @@
       "classification": "questionable",
       "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/running-shoe.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiRupee",
@@ -211323,6 +211424,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/screaming.html",
       "usedIn": [
         "src/data/items/screaming-for-vengeance.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/lib/item-icons.tsx"
       ]
     },
@@ -211706,7 +211808,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/scythe.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/the-book-of-many-things.ts"
+      ]
     },
     {
       "id": "gi/GiSeaCliff",
@@ -212504,7 +212608,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/semi-closed-eye.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiSensuousness",
@@ -214346,7 +214453,13 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "duplicateOf": "lucide/Shield",
       "sourceUrl": "https://game-icons.net/1x1/sbed/shield.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/eberron-forge-of-the-artificer.ts",
+        "src/data/library/monsters/fizban-s-treasury-of-dragons.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
+        "src/data/library/monsters/the-book-of-many-things.ts"
+      ]
     },
     {
       "id": "gi/GiShieldBash",
@@ -217080,7 +217193,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/skeleton.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiSkeletonInside",
@@ -217517,7 +217633,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/skull-crack.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiSkullCrossedBones",
@@ -217970,7 +218089,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/skull-slices.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/arcana-unleashed.ts"
+      ]
     },
     {
       "id": "gi/GiSkullStaff",
@@ -218672,6 +218793,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/slime.html",
       "usedIn": [
+        "src/data/beasts/shambling-mound.ts",
         "src/data/library/monsters/baldur-s-gate-descent-into-avernus.ts",
         "src/data/library/monsters/bigby-presents-glory-of-the-giants.ts",
         "src/data/library/monsters/candlekeep-mysteries.ts",
@@ -218694,10 +218816,12 @@
         "src/data/library/monsters/plane-shift-ixalan.ts",
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/srd-5-1.ts",
         "src/data/library/monsters/srd-5-2-1.ts",
         "src/data/library/monsters/tal-dorei-campaign-setting-reborn.ts",
         "src/data/library/monsters/tales-from-the-yawning-portal.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/library/monsters/the-orrery-of-the-wanderer.ts",
         "src/data/library/monsters/the-wild-beyond-the-witchlight.ts",
         "src/data/library/monsters/tomb-of-annihilation.ts",
@@ -219388,6 +219512,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/darkzaitzev/smoke-bomb.html",
       "usedIn": [
+        "src/data/beasts/silverspore-puffball.ts",
         "src/data/creatures/alchemist.ts",
         "src/data/creatures/spy.ts",
         "src/data/npcs/blackbeard.ts",
@@ -221096,6 +221221,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/sonic-shout.html",
       "usedIn": [
+        "src/data/beasts/shrieker-fungus.ts",
         "src/data/creatures/pirate-captain.ts",
         "src/data/npcs/barbara.ts",
         "src/data/npcs/dust-lost-sailor.ts",
@@ -221135,7 +221261,9 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/soul-vessel.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/arcana-unleashed.ts"
+      ]
     },
     {
       "id": "gi/GiSoundOff",
@@ -222954,7 +223082,10 @@
       ],
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/srd-5-2-1.ts"
+      ]
     },
     {
       "id": "gi/GiSpiderBot",
@@ -223220,6 +223351,7 @@
         "src/data/library/monsters/nerds-restoring-harmony-a-web-of-lies.ts",
         "src/data/library/monsters/out-of-the-abyss.ts",
         "src/data/library/monsters/planescape-adventures-in-the-multiverse.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/srd-5-1.ts",
         "src/data/library/monsters/srd-5-2-1.ts",
         "src/data/library/monsters/storm-king-s-thunder.ts",
@@ -223786,7 +223918,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/spiked-shoulder-armor.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts"
+      ]
     },
     {
       "id": "gi/GiSpikedSnail",
@@ -229129,6 +229263,8 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/stomp.html",
       "usedIn": [
+        "src/data/beasts/the-mossback.ts",
+        "src/data/library/monsters/arcana-unleashed.ts",
         "src/data/library/monsters/bigby-presents-glory-of-the-giants.ts",
         "src/data/library/monsters/candlekeep-mysteries.ts",
         "src/data/library/monsters/chains-of-asmodeus.ts",
@@ -229158,6 +229294,7 @@
         "src/data/library/monsters/plane-shift-ixalan.ts",
         "src/data/library/monsters/plane-shift-kaladesh.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/quests-from-the-infinite-staircase.ts",
         "src/data/library/monsters/rise-of-tiamat-online-supplement.ts",
@@ -229166,6 +229303,7 @@
         "src/data/library/monsters/storm-king-s-thunder.ts",
         "src/data/library/monsters/tal-dorei-campaign-setting-reborn.ts",
         "src/data/library/monsters/tales-from-the-yawning-portal.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/library/monsters/the-orrery-of-the-wanderer.ts",
         "src/data/library/monsters/the-wild-beyond-the-witchlight.ts",
         "src/data/library/monsters/tomb-of-annihilation.ts",
@@ -229284,7 +229422,9 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/stone-block.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/arcana-unleashed.ts"
+      ]
     },
     {
       "id": "gi/GiStoneBridge",
@@ -230177,7 +230317,14 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/striking-arrows.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/library/monsters/arcana-unleashed.ts",
+        "src/data/library/monsters/fizban-s-treasury-of-dragons.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
+        "src/data/library/monsters/srd-5-2-1.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
+        "src/data/library/monsters/the-book-of-many-things.ts"
+      ]
     },
     {
       "id": "gi/GiStrikingBalls",
@@ -235964,6 +236111,7 @@
         "src/data/library/monsters/plane-shift-innistrad.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
         "src/data/library/monsters/planescape-adventures-in-the-multiverse.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/quests-from-the-infinite-staircase.ts",
         "src/data/library/monsters/ravenloft-the-horrors-within.ts",
@@ -235972,6 +236120,7 @@
         "src/data/library/monsters/srd-5-1.ts",
         "src/data/library/monsters/srd-5-2-1.ts",
         "src/data/library/monsters/strixhaven-a-curriculum-of-chaos.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/library/monsters/tome-of-beasts-2.ts",
         "src/data/library/monsters/tome-of-beasts.ts",
         "src/data/library/monsters/turn-of-fortune-s-wheel.ts",
@@ -237760,7 +237909,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/thorny-vine.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/thornwall-maze.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiThreeBurningBalls",
@@ -241816,6 +241968,11 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/tree-branch.html",
       "usedIn": [
         "src/data/beasts/ent-guardians.ts",
+        "src/data/beasts/shrieker-fungus.ts",
+        "src/data/beasts/the-mossback.ts",
+        "src/data/beasts/thorn-creeper.ts",
+        "src/data/beasts/thornwall-gate-tree.ts",
+        "src/data/beasts/violet-fungus.ts",
         "src/data/npcs/goblin-grass-keepers.ts",
         "src/data/npcs/hollin-slowbough.ts",
         "src/data/npcs/shipyard-ent.ts",
@@ -248309,6 +248466,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/vine-whip.html",
       "usedIn": [
+        "src/data/library/monsters/arcana-unleashed.ts",
         "src/data/pcs/auren.ts"
       ]
     },
@@ -250839,6 +250997,7 @@
         "src/data/library/monsters/plane-shift-dominaria.ts",
         "src/data/library/monsters/plane-shift-ixalan.ts",
         "src/data/library/monsters/plane-shift-zendikar.ts",
+        "src/data/library/monsters/player-s-handbook-2024.ts",
         "src/data/library/monsters/princes-of-the-apocalypse.ts",
         "src/data/library/monsters/quests-from-the-infinite-staircase.ts",
         "src/data/library/monsters/ravenloft-the-horrors-within.ts",
@@ -250851,6 +251010,7 @@
         "src/data/library/monsters/strixhaven-a-curriculum-of-chaos.ts",
         "src/data/library/monsters/tal-dorei-campaign-setting-reborn.ts",
         "src/data/library/monsters/tales-from-the-yawning-portal.ts",
+        "src/data/library/monsters/tasha-s-cauldron-of-everything.ts",
         "src/data/library/monsters/the-wild-beyond-the-witchlight.ts",
         "src/data/library/monsters/tomb-of-annihilation.ts",
         "src/data/library/monsters/tome-of-beasts-2.ts",
@@ -251988,6 +252148,8 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/whiplash.html",
       "usedIn": [
+        "src/data/beasts/shambling-mound.ts",
+        "src/data/beasts/thorn-creeper.ts",
         "src/data/effects/whip-taught-understanding.ts",
         "src/data/library/monsters/baldur-s-gate-descent-into-avernus.ts",
         "src/data/library/monsters/basic-rules-2018.ts",
@@ -252740,6 +252902,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/wind-hole.html",
       "usedIn": [
+        "src/data/beasts/silverspore-puffball.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
@@ -253632,6 +253795,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/wingfoot.html",
       "usedIn": [
+        "src/data/beasts/the-mossback.ts",
         "src/data/npcs/mr-bumblefoot.ts",
         "src/data/pcs/devan.ts",
         "src/data/pcs/swift-starblade.ts",
@@ -268046,7 +268210,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/captions",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/dock/screen-monitor.tsx",
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/CaptionsOff",
@@ -268069,7 +268236,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/captions-off",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/dock/screen-monitor.tsx"
+      ]
     },
     {
       "id": "lucide/Car",
@@ -269650,6 +269819,7 @@
         "src/components/dm/scene-script.tsx",
         "src/components/dm/shop/price-cell.tsx",
         "src/components/dm/shop/shop-panel.tsx",
+        "src/components/library/creature-option-toggles.tsx",
         "src/components/player-screen/jims-letter-words-control.tsx",
         "src/routes/pcs/detail.$slug_.play.tsx"
       ]
@@ -270208,7 +270378,8 @@
       "sourceUrl": "https://lucide.dev/icons/chevron-left",
       "usedIn": [
         "src/components/dm/fight-sim-replay.tsx",
-        "src/components/novel/novel-reader.tsx"
+        "src/components/novel/novel-reader.tsx",
+        "src/components/player-screen/dock/parts.tsx"
       ]
     },
     {
@@ -270257,7 +270428,7 @@
         "src/components/dm/scene-script.tsx",
         "src/components/locations-index.tsx",
         "src/components/novel/novel-reader.tsx",
-        "src/components/player-screen/player-screen-dock.tsx",
+        "src/components/player-screen/dock/parts.tsx",
         "src/components/questions-page.tsx"
       ]
     },
@@ -270733,7 +270904,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/chevron-up",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/Church",
@@ -280650,7 +280823,6 @@
       "usedIn": [
         "src/components/campaign-shell/dm-controls.tsx",
         "src/components/dm/dm-item-brief.tsx",
-        "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/condition-icons.tsx",
         "src/routes/dm/locations/$slug.tsx"
       ]
@@ -287826,7 +287998,9 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/grid-3x3",
       "usedIn": [
-        "src/components/player-screen/grid-controls.tsx"
+        "src/components/player-screen/dock/screen-monitor.tsx",
+        "src/components/player-screen/grid-controls.tsx",
+        "src/components/player-screen/player-screen-dock.tsx"
       ]
     },
     {
@@ -290631,7 +290805,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/images",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/ImageUp",
@@ -294473,7 +294649,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/list-ordered",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/dock/screen-monitor.tsx",
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/ListPlus",
@@ -299233,9 +299412,7 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor",
-      "usedIn": [
-        "src/components/player-screen/player-screen-dock.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/MonitorActivity",
@@ -299372,7 +299549,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-cog",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorDot",
@@ -299442,6 +299621,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-off",
       "usedIn": [
+        "src/components/player-screen/dock/history-list.tsx",
+        "src/components/player-screen/dock/parts.tsx",
         "src/components/player-screen/player-screen-dock.tsx"
       ]
     },
@@ -299539,7 +299720,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-play",
       "usedIn": [
-        "src/components/dm/group-save-tracker.tsx"
+        "src/components/dm/group-save-tracker.tsx",
+        "src/components/player-screen/player-screen-dock.tsx"
       ]
     },
     {
@@ -299662,7 +299844,7 @@
       "sourceUrl": "https://lucide.dev/icons/monitor-up",
       "usedIn": [
         "src/components/dm/group-save-tracker.tsx",
-        "src/components/player-screen/player-screen-dock.tsx",
+        "src/components/player-screen/dock/parts.tsx",
         "src/components/player-screen/show-to-players-button.tsx"
       ]
     },
@@ -301989,7 +302171,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/package-plus",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/shop/add-from-library.tsx"
+      ]
     },
     {
       "id": "lucide/PackageQuestionMark",
@@ -306178,7 +306362,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rectangle-horizontal",
       "usedIn": [
-        "src/components/player-screen/player-screen-dock.tsx"
+        "src/components/player-screen/dock/parts.tsx"
       ]
     },
     {
@@ -306464,7 +306648,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/refresh-cw",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dev-reload-notice.tsx"
+      ]
     },
     {
       "id": "lucide/RefreshCwOff",
@@ -307088,8 +307274,9 @@
         "src/components/dm/npc-portrait-status.tsx",
         "src/components/dm/scene-script.tsx",
         "src/components/dm/shop/price-cell.tsx",
+        "src/components/player-screen/dock/parts.tsx",
+        "src/components/player-screen/dock/screen-monitor.tsx",
         "src/components/player-screen/grid-controls.tsx",
-        "src/components/player-screen/player-screen-dock.tsx",
         "src/routes/dm/tools/deck-of-many-things.tsx"
       ]
     },
@@ -307136,7 +307323,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rotate-ccw-clock",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/RotateCcwKey",
@@ -307238,7 +307427,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rotate-cw",
       "usedIn": [
-        "src/components/player-screen/player-screen-dock.tsx"
+        "src/components/player-screen/dock/parts.tsx",
+        "src/components/player-screen/dock/screen-monitor.tsx"
       ]
     },
     {
@@ -308867,6 +309057,7 @@
         "src/components/dm/dm-quick-links.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/home-action-card.test.tsx",
+        "src/components/player-screen/dock/parts.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/routes/index.tsx"
@@ -310736,7 +310927,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/ship",
       "usedIn": [
-        "src/components/player-screen/player-screen-dock.tsx",
+        "src/components/player-screen/dock/parts.tsx",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -312206,6 +312397,8 @@
         "src/components/dm/fight-sim-replay.tsx",
         "src/components/dm/npc-draft-editor.tsx",
         "src/components/dm/shop/add-from-library.tsx",
+        "src/components/dm/shop/new-item-prompt.tsx",
+        "src/components/dm/shop/shop-panel.tsx",
         "src/components/dm/stat-block-sheet.tsx",
         "src/components/foretold-list.tsx",
         "src/components/library/spell-browse.tsx",
@@ -322837,7 +323030,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/trash",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/dock/history-list.tsx"
+      ]
     },
     {
       "id": "lucide/TrashOff",

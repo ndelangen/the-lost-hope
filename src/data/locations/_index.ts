@@ -6,6 +6,7 @@ import bob_s_stall from './bob-s-stall.ts'
 import borris_s_gambling_den from './borris-s-gambling-den.ts'
 import continent_of_the_dead from './continent-of-the-dead.ts'
 import dining_room_at_skynet_s_second_best_inn from './dining-room-at-skynet-s-second-best-inn.ts'
+import elven_standard from './elven-standard.ts'
 import ethium from './ethium.ts'
 import fairhaven_city_gate from './fairhaven-city-gate.ts'
 import fairhaven_courthouse from './fairhaven-courthouse.ts'
@@ -29,6 +30,7 @@ import flying_bazaar_crafting_area from './flying-bazaar-crafting-area.ts'
 import flying_bazaar_kitchen from './flying-bazaar-kitchen.ts'
 import foundry_nine from './foundry-nine.ts'
 import gambling_deck from './gambling-deck.ts'
+import gate_tree_passage from './gate-tree-passage.ts'
 import giggles_and_gadgets from './giggles-and-gadgets.ts'
 import greenhollow from './greenhollow.ts'
 import gruumsh_temple_blood_hall from './gruumsh-temple-blood-hall.ts'
@@ -39,12 +41,16 @@ import gruumsh_war_temple from './gruumsh-war-temple.ts'
 import holy_site from './holy-site.ts'
 import jim_s_room_at_skynet_s_second_best_inn from './jim-s-room-at-skynet-s-second-best-inn.ts'
 import little_purple_decks from './little-purple-decks.ts'
+import living_walls_path from './living-walls-path.ts'
+import lost_map_loop from './lost-map-loop.ts'
 import lower_stables from './lower-stables.ts'
 import master_of_puppets_commanders_office from './master-of-puppets-commanders-office.ts'
 import master_of_puppets_gun_deck from './master-of-puppets-gun-deck.ts'
 import master_of_puppets_main_deck from './master-of-puppets-main-deck.ts'
+import moonlit_clearing from './moonlit-clearing.ts'
 import mortimer_s_shop from './mortimer-s-shop.ts'
 import mortimer_s_underground_workshop from './mortimer-s-underground-workshop.ts'
+import mound_s_hollow from './mound-s-hollow.ts'
 import mountain_cliff from './mountain-cliff.ts'
 import mountain_top from './mountain-top.ts'
 import night_mothers_church from './night-mothers-church.ts'
@@ -83,6 +89,7 @@ import shadow_realm from './shadow-realm.ts'
 import shadowpeak_mining_operation from './shadowpeak-mining-operation.ts'
 import shadowpeak_residential_district from './shadowpeak-residential-district.ts'
 import shadowpeak from './shadowpeak.ts'
+import silver_spore_path from './silver-spore-path.ts'
 import sky_bridge_ferry from './sky-bridge-ferry.ts'
 import skynet_airship_shipyard from './skynet-airship-shipyard.ts'
 import skynet_coin_dealer from './skynet-coin-dealer.ts'
@@ -96,6 +103,7 @@ import snowy_mountain_ruin from './snowy-mountain-ruin.ts'
 import snowy_mountains from './snowy-mountains.ts'
 import stables_at_skynet_s_second_best_inn from './stables-at-skynet-s-second-best-inn.ts'
 import stefanio_s_magic_shop from './stefanio-s-magic-shop.ts'
+import swallowed_war_machine from './swallowed-war-machine.ts'
 import swift_s_room_at_skynet_s_second_best_inn from './swift-s-room-at-skynet-s-second-best-inn.ts'
 import sylvia_s_quarters from './sylvia-s-quarters.ts'
 import tempest_secret_shipyard from './tempest-secret-shipyard.ts'
@@ -121,6 +129,8 @@ import the_nest from './the-nest.ts'
 import the_old_battlefield from './the-old-battlefield.ts'
 import the_patient_heron from './the-patient-heron.ts'
 import the_sullen_monk from './the-sullen-monk.ts'
+import thornwall_gap from './thornwall-gap.ts'
+import thornwall_maze from './thornwall-maze.ts'
 import three_sky_kingdoms from './three-sky-kingdoms.ts'
 import trapdoor from './trapdoor.ts'
 import unidentified_floating_island from './unidentified-floating-island.ts'
@@ -176,6 +186,16 @@ export default {
   rustmoor,
   rustmoor_guildhall,
   the_old_battlefield,
+  thornwall_maze,
+  elven_standard,
+  gate_tree_passage,
+  living_walls_path,
+  lost_map_loop,
+  moonlit_clearing,
+  mound_s_hollow,
+  silver_spore_path,
+  swallowed_war_machine,
+  thornwall_gap,
   holy_site,
   lower_stables,
   jim_s_room_at_skynet_s_second_best_inn,

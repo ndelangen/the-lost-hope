@@ -1261,6 +1261,12 @@ export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/maps/serpent-eclipse-maze.png',
   },
   {
+    id: 'thornwall-maze',
+    role: 'map',
+    logicalSource: '/assets/maps/thornwall-maze.jpg',
+    repositoryPath: 'assets/images/maps/thornwall-maze.png',
+  },
+  {
     id: 'serpent-eclipse-three-door-chamber',
     role: 'map',
     logicalSource: '/assets/maps/serpent-eclipse-three-door-chamber.jpg',

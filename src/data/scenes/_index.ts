@@ -7,6 +7,7 @@ import chaos_on_the_sky_islands from './chaos-on-the-sky-islands.ts'
 import crowy_brings_up_onana_s_letter from './crowy-brings-up-onana-s-letter.ts'
 import down_through_the_rubble from './down-through-the-rubble.ts'
 import fix_s_last_delivery from './fix-s-last-delivery.ts'
+import four_stomps_under_the_moon from './four-stomps-under-the-moon.ts'
 import garran_comes_for_the_cruiser from './garran-comes-for-the-cruiser.ts'
 import hex_loses_patience from './hex-loses-patience.ts'
 import light_walks_auren_through_fajanet from './light-walks-auren-through-fajanet.ts'
@@ -44,6 +45,7 @@ export default {
   onana_sends_the_party_on,
   down_through_the_rubble,
   fix_s_last_delivery,
+  four_stomps_under_the_moon,
   light_walks_auren_through_fajanet,
   swift_s_silver_container_opens,
   the_bard_s_new_song,

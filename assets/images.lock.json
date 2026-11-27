@@ -5616,5 +5616,6 @@
   "assets/images/maps/tempest.png": {"sha256":"980aaa254ac11dc39b223dae6d0fff6bd4af29a9ccd58685338568e58d334b45","bytes":3211151},
   "assets/images/maps/temple-of-the-serpent-eclipse.png": {"sha256":"d602a07677a8eceeae6368ba290ee05bfbb561427954a8f67ffd54c90f14864c","bytes":2857540},
   "assets/images/maps/temple-of-the-watchers.png": {"sha256":"1fd23cf7245269b2b0e8633be9a532808a1ac0cf26ff9402ed31c5e440c0acbe","bytes":4163097},
+  "assets/images/maps/thornwall-maze.png": {"sha256":"3569c20059a3b68f875cf19a039bc4dece6b7a2481cb36eb4f60b516c3865231","bytes":3150241},
   "assets/images/maps/three-sky-kingdoms.png": {"sha256":"86178ade9d4bae1da534fa3195bc9592797f22d7b1ce3de5b7f7411a9aa47248","bytes":2934199}
 }
