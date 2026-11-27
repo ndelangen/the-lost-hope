@@ -12,12 +12,12 @@ export function DevReloadNotice() {
   if (!waiting) return null
   return (
     <div className="sticky top-16 z-20 mb-3 flex justify-center">
-      <output className="border-border bg-card text-foreground flex max-w-full items-center gap-3 rounded-full border px-4 py-2 text-sm shadow-lg">
-        <RefreshCw className="text-muted-foreground size-4" aria-hidden />
+      <output className="flex max-w-full items-center gap-3 rounded-full bg-amber-400 py-1.5 pr-1.5 pl-4 text-sm font-medium text-amber-950 shadow-lg ring-1 ring-amber-500/60">
+        <RefreshCw className="size-4" aria-hidden />
         <span>The app changed. It reloads once you save or discard.</span>
         <button
           type="button"
-          className="text-primary font-medium underline-offset-4 hover:underline"
+          className="rounded-full bg-amber-950 px-3 py-1 font-semibold text-amber-50 hover:bg-amber-900"
           onClick={reloadNow}
         >
           Reload now
