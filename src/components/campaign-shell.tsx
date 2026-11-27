@@ -19,6 +19,15 @@ import { useUiPreferences } from './campaign-shell/ui-preferences'
 const headerButtonClass =
   'border-border text-muted-foreground hover:bg-muted hover:text-foreground focus-visible:ring-ring/50 size-9 shrink-0 items-center justify-center rounded-md border transition-colors focus-visible:ring-2 focus-visible:outline-none'
 
+/** Local dev only: the notice for a reload held back while the DM has unsaved work. */
+const DevReloadNotice = import.meta.env.DEV
+  ? lazy(() =>
+      import('#/components/dev-reload-notice').then((module) => ({
+        default: module.DevReloadNotice,
+      })),
+    )
+  : undefined
+
 /** The DM's player-screen picker is a table tool for local dev; the public site never ships it. */
 const PlayerScreenDock = import.meta.env.DEV
   ? lazy(() =>
@@ -142,6 +151,11 @@ export function CampaignShell({ initialPreferences }: { initialPreferences: UiPr
         <DmModeContext value={dmMode}>
           {/* Room below the page so its last lines can scroll clear of the player-screen dock. */}
           <div className={PlayerScreenDock ? 'pb-24' : undefined}>
+            {DevReloadNotice ? (
+              <Suspense fallback={null}>
+                <DevReloadNotice />
+              </Suspense>
+            ) : null}
             <Outlet />
           </div>
         </DmModeContext>
