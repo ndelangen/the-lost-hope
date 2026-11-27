@@ -5,11 +5,11 @@ export default createScene({
   name: 'Hex loses patience',
   location: refs.locations.rustmoor_guildhall,
   illustrations: ['/assets/scenes/hex-loses-patience.png'],
-  npcs: [refs.npcs.hex, refs.npcs.light_13th_marshal],
+  npcs: [refs.npcs.hex, refs.npcs.sneeve, refs.npcs.light_13th_marshal],
   setup: [
     [
       refs.npcs.hex,
-      ' is waiting in the guildhall the party goes to on the advice of ',
+      ' is facilitating the construction of the guildhall the party goes to on the advice of ',
       refs.npcs.onana_tempest,
       ' in ',
       refs.scenes.onana_sends_the_party_on,
@@ -18,9 +18,11 @@ export default createScene({
       ' a single hard question.',
     ],
     [
-      'The guildhall is not fully operational yet. Its booth has no connection to ',
+      'The guildhall will be operational somewhere between tomorrow and the day after. Its booth has no connection to ',
       refs.locations.fajanet,
-      ': that is perhaps a few days away. ',
+      ' yet: establishing the portal is something only ',
+      refs.npcs.light_13th_marshal,
+      ' can do, and he is a very, very busy person. ',
       refs.locations.the_flying_whale,
       ', the ship of ',
       refs.npcs.sylvia,
@@ -65,6 +67,21 @@ export default createScene({
     ],
   ],
   beats: [
+    {
+      title: 'A busy guildhall',
+      lines: [
+        {
+          do: [
+            [
+              refs.npcs.hex,
+              ' greets the party, a bit happy to see them, but busy: the guildhall is going up around them. ',
+              refs.npcs.sneeve,
+              ' is running errands.',
+            ],
+          ],
+        },
+      ],
+    },
     {
       title: 'Why are you not asking?',
       lines: [
@@ -117,7 +134,7 @@ export default createScene({
           when: [['They decide to go and ask.']],
           response: [
             [
-              'From this guildhall the way to ask is the booth, and it is not connected yet: perhaps in a few days.',
+              'From this guildhall the way to ask is the booth, and it is not connected yet: somewhere between tomorrow and the day after, once Light has established the portal.',
             ],
             [
               'Let the party find creative ways to speed this up. Once the booth works, play “At the booth”.',

@@ -78,7 +78,7 @@ export default createScene({
             ],
             [
               refs.npcs.light_13th_marshal,
-              ' sends the barrels: he supplies Arcane Dust to the marshals and to no one else. The portal is a draft. Nobody comes through it and no ship drops the barrels, so there is nothing to chase.',
+              ' sends the barrels: he supplies Arcane Dust to the marshals and to no one else. The portal is one of his: only he can establish portals. Nobody comes through it and no ship drops the barrels, so there is nothing to chase.',
             ],
           ],
         },

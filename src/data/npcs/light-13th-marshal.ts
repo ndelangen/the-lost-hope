@@ -44,6 +44,9 @@ export default createNPC({
   ],
   background: [
     [
+      'Only he can establish portals: the links between guildhall booths, and the portals that drop Arcane Dust to the marshals.',
+    ],
+    [
       'Writing is remembering. He records every use of shadow fuel and Arcane Dust. If he remembers, the users remember, and what he has written down is not lost. That is the paperwork, and it is why he never sleeps.',
     ],
     [
