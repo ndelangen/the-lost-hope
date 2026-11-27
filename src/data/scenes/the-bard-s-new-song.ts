@@ -239,6 +239,35 @@ export default createScene({
           ],
         },
       ],
+      outcomes: [
+        {
+          icon: 'gi/GiShakingHands',
+          when: [['The party says yes.']],
+          response: [
+            [
+              'They join the party until the next place the ship docks, and will likely leave there. See how it goes.',
+            ],
+          ],
+        },
+        {
+          icon: 'gi/GiCancel',
+          when: [['The party says no.']],
+          response: [
+            [
+              refs.npcs.hagel_boos,
+              ': “Yeah, we figured. It’s been the standard answer for about a month. Y’all have a good one.”',
+            ],
+            [
+              'They go back to their own table. Then ',
+              refs.npcs.jake_kinner,
+              ' comes back for one more try:',
+            ],
+            [
+              '“Look, we’re navy men, we’re good men. We can man cannons, we’re experienced. Please, man, we just want to get out of here. We’re getting desperate.”',
+            ],
+          ],
+        },
+      ],
     },
   ],
 })
