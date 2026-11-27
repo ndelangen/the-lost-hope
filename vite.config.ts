@@ -23,11 +23,11 @@ function generatedRefsPlugin(): Plugin {
       for (const sourcePath of sourcePaths) this.addWatchFile(sourcePath)
       await generateRefs()
     },
-    async handleHotUpdate({ file, server }) {
+    async handleHotUpdate({ file }) {
       if (!sourcePaths.has(file)) return
 
-      const changed = await generateRefs()
-      if (changed) server.ws.send({ type: 'full-reload' })
+      // The regenerated refs reach the page as an ordinary hot update.
+      await generateRefs()
     },
   }
 }
@@ -115,6 +115,10 @@ const config = defineConfig(({ mode }) => {
     },
     preview: {
       host: '127.0.0.1',
+    },
+    server: {
+      // Builds, drafts and screenshots land in these; a page reload for each would disturb the app.
+      watch: { ignored: ['**/output/**', '**/dist/**', '**/.netlify/**'] },
     },
     plugins: [
       generatedRefsPlugin(),

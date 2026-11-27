@@ -1,7 +1,7 @@
 import { HeadContent, Link, Scripts, createRootRoute } from '@tanstack/react-router'
 import { createIsomorphicFn } from '@tanstack/react-start'
 import { getRequestHeader } from '@tanstack/react-start/server'
-import type { ReactNode } from 'react'
+import { lazy, Suspense, type ReactNode } from 'react'
 
 import { CampaignShell } from '#/components/campaign-shell'
 import { DM_MODE_AVAILABLE } from '#/components/dm-mode'
@@ -9,6 +9,15 @@ import { loadEntityIcons } from '#/components/entity-icons'
 import { parseUiPreferences } from '#/lib/ui-preferences'
 
 import '../styles.css'
+
+/** Local dev only: the notice for a reload held back while the DM has unsaved work. */
+const DevReloadNotice = import.meta.env.DEV
+  ? lazy(() =>
+      import('#/components/dev-reload-notice').then((module) => ({
+        default: module.DevReloadNotice,
+      })),
+    )
+  : undefined
 
 /** Read the shell preferences from the request so the server render already matches them. */
 const loadUiPreferences = createIsomorphicFn()
@@ -56,6 +65,11 @@ function RootDocument({ children }: { children: ReactNode }) {
       </head>
       <body>
         {children}
+        {DevReloadNotice ? (
+          <Suspense fallback={null}>
+            <DevReloadNotice />
+          </Suspense>
+        ) : null}
         <Scripts />
       </body>
     </html>

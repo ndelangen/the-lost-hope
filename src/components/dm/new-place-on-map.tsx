@@ -11,6 +11,7 @@ import { SHOP_TYPES, SHOP_TYPE_LABELS, type ShopType } from '#/definitions/shop'
 import { getEntity } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { canSaveRecords, createRecord } from '#/lib/dev-records'
+import { useHoldReloadWhile } from '#/lib/dev-reload-guard'
 import { sourceLocationMap, type LocationHierarchyMapModel } from '#/lib/location-hierarchy-map'
 import { LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
 
@@ -29,6 +30,7 @@ export function NewPlaceOnMap({
 }) {
   const dmMode = useDmMode()
   const [placing, setPlacing] = useState(false)
+  useHoldReloadWhile(placing)
   const [at, setAt] = useState<[number, number]>()
   const [name, setName] = useState('')
   const [type, setType] = useState<LocationType>('building')

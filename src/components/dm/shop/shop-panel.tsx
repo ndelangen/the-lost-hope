@@ -19,6 +19,7 @@ import {
   type StockLine,
 } from '#/definitions/shop'
 import { canSaveRecords, saveRecordEdits } from '#/lib/dev-records'
+import { useHoldReloadWhile } from '#/lib/dev-reload-guard'
 import { loadAllEquipment } from '#/lib/library-equipment'
 import { loadAllMagicItems } from '#/lib/library-magic-items'
 import {
@@ -95,6 +96,7 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
   const dmMode = useDmMode()
   const [draft, setDraft] = useState<Shop>()
   const [saving, setSaving] = useState(false)
+  useHoldReloadWhile(draft !== undefined && !saving)
   const [removing, setRemoving] = useState<'asked' | 'saving'>()
   const [error, setError] = useState<string>()
   const [size, setSize] = useState<SettlementSize>('town')
