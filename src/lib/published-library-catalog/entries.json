@@ -10387,6 +10387,20 @@
             "key": "tome_of_beasts"
           }
         }
+      },
+      {
+        "id": "open5e-tob-2023_death-butterfly-swarm",
+        "label": "Tome of Beasts 1 (2023 Edition)",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "death_butterfly_swarm"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2023"
+          }
+        }
       }
     ],
     "groups": ["Beast"],
@@ -52036,98 +52050,24 @@
       {
         "id": "printing-46bd96368c4b3384f04d14f1",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 5 ft., climb 5 ft.",
-              "Passive Perception · 6",
-              "XP · 100",
-              "Str · 2",
-              "Dex · 7",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 2",
-              "Cha · 1"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["swamp", "underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A close cluster of pale, legless grubs with ringed bodies and darker mouthparts."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium swarm of Tiny Beasts, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Proficiency bonus +2. Blindsight 10 ft. Passive Perception 6. Languages —."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, Chapter 2, Swarm of Rot Grubs, stat block p. 237. https://www.dndbeyond.com/monsters/2560935-swarm-of-rot-grubs"
-            ]
-          },
-          {
-            "title": "Damage Vulnerabilities",
-            "lines": ["Fire."]
-          },
-          {
-            "title": "Damage Resistances",
-            "lines": ["Piercing and slashing."]
-          },
-          {
-            "title": "Condition Immunities",
-            "lines": ["Charmed, frightened, grappled, paralyzed, petrified, prone and restrained."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Swarm. The swarm can share spaces with other creatures and pass through openings large enough for a Tiny maggot. It cannot regain HP or gain temporary HP."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bites. Melee weapon attack, +0 to hit, reach 0 ft., one creature in the swarm’s space. A hit deals 7 (2d6) piercing damage. The target must pass a DC 10 Constitution saving throw or become poisoned. A poisoned target takes 3 (1d6) poison damage at the end of each of its turns. Each time the target takes fire damage, it can repeat the save, ending the effect on a success. If the poisoned target ends its turn with 0 HP, it dies."
-            ]
-          },
-          {
-            "title": "Single Rot Grub",
-            "lines": [
-              "On contact with an individual grub, a creature must pass a DC 10 Constitution saving throw or become poisoned as the grub burrows in. It takes 3 (1d6) poison damage at the end of each of its turns while poisoned. Each time it takes fire damage, it can repeat the save, ending the effect on a success. If the poisoned creature ends its turn with 0 HP, it dies."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "These finger-sized maggots infest corpses and decaying matter. They eat living or dead creatures and can also survive on vegetation. Fire helps dislodge them, and the text also identifies magic that neutralizes poison as a way to stop them."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#swarm%20of%20rot%20grubs_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/702/1000/1000/637880558079549568.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/swarm-of-rot-grubs-2e70b81f3e47.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "swarm_of_rot_grubs"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-003ad885a77b02b5babdbabe",

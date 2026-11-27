@@ -203,7 +203,7 @@ def extract_save(ab,text,scores,prof,issues):
       if where: target['range']=int(where.group(1))
     else:
       tm=re.match(r'(one|two|three) ((?:[A-Z]\w+ or \w+ |\w+ )?)creatures?(?: (.*?))? within (\d+) (?:feet|ft\.?)(?: (.*))?$',who)
-      if not tm: issues.append(f'{name}: save target not understood: {who[:40]}'); return text
+      if not tm: return text  # a target we can't structure: the save stays readable text
       target={'creatures':{'one':1,'two':2,'three':3}[tm.group(1)],'range':int(tm.group(4))}
       which=' '.join(x.strip() for x in [tm.group(3),tm.group(5)] if x and x.strip())
       if tm.group(2).strip(): which=('that is '+tm.group(2).strip()+(' and that '+which if which else '')).strip()
@@ -225,10 +225,11 @@ def extract_save(ab,text,scores,prof,issues):
     else:
       # "Choose one Prone creature within 5 ft.", "one creature it can see within 60 feet of it"
       cm=re.search(r'\bone (?:[\w ]+? )?(?:creature|target)[^.]*? within (\d+) (?:feet|ft)',text[:m.start()+10],re.I)
-      if not cm: issues.append(f'{name}: save target not understood'); return text
+      if not cm: return text  # a target we can't structure: the save stays readable text
       target={'creatures':1,'range':int(cm.group(1))}
     # What a failure adds right after the damage ("…damage and be knocked prone.") is its rider,
     # as long as it carries no roll or DC of its own.
+    whole=text
     after=text[m.end():]
     rm=re.match(r'\s*(?:,\s*)?and (be|is|become|becomes|fall|falls|have|has|it is|the target is) ([^.]*)\.',after,re.I)
     rider=''
@@ -245,7 +246,7 @@ def extract_save(ab,text,scores,prof,issues):
     # broken sentence: wait for a closer look instead.
     if re.search(r'(?<!\bft)\. (?:and|or) ',' '+rest):
       ab.pop('save',None); ab['intent']=ab.get('intent','support') if 'attack' not in ab else 'damage'
-      issues.append(f'{name}: save rider not structured'); return text
+      return whole  # a rider we can't structure: the save stays readable text, rider and all
     return rest[:1].upper()+rest[1:]
   # Any other phrasing: a DC save in one sentence and its damage in that sentence or the next.
   m=re.search(r'DC (\d+) '+ABW+r' sav(?:ing throw|e)',text,re.I)
@@ -265,9 +266,9 @@ def extract_save(ab,text,scores,prof,issues):
         at=ab['attack']; target={'creatures':1,'range':at['reach'] if 'reach' in at else at['range'][0],'which':'it hits'}
       else:
         if re.search(r'starts? its turn|enters|ends? its turn',text,re.I):
-          issues.append(f'{name}: aura save not structured'); return text
+          return text  # an aura: the save stays readable text
         cm=re.search(r'(?:one|a) (?:[\w ]+? )?(?:creature|target)[^.]*? within (\d+) (?:feet|ft)',text[:m.end()+10],re.I)
-        if not cm: issues.append(f'{name}: save target not understood'); return text
+        if not cm: return text  # a target we can't structure: the save stays readable text
         target={'creatures':1,'range':int(cm.group(1))}
       damage=save_damage(type('M',(),{'group':lambda s,i:[None,*d.groups()][i]})(),scores,a,issues,name)
       ab['save']=build_save(a,dc,target,[damage],'','half' if half else 'none',scores,prof,issues,name)
@@ -290,7 +291,7 @@ def extract_save(ab,text,scores,prof,issues):
         rider=re.sub(r',?\s*(?:on a (?:failure|failed save))?,?\s*(?:or )?half (?:as much )?(?:damage )?on a success(?:ful one)?$','',rider,flags=re.I).strip(' .,')
         if re.search(r'\d+d\d+|\bDC \d|\(\d+d',rider) or re.search(r'\b(?:'+'|'.join(CONDS)+r')\b|minute|hour|round|until|speed|push|pull|knock',before,re.I) or not rider:
           ab.pop('save',None); ab['intent']=ab.get('intent','support') if 'attack' not in ab else 'damage'
-          issues.append(f'{name}: save rider not structured'); return text
+          return text  # a rider we can't structure: the save stays readable text
         ab['save']['onFail']['also']=[rider[0].upper()+rider[1:]+'.']
       rest=(text[:start]+' '+text[stop:]).strip()
       return re.sub(r'\s+',' ',rest)

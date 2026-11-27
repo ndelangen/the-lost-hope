@@ -140,8 +140,10 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2014): Orog
 - Monster Manual (2014): Phase Spider
 - Monster Manual (2024): Animated Broom
+- Monster Manual (2024): Ankheg
 - Monster Manual (2024): Axe Beak
 - Monster Manual (2024): Basilisk
+- Monster Manual (2024): Brazen Gorgon
 - Monster Manual (2024): Bulette Pup
 - Monster Manual (2024): Carrion Crawler
 - Monster Manual (2024): Cockatrice
@@ -186,6 +188,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Mordenkainen Presents: Monsters of the Multiverse: Nightwalker
 - Mordenkainen Presents: Monsters of the Multiverse: Oblex Spawn
 - Mordenkainen Presents: Monsters of the Multiverse: Phoenix
+- Mordenkainen Presents: Monsters of the Multiverse: Vampiric Mist
 - Mordenkainen Presents: Monsters of the Multiverse: Wretched Sorrowsworn
 - Mythic Odysseys of Theros: Nyx-Fleece Ram
 - Mythic Odysseys of Theros: Polukranos
