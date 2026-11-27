@@ -117,6 +117,7 @@ export default createScene({
         {
           speaker: refs.npcs.light_13th_marshal,
           say: [
+            ['I have kept my connection to him too.'],
             [
               'If you can hold on to this connection, you might, just might, be able to save him, Cassian.',
             ],
