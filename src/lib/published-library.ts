@@ -146,12 +146,18 @@ export function getLibraryEntry(type: LibraryType, slug: string, dm: boolean, ve
   const record = libraryRecord(type, slug)
   if (!record || (!dm && record.gmOnly)) return undefined
   const { name, group, groups = [group], summary, printings, art, price, rating } = record
-  const selected = version ? printings.find(({ id }) => id === version) : printings[0]
+  // The page opens on the first printing with rules to read: a shop's own stock entry often
+  // comes first and has none.
+  const opening =
+    printings.find(
+      (printing) => printing.typed || printing.player?.length || printing.gm?.length,
+    ) ?? printings[0]
+  const selected = version ? printings.find(({ id }) => id === version) : opening
   if (!selected) return undefined
   const defaultArt = art ?? []
   const printingArt = selected.art ?? []
   const [primary, alternates] =
-    selected === printings[0] ? [defaultArt, printingArt] : [printingArt, defaultArt]
+    selected === opening ? [defaultArt, printingArt] : [printingArt, defaultArt]
   const artwork = [
     ...primary,
     ...alternates.filter((image) => !primary.some(({ file }) => file === image.file)),
