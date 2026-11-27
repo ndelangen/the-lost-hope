@@ -21,7 +21,7 @@ export default createLocation({
       refs.locations.the_abyss,
       ', the shaft that runs the length of the sphere. The lower levels hold industry, storage, power and large docks with room for the whole subship fleet: about a thousand of them would fit. Above them are rings of private dwellings and common rooms. At the top, mold farms flank the ',
       refs.locations.the_grand_hall,
-      ', where everyone eats together. They live on fish, mold and seaweed.',
+      ', where everyone eats together. They live on fish, mold and seaweed. A symbol of three eyes, one above the other, is repeated in the art and decoration throughout.',
     ],
     [
       'Its people look human, but not quite: pale skin, large dark eyes, faint gill slits at the neck and webbing between the fingers. They call the Marshal their master.',
@@ -35,7 +35,7 @@ export default createLocation({
     [
       'They are humans changed by generations under ',
       refs.npcs.the_11th_marshal,
-      ', on their way to becoming skum, the fish-like servants aboleths make of humanoids. The look is a deliberate hint at the aboleth.',
+      ', on their way to becoming skum, the fish-like servants aboleths make of humanoids. The look is a deliberate hint at the aboleth, as is the three-eyes symbol: an aboleth has three eyes stacked one above the other. Keep such hints subtle, never too clear.',
     ],
     ['Without its five chains the sphere would float away.'],
     [
