@@ -1,7 +1,7 @@
 import type { EntityRef } from '#/definitions/kind'
 import type { Equipment, ITEM_CATEGORIES, ITEM_RARITIES, MagicItem } from '#/definitions/library'
 import type { Price } from '#/definitions/price'
-import type { ShopType, StockItem, StockLine } from '#/definitions/shop'
+import type { Shop, ShopType, StockItem, StockLine } from '#/definitions/shop'
 
 type Rarity = (typeof ITEM_RARITIES)[number]
 type Category = (typeof ITEM_CATEGORIES)[number]
@@ -197,6 +197,8 @@ export type StockLineView = {
   category?: string
   rarity?: string
   price?: Price
+  /** What the item costs anywhere else: its printed, estimated or market price. */
+  listPrice?: Price
   /** Why the price is what it is, when that is not the item's own printed or market price. */
   priceNote?: 'set by the shop' | 'estimate'
 }
@@ -222,6 +224,7 @@ export function describeStockLine(
       category: item?.category,
       rarity: item?.rarity,
       price: line.price ?? market,
+      listPrice: market,
       priceNote: line.price ? 'set by the shop' : undefined,
     }
   }
@@ -230,6 +233,111 @@ export function describeStockLine(
     name,
     category: item?.category,
     price: line.price ?? item?.price,
+    listPrice: item?.price,
     priceNote: line.price ? 'set by the shop' : item?.priceEstimated ? 'estimate' : undefined,
+  }
+}
+
+/** What identifies a stock line within a shop: the item it sells. */
+export const stockLineKey = ({ item }: Pick<StockLine, 'item'>) => `${item.ref}:${item.key}`
+
+/** A shop with its fields in schema order, so the data file reads the same way every time. */
+export const orderedShop = ({ type, keeper, stock }: Shop): Shop => ({
+  type,
+  ...(keeper ? { keeper } : {}),
+  stock: stock.map(({ item, quantity, price }) => ({
+    item,
+    ...(quantity ? { quantity } : {}),
+    ...(price ? { price } : {}),
+  })),
+})
+
+/** Whether two shops would be written to the data file identically. */
+export const sameShop = (a: Shop | undefined, b: Shop | undefined) =>
+  JSON.stringify(a && orderedShop(a)) === JSON.stringify(b && orderedShop(b))
+
+/** A shop's stock as its two shelves, each in the order the DM lists it. */
+export function stockShelves(stock: readonly StockLine[]): {
+  goods: StockLine[]
+  magic: StockLine[]
+} {
+  return {
+    goods: stock.filter(({ item }) => item.ref === 'equipment'),
+    magic: stock.filter(({ item }) => item.ref === 'magicItem'),
+  }
+}
+
+/**
+ * A fresh roll that keeps the lines the DM locked. Each shelf keeps its locked lines first, then
+ * takes newly rolled ones until it is as long as the roll made it, so a re-roll does not grow the
+ * shop.
+ */
+export function rerollStock(
+  current: readonly StockLine[],
+  locked: ReadonlySet<string>,
+  rolled: readonly StockLine[],
+): StockLine[] {
+  const kept = stockShelves(current.filter((line) => locked.has(stockLineKey(line))))
+  const fresh = stockShelves(rolled.filter((line) => !locked.has(stockLineKey(line))))
+  const sizes = stockShelves(rolled)
+  const shelf = (name: 'goods' | 'magic') => [
+    ...kept[name],
+    ...fresh[name].slice(0, Math.max(0, sizes[name].length - kept[name].length)),
+  ]
+  return [...shelf('goods'), ...shelf('magic')]
+}
+
+/** One more or one fewer on the shelf. Counting starts at one; the last one is never taken away. */
+export function stepQuantity(quantity: number | undefined, delta: 1 | -1): number {
+  return Math.max(1, (quantity ?? 0) + delta)
+}
+
+/** The line with that many on the shelf, or plenty when the count is not a positive whole number. */
+export function withQuantity(line: StockLine, quantity: number | undefined): StockLine {
+  const { quantity: _, ...rest } = line
+  return quantity !== undefined && Number.isInteger(quantity) && quantity > 0
+    ? { ...rest, quantity }
+    : rest
+}
+
+/**
+ * The line at the price this shop asks. A price equal to the item's own is not a deviation, so it
+ * is not stored.
+ */
+export function withShopPrice(
+  line: StockLine,
+  price: Price | undefined,
+  listPrice: Price | undefined,
+): StockLine {
+  const { price: _, ...rest } = line
+  if (!price || !(price.amount > 0)) return rest
+  if (listPrice && priceInCopper(listPrice) === priceInCopper(price)) return rest
+  return { ...rest, price }
+}
+
+/**
+ * Items matching a search, best first: names that start with the words, then names with a word
+ * that starts with them, then any other name containing them. Items already in stock are left out.
+ */
+export function searchStockItems<Entry extends { item: StockItem; name: string }>(
+  query: string,
+  entries: readonly Entry[],
+  stock: readonly StockLine[],
+  limit: number,
+): { matches: Entry[]; more: number } {
+  const words = query.trim().toLowerCase()
+  if (words.length < 2) return { matches: [], more: 0 }
+  const listed = new Set(stock.map(stockLineKey))
+  const ranked = entries.flatMap((entry) => {
+    if (listed.has(stockLineKey(entry))) return []
+    const name = entry.name.toLowerCase()
+    const at = name.indexOf(words)
+    if (at === -1) return []
+    return [{ entry, rank: at === 0 ? 0 : /[\s(-]/.test(name[at - 1]!) ? 1 : 2 }]
+  })
+  ranked.sort((a, b) => a.rank - b.rank || a.entry.name.localeCompare(b.entry.name))
+  return {
+    matches: ranked.slice(0, limit).map(({ entry }) => entry),
+    more: Math.max(0, ranked.length - limit),
   }
 }

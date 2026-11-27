@@ -14,15 +14,28 @@ export function LocationMapPlot({
   map,
   label,
   overlay,
+  footer,
 }: {
   map: LocationHierarchyMapModel
   label: string
   /** Drawn over the map, in the same box as its markers, such as a layer that places a new one. */
   overlay?: ReactNode
+  /**
+   * Controls under the map, inside its frame, such as the ones that add a place to it. A flex item
+   * beside the map's note: `flex-1` shares the note's line, `basis-full` takes its own.
+   */
+  footer?: ReactNode
 }) {
   const [failedSource, setFailedSource] = useState<string>()
   const { url, width, height, schematicPositions } = map.asset
   const hasArtwork = failedSource !== url && !url.includes('placehold') && hasPublicAsset(url)
+
+  const note =
+    !hasArtwork || schematicPositions
+      ? hasArtwork
+        ? 'Some markers have approximate positions.'
+        : 'Schematic map'
+      : undefined
 
   return (
     <figure aria-label={label} className="border-border overflow-hidden rounded-xl border">
@@ -96,10 +109,13 @@ export function LocationMapPlot({
         )}
         {overlay}
       </div>
-      {!hasArtwork || schematicPositions ? (
-        <figcaption className="text-muted-foreground border-border border-t px-3 py-2 text-xs">
-          {hasArtwork ? 'Some markers have approximate positions.' : 'Schematic map'}
-        </figcaption>
+      {note || footer ? (
+        <div className="border-border flex flex-wrap items-center border-t">
+          {note ? (
+            <figcaption className="text-muted-foreground px-3 py-2 text-xs">{note}</figcaption>
+          ) : null}
+          {footer}
+        </div>
       ) : null}
     </figure>
   )

@@ -5,8 +5,14 @@ import { Shop } from '#/definitions/shop'
 import {
   magicItemPrice,
   rollMagicStock,
+  rerollStock,
   rollStock,
+  searchStockItems,
   seededRandom,
+  stepQuantity,
+  stockShelves,
+  withQuantity,
+  withShopPrice,
   type StockCandidate,
 } from './shop'
 
@@ -127,5 +133,96 @@ describe('rollStock', () => {
       expect(new Set(keys).size).toBe(keys.length)
       expect(Shop.parse({ type: 'emporium', stock }).stock).toEqual(stock)
     }
+  })
+})
+
+const goods = (key: string) => ({ item: { ref: 'equipment' as const, key } })
+const magic = (key: string) => ({ item: { ref: 'magicItem' as const, key }, quantity: 1 })
+
+describe('stockShelves', () => {
+  it('splits goods from magic items and keeps each in listed order', () => {
+    const stock = [magic('wand'), goods('rope'), magic('bag'), goods('acid')]
+    expect(stockShelves(stock)).toEqual({
+      goods: [goods('rope'), goods('acid')],
+      magic: [magic('wand'), magic('bag')],
+    })
+  })
+})
+
+describe('rerollStock', () => {
+  it('keeps locked lines and fills each shelf up to the size of the new roll', () => {
+    const current = [goods('rope'), goods('acid'), magic('wand')]
+    const rolled = [goods('torch'), goods('rope'), goods('tent'), magic('bag'), magic('ring')]
+    const next = rerollStock(current, new Set(['equipment:rope', 'magicItem:wand']), rolled)
+    expect(next).toEqual([
+      goods('rope'),
+      goods('torch'),
+      goods('tent'),
+      magic('wand'),
+      magic('bag'),
+    ])
+  })
+
+  it('is the plain roll when nothing is locked', () => {
+    const rolled = [goods('torch'), magic('bag')]
+    expect(rerollStock([goods('rope')], new Set(), rolled)).toEqual(rolled)
+  })
+
+  it('keeps every locked line even when the roll is smaller', () => {
+    const current = [goods('rope'), goods('acid')]
+    const locked = new Set(['equipment:rope', 'equipment:acid'])
+    expect(rerollStock(current, locked, [goods('torch')])).toEqual(current)
+  })
+})
+
+describe('quantities', () => {
+  it('counts up from plenty and never below one', () => {
+    expect(stepQuantity(undefined, 1)).toBe(1)
+    expect(stepQuantity(3, -1)).toBe(2)
+    expect(stepQuantity(1, -1)).toBe(1)
+  })
+
+  it('stores a count only when it is a positive whole number', () => {
+    expect(withQuantity(goods('rope'), 4)).toEqual({ ...goods('rope'), quantity: 4 })
+    expect(withQuantity(magic('bag'), undefined)).toEqual({ item: magic('bag').item })
+    expect(withQuantity(magic('bag'), 0)).toEqual({ item: magic('bag').item })
+    expect(withQuantity(magic('bag'), Number.NaN)).toEqual({ item: magic('bag').item })
+  })
+})
+
+describe('withShopPrice', () => {
+  const list = { amount: 50, coin: 'gp' } as const
+
+  it('stores a price that differs from the item’s own', () => {
+    expect(withShopPrice(goods('rope'), { amount: 75, coin: 'gp' }, list)).toEqual({
+      ...goods('rope'),
+      price: { amount: 75, coin: 'gp' },
+    })
+  })
+
+  it('stores nothing for the same worth in another coin, or for no price', () => {
+    const line = { ...goods('rope'), price: { amount: 75, coin: 'gp' as const } }
+    expect(withShopPrice(line, { amount: 5, coin: 'pp' }, list)).toEqual(goods('rope'))
+    expect(withShopPrice(line, undefined, list)).toEqual(goods('rope'))
+  })
+})
+
+describe('searchStockItems', () => {
+  const entries = [
+    { ...goods('healers_kit'), name: 'Healer’s Kit' },
+    { ...magic('greater_healing'), name: 'Potion of Greater Healing' },
+    { ...magic('healing'), name: 'Potion of Healing' },
+    { ...goods('rope'), name: 'Rope' },
+  ]
+
+  it('ranks names that start with the search, then words that do, and skips what is in stock', () => {
+    const { matches, more } = searchStockItems('heal', entries, [magic('healing')], 5)
+    expect(matches.map(({ name }) => name)).toEqual(['Healer’s Kit', 'Potion of Greater Healing'])
+    expect(more).toBe(0)
+  })
+
+  it('reports how many more matched than fit, and waits for two letters', () => {
+    expect(searchStockItems('o', entries, [], 5).matches).toEqual([])
+    expect(searchStockItems('po', entries, [], 1)).toMatchObject({ more: 1 })
   })
 })

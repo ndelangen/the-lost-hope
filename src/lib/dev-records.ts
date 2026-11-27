@@ -25,11 +25,30 @@ export async function saveRecordEdits(
   throw new Error(body?.error ?? 'Not saved. Is the dev server running?')
 }
 
-/** Creates a campaign record through the dev server; resolves with its slug and key. */
+/**
+ * Holds Vite's full reload until released. Vite waits for every `vite:beforeFullReload` listener
+ * before it reloads, so a listener that is still pending keeps the page as it is.
+ */
+function holdReload(): () => void {
+  let release!: () => void
+  const held = new Promise<void>((resolve) => {
+    release = resolve
+  })
+  import.meta.hot?.on('vite:beforeFullReload', () => held)
+  return release
+}
+
+/**
+ * Creates a campaign record through the dev server; resolves with its slug and key. Writing the
+ * record makes Vite reload the page before the answer arrives, which would drop it, so the reload
+ * is held: after a create the caller navigates to the new record itself. A failed create lets the
+ * reload through.
+ */
 export async function createRecord(
   kind: string,
   record: Record<string, unknown>,
 ): Promise<{ slug: string; key: string }> {
+  const release = holdReload()
   const response = await fetch('/__dev/records', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
@@ -39,5 +58,6 @@ export async function createRecord(
     | { slug?: string; key?: string; error?: string }
     | undefined
   if (response?.ok && body?.slug && body.key) return { slug: body.slug, key: body.key }
+  release()
   throw new Error(body?.error ?? 'Not created. Is the dev server running?')
 }
