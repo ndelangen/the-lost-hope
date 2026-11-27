@@ -95,7 +95,9 @@ export default createScene({
             [
               '“It’s the fuel for the machines, the subships and the powerplant. Otherwise we’d be without heat, light and fish!”',
             ],
-            ['Where it comes from they do not know or care: it comes, every time.'],
+            [
+              '“We get a delivery every two weeks or so.” Where it comes from they do not know or care: it comes, every time.',
+            ],
           ],
           followUps: [
             {
