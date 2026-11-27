@@ -1138,18 +1138,6 @@ export default createEquipment({
     text: [['An illustrated farce with an unexpectedly accurate index of habits.']],
     publication: refs.publications.the_lost_hope,
   },
-  dire_dragon_cake_sparkler: {
-    name: 'Dire dragon cake sparkler',
-    category: 'Adventuring Gear',
-    price: { amount: 2, coin: 'sp' },
-    priceEstimated: true,
-    text: [
-      [
-        'This small firework takes the shape of a rearing dire dragon. A short pick holds it upright on a birthday cake. When lit, the dragon spits a brief plume of fire straight up from its open jaws.',
-      ],
-    ],
-    publication: refs.publications.the_lost_hope,
-  },
   directing_a_witness: {
     name: 'Directing a Witness',
     category: 'Adventuring Gear',
