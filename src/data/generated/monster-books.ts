@@ -489,9 +489,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   ahmaergo: {
     waterdeep_dragon_heist: [],
   },
-  ahuizotl: {
-    creature_codex: [],
-  },
   air_elemental: {
     basic_rules_2018: [],
     monster_manual_2014: [
@@ -606,9 +603,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   almiraj: {
     tomb_of_annihilation: [],
-  },
-  alnaar: {
-    creature_codex: [],
   },
   aloysia_telfan: {
     critical_role_call_of_the_netherdeep: [],
@@ -811,9 +805,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   ancient_lunar_dragon: {
     spelljammer_adventures_in_space: [],
   },
-  ancient_mandriano: {
-    creature_codex: [],
-  },
   ancient_moonstone_dragon: {
     fizban_s_treasury_of_dragons: [],
   },
@@ -1012,9 +1003,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   ankhtepot: {
     ravenloft_the_horrors_within: [],
-  },
-  ankou_soul_herald: {
-    creature_codex: [],
   },
   ankylosaurus: {
     basic_rules_2018: ['monster_manual_2014'],
@@ -1897,9 +1885,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   biha_babir: {
     forgotten_realms_adventures_in_faer_n: [],
   },
-  bilwis: {
-    creature_codex: [],
-  },
   biomancer: {
     guildmasters_guide_to_ravnica: [],
   },
@@ -2056,12 +2041,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   blood_drinker_vampire: {
     guildmasters_guide_to_ravnica: [],
   },
-  blood_elemental: {
-    creature_codex: [],
-  },
-  blood_giant: {
-    creature_codex: [],
-  },
   blood_hawk: {
     ddal04_02_the_beast: [],
     ddal04_03_the_executioner: [],
@@ -2073,9 +2052,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   blood_imp: {
     tome_of_beasts_2: [],
-  },
-  blood_ooze: {
-    creature_codex: [],
   },
   blood_toll_harpy: {
     mythic_odysseys_of_theros: [],
@@ -3580,9 +3556,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   dark_confessor: {
     monsters_of_drakkenheim: [],
   },
-  dark_eye: {
-    creature_codex: [],
-  },
   dark_growth: {
     monsters_of_drakkenheim: [],
   },
@@ -3594,9 +3567,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   dark_tide_knight: {
     princes_of_the_apocalypse: [],
-  },
-  dark_voice: {
-    creature_codex: [],
   },
   darkenbeast: {
     arcana_unleashed: [],
@@ -3761,9 +3731,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   deathspeaker_high_priest: {
     world_of_warcraft_icecrown_citadel: [],
-  },
-  deathsworn_elf: {
-    creature_codex: [],
   },
   deathwolf: {
     vecna_eve_of_ruin: [],
@@ -3937,9 +3904,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   desert_slime: {
     tome_of_beasts_3: [],
   },
-  desert_troll: {
-    creature_codex: [],
-  },
   deseyna_majarra: {
     princes_of_the_apocalypse: [],
   },
@@ -3977,9 +3941,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   devil_moldering: {
     tome_of_beasts_3: [],
-  },
-  devil_shark: {
-    creature_codex: [],
   },
   devkarin_lich: {
     guildmasters_guide_to_ravnica: [],
@@ -4391,9 +4352,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   droki: {
     out_of_the_abyss: [],
   },
-  droth: {
-    creature_codex: [],
-  },
   drow: {
     ddex3_03_the_occupation_of_szith_morcane: [],
     ddex3_07_herald_of_the_moon: [],
@@ -4717,9 +4675,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   echo_of_demogorgon: {
     bigby_presents_glory_of_the_giants: [],
-  },
-  edgin_darvis: {
-    honor_among_thieves_thieves_gallery: [],
   },
   edimmu: {
     tome_of_beasts: [],
@@ -5284,9 +5239,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   felguard: {
     d_d_world_of_warcraft: [],
   },
-  felhound: {
-    d_d_world_of_warcraft: [],
-  },
   felidar: {
     guildmasters_guide_to_ravnica: [],
     plane_shift_zendikar: [],
@@ -5653,9 +5605,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     flee_mortals: [],
     where_evil_lives: [],
   },
-  foreman_rhahkzor: {
-    d_d_world_of_warcraft: [],
-  },
   forest_drake: {
     creature_codex: [],
   },
@@ -5695,9 +5644,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   fox: {
     icewind_dale_rime_of_the_frostmaiden: [],
-  },
-  foxfire_ooze: {
-    creature_codex: [],
   },
   foxin: {
     creature_codex: [],
@@ -5809,9 +5755,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     hoard_of_the_dragon_queen_d_d_encounters: [],
     hoard_of_the_dragon_queen: [],
   },
-  fulad_zereh: {
-    creature_codex: [],
-  },
   fulminar: {
     creature_codex: [],
   },
@@ -5835,9 +5778,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   gaj: {
     spelljammer_adventures_in_space: [],
-  },
-  gaki: {
-    creature_codex: [],
   },
   galazeth_prismari: {
     strixhaven_a_curriculum_of_chaos: [],
@@ -5894,9 +5834,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   gargantuan_rug_of_smothering: {
     tales_from_the_yawning_portal: [],
-  },
-  gargoctopus: {
-    creature_codex: [],
   },
   gargoyle: {
     monster_manual_2014: ['basic_rules_2018', 'hoard_of_the_dragon_queen_online_supplement'],
@@ -6572,9 +6509,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   gloom_weaver: {
     mordenkainen_s_tome_of_foes: [],
-  },
-  gloomflower: {
-    creature_codex: [],
   },
   gloomstalker: {
     explorer_s_guide_to_wildemount: ['critical_role_call_of_the_netherdeep'],
@@ -7268,9 +7202,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   gullkin: {
     tome_of_beasts_3: [],
   },
-  gulon: {
-    creature_codex: [],
-  },
   gulthias_blight: {
     monster_manual_2024: [],
   },
@@ -7673,9 +7604,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   high_flamekeeper_ophelia_reed: {
     monsters_of_drakkenheim: [],
-  },
-  high_inquisitor_sally_whitemane: {
-    d_d_world_of_warcraft: [],
   },
   high_mage_vairae: {
     flee_mortals: [],
@@ -8168,9 +8096,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   incarnation_of_vibrance: {
     lorwyn_first_light: [],
   },
-  incinis: {
-    creature_codex: [],
-  },
   incomplete_dragon_skeleton: {
     dragonlance_shadow_of_the_dragon_queen: [],
   },
@@ -8379,9 +8304,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   james_cryon: {
     critical_role_call_of_the_netherdeep: [],
   },
-  jamil_aalithiya: {
-    critical_role_call_of_the_netherdeep: [],
-  },
   jammer_leech: {
     spelljammer_adventures_in_space: [],
   },
@@ -8470,9 +8392,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   josbert_plum: {
     turn_of_fortune_s_wheel: [],
   },
-  joster_mareet: {
-    keys_from_the_golden_vault: [],
-  },
   jot: {
     tales_from_the_yawning_portal: [],
   },
@@ -8550,9 +8469,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   kalke: {
     tome_of_beasts: [],
-  },
-  kallikantzaros: {
-    creature_codex: [],
   },
   kamadan: {
     tomb_of_annihilation: [],
@@ -8708,9 +8624,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   kingsport: {
     icewind_dale_rime_of_the_frostmaiden: [],
-  },
-  kinnara: {
-    creature_codex: [],
   },
   kinyel_druugiir: {
     out_of_the_abyss: [],
@@ -9144,9 +9057,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     ravenloft_the_horrors_within: [],
     van_richten_s_guide_to_ravenloft: [],
   },
-  lesser_tyrant_shadow: {
-    chains_of_asmodeus: [],
-  },
   lestheris_soldrei: {
     flee_mortals: [],
   },
@@ -9157,9 +9067,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   leviathan: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
     mordenkainen_s_tome_of_foes: [],
-  },
-  levistus: {
-    chains_of_asmodeus: [],
   },
   leyleech: {
     flee_mortals: [],
@@ -9181,9 +9088,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   lich_hound: {
     tome_of_beasts: [],
-  },
-  lichen_lich: {
-    candlekeep_mysteries: [],
   },
   lieutenant_petra_lang: {
     monsters_of_drakkenheim: [],
@@ -9836,7 +9740,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts_3: [],
   },
   megapede: {
-    creature_codex: [],
     spelljammer_adventures_in_space: [],
   },
   melannor_fellbranch: {
@@ -10108,9 +10011,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     flee_mortals: [],
     where_evil_lives: [],
   },
-  mold_zombie: {
-    creature_codex: [],
-  },
   molliver: {
     the_wild_beyond_the_witchlight: [],
   },
@@ -10146,9 +10046,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   mongrelfolk: {
     curse_of_strahd: [],
-  },
-  monkey_king: {
-    creature_codex: [],
   },
   monodrone: {
     monster_manual_2014: ['planescape_adventures_in_the_multiverse', 'tomb_of_annihilation'],
@@ -10312,9 +10209,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts_2: [],
   },
   murloc_forager: {
-    d_d_world_of_warcraft: [],
-  },
-  murloc_oracle: {
     d_d_world_of_warcraft: [],
   },
   musharib: {
@@ -10517,9 +10411,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   nene: {
     journeys_through_the_radiant_citadel: [],
   },
-  neo_otyugh: {
-    infernal_machine_rebuild: [],
-  },
   neogi: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
     volo_s_guide_to_monsters: [],
@@ -10537,9 +10428,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   neogi_void_hunter: {
     spelljammer_adventures_in_space: [],
-  },
-  neophron: {
-    creature_codex: [],
   },
   neothelid: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
@@ -11296,9 +11184,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2014: ['basic_rules_2018', 'srd_5_1'],
     monster_manual_2024: ['srd_5_2_1'],
   },
-  peluda_drake: {
-    creature_codex: [],
-  },
   pendragon_beestinger: {
     acquisitions_incorporated: [],
   },
@@ -11415,9 +11300,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   pilgrim: {
     monsters_of_drakkenheim: [],
-  },
-  pillar_of_the_lost_magocracy: {
-    creature_codex: [],
   },
   pine_doom: {
     tome_of_beasts_2: [],
@@ -11841,9 +11723,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   quickserpent: {
     tome_of_beasts_2: [],
-  },
-  quickstep: {
-    creature_codex: [],
   },
   quiet_soul: {
     creature_codex: [],
@@ -12816,9 +12695,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   sentient_ochre_jelly: {
     tales_from_the_yawning_portal: [],
   },
-  sentinel_in_darkness: {
-    creature_codex: [],
-  },
   sentinel_marshal: {
     eberron_forge_of_the_artificer: [],
   },
@@ -12984,12 +12860,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts_2: [],
   },
   shadow_ooze: {
-    creature_codex: [],
-  },
-  shadow_river_lord: {
-    creature_codex: [],
-  },
-  shadow_skeleton: {
     creature_codex: [],
   },
   shadow_variant: {
@@ -13226,9 +13096,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   simon_aumar: {
     honor_among_thieves_thieves_gallery: [],
   },
-  simurg: {
-    creature_codex: [],
-  },
   sing_along: {
     waterdeep_dungeon_of_the_mad_mage: [],
   },
@@ -13382,9 +13249,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     mordenkainen_presents_monsters_of_the_multiverse: [],
     mordenkainen_s_tome_of_foes: [],
   },
-  skull_drake: {
-    creature_codex: [],
-  },
   skull_lantern: {
     creature_codex: [],
   },
@@ -13439,9 +13303,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   sled_dog: {
     rise_of_tiamat: [],
-  },
-  sleipnir: {
-    creature_codex: [],
   },
   slime_familiar: {
     humblewood_tales: [],
@@ -13543,9 +13404,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     waterdeep_dragon_heist: [],
   },
   song_angel: {
-    creature_codex: [],
-  },
-  sootwing: {
     creature_codex: [],
   },
   sooze: {
@@ -13690,9 +13548,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   spirit_dragon_wyrmling: {
     forgotten_realms_adventures_in_faer_n: [],
   },
-  spirit_lamp: {
-    creature_codex: [],
-  },
   spirit_naga: {
     monster_manual_2014: [],
     monster_manual_2024: [],
@@ -13732,9 +13587,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   spotted_lion: {
     bigby_presents_glory_of_the_giants: [],
-  },
-  spree: {
-    creature_codex: [],
   },
   spring_eladrin: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
@@ -13994,9 +13846,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     bigby_presents_glory_of_the_giants: [],
   },
   storm_lord: {
-    creature_codex: [],
-  },
-  storm_spirit: {
     creature_codex: [],
   },
   storm_troll: {
@@ -14351,9 +14200,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   tanker: {
     monsters_of_drakkenheim: [],
   },
-  tar_ghoul: {
-    creature_codex: [],
-  },
   tarak: {
     dragons_of_stormwreck_isle: [],
   },
@@ -14607,9 +14453,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   three_earrings: {
     explorer_s_guide_to_wildemount: [],
-  },
-  three_headed_clockwork_dragon: {
-    creature_codex: [],
   },
   three_headed_cobra: {
     creature_codex: [],
@@ -15013,9 +14856,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   tuval_uthriar: {
     flee_mortals: [],
   },
-  tveirherjar: {
-    creature_codex: [],
-  },
   twig_blight: {
     monster_manual_2014: ['basic_rules_2018'],
     monster_manual_2024: [],
@@ -15128,9 +14968,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   undulating_polyp: {
     monsters_of_drakkenheim: [],
   },
-  undying_councilor: {
-    eberron_rising_from_the_last_war: [],
-  },
   undying_soldier: {
     eberron_rising_from_the_last_war: [],
   },
@@ -15148,9 +14985,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   uridimmu: {
     tome_of_beasts_2: [],
-  },
-  ursa_polaris: {
-    creature_codex: [],
   },
   urstul_floxin: {
     waterdeep_dragon_heist: [],
@@ -15254,9 +15088,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   vallowex: {
     tome_of_beasts_2: [],
-  },
-  valochera: {
-    flee_mortals: [],
   },
   valygar: {
     minsc_and_boo_s_journal_of_villainy: [],
@@ -15413,9 +15244,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     arcana_unleashed: [],
   },
   venom_elemental: {
-    creature_codex: [],
-  },
-  venom_maw_hydra: {
     creature_codex: [],
   },
   venom_troll: {
@@ -15624,9 +15452,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   vuuthramis: {
     quests_from_the_infinite_staircase: [],
   },
-  waeloquay: {
-    chains_of_asmodeus: [],
-  },
   wakanga_otamu: {
     tomb_of_annihilation: [],
   },
@@ -15671,9 +15496,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   war_spider: {
     flee_mortals: ['flee_mortals_public_preview'],
     where_evil_lives: [],
-  },
-  war_wyvern: {
-    creature_codex: [],
   },
   warden_archon: {
     morte_s_planar_parade: [],
@@ -15777,7 +15599,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     mordenkainen_s_tome_of_foes: [],
   },
   water_elemental: {
-    basic_rules_2018: [],
     monster_manual_2024: [],
   },
   water_elemental_myrmidon: {
@@ -15865,9 +15686,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   werewyvern: {
     forgotten_realms_adventures_in_faer_n: [],
   },
-  wersten_kern: {
-    dragonlance_shadow_of_the_dragon_queen: [],
-  },
   werynax: {
     tome_of_beasts_2: [],
   },
@@ -15882,9 +15700,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   whirlwyrm: {
     turn_of_fortune_s_wheel: [],
-  },
-  whistler: {
-    journeys_through_the_radiant_citadel: [],
   },
   white_abishai: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
@@ -15981,17 +15796,11 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   wind_eater: {
     creature_codex: [],
   },
-  wind_weasel: {
-    creature_codex: [],
-  },
   windfall: {
     vecna_eve_of_ruin: [],
   },
   windharrow: {
     princes_of_the_apocalypse: [],
-  },
-  winds_harp: {
-    creature_codex: [],
   },
   wine_weird: {
     tomb_of_annihilation: [],
@@ -16025,13 +15834,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     basic_rules_2018: ['monster_manual_2014'],
     ddal04_05_the_seer: [],
     srd_5_1: [],
-    srd_5_2_1: ['ddal04_12_the_raven', 'monster_manual_2014', 'monster_manual_2024'],
+    srd_5_2_1: ['ddal04_12_the_raven', 'monster_manual_2024'],
   },
   wintergrim: {
     tome_of_beasts_2: [],
-  },
-  wirbeln_fungi: {
-    creature_codex: [],
   },
   wiri_fleagol: {
     storm_king_s_thunder: [],
@@ -16261,9 +16067,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   y: {
     out_of_the_abyss: [],
-  },
-  yaga_goo: {
-    creature_codex: [],
   },
   yagnoloth: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
@@ -16735,9 +16538,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   zindar: {
     tomb_of_annihilation: [],
-  },
-  ziphius: {
-    creature_codex: [],
   },
   ziraj_the_hunter: {
     waterdeep_dragon_heist: [],
