@@ -409,7 +409,7 @@ export default createPublicationMonsters({
     dreaming_dark_infiltrator: {
       name: 'Dreaming Dark Infiltrator',
       alignment: 'lawful evil',
-      languages: ['Common', 'Quori', 'telepathy 120 ft'],
+      languages: ['Common', 'Quori', 'telepathy 120 ft.'],
       tableNotes: [['Gear: chain shirt']],
       stats: {
         size: 'small',

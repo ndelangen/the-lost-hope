@@ -1831,7 +1831,7 @@ export default createPublicationMonsters({
     fazrian: {
       name: 'Fazrian',
       alignment: 'lawful evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'celestial',

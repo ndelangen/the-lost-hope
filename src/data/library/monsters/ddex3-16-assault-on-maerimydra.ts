@@ -11,7 +11,7 @@ export default createPublicationMonsters({
       name: 'Barlgura',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -754,7 +754,7 @@ export default createPublicationMonsters({
       name: 'Mother',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',

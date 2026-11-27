@@ -220,7 +220,7 @@ export default createPublicationMonsters({
     phaerimm_scout: {
       name: 'Phaerimm Scout',
       alignment: 'neutral evil',
-      languages: ['telepathy 120 ft'],
+      languages: ['telepathy 120 ft.'],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
       stats: {
         size: 'medium',

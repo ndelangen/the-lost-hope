@@ -530,7 +530,7 @@ export default createPublicationMonsters({
       name: 'Adult Deep Dragon',
       page: 173,
       alignment: 'typically neutral evil',
-      languages: ['Common', 'Draconic', 'Undercommon.'],
+      languages: ['Common', 'Draconic', 'Undercommon'],
       tableNotes: [
         [
           'Regional effects: One or more of these effects can occur near the lair.\nPreservation of Knowledge. Writing on physical objects within 6 miles cannot be damaged nonmagically.\nRestless Sleep. A creature finishing a long rest within 6 miles must pass a DC 10 Constitution save before it can reduce its exhaustion. Creatures immune to the poisoned condition ignore the effect.\nVerdant Growth. Plants and fungi cover more area and grow faster within 6 miles. Foraging there produces twice the usual food.\nWhen the dragon dies, these changes fade over 1d10 days.',
@@ -1068,7 +1068,7 @@ export default createPublicationMonsters({
       name: 'Adult Moonstone Dragon',
       page: 212,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic', 'Elvish', 'Gnomish', 'Sylvan.'],
+      languages: ['Common', 'Draconic', 'Elvish', 'Gnomish', 'Sylvan'],
       tableNotes: [
         [
           'Regional effects: One or more of these effects can occur near the lair.\nDream Communication. The dragon can speak telepathically in the dreams of any language-understanding creature that sleeps, trances, or enters reverie within 6 miles. The creature remembers the conversation on waking.\nPlanar Transition. Portals within 6 miles link the Material Plane, the Feywild, and the Border Ethereal. Passing through in either direction takes 5 ft. of movement.\nOn death, nearby portals close at once.',
@@ -1858,7 +1858,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 162,
       alignment: 'typically neutral',
-      languages: ['Draconic', 'telepathy 120 ft..'],
+      languages: ['Draconic', 'telepathy 120 ft.'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -1978,7 +1978,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 201,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -2254,7 +2254,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 159,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft..'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -2524,7 +2524,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 170,
       alignment: 'typically chaotic neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft..'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       tableNotes: [
         [
           'Regional effects: Use one or more of these effects around the lair.\nClear Skies. Over the lair, skies remain clear and dry unless changed by magic. Breezes are gentle, and visibility is as clear as the time of day permits.\nCrystal Profusion. Quartz grows in natural stone within 6 miles, especially in naturally lit areas.\nIcy Sight. As an action, the dragon can cast Clairvoyance without components targeting ice or quartz within 6 miles.\nPositive Energy. Creatures completing a long rest within 6 miles recover two extra spent Hit Dice.\nThriving Wildlife. Animals flourish within 6 miles. Checks to forage by hunting, fishing, or trapping have advantage.\nAt its death, bonus Hit Die recovery stops immediately and wildlife returns to normal over 1d10 days. Existing quartz remains and new crystals grow at the normal rate.',
@@ -2781,7 +2781,7 @@ export default createPublicationMonsters({
       name: 'Ancient Deep Dragon',
       page: 173,
       alignment: 'typically neutral evil',
-      languages: ['Common', 'Draconic', 'Undercommon.'],
+      languages: ['Common', 'Draconic', 'Undercommon'],
       tableNotes: [
         [
           "Regional effects: Use one or more of these effects around the lair.\nPreservation of Knowledge. Within 6 miles, physical writings become impervious to nonmagical damage.\nRestless Sleep. A creature finishing a long rest within 6 miles must succeed on a DC 10 Constitution save to reduce exhaustion. Creatures immune to the poisoned condition are exempt from this effect.\nVerdant Growth. Plants and fungi expand and grow rapidly within 6 miles. Foraging yields double the usual food.\nAt the dragon's death, these effects fade over 1d10 days.",
@@ -3046,7 +3046,7 @@ export default createPublicationMonsters({
       name: 'Ancient Dragon Turtle',
       page: 191,
       alignment: 'typically neutral',
-      languages: ['Aquan', 'Draconic.'],
+      languages: ['Aquan', 'Draconic'],
       tableNotes: [
         [
           "Mythic actions: For the hour after Blessing of the Sea activates, these options are available as legendary actions.\nBite (1 action). Make one Bite attack.\nArmor of Storms (2 actions). Gain 40 temporary HP until the start of the turtle's next turn. While any of these temporary HP remain, a creature that touches the turtle or hits it with a melee attack takes 26 (4d12) lightning damage.",
@@ -3304,7 +3304,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 195,
       alignment: 'typically lawful neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft..'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       tableNotes: [
         ['Challenge in lair: CR 22 (41,000 XP) when encountered in its lair.'],
         [
@@ -3839,7 +3839,7 @@ export default createPublicationMonsters({
       name: 'Ancient Sea Serpent',
       page: 219,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [['An enormous fast-swimming serpent with strong fins.']],
       lore: [
         [
@@ -4441,7 +4441,7 @@ export default createPublicationMonsters({
       tags: ['metallic'],
       page: 165,
       alignment: 'lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Platinum Brilliance activates, the aspect can spend legendary actions on these options.\nCelestial Shield (2 actions). Seven spectral ancient gold dragons protect the aspect, giving him 77 temporary HP until the start of his next turn.\nCelestial Lances (3 actions). Pick four different points on the ground the aspect can see within 150 ft. Each creature in a 20-ft.-radius, 100-ft.-high cylinder centered on a point must succeed on a DC 27 Dexterity save or take 24 (7d6) force damage. Resolve the save once per creature, even where cylinders overlap.',
@@ -4685,7 +4685,7 @@ export default createPublicationMonsters({
       tags: ['chromatic'],
       page: 166,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Draconic', 'Infernal.'],
+      languages: ['Common', 'Draconic', 'Infernal'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Chromatic Wrath activates, the aspect can spend legendary actions on these options.\nHurl Through Avernus (2 actions). Choose a creature the aspect is grappling. On a failed DC 25 Charisma save, it takes 44 (8d10) psychic damage and is banished to Avernus. At the start of the aspect’s next turn, it reappears in an unoccupied space within 10 ft. of the aspect.\nChromatic Flare (3 actions). Each creature the aspect chooses in a 60-ft.-radius sphere centered on her makes a DC 27 Dexterity save, taking 39 (6d12) damage on a failure or half on a success. The aspect chooses acid, cold, fire, lightning, or poison for the damage type.',
@@ -4894,7 +4894,7 @@ export default createPublicationMonsters({
       tags: ['chromatic'],
       page: 168,
       alignment: 'typically chaotic evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Chromatic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nChromatic Flare (2 actions). Each creature in a 60-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Dexterity save or take 22 (5d8) acid damage.',
@@ -5118,7 +5118,7 @@ export default createPublicationMonsters({
       tags: ['chromatic'],
       page: 168,
       alignment: 'typically chaotic evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Chromatic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nChromatic Flare (2 actions). Each creature in a 60-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Dexterity save or take 22 (5d8) lightning damage.',
@@ -5342,7 +5342,7 @@ export default createPublicationMonsters({
       tags: ['metallic'],
       page: 208,
       alignment: 'typically lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Metallic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nShattering Roar (2 actions). Each creature in a 120-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Constitution save or take 19 (3d12) thunder damage and be incapacitated until the end of its next turn.',
@@ -5599,7 +5599,7 @@ export default createPublicationMonsters({
       tags: ['metallic'],
       page: 208,
       alignment: 'typically lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Metallic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nShattering Roar (2 actions). Each creature in a 120-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Constitution save or take 19 (3d12) thunder damage and be incapacitated until the end of its next turn.',
@@ -5856,7 +5856,7 @@ export default createPublicationMonsters({
       tags: ['metallic'],
       page: 208,
       alignment: 'typically lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Metallic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nShattering Roar (2 actions). Each creature in a 120-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Constitution save or take 19 (3d12) thunder damage and be incapacitated until the end of its next turn.',
@@ -6198,7 +6198,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 201,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -6466,7 +6466,7 @@ export default createPublicationMonsters({
       name: 'Deep Dragon Wyrmling',
       page: 175,
       alignment: 'typically neutral evil',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         [
           'Optional customization: Fizban’s customization guidance (p. 34) allows changes to languages, skill and tool proficiencies, senses, and traits. Its examples include Change Shape, Flyby, Mimicry, Rejuvenation and Tunneler. The chapter 3 spellcasting variant is optional. This printed block has no spell actions.',
@@ -6554,7 +6554,7 @@ export default createPublicationMonsters({
       name: 'Draconian Dreadnought',
       page: 177,
       alignment: 'any alignment',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [
         [
           'A bipedal draconic monster that might pass for a dragonborn at a glance, and usually has wings.',
@@ -6667,7 +6667,7 @@ export default createPublicationMonsters({
       name: 'Draconian Foot Soldier',
       page: 178,
       alignment: 'any alignment',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [
         [
           'A bipedal draconic monster that might pass for a dragonborn at a glance, and usually has wings.',
@@ -6756,7 +6756,7 @@ export default createPublicationMonsters({
       name: 'Draconian Mage',
       page: 179,
       alignment: 'any alignment',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [
         [
           'A bipedal draconic monster that might pass for a dragonborn at a glance, and usually has wings.',
@@ -6875,7 +6875,7 @@ export default createPublicationMonsters({
       name: 'Draconian Mastermind',
       page: 180,
       alignment: 'any alignment',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [
         [
           'A bipedal draconic monster that might pass for a dragonborn at a glance, and usually has wings.',
@@ -7249,7 +7249,7 @@ export default createPublicationMonsters({
       name: 'Dragon Blessed',
       page: 188,
       alignment: 'any alignment',
-      languages: ['Common', 'Draconic', 'and two other languages.'],
+      languages: ['Common', 'Draconic', 'and two other languages'],
       tableNotes: [
         [
           'Dragon followers: Dragon followers take cues from their patron dragon. Some serve it directly, while others follow it to learn the secrets of dragonkind. A Blessed can support a Dragon Chosen guarding a Dragon Speaker.',
@@ -7352,7 +7352,7 @@ export default createPublicationMonsters({
       name: 'Dragon Chosen',
       page: 189,
       alignment: 'any alignment',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [
         ['A human or other mortal devotee of a dragon, marked out by borrowed magical power.'],
       ],
@@ -7436,7 +7436,7 @@ export default createPublicationMonsters({
       name: 'Dragon Speaker',
       page: 189,
       alignment: 'any alignment',
-      languages: ['Common', 'Draconic', 'and two other languages.'],
+      languages: ['Common', 'Draconic', 'and two other languages'],
       appearance: [
         ['A human or other mortal devotee of a dragon, marked out by borrowed magical power.'],
       ],
@@ -7518,7 +7518,7 @@ export default createPublicationMonsters({
       name: 'Dragon Turtle Wyrmling',
       page: 192,
       alignment: 'typically neutral',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         [
           'Optional dragon customization: Chapter 3 (p. 34) offers optional changes to languages, skill and tool proficiencies, senses, and traits.',
@@ -7594,7 +7594,7 @@ export default createPublicationMonsters({
       name: 'Dragonblood Ooze',
       page: 182,
       alignment: 'unaligned',
-      languages: ['Understands Draconic and its creator’s languages. It cannot speak.'],
+      languages: ['Understands Draconic and its creator’s languages. It cannot speak'],
       appearance: [
         [
           'A heap of congealed dragon blood that keeps trying to take a draconic shape and collapsing, and tries to breathe by spewing part of itself out and reeling it back in.',
@@ -7719,7 +7719,7 @@ export default createPublicationMonsters({
       name: 'Dragonbone Golem',
       page: 183,
       alignment: 'unaligned',
-      languages: ['Understands Draconic and its creator’s languages. It cannot speak.'],
+      languages: ['Understands Draconic and its creator’s languages. It cannot speak'],
       appearance: [
         ['A dragon-shaped frame of dragon bones linked by adamantine wire, etched with glyphs.'],
       ],
@@ -7892,7 +7892,7 @@ export default createPublicationMonsters({
       name: 'Dragonborn of Bahamut',
       page: 184,
       alignment: 'typically lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [['A dragonborn champion who serves a divine dragon ancestor.']],
       lore: [
         [
@@ -8003,7 +8003,7 @@ export default createPublicationMonsters({
       name: 'Dragonborn of Sardior',
       page: 185,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [['A dragonborn champion who serves a divine dragon ancestor.']],
       lore: [
@@ -8128,7 +8128,7 @@ export default createPublicationMonsters({
       name: 'Dragonborn of Tiamat',
       page: 185,
       alignment: 'typically chaotic evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [['A dragonborn champion who serves a divine dragon ancestor.']],
       lore: [
         [
@@ -8218,7 +8218,7 @@ export default createPublicationMonsters({
       name: 'Dragonflesh Abomination',
       page: 187,
       alignment: 'typically neutral evil',
-      languages: ['Understands Common and Draconic but cannot speak.'],
+      languages: ['Understands Common and Draconic but cannot speak'],
       appearance: [['A scarred horror stitched with dragon scales, teeth, flesh and wings.']],
       lore: [
         [
@@ -8368,7 +8368,7 @@ export default createPublicationMonsters({
       name: 'Dragonflesh Grafter',
       page: 186,
       alignment: 'typically neutral evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [
         [
           'A person who has stitched, implanted or swallowed dragon parts, scales, teeth, skin, flesh, wings and bone, into their own body.',
@@ -8459,7 +8459,7 @@ export default createPublicationMonsters({
       name: 'Dragonnel',
       page: 190,
       alignment: 'typically neutral',
-      languages: ['Understands Draconic and Common but cannot speak.'],
+      languages: ['Understands Draconic and Common but cannot speak'],
       tableNotes: [
         [
           'Dragonnel Steeds: With the DM’s permission, a paladin can use Find Greater Steed to summon a spirit in dragonnel form.',
@@ -8524,7 +8524,7 @@ export default createPublicationMonsters({
       name: 'Egg Hunter Adult',
       page: 193,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [['A parasitic creature that sneaks into dragon nests.']],
       lore: [
         [
@@ -8637,7 +8637,7 @@ export default createPublicationMonsters({
       name: 'Egg Hunter Hatchling',
       page: 193,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [['A parasitic creature that sneaks into dragon nests.']],
       lore: [
         [
@@ -8701,7 +8701,7 @@ export default createPublicationMonsters({
       name: 'Elder Brain Dragon',
       page: 194,
       alignment: 'typically lawful evil',
-      languages: ['Deep Speech', 'Draconic', 'telepathy 5 miles.'],
+      languages: ['Deep Speech', 'Draconic', 'telepathy 5 miles'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         ['A dragon with an elder brain clamped to its back, tentacles dug into its skull.'],
@@ -9027,7 +9027,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 201,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -9298,7 +9298,7 @@ export default createPublicationMonsters({
       name: 'Eyedrake',
       page: 199,
       alignment: 'typically lawful evil',
-      languages: ['Deep Speech', 'Draconic.'],
+      languages: ['Deep Speech', 'Draconic'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -9824,7 +9824,7 @@ export default createPublicationMonsters({
       tags: ['metallic'],
       page: 208,
       alignment: 'typically lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Metallic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nShattering Roar (2 actions). Each creature within 120 ft. must pass a DC 26 Constitution save or take 19 (3d12) thunder damage and be incapacitated until the end of its next turn.',
@@ -10087,7 +10087,7 @@ export default createPublicationMonsters({
       tags: ['chromatic'],
       page: 168,
       alignment: 'typically chaotic evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Chromatic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nChromatic Flare (2 actions). Each creature within 60 ft. must pass a DC 26 Dexterity save or take 22 (5d8) poison damage.',
@@ -10316,7 +10316,7 @@ export default createPublicationMonsters({
       name: 'Hoard Scarab',
       page: 205,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [
         [
           'A beetle that blends in perfectly with a pile of gold coins, shedding a glittering metallic dust from its wings.',
@@ -10403,7 +10403,7 @@ export default createPublicationMonsters({
       name: 'Hollow Dragon',
       page: 206,
       alignment: 'any alignment',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [
         [
           "The empty shell of a metallic dragon's skin, packed with radiant energy. The energy appears as fire, lightning or mist, depending on which kind of dragon it was.",
@@ -10598,7 +10598,7 @@ export default createPublicationMonsters({
       name: 'Liondrake',
       page: 207,
       alignment: 'typically neutral',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       appearance: [
         [
           "A beast with a brass dragon's wings and long neck but a lion's head and body. Males have a full mane, and the roar is terrifying.",
@@ -10814,7 +10814,7 @@ export default createPublicationMonsters({
       name: 'Metallic Warbler',
       page: 210,
       alignment: 'typically neutral good',
-      languages: ["Understands Common and Draconic but can't speak."],
+      languages: ["Understands Common and Draconic but can't speak"],
       appearance: [
         ["A small guardian made of its dragon creator's metal, sculpted in elegant filigree."],
       ],
@@ -10907,7 +10907,7 @@ export default createPublicationMonsters({
       tags: ['chromatic'],
       page: 168,
       alignment: 'typically chaotic evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Chromatic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nChromatic Flare (2 actions). Each creature in a 60-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Dexterity save or take 22 (5d8) fire damage.',
@@ -11246,7 +11246,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 201,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -11507,7 +11507,7 @@ export default createPublicationMonsters({
       tags: ['metallic'],
       page: 208,
       alignment: 'typically lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Metallic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nShattering Roar (2 actions). Each creature in a 120-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Constitution save or take 19 (3d12) thunder damage and be incapacitated until the end of its next turn.',
@@ -11763,7 +11763,7 @@ export default createPublicationMonsters({
       name: 'Swarm of Hoard Scarabs',
       page: 205,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [
         [
           'Beetle-like creatures that blend perfectly into piles of gold coins, shedding a glittering metallic dust from their wings.',
@@ -11972,7 +11972,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 201,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -12233,7 +12233,7 @@ export default createPublicationMonsters({
       tags: ['chromatic'],
       page: 168,
       alignment: 'typically chaotic evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Chromatic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nChromatic Flare (2 actions). Each creature in a 60-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Dexterity save or take 22 (5d8) cold damage.',
@@ -12456,7 +12456,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 161,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft..'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -12594,7 +12594,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 172,
       alignment: 'typically chaotic neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft..'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       tableNotes: [
         [
           'Optional dragon customization: Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.',
@@ -12708,7 +12708,7 @@ export default createPublicationMonsters({
       name: 'Young Deep Dragon',
       page: 175,
       alignment: 'typically neutral evil',
-      languages: ['Common', 'Draconic', 'Undercommon.'],
+      languages: ['Common', 'Draconic', 'Undercommon'],
       tableNotes: [
         [
           'Optional innate spellcasting: With the optional innate casting rule on pp. 34 and 107, use Charisma (spell save DC 14, +6 to hit with spell attacks). The young deep dragon’s suggested spells are Command, Dissonant Whispers, and Faerie Fire. Each is usable once per day without material components.',
@@ -12826,7 +12826,7 @@ export default createPublicationMonsters({
       name: 'Young Dragon Turtle',
       page: 192,
       alignment: 'typically neutral',
-      languages: ['Aquan', 'Draconic.'],
+      languages: ['Aquan', 'Draconic'],
       tableNotes: [
         [
           'Optional innate spellcasting: With the optional innate casting rule on pp. 34 and 110, use Charisma (spell save DC 13, +5 to hit with spell attacks). The young dragon turtle’s suggested spell is Fog Cloud, usable once per day without material components.',
@@ -12932,7 +12932,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 197,
       alignment: 'typically lawful neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft..'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       tableNotes: [
         [
           'Optional dragon customization: Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.',
@@ -13074,7 +13074,7 @@ export default createPublicationMonsters({
       name: 'Young Moonstone Dragon',
       page: 213,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic', 'Sylvan.'],
+      languages: ['Common', 'Draconic', 'Sylvan'],
       tableNotes: [
         [
           'Optional dragon customization: Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.',
@@ -13222,7 +13222,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 216,
       alignment: 'typically lawful neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft..'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       tableNotes: [
         [
           'Optional dragon customization: Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.',
@@ -13369,7 +13369,7 @@ export default createPublicationMonsters({
       name: 'Young Sea Serpent',
       page: 219,
       alignment: 'typically neutral',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       appearance: [
         ['A fast, finned serpent that hides in reefs and by camouflage before striking.'],
       ],
@@ -13523,7 +13523,7 @@ export default createPublicationMonsters({
       tags: ['gem'],
       page: 223,
       alignment: 'typically chaotic neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft..'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       tableNotes: [
         [
           'Optional dragon customization: Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.',

@@ -2284,7 +2284,7 @@ export default createPublicationMonsters({
     phaerimm: {
       name: 'Phaerimm',
       alignment: 'neutral evil',
-      languages: ['Undercommon', 'understands Common', 'telepathy 100 ft'],
+      languages: ['Undercommon', 'understands Common', 'telepathy 100 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2770,7 +2770,7 @@ export default createPublicationMonsters({
     ssendam_lord_of_madness: {
       name: 'Ssendam, Lord of Madness',
       alignment: 'chaotic evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',

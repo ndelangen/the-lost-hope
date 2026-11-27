@@ -10,7 +10,7 @@ export default createPublicationMonsters({
     aboleth_spawn: {
       name: 'Aboleth Spawn',
       alignment: 'lawful evil',
-      languages: ['Common', 'Deep Speech', 'telepathy 60 ft'],
+      languages: ['Common', 'Deep Speech', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -253,7 +253,7 @@ export default createPublicationMonsters({
     alyxian_aboleth: {
       name: 'Alyxian Aboleth',
       alignment: 'lawful evil',
-      languages: ['Deep Speech', 'telepathy 120 ft'],
+      languages: ['Deep Speech', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -573,7 +573,7 @@ export default createPublicationMonsters({
     alyxian_the_callous: {
       name: 'Alyxian the Callous',
       alignment: 'lawful evil',
-      languages: ['Celestial', 'Common', 'Elvish', 'telepathy 120 ft'],
+      languages: ['Celestial', 'Common', 'Elvish', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -761,7 +761,7 @@ export default createPublicationMonsters({
       name: 'Alyxian the Dispossessed',
       tags: ['human'],
       alignment: 'lawful evil',
-      languages: ['Celestial', 'Common', 'Elvish', 'telepathy 120 ft'],
+      languages: ['Celestial', 'Common', 'Elvish', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3758,7 +3758,7 @@ export default createPublicationMonsters({
       name: 'Occult Silvertongue',
       tags: ['sorcerer'],
       alignment: 'lawful evil',
-      languages: ['Common plus three other languages', 'telepathy 60 ft'],
+      languages: ['Common plus three other languages', 'telepathy 60 ft.'],
       stats: {
         size: 'small',
         type: 'humanoid',

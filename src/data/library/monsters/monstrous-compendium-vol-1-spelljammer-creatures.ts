@@ -129,7 +129,7 @@ export default createPublicationMonsters({
     eldritch_lich: {
       name: 'Eldritch Lich',
       alignment: 'neutral evil',
-      languages: ['Common', 'Deep Speech', 'telepathy 120 ft'],
+      languages: ['Common', 'Deep Speech', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -407,7 +407,7 @@ export default createPublicationMonsters({
     puppeteer_parasite: {
       name: 'Puppeteer Parasite',
       alignment: 'neutral evil',
-      languages: ['telepathy 30 ft'],
+      languages: ['telepathy 30 ft.'],
       stats: {
         size: 'tiny',
         type: 'aberration',
@@ -478,7 +478,7 @@ export default createPublicationMonsters({
     star_lancer: {
       name: 'Star Lancer',
       alignment: 'neutral',
-      languages: ['Celestial', 'telepathy 120 ft'],
+      languages: ['Celestial', 'telepathy 120 ft.'],
       habitats: ['Astral Sea'],
       appearance: [
         ['A shark-like creature with four wings, a long tail and a sharp projection on its head.'],

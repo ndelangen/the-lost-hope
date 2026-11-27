@@ -255,7 +255,7 @@ export default createPublicationMonsters({
     cloaker_mutate: {
       name: 'Cloaker Mutate',
       alignment: 'chaotic neutral',
-      languages: ['Deep Speech', 'telepathy 60 ft'],
+      languages: ['Deep Speech', 'telepathy 60 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -924,7 +924,7 @@ export default createPublicationMonsters({
       name: 'Goblin Psi Brawler',
       tags: ['goblinoid'],
       alignment: 'any alignment',
-      languages: ['Common', 'Goblin', 'telepathy 30 ft'],
+      languages: ['Common', 'Goblin', 'telepathy 30 ft.'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -1474,7 +1474,7 @@ export default createPublicationMonsters({
     humanoid_mutate: {
       name: 'Humanoid Mutate',
       alignment: 'any alignment',
-      languages: ['Common', 'telepathy 60 ft'],
+      languages: ['Common', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -1860,7 +1860,7 @@ export default createPublicationMonsters({
       name: 'Lowarnizel',
       tags: ['young gem'],
       alignment: 'neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -1995,7 +1995,7 @@ export default createPublicationMonsters({
     malinia: {
       name: 'Malinia',
       alignment: 'any alignment',
-      languages: ['Common', 'telepathy 60 ft'],
+      languages: ['Common', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -2460,7 +2460,7 @@ export default createPublicationMonsters({
     ontharyx: {
       name: 'Ontharyx',
       alignment: 'any alignment',
-      languages: ['Common', 'telepathy 60 ft'],
+      languages: ['Common', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -2687,7 +2687,7 @@ export default createPublicationMonsters({
       name: 'Ruxithid the Chosen',
       tags: ['goblinoid'],
       alignment: 'neutral evil',
-      languages: ['Common', 'Goblin', 'telepathy 60 ft'],
+      languages: ['Common', 'Goblin', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'aberration',

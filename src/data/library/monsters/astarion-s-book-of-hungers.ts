@@ -90,7 +90,7 @@ export default createPublicationMonsters({
       name: 'Harvester Devil',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Common', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Common', 'Infernal', 'telepathy 120 ft.'],
       habitats: ['planar', 'nine hells'],
       stats: {
         size: 'medium',
@@ -212,7 +212,7 @@ export default createPublicationMonsters({
       name: 'Speaker Devil',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       habitats: ['planar', 'nine hells'],
       stats: {
         size: 'large',

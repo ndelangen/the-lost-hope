@@ -213,6 +213,7 @@ def main():
       if m.get('page'): L.append(f'      page: {m["page"]},')
       if m['alignment']: L.append(f'      alignment: {js(m["alignment"])},')
       langs=m['languages']
+      if langs is not None: langs=re.sub(r'(?<!\bft)\.$','',langs.strip()).strip()
       if langs is None: unrecorded.append(f"{r['label']}: {r['name']}")
       elif langs.strip().lower() in ('none','—','-','—','–',''): L.append('      languages: [],')
       else:

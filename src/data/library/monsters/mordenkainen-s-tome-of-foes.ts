@@ -12,7 +12,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 136,
       alignment: 'chaotic evil',
-      languages: ['Understands Abyssal but cannot speak.'],
+      languages: ['Understands Abyssal but cannot speak'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -46,7 +46,7 @@ export default createPublicationMonsters({
       name: 'Adult Kruthik',
       page: 212,
       alignment: 'unaligned',
-      languages: ['Kruthik.'],
+      languages: ['Kruthik'],
       habitats: ['desert', 'mountain', 'underdark'],
       stats: {
         size: 'medium',
@@ -135,7 +135,7 @@ export default createPublicationMonsters({
       name: 'Adult Oblex',
       page: 218,
       alignment: 'lawful evil',
-      languages: ['Common and two other languages.'],
+      languages: ['Common and two other languages'],
       habitats: ['swamp', 'underdark', 'urban'],
       tableNotes: [['Give the oblex one of Arcana +7, History +7, Nature +7 or Religion +7.']],
       stats: {
@@ -276,7 +276,7 @@ export default createPublicationMonsters({
       name: 'Air Elemental Myrmidon',
       page: 202,
       alignment: 'neutral',
-      languages: ['Auran and one language its creator chooses.'],
+      languages: ['Auran and one language its creator chooses'],
       tableNotes: [['Can hover'], ['fly · (hover)']],
       stats: {
         size: 'medium',
@@ -354,7 +354,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 130,
       alignment: 'chaotic evil',
-      languages: ['Understands Abyssal but cannot speak.'],
+      languages: ['Understands Abyssal but cannot speak'],
       habitats: ['underdark', 'urban'],
       stats: {
         size: 'medium',
@@ -432,7 +432,7 @@ export default createPublicationMonsters({
       name: 'Allip',
       page: 116,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['swamp', 'urban'],
       tableNotes: [
         ['Movement notes: Can hover'],
@@ -738,7 +738,7 @@ export default createPublicationMonsters({
       name: 'Amnizu (Summoner Variant)',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Common', 'Infernal', 'telepathy 1', '000 ft'],
+      languages: ['Common', 'Infernal', 'telepathy 1', '000 ft.'],
       habitats: ['Nine Hells', 'River Styx', 'Dis', 'Stygia'],
       appearance: [
         ['A winged infernal commander with a heavy, wrinkled head and commanding posture.'],
@@ -1032,7 +1032,7 @@ export default createPublicationMonsters({
       tags: ['titan'],
       page: 117,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -1214,7 +1214,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 195,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       habitats: ['forest'],
       stats: {
         size: 'medium',
@@ -1564,7 +1564,7 @@ export default createPublicationMonsters({
       name: 'Balhannoth',
       page: 119,
       alignment: 'chaotic evil',
-      languages: ['Understands Deep Speech. Telepathy 1 mile.'],
+      languages: ['Understands Deep Speech. Telepathy 1 mile'],
       habitats: ['coastal', 'mountain', 'underdark'],
       tableNotes: [
         [
@@ -1974,7 +1974,7 @@ export default createPublicationMonsters({
       name: 'Berbalang',
       page: 120,
       alignment: 'neutral evil',
-      languages: ['All but rarely speaks.'],
+      languages: ['All but rarely speaks'],
       habitats: ['desert'],
       stats: {
         size: 'medium',
@@ -2291,7 +2291,7 @@ export default createPublicationMonsters({
       name: 'Boneclaw',
       page: 121,
       alignment: 'chaotic evil',
-      languages: ['Common plus the main language of its master.'],
+      languages: ['Common plus the main language of its master'],
       habitats: ['arctic', 'desert', 'urban'],
       stats: {
         size: 'large',
@@ -2404,7 +2404,7 @@ export default createPublicationMonsters({
       name: 'Bronze Scout',
       page: 125,
       alignment: 'unaligned',
-      languages: ["Understands one language of its creator but can't speak."],
+      languages: ["Understands one language of its creator but can't speak"],
       habitats: ['forest', 'grassland', 'hill', 'mountain'],
       appearance: [
         [
@@ -2598,7 +2598,7 @@ export default createPublicationMonsters({
       name: 'Cadaver Collector',
       page: 122,
       alignment: 'lawful evil',
-      languages: ['Understands all languages but cannot speak.'],
+      languages: ['Understands all languages but cannot speak'],
       habitats: ['grassland'],
       tableNotes: [
         [
@@ -2840,7 +2840,7 @@ export default createPublicationMonsters({
       name: 'Choker',
       page: 123,
       alignment: 'chaotic evil',
-      languages: ['Deep Speech.'],
+      languages: ['Deep Speech'],
       habitats: ['forest', 'mountain', 'underdark'],
       stats: {
         size: 'small',
@@ -2927,7 +2927,7 @@ export default createPublicationMonsters({
       name: 'Corpse Flower',
       page: 127,
       alignment: 'chaotic evil',
-      languages: ['None.'],
+      languages: [],
       habitats: ['forest', 'swamp', 'urban'],
       tableNotes: [['Field notes: After the flower dies, the smell of decay fades over 2d4 days.']],
       stats: {
@@ -3052,7 +3052,7 @@ export default createPublicationMonsters({
       name: 'Deathlock (Archfey Patron)',
       page: 128,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['urban'],
       tableNotes: [
         ['Source variant of Deathlock. Check the variant rules for changes to actions and traits.'],
@@ -3149,7 +3149,7 @@ export default createPublicationMonsters({
       name: 'Deathlock (Fiend Patron)',
       page: 128,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['urban'],
       tableNotes: [
         ['Source variant of Deathlock. Check the variant rules for changes to actions and traits.'],
@@ -3246,7 +3246,7 @@ export default createPublicationMonsters({
       name: 'Deathlock (Great Old One Patron)',
       page: 128,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['urban'],
       tableNotes: [
         ['Source variant of Deathlock. Check the variant rules for changes to actions and traits.'],
@@ -3343,7 +3343,7 @@ export default createPublicationMonsters({
       name: 'Deathlock Mastermind',
       page: 128,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['urban'],
       tableNotes: [
         ['Alternate armor classes: 16 · with mage armor'],
@@ -3465,7 +3465,7 @@ export default createPublicationMonsters({
       name: 'Deathlock Mastermind (Archfey Patron)',
       page: 128,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -3597,7 +3597,7 @@ export default createPublicationMonsters({
       name: 'Deathlock Mastermind (Fiend Patron)',
       page: 128,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -3729,7 +3729,7 @@ export default createPublicationMonsters({
       name: 'Deathlock Mastermind (Great Old One Patron)',
       page: 128,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -3861,7 +3861,7 @@ export default createPublicationMonsters({
       name: 'Deathlock Wight',
       page: 129,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
       stats: {
         size: 'medium',
@@ -3977,7 +3977,7 @@ export default createPublicationMonsters({
       name: 'Demonic Cambion (Baphomet)',
       page: 32,
       alignment: 'any evil alignment',
-      languages: ['Abyssal', 'Common', 'Infernal.'],
+      languages: ['Abyssal', 'Common', 'Infernal'],
       habitats: ['urban'],
       tableNotes: [
         ['Source variant of Cambion. Check the variant rules for changes to actions and traits.'],
@@ -4102,7 +4102,7 @@ export default createPublicationMonsters({
       name: 'Demonic Cambion (Orcus)',
       page: 32,
       alignment: 'any evil alignment',
-      languages: ['Abyssal', 'Common', 'Infernal.'],
+      languages: ['Abyssal', 'Common', 'Infernal'],
       habitats: ['urban'],
       tableNotes: [
         ['Source variant of Cambion. Check the variant rules for changes to actions and traits.'],
@@ -4233,7 +4233,7 @@ export default createPublicationMonsters({
       tags: ['derro'],
       page: 159,
       alignment: 'chaotic evil',
-      languages: ['Dwarvish', 'Undercommon.'],
+      languages: ['Dwarvish', 'Undercommon'],
       habitats: ['underdark'],
       tableNotes: [
         [
@@ -4417,7 +4417,7 @@ export default createPublicationMonsters({
       name: 'Dire Troll',
       page: 243,
       alignment: 'chaotic evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       habitats: ['arctic', 'forest', 'hill', 'mountain', 'underdark'],
       stats: {
         size: 'huge',
@@ -5837,7 +5837,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 188,
       alignment: 'lawful evil',
-      languages: ['Dwarvish', 'Undercommon.'],
+      languages: ['Dwarvish', 'Undercommon'],
       habitats: ['mountain', 'underdark'],
       stats: {
         size: 'medium',
@@ -5993,7 +5993,7 @@ export default createPublicationMonsters({
       name: 'Duergar Hammerer',
       page: 188,
       alignment: 'lawful evil',
-      languages: ["Understands Dwarvish but can't speak."],
+      languages: ["Understands Dwarvish but can't speak"],
       habitats: ['mountain', 'underdark'],
       appearance: [
         ['A mining construct with a duergar inside and a heavy hammer built into one arm.'],
@@ -6083,7 +6083,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 189,
       alignment: 'lawful evil',
-      languages: ['Dwarvish', 'Undercommon.'],
+      languages: ['Dwarvish', 'Undercommon'],
       habitats: ['mountain', 'underdark'],
       stats: {
         size: 'medium',
@@ -6188,7 +6188,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 189,
       alignment: 'lawful evil',
-      languages: ['Dwarvish', 'Undercommon.'],
+      languages: ['Dwarvish', 'Undercommon'],
       habitats: ['mountain', 'underdark'],
       appearance: [
         ['A deep dwarf infiltrator with a poisoned dagger who can shrink to a tiny size.'],
@@ -6309,7 +6309,7 @@ export default createPublicationMonsters({
       name: 'Duergar Screamer',
       page: 190,
       alignment: 'lawful evil',
-      languages: ["Understands Dwarvish but can't speak."],
+      languages: ["Understands Dwarvish but can't speak"],
       habitats: ['underdark'],
       stats: {
         size: 'medium',
@@ -6402,7 +6402,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 191,
       alignment: 'lawful evil',
-      languages: ['Dwarvish', 'Undercommon.'],
+      languages: ['Dwarvish', 'Undercommon'],
       habitats: ['mountain', 'underdark'],
       stats: {
         size: 'medium',
@@ -6505,7 +6505,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 192,
       alignment: 'lawful evil',
-      languages: ['Dwarvish', 'Undercommon.'],
+      languages: ['Dwarvish', 'Undercommon'],
       habitats: ['mountain', 'underdark'],
       stats: {
         size: 'medium',
@@ -6643,7 +6643,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 193,
       alignment: 'lawful evil',
-      languages: ['Dwarvish', 'Undercommon.'],
+      languages: ['Dwarvish', 'Undercommon'],
       habitats: ['mountain', 'underdark'],
       stats: {
         size: 'medium',
@@ -6886,7 +6886,7 @@ export default createPublicationMonsters({
       name: 'Earth Elemental Myrmidon',
       page: 202,
       alignment: 'neutral',
-      languages: ['Terran and one language chosen by its creator.'],
+      languages: ['Terran and one language chosen by its creator'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -6962,7 +6962,7 @@ export default createPublicationMonsters({
       name: 'Eidolon',
       page: 194,
       alignment: 'any alignment',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['coastal', 'desert', 'forest', 'grassland', 'mountain', 'urban'],
       tableNotes: [
         ['Movement notes: Can hover'],
@@ -7064,7 +7064,7 @@ export default createPublicationMonsters({
       name: 'Elder Oblex',
       page: 219,
       alignment: 'lawful evil',
-      languages: ['Common and six other languages.'],
+      languages: ['Common and six other languages'],
       habitats: ['swamp', 'underdark', 'urban'],
       stats: {
         size: 'huge',
@@ -7222,7 +7222,7 @@ export default createPublicationMonsters({
       name: 'Elder Tempest',
       page: 200,
       alignment: 'neutral',
-      languages: ['None.'],
+      languages: [],
       habitats: ['arctic', 'coastal', 'grassland', 'hill', 'mountain'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       stats: {
@@ -7409,7 +7409,7 @@ export default createPublicationMonsters({
       name: 'Female Steeder',
       page: 238,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       habitats: ['underdark'],
       stats: {
         size: 'large',
@@ -7485,7 +7485,7 @@ export default createPublicationMonsters({
       name: 'Fire Elemental Myrmidon',
       page: 203,
       alignment: 'neutral',
-      languages: ['Ignan and one language chosen by its creator.'],
+      languages: ['Ignan and one language chosen by its creator'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -7560,7 +7560,7 @@ export default createPublicationMonsters({
       name: 'Frost Salamander',
       page: 223,
       alignment: 'unaligned',
-      languages: ['Primordial.'],
+      languages: ['Primordial'],
       habitats: ['arctic'],
       stats: {
         size: 'huge',
@@ -7892,7 +7892,7 @@ export default createPublicationMonsters({
       name: 'Geryon (Summoner Variant)',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       habitats: ['Nine Hells', 'Stygia', 'Coldsteel'],
       appearance: [
         ['A massive winged archdevil with a serpentine lower body and a summoning horn.'],
@@ -8162,7 +8162,7 @@ export default createPublicationMonsters({
       tags: ['gith'],
       page: 205,
       alignment: 'lawful evil',
-      languages: ['Gith.'],
+      languages: ['Gith'],
       habitats: ['Desert', 'Mountain', 'Urban', 'Astral Plane'],
       appearance: [['A lean, angular githyanki who combines swordplay with spellcasting.']],
       tableNotes: [['Multiattack makes two Longsword attacks.']],
@@ -8263,7 +8263,7 @@ export default createPublicationMonsters({
       tags: ['gith'],
       page: 207,
       alignment: 'lawful neutral',
-      languages: ['Gith.'],
+      languages: ['Gith'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -8417,7 +8417,7 @@ export default createPublicationMonsters({
       tags: ['gith'],
       page: 208,
       alignment: 'lawful neutral',
-      languages: ['Gith.'],
+      languages: ['Gith'],
       habitats: ['desert', 'mountain', 'urban'],
       stats: {
         size: 'medium',
@@ -8530,7 +8530,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 224,
       alignment: 'neutral',
-      languages: ['Common', 'Elvish.'],
+      languages: ['Common', 'Elvish'],
       habitats: ['underdark', 'urban'],
       tableNotes: [['Alternate armor classes: 17 · with mage armor']],
       appearance: [
@@ -8672,7 +8672,7 @@ export default createPublicationMonsters({
       name: 'Gray Render',
       page: 209,
       alignment: 'chaotic neutral',
-      languages: ['None.'],
+      languages: [],
       habitats: ['forest', 'hill'],
       tableNotes: [
         [
@@ -9094,7 +9094,7 @@ export default createPublicationMonsters({
       name: 'Hellfire Engine',
       page: 165,
       alignment: 'lawful evil',
-      languages: ['Understands Infernal but cannot speak.'],
+      languages: ['Understands Infernal but cannot speak'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -9277,7 +9277,7 @@ export default createPublicationMonsters({
       name: 'Howler',
       page: 210,
       alignment: 'chaotic evil',
-      languages: ['Understands Abyssal but cannot speak.'],
+      languages: ['Understands Abyssal but cannot speak'],
       habitats: ['desert', 'grassland', 'hill', 'underdark'],
       stats: {
         size: 'large',
@@ -9800,7 +9800,7 @@ export default createPublicationMonsters({
       name: 'Infernal Cambion',
       page: 21,
       alignment: 'any evil alignment',
-      languages: ['Abyssal', 'Common', 'Infernal.'],
+      languages: ['Abyssal', 'Common', 'Infernal'],
       habitats: ['urban'],
       tableNotes: [
         ['Source variant of Cambion. Check the variant rules for changes to actions and traits.'],
@@ -9921,7 +9921,7 @@ export default createPublicationMonsters({
       name: 'Iron Cobra',
       page: 125,
       alignment: 'unaligned',
-      languages: ['Understands one language of its creator but cannot speak.'],
+      languages: ['Understands one language of its creator but cannot speak'],
       habitats: ['forest', 'grassland', 'hill', 'mountain'],
       appearance: [['A gnome-built clockwork serpent, metal and mechanical.']],
       lore: [
@@ -10015,7 +10015,7 @@ export default createPublicationMonsters({
       name: 'Leviathan',
       page: 198,
       alignment: 'neutral',
-      languages: ['None.'],
+      languages: [],
       habitats: ['coastal', 'underwater'],
       stats: {
         size: 'gargantuan',
@@ -10182,7 +10182,7 @@ export default createPublicationMonsters({
       tags: ['inevitable'],
       page: 213,
       alignment: 'lawful neutral',
-      languages: ['All', 'but rarely speaks.'],
+      languages: ['All', 'but rarely speaks'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       stats: {
         size: 'large',
@@ -10431,7 +10431,7 @@ export default createPublicationMonsters({
       tags: ['meazel'],
       page: 214,
       alignment: 'neutral evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       habitats: [
         'desert',
         'forest',
@@ -11217,7 +11217,7 @@ export default createPublicationMonsters({
       name: 'Molydeus (Summoner Variant)',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       habitats: ['Abyss', 'Demon lords’ strongholds'],
       appearance: [
         [
@@ -11539,7 +11539,7 @@ export default createPublicationMonsters({
       tags: ['nagpa'],
       page: 215,
       alignment: 'neutral evil',
-      languages: ['Common plus up to five other languages.'],
+      languages: ['Common plus up to five other languages'],
       habitats: ['coastal', 'desert', 'forest', 'swamp', 'underdark', 'urban'],
       stats: {
         size: 'medium',
@@ -11775,7 +11775,7 @@ export default createPublicationMonsters({
       name: 'Nightwalker',
       page: 216,
       alignment: 'chaotic evil',
-      languages: ['None.'],
+      languages: [],
       habitats: ['arctic', 'desert', 'swamp', 'underdark'],
       tableNotes: [
         [
@@ -11926,7 +11926,7 @@ export default createPublicationMonsters({
       tags: ['devil'],
       page: 168,
       alignment: 'lawful evil',
-      languages: ['Understands Infernal but cannot speak.'],
+      languages: ['Understands Infernal but cannot speak'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -11992,7 +11992,7 @@ export default createPublicationMonsters({
       name: 'Oaken Bolter',
       page: 126,
       alignment: 'unaligned',
-      languages: ['Understands one language of its creator but cannot speak.'],
+      languages: ['Understands one language of its creator but cannot speak'],
       habitats: ['forest', 'grassland', 'hill', 'mountain'],
       tableNotes: [
         [
@@ -12126,7 +12126,7 @@ export default createPublicationMonsters({
       name: 'Oblex Spawn',
       page: 217,
       alignment: 'lawful evil',
-      languages: ['None.'],
+      languages: [],
       habitats: ['swamp', 'underdark', 'urban'],
       stats: {
         size: 'tiny',
@@ -12192,7 +12192,7 @@ export default createPublicationMonsters({
       name: 'Ogre Battering Ram',
       page: 220,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       habitats: ['grassland', 'hill', 'mountain'],
       stats: {
         size: 'large',
@@ -12256,7 +12256,7 @@ export default createPublicationMonsters({
       name: 'Ogre Bolt Launcher',
       page: 220,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       habitats: ['grassland', 'hill', 'mountain'],
       stats: {
         size: 'large',
@@ -12301,7 +12301,7 @@ export default createPublicationMonsters({
       name: 'Ogre Chain Brute',
       page: 221,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       habitats: ['grassland', 'hill', 'mountain'],
       stats: {
         size: 'large',
@@ -12392,7 +12392,7 @@ export default createPublicationMonsters({
       name: 'Ogre Howdah',
       page: 221,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       habitats: ['grassland', 'hill'],
       stats: {
         size: 'large',
@@ -12856,7 +12856,7 @@ export default createPublicationMonsters({
       name: 'Retriever',
       page: 222,
       alignment: 'lawful evil',
-      languages: ['Understands Abyssal, Elvish, and Undercommon. It cannot speak.'],
+      languages: ['Understands Abyssal, Elvish, and Undercommon. It cannot speak'],
       habitats: ['desert', 'forest', 'underdark'],
       stats: {
         size: 'large',
@@ -12981,7 +12981,7 @@ export default createPublicationMonsters({
       name: 'Rot Troll',
       page: 244,
       alignment: 'chaotic evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       habitats: ['desert', 'forest', 'swamp', 'underdark'],
       stats: {
         size: 'large',
@@ -13060,7 +13060,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 136,
       alignment: 'chaotic evil',
-      languages: ["Understands Abyssal but can't speak."],
+      languages: ["Understands Abyssal but can't speak"],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -13140,7 +13140,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 225,
       alignment: 'neutral',
-      languages: ['Common', 'Elvish.'],
+      languages: ['Common', 'Elvish'],
       habitats: ['forest', 'underdark', 'urban'],
       appearance: [
         ['A shadar-kai elf, gaunt with ashen skin, a deathly cast even when looking young.'],
@@ -13242,7 +13242,7 @@ export default createPublicationMonsters({
       name: 'Skulk',
       page: 227,
       alignment: 'chaotic neutral',
-      languages: ["Understands Common but can't speak."],
+      languages: ["Understands Common but can't speak"],
       habitats: ['coastal', 'forest', 'swamp', 'underdark', 'urban'],
       tableNotes: [
         [
@@ -13306,7 +13306,7 @@ export default createPublicationMonsters({
       name: 'Skull Lord',
       page: 230,
       alignment: 'lawful evil',
-      languages: ['All languages it knew in life.'],
+      languages: ['All languages it knew in life'],
       habitats: ['desert', 'swamp', 'underdark'],
       stats: {
         size: 'medium',
@@ -13447,7 +13447,7 @@ export default createPublicationMonsters({
       name: 'Spirit Troll',
       page: 244,
       alignment: 'chaotic evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       habitats: ['coastal', 'forest', 'swamp', 'underdark'],
       stats: {
         size: 'large',
@@ -13556,7 +13556,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 196,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       habitats: ['forest', 'grassland'],
       appearance: [['An eladrin, an elf-like fey whose look shifts with its mood.']],
       lore: [
@@ -13697,7 +13697,7 @@ export default createPublicationMonsters({
       name: 'Star Spawn Grue',
       page: 234,
       alignment: 'neutral evil',
-      languages: ['Deep Speech.'],
+      languages: ['Deep Speech'],
       habitats: ['mountain', 'swamp'],
       tableNotes: [
         [
@@ -13760,7 +13760,7 @@ export default createPublicationMonsters({
       name: 'Star Spawn Mangler',
       page: 236,
       alignment: 'chaotic evil',
-      languages: ['Deep Speech.'],
+      languages: ['Deep Speech'],
       tableNotes: [
         [
           'Tactics: Against a target that has yet to act, use Flurry of Claws while Ambush can add psychic damage to each hit.',
@@ -13844,7 +13844,7 @@ export default createPublicationMonsters({
       name: 'Star Spawn Seer',
       page: 236,
       alignment: 'neutral evil',
-      languages: ['Common', 'Deep Speech', 'Undercommon.'],
+      languages: ['Common', 'Deep Speech', 'Undercommon'],
       habitats: ['mountain', 'swamp', 'urban'],
       tableNotes: [
         [
@@ -13973,7 +13973,7 @@ export default createPublicationMonsters({
       name: 'Steel Predator',
       page: 239,
       alignment: 'lawful evil',
-      languages: ["Understands Modron and its owner's language. It cannot speak."],
+      languages: ["Understands Modron and its owner's language. It cannot speak"],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -14112,7 +14112,7 @@ export default createPublicationMonsters({
       name: 'Stone Defender',
       page: 126,
       alignment: 'unaligned',
-      languages: ['Understands one language of its creator. It cannot speak.'],
+      languages: ['Understands one language of its creator. It cannot speak'],
       habitats: ['forest', 'grassland', 'hill', 'mountain'],
       tableNotes: [
         [
@@ -14207,7 +14207,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 196,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       habitats: ['desert', 'forest'],
       tableNotes: [
         [
@@ -14325,7 +14325,7 @@ export default createPublicationMonsters({
       name: 'Sword Wraith Warrior',
       page: 241,
       alignment: 'lawful evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['grassland', 'swamp'],
       tableNotes: [['Undead nature: The wraith needs no air, food, drink or sleep.']],
       stats: {
@@ -14389,7 +14389,7 @@ export default createPublicationMonsters({
       name: 'The Angry',
       page: 231,
       alignment: 'neutral evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       habitats: ['underdark', 'urban'],
       appearance: [
         [
@@ -14485,7 +14485,7 @@ export default createPublicationMonsters({
       name: 'The Hungry',
       page: 232,
       alignment: 'neutral evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       habitats: ['forest', 'underdark', 'urban'],
       appearance: [
         [
@@ -14595,7 +14595,7 @@ export default createPublicationMonsters({
       name: 'The Lost',
       page: 233,
       alignment: 'neutral evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       habitats: ['arctic', 'desert', 'forest', 'mountain', 'swamp', 'underdark', 'urban'],
       appearance: [
         ['A desperate, panicked-looking Shadowfell thing that tries to embrace anyone in reach.'],
@@ -14701,7 +14701,7 @@ export default createPublicationMonsters({
       name: 'The Wretched',
       page: 233,
       alignment: 'neutral evil',
-      languages: ['None.'],
+      languages: [],
       habitats: ['swamp', 'underdark', 'urban'],
       appearance: [['A horrid little monster that arrives in a large pack with fangs ready.']],
       lore: [
@@ -15021,7 +15021,7 @@ export default createPublicationMonsters({
       tags: ['tortle'],
       page: 242,
       alignment: 'lawful good',
-      languages: ['Aquan', 'Common.'],
+      languages: ['Aquan', 'Common'],
       habitats: ['coastal'],
       stats: {
         size: 'medium',
@@ -15101,7 +15101,7 @@ export default createPublicationMonsters({
       tags: ['tortle'],
       page: 242,
       alignment: 'lawful neutral',
-      languages: ['Aquan', 'Common.'],
+      languages: ['Aquan', 'Common'],
       habitats: ['coastal'],
       stats: {
         size: 'medium',
@@ -15181,7 +15181,7 @@ export default createPublicationMonsters({
       name: 'Vampiric Mist',
       page: 246,
       alignment: 'chaotic evil',
-      languages: ['None.'],
+      languages: [],
       habitats: [
         'arctic',
         'coastal',
@@ -15305,7 +15305,7 @@ export default createPublicationMonsters({
       name: 'Venom Troll',
       page: 245,
       alignment: 'chaotic evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       habitats: ['forest', 'swamp', 'underdark'],
       stats: {
         size: 'large',
@@ -15717,7 +15717,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 197,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       habitats: ['arctic', 'forest'],
       tableNotes: [
         [
@@ -16022,7 +16022,7 @@ export default createPublicationMonsters({
       name: 'Young Kruthik',
       page: 211,
       alignment: 'unaligned',
-      languages: ['Kruthik.'],
+      languages: ['Kruthik'],
       habitats: ['desert', 'mountain', 'underdark'],
       stats: {
         size: 'small',

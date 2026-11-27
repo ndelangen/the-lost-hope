@@ -12,7 +12,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 210,
       alignment: 'any alignment',
-      languages: ['Common and Dwarvish.'],
+      languages: ['Common and Dwarvish'],
       tableNotes: [
         [
           'The printed spirit warrior uses the Albino Dwarf Warrior block with innate spellcasting and challenge 1.',
@@ -86,7 +86,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 210,
       alignment: 'any alignment',
-      languages: ['Common and Dwarvish.'],
+      languages: ['Common and Dwarvish'],
       appearance: [
         [
           'An albino dwarf of the Chultan jungle wearing armour of dinosaur hide and carrying weapons of bone, flint and wood, with ornate jewellery of bones, feathers, tusks and stone beads.',
@@ -139,7 +139,7 @@ export default createPublicationMonsters({
       name: 'Aldani (Lobsterfolk)',
       page: 210,
       alignment: 'lawful neutral',
-      languages: ['Common.'],
+      languages: ['Common'],
       tableNotes: [
         [
           'When disturbed, aldani try to scare off visitors without killing them. If threats fail, they may offer a treasure or information in exchange for privacy.',
@@ -270,7 +270,7 @@ export default createPublicationMonsters({
       name: 'Ankylosaurus Zombie',
       page: 240,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -333,7 +333,7 @@ export default createPublicationMonsters({
       tags: ['aarakocra'],
       page: 69,
       alignment: 'lawful neutral',
-      languages: ['Auran', 'Common.'],
+      languages: ['Auran', 'Common'],
       tableNotes: [
         [
           'Dance of the Seven Winds: This 10-minute ritual requires an aarakocra elder, seven other aarakocra to chant without interruption, and a black orchid. Asharra grinds and inhales the orchid, then dances around up to ten creatures that cannot fly. Her wings disappear when the rite ends and each recipient gains a magical fly speed of 30 ft., enough to travel 4 miles per hour. After three days the recipients lose the flight and Asharra regains her wings and flying speed.',
@@ -533,7 +533,7 @@ export default createPublicationMonsters({
       tags: ['titan'],
       page: 214,
       alignment: 'neutral evil',
-      languages: ['Understands Celestial. Its utterances are incoherent.'],
+      languages: ['Understands Celestial. Its utterances are incoherent'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -722,7 +722,7 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       page: 33,
       alignment: 'neutral good',
-      languages: ['Common. She cannot speak in tiger form.'],
+      languages: ['Common. She cannot speak in tiger form'],
       habitats: ['grassland', 'forest', 'desert'],
       tableNotes: [
         ['Movement notes: walk · (40 ft. in tiger form)'],
@@ -879,7 +879,7 @@ export default createPublicationMonsters({
       tags: ['tabaxi'],
       page: 102,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Dwarvish', 'thieves’ cant.'],
+      languages: ['Common', 'Dwarvish', 'thieves’ cant'],
       tableNotes: [
         [
           'Fallen Tree ambush: Bag of Nails begins hidden on the east bank, 150 ft. from the fallen tree bridge (DC 22 Wisdom (Perception) to spot him). He shoots when someone crosses and tries to hide at a new firing position after each shot. Below 39 HP, he surrenders and invites his enemies into his lair for stew. A successful DC 15 Wisdom (Insight) check exposes his intent. The stew contains Midnight Tears. If it has not been neutralized by midnight, the eater makes a DC 17 Constitution save, taking 31 (9d6) poison damage on a failure or half on a success. Five more doses can be found in the lair.',
@@ -1032,7 +1032,7 @@ export default createPublicationMonsters({
       name: 'Blind Artist',
       page: 164,
       alignment: 'neutral evil',
-      languages: ['Understands the languages it spoke in life and cannot speak.'],
+      languages: ['Understands the languages it spoke in life and cannot speak'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -1089,7 +1089,7 @@ export default createPublicationMonsters({
       name: 'Bodak',
       page: 215,
       alignment: 'chaotic evil',
-      languages: ['Abyssal and the languages it spoke in life.'],
+      languages: ['Abyssal and the languages it spoke in life'],
       habitats: ['underdark', 'swamp', 'urban'],
       appearance: [['A gaunt undead humanoid with sunken eyes and an elongated, hollow mouth.']],
       tableNotes: [
@@ -1204,7 +1204,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 68,
       alignment: 'neutral evil',
-      languages: ['One language', 'usually Common.'],
+      languages: ['One language', 'usually Common'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -1495,7 +1495,7 @@ export default createPublicationMonsters({
       name: 'Drufi',
       page: 64,
       alignment: 'neutral evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       habitats: ['mountain', 'arctic'],
       tableNotes: [
         [
@@ -1565,7 +1565,7 @@ export default createPublicationMonsters({
       name: 'Eblis',
       page: 219,
       alignment: 'neutral evil',
-      languages: ['Auran and Common.'],
+      languages: ['Auran and Common'],
       tableNotes: [
         [
           'Jungle encounter: While traveling, the party encounters 1d4 + 1 eblis in stilt huts over a marsh or pond. They attack wounded or weak-looking travelers. A strong, armed party can buy directions to nearby landmarks for 50 gp in gems. Following those directions grants advantage on navigation checks to reach the landmarks. If the party defeats the eblis and searches the huts, roll three times on Treasure Drops. At a campsite, the eblis try to sneak in and carry away one traveler.',
@@ -1639,7 +1639,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 25,
       alignment: 'lawful good',
-      languages: ['One language', 'usually Common.'],
+      languages: ['One language', 'usually Common'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -1922,7 +1922,7 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       page: 67,
       alignment: 'neutral evil',
-      languages: ['Common. Cannot speak in boar form.'],
+      languages: ['Common. Cannot speak in boar form'],
       habitats: ['grassland', 'forest', 'hill'],
       tableNotes: [
         ['Movement notes: walk · (40 ft. in boar form)'],
@@ -2049,7 +2049,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 34,
       alignment: 'neutral good',
-      languages: ['Any one language (usually Common).'],
+      languages: ['Any one language (usually Common)'],
       habitats: [
         'coastal',
         'mountain',
@@ -2139,7 +2139,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger', 'yuan-ti'],
       page: 111,
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'and Draconic.'],
+      languages: ['Abyssal', 'Common', 'and Draconic'],
       habitats: ['underdark', 'forest', 'desert'],
       tableNotes: [
         [
@@ -2325,7 +2325,7 @@ export default createPublicationMonsters({
       tags: ['firenewt'],
       page: 219,
       alignment: 'neutral evil',
-      languages: ['Draconic and Ignan.'],
+      languages: ['Draconic and Ignan'],
       habitats: ['underdark', 'mountain', 'hill', 'desert', 'Hot springs', 'Volcanic wetlands'],
       appearance: [['A heat-adapted amphibious humanoid with a newt-like head and mottled skin.']],
       tableNotes: [
@@ -2403,7 +2403,7 @@ export default createPublicationMonsters({
       tags: ['firenewt'],
       page: 219,
       alignment: 'neutral evil',
-      languages: ['Draconic and Ignan.'],
+      languages: ['Draconic and Ignan'],
       habitats: ['underdark', 'mountain', 'hill', 'desert', 'Hot springs', 'Volcanic wetlands'],
       appearance: [['A newt-like humanoid with mottled skin, a shield and a curved blade.']],
       tableNotes: [
@@ -2475,7 +2475,7 @@ export default createPublicationMonsters({
       name: 'Flail Snail',
       page: 220,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Encounter context: Unkh takes the form of a flail snail in Omuan stories (pp. 92, 102–103). A DC 10 Wisdom (Survival) check determines which way a snail was traveling from its slime trail (p. 199). An intact shell weighs about 250 lb. and is worth 2,500 gp.',
@@ -2578,7 +2578,7 @@ export default createPublicationMonsters({
       tags: ['tabaxi'],
       page: 35,
       alignment: 'chaotic good',
-      languages: ['Common plus one other language.'],
+      languages: ['Common plus one other language'],
       tableNotes: [
         [
           'Encounter context: Flask and River Mist quietly hire out in Malar’s Throat and Tiryki Anchorage. They can guide travelers to Firefinger or Dungrunglung. The Zhentarim pay attention to what the two learn about Artus Cimber, and the pair report back unless given a reason to keep quiet.',
@@ -2734,7 +2734,7 @@ export default createPublicationMonsters({
       name: 'Froghemoth',
       page: 221,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Encounter context: Kubazan, the trickster god, takes the form of a froghemoth. At his shrine in Omu, a DC 14 Wisdom (Perception) check spots a froghemoth’s eyestalk in the murky, 6-ft.-deep pool. It attacks if someone disturbs the water or approaches the shrine, leaving the pool to pursue them (p. 97).',
@@ -2861,7 +2861,7 @@ export default createPublicationMonsters({
       name: 'Giant Four-Armed Gargoyle',
       page: 221,
       alignment: 'chaotic evil',
-      languages: ['Terran.'],
+      languages: ['Terran'],
       tableNotes: [
         [
           'Gargoyle Guardians: Four guardians perch around the shaft in Tomb of the Nine Gods area 45. Each humanoid owes a separate payment to each pedestal before leaving: 1 cp north, 1 sp east, 1 gp south, and 1 pp west. Higher-value coins or multiple coins of sufficient total value also work. Unpaid guardians animate when the humanoid leaves and attack that humanoid. A guardian also attacks if it or its pedestal takes damage. These triggers belong to the room.',
@@ -3015,7 +3015,7 @@ export default createPublicationMonsters({
       name: 'Giant Strider',
       page: 222,
       alignment: 'neutral evil',
-      languages: ['None.'],
+      languages: [],
       habitats: ['underdark', 'mountain', 'hill'],
       appearance: [
         ['A large, beaked reptile that runs on two legs and can carry a firenewt rider.'],
@@ -3090,7 +3090,7 @@ export default createPublicationMonsters({
       name: 'Girallon Zombie',
       page: 240,
       alignment: 'chaotic evil',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Jungle encounter: On a 6 or 7 on the Appendix B zombie encounter d10, the party encounters 1d4 girallon zombies. The smell of death and the sound of the zombies moving through the undergrowth give warning.',
@@ -3282,7 +3282,7 @@ export default createPublicationMonsters({
       tags: ['goblinoid'],
       page: 89,
       alignment: 'neutral evil',
-      languages: ['Common and Goblin.'],
+      languages: ['Common and Goblin'],
       habitats: ['underdark', 'grassland', 'forest', 'hill'],
       tableNotes: [
         [
@@ -3370,7 +3370,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 20,
       alignment: 'lawful good',
-      languages: ['Any two languages. The adventure does not specify which.'],
+      languages: ['Any two languages. The adventure does not specify which'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -3650,7 +3650,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 34,
       alignment: 'chaotic neutral',
-      languages: ['One language', 'usually Common.'],
+      languages: ['One language', 'usually Common'],
       tableNotes: [
         [
           'Encounter context: Hew offers his services in Port Nyanzaru and claims he can guide the party anywhere. If hired, he takes them to Wyrmheart Mine, where Tinder (Tzindelor) drove off his expedition. Use the Young Red Dragon profile for Tinder.',
@@ -3719,7 +3719,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 25,
       alignment: 'neutral evil',
-      languages: ['Any two languages', 'as in the Noble block.'],
+      languages: ['Any two languages', 'as in the Noble block'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -3850,7 +3850,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 26,
       alignment: 'neutral evil',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       habitats: [
         'coastal',
         'mountain',
@@ -3935,7 +3935,7 @@ export default createPublicationMonsters({
       name: 'Kamadan',
       page: 225,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Hunting tactics: A kamadan opens with Sleep Breath if it can, then attacks conscious enemies before turning on sleeping ones.',
@@ -4092,7 +4092,7 @@ export default createPublicationMonsters({
       name: 'Kupalué',
       page: 35,
       alignment: 'neutral',
-      languages: ['Vegepygmy. Uses a private sign language with Qawasha.'],
+      languages: ['Vegepygmy. Uses a private sign language with Qawasha'],
       habitats: ['forest', 'swamp'],
       tableNotes: [
         [
@@ -4173,7 +4173,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 26,
       alignment: 'neutral evil',
-      languages: ['Any two languages', 'as in the Priest block.'],
+      languages: ['Any two languages', 'as in the Priest block'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -4276,7 +4276,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 67,
       alignment: 'neutral evil',
-      languages: ['Any two languages', 'as in the Bandit Captain block.'],
+      languages: ['Any two languages', 'as in the Bandit Captain block'],
       habitats: ['coastal', 'hill', 'arctic', 'urban', 'forest', 'desert'],
       tableNotes: [
         [
@@ -4373,7 +4373,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 227,
       alignment: 'lawful evil',
-      languages: ['Common', 'Draconic', 'Dwarvish.'],
+      languages: ['Common', 'Draconic', 'Dwarvish'],
       tableNotes: [
         [
           "Fort Beluarian: An exploration charter costs 50 gp, credited toward the Flaming Fist's claim on half the expedition's proceeds and discoveries. Charter holders can hire up to six guards at 1 gp per guard per tenday. Liara uses a Sending Stone to pass ship manifests and sailing schedules to Zaroum Al-Saryak. In exchange, the Jahaka pirates leave Baldur's Gate ships alone.",
@@ -4544,7 +4544,7 @@ export default createPublicationMonsters({
       name: 'Mister Threadneedle',
       page: 180,
       alignment: 'chaotic evil',
-      languages: ['Understands Common. Communicates with gestures and facial expressions.'],
+      languages: ['Understands Common. Communicates with gestures and facial expressions'],
       habitats: ['grassland'],
       tableNotes: [
         [
@@ -4659,7 +4659,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 34,
       alignment: 'lawful good',
-      languages: ['Common', 'Dwarvish.'],
+      languages: ['Common', 'Dwarvish'],
       tableNotes: [
         [
           'Hrakhamar: His standard fee is 5 gp per day. He hopes to recruit the party to reclaim the forge or recover Moradin’s Gauntlet. Musharib has the smith’s tools proficiency needed to make copies of the two treasury keys with Hrakhamar’s equipment. The attempt requires a DC 10 Intelligence check. Three failed attempts ruin the impressions.',
@@ -4813,7 +4813,7 @@ export default createPublicationMonsters({
       name: "Nanny Pu'pu",
       page: 72,
       alignment: 'neutral evil',
-      languages: ['Common', 'Draconic', 'Sylvan.'],
+      languages: ['Common', 'Draconic', 'Sylvan'],
       habitats: ['forest', 'swamp', 'hill'],
       tableNotes: [
         [
@@ -5050,7 +5050,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 47,
       alignment: 'lawful good',
-      languages: ['Any two languages', 'as for the printed Noble.'],
+      languages: ['Any two languages', 'as for the printed Noble'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -5173,7 +5173,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 96,
       alignment: 'neutral',
-      languages: ['Common', 'Grung. He can translate Old Omuan.'],
+      languages: ['Common', 'Grung. He can translate Old Omuan'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -5259,7 +5259,7 @@ export default createPublicationMonsters({
       name: 'Pterafolk',
       page: 229,
       alignment: 'neutral evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       tableNotes: [
         [
           'Firefinger: Four elders in the level 3 nest have 13 hit points each. Six pterafolk occupy the pinnacle, including Nrak with 40 hit points. The flock can shove foes near the edge or circle the tower to set up a Terror Dive.',
@@ -5509,7 +5509,7 @@ export default createPublicationMonsters({
       tags: ['tabaxi'],
       page: 35,
       alignment: 'chaotic good',
-      languages: ['Common and one other language.'],
+      languages: ['Common and one other language'],
       tableNotes: [
         [
           "Guide: The siblings meet clients discreetly in Malar's Throat or Tiryki Anchorage and can lead a group to Firefinger and Dungrunglung. The Zhentarim ask them to gather information on Artus Cimber. Unless given a reason to keep quiet, they report what they learn on their next visit to Port Nyanzaru.",
@@ -5614,7 +5614,7 @@ export default createPublicationMonsters({
       tags: ['yuan-ti'],
       page: 35,
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Draconic.'],
+      languages: ['Abyssal', 'Common', 'Draconic'],
       habitats: ['forest', 'swamp', 'urban', 'desert'],
       tableNotes: [
         [
@@ -5849,7 +5849,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 35,
       alignment: 'chaotic good',
-      languages: ['One language', 'usually Common.'],
+      languages: ['One language', 'usually Common'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -5958,7 +5958,7 @@ export default createPublicationMonsters({
       name: 'Skeleton Key',
       page: 126,
       alignment: 'unaligned',
-      languages: ['Understands the languages it knew in life. It cannot speak.'],
+      languages: ['Understands the languages it knew in life. It cannot speak'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -6038,7 +6038,7 @@ export default createPublicationMonsters({
       name: 'Spiked Tomb Guardian',
       page: 154,
       alignment: 'neutral',
-      languages: ['Understands its maker’s languages. Cannot speak.'],
+      languages: ['Understands its maker’s languages. Cannot speak'],
       tableNotes: [
         [
           'Chained pair (area 41): The two guards attack anyone who strikes them or tries to pass. The chain stops them from moving more than 15 ft. apart and spreads damage to either guardian evenly across both. The chain can be attacked. It has AC 18, 5 HP, damage threshold 10, and immunity to poison and psychic damage. If it breaks, both guardians immediately go berserk.',
@@ -6235,7 +6235,7 @@ export default createPublicationMonsters({
       tags: ['tabaxi'],
       page: 232,
       alignment: 'chaotic good',
-      languages: ['Common and one other language.'],
+      languages: ['Common and one other language'],
       appearance: [['A tabaxi hunter, a catfolk of leather armour who climbs well.']],
       lore: [
         [
@@ -6331,7 +6331,7 @@ export default createPublicationMonsters({
       tags: ['tabaxi'],
       page: 233,
       alignment: 'chaotic good',
-      languages: ['Common and two other languages.'],
+      languages: ['Common and two other languages'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6414,7 +6414,7 @@ export default createPublicationMonsters({
       name: 'Terracotta Warrior',
       page: 161,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           "Shagambi's tomb: Forty-eight warriors stand guard. Loud noise makes them draw their swords partway as a warning. On any further noise, they attack every creature in the tomb. Moving quietly without magic takes a DC 12 Dexterity (Stealth) check, at disadvantage when crossing pottery shards. Opening Shagambi's coffin can set off a music box that rouses them even if the room was quiet. A DC 14 Wisdom (Perception) check while carefully lifting the lid spots the wire. Cut it with thieves' tools and a successful DC 12 Dexterity check. Failure sets off the music.",
@@ -6509,7 +6509,7 @@ export default createPublicationMonsters({
       name: 'Tomb Dwarf',
       page: 134,
       alignment: 'lawful evil',
-      languages: ['Any languages it knew in life.'],
+      languages: ['Any languages it knew in life'],
       tableNotes: [
         [
           'Grand staircase: The dwarf retreats through a secret door to area 25 unless the characters catch it immediately in area 7A.',
@@ -6993,7 +6993,7 @@ export default createPublicationMonsters({
       name: 'Valindra Shadowmantle',
       page: 58,
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Draconic', 'Dwarvish', 'Elvish', 'Infernal.'],
+      languages: ['Abyssal', 'Common', 'Draconic', 'Dwarvish', 'Elvish', 'Infernal'],
       tableNotes: [
         [
           'Heart of Ubtao: Valindra cannot use lair actions here. She invites useful visitors up with an Arcane Gate scroll if necessary. If a fight starts, her undead servants engage while she escapes to Thay through her Teleportation Circle. Her phylactery stays in Thay. The return route’s destination sigils are absent from the Heart.',
@@ -7395,7 +7395,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 235,
       alignment: 'chaotic good',
-      languages: ['Common', 'Dwarvish', 'Elvish.'],
+      languages: ['Common', 'Dwarvish', 'Elvish'],
       habitats: ['Port Nyanzaru', 'Urban'],
       appearance: [['A bearded, flamboyantly dressed human traveler and author.']],
       tableNotes: [
@@ -7472,7 +7472,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 27,
       alignment: 'lawful neutral',
-      languages: ['Any four languages', 'as for the printed Mage.'],
+      languages: ['Any four languages', 'as for the printed Mage'],
       habitats: ['urban'],
       tableNotes: [
         ['Alternate armor classes: 15 · with mage armor'],
@@ -7572,7 +7572,7 @@ export default createPublicationMonsters({
       name: 'Wine Weird',
       page: 141,
       alignment: 'neutral',
-      languages: ['Understands Aquan but cannot speak.'],
+      languages: ['Understands Aquan but cannot speak'],
       habitats: ['underdark', 'urban'],
       tableNotes: [
         [
@@ -7662,7 +7662,7 @@ export default createPublicationMonsters({
       name: 'Withers',
       page: 145,
       alignment: 'neutral evil',
-      languages: ['Any languages he knew in life.'],
+      languages: ['Any languages he knew in life'],
       tableNotes: [
         [
           'Office encounter: Seven Crawling Claws follow his commands in area 28. When pressed, he uses magic to retreat and Wall of Fire to cut off pursuit. His journals record the arrival of the Atropal and the building of the Soulmonger.',
@@ -7835,7 +7835,7 @@ export default createPublicationMonsters({
       tags: ['half-elf'],
       page: 236,
       alignment: 'neutral evil',
-      languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish', 'Halfling.'],
+      languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish', 'Halfling'],
       tableNotes: [
         [
           'Encounter context: She plans to use Dominate Person to make Artus surrender the Ring of Winter, then escape with Fly. Her companion Summerwise is a Pseudodragon who thinks the quest is reckless. Good-aligned characters can win Summerwise over. Xandala trusts her draconic ancestry to carry her to greatness and treats others as fools.',
@@ -7947,7 +7947,7 @@ export default createPublicationMonsters({
       name: 'Yellow Musk Creeper',
       page: 237,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           "Hosts: The vine controls the zombie it animates. In seven days the new creeper grows to full size and emerges from the host, which collapses. If the zombie is destroyed first, the young plant withers and dies. A Small host produces a Small zombie with 27 (6d6 + 6) HP, otherwise using the Yellow Musk Zombie's statistics.",
@@ -8107,7 +8107,7 @@ export default createPublicationMonsters({
       tags: ['grung'],
       page: 108,
       alignment: 'lawful evil',
-      languages: ['Grung.'],
+      languages: ['Grung'],
       habitats: ['forest'],
       tableNotes: [
         [
@@ -8251,7 +8251,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger', 'yuan-ti'],
       page: 118,
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'and Draconic.'],
+      languages: ['Abyssal', 'Common', 'and Draconic'],
       habitats: ['forest', 'swamp', 'desert'],
       tableNotes: [
         [
@@ -8391,7 +8391,7 @@ export default createPublicationMonsters({
       tags: ['medusa'],
       page: 79,
       alignment: 'lawful evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       habitats: ['desert'],
       tableNotes: [
         [
@@ -8537,7 +8537,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 67,
       alignment: 'lawful evil',
-      languages: ['Any two languages.'],
+      languages: ['Any two languages'],
       habitats: ['coastal', 'hill', 'arctic', 'urban', 'forest', 'desert'],
       tableNotes: [
         [
@@ -8669,7 +8669,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 27,
       alignment: 'neutral good',
-      languages: ['Any two languages.'],
+      languages: ['Any two languages'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -8725,7 +8725,7 @@ export default createPublicationMonsters({
       tags: ['half-dragon'],
       page: 239,
       alignment: 'lawful good',
-      languages: ['Common', 'Draconic', 'Dwarvish', 'and Primordial.'],
+      languages: ['Common', 'Draconic', 'Dwarvish', 'and Primordial'],
       tableNotes: [
         [
           "Encounter context: Zindar is secretly part of the Ytepka Society. Messages left at his office receive a reply in 1d6 hours. He offers 2,000 gp for each pirate ship brought back to port and 500 gp more for each captured captain. The targets are the Dragonfang, the Emerald Eye, and the Stirge. Zhanthi funds the bounty and has privately uncovered evidence of Liara Portyr's arrangement with the pirates.",

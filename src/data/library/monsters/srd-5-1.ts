@@ -11,7 +11,7 @@ export default createPublicationMonsters({
       name: 'Aboleth',
       reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       alignment: 'lawful evil',
-      languages: ['Deep Speech', 'telepathy 120 ft'],
+      languages: ['Deep Speech', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -4757,7 +4757,7 @@ export default createPublicationMonsters({
       name: 'Balor',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -4952,7 +4952,7 @@ export default createPublicationMonsters({
       name: 'Barbed Devil',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -5619,7 +5619,7 @@ export default createPublicationMonsters({
       name: 'Bone Devil',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -6012,7 +6012,7 @@ export default createPublicationMonsters({
       name: 'Chain Devil',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -6584,7 +6584,7 @@ export default createPublicationMonsters({
     couatl: {
       name: 'Couatl',
       alignment: 'lawful good',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -6993,7 +6993,7 @@ export default createPublicationMonsters({
       ],
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 60 ft'],
+      languages: ['Abyssal', 'telepathy 60 ft.'],
       stats: {
         size: 'small',
         type: 'fiend',
@@ -7695,7 +7695,7 @@ export default createPublicationMonsters({
       name: 'Erinyes',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -10065,7 +10065,7 @@ export default createPublicationMonsters({
       ],
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -10279,7 +10279,7 @@ export default createPublicationMonsters({
       name: 'Horned Devil',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -10399,7 +10399,7 @@ export default createPublicationMonsters({
       name: 'Ice Devil',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -11621,7 +11621,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2014],
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -12314,7 +12314,7 @@ export default createPublicationMonsters({
       name: 'Nalfeshnee',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -13080,7 +13080,7 @@ export default createPublicationMonsters({
       name: 'Pit Fiend',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -13250,7 +13250,7 @@ export default createPublicationMonsters({
     planetar: {
       name: 'Planetar',
       alignment: 'lawful good',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -15137,7 +15137,7 @@ export default createPublicationMonsters({
       name: 'Succubus/Incubus',
       tags: ['shapechanger'],
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft'],
+      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft.'],
       appearance: [
         [
           "A lascivious, dark-winged fiend that seldom shows its true form and first appears as an ethereal presence beside a sleeper's bed.",
@@ -15836,7 +15836,7 @@ export default createPublicationMonsters({
     unicorn: {
       name: 'Unicorn',
       alignment: 'lawful good',
-      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft'],
+      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft.'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -16459,7 +16459,7 @@ export default createPublicationMonsters({
       name: 'Vrock',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',

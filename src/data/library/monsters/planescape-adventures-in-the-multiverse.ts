@@ -608,7 +608,7 @@ export default createPublicationMonsters({
       name: 'Cranium Rat Squeaker',
       reprintedIn: [refs.publications.morte_s_planar_parade],
       alignment: 'unaligned',
-      languages: ['telepathy 30 ft'],
+      languages: ['telepathy 30 ft.'],
       habitats: ['Sigil'],
       appearance: [['A small rat with exposed brain tissue visible above its eyes.']],
       tableNotes: [
@@ -671,7 +671,7 @@ export default createPublicationMonsters({
     cranium_rat_squeaker_swarm: {
       name: 'Cranium Rat Squeaker Swarm',
       alignment: 'neutral',
-      languages: ['telepathy 30 ft'],
+      languages: ['telepathy 30 ft.'],
       habitats: ['Sigil'],
       appearance: [['A cluster of many cranium rats, each with a visible brain dome.']],
       tableNotes: [
@@ -791,7 +791,7 @@ export default createPublicationMonsters({
     cuprilach_rilmani: {
       name: 'Cuprilach Rilmani',
       alignment: 'neutral',
-      languages: ['telepathy 120 ft'],
+      languages: ['telepathy 120 ft.'],
       habitats: ['Outlands'],
       appearance: [
         ['A smooth-faced copper-bodied rilmani with an assassin’s build and a burnished blade.'],
@@ -1000,7 +1000,7 @@ export default createPublicationMonsters({
     darkweaver: {
       name: 'Darkweaver',
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Deep Speech', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Deep Speech', 'telepathy 120 ft.'],
       habitats: ['Shadowfell', 'Caves', 'Dungeons', 'Undersigil', 'Pandemonium'],
       appearance: [['A shadow-dwelling arachnid that casts webs made of darkness.']],
       tableNotes: [
@@ -1133,7 +1133,7 @@ export default createPublicationMonsters({
     decaton_modron: {
       name: 'Decaton Modron',
       alignment: 'lawful neutral',
-      languages: ['Modron', 'telepathy 120 ft'],
+      languages: ['Modron', 'telepathy 120 ft.'],
       habitats: ['Mechanus'],
       appearance: [['A hovering hierarch modron with mechanical tentacles and lightning rays.']],
       tableNotes: [
@@ -1460,7 +1460,7 @@ export default createPublicationMonsters({
     farastu_demodand: {
       name: 'Farastu Demodand',
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Demodand', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Demodand', 'telepathy 120 ft.'],
       habitats: ['Carceri', 'Planar portals'],
       appearance: [['A lanky climbing fiend with long claws, a biting maw, and a sticky hide.']],
       tableNotes: [
@@ -1604,7 +1604,7 @@ export default createPublicationMonsters({
     ferrumach_rilmani: {
       name: 'Ferrumach Rilmani',
       alignment: 'neutral',
-      languages: ['telepathy 120 ft'],
+      languages: ['telepathy 120 ft.'],
       habitats: ['Outlands'],
       appearance: [['A broad iron-bodied rilmani whose limbs end in cutting edges.']],
       tableNotes: [
@@ -2959,7 +2959,7 @@ export default createPublicationMonsters({
     octon_modron: {
       name: 'Octon Modron',
       alignment: 'lawful neutral',
-      languages: ['Modron', 'telepathy 120 ft'],
+      languages: ['Modron', 'telepathy 120 ft.'],
       habitats: ['Mechanus'],
       appearance: [['A hovering hierarch modron equipped with multiple articulated tentacles.']],
       tableNotes: [
@@ -3538,7 +3538,7 @@ export default createPublicationMonsters({
       name: 'Shemeshka',
       tags: ['yugoloth'],
       alignment: 'neutral evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       habitats: ['Sigil', 'Fortune’s Wheel'],
       appearance: [['A foxlike arcanaloth dressed as a wealthy Sigil crime boss.']],
       tableNotes: [

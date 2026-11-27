@@ -1345,7 +1345,7 @@ export default createPublicationMonsters({
     angel_of_judgment: {
       name: 'Angel of Judgment',
       alignment: 'neutral',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       appearance: [
         [
           'A celestial with two faces, one stern and dispassionate, the other a fiendish judge. Both seem to weigh everything they see.',
@@ -1505,7 +1505,7 @@ export default createPublicationMonsters({
     angelic_enforcer: {
       name: 'Angelic Enforcer',
       alignment: 'lawful good',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       appearance: [
         [
           'A gold-furred, lion-headed angel with white wings fixes an intense stare on its target and roars, raising a flaming greatsword.',
@@ -1946,7 +1946,7 @@ export default createPublicationMonsters({
     aviere: {
       name: 'Aviere',
       alignment: 'any good',
-      languages: ['Celestial', 'Common', 'telepathy 60 ft'],
+      languages: ['Celestial', 'Common', 'telepathy 60 ft.'],
       appearance: [
         ['A small bird with a fiery belly perches on a shoulder, singing a divine hymn.'],
       ],
@@ -3561,7 +3561,7 @@ export default createPublicationMonsters({
     chamrosh: {
       name: 'Chamrosh',
       alignment: 'neutral good',
-      languages: ['Celestial', 'Common', 'telepathy 60 ft'],
+      languages: ['Celestial', 'Common', 'telepathy 60 ft.'],
       appearance: [
         [
           'A large sheepdog with luxuriant white-gold fur, broad wings on its back and an intelligent silvery gleam in its eyes.',
@@ -3698,7 +3698,7 @@ export default createPublicationMonsters({
     chatterlome: {
       name: 'Chatterlome',
       alignment: 'lawful evil',
-      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft'],
+      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft.'],
       appearance: [
         [
           'A fiend with a smooth grey head, big round eyes and a circular mouth full of needle-like teeth, a lopsided body and short bowed legs. It has four arms, each one forever gripping a carpentry tool.',
@@ -4471,7 +4471,7 @@ export default createPublicationMonsters({
     culicoid: {
       name: 'Culicoid',
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 60 ft'],
+      languages: ['Abyssal', 'telepathy 60 ft.'],
       appearance: [
         [
           'A walking mosquito in filthy rags, its hands ending in needle-like fingers that echo the proboscis on its head. Its wings give off a high drone that blends in with ordinary insect noise.',
@@ -7088,7 +7088,7 @@ export default createPublicationMonsters({
     fragrant_one: {
       name: 'Fragrant One',
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Elvish', 'Sylvan', 'telepathy 60 ft'],
+      languages: ['Common', 'Elvish', 'Sylvan', 'telepathy 60 ft.'],
       habitats: ['Forest'],
       appearance: [
         [
@@ -7348,7 +7348,7 @@ export default createPublicationMonsters({
     galidroo: {
       name: 'Galidroo',
       alignment: 'neutral evil',
-      languages: ['Deep Speech', 'telepathy 60 ft'],
+      languages: ['Deep Speech', 'telepathy 60 ft.'],
       appearance: [
         [
           'A hairless, wrinkled brute larger than an ox, covered in warts and pustules, with two rat-like heads and a heavy tentacle-like tail that lashes malevolently.',
@@ -7638,7 +7638,7 @@ export default createPublicationMonsters({
     ghillie_dubh: {
       name: 'Ghillie Dubh',
       alignment: 'lawful good',
-      languages: ['Celestial', 'Common', 'Sylvan', 'telepathy 60 ft'],
+      languages: ['Celestial', 'Common', 'Sylvan', 'telepathy 60 ft.'],
       appearance: [
         [
           'A man-shaped mound of leaves and moss steps out from among the trees, with dark hollows where eyes should be.',
@@ -9870,7 +9870,7 @@ export default createPublicationMonsters({
     heggarna: {
       name: 'Heggarna',
       alignment: 'neutral evil',
-      languages: ['Deep Speech', 'telepathy 30 ft'],
+      languages: ['Deep Speech', 'telepathy 30 ft.'],
       appearance: [
         [
           "A caterpillar-like body on many small claspers ends in a leech's jagged circular mouth, topped by a fierce tiger's head and colouring. By day it passes for a stray cat.",
@@ -11979,7 +11979,7 @@ export default createPublicationMonsters({
     irid: {
       name: 'Irid',
       alignment: 'chaotic neutral',
-      languages: ['Celestial', 'Common', 'telepathy 60 ft'],
+      languages: ['Celestial', 'Common', 'telepathy 60 ft.'],
       appearance: [
         ['A tiny winged humanoid zips past in changing colours, eager to deliver a message.'],
       ],
@@ -14153,7 +14153,7 @@ export default createPublicationMonsters({
     mead_archon: {
       name: 'Mead Archon',
       alignment: 'chaotic good',
-      languages: ['all', 'telepathy 60 ft'],
+      languages: ['all', 'telepathy 60 ft.'],
       appearance: [
         [
           'An angelic being with amber skin and leather armour opens white wings while draining a huge drinking horn.',
@@ -14326,7 +14326,7 @@ export default createPublicationMonsters({
     moonkite: {
       name: 'Moonkite',
       alignment: 'lawful good',
-      languages: ['Celestial', 'telepathy 120 ft'],
+      languages: ['Celestial', 'telepathy 120 ft.'],
       appearance: [
         [
           'An almost perfectly round creature of six pairs of bright silver hawk wings beating in unison moves gracefully through the air.',
@@ -17308,7 +17308,7 @@ export default createPublicationMonsters({
     quoreq: {
       name: 'Quoreq',
       alignment: 'chaotic evil',
-      languages: ["understands Common but can't speak", 'telepathy 60 ft'],
+      languages: ["understands Common but can't speak", 'telepathy 60 ft.'],
       habitats: ['Urban'],
       appearance: [
         [
@@ -19405,7 +19405,7 @@ export default createPublicationMonsters({
     shadow_of_death: {
       name: 'Shadow of Death',
       alignment: 'chaotic evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       appearance: [
         [
           'A skeletal angel in black funerary garb stands before you, its ribbons stirring of their own accord.',
@@ -20211,7 +20211,7 @@ export default createPublicationMonsters({
     snake_with_a_hundred_mage_hands: {
       name: 'Snake with a Hundred Mage Hands',
       alignment: 'neutral',
-      languages: ['Common', 'telepathy 60 ft'],
+      languages: ['Common', 'telepathy 60 ft.'],
       appearance: [
         [
           'A small snake slithers up to a door, and spectral hands appear all around it to open and push it.',
@@ -20441,7 +20441,7 @@ export default createPublicationMonsters({
     spawn_of_alquam: {
       name: 'Spawn of Alquam',
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 60 ft'],
+      languages: ['Abyssal', 'telepathy 60 ft.'],
       appearance: [
         [
           'A large, thin, sinewy demon with sickly green skin, feathered wings, backswept horns, a narrow, vicious beak and talon-like claws. It exudes darkness and contempt.',
@@ -22455,7 +22455,7 @@ export default createPublicationMonsters({
     uridimmu: {
       name: 'Uridimmu',
       alignment: 'lawful good',
-      languages: ['all', 'telepathy 60 ft'],
+      languages: ['all', 'telepathy 60 ft.'],
       appearance: [
         [
           "A tall, muscular humanoid with bronze skin and a hawk's wings. It has a hunting hound's head with a lion's teeth and reddish-gold mane, and it holds a flaming mace.",
@@ -24887,7 +24887,7 @@ export default createPublicationMonsters({
     yumerai: {
       name: 'Yumerai',
       alignment: 'neutral',
-      languages: ['all', 'telepathy 60 ft'],
+      languages: ['all', 'telepathy 60 ft.'],
       appearance: [
         [
           'A slender creature with silvery skin steps lightly, as if doubting the world is real, with white points of light like stars drifting within dark eyes.',

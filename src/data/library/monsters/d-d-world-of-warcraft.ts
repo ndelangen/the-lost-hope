@@ -3601,7 +3601,7 @@ export default createPublicationMonsters({
     nraqi_faceless_one: {
       name: "N'raqi Faceless One",
       alignment: 'neutral',
-      languages: ["Shath'Yar", 'telepathy 120 ft'],
+      languages: ["Shath'Yar", 'telepathy 120 ft.'],
       habitats: ['any'],
       stats: {
         size: 'large',
@@ -3705,7 +3705,7 @@ export default createPublicationMonsters({
     pandarian_dragon_turtle: {
       name: 'Pandarian Dragon Turtle',
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [
         [
           'A large dragon turtle used as a mount. The existing portrait shows a broad armored shell and a horned head on plain parchment.',
@@ -3759,7 +3759,7 @@ export default createPublicationMonsters({
       name: 'Pit Lord',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Eredun', 'telepathy 120 ft'],
+      languages: ['Eredun', 'telepathy 120 ft.'],
       habitats: ['planar', 'twisting nether'],
       stats: {
         size: 'huge',

@@ -1459,7 +1459,7 @@ export default createPublicationMonsters({
     fragment_of_krokulmar: {
       name: 'Fragment of Krokulmar',
       alignment: 'chaotic evil',
-      languages: ['Deep Speech', 'telepathy 60 ft'],
+      languages: ['Deep Speech', 'telepathy 60 ft.'],
       stats: {
         size: 'tiny',
         type: 'aberration',

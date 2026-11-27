@@ -141,7 +141,7 @@ export default createPublicationMonsters({
     banrion: {
       name: 'Banrion',
       alignment: 'lawful good',
-      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft'],
+      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft.'],
       habitats: ['forest'],
       stats: {
         size: 'large',
@@ -1106,7 +1106,7 @@ export default createPublicationMonsters({
       name: 'Tarnhem',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',

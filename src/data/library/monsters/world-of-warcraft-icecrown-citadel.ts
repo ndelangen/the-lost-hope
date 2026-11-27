@@ -1531,7 +1531,7 @@ export default createPublicationMonsters({
       name: 'Sister Svalna',
       tags: ['angel'],
       alignment: 'lawful evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'undead',

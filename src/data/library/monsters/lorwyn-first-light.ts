@@ -10,7 +10,7 @@ export default createPublicationMonsters({
     incarnation_of_transience: {
       name: 'Incarnation of Transience',
       alignment: 'neutral',
-      languages: ['Sylvan', 'telepathy 120 ft'],
+      languages: ['Sylvan', 'telepathy 120 ft.'],
       habitats: ['planar', 'feywild'],
       stats: {
         size: 'huge',
@@ -130,7 +130,7 @@ export default createPublicationMonsters({
     incarnation_of_vibrance: {
       name: 'Incarnation of Vibrance',
       alignment: 'neutral',
-      languages: ['Sylvan', 'telepathy 120 ft'],
+      languages: ['Sylvan', 'telepathy 120 ft.'],
       habitats: ['planar', 'feywild'],
       stats: {
         size: 'huge',

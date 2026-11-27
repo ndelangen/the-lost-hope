@@ -1797,7 +1797,7 @@ export default createPublicationMonsters({
     silverlily: {
       name: 'Silverlily',
       alignment: 'lawful good',
-      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft'],
+      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft.'],
       habitats: ['forest'],
       stats: {
         size: 'large',
@@ -2196,7 +2196,7 @@ export default createPublicationMonsters({
     stargleam: {
       name: 'Stargleam',
       alignment: 'lawful good',
-      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft'],
+      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft.'],
       habitats: ['forest'],
       stats: {
         size: 'large',

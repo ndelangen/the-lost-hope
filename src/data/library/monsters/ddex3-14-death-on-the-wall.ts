@@ -48,7 +48,7 @@ export default createPublicationMonsters({
       name: 'Incubus',
       tags: ['shapechanger'],
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft'],
+      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',

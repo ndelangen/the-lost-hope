@@ -245,7 +245,7 @@ export default createPublicationMonsters({
     bodytaker_plant: {
       name: 'Bodytaker Plant',
       alignment: 'neutral evil',
-      languages: ['telepathy 120 ft'],
+      languages: ['telepathy 120 ft.'],
       habitats: ['forest', 'grassland', 'hill', 'swamp', 'forest', 'grassland', 'hill', 'swamp'],
       stats: {
         size: 'huge',
@@ -511,7 +511,7 @@ export default createPublicationMonsters({
     brain_in_a_jar: {
       name: 'Brain in a Jar',
       alignment: 'lawful evil',
-      languages: ['telepathy 60 ft'],
+      languages: ['telepathy 60 ft.'],
       habitats: ['urban'],
       stats: {
         size: 'small',
@@ -1354,7 +1354,7 @@ export default createPublicationMonsters({
     greater_star_spawn_emissary: {
       name: 'Greater Star Spawn Emissary',
       alignment: 'chaotic evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       habitats: ['any'],
       stats: {
         size: 'huge',
@@ -2150,7 +2150,7 @@ export default createPublicationMonsters({
     lesser_star_spawn_emissary: {
       name: 'Lesser Star Spawn Emissary',
       alignment: 'chaotic evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       habitats: ['any'],
       stats: {
         size: 'small',
@@ -2408,7 +2408,7 @@ export default createPublicationMonsters({
     necrichor: {
       name: 'Necrichor',
       alignment: 'lawful evil',
-      languages: ['telepathy 120 ft'],
+      languages: ['telepathy 120 ft.'],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
       stats: {
         size: 'medium',

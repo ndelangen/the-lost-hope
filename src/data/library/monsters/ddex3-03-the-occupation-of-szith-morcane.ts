@@ -17,7 +17,7 @@ export default createPublicationMonsters({
       ],
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -116,7 +116,7 @@ export default createPublicationMonsters({
       ],
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',

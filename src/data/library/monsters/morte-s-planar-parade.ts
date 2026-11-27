@@ -541,7 +541,7 @@ export default createPublicationMonsters({
       name: 'Avoral Guardinal',
       page: 32,
       alignment: 'typically neutral good',
-      languages: ['Celestial', 'Common.'],
+      languages: ['Celestial', 'Common'],
       habitats: ['Elysium', 'Outlands', 'Ecstasy', 'Faunel'],
       appearance: [['An avian celestial with a beak, broad feathered wings and taloned limbs.']],
       tableNotes: [
@@ -782,7 +782,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 54,
       alignment: 'any alignment',
-      languages: ['Common plus one more language.'],
+      languages: ['Common plus one more language'],
       habitats: ['Sigil', 'Dangerous planes', 'Conflict zones'],
       appearance: [
         [
@@ -1005,7 +1005,7 @@ export default createPublicationMonsters({
       name: 'Cuprilach Rilmani',
       page: 44,
       alignment: 'typically neutral',
-      languages: ['telepathy 120 ft.', 'any four languages.'],
+      languages: ['telepathy 120 ft.', 'any four languages'],
       habitats: ['Outlands'],
       appearance: [
         ['A smooth-faced copper-bodied rilmani with an assassin’s build and a burnished blade.'],
@@ -1424,7 +1424,7 @@ export default createPublicationMonsters({
       name: 'Doomguard Doom Lord',
       page: 54,
       alignment: 'any alignment',
-      languages: ['Common plus three more languages.'],
+      languages: ['Common plus three more languages'],
       habitats: ['Sigil', 'Planar settlements'],
       appearance: [['A high-ranking Doomguard in heavy gear, surrounded by signs of decay.']],
       tableNotes: [
@@ -1530,7 +1530,7 @@ export default createPublicationMonsters({
       name: 'Doomguard Rot Blade',
       page: 56,
       alignment: 'any alignment',
-      languages: ['Common plus two more languages.'],
+      languages: ['Common plus two more languages'],
       habitats: ['Sigil', 'Planar settlements'],
       appearance: [['A Doomguard fighter wielding a weapon charged with necrotic energy.']],
       tableNotes: [['Faction context: Doomguard Doom Lords are the faction’s senior agents.']],
@@ -1734,7 +1734,7 @@ export default createPublicationMonsters({
       name: 'Equinal Guardinal',
       page: 33,
       alignment: 'typically neutral good',
-      languages: ['Celestial', 'Common.'],
+      languages: ['Celestial', 'Common'],
       habitats: ['Elysium', 'Outlands', 'Ecstasy', 'Faunel'],
       appearance: [['A strong horse-headed celestial with heavy arms and an upright stance.']],
       tableNotes: [
@@ -2008,7 +2008,7 @@ export default createPublicationMonsters({
       name: 'Fated Shaker',
       page: 56,
       alignment: 'any alignment',
-      languages: ['Common plus two more languages.'],
+      languages: ['Common plus two more languages'],
       habitats: ['Sigil', 'Planar settlements'],
       appearance: [['A planar faction enforcer in street attire, armed for a confrontation.']],
       tableNotes: [['Alternate armor classes: 16 · with mage armor']],
@@ -2129,7 +2129,7 @@ export default createPublicationMonsters({
       name: 'Ferrumach Rilmani',
       page: 44,
       alignment: 'typically neutral',
-      languages: ['Telepathy 120 ft.', 'any two languages.'],
+      languages: ['Telepathy 120 ft.', 'any two languages'],
       habitats: ['Outlands'],
       appearance: [['A broad iron-bodied rilmani whose limbs end in cutting edges.']],
       tableNotes: [
@@ -2260,7 +2260,7 @@ export default createPublicationMonsters({
       name: 'Fraternity of Order Law Bender',
       page: 57,
       alignment: 'any alignment',
-      languages: ['Common plus three more languages.'],
+      languages: ['Common plus three more languages'],
       habitats: ['Sigil', 'Planar seats of law'],
       appearance: [
         ['A Fraternity magistrate in formal attire who manipulates space and probability.'],
@@ -2384,7 +2384,7 @@ export default createPublicationMonsters({
       tags: ['gith'],
       page: 30,
       alignment: 'any alignment',
-      languages: ['Common', 'Gith.'],
+      languages: ['Common', 'Gith'],
       habitats: ['Limbo', 'Outer Planes'],
       appearance: [['A githzerai with a lean humanoid frame, layered robes and psionic training.']],
       tableNotes: [
@@ -2502,7 +2502,7 @@ export default createPublicationMonsters({
       tags: ['gith'],
       page: 31,
       alignment: 'any alignment',
-      languages: ['Common', 'Gith.'],
+      languages: ['Common', 'Gith'],
       habitats: ['Limbo', 'Outer Planes'],
       appearance: [['A githzerai wanderer in practical traveling gear and layered robes.']],
       tableNotes: [
@@ -2596,7 +2596,7 @@ export default createPublicationMonsters({
       tags: ['gith'],
       page: 31,
       alignment: 'any alignment',
-      languages: ['Common', 'Gith.'],
+      languages: ['Common', 'Gith'],
       habitats: ['Limbo', 'Outer Planes'],
       appearance: [['A githzerai leader in layered clothing, wielding psionic power.']],
       tableNotes: [
@@ -2720,7 +2720,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 58,
       alignment: 'any alignment',
-      languages: ['Common plus one more language.'],
+      languages: ['Common plus one more language'],
       habitats: ['Sigil', 'Planar settlements'],
       appearance: [['A Hands of Havoc agent carrying a hammer that emits magical fire.']],
       stats: {
@@ -2803,7 +2803,7 @@ export default createPublicationMonsters({
       name: 'Harmonium Captain',
       page: 58,
       alignment: 'any alignment',
-      languages: ['Common plus one more language.'],
+      languages: ['Common plus one more language'],
       habitats: ['Sigil'],
       appearance: [['A red-armored Harmonium officer who commands patrols in Sigil.']],
       tableNotes: [['Harmonium patrol: The captain commands a patrol of Harmonium Peacekeepers.']],
@@ -2899,7 +2899,7 @@ export default createPublicationMonsters({
       name: 'Harmonium Peacekeeper',
       page: 59,
       alignment: 'any alignment',
-      languages: ['Common and one other language.'],
+      languages: ['Common and one other language'],
       habitats: ['Sigil'],
       appearance: [['A red-plated patrol officer with a pincer-tipped planar mancatcher.']],
       tableNotes: [
@@ -2972,7 +2972,7 @@ export default createPublicationMonsters({
       name: 'Heralds of Dust Remnant',
       page: 59,
       alignment: 'any alignment',
-      languages: ['Common and three other languages.'],
+      languages: ['Common and three other languages'],
       habitats: ['Sigil', 'Mortuary'],
       appearance: [['A half-undead Duster whose clothes and pallor mark a failed transformation.']],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
@@ -3235,7 +3235,7 @@ export default createPublicationMonsters({
       name: 'Hound Archon',
       page: 16,
       alignment: 'typically lawful good',
-      languages: ['All languages.'],
+      languages: ['All languages'],
       habitats: ['Mount Celestia', 'Upper Planes'],
       appearance: [['A dog-headed celestial with an upright body and a shining weapon.']],
       tableNotes: [
@@ -3528,7 +3528,7 @@ export default createPublicationMonsters({
       tags: ['inevitable'],
       page: 34,
       alignment: 'typically lawful neutral',
-      languages: ['All languages.'],
+      languages: ['All languages'],
       habitats: ['Sigil', 'Hall of Concordance', 'Mechanus'],
       appearance: [['An imposing metal construct with the appearance of an adjudicator.']],
       tableNotes: [
@@ -3665,7 +3665,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 35,
       alignment: 'typically lawful evil',
-      languages: ['Infernal.'],
+      languages: ['Infernal'],
       habitats: ['Lower Planes', 'Guarded sites'],
       appearance: [['An elephant-headed fiend with a trunk, tusks and a humanoid build.']],
       stats: {
@@ -3867,7 +3867,7 @@ export default createPublicationMonsters({
       name: 'Musteval Guardinal',
       page: 33,
       alignment: 'typically neutral good',
-      languages: ['Celestial and Common.'],
+      languages: ['Celestial and Common'],
       habitats: ['Elysium', 'Outlands', 'Ecstasy', 'Faunel'],
       appearance: [['A small mustelid-featured celestial who carries a bone blade.']],
       tableNotes: [
@@ -4195,7 +4195,7 @@ export default createPublicationMonsters({
       name: 'Planar Incarnate',
       page: 41,
       alignment: 'or fiend, any alignment',
-      languages: ['All languages.'],
+      languages: ['All languages'],
       tableNotes: [
         [
           'Adventure variant: For the fixed fiend form used in Turn of Fortune’s Wheel, see Modron Planar Incarnate.',
@@ -4754,7 +4754,7 @@ export default createPublicationMonsters({
       name: 'Society of Sensation Muse',
       page: 61,
       alignment: 'any alignment',
-      languages: ['Common and two additional languages.'],
+      languages: ['Common and two additional languages'],
       habitats: ['Sigil', 'Planar performance venues'],
       appearance: [
         ['A Sensate performer in elaborate attire who uses magical displays to bewitch a crowd.'],
@@ -4865,7 +4865,7 @@ export default createPublicationMonsters({
       name: 'Time Dragon Wyrmling',
       page: 51,
       alignment: 'typically neutral',
-      languages: ['Draconic and any two additional languages.'],
+      languages: ['Draconic and any two additional languages'],
       habitats: ['Ancient ruins', 'Forgotten temples', 'Planes'],
       appearance: [['A sleek young time dragon with shining scales and short horn nubs.']],
       tableNotes: [
@@ -4959,7 +4959,7 @@ export default createPublicationMonsters({
       name: 'Transcendent Order Conduit',
       page: 62,
       alignment: 'any alignment',
-      languages: ['Common and one additional language.'],
+      languages: ['Common and one additional language'],
       habitats: ['Sigil', 'Planar training grounds'],
       appearance: [
         ['A planar martial artist who moves quickly and reacts almost before danger strikes.'],
@@ -5078,7 +5078,7 @@ export default createPublicationMonsters({
       name: 'Transcendent Order Instinct',
       page: 62,
       alignment: 'any alignment',
-      languages: ['Common and one additional language.'],
+      languages: ['Common and one additional language'],
       habitats: ['Sigil', 'Planar training grounds'],
       appearance: [['An elite martial artist in practical clothing, poised to counter a blow.']],
       tableNotes: [
@@ -5263,7 +5263,7 @@ export default createPublicationMonsters({
       name: 'Warden Archon',
       page: 18,
       alignment: 'typically lawful good',
-      languages: ['All.'],
+      languages: ['All'],
       habitats: ['Mount Celestia', 'Upper Planes'],
       appearance: [['A heavy celestial with bestial jaws and strong clawed limbs.']],
       tableNotes: [
@@ -5413,7 +5413,7 @@ export default createPublicationMonsters({
       name: 'Young Time Dragon',
       page: 48,
       alignment: 'typically neutral',
-      languages: ['Draconic and four additional languages.'],
+      languages: ['Draconic and four additional languages'],
       habitats: ['Ancient ruins', 'Forgotten temples', 'Planes'],
       appearance: [
         ['A sleek silver dragon with colorful veins beginning to branch through its horns.'],

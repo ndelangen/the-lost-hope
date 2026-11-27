@@ -113,7 +113,7 @@ export default createPublicationMonsters({
       name: 'Barbed Devil',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',

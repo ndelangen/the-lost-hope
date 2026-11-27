@@ -448,7 +448,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 10,
       alignment: 'any alignment',
-      languages: ['One language', 'usually Common.'],
+      languages: ['One language', 'usually Common'],
       appearance: [['A junior cleric in simple vestments, carrying a club and a holy symbol.']],
       lore: [
         [
@@ -512,7 +512,7 @@ export default createPublicationMonsters({
       name: 'Adult Black Dragon',
       page: 88,
       alignment: 'chaotic evil',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around the lair.\nWithin 6 miles of the lair, thick vegetation and swamp mud double travel time, and fog lightly obscures the land. Water within 1 mile is fouled. Enemies of the dragon who drink it vomit within minutes. After the dragon dies, the vegetation stays as it grew and the other effects fade over 1d10 days.',
@@ -773,7 +773,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       page: 83,
       alignment: 'lawful evil',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           "Phylactery: When the body is destroyed, the spirit returns to its gem if the gem and body are on the same plane. If the gem then touches another dragon's corpse, the spirit can animate that body and return as a dracolich. If the gem is on another plane when the body is destroyed, the spirit passes into the afterlife.",
@@ -993,7 +993,7 @@ export default createPublicationMonsters({
       name: 'Adult Blue Dragon',
       page: 91,
       alignment: 'lawful evil',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around the lair.\nThunderstorms and dust devils range within 6 miles of the lair. Each dust devil uses Air Elemental statistics with a speed of 50 ft., no flight, and Intelligence and Charisma scores of 1. Hidden sinkholes form in and around the lair. A creature can spot one from a safe distance with a successful DC 20 Wisdom (Perception) check. If the sinkhole goes unnoticed, the first creature to step on its crust makes a DC 15 Dexterity save or falls 1d6 × 10 ft. into it. When the dragon dies, the dust devils vanish immediately, the thunderstorms end within 1d10 days, and the sinkholes remain.',
@@ -1257,7 +1257,7 @@ export default createPublicationMonsters({
       name: 'Adult Brass Dragon',
       page: 86,
       alignment: 'chaotic good',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around the lair.\nWithin 6 miles of the lair, tracks in the sand guide travelers to shelter and hidden water and divert them from places the dragon wants left alone. Harmless, moving illusions of Large or smaller monsters appear within 1 mile. Physical contact reveals them, or a distant observer can spot one with a DC 20 Intelligence (Investigation) check. If a creature with Intelligence 3 or higher comes within 30 ft. of a water source within 1 mile, the dragon learns its presence and location. After the dragon dies, the tracks fade over 1d10 days and the other effects end immediately.',
@@ -1519,7 +1519,7 @@ export default createPublicationMonsters({
       name: 'Adult Bronze Dragon',
       page: 86,
       alignment: 'lawful good',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           'Regional effects: Once per day, the dragon can change the weather within 6 miles of its lair as with Control Weather, even without going outdoors. Underwater vegetation within 6 miles takes on unusually vivid colors. The dragon can place illusory sounds in different parts of its lair. When the dragon dies, the weather returns to normal as the spell specifies and the other effects fade over 1d10 days.',
@@ -1784,7 +1784,7 @@ export default createPublicationMonsters({
       name: 'Adult Copper Dragon',
       page: 86,
       alignment: 'chaotic good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around a legendary dragon’s lair. Stone terrain and objects within 6 miles can display magical carvings of the dragon smiling. Within 1 mile, Tiny beasts that cannot normally speak can magically speak and understand Draconic. They praise the dragon and cannot reveal its whereabouts. Intelligent creatures within 1 mile are prone to giggling even at serious things. When the dragon dies, carvings fade over 1d10 days and the other effects end immediately.',
@@ -2036,7 +2036,7 @@ export default createPublicationMonsters({
       name: 'Adult Gold Dragon',
       page: 11,
       alignment: 'lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           "Regional effects: Choose one or more of these effects around the lair.\nDream Visitors. Within 6 miles of its lair, the dragon can speak telepathically in the dreams of a creature that understands a language and sleeps, trances, or enters reverie. The creature recalls the conversation on waking.\nWarning Mist. Within 6 miles of the lair, opalescent mist doesn't obscure vision. If evil creatures approach the dragon or non-evil creatures in the mist, the mist takes eerie shapes as a warning.\nGlowing Valuables. Gems and pearls within 1 mile of the lair cast dim light to 5 ft.\nAll these effects end immediately when the dragon dies.",
@@ -2322,7 +2322,7 @@ export default createPublicationMonsters({
       name: 'Adult Green Dragon',
       page: 94,
       alignment: 'lawful evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           "Regional effects: Choose one or more of these effects around the lair.\nThickets within 1 mile form a maze of walls 10 ft. high and 10 ft. thick that block sight. Moving through them costs 4 ft. per foot traveled. Each round a creature is in contact with them, it must pass a DC 15 Dexterity save or take 3 (1d6) piercing damage. Each 10-ft. cube has AC 5, 30 HP, bludgeoning and piercing resistance, fire vulnerability, and psychic and thunder immunity.\nWithin 1 mile, only magic can track the dragon unless it chooses to leave signs. Plants part for it in this area. It ignores obstacles and damage from ordinary plants, including the thickets.\nBirds and rodents within 1 mile relay sights and sounds to the dragon. Large game is conspicuously absent.\nOn the dragon's death, the animals lose their link immediately. Within 1d10 days, the thickets lose their thorns and become ordinary plants and difficult terrain.",
@@ -2582,7 +2582,7 @@ export default createPublicationMonsters({
       name: 'Adult Red Dracolich',
       page: 83,
       alignment: 'chaotic evil',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           "Template: Apply the printed dracolich template to the Adult Red Dragon. Change its type to undead and add the listed resistances, immunities and Magic Resistance. The book gives no separate red dracolich stat block or CR or XP adjustment. This profile carries over the base dragon's CR 17 and 18,000 XP.",
@@ -3128,7 +3128,7 @@ export default createPublicationMonsters({
       name: 'Adult Silver Dragon',
       page: 11,
       alignment: 'lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around the lair.\nWeather. Once per day the dragon can use the effects of Control Weather within 6 miles of its lair, even indoors.\nBuoyant Winds. Within 1 mile of the lair, non-evil creatures that fall through no act of the dragon or its allies descend 60 ft. per round and take no falling damage.\nSolid Fog. After days or longer of work, the dragon can make clouds and fog in the lair as solid as stone to form objects or structures.\nWhen the dragon dies, weather changes revert as described in Control Weather. The other effects fade in 1d10 days.',
@@ -3399,7 +3399,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.storm_king_s_thunder],
       page: 101,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'The printed Ice Wall rule is ambiguous about who chooses the side. This profile gives the choice to the dragon.',
@@ -3636,7 +3636,7 @@ export default createPublicationMonsters({
       name: 'Air Elemental',
       page: 123,
       alignment: 'neutral',
-      languages: ['Auran.'],
+      languages: ['Auran'],
       appearance: [
         [
           'A funnel of whirling air with a vague face, racing over the ground and picking up dust, or flying and attacking from above.',
@@ -3838,7 +3838,7 @@ export default createPublicationMonsters({
       name: 'Ancient Black Dragon',
       page: 87,
       alignment: 'chaotic evil',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around the lair.\nWithin 6 miles of the lair, thick vegetation and swamp mud double travel time, and fog lightly obscures the land. Water within 1 mile is fouled. Enemies of the dragon who drink it vomit within minutes. After the dragon dies, the vegetation stays as it grew and the other effects fade over 1d10 days.',
@@ -4099,7 +4099,7 @@ export default createPublicationMonsters({
       name: 'Ancient Blue Dragon',
       page: 90,
       alignment: 'lawful evil',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around the lair.\nThunderstorms and dust devils range within 6 miles of the lair. Each dust devil uses Air Elemental statistics with a speed of 50 ft., no flight, and Intelligence and Charisma scores of 1. Hidden sinkholes form in and around the lair. A creature can spot one from a safe distance with a successful DC 20 Wisdom (Perception) check. If the sinkhole goes unnoticed, the first creature to step on its crust makes a DC 15 Dexterity save or falls 1d6 × 10 ft. into it. When the dragon dies, the dust devils vanish immediately, the thunderstorms end within 1d10 days, and the sinkholes remain.',
@@ -4363,7 +4363,7 @@ export default createPublicationMonsters({
       name: 'Ancient Brass Dragon',
       page: 86,
       alignment: 'chaotic good',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around the lair.\nWithin 6 miles of the lair, tracks in the sand guide travelers to shelter and hidden water and divert them from places the dragon wants left alone. Harmless, moving illusions of Large or smaller monsters appear within 1 mile. Physical contact reveals them, or a distant observer can spot one with a DC 20 Intelligence (Investigation) check. If a creature with Intelligence 3 or higher comes within 30 ft. of a water source within 1 mile, the dragon learns its presence and location. After the dragon dies, the tracks fade over 1d10 days and the other effects end immediately.',
@@ -4636,7 +4636,7 @@ export default createPublicationMonsters({
       name: 'Ancient Bronze Dragon',
       page: 86,
       alignment: 'lawful good',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           'Regional effects: Once per day, the dragon can change the weather within 6 miles of its lair as with Control Weather, even without going outdoors. Underwater vegetation within 6 miles takes on unusually vivid colors. The dragon can place illusory sounds in different parts of its lair. When the dragon dies, the weather returns to normal as the spell specifies and the other effects fade over 1d10 days.',
@@ -4901,7 +4901,7 @@ export default createPublicationMonsters({
       name: 'Ancient Copper Dragon',
       page: 86,
       alignment: 'chaotic good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around a legendary dragon’s lair. Stone terrain and objects within 6 miles can display magical carvings of the dragon smiling. Within 1 mile, Tiny beasts that cannot normally speak can magically speak and understand Draconic. They praise the dragon and cannot reveal its whereabouts. Intelligent creatures within 1 mile are prone to giggling even at serious things. When the dragon dies, carvings fade over 1d10 days and the other effects end immediately.',
@@ -5163,7 +5163,7 @@ export default createPublicationMonsters({
       name: 'Ancient Gold Dragon',
       page: 11,
       alignment: 'lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           "Regional effects: Choose one or more of these effects around the lair.\nDream Visitors. Within 6 miles of its lair, the dragon can speak telepathically in the dreams of a creature that understands a language and sleeps, trances, or enters reverie. The creature recalls the conversation on waking.\nWarning Mist. Within 6 miles of the lair, opalescent mist doesn't obscure vision. If evil creatures approach the dragon or non-evil creatures in the mist, the mist takes eerie shapes as a warning.\nGlowing Valuables. Gems and pearls within 1 mile of the lair cast dim light to 5 ft.\nAll these effects end immediately when the dragon dies.",
@@ -5445,7 +5445,7 @@ export default createPublicationMonsters({
       name: 'Ancient Green Dragon',
       page: 93,
       alignment: 'lawful evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           "Regional effects: Choose one or more of these effects around the lair.\nThickets within 1 mile form a maze of walls 10 ft. high and 10 ft. thick that block sight. Moving through them costs 4 ft. per foot traveled. Each round a creature is in contact with them, it must pass a DC 15 Dexterity save or take 3 (1d6) piercing damage. Each 10-ft. cube has AC 5, 30 HP, bludgeoning and piercing resistance, fire vulnerability, and psychic and thunder immunity.\nWithin 1 mile, only magic can track the dragon unless it chooses to leave signs. Plants part for it in this area. It ignores obstacles and damage from ordinary plants, including the thickets.\nBirds and rodents within 1 mile relay sights and sounds to the dragon. Large game is conspicuously absent.\nOn the dragon's death, the animals lose their link immediately. Within 1d10 days, the thickets lose their thorns and become ordinary plants and difficult terrain.",
@@ -5705,7 +5705,7 @@ export default createPublicationMonsters({
       name: 'Ancient Red Dragon',
       page: 86,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around a legendary dragon’s lair. Minor earthquakes are common within 6 miles. Water within 1 mile is unnaturally warm and sulfurous. Fissures within 1 mile form portals to the Elemental Plane of Fire, letting elemental creatures through. These effects fade over 1d10 days after the dragon dies.',
@@ -5960,7 +5960,7 @@ export default createPublicationMonsters({
       name: 'Ancient Silver Dragon',
       page: 11,
       alignment: 'lawful good',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Regional effects: Choose one or more of these effects around the lair.\nWeather. Once per day the dragon can use the effects of Control Weather within 6 miles of its lair, even indoors.\nBuoyant Winds. Within 1 mile of the lair, non-evil creatures that fall through no act of the dragon or its allies descend 60 ft. per round and take no falling damage.\nSolid Fog. After days or longer of work, the dragon can make clouds and fog in the lair as solid as stone to form objects or structures.\nWhen the dragon dies, weather changes revert as described in Control Weather. The other effects fade in 1d10 days.',
@@ -6225,7 +6225,7 @@ export default createPublicationMonsters({
       name: 'Ancient White Dragon',
       page: 100,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'The printed Ice Wall rule is ambiguous about who chooses the side. This profile gives the choice to the dragon.',
@@ -6463,7 +6463,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.plane_shift_amonkhet, refs.publications.plane_shift_zendikar],
       page: 280,
       alignment: 'lawful neutral',
-      languages: ['Common', 'Sphinx.'],
+      languages: ['Common', 'Sphinx'],
       appearance: [
         ["A sphinx with a lion's body and a male humanoid's head, outwardly gruff and downcast."],
       ],
@@ -6697,7 +6697,7 @@ export default createPublicationMonsters({
       name: 'Animated Armor',
       page: 19,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -6779,7 +6779,7 @@ export default createPublicationMonsters({
       ],
       page: 21,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Encounter notes: The ankheg leaves narrow, partly collapsed tunnels as it burrows through earth. Molted chitin or hatched eggs can mark its tunnels.',
@@ -6921,7 +6921,7 @@ export default createPublicationMonsters({
       tags: ['yugoloth'],
       page: 311,
       alignment: 'neutral evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       habitats: ['Gehenna'],
       appearance: [
         ['A jackal-headed fiend with hands capable of wielding magic and a taste for fine robes.'],
@@ -7096,7 +7096,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 343,
       alignment: 'any non-good alignment',
-      languages: ["Thieves' Cant and any two languages."],
+      languages: ["Thieves' Cant and any two languages"],
       appearance: [['A quiet, well-equipped killer with a light crossbow and poisoned weapons.']],
       lore: [
         [
@@ -7216,7 +7216,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 317,
       alignment: 'unaligned',
-      languages: ['One language its creator knows.'],
+      languages: ['One language its creator knows'],
       stats: {
         size: 'small',
         type: 'plant',
@@ -7264,7 +7264,7 @@ export default createPublicationMonsters({
       ],
       page: 317,
       alignment: 'unaligned',
-      languages: ['One language its creator knows.'],
+      languages: ['One language its creator knows'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -7347,7 +7347,7 @@ export default createPublicationMonsters({
       ],
       page: 22,
       alignment: 'lawful neutral',
-      languages: ['Ignan.'],
+      languages: ['Ignan'],
       appearance: [
         [
           'A stocky dwarf-like figure with metallic bronze-looking skin and hair and beard of living flame, in a shield and armour.',
@@ -7826,7 +7826,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 343,
       alignment: 'any non-lawful alignment',
-      languages: ['One language', 'usually Common.'],
+      languages: ['One language', 'usually Common'],
       appearance: [
         ['A rough, wary figure in ragged leather armour with a scimitar and a crossbow.'],
       ],
@@ -8429,7 +8429,7 @@ export default createPublicationMonsters({
       name: 'Beholder Zombie',
       page: 316,
       alignment: 'neutral evil',
-      languages: ['Understands Deep Speech and Undercommon but cannot speak.'],
+      languages: ['Understands Deep Speech and Undercommon but cannot speak'],
       habitats: ['Underdark'],
       appearance: [
         ['A decaying beholder with a torn hide, a cloudy central eye and smaller eyestalks.'],
@@ -8576,7 +8576,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 344,
       alignment: 'any chaotic alignment',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       tableNotes: [
         [
           'It can opt into advantage on melee attacks at the start of its turn. Attacks against it then have advantage until its following turn.',
@@ -8706,7 +8706,7 @@ export default createPublicationMonsters({
       ],
       page: 240,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -8796,7 +8796,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 318,
       alignment: 'lawful good',
-      languages: ['Blink Dog. It understands Sylvan but cannot speak it.'],
+      languages: ['Blink Dog. It understands Sylvan but cannot speak it'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -9600,7 +9600,7 @@ export default createPublicationMonsters({
       name: 'Bone Naga',
       page: 233,
       alignment: 'lawful evil',
-      languages: ['Common plus one other language.'],
+      languages: ['Common plus one other language'],
       appearance: [['The animated skeleton of a naga, with a serpentine spine and a fanged head.']],
       tableNotes: [
         [
@@ -9695,7 +9695,7 @@ export default createPublicationMonsters({
       name: 'Bone Naga (Guardian)',
       page: 233,
       alignment: 'lawful evil',
-      languages: ['Common plus one other language.'],
+      languages: ['Common plus one other language'],
       habitats: ['underdark'],
       appearance: [["A serpent's skeleton with a humanoid skull, hissing softly in a dusty ruin."]],
       lore: [
@@ -9777,7 +9777,7 @@ export default createPublicationMonsters({
       name: 'Bone Naga (Spirit)',
       page: 233,
       alignment: 'lawful evil',
-      languages: ['Common plus one other language.'],
+      languages: ['Common plus one other language'],
       habitats: ['underdark'],
       appearance: [["A serpent's skeleton with a humanoid skull, hissing softly in a dusty ruin."]],
       lore: [
@@ -9931,7 +9931,7 @@ export default createPublicationMonsters({
       tags: ['goblinoid'],
       page: 33,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Goblin.'],
+      languages: ['Common', 'Goblin'],
       appearance: [
         ['A big, heavily built goblinoid in armour that moves with surprising stealth.'],
       ],
@@ -10206,7 +10206,7 @@ export default createPublicationMonsters({
       tags: ['bullywug'],
       page: 35,
       alignment: 'neutral evil',
-      languages: ['Bullywug.'],
+      languages: ['Bullywug'],
       habitats: ['Swamp'],
       appearance: [['An upright frog-like humanoid with bulging eyes and webbed feet.']],
       tableNotes: [
@@ -10305,7 +10305,7 @@ export default createPublicationMonsters({
       name: 'Cambion',
       page: 36,
       alignment: 'any evil alignment',
-      languages: ['Abyssal', 'Common', 'Infernal.'],
+      languages: ['Abyssal', 'Common', 'Infernal'],
       appearance: [
         [
           'A horned humanoid bearing leathery wings and a lean, sinewy tail, an unmistakable sign of fiendish blood.',
@@ -10479,7 +10479,7 @@ export default createPublicationMonsters({
       ],
       page: 37,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       habitats: ['Underdark'],
       appearance: [
         [
@@ -10700,7 +10700,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 38,
       alignment: 'neutral good',
-      languages: ['Elvish', 'Sylvan.'],
+      languages: ['Elvish', 'Sylvan'],
       appearance: [
         [
           "A large creature with a human torso on a horse's body, carrying a pike and longbow and usually wearing light furs or oiled skins.",
@@ -11136,7 +11136,7 @@ export default createPublicationMonsters({
       ],
       page: 40,
       alignment: 'chaotic evil',
-      languages: ['Understands Deep Speech. Cannot speak.'],
+      languages: ['Understands Deep Speech. Cannot speak'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -11250,7 +11250,7 @@ export default createPublicationMonsters({
       ],
       page: 167,
       alignment: 'unaligned',
-      languages: ["Understands its creator's languages. It cannot speak."],
+      languages: ["Understands its creator's languages. It cannot speak"],
       stats: {
         size: 'large',
         type: 'construct',
@@ -11379,7 +11379,7 @@ export default createPublicationMonsters({
       name: 'Cloaker',
       page: 41,
       alignment: 'chaotic neutral',
-      languages: ['Deep Speech', 'Undercommon.'],
+      languages: ['Deep Speech', 'Undercommon'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -11500,7 +11500,7 @@ export default createPublicationMonsters({
       ],
       page: 151,
       alignment: 'neutral good (50%) or neutral evil (50%)',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       appearance: [
         [
           'A tall, muscular giant with light skin and silver or blue hair, dressed in rich finery and heavy jewellery.',
@@ -11679,7 +11679,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 345,
       alignment: 'any alignment',
-      languages: ['One language', 'usually Common.'],
+      languages: ['One language', 'usually Common'],
       appearance: [
         ['A plain, ordinary person in everyday clothes, probably unarmed or holding a club.'],
       ],
@@ -11996,7 +11996,7 @@ export default createPublicationMonsters({
       name: 'Crawling Claw',
       page: 44,
       alignment: 'neutral evil',
-      languages: ['Understands Common and cannot speak.'],
+      languages: ['Understands Common and cannot speak'],
       appearance: [['A severed hand animated to move on its fingers.']],
       stats: {
         size: 'tiny',
@@ -12142,7 +12142,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 10,
       alignment: 'any non-good alignment',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       tableNotes: [
         [
           'Multiattack is two melee attacks. Wisdom spellcasting uses DC 11 and +3 to hit. Cantrips are light, sacred flame, and thaumaturgy. It has four 1st-level slots for command, inflict wounds, and shield of faith, and three 2nd-level slots for hold person and spiritual weapon.',
@@ -12249,7 +12249,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 345,
       alignment: 'any non-good alignment',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       appearance: [
         [
           'An ordinary-looking follower in plain clothes, often hiding the sign of a dark loyalty, with a scimitar at hand.',
@@ -12310,7 +12310,7 @@ export default createPublicationMonsters({
       ],
       page: 45,
       alignment: 'chaotic neutral',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [
         [
           'A one-eyed giant in rough clothes, wearing a necklace of feathers, coins and scraps of metal.',
@@ -12386,7 +12386,7 @@ export default createPublicationMonsters({
       ],
       page: 143,
       alignment: 'neutral evil',
-      languages: ['Terran.'],
+      languages: ['Terran'],
       appearance: [
         [
           'A genie adorned with jewellery of precious gems and rare metals, whose lower body becomes a swirling column of sand when it flies.',
@@ -12540,7 +12540,7 @@ export default createPublicationMonsters({
       name: 'Dao (Disguises)',
       page: 143,
       alignment: 'neutral evil',
-      languages: ['Terran.'],
+      languages: ['Terran'],
       habitats: ['underdark'],
       tableNotes: [
         ['Source variant of Dao. Check the variant rules for changes to actions and traits.'],
@@ -12700,7 +12700,7 @@ export default createPublicationMonsters({
       name: 'Dao (Wishes)',
       page: 143,
       alignment: 'neutral evil',
-      languages: ['Terran.'],
+      languages: ['Terran'],
       habitats: ['underdark'],
       tableNotes: [
         ['Source variant of Dao. Check the variant rules for changes to actions and traits.'],
@@ -13962,7 +13962,7 @@ export default createPublicationMonsters({
       ],
       page: 81,
       alignment: 'lawful evil',
-      languages: ['None.'],
+      languages: [],
       habitats: ['Forest'],
       appearance: [
         [
@@ -14036,7 +14036,7 @@ export default createPublicationMonsters({
       ],
       page: 144,
       alignment: 'chaotic good',
-      languages: ['Auran.'],
+      languages: ['Auran'],
       appearance: [
         [
           'A tall, well-muscled blue-skinned genie with dark eyes in airy, shimmering silks, whose lower body becomes a column of swirling air in flight.',
@@ -14161,7 +14161,7 @@ export default createPublicationMonsters({
       name: 'Djinni (Disguises)',
       page: 144,
       alignment: 'chaotic good',
-      languages: ['Auran.'],
+      languages: ['Auran'],
       habitats: ['coastal'],
       tableNotes: [
         ['Source variant of Djinni. Check the variant rules for changes to actions and traits.'],
@@ -14290,7 +14290,7 @@ export default createPublicationMonsters({
       name: 'Djinni (Wishes)',
       page: 144,
       alignment: 'chaotic good',
-      languages: ['Auran.'],
+      languages: ['Auran'],
       habitats: ['coastal'],
       tableNotes: [
         ['Source variant of Djinni. Check the variant rules for changes to actions and traits.'],
@@ -14425,7 +14425,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       page: 82,
       alignment: 'neutral',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [
         ["An ordinary-looking person of any race, whose appearance is a copy of someone else's."],
       ],
@@ -14553,7 +14553,7 @@ export default createPublicationMonsters({
       name: 'Dragon Turtle',
       page: 119,
       alignment: 'neutral',
-      languages: ['Aquan', 'Draconic.'],
+      languages: ['Aquan', 'Draconic'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -14674,7 +14674,7 @@ export default createPublicationMonsters({
       name: 'Drider',
       page: 120,
       alignment: 'chaotic evil',
-      languages: ['Elvish', 'Undercommon.'],
+      languages: ['Elvish', 'Undercommon'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -15162,7 +15162,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 128,
       alignment: 'neutral evil',
-      languages: ['Elvish', 'Undercommon.'],
+      languages: ['Elvish', 'Undercommon'],
       appearance: [
         [
           'A slight, sharp-featured elf with obsidian-black skin and white or silver hair steps from the shadows, eyes glowing red in the dark.',
@@ -15600,7 +15600,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 126,
       alignment: 'neutral evil',
-      languages: ['Elvish', 'Undercommon.'],
+      languages: ['Elvish', 'Undercommon'],
       habitats: ['underdark'],
       tableNotes: [
         [
@@ -15778,7 +15778,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 10,
       alignment: 'any alignment',
-      languages: ['Druidic and two other languages.'],
+      languages: ['Druidic and two other languages'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -15849,7 +15849,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.ddep1_corruption_in_kryptgarden],
       page: 121,
       alignment: 'neutral',
-      languages: ['Elvish', 'Sylvan.'],
+      languages: ['Elvish', 'Sylvan'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -15976,7 +15976,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 122,
       alignment: 'lawful evil',
-      languages: ['Dwarvish', 'Undercommon.'],
+      languages: ['Dwarvish', 'Undercommon'],
       appearance: [
         ['A bald, ashen-grey dwarf in drab clothing and simple jewellery, severe and utilitarian.'],
       ],
@@ -16078,7 +16078,7 @@ export default createPublicationMonsters({
       name: 'Duodrone',
       page: 225,
       alignment: 'lawful neutral',
-      languages: ['Modron.'],
+      languages: ['Modron'],
       habitats: ['Mechanus'],
       appearance: [['A blocky metal construct with two arms, ticking and humming as it moves.']],
       lore: [
@@ -16161,7 +16161,7 @@ export default createPublicationMonsters({
       name: 'Duodrone (Rogue)',
       page: 224,
       alignment: 'any alignment except lawful neutral',
-      languages: ['Modron.'],
+      languages: ['Modron'],
       habitats: ['Mechanus'],
       tableNotes: [
         ['Source variant of Duodrone. Check the variant rules for changes to actions and traits.'],
@@ -16241,7 +16241,7 @@ export default createPublicationMonsters({
       name: 'Dust Mephit',
       page: 215,
       alignment: 'neutral evil',
-      languages: ['Auran', 'Terran.'],
+      languages: ['Auran', 'Terran'],
       appearance: [
         [
           'A tiny, mischievous imp-like creature of earth and air, trailing grit and dust and drawn to tombs.',
@@ -16354,7 +16354,7 @@ export default createPublicationMonsters({
       name: 'Dust Mephit (Summoner Variant)',
       page: 215,
       alignment: 'neutral evil',
-      languages: ['Auran', 'Terran.'],
+      languages: ['Auran', 'Terran'],
       tableNotes: [
         [
           'Mephit Summoning: Once per day, roll 25%. On success summon 1d4 mephits of the same kind. They appear within 60 feet, cannot summon more allies, and remain for one minute at most.',
@@ -16529,7 +16529,7 @@ export default createPublicationMonsters({
       ],
       page: 123,
       alignment: 'neutral',
-      languages: ['Terran.'],
+      languages: ['Terran'],
       appearance: [
         [
           'A walking hill of dirt and stone with club-like arms of jagged rock, sometimes set with metal and gems.',
@@ -16617,7 +16617,7 @@ export default createPublicationMonsters({
       ],
       page: 145,
       alignment: 'lawful evil',
-      languages: ['Ignan.'],
+      languages: ['Ignan'],
       appearance: [
         [
           'A huge genie with magma-red or coal-black skin, wearing silk caftans and gold jewellery, whose lower body becomes smoke and embers in flight.',
@@ -16733,7 +16733,7 @@ export default createPublicationMonsters({
       name: 'Efreeti (Disguises)',
       page: 145,
       alignment: 'lawful evil',
-      languages: ['Ignan.'],
+      languages: ['Ignan'],
       habitats: ['desert'],
       tableNotes: [
         ['Source variant of Efreeti. Check the variant rules for changes to actions and traits.'],
@@ -16858,7 +16858,7 @@ export default createPublicationMonsters({
       name: 'Efreeti (Wishes)',
       page: 145,
       alignment: 'lawful evil',
-      languages: ['Ignan.'],
+      languages: ['Ignan'],
       habitats: ['desert'],
       tableNotes: [
         ['Source variant of Efreeti. Check the variant rules for changes to actions and traits.'],
@@ -17152,7 +17152,7 @@ export default createPublicationMonsters({
       tags: ['titan'],
       page: 130,
       alignment: 'chaotic good (75%) or neutral evil (25%)',
-      languages: ['All.'],
+      languages: ['All'],
       habitats: ['Upper Planes', 'Material Plane', 'where some evil empyreans settle'],
       appearance: [
         ['A towering, humanlike celestial with the build and features of an idealized deity.'],
@@ -17918,7 +17918,7 @@ export default createPublicationMonsters({
       name: 'Ettercap',
       page: 131,
       alignment: 'neutral evil',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -18047,7 +18047,7 @@ export default createPublicationMonsters({
       ],
       page: 132,
       alignment: 'chaotic evil',
-      languages: ['Giant', 'Orc.'],
+      languages: ['Giant', 'Orc'],
       appearance: [
         [
           'A hulking two-headed giant lumbers out, a weapon swinging in each hand while both heads glare and mutter at different things.',
@@ -18154,7 +18154,7 @@ export default createPublicationMonsters({
       name: 'Faerie Dragon (Blue)',
       page: 133,
       alignment: 'chaotic good',
-      languages: ['Draconic', 'Sylvan.'],
+      languages: ['Draconic', 'Sylvan'],
       habitats: ['forest'],
       appearance: [
         [
@@ -18293,7 +18293,7 @@ export default createPublicationMonsters({
       name: 'Faerie Dragon (Green)',
       page: 133,
       alignment: 'chaotic good',
-      languages: ['Draconic', 'Sylvan.'],
+      languages: ['Draconic', 'Sylvan'],
       habitats: ['forest'],
       appearance: [
         [
@@ -18430,7 +18430,7 @@ export default createPublicationMonsters({
       name: 'Faerie Dragon (Indigo)',
       page: 133,
       alignment: 'chaotic good',
-      languages: ['Draconic', 'Sylvan.'],
+      languages: ['Draconic', 'Sylvan'],
       habitats: ['forest'],
       appearance: [
         [
@@ -18715,7 +18715,7 @@ export default createPublicationMonsters({
       name: 'Faerie Dragon (Orange)',
       page: 133,
       alignment: 'chaotic good',
-      languages: ['Draconic', 'Sylvan.'],
+      languages: ['Draconic', 'Sylvan'],
       habitats: ['forest'],
       appearance: [
         [
@@ -18850,7 +18850,7 @@ export default createPublicationMonsters({
       name: 'Faerie Dragon (Red)',
       page: 133,
       alignment: 'chaotic good',
-      languages: ['Draconic', 'Sylvan.'],
+      languages: ['Draconic', 'Sylvan'],
       habitats: ['forest'],
       appearance: [
         [
@@ -18983,7 +18983,7 @@ export default createPublicationMonsters({
       name: 'Faerie Dragon (Violet)',
       page: 133,
       alignment: 'chaotic good',
-      languages: ['Draconic', 'Sylvan.'],
+      languages: ['Draconic', 'Sylvan'],
       habitats: ['forest'],
       appearance: [
         [
@@ -19128,7 +19128,7 @@ export default createPublicationMonsters({
       name: 'Faerie Dragon (Yellow)',
       page: 133,
       alignment: 'chaotic good',
-      languages: ['Draconic', 'Sylvan.'],
+      languages: ['Draconic', 'Sylvan'],
       habitats: ['forest'],
       appearance: [
         [
@@ -19399,7 +19399,7 @@ export default createPublicationMonsters({
       ],
       page: 123,
       alignment: 'neutral',
-      languages: ['Ignan.'],
+      languages: ['Ignan'],
       appearance: [
         [
           'A blaze given a vague humanoid shape sweeps forward, lighting the area and leaving ash, smoke and cinders behind it.',
@@ -19511,7 +19511,7 @@ export default createPublicationMonsters({
       name: 'Fire Giant',
       page: 154,
       alignment: 'lawful evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -19572,7 +19572,7 @@ export default createPublicationMonsters({
       ],
       page: 265,
       alignment: 'neutral evil',
-      languages: ['Understands Ignan. Cannot speak.'],
+      languages: ['Understands Ignan. Cannot speak'],
       habitats: ['Underdark'],
       appearance: [['A snake-shaped young salamander with a body that radiates intense heat.']],
       stats: {
@@ -19651,7 +19651,7 @@ export default createPublicationMonsters({
       ],
       page: 134,
       alignment: 'neutral evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [
         [
           'A skull wreathed in blazing green flame hangs in the air, its mad laughter echoing around it.',
@@ -19776,7 +19776,7 @@ export default createPublicationMonsters({
       name: 'Flesh Golem',
       page: 167,
       alignment: 'neutral',
-      languages: ["Understands its creator's languages. It cannot speak."],
+      languages: ["Understands its creator's languages. It cannot speak"],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -20059,7 +20059,7 @@ export default createPublicationMonsters({
       name: 'Flying Sword',
       page: 19,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [
         [
           'A sword hangs in the air and dances about, striking like a duellist that cannot be hurt.',
@@ -20154,7 +20154,7 @@ export default createPublicationMonsters({
       ],
       page: 136,
       alignment: 'chaotic evil',
-      languages: ['Giant and Undercommon.'],
+      languages: ['Giant and Undercommon'],
       habitats: ['Underdark'],
       appearance: [
         ['An enormous, misshapen giant with mismatched limbs and a prominent, baleful eye.'],
@@ -20247,7 +20247,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.storm_king_s_thunder],
       page: 155,
       alignment: 'neutral evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -20307,7 +20307,7 @@ export default createPublicationMonsters({
       ],
       page: 139,
       alignment: 'neutral',
-      languages: ['Terran.'],
+      languages: ['Terran'],
       habitats: ['Mountain', 'Hill'],
       appearance: [['An animate boulder with a face and stone limbs that can tuck in and roll.']],
       tableNotes: [
@@ -20411,7 +20411,7 @@ export default createPublicationMonsters({
       ],
       page: 140,
       alignment: 'chaotic evil',
-      languages: ['Terran.'],
+      languages: ['Terran'],
       tableNotes: [
         [
           'It can remain still and pass for a statue. Its Multiattack is one bite and one claw. It resists nonmagical weapon damage of the bludgeoning, piercing, and slashing types unless the weapon is adamantine.',
@@ -20515,7 +20515,7 @@ export default createPublicationMonsters({
       ],
       page: 138,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       habitats: ['Underdark'],
       appearance: [
         ['A floating fungus that resembles a beholder, down to its eyes and eyestalks.'],
@@ -20640,7 +20640,7 @@ export default createPublicationMonsters({
       ],
       page: 148,
       alignment: 'chaotic evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -20736,7 +20736,7 @@ export default createPublicationMonsters({
       name: 'Ghost',
       page: 147,
       alignment: 'any alignment',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       tableNotes: [
         [
           "Haunting: Resolving the ghost's unfinished business can end the haunting. An object, event, or sensation linked to its former life may also expose a weakness.",
@@ -20887,7 +20887,7 @@ export default createPublicationMonsters({
       ],
       page: 148,
       alignment: 'chaotic evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -23256,7 +23256,7 @@ export default createPublicationMonsters({
       tags: ['gith'],
       page: 161,
       alignment: 'lawful neutral',
-      languages: ['Gith.'],
+      languages: ['Gith'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -23426,7 +23426,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 346,
       alignment: 'any alignment',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       appearance: [['A scarred fighter in arena kit steps forward with spear and shield.']],
       lore: [
         [
@@ -23542,7 +23542,7 @@ export default createPublicationMonsters({
       tags: ['gnoll'],
       page: 163,
       alignment: 'chaotic evil',
-      languages: ['Gnoll.'],
+      languages: ['Gnoll'],
       appearance: [
         ['A feral, hyena-headed humanoid bounds in, snarling and ready to tear into prey.'],
       ],
@@ -23899,7 +23899,7 @@ export default createPublicationMonsters({
       tags: ['goblinoid'],
       page: 166,
       alignment: 'neutral evil',
-      languages: ['Common', 'Goblin.'],
+      languages: ['Common', 'Goblin'],
       tableNotes: [['After attacking, it can use a bonus action to Hide or Disengage.']],
       appearance: [
         ['A small, black-hearted humanoid scurries out of the dark with a blade or bow.'],
@@ -24181,7 +24181,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 50,
       alignment: 'chaotic evil',
-      languages: ['Abyssal.'],
+      languages: ['Abyssal'],
       tableNotes: [
         [
           'Abyssal return: A demon killed outside the Abyss dissolves and reforms there immediately. Killing it in the Abyss destroys it permanently unless it has protected its essence with a demonic amulet.',
@@ -24325,7 +24325,7 @@ export default createPublicationMonsters({
       name: 'Gray Ooze',
       page: 243,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -24402,7 +24402,7 @@ export default createPublicationMonsters({
       name: 'Gray Ooze (Psychic)',
       page: 240,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       habitats: ['underdark'],
       tableNotes: [
         ['Source variant of Gray Ooze. Check the variant rules for changes to actions and traits.'],
@@ -24827,7 +24827,7 @@ export default createPublicationMonsters({
       name: 'Green Hag',
       page: 177,
       alignment: 'neutral evil',
-      languages: ['Common', 'Draconic', 'Sylvan.'],
+      languages: ['Common', 'Draconic', 'Sylvan'],
       appearance: [
         [
           'A hunched hag with a voice that can imitate anything creeps from the trees or reeds, perhaps wearing a kinder face than her own.',
@@ -25273,7 +25273,7 @@ export default createPublicationMonsters({
       ],
       page: 172,
       alignment: 'neutral evil',
-      languages: ['Grell.'],
+      languages: ['Grell'],
       habitats: ['Underdark'],
       appearance: [
         ['A floating, brain-shaped body with a sharp beak and ten trailing, barbed tentacles.'],
@@ -25367,7 +25367,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 173,
       alignment: 'neutral',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -25440,7 +25440,7 @@ export default createPublicationMonsters({
       ],
       page: 173,
       alignment: 'neutral',
-      languages: ['None.'],
+      languages: [],
       habitats: ['Underdark', 'Forest'],
       appearance: [
         ['A large, rock-colored worm with a hooked beak surrounded by four barbed tentacles.'],
@@ -25532,7 +25532,7 @@ export default createPublicationMonsters({
       ],
       page: 174,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -25599,7 +25599,7 @@ export default createPublicationMonsters({
       tags: ['grimlock'],
       page: 175,
       alignment: 'neutral evil',
-      languages: ['Undercommon.'],
+      languages: ['Undercommon'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -25667,7 +25667,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 347,
       alignment: 'any alignment',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       appearance: [['A watchful sentry in a chain shirt with spear and shield blocks the way.']],
       lore: [
         [
@@ -25719,7 +25719,7 @@ export default createPublicationMonsters({
       name: 'Guardian Naga',
       page: 233,
       alignment: 'lawful good',
-      languages: ['Celestial', 'Common.'],
+      languages: ['Celestial', 'Common'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -25844,7 +25844,7 @@ export default createPublicationMonsters({
       name: 'Gynosphinx',
       page: 280,
       alignment: 'lawful neutral',
-      languages: ['Common', 'Sphinx.'],
+      languages: ['Common', 'Sphinx'],
       appearance: [
         [
           "A sphinx whose body is a lion's but whose head is a woman's. Her face is often as dignified as a queen's, though sometimes she has wild, lion-like features.",
@@ -26038,7 +26038,7 @@ export default createPublicationMonsters({
       ],
       page: 238,
       alignment: 'any chaotic alignment',
-      languages: ['Common and Giant.'],
+      languages: ['Common and Giant'],
       habitats: ['Underdark', 'Mountain', 'Forest', 'Hill', 'Urban', 'Desert', 'Arctic'],
       appearance: [
         ['A broad, towering humanoid with an ogre’s build, often armed with a battleaxe.'],
@@ -26141,7 +26141,7 @@ export default createPublicationMonsters({
       ],
       page: 181,
       alignment: 'chaotic evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -26275,7 +26275,7 @@ export default createPublicationMonsters({
       name: 'Helmed Horror',
       page: 183,
       alignment: 'neutral',
-      languages: ["Understands its creator's languages and cannot speak."],
+      languages: ["Understands its creator's languages and cannot speak"],
       appearance: [['A hollow suit of plate armor that moves and fights on its own.']],
       tableNotes: [['Longsword uses the higher damage only in two-handed melee.']],
       stats: {
@@ -26576,7 +26576,7 @@ export default createPublicationMonsters({
       ],
       page: 152,
       alignment: 'chaotic evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -26691,7 +26691,7 @@ export default createPublicationMonsters({
       tags: ['goblinoid'],
       page: 186,
       alignment: 'lawful evil',
-      languages: ['Common', 'Goblin.'],
+      languages: ['Common', 'Goblin'],
       appearance: [
         [
           'A disciplined goblinoid with dark orange or reddish skin stands in formation, weapon ready.',
@@ -27025,7 +27025,7 @@ export default createPublicationMonsters({
       name: 'Homunculus',
       page: 188,
       alignment: 'neutral',
-      languages: ['Understands its creator’s languages. It cannot speak.'],
+      languages: ['Understands its creator’s languages. It cannot speak'],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -27109,7 +27109,7 @@ export default createPublicationMonsters({
       ],
       page: 189,
       alignment: 'neutral',
-      languages: ['Hook Horror.'],
+      languages: ['Hook Horror'],
       habitats: ['Underdark'],
       appearance: [
         ['A hulking creature with a hard shell, a vulture-like head and hooked forelimbs.'],
@@ -27520,7 +27520,7 @@ export default createPublicationMonsters({
       ],
       page: 190,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -28112,7 +28112,7 @@ export default createPublicationMonsters({
       name: 'Ice Mephit',
       page: 215,
       alignment: 'neutral evil',
-      languages: ['Aquan', 'Auran.'],
+      languages: ['Aquan', 'Auran'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -28212,7 +28212,7 @@ export default createPublicationMonsters({
       name: 'Ice Mephit (Summoner Variant)',
       page: 215,
       alignment: 'neutral evil',
-      languages: ['Aquan', 'Auran.'],
+      languages: ['Aquan', 'Auran'],
       tableNotes: [
         [
           'Mephit Summoning: Once per day, roll 25%. On success summon 1d4 mephits of the same kind. They appear within 60 feet, cannot summon more allies, and remain for one minute at most.',
@@ -28662,7 +28662,7 @@ export default createPublicationMonsters({
       name: 'Invisible Stalker',
       page: 192,
       alignment: 'neutral',
-      languages: ['Auran. It understands Common but cannot speak it.'],
+      languages: ['Auran. It understands Common but cannot speak it'],
       tableNotes: [
         [
           'Directed hunter: The stalker waits with its summoner until given a task. It can be tasked to find and kill a specific creature or retrieve an object. Any other assignment breaks the binding and releases the stalker. When it finishes, it returns for more orders while the binding lasts. If its summoner dies before the task is done, it vanishes once it completes the task. Defeat or expiration of the binding also dismisses it. It resents its orders and may exploit vague wording on long assignments.',
@@ -28742,7 +28742,7 @@ export default createPublicationMonsters({
       name: 'Iron Golem',
       page: 167,
       alignment: 'unaligned',
-      languages: ["Understands its creator's languages. It cannot speak."],
+      languages: ["Understands its creator's languages. It cannot speak"],
       stats: {
         size: 'large',
         type: 'construct',
@@ -28937,7 +28937,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       page: 193,
       alignment: 'chaotic evil',
-      languages: ["Common. It can't speak in jackal form."],
+      languages: ["Common. It can't speak in jackal form"],
       habitats: ['Grassland', 'Desert'],
       appearance: [['A jackal that can pass as a human or take a jackal-headed hybrid form.']],
       stats: {
@@ -29045,7 +29045,7 @@ export default createPublicationMonsters({
       tags: ['kenku'],
       page: 194,
       alignment: 'chaotic neutral',
-      languages: ['Understands Auran and Common. It speaks through Mimicry.'],
+      languages: ['Understands Auran and Common. It speaks through Mimicry'],
       habitats: ['Forest', 'Urban'],
       appearance: [['A feathered, crowlike humanoid with a beak and no wings.']],
       tableNotes: [
@@ -29178,7 +29178,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 347,
       alignment: 'any alignment',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       appearance: [
         [
           'An armoured warrior with greatsword and crossbow rides or marches up, often with squires and hirelings in tow.',
@@ -29291,7 +29291,7 @@ export default createPublicationMonsters({
       tags: ['kobold'],
       page: 195,
       alignment: 'lawful evil',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'In direct sunlight, it attacks and makes sight-based Perception checks at disadvantage. It has advantage to attack if a non-incapacitated ally is within 5 feet of the target.',
@@ -30024,7 +30024,7 @@ export default createPublicationMonsters({
       tags: ['devil'],
       page: 67,
       alignment: 'lawful evil',
-      languages: ['Understands Infernal and cannot speak.'],
+      languages: ['Understands Infernal and cannot speak'],
       tableNotes: [
         [
           'Magical darkness does not block its darkvision. If killed in the Nine Hells, it returns with full HP in 1d10 days unless the killing creature was good and used a blessed weapon, or its remains were sprinkled with holy water.',
@@ -30557,7 +30557,7 @@ export default createPublicationMonsters({
       tags: ['lizardfolk'],
       page: 204,
       alignment: 'chaotic evil',
-      languages: ['Abyssal and Draconic.'],
+      languages: ['Abyssal and Draconic'],
       appearance: [
         [
           'A larger-than-usual lizardfolk with unreadable reptilian eyes strides out among its bone-decked, shell-shielded tribe, a trident in hand.',
@@ -30769,7 +30769,7 @@ export default createPublicationMonsters({
       tags: ['lizardfolk'],
       page: 204,
       alignment: 'neutral',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       appearance: [
         ['A scaly, reptilian humanoid steps from the swamp with a club and spiked shield.'],
       ],
@@ -31015,7 +31015,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 10,
       alignment: 'any alignment',
-      languages: ['Any four languages.'],
+      languages: ['Any four languages'],
       appearance: [
         [
           'A robed spellcaster appears, a few spells already on the tip of the tongue and a dagger at the belt.',
@@ -31121,7 +31121,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 10,
       alignment: 'any alignment',
-      languages: ['Any four languages.'],
+      languages: ['Any four languages'],
       habitats: ['urban'],
       tableNotes: [
         ['Source variant of Mage. Check the variant rules for changes to actions and traits.'],
@@ -31229,7 +31229,7 @@ export default createPublicationMonsters({
       ],
       page: 216,
       alignment: 'neutral evil',
-      languages: ['Ignan', 'Terran.'],
+      languages: ['Ignan', 'Terran'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -31332,7 +31332,7 @@ export default createPublicationMonsters({
       name: 'Magma Mephit (Summoner Variant)',
       page: 216,
       alignment: 'neutral evil',
-      languages: ['Ignan', 'Terran.'],
+      languages: ['Ignan', 'Terran'],
       tableNotes: [
         [
           'Mephit Summoning: Once per day, roll 25%. On success summon 1d4 mephits of the same kind. They appear within 60 feet, cannot summon more allies, and remain for one minute at most.',
@@ -31545,7 +31545,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 53,
       alignment: 'chaotic evil',
-      languages: ['Understands Abyssal. Cannot speak.'],
+      languages: ['Understands Abyssal. Cannot speak'],
       habitats: ['Abyss'],
       appearance: [['A squat, bloated demon with claws and the remains of a humanoid shape.']],
       stats: {
@@ -31591,7 +31591,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 213,
       alignment: 'lawful evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -31892,7 +31892,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 214,
       alignment: 'lawful evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [
         [
           'A figure with a serpent-haired head watches from the shadows, and statues of past victims stand nearby.',
@@ -32011,7 +32011,7 @@ export default createPublicationMonsters({
       tags: ['merfolk'],
       page: 218,
       alignment: 'neutral',
-      languages: ['Aquan', 'Common.'],
+      languages: ['Aquan', 'Common'],
       appearance: [["A humanoid with a fish's lower body rises from the waves, spear in hand."]],
       lore: [
         [
@@ -32072,7 +32072,7 @@ export default createPublicationMonsters({
       ],
       page: 219,
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Aquan.'],
+      languages: ['Abyssal', 'Aquan'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -32439,7 +32439,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       page: 220,
       alignment: 'neutral',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'An unmoving object form can pass for the real object. Touching it grips a Huge or smaller creature in a grapple (escape DC 13, with disadvantage on that check). While an enemy is stuck to it, the mimic has advantage on attacks against that enemy.',
@@ -32906,7 +32906,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 223,
       alignment: 'chaotic evil',
-      languages: ['Abyssal.'],
+      languages: ['Abyssal'],
       appearance: [
         [
           'A massive bull-headed humanoid roars a battle cry, its fur stained with the blood of past victims.',
@@ -33017,7 +33017,7 @@ export default createPublicationMonsters({
       ],
       page: 272,
       alignment: 'lawful evil',
-      languages: ['Understands Abyssal but cannot speak.'],
+      languages: ['Understands Abyssal but cannot speak'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -33102,7 +33102,7 @@ export default createPublicationMonsters({
       ],
       page: 224,
       alignment: 'lawful neutral',
-      languages: ['Modron.'],
+      languages: ['Modron'],
       habitats: ['Mechanus'],
       appearance: [['A spherical modron with one central eye and a pair of wings.']],
       tableNotes: [
@@ -33171,7 +33171,7 @@ export default createPublicationMonsters({
       name: 'Monodrone (Rogue)',
       page: 224,
       alignment: 'any alignment except lawful neutral',
-      languages: ['Modron.'],
+      languages: ['Modron'],
       habitats: ['Mechanus'],
       tableNotes: [
         ['Source variant of Monodrone. Check the variant rules for changes to actions and traits.'],
@@ -33251,7 +33251,7 @@ export default createPublicationMonsters({
       ],
       page: 216,
       alignment: 'neutral evil',
-      languages: ['Aquan', 'Terran.'],
+      languages: ['Aquan', 'Terran'],
       habitats: ['Swamp'],
       appearance: [
         ['A winged elemental made of mud that can pass for an ordinary mound when still.'],
@@ -33343,7 +33343,7 @@ export default createPublicationMonsters({
       name: 'Mud Mephit (Summoner Variant)',
       page: 216,
       alignment: 'neutral evil',
-      languages: ['Aquan', 'Terran.'],
+      languages: ['Aquan', 'Terran'],
       habitats: ['Swamp'],
       tableNotes: [
         [
@@ -33457,7 +33457,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.plane_shift_amonkhet],
       page: 227,
       alignment: 'lawful evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -33572,7 +33572,7 @@ export default createPublicationMonsters({
       ],
       page: 227,
       alignment: 'lawful evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       tableNotes: [
         [
           'Regional effects: Food brought into the lair molds instantly, water evaporates at once, and other nonmagical drinks spoil. A divination spell cast there by anyone other than the mummy lord has a 25 percent chance to give misleading results chosen by the DM. An existing chance of failure or unreliability increases by 25 percentage points. Anyone who takes treasure from the lair has disadvantage on every saving throw until the treasure is returned or Remove Curse or other magic lifts the curse. All regional effects end as soon as the mummy lord is destroyed.',
@@ -33869,7 +33869,7 @@ export default createPublicationMonsters({
       ],
       page: 230,
       alignment: 'lawful neutral',
-      languages: ['None. Rapport Spores allow telepathic communication.'],
+      languages: ['None. Rapport Spores allow telepathic communication'],
       habitats: ['Underdark'],
       appearance: [['A walking fungus with a broad mushroom cap and limbs.']],
       stats: {
@@ -33957,7 +33957,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.out_of_the_abyss],
       page: 230,
       alignment: 'lawful neutral',
-      languages: ['None. Rapport Spores allow telepathic communication.'],
+      languages: ['None. Rapport Spores allow telepathic communication'],
       habitats: ['Underdark'],
       appearance: [
         ['A towering, broad-capped fungus that stands above the other myconids in its circle.'],
@@ -34103,7 +34103,7 @@ export default createPublicationMonsters({
       ],
       page: 230,
       alignment: 'lawful neutral',
-      languages: ['None. Rapport Spores allow telepathic communication.'],
+      languages: ['None. Rapport Spores allow telepathic communication'],
       habitats: ['Underdark'],
       stats: {
         size: 'small',
@@ -34418,7 +34418,7 @@ export default createPublicationMonsters({
       ],
       page: 32,
       alignment: 'neutral evil',
-      languages: ['Understands Common but cannot speak.'],
+      languages: ['Understands Common but cannot speak'],
       habitats: ['Forest'],
       appearance: [['A shambling plant creature covered with sharp conifer-like needles.']],
       stats: {
@@ -34471,7 +34471,7 @@ export default createPublicationMonsters({
       ],
       page: 235,
       alignment: 'neutral evil',
-      languages: ['Understands Abyssal, Common, and Infernal and cannot speak.'],
+      languages: ['Understands Abyssal, Common, and Infernal and cannot speak'],
       appearance: [['A large fiendish horse sheds light around itself, its hooves trailing fire.']],
       lore: [
         [
@@ -34551,7 +34551,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 348,
       alignment: 'any alignment',
-      languages: ['Any two languages.'],
+      languages: ['Any two languages'],
       appearance: [
         [
           'A well-dressed person of high rank arrives, likely with guards and servants close behind.',
@@ -34917,7 +34917,7 @@ export default createPublicationMonsters({
       name: 'Ochre Jelly',
       page: 240,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -35070,7 +35070,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.ddex3_16_assault_on_maerimydra],
       page: 237,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       appearance: [['A brutish giant in hide armour lumbers up, club in hand.']],
       lore: [
         [
@@ -35130,7 +35130,7 @@ export default createPublicationMonsters({
       name: 'Ogre Zombie',
       page: 315,
       alignment: 'neutral evil',
-      languages: ['It understands Common and Giant and cannot speak.'],
+      languages: ['It understands Common and Giant and cannot speak'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -35180,7 +35180,7 @@ export default createPublicationMonsters({
       name: 'Oni',
       page: 239,
       alignment: 'lawful evil',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       appearance: [
         [
           'A big, clawed giant looms over the party, a glaive in its grip, or perhaps it looks like a smaller humanoid.',
@@ -35298,7 +35298,7 @@ export default createPublicationMonsters({
       tags: ['orc'],
       page: 246,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Orc.'],
+      languages: ['Common', 'Orc'],
       appearance: [
         ['A burly raider with tusk-like lower canines charges in with an axe, shouting.'],
       ],
@@ -35372,7 +35372,7 @@ export default createPublicationMonsters({
       tags: ['orc'],
       page: 247,
       alignment: 'chaotic evil',
-      languages: ['Common and Orc.'],
+      languages: ['Common and Orc'],
       appearance: [['A savage orc priest missing an eye, with blood-stained weapons.']],
       lore: [
         [
@@ -35526,7 +35526,7 @@ export default createPublicationMonsters({
       ],
       page: 248,
       alignment: 'neutral',
-      languages: ['Otyugh.'],
+      languages: ['Otyugh'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -35725,7 +35725,7 @@ export default createPublicationMonsters({
       ],
       page: 249,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Multiattack is one beak and one claw. Its sight- or smell-based Perception checks have advantage.',
@@ -35892,7 +35892,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 250,
       alignment: 'chaotic good',
-      languages: ['Understands Celestial, Common, Elvish, and Sylvan. It cannot speak.'],
+      languages: ['Understands Celestial, Common, Elvish, and Sylvan. It cannot speak'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -35928,7 +35928,7 @@ export default createPublicationMonsters({
       ],
       page: 226,
       alignment: 'lawful neutral',
-      languages: ['Modron.'],
+      languages: ['Modron'],
       habitats: ['Mechanus'],
       appearance: [['A five-armed geometric modron with a star-shaped body.']],
       stats: {
@@ -36011,7 +36011,7 @@ export default createPublicationMonsters({
       name: 'Pentadrone (Rogue)',
       page: 224,
       alignment: 'any alignment except lawful neutral',
-      languages: ['Modron.'],
+      languages: ['Modron'],
       habitats: ['Mechanus'],
       tableNotes: [
         [
@@ -36112,7 +36112,7 @@ export default createPublicationMonsters({
       ],
       page: 251,
       alignment: 'chaotic evil',
-      languages: ['Understands Common and Elvish. Cannot speak.'],
+      languages: ['Understands Common and Elvish. Cannot speak'],
       habitats: ['Mountain', 'Hill'],
       appearance: [
         [
@@ -36889,7 +36889,7 @@ export default createPublicationMonsters({
       name: 'Poltergeist',
       page: 279,
       alignment: 'chaotic evil',
-      languages: ['Understands all languages it knew in life but cannot speak.'],
+      languages: ['Understands all languages it knew in life but cannot speak'],
       habitats: ['Haunted sites'],
       appearance: [
         [
@@ -37039,7 +37039,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 10,
       alignment: 'any alignment',
-      languages: ['Any two languages.'],
+      languages: ['Any two languages'],
       appearance: [
         ['A robed servant of a god steps forward with a mace, often with acolytes at their side.'],
       ],
@@ -37140,7 +37140,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.rise_of_tiamat_online_supplement, refs.publications.srd_5_1],
       page: 254,
       alignment: 'neutral good',
-      languages: ["Understands Common and Draconic. It can't speak."],
+      languages: ["Understands Common and Draconic. It can't speak"],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -37231,7 +37231,7 @@ export default createPublicationMonsters({
       name: 'Pseudodragon (familiar variant)',
       page: 254,
       alignment: 'neutral good',
-      languages: ["Understands Common and Draconic. It can't speak."],
+      languages: ["Understands Common and Draconic. It can't speak"],
       tableNotes: [
         [
           'Familiar Bond: A willing familiar can end the bond. The master can use its senses within 1 mile.',
@@ -37354,7 +37354,7 @@ export default createPublicationMonsters({
       name: 'Psychic Gray Ooze',
       page: 240,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       habitats: ['Underground sites near psionic creatures'],
       appearance: [
         [
@@ -37512,7 +37512,7 @@ export default createPublicationMonsters({
       name: 'Purple Worm',
       page: 255,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -37624,7 +37624,7 @@ export default createPublicationMonsters({
       ],
       page: 226,
       alignment: 'lawful neutral',
-      languages: ['Modron.'],
+      languages: ['Modron'],
       habitats: ['Mechanus'],
       appearance: [['A cube-bodied modron with wings and four arms.']],
       tableNotes: [['Multiattack. Make two Fist attacks or four Shortbow attacks.']],
@@ -37702,7 +37702,7 @@ export default createPublicationMonsters({
       name: 'Quadrone (Rogue)',
       page: 224,
       alignment: 'any alignment except lawful neutral',
-      languages: ['Modron.'],
+      languages: ['Modron'],
       habitats: ['Mechanus'],
       tableNotes: [
         ['Source variant of Quadrone. Check the variant rules for changes to actions and traits.'],
@@ -37794,7 +37794,7 @@ export default createPublicationMonsters({
       tags: ['quaggoth'],
       page: 256,
       alignment: 'chaotic neutral',
-      languages: ['Undercommon.'],
+      languages: ['Undercommon'],
       habitats: ['Underdark'],
       appearance: [['A long-armed, shaggy humanoid with pale fur and heavy claws.']],
       tableNotes: [
@@ -37923,7 +37923,7 @@ export default createPublicationMonsters({
       tags: ['quaggoth'],
       page: 256,
       alignment: 'chaotic neutral',
-      languages: ['Undercommon.'],
+      languages: ['Undercommon'],
       habitats: ['Underdark'],
       appearance: [
         [
@@ -38013,7 +38013,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 50,
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Common.'],
+      languages: ['Abyssal', 'Common'],
       tableNotes: [
         [
           'Abyssal return: A demon killed outside the Abyss dissolves and reforms there immediately. Killing it in the Abyss destroys it permanently unless it has protected its essence with a demonic amulet.',
@@ -38714,7 +38714,7 @@ export default createPublicationMonsters({
       ],
       page: 259,
       alignment: 'neutral',
-      languages: ['Languages it knew in life.'],
+      languages: ['Languages it knew in life'],
       habitats: ['Forest', 'Swamp', 'Hill', 'Urban', 'Desert', 'Arctic'],
       appearance: [
         ['An animated humanoid corpse whose eyes betray the spirit’s burning determination.'],
@@ -38962,7 +38962,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.srd_5_1],
       page: 260,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Multiattack is one beak plus one talon attack. Its talons grapple and restrain one creature (escape DC 19), and cannot grab a second while holding the first. Sight-based Perception checks have advantage.',
@@ -39044,7 +39044,7 @@ export default createPublicationMonsters({
       name: 'Rug of Smothering',
       page: 19,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Smother uses +5 at 5 feet against a Medium or smaller creature. A hit grapples (escape DC 13), restrains, blinds, and blocks breathing. The target takes 2d6 + 3 bludgeoning at the start of its turns. Half the damage dealt to the rug is transferred to its captive.',
@@ -39146,7 +39146,7 @@ export default createPublicationMonsters({
       ],
       page: 262,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -39210,7 +39210,7 @@ export default createPublicationMonsters({
       tags: ['sahuagin'],
       page: 263,
       alignment: 'lawful evil',
-      languages: ['Sahuagin.'],
+      languages: ['Sahuagin'],
       appearance: [
         [
           'A scaled, sea-dwelling humanoid surges from the water with claws and a spear, sharks nearby.',
@@ -39335,7 +39335,7 @@ export default createPublicationMonsters({
       tags: ['sahuagin'],
       page: 264,
       alignment: 'lawful evil',
-      languages: ['Sahuagin.'],
+      languages: ['Sahuagin'],
       habitats: ['Underwater', 'Coastal'],
       appearance: [
         ['A large, four-armed fishlike humanoid with fins, claws and rows of sharp teeth.'],
@@ -39447,7 +39447,7 @@ export default createPublicationMonsters({
       tags: ['sahuagin'],
       page: 264,
       alignment: 'lawful evil',
-      languages: ['Sahuagin.'],
+      languages: ['Sahuagin'],
       habitats: ['Underwater', 'Coastal'],
       appearance: [['An amphibious fishlike humanoid with a sharklike face and finned features.']],
       stats: {
@@ -39563,7 +39563,7 @@ export default createPublicationMonsters({
       ],
       page: 265,
       alignment: 'neutral evil',
-      languages: ['Ignan.'],
+      languages: ['Ignan'],
       appearance: [
         ['A heat-shimmering elemental with a lashing tail and a burning spear strides forward.'],
       ],
@@ -39692,7 +39692,7 @@ export default createPublicationMonsters({
       name: 'Satyr',
       page: 267,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       appearance: [
         ["A stocky fey with a goat's furry legs and hooves capers out of the trees, grinning."],
       ],
@@ -39773,7 +39773,7 @@ export default createPublicationMonsters({
       name: 'Satyr (Variant)',
       page: 267,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       tableNotes: [
         [
           'Variant rules: Panpipes affect listeners within 60 feet on a failed DC 13 Wisdom save. Choose a one-minute charm, fright, or sleep. Creatures immune to charm and other satyrs are unaffected. Repeat saves at the end of turns. On a success or when the effect ends, the creature is immune to the pipes for 24 hours.',
@@ -39933,7 +39933,7 @@ export default createPublicationMonsters({
       name: 'Scarecrow',
       page: 268,
       alignment: 'chaotic evil',
-      languages: ["Understands its creator's languages and cannot speak."],
+      languages: ["Understands its creator's languages and cannot speak"],
       habitats: ['Grassland'],
       appearance: [['A straw-stuffed figure animated to stand guard or pursue intruders.']],
       stats: {
@@ -40101,7 +40101,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 349,
       alignment: 'any alignment',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       appearance: [['A lean tracker in practical gear watches from cover, bow ready.']],
       lore: [
         [
@@ -40177,7 +40177,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       page: 179,
       alignment: 'chaotic evil',
-      languages: ['Aquan', 'Common', 'Giant.'],
+      languages: ['Aquan', 'Common', 'Giant'],
       appearance: [['A twisted hag rises from the water, her real face horrifying to behold.']],
       lore: [
         [
@@ -40280,7 +40280,7 @@ export default createPublicationMonsters({
       name: 'Sea Hag (Coven)',
       page: 176,
       alignment: 'chaotic evil',
-      languages: ['Aquan', 'Common', 'Giant.'],
+      languages: ['Aquan', 'Common', 'Giant'],
       habitats: ['underwater', 'coastal'],
       tableNotes: [
         ['Source variant of Sea Hag. Check the variant rules for changes to actions and traits.'],
@@ -40392,7 +40392,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.ghosts_of_saltmarsh],
       page: 176,
       alignment: 'chaotic evil',
-      languages: ['Aquan', 'Common', 'Giant.'],
+      languages: ['Aquan', 'Common', 'Giant'],
       habitats: ['Coastal', 'Underwater'],
       appearance: [
         [
@@ -40551,7 +40551,7 @@ export default createPublicationMonsters({
       name: 'Shadow',
       page: 269,
       alignment: 'chaotic evil',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Return from death: If a creature that produced a Shadow returns to life, its Shadow senses the return. The creature casts no shadow until the undead Shadow is destroyed.',
@@ -40758,7 +40758,7 @@ export default createPublicationMonsters({
       ],
       page: 270,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Encounter notes: The living root-stem can feign death by collapsing its outer mound. A surviving root-stem may root itself and slowly regrow at an unspecified rate.',
@@ -40872,7 +40872,7 @@ export default createPublicationMonsters({
       name: 'Shield Guardian',
       page: 271,
       alignment: 'unaligned',
-      languages: ['Understands commands in any language. It cannot speak.'],
+      languages: ['Understands commands in any language. It cannot speak'],
       tableNotes: [
         [
           'Its Multiattack is two fists. With its amulet wearer within 60 feet, it takes half the damage the wearer would take. It also has a reaction to add 2 AC for the nearby wearer, regeneration, and a stored spell.',
@@ -40968,7 +40968,7 @@ export default createPublicationMonsters({
       name: 'Skeleton',
       page: 272,
       alignment: 'lawful evil',
-      languages: ['Understands every language it knew in life. It cannot speak.'],
+      languages: ['Understands every language it knew in life. It cannot speak'],
       tableNotes: [
         [
           'Bludgeoning damage is doubled. Poison damage has no effect, and neither does the poisoned condition or exhaustion.',
@@ -41046,7 +41046,7 @@ export default createPublicationMonsters({
       name: 'Smoke Mephit',
       page: 217,
       alignment: 'neutral evil',
-      languages: ['Auran', 'Ignan.'],
+      languages: ['Auran', 'Ignan'],
       habitats: ['Urban'],
       appearance: [['A small, winged elemental with a body made of smoke.']],
       stats: {
@@ -41126,7 +41126,7 @@ export default createPublicationMonsters({
       name: 'Smoke Mephit (Summoner Variant)',
       page: 217,
       alignment: 'neutral evil',
-      languages: ['Auran', 'Ignan.'],
+      languages: ['Auran', 'Ignan'],
       habitats: ['Urban'],
       tableNotes: [
         [
@@ -41388,7 +41388,7 @@ export default createPublicationMonsters({
       ],
       page: 279,
       alignment: 'chaotic evil',
-      languages: ['Understands every language it knew in life. It cannot speak.'],
+      languages: ['Understands every language it knew in life. It cannot speak'],
       appearance: [['A faint, hostile spirit drifts through a wall or floor, trailing chill.']],
       lore: [
         [
@@ -41671,7 +41671,7 @@ export default createPublicationMonsters({
       name: 'Spirit Naga',
       page: 233,
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Common.'],
+      languages: ['Abyssal', 'Common'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -41773,7 +41773,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.player_s_handbook_2014],
       page: 283,
       alignment: 'neutral good',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -41878,7 +41878,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 349,
       alignment: 'any alignment',
-      languages: ['Any two languages.'],
+      languages: ['Any two languages'],
       appearance: [
         ['An unremarkable person lingers at the edge of the crowd, listening and watching.'],
       ],
@@ -41976,7 +41976,7 @@ export default createPublicationMonsters({
       ],
       page: 217,
       alignment: 'neutral evil',
-      languages: ['Aquan', 'Ignan.'],
+      languages: ['Aquan', 'Ignan'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -42063,7 +42063,7 @@ export default createPublicationMonsters({
       name: 'Steam Mephit (Summoner Variant)',
       page: 217,
       alignment: 'neutral evil',
-      languages: ['Aquan', 'Ignan.'],
+      languages: ['Aquan', 'Ignan'],
       tableNotes: [
         [
           'Mephit Summoning: Once per day, roll 25%. On success summon 1d4 mephits of the same kind. They appear within 60 feet, cannot summon more allies, and remain for one minute at most.',
@@ -42245,7 +42245,7 @@ export default createPublicationMonsters({
       ],
       page: 152,
       alignment: 'neutral',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [
         ['A huge giant, at home on rocky ground, appears with a massive club and a rock in hand.'],
       ],
@@ -42354,7 +42354,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.curse_of_strahd, refs.publications.plane_shift_zendikar],
       page: 167,
       alignment: 'unaligned',
-      languages: ["Understands its creator's languages. It cannot speak."],
+      languages: ["Understands its creator's languages. It cannot speak"],
       stats: {
         size: 'large',
         type: 'construct',
@@ -42464,7 +42464,7 @@ export default createPublicationMonsters({
       name: 'Storm Giant',
       page: 156,
       alignment: 'chaotic good',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -43654,7 +43654,7 @@ export default createPublicationMonsters({
       tags: ['thri-kreen'],
       page: 288,
       alignment: 'chaotic neutral',
-      languages: ['Thri-kreen.'],
+      languages: ['Thri-kreen'],
       habitats: ['Grassland', 'Desert'],
       appearance: [
         ['A four-armed insectoid with mandibles, antennae and a color-changing carapace.'],
@@ -44101,7 +44101,7 @@ export default createPublicationMonsters({
       tags: ['thri-kreen'],
       page: 288,
       alignment: 'chaotic neutral',
-      languages: ['Thri-kreen.'],
+      languages: ['Thri-kreen'],
       habitats: ['Grassland', 'Desert'],
       tableNotes: [
         [
@@ -44271,7 +44271,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 350,
       alignment: 'any non-good alignment',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       appearance: [['A menacing enforcer hefts a mace, perhaps with others close by.']],
       lore: [
         [
@@ -44441,7 +44441,7 @@ export default createPublicationMonsters({
       ],
       page: 289,
       alignment: 'chaotic good',
-      languages: ['Common', 'Druidic', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Druidic', 'Elvish', 'Sylvan'],
       appearance: [['A huge tree stands motionless in the wood until it opens its limbs.']],
       lore: [
         [
@@ -44537,7 +44537,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 350,
       alignment: 'any alignment',
-      languages: ['Any one language.'],
+      languages: ['Any one language'],
       appearance: [
         ['A fighter from outside civilisation approaches with a spear, flanked by tribe-mates.'],
       ],
@@ -44682,7 +44682,7 @@ export default createPublicationMonsters({
       name: 'Tridrone',
       page: 225,
       alignment: 'lawful neutral',
-      languages: ['Modron.'],
+      languages: ['Modron'],
       habitats: ['Mechanus'],
       appearance: [
         [
@@ -44776,7 +44776,7 @@ export default createPublicationMonsters({
       name: 'Tridrone (Rogue)',
       page: 224,
       alignment: 'any alignment except lawful neutral',
-      languages: ['Modron.'],
+      languages: ['Modron'],
       habitats: ['Mechanus'],
       tableNotes: [
         ['Source variant of Tridrone. Check the variant rules for changes to actions and traits.'],
@@ -44865,7 +44865,7 @@ export default createPublicationMonsters({
       tags: ['troglodyte'],
       page: 290,
       alignment: 'chaotic evil',
-      languages: ['Troglodyte.'],
+      languages: ['Troglodyte'],
       habitats: ['Underdark'],
       appearance: [
         ['A cave-dwelling reptilian humanoid with a crest along its head and a strong stench.'],
@@ -44968,7 +44968,7 @@ export default createPublicationMonsters({
       ],
       page: 291,
       alignment: 'chaotic evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -45037,7 +45037,7 @@ export default createPublicationMonsters({
       name: 'Troll (variant)',
       page: 291,
       alignment: 'chaotic evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       habitats: ['Forest', 'Swamp', 'Mountain', 'Underdark'],
       appearance: [
         [
@@ -45131,7 +45131,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018],
       page: 31,
       alignment: 'neutral evil',
-      languages: ['Understands Common and cannot speak.'],
+      languages: ['Understands Common and cannot speak'],
       stats: {
         size: 'small',
         type: 'plant',
@@ -45581,7 +45581,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       page: 292,
       alignment: 'chaotic evil',
-      languages: ['Umber Hulk.'],
+      languages: ['Umber Hulk'],
       habitats: ['Underdark'],
       appearance: [
         ['A broad, armored burrower with insectlike eyes, heavy claws and powerful mandibles.'],
@@ -45884,7 +45884,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       page: 295,
       alignment: 'lawful evil',
-      languages: ['Languages it knew in life.'],
+      languages: ['Languages it knew in life'],
       tableNotes: [
         [
           'Vampire weaknesses: Forbiddance. An occupant must invite the vampire before it enters a residence.',
@@ -46083,7 +46083,7 @@ export default createPublicationMonsters({
       name: 'Vampire Spawn',
       page: 295,
       alignment: 'neutral evil',
-      languages: ['Languages it knew in life.'],
+      languages: ['Languages it knew in life'],
       tableNotes: [
         [
           'Vampire weaknesses: Forbiddance. An occupant must invite the spawn before it enters a residence.',
@@ -46192,7 +46192,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       page: 295,
       alignment: 'lawful evil',
-      languages: ['Languages it knew in life.'],
+      languages: ['Languages it knew in life'],
       tableNotes: [
         [
           'Vampire weaknesses: Forbiddance. An occupant must invite the vampire before it enters a residence.\nHarmed by Running Water. Ending a turn in running water deals 20 acid damage to it.\nStake to the Heart. If a wooden piercing weapon pierces its heart while it is Incapacitated at its resting place, it is Paralyzed until the weapon is removed.\nSunlight Hypersensitivity. Starting its turn in sunlight deals 20 radiant damage to it. It has disadvantage on attack rolls and ability checks in sunlight.',
@@ -46443,7 +46443,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       page: 295,
       alignment: 'lawful evil',
-      languages: ['Languages it knew in life.'],
+      languages: ['Languages it knew in life'],
       tableNotes: [
         [
           'Vampire weaknesses: Forbiddance. An occupant must invite the vampire before it enters a residence.\nHarmed by Running Water. Ending a turn in running water deals 20 acid damage to it.\nStake to the Heart. If a wooden piercing weapon pierces its heart while it is Incapacitated at its resting place, it is Paralyzed until the weapon is removed.\nSunlight Hypersensitivity. Starting its turn in sunlight deals 20 radiant damage to it. It has disadvantage on attack rolls and ability checks in sunlight.',
@@ -46709,7 +46709,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 350,
       alignment: 'any alignment',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       habitats: ['Arctic', 'Coastal', 'Forest', 'Grassland'],
       appearance: [
         [
@@ -46808,7 +46808,7 @@ export default createPublicationMonsters({
       ],
       page: 32,
       alignment: 'neutral evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       habitats: ['Forest'],
       appearance: [
         [
@@ -47613,7 +47613,7 @@ export default createPublicationMonsters({
       name: 'Warhorse Skeleton',
       page: 272,
       alignment: 'lawful evil',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'undead',
@@ -47800,7 +47800,7 @@ export default createPublicationMonsters({
       name: 'Water Weird',
       page: 299,
       alignment: 'neutral',
-      languages: ['Understands Aquan without speaking.'],
+      languages: ['Understands Aquan without speaking'],
       habitats: ['Underdark', 'Urban', 'Pools and fountains'],
       appearance: [
         [
@@ -47951,7 +47951,7 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       page: 206,
       alignment: 'neutral good',
-      languages: ['Common. It cannot speak in bear form.'],
+      languages: ['Common. It cannot speak in bear form'],
       tableNotes: [
         [
           "Player lycanthropy: A character keeps its own statistics except for the changes listed here. It gains the printed nonhumanoid speeds, damage immunities, traits, and actions that require no equipment, plus proficiency with the lycanthrope's natural attacks. Use the listed natural weapon damage. The character cannot speak in animal form.\nOnly a humanoid that is not already a lycanthrope saves against the curse when hit by a curse-bearing attack. The Constitution save DC is 8 + the attacking lycanthrope's proficiency bonus + its Constitution modifier. A character who resists the curse keeps their usual alignment and personality in humanoid form. The full moon forces them into animal or hybrid form until it wanes. A character who embraces the curse acquires the lycanthrope's alignment and can eventually learn to shift at will. The DM can take control of the character until the curse is removed. Remove Curse can end an acquired curse. A natural-born lycanthrope needs Wish.\nRaise Strength to 19 if lower. Bear and hybrid forms gain +1 AC from natural armor. Use Strength for natural weapon attack and damage rolls.",
@@ -48065,7 +48065,7 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       page: 206,
       alignment: 'neutral evil',
-      languages: ['Common. It cannot speak in boar form.'],
+      languages: ['Common. It cannot speak in boar form'],
       tableNotes: [
         [
           "Player lycanthropy: A character keeps its own statistics except for the changes listed here. It gains the printed nonhumanoid speeds, damage immunities, traits, and actions that require no equipment, plus proficiency with the lycanthrope's natural attacks. Use the listed natural weapon damage. The character cannot speak in animal form.\nOnly a humanoid that is not already a lycanthrope saves against the curse when hit by a curse-bearing attack. The Constitution save DC is 8 + the attacking lycanthrope's proficiency bonus + its Constitution modifier. A character who resists the curse keeps their usual alignment and personality in humanoid form. The full moon forces them into animal or hybrid form until it wanes. A character who embraces the curse acquires the lycanthrope's alignment and can eventually learn to shift at will. The DM can take control of the character until the curse is removed. Remove Curse can end an acquired curse. A natural-born lycanthrope needs Wish.\nRaise Strength to 17 if lower. Boar and hybrid forms gain +1 AC from natural armor. Use Strength for Tusks attack and damage rolls. The Charge save DC is 8 + the character’s proficiency bonus + its Strength modifier.",
@@ -48187,7 +48187,7 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       page: 206,
       alignment: 'neutral',
-      languages: ['Common. It cannot speak in tiger form.'],
+      languages: ['Common. It cannot speak in tiger form'],
       tableNotes: [
         [
           "Player lycanthropy: A character keeps its own statistics except for the changes listed here. It gains the printed nonhumanoid speeds, damage immunities, traits, and actions that require no equipment, plus proficiency with the lycanthrope's natural attacks. Use the listed natural weapon damage. The character cannot speak in animal form.\nOnly a humanoid that is not already a lycanthrope saves against the curse when hit by a curse-bearing attack. The Constitution save DC is 8 + the attacking lycanthrope's proficiency bonus + its Constitution modifier. A character who resists the curse keeps their usual alignment and personality in humanoid form. The full moon forces them into animal or hybrid form until it wanes. A character who embraces the curse acquires the lycanthrope's alignment and can eventually learn to shift at will. The DM can take control of the character until the curse is removed. Remove Curse can end an acquired curse. A natural-born lycanthrope needs Wish.\nRaise Strength to 17 if lower. Use Strength for natural weapon attack and damage rolls. The Pounce save DC is 8 + the character’s proficiency bonus + its Strength modifier.",
@@ -48340,7 +48340,7 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       page: 206,
       alignment: 'chaotic evil',
-      languages: ['Common. It cannot speak in wolf form.'],
+      languages: ['Common. It cannot speak in wolf form'],
       tableNotes: [
         [
           "Player lycanthropy: A character keeps its own statistics except for the changes listed here. It gains the printed nonhumanoid speeds, damage immunities, traits, and actions that require no equipment, plus proficiency with the lycanthrope's natural attacks. Use the listed natural weapon damage. The character cannot speak in animal form.\nOnly a humanoid that is not already a lycanthrope saves against the curse when hit by a curse-bearing attack. The Constitution save DC is 8 + the attacking lycanthrope's proficiency bonus + its Constitution modifier. A character who resists the curse keeps their usual alignment and personality in humanoid form. The full moon forces them into animal or hybrid form until it wanes. A character who embraces the curse acquires the lycanthrope's alignment and can eventually learn to shift at will. The DM can take control of the character until the curse is removed. Remove Curse can end an acquired curse. A natural-born lycanthrope needs Wish.\nRaise Strength to 15 if lower. Wolf and hybrid forms gain +1 AC from natural armor. Use Strength for natural weapon attack and damage rolls.",
@@ -48461,7 +48461,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.ddal04_10_the_artifact],
       page: 300,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       appearance: [['An armed and armoured corpse advances, intelligent and relentless.']],
       lore: [
         [
@@ -48597,7 +48597,7 @@ export default createPublicationMonsters({
       ],
       page: 301,
       alignment: 'chaotic evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       appearance: [
         ['A small ghostly light drifts through the gloom, brightening and dimming as it moves.'],
       ],
@@ -48806,7 +48806,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 341,
       alignment: 'neutral evil',
-      languages: ['Goblin and Worg.'],
+      languages: ['Goblin and Worg'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -48870,7 +48870,7 @@ export default createPublicationMonsters({
       ],
       page: 302,
       alignment: 'neutral evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       appearance: [
         ['A dim, spectral figure glides closer, holding itself in the world by will alone.'],
       ],
@@ -48991,7 +48991,7 @@ export default createPublicationMonsters({
       ],
       page: 303,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Multiattack is one bite and one stinger, with the claw available as described by its flying attack option. The stinger adds a DC 15 Constitution save against 7d6 poison, half on success.',
@@ -49084,7 +49084,7 @@ export default createPublicationMonsters({
       ],
       page: 304,
       alignment: 'neutral',
-      languages: ['Terran.'],
+      languages: ['Terran'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -49170,7 +49170,7 @@ export default createPublicationMonsters({
       name: 'Yeti',
       page: 305,
       alignment: 'chaotic evil',
-      languages: ['Yeti.'],
+      languages: ['Yeti'],
       appearance: [
         ['A huge, white-furred brute stalks through the snow, almost invisible against it.'],
       ],
@@ -49299,7 +49299,7 @@ export default createPublicationMonsters({
       tags: ['demon', 'shapechanger'],
       page: 54,
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Elvish', 'Undercommon.'],
+      languages: ['Abyssal', 'Elvish', 'Undercommon'],
       habitats: ['Demonweb Pits in the Abyss', 'Temples of Lolth on the Material Plane'],
       appearance: [
         [
@@ -49449,7 +49449,7 @@ export default createPublicationMonsters({
       tags: ['demon', 'shapechanger'],
       page: 54,
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Elvish', 'Undercommon.'],
+      languages: ['Abyssal', 'Elvish', 'Undercommon'],
       habitats: ['Demonweb Pits in the Abyss', 'Temples of Lolth on the Material Plane'],
       tableNotes: [
         [
@@ -49599,7 +49599,7 @@ export default createPublicationMonsters({
       name: 'Young Bronze Dragon',
       page: 86,
       alignment: 'lawful good',
-      languages: ['Common and Draconic.'],
+      languages: ['Common and Draconic'],
       tableNotes: [
         [
           'Variant spellcasting: Under the optional dragon spellcasting rule, the DM chooses 3 spells of 2nd level or lower. The dragon can cast each once per day without material components. It uses Charisma, with spell save DC 14 and +6 to hit with spell attacks.',
@@ -49714,7 +49714,7 @@ export default createPublicationMonsters({
       ],
       page: 258,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -49767,7 +49767,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger', 'yuan-ti'],
       page: 308,
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Draconic.'],
+      languages: ['Abyssal', 'Common', 'Draconic'],
       habitats: ['Forest', 'Swamp', 'Desert'],
       appearance: [['A large serpent-bodied humanoid with scaled arms.']],
       stats: {
@@ -49912,7 +49912,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger', 'yuan-ti'],
       page: 309,
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Draconic.'],
+      languages: ['Abyssal', 'Common', 'Draconic'],
       habitats: ['Desert', 'Forest', 'Swamp'],
       appearance: [
         ['A snake-human hybrid whose serpentine head, arms or lower body depend on its type.'],
@@ -50157,7 +50157,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger', 'yuan-ti'],
       page: 309,
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Draconic.'],
+      languages: ['Abyssal', 'Common', 'Draconic'],
       habitats: ['Desert', 'Forest', 'Swamp'],
       appearance: [['A humanoid body with a snake’s head.']],
       tableNotes: [
@@ -50282,7 +50282,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger', 'yuan-ti'],
       page: 309,
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Draconic.'],
+      languages: ['Abyssal', 'Common', 'Draconic'],
       habitats: ['Desert', 'Forest', 'Swamp'],
       appearance: [['A humanoid whose arms end in snake heads instead of hands.']],
       tableNotes: [
@@ -50372,7 +50372,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger', 'yuan-ti'],
       page: 309,
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Draconic.'],
+      languages: ['Abyssal', 'Common', 'Draconic'],
       habitats: ['Desert', 'Forest', 'Swamp'],
       appearance: [['A humanoid torso and arms above a long snake tail in place of legs.']],
       tableNotes: [
@@ -50522,7 +50522,7 @@ export default createPublicationMonsters({
       tags: ['yuan-ti'],
       page: 310,
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Draconic.'],
+      languages: ['Abyssal', 'Common', 'Draconic'],
       habitats: ['Forest', 'Swamp', 'Urban', 'Desert'],
       appearance: [
         [
@@ -50610,7 +50610,7 @@ export default createPublicationMonsters({
       name: 'Zombie',
       page: 315,
       alignment: 'neutral evil',
-      languages: ['It understands the languages it knew in life and cannot speak.'],
+      languages: ['It understands the languages it knew in life and cannot speak'],
       tableNotes: [
         [
           'When damage would take the zombie to 0 HP, roll Constitution against DC 5 + damage taken. Success leaves it at 1 HP. Skip this roll for radiant damage or a critical hit.',

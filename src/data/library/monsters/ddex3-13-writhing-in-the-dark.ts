@@ -81,7 +81,7 @@ export default createPublicationMonsters({
         refs.publications.waterdeep_dungeon_of_the_mad_mage,
       ],
       alignment: 'lawful evil',
-      languages: ["understands Deep Speech but can't speak", 'telepathy 60 ft'],
+      languages: ["understands Deep Speech but can't speak", 'telepathy 60 ft.'],
       stats: {
         size: 'tiny',
         type: 'aberration',

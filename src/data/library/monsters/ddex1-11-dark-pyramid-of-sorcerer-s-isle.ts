@@ -447,7 +447,7 @@ export default createPublicationMonsters({
         refs.publications.waterdeep_dragon_heist,
       ],
       alignment: 'chaotic neutral',
-      languages: ['Slaad', 'telepathy 60 ft'],
+      languages: ['Slaad', 'telepathy 60 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',

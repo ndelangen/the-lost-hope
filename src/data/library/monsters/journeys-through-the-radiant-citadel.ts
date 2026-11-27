@@ -1429,7 +1429,7 @@ export default createPublicationMonsters({
       name: 'Jijibisha Manivarshi',
       tags: ['yugoloth'],
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -2748,7 +2748,7 @@ export default createPublicationMonsters({
     pari: {
       name: 'Pari',
       alignment: 'lawful good',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'celestial',

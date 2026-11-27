@@ -656,7 +656,7 @@ export default createPublicationMonsters({
       name: 'Killmoulis',
       reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio],
       alignment: 'neutral',
-      languages: ['Common', 'Sylvan', 'telepathy 60 ft'],
+      languages: ['Common', 'Sylvan', 'telepathy 60 ft.'],
       habitats: ['Feywild', 'Roadsides', 'Traveler camps'],
       appearance: [['A tiny fey that draws food through its long, prominent nose.']],
       tableNotes: [
@@ -1262,7 +1262,7 @@ export default createPublicationMonsters({
     ygorl_lord_of_entropy: {
       name: 'Ygorl, Lord of Entropy',
       alignment: 'chaotic neutral',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       habitats: ['Limbo', 'Outer Planes'],
       appearance: [['A skeletal scythe-bearer with obsidian tablets tied at its waist.']],
       tableNotes: [

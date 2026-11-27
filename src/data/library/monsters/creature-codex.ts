@@ -565,7 +565,7 @@ export default createPublicationMonsters({
     alabaster_tree: {
       name: 'Alabaster Tree',
       alignment: 'neutral good',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'celestial',
@@ -868,7 +868,7 @@ export default createPublicationMonsters({
     alchemical_apprentice: {
       name: 'Alchemical Apprentice',
       alignment: 'unaligned',
-      languages: ["understands Common but can't speak", 'telepathy 10 ft'],
+      languages: ["understands Common but can't speak", 'telepathy 10 ft.'],
       stats: {
         size: 'small',
         type: 'ooze',
@@ -2995,7 +2995,7 @@ export default createPublicationMonsters({
     chaos_spawn_goblin: {
       name: 'Chaos-Spawn Goblin',
       alignment: 'neutral evil',
-      languages: ['telepathy 120 ft'],
+      languages: ['telepathy 120 ft.'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3915,7 +3915,7 @@ export default createPublicationMonsters({
     devil_bough: {
       name: 'Devil Bough',
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -4476,7 +4476,7 @@ export default createPublicationMonsters({
     dvarapala: {
       name: 'Dvarapala',
       alignment: 'any alignment (as its patron deity)',
-      languages: ['Common', 'telepathy 120 ft'],
+      languages: ['Common', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -5015,7 +5015,7 @@ export default createPublicationMonsters({
     eye_of_the_gods: {
       name: 'Eye of the Gods',
       alignment: 'any alignment (as its creator deity)',
-      languages: ['all', 'telepathy 60 ft'],
+      languages: ['all', 'telepathy 60 ft.'],
       stats: {
         size: 'small',
         type: 'celestial',
@@ -5796,7 +5796,7 @@ export default createPublicationMonsters({
     flying_polyp: {
       name: 'Flying Polyp',
       alignment: 'chaotic evil',
-      languages: ['Deep Speech', 'telepathy 120 ft'],
+      languages: ['Deep Speech', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -7443,7 +7443,7 @@ export default createPublicationMonsters({
     gugalanna: {
       name: 'Gugalanna',
       alignment: 'chaotic good',
-      languages: ["understands all but can't speak", 'telepathy 120 ft'],
+      languages: ["understands all but can't speak", 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'celestial',
@@ -8212,7 +8212,7 @@ export default createPublicationMonsters({
     infernal_knight: {
       name: 'Infernal Knight',
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -9165,7 +9165,7 @@ export default createPublicationMonsters({
     karakura: {
       name: 'Karakura',
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft'],
+      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -9779,7 +9779,7 @@ export default createPublicationMonsters({
     lamassu: {
       name: 'Lamassu',
       alignment: 'lawful good',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -11399,7 +11399,7 @@ export default createPublicationMonsters({
     nian: {
       name: 'Nian',
       alignment: 'chaotic neutral',
-      languages: ['Sylvan', 'telepathy 60 ft'],
+      languages: ['Sylvan', 'telepathy 60 ft.'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -11978,7 +11978,7 @@ export default createPublicationMonsters({
     ophanim: {
       name: 'Ophanim',
       alignment: 'lawful good',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       appearance: [
         [
           'Two nested, fiery chariot wheels turn slowly in the air, the outer rims covered in unblinking eyes. The flames do not burn them. Sometimes it appears as an empty throne of fire instead.',
@@ -13169,7 +13169,7 @@ export default createPublicationMonsters({
     pishacha: {
       name: 'Pishacha',
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Common', 'Darakhul', 'telepathy 60 ft'],
+      languages: ['Abyssal', 'Common', 'Darakhul', 'telepathy 60 ft.'],
       appearance: [
         [
           'A ghoulish fiend, its skin a dark bluish black, with swollen red veins that shine like embers. It has a long, leering tongue and a mouth full of ragged teeth.',
@@ -13697,7 +13697,7 @@ export default createPublicationMonsters({
     ratatosk_warlord: {
       name: 'Ratatosk Warlord',
       alignment: 'chaotic neutral',
-      languages: ['Celestial', 'Common', 'telepathy 100 ft'],
+      languages: ['Celestial', 'Common', 'telepathy 100 ft.'],
       appearance: [
         [
           'A large, sleek rodent stands upright in a carved wooden breastplate, gripping a leaf-bladed silver spear and chittering with menace.',
@@ -14523,7 +14523,7 @@ export default createPublicationMonsters({
     sammael: {
       name: 'Sammael',
       alignment: 'neutral good',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       appearance: [
         [
           'A pale, beautiful, genderless angel wrapped in swirling black mist shaped like elegant robes.',
@@ -16285,7 +16285,7 @@ export default createPublicationMonsters({
     song_angel: {
       name: 'Song Angel',
       alignment: 'lawful good',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       appearance: [
         [
           'A golden-skinned woman sings a sublime melody, music notes etching themselves onto her skin as she sings.',
@@ -16445,7 +16445,7 @@ export default createPublicationMonsters({
     sooze: {
       name: 'Sooze',
       alignment: 'lawful neutral',
-      languages: ['all', 'telepathy 100 ft'],
+      languages: ['all', 'telepathy 100 ft.'],
       appearance: [
         [
           'A translucent figure that is roughly human in shape, and has two or three limbs, each holding a tool or a weapon. Inside its head you can see an odd sphere called the zom.',
@@ -17176,7 +17176,7 @@ export default createPublicationMonsters({
     thorned_sulfurlord: {
       name: 'Thorned Sulfurlord',
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Infernal', 'telepathy 120 ft.'],
       appearance: [
         [
           'A fiend built like a humanoid out of ash-grey briar. A roiling tangle of thorns takes the place of legs, a wooden mask shifts between torment, malice and ecstasy, yellow sulphur smoke curls around the hands, and a flame as hot as a forge burns in the chest.',
@@ -18425,7 +18425,7 @@ export default createPublicationMonsters({
     vellso: {
       name: 'Vellso',
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       appearance: [
         [
           'A lanky, hairless grey fiend with a wide grin of long sharp teeth, a lolling tongue, four short black horns and shining black eyes, hunched so its size is hard to judge.',
@@ -19982,7 +19982,7 @@ export default createPublicationMonsters({
     yann_an_oed: {
       name: 'Yann-An-Oed',
       alignment: 'neutral',
-      languages: ['Aquan', 'telepathy 120 ft'],
+      languages: ['Aquan', 'telepathy 120 ft.'],
       appearance: [
         [
           'A monstrous form emerges from fog like an upright toad, stump arms ending in masses of writhing tentacles, three glowing yellow eyes on each side of its head above a huge fissure of a mouth.',
@@ -20117,7 +20117,7 @@ export default createPublicationMonsters({
     yek: {
       name: 'Yek',
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       appearance: [
         [
           'A creature with a flattened, lupine face and skin pulled tight over a skeletal frame, dark red fur hung with the entrails and bones of victims and black spikes along its spine.',

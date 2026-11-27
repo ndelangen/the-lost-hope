@@ -142,7 +142,7 @@ export default createPublicationMonsters({
       name: 'Bel',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Common', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Common', 'Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -339,7 +339,7 @@ export default createPublicationMonsters({
       name: 'Bitter Breath',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1368,7 +1368,7 @@ export default createPublicationMonsters({
     hellwasp: {
       name: 'Hellwasp',
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 300 ft'],
+      languages: ['Infernal', 'telepathy 300 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1583,7 +1583,7 @@ export default createPublicationMonsters({
       name: 'Kostchtchie',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Giant', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Giant', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -2097,7 +2097,7 @@ export default createPublicationMonsters({
       name: 'Princeps Kovik',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',

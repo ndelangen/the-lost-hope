@@ -1427,7 +1427,7 @@ export default createPublicationMonsters({
     rak_tulkhesh: {
       name: 'Rak Tulkhesh',
       alignment: 'neutral evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',

@@ -11,7 +11,7 @@ export default createPublicationMonsters({
       name: 'Abhorrent Overlord',
       page: 219,
       alignment: 'lawful evil',
-      languages: ['Abyssal', 'Common', 'Infernal.'],
+      languages: ['Abyssal', 'Common', 'Infernal'],
       appearance: [
         [
           'A gaunt, bipedal demon with grey leathery skin, decked in gleaming Underworld gold jewellery.',
@@ -137,7 +137,7 @@ export default createPublicationMonsters({
       tags: ['any'],
       page: 228,
       alignment: 'any alignment',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [
         [
           'A trained soldier from one of the poleis of Theros, fighting in formation with comrades.',
@@ -232,7 +232,7 @@ export default createPublicationMonsters({
       name: 'Alseid',
       page: 234,
       alignment: 'chaotic good',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       appearance: [
         [
           "A graceful woodland creature with the slender upper body of an elf and a deer's lower body, with antlers on its forehead and a white tail.",
@@ -341,7 +341,7 @@ export default createPublicationMonsters({
       name: 'Anvilwrought Raptor',
       page: 209,
       alignment: 'unaligned',
-      languages: ["Understands one language of its creator but can't speak."],
+      languages: ["Understands one language of its creator but can't speak"],
       tableNotes: [
         [
           "Variant familiar: Some raptors are built to be familiars and gain the following trait.\nFamiliar. The raptor can form a magical telepathic bond with a willing master. The master can share the raptor's senses while they are within 1 mile of each other.",
@@ -425,7 +425,7 @@ export default createPublicationMonsters({
       name: 'Aphemia',
       page: 226,
       alignment: 'chaotic evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [['A Nyxborn harpy whose shrill song enthrals undead.']],
       lore: [
         [
@@ -573,7 +573,7 @@ export default createPublicationMonsters({
       name: 'Arasta',
       page: 248,
       alignment: 'neutral evil',
-      languages: ['Celestial', 'Common', 'Sylvan.'],
+      languages: ['Celestial', 'Common', 'Sylvan'],
       tableNotes: [
         [
           'Mythic actions: These options spend legendary actions and are available only while Arasta retains temporary HP from Armor of Spiders.\nSwipe (1 action). Make two Claws attacks.\nWeb of Hair (2 actions). Recharge and use Web of Hair.\nNyx Weave (2 actions). Each creature restrained by Web of Hair must pass a DC 21 Constitution save. On a failure, it takes 26 (4d12) force damage and any spells of 6th level or lower affecting it end.',
@@ -821,7 +821,7 @@ export default createPublicationMonsters({
       name: 'Archon of Falling Stars',
       page: 212,
       alignment: 'lawful good',
-      languages: ['All.'],
+      languages: ['All'],
       appearance: [
         [
           'An armoured archon riding a fearsome winged mount, carrying a spear of great brilliance.',
@@ -1004,7 +1004,7 @@ export default createPublicationMonsters({
       name: 'Ashen Rider',
       page: 213,
       alignment: 'lawful evil',
-      languages: ['All.'],
+      languages: ['All'],
       tableNotes: [
         ['Archon mounts: Winged Bull and Winged Lion are the most common archon mounts.'],
       ],
@@ -1205,7 +1205,7 @@ export default createPublicationMonsters({
       name: 'Blood-Toll Harpy',
       page: 227,
       alignment: 'chaotic evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [
         [
           'A cruel, scavenging harpy, found with gangs of its kind in grim places, carrying bones and stolen valuables back to a reeking nest.',
@@ -1297,7 +1297,7 @@ export default createPublicationMonsters({
       name: 'Bronze Sable',
       page: 210,
       alignment: 'unaligned',
-      languages: ["Understands one language of its creator but can't speak."],
+      languages: ["Understands one language of its creator but can't speak"],
       appearance: [
         [
           'A nimble metal beast crafted by a smith, an anvilwrought animal that looks poised and alert.',
@@ -1394,7 +1394,7 @@ export default createPublicationMonsters({
       name: 'Burnished Hart',
       page: 211,
       alignment: 'unaligned',
-      languages: ["Understands one language of its creator but can't speak."],
+      languages: ["Understands one language of its creator but can't speak"],
       appearance: [['An elegant, anvilwrought stag of metal.']],
       lore: [
         [
@@ -1527,7 +1527,7 @@ export default createPublicationMonsters({
       name: 'Colossus of Akros',
       page: 218,
       alignment: 'unaligned',
-      languages: ["Understands Common and Celestial but can't speak."],
+      languages: ["Understands Common and Celestial but can't speak"],
       appearance: [
         ['An enormous golem of bronze and iron standing on two plinths over the path to Akros.'],
       ],
@@ -1706,7 +1706,7 @@ export default createPublicationMonsters({
       name: 'Doomwake Giant',
       page: 224,
       alignment: 'lawful evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [['A massive Nyxborn giant, a fear made flesh.']],
       lore: [
         [
@@ -1824,7 +1824,7 @@ export default createPublicationMonsters({
       name: 'Eater of Hope',
       page: 220,
       alignment: 'lawful evil',
-      languages: ['Abyssal', 'Common', 'Infernal.'],
+      languages: ['Abyssal', 'Common', 'Infernal'],
       appearance: [['A bitter demon, resentful of life and joy.']],
       lore: [
         [
@@ -1935,7 +1935,7 @@ export default createPublicationMonsters({
       name: 'Fleecemane Lion',
       page: 223,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [['A lion twice the normal size with a resplendent silvery or golden mane.']],
       lore: [
         [
@@ -2086,7 +2086,7 @@ export default createPublicationMonsters({
       name: 'Flitterstep Eidolon',
       page: 222,
       alignment: 'any alignment',
-      languages: ['The languages the eidolon knew in life.'],
+      languages: ['The languages the eidolon knew in life'],
       appearance: [['A spirit-like eidolon that wanders with no purpose.']],
       lore: [
         [
@@ -2211,7 +2211,7 @@ export default createPublicationMonsters({
       name: 'Gold-Forged Sentinel',
       page: 211,
       alignment: 'unaligned',
-      languages: ['Understands one language of its creator and cannot speak.'],
+      languages: ['Understands one language of its creator and cannot speak'],
       appearance: [['A metal anvilwrought, often seen standing like a statue in high places.']],
       lore: [
         [
@@ -2326,7 +2326,7 @@ export default createPublicationMonsters({
       name: 'Hippocamp',
       page: 227,
       alignment: 'chaotic good',
-      languages: ['None.'],
+      languages: [],
       appearance: [
         ['A horse-fronted sea creature built for speed, wary but curious, usually seen in a herd.'],
       ],
@@ -2413,7 +2413,7 @@ export default createPublicationMonsters({
       name: 'Hundred-Handed One',
       page: 225,
       alignment: 'lawful neutral',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [
         [
           'A titanic giant with extra pairs of arms that orbit its body by magic, often found beside carved cliffs and ruined temples covered in reliefs.',
@@ -2525,7 +2525,7 @@ export default createPublicationMonsters({
       name: 'Hythonia',
       page: 252,
       alignment: 'lawful evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       tableNotes: [
         [
           'Mythic actions: Hythonia can spend legendary actions on these options for 1 hour after using Shed Skin. Award 36,000 XP in total if the party defeats her after she uses Shed Skin.\nNumbing Claws (1 Action). Make two Claws attacks. If both hit the same creature, it takes an additional 7 (2d6) poison damage and must make a DC 18 Constitution save. On a failure it is paralyzed until the start of Hythonia’s next turn.\nLook at Me (3 Actions). Force one sighted creature Hythonia has grappled to look into her eyes and face her Petrifying Gaze.',
@@ -2799,7 +2799,7 @@ export default createPublicationMonsters({
       name: 'Ironscale Hydra',
       page: 231,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [
         ['A five-headed hydra that lurks in wild country, most often in lakes and boggy caverns.'],
       ],
@@ -2906,7 +2906,7 @@ export default createPublicationMonsters({
       name: 'Lampad',
       page: 235,
       alignment: 'neutral evil',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       appearance: [
         ['A nymph of Theros, a divine servant found in an unspoiled corner of the world.'],
       ],
@@ -3013,7 +3013,7 @@ export default createPublicationMonsters({
       tags: ['leonin'],
       page: 232,
       alignment: 'any alignment',
-      languages: ['Common', 'Leonin.'],
+      languages: ['Common', 'Leonin'],
       appearance: [
         [
           'A leonin hunter of the Oreskos plains, a tribal warrior whose prey is the servants of the gods.',
@@ -3124,7 +3124,7 @@ export default createPublicationMonsters({
       name: 'Medusa',
       page: 206,
       alignment: 'lawful evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       habitats: ['desert'],
       stats: {
         size: 'medium',
@@ -3254,7 +3254,7 @@ export default createPublicationMonsters({
       name: 'Meletian Hoplite',
       page: 229,
       alignment: 'any alignment',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [['A Theran citizen-soldier, a highly trained warrior in a unit.']],
       lore: [
         [
@@ -3382,7 +3382,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.candlekeep_mysteries],
       page: 236,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       appearance: [['A Theran nymph, a divine servant of an unspoiled corner of the world.']],
       lore: [
         [
@@ -3482,7 +3482,7 @@ export default createPublicationMonsters({
       name: 'Nightmare Shepherd',
       page: 221,
       alignment: 'lawful evil',
-      languages: ['Abyssal', 'Common', 'Infernal.'],
+      languages: ['Abyssal', 'Common', 'Infernal'],
       appearance: [["A gaunt, ashen fiend with leathery wings, holding a shepherd's crook."]],
       lore: [
         [
@@ -3715,7 +3715,7 @@ export default createPublicationMonsters({
       tags: ['any'],
       page: 238,
       alignment: 'any alignment',
-      languages: ['Celestial', 'Common.'],
+      languages: ['Celestial', 'Common'],
       appearance: [['A mortal gifted, or cursed, with the sight to read the patterns of Nyx.']],
       lore: [
         [
@@ -3809,7 +3809,7 @@ export default createPublicationMonsters({
       name: 'Oread',
       page: 237,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       appearance: [['A Theran nymph, a divine servant of an unspoiled corner of the world.']],
       lore: [
         [
@@ -3938,7 +3938,7 @@ export default createPublicationMonsters({
       name: 'Phylaskia',
       page: 239,
       alignment: 'lawful neutral',
-      languages: ['All.'],
+      languages: ['All'],
       appearance: [['An armoured skeletal spirit standing guard at a border of the Underworld.']],
       lore: [
         [
@@ -4252,7 +4252,7 @@ export default createPublicationMonsters({
       name: 'Returned Drifter',
       page: 240,
       alignment: 'lawful neutral',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       tableNotes: [
         [
           'Returned nature: Those who follow the Path of Phenax escape the Underworld as undead. Their lost identities take shape as separate eidolons. Returned hide their blank faces behind gold masks and can form only short-lived new memories. A mask is worth about 100 gp, depending on the metal and workmanship, but many Therans refuse to trade in them.',
@@ -4336,7 +4336,7 @@ export default createPublicationMonsters({
       name: 'Returned Palamnite',
       page: 241,
       alignment: 'chaotic evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       tableNotes: [
         [
           'Returned nature: Those who follow the Path of Phenax escape the Underworld as undead. Their lost identities take shape as separate eidolons. Returned hide their blank faces behind gold masks and can form only short-lived new memories. A mask is worth about 100 gp, depending on the metal and workmanship, but many Therans refuse to trade in them.',
@@ -4428,7 +4428,7 @@ export default createPublicationMonsters({
       name: 'Returned Sentry',
       page: 241,
       alignment: 'lawful evil',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       tableNotes: [
         [
           'Returned nature: Those who follow the Path of Phenax escape the Underworld as undead. Their lost identities take shape as separate eidolons. Returned hide their blank faces behind gold masks and can form only short-lived new memories. A mask is worth about 100 gp, depending on the metal and workmanship, but many Therans refuse to trade in them.',
@@ -4524,7 +4524,7 @@ export default createPublicationMonsters({
       name: 'Satyr Reveler',
       page: 242,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       appearance: [
         [
           "A sturdy fey with goat legs and cloven hooves. Its horns can be little nubs or spiralling ram's horns, and it usually has a beard.",
@@ -4629,7 +4629,7 @@ export default createPublicationMonsters({
       name: 'Satyr Thornbearer',
       page: 243,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       appearance: [
         ['A satyr with a bow, ready to strike from the trees and melt back into the forest.'],
       ],
@@ -4727,7 +4727,7 @@ export default createPublicationMonsters({
       tags: ['any'],
       page: 229,
       alignment: 'any alignment',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [
         ['A drilled soldier of a Setessan polis, standing shoulder to shoulder with comrades.'],
       ],
@@ -4813,7 +4813,7 @@ export default createPublicationMonsters({
       name: 'Theran Chimera',
       page: 216,
       alignment: 'unaligned',
-      languages: ['Understands Draconic but cannot speak.'],
+      languages: ['Understands Draconic but cannot speak'],
       tableNotes: [
         [
           'Customizing a chimera: Use the base configuration or roll one d4 on each customization table you want to use. Apply the chosen body adjustments and replace the corresponding breath, head, or tail option. Claws remain available in every configuration. Choose which result to keep if two conflict.',
@@ -4950,7 +4950,7 @@ export default createPublicationMonsters({
       tags: ['triton'],
       page: 245,
       alignment: 'neutral',
-      languages: ['Common', 'Primordial.'],
+      languages: ['Common', 'Primordial'],
       appearance: [
         [
           'A triton mage whose arrival is usually heralded by deadly winds and waves, with living currents and deep-sea cold bending to its will.',
@@ -5078,7 +5078,7 @@ export default createPublicationMonsters({
       tags: ['triton'],
       page: 244,
       alignment: 'neutral evil',
-      languages: ['Common', 'Primordial.'],
+      languages: ['Common', 'Primordial'],
       appearance: [
         [
           'A triton assassin that slips into shallow water, often unnoticed, so victims put disappearances down to the dangers of the sea.',
@@ -5201,7 +5201,7 @@ export default createPublicationMonsters({
       tags: ['titan'],
       page: 254,
       alignment: 'any alignment',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Mythic actions: For 1 hour after Hearts of the Kraken activates, Tromokratis can spend legendary actions on these options while its mythic trait is active.\nRampage (1 action). Make one Tail attack and one Tentacle Grasp attack.\nCoral Growth (2 actions). Each creature within 10 ft. makes a DC 25 Dexterity save. Deal 13 (3d8) slashing damage on a failure or half on a success. Tromokratis and each of its hearts gain +2 AC until the start of its next turn.',
@@ -5569,7 +5569,7 @@ export default createPublicationMonsters({
       name: 'Typhon',
       page: 246,
       alignment: 'chaotic evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [['A titanic horror of writhing flesh and gnashing maws.']],
       lore: [
         [
@@ -5687,7 +5687,7 @@ export default createPublicationMonsters({
       name: 'Underworld Cerberus',
       page: 215,
       alignment: 'lawful evil',
-      languages: ['Understands every language and cannot speak.'],
+      languages: ['Understands every language and cannot speak'],
       appearance: [['A hound of the Underworld with three heads.']],
       lore: [
         [
@@ -5812,7 +5812,7 @@ export default createPublicationMonsters({
       name: 'Winged Bull',
       page: 214,
       alignment: 'unaligned',
-      languages: ['Understands Celestial and cannot speak.'],
+      languages: ['Understands Celestial and cannot speak'],
       tableNotes: [
         [
           'Archon riders: Archon of Falling Stars and Ashen Rider are two Theran archons that can ride a winged bull.',
@@ -5868,7 +5868,7 @@ export default createPublicationMonsters({
       name: 'Winged Lion',
       page: 214,
       alignment: 'unaligned',
-      languages: ['Understands Celestial and cannot speak.'],
+      languages: ['Understands Celestial and cannot speak'],
       tableNotes: [
         [
           'Archon riders: Archon of Falling Stars and Ashen Rider are two Theran archons that can ride a winged lion.',

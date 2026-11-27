@@ -9,7 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     bodytaker_plant: {
       name: 'Bodytaker Plant',
-      languages: ['Deep Speech', 'telepathy 120 ft'],
+      languages: ['Deep Speech', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -423,7 +423,7 @@ export default createPublicationMonsters({
     },
     inquisitor_of_the_mind_fire: {
       name: 'Inquisitor of the Mind Fire',
-      languages: ['any three languages', 'telepathy 120 ft'],
+      languages: ['any three languages', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -561,7 +561,7 @@ export default createPublicationMonsters({
     },
     inquisitor_of_the_sword: {
       name: 'Inquisitor of the Sword',
-      languages: ['any two languages', 'telepathy 120 ft'],
+      languages: ['any two languages', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -658,7 +658,7 @@ export default createPublicationMonsters({
     },
     inquisitor_of_the_tome: {
       name: 'Inquisitor of the Tome',
-      languages: ['any four languages', 'telepathy 120 ft'],
+      languages: ['any four languages', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -970,7 +970,7 @@ export default createPublicationMonsters({
     },
     necrichor: {
       name: 'Necrichor',
-      languages: ['any three languages', 'telepathy 120 ft'],
+      languages: ['any three languages', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'undead',

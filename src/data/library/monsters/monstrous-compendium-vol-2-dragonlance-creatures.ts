@@ -11,7 +11,7 @@ export default createPublicationMonsters({
       name: 'Forest Master',
       tags: ['unicorn'],
       alignment: 'neutral good',
-      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft'],
+      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft.'],
       stats: {
         size: 'large',
         type: 'celestial',

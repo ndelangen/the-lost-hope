@@ -108,7 +108,7 @@ export default createPublicationMonsters({
       name: 'Aartuk Elder',
       page: 8,
       alignment: 'typically lawful evil',
-      languages: ['Aartuk.'],
+      languages: ['Aartuk'],
       appearance: [
         [
           'A five-pointed star of thick, flexible bark with suction-cup tips and a head on a 6-foot extendable stalk.',
@@ -231,7 +231,7 @@ export default createPublicationMonsters({
       name: 'Aartuk Starhorror',
       page: 9,
       alignment: 'typically lawful evil',
-      languages: ['Aartuk.'],
+      languages: ['Aartuk'],
       appearance: [
         [
           'A five-pointed star of thick, flexible bark with suction-cup tips and a head on a 6-foot extendable stalk.',
@@ -366,7 +366,7 @@ export default createPublicationMonsters({
       name: 'Aartuk Weedling',
       page: 9,
       alignment: 'typically lawful evil',
-      languages: ['Aartuk.'],
+      languages: ['Aartuk'],
       appearance: [
         [
           'Aartuk are star-shaped plant creatures covered in thick spiked bark, moving on suction-tipped branches, with a head on a snake-like stalk. They can blend into sand, rock or foliage.',
@@ -476,7 +476,7 @@ export default createPublicationMonsters({
       name: 'Adult Lunar Dragon',
       page: 34,
       alignment: 'typically neutral evil',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         [
           'Lair: The dragon burrows a cave system inside a barren moon. Hidden chambers hold its hoard, often with spelljamming helms taken from trespassing ships. The caves may shelter springs, vents, wild plants, or life adapted to the moon.',
@@ -660,7 +660,7 @@ export default createPublicationMonsters({
       name: 'Adult Solar Dragon',
       page: 51,
       alignment: 'typically neutral',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -995,7 +995,7 @@ export default createPublicationMonsters({
       name: 'Ancient Lunar Dragon',
       page: 32,
       alignment: 'typically neutral evil',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         [
           'Lair: The dragon burrows a cave system inside a barren moon. Hidden chambers hold its hoard, often with spelljamming helms taken from trespassing ships. The caves may shelter springs, vents, wild plants, or life adapted to the moon.',
@@ -1211,7 +1211,7 @@ export default createPublicationMonsters({
       name: 'Ancient Solar Dragon',
       page: 50,
       alignment: 'typically neutral',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -1384,7 +1384,7 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       page: 11,
       alignment: 'any alignment',
-      languages: ['Celestial', 'Common', 'Draconic', 'Elvish.'],
+      languages: ['Celestial', 'Common', 'Draconic', 'Elvish'],
       tableNotes: [
         [
           'Astral Elf society: Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.',
@@ -1537,7 +1537,7 @@ export default createPublicationMonsters({
       name: 'Astral Elf Commander',
       page: 12,
       alignment: 'any alignment',
-      languages: ['Celestial', 'Common', 'Elvish.'],
+      languages: ['Celestial', 'Common', 'Elvish'],
       tableNotes: [
         [
           'Astral Elf society: Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.',
@@ -1654,7 +1654,7 @@ export default createPublicationMonsters({
       name: 'Astral Elf Honor Guard',
       page: 12,
       alignment: 'any alignment',
-      languages: ['Celestial', 'Common', 'Elvish.'],
+      languages: ['Celestial', 'Common', 'Elvish'],
       tableNotes: [
         [
           'Astral Elf society: Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.',
@@ -1753,7 +1753,7 @@ export default createPublicationMonsters({
       tags: ['cleric'],
       page: 13,
       alignment: 'any alignment',
-      languages: ['Celestial', 'Common', 'Elvish.'],
+      languages: ['Celestial', 'Common', 'Elvish'],
       tableNotes: [
         [
           'Astral Elf society: Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.',
@@ -1881,7 +1881,7 @@ export default createPublicationMonsters({
       name: 'Astral Elf Warrior',
       page: 13,
       alignment: 'any alignment',
-      languages: ['Celestial', 'Common', 'Elvish.'],
+      languages: ['Celestial', 'Common', 'Elvish'],
       tableNotes: [
         [
           'Astral Elf society: Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.',
@@ -1982,7 +1982,7 @@ export default createPublicationMonsters({
       name: 'Braxat',
       page: 15,
       alignment: 'typically neutral',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       tableNotes: [['Spellcasting is listed in the source as "Spellcasting (Psionics)".']],
       appearance: [
         [
@@ -2416,7 +2416,7 @@ export default createPublicationMonsters({
       name: 'Dohwar',
       page: 19,
       alignment: 'any alignment',
-      languages: ['Common', 'Dohwar', 'telepathy 30 ft. (see also Merging below).'],
+      languages: ['Common', 'Dohwar', 'telepathy 30 ft. (see also Merging below)'],
       appearance: [
         [
           'A pudgy flightless bird three feet tall with the look and the waddle of a penguin. Its plumage is a single bright colour of the rainbow, and it wears a gaudy jumble of clothes, often with a hood.',
@@ -2609,7 +2609,7 @@ export default createPublicationMonsters({
       name: 'Eye Monger',
       page: 21,
       alignment: 'typically lawful evil',
-      languages: ['Deep Speech.'],
+      languages: ['Deep Speech'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -3079,7 +3079,7 @@ export default createPublicationMonsters({
       name: 'Gaj',
       page: 23,
       alignment: 'typically neutral evil',
-      languages: ['Understands all languages and cannot speak.'],
+      languages: ['Understands all languages and cannot speak'],
       appearance: [
         [
           'A hideous six-legged insectoid hunter with a spongy two-foot globe of a head, three feathery antennae, six compound eyes and six finger-like appendages over its mouth.',
@@ -3236,7 +3236,7 @@ export default createPublicationMonsters({
       name: 'Giff Shipmate',
       page: 24,
       alignment: 'any alignment',
-      languages: ['Common.'],
+      languages: ['Common'],
       habitats: ['Wildspace', 'Spelljamming ships'],
       appearance: [['A hippo-headed sailor armed with a sword and musket.']],
       tableNotes: [['Use the higher Longsword damage only in two-handed melee.']],
@@ -3333,7 +3333,7 @@ export default createPublicationMonsters({
       name: 'Giff Shock Trooper',
       page: 25,
       alignment: 'any alignment',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [['A giff soldier with a firearm, trained for assaults on strongholds.']],
       lore: [
         [
@@ -3457,7 +3457,7 @@ export default createPublicationMonsters({
       tags: ['gith'],
       page: 27,
       alignment: 'any alignment',
-      languages: ['Common', 'Gith.'],
+      languages: ['Common', 'Gith'],
       appearance: [
         ['A githyanki raider from the Astral Plane who has escaped the rule of the Lich-Queen.'],
       ],
@@ -3565,7 +3565,7 @@ export default createPublicationMonsters({
       tags: ['gith', 'warlock'],
       page: 27,
       alignment: 'any alignment',
-      languages: ['Common', 'Gith.'],
+      languages: ['Common', 'Gith'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3642,7 +3642,7 @@ export default createPublicationMonsters({
       tags: ['druid', 'gith'],
       page: 27,
       alignment: 'any alignment',
-      languages: ['Gith plus any four languages.'],
+      languages: ['Gith plus any four languages'],
       appearance: [['A githyanki scholar who studies and catalogues creatures it has never seen.']],
       lore: [
         [
@@ -3807,7 +3807,7 @@ export default createPublicationMonsters({
       name: 'Hadozee Explorer',
       page: 28,
       alignment: 'any alignment',
-      languages: ['Common', 'Hadozee.'],
+      languages: ['Common', 'Hadozee'],
       appearance: [
         [
           "A hadozee in light travelling gear with a navigator's tools, comfortable on a ship's rigging and watching the stars and the glow of the Astral Plane with open curiosity.",
@@ -3904,7 +3904,7 @@ export default createPublicationMonsters({
       name: 'Hadozee Shipmate',
       page: 29,
       alignment: 'any alignment',
-      languages: ['Common', 'Hadozee.'],
+      languages: ['Common', 'Hadozee'],
       appearance: [
         [
           'A hadozee deckhand doing the chores of a ship, one of the many crew members that a spelljamming vessel carries.',
@@ -3970,7 +3970,7 @@ export default createPublicationMonsters({
       name: 'Hadozee Warrior',
       page: 29,
       alignment: 'any alignment',
-      languages: ['Common', 'Hadozee.'],
+      languages: ['Common', 'Hadozee'],
       appearance: [
         [
           'A hadozee fighter in mercenary gear, commonly one of a squad that has given itself a painted look or a showy name.',
@@ -4267,7 +4267,7 @@ export default createPublicationMonsters({
       name: 'Lunar Dragon Wyrmling',
       page: 35,
       alignment: 'typically neutral evil',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         [
           'Lunar dragon ages: Young Lunar Dragon, Adult Lunar Dragon, and Ancient Lunar Dragon are the older forms.',
@@ -4481,7 +4481,7 @@ export default createPublicationMonsters({
       name: 'Mercane',
       page: 37,
       alignment: 'typically lawful neutral',
-      languages: ['Common', 'Giant', 'telepathy 60 ft. (see also Mercane telepathy).'],
+      languages: ['Common', 'Giant', 'telepathy 60 ft. (see also Mercane telepathy)'],
       appearance: [
         [
           'A lanky blue figure twelve feet tall, in elegant robes, with an elongated head and long spindly fingers. It is rarely alone, but may come with underlings or bodyguards.',
@@ -4580,7 +4580,7 @@ export default createPublicationMonsters({
       name: 'Murder Comet',
       page: 38,
       alignment: 'typically neutral evil',
-      languages: ['Ignan', 'Terran.'],
+      languages: ['Ignan', 'Terran'],
       tableNotes: [
         [
           "Creator-bound form: A creator can bind their spirit to the comet and take its form, becoming ageless and immortal. The comet bears the creator's face. Use the creator's Intelligence, Wisdom, Charisma, alignment, and languages in place of the base comet's.",
@@ -4709,7 +4709,7 @@ export default createPublicationMonsters({
       name: 'Neh-thalggu',
       page: 39,
       alignment: 'typically chaotic neutral',
-      languages: ['Deep Speech. See Brain Dump for additional languages.'],
+      languages: ['Deep Speech. See Brain Dump for additional languages'],
       tableNotes: [
         [
           'Encounter setup: Roll 1d12 to set the number of brains the collector already has. Track any more it consumes during the encounter.',
@@ -5124,7 +5124,7 @@ export default createPublicationMonsters({
       name: 'Night Scavver',
       page: 49,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Encounter context: In the Wildspace encounter table, a night scavver hunts with 2d6 Gray Scavvers.',
@@ -5181,7 +5181,7 @@ export default createPublicationMonsters({
       name: 'Plasmoid Boss',
       page: 42,
       alignment: 'any alignment',
-      languages: ['Common.'],
+      languages: ['Common'],
       tableNotes: [
         [
           'Allies: Use a Plasmoid Warrior for an armed bodyguard or a Plasmoid Explorer for a scout.',
@@ -5260,7 +5260,7 @@ export default createPublicationMonsters({
       name: 'Plasmoid Explorer',
       page: 43,
       alignment: 'any alignment',
-      languages: ['Common.'],
+      languages: ['Common'],
       tableNotes: [
         [
           'Other plasmoids: See the Plasmoid Boss for a leader or the Plasmoid Warrior for an armed escort.',
@@ -5351,7 +5351,7 @@ export default createPublicationMonsters({
       name: 'Plasmoid Warrior',
       page: 43,
       alignment: 'any alignment',
-      languages: ['Common.'],
+      languages: ['Common'],
       tableNotes: [
         [
           'Other plasmoids: A Plasmoid Boss might employ a warrior as a guard. Use a Plasmoid Explorer for a scout.',
@@ -5841,7 +5841,7 @@ export default createPublicationMonsters({
       name: 'Reigar',
       page: 47,
       alignment: 'typically chaotic neutral',
-      languages: ['Celestial', 'Common', 'Deep Speech', 'Draconic.'],
+      languages: ['Celestial', 'Common', 'Deep Speech', 'Draconic'],
       tableNotes: [
         ['The printing labels its Spellcasting "(Psionics)".'],
         [
@@ -5989,7 +5989,7 @@ export default createPublicationMonsters({
       name: 'Solar Dragon Wyrmling',
       page: 53,
       alignment: 'typically neutral',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -6101,7 +6101,7 @@ export default createPublicationMonsters({
       name: 'Space Clown',
       page: 54,
       alignment: 'typically chaotic evil',
-      languages: ['Abyssal', 'Common.'],
+      languages: ['Abyssal', 'Common'],
       tableNotes: [
         [
           'Encounter context: Dohwar merchants supplied the first Clownspace ships with spelljamming helms. The clowns lure prey into carnival tents on settled worlds. Their ray guns are harmless in anyone else’s hands.',
@@ -6543,7 +6543,7 @@ export default createPublicationMonsters({
       tags: ['lizardfolk'],
       page: 58,
       alignment: 'any alignment',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         ['Spellcasting source label: (Psionics).'],
         ['Other ssurran: A Ssurran Poisoner has a shield, poisoned javelins, and gas bombs.'],
@@ -6667,7 +6667,7 @@ export default createPublicationMonsters({
       tags: ['lizardfolk'],
       page: 58,
       alignment: 'any alignment',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         ['Other ssurran: A Ssurran Defiler drains life instead of carrying poison bombs.'],
       ],
@@ -6763,7 +6763,7 @@ export default createPublicationMonsters({
       name: 'Starlight Apparition',
       page: 59,
       alignment: 'typically neutral good',
-      languages: ['Languages it knew while alive.'],
+      languages: ['Languages it knew while alive'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -7208,7 +7208,7 @@ export default createPublicationMonsters({
       name: 'Vampirate',
       page: 62,
       alignment: 'typically lawful evil',
-      languages: ['Languages it knew while alive.'],
+      languages: ['Languages it knew while alive'],
       tableNotes: [
         ['Crew: A vampirate crew may keep one or more Shadows of its former victims aboard.'],
       ],
@@ -7295,7 +7295,7 @@ export default createPublicationMonsters({
       name: 'Vampirate Captain',
       page: 63,
       alignment: 'typically lawful evil',
-      languages: ['Languages it knew while alive.'],
+      languages: ['Languages it knew while alive'],
       tableNotes: [
         ["Companions: A Crawling Claw or Will-o'-Wisp often accompanies the captain."],
         [
@@ -7418,7 +7418,7 @@ export default createPublicationMonsters({
       name: 'Vampirate Mage',
       page: 63,
       alignment: 'typically lawful evil',
-      languages: ['the languages it knew in life.'],
+      languages: ['the languages it knew in life'],
       appearance: [['A vampirate spellcaster seated at the helm of its ship.']],
       lore: [
         [
@@ -7651,7 +7651,7 @@ export default createPublicationMonsters({
       name: 'Young Lunar Dragon',
       page: 35,
       alignment: 'typically neutral evil',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         [
           'Lunar dragon ages: The Lunar Dragon Wyrmling is alabaster white. Its scales darken as it ages into an Adult Lunar Dragon, then turn slate-colored as an Ancient Lunar Dragon. During Phase, part of the dragon looks spectral, but it still cannot move through creatures or solid objects.',
@@ -7785,7 +7785,7 @@ export default createPublicationMonsters({
       name: 'Young Solar Dragon',
       page: 53,
       alignment: 'typically neutral',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -7907,7 +7907,7 @@ export default createPublicationMonsters({
       name: 'Zodar',
       page: 64,
       alignment: 'typically neutral',
-      languages: ['See Disembodied Voice.'],
+      languages: ['See Disembodied Voice'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [

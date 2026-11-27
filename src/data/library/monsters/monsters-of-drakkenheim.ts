@@ -1336,7 +1336,7 @@ export default createPublicationMonsters({
     },
     cerebrograft: {
       name: 'Cerebrograft',
-      languages: ['telepathy 30 ft'],
+      languages: ['telepathy 30 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2423,7 +2423,7 @@ export default createPublicationMonsters({
     },
     deep_knight: {
       name: 'Deep Knight',
-      languages: ['Common', 'telepathy 60 ft'],
+      languages: ['Common', 'telepathy 60 ft.'],
       tableNotes: [['Gear: shield, spear']],
       stats: {
         size: 'large',
@@ -2538,7 +2538,7 @@ export default createPublicationMonsters({
     },
     deep_siren: {
       name: 'Deep Siren',
-      languages: ['Common', 'telepathy 60 ft'],
+      languages: ['Common', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -2685,7 +2685,7 @@ export default createPublicationMonsters({
     },
     disembodied_psyche: {
       name: 'Disembodied Psyche',
-      languages: ['Common', 'telepathy 30 ft'],
+      languages: ['Common', 'telepathy 30 ft.'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -6080,7 +6080,7 @@ export default createPublicationMonsters({
     },
     lurker_on_the_threshold: {
       name: 'Lurker on the Threshold',
-      languages: ['telepathy 120 ft'],
+      languages: ['telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',

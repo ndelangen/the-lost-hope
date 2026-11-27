@@ -10,7 +10,7 @@ export default createPublicationMonsters({
     aboleth: {
       name: 'Aboleth',
       alignment: 'lawful evil',
-      languages: ['Deep Speech', 'telepathy 120 ft'],
+      languages: ['Deep Speech', 'telepathy 120 ft.'],
       appearance: [
         [
           'A huge fish-like horror rises from dark water, slime dripping from it as it studies you.',
@@ -4535,7 +4535,7 @@ export default createPublicationMonsters({
       name: 'Balor',
       tags: ['Demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       appearance: [
         ['A huge fiend wreathed in fire looms, a flaming whip and lightning sword in hand.'],
       ],
@@ -5466,7 +5466,7 @@ export default createPublicationMonsters({
       name: 'Bone Devil',
       tags: ['Devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -6046,7 +6046,7 @@ export default createPublicationMonsters({
       name: 'Chain Devil',
       tags: ['Devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -6866,7 +6866,7 @@ export default createPublicationMonsters({
     couatl: {
       name: 'Couatl',
       alignment: 'lawful good',
-      languages: ['All', 'telepathy 120 ft'],
+      languages: ['All', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -7176,7 +7176,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Angel'],
       alignment: 'lawful good',
-      languages: ['All', 'telepathy 120 ft'],
+      languages: ['All', 'telepathy 120 ft.'],
       appearance: [
         [
           'A beautiful humanoid with silvery skin, hair and eyes that gleam with an unearthly light, and large feathered wings that unfurl from the shoulders. Often it hides as an ordinary person or animal.',
@@ -8354,7 +8354,7 @@ export default createPublicationMonsters({
       name: 'Erinyes',
       tags: ['Devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -11232,7 +11232,7 @@ export default createPublicationMonsters({
       name: 'Hezrou',
       tags: ['Demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -11558,7 +11558,7 @@ export default createPublicationMonsters({
       name: 'Horned Devil',
       tags: ['Devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -11757,7 +11757,7 @@ export default createPublicationMonsters({
       name: 'Ice Devil',
       tags: ['Devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -12033,7 +12033,7 @@ export default createPublicationMonsters({
     incubus: {
       name: 'Incubus',
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft'],
+      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -13510,7 +13510,7 @@ export default createPublicationMonsters({
       name: 'Marilith',
       tags: ['Demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       appearance: [
         [
           'A serpent from the waist down with the torso of a humanoid woman with six arms, each wielding a blade.',
@@ -14330,7 +14330,7 @@ export default createPublicationMonsters({
       name: 'Nalfeshnee',
       tags: ['Demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -15036,7 +15036,7 @@ export default createPublicationMonsters({
       name: 'Pit Fiend',
       tags: ['Devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       appearance: [
         [
           'A hulking devil with a whip-like tail and huge wings wrapped round itself like a cloak, armoured with scales, and a fanged maw dripping venom.',
@@ -15222,7 +15222,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       tags: ['Angel'],
       alignment: 'lawful good',
-      languages: ['All', 'telepathy 120 ft'],
+      languages: ['All', 'telepathy 120 ft.'],
       appearance: [
         [
           'A towering celestial warrior whose look varies: some are bald and statuesque, others resemble classical winged angels. It carries a great sword.',
@@ -17258,7 +17258,7 @@ export default createPublicationMonsters({
       name: 'Solar',
       tags: ['Angel'],
       alignment: 'lawful good',
-      languages: ['All', 'telepathy 120 ft'],
+      languages: ['All', 'telepathy 120 ft.'],
       appearance: [
         [
           'A godlike angelic figure of overwhelming glory, wielding a living sword that flies into the fray on its own and a bow whose single arrow can kill on contact.',
@@ -18607,7 +18607,7 @@ export default createPublicationMonsters({
     succubus: {
       name: 'Succubus',
       alignment: 'neutral evil',
-      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft'],
+      languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -19674,7 +19674,7 @@ export default createPublicationMonsters({
     unicorn: {
       name: 'Unicorn',
       alignment: 'lawful good',
-      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 120 ft'],
+      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 120 ft.'],
       appearance: [
         [
           'A white horse-like celestial that glimmers like starlight, with a single spiralling ivory horn on its brow. It slips in and out of sight in the woods.',
@@ -20300,7 +20300,7 @@ export default createPublicationMonsters({
       name: 'Vrock',
       tags: ['Demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       appearance: [
         [
           'A winged demon that leaks clouds of toxic spores from its body and lets out a horrific, disorienting screech.',

@@ -3489,7 +3489,7 @@ export default createPublicationMonsters({
     malformed_kraken: {
       name: 'Malformed Kraken',
       alignment: 'chaotic evil',
-      languages: ["understands Common but can't speak", 'telepathy 60 ft'],
+      languages: ["understands Common but can't speak", 'telepathy 60 ft.'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -5942,7 +5942,7 @@ export default createPublicationMonsters({
     white_maw: {
       name: 'White Maw',
       alignment: 'chaotic neutral',
-      languages: ['telepathy 50 ft'],
+      languages: ['telepathy 50 ft.'],
       stats: {
         size: 'gargantuan',
         type: 'ooze',

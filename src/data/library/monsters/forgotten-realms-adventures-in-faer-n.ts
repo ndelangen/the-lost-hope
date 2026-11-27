@@ -149,7 +149,7 @@ export default createPublicationMonsters({
     adult_spirit_dragon: {
       name: 'Adult Spirit Dragon',
       alignment: 'neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       habitats: ['any'],
       stats: {
         size: 'huge',
@@ -472,7 +472,7 @@ export default createPublicationMonsters({
     ancient_spirit_dragon: {
       name: 'Ancient Spirit Dragon',
       alignment: 'neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       habitats: ['any'],
       stats: {
         size: 'gargantuan',
@@ -1870,7 +1870,7 @@ export default createPublicationMonsters({
     phaerimm_hatchling: {
       name: 'Phaerimm Hatchling',
       alignment: 'neutral evil',
-      languages: ['telepathy 30 ft'],
+      languages: ['telepathy 30 ft.'],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
       stats: {
         size: 'small',
@@ -2631,7 +2631,7 @@ export default createPublicationMonsters({
     spirit_dragon_wyrmling: {
       name: 'Spirit Dragon Wyrmling',
       alignment: 'neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       habitats: ['any'],
       stats: {
         size: 'medium',
@@ -3147,7 +3147,7 @@ export default createPublicationMonsters({
     young_spirit_dragon: {
       name: 'Young Spirit Dragon',
       alignment: 'neutral',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       habitats: ['any'],
       stats: {
         size: 'large',

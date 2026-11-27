@@ -12,7 +12,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 239,
       alignment: 'chaotic neutral',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       appearance: [['A scavenger in hide armour, with weapons picked from the rubble.']],
       lore: [
         [
@@ -66,7 +66,7 @@ export default createPublicationMonsters({
       name: 'Archon of the Triumvirate',
       page: 192,
       alignment: 'lawful neutral',
-      languages: ['All.'],
+      languages: ['All'],
       tableNotes: [
         [
           'Mount stat block: Use Felidar for the usual mount and add a fly speed of 40 ft. as described in the Winged Felidars sidebar.',
@@ -267,7 +267,7 @@ export default createPublicationMonsters({
       name: 'Arclight Phoenix',
       page: 193,
       alignment: 'chaotic neutral',
-      languages: ['None.'],
+      languages: [],
       appearance: [
         [
           'A bird of prey formed from electrical energy with lightning fanning out behind it as it bolts across the sky.',
@@ -394,7 +394,7 @@ export default createPublicationMonsters({
       tags: ['angel'],
       page: 230,
       alignment: 'lawful good',
-      languages: ['All.'],
+      languages: ['All'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -574,7 +574,7 @@ export default createPublicationMonsters({
       name: 'Battleforce Angel',
       page: 189,
       alignment: 'lawful good',
-      languages: ['All.'],
+      languages: ['All'],
       appearance: [
         ['A glowing Boros angel diving into battle, wrapped in the light of the Boros Legion.'],
       ],
@@ -666,7 +666,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 256,
       alignment: 'neutral good',
-      languages: ['Common plus any one language.'],
+      languages: ['Common plus any one language'],
       appearance: [['A Simic specialist working in the fusing and changing of creatures.']],
       lore: [
         [
@@ -740,7 +740,7 @@ export default createPublicationMonsters({
       name: 'Blistercoil Weird',
       page: 207,
       alignment: 'chaotic neutral',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       appearance: [
         [
           'A brutish, vaguely human form of water and molten rock, its ooze-like body swelling as it soaks up fire.',
@@ -856,7 +856,7 @@ export default createPublicationMonsters({
       name: 'Blood Drinker Vampire',
       page: 223,
       alignment: 'lawful evil',
-      languages: ['The languages the vampire knew in life.'],
+      languages: ['The languages the vampire knew in life'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [['An ageless, elegant predator whose sophistication hides a hungry mouth.']],
       lore: [
@@ -982,7 +982,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 248,
       alignment: 'chaotic evil',
-      languages: ['Abyssal and one other language', 'usually Common.'],
+      languages: ['Abyssal and one other language', 'usually Common'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
       appearance: [
         ['A smart, charismatic Rakdos cultist who carries a grand title and an air of importance.'],
@@ -1115,7 +1115,7 @@ export default createPublicationMonsters({
       name: 'Bloodfray Giant',
       page: 200,
       alignment: 'chaotic evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [
         [
           'A towering Rakdos giant, a bouncer and enforcer, watching a violent show with rapt attention.',
@@ -1199,7 +1199,7 @@ export default createPublicationMonsters({
       name: 'Borborygmos',
       page: 238,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       appearance: [
         [
           'An enormous cyclops, burning with rage at the city, usually surrounded by members of his clan from burly giants to cowering goblins.',
@@ -1413,7 +1413,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 195,
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Common.'],
+      languages: ['Abyssal', 'Common'],
       appearance: [
         ['A small, mischievous demon of the Rakdos cult, the sort Ravnica calls a devil.'],
       ],
@@ -1516,7 +1516,7 @@ export default createPublicationMonsters({
       name: 'Category 1 Krasis',
       page: 210,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Creating a krasis: Roll a d8 or choose once on each table. Apply one major and one minor adaptation to this base stat block before running the encounter.',
@@ -1603,7 +1603,7 @@ export default createPublicationMonsters({
       name: 'Category 2 Krasis',
       page: 211,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Creating a krasis: Roll a d8 or choose once on each table. Apply one major and one minor adaptation to this base stat block before running the encounter.',
@@ -1690,7 +1690,7 @@ export default createPublicationMonsters({
       name: 'Category 3 Krasis',
       page: 212,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Creating a krasis: Roll a d8 or choose once on each table. Apply one major and one minor adaptation to this base stat block before running the encounter.',
@@ -1808,7 +1808,7 @@ export default createPublicationMonsters({
       name: 'Conclave Dryad',
       page: 194,
       alignment: 'lawful good',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       appearance: [
         ['A Selesnya dryad, who may ride a mount woven of living branches, vines and grasses.'],
       ],
@@ -1963,7 +1963,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 242,
       alignment: 'chaotic neutral',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       appearance: [["An Izzet field operative carrying the guild's latest devices."]],
       lore: [
         [
@@ -2042,7 +2042,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 242,
       alignment: 'chaotic neutral',
-      languages: ['Common plus one other language.'],
+      languages: ['Common plus one other language'],
       tableNotes: [['Alternate armor classes: 16 · with mage armor']],
       appearance: [["An Izzet field operative carrying the guild's latest devices."]],
       lore: [
@@ -2118,7 +2118,7 @@ export default createPublicationMonsters({
       name: 'Deathpact Angel',
       page: 191,
       alignment: 'lawful evil',
-      languages: ['All.'],
+      languages: ['All'],
       tableNotes: [
         [
           'Debts Paid: A deathpact angel may offer an indentured spirit release from its debt. If the spirit sees the angel fall to 0 HP, the spirit can destroy itself to bring the angel back to life with 1 HP.',
@@ -2276,7 +2276,7 @@ export default createPublicationMonsters({
       name: 'Devkarin Lich',
       page: 198,
       alignment: 'neutral evil',
-      languages: ['Common', 'Elvish', 'Kraul.'],
+      languages: ['Common', 'Elvish', 'Kraul'],
       appearance: [
         [
           'A graceful Devkarin elf in slow decay, with fungus growing through the rotting flesh to hold it together.',
@@ -2446,7 +2446,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 239,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Druidic.'],
+      languages: ['Common', 'Druidic'],
       appearance: [['A wild and savage Gruul druid who follows the way of the beast gods.']],
       lore: [
         [
@@ -2517,7 +2517,7 @@ export default createPublicationMonsters({
       name: 'Felidar',
       page: 199,
       alignment: 'lawful neutral',
-      languages: ["Understands Celestial and Common but can't speak."],
+      languages: ["Understands Celestial and Common but can't speak"],
       tableNotes: [
         ['Winged Felidars: A winged felidar uses this block and gains a flying speed of 40 ft.'],
       ],
@@ -2639,7 +2639,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 231,
       alignment: 'lawful good',
-      languages: ['Any one language (usually Common).'],
+      languages: ['Any one language (usually Common)'],
       appearance: [
         ['A Boros battle-mage whose fighting skill and magic inspire the soldiers beside them.'],
       ],
@@ -2711,7 +2711,7 @@ export default createPublicationMonsters({
       name: 'Firemane Angel',
       page: 190,
       alignment: 'chaotic good',
-      languages: ['All.'],
+      languages: ['All'],
       appearance: [['A Boros angel, a fierce warrior and commander.']],
       lore: [
         [
@@ -2814,7 +2814,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 242,
       alignment: 'chaotic neutral',
-      languages: ['Common plus one other language.'],
+      languages: ['Common plus one other language'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
       appearance: [["An Izzet field operative carrying the guild's latest devices."]],
       lore: [
@@ -2900,7 +2900,7 @@ export default createPublicationMonsters({
       name: 'Fluxcharger',
       page: 208,
       alignment: 'chaotic neutral',
-      languages: ['Draconic.'],
+      languages: ['Draconic'],
       appearance: [
         [
           'A weird with a mizzium frame that suggests an angel, and a faceplate with a solemn, unblinking stare most find unnerving.',
@@ -3015,7 +3015,7 @@ export default createPublicationMonsters({
       name: 'Flying Horror',
       page: 203,
       alignment: 'neutral evil',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Customizing a Horror: For a customized Flying Horror, choose or roll one primary and one secondary feature on two d4s.',
@@ -3135,7 +3135,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 231,
       alignment: 'lawful good',
-      languages: ['Any one language', 'usually Common.'],
+      languages: ['Any one language', 'usually Common'],
       appearance: [['A Boros healer working close to the fighting.']],
       lore: [
         [
@@ -3193,7 +3193,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 243,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Primordial', 'and one other language.'],
+      languages: ['Common', 'Primordial', 'and one other language'],
       appearance: [["An Izzet field operative carrying the guild's latest devices."]],
       lore: [
         [
@@ -3288,7 +3288,7 @@ export default createPublicationMonsters({
       name: 'Galvanice Weird',
       page: 209,
       alignment: 'chaotic neutral',
-      languages: ['None.'],
+      languages: [],
       appearance: [['A rigid body of elemental ice animated by a core of lightning.']],
       lore: [
         [
@@ -3390,7 +3390,7 @@ export default createPublicationMonsters({
       name: 'Gloamwing',
       page: 215,
       alignment: 'neutral evil',
-      languages: ['Understands Common.'],
+      languages: ['Understands Common'],
       tableNotes: [
         [
           'Rider: The Nightveil Specter’s Mount trait grants both creatures advantage on Dexterity saves while the specter is mounted and not incapacitated. See the rider’s profile for its mounting and replacement-mount rules.',
@@ -3501,7 +3501,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 236,
       alignment: 'neutral evil',
-      languages: ['Common and Elvish.'],
+      languages: ['Common and Elvish'],
       tableNotes: [
         [
           'Regional effects: A Golgari lair produces one or both of these effects, only belowground. Moss and fungi cover underground surfaces within half a mile. When a Small or Medium humanoid dies within the lair, roll any die. On an odd result the corpse rises as a fungus drudge using the 2014 Zombie stat block after 1d8 hours, unless the body is destroyed first. If all Golgari in the lair die, its effects fade over 1d10 days.',
@@ -3694,7 +3694,7 @@ export default createPublicationMonsters({
       name: 'Guardian Giant',
       page: 201,
       alignment: 'lawful neutral',
-      languages: ['Common and Giant.'],
+      languages: ['Common and Giant'],
       appearance: [
         ['A giant like an enormous human with huge muscles and a comparatively small head.'],
       ],
@@ -3766,7 +3766,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 253,
       alignment: 'lawful good',
-      languages: ['Common plus any one language.'],
+      languages: ['Common plus any one language'],
       appearance: [
         [
           'A Selesnya shaman with a horn and animals about them, as at home in a park as in a battle line.',
@@ -3860,7 +3860,7 @@ export default createPublicationMonsters({
       tags: ['Simic hybrid'],
       page: 217,
       alignment: 'neutral good',
-      languages: ['Common and one other language.'],
+      languages: ['Common and one other language'],
       appearance: [
         [
           'A Simic guardian hybrid built for brute force, grown from a volunteer human, vedalken or elf.',
@@ -3918,7 +3918,7 @@ export default createPublicationMonsters({
       tags: ['Simic hybrid'],
       page: 217,
       alignment: 'neutral good',
-      languages: ['Common and one other language.'],
+      languages: ['Common and one other language'],
       appearance: [
         ['A Simic guardian hybrid adapted to fly, from a volunteer human, vedalken or elf.'],
       ],
@@ -3987,7 +3987,7 @@ export default createPublicationMonsters({
       tags: ['Simic hybrid'],
       page: 217,
       alignment: 'neutral good',
-      languages: ['Common and one other language.'],
+      languages: ['Common and one other language'],
       appearance: [
         ['A Simic guardian hybrid shaped for venom, from a volunteer human, vedalken or elf.'],
       ],
@@ -4077,7 +4077,7 @@ export default createPublicationMonsters({
       tags: ['Simic hybrid'],
       page: 218,
       alignment: 'neutral good',
-      languages: ['Common and one other language.'],
+      languages: ['Common and one other language'],
       appearance: [
         [
           'A Simic guardian hybrid grown to deliver shocks, from a volunteer human, vedalken or elf.',
@@ -4170,7 +4170,7 @@ export default createPublicationMonsters({
       tags: ['Simic hybrid'],
       page: 218,
       alignment: 'neutral good',
-      languages: ['Common and one other language.'],
+      languages: ['Common and one other language'],
       appearance: [
         ['A Simic guardian hybrid built for stealth, from a volunteer human, vedalken or elf.'],
       ],
@@ -4235,7 +4235,7 @@ export default createPublicationMonsters({
       name: 'Indentured Spirit',
       page: 206,
       alignment: 'any alignment',
-      languages: ['The languages it knew while alive.'],
+      languages: ['The languages it knew while alive'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -4309,7 +4309,7 @@ export default createPublicationMonsters({
       name: 'Jarad Vod Savo',
       page: 235,
       alignment: 'neutral evil',
-      languages: ['Common', 'Elvish', 'Kraul.'],
+      languages: ['Common', 'Elvish', 'Kraul'],
       tableNotes: [
         [
           'Golgari lairs: Jarad Vod Savo or a Kraul Death Priest can qualify a group of at least six Golgari defending their territory for the shared lair actions. See Golgari Shaman for the encounter rules and regional effects on p. 236.',
@@ -4531,7 +4531,7 @@ export default createPublicationMonsters({
       tags: ['kraul'],
       page: 214,
       alignment: 'neutral evil',
-      languages: ['Common', 'Kraul.'],
+      languages: ['Common', 'Kraul'],
       tableNotes: [
         [
           'Golgari lairs: Jarad Vod Savo or a Kraul Death Priest can qualify a group of at least six Golgari defending their territory for the shared lair actions. See Golgari Shaman for the encounter rules and regional effects on p. 236.',
@@ -4660,7 +4660,7 @@ export default createPublicationMonsters({
       tags: ['kraul'],
       page: 213,
       alignment: 'neutral evil',
-      languages: ['Kraul. Understands Common but cannot speak it.'],
+      languages: ['Kraul. Understands Common but cannot speak it'],
       tableNotes: [
         [
           'Winged variant: The Winged Kraul Warrior adds gossamer wings and a flying speed of 40 ft. It uses the same statistics and can serve as a scout or shock troop.',
@@ -4744,7 +4744,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 228,
       alignment: 'lawful neutral',
-      languages: ['Common and one other language.'],
+      languages: ['Common and one other language'],
       appearance: [
         [
           'A spellcaster of the Azorius Senate, frequently a vedalken, who serves in the guild as an arrester, one who makes arrests.',
@@ -4804,7 +4804,7 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       page: 232,
       alignment: 'neutral evil',
-      languages: ['Common', "Thieves' Cant."],
+      languages: ['Common', "Thieves' Cant"],
       appearance: [
         [
           'A shapechanger who is never seen as himself: he might be an elderly widow at the bazaar, a vedalken hussar at a checkpoint or a Tin Street merchant. Nobody has seen his true form.',
@@ -5105,7 +5105,7 @@ export default createPublicationMonsters({
       name: 'Mind Drinker Vampire',
       page: 224,
       alignment: 'neutral evil',
-      languages: ['The languages the vampire knew in life.'],
+      languages: ['The languages the vampire knew in life'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -5247,7 +5247,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 233,
       alignment: 'neutral evil',
-      languages: ['Common plus any four languages.'],
+      languages: ['Common plus any four languages'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
       appearance: [['A Dimir spellcaster wrapped in mystery.']],
       lore: [
@@ -5329,7 +5329,7 @@ export default createPublicationMonsters({
       name: 'Nightveil Specter',
       page: 214,
       alignment: 'neutral evil',
-      languages: ['Understands Common but cannot speak.'],
+      languages: ['Understands Common but cannot speak'],
       tableNotes: [
         [
           'Gloamwing mount: The Gloamwing is destroyed if its specter rider drops to 0 HP. If the Gloamwing is killed first, the surviving specter becomes fixated on destroying those responsible. It can create a replacement over one month, during which the specter is incapacitated.',
@@ -5462,7 +5462,7 @@ export default createPublicationMonsters({
       name: 'Niv-Mizzet',
       page: 240,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Draconic.'],
+      languages: ['Common', 'Draconic'],
       tableNotes: [
         [
           'Roleplaying: Niv-Mizzet values invention, has spent more than ten thousand years studying the world, and quickly loses patience with people he thinks lack imagination.',
@@ -5673,7 +5673,7 @@ export default createPublicationMonsters({
       name: 'Nivix Cyclops',
       page: 216,
       alignment: 'unaligned',
-      languages: ['Common and Giant.'],
+      languages: ['Common and Giant'],
       appearance: [
         [
           'A cyclops fitted with plates of mizzium armour, gauntlets driven by pistons and a helmet with a telescope that compensates for its single eye.',
@@ -5753,7 +5753,7 @@ export default createPublicationMonsters({
       name: 'Obzedat Ghost',
       page: 244,
       alignment: 'lawful evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -5940,7 +5940,7 @@ export default createPublicationMonsters({
       name: 'Orzhov Giant',
       page: 202,
       alignment: 'lawful evil',
-      languages: ['Common and Giant.'],
+      languages: ['Common and Giant'],
       appearance: [
         ['A giant employed as a guard, executioner or bruiser by the Orzhov Syndicate.'],
       ],
@@ -6013,7 +6013,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 228,
       alignment: 'lawful neutral',
-      languages: ['Common plus any one language.'],
+      languages: ['Common plus any one language'],
       tableNotes: [['Alternate armor classes: 14 · with mage armor']],
       appearance: [['A rare Azorius spellcaster who glimpses the future.']],
       lore: [
@@ -6110,7 +6110,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 246,
       alignment: 'chaotic evil',
-      languages: ['Abyssal and Common.'],
+      languages: ['Abyssal and Common'],
       tableNotes: [
         [
           'Lair context: Rakdos sometimes withdraws for months or years to his lair below the guildhall. The book describes the retreat on p. 246.',
@@ -6317,7 +6317,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 248,
       alignment: 'chaotic evil',
-      languages: ['Common plus any one language.'],
+      languages: ['Common plus any one language'],
       appearance: [
         ['A Rakdos performer with masks, marionettes or effigies, mocking public figures.'],
       ],
@@ -6373,7 +6373,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 249,
       alignment: 'chaotic evil',
-      languages: ['Any one language (usually Common).'],
+      languages: ['Any one language (usually Common)'],
       appearance: [
         [
           'A costumed street entertainer keeps a ring of blades spinning through the air, grinning at the crowd.',
@@ -6442,7 +6442,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 249,
       alignment: 'chaotic evil',
-      languages: ['Any one language (usually Common).'],
+      languages: ['Any one language (usually Common)'],
       appearance: [
         [
           'A costumed entertainer with a gleaming, soot-streaked grin plays with open flame in front of a gathering crowd.',
@@ -6529,7 +6529,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 249,
       alignment: 'chaotic evil',
-      languages: ['Any one language (usually Common).'],
+      languages: ['Any one language (usually Common)'],
       appearance: [
         ['A costumed acrobat balances above the crowd on a cord or ledge, relaxed and showy.'],
       ],
@@ -6598,7 +6598,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 231,
       alignment: 'lawful neutral',
-      languages: ['Common plus any one language.'],
+      languages: ['Common plus any one language'],
       appearance: [
         [
           'A Boros shock trooper crackling with stored lightning, often a minotaur, charging at a mob or a defended line.',
@@ -6675,7 +6675,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 239,
       alignment: 'chaotic neutral',
-      languages: ['Any one language (usually Common).'],
+      languages: ['Any one language (usually Common)'],
       appearance: [
         [
           'A Gruul scout who climbs easily over debris and rooftops, keeping out of reach until it chooses its moment.',
@@ -6758,7 +6758,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 243,
       alignment: 'chaotic neutral',
-      languages: ['Any one language (usually Common).'],
+      languages: ['Any one language (usually Common)'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6831,7 +6831,7 @@ export default createPublicationMonsters({
       name: 'Servitor Thrull',
       page: 221,
       alignment: 'unaligned',
-      languages: ['Understands Common but cannot speak.'],
+      languages: ['Understands Common but cannot speak'],
       appearance: [
         [
           'A shambling servant whose ghastly features are hidden behind a faceplate forged from devalued coinage.',
@@ -6892,7 +6892,7 @@ export default createPublicationMonsters({
       name: 'Shadow Horror',
       page: 205,
       alignment: 'neutral evil',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Optional primary features: Choose or roll one primary and one secondary feature using the d4 tables on p. 204. Add them to the base stat block.\n1. Avoidance. If an effect allows a save for half damage, a success instead deals no damage and a failure deals half.\n2. Damage Resistances. The horror gains resistance to necrotic and psychic damage.\n3. Innate Spellcasting. With Charisma and spell save DC 16, it can cast Darkness 3/day and Fear 1/day without material components.\n4. Psychic Rebuke. When a melee attack damages the horror, it can use its reaction to deal 7 (2d6) psychic damage to each creature within 5 ft.',
@@ -7042,7 +7042,7 @@ export default createPublicationMonsters({
       tags: ['merfolk'],
       page: 187,
       alignment: 'neutral',
-      languages: ['Common', 'Merfolk.'],
+      languages: ['Common', 'Merfolk'],
       habitats: ['underwater', 'coastal'],
       stats: {
         size: 'medium',
@@ -7216,7 +7216,7 @@ export default createPublicationMonsters({
       name: 'Skittering Horror',
       page: 205,
       alignment: 'neutral evil',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Optional primary features: Choose or roll one primary and one secondary feature using the d4 tables on p. 204. Add them to the base stat block.\n1. Avoidance. If an effect allows a save for half damage, a success instead deals no damage and a failure deals half.\n2. Damage Resistances. The horror gains resistance to necrotic and psychic damage.\n3. Innate Spellcasting. With Charisma and spell save DC 17, it can cast Darkness 3/day and Fear and Phantasmal Killer 1/day each without material components.\n4. Psychic Rebuke. When a melee attack damages the horror, it can use its reaction to deal 10 (3d6) psychic damage to each creature within 5 ft.',
@@ -7338,7 +7338,7 @@ export default createPublicationMonsters({
       name: 'Skyjek Roc',
       page: 219,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [
         ['A saddled roc with armour plating on its head and chest, carrying a Boros skyknight.'],
       ],
@@ -7513,7 +7513,7 @@ export default createPublicationMonsters({
       name: 'Sphinx of Judgment',
       page: 183,
       alignment: 'lawful neutral',
-      languages: ['Common', 'Sphinx.'],
+      languages: ['Common', 'Sphinx'],
       habitats: ['desert'],
       stats: {
         size: 'large',
@@ -7663,7 +7663,7 @@ export default createPublicationMonsters({
       name: 'Sunder Shaman',
       page: 202,
       alignment: 'chaotic neutral',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [
         [
           'An angry giant in armour made of building fragments, wielding columns or other architecture as clubs.',
@@ -7776,7 +7776,7 @@ export default createPublicationMonsters({
       tags: ['any race'],
       page: 233,
       alignment: 'neutral evil',
-      languages: ['Common plus any one language.'],
+      languages: ['Common plus any one language'],
       tableNotes: [
         [
           'Innate Spellcasting (Psionics): Intelligence (spell save DC 13), with no components.\nAt will. Charm Person, Disguise Self, Encode Thoughts.\n1/day each. Blur, Detect Thoughts, Gaseous Form.',
@@ -7856,7 +7856,7 @@ export default createPublicationMonsters({
       name: 'Undercity Medusa',
       page: 222,
       alignment: 'neutral evil',
-      languages: ['Common', 'Elvish.'],
+      languages: ['Common', 'Elvish'],
       tableNotes: [
         [
           'Golgari lair rules: An Undercity Medusa can qualify a group of six or more Golgari for the shared lair actions on p. 236 while they defend their territory. See Golgari Shaman for the actions and regional effects.',
@@ -7997,7 +7997,7 @@ export default createPublicationMonsters({
       name: 'Winged Felidar',
       page: 199,
       alignment: 'lawful neutral',
-      languages: ["Understands Celestial and Common but can't speak."],
+      languages: ["Understands Celestial and Common but can't speak"],
       tableNotes: [
         ['Source variant of Felidar. Check the variant rules for changes to actions and traits.'],
         [
@@ -8110,7 +8110,7 @@ export default createPublicationMonsters({
       tags: ['kraul'],
       page: 213,
       alignment: 'neutral evil',
-      languages: ['Kraul. Understands Common but cannot speak it.'],
+      languages: ['Kraul. Understands Common but cannot speak it'],
       tableNotes: [
         [
           'Source variant of Kraul Warrior. Check the variant rules for changes to actions and traits.',
@@ -8186,7 +8186,7 @@ export default createPublicationMonsters({
       name: 'Winged Thrull',
       page: 221,
       alignment: 'unaligned',
-      languages: ['Understands Common but cannot speak.'],
+      languages: ['Understands Common but cannot speak'],
       appearance: [
         [
           'A winged servant whose ghastly features are hidden behind a faceplate forged from devalued coinage.',
@@ -8261,7 +8261,7 @@ export default createPublicationMonsters({
       name: 'Wurm',
       page: 225,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [['A huge limbless, wingless dragon-like creature.']],
       lore: [
         [
@@ -8379,7 +8379,7 @@ export default createPublicationMonsters({
       tags: ['merfolk'],
       page: 255,
       alignment: 'lawful neutral',
-      languages: ['Common', 'Elvish', 'Merfolk.'],
+      languages: ['Common', 'Elvish', 'Merfolk'],
       tableNotes: [
         [
           'Roleplaying: Zegana treats nature’s patterns as a guide for improving life. She commits her resources to Ravnica and struggles to understand anyone who rejects progress. See p. 254.',

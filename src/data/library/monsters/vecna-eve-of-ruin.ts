@@ -469,7 +469,7 @@ export default createPublicationMonsters({
       name: 'Camlash',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -821,7 +821,7 @@ export default createPublicationMonsters({
       name: 'Fernitha',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1134,7 +1134,7 @@ export default createPublicationMonsters({
       name: 'Hazvongel',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -1708,7 +1708,7 @@ export default createPublicationMonsters({
       name: 'Khai Kiroth',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Draconic', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Draconic', 'Infernal', 'telepathy 120 ft.'],
       habitats: ['mountain', 'urban'],
       stats: {
         size: 'medium',
@@ -2341,7 +2341,7 @@ export default createPublicationMonsters({
       name: 'Nyssa Otellion',
       tags: ['devil', 'wizard'],
       alignment: 'lawful evil',
-      languages: ['Draconic', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Draconic', 'Infernal', 'telepathy 120 ft.'],
       habitats: ['coastal', 'urban'],
       stats: {
         size: 'medium',
@@ -2622,7 +2622,7 @@ export default createPublicationMonsters({
       name: 'Phisarazu Spyder-Fiend',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Common', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -2771,7 +2771,7 @@ export default createPublicationMonsters({
       name: 'Quavilithku Spyder-Fiend',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Common', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -2907,7 +2907,7 @@ export default createPublicationMonsters({
       name: 'Raklupis Spyder-Fiend',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Common', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -3302,7 +3302,7 @@ export default createPublicationMonsters({
       name: 'Rezran "Snake Eyes" Agrodro',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Draconic', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Draconic', 'Infernal', 'telepathy 120 ft.'],
       habitats: ['urban'],
       stats: {
         size: 'medium',
@@ -4284,7 +4284,7 @@ export default createPublicationMonsters({
       name: 'Vlazok',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',

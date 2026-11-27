@@ -399,7 +399,7 @@ export default createPublicationMonsters({
       name: 'Bel',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Common', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Common', 'Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -593,7 +593,7 @@ export default createPublicationMonsters({
       name: 'Brother Morax',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -793,7 +793,7 @@ export default createPublicationMonsters({
       name: 'Corruption Devil (Paeliryon)',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -942,7 +942,7 @@ export default createPublicationMonsters({
       name: 'Devorastus',
       tags: ['demon'],
       alignment: 'unaligned',
-      languages: ['telepathy 120 ft'],
+      languages: ['telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -1201,7 +1201,7 @@ export default createPublicationMonsters({
     ekengarik: {
       name: 'Ekengarik',
       alignment: 'lawful evil',
-      languages: ['Common', 'Formian', 'telepathy 120 ft'],
+      languages: ['Common', 'Formian', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -2003,7 +2003,7 @@ export default createPublicationMonsters({
     jenevere: {
       name: 'Jenevere',
       alignment: 'lawful good',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -2213,7 +2213,7 @@ export default createPublicationMonsters({
       name: 'Mammon',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -2436,7 +2436,7 @@ export default createPublicationMonsters({
       name: 'Rimmon',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -2843,7 +2843,7 @@ export default createPublicationMonsters({
       name: 'War Devil',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -2971,7 +2971,7 @@ export default createPublicationMonsters({
       name: 'Zagum',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',

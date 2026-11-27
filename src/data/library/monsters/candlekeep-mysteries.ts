@@ -344,7 +344,7 @@ export default createPublicationMonsters({
     },
     corrupted_avatar_of_lurue: {
       name: 'Corrupted Avatar of Lurue',
-      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft'],
+      languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft.'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -824,7 +824,7 @@ export default createPublicationMonsters({
     gingwatzim: {
       name: 'Gingwatzim',
       tags: ['shapechanger'],
-      languages: ['telepathy 60 ft'],
+      languages: ['telepathy 60 ft.'],
       stats: {
         size: 'small',
         type: 'aberration',

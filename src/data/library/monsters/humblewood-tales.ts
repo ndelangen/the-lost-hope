@@ -1433,7 +1433,7 @@ export default createPublicationMonsters({
     krens_fang: {
       name: 'Kren’s Fang',
       alignment: 'lawful evil',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',

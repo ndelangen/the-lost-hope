@@ -462,7 +462,7 @@ export default createPublicationMonsters({
       name: 'Aurnozci',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       stats: {
         size: 'gargantuan',
         type: 'fiend',
@@ -1873,7 +1873,7 @@ export default createPublicationMonsters({
       name: 'Pazrodine',
       tags: ['moonstone'],
       alignment: 'lawful neutral',
-      languages: ['all', 'telepathy 120 ft'],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',

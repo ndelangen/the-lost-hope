@@ -273,7 +273,7 @@ export default createPublicationMonsters({
     auril_first_form: {
       name: 'Auril (First Form)',
       alignment: 'neutral evil',
-      languages: ['all', 'telepathy 1000 ft'],
+      languages: ['all', 'telepathy 1000 ft.'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -450,7 +450,7 @@ export default createPublicationMonsters({
     auril_second_form: {
       name: 'Auril (Second Form)',
       alignment: 'neutral evil',
-      languages: ['all', 'telepathy 1000 ft'],
+      languages: ['all', 'telepathy 1000 ft.'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -676,7 +676,7 @@ export default createPublicationMonsters({
     auril_third_form: {
       name: 'Auril (Third Form)',
       alignment: 'neutral evil',
-      languages: ['all', 'telepathy 1', '000 ft'],
+      languages: ['all', 'telepathy 1', '000 ft.'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -2833,7 +2833,7 @@ export default createPublicationMonsters({
     gnome_squidling: {
       name: 'Gnome Squidling',
       alignment: 'unaligned',
-      languages: ["understands Deep Speech and Gnomish but can't speak", 'telepathy 60 ft'],
+      languages: ["understands Deep Speech and Gnomish but can't speak", 'telepathy 60 ft.'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -3352,7 +3352,7 @@ export default createPublicationMonsters({
     hypnos_magen: {
       name: 'Hypnos Magen',
       alignment: 'unaligned',
-      languages: ["understands the languages of its creator but can't speak", 'telepathy 30 ft'],
+      languages: ["understands the languages of its creator but can't speak", 'telepathy 30 ft.'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -5560,7 +5560,7 @@ export default createPublicationMonsters({
     tomb_tapper: {
       name: 'Tomb Tapper',
       alignment: 'lawful neutral',
-      languages: ["understands Common and Undercommon but doesn't speak", 'telepathy 60 ft'],
+      languages: ["understands Common and Undercommon but doesn't speak", 'telepathy 60 ft.'],
       stats: {
         size: 'huge',
         type: 'construct',

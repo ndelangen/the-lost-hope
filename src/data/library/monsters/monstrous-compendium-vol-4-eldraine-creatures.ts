@@ -949,7 +949,7 @@ export default createPublicationMonsters({
     high_fae_noble: {
       name: 'High Fae Noble',
       alignment: 'any alignment',
-      languages: ['Common', 'Sylvan', 'telepathy 120 ft'],
+      languages: ['Common', 'Sylvan', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -1424,7 +1424,7 @@ export default createPublicationMonsters({
     sewer_king: {
       name: 'Sewer King',
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 30 ft'],
+      languages: ['Infernal', 'telepathy 30 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',

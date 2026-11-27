@@ -11,7 +11,7 @@ export default createPublicationMonsters({
       name: 'Juvenile Mimic',
       tags: ['shapechanger'],
       alignment: 'unaligned',
-      languages: ['Common', 'Undercommon', 'telepathy 120 ft'],
+      languages: ['Common', 'Undercommon', 'telepathy 120 ft.'],
       stats: {
         size: 'tiny',
         type: 'monstrosity',

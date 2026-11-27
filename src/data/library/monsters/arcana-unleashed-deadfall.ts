@@ -11,7 +11,7 @@ export default createPublicationMonsters({
       name: 'Abveku',
       tags: ['demon'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       habitats: ['planar', 'abyss'],
       stats: {
         size: 'medium',
@@ -120,7 +120,7 @@ export default createPublicationMonsters({
     sarrukh_tyrant: {
       name: 'Sarrukh Tyrant',
       alignment: 'neutral evil',
-      languages: ['Common', 'Draconic', 'telepathy 120 ft'],
+      languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       habitats: ['underdark'],
       stats: {
         size: 'medium',

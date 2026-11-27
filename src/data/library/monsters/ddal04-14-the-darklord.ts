@@ -90,7 +90,7 @@ export default createPublicationMonsters({
       name: 'Esmae Amarantha',
       tags: ['human'],
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Common', 'Draconic', 'Infernal', 'Sylvan', 'telepathy 100 ft'],
+      languages: ['Abyssal', 'Common', 'Draconic', 'Infernal', 'Sylvan', 'telepathy 100 ft.'],
       stats: {
         size: 'medium',
         type: 'humanoid',

@@ -136,7 +136,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 144,
       alignment: 'chaotic good',
-      languages: ['Common', 'Elvish.'],
+      languages: ['Common', 'Elvish'],
       tableNotes: [
         [
           'The Fey Beacons show the route home only if Alagarthas lights all eight himself. It takes him 8 hours once the Perytons stop snuffing them out. Their flock was once a troupe of actors that performed for Endelyn Moongrave.',
@@ -220,7 +220,7 @@ export default createPublicationMonsters({
       name: 'Amidor the Dandelion',
       page: 134,
       alignment: 'neutral good',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       tableNotes: [
         [
           'The party meets Amidor, Pollenella, and the masked elf acrobat Gleam during the journey through Yon. Use Selenelion Twin for Gleam. Amidor is quick to fall in love, puts others first, and tends to guard Pollenella rather than take the lead in a fight.',
@@ -297,7 +297,7 @@ export default createPublicationMonsters({
       tags: ['hag'],
       page: 215,
       alignment: 'neutral evil',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       tableNotes: [
         [
           'Hourglass Coven: When Bavlorna, Endelyn Moongrave, and Skabatha Nightshade are all within 30 ft. of one another, any one can spend an action to cast Detect Thoughts, Dispel Magic, Finger of Death, Glibness, Locate Creature, or Mass Suggestion without material components (spell save DC 14). Once any sister casts one of these shared spells, the whole coven loses access to that spell until the next dawn.',
@@ -486,7 +486,7 @@ export default createPublicationMonsters({
       name: 'Brigganock',
       page: 230,
       alignment: 'typically neutral good',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       tableNotes: [
         [
           'Encounter context: A mortal’s nonmagical wish can leave an echo inside a stone deep in the Feywild. Brigganocks keep and cut stones with kindly wishes and discard malicious ones. Powerful fey can use a wish stone to scry on the person who wished, power a supernatural charm, or awaken an animated object.',
@@ -607,7 +607,7 @@ export default createPublicationMonsters({
       name: 'Bullywug Knight',
       page: 231,
       alignment: 'typically lawful good',
-      languages: ['Bullywug', 'Common.'],
+      languages: ['Bullywug', 'Common'],
       appearance: [['A noble bullywug knight, honour-bound, standing on a point of chivalry.']],
       lore: [
         [
@@ -698,7 +698,7 @@ export default createPublicationMonsters({
       name: 'Campestri',
       page: 232,
       alignment: 'unaligned',
-      languages: ['Understands Common but speaks only through the use of its Mimicry trait.'],
+      languages: ['Understands Common but speaks only through the use of its Mimicry trait'],
       tableNotes: [
         [
           'Encounter context: A campestri remembers a song after three or four rehearsals. Several may sing and dance together. Use Swarm of Campestris for an attacking group.',
@@ -783,7 +783,7 @@ export default createPublicationMonsters({
       name: 'Clapperclaw the Scarecrow',
       page: 78,
       alignment: 'lawful neutral',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       tableNotes: [
         [
           'Guide to Thither: Clapperclaw will guide the party from Hither to Thither if they help recover its skull. Agdon Longscarf stole it and gave it to Bavlorna Blightstraw, who keeps it in her cottage’s treasure room (B19). Clapperclaw avoids the hags and waits outside the cottage.',
@@ -884,7 +884,7 @@ export default createPublicationMonsters({
       name: 'Detached Shadow',
       page: 30,
       alignment: 'chaotic evil',
-      languages: ['None.'],
+      languages: [],
       habitats: ['underdark', 'urban'],
       tableNotes: [
         [
@@ -1041,7 +1041,7 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       page: 224,
       alignment: 'lawful good',
-      languages: ['Common', 'Dwarvish.'],
+      languages: ['Common', 'Dwarvish'],
       tableNotes: [
         [
           'Valor’s Call: Elkhorn is Strongheart’s longtime companion. His challenge rating assumes he uses Feint to improve his sword attacks. He is especially dangerous to larger foes.',
@@ -1148,7 +1148,7 @@ export default createPublicationMonsters({
       tags: ['hag'],
       page: 150,
       alignment: 'neutral evil',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       tableNotes: [
         [
           'Hourglass Coven: While Endelyn, Bavlorna Blightstraw, and Skabatha Nightshade are all within 30 ft. of one another, any of them can spend an action to cast Detect Thoughts, Dispel Magic, Finger of Death, Glibness, Locate Creature, or Mass Suggestion without material components (save DC 14). Each spell has one shared use until the next dawn.',
@@ -1266,7 +1266,7 @@ export default createPublicationMonsters({
       name: 'Envy',
       page: 178,
       alignment: 'unaligned',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       tableNotes: [
         [
           'Palace guardian: Envy uses the 2014 Gorgon as its base, with speech and the Bite and Claws attacks shown here. Zybilna’s magic prevents the two guardians from harming one another. Envy orders disrespectful visitors to leave and attacks those who refuse.',
@@ -1627,7 +1627,7 @@ export default createPublicationMonsters({
       name: 'Glass Pegasus',
       page: 181,
       alignment: 'chaotic good',
-      languages: ['Understands Celestial, Common, Elvish, and Sylvan but cannot speak.'],
+      languages: ['Understands Celestial, Common, Elvish, and Sylvan but cannot speak'],
       tableNotes: [
         [
           'Carriage harness: Hold the carriage key within 3 inches of either door to reveal a keyhole. Turning it clockwise unlocks both doors and animates the pegasi. The driver gains starlight reins and can move the carriage 40 ft. on land or 80 ft. in flight. While the carriage is stationary on the ground, turning the key counterclockwise locks the doors and returns the pegasi to statues. The vehicle and both pegasi shatter if the carriage leaves the Feywild.',
@@ -1847,7 +1847,7 @@ export default createPublicationMonsters({
       name: 'Harengon Brigand',
       page: 235,
       alignment: 'any alignment',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       tableNotes: [
         [
           'Encounter context: Brigands demand tolls for safe passage and are quick to flee if outnumbered or beaten. At Agdon Longscarf’s camp, 1d4 brigands and 1d4 Harengon Snipers are present at any given time.',
@@ -1930,7 +1930,7 @@ export default createPublicationMonsters({
       name: 'Harengon Sniper',
       page: 235,
       alignment: 'any alignment',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       tableNotes: [
         [
           'Encounter context: Snipers position themselves above trails or behind shelter to cover Harengon Brigands, then Hide as soon as they fire.',
@@ -2212,7 +2212,7 @@ export default createPublicationMonsters({
       tags: ['goblinoid'],
       page: 70,
       alignment: 'chaotic good',
-      languages: ['Common', 'Goblin.'],
+      languages: ['Common', 'Goblin'],
       tableNotes: [
         [
           'Encounter context: Jingle Jangle lives on Telemy Hill and always refers to herself in the third person. Bavlorna’s bargain traded her fear of being trapped by a locked door for a compulsion to collect keys. Harengon Brigands recently roughed her up and stole her truffles. She willingly gives visitors the silver key to Sir Talavar’s cage.',
@@ -2270,7 +2270,7 @@ export default createPublicationMonsters({
       tags: ['kenku', 'warlock'],
       page: 52,
       alignment: 'chaotic neutral',
-      languages: ['Understands Auran and Common. She speaks through Mimicry.'],
+      languages: ['Understands Auran and Common. She speaks through Mimicry'],
       tableNotes: [
         [
           'Encounter notes: After an hour searching the carnival, a character can see through her disguise with a successful DC 13 Intelligence (Investigation) check. She flees to break line of sight and may talk to adventurers who say they are investigating the carnival. Her pact prevents her from entering Prismeer. She presses Mister Witch and Mister Light for answers and asks adventurers to find out what happened to Zybilna. Untie the thorny stem around her cornhusk doll to restore Candlefoot’s voice. A successful DC 12 Charisma (Intimidation or Persuasion) check persuades her to hand over the doll.',
@@ -2391,7 +2391,7 @@ export default createPublicationMonsters({
       name: 'Living Doll',
       page: 238,
       alignment: 'typically neutral evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [['An object that looks like an ordinary doll or stuffed toy until it moves.']],
       lore: [
         [
@@ -2495,7 +2495,7 @@ export default createPublicationMonsters({
       tags: ['elf', 'shadar-kai'],
       page: 26,
       alignment: 'chaotic good',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       tableNotes: [
         ['Damage vulnerabilities: Lightning while holding the Witchlight Vane.'],
         [
@@ -2627,7 +2627,7 @@ export default createPublicationMonsters({
       tags: ['elf', 'shadar-kai'],
       page: 25,
       alignment: 'chaotic good',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       tableNotes: [
         [
           'Encounter notes: Witch and Mister Light keep the carnival running under the Hourglass Coven’s pact. The Witchlight Watch lets Witch start a one-hour magical setup or takedown as an action while he and the carnival are on the same plane. This moves the carnival’s objects and leaves creatures free to move safely.',
@@ -2743,7 +2743,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 226,
       alignment: 'chaotic good',
-      languages: ['Common.'],
+      languages: ['Common'],
       appearance: [['A thief with a ready jibe or acid remark.']],
       lore: [
         [
@@ -3005,7 +3005,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 193,
       alignment: 'neutral',
-      languages: ['Common', 'Elvish.'],
+      languages: ['Common', 'Elvish'],
       tableNotes: [
         [
           'Palace encounter: In the throne room (P31), Raezil begins petrified by Kelek’s cockatrices. Once magic ends the condition, the Feywild’s rule of reciprocity binds her to help her rescuers with their outstanding quests. She knows Zybilna as her employer and does not know the name Iggwilv.',
@@ -3115,7 +3115,7 @@ export default createPublicationMonsters({
       tags: ['elf'],
       page: 241,
       alignment: 'chaotic good',
-      languages: ['Common', 'Elvish.'],
+      languages: ['Common', 'Elvish'],
       tableNotes: [
         [
           'Motherhorn encounter: Endelyn Moongrave cut off Gleam’s shadow with magic scissors and keeps Glister as a prisoner. When reunited, the twins plan to leave via the Fey Beacons and return to the Witchlight Carnival.',
@@ -3377,7 +3377,7 @@ export default createPublicationMonsters({
       name: 'Sir Talavar',
       page: 69,
       alignment: 'lawful good',
-      languages: ['Common', 'Draconic', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Draconic', 'Elvish', 'Sylvan'],
       tableNotes: [
         [
           'Silver birdcage: While locked inside, Talavar cannot cast spells. His Euphoria Breath still works. The cage cannot be destroyed, and its lock cannot be picked. Jingle Jangle has the key. Knock or similar magic can also open it. If released, Talavar offers his tiny sword and departs to report to his queen.',
@@ -3522,7 +3522,7 @@ export default createPublicationMonsters({
       tags: ['hag'],
       page: 215,
       alignment: 'neutral evil',
-      languages: ['Common', 'Elvish', 'Infernal', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Infernal', 'Sylvan'],
       tableNotes: [
         [
           'Hourglass Coven shared spells: When Skabatha, Bavlorna Blightstraw and Endelyn Moongrave are all within 30 ft. of one another, any one of them can use an action to cast Detect Thoughts, Dispel Magic, Finger of Death, Glibness, Locate Creature, or Mass Suggestion. Shared spells require no material components and use save DC 14. Each is available once to the coven as a whole, with all uses restored at dawn.',
@@ -3648,7 +3648,7 @@ export default createPublicationMonsters({
       tags: ['human', 'warlock'],
       page: 160,
       alignment: 'chaotic evil',
-      languages: ['Common', 'Elvish.'],
+      languages: ['Common', 'Elvish'],
       tableNotes: [
         ['Alternate armor classes: 13 with Mage Armor.'],
         [
@@ -3768,7 +3768,7 @@ export default createPublicationMonsters({
       name: 'Squirt the Oilcan',
       page: 110,
       alignment: 'chaotic neutral',
-      languages: ['Common', 'Dwarvish', 'Sylvan.'],
+      languages: ['Common', 'Dwarvish', 'Sylvan'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -3854,7 +3854,7 @@ export default createPublicationMonsters({
       name: 'Swarm of Campestris',
       page: 232,
       alignment: 'unaligned',
-      languages: ['Understands Common. It speaks only through Mimicry.'],
+      languages: ['Understands Common. It speaks only through Mimicry'],
       appearance: [
         [
           'A crowd of little mushroom-like creatures with red or purple speckled caps, in shades from white to tan to dark brown, singing along in nasal falsetto and dancing around whoever makes music.',
@@ -3957,7 +3957,7 @@ export default createPublicationMonsters({
       name: 'Thinnings',
       page: 182,
       alignment: 'neutral',
-      languages: ['Common', 'Elvish', 'Sylvan.'],
+      languages: ['Common', 'Elvish', 'Sylvan'],
       habitats: ['urban'],
       tableNotes: [
         [
@@ -4052,7 +4052,7 @@ export default createPublicationMonsters({
       name: 'Tin Soldier',
       page: 115,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       tableNotes: [
         [
           'Loomlurch barracks: Six soldiers emerge from L7 when they hear nearby combat, or when Skabatha Nightshade or Pincushion calls. Four others patrol L8 and L12. The six march with an Animated Drum. A soldier that can hear it gains +2 to its damage rolls. If the drum is destroyed, soldiers within 60 ft. are stunned until the end of their next turn.',
@@ -4139,7 +4139,7 @@ export default createPublicationMonsters({
       name: 'Treant Sapling',
       page: 36,
       alignment: 'typically chaotic good',
-      languages: ['Common', 'Druidic', 'Elvish', 'and Sylvan.'],
+      languages: ['Common', 'Druidic', 'Elvish', 'and Sylvan'],
       tableNotes: [
         [
           'Witchlight Carnival: Northwind greets visitors at the dragonfly ride. Red, his awakened squirrel companion, uses the Weasel stat block with Intelligence 10 and speaks Common.',
@@ -4218,7 +4218,7 @@ export default createPublicationMonsters({
       tags: ['human'],
       page: 221,
       alignment: 'chaotic evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       tableNotes: [
         [
           'Palace encounter: At the throne room in area P31, Warduke stands beside Kelek with his sword already aflame. Treasure worth at least 2,500 gp buys his service for the remainder of the adventure. While he is with the party, Kelek and Zargash leave them alone. He can be persuaded to destroy Iggwilv’s Cauldron with his sword.',
@@ -4323,7 +4323,7 @@ export default createPublicationMonsters({
       name: "Will-o'-Wells",
       page: 61,
       alignment: 'chaotic good',
-      languages: ['The languages it knew in life.'],
+      languages: ['The languages it knew in life'],
       habitats: ['forest', 'swamp', 'urban'],
       tableNotes: [
         ['Movement notes: Can hover'],
@@ -4643,7 +4643,7 @@ export default createPublicationMonsters({
       name: 'Witchlight Hand (Medium)',
       page: 27,
       alignment: 'any alignment',
-      languages: ['Common plus one other language.'],
+      languages: ['Common plus one other language'],
       tableNotes: [
         [
           'Size option: The published block supports both sizes. Medium has 9 HP (2d8) and Small has 7 HP (2d6). See Witchlight Hand (Small) for the other size option.',
@@ -4730,7 +4730,7 @@ export default createPublicationMonsters({
       name: 'Witchlight Hand (Small)',
       page: 27,
       alignment: 'any alignment',
-      languages: ['Common plus one other language.'],
+      languages: ['Common plus one other language'],
       tableNotes: [
         [
           'Size option: The published block supports both sizes. Medium has 9 HP (2d8) and Small has 7 HP (2d6). See Witchlight Hand (Medium) for the other size option.',
@@ -4818,7 +4818,7 @@ export default createPublicationMonsters({
       tags: ['orc'],
       page: 222,
       alignment: 'chaotic evil',
-      languages: ['Common and Orc.'],
+      languages: ['Common and Orc'],
       tableNotes: [
         [
           'Wayward Pool encounter: Kelek sent Zarak after the horn of Lamorna, the unicorn. At the shore he uses a fake unicorn horn to follow the party in. He attacks at the end of their conversation. Creatures with passive Perception of at least 17 avoid surprise. Lamorna teleports away on her first turn after the ambush. Zarak may withdraw or accept gold to abandon the hunt.',
@@ -4944,7 +4944,7 @@ export default createPublicationMonsters({
       tags: ['cleric', 'human'],
       page: 223,
       alignment: 'chaotic evil',
-      languages: ['Common.'],
+      languages: ['Common'],
       tableNotes: [
         [
           'Palace encounter: At the sludge pool in area P30, Zargash pretends to be frozen in time. A DC 16 Wisdom (Perception) check reveals the trick. The first attack against him has advantage while he keeps up the act. If unmasked or attacked, he uses his next action to cast Gaseous Form on himself and flies through area P39 to warn Kelek and Warduke in P31.',

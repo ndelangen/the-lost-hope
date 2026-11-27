@@ -258,7 +258,7 @@ export default createPublicationMonsters({
     daemogoth: {
       name: 'Daemogoth',
       alignment: 'lawful evil',
-      languages: ['Abyssal', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -361,7 +361,7 @@ export default createPublicationMonsters({
     daemogoth_titan: {
       name: 'Daemogoth Titan',
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'gargantuan',
         type: 'fiend',

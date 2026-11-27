@@ -829,7 +829,7 @@ export default createPublicationMonsters({
       name: 'Monastery of the Distressed Body Grand Master',
       tags: ['devil'],
       alignment: 'lawful evil',
-      languages: ['Infernal', 'telepathy 120 ft'],
+      languages: ['Infernal', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',

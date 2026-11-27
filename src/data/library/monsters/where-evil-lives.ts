@@ -143,7 +143,7 @@ export default createPublicationMonsters({
       name: 'Ashyra',
       page: 172,
       alignment: 'lawful evil',
-      languages: ['Speaks Common and has telepathy 60 ft'],
+      languages: ['Speaks Common and has telepathy 60 ft.'],
       tableNotes: [
         [
           'Uses the verified Flee, Mortals! stat block for this creature. Check this publication for encounter-specific changes.',
@@ -11336,7 +11336,7 @@ export default createPublicationMonsters({
       name: 'Rot Angel',
       page: 248,
       alignment: 'typically lawful neutral',
-      languages: ['Understands Celestial without speaking it and has telepathy 120 ft'],
+      languages: ['Understands Celestial without speaking it and has telepathy 120 ft.'],
       tableNotes: [
         [
           'Uses the verified Flee, Mortals! stat block for this creature. Check this publication for encounter-specific changes.',

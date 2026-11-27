@@ -11,7 +11,7 @@ export default createPublicationMonsters({
       name: 'Aerosaur',
       page: 128,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [
         [
           'A pterosaur the size of an ancient dragon with a wingspan close to 200 feet, elemental energy tracing lightning-like patterns across its scales.',
@@ -141,7 +141,7 @@ export default createPublicationMonsters({
       name: 'Altisaur',
       page: 129,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -225,7 +225,7 @@ export default createPublicationMonsters({
       name: 'Bag Jelly',
       page: 120,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       appearance: [["An olive-coloured ooze with an adhesive surface, found in a giant's bag."]],
       lore: [
         [
@@ -283,7 +283,7 @@ export default createPublicationMonsters({
       name: 'Barrowghast',
       page: 121,
       alignment: 'typically chaotic evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [['An animated hill giant corpse with thick toxic ichor and a noxious stench.']],
       lore: [
         [
@@ -413,7 +413,7 @@ export default createPublicationMonsters({
       name: 'Cairnwight',
       page: 122,
       alignment: 'typically neutral',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [
         [
           'A stone giant, emaciated and caked in lichen and mineral deposits that help it blend into its cavern tomb.',
@@ -547,7 +547,7 @@ export default createPublicationMonsters({
       name: 'Ceratops',
       page: 129,
       alignment: 'unaligned',
-      languages: ['None.'],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -631,7 +631,7 @@ export default createPublicationMonsters({
       name: 'Cinder Hulk',
       page: 123,
       alignment: 'typically chaotic evil',
-      languages: ['Giant and Ignan.'],
+      languages: ['Giant and Ignan'],
       appearance: [
         [
           'A giant-shaped elemental of smoke and cinders half the size of a fire giant, ash and embers billowing around a barely cohesive body.',
@@ -741,7 +741,7 @@ export default createPublicationMonsters({
       tags: ['bard'],
       page: 124,
       alignment: 'any alignment',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       tableNotes: [
         ['Movement notes: Can hover\nfly · (hover)'],
         [
@@ -886,7 +886,7 @@ export default createPublicationMonsters({
       name: 'Cloud Giant of Evil Air',
       page: 125,
       alignment: 'typically neutral evil',
-      languages: ['Auran', 'Common', 'Giant.'],
+      languages: ['Auran', 'Common', 'Giant'],
       appearance: [['A cloud giant in a vest decorated with roc-feather wings that lets it fly.']],
       lore: [
         [
@@ -1004,7 +1004,7 @@ export default createPublicationMonsters({
       name: 'Cradle of the Cloud Scion',
       page: 166,
       alignment: 'typically chaotic neutral',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -1216,7 +1216,7 @@ export default createPublicationMonsters({
       name: 'Cradle of the Fire Scion',
       page: 172,
       alignment: 'typically lawful evil',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         [
           'Regional effects: One or more of the regional effects listed under Scion of Surtur can begin while the scion still sleeps inside the cradle.',
@@ -1382,7 +1382,7 @@ export default createPublicationMonsters({
       name: 'Cradle of the Frost Scion',
       page: 174,
       alignment: 'typically neutral evil',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         [
           'Regional effects: One or more of the regional effects listed under Scion of Thrym can begin while the scion still sleeps inside the cradle.',
@@ -1596,7 +1596,7 @@ export default createPublicationMonsters({
       name: 'Cradle of the Hill Scion',
       page: 164,
       alignment: 'typically chaotic evil',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         [
           'Regional effects: One or more of the regional effects listed under Scion of Grolantor can begin while the scion still sleeps inside the cradle.',
@@ -1779,7 +1779,7 @@ export default createPublicationMonsters({
       name: 'Cradle of the Stone Scion',
       page: 168,
       alignment: 'typically neutral',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         [
           'Regional effects: One or more of the regional effects listed under Scion of Skoraeus can begin while the scion still sleeps inside the cradle.',
@@ -1973,7 +1973,7 @@ export default createPublicationMonsters({
       name: 'Cradle of the Storm Scion',
       page: 170,
       alignment: 'typically chaotic good',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -2158,7 +2158,7 @@ export default createPublicationMonsters({
       name: 'Death Giant Reaper',
       page: 126,
       alignment: 'any alignment',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [
         ['A shrivelled, deep-purple giant of the Shadowfell, descended from cloud giants.'],
       ],
@@ -2268,7 +2268,7 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       page: 127,
       alignment: 'any alignment',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
       appearance: [
         ['A shrivelled, deep-purple giant of the Shadowfell, descended from cloud giants.'],
@@ -2412,7 +2412,7 @@ export default createPublicationMonsters({
       name: 'Dust Hulk',
       page: 131,
       alignment: 'typically chaotic neutral',
-      languages: ['Giant', 'Terran.'],
+      languages: ['Giant', 'Terran'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -2535,7 +2535,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 132,
       alignment: 'typically chaotic evil',
-      languages: ['Abyssal', 'Giant', 'Orc.'],
+      languages: ['Abyssal', 'Giant', 'Orc'],
       appearance: [
         [
           'An ettin whose arms have become powerful tentacles and whose two heads look more bestial, in a rage.',
@@ -2634,7 +2634,7 @@ export default createPublicationMonsters({
       name: 'Ettin Ceremorph',
       page: 133,
       alignment: 'typically lawful evil',
-      languages: ['Deep Speech', 'Giant', 'telepathy 60 ft.', 'Undercommon.'],
+      languages: ['Deep Speech', 'Giant', 'telepathy 60 ft.', 'Undercommon'],
       appearance: [
         [
           'An ettin transformed by ceremorphosis, one head sunk into the body and the other devoted to thought and psionics.',
@@ -2792,7 +2792,7 @@ export default createPublicationMonsters({
       name: 'Fensir Devourer',
       page: 135,
       alignment: 'typically chaotic neutral',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       appearance: [
         [
           'A giant smaller than most frost or stone giants, with a prominent nose and a touch of green in the skin, armed and armoured like other fighters on Ysgard.',
@@ -2930,7 +2930,7 @@ export default createPublicationMonsters({
       name: 'Fensir Skirmisher',
       page: 135,
       alignment: 'any alignment',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       appearance: [
         [
           'A giant smaller than most frost or stone giants, with a prominent nose and a touch of green in the skin, armed and armoured like other fighters on Ysgard.',
@@ -3104,7 +3104,7 @@ export default createPublicationMonsters({
       tags: ['druid'],
       page: 136,
       alignment: 'any alignment',
-      languages: ['Common', 'Druidic', 'Giant.'],
+      languages: ['Common', 'Druidic', 'Giant'],
       appearance: [
         [
           'A firbolg, a far-off relative of giants, with the ancient magic of the forest in its soul.',
@@ -3217,7 +3217,7 @@ export default createPublicationMonsters({
       tags: ['cleric'],
       page: 137,
       alignment: 'any alignment',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       appearance: [
         [
           'A firbolg, a far-off relative of giants, with the ancient magic of the forest in its soul.',
@@ -3345,7 +3345,7 @@ export default createPublicationMonsters({
       tags: ['cleric'],
       page: 138,
       alignment: 'any alignment',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -3520,7 +3520,7 @@ export default createPublicationMonsters({
       name: 'Fire Giant of Evil Fire',
       page: 139,
       alignment: 'typically lawful evil',
-      languages: ['Common', 'Giant', 'Ignan.'],
+      languages: ['Common', 'Giant', 'Ignan'],
       appearance: [
         ['A fire giant wearing armour that has welded to the flesh, wreathed in flames.'],
       ],
@@ -3644,7 +3644,7 @@ export default createPublicationMonsters({
       tags: ['devil'],
       page: 140,
       alignment: 'typically lawful evil',
-      languages: ['Common', 'Giant', 'Infernal.'],
+      languages: ['Common', 'Giant', 'Infernal'],
       appearance: [['A fire giant with horns, cloven hooves and a forked tail.']],
       lore: [
         [
@@ -3739,7 +3739,7 @@ export default createPublicationMonsters({
       name: 'Firegaunt',
       page: 137,
       alignment: 'typically lawful evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [
         [
           'What looks like a badly burned corpse with crimson flames flowing through its veins and bursting from its wounds and mouth.',
@@ -3850,7 +3850,7 @@ export default createPublicationMonsters({
       name: 'Flesh Colossus',
       page: 141,
       alignment: 'unaligned',
-      languages: ["understands Giant but can't speak."],
+      languages: ["understands Giant but can't speak"],
       tableNotes: [
         [
           'Elemental core: The core is a Large object within the chest cavity with AC 16, 140 HP, and immunity to lightning, poison, and psychic damage. It sheds dim light in a 10-ft. radius. Destroying it makes the colossus berserk and prevents further swallowing. The colossus ejects all swallowed creatures, which land prone in spaces within 10 ft. If the colossus dies, swallowed creatures lose the restrained condition and can spend 10 ft. of movement to leave the corpse, exiting prone.',
@@ -4019,7 +4019,7 @@ export default createPublicationMonsters({
       name: 'Fomorian Deep Crawler',
       page: 142,
       alignment: 'any alignment',
-      languages: ['Giant', 'Undercommon.'],
+      languages: ['Giant', 'Undercommon'],
       appearance: [['A fomorian, a giant twisted by the Underdark.']],
       lore: [
         [
@@ -4137,7 +4137,7 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       page: 143,
       alignment: 'typically chaotic evil',
-      languages: ['Giant plus any three languages.'],
+      languages: ['Giant plus any three languages'],
       tableNotes: [['Alternate armor classes: 17 · with mage armor']],
       appearance: [['A fomorian, a giant twisted by the Underdark.']],
       lore: [
@@ -4240,7 +4240,7 @@ export default createPublicationMonsters({
       name: 'Fomorian Warlock of the Dark',
       page: 144,
       alignment: 'any alignment',
-      languages: ['Giant', 'Undercommon.'],
+      languages: ['Giant', 'Undercommon'],
       appearance: [['A fomorian, a giant twisted by the Underdark.']],
       lore: [
         [
@@ -4460,7 +4460,7 @@ export default createPublicationMonsters({
       tags: ['cleric'],
       page: 145,
       alignment: 'any alignment',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       appearance: [['A frost giant in a cloak of icy armour, with ice wolves at its side.']],
       lore: [
         [
@@ -4592,7 +4592,7 @@ export default createPublicationMonsters({
       name: 'Frost Giant of Evil Water',
       page: 146,
       alignment: 'typically neutral evil',
-      languages: ['Aquan', 'Common', 'Giant.'],
+      languages: ['Aquan', 'Common', 'Giant'],
       appearance: [
         ['A frost giant whose armour carries giant crossbows that shoot barbed harpoons.'],
       ],
@@ -4694,7 +4694,7 @@ export default createPublicationMonsters({
       name: 'Frostmourn',
       page: 147,
       alignment: 'typically neutral evil',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [
         [
           'A frost giant corpse mummified by the cold, bearing the mark of its death, either a wound leaking frosty vapour or vivid purple veins from poison.',
@@ -4828,7 +4828,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 148,
       alignment: 'typically chaotic evil',
-      languages: ['Abyssal', 'Giant.'],
+      languages: ['Abyssal', 'Giant'],
       appearance: [
         [
           'A frost giant fiend with swollen muscles, arms hanging past the knees and bitter cold around it.',
@@ -4941,7 +4941,7 @@ export default createPublicationMonsters({
       name: 'Gargantua',
       page: 149,
       alignment: 'typically chaotic neutral',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       appearance: [['A purple-skinned, horned giant towering 40 feet or more.']],
       lore: [
         [
@@ -5113,7 +5113,7 @@ export default createPublicationMonsters({
       name: 'Giant Child',
       page: 34,
       alignment: 'any alignment',
-      languages: ['Giant.'],
+      languages: ['Giant'],
       tableNotes: [
         [
           'Giant child customization: The sidebar derives this profile from the Commoner by setting Strength to 14, changing its type to Giant, giving it Giant as its only language, and replacing its Club attack. The DM can give a young giant its parents’ innate traits, damage resistances, or damage immunities.\nTeenager. Start with the Ogre. Use 10 or the corresponding parent’s score, whichever is lower, for Intelligence, Wisdom, and Charisma. Set passive Perception to 10. Keep darkvision only for a stone giant teenager and choose appropriate armor and weapons.\nYoung adult. Use a giant lower in the ordning as the starting profile. The book cites the Young Cloud Giant from Storm King’s Thunder, which adapts the Hill Giant.',
@@ -5148,7 +5148,7 @@ export default createPublicationMonsters({
       name: 'Giant Goose',
       page: 150,
       alignment: 'typically neutral',
-      languages: ['Understands Giant and Sylvan but cannot speak.'],
+      languages: ['Understands Giant and Sylvan but cannot speak'],
       tableNotes: [
         [
           'Golden egg: On its keeper’s command, the goose can lay a golden egg once per year and a day. The hollow shell is 1 foot long, weighs 2 lb., and is worth 100 gp. Roll on Goose Egg Trinket to determine what is inside.',
@@ -5282,7 +5282,7 @@ export default createPublicationMonsters({
       name: 'Giant Lynx',
       page: 151,
       alignment: 'typically neutral',
-      languages: ['Giant', 'Sylvan.'],
+      languages: ['Giant', 'Sylvan'],
       appearance: [
         ['A large lynx whose coat turns lighter in winter to blend into snowy woodland.'],
       ],
@@ -5365,7 +5365,7 @@ export default createPublicationMonsters({
       name: 'Giant Ox',
       page: 152,
       alignment: 'unaligned',
-      languages: ['Understands Giant and Sylvan but cannot speak.'],
+      languages: ['Understands Giant and Sylvan but cannot speak'],
       appearance: [
         [
           'A huge ox with a thick, shaggy hide often in bright colours such as sky blue or deep violet.',
@@ -5734,7 +5734,7 @@ export default createPublicationMonsters({
       name: 'Goliath Giant-Kin',
       page: 155,
       alignment: 'any alignment',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       appearance: [
         ['A goliath rarely over eight feet tall, who lives with and copies a clan of giants.'],
       ],
@@ -5798,7 +5798,7 @@ export default createPublicationMonsters({
       name: 'Grinning Cat',
       page: 156,
       alignment: 'typically chaotic neutral',
-      languages: ['Common', 'Sylvan.'],
+      languages: ['Common', 'Sylvan'],
       tableNotes: [
         [
           'Enchanted whiskers: A cat can be persuaded to give someone a whisker. A creature holding one can cast Misty Step with it once, after which the whisker goes up in smoke. A slain cat yields 2d12 of these whiskers.',
@@ -5922,7 +5922,7 @@ export default createPublicationMonsters({
       tags: ['druid'],
       page: 157,
       alignment: 'any alignment',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       appearance: [
         ['A hill giant hung with boulders on chains or ropes, which it uses as weapons.'],
       ],
@@ -6081,7 +6081,7 @@ export default createPublicationMonsters({
       name: 'Lightning Hulk',
       page: 158,
       alignment: 'typically chaotic neutral',
-      languages: ['Auran', 'Giant.'],
+      languages: ['Auran', 'Giant'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -6182,7 +6182,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 159,
       alignment: 'typically chaotic evil',
-      languages: ['Abyssal', 'Giant.'],
+      languages: ['Abyssal', 'Giant'],
       appearance: [
         [
           'A hill giant gone gnoll-like: hunched, maned, with a widened jaw full of rows of ever-growing sharp teeth. It charges on all fours with its mouth open, scraping the ground like a plow.',
@@ -6306,7 +6306,7 @@ export default createPublicationMonsters({
       name: 'Mist Hulk',
       page: 160,
       alignment: 'typically chaotic neutral',
-      languages: ['Auran', 'Giant.'],
+      languages: ['Auran', 'Giant'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -6431,7 +6431,7 @@ export default createPublicationMonsters({
       name: 'Mud Hulk',
       page: 161,
       alignment: 'typically chaotic evil',
-      languages: ['Giant', 'Terran.'],
+      languages: ['Giant', 'Terran'],
       appearance: [
         [
           'A vaguely giant-shaped body of wet mud that constantly sloughs off, leaving thick pools wherever it goes.',
@@ -6637,7 +6637,7 @@ export default createPublicationMonsters({
       name: 'Rime Hulk',
       page: 162,
       alignment: 'typically neutral evil',
-      languages: ['Aquan', 'Giant.'],
+      languages: ['Aquan', 'Giant'],
       appearance: [
         [
           'A rough giant-shaped mass of frost and ice that keeps breaking apart and reforming, with clouds of frost billowing off it and a trail of ice behind it.',
@@ -6732,7 +6732,7 @@ export default createPublicationMonsters({
       name: 'Runic Colossus',
       page: 163,
       alignment: 'unaligned',
-      languages: ["understands Giant but can't speak."],
+      languages: ["understands Giant but can't speak"],
       appearance: [
         [
           'A 30-foot guardian of living stone, jointed and plated with metal and carved with runes.',
@@ -6911,7 +6911,7 @@ export default createPublicationMonsters({
       tags: ['titan'],
       page: 164,
       alignment: 'typically chaotic evil',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         [
           'Cradle encounter: The Cradle of the Hill Scion protects the sleeping scion. When the cradle drops to 0 HP, the scion appears immediately in the cradle’s space and uses its initiative count.',
@@ -7109,7 +7109,7 @@ export default createPublicationMonsters({
       tags: ['titan'],
       page: 166,
       alignment: 'typically chaotic neutral',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -7313,7 +7313,7 @@ export default createPublicationMonsters({
       tags: ['titan'],
       page: 168,
       alignment: 'typically neutral',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         [
           'Cradle encounter: The Cradle of the Stone Scion protects the sleeping scion. When the cradle drops to 0 HP, the scion appears immediately in the cradle’s space and uses its initiative count.',
@@ -7526,7 +7526,7 @@ export default createPublicationMonsters({
       tags: ['titan'],
       page: 170,
       alignment: 'typically chaotic good',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
@@ -7782,7 +7782,7 @@ export default createPublicationMonsters({
       tags: ['titan'],
       page: 172,
       alignment: 'typically lawful evil',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         [
           'Cradle encounter: The Cradle of the Fire Scion protects the sleeping scion. When the cradle drops to 0 HP, the scion appears immediately in the cradle’s space and uses its initiative count.',
@@ -7991,7 +7991,7 @@ export default createPublicationMonsters({
       tags: ['titan'],
       page: 174,
       alignment: 'typically neutral evil',
-      languages: ['Giant', 'Primordial.'],
+      languages: ['Giant', 'Primordial'],
       tableNotes: [
         [
           'Cradle encounter: The Cradle of the Frost Scion protects the sleeping scion. When the cradle drops to 0 HP, the scion appears immediately in the cradle’s space and uses its initiative count.',
@@ -8177,7 +8177,7 @@ export default createPublicationMonsters({
       name: 'Spectral Cloud',
       page: 176,
       alignment: 'typically neutral',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -8388,7 +8388,7 @@ export default createPublicationMonsters({
       tags: ['demon'],
       page: 178,
       alignment: 'typically chaotic evil',
-      languages: ['Abyssal', 'Giant.'],
+      languages: ['Abyssal', 'Giant'],
       appearance: [
         ['A stone giant with an elaborate crown of six horns, carrying a magic glaive.'],
       ],
@@ -8526,7 +8526,7 @@ export default createPublicationMonsters({
       name: 'Stone Giant of Evil Earth',
       page: 179,
       alignment: 'typically neutral evil',
-      languages: ['Common', 'Giant', 'Terran.'],
+      languages: ['Common', 'Giant', 'Terran'],
       appearance: [
         [
           "A stone giant in thick armour modelled on the cult's patron, carrying a weapon that throbs with thunder.",
@@ -8630,7 +8630,7 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       page: 180,
       alignment: 'any alignment',
-      languages: ['Common', 'Giant', 'Terran.'],
+      languages: ['Common', 'Giant', 'Terran'],
       appearance: [
         [
           'A stone giant with crystals and stones worked into its clothing and embedded in its skin, which flash with coloured light when it invokes its runes.',
@@ -8783,7 +8783,7 @@ export default createPublicationMonsters({
       name: 'Storm Crab',
       page: 181,
       alignment: 'unaligned',
-      languages: ['Understands Giant but cannot speak.'],
+      languages: ['Understands Giant but cannot speak'],
       appearance: [
         [
           'An enormous crab with four huge claws and a venomous stinger, able to spray a stream of water under pressure.',
@@ -8918,7 +8918,7 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       page: 182,
       alignment: 'any alignment',
-      languages: ['Common', 'Giant', 'Primordial.'],
+      languages: ['Common', 'Giant', 'Primordial'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -9272,7 +9272,7 @@ export default createPublicationMonsters({
       name: 'Tempest Spirit',
       page: 184,
       alignment: 'typically chaotic evil',
-      languages: ['Common', 'Giant.'],
+      languages: ['Common', 'Giant'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
       appearance: [
         [
@@ -9505,7 +9505,7 @@ export default createPublicationMonsters({
       name: 'Troll Amalgam',
       page: 186,
       alignment: 'typically chaotic evil',
-      languages: ['Giant', 'Undercommon.'],
+      languages: ['Giant', 'Undercommon'],
       appearance: [['A bizarrely transformed troll, its form reshaped by regrowth from scraps.']],
       lore: [
         [

@@ -1512,7 +1512,7 @@ export default createPublicationMonsters({
     glabbagool: {
       name: 'Glabbagool',
       alignment: 'unaligned',
-      languages: ['telepathy 60 ft'],
+      languages: ['telepathy 60 ft.'],
       habitats: ['underdark'],
       stats: {
         size: 'large',

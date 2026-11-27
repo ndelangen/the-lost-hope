@@ -1303,7 +1303,7 @@ export default createPublicationMonsters({
     ashyra: {
       name: 'Ashyra',
       alignment: 'lawful evil',
-      languages: ['Speaks Common and has telepathy 60 ft'],
+      languages: ['Speaks Common and has telepathy 60 ft.'],
       tableNotes: [
         ['Role: Solo'],
         [
@@ -21655,7 +21655,7 @@ export default createPublicationMonsters({
     rot_angel: {
       name: 'Rot Angel',
       alignment: 'typically lawful neutral',
-      languages: ['Understands Celestial without speaking it and has telepathy 120 ft'],
+      languages: ['Understands Celestial without speaking it and has telepathy 120 ft.'],
       tableNotes: [['Role: Skirmisher'], ['Also immune to Flanked.']],
       stats: {
         size: 'medium',

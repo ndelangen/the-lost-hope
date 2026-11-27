@@ -4585,7 +4585,7 @@ export default createPublicationMonsters({
     skum: {
       name: 'Skum',
       alignment: 'lawful evil',
-      languages: ['Common', 'Deep Speech', 'telepathy 60 ft'],
+      languages: ['Common', 'Deep Speech', 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'aberration',

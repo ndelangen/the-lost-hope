@@ -971,7 +971,7 @@ export default createPublicationMonsters({
     apau_perape: {
       name: 'Apau Perape',
       alignment: 'chaotic evil',
-      languages: ['Ape', 'Infernal', 'telepathy 120 ft'],
+      languages: ['Ape', 'Infernal', 'telepathy 120 ft.'],
       appearance: [
         [
           'A large, black-furred ape-demon with a mouth full of sharp teeth and long, muscular arms ending in curved claws. Its eyes glow deep red when it is angry.',
@@ -2761,7 +2761,7 @@ export default createPublicationMonsters({
     buraq: {
       name: 'Buraq',
       alignment: 'lawful good',
-      languages: ['Celestial', 'Common', 'Primordial', 'telepathy 120 ft'],
+      languages: ['Celestial', 'Common', 'Primordial', 'telepathy 120 ft.'],
       appearance: [
         [
           'A handsome white human-headed equine, smaller than a mule but larger than a donkey, with short, strong feathered wings and a gilded band on its head or neck. An aura of holiness surrounds it.',
@@ -3466,7 +3466,7 @@ export default createPublicationMonsters({
     clockwork_beetle: {
       name: 'Clockwork Beetle',
       alignment: 'unaligned',
-      languages: ['understands Common', 'telepathy 100 ft'],
+      languages: ['understands Common', 'telepathy 100 ft.'],
       appearance: [
         [
           'A housecat-sized mechanical insect of gleaming metal and whirring gears. Designs vary, from ladybugs to stag beetles, darkling beetles with prehensile antennae and weevils, and scarab patterns are popular in the southern deserts. Its movement gives off a rhythmic buzz and, in flight, a cacophony of clicks and whirs.',
@@ -4152,7 +4152,7 @@ export default createPublicationMonsters({
     dau: {
       name: 'Dau',
       alignment: 'chaotic neutral',
-      languages: ['Deep Speech', 'Primordial', 'Sylvan', 'telepathy 60 ft'],
+      languages: ['Deep Speech', 'Primordial', 'Sylvan', 'telepathy 60 ft.'],
       appearance: [
         [
           'A three-foot, sandy-skinned winged creature wrapped in a shimmer like a desert heat haze. Looking at it makes the eyes water and the mind swim.',
@@ -6211,7 +6211,7 @@ export default createPublicationMonsters({
     fate_eater: {
       name: 'Fate Eater',
       alignment: 'neutral',
-      languages: ['telepathy 100 ft'],
+      languages: ['telepathy 100 ft.'],
       appearance: [
         [
           'A human-sized parasite like a ghostly centipede with translucent flesh, crystal jaws and a wavering violet glow.',
@@ -8211,7 +8211,7 @@ export default createPublicationMonsters({
     idolic_deity: {
       name: 'Idolic Deity',
       alignment: 'neutral evil',
-      languages: ['telepathy 60 ft'],
+      languages: ['telepathy 60 ft.'],
       appearance: [
         [
           'A small demonic idol fades in and out of reality, its will pressing on those nearby like a physical weight.',
@@ -9879,7 +9879,7 @@ export default createPublicationMonsters({
     malakbel: {
       name: 'Malakbel',
       alignment: 'chaotic evil',
-      languages: ['Abyssal', 'telepathy 120 ft'],
+      languages: ['Abyssal', 'telepathy 120 ft.'],
       appearance: [
         [
           'A blinding wave of heat and glare surrounds a long-limbed, misshapen, human-sized form blurred by rippling air, scorching all it passes.',
@@ -12100,7 +12100,7 @@ export default createPublicationMonsters({
     oozasis: {
       name: 'Oozasis',
       alignment: 'unaligned',
-      languages: ["understands all languages but can't speak", 'telepathy 120 ft'],
+      languages: ["understands all languages but can't speak", 'telepathy 120 ft.'],
       appearance: [
         [
           'An idyllic desert oasis offers water, shade and perhaps fruit and nuts in the trees above.',
