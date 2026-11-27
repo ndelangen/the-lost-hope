@@ -12,9 +12,11 @@ export default createItem({
     [
       'A riveted iron ship of ',
       refs.locations.the_caves_of_steel,
-      ' that sails on the surface and under it. The same ships fish, carry cargo and go to war.',
+      ' that sails on the surface and under it: a large, mixed-use vessel built for fishing, utility, repair and war alike. It has an open deck where the fishing happens, and a cargo hold.',
     ],
-    ['They carry no ordinary cannons. They are armed with harpoons and with a strange machine.'],
+    [
+      'They carry no ordinary cannons. Harpoon stations and strange machines stand plainly on deck.',
+    ],
   ],
   background: [
     ['The subships burn Arcane Dust for fuel.'],
