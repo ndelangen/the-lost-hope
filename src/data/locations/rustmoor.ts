@@ -28,5 +28,8 @@ export default createLocation({
     [
       'They take Arcane Dust to dim the pain of all the people they have lost. Asked, they describe how their mates started to lose interest in shipping, drifted, and ended up here. It is a common fate in Rustmoor.',
     ],
+    [
+      'Getting out is hard. The merchants who visit need their hold space for salvage, which is what they come for, and they will not take on passengers who use Dust: too many addicts end up a problem.',
+    ],
   ],
 })

@@ -231,6 +231,13 @@ export default createScene({
         {
           do: [['Before the talk ends, they ask to come with the party when it leaves.']],
         },
+        {
+          note: [
+            [
+              'They have been trying to leave for a month or so. No merchant will take them: the holds are kept for salvage, and nobody wants Dust users aboard.',
+            ],
+          ],
+        },
       ],
     },
   ],

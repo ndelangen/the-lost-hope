@@ -30,6 +30,11 @@ export default createNPC({
       refs.pcs.swift_starblade,
       '’s player and is hidden from the others: check with that player before it comes out at the table.',
     ],
+    [
+      'He hates pirates, but he is willing to put that aside to get out of ',
+      refs.locations.rustmoor,
+      '.',
+    ],
   ],
   stats: refs.creatures.commoner,
 })
