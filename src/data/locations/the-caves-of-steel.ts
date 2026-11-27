@@ -17,7 +17,7 @@ export default createLocation({
       'Its people look human, but not quite: pale skin, large dark eyes, faint gill slits at the neck and webbing between the fingers. They call the Marshal their master.',
     ],
     [
-      'Visitors are welcomed like royalty and asked to tell their stories and everything that is happening in the world. The people have no contact with the outside and know nothing of it.',
+      'Visitors are welcomed like royalty and asked to tell their stories and everything that is happening in the world. The people have no contact with the outside and know nothing of it. None of them has ever seen land, other than the bottom of the ocean.',
     ],
   ],
   background: [
