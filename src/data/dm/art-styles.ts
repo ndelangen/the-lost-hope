@@ -136,6 +136,7 @@ export default create({
       'Painterly cinematic moment, 3:2 landscape, caught mid-action or mid-conversation.',
       'The PCs and NPCs involved look like their portraits: same faces, hair, clothes and gear.',
       'One clear story beat per picture; the key object or gesture sits near the centre.',
+      'Caves of Steel subships always match the look described on the Caves of Steel Subship record and its model picture.',
       'Warm interior light or dramatic weather and magic light outside.',
       'No text, speech bubbles, frames or watermarks.',
     ],
