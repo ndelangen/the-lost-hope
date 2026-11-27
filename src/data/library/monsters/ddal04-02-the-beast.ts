@@ -67,6 +67,72 @@ export default createPublicationMonsters({
         ],
       },
     },
+    dire_wolf: {
+      name: 'Dire Wolf',
+      page: 29,
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['Forest', 'Wolf den', 'Quivering Forest'],
+      appearance: [['A large wolf with a heavy build, coarse gray fur and a broad muzzle.']],
+      tableNotes: [
+        [
+          'Encounter: The wolf and Alina flank characters who look vulnerable or poorly armored. The very weak and weak encounter variants change the wolf roster on p. 22.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 14,
+        armor: 'natural armor',
+        hitDice: '5d10',
+        speed: { walk: 50 },
+        scores: { str: 17, dex: 15, con: 15, int: 3, wis: 12, cha: 7 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-hearing-and-smell',
+            name: 'Keen Hearing and Smell',
+            timing: 'trait',
+            icon: 'gi/GiHumanEar',
+            text: [
+              'The wolf has advantage on Wisdom (Perception) checks that rely on sight or smell.',
+            ],
+          },
+          {
+            key: 'pack-tactics',
+            name: 'Pack Tactics',
+            timing: 'trait',
+            icon: 'lucide/UsersRound',
+            text: [
+              'The wolf has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and the ally is free of the ',
+              rules.incapacitated,
+              ' condition. The printed line names a vulture’s ally. This summary reads that reference as the wolf’s ally.',
+            ],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.piercing, addModifier: true, printedBonus: 3 }],
+            },
+            text: [
+              'A creature hit must pass a ',
+              { dc: 'str' },
+              ' Strength save or fall ',
+              rules.prone,
+              '.',
+            ],
+          },
+        ],
+      },
+    },
     zombie: {
       name: 'Zombie',
       alignment: 'neutral evil',

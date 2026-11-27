@@ -7,6 +7,65 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.storm_lord_s_wrath,
   monsters: {
+    skull_flier: {
+      name: 'Skull Flier',
+      alignment: 'unaligned',
+      languages: [],
+      stats: {
+        size: 'medium',
+        type: 'construct',
+        cr: '1/2',
+        ac: 16,
+        armor: 'natural armor',
+        hitDice: '3d8',
+        printed: { hitPoints: 24 },
+        speed: { walk: 10, fly: 50 },
+        scores: { str: 10, dex: 14, con: 10, int: 1, wis: 10, cha: 3 },
+        senses: { darkvision: 60 },
+        damageImmunities: [rules.poison, rules.psychic],
+        conditionImmunities: [
+          rules.charmed,
+          rules.frightened,
+          rules.paralyzed,
+          rules.petrified,
+          rules.poisoned,
+        ],
+        abilities: [
+          {
+            key: 'sting',
+            name: 'Sting',
+            timing: 'action',
+            icon: 'gi/GiPoisonBottle',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+            save: {
+              ability: 'con',
+              dc: 'con',
+              target: { creatures: 1, range: 5, which: 'it hits' },
+              onFail: {
+                damage: [{ dice: '3d6', type: rules.poison }],
+              },
+              onSuccess: 'half',
+              printedDc: 11,
+            },
+            text: [
+              'If the poison damage reduces the target to 0 hit points, the target is stable but ',
+              rules.poisoned,
+              ' for 1 hour, even after regaining hit points, and is ',
+              rules.paralyzed,
+              ' while ',
+              rules.poisoned,
+              ' in this way.',
+            ],
+          },
+        ],
+      },
+    },
     statue_of_talos: {
       name: 'Statue of Talos',
       alignment: 'chaotic evil',

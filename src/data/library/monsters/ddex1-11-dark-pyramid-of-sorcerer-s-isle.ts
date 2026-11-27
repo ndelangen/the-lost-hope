@@ -686,6 +686,7 @@ export default createPublicationMonsters({
     },
     young_purple_worm: {
       name: 'Young Purple Worm',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse],
       alignment: 'unaligned',
       languages: [],
       appearance: [

@@ -125,5 +125,47 @@ export default createPublicationMonsters({
         ],
       },
     },
+    slurmy: {
+      name: 'Slurmy',
+      tags: ['goblinoid'],
+      alignment: 'neutral evil',
+      languages: ['Common'],
+      stats: {
+        size: 'small',
+        type: 'humanoid',
+        cr: '1/8',
+        ac: 14,
+        armor: 'natural armor',
+        hitDice: '2d8',
+        printed: { passivePerception: 12 },
+        speed: { walk: 30 },
+        scores: { str: 8, dex: 14, con: 12, int: 8, wis: 14, cha: 8 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'nimble-escape',
+            name: 'Nimble Escape',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'Slurmy can take the Disengage or Hide action as a bonus action on each of their turns.',
+            ],
+          },
+          {
+            key: 'claw',
+            name: 'Claw',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
   },
 })

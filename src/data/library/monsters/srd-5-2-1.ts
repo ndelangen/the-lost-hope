@@ -2069,6 +2069,7 @@ export default createPublicationMonsters({
     },
     air_elemental: {
       name: 'Air Elemental',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Primordial (Auran)'],
       stats: {

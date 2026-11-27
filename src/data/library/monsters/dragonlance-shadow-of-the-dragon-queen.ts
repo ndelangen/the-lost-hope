@@ -2791,6 +2791,56 @@ export default createPublicationMonsters({
         ],
       },
     },
+    kalaman_soldier: {
+      name: 'Kalaman Soldier',
+      alignment: 'any alignment',
+      languages: ['Common'],
+      stats: {
+        size: 'small',
+        type: 'humanoid',
+        cr: '1/2',
+        ac: 18,
+        armor: 'chain mail, shield',
+        hitDice: '3d8',
+        speed: { walk: 30 },
+        scores: { str: 13, dex: 12, con: 12, int: 10, wis: 11, cha: 10 },
+        skills: { athletics: 'proficient', perception: 'proficient' },
+        abilities: [
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['The soldier makes two ', { ability: 'longsword' }, ' attacks.'],
+          },
+          {
+            key: 'longsword',
+            name: 'Longsword',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              twoHanded: [
+                { dice: '1d10', type: rules.slashing, addModifier: true, printedBonus: 2 },
+              ],
+              damage: [{ dice: '1d8', type: rules.slashing, addModifier: true, printedBonus: 2 }],
+            },
+          },
+          {
+            key: 'hold-the-line',
+            name: 'Hold the Line',
+            timing: 'reaction',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'If an ally within 5 feet of the soldier must make a saving throw, the soldier encourages the ally, granting advantage on the roll.',
+            ],
+          },
+        ],
+      },
+    },
     kansaldi_fire_eyes: {
       name: 'Kansaldi Fire-Eyes',
       tags: ['cleric', 'human'],

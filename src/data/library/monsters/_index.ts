@@ -114,6 +114,7 @@ import mordenkainen_s_fiendish_folio_volume_1 from './mordenkainen-s-fiendish-fo
 import mordenkainen_s_fiendish_folio from './mordenkainen-s-fiendish-folio.ts'
 import mordenkainen_s_tome_of_foes from './mordenkainen-s-tome-of-foes.ts'
 import morte_s_planar_parade from './morte-s-planar-parade.ts'
+import muk_s_guide_to_everything_he_learned_from_tasha from './muk-s-guide-to-everything-he-learned-from-tasha.ts'
 import mythic_odysseys_of_theros from './mythic-odysseys-of-theros.ts'
 import nerds_restoring_harmony_a_sticky_situation from './nerds-restoring-harmony-a-sticky-situation.ts'
 import nerds_restoring_harmony_a_voice_in_the_wilderness from './nerds-restoring-harmony-a-voice-in-the-wilderness.ts'
@@ -291,6 +292,7 @@ export default [
   mordenkainen_s_fiendish_folio_volume_1,
   mordenkainen_s_tome_of_foes,
   morte_s_planar_parade,
+  muk_s_guide_to_everything_he_learned_from_tasha,
   mythic_odysseys_of_theros,
   nerds_restoring_harmony_a_sticky_situation,
   nerds_restoring_harmony_a_voice_in_the_wilderness,

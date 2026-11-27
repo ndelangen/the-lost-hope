@@ -1139,95 +1139,23 @@
       {
         "id": "printing-6ecca72626e365e22141152e",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 84",
-              "Hit dice · 7d10 + 14",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 13",
-              "XP · 700",
-              "Str · 18",
-              "Dex · 14",
-              "Con · 15",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "arctic"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A broad-shouldered saber-toothed cat wearing fitted half-plate barding."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3", "Stealth +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Specially fitted half plate. Perception +3, Stealth +6. Passive Perception 13. No languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Curse of Strahd, first printing, march 2016, Chapter 5, The Town of Vallaki, N5 Arasek Stockyard, p. 115. Inherits the Saber-Toothed Tiger stat block in the 2014 Monster Manual, p. 336. https://www.dndbeyond.com/sources/cos/the-town-of-vallaki#AreasofVallaki"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The tiger has advantage on Wisdom (Perception) checks based on scent.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claw on that turn. The creature falls prone on a failed DC 14 Strength save. A prone target can then be bitten once as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 10 (1d10 + 5) piercing damage.\nClaw. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 12 (2d6 + 5) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter application",
-            "lines": [
-              "The tiger was trained to hunt Vistani servants of Strahd, per the p. 115 erratum. If released, it can track Rictavio or Piccolo by scent. Rictavio can stop an attack and coax it into the wagon. During the Tyger, Tyger event on pp. 123–124, it roams until hurt, then attacks the perceived source of the harm."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "Rictavio keeps the tiger in his carnival wagon in Vallaki and feeds it through the roof hatch."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The first printing replaces the base armor, HP, and challenge. It gives 84 HP without a replacement Hit Dice formula.\nThe printed base block gives +6 to hit and +5 damage on both attacks. The adventure does not change either value.\nPublisher errata changes p. 115 to target Strahd’s Vistani servants and removes recognition by scent and clothing from that paragraph. Page 116 of the first printing describes broader targeting and is not separately amended in the errata."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#armored%20saber-toothed%20tiger_cos",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/armored-saber-toothed-tiger-1175b1f8658a.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "armored_saber_toothed_tiger"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -13633,75 +13561,22 @@
       {
         "id": "printing-2082e6a85917628e92fb869e",
         "label": "DDAL04-02 - The Beast",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 37",
-              "Hit dice · 5d10 + 10",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 15",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest", "Wolf den", "Quivering Forest"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A large wolf with a heavy build, coarse gray fur and a broad muzzle."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Perception +3. Stealth +4. Passive Perception 13. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Wizards of the Coast, DDAL04-02 The Beast, p. 29."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that rely on sight or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if one of its allies is within 5 ft. of that creature and the ally is free of the Incapacitated condition. The printed line names a vulture’s ally. This summary reads that reference as the wolf’s ally."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Make a melee weapon attack at +4 against one target within 5 ft. A hit deals 10 (2d6 + 3) piercing damage. A creature hit must pass a DC 13 Strength save or fall Prone."
-            ]
-          },
-          {
-            "title": "Encounter",
-            "lines": [
-              "The wolf and Alina flank characters who look vulnerable or poorly armored. The very weak and weak encounter variants change the wolf roster on p. 22."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/dire-wolf-1158da2a59e3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dire_wolf"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_02_the_beast"
+          }
+        }
       },
       {
         "id": "printing-f8c804ad49fd8d107f38a714",
@@ -21654,97 +21529,24 @@
       {
         "id": "printing-631dd0279bd4ef1fab00643a",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 18",
-              "Hit dice · 4d8",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 30 ft., swim 30 ft.",
-              "Passive Perception · 12",
-              "XP · 50",
-              "Str · 12",
-              "Dex · 13",
-              "Con · 11",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Strength +1",
-              "Dexterity +1",
-              "Constitution +0",
-              "Intelligence -4",
-              "Wisdom +0",
-              "Charisma -4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "swamp"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A broad, mottled olive frog with a cream throat, golden eyes, folded hind legs, and webbed toes."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +1 (11). Proficiency Bonus +2. Senses Darkvision 30 ft., Passive Perception 12. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 357. https://www.dndbeyond.com/monsters/5195020-giant-frog"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The frog breathes air and water.\nStanding Leap. With or without a running start, it can jump up to 20 ft. horizontally or 10 ft. vertically."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Make a +3 melee attack within 5 ft. On a hit, deal 5 (1d6 + 2) piercing damage. A Medium or smaller creature hit is Grappled (escape DC 11).\nSwallow. As its action, the frog can swallow one Small or smaller target it is grappling. The target ceases to be Grappled, becomes Blinded and Restrained, and has Total Cover from attacks and other effects outside the frog. The frog cannot use Bite while the target is swallowed. If the frog dies, the target ceases to be Restrained and can spend 5 ft. of movement to escape the corpse, landing Prone. At the end of the frog’s next turn, the swallowed target takes 5 (2d4) acid damage. If it survives that damage, the frog disgorges it and it lands Prone."
-            ]
-          },
-          {
-            "title": "Published errata",
-            "lines": [
-              "The publisher’s version 1.0 errata for p. 357 changes the original +4 Bite attack bonus to +3. The digital stat block reflects the correction and retains Stealth +4 and Bite damage of 5 (1d6 + 2). https://www.dndbeyond.com/sources/dnd/sae/monster-manual"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20frog_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/58417/101/1000/1000/639226714224349673.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-frog-9a7d088b8678.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_frog"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-c90ff70b143e060fb3d93b88",
@@ -30473,83 +30275,23 @@
       {
         "id": "printing-9d153ad82ee00550cfe4693e",
         "label": "Tales from the Yawning Portal",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 161",
-              "Hit dice · 14d12 + 70",
-              "Challenge · 8",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 30 ft., swim 30 ft.",
-              "Passive Perception · 9",
-              "XP · 3900",
-              "Str · 20",
-              "Dex · 15",
-              "Con · 20",
-              "Int · 1",
-              "Wis · 9",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["White Plume Mountain", "Boiling Bubble"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A huge rust-brown crab with a spiny shell and two heavy claws. The adventure puts a copper band on one claw."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["AC includes natural armor. Blindsight 30 ft. Languages none."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Tales from the Yawning Portal, April 2017 first printing, p. 103, White Plume Mountain, area 17, The Boiling Bubble. Base rules from Monster Manual (2014), Giant Crab, p. 324."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. Breathe air and water.\nA rune-covered copper band on one claw makes this crab immune to being charmed, frightened or paralyzed. The magic works only for this crab and the band has no treasure value."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claw. Melee weapon attack +9, reach 10 ft., one target. On a hit, deal 27 (4d10 + 5) bludgeoning damage and grapple the target (escape DC 14). Each of the two claws can hold only one target."
-            ]
-          },
-          {
-            "title": "Encounter",
-            "lines": [
-              "The crab guards the treasure and fights without striking the elastic skin. A piercing puncture creates a jet that deals 2 (1d4) fire damage when it first breaks through and to creatures that enter or start a turn in its space. The puncture does not seal. Major damage collapses the bubble in 1d6 rounds."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#huge%20giant%20crab_tftyp",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-crab-95e07738ab5d.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "huge_giant_crab"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tales_from_the_yawning_portal"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -46948,103 +46690,23 @@
       {
         "id": "printing-557cbc892af247a268da3591",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 33",
-              "Hit dice · 3d10 + 3",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 11",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 11",
-              "Con · 12",
-              "Int · 6",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "grassland", "hill"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A nine-foot-tall mountain goat with slate-gray fur, a lowered head, and an intent stare."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Passive Perception 11. No languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Curse of Strahd, first printing, march 2016, Chapter 9, Tsolenka Pass, Bloodhorn’s Charge, p. 160. Inherits the Giant Goat stat block in the 2014 Monster Manual, p. 326. https://www.dndbeyond.com/sources/cos/tsolenka-pass#SpecialEvents"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Charge. If Sangzor moves 20 ft. or more in a straight line toward a target and hits with Ram on the same turn, the attack deals 5 (2d4) extra bludgeoning damage. A creature hit falls prone if it fails a DC 13 Strength save.\nSure-Footed. Sangzor has advantage on Strength and Dexterity saves against effects that would knock it prone."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Ram. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 8 (2d4 + 3) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Defenses",
-            "lines": [
-              "Resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
-            ]
-          },
-          {
-            "title": "Encounter application",
-            "lines": [
-              "If no character has passive Wisdom (Perception) 16 or higher, the party is surprised. Sangzor charges downhill. A target hit by the charge that fails the save tumbles 100 ft. to a ledge. Sangzor flees after taking 10 or more damage. Mist and snow limit visibility to 60 ft., and the goat escapes through a cleft once out of sight."
-            ]
-          },
-          {
-            "title": "Pelt",
-            "lines": [
-              "Berserkers in Strahd’s domain respect a creature wearing Sangzor’s pelt and leave the wearer and companions alone unless provoked."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "Mountain folk have hunted Sangzor, also called Bloodhorn, for years. Its gray fur blends into the rock above Tsolenka Pass."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The adventure changes Intelligence, alignment, HP, resistances, and challenge. It gives 33 HP without a replacement Hit Dice formula."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#sangzor_cos",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/sangzor-db04d6d41828.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sangzor"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
