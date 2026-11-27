@@ -6,6 +6,7 @@ const party = [refs.pcs.cassian_veyl, refs.pcs.devan, refs.pcs.swift_starblade, 
 export default createScene({
   name: 'Down through the rubble',
   location: refs.locations.the_old_battlefield,
+  illustrations: ['/assets/scenes/down-through-the-rubble.png'],
   alternateLocations: [refs.locations.rustmoor_guildhall],
   npcs: [refs.npcs.hex, refs.npcs.rustmoor_scavenger, refs.npcs.buried_war_machine],
   setup: [

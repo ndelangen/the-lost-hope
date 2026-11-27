@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'The Old Battlefield',
   icon: 'gi/GiBattleMech',
+  illustration: '/assets/locations/the-old-battlefield-illustration.png',
   type: 'wilderness',
   parent: refs.locations.world,
   at: [1085, 610],

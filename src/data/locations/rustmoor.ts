@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Rustmoor',
   icon: 'gi/GiWreckingBall',
+  illustration: '/assets/locations/rustmoor-illustration.png',
   type: 'settlement',
   parent: refs.locations.world,
   at: [1085, 410],

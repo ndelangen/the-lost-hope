@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: "Rustmoor Adventurers' Guildhall",
+  illustration: '/assets/locations/rustmoor-guildhall-illustration.png',
   type: 'building',
   parent: refs.locations.rustmoor,
   at: [525, 350],

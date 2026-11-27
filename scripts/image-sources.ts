@@ -2957,6 +2957,36 @@ export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     logicalSource: '/assets/scenes/a-fleet-on-an-empty-sea-pearls.png',
     repositoryPath: 'assets/images/content/scenes/a-fleet-on-an-empty-sea-pearls.png',
   },
+  {
+    id: 'location-illustration-rustmoor',
+    role: 'illustration',
+    logicalSource: '/assets/locations/rustmoor-illustration.png',
+    repositoryPath: 'assets/images/content/locations/rustmoor-illustration.png',
+  },
+  {
+    id: 'location-illustration-rustmoor-guildhall',
+    role: 'illustration',
+    logicalSource: '/assets/locations/rustmoor-guildhall-illustration.png',
+    repositoryPath: 'assets/images/content/locations/rustmoor-guildhall-illustration.png',
+  },
+  {
+    id: 'location-illustration-the-old-battlefield',
+    role: 'illustration',
+    logicalSource: '/assets/locations/the-old-battlefield-illustration.png',
+    repositoryPath: 'assets/images/content/locations/the-old-battlefield-illustration.png',
+  },
+  {
+    id: 'scenes-hex-loses-patience',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/hex-loses-patience.png',
+    repositoryPath: 'assets/images/content/scenes/hex-loses-patience.png',
+  },
+  {
+    id: 'scenes-down-through-the-rubble',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/down-through-the-rubble.png',
+    repositoryPath: 'assets/images/content/scenes/down-through-the-rubble.png',
+  },
 ]
 
 export const RESPONSIVE_IMAGE_SOURCES = ORIGINAL_IMAGE_SOURCES.filter((source) => !source.archived)

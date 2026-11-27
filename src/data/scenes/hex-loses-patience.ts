@@ -4,6 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Hex loses patience',
   location: refs.locations.rustmoor_guildhall,
+  illustrations: ['/assets/scenes/hex-loses-patience.png'],
   npcs: [refs.npcs.hex, refs.npcs.light_13th_marshal],
   setup: [
     [
