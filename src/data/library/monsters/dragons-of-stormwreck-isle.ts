@@ -38,6 +38,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['When the fume drake dies, it explodes in a cloud of noxious fumes.'],
+            effects: [],
           },
           {
             key: 'unusual-nature',
@@ -77,6 +78,7 @@ export default createPublicationMonsters({
             text: ['The fume drake exhales scalding steam in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },

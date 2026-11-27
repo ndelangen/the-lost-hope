@@ -288,6 +288,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.control_weather_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -357,6 +358,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 15 },
               ' Constitution saving throw or die.',
             ],
+            effects: [],
           },
           {
             key: 'flying-sword',
@@ -409,6 +411,7 @@ export default createPublicationMonsters({
                 { roll: '4d6' },
                 ' radiant damage on a failed save, or half as much damage on a successful one.',
               ],
+              effects: [],
             },
             {
               key: 'blinding-gaze',
@@ -419,8 +422,20 @@ export default createPublicationMonsters({
                 'Atash targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a ',
                 { dc: 'con', printed: 15 },
                 ' Constitution saving throw or be ',
-                rules.blinded,
-                ' until magic such as the lesser restoration spell removes the blindness.',
+                { effect: 'gaze-blinded' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'gaze-blinded',
+                  name: 'Blinded',
+                  lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                  conditions: [rules.blinded],
+                  lasts: { kind: 'until-removed' },
+                  ends: {
+                    cure: ['magic such as the lesser restoration spell removes the blindness'],
+                  },
+                },
               ],
             },
           ],
@@ -4038,6 +4053,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'reconstruction',
@@ -4073,10 +4089,20 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 15). The soul shaker can have only one creature ',
+              { effect: 'grabbed' },
+              '. The soul shaker can have only one creature ',
               rules.grappled,
               ' in this way at a time.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -4089,7 +4115,19 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution saving throw or take necrotic damage of ',
               { roll: '2d6' },
-              ". The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the soul shaker regains hit points equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.",
+              '. ',
+              { effect: 'vitality-drained' },
+            ],
+            effects: [
+              {
+                key: 'vitality-drained',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the soul shaker regains hit points equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.",
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
         ],
@@ -4191,8 +4229,17 @@ export default createPublicationMonsters({
               'If the target is a Large or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 10 feet away from the tlexolotl and knocked ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4216,6 +4263,7 @@ export default createPublicationMonsters({
             text: ["Gouts of molten lava erupt from the tlexolotl's body."],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4550,6 +4598,7 @@ export default createPublicationMonsters({
               refs.spells.time_stop_srd_5_1,
               ' *The archmage casts these spells on itself before combat.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',

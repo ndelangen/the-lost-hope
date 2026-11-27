@@ -236,11 +236,9 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Large or smaller creature, it must succeed on a Dexterity saving throw (',
               { dc: 'str' },
-              ') or be swallowed by the wurm. A swallowed creature has the ',
-              rules.restrained,
-              ' condition, has 3 against attacks and other effects outside the wurm, and takes ',
-              { roll: '8d6' },
-              " piercing damage at the start of each of the wurm's turns from thorns in the wurm's gullet. The wurm's stomach can hold up to two creatures at a time. If the wurm takes 30 damage or more on a single turn from a creature inside it, the wurm must succeed on a Constitution saving throw (",
+              ') or be swallowed by the wurm. A swallowed creature has ',
+              { effect: 'wurm-swallowed' },
+              ". The wurm's stomach can hold up to two creatures at a time. If the wurm takes 30 damage or more on a single turn from a creature inside it, the wurm must succeed on a Constitution saving throw (",
               { dc: 'str' },
               ') at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the wurm and has the ',
               rules.prone,
@@ -249,6 +247,20 @@ export default createPublicationMonsters({
               ' condition and can escape from the corpse by using 10 feet of movement, exiting with the ',
               rules.prone,
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'wurm-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.restrained],
+                text: [
+                  'has 3 against attacks and other effects outside the wurm, and takes ',
+                  { roll: '8d6' },
+                  " piercing damage at the start of each of the wurm's turns from thorns in the wurm's gullet.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -936,9 +948,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Large or smaller creature, it must succeed on a ',
               { dc: 'wis', save: 'str' },
-              ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              ' Strength saving throw or have ',
+              { effect: 'wing-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wing-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'wis' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -958,9 +979,18 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: [
-              "The Goose Mother's heads honk a discordant lullaby.    The honks can be heard up to 300 feet away. A creature under magical slumber has the ",
-              rules.unconscious,
-              ' condition for 8 hours. This effect ends early for a creature if it takes damage or another creature uses an action to shake it awake.',
+              "The Goose Mother's heads honk a discordant lullaby.    The honks can be heard up to 300 feet away. A creature under magical slumber has ",
+              { effect: 'lullaby-unconscious' },
+              '. This effect ends early for a creature if it takes damage or another creature uses an action to shake it awake.',
+            ],
+            effects: [
+              {
+                key: 'lullaby-unconscious',
+                name: 'Magical slumber',
+                lands: { on: 'failed-save' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '8', unit: 'hour' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2210,9 +2240,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.stunned,
-              " condition until the start of the hart's next turn.",
+              ' Constitution saving throw or have ',
+              { effect: 'antlers-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'antlers-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -2236,15 +2275,21 @@ export default createPublicationMonsters({
             text: [
               'Immediately after a creature the hart can see within 120 feet of itself hits it with an attack roll, the hart reduces the damage to itself by half. The attacker must immediately make a ',
               { dc: 'con', save: 'str' },
-              ' Strength saving throw as beanstalks coil around it in its space. On a failed save, the creature has the ',
-              rules.grappled,
-              ' condition (escape DC 16) and has the ',
-              rules.restrained,
-              ' condition as long as it is ',
-              rules.grappled,
+              ' Strength saving throw as beanstalks coil around it in its space. On a failed save, the creature has ',
+              { effect: 'growth-grappled' },
               '. The beanstalks vanish after 1 minute, if the hart has the ',
               rules.incapacitated,
               ' condition, or when the hart dies.',
+            ],
+            effects: [
+              {
+                key: 'growth-grappled',
+                name: 'Grappled',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'con', printed: 16 } },
+              },
             ],
           },
           {
@@ -2265,6 +2310,7 @@ export default createPublicationMonsters({
             text: [
               'In response to making a saving throw, the hart calls down a bolt of lightning that targets one creature it can see within 120 feet of itself.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2441,6 +2487,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hold_monster_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2496,6 +2543,7 @@ export default createPublicationMonsters({
               { roll: '2d12' },
               ' psychic damage. On a successful save, the target takes half as much damage only.',
             ],
+            effects: [],
           },
           {
             key: 'enchanting-gaze',
@@ -2509,15 +2557,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 10, which: 'of it' },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic }],
-                also: [
-                  'The creature has the ',
-                  rules.charmed,
-                  ' condition until the end of its next turn.',
-                ],
+
+                also: [{ effect: 'gaze-charmed' }],
               },
             },
             text: [
               'When a creature the witchkite can see moves within 10 feet of it, the witchkite emits an enchanting gaze at the creature.',
+            ],
+            effects: [
+              {
+                key: 'gaze-charmed',
+                name: 'Charmed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {

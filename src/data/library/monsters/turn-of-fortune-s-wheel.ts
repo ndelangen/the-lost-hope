@@ -419,10 +419,19 @@ export default createPublicationMonsters({
               'Plus ',
               { roll: '2d10', mod: 'str' },
               ' slashing damage. The target is ',
-              rules.grappled,
-              " (escape DC 16) if the whirlwyrm isn't already constricting a creature, and the target is ",
-              rules.restrained,
-              ' until this grapple ends.',
+              { effect: 'constrict-grappled' },
+              " if the whirlwyrm isn't already constricting a creature",
+              '.',
+            ],
+            effects: [
+              {
+                key: 'constrict-grappled',
+                name: 'Grabbed and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -443,6 +452,7 @@ export default createPublicationMonsters({
             text: ['The whirlwyrm exhales thunder in a 20-foot-long, 5-foot-wide Line.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'swallow',
@@ -451,12 +461,8 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               'The whirlwyrm makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the whirlwyrm, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the whirlwyrm's turns. A whirlwyrm can have only one creature swallowed at a time. If the whirlwyrm takes 30 damage or more on a single turn from the swallowed creature, the whirlwyrm must succeed on a ",
+              { effect: 'swallowed' },
+              '. A whirlwyrm can have only one creature swallowed at a time. If the whirlwyrm takes 30 damage or more on a single turn from the swallowed creature, the whirlwyrm must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw at the end of that turn or regurgitate the creature, which falls ',
               rules.prone,
@@ -465,6 +471,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside the whirlwyrm, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the whirlwyrm's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1220,6 +1240,7 @@ export default createPublicationMonsters({
               ' (self only), ',
               refs.spells.protection_from_evil_and_good_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'axiomatic-mind',
@@ -1287,8 +1308,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or have the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn.',
+              { effect: 'pincer-incapacitated' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'pincer-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                conditions: [rules.incapacitated],
+              },
             ],
           },
           {
@@ -1304,9 +1334,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d10', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              " condition (escape DC 14). Until this grapple ends, X01 can't use this tentacle against other targets. X01 has six tentacles, each of which can grapple one target.",
+              'If the target is a Medium or smaller creature, it has ',
+              { effect: 'tentacle-grappled' },
+              ". Until this grapple ends, X01 can't use this tentacle against other targets. X01 has six tentacles, each of which can grapple one target.",
+            ],
+            effects: [
+              {
+                key: 'tentacle-grappled',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -1319,6 +1359,7 @@ export default createPublicationMonsters({
               { dc: 'int', printed: 10 },
               " + the spell's level). On a success, the spell fails and has no effect.",
             ],
+            effects: [],
           },
           {
             key: 'lightning-rebuke',
@@ -1338,6 +1379,7 @@ export default createPublicationMonsters({
             text: [
               'When a creature within 120 feet of X01 damages it, X01 magically retaliates with an arc of lightning.',
             ],
+            effects: [],
           },
         ],
       },

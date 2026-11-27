@@ -52,6 +52,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.thunderwave_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -106,6 +107,7 @@ export default createPublicationMonsters({
             ],
             uses: 5,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'fiery-rebuke',
@@ -121,6 +123,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -317,6 +320,7 @@ export default createPublicationMonsters({
               "; 1/day each: Bigby's hand, ",
               refs.spells.major_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -328,6 +332,7 @@ export default createPublicationMonsters({
               rules.charmed,
               " condition on himself, and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -454,6 +459,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.time_stop_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -501,6 +507,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'summon-wraith',
@@ -637,15 +644,25 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30 },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.piercing, addModifier: true }],
+
                 also: [
                   'The target is impaled by the blade and is knocked ',
-                  rules.prone,
+                  { effect: 'impaled-prone' },
                   '. At the end of the current turn, the blade magically reattaches to its hilt.',
                 ],
               },
             },
             text: [
               "Xenk magically detaches the longsword's blade from its hilt, launching the blade at a creature he can see within 30 feet of himself.",
+            ],
+            effects: [
+              {
+                key: 'impaled-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -660,14 +677,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 }, range: 10 },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.piercing }],
-                also: [
-                  "The creature has disadvantage on attack rolls until the start of Xenk's next turn.",
-                ],
+
+                also: ['The creature ', { effect: 'disadvantaged' }, '.'],
               },
               onSuccess: 'half',
             },
             text: [
               'Xenk lashes out with both weapons, affecting only creatures of his choice.    The creature suffers no other effect.',
+            ],
+            effects: [
+              {
+                key: 'disadvantaged',
+                name: 'Disadvantage on attack rolls',
+                lands: { on: 'failed-save' },
+                text: ['has disadvantage on attack rolls'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {

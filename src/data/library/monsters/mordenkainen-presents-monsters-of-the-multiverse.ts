@@ -1275,6 +1275,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'rising-anger',
@@ -5055,6 +5056,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hold_person_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -5066,6 +5068,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put the choldrith to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -5125,10 +5128,19 @@ export default createPublicationMonsters({
             icon: 'gi/GiSpiderWeb',
             text: [
               'Ranged Weapon Attack: plus 5 to hit, range 30/60 ft., one Large or smaller creature. Hit: The target is ',
-              rules.restrained,
+              { effect: 'web-restrained' },
               ' by webbing. As an action, the ',
               rules.restrained,
               ' target can make a DC 11 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).',
+            ],
+            effects: [
+              {
+                key: 'web-restrained',
+                name: 'Restrained',
+                lands: { on: 'use' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -6889,6 +6901,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.project_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -6924,6 +6937,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6953,7 +6967,19 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'cha', save: 'con' },
-              ' Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.',
+              ' Constitution saving throw, or ',
+              { effect: 'tentacle-reduced' },
+            ],
+            effects: [
+              {
+                key: 'tentacle-reduced',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                text: [
+                  'Its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6978,6 +7004,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' target uses its action, reaction, and movement.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -26121,8 +26148,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bite-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -26137,6 +26173,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -26199,8 +26236,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bite-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -26212,10 +26258,18 @@ export default createPublicationMonsters({
               'The shadow mastiff howls. Any Beast or Humanoid within 300 feet of it must succeed on a ',
               { dc: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' of it for 1 minute. A ',
-              rules.frightened,
-              " target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's save is successful or the effect ends for it, the target is immune to any shadow mastiff's Terrifying Howl for the next 24 hours.",
+              { effect: 'howl-frightened' },
+              ". If a target's save is successful or the effect ends for it, the target is immune to any shadow mastiff's Terrifying Howl for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'howl-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -26232,6 +26286,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -27513,6 +27568,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.dominate_monster_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'return-to-worms',
@@ -27552,8 +27608,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' until the end of its next turn.',
+              { effect: 'slam-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slam-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -27580,12 +27645,23 @@ export default createPublicationMonsters({
               ' Dexterity saving throw or take necrotic damage of ',
               { roll: '5d8' },
               ' and be ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' by masses of swarming worms. The affected creature takes necrotic damage of ',
-              { roll: '5d8' },
-              " at the start of each of the mage's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              { effect: 'worms-restrained' },
+              ' by masses of swarming worms.',
+            ],
+            effects: [
+              {
+                key: 'worms-restrained',
+                name: 'Swarming worms',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'The affected creature takes necrotic damage of ',
+                  { roll: '5d8' },
+                  " at the start of each of the mage's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -27630,6 +27706,7 @@ export default createPublicationMonsters({
                 { roll: '3d8' },
                 ' necrotic damage, and the mage gains 6 temporary hit points.',
               ],
+              effects: [],
             },
           ],
         },

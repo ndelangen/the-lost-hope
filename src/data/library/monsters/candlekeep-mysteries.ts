@@ -203,6 +203,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.teleport_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -249,6 +250,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'supreme-mockery',
@@ -262,13 +264,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '12d10', type: rules.psychic }],
-                also: [
-                  'Have disadvantage on the next attack roll it makes before the end of its next turn.',
-                ],
+
+                also: [{ effect: 'mockery-disadvantage' }],
               },
             },
             text: [
               'Quill hurls a string of insults laced with enchantments at one creature he can see within 60 feet of him. If the creature can hear Quill (though it need not understand him),',
+            ],
+            effects: [
+              {
+                key: 'mockery-disadvantage',
+                name: 'Supreme mockery',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Have disadvantage on the next attack roll it makes before the end of its next turn.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -556,6 +568,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -1763,6 +1776,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.true_seeing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shocking-grasp-cantrip',
@@ -1800,6 +1814,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'shield-1st-level-spell-3-day',
@@ -1811,6 +1826,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' barrier of magical force that protects it. Until the start of its next turn, the sage has a bonus of 5 to AC, including against the triggering attack, and it takes no damage from magic missile.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2095,6 +2111,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mirror_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2141,8 +2158,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' until the end of its next turn.',
+              { effect: 'shard-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'shard-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -2165,6 +2191,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
         legendary: {
@@ -2361,10 +2388,19 @@ export default createPublicationMonsters({
               'Plus ',
               { roll: '2d10', mod: 'str' },
               ' slashing damage. The target is ',
-              rules.grappled,
-              " (escape DC 16) if the behir isn't already constricting a creature, and the target is ",
-              rules.restrained,
-              ' until this grapple ends.',
+              { effect: 'constricted' },
+              " if the behir isn't already constricting a creature",
+              '.',
+            ],
+            effects: [
+              {
+                key: 'constricted',
+                name: 'Constricted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -2385,6 +2421,7 @@ export default createPublicationMonsters({
             text: ['The behir exhales a line of lightning that is 20 feet long and 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'swallow',
@@ -2392,13 +2429,9 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiSlime',
             text: [
-              'The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the behir, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time. Any creature swallowed by a parasite-infested behir must succeed on a ",
+              'The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. ',
+              { effect: 'swallowed' },
+              '. A behir can have only one creature swallowed at a time. Any creature swallowed by a parasite-infested behir must succeed on a ',
               { dc: 'con', printed: 19 },
               " Constitution saving throw at the start of each of the behir's turns or be feasted upon by blood parasites, taking necrotic damage of ",
               { roll: '8d8' },
@@ -2411,6 +2444,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside the behir, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the behir's turns",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2460,6 +2507,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spiritual_weapon_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dark-devotion',
@@ -2473,6 +2521,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2511,6 +2560,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Ram Sugar exhales fire in a 30-foot-long line that is 5 feet wide.'],
+            effects: [],
           },
         ],
       },
@@ -2578,6 +2628,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.unseen_servant_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shocking-grasp-cantrip',
@@ -2605,6 +2656,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' barrier of magical force that protects it. Until the start of its next turn, the sage has a bonus of 5 to AC, including against the triggering attack, and it takes no damage from magic missile.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2811,6 +2863,7 @@ export default createPublicationMonsters({
               { roll: '1d8', mod: 'dex' },
               " and must use its reaction to make a melee weapon attack against one creature it can reach (Shemshime's choice) that Shemshime can see.",
             ],
+            effects: [],
           },
           {
             key: 'howling-babble',
@@ -2824,17 +2877,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30 },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.psychic, addModifier: true }],
-                also: [
-                  'Is ',
-                  rules.stunned,
-                  " until the end of its next turn and isn't ",
-                  rules.stunned,
-                  '.',
-                ],
+
+                also: ['Is ', { effect: 'babble-stunned' }, " and isn't ", rules.stunned, '.'],
               },
               onSuccess: 'half',
             },
             text: ['Shemshime targets one creature it can see within 30 feet of it.'],
+            effects: [
+              {
+                key: 'babble-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 6',
           },
@@ -3184,6 +3241,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

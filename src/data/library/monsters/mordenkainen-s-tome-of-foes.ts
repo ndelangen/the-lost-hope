@@ -4019,6 +4019,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.project_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -4061,6 +4062,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4084,7 +4086,19 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'cha', save: 'con' },
-              ' Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.',
+              ' Constitution saving throw or ',
+              { effect: 'tentacle-reduced' },
+            ],
+            effects: [
+              {
+                key: 'tentacle-reduced',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                text: [
+                  'Its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4099,16 +4113,27 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ", it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see Demogorgon until the start of his next turn. If the target looks at him in the meantime, it must immediately make the save. If the target fails the save, the target suffers one of the following effects of Demogorgon's choice or at random: 1.",
             ],
+            effects: [],
           },
           {
             key: 'beguiling-gaze',
             name: 'Beguiling Gaze',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'The target is ',
-              rules.stunned,
-              " until the start of Demogorgon's next turn or until Demogorgon is no longer within line of sight. 2.",
+            text: ['The target is ', { effect: 'beguiling-stunned' }, '. 2.'],
+            effects: [
+              {
+                key: 'beguiling-stunned',
+                name: 'Stunned',
+                lands: { on: 'use' },
+                conditions: [rules.stunned],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the start of Demogorgon's next turn or until Demogorgon is no longer within line of sight",
+                  ],
+                },
+              },
             ],
           },
           {
@@ -4118,12 +4143,21 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'The target is ',
-              rules.charmed,
+              { effect: 'hypnotic-charmed' },
               " by Demogorgon until the start of Demogorgon's next turn. Demogorgon chooses how the ",
               rules.charmed,
               " target uses its actions, reactions, and movement. Because this gaze requires Demogorgon to focus both heads on the target, he can't use his ",
               { ability: 'maddening-gaze' },
               ' legendary action until the start of his next turn. 3.',
+            ],
+            effects: [
+              {
+                key: 'hypnotic-charmed',
+                name: 'Charmed',
+                lands: { on: 'use' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -8380,11 +8414,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5, which: 'that is Large or smaller' },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.bludgeoning }],
-                also: ['The creature is knocked ', rules.prone, '.'],
+
+                also: ['The creature is knocked ', { effect: 'charge-prone' }, '.'],
               },
             },
             text: [
               'The giff can try to knock a creature over; if the giff moves at least 20 feet in a straight line that ends within 5 feet of a Large or smaller creature, that creature must make a saving throw.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -8462,6 +8506,7 @@ export default createPublicationMonsters({
             text: ['The giff throws a grenade up to 60 feet.'],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -14116,6 +14161,7 @@ export default createPublicationMonsters({
               refs.spells.dominate_monster_srd_5_1,
               ' *3 beams, +3 bonus to each damage roll',
             ],
+            effects: [],
           },
           {
             key: 'return-to-worms',
@@ -14142,8 +14188,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' until the end of its next turn.',
+              { effect: 'slam-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slam-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -14157,12 +14212,23 @@ export default createPublicationMonsters({
               ' Dexterity saving throw. On a failure the target takes necrotic damage of ',
               { roll: '5d8' },
               ' and is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' by masses of swarming worms. The affected creature takes necrotic damage of ',
-              { roll: '5d8' },
-              " at the start of each of the larva mage's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              { effect: 'worms-restrained' },
+              ' by masses of swarming worms.',
+            ],
+            effects: [
+              {
+                key: 'worms-restrained',
+                name: 'Swarming worms',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'The affected creature takes necrotic damage of ',
+                  { roll: '5d8' },
+                  " at the start of each of the larva mage's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -14208,6 +14274,7 @@ export default createPublicationMonsters({
                 { roll: '3d8' },
                 ' necrotic damage, and the larva mage gains 6 temporary hit points.',
               ],
+              effects: [],
             },
           ],
         },
@@ -16519,6 +16586,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.invisibility_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -16565,10 +16633,19 @@ export default createPublicationMonsters({
               ' bludgeoning damage. 2. The target must succeed on a ',
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              " until the start of Yeenoghu's next turn. 3. The target must succeed on a ",
+              { effect: 'flail-paralyzed' },
+              '. 3. The target must succeed on a ',
               { dc: 'cha', save: 'wis' },
               " Wisdom saving throw or be affected by the confusion spell until the start of Yeenoghu's next turn.",
+            ],
+            effects: [
+              {
+                key: 'flail-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -16618,6 +16695,7 @@ export default createPublicationMonsters({
                 rules.prone,
                 '.',
               ],
+              effects: [],
             },
             {
               key: 'savage',

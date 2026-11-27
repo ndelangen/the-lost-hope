@@ -42,10 +42,18 @@ export default createPublicationMonsters({
               "If a creature tries to read Belashyrra's thoughts or deals psychic damage to it, that creature must succeed on a ",
               { dc: 'int' },
               ' Intelligence saving throw or be ',
-              rules.stunned,
-              ' for 1 minute. The ',
-              rules.stunned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'alien-mind-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'alien-mind-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -140,6 +148,7 @@ export default createPublicationMonsters({
               { roll: '9d10' },
               " psychic damage on a failed save, or half as much damage on a successful one. If this damage reduces a creature to 0 hit points, it dies and transforms into a spectator under Belashyrra's control and acts immediately after Belashyrra in the initiative order. The target can't be returned to its original form by any means short of a wish spell. 2.",
             ],
+            effects: [],
           },
           {
             key: 'domination-ray',
@@ -150,10 +159,22 @@ export default createPublicationMonsters({
               'The target must succeed on a Wisdom saving throw (',
               { dc: 'str' },
               ') or be ',
-              rules.charmed,
-              ' by Belashyrra for 1 minute or until the target takes damage. Belashyrra can issue telepathic commands to the ',
-              rules.charmed,
-              ' creature (no action required), which it does its best to obey. 3.',
+              { effect: 'dominated-gaze' },
+              '. 3.',
+            ],
+            effects: [
+              {
+                key: 'dominated-gaze',
+                name: 'Charmed by Belashyrra',
+                lands: { on: 'save', save: 'wis', dc: 'str' },
+                conditions: [rules.charmed],
+                text: [
+                  'Belashyrra can issue telepathic commands to the ',
+                  rules.charmed,
+                  ' creature (no action required), which it does its best to obey.',
+                ],
+                lasts: { kind: 'until', text: ['1 minute or until the target takes damage'] },
+              },
             ],
           },
           {
@@ -166,7 +187,19 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ') or take ',
               { roll: '8d8' },
-              ' psychic damage and be unable to cast spells or activate magic items for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 4.',
+              ' psychic damage and be ',
+              { effect: 'spellbound' },
+              '. 4.',
+            ],
+            effects: [
+              {
+                key: 'spellbound',
+                name: 'Unable to cast spells',
+                lands: { on: 'save', save: 'int', dc: 'str' },
+                text: ['unable to cast spells or activate magic items'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -180,12 +213,23 @@ export default createPublicationMonsters({
               ') or take ',
               { roll: '3d12' },
               ' radiant damage and be ',
-              rules.blinded,
-              ' for 1 minute. Until this blindness ends, Belashyrra can see through the ',
-              rules.blinded,
-              " creature's eyes. The ",
-              rules.blinded,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'blinded-ray' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'blinded-ray',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.blinded],
+                text: [
+                  'Until this blindness ends, Belashyrra can see through the ',
+                  rules.blinded,
+                  " creature's eyes.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -210,6 +254,7 @@ export default createPublicationMonsters({
                 { roll: '4d10' },
                 ' psychic damage and immediately use its reaction, if available, to move as far as its speed allows away from Belashyrra.',
               ],
+              effects: [],
             },
             {
               key: 'rend-reality',
@@ -221,9 +266,18 @@ export default createPublicationMonsters({
                 { dc: 'str' },
                 ') or take ',
                 { roll: '3d12' },
-                ' force damage and gain one level of ',
-                rules.exhaustion,
+                ' force damage and ',
+                { effect: 'exhausted' },
                 '.',
+              ],
+              effects: [
+                {
+                  key: 'exhausted',
+                  name: 'Exhaustion',
+                  lands: { on: 'save', save: 'con', dc: 'str' },
+                  text: ['gain one level of ', rules.exhaustion],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -590,6 +644,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'unarmored-defense',
@@ -625,8 +680,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              " (escape DC 12) if it is a Large or smaller creature. Until this grapple ends, the dolgaunt can't use the same tentacle on another target. The dolgaunt has two tentacles.",
+              { effect: 'grabbed' },
+              " if it is a Large or smaller creature. Until this grapple ends, the dolgaunt can't use the same tentacle on another target. The dolgaunt has two tentacles.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
           {
@@ -656,6 +721,7 @@ export default createPublicationMonsters({
               { roll: '2d8' },
               ' necrotic damage, and the dolgaunt regains a number of hit points equal to half the necrotic damage taken.',
             ],
+            effects: [],
           },
         ],
       },
@@ -801,6 +867,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -848,9 +915,22 @@ export default createPublicationMonsters({
               rules.unconscious,
               ', it takes an extra ',
               { roll: '3d6' },
-              " psychic damage and is cursed until the hag dies or the curse is removed. The cursed creature's hit point maximum decreases by ",
-              { roll: '1d10' },
-              ' whenever it finishes a long rest.',
+              ' psychic damage and is cursed ',
+              { effect: 'nightmare-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'nightmare-curse',
+                name: 'Nightmare curse',
+                lands: { on: 'hit' },
+                text: [
+                  "The cursed creature's hit point maximum decreases by ",
+                  { roll: '1d10' },
+                  ' whenever it finishes a long rest.',
+                ],
+                lasts: { kind: 'until', text: ['the hag dies or the curse is removed'] },
+              },
             ],
           },
           {
@@ -873,6 +953,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' creature the hag can see within 30 feet of her regains consciousness, the hag can force the creature to make a saving throw.',
             ],
+            effects: [],
           },
         ],
       },
@@ -917,10 +998,18 @@ export default createPublicationMonsters({
               "If a creature tries to read Dyrrn's thoughts or deals psychic damage to it, that creature must succeed on a ",
               { dc: 'int' },
               ' Intelligence saving throw or be ',
-              rules.stunned,
-              ' for 1 minute. The ',
-              rules.stunned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'alien-mind-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'alien-mind-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -977,6 +1066,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'tentacle-whip',
@@ -992,12 +1082,29 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 23), pulled into an unoccupied space within 5 feet of Dyrrn, and must succeed on a ',
+              { effect: 'grabbed' },
+              ', pulled into an unoccupied space within 5 feet of Dyrrn, and must succeed on a ',
               { dc: 'int' },
               ' Intelligence saving throw or be ',
-              rules.stunned,
-              " until this grapple ends. Dyrrn can't use the same tentacle whip on another target until this grapple ends. Dyrrn has two tentacle whips.",
+              { effect: 'whip-stun' },
+              ". Dyrrn can't use the same tentacle whip on another target until this grapple ends. Dyrrn has two tentacle whips.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 23 } },
+              },
+              {
+                key: 'whip-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ['this grapple ends'] },
+              },
             ],
           },
           {
@@ -1012,12 +1119,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.necrotic, addModifier: true }],
-                also: [
-                  "The target becomes corrupted for 1 minute. A corrupted creature's flesh twists in alien ways. The creature has disadvantage on attack rolls, its speed is reduced by half, and if it tries to cast a spell, it must first succeed on a DC 15 Intelligence check or the spell fails and is wasted. The corrupted creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                ],
+
+                also: ['The target becomes ', { effect: 'corrupted' }, '.'],
               },
             },
             text: ['Dyrrn targets one creature it can see within 60 feet of it.'],
+            effects: [
+              {
+                key: 'corrupted',
+                name: 'Corrupted',
+                lands: { on: 'failed-save' },
+                text: [
+                  "A corrupted creature's flesh twists in alien ways. The creature has disadvantage on attack rolls, its speed is reduced by half, and if it tries to cast a spell, it must first succeed on a DC 15 Intelligence check or the spell fails and is wasted.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
           {
             key: 'extract-brain',
@@ -1066,14 +1184,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.cone, size: 60 } },
                 onFail: {
                   damage: [{ dice: '5d8', type: rules.psychic, addModifier: true }],
-                  also: [
-                    'The target is ',
-                    rules.stunned,
-                    ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
-                  ],
+
+                  also: ['The target is ', { effect: 'mind-blast-stun' }, '.'],
                 },
               },
               text: ['Dyrrn magically emits psychic energy.'],
+              effects: [
+                {
+                  key: 'mind-blast-stun',
+                  name: 'Stunned',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.stunned],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
+              ],
             },
           ],
         },
@@ -1276,6 +1401,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1300,8 +1426,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or fall ',
-              rules.prone,
+              { effect: 'laughing-prone' },
               ' in a fit of laughter.',
+            ],
+            effects: [
+              {
+                key: 'laughing-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1320,6 +1455,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The quori targets one creature it can see within 60 feet of it.'],
+            effects: [],
           },
           {
             key: 'possession',
@@ -1330,12 +1466,29 @@ export default createPublicationMonsters({
               'One humanoid that the quori can see within 5 feet of it must succeed on a ',
               { dc: 'cha' },
               ' Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is ',
-              rules.incapacitated,
-              " and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
-              rules.charmed,
-              ' and ',
-              rules.frightened,
-              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the dispel evil and good spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+              { effect: 'possessed' },
+              " When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+            ],
+            effects: [
+              {
+                key: 'possessed',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: [
+                  "and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
+                  rules.charmed,
+                  ' and ',
+                  rules.frightened,
+                  ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -1357,6 +1510,7 @@ export default createPublicationMonsters({
             text: [
               'When the quori takes damage from a creature it can see within 60 feet of it, the quori can force that creature to make a saving throw.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1870,6 +2024,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.eyebite_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'all-around-vision',
@@ -1877,6 +2032,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ["The quori can't be surprised while it isn't ", rules.incapacitated, '.'],
+            effects: [],
           },
           {
             key: 'incorporeal-movement',
@@ -1948,15 +2104,28 @@ export default createPublicationMonsters({
             text: [
               'The quori touches one humanoid, which must succeed on a ',
               { dc: 'cha', save: 'int' },
-              " Intelligence saving throw or be cursed. The curse lasts until it's removed by a remove curse or greater restoration spell. The cursed target suffers 1 level of ",
-              rules.exhaustion,
-              " every 24 hours, and finishing a long rest doesn't reduce its ",
-              rules.exhaustion,
-              '. If the cursed target reaches ',
-              rules.exhaustion,
-              " level 6, it doesn't die; it instead becomes a thrall under the quori's control, and all its ",
-              rules.exhaustion,
-              ' is removed. Only the wish spell can free the thrall from this control.',
+              ' Intelligence saving throw or be cursed. ',
+              { effect: 'mind-seed-curse' },
+            ],
+            effects: [
+              {
+                key: 'mind-seed-curse',
+                name: 'Mind seed curse',
+                lands: { on: 'save', save: 'int', dc: 'cha' },
+                text: [
+                  'The cursed target suffers 1 level of ',
+                  rules.exhaustion,
+                  " every 24 hours, and finishing a long rest doesn't reduce its ",
+                  rules.exhaustion,
+                  '. If the cursed target reaches ',
+                  rules.exhaustion,
+                  " level 6, it doesn't die; it instead becomes a thrall under the quori's control, and all its ",
+                  rules.exhaustion,
+                  ' is removed. Only the wish spell can free the thrall from this control.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['a remove curse or greater restoration spell'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -1973,10 +2142,11 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 30 } },
               onFail: {
                 damage: [{ dice: '10d8', type: rules.psychic }],
+
                 also: [
                   'It is ',
-                  rules.blinded,
-                  " for 1 minute. On a success, a creature takes half as much damage and isn't ",
+                  { effect: 'eyes-blinded' },
+                  ". On a success, a creature takes half as much damage and isn't ",
                   rules.blinded,
                   '.',
                 ],
@@ -1984,9 +2154,17 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: [
-              'The quori creates a swarm of spectral eyes that fills in a 30-foot-radius sphere centered on a point it can see within 60 feet of it. A ',
-              rules.blinded,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              'The quori creates a swarm of spectral eyes that fills in a 30-foot-radius sphere centered on a point it can see within 60 feet of it. ',
+            ],
+            effects: [
+              {
+                key: 'eyes-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -2000,12 +2178,29 @@ export default createPublicationMonsters({
               'One humanoid that the quori can see within 5 feet of it must succeed on a ',
               { dc: 'cha' },
               ' Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is ',
-              rules.incapacitated,
-              " and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
-              rules.charmed,
-              ' and ',
-              rules.frightened,
-              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the dispel evil and good spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+              { effect: 'possessed' },
+              " When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+            ],
+            effects: [
+              {
+                key: 'possessed',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: [
+                  "and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
+                  rules.charmed,
+                  ' and ',
+                  rules.frightened,
+                  ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -2500,6 +2695,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-false-divinity',
@@ -2512,10 +2708,19 @@ export default createPublicationMonsters({
               " Wisdom saving throw, provided the radiant idol isn't ",
               rules.incapacitated,
               '. On a failed save, the creature is ',
-              rules.charmed,
-              ' by the radiant idol. A creature ',
-              rules.charmed,
-              " in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, a creature is immune to this radiant idol's Aura of False Divinity for 24 hours.",
+              { effect: 'false-divinity-charm' },
+              " Once it succeeds on the saving throw, a creature is immune to this radiant idol's Aura of False Divinity for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'false-divinity-charm',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed],
+                text: ['by the radiant idol'],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2564,6 +2769,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -2856,6 +3062,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.teleport_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2935,6 +3142,7 @@ export default createPublicationMonsters({
             text: [
               'Sul Khatesh conjures orbs of magical energy that plummet to the ground at three different points she can see within 1 mile of her. A creature in the area of more than one arcane burst is affected only once. The area of each arcane burst then acts as an antimagic field for 1 hour. Sul Khatesh and spells she casts are unaffected by these fields.',
             ],
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -2971,6 +3179,7 @@ export default createPublicationMonsters({
                 { dc: 'int', save: 'con' },
                 ' Constitution saving throw or its concentration is broken on the spell, and Sul Khatesh gains 5 temporary hit points per level of that spell.',
               ],
+              effects: [],
             },
             {
               key: 'maddening-secrets',
@@ -2983,8 +3192,17 @@ export default createPublicationMonsters({
                 ' Wisdom saving throw or expend one of its spell slots of 3rd level or lower and deal force damage of ',
                 { roll: '4d12' },
                 " to each creature within 30 feet of it. A creature that fails the saving throw but can't expend a spell slot is instead ",
-                rules.stunned,
-                ' until the end of its next turn.',
+                { effect: 'secret-stunned' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'secret-stunned',
+                  name: 'Stunned',
+                  lands: { on: 'save', save: 'wis', dc: 'int' },
+                  conditions: [rules.stunned],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -3044,6 +3262,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['When the assassin casts an innate spell,'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3171,6 +3390,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_force_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'adamantine-plating',
@@ -3195,6 +3415,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the Lord of Blades.',
             ],
+            effects: [],
           },
           {
             key: 'charge',
@@ -3207,8 +3428,17 @@ export default createPublicationMonsters({
               ' slashing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 10 feet away and knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3221,6 +3451,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ", is immune to disease, and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3951,6 +4182,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               " and is immune to disease. Magic can't put it to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4061,6 +4293,7 @@ export default createPublicationMonsters({
               ],
             },
             text: ['If the target is ', rules.prone, '.'],
+            effects: [],
           },
           {
             key: 'hammerfist',
@@ -4078,8 +4311,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'hammer-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'hammer-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4100,6 +4342,7 @@ export default createPublicationMonsters({
             text: ['The warforged titan makes a sweep with its axehand.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -4136,6 +4379,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.shield_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'limited-magic-immunity',
@@ -4164,8 +4408,17 @@ export default createPublicationMonsters({
               " damage of the weapon's type, and the creature must make a ",
               { dc: 'str' },
               ' Strength saving throw. On a failure, the rakshasa can push the creature up to 10 feet away from it, knock the creature ',
-              rules.prone,
+              { effect: 'prowess-prone' },
               ", or make the creature drop one item it is holding of the rakshasa's choice.",
+            ],
+            effects: [
+              {
+                key: 'prowess-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

@@ -697,6 +697,7 @@ export default createPublicationMonsters({
               refs.spells.scrying_srd_5_1,
               ' (as an action)',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -776,11 +777,20 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '). On a failed save, the creature takes ',
               { roll: '10d6' },
-              ' psychic damage and has the ',
-              rules.charmed,
-              ' condition until the end of its next turn. A creature ',
+              ' psychic damage and has ',
+              { effect: 'miasma-charmed' },
+              '. A creature ',
               rules.charmed,
               ' in this way treats its allies as foes, and the colors of its body and equipment become shades of gray. On a successful save, the creature takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'miasma-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -826,6 +836,7 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' necrotic damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4758,6 +4769,7 @@ export default createPublicationMonsters({
               refs.spells.scrying_srd_5_1,
               ' (as an action)',
             ],
+            effects: [],
           },
           {
             key: 'boundless-movement',
@@ -4769,6 +4781,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' condition from itself.',
             ],
+            effects: [],
           },
           {
             key: 'jailer',
@@ -4784,6 +4797,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'liquefaction-ritual',
@@ -4795,6 +4809,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' condition despite any immunity to that condition, it has immunity to all damage, and any curse affecting it is suspended.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -4813,7 +4828,18 @@ export default createPublicationMonsters({
             text: [
               'A creature that touches the shator or hits it with a melee attack while within 5 feet of it must succeed on a ',
               { dc: 'dex', printed: 17 },
-              ' Dexterity saving throw or have disadvantage on attack rolls and its speed halved until the end of its next turn.',
+              ' Dexterity saving throw or have ',
+              { effect: 'secretions-slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'secretions-slowed',
+                name: 'Numbed',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 17 },
+                text: ['Disadvantage on attack rolls and its speed halved.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -4847,9 +4873,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.paralyzed,
-              " condition until the start of the shator's next turn.",
+              ' Constitution saving throw or have ',
+              { effect: 'bite-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bite-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -4877,12 +4912,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.line, size: 100, width: 5 } },
               onFail: {
                 damage: [{ dice: '9d8', type: rules.acid }],
-                also: ['The creature has the ', rules.paralyzed, ' condition for 1 minute.'],
+
+                also: [{ effect: 'spray-paralyzed' }],
               },
               onSuccess: 'half',
             },
-            text: [
-              'The shator exhales a spray of slime in a line 100 feet long and 5 feet wide.    The creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+            text: ['The shator exhales a spray of slime in a line 100 feet long and 5 feet wide.'],
+            effects: [
+              {
+                key: 'spray-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

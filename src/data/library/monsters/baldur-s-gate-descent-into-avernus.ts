@@ -208,6 +208,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.finger_of_death_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -319,14 +320,18 @@ export default createPublicationMonsters({
             },
             text: [
               'Zariel touches one creature within 10 feet of her. On a failed save, the target is also ',
-              rules.poisoned,
-              ' for 1 minute. While ',
-              rules.poisoned,
-              ' in this way, the target is also ',
-              rules.blinded,
-              ' and ',
-              rules.deafened,
-              '. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'horrid-touch' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'horrid-touch',
+                name: 'Horrid touch',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned, rules.blinded, rules.deafened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -361,6 +366,7 @@ export default createPublicationMonsters({
               text: [
                 'Zariel turns her magical gaze toward one creature she can see within 120 feet of her and commands it to combust.',
               ],
+              effects: [],
             },
             {
               key: 'teleport-2',
@@ -1419,6 +1425,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -1480,6 +1487,7 @@ export default createPublicationMonsters({
             text: [
               'When Thalamra is damaged by a creature within 60 feet of her that she can see, the creature that damaged her is engulfed in hellish flames.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1957,6 +1965,7 @@ export default createPublicationMonsters({
               refs.spells.teleport_srd_5_1,
               ' (with no chance of error)',
             ],
+            effects: [],
           },
           {
             key: 'aura-of-invulnerability',
@@ -1968,6 +1977,7 @@ export default createPublicationMonsters({
               rules.invisible,
               " aura forms a 10-foot-radius sphere around the hollyphant for as long as it lives. Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells. The hollyphant can use an action to suppress this trait until its concentration ends (as if concentrating on a spell).",
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',
@@ -2012,7 +2022,8 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '5d6', type: rules.thunder }],
-                also: ['The creature is ', rules.deafened, ' for 1 minute.'],
+
+                also: ['The creature is ', { effect: 'trumpet-deafened' }, '.'],
               },
               onSuccess: 'half',
             },
@@ -2022,6 +2033,15 @@ export default createPublicationMonsters({
               ". Nonmagical objects in the cone that aren't being held or worn take ",
               { roll: '10d6' },
               ' thunder damage.',
+            ],
+            effects: [
+              {
+                key: 'trumpet-deafened',
+                name: 'Deafened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -2043,6 +2063,7 @@ export default createPublicationMonsters({
             text: [
               'Evil creatures have disadvantage on the saving throw. Good creatures in the cone take no damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2362,6 +2383,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.regenerate_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -2419,6 +2441,7 @@ export default createPublicationMonsters({
               rules.prone,
               ", his speed is 0 and can't increase, he has disadvantage on Dexterity saving throws, he can't take reactions, and the only action he can take is to emerge from his shell.",
             ],
+            effects: [],
           },
         ],
       },
@@ -2469,6 +2492,7 @@ export default createPublicationMonsters({
               refs.spells.teleport_srd_5_1,
               ' (with no chance of error)',
             ],
+            effects: [],
           },
           {
             key: 'aura-of-invulnerability',
@@ -2480,6 +2504,7 @@ export default createPublicationMonsters({
               rules.invisible,
               " aura forms a 10-foot-radius sphere around Lulu for as long as it lives. Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells. Lulu can use an action to suppress this trait until its concentration ends (as if concentrating on a spell).",
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',
@@ -2513,10 +2538,11 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '5d6', type: rules.thunder }],
+
                 also: [
                   'Is ',
-                  rules.deafened,
-                  " for 1 minute. On a successful save, a creature takes half as much damage and isn't ",
+                  { effect: 'trumpet-deafened' },
+                  ". On a successful save, a creature takes half as much damage and isn't ",
                   rules.deafened,
                   '.',
                 ],
@@ -2527,6 +2553,15 @@ export default createPublicationMonsters({
               "Lulu blows air through its trunk, creating a trumpet sound that can be heard out to a range of 600 feet. The trumpet also creates a 30-foot cone of energy that has one of the following effects, chosen by Lulu: Trumpet of Blasting. Nonmagical objects in the cone that aren't being held or worn take ",
               { roll: '10d6' },
               ' thunder damage.',
+            ],
+            effects: [
+              {
+                key: 'trumpet-deafened',
+                name: 'Deafened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 3,
             recharge: 'Long rest',
@@ -2550,6 +2585,7 @@ export default createPublicationMonsters({
             text: [
               'Evil creatures have disadvantage on the saving throw. Good creatures in the cone take no damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3489,6 +3525,7 @@ export default createPublicationMonsters({
               ", Otto's ",
               refs.spells.irresistible_dance_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-step',
@@ -3867,6 +3904,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               " or if his turn ends and he hasn't attacked a hostile creature or taken damage since his last turn. While raging, Torogar gains the following benefits: He has advantage on Strength checks and Strength saving throws. He deals an extra 3 damage when he hits a target with a melee weapon attack. He has resistance to bludgeoning, piercing, and slashing damage.",
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',

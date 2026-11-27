@@ -87,8 +87,18 @@ export default createPublicationMonsters({
             icon: 'gi/GiSpiderWeb',
             text: [
               'Ranged Weapon Attack: plus 13 to hit, reach 120 ft., one creature. Hit: The target is ',
-              rules.grappled,
-              ' (escape DC 18). The web strand can be attacked and destroyed (AC 12; 20 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage). The spider can grapple up to six creatures at a time using its web strands.',
+              { effect: 'strand-grappled' },
+              '. The web strand can be attacked and destroyed (AC 12; 20 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage). The spider can grapple up to six creatures at a time using its web strands.',
+            ],
+            effects: [
+              {
+                key: 'strand-grappled',
+                name: 'Grappled',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'con', printed: 18 } },
+              },
             ],
           },
           {
@@ -101,6 +111,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it up to 60 feet straight toward itself.',
             ],
+            effects: [],
           },
           {
             key: 'snare-ship',
@@ -114,6 +125,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },

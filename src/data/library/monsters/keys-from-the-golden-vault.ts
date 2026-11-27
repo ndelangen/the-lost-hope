@@ -605,10 +605,20 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is ',
-              rules.grappled,
-              ' (escape DC 14), and the shambling mound uses its ',
+              { effect: 'grabbed' },
+              ', and the shambling mound uses its ',
               { ability: 'engulf' },
               ' on it.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -633,14 +643,24 @@ export default createPublicationMonsters({
               'The shambling mound engulfs a Medium or smaller creature ',
               rules.grappled,
               ' by it. The engulfed target is ',
-              rules.blinded,
-              ', ',
-              rules.restrained,
-              ', and unable to breathe, and it must succeed on a Constitution saving throw (',
-              { dc: 'con' },
-              ") at the start of each of the mound's turns or take ",
-              { roll: '2d8', mod: 'str' },
-              ' bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time.',
+              { effect: 'engulfed' },
+              ' The mound can have only one creature engulfed at a time.',
+            ],
+            effects: [
+              {
+                key: 'engulfed',
+                name: 'Engulfed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'and unable to breathe, and it must succeed on a Constitution saving throw (',
+                  { dc: 'con' },
+                  ") at the start of each of the mound's turns or take ",
+                  { roll: '2d8', mod: 'str' },
+                  ' bludgeoning damage. If the mound moves, the engulfed target moves with it.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1237,10 +1257,20 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 13). Until this grapple ends, the eldritch horror hatchling can bite only the ',
+              { effect: 'grabbed' },
+              '. Until this grapple ends, the eldritch horror hatchling can bite only the ',
               rules.grappled,
               ' creature and has advantage on attack rolls to do so.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -1265,6 +1295,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -2046,6 +2077,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2070,12 +2102,29 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 15) and must succeed on a ',
+              { effect: 'grabbed' },
+              ' and must succeed on a ',
               { dc: 'int' },
               ' Intelligence saving throw or be ',
-              rules.stunned,
-              ' until this grapple ends.',
+              { effect: 'tentacle-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
+              {
+                key: 'tentacle-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ['this grapple ends'] },
+              },
             ],
           },
           {
@@ -2106,14 +2155,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.psychic, addModifier: true }],
-                also: [
-                  'The creature is ',
-                  rules.stunned,
-                  ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
-                ],
+
+                also: ['The creature is ', { effect: 'blast-stun' }, '.'],
               },
             },
             text: ['Ignatius Inkblot magically emits psychic energy.'],
+            effects: [
+              {
+                key: 'blast-stun',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -2333,6 +2389,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.blur_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2372,10 +2429,27 @@ export default createPublicationMonsters({
               'Plus ',
               { roll: '2d10', mod: 'str' },
               ' slashing damage. The target is ',
-              rules.grappled,
-              " (escape DC 16) if the eldritch horror isn't already constricting a creature, and the target is ",
-              rules.restrained,
-              ' until this grapple ends.',
+              { effect: 'grabbed' },
+              " if the eldritch horror isn't already constricting a creature, and the target is ",
+              { effect: 'constricted' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
+              {
+                key: 'constricted',
+                name: 'Restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until', text: ['this grapple ends'] },
+              },
             ],
           },
           {
@@ -2396,6 +2470,7 @@ export default createPublicationMonsters({
             text: ['The eldritch horror exhales lightning in a 20-foot-long, 5-foot-wide Line.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'swallow',
@@ -2404,12 +2479,8 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               'The eldritch horror makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the eldritch horror, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the eldritch horror's turns. A eldritch horror can have only one creature swallowed at a time. If the eldritch horror takes 30 damage or more on a single turn from the swallowed creature, the eldritch horror must succeed on a ",
+              { effect: 'swallowed' },
+              ' A eldritch horror can have only one creature swallowed at a time. If the eldritch horror takes 30 damage or more on a single turn from the swallowed creature, the eldritch horror must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw at the end of that turn or regurgitate the creature, which falls ',
               rules.prone,
@@ -2418,6 +2489,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside the eldritch horror, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the eldritch horror's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2923,6 +3008,7 @@ export default createPublicationMonsters({
               { roll: '1d8', mod: 'dex' },
               ' bludgeoning damage on a hit.',
             ],
+            effects: [],
           },
           {
             key: 'mindlink-tattoos',
@@ -2982,13 +3068,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 } },
               onFail: {
                 damage: [{ dice: '3d8', type: rules.fire }],
-                also: ['The creature is knocked ', rules.prone, '.'],
+
+                also: ['The creature is knocked ', { effect: 'firestorm-prone' }, '.'],
               },
             },
             text: [
               "Prisoner 13 magically unleashes flame from the tattoo across her back, filling a 20-foot-radius sphere centered on her.   Success: Half damage, and the creature isn't knocked ",
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'firestorm-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -3005,6 +3101,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' conditions on herself. If she is bound with nonmagical restraints, she slips out of them.',
             ],
+            effects: [],
           },
           {
             key: 'readiness',
@@ -3384,6 +3481,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.unseen_servant_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fear-of-frogs-and-toads',
@@ -3395,6 +3493,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' while he is within 20 feet of a frog or a toad (of any size) that he can see.',
             ],
+            effects: [],
           },
           {
             key: 'graz-zt-s-gift',
@@ -3417,6 +3516,7 @@ export default createPublicationMonsters({
               { ability: 'whispers-of-azzagrat' },
               '.',
             ],
+            effects: [],
           },
           {
             key: 'poisoned-shortsword',
@@ -3462,13 +3562,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cube, size: 15 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.psychic }],
-                also: ['Is ', rules.incapacitated, ' until the end of its next turn.'],
+
+                also: [{ effect: 'incapacitated' }],
               },
             },
             text: [
               "On a successful save, the creature takes half as much damage and isn't ",
               rules.incapacitated,
               '.',
+            ],
+            effects: [
+              {
+                key: 'incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -3485,6 +3595,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -3575,6 +3686,7 @@ export default createPublicationMonsters({
               refs.spells.time_stop_srd_5_1,
               ' *The archmage casts these spells on itself before combat.',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -3586,6 +3698,7 @@ export default createPublicationMonsters({
               rules.invisible,
               " ring of mind shielding that thwarts magical attempts to read their thoughts. The Stranger also wears dimensional shackles but is eager to be rid of them. One touch from Omid's mace-key causes the shackles to fall off, freeing the Stranger.",
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -4364,6 +4477,7 @@ export default createPublicationMonsters({
               refs.spells.time_stop_srd_5_1,
               ' *The archmage casts these spells on itself before combat.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -4492,6 +4606,7 @@ export default createPublicationMonsters({
               refs.spells.time_stop_srd_5_1,
               ' *The archmage casts these spells on itself before combat.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',

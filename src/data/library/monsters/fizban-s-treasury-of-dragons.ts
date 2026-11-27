@@ -3880,6 +3880,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.teleport_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3962,13 +3963,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 90 } },
               onFail: {
                 damage: [{ dice: '10d10', type: rules.thunder }],
-                also: ['Is ', rules.incapacitated, ' until the end of its next turn.'],
+
+                also: [{ effect: 'breath-incapacitated' }],
               },
             },
             text: [
               "The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 90-foot cone. On a successful save, the creature takes half as much damage and isn't ",
               rules.incapacitated,
               '.',
+            ],
+            effects: [
+              {
+                key: 'breath-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4026,6 +4037,7 @@ export default createPublicationMonsters({
                 { roll: '12d6' },
                 ' bludgeoning damage.',
               ],
+              effects: [],
             },
           ],
         },
@@ -4234,6 +4246,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.create_or_destroy_water_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -4322,7 +4335,20 @@ export default createPublicationMonsters({
               },
             },
             text: [
-              "The dragon exhales yellowish necrotic energy in a 90-foot cone. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage. On a successful save, the creature takes half as much damage and isn't weakened.",
+              'The dragon exhales yellowish necrotic energy in a 90-foot cone. ',
+              { effect: 'weakened' },
+              " On a successful save, the creature takes half as much damage and isn't weakened.",
+            ],
+            effects: [
+              {
+                key: 'weakened',
+                name: 'Weakened',
+                lands: { on: 'failed-save' },
+                text: [
+                  "A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage.",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4380,6 +4406,7 @@ export default createPublicationMonsters({
                 { roll: '9d8' },
                 ' necrotic damage. If this damage reduces the target to 0 hit points, it crumbles to dust.',
               ],
+              effects: [],
             },
           ],
         },
@@ -4440,10 +4467,19 @@ export default createPublicationMonsters({
               'A creature that starts its turn within 5 feet of the animated breath must succeed on a Constitution saving throw (',
               { dc: 'con' },
               ') or be ',
-              rules.poisoned,
-              ' until the start of its next turn. A creature that touches the animated breath or hits it with a melee attack takes ',
+              { effect: 'aura-poisoned' },
+              '. A creature that touches the animated breath or hits it with a melee attack takes ',
               { roll: '1d6' },
               ' acid damage.',
+            ],
+            effects: [
+              {
+                key: 'aura-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -7273,9 +7309,22 @@ export default createPublicationMonsters({
             text: [
               'When the draconian is reduced to 0 hit points, it turns into a puddle of acid and splashes acid on those around it. Each creature within 5 feet of the draconian must succeed on a Dexterity saving throw (',
               { dc: 'con' },
-              ') or be covered in acid for 1 minute. A creature can use its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes ',
-              { roll: '2d6' },
-              ' acid damage at the start of each of its turns.',
+              ') or be ',
+              { effect: 'acid-covered' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'acid-covered',
+                name: 'Covered in acid',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                text: [
+                  'A creature can use its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes ',
+                  { roll: '2d6' },
+                  ' acid damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -7288,6 +7337,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ", it subtracts up to 100 feet from the fall when calculating the fall's damage, and it can move up to 2 feet horizontally for every 1 foot it descends.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7300,12 +7350,17 @@ export default createPublicationMonsters({
               ' attacks. If both attacks hit the same creature, the target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              " until the end of the target's next turn. While ",
-              rules.poisoned,
-              ' in this way, the target is also ',
-              rules.paralyzed,
+              { effect: 'drone-poison' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'drone-poison',
+                name: 'Poisoned and paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {

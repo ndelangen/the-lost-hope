@@ -1159,8 +1159,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 15). Alyxian has six hands, each of which can grapple one target.',
+              { effect: 'hand-grapple' },
+              '. Alyxian has six hands, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'hand-grapple',
+                name: 'Grappled by hand',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -1177,6 +1187,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1907,6 +1918,7 @@ export default createPublicationMonsters({
               { roll: '2d10' },
               ' psychic damage.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -1939,9 +1951,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con', save: 'cha' },
-              ' Charisma saving throw or gain 1 level of ',
-              rules.exhaustion,
+              ' Charisma saving throw or ',
+              { effect: 'bite-exhaustion' },
               '. With advantage if the target is a creature missing any hit points.',
+            ],
+            effects: [
+              {
+                key: 'bite-exhaustion',
+                name: 'Exhaustion',
+                lands: { on: 'save', save: 'cha', dc: 'con' },
+                text: ['gain 1 level of ', rules.exhaustion],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1981,6 +2002,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ". The two don't even need to be on the same plane of existence.",
             ],
+            effects: [],
           },
           {
             key: 'flame',
@@ -2013,12 +2035,24 @@ export default createPublicationMonsters({
               'One humanoid the flame can see within 30 feet of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be magically ',
-              rules.charmed,
-              ' for 1 day. The ',
-              rules.charmed,
-              " target obeys the flame's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this flame's Charm for the next 24 hours. The flame can have only one target ",
+              { effect: 'flame-charm' },
+              ". If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this flame's Charm for the next 24 hours. The flame can have only one target ",
               rules.charmed,
               ' at a time. If it charms another, the effect on the previous target ends.',
+            ],
+            effects: [
+              {
+                key: 'flame-charm',
+                name: 'Charmed by the flame',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target obeys the flame's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'day' },
+              },
             ],
           },
           {
@@ -2033,7 +2067,23 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ') against this magic, taking ',
               { roll: '5d10', mod: 'cha' },
-              " psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+              ' psychic damage on a failed save, or half as much damage on a successful one. ',
+              { effect: 'draining-kiss' },
+            ],
+            effects: [
+              {
+                key: 'draining-kiss',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                text: [
+                  "The target's hit point maximum is reduced by an amount equal to the damage taken",
+                  '. ',
+                  'This reduction lasts until the target finishes a long rest',
+                  '. ',
+                  'The target dies if this effect reduces its hit point maximum to 0',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
         ],
@@ -2604,6 +2654,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.phantasmal_force,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2615,6 +2666,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2655,6 +2707,7 @@ export default createPublicationMonsters({
             text: [
               'When the extollant is damaged by a creature within 60 feet of it, the creature must make a saving throw.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2691,6 +2744,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.longstrider_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2702,6 +2756,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'drain-potential',
@@ -2739,6 +2794,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'distort-gravity',
@@ -2792,6 +2848,7 @@ export default createPublicationMonsters({
               ' (as an action), ',
               refs.spells.slow_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2803,6 +2860,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'drain-potential',
@@ -2831,9 +2889,10 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 } },
               onFail: {
                 damage: [{ dice: '10d6', type: rules.force }],
+
                 also: [
                   "The creature is pulled up to 20 feet toward the sphere's center, and is knocked ",
-                  rules.prone,
+                  { effect: 'wave-prone' },
                   '.',
                 ],
               },
@@ -2843,6 +2902,15 @@ export default createPublicationMonsters({
               "Galsariad causes a rippling wave of magical gravity to fill a 20-foot-radius sphere centered on a point he can see within 100 feet of himself.    A creature that succeeds isn't pulled or knocked ",
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'wave-prone',
+                name: 'Knocked prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2902,6 +2970,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'deflection',
@@ -2913,6 +2982,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', his AC includes his Intelligence modifier.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2924,6 +2994,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2933,9 +3004,18 @@ export default createPublicationMonsters({
             text: [
               'Galsariad wears a ring of swimming and carries a ruidium dagger (see appendix B). If he rolls a 1 on an attack roll made with the dagger, he must succeed on a ',
               { dc: 'cha', printed: 20 },
-              ' Charisma saving throw or gain 1 level of ',
-              rules.exhaustion,
+              ' Charisma saving throw or ',
+              { effect: 'dagger-exhaustion' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'dagger-exhaustion',
+                name: 'Exhaustion',
+                lands: { on: 'save', save: 'cha', dc: 'cha', printed: 20 },
+                text: ['gain 1 level of ', rules.exhaustion],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2995,16 +3075,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 30 } },
               onFail: {
                 damage: [{ dice: '12d6', type: rules.force }],
-                also: ['The creature is ', rules.restrained, ' for 1 minute.'],
+
+                also: [' The creature is ', { effect: 'wave-restrained' }, '.'],
               },
               onSuccess: 'half',
             },
             text: [
               "Galsariad causes a rippling wave of magical gravity to fill a 30-foot-radius sphere centered on a point he can see within 100 feet of himself.    A creature that succeeds isn't ",
               rules.restrained,
-              '. A ',
-              rules.restrained,
-              ' creature can repeat the save at the end of each of its turns, ending the effect on itself on a success.',
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wave-restrained',
+                name: 'Restrained by gravity',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4190,6 +4279,7 @@ export default createPublicationMonsters({
               refs.spells.scrying_srd_5_1,
               ' (as an action)',
             ],
+            effects: [],
           },
           {
             key: 'unarmored-defense',
@@ -4239,12 +4329,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 }, range: 30 },
               onFail: {
                 damage: [{ dice: '8d6', type: rules.psychic }],
-                also: ["The target can't take reactions until the start of its next turn."],
+
+                also: [{ effect: 'brain-burn' }],
               },
               onSuccess: 'half',
             },
             text: [
               'The high curator targets up to two creatures it can see within 30 feet of itself.    On a successful save, the target suffers no other effect.',
+            ],
+            effects: [
+              {
+                key: 'brain-burn',
+                name: 'No reactions',
+                lands: { on: 'failed-save' },
+                text: ["The target can't take reactions"],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
@@ -4635,6 +4735,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.phantasmal_force,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4674,6 +4775,7 @@ export default createPublicationMonsters({
             text: [
               'When the extollant is damaged by one creature within 60 feet of it, on a failed saving throw, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4909,6 +5011,7 @@ export default createPublicationMonsters({
               rules.charmed,
               " condition on herself, and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'keen-hearing-and-sight',
@@ -5819,7 +5922,21 @@ export default createPublicationMonsters({
             text: [
               'Each time the swarm takes damage, any creature within 5 feet of it must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw. On a failed saving throw, the creature suffers the following effects until the end of its next turn: it has disadvantage on its attack rolls, it can't take reactions, and its speed is halved.",
+              ' Wisdom saving throw. On a failed saving throw, the creature suffers the following effects',
+              ': ',
+              { effect: 'virulent-sorrow' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'virulent-sorrow',
+                name: 'Virulent sorrow',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "it has disadvantage on its attack rolls, it can't take reactions, and its speed is halved",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -5859,8 +5976,22 @@ export default createPublicationMonsters({
               ' Wisdom saving throw. On a failed saving throw, a creature takes psychic damage of ',
               { roll: '7d6' },
               ' and is ',
-              rules.stunned,
-              " until the end of its next turn. The effect ends on a creature if the swarm moves out of the creature's space or if another creature within 5 feet of the swarm uses an action to make a DC 14 Strength check, pulling the affected creature out of the swarm on a successful check. On a successful saving throw, a creature takes half as much damage and suffers no other effects.",
+              { effect: 'drain-stunned' },
+              '. On a successful saving throw, a creature takes half as much damage and suffers no other effects.',
+            ],
+            effects: [
+              {
+                key: 'drain-stunned',
+                name: 'Stunned by drain',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                ends: {
+                  cure: [
+                    "The effect ends on a creature if the swarm moves out of the creature's space or if another creature within 5 feet of the swarm uses an action to make a DC 14 Strength check, pulling the affected creature out of the swarm on a successful check",
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

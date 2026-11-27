@@ -1393,16 +1393,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 10 } },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.poison }],
-                also: [
-                  'The target has the ',
-                  rules.poisoned,
-                  " condition until the end of Putricide's next turn.",
-                ],
+
+                also: ['The target has ', { effect: 'assault-poisoned' }, '.'],
               },
               onSuccess: 'half',
             },
             text: [
               'Professor Putricide hurls one of the following alchemical substances: Choking Gas Bombs. Putricide throws three vials that explode at separate points he can see within 60 feet of himself.',
+            ],
+            effects: [
+              {
+                key: 'assault-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
@@ -1442,6 +1448,7 @@ export default createPublicationMonsters({
               { roll: '8d10' },
               " Poison damage. Success: Half damage only. A creature makes this save only once per turn. The pool lasts for 10 minutes, and at the start of Putricide's turn, the pool expands, increasing its radius by 5 feet (to a maximum of 30 feet).",
             ],
+            effects: [],
           },
         ],
       },

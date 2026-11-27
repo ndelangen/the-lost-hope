@@ -348,6 +348,7 @@ export default createPublicationMonsters({
               ' (pain or insanity), ',
               refs.spells.wish_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -398,9 +399,18 @@ export default createPublicationMonsters({
             text: [
               'A creature that starts its turn within 10 feet of Baalzebul must succeed on a ',
               { dc: 'con', printed: 21 },
-              ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition until the start of its next turn. On a successful save, a creature is immune to this stench for 1 hour.',
+              ' Constitution saving throw or have ',
+              { effect: 'stench-poisoned' },
+              '. On a successful save, a creature is immune to this stench for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 21 },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -442,9 +452,18 @@ export default createPublicationMonsters({
               { dc: 'cha', printed: 21 },
               '). Targets take ',
               { roll: '8d8' },
-              ' acid damage on a failed save, or half as much on a successful one. Creatures that fail the save have the ',
-              rules.poisoned,
-              ' condition for 1 minute.',
+              ' acid damage on a failed save, or half as much on a successful one. Creatures that fail the save have ',
+              { effect: 'eruption-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'eruption-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha', printed: 21 },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
@@ -459,9 +478,27 @@ export default createPublicationMonsters({
               { dc: 'cha', printed: 21 },
               ' Charisma saving throw, followed by a ',
               { dc: 'con', printed: 21 },
-              ' Constitution saving throw. Failing the Charisma save makes a creature have the ',
-              rules.frightened,
-              ' condition, while failing the Constitution save makes a creature weak. While weakened, a creature deals half damage on melee attacks. Both effects last for 1 minute or until a greater restoration spell or similar is cast.',
+              ' Constitution saving throw. Failing the Charisma save makes a creature ',
+              { effect: 'pestilence-frightened' },
+              ', while failing the Constitution save makes a creature ',
+              { effect: 'pestilence-weakened' },
+              '. Both effects last for 1 minute or until a greater restoration spell or similar is cast.',
+            ],
+            effects: [
+              {
+                key: 'pestilence-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'cha', dc: 'cha', printed: 21 },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
+              {
+                key: 'pestilence-weakened',
+                name: 'Weakened',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 21 },
+                text: ['A creature deals half damage on melee attacks.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -503,6 +540,7 @@ export default createPublicationMonsters({
                 { roll: '8d10' },
                 " piercing damage on a failed save, or half as much damage on a successful one. The biting flies persist for 1 minute, or until Baalzebul uses this ability again. Creatures that enter the flies' area or end their turn inside it must repeat the saving throw.",
               ],
+              effects: [],
             },
             {
               key: 'call-underling',
@@ -1360,6 +1398,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.nondetection_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'bolts-of-undead-slaying',
@@ -1373,6 +1412,7 @@ export default createPublicationMonsters({
               { roll: '6d10' },
               ' piercing damage on a failed save, or half as much extra damage on a successful one.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1495,6 +1535,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.true_seeing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2539,6 +2580,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Kivan to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'keen-hearing-and-sight',
@@ -2684,6 +2726,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wish_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -2782,6 +2825,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'hellfire-lash',
@@ -2803,6 +2847,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'ashen-teleport',
@@ -2833,9 +2878,18 @@ export default createPublicationMonsters({
               text: [
                 'Mephistopheles uses his wings to generate a burst of heat. plus ',
                 { roll: '2d8' },
-                ' fire damage. Creatures that failed the save also have the ',
-                rules.prone,
-                ' condition.',
+                ' fire damage. Creatures that failed the save also have ',
+                { effect: 'wings-prone' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'wings-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {
@@ -2856,6 +2910,7 @@ export default createPublicationMonsters({
               text: [
                 'Mephistopheles creates a rain of Hellfire at a point he can see within 150 feet.',
               ],
+              effects: [],
             },
             {
               key: 'call-underling',
@@ -2954,6 +3009,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 10 },
               ' Constitution saving throw. If he succeeds, he drops to 1 hit point instead. Each time he uses this feature after the first, the DC increases by 5. After 24 hours, the DC resets to 10.',
             ],
+            effects: [],
           },
           {
             key: 'run-boo-run',
@@ -3273,6 +3329,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (only itself and willing creatures)',
             ],
+            effects: [],
           },
           {
             key: 'aura-of-servile-avians',
@@ -3284,6 +3341,7 @@ export default createPublicationMonsters({
               { dc: 'wis', printed: 21 },
               ' Wisdom saving throw if they attempt to attack Pazuzu. A failed save means their action is wasted and the attack fails. On a successful saving throw the target is immune to this effect in the future.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3376,6 +3434,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'dispel',
@@ -3414,6 +3473,7 @@ export default createPublicationMonsters({
                 { dc: 'str' },
                 ' Strength saving throw. If the target fails the saving throw, the targeted weapon flies 10 feet away in a random direction.',
               ],
+              effects: [],
             },
             {
               key: 'lethal-leap',
@@ -3703,6 +3763,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.ice_storm_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -4013,6 +4074,7 @@ export default createPublicationMonsters({
               ", Tasha's ",
               refs.spells.hideous_laughter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -4103,14 +4165,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.line, size: 20, width: 5 } },
               onFail: {
                 damage: [{ dice: '5d8', type: rules.acid }],
-                also: [
-                  'The creature has the ',
-                  rules.paralyzed,
-                  ' condition for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.',
-                ],
+
+                also: [{ effect: 'spit-paralyzed' }],
               },
             },
             text: ['The shator exhales poisonous spit in a 20-foot line that is 5 feet wide.'],
+            effects: [
+              {
+                key: 'spit-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -4133,9 +4202,19 @@ export default createPublicationMonsters({
             text: [
               'When hit with a melee attack, the shator expels a toxic slime. The attacker must succeed on a ',
               { dc: 'cha', save: 'dex' },
-              ' Dexterity saving throw or have the ',
-              rules.paralyzed,
-              ' condition for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.',
+              ' Dexterity saving throw or have ',
+              { effect: 'slime-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slime-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -4754,9 +4833,18 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'Ranged Weapon Attack: plus 5 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target has the ',
-              rules.restrained,
-              ' condition. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net.',
+              'Ranged Weapon Attack: plus 5 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target has ',
+              { effect: 'net-restrained' },
+              '. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net.',
+            ],
+            effects: [
+              {
+                key: 'net-restrained',
+                name: 'Restrained',
+                lands: { on: 'use' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

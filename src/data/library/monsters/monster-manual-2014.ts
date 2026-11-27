@@ -7167,6 +7167,7 @@ export default createPublicationMonsters({
               refs.spells.time_stop_srd_5_1,
               ' *The archmage casts these spells on itself before combat.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -8475,10 +8476,18 @@ export default createPublicationMonsters({
               'Plus ',
               { roll: '2d10', mod: 'str' },
               ' slashing damage. The target is ',
-              rules.grappled,
-              " (escape DC 16) if the behir isn't already constricting a creature, and the target is ",
-              rules.restrained,
-              ' until this grapple ends.',
+              { effect: 'constrict-grappled' },
+              " if the behir isn't already constricting a creature",
+            ],
+            effects: [
+              {
+                key: 'constrict-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -8495,6 +8504,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'swallow',
@@ -8503,12 +8513,8 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               'The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the behir, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time. If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a ",
+              { effect: 'swallowed' },
+              '. A behir can have only one creature swallowed at a time. If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw at the end of that turn or regurgitate the creature, which falls ',
               rules.prone,
@@ -8517,6 +8523,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside the behir, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the behir's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -14110,6 +14130,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'life-drain',
@@ -14123,6 +14144,7 @@ export default createPublicationMonsters({
               { roll: '6d6' },
               ' necrotic damage, and the demilich regains hit points equal to the total damage dealt to all targets.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -14142,8 +14164,17 @@ export default createPublicationMonsters({
                 'The demilich magically swirls its dusty remains. Each creature within 10 feet of the demilich, including around a corner, must succeed on a ',
                 { dc: 'con', printed: 15 },
                 ' Constitution saving throw or be ',
-                rules.blinded,
-                " until the end of the demilich's next turn. A creature that succeeds on the saving throw is immune to this effect until the end of the demilich's next turn.",
+                { effect: 'dust-blinded' },
+                ". A creature that succeeds on the saving throw is immune to this effect until the end of the demilich's next turn.",
+              ],
+              effects: [
+                {
+                  key: 'dust-blinded',
+                  name: 'Blinded',
+                  lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                  conditions: [rules.blinded],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
             {
@@ -14154,9 +14185,22 @@ export default createPublicationMonsters({
               text: [
                 'Each creature within 30 feet of the demilich must make a ',
                 { dc: 'con', printed: 15 },
-                " Constitution saving throw. On a failed save, the creature's hit point maximum is magically reduced by ",
-                { roll: '3d6' },
-                ". If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. A creature's hit point maximum can be restored with the greater restoration spell or similar magic.",
+                ' Constitution saving throw. On a failed save, ',
+                { effect: 'energy-drain-reduced' },
+                ". A creature's hit point maximum can be restored with the greater restoration spell or similar magic.",
+              ],
+              effects: [
+                {
+                  key: 'energy-drain-reduced',
+                  name: 'Hit point maximum reduced',
+                  lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                  text: [
+                    "The creature's hit point maximum is magically reduced by ",
+                    { roll: '3d6' },
+                    ". If a creature's hit point maximum is reduced to 0 by this effect, the creature dies.",
+                  ],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {
@@ -14167,7 +14211,19 @@ export default createPublicationMonsters({
               text: [
                 'The demilich targets one creature it can see within 30 feet of it. The target must succeed on a ',
                 { dc: 'wis', printed: 15 },
-                ' Wisdom saving throw or be magically cursed. Until the curse ends, the target has disadvantage on attack rolls and saving throws. The target can repeat the saving throw at the end of each of its turns, ending the curse on a success.',
+                ' Wisdom saving throw or be magically ',
+                { effect: 'vile-cursed' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'vile-cursed',
+                  name: 'Cursed',
+                  lands: { on: 'save', save: 'wis', dc: 'wis', printed: 15 },
+                  text: ['The target has disadvantage on attack rolls and saving throws.'],
+                  lasts: { kind: 'until-removed' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
           ],
@@ -14210,6 +14266,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -32224,6 +32281,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -32280,10 +32338,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The marid magically shoots water.    On a failure, a target that is Huge or smaller is also pushed up to 20 feet away from the marid and knocked ',
-              rules.prone,
+              { effect: 'jet-prone' },
               '. On a success, a target is neither pushed nor knocked ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'jet-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -38888,6 +38955,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.true_seeing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'limited-magic-immunity',
@@ -39840,6 +39908,7 @@ export default createPublicationMonsters({
               rules.restrained,
               " and has disadvantage on Strength checks and Strength saving throws, and the roper can't use the same tendril on another target.",
             ],
+            effects: [],
           },
           {
             key: 'reel',
@@ -39851,6 +39920,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it up to 25 feet straight toward it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -43423,6 +43493,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ". The two don't even need to be on the same plane of existence.",
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -43455,12 +43526,21 @@ export default createPublicationMonsters({
               'One humanoid the fiend can see within 30 feet of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be magically ',
-              rules.charmed,
-              ' for 1 day. The ',
+              { effect: 'charm-charmed' },
+              '. The ',
               rules.charmed,
               " target obeys the fiend's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend's Charm for the next 24 hours. The fiend can have only one target ",
               rules.charmed,
               ' at a time. If it charms another, the effect on the previous target ends.',
+            ],
+            effects: [
+              {
+                key: 'charm-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'day' },
+              },
             ],
           },
           {
@@ -43475,7 +43555,19 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw against this magic, taking psychic damage of ',
               { roll: '5d10', mod: 'cha' },
-              " on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+              ' on a failed save, or half as much damage on a successful one. ',
+              { effect: 'kiss-reduced' },
+            ],
+            effects: [
+              {
+                key: 'kiss-reduced',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                text: [
+                  "The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -44305,6 +44397,7 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
         ],
       },

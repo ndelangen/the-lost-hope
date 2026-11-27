@@ -54,6 +54,7 @@ export default createPublicationMonsters({
               " (cast at 3rd level), Tasha's ",
               refs.spells.hideous_laughter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'detect-sentience',
@@ -84,8 +85,18 @@ export default createPublicationMonsters({
               ') or take ',
               { roll: '2d8', mod: 'int' },
               ' psychic damage and be ',
-              rules.stunned,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'mind-blast-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mind-blast-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

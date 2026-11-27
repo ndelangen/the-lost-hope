@@ -77,9 +77,29 @@ export default createPublicationMonsters({
             text: [
               'The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the Dispel Magic spell on the orb (",
-              { dc: 'con' },
-              ') destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside.',
+              ' Constitution saving throw or be ',
+              { effect: 'encased' },
+              '. ',
+              'A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside.',
+            ],
+            effects: [
+              {
+                key: 'encased',
+                name: 'Encased in orb',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  "encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction.",
+                  ' The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed.',
+                ],
+                ends: {
+                  cure: [
+                    'A successful casting of the Dispel Magic spell on the orb (',
+                    { dc: 'con' },
+                    ') destroys it.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -985,11 +1005,34 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.necrotic, addModifier: true }],
             },
             text: [
-              'If the target is Large or smaller, it has the ',
-              rules.grappled,
-              ' condition (escape DC 18). The target must succeed on a ',
+              'If the target is Large or smaller, it has ',
+              { effect: 'claw-grappled' },
+              '. The target must succeed on a ',
               { dc: 'cha', save: 'con' },
-              ' Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+              ' Constitution saving throw or ',
+              { effect: 'claw-hp-max' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
+              {
+                key: 'claw-hp-max',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'its hit point maximum is reduced by an amount equal to the damage taken.',
+                  ' This reduction lasts until the target finishes a long rest.',
+                  ' The target dies if this effect reduces its hit point maximum to 0.',
+                ],
+              },
             ],
           },
           {
@@ -1004,7 +1047,23 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '). On a failed save, the target takes ',
               { roll: '8d8' },
-              " necrotic damage, and its Charisma score is reduced by 1d6. This reduction lasts until the target finishes a short or long rest. If this reduces the target's Charisma to 0, the target dies. Until the breath drinker dies, the dead target can't be returned to life by any means short of divine intervention. On a successful save, the target takes half as much necrotic damage only. On a successful or failed save, the breath drinker regains a number of hit points equal to the necrotic damage dealt.",
+              ' necrotic damage, and ',
+              { effect: 'charisma-drain' },
+              ' ',
+              "Until the breath drinker dies, the dead target can't be returned to life by any means short of divine intervention. On a successful save, the target takes half as much necrotic damage only. On a successful or failed save, the breath drinker regains a number of hit points equal to the necrotic damage dealt.",
+            ],
+            effects: [
+              {
+                key: 'charisma-drain',
+                name: 'Charisma drain',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'its Charisma score is reduced by 1d6.',
+                  ' This reduction lasts until the target finishes a short or long rest.',
+                  " If this reduces the target's Charisma to 0, the target dies.",
+                ],
+              },
             ],
           },
           {
@@ -1019,6 +1078,7 @@ export default createPublicationMonsters({
               { ability: 'drink-breath' },
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1242,9 +1302,19 @@ export default createPublicationMonsters({
             text: [
               'The infiltrator magically whispers to a creature it can see within 30 feet of itself. The target must succeed on a ',
               { dc: 'dex', save: 'wis' },
-              ' Wisdom saving throw or have the ',
-              rules.stunned,
-              " condition due to fear or delight (the infiltrator's choice) until the end of the target's next turn, after which the target is immune to this Beguiling Whisper for 24 hours.",
+              ' Wisdom saving throw or have ',
+              { effect: 'whisper-stun' },
+              ', after which the target is immune to this Beguiling Whisper for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'whisper-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                conditions: [rules.stunned],
+                text: ["due to fear or delight (the infiltrator's choice)"],
+              },
             ],
           },
           {
@@ -1269,6 +1339,7 @@ export default createPublicationMonsters({
                 rules.grappled,
                 ' condition on itself, then moves up to its speed without provoking opportunity attacks.',
               ],
+              effects: [],
             },
             {
               key: 'stab',
@@ -1301,6 +1372,7 @@ export default createPublicationMonsters({
                 rules.invisible,
                 " condition and creates an illusory duplicate of itself in its space, then teleports, along with any equipment it is wearing or carrying, to an unoccupied space within 15 feet of itself. The image flings illusory blades.    The invisibility lasts until the end of the infiltrator's next turn.",
               ],
+              effects: [],
             },
           ],
         },
@@ -1574,6 +1646,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1600,6 +1673,7 @@ export default createPublicationMonsters({
                 { roll: '2d10' },
                 ' psychic damage.',
               ],
+              effects: [],
             },
             {
               key: 'menace',
@@ -1610,8 +1684,17 @@ export default createPublicationMonsters({
                 'The champion chooses any number of creatures it can see within 30 feet of itself. Each target must succeed on a ',
                 { dc: 'cha', save: 'wis' },
                 ' Wisdom saving throw or have the ',
-                rules.frightened,
-                ' condition until the end of its next turn.',
+                { effect: 'menace-fright' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'menace-fright',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'cha' },
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                  conditions: [rules.frightened],
+                },
               ],
             },
           ],
@@ -1704,16 +1787,22 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120 },
               onFail: {
                 damage: [{ dice: '11d8', type: rules.force }],
-                also: [
-                  'The creature has the ',
-                  rules.stunned,
-                  " condition until the start of the champion's next turn.",
-                ],
+
+                also: [{ effect: 'void-stunned' }],
               },
               onSuccess: 'half',
             },
             text: [
               'The champion summons a hungering rift around a creature it can see within 120 feet of itself.    If a creature is reduced to 0 hit points by this effect, the creature dies, and its body crumbles to dust.',
+            ],
+            effects: [
+              {
+                key: 'void-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1730,6 +1819,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1746,11 +1836,21 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 30 },
                 onFail: {
                   damage: [{ dice: '4d6', type: rules.force }],
-                  also: ['Have the ', rules.prone, ' condition.'],
+
+                  also: [{ effect: 'crush-prone' }],
                 },
               },
               text: [
                 'The champion unleashes a burst of crushing force on one creature it can see within 30 feet of itself.',
+              ],
+              effects: [
+                {
+                  key: 'crush-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {
@@ -2258,6 +2358,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mass_suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'comet-s-voice',
@@ -2344,22 +2445,33 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 } },
               onFail: {
                 damage: [{ dice: '6d8', type: rules.psychic }],
-                also: [
-                  'The creature has the ',
-                  rules.incapacitated,
-                  ' condition until the start of its next turn.',
-                ],
+
+                also: [{ effect: 'star-incapacitated' }],
               },
               onSuccess: 'half',
             },
             text: [
               'The hierophant conjures a manifestation of the All-Consuming Star: brilliant light and haunting screams that fill a 20-foot-radius sphere centered on a point the hierophant can see within 60 feet of itself. Each creature within the sphere has the ',
-              rules.blinded,
-              ' and ',
-              rules.deafened,
-              ' conditions.    The manifestation persists until the hierophant dies, has the ',
+              { effect: 'star-blind-deaf' },
+              '.    The manifestation persists until the hierophant dies, has the ',
               rules.incapacitated,
               ' condition, uses a bonus action to end the effect, or uses this action again.',
+            ],
+            effects: [
+              {
+                key: 'star-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
+              {
+                key: 'star-blind-deaf',
+                name: 'Blinded and deafened',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.deafened],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -2378,6 +2490,7 @@ export default createPublicationMonsters({
               { ability: 'all-consuming-star' },
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2569,6 +2682,7 @@ export default createPublicationMonsters({
             text: [
               'When the living portent is damaged by one creature that it can see within 120 feet of itself, radiant power sears the creature.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2889,10 +3003,18 @@ export default createPublicationMonsters({
               "Magic and other features can't determine the corrupter's creature type. If a creature tries to read the corrupter's thoughts, that creature must succeed on a ",
               { dc: 'int' },
               ' Intelligence saving throw or have the ',
-              rules.stunned,
-              ' condition for 1 minute. The ',
-              rules.stunned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'mind-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mind-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                conditions: [rules.stunned],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2945,7 +3067,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'dex', save: 'wis' },
-              " Wisdom saving throw or be unable to speak until the start of the corrupter's next turn.",
+              ' Wisdom saving throw or be ',
+              { effect: 'blade-silence' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'blade-silence',
+                name: 'Unable to speak',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+                text: ['unable to speak'],
+              },
             ],
           },
           {
@@ -2956,9 +3089,18 @@ export default createPublicationMonsters({
             text: [
               "The corrupter's squirming tentacle lashes out at a creature the corrupter can see within 30 feet of itself. The target must succeed on a ",
               { dc: 'dex', save: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.paralyzed,
-              ' condition until the end of its next turn, after which the target is immune to this Debilitating Touch for 24 hours.',
+              ' Constitution saving throw or have ',
+              { effect: 'touch-paralysis' },
+              ', after which the target is immune to this Debilitating Touch for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'touch-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                conditions: [rules.paralyzed],
+              },
             ],
           },
           {
@@ -2994,6 +3136,7 @@ export default createPublicationMonsters({
                 rules.restrained,
                 ' conditions on itself, then moves up to its speed without provoking opportunity attacks.',
               ],
+              effects: [],
             },
             {
               key: 'stab',
@@ -3020,6 +3163,7 @@ export default createPublicationMonsters({
               text: [
                 "The corrupter dissolves into a shifting mass of flesh, tentacles, eyes, claws, and mouths. The corrupter affects up to two creatures it can see within 20 feet of itself.    This transformation lasts until the end of the corrupter's next turn. While transformed, the corrupter has advantage on attack rolls, attack rolls made against it have disadvantage, and it can move through spaces at least 1 inch wide without squeezing.",
               ],
+              effects: [],
             },
           ],
         },
@@ -3544,11 +3688,23 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiSpiderWeb',
             text: [
-              'Ranged Weapon Attack: plus 7 to hit, range 30/60 ft., one creature. Hit: The target has the ',
-              rules.restrained,
-              ' condition. As an action, a ',
-              rules.restrained,
-              ' target can make a DC 13 Strength check, bursting the webbing on a successful check. The webbing can also be destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to acid, bludgeoning, poison, and psychic damage).',
+              'Ranged Weapon Attack: plus 7 to hit, range 30/60 ft., one creature. Hit: The target has ',
+              { effect: 'web-restrained' },
+              '. The webbing can also be destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to acid, bludgeoning, poison, and psychic damage).',
+            ],
+            effects: [
+              {
+                key: 'web-restrained',
+                name: 'Restrained by webbing',
+                lands: { on: 'use' },
+                conditions: [rules.restrained],
+                text: [
+                  'As an action, a ',
+                  rules.restrained,
+                  ' target can make a DC 13 Strength check, bursting the webbing on a successful check.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

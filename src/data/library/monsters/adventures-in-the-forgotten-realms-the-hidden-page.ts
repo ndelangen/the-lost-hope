@@ -228,6 +228,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disguise_self_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'invisibility',
@@ -235,6 +236,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ["The usagt's true form is ", rules.invisible, '.'],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -246,6 +248,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ". Its new form appears to wear clothes, carry equipment, and even wield weapons, but these are all parts of the usagt itself; they vanish if dropped or removed from the creature. It can't activate, use, wield, or otherwise benefit from any of its apparent equipment. It reverts to its true form if it dies.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -278,6 +281,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ". A target can choose to fail this check. If the usagt wins, it magically learns the identity of a creature from the target's past, someone the target wishes it could speak to again or with whom the target has left something unsaid. If somehow no such creature exists in the target's past, the usagt learns that instead.",
             ],
+            effects: [],
           },
           {
             key: 'invisibility-response-recharges-when-the-usagt-uses-its-shapechanger-ability',
@@ -289,6 +293,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' form and move up to 15 feet without provoking opportunity attacks.',
             ],
+            effects: [],
           },
         ],
       },

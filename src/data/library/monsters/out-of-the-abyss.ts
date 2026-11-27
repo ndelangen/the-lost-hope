@@ -611,6 +611,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -634,6 +635,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Horgar has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'enlarge-recharges-after-a-short-or-long-rest',
@@ -656,6 +658,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with him.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -704,6 +707,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -2282,6 +2286,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.tongues_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -2882,6 +2887,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' or on the Ethereal Plane. It can pinpoint such a creature that is moving.',
             ],
+            effects: [],
           },
           {
             key: 'slippery',
@@ -2936,8 +2942,17 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'Ranged Weapon Attack: plus 3 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target is ',
-              rules.restrained,
+              { effect: 'ougalop-net' },
               '. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net.',
+            ],
+            effects: [
+              {
+                key: 'ougalop-net',
+                name: 'Restrained',
+                lands: { on: 'use' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2952,6 +2967,7 @@ export default createPublicationMonsters({
               rules.grappled,
               " while the weapon is stuck. While stuck, the weapon can't be used. A creature can pull the weapon free by taking an action to make a DC 11 Strength check and succeeding.",
             ],
+            effects: [],
           },
         ],
       },
@@ -3615,6 +3631,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' or on the Ethereal Plane. It can pinpoint such a creature that is moving.',
             ],
+            effects: [],
           },
           {
             key: 'slippery',
@@ -3669,8 +3686,17 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'Ranged Weapon Attack: plus 3 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target is ',
-              rules.restrained,
+              { effect: 'shuushar-net' },
               '. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net.',
+            ],
+            effects: [
+              {
+                key: 'shuushar-net',
+                name: 'Restrained',
+                lands: { on: 'use' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3685,6 +3711,7 @@ export default createPublicationMonsters({
               rules.grappled,
               " while the weapon is stuck. While stuck, the weapon can't be used. A creature can pull the weapon free by taking an action to make a DC 11 Strength check and succeeding.",
             ],
+            effects: [],
           },
         ],
       },
@@ -4164,8 +4191,17 @@ export default createPublicationMonsters({
               'Any creature other than a troglodyte that starts its turn within 5 feet of the troglodyte must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              " until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.",
+              { effect: 'stench-poisoned' },
+              '. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Stench',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -4243,6 +4279,7 @@ export default createPublicationMonsters({
             text: ['The troglodyte spits acid.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -4487,7 +4524,21 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.',
+              ' Constitution saving throw or ',
+              { effect: 'hp-max-drain' },
+              ', and the ixitxachitl regains hit points equal to that amount.',
+            ],
+            effects: [
+              {
+                key: 'hp-max-drain',
+                name: 'Hit point maximum reduction',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'Its hit point maximum is reduced by an amount equal to the damage taken. ',
+                  'The target dies if its hit point maximum is reduced to 0.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {
@@ -4551,6 +4602,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.tongues_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'vampiric-bite',
@@ -4567,7 +4619,21 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.',
+              ' Constitution saving throw or ',
+              { effect: 'hp-max-drain' },
+              ', and the ixitxachitl regains hit points equal to that amount.',
+            ],
+            effects: [
+              {
+                key: 'hp-max-drain',
+                name: 'Hit point maximum reduction',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'Its hit point maximum is reduced by an amount equal to the damage taken. ',
+                  'The target dies if its hit point maximum is reduced to 0.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {
@@ -4807,8 +4873,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' by Xazax for 1 hour, or until Xazax harms the creature. 2.',
+              { effect: 'charm-ray-charmed' },
+              ' by Xazax',
+              ', or until Xazax harms the creature. 2.',
+            ],
+            effects: [
+              {
+                key: 'charm-ray-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -4820,8 +4896,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 3.',
+              { effect: 'paralyzing-ray-paralyzed' },
+              '. 3.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-ray-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4833,8 +4919,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 4.',
+              { effect: 'fear-ray-frightened' },
+              '. 4.',
+            ],
+            effects: [
+              {
+                key: 'fear-ray-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4845,7 +4941,22 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'dex' },
-              " Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 5.",
+              ' Dexterity saving throw. On a failed save, ',
+              { effect: 'slowing-ray-slowed' },
+              '. 5.',
+            ],
+            effects: [
+              {
+                key: 'slowing-ray-slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                text: [
+                  "The target's speed is halved. ",
+                  "In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4858,6 +4969,7 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'con' },
               ' Constitution saving throw, taking 8d8 (average 36) necrotic damage on a failed save, or half as much damage on a successful one. 6.',
             ],
+            effects: [],
           },
           {
             key: 'telekinetic-ray',
@@ -4868,10 +4980,21 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'int', save: 'str' },
               ' Strength saving throw or Xazax moves it up to 30 feet in any direction. It is ',
-              rules.restrained,
-              " by the ray's telekinetic grip until the start of Xazax's next turn or until Xazax is ",
-              rules.incapacitated,
-              ". If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. Xazax can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container. 7.",
+              { effect: 'telekinetic-restrained' },
+              " by the ray's telekinetic grip",
+              " If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. Xazax can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container. 7.",
+            ],
+            effects: [
+              {
+                key: 'telekinetic-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'int' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: ["the start of Xazax's next turn or until Xazax is ", rules.incapacitated],
+                },
+              },
             ],
           },
           {
@@ -4883,8 +5006,20 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or fall asleep and remain ',
-              rules.unconscious,
-              ' for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead. 8.',
+              { effect: 'sleep-ray-unconscious' },
+              '. This ray has no effect on constructs and undead. 8.',
+            ],
+            effects: [
+              {
+                key: 'sleep-ray-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.unconscious],
+                text: [
+                  'The target awakens if it takes damage or another creature takes an action to wake it.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -4896,10 +5031,29 @@ export default createPublicationMonsters({
               'The targeted creature must make a ',
               { dc: 'int', save: 'dex' },
               ' Dexterity saving throw. On a failed save, the creature begins to turn to stone and is ',
-              rules.restrained,
-              '. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is ',
-              rules.petrified,
-              ' until freed by the greater restoration spell or other magic. 9.',
+              { effect: 'petrification-restrained' },
+              '. ',
+              'On a failure, the creature is ',
+              { effect: 'petrification-petrified' },
+              '. 9.',
+            ],
+            effects: [
+              {
+                key: 'petrification-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'petrification-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                  ends: { cure: ['freed by the greater restoration spell or other magic'] },
+                },
+              },
             ],
           },
           {
@@ -4912,6 +5066,7 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'dex' },
               ' Dexterity saving throw or take 10d8 (average 45) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it. 10.',
             ],
+            effects: [],
           },
           {
             key: 'death-ray',
@@ -4923,6 +5078,7 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'dex' },
               ' Dexterity saving throw or take 10d10 (average 55) necrotic damage. The target dies if the ray reduces it to 0 hit points.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -4988,7 +5144,19 @@ export default createPublicationMonsters({
             text: [
               'Yestabrod releases spores in a 30-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con', save: 'dex' },
-              " Dexterity saving throw or take 1d6 acid damage at the start of each of Yestabrod's turns. A creature can repeat the saving throw at the end of each of its turn, ending the effect on itself on a success.",
+              ' Dexterity saving throw or ',
+              { effect: 'caustic-spores-acid' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'caustic-spores-acid',
+                name: 'Caustic spores',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                text: ["take 1d6 acid damage at the start of each of Yestabrod's turns."],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -5001,7 +5169,23 @@ export default createPublicationMonsters({
             text: [
               'Yestabrod releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a ',
               { dc: 'con' },
-              " Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must be repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual).",
+              " Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, ",
+              { effect: 'zuggtmoy-spores' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'zuggtmoy-spores',
+                name: 'Spore infection',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'The creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. ',
+                  "While infected in this way, the creature can't be reinfected. ",
+                  'On a failure, the infected creature\'s body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it\'s a type of creature that can be (see the "Myconids" entry in the Monster Manual).',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['every-24-hours'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -5024,6 +5208,7 @@ export default createPublicationMonsters({
                 },
               },
               text: ['Gore, offal, and acid erupt from a corpse within 20 feet of Yestabrod.'],
+              effects: [],
             },
             {
               key: 'foul-absorption',

@@ -4223,6 +4223,7 @@ export default createPublicationMonsters({
               refs.spells.time_stop_srd_5_1,
               ' *The archmage casts these spells on itself before combat.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -4308,8 +4309,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

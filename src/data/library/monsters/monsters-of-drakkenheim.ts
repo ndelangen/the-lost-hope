@@ -46,6 +46,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -77,7 +78,18 @@ export default createPublicationMonsters({
               { dc: 'int' },
               '). On a failure, the target takes ',
               { roll: '8d6' },
-              ' psychic damage and has the Jinxed condition (1d8; save ends). On a success, the target takes half damage only.',
+              ' psychic damage and ',
+              { effect: 'barrage-jinxed' },
+              ' On a success, the target takes half damage only.',
+            ],
+            effects: [
+              {
+                key: 'barrage-jinxed',
+                name: 'Jinxed',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                text: ['Jinxed condition (1d8; save ends).'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -907,10 +919,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.line, size: 120, width: 5 } },
               onFail: {
                 damage: [{ dice: '4d10', type: rules.lightning }],
-                also: ['The target has the Shocked condition until the end of its next turn.'],
+
+                also: [{ effect: 'bolt-shocked' }],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'bolt-shocked',
+                name: 'Shocked',
+                lands: { on: 'failed-save' },
+                text: ['The target has the Shocked condition.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'fire-blast',
@@ -930,6 +952,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               '. Failure: The target has the Burning condition (4d8 Fire).',
             ],
+            effects: [],
           },
           {
             key: 'cold-snap',
@@ -947,6 +970,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'rapid-adaptation',
@@ -2034,14 +2058,21 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '8d4', type: rules.acid, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.grappled,
-              ' condition (escape DC 17). Until the grapple ends, the target has the ',
-              rules.restrained,
-              " condition and the chemist can't use Caustic Grip against another target. At the end of each of its turns, the target takes ",
-              { roll: '8d4', mod: 'con' },
-              ' Acid damage.',
+            text: ['The target has ', { effect: 'grip-grappled' }, '.'],
+            effects: [
+              {
+                key: 'grip-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  "The chemist can't use Caustic Grip against another target. At the end of each of its turns, the target takes ",
+                  { roll: '8d4', mod: 'con' },
+                  ' Acid damage.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -2056,6 +2087,7 @@ export default createPublicationMonsters({
               { roll: '8d6' },
               " Acid, Cold, Fire, or Lightning damage (the chemist's choice). Success: Half damage.",
             ],
+            effects: [],
           },
           {
             key: 'explosive-concoction',
@@ -2071,6 +2103,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'acid-rain',
@@ -2082,9 +2115,18 @@ export default createPublicationMonsters({
               { dc: 'con' },
               '. Failure: ',
               { roll: '12d4' },
-              ' Acid damage, and the target has the ',
-              rules.prone,
-              ' condition. Success: Half damage only.',
+              ' Acid damage, and the target has ',
+              { effect: 'rain-prone' },
+              '. Success: Half damage only.',
+            ],
+            effects: [
+              {
+                key: 'rain-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -2631,9 +2673,18 @@ export default createPublicationMonsters({
             text: [
               'Or ',
               { roll: '4d6' },
-              ' Piercing damage if the congregation has the Bloodied condition. The target has the ',
-              rules.prone,
-              ' condition.',
+              ' Piercing damage if the congregation has the Bloodied condition. The target has ',
+              { effect: 'pitchfork-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'pitchfork-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2648,6 +2699,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               '). On a failure, it takes 17 bludgeoning damage (2d10 + 6). On a success, it takes half damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3455,6 +3507,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' creature it hits with a weapon attack.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -3477,9 +3530,18 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'Ranged Attack Roll: plus 3 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target has the ',
-              rules.restrained,
-              ' condition. A creature can take an action to free itself or another creature in a net with a successful DC 10 Strength check. Dealing 5 Slashing damage to the net (AC 10) frees the target without harming it and destroys the net.',
+              'Ranged Attack Roll: plus 3 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target has ',
+              { effect: 'dreg-net-restrained' },
+              '. A creature can take an action to free itself or another creature in a net with a successful DC 10 Strength check. Dealing 5 Slashing damage to the net (AC 10) frees the target without harming it and destroys the net.',
+            ],
+            effects: [
+              {
+                key: 'dreg-net-restrained',
+                name: 'Restrained',
+                lands: { on: 'use' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -3833,6 +3895,7 @@ export default createPublicationMonsters({
                 also: ['The target gains one Contamination level.'],
               },
             },
+            effects: [],
           },
           {
             key: 'octarine-breath',
@@ -3852,6 +3915,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'dimension-hop',
@@ -4295,6 +4359,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'contaminated-venom',
@@ -4312,6 +4377,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'void-walker',
@@ -5054,6 +5120,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.darkness,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5095,7 +5162,8 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30, which: 'the host can see' },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.fire }],
-                also: ['The target has the ', rules.restrained, ' condition.'],
+
+                also: [{ effect: 'chain-restrained' }],
               },
             },
             text: [
@@ -5104,6 +5172,15 @@ export default createPublicationMonsters({
               ' by this action takes ',
               { roll: '3d6' },
               ' Fire damage at the start of each of its turns. At the end of each of its turns, the target makes a DC 17 Strength check, ending the effect on itself on a success.',
+            ],
+            effects: [
+              {
+                key: 'chain-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -5129,6 +5206,7 @@ export default createPublicationMonsters({
               { ability: 'spellcasting' },
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6357,7 +6435,17 @@ export default createPublicationMonsters({
             text: [
               'Charisma Saving Throw: ',
               { dc: 'cha' },
-              ", each creature in the Emanation that can hear the harpy. Failure: The target has the Weakened condition until the start of the harpy's next turn.",
+              ', each creature in the Emanation that can hear the harpy. Failure: ',
+              { effect: 'tune-weakened' },
+            ],
+            effects: [
+              {
+                key: 'tune-weakened',
+                name: 'Weakened',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: ['The target has the Weakened condition.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -6372,11 +6460,19 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 60 } },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.psychic }],
-                also: [
-                  "The target has the Slowed condition until the start of the harpy's next turn.",
-                ],
+
+                also: [{ effect: 'melody-slowed' }],
               },
             },
+            effects: [
+              {
+                key: 'melody-slowed',
+                name: 'Slowed',
+                lands: { on: 'failed-save' },
+                text: ['The target has the Slowed condition.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'piercing-notes',
@@ -6393,6 +6489,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'aerial-maneuver',
@@ -9159,7 +9256,8 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 }, range: 15 },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.slashing }],
-                also: ['Has the ', rules.blinded, ' condition until the end of their next turn.'],
+
+                also: [{ effect: 'burst-blinded' }],
               },
             },
             text: [
@@ -9168,6 +9266,15 @@ export default createPublicationMonsters({
               ', it can shed its ',
               { ability: 'shroud-of-leaves' },
               ' in a burst, losing the trait in the process.',
+            ],
+            effects: [
+              {
+                key: 'burst-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -10212,6 +10319,7 @@ export default createPublicationMonsters({
                 damage: [{ dice: '1d10', type: rules.necrotic }],
               },
             },
+            effects: [],
           },
           {
             key: 'filthy-blade',
@@ -10235,11 +10343,24 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The ratling causes one creature it can see within 60 feet to be infected with a disease. At the start of each of its turns, the target is subjected to the following effect. Constitution SavingThrow: ',
-              { dc: 'int' },
-              '. Failure: ',
-              { roll: '2d12' },
-              ' Necrotic damage. Success: Half damage. After three successes, the disease ends. Failure or Success: A Lesser Restoration spell ends the disease early.',
+              'The ratling causes one creature it can see within 60 feet to be infected with a disease. ',
+              { effect: 'infection-disease' },
+            ],
+            effects: [
+              {
+                key: 'infection-disease',
+                name: 'Infection',
+                lands: { on: 'use' },
+                text: [
+                  'At the start of each of its turns, the target is subjected to the following effect. Constitution SavingThrow: ',
+                  { dc: 'int' },
+                  '. Failure: ',
+                  { roll: '2d12' },
+                  ' Necrotic damage. Success: Half damage. After three successes, the disease ends.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['A Lesser Restoration spell ends the disease early.'] },
+              },
             ],
             uses: 3,
             recharge: 'Long rest',
@@ -10252,9 +10373,22 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'int' },
-              ", one creature within 15 feet that is infected with a disease. Failure: The target has one of the following conditions (the ratling's choice): Addled, Clumsy, or Enfeebled (save ends). The condition immediately ends and is replace by a new condition if the ratling uses Metastasize on the target again. Failure or Success: ",
+              ', one creature within 15 feet that is infected with a disease. Failure: ',
+              { effect: 'metastasize-condition' },
+              ' Failure or Success: ',
               { roll: '2d8' },
               ' Necrotic damage.',
+            ],
+            effects: [
+              {
+                key: 'metastasize-condition',
+                name: 'Metastasize condition',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                text: [
+                  "The target has one of the following conditions (the ratling's choice): Addled, Clumsy, or Enfeebled (save ends). The condition immediately ends and is replace by a new condition if the ratling uses Metastasize on the target again.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -10906,9 +11040,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '4d6', type: rules.necrotic, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 20).',
+              'If the target is a Medium or smaller creature, it has ',
+              { effect: 'claws-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claws-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -10928,11 +11072,22 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '14d6', type: rules.necrotic }],
+
                 also: [
-                  "The target has the Weakened condition (DC 20 Constitution save ends). Vladimir von Drakken regains Hit Points equal to the Necrotic damage dealt. A Humanoid killed by this damage rises on its next turn as a Vampire Spawn under Vladimir von Drakken's control.",
+                  { effect: 'bite-weakened' },
+                  " Vladimir von Drakken regains Hit Points equal to the Necrotic damage dealt. A Humanoid killed by this damage rises on its next turn as a Vampire Spawn under Vladimir von Drakken's control.",
                 ],
               },
             },
+            effects: [
+              {
+                key: 'bite-weakened',
+                name: 'Weakened',
+                lands: { on: 'failed-save' },
+                text: ['The target has the Weakened condition (DC 20 Constitution save ends).'],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'dominate-1-round',
@@ -10942,13 +11097,25 @@ export default createPublicationMonsters({
             text: [
               'Wisdom Saving Throw: ',
               { dc: 'str' },
-              ', one creature Vladimir von Drakken can see within 120 feet. Failure: The target has the ',
-              rules.charmed,
-              ' condition until the end of its next turn. While ',
-              rules.charmed,
-              ", the target obeys Vladimir von Drakken's commands and can't take Reactions. Failure by 5 or More: The ",
+              ', one creature Vladimir von Drakken can see within 120 feet. Failure: ',
+              { effect: 'dominate-charmed' },
+              ' Failure by 5 or More: The ',
               rules.charmed,
               ' condition lasts 24 hours or until Vladimir von Drakken is reduced to 0 Hit Points. Each time the target takes damage, it repeats the save, ending the effect on itself on a success. Success: The target has Disadvantage on its next attack roll against Vladimir von Drakken.',
+            ],
+            effects: [
+              {
+                key: 'dominate-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'str' },
+                conditions: [rules.charmed],
+                text: [
+                  'While ',
+                  rules.charmed,
+                  ", the target obeys Vladimir von Drakken's commands and can't take Reactions.",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -10963,15 +11130,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 } },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.bludgeoning }],
+
                 also: [
-                  'The target is pushed 10 feet away from Vladimir von Drakken and has the ',
-                  rules.prone,
-                  ' condition.',
+                  'The target is pushed 10 feet away from Vladimir von Drakken and has ',
+                  { effect: 'blast-prone' },
+                  '.',
                 ],
               },
             },
             text: [
               'Failure or Success: Before or after using this Epic Action, Vladimir von Drakken can move up to half his Fly Speed without provoking Opportunity Attack action',
+            ],
+            effects: [
+              {
+                key: 'blast-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -11047,6 +11224,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' creatures have the Helpless and Defenseless conditions against attacks made by the ripper.',
             ],
+            effects: [],
           },
           {
             key: 'insensitive-to-pain',
@@ -11081,11 +11259,22 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ', each creature that can see the ripper. Failure: Psychic damage of ',
               { roll: '4d6' },
-              ', and the target has the ',
-              rules.frightened,
-              ' condition (save ends). While ',
-              rules.frightened,
-              ", the target's Speed becomes 0 and can't increase.",
+              ', and the target has ',
+              { effect: 'display-frightened' },
+            ],
+            effects: [
+              {
+                key: 'display-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                text: [
+                  'While ',
+                  rules.frightened,
+                  ", the target's Speed becomes 0 and can't increase.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -11660,11 +11849,20 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'If the manticore flies 30+ feet straight toward the target immediately before the hit, the target has the ',
-              rules.prone,
-              ' condition and the manticore can make a ',
+              'If the manticore flies 30+ feet straight toward the target immediately before the hit, the target has ',
+              { effect: 'claw-prone' },
+              ' and the manticore can make a ',
               { ability: 'bite' },
               ' attack against it as a Bonus Action.',
+            ],
+            effects: [
+              {
+                key: 'claw-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -11686,6 +11884,7 @@ export default createPublicationMonsters({
               { roll: '7d6' },
               ' Necrotic damage. Failure by 5 or More: The target also gains one Contamination level. Success: Half damage only.',
             ],
+            effects: [],
           },
           {
             key: 'wing-shards',
@@ -11699,12 +11898,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 20 } },
               onFail: {
                 damage: [{ dice: '8d6', type: rules.piercing }],
-                also: ['If the target is flying, it has the ', rules.prone, ' condition.'],
+
+                also: ['If the target is flying, it has ', { effect: 'shards-prone' }, '.'],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'shards-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
       },
@@ -11906,6 +12115,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'deny-the-witch',
@@ -12396,14 +12606,19 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '3d8', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              'If the target is Medium or smaller, it has the ',
-              rules.grappled,
-              ' condition (escape DC 12). While ',
-              rules.grappled,
-              ', the target has the ',
-              rules.restrained,
-              " condition and Disadvantage on Strength checks and Strength saving throws, and the skin crawler can't Bind another target.",
+            text: ['If the target is Medium or smaller, it has ', { effect: 'bind-grappled' }, '.'],
+            effects: [
+              {
+                key: 'bind-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  "Disadvantage on Strength checks and Strength saving throws, and the skin crawler can't Bind another target.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
           {
@@ -12420,6 +12635,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ", and the skin crawler regains an equal number of Hit Points. If this damage kills the target, the skin crawler assumes its form. The skin crawler's game statistics are the same in each form. It reverts to its true form if it dies.",
             ],
+            effects: [],
           },
         ],
       },
@@ -12716,6 +12932,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ', Immobilized, or Slowed creature.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -12771,6 +12988,7 @@ export default createPublicationMonsters({
               { roll: '2d10' },
               " Slashing damage and the threads aren't removed.",
             ],
+            effects: [],
           },
           {
             key: 'attach-limb',
@@ -12796,6 +13014,7 @@ export default createPublicationMonsters({
               { roll: '4d8' },
               ' Necrotic damage and has the Bleeding condition (4d4).',
             ],
+            effects: [],
           },
         ],
       },
@@ -12903,12 +13122,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 10 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.lightning }],
-                also: ["Has the Shocked condition until the end of the troll's next turn."],
+
+                also: [{ effect: 'hurl-shocked' }],
               },
               onSuccess: 'half',
             },
             text: [
               'The troll hurls a magical lightning bolt at a point it can see within 300 feet of it.',
+            ],
+            effects: [
+              {
+                key: 'hurl-shocked',
+                name: 'Shocked',
+                lands: { on: 'failed-save' },
+                text: ['Has the Shocked condition.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -12944,7 +13173,18 @@ export default createPublicationMonsters({
             text: [
               'A creature other than a Construct or Undead that starts its turn within 10 feet of the tanker is subjected to the following effect. Constitution Saving Throw: ',
               { dc: 'con' },
-              '. Failure: The target has the Sickened condition until the start of its next turn. Success: The target is immune to the Chemical Stench of all tankers for 1 hour.',
+              '. Failure: ',
+              { effect: 'stench-sickened' },
+              ' Success: The target is immune to the Chemical Stench of all tankers for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'stench-sickened',
+                name: 'Sickened',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['The target has the Sickened condition.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -13008,6 +13248,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'liquid-nitrogen',
@@ -13023,6 +13264,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 14 },
               '). Success: Half damage only.',
             ],
+            effects: [],
           },
           {
             key: 'chlorine-gas',
@@ -13034,13 +13276,18 @@ export default createPublicationMonsters({
               { dc: 'con' },
               '. Failure: ',
               { roll: '4d6' },
-              ' Poison damage, and the target has the ',
-              rules.poisoned,
-              ' condition (save ends). While ',
-              rules.poisoned,
-              ', the target has the ',
-              rules.blinded,
-              ' condition. Success: Half damage only.',
+              ' Poison damage, and the target has ',
+              { effect: 'gas-poisoned' },
+              '. Success: Half damage only.',
+            ],
+            effects: [
+              {
+                key: 'gas-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned, rules.blinded],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -13164,6 +13411,7 @@ export default createPublicationMonsters({
               ' (Level 5 version), ',
               refs.spells.plant_growth,
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -13201,9 +13449,19 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5 },
               onFail: {
                 damage: [{ dice: '3d8', type: rules.psychic, addModifier: true }],
-                also: ['The target has the Addled condition (save ends).'],
+
+                also: [{ effect: 'staff-addled' }],
               },
             },
+            effects: [
+              {
+                key: 'staff-addled',
+                name: 'Addled',
+                lands: { on: 'failed-save' },
+                text: ['The target has the Addled condition (save ends).'],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'slimeball',
@@ -13956,12 +14214,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.cold }],
-                also: ['Has the Frozen condition (escape DC 16).'],
+
+                also: [{ effect: 'breath-frozen' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'breath-frozen',
+                name: 'Frozen',
+                lands: { on: 'failed-save' },
+                text: ['Has the Frozen condition.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'con', printed: 16 } },
+              },
+            ],
           },
         ],
       },

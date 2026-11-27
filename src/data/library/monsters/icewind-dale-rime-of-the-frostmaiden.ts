@@ -2993,6 +2993,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -3017,12 +3018,29 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 9) and must succeed on a ',
+              { effect: 'grabbed' },
+              ' and must succeed on a ',
               { dc: 'int' },
               ' Intelligence saving throw or be ',
-              rules.stunned,
-              ' until this grapple ends.',
+              { effect: 'tentacle-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 9 } },
+              },
+              {
+                key: 'tentacle-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ['this grapple ends'] },
+              },
             ],
           },
           {
@@ -3066,14 +3084,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.psychic, addModifier: true }],
-                also: [
-                  'The creature is ',
-                  rules.stunned,
-                  ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
-                ],
+
+                also: ['The creature is ', { effect: 'blast-stun' }, '.'],
               },
             },
             text: ['The ceremorph magically emits psychic energy.'],
+            effects: [
+              {
+                key: 'blast-stun',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -3485,6 +3510,7 @@ export default createPublicationMonsters({
               refs.spells.stoneskin_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'duergar-resilience',
@@ -3498,6 +3524,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -3525,6 +3552,7 @@ export default createPublicationMonsters({
             text: [
               'Grandolpha extends her hand toward one creature she can see within 10 feet of her and projects a puff of noxious gas from her palm.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6640,6 +6668,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'duergar-resilience',
@@ -6653,6 +6682,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -6728,6 +6758,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'hellish-rebuke',
@@ -6749,6 +6780,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },

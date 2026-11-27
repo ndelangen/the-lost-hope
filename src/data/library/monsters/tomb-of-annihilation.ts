@@ -115,6 +115,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.time_stop_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -168,8 +169,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'touch-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'touch-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                conditions: [rules.paralyzed],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -202,7 +213,25 @@ export default createPublicationMonsters({
             text: [
               'While holding the Staff of the Forgotten One, Acererak expends 1 charge from it and targets one creature he can see within 60 feet of him. The target must succeed on a ',
               { dc: 'int', save: 'con' },
-              " Constitution saving throw or be cursed. Until the curse is ended, the target can't regain hit points and has vulnerability to necrotic damage. Greater restoration, remove curse, or similar magic ends the curse on the target.",
+              ' Constitution saving throw or ',
+              { effect: 'forgotten-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'forgotten-curse',
+                name: 'Curse of the Forgotten One',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  "be cursed. Until the curse is ended, the target can't regain hit points and has vulnerability to necrotic damage.",
+                ],
+                ends: {
+                  cure: [
+                    'Greater restoration, remove curse, or similar magic ends the curse on the target.',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -234,10 +263,18 @@ export default createPublicationMonsters({
                 'Acererak fixes his gaze on one creature he can see within 10 feet of him. The target must succeed on a ',
                 { dc: 'wis' },
                 ' Wisdom saving throw against this magic or become ',
-                rules.frightened,
-                ' for 1 minute. The ',
-                rules.frightened,
-                " target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target its immune to Acererak's gaze for the next 24 hours.",
+                { effect: 'gaze-fright' },
+                ". If a target's saving throw is successful or the effect ends for it, the target its immune to Acererak's gaze for the next 24 hours.",
+              ],
+              effects: [
+                {
+                  key: 'gaze-fright',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'wis' },
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  conditions: [rules.frightened],
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
             {
@@ -265,6 +302,7 @@ export default createPublicationMonsters({
                 onSuccess: 'half',
               },
               text: ['The saving throw is made against this magic.'],
+              effects: [],
             },
           ],
         },
@@ -634,6 +672,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ") from the dagger. The range of the spell increases to 90 feet but it targets only spiders that are beasts. Once this property is used, it can't be used again until the next dawn.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -707,6 +746,7 @@ export default createPublicationMonsters({
               { roll: '1d10' },
               " hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary.",
             ],
+            effects: [],
           },
         ],
       },

@@ -752,6 +752,7 @@ export default createPublicationMonsters({
               { roll: '1d8' },
               ' necrotic damage.',
             ],
+            effects: [],
           },
           {
             key: 'loping-glide',
@@ -835,7 +836,7 @@ export default createPublicationMonsters({
               'If the Rosselbuck jumps or glides at least 30 feet as part of its movement, it can then use this action to land on its feet in a space occupied by one or more other creatures. Each of these creatures must succeed on a Dexterity saving throw (',
               { dc: 'con', printed: 17 },
               ') or be knocked ',
-              rules.prone,
+              { effect: 'leap-prone' },
               ' and take 26 bludgeoning damage (6d6 + 5) and ',
               { roll: '1d4' },
               " necrotic damage. On a successful save, the creature takes only half the damage, isn't knocked ",
@@ -843,6 +844,15 @@ export default createPublicationMonsters({
               ", and is pushed 5 feet out of the Rosselbuck's space into an adjacent unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls ",
               rules.prone,
               " in the Rosselbuck's space.",
+            ],
+            effects: [
+              {
+                key: 'leap-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'con', printed: 17 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -864,12 +874,27 @@ export default createPublicationMonsters({
                 'The Rosselbuck releases an unnatural, terrifying howl. Each creature within 30 feet of the Rosselbuck that can hear the howl must succeed on a ',
                 { dc: 'str', save: 'wis' },
                 ' Wisdom saving throw or be ',
-                rules.frightened,
-                ' for 1 minute. Creatures who fail the saving throw are also ',
-                rules.restrained,
-                " until the end of the Rosselbuck's next turn. A ",
-                rules.frightened,
-                ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+                { effect: 'howl-frightened' },
+                '. Creatures who fail the saving throw are also ',
+                { effect: 'howl-restrained' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'howl-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'str' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
+                {
+                  key: 'howl-restrained',
+                  name: 'Restrained',
+                  lands: { on: 'save', save: 'wis', dc: 'str' },
+                  conditions: [rules.restrained],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
           ],
@@ -968,7 +993,20 @@ export default createPublicationMonsters({
             text: [
               'The songweaver sings a song infused with magic. Each song targets any number of creatures within 30 feet of the songweaver. A creature must be able to hear the songweaver sing in order to be affected by its song. Each time the songweaver takes this action, it can choose from one of the following effects: Dirge of Sorrow. All targeted creatures must make a ',
               { dc: 'cha' },
-              " Charisma saving throw or have disadvantage on attack rolls, ability checks, and saving throws made before the start of the songweaver's next turn.",
+              ' Charisma saving throw or ',
+              { effect: 'dirge' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dirge',
+                name: 'Dirge of Sorrow',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: [
+                  "have disadvantage on attack rolls, ability checks, and saving throws made before the start of the songweaver's next turn",
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1039,6 +1077,7 @@ export default createPublicationMonsters({
               { roll: '1d4' },
               ' psychic damage.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -1073,7 +1112,19 @@ export default createPublicationMonsters({
             text: [
               'The cursed slime splashes a sticky, foul-smelling residue on a creature within 30 feet of it that hits it with an attack. The target must succeed on a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw or become cursed until the end of the slime's next turn. Creatures under this curse have disadvantage on attack rolls and saving throws.",
+              ' Wisdom saving throw or become cursed ',
+              { effect: 'slime-curse' },
+            ],
+            effects: [
+              {
+                key: 'slime-curse',
+                name: 'Cursed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  'Creatures under this curse have disadvantage on attack rolls and saving throws.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
         ],
@@ -3286,6 +3337,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Saltfeather doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'skulker',
@@ -3339,7 +3391,19 @@ export default createPublicationMonsters({
               },
             },
             text: [
-              'On a successful hit, Saltfeather may spend a bonus action to grapple the target (escape DC 11). This is a silvered weapon.',
+              'On a successful hit, Saltfeather may spend a bonus action to grapple the target ',
+              { effect: 'hooked' },
+              '. This is a silvered weapon.',
+            ],
+            effects: [
+              {
+                key: 'hooked',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'dex', printed: 11 } },
+              },
             ],
           },
           {
@@ -3378,6 +3442,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'parry',
@@ -3629,6 +3694,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Snapshadow doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'standing-leap',
@@ -3751,6 +3817,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' or infected with a disease.',
             ],
+            effects: [],
           },
           {
             key: 'sneak-attack-1-turn',
@@ -3762,6 +3829,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Spleck doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'sticky-grip',
@@ -3816,10 +3884,19 @@ export default createPublicationMonsters({
               ' Constitution saving throw. On a failure, the target takes poison damage of ',
               { roll: '2d4' },
               ' and becomes ',
-              rules.poisoned,
+              { effect: 'skin-poisoned' },
               " until the end of Spleck's next turn. On a success, the target takes half as much damage and isn't ",
               rules.poisoned,
               '.',
+            ],
+            effects: [
+              {
+                key: 'skin-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
         ],

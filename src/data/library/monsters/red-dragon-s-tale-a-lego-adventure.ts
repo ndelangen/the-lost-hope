@@ -43,6 +43,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.purify_food_and_drink_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -81,6 +82,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Alax exhales fire.'],
+            effects: [],
           },
         ],
       },

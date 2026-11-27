@@ -866,6 +866,7 @@ export default createPublicationMonsters({
               "; 6th level (1 slot): Otto's ",
               refs.spells.irresistible_dance_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -877,6 +878,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -971,8 +973,20 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also ',
-              rules.grappled,
-              ' by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.',
+              { effect: 'adhesive-grappled' },
+              ' by it',
+              '.',
+            ],
+            effects: [
+              {
+                key: 'adhesive-grappled',
+                name: 'Adhered',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                text: ['Ability checks made to escape this grapple have disadvantage.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -994,6 +1008,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2584,6 +2599,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2653,6 +2669,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2673,6 +2690,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2684,6 +2702,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2715,6 +2734,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Jarlaxle doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'suave-defense',
@@ -3302,6 +3322,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4046,6 +4067,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -4070,12 +4092,29 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 15) and must succeed on a ',
+              { effect: 'tentacle-grappled' },
+              ' and must succeed on a ',
               { dc: 'int' },
               ' Intelligence saving throw or be ',
-              rules.stunned,
-              ' until this grapple ends.',
+              { effect: 'tentacle-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grappled',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
+              {
+                key: 'tentacle-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                lasts: { kind: 'until', text: ['this grapple ends'] },
+                conditions: [rules.stunned],
+              },
             ],
           },
           {
@@ -4106,14 +4145,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.psychic, addModifier: true }],
-                also: [
-                  'The creature is ',
-                  rules.stunned,
-                  ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
-                ],
+
+                also: ['The creature is ', { effect: 'blast-stunned' }, '.'],
               },
             },
             text: ['Nihiloor magically emits psychic energy.'],
+            effects: [
+              {
+                key: 'blast-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -4174,6 +4220,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5130,6 +5177,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'dex' },
               ' Dexterity saving throw, taking 2d6 fire damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -5661,6 +5709,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'gnome-cunning',
@@ -6377,6 +6426,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6877,6 +6927,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.true_seeing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'limited-magic-immunity',
@@ -6968,6 +7019,7 @@ export default createPublicationMonsters({
             text: [
               'When the statue drops to 0 hit points, it crumbles and is destroyed. The effect reaches creatures on the ground.',
             ],
+            effects: [],
           },
           {
             key: 'immutable-form',
@@ -7184,8 +7236,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' by Xanathar for 1 hour, or until Xanathar harms the creature. 2.',
+              { effect: 'charm-ray' },
+              ' by Xanathar',
+              ', or until Xanathar harms the creature. 2.',
+            ],
+            effects: [
+              {
+                key: 'charm-ray',
+                name: 'Charmed by Xanathar',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+                conditions: [rules.charmed],
+              },
             ],
           },
           {
@@ -7197,8 +7259,19 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 3.',
+              { effect: 'paralysis-ray' },
+              '.',
+              ' 3.',
+            ],
+            effects: [
+              {
+                key: 'paralysis-ray',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                conditions: [rules.paralyzed],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -7210,8 +7283,19 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 4.',
+              { effect: 'fear-ray' },
+              '.',
+              ' 4.',
+            ],
+            effects: [
+              {
+                key: 'fear-ray',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                conditions: [rules.frightened],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -7222,7 +7306,23 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'dex' },
-              " Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 5.",
+              ' Dexterity saving throw. On a failed save, ',
+              { effect: 'slowing-ray' },
+              '.',
+              ' 5.',
+            ],
+            effects: [
+              {
+                key: 'slowing-ray',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+                text: [
+                  "the target's speed is halved",
+                  ". In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both.",
+                ],
+              },
             ],
           },
           {
@@ -7235,6 +7335,7 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'con' },
               ' Constitution saving throw, taking 8d8 (average 36) necrotic damage on a failed save, or half as much damage on a successful one. 6.',
             ],
+            effects: [],
           },
           {
             key: 'telekinetic-ray',
@@ -7245,10 +7346,24 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'int', save: 'str' },
               ' Strength saving throw or Xanathar moves it up to 30 feet in any direction. It is ',
-              rules.restrained,
-              " by the ray's telekinetic grip until the start of Xanathar's next turn or until Xanathar is ",
-              rules.incapacitated,
+              { effect: 'telekinetic-grip' },
+              " by the ray's telekinetic grip",
               ". If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. Xanathar can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container. 7.",
+            ],
+            effects: [
+              {
+                key: 'telekinetic-grip',
+                name: 'Restrained by telekinetic grip',
+                lands: { on: 'save', save: 'str', dc: 'int' },
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the start of Xanathar's next turn or until Xanathar is ",
+                    rules.incapacitated,
+                  ],
+                },
+                conditions: [rules.restrained],
+              },
             ],
           },
           {
@@ -7260,8 +7375,17 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or fall asleep and remain ',
-              rules.unconscious,
-              ' for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead. 8.',
+              { effect: 'sleep-ray' },
+              '. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead. 8.',
+            ],
+            effects: [
+              {
+                key: 'sleep-ray',
+                name: 'Asleep',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                conditions: [rules.unconscious],
+              },
             ],
           },
           {
@@ -7273,10 +7397,28 @@ export default createPublicationMonsters({
               'The targeted creature must make a ',
               { dc: 'int', save: 'dex' },
               ' Dexterity saving throw. On a failed save, the creature begins to turn to stone and is ',
-              rules.restrained,
-              '. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is ',
-              rules.petrified,
-              ' until freed by the greater restoration spell or other magic. 9.',
+              { effect: 'petrify-restrained' },
+              '. On a failure, the creature is ',
+              { effect: 'petrify-petrified' },
+              '. 9.',
+            ],
+            effects: [
+              {
+                key: 'petrify-restrained',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.restrained],
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'petrify-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                  ends: { cure: ['freed by the greater restoration spell or other magic'] },
+                },
+              },
             ],
           },
           {
@@ -7289,6 +7431,7 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'dex' },
               ' Dexterity saving throw or take 10d8 (average 45) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it. 10.',
             ],
+            effects: [],
           },
           {
             key: 'death-ray',
@@ -7300,6 +7443,7 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'dex' },
               ' Dexterity saving throw or take 10d10 (average 55) necrotic damage. The target dies if the ray reduces it to 0 hit points.',
             ],
+            effects: [],
           },
         ],
         legendary: {

@@ -520,6 +520,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -574,6 +575,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition or dies, or when the aurumach uses a bonus action to end it.',
             ],
+            effects: [],
           },
           {
             key: 'invoke-weakness',
@@ -583,13 +585,24 @@ export default createPublicationMonsters({
             text: [
               'The aurumach attempts to use its magic to weaken the defenses of a creature it can see within 120 feet of itself. The target must succeed on a Wisdom saving throw (',
               { dc: 'int' },
-              ") or become cursed until the end of the aurumach's next turn. The next time the aurumach hits the cursed target with a ",
+              ') or become ',
+              { effect: 'weakness-cursed' },
+              '. The next time the aurumach hits the cursed target with a ',
               { ability: 'manifested-blade' },
               ' or ',
               { ability: 'gleaming-ray' },
               ' attack, the target takes an extra ',
               { roll: '6d8' },
               ' force damage.',
+            ],
+            effects: [
+              {
+                key: 'weakness-cursed',
+                name: 'Cursed',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                text: ['Cursed.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -636,6 +649,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hold_person_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dive-attack',
@@ -648,8 +662,17 @@ export default createPublicationMonsters({
               ') or take ',
               { roll: '4d6' },
               ' piercing damage and have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'dive-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dive-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -744,6 +767,7 @@ export default createPublicationMonsters({
               refs.spells.scrying_srd_5_1,
               ' (as an action)',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -824,10 +848,22 @@ export default createPublicationMonsters({
               '). On a failed save, the creature takes ',
               { roll: '10d6' },
               ' psychic damage and has the ',
-              rules.charmed,
-              ' condition until the end of its next turn. A creature ',
-              rules.charmed,
-              ' in this way treats its allies as foes, and the colors of its body and equipment become shades of gray. On a successful save, the creature takes half as much damage only.',
+              { effect: 'miasma-charmed' },
+              '. On a successful save, the creature takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'miasma-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: [
+                  'A creature ',
+                  rules.charmed,
+                  ' in this way treats its allies as foes, and the colors of its body and equipment become shades of gray.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -873,6 +909,7 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' necrotic damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1701,6 +1738,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition, it can suppress or resume this aura at the start of its turn (no action required).',
             ],
+            effects: [],
           },
           {
             key: 'siege-monster',
@@ -1889,11 +1927,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5 },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.bludgeoning }],
-                also: ['The creature has the ', rules.prone, ' condition.'],
+
+                also: ['The creature has the ', { effect: 'charge-prone' }, '.'],
               },
             },
             text: [
               'If the equinal moves at least 30 feet in a straight line toward a creature and ends within 5 feet of it, that creature must make a saving throw.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1935,8 +1983,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'rock-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'rock-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1948,8 +2005,17 @@ export default createPublicationMonsters({
               'The equinal lets out a booming shout. Each creature within 30 feet of the equinal must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or have the ',
-              rules.stunned,
-              " condition until the end of the equinal's next turn.",
+              { effect: 'shout-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'shout-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -2423,16 +2489,25 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic }],
+
                 also: [
                   'The target has the ',
-                  rules.incapacitated,
-                  " condition for 1 minute. At the end of each of the target's turns, it can repeat the saving throw, ending the ",
-                  rules.incapacitated,
-                  " condition on itself on a success. A target that succeeds on the saving throw becomes immune to this law bender's Power of Authority for 24 hours.",
+                  { effect: 'authority-incapacitated' },
+                  ". A target that succeeds on the saving throw becomes immune to this law bender's Power of Authority for 24 hours.",
                 ],
               },
             },
             text: ['The law bender targets a creature it can see within 60 feet of itself.'],
+            effects: [
+              {
+                key: 'authority-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
           {
             key: 'spatial-loophole',
@@ -3089,6 +3164,7 @@ export default createPublicationMonsters({
               ' (self only), ',
               refs.spells.protection_from_evil_and_good_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'axiomatic-mind',
@@ -3156,8 +3232,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or have the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn.',
+              { effect: 'pincer-incapacitated' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'pincer-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -3174,8 +3259,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              " condition (escape DC 14). Until this grapple ends, the hexton can't use this tentacle against other targets. The hexton has six tentacles, each of which can grapple one target.",
+              { effect: 'tentacle-grappled' },
+              ". Until this grapple ends, the hexton can't use this tentacle against other targets. The hexton has six tentacles, each of which can grapple one target.",
+            ],
+            effects: [
+              {
+                key: 'tentacle-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -3188,6 +3283,7 @@ export default createPublicationMonsters({
               { dc: 'int', printed: 10 },
               " + the spell's level). On a success, the spell fails and has no effect.",
             ],
+            effects: [],
           },
           {
             key: 'lightning-rebuke',
@@ -3207,6 +3303,7 @@ export default createPublicationMonsters({
             text: [
               'When a creature within 120 feet of the hexton damages it, the hexton magically retaliates with an arc of lightning. The creature must make a saving throw.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3392,6 +3489,7 @@ export default createPublicationMonsters({
               refs.spells.scrying_srd_5_1,
               ' (as an action)',
             ],
+            effects: [],
           },
           {
             key: 'acidic-secretions',
@@ -3414,6 +3512,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' condition from itself.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -3463,6 +3562,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The kelubar spits acid in a 60-foot-long, 5-foot-wide Line.'],
+            effects: [],
           },
           {
             key: 'summon-demodand',
@@ -3484,8 +3584,17 @@ export default createPublicationMonsters({
               'The kelubar magically creates a cloud of greenish fog that fills a 20-foot-radius sphere centered on a point within 120 feet of itself. The cloud remains for 1 minute or until the kelubar uses this bonus action again. The cloud is 2 and difficult terrain. Any creature that starts its turn in the cloud or enters the cloud for the first time on a turn must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition until the end of its next turn.',
+              { effect: 'fog-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'fog-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -4620,6 +4729,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sending_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'axiomatic-mind',
@@ -4675,8 +4785,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              " condition (escape DC 14). Until this grapple ends, the septon can't use this tentacle against other targets. The septon has seven tentacles, each of which can grapple one target.",
+              { effect: 'tentacle-grappled' },
+              ". Until this grapple ends, the septon can't use this tentacle against other targets. The septon has seven tentacles, each of which can grapple one target.",
+            ],
+            effects: [
+              {
+                key: 'tentacle-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -4691,14 +4811,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cube, size: 30 } },
               onFail: {
                 damage: [{ dice: '6d10', type: rules.lightning }],
-                also: ['The creature has the ', rules.stunned, ' condition for 1 minute.'],
+
+                also: [' The creature has the ', { effect: 'network-stunned' }, '.'],
               },
               onSuccess: 'half',
             },
             text: [
-              'The septon conjures a field of electricity that fills a 30-foot cube originating from itself before dissipating.    A ',
-              rules.stunned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              'The septon conjures a field of electricity that fills a 30-foot cube originating from itself before dissipating.',
+            ],
+            effects: [
+              {
+                key: 'network-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -4761,6 +4890,7 @@ export default createPublicationMonsters({
               refs.spells.scrying_srd_5_1,
               ' (as an action)',
             ],
+            effects: [],
           },
           {
             key: 'boundless-movement',
@@ -4772,6 +4902,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' condition from itself.',
             ],
+            effects: [],
           },
           {
             key: 'jailer',
@@ -4787,6 +4918,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'liquefaction-ritual',
@@ -4798,6 +4930,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' condition despite any immunity to that condition, it has immunity to all damage, and any curse affecting it is suspended.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -4816,7 +4949,18 @@ export default createPublicationMonsters({
             text: [
               'A creature that touches the shator or hits it with a melee attack while within 5 feet of it must succeed on a ',
               { dc: 'dex', printed: 17 },
-              ' Dexterity saving throw or have disadvantage on attack rolls and its speed halved until the end of its next turn.',
+              ' Dexterity saving throw or have ',
+              { effect: 'secretions-slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'secretions-slowed',
+                name: 'Numbed',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 17 },
+                text: ['disadvantage on attack rolls and its speed halved'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -4851,8 +4995,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or have the ',
-              rules.paralyzed,
-              " condition until the start of the shator's next turn.",
+              { effect: 'bite-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bite-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -4880,12 +5033,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.line, size: 100, width: 5 } },
               onFail: {
                 damage: [{ dice: '9d8', type: rules.acid }],
-                also: ['The creature has the ', rules.paralyzed, ' condition for 1 minute.'],
+
+                also: [' The creature has the ', { effect: 'spray-paralyzed' }, '.'],
               },
               onSuccess: 'half',
             },
-            text: [
-              'The shator exhales a spray of slime in a line 100 feet long and 5 feet wide.    The creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+            text: ['The shator exhales a spray of slime in a line 100 feet long and 5 feet wide.'],
+            effects: [
+              {
+                key: 'spray-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -5745,7 +5907,25 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition. The target must succeed on a ',
               { dc: 'con', save: 'cha' },
-              " Charisma saving throw or become cursed. The cursed target's Charisma decreases by 1 after each hour, as its head takes on fiendish aspects, and its Charisma can't increase. The curse doesn't advance while the target is in sunlight or the area of a daylight spell. When the cursed target's Charisma becomes 2, the target dies, and its head tears from its body and becomes a new vargouille reflection. Casting remove curse, greater restoration, or a similar spell on the target before the transformation is complete ends the curse and restores the target's Charisma.",
+              ' Charisma saving throw or become ',
+              { effect: 'abyssal-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'abyssal-curse',
+                name: 'Abyssal curse',
+                lands: { on: 'save', save: 'cha', dc: 'con' },
+                text: [
+                  "The cursed target's Charisma decreases by 1 after each hour, as its head takes on fiendish aspects, and its Charisma can't increase. The curse doesn't advance while the target is in sunlight or the area of a daylight spell. When the cursed target's Charisma becomes 2, the target dies, and its head tears from its body and becomes a new vargouille reflection.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    "Casting remove curse, greater restoration, or a similar spell on the target before the transformation is complete ends the curse and restores the target's Charisma.",
+                  ],
+                },
+              },
             ],
           },
           {
@@ -5764,15 +5944,30 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic }],
+
                 also: [
                   'The target has the ',
-                  rules.frightened,
-                  " condition for 1 hour or until the vargouille loses concentration (as if concentrating on a spell). If the target's saving throw is successful or if the effect ends on it, the target is immune to the Horrific Reflection of all vargouille reflections for 1 hour.",
+                  { effect: 'reflection-frightened' },
+                  ". If the target's saving throw is successful or if the effect ends on it, the target is immune to the Horrific Reflection of all vargouille reflections for 1 hour.",
                 ],
               },
             },
             text: [
               "The vargouille's head mimics that of a Humanoid the vargouille can see within 120 feet of itself.",
+            ],
+            effects: [
+              {
+                key: 'reflection-frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '1 hour or until the vargouille loses concentration (as if concentrating on a spell)',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

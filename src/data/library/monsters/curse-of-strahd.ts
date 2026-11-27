@@ -3778,6 +3778,7 @@ export default createPublicationMonsters({
               refs.spells.time_stop_srd_5_1,
               ' *The archmage casts these spells on itself before combat.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -4187,6 +4188,7 @@ export default createPublicationMonsters({
             text: [
               "Any creature within 10 feet of Rahadin that isn't protected by a mind blank spell hears in its mind the screams of the thousands of people Rahadin has killed. As a bonus action, Rahadin can force all creatures that can hear the screams to make a saving throw.",
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -4198,6 +4200,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'mask-of-the-wild',
@@ -4218,6 +4221,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' darts.',
             ],
+            effects: [],
           },
           {
             key: 'scimitar',
@@ -5190,6 +5194,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -5338,6 +5343,7 @@ export default createPublicationMonsters({
               '; 9th level (1 slot): ',
               refs.spells.time_stop_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',

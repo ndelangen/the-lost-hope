@@ -228,6 +228,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sending_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-command',
@@ -241,6 +242,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition on itself.',
             ],
+            effects: [],
           },
           {
             key: 'death-throes',
@@ -254,13 +256,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 } },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.lightning }],
-                also: ['Is ', rules.stunned, ' until the end of its next turn.'],
+
+                also: ['Is ', { effect: 'throes-stunned' }, '.'],
               },
             },
             text: [
               "When the draconian is reduced to 0 hit points, its magical essence lashes out as a ball of lightning at the closest creature within 30 feet of it before arcing out to up to two other creatures within 15 feet of the first. On a successful save, the creature takes half as much damage and isn't ",
               rules.stunned,
               '.',
+            ],
+            effects: [
+              {
+                key: 'throes-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -312,11 +324,20 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '). On a failed save, the creature takes ',
               { roll: '6d6' },
-              ' poison damage and gains 1 level of ',
-              rules.exhaustion,
+              ' poison damage and ',
+              { effect: 'breath-exhaustion' },
               ". On a successful save, the creature takes half as much damage, doesn't gain ",
               rules.exhaustion,
               ", and is immune to all draconians' Noxious Breath for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'breath-exhaustion',
+                name: 'Exhaustion',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                text: ['gains 1 level of ', rules.exhaustion],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -836,6 +857,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sending_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-command',
@@ -849,6 +871,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition on itself.',
             ],
+            effects: [],
           },
           {
             key: 'death-throes',
@@ -862,13 +885,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 } },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.lightning }],
-                also: ['Is ', rules.stunned, ' until the end of its next turn.'],
+
+                also: ['Is ', { effect: 'throes-stunned' }, '.'],
               },
             },
             text: [
               "When Hask is reduced to 0 hit points, its magical essence lashes out as a ball of lightning at the closest creature within 30 feet of it before arcing out to up to two other creatures within 15 feet of the first. On a successful save, the creature takes half as much damage and isn't ",
               rules.stunned,
               '.',
+            ],
+            effects: [
+              {
+                key: 'throes-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -920,11 +953,20 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '). On a failed save, the creature takes ',
               { roll: '6d6' },
-              ' poison damage and gains 1 level of ',
-              rules.exhaustion,
+              ' poison damage and ',
+              { effect: 'breath-exhaustion' },
               ". On a successful save, the creature takes half as much damage, doesn't gain ",
               rules.exhaustion,
               ", and is immune to all draconians' Noxious Breath for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'breath-exhaustion',
+                name: 'Exhaustion',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                text: ['gains 1 level of ', rules.exhaustion],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1488,6 +1530,7 @@ export default createPublicationMonsters({
               refs.spells.time_stop_srd_5_1,
               ' *The archmage casts these spells on itself before combat.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1551,9 +1594,22 @@ export default createPublicationMonsters({
             text: [
               'When the subject is reduced to 0 hit points, it dissolves into acid that splashes on those around it. Each creature within 5 feet of the subject must succeed on a Dexterity saving throw (',
               { dc: 'con' },
-              ') or be covered in acid for 1 minute. A creature covered in the acid takes ',
-              { roll: '2d6' },
-              ' acid damage at the start of each of its turns. A creature can use its action to scrape or wash the acid off itself or another creature.',
+              ') or be ',
+              { effect: 'acid-covered' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'acid-covered',
+                name: 'Covered in acid',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                text: [
+                  'A creature covered in the acid takes ',
+                  { roll: '2d6' },
+                  ' acid damage at the start of each of its turns. A creature can use its action to scrape or wash the acid off itself or another creature.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -1566,6 +1622,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ", it subtracts up to 100 feet from the fall when calculating the fall's damage, and it can move up to 2 feet horizontally for every 1 foot it descends.",
             ],
+            effects: [],
           },
           {
             key: 'claw',
@@ -1585,7 +1642,24 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or be infected with a disease—a minuscule slaad egg. A Humanoid host can carry only one slaad egg at a time. Over three months, the egg moves to the chest cavity, gestates, and forms a slaad tadpole. In the 24-hour period before the tadpole is born, the host feels unwell; its speed is halved; and it has disadvantage on attack rolls, ability checks, and saving throws. At birth, the tadpole chews its way through vital organs and out of the host's chest in 1 round, killing the host in the process. If the disease is cured before the tadpole's emergence, the tadpole disintegrates.",
+              ' Constitution saving throw or be infected with a disease—a minuscule slaad egg. A Humanoid host can carry only one slaad egg at a time. ',
+              { effect: 'slaad-egg' },
+            ],
+            effects: [
+              {
+                key: 'slaad-egg',
+                name: 'Slaad egg',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "Over three months, the egg moves to the chest cavity, gestates, and forms a slaad tadpole. In the 24-hour period before the tadpole is born, the host feels unwell; its speed is halved; and it has disadvantage on attack rolls, ability checks, and saving throws. At birth, the tadpole chews its way through vital organs and out of the host's chest in 1 round, killing the host in the process.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    "If the disease is cured before the tadpole's emergence, the tadpole disintegrates",
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -2290,7 +2364,19 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con', printed: 15 },
-              ' Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the greater restoration spell or other magic.',
+              ' Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. ',
+              { effect: 'hp-max-reduced' },
+            ],
+            effects: [
+              {
+                key: 'hp-max-reduced',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                text: [
+                  'The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the greater restoration spell or other magic.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2458,6 +2544,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put it to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'child-of-the-sea',
@@ -2565,8 +2652,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 15). The drone has two claws, each of which can grapple only one target.',
+              { effect: 'grabbed' },
+              '. The drone has two claws, each of which can grapple only one target.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -2581,13 +2678,8 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.line, size: 20, width: 5 } },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.lightning }],
-                also: [
-                  'The creature is ',
-                  rules.restrained,
-                  ' by the gel, which hardens into crystal. The creature is ',
-                  rules.restrained,
-                  ' until the crystal is destroyed. The crystal has AC 15, 15 hit points, immunity to poison and psychic damage, and vulnerability to thunder damage.',
-                ],
+
+                also: [{ effect: 'crystal-bound' }, ' by the gel, which hardens into crystal.'],
               },
               onSuccess: 'half',
             },
@@ -2595,6 +2687,18 @@ export default createPublicationMonsters({
               "The drone spits crackling gel.    A creature that succeeds isn't ",
               rules.restrained,
               '.',
+            ],
+            effects: [
+              {
+                key: 'crystal-bound',
+                name: 'Bound in crystal',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                text: [
+                  'The crystal has AC 15, 15 hit points, immunity to poison and psychic damage, and vulnerability to thunder damage.',
+                ],
+                lasts: { kind: 'until', text: ['the crystal is destroyed'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2712,6 +2816,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.revivify_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2767,9 +2872,22 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: [
-              'Kansaldi hurls magical flames.    A target that fails the save catches fire; until a creature takes an action to put out the fire, the target takes ',
-              { roll: '1d10' },
-              " fire damage at the start of each of its turns. A target that succeeds on the save doesn't catch fire.",
+              'Kansaldi hurls magical flames.    A target that fails the save catches fire; ',
+              { effect: 'burning' },
+              ". A target that succeeds on the save doesn't catch fire.",
+            ],
+            effects: [
+              {
+                key: 'burning',
+                name: 'Burning',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Takes ',
+                  { roll: '1d10' },
+                  ' fire damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until', text: ['a creature takes an action to put out the fire'] },
+              },
             ],
           },
           {
@@ -2813,9 +2931,22 @@ export default createPublicationMonsters({
             text: [
               'When the draconian is reduced to 0 hit points, it dissolves into acid that splashes on those around it. Each creature within 5 feet of the draconian must succeed on a ',
               { dc: 'con', save: 'dex' },
-              ' Dexterity saving throw or be covered in acid for 1 minute. A creature covered in the acid takes acid damage equal to ',
-              { roll: '2d6' },
-              ' at the start of each of its turns. A creature can use its action to scrape or wash the acid off itself or another creature.',
+              ' Dexterity saving throw or be ',
+              { effect: 'acid-covered' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'acid-covered',
+                name: 'Covered in acid',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                text: [
+                  'A creature covered in the acid takes acid damage equal to ',
+                  { roll: '2d6' },
+                  ' at the start of each of its turns. A creature can use its action to scrape or wash the acid off itself or another creature.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -2828,6 +2959,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ", it subtracts up to 100 feet from the fall when calculating the fall's damage, and it can move up to 2 feet horizontally for every 1 foot it descends.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2840,12 +2972,17 @@ export default createPublicationMonsters({
               ' attacks. If both attacks hit the same creature, the target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              " until the end of the target's next turn. While ",
-              rules.poisoned,
-              ' in this way, the target is also ',
-              rules.paralyzed,
+              { effect: 'drone-poison' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'drone-poison',
+                name: 'Poisoned and paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -3388,6 +3525,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_force_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'toxic-mastery',
@@ -3437,13 +3575,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 } },
               onFail: {
                 damage: [{ dice: '6d12', type: rules.poison }],
-                also: ['Is ', rules.poisoned, ' until the start of its next turn.'],
+
+                also: [{ effect: 'miasma-poisoned' }],
               },
             },
             text: [
               "Lohezet magically conjures a billowing cloud of purple fog in a 20-foot-radius sphere centered on a point within 120 feet of himself. The area within the sphere is 2, and when a creature starts its turn in the sphere or enters the sphere for the first time on a turn, On a successful save, the creature takes half as much damage and isn't ",
               rules.poisoned,
               '. The cloud lasts for 1 minute, until Lohezet ends it early (no action required), or until Lohezet uses this action again. A strong wind disperses the cloud.',
+            ],
+            effects: [
+              {
+                key: 'miasma-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
@@ -3468,6 +3616,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -3509,6 +3658,7 @@ export default createPublicationMonsters({
               refs.spells.hold_person_srd_5_1,
               ' (cast at 3rd level)',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3536,6 +3686,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', he and Undead creatures of his choice within 60 feet of him are immune to features that turn Undead.',
             ],
+            effects: [],
           },
           {
             key: 'unusual-nature',
@@ -3593,6 +3744,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'word-of-death',
@@ -3606,6 +3758,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
         legendary: {
@@ -3619,8 +3772,17 @@ export default createPublicationMonsters({
                 "Soth moves up to his speed or commands a mount he is riding to move up to its speed. The movement from this action doesn't provoke opportunity attacks. If he or his mount moves within 5 feet of a creature during this movement, he can force the creature to make a ",
                 { dc: 'str' },
                 ' Strength saving throw. The creature is knocked ',
-                rules.prone,
+                { effect: 'knocked-prone' },
                 ' unless it succeeds on the saving throw.',
+              ],
+              effects: [
+                {
+                  key: 'knocked-prone',
+                  name: 'Prone',
+                  lands: { on: 'save', save: 'str', dc: 'str' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {
@@ -4164,6 +4326,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put it to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'child-of-the-sea',
@@ -4617,6 +4780,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'death-throes',
@@ -4626,7 +4790,20 @@ export default createPublicationMonsters({
             text: [
               'When Virruza is reduced to 0 hit points, he turns into a puddle of acid and splashes acid on those around him. Each creature within 5 feet of him must succeed on a ',
               { dc: 'cha', save: 'dex' },
-              ' Dexterity saving throw or be covered in acid for 1 minute. A creature can use its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d6 (average 7) acid damage at the start of each of its turns.',
+              ' Dexterity saving throw or be ',
+              { effect: 'acid-covered' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'acid-covered',
+                name: 'Covered in acid',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                text: [
+                  'A creature can use its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d6 (average 7) acid damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {

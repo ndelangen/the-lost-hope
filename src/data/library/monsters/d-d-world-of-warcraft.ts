@@ -48,8 +48,17 @@ export default createPublicationMonsters({
               '). On a failure, it takes ',
               { roll: '3d6' },
               ' psychic damage and has the ',
-              rules.frightened,
-              ' condition until the start of its next turn.',
+              { effect: 'void-fright' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'void-fright',
+                name: 'Frightened by the void',
+                lands: { on: 'save', save: 'int', dc: 'dex' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -110,14 +119,24 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 30 }, range: 120 },
               onFail: {
                 damage: [{ dice: '10d10', type: rules.psychic }],
-                also: [
-                  "Until the end of the target's next turn, the target's Speed is halved; the target can't take Reactions; and it can take either an action or a Bonus Action on its turn, not both.",
-                ],
+
+                also: [{ effect: 'grasp-slowed' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'grasp-slowed',
+                name: 'Grasp of emptiness',
+                lands: { on: 'failed-save' },
+                text: [
+                  "the target's Speed is halved; the target can't take Reactions; and it can take either an action or a Bonus Action on its turn, not both",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'void-stealth',
@@ -129,6 +148,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' condition until the start of her next turn.',
             ],
+            effects: [],
           },
           {
             key: 'spatial-rift',
@@ -3173,9 +3193,19 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '3d12', type: rules.necrotic }],
-                also: ["The target can't regain Hit Points until the end of its next turn."],
+
+                also: [{ effect: 'dread-no-healing' }],
               },
             },
+            effects: [
+              {
+                key: 'dread-no-healing',
+                name: "Can't regain Hit Points",
+                lands: { on: 'failed-save' },
+                text: ["The target can't regain Hit Points"],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'legendary-resistance',
@@ -3257,6 +3287,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'demon-form',
@@ -3284,14 +3315,28 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'Illidan can see' },
                 onFail: {
                   damage: [{ dice: '6d10', type: rules.fire }],
-                  also: ['The target starts burning.'],
+
+                  also: [{ effect: 'burning' }],
                 },
                 onSuccess: 'half',
               },
               text: [
-                'A target burning from this action takes ',
-                { roll: '1d12' },
-                " Fire damage at the start of each of its turns instead of the normal burning damage. Failure or Success: Illidan can't take this action again until the start of his next turn.",
+                "Failure or Success: Illidan can't take this action again until the start of his next turn.",
+              ],
+              effects: [
+                {
+                  key: 'burning',
+                  name: 'Burning',
+                  lands: { on: 'failed-save' },
+                  text: [
+                    'The target starts burning',
+                    '. ',
+                    'A target burning from this action takes ',
+                    { roll: '1d12' },
+                    ' Fire damage at the start of each of its turns instead of the normal burning damage',
+                  ],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {
@@ -3311,6 +3356,7 @@ export default createPublicationMonsters({
               text: [
                 "Failure or Success: Illidan can't take this action again until the start of his next turn",
               ],
+              effects: [],
             },
             {
               key: 'strike',
@@ -3440,6 +3486,7 @@ export default createPublicationMonsters({
                 { roll: '3d8' },
                 ' Fire damage. Success: Half damage.',
               ],
+              effects: [],
             },
             {
               key: 'strike',
@@ -4063,10 +4110,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d10', type: rules.necrotic, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.frightened,
-              ' condition until the end of its next turn.',
+            text: ['The target has the ', { effect: 'pistol-fright' }, '.'],
+            effects: [
+              {
+                key: 'pistol-fright',
+                name: 'Frightened',
+                lands: { on: 'hit' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -4083,14 +4135,26 @@ export default createPublicationMonsters({
             },
             text: [
               'The target has the ',
-              rules.poisoned,
-              ' condition. At the end of each of its turns, the target makes a ',
+              { effect: 'cursed-bullet' },
+              '. At the end of each of its turns, the target makes a ',
               { dc: 'int', save: 'con' },
-              ' Constitution saving throw, ending the effect on a success. After 1 minute, it succeeds automatically. While ',
-              rules.poisoned,
-              ', the target takes Poison damage equal to ',
-              { roll: '1d10' },
-              ' at the start of each of its turns.',
+              ' Constitution saving throw, ending the effect on a success. After 1 minute, it succeeds automatically.',
+            ],
+            effects: [
+              {
+                key: 'cursed-bullet',
+                name: 'Cursed bullet',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  ', the target takes Poison damage equal to ',
+                  { roll: '1d10' },
+                  ' at the start of each of its turns',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -4110,6 +4174,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4384,6 +4449,7 @@ export default createPublicationMonsters({
             text: [
               'Trigger: An enemy the naga can see enters a space within 5 feet of the naga. Response:',
             ],
+            effects: [],
           },
         ],
       },
@@ -4425,6 +4491,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               ' plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the crypt fiend drops to 1 Hit Point instead.',
             ],
+            effects: [],
           },
           {
             key: 'web-walker',
@@ -4484,12 +4551,29 @@ export default createPublicationMonsters({
             },
             text: [
               'Success: No damage. A target that fails the save has the ',
-              rules.restrained,
-              ' condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Necrotic, Poison, and Psychic damage). While ',
-              rules.restrained,
-              ', the target takes ',
-              { roll: '2d10' },
-              ' Necrotic damage at the start of each of its turns.',
+              { effect: 'necrotic-web' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'necrotic-web',
+                name: 'Caught in the web',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                text: [
+                  'While ',
+                  rules.restrained,
+                  ', the target takes ',
+                  { roll: '2d10' },
+                  ' Necrotic damage at the start of each of its turns',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Necrotic, Poison, and Psychic damage)',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -5892,6 +5976,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -5929,8 +6014,17 @@ export default createPublicationMonsters({
               "The target suffers one of the following effects of Mograine's choice: ",
               rules.blinded,
               '. The target has the ',
-              rules.blinded,
-              ' condition until the end of its next turn.',
+              { effect: 'crusader-blind' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'crusader-blind',
+                name: 'Blinded',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -6248,6 +6342,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -6306,9 +6401,27 @@ export default createPublicationMonsters({
             text: [
               "If the target is a creature and doesn't already have a dread wound, it must succeed on a ",
               { dc: 'dex', save: 'con' },
-              ' Constitution saving throw or receive a dread wound. While it has a dread wound, the target loses ',
-              { roll: '3d6' },
-              ' Hit Points at the start of each of its turns. The wound closes after 1 minute or after a spell restores Hit Points to the target.',
+              ' Constitution saving throw or receive ',
+              { effect: 'dread-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dread-wound',
+                name: 'Dread wound',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                text: [
+                  'While it has a dread wound, the target loses ',
+                  { roll: '3d6' },
+                  ' Hit Points at the start of each of its turns',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: {
+                  cure: [
+                    'The wound closes after 1 minute or after a spell restores Hit Points to the target',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -6325,6 +6438,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'shadow-step',
@@ -6359,8 +6473,17 @@ export default createPublicationMonsters({
                 ', any creature other than Sylvanas that starts its turn in this area or enters it for the first time on a turn. Failure: Psychic damage of ',
                 { roll: '3d6' },
                 ', and the creature has the ',
-                rules.blinded,
-                " condition until the end of its next turn. Failure or Success: Sylvanas can't take this action again until the start of her next turn.",
+                { effect: 'veil-blind' },
+                ". Failure or Success: Sylvanas can't take this action again until the start of her next turn.",
+              ],
+              effects: [
+                {
+                  key: 'veil-blind',
+                  name: 'Blinded by darkness',
+                  lands: { on: 'save', save: 'con', dc: 'dex' },
+                  conditions: [rules.blinded],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],

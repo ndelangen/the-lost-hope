@@ -151,6 +151,7 @@ export default createPublicationMonsters({
               ' (self only), ',
               refs.spells.project_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-death',
@@ -239,15 +240,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120 },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.psychic }],
-                also: [
-                  'Have the ',
-                  rules.frightened,
-                  " condition until the start of Skall's next turn.",
-                ],
+
+                also: ['Have the ', { effect: 'death-knell-fear' }, ' condition.'],
               },
             },
             text: [
               "Skall points his finger at one creature he can see within 120 feet of himself, filling the target's mind with visions of death and the plangent toll of an iron bell.",
+            ],
+            effects: [
+              {
+                key: 'death-knell-fear',
+                name: 'Frightened by death knell',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -276,6 +283,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'baleful-counterspell',
@@ -289,6 +297,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' necrotic damage if the spell fails.',
             ],
+            effects: [],
           },
           {
             key: 'near-death-experience',

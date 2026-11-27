@@ -87,8 +87,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 18) from one of two hands.',
+              { effect: 'slam-grappled' },
+              ' from one of two hands.',
+            ],
+            effects: [
+              {
+                key: 'slam-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -106,10 +116,18 @@ export default createPublicationMonsters({
               ' bludgeoning damage plus ',
               { roll: '2d6' },
               ' lightning damage and has the ',
-              rules.restrained,
-              ' condition. While ',
-              rules.restrained,
-              ', the target is suffocating.',
+              { effect: 'crush-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'crush-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.restrained],
+                text: ['While ', rules.restrained, ', the target is suffocating.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -125,8 +143,17 @@ export default createPublicationMonsters({
               '). On a failure, a target takes ',
               { roll: '2d6', mod: 'str' },
               ' bludgeoning damage and has the ',
-              rules.prone,
-              ' condition. On a success, a target takes half damage only.',
+              { effect: 'throw-prone' },
+              '. On a success, a target takes half damage only.',
+            ],
+            effects: [
+              {
+                key: 'throw-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -140,8 +167,17 @@ export default createPublicationMonsters({
               '). On a failure, a target takes ',
               { roll: '4d6' },
               ' bludgeoning damage and has the ',
-              rules.prone,
-              ' condition. On a failure or success, the target moves to the nearest unoccupied space.',
+              { effect: 'leap-prone' },
+              '. On a failure or success, the target moves to the nearest unoccupied space.',
+            ],
+            effects: [
+              {
+                key: 'leap-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -391,15 +427,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 }, range: 30 },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.thunder }],
-                also: [
-                  'The creature has the ',
-                  rules.deafened,
-                  " condition until the start of the echo's next turn.",
-                ],
+
+                also: ['The creature has the ', { effect: 'scream-deafened' }, '.'],
               },
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [
+              {
+                key: 'scream-deafened',
+                name: 'Deafened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'automated-self-preservation',

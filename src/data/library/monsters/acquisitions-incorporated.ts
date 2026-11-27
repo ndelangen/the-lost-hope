@@ -66,10 +66,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 19). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'grabbed' },
               ", and the ancient deep crow can't use its mandibles on another target.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 19 } },
+              },
             ],
           },
           {
@@ -102,6 +110,7 @@ export default createPublicationMonsters({
             text: [
               'The ancient deep crow releases an ear-splitting caw. Only creatures able to hear the caw are affected.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -132,11 +141,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'knocked-prone' }, '.'],
                 },
               },
               text: [
                 'The ancient deep crow beats its wings. The ancient deep crow can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'knocked-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -1385,6 +1404,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.legend_lore_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-strike',
@@ -1407,6 +1427,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1943,6 +1964,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'second-story-work',
@@ -1965,6 +1987,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Viari doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
