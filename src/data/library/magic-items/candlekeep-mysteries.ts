@@ -86,6 +86,17 @@ export default createMagicItems({
         'After making a successful unarmed strike while wearing these gloves, you can use the gloves to deal an extra 2d10 force damage to the target, and you regain a number of hit points equal to the force damage dealt. Alternatively, instead of regaining hit points in this way, you can choose to gain advantage on one attack roll, ability check, or saving throw you make before the end of your next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'soul-advantage',
+        name: 'Soul-caught advantage',
+        lands: { on: 'use' },
+        text: [
+          'you can choose to gain advantage on one attack roll, ability check, or saving throw you make before the end of your next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.candlekeep_mysteries,
   },
   nether_scroll_of_azumar: {
@@ -186,6 +197,17 @@ export default createMagicItems({
       [
         "If you expend the staff's last charge, roll a d20. On a roll of 9 or lower, the staff becomes a nonmagical quarterstaff that breaks the first time it scores a hit and deals damage. On a roll of 10 or higher, the staff regains 1d6 of its expended charges.",
       ],
+    ],
+    effects: [
+      {
+        key: 'altered-outcome',
+        name: 'Altered Outcome d4',
+        lands: { on: 'use' },
+        text: [
+          'The recipient can roll this d4 and add the number rolled to one ability check, attack roll, damage roll, or saving throw it makes before the start of your next turn. If this extra die is not used before then, it is lost.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.candlekeep_mysteries,
   },

@@ -327,6 +327,19 @@ export default createMagicItems({
         ' by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength (Athletics) or Dexterity (Acrobatics) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.',
       ],
     ],
+    effects: [
+      {
+        key: 'grappled',
+        name: 'Grappled by tendrils',
+        lands: { on: 'failed-save', save: 'str', dc: 14 },
+        conditions: [rules.grappled],
+        text: [
+          'The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 14 } },
+      },
+    ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
   cold_absorbing_tattoo: {
@@ -461,6 +474,18 @@ export default createMagicItems({
         "Destroying the Demonomicon. To destroy the book, six different demon lords must each tear out a sixth of the book's pages. If this occurs, the pages reappear after 24 hours. Before all those hours pass, anyone who opens the book's remaining binding is transported to a nascent layer of the Abyss that lies hidden within the book. At the heart of this deadly, semi-sentient domain lies a long-lost artifact, Fraz-Urb'luu's Staff. If the staff is dragged from the pocket plane, the tome is reduced to a mundane and quite out-of-date copy of the Tome of Zyx, the work that served as the foundation for the Demonomicon. Once the staff emerges, the demon lord Fraz-Urb'luu instantly knows.",
       ],
     ],
+    effects: [
+      {
+        key: 'possessed',
+        name: 'Possessed',
+        lands: { on: 'failed-save', save: 'cha', dc: 20 },
+        text: [
+          'you are possessed by the creature, which controls you like a puppet.',
+          ' The possessing creature can release you as an action, appearing in the closest unoccupied space.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
   devotees_censer: {
@@ -530,6 +555,18 @@ export default createMagicItems({
         "Eldritch Maul. As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target. In addition, your melee attacks deal an extra 1d6 force damage on a hit. Once used, this bonus action can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'eldritch-maul',
+        name: 'Eldritch Maul',
+        lands: { on: 'use' },
+        text: [
+          'For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target.',
+          ' In addition, your melee attacks deal an extra 1d6 force damage on a hit.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
   elemental_essence_shard: {
@@ -587,6 +624,15 @@ export default createMagicItems({
       [
         'Property. You gain resistance to a damage type of your choice until the start of your next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'resistance',
+        name: 'Earthen resistance',
+        lands: { on: 'use' },
+        text: ['You gain resistance to a damage type of your choice'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
@@ -736,6 +782,15 @@ export default createMagicItems({
         ' if it is Large or smaller.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'use' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
   ghost_step_tattoo: {
@@ -763,6 +818,25 @@ export default createMagicItems({
       [
         'You can move through creatures and solid objects as if they were difficult terrain. If you end your turn in a solid object, you take 1d10 force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take 1d10 force damage for every 5 feet traveled.',
       ],
+    ],
+    effects: [
+      {
+        key: 'ghostly-form',
+        name: 'Ghostly Form',
+        lands: { on: 'use' },
+        text: [
+          'You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.',
+          " You can't be ",
+          rules.grappled,
+          ' or ',
+          rules.restrained,
+          '.',
+          ' You can move through creatures and solid objects as if they were difficult terrain.',
+          ' If you end your turn in a solid object, you take 1d10 force damage.',
+          ' If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take 1d10 force damage for every 5 feet traveled.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
@@ -855,6 +929,19 @@ export default createMagicItems({
       [
         "As an action, you can expend 1 charge to take on a semblance of undeath for 10 minutes. For the duration, you take on a deathly appearance, and undead creatures are indifferent to you, unless you have damaged them. You also appear undead to all outward inspection and to spells used to determine the target's status. The effect ends if you deal damage or force a creature to make a saving throw.",
       ],
+    ],
+    effects: [
+      {
+        key: 'semblance-of-undeath',
+        name: 'Semblance of undeath',
+        lands: { on: 'use' },
+        text: [
+          'For the duration, you take on a deathly appearance, and undead creatures are indifferent to you, unless you have damaged them.',
+          " You also appear undead to all outward inspection and to spells used to determine the target's status.",
+          ' The effect ends if you deal damage or force a creature to make a saving throw.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
@@ -979,6 +1066,18 @@ export default createMagicItems({
         'Some years ago, Mother Luba disappeared into the mists, leaving behind only the Tarokka of Souls. It is said that if you draw the Mists card from it, you can hear the whispers of her kind voice.',
       ],
     ],
+    effects: [
+      {
+        key: 'twist-of-fate',
+        name: 'Twist of Fate',
+        lands: { on: 'use' },
+        text: [
+          'Weal. The creature has advantage on attack rolls, ability checks, and saving throws for the next hour.',
+          ' Woe. The creature has disadvantage on attack rolls, ability checks, and saving throws for the next hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
   lyre_of_building: {
@@ -1083,6 +1182,20 @@ export default createMagicItems({
       [
         "Destroying the Servant. The servant can be destroyed in two ways. After it has self-destructed, its disconnected pieces can be melted down in one of the forge-temples of its ancient Olman creators. Alternatively, if the servant strikes the Machine of Lum the Mad, both artifacts explode in an eruption that is three times the size and three times the damage as the servant's self-destruct property.",
       ],
+    ],
+    effects: [
+      {
+        key: 'destructive-spree',
+        name: 'Charmed by the servant',
+        lands: { on: 'failed-save', save: 'wis', dc: 20 },
+        conditions: [rules.charmed],
+        text: [
+          'While ',
+          rules.charmed,
+          ' in this way, the creature goes on a destructive spree, seeking to destroy structures and attack any unattuned creatures within sight of the servant, starting with those threatening the artifact-preferably using the servant, if possible.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
     ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
@@ -1258,6 +1371,15 @@ export default createMagicItems({
       [
         'When you cast a conjuration spell that summons or creates one creature, you can expend 1 charge to grant that creature advantage on attack rolls for 1 minute.',
       ],
+    ],
+    effects: [
+      {
+        key: 'advantage-on-attacks',
+        name: 'Advantage on attacks',
+        lands: { on: 'use' },
+        text: ['grant that creature advantage on attack rolls for 1 minute'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
@@ -1717,6 +1839,17 @@ export default createMagicItems({
         'When you use a Metamagic option on a spell while you are holding or wearing the shard, you can momentarily curse one creature targeted by the spell; choose one ability score, and until the end of your next turn, the creature has disadvantage on ability checks and saving throws that use that ability.',
       ],
     ],
+    effects: [
+      {
+        key: 'shadow-curse',
+        name: 'Shadowfell curse',
+        lands: { on: 'use' },
+        text: [
+          'choose one ability score, and until the end of your next turn, the creature has disadvantage on ability checks and saving throws that use that ability.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },
   spellwrought_tattoo_1st_level: {
@@ -1889,6 +2022,46 @@ export default createMagicItems({
       [
         "Destroying the Teeth. Each tooth must be destroyed individually by sowing it in the area where the tooth's story originated, with the intention to destroy it. When planted in this way, creatures summoned are not friendly to you and do not vanish. Some of the creatures summoned merely head off in search of home, while others act as their tales dictate. In either case, the tooth is gone forever.",
       ],
+    ],
+    effects: [
+      {
+        key: 'malpheggi-exhaustion',
+        name: 'Exhaustion from reptilian scales',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'when you finish a long rest, you must succeed on a DC 15 Constitution saving throw or gain 1 level of ',
+          rules.exhaustion,
+          '.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'oni-exhaustion',
+        name: 'Exhaustion from the oni fang',
+        lands: { on: 'use' },
+        text: [
+          'While you are attuned to fewer than 3 magic items, you gain 1 level of ',
+          rules.exhaustion,
+          " that can't be removed until you are attuned to three or more magic items.",
+        ],
+        lasts: { kind: 'until', text: ['you are attuned to three or more magic items'] },
+      },
+      {
+        key: 'murderous-fury',
+        name: 'Murderous fury',
+        lands: { on: 'failed-save', save: 'wis', dc: 18 },
+        text: [
+          "During this rage, you must use your action to make an unarmed strike against a creature that damaged you, or a random creature you can see if you weren't damaged by a creature, moving as close as you can to the target if necessary.",
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'breath-exhaustion',
+        name: 'Exhaustion from the breath weapon',
+        lands: { on: 'use' },
+        text: ['After using the breath weapon, you gain 2 levels of ', rules.exhaustion, '.'],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.tasha_s_cauldron_of_everything,
   },

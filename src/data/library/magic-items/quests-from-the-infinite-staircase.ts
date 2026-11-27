@@ -87,6 +87,15 @@ export default createMagicItems({
         'Personality. Heretic craves the destruction of good-aligned gods and their supporters. The blade is condescending and snobby, especially in the company of priests and other pious folk, at whom it often directs sneering comments. When Heretic identifies its quarry, it erupts in a frenzied need for violence.',
       ],
     ],
+    effects: [
+      {
+        key: 'destroy-devotion',
+        name: 'Destroy Devotion',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.quests_from_the_infinite_staircase,
   },
   staff_of_ruling: {
@@ -123,6 +132,15 @@ export default createMagicItems({
         rules.frightened,
         ' conditions until the end of your next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'thunderclap',
+        name: 'Thunderclap',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.deafened, rules.frightened],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.quests_from_the_infinite_staircase,
   },

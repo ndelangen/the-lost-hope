@@ -115,6 +115,25 @@ export default createMagicItems({
         "Destroying the Crown. The crown is destroyed if it is worn by Myrkul's successor, Kelemvor, while he sits on the throne of Myrkul's former realm, the Bone Castle.",
       ],
     ],
+    effects: [
+      {
+        key: 'fear-aura',
+        name: 'Frightened by the Crown',
+        lands: { on: 'failed-save', save: 'wis', dc: 16 },
+        conditions: [rules.frightened],
+        text: [
+          'A ',
+          rules.frightened,
+          ' target must use its movement on its turns to get as far away as possible from you, moving by the safest route.',
+          ' If you damage a ',
+          rules.frightened,
+          ' target or if a ',
+          rules.frightened,
+          ' target ends its turn more than 120 feet away from you, the target can repeat the Wisdom save, ending the condition on itself on a success.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.forgotten_realms_adventures_in_faer_n,
   },
   harper_pin: {
@@ -261,6 +280,15 @@ export default createMagicItems({
       [
         'Destroying the Orb. If an Ancient Gold Dragon willingly swallows the orb, the orb and the dragon are both destroyed.',
       ],
+    ],
+    effects: [
+      {
+        key: 'fear-aura',
+        name: 'Frightened by the Orb',
+        lands: { on: 'failed-save', save: 'wis', dc: 18 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
     ],
     publication: refs.publications.forgotten_realms_adventures_in_faer_n,
   },

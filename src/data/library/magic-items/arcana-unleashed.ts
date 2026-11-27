@@ -62,6 +62,16 @@ export default createMagicItems({
         'Regaining Charges. The bellows regains 1d6 + 1 charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the bellows explodes in a harmless burst of wind and is lost forever.',
       ],
     ],
+    effects: [
+      {
+        key: 'incapacitated',
+        name: 'Energy drained',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.arcana_unleashed,
   },
   blemished_idol_of_good_fortunes: {
@@ -93,6 +103,15 @@ export default createMagicItems({
         rules.exhaustion,
         ' level.',
       ],
+    ],
+    effects: [
+      {
+        key: 'exhaustion',
+        name: 'Exhaustion',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['On a failed save, the target gains 1 ', rules.exhaustion, ' level.'],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.arcana_unleashed,
   },
@@ -178,6 +197,15 @@ export default createMagicItems({
         'Regaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff is destroyed.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunning Hit',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.arcana_unleashed,
   },
   dictation_quill: {
@@ -210,6 +238,15 @@ export default createMagicItems({
       [
         'Repel. When a creature enters a space within 5 feet of you, you can take a Reaction to create a shock wave of force. Each creature of your choice in a 30-foot Emanation originating from you must succeed on a DC 15 Strength saving throw or be pushed up to 30 feet straight away from you.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Dissuaded',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
     ],
     publication: refs.publications.arcana_unleashed,
   },
@@ -349,6 +386,16 @@ export default createMagicItems({
         "A creature remains bound for 8 hours or until you release it (no action required). If the manacle takes damage from a Disintegrate spell, it is destroyed; nothing else can break or harm it. Once the manacle has bound a creature, it can't be used again this way until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'bound',
+        name: 'Manacled',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        conditions: [rules.restrained],
+        text: ['When you move, the creature moves with you.'],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.arcana_unleashed,
   },
   magewrights_gloves: {
@@ -383,6 +430,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Tripped',
+        lands: { on: 'failed-save', save: 'str', dc: 13 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.arcana_unleashed,
   },
@@ -425,6 +481,18 @@ export default createMagicItems({
         'Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.',
       ],
     ],
+    effects: [
+      {
+        key: 'beast-form',
+        name: 'Giant Octopus form',
+        lands: { on: 'use' },
+        text: [
+          'While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. ',
+          'Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.arcana_unleashed,
   },
   necklace_of_the_beastly_familiar_giant_scorpion: {
@@ -448,6 +516,18 @@ export default createMagicItems({
       [
         'Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.',
       ],
+    ],
+    effects: [
+      {
+        key: 'beast-form',
+        name: 'Giant Scorpion form',
+        lands: { on: 'use' },
+        text: [
+          'While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. ',
+          'Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.arcana_unleashed,
   },
@@ -473,6 +553,18 @@ export default createMagicItems({
         'Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.',
       ],
     ],
+    effects: [
+      {
+        key: 'beast-form',
+        name: 'Hippopotamus form',
+        lands: { on: 'use' },
+        text: [
+          'While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. ',
+          'Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.arcana_unleashed,
   },
   necklace_of_the_beastly_familiar_mammoth: {
@@ -497,6 +589,18 @@ export default createMagicItems({
         'Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.',
       ],
     ],
+    effects: [
+      {
+        key: 'beast-form',
+        name: 'Mammoth form',
+        lands: { on: 'use' },
+        text: [
+          'While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. ',
+          'Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.arcana_unleashed,
   },
   necklace_of_the_beastly_familiar_tyrannosaurus_rex: {
@@ -520,6 +624,18 @@ export default createMagicItems({
       [
         'Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.',
       ],
+    ],
+    effects: [
+      {
+        key: 'beast-form',
+        name: 'Tyrannosaurus Rex form',
+        lands: { on: 'use' },
+        text: [
+          'While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. ',
+          'Your familiar gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no Temporary Hit Points left.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.arcana_unleashed,
   },
@@ -584,6 +700,17 @@ export default createMagicItems({
       ['Red · Fire'],
       ['White · Cold'],
     ],
+    effects: [
+      {
+        key: 'dragons-breath',
+        name: "Dragon's Breath",
+        lands: { on: 'use' },
+        text: [
+          "When you drink this potion, you gain the effect of the Dragon's Breath spell for 1 minute (save DC 13, no Concentration required). The damage type associated with that spell is determined by the color of the potion when the potion was created, as shown in the table below.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.arcana_unleashed,
   },
   potion_of_tirelessness: {
@@ -597,6 +724,18 @@ export default createMagicItems({
       [
         'This pale red potion is as thick as molasses, yet it slides out of the bottle as readily as oil.',
       ],
+    ],
+    effects: [
+      {
+        key: 'tireless',
+        name: 'Tireless',
+        lands: { on: 'use' },
+        text: [
+          "After you drink this potion, you don't need to sleep, and magic can't put you to sleep. ",
+          'For the duration, you can finish a Long Rest in 4 hours if you spend those hours in a state of quiet focus, during which you retain consciousness.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
     ],
     publication: refs.publications.arcana_unleashed,
   },
@@ -902,6 +1041,15 @@ export default createMagicItems({
       [
         "Regaining Charges. The wand regains 1d10 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand explodes into harmless splinters and is destroyed.",
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.arcana_unleashed,
   },

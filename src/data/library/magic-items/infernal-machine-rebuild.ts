@@ -28,6 +28,23 @@ export default createMagicItems({
         'A creature controlled by the bridle can be released by the creature that bound it as a bonus action. A creature controlled by the bridle can make a DC 17 Charisma check each day at dawn. On a success, the creature is no longer affected by the bridle.',
       ],
     ],
+    effects: [
+      {
+        key: 'bridled',
+        name: 'Bridled',
+        lands: { on: 'failed-save', save: 'cha', dc: 17 },
+        text: [
+          'have the bridle tie itself around its neck, then fall under your command as if subjected to the dominate beast spell.',
+          ' A creature controlled by the bridle can make a DC 17 Charisma check each day at dawn. On a success, the creature is no longer affected by the bridle.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'A creature controlled by the bridle can be released by the creature that bound it as a bonus action.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.infernal_machine_rebuild,
   },
   crown_of_the_forest: {

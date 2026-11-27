@@ -492,6 +492,18 @@ export default createMagicItems({
         "Destroying the Demonomicon. To destroy the book, six different demon lords must each tear out a sixth of the book's pages. If this occurs, the pages reappear after 24 hours. Before all those hours pass, anyone who opens the book's remaining binding is transported to a nascent layer of the Abyss that lies hidden within the book. At the heart of this deadly, semi-sentient domain lies a long-lost Artifact, Fraz-Urb'luu's Staff. If the staff is dragged from the pocket plane, the tome is reduced to a mundane and out-of-date copy of the Tome of Zyx, the work that served as the foundation of the Demonomicon of Iggwilv. The Tome of Zyx can be destroyed like any ordinary book. Once the staff emerges, the demon lord Fraz-Urb'luu knows instantly.",
       ],
     ],
+    effects: [
+      {
+        key: 'possessed',
+        name: 'Possessed',
+        lands: { on: 'failed-save', save: 'cha', dc: 20 },
+        text: [
+          'you are possessed by the creature, which controls you like a puppet. ',
+          'As a Magic action, the possessing creature can release you and appear in the closest unoccupied space to you.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   dread_helm_dungeon_master_s_guide_2024: {
@@ -725,6 +737,20 @@ export default createMagicItems({
       [
         "Destroying the Eye and Hand. If the Eye of Vecna and the Hand of Vecna are both attached to the same creature and that creature is slain by the Sword of Kas, both the eye and the hand burst into flame, turn to ash, and are destroyed. Any other attempt to destroy the eye or hand seems to work, but the Artifact reappears in one of Vecna's many hidden vaults, where it waits to be rediscovered.",
       ],
+    ],
+    effects: [
+      {
+        key: 'x-ray-vision',
+        name: 'X-ray vision',
+        lands: { on: 'use' },
+        text: [
+          'gain X-ray vision with a range of 30 feet for 1 minute. ',
+          "To you, solid objects within that radius appear transparent and don't prevent light from passing through themselves. ",
+          'The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. ',
+          'Thicker substances block the vision, as does a thin sheet of lead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -1217,6 +1243,15 @@ export default createMagicItems({
       ],
       ["This potion's liquid is a clear concoction with bits of salt and soot swirling in it."],
     ],
+    effects: [
+      {
+        key: 'comprehension',
+        name: 'Comprehend Languages',
+        lands: { on: 'use' },
+        text: ['you gain the effect of the Comprehend Languages spell for 1 hour.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   potion_of_fire_breath_dungeon_master_s_guide_2024: {
@@ -1232,6 +1267,17 @@ export default createMagicItems({
         "This potion's orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened.",
       ],
     ],
+    effects: [
+      {
+        key: 'fire-breath',
+        name: 'Fire Breath',
+        lands: { on: 'use' },
+        text: [
+          'After drinking this potion, you can take a Bonus Action to exhale fire at a target within 30 feet of yourself. The target makes a DC 13 Dexterity saving throw, taking 4d6 Fire damage on a failed save or half as much damage on a successful one. The effect ends after you exhale the fire three times or when 1 hour has passed.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   potion_of_greater_invisibility: {
@@ -1246,6 +1292,15 @@ export default createMagicItems({
         ' condition for 1 hour.',
       ],
     ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   potion_of_pugilism: {
@@ -1258,6 +1313,17 @@ export default createMagicItems({
         'After you drink this potion, each Unarmed Strike you make deals an extra 1d6 Force damage on a hit. This effect lasts 10 minutes.',
       ],
       ['This potion is a thick green fluid that tastes like spinach.'],
+    ],
+    effects: [
+      {
+        key: 'pugilism',
+        name: 'Pugilism',
+        lands: { on: 'use' },
+        text: [
+          'After you drink this potion, each Unarmed Strike you make deals an extra 1d6 Force damage on a hit.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -1287,6 +1353,17 @@ export default createMagicItems({
         'Heads. Target one creature you can see within 60 feet of yourself. The target makes a DC 13 Wisdom saving throw. On a failed save, the target takes 2d4 Psychic damage and has Disadvantage on the next attack roll it makes before the end of its next turn. On a successful save, the target takes half as much damage only.',
       ],
       ['Tails. You take 1d4 Psychic damage.'],
+    ],
+    effects: [
+      {
+        key: 'heads-disadvantage',
+        name: 'Rival’s disadvantage',
+        lands: { on: 'failed-save', save: 'wis', dc: 13 },
+        text: [
+          'has Disadvantage on the next attack roll it makes before the end of its next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -1336,6 +1413,17 @@ export default createMagicItems({
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
     ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Aberrations',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Aberrations can't enter or affect anything in the area. However, if you move in such a way that an Aberration would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   scroll_of_protection_beasts: {
@@ -1349,6 +1437,17 @@ export default createMagicItems({
       [
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Beasts',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Beasts can't enter or affect anything in the area. However, if you move in such a way that an Beast would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -1364,6 +1463,17 @@ export default createMagicItems({
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
     ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Celestials',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Celestials can't enter or affect anything in the area. However, if you move in such a way that an Celestial would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   scroll_of_protection_constructs: {
@@ -1377,6 +1487,17 @@ export default createMagicItems({
       [
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Constructs',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Constructs can't enter or affect anything in the area. However, if you move in such a way that an Construct would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -1392,6 +1513,17 @@ export default createMagicItems({
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
     ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Dragons',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Dragons can't enter or affect anything in the area. However, if you move in such a way that an Dragon would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   scroll_of_protection_elementals: {
@@ -1405,6 +1537,17 @@ export default createMagicItems({
       [
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Elementals',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Elementals can't enter or affect anything in the area. However, if you move in such a way that an Elemental would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -1420,6 +1563,17 @@ export default createMagicItems({
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
     ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Fey',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Fey can't enter or affect anything in the area. However, if you move in such a way that an Fey would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   scroll_of_protection_fiends: {
@@ -1433,6 +1587,17 @@ export default createMagicItems({
       [
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Fiends',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Fiends can't enter or affect anything in the area. However, if you move in such a way that an Fiend would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -1448,6 +1613,17 @@ export default createMagicItems({
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
     ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Giants',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Giants can't enter or affect anything in the area. However, if you move in such a way that an Giant would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   scroll_of_protection_humanoids: {
@@ -1461,6 +1637,17 @@ export default createMagicItems({
       [
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Humanoids',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Humanoids can't enter or affect anything in the area. However, if you move in such a way that an Humanoid would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -1476,6 +1663,17 @@ export default createMagicItems({
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
     ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Monstrosities',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Monstrosities can't enter or affect anything in the area. However, if you move in such a way that an Monstrosity would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   scroll_of_protection_oozes: {
@@ -1489,6 +1687,17 @@ export default createMagicItems({
       [
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Oozes',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Oozes can't enter or affect anything in the area. However, if you move in such a way that an Ooze would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -1504,6 +1713,17 @@ export default createMagicItems({
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
     ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Plants',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Plants can't enter or affect anything in the area. However, if you move in such a way that an Plant would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   scroll_of_protection_undead: {
@@ -1517,6 +1737,17 @@ export default createMagicItems({
       [
         'As a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protection',
+        name: 'Protection from Undead',
+        lands: { on: 'use' },
+        text: [
+          "For 5 minutes, Undead can't enter or affect anything in the area. However, if you move in such a way that an Undead would be inside the area, the effect ends.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -1772,6 +2003,26 @@ export default createMagicItems({
         "Destroying the Sword. A creature attuned to both the Eye of Vecna and the Hand of Vecna can use the Wish property of those combined Artifacts to unmake the Sword of Kas, provided the sword is within 30 feet of the spell's caster. Upon casting Wish, the creature makes a DC 18 Charisma saving throw. On a failed save, nothing happens, and the Wish spell is wasted. On a successful save, the Sword of Kas is destroyed.",
       ],
     ],
+    effects: [
+      {
+        key: 'bloodthirst',
+        name: 'Dominated by the sword',
+        lands: { on: 'failed-save', save: 'cha', dc: 15 },
+        text: [
+          'the wielder is dominated by the sword, as if by the Dominate Monster spell, and the sword demands blood.',
+        ],
+        lasts: { kind: 'until', text: ["the sword's demand is met"] },
+      },
+      {
+        key: 'blade-of-defense',
+        name: 'Blade of Defense',
+        lands: { on: 'use' },
+        text: [
+          'When you take an action to attack with the sword, you can transfer some or all of its attack bonus to your Armor Class instead.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
   talking_doll_dungeon_master_s_guide_2024: {
@@ -1813,6 +2064,28 @@ export default createMagicItems({
         rules.restrained,
         ' in this way, the target takes 3d6 Psychic damage at the start of each of its turns. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success.',
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by tentacles',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        conditions: [rules.restrained],
+        text: [
+          'While ',
+          rules.restrained,
+          ' in this way, the target takes 3d6 Psychic damage at the start of each of its turns.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'you have the ',
+            rules.incapacitated,
+            ' condition, until you take a Bonus Action to release the target, or until the target is no longer within 15 feet of you',
+          ],
+        },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },
@@ -2019,6 +2292,16 @@ export default createMagicItems({
       [
         'Destroying Whelm. Whelm can be dissolved in the acidic bile of a recently slain ancient black dragon. It can also be melted down in the forges of the Mightyhammer dwarf clan, but only by the rightful leader of that clan.',
       ],
+    ],
+    effects: [
+      {
+        key: 'shock-wave-stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con', dc: 20 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2024,
   },

@@ -497,6 +497,17 @@ export default createMagicItems({
         "The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand transforms into a wand of smiles.",
       ],
     ],
+    effects: [
+      {
+        key: 'scowling',
+        name: 'Forced to scowl',
+        lands: { on: 'failed-save', save: 'cha', dc: 10 },
+        text: [
+          'The target must succeed on a DC 10 Charisma saving throw or be forced to scowl for 1 minute.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.xanathar_s_guide_to_everything,
   },
   wand_of_smiles: {
@@ -511,6 +522,17 @@ export default createMagicItems({
       [
         "The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand transforms into a wand of scowls.",
       ],
+    ],
+    effects: [
+      {
+        key: 'smiling',
+        name: 'Forced to smile',
+        lands: { on: 'failed-save', save: 'cha', dc: 10 },
+        text: [
+          'The target must succeed on a DC 10 Charisma saving throw or be forced to smile for 1 minute.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.xanathar_s_guide_to_everything,
   },

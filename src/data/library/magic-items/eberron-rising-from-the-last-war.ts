@@ -129,6 +129,20 @@ export default createMagicItems({
         "Symbiotic Nature. The whip can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the whip ends, and it detaches from you.",
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'hit' },
+        conditions: [rules.stunned],
+        text: [
+          'When you roll a 20 on the d20 for an attack roll with this weapon, the target is ',
+          rules.stunned,
+          ' until the end of its next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.eberron_rising_from_the_last_war,
   },
   earworm: {
@@ -228,6 +242,17 @@ export default createMagicItems({
       [
         'If you die while the ooze is inside you, it bursts out and engulfs you, turning your corpse into a black pudding allied with the daelkyr.',
       ],
+    ],
+    effects: [
+      {
+        key: 'amorphous',
+        name: 'Amorphous',
+        lands: { on: 'use' },
+        text: [
+          "you (along with any equipment you're wearing or carrying) can move through a space as narrow as 1 inch wide without squeezing.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.eberron_rising_from_the_last_war,
   },

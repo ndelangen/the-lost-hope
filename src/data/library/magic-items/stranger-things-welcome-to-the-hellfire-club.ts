@@ -17,6 +17,18 @@ export default createMagicItems({
         ' condition for 10 minutes. The effect ends early if the hat is removed, or immediately after you make an attack roll, deal damage, or cast a spell.',
       ],
     ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        text: [
+          'The effect ends early if the hat is removed, or immediately after you make an attack roll, deal damage, or cast a spell.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.stranger_things_welcome_to_the_hellfire_club,
   },
   hollys_handy_haversack: {
@@ -66,6 +78,15 @@ export default createMagicItems({
         rules.poisoned,
         " condition for 1 minute. This Bonus Action can't be used again this way until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.stranger_things_welcome_to_the_hellfire_club,
   },

@@ -91,6 +91,17 @@ export default createMagicItems({
         'Part of a Whole. While this component is not installed in the Orrery of the Wanderer, its magic might function sporadically or with unpredictable side effects, as determined by the DM.',
       ],
     ],
+    effects: [
+      {
+        key: 'out-of-phase',
+        name: 'Dimensional Cloak',
+        lands: { on: 'use' },
+        text: [
+          'you send your body out of phase with the material world for 1 minute, granting you advantage on Dexterity (Stealth) checks made to hide, and imposing disadvantage on attack rolls against you',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.acquisitions_incorporated,
   },
   documancy_satchel: {

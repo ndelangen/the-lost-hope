@@ -111,6 +111,15 @@ export default createMagicItems({
         ' condition until the start of your next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'hit' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.world_of_warcraft_icecrown_citadel,
   },
   fragment_of_frozen_bone: {
@@ -176,6 +185,20 @@ export default createMagicItems({
       ['2 minor detrimental properties'],
       ["Destroying the Weapon. Striking Light's Vengeance with Frostmourne destroys the maul."],
     ],
+    effects: [
+      {
+        key: 'repelled',
+        name: 'Repelled',
+        lands: { on: 'failed-save', save: 'wis', dc: 20 },
+        conditions: [rules.frightened, rules.incapacitated],
+        text: [
+          'While ',
+          rules.frightened,
+          ', a target must use its movement on each of its turns to move as far from you as it can. This effect ends early on a target if it takes any damage.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.world_of_warcraft_icecrown_citadel,
   },
   ring_of_maddening_whispers: {
@@ -192,6 +215,15 @@ export default createMagicItems({
         rules.incapacitated,
         ' condition until the end of your next turn, as a chorus of babbling whispers assails your mind.',
       ],
+    ],
+    effects: [
+      {
+        key: 'maddening-whispers',
+        name: 'Maddening whispers',
+        lands: { on: 'use' },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.world_of_warcraft_icecrown_citadel,
   },
@@ -229,6 +261,17 @@ export default createMagicItems({
       [
         'Destroying the Weapon. The axe can be destroyed by immersing it in a pool of the fresh blood of an Old God. Destroying it frees the souls it devoured.',
       ],
+    ],
+    effects: [
+      {
+        key: 'chaos-bane',
+        name: 'Chaos Bane',
+        lands: { on: 'use' },
+        text: [
+          'Until the end of your next turn, you have Advantage on attack rolls and saving throws.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.world_of_warcraft_icecrown_citadel,
   },

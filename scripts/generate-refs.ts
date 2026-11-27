@@ -365,7 +365,8 @@ async function generatedItemNamesSource(
       // Wrapped as the formatter wraps a line past 100 characters.
       const line = `  ${key}: ${quoted},`
       names.push(line.length > 100 ? `  ${key}:\n    ${quoted},` : line)
-      books.push(`  ${key}: '${file}',`)
+      const book = `  ${key}: '${file}',`
+      books.push(book.length > 100 ? `  ${key}:\n    '${file}',` : book)
     }
   }
   return `// GENERATED FILE — DO NOT EDIT.

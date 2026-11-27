@@ -356,6 +356,23 @@ export default createMagicItems({
         'A wand of viscid globs is destroyed if exposed to sunlight for 1 hour without interruption.',
       ],
     ],
+    effects: [
+      {
+        key: 'viscid-glob',
+        name: 'Viscid glob',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: {
+          cure: [
+            'Applying a pint or more of alcohol to the ',
+            rules.restrained,
+            ' creature dissolves the glob instantly, as does the application of oil of etherealness or universal solvent.',
+            ' The glob also dissolves instantly if exposed to sunlight.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.out_of_the_abyss,
   },
 })

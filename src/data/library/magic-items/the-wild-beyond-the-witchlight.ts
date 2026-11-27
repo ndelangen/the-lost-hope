@@ -88,6 +88,20 @@ export default createMagicItems({
         ' until the start of your next turn or until you attack, cast a spell, or deal damage.',
       ],
     ],
+    effects: [
+      {
+        key: 'eldritch-escape',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        text: [
+          'You remain ',
+          rules.invisible,
+          ' until the start of your next turn or until you attack, cast a spell, or deal damage.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
+    ],
     publication: refs.publications.the_wild_beyond_the_witchlight,
   },
   green_chromatic_rose: {
@@ -183,6 +197,49 @@ export default createMagicItems({
       ['Eight eyes open, always dreaming'],
       ['All on the cauldron that is ever seeming'],
     ],
+    effects: [
+      {
+        key: 'decrepit',
+        name: 'Aged to decrepitude',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          "In this state, the creature's speed is halved, the range of its vision and hearing is reduced to 30 feet, and it has disadvantage on all ability checks, attack rolls, and saving throws. The creature will reach the end of its natural life span in 3d8 days.",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'Only a wish spell or divine intervention can reverse this aging effect on the creature.',
+          ],
+        },
+      },
+      {
+        key: 'blood-sleep',
+        name: 'Unconscious',
+        lands: { on: 'use' },
+        conditions: [rules.unconscious],
+        text: [
+          'An ',
+          rules.unconscious,
+          ' creature awakens if it takes damage or if someone uses an action to shake or slap it.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'frozen-in-time',
+        name: 'Frozen in time',
+        lands: { on: 'use' },
+        conditions: [rules.incapacitated],
+        text: [
+          "can't move or speak, doesn't age, and is unaware of its surroundings or the passage of time. Moreover, it can't be moved, harmed in any way, or affected by any other magic. All other conditions and effects on the creature are suppressed until it is no longer frozen in time.",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            "Destroying the cauldron, sending it to another plane of existence, or touching it with a unicorn's horn for 1 minute while reciting \"The Witch Queen's Cauldron\" ends the time-freezing effect on all creatures. The effect also ends on any creature that comes into contact with an antimagic field or is touched by a unicorn's horn.",
+          ],
+        },
+      },
+    ],
     publication: refs.publications.the_wild_beyond_the_witchlight,
   },
   ornithopter_of_flying: {
@@ -208,6 +265,17 @@ export default createMagicItems({
       ],
       ['A small packet holds enough pixie dust for one use.'],
     ],
+    effects: [
+      {
+        key: 'pixie-flight',
+        name: 'Pixie flight',
+        lands: { on: 'use' },
+        text: [
+          'The recipient gains a flying speed of 30 feet and the ability to hover for 1 minute. If the creature is airborne when this effect ends, it falls safely to the ground, taking no damage and landing on its feet.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.the_wild_beyond_the_witchlight,
   },
   potion_of_advantage: {
@@ -219,6 +287,17 @@ export default createMagicItems({
         'When you drink this potion, you gain advantage on one ability check, attack roll, or saving throw of your choice that you make within the next hour.',
       ],
       ['This potion takes the form of a sparkling, golden mist that moves and pours like water.'],
+    ],
+    effects: [
+      {
+        key: 'advantage',
+        name: 'Advantage',
+        lands: { on: 'use' },
+        text: [
+          'When you drink this potion, you gain advantage on one ability check, attack roll, or saving throw of your choice that you make within the next hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.the_wild_beyond_the_witchlight,
   },
@@ -262,6 +341,20 @@ export default createMagicItems({
       [
         'A creature whose shadow has detached from it is cursed. If a shadowless creature is subjected to any spell that ends a curse, or if its detached shadow is reduced to 0 hit points, the detached shadow disappears, and the creature regains its normal shadow instantly.',
       ],
+    ],
+    effects: [
+      {
+        key: 'shadowless',
+        name: 'Shadowless',
+        lands: { on: 'failed-save', save: 'cha', dc: 15 },
+        text: ['A creature whose shadow has detached from it is cursed.'],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'If a shadowless creature is subjected to any spell that ends a curse, or if its detached shadow is reduced to 0 hit points, the detached shadow disappears, and the creature regains its normal shadow instantly.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.the_wild_beyond_the_witchlight,
   },

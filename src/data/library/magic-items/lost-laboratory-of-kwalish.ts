@@ -114,6 +114,34 @@ export default createMagicItems({
         "For cards that effectively remove a character from play for a period of time (LLK and LLK), you can allow a player to take on the role of one of the party's NPC hirelings, or introduce a temporary character as an NPC met during the party's journey. Alternatively, you can decide that only some aspect of the character's will disappears and is imprisoned, leaving the character to operate in a robotic state until freed.",
       ],
     ],
+    effects: [
+      {
+        key: 'euryale',
+        name: "Euryale's Curse",
+        lands: { on: 'use' },
+        text: ['You take a −1 penalty on saving throws for the duration of the adventure.'],
+        lasts: { kind: 'until', text: ['the duration of the adventure'] },
+      },
+      {
+        key: 'idiot',
+        name: 'Idiot',
+        lands: { on: 'use' },
+        text: [
+          'Reduce your Intelligence by 1d4 + 1 (to a minimum score of 1) for the duration of the adventure.',
+        ],
+        lasts: { kind: 'until', text: ['the duration of the adventure'] },
+      },
+      {
+        key: 'the-void',
+        name: 'Soul Trapped',
+        lands: { on: 'use' },
+        conditions: [rules.incapacitated],
+        text: [
+          "Your soul is drawn from your body and held within machinery in either the control room of the Monastery of the Distressed Body (area M8) or Kwalish's lab in Daoine Gloine (area O7), whichever comes later in the adventure.",
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.lost_laboratory_of_kwalish,
   },
   galders_bubble_pipe: {
@@ -304,6 +332,33 @@ export default createMagicItems({
         ' or until another creature is able to calm you with appropriate magic (such as a calm emotions spell) or a successful DC 15 Charisma (Persuasion) check.',
       ],
     ],
+    effects: [
+      {
+        key: 'aversion-of-fire',
+        name: 'Aversion of Fire',
+        lands: { on: 'use' },
+        text: [
+          'If you take fire damage, you have disadvantage on attack rolls and ability checks until the end of your next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'berserk',
+        name: 'Berserk',
+        lands: { on: 'use' },
+        text: [
+          'On each of your turns while berserk, you attack the nearest creature you can see. If no creature is near enough to move to and attack, you attack an object, with preference for an object smaller than yourself.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'you are ',
+            rules.incapacitated,
+            ' or until another creature is able to calm you with appropriate magic (such as a calm emotions spell) or a successful DC 15 Charisma (Persuasion) check',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.lost_laboratory_of_kwalish,
   },
   powered_armor: {
@@ -361,6 +416,44 @@ export default createMagicItems({
       [
         "Alternative Power. Powered armor originally required energy cells to fuel it, but was adapted by Kwalish to be fueled by the life energy of the creature wearing it. You might decide that the armor can also draw power from additional sources, or that energy cells can be recharged with the aid of a tinker, inventor, or artificer. It might also be possible for allies to connect to the armor through the use of magic that generates a conduit something like an astral silver cord. While so connected, a willing ally can give up hit points as a reaction to fuel the armor's abilities.",
       ],
+    ],
+    effects: [
+      {
+        key: 'boosters',
+        name: 'Boosters',
+        lands: { on: 'use' },
+        text: ['Activate boosters to gain a flying speed of 15 feet for 1 minute'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+      {
+        key: 'air',
+        name: 'Air Supply',
+        lands: { on: 'use' },
+        text: [
+          'Fill the armor with air, allowing you to breathe normally in any environment for up to 1 hour',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'darkvision',
+        name: 'Darkvision',
+        lands: { on: 'use' },
+        text: ['Gain darkvision to a range of 60 feet for up to 1 hour'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'possessed',
+        name: 'Possessed by the Armor',
+        lands: { on: 'failed-save', save: 'cha', dc: 13 },
+        conditions: [rules.incapacitated],
+        text: [
+          'While possessed, the user is ',
+          rules.incapacitated,
+          ' and loses control of its body but retains its awareness.',
+          ' The trapped creature can also attempt a DC 20 Charisma saving throw each day at dawn. On a successful save, the armor no longer controls the creature and can be safely donned by that creature at any time.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.lost_laboratory_of_kwalish,
   },

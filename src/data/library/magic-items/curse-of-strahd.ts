@@ -78,6 +78,17 @@ export default createMagicItems({
         "Blight Bane. While you are attuned to the staff, blights and other evil plant creatures don't regard you as hostile unless you harm them.",
       ],
     ],
+    effects: [
+      {
+        key: 'short-term-madness',
+        name: 'Short-term madness',
+        lands: { on: 'failed-save', save: 'wis', dc: 12 },
+        text: [
+          'you must succeed on a DC 12 Wisdom saving throw or be afflicted with short term madness (see "Madness" in chapter 8 of the Dungeon Master\'s Guide).',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.curse_of_strahd,
   },
   holy_symbol_of_ravenkind: {
@@ -106,6 +117,16 @@ export default createMagicItems({
       [
         'Sunlight. As an action, you can expend 5 charges while presenting the holy symbol to make it shed bright light in a 30-foot radius and dim light for an additional 30 feet. The light is sunlight and lasts for 10 minutes or until you end the effect (no action required).',
       ],
+    ],
+    effects: [
+      {
+        key: 'held-vampire',
+        name: 'Hold Vampires',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.curse_of_strahd,
   },
@@ -167,6 +188,20 @@ export default createMagicItems({
       [
         'While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'hit' },
+        conditions: [rules.frightened],
+        text: [
+          'On a successful save, the creature becomes ',
+          rules.frightened,
+          ' of you until the end of your next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.curse_of_strahd,
   },

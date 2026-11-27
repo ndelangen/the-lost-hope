@@ -130,6 +130,15 @@ export default createMagicItems({
         "Destroying the Bow. The bow can't be destroyed without first destroying all its arrows. The winter arrow must be fed to a cerberus on the winter solstice. The spring arrow must be planted at the base of a Black Oak of Asphodel on the spring equinox. The summer arrow must be broken by a sea giant on the summer solstice. Then the autumn arrow must be shot into the carcass of a hydra on the autumnal equinox. When all four arrows are destroyed, the bow and quiver dissolve into dust.",
       ],
     ],
+    effects: [
+      {
+        key: 'spring-awakened',
+        name: 'Awakened by Spring',
+        lands: { on: 'hit' },
+        text: ['the target gains the benefits of the awaken spell for 8 hours.'],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.mythic_odysseys_of_theros,
   },
   flying_chariot: {
@@ -229,6 +238,15 @@ export default createMagicItems({
         "Destroying the Spear. If taken to Erebos's palace in Tizerus, and used to sacrifice a champion of Heliod to Erebos, Khrusor is either destroyed or fundamentally twisted to Erebos's service.",
       ],
     ],
+    effects: [
+      {
+        key: 'suns-retaliation',
+        name: 'Blinded by the Sun',
+        lands: { on: 'hit' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
+    ],
     publication: refs.publications.mythic_odysseys_of_theros,
   },
   mastix_whip_of_erebos: {
@@ -292,6 +310,26 @@ export default createMagicItems({
         "Limitations. You can't talk, attack, cast spells, or activate magic items. Any objects you were carrying or wearing meld into your new form and are inaccessible, though you continue to be affected by anything you're wearing, such as armor.",
       ],
     ],
+    effects: [
+      {
+        key: 'aqueous-form',
+        name: 'Aqueous Form',
+        lands: { on: 'use' },
+        text: [
+          'You have a swimming speed of 30 feet. You can move over or through other liquids. You can enter and occupy the space of another creature. You can rise up to your normal height, and you can pass through even Tiny openings. You extinguish nonmagical flames in any space you enter.',
+          ' You have resistance to nonmagical damage. You also have advantage on Strength, Dexterity, and Constitution saving throws.',
+          " You can't talk, attack, cast spells, or activate magic items. Any objects you were carrying or wearing meld into your new form and are inaccessible, though you continue to be affected by anything you're wearing, such as armor.",
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+        ends: {
+          cure: [
+            'You return to your true form after 10 minutes or if you are ',
+            rules.incapacitated,
+            ' or die.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.mythic_odysseys_of_theros,
   },
   pyxis_of_pandemonium: {
@@ -333,6 +371,39 @@ export default createMagicItems({
       [
         "8 · Unbridled Revel. The vessel casts the Otto's irresistible dance spell on each creature within 30 feet of it.",
       ],
+    ],
+    effects: [
+      {
+        key: 'blessed',
+        name: 'Blessed',
+        lands: { on: 'use' },
+        text: [
+          'That creature also gains the effects of the bless spell until the creature finishes a short or long rest.',
+        ],
+        lasts: { kind: 'until', text: ['the creature finishes a short or long rest'] },
+      },
+      {
+        key: 'whispers',
+        name: 'Charmed by the Vessel',
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        conditions: [rules.charmed],
+        text: [
+          'The ',
+          rules.charmed,
+          ' creature does everything it can to open the vessel as soon as possible.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'androphagia',
+        name: 'Berserk',
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        text: [
+          'The berserk creature must begin its turn using the Attack action to make one melee or ranged attack (its choice) against the creature nearest to it.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.mythic_odysseys_of_theros,
   },
@@ -379,6 +450,24 @@ export default createMagicItems({
       [
         '4 · Tracking. A creature that takes damage from this bullet is marked with a glowing rune where the bullet hit. The mark lasts 24 hours. While the creature is marked, you always know the direction to it.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'hit' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+      {
+        key: 'tracking-mark',
+        name: 'Tracking rune',
+        lands: { on: 'hit' },
+        text: [
+          'A creature that takes damage from this bullet is marked with a glowing rune where the bullet hit. The mark lasts 24 hours. While the creature is marked, you always know the direction to it.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
     ],
     publication: refs.publications.mythic_odysseys_of_theros,
   },

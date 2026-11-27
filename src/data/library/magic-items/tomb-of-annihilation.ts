@@ -46,6 +46,56 @@ export default createMagicItems({
         '. This effect can be ended only with a greater restoration spell or similar magic.',
       ],
     ],
+    effects: [
+      {
+        key: 'mark-of-acererak',
+        name: 'Symbol of Acererak',
+        lands: { on: 'failed-save', save: 'con', dc: 16 },
+        text: [
+          "The symbol of Acererak is burned into your flesh, a curse that can only be removed with a remove curse spell or similar magic. Until the curse ends, your hit points can't be restored by magic.",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { cure: ['can only be removed with a remove curse spell or similar magic'] },
+      },
+      {
+        key: 'enlarged',
+        name: 'Enlarged',
+        lands: { on: 'failed-save', save: 'con', dc: 16 },
+        text: [
+          'You grow larger as if affected by an enlarge/reduce spell, except the effect lasts for 1 hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'reduced',
+        name: 'Reduced',
+        lands: { on: 'failed-save', save: 'con', dc: 16 },
+        text: [
+          'You grow smaller as if affected by an enlarge/reduce spell, except the effect lasts for 1 hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed',
+        lands: { on: 'failed-save', save: 'con', dc: 16 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { cure: ['this effect is ended with a lesser restoration spell or similar magic.'] },
+      },
+      {
+        key: 'petrified',
+        name: 'Petrified',
+        lands: { on: 'failed-save', save: 'con', dc: 16 },
+        conditions: [rules.petrified],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'This effect can be ended only with a greater restoration spell or similar magic.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.tomb_of_annihilation,
   },
   arcanaloths_music_box: {
@@ -111,6 +161,21 @@ export default createMagicItems({
         rules.poisoned,
         ' condition for 1 hour.',
       ],
+    ],
+    effects: [
+      {
+        key: 'comic-dance',
+        name: 'Comic dance',
+        lands: { on: 'failed-save', save: 'con', dc: 14 },
+        text: [
+          'The dancer must use all its movement to dance without leaving its space and has disadvantage on attack rolls and Dexterity saving throws, and other creatures have advantage on attack rolls against it.',
+          ' When the dancing effect ends, the humanoid suffers the ',
+          rules.poisoned,
+          ' condition for 1 hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['damaged'] },
+      },
     ],
     publication: refs.publications.tomb_of_annihilation,
   },
@@ -319,6 +384,20 @@ export default createMagicItems({
       [
         "Destroying the Staff. A creature in possession of the staff can use an action to break it over one knee or a solid surface. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it. Each creature in the area must make a DC 18 Dexterity saving throw, taking 132 (24d10) force damage on a failed save, or half as much damage on a successful one. When the staff is destroyed, the life force of the Forgotten One is released to the afterlife. Where it goes is anyone's guess.",
       ],
+    ],
+    effects: [
+      {
+        key: 'possessed',
+        name: 'Possessed',
+        lands: { on: 'failed-save', save: 'cha', dc: 20 },
+        text: ["be possessed, becoming an NPC under the DM's control."],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'If the intruding life force is targeted by magic such as a dispel evil and good spell, it becomes trapped in the staff once more.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.tomb_of_annihilation,
   },

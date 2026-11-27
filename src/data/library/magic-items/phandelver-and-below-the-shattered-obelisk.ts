@@ -1,5 +1,8 @@
 import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
 import { createMagicItems } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
 
 export default createMagicItems({
   bracers_of_celerity: {
@@ -37,6 +40,19 @@ export default createMagicItems({
       [
         'These benefits last for 10 minutes or until you use another bonus action to dismiss them. The cape regains 1d3 expended charges daily at dawn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'enlarged',
+        name: 'Enlarged',
+        lands: { on: 'use' },
+        text: [
+          'Your size increases by one category—from Medium to Large, for example.',
+          ' You have advantage on Strength checks and Strength saving throws.',
+          " When you hit with an attack roll using a weapon or an unarmed strike, you can add your proficiency bonus to the attack's damage.",
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.phandelver_and_below_the_shattered_obelisk,
   },
@@ -234,6 +250,16 @@ export default createMagicItems({
       ],
       ["Once this bonus action is used, it can't be used again until the next dawn."],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'int', dc: 15 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.phandelver_and_below_the_shattered_obelisk,
   },
   mindguard_crown: {
@@ -293,6 +319,17 @@ export default createMagicItems({
         'When you drink this potion, you have advantage for 1 hour on saving throws you make to avoid or end the charmed or stunned condition on yourself.',
       ],
       ['This black potion swirls with shimmering flecks of pink and purple.'],
+    ],
+    effects: [
+      {
+        key: 'psionic-fortitude',
+        name: 'Psionic fortitude',
+        lands: { on: 'use' },
+        text: [
+          'When you drink this potion, you have advantage for 1 hour on saving throws you make to avoid or end the charmed or stunned condition on yourself.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.phandelver_and_below_the_shattered_obelisk,
   },

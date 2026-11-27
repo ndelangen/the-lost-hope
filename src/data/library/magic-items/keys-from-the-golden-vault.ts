@@ -89,6 +89,45 @@ export default createMagicItems({
         '6 · Nothing seems to go your way. Until the next dawn, you have disadvantage on ability checks.',
       ],
     ],
+    effects: [
+      {
+        key: 'cut-poisoned',
+        name: 'Cut by the Shard',
+        lands: { on: 'use' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'until', text: ['the next dawn'] },
+      },
+      {
+        key: 'calamity-vision',
+        name: 'Vision of Calamity',
+        lands: { on: 'use' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'ground-shakes',
+        name: 'Knocked Prone',
+        lands: { on: 'failed-save', save: 'dex', dc: 16 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'beasts-hostile',
+        name: 'Hostile Beasts',
+        lands: { on: 'use' },
+        text: [
+          'Until the next dawn, Beasts with an Intelligence score of 3 or lower are hostile to you.',
+        ],
+        lasts: { kind: 'until', text: ['the next dawn'] },
+      },
+      {
+        key: 'misfortune',
+        name: 'Nothing Goes Your Way',
+        lands: { on: 'use' },
+        text: ['Until the next dawn, you have disadvantage on ability checks.'],
+        lasts: { kind: 'until', text: ['the next dawn'] },
+      },
+    ],
     publication: refs.publications.keys_from_the_golden_vault,
   },
   shard_solitaire_black_sapphire: {

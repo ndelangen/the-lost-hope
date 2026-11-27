@@ -58,6 +58,20 @@ export default createMagicItems({
         'Destroying the Sword. The sword can be destroyed by casting it into the River Styx or melting it down in the forge that created it.',
       ],
     ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Ruler of Avernus',
+        lands: { on: 'failed-save', save: 'cha', dc: 22 },
+        conditions: [rules.charmed],
+        text: [
+          'While ',
+          rules.charmed,
+          ' in this way, the devil follows your orders to the best of its ability. If you command the devil to do something it perceives as suicidal, the effect ends and you can no longer use this power of the sword against that devil.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.baldur_s_gate_descent_into_avernus,
   },
   candle_mace: {
@@ -212,6 +226,15 @@ export default createMagicItems({
         "Freeing Gargauth. Casting dispel evil and good on the shield has a 1 percent chance of freeing the pit fiend, or automatically succeeds if the spell is cast by a solar, a planetar, or an archdevil. A god can release the pit fiend by touching the shield and speaking Gargauth's name. When released, Gargauth appears in a random, unoccupied space as close to the shield as possible.",
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Aura of dread',
+        lands: { on: 'failed-save', save: 'wis', dc: 18 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
+    ],
     publication: refs.publications.baldur_s_gate_descent_into_avernus,
   },
   soul_coin: {
@@ -351,6 +374,15 @@ export default createMagicItems({
       [
         'If Zariel is killed for good (that is, if she dies in the Nine Hells), the sword becomes no harder to destroy than a normal longsword.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Searing Radiance',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.baldur_s_gate_descent_into_avernus,
   },

@@ -37,6 +37,28 @@ export default createMagicItems({
         '.',
       ],
     ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'use' },
+        conditions: [rules.deafened],
+        text: [
+          'Success indicates the deafness ends 2 minutes after the Draakhorn ceases to sound.',
+          ' Failure indicates the character remains ',
+          rules.deafened,
+          ' for 1 hour after the Draakhorn ceases to sound.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.rise_of_tiamat,
   },
   dragontooth_dagger: {

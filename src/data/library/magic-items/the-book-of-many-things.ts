@@ -46,6 +46,15 @@ export default createMagicItems({
         "Whenever you use the goggles' fiery beam and the target rolls a 20 on the d20 for the saving throw, the goggles expose you to a flash of violent Vision and Light. As a result, you have the blinded condition for 24 hours.",
       ],
     ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded by the flash',
+        lands: { on: 'use' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   bloodrage_greataxe: {
@@ -152,6 +161,18 @@ export default createMagicItems({
         'Whirling Hail. As an action, you can spend 3 charges and cast the Ice Storm spell (save DC 16).',
       ],
       ['The crown regains 1d6 expended charges daily at dawn.'],
+    ],
+    effects: [
+      {
+        key: 'star-flight',
+        name: 'Star Flight',
+        lands: { on: 'use' },
+        text: [
+          'For the duration, you gain a flying speed equal to your walking speed, and you can hover.',
+          ' While flying, you glow faintly with starlight.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.the_book_of_many_things,
   },
@@ -390,6 +411,66 @@ export default createMagicItems({
       ['Warrior. Your Strength score increases by 2 to a maximum of 22.'],
       ['Well. You learn three cantrips of your choice from any spell list.'],
     ],
+    effects: [
+      {
+        key: 'beast-form',
+        name: 'Beast form',
+        lands: { on: 'use' },
+        text: [
+          "Your game statistics—including your ability scores, hit points, and possible actions—are replaced by the Beast's game statistics, and any nonmagical equipment you're wearing or carrying melds into your new form and can't be used.",
+          " nothing can alter your form while you're under the effects of this card, but the Wish spell can end the transformation early.",
+        ],
+        lasts: { kind: 'time', amount: '2d12', unit: 'day' },
+      },
+      {
+        key: 'corpse',
+        name: 'Corpse',
+        lands: { on: 'use' },
+        conditions: [rules.unconscious],
+        text: [
+          'Spells and other magical effects that restore hit points have no effect on you until you are stabilized.',
+          ' If you fail three death saving throws, you die and can be resurrected only by the Wish spell.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'maze',
+        name: 'Maze',
+        lands: { on: 'use' },
+        text: ['You gain 1d3 levels of ', rules.exhaustion, '.'],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'pit',
+        name: 'Pit',
+        lands: { on: 'use' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'prisoner',
+        name: 'Prisoner',
+        lands: { on: 'use' },
+        conditions: [rules.restrained],
+        text: [
+          "While you have this condition, you can't cast spells, and any magic items you're wearing or carrying have their properties suppressed.",
+          " The chains are immune to damage and can't be dispelled using the Dispel Magic spell or similar magic.",
+          ' However, a Disintegrate spell destroys the chains instantly, freeing you.',
+          " Another creature can also free you by succeeding on a DC 30 Dexterity check using thieves' tools.",
+        ],
+        lasts: { kind: 'until', text: ['the chains are destroyed or you are freed'] },
+      },
+      {
+        key: 'statue',
+        name: 'Statue',
+        lands: { on: 'use' },
+        conditions: [rules.petrified],
+        lasts: {
+          kind: 'until',
+          text: ['you are freed with the Greater Restoration spell or similar magic'],
+        },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   deck_of_many_things_the_book_of_many_things: {
@@ -516,6 +597,29 @@ export default createMagicItems({
         '4 · ♠ (Swords) · The card unleashes a sharp, concussive blast. The target and each creature within 5 feet of it take 1d6 force damage and must succeed on a DC 15 Strength saving throw or have the prone condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded by lightning',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+      {
+        key: 'restrained',
+        name: 'Encased in ice',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+      {
+        key: 'prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   deck_of_wonder: {
@@ -624,6 +728,122 @@ export default createMagicItems({
         "Vulture. One nonmagical item or piece of equipment in your possession (chosen by the DM) disappears. The item remains nearby but concealed for a short time, so it can be found with a successful DC 15 Wisdom (Perception) check. If the item isn't recovered within 1 hour, it disappears forever.",
       ],
     ],
+    effects: [
+      {
+        key: 'beginning',
+        name: 'Beginning',
+        lands: { on: 'use' },
+        text: ['Your hit point maximum and current hit points increase by 2d10.'],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+      {
+        key: 'champion',
+        name: 'Champion',
+        lands: { on: 'use' },
+        text: ['You gain a +1 bonus to weapon attack and damage rolls.'],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+      {
+        key: 'chaos',
+        name: 'Chaos',
+        lands: { on: 'use' },
+        text: [
+          'You gain resistance to one of the following damage types (chosen by the DM): acid, cold, fire, lightning, or thunder.',
+        ],
+        lasts: { kind: 'time', amount: '1d12', unit: 'day' },
+      },
+      {
+        key: 'dawn',
+        name: 'Dawn',
+        lands: { on: 'use' },
+        text: ['you can add your proficiency bonus to your initiative rolls.'],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+      {
+        key: 'day',
+        name: 'Day',
+        lands: { on: 'use' },
+        text: ['You gain a +1 bonus to saving throws.'],
+        lasts: { kind: 'until', text: ['you finish a long rest'] },
+      },
+      {
+        key: 'destiny',
+        name: 'Destiny',
+        lands: { on: 'use' },
+        text: [
+          'The first time after drawing this card that you would drop to 0 hit points from taking damage, you instead drop to 1 hit point.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'dusk',
+        name: 'Dusk',
+        lands: { on: 'use' },
+        text: ['You have disadvantage on initiative rolls.'],
+        lasts: { kind: 'until', text: ['you finish a long rest'] },
+        ends: { cure: ['a Remove Curse spell or similar magic'] },
+      },
+      {
+        key: 'end',
+        name: 'End',
+        lands: { on: 'use' },
+        text: [
+          'your hit point maximum is reduced by an amount equal to the damage taken.',
+          " This effect can't reduce your hit point maximum below 10 hit points.",
+        ],
+        lasts: { kind: 'until', text: ['you finish a long rest'] },
+        ends: { cure: ['a Remove Curse spell or similar magic'] },
+      },
+      {
+        key: 'isolation-poisoned',
+        name: 'Poisoned by extradimensional travel',
+        lands: { on: 'failed-save', save: 'con', dc: 11 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'justice',
+        name: 'Justice',
+        lands: { on: 'use' },
+        text: [
+          'whenever you or a creature within 60 feet of you is about to roll a d20 with advantage or disadvantage, you can use your reaction to prevent the roll from being affected by advantage or disadvantage.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+      {
+        key: 'monster',
+        name: "Monster's curse",
+        lands: { on: 'use' },
+        text: [
+          'whenever you make a saving throw, you must roll 1d4 and subtract the number rolled from the total.',
+        ],
+        lasts: { kind: 'until', text: ['you finish a long rest'] },
+        ends: { cure: ['a Remove Curse spell or similar magic'] },
+      },
+      {
+        key: 'mystery',
+        name: 'Mystery',
+        lands: { on: 'use' },
+        text: ['You have disadvantage on Intelligence saving throws for 1 hour.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'night',
+        name: 'Night',
+        lands: { on: 'use' },
+        text: ['You gain darkvision within a range of 300 feet.'],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+      {
+        key: 'order',
+        name: 'Order',
+        lands: { on: 'use' },
+        text: [
+          'You gain resistance to one of the following damage types (chosen by the DM): force, necrotic, poison, psychic, or radiant.',
+        ],
+        lasts: { kind: 'time', amount: '1d12', unit: 'day' },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   donjon_card: {
@@ -634,6 +854,18 @@ export default createMagicItems({
       [
         "As an action, you can brandish this card at one creature you can see within 30 feet of yourself. The target must succeed on a DC 17 Charisma saving throw, or it vanishes, transported to a prison on another plane of existence. After 1 minute, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Once this property is used, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'imprisoned',
+        name: 'Imprisoned',
+        lands: { on: 'failed-save', save: 'cha', dc: 17 },
+        text: [
+          'it vanishes, transported to a prison on another plane of existence.',
+          ' After 1 minute, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.the_book_of_many_things,
   },
@@ -657,6 +889,18 @@ export default createMagicItems({
         'When you end your attunement to the sphere, the sphere harmlessly detaches from the weapon, and the weapon reverts to a nonmagical piece of equipment.',
       ],
     ],
+    effects: [
+      {
+        key: 'banished',
+        name: 'Banished',
+        lands: { on: 'failed-save', save: 'cha', dc: 16 },
+        text: [
+          'the creature is banished to a harmless demiplane until the end of its next turn.',
+          ' When the banished creature returns, it reappears in the space it left or the nearest unoccupied space if that space is occupied.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   euryale_card: {
@@ -673,6 +917,26 @@ export default createMagicItems({
         rules.restrained,
         " condition) until it is removed by the Greater Restoration spell or similar magic. Once this property is used, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'turning-to-stone',
+        name: 'Turning to stone',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+        becomes: {
+          failures: 1,
+          key: 'petrified',
+          name: 'Petrified',
+          conditions: [rules.petrified],
+          lasts: {
+            kind: 'until',
+            text: ['it is removed by the Greater Restoration spell or similar magic'],
+          },
+        },
+      },
     ],
     publication: refs.publications.the_book_of_many_things,
   },
@@ -705,6 +969,24 @@ export default createMagicItems({
       [
         "Spellcasting. While wielding the shield, you can use an action to cast one of the following spells from it: Lesser Restoration, Locate Creature, Transport via Plants. Once you use the shield to cast a spell, the shield can't cast that spell again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'turning-to-stone',
+        name: 'Turning to stone',
+        lands: { on: 'failed-save', save: 'con', dc: 20 },
+        conditions: [rules.restrained],
+        text: [
+          'The ',
+          rules.restrained,
+          ' creature must make another DC 20 Constitution saving throw at the start of its next turn.',
+          ' On a failed save, the creature has the ',
+          rules.petrified,
+          ' condition for 24 hours.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['start-of-turn'] },
+      },
     ],
     publication: refs.publications.the_book_of_many_things,
   },
@@ -754,6 +1036,18 @@ export default createMagicItems({
         "As a bonus action, you can brandish this card at one willing creature you can see within 30 feet of yourself, granting the creature a brief glimpse of the future. Until the start of your next turn, the creature has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration. Once this property is used, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'glimpse-of-the-future',
+        name: 'Glimpse of the future',
+        lands: { on: 'use' },
+        text: [
+          'the creature has advantage on attack rolls, ability checks, and saving throws.',
+          ' Additionally, other creatures have disadvantage on attack rolls against the target for the duration.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   flames_card: {
@@ -775,6 +1069,17 @@ export default createMagicItems({
       [
         "As an action, you can brandish this card at one creature you can see within 30 feet of yourself. The target must succeed on a DC 17 Wisdom saving throw, or for the next minute, the target can't cast spells or activate magic items, it has disadvantage on all saving throws, and other creatures have resistance to all damage it deals. Once this property is used, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'fools-curse',
+        name: "Fool's curse",
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        text: [
+          "the target can't cast spells or activate magic items, it has disadvantage on all saving throws, and other creatures have resistance to all damage it deals.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.the_book_of_many_things,
   },
@@ -892,6 +1197,17 @@ export default createMagicItems({
       [
         "As an action, you can speak a command word while touching this card and transform into a wolflike biped for 1 minute. For that duration, you have resistance to bludgeoning, piercing, and slashing damage, and when you hit a target with a weapon or an unarmed strike, the target takes an extra 1d6 force damage. Once this property is used, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'wolflike-form',
+        name: 'Wolflike form',
+        lands: { on: 'use' },
+        text: [
+          'For that duration, you have resistance to bludgeoning, piercing, and slashing damage, and when you hit a target with a weapon or an unarmed strike, the target takes an extra 1d6 force damage.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.the_book_of_many_things,
   },
@@ -1096,6 +1412,19 @@ export default createMagicItems({
         "Additionally, when you hit a creature with this weapon, you can force the creature to make a DC 15 Constitution saving throw. On a failed save, the creature has the poisoned condition for 1 minute. The poisoned creature takes 2d4 necrotic damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once this property is used in this way, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'ruinous-poison',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        text: [
+          'The poisoned creature takes 2d4 necrotic damage at the start of each of its turns.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   sage_card: {
@@ -1235,6 +1564,17 @@ export default createMagicItems({
         'You have disadvantage on saving throws against the frightened condition. Whenever you start your turn frightened, the greaves release an ear-piercing scream. You and each creature within 10 feet of you must make a DC 15 Constitution saving throw, taking 9 (2d8) thunder damage on a failed save, or half as much damage on a successful one.',
       ],
     ],
+    effects: [
+      {
+        key: 'shrieking-speed',
+        name: 'Shrieking speed',
+        lands: { on: 'use' },
+        text: [
+          'While wearing these greaves, you can use a bonus action to expend 1 charge to increase your walking speed by 30 feet, and you have advantage on Dexterity saving throws.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   skull_card: {
@@ -1273,6 +1613,15 @@ export default createMagicItems({
         'When you hit a Giant creature with a ranged attack roll using this magic sling, the creature must succeed on a DC 18 Constitution saving throw or have the prone condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'felled',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'con', dc: 18 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   spindle_of_fate: {
@@ -1295,6 +1644,20 @@ export default createMagicItems({
       ],
       ['The wand regains 1d6 expended charges daily at dawn.'],
     ],
+    effects: [
+      {
+        key: 'doom-foretold',
+        name: 'Doom foretold',
+        lands: { on: 'use' },
+        text: [
+          "While the target is on the same plane of existence as you, you can sense the direction to its location, and you know the direction of its movement if it's in motion. Additionally, once per turn when you deal damage to the doomed creature, you can roll 1d6 and add the number rolled to the damage roll.",
+        ],
+        lasts: {
+          kind: 'until',
+          text: ['1 hour or until you target another creature with this effect'],
+        },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   star_card: {
@@ -1305,6 +1668,17 @@ export default createMagicItems({
       [
         "As a bonus action, you can speak a command word while holding this card aloft to gain advantage on all saving throws you make for the next 10 minutes. Once this property is used, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'star-advantage',
+        name: 'Star card advantage',
+        lands: { on: 'use' },
+        text: [
+          'As a bonus action, you can speak a command word while holding this card aloft to gain advantage on all saving throws you make for the next 10 minutes.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.the_book_of_many_things,
   },
@@ -1325,6 +1699,15 @@ export default createMagicItems({
       [
         'Petrification. The war pick has 1d6 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, you can expend 1 charge from the war pick to have that creature make a DC 15 Constitution saving throw. On a failed save, the creature has the petrified condition for 8 hours. When the war pick has no charges remaining, it loses this property.',
       ],
+    ],
+    effects: [
+      {
+        key: 'petrified',
+        name: 'Petrified',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.petrified],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
     ],
     publication: refs.publications.the_book_of_many_things,
   },
@@ -1410,6 +1793,17 @@ export default createMagicItems({
         "As an action, you can speak a command word while holding this card to gain advantage on Charisma (Intimidation or Persuasion) checks for 1 minute. In addition, for that duration, you can use this card to cast the Command spell (save DC 17) as an action. Once this property is used, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'throne-presence',
+        name: 'Throne presence',
+        lands: { on: 'use' },
+        text: [
+          'to gain advantage on Charisma (Intimidation or Persuasion) checks for 1 minute. In addition, for that duration, you can use this card to cast the Command spell (save DC 17) as an action.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.the_book_of_many_things,
   },
   tidecaller_trident: {
@@ -1454,6 +1848,22 @@ export default createMagicItems({
       [
         "Curse. This armor is cursed, and attuning to it extends the curse to you. As long as you remain cursed, you're unwilling to part with the armor. Taking it off fails to end the curse. While cursed in this way, you feel disconnected from your body, continuously hearing whispers that call for you to join them. Whenever you finish a long rest while cursed, you must make a DC 11 Charisma saving throw. On a failed save, your soul is drawn from your body and trapped in an object on a different plane of existence. The object and location of this object are chosen by the DM (but might be the House of Cards; see chapter 18). While your soul is trapped in this way, your body is inert and doesn't age or require sustenance. Destroying the object frees your soul; otherwise, only a Wish spell can restore your soul to your body.",
       ],
+    ],
+    effects: [
+      {
+        key: 'soul-trapped',
+        name: 'Soul trapped',
+        lands: { on: 'failed-save', save: 'cha', dc: 11 },
+        text: [
+          "your soul is drawn from your body and trapped in an object on a different plane of existence. The object and location of this object are chosen by the DM (but might be the House of Cards; see chapter 18). While your soul is trapped in this way, your body is inert and doesn't age or require sustenance.",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'Destroying the object frees your soul; otherwise, only a Wish spell can restore your soul to your body.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.the_book_of_many_things,
   },

@@ -25,6 +25,16 @@ export default createMagicItems({
         ' by it. The ice melts in an hour.',
       ],
     ],
+    effects: [
+      {
+        key: 'frozen-in-ice',
+        name: 'Restrained by ice',
+        lands: { on: 'failed-save', save: 'dex', dc: 20 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until', text: ['The ice melts in an hour'] },
+        ends: { escape: { dc: 20 } },
+      },
+    ],
     publication: refs.publications.the_lost_dungeon_of_rickedness_big_rick_energy,
   },
 })

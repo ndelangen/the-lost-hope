@@ -564,6 +564,15 @@ export default createMagicItems({
         ' until the start of its next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
+    ],
     publication: refs.publications.guildmasters_guide_to_ravnica,
   },
   spies_murmur: {

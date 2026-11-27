@@ -47,6 +47,38 @@ export default createMagicItems({
         ' in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'acid-jet',
+        name: 'Burning acid',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        text: [
+          'a creature that fails its saving throw takes 11 (2d10) acid damage at the start of each of its turns',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'a creature can end this damage by using its action to wash off the acid with a pint or more of water.',
+          ],
+        },
+      },
+      {
+        key: 'frost-shot',
+        name: 'Slowed by frost',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['its speed is reduced by 10 feet for 1 minute.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'poison-spray',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },
   battering_shield: {
@@ -65,6 +97,15 @@ export default createMagicItems({
         rules.prone,
         ', or both.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'use' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },
@@ -230,6 +271,17 @@ export default createMagicItems({
       [
         "This reddish brown dust can be sprinkled over any edible substance to greatly improve the flavor. The dust also dulls the eater's senses: anyone eating food treated with this dust has disadvantage on Wisdom ability checks and Wisdom saving throws for 1 hour. There is enough dust to flavor six servings.",
       ],
+    ],
+    effects: [
+      {
+        key: 'dulled-senses',
+        name: 'Dulled senses',
+        lands: { on: 'use' },
+        text: [
+          'anyone eating food treated with this dust has disadvantage on Wisdom ability checks and Wisdom saving throws for 1 hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },
@@ -402,6 +454,15 @@ export default createMagicItems({
         'Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one minor beneficial property and one minor detrimental property. When the artifact attains an awakened state, it gains an additional minor beneficial property and an additional minor detrimental property. When the item reaches its exalted state, it gains a major beneficial property. See "Artifact Properties" in chapter 7 of the Dungeon Master\'s Guide for more information.',
       ],
     ],
+    effects: [
+      {
+        key: 'dead-eyes',
+        name: 'Dead Eyes',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.poisoned, rules.blinded],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },
   luxon_beacon: {
@@ -424,6 +485,17 @@ export default createMagicItems({
       [
         'Soul Snare. If a follower of the Luxon who has undergone a ritual of consecution dies within 100 miles of a Luxon Beacon, their soul is ensnared by it. This soul will be reincarnated within the body of a random humanoid baby developing within 100 miles of the beacon.',
       ],
+    ],
+    effects: [
+      {
+        key: 'fragment-of-possibility',
+        name: 'Fragment of Possibility',
+        lands: { on: 'use' },
+        text: [
+          'When a creature with a Fragment of Possibility makes an attack roll, an ability check, or a saving throw, it can expend its fragment to roll an additional d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against the creature, it can expend its fragment to roll a d20 and choose which of the d20s to use, the one it rolled or the one the attacker rolled.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
     ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },
@@ -522,6 +594,17 @@ export default createMagicItems({
       ],
       ['This glowing purple liquid smells of sugar and plum, but it has a muddy taste.'],
     ],
+    effects: [
+      {
+        key: 'maximum-power',
+        name: 'Maximum Power',
+        lands: { on: 'use' },
+        text: [
+          'The first time you cast a damage-dealing spell of 4th level or lower within 1 minute after drinking the potion, instead of rolling dice to determine the damage dealt, you can instead use the highest number possible for each die.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },
   potion_of_possibility: {
@@ -541,6 +624,19 @@ export default createMagicItems({
       [
         "While you have one or more Fragments of Possibility from this potion, you can't gain another Fragment of Possibility from any source.",
       ],
+    ],
+    effects: [
+      {
+        key: 'fragments-of-possibility',
+        name: 'Fragments of Possibility',
+        lands: { on: 'use' },
+        text: [
+          'you gain two Fragments of Possibility',
+          ' ',
+          'When you make an attack roll, an ability check, or a saving throw, you can expend your fragment to roll an additional d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against you, you can expend your fragment to roll a d20 and choose which of the d20s to use, the one you rolled or the one the attacker rolled.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
     ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },
@@ -675,6 +771,22 @@ export default createMagicItems({
         'Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one minor beneficial property and one minor detrimental property. When the artifact attains an awakened state, it gains an additional minor beneficial property and an additional minor detrimental property. When the item reaches its exalted state, it gains a major beneficial property. See "Artifact Properties" in chapter 7 of the Dungeon Master\'s Guide for more information.',
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.poisoned],
+        text: [
+          'If the saving throw fails by 5 or more, the creature is also ',
+          rules.unconscious,
+          ' while ',
+          rules.poisoned,
+          ' in this way. The creature wakes up if it takes damage or if another creature uses its action to shake the creature awake.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },
   spell_bottle: {
@@ -752,6 +864,19 @@ export default createMagicItems({
       [
         "Once you use the girdle's Storm Avatar property, that property can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'storm-avatar',
+        name: 'Storm Avatar',
+        lands: { on: 'use' },
+        text: [
+          'You have immunity to lightning damage and thunder damage. ',
+          'When you hit with a weapon attack that normally deals bludgeoning damage, it deals thunder damage instead. When you hit with a weapon attack that normally deals piercing or slashing damage, it deals lightning damage instead. ',
+          'As a bonus action, you can choose one creature you can see within 30 feet of you to be struck by lightning.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },
@@ -865,6 +990,16 @@ export default createMagicItems({
         'Betrayer Artifact Properties. The Arms of the Betrayers advance in power in the same manner as the Vestiges of Divergence. In its dormant state, each of these artifacts has one minor beneficial property and one minor detrimental property. When the artifact attains an awakened state, it gains an additional minor beneficial property and an additional minor detrimental property. When the item reaches its exalted state, it gains a major beneficial property. See "Artifact Properties" in chapter 7 of the Dungeon Master\'s Guide for more information.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 13 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },
   wreath_of_the_prism_dormant: {
@@ -886,6 +1021,27 @@ export default createMagicItems({
         rules.charmed,
         ' by you.',
       ],
+    ],
+    effects: [
+      {
+        key: 'dominated',
+        name: 'Dominated by the wreath',
+        lands: { on: 'failed-save', save: 'wis', dc: 13 },
+        conditions: [rules.charmed],
+        text: [
+          "a shimmering, golden image of the wreath appears as a collar around the target's neck or as a crown on its head (your choice) until it is no longer ",
+          rules.charmed,
+          ' by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. When the spell ends, the target knows it was ',
+          rules.charmed,
+          ' by you.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'If you use the wreath to charm a second creature, the first spell immediately ends.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.explorer_s_guide_to_wildemount,
   },

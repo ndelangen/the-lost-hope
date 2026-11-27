@@ -1,5 +1,8 @@
 import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
 import { createMagicItems } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
 
 export default createMagicItems({
   adze_of_annam: {
@@ -136,6 +139,24 @@ export default createMagicItems({
         "A creature can benefit from only one painted rune at a time, so a new rune painted on a creature has no effect unless the old one is removed first. The rune's benefits last for 8 hours or until the painted creature uses its action to wipe away the rune.",
       ],
     ],
+    effects: [
+      {
+        key: 'painted-rune',
+        name: 'Painted rune',
+        lands: { on: 'use' },
+        text: [
+          "Journey Rune. difficult terrain doesn't cost the painted creature extra movement. ",
+          'Life Rune. The painted creature gains 10 temporary hit points and has advantage on death saving throws. ',
+          'Light Rune. The painted creature gains darkvision to a range of 30 feet. If the painted creature already has darkvision from another source, the range of its darkvision increases by 30 feet. ',
+          'Mountain Rune. The painted creature is immune to being knocked prone and has advantage on Strength and Constitution saving throws. ',
+          'Shield Rune. The painted creature has advantage on Dexterity saving throws against effects that deal damage.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: ['8 hours or until the painted creature uses its action to wipe away the rune'],
+        },
+      },
+    ],
     publication: refs.publications.bigby_presents_glory_of_the_giants,
   },
   harp_of_gilded_plenty: {
@@ -227,6 +248,18 @@ export default createMagicItems({
       ],
       ["Once the rune has been invoked, it can't be invoked again until the next dawn."],
     ],
+    effects: [
+      {
+        key: 'fiery-bands',
+        name: 'Fiery bands',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        text: [
+          'When you score a critical hit with an attack using this whip, the target also has the restrained condition until the start of your next turn, as fiery bands lash around the target.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.bigby_presents_glory_of_the_giants,
   },
   longbow_of_the_healing_hearth: {
@@ -295,6 +328,15 @@ export default createMagicItems({
       ],
       ["Once the rune has been invoked, it can't be invoked again until the next dawn."],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Buffeted',
+        lands: { on: 'failed-save', save: 'dex', dc: 14 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.bigby_presents_glory_of_the_giants,
   },
   nimbus_coronet: {
@@ -316,6 +358,20 @@ export default createMagicItems({
         'While in cloud form, you have a flying speed of 60 feet and resistance to bludgeoning, piercing, and slashing damage.',
       ],
       ["Once the rune has been invoked, it can't be invoked again until the next dawn."],
+    ],
+    effects: [
+      {
+        key: 'cloud-form',
+        name: 'Cloud form',
+        lands: { on: 'use' },
+        text: [
+          'While in cloud form, you have a flying speed of 60 feet and resistance to bludgeoning, piercing, and slashing damage.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: ['1 minute, until you are incapacitated, or until you dismiss it'],
+        },
+      },
     ],
     publication: refs.publications.bigby_presents_glory_of_the_giants,
   },
@@ -462,6 +518,15 @@ export default createMagicItems({
       ],
       ["Once the rune has been invoked, it can't be invoked again until the next dawn."],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: "Reaper's Scream",
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.bigby_presents_glory_of_the_giants,
   },
   ring_of_amity: {
@@ -529,6 +594,15 @@ export default createMagicItems({
       ],
       ["Once the shield has been activated, it can't be activated again until the next dawn."],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Shield Bash',
+        lands: { on: 'failed-save', save: 'str', dc: 'user' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.bigby_presents_glory_of_the_giants,
   },
   staff_of_the_rooted_hills: {
@@ -550,6 +624,15 @@ export default createMagicItems({
       [
         "Once the rune has been invoked to cast either spell, it can't be invoked again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'vines',
+        name: 'Spectral vines',
+        lands: { on: 'failed-save', save: 'str', dc: 12 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.bigby_presents_glory_of_the_giants,
   },
@@ -592,6 +675,15 @@ export default createMagicItems({
       ],
       ["Once the rune has been invoked, it can't be invoked again until the next dawn."],
     ],
+    effects: [
+      {
+        key: 'no-reactions',
+        name: 'Thunderstruck',
+        lands: { on: 'failed-save', save: 'con', dc: 14 },
+        text: ["it can't take reactions until the end of your next turn"],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.bigby_presents_glory_of_the_giants,
   },
   war_horn_of_valor: {
@@ -610,6 +702,26 @@ export default createMagicItems({
         "Invoking the Rune. When you blow the horn, you can also invoke the rune, imbuing the horn's deep call with protective magic that affects creatures of your choice within 30 feet of yourself. You and all affected creatures gain a +1 bonus to AC until the start of your next turn.",
       ],
       ["Once the rune has been invoked, it can't be invoked again until the next dawn."],
+    ],
+    effects: [
+      {
+        key: 'emboldened',
+        name: 'Emboldened',
+        lands: { on: 'use' },
+        text: [
+          'You also have advantage on saving throws against being frightened until the start of your next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+      {
+        key: 'valor',
+        name: 'Valor',
+        lands: { on: 'use' },
+        text: [
+          'You and all affected creatures gain a +1 bonus to AC until the start of your next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.bigby_presents_glory_of_the_giants,
   },
@@ -647,6 +759,27 @@ export default createMagicItems({
         'The fists last for 1 minute or until you are incapacitated. While the spectral fists are active, unarmed strikes you make on your turn have a reach of 30 feet, and when you hit a creature with an opportunity attack made with your unarmed strike, the creature must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) or have the prone condition.',
       ],
       ["Once the runes have been invoked, they can't be invoked again until the next dawn."],
+    ],
+    effects: [
+      {
+        key: 'spectral-fists',
+        name: 'Spectral fists',
+        lands: { on: 'use' },
+        text: [
+          'While the spectral fists are active, unarmed strikes you make on your turn have a reach of 30 feet, and when you hit a creature with an opportunity attack made with your unarmed strike, the creature must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) or have the prone condition.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: ['The fists last for 1 minute or until you are incapacitated.'],
+        },
+      },
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 'user' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.bigby_presents_glory_of_the_giants,
   },

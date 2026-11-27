@@ -18,6 +18,15 @@ export default createMagicItems({
         'Upon donning or removing the necklace, whether you are attuned to it or not, you are afflicted with werewolf lycanthropy as detailed in the Monster Manual. The curse lasts until the dawn after the next full moon. If you are still wearing the necklace at this time, you are afflicted with the lycanthropy again.',
       ],
     ],
+    effects: [
+      {
+        key: 'lycanthropy',
+        name: 'Werewolf lycanthropy',
+        lands: { on: 'use' },
+        text: ['you are afflicted with werewolf lycanthropy as detailed in the Monster Manual.'],
+        lasts: { kind: 'until', text: ['the dawn after the next full moon'] },
+      },
+    ],
     publication: refs.publications.van_richten_s_guide_to_ravenloft,
   },
   nepenthe: {

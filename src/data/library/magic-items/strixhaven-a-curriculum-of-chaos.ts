@@ -105,6 +105,47 @@ export default createMagicItems({
         "Destroying the Orb. Murgaxor's orb has AC 18; 20 hit points; immunity to necrotic, poison, and psychic damage; and resistance to all other types of damage. If reduced to 0 hit points, the orb shatters.",
       ],
     ],
+    effects: [
+      {
+        key: 'murgaxor-curse',
+        name: 'Murgaxor’s curse',
+        lands: { on: 'failed-save', save: 'wis', dc: 10 },
+        text: [
+          "Each creature cursed by the orb bears an echo of Murgaxor's hateful thoughts, and that creature suffers from headaches that are persistent but not debilitating until the curse ends.",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'The curse can also be removed from a creature with a remove curse spell or similar magic.',
+            " All cases of the curse end if Murgaxor's orb is destroyed.",
+          ],
+        },
+      },
+      {
+        key: 'unconscious',
+        name: 'Unconscious',
+        lands: { on: 'use' },
+        conditions: [rules.unconscious],
+        text: [
+          'The creature is roused if it takes damage or someone uses an action to shake or slap it awake.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'visions-of-terror',
+        name: 'Visions of Terror',
+        lands: { on: 'use' },
+        text: [
+          "The cursed creature sees terrifying visions, causing it to view all creatures that aren't also cursed as dangerous monsters for 10 minutes.",
+          ' The cursed creature must use its action each round to make one attack against the nearest non-cursed creature.',
+          ' If the cursed creature has multiple possible targets, it attacks one at random.',
+          ' This effect ends if the cursed creature is ',
+          rules.incapacitated,
+          '.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.strixhaven_a_curriculum_of_chaos,
   },
   prismari_primer: {

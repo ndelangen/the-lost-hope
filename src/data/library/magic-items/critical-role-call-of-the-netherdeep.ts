@@ -48,6 +48,17 @@ export default createMagicItems({
         "You can squeeze this medal tightly in the palm of your hand as an action. Doing so gives you advantage on Strength checks and Strength saving throws for 1 hour. Once this property has been used, it can't be used again, and the medal becomes nonmagical.",
       ],
     ],
+    effects: [
+      {
+        key: 'muscle',
+        name: 'Medal of Muscle',
+        lands: { on: 'use' },
+        text: [
+          'Doing so gives you advantage on Strength checks and Strength saving throws for 1 hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.critical_role_call_of_the_netherdeep,
   },
   medal_of_the_conch: {
@@ -58,6 +69,15 @@ export default createMagicItems({
       [
         "When you use an action to rub this medal, you gain a swimming speed equal to your walking speed for 1 hour. Once this property has been used, it can't be used again, and the medal becomes nonmagical.",
       ],
+    ],
+    effects: [
+      {
+        key: 'conch',
+        name: 'Medal of the Conch',
+        lands: { on: 'use' },
+        text: ['you gain a swimming speed equal to your walking speed for 1 hour.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.critical_role_call_of_the_netherdeep,
   },
@@ -70,6 +90,17 @@ export default createMagicItems({
         "When you would be hit by an attack, you can use your reaction to increase your AC by 5 until the start of your next turn, including against the triggering attack. You must be wearing the medal and able to see the creature that made the triggering attack to use this property. Once this property has been used, it can't be used again, and the medal becomes nonmagical.",
       ],
     ],
+    effects: [
+      {
+        key: 'horizonback',
+        name: 'Medal of the Horizonback',
+        lands: { on: 'use' },
+        text: [
+          'you can use your reaction to increase your AC by 5 until the start of your next turn, including against the triggering attack.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
+    ],
     publication: refs.publications.critical_role_call_of_the_netherdeep,
   },
   medal_of_the_maze: {
@@ -80,6 +111,17 @@ export default createMagicItems({
       [
         "When you use an action to trace the maze inscribed on this medal, you gain advantage on Wisdom checks and know the quickest route to the end of any nonmagical path or maze for 1 hour. Once this property has been used, it can't be used again, and the medal becomes nonmagical.",
       ],
+    ],
+    effects: [
+      {
+        key: 'maze',
+        name: 'Medal of the Maze',
+        lands: { on: 'use' },
+        text: [
+          'you gain advantage on Wisdom checks and know the quickest route to the end of any nonmagical path or maze for 1 hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.critical_role_call_of_the_netherdeep,
   },
@@ -106,6 +148,15 @@ export default createMagicItems({
         "When you use an action to trace the edge of this medal, difficult terrain doesn't cost you extra movement for 1 hour. Once this property has been used, it can't be used again, and the medal becomes nonmagical.",
       ],
     ],
+    effects: [
+      {
+        key: 'wetlands',
+        name: 'Medal of the Wetlands',
+        lands: { on: 'use' },
+        text: ["difficult terrain doesn't cost you extra movement for 1 hour."],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.critical_role_call_of_the_netherdeep,
   },
   medal_of_wit: {
@@ -116,6 +167,17 @@ export default createMagicItems({
       [
         "You can press this medal to your temple as an action. Doing so gives you advantage on Intelligence checks and Intelligence saving throws for 1 hour. Once this property has been used, it can't be used again, and the medal becomes nonmagical.",
       ],
+    ],
+    effects: [
+      {
+        key: 'wit',
+        name: 'Medal of Wit',
+        lands: { on: 'use' },
+        text: [
+          'Doing so gives you advantage on Intelligence checks and Intelligence saving throws for 1 hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.critical_role_call_of_the_netherdeep,
   },
@@ -154,6 +216,35 @@ export default createMagicItems({
         'If Ruidium Is Destroyed. If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and the ring of red fury becomes a ring of free action.',
       ],
     ],
+    effects: [
+      {
+        key: 'ruidium-rage',
+        name: 'Ruidium Rage',
+        lands: { on: 'use' },
+        text: [
+          'You have advantage on Strength checks and Strength saving throws. ',
+          'When you hit with an attack, you can add your proficiency bonus to the damage roll. ',
+          "Difficult terrain doesn't cost you extra movement, and you are immune to the ",
+          rules.paralyzed,
+          ' and ',
+          rules.restrained,
+          ' conditions.',
+        ],
+        lasts: { kind: 'until', text: ['1 minute or until you are ', rules.incapacitated] },
+      },
+      {
+        key: 'ruidium-exhaustion',
+        name: 'Ruidium exhaustion',
+        lands: { on: 'failed-save', save: 'cha', dc: 20 },
+        text: [
+          'On a failed save, you gain 1 level of ',
+          rules.exhaustion,
+          '. ',
+          'If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.critical_role_call_of_the_netherdeep,
   },
   ruidium_shield: {
@@ -181,6 +272,20 @@ export default createMagicItems({
       [
         'If Ruidium Is Destroyed. If the Apotheon is killed or redeemed, all the ruidium in Exandria is destroyed instantly, and a ruidium shield becomes a +2 shield.',
       ],
+    ],
+    effects: [
+      {
+        key: 'ruidium-exhaustion',
+        name: 'Ruidium exhaustion',
+        lands: { on: 'failed-save', save: 'cha', dc: 20 },
+        text: [
+          'On a failed save, you gain 1 level of ',
+          rules.exhaustion,
+          '. ',
+          'If you are not already suffering from ruidium corruption, you become corrupted when you fail this save.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.critical_role_call_of_the_netherdeep,
   },

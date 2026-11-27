@@ -20,6 +20,17 @@ export default createMagicItems({
         "After the spirit departs, the backpack's property is unusable unless the backpack is recharged for 1 hour in an elemental air node, which binds another spirit to the backpack.",
       ],
     ],
+    effects: [
+      {
+        key: 'levitating',
+        name: 'Levitating',
+        lands: { on: 'use' },
+        text: [
+          'you can deploy the balloon as an action and gain the effect of the levitate spell for 10 minutes, targeting yourself and requiring no concentration.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.princes_of_the_apocalypse,
   },
   bottled_breath: {
@@ -33,6 +44,17 @@ export default createMagicItems({
       [
         "If you exhale the breath, you gain the effect of the gust of wind spell. If you hold the breath, you don't need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn't give you the benefit of exhaling the breath.",
       ],
+    ],
+    effects: [
+      {
+        key: 'held-breath',
+        name: 'Held breath',
+        lands: { on: 'use' },
+        text: [
+          "If you hold the breath, you don't need to breathe for 1 hour, though you can end this benefit early (for example, to speak).",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.princes_of_the_apocalypse,
   },
@@ -239,6 +261,17 @@ export default createMagicItems({
         'You can use a bonus action to inspire one creature you can see that is within 60 feet of you and that can see or hear you. Once before the end of your next turn, the inspired creature can roll a d6 and add the number rolled to one ability check, attack roll, or saving throw it makes. This uses 1 charge from the crown. It has 3 charges, and it regains 1d3 expended charges daily at dawn.',
       ],
     ],
+    effects: [
+      {
+        key: 'inspired',
+        name: 'Inspired',
+        lands: { on: 'use' },
+        text: [
+          'Once before the end of your next turn, the inspired creature can roll a d6 and add the number rolled to one ability check, attack roll, or saving throw it makes.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.princes_of_the_apocalypse,
   },
   orcsplitter: {
@@ -339,6 +372,15 @@ export default createMagicItems({
       [
         'Once the boomerang deals thunder damage to a target, the weapon loses its ability to deal thunder damage and its ability to stun a target. These properties return after the boomerang spends at least 1 hour inside an elemental air node.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con', dc: 10 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.princes_of_the_apocalypse,
   },

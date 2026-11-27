@@ -45,6 +45,15 @@ export default createMagicItems({
         'Destroying Ashbringer. Ashbringer can be destroyed only by its creator, Magni Bronzebeard. The weapon will shatter when he strikes it against the Great Anvil of Ironforge.',
       ],
     ],
+    effects: [
+      {
+        key: 'ash-blinded',
+        name: 'Blinded by ash',
+        lands: { on: 'failed-save', save: 'con', dc: 18 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.d_d_world_of_warcraft,
   },
   avianas_feather: {
@@ -76,6 +85,15 @@ export default createMagicItems({
       [
         'Cursed. This item is cursed. Attuning to it curses you until you are targeted by a Remove Curse spell or similar magic. Removing the crown fails to end the curse on you. While cursed, you are far hungrier than normal. You lose all your table manners, and your daily food requirement triples.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 17 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.d_d_world_of_warcraft,
   },
@@ -145,6 +163,17 @@ export default createMagicItems({
         "While wearing this pack, you can take a Magic action to fire up its jets. The jets remain active for 1 hour or until you end the effect early as a Magic action. The jets give you a Fly Speed of 60 feet. If you are aloft when the jets become inactive, you fall. When the jets stop, you can't use them again for 1d12 hours.",
       ],
     ],
+    effects: [
+      {
+        key: 'jets',
+        name: 'Jets active',
+        lands: { on: 'use' },
+        text: [
+          'The jets give you a Fly Speed of 60 feet. If you are aloft when the jets become inactive, you fall.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.d_d_world_of_warcraft,
   },
   figurine_of_wondrous_power_jeweled_panther: {
@@ -176,6 +205,15 @@ export default createMagicItems({
         'When you drink this potion, your Hit Point maximum and current Hit Points increase by 30 for 1 hour.',
       ],
       ['The golden liquid in this flask tastes like honey and gleams with the light of dawn.'],
+    ],
+    effects: [
+      {
+        key: 'titan-vigor',
+        name: 'Flask of the Titans',
+        lands: { on: 'use' },
+        text: ['your Hit Point maximum and current Hit Points increase by 30 for 1 hour.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.d_d_world_of_warcraft,
   },
@@ -338,6 +376,18 @@ export default createMagicItems({
         "Drinking multiple Noggenfogger Elixirs doesn't require you to roll on the Potion Miscibility table in the Dungeon Master's Guide.",
       ],
       ['This green potion is oily in the mouth.'],
+    ],
+    effects: [
+      {
+        key: 'noggenfogger',
+        name: 'Noggenfogger',
+        lands: { on: 'use' },
+        text: [
+          "On a 1-2, you take on a skeletal appearance for 1d4 hours, during which time you don't need to breathe. ",
+          'On a 3-4, you gain the Reduce effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required). On a 5-6, your rate of descent while falling slows to 60 feet per round for 10 minutes. During that time, you take no damage from falling.',
+        ],
+        lasts: { kind: 'time', amount: '1d4', unit: 'hour' },
+      },
     ],
     publication: refs.publications.d_d_world_of_warcraft,
   },
@@ -557,6 +607,17 @@ export default createMagicItems({
         "Destroying Sulfuras. In an underwater tunnel network deep beneath Vashj'ir lies an abandoned, heavily trapped temple to Neptulon, the Elemental Lord of Water. Placing Sulfuras on the temple's central altar quenches its fire permanently, rendering it nonmagical and destructible.",
       ],
     ],
+    effects: [
+      {
+        key: 'burning',
+        name: 'Burning',
+        lands: { on: 'hit' },
+        text: [
+          'starts burning, taking 1d10 Fire damage at the start of each of its turns instead of the normal burning damage.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.d_d_world_of_warcraft,
   },
   trolls_blood_elixir: {
@@ -568,6 +629,17 @@ export default createMagicItems({
         'When you drink this potion, you regain 2 Hit Points. At the start of each of your turns for the next 1 minute, you regain that number of Hit Points again if you have at least 1 Hit Point. This thick green elixir is made from herbs.',
       ],
       ['No trolls were harmed in the making of this elixir.'],
+    ],
+    effects: [
+      {
+        key: 'regenerating',
+        name: 'Troll’s blood',
+        lands: { on: 'use' },
+        text: [
+          'At the start of each of your turns for the next 1 minute, you regain that number of Hit Points again if you have at least 1 Hit Point.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.d_d_world_of_warcraft,
   },
@@ -581,6 +653,17 @@ export default createMagicItems({
       ],
       ['No trolls were harmed in the making of this elixir.'],
     ],
+    effects: [
+      {
+        key: 'regenerating',
+        name: 'Troll’s blood',
+        lands: { on: 'use' },
+        text: [
+          'At the start of each of your turns for the next 1 minute, you regain that number of Hit Points again if you have at least 1 Hit Point.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.d_d_world_of_warcraft,
   },
   trolls_blood_elixir_superior: {
@@ -593,6 +676,17 @@ export default createMagicItems({
       ],
       ['No trolls were harmed in the making of this elixir.'],
     ],
+    effects: [
+      {
+        key: 'regenerating',
+        name: 'Troll’s blood',
+        lands: { on: 'use' },
+        text: [
+          'At the start of each of your turns for the next 1 minute, you regain that number of Hit Points again if you have at least 1 Hit Point.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.d_d_world_of_warcraft,
   },
   trolls_blood_elixir_supreme: {
@@ -604,6 +698,17 @@ export default createMagicItems({
         'When you drink this potion, you regain 8 Hit Points. At the start of each of your turns for the next 1 minute, you regain that number of Hit Points again if you have at least 1 Hit Point. This thick green elixir is made from herbs.',
       ],
       ['No trolls were harmed in the making of this elixir.'],
+    ],
+    effects: [
+      {
+        key: 'regenerating',
+        name: 'Troll’s blood',
+        lands: { on: 'use' },
+        text: [
+          'At the start of each of your turns for the next 1 minute, you regain that number of Hit Points again if you have at least 1 Hit Point.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.d_d_world_of_warcraft,
   },
@@ -636,6 +741,15 @@ export default createMagicItems({
       [
         'Destroying the Blades. Reciting an ancient poem called "Gift of the Light" over the blades causes them to dissolve into glittering dust. This poem has largely been lost to time, but a few rare naaru remember it.',
       ],
+    ],
+    effects: [
+      {
+        key: 'fel-stunned',
+        name: 'Racked by fel magic',
+        lands: { on: 'failed-save', save: 'wis', dc: 18 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.d_d_world_of_warcraft,
   },

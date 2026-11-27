@@ -41,6 +41,17 @@ export default createMagicItems({
         'The second route, in case Mammon is unavailable or unwilling, is to incinerate the book. To accomplish this task, a pot of platinum (valued at no less than 99,999 gp) must be melted, enough to fully submerge the book. Once the platinum is prepared, dropping the tome into the molten solution melts the tome. The process completely destroys the tome, as well as the platinum.',
       ],
     ],
+    effects: [
+      {
+        key: 'tome-negotiates',
+        name: 'Tome negotiating',
+        lands: { on: 'use' },
+        text: [
+          'For 1 minute, the Accounting and Valuation of All Things speaks for you, using a +12 Charisma (Persuasion) skill and gaining advantage on your rolls.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.chains_of_asmodeus,
   },
   amulet_of_appearance: {
@@ -181,6 +192,17 @@ export default createMagicItems({
         'Condensed Order is a silvery powder that can be extracted from those of a lawful persuasion. Devils bound for the war fronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. Taking the substance requires an action and makes you immune to the flesh warping feature of demonic ichor. It also gives you advantage on saving throws against any effect from a demonic source. These benefits last for 8 hours.',
       ],
     ],
+    effects: [
+      {
+        key: 'fortified-by-order',
+        name: 'Condensed Order',
+        lands: { on: 'use' },
+        text: [
+          'Taking the substance requires an action and makes you immune to the flesh warping feature of demonic ichor. It also gives you advantage on saving throws against any effect from a demonic source.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.chains_of_asmodeus,
   },
   gauntlets_of_rage: {
@@ -196,6 +218,22 @@ export default createMagicItems({
         rules.frightened,
         ' conditions. Each time you deal damage, you regain 2d8 hit points and may immediately remove a condition you currently suffer from or end this fury. Additionally, while in this fury, you may spend a spell slot before you make a melee attack. Doing so causes the attack to deal an extra 3 (1d6) necrotic damage per level of spell slot expended, if the attack hits. Once used you may not use this fury again until you finish a short or long rest.',
       ],
+    ],
+    effects: [
+      {
+        key: 'fury',
+        name: 'Fury',
+        lands: { on: 'use' },
+        text: [
+          "While furious, you can't cast spells, can't verbally communicate, and are immune to the ",
+          rules.charmed,
+          ' and ',
+          rules.frightened,
+          ' conditions. ',
+          'Each time you deal damage, you regain 2d8 hit points and may immediately remove a condition you currently suffer from or end this fury. Additionally, while in this fury, you may spend a spell slot before you make a melee attack. Doing so causes the attack to deal an extra 3 (1d6) necrotic damage per level of spell slot expended, if the attack hits.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.chains_of_asmodeus,
   },
@@ -244,6 +282,29 @@ export default createMagicItems({
         " Beast, Celestial, Dragon, Fey, or Giant with this knife. Over the next 10 minutes the creature dies an agonizing death that can't be prevented short of the Wish spell. If the creature has any resistances or immunities, you gain those resistances and immunities until the creature dies or a Wish spell is used to save the creature. The knife's power can't be used again until you finish a long rest.",
       ],
     ],
+    effects: [
+      {
+        key: 'agonizing-death',
+        name: 'Infernal rune',
+        lands: { on: 'use' },
+        text: [
+          "Over the next 10 minutes the creature dies an agonizing death that can't be prevented short of the Wish spell.",
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+      {
+        key: 'stolen-resistance',
+        name: 'Stolen resistance',
+        lands: { on: 'use' },
+        text: [
+          'If the creature has any resistances or immunities, you gain those resistances and immunities',
+        ],
+        lasts: {
+          kind: 'until',
+          text: ['the creature dies or a Wish spell is used to save the creature'],
+        },
+      },
+    ],
     publication: refs.publications.chains_of_asmodeus,
   },
   ranseur_of_torture: {
@@ -282,6 +343,26 @@ export default createMagicItems({
       [
         'Destroying the Ranseur. Only through the written consent of both Dispater and Belial can the Ranseur of Torture be destroyed. If either or both of the archdevils are dead, then the new archdevil to take their mantle must give permission in their stead. The two writs must be wrapped around each of the prongs of the weapon, then the weapon must be tossed into the Pit of Flame. If performed successfully, the Hellfire briefly burns a different hue.',
       ],
+    ],
+    effects: [
+      {
+        key: 'torture-wound',
+        name: 'Torture wound',
+        lands: { on: 'hit' },
+        text: [
+          "Damage dealt by the Ranseur of Torture is particularly dangerous, as it can only be restored through magical means. Resting, food, and medicine won't restore hit points removed by the pike. If the damage goes untreated for 7 days, the missing hit points are permanently removed, and can be recovered only through casting a Regenerate or Wish spell on the victim.",
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'interrupted',
+        name: 'Interrupted',
+        lands: { on: 'hit' },
+        text: [
+          'Spellcasters damaged by the Ranseur of Torture have disadvantage on Constitution checks made to maintain concentration',
+        ],
+        lasts: { kind: 'until', text: ['the damage is healed'] },
+      },
     ],
     publication: refs.publications.chains_of_asmodeus,
   },
@@ -364,6 +445,23 @@ export default createMagicItems({
       [
         "Destroying the Rod. While Asmodeus lives, the Ruby Rod of Asmodeus can't be destroyed, and if attempted it simply returns to Asmodeus. If he were defeated, the rod could be destroyed by bringing it to the Abyss from whence it was created, then performing a ritual known only to Asmodeus.",
       ],
+    ],
+    effects: [
+      {
+        key: 'kneeling',
+        name: 'Kneeling',
+        lands: { on: 'failed-save', save: 'cha', dc: 21 },
+        text: [
+          'A creature must succeed on a DC 21 Charisma saving throw or be forced to kneel for up to 1 hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: {
+          repeatSave: ['damaged'],
+          cure: [
+            "The effect also ends early for kneeling creatures if they're touched by the Ruby Rod.",
+          ],
+        },
+      },
     ],
     publication: refs.publications.chains_of_asmodeus,
   },
@@ -475,6 +573,17 @@ export default createMagicItems({
         'Destroying the Shards. While Levistus still lives, destroying the True-Ice Shards serves little purpose, as he is capable of recreating them at will. That aside, the shards can be destroyed when subjected to a sufficient source of heat. A few such sources include the inside of an active volcano, a continuous source of Hellfire, or a powerful fire spell cast at 9th level.',
       ],
     ],
+    effects: [
+      {
+        key: 'cold-vulnerable',
+        name: 'Vulnerable to cold',
+        lands: { on: 'failed-save', save: 'con', dc: 22 },
+        text: [
+          'On a failed save, the creature that took the damage becomes vulnerable to cold damage for 24 hours.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.chains_of_asmodeus,
   },
   true_ice_shards_rapier: {
@@ -521,6 +630,26 @@ export default createMagicItems({
       [
         'Destroying the Shards. While Levistus still lives, destroying the True-Ice Shards serves little purpose, as he is capable of recreating them at will. That aside, the shards can be destroyed when subjected to a sufficient source of heat. A few such sources include the inside of an active volcano, a continuous source of Hellfire, or a powerful fire spell cast at 9th level.',
       ],
+    ],
+    effects: [
+      {
+        key: 'cold-vulnerable',
+        name: 'Vulnerable to cold',
+        lands: { on: 'failed-save', save: 'con', dc: 22 },
+        text: [
+          'On a failed save, the creature that took the damage becomes vulnerable to cold damage for 24 hours.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+      {
+        key: 'best-defense',
+        name: 'The Best Defense',
+        lands: { on: 'use' },
+        text: [
+          'As a reaction to being attacked, you use the rapier to increase your defense, adding +3 to your AC until the end of your next turn. If you attack with the rapier before the end of your next turn, you do not have its +3 bonus to attack and damage rolls.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.chains_of_asmodeus,
   },

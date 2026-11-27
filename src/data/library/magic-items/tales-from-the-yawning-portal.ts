@@ -51,6 +51,15 @@ export default createMagicItems({
         ' instantly.',
       ],
     ],
+    effects: [
+      {
+        key: 'petrified',
+        name: 'Petrified by the bracelet',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.petrified],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.tales_from_the_yawning_portal,
   },
   eagle_whistle: {
@@ -98,6 +107,16 @@ export default createMagicItems({
       [
         "The sixth time you use the cloak, and each time thereafter, you must make a DC 15 Charisma saving throw. On a failed save, the transformation lasts until dispelled or until you drop to 0 hit points, and you can't willingly return to normal form. If you ever remain in hell hound form for 6 hours, the transformation becomes permanent and you lose your sense of self. All your statistics are then replaced by those of a hell hound. Thereafter, only remove curse or similar magic allows you to regain your identity and return to normal. If you remain in this permanent form for 6 days, only a wish spell can reverse the transformation.",
       ],
+    ],
+    effects: [
+      {
+        key: 'hell-hound-curse',
+        name: 'Hell hound curse',
+        lands: { on: 'use' },
+        text: ['you are unwilling to part with the cloak, keeping it within reach at all times.'],
+        lasts: { kind: 'until-removed' },
+        ends: { cure: ['remove curse or similar magic'] },
+      },
     ],
     publication: refs.publications.tales_from_the_yawning_portal,
   },
@@ -204,6 +223,21 @@ export default createMagicItems({
         ' creature has disadvantage on new saving throws to break the effect during this time.',
       ],
     ],
+    effects: [
+      {
+        key: 'dominated',
+        name: 'Dominated',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.charmed],
+        text: [
+          'The ',
+          rules.charmed,
+          ' creature has disadvantage on new saving throws to break the effect during this time.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['damaged'] },
+      },
+    ],
     publication: refs.publications.tales_from_the_yawning_portal,
   },
   potion_of_mind_control_humanoid: {
@@ -220,6 +254,21 @@ export default createMagicItems({
         ' creature has disadvantage on new saving throws to break the effect during this time.',
       ],
     ],
+    effects: [
+      {
+        key: 'dominated',
+        name: 'Dominated',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.charmed],
+        text: [
+          'The ',
+          rules.charmed,
+          ' creature has disadvantage on new saving throws to break the effect during this time.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['damaged'] },
+      },
+    ],
     publication: refs.publications.tales_from_the_yawning_portal,
   },
   potion_of_mind_control_monster: {
@@ -235,6 +284,21 @@ export default createMagicItems({
         rules.charmed,
         ' creature has disadvantage on new saving throws to break the effect during this time.',
       ],
+    ],
+    effects: [
+      {
+        key: 'dominated',
+        name: 'Dominated',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.charmed],
+        text: [
+          'The ',
+          rules.charmed,
+          ' creature has disadvantage on new saving throws to break the effect during this time.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['damaged'] },
+      },
     ],
     publication: refs.publications.tales_from_the_yawning_portal,
   },
@@ -328,6 +392,24 @@ export default createMagicItems({
         'Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.',
       ],
     ],
+    effects: [
+      {
+        key: 'berserk',
+        name: 'Berserk',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          'While berserk, you must use your action each round to attack the creature nearest to you with the axe.',
+          ' If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target.',
+          ' If you have multiple possible targets, you attack one at random.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'you start your turn with no creatures within 60 feet of you that you can see or hear',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.tales_from_the_yawning_portal,
   },
   wand_of_entangle: {
@@ -374,6 +456,15 @@ export default createMagicItems({
       [
         'Personality. This sword believes in freedom and allowing others to live as they see fit. It is protective of its friends, and wants to be friends with a like-minded wielder. (It takes only 1 minute for a good-aligned character to gain attunement with the sword.) Waythe is courageous to the point of foolhardiness, however, and vocally urges bold action. It is likely to come into conflict with an evil or a timid wielder.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.tales_from_the_yawning_portal,
   },

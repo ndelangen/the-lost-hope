@@ -136,6 +136,17 @@ export default createMagicItems({
         "Blackrazor's hunger for souls must be regularly fed. If the sword goes three days or more without consuming a soul, a conflict between it and its wielder occurs at the next sunset.",
       ],
     ],
+    effects: [
+      {
+        key: 'devoured-soul',
+        name: 'Fed on a soul',
+        lands: { on: 'use' },
+        text: [
+          "When it devours a soul, Blackrazor grants you temporary hit points equal to the slain creature's hit point maximum. These hit points fade after 24 hours. As long as these temporary hit points last and you keep Blackrazor in hand, you have advantage on attack rolls, saving throws, and ability checks.",
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
   book_of_exalted_deeds_dungeon_master_s_guide_2014: {
@@ -267,6 +278,22 @@ export default createMagicItems({
       [
         "Deduct the time you are invisible, in increments of 1 minute, from the cloak's maximum duration of 2 hours. After 2 hours of use, the cloak ceases to function. For every uninterrupted period of 12 hours the cloak goes unused, it regains 1 hour of duration.",
       ],
+    ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Hooded',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        text: [
+          'While you are ',
+          rules.invisible,
+          ', anything you are carrying or wearing is ',
+          rules.invisible,
+          ' with you.',
+        ],
+        lasts: { kind: 'until', text: ['you cease wearing the hood'] },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
@@ -761,6 +788,25 @@ export default createMagicItems({
         'If a moon blade has a flaw, it is overconfidence. Once it has decided on an owner, it believes that only that person should wield it, even if the owner falls short of elven ideals.',
       ],
     ],
+    effects: [
+      {
+        key: 'rejected',
+        name: 'Rejected by the moonblade',
+        lands: { on: 'use' },
+        text: [
+          'you make ability checks, attack rolls, and saving throws with disadvantage for 24 hours.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+      {
+        key: 'flash-blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
   plus_1_rod_of_the_pact_keeper_dungeon_master_s_guide_2014: {
@@ -820,6 +866,18 @@ export default createMagicItems({
         "After drinking this potion, you can use a bonus action to exhale fire at a target within 30 feet of you. The target must make a DC 13 Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much damage on a successful one. The effect ends after you exhale the fire three times or when 1 hour has passed. This potion's orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened.",
       ],
     ],
+    effects: [
+      {
+        key: 'fire-breath',
+        name: 'Fire breath',
+        lands: { on: 'use' },
+        text: [
+          'you can use a bonus action to exhale fire at a target within 30 feet of you. ',
+          'The effect ends after you exhale the fire three times or when 1 hour has passed.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
   potion_of_invulnerability_dungeon_master_s_guide_2014: {
@@ -830,6 +888,15 @@ export default createMagicItems({
       [
         "For 1 minute after you drink this potion, you have resistance to all damage. The potion's syrupy liquid looks like liquefied iron.",
       ],
+    ],
+    effects: [
+      {
+        key: 'invulnerable',
+        name: 'Invulnerability',
+        lands: { on: 'use' },
+        text: ['you have resistance to all damage.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
@@ -854,6 +921,15 @@ export default createMagicItems({
         rules.exhaustion,
         " you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat.",
       ],
+    ],
+    effects: [
+      {
+        key: 'vitality',
+        name: 'Vitality',
+        lands: { on: 'use' },
+        text: ['you regain the maximum number of hit points for any Hit Die you spend.'],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
@@ -895,6 +971,18 @@ export default createMagicItems({
         ' barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents aberrations from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an aberration would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier.',
       ],
     ],
+    effects: [
+      {
+        key: 'protective-barrier',
+        name: 'Protective barrier',
+        lands: { on: 'use' },
+        text: [
+          'This barrier prevents aberrations from entering or affecting anything within the cylinder. ',
+          'However, if you move in such a way that an aberration would be inside the cylinder, the effect ends.',
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
   scroll_of_protection_from_beasts: {
@@ -907,6 +995,18 @@ export default createMagicItems({
         rules.invisible,
         ' barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents beasts from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a beast would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protective-barrier',
+        name: 'Protective barrier',
+        lands: { on: 'use' },
+        text: [
+          'This barrier prevents beasts from entering or affecting anything within the cylinder. ',
+          'However, if you move in such a way that a beast would be inside the cylinder, the effect ends.',
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
@@ -921,6 +1021,18 @@ export default createMagicItems({
         ' barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents celestials from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a celestial would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier.',
       ],
     ],
+    effects: [
+      {
+        key: 'protective-barrier',
+        name: 'Protective barrier',
+        lands: { on: 'use' },
+        text: [
+          'This barrier prevents celestials from entering or affecting anything within the cylinder. ',
+          'However, if you move in such a way that a celestial would be inside the cylinder, the effect ends.',
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
   scroll_of_protection_from_elementals: {
@@ -933,6 +1045,18 @@ export default createMagicItems({
         rules.invisible,
         ' barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents elementals from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an elemental would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protective-barrier',
+        name: 'Protective barrier',
+        lands: { on: 'use' },
+        text: [
+          'This barrier prevents elementals from entering or affecting anything within the cylinder. ',
+          'However, if you move in such a way that an elemental would be inside the cylinder, the effect ends.',
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
@@ -947,6 +1071,18 @@ export default createMagicItems({
         ' barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fey from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fey would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier.',
       ],
     ],
+    effects: [
+      {
+        key: 'protective-barrier',
+        name: 'Protective barrier',
+        lands: { on: 'use' },
+        text: [
+          'This barrier prevents fey from entering or affecting anything within the cylinder. ',
+          'However, if you move in such a way that a fey would be inside the cylinder, the effect ends.',
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
   scroll_of_protection_from_fiends: {
@@ -959,6 +1095,18 @@ export default createMagicItems({
         rules.invisible,
         ' barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fiends from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fiend would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protective-barrier',
+        name: 'Protective barrier',
+        lands: { on: 'use' },
+        text: [
+          'This barrier prevents fiends from entering or affecting anything within the cylinder. ',
+          'However, if you move in such a way that a fiend would be inside the cylinder, the effect ends.',
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
@@ -973,6 +1121,18 @@ export default createMagicItems({
         ' barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents plants from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a plant would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier.',
       ],
     ],
+    effects: [
+      {
+        key: 'protective-barrier',
+        name: 'Protective barrier',
+        lands: { on: 'use' },
+        text: [
+          'This barrier prevents plants from entering or affecting anything within the cylinder. ',
+          'However, if you move in such a way that a plant would be inside the cylinder, the effect ends.',
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
   scroll_of_protection_from_undead: {
@@ -985,6 +1145,18 @@ export default createMagicItems({
         rules.invisible,
         ' barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents undead from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an undead would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protective-barrier',
+        name: 'Protective barrier',
+        lands: { on: 'use' },
+        text: [
+          'This barrier prevents undead from entering or affecting anything within the cylinder. ',
+          'However, if you move in such a way that an undead would be inside the cylinder, the effect ends.',
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
@@ -1242,6 +1414,17 @@ export default createMagicItems({
         'Destroying the Sword. A creature attuned to both the Eye of Vecna and the Hand of Vecna can use the wish property of those combined artifacts to unmake the Sword of Kas. The creature must cast the wish spell and make a Charisma check contested by the Charisma check of the sword. The sword must be within 30 feet of the creature, or the spell fails. If the sword wins the contest, nothing happens, and the wish spell is wasted. If the sword loses the contest, it is destroyed.',
       ],
     ],
+    effects: [
+      {
+        key: 'dominated',
+        name: 'Dominated by the sword',
+        lands: { on: 'failed-save', save: 'cha', dc: 15 },
+        text: [
+          'the wielder is dominated by the sword, as if by the dominate monster spell, and the sword demands that it be bathed in blood.',
+        ],
+        lasts: { kind: 'until', text: ["the sword's demand is met"] },
+      },
+    ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
   tentacle_rod_dungeon_master_s_guide_2014: {
@@ -1254,6 +1437,19 @@ export default createMagicItems({
       [
         "Made by the drow, this rod is a magic weapon that ends in three rubbery tentacles. While holding the rod, you can use an action to direct each tentacle to attack a creature you can see within 15 feet of you. Each tentacle makes a melee attack roll with a +9 bonus. On a hit, the tentacle deals 1d6 bludgeoning damage. If you hit a target with all three tentacles, it must make a DC 15 Constitution saving throw. On a failure, the creature's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions for 1 minute. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success.",
       ],
+    ],
+    effects: [
+      {
+        key: 'entangled',
+        name: 'Tentacle-bound',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          "the creature's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions for 1 minute. ",
+          'Moreover, on each of its turns, it can take either an action or a bonus action, but not both.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },
@@ -1407,6 +1603,16 @@ export default createMagicItems({
       [
         "Personality. Whelm's purpose is to slaughter giants and goblinoids. It also seeks to protect dwarves against all enemies. Conflict arises if the wielder fails to destroy goblins and giants or to protect dwarves. Whelm has ties to the dwarf clan that created it, variously called the Dankil or the Mightyhammer clan. It longs to be returned to that clan. It would do anything to protect those dwarves from harm. The hammer also carries a secret shame. Centuries ago, a dwarf named Ctenmiir wielded it valiantly for a time. But Ctenmiir was turned into a vampire. His will was strong enough that he bent Whelm to his evil purposes, even killing members of his own clan.",
       ],
+    ],
+    effects: [
+      {
+        key: 'shock-wave-stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.dungeon_master_s_guide_2014,
   },

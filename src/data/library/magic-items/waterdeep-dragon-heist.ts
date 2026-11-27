@@ -151,6 +151,22 @@ export default createMagicItems({
         'The staff has 10 charges. While holding it, you can expend 1 charge as an action to cast the command spell. If you target a dragon with this casting, the dragon has disadvantage on its saving throw. The staff regains 1d10 charges daily at dawn.',
       ],
     ],
+    effects: [
+      {
+        key: 'dragonward-pass',
+        name: 'Dragonward pass',
+        lands: { on: 'use' },
+        text: [
+          'A creature of the dragon type that you touch with the staff can move through the city of Waterdeep, ignoring Ahghairon\'s dragonward (see "Ahghairon\'s Dragonward," in the Introduction).',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'the creature is touched again by the staff or until a time you proclaim when you confer the benefit',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.waterdeep_dragon_heist,
   },
   feather_of_diatryma_summoning: {
@@ -290,6 +306,22 @@ export default createMagicItems({
       [
         "Destroying the Stone. While in stone form, the aboleth isn't a creature and isn't subject to effects that target creatures. The Stone of Golorr is immune to all damage. Casting an antipathy/sympathy spell on the stone destroys it if the antipathy effect is selected and the spell is directed to repel aberrations. When the spell is cast in this way, the stone transforms into mucus and is destroyed, and Golorr the aboleth appears in an unoccupied space within 30 feet of the stone's remains. The aboleth is incensed by the stone's destruction, and it attacks all other creatures it can see.",
       ],
+    ],
+    effects: [
+      {
+        key: 'failed-memory',
+        name: 'Failed memory',
+        lands: { on: 'failed-save', save: 'wis', dc: 16 },
+        text: [
+          'you lose all memory of the stone being in your possession and all knowledge imparted by it.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'A remove curse spell cast on you has a 20 percent chance of restoring the lost knowledge and memories, and a greater restoration spell does so automatically.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.waterdeep_dragon_heist,
   },

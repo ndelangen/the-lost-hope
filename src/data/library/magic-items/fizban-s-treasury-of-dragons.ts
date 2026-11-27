@@ -27,6 +27,15 @@ export default createMagicItems({
         'Reverse Gravity. As an action, you can expend 3 charges to cast reverse gravity from the stone (save DC 18).',
       ],
     ],
+    effects: [
+      {
+        key: 'flight',
+        name: 'Flight',
+        lands: { on: 'use' },
+        text: ['you gain a flying speed equal to your walking speed, and you can hover.'],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.fizban_s_treasury_of_dragons,
   },
   ascendant_dragon_touched_focus: {
@@ -229,6 +238,18 @@ export default createMagicItems({
       [
         "This potion looks like liquid gold, with a single scale from a chromatic, gem, or metallic dragon suspended in it. When you drink this potion, you transform into an adult dragon of the same kind as the dragon the scale came from. The transformation lasts for 1 hour. Any equipment you are wearing or carrying melds into your new form or falls to the ground (your choice). For the duration, you use the game statistics of the adult dragon instead of your own, but you retain your languages, personality, and memories. You can't use a dragon's Change Shape or its legendary or lair actions.",
       ],
+    ],
+    effects: [
+      {
+        key: 'dragon-form',
+        name: 'Dragon form',
+        lands: { on: 'use' },
+        text: [
+          'When you drink this potion, you transform into an adult dragon of the same kind as the dragon the scale came from. ',
+          "For the duration, you use the game statistics of the adult dragon instead of your own, but you retain your languages, personality, and memories. You can't use a dragon's Change Shape or its legendary or lair actions.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.fizban_s_treasury_of_dragons,
   },

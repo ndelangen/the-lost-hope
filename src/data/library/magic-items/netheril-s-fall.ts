@@ -100,6 +100,17 @@ export default createMagicItems({
         "A bead disappears immediately after it's plucked. Once all three beads have been plucked, the bracelet loses its magic.",
       ],
     ],
+    effects: [
+      {
+        key: 'athletics-advantage',
+        name: 'Mythallar strength',
+        lands: { on: 'use' },
+        text: [
+          'As a Magic action, you can pluck one bead from the bracelet to gain Advantage on Strength (Athletics) checks for 1 minute.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.netheril_s_fall,
   },
   mythallar_cloak: {
@@ -117,6 +128,19 @@ export default createMagicItems({
       [
         "While the cloak's magic is active, you gain a Fly Speed of 30 feet and can hover. Additionally, once on each of your turns when you hit a creature with an attack roll and deal damage, you can cause the target to take an extra 1d4 Radiant damage. If you are aloft when the cloak's magic ends, you fall.",
       ],
+    ],
+    effects: [
+      {
+        key: 'mythallar-flight',
+        name: 'Mythallar flight',
+        lands: { on: 'use' },
+        text: [
+          "While the cloak's magic is active, you gain a Fly Speed of 30 feet and can hover.",
+          ' Additionally, once on each of your turns when you hit a creature with an attack roll and deal damage, you can cause the target to take an extra 1d4 Radiant damage.',
+          " If you are aloft when the cloak's magic ends, you fall.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.netheril_s_fall,
   },

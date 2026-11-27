@@ -79,6 +79,24 @@ export default createMagicItems({
         " by the mirror, the creature sees events from their past reflected in the mirror's glass. These memories aren't real, but rather idealized versions of those occurrences. Nearby observers can glimpse flashes of these memories if looking indirectly at the mirror.",
       ],
     ],
+    effects: [
+      {
+        key: 'reflected-past',
+        name: 'Lost in reflection',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.paralyzed],
+        text: [
+          'While ',
+          rules.paralyzed,
+          " by the mirror, the creature sees events from their past reflected in the mirror's glass. These memories aren't real, but rather idealized versions of those occurrences.",
+        ],
+        lasts: {
+          kind: 'until',
+          text: ['the mirror is deactivated or until that creature can no longer see the mirror'],
+        },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.dragonlance_shadow_of_the_dragon_queen,
   },
 })

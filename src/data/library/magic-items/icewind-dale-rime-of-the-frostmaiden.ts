@@ -66,6 +66,15 @@ export default createMagicItems({
         "19-20 · Gold with silver stripes · This tasty fish provides a day's worth of nourishment to one creature that eats it and grants 2d10 temporary hit points to that creature. The fish loses these properties and rots if it's not eaten within 24 hours of being caught.",
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.icewind_dale_rime_of_the_frostmaiden,
   },
   lantern_of_tracking_aberrations: {

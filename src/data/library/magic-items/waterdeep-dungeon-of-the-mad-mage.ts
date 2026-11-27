@@ -18,6 +18,17 @@ export default createMagicItems({
         'As an action, a creature attuned to the Black Crystal Tablet can use it to cast eyebite or gate (the portal created by this spell links to the Far Realm only). After the tablet is used to cast a spell, it cannot be used again until the next dawn.',
       ],
     ],
+    effects: [
+      {
+        key: 'madness',
+        name: 'Long-term madness',
+        lands: { on: 'failed-save', save: 'wis', dc: 20 },
+        text: [
+          'the creature becomes afflicted with a random form of long-term madness (see "Madness" in chapter 8 of the Dungeon Master\'s Guide).',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.waterdeep_dungeon_of_the_mad_mage,
   },
   blast_scepter: {
@@ -250,6 +261,17 @@ export default createMagicItems({
         'When you drink this potion, you gain the effect of a comprehend languages spell for 1 hour. This liquid is a clear concoction with bits of salt and soot swirling in it.',
       ],
     ],
+    effects: [
+      {
+        key: 'comprehension',
+        name: 'Comprehend languages',
+        lands: { on: 'use' },
+        text: [
+          'When you drink this potion, you gain the effect of a comprehend languages spell for 1 hour.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.waterdeep_dungeon_of_the_mad_mage,
   },
   potion_of_watchful_rest: {
@@ -260,6 +282,17 @@ export default createMagicItems({
       [
         "When you drink this potion, you gain the following benefits for the next 8 hours: magic can't put you to sleep, and you can remain awake during a long rest and still gain its benefits. This sweet, amber-colored brew has no effect on creatures that don't require sleep, such as elves.",
       ],
+    ],
+    effects: [
+      {
+        key: 'watchful-rest',
+        name: 'Watchful rest',
+        lands: { on: 'use' },
+        text: [
+          "When you drink this potion, you gain the following benefits for the next 8 hours: magic can't put you to sleep, and you can remain awake during a long rest and still gain its benefits.",
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
     ],
     publication: refs.publications.waterdeep_dungeon_of_the_mad_mage,
   },

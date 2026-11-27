@@ -67,6 +67,18 @@ export default createMagicItems({
         "Wounding. While you are attuned to the weapon, any creature that you hit with Hazirawn can't regain hit points for 1 minute. The target can make a DC 15 Constitution saving throw at the end of each of its turns, ending this effect early on a success.",
       ],
     ],
+    effects: [
+      {
+        key: 'wounding',
+        name: 'Wounding',
+        lands: { on: 'hit' },
+        text: [
+          "any creature that you hit with Hazirawn can't regain hit points for 1 minute.",
+          ' The target can make a DC 15 Constitution saving throw at the end of each of its turns, ending this effect early on a success.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.hoard_of_the_dragon_queen,
   },
   insignia_of_claws: {

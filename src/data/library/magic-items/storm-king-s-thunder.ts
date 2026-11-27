@@ -75,6 +75,17 @@ export default createMagicItems({
         'While in the 100-foot-radius sphere, any dragon has disadvantage on saving throws and can have a flying speed no higher than 10 feet.',
       ],
     ],
+    effects: [
+      {
+        key: 'wyrm-vulnerability',
+        name: 'Wyrmslayer',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'The dragon must then succeed on a DC 15 Constitution saving throw or gain vulnerability to all damage types until the end of your next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.storm_king_s_thunder,
   },
   clockwork_dog: {
@@ -150,6 +161,38 @@ export default createMagicItems({
         " as long as it is on the creature's person. The effect on the creature ends if it attacks, deals any damage, or casts a spell.",
       ],
     ],
+    effects: [
+      {
+        key: 'flying',
+        name: 'Faerie flight',
+        lands: { on: 'use' },
+        text: ['The creature sprinkled with dust gains a flying speed of 60 feet for 10 minutes.'],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+      {
+        key: 'unconscious',
+        name: 'Unconscious',
+        lands: { on: 'failed-save', save: 'con', dc: 11 },
+        conditions: [rules.unconscious],
+        text: [
+          'The creature awakens if it takes damage or if it is shaken or slapped as an action.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        text: [
+          'Any equipment it is wearing or carrying is ',
+          rules.invisible,
+          " as long as it is on the creature's person.",
+          ' The effect on the creature ends if it attacks, deals any damage, or casts a spell.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.storm_king_s_thunder,
   },
   gavel_of_the_venn_rune: {
@@ -221,6 +264,17 @@ export default createMagicItems({
       [
         "Weapon. The weapon is now an uncommon magic weapon. It grants you a +1 bonus to AC while you're holding it.",
       ],
+    ],
+    effects: [
+      {
+        key: 'shield-bond',
+        name: 'Shield Bond',
+        lands: { on: 'use' },
+        text: [
+          'Until the end of your next turn, any damage the target takes is reduced to 1, but you take half the damage prevented in this way.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.storm_king_s_thunder,
   },
@@ -336,6 +390,18 @@ export default createMagicItems({
         '.',
       ],
     ],
+    effects: [
+      {
+        key: 'indomitable-stand',
+        name: 'Indomitable Stand',
+        lands: { on: 'use' },
+        text: [
+          'For the next minute or until you move any distance, you have advantage on all checks and saving throws to resist effects that force you to move.',
+          ' In addition, any enemy that moves to a space within 10 feet of you must succeed on a DC 12 Strength saving throw or be unable to move any farther this turn.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.storm_king_s_thunder,
   },
   pennant_of_the_vind_rune: {
@@ -383,6 +449,20 @@ export default createMagicItems({
       [
         'When the effect ends, any hit points you have above your hit point maximum become temporary hit points. This potion is a pale white liquid made from the tongue of a giant clam, with a pungent aroma akin to that of rotting algae. It tastes sweet, however, when consumed.',
       ],
+    ],
+    effects: [
+      {
+        key: 'giant-size',
+        name: 'Giant size',
+        lands: { on: 'use' },
+        text: [
+          'When you drink this potion, you become Huge for 24 hours if you are Medium or smaller, otherwise the potion does nothing.',
+          " For that duration, your Strength becomes 25, if it isn't already higher, and your hit point maximum is doubled (your current hit points are doubled when you drink the potion).",
+          ' In addition, the reach of your melee attacks increases by 5 feet.',
+          ' When the effect ends, any hit points you have above your hit point maximum become temporary hit points.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
     ],
     publication: refs.publications.storm_king_s_thunder,
   },
@@ -490,6 +570,21 @@ export default createMagicItems({
       [
         "Destroying the Throne. The Wyrmskull Throne can be destroyed by breaking at least five Ruling Scepters of Shanatar simultaneously on it. This fact has never been recorded or sung of among the dwarves or any bards or storytellers, and it can't be discovered with an ability check. Characters who want to destroy the throne must go on a quest to learn the method for doing so. The throne's destruction triggers an explosion, as shards of obsidian fly out in all directions. Each creature and object within a 30-foot-radius sphere centered on the throne must succeed on a DC 21 Dexterity saving throw, taking 70 (20d6) slashing damage on a failed save, or half as much damage on a successful one.",
       ],
+    ],
+    effects: [
+      {
+        key: 'throne-paralysis',
+        name: 'Encased on the throne',
+        lands: { on: 'use' },
+        conditions: [rules.paralyzed],
+        text: [
+          "While encased, the creature can't be touched or moved from the throne.",
+          ' Touching a Ruling Scepter to the force field dispels the field, though the creature remains ',
+          rules.paralyzed,
+          ' until it is separated from the throne.',
+        ],
+        lasts: { kind: 'until', text: ['it is separated from the throne'] },
+      },
     ],
     publication: refs.publications.storm_king_s_thunder,
   },

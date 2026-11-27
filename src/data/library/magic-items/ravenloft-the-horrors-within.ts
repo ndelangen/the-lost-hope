@@ -35,6 +35,17 @@ export default createMagicItems({
         'Destroying Ebonbane. The only way to destroy Ebonbane is to forge a weapon from the Four Keys and reduce Ebonbane to 0 Hit Points with it (see the Ebonbane stat block).',
       ],
     ],
+    effects: [
+      {
+        key: 'dominated',
+        name: 'Dominated by Ebonbane',
+        lands: { on: 'failed-save', save: 'cha', dc: 17 },
+        text: [
+          'On a failed save, you are dominated by the sword, as if by the Dominate Monster spell, and the sword demands the blood of a Celestial or a Humanoid.',
+        ],
+        lasts: { kind: 'until', text: ["the sword's demand is met"] },
+      },
+    ],
     publication: refs.publications.ravenloft_the_horrors_within,
   },
   harkons_bite_ravenloft_the_horrors_within: {
@@ -49,6 +60,17 @@ export default createMagicItems({
       [
         "Curse. This necklace is cursed. Attuning to the necklace curses you; this curse can't be removed until Harkon Lukas dies. As long as you remain cursed, you become a Werewolf serving Harkon Lukas under the DM's control during the night of a full moon.",
       ],
+    ],
+    effects: [
+      {
+        key: 'werewolf-curse',
+        name: 'Harkon’s curse',
+        lands: { on: 'use' },
+        text: [
+          "As long as you remain cursed, you become a Werewolf serving Harkon Lukas under the DM's control during the night of a full moon.",
+        ],
+        lasts: { kind: 'until', text: ['Harkon Lukas dies'] },
+      },
     ],
     publication: refs.publications.ravenloft_the_horrors_within,
   },

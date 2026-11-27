@@ -3485,8 +3485,10 @@ export const magicItemBooks: Readonly<Record<string, string>> = {
   mistral_mantle: 'bigby-presents-glory-of-the-giants',
   nimbus_coronet: 'bigby-presents-glory-of-the-giants',
   orb_of_skoraeus: 'bigby-presents-glory-of-the-giants',
-  prehistoric_figurine_of_wondrous_power_carnelian_triceratops: 'bigby-presents-glory-of-the-giants',
-  prehistoric_figurine_of_wondrous_power_jasper_tyrannosaurus_rex: 'bigby-presents-glory-of-the-giants',
+  prehistoric_figurine_of_wondrous_power_carnelian_triceratops:
+    'bigby-presents-glory-of-the-giants',
+  prehistoric_figurine_of_wondrous_power_jasper_tyrannosaurus_rex:
+    'bigby-presents-glory-of-the-giants',
   prehistoric_figurine_of_wondrous_power_kyanite_pteranodon: 'bigby-presents-glory-of-the-giants',
   prehistoric_figurine_of_wondrous_power_pyrite_plesiosaurus: 'bigby-presents-glory-of-the-giants',
   reapers_scream: 'bigby-presents-glory-of-the-giants',
@@ -3614,11 +3616,14 @@ export const magicItemBooks: Readonly<Record<string, string>> = {
   gloves_of_thievery: 'dungeon-master-s-guide-2014',
   hand_of_vecna_dungeon_master_s_guide_2014: 'dungeon-master-s-guide-2014',
   instrument_of_the_bards_anstruth_harp_dungeon_master_s_guide_2014: 'dungeon-master-s-guide-2014',
-  instrument_of_the_bards_canaith_mandolin_dungeon_master_s_guide_2014: 'dungeon-master-s-guide-2014',
+  instrument_of_the_bards_canaith_mandolin_dungeon_master_s_guide_2014:
+    'dungeon-master-s-guide-2014',
   instrument_of_the_bards_cli_lyre_dungeon_master_s_guide_2014: 'dungeon-master-s-guide-2014',
   instrument_of_the_bards_doss_lute_dungeon_master_s_guide_2014: 'dungeon-master-s-guide-2014',
-  instrument_of_the_bards_fochlucan_bandore_dungeon_master_s_guide_2014: 'dungeon-master-s-guide-2014',
-  instrument_of_the_bards_mac_fuirmidh_cittern_dungeon_master_s_guide_2014: 'dungeon-master-s-guide-2014',
+  instrument_of_the_bards_fochlucan_bandore_dungeon_master_s_guide_2014:
+    'dungeon-master-s-guide-2014',
+  instrument_of_the_bards_mac_fuirmidh_cittern_dungeon_master_s_guide_2014:
+    'dungeon-master-s-guide-2014',
   instrument_of_the_bards_ollamh_harp_dungeon_master_s_guide_2014: 'dungeon-master-s-guide-2014',
   moonblade: 'dungeon-master-s-guide-2014',
   plus_1_rod_of_the_pact_keeper_dungeon_master_s_guide_2014: 'dungeon-master-s-guide-2014',
@@ -3699,11 +3704,14 @@ export const magicItemBooks: Readonly<Record<string, string>> = {
   instrument_of_illusions_dungeon_master_s_guide_2024: 'dungeon-master-s-guide-2024',
   instrument_of_scribing_dungeon_master_s_guide_2024: 'dungeon-master-s-guide-2024',
   instrument_of_the_bards_anstruth_harp_dungeon_master_s_guide_2024: 'dungeon-master-s-guide-2024',
-  instrument_of_the_bards_canaith_mandolin_dungeon_master_s_guide_2024: 'dungeon-master-s-guide-2024',
+  instrument_of_the_bards_canaith_mandolin_dungeon_master_s_guide_2024:
+    'dungeon-master-s-guide-2024',
   instrument_of_the_bards_cli_lyre_dungeon_master_s_guide_2024: 'dungeon-master-s-guide-2024',
   instrument_of_the_bards_doss_lute_dungeon_master_s_guide_2024: 'dungeon-master-s-guide-2024',
-  instrument_of_the_bards_fochlucan_bandore_dungeon_master_s_guide_2024: 'dungeon-master-s-guide-2024',
-  instrument_of_the_bards_mac_fuirmidh_cittern_dungeon_master_s_guide_2024: 'dungeon-master-s-guide-2024',
+  instrument_of_the_bards_fochlucan_bandore_dungeon_master_s_guide_2024:
+    'dungeon-master-s-guide-2024',
+  instrument_of_the_bards_mac_fuirmidh_cittern_dungeon_master_s_guide_2024:
+    'dungeon-master-s-guide-2024',
   instrument_of_the_bards_ollamh_harp_dungeon_master_s_guide_2024: 'dungeon-master-s-guide-2024',
   keoghtoms_ointment: 'dungeon-master-s-guide-2024',
   lock_of_trickery_dungeon_master_s_guide_2024: 'dungeon-master-s-guide-2024',
@@ -4024,10 +4032,12 @@ export const magicItemBooks: Readonly<Record<string, string>> = {
   wand_of_viscid_globs: 'out-of-the-abyss',
   bracers_of_celerity: 'phandelver-and-below-the-shattered-obelisk',
   cape_of_enlargement: 'phandelver-and-below-the-shattered-obelisk',
-  dragonguard_phandelver_and_below_the_shattered_obelisk: 'phandelver-and-below-the-shattered-obelisk',
+  dragonguard_phandelver_and_below_the_shattered_obelisk:
+    'phandelver-and-below-the-shattered-obelisk',
   flayer_slayer: 'phandelver-and-below-the-shattered-obelisk',
   hew_phandelver_and_below_the_shattered_obelisk: 'phandelver-and-below-the-shattered-obelisk',
-  lightbringer_phandelver_and_below_the_shattered_obelisk: 'phandelver-and-below-the-shattered-obelisk',
+  lightbringer_phandelver_and_below_the_shattered_obelisk:
+    'phandelver-and-below-the-shattered-obelisk',
   luminous_war_pick: 'phandelver-and-below-the-shattered-obelisk',
   mind_crystal_careful: 'phandelver-and-below-the-shattered-obelisk',
   mind_crystal_distant: 'phandelver-and-below-the-shattered-obelisk',
@@ -4042,8 +4052,10 @@ export const magicItemBooks: Readonly<Record<string, string>> = {
   netherese_ring_of_protection: 'phandelver-and-below-the-shattered-obelisk',
   potion_of_psionic_fortitude: 'phandelver-and-below-the-shattered-obelisk',
   ring_of_the_orator: 'phandelver-and-below-the-shattered-obelisk',
-  spider_staff_phandelver_and_below_the_shattered_obelisk: 'phandelver-and-below-the-shattered-obelisk',
-  staff_of_defense_phandelver_and_below_the_shattered_obelisk: 'phandelver-and-below-the-shattered-obelisk',
+  spider_staff_phandelver_and_below_the_shattered_obelisk:
+    'phandelver-and-below-the-shattered-obelisk',
+  staff_of_defense_phandelver_and_below_the_shattered_obelisk:
+    'phandelver-and-below-the-shattered-obelisk',
   statuette_of_augury: 'phandelver-and-below-the-shattered-obelisk',
   mimir: 'planescape-adventures-in-the-multiverse',
   portal_compass: 'planescape-adventures-in-the-multiverse',
