@@ -9675,6 +9675,7 @@ export const refs = {
     diamond_dust: ref('equipment', 'diamond_dust'),
     dinner_with_a_mimic: ref('equipment', 'dinner_with_a_mimic'),
     diplomats_pack: ref('equipment', 'diplomats_pack'),
+    dire_dragon_cake_sparkler: ref('equipment', 'dire_dragon_cake_sparkler'),
     directing_a_witness: ref('equipment', 'directing_a_witness'),
     dishcloth_of_clear_water: ref('equipment', 'dishcloth_of_clear_water'),
     doorstep_tally_tile: ref('equipment', 'doorstep_tally_tile'),
