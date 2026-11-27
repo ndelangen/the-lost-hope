@@ -13687,6 +13687,7 @@ export default createPublicationMonsters({
     },
     medusa: {
       name: 'Medusa',
+      reprintedIn: [refs.publications.stranger_things_welcome_to_the_hellfire_club],
       alignment: 'lawful evil',
       languages: ['Common plus one other language'],
       stats: {
@@ -17433,7 +17434,10 @@ export default createPublicationMonsters({
     },
     specter: {
       name: 'Specter',
-      reprintedIn: [refs.publications.monster_manual_2024],
+      reprintedIn: [
+        refs.publications.ddal04_10_the_artifact,
+        refs.publications.monster_manual_2024,
+      ],
       alignment: 'chaotic evil',
       languages: ['Understands Common plus one other language but can’t speak'],
       stats: {

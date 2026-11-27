@@ -1,0 +1,216 @@
+import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
+import { createPublicationMonsters } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
+
+export default createPublicationMonsters({
+  publication: refs.publications.krenko_s_way,
+  monsters: {
+    goblin_gang_member: {
+      name: 'Goblin Gang Member',
+      tags: ['goblinoid'],
+      alignment: 'neutral evil',
+      languages: ['Common', 'Goblin'],
+      stats: {
+        size: 'small',
+        type: 'humanoid',
+        cr: '1/4',
+        ac: 14,
+        armor: 'leather armor',
+        hitDice: '3d6',
+        speed: { walk: 30 },
+        scores: { str: 8, dex: 16, con: 10, int: 10, wis: 10, cha: 8 },
+        skills: { stealth: 'proficient' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'nimble-escape',
+            name: 'Nimble Escape',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The goblin can take the Disengage or Hide action as a bonus action on each of its turns.',
+            ],
+          },
+          {
+            key: 'dagger',
+            name: 'Dagger',
+            timing: 'action',
+            icon: 'gi/GiThrownDaggers',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'light-crossbow',
+            name: 'Light Crossbow',
+            timing: 'action',
+            icon: 'gi/GiCrossbow',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'dex',
+              range: [80, 320],
+              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
+    krenko: {
+      name: 'Krenko',
+      tags: ['goblinoid'],
+      alignment: 'neutral evil',
+      languages: ['Common', 'Goblin'],
+      stats: {
+        size: 'small',
+        type: 'humanoid',
+        cr: '1',
+        ac: 17,
+        armor: 'chain shirt, shield',
+        hitDice: '6d6',
+        speed: { walk: 30 },
+        scores: { str: 10, dex: 14, con: 10, int: 10, wis: 8, cha: 14 },
+        skills: { deception: 'proficient', persuasion: 'proficient', stealth: 'expert' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'nimble-escape',
+            name: 'Nimble Escape',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'Krenko can take the Disengage or Hide action as a bonus action on each of his turns.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['Krenko makes two attacks with his scimitar.'],
+          },
+          {
+            key: 'scimitar',
+            name: 'Scimitar',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [
+                { dice: '1d6', type: rules.slashing, addModifier: true },
+                { dice: '1d4', type: rules.poison },
+              ],
+            },
+            text: ['.'],
+          },
+          {
+            key: 'light-crossbow',
+            name: 'Light Crossbow',
+            timing: 'action',
+            icon: 'gi/GiCrossbow',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'dex',
+              range: [80, 320],
+              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'redirect-attack',
+            name: 'Redirect Attack',
+            timing: 'reaction',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'When a creature Krenko can see targets him with an attack, Krenko chooses another goblin within 5 feet of him. The two goblins swap places, and the chosen goblin becomes the target instead.',
+            ],
+          },
+        ],
+      },
+    },
+    loading_rig: {
+      name: 'Loading Rig',
+      alignment: 'unaligned',
+      languages: [],
+      stats: {
+        size: 'large',
+        type: 'construct',
+        cr: '1',
+        ac: 18,
+        armor: 'natural armor',
+        hitDice: '6d10',
+        speed: { walk: 25 },
+        scores: { str: 18, dex: 11, con: 13, int: 1, wis: 3, cha: 1 },
+        senses: { blindsight: 60 },
+        damageImmunities: [rules.poison, rules.psychic],
+        conditionImmunities: [
+          rules.blinded,
+          rules.charmed,
+          rules.deafened,
+          rules.exhaustion,
+          rules.frightened,
+          rules.paralyzed,
+          rules.petrified,
+          rules.poisoned,
+        ],
+        abilities: [
+          {
+            key: 'antimagic-susceptibility',
+            name: 'Antimagic Susceptibility',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The rig is ',
+              rules.incapacitated,
+              " while in the area of an antimagic field. If targeted by dispel magic, the rig must succeed on a Constitution saving throw against the caster's spell save DC or fall ",
+              rules.unconscious,
+              ' for 1 minute.',
+            ],
+          },
+          {
+            key: 'unstable',
+            name: 'Unstable',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'If the rig takes damage, it must succeed on a ',
+              { dc: 'dex', save: 'con' },
+              ' Constitution saving throw or be ',
+              rules.incapacitated,
+              ' with a speed of 0 until a creature activates it with a successful DC 10 Intelligence (Arcana) check made as an action.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['The armor makes two melee attacks.'],
+          },
+          {
+            key: 'slam',
+            name: 'Slam',
+            timing: 'action',
+            icon: 'gi/GiFist',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
+  },
+})

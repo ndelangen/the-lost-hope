@@ -8486,6 +8486,8 @@ export default createPublicationMonsters({
     ghost: {
       name: 'Ghost',
       reprintedIn: [
+        refs.publications.ddal04_06_the_ghost,
+        refs.publications.ddal04_10_the_artifact,
         refs.publications.ddep1_corruption_in_kryptgarden,
         refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
         refs.publications.ddex1_13_pool_of_radiance_resurgent,
@@ -16380,6 +16382,7 @@ export default createPublicationMonsters({
       name: 'Violet Fungus',
       reprintedIn: [
         refs.publications.ddex2_07_bounty_in_the_bog,
+        refs.publications.dragons_of_stormwreck_isle,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
         refs.publications.monster_manual_2014,
         refs.publications.princes_of_the_apocalypse_online_supplement,

@@ -57,5 +57,68 @@ export default createPublicationMonsters({
         ],
       },
     },
+    scarlet_sentinel: {
+      name: 'Scarlet Sentinel',
+      alignment: 'unaligned',
+      languages: [],
+      stats: {
+        size: 'medium',
+        type: 'construct',
+        cr: '1',
+        ac: 8,
+        hitDice: '6d8',
+        speed: { walk: 30 },
+        scores: { str: 15, dex: 6, con: 14, int: 1, wis: 6, cha: 1 },
+        senses: { darkvision: 60 },
+        conditionImmunities: [
+          rules.charmed,
+          rules.exhaustion,
+          rules.frightened,
+          rules.paralyzed,
+          rules.petrified,
+          rules.poisoned,
+        ],
+        abilities: [
+          {
+            key: 'immutable-form',
+            name: 'Immutable Form',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The Scarlet Sentinel is immune to any spell or effect that would alter its form.',
+            ],
+          },
+          {
+            key: 'magic-resistance',
+            name: 'Magic Resistance',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The Scarlet Sentinel has advantage on saving throws against spells and other magical effects.',
+            ],
+          },
+          {
+            key: 'magic-weapons',
+            name: 'Magic Weapons',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ["The Scarlet Sentinel's weapon attacks are magical."],
+          },
+          {
+            key: 'slam',
+            name: 'Slam',
+            timing: 'action',
+            icon: 'gi/GiFist',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d8', type: rules.bludgeoning, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
   },
 })

@@ -1,6 +1,42 @@
 import { createPublications } from '#/definitions/library.ts'
 
 export default createPublications({
+  acquisitions_incorporated: {
+    name: 'Acquisitions Incorporated',
+    ruleset: '5e-2014',
+  },
+  adventure_atlas_the_mortuary: {
+    name: 'Adventure Atlas: The Mortuary',
+    ruleset: '5e-2014',
+  },
+  adventures_in_the_forgotten_realms_deepest_night: {
+    name: 'Adventures in the Forgotten Realms: Deepest Night',
+    ruleset: '5e-2014',
+  },
+  adventures_in_the_forgotten_realms_from_cyan_depths: {
+    name: 'Adventures in the Forgotten Realms: From Cyan Depths',
+    ruleset: '5e-2014',
+  },
+  adventures_in_the_forgotten_realms_in_scarlet_flames: {
+    name: 'Adventures in the Forgotten Realms: In Scarlet Flames',
+    ruleset: '5e-2014',
+  },
+  adventures_in_the_forgotten_realms_the_hidden_page: {
+    name: 'Adventures in the Forgotten Realms: The Hidden Page',
+    ruleset: '5e-2014',
+  },
+  arcana_unleashed: {
+    name: 'Arcana Unleashed',
+    ruleset: '5e-2024',
+  },
+  arcana_unleashed_deadfall: {
+    name: 'Arcana Unleashed: Deadfall',
+    ruleset: '5e-2024',
+  },
+  astarion_s_book_of_hungers: {
+    name: "Astarion's Book of Hungers",
+    ruleset: '5e-2024',
+  },
   baldur_s_gate_descent_into_avernus: {
     name: "Baldur's Gate: Descent Into Avernus",
     year: 2014,
@@ -323,8 +359,20 @@ export default createPublications({
     license: 'ogl-1.0a',
     notice: 'Deep Magic Extended. © Open Design LLC d/b/a Kobold Press.',
   },
+  domains_of_delight: {
+    name: 'Domains of Delight',
+    ruleset: '5e-2014',
+  },
+  dragon_of_icespire_peak: {
+    name: 'Dragon of Icespire Peak',
+    ruleset: '5e-2014',
+  },
   dragonlance_shadow_of_the_dragon_queen: {
     name: 'Dragonlance: Shadow of the Dragon Queen',
+    ruleset: '5e-2014',
+  },
+  dragons_of_stormwreck_isle: {
+    name: 'Dragons of Stormwreck Isle',
     ruleset: '5e-2014',
   },
   dungeon_master_s_guide_2014: {
@@ -336,6 +384,10 @@ export default createPublications({
   dungeons_of_drakkenheim: {
     name: 'Dungeons of Drakkenheim',
     ruleset: '5e-2014',
+  },
+  eberron_forge_of_the_artificer: {
+    name: 'Eberron: Forge of the Artificer',
+    ruleset: '5e-2024',
   },
   eberron_rising_from_the_last_war: {
     name: 'Eberron: Rising from the Last War',
@@ -357,6 +409,10 @@ export default createPublications({
     name: 'Flee, Mortals! public preview',
     ruleset: '5e-2014',
   },
+  forgotten_realms_adventures_in_faer_n: {
+    name: 'Forgotten Realms: Adventures in Faerûn',
+    ruleset: '5e-2024',
+  },
   ghosts_of_saltmarsh: {
     name: 'Ghosts of Saltmarsh',
     publisher: 'Wizards of the Coast',
@@ -365,6 +421,10 @@ export default createPublications({
   guildmasters_guide_to_ravnica: {
     name: 'Guildmasters’ Guide to Ravnica',
     ruleset: '5e-2014',
+  },
+  heroes_of_the_borderlands: {
+    name: 'Heroes of the Borderlands',
+    ruleset: '5e-2024',
   },
   hoard_of_the_dragon_queen: {
     name: 'Hoard of the Dragon Queen',
@@ -382,12 +442,20 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Reference/Hoard of the Dragon Queen - Online Supplement.pdf',
   },
+  honor_among_thieves_thieves_gallery: {
+    name: "Honor Among Thieves: Thieves' Gallery",
+    ruleset: '5e-2014',
+  },
   humblewood_campaign_setting: {
     name: 'Humblewood Campaign Setting',
     ruleset: '5e-2014',
   },
   humblewood_the_wakewyrm_s_fury: {
     name: "Humblewood: The Wakewyrm's Fury",
+    ruleset: '5e-2014',
+  },
+  hunt_for_the_thessalhydra: {
+    name: 'Hunt for the Thessalhydra',
     ruleset: '5e-2014',
   },
   icewind_dale_rime_of_the_frostmaiden: {
@@ -403,6 +471,26 @@ export default createPublications({
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
   },
+  keys_from_the_golden_vault: {
+    name: 'Keys from the Golden Vault',
+    ruleset: '5e-2014',
+  },
+  krenko_s_way: {
+    name: "Krenko's Way",
+    ruleset: '5e-2014',
+  },
+  locathah_rising: {
+    name: 'Locathah Rising',
+    ruleset: '5e-2014',
+  },
+  lorwyn_first_light: {
+    name: 'Lorwyn: First Light',
+    ruleset: '5e-2024',
+  },
+  lost_laboratory_of_kwalish: {
+    name: 'Lost Laboratory of Kwalish',
+    ruleset: '5e-2014',
+  },
   lost_mine_of_phandelver: {
     name: 'Lost Mine of Phandelver',
     ruleset: '5e-2014',
@@ -410,6 +498,10 @@ export default createPublications({
   },
   minsc_and_boo_s_journal_of_villainy: {
     name: "Minsc and Boo's Journal of Villainy",
+    ruleset: '5e-2014',
+  },
+  misplaced_monsters_volume_1: {
+    name: 'Misplaced Monsters: Volume 1',
     ruleset: '5e-2014',
   },
   monster_manual_2014: {
@@ -431,9 +523,21 @@ export default createPublications({
     ruleset: '5e-2024',
     pdf: 'D&D - 5th Edition (2014)/Rules/Monster Manual.pdf',
   },
+  monstrous_compendium_vol_1_spelljammer_creatures: {
+    name: 'Monstrous Compendium Vol. 1: Spelljammer Creatures',
+    ruleset: '5e-2014',
+  },
+  monstrous_compendium_vol_2_dragonlance_creatures: {
+    name: 'Monstrous Compendium Vol. 2: Dragonlance Creatures',
+    ruleset: '5e-2014',
+  },
   monstrous_compendium_vol_3_minecraft_creatures: {
     name: 'Monstrous Compendium Vol. 3: Minecraft Creatures',
     publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
+  },
+  monstrous_compendium_vol_4_eldraine_creatures: {
+    name: 'Monstrous Compendium Vol. 4: Eldraine Creatures',
     ruleset: '5e-2014',
   },
   mordenkainen_presents_monsters_of_the_multiverse: {
@@ -461,6 +565,10 @@ export default createPublications({
     name: 'Mythic Odysseys of Theros',
     ruleset: '5e-2014',
   },
+  nerds_restoring_harmony_a_sticky_situation: {
+    name: 'NERDS Restoring Harmony: A Sticky Situation',
+    ruleset: '5e-2014',
+  },
   nerds_restoring_harmony_a_voice_in_the_wilderness: {
     name: 'NERDS Restoring Harmony: A Voice in the Wilderness',
     ruleset: '5e-2014',
@@ -469,6 +577,18 @@ export default createPublications({
     name: 'NERDS Restoring Harmony: A Web of Lies',
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
+  },
+  nerds_restoring_harmony_adventure_together: {
+    name: 'NERDS Restoring Harmony: Adventure Together',
+    ruleset: '5e-2014',
+  },
+  nerds_restoring_harmony_the_candy_mountain_caper: {
+    name: 'NERDS Restoring Harmony: The Candy Mountain Caper',
+    ruleset: '5e-2014',
+  },
+  netheril_s_fall: {
+    name: "Netheril's Fall",
+    ruleset: '5e-2024',
   },
   out_of_the_abyss: {
     name: 'Out of the Abyss',
@@ -536,6 +656,10 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Reference/Princes of the Apocalypse - Online Supplement.pdf',
   },
+  project_lamordia: {
+    name: 'Project_Lamordia',
+    ruleset: '5e-2024',
+  },
   quests_from_the_infinite_staircase: {
     name: 'Quests from the Infinite Staircase',
     ruleset: '5e-2014',
@@ -543,6 +667,14 @@ export default createPublications({
   ravenloft_the_horrors_within: {
     name: 'Ravenloft: The Horrors Within',
     publisher: 'Wizards of the Coast',
+    ruleset: '5e-2024',
+  },
+  red_dragon_s_tale_a_lego_adventure: {
+    name: "Red Dragon's Tale: A LEGO Adventure",
+    ruleset: '5e-2014',
+  },
+  red_wizards_gambit: {
+    name: "Red Wizards' Gambit",
     ruleset: '5e-2024',
   },
   rise_of_tiamat: {
@@ -556,6 +688,10 @@ export default createPublications({
     name: 'Rise of Tiamat - Online Supplement',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Reference/Rise of Tiamat - Online Supplement.pdf',
+  },
+  sleeping_dragon_s_wake: {
+    name: "Sleeping Dragon's Wake",
+    ruleset: '5e-2014',
   },
   spelljammer_academy: {
     name: 'Spelljammer Academy',
@@ -600,11 +736,19 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: "D&D - 5th Edition (2014)/Adventures/Storm King's Thunder.pdf",
   },
+  storm_lord_s_wrath: {
+    name: "Storm Lord's Wrath",
+    ruleset: '5e-2014',
+  },
   stranger_things_welcome_to_the_hellfire_club: {
     name: 'Stranger Things: Welcome to the Hellfire Club',
     publisher: 'Wizards of the Coast',
     year: 2025,
     ruleset: '5e-2024',
+  },
+  strixhaven_a_curriculum_of_chaos: {
+    name: 'Strixhaven: A Curriculum of Chaos',
+    ruleset: '5e-2014',
   },
   tal_dorei_campaign_setting_reborn: {
     name: 'Tal’Dorei Campaign Setting Reborn',
@@ -612,6 +756,18 @@ export default createPublications({
   },
   tales_from_the_yawning_portal: {
     name: 'Tales from the Yawning Portal',
+    ruleset: '5e-2014',
+  },
+  tasha_s_cauldron_of_everything: {
+    name: "Tasha's Cauldron of Everything",
+    ruleset: '5e-2014',
+  },
+  the_book_of_many_things: {
+    name: 'The Book of Many Things',
+    ruleset: '5e-2014',
+  },
+  the_lost_dungeon_of_rickedness_big_rick_energy: {
+    name: 'The Lost Dungeon of Rickedness: Big Rick Energy',
     ruleset: '5e-2014',
   },
   the_lost_hope: {
@@ -625,6 +781,10 @@ export default createPublications({
   the_orrery_of_the_wanderer: {
     name: 'The Orrery of the Wanderer',
     year: 2014,
+    ruleset: '5e-2014',
+  },
+  the_tortle_package: {
+    name: 'The Tortle Package',
     ruleset: '5e-2014',
   },
   the_wild_beyond_the_witchlight: {
@@ -729,6 +889,14 @@ export default createPublications({
   },
   where_evil_lives: {
     name: 'Where Evil Lives',
+    ruleset: '5e-2014',
+  },
+  world_of_warcraft_icecrown_citadel: {
+    name: 'World of Warcraft: Icecrown Citadel',
+    ruleset: '5e-2024',
+  },
+  xanathar_s_guide_to_everything: {
+    name: "Xanathar's Guide to Everything",
     ruleset: '5e-2014',
   },
 })
