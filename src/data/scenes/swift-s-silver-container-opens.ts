@@ -13,10 +13,8 @@ export default createScene({
       refs.pcs.swift_starblade,
       ' can open ',
       refs.items.swifts_silver_container,
-      '. Play it whenever he tries, in between ',
+      '. Play it whenever he tries that night, after ',
       refs.scenes.hex_loses_patience,
-      ' and ',
-      refs.scenes.down_through_the_rubble,
       '.',
     ],
     [

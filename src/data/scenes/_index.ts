@@ -5,7 +5,6 @@ import bob_returns_cassian_s_ring from './bob-returns-cassian-s-ring.ts'
 import borris_shutters_the_casino from './borris-shutters-the-casino.ts'
 import chaos_on_the_sky_islands from './chaos-on-the-sky-islands.ts'
 import crowy_brings_up_onana_s_letter from './crowy-brings-up-onana-s-letter.ts'
-import down_through_the_rubble from './down-through-the-rubble.ts'
 import fix_s_last_delivery from './fix-s-last-delivery.ts'
 import four_stomps_under_the_moon from './four-stomps-under-the-moon.ts'
 import garran_comes_for_the_cruiser from './garran-comes-for-the-cruiser.ts'
@@ -43,7 +42,6 @@ export default {
   taking_back_a_battle_cruiser,
   garran_comes_for_the_cruiser,
   onana_sends_the_party_on,
-  down_through_the_rubble,
   fix_s_last_delivery,
   four_stomps_under_the_moon,
   light_walks_auren_through_fajanet,

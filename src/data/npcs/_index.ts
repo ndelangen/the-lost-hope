@@ -12,7 +12,6 @@ import bob_the_merchant from './bob-the-merchant.ts'
 import borris from './borris.ts'
 import brend_tempest from './brend-tempest.ts'
 import brodus from './brodus.ts'
-import buried_war_machine from './buried-war-machine.ts'
 import captain_blackthorn from './captain-blackthorn.ts'
 import captain_garran from './captain-garran.ts'
 import caves_of_steel_fisher from './caves-of-steel-fisher.ts'
@@ -115,7 +114,6 @@ export default {
   durgan_ashfang,
   dust_lost_sailor,
   rustmoor_scavenger,
-  buried_war_machine,
   celeste_tempest,
   brend_tempest,
   selene_tempest,
