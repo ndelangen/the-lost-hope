@@ -7225,17 +7225,7 @@
             "key": "mordenkainen_s_tome_of_foes"
           }
         }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "amnizu-summoner",
-    "name": "Amnizu (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+      },
       {
         "id": "printing-94fbc7e0e2c2ff308fe4",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
@@ -7343,7 +7333,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#amnizu%20(summoner)_mpmm"
+        "source": "https://5e.tools/bestiary.html#amnizu%20(summoner)_mpmm",
+        "variantName": "Summoner"
       },
       {
         "id": "printing-3fce7ae79fa3e7680a62",
@@ -7455,16 +7446,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#amnizu%20(summoner)_mtf"
+        "source": "https://5e.tools/bestiary.html#amnizu%20(summoner)_mtf",
+        "variantName": "Summoner"
       }
     ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/amnizu-summoner-968b85cf4cb483fd.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Fiend"]
   },
   {
     "type": "monsters",
@@ -18032,22 +18018,7 @@
         ],
         "edition": "Black Flag Roleplaying",
         "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/"
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/archmage.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "archmage-familiar",
-    "name": "Archmage (Familiar)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+      },
       {
         "id": "printing-5f9bea4425a87b4f8a04947d",
         "label": "Monster Manual (2014)",
@@ -18196,10 +18167,16 @@
             "file": "/assets/library/monsters/archmage.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "variantName": "Familiar"
       }
     ],
-    "groups": ["Humanoid"]
+    "art": [
+      {
+        "file": "/assets/library/monsters/archmage.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ]
   },
   {
     "type": "monsters",
@@ -26667,23 +26644,7 @@
             "key": "monster_manual_2024"
           }
         }
-      }
-    ],
-    "groups": ["Undead"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/banshee-6bae6ffbaadea63d.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "banshee-lady-marilena-fidatov",
-    "name": "Banshee (Lady Marilena Fidatov)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+      },
       {
         "id": "printing-590904c7712d0689ee552cbe",
         "label": "DDAL04-09 - The Tempter",
@@ -26712,13 +26673,14 @@
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        "status": "Combat summary",
+        "variantName": "Lady Marilena Fidatov"
       }
     ],
     "groups": ["Undead"],
     "art": [
       {
-        "file": "/assets/library/worker-art/banshee-lady-marilena-fidatov-56b2bf4d714904eb.png",
+        "file": "/assets/library/worker-art/banshee-6bae6ffbaadea63d.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -29865,22 +29827,7 @@
             "key": "stranger_things_welcome_to_the_hellfire_club"
           }
         }
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/bearded-devil.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "bearded-devil-summoner",
-    "name": "Bearded Devil (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+      },
       {
         "id": "printing-e9c87c182baae03d4662",
         "label": "Monster Manual (2014)",
@@ -29971,10 +29918,10 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#bearded%20devil%20(summoner)_mm"
+        "source": "https://5e.tools/bestiary.html#bearded%20devil%20(summoner)_mm",
+        "variantName": "Summoner"
       }
     ],
-    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/monsters/bearded-devil.webp",
@@ -30498,23 +30445,7 @@
             "key": "waterdeep_dungeon_of_the_mad_mage"
           }
         }
-      }
-    ],
-    "groups": ["Aberration"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/beholder-083ac2ed1808591b.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "beholder-variant-abilities",
-    "name": "Beholder (Variant Abilities)",
-    "summary": "",
-    "group": "Aberration",
-    "printings": [
+      },
       {
         "id": "printing-eac6302927b8ac9df9e8",
         "label": "Volo's Guide to Monsters",
@@ -30674,13 +30605,14 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#beholder%20(variant%20abilities)_vgm"
+        "source": "https://5e.tools/bestiary.html#beholder%20(variant%20abilities)_vgm",
+        "variantName": "Variant Abilities"
       }
     ],
     "groups": ["Aberration"],
     "art": [
       {
-        "file": "/assets/library/worker-art/beholder-variant-abilities-0df5d085b106f1d0.webp",
+        "file": "/assets/library/worker-art/beholder-083ac2ed1808591b.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -31587,17 +31519,7 @@
             "key": "volo_s_guide_to_monsters"
           }
         }
-      }
-    ],
-    "groups": ["Fey"]
-  },
-  {
-    "type": "monsters",
-    "slug": "bheur-hag-coven",
-    "name": "Bheur Hag (Coven)",
-    "summary": "",
-    "group": "Fey",
-    "printings": [
+      },
       {
         "id": "printing-8b6c06d79d52f32ad52861e1",
         "label": "Volo's Guide to Monsters",
@@ -31750,18 +31672,9 @@
             "file": "/assets/library/worker-art/bheur-hag-0a257c0134aa1605.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Fey"]
-  },
-  {
-    "type": "monsters",
-    "slug": "bheur-hag-coven-death",
-    "name": "Bheur Hag (Coven; Death)",
-    "summary": "",
-    "group": "Fey",
-    "printings": [
+        ],
+        "variantName": "Coven"
+      },
       {
         "id": "printing-6b9be468bc4f8e6368810e23",
         "label": "Volo's Guide to Monsters",
@@ -31915,18 +31828,9 @@
             "file": "/assets/library/worker-art/bheur-hag-0a257c0134aa1605.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Fey"]
-  },
-  {
-    "type": "monsters",
-    "slug": "bheur-hag-coven-nature",
-    "name": "Bheur Hag (Coven; Nature)",
-    "summary": "",
-    "group": "Fey",
-    "printings": [
+        ],
+        "variantName": "Coven; Death"
+      },
       {
         "id": "printing-0b4bd8deee9435e987f9ad0d",
         "label": "Volo's Guide to Monsters",
@@ -32080,18 +31984,9 @@
             "file": "/assets/library/worker-art/bheur-hag-0a257c0134aa1605.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Fey"]
-  },
-  {
-    "type": "monsters",
-    "slug": "bheur-hag-coven-prophecy",
-    "name": "Bheur Hag (Coven; Prophecy)",
-    "summary": "",
-    "group": "Fey",
-    "printings": [
+        ],
+        "variantName": "Coven; Nature"
+      },
       {
         "id": "printing-b11dd86326853851b0c2f19b",
         "label": "Volo's Guide to Monsters",
@@ -32245,7 +32140,8 @@
             "file": "/assets/library/worker-art/bheur-hag-0a257c0134aa1605.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "variantName": "Coven; Prophecy"
       }
     ],
     "groups": ["Fey"]
@@ -37013,70 +36909,7 @@
             "key": "rise_of_tiamat_online_supplement"
           }
         }
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/bone-devil.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "bone-devil-polearm-variant",
-    "name": "Bone Devil (Polearm Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-9fae6cd84f160b5f15152bdd",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301694-bone-devil-polearm-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5737/638/1000/1000/636898323914261539.jpeg",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "bone_devil_polearm_variant"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
       },
-      {
-        "id": "printing-c527818c18db626c6cecb728",
-        "label": "Waterdeep: Dungeon of the Mad Mage",
-        "source": "https://www.dndbeyond.com/monsters/301694-bone-devil-polearm-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5737/638/1000/1000/636898323914261539.jpeg",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "bone_devil_polearm_variant"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "waterdeep_dungeon_of_the_mad_mage"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/bone-devil-polearm-819cb7adad4c4dbc.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "bone-devil-polearm",
-    "name": "Bone Devil (Polearm)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
       {
         "id": "printing-25ba2925158d8412f4e1",
         "label": "Monster Manual (2014)",
@@ -37166,13 +36999,61 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#bone%20devil%20(polearm)_mm"
+        "source": "https://5e.tools/bestiary.html#bone%20devil%20(polearm)_mm",
+        "variantName": "Polearm"
+      }
+    ],
+    "art": [
+      {
+        "file": "/assets/library/monsters/bone-devil.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "bone-devil-polearm-variant",
+    "name": "Bone Devil (Polearm Variant)",
+    "summary": "",
+    "group": "Fiend",
+    "printings": [
+      {
+        "id": "printing-9fae6cd84f160b5f15152bdd",
+        "label": "Monster Manual (2014)",
+        "source": "https://www.dndbeyond.com/monsters/301694-bone-devil-polearm-variant",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5737/638/1000/1000/636898323914261539.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bone_devil_polearm_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
+      },
+      {
+        "id": "printing-c527818c18db626c6cecb728",
+        "label": "Waterdeep: Dungeon of the Mad Mage",
+        "source": "https://www.dndbeyond.com/monsters/301694-bone-devil-polearm-variant",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5737/638/1000/1000/636898323914261539.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bone_devil_polearm_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Fiend"],
     "art": [
       {
-        "file": "/assets/library/worker-art/bone-devil-polearm-d59531708e93b469.webp",
+        "file": "/assets/library/worker-art/bone-devil-polearm-819cb7adad4c4dbc.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -62548,23 +62429,7 @@
             "key": "waterdeep_dungeon_of_the_mad_mage"
           }
         }
-      }
-    ],
-    "groups": ["Undead"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/demilich-a638c220178a1dd0.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "demilich-trap-soul",
-    "name": "Demilich (Trap Soul)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+      },
       {
         "id": "printing-64da03f2191539d91e52eeaf",
         "label": "Monster Manual (2014)",
@@ -62707,18 +62572,9 @@
             "file": "/assets/library/worker-art/demilich-a638c220178a1dd0.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Undead"]
-  },
-  {
-    "type": "monsters",
-    "slug": "demilich-variant",
-    "name": "Demilich (Variant)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+        ],
+        "variantName": "Trap Soul"
+      },
       {
         "id": "printing-54cda7bd0e4528da762aba01",
         "label": "Monster Manual (2014)",
@@ -62857,10 +62713,17 @@
             "file": "/assets/library/worker-art/demilich-a638c220178a1dd0.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "variantName": "Variant"
       }
     ],
-    "groups": ["Undead"]
+    "groups": ["Undead"],
+    "art": [
+      {
+        "file": "/assets/library/worker-art/demilich-a638c220178a1dd0.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ]
   },
   {
     "type": "monsters",
@@ -76835,17 +76698,7 @@
             "key": "ddex3_15_szith_morcane_unbound"
           }
         }
-      }
-    ],
-    "groups": ["Humanoid", "Medium Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "drow-magic-equipment",
-    "name": "Drow (Magic Equipment)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+      },
       {
         "id": "printing-8d8d7da2d2f8c7daf5e7455b",
         "label": "Monster Manual (2014)",
@@ -76965,10 +76818,11 @@
             "file": "/assets/library/worker-art/drow-f1c258e289138c92.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "variantName": "Magic Equipment"
       }
     ],
-    "groups": ["Humanoid"]
+    "groups": ["Humanoid", "Medium Humanoid"]
   },
   {
     "type": "monsters",
@@ -77476,23 +77330,7 @@
             "key": "waterdeep_dungeon_of_the_mad_mage"
           }
         }
-      }
-    ],
-    "groups": ["Humanoid"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/drow-elite-warrior-5fa1a3b0903e93ff.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "drow-elite-warrior-magic-equipment",
-    "name": "Drow Elite Warrior (Magic Equipment)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+      },
       {
         "id": "printing-7487ec61cb0730af5d783478",
         "label": "Monster Manual (2014)",
@@ -77620,10 +77458,17 @@
             "file": "/assets/library/worker-art/drow-elite-warrior-5fa1a3b0903e93ff.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "variantName": "Magic Equipment"
       }
     ],
-    "groups": ["Humanoid"]
+    "groups": ["Humanoid"],
+    "art": [
+      {
+        "file": "/assets/library/worker-art/drow-elite-warrior-5fa1a3b0903e93ff.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ]
   },
   {
     "type": "monsters",
@@ -77945,17 +77790,7 @@
             "key": "mordenkainen_s_tome_of_foes"
           }
         }
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "drow-inquisitor-summoner",
-    "name": "Drow Inquisitor (Summoner)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+      },
       {
         "id": "printing-3599df6c7ed583fddd41",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
@@ -78067,7 +77902,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#drow%20inquisitor%20(summoner)_mpmm"
+        "source": "https://5e.tools/bestiary.html#drow%20inquisitor%20(summoner)_mpmm",
+        "variantName": "Summoner"
       },
       {
         "id": "printing-a8b706a44129f4277db0",
@@ -78203,16 +78039,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#drow%20inquisitor%20(summoner)_mtf"
+        "source": "https://5e.tools/bestiary.html#drow%20inquisitor%20(summoner)_mtf",
+        "variantName": "Summoner"
       }
     ],
-    "groups": ["Humanoid"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/drow-inquisitor-summoner-77f3d058eca09308.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Humanoid"]
   },
   {
     "type": "monsters",
@@ -78679,17 +78510,7 @@
             "key": "mordenkainen_s_tome_of_foes"
           }
         }
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "drow-shadowblade-summoner",
-    "name": "Drow Shadowblade (Summoner)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+      },
       {
         "id": "printing-25900b97175228b864cb",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
@@ -78794,7 +78615,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#drow%20shadowblade%20(summoner)_mpmm"
+        "source": "https://5e.tools/bestiary.html#drow%20shadowblade%20(summoner)_mpmm",
+        "variantName": "Summoner"
       },
       {
         "id": "printing-de4020eed3716c1fc035",
@@ -78894,16 +78716,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#drow%20shadowblade%20(summoner)_mtf"
+        "source": "https://5e.tools/bestiary.html#drow%20shadowblade%20(summoner)_mtf",
+        "variantName": "Summoner"
       }
     ],
-    "groups": ["Humanoid"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/drow-shadowblade-summoner-7f56dfe7e4aba448.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Humanoid"]
   },
   {
     "type": "monsters",
@@ -88406,23 +88223,7 @@
             "key": "waterdeep_dungeon_of_the_mad_mage"
           }
         }
-      }
-    ],
-    "groups": ["Celestial"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/empyrean-3aa6d3ec4e0a5230.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "empyrean-celestial",
-    "name": "Empyrean (Celestial)",
-    "summary": "",
-    "group": "Celestial",
-    "printings": [
+      },
       {
         "id": "printing-bea33cd7fd9c54799c366d27",
         "label": "Monster Manual (2024)",
@@ -88550,18 +88351,9 @@
             "file": "/assets/library/worker-art/empyrean-3aa6d3ec4e0a5230.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Celestial"]
-  },
-  {
-    "type": "monsters",
-    "slug": "empyrean-fiend",
-    "name": "Empyrean (Fiend)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+        ],
+        "variantName": "Celestial"
+      },
       {
         "id": "printing-a170478a2f8c7c7d7c1ad0db",
         "label": "Monster Manual (2024)",
@@ -88694,10 +88486,17 @@
             "file": "/assets/library/worker-art/empyrean-fiend-913dc4358e7c49a9.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "variantName": "Fiend"
       }
     ],
-    "groups": ["Fiend"]
+    "groups": ["Celestial"],
+    "art": [
+      {
+        "file": "/assets/library/worker-art/empyrean-3aa6d3ec4e0a5230.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ]
   },
   {
     "type": "monsters",
@@ -88720,23 +88519,7 @@
             "key": "monster_manual_2025"
           }
         }
-      }
-    ],
-    "groups": ["Celestial, fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/empyrean-iota-8f401dbba130ca4b.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "empyrean-iota-celestial",
-    "name": "Empyrean Iota (Celestial)",
-    "summary": "",
-    "group": "Celestial",
-    "printings": [
+      },
       {
         "id": "printing-19412450960f58862cfb94a9",
         "label": "Monster Manual (2024)",
@@ -88848,18 +88631,9 @@
             "file": "/assets/library/worker-art/empyrean-iota-celestial-c4dafb0d3cba9cf2.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Celestial"]
-  },
-  {
-    "type": "monsters",
-    "slug": "empyrean-iota-fiend",
-    "name": "Empyrean Iota (Fiend)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+        ],
+        "variantName": "Celestial"
+      },
       {
         "id": "printing-42138c03c973b71350acaad5",
         "label": "Monster Manual (2024)",
@@ -88976,10 +88750,17 @@
             "file": "/assets/library/worker-art/empyrean-iota-fiend-fbdd85e94eddd57a.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "variantName": "Fiend"
       }
     ],
-    "groups": ["Fiend"]
+    "groups": ["Celestial, fiend"],
+    "art": [
+      {
+        "file": "/assets/library/worker-art/empyrean-iota-8f401dbba130ca4b.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ]
   },
   {
     "type": "monsters",
@@ -91002,22 +90783,7 @@
             "key": "rise_of_tiamat_online_supplement"
           }
         }
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/ettercap.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "ettercap-variant",
-    "name": "Ettercap (variant)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+      },
       {
         "id": "printing-88604798cf521a55dcfd4091",
         "label": "Monster Manual (2014)",
@@ -91103,18 +90869,9 @@
             "file": "/assets/library/monsters/ettercap.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Monstrosity"]
-  },
-  {
-    "type": "monsters",
-    "slug": "ettercap-web-garrote",
-    "name": "Ettercap (Web Garrote)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+        ],
+        "variantName": "variant"
+      },
       {
         "id": "printing-93f56a68ff7cb4fdeda5",
         "label": "Monster Manual (2014)",
@@ -91187,13 +90944,13 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ettercap%20(web%20garrote)_mm"
+        "source": "https://5e.tools/bestiary.html#ettercap%20(web%20garrote)_mm",
+        "variantName": "Web Garrote"
       }
     ],
-    "groups": ["Monstrosity"],
     "art": [
       {
-        "file": "/assets/library/worker-art/ettercap-web-garrote-afc46dc741a8260c.webp",
+        "file": "/assets/library/monsters/ettercap.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -103155,22 +102912,7 @@
             "key": "monster_manual_2024"
           }
         }
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/frost-giant.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "frost-giant-optional-actions",
-    "name": "Frost Giant (Optional Actions)",
-    "summary": "",
-    "group": "Giant",
-    "printings": [
+      },
       {
         "id": "printing-cb110f8ef9b76623b4bb",
         "label": "Storm King's Thunder",
@@ -103244,10 +102986,10 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#frost%20giant%20(optional%20actions)_skt"
+        "source": "https://5e.tools/bestiary.html#frost%20giant%20(optional%20actions)_skt",
+        "variantName": "Optional Actions"
       }
     ],
-    "groups": ["Giant"],
     "art": [
       {
         "file": "/assets/library/monsters/frost-giant.png",

@@ -2848,17 +2848,7 @@
             "key": "mordenkainen_s_tome_of_foes"
           }
         }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "geryon-summoner",
-    "name": "Geryon (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+      },
       {
         "id": "printing-f9034d4ed0f3e7acaead",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
@@ -2999,7 +2989,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#geryon%20(summoner)_mpmm"
+        "source": "https://5e.tools/bestiary.html#geryon%20(summoner)_mpmm",
+        "variantName": "Summoner"
       },
       {
         "id": "printing-2f9c4c5f8aaf62205c11",
@@ -3142,20 +3133,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#geryon%20(summoner)_mtf"
+        "source": "https://5e.tools/bestiary.html#geryon%20(summoner)_mtf",
+        "variantName": "Summoner"
       }
     ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/geryon-summoner-26299f6520492ba2.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      },
-      {
-        "file": "/assets/library/worker-art/geryon-summoner-7deafefeccc3b962.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Fiend"]
   },
   {
     "type": "monsters",
@@ -10714,22 +10696,7 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/glabrezu.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "glabrezu-summoner-variant",
-    "name": "Glabrezu (summoner variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+      },
       {
         "id": "printing-42799e9299d2e090cc34d2ae",
         "label": "Monster Manual (2014)",
@@ -10841,18 +10808,9 @@
             "file": "/assets/library/monsters/glabrezu.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "glabrezu-summoner",
-    "name": "Glabrezu (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+        ],
+        "variantName": "summoner variant"
+      },
       {
         "id": "printing-2099e4b9e53f905b7a83",
         "label": "Monster Manual (2014)",
@@ -10953,13 +10911,13 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#glabrezu%20(summoner)_mm"
+        "source": "https://5e.tools/bestiary.html#glabrezu%20(summoner)_mm",
+        "variantName": "Summoner"
       }
     ],
-    "groups": ["Fiend"],
     "art": [
       {
-        "file": "/assets/library/worker-art/glabrezu-summoner-2938e7e6e8df43e9.webp",
+        "file": "/assets/library/monsters/glabrezu.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -18717,22 +18675,7 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/green-hag.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "green-hag-coven-variant",
-    "name": "Green Hag (Coven Variant)",
-    "summary": "",
-    "group": "Fey",
-    "printings": [
+      },
       {
         "id": "printing-922647409900c41620200b8b",
         "label": "Monster Manual (2014)",
@@ -18846,18 +18789,9 @@
             "file": "/assets/library/monsters/green-hag.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Fey"]
-  },
-  {
-    "type": "monsters",
-    "slug": "green-hag-coven",
-    "name": "Green Hag (Coven)",
-    "summary": "",
-    "group": "Fey",
-    "printings": [
+        ],
+        "variantName": "Coven Variant"
+      },
       {
         "id": "printing-cd3f77c6e725d21e1548b21b",
         "label": "Monster Manual (2014)",
@@ -18994,10 +18928,16 @@
             "file": "/assets/library/monsters/green-hag.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "variantName": "Coven"
       }
     ],
-    "groups": ["Fey"]
+    "art": [
+      {
+        "file": "/assets/library/monsters/green-hag.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ]
   },
   {
     "type": "monsters",
@@ -38923,54 +38863,7 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/ice-devil.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "ice-devil-spear-variant",
-    "name": "Ice Devil (Spear Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-ad8f48a2df65477515dc3abc",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301719-ice-devil-spear-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5737/809/1000/1000/636898338228043197.jpeg",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/ice-devil-spear-variant-fb303ecdca54a782.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "ice_devil_spear_variant"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "ice-devil-spear",
-    "name": "Ice Devil (Spear)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+      },
       {
         "id": "printing-c18183a19fd903750c93",
         "label": "Monster Manual (2014)",
@@ -39057,24 +38950,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ice%20devil%20(spear)_mm"
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/ice-devil-spear-aa21c93c2701d680.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "ice-devil-summoner",
-    "name": "Ice Devil (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#ice%20devil%20(spear)_mm",
+        "variantName": "Spear"
+      },
       {
         "id": "printing-838eb9a1c143b9e53c80",
         "label": "Monster Manual (2014)",
@@ -39161,16 +39039,48 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ice%20devil%20(summoner)_mm"
+        "source": "https://5e.tools/bestiary.html#ice%20devil%20(summoner)_mm",
+        "variantName": "Summoner"
       }
     ],
-    "groups": ["Fiend"],
     "art": [
       {
-        "file": "/assets/library/worker-art/ice-devil-summoner-1fd3298b49a2735b.webp",
+        "file": "/assets/library/monsters/ice-devil.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
+  },
+  {
+    "type": "monsters",
+    "slug": "ice-devil-spear-variant",
+    "name": "Ice Devil (Spear Variant)",
+    "summary": "",
+    "group": "Fiend",
+    "printings": [
+      {
+        "id": "printing-ad8f48a2df65477515dc3abc",
+        "label": "Monster Manual (2014)",
+        "source": "https://www.dndbeyond.com/monsters/301719-ice-devil-spear-variant",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5737/809/1000/1000/636898338228043197.jpeg",
+        "art": [
+          {
+            "file": "/assets/library/worker-art/ice-devil-spear-variant-fb303ecdca54a782.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ice_devil_spear_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
+      }
+    ],
+    "groups": ["Fiend"]
   },
   {
     "type": "monsters",
@@ -61676,252 +61586,6 @@
   },
   {
     "type": "monsters",
-    "slug": "living-star-necrotic",
-    "name": "Living Star (Necrotic)",
-    "summary": "",
-    "group": "Aberration",
-    "printings": [
-      {
-        "id": "printing-88fbe4e0ec7149f14dbc37ae",
-        "label": "The Book of Many Things",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 65",
-              "Hit dice · 10d8 + 20",
-              "Challenge · 3",
-              "Size · Small / Medium",
-              "Type · Aberration",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Passive Perception · 15",
-              "Strength · 14",
-              "Dexterity · 16",
-              "Constitution · 14",
-              "Intelligence · 14",
-              "Wisdom · 16",
-              "Charisma · 15",
-              "Alignment · chaotic evil"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small aberration with challenge rating 3. Named abilities include Brilliance (True Form Only), Radiant Strike, Prophetic Blessing."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +5", "Wis +5", "Dexterity +5, Wisdom +5"]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["Can hover", "fly · (hover)"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Living Portent. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +6, History +6, Insight +5, Perception +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["all"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["radiant"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["exhaustion"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Brilliance (True Form Only)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Radiant Strike · Melee or ranged attack · +5 to hit · 1d12 + 3 necrotic damage · reach 5 ft. · range 120 ft.",
-              "Prophetic Blessing · 1d8 + 3 · d8 · 1 hour · within 30 feet"
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Change Shape · 0 hit points"]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": [
-              "Price of Defiance · DC 13 Constitution save · 3d6 necrotic damage · within 120 feet · Half damage on a successful save"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Wisdom · Cure Wounds · Divination · Greater Restoration",
-              "2/day · Cure Wounds",
-              "1/day each · Divination, Greater Restoration"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Living Portent"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "The Book of Many Things, p. 180 · https://5e.tools/bestiary.html#living%20star%20(necrotic)_bmt",
-              "Cure Wounds (spell) · https://5e.tools/spells.html#cure%20wounds_phb",
-              "Divination (spell) · https://5e.tools/spells.html#divination_phb",
-              "Greater Restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Living Portent (creature) · https://5e.tools/bestiary.html#living%20portent_bmt"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#living%20star%20(necrotic)_bmt"
-      }
-    ],
-    "groups": ["Aberration"]
-  },
-  {
-    "type": "monsters",
-    "slug": "living-star-psychic",
-    "name": "Living Star (Psychic)",
-    "summary": "",
-    "group": "Aberration",
-    "printings": [
-      {
-        "id": "printing-b0aa087e3075b7dacc39dcf4",
-        "label": "The Book of Many Things",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 65",
-              "Hit dice · 10d8 + 20",
-              "Challenge · 3",
-              "Size · Small / Medium",
-              "Type · Aberration",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Passive Perception · 15",
-              "Strength · 14",
-              "Dexterity · 16",
-              "Constitution · 14",
-              "Intelligence · 14",
-              "Wisdom · 16",
-              "Charisma · 15",
-              "Alignment · chaotic evil"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small aberration with challenge rating 3. Named abilities include Brilliance (True Form Only), Radiant Strike, Prophetic Blessing."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +5", "Wis +5", "Dexterity +5, Wisdom +5"]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["Can hover", "fly · (hover)"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Living Portent. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +6, History +6, Insight +5, Perception +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["all"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["radiant"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["exhaustion"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Brilliance (True Form Only)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Radiant Strike · Melee or ranged attack · +5 to hit · 1d12 + 3 psychic damage · reach 5 ft. · range 120 ft.",
-              "Prophetic Blessing · 1d8 + 3 · d8 · 1 hour · within 30 feet"
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Change Shape · 0 hit points"]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": [
-              "Price of Defiance · DC 13 Constitution save · 3d6 psychic damage · within 120 feet · Half damage on a successful save"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Wisdom · Cure Wounds · Divination · Greater Restoration",
-              "2/day · Cure Wounds",
-              "1/day each · Divination, Greater Restoration"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Living Portent"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "The Book of Many Things, p. 180 · https://5e.tools/bestiary.html#living%20star%20(psychic)_bmt",
-              "Cure Wounds (spell) · https://5e.tools/spells.html#cure%20wounds_phb",
-              "Divination (spell) · https://5e.tools/spells.html#divination_phb",
-              "Greater Restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Living Portent (creature) · https://5e.tools/bestiary.html#living%20portent_bmt"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#living%20star%20(psychic)_bmt"
-      }
-    ],
-    "groups": ["Aberration"]
-  },
-  {
-    "type": "monsters",
     "slug": "living-tattoo",
     "name": "Living Tattoo",
     "summary": "",
@@ -77706,17 +77370,7 @@
             "key": "mordenkainen_s_tome_of_foes"
           }
         }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "molydeus-summoner",
-    "name": "Molydeus (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+      },
       {
         "id": "printing-110c1e947b4c73abd9ae",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
@@ -77828,7 +77482,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#molydeus%20(summoner)_mpmm"
+        "source": "https://5e.tools/bestiary.html#molydeus%20(summoner)_mpmm",
+        "variantName": "Summoner"
       },
       {
         "id": "printing-42f3262981262360d1ec",
@@ -77941,16 +77596,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#molydeus%20(summoner)_mtf"
+        "source": "https://5e.tools/bestiary.html#molydeus%20(summoner)_mtf",
+        "variantName": "Summoner"
       }
     ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/molydeus-summoner-636be132f8652e1f.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Fiend"]
   },
   {
     "type": "monsters",
@@ -81055,23 +80705,7 @@
             "key": "waterdeep_dungeon_of_the_mad_mage"
           }
         }
-      }
-    ],
-    "groups": ["Plant"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/myconid-adult-77777f2d5901549f.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "myconid-adult-additional-spore-effects",
-    "name": "Myconid Adult (Additional Spore Effects)",
-    "summary": "",
-    "group": "Plant",
-    "printings": [
+      },
       {
         "id": "printing-d00b6cae7f46276bba83",
         "label": "Out of the Abyss",
@@ -81142,13 +80776,14 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#myconid%20adult%20(additional%20spore%20effects)_oota"
+        "source": "https://5e.tools/bestiary.html#myconid%20adult%20(additional%20spore%20effects)_oota",
+        "variantName": "Additional Spore Effects"
       }
     ],
     "groups": ["Plant"],
     "art": [
       {
-        "file": "/assets/library/worker-art/myconid-adult-additional-spore-effects-59c4bb834708df90.png",
+        "file": "/assets/library/worker-art/myconid-adult-77777f2d5901549f.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -81253,23 +80888,7 @@
             "key": "waterdeep_dungeon_of_the_mad_mage"
           }
         }
-      }
-    ],
-    "groups": ["Plant"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/myconid-sovereign-8071cd076edb15d2.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "myconid-sovereign-additional-spore-effects",
-    "name": "Myconid Sovereign (Additional Spore Effects)",
-    "summary": "",
-    "group": "Plant",
-    "printings": [
+      },
       {
         "id": "printing-b40911cc30e50bd33cd0",
         "label": "Out of the Abyss",
@@ -81344,13 +80963,14 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#myconid%20sovereign%20(additional%20spore%20effects)_oota"
+        "source": "https://5e.tools/bestiary.html#myconid%20sovereign%20(additional%20spore%20effects)_oota",
+        "variantName": "Additional Spore Effects"
       }
     ],
     "groups": ["Plant"],
     "art": [
       {
-        "file": "/assets/library/worker-art/myconid-sovereign-additional-spore-effects-b1f733e6859843e1.png",
+        "file": "/assets/library/worker-art/myconid-sovereign-8071cd076edb15d2.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -84818,22 +84438,7 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/night-hag.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "night-hag-coven-variant",
-    "name": "Night Hag (Coven Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+      },
       {
         "id": "printing-ec8e939826bd5bb784490433",
         "label": "Monster Manual (2014)",
@@ -84969,7 +84574,8 @@
         "edition": "2014 fifth edition",
         "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/301755-night-hag-coven-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/105/1000/1000/636898360872962338.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/105/1000/1000/636898360872962338.jpeg",
+        "variantName": "Coven Variant"
       },
       {
         "id": "printing-cfeebc23469abc500382a495",
@@ -85037,7 +84643,8 @@
         "edition": "2014 fifth edition",
         "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301755-night-hag-coven-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/105/1000/1000/636898360872962338.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/105/1000/1000/636898360872962338.jpeg",
+        "variantName": "Coven Variant"
       },
       {
         "id": "printing-b22e19e325e77f0e1edb6bdf",
@@ -85105,7 +84712,8 @@
         "edition": "2014 fifth edition",
         "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301755-night-hag-coven-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/105/1000/1000/636898360872962338.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/105/1000/1000/636898360872962338.jpeg",
+        "variantName": "Coven Variant"
       },
       {
         "id": "printing-96ac4391fbb3c19d20f63a06",
@@ -85173,7 +84781,8 @@
         "edition": "2014 fifth edition",
         "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301755-night-hag-coven-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/105/1000/1000/636898360872962338.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/105/1000/1000/636898360872962338.jpeg",
+        "variantName": "Coven Variant"
       },
       {
         "id": "printing-9a2c4b96c6baa3b782625f33",
@@ -85241,24 +84850,9 @@
         "edition": "2014 fifth edition",
         "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301755-night-hag-coven-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/105/1000/1000/636898360872962338.jpeg"
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/monsters/night-hag.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "night-hag-coven",
-    "name": "Night Hag (Coven)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/105/1000/1000/636898360872962338.jpeg",
+        "variantName": "Coven Variant"
+      },
       {
         "id": "printing-f1b19e65ede2ed47972f1bbb",
         "label": "Monster Manual (2014)",
@@ -85410,7 +85004,8 @@
             "file": "/assets/library/monsters/night-hag.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "variantName": "Coven"
       },
       {
         "id": "printing-8c4716e443960d5ae4e68566",
@@ -85440,10 +85035,16 @@
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        "status": "Combat summary",
+        "variantName": "Coven"
       }
     ],
-    "groups": ["Fiend"]
+    "art": [
+      {
+        "file": "/assets/library/monsters/night-hag.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ]
   },
   {
     "type": "monsters",
@@ -93704,16 +93305,7 @@
         "edition": "2024 fifth edition",
         "status": "Scalable profile",
         "source": "https://5e.tools/bestiary.html#otherworldly%20steed_xphb"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "otherworldly-steed-celestial",
-    "name": "Otherworldly Steed (Celestial)",
-    "summary": "",
-    "group": "Celestial",
-    "printings": [
+      },
       {
         "id": "printing-d8656092ed127b03976f5d16",
         "label": "Player’s Handbook",
@@ -93789,18 +93381,9 @@
         ],
         "edition": "2024 fifth edition",
         "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#otherworldly%20steed%20(celestial)_xphb"
-      }
-    ],
-    "groups": ["Celestial"]
-  },
-  {
-    "type": "monsters",
-    "slug": "otherworldly-steed-fey",
-    "name": "Otherworldly Steed (Fey)",
-    "summary": "",
-    "group": "Fey",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#otherworldly%20steed%20(celestial)_xphb",
+        "variantName": "Celestial"
+      },
       {
         "id": "printing-b26485a962771432e4428935",
         "label": "Player’s Handbook",
@@ -93874,18 +93457,9 @@
         ],
         "edition": "2024 fifth edition",
         "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#otherworldly%20steed%20(fey)_xphb"
-      }
-    ],
-    "groups": ["Fey"]
-  },
-  {
-    "type": "monsters",
-    "slug": "otherworldly-steed-fiend",
-    "name": "Otherworldly Steed (Fiend)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#otherworldly%20steed%20(fey)_xphb",
+        "variantName": "Fey"
+      },
       {
         "id": "printing-b275bba9e77286c6f8505b75",
         "label": "Player’s Handbook",
@@ -93962,10 +93536,10 @@
         ],
         "edition": "2024 fifth edition",
         "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#otherworldly%20steed%20(fiend)_xphb"
+        "source": "https://5e.tools/bestiary.html#otherworldly%20steed%20(fiend)_xphb",
+        "variantName": "Fiend"
       }
-    ],
-    "groups": ["Fiend"]
+    ]
   },
   {
     "type": "monsters",
@@ -97741,23 +97315,7 @@
             "key": "waterdeep_dungeon_of_the_mad_mage"
           }
         }
-      }
-    ],
-    "groups": ["Aberration", "Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/piercer-1c633916e27365d9.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "piercer-ice-variant",
-    "name": "Piercer (Ice variant)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+      },
       {
         "id": "printing-f310fdd04db300361f86294f",
         "label": "Icewind Dale: Rime of the Frostmaiden",
@@ -97833,13 +97391,14 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Stat block",
-        "source": "https://www.dndbeyond.com/monsters/1123098-piercer-ice-variant"
+        "source": "https://www.dndbeyond.com/monsters/1123098-piercer-ice-variant",
+        "variantName": "Ice variant"
       }
     ],
-    "groups": ["Monstrosity"],
+    "groups": ["Aberration", "Monstrosity"],
     "art": [
       {
-        "file": "/assets/library/worker-art/piercer-ice-variant-af272cd345292962.png",
+        "file": "/assets/library/worker-art/piercer-1c633916e27365d9.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -100458,23 +100017,7 @@
             "key": "planescape_adventures_in_the_multiverse"
           }
         }
-      }
-    ],
-    "groups": ["Unclassified", "Undead"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/poltergeist-a7e0fefbcfa42e3a.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "poltergeist-specter-variant",
-    "name": "Poltergeist (Specter Variant)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+      },
       {
         "id": "printing-23d0043c433c53bc8e1a23fa",
         "label": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
@@ -100503,13 +100046,14 @@
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        "status": "Combat summary",
+        "variantName": "Specter Variant"
       }
     ],
-    "groups": ["Undead"],
+    "groups": ["Unclassified", "Undead"],
     "art": [
       {
-        "file": "/assets/library/worker-art/poltergeist-specter-variant-a01081f811cb6ba5.png",
+        "file": "/assets/library/worker-art/poltergeist-a7e0fefbcfa42e3a.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -101268,17 +100812,7 @@
             "key": "van_richten_s_guide_to_ravenloft"
           }
         }
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "priest-of-osybus-blazing-boon",
-    "name": "Priest of Osybus (Blazing Boon)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+      },
       {
         "id": "printing-9789ae2cec7c0cf91ed6871c",
         "label": "Van Richten’s Guide to Ravenloft",
@@ -101372,18 +100906,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(blazing%20boon)_vrgr"
-      }
-    ],
-    "groups": ["Undead"]
-  },
-  {
-    "type": "monsters",
-    "slug": "priest-of-osybus-deathly-boon",
-    "name": "Priest of Osybus (Deathly Boon)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(blazing%20boon)_vrgr",
+        "variantName": "Blazing Boon"
+      },
       {
         "id": "printing-dd80c4b5f621d5b9ad05a418",
         "label": "Van Richten’s Guide to Ravenloft",
@@ -101485,18 +101010,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(deathly%20boon)_vrgr"
-      }
-    ],
-    "groups": ["Undead"]
-  },
-  {
-    "type": "monsters",
-    "slug": "priest-of-osybus-dread-boon",
-    "name": "Priest of Osybus (Dread Boon)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(deathly%20boon)_vrgr",
+        "variantName": "Deathly Boon"
+      },
       {
         "id": "printing-08a867cf352897c49100569c",
         "label": "Van Richten’s Guide to Ravenloft",
@@ -101590,18 +101106,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(dread%20boon)_vrgr"
-      }
-    ],
-    "groups": ["Undead"]
-  },
-  {
-    "type": "monsters",
-    "slug": "priest-of-osybus-ectoplasmic-boon",
-    "name": "Priest of Osybus (Ectoplasmic Boon)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(dread%20boon)_vrgr",
+        "variantName": "Dread Boon"
+      },
       {
         "id": "printing-d36419c0867ae77549f614b5",
         "label": "Van Richten’s Guide to Ravenloft",
@@ -101694,18 +101201,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(ectoplasmic%20boon)_vrgr"
-      }
-    ],
-    "groups": ["Undead"]
-  },
-  {
-    "type": "monsters",
-    "slug": "priest-of-osybus-spectral-boon",
-    "name": "Priest of Osybus (Spectral Boon)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(ectoplasmic%20boon)_vrgr",
+        "variantName": "Ectoplasmic Boon"
+      },
       {
         "id": "printing-fc42b51977d07e8550d51f6b",
         "label": "Van Richten’s Guide to Ravenloft",
@@ -101798,18 +101296,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(spectral%20boon)_vrgr"
-      }
-    ],
-    "groups": ["Undead"]
-  },
-  {
-    "type": "monsters",
-    "slug": "priest-of-osybus-vampiric-boon",
-    "name": "Priest of Osybus (Vampiric Boon)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(spectral%20boon)_vrgr",
+        "variantName": "Spectral Boon"
+      },
       {
         "id": "printing-9f2d6a22851a80e79bfd682e",
         "label": "Van Richten’s Guide to Ravenloft",
@@ -101902,10 +101391,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(vampiric%20boon)_vrgr"
+        "source": "https://5e.tools/bestiary.html#priest%20of%20osybus%20(vampiric%20boon)_vrgr",
+        "variantName": "Vampiric Boon"
       }
     ],
-    "groups": ["Undead"]
+    "groups": ["Humanoid"]
   },
   {
     "type": "monsters",
@@ -108466,6 +107956,234 @@
             "key": "creature_codex"
           }
         }
+      },
+      {
+        "id": "printing-88fbe4e0ec7149f14dbc37ae",
+        "label": "The Book of Many Things",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 15",
+              "Hit points · 65",
+              "Hit dice · 10d8 + 20",
+              "Challenge · 3",
+              "Size · Small / Medium",
+              "Type · Aberration",
+              "Speed · walk 30 ft., fly 30 ft.",
+              "Passive Perception · 15",
+              "Strength · 14",
+              "Dexterity · 16",
+              "Constitution · 14",
+              "Intelligence · 14",
+              "Wisdom · 16",
+              "Charisma · 15",
+              "Alignment · chaotic evil"
+            ]
+          },
+          {
+            "title": "Description",
+            "lines": [
+              "A Small aberration with challenge rating 3. Named abilities include Brilliance (True Form Only), Radiant Strike, Prophetic Blessing."
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": ["Dex +5", "Wis +5", "Dexterity +5, Wisdom +5"]
+          },
+          {
+            "title": "Movement notes",
+            "lines": ["Can hover", "fly · (hover)"]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Source variant of Living Portent. Check the variant rules for changes to actions and traits."
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": ["Arcana +6, History +6, Insight +5, Perception +5"]
+          },
+          {
+            "title": "Senses",
+            "lines": ["darkvision 120 ft."]
+          },
+          {
+            "title": "Languages",
+            "lines": ["all"]
+          },
+          {
+            "title": "Damage immunities",
+            "lines": ["radiant"]
+          },
+          {
+            "title": "Condition immunities",
+            "lines": ["exhaustion"]
+          },
+          {
+            "title": "Traits reference",
+            "lines": ["Brilliance (True Form Only)"]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Radiant Strike · Melee or ranged attack · +5 to hit · 1d12 + 3 necrotic damage · reach 5 ft. · range 120 ft.",
+              "Prophetic Blessing · 1d8 + 3 · d8 · 1 hour · within 30 feet"
+            ]
+          },
+          {
+            "title": "Bonus actions reference",
+            "lines": ["Change Shape · 0 hit points"]
+          },
+          {
+            "title": "Reactions reference",
+            "lines": [
+              "Price of Defiance · DC 13 Constitution save · 3d6 necrotic damage · within 120 feet · Half damage on a successful save"
+            ]
+          },
+          {
+            "title": "Spellcasting reference",
+            "lines": [
+              "Spellcasting · Wisdom · Cure Wounds · Divination · Greater Restoration",
+              "2/day · Cure Wounds",
+              "1/day each · Divination, Greater Restoration"
+            ]
+          },
+          {
+            "title": "Base profile",
+            "lines": ["Living Portent"]
+          },
+          {
+            "title": "References",
+            "lines": [
+              "The Book of Many Things, p. 180 · https://5e.tools/bestiary.html#living%20star%20(necrotic)_bmt",
+              "Cure Wounds (spell) · https://5e.tools/spells.html#cure%20wounds_phb",
+              "Divination (spell) · https://5e.tools/spells.html#divination_phb",
+              "Greater Restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
+              "Living Portent (creature) · https://5e.tools/bestiary.html#living%20portent_bmt"
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Encounter reference",
+        "source": "https://5e.tools/bestiary.html#living%20star%20(necrotic)_bmt",
+        "variantName": "Necrotic"
+      },
+      {
+        "id": "printing-b0aa087e3075b7dacc39dcf4",
+        "label": "The Book of Many Things",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 15",
+              "Hit points · 65",
+              "Hit dice · 10d8 + 20",
+              "Challenge · 3",
+              "Size · Small / Medium",
+              "Type · Aberration",
+              "Speed · walk 30 ft., fly 30 ft.",
+              "Passive Perception · 15",
+              "Strength · 14",
+              "Dexterity · 16",
+              "Constitution · 14",
+              "Intelligence · 14",
+              "Wisdom · 16",
+              "Charisma · 15",
+              "Alignment · chaotic evil"
+            ]
+          },
+          {
+            "title": "Description",
+            "lines": [
+              "A Small aberration with challenge rating 3. Named abilities include Brilliance (True Form Only), Radiant Strike, Prophetic Blessing."
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": ["Dex +5", "Wis +5", "Dexterity +5, Wisdom +5"]
+          },
+          {
+            "title": "Movement notes",
+            "lines": ["Can hover", "fly · (hover)"]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Source variant of Living Portent. Check the variant rules for changes to actions and traits."
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": ["Arcana +6, History +6, Insight +5, Perception +5"]
+          },
+          {
+            "title": "Senses",
+            "lines": ["darkvision 120 ft."]
+          },
+          {
+            "title": "Languages",
+            "lines": ["all"]
+          },
+          {
+            "title": "Damage immunities",
+            "lines": ["radiant"]
+          },
+          {
+            "title": "Condition immunities",
+            "lines": ["exhaustion"]
+          },
+          {
+            "title": "Traits reference",
+            "lines": ["Brilliance (True Form Only)"]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Radiant Strike · Melee or ranged attack · +5 to hit · 1d12 + 3 psychic damage · reach 5 ft. · range 120 ft.",
+              "Prophetic Blessing · 1d8 + 3 · d8 · 1 hour · within 30 feet"
+            ]
+          },
+          {
+            "title": "Bonus actions reference",
+            "lines": ["Change Shape · 0 hit points"]
+          },
+          {
+            "title": "Reactions reference",
+            "lines": [
+              "Price of Defiance · DC 13 Constitution save · 3d6 psychic damage · within 120 feet · Half damage on a successful save"
+            ]
+          },
+          {
+            "title": "Spellcasting reference",
+            "lines": [
+              "Spellcasting · Wisdom · Cure Wounds · Divination · Greater Restoration",
+              "2/day · Cure Wounds",
+              "1/day each · Divination, Greater Restoration"
+            ]
+          },
+          {
+            "title": "Base profile",
+            "lines": ["Living Portent"]
+          },
+          {
+            "title": "References",
+            "lines": [
+              "The Book of Many Things, p. 180 · https://5e.tools/bestiary.html#living%20star%20(psychic)_bmt",
+              "Cure Wounds (spell) · https://5e.tools/spells.html#cure%20wounds_phb",
+              "Divination (spell) · https://5e.tools/spells.html#divination_phb",
+              "Greater Restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
+              "Living Portent (creature) · https://5e.tools/bestiary.html#living%20portent_bmt"
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Encounter reference",
+        "source": "https://5e.tools/bestiary.html#living%20star%20(psychic)_bmt",
+        "variantName": "Psychic"
       }
     ]
   },

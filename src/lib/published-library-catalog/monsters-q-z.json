@@ -14690,17 +14690,7 @@
             "key": "explorer_s_guide_to_wildemount"
           }
         }
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "sahuagin-warlock-of-ukotoa-rod-of-retribution",
-    "name": "Sahuagin Warlock of Uk'otoa (Rod of Retribution)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+      },
       {
         "id": "printing-f9505fae79ec5c2d59145d0c",
         "label": "Explorer's Guide to Wildemount",
@@ -14813,7 +14803,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#sahuagin%20warlock%20of%20uk'otoa%20(rod%20of%20retribution)_egw"
+        "source": "https://5e.tools/bestiary.html#sahuagin%20warlock%20of%20uk'otoa%20(rod%20of%20retribution)_egw",
+        "variantName": "Rod of Retribution"
       }
     ],
     "groups": ["Humanoid"]
@@ -25972,17 +25963,7 @@
             "key": "mordenkainen_s_tome_of_foes"
           }
         }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "sibriex-flesh-warping",
-    "name": "Sibriex (Flesh Warping)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+      },
       {
         "id": "printing-f9548eaff2eb499b00c9",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
@@ -26104,7 +26085,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#sibriex%20(flesh%20warping)_mpmm"
+        "source": "https://5e.tools/bestiary.html#sibriex%20(flesh%20warping)_mpmm",
+        "variantName": "Flesh Warping"
       },
       {
         "id": "printing-1f330b79e1f87837f6e6",
@@ -26229,16 +26211,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#sibriex%20(flesh%20warping)_mtf"
+        "source": "https://5e.tools/bestiary.html#sibriex%20(flesh%20warping)_mtf",
+        "variantName": "Flesh Warping"
       }
     ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/sibriex-flesh-warping-d08f6da852ba00ff.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Fiend"]
   },
   {
     "type": "monsters",
@@ -34274,17 +34251,7 @@
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#spellcaster_esk"
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "spellcaster-healer",
-    "name": "Spellcaster (Healer)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+      },
       {
         "id": "printing-4c984175c130e8269ddb7f1b",
         "label": "Divine Contention",
@@ -34376,7 +34343,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#spellcaster%20(healer)_dc"
+        "source": "https://5e.tools/bestiary.html#spellcaster%20(healer)_dc",
+        "variantName": "Healer"
       },
       {
         "id": "printing-67c0a3828cdefc1ebf8de97b",
@@ -34465,7 +34433,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#spellcaster%20(healer)_sdw"
+        "source": "https://5e.tools/bestiary.html#spellcaster%20(healer)_sdw",
+        "variantName": "Healer"
       },
       {
         "id": "printing-4319339397f96b2465b83c7e",
@@ -34551,18 +34520,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#spellcaster%20(healer)_slw"
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "spellcaster-mage",
-    "name": "Spellcaster (Mage)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#spellcaster%20(healer)_slw",
+        "variantName": "Healer"
+      },
       {
         "id": "printing-52431c9c891181243dc9ac7a",
         "label": "Divine Contention",
@@ -34654,7 +34614,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#spellcaster%20(mage)_dc"
+        "source": "https://5e.tools/bestiary.html#spellcaster%20(mage)_dc",
+        "variantName": "Mage"
       },
       {
         "id": "printing-b8f74c8b3e68687f23b401c9",
@@ -34743,7 +34704,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#spellcaster%20(mage)_sdw"
+        "source": "https://5e.tools/bestiary.html#spellcaster%20(mage)_sdw",
+        "variantName": "Mage"
       },
       {
         "id": "printing-f02003697109d07199be7a61",
@@ -34829,7 +34791,8 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#spellcaster%20(mage)_slw"
+        "source": "https://5e.tools/bestiary.html#spellcaster%20(mage)_slw",
+        "variantName": "Mage"
       }
     ],
     "groups": ["Humanoid"]
@@ -54814,22 +54777,7 @@
             "key": "waterdeep_dungeon_of_the_mad_mage"
           }
         }
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/troll.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "troll-loathsome-limb-severed-arm",
-    "name": "Troll (Loathsome Limb; Severed Arm)",
-    "summary": "",
-    "group": "Giant",
-    "printings": [
+      },
       {
         "id": "printing-2c90bee32bb412c52e4e83b6",
         "label": "Monster Manual (2014)",
@@ -54901,18 +54849,9 @@
             "file": "/assets/library/monsters/troll-limb.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Giant"]
-  },
-  {
-    "type": "monsters",
-    "slug": "troll-loathsome-limb-severed-head",
-    "name": "Troll (Loathsome Limb; Severed Head)",
-    "summary": "",
-    "group": "Giant",
-    "printings": [
+        ],
+        "variantName": "Loathsome Limb; Severed Arm"
+      },
       {
         "id": "printing-b3398c0deea1ef931fd32a51",
         "label": "Monster Manual (2014)",
@@ -54983,18 +54922,9 @@
             "file": "/assets/library/worker-art/troll-loathsome-limb-severed-head-d18b2f2ad169ea86.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      }
-    ],
-    "groups": ["Giant"]
-  },
-  {
-    "type": "monsters",
-    "slug": "troll-loathsome-limb-severed-leg",
-    "name": "Troll (Loathsome Limb; Severed Leg)",
-    "summary": "",
-    "group": "Giant",
-    "printings": [
+        ],
+        "variantName": "Loathsome Limb; Severed Head"
+      },
       {
         "id": "printing-a9dcc0fb0d9e77d8b1e4cba8",
         "label": "Monster Manual (2014)",
@@ -55066,10 +54996,16 @@
             "file": "/assets/library/worker-art/troll-loathsome-limb-severed-leg-b23da97ef9d1735b.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "variantName": "Loathsome Limb; Severed Leg"
       }
     ],
-    "groups": ["Giant"]
+    "art": [
+      {
+        "file": "/assets/library/monsters/troll.png",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ]
   },
   {
     "type": "monsters",
@@ -59912,17 +59848,7 @@
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#unspeakable%20horror_vrgr"
-      }
-    ],
-    "groups": ["Monstrosity"]
-  },
-  {
-    "type": "monsters",
-    "slug": "unspeakable-horror-customized",
-    "name": "Unspeakable Horror (Customized)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+      },
       {
         "id": "printing-14146d0b0f2034644a5c",
         "label": "Van Richten's Guide to Ravenloft",
@@ -60004,16 +59930,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#unspeakable%20horror%20(customized)_vrgr"
+        "source": "https://5e.tools/bestiary.html#unspeakable%20horror%20(customized)_vrgr",
+        "variantName": "Customized"
       }
     ],
-    "groups": ["Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/unspeakable-horror-customized-afc8931782f03bb1.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Monstrosity"]
   },
   {
     "type": "monsters",
@@ -64602,17 +64523,7 @@
         "edition": "2024 fifth edition",
         "status": "Scalable profile",
         "source": "https://5e.tools/bestiary.html#vestige%20companion_au"
-      }
-    ],
-    "groups": ["Celestial / Fiend / Undead"]
-  },
-  {
-    "type": "monsters",
-    "slug": "vestige-companion-celestial",
-    "name": "Vestige Companion (Celestial)",
-    "summary": "",
-    "group": "Celestial",
-    "printings": [
+      },
       {
         "id": "printing-1ffbf6aa4e668022b95f1e29",
         "label": "Arcana Unleashed",
@@ -64704,18 +64615,9 @@
         ],
         "edition": "2024 fifth edition",
         "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#vestige%20companion%20(celestial)_au"
-      }
-    ],
-    "groups": ["Celestial"]
-  },
-  {
-    "type": "monsters",
-    "slug": "vestige-companion-fiend",
-    "name": "Vestige Companion (Fiend)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#vestige%20companion%20(celestial)_au",
+        "variantName": "Celestial"
+      },
       {
         "id": "printing-c1cfe9761c1a1fb4c8b82b14",
         "label": "Arcana Unleashed",
@@ -64800,18 +64702,9 @@
         ],
         "edition": "2024 fifth edition",
         "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#vestige%20companion%20(fiend)_au"
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "vestige-companion-undead",
-    "name": "Vestige Companion (Undead)",
-    "summary": "",
-    "group": "Undead",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#vestige%20companion%20(fiend)_au",
+        "variantName": "Fiend"
+      },
       {
         "id": "printing-f5b49d8df4a52a182a3d5f48",
         "label": "Arcana Unleashed",
@@ -64900,10 +64793,11 @@
         ],
         "edition": "2024 fifth edition",
         "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#vestige%20companion%20(undead)_au"
+        "source": "https://5e.tools/bestiary.html#vestige%20companion%20(undead)_au",
+        "variantName": "Undead"
       }
     ],
-    "groups": ["Undead"]
+    "groups": ["Celestial / Fiend / Undead"]
   },
   {
     "type": "monsters",
@@ -68399,22 +68293,7 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/vrock.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "vrock-summoner",
-    "name": "Vrock (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
+      },
       {
         "id": "printing-13fe17769e7b48fc96d0",
         "label": "Monster Manual (2014)",
@@ -68504,10 +68383,10 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#vrock%20(summoner)_mm"
+        "source": "https://5e.tools/bestiary.html#vrock%20(summoner)_mm",
+        "variantName": "Summoner"
       }
     ],
-    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/monsters/vrock.webp",
@@ -73469,22 +73348,7 @@
             "key": "monster_manual_2024"
           }
         }
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/werewolf.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "werewolf-krallenhorde",
-    "name": "Werewolf (Krallenhorde)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+      },
       {
         "id": "printing-834d7ebc6ab659c0fa6d3684",
         "label": "Plane Shift: Innistrad",
@@ -73583,18 +73447,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#werewolf%20(krallenhorde)_psi"
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "werewolf-leeraug",
-    "name": "Werewolf (Leeraug)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#werewolf%20(krallenhorde)_psi",
+        "variantName": "Krallenhorde"
+      },
       {
         "id": "printing-98d60b71a39a0392ab43206e",
         "label": "Plane Shift: Innistrad",
@@ -73695,18 +73550,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#werewolf%20(leeraug)_psi"
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "werewolf-mondronen",
-    "name": "Werewolf (Mondronen)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#werewolf%20(leeraug)_psi",
+        "variantName": "Leeraug"
+      },
       {
         "id": "printing-d8de9e89d438e63979a1fa43",
         "label": "Plane Shift: Innistrad",
@@ -73807,18 +73653,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#werewolf%20(mondronen)_psi"
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "werewolf-vildin",
-    "name": "Werewolf (Vildin)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#werewolf%20(mondronen)_psi",
+        "variantName": "Mondronen"
+      },
       {
         "id": "printing-9e43c4ddba3504130bee34f1",
         "label": "Plane Shift: Innistrad",
@@ -73919,10 +73756,16 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#werewolf%20(vildin)_psi"
+        "source": "https://5e.tools/bestiary.html#werewolf%20(vildin)_psi",
+        "variantName": "Vildin"
       }
     ],
-    "groups": ["Humanoid"]
+    "art": [
+      {
+        "file": "/assets/library/monsters/werewolf.webp",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    ]
   },
   {
     "type": "monsters",
@@ -75945,23 +75788,7 @@
         "edition": "2014 fifth edition",
         "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17210-winged-kobold"
-      }
-    ],
-    "groups": ["Dragon", "Humanoid"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/winged-kobold-fd047da0c0e39f99.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "winged-kobold-urd",
-    "name": "Winged Kobold (Urd)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+      },
       {
         "id": "printing-d3611916f39da2f475cf691f",
         "label": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
@@ -75990,13 +75817,14 @@
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        "status": "Combat summary",
+        "variantName": "Urd"
       }
     ],
-    "groups": ["Humanoid"],
+    "groups": ["Dragon", "Humanoid"],
     "art": [
       {
-        "file": "/assets/library/worker-art/winged-kobold-urd-0a0efe43d6366d1e.png",
+        "file": "/assets/library/worker-art/winged-kobold-fd047da0c0e39f99.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -84010,17 +83838,7 @@
             "key": "volo_s_guide_to_monsters"
           }
         }
-      }
-    ],
-    "groups": ["Monstrosity"]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-anathema-acid-slime",
-    "name": "Yuan-ti Anathema (Acid Slime)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+      },
       {
         "id": "printing-8ea68935769eee7740ab",
         "label": "Volo's Guide to Monsters",
@@ -84141,24 +83959,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(acid%20slime)_vgm"
-      }
-    ],
-    "groups": ["Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-anathema-acid-slime-d13e4f46be7dea02.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-anathema-chameleon-skin",
-    "name": "Yuan-ti Anathema (Chameleon Skin)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(acid%20slime)_vgm",
+        "variantName": "Acid Slime"
+      },
       {
         "id": "printing-520ab8729c616f597b62",
         "label": "Volo's Guide to Monsters",
@@ -84277,24 +84080,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(chameleon%20skin)_vgm"
-      }
-    ],
-    "groups": ["Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-anathema-chameleon-skin-95f69b4468a133bb.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-anathema-shed-skin",
-    "name": "Yuan-ti Anathema (Shed Skin)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(chameleon%20skin)_vgm",
+        "variantName": "Chameleon Skin"
+      },
       {
         "id": "printing-18659e58fd217dee9c57",
         "label": "Volo's Guide to Monsters",
@@ -84415,16 +84203,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(shed%20skin)_vgm"
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(shed%20skin)_vgm",
+        "variantName": "Shed Skin"
       }
     ],
-    "groups": ["Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-anathema-shed-skin-c95eb6079da12726.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Monstrosity"]
   },
   {
     "type": "monsters",
@@ -84492,17 +84275,7 @@
             "key": "volo_s_guide_to_monsters"
           }
         }
-      }
-    ],
-    "groups": ["Humanoid", "Monstrosity"]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-broodguard-chameleon-skin",
-    "name": "Yuan-ti Broodguard (Chameleon Skin)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+      },
       {
         "id": "printing-b288a6f0800c63cb41bd",
         "label": "Volo's Guide to Monsters",
@@ -84593,24 +84366,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20broodguard%20(chameleon%20skin)_vgm"
-      }
-    ],
-    "groups": ["Humanoid"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-broodguard-chameleon-skin-7099a58c3048b040.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-broodguard-shed-skin",
-    "name": "Yuan-ti Broodguard (Shed Skin)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20broodguard%20(chameleon%20skin)_vgm",
+        "variantName": "Chameleon Skin"
+      },
       {
         "id": "printing-191cfa0bbb1b4e2251a2",
         "label": "Volo's Guide to Monsters",
@@ -84700,16 +84458,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20broodguard%20(shed%20skin)_vgm"
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20broodguard%20(shed%20skin)_vgm",
+        "variantName": "Shed Skin"
       }
     ],
-    "groups": ["Humanoid"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-broodguard-shed-skin-937decf0a54af7de.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Humanoid", "Monstrosity"]
   },
   {
     "type": "monsters",
@@ -85139,17 +84892,7 @@
             "key": "volo_s_guide_to_monsters"
           }
         }
-      }
-    ],
-    "groups": ["Monstrosity"]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-mind-whisperer-chameleon-skin",
-    "name": "Yuan-ti Mind Whisperer (Chameleon Skin)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+      },
       {
         "id": "printing-73772d68260ab1fed6d4",
         "label": "Volo's Guide to Monsters",
@@ -85267,24 +85010,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20mind%20whisperer%20(chameleon%20skin)_vgm"
-      }
-    ],
-    "groups": ["Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-mind-whisperer-chameleon-skin-017dcc44c3ca0aee.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-mind-whisperer-shed-skin",
-    "name": "Yuan-ti Mind Whisperer (Shed Skin)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20mind%20whisperer%20(chameleon%20skin)_vgm",
+        "variantName": "Chameleon Skin"
+      },
       {
         "id": "printing-e950c0f9dd881dbdc740",
         "label": "Volo's Guide to Monsters",
@@ -85404,16 +85132,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20mind%20whisperer%20(shed%20skin)_vgm"
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20mind%20whisperer%20(shed%20skin)_vgm",
+        "variantName": "Shed Skin"
       }
     ],
-    "groups": ["Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-mind-whisperer-shed-skin-d594aa8c8eb911a9.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Monstrosity"]
   },
   {
     "type": "monsters",
@@ -85469,23 +85192,7 @@
             "key": "volo_s_guide_to_monsters"
           }
         }
-      }
-    ],
-    "groups": ["Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-nightmare-speaker-9649f0b21e305165.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-nightmare-speaker-chameleon-skin",
-    "name": "Yuan-ti Nightmare Speaker (Chameleon Skin)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+      },
       {
         "id": "printing-f3ada9fd31d5b158af49",
         "label": "Volo's Guide to Monsters",
@@ -85607,24 +85314,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker%20(chameleon%20skin)_vgm"
-      }
-    ],
-    "groups": ["Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-nightmare-speaker-chameleon-skin-7c146fc545878fe3.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-nightmare-speaker-shed-skin",
-    "name": "Yuan-ti Nightmare Speaker (Shed Skin)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker%20(chameleon%20skin)_vgm",
+        "variantName": "Chameleon Skin"
+      },
       {
         "id": "printing-ae667e365e397fc22d2b",
         "label": "Volo's Guide to Monsters",
@@ -85748,13 +85440,14 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker%20(shed%20skin)_vgm"
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker%20(shed%20skin)_vgm",
+        "variantName": "Shed Skin"
       }
     ],
     "groups": ["Monstrosity"],
     "art": [
       {
-        "file": "/assets/library/worker-art/yuan-ti-nightmare-speaker-shed-skin-f34f0ddbfe8be8f8.webp",
+        "file": "/assets/library/worker-art/yuan-ti-nightmare-speaker-9649f0b21e305165.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -85809,17 +85502,7 @@
             "key": "volo_s_guide_to_monsters"
           }
         }
-      }
-    ],
-    "groups": ["Monstrosity"]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-pit-master-chameleon-skin",
-    "name": "Yuan-ti Pit Master (Chameleon Skin)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+      },
       {
         "id": "printing-1c1063c865c9d1c7d81d",
         "label": "Volo's Guide to Monsters",
@@ -85938,24 +85621,9 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20pit%20master%20(chameleon%20skin)_vgm"
-      }
-    ],
-    "groups": ["Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-pit-master-chameleon-skin-ab92d80c559caf20.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "yuan-ti-pit-master-shed-skin",
-    "name": "Yuan-ti Pit Master (Shed Skin)",
-    "summary": "",
-    "group": "Monstrosity",
-    "printings": [
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20pit%20master%20(chameleon%20skin)_vgm",
+        "variantName": "Chameleon Skin"
+      },
       {
         "id": "printing-215449137f4e1c3bab5a",
         "label": "Volo's Guide to Monsters",
@@ -86076,16 +85744,11 @@
         ],
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yuan-ti%20pit%20master%20(shed%20skin)_vgm"
+        "source": "https://5e.tools/bestiary.html#yuan-ti%20pit%20master%20(shed%20skin)_vgm",
+        "variantName": "Shed Skin"
       }
     ],
-    "groups": ["Monstrosity"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yuan-ti-pit-master-shed-skin-45bdd19373b0bd97.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
+    "groups": ["Monstrosity"]
   },
   {
     "type": "monsters",
