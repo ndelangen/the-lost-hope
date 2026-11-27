@@ -10,7 +10,7 @@ export default createScene({
       refs.npcs.bob_the_merchant,
       ' has set up his stall in ',
       refs.locations.rustmoor,
-      ' and is buying scavenged parts. Play this whenever the party finds him there.',
+      ' and is buying scavenged parts. The party meets him on the day they arrive, before nightfall: that night is the full moon, which is why his quest is for this evening.',
     ],
     [
       'The point of the scene is to end ',
