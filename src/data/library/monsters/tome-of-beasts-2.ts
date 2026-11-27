@@ -2992,7 +2992,10 @@ export default createPublicationMonsters({
               reach: 5,
               thrown: [20, 60],
               twoHanded: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
-              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+              damage: [
+                { dice: '1d6', type: rules.piercing, addModifier: true },
+                { dice: '2d8', type: rules.cold },
+              ],
             },
           },
           {
@@ -4968,7 +4971,10 @@ export default createPublicationMonsters({
               ability: 'str',
               reach: 5,
               twoHanded: [{ dice: '1d10', type: rules.slashing, addModifier: true }],
-              damage: [{ dice: '1d8', type: rules.slashing, addModifier: true }],
+              damage: [
+                { dice: '1d8', type: rules.slashing, addModifier: true },
+                { dice: '2d6', type: rules.necrotic },
+              ],
             },
           },
           {

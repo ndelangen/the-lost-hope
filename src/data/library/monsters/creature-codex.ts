@@ -17892,7 +17892,10 @@ export default createPublicationMonsters({
               ability: 'str',
               reach: 5,
               twoHanded: [{ dice: '1d8', type: rules.bludgeoning, addModifier: true }],
-              damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
+              damage: [
+                { dice: '1d6', type: rules.bludgeoning, addModifier: true },
+                { dice: '2d8', type: rules.necrotic },
+              ],
             },
           },
           {

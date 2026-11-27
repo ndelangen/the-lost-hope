@@ -593,12 +593,17 @@ def convert(r,p):
         if em:
           if avg(em.group(2))!=int(em.group(1)): issues.append(f'{name}: extra damage avg')
           dmg.append({'dice':em.group(2),'type':em.group(3).lower()}); rest=rest[em.end():].strip()
-        vm=re.match(r'^,?\s*or (\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+) damage,? (?:if used with two hands|when used with two hands|with a two-handed (?:melee )?attack|if wielded with two hands|when wielded with two hands)[^.]*\.?',rest,re.I)
+        vm=re.match(r'^,?\s*or (\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+) damage,? (?:if used with two hands|when used with two hands|with a two-handed (?:melee )?attack|if wielded with two hands|when wielded with two hands)(?:(?!,? plus \d)[^.])*\.?',rest,re.I)
         if vm and kind=='melee':
           vb=int(vm.group(4) or 0)*(-1 if vm.group(3) in ('-','−','–') else 1)
           if vb!=mod(scores[a]) or avg(vm.group(2),vb)!=int(vm.group(1)): issues.append(f'{name}: two-handed damage does not derive')
           atk['twoHanded']=[{'dice':vm.group(2),'type':vm.group(5).lower(),'addModifier':True}]
           rest=rest[vm.end():].strip()
+          # "…if used with two hands, plus 6 (1d12) radiant damage": the extra damage goes with either grip.
+          em=EXTRA.match(rest)
+          if em:
+            if avg(em.group(2))!=int(em.group(1)): issues.append(f'{name}: extra damage avg')
+            dmg.append({'dice':em.group(2),'type':em.group(3).lower()}); rest=rest[em.end():].strip()
         atk['damage']=dmg; ab['attack']=atk; ab['intent']='damage'
         rest=re.sub(r'^[.,;]?\s*(?:and\s+)?','',rest,flags=re.I).strip()
         if rest: rest=rest[0].upper()+rest[1:]
