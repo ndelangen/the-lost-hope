@@ -12,6 +12,15 @@ export default createPublicationMonsters({
       tags: ['half-elf'],
       alignment: 'neutral good',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        ['A half-elf who wears a diamond earring that dampens her unwanted mind reading.'],
+      ],
+      lore: [
+        [
+          'Auspicia is the youngest sibling of Omin Dran. She was snatched as a child by the Wandering Crypt and spent years in a dark dream inside it, until Omin and his handpicked "C" Team freed her and killed the crypt\'s counterfeit of her. She came out with psionic power that keeps growing: reading minds is involuntary, though a diamond earring dulls it. She is also tied to the crypt, getting glimpses of others still held there and of distant places. In a fight she seems to know what will happen first and tries to freeze the fight so talk can start, though she has barely begun to test this gift. Now she is working out who she is.',
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -77,6 +86,14 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral',
       languages: ['Common', 'Elvish'],
+      appearance: [['A cartographer, spy and troubadour who carries a dragonborn-made war lute.']],
+      lore: [
+        [
+          'Brahma used to be on the "B" Team and is a skilled mapmaker, spy and troubadour. Audra Courtier, who with her husband Propha Dran runs the inn in Red Larch, taught her at least the singing, and she excels at a mind-controlling song that few can shake off. People say she left after falling out with her husband Oak Truestrike, and she has worked solo for some time. She is both murderous and cheerful, and fights with a dragonborn-made war lute, a one-off item with hidden compartments and powerful weapons.',
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
+      habitats: ['Red Larch'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -201,6 +218,18 @@ export default createPublicationMonsters({
       name: 'Chaos Quadrapod',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'Four suction-cupped tentacles surround a throbbing core of ghostly light, hauling the creature along with a loud slurp.',
+        ],
+      ],
+      lore: [
+        [
+          "It comes from the Far Realm and channels that plane's anarchic power while destroying everything in its way. It moves by throwing its slimy tentacles out and hauling itself forward, relentlessly approaching prey.",
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
+      habitats: ['Far Realm'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -286,6 +315,17 @@ export default createPublicationMonsters({
       name: 'Clockwork Dragon',
       alignment: 'neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A finely made construct clad in plates of brass, bronze, copper or imitation gold and silver, which at first glance passes for a draconic statue.',
+        ],
+      ],
+      lore: [
+        [
+          'They imitate metallic dragons and are strong guardians, with minds sharp enough to take many different orders yet also react by themselves to danger. Most breathe fire, though a maker might prefer acid, cold or lightning.',
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -358,6 +398,18 @@ export default createPublicationMonsters({
       name: 'Deep Crow',
       alignment: 'unaligned',
       languages: ['Deep Crow'],
+      appearance: [
+        [
+          'A huge black bird drops out of the dark, and a cluster of red eyes glows above an insect-like jaw and four-clawed feet. Its call echoes ahead of it long before it appears.',
+        ],
+      ],
+      lore: [
+        [
+          'A giant avian insect, perhaps a spell-twisted familiar or a normal crow warped by foul magic, nobody agrees. It seizes prey in its mandibles and carries it off to the lair, and a victim that fights back may be dropped from height again and again. It lives alone, pairs once in its life, and raises a clutch of young for about a year before they leave. It is intelligent but alien, and it holds grudges for years, even teaching its young to share them. It nests near lava, where the warmth keeps the eggs steady.',
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
+      habitats: ['Underground', 'Volcanic'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -592,6 +644,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful neutral',
       languages: ['Common', 'Draconic', 'Elvish', 'Gnomish'],
+      appearance: [
+        [
+          'Flabbergast is a mage and the aloof majordomo of the Acquisitions Incorporated Head Office. His cat familiar is Mister Snibbly.',
+        ],
+      ],
+      lore: [
+        [
+          'He is said to come from Neverwinter, where his wealthy family helped build the Dolphin Bridge. He dislikes manual work, abhors violence and rarely shows his magic, instead trying to bring people together. He once worked for Dran Enterprises, specifically Portentia Dran, and feels guilty about some of its dealings. He helped Acquisitions Incorporated even before holding an official role. The Head Office trusts him, but outsiders question whom he really serves.',
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1002,6 +1065,17 @@ export default createPublicationMonsters({
       name: 'Oak Truestrike',
       tags: ['elf'],
       languages: ['Common'],
+      appearance: [
+        [
+          'A confident, arrogant man who somehow always tells each listener just what they hoped to hear.',
+        ],
+      ],
+      lore: [
+        [
+          "Oak is the decisionist of the B Team and, by some accounts, a reincarnated demigod. Whether it is subtle magic or grifter's charm, his skill with people serves him. Each reincarnation makes him a different person, flipping between good and evil leanings, with memories scrambled by his many deaths, and he spends each life balancing the last like a karmic ledger. The current incarnation leans good, with occasional bitterness and misanthropy.",
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1092,6 +1166,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Elvish', 'Halfling'],
+      appearance: [['A self-taught young mage who works as a sort of arcane archaeologist.']],
+      lore: [
+        [
+          "Pendragon became the B Team's cartographer after Brahma Lutier left, and his first task was to help catch the wandering bard. He is the adopted child of Rosie Beestinger of the C Team and her opposite in nearly every way, including wanting to make the family's rumoured criminal interests mainstream. He once tried to kill her and died doing it; she had him resurrected, though things stay cool. Dark rumours about the Beestingers got him expelled from wizarding school, so he uses dangerous spells and odd trinkets found on his digs. He stays with the team for the family feeling, even with Oak Truestrike as a father figure.",
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
+      habitats: ['Faerun'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1169,6 +1251,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful neutral',
       languages: ['Common', 'Elvish'],
+      appearance: [['A soft-spoken servant of Waukeen who rarely talks.']],
+      lore: [
+        [
+          "Phoenix is the B Team's hoarder. He grew up fighting on the streets until sweeping the front steps of a modest Waukeen temple pointed him somewhere new, so his hunger for coin is shaped by knowing want. He is more devoted to objects than people, obsessed with the franchise's assets and accounts, and counts his teammates as assets, making him fiercely loyal. Oak Truestrike is the only one he has really warmed to, which helps neither.",
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
+      habitats: ['Faerun'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1275,6 +1365,14 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       alignment: 'lawful evil',
       languages: ['Common', 'Elvish'],
+      appearance: [['A shapeshifter whose forms and moods change often, not all fully humanoid.']],
+      lore: [
+        [
+          "Portentia owns Dran Enterprises, a rival of Acquisitions Incorporated, but is really a changeling who replaced the true Portentia as a child and has long manipulated the Dran family. She tricked her sister Auspicia into the Wandering Crypt and would have done the same to Omin had he not fled for a weapon. She fights to maim, with cruel surprise tactics and painful lessons, adopting any look or attitude. Her real goals, and the company's, are known only to her.",
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
+      habitats: ['Faerun'],
       stats: {
         size: 'medium',
         type: 'monstrosity',

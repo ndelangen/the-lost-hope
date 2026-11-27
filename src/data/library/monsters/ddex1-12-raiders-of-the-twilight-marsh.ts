@@ -12,6 +12,16 @@ export default createPublicationMonsters({
       tags: ['kobold'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        ['Ordinary-looking kobolds that drink a potion and turn into frenzied fighters.'],
+      ],
+      lore: [
+        [
+          'In the Black Bull hall, kobold berserkers start as normal kobolds and can swallow an elixir of hate as a free action to become berserkers. A fool who drinks an elixir found on a dead kobold gains the same transformation. Kobolds here help torture prisoners and carry out chores.',
+        ],
+        ['Sources: ', 'DDEX1-12 Raiders of the Twilight Marsh, p. 20'],
+      ],
+      habitats: ['Fortress'],
       stats: {
         size: 'medium',
         type: 'humanoid',

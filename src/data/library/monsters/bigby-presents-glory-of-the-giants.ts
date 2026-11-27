@@ -6537,6 +6537,18 @@ export default createPublicationMonsters({
       name: 'Regisaur',
       page: 130,
       alignment: 'unaligned',
+      appearance: [
+        [
+          'A huge predator, big enough to swallow a giant, with glowing, scar-like lines of fiery elemental energy running through its skin and shining in its eyes and nostrils.',
+        ],
+      ],
+      lore: [
+        [
+          'A giant dinosaur, called the ruler of dinosaurs, made by Annam the All-Father to live beside his children. The primeval magic of its making still shows in the colourful lines on its body. Such creatures survive in lost jungles, hidden enclaves and untouched lands.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',

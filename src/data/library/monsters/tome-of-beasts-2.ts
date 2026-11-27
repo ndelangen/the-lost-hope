@@ -2418,6 +2418,15 @@ export default createPublicationMonsters({
       name: 'Bloated Ghoul',
       alignment: 'neutral evil',
       languages: ['Common', 'Darakhul', 'Undercommon'],
+      appearance: [
+        ['A pot-bellied ghoul, its body distended with meat and bone it has not digested.'],
+      ],
+      lore: [
+        [
+          'A bloated ghoul ate ritually, consuming hundreds of humanoid victims, until it swelled, and then went mad with hunger. Its lair is usually greasy with blood and entrails, which it licks off the walls and floors with delight.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -8248,6 +8257,16 @@ export default createPublicationMonsters({
       name: 'Giant Snow Beetle',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A big beetle of the frozen north rolls a heap of snow into a ball it can throw.'],
+      ],
+      lore: [
+        [
+          'A carrion-eater of the coldest lands that shapes snow into large balls to defend its lair and to house its eggs. In times of plenty it packs spare carrion inside the balls as a store, or to feed new larvae. When attacked it hurls any ball that holds no young, often spattering foes with frozen rotten meat.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -12859,6 +12878,14 @@ export default createPublicationMonsters({
       name: 'Lantern Beetle',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A docile beetle whose abdomen glows.']],
+      lore: [
+        [
+          "Lantern and sniffer beetles both are Underworld creatures that eat the fungus growing in its darkest caves. The lantern beetle's glow comes from bioluminescent fungus reacting in its gut. Underworld folk train them as living lights, or sniffers for tracking scents. A spellcaster can call one as a familiar, and junior wizards like them as late-night reading lamps.",
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Underworld'],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -24550,6 +24577,13 @@ export default createPublicationMonsters({
       name: 'Young Blue Dragon Zombie',
       alignment: 'neutral evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [['A reanimated young blue dragon corpse.']],
+      lore: [
+        [
+          "Any true dragon's corpse can rise as a dragon zombie, losing traits that need a living body or knowledge and becoming slower, dull-witted and neutral evil, no longer needing air, food, drink or sleep. It understands its old languages but cannot speak, and its lair actions may change as the GM sees fit.",
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',

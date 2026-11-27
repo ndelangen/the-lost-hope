@@ -11,6 +11,15 @@ export default createPublicationMonsters({
       name: 'Greater Shadow Horror',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        ['A formless thing made of living shadow, dull in reasoning yet strangely cunning.'],
+      ],
+      lore: [
+        [
+          "Tyreus conjured it as an example of the terrors from Ravnica's dark corners, and left it to keep trespassers out of his refuge unless he allows them in.",
+        ],
+        ['Sources: ', 'Adventures in the Forgotten Realms: The Hidden Page'],
+      ],
       stats: {
         size: 'huge',
         type: 'aberration',

@@ -11,6 +11,18 @@ export default createPublicationMonsters({
       name: 'Ashwalker',
       alignment: 'neutral evil',
       languages: ["understands all languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A burnt, ashen corpse that rises from the dirt and walks charred streets as if nothing had happened, rasping out a few words of hate.',
+        ],
+      ],
+      lore: [
+        [
+          'Ashwalkers are humanoids killed by dragon breath in a place heavy with magic, and they often rise in hordes after a dragon has levelled a city. Red dragon fire is the commonest cause, but any breath can do it, and the remains keep some of that energy, so a poison-breath victim may leak foul clouds. They have no purpose and rarely obey a master. Some replay their final hours or lie down at their old homes, never able to sleep. Explorers report seeing them wander markets and theatres until a living voice breaks the daze and may drive them into a rage.',
+        ],
+        ['Sources: ', 'Tome of Beasts 1 (2023 Edition)'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -290,6 +302,15 @@ export default createPublicationMonsters({
       name: 'Beheaded Vengeful Spirit',
       alignment: 'any alignment',
       languages: ['the languages it knew in life'],
+      appearance: [
+        ['A ghostly humanoid floating with its head hovering a few inches over the severed neck.'],
+      ],
+      lore: [
+        [
+          'A strong-willed, magically gifted humanoid killed by ordinary means in the hands of angry or frightened people may return as a vengeful spirit, whether the death was murder or a fair execution. It hunts those responsible and punishes the living in a fittingly ironic way. Each one is defined by how it died and wants its killers to die the same way.',
+        ],
+        ['Sources: ', 'Tome of Beasts 1 (2023 Edition)'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -675,6 +696,16 @@ export default createPublicationMonsters({
       name: 'Clockwork Weaving Spider',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        ['A mechanical spider with ten long thin legs, one bearing an oversized blade.'],
+      ],
+      lore: [
+        [
+          'Loops on two legs steer yarn through a loom, six legs do the walking and climbing, a seventh sews with great speed, and the last carries a razor edge used to trim cloth or to fight. They help weavers make garments and double as spies and guards, since nobody notices a machine weaving all day. They seldom start a fight unless ordered, but protect themselves, their owners and other weavers by hurling a poisoned shuttle at the closest enemy and then climbing the thread to attack, until destroyed or called off. When spying they bolt when threatened to preserve what they learned. In Midgard, priests of Rava make them and the Honorable Order of Weavers directs them.',
+        ],
+        ['Sources: ', 'Tome of Beasts 1 (2023 Edition)'],
+      ],
+      habitats: ['Zobeck'],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -2242,6 +2273,18 @@ export default createPublicationMonsters({
       name: 'Swarm of Sluaghs',
       alignment: 'chaotic evil',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'A weasel-sized, gaunt humanlike creature draped in black with pale skin and hair, no legs, a torso that tapers away, long pale arms with sharp claws, fangs and fully black eyes. In a mass they look like a flock of strange birds.',
+        ],
+      ],
+      lore: [
+        [
+          'Malevolent fey of darkness, cowardly alone but seldom alone, most active in winter. They chill prey with their claws, leaving cold, blue-tinged skin, and eat small animals if needed. Swarms answer to hags, devils, trollkin and wicked fey that know the blood rites, and shadow fey and drow loose them on elves. They fly or pull themselves along with their arms and whisper as they attack.',
+        ],
+        ['Sources: ', 'Tome of Beasts 1 (2023 Edition)'],
+      ],
+      habitats: ['Dark places'],
       stats: {
         size: 'medium',
         type: 'fey',

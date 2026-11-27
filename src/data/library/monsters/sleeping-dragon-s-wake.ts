@@ -11,6 +11,15 @@ export default createPublicationMonsters({
       name: 'Giant Shark Skeleton',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A thirty-foot shark skeleton with skeletal feet added by some twisted necromancer.'],
+      ],
+      lore: [
+        [
+          'A giant shark lives in deep oceans, fearless, and attacks anything in its way, whales and ships included. This undead version does not breathe, eat, drink or sleep.',
+        ],
+        ['Sources: ', "Sleeping Dragon's Wake"],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -55,6 +64,14 @@ export default createPublicationMonsters({
       name: 'Lhammaruntosz',
       alignment: 'lawful good',
       languages: ['Common', 'Draconic'],
+      appearance: [['A bronze dragon who heals fast.']],
+      lore: [
+        [
+          'For decades Lhammaruntosz captained the Scaly Eye, a fleet fighting pirates and other threats near Leilon. The Swords of Leilon honoured her by building the Bronze Shrine to Bahamut into a seaside cliff, carved with her face and with rooms for the fleet and a magic statue she uses to commune with the god. A demon in disguise attacked her and drove her mad, so she has withdrawn inside, leaving only rarely to hunt. Scaly Eye members remain as her ordered guardians.',
+        ],
+        ['Sources: ', "Sleeping Dragon's Wake"],
+      ],
+      habitats: ['Leilon', 'Coast'],
       stats: {
         size: 'huge',
         type: 'dragon',

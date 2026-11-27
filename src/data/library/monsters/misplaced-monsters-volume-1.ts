@@ -11,6 +11,18 @@ export default createPublicationMonsters({
       name: 'Coral',
       alignment: 'chaotic good',
       languages: ['Common', 'Primordial', 'Sylvan'],
+      appearance: [
+        [
+          'A fey creature with a horn and a rainbow tail that glows when she is upset, and bubbles that pop out of her horn when she hiccups.',
+        ],
+      ],
+      lore: [
+        [
+          'Coral lives in the sea and the sky, and her favourite snack is cookies. She can boost others and briefly let animals talk. A tail slap sends magical force at an enemy and might reduce it to dust, and hiccup bubbles turn into cookies, bursts of glitter or protective stinky fog.',
+        ],
+        ['Sources: ', 'Misplaced Monsters: Volume 1'],
+      ],
+      habitats: ['Ocean', 'Sky'],
       stats: {
         size: 'large',
         type: 'fey',
@@ -135,6 +147,18 @@ export default createPublicationMonsters({
       name: 'Dandylion',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'A plant-eating fey with soft green fur woven through with tiny leaves, a puffy seed head on the tail tip and a bright yellow mane.',
+        ],
+      ],
+      lore: [
+        [
+          'Dandylions tend lovely flower gardens and crop fields in the Feywild. Respectful visitors get farming tips and wholesome, tasty produce, some with magical uses in potions and spellcasting. They defend their land with fury against trampling or theft, and flattery is the sure way to get their produce. Seed pods on the tail enrich soil, and they weave necklaces from petals and brag about their rich earth and golden manes.',
+        ],
+        ['Sources: ', 'Misplaced Monsters: Volume 1'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'large',
         type: 'fey',
@@ -299,6 +323,16 @@ export default createPublicationMonsters({
       name: 'Rain',
       alignment: 'lawful good',
       languages: ['Celestial', 'Common'],
+      appearance: [
+        ['A pony-like celestial with fiery wings and a little halo circling the end of her horn.'],
+      ],
+      lore: [
+        [
+          "A gentle sprite from cloud-top meadows far from the world's evil, who loves cupcakes and takes them gladly as gifts. Against bullies and evildoers she fires rainbow light from her horn, which heals friends and turns wrongdoers into glittering flowers.",
+        ],
+        ['Sources: ', 'Misplaced Monsters: Volume 1'],
+      ],
+      habitats: ['Clouds'],
       stats: {
         size: 'small',
         type: 'celestial',
@@ -400,6 +434,18 @@ export default createPublicationMonsters({
       name: 'Scrapper',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A tall, broad-shouldered automaton with loose wires sticking out of its bulky body, sparking.',
+        ],
+      ],
+      lore: [
+        [
+          'Found in scrap yards, it eats scrap metal. Its mind is shielded by lead against psychic harm. It catches and drags in foes with electrified wires and shoots those out of reach with an energy beam from an extending eye.',
+        ],
+        ['Sources: ', 'Misplaced Monsters: Volume 1'],
+      ],
+      habitats: ['Scrapyard'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -510,6 +556,16 @@ export default createPublicationMonsters({
       name: 'Seth the Shapeshifting Dragon',
       alignment: 'neutral',
       languages: ['Aquan', 'Common', 'Draconic'],
+      appearance: [
+        ['A dragon hiding in brush beside falls, streams and lakes, invisible while underwater.'],
+      ],
+      lore: [
+        [
+          'A vegetarian dragon who can move in sudden bursts of speed and whose breath is a blast of freezing water.',
+        ],
+        ['Sources: ', 'Misplaced Monsters: Volume 1'],
+      ],
+      habitats: ['Rivers', 'Lakes'],
       stats: {
         size: 'medium',
         type: 'dragon',

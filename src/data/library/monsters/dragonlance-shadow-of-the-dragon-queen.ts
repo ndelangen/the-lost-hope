@@ -89,6 +89,17 @@ export default createPublicationMonsters({
       name: 'Anhkolox',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        [
+          'A creature built of barbed bear and beast bones that grind, crack and move in ways that seem impossible, running on all fours.',
+        ],
+      ],
+      lore: [
+        [
+          'Anhkoloxes are savage undead assembled from bear bones and the bones of other animals. A territorial instinct and a hunger for living prey drive them. They rear up on their back legs when a victim is cornered, club enemies with claws, and enjoy hurling them into pits of jagged bone. The barbed ribs gape like a trap and clamp shut on whoever is caught.',
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -181,6 +192,17 @@ export default createPublicationMonsters({
       name: 'Baaz Draconian',
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A small draconian whose stunted wings cannot lift it, only slow a fall, and which can be tucked under a cloak.',
+        ],
+      ],
+      lore: [
+        [
+          "Baaz are zealous foot soldiers hatched from brass dragon eggs. Some hide their stubby wings beneath robes and pose as ordinary travellers while spying for the Dragon Armies. Seeing a dragon sends them into a deadly rage. When one dies its body turns to stone and puffs out a petrifying gas that stones the corpse and any creature close by. Draconians as a whole are two-legged monsters that hatch from metal dragons' eggs after distorted alchemy and the Dragon Queen's foul magic have corrupted them. The armies keep the secret carefully, so Krynn's metallic dragons believe their eggs are hostages and do not resist her conquests.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -525,6 +547,13 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [['A winged draconian whose wings only slow a fall.']],
+      lore: [
+        [
+          "Bozaks come out of eggs laid by bronze dragons and cast spells to help their allies fight. Their wings cannot sustain flight but let them glide down from a fall. When a bozak dies, the flesh withers off and the skeleton bursts, spraying magical splinters all around. Like other draconians they come from metallic eggs warped by faulty alchemy and the Dragon Queen's sinister power, and the Dragon Armies guard this secret so that Krynn's metallic dragons go on believing their eggs are hostages and do not resist the conquests.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -635,6 +664,14 @@ export default createPublicationMonsters({
       name: 'Caradoc',
       alignment: 'neutral evil',
       languages: ['Common', 'Solamnic'],
+      appearance: [['An intangible spirit rather than a skeletal knight.']],
+      lore: [
+        [
+          "Caradoc served Lord Soth as seneschal and was once a Solamnic knight, burned when Dargaard Keep went up in the flames of the Cataclysm. Like many of Soth's retainers, he was cursed to undeath. He is deceitful and cowardly at heart, so he returned as an incorporeal spirit, which suits him, since he can possess people and lie through unwilling mouths. He is bound to his charred bones, left gathering dust inside the keep. In a humanoid host he may leave the cursed castle, but if found outside the walls without one he is hauled back at once.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Dargaard Keep'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1026,6 +1063,18 @@ export default createPublicationMonsters({
       name: 'Dragon Army Dragonnel',
       alignment: 'lawful evil',
       languages: ["understands Common and Draconic but can't speak"],
+      appearance: [
+        [
+          'A beast like a smaller red dragon, with similar scales and shape, stalks forward with embers flaring along its teeth and claws.',
+        ],
+      ],
+      lore: [
+        [
+          'Native to the volcanic mountains around Sanction, closely related to red dragons, and cruel and selfish. The Dragon Armies train them as mounts for trusted officers. They have no fiery breath but resist fire. They understand speech without being able to talk, and are driven mostly by hunger.',
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Volcanic mountains'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -1078,6 +1127,17 @@ export default createPublicationMonsters({
       name: 'Dragon Army Officer',
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'An officer of the Dragon Army carries a weapon blessed by Takhisis and infused with the breath of a red dragon.',
+        ],
+      ],
+      lore: [
+        [
+          "The Dragon Armies attract fanatics who revere the Dragon Queen and see dragons as her favoured servants. Their weapons are infused with dragon breath, and the damage type follows the army's colour. This version carries the fire of red dragons, and other chromatic armies can be shown by swapping the damage type.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1164,6 +1224,17 @@ export default createPublicationMonsters({
       name: 'Dragon Army Soldier',
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A soldier of the Dragon Army carries a weapon blessed by Takhisis and infused with the breath of a red dragon.',
+        ],
+      ],
+      lore: [
+        [
+          "The Dragon Armies attract fanatics who revere the Dragon Queen and see dragons as her favoured servants. Their weapons are infused with dragon breath, and the damage type follows the army's colour. This version carries the fire of red dragons, and other chromatic armies can be shown by swapping the damage type.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1399,6 +1470,13 @@ export default createPublicationMonsters({
       name: 'Fewmaster Gholcag',
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant'],
+      appearance: [['Fewmaster Gholcag is a hulking ogre who commands for the Red Dragon Army.']],
+      lore: [
+        [
+          'A low-ranking officer of the Red Dragon Army and the one who leads the raid on Vogler. Like ogres generally, he has a quick temper and lashes out in tantrums until nothing is left to smash.',
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -1444,6 +1522,15 @@ export default createPublicationMonsters({
       name: 'Greater Death Dragon',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        ['A skeletal dragon with bones burning with violet fire, breathing a deadly flame.'],
+      ],
+      lore: [
+        [
+          'A death dragon is the undead skeleton of a metallic or chromatic dragon, filled with Cataclysm fire, and sometimes it arises from a death that torments the soul and drives it to vengeance. Greater ones keep nearly all their old selves, scheming and guarding hoards as before. They like to seize foes in their jaws, climb, and drop them. The breath snuffs life and turns corpses into burning zombies, which rampage under its will. A stronger dragon resists the hate more and holds on to more of its memories.',
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -1975,6 +2062,14 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral',
       languages: ['Any languages she knew in life'],
+      appearance: [['An elven priest who died in the Cataclysm, now a deathless spirit.']],
+      lore: [
+        [
+          'Leedara died over three hundred years ago in the Cataclysm. She watched her companion Isolde drawn into the fate of the Solamnic knight Lord Loren Soth, who failed his divine quest to stop the Cataclysm and was cursed to live as a death knight. His curse also raised Leedara and several companions as undead spirits devoted to making sure Soth never finds peace.',
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Krynn'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2118,6 +2213,14 @@ export default createPublicationMonsters({
       name: 'Lesser Death Dragon',
       alignment: 'chaotic evil',
       languages: ["understands Common and Draconic but can't speak"],
+      appearance: [['A skeletal dragon whose bones burn with violet fire.']],
+      lore: [
+        [
+          'Death dragons are the undead skeletons of metallic or chromatic dragons, charged with the remaining flames of the Cataclysm through foul sorcery, or occasionally risen from a dragon whose death tormented its soul and left it vengeful. Most are faint copies of what they were, with scraps of memory that painful reminders stir, but these flashes burn away in rage and the dragon smashes whatever prompted them. The stronger the dragon, the more it resists the hate and keeps some memories. Its breath is a mockery of its old weapon that extinguishes life and fills corpses with undeath, and those zombies burn with the same fire and rampage against the living.',
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Krynn'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -2442,6 +2545,18 @@ export default createPublicationMonsters({
       name: 'Red Ruin',
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A commander in a distinctive dragonnel-shaped helmet she rarely takes off, who says little and directs her riders in the air with sharp hand signals.',
+        ],
+      ],
+      lore: [
+        [
+          'She commands the air wing of the Red Dragon Army, a dragonnel-flying ace known for quick reflexes and awareness. Her real name is unknown, and she is called commander or Red Ruin after razing many targets from above.',
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Sky'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2630,6 +2745,18 @@ export default createPublicationMonsters({
       name: 'Sivak Draconian',
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          "A fearsome brute on strong wings, able to take on the look of those it has killed; when it dies its crumbling body takes its killer's shape and screams.",
+        ],
+      ],
+      lore: [
+        [
+          "Sivaks are made from corrupted silver dragon eggs and serve as shock troops, flying to the fiercest fighting. They copy the features of the slain to spread confusion and despair. The Dragon Armies keep the draconians' origin secret so metallic dragons keep believing their eggs are hostages and do not oppose the Dragon Queen.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Battlefield'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2987,6 +3114,14 @@ export default createPublicationMonsters({
       name: 'Wasteland Dragonnel',
       alignment: 'chaotic good',
       languages: ["understands Common and Draconic but can't speak"],
+      appearance: [['A lithe, quick dragon-like creature with dull copper scales.']],
+      lore: [
+        [
+          'Wasteland dragonnels live in the Northern Wastes of Ansalon and are close kin to copper dragons. They are playful and guard territory by flying out of reach and spitting acid. Dragonnels in general understand speech but cannot talk, and are driven mostly by hunger.',
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Northern Wastes'],
       stats: {
         size: 'large',
         type: 'dragon',

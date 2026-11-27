@@ -418,6 +418,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A new cultist, either a dreamy youth or a weary adult, pale from a month of near-fasting.',
+        ],
+      ],
+      lore: [
+        [
+          "Recruits come for the cult's teaching of detachment from possessions, not knowing what it really is. The month-long fast is sold as purification but really leaves them desperate for food and ready for indoctrination. Soon they justify heinous acts: human sacrifice is freeing the soul, and calling a whirlwind on unbelievers shows faith.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse - D&D Encounters'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

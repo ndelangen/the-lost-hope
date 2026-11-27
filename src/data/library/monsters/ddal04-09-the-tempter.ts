@@ -171,6 +171,18 @@ export default createPublicationMonsters({
       name: 'Reflection Guardian',
       alignment: 'unaligned',
       languages: ['Common'],
+      appearance: [
+        [
+          'A creature that looks like a reflection of a character, changing form each time in a different mirror.',
+        ],
+      ],
+      lore: [
+        [
+          'In a mirrored gallery a reflection guardian hides among reflections, changing its look each turn to resemble a different party member, which is unsettling but has no game effect. It supports the mirror golem, saves its reaction for counterspell, and can cast crown of madness. When concentrating on telekinesis it throws vases and shards of glass.',
+        ],
+        ['Sources: ', 'DDAL04-09 The Tempter, p. 16'],
+      ],
+      habitats: ['Mansion'],
       stats: {
         size: 'medium',
         type: 'construct',

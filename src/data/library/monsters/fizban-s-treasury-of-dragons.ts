@@ -9497,6 +9497,18 @@ export default createPublicationMonsters({
       page: 202,
       alignment: 'typically neutral',
       languages: ['Understands Draconic but cannot speak, telepathy 60 ft.'],
+      appearance: [
+        [
+          "A four-legged body like a wingless dragon's carries a vaguely human torso, head and arms where the dragon's head would be. The eyes are milk-white, there is no mouth, and bright crystals pulsing with psychic energy stud the skin.",
+        ],
+      ],
+      lore: [
+        [
+          "A gem dragon sometimes reshapes the corpse of a Far Realm aberration into a gem stalker, a sharp predator that crosses the Underdark, hunts aberrations and guards its maker's lair. The dragon's breath fills it with life, intelligence and purpose. Its crystals give it telepathy, let it throw crystal darts, and form a protective link that can shield others.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'monstrosity',

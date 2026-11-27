@@ -1101,6 +1101,13 @@ export default createPublicationMonsters({
       name: 'Bore Worm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A drilling machine a hundred feet long modelled on a purple worm.']],
+      lore: [
+        [
+          'Trobriand built this machine, and unless he gives other orders it keeps travelling through heavily used tunnels and trenches, blindly attacking whatever blocks its path and sometimes venturing a couple of levels either way. Its noise carries a long way ahead of it.',
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'construct',
@@ -1832,6 +1839,13 @@ export default createPublicationMonsters({
       name: 'Fazrian',
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft.'],
+      appearance: [['Fazrian is a fallen planetar that once embodied courage and good judgment.']],
+      lore: [
+        [
+          'Now it hunts any creature it judges unworthy of life. In its eyes everyone is guilty of some flaw, and unless someone proves innocence at once, it sentences them to immediate death.',
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -4143,6 +4157,18 @@ export default createPublicationMonsters({
       name: 'Living Unseen Servant',
       alignment: 'unaligned',
       languages: ["understands one language (usually Common) but can't speak"],
+      appearance: [
+        [
+          'A spell effect that looks normal but lingers and moves with purpose, revealed by see invisibility as a slender humanoid adult.',
+        ],
+      ],
+      lore: [
+        [
+          'Wild magic zones and sites ravaged by eldritch power can produce spell effects that will not fade. Such living spells haunt their birthplace, living on ambient magic, needing no air, food, drink or sleep, and are immune to dispel magic and antimagic fields. Like a zealous butler or maid, this servant keeps busy with tasks to please its creator, and can handle basic weapons but would rather not.',
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
+      habitats: ['Wild magic area'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -4199,6 +4225,18 @@ export default createPublicationMonsters({
         'Infernal',
         "and Undercommon but can't speak",
       ],
+      appearance: [
+        [
+          'A seventeen-foot, lurching pile of stone bodies, arms, legs and heads, every piece modelled on the Mad Mage.',
+        ],
+      ],
+      lore: [
+        [
+          "This was a ten-foot stone golem made in Halaster's image, nearly immune to spells and ordinary weapons like its kind. In its madness it kept bolting on pieces of other Stonecloaks until it turned into a jumble.",
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
+      habitats: ['Undermountain'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -4298,6 +4336,14 @@ export default createPublicationMonsters({
       name: 'Muiral',
       alignment: 'chaotic evil',
       languages: ['Common', 'Dwarvish', 'Elvish', 'Goblin', 'Undercommon'],
+      appearance: [['A half-scorpion monstrosity, once a human warrior.']],
+      lore: [
+        [
+          "Muiral was Halaster's longtime bodyguard, and his decline began after he requested wizardry lessons from the Mad Mage. He learned enough to turn himself into a half-scorpion, becoming Muiral the Misshapen, then withdrew to the Undermountain level now called Muiral's Gauntlet, killing and driving out its drow. He hunts adventurers and intruders for sport, and long solitude plus Halaster's influence have left him completely mad.",
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
+      habitats: ['Undermountain'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -5022,6 +5068,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common', 'Dwarvish', 'Goblin', 'Undercommon'],
       habitats: ['urban'],
+      appearance: [
+        [
+          "An elderly woman whose eyes have been replaced by a pair of beholder eyestalks, with an oversized mouth crowded with sharp teeth, draped in a kuo-toa's skinned, glossy, see-through hide.",
+        ],
+      ],
+      lore: [
+        [
+          'Preeta once helped Arcturia, an apprentice of Halaster, until Arcturia changed her into a monstrous horror.',
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5330,6 +5387,18 @@ export default createPublicationMonsters({
       name: 'Scaladar',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A construct built like a giant scorpion, with two large pincers and a metal tail stinger.',
+        ],
+      ],
+      lore: [
+        [
+          'Built by Trobriand, an apprentice of Halaster. It seizes prey in its pincers and strikes with a lightning pulse from the stinger.',
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
+      habitats: ['Dungeon'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -5423,6 +5492,13 @@ export default createPublicationMonsters({
       name: 'Shadow Assassin',
       alignment: 'chaotic evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        ['It looks like an ordinary undead shadow, but its shortswords are made of shadow too.'],
+      ],
+      lore: [
+        ['An undead that exists only to kill the living.'],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5511,6 +5587,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Elvish', 'Undercommon'],
       habitats: ['underdark'],
+      appearance: [
+        [
+          'A man half-turned into a spider: eight red eyes, a fanged maw and black bristles on his slim limbs.',
+        ],
+      ],
+      lore: [
+        [
+          "A drow priestess of Lolth cursed and exiled him. Remove curse or greater restoration would undo it, but he refuses, because his fearsome look scares his gang's members and earned Xanathar's favour. He fears losing standing in the Xanathar Guild if he turned normal.",
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6201,6 +6288,18 @@ export default createPublicationMonsters({
         'Infernal',
         "and Undercommon but can't speak",
       ],
+      appearance: [
+        [
+          'A ten-foot stone golem carved in the likeness of Halaster, tall and impressive like a statue.',
+        ],
+      ],
+      lore: [
+        [
+          'Halaster made these golems in his own image and used Runestone fragments to give them minds, then released them onto this level. They treat the Mad Mage as a deity and think of the Runestone as his gaze upon their gloomy realm.',
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
+      habitats: ['Dungeon'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -6381,6 +6480,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common'],
       habitats: ['underdark'],
+      appearance: [['A floating skull wreathed in vivid green fire, cackling madly.']],
+      lore: [
+        [
+          'A flameskull: an undead skull that fires burning rays from its eyes and casts grim spells it recalls from the dark corners of its memory. Run it as a mobile ranged caster.',
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -6937,6 +7043,17 @@ export default createPublicationMonsters({
       tags: ['goblinoid', 'shapechanger'],
       alignment: 'neutral evil',
       languages: ["Goblin (can't speak in bat form)"],
+      appearance: [
+        [
+          'A humanoid, mostly of goblin blood, that shifts into an enormous bat or a bat-person hybrid.',
+        ],
+      ],
+      lore: [
+        [
+          'Even goblins avoid werebats, since they must feed on blood to live. A skipped night leaves them exhausted in a way rest cannot cure. They den in dark spots like attics and caves and hunt after dark.',
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

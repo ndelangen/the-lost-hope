@@ -11,6 +11,18 @@ export default createPublicationMonsters({
       name: 'Ash Zombie',
       alignment: 'neutral evil',
       languages: ["understands all languages it spoke in life but can't speak"],
+      appearance: [
+        [
+          'A shambling figure staggers out of the gloom with a wet moan, one foot dragging, arms swollen and hands mangled.',
+        ],
+      ],
+      lore: [
+        [
+          'These zombies came from the magical ruin left when Mount Hotenow erupted three decades ago. They press forward intent on killing anyone slow enough to be caught, and the first time one is hurt it throws up a cloud of ash that can sicken any living creature next to it.',
+        ],
+        ['Sources: ', 'Lost Mine of Phandelver'],
+      ],
+      habitats: ['Phandalin region'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -186,6 +198,14 @@ export default createPublicationMonsters({
       name: 'Mormesk the Wraith',
       alignment: 'neutral evil',
       languages: ['Common', 'Infernal'],
+      appearance: [['A wraith, an incorporeal remnant of a hateful being.']],
+      lore: [
+        [
+          'Most wraiths can turn those they kill into spectral undead servants, but Mormesk chooses not to and lets the dead stay dead.',
+        ],
+        ['Sources: ', 'Lost Mine of Phandelver'],
+      ],
+      habitats: ['Phandelver'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -470,6 +490,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral good',
       languages: ['Common'],
+      appearance: [['A retired soldier and sellsword from Neverwinter.']],
+      lore: [
+        [
+          "He is a faithful member of the Lords' Alliance, which binds the independent towns and cities across the North together.",
+        ],
+        ['Sources: ', 'Lost Mine of Phandelver'],
+      ],
+      habitats: ['Neverwinter'],
       stats: {
         size: 'medium',
         type: 'humanoid',

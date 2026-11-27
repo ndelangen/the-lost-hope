@@ -11,6 +11,15 @@ export default createPublicationMonsters({
       name: 'Forge Fitzwilliam',
       alignment: 'neutral evil',
       languages: ['Common', "Thieves' cant"],
+      appearance: [
+        ['Forge Fitzwilliam has a winning smile that hides loose morals and a dagger kept ready.'],
+      ],
+      lore: [
+        [
+          'A con man who uses lies and flattery, leaving broken promises and false names up and down the Sword Coast. He likes luxury, especially when his own cleverness pays for it. Decades of schemes have not satisfied him, and his ambitions keep growing.',
+        ],
+        ['Sources: ', "Honor Among Thieves: Thieves' Gallery"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

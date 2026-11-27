@@ -254,6 +254,17 @@ export default createPublicationMonsters({
       name: 'Alyxian Aboleth',
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A pale green aboleth whose body is crossed by veins of ruidium, with a second face grown from its hide.',
+        ],
+      ],
+      lore: [
+        [
+          "This one-of-a-kind aboleth is convinced the Apotheon's soul sits inside it, locked into this shape as divine punishment for failing to save the world in the Calamity.",
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -942,6 +953,14 @@ export default createPublicationMonsters({
       name: 'Alyxian the Hunter',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [['A ruidium golem in the likeness of Alyxian the Apotheon, still as a statue.']],
+      lore: [
+        [
+          'It stays motionless until the characters strike it, or until Theo disappears from the Netherdeep.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Netherdeep'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -1746,6 +1765,18 @@ export default createPublicationMonsters({
       name: 'Death Embrace',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'A bell-bodied drifter in the dark Netherdeep water, with a lacy tangle of tendrils that hums with magic beneath, ringed by six huge barbed tentacles.',
+        ],
+      ],
+      lore: [
+        [
+          'It grasps and petrifies prey with its tentacles. Despite its name it is not especially aggressive: it waits, and uses creatures it has caught as shields against attacks.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Netherdeep'],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -2259,6 +2290,14 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'lawful good',
       languages: ['Aquan', 'Common', 'Infernal', 'Orc'],
+      appearance: [['A scholar-archaeologist and Allegiance of Allsight agent.']],
+      lore: [
+        [
+          "Insight is the chief archivist of the Cael Morrow archaeological dig and would risk her life for it. She will share her findings with other members of her faction. Her faction, the Allegiance of Allsight, is based mainly in Ank'Harel and is mostly academics, though its field agents are archaeologists trained to survive the dangers of Exandria. Scholarly masterminds like her lead research organisations, and some of them pursue private agendas that differ from their organisation's.",
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ["Ank'Harel"],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2699,6 +2738,14 @@ export default createPublicationMonsters({
       tags: ['half-elf'],
       alignment: 'chaotic evil',
       languages: ['Any one language (usually Common)'],
+      appearance: [['A disgraced spellcaster carrying a staff of the adder.']],
+      lore: [
+        [
+          'Laurin was a member of the Cerberus Assembly, a society of spellcasters in the Dwendalian Empire of Wildemount, and ran away after taking a staff of the adder that belonged to a senior.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Wildemount'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2792,6 +2839,18 @@ export default createPublicationMonsters({
       name: 'Light Devourer',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A deep-sea creature with a spiny back and many needle-like teeth, glowing fiercely after feeding on light.',
+        ],
+      ],
+      lore: [
+        [
+          'It absorbs bright light, natural or magical, from around it, then glows and turns the stolen light into searing energy that tears into prey. When it is not lit up it hunts through the dark deep sea for something to eat.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Deep ocean'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -3353,6 +3412,14 @@ export default createPublicationMonsters({
       tags: ['monk'],
       alignment: 'any alignment',
       languages: ['Common plus three other languages'],
+      appearance: [['A spy-monk of the Cobalt Soul.']],
+      lore: [
+        [
+          "Infiltrators are spies and saboteurs who study magical techniques to boost their combat skill and help finish assignments. The Cobalt Soul is made of scholars, priests and ascetics drawn to truth, united by Ioun's teachings that real strength comes from understanding. Each branch, called an archive, also works to expose lies and propaganda and fight corruption. Its Library has its seat in Rexxentrum and archives spread over Exandria. In Ank'Harel the branch operates from the Temple of the Mentor, both library and shrine, under High Curator Jamil A'alithiya.",
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Rexxentrum', "Ank'Harel"],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3457,6 +3524,14 @@ export default createPublicationMonsters({
       tags: ['monk'],
       alignment: 'any alignment',
       languages: ['Common plus two other languages'],
+      appearance: [['A spy-monk of the Cobalt Soul.']],
+      lore: [
+        [
+          "Operatives work for organisations that practise espionage, and the best of them are often considered for promotion into senior posts. The Cobalt Soul is made up of scholars, priests and ascetics who serve its Library and follow Ioun's belief that knowing the world is the true source of power. Each branch, called an archive, also works to expose lies and propaganda and to fight corruption in its home society. The Library is based in Rexxentrum, with archives throughout Exandria. In Ank'Harel the archive sits in the Temple of the Mentor, both library and shrine, under High Curator Jamil A'alithiya.",
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Rexxentrum', "Ank'Harel"],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3679,6 +3754,14 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'any alignment',
       languages: ['Common plus one other language'],
+      appearance: [['A newly inducted member of the Consortium of the Vermilion Dream.']],
+      lore: [
+        [
+          'Initiates are the newest members and the ones outsiders most often meet. The Consortium is seen as an esoteric, profit-minded but harmless group of ghost hunters and urban-legend spreaders, which is not wrong, but its leaders are fixated on legends of Ruidus, the Moon of Ill Omen, and ancient figures cursed by its alien influence. Contact with ruidium-tainted items has heightened the cruellest urges of its most obsessive agents.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Wildemount'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3759,6 +3842,14 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'lawful evil',
       languages: ['Common plus three other languages', 'telepathy 60 ft.'],
+      appearance: [['A charismatic Consortium leader who is restless and wary.']],
+      lore: [
+        [
+          'Exposure to alien mysteries unsettles silvertongues, who grow edgy, distrustful and paranoid. They imagine sights and conspiracies, afraid that rivals mean to take their place. They belong to the Consortium of the Vermilion Dream, widely seen as a profit-minded, harmless group of ghost hunters and teller of urban legends. That is fair, yet its leaders are fixated on Ruidus, the Moon of Ill Omen, and ancient figures cursed by its influence, and contact with ruidium-tainted items has sharpened the cruellest impulses of its keenest agents.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Wildemount'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3859,6 +3950,15 @@ export default createPublicationMonsters({
       name: 'Ruidium Elephant',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A crystalline elephant stands where a small figurine was, newly woken and uncontrolled.'],
+      ],
+      lore: [
+        [
+          'A magical elephant figurine that picked up ruidium infection in Cael Morrow. The ruidium twisted its magic, so when someone tries to pick it up it activates itself and becomes a crystal version of its intended creature, one that cannot be commanded.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -4171,6 +4271,18 @@ export default createPublicationMonsters({
       name: 'Scuttling Serpentmaw',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'An unusually large crab in a glossy black carapace, which opens to show a long armoured maw on its back.',
+        ],
+      ],
+      lore: [
+        [
+          'It hides in crevasses and deep undersea canyons and rushes at prey once seen. The serpent-like maw extends from the shell to rip at victims. Serpentmaws cannot swim, scuttle across the seabed in small packs, and cooperate to pull down much larger creatures.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Sea floor', 'Underwater canyon'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -4254,6 +4366,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic good',
       languages: ['Any one language (usually Common)'],
+      appearance: [
+        [
+          'A nervous, bashful human girl of fifteen who hides at night in a shrine to the Wild Mother and acts like a spirit to scare people off.',
+        ],
+      ],
+      lore: [
+        [
+          'She has innate spellcasting. Afraid of hurting anyone as she learns to master her gift, she uses spells to chase intruders from the shrine.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Shrine'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4302,6 +4426,18 @@ export default createPublicationMonsters({
       name: 'Skeletal Bloodfin',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          "A giant eel-like creature with a shark's head, covered in sharp crimson spines and sleek scales, gliding through lightless water before its jaw unhinges.",
+        ],
+      ],
+      lore: [
+        [
+          'It swallows prey whole, drains life energy from them and uses it to heal itself. When it dies the body bursts, and the gore is toxic until the current washes it away. It swims the Netherdeep.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Netherdeep', 'Underwater'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -4442,6 +4578,18 @@ export default createPublicationMonsters({
       name: 'Slithering Bloodfin',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          "A giant eel with a shark's head, covered in sharp crimson spines and sleek scales, gliding through lightless water before its jaw unhinges.",
+        ],
+      ],
+      lore: [
+        [
+          'It swallows prey whole, drains life energy from them and uses it to heal itself. When it dies the body bursts, and the gore is toxic until the current washes it away. It swims the Netherdeep.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Netherdeep', 'Underwater'],
       stats: {
         size: 'large',
         type: 'aberration',

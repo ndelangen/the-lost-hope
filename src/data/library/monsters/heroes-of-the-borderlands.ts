@@ -11,6 +11,13 @@ export default createPublicationMonsters({
       name: 'Curate',
       alignment: 'lawful good',
       languages: ['Celestial', 'Common'],
+      appearance: [['A priest tied to a shrine or temple.']],
+      lore: [
+        [
+          'A curate gains a link to the divine through serving shrines and temples, which gives the ability to mend injuries, ward off evil and bring back the dead.',
+        ],
+        ['Sources: ', 'Heroes of the Borderlands'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -84,6 +91,13 @@ export default createPublicationMonsters({
       name: 'Gray Ooze Glob',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A small, unstable blob of grey slime blends into stone.']],
+      lore: [
+        [
+          'Predatory acid slimes that match their stony surroundings. Wild magic or other chaos can split them into smaller, unstable globs.',
+        ],
+        ['Sources: ', 'Heroes of the Borderlands'],
+      ],
       stats: {
         size: 'small',
         type: 'ooze',
@@ -146,6 +160,14 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common', 'Halfling'],
       tableNotes: [['Gear: dagger, disguise kit']],
+      appearance: [['A seedy hired shadow-and-blade for hire.']],
+      lore: [
+        [
+          'Jacko advertises his services in disreputable places across the Borderlands. For a fee he will tail, rob, beat up or kill a target without asking why. His satisfied customers repeat his corny slogan about always having your back.',
+        ],
+        ['Sources: ', 'Heroes of the Borderlands'],
+      ],
+      habitats: ['Borderlands'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -203,6 +225,14 @@ export default createPublicationMonsters({
       name: 'Kuo-toa Marauder',
       alignment: 'neutral evil',
       languages: ['Common', 'Undercommon'],
+      appearance: [['A slimy humanoid with the head of a goggle-eyed deep-sea fish.']],
+      lore: [
+        [
+          'Kuo-toa claim their empires once spanned whole worlds, land and sea, under the blessing of fish gods. They scheme to regain dominance, abducting people for their secrets or making peculiar offerings to bizarre gods. Marauders lurk in wet places, keen for bloodshed and loot.',
+        ],
+        ['Sources: ', 'Heroes of the Borderlands'],
+      ],
+      habitats: ['Wet places'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -258,6 +288,18 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Draconic'],
       tableNotes: [['Gear: shield']],
+      appearance: [
+        [
+          'A lizardfolk that rises from murky pools carrying a weapon and shield fashioned from the hard casings of huge beetles, snapping turtles and similar powerful beasts.',
+        ],
+      ],
+      lore: [
+        [
+          "Wardens use primal magic to guard the borders of the wild. They are territorial, hiding in swamps and jungle pools and rising to hunt down trespassers and drive them off. When their gear fails them, they call on nature's forces to add poison saliva to their natural attacks.",
+        ],
+        ['Sources: ', 'Heroes of the Borderlands'],
+      ],
+      habitats: ['Wetland', 'Jungle'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -403,6 +445,14 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common'],
       tableNotes: [['Gear: leather armor, light crossbow, rapier']],
+      appearance: [['A boyishly handsome man with a self-assured grin.']],
+      lore: [
+        [
+          'Pral calls himself a gentleman thief, and his face is on wanted posters across the Borderlands. He follows a strict code, never killing and always keeping bargains. He enjoys fine meals, soft beds and fashionable clothes, and burns through each haul on lavish living.',
+        ],
+        ['Sources: ', 'Heroes of the Borderlands'],
+      ],
+      habitats: ['Borderlands'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -456,6 +506,14 @@ export default createPublicationMonsters({
       name: 'Sprite Skirmisher',
       alignment: 'neutral good',
       languages: ['Common', 'Elvish', 'Sylvan'],
+      appearance: [['A tiny nature spirit, often unseen when defending its realm.']],
+      lore: [
+        [
+          'Sprites can sense whether a creature is basically good or wicked. Well-meaning visitors may get small feasts and celebrations, while the wicked meet nasty pranks and bold ambushes from invisible defenders.',
+        ],
+        ['Sources: ', 'Heroes of the Borderlands'],
+      ],
+      habitats: ['Fey realm'],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -537,6 +595,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Common', 'Dwarvish'],
       tableNotes: [['Gear: leather armor, shortsword, sling']],
+      appearance: [['A wandering adventurer, currently stuck in a tight spot.']],
+      lore: [
+        [
+          'Vinx knows the caverns near the Keep on the Borderlands better than anyone and often searches them for loot. She was caught while chasing a stolen heirloom of her family, and the goblins holding her will be in for a surprise once she is free.',
+        ],
+        ['Sources: ', 'Heroes of the Borderlands'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -594,6 +659,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common plus one other language'],
       tableNotes: [['Gear: studded leather armor']],
+      appearance: [['A withered corpse of a relentless warrior.']],
+      lore: [
+        [
+          'Wights are the dried-up corpses of wicked warriors whose malice keeps them going after death. They carry on their villainy, now hungry for life, and drain living essence with their attacks.',
+        ],
+        ['Sources: ', 'Heroes of the Borderlands'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',

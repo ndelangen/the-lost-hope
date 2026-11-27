@@ -13,6 +13,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft.'],
       habitats: ['planar', 'abyss'],
+      appearance: [
+        [
+          'A two-legged, insect-like demon with scythe-shaped claws for hands, sometimes decked with grisly trophies.',
+        ],
+      ],
+      lore: [
+        [
+          'Abvekus are demons of assassination, patient killers who like to stalk a target from a distance before they strike. They kill for their own grudges or for the demon lords and villains they serve. They are proud of their kills and may wear or display trophies taken from victims.',
+        ],
+        ['Sources: ', 'Arcana Unleashed: Deadfall'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -122,6 +133,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       habitats: ['underdark'],
+      appearance: [
+        [
+          "A serpent-bodied being with a humanoid torso and a snake's head, eyes burning with inner fire.",
+        ],
+      ],
+      lore: [
+        [
+          'Sarrukhs once ruled an evil empire across Faerun, which collapsed many tens of millennia back. Their own creations nearly wiped them out, and few survive in isolated enclaves, including one under the Citadel at Thaymount. Tyrants believe the empire will rise again, live in clans among ruins, and subjugate nearby creatures. They hold only a fraction of the magic their old leaders had.',
+        ],
+        ['Sources: ', 'Arcana Unleashed: Deadfall'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',

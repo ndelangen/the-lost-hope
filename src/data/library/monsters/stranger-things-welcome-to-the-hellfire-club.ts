@@ -11,6 +11,17 @@ export default createPublicationMonsters({
       name: 'Cultist of Demogorgon',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A cultist in a costume imitating Demogorgon, with a two-faced monstrous mask and tentacled sleeves.',
+        ],
+      ],
+      lore: [
+        [
+          'Cultists spread extreme beliefs by drastic means, often following obscure mystic paths or fixating on prophecy. Some serve Demogorgon, the self-styled Prince of Demons, dressing like their two-headed god to frighten those they want to rule, and, like him, delight in chaos, domination and ruin.',
+        ],
+        ['Sources: ', 'Stranger Things: Welcome to the Hellfire Club'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -43,6 +54,17 @@ export default createPublicationMonsters({
       name: 'Dardew',
       alignment: 'chaotic neutral',
       languages: ['Abyssal', 'Common', 'Infernal'],
+      appearance: [
+        [
+          'A cambion with red skin, leathery wings and a smooth, booming voice, carrying a wicked lute.',
+        ],
+      ],
+      lore: [
+        [
+          'Dardew, known as the Banished, is a suave performer with blazing ambition who will secretly strike a few infernal deals to give an audience a really great show. When talk fails he underlines his words with bold flourishes on his wicked lute.',
+        ],
+        ['Sources: ', 'Stranger Things: Welcome to the Hellfire Club'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -132,6 +154,17 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'A slimy winged thing flaps past with four serrated tentacles trailing behind it. Its eyeless head splits open into a toothed mouth.',
+        ],
+      ],
+      lore: [
+        [
+          'A pest of the demonic realms that hunts in flocks. It wraps its tails around prey to strangle and pin it while feeding.',
+        ],
+        ['Sources: ', 'Stranger Things: Welcome to the Hellfire Club'],
+      ],
       stats: {
         size: 'tiny',
         type: 'fiend',
@@ -196,6 +229,17 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'A hairless, four-legged beast with wrinkled hide and no face prowls through the gloom. When it attacks, its head peels open into a flower of toothed, fleshy petals around powerful jaws.',
+        ],
+      ],
+      lore: [
+        [
+          'A pack predator that grows out of limacine larvae and, like wolves, swarms prey in dark places. Its howls unsettle even hardened adventurers.',
+        ],
+        ['Sources: ', 'Stranger Things: Welcome to the Hellfire Club'],
+      ],
       stats: {
         size: 'small',
         type: 'fiend',
@@ -256,6 +300,18 @@ export default createPublicationMonsters({
       name: 'Demodragon',
       tags: ['demon'],
       languages: [],
+      appearance: [
+        [
+          'Two bulbous, featureless heads sit on one monstrous body with three writhing tails and big wings. When threatened, each head blooms open into glistening flesh and teeth around crushing jaws.',
+        ],
+      ],
+      lore: [
+        [
+          "Demogorgon's former pet, now the gatekeeper of the final challenge in the Hellfire Games in the Nine Hells. It was raised by vile magic from a beheaded black dragon's corpse. The original head is gone, yet the breath survives, so it can spit bone-dissolving acid with no warning.",
+        ],
+        ['Sources: ', 'Stranger Things: Welcome to the Hellfire Club'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -339,6 +395,17 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'A lean biped with a smooth, bulbous head advances while lights flicker around it. The head opens like a blossom into a gaping maw ringed with five or more toothed petals.',
+        ],
+      ],
+      lore: [
+        [
+          'Offspring of the demon lord Demogorgon, resilient predators that chase their prey without letting up. Flickering light often warns of their approach.',
+        ],
+        ['Sources: ', 'Stranger Things: Welcome to the Hellfire Club'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -434,6 +501,13 @@ export default createPublicationMonsters({
       tags: ['gnome'],
       alignment: 'chaotic good',
       languages: ['Common', 'Dwarvish', 'Gnomish'],
+      appearance: [['Flizzlebin is a trickster known as the Vanishing Gnome.']],
+      lore: [
+        [
+          'He lures new adventurers into dungeons to test them, and loves a game of hiding in a dangerous dungeon and handing priceless treasure to anyone who finds him.',
+        ],
+        ['Sources: ', 'Stranger Things: Welcome to the Hellfire Club'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

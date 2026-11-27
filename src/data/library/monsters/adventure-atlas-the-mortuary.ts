@@ -94,6 +94,18 @@ export default createPublicationMonsters({
       name: 'Heralds of Dust Exorcist',
       alignment: 'any alignment',
       languages: ['Common plus three more languages'],
+      appearance: [
+        [
+          'An exorcist of the Dust faction carries a staff that shoots bolts of death or radiant force at spirits.',
+        ],
+      ],
+      lore: [
+        [
+          "Unafraid of death, these exorcists purify creatures and burial grounds plagued by ghosts, specters and similar hostile presences that stop the dead being laid down or disturb those at peace. Most work in the Mortuary, but many answer calls across Sigil and beyond. Experience with apparitions lets them channel death's forces to protect the living, talk to the dead and send hostile spirits to their rest. Their sight reaches past the veil, spotting ghosts drifting on the Ethereal Plane and shadowy incorporeal things, and a brief chant can drive a harmful entity out of a possessed creature or leave it open to a painful spiritual haunting.",
+        ],
+        ['Sources: ', 'Adventure Atlas: The Mortuary'],
+      ],
+      habitats: ['Sigil'],
       stats: {
         size: 'small',
         type: 'humanoid',

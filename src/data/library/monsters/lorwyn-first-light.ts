@@ -12,6 +12,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Sylvan', 'telepathy 120 ft.'],
       habitats: ['planar', 'feywild'],
+      appearance: [
+        [
+          "A lizard-like giant with a salamander's flat smiling face, a tail fringed with frills, and a broad back dotted with vivid orange blisters. For all its size it is largely a ghostly presence.",
+        ],
+      ],
+      lore: [
+        [
+          'One of the incarnations of nature of Lorwyn-Shadowmoor, which embody abstract ideas and appear as chimeric giants. Transience stands for all that is fleeting. In Lorwyn it embodies changing seasons and flowing rivers, and in Shadowmoor disease passing between hosts or leaves rustling through an empty village.',
+        ],
+        ['Sources: ', 'Lorwyn: First Light'],
+      ],
       stats: {
         size: 'huge',
         type: 'fey',
@@ -132,6 +143,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Sylvan', 'telepathy 120 ft.'],
       habitats: ['planar', 'feywild'],
+      appearance: [
+        [
+          'A titanic hound with a body of colourful foliage and horns like cherry blossom branches.',
+        ],
+      ],
+      lore: [
+        [
+          'One of the incarnations of nature of Lorwyn-Shadowmoor, abstract beings in chimeric giant forms. In Lorwyn, meadows flourish and crops ripen near it and kithkin welcome its visits. In Shadowmoor, it is an ill omen, a gruesome wolfhound accompanied by invasive plants and frenzied beasts.',
+        ],
+        ['Sources: ', 'Lorwyn: First Light'],
+      ],
       stats: {
         size: 'huge',
         type: 'fey',
@@ -257,6 +279,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common', 'Giant'],
       habitats: ['planar', 'feywild'],
+      appearance: [['A huge, ancient giant that wanders its homeland.']],
+      lore: [
+        [
+          'Giants of Lorwyn-Shadowmoor are old and wise, in tune with nature but uninterested in smaller folk. At best they are aloof about the quarrels of boggarts, kithkin and elves, and at worst they crush such beings as pests. In Lorwyn they are curious colossi who range over plains, wash in briny lagoons and doze against mountainsides, and sometimes lend strength to small folk who offer something interesting. They sleep beneath huge stone arches and dream vividly, treating dreams as omens. Avoid the arches, though treasure hunters seek ones with relics left behind, and an angry giant can crush foes like an avalanche.',
+        ],
+        ['Sources: ', 'Lorwyn: First Light'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -342,6 +371,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Primordial (Aquan)'],
       habitats: ['planar', 'feywild'],
+      appearance: [
+        [
+          'A big fish-like creature with a humanoid torso and arms, whose shape varies, with dangerous tail spines.',
+        ],
+      ],
+      lore: [
+        [
+          'Merrow mostly live in water and exploit the land-dwelling species of Lorwyn-Shadowmoor. They are capable warriors but would sooner spar verbally before any violence. Most Shadowmoor merrow are doublespeakers, who trick those unaware of their nature, and use their tail spines as stabbing weapons or missiles.',
+        ],
+        ['Sources: ', 'Lorwyn: First Light'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -424,6 +464,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common', 'Sylvan'],
       habitats: ['planar', 'feywild'],
+      appearance: [
+        ['A two-legged, donkey-like fey that may wear a mask or bandanna as a flimsy disguise.'],
+      ],
+      lore: [
+        [
+          "Noggles steal and cause mischief on principle rather than need, summed up by a Sylvan cry that roughly means that's mine. They are found nowhere but Shadowmoor, wandering and stirring up trouble. They do not burgle but ransack.",
+        ],
+        ['Sources: ', 'Lorwyn: First Light'],
+      ],
       stats: {
         size: 'small',
         type: 'fey',

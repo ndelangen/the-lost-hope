@@ -12,6 +12,18 @@ export default createPublicationMonsters({
       tags: ['any race'],
       alignment: 'any non-good alignment',
       languages: ['any one language (usually Common)'],
+      appearance: [
+        [
+          'A warrior in heavy bonecraft armour hung with the bones of defeated enemies, fused to the wearer so it cannot come off without killing them.',
+        ],
+      ],
+      lore: [
+        [
+          "Bone knights began in Karrnath's Last War, when pious paladins serving the Blood of Vol were merged into armour that focused their divine gifts to lead mindless undead. Many served the Emerald Claw. After the Treaty of Thronehold, King Kaius III shut most undead in vaults and disbanded the Order, so most knights were discarded, still locked in their armour and still believing in Karrnathi supremacy. Feeling betrayed, they took up service to Lady Illmarrow.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Karrnath'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -332,6 +344,18 @@ export default createPublicationMonsters({
       name: 'Dolgrim',
       alignment: 'chaotic evil',
       languages: ['Deep Speech', 'Goblin'],
+      appearance: [
+        [
+          'A squat, deformed creature has four arms and a headless torso with two twisted mouths drooling at the front. The mouths mutter and gibber at each other.',
+        ],
+      ],
+      lore: [
+        [
+          "It is two goblins merged into one by the daelkyr, but it has just one personality: sadistic, bloodthirsty and selfish. A few reach the surface, usually led by dolgaunts on missions for their masters' schemes. Great hordes stay in Khyber with the daelkyr, hoping to be set loose on Eberron.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Khyber'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -420,6 +444,15 @@ export default createPublicationMonsters({
       name: 'Expeditious Messenger',
       alignment: 'neutral',
       languages: ['one language spoken by its creator'],
+      appearance: [
+        ['A small construct darts about, often shaped like a mechanical bird or sprite.'],
+      ],
+      lore: [
+        [
+          "A homunculus built for speed to carry its creator's messages, made from materials such as clay, iron, hair and feathers mixed with its maker's blood and animated by a long ritual. It needs no air, food, drink or sleep. Being quick and efficient, it is chatty, talking as fast as it flies.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -564,6 +597,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Quori'],
+      appearance: [['A human of almost unearthly beauty, resembling a kalashtar.']],
+      lore: [
+        [
+          'The Inspired are the noble rulers of Sarlona, said to be guided by celestial spirits but actually hosts to quori nightmare spirits from Dal Quor who serve the Dreaming Dark. In Sarlona they are humans bred as vessels who cannot resist possession. Others are scattered across Khorvaire, where any dreamer can volunteer and the Dreaming Dark uses dreams to talk mortals into giving up their bodies. A beggar, general, mayor or merchant could be one in secret.',
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Sarlona', 'Khorvaire'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1013,6 +1054,18 @@ export default createPublicationMonsters({
       name: 'Karrnathi Undead Soldier',
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A silent, motionless undead soldier showing no emotion, little resembling the person it once was.',
+        ],
+      ],
+      lore: [
+        [
+          "These undead form the elite core of Karrnath's army, tireless and fearless. When famine and plague crippled the nation in the Last War, King Kaius I turned to the Blood of Vol, and the priest Malevanor devised the Odakyr Rites, letting undead make tactical decisions without constant control. The rites need the remains of a soldier killed in combat and a manifest zone linked to Mabar, notably Atur and Odakyr (now Fort Bones). Most are now sealed beneath Atur, though the army keeps many and the Emerald Claw has taken others. They will kill any opposing force, civilians included, unless told otherwise, and many Karrns fear a darker power or Lady Illmarrow may turn them on the living. A few keep their memories and serve as champions. They need no air, food, drink or sleep.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Karrnath'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1098,6 +1151,14 @@ export default createPublicationMonsters({
       name: 'Lady Illmarrow',
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Elvish'],
+      appearance: [['An ancient lich of legend, whose home is a castle built of bone and ice.']],
+      lore: [
+        [
+          "Rumour puts her in the far cold of the Lhazaar Principalities among an undead host, with vampires and ghosts at her court, and some say she decides who has their soul claimed when anyone dies there. She is real: the greatest necromancer in Eberron, quietly waking old plots after centuries and the force driving the Order of the Emerald Claw. She does not want to rule the living but to be crowned the Dead's queen. She rose from the House of Vol, whose Mark of Death and blood rites with dragons brought down the Sibling Kings and Argonnessen. Erandis, a dragon-elf child of the line with a unique Mark of Death, was hunted and killed, and her mother Minara raised her as a lich on Farlnen.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Lhazaar Principalities', 'Farlnen'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1428,6 +1489,18 @@ export default createPublicationMonsters({
       name: 'Rak Tulkhesh',
       alignment: 'neutral evil',
       languages: ['all', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A draconic shape warped by demonic rage, towering fifteen feet at the shoulder with a wingspan over forty feet, his bleeding flesh bristling with iron spikes and spawning new weapons as he fights.',
+        ],
+      ],
+      lore: [
+        [
+          "One of Eberron's overlords, the Rage of War, born of the urges that send mortals into battle: fear, greed and hatred. He is bound by the Silver Flame, his soul split among Khyber shards, and can only sway events near those shards, feeding on violence. The Last War strengthened him, and bigotry against warforged and refugees and calls for renewed war carry his mark. These stats show him freed.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Khyber'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -1624,6 +1697,17 @@ export default createPublicationMonsters({
       name: 'Tsucora Quori',
       alignment: 'lawful evil',
       languages: ['Common', 'Quori'],
+      appearance: [
+        [
+          'A headless torso covered in eyes and twitching limbs, with two huge pincer arms and a serpent tail ending in a stinger.',
+        ],
+      ],
+      lore: [
+        [
+          'A quori spirit of Dal Quor, the plane of dreams, which serves the Dreaming Dark. Because travel from that plane is hard, tsucoras usually appear in Eberron riding a host body, often as an Inspired. They are cruel schemers who scheme as much against rival quori as for their masters, hoping to be reborn into a higher station. They excel at playing on the fears of crowds and officials.',
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -1781,6 +1865,17 @@ export default createPublicationMonsters({
       name: 'Undying Soldier',
       alignment: 'neutral good',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        [
+          'A withered corpse in family-heirloom armor with fine weapons, surrounded by a spectral glow that feels warm and reassuring without giving heat.',
+        ],
+      ],
+      lore: [
+        [
+          "The undying are cherished dead kept going by positive energy and by the devotion of the living, chiefly on Aerenal. Soldiers form the army of Shae Mordai, the City of the Dead, defending the Undying Court's shrines and noble houses, and often accompany Aereni ambassadors as bodyguards. Away from Aerenal an undying needs elves nearby, or some other positive energy source, or its light dies.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2001,6 +2096,17 @@ export default createPublicationMonsters({
       name: 'Warforged Colossus',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A gigantic mechanical warrior built by House Cannith, which once crushed soldiers underfoot and burned armies with fiery rays from its mouth.',
+        ],
+      ],
+      lore: [
+        [
+          'Cannith made colossi at the end of the Last War to end it quickly. They tore through Cyre until the Day of Mourning wrecked most of them. A few lie dormant and Cannith artificers hope to wake them or strip them for parts. Rumoured survivors include ones in the Glowing Chasm, under the waters of Lake Cyre, and in Kraken Bay, plus one legless colossus dragging itself through the Mournland.',
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'construct',

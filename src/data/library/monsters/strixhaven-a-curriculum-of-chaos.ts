@@ -11,6 +11,17 @@ export default createPublicationMonsters({
       name: 'Art Elemental Mascot',
       alignment: 'neutral',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A swirling shell of vivid colour drawn from all the natural elements, with a planar spirit at its core.',
+        ],
+      ],
+      lore: [
+        [
+          'An art elemental is creativity and emotion given a body, which makes it a fitting mascot for Prismari College. A mage makes one by drawing on a blend of every natural element, taking their colours to build the shell, and putting a planar spirit in the middle. Born of both exact study and rebellious expression, it can cause elemental destruction or enthral onlookers emotionally.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -105,6 +116,18 @@ export default createPublicationMonsters({
       name: 'Brackish Trudge',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A lumbering mass of fungus and vegetation with flowers and other plants growing on its back, neck and head, and punishing tusks.',
+        ],
+      ],
+      lore: [
+        [
+          'Trudges are thinking heaps of fungus and plants that flourish in bayous, living proof that growth and rot can work as one cycle. Plants dying on their bodies break down into a home for fungus, and the older the trudge the richer the miniature ecosystem on its back. Though sometimes grumpy and territorial, they are mostly happy minding their own business. If provoked into defence or into chasing away competitors, their tusks, coated in lethal spores, quickly finish off careless foes. Slaying one is notoriously hard because the mix of life and death forces inside lets it survive terrible injuries.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Bayou'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -166,6 +189,14 @@ export default createPublicationMonsters({
       name: 'Cogwork Archivist',
       alignment: 'lawful neutral',
       languages: ['all'],
+      appearance: [['A tall metal figure with long jointed arms and folding conservation tools.']],
+      lore: [
+        [
+          "Cogwork archivists are programmed with Strixhaven's huge store of lore and mind the university's libraries, sorting and preserving documents from its long history. Many work among the tall shelves of the Biblioplex, bringing scrolls to inquisitive students and watching strictly for noisy groups.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -259,6 +290,17 @@ export default createPublicationMonsters({
       name: 'Daemogoth',
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A very alien fiend with five arms, insect-like or smooth glossy eyes like gems, long robes hanging low and a crown of horns, antlers, or drifting stones or crystals.',
+        ],
+      ],
+      lore: [
+        [
+          "Daemogoths slip through the world's dark corners and feed on misery, earning the nickname tear lickers for lurking at battlefields and tragedies. They deal in forbidden knowledge and magic, trading influence over others' lives and minds to ambitious mortals in return for their agony.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -362,6 +404,13 @@ export default createPublicationMonsters({
       name: 'Daemogoth Titan',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 120 ft.'],
+      appearance: [['A towering monster that blights the land around it.']],
+      lore: [
+        [
+          "A daemogoth gains power over decades, feeding on grief and sapping the life of the land, until it becomes a titan. Titans keep the lesser kind's habit of swapping power for mortal pain but demand harsher suffering for pacts and knowledge. A supplicant who catches their interest may get a barbed blessing that drains life force at each rest and only a wish can lift.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'fiend',
@@ -506,6 +555,15 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus any two languages'],
+      appearance: [
+        ['A student in a plain grey uniform has not yet picked a college at Strixhaven.'],
+      ],
+      lore: [
+        [
+          "First-years finish a year of basic teaching from faculty of all five mystic colleges, learning simple magic while settling into the university. After they choose a college they swap the grey uniform for that school's colours and refine, or even replace, what they learned.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -571,6 +629,13 @@ export default createPublicationMonsters({
       name: 'Fractal Mascot',
       alignment: 'neutral',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [['To an untrained eye it seems a creature made of faceted hard light.']],
+      lore: [
+        [
+          'Arithmancers know it as a living equation, an artificial life form made by drawing magic out of the maths seen in natural patterns. This lets it change its size and density. Quandrix College adopted it as its mascot, and students often play fetch with one between classes.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -636,6 +701,16 @@ export default createPublicationMonsters({
       name: 'Inkling Mascot',
       alignment: 'neutral',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        ['A wriggling blob of shadowy ink that squelches as it floats through the air.'],
+      ],
+      lore: [
+        [
+          "Inklings are the mascots of Silverquill College. Professors summon them to supply ink in writing classes, and lonely students call them up for company while studying. They can also back up a mage in a fight by clouding opponents' eyes.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'tiny',
         type: 'ooze',
@@ -840,6 +915,18 @@ export default createPublicationMonsters({
       name: 'Mage Hunter',
       alignment: 'lawful evil',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A hideous spider-legged creature with glowing purple spines on its back. In sentry form it is a diamond-shaped drone.',
+        ],
+      ],
+      lore: [
+        [
+          'The Oriq employ mage hunters to pursue magic-users, and the spines let them sense magic. Usually one sits in sentry form, a drone that is especially good at sensing and locating mages. When it locates a target it changes to its spider-like hunting shape and chases it viciously.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1144,6 +1231,14 @@ export default createPublicationMonsters({
       tags: ['warlock'],
       alignment: 'lawful evil',
       languages: ['Common plus any two languages'],
+      appearance: [['A masked mage whose mask works only for its wearer.']],
+      lore: [
+        [
+          'The Oriq, a hidden order of mages, use forbidden magic for Extus Narr, who was passed over for the Oracle post in favour of Jadzi and has been bitter ever since. He uses the Oriq to collect the spells and magical energy needed to summon the Blood Avatar and destroy Strixhaven. They infiltrate it to find the magic he wants and spot impressionable students and resentful staff. Recruiters blend in and watch for gifted but underperforming mages and neglected students, befriending them as recruits or as sources of spells, rare components or knowledge.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1234,6 +1329,14 @@ export default createPublicationMonsters({
       name: 'Pest Mascot',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A grumpy, spiky ferret-sized swamp creature.']],
+      lore: [
+        [
+          "Pests live in the humid bayou of Sedgemoor and carry deep stores of life essence, making them handy fuel for Witherbloom magic. Many Witherbloom students keep them as pets, and they have become the college's mascots.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Bayou', 'Strixhaven'],
       stats: {
         size: 'tiny',
         type: 'monstrosity',
@@ -1287,6 +1390,18 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'any alignment',
       languages: ['Common plus any four languages'],
+      appearance: [
+        [
+          'A teacher moves through broad, dance-like steps and sweeping arm motions, and the air around them fills with surging water, rising stone or growing sculptures of ice.',
+        ],
+      ],
+      lore: [
+        [
+          'A professor of Prismari College who treats art as the purest kind of magic. Elemental power is shaped through exact, forceful movement, used for dazzling displays and equally to reshape a battlefield against enemies. Expect a stickler for small details who turns terrain into sculpture and architecture as the fight goes on.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['College campus'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1662,6 +1777,14 @@ export default createPublicationMonsters({
       name: 'Ruin Grinder',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [['A large automaton whose arms end in massive toothed shovels.']],
+      lore: [
+        [
+          "Made by Lorehold College's archaeomancers to dig out ancient ruins and relics. The shovels cut through very old bedrock easily, and some Lorehold mages worry the machines wreck more history than they uncover.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Ruins', 'College campus'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -1750,6 +1873,18 @@ export default createPublicationMonsters({
       tags: ['bard'],
       alignment: 'any alignment',
       languages: ['Common plus any two languages'],
+      appearance: [
+        [
+          'A stylish student in a smartly trimmed black-and-white uniform who gives speeches and conjures inky blades.',
+        ],
+      ],
+      lore: [
+        [
+          'Silverquill College studies magic shaped by speech and writing, to uplift or to demoralise. Some students use their words to encourage friends and expose uncomfortable truths about the powerful, while others use insults and discouragement. Nearly all carry a fearsome attitude that they must never come second, since confidence matters most.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['College campus'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1812,6 +1947,16 @@ export default createPublicationMonsters({
       tags: ['bard'],
       alignment: 'any alignment',
       languages: ['Common plus any four languages'],
+      appearance: [
+        ['A teacher who calls magic from spoken words and glyphs made of ink and light.'],
+      ],
+      lore: [
+        [
+          'A Silverquill professor who channels radiance to light up and encourage allies and inspire anyone who hears their speeches. Their words can serve as battle assets or strike foes with searing light. They teach students to look for goodness everywhere and draw it out.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['College campus'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1907,6 +2052,18 @@ export default createPublicationMonsters({
       tags: ['bard'],
       alignment: 'any alignment',
       languages: ['Common plus any four languages'],
+      appearance: [
+        [
+          'A teacher kept immaculate, working magic through spoken spells, cutting insults and ink-like shadow.',
+        ],
+      ],
+      lore: [
+        [
+          "A Silverquill professor who wears down enemies' resolve with biting wit and inky shadow. They try to overawe and unbalance anyone who faces them in debate or combat, and teach students to find the smallest hidden flaws in an opponent's guard and break them.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['College campus'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2005,6 +2162,14 @@ export default createPublicationMonsters({
       name: 'Spirit Statue Mascot',
       alignment: 'any alignment',
       languages: ['any languages it knew in life'],
+      appearance: [['A statue housing a spirit, a common sight on the Lorehold campus.']],
+      lore: [
+        [
+          "Lorehold students summon dead spirits to aid study and give longer-term helpers a statue to live in. Some bond with and mentor one mage, but most serve many people, as research partners or battle tacticians. They are so common they are the college's mascots.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['College campus'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -2066,6 +2231,18 @@ export default createPublicationMonsters({
       name: 'Strixhaven Campus Guide',
       alignment: 'lawful good',
       languages: ['Common plus any three languages'],
+      appearance: [
+        [
+          'A cheerful gold and silver automaton built like the star arches around Strixhaven, with a holographic campus map on its chest, which walks backward.',
+        ],
+      ],
+      lore: [
+        [
+          'It leads groups of prospective students around. It seldom needs its map because it is good at finding things, and tends to turn up at the worst moments.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['College campus'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -2180,6 +2357,17 @@ export default createPublicationMonsters({
       tags: ['druid'],
       alignment: 'any alignment',
       languages: ['Common plus any four languages'],
+      appearance: [
+        [
+          'A Witherbloom scholar who brews infusions of plants, fungi and tiny creatures to power spells in place of normal components.',
+        ],
+      ],
+      lore: [
+        [
+          "Witherbloom College studies the cycle of life and decay, and these professors focus on the growth half. In a fight they heal and relieve allies and hit foes with entangling plants, poisonous vines and nature's furious avatars. They teach students not to waste resources, and that a flourishing system helps everyone.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

@@ -78,6 +78,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          "A sea raider with a shield made from a giant crab shell and a sword edged with shark's teeth.",
+        ],
+      ],
+      lore: [
+        [
+          "Reavers are the cult's rank-and-file, vicious sea raiders, many of them former pirates, who still crave blood and loot. They understand the worth of surprise and strike suddenly from hiding where they can. They are devoted to the priests but usually retreat rather than die if there is a way out.",
+        ],
+        ['Sources: ', 'DDEX2-03 - The Drowned Tower'],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'medium',
         type: 'humanoid',

@@ -413,6 +413,18 @@ export default createPublicationMonsters({
       tags: ['high-elf'],
       alignment: 'neutral evil',
       languages: ['Common', 'Bullywug', 'Draconic', 'Elvish', 'Goblin', 'Sylvan'],
+      appearance: [
+        [
+          'An elf in the purple robes of the Cult of the Dragon, caked in the mud of the Mere of Dead Men.',
+        ],
+      ],
+      lore: [
+        [
+          "Dralmorrer Borngray is a Wearer of Purple who commands Castle Naerytar on behalf of Rezmir. He is an elf supremacist from Evermeet who longs to see humanity wiped out and believes his homeland will be spared by the dragons. He resents Rezmir's choice to favour bullywugs over lizardfolk, whom he thinks are better allies, and tries to teach the lizardfolk metalworking. He stays faithful to the cult and longs for Tiamat's return, mostly so that he can leave the swamp.",
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, p. 46'],
+      ],
+      habitats: ['Swamp', 'Castle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -533,6 +545,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant'],
       habitats: ['underdark', 'mountain', 'forest', 'swamp', 'hill', 'arctic'],
+      appearance: [['A troll with four arms instead of two.']],
+      lore: [
+        [
+          'A troll that is maimed can sometimes regrow a pair of limbs where one was lost, hence trolls with extra arms. It is run as an ordinary troll with a higher challenge and its own action options.',
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -798,6 +817,18 @@ export default createPublicationMonsters({
       tags: ['gnome'],
       alignment: 'neutral',
       languages: ['Common', 'Gnomish', 'Goblin', 'Sylvan'],
+      appearance: [
+        [
+          'A gnome who joins a caravan at Daggerford, travelling separately from the other newcomer.',
+        ],
+      ],
+      lore: [
+        [
+          'Jamna is a gnome spy for the Zhentarim. Her superiors learned the Cult of the Dragon was moving cargo north and wanted to know what and where. They considered destroying the caravan but she persuaded them to let her try subterfuge. She killed one of the cultists on the journey, and she hopes to stay with the characters.',
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, p. 31'],
+      ],
+      habitats: ['Road'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -896,6 +927,14 @@ export default createPublicationMonsters({
       tags: ['half-dragon'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [['A half-blue dragon leading a personal troop of kobolds.']],
+      lore: [
+        [
+          'Cyanwrath serves the Cult of the Dragon. He is evil but holds one-on-one duels sacred, refusing to cheat or let his kobolds do so. He usually wins, and strikes one last time when his foe drops. If he loses, kobolds carry him away to recover, and he returns later. Those who duelled him earlier are singled out for a rematch, and his followers do not interfere unless the party gangs up on him.',
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, p. 12'],
+      ],
+      habitats: ['Keep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1092,6 +1131,13 @@ export default createPublicationMonsters({
         'forest',
         'underdark',
       ],
+      appearance: [['A tavern owner who seems friendly enough but does not welcome strangers.']],
+      lore: [
+        [
+          'Raggnar runs the tavern and secretly accepts payment from the cult. He serves strangers while sending a messenger to Captain Othelstan. He has a violent past, keeps weapons behind the bar, and is hard to pry information from.',
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, p. 74'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1160,6 +1206,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Infernal', 'Primordial', 'Thayan'],
+      appearance: [
+        [
+          'A Red Wizard reading at a lectern, or debating with a colleague, in a room with horse skulls hung from the ceiling.',
+        ],
+      ],
+      lore: [
+        [
+          "Rath Modar is an outcast among the Red Wizards, working alongside the cult. He hopes Tiamat's power will let him topple the lich Szass Tam. He helps guard the cult's treasure and prepares for her summoning, and he cannot be fooled easily by illusions. He is haughty and impatient with those who oppose the cult. A living gargoyle serves him. Killing him badly harms the cult's summoning plans.",
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, p. 80'],
+      ],
+      habitats: ['Castle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1268,6 +1326,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['the languages it knew in life'],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A vampire moon elf who prowls the upper and lower courtyards after dark, in a ruined ice tower.',
+        ],
+      ],
+      lore: [
+        [
+          "Sandesyl was a cult member well before she became a vampire and counts among its oldest hands. She is nostalgic for the days of Sammaster, when dragons were slain to make dracoliches, and she despises the new leaders but has to work with them. She comes out only at night, looking for lone ogre guards to feed on. If outnumbered she summons two vampire spawn, former elven companions of hers, kept on the tower's top floor.",
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, p. 81'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',

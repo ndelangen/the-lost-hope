@@ -3566,6 +3566,18 @@ export default createPublicationMonsters({
       page: 27,
       alignment: 'any alignment',
       languages: ['Common', 'Gith'],
+      appearance: [
+        [
+          'A githyanki who studies the stars with journals full of notes on what stellar powers have told it.',
+        ],
+      ],
+      lore: [
+        [
+          'To star seers, stars are how the multiverse watches. They cast magic to reach ancient stellar entities such as Acamar, Caiphon and Hadar for secrets that they write down, and search Wildspace for new ones to contact first. Some secrets are cryptic enough to need years to decode, which does not bother a seer who mostly lives on the Astral Plane.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Astral Plane'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7211,6 +7223,17 @@ export default createPublicationMonsters({
       languages: ['Languages it knew while alive'],
       tableNotes: [
         ['Crew: A vampirate crew may keep one or more Shadows of its former victims aboard.'],
+      ],
+      appearance: [
+        [
+          'A thin figure with pale, cloudy eyes and parchment-dry skin, sometimes a wooden leg or a hook hand. It has fangs but does not bite with them.',
+        ],
+      ],
+      lore: [
+        [
+          'The shambling remains of pirates who refused to rest, roaming the void in their ships to rob others. They consider biting vulgar and instead pull life from prey by touch or at short range, looking healthier afterward though never alive. They eat, drink and sleep for pleasure, using coffins, crates of grave soil or a hold full of cargo. Crews drink rum, sing dark sea songs, and often keep shadows aboard, the leftovers of earlier victims.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       stats: {
         size: 'medium',

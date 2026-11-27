@@ -12,6 +12,13 @@ export default createPublicationMonsters({
       tags: ['half-orc', 'shapechanger'],
       alignment: 'neutral evil',
       languages: ['Common', 'Orc'],
+      appearance: [['A half-orc recluse whose spellcasting comes from a storm god.']],
+      lore: [
+        [
+          'These hermits receive their magic from Talos, god of storms. They descend from humans who bred with orcs, and every anchorite is a half-orc.',
+        ],
+        ['Sources: ', 'Dragon of Icespire Peak'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -227,6 +234,13 @@ export default createPublicationMonsters({
       name: 'Gorthok the Thunder Boar',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [['A boar the size of an elephant, lightning crawling along its tusks.']],
+      lore: [
+        [
+          'A primal nature spirit that serves Talos, the storm god, and can be called in stormy weather by his evil followers. Like Talos, it loves destruction.',
+        ],
+        ['Sources: ', 'Dragon of Icespire Peak'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',

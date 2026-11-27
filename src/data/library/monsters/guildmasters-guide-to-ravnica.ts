@@ -395,6 +395,14 @@ export default createPublicationMonsters({
       page: 230,
       alignment: 'lawful good',
       languages: ['All'],
+      appearance: [['An angel who leads from the front.']],
+      lore: [
+        [
+          "Aurelia heads the Boros Legion and values the ordinary citizens caught in guild violence. She argues that justice means fair and compassionate relations among Ravnica's people, not just enforcing the letter of the law: shielding the weak, sheltering innocents from war and preventing oppressive enforcement. She backs efforts for lasting peace between the guilds now the Guildpact is gone. She punishes the wicked quickly and relentlessly, and her temper is famous.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -4537,6 +4545,16 @@ export default createPublicationMonsters({
           'Golgari lairs: Jarad Vod Savo or a Kraul Death Priest can qualify a group of at least six Golgari defending their territory for the shared lair actions. See Golgari Shaman for the encounter rules and regional effects on p. 236.',
         ],
       ],
+      appearance: [
+        ['A six-legged, insect-like humanoid whose clicks and buzzing carry its chants.'],
+      ],
+      lore: [
+        [
+          'The kraul are a rising power in the Golgari Swarm, long happy on the fringes of the undercity and now increasingly heard in its guildhall. They are stubborn and literal, with little understanding of metaphor. Death priests hold the top positions, leading the buzzing rites. Their clicking and buzzing can call up crippling necromantic magic, the presence of death strengthens them, and they feed power from defeated enemies to their followers. The present kraul leader is a death priest called Mazirek.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica undercity'],
       stats: {
         size: 'medium',
         type: 'humanoid',

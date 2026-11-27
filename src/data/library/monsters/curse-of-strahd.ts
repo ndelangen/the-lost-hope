@@ -12,6 +12,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['the languages it knew in life'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'A vampire spawn in a ragged red bridal dress, a silk scarf in black and crimson studded with gems, and a platinum necklace hung with a black opal.',
+        ],
+      ],
+      lore: [
+        [
+          "Anastrasya is one of three brides of Strahd who lie in his crypt beneath Castle Ravenloft, dressed in soiled wedding finery and dirty jewellery. The three rise to attack anyone who comes near Strahd's coffin. Their jewellery is the only treasure the book lists for her.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 94'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -361,6 +372,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['any two languages'],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A stiff, over-dressed man in a breastplate, with a rapier at his hip, escorted by two mastiffs.',
+        ],
+      ],
+      lore: [
+        [
+          "The baron is burgomaster of Vallaki, a ruthless snob with a fragile ego who holds frequent festivals in the belief that making the town happy will let it escape Strahd. His catchphrase, 'All will be well', has become a joke. He is paranoid, wearing armour even at home, because two of his household staff have vanished. He turns on anyone who ridicules his festivals, sending guards and then his henchman Izek to run offenders out of town, but avoids a fight with well-armed strangers. A visitor who flatters him is invited to the next festival.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 105'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -403,6 +425,15 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
       habitats: ['arctic', 'desert', 'coastal', 'grassland', 'hill', 'urban', 'forest'],
+      appearance: [
+        ['Dark shapes in the fog carrying torches and pitchforks, snapping twigs as they come.'],
+      ],
+      lore: [
+        [
+          'Barovian commoners seldom stray far from their villages, so a group in the open is unusual. It could be a family seeking somewhere safer to live, or an angry mob heading to Castle Ravenloft to confront Strahd. Characters moving quietly without light can try to hide from them.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 29'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -523,6 +554,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['any one language (usually Common)'],
       habitats: ['arctic', 'desert', 'coastal', 'grassland', 'hill', 'urban', 'forest'],
+      appearance: [
+        [
+          'A ragged drunk sitting in a trance in a rowboat in the middle of a lake, ignoring everything around him.',
+        ],
+      ],
+      lore: [
+        [
+          'Bluto is a destitute drunkard from Vallaki who wants to catch fish to trade for wine. After a week of empty nets he kidnapped a young Vistana girl, Arabelle, believing Vistani are lucky. He plans to give her to the water in the hope it will repay him with fish. He ignores everyone until attacked, and if watched or approached he tosses the child, wrapped in a sack, into the water.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 38'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -553,6 +595,16 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       alignment: 'lawful good',
       languages: ["Common (can't speak in raven form)"],
+      appearance: [
+        ['A young boy, about nine years old, scampering about the inn and getting underfoot.'],
+      ],
+      lore: [
+        [
+          "Bray is the younger son of Urwin Martikov and Danika Dorakova, who keep an inn in Vallaki. Like his brother Brom and the rest of the family he is a wereraven, but he is too young to be a real fighter. Urwin's circle of wereravens protects the inn and its family.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 98'],
+      ],
+      habitats: ['Town'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -659,6 +711,16 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       alignment: 'lawful good',
       languages: ["Common (can't speak in raven form)"],
+      appearance: [
+        ["A boy of about eleven darting about the inn's taproom and getting in the adults' way."],
+      ],
+      lore: [
+        [
+          "Brom is the older son of Urwin Martikov and Danika Dorakova, who keep an inn in Vallaki. He is a wereraven like the rest of his family but is too young to be useful in a fight. Wereravens of the Keepers of the Feather often perch on the inn's roof, keeping watch for his parents.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 98'],
+      ],
+      habitats: ['Town'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -910,6 +972,14 @@ export default createPublicationMonsters({
       tags: ['mongrelfolk'],
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [["A two-headed mongrelfolk manservant who rings the abbey's dinner bell."]],
+      lore: [
+        [
+          "Clovin is the Abbot's loyal two-headed servant at the Abbey of Saint Markovia. The mongrelfolk who fill the abbey all descend from the Belview family and are all mad. Clovin is one of only three who are allowed to move freely, the others being the gravediggers Otto and Zygfrek. When he rings the abbey bell, the other mongrelfolk hoot and holler in excitement, waiting to be fed.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 147'],
+      ],
+      habitats: ['Abbey'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1007,6 +1077,18 @@ export default createPublicationMonsters({
       tags: ['mongrelfolk'],
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [
+        [
+          "A hunched mongrelfolk shuffling down a foggy corridor with a lantern behind him, scaled on the left side of his face, with panther ears and a duck's foot.",
+        ],
+      ],
+      lore: [
+        [
+          "Cyrus is a mongrelfolk servant of Strahd, a hunched figure who stands under five feet tall. He wears a twine loop with an iron key and a wooden pendant containing a human eye. The pendant is a hag eye that the night hag Morgantha handed over so she could spy on Strahd, though he does not know it is magical. He is plainly crazy. He assembled the wired skeletons found hanging in the castle's halls, and only he and Strahd know the portcullis command word. He will not attack first if the party carries light.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 77'],
+      ],
+      habitats: ['Castle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1091,6 +1173,14 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       alignment: 'lawful good',
       languages: ["Common (can't speak in raven form)"],
+      appearance: [['A woman who usually works the taproom bar of an inn in Vallaki.']],
+      lore: [
+        [
+          "Danika is Urwin Martikov's wife and business partner and a wereraven, as are their sons Brom and Bray. She and her husband run the Vallaki inn and are part of the Keepers of the Feather, which works in secret against Strahd. She and Urwin call Urwin's difficult father Davian 'the old crow'.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 98'],
+      ],
+      habitats: ['Town'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1197,6 +1287,18 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       alignment: 'lawful good',
       languages: ["Common (can't speak in raven form)"],
+      appearance: [
+        [
+          'An old, suspicious man in a dark leather rain cloak and cowl who greets the party from the trees near his winery.',
+        ],
+      ],
+      lore: [
+        [
+          'Davian is a wereraven and the elderly patriarch of the Martikov family, who own the Wizard of Wines winery. He is cantankerous and mistrustful, telling strangers nothing about the stolen magic gems until they have cleared the winery of invaders. He blames his son Urwin for the theft of one gem and the two have been at odds since. If he is allowed to take part in the fight against Strahd he wants to patch things up with Urwin first.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 174'],
+      ],
+      habitats: ['Vineyard'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1304,6 +1406,15 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
       habitats: ['arctic', 'desert', 'coastal', 'grassland', 'hill', 'urban', 'forest'],
+      appearance: [
+        ['Seven bloated human corpses that rise from the mire, trudging slowly forward.'],
+      ],
+      lore: [
+        [
+          'Distended corpses are commoners swollen with snakes. They move slowly and are immune to being charmed or frightened. When one is destroyed, it bursts and releases a swarm of hungry poisonous snakes that fight until killed. Characters can grab treasure and outrun them easily.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 165'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1345,6 +1456,15 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['any one language (usually Common)'],
       habitats: ['urban'],
+      appearance: [
+        ['A hoarse, sleepless priest who prays through the night in a gray, sagging church.'],
+      ],
+      lore: [
+        [
+          'Donavich is the priest of Barovia and is half mad with grief. His son Doru, aged twenty, was killed when villagers stormed Castle Ravenloft and returned as a vampire spawn. Donavich trapped him in the undercroft and prays for a way to save him without destroying him. He tries to stop characters from slaying Doru and breaks down if Doru dies. He will not join the party until Doru is dead and buried.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 46'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1401,6 +1521,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['the languages it knew in life'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'A dishevelled young man who wails for his father from the church undercroft, day and night.',
+        ],
+      ],
+      lore: [
+        [
+          "Doru was Donavich's son. He joined a revolt on Castle Ravenloft about a year ago, died, and returned as a vampire spawn. His father locked him in the undercroft of the church, where he has not fed since. His old bedroom lies empty upstairs, with only a holy symbol over the bed.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 45'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1512,6 +1643,15 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['the languages it knew in life'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        ['A dashing young vampire spawn lounging on a couch in a sitting room of the castle.'],
+      ],
+      lore: [
+        [
+          "Escher is a vampire spawn Strahd has favoured in the past. He is witty with a trace of melancholy, feeling neglected and afraid that Strahd will lock him away in the catacombs with the other discarded consorts. If attacked, he jumps through the window, drops onto the keep's roof as lightly as a cat and leads pursuers straight to Strahd.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 69'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1623,6 +1763,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic good',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        [
+          'Ezmerelda is a Vistana vampire hunter who wears a prosthetic lower right leg and keeps a wagon full of her slaying gear.',
+        ],
+      ],
+      lore: [
+        [
+          'She was a protege of Rudolph van Richten even though her family once kidnapped his teenage son and sold him to a vampire. Van Richten spared her parents, and the mercy moved her. At fifteen she ran away, found him two years later, and convinced him she wanted to help. They hunted together for two years and parted when their disagreements grew. She later lost her leg to a werewolf without catching lycanthropy. On hearing that van Richten had set off to Barovia, she travelled to Vallaki and found his belongings in an old tower. She is studying his notes on Strahd and Castle Ravenloft, wanting both to find her mentor and to win his trust. She keeps a tarokka deck and can read it for the party.',
+        ],
+        ['Sources: ', 'Curse of Strahd'],
+      ],
+      habitats: ['Barovia'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1803,6 +1955,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['any one language (usually Common)'],
       habitats: ['arctic', 'desert', 'coastal', 'grassland', 'hill', 'urban', 'forest'],
+      appearance: [
+        ["A heavyset man in a moth-eaten jester's cap, in a cramped shop crowded with eerie toys."],
+      ],
+      lore: [
+        [
+          'Gadof is the toymaker of Vallaki, who styles himself a conjurer of small marvels. He is sunk in despair because nobody likes him or buys his toys, and his taste for unsettling playthings keeps locals away. The burgomaster pays him a little to make festival decorations. A visitor named Rictavio gave him a pet monkey, Piccolo, which he is training to fetch toys and dresses in a tutu. He greets customers with a rehearsed rhyme. He politely declines to join a fight against Strahd.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 118'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1834,6 +1995,17 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['any one language (usually Common)'],
       habitats: ['arctic', 'desert', 'coastal', 'grassland', 'hill', 'urban', 'forest'],
+      appearance: [
+        [
+          "A teenage girl with a fairy-tale view of the world, lying on a bed in Strahd's chambers.",
+        ],
+      ],
+      lore: [
+        [
+          'Gertruda is the daughter of Mad Mary. Her mother kept her hidden indoors for her whole life, and a week ago she slipped out and wandered up to the castle, attracted by its splendour. She is innocent and naive to the point of danger, making the simplest choice every time. Strahd has charmed her but not fed on her so far, and he plans to. She does not know about the secret door by her bed.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 68'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1945,6 +2117,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['the languages it knew in life'],
       habitats: ['underdark', 'urban'],
+      appearance: [['A maid on her hands and knees, begging to be rescued.']],
+      lore: [
+        [
+          "Helga is a vampire spawn, though she says she is the village bootmaker's daughter, kidnapped and made to serve Strahd. She pleads to be taken away, and will join the party if asked. She intends to turn on them, but only if she can strike when the whole group is not around to fight back. She also attacks if Strahd tells her to.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 64'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2057,6 +2236,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['any one language (usually Common)'],
       habitats: ['arctic', 'desert', 'coastal', 'grassland', 'hill', 'urban', 'forest'],
+      appearance: [['A mediocre carpenter and coffin maker, lonely and troubled.']],
+      lore: [
+        [
+          "Henrik is a lonely man in Vallaki whom nobody wants near because of his grim trade. He profits from other people's deaths. Strahd, posing as a nobleman, once offered him good business in return for help, and his workshop is now the hideout of vampire spawn, former adventurers whom Strahd turned. He also took part in the theft of St. Andral's bones, buying them from a boy who needed money to feed his siblings.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 116'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2087,6 +2273,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common'],
       habitats: ['underdark', 'swamp', 'urban'],
+      appearance: [
+        [
+          'Gray-skinned, feral ghasts with three eyes, the third a lidless eye clouded by cataracts, clinging to walls and ceilings.',
+        ],
+      ],
+      lore: [
+        [
+          'A group of seven hungry ghasts lairs in a vault of amber sarcophagi in the Amber Temple. They stare hungrily at intruders and fight to the death. They can climb on ceilings.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 192'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2266,6 +2463,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['any four languages'],
       habitats: ['urban'],
+      appearance: [['A dusk elf leader living in a modest hovel, guarded by cloaked elves.']],
+      lore: [
+        [
+          'Kasimir leads the dusk elves in the Vistani camp near Vallaki. He is troubled by dreams sent by his dead sister Patrina, whose spirit is stuck in the crypts under Castle Ravenloft, and he wants to free and revive her. If the party is set on destroying Strahd, he tells them the Amber Temple might hold a way to break the pact, as a means to get them to go there with him, although his own aim is to find something to bring Patrina back.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 121'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2366,6 +2570,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['the languages it knew in life'],
       habitats: ['forest', 'swamp', 'hill', 'urban', 'desert', 'arctic'],
+      appearance: [['A revenant in armour, roaming the land.']],
+      lore: [
+        [
+          "This revenant once belonged to the knightly Order of the Silver Dragon, which was wiped out defending the valley from Strahd more than four centuries ago. It has forgotten its name and wanders, killing Strahd's wolves and other minions on sight. If attacked, it assumes the party serves Strahd and fights to the end.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 31'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2512,6 +2723,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['any two languages'],
       habitats: ['urban'],
+      appearance: [['The lady of a grand house in Vallaki.']],
+      lore: [
+        [
+          'Lady Fiona is a priest and head of the Wachter family. She openly stays loyal to the von Zarovich line, regarding Strahd as at worst a negligent landlord, and would gladly serve him as burgomaster of Vallaki. She knows Baron Vargas will not surrender his post without a fight.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 110'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2589,6 +2807,15 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['the languages it knew in life'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        ['A vampire spawn bride in a soiled white wedding gown, gold tiara and bracelets.'],
+      ],
+      lore: [
+        [
+          'Ludmilla is one of three brides of Strahd lying in his crypt. The three rise to attack anyone who nears his coffin. Strahd gave them fine gifts, which they wear.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 94'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2857,6 +3084,18 @@ export default createPublicationMonsters({
       tags: ['mongrelfolk'],
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [
+        [
+          "A skittish mongrelfolk chained to a post in the abbey courtyard, with a spider's mandibles and teeth where her mouth should be, a bat's arms and wings, and one cloven hoof.",
+        ],
+      ],
+      lore: [
+        [
+          'Marzena is a chaotic neutral mongrelfolk, the elder sister in the Belview family at the Abbey of Saint Markovia. She is just over four feet tall and hunched, with long stringy black hair hiding her face. She fears everyone except Clovin, who is allowed close enough to feed her. She flutters madly and screams when approached. If her chains are broken or unlocked she takes off and is not seen again.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 150'],
+      ],
+      habitats: ['Abbey'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2940,6 +3179,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['any one language (usually Common)'],
       habitats: ['arctic', 'desert', 'coastal', 'grassland', 'hill', 'urban', 'forest'],
+      appearance: [['A young man rarely seen without a shovel that he swings like a club.']],
+      lore: [
+        [
+          "Milivoj is a commoner in Vallaki who turns down the burgomaster's cheerful slogan and is frustrated at being unable to protect his younger brothers and sisters. He wants to leave Barovia and its curse behind but cannot picture how.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 97'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2970,6 +3216,18 @@ export default createPublicationMonsters({
       tags: ['mongrelfolk'],
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        [
+          "A lean, thin man of about five feet, human on one side of his face and with three red eyes like a spider's on the other, a frog's foot where his left hand should be and a bird's clawed foot on his right leg.",
+        ],
+      ],
+      lore: [
+        [
+          'Mishka is a Belview mongrelfolk in the abbey. He can climb like a spider. His madness has led him to discover that he enjoys killing people. He lurks in a pit and strikes at anyone who lights up his hiding place.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 150'],
+      ],
+      habitats: ['Abbey'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3161,6 +3419,18 @@ export default createPublicationMonsters({
       tags: ['mongrelfolk'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A squatting mongrelfolk about four and a half feet tall that resembles a beardless dwarf with donkey flesh on his face and body.',
+        ],
+      ],
+      lore: [
+        [
+          "Otto is one of the abbey's two gate guards and gravediggers. One of his ears is human and the other a wolf's, and he has a wolf's snout and fangs, lion legs and a donkey's tail. His Common is barely understandable. He and Zygfrek serve the Abbot loyally, but guard poorly. If the party seems friendly they are escorted in.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 147'],
+      ],
+      habitats: ['Abbey'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3246,6 +3516,15 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['any one language (usually Common)'],
       habitats: ['urban'],
+      appearance: [
+        ['A young man with rippling muscles under a leather tunic, but a childlike mind.'],
+      ],
+      lore: [
+        [
+          'Parriwimple is the stockboy and nephew of Bildrath. His real name is Parpol Cantemir. He is strong but simple-minded and devoted to his uncle, who will not let him leave. He has a good heart and might be talked into going to Castle Ravenloft to help rescue Barovians or Ireena. His uncle calls him to deal with troublemakers.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 43'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3346,6 +3625,17 @@ export default createPublicationMonsters({
       name: 'Phantom Warrior',
       alignment: 'any alignment',
       languages: ['any languages it knew in life'],
+      appearance: [
+        [
+          'A see-through version of a soldier or knight, in ghostly armour, with an invisible sheath of energy around its weapons and shields.',
+        ],
+      ],
+      lore: [
+        [
+          'It is the willing spectral remnant of a soldier or knight who died in battle or in the line of duty, often mistaken for a ghost but free to end its existence whenever it chooses. It lingers out of loyalty to a former master or because honour demands a task be finished, such as a wall guard who keeps watch until relieved or the wall falls. It usually rises about a day after death, keeps its alignment, personality and memory of its death, but recalls only the last couple of weeks of life. Though incorporeal, it can harness surrounding energy to deflect blows and hit hard, and its gear is hard as steel yet lets it pass through walls. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Curse of Strahd'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3920,6 +4210,15 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['the languages it knew in life'],
       habitats: ['forest', 'swamp', 'hill', 'urban', 'desert', 'arctic'],
+      appearance: [
+        ['A revenant knight, a spellcaster among the other revenants who share his fate.'],
+      ],
+      lore: [
+        [
+          "Sir Godfrey is one of a group of revenants who were once knights of the Silver Dragon order. If the card reading marks him as Strahd's enemy and the party persuades him, he will fight the vampire, motivated by the memory of his love for Vladimir and his wish to restore the Order's honour. If the beacon is unlit, his choice enrages the other revenants. If it is lit, he remains a revenant after the others rest, now lawful good, until he finishes one last task.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 139'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4089,6 +4388,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ["understands all languages it knew in life but can't speak"],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'Swirling snow that shapes itself into thin, young women, with a howling wind that tells the party to go away because the treasure is theirs.',
+        ],
+      ],
+      lore: [
+        [
+          'Six snow maidens guard treasure on a mountain pass. They are immune to cold and drain life with a cold touch instead of a necrotic one. They do not speak and do not care what the characters say.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 159'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4174,6 +4484,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['any four languages'],
       habitats: ['urban'],
+      appearance: [['A Vistani leader welcoming guests to his camp, with his son and daughter.']],
+      lore: [
+        [
+          'Stanimir leads a Vistani camp of nine bandits, his daughter Damia and his son Ratka, whose orders the bandits follow. He greets visitors warmly and, if they pass on a warning from Duchess Morwen, laughs it off.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 20'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4769,6 +5086,18 @@ export default createPublicationMonsters({
       name: 'Vasilka',
       alignment: 'neutral',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A woman in a tattered red gown, whose powdered skin shows seams where body parts were sewn together.',
+        ],
+      ],
+      lore: [
+        [
+          'Vasilka is a flesh golem made to look like a bride for Strahd, assembled from parts stolen from graves in Krezk. The Abbot is teaching her etiquette and plans to teach her to dance. She obeys his every command, cannot speak and screams horribly if hurt. If she goes berserk she fights on until the Abbot regains control or she is destroyed.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 151'],
+      ],
+      habitats: ['Abbey'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -4868,6 +5197,15 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['the languages it knew in life'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        ['A vampire spawn bride in a faded gold wedding gown with a platinum skull-like mask.'],
+      ],
+      lore: [
+        [
+          'Volenta is one of three brides of Strahd in his crypt. They rise to attack anyone near his coffin. She wears ten platinum rings set with gems along with her mask and gown.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 94'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4980,6 +5318,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
       habitats: ['arctic', 'desert', 'coastal', 'grassland', 'hill', 'urban', 'forest'],
+      appearance: [['Bloated human corpses rising out of the mire and shambling slowly.']],
+      lore: [
+        [
+          'Seven of these walking corpses rise from a bog near a monument. They are slow and immune to charm and fear. When one falls it bursts and spills a swarm of hungry poisonous snakes. The party can take treasure and outrun them.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 165'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5241,6 +5586,18 @@ export default createPublicationMonsters({
       tags: ['mongrelfolk'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [
+        [
+          "A mongrelfolk about four and a half feet tall, scaled on one side and furred with gray wolf hair on the other, one cat's eye and cat-like paws for hands, wrapped in a grey cloak edged in dark fur.",
+        ],
+      ],
+      lore: [
+        [
+          'Zygfrek is a lawful evil Belview mongrelfolk who works as gate guard and gravedigger at the Abbey of Saint Markovia alongside Otto. Her voice is gruff and she resents being judged. She and Otto sleep under furs and guard badly. At night they cover themselves with twig nets to dig up fresh graves. If the party seems friendly, they escort them to the courtyard.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 148'],
+      ],
+      habitats: ['Abbey'],
       stats: {
         size: 'medium',
         type: 'humanoid',

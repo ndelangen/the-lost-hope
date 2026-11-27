@@ -11,6 +11,13 @@ export default createPublicationMonsters({
       name: 'Giant Zombie Constrictor Snake',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [['An enormous, rotting snake slithers on, a husk of what it was.']],
+      lore: [
+        [
+          'The yuan-ti gave Medium-sized constrictors to Kyrilla as offerings to win her knowledge and power. Fed on supplicants and prisoners, they grew huge. After the yuan-ti turned on Kyrilla and killed the snakes, cursed magic in her lair got them moving again. Leaving the lair kills them.',
+        ],
+        ['Sources: ', 'Adventures in the Forgotten Realms: Deepest Night'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -109,6 +116,17 @@ export default createPublicationMonsters({
       name: 'Hamish Hewland',
       alignment: 'neutral good',
       languages: ['Common', 'Dwarvish', 'Giant'],
+      appearance: [
+        [
+          'Hamish is a gentle giant with brown skin, good posture and long hair in three neat braids. He carries a big axe, and his pockets bulge with snacks.',
+        ],
+      ],
+      lore: [
+        [
+          "He has a fierce laugh and comes from Waterdeep, and he went into the Sword Coast wilds with his friends Sylvene and Artura, in a party that also had Waltarn Everlake, a human from Secomber. He overpacks, carrying both a dungeoneer's and an explorer's pack, and once had a wooden shield Artura made him, now rotted away. He would risk his life for his friends, and he trusts others so readily that he can be naive.",
+        ],
+        ['Sources: ', 'Adventures in the Forgotten Realms: Deepest Night'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',

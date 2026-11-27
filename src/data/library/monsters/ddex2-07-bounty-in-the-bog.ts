@@ -13,6 +13,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A brutal, heavily armoured thug in special plate made of elemental stone, which falls apart when the guard is killed.',
+        ],
+      ],
+      lore: [
+        [
+          "The earth cult's fighters serve Ogrémoch, and that loyalty gives them an unnatural resilience against battering blows. They obey the cult's priests and leaders with fanatic zeal and will battle until they drop if told to. Those showing greater promise are turned into burrowsharks.",
+        ],
+        ['Sources: ', 'DDEX2-07 - Bounty in the Bog'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

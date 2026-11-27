@@ -12,6 +12,16 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ["understands Abyssal but can't speak"],
+      appearance: [
+        ['A leathery-winged, bird-like fiend that flaps hard to frighten off predators.'],
+      ],
+      lore: [
+        [
+          "Abyssal chickens are bad-tempered, meat-eating bottom-feeders from the Abyss. Their wing-beating both scares enemies and speeds their running, and they taste much like fatty chicken. With the DM's leave, a character casting find familiar may pick one instead of a raven.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'tiny',
         type: 'fiend',
@@ -78,6 +88,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [
+        [
+          "A noble's second son, genial over drinks, who keeps up a friendly front while doing business.",
+        ],
+      ],
+      lore: [
+        [
+          "Amrik is Duke Thalamra Vanthampur's younger son, from Baldur's Gate. He likes to chat over a drink before getting down to business. He has trained the serving staff at Laraelra's to recognise innocent-looking hand signals that mean bring drinks, and he has a private one that means poison. Behind the bar sits a small bottle of torpor, enough for four doses, which the kenku bartender uses on clients when Amrik gives the sign.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ["Baldur's Gate"],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -143,6 +165,14 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal', 'telepathy 120 ft.'],
+      appearance: [['The text gives no description of his looks.']],
+      lore: [
+        [
+          "Bel once ruled Avernus and now serves as Zariel's deputy, overseeing the forges that supply arms and armour for the Blood War. Asmodeus ordered Zariel to keep him as an adviser, but the two despise each other and find excuses to stay apart. He plays the faithful servant but resents her hold on the layer that used to be his, and will not oppose her openly while he believes Asmodeus supports her.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Avernus'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -461,6 +491,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A warrior in heavy armour with its right gauntlet painted black, and clerics carrying black maces whose heads are shaped like clenched fists.',
+        ],
+      ],
+      lore: [
+        [
+          "Bane's devotees want to rule by strength and intimidation, handing out threats and gifts to secure loyalty: the weak are enslaved while the strong get rewards and promises of power. Once in charge they impose tough laws, crush all opposition and pay richly for sworn loyalty. The cult has a strict military ladder. At the bottom are the fists of Bane, soldiers who carry out any order instantly, under the iron consuls, cunning officers who coordinate the fists in battle, over whom stand the black gauntlets, the priests.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -932,6 +973,14 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ["understands Abyssal but can't speak"],
+      appearance: [["A huge mudskipper that has a hyena's fur, ears and teeth, and its laughter."]],
+      lore: [
+        [
+          "Crokek'toeck is Yeenoghu's one-of-a-kind demon pet. Its gullet can carry smaller demons, which it vomits up wherever Yeenoghu likes. It is unaffected by the River Styx's mind-shattering waters, so it ferries minor demons, and sometimes Yeenoghu himself, over that river.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'gargantuan',
         type: 'fiend',
@@ -1021,6 +1070,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [["A senior Bhaal cultist able to wear his god's skull-faced look."]],
+      lore: [
+        [
+          "Bhaal's cultists mimic their god with brutal murders to spread terror. They are charming when they wish but bloodthirsty in combat. They call on Bhaal to make stab wounds from their long knives gush blood and run deep. They blend into shadow and can turn invisible briefly. Night blades are the lowest rank, reapers can become invisible and dodge suspicion, and death's heads, the highest, wear a skull face to terrify and shrug off deadly blows to show resistance is hopeless.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1202,6 +1258,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A warrior in heavy armour, the right gauntlet painted black, carries a mace, sword, spear or crossbow.',
+        ],
+      ],
+      lore: [
+        [
+          'Followers of Bane want to rule through force and intimidation. They enslave those who cannot resist and win over the strong with presents and vows of power. Where they take control they impose harsh rules, crush opposition and reward those who swear loyalty. Their ranks are strictly military. Fists are the foot soldiers who obey without question, led by cunning iron consuls who coordinate them in combat, and above the consuls are priests called black gauntlets.',
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1255,6 +1322,14 @@ export default createPublicationMonsters({
       name: 'Gideon Lightward',
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [['Gideon Lightward is an undead priest of Lathander who serves in Elturel.']],
+      lore: [
+        [
+          "He proudly served Lathander and Elturel, until Zariel sent devils posing as angels to corrupt him before the city's fall, promising more power if he fought demons. He gradually gave up his sanity and will and died when Elturel was dragged to Avernus, then rose as undead. He remains her most loyal servant in the city, convinced his cause is noble, yet his thinking is shattered and he despises anyone who will not obey him.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Elturel'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1369,6 +1444,18 @@ export default createPublicationMonsters({
       name: 'Hellwasp',
       alignment: 'lawful evil',
       languages: ['Infernal', 'telepathy 300 ft.'],
+      appearance: [
+        [
+          'A clever, spiteful insect in a heavy shell, with slim metal-like wings and sturdy legs tipped by blade-shaped claws.',
+        ],
+      ],
+      lore: [
+        [
+          "A malevolent native of the Nine Hells that stings victims with a fluid like alchemist's fire carrying a paralysing enzyme, so it can grab prey and flee. It likes heat, and extreme cold cracks its shell, so it avoids Stygia and Cania. It spews golden bile like amber to build huge chambered nests as communal shelter and food stores, housing a commune where each member has an equal voice. Hellwasps talk by telepathy that only their own kind can sense.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1519,6 +1606,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [['A cultist of Bane in heavy armour with the right gauntlet painted black.']],
+      lore: [
+        [
+          "Bane's followers are warriors who rule by strength and fear, enslaving the weak and bribing the strong with presents and pledges of power. Their cults run on a strict military ladder. Iron consuls are cunning field officers who coordinate the foot soldiers called fists of Bane in battle, and they answer to the priests known as black gauntlets. Bane's clerics carry black maces shaped like a closed fist.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1584,6 +1678,18 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Giant', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A demon lord built like a stocky hill giant, on short bandy legs and an oddly misshapen head.',
+        ],
+      ],
+      lore: [
+        [
+          'Frost giants who abandon their gods for demon worship can call him with bloody offerings on altars of carved ice. If he answers he hunts and fights beside them for a while, infecting them with savage madness and bloodlust, then returns to the Abyss.',
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1714,6 +1820,16 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [
+        ['A man with half his face scarred by fire since childhood, giving him a fearsome look.'],
+      ],
+      lore: [
+        [
+          'Duke Thalamra Vanthampur tolerates him, but his older brothers Thurstwell and Amrik despise him and consider him a simpleton and an abomination.',
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ["Baldur's Gate"],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1778,6 +1894,15 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal'],
+      appearance: [
+        ["An initiate of Myrkul's cult carrying a flail with a skull in place of the head."],
+      ],
+      lore: [
+        [
+          'Followers of Myrkul are wizards or seekers of necromantic mastery. They study rituals that bind the souls of the dead to answer questions and reveal lost knowledge, search ruins for arcane secrets, and try to steal spellbooks from outside wizards. The lowest rank, necromites, are novices without arcane mastery who rely on their flails. Skull lashers are casters who bolster combat with magic, and Masters of Souls delve deeply enough to raise the dead and cast other grave magic.',
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1917,6 +2042,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [['A low-ranking cultist of Bhaal carrying a long-bladed knife.']],
+      lore: [
+        [
+          "Bhaal's cultists carry out grisly killings to sow dread and terror, charming when they wish and bloodthirsty in battle. They learn to make their victims vulnerable to their blades, so stab wounds burst into gouts of blood and seemingly minor ones cut deep. They blend into shadows, even turning invisible for a moment. The ranks run night blades, who have darkvision and superior stealth, then reapers, who can turn invisible and evade suspicion, and death's heads, who wear the skull-faced guise of Bhaal and shrug off the deadliest blows to show that resistance is futile.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1961,6 +2093,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral',
       languages: ['Common', "Thieves' cant"],
+      appearance: [
+        [
+          'An unremarkable woman of middle age and build in plain clothes, with forgettable looks that make even victims fail to recognise her again.',
+        ],
+      ],
+      lore: [
+        [
+          "Keene leads the Guild and disdains flashy dress and illusion magic. Her forgettable looks are her greatest thieving asset. Years of leadership gave her a reputation for thoughtful pragmatism, and she seeks revenge for slights against the Guild when it is profitable, using vicious methods if needed, and is as feared as respected. She resents rising opposition from organised crews and vigilantes, and after a vigilante's clumsiness ruined a carefully planned attack on a patriar's estate she announced that all do-gooders are fair game.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ["Baldur's Gate"],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2456,6 +2600,16 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal'],
+      appearance: [
+        ['A follower of Myrkul wielding a flail topped with a skull in place of the usual head.'],
+      ],
+      lore: [
+        [
+          "Myrkul's cultists are wizards or students of necromancy who force the dead to answer questions, seek arcane secrets in ruins, and steal other wizards' spellbooks. Necromites are initiates relying on flails, skull lashers are casters who boost their fighting with magic, and Masters of Souls can raise the dead.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2755,6 +2909,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Elvish', 'Infernal'],
+      appearance: [['A pale, sullen recluse in his forties.']],
+      lore: [
+        [
+          "He rarely leaves home and sends imps to watch his brothers, Amrik and Mortlock. He resents Amrik for being their mother's favourite and Mortlock because he is a hulking fool.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

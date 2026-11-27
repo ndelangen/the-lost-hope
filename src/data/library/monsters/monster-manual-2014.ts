@@ -26090,6 +26090,13 @@ export default createPublicationMonsters({
       alignment: 'any chaotic alignment',
       languages: ['Common', 'Giant'],
       habitats: ['underdark', 'mountain', 'forest', 'hill', 'urban', 'desert', 'arctic'],
+      appearance: [['A heavy humanoid about eight feet tall, built like a smaller ogre.']],
+      lore: [
+        [
+          'Whenever an ogre has offspring with a human, a bugbear, an orc or a hobgoblin, the child is a half-ogre; if the other parent is an orc, the child is also known as an ogrillon. Human mothers seldom survive the birth. Ogres refuse to mate with elves, dwarves or halflings, and eat them.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -30680,6 +30687,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Draconic'],
       habitats: ['forest', 'swamp'],
+      appearance: [
+        [
+          'A lizardfolk noticeably bigger than the rest of her tribe, standing over the warriors who obey her.',
+        ],
+      ],
+      lore: [
+        [
+          "Some lizardfolk tribes throw up a leader who is bigger, sharper and far crueler than the norm, born under the influence of the reptilian demon lord Sess'inek rather than the tribe's own god. Such a queen pushes aside the tribe's shaman, takes command and whips her followers into unaccustomed aggression. Treat her as a tyrant ruling by fear, with a tribe that fights harder than lizardfolk usually do.",
+        ],
+        ['Sources: ', 'Monster Manual, p. 204'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

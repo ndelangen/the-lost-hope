@@ -13,6 +13,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
       habitats: ['urban'],
+      appearance: [
+        [
+          "A human knight in a battered state, so badly beaten that he is barely clinging to life, carried on the back of a drow's mount.",
+        ],
+      ],
+      lore: [
+        [
+          "Sir Aljanor is a knight of the Order of the Gauntlet, taken during a raid on the surface some months ago. The drow commander Ryzlir threatens to kill him unless the party's expeditionary force withdraws. Allies from the Order who see him are shocked, as they thought he was dead. He has made peace with Tyr and expects to die, though he regrets losing good people for his sake. If he is abandoned or dies, expeditionary members report it to Sir Lanniver Strayl.",
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 149'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -92,6 +103,18 @@ export default createPublicationMonsters({
       name: 'Animated Drow Statue',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A stone drow warrior, one of many standing as if on guard in a cave, that suddenly steps off its base.',
+        ],
+      ],
+      lore: [
+        [
+          "A group of drow once travelling from Menzoberranzan were turned to stone, and the hostile earth elemental influence of Ogremoch's Bane later animated the statues. In the cave of statues, six of them wake when the party enters. They fight until destroyed but never leave the cavern, and six more rise each time a round passes after the last has fallen. The animated statues are treated as elementals rather than constructs.",
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 109'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -164,6 +187,14 @@ export default createPublicationMonsters({
       name: 'Awakened Zurkhwood',
       alignment: 'unaligned',
       languages: ['one language known by its creator'],
+      appearance: [['A zurkhwood mushroom that has gained a mind and can move.']],
+      lore: [
+        [
+          'It starts life as an ordinary Underdark zurkhwood. The awaken spell can wake one, and a myconid sovereign can do the same through a long ritual, in which case the result cannot speak. It can pass itself off as a normal zurkhwood mushroom.',
+        ],
+        ['Sources: ', 'Out of the Abyss'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -842,6 +873,16 @@ export default createPublicationMonsters({
         ['Base creature: Guard'],
         ['Applied templates: Drow (Levitate)'],
       ],
+      appearance: [
+        ['Armed drow watching a slave pen from a hanging guard tower across a rope bridge.'],
+      ],
+      lore: [
+        [
+          'Drow guards keep an eye on prisoners from a tower, but are not very observant. They seldom speak to the captives, whom they look down on.',
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 8'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -909,6 +950,16 @@ export default createPublicationMonsters({
         ['Base creature: Scout'],
         ['Applied templates: Drow (Levitate)'],
       ],
+      appearance: [
+        ['A drow scout moving quietly through the tunnels, trying to avoid being seen.'],
+      ],
+      lore: [
+        [
+          'A drow scout can be sent after escaped slaves. If she spots the party she tries to slip away unnoticed and report their location. A scout named Xalith may tell the Stone Guards in Blingdenstone that the characters are runaway slaves of her mistress, so they get arrested.',
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 29'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1003,6 +1054,18 @@ export default createPublicationMonsters({
         ['Base creature: Spy'],
         ['Applied templates: Drow (Levitate)'],
       ],
+      appearance: [
+        [
+          'A male drow who stays unseen at the edge of sight, trailing the characters through a city.',
+        ],
+      ],
+      lore: [
+        [
+          "This spy belongs to Bregan D'aerthe and takes an interest in the party, shadowing them while trying to stay hidden. A character who notices him must beat his Stealth with a Perception check.",
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 195'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1955,6 +2018,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Hook Horror'],
       habitats: ['underdark'],
+      appearance: [
+        ['A newly hatched hook horror, tiny and clingy, that follows the first creature it saw.'],
+      ],
+      lore: [
+        [
+          'Hook horror eggs sometimes hatch while characters are nearby. The hatchling bonds with whatever it sees first and trails after it like a parent, demanding food. If it is kept alive it grows to an adult in about six months.',
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 33'],
+      ],
       stats: {
         size: 'tiny',
         type: 'monstrosity',
@@ -2005,6 +2077,14 @@ export default createPublicationMonsters({
         ['Base creature: Spy'],
         ['Applied templates: Deep Gnome'],
       ],
+      appearance: [['A reckless deep gnome who loves a wager.']],
+      lore: [
+        [
+          "Jimjar is a deep gnome spy with a devil-may-care attitude, a love of money and an obsession with betting on everything, from the party's efforts to chance events. He sometimes uses bets to push others into acting, but can be manipulated the same way, since he cannot turn down a wager. He keeps exact track of debts in his head, always pays, and is quick to collect. Other deep gnomes, including Topsy and Turvy, find him annoying or even unstable.",
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 6'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2394,6 +2474,18 @@ export default createPublicationMonsters({
       tags: ['derro'],
       alignment: 'chaotic evil',
       languages: ['Dwarvish', 'Undercommon'],
+      appearance: [
+        [
+          'A derro leading a ritual on a platform around a statue, calling out the name Demogorgon between chants.',
+        ],
+      ],
+      lore: [
+        [
+          'Narrak performs a Demogorgon ritual with four other derro cultists. A female bodyguard named Grula-Munga rests nearby and a cultist keeps a death dog in a cage. Quasits stay invisible near him and warn of intruders. When intruders appear the cultists stop chanting and take positions. Narrak keeps on with the ritual until the party kills the dog or one of the cultists, then he joins the fight.',
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 78'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2518,6 +2610,14 @@ export default createPublicationMonsters({
         ['Base creature: Spy'],
         ['Applied templates: Deep Gnome'],
       ],
+      appearance: [['A friendly svirfneblin who tags along with the party.']],
+      lore: [
+        [
+          'Peebles asks to join the party and, after a tenday, steers them off route with a lie about purple worms, leading them to the cavern of the beholder Xazax the Eyemonger, who kills other beholders and grafts their eyestalks to himself. He heads there regardless. On arrival he calls Xazax master. He may remove intact eyestalks from a dead beholder with a flint knife and carry them to Xazax.',
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 142'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2623,6 +2723,15 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['underdark'],
+      appearance: [
+        ['A black pudding that sits beside its master on a throne amid a swarm of oozes.'],
+      ],
+      lore: [
+        [
+          "Princess Ebonmire is the black pudding bound to the Pudding King, a mad figure in Blingdenstone who serves Juiblex. The king sits enthroned with his oozes as 'children' and summons more each day. He plans to send them out to devour everything.",
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 99'],
+      ],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -2801,6 +2910,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Giant'],
       habitats: ['underdark', 'mountain', 'hill'],
+      appearance: [['A stone giant who grew an extra head and rushed off in a rage.']],
+      lore: [
+        [
+          "Rihuud was an apprentice of the Stonespeaker who went mad while deep in meditation with the rock in Cairngorm Cavern. He is cursed through Demogorgon's influence, with the second head acting as a conduit for the curse. A broken statue of him in a derro ritual site turns to dust if he is dead. If he lives, removing the head and returning it to the statue can help.",
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 60'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2915,6 +3031,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['any two languages'],
       habitats: ['urban'],
+      appearance: [
+        ['A woman humming an unfamiliar tune inside a lit tent ringed by hidden traps.'],
+      ],
+      lore: [
+        [
+          "Rystia is a Harper agent from Nesme who came down to the Underdark two years back, meaning to reach Mantol-Derith and spy on the Zhentarim settlement. She lost her way, does not realise how near her goal is, and cannot find a route up. Terror, loneliness and the demons' arrival have unhinged her, and she is convinced every stranger is a killer. She has set four spring-loaded hunting traps in the pebbles around her tent.",
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 135'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2998,6 +3123,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['any four languages'],
       habitats: ['urban'],
+      appearance: [
+        ['A deranged former surface adventurer who leads the slaves of a beholder in worship.'],
+      ],
+      lore: [
+        [
+          "Shedrak and his companions delved too deep into the Underdark and were captured by the beholder Karazikar. His friends became playthings, but Shedrak alone survived all ten of the eye rays. Impressed by this luck, the beholder broke his mind and will and made him its acolyte. He is now Karazikar's high priest, completely mad, treats the beholder as a god, and allows no defiance of his master.",
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 175'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3101,6 +3235,14 @@ export default createPublicationMonsters({
         ['Applied templates: High Elf'],
         ['Alternate armor classes: 16 · with barkskin'],
       ],
+      appearance: [['A wood elf scout who has not been seen for months.']],
+      lore: [
+        [
+          'Sladis is a scout from the Gauntlgrym enclave who went missing a few months ago on an errand below. Morista hopes the party will find him and bring him home, and offers three shield dwarf scouts and giant lizard mounts to go along.',
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 128'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3178,6 +3320,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Goblin'],
       habitats: ['underdark', 'grassland', 'forest', 'hill'],
+      appearance: [['A thrill-seeking goblin guide who surfs the webs on greased feet.']],
+      lore: [
+        [
+          'Spiderbait and Yuk Yuk are the Web Runners, a goblin pair who have long lived in the Underdark and make a living treasure hunting. They are prone to daring, often foolish stunts, and their survival says much about their luck and skill. They offer to guide travellers across the Silken Paths for a fee. Both carry gourds of grease to slide down the webs at speed. They keep their word, and may stay on as guides if impressed.',
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 31'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3387,6 +3536,16 @@ export default createPublicationMonsters({
         ['Base creature: Wererat'],
         ['Applied templates: Deep Gnome'],
       ],
+      appearance: [
+        ['A deep gnome with a stringy mop of hair who speaks for her muttering brother.'],
+      ],
+      lore: [
+        [
+          'Topsy and her twin Turvy come from Blingdenstone and were captured by drow while gathering mushrooms. Topsy is the sociable one and repeats or translates for Turvy. Both are secretly wererats who are still struggling to control their instincts, and they fear what allies would do if they found out. With less than a month in captivity, the full moon is approaching, which can serve as a wild card.',
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 8'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3509,6 +3668,14 @@ export default createPublicationMonsters({
         ['Base creature: Wererat'],
         ['Applied templates: Deep Gnome'],
       ],
+      appearance: [['A bald deep gnome with a few tufts of hair who mumbles darkly to himself.']],
+      lore: [
+        [
+          'Turvy is the twin brother of Topsy, who repeats or translates his mutterings. Both come from Blingdenstone and were captured by drow while gathering mushrooms. Both are secretly wererats still fighting the pull of the curse, and with the full moon near, the change can strike.',
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 8'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3707,6 +3874,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Common', 'Dwarvish', 'Giant', 'Undercommon'],
       habitats: ['mountain'],
+      appearance: [
+        [
+          'A many-legged reptile stretched out in a tunnel junction, keeping his eyes on the floor.',
+        ],
+      ],
+      lore: [
+        [
+          "Veldyskar is an unusually clever basilisk who speaks Common, Dwarvish, Giant and Undercommon. A stone giant druid gave him to the library's keepers long ago, and he serves as guardian and helper, embracing the role. He sings in various languages in the tunnel and keeps his eyes lowered to control his gaze. He guides the characters the last eight hours to Gravenhollow, and speaks little. He turns his gaze on troublemakers in the library.",
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 151'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3983,6 +4161,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Goblin'],
       habitats: ['underdark', 'grassland', 'forest', 'hill'],
+      appearance: [['A goblin who does the haggling for a pair of web-surfing treasure hunters.']],
+      lore: [
+        [
+          'Yuk Yuk and Spiderbait are goblin guides called the Web Runners, long used to the Underdark and fond of reckless stunts. Yuk Yuk handles the bargaining, and may ask for a shiny item or a favour or the first pick of loot rather than coin. Both are neutral and reliable to their word. They slide down webs on greased feet, and might stay on as guides if impressed, though they will not leave the Underdark.',
+        ],
+        ['Sources: ', 'Out of the Abyss, p. 31'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

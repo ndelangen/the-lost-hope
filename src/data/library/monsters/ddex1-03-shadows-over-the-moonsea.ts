@@ -173,6 +173,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish'],
+      appearance: [
+        [
+          'A bad-tempered old man, one eye narrowed and the other bulging, always chewing on a worn pipe.',
+        ],
+      ],
+      lore: [
+        [
+          'Warsh is the island boatman, mean and greedy, suspicious of outsiders. His mumbling is hard to follow because of the pipe. His family has been on the island across five generations, and he was already living there when the town bargained with Tiamat. He is a devil worshipper and handles dealings with non-islanders.',
+        ],
+        ['Sources: ', 'DDEX1-03 Shadows over the Moonsea, p. 13'],
+      ],
+      habitats: ['Island'],
       stats: {
         size: 'medium',
         type: 'humanoid',

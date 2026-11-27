@@ -11,6 +11,18 @@ export default createPublicationMonsters({
       name: 'Achaierai',
       alignment: 'lawful evil',
       languages: ['Infernal'],
+      appearance: [
+        [
+          'A bird-like quadruped with a razor-sharp beak and a savage talon on each of its four legs.',
+        ],
+      ],
+      lore: [
+        [
+          'Achaierai are native to the plane of Acheron but mostly dwell in the Underdark. They are clever, organised and sadistic, with a warped sense of justice that sends them after bloody revenge for any harm to their kin. Flocks of around six hunt together under the biggest and strongest member, and the weakest get eaten when food is short. A threatened one can puff out a toxic cloud, back off and return later. They can only breed on Acheron, so they torture captured wizards until they call up more of their kind, which is why wizards are the one captive they spare. Their raids on svirfneblin and drow settlements leave nobody alive, so other Underdark peoples will join forces to destroy a flock, provoking an endless round of reprisals.',
+        ],
+        ['Sources: ', "Minsc and Boo's Journal of Villainy"],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -115,6 +127,18 @@ export default createPublicationMonsters({
       name: 'Aribeth de Tylmarande',
       alignment: 'neutral evil',
       languages: ['Common', 'Elvish', 'Infernal'],
+      appearance: [
+        [
+          'A once-beautiful elf, hollowed by long years in Hell, who carries a scale resembling a holy symbol of Tyr and a soul-eating sword.',
+        ],
+      ],
+      lore: [
+        [
+          "Aribeth began as an elf paladin serving Tyr and guarded Lord Nasher of Neverwinter. When her betrothed Fenthick Moss was hanged on a false treason charge, grief and a thirst for revenge soured her, and she turned against lord, kin and deity until she died. Mephistopheles found her spirit in Hell and offered a chance to deliver justice again, which she took. Decades below and her old betrayals left her without conscience or pity, and he set her to hunt those who break pacts with Hell. Yet he noticed a buried flicker of kindness and gave her the sword Void, which eats a victim's soul so they escape the Nine Hells, but allowed her to spare only one victim in nine, expecting the choosing to corrupt her. She saw through him. Instead she asks each victim for a gold piece and weighs it on a very precise scale shaped like a holy symbol of Tyr; if the final digit balances at nine, Void takes them. She still serves as Mephistopheles' avatar, but is not strictly evil: she judges only the guilty and enjoys none of it.",
+        ],
+        ['Sources: ', "Minsc and Boo's Journal of Villainy"],
+      ],
+      habitats: ['Hell'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2285,6 +2309,18 @@ export default createPublicationMonsters({
       name: 'Phaerimm',
       alignment: 'neutral evil',
       languages: ['Undercommon', 'understands Common', 'telepathy 100 ft.'],
+      appearance: [
+        [
+          'A hideous creature with a bulbous body, spindly arms and legs, and a gaping maw with rows of razor teeth.',
+        ],
+      ],
+      lore: [
+        [
+          'Phaerimms are brilliant, malevolent aberrations from deep underground, natural spellcasters who enjoy causing pain. They might happily erase all other beings if they did not need slaves to torture. Their wicked magic leeches vitality and water out of the land, and the Anauroch Desert came from heavy use of it. Their mind control matches that of mind flayers and beholders, and each lives alone surrounded by dominated bodyguards, soldiers and hunters, killed and eaten when no longer useful. Their language cannot be understood by humanoids, so they speak through slaves, and rarely need to, except when several cooperate against a strong enemy. They were nearly wiped out by ancient Netherese wizards and survive in a few sealed pockets, hating tomb tappers, which resist their control.',
+        ],
+        ['Sources: ', "Minsc and Boo's Journal of Villainy"],
+      ],
+      habitats: ['Underground', 'Anauroch'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2495,6 +2531,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal'],
+      appearance: [
+        [
+          'A famed mercenary of great strength and battle skill who carries the Sword of Chaos, an enchanted blade that drains life.',
+        ],
+      ],
+      lore: [
+        [
+          "A Deathbringer trained to kill with one seemingly random blow, and a Bhaalspawn who once tried to take his dead father's godhood. Abdel Adrian killed him, and he later got a second life by helping Abdel against Melissan. Victory brought him no joy, so he drank and drugged himself into ruin, until Bhaal found him as an old beggar in Baldur's Gate and made him high priest of his new clergy.",
+        ],
+        ['Sources: ', "Minsc and Boo's Journal of Villainy"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3229,6 +3276,18 @@ export default createPublicationMonsters({
       name: 'Tasloi Sniper',
       alignment: 'chaotic evil',
       languages: ['Goblin', 'Sylvan', 'Tasloi'],
+      appearance: [
+        [
+          'A lanky, small, goblin-like creature with bright green skin under thin coarse black hair, hard to see in foliage apart from the faint glow of golden, cat-like eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'Mostly from southern Faerun jungles, with a group in the Cloakwood. They are clever pack fighters who live in tribes in tree platforms, avoid sun, climb well, and knuckle-walk on the ground. They fear being alone, keep giant rats as livestock and mounts, and can be reasoned with. They ambush by staking out escape routes and luring hurt adventurers into traps.',
+        ],
+        ['Sources: ', "Minsc and Boo's Journal of Villainy"],
+      ],
+      habitats: ['Jungle', 'Forest'],
       stats: {
         size: 'small',
         type: 'humanoid',

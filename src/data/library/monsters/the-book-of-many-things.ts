@@ -11,6 +11,15 @@ export default createPublicationMonsters({
       name: 'Ambitious Assassin',
       alignment: 'neutral evil',
       languages: ['Common', "thieves' cant", 'plus any one language'],
+      appearance: [
+        ['A humanoid who may come across as a silver-tongued schemer or as a cold killer.'],
+      ],
+      lore: [
+        [
+          'The ambitious assassin makes a home in a safe, powerful place, such as a concealed guildhall of thieves or a plush mansion, packed with ingenious defences designed to confuse, sap and kill intruders. It is a villain meant for low-level play and is tougher when met in its lair.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -209,6 +218,13 @@ export default createPublicationMonsters({
       name: 'Aspirant of the Comet',
       alignment: 'any alignment',
       languages: ['Common plus any one language'],
+      appearance: [['A person not yet fully initiated into the Heralds of the Comet.']],
+      lore: [
+        [
+          'Aspirants have yet to be taught the secrets of the Heralds of the Comet, yet they are already held fast by the group, in social and metaphysical terms. If one is killed, the Void drags the poor soul in and consumes body and spirit.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -275,6 +291,17 @@ export default createPublicationMonsters({
       tags: ['human', 'paladin'],
       alignment: 'chaotic good',
       languages: ['Common', 'Druidic'],
+      appearance: [
+        [
+          'A wandering warrior who is as likely to be found up a tree or over an arcane book as with a sword in her hand.',
+        ],
+      ],
+      lore: [
+        [
+          'Asteria now travels alone but still draws a lot of her strength from her link with Euryale. She guards the innocent and works against injustice across the multiverse, believing that people should author their own stories, and tales of her exploits are many. She stays cheerfully curious, and will gladly talk at length about her interests, but she is stubborn and rejects anyone who tries to boss her. She has not aged since Istus pulled her future from the first Deck of Many Things, and guesses her life is bound to the deck, so she fights groups such as the Grim Harrow that wish to destroy it.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -463,6 +490,16 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft.'],
+      appearance: [
+        ['A worm-like horror of burning flesh and poisonous ooze, dangling in a twisted hive.'],
+      ],
+      lore: [
+        [
+          "Aurnozci is a demon lord stuck in Xulregg, an Abyssal layer that is its realm and its cage, with a lair hanging from Gorewood, an enormous tree of tar and fire. It works beyond the Abyss through demon proxies and mortal cultists. How its curse works is the cult's best secret, completely understood only by its masked archmage leader, the Eye of Aurnozci. Followers believe the Caged Worm will shortly shed this body for a stronger one and break out, so they hunt mortal souls for violent sacrifice to hasten the change. Its cultists crumble to hot embers when they die.",
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'gargantuan',
         type: 'fiend',
@@ -638,6 +675,17 @@ export default createPublicationMonsters({
       name: 'Boss Delour',
       alignment: 'lawful evil',
       languages: ['Common', "Thieves' cant (can't speak in rat form)"],
+      appearance: [
+        [
+          'A smooth-talking wererat thief boss who smiles and shakes your hand while planning your downfall.',
+        ],
+      ],
+      lore: [
+        [
+          'Delour is a cunning swindler and expert burglar who co-rules the Moonstalkers with his friend Augustus. Smooth words and a scheming brain are his weapons: he can grin and clasp your hand while arranging your ruin. Broadening the guild past burglary was his idea, and he studies rival syndicates, viewing shakedowns, smuggling and arson as easy pickings and blackmail, abduction and assassination as tougher goals once the guild grows. He fears exposure above all, since a larger guild draws the law and meddling heroes. He never forgets an insult and wants vengeance on the officials who stormed the old guildhall and killed Pyrite, his closest friend, as dear as kin. He will stab nearly anyone in the back but treats Augustus with great respect, and would see any scheme of Augustus to turn human and quit the guild as the worst betrayal.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -924,6 +972,18 @@ export default createPublicationMonsters({
       name: 'Fate Hag',
       alignment: 'neutral',
       languages: ['all'],
+      appearance: [
+        [
+          'A hag carries gleaming shears used to snip the strands of fate. Foes who harm her find silvery threads winding around them, tightening and cutting deeper.',
+        ],
+      ],
+      lore: [
+        [
+          "A servant of destiny found mostly in the Feywild, the Shadowfell or near crossings to them. Her focus follows the plane she lives in, bright and fortunate in the Feywild, grim and ill-fated in the Shadowfell. Her shears sever a foe's fate along with the body. She glimpses destinies when truths are revealed, curses are laid and divinations are given, relishes these glimpses and feels compelled to speak of them.",
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
+      habitats: ['Feywild', 'Shadowfell'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -1092,6 +1152,18 @@ export default createPublicationMonsters({
       name: 'Grim Champion of Pestilence',
       alignment: 'neutral evil',
       languages: ['Common', 'Infernal'],
+      appearance: [
+        [
+          'Aleron rides a skeletal warhorse with flies in its eye sockets, a swarm of insects circling his head like a halo and plagues flowing from his fingers.',
+        ],
+      ],
+      lore: [
+        [
+          'He was a tiefling adventurer who never drew the Skull card but helped an ally who did, was killed by a second avatar of death, and crawled out of Withered Vineyard carrying plague. He resents other undead in the Grim Harrow and considers himself better, unfairly sent to the Gardens of Decay for being selfless. He is the weakest of the three Grim Champions, which also include Jyn Corvis, the oldest, and Wynemar Brack. The three seldom agree, each following their own aims.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
+      habitats: ['Gardens of Decay'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1262,6 +1334,15 @@ export default createPublicationMonsters({
       name: 'Harrow Hawk',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['An undead falcon, raven or other bird of prey stalks old battlefields and graveyards.'],
+      ],
+      lore: [
+        [
+          'A bird that died terribly with its master and rose again, hunting corpses to eat and living things to hunt. It can fly between worlds. The Grim Harrow, undead beings born of the Deck of Many Things, trap and train them as hunting animals. They are sent out from the Gardens of Decay to locate Decks, scout prey and fight alongside their masters.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -1320,6 +1401,14 @@ export default createPublicationMonsters({
       name: 'Harrow Hound',
       alignment: 'chaotic evil',
       languages: ['Blink Dog', "understands Sylvan but can't speak it"],
+      appearance: [['An undead hound made from a slaughtered blink dog.']],
+      lore: [
+        [
+          'When the Grim Harrow reached the Gardens of Delight, blink dogs lived there. The invaders killed them and settled, and after a while the necrotic magic woke the bodies to become the earliest harrow hounds. The Harrow uses them as trackers, especially for Deck sightings. A hound that has caught a scent holds it for good, even when the pack heads home empty-handed. Vampires and death knights may keep packs.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
+      habitats: ['Gardens of Decay'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1874,6 +1963,18 @@ export default createPublicationMonsters({
       tags: ['moonstone'],
       alignment: 'lawful neutral',
       languages: ['all', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          "A peaceful moonstone dragon with a soothing voice and calm manner, who rests in an enormous nest of rocks, leaves and sticks built by the market's vendors.",
+        ],
+      ],
+      lore: [
+        [
+          'Pazrodine oversees Seelie Market and is a constant traveller seeking fey crossings from the Feywild to the Material Plane and back, wanting to see every wonder. Inquisitive fey asked along on her journeys and she came to see the merchants as her children, whose joy shows her the multiverse in fresh ways. She senses theft in the market, goes to the thieves and defuses things peacefully, usually with her Dream Breath, then courteously yet insistently tells them to go, carrying off any who object. Visitors are greeted and cheerfully answered.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
+      habitats: ['Feywild', 'Seelie Market'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -2165,6 +2266,14 @@ export default createPublicationMonsters({
       name: 'Riffler',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Sylvan'],
+      appearance: [['A small, gnome-like fey with an air of fixation on fate.']],
+      lore: [
+        [
+          'Rifflers are curious spirits said to have taken bodies at the first shuffling of the Deck of Many Things, entranced by the whisper of its cards. They roam the Feywild and Material Plane hunting, trading, hoarding and scattering decks and cards for an agenda nobody understands. One may hand a deck to desperate adventurers or snatch cards from an innocent by any means. The Solar Bastion and the Grim Harrow watch for them, since a riffler usually means a deck is near.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -2287,6 +2396,13 @@ export default createPublicationMonsters({
       name: 'Sir Jared',
       alignment: 'neutral good',
       languages: ['Common', 'Halfling'],
+      appearance: [['A wandering knight, formerly a mercenary.']],
+      lore: [
+        [
+          'He credits Hilarion with turning him from fighting for gold to using his skills for good, though he feels unworthy of the Solar Bastion and has grown lonely away from it. He makes a good contact for a party backed by the Solar Bastion.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2345,6 +2461,14 @@ export default createPublicationMonsters({
       name: 'Talon Beast',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A hairless four-legged beast with a vulture-like head and talons.']],
+      lore: [
+        [
+          'It senses magic and eats it, taking in spells and drawing on the energy of magic items, but must also hunt living creatures. It thrives in wilds and, searching for magic, haunts settlements, ruins, catacombs and the Underdark. A link to the Talons constellation and the Talons card of the Deck of Many Things is suspected, with order unclear.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
+      habitats: ['Wilderness', 'Ruins', 'Underdark'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2605,6 +2729,17 @@ export default createPublicationMonsters({
       name: 'Werevulture',
       alignment: 'chaotic evil',
       languages: ["Common (can't speak in vulture form)"],
+      appearance: [
+        [
+          'In humanoid shape it looks ordinary. By the full moon, or when it chooses, painful wings burst from its back, hair falls out, and a wrinkled beaked face emerges.',
+        ],
+      ],
+      lore: [
+        [
+          'Scholars connect the curse to vrocks, whose visit to a world left disease, with survivors becoming the first werevultures at the next full moon. They eat carrion and covet treasure like vrocks. They shadow travellers from the sky and swoop to murder them when a trinket catches their eye.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',

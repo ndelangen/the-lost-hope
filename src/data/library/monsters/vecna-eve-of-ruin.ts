@@ -178,6 +178,14 @@ export default createPublicationMonsters({
       tags: ['warforged'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [['A warforged officer of the Lord of Blades.']],
+      lore: [
+        [
+          "Blade lieutenants command raiding parties for the Lord of Blades and discipline troops who fail them harshly. After Eberron's Last War one warforged, the Lord of Blades, took power in the ruined Mournland. His followers, the blades, built a cult around him that teaches warforged supremacy and holds that everyone on Khorvaire who is not warforged must die.",
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Mournland'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -470,6 +478,18 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A monstrous demon wrapped in a swarm of little spiders that crawl over it and blink in and out of being.',
+        ],
+      ],
+      lore: [
+        [
+          'Lolth is not in Pandesmos and has left her armies to Camlash, a balor general. He prefers campaigns with loyal driders and warped spiders, and followers of Lolth have joined his forces despite the normal enmity between driders and other peoples, all fighting for her.',
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Pandesmos'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -608,6 +628,18 @@ export default createPublicationMonsters({
       name: 'Deadbark Dryad',
       alignment: 'chaotic evil',
       languages: ['Elvish', 'Sylvan'],
+      appearance: [
+        [
+          'A twisted fey monster in a malignant, swampy, nettle-choked bog of noxious muck, to which it is immune.',
+        ],
+      ],
+      lore: [
+        [
+          'A dryad that fails to guard her wild home against a great evil and cannot forgive herself may twist into a deadbark dryad. She loses all kindness toward the living and hates anyone entering her rotten domain. The land sours into stinging nettles and filthy bog, which she is immune to. She is generally tied to the place of her failure, grows stronger and fiercer, and recommits to defending it, usually fighting to the death. They are mostly seen on Krynn, but may appear in any world rich in magic and trees.',
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Swamp', 'Forest'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -2623,6 +2655,18 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A demonic wolf-headed spider-like beast with a pair of muscular arms beneath the wolf head and a bloated body.',
+        ],
+      ],
+      lore: [
+        [
+          'Phisarazus are resentful and suspicious of everyone, which makes them good for herding kakkuus or guarding. They can shape-shift but only into forms with ten limbs, like driders and crabs, using it for ambushes, infiltration or looking harmless on guard. Spyder-fiends combine the worst of wolves and spiders, are usually gore-covered because they love killing, and spin strong webs used cleverly. They follow a hierarchy of might and cunning, with equals plotting against each other and betraying one another for advantage. They serve Miska the Wolf-Spider, becoming more active as he tries to break free in Pandesmos.',
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -2772,6 +2816,18 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          "A demon with a bloated, spider-like body and a mangy wolf's head, usually coated in gore, with frail arms hanging beneath the head that grip tools of sabotage.",
+        ],
+      ],
+      lore: [
+        [
+          'It enjoys savaging prey but loves wrecking buildings and art even more, the lovelier the better. The family as a whole spins tough webs and uses them cleverly, ranks itself by strength and cunning, and betrays peers for advancement. Spyder-fiends serve Miska the Wolf-Spider and have grown more active as he fights to escape Pandesmos.',
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Pandemonium'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -2908,6 +2964,18 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          "A demon with a hard, smooth shell, gleaming spines, powerful arms and a luxuriantly furry wolf's head, with an alluring voice, regal for a spyder-fiend.",
+        ],
+      ],
+      lore: [
+        [
+          'It makes fine web globes, fills them with venom and throws them at enemies. Raklupises plan carefully and often lead whole legions of lesser spyder-fiends. Like the rest of the family it is ranked by might and cunning, backstabs rivals, and serves Miska the Wolf-Spider.',
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Pandemonium'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -3171,6 +3239,14 @@ export default createPublicationMonsters({
       name: 'Relentless Impaler',
       alignment: 'neutral evil',
       languages: ["understands all languages but can't speak"],
+      appearance: [["A hulking fiend, spear in hand, rises from a pool of its victim's blood."]],
+      lore: [
+        [
+          "Made in the Domains of Dread by a ritual in which a ceremonial stake is driven into a living sacrifice's heart. It is bound to whoever wielded that stake and regenerates beside the victim's body as long as the stake stays in the heart, however often it is destroyed. It carries out its creator's aims coldly and ignores its own safety.",
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Domains of Dread'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -3925,6 +4001,18 @@ export default createPublicationMonsters({
       name: 'Star Angler',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A massive gold-coloured anglerfish with shimmering fins and tail, no eyes, and a hide dotted with glowing specks that help it vanish into the Astral Plane.',
+        ],
+      ],
+      lore: [
+        [
+          'An astral hunter distantly related to scavvers. Its lure shines with an enchanting light that has drawn many Wildspace explorers to their deaths.',
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Astral Plane'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -4285,6 +4373,13 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft.'],
+      appearance: [['A skeletal demon on four legs with eyes set all around its ugly head.']],
+      lore: [
+        [
+          "Vlazoks clear up Outer Plane battlefields once the fighting ends, stamping on survivors and flattening pockets of resistance. When they expect enemies they leap from above. Their senses are keen, but they get bored without a strong leader like a demon lord, and unsupervised they wreck weaker demons' ranks.",
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -4389,6 +4484,13 @@ export default createPublicationMonsters({
       name: 'Warforged Warrior',
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [['A soldier built of wood and steel and animated with life and sentience.']],
+      lore: [
+        [
+          'Warforged were made to fight the Last War on Khorvaire in Eberron. With the war over, they are unsure what to do with themselves.',
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -4452,6 +4554,13 @@ export default createPublicationMonsters({
       name: 'Whirling Chandelier',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak"],
+      appearance: [['An animated chandelier that spins in a blazing vortex.']],
+      lore: [
+        [
+          "Whirling chandeliers seem capricious, and victims read mischief or malice into the vortex, though the chandelier understands neither. It makes tactical choices only to carry out its master's orders as well as it can.",
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -4580,6 +4689,17 @@ export default createPublicationMonsters({
       tags: ['bard', 'tiefling'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic', 'Infernal'],
+      appearance: [
+        [
+          "A showwoman with patches of glittering multicolored scales and an enchanted tailcoat gleaming in the Dragon Queen's hues. Her blade channels all five chromatic dragon elements.",
+        ],
+      ],
+      lore: [
+        [
+          'Windfall is a champion of Tiamat, granted great power by her. She is flamboyant and charming, making small talk with regulars and cheerfully greeting new faces in the casino, and uses her coat to dazzle allies and foes alike.',
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

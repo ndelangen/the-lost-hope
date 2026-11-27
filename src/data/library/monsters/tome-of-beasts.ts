@@ -1634,6 +1634,13 @@ export default createPublicationMonsters({
       name: 'Bandit Lord',
       alignment: 'any non-lawful',
       languages: ['any two languages'],
+      appearance: [['A brigand chief who leads a small army rather than a gang.']],
+      lore: [
+        [
+          "The bandit lord draws outlaws together by charisma, cunning and force of arms. Loyal captains keep the rank and file in line, rewarded for success and brutally punished for failure. The captains want money and perhaps fame, but the lord wants an empire, always looking to grow at rivals' cost and keeping fallback plans ready. The lord is merciless when it pays and generous when generosity is free.",
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1831,6 +1838,18 @@ export default createPublicationMonsters({
       name: 'Beggar Ghoul',
       alignment: 'chaotic evil',
       languages: ['Undercommon'],
+      appearance: [
+        [
+          'A skinny grey husk in tatters that scuttles in a low crouch, nibbling a splinter of bone, with eyes like flickering coals and a rasping, foul breath.',
+        ],
+      ],
+      lore: [
+        [
+          "Most of the ghoul empire's population are lesser ghouls and ghasts, and beggar ghouls rank lowest. They are used as fodder in the legions, and the most miserable are barely fit for that. The rest scrape out a living hunting for scraps near the surface or begging in ghoul cities. They are skin stretched over bones. Some have always been this weak, a few are stronger ghouls that withered after being stranded far from flesh, and others were banished with nothing to live on.",
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -7139,6 +7158,15 @@ export default createPublicationMonsters({
       name: 'Ghost Knight',
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A knight rides an undead warhorse, spearing enemies with a lance and trampling them under its hooves.',
+        ],
+      ],
+      lore: [
+        ['She embraced undeath to climb in rank, and with her mount she is a deadly opponent.'],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -7932,6 +7960,18 @@ export default createPublicationMonsters({
       name: 'Hraesvelgr The Corpse Swallower',
       alignment: 'neutral',
       languages: ['Auran', 'Common', "Giant (can't speak in roc form)"],
+      appearance: [
+        [
+          "A powerfully built giant with pale bronze skin, violet eyes, and storm-cloud hair and beard stands in a gale. He shouts, and the shout becomes a bird's shriek as he becomes a huge roc.",
+        ],
+      ],
+      lore: [
+        [
+          'A giant of divine blood who lives at the edge of the world and sends the wind out across the world from the summit where he lives. He does not welcome intruders and gorges on fools who come for the legendary riches. In roc form his eyes stay violet, and his feathers match his hair, sparkling like gems in steel. His lair is a windswept grey crag with a mountainside cottage at the top and a huge nest of splintered tree trunks on its roof.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ["World's edge"],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -8540,6 +8580,17 @@ export default createPublicationMonsters({
       name: 'Kishi Demon',
       alignment: 'chaotic evil',
       languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy'],
+      appearance: [
+        [
+          'A strong, handsome warrior with a snarling hyena face at the rear of its skull, concealed by an elaborate headdress or clan veil.',
+        ],
+      ],
+      lore: [
+        [
+          'These male demons have two faces and are ruled by endless hungers, with a taste for female humanoids. They pose as muscular warriors or smooth storytellers and use magical and mundane persuasion to win women over, but every affair ends in a grisly feast. Victims are often beheaded, scalped or flayed, and the kishi hang the trophies on its shield.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -9123,6 +9174,18 @@ export default createPublicationMonsters({
       name: 'Lake Troll',
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'A lanky troll with overlong arms, webbed clawed hands, dull green scaly skin set with stones, and limp, seaweed-like hair over a long nose. It reeks of rotting fish.',
+        ],
+      ],
+      lore: [
+        [
+          'A water-dwelling cousin of the common troll, stronger and a little smarter but rarer. It lives under lakes, ponds, rivers and sometimes sea coves, and fiercely attacks anyone entering its water, with fishermen on new waters most at risk. It enjoys wrecking wood and metal and likes to target the bearers of impressive weapons to watch them be disarmed. It ambushes from the water, which also shields it from fire. Regeneration stops only if cold and fire strike close together, so one that seems burned dead may leap back up. Scholars know little of it.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Lake', 'River', 'Coast'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -10009,6 +10072,17 @@ export default createPublicationMonsters({
       name: 'Malphas (Storm Crow)',
       alignment: 'neutral evil',
       languages: ['Common', 'Giant', 'Ravenfolk', 'Sylvan'],
+      appearance: [
+        [
+          'A keen-eyed, dangerous winged fey warrior in fine clothes, whose longsword often has an ornate pommel or rich scabbard.',
+        ],
+      ],
+      lore: [
+        [
+          'Among fey they are nicknamed storm crows, since they tend to bring ill tidings. Raised with a sword in hand, malphas are fierce fighters who serve shadow fey aristocrats without wavering. They speak little but sometimes act as envoys and messengers, where the choice of messenger says as much as the message.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -11461,6 +11535,18 @@ export default createPublicationMonsters({
       name: 'Night Scorpion',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A midnight-black scorpion with a bright red stripe on its tail, eight feet in body length with a tail seven feet long ending in a stinger like a dagger.',
+        ],
+      ],
+      lore: [
+        [
+          'The red stripe warns of crippling poison that blinds victims. It can eat whole camels but more often takes goats, sheep and people, hunting at night when its blindvision works best. It is a frequent sight in deep caverns and underworld realms, and weighs up to 200 pounds. Its venom is highly prized by buyers.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Underdark', 'Caves'],
       stats: {
         size: 'large',
         type: 'beast',

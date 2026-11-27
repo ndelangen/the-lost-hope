@@ -2636,6 +2636,18 @@ export default createPublicationMonsters({
       name: 'Platinum Golem',
       languages: ['Understands its creator’s languages but cannot speak'],
       tableNotes: [['Tal’Dorei Campaign Setting Reborn, p. 243.']],
+      appearance: [
+        [
+          'A vaguely humanoid construct plated in precious platinum whose clanking steps announce its approach.',
+        ],
+      ],
+      lore: [
+        [
+          "Golems are crafted to obey without question, are loyal, feel no pain or sympathy, need no food or sleep, and ignore bribes. They arose when magic made the gods' children arrogant and mortals tried to make life of their own, and the first success married divine gifts with craft to make wardens for ancestral halls, a skill soon stolen and spread to protect wealth and secrets. Prestigious mages and paranoid dragons pick platinum golems to guard treasure. Their makers bind in the spirits of unbreakable warriors who died unable to save what they cherished, and that remorse drives them. Temples also make them with divine rituals and devotion to justice.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ["Tal'Dorei"],
       stats: {
         size: 'large',
         type: 'construct',
@@ -2994,6 +3006,17 @@ export default createPublicationMonsters({
           'Encounter context: Use the Remnant Chosen block when a senior member leads the cultists.',
         ],
       ],
+      appearance: [
+        [
+          'A cultist missing one eye, removed in initiation, who senses their god just beyond the veil and may claim to hear him in the silence.',
+        ],
+      ],
+      lore: [
+        [
+          "The Remnants are a cult working toward the godhood of their lich leader, who did ascend, yet was cast out past the Divine Gate. They call him the One and wait patiently for his return. Members mutilate themselves, pledge to the cult's leaders, offer secrets and unwilling souls, keep their knowledge hidden, and encourage evil in themselves and others to ruin worshippers of other gods.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3346,6 +3369,16 @@ export default createPublicationMonsters({
         ['Tal’Dorei Campaign Setting Reborn, p. 258.'],
         ['Encounter context: Use the Vos’skyriss Serpentfolk Ghost for the incorporeal form.'],
       ],
+      appearance: [
+        ['A snake-human hybrid; those held in highest esteem have giant snake bodies with arms.'],
+      ],
+      lore: [
+        [
+          "The Vos'skyriss were a wealthy ancient empire obsessed with snakes. With dark magic most became like the Betrayer God, feeding on those who could not. They sealed their capital in a stasis field, and Professor Jorlund Vohr's expedition woke hundreds. They want to devour nightmares, grow huge, then swallow their god and the multiverse. Their isolated temples sit in jungle, swamp and desert under strict hierarchy, and hoods are forbidden so outsiders are easy to spot.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Jungle', 'Swamp', 'Desert'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3452,6 +3485,14 @@ export default createPublicationMonsters({
         ['Tal’Dorei Campaign Setting Reborn, p. 258.'],
         ['Encounter context: See Vos’skyriss Serpentfolk for the living creature.'],
       ],
+      appearance: [['The restless spirit of an ancient serpentfolk, haunting its ruined empire.']],
+      lore: [
+        [
+          "This is the spectral remnant of the Vos'skyriss, the old serpentfolk empire. The text says the spirits prowl the ruins and that living and undead serpentfolk now work together to revive their empire. The family also seeks to devour all of reality, and is neutral evil.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'large',
         type: 'undead',

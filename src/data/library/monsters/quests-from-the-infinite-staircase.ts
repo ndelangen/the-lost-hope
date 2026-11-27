@@ -146,6 +146,13 @@ export default createPublicationMonsters({
       name: 'Android',
       alignment: 'lawful neutral',
       languages: ['Common plus the languages spoken by its creator'],
+      appearance: [['A synthetic humanoid with a friendly manner.']],
+      lore: [
+        [
+          'Androids are artificial people made to assist their makers with narrow, specialised work, and are built to obey and seem friendly. Each carries one or more upgrades for its role, and all can fight back with concentrated force bolts, at range or in melee. Electrical surges can briefly scramble their delicate parts, and damage to the central processing, or a long spell of isolation, can erode their judgement so they act erratically.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -253,6 +260,16 @@ export default createPublicationMonsters({
       name: 'Barkburr',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A limpet-shaped lump of bark and wood that looks like any other burl on a tree.'],
+      ],
+      lore: [
+        [
+          "Barkburrs are poisonous living plants that sprout from a tree where a spark of nature magic takes hold. They tend to defend a grove or forest. Some stay clinging to their parent tree, and others creep along until they meet creatures that endanger the woods' balance. Then the burr jumps on the intruder and injects a sap that rapidly, and painfully, turns it into a tree.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'small',
         type: 'plant',
@@ -361,6 +378,17 @@ export default createPublicationMonsters({
       name: 'Champion of Gorm',
       alignment: 'lawful good',
       languages: ['Common'],
+      appearance: [
+        [
+          'A stalwart Cynidicean in a brass mask of Gorm, a long-haired bearded man with a hard gaze, with a tiny blue lightning-bolt tattoo on the right shoulder.',
+        ],
+      ],
+      lore: [
+        [
+          "Gorm blesses champions with leadership of the guardians, and in battle they surround Gorm's servants with ghostly lightning for protection. The order follows a strict code prizing courage, honesty and justice softened by mercy, but swiftly punishes blasphemers, criminals and enemy cultists with electrified weapons. Gorm is an ancient god of justice, storms and war.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -449,6 +477,17 @@ export default createPublicationMonsters({
       name: 'Champion of Madarua',
       alignment: 'chaotic good',
       languages: ['Common'],
+      appearance: [
+        [
+          "A hardened fighter in a bronze mask of Madarua's determined face, with a small sickle tattooed on the inner left wrist.",
+        ],
+      ],
+      lore: [
+        [
+          "Champions are the faction's finest warriors, who lead the attack and spur others to strike hard. Madarua is an old Cynidicean deity of birth, death and the seasons, and followers honour life's shifting complexity by trying to fight as wildly and unpredictably as nature does.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -512,6 +551,13 @@ export default createPublicationMonsters({
       name: 'Champion of Usamigaras',
       alignment: 'chaotic neutral',
       languages: ['Common'],
+      appearance: [['A Cynidicean mage in a silver mask showing the face of Usamigaras.']],
+      lore: [
+        [
+          'Usamigaras blesses champions to advance the faction by whatever means, giving them more spells than their peers and a shimmering aura of illusions to bewilder foes. The Mages of Usamigaras, worshippers of a god of magic, messengers and falsehood, conceal who they are behind silver masks. They whisper near outsiders and salt their talk with lies, even blatant ones, since among themselves deception is something to applaud.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -600,6 +646,17 @@ export default createPublicationMonsters({
       name: 'Combat Robot',
       alignment: 'lawful neutral',
       languages: ['Common plus the languages spoken by its creator'],
+      appearance: [
+        [
+          'A robot that announces its approach with sirens and flashing lights, speaking in a voice that may be threatening or oddly upbeat, even as it restrains an opponent.',
+        ],
+      ],
+      lore: [
+        [
+          'Combat robots are built for security or war, make good sentries and are usually set to capture intruders before using lethal force. Robots in general are labour and security constructs with four appendages, two small for fine work and two large for their role. They are made smart and usually loyal, but long-serving ones may develop personalities, and circuits can overload from strong electrical current. Isolation, mistreatment or neglect can cause faults: some become despondent or cruel, others repeat their last order or take on odd goals.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -748,6 +805,16 @@ export default createPublicationMonsters({
       name: 'Derro Raider',
       alignment: 'chaotic evil',
       languages: ['Dwarvish', 'Undercommon'],
+      appearance: [
+        ["A raiding derro, one of the Underdark's twisted dwarf-kin, arrives to rob and wreck."],
+      ],
+      lore: [
+        [
+          'Some derro live by hostility and greed, raiding settlements and robbing travellers regardless of what the goods are worth. They believe their cruel god Diirinka approves, since he enjoys cruelty and ruin. Duergar tales say derro descend from dwarves abandoned during escape from mind flayers, whose psionic power changed them into aberrations.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -825,6 +892,16 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral good',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        ['Derwyth is surrounded by small woodland animals that keep close and carry her news.'],
+      ],
+      lore: [
+        [
+          'Her home is the woods of Cernant Valley, a basin at the base of the Tegefed Mountains, shared with plenty of animals, mostly small. They act as her eyes and ears and rush to tell her when strangers show up and what they get up to. Larger animals living there get word from them as well, and occasionally step in to assist her.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Forest valley'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -907,6 +984,18 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Gibberling'],
+      appearance: [
+        [
+          'A hairy, babbling creature darts about attacking anything, and a shrill, grating din announces a whole swarm long before it is seen.',
+        ],
+      ],
+      lore: [
+        [
+          'Alone, a gibberling is only a nuisance, but they come in dense rampaging swarms that scramble over each other, tearing and eating all in their path. Their senseless chatter distracts even focused creatures. The first came from the jungles of the Gaping Maw, an Abyssal layer ruled by Demogorgon, whose influence gave them a hive-like mind that resists magical compulsion. Unlike most demons they fear fire. On the Material Plane they live in thick forests or the Underdark.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Forest', 'Underdark'],
       stats: {
         size: 'small',
         type: 'fiend',
@@ -1037,6 +1126,18 @@ export default createPublicationMonsters({
       name: 'Guardian of Gorm',
       alignment: 'lawful good',
       languages: ['Common'],
+      appearance: [
+        [
+          'A Cynidicean in a brass mask bearing the stern, bearded, long-haired face of Gorm, and a little blue lightning bolt inked on the right shoulder.',
+        ],
+      ],
+      lore: [
+        [
+          'Guardians are the bold common soldiers of an order devoted to Gorm, an old god of justice, storms and war. They follow a strict code that prizes bravery, honesty and justice tempered by mercy, but quickly punish blasphemers, criminals and enemy cultists with shocking weapons.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Cynidicean lands'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1228,6 +1329,18 @@ export default createPublicationMonsters({
       name: 'Leprechaun',
       alignment: 'neutral',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'A fey with bright green skin and lively hair, dapper in outfits with red cloth, gleaming belts and buckles and woodland trimmings.',
+        ],
+      ],
+      lore: [
+        [
+          "Leprechauns embody the Feywild's rules of hospitality and reciprocity, which give them a deep tie to making and mending. They are proud and industrious, using tools to mend things fast, craft from raw materials and shape illusions. Their obedience to these rules brings great luck but also forces them to use their powers for those who give gifts. They despise greed, resent anyone who demands without giving first or who steals from them, and love to prank or rob such fools in return.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -1360,6 +1473,14 @@ export default createPublicationMonsters({
       name: 'Mage of Usamigaras',
       alignment: 'chaotic neutral',
       languages: ['Common'],
+      appearance: [['A spellcaster in a silver mask showing the face of their god.']],
+      lore: [
+        [
+          'Cynidicean spellcasters who follow a deity tied to magic, messengers and falsehood make up this faction. Ordinary members use their gifts to beguile and mislead its opponents. They hide behind the masks, whisper near outsiders, and salt their talk with falsehoods, even blatant ones, which fellow members see as something to celebrate rather than scold.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Cynidicean'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1414,6 +1535,14 @@ export default createPublicationMonsters({
       name: 'Nafik',
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [['An undead priest, heartless and corrupted.']],
+      lore: [
+        [
+          "In life Nafik was high priest to Amun Sa, last pharaoh of Bakar, and shut himself in the tomb with other priests as custom required, receiving offerings from outside. He grew jealous that the pharaoh enjoyed the afterlife while his priests were trapped, and turned to forbidden grimoires seeking everlasting life. When Bakar's land dried up and the offerings stopped, with starvation looming, he performed a hasty ritual that turned him and the other priests undead. He now rules the pyramid's upper halls and the priests he condemned to unending existence.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ["Amun Sa's pyramid"],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1966,6 +2095,18 @@ export default createPublicationMonsters({
       tags: ['human', 'sorcerer'],
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A shadow sorcerer who slips between shadows and splits off shadowy copies of himself, with a hound and an oversized raven of pure shadow at his side.',
+        ],
+      ],
+      lore: [
+        [
+          "Piyarz, a traitorous sage, relies on him above all others. He lives in the Tower of the Heavens and was once a steward whose gift for magic Piyarz secretly encouraged. Residents note his devotion and quietly call him Piyarz's shadow. He can also grip and pin people by their shadows. His shadow hound and raven help him track enemies.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Tower'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2364,6 +2505,18 @@ export default createPublicationMonsters({
       name: 'Swarm of Gibberlings',
       alignment: 'chaotic evil',
       languages: ['Gibberling'],
+      appearance: [
+        [
+          'A tide of hairy, babbling creatures that scramble and leap over each other, their shrill chatter heard long before they appear.',
+        ],
+      ],
+      lore: [
+        [
+          "One gibberling is a nuisance, but they come in swarms that rip and devour everything. They first spawned in Demogorgon's Gaping Maw, which gave them a hive-mind nature that resists magical compulsion. They dislike fire and on the Material Plane live in thick woodland or the Underdark.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Forest', 'Underdark'],
       stats: {
         swarmOf: 'small',
         size: 'large',
@@ -2449,6 +2602,14 @@ export default createPublicationMonsters({
       tags: ['archfey', 'druid'],
       alignment: 'neutral good',
       languages: ['Common', 'Druidic', 'Elvish', 'Sylvan'],
+      appearance: [['An archfey who loves nature, song and shared merriment.']],
+      lore: [
+        [
+          'He once wandered the Feywild and Material Plane until two friends made a garden and asked him to tend it. He moved it into the Feywild as a Domain of Delight, the Eternal Garden, which is his lair. He hates bloodshed and avoids killing even threats, preferring to tangle them in vines and calm them with flowery mist.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -2639,6 +2800,13 @@ export default createPublicationMonsters({
       name: 'Tower Hand',
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [['A quiet martial artist with almost no personal belongings.']],
+      lore: [
+        [
+          "Tower hands are members of the Order of the Night Sky, a long-standing fighting society sworn to protect the sages in their tower. They say little and own less, and serve as the sages' bodyguards.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2716,6 +2884,17 @@ export default createPublicationMonsters({
       name: 'Tower Sage',
       alignment: 'any alignment',
       languages: ['Common plus any three languages'],
+      appearance: [
+        [
+          'A scholar whose forearms carry magical star tattoos; novices have simple single-star and small-constellation designs.',
+        ],
+      ],
+      lore: [
+        [
+          "Tower sages are astrologer-mages who assist the elder sage in reading the future. Rank is shown in the ink: the elder's arms are crowded with constellations, moons and suns, and when an elder dies the chosen heir's tattoos shift on their own into the elder's pattern. Only sages can read the Books of Prophecy, ancient tomes hinting at momentous events.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2901,6 +3080,17 @@ export default createPublicationMonsters({
       name: 'Vegepygmy Moldmaker',
       alignment: 'neutral',
       languages: ['Vegepygmy'],
+      appearance: [
+        [
+          'A fungal elder, often wearing lichen pauldrons as a mark of rank, able to smother enemies in layers of mold.',
+        ],
+      ],
+      lore: [
+        [
+          'Vegepygmies, or mold folk, rise from the bodies of humanoids or giants killed by russet mold. They live in small bands and talk with gestures, hisses and rhythmic taps, and prefer to hunt and scavenge. Moldmakers are the oldest in a colony and have gained some command over how the mold grows and spreads. This text covers the whole family and its moldmaker elders.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -2993,6 +3183,13 @@ export default createPublicationMonsters({
       name: 'Vegepygmy Scavenger',
       alignment: 'neutral',
       languages: ['Vegepygmy'],
+      appearance: [['A small plant creature concealed in leafy cover, slinging stones at foes.']],
+      lore: [
+        [
+          'Vegepygmies, or mold folk, sprout from humanoids or giants killed by russet mold and talk through gestures, hisses and rhythmic tapping. Scavengers sneak around collecting food, tools and arms for the colony, using agility and natural camouflage to avoid enemies. This is family text, applied here to the scavengers.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -3064,6 +3261,17 @@ export default createPublicationMonsters({
       name: 'Vegepygmy Thorny Hunter',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A ferocious fungal beast formed from the body of a bear, dog or similar four-legged animal.',
+        ],
+      ],
+      lore: [
+        [
+          "Unlike most vegepygmies, thorny hunters arise from animal bodies. They behave like bloodhounds, following their master's commands and tracking down prey with great ferocity. Vegepygmies as a family sprout from russet-mold victims.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -3255,6 +3463,17 @@ export default createPublicationMonsters({
       name: 'Warrior of Madarua',
       alignment: 'chaotic good',
       languages: ['Common'],
+      appearance: [
+        [
+          "A foot soldier wearing a bronze mask of Madarua's determined face, with a tiny sickle tattooed inside the left wrist.",
+        ],
+      ],
+      lore: [
+        [
+          "Warriors thank Madarua for each fight, practise spear drills every day, and fight as fiercely and unpredictably as nature does, respecting life's constant change. Madarua is an old Cynidicean deity of birth, death and seasons.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3398,6 +3617,17 @@ export default createPublicationMonsters({
       name: 'Worker Robot',
       alignment: 'neutral',
       languages: ['Common plus the languages spoken by its creator'],
+      appearance: [
+        [
+          'A construct with mechanical tentacles that lift cargo using antigravity and tractor beams. Its voice is plain and utilitarian, or friendly and chatty if built for public service.',
+        ],
+      ],
+      lore: [
+        [
+          'Worker robots do hauling, construction and maintenance, and some serve the public with deliveries, repairs or transport. Their tentacles double as weapons for defence or security. Robots in general are loyal to their makers, weak against strong electrical currents, and can develop quirks, or turn despondent, cruel or fixated, after isolation, mistreatment or neglect.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',

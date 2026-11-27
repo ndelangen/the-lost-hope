@@ -3489,6 +3489,14 @@ export default createPublicationMonsters({
       page: 207,
       alignment: 'neutral good',
       languages: ['Speaks Birdfolk and Druidic', 'Understands Auran without speaking it'],
+      appearance: [['A nervous sable luma with reddish grey feathers and a stubby beak.']],
+      lore: [
+        [
+          'A Sapling among the Tenders who narrowly escaped an ashsnake attack in which his mentor died. He is a close friend of Havel and is growing fond of him. He will report on events in the Scorched Grove but little more, since the trauma left him frightened. He believes in his order but lacks the courage to match. He avoids combat now though before the Tenders he was a perch guard recruit in training.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Scorched Grove'],
       stats: {
         size: 'small',
         type: 'humanoid',

@@ -12,6 +12,14 @@ export default createPublicationMonsters({
       tags: ['goliath'],
       alignment: 'any alignment',
       languages: ['Common', 'Giant'],
+      appearance: [['A goliath of the Spine of the World.']],
+      lore: [
+        [
+          'The text describes goliath life in general rather than Aruk. Goliaths live in the Spine of the World, a hard land where they test their strength against orcs, ogres, giants of frost, remorhazes, ice trolls, juvenile white dragons, harsh mountains and an indifferent climate.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Spine of the World', 'Mountain'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -93,6 +101,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       habitats: ['arctic'],
+      appearance: [
+        [
+          'An ancient white dragon with clouded, cataract-dimmed eyes, whose lair is on top of the Reghed Glacier.',
+        ],
+      ],
+      lore: [
+        [
+          'Ten-Towners call her the White Wyrm and she is the most feared hunter in Icewind Dale. Age has put cataracts over her eyes, so ordinary sight reaches only a short way, though her blindsight, hearing and smell are as good as ever. She prefers to eat reindeer, walruses and polar bears rather than humanoids, respects humanoids, and has never menaced Ten-Towns, but it might not take much to change that. Long ago she served the wizard Meltharond, whose frozen body is still lashed to the saddle on her back. She will not accept that he died and keeps talking to him, as he was her only confidant.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -274,6 +293,14 @@ export default createPublicationMonsters({
       name: 'Auril (First Form)',
       alignment: 'neutral evil',
       languages: ['all', 'telepathy 1000 ft.'],
+      appearance: [['A lesser goddess of winter, cold and unfeeling in manner.']],
+      lore: [
+        [
+          "Auril the Frostmaiden embodies winter's cruelty. Her ice grips and preserves everything against time, and she hoards beauty, freezing art, flowers and skilled artisans and their work in magical ice for herself. She once allied with Talos, Umberlee and Malar, but Umberlee loathed the way Auril's frost locked the tides, and Umberlee turned the others against her, so Auril withdrew to the farthest cold edge of Toril. After the Sundering she came back and drowned her northern realm in dark. Casting that night after night, and granting spells to her followers, wears her thin, so she is cautious and avoids anything that could hurt her, and worshippers leave her in isolation. Blizzards cut off Icewind Dale and mist hides her island. Play her as supremely cold and mostly silent, letting deeds speak. While she has worshippers she cannot truly die, so mortal demands give her no cause to yield.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale', 'Sea of Moving Ice'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -451,6 +478,14 @@ export default createPublicationMonsters({
       name: 'Auril (Second Form)',
       alignment: 'neutral evil',
       languages: ['all', 'telepathy 1000 ft.'],
+      appearance: [['A lesser goddess of winter, cold and unfeeling in manner.']],
+      lore: [
+        [
+          "Auril the Frostmaiden embodies winter's cruelty. Her ice grips and preserves everything against time, and she hoards beauty, freezing art, flowers and skilled artisans and their work in magical ice for herself. She once allied with Talos, Umberlee and Malar, but Umberlee loathed the way Auril's frost locked the tides, and Umberlee turned the others against her, so Auril withdrew to the farthest cold edge of Toril. After the Sundering she came back and drowned her northern realm in dark. Casting that night after night, and granting spells to her followers, wears her thin, so she is cautious and avoids anything that could hurt her, and worshippers leave her in isolation. Play her as supremely cold and mostly silent, letting deeds speak. While she has worshippers she cannot truly die, so mortal demands give her no cause to yield.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale', 'Sea of Moving Ice'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -677,6 +712,14 @@ export default createPublicationMonsters({
       name: 'Auril (Third Form)',
       alignment: 'neutral evil',
       languages: ['all', 'telepathy 1', '000 ft.'],
+      appearance: [['A lesser goddess of winter, cold and unfeeling in manner.']],
+      lore: [
+        [
+          "Auril the Frostmaiden embodies winter's cruelty. Her ice grips and preserves everything against time, and she hoards beauty, freezing art, flowers and skilled artisans and their work in magical ice for herself. She once allied with Talos, Umberlee and Malar, but Umberlee loathed the way Auril's frost locked the tides, and Umberlee turned the others against her, so Auril withdrew to the farthest cold edge of Toril. After the Sundering she came back and drowned her northern realm in dark. Casting that night after night, and granting spells to her followers, wears her thin, so she is cautious and avoids anything that could hurt her, and worshippers leave her in isolation. Play her as supremely cold and mostly silent, letting deeds speak. While she has worshippers she cannot truly die, so mortal demands give her no cause to yield.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale', 'Sea of Moving Ice'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -842,6 +885,18 @@ export default createPublicationMonsters({
       tags: ['tiefling'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Infernal', 'Orc', 'Yeti'],
+      appearance: [
+        [
+          'A tiefling wizard carrying a spellbook bound in white leather, with vellum pages and her own sigil seared into the cover.',
+        ],
+      ],
+      lore: [
+        [
+          'Avarice is a spiteful, cruel evoker who loves wrecking things and craves magic items without limit. She is supremely sure of herself, never backs away from a fight, and is paranoid about other wizards. She joined the Arcane Brotherhood nearly two years ago and hopes to find fame by looting the lost city of Ythryn. She sold her soul to the archdevil Levistus for her first magic, and he whispers to her while she sleeps and sent her to the Black Sword. His cultists took her in at Caer-Dineval; she does not trust them, but they show her respect. Two loyal gargoyles, Gargle and Gurgle, guard and scout for her, and her familiar is Skelm, a noisy raven, which is a fiend.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Ten-Towns'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1089,6 +1144,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Yeti'],
+      appearance: [['A fearsome tribal chief, accompanied by her pet sabre-toothed tiger Grava.']],
+      lore: [
+        [
+          "Few Reghed tribes have a woman in charge, but Bjornhild is exceptional. She fought at the side of her husband King Korold until a frost giant's pet mammoth killed him, then took command. She serves the Frostmaiden and is so merciless that foes say ice runs in her veins. She knows of no living child but trusts Auril's favour to preserve her legacy. She intends to live for ever by showing complete faith and becoming Auril's Chosen.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1271,6 +1334,18 @@ export default createPublicationMonsters({
       name: 'Chardalyn Berserker',
       alignment: 'chaotic evil',
       languages: ['any one language (usually Common)'],
+      appearance: [
+        [
+          'A Reghed nomad turned fiend who sheds heavy clothing and lets frostbite ravage exposed skin, kept alive only by faith in the Frostmaiden.',
+        ],
+      ],
+      lore: [
+        [
+          'Berserkers are Reghed nomads whose weapons, partly or wholly chardalyn soaked in demonic magic, changed them into fiends. They discard heavy clothing, welcome the cold and let frostbite eat at exposed flesh, surviving only through faith in the Frostmaiden. They favour axes, flails and spears, including thrown ones. Long exposure to the demonic imprint has driven them mad: they think the weapons carry their voice to a demonic overlord or something as dark. Characters who take such a weapon may be corrupted into evil NPCs, a change that only curse-breaking magic can undo, and only early on.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1373,6 +1448,17 @@ export default createPublicationMonsters({
       name: 'Chardalyn Dragon',
       alignment: 'chaotic evil',
       languages: ['the languages known by its creator'],
+      appearance: [
+        [
+          'A dragon assembled from chardalyn pieces, with wing flaps of tough oily film, a glowing heart-orb of radiant energy and a maw like a grille.',
+        ],
+      ],
+      lore: [
+        [
+          'Demonic magic in the chardalyn gives it spite and delight in causing terror, which spreads to nearby creatures so they help it inflict pain. It serves its cruel maker with an untiring devotion stronger than self-preservation, and will wreck itself to serve. It likes ripping foes apart and demolishing doors and walls, and against targets out of reach it shoots a destructive beam of radiance from its mouth.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -2162,6 +2248,17 @@ export default createPublicationMonsters({
       name: 'Demos Magen',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A green-skinned humanoid in armour and carrying weapons stands guard. If wounded, it bleeds something that looks and flows like mercury.',
+        ],
+      ],
+      lore: [
+        [
+          "A magical construct made by a wizard's spell or other arcane means, normally used as a guard. It exists only through magic, and when killed its body vanishes in a burst of harmless flame and a quickly fading cloud of smoke.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -2400,6 +2497,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'any alignment',
       languages: ['Common', 'Druidic'],
+      appearance: [
+        [
+          'A druid of the north patrols in the shape of an arctic fox, mountain goat, snowy owl or wolf, and only returns to human form to attack.',
+        ],
+      ],
+      lore: [
+        [
+          "Solitary defenders of the wild and natural enemies of northern civilisation, they try to keep the arctic wilderness intact by killing outsiders who cross them. They ambush cleverly, using illusory terrain to make snowdrifts to hide under or to cover thinly iced pools. They are often accompanied by animals, shrubs or evergreens they have awakened, favouring polar bears and reindeer, which share the druid's outlook. A druid can spend a full day carving a sickle from ice that holds bitter cold while the druid carries it and melts if the druid dies.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2653,6 +2762,18 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Gnoll'],
+      appearance: [
+        [
+          'A gnoll vampire cackles when it smells prey, then rips flesh with its claws and leaves only bones and bloody belongings. It can appear as a thin giant hyena or as a drifting mist that turns red for a while after feeding.',
+        ],
+      ],
+      lore: [
+        [
+          "Created when a gnoll's hunger outlasts death. It eats any humanoid, gnolls included. Perfume offends its nose and Celestial words hurt its ears, and it casts no reflection unless it chooses. It has no coffin, ignores running water and enters homes uninvited. Tekeli-li, a fang of Yeenoghu, is the example: starving, he was entombed in a glacier by Auril to preserve winter's merciless hunger.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2834,6 +2955,18 @@ export default createPublicationMonsters({
       name: 'Gnome Squidling',
       alignment: 'unaligned',
       languages: ["understands Deep Speech and Gnomish but can't speak", 'telepathy 60 ft.'],
+      appearance: [
+        [
+          'A deformed mind flayer with thin weak limbs and oversized tentacles hovers off the ground, using the tentacles like legs to push itself along.',
+        ],
+      ],
+      lore: [
+        [
+          "What comes out when a gnome's tadpole transformation into an illithid goes badly wrong. Most mind flayers kill squidlings on sight, so they are rare. A squidling eats brains like any illithid and does not care whose.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -3043,6 +3176,18 @@ export default createPublicationMonsters({
       tags: ['goliath', 'shapechanger'],
       alignment: 'neutral good',
       languages: ['Common', "Giant (can't speak in bear form)"],
+      appearance: [
+        [
+          'Oyaminartok the Winter Walker appears as a polar bear or a huge two-legged shape hidden in wind and driven snow.',
+        ],
+      ],
+      lore: [
+        [
+          'A goliath legend that walks the far reaches of Icewind Dale, whose name elders use to stop the young straying. She laughs and lets cowards flee, but tests those who challenge her, and bites the impressive ones, giving them her lycanthropy. Despite the myth, she is benevolent and only curses goliaths with pure hearts. She and her kind help travellers, knowing safe tundra routes and guiding people across shifting ice floes, and they attack evil in the wild while avoiding camps and settlements. Fire is her weakness, so they are wary of hearths.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3226,6 +3371,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'Gunvald is the thirty-year-old Bear King, an imposing man known for being big and strong.',
+        ],
+      ],
+      lore: [
+        [
+          'He aims to be honourable yet is frequently ruthless and slow to change his mind, and he avoids Ten-Towners, though they might win him over by helping destroy the chardalyn berserkers who turned on their own. Three wives have died pregnant in six years and advisors fear a curse. In truth his shaman Ulkora, who desires him, poisoned them hoping to bear his heir. He would execute her if he knew.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3353,6 +3510,17 @@ export default createPublicationMonsters({
       name: 'Hypnos Magen',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak", 'telepathy 30 ft.'],
+      appearance: [
+        [
+          'A green-skinned humanlike being with no weapons, whose blood looks like mercury when it is wounded.',
+        ],
+      ],
+      lore: [
+        [
+          'Telepathic constructs that use suggestion to control others, used by their makers to make enemies retreat or surrender. A magen is made by wizard spell or other arcane means and exists only by magic. Killing one makes its body flare into harmless flame and vanish in thin smoke.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3435,6 +3603,14 @@ export default createPublicationMonsters({
       name: 'Ice Troll',
       alignment: 'chaotic evil',
       languages: ['Giant'],
+      appearance: [['A troll whose heart gives off intense cold, chilling anything near.']],
+      lore: [
+        [
+          'It has the meanness and hunger of an ordinary troll. Its heart stays cold after death, and if the troll cannot regenerate, the heart can be cut out and safely handled. For a day it keeps magical properties. Eaten, it gives temporary regeneration, which acid and fire interrupt. Buried under earth, it melts in about ten minutes and summons a blizzard that lasts hours. A hag can ritually turn it into a talisman acting like brown mold, and an alchemist can squeeze it for a cold-resistance potion.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -3538,6 +3714,18 @@ export default createPublicationMonsters({
       tags: ['kobold'],
       alignment: 'any alignment',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          "Kobolds in heavy winter clothes pass as a clumsy human by standing on each other's shoulders.",
+        ],
+      ],
+      lore: [
+        [
+          "They live anywhere dragons live, and those in Icewind Dale's hills are among the toughest, drawn north to serve white dragons. Their sensitive eyes like sunless days, and they use wooden javelins to test the snow ahead. They often wander into Ten-Towns to trade skills for warm soup and shelter, and the townsfolk mostly tolerate them. When unsafe, they dress up as a human together.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3607,6 +3795,14 @@ export default createPublicationMonsters({
       name: 'Icewind Kobold Zombie',
       alignment: 'neutral evil',
       languages: ["understands Common and Draconic but can't speak"],
+      appearance: [['A kobold zombie, well preserved by the cold.']],
+      lore: [
+        [
+          'The necromancer Vellynne Harpell employs Icewind kobold guides, including two who died and were raised as zombies with animate dead. The cold keeps the flesh from rotting.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'small',
         type: 'undead',
@@ -3658,6 +3854,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [['A hulking, brutal chieftain who is drenched in the blood of his victims.']],
+      lore: [
+        [
+          "Isarr is the strongest chieftain of the leaderless Wolf Tribe and calls himself the Wolf King. He is a psychotic worshipper of Malar who hunts people of Ten-Towns for sport and bathes in their blood. Some of his clan have deserted or died, but those left are fiercely loyal and wrongly believe he is Malar's Chosen. Few others in the tribe back his claim, yet the other chieftains are too weak and disorganised to challenge him.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3748,6 +3952,16 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral',
       languages: ['Common', 'Dwarvish'],
+      appearance: [
+        ['A huge, weathered man of almost fifty, terse in speech, with a face lined by long rule.'],
+      ],
+      lore: [
+        [
+          "As king of the Elk Tribe for more than half his life, Jarund has grown careful, having seen kings rise and fall and led warriors to their deaths. His son, Jarund Twice-Born, died nearly ten years ago hunting a cave bear, and no other child has come from his wife Wynneth or his mistress Froya, so his line is in doubt. Auril's endless winter troubles him, and he leans on his shaman Mjenir, with whom he shares the loss of a son. Mjenir thinks only killing Auril at home will end the spell, but Jarund doubts his warriors can manage it.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3972,6 +4186,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
       habitats: ['urban'],
+      appearance: [['A cultist wearing a sword-shaped chardalyn amulet.']],
+      lore: [
+        [
+          "The Knights of the Black Sword are a secret cult devoted to Levistus, the archdevil imprisoned in ice at Stygia. Most are Icewind Dale natives who were freezing to death when Levistus spoke in their minds, offering a second life for absolute devotion. After they agreed, a pale glow in the snow led each to a sword-shaped chardalyn amulet that warmed them and guided them to safety. Once its wearer reaches Ten-Towns the amulet's radiance fades, but they keep it as a sign of devotion.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4125,6 +4346,14 @@ export default createPublicationMonsters({
       name: 'Kobold Vampire Spawn',
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic'],
+      appearance: [['A ravenous undead kobold that hungers for blood.']],
+      lore: [
+        [
+          'The gnoll vampire Tekeli-li has a handful of these around it in the Caves of Hunger. They fear their master and cannot make sense of its commands, so they keep well away from it. In a fight they swarm a single foe at a time.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Caves of Hunger'],
       stats: {
         size: 'small',
         type: 'undead',
@@ -4223,6 +4452,14 @@ export default createPublicationMonsters({
       name: 'Living Blade of Disaster',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [['A black tear in the planes that hangs in the air shaped like a blade.']],
+      lore: [
+        [
+          'The spell blade of disaster has gained a malicious will, and it hungers for ruin like a demon. Wild magic zones and places ravaged by eldritch force can give rise to spells that turn into living things, haunting where they formed and living on ambient magic.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Wild magic area'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -4305,6 +4542,18 @@ export default createPublicationMonsters({
       name: 'Living Demiplane',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A shadowy rectangle five feet wide and ten feet tall that creeps along flat solid surfaces, groaning softly as it moves.',
+        ],
+      ],
+      lore: [
+        [
+          'The demiplane spell has gained a dim awareness of itself. When it meets a creature slim enough to get through its door it tries to drag it inside and leave it in an extradimensional chamber. Wild magic zones and eldritch-ravaged sites can produce living spells that haunt where they were made and live on ambient magic.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Wild magic area'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -4399,6 +4648,13 @@ export default createPublicationMonsters({
         'swamp',
         'underdark',
         'desert',
+      ],
+      appearance: [['A shaman of the Reghed Elk Tribe, aged fifty.']],
+      lore: [
+        [
+          "As great events unfold, those sensitive to prophecy have started to have dreams and visions, and Mjenir received one about the party's journey to the Reghed Glacier. Druids live in forests and remote wild places protecting nature from monsters and encroaching civilisation, and tribal shamans tend the ill, speak with animal spirits and offer spiritual counsel.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
       ],
       stats: {
         size: 'medium',
@@ -4539,6 +4795,14 @@ export default createPublicationMonsters({
       name: "Nass Lantomir's Ghost",
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic', 'Orc'],
+      appearance: [['The ghost of a young female wizard.']],
+      lore: [
+        [
+          "Nass trained under Zelenn the White, one of the Arcane Brotherhood's archmages, but struggled with divination, and when Zelenn suggested she gain experience elsewhere she felt unwanted before warming to the idea. Overhearing talk of a secret trip to Icewind Dale to find magic left by a vanished empire, she followed it to Bryn Shander and claimed her master had sent her. The group fractured, and she stole a professor orb from Vellynne Harpell, killing two kobold companions who saw with acid arrow spells. She ran toward the Sea of Moving Ice in search of The Codicil of White, a tome written by Auril's servants that the Brotherhood thinks shows the way to a lost city of magic in the ice, but died first. She cannot rest until she finds it.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4700,6 +4964,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Infernal', 'Orc'],
+      appearance: [
+        [
+          'A pompous, self-assured mage sits in a cell that smothers all magic, and he lets everyone nearby know how clever he thinks he is.',
+        ],
+      ],
+      lore: [
+        [
+          "Vaelish Gant, an abjurer of the Arcane Brotherhood, who tried to seize Ten-Towns through a protection racket and a plot against its speaker and was jailed at Revel's End. His plan was his own, not the Brotherhood's, so they have abandoned him and he now knows no rescue is coming. He has no spellbook or components, and in his cell he cannot cast at all, so he is a talker and a bargainer until freed.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Prison'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4782,6 +5058,17 @@ export default createPublicationMonsters({
         'swamp',
         'underdark',
         'desert',
+      ],
+      appearance: [
+        [
+          'In public the shaman wears a carved wooden mask shaped like a bear, elk, tiger or wolf, depending on the tribe.',
+        ],
+      ],
+      lore: [
+        [
+          'A tribal spiritual figure of the Reghed people, who live outside civilisation. The mask changes with the tribe, so the animal on it tells the party which one it belongs to.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
       ],
       stats: {
         size: 'medium',
@@ -5053,6 +5340,15 @@ export default createPublicationMonsters({
       name: 'Sephek Kaltro',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A muscular man in his thirties with olive skin and dark hair tied back, entirely hairless on face and body. He wears a smart vest, trousers and boots in the manner of southern Sword Coast sailors, but no armour or winter clothing, and seems unarmed. His eyes are strikingly blue, like ice on a lake.',
+        ],
+      ],
+      lore: [
+        ['The fluff describes only how he looks, and says nothing about his nature or aims.'],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5182,6 +5478,11 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['forest'],
+      appearance: [['A cross of snowy owl and polar bear that lumbers across the icy tundra.']],
+      lore: [
+        ['Outside of sleep or hibernation, it wanders the tundra looking for food.'],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -5331,6 +5632,11 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       alignment: 'neutral',
       languages: [],
+      appearance: [['A very big, voracious mimic that spits acid.']],
+      lore: [
+        ['A shape-shifting mimic enlarged by Netherese experiments.'],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -5477,6 +5783,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['swamp'],
+      appearance: [
+        [
+          'A single monstrous mass formed from the fused bodies and minds of several mages, held in an empty well with a Draconic inscription around its rim.',
+        ],
+      ],
+      lore: [
+        [
+          "Before Ythryn fell, mages tried to unite their minds and it went wrong. Iriolarthas locked the result in the well so the city's elite could draw on its telepathy. The inscription calls it immortal remains and invites visitors to sit, meditate and learn.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -5561,6 +5878,18 @@ export default createPublicationMonsters({
       name: 'Tomb Tapper',
       alignment: 'lawful neutral',
       languages: ["understands Common and Undercommon but doesn't speak", 'telepathy 60 ft.'],
+      appearance: [
+        [
+          'A hairless, sexless warrior fifteen to twenty-one feet tall, wielding a metal sledgehammer and digging with its claws.',
+        ],
+      ],
+      lore: [
+        [
+          "Netherese arcanists made these thaluud, meaning faceless, from magic and elemental earth, to exterminate Underdark enemies such as phaerimm, illithids, derro, drow and duergar. Each has an inherited memory and hates nonhuman casters. They loot tombs and temples for magic they never use and revere it, search for magic's source in the Underdark, hum to each other, and hesitate to attack earth elementals.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -5715,6 +6044,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish', 'Orc'],
+      appearance: [
+        [
+          'A cold, dispassionate woman in her fifties whose trembling affects her balance and stride, though not her casting.',
+        ],
+      ],
+      lore: [
+        [
+          'Vellynne Harpell, of the Longsaddle Harpells, took up necromancy only about ten years ago and resents that her family name earned her a place in the Arcane Brotherhood. She is in Icewind Dale seeking the lost Netherese city of Ythryn, and wants back her professor orb, Professor Skant, stolen by her rival Nass Lantomir. Her six kobold helpers include two reanimated corpses, and she can drain the living kobolds to heal herself. Her familiar is a snowy owl.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5831,6 +6171,15 @@ export default createPublicationMonsters({
       name: 'Verbeeg Longstrider',
       alignment: 'neutral',
       languages: ['Common', 'Giant'],
+      appearance: [
+        ['A gangly giant with long limbs and a lengthened face, resembling an oversized human.'],
+      ],
+      lore: [
+        [
+          'Longstriders are verbeeg who follow nature gods and help guard the wild. They are even-tempered and have innate spellcasting. Like all verbeeg they make their own armor and weapons and favour throwing spears.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -5934,6 +6283,15 @@ export default createPublicationMonsters({
       name: 'Verbeeg Marauder',
       alignment: 'neutral evil',
       languages: ['Common', 'Giant'],
+      appearance: [
+        ['A lanky, long-faced giant, like an oversized human, with several throwing spears.'],
+      ],
+      lore: [
+        [
+          'Marauders behave as brigands, robbing wilderness travellers and eating them when hungry. They favour bleak places shared with hill giants and ogres, and as they are cleverer than those brutes they often lead such gangs. Predators such as bears, wolves and worgs lair beside them, and they keep livestock for food and trade.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -6031,6 +6389,13 @@ export default createPublicationMonsters({
       name: 'Yeti Tyke',
       alignment: 'chaotic evil',
       languages: ["understands Yeti but can't speak"],
+      appearance: [['A young yeti, small, savage and mean.']],
+      lore: [
+        [
+          'Yeti tykes are as volatile as their parents, only smaller, and bully creatures their size or smaller while being easily cowed by larger ones. A cowed one can be controlled for a while. Raising one to be anything but a savage flesh eater is very hard but possible.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',

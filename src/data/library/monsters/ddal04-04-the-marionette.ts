@@ -11,6 +11,14 @@ export default createPublicationMonsters({
       name: 'Ghost (Isabella)',
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [['The ghost of a nine-year-old girl.']],
+      lore: [
+        [
+          'Isabella was the daughter of Lucian and Glovia Falinescu. She died of a serious illness at nine, nearly ten years ago. Her death crushed her parents. Glovia blamed herself and became obsessed with bringing the girl back, first through healing and anatomy and then through darker arts, which her husband strongly opposed.',
+        ],
+        ['Sources: ', 'DDAL04-04 The Marionette, p. 7'],
+      ],
+      habitats: ['Village'],
       stats: {
         size: 'medium',
         type: 'undead',

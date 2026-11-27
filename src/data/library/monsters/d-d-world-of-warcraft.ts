@@ -12,6 +12,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common (WoW)', 'Darnassian', 'Druidic (WoW)'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A giant sentient tree with iron-hard bark scarred by countless battles, which can pass as an ordinary tree when still.',
+        ],
+      ],
+      lore: [
+        [
+          'Ancients of War defend nature and life. Their lives span millennia and they keep memories as deep as their roots, which also let them feel unrest in the world. They lend strength and shelter to anyone protecting wild places. They roam the forests of Kalimdor with night elf allies and spearhead attacks on those who would desecrate their lands.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -544,6 +555,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish', 'and two others'],
       habitats: ['mountain', 'swamp', 'mountain', 'swamp'],
+      appearance: [['In mortal guise, a person with raven hair and crimson eyes.']],
+      lore: [
+        [
+          'Grown black dragonflight dragons terrorise Azeroth from the sky and shift into humanoid form to steer society from within.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -679,6 +697,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish'],
       habitats: ['mountain', 'swamp', 'mountain', 'swamp'],
+      appearance: [['The text gives no description of its looks.']],
+      lore: [
+        [
+          'These drakes use magic to heat earth and stone, briefly melting rock into magma that they reshape before it cools. They enjoy stalking and bewildering prey.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -764,6 +789,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish'],
       habitats: ['mountain', 'swamp', 'mountain', 'swamp'],
+      appearance: [['The text gives no description of its looks.']],
+      lore: [
+        [
+          'These murderous young dwell close to volcanoes, geysers and thermal pools. They coat prey in magma breath, then pick the meat out of the blobs of scalding lava.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -938,6 +970,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish'],
       habitats: ['arctic'],
+      appearance: [['The text gives no description of its looks.']],
+      lore: [
+        [
+          "The blue dragonflight was nearly ruined by Deathwing and the black flight, and is now rebuilding under Kalecgos, the Steward of Magic. Their icy breath and enormous claws have ended many foolish trespassers in Azeroth's mountains and polar regions. They devote themselves to the arcane, and drakes study conjuring and dispelling magic to keep their secrets from nosy mages.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -1037,6 +1076,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish'],
       habitats: ['arctic'],
+      appearance: [['The text gives no description of its looks.']],
+      lore: [
+        [
+          "The blue dragonflight was nearly ruined by Deathwing and the black flight, and is now rebuilding under Kalecgos, the Steward of Magic. Their icy breath and enormous claws have ended many foolish trespassers in Azeroth's mountains and polar regions. Whelps are strikingly clever for their age: meeting an ice fisher, one may offer to swap knowledge and share the catch instead of attacking.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -1109,6 +1155,13 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish', 'and two others'],
       habitats: ['desert'],
+      appearance: [["A stoic dragon, seen by Azeroth's people as cold."]],
+      lore: [
+        [
+          "Bronze dragons, ruled by Nozdormu, guard Azeroth's timeways and keep past, present and future in balance, able to open time portals. They avoid mortal affairs, which is why they seem unfeeling. Their enemies are the infinite dragonflight under Murozond, an alternate Nozdormu who wants to perfect history by changing key moments. Mature bronzes keep to humanoid lands to watch for time-travellers and meddlers.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -1263,6 +1316,13 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish'],
       habitats: ['desert'],
+      appearance: [['A young bronze dragon whose breath is red-hot sand.']],
+      lore: [
+        [
+          "Bronze dragons guard Azeroth's timeways under Nozdormu and avoid mortal affairs. Villains often try to enslave a young drake to exploit its prophetic magic, and learn their mistake when its scorching sand breath shreds and sears them.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -1354,6 +1414,15 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish'],
       habitats: ['desert'],
+      appearance: [
+        ['A patient whelp that stands motionless in the desert, often taken for a statue.'],
+      ],
+      lore: [
+        [
+          "Bronze dragons guard Azeroth's timeways under Nozdormu and avoid mortal affairs. A whelp waits for hours in open desert until prey walks past, then strikes with jaws or claws.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -1623,6 +1692,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common (WoW)', 'Eredun', 'Orcish'],
       habitats: ['planar', 'twisting nether'],
+      appearance: [
+        [
+          'A winged demon with furry, cloven-hoofed legs and heavy horns dives out of the sky to ram into foes or stamp the ground and shake it.',
+        ],
+      ],
+      lore: [
+        [
+          "A brutal demon, also called an ered'ruin, loyal to its Pit Lord masters and delighted by the ruin of worlds. It strikes by swooping and ramming, or by pounding the earth.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1852,6 +1932,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Eredun', 'Orcish'],
       habitats: ['planar', 'twisting nether'],
+      appearance: [['A hulking demonic soldier of the Burning Legion.']],
+      lore: [
+        [
+          "Felguard are drafted from the demonic mo'arg and form its rank-and-file infantry. They are fearless and loyal without question to Sargeras's will.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1953,6 +2040,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common (WoW)', 'Darnassian', 'Eredun', 'Orcish'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A demonic satyr crackling with fel fire, with curved horns, hooves, a rough coat and savage claws.',
+        ],
+      ],
+      lore: [
+        [
+          'The first satyr was Xavius, a Highborne night elf who served Sargeras in the War of the Ancients. Sargeras destroyed him for failing and remade him as a demon, and the curse spread to his followers. Today satyrs form sects of mixed allegiance, despise night elves more than anyone, and mostly serve the Legion, though a few follow Xavius in worshipping the Old Gods. Felsworn satyrs are devoted agents of the Legion and wield its fire magic to ruin night elf settlements.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -2029,6 +2127,17 @@ export default createPublicationMonsters({
       languages: ['Furbolg'],
       habitats: ['forest'],
       tableNotes: [['Gear: javelin, mace']],
+      appearance: [
+        [
+          'A big bearlike furbolg warrior-leader, larger than its kin and charged with elemental magic.',
+        ],
+      ],
+      lore: [
+        [
+          'Furbolgs form family groups in the north of Kalimdor, in Northrend and on a few islands. They helped night elves and tauren in the War of the Ancients but like to keep to themselves. Their shamans command the elements. A few have fallen to corruption from outside forces, whether the Legion, the Old Gods or the Primalists. Ursas lead the warriors of a tribe.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -2300,6 +2409,13 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish'],
       habitats: ['forest', 'planar', 'emerald dream', 'forest', 'planar', 'emerald dream'],
+      appearance: [['A drake of the green dragonflight, come out of the Emerald Dream.']],
+      lore: [
+        [
+          'These drakes are wise enough to act in Azeroth, often allying with elder dragons, night elf druids and ancient treants to clear out evil cults and demon invaders with nature magic.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -2391,6 +2507,13 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish'],
       habitats: ['forest', 'planar', 'emerald dream', 'forest', 'planar', 'emerald dream'],
+      appearance: [['A young green dragon, raised where possible in the Emerald Dream.']],
+      lore: [
+        [
+          "A green whelp learns to value and spread nature's beauty by watching cycles of birth and death.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -3237,6 +3360,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Nerglish'],
       habitats: ['coastal'],
+      appearance: [["A murloc found alone at the water's edge."]],
+      lore: [
+        [
+          "Foragers search the mud and shallows for food near the margins of waterways. They are the murlocs most likely to be solitary, and often act as the community's early warning, luring attackers to the shore so other murlocs can ambush them.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3306,6 +3436,17 @@ export default createPublicationMonsters({
       languages: ['Darnassian', 'Nazja'],
       habitats: ['coastal', 'underwater', 'coastal', 'underwater'],
       tableNotes: [['Gear: trident']],
+      appearance: [
+        [
+          'A hulking male naga with a snake-like head, humanoid arms and torso and a long snaky tail, wielding a trident with an attached rope.',
+        ],
+      ],
+      lore: [
+        [
+          "The naga were once Highborne night elves following Queen Azshara, who, once the War of the Ancients ended, gave herself and her people to N'Zoth, an Old God, and were reshaped into sea-dwelling servants. Myrmidons are the front-line fighters, and their roped tridents drag enemies into melee range.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -3381,6 +3522,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common (WoW)', 'Nerubian', 'Orcish'],
       habitats: ['any'],
+      appearance: [['An arachnid humanoid whose webbing is toxic.']],
+      lore: [
+        [
+          'Venomancers use their poison as a main weapon, and their webs poison anyone caught in them. They are quick to attack non-nerubians, driven by bitterness over their lost, scattered kingdom.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -3477,6 +3625,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common (WoW)', 'Nerubian', 'Orcish'],
       habitats: ['any'],
+      appearance: [
+        [
+          'A creature with an arachnid lower body that scuttles over ground, walls and ceilings and keeps balance on treacherous terrain, with two arms on a humanoid torso for clawing.',
+        ],
+      ],
+      lore: [
+        [
+          'Warriors often use webbing to encase and immobilise foes. The few nerubians who outlasted the Scourge organised a rebellion called the Azjol-anak to win back Azjol-Nerub. Resentment at losing the kingdom leaves many wary of outsiders, and they attack anyone they meet without warning or restraint.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -3603,6 +3762,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ["Shath'Yar", 'telepathy 120 ft.'],
       habitats: ['any'],
+      appearance: [
+        ['A creature with two pseudopods, one far bigger and better developed than its twin.'],
+      ],
+      lore: [
+        [
+          "The most common n'raqi, faceless ones talk telepathically with nearby creatures, whispering into minds so that weak-minded people treat them as gods and others value them for their otherworldly insight. They attack through minds and with their pseudopods.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -3761,6 +3929,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Eredun', 'telepathy 120 ft.'],
       habitats: ['planar', 'twisting nether'],
+      appearance: [['A hulking demon general of the Burning Legion.']],
+      lore: [
+        [
+          "Pit lords who serve Mannoroth the Destructor are among the cruellest butchers among the Great Dark Beyond's wastes. They are also known as annihilan and they love only killing and spreading sorrow, and stop at nothing to carry out their master's will.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -3885,6 +4060,16 @@ export default createPublicationMonsters({
       name: 'Pustulant Monstrosity',
       alignment: 'neutral evil',
       languages: ["understands Common (WoW) and Giant but can't speak"],
+      appearance: [
+        ['A hulking, shambling zombie whose body is covered in oozing pustules full of toxin.'],
+      ],
+      lore: [
+        [
+          'A powerful sort of zombie found throughout Shadowfang Keep, especially around Lord Godfrey in his chamber.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
+      habitats: ['Shadowfang Keep'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -4322,6 +4507,17 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish'],
       habitats: ['any'],
+      appearance: [
+        [
+          'A red drake sweeps blazing fire in long streams over the ground, and will let mortal heroes ride and fight on its back when need is greatest.',
+        ],
+      ],
+      lore: [
+        [
+          "Part of the noble red dragonflight, ruled by Alexstrasza, which guards life. Drakes heal tainted land by burning away withered plants so new growth rises from the ash. Red dragons are likely allies of both Alliance and Horde heroes, though the Old Gods' whispers have corrupted a few.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -4410,6 +4606,15 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish'],
       habitats: ['any'],
+      appearance: [
+        ['A small red dragon whose fiery breath is far mightier than its size suggests.'],
+      ],
+      lore: [
+        [
+          'A young member of the noble red dragonflight, which protects life. Its sense of justice drives it to take on larger foes, and its pride is not yet softened by age, so it almost never flees.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -4585,6 +4790,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common (WoW)', 'Darnassian', 'Eredun', 'Orcish'],
       habitats: ['forest'],
+      appearance: [
+        [
+          "A satyr with a goat's horns and hooves, a shaggy coat and savage claws, drawing on Void magic.",
+        ],
+      ],
+      lore: [
+        [
+          'Satyrs descend from the night elf Xavius, remade as a demon by Sargeras as punishment and whose curse spread to his followers. They live in sects, hate night elves, and mostly serve the Burning Legion, though a few worship the Old Gods. Shadowstalkers use subtle Void magic to lurk in the dark and strike from hiding. The text covers satyrs in general.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -4980,6 +5196,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Eredun', 'Orcish'],
       habitats: ['planar', 'twisting nether'],
+      appearance: [
+        [
+          'A hulking shadowy figure in blacks, purples and blues, with glowing violet eyes, draped in rotting cloth. Two lanterns hang from its shoulders beneath a hovering crystalline structure.',
+        ],
+      ],
+      lore: [
+        [
+          'A magic-wielding voidwalker of the Twisting Nether. The lanterns are said to link the living and the dead and sometimes draw stray ghosts.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -5043,6 +5270,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Eredun', 'Orcish'],
       habitats: ['planar', 'twisting nether'],
+      appearance: [
+        [
+          'A big shadow-bodied figure in dark purples and blues with glowing violet eyes, often wearing bracers or pauldrons.',
+        ],
+      ],
+      lore: [
+        [
+          'A Void creature of the Twisting Nether. Warlocks value them as servants since they both draw and absorb enemy attacks.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',

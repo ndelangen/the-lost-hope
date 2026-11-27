@@ -11,6 +11,15 @@ export default createPublicationMonsters({
       name: 'Buster the Bear',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        ['A cuddly, round teddy bear in a plaid shirt and ripped jeans, carrying a banjo.'],
+      ],
+      lore: [
+        [
+          "Buster is one of five automatons serving as the tavern's staff, each wearing a name tag and endlessly friendly until the Slaughterfest starts. If one is attacked before then, it giggles and recites homespun sayings until destroyed, and the very next round it springs back to life unharmed and asks what it can do for you.",
+        ],
+        ['Sources: ', 'The Lost Dungeon of Rickedness: Big Rick Energy'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -65,6 +74,14 @@ export default createPublicationMonsters({
       name: 'Layla the Lizard',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [['A tavern automaton in blue overalls, a straw hat and with a guitar.']],
+      lore: [
+        [
+          "She is one of five automatons that wait on the tavern's patrons, name tags and all, friendly and attentive until Slaughterfest begins. If attacked beforehand, one giggles and trots out homespun sayings until destroyed, then pops back to life healed on the next round and asks what it can do for you.",
+        ],
+        ['Sources: ', 'The Lost Dungeon of Rickedness: Big Rick Energy'],
+      ],
+      habitats: ['Tavern'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -121,6 +138,15 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["understands Common but can't speak"],
       habitats: ['forest'],
+      appearance: [
+        ['A twig-blight-like hybrid or a plain pickle, indistinguishable from a real one.'],
+      ],
+      lore: [
+        [
+          'A humanoid wounded by one may suffer the curse of lycanthropickling for three days, extended a day for every long rest spent in pickling brine. Those who resist keep their normal personality and bury their murderous urges. Some accept it and change shape at will, and most that embrace the brine turn evil and predatory on the weak. This is a joke entry.',
+        ],
+        ['Sources: ', 'The Lost Dungeon of Rickedness: Big Rick Energy'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -164,6 +190,18 @@ export default createPublicationMonsters({
       name: 'Piggy Wiggle Butt',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A human-like pig automaton with no trousers and no tail end, who blows on a clay jug as an instrument and dances.',
+        ],
+      ],
+      lore: [
+        [
+          "She is one of five automatons that wait on the tavern's patrons, name tags and all, friendly until Slaughterfest. If attacked before it, one giggles and recites folksy sayings until destroyed, then pops back to life healed on the next round and asks what it can do for you.",
+        ],
+        ['Sources: ', 'The Lost Dungeon of Rickedness: Big Rick Energy'],
+      ],
+      habitats: ['Tavern'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -216,6 +254,11 @@ export default createPublicationMonsters({
       name: 'Thomas T. Toad',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [['A hulking anthropomorphic toad in a tuxedo and spats.']],
+      lore: [
+        ['He sings gruffly of the moon that fell for its own mirror image in a lake.'],
+        ['Sources: ', 'The Lost Dungeon of Rickedness: Big Rick Energy'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',

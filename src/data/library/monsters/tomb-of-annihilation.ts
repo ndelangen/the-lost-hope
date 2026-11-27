@@ -271,6 +271,14 @@ export default createPublicationMonsters({
       page: 240,
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A dead ankylosaurus lurching forward, plodding and dull-witted.']],
+      lore: [
+        [
+          'Appendix D says little beyond that it moves sluggishly and takes in little of what is around it. In Chult it can turn up on the random undead encounter table, alongside girallon and tyrannosaurus zombies, as part of the dead that haunt the jungle.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 240'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -4551,6 +4559,15 @@ export default createPublicationMonsters({
           'Pentagon trial: Detect Magic reveals the illusion. Dispel Magic exposes his true form with a successful DC 16 check. He attacks only in response to an attack or at the hags’ command. He carries their Hag Eye, the key to the cage in area 71, and a black marble that activates the Ebon Pool in area 81.',
         ],
       ],
+      appearance: [
+        ['A gaunt gentleman who sets out a magical feast; in truth a scarecrow under an illusion.'],
+      ],
+      lore: [
+        [
+          "Mister Threadneedle is the Sewn Sisters' manservant, a scarecrow made to look human by magic. Dispel magic reveals his real shape. He understands Common but cannot speak and communicates by gesture. He keeps the coven's hag eye in a pocket, along with a black marble, and a key to a padlock. He attacks only if the party attacks first or the hags tell him to.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 183'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -5057,6 +5074,13 @@ export default createPublicationMonsters({
           'Camp Vengeance: Parties arriving by boat are ordered to ferry messages and seven sick soldiers downriver to Port Nyanzaru. The soldiers have Blue Mist Fever, Shivering Sickness, or Throat Leeches. Parties arriving over land are ordered to lead four Guards and four Tribal Warriors on a two-week undead patrol back the way they came. Refusal brings arrest and trial. A guilty verdict means confiscation of gear and abandonment in the jungle. Undril Silvertusk can intercede for a party that earned her respect. Otherwise, a sound argument and a successful DC 15 Charisma (Persuasion) check with each of Ord Firebeard and Perne Salhana can prevent judgment.',
         ],
       ],
+      appearance: [['A noble commander of a poorly run Order of the Gauntlet camp.']],
+      lore: [
+        [
+          "Niles commands Camp Vengeance and is woefully inept. His lieutenants are likelier to offer information or help, but only if the characters help the camp in return. The Order's members are brave but its expeditions often fail when conditions defy their training.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 30'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5101,6 +5125,14 @@ export default createPublicationMonsters({
         ['Base creature: Bandit Captain'],
         ['Applied templates: Rock Gnome'],
       ],
+      appearance: [['A calm and clever rock gnome captain who commands a ship in Port Nyanzaru.']],
+      lore: [
+        [
+          'Ortimay Swift and Dark captains the Brazen Pegasus, with Grig Ruddell as first mate. She is clever and composed.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 21'],
+      ],
+      habitats: ['Port'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -5179,6 +5211,17 @@ export default createPublicationMonsters({
         [
           'First encounter: Orvex starts with 3 of 27 HP and three levels of exhaustion. Under the 2014 rules, reduce his speed to 15 ft. and give him disadvantage on ability checks, attacks, and saving throws. If rescued and befriended, he can negotiate a truce with surviving Red Wizards and recount Omu’s legend once healed and rested.',
         ],
+      ],
+      appearance: [
+        [
+          'A down-to-earth, thinning-haired man in his forties, pinned under fallen masonry and weak with thirst.',
+        ],
+      ],
+      lore: [
+        [
+          'Orvex is a scribe and translator who works for the Red Wizards because they pay well. After an explosion buried him, he begs to join the party if freed. If they befriend him he can help negotiate a truce with the surviving Red Wizards. He reads Old Omuan, knows the myth of the nine trickster deities and will gladly tell it once rested. He would like to explore the city further and follow the party into the tomb below.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 96'],
       ],
       stats: {
         size: 'medium',
@@ -5968,6 +6011,13 @@ export default createPublicationMonsters({
           'Skeleton gate: In area 71, completing each trial in areas 72 through 76 exposes one corresponding keyhole. Insert the matching skull and turn it clockwise. Once all five tumblers are unlocked, pull the door open to reach the stairs to area 77. Damage and spells cannot open the gate or remove its seals. The Sewn Sisters enter from the Border Ethereal when the party opens all five keyholes with the keys in hand. A hag that takes a key retreats into the Border Ethereal with it.',
         ],
       ],
+      appearance: [['A walking human skeleton whose skull is carved.']],
+      lore: [
+        [
+          'The last gate before the Soulmonger opens only with five of these keys. Each key is a carved skull belonging to a human skeleton that walks the tomb. Characters can capture and command a skeleton or simply snap the skull from its spine.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 126'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -6044,6 +6094,14 @@ export default createPublicationMonsters({
           'Chained pair (area 41): The two guards attack anyone who strikes them or tries to pass. The chain stops them from moving more than 15 ft. apart and spreads damage to either guardian evenly across both. The chain can be attacked. It has AC 18, 5 HP, damage threshold 10, and immunity to poison and psychic damage. If it breaks, both guardians immediately go berserk.',
         ],
       ],
+      appearance: [['A shambling flesh golem clad in plate armour.']],
+      lore: [
+        [
+          'Tomb dwarves stitch dead adventurers together and bolt them into armour, then release them to hunt intruders.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation'],
+      ],
+      habitats: ['Tomb'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -7327,6 +7385,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic good',
       languages: ['Common', 'Dwarvish', 'Elvish'],
+      appearance: [['A bombastic, personable traveller promoting his book.']],
+      lore: [
+        [
+          "Volo has come to Chult to hand out signed copies of Volo's Guide to Monsters and to meet the merchant princes of Port Nyanzaru. He knows plenty, though not all of it is accurate, and will share rumours freely, but he will never join the party. He prefers taverns and festhalls to jungles, and his indulgence and mockery have made him enemies.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -8117,6 +8182,13 @@ export default createPublicationMonsters({
           'Nangnang’s shrine: Four orange Grung Elite Warriors stay with Yorb and his Hadrosaurus in the flooded courtyard. A red Grung Wildling and seven green Grungs hold the roof. If intruders fight back, 1d4 more green grungs arrive at the end of each round, up to twenty. If losing, Yorb and his elite guards retreat into the shrine and bar the doors. Forcing those doors takes a successful DC 25 Strength check. He will talk if the characters rescue his son and can communicate with him.',
         ],
       ],
+      appearance: [['A mad grung chieftain on the rooftops of a ruined city.']],
+      lore: [
+        [
+          "Yorb leads a small grung colony living above Nangnang's shrine, which his people hold sacred. Ras Nsi raids them regularly. Yorb craves vengeance but has not found a worthy plan.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 93'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -8257,6 +8329,13 @@ export default createPublicationMonsters({
         [
           'Oracle pool: Entering the sludge or starting a turn in it deals 5 (1d10) psychic damage. Staring into it for more than a few seconds produces a vision of Dendar swallowing the viewer. At the end of the vision, the viewer makes a DC 15 Wisdom save. Failure deals 5 (1d10) psychic damage and causes a random form of long-term madness.',
         ],
+      ],
+      appearance: [['Yuan-ti priests who stay beside a pool of sludge in a temple chamber.']],
+      lore: [
+        [
+          "A trio of priests, Arakiti, Kultha and Nyss, always keep watch at the oracle pool, who use it to speak with Dendar the Night Serpent. They answer to Fenthaza and have extra spells they can cast freely. Anyone entering the pool's sludge takes psychic damage, and gazing into it brings a vision of being swallowed by a giant snake.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 118'],
       ],
       stats: {
         size: 'medium',
@@ -8863,6 +8942,17 @@ export default createPublicationMonsters({
         [
           "Encounter context: In the wilderness, travelers spot 2d6 zorbos in wukka trees. The zorbos warn off approaching creatures and attack if threatened. Around a campsite, hungry zorbos descend from the trees and attack outright. Four lurk near Obo'laka's shrine in Omu. They investigate the noisy entrance doors and target lone creatures or stragglers.",
         ],
+      ],
+      appearance: [
+        [
+          'A koala-sized, long-clawed omnivore with a sour look, living in trees and caves, its hide taking on the colors of its surroundings.',
+        ],
+      ],
+      lore: [
+        [
+          'A fierce omnivore that likes humanoid meat. Its hide adapts to blend into the terrain, and its sharp claws can weaken and ruin armor, shields and protective magic items.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation'],
       ],
       stats: {
         size: 'small',

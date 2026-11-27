@@ -5210,6 +5210,13 @@ export default createPublicationMonsters({
           'Mythic encounter: For the optional second phase, use Hearts of the Kraken when the kraken drops to 0 HP. Treat the full encounter as two CR 26 creatures and award 180,000 XP if the party defeats Tromokratis after the hearts were exposed.',
         ],
       ],
+      appearance: [['A vast kraken heaving up out of the sea beside a coastal town.']],
+      lore: [
+        [
+          'Unlike most krakens, which wreck ships, Tromokratis is infamous for punishing shore settlements. It has no fixed lair and wanders freely, and nobody knows whether it obeys the god Thassa or simply hunts out of hunger. It brought down the Pyrgnos, the great library of Meletis, and that city has watched for it ever since.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',

@@ -77,6 +77,17 @@ export default createPublicationMonsters({
     animated_chained_library: {
       name: 'Animated Chained Library',
       languages: [],
+      appearance: [
+        [
+          'Three shelves of books in iron covers, each fixed to the shelf with a chain, beside a reading desk that holds the books while they are read.',
+        ],
+      ],
+      lore: [
+        [
+          'The text describes the furniture of a chained library and nothing of its behaviour as a creature, so treat this as a haunted set of ordinary objects.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -146,6 +157,13 @@ export default createPublicationMonsters({
     canopic_golem: {
       name: 'Canopic Golem',
       languages: [],
+      appearance: [["A mindless golem built from a mummy lord's transplanted organs."]],
+      lore: [
+        [
+          'The organs of a mummy lord, normally sealed in sacred jars, can be kept by magic and grafted into living humanoids. The hosts then serve the mummy lord, whether as living worshippers or as mindless golems that let it watch and talk through them.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -305,6 +323,16 @@ export default createPublicationMonsters({
     constructed_commoner: {
       name: 'Constructed Commoner',
       languages: ['Common'],
+      appearance: [
+        ['A villager that looks like flesh and blood, but is really a wooden mannequin.'],
+      ],
+      lore: [
+        [
+          'The Harpers made these to fill the Wisteria Vale demiplane without risking real people. Magic makes them look alive and a shield spell hides their magic from detection. They can talk at length and handle objects, but tell-tales exist: a faint click when touching hard surfaces, cold skin, and a habit of switching to chatter about weather or gossip, always in Common, when asked about anything outside the Vale or their own skills. They do not bleed or feel pain, and when destroyed show up as lifeless mannequins which vanish overnight, with the demiplane producing a replacement.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
+      habitats: ['Wisteria Vale'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -345,6 +373,18 @@ export default createPublicationMonsters({
     corrupted_avatar_of_lurue: {
       name: 'Corrupted Avatar of Lurue',
       languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft.'],
+      appearance: [
+        [
+          "A black-horned unicorn wreathed in dancing necrotic energy, a nightmare version of Lurue's shimmering silver-maned form.",
+        ],
+      ],
+      lore: [
+        [
+          "The real avatar of Lurue is a wonder, with a stardust-silver mane, gleaming hooves and a flawless spiral horn. Once corrupted by Malar, she is wicked, doing the Beast Lord's bidding by killing whatever crosses her.",
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -523,6 +563,15 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral evil',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        [
+          'Faerl, a wood elf, wears showy clothes and a red hat far too big for him. His speech is exact, yet so soft that people have to strain to catch it.',
+        ],
+      ],
+      lore: [
+        ['Proud and cruel, Faerl believes he needs to hold control at all times.'],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -825,6 +874,17 @@ export default createPublicationMonsters({
       name: 'Gingwatzim',
       tags: ['shapechanger'],
       languages: ['telepathy 60 ft.'],
+      appearance: [
+        [
+          'A glowing sphere of ectoplasm about three feet across, bright but not too bright, floats near its creator.',
+        ],
+      ],
+      lore: [
+        [
+          'A strange life form made by a spell or ritual that draws on Ethereal spirit energy. A new one appears as close to its maker as it can and obeys without question, speaking by telepathy. At creation its maker chooses two other shapes for it, an exact copy of a tiny non-magical object the maker carries or wears, and a specific tiny beast.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -898,6 +958,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Sylvan'],
       habitats: ['forest', 'swamp', 'hill'],
+      appearance: [
+        [
+          'Three green hags pose by illusion as elf sisters Morganna, Azirssa and Greensong, usually in the bathhouse by day and their tower at night, each carrying a master key.',
+        ],
+      ],
+      lore: [
+        [
+          "Dread Morgan, Vile Sazha and Auntie Greenbones were rivals in a part of the Feywild beside the High Forest. When the planes thinned, they noticed Sylvarie's magic spring and meant to corrupt it, each knowing part of a ritual for painting cursed magic pictures. They formed a coven to claim her temple as a base.",
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -1098,6 +1169,13 @@ export default createPublicationMonsters({
     kiddywidget: {
       name: 'Kiddywidget',
       languages: ['Skitterwidget'],
+      appearance: [['A tiny construct, the offspring of a skitterwidget.']],
+      lore: [
+        [
+          'A skitterwidget that produces a kiddywidget cannot do so again for several days. Because skitterwidgets are constructs that never age out, a pair could in principle make an unlimited number of them.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -1179,6 +1257,14 @@ export default createPublicationMonsters({
       tags: ['tabaxi'],
       alignment: 'neutral good',
       languages: ['Common', 'Druidic'],
+      appearance: [['A talkative tabaxi, a catlike humanoid, who gestures wildly as she chats.']],
+      lore: [
+        [
+          "K'Tulah reached Candlekeep six days ago and has been allowed to use its library for research into regional folk magic. Her flamboyant gestures annoy the elf Varnyr, though he values her scholarship.",
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
+      habitats: ['Candlekeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1357,6 +1443,18 @@ export default createPublicationMonsters({
     miirym: {
       name: 'Miirym',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A pair of enormous ghostly jaws, seething with the threat of breath weapons and destructive spells.',
+        ],
+      ],
+      lore: [
+        [
+          'More than fifteen centuries ago the silver dragon Miirym burst into Candlekeep after its wealth, devoured scholars and ruined many irreplaceable books, until an archmage bound her to defend it as penance. He died before the sentence was served and nobody could break the binding. Her body is dust, but the enchantment holds her spirit in the catacombs and caves below. She would rather hear news of present-day Faerun than fight, and talks well. She has no hoard and guards books and scrolls. The Keeper of Tomes can summon her, and she can pass through walls anywhere in Candlekeep, but cannot enter extradimensional spaces.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
+      habitats: ['Candlekeep'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -1595,6 +1693,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Draconic', 'Terran'],
       habitats: ['underwater', 'coastal'],
+      appearance: [['A giant tortoise held by magic chains.']],
+      lore: [
+        [
+          'A cruel Netherese wizard once held it captive, and when the city around it was deserted it was left to perish. A group of chwingas came across it and kept it alive with small deliveries of food and water. Over time they built a mutually beneficial bond in which the tortoise protects and houses them and they help it survive.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1700,6 +1805,17 @@ export default createPublicationMonsters({
       name: 'Sapphire Sentinel',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A stone golem carved as a tall, impressive statue, with a hidden stone disk on its chest marked by a blue circle and eight golden rays like a sun.',
+        ],
+      ],
+      lore: [
+        [
+          'It stays peaceful unless attacked. Behind the disk sits a large glowing sapphire, revealed only when the golem is ordered to use its power by someone it obeys. It goes for anyone who tries to take the gem out. The gem is protected until the golem finishes its mission.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -1809,6 +1925,15 @@ export default createPublicationMonsters({
     skitterwidget: {
       name: 'Skitterwidget',
       languages: ['Skitterwidget'],
+      appearance: [
+        [
+          "A metal construct rather like an oversized cockroach with a dog's head. Each differs from the next, and all are surprisingly cute.",
+        ],
+      ],
+      lore: [
+        ['The fluff gives only its appearance and charm.'],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -1925,6 +2050,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [
+        [
+          "A tall, slender, exceptionally handsome man with tidy silver hair and dark green eyes, moving with a dancer's grace, in a white robe with a strip torn from the left sleeve.",
+        ],
+      ],
+      lore: [
+        [
+          'The torn sleeve came from the Candlekeep raid and he has not bothered to repair it. The visible damage is proof he took part in the theft.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
+      habitats: ['Candlekeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2375,6 +2512,13 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'chaotic good',
       languages: ['Common', 'Elvish'],
+      appearance: [['A senior scribe who has served at Candlekeep for centuries.']],
+      lore: [
+        [
+          'Varnyr treasures the books in her care like family. She does not seek advancement among the Avowed and is satisfied with her post. She works hard and has little patience for those who do not.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

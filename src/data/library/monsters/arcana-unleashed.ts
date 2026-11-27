@@ -82,6 +82,13 @@ export default createPublicationMonsters({
       languages: ['Common'],
       habitats: ['hill', 'urban', 'hill', 'urban'],
       tableNotes: [['Gear: sling']],
+      appearance: [['A groundling tearing at flesh with its claws.']],
+      lore: [
+        [
+          'Made as brute troops that love ripping flesh. Without a leader controlling them they slip off in search of mayhem or stop mid-battle to eat their kills.',
+        ],
+        ['Sources: ', 'Arcana Unleashed'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -154,6 +161,13 @@ export default createPublicationMonsters({
       languages: ['Common'],
       habitats: ['hill', 'urban', 'hill', 'urban'],
       tableNotes: [['Gear: dagger']],
+      appearance: [['A groundling killer that holds off eating until a fight ends.']],
+      lore: [
+        [
+          'A groundling that picks up restraint and cunning turns into a capable assassin. Slayers get sent alone on sneaking or killing jobs, or posted to keep disorderly groundlings in line. They normally wait for a battle to finish before they eat what they killed.',
+        ],
+        ['Sources: ', 'Arcana Unleashed'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -244,6 +258,15 @@ export default createPublicationMonsters({
       languages: ['Common'],
       habitats: ['hill', 'urban', 'hill', 'urban'],
       tableNotes: [['Gear: heavy crossbow']],
+      appearance: [
+        ['A groundling with a crossbow lurks at range, roaring with glee when it strikes.'],
+      ],
+      lore: [
+        [
+          'Stalkers like to ambush and kill from afar, though they seldom stay hidden long because they roar in bloodthirsty delight as they attack.',
+        ],
+        ['Sources: ', 'Arcana Unleashed'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',

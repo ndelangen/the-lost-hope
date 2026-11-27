@@ -24852,6 +24852,13 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Understands Abyssal, Elvish, and Undercommon but cannot speak'],
       habitats: ['desert', 'forest', 'underdark'],
+      appearance: [['A spider-like construct of metal, built for hunting and seizing prey.']],
+      lore: [
+        [
+          "Lolth's Underdark followers built retrievers to roam the Abyss and seize demons for slavery or ritual use. They worked so well that they now take on other tasks, typically fetching a creature or object alive and intact for a powerful devotee. The cultists almost never hand one over or sell it, fearing it might be turned against them.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -31417,6 +31424,18 @@ export default createPublicationMonsters({
           'Regional effects: Choose one or both effects around Yeenoghu’s lair.\nSavage Predators. Predatory Beasts within 6 miles of the lair kill far more prey than they need and leave the carcasses to rot.\nSpiky Terrain. Large iron spikes grow from the ground and stone surfaces within 1 mile of the lair. Yeenoghu mounts the bodies of his victims on them.\nIf Yeenoghu dies, these effects fade over 1d10 days.',
         ],
       ],
+      appearance: [
+        [
+          'A gnoll-like giant fourteen feet tall, scarred, with matted fur, leathery hide and a grinning skull of a face, carrying a three-headed flail.',
+        ],
+      ],
+      lore: [
+        [
+          'Yeenoghu, the Beast of Butchery, wants only slaughter and wanton ruin, and he enjoys spreading fear and grief before the kill. Gnolls are his chosen tools, and he can empower their leaders, turning them into flinds. He never parleys: meeting him means fighting, unless he gets bored and wanders off. He and Baphomet are bitter rivals whose followers fight on sight. He summons his flail to his hand at will but may just as readily tear victims apart with his teeth. His Abyssal realm, the Death Dells, is a barren land of hills and ravines where he hunts captives for sport among gnolls, hyenas and ghouls.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -32065,6 +32084,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic'],
       habitats: ['desert', 'forest', 'underdark'],
+      appearance: [['A yuan-ti malison spellcaster, shifty and self-important in manner.']],
+      lore: [
+        [
+          "Mind whisperers are malison yuan-ti casters bound by agreement to the serpent god Sseth. They use magic to win converts, gain power and cloud their enemies' thinking. They are sly, manipulative and erratic, and will betray friends and rivals if it benefits them. Sseth's followers often play go-between for two factions and work hard to keep their conflicting loyalties hidden. A mind whisperer is vain, sneaky and quick to bolt when trouble starts.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',

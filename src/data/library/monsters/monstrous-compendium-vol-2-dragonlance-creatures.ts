@@ -12,6 +12,16 @@ export default createPublicationMonsters({
       tags: ['unicorn'],
       alignment: 'neutral good',
       languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft.'],
+      appearance: [
+        ['A great unicorn wrapped in protective briars, with moonlight dancing around its horn.'],
+      ],
+      lore: [
+        [
+          "Legend makes it older than the forest itself. It is a wise, strong unicorn that governs the animals of Krynn's Darken Wood. Those who threaten its lands are lulled by magical mist and trapped in near-impassable thorn thickets, while those it favours are healed and guarded as they cross the woods.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 2: Dragonlance Creatures'],
+      ],
+      habitats: ['Darken Wood'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -160,6 +170,17 @@ export default createPublicationMonsters({
       name: 'Foresworn',
       alignment: 'lawful good',
       languages: ['the languages it knew in life'],
+      appearance: [
+        [
+          'A spectral knight in ghostly armour with a spirit weapon, a fallen Solamnic who still serves.',
+        ],
+      ],
+      lore: [
+        [
+          'The spirits of dead Solamnic knights who keep their duty after death, retaining their combat skill and calling on magic and fallen comrades. Like revenants, each fixes on one purpose and will not give up undeath until it is done, such as guarding a family line or an artifact against thieves. If destroyed before finishing, it comes back after some days, renewed in strength and purpose.',
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 2: Dragonlance Creatures'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -270,6 +291,14 @@ export default createPublicationMonsters({
       name: 'Irda Seeker',
       alignment: 'any alignment',
       languages: ['Common', 'Giant', 'Sylvan'],
+      appearance: [['A giant-kin with shimmering skin in indigo or sea-green shades.']],
+      lore: [
+        [
+          'Seekers are skilled spies who disguise themselves with innate magic and collect information for their friends. In a fight they briefly cloak themselves while darting about. The Dragon Queen made the irda, and most followed her, but some took up other gods and now live in hidden communities in Krynn, out of her sight. They are distantly related to oni and ogres, and can shape-shift a little and weave illusions.',
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 2: Dragonlance Creatures'],
+      ],
+      habitats: ['Krynn'],
       stats: {
         size: 'medium',
         type: 'giant',
@@ -358,6 +387,14 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'any alignment',
       languages: ['Common', 'Giant', 'Sylvan'],
+      appearance: [['A giant-kin with shimmering skin in indigo or sea-green shades.']],
+      lore: [
+        [
+          'Veil keepers master the irda gift for illusion and protect companions by conjuring mirages that confuse enemies. Rumour says the best can hide a whole enclave from the world for centuries. The irda were made by the Dragon Queen, and those who do not serve her live in concealed settlements across Krynn. Irda are distant kin of oni and ogres, with limited shape-shifting and illusion magic.',
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 2: Dragonlance Creatures'],
+      ],
+      habitats: ['Krynn'],
       stats: {
         size: 'medium',
         type: 'giant',
@@ -599,6 +636,18 @@ export default createPublicationMonsters({
       name: 'Thanoi Hunter',
       alignment: 'any alignment',
       languages: ['Aquan', 'Common'],
+      appearance: [
+        [
+          'A walrus-like being with thick ivory tusks and a harpoon on a long rope it can reel in fast.',
+        ],
+      ],
+      lore: [
+        [
+          'Thanoi live in the frozen wastes of Krynn, using tusks to defend themselves and to break breathing holes in sea ice. They often clash with monsters there and hunt well, working in groups to bring down far larger prey such as remorhazes and white dragons.',
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 2: Dragonlance Creatures'],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'medium',
         type: 'monstrosity',

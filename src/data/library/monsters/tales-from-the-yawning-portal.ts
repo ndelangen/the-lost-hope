@@ -89,6 +89,14 @@ export default createPublicationMonsters({
       name: 'Animated Table',
       alignment: 'unaligned',
       languages: [],
+      appearance: [["A table brought to life by a dwarf mage's magic."]],
+      lore: [
+        [
+          'The dwarf mage Arundil, a century back, enchanted furniture and other objects to keep outsiders, though not dwarves, out of the Foundry, and many still stand guard. They never strike a dwarf or a duergar, and any dwarf can tell one to halt, which leaves it motionless for a short time or until that dwarf walks away. They do not breathe, eat, drink or rest.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['The Foundry'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -829,6 +837,17 @@ export default createPublicationMonsters({
       name: 'Dread Warrior',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'An undead warrior stands before you, silent and obedient, with no need to breathe, eat or sleep.',
+        ],
+      ],
+      lore: [
+        [
+          'A special undead servant of the Red Wizards of Thay, made through a secret ritual and then enchanted so a wizard can treat it like a familiar. The psychic link lets the wizard see through its senses and steer it directly.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1007,6 +1026,18 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'lawful evil',
       languages: ['Dwarvish', 'Undercommon'],
+      appearance: [
+        [
+          'A bald, ash-grey dwarf in drab clothing designed to blend with stone, wearing only plain, severe jewellery.',
+        ],
+      ],
+      lore: [
+        [
+          "The duergar are gray dwarves of the Underdark who once were dwarves captured by mind flayers and later freed with help from the evil god Laduguer, though slavery left them as cruel as their captors. They are dour and distrustful, and make alliances only to break them. They take slaves for labour and as currency. Their minds resist charms and illusions, and a duergar can grow to ogre size or turn invisible to slip away or watch intruders. Their darkvision is sharper than a dwarf's, but sunlight bothers them. Asmodeus sometimes poses as a duergar god to encourage their tyranny.",
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1708,6 +1739,18 @@ export default createPublicationMonsters({
       name: 'Giant Ice Toad',
       alignment: 'neutral',
       languages: ['Ice Toad'],
+      appearance: [
+        [
+          'A giant toad radiates cold, chilling anyone who approaches, and swallowing hurts with both cold and stomach juices.',
+        ],
+      ],
+      lore: [
+        [
+          'A group of ice toads guards a cavern in the glacial rift from Against the Giants, defending their territory fiercely.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['Glacial cave'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1903,6 +1946,18 @@ export default createPublicationMonsters({
       name: 'Giant Skeleton',
       alignment: 'neutral evil',
       languages: ["understands Giant but can't speak"],
+      appearance: [
+        [
+          "A giant's skeleton, animated and offered up as the apparent reward for grabbing valuables in the Tomb of Horrors.",
+        ],
+      ],
+      lore: [
+        [
+          'Dangerous for its size and strength, and for defences that normally belong to far stronger undead. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['Tomb of Horrors'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -2244,6 +2299,14 @@ export default createPublicationMonsters({
       name: 'Greater Zombie',
       alignment: 'neutral evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [['A skeletal figure in a secluded crypt that is actually a tougher zombie.']],
+      lore: [
+        [
+          'In the Tomb of Horrors, many adventurers think disturbing such a figure is the end of the trail. It is a corpse magically made far more resilient than an ordinary zombie. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['Tomb of Horrors'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3490,6 +3553,16 @@ export default createPublicationMonsters({
       name: 'Malformed Kraken',
       alignment: 'chaotic evil',
       languages: ["understands Common but can't speak", 'telepathy 60 ft.'],
+      appearance: [
+        ['A kraken kept in a saltwater pool, smaller and less durable than a true one.'],
+      ],
+      lore: [
+        [
+          'The Doomvault holds several creatures that lack some traits or abilities of their kind, and this is the strongest of those inferior creatures.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['Doomvault'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -3808,6 +3881,14 @@ export default createPublicationMonsters({
       name: 'Nereid',
       alignment: 'any chaotic alignment',
       languages: ['Aquan', 'Common', 'Elvish', 'Sylvan'],
+      appearance: [['A lovely being sitting beside a gently lit pool, singing a pleasant tune.']],
+      lore: [
+        [
+          'A nereid is a water fey able to alter its environment to its needs, and bears an otherworldly beauty whatever its sex. One lures visitors in the Hidden Shrine of Tamoachan.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['Water', 'Hidden Shrine of Tamoachan'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -3966,6 +4047,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Dwarvish', 'Undercommon'],
       habitats: ['underdark'],
+      appearance: [
+        [
+          'A duergar, bald with ashen grey skin, wearing drab clothes meant to blend with stone and simple severe jewellery.',
+        ],
+      ],
+      lore: [
+        [
+          'Duergar are tyrannical gray dwarves in Underdark cities who expand their kingdoms with ancient dwarven knowledge and countless slaves. They were once dwarves whose greed brought them to the mind flayers, who enslaved them for generations until the god Laduguer helped them break free, but slavery darkened them as evil as their captors. They are dour, pessimistic and distrustful, with no memory of joy or pride. They make war on dwarves and other subterranean races, make alliances when convenient and break them when finished, and use slaves as free labour and currency. Their minds are fortresses against charms and illusions.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4862,6 +4954,16 @@ export default createPublicationMonsters({
       name: 'Siren',
       alignment: 'chaotic good',
       languages: ['Common', 'Elvish', 'Sylvan'],
+      appearance: [
+        ['A mysterious fey woman held in a fog-filled room within the Tomb of Horrors.'],
+      ],
+      lore: [
+        [
+          "Acererak's cruel joke: she wants to be freed but an enchantment stops her from telling visitors how. If someone releases her, she promises lifelong friendship.",
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['Tomb'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -5051,6 +5153,18 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'lawful evil',
       languages: ['Dwarvish', 'Undercommon'],
+      appearance: [
+        [
+          'A bald duergar with ashen grey skin, dressed in drab clothes meant to blend with stone and plain jewellery.',
+        ],
+      ],
+      lore: [
+        [
+          "The fluff covers duergar in general, not him specifically. They are former dwarves enslaved by mind flayers, freed with Laduguer's help, and left dour, untrusting and joyless. They take slaves, break alliances once useless, and war on dwarves and other subterranean races. They resist charms and illusions, can grow to ogre size or turn invisible, and are hurt by sunlight. Asmodeus sometimes poses as their gods.",
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5380,6 +5494,15 @@ export default createPublicationMonsters({
       name: 'Tecuziztecatl',
       alignment: 'neutral',
       languages: ['Olman', 'Primordial'],
+      appearance: [
+        ['A giant slug, highly intelligent and boastful, that calls itself the Lord of Snails.'],
+      ],
+      lore: [
+        [
+          'Linked in old lore to the moon, and proud of it. In a fight it announces in Olman what it will do and how hopeless things are for the characters.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -6514,6 +6637,13 @@ export default createPublicationMonsters({
       tags: ['kobold'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [['A kobold, a craven reptilian humanoid.']],
+      lore: [
+        [
+          "Kobolds worship evil dragons as demigods, serve them, and infest dungeons collecting trinkets for small hoards. Fragile, they rely on numbers and traps and tunnels, with low passages that hinder larger folk and traps using hazards and creatures. They also worship the lesser god Kurtulmak, once Tiamat's vassal, trapped under the earth after Garl Glittergold tricked him, and hate gnomes and pranks.",
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

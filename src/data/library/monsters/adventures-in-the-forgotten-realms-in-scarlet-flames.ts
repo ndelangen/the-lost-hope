@@ -11,6 +11,17 @@ export default createPublicationMonsters({
       name: 'Exul',
       alignment: 'neutral evil',
       languages: ['Common', 'Ignan', 'Terran'],
+      appearance: [
+        [
+          "Exul's skin glows like hot coals, his beard looks like sheets of burnt paper and his hair billows like smoke.",
+        ],
+      ],
+      lore: [
+        [
+          "He started out as an earth and fire spirit, and hopes this physical form lasts only a few decades. He serves Tyreus because of a geas, not loyalty, and holds only slight resentment, as bargains with mortal wizards now and then are a minor nuisance. He resents and avoids the geas's pain but will not die for Tyreus's petty ambitions.",
+        ],
+        ['Sources: ', 'Adventures in the Forgotten Realms: In Scarlet Flames'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -110,6 +121,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic', 'Ignan', 'Infernal'],
+      appearance: [
+        [
+          'A young, pale, plain, slender man in red robes with a smooth scalp, hoping to look lean and mean.',
+        ],
+      ],
+      lore: [
+        [
+          "Malivar Kresk, a conjurer from Thay and a Red Wizard, recently became the apprentice of Morwena, another Red Wizard who proved treacherous. He usually dislikes his own looks. Now alone on his mission, he will use or abuse others' trust if it helps him take revenge, make it home alive and tell Thay of Morwena's treachery.",
+        ],
+        ['Sources: ', 'Adventures in the Forgotten Realms: In Scarlet Flames'],
+      ],
+      habitats: ['Thay'],
       stats: {
         size: 'medium',
         type: 'humanoid',

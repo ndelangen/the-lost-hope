@@ -91,6 +91,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'Draconic', 'Infernal', 'Sylvan', 'telepathy 100 ft.'],
+      appearance: [
+        [
+          "A witch who has taken a dead love god's remnant into herself, driven by a longing for lasting beauty and affection.",
+        ],
+      ],
+      lore: [
+        [
+          "Esmae was once a village girl in Barovia, a chandler's daughter, who fell for Strahd and was ignored because his heart belonged to Tatyana. Embittered, she entered his service as one of the Barovian Witches. With four obsessed followers she reached the Amber Temple, released what remained of the dead god Evening Glory, patron of undying love, and fused with it. Her power now lets her stretch Strahd's domain over other lands for a time. She wants four of Tatyana's possessions to complete a ritual that would make her an undying beauty.",
+        ],
+        ['Sources: ', 'DDAL04-14 The Darklord, p. 7'],
+      ],
+      habitats: ['Barovia'],
       stats: {
         size: 'medium',
         type: 'humanoid',

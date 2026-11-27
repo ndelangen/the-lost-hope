@@ -199,6 +199,18 @@ export default createPublicationMonsters({
       name: 'Gerta von Aubrecker',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'Gerta is tall and fierce, taller than her brothers, built on a bespoke plasteel frame with a weather-sealed body.',
+        ],
+      ],
+      lore: [
+        [
+          'The youngest von Aubrecker, she dominates her brothers in size and personality. Her build keeps her safe when she tends to the sleeping empty echoes held in Cryogenics.',
+        ],
+        ['Sources: ', 'Project_Lamordia'],
+      ],
+      habitats: ['Lamordia'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -267,6 +279,18 @@ export default createPublicationMonsters({
       name: 'Hendrik von Aubrecker',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'Hendrik is built on a carbon fibre frame, with an engine in his chest that recharges itself, and a spare third arm that carries sedative syringes.',
+        ],
+      ],
+      lore: [
+        [
+          'He swapped his bones and organs for machinery. Hydraulic pistons make him extremely fast and let him land heavy blows, and he uses sedatives on elusive enemies.',
+        ],
+        ['Sources: ', 'Project_Lamordia'],
+      ],
+      habitats: ['Lamordia'],
       stats: {
         size: 'medium',
         type: 'monstrosity',

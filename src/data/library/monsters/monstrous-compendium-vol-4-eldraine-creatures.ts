@@ -369,6 +369,14 @@ export default createPublicationMonsters({
       name: 'Faerie Borrower',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Sylvan'],
+      appearance: [['A small winged fey of Eldraine, elfin in shape like a sprite or pixie.']],
+      lore: [
+        [
+          "Eldraine's faeries are fickle and without morals, haunting wild places and pestering travellers they consider intruders. Related ouphes know the secrets of trees, mushrooms and moss, and faeries treat them as embarrassing cousins. Ouphes can use pixie or sprite stats.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Eldraine wilds'],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -463,6 +471,14 @@ export default createPublicationMonsters({
       name: 'Faerie Pathlighter',
       alignment: 'chaotic good',
       languages: ['Common', 'Sylvan'],
+      appearance: [['A small winged fey of Eldraine, elfin in shape like a sprite or pixie.']],
+      lore: [
+        [
+          "Eldraine's faeries are fickle and without morals, haunting wild places and pestering travellers they consider intruders. Related ouphes know the secrets of trees, mushrooms and moss, and faeries treat them as embarrassing cousins. Ouphes can use pixie or sprite stats.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Eldraine wilds'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -558,6 +574,14 @@ export default createPublicationMonsters({
       name: 'Faerie Pest',
       alignment: 'chaotic evil',
       languages: ['Common', 'Sylvan'],
+      appearance: [['A small winged fey of Eldraine, elfin in shape like a sprite or pixie.']],
+      lore: [
+        [
+          "Eldraine's faeries are fickle and without morals, haunting wild places and pestering travellers they consider intruders. Related ouphes know the secrets of trees, mushrooms and moss, and faeries treat them as embarrassing cousins. Ouphes can use pixie or sprite stats.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Eldraine wilds'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -728,6 +752,16 @@ export default createPublicationMonsters({
       name: 'High Fae Impostor',
       alignment: 'any alignment',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        ["A deceiver of the high fae, an ageless and inhuman being from Eldraine's wilds."],
+      ],
+      lore: [
+        [
+          "The high fae are the oldest beings in Eldraine, embodying the wilderness's beauty and danger. They do not share mortal ideas of honour or law, yet they keep strict codes: debts of favour get repaid, promises hold, and direct lies are forbidden, though riddles and evasions are fine. They pass the long years in elaborate deceptions and contests of wit. Most remain deep in the wild, take strength from drifting specks of light, and employ natural illusion magic to empower their arms. Talion, the Kindly Lord, rules them. This description covers the whole kind rather than this specific creature.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Eldraine wilds'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -837,6 +871,16 @@ export default createPublicationMonsters({
       name: 'High Fae Kindguard',
       alignment: 'any alignment',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        ["A guard of the high fae, an ageless and inhuman being from Eldraine's wilds."],
+      ],
+      lore: [
+        [
+          "The high fae are the oldest beings in Eldraine, embodying the wilderness's beauty and danger. They do not share mortal ideas of honour or law, yet they keep strict codes: debts of favour get repaid, promises hold, and direct lies are forbidden, though riddles and evasions are fine. They pass the long years in elaborate deceptions and contests of wit. Most remain deep in the wild, take strength from drifting specks of light, and employ natural illusion magic to empower their arms. Talion, the Kindly Lord, rules them. This description covers the whole kind rather than this specific creature.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Eldraine wilds'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -950,6 +994,18 @@ export default createPublicationMonsters({
       name: 'High Fae Noble',
       alignment: 'any alignment',
       languages: ['Common', 'Sylvan', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A high fae noble, who thinks itself the natural superior of all Eldraine, often wearing a dazzling aura of magic.',
+        ],
+      ],
+      lore: [
+        [
+          "The high fae are the oldest beings in Eldraine, embodying the wilderness's beauty and danger. They reject mortal notions of honour and law but obey firm rules: favours are repaid, promises kept, and flat lies avoided. Nobles often hold dominion over a small piece of nature, with dukes and duchesses of each season and archivists tracking every promise made and broken. They use illusions to impress peers, wear dazzling auras, and speak taunts with a magical sting that daze and shame their opponents. Talion, the Kindly Lord, rules the high fae.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Eldraine wilds'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -1107,6 +1163,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [
+        [
+          'A knight in fine armour with a noble steed, addressed as Syr, whose strikes carry radiant or other magical force.',
+        ],
+      ],
+      lore: [
+        [
+          "Eldraine was built on five knightly courts (Ardenvale, Embereth, Garenbrig, Locthwain and Vantress), each formed around a relic that embodies one virtue. After the Phyrexian invasion left the courts devastated, knighthood still ranks among the highest honours. Knights protect townsfolk and adventure in the wilds, mounted on griffons for Ardenvale, giant owls for Vantress or giant ravens for Locthwain, and becoming one means a quest proving that court's virtue. Their devotion powers their attacks, usually radiant, but fire for Embereth or necrotic for Locthwain. Some knights have formed the Verdant Order, renouncing old oaths to guard Eldraine's untouched wilds and patrolling the Boundary Lands against loggers and hunters, using force if needed.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Eldraine'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1211,6 +1279,14 @@ export default createPublicationMonsters({
       tags: ['druid'],
       alignment: 'any alignment',
       languages: ['Common', 'Giant'],
+      appearance: [['An ogre spellcaster that commands rats.']],
+      lore: [
+        [
+          "Ogres who moved into Eldraine's wilds met spellcasting witches, mischievous fey and speaking animals, and over the generations built a magical tradition of their own. A chitterlord controls the rats infesting Dunbarrow and many other places. When ogres raid settlements, it often leads, summoning rats from alleyways and drains to torment the townspeople inside while the ogres besiege the outer walls. If the rodents fail, its strength and druidic magic can still turn a battle.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Eldraine wilds'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -1594,6 +1670,18 @@ export default createPublicationMonsters({
       name: 'Specter of Night',
       alignment: 'neutral evil',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A shrouded rider on a horrific flying beast. The rider is actually a corpse the beast has bound itself to, so the two act as one.',
+        ],
+      ],
+      lore: [
+        [
+          "A dark mirror of Eldraine's archons. The flying horror searches the wilderness for the body of a knight and fuses with it. Humans see specters as heralds of death, and their mournful keening is said to be heard only by those about to die.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Eldraine'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -1983,6 +2071,16 @@ export default createPublicationMonsters({
       name: 'Witchstalker',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        ['A monstrous wolf of twice normal size, with massive jaws and a spine of ridges.'],
+      ],
+      lore: [
+        [
+          "Their supernatural sense of smell draws witchstalkers to magic, making Dunbarrow's forests and moors good hunting, and witches may attract a dozen. By eating spellcasters and magic they gained powers of their own, such as an uncanny howl and teleporting beside unwary prey.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Moor', 'Forest'],
       stats: {
         size: 'large',
         type: 'monstrosity',

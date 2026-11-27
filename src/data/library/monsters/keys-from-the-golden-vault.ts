@@ -716,6 +716,14 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Elvish', 'Ignan'],
+      appearance: [['The text gives no description of looks.']],
+      lore: [
+        [
+          "Charmayne was a powerful caster, jealous of King Jhaeros's passion and warmth, and devised rituals to drain his vitality and charm into herself. The magic only fed her greed. She murdered fellow councillor Regine in her sleep, and when she realised Ghalasine did not love her as it loved the king, she tore out Jhaeros's still-living heart and used it to power a ritual to destroy the city.",
+        ],
+        ['Sources: ', 'Keys from the Golden Vault'],
+      ],
+      habitats: ['Ghalasine'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -841,6 +849,17 @@ export default createPublicationMonsters({
       name: 'Clockwork Defender',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A mechanical four-legged construct vaguely like a hound, with glowing eyes that can cast strong but harmless light beams.',
+        ],
+      ],
+      lore: [
+        [
+          'It guards whatever its maker chooses and never tires, and its maker can program it to spare some types of creature.',
+        ],
+        ['Sources: ', 'Keys from the Golden Vault'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -921,6 +940,17 @@ export default createPublicationMonsters({
       name: 'Clockwork Observer',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A grapefruit-sized mechanical sphere slung beneath quietly whirring propeller blades, with sharp crystal eyes that look many ways at once.',
+        ],
+      ],
+      lore: [
+        [
+          "It works as its maker's flying spy. On noticing trouble it screams an alarm that carries a long way, and it can also tell its maker what it saw by thought if they are within a mile.",
+        ],
+        ['Sources: ', 'Keys from the Golden Vault'],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -1094,6 +1124,15 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ["Common (can't speak in bear form)"],
       habitats: ['forest', 'hill', 'arctic'],
+      appearance: [
+        ['Eliphas is a gentleman and tinkerer, a human who can take the shape of a polar bear.'],
+      ],
+      lore: [
+        [
+          'He was once in service to the Golden Vault, the organisation that preserves relics and keeps powerful items from evil hands. There he designed the magical music boxes its field operatives use to communicate. He is a werebear of good character.',
+        ],
+        ['Sources: ', 'Keys from the Golden Vault'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2107,6 +2146,14 @@ export default createPublicationMonsters({
       tags: ['human', 'warlock'],
       alignment: 'chaotic neutral',
       languages: ['Celestial', 'Common', 'Deep Speech'],
+      appearance: [["A scholar's son with an insatiable curiosity."]],
+      lore: [
+        [
+          "Markos grew up in a family of academics, drained worldly knowledge, and turned to the arcane to unlock the planes' secrets, hoping for a breakthrough to raise his family. This became an obsession, and he shut himself and fellow researchers away in the remote Delphi Mansion. Using astrology-based magic to reach other planes, he was answered by an entity calling itself Krokulmar that offered insight into the multiverse in return for a hand in the Material Plane. He assumed its intentions were harmless.",
+        ],
+        ['Sources: ', 'Keys from the Golden Vault'],
+      ],
+      habitats: ['Delphi Mansion'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2805,6 +2852,17 @@ export default createPublicationMonsters({
       tags: ['gnome'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Gnomish', 'Terran', 'Undercommon'],
+      appearance: [
+        [
+          'A woman largely turned into a machine: steel carapace torso that can vent scalding steam, a humming blade for a left hand, a metal shield for a right hand, and shiny metallic red eyes that see through illusions.',
+        ],
+      ],
+      lore: [
+        [
+          'She ruthlessly destroys anything blocking her goal of becoming a construct, which she will reach within weeks if left alone.',
+        ],
+        ['Sources: ', 'Keys from the Golden Vault'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

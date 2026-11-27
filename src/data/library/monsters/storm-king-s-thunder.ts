@@ -12,6 +12,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Giant'],
       habitats: ['arctic', 'desert', 'coastal', 'grassland', 'hill', 'urban', 'forest'],
+      appearance: [
+        [
+          'A girl about the size of a strong human adult, laughing and playing with large wooden toys.',
+        ],
+      ],
+      lore: [
+        [
+          'Alastrah is one of the twin children of Countess Sansuri, a cloud giant, and she lives in the floating castle Lyn Armaal. She is a neutral Medium giant with a limited vocabulary of Giant. She treats her wooden toys as clubs and swings them hard if disturbed. Her twin brother Kaaltar plays alongside her, and her uncle Count Thullen sometimes minds the pair.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 197"],
+      ],
       stats: {
         size: 'medium',
         type: 'giant',
@@ -52,6 +63,15 @@ export default createPublicationMonsters({
         'underdark',
         'mountain',
       ],
+      appearance: [
+        ['A massive, big-boned fire giant girl with thick orange hair, prone on her bed, crying.'],
+      ],
+      lore: [
+        [
+          'Cinderhild is the eighteen-year-old daughter of Duke Zalto of Ironslag. She is lawful evil, bad-tempered, and furious at being kept inside by her parents when she wants to see the world. She despises her younger brother. She behaves like a spoiled princess, switching moods quickly, and will happily pretend to be a captive if she can use the party to keep her parents busy while she slips away. She hides a long golden pin in her hair that she can use as a weapon.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 182"],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -83,6 +103,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'An immense green dragon that crashes through the woods, usually with a mangled corpse dangling from her jaws.',
+        ],
+      ],
+      lore: [
+        [
+          'Claugiyliamatar, called Old Gnawbone, is an ancient green dragon who rules Kryptgarden Forest and drives other dragons out. She earned her name by gnawing old kills. She rarely meddles with small folk, but spies in the form of woodland animals tell her when travellers arrive and she sometimes confronts them on a whim. If attacked she breathes poison, takes flight and retreats to her hidden lair. If treated politely she sends characters to the Eye of the All-Father in the Valley of Khedrun.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 95"],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -309,6 +340,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant'],
       habitats: ['hill'],
+      appearance: [
+        [
+          'A hill giant in scale mail and a badly fitting helm, gripping a greatclub, standing guard beside another giant.',
+        ],
+      ],
+      lore: [
+        [
+          'Cog and Tug are two hill giants posted outside the throne room doors at Maelstrom. They are extremely stupid. They threaten anyone who approaches without a storm giant escort, challenging them with simple questions. A believable lie, such as claiming Princess Serissa sent the characters, can talk them into opening the doors. If they see through it, they attack.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 209"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -361,6 +403,17 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Common', 'Draconic', 'Druidic', 'Giant'],
       habitats: ['mountain'],
+      appearance: [
+        [
+          'A cloud giant who splits his time between his greenhouse and a tidy bedroom scattered with giant-sized toys.',
+        ],
+      ],
+      lore: [
+        [
+          "Count Thullen is the younger brother of Countess Sansuri and lives in her floating castle Lyn Armaal. He sleeps at odd hours and spends most of his waking time tending plants in the greenhouse. When he is not gardening he sometimes watches Sansuri's twin children, which is why his room holds their toys.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 196"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -488,6 +541,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Auran', 'Common', 'Giant'],
       habitats: ['mountain'],
+      appearance: [['A muscular cloud giant with light skin and silver or blue hair.']],
+      lore: [
+        [
+          'The text describes cloud giants in general. They live in luxury far above the world and see other peoples as entertainment, residing in castles on high peaks or on solid clouds, able to become mist and raise fog, with some commanding weather. Since storm giants are aloof, many cloud giants think themselves the top giant breed, sending lesser giants for wealth and art: fire giants as craftsmen, frost giants as raiders. Their gardens grow enormous fruit. They keep flying hunters such as griffons, perytons and wyverns. Their patron is Memnor the Trickster, and rank comes from beautiful treasure; they are avid high-stakes gamblers.',
+        ],
+        ['Sources: ', "Storm King's Thunder"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -703,6 +763,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Giant'],
       habitats: ['mountain'],
+      appearance: [['A cloud giant steward who escorts guests through the floating castle.']],
+      lore: [
+        [
+          'Cressaro is the castellan of Lyn Armaal and the consort of Countess Sansuri. When visitors arrive without threatening, Sansuri has him show them to her audience chamber, where she greets them formally. He does what his mistress commands.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 188"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -910,6 +977,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Giant', 'Goblin'],
       habitats: ['underdark', 'mountain'],
+      appearance: [
+        [
+          "A fire giant in a dress sewn from the skin and wings of a young black dragon, her orange hair wound around a dragon's horn.",
+        ],
+      ],
+      lore: [
+        [
+          "Brimskarda is the wife of Duke Zalto and rules the kitchens of Ironslag. She nags her husband for not acting faster and fears another giant lord will win the gods' favour first. She fights intruders at once and orders her servants to join in. If captured, she can be used to gain leverage over Zalto, and she speaks for him if the characters negotiate with her.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 184"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -973,6 +1051,15 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Common', 'Giant'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        ['A ghostly cloud giant that rises from his own corpse when the party comes close.'],
+      ],
+      lore: [
+        [
+          "Eigeron travelled with his father Blagothkus to the oracle, seeking guidance. The oracle told Eigeron to step out of his father's shadow, and Blagothkus, consumed by envy, killed him. The ghost is neutral good and helpful. He asks what brings the party there and explains how to contact the oracle. Then he asks them to avenge him by killing Blagothkus. He fights back if attacked but cannot leave the chamber and reforms after a day unless Blagothkus is killed.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 128"],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -1147,6 +1234,17 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Common', 'Draconic'],
       habitats: ['coastal'],
+      appearance: [
+        [
+          'An adult bronze dragon chained in a windowless cell, muzzled and collared, bleeding from many wounds.',
+        ],
+      ],
+      lore: [
+        [
+          'Felgolos is held by Countess Sansuri, who is torturing him for information. His roars can be heard for miles. Freed, he is a friend for life, but he is reckless, clumsy and socially awkward, nicknamed the Flying Misfortune, always getting himself and others into trouble despite meaning well. When he changes shape he likes to be a ruddy halfling or a sunburned young human. He raids Zhentarim caravans for their wagons, which he treasures, to spite their schemes. He declines to go to Maelstrom with the party, preferring not to anger more giants, and retires to a den in the Starmetal Hills.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 192"],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -1438,6 +1536,14 @@ export default createPublicationMonsters({
       name: 'Huge Stone Golem',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [['A fossilised stone giant that suddenly lurches into motion at an order.']],
+      lore: [
+        [
+          'The stone giant shaman Kayalithica can animate one of the fossilised giants in a cave as a stone golem, choosing the one nearest the character she thinks most dangerous. It obeys only her commands and crumbles at once if she dies.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 153"],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -1600,6 +1706,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Bothii', 'Common'],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A fierce woman in a cave at the back of a mountainside lair, with cave bears at her command.',
+        ],
+      ],
+      lore: [
+        [
+          "Hydia leads the Blue Bear tribe in Deadstone Cleft and is the great chief's daughter. She is chaotic evil, speaks Bothii and Common, carries spears and a pouch of gems that she pays to the roper in the next cave each time she passes through. She and her adult cave bears investigate noises outside. If they find intruders, she sets the bears on them and rouses her tribe.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 148"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1817,6 +1934,16 @@ export default createPublicationMonsters({
       name: 'Iymrith',
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Giant', 'Terran'],
+      appearance: [
+        ['A blue dragon disguised as a giant, treated as family by the storm giant sisters.'],
+      ],
+      lore: [
+        [
+          "Iymrith poses as a surrogate mother to King Hekaton's three daughters. She tries to stop the storm giants allying with small folk by telling Serissa the party cannot be trusted, and slips by implying she knows Hekaton was abducted. If accused, she feigns outrage and calls it a ploy to sow discord. Dispel magic does not expose her, but an antimagic field does. If her plans fail, she plots her exit.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 209"],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -2023,6 +2150,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Giant'],
       habitats: ['arctic', 'desert', 'coastal', 'grassland', 'hill', 'urban', 'forest'],
+      appearance: [
+        ['A boy about the size of a strong human adult, playing with giant-sized toys.'],
+      ],
+      lore: [
+        [
+          'Kaaltar is one of the twin children of Countess Sansuri in Lyn Armaal. He is a neutral Medium giant with a limited command of Giant, and he swings wooden toys as clubs. His twin sister is Alastrah and his uncle Thullen sometimes minds them.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 197"],
+      ],
       stats: {
         size: 'medium',
         type: 'giant',
@@ -2054,6 +2190,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['any two languages'],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A Zhentarim spy lurking in the wreckage of a ruined bedroom, with a flying snake coiled round her arm.',
+        ],
+      ],
+      lore: [
+        [
+          'Kella infiltrated Nightstone disguised as a travelling monk. She wants the abandoned village as a Black Network base, having first meant to drive out the traders and bully the local lady. A flying snake sent by Xolkin Alassandar brought her a note saying that help is on the way. She claims the snake is her pet.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 25"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2137,6 +2284,15 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Dwarvish', 'Elvish'],
       habitats: ['urban'],
+      appearance: [
+        ['A noble in an ornate riverboat, carrying a rapier with an octopus-shaped jeweled hilt.'],
+      ],
+      lore: [
+        [
+          "Lord Drylund of Yartar owns the riverboat Grand Dame. He is bound by telepathy to the kraken Slarkrethel, which can kill him instantly with a psychic strike while they share a plane. The boat's crew are bandits.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 216"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2176,6 +2332,16 @@ export default createPublicationMonsters({
       name: 'Maegera the Dawn Titan',
       alignment: 'chaotic neutral',
       languages: ['Ignan'],
+      appearance: [
+        ['A fifty-foot, multi-limbed beast of flame with smouldering black pits for eyes.'],
+      ],
+      lore: [
+        [
+          'Maegera is a powerful elemental imprisoned for thousands of years in the Gauntlgrym forges. Around five decades back it got loose for a short time and caused Mount Hotenow to erupt, sending lava to the coast and wrecking Neverwinter, which is still being rebuilt. Duke Zalto, a fire giant, lately had drow slip into Gauntlgrym and seal it in an iron flask, since he wants the primordial to start an adamantine forge beneath the Ice Spires. Taking it back to Gauntlgrym would foil his plan.',
+        ],
+        ['Sources: ', "Storm King's Thunder"],
+      ],
+      habitats: ['Gauntlgrym'],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -2329,6 +2495,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Giant'],
       habitats: ['coastal', 'underwater'],
+      appearance: [
+        [
+          'A spoiled storm giantess who sings in a throne-room entertainment, in a headdress made from a conch shell trimmed with gold.',
+        ],
+      ],
+      lore: [
+        [
+          "Mirran is King Hekaton's eldest daughter, a spoiled brat as forceful and unpredictable as a typhoon. She is angry that her younger sister Serissa is next in line to the Wyrmskull Throne and is sure fate has marked her as ruler. If she gets the throne she expects all giants to kneel and plans to bring back the old empire of Ostoria and sweep away the small folk. Her sister Nym backs her but plans to replace her later. Iymrith manipulates both. Mirran avoids melee and retreats to her quarters if things go badly.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 9"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2451,6 +2628,14 @@ export default createPublicationMonsters({
         ['Base creature: Commoner'],
         ['Applied templates: Shield Dwarf'],
       ],
+      appearance: [['A shield dwarf innkeeper, a natural leader and an optimist.']],
+      lore: [
+        [
+          'Morak owns the Nightstone Inn and loves adventurers, always on the lookout for profitable adventuring jobs. When cloud giants bombarded the village, he led the survivors to the Dripping Caves, leaving behind a guest, the Zhentarim spy Kella. He speaks for the trapped villagers and expects Lady Nandar to rescue them. On seeing the party, he assumes she hired them.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 31"],
+      ],
+      habitats: ['Village'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2493,6 +2678,13 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Common', 'Giant'],
       habitats: ['coastal', 'underwater'],
+      appearance: [['A storm giant guarding King Hekaton.']],
+      lore: [
+        [
+          'Nimir is one of four storm giant bodyguards, with Orlekto, Shaldoor and Vaasha, who accompany Hekaton when he sets out to confront Iymrith. The party is invited to come along.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 225"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2601,6 +2793,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Bothii', 'Common'],
       habitats: ['coastal', 'mountain', 'hill', 'arctic', 'forest', 'desert'],
+      appearance: [
+        [
+          'A battered Uthgardt woman lying unconscious but stable in a vault, without her greataxe.',
+        ],
+      ],
+      lore: [
+        [
+          'Noori is a chaotic evil berserker of the Great Worm tribe. When woken she is startled and confused, and, like most Uthgardt, distrustful of magic and bitter toward anyone who casts spells. If she learns the party killed Wormblod she attacks to the death. Otherwise she stays with them until she can escape the complex and return to Great Worm Cavern.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 127"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2642,6 +2845,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Giant'],
       habitats: ['coastal', 'underwater'],
+      appearance: [
+        [
+          "A storm giantess who taps a giant crab's shell with whalebone mallets while her sister sings, wearing a gilded coral coronet.",
+        ],
+      ],
+      lore: [
+        [
+          "Nym is King Hekaton's middle daughter, cold and calculating, who has always felt neglected. She hopes her sister will grab the throne, intending to replace her once her sister fails. Iymrith convinced her the gods will reward her for restoring Ostoria. She worries about the end of the ordning but plays along. She avoids melee and retreats to her pet killer whale if cornered.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 9"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2831,6 +3045,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant'],
       habitats: ['coastal', 'underwater'],
+      appearance: [['A storm giant guarding King Hekaton.']],
+      lore: [
+        [
+          'Orlekto is one of four storm giant bodyguards, with Nimir, Shaldoor and Vaasha, who go with King Hekaton to face Iymrith. The party is invited to join them.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 225"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2949,6 +3170,15 @@ export default createPublicationMonsters({
         'mountain',
         'underdark',
       ],
+      appearance: [
+        ['A grubby nine-year-old boy, black with soot, his tangled hair full of twigs and fleas.'],
+      ],
+      lore: [
+        [
+          'Orok lives in a ruin and carries an old rusty knife and a sling he made himself. He has the sense to leave armed adventurers alone but will strike back at anyone who provokes him. He is chaotic neutral.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 115"],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3005,6 +3235,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish'],
       habitats: ['urban'],
+      appearance: [["A woman mage who prowls a riverboat's gambling hall, with a robe of snakes."]],
+      lore: [
+        [
+          "Pow Ming is banker and security chief for Lord Drylund. She hoards golden goose chips and the takings in a bag of holding. She knows nothing of her employer's link to the Kraken Society. She is not evil but is no saint and wants to join the Arcane Brotherhood, using Drylund to meet rich and influential people. If the characters kill Drylund but spare her and the boat, she takes over.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 216"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3144,6 +3381,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Common', 'Giant'],
       habitats: ['coastal', 'underwater'],
+      appearance: [['A storm giant guarding King Hekaton.']],
+      lore: [
+        [
+          'Shaldoor is one of four storm giant bodyguards, along with Nimir, Orlekto and Vaasha, who go with King Hekaton to face Iymrith. The party is invited to join them.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 225"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3256,6 +3500,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Terran'],
       habitats: ['urban'],
+      appearance: [['A woman riding a bulette that bursts out of the ground.']],
+      lore: [
+        [
+          "Sharda is a neutral evil Illuskan human who belongs to the Black Earth cult and works with Tau. Her bulette erupts two rounds after Tau's. She wears a stone breastplate and wields a stone club. The cult wants the One Stone for Ogremoch and leaves no witnesses.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 103"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3385,6 +3636,18 @@ export default createPublicationMonsters({
         "and Primordial but can't speak",
         'telepathy 120 ft',
       ],
+      appearance: [
+        [
+          'The sea darkens before it comes, ink-like poison clouds the water, and tentacles lift from the deep to snap masts and drag ships down.',
+        ],
+      ],
+      lore: [
+        [
+          "A kraken, a leviathan that served the gods as a warrior at the dawn of time and later threw off all service. It sleeps for ages in a sunken rift or cavern full of treasure and wrecks, and can raise or calm storms. It can breathe on land and underwater equally well and some move up rivers to nest in lakes. Some are worshipped, some work with Olhydra's cultists, and a pleased one may calm seas and fill nets. Its ancient mind is aimed at ruin.",
+        ],
+        ['Sources: ', "Storm King's Thunder"],
+      ],
+      habitats: ['Deep ocean'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -3667,6 +3930,14 @@ export default createPublicationMonsters({
       name: 'Stone Giant Statue',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A stone giant statue that wakes to stop a rolling sphere.']],
+      lore: [
+        [
+          'When the sphere reaches the end of a hallway, the statue animates and catches it. It then moves north each round, pushing the sphere ahead, slowly enough that creatures can step aside. At the end it shoves the sphere back toward the wall.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 126"],
+      ],
+      habitats: ['Dungeon'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -3720,6 +3991,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Giant'],
       habitats: ['underdark', 'mountain'],
+      appearance: [['A fire giant duchess in a necklace of gilded dragon teeth.']],
+      lore: [
+        [
+          'Tartha is a lawful evil fire giant duchess visiting Maelstrom to learn how Princess Serissa plans to deal with the end of the ordning and gauge her power. A conch of teleportation sits in a chained iron box at her belt. She waits for an audience with the regent.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 207"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3775,6 +4053,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Terran'],
       habitats: ['urban'],
+      appearance: [['A man riding a bulette that erupts from the ground.']],
+      lore: [
+        [
+          "Tau is a neutral evil Shou human who serves the Black Earth cult. He knows the One Stone's properties and wants it for Ogremoch, Prince of Elemental Earth. He wants no witnesses and attacks on sight, with Sharda joining two rounds later. He wears a stone breastplate and carries a stone club.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 103"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3917,6 +4202,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant'],
       habitats: ['hill'],
+      appearance: [['A hill giant in scale mail and an ill-fitting helm.']],
+      lore: [
+        [
+          'Tug and Cog guard the throne room at Maelstrom. They are exceedingly dim. If the party comes without a storm giant escort, they raise their greatclubs and say they guard the throne room. A plausible lie can get past them, but if the lie fails they attack.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 209"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3970,6 +4262,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Bothii', 'Common', 'Elvish'],
       habitats: ['coastal', 'mountain', 'hill', 'arctic', 'forest', 'desert'],
+      appearance: [['An Uthgardt barbarian leading a patrol with an oathbow.']],
+      lore: [
+        [
+          "The leader of this patrol is one of Chief Boorvald Orcbane's adult children. Chaotic neutral, this warrior speaks Bothii, Common and Elvish and carries an oathbow.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 86"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4028,6 +4327,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'any alignment',
       languages: ['Bothii', 'Common'],
+      appearance: [
+        [
+          'A tribal spirit-walker clutching a sacred bundle of sticks, bones, feathers, fur and stones.',
+        ],
+      ],
+      lore: [
+        [
+          'Uthgardt mistrust magic, so shamans are people the spirit world forced into the role, standing between life and death. Others both respect and fear them. A shaman needs the bundle they built over a month to cast, and it serves only its maker. Each tribe grants its shamans their own additional spells, and talks with ancestors can yield blood rituals, such as hatching giant ravens or becoming a griffon.',
+        ],
+        ['Sources: ', "Storm King's Thunder"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4110,6 +4420,17 @@ export default createPublicationMonsters({
       name: 'Vaal',
       languages: ['Common', 'Giant'],
       habitats: ['mountain'],
+      appearance: [
+        [
+          'A cloud giant count wearing a diamond-studded platinum earring and a platinum-embroidered vest.',
+        ],
+      ],
+      lore: [
+        [
+          'Vaal is a neutral evil cloud giant who has come to Maelstrom to see what Princess Serissa will do about the end of the ordning. He arrived using his conch of teleportation, which hangs from his belt next to a potion of water breathing, and waits for an audience.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 207"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -4196,6 +4517,13 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Common', 'Giant'],
       habitats: ['coastal', 'underwater'],
+      appearance: [['A storm giant guarding King Hekaton.']],
+      lore: [
+        [
+          'Vaasha is one of four storm giant bodyguards, with Nimir, Orlekto and Shaldoor, who go with King Hekaton to confront Iymrith. The party is invited to come along.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 225"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -4312,6 +4640,14 @@ export default createPublicationMonsters({
         ['Base creature: Commoner'],
         ['Applied templates: Rock Gnome'],
       ],
+      appearance: [['A rock gnome commoner who volunteers to be a guide.']],
+      lore: [
+        [
+          'Wiri is a grateful, chaotic good rock gnome who offers to join the party when they ask for a guide. She speaks Common and Gnomish and resists magic.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 176"],
+      ],
+      habitats: ['Fortress'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4357,6 +4693,14 @@ export default createPublicationMonsters({
         ['Base creature: Scout'],
         ['Applied templates: Wood Elf'],
       ],
+      appearance: [['A band of wood elf scouts from the Ardeep Forest.']],
+      lore: [
+        [
+          "Eight wood elf scouts, led by the daring Rond Arrowhome, arrive to help against orcs. They have little regard for Nightstone's people but hate orcs more. Once the orcs are beaten, Rond shouts that he is welcome and they return to the forest, wanting neither a fight nor a reward.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 28"],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4438,6 +4782,15 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['any two languages'],
       habitats: ['coastal', 'hill', 'arctic', 'urban', 'forest', 'desert'],
+      appearance: [
+        ['A charming, ruthless half-elf in his mid-thirties, riding with six companions.'],
+      ],
+      lore: [
+        [
+          'Xolkin leads the Seven Snakes, a bandit band that does dirty work for the Zhentarim leader called the Snail in Daggerford. His current mission is to back Kella Darkhope in making Nightstone a Zhentarim stronghold. He owns a flying snake that carries messages.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 27"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4576,6 +4929,16 @@ export default createPublicationMonsters({
       name: 'Yakfolk Priest',
       alignment: 'neutral evil',
       languages: ['Common', 'Yikaria'],
+      appearance: [
+        ["An ogre-sized humanoid with a sullen yak's head and curved horns, covered in thick fur."],
+      ],
+      lore: [
+        [
+          "Yakfolk call themselves Yikaria, and run a cruel theocracy serving the nameless Forgotten God, whose face is worn smooth. They rule slaves in hidden mountain, plateau and oasis settlements, looking like a utopia until visitors can be enslaved. Slaves are sacrificed by fire, burial, drowning or being thrown from a height. Their feared ability is to slip under another creature's skin, take control, and use it to spy, rob, murder and kidnap.",
+        ],
+        ['Sources: ', "Storm King's Thunder"],
+      ],
+      habitats: ['Mountain', 'Desert'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -4701,6 +5064,16 @@ export default createPublicationMonsters({
       name: 'Yakfolk Warrior',
       alignment: 'neutral evil',
       languages: ['Common', 'Yikaria'],
+      appearance: [
+        ["An ogre-sized humanoid with a grim yak's head and curved horns, in heavy fur and hair."],
+      ],
+      lore: [
+        [
+          'Yakfolk call themselves Yikaria and are evil overlords who keep humanoid slaves in hidden valleys, plateaus and oases. Their settlements pass for a utopia until visitors are disarmed. They crave learning, especially elemental magic and lore for dominating others, and destroy any knowledge they cannot use. They answer only to their deity and their kind, and send children to communal creches.',
+        ],
+        ['Sources: ', "Storm King's Thunder"],
+      ],
+      habitats: ['Mountain', 'Desert'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -4784,6 +5157,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant'],
       habitats: ['hill'],
+      appearance: [['Young cloud giants in a floating castle with pet griffons.']],
+      lore: [
+        [
+          'A neutral good clan of young cloud giants lives in a castle laid out like Lyn Armaal, with griffons as pets, four in all, and eight stone giants standing guard.',
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 112"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -4835,6 +5215,16 @@ export default createPublicationMonsters({
       name: 'Zaltember',
       alignment: 'lawful evil',
       languages: ['Common', 'Giant'],
+      appearance: [
+        ['A sadistic fire giant boy about nine feet tall, holding a dwarf over a smelter.'],
+      ],
+      lore: [
+        [
+          "Zaltember is the fifteen-year-old son of Duke Zalto of Ironslag, lawful evil, a bully and a coward. He tortures slaves for sport, and flees to his mother if hurt. If cornered he claims to be the duke's son hoping to scare captors into letting him go. His parents will accept any reasonable demand to get him back, though they may be tricking the party. He does not know where his father hides his conch of teleportation.",
+        ],
+        ['Sources: ', "Storm King's Thunder, p. 180"],
+      ],
+      habitats: ['Fortress'],
       stats: {
         size: 'large',
         type: 'giant',

@@ -12,6 +12,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common'],
       habitats: ['underdark', 'swamp', 'urban'],
+      appearance: [
+        [
+          'Ghouls that lurk submerged in drowning pools or crouch in the shadows of a ruined enclosure, ready to leap out.',
+        ],
+      ],
+      lore: [
+        [
+          "In the water temple, aquatic ghouls are cult victims who died in a drowning rite and now haunt the chamber of pools. They hide to surprise intruders. If one paralyzes a character, the nearest ghoul ties a heavy stone to the victim's feet and pushes them into a pool to drown. Sea creatures of this kind are friendly to water cultists.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse, p. 88'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -158,6 +169,15 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        ['A fierce earth cult champion in special armour who fights beside a trained bulette.'],
+      ],
+      lore: [
+        [
+          "Burrowsharks are the earth cult's elite fighters and champions, who go into battle riding trained bulettes. The mount rips foes apart while the rider vaults down to finish them off ruthlessly. They resemble Black Earth guards in sure footing and special armour, but one more blessing from Ogrémoch binds each to a bulette, so the rider can tunnel with it and feel what it feels.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -227,6 +247,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Aquan', 'Common'],
+      appearance: [['A fanatic of the Crushing Wave cult.']],
+      lore: [
+        [
+          "The priests are the cult's most zealous members, who meet in secret cabals to honour Olhydra as water's destructive force in person. They hold that killing enemies with water, such as by ritual drowning, wins her favour.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -296,6 +323,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [['A knight who rides sea creatures, in light armour.']],
+      lore: [
+        [
+          "The cult's finest fighters draw on Olhydra's dark power to ride sea creatures not normally rideable, breathe water and perceive what their steed does. They favour fighting in or from water but are fierce on land if needed, and avoid heavy armour, trusting speed and ferocity.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -380,6 +415,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['any two languages'],
       habitats: ['urban'],
+      appearance: [['A noble from Waterdeep acting as a diplomat.']],
+      lore: [
+        [
+          'Deseyna is one of several diplomats in an adventure hook, each of whom carries one portion of a secret, coded document. The characters must recover these pieces at all costs. She is a human noble from Waterdeep.',
+        ],
+        ['Sources: ', 'Princes of the Apocalypse, p. 42'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -408,6 +450,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Druidic'],
+      appearance: [
+        ['Elizar is a druid who still has some druidic power through his link to the elements.'],
+      ],
+      lore: [
+        ['He says he belongs to the Circle of the Scarlet Moon, but he actually serves Imix.'],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Elemental cult'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -496,6 +546,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal'],
       habitats: ['underdark'],
+      appearance: [['Minotaurs that roast the hands of fallen enemies in coals as trophies.']],
+      lore: [
+        [
+          'Emberhorn minotaurs serve Imix and hope to receive the blessing of breathing clouds of burning embers. They dedicate victories to him by roasting the hands of defeated foes. A group waits in a chamber to receive the blessing and joins the fight at the first loud noise.',
+        ],
+        ['Sources: ', 'Princes of the Apocalypse, p. 121'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -604,6 +661,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [['A cultist of the Eternal Flame is eager to set things alight.']],
+      lore: [
+        [
+          "Guardians are dull-witted fire lovers keen to show the cult's enemies what burning feels like. They ignite things to honour elemental fire and for fun, without much thought for what else nearby may catch.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -668,6 +732,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Ignan'],
+      appearance: [
+        [
+          'A priest of the Eternal Flame travelling openly passes as a druid or a wizard with a talent for fire.',
+        ],
+      ],
+      lore: [
+        [
+          'These priests think the world is impure and only fire can cleanse it, so every flame, from a candle to a vast blaze, is holy to them. They are clever enough to hide those beliefs when in the open.',
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -856,6 +931,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Auran', 'Common'],
+      appearance: [
+        [
+          'A knight in wingwear rides a hippogriff or giant vulture, watching the land around Feathergale Spire.',
+        ],
+      ],
+      lore: [
+        [
+          'They are ambitious, wealthy people from cities like Waterdeep, lured by what the air cult promises. They guard the entrance to its hidden temple, despise other elemental cultists as lunatics, and see themselves as elites who make hard choices for their realms. Led by lord commander Thurl Merosska, in truth they answer to Yan-C-Bin and cannot see how rotten they have become. Each sealed the pact by murdering a sentient being, a death they call necessary. Despite polished manners, they are often found wearing wingwear.',
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Feathergale Spire'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -933,6 +1020,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Ignan'],
+      appearance: [
+        [
+          'A spellcaster with burned, scarred skin fights without flinching, fire dancing across its body.',
+        ],
+      ],
+      lore: [
+        [
+          "It earned Imix's favour through painful rites. It no longer feels pain and enjoys battle, burning down anyone who tries to quench elemental fire. Anyone who closes in to strike it in melee gets scorched by the flames playing over its skin.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Elemental Fire cult'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1013,6 +1112,18 @@ export default createPublicationMonsters({
       tags: ['Sahuagin'],
       alignment: 'lawful evil',
       languages: ['Common', 'Sahuagin'],
+      appearance: [
+        [
+          'An eight-foot four-armed sahuagin hides in a bulky cloak, coming out from beneath the docks only on dark, rainy nights.',
+        ],
+      ],
+      lore: [
+        [
+          'He and his partner Unferth are the top operatives of the Kraken Society in this region, working by stealing, threatening and killing. When the Hand of Yartar gets a powerful elemental weapon, they make sure the society wins the bidding and then that nobody interferes.',
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Yartar docks'],
       stats: {
         size: 'large',
         type: 'humanoid',
@@ -1136,6 +1247,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["Thieves' cant plus any two languages"],
       habitats: ['urban'],
+      appearance: [['A leather-clad dwarf at the head of a crew of renegade miners.']],
+      lore: [
+        [
+          'Grumink is a gold dwarf gone bad, chaotic and evil. He is bloodthirsty and mercenary, and he enjoys being known as a ruthless killer, going out of his way to kill when it adds to his notoriety. He is employed by the oni Obratu, who wants the treasure of a lost summer palace and sent him to seize a dwarven shrine and start digging. Defiling a holy place of his own people bothers him not at all.',
+        ],
+        ['Sources: ', 'Princes of the Apocalypse, p. 211'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1250,6 +1368,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Terran'],
+      appearance: [
+        [
+          'Hellenrae is a grim, joyless woman who dresses in plain robes and covers her face with a gilded gargoyle mask that has no openings for eyes.',
+        ],
+      ],
+      lore: [
+        [
+          "Marlos Urnrayle's right hand, who lost her eyesight as a child. A bitter orphan raised by monks to use her other senses, she pushed their self-denial and mental emptiness to extremes, hoping to be filled with the sinister force she sensed sleeping in stone and soil. Weakness disgusts her, so almost everyone earns her hatred and even her fellow cultists of the Black Earth are only just put up with.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1356,6 +1485,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Auran', 'Common'],
+      appearance: [
+        [
+          'A gaunt, sallow-faced cultist with sunken belly, bulging eyes and tight skin over every bone, a living skeleton who lives on air and devotion, with the wind at its command.',
+        ],
+      ],
+      lore: [
+        [
+          "The most fanatical air cultists, pushing their bodies to be as light as leaves. They see themselves as extensions of Yan-C-Bin, guide recruits away from their old lives, and decide whether each is fit to become an initiate or better used as a sacrifice. They uphold the prophet Aerisi Kalinoth's teachings and punish stray initiates harshly. Most other air cultists hate them but dare not say so, as challengers often end up in fresh attempts at purification.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1530,6 +1670,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['any four languages'],
       habitats: ['urban'],
+      appearance: [['A human mage relaxing in a small room behind a burnt tapestry.']],
+      lore: [
+        [
+          'Lyzzie is mistress of a group of magmins who playfully set intruders alight, and they hiss loudly to alert her if harmed. She has fire spells prepared in place of cold ones. Hobgoblins elsewhere in the temple come running if fighting breaks out in her room.',
+        ],
+        ['Sources: ', 'Princes of the Apocalypse, p. 111'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1606,6 +1753,18 @@ export default createPublicationMonsters({
       name: 'Marlos Urnrayle',
       alignment: 'neutral evil',
       languages: ['Common', 'Terran'],
+      appearance: [
+        [
+          'A medusa who was once a vain, cruel human nobleman, carrying the magical war pick Ironfang.',
+        ],
+      ],
+      lore: [
+        [
+          "Marlos serves as the Elemental Evil earth prophet and heads the Sumber Hills Black Earth cult. He loves turning foes to stone, especially beautiful ones, then smashing the remains. A vision drew him to the Fane of the Eye, where he found Ironfang. His curse and the weapon make other cultists believe he is in Ogremoch's favour, so they are fanatically loyal. When the Temple of Black Earth is under threat he falls back to the earth node called the Black Geode, where he gains an extra use of Legendary Resistance.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Sumber Hills'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1737,6 +1896,14 @@ export default createPublicationMonsters({
       tags: ['earth genasi'],
       alignment: 'neutral evil',
       languages: ['Common', 'Primordial'],
+      appearance: [['An earth genasi from Calimshan who calls himself a mud sorcerer.']],
+      lore: [
+        [
+          "Miraj is a perfectionist who runs the Black Earth cult's tunnelling and specialises in magic and alchemy that shapes stone, with an affinity for water. He is the cult's best caster, but has no wish to challenge Marlos Urnrayle, knowing the medusa outclasses him, and is content to experiment while Marlos leads.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Sumber Hills'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1949,6 +2116,14 @@ export default createPublicationMonsters({
       name: 'Olhydra',
       alignment: 'neutral evil',
       languages: ['Aquan'],
+      appearance: [['A great wave twenty feet high and fifteen wide with opalescent eyes.']],
+      lore: [
+        [
+          'The Princess of Evil Water, also called the Crushing Wave, the Dark Tide and the Well of Endless Anguish, stays in or near seas, lakes, rivers or deep underground pools. She can surge onto land like a wave up a beach, but it would take fury or desperation to carry her beyond a few hundred feet from water. She is relentless and likes making destructive waters, especially maelstroms and floods, smashing ships in her realm and razing coastal settlements. What she cannot batter she erodes, and she retreats only to return stronger. She is the Prince of Elemental Evil most interested in mortals, regarding pirates and raiders who spill blood on the water as her agents, and sometimes sparing the worst sailors in the hope they will deliver others to her. Her home is the black depths of the Plane of Water, and she enters the Material Plane through water nodes or rituals.',
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Sea', 'Elemental Plane of Water'],
       stats: {
         size: 'huge',
         type: 'elemental',
@@ -2250,6 +2425,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common'],
+      appearance: [['A lean young noble with a black beard.']],
+      lore: [
+        [
+          "Oreioth is from Baldur's Gate and feels more at home among corpses than people. He was cruel from early childhood, catching small animals to kill inventively and savour power over life and death. His embarrassed family paid a tutor to redirect his intelligence, but unknowingly apprenticed him to a necromancer needing an assistant, who later sent him off. He moved north robbing graves and bullying weaker people, was driven from town after town, and took refuge in an old outlaw lair near Lance Rock. There he experiments alone, his manners fading, calling himself Lord of Lance Rock among zombies and skeletons bound to his will. He barely recognises his name and dreams of an undead kingdom with himself as king.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Lance Rock'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2338,6 +2521,13 @@ export default createPublicationMonsters({
       alignment: 'any chaotic alignment',
       languages: ['any one language (usually Common)'],
       habitats: ['coastal', 'mountain', 'hill', 'arctic', 'forest', 'desert'],
+      appearance: [['A male berserker who rides a warhorse and swings a maul.']],
+      lore: [
+        [
+          'Padraich is one of the berserkers in a band of tribal warriors led by Fennor. He fights with a heavy maul.',
+        ],
+        ['Sources: ', 'Princes of the Apocalypse, p. 171'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2378,6 +2568,16 @@ export default createPublicationMonsters({
       tags: ['water genasi'],
       alignment: 'lawful evil',
       languages: ['Aquan', 'Common'],
+      appearance: [
+        ['A plump water genasi with a jolly manner and biting humour, not an obvious cultist.'],
+      ],
+      lore: [
+        [
+          "Captain of a pirate ship raiding the Sword Coast and a senior member of the Crushing Wave cult. To him Olhydra's power is a route to as much wealth as possible.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Sword Coast', 'Sea'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2469,6 +2669,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Terran'],
+      appearance: [
+        [
+          'A caster whose body is sheathed in a shell of rock and who carries a mace-like Black Earth rod.',
+        ],
+      ],
+      lore: [
+        [
+          "Stonemelders draw on Ogremoch to wield elemental earth magic. They form the cult's elite fighters, answerable solely to its leaders, and even Black Earth priests cannot command them. The rod focuses Ogremoch's wrath in their hands.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2558,6 +2769,13 @@ export default createPublicationMonsters({
       tags: ['halfling'],
       alignment: 'neutral evil',
       languages: ['Common', 'Halfling'],
+      appearance: [['A halfling patriarch who looks like a modest rancher.']],
+      lore: [
+        [
+          "Wiggan heads the wealthy Nettlebee clan of farmers and livestock keepers and bans extravagance on his land. He joined the Cult of the Black Earth believing it embraced nature's darker side, and still does not know its full plans. He distrusts outsiders, expecting thieves, and is a miser who visibly suffers at parting with coins.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2651,6 +2869,15 @@ export default createPublicationMonsters({
       tags: ['halfelf'],
       alignment: 'neutral evil',
       languages: ['Auran', 'Common', 'Elvish'],
+      appearance: [
+        ['A roguish, opportunistic bandit and half-moon elf, once called Harald Grayspear.'],
+      ],
+      lore: [
+        [
+          "Windharrow flattered his way into Aerisi Kalinoth's favour and went with her when she left home as the air prophet. She gave him his new name and had him gather the Windwyrds, flute-playing cultists mostly without skill, whose music is shrill. He stays loyal while he fears her and would defect if threatened or better paid.",
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2747,6 +2974,18 @@ export default createPublicationMonsters({
       name: 'Yan-C-Bin',
       alignment: 'neutral evil',
       languages: ['Auran'],
+      appearance: [
+        [
+          'Normally an unseen howling vortex of air, though he sometimes appears as a thin, old, dark-skinned man with fine white hair and bright pale eyes. When hiding, he is only a chilly breeze.',
+        ],
+      ],
+      lore: [
+        [
+          'The Prince of Evil Air is subtle and malicious, watching enemies from afar, striking fast and vanishing. His floating palace is in the Plane of Air, from which he watches worlds change. Evil flyers worship him, though he disregards them. He wants the Material realms ripped apart by air and wind.',
+        ],
+        ['Sources: ', 'Princes of the Apocalypse'],
+      ],
+      habitats: ['Elemental Plane of Air'],
       stats: {
         size: 'huge',
         type: 'elemental',

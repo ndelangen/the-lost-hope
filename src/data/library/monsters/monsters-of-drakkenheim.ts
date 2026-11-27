@@ -10,6 +10,17 @@ export default createPublicationMonsters({
     academy_apprentice: {
       name: 'Academy Apprentice',
       languages: ['Common and one other language'],
+      appearance: [
+        [
+          'A mage in training in simple purple robes, the Amethyst Academy symbol over the left breast, a spellbook at the belt and a satchel of alchemical ingredients.',
+        ],
+      ],
+      lore: [
+        [
+          'Apprentices have trained enough to cast first-level arcane spells. They are usually placed under higher-ranked mages to help with research, experiments and fieldwork, and a Master Mage often has one or more along. Like most of the Academy they shun fighting, may hire mercenaries or send summoned creatures in their place, plan escapes with invisibility or teleportation, and tend to run once wounded badly.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -64,6 +75,17 @@ export default createPublicationMonsters({
     academy_grandmaster: {
       name: 'Academy Grandmaster',
       languages: ['Common and three other languages'],
+      appearance: [
+        [
+          "A spellcaster dressed in purple and gold, with the Academy's brooch on the lapel, a ring on every finger, and a black and gold staff capped with a gleaming crystal. Its eyes crackle with energy.",
+        ],
+      ],
+      lore: [
+        [
+          "Grandmasters wield the most powerful spells and head the Amethyst Academy's weightiest projects, with almost all its resources open to them. There are very few: apart from the eight Directorate members, perhaps twenty are alive. A Directorate seat needs a unanimous choice, so a vacancy may take decades to fill. In battle a grandmaster first halts time, then cages as many enemies as it can with force walls and hits the rest with prismatic, lightning and fire spells. When badly hurt it teleports away.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -201,6 +223,17 @@ export default createPublicationMonsters({
     academy_mage: {
       name: 'Academy Mage',
       languages: ['Common and two other languages'],
+      appearance: [
+        [
+          'A mage in a long purple jacket edged in gold, with dark trousers and plain black boots, with a wand in its grip, a book under the other arm, and the Academy emblem in gold across the back.',
+        ],
+      ],
+      lore: [
+        [
+          'These are the ordinary working mages of the Amethyst Academy, casting spells of middling power. Most do research or make magic items, some join survey parties at old sites or in the ruins of Drakkenheim, and some serve minor nobles as court mages. Most never advance further. Under threat they start with protective or controlling magic, save area blasts for when they are sure of control, and nearly always flee once wounded badly.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -295,6 +328,17 @@ export default createPublicationMonsters({
     academy_outcast: {
       name: 'Academy Outcast',
       languages: ['Common and one other language'],
+      appearance: [
+        [
+          'A mage of the Amethyst Academy sort, a group who wear purple robes and carry academy rings.',
+        ],
+      ],
+      lore: [
+        [
+          'The text describes Academy mages generally and says nothing particular about outcasts, so treat this as family behaviour. They think of themselves as scholars and craftsfolk rather than war mages and avoid fights. When forced, they open with protective or controlling spells, hire mercenaries or send summoned creatures, and almost always flee once badly wounded.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -379,6 +423,17 @@ export default createPublicationMonsters({
     agog: {
       name: 'Agog',
       languages: ["understands Deep Speech but can't speak"],
+      appearance: [
+        [
+          'A shape like a tree stump on four root-like legs ending in misshapen hooves, with mottled, wet, bark-like hide, knobbly clawed arms with yellow eyes in the palms, and a gaping toothy mouth on top, giggling as it swallows flesh.',
+        ],
+      ],
+      lore: [
+        [
+          'Agogs trundle across deserts through the Space Between Worlds, and also lie in the muck around the screaming heads, eating corpses with a bottomless hunger. Standing still, one can pass for a stump. In a fight it charges and flails, trying to seize foes and hurl them down, then starts to devour anyone it floors.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -480,6 +535,17 @@ export default createPublicationMonsters({
     allopine: {
       name: 'Allopine',
       languages: ["understands Deep Speech but can't speak"],
+      appearance: [
+        [
+          "A thin, ill-formed creature with an alligator's scaly head, body and tail, spines like a porcupine's, bat wings and long skinny legs.",
+        ],
+      ],
+      lore: [
+        [
+          'Allopines look like a muddle of different animals, drifting in swarms through dark caves and ruins in the Space Between Worlds. On the Material side they hide in old barns and caves. They are not warriors but are hostile to trespassers, firing quills at anyone who gets close. Alone they do not stay in a fight, and in a flock they prefer to fly off and shoot from afar.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -739,6 +805,18 @@ export default createPublicationMonsters({
     beetle_knight: {
       name: 'Beetle Knight',
       languages: [],
+      appearance: [
+        [
+          'A beetle-like creature balanced on two insect legs, clacking as it scuttles, with clawed arms under bladed limbs, chittering mandibles and a big pincer horn on its helm-shaped head, covered in a hard blue-silver shell that hides delicate wings.',
+        ],
+      ],
+      lore: [
+        [
+          "Beetle knights are insects changed by delerium and the Haze after the meteor strike, swollen to human size or more. Their shells now look like plate mail, the scythe hands like swords and the horn like a fancy helm, so from a distance they pass for armoured knights. They lurk in Drakkenheim's ruins and sewers eating Deep Dregs and other small things, and now and then pour out at night or after downpours to catch the unprepared. In battle they keep moving, charging first to throw enemies aside or grapple, retreating to charge again, and run when a fight turns against them.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins', 'Sewers'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -831,6 +909,18 @@ export default createPublicationMonsters({
     belfray: {
       name: 'Belfray',
       languages: [],
+      appearance: [
+        [
+          'A large, deformed bat giving a piercing screech, its wings like drawn-out human arms with skin stretched tight, jaws full of hooked fangs, swollen red eyes and a snuffling snout.',
+        ],
+      ],
+      lore: [
+        [
+          "Drakkenheim's bats have grown in number and size, many now dog-sized, and insects no longer satisfy them, so they want flesh. Belfrays keep to the night and gather on old towers and lamp posts, hanging in ruined roofs, usually in the city's highest spots such as Castle Drakken and the clock tower. They mostly eat Ratlings but may swarm out of dark, damp places. In combat they open with a sonic blast from cover, move in with claws once the target is weak, drink blood to heal, dive and retreat, and fly away if badly hurt.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -994,6 +1084,18 @@ export default createPublicationMonsters({
     bloated_hive: {
       name: 'Bloated Hive',
       languages: [],
+      appearance: [
+        [
+          'A spindly, ape-like figure dripping sweet-smelling pus, with a pulsing, pore-covered mass of flesh where a head should be and thousands of insects crawling beneath its skin.',
+        ],
+      ],
+      lore: [
+        [
+          "Bloated hives are people turned into walking colonies of insects, perhaps from honey farms near Drakkenheim that warped keepers and hives together. They stumble through the ruins looking for damp, warm nesting spots: along the Drann River, beneath Champion's Bridge, in the sewers and Queen's Park Garden. Most are solitary, but one colony can occupy several hives and link them in a network. A hive cannot talk and obeys the insects, though a suffering person within sometimes responds to kind words, keepsakes or familiar music. These moments pass quickly and a clumsy approach may trigger a frenzy. In a fight it stays back and spawns swarms.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins', 'Sewers'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1074,6 +1176,18 @@ export default createPublicationMonsters({
     body_snatcher: {
       name: 'Body Snatcher',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A hulking patchwork of stitched corpses, hunched and broad, seeping black ichor at the seams, with a small head, sunken sockets holding pale eyes, a lipless scowl and four arms ending in giant hands with eight long fingers each. It wears a heavy black coat and broad hat, reeks of sulphur and hums and mumbles.',
+        ],
+      ],
+      lore: [
+        [
+          'Assembled from many dead bodies and animated by forbidden alchemy, it was made by a mad physician to kidnap test subjects. It lurks in dark places for unwary travellers, moving from shadow to shadow like a ghost, and uses darkness to sap the strength of anyone it seizes, while the shadows help pin them as it vanishes into the night.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -1153,6 +1267,18 @@ export default createPublicationMonsters({
     bojack: {
       name: 'Bojack',
       languages: [],
+      appearance: [
+        [
+          'A dead horse on its back that convulses as its belly splits open into a toothy maw made of its ribs, with spindly spider legs sprouting, intestines flapping like a tongue and the head dangling, still gnashing and dripping acidic bile.',
+        ],
+      ],
+      lore: [
+        [
+          "Horses ridden into Drakkenheim are often hurt by the debris, abandoned and killed by predators, and a parasitic mutation then grows in the carcasses, giving them spider legs, pincers and maws. Posing as dead animals in the foggy streets, they scurry up walls and across ceilings almost silently and cross a street in seconds, so they are a serious threat. At abandoned derelict stables near Champion's Gate, almost a whole squad of Hooded Lantern scouts was torn apart in moments, and since then adventurers customarily kick the dead horse beside the road in.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1252,6 +1378,16 @@ export default createPublicationMonsters({
       name: 'Captain Ansom Lang',
       languages: ['Common'],
       tableNotes: [['Gear: longbow, quiver, shortsword, studded leather armor']],
+      appearance: [
+        ['A soldier of the Hooded Lanterns, often posted on rooftops and ruined towers.'],
+      ],
+      lore: [
+        [
+          'The Hooded Lanterns are a mixed force of former Drakkenheim City Watch and Westemär Civil War veterans under Lord Commander Elias Drexel, aiming to clear the capital of monsters and outlaws, find an heir and restore Westemär. Their three regiments are Support (cooks, apothecaries, scribes, maintenance), Watch (walls, gates, new footholds and scouting) and Vanguard (front-line fighters who know the ruins and clear monster dens). They rarely fight without a plan, preparing ambushes and traps, using the ruins as cover, placing archers on high ground and scouts to call for help.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1337,6 +1473,18 @@ export default createPublicationMonsters({
     cerebrograft: {
       name: 'Cerebrograft',
       languages: ['telepathy 30 ft.'],
+      appearance: [
+        [
+          'A bruised, eight-foot muscled hulk, pin-headed with glassy eyes and slack jaw, its ribs splayed open to show a small wrinkled creature inside, with a huge brain showing through thin translucent skin and its blood vessels glowing.',
+        ],
+      ],
+      lore: [
+        [
+          "A cerebrograft is an apothecary's grim attempt to fuse two creatures into one, brains with brawn, by surgery and flesh-melding that links their nerves and unlocks strong psionics. It is often the 'reward' for two faithful lab assistants, supposedly curing their flaws. The implant usually swallows the host's personality, though the two sometimes merge or argue inside one head. Good at commanding other test subjects, it uses a psychic crush against groups to get away and find help, holds foes with telekinesis so allies can beat them, and moves enemies into shackles, cages or onto surgery tables.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Laboratory'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -1441,6 +1589,18 @@ export default createPublicationMonsters({
     chemystral: {
       name: 'Chemystral',
       languages: [],
+      appearance: [
+        [
+          'A vast, quivering ooze with a shifting sheen of many colours, reeking of gastric juices, melting whatever it touches.',
+        ],
+      ],
+      lore: [
+        [
+          "The chemystral is one of a chemist's masterpieces: a balanced thinking compound that reshapes its body to meet threats, sticks to any surface and can even float through the air. It shrugs off nearly all elemental attacks by changing its makeup like a chameleon, but cold and loud noise defeat it. It tries to engulf a crowd of victims at once.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -1680,6 +1840,18 @@ export default createPublicationMonsters({
     chitter: {
       name: 'Chitter',
       languages: [],
+      appearance: [
+        [
+          'A hound-sized, almost hairless squirrel with a bushy tail, patchy mottled fur, milk-white glassy eyes and a near-human mouth full of big pearly teeth that clack maddeningly.',
+        ],
+      ],
+      lore: [
+        [
+          "Chitters are Drakkenheim's squirrels, mutated and feral, especially in Queen's Park Gardens and the wooded north and farmland. They attack in family groups of two or three, are territorial even toward other chitter families, climb superbly, survive big falls and favour towers and rooftops. They charge and leap, disabling foes with their clacking, and defend homes fiercely but flee when badly hurt.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins', 'Forest'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1934,6 +2106,18 @@ export default createPublicationMonsters({
     crystalline_dreg: {
       name: 'Crystalline Dreg',
       languages: [],
+      appearance: [
+        [
+          'A creature that looks made of shattered glass, with fractal polygonal crystal flesh and sharp shards that extend and retract, bending light oddly.',
+        ],
+      ],
+      lore: [
+        [
+          'Much as structures near the meteor were transmuted into strange materials, these Dregs were remade as hard crystal. They absorb light and elements, holding them for a moment and then releasing them through the body, which acts like a focusing lens. In battle they hang back behind other Dregs, firing beams and soaking up elemental damage to alter their shots, and are brittle against heavy blows.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -2082,6 +2266,18 @@ export default createPublicationMonsters({
       name: 'Dark Confessor',
       languages: ['Common plus one other language'],
       tableNotes: [['Gear: plate armor']],
+      appearance: [
+        [
+          'A vampire spawn in black and crimson robes parodying the Sacred Flame, with chalky skin, hollow black eyes and pointed fangs, holding a golden staff with a red orb and a glimmering ghostly maul.',
+        ],
+      ],
+      lore: [
+        [
+          'To infiltrate a community, the Court of the Night first corrupts its leaders, above all rivals in the Sacred Flame faith, turning flamekeepers and priests into vampire spawn called Dark Confessors. Their holy gifts warp into vampiric sorcery in service to their masters. They lead dark rites and recruit, and use natural authority to bend communities into cults, whose members hope that proving loyalty will spare them undeath.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2263,6 +2459,18 @@ export default createPublicationMonsters({
     dark_growth: {
       name: 'Dark Growth',
       languages: [],
+      appearance: [
+        [
+          'A corpse splayed on a ruined wall, with black brambles and vines pouring from its torso, a split skull with unhinged jaw, neon iridescent flowers, a smell of pollen and rot and faint familiar whispers.',
+        ],
+      ],
+      lore: [
+        [
+          "Most plants die of contamination but some thrive, mutating on delerium. In Drakkenheim's wasteland, fertile soil is scarce outside Queen's Park Garden, so dark growths root in bodies. Spores from the flowers drift into ears, mouth or nose, lie dormant while mutations rot flesh and bone, and when the host dies or succumbs, the plant violently sprouts, consuming the organs.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -2352,6 +2560,18 @@ export default createPublicationMonsters({
     dark_growth_shambler: {
       name: 'Dark Growth Shambler',
       languages: ['Common'],
+      appearance: [
+        [
+          'A gaunt, pale, hunched humanoid with vines and branches thrusting from mouth and flesh, bearing neon iridescent flowers, smelling of sugar and rot and whispering without moving its mouth.',
+        ],
+      ],
+      lore: [
+        [
+          'Sometimes when a body infected with dark growth bursts open at death it does not collapse, instead staggering on as a shell for the plant, with black thorny branches coming from eye sockets, mouth and skin.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -2425,6 +2645,17 @@ export default createPublicationMonsters({
       name: 'Deep Knight',
       languages: ['Common', 'telepathy 60 ft.'],
       tableNotes: [['Gear: shield, spear']],
+      appearance: [
+        [
+          "A hulking warrior with a hammerhead shark's head hauls a huge opalescent shell as a shield, its hide crusted with algae and barnacles. A heavy chain loops around its wrists, tied to a big spiked harpoon.",
+        ],
+      ],
+      lore: [
+        [
+          "One of the Duchess's champions, bigger than the rest of the Deep Dregs. It leads warbands of Deep Dreg Warriors and serves in a contingent that guards her lair. In a fight it charges at the front, deflects blows with the shell shield, and yanks foes close with the harpoon so it can bite. While allies remain it fights on to protect them, and it only retreats once it stands alone.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2539,6 +2770,17 @@ export default createPublicationMonsters({
     deep_siren: {
       name: 'Deep Siren',
       languages: ['Common', 'telepathy 60 ft.'],
+      appearance: [
+        [
+          'A wretched crone with sea-green hair and blue-grey skin is dressed in a robe woven from algae and kelp. Pouches of strange reagents hang at her belt along with vials of octarine goo, and her voice stays sweet and honeyed.',
+        ],
+      ],
+      lore: [
+        [
+          'A spellcaster transformed by the Duchess who kept some magic. Sirens act as her generals, confidants and spies, sometimes serving as court mage. One uses a false appearance to move among humanoids, learns what it can, then reports back and joins Deep Dreg raids on beaches, sewers and storm-night cities. It dislikes melee, hops to a better position and casts from range, and flees when surrounded, outnumbered or losing.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -2686,6 +2928,17 @@ export default createPublicationMonsters({
     disembodied_psyche: {
       name: 'Disembodied Psyche',
       languages: ['Common', 'telepathy 30 ft.'],
+      appearance: [
+        [
+          'A large brain still trailing its nervous system floats slowly in a haze of psychic energy. Thin loose threads hang down and gather into arm-like limbs, and a high thrumming sound rises as it crackles with sparks.',
+        ],
+      ],
+      lore: [
+        [
+          "An alienist made it by removing a victim's brain, killing the patient and raising the mind as a new entity that has lost all sense of its former self. Experiments then strengthened it and gave it telepathy and telekinesis. It can be set on the alienist's enemies or take over other victims' bodies as obedient puppets. It starts a fight by placing itself to affect as many foes as possible, then tries to possess one, and teleports away if surrounded or cornered.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2794,6 +3047,18 @@ export default createPublicationMonsters({
     effulgent_cnidarian: {
       name: 'Effulgent Cnidarian',
       languages: [],
+      appearance: [
+        [
+          'A see-through, bulging mass drifts through the air with neon colours rippling over its skin like an aurora. Thin glowing strands trail beneath it, reaching gently for whatever it passes, and soft eerie hums drift with it.',
+        ],
+      ],
+      lore: [
+        [
+          'An aerial jellyfish found above the ruined streets of Drakkenheim after dark, glowing like a strange lamp among the towers. Academy researchers do not know what made it and guess at rifts to the Space Between Worlds or arcane energy that condensed into a delerium body. It is not a hunter. It wants to bask in delerium crystals and sip their energy, so it lingers around heavy crystal growth and guards that food. It uses hallucinogenic light to make enemies fight each other, and feeds on anyone it has entranced through its tendrils. When attacked it flashes and floats straight up out of reach, and it gives up its feeding spot if nobody is fooled.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2906,6 +3171,18 @@ export default createPublicationMonsters({
     eldritch_dreg: {
       name: 'Eldritch Dreg',
       languages: ['Common', 'Deep Speech'],
+      appearance: [
+        [
+          'A scrawny, twig-thin figure shuffles out of the shadows, unsteady under an enormous throbbing skull that glows with octarine light. It rises off the ground in a shimmering field, hollow eyes alight with contaminated power.',
+        ],
+      ],
+      lore: [
+        [
+          'A warped creature whose brain swelled with contaminated energy, granting arcane power it barely understands or controls, while most of its muscle wasted away. It struggles to stand but can float. Casters who fall to eldritch contamination, especially ones who played with tainted spells, often become dregs. It curses a chosen target, then blasts it with psychic force, stays out of reach by hovering, and lashes out at clustered enemies. It flees once badly hurt.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -3394,6 +3671,18 @@ export default createPublicationMonsters({
     faerie_host: {
       name: 'Faerie Host',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'A grim-faced doctor sighs, then their face twists into a smile stretched too wide. Horn-like lumps tear through the forehead, profane runes flare on the skin with a smell of burning flesh and sulfur, and the body rises as a spiral of flame circles it.',
+        ],
+      ],
+      lore: [
+        [
+          "The body of an apothecary who deliberately let an extraplanar being possess them, locking a mighty outsider inside a mortal body. Exorcists and alienists make such hosts as a desperate last move against a demon, fey, or something from the Space Between Worlds, using implanted metals, tinctures and incantations and playing on the monster's ego. When the apothecary's soul leaves, the bound outsider cannot return home if killed, and loses its power for good. The host is therefore a prison and death sentence. It still often survives as a dangerous creature, hates its creators, and wanders in stolen lives, even taking over the host's identity, hunting a way to undo the mortal curse.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -3503,6 +3792,18 @@ export default createPublicationMonsters({
       name: 'Flamekeeper',
       languages: ['Common and one other language'],
       tableNotes: [['Gear: chain shirt, spear']],
+      appearance: [
+        [
+          'A knight of the Silver Order who serves the Sacred Flame, sent to Drakkenheim to root out its corruption.',
+        ],
+      ],
+      lore: [
+        [
+          "The Silver Order is a military body from Elyria answering to the Sacred Flame's church, sworn against dark magic and incursions from other worlds, and strict about the Edicts of Lumen. It regards delerium as a spreading blight. Its soldiers drill as a unit with call signs and hand signals, and every regiment brings along a paladin or a flamekeeper, usually one of each. A flamekeeper provides healing, protective spells and holy battle magic, with the odd fireball or flamestrike held back for hard fights.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3724,6 +4025,18 @@ export default createPublicationMonsters({
       name: 'Garmyr Thaumaturge',
       languages: ['Common'],
       tableNotes: [['Gear: spear']],
+      appearance: [
+        [
+          'A runt by Garmyr standards, it wears filthy blood-stained white robes and a crown of bones. A gnarled, clawed hand holds a bone staff hung with rotting flesh and topped with a human skull, gore drips from its toothed mouth, and its octarine eyes swirl.',
+        ],
+      ],
+      lore: [
+        [
+          "A few Garmyr gain magic, from inborn sorcery or a link to some other entity, and they become leaders of the pack. Adventurers have seen thaumaturges building bone shrines and performing blood rites, and some guess they listen to the Old God Kromac, while others think the eldest tapped blood and slaughter twisted by Drakkenheim's magic. It enters a fight among its allies, stands centrally so its aura reaches many targets, casts at range, and only closes to melee when allies already surround a target. It flees if cornered, forced into melee, or when its soldiers dwindle.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3977,6 +4290,18 @@ export default createPublicationMonsters({
       name: 'Ghoul Lord',
       languages: ['Common'],
       tableNotes: [['Gear: mace, plate armor, shield']],
+      appearance: [
+        [
+          'A bald, ash-white figure with abyssal black eyes, long pointed fingers and jagged teeth stands over a fresh corpse, dripping gore and sniffing for the next meal.',
+        ],
+      ],
+      lore: [
+        [
+          "Failed vampire thralls, disobedient or outlived servants are turned into ghouls, cursed and bound to a vampire's will. They are mindless, chaotic foot soldiers. A vampire may lock away up to a hundred, and starve them for months to make them more dangerous in battle. A ghoul that gains a clearer mind can command others or use necromancy to keep ghouls alive, and vampires promote such ghouls to generals. Ghouls charge with endless hunger and rarely flee, though a fresh corpse can distract them.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4073,6 +4398,18 @@ export default createPublicationMonsters({
     grim_custodian: {
       name: 'Grim Custodian',
       languages: ['Common plus two other languages'],
+      appearance: [
+        [
+          'A vampiric creature in fine noble clothes licks its lips to show fangs while it scribbles notes with a quill, watching the room closely.',
+        ],
+      ],
+      lore: [
+        [
+          'The right hand of many vampire masters, valued members of their inner circle who work as bookkeepers, informants and caretakers of their undead. Each can raise corpses, and fallen vampiric soldiers are said to rise when one is near. Many skeletons and zombies answer to them. They keep up the illusion of mortal life, so people think the vampires ordinary nobles. In a fight they avoid combat, use suggestion and thought-reading, and turn invisible and run when cornered, hiding their undead nature.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4221,6 +4558,18 @@ export default createPublicationMonsters({
     gutbuster_hulk: {
       name: 'Gutbuster Hulk',
       languages: [],
+      appearance: [
+        [
+          'A huge creature slumps along on stocky legs with bloated, bleeding feet, its enormous gut dragging with weeping sores and acid drool running down its chins. It pulls rotting contaminated meat from a sore and rears back to throw it.',
+        ],
+      ],
+      lore: [
+        [
+          'A product of eldritch contamination that keeps growing rotting flesh, tearing itself apart while new growths replace the loss. It rips off chunks and hurls them, which burst in gore and necrotic fluid, opens with that, waits for more, and when surrounded sprays acid or slams. Left alone it may grow so big it crushes itself, which ratlings love. It is slower than other Haze Hulks and rarely runs.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -4582,6 +4931,18 @@ export default createPublicationMonsters({
       name: 'Hazewind Harpy Valkyrie',
       languages: ['Common'],
       tableNotes: [['Gear: half plate armor, shield']],
+      appearance: [
+        [
+          'Harpies in gleaming half-plate and plumed helmets, with shields and javelins, glare with unblinking blood-red eyes, their lower bodies left free for talons.',
+        ],
+      ],
+      lore: [
+        [
+          "The finest warriors among the hazewinds, battle-tested and skilled at agility, quick strikes and closing distance. They are the Crimson Countess's chosen fighters and favour rooftops and towers. They lure foes to high places like roofs, cliffs or balconies, then snatch them up and drop them to their deaths. If grounded or outnumbered they escape to the highest nearby point.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -4669,6 +5030,18 @@ export default createPublicationMonsters({
     hazewing_moth_adult: {
       name: 'Hazewing Moth Adult',
       languages: [],
+      appearance: [
+        [
+          'A big moth with purple and green wings that glimmer, their patterns like screaming human faces. Its bat-like face has a curved antenna ending in a glowing lantern that throws prismatic light, with a haze of delerium dust trailing it.',
+        ],
+      ],
+      lore: [
+        [
+          "Adults no longer eat delerium crystals. They look for mates and for psychic force, hypnotising victims to drink their memories and personality. What the victims remembered and dreaded shows up later on the next brood's wings and cocoons. They protect eggs, caterpillars and cocoons, using hypnotic wing-beats and dust to leave targets nearly catatonic, then drink their psychic energy through a proboscis.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -4735,6 +5108,18 @@ export default createPublicationMonsters({
     hazewing_moth_caterpillar: {
       name: 'Hazewing Moth Caterpillar',
       languages: [],
+      appearance: [
+        [
+          'A monstrous caterpillar covered in sharp glowing spines, its skin a throbbing patchwork of purple and green. It is hairy and purrs.',
+        ],
+      ],
+      lore: [
+        [
+          'This is the grub stage of the hazewing moth, which feeds on delerium crystals, dissolving them into sludge with special saliva and turning that into the dust that later coats its wings. It is always hungry, attacks anything close without thought, and keeps biting downed targets even mid-fight. It prefers delerium, so offering a shard can distract or calm it.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -4942,6 +5327,18 @@ export default createPublicationMonsters({
       name: 'Hooded Lantern Apothecary',
       languages: ['Common'],
       tableNotes: [['Gear: hand crossbow, leather armor, quiver, shortsword']],
+      appearance: [
+        [
+          "A member of the Hooded Lanterns' Support Regiment who works as an apothecary in a fortification.",
+        ],
+      ],
+      lore: [
+        [
+          'The Hooded Lanterns are a ragtag force made up of old Drakkenheim City Watch remnants and Westemar Civil War veterans under Lord Commander Elias Drexel, who want to clear monsters and outlaws from the capital, find an heir and restore Westemar. New recruits often start in the Support Regiment, which supplies cooks, apothecaries, scribes and maintenance staff. Many stay there for good, and the work underpins the whole force.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5038,6 +5435,18 @@ export default createPublicationMonsters({
     hunter_hulk: {
       name: 'Hunter Hulk',
       languages: [],
+      appearance: [
+        [
+          'A hunched, swollen shape lurches from the shadows, two huge tentacle arms ending in hooks. Its face has two big octarine eyes but no mouth, and a snarling jagged-toothed maw with a purple tongue gapes in its belly. Then it vanishes, still squealing.',
+        ],
+      ],
+      lore: [
+        [
+          'It stalks the streets constantly hungry, unlike other dregs seeking prey, and has mutated skin that turns it invisible. It waits unseen, then lunges, whips its arms around the target, reels it in and eats it with its belly mouth. If it breaks free or is badly hurt it goes invisible again and slinks away.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -5191,6 +5600,17 @@ export default createPublicationMonsters({
     injector: {
       name: 'Injector',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A lean, eight-foot construct with a harness of tanks and hoses running to four jointed arms tipped with enormous syringes. It has a bald head, pale beady eyes, a hose-fed mask where a mouth would be, and slide-in lenses for fine work.',
+        ],
+      ],
+      lore: [
+        [
+          'Injectors are among the first helpers an apothecary builds, and they mix medicines or poisons from the tanks they carry. Reanimators use them to dose test subjects with sedatives or stimulants, pathogenists to spread disease, and chemists to handle volatile mixtures so that an accident costs an assistant rather than the maker. They double as guards for hidden labs. An injector feels no pain, does not retreat, and uses a booster dose on nearby allies before a fight, otherwise attacking with its needles.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -5344,6 +5764,17 @@ export default createPublicationMonsters({
     innocent_harvester: {
       name: 'Innocent Harvester',
       languages: ['Common'],
+      appearance: [
+        [
+          'A child-sized figure of wood, clay and scrap metal with visible tubes pumping blood through it. It wears scavenged rags and a wig over a painted doll face, one hand ending in scissors and scalpels and the other in a syringe, and it drags a bag of body parts.',
+        ],
+      ],
+      lore: [
+        [
+          'Apothecaries build harvesters as mindless, discreet gatherers of bones, organs and flesh, preferring them to thugs who might talk. They are made to pass as street urchins at a glance, though a few take the form of stuffed animals or are masked with real faces. Harvesters would rather hide and flee than fight. If cornered they leap onto a target, sedate the wounded one, and run.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -5442,6 +5873,18 @@ export default createPublicationMonsters({
     juggernaut_hulk: {
       name: 'Juggernaut Hulk',
       languages: [],
+      appearance: [
+        [
+          'A mass of rippling muscle held in rusted scraps of armour by leather straps, with a face hidden inside a huge metal dome. It carries a crude blade in each hand, filed from scrap and caked with rust and dried blood, and its heavy breathing is audible.',
+        ],
+      ],
+      lore: [
+        [
+          "Nobody knows if the helmet is self-made or part of some experiment. They have been seen near the Kleinberg Estates, which feeds rumours about the Pale Man, and may be a way to sharpen the senses and force a mutation. Despite the dome it senses its surroundings acutely. It prowls the streets like a sentinel, sometimes guards groups of Dregs or the Pale Man's estate, and occasionally wanders near the city walls toward Dregs or contaminated places. It charges, knocks foes down, and carves into them, never flees, and shrugs off most wounds.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -5543,6 +5986,18 @@ export default createPublicationMonsters({
     last_memory: {
       name: 'Last Memory',
       languages: ['Common'],
+      appearance: [
+        [
+          'A human-shaped silhouette scorched into brick or cobblestone that moves in distorted shapes while distant screams and wails fill the air.',
+        ],
+      ],
+      lore: [
+        [
+          "These formed when the meteor hit Drakkenheim, when people near the impact were burned away and the blast trapped their memories. It is neither ghost nor specter. The person is utterly gone and only their suffering remains in shape. It cannot be reasoned with, soothed or helped, and wants only to force its moment of death into others' minds. It slides along ground and walls, hiding as shadow or a flicker at the edge of sight, then cries out so that nearby people relive their last moments. It does not flee, and one that is destroyed returns days later.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5708,6 +6163,14 @@ export default createPublicationMonsters({
       name: 'Lieutenant Petra Lang',
       languages: ['Common'],
       tableNotes: [['Gear: longbow, quiver, shortsword, studded leather armor']],
+      appearance: [['A soldier of the Hooded Lanterns.']],
+      lore: [
+        [
+          'The Hooded Lanterns form an informal army of old Drakkenheim City Watch remnants and Westemar Civil War veterans under the grim Lord Commander Elias Drexel, aiming to clear monsters and outlaws from the capital, find a royal heir and restore Westemar. They have three regiments: Support (cooks, apothecaries, scribes and maintenance), Watch (walls, gates, newly taken positions and scouting) and Vanguard (the front line that finds vantage points and clears monster dens). They plan fights, set ambushes and traps, know the ruins well, travel well-equipped and skilled with bows, and post archers on roofs and towers and scouts to run for help.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5782,6 +6245,18 @@ export default createPublicationMonsters({
     living_biohazard: {
       name: 'Living Biohazard',
       languages: [],
+      appearance: [
+        [
+          'A gelatinous blob that rolls and drips across the ground like a slow spill, shifting between liquid and gel and colour, sometimes matching its surroundings until it nearly vanishes.',
+        ],
+      ],
+      lore: [
+        [
+          'Chemists create these by accident while trying to make stronger alchemical mixtures, but a sliver of sentience in a chemical is valuable as a sort of defence. It is an endless, simple-minded ooze that glides around looking for creatures to dissolve, and it can stick to walls or ceilings before falling onto targets. It stays still until it can drop on or surround a victim, and never flees.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -5920,6 +6395,18 @@ export default createPublicationMonsters({
     loathsome_gag_fly: {
       name: 'Loathsome Gag Fly',
       languages: [],
+      appearance: [
+        [
+          'A huge fly that bobs and darts with a loud wing buzz, mostly eyes, with saliva and mucus leaking from tiny jaws. Its abdomen is a little translucent, with purple-green liquid sloshing inside, and it screams in an eerily human voice that sounds like a plea for help.',
+        ],
+      ],
+      lore: [
+        [
+          'Corpses do not rot in Drakkenheim, so maggots thrive on the contaminated dead and grow into gag flies that gather where bodies lie, or shadow Haze Husks and Haze Wights hoping for scraps. A large nest is known to sit in the city cistern and in the old well at Slaughterstone Square. Their acid mucus fills a pouch in the thorax, and like any fly they use it to dissolve food. At their size this means vomiting sprays of burning acid on prey and then feeding on it. They are simple creatures that want flesh to eat and to lay larvae on corpses.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -6004,6 +6491,18 @@ export default createPublicationMonsters({
     lob_frog: {
       name: 'Lob Frog',
       languages: [],
+      appearance: [
+        [
+          'A spined, mottled green and brown frog-thing with a wide, segmented mouth, big black eyes on either side, and dripping insect-like pincers. It crouches by a heap of translucent, sticky, brightly coloured eggs that pulse with contaminated energy, one of which it holds ready to throw.',
+        ],
+      ],
+      lore: [
+        [
+          "Frogs from the Kesselwald travel along the Drann River into Drakkenheim, and the contaminated water has bloated them and altered how they breed. Their eggs need a living host to finish developing, so they throw them at anything that passes, adventurers, scouts and other creatures alike, hoping a few will take. A newborn lob frog keeps a hint of its host, such as rodent whiskers from a ratling or a human's eye colour. They make river crossings dangerous.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', 'River'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6081,6 +6580,18 @@ export default createPublicationMonsters({
     lurker_on_the_threshold: {
       name: 'Lurker on the Threshold',
       languages: ['telepathy 120 ft.'],
+      appearance: [
+        [
+          'A cosmic being with three dark, unblinking eyes and fleshy tendrils hanging from a slimy body. Its flesh ripples black and void-like with splashes of deep purple and blue, as if showing a view of the heavens, accompanied by cackling, dissonant laughter that tears at the mind.',
+        ],
+      ],
+      lore: [
+        [
+          'It drifts into our world through Thin Places, wandering the space between worlds and feeding on raw arcane energy found in gaps between realities and on the broken particles of dead worlds. It is a vile and manic entity that screams in the minds of those who see it, living between places and non-places, and personifying the churning nothing between the threads of existence. It fires cosmic rays that warp minds with maddening truths or unmake victims at a cellular level, holds them with tendrils while blasting, then discards them.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', 'Thin Places'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -6296,6 +6807,18 @@ export default createPublicationMonsters({
     maw_vermin: {
       name: 'Maw Vermin',
       languages: [],
+      appearance: [
+        [
+          'What looks at first like a mound of rotten meat is a rolling mass of pink flesh and patchy fur with a rat snout and eyes sticking out, three long gangly arms, and a midsection that gapes open on a big purple tongue and jagged teeth, dripping saliva.',
+        ],
+      ],
+      lore: [
+        [
+          "Nobody knows if these are ratlings mutated by Drakkenheim's contamination, rats that overindulged in delerium, or something from another dimension. Some ratlings worship them as heralds of the Rat God, and some gorge on delerium hoping to become one. It comprehends nothing beyond its next meal, and ratlings keep away because it will eat them too. It lumbers toward food, pulls targets in with its maw, and spits half-digested scraps to catch more.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -6720,6 +7243,18 @@ export default createPublicationMonsters({
     octarine_tree: {
       name: 'Octarine Tree',
       languages: [],
+      appearance: [
+        [
+          'A massive tree with nearly black bark and thriving purple leaves whose veins pulse with octarine light. Clusters of softly glowing delerium crystals hang from the branches like acorns and chime eerily in the wind. When it moves, its roots tear out of the earth and its bark twists into a snarling, grotesque face.',
+        ],
+      ],
+      lore: [
+        [
+          "The trees around Drakkenheim for miles are dying, blackened things, but a few still hold life, drinking the contaminated rain and groundwater of the Drann River. Their roots draw up delerium from the soil and change them in baffling ways, and nearer the city they grow strange crystal fruit in unnatural colours. This one stands in Queen's Park Garden and lurches at intruders.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', "Queen's Park Garden"],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -6854,6 +7389,18 @@ export default createPublicationMonsters({
       name: 'Pilgrim',
       languages: ['Common'],
       tableNotes: [['Gear: club']],
+      appearance: [
+        [
+          'A commoner in plain grey robes tied with frayed rope and old sandals, carrying almost nothing.',
+        ],
+      ],
+      lore: [
+        [
+          "Pilgrims have given up possessions for a simple life devoted to the Falling Fire, inspired by Lucretia Mathias's prophetic words. Some come looking for purpose in the Testament of the Falling Fire, others are pious followers of the Sacred Flame disillusioned with clerical corruption, and a few follow friends and family. Untrained for combat, they fight as a mob, using numbers, and their faith keeps morale steady while their leaders urge them on.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6893,6 +7440,18 @@ export default createPublicationMonsters({
     protean_abomination: {
       name: 'Protean Abomination',
       languages: [],
+      appearance: [
+        [
+          'A quivering heap of flesh drags itself forward on human arms, tentacles and taloned limbs, with many mismatched eyes sliding across it, tumours swelling and shrinking, and a clamour of cries from deformed mouths.',
+        ],
+      ],
+      lore: [
+        [
+          'What is left when repeated contamination mutations fold in on themselves until nothing of the original creature can be recognised. It has lost all strategy and wants only to feed and grow, lurking in dark ruins, cellars or rubble and lunging out at anything passing. It is territorial, nests in one place for months or years, and only moves after weeks without a meal. Badly hurt, it squeezes into a gap nothing can follow and waits for easier prey.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins', 'Cellars'],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -7088,6 +7647,18 @@ export default createPublicationMonsters({
     pyknic_maunder: {
       name: 'Pyknic Maunder',
       languages: [],
+      appearance: [
+        [
+          'A writhing heap made up of arms, hands, mouths and eyes, including palms holding eyes whose pupils are mouths, fingers that end in yet more hands, and lips serving as eyelids. Some eyes dart in panic while others droop, and some mouths murmur poetry in obscure tongues while hands wave wildly.',
+        ],
+      ],
+      lore: [
+        [
+          'The end point of sudden, overwhelming exposure to contamination, such as near the star-fall, strong contaminated magic, or wounds from delerium-tipped weapons. Maunders roam Drakkenheim everywhere and attack all they meet, even each other, absorbing more flesh from their kills. One that grows too big collapses and splits into several smaller maunders, and rarely a number of them merge into a protean abomination. It has no tactics and simply grabs whatever it can reach.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins', 'City'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -7640,6 +8211,18 @@ export default createPublicationMonsters({
     ravenous_ghoul: {
       name: 'Ravenous Ghoul',
       languages: ['Common'],
+      appearance: [
+        [
+          'An emaciated, hairless, ash-white figure with black pits for eyes, pointed fingers and jagged teeth, dripping gore as it breaks off from a corpse to sniff the air.',
+        ],
+      ],
+      lore: [
+        [
+          "Failed or disobedient vampire thralls become ghouls, cursed undead bound to a vampire's will. They are mindless and vicious, charge hungrily, rarely retreat, and are easily lured by a fresh corpse. Some vampires starve them for months to make them more frenzied, and may field ghoul priests and ghoul lords to direct them.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Crypts', 'Ruins'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -7694,6 +8277,18 @@ export default createPublicationMonsters({
     reality_cyst: {
       name: 'Reality Cyst',
       languages: [],
+      appearance: [
+        [
+          'A glistening cluster of pustules grows straight out of wood, stone and earth. Light bends wrongly around it and angles seem to fracture, as if seen through broken glass.',
+        ],
+      ],
+      lore: [
+        [
+          'A cancerous growth around a Thin Place in Drakkenheim, where a rift to the Space Between Worlds festers. Those near it cannot see it and instead drift in a trance through shifting, nonsensical surroundings, forgetting where they are. Scouts have been found standing still and dazed after days lost on a familiar street. It tends to vanish soon after being glimpsed.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins', 'City'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -8003,6 +8598,18 @@ export default createPublicationMonsters({
       name: 'Royal Assassin',
       languages: ['Common'],
       tableNotes: [['Gear: studded leather armor']],
+      appearance: [
+        [
+          'A figure clad in black and red, hooded and masked, with a flourished cape, poised to strike with poison-tipped throwing daggers.',
+        ],
+      ],
+      lore: [
+        [
+          'An elite killer on retainer to the Queen of Thieves, who keeps one or two close as guards but still distrusts them. Each prepares its poison for the target, using a silencing one on casters or when quiet matters, a strength-sapping one on warriors, and a slowing one on agile targets who might run.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['City'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -8299,6 +8906,18 @@ export default createPublicationMonsters({
     sewer_thing: {
       name: 'Sewer Thing',
       languages: ["understands Common but doesn't speak"],
+      appearance: [
+        [
+          'The murky sewage churns and a heap of rubbish, algae and sewage rises, hissing and gurgling, lashing out with writhing tendrils with surprising speed.',
+        ],
+      ],
+      lore: [
+        [
+          'Nobody knows its origin: perhaps a drowned person merged with sewage, perhaps contamination turning plants and rubbish into a monster. It hunts the sewers of Drakkenheim, lurking disguised as plant matter on debris, then bursts out to pull surprised victims under and dissolve them. After grabbing a meal it retreats and flees rather than fight on. Nearby creatures retch. Dregs and Ratlings tell stories of it, teaching young ones never to go out alone and to flee at once if the water stirs.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Sewers', 'Ruins'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -8415,6 +9034,18 @@ export default createPublicationMonsters({
       name: 'Silver Order Cavalier',
       languages: ['Common and one other language'],
       tableNotes: [['Gear: javelin, lance, shield, splint armor']],
+      appearance: [
+        [
+          "A paladin in heavy armour, blue cape trimmed in silver and embroidered with the Order's emblem, wearing a helmet with a large blue plume and a quiver of javelins at the back.",
+        ],
+      ],
+      lore: [
+        [
+          "Cavaliers are the Silver Order's griffon riders, trained for ground assault and aerial fighting. Each bonds for life with a griffon, which can be summoned by divine magic. The Order is a regiment endorsed by the church of paladins and knights from Elyria sworn to fight supernatural evil, and they regard delerium as a blight. They work as a cohesive unit with simple signals and calls, and a unit always includes a paladin or Flamekeeper who gives healing and protective magic.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -8512,6 +9143,18 @@ export default createPublicationMonsters({
       name: 'Skeleton Archer',
       languages: ["understands Common but can't speak"],
       tableNotes: [['Gear: longbow, quiver']],
+      appearance: [
+        [
+          'A skeleton with soft blue light in its eye sockets, holding a bow of bone and old sinew, frost forming on the arrow tip as it aims.',
+        ],
+      ],
+      lore: [
+        [
+          "Vampires raise these from the long-dead in their crypts, former thralls, prisoners, slayers and wanderers. They need no feeding and can be stored in tombs. They are mindless foot soldiers that fight to the death on orders, feel no pain, and supply an army's ranged troops with elemental chill.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Crypts'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -8570,6 +9213,18 @@ export default createPublicationMonsters({
     skeleton_mage: {
       name: 'Skeleton Mage',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A skeleton in tattered robes, thunderous sparks and embers of fire dancing around its fingertips.',
+        ],
+      ],
+      lore: [
+        [
+          'Often a former thrall, acolyte or captive of a vampire lord, twisted in undeath into a caster of elemental magic that serves its maker forever. The general text covers vampire skeleton troops: raised from crypts, fed on nothing, and mindless in battle.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Crypts'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -8651,6 +9306,18 @@ export default createPublicationMonsters({
       name: 'Skeleton Soldier',
       languages: ["understands Common but can't speak"],
       tableNotes: [['Gear: shield, spear']],
+      appearance: [
+        [
+          "A skeleton caked in mud and moss, in a skull cap and one pauldron, bearing a rusted shield with House von Drakken's sigil and a poison-tipped spear.",
+        ],
+      ],
+      lore: [
+        [
+          'Vampires raise these from crypts of old warriors and holy soldiers, and from prisoners whose bodies they discard. Most dead on the continent are cremated, so vampires must work to find skeletons. Raised ones are mindless troops that fight to the death for their masters.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Crypts'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -8700,6 +9367,18 @@ export default createPublicationMonsters({
     skinwing: {
       name: 'Skinwing',
       languages: [],
+      appearance: [
+        [
+          'A flock of hairless, dog-sized winged creatures, grotesque patchworks of pigs, goats and sheep, with thin torn-skin wings showing bone, ram heads with mismatched bulging eyes, a curved beak full of uneven teeth dripping sticky saliva, and mismatched donkey legs.',
+        ],
+      ],
+      lore: [
+        [
+          "Products of apothecaries' experiments on animals, made by people who have lost their morals. They gang up on one target and swarm it.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -8778,6 +9457,18 @@ export default createPublicationMonsters({
     skretch: {
       name: 'Skretch',
       languages: [],
+      appearance: [
+        [
+          'A big, ragged-feathered bird with two featherless heads on long crooked necks, bulging eyes and hooked beaks dripping hissing corrosive saliva, with a swollen belly that shudders.',
+        ],
+      ],
+      lore: [
+        [
+          "A mutated scavenger blending vulture, pigeon and crow. It is a cowardly opportunist that circles high until a fight ends and then attacks the wounded or unready. It showers prey in acid vomit and waste to turn it to slop, stays well above its target, flees if engaged up close, and avoids the harpies of Drakkenheim's spires. Meat or strong-smelling food can distract it.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruins', 'City'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -8988,6 +9679,17 @@ export default createPublicationMonsters({
     uncontained_growth: {
       name: 'Uncontained Growth',
       languages: [],
+      appearance: [
+        [
+          'A shuddering heap of fleshy tendrils with eyes, mouths and limbs in no sensible order, and the odd half-swallowed creature. Whimpers and screams rise from it as it shambles on.',
+        ],
+      ],
+      lore: [
+        [
+          "This is a patient ruined by a Mutagenist's elixir when controlled muscle growth runs wild. What remains of the victim is beyond rescue, mad and violent. Cruel Mutagenists sometimes keep them to defend their labs and aim them at enemies. In battle it is a blunt brute that seizes, crushes and hurls a target within a single turn.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -9063,6 +9765,17 @@ export default createPublicationMonsters({
     undulating_polyp: {
       name: 'Undulating Polyp',
       languages: [],
+      appearance: [
+        [
+          'A glistening, mucus-filled growth on a sheet of boneless skin that wriggles along. Reality seems to shimmer and fold around it while acidic slime drips and hisses from small sharp mandibles.',
+        ],
+      ],
+      lore: [
+        [
+          'Undulating polyps appeared only after Thin Places opened in Drakkenheim. Nobody knows what they want or exactly where they come from. They keep jumping between spots and seem to be in several places at once, and they spray acid, avoid fights, and teleport away from harm. They multiply by splitting, and are said to be weak to piercing weapons.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -9167,6 +9880,17 @@ export default createPublicationMonsters({
     void_pirate_captain: {
       name: 'Void Pirate Captain',
       languages: ['Common'],
+      appearance: [
+        [
+          'A pale, bluish-purple humanoid that feels wrong the longer you look, with distorted features: no face at all, overlong arms with extra elbows, insect eyes, or a flickering body that seems to be in two places. Eyes, where present, glow octarine.',
+        ],
+      ],
+      lore: [
+        [
+          'Void pirates are people who fell through Thin Places into the Space Between Worlds and survived contamination, changed rather than dissolved. They cannot return home and are hunted by the native creatures, so they form scavenger crews on makeshift elemental-powered ships. Toward mortal visitors they are unpredictable: some guide lost sailors, others imprison them to serve as decoys, bargaining chips or tribute for safe passage.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -9530,6 +10254,17 @@ export default createPublicationMonsters({
     wretched_patient: {
       name: 'Wretched Patient',
       languages: ['Common'],
+      appearance: [
+        [
+          'A frail, pale figure with sagging flesh and sunken eyes, in thin gowns, soiled bandages or rags, often blistered or bleeding and muttering gibberish.',
+        ],
+      ],
+      lore: [
+        [
+          "These are victims of apothecaries' failed experiments, left half-mad by the changes. Some are kept in line with promises of a cure and stay on as orderlies, guards or assistants. Cruel apothecaries deepen control through surgery, conditioning and indoctrination until the patients defend them fanatically. The variety depends on the apothecary's field, such as alienists who produce mindless, obedient servants.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -9583,6 +10318,17 @@ export default createPublicationMonsters({
       name: 'Zealot',
       languages: ['Common'],
       tableNotes: [['Gear: greatsword']],
+      appearance: [
+        [
+          'A guard in gray robes and a Falling Fire tabard, armed with a big plain greatsword, with burning faith in his gaze.',
+        ],
+      ],
+      lore: [
+        [
+          "Zealots are fighters of the Falling Fire who defend pilgrims heading to the Sacrament. They go with expeditions into the city and garrison the faith's strongholds. They dress plainly and own little, but they have the skill to repel monsters and bandits.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -9644,6 +10390,18 @@ export default createPublicationMonsters({
     zealot_of_morrigan: {
       name: 'Zealot of Morrigan',
       languages: ['Common'],
+      appearance: [
+        [
+          'A humanoid resembling a painted, weathered statue with raven, skull and blood-line tattoos, sharp fangs and hungry bloodshot eyes. It howls at the moon without speaking.',
+        ],
+      ],
+      lore: [
+        [
+          "A vampire of the Court of the Night devoted to Morrigan, rumoured creator of the first vampires. They lead the court's assaults and are sent to destroy enemies, notably the servants of Arwyn and Kromac. They see civilisation as a blight, raze settlements, and hunt at night, many reportedly in Netherwind. They seldom use weapons, and the scent of blood sends them into a frenzy.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Netherwind'],
       stats: {
         size: 'medium',
         type: 'undead',

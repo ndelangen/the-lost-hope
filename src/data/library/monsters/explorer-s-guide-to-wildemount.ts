@@ -139,6 +139,18 @@ export default createPublicationMonsters({
       name: 'Aeorian Absorber',
       alignment: 'neutral evil',
       languages: ["understands Draconic but can't speak"],
+      appearance: [
+        [
+          'From afar a canine or feline quadruped; closer, its monstrous nature shows, with a tail that ends in an eye always watching for prey.',
+        ],
+      ],
+      lore: [
+        [
+          'Aeorian hunters were created by mages of the sky city of Aeor to fight celestials, fiends, fey and even deities. Many survived its fall onto Eiselcross and now stalk its ruins and the ice. Made from beasts and humanoids, they have vividly coloured flesh. They do not age, and centuries of peace have turned their imposed bloodlust ravenous, so most attack on sight, though never each other. Each recalls everything since its making, possibly including where Aeorian relics lie, but they cannot communicate well. They understand Draconic without speaking it and need no food or drink. The absorber pulls magical energy into itself and fires it from its tail.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Eiselcross'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -262,6 +274,18 @@ export default createPublicationMonsters({
       name: 'Aeorian Nullifier',
       alignment: 'neutral evil',
       languages: ["understands Draconic but can't speak"],
+      appearance: [
+        [
+          'A hunter whose torso is covered in grotesque, razor-toothed mouths that gnash together in a maddening racket.',
+        ],
+      ],
+      lore: [
+        [
+          'Aeorian hunters were created by mages of the sky city of Aeor to fight celestials, fiends, fey and even deities. Many survived its fall onto Eiselcross and now stalk its ruins and the ice. They do not age, and centuries of peace have turned their imposed bloodlust ravenous, so most attack on sight, though never each other. Each recalls everything since its making, possibly including where Aeorian relics lie, but they cannot communicate well. They understand Draconic without speaking it and need no food or drink. The nullifier is built to resist and cancel magic, so it is especially dangerous to casters.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Eiselcross'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -383,6 +407,14 @@ export default createPublicationMonsters({
       name: 'Aeorian Reverser',
       alignment: 'neutral evil',
       languages: ["understands Draconic but can't speak"],
+      appearance: [['A savage hunter with teeth and claws, with bright, unnatural flesh.']],
+      lore: [
+        [
+          "Aeorian hunters were created by mages of the sky city of Aeor to fight celestials, fiends, fey and even deities. Many survived its fall onto Eiselcross and now stalk its ruins and the ice. They do not age, and centuries of peace have turned their imposed bloodlust ravenous, so most attack on sight, though never each other. Each recalls everything since its making, possibly including where Aeorian relics lie, but they cannot communicate well. They understand Draconic without speaking it and need no food or drink. The reverser is a brutal melee fighter, but worse is how it unpicks enemies' healing magic and turns it back on them.",
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Eiselcross'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -969,6 +1001,14 @@ export default createPublicationMonsters({
       name: 'Core Spawn Crawler',
       alignment: 'chaotic evil',
       languages: ["understands Deep Speech but can't speak"],
+      appearance: [['An eyeless, small scuttling creature with clattering taloned limbs.']],
+      lore: [
+        [
+          'Core spawn are subterranean heralds, servants and troops of the Elder Evils, roused by the calamities the Betrayer Gods caused, and they appear above ground after quakes like the one that opened the Miskath Pit. Warlocks and cultists sometimes focus on seismically unstable ground to bring them sooner. Many gather in desolate Blightshore, which makes study hard, and those who return tell of twisting caves and nests where captives are pulled under. Crawlers are the tiniest and commonest, go about solo, and several together are called a vein.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -1168,6 +1208,18 @@ export default createPublicationMonsters({
       name: 'Frost Giant Zombie',
       alignment: 'neutral evil',
       languages: ["understands Giant but can't speak"],
+      appearance: [
+        [
+          'A hulking giant, rimed with frost and ruined by necromantic energy, wanders the wasteland around the Fortress of the Dead Jarl.',
+        ],
+      ],
+      lore: [
+        [
+          'An unknown Aeorian object was carried into the fortress in Eiselcross to please the frost giant Conessa Berg, and its unstable power burst out, warping the inhabitants into monstrous, frost-covered undead. They now stalk the ruins and kill every living thing with fierce rage. The remains of would-be heroes lie scattered where they have been met. Many northern expeditions have paid for underestimating them, and only rumours tend to return.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Eiselcross'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -1270,6 +1322,17 @@ export default createPublicationMonsters({
       name: 'Gearkeeper Construct',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A rolling ball of overlapping armour plates speeds along passages. When it finds an intruder, the plates open and many metal legs unfold, blades whirring around it.',
+        ],
+      ],
+      lore: [
+        [
+          'A clockwork sentry built by tinkerers and mage-engineers of the Age of Arcanum to guard deep vaults. Most are rusted and forgotten, but some still patrol forgotten tombs and dungeons under their old orders. It spots intruders while rolling, then deploys its legs and slashing blades, and can fire heavy steel spears from its core. If overwhelmed it sprays hot jagged metal over groups. Modern tinkerers have copied the design from recovered wrecks for some prisons and wealthy collectors.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -1813,6 +1876,16 @@ export default createPublicationMonsters({
       name: 'Husk Zombie',
       alignment: 'neutral evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        ['A fast, bloodthirsty undead, drawn out of the dead by a terrible roaming fog.'],
+      ],
+      lore: [
+        [
+          'The wastes of Eastern Wynandir hold curses from the Calamity, one of which is a roving fog that draws fallen bodies up as these resilient zombies. Some fiends there also feed on life force and leave husk zombies behind.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Eastern Wynandir'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2340,6 +2413,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['any two languages'],
       habitats: ['urban'],
+      appearance: [['An imperial inquisitor with a prosthetic right hand.']],
+      lore: [
+        [
+          "Commander Struther Felmont and the Dwendalian garrison of Fort Venture have grown hard and cruel under Pellinost. He experiments deliriously on the marsh's humanoids with a sadistic use of divine magic. Few guards respect him, but all obey from fear of harsh punishment. They work eight-hour shifts of defence, training and patrol.",
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2699,6 +2779,16 @@ export default createPublicationMonsters({
       name: 'Sea Fury',
       alignment: 'chaotic evil',
       languages: ['Aquan', 'Common', 'Giant'],
+      appearance: [
+        ['A lone, deranged sea hag, last of its coven, among hoarded treasure in its lair.'],
+      ],
+      lore: [
+        [
+          'A sea hag that killed the rest of its coven one by one, absorbing their power, and went mad with that power and loneliness. It hoards treasure, spreads rumours, and goes to great lengths to lure seafarers and explorers into its lair to ease the loneliness, planning to destroy them once they stop being amusing.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Sea'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -2858,6 +2948,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['underwater'],
+      appearance: [["A muscular humanoid with coarse greyish skin and a shark's head."]],
+      lore: [
+        [
+          "Shark hunters of Palma Flora cursed through Uk'otoa's magic by the sahuagin shaman Selachai. They keep their old minds and personalities but obey their sahuagin masters through Shark Telepathy. They might resemble NPCs the party failed to save. The curse ends only with remove curse or similar magic.",
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -3095,6 +3192,16 @@ export default createPublicationMonsters({
       name: 'Swavain Basilisk',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['An underwater grotto filled with stone figures of sailors and sea life marks its lair.'],
+      ],
+      lore: [
+        [
+          'The Swavain Islands, their commonest home, gave them their name, and these hunters also range through inland waterways and sometimes sewers. Pearl divers and seafloor scavengers tell of the statue gardens.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Ocean', 'Sewers'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -3205,6 +3312,17 @@ export default createPublicationMonsters({
       name: 'Udaak',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        [
+          'A hulking fiend like a demonic mix of ox and gorilla, with four pairs of red eyes and a mess of teeth and tusks.',
+        ],
+      ],
+      lore: [
+        [
+          "Udaaks, called the brutes of Xhorhas, wander alone near the borders of settled land in eastern Wynandir. They scavenge, but a hungry one will charge nearly any prey. Originally brought from the Abyss, they were cut off from it after the Divergence. The Kryn Dynasty's warmasters now restrain some with arcane collars and send them against the Dwendalian Empire as living siege engines.",
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'fiend',

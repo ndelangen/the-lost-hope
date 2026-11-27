@@ -690,6 +690,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Auran', 'Common'],
+      appearance: [
+        [
+          'A Howling Hatred ascetic who moves as if the world crawls past while it stays calm at the centre of a storm.',
+        ],
+      ],
+      lore: [
+        [
+          'Hurricanes are skilled initiates who mimic storm cycles through breathing and ascetic philosophy. They hate decadence and want the physical world shattered so beings can live free of material things. They see the world in slow motion, call up fierce gusts, snatch projectiles from the air and drift down from heights like feathers.',
+        ],
+        ['Sources: ', 'DDEP2 - Mulmaster Undone V2'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -780,6 +791,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A cultist wearing an eye patch over a frosty white magic orb, with ice-cold blood and a constant aura of thin cold fog.',
+        ],
+      ],
+      lore: [
+        [
+          "Seeking the cold power of elemental water, a shiver cuts out an eye and puts in the orb, which can fire a ray of ice. The patch covers it when idle, but its power is still felt. Everyone, even fellow cultists, dreads them, and just the Crushing Wave cult's leaders have the nerve to command them.",
+        ],
+        ['Sources: ', 'DDEP2 - Mulmaster Undone V2'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

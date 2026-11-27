@@ -796,6 +796,17 @@ export default createPublicationMonsters({
       name: 'Drowned Ascetic',
       alignment: 'chaotic evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A drowned martial artist in tattered robes, fists wrapped in long strips of rotting cloth, rises from the sea and moves with surprising speed.',
+        ],
+      ],
+      lore: [
+        [
+          "An undead monk of the assault on Tammeraut's Fate that keeps its fighting reflexes despite its decay. Like the other drowned ones there, it carries bluerot, a disease caught mostly from wounds the infected inflict.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -888,6 +899,17 @@ export default createPublicationMonsters({
       name: 'Drowned Assassin',
       alignment: 'chaotic evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A figure hidden behind a plain driftwood mask creeps from shadow to shadow with a barnacle-crusted hand crossbow. If the mask comes off, the face beneath terrifies.',
+        ],
+      ],
+      lore: [
+        [
+          "An undead killer that acts out its old trade, appearing in the undead attack on Tammeraut's Fate. It stalks silently and shoots with deadly accuracy. It spreads bluerot, as the other drowned ones there do, usually through wounds.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1034,6 +1056,17 @@ export default createPublicationMonsters({
       name: 'Drowned Blade',
       alignment: 'chaotic evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A barnacle-crusted undead warrior has starfish clinging to its wispy beard and bloated grey eyes full of evil rage.',
+        ],
+      ],
+      lore: [
+        [
+          "One of the undead that attacks the hermitage in Tammeraut's Fate, and it fights with unexpected cunning. It carries bluerot like its fellow drowned ones.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1117,6 +1150,17 @@ export default createPublicationMonsters({
       name: 'Drowned Master',
       alignment: 'chaotic evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A waterlogged undead hangs over the remains of those it killed. Torso, arms and head are still as they were in life, while the legs have become dark tentacles.',
+        ],
+      ],
+      lore: [
+        [
+          "It is bound to a place called the Pit of Hatred in Tammeraut's Fate, anchored to a strong source of magic that keeps it from straying. It commands the other drowned ones and forces them to serve its dark plans, and like them it carries bluerot.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1591,6 +1635,17 @@ export default createPublicationMonsters({
       name: 'Harpy Matriarch',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        [
+          "A grey-feathered harpy elder sits amid a haze of spirits that look like seabird skeletons while her flock fights over scraps at Tammeraut's Fate.",
+        ],
+      ],
+      lore: [
+        [
+          "She is the senior matron of the harpies there and enjoys the sight of her flock's squabbling.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1790,6 +1845,13 @@ export default createPublicationMonsters({
       tags: ['goblinoid'],
       alignment: 'lawful evil',
       languages: ['Common', 'Goblin'],
+      appearance: [['An aquatic hobgoblin with a brightly coloured face and working gills.']],
+      lore: [
+        [
+          'Koalinths are warlike, aggressive sea-dwelling hobgoblins, known for their ferocity and a particular hatred of elves.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2149,6 +2211,14 @@ export default createPublicationMonsters({
       tags: ['triton'],
       alignment: 'lawful good',
       languages: ['Common', 'Primordial'],
+      appearance: [['A triton, held prisoner by sahuagin.']],
+      lore: [
+        [
+          'Kysh guards the deep sea realms and will fight alongside the party. Tritons come from the Elemental Plane of Water and came to the Material Plane to guard dark places in the ocean depths, for instance portals and chasms through which horrors could climb. If one does, they arm themselves and force it out.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Deep ocean'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2220,6 +2290,12 @@ export default createPublicationMonsters({
       name: 'Living Iron Statue',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [['A squat, solid statue of pure iron with hands formed into deadly weapons.']],
+      lore: [
+        ["One example guards an evil cult's treasure on the Isle of the Abbey."],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Isle of the Abbey'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -2322,6 +2398,18 @@ export default createPublicationMonsters({
       tags: ['lizardfolk'],
       alignment: 'neutral',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'An unarmed-looking lizardfolk wandering the halls, who will pick up a weapon and shield if it finds them.',
+        ],
+      ],
+      lore: [
+        [
+          'Lizardfolk commoners fight just as hard as armed lizardfolk, and will take up any weapons and shields they come across.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Wetland'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2361,6 +2449,16 @@ export default createPublicationMonsters({
       tags: ['lizardfolk'],
       alignment: 'neutral',
       languages: ['Draconic'],
+      appearance: [
+        ['A lizardfolk enlarged by ritual, with claws grown long and as hard as steel.'],
+      ],
+      lore: [
+        [
+          "A shaman performs a ritual lasting several days that fills a lizardfolk with the primal magic of Semuanya. The render's claws lengthen and harden, its body grows bigger, and its temper becomes yet more savage.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Wetland'],
       stats: {
         size: 'large',
         type: 'humanoid',
@@ -2453,6 +2551,14 @@ export default createPublicationMonsters({
       tags: ['lizardfolk'],
       alignment: 'neutral',
       languages: ['Draconic'],
+      appearance: [['A sturdy lizardfolk in thick armour made of crocodile scales and metal.']],
+      lore: [
+        [
+          "Scaleshields form a clan's officer and champion class. They know martial weapons and sophisticated battle tactics, and they defend lizardfolk lairs.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Wetland'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2605,6 +2711,14 @@ export default createPublicationMonsters({
       tags: ['locathah'],
       alignment: 'neutral',
       languages: ['Aquan', 'Common'],
+      appearance: [['A far-ranging fish-person with a colourful crossbow.']],
+      lore: [
+        [
+          'The hunter is trained to follow and stalk quarry both ashore and underwater. Hunters often lead small bands of locathah or act as envoys for their people. Their poisoned, quick-loading crossbows seldom miss.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Coastal', 'Underwater'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2889,6 +3003,14 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral good',
       languages: ['Aquan', 'Elvish'],
+      appearance: [['A sea elf, clever and resourceful.']],
+      lore: [
+        [
+          'Before he was captured, Oceanus was sent to look into the movements of the Sea Ghost. He will gladly join adventurers who are brave and well meaning.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Sea', 'Saltmarsh'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3045,6 +3167,18 @@ export default createPublicationMonsters({
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
+      appearance: [
+        [
+          'A capable fighter, often with a hook for a hand after a bad accident, as with Foul Frithoff.',
+        ],
+      ],
+      lore: [
+        [
+          "The bosun organises a ship's cargo and crew, and experience hauling goods and handing out beatings makes bosuns tough. Frithoff guards the cargo on the smugglers' vessel in The Sinister Secret of Saltmarsh.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Ship'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3385,6 +3519,14 @@ export default createPublicationMonsters({
       tags: ['sahuagin'],
       alignment: 'lawful evil',
       languages: ['Sahuagin'],
+      appearance: [['A sahuagin veteran with armour hung with the bones of beaten enemies.']],
+      lore: [
+        [
+          'A cunning, battle-hardened warrior that often serves as an officer in a sahuagin army, as in The Final Enemy.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3680,6 +3822,14 @@ export default createPublicationMonsters({
       tags: ['sahuagin'],
       alignment: 'lawful evil',
       languages: ['Sahuagin'],
+      appearance: [['A sahuagin with a long scaly lure on its forehead that can light up.']],
+      lore: [
+        [
+          "A mighty sahuagin changed by Sekolah's divine magic to explore the deepest ocean. On land it clings to shadows and acts as a hunter and assassin. It appears in The Final Enemy.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Deep ocean'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3909,6 +4059,14 @@ export default createPublicationMonsters({
       tags: ['sahuagin'],
       alignment: 'lawful evil',
       languages: ['Sahuagin'],
+      appearance: [["A priestess with a staff set with jagged shark's teeth, leading dark rites."]],
+      lore: [
+        [
+          "The most devout and fierce of Sekolah's worshippers, seen conducting rituals in The Final Enemy.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4046,6 +4204,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [['A cunning narcissist with a taste for illusion and mind control.']],
+      lore: [
+        [
+          'In The Sinister Secret of Saltmarsh he leads the land half of a smuggling ring and guards the contraband stored in caves beneath the haunted house.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Caves'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4364,6 +4530,14 @@ export default createPublicationMonsters({
       name: 'Skeletal Alchemist',
       alignment: 'lawful evil',
       languages: ["understands all languages it knew in life but can't speak"],
+      appearance: [['An undead skeleton at work in a dark laboratory.']],
+      lore: [
+        [
+          'It keeps enough of its past self to carry on alchemy, often for necromancers or other sinister patrons, and may lie dormant for long periods. One lab appears in The Sinister Secret of Saltmarsh.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Laboratory'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4427,6 +4601,18 @@ export default createPublicationMonsters({
       name: 'Skeletal Juggernaut',
       alignment: 'lawful evil',
       languages: [],
+      appearance: [
+        [
+          'An oversized two-legged heap of bones that sheds part of itself with each step, lumbering across beaches.',
+        ],
+      ],
+      lore: [
+        [
+          'It holds together only briefly before falling apart into a gang of separate undead. Seen in Isle of the Abbey.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Beach'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -4518,6 +4704,18 @@ export default createPublicationMonsters({
       name: 'Skeletal Swarm',
       alignment: 'lawful evil',
       languages: [],
+      appearance: [
+        [
+          'A swarm of bones rises from sand, shifting between rough human outlines and a churning tangle.',
+        ],
+      ],
+      lore: [
+        [
+          'Formed when a number of animated skeletons collapsed together, found in Isle of the Abbey.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Beach'],
       stats: {
         swarmOf: 'medium',
         size: 'large',
@@ -4586,6 +4784,18 @@ export default createPublicationMonsters({
       name: 'Skum',
       alignment: 'lawful evil',
       languages: ['Common', 'Deep Speech', 'telepathy 60 ft.'],
+      appearance: [
+        [
+          'A slimy, translucent-skinned creature with limbs warped into deep-sea oddities, barely resembling its former self.',
+        ],
+      ],
+      lore: [
+        [
+          "A victim of an aboleth's disease-bearing touch around the Styes. It must soak in water regularly or suffer painful, possibly deadly skin eruptions, and a psychic bond forces it to obey its aboleth master.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Water'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -4773,6 +4983,14 @@ export default createPublicationMonsters({
       name: 'Thousand Teeth',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [['An ancient crocodilian giant that sulks in its lair, missing a tooth.']],
+      lore: [
+        [
+          'It has ruled the marshland beside Saltmarsh longer than anyone can recall. It lost a tooth fighting lizardfolk and is now angry and hungry. Look for it deep in the marsh in Danger at Dunwater.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -4881,6 +5099,13 @@ export default createPublicationMonsters({
       name: 'Vampiric Jade Statue',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [['A large, beautifully carved jade vampire with fangs of stone.']],
+      lore: [
+        [
+          'Dark magic animates this guardian of the tunnels beneath the Isle of the Abbey. Its fangs draw blood, which it uses to curse its victims.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',

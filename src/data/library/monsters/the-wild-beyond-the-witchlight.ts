@@ -13,6 +13,18 @@ export default createPublicationMonsters({
       page: 72,
       alignment: 'chaotic evil',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'A fey wearing a bright blue scarf that he says was woven from lightning he stole from under a storm cloud, and carrying a branding iron whose mark is three leaping rabbits linked nose to tail in a triangle.',
+        ],
+      ],
+      lore: [
+        [
+          'Agdon once led a gang of troublemakers who menaced travellers across the Feywild. In Prismeer the archfey Zybilna cursed him so his scarf could never come off, pinned it to a sapling with a gold and iron nail, and let the tree grow into the clouds with him stranded aloft. After the Hourglass Coven arrived and Zybilna was frozen in time, his gang felled the tree, but he stayed pinned until Bavlorna agreed to free him in return for the best prize of each later raid. The scarf stays on even if he dies. His branding iron works only for him and goes cold in other hands.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -4949,6 +4961,13 @@ export default createPublicationMonsters({
         [
           'Palace encounter: At the sludge pool in area P30, Zargash pretends to be frozen in time. A DC 16 Wisdom (Perception) check reveals the trick. The first attack against him has advantage while he keeps up the act. If unmasked or attacked, he uses his next action to cast Gaseous Form on himself and flies through area P39 to warn Kelek and Warduke in P31.',
         ],
+      ],
+      appearance: [['A warped humanoid priest of Orcus.']],
+      lore: [
+        [
+          'Zargash serves Orcus, who promised him vampirism after a lifetime of devotion. He cannot be redeemed, and enjoys murdering the living and raising the dead.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
       ],
       stats: {
         size: 'medium',

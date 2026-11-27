@@ -214,6 +214,17 @@ export default createPublicationMonsters({
       tags: ['cleric', 'nerubian'],
       alignment: 'lawful evil',
       languages: ['Common (WoW)', 'Forsaken', 'Nerubian', 'Orcish'],
+      appearance: [
+        [
+          "A spindly priest rises on four long legs, roughly three times a man's height. Ornate vestments and a tall elaborate headdress add even more to its stature.",
+        ],
+      ],
+      lore: [
+        [
+          'An undead spellcaster working for Lady Deathwhisper, and the faith it holds in the Cult of the Damned is what fuels its divine magic. It serves as one of her high priests, so expect it among the cultists it leads.',
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -290,6 +301,13 @@ export default createPublicationMonsters({
       name: 'Frost Wyrm',
       alignment: 'lawful evil',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Forsaken', 'Orcish'],
+      appearance: [["An undead dragon made from an adult dragon's skeleton."]],
+      lore: [
+        [
+          "Frost wyrms are raised from the bones of dragons. The first Lich King, Ner'zhul, animated dragons who fell in the War of the Ancients, and Arthas did the same when he raised Sindragosa as the frost queen.",
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -464,6 +482,14 @@ export default createPublicationMonsters({
       name: 'Lord Marrowgar',
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Forsaken', 'Orcish'],
+      appearance: [['An undead construct of many bones.']],
+      lore: [
+        [
+          "Marrowgar guards the Frozen Throne inside the Spire Chamber. The Lich King assembled him out of the bones of a thousand dead adventurers, and he wields the throne's own power.",
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
+      habitats: ['Icecrown Citadel'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -637,6 +663,14 @@ export default createPublicationMonsters({
       name: 'Plagueworks Ooze',
       alignment: 'unaligned',
       languages: [],
+      appearance: [["An ooze made in Professor Putricide's lab."]],
+      lore: [
+        [
+          "Putricide's creation Rotface gives opponents a mutating illness that makes them cough up an ooze. The oozes find each other and merge into ever bigger ones, and Putricide has imagined one large enough to engulf the world as a way to end life on Azeroth.",
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
+      habitats: ['Plagueworks'],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -1294,6 +1328,14 @@ export default createPublicationMonsters({
       name: 'Pustulating Horror',
       alignment: 'neutral evil',
       languages: ["understands Forsaken and Giant but can't speak"],
+      appearance: [['An oversized zombie with bloated sores across its body.']],
+      lore: [
+        [
+          'One kind of plague eruptor, a giant zombie built by the Scourge to bring terror, disorder and undead plague to its enemies. Its sores burst with toxic plague whenever it takes a hit, and when it finally dies it blows up in a fiery blast.',
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
+      habitats: ['Icecrown Citadel'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -1394,6 +1436,18 @@ export default createPublicationMonsters({
       name: 'Rotface',
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Forsaken', 'Orcish'],
+      appearance: [
+        [
+          'A hulking construct that speaks with a childlike voice and calls its creator Daddy, never far from its pet plague-dog.',
+        ],
+      ],
+      lore: [
+        [
+          "One of two abominations made by Professor Putricide. It is devoted to its plague-dog Precious and flies into a fury if anything harms her. It hates the living and wants to scatter Putricide's mutagenic slimes until none of them are left.",
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
+      habitats: ['Icecrown Citadel'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -1625,6 +1679,17 @@ export default createPublicationMonsters({
       name: 'The Damned',
       alignment: 'neutral evil',
       languages: ["understands Forsaken but can't speak"],
+      appearance: [
+        [
+          'A skeletal horror with scythe-like claws for hands, jagged blades sticking out of its body and sharp tusks.',
+        ],
+      ],
+      lore: [
+        [
+          'Built from the skeletons of various creatures and animated by trapped souls that suffer in their imprisonment.',
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -1715,6 +1780,17 @@ export default createPublicationMonsters({
       tags: ['angel'],
       alignment: 'neutral evil',
       languages: ['all'],
+      appearance: [
+        [
+          "A winged val'kyr, an undead warrior of the Lich King, patrolling the skies around Icecrown Citadel.",
+        ],
+      ],
+      lore: [
+        [
+          "Odyn first made val'kyr as guardians for Azeroth. The Lich King later made his own from vrykul and used them to train and sustain death knights and other warriors. Heralds guard Icecrown Citadel against anyone approaching the Frozen Throne by air.",
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -1806,6 +1882,17 @@ export default createPublicationMonsters({
       name: 'Vengeful Geist',
       alignment: 'chaotic evil',
       languages: ['Common (WoW)', 'Forsaken', 'Orcish'],
+      appearance: [
+        [
+          'A hooded, noosed figure with a single yellow eye and a rasping voice, moving in a startling, loping four-limbed gait.',
+        ],
+      ],
+      lore: [
+        [
+          "Geists are foul Scourge creatures, originally made from executed criminals' bodies. All still have the hood and rope of a hanged victim.",
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',

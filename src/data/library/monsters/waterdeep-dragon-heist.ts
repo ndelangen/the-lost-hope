@@ -12,6 +12,14 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'lawful evil',
       languages: ['Common', 'Dwarvish', 'Undercommon'],
+      appearance: [['A shield dwarf who is outwardly polite.']],
+      lore: [
+        [
+          'Ahmaergo serves Xanathar as majordomo and is fascinated by minotaurs. He is every bit as scheming and rotten as an infernal, yet utterly faithful to his beholder master. Apart from the beholder, he holds the most sway in the Xanathar Guild.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -95,6 +103,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Elvish', 'Infernal'],
+      appearance: [['A well-mannered, well-read noblewoman, vain and shrewd.']],
+      lore: [
+        [
+          "Lady Ammalia, head of the Cassalanter household, is schooled in arcane arts and, like husband Victoro, worships Asmodeus. Long ago the pair made a pact with the archdevil, giving up their children's souls for power, health and long life. Eldest son Osvaldo was claimed at once and became a chain devil; the twins Terenzio and Elzerina fall due at nine. The deal can be bought out with a vast sum and a mass sacrifice. While Victoro searches for Dagult Neverember's missing gold, Ammalia plans a poisoned feast for Founders' Day. She is a hard bargainer, and keeps a lovely butterfly garden where her youngest children play under her eye.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -402,6 +418,13 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Common', 'Primordial'],
       habitats: ['urban'],
+      appearance: [['A laid-back, plain-speaking man who works with steel.']],
+      lore: [
+        [
+          'Avi and his husband Embric run Steam and Steel, a shop in Trollskull Alley. Avi follows Eldath, the peaceful god, and quenches hot metal with spells. He is a skilled armourer.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -818,6 +841,15 @@ export default createPublicationMonsters({
       tags: ['Drow elf'],
       alignment: 'any alignment',
       languages: ['Elvish', 'Undercommon'],
+      appearance: [
+        ['A drow wearing a Lantanese pistol, with bullets and packets of smokepowder at hand.'],
+      ],
+      lore: [
+        [
+          "Guns are rare in the North, yet certain Bregan D'aerthe drow have been issued them. These gunslingers are as expert with a pistol as the finest archers are with a bow.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1041,6 +1073,13 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Common', 'Primordial'],
       habitats: ['coastal', 'hill', 'arctic', 'urban', 'forest', 'desert'],
+      appearance: [['Embric is the smith at the forge of a shop in Trollskull Alley.']],
+      lore: [
+        [
+          'A skilled weaponsmith who says the efreet of Calimshan are his ancestors and swings sharply between moods. He is married to Avi.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2016,6 +2055,17 @@ export default createPublicationMonsters({
       tags: ['half-orc'],
       alignment: 'lawful evil',
       languages: ['Common', 'Orc'],
+      appearance: [
+        [
+          'Hrabbaz is a heavily muscled half-orc with a cleft palate, courteous and always perfectly turned out, a mild exterior hiding a killer.',
+        ],
+      ],
+      lore: [
+        [
+          "A bodyguard for House Gralhund's lord and lady. He deeply respects Lady Yalah Gralhund but likes her moody husband less and would not mind seeing Orond humbled.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2078,6 +2128,14 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'lawful evil',
       languages: ['Common', 'Dwarvish'],
+      appearance: [['A shield dwarf who runs a heavily guarded warehouse.']],
+      lore: [
+        [
+          "Istrid is the Black Network's head of commerce and money in Waterdeep, running an illegal lending business from a warehouse in the Dock Ward. Her rates match her rivals, but late payment is punished harshly. She worships Vergadain, enjoys holding people in debt, and uses thugs and enforcers to collect, with her old adventuring companions as backup. They are the Doom Raiders, five adventurers who plundered lich lairs before joining the Black Network and arriving in Waterdeep three years ago to build a Zhentarim foothold, making allies, making enemies, and dodging Harper spies.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2337,6 +2395,14 @@ export default createPublicationMonsters({
       tags: ['half-elf'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Elvish'],
+      appearance: [['A broken-spirited woman who has shut herself away.']],
+      lore: [
+        [
+          'Kalain was a famous Waterdhavian painter whose spirit has broken, bringing on madness. She locks herself away, willing to let the years erode what is left of her conscience.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2566,6 +2632,14 @@ export default createPublicationMonsters({
       name: 'Lady Gondafrey',
       alignment: 'lawful good',
       languages: ['Common'],
+      appearance: [['A gargoyle with the mind of a human knight who served Tyr.']],
+      lore: [
+        [
+          'Gondafrey is the product of a magical experiment that gave a gargoyle the mind of a knight devoted to the god of justice. Manshoon finds it amusing and keeps it alive in a cell.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -2631,6 +2705,14 @@ export default createPublicationMonsters({
       tags: ['half-elf'],
       alignment: 'lawful neutral',
       languages: ['Common', 'Elvish'],
+      appearance: [['A handsome, eloquent half-elf in his thirties.']],
+      lore: [
+        [
+          'He is fair-minded and known for a sharp sense of poetic justice, handing out unusual punishments.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3231,6 +3313,18 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'neutral evil',
       languages: ['Common', 'Dwarvish'],
+      appearance: [
+        [
+          'A ruthless enforcer whose left hand and forearm have been replaced by a heavy crossbow strapped to the stump.',
+        ],
+      ],
+      lore: [
+        [
+          'Noska works for the Xanathar Guild. He lost his left hand and forearm to a green slime in Undermountain.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3453,6 +3547,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common'],
       habitats: ['urban'],
+      appearance: [['A short, stocky, well-dressed, pleasant-looking man.']],
+      lore: [
+        [
+          "The Gralhunds are noble arms and mercenary traders with a family motto about seeing both sides. Orond heads the house, though he is slow-witted and unrefined, and he knows it, leaving plotting and socialising to his beloved wife Yalah. When Masked Lords were assassinated years ago he expected her to take a seat, and when she was passed over despite promises and bribes he became permanently furious. Less than a year ago Manshoon's Zhentarim agents allied with them: the house pays coin and shelters them at the villa, getting the Black Network's benefits, including spy intelligence, while using them to learn the Masked Lords' identities. It is public that the Network is rooted in the house, but not that its Zhents serve Manshoon, and the family does not know about the wizard's clone. Urstul Floxin is the chief local leader.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3610,6 +3711,14 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Dwarvish'],
+      appearance: [['A dwarf whose cap of leather has false beholder eyestalks sewn on.']],
+      lore: [
+        [
+          "Ott's anxious duty is to feed and care for Sylgar, the pet fish of Xanathar. Off duty, he venerates Zuggtmoy, demon queen of fungi, and grows mushrooms, spores and moulds.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3667,6 +3776,18 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish', 'Halfling'],
+      appearance: [
+        [
+          'A sun elf noblewoman, lady of House Ulbrinter, who keeps a silver raven figurine for sending messages.',
+        ],
+      ],
+      lore: [
+        [
+          'Remi Haventree became a force for good in Waterdeep and a guiding light of the Harpers after assassins killed her husband and destroyed his remains. She hosts secret Harper meetings in her heavily warded villa, keeps a few loyal servants and spies, and uses the raven figurine to reach Harper agents around the city. She has two grown half-elf children.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3812,6 +3933,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Common'],
       habitats: ['coastal', 'urban'],
+      appearance: [
+        [
+          'A strikingly handsome, charming Harper nearing middle age, usually found in taverns and festhalls.',
+        ],
+      ],
+      lore: [
+        [
+          "Estranged son of Dagult Neverember. He shares his father's looks, love of drink and gift for diplomacy but not the temper or poor judgement. He lives off his mother's inheritance, has quit adventuring, and defends Waterdavians from people like his father. He owns Neverember House in the Sea Ward but avoids it because his father's spies watch it; friends may use it freely. Some suspect the estrangement is an act, which he dismisses. His fighting style is a swashbuckler's.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4094,6 +4226,17 @@ export default createPublicationMonsters({
         'urban',
         'forest',
         'underdark',
+      ],
+      appearance: [
+        [
+          'A likeable retired City Watch sergeant who has grown relaxed about the dress codes and rules he once enforced.',
+        ],
+      ],
+      lore: [
+        [
+          'Saeth Cromley helps the mage Barnibus Blastwind look into strange crimes when called out of retirement. He eases Barnibus into dealing with ordinary people and is good at drawing information out of them. His wit is sharp and sarcastic.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
       ],
       stats: {
         size: 'medium',
@@ -4396,6 +4539,14 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'lawful evil',
       languages: ['Elvish', 'Undercommon'],
+      appearance: [["A sadistic, fanatical bully loyal to Bregan D'aerthe and Jarlaxle."]],
+      lore: [
+        [
+          "He despises his younger brother Nar'l, who joined the Xanathar Guild, as a weakling. He hates surface elves and half-elves and prowls Waterdeep's dark streets by night for lone ones, hiding it as best he can, though Jarlaxle, Fel'rekt and Krebbyg know.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4837,6 +4988,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [['A proud, hot-tempered mercenary captain from Calimshan.']],
+      lore: [
+        [
+          'She runs weapons, armour and training for the hired swords of the Waterdeep Zhentarim, with the title Master of Arms and Mercenaries. She covers as bodyguard to dwarf magister Vorondar Levelstone, reaching captain in the City Guard and letting Black Network associates pass the South Gate freely. She hates backing down and respects anyone who beats her in melee. She was one of the Doom Raiders.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4952,6 +5111,18 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'lawful neutral',
       languages: ['Common', 'Dwarvish'],
+      appearance: [
+        [
+          "A man in iron-rimmed spectacles with a heavy wrench that also serves as a club, plus mason's, smith's and thieves' tools.",
+        ],
+      ],
+      lore: [
+        [
+          "Xanathar's chief engineer and trapsmith, and a paid Harper informant. He uses maintenance inspections as cover for private meetings with spies of the Harpers, whether in Skullport or elsewhere.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Skullport'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4994,6 +5165,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Orc', "Thieves' cant"],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A big, heavyset man in his forties who strides through House Gralhund as if he owned it, with black flying snakes in his service.',
+        ],
+      ],
+      lore: [
+        [
+          "A Zhentarim thug with a snake's charm who leads the Zhents stationed at House Gralhund and works for Manshoon. The Gralhunds put up with him because his spies feed them useful information. He takes orders from Manshoon's simulacrum, which arrives by teleportation circle, and he sends messages by his flying snakes.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5191,6 +5373,17 @@ export default createPublicationMonsters({
       tags: ['half-elf'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Elvish', 'Infernal'],
+      appearance: [
+        [
+          'A devilishly handsome half-elf in the latest fashion, carrying a ruby-tipped cane he does not need.',
+        ],
+      ],
+      lore: [
+        [
+          "Head of House Cassalanter, known in Waterdeep as a banker, philanthropist and Lathander worshipper, but secretly a priest of Asmodeus. He and his wife traded their three children's souls for wealth and power. Osvaldo is lost, and Victoro schemes to save his twins before their ninth birthdays by meeting the contract's price in gold and souls. He is suave, well educated and slow to anger, and the cane is a rod of rulership.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5554,6 +5747,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Infernal'],
       habitats: ['urban'],
+      appearance: [['Lady of House Gralhund, sharp and discerning.']],
+      lore: [
+        [
+          "Yalah has a keen mind, a worshipful husband and the Black Network's resources. She watches the city, controls her children and pries secrets from nobles, guildmasters and commoners. Foiled before, she means to learn enough about the Masked Lords to bribe or blackmail her way into their number and then shape policy for her house. She treats Urstul Floxin as her underling, unaware that Manshoon is the Zhents' real master, and Hrabbaz is her loyal bodyguard.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5750,6 +5950,17 @@ export default createPublicationMonsters({
       tags: ['half-orc'],
       alignment: 'lawful evil',
       languages: ['Common', 'Orc'],
+      appearance: [
+        [
+          "A half-orc hunter with a huge bow and giant black arrows, a hulking silent shadow glimpsed on Waterdeep's rooftops.",
+        ],
+      ],
+      lore: [
+        [
+          'He heads assassination for the Black Network and only hunts when a friend asks. The party could be his target, or he might help against a common foe. Where he comes from, and where he strikes next, is unknown. He once belonged to the Doom Raiders, five adventurers who looted lich lairs before joining the Black Network.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

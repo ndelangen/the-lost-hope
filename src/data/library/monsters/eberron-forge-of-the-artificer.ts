@@ -173,6 +173,18 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common plus two other languages'],
       tableNotes: [["Gear: chain mail, mace, tinker's tools"]],
+      appearance: [
+        [
+          'A dragonmarked artificer, typically human, carrying a compact device like an eldritch cannon and a force-charged mace.',
+        ],
+      ],
+      lore: [
+        [
+          'House Cannith artificers use small devices that produce a range of devastating effects. Both the cannons and the maces only work in the hands of their maker.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
+      habitats: ['Eberron'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -572,6 +584,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Dwarvish'],
       tableNotes: [['Gear: chain mail, flail, javelin, shield']],
+      appearance: [
+        [
+          'A knight of the Emerald Claw leads a squad of humanoid or undead soldiers. Its weapon blows carry a graveyard chill that grows as death nears.',
+        ],
+      ],
+      lore: [
+        [
+          'Emerald Claw knights command squads of soldiers who may be living or undead. The closer one gets to death, the more cold clings to its weapon attacks.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -722,6 +745,14 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Elvish'],
       tableNotes: [['Gear: breastplate, quarterstaff']],
+      appearance: [['A skilled investigator of House Medani who uses a dragonmark.']],
+      lore: [
+        [
+          "House Medani is mostly Khoravar, and its best inquisitives use dragonmarks and sharp minds to foresee threats from any direction. Some belong to a covert order known as the Basilisk's Gaze, which hunts fugitive war criminals from the Last War.",
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
+      habitats: ['Eberron'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1230,6 +1261,13 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral',
       languages: ['Common', 'Elvish', 'Undercommon'],
+      appearance: [['A drow of the deep dark, wreathed in shadow.']],
+      lore: [
+        [
+          'Umbragen drow descend from drow who escaped the giants and hid underground in Khyber, where they drew on a shadow they call the Umbra. Some now haunt the surface since the giant empire fell, still tied to the darkness below. Shadow walkers use shadow magic to confuse their enemies.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1338,6 +1376,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Sylvan'],
       tableNotes: [['Gear: leather armor, scimitar']],
+      appearance: [
+        [
+          'A dragonmarked heir of House Vadalis, usually human, often accompanied by a big animal such as a boar, a polar bear or a rhino.',
+        ],
+      ],
+      lore: [
+        [
+          'Vadalis heirs mix druidic magic with a flair for handling beasts both natural and monstrous. They seem harmless but become dangerous with such an animal beside them.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1458,6 +1507,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Elvish', 'Giant'],
       tableNotes: [['Gear: holy symbol, quarterstaff, studded leather armor']],
+      appearance: [['A Vulkoori priest whose gear and magic are styled to evoke a scorpion god.']],
+      lore: [
+        [
+          'Venom priests enjoy causing suffering through poison. Their weapons and spells are deliberately shaped to suggest the scorpion-god and frighten their enemies.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

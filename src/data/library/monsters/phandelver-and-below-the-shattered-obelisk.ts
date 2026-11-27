@@ -256,6 +256,14 @@ export default createPublicationMonsters({
       name: 'Cloaker Mutate',
       alignment: 'chaotic neutral',
       languages: ['Deep Speech', 'telepathy 60 ft.'],
+      appearance: [['A cloaker changed by the Far Realm.']],
+      lore: [
+        [
+          "The text covers Far Realm mutates in general. Exposure to that plane's energy can rewrite a creature's very nature, whether by long contact or by deliberate choice among those who worship it, and the change often fades when the influence does. Cloakers and otyughs are especially prone. Mutates may gain psionic powers, wings or an otherworldly slime coat. Mind flayers long tried and failed to forge armies of mutates in the Underdark.",
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -440,6 +448,18 @@ export default createPublicationMonsters({
       name: 'Encephalon Cluster',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A slimy, brain-shaped mass lurches through dark, forgotten caves, throwing off warped offspring.',
+        ],
+      ],
+      lore: [
+        [
+          'It ignores elder brains and the mind flayers that bred it. It forms when an illithid colony lays eggs near a Far Realm rift and a sac mutates into a ravenous psionic mass that spawns encephalon gemmules. It multiplies by spewing spawn, so many mind flayers treat it as a plague. Left alone, one cluster can swarm and overrun an entire colony.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -541,6 +561,17 @@ export default createPublicationMonsters({
       name: 'Feral Ashenwight',
       alignment: 'neutral evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A dried-up undead creature with skin like parchment and eyes that sometimes glow with strange power.',
+        ],
+      ],
+      lore: [
+        [
+          'When a cruel, enraged humanoid dies where the Far Realm has tainted the land, it may rise as an ashenwight. A feral one keeps only a spark of its old self, with no thoughts or memories beyond a compulsion to destroy every living thing it meets.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -593,6 +624,13 @@ export default createPublicationMonsters({
       name: 'Fiendish Auger',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [['A huge corkscrew drill glows bright with hellfire.']],
+      lore: [
+        [
+          "Created when an evil spirit takes over a mining drill. Driven by the spirit's rage, it chews through rock quickly. Its users must watch it closely, because without careful orders it bores through creatures as readily as earth.",
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -694,6 +732,17 @@ export default createPublicationMonsters({
       name: 'Flesh Meld',
       alignment: 'chaotic evil',
       languages: ["understands all but can't speak"],
+      appearance: [
+        [
+          'A squelching, trembling heap of fangs, blood and mismatched flesh shuffles forward, reeking of death. Ropes of gore, each tipped with a snapping mouth, lash out and drag prey toward its centre.',
+        ],
+      ],
+      lore: [
+        [
+          "A ravenous heap that absorbs those it eats. A swallowed victim's mind is merged into the mass, and stronger minds may resist for a while but are eventually overwhelmed by the clamour of voices all urging them to kill and devour.",
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -925,6 +974,13 @@ export default createPublicationMonsters({
       tags: ['goblinoid'],
       alignment: 'any alignment',
       languages: ['Common', 'Goblin', 'telepathy 30 ft.'],
+      appearance: [['A goblin whose blows crackle with psychic energy.']],
+      lore: [
+        [
+          'Psionic goblins may be born changed by Far Realm energy, change themselves, or bargain with other aberrations to be reshaped in return for service as shock troops. They often struggle to contain their wild psychic power, but those who master it are formidable, using telekinesis alongside their martial skill, and squads can speak telepathically to infiltrate and ambush. A brawler channels psionics into strength, and when angry can blast enemies off their feet with a telekinetic push.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -1475,6 +1531,18 @@ export default createPublicationMonsters({
       name: 'Humanoid Mutate',
       alignment: 'any alignment',
       languages: ['Common', 'telepathy 60 ft.'],
+      appearance: [
+        [
+          'A humanoid changed by the Far Realm, with webbed wings growing at random along its body and clammy, salamander-smooth skin.',
+        ],
+      ],
+      lore: [
+        [
+          'Exposure to Far Realm energy can rewrite any creature, though mutates often revert when the influence fades. Some change after long exposure, others on purpose. Forced transformation fails, though mind flayers researched it for centuries and never produced armies. Cloakers and otyughs are more prone. Mutates may gain psionics, wings or slime, and some intelligent ones keep their old personalities.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -1570,6 +1638,18 @@ export default createPublicationMonsters({
       tags: ['human', 'wizard'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish'],
+      appearance: [
+        [
+          'A genteel-sounding man who addresses his thugs warmly and calls the party his honoured guests, though violence and arrogance lie under the manners.',
+        ],
+      ],
+      lore: [
+        [
+          "A former Lords' Alliance man who was sent to Phandalin to set up a constabulary and instead built a gang of outlaws and local roughs to protect his own position. He affects politeness, calls his bandits good fellows, and brushes off kidnapping or arson as unpleasant little business or unfortunate events. He may apologise that he cannot entertain the party properly. Beneath that he is as violent and proud as the Redbrands.",
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
+      habitats: ['Phandalin'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1655,6 +1735,18 @@ export default createPublicationMonsters({
       tags: ['human', 'wizard'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish'],
+      appearance: [
+        [
+          'A genteel-sounding man who addresses his thugs warmly and calls the party his honoured guests, though violence and arrogance lie under the manners.',
+        ],
+      ],
+      lore: [
+        [
+          "A former Lords' Alliance man who was sent to Phandalin to set up a constabulary and instead built a gang of outlaws and local roughs to protect his own position. He affects politeness, calls his bandits good fellows, and brushes off kidnapping or arson as unpleasant little business or unfortunate events. He may apologise that he cannot entertain the party properly. Beneath that he is as violent and proud as the Redbrands.",
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
+      habitats: ['Phandalin'],
       stats: {
         size: 'medium',
         type: 'humanoid',

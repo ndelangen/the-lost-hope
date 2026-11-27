@@ -11,6 +11,18 @@ export default createPublicationMonsters({
       name: 'Demogorgon',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A figure about the size of an adult humanoid stalks forward with no face, only a huge mouth that unfolds like a blooming flower.',
+        ],
+      ],
+      lore: [
+        [
+          'A hunter native to the Upside Down that stalks the dimension looking for unlucky creatures who wander in.',
+        ],
+        ['Sources: ', 'Hunt for the Thessalhydra'],
+      ],
+      habitats: ['The Upside Down'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -149,6 +161,15 @@ export default createPublicationMonsters({
       name: 'Thessalhydra',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A creature with eight heads around a large circular mouth ringed with jagged teeth that drips acid, and a tail ending in sharp pincers.',
+        ],
+      ],
+      lore: [
+        ['It is gluttonous and harms any environment it enters.'],
+        ['Sources: ', 'Hunt for the Thessalhydra'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',

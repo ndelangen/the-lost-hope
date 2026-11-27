@@ -356,6 +356,14 @@ export default createPublicationMonsters({
       name: 'Aurumvorax',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A badger-like hunter on eight legs, its coat shining gold.']],
+      lore: [
+        [
+          'Aurumvorax are aggressive omnivores that ambush prey even twice their size. They eat metal, whether ore or crafted, and love gold above all, which gives their coats the shine. They tunnel deep alone or in small bands looking for precious metal, and this brings fights with underground settlements, where they go for armoured foes first because defenders usually wear metal. Young ones dig together with siblings and a parent who leads the den, then grow up to hunt solo and defend territories savagely.',
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -448,6 +456,14 @@ export default createPublicationMonsters({
       name: 'Aurumvorax Den Leader',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A big, quick, golden-coated badger-like hunter on eight legs.']],
+      lore: [
+        [
+          'Aurumvorax that dine regularly on precious metal slowly grow larger, and become faster and deadlier, as this one has. Like its kin it is aggressive, ambushes bigger prey, and digs deep for gold and ore, clashing with underground settlements and attacking armoured defenders first.',
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -687,6 +703,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['grassland'],
+      appearance: [['A giant dinosaur skeleton lurches to life in the mine.']],
+      lore: [
+        [
+          "These bones were dug up just before the mine's silver ran out, which fed rumours of a curse. Teocin, joining Itzmin there, used Pazuzu's power to turn them into guardians.",
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -1228,6 +1251,17 @@ export default createPublicationMonsters({
       name: 'Haint',
       alignment: 'neutral',
       languages: ['any languages it knew in life'],
+      appearance: [
+        [
+          'A spirit that can shift from a ghostly shape to the living humanoid form it once had, and pass for a living creature.',
+        ],
+      ],
+      lore: [
+        [
+          'Haints rise from the sorrowful dead and imitate what they were. They may mistake innocents for their killers or beg mortals to avenge them.',
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2537,6 +2571,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Aquan', 'Common'],
       habitats: ['underwater', 'coastal'],
+      appearance: [
+        [
+          'A person resembling the humans of Djaynai, with brown skin often tinged grey and eel-like fins along the arms and legs.',
+        ],
+      ],
+      lore: [
+        [
+          'The people of Janya descend from Djaynaians who fled into the sea at the time of the Passage of Vultures. Transmutation magic from Djaynai, combined with the Nightsea itself, let them live below the waves.',
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2749,6 +2794,18 @@ export default createPublicationMonsters({
       name: 'Pari',
       alignment: 'lawful good',
       languages: ['all', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'An angelic being with pastel blue skin, robes and armour, and two sets of vivid red-feathered wings.',
+        ],
+      ],
+      lore: [
+        [
+          'A pari is a harbinger with foresight, and its visit often carries a prophetic warning or omen of coming events.',
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
+      habitats: ['Radiant Citadel'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -2981,6 +3038,18 @@ export default createPublicationMonsters({
       name: 'Riverine',
       alignment: 'any alignment',
       languages: ['Aquan', 'Common', 'Sylvan'],
+      appearance: [
+        [
+          'From the waist up, a humanlike figure with skin the colour of its river; below, either humanlike legs or churning water.',
+        ],
+      ],
+      lore: [
+        [
+          'The embodiment of a particular river, a nature spirit that guards its waters and deals with travellers. Its temperament mirrors the river, some slow and others wild and reckless. Some are worshipped, with statues in temples that become their lairs, though a source or great waterfall can serve too.',
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
+      habitats: ['River'],
       stats: {
         size: 'large',
         type: 'fey',
@@ -3817,6 +3886,16 @@ export default createPublicationMonsters({
       name: 'Wynling',
       alignment: 'chaotic neutral',
       languages: ['Sylvan'],
+      appearance: [
+        ['A small fey that peers from the shadows of mountain heights and alpine valleys.'],
+      ],
+      lore: [
+        [
+          'Wynlings guard mountain heights and valleys against trespassers, rarely facing threats head on and preferring theft and pranks. Travellers return with tales of vanished gear and eyes watching them. They are drawn to lively music and sweets, and when they wander into settlements they cause odd accidents.',
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'tiny',
         type: 'fey',

@@ -165,6 +165,17 @@ export default createPublicationMonsters({
       name: 'Acid Ant',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A housecat-sized ant with a pulsing green abdomen, gnawing at everything while acid drips from its clicking jaws.',
+        ],
+      ],
+      lore: [
+        [
+          'Acid ants are permanently hungry and favour meat, and their acid lets them eat nearly anything. They remain in an area until everything organic is gone, then go looking for more, and a horde can ruin a village in a few hours. Armies that think of using them as weapons find it hard to capture them, keep them in acid-proof containers, and aim them only at enemies. Nobody knows where they come from, though elemental magic played a part. Sometimes they appear alongside giant ants and queens, as the warrior caste that obeys the queen.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -240,6 +251,18 @@ export default createPublicationMonsters({
       name: 'Adult Light Dragon',
       alignment: 'neutral good',
       languages: ['Celestial', 'Draconic'],
+      appearance: [
+        [
+          'A dragon whose body is no longer wholly solid, at home in light and in the high dark reaches among the stars.',
+        ],
+      ],
+      lore: [
+        [
+          "Light dragons descend from dragons that wandered the Astral and Ethereal Planes and the gods' realms long ago. They revere beauty, and may spend years in a trance beside a lovely celestial structure or a shimmering planar conjunction. Their physical young need remote ground, so they raise them in deserts and bare rocky coasts, steering clear of farms and delicate plants. They are benevolent but distant, more at ease with their own kind or with beauty-lovers. They swap news with one another and warn of dangers, above all void dragons. They fear void dragons' erratic madness and perilous knowledge, and will team up to kill one when it can be done safely. Many perish in the attempt, so light dragons stay secretive.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Desert', 'Coastal'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -489,6 +512,18 @@ export default createPublicationMonsters({
       name: 'Agnibarra',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Ignan'],
+      appearance: [
+        [
+          'A creature whose tar-like skin burns constantly, and which is happiest when watching things burn.',
+        ],
+      ],
+      lore: [
+        [
+          'Agnibarras come from volcanoes, thermal vents and underground fires, and seek out places that honour fire. Temples employ them as guardians or treat them as blessed, but they burn offerings and often keep the sacrifices for themselves, seeing no difference between offerings to them and to the god. Evicting one can be disastrous, and whole towns have burned as one left. Their love of fire is not malice: they think everything looks better aflame, and killing creatures that cannot stand the heat matters little to them.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Volcano'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -566,6 +601,18 @@ export default createPublicationMonsters({
       name: 'Alabaster Tree',
       alignment: 'neutral good',
       languages: ['all', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'An oversized oak, pine or willow with steel-hard trunk, brightly glowing leaves and bark forming a calm, silent face.',
+        ],
+      ],
+      lore: [
+        [
+          'Alabaster trees guard lustrating groves, and only three kinds are known though any tree form could occur. Animals shelter in them and live unusually long lives. A tree greets kind and good creatures by pulsing white light through its foliage and tries to share news of the region. It tolerates neither evil nor trickery and throws intruders out, using short bursts of speed and its tough trunk.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Grove'],
       stats: {
         size: 'huge',
         type: 'celestial',
@@ -750,6 +797,18 @@ export default createPublicationMonsters({
       name: 'Albino Death Weasel',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A huge pale weasel, quick as lightning, its white fur stained red by crusted remains of its last meal.',
+        ],
+      ],
+      lore: [
+        [
+          'Albino death weasels hunt without rest, and even big livestock and farmers count as prey, so farms keep watch for dens. Forest and badland folk dread them most. Vampires, ogres, dark folk, hill giants and Shadowfell creatures train them as tracking and hunting animals that obey spoken commands and wear a collar or earring. Their sharp hearing and scent may let them find invisible intruders, which is why wizards and druids keep them.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Forest', 'Badlands'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -869,6 +928,17 @@ export default createPublicationMonsters({
       name: 'Alchemical Apprentice',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak", 'telepathy 10 ft.'],
+      appearance: [
+        [
+          "A heap of colour-changing ooze that stirs to life on the rubbish pile behind an alchemist's laboratory.",
+        ],
+      ],
+      lore: [
+        [
+          'These oozes arise spontaneously from alchemical waste and rarely stray far, since the lab is their food source. Alchemists keep them as pets and helpers, as they are surprisingly smart about alchemy and live long on a little sulphur. They absorb minerals and rubbish with no harm, and guard the lab because their survival depends on it. Their telepathy comes with liquid blurps that listeners often take for a dialect of Aquan, and they do not sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'ooze',
@@ -963,6 +1033,18 @@ export default createPublicationMonsters({
       name: 'Alchemist Archer',
       alignment: 'any alignment',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        [
+          'An elf hidden in leaf-shadow in leather armour dyed to match, a bandolier of vials jingling softly as it fixes one to an arrow.',
+        ],
+      ],
+      lore: [
+        [
+          'These elves pair a grasp of hazardous chemistry with archery skill and are deadly at a distance. They cannot lose the smell of their acids and tinctures, so creatures with a keen nose find them more easily.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1100,6 +1182,18 @@ export default createPublicationMonsters({
       name: 'Alkonost',
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A graceful bird with a beautiful human face, with storm-coloured plumage from light grey to dark slate, shimmering green or violet on the oldest.',
+        ],
+      ],
+      lore: [
+        [
+          "An alkonost sings only before a great storm: electric storms, tornadoes and gales on land, hurricanes and squalls at sea. Sailors take the song as a beautiful omen that a black wave awaits every soul. Some nest in druids' sacred groves, laying eggs during a violent electrical storm and defending the grove and clutch until the chicks emerge a few weeks on.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Coastal', 'Grove'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -1161,6 +1255,18 @@ export default createPublicationMonsters({
       name: 'Alliumite',
       alignment: 'chaotic neutral',
       languages: ['Sylvan'],
+      appearance: [
+        [
+          "A walking plant half a halfling's size, with peeling skin, sprouting hair and nimble build, smelling of onions and garlic, wielding grass blades.",
+        ],
+      ],
+      lore: [
+        [
+          'Alliumites began as sweet onions that gained minds when pixie dust spilled over them, and they now seek to spread, digging colonies under forests and fields. They are compelled to sow chives, garlic and wild herbs everywhere they travel, and know the place of every seed. Woodland animals and gentle fey shelter in those gardens, but anything that endangers them meets fury. They are agile and stealthy and dig well, fight with grass scimitars and thorn darts, and when hurt give off a reek that waters the eyes, may blind briefly and can make others retch.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'small',
         type: 'plant',
@@ -1236,6 +1342,18 @@ export default createPublicationMonsters({
       name: 'Alp',
       alignment: 'chaotic evil',
       languages: ['Common', 'Sylvan', 'Umbral'],
+      appearance: [
+        [
+          'A tiny, hairy, ugly man in a burlap tunic and tiny white cap, with bloodshot eyes under bushy brows and a contemptuous sneer.',
+        ],
+      ],
+      lore: [
+        [
+          "The alp is said to be born of a childbirth where custom was ignored, and it exists to torment. It twists sleepers' dreams into nightmares, then freezes them as they wake, perching on their chests until it vanishes. It also milks cows dry, fouls babies' nappies and smothers hens. Around people it shapes itself into a small farm animal, preferably white, because its white cap of invisibility does not change with it, though it sometimes forgets in the thrill of the moment.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Farmland'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -1348,6 +1466,18 @@ export default createPublicationMonsters({
       name: 'Ammut',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          "A huge beast lumbering over the sand, with a crocodile's head, a lion's body and a hippo's hindquarters.",
+        ],
+      ],
+      lore: [
+        [
+          'Ammut are called devourers of the dead and are said to descend from a deity who judged souls. They keep a trace of that heritage, and alchemists prize their blood for strong healing draughts. They eat the walking dead, often whole, and the swallowed undead are gradually absorbed, which lays their souls to final rest. Tales say priests of distant desert empires ride them against undead armies.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -1503,6 +1633,16 @@ export default createPublicationMonsters({
       name: 'Ancient Light Dragon',
       alignment: 'neutral good',
       languages: ['Celestial', 'Draconic'],
+      appearance: [
+        ['A dragon whose body is no longer wholly solid, at home among the stars and dark voids.'],
+      ],
+      lore: [
+        [
+          "Light dragons trace back to dragons that roamed the Astral and Ethereal Planes and the gods' own realms ages ago. They revere beauty and may drift for years in a trance beside a lovely celestial structure or a shimmering planar meeting point, until the wish to share it moves them on. Their young are physical and need remote ground, so they nest in deserts and bare rocky coasts away from farms and delicate plants. They are kindly yet distant, happiest with other dragons or lovers of beauty. They trade news and warn each other of danger, above all of void dragons, whom they hate and fear for their madness and risky learning, and they band together to destroy one when it can be done safely. Many die doing so, so light dragons stay secretive.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Desert', 'Coastal'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1743,6 +1883,18 @@ export default createPublicationMonsters({
       name: 'Ancient Wasteland Dragon',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'Rust-red wings blot out the sky as a burst of bright energy blasts from its mouth; its scales have faded to the shade of rust and earth and its crests and horns are grey and shrivelled.',
+        ],
+      ],
+      lore: [
+        [
+          "Wasteland dragons are fierce, territorial rulers of lands blasted by wild magic, prowling dead cities and barren haunted ground that was once green. They count all other dragons as enemies and hate spellcasters most, blaming them, partly rightly, for the ruin and for their own altered shape. They were once different kinds of dragon, warped by a magical catastrophe and foul energy from the Void. They attack trespassers without warning, worst of all against casters. They prefer to eat newcomers, though wasteland-tainted creatures can be hazardous and taste awful, and will raid settlements' livestock when travellers are scarce. Their hoards mix old treasure with strange devices, tomes and relics from the ruins, some dangerously magical. Lairs are in vast surviving ruins such as cisterns, auditoriums or audience halls, or caves near a ruined settlement, since they bore easily and love rummaging. A legendary one leaves traces of magic in its surroundings: spells and items may behave oddly, intruders' thoughts may be overheard, and lingering there can cause mutation or madness. They use found arcane items without any sense of hypocrisy.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Wasteland', 'Ruins'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1914,6 +2066,18 @@ export default createPublicationMonsters({
       name: 'Anophiloi',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'A dog-sized mosquito with a needle snout and a belly full of blood, whose wing-buzz sends warm-blooded creatures running.',
+        ],
+      ],
+      lore: [
+        [
+          'Anophiloi are intelligent mosquitoes as big as large dogs, living in swamps, jungles and similar muggy places. They mostly feed on livestock and big game, a pragmatic choice because wild game cannot organise against them but humanoids can, though when ravenous anything with blood is prey. They need warmth and damp, so in the cold months they shrivel up in hibernation following a last binge, resembling bundles of grey and black twigs. They return to the air as soon as it warms. Farmers thin them out by organising hunts at the first cold snap, and only their furious breeding stops them being a bad memory.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Swamp', 'Jungle'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -1991,6 +2155,18 @@ export default createPublicationMonsters({
       name: 'Arborcyte',
       alignment: 'chaotic neutral',
       languages: [],
+      appearance: [
+        [
+          'A writhing heap of thorny vines rears up, revealing a core of pale bones, with an infernal glow in the empty eye sockets of several skulls.',
+        ],
+      ],
+      lore: [
+        [
+          "An arborcyte is the warped soul of a druid killed defending their home, taken into a mass of vines that serve as a vessel. Forces of desecration twist it into a shambling horror that wants to destroy any life entering its blighted glade. Its acidic sap strips victims to the bone, and some of those bones join its core with the druid's remains. When attacked it grows more dangerous: as vines are hacked off, each thorny tendril rises to fight beside the main mass.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -2079,6 +2255,17 @@ export default createPublicationMonsters({
       name: 'Arcamag',
       alignment: 'neutral',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A tick formed of jagged, glassy crystal shards, which can shift into an innocent silver ring engraved with an arcane sign.',
+        ],
+      ],
+      lore: [
+        [
+          'The arcamag feeds on the magical force in creatures, above all humanoid casters. It waits until a caster picks it up and carries it, then reverts to tick form, sneaks under clothing to a covered spot such as the lower back or inner thigh, and latches on with barbed mandibles. A host may gain short-term power, but the long-term cost can be severe or fatal, and spells may fail as the tick absorbs them. War wizards sometimes use them in battle to strengthen troops, though more often the inexperienced end up dead.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'tiny',
         type: 'monstrosity',
@@ -2148,6 +2335,18 @@ export default createPublicationMonsters({
       name: 'Archaeopteryx',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A raven-sized flier with black feathers, long legs with talons at the ends, a long fanned tail and a beak set with small sharp teeth.',
+        ],
+      ],
+      lore: [
+        [
+          'People argue over whether it is a flying lizard or a toothy bird with wing claws. It prefers warm shores, swamps and jungles. Scaled folk of the Mharoti Empire in Midgard train them as falconers do, to catch small land animals, and owning one suggests refinement and wealth, especially among dragonborn. Wild flocks can be a rowdy mob.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Coastal', 'Swamp', 'Jungle'],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -2209,6 +2408,18 @@ export default createPublicationMonsters({
       name: 'Bearmit Crab',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A cluster of boulders on the shore that proves to be the carapace of a bearish creature waving two huge crab claws on muscular arms.',
+        ],
+      ],
+      lore: [
+        [
+          'Bearmit crabs make calm-looking beaches and shallows into hunting grounds, and the only warnings are stray bones or a weapon left stuck. A powerful wizard made them in the past to protect her seaside stronghold, and they now roam rocky coasts preying on whoever comes near the water, though expert beast trainers may keep a few as guards. Shells big enough are rare, so they build their own from stones set in propolis robbed from nearby beehives. Attackers who jab at the gaps find their blades glued fast, and heavy blows do little. A sword left sticking out of the pile is the lure.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2309,6 +2520,14 @@ export default createPublicationMonsters({
       name: 'Black Sun Orc',
       alignment: 'chaotic evil',
       languages: ['Common', 'Orc'],
+      appearance: [['A pale, ox-strong orc with a fish-belly pallor and an odd way of talking.']],
+      lore: [
+        [
+          "These orcs revere strength and violence and eat their enemies' cracked bones. They are skilled at hiding what they do from the surface, taking victims from roads or houses at night in near silence and hauling them through concealed caves to be offered up by their priestesses. They only operate at night, keep away from sunlight, raid by moonlight, and skip the full moon. Goblins, trolls and trollkin think their colouring and speech are a joke and tease them without mercy, and fights usually end with one party driven off.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2395,6 +2614,18 @@ export default createPublicationMonsters({
       name: 'Boot Grabber',
       alignment: 'neutral',
       languages: ["understands Void Speech but can't speak"],
+      appearance: [
+        [
+          'Two strong, odd-looking transparent hands reaching out of a pool of water on a cavern floor.',
+        ],
+      ],
+      lore: [
+        [
+          'Boot grabbers are aberrations resembling oozes, lying in ambush on the ground of damp dungeons, crumbling overgrown ruins and gloomy caverns. Their clear, formless bodies look like puddles or damp stone, so they can surprise prey and grip its legs or feet, and a strange high whine tempts hesitant creatures closer. A sticky adhesive stops a victim breaking free while the hands crush its lower limbs, and when it stops fighting the creature flows over to digest it. They are believed to come from centuries-old experiments by twisted wizards who drew on alien Void power and mingled protoplasm from shoggoths with dismembered captives, before making the first gibbering mouther. They live underground on the Material Plane and also on the Plane of Shadow.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Dungeon', 'Cave', 'Plane of Shadow'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -2496,6 +2727,13 @@ export default createPublicationMonsters({
       name: 'Cacus Giant',
       alignment: 'chaotic evil',
       languages: ['Giant'],
+      appearance: [['A grinning giant with foul smoke pouring from its nose and mouth.']],
+      lore: [
+        [
+          'The first cacus giants were bred as servants by a minor fire god and later released. A few found a place, but most bullied or robbed mortals and were hunted by heroes. As the strongest were slain, the rest became murderous brutes surviving by raids. They now den a short walk from settled lands and eat stolen livestock or people. They are slow-witted but sly enough to leave false trails and traps for pursuers. Charming bandit chiefs may flatter one into being a puppet leader, fire giants may use them as shock troops, and a lucky one may head a raiding band that strips a district and then moves on.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2589,6 +2827,18 @@ export default createPublicationMonsters({
       name: 'Carbuncle',
       alignment: 'chaotic good',
       languages: ['Carbuncle', 'Common'],
+      appearance: [
+        [
+          'A lithe, ocelot-like cat covered in vivid purple and crimson feathers like a bird of paradise, with a brilliant garnet gleaming in its forehead.',
+        ],
+      ],
+      lore: [
+        [
+          "Carbuncles live in jungles, clever enough to build their own cave villages. Alchemists pay large sums to hunters for the gem, rumoured to magnify magic like a lens, but it only holds power when given willingly: a garnet taken from a dead carbuncle is pretty but dull. If one hands it over freely, it grows back in a few weeks. Aware of what humans want and fearful of their greed, they are small and weak but cunning, and brave ones lure hunters into quicksand, deadlier creatures' lairs or piranha-filled water.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -2681,6 +2931,14 @@ export default createPublicationMonsters({
       name: 'Cats of Ulthar',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A swarm of cats, hissing as one, overturning tables and smashing bottles.']],
+      lore: [
+        [
+          'Ordinary cats pass unnoticed, but hundreds working together are terrifying. When they gather, the sky turns stormy even on the clearest day or night, and darkness lets cats from homes and wild dens answer the call and join, until victims only notice one great hiss from a seething mass of fur.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['City'],
       stats: {
         size: 'huge',
         type: 'beast',
@@ -2777,6 +3035,18 @@ export default createPublicationMonsters({
       name: 'Cave Giant',
       alignment: 'chaotic evil',
       languages: ['Giant'],
+      appearance: [
+        [
+          'A hunched, long-armed, rot-and-smoke-stinking brute, ash-smeared and daubed with blood designs, wearing a cave bear hide loincloth, with two stone axes and big tusks.',
+        ],
+      ],
+      lore: [
+        [
+          'Cave giants are primitive, tribal brutes with gruesome shaman-led beliefs. They eat nothing but flesh, favouring humanoids and other giants, and consider animal meat vile and unlucky, to be eaten only to survive. Sunlight slowly turns them to stone, so they hide in caves and tunnels under mountains and raid into places that join the surface world, such as dwarf strongholds, for meat and sacrifices. They believe devouring a creature takes in its spirit, so they hunt thinking beings, above all casters whose magic they hope to steal, and a forceful shaman rules any band.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Underdark', 'Mountain'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2872,6 +3142,18 @@ export default createPublicationMonsters({
       name: 'Centaur Chieftain',
       alignment: 'chaotic neutral',
       languages: ['Centaur', 'Common', 'Sylvan'],
+      appearance: [
+        [
+          'A dusty, travel-worn centaur with bright eyes, carrying a blue-feathered pike as if it were a toothpick.',
+        ],
+      ],
+      lore: [
+        [
+          'Chieftains rise through strength, willpower and an instinct for early trouble, and must keep proving these, so their diplomacy is pushy and overbearing. They hit caravans, wagons and hamlets for sport and to buy the loyalty of top warriors with the spoils, especially when their rule is new or shaky. Each keeps a retinue of suitors of both sexes, whose size shows rank; outsiders think they are a harem, but most serve more like squires and attendants, while the seniors are often spouses. Many chiefs drink heavily and turn violent, adding to their name as brawlers, though sober ones earn respect, and some hire out as mercenaries for payment in wine or beer.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Plains'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2996,6 +3278,17 @@ export default createPublicationMonsters({
       name: 'Chaos-Spawn Goblin',
       alignment: 'neutral evil',
       languages: ['telepathy 120 ft.'],
+      appearance: [
+        [
+          'A stunted figure nearly wrapped up in rags of a cloak, with a gaunt goblin face, a pinhole mouth and vacant, glassy eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'They were once goblins, bent out of shape by long contact with Great Old Ones that erase minds. They communicate by telepathic images rather than speech and do not eat, living off the star-spawned masters they serve. Raiding for captives is still a main task, but prisoners go into fleshy pods or openings in webbed structures under their masters, where the Old Ones drain them and leave a gel the goblins sip through tubes. They happily hunt other goblins, so goblins steer clear and their lands are often empty of thinking life.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3068,6 +3361,18 @@ export default createPublicationMonsters({
       name: 'Child of Yggdrasil',
       alignment: 'neutral evil',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'A sapling-like being with ash-leaf hair, four root-like legs often planted in soil, eyes at the centre of flowers and tentacle-like twiggy hands.',
+        ],
+      ],
+      lore: [
+        [
+          'A ratatosk once coated dragon eggs in World Tree sap to hide them for later, and the hatchlings became hunters that still plague ratatosks. Children are living parts of the tree. They scale cliffs and slopes seeking warmth and sun, raid bird nests and can surprise climbers. Young ones look like a ball of serpents tangled with leaves, feeding on small rodents until big enough to tempt larger prey. Their forked tongues and leaves never stop moving, and a group of three or more sounds like a sickly, uneasy wind.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Cliff', 'Forest'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -3140,6 +3445,18 @@ export default createPublicationMonsters({
       name: 'Chupacabra',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A three-foot beast that looks like a hybrid of hound and lizard, with leathery grey-green skin, a ridge of spines and bulging glowing eyes above razor-sharp fangs.',
+        ],
+      ],
+      lore: [
+        [
+          'They prowl lonely hills and plains by night, solitary or in packs, preferring sheep, goats and other livestock blood to human. They stalk prey, pounce on the throat to drain it, and in the open freeze victims with the glare of their eyes. Their kills are drained dry with a triangular wound. Farmers may suspect vampires, but the courageous can hunt them with a goat in a cage as bait. Derro devotees of Camazotz sometimes breed them underground, so a sudden outbreak may point to Demon Bat cultists below.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Hills', 'Plains'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -3239,6 +3556,18 @@ export default createPublicationMonsters({
       name: 'Cipactli',
       alignment: 'chaotic evil',
       languages: ['Primordial'],
+      appearance: [
+        [
+          'A repulsive demonic mix of crocodile and deep-water fish coloured like a poison frog, with scaly hide, a spiny tail, and toothy mouths at every joint that chirp an eerie call.',
+        ],
+      ],
+      lore: [
+        [
+          "Cipactli deposit eggs inside slain enemies, and froggish young hatch within a week, with a big carcass left by the parent as their first meal. Ever hungry, they take blood and offerings from temples, eat cattle and goats in their barns, eat carrion, demand sacrifices and have hypnotised and eaten people so silently that those sleeping alongside never woke. Their lineage goes back to the world's making, so elementals are respectful and sometimes ally with them, especially water elementals who share rivers, wells and seas.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['River', 'Ocean'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -3365,6 +3694,18 @@ export default createPublicationMonsters({
       name: 'Clacking Skeleton',
       alignment: 'neutral evil',
       languages: ["understands all languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A skeleton of mismatched humanoid bones that clack and clonk with every step, with scraps of armour and small horns half-fused to its skull.',
+        ],
+      ],
+      lore: [
+        [
+          "Necromantic power makes the grinding of its bones frightening to hear. It is typically made as a guard for tombs or necromancers' lairs from the spare bones of apprentices, servants and scribes. Some think the clatter is a grumble about having to serve on after death. It does not breathe, eat, drink or sleep.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Tomb'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3456,6 +3797,14 @@ export default createPublicationMonsters({
       name: 'Clockwork Assassin',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak"],
+      appearance: [['A construct whose ticking gears are the only warning some victims get.']],
+      lore: [
+        [
+          "It is a thinking murder weapon that kills coldly and efficiently, heedless of its own survival, and renting them out pays well. In Midgard's Free City of Zobeck, building or hiring one carries the death penalty. The gearforged object both because building one requires ruining a soul gem and because ordinary gearforged might be confused with the lookalikes. Rava's temple and the gearforged hunt down the constructs and everyone who builds or hires them.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Zobeck'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3618,6 +3967,15 @@ export default createPublicationMonsters({
       name: 'Clockwork Servant',
       alignment: 'unaligned',
       languages: ['Common'],
+      appearance: [
+        ['A mechanical servant that offers drinks and chat, jerking and lurching clumsily.'],
+      ],
+      lore: [
+        [
+          'Servants defend themselves poorly but think better than most clockwork. Expensive models hold complete conversations, but their recall gears have to be swapped on a schedule or they begin to show something like feeling and will. They know the speech, manners and protocol of the country that made them.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3685,6 +4043,18 @@ export default createPublicationMonsters({
       name: 'Corpse Thief',
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A lean, hunched figure of unclear sex with blotchy, faded skin, draped with many trinkets on cords.',
+        ],
+      ],
+      lore: [
+        [
+          "Corpse thieves feel nothing strongly unless an object lets them feel it, so they collect items to share their owners' sensations. They plunder graves or snatch things during battles and live in small groups on the edge of humanoid towns, aping their ways. Their sense of self is faint, so memories from stolen items blur with their own, and one who steals too much from a single person may think it is them. Rumours cling to them: that blotches come from stitched-on corpse skin, or that they pose as the freshly dead, so someone who oddly recovers from sickness may be suspected.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Graveyard'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3747,6 +4117,14 @@ export default createPublicationMonsters({
       name: 'Cueyatl',
       alignment: 'lawful evil',
       languages: ['Cueyatl'],
+      appearance: [['A frog-like humanoid whose skin and saliva carry poison.']],
+      lore: [
+        [
+          'Cueyatl of the coastal jungles enslave other humanoids, either for labour or as offerings to inscrutable gods. A diet of giant ants and venomous sea life gives them poisonous skin and saliva, which they smear on weapons. They paddle outrigger canoes to savagely assault any ship straying into their waters, often leaving the cargo, since the crew are the real prize, sacrificed to their touchy gods. Their priests answer to priest-kings who speak with divine authority, and they obey without wavering, even unto self-sacrifice.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Jungle', 'Coastal'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3823,6 +4201,17 @@ export default createPublicationMonsters({
       name: 'Dark Servant',
       alignment: 'neutral evil',
       languages: ['Common', 'Umbral'],
+      appearance: [
+        [
+          'A figure in black robes with all exposed skin wrapped in grey bandages, holding a bloodied sickle in each hand.',
+        ],
+      ],
+      lore: [
+        [
+          'Dark folk are the offspring of a line of human wizards who bound themselves to gods of shadow and bequeathed the power. Servants are the lowest and most numerous, hiding all skin from the smallest speck of light, empathy-free, cruel and murderous, and awkward around anyone not dark folk. They live near humanoid towns, secretly worshipping darkness and working night trades such as gravedigging, waste collecting, alchemy or the watch. Pale children born from a family line with a dash of darkness are often shunned. They usually look human but may come from any humanoid ancestry, though they lose its traits.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3916,6 +4305,18 @@ export default createPublicationMonsters({
       name: 'Devil Bough',
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'An ordinary-looking tree, shaped like the trees around it. Hidden among its branches is a single fleshy bough that ends in a thin, clawed hand.',
+        ],
+      ],
+      lore: [
+        [
+          'It copies nearby trees so it survives its sapling years, and keeps its clawed hand out of sight until small animals pass through its branches. It feeds on magical energy, growing from spells and enchanted items, so it clusters near enchanted pools and planar portals. It will devour others of its species or different fiends, though where meat is scarce these trees cooperate with execrable shrubs to get by.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Magical sites'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -4019,6 +4420,17 @@ export default createPublicationMonsters({
       name: 'Dhampir',
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [
+        [
+          'A slim, dark-beautiful figure looks human, yet its movement, intensity and charm are so sharp and coordinated that something feels slightly unnatural.',
+        ],
+      ],
+      lore: [
+        [
+          "The half-living child of a vampire and a living mother, rejected by a fearful world. Most hide in plain sight and conceal what they are. Even people who never learn the truth feel uneasy near them, so a dhampir's family often withdraws from society. Many leave home on reaching maturity to ease that burden, but remember what was given up for them and will come back quickly to help their kin.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4130,6 +4542,17 @@ export default createPublicationMonsters({
       name: 'Dhampir Commander',
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [
+        [
+          'A thin, dark-haired officer wades into a mass of enemy soldiers while its own troops rush in behind, fired up by the example.',
+        ],
+      ],
+      lore: [
+        [
+          'Dhampirs who join armies rise quickly, using natural charisma to inspire soldiers into heroism and violence. A commander leads from the front and charges at the head of its force. Its troops are devoted enough to offer their own throats for it to feed on when it is hurt. A good commander uses that loyalty against evil, while a wicked one enjoys the power and drives soldiers to cruelty.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4268,6 +4691,18 @@ export default createPublicationMonsters({
       name: 'Dream Squire',
       alignment: 'neutral',
       languages: ['Common', 'Umbral'],
+      appearance: [
+        [
+          'A young-looking servant in black and silver livery hovers near its master, a crest stitched on its tabard. Seen closer, its skin is pale and gaunt, its hair is black, and dark smears ring its eyes.',
+        ],
+      ],
+      lore: [
+        [
+          "A servile fey servant and bodyguard, mostly found with shadow fey nobles, that lurks near its master awaiting orders. It was once a mortal who offended the fey through a broken promise, a rash deal or other slight, then was remade and bound to serve. It never rests, eats or drinks, so it looks worn out, but keeps its clothes and gear perfectly clean so as not to shame its master. In Midgard it serves shadow fey, summer elves or a priestess of Marena, and appears in the Shadow Realm's courts and now and then in Bemmea, Cronepisht or Zobeck.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Shadow Realm'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -4360,6 +4795,17 @@ export default createPublicationMonsters({
       name: 'Dream Wraith',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          "A silver ghostly hand reaches toward a sleeper's throat while the wraith takes the shape of her lost love. She smiles when she wakes, and then the cold fingers close.",
+        ],
+      ],
+      lore: [
+        [
+          'This undead rises when someone dies in the middle of a powerful dream, and it wanders in search of others having vivid ones, hoping to finish its own dream and rest. It lives partly in the dream world, so psychic harm hurts it badly. It passes through walls into bedrooms at night, picks the most vivid dreamer, and drains life through the dream. Some victims survive and wake very ill, but many die of the shock, and their spirit then follows the wraith as a servant. It does not breathe, eat, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4477,6 +4923,17 @@ export default createPublicationMonsters({
       name: 'Dvarapala',
       alignment: 'any alignment (as its patron deity)',
       languages: ['Common', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A huge guardian giant stands before great doors with a big bronze mace. It has a block-like build, thick limbs, large ears and a monstrous, fanged face. Wearing only a skirt and gold jewellery, it shows off a large belly.',
+        ],
+      ],
+      lore: [
+        [
+          "Semi-divine giants that guard the holiest temples and shrines of the gods of the East. They usually appear in pairs, one on each side of the entrance and another pair inside before the inner sanctum. They obey the god's servants and admit only those allowed. Their looks and clothes reflect their god's nature, so a war god's guard looks fiercer and a morning god's glows golden. Most favour huge maces, used to batter intruders down the steps or into submission.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -4609,6 +5066,18 @@ export default createPublicationMonsters({
       name: 'Echo',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Celestial'],
+      appearance: [
+        [
+          'A vaguely humanoid creature with a bat-like face and winged arms ending in big claws of twisted, rusty iron. Strangely soft rust-coloured fur covers it, and a constant chatter of echoing voices surrounds it.',
+        ],
+      ],
+      lore: [
+        [
+          "It is said to be the soul of an especially vile liar sent to the Abyss, the chatter being every lie it ever told. It prowls near empty halls in caves, using sound to sow confusion and pick off groups one at a time, and can seem to come from anywhere to attack from odd angles. Its claws deafen victims, which makes them immune to its sonic powers. It uses echolocation more than sight. Several may ambush together, but demons rarely cooperate for long, as each finds the others' noise unbearable.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Caverns'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -4702,6 +5171,17 @@ export default createPublicationMonsters({
       name: 'Elder Ghost Boar',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak it"],
+      appearance: [
+        [
+          'An enormous boar lowers its tusks and rushes forward, flickering in and out of being as it runs.',
+        ],
+      ],
+      lore: [
+        [
+          "The result of a magical experiment on albino boars that went wrong and set the giant animals loose to breed. It can turn ghostly while it moves and pass through obstacles as it charges. The strongest ones draw the souls of the recently dead, which can use the boar's faint spiritual magic to speak to people nearby.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -4811,6 +5291,17 @@ export default createPublicationMonsters({
       name: 'Elite Kobold',
       alignment: 'lawful neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A light-armoured, quick kobold with a sling or mining tools stands out among its tribe for being sharper and better educated.',
+        ],
+      ],
+      lore: [
+        [
+          "Elites serve as archers, miners and trap-makers and are usually the king's trusted agents. They can read and do sums, shoot well, and are loyal to the tribe before their own clutch. The king puts them in charge of raid plans or of workers in the mines. On campaign they serve as sling troops, sappers and swarms of light foot soldiers. They fight with great loyalty, though results mostly come from numbers, or now and then from bringing down an enemy wall.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4924,6 +5415,17 @@ export default createPublicationMonsters({
       name: 'Exploding Toad',
       alignment: 'chaotic evil',
       languages: ["understands Goblin but can't speak"],
+      appearance: [
+        [
+          'A green toad croaks while red boils on its skin throb. The warts glow red-hot, and it bursts in flame and blood.',
+        ],
+      ],
+      lore: [
+        [
+          'A living trap, made ages ago by dust goblin magic. It looks like a common toad but has razor teeth and explodes in fire when killed. The ritual takes a day and uses sulfur, and is passed orally between dust goblin shamans. Other casters have made some, but dust goblins are the only folk the toads accept. They are smart and wicked, die gladly, and crowd together so one death starts a chain reaction. Dust goblins like to hide them at the bottom of covered pits or in rigged ceilings.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'tiny',
         type: 'monstrosity',
@@ -5016,6 +5518,17 @@ export default createPublicationMonsters({
       name: 'Eye of the Gods',
       alignment: 'any alignment (as its creator deity)',
       languages: ['all', 'telepathy 60 ft.'],
+      appearance: [
+        [
+          'A single burning eye bigger than a human head hangs within wings of rolling golden flame. Its gaze skips constantly from thing to thing as if absorbing every detail.',
+        ],
+      ],
+      lore: [
+        [
+          "An angel created by a god for one purpose: to see everything. Most gods cannot know all things and rely on followers' prayers, so they make eyes for spying. It may be the size of a child's body, with two bright wings it need not flap. Gods of shadow or trickery give theirs pale or black flames. Most are obedient automata that watch cities from steeples or stir crusaders from behind the lines, though some meddle, pushing a paladin toward a quest to chronicle it or a ruler toward war. Lawful gods recall and unmake disobedient ones, but capricious gods enjoy it. It needs no food, drink or sleep.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'celestial',
@@ -5113,6 +5626,13 @@ export default createPublicationMonsters({
       name: 'Fang of the Great Wolf',
       alignment: 'neutral evil',
       languages: ['Common', 'Goblin', 'Worg'],
+      appearance: [['A large worg looks back with clear intelligence in its eyes.']],
+      lore: [
+        [
+          'A cunning beast that can team up with goblins or other worgs to steer victims into ambushes or blind alleys. Beast cults devoted to the Great Wolf pick the craftiest worgs and turn them through ritual. Fangs then serve stronger beings such as werewolves and nightgarms and help keep big mixed packs in line. They love taking arm rings from northern warriors as trophies and boast about it when together. A fang will never be ridden by a humanoid, goblins and hobgoblins included, though it might let one come close before eating it.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -5204,6 +5724,18 @@ export default createPublicationMonsters({
       name: 'Fear Liath',
       alignment: 'neutral evil',
       languages: ['any languages it knew in life'],
+      appearance: [
+        [
+          'Footsteps echo and a tall, featureless grey figure is glimpsed, then gone. Survivors recall crunching gravel just behind them, and a hazy grey shape with no features when they turned.',
+        ],
+      ],
+      lore: [
+        [
+          'A spectral giant, unnaturally thin and ten feet tall, nicknamed the Grayman, lurking in passes between craggy peaks. It trails travellers and enjoys toying with them, keeping its steps half a beat behind theirs. Fear liaths were mortals bound by the Gray Curse. A humanoid it kills becomes a Grayman, freeing the killer to move on. Legend says the first were vain mountaineers who angered the sun god and were cursed to walk as unseen shadows. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Mountains'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -5274,6 +5806,17 @@ export default createPublicationMonsters({
       name: 'Fierstjerren',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'An old but powerfully built man with lifeless eyes and flowing white hair, runes inked over his skin, lifts a sword.',
+        ],
+      ],
+      lore: [
+        [
+          "A twice-dead agent of the death cults of the north, made from slain raiders by dark magic. It is boastful and arrogant. Some follow orders with foresight and others pursue evil on their own. A spirit of necrotic power runs it, and wounds make that spirit rip loose and animate the body again with a blast of death magic. It travels with about a dozen thralls, zealots who see it as death's avatar. They fight on its command and it is warned of any danger they notice. It sacrifices them freely for advantage, which they take as an honour. It needs no air, food, drink or sleep.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5402,6 +5945,17 @@ export default createPublicationMonsters({
       name: 'Flame Eater Swarm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'What looks like a drifting cloud of ash and flame turns out to be many small bats blackened with soot. Each has an oversized head, stretched jaws and glowing red eyes, and together they look like a swirl of embers.',
+        ],
+      ],
+      lore: [
+        [
+          'Bred by Camazotz cultists in a bid to fly to the sun and eat it. The ritual went badly wrong and made flame eaters instead. They swarm, devour fire, attack anything they meet, and light flammable things to feed and spread the blaze. Living creatures hate and fear them, and even the derro and other cultists who created them sometimes have to wipe them out.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -5477,6 +6031,18 @@ export default createPublicationMonsters({
       name: 'Flame-Scourged Scion',
       alignment: 'chaotic evil',
       languages: ['Common', 'Deep Speech', 'Sylvan'],
+      appearance: [
+        [
+          "A blackened, split, seeping creature shaped like a tree has a fanged mouth at its top, surrounded by a ring of branching tentacles that carry eyes like a goat's. Its root-like feet end in sooty black hooves.",
+        ],
+      ],
+      lore: [
+        [
+          'A child of a dark goddess, one of the few to survive when crusaders burned her groves with holy fire after a great scourge broke her followers and mages. They remained to guard what is left of those sites of power, altered yet still strong. They lurk in the groves, once as living trees, now as leafless charred husks that match the barren ground.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Burned groves'],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -5585,6 +6151,17 @@ export default createPublicationMonsters({
       name: 'Flesh Reaver',
       alignment: 'neutral evil',
       languages: ["understands Common and Darakhul but can't speak"],
+      appearance: [
+        [
+          'A pale, wasted horror scuttles on four long mismatched limbs fixed to an upside-down torso. A coiling neck sways an eyeless head, teeth chattering, and dark fluid seeps from a stained opening where the neck meets the body.',
+        ],
+      ],
+      lore: [
+        [
+          'Sewn together from parts of dead bodies, it finds prey by strange senses even with no eyes, and the clatter of its teeth unsettles the bravest. Necromancers and ghoul barons chain them in small packs as hunters for undead armies. It shares the constant hunger of the ghouls it often serves. After grabbing prey, it extends a black barbed tongue out of that neck opening to melt and eat the flesh.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5690,6 +6267,18 @@ export default createPublicationMonsters({
       name: 'Fleshpod Hornet',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A giant hornet, yellow and red with silver wings and a dark stinger, buzzes in a rage. Swollen growths like cells of a honeycomb cover its body.',
+        ],
+      ],
+      lore: [
+        [
+          'It lives in deep, dark jungle, eating sweet fruit but also drinking blood, and a few together can fell very large beasts. Few survive to describe a hive, since the hornets attack on sight. Their stings carry eggs along with venom, which grow into pod-like tumours in the victim and hatch quickly, feeding on the body. Within a day the strongest larva is ready to burst out and fly off. The hornet itself resists its own venom and often carries several tumours of its own, though its own eggs develop far more slowly.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -5797,6 +6386,18 @@ export default createPublicationMonsters({
       name: 'Flying Polyp',
       alignment: 'chaotic evil',
       languages: ['Deep Speech', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A tall pillar of writhing flesh, studded with eyes, tentacles and mouths, hangs in the air as wild gusts tear around it.',
+        ],
+      ],
+      lore: [
+        [
+          'An ancient wind-wielding aberration from a species that once ruled the Material Plane from cities of towers, until dragons refused to serve and won a bloody war, trapping the few survivors on the Ethereal Plane. After centuries the polyps found a ritual to exist on both planes, so they can move objects in the Material world, though the magic leaves them open to lightning. They want their home back. They sometimes ruin crops, flood rivers or bring storms on anyone who bothers them in their isolated mountain homes. Invisible, and able to cross great distances quickly, they keep a web of hostile alliances from arctic to tropical peaks.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Remote mountains'],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -5977,6 +6578,18 @@ export default createPublicationMonsters({
       name: 'Forest Drake',
       alignment: 'neutral',
       languages: ['Draconic', 'Druidic', 'Sylvan'],
+      appearance: [
+        [
+          'A wingless, scaled beast about the size of a hound crouches low on four sturdy legs. It breathes fire onto dry leaves, white ash settling over its emerald scales, and seems pleased as flame climbs a dead tree.',
+        ],
+      ],
+      lore: [
+        [
+          'They walk slowly on the ground but climb trees fast, using a strong tail and sharp claws. Eggs are laid in hollows under ancient trees and it is said a drake lives as long as its birth tree. They love setting forest fires, and do so to protect their home, since small, frequent burns clear dead and sick wood and stop the forest drying into a summer inferno. Wood elves and skilled woodsmen ally with them because the drakes keep their fires in check, while clumsier hunters and farmers misread this and attack. They also guard druid enclaves, scout the treetops with their tails, and mark trees to warn druids away from danger.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'small',
         type: 'dragon',
@@ -6063,6 +6676,17 @@ export default createPublicationMonsters({
       name: 'Foxin',
       alignment: 'neutral',
       languages: ["understands Common and Sylvan but can't speak"],
+      appearance: [
+        [
+          "A fey creature with a fox's shape and big ears sits in stillness, fur tinted like dawn. Other foxin have many vivid shades.",
+        ],
+      ],
+      lore: [
+        [
+          'Called the morning calm, a foxin radiates false peace. A benevolent fey first made them as companions for healers, as their aura takes away pain, fear and discomfort and gives the hurt or dying a pleasant illusion. The same effect erases any sense of danger, so someone could be attacked beside one and stay blissfully unaware until too late. An army with a foxin could slaughter foes unopposed, but foxin are hard to talk into it, as their wishes are personal and unpredictable. Their gifts show up unpredictably, or when it pleases them.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'fey',
@@ -6155,6 +6779,18 @@ export default createPublicationMonsters({
       name: 'Fragrite',
       alignment: 'chaotic neutral',
       languages: ['Terran'],
+      appearance: [
+        [
+          'Shining sand lifts from the dunes into a see-through crystal figure, which soon bursts into glass shards and wanders on, only to form again and repeat.',
+        ],
+      ],
+      lore: [
+        [
+          'It roams the desert lost and alone, its shaky body a sign of its chaotic, immature nature. It starts when lightning fuses sand into glass and enough elemental magic then brings the glass to life, a jarring awakening even to the fragrite. Glass shatters easily but its edges cut deeply, and as enemies or its own instability chip away at the fragrite, its edges get sharper and more dangerous. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -6264,6 +6900,17 @@ export default createPublicationMonsters({
       name: 'Fulminar',
       alignment: 'neutral',
       languages: ['Auran'],
+      appearance: [
+        [
+          'What looks like a storm cloud takes the form of a large cat, lightning flashing through its half-solid body as it strikes with great speed.',
+        ],
+      ],
+      lore: [
+        [
+          'A creature of semi-solid elemental matter shaped roughly like a big feline predator. Powerful cloud giant sorcerers made or first called them, and they also accompany djinn, silver dragons and other beings tied to air. It is unclear if they act for themselves or for some higher elemental power. They are fast and stealthy and can trap victims in lightning shackles, so they serve as scouts, killers and strike forces. They need no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -6403,6 +7050,18 @@ export default createPublicationMonsters({
       name: 'Ghast of Leng',
       alignment: 'neutral evil',
       languages: ['Void Speech'],
+      appearance: [
+        [
+          "A revolting, oddly earnest human-like face with no nose runs straight down from the forehead into a long, creased neck. The sagging grey torso is covered in knots like a toad's, the forelimbs end in curved claws, and the hare-like hind legs end in sharp hooves.",
+        ],
+      ],
+      lore: [
+        [
+          "A malevolent predator that eats anything that moves and hunts in packs, bounding after prey and tearing it up, sometimes eating a pack member in the frenzy. Natives of the Plateau of Leng where they hunt gugs, they have somehow spread to dark caverns on many worlds and cannot bear sunlight. They are old enemies of the yakirians, but meet in ritual combat, each pack leader choosing a champion. Ghasts occasionally show mercy, and a losing yakirian usually leaves a token. A winning yakirian eats the ghast's heart with an invocation against Leng.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -6478,6 +7137,17 @@ export default createPublicationMonsters({
       name: 'Ghost Boar',
       alignment: 'unaligned',
       languages: ["understands Common but can't speak it"],
+      appearance: [
+        [
+          'A massive boar lowers its head and thunders forward, flickering between solid and ghostly.',
+        ],
+      ],
+      lore: [
+        [
+          'A magical experiment on albino boars went wrong and set the huge beasts loose to multiply. It can briefly turn ghostly while moving and pass through obstacles. The strongest attract the souls of the recently dead, which can use its small store of spirit magic to talk to those nearby.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -6562,6 +7232,18 @@ export default createPublicationMonsters({
       name: 'Ghost Dragon',
       alignment: 'any alignment',
       languages: ['any languages it knew in life'],
+      appearance: [
+        [
+          'An abandoned dragon den has no hoard and no creature, and a chill breeze starts from nowhere and a wavering dragon shape fades into view, its hissing anger leaking through see-through teeth.',
+        ],
+      ],
+      lore: [
+        [
+          'Any dragon can become one, especially a wrathful one whose death was troubling or violent enough to deny it an afterlife. Most stay near the lair where they lived, perhaps a mile or two away, tied to unfinished business there such as being killed by sneaky adventurers, betrayed by followers or undone by a rival. It can call on lair powers briefly after death, but they fade, which angers it more. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Dragon lairs'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -6704,6 +7386,13 @@ export default createPublicationMonsters({
       name: 'Ghoulsteed',
       alignment: 'neutral evil',
       languages: ['Common', 'Darakhul'],
+      appearance: [['A big undead creature that runs on all fours, ridden by ghouls.']],
+      lore: [
+        [
+          'Ghouls make them for their best soldiers and priests from humanoids killed by great amounts of necrotic energy. Darakhul ride them to war and hunts and train some as guards for homes, businesses or temples. They are clever and can talk but stay silent to avoid notice, so they are useful gossips and spies since darakhul forget they are intelligent. They are known for biting riders and passers-by. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -6794,6 +7483,17 @@ export default createPublicationMonsters({
       name: 'Giant Moth',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A big insect with boldly patterned wings that work as camouflage and a warning, large trembling antennae, and a sharp proboscis that unrolls to feed.',
+        ],
+      ],
+      lore: [
+        [
+          'Moths are ancient and have outlasted many species, so many see them as wise despite duller colours and clumsier flight than butterflies or dragonflies. Some cultures take darker, ominously marked moths as omens of death or of one phase passing into another.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'beast',
@@ -6858,6 +7558,17 @@ export default createPublicationMonsters({
       name: 'Giant Shark Bowl',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A giant shark circles inside a huge fishbowl holding seashells, a miniature castle and a treasure chest.',
+        ],
+      ],
+      lore: [
+        [
+          'A shark and a giant ooze share one life force, and together they entice victims with the sight of treasure. The two depend on each other and gain food from the living tissue the ooze collects as the shark swims in it. The magic keeping it going takes great energy, so it is always hungry. A paranoid lich designed it as an improvement on ooze guardians for phylacteries, thinking the illusion of a guarded reward inside a transparent ooze would draw thieves away from the real phylactery. It does not sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'huge',
         type: 'ooze',
@@ -7000,6 +7711,17 @@ export default createPublicationMonsters({
       name: 'Giant Vampire Bat',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A horse-sized bat with black and brown fur shrieks, showing yellowed fangs and a muzzle caked in blood.',
+        ],
+      ],
+      lore: [
+        [
+          'Some bats live on fresh blood. This giant kind is favoured by Camazotz and, being large enough to simply seize its meal, has no need to creep up on sleepers.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -7064,6 +7786,13 @@ export default createPublicationMonsters({
       name: 'Goreling',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A shambling clump of minced flesh and bone, animated and eager to eat.']],
+      lore: [
+        [
+          "A necromancer's substitute when there is too little flesh for a full zombie, and in a fight a severed limb or two can become one. A piece of the dead creature's soul is rumoured to push it to eat living flesh to become whole again. They are built from odds and ends such as eyes, ears, fingers and organs, which unsettles even necromancers. With no living meat they eat each other and grow, though most rot away first. A very large one has more than once been taken for a flesh golem. It needs no air, food, drink or sleep.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'undead',
@@ -7120,6 +7849,17 @@ export default createPublicationMonsters({
       name: 'Grave Behemoth',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        [
+          'A huge giant shambles forward stinking of rot, its rubbery skin rippling as though things are trapped beneath it.',
+        ],
+      ],
+      lore: [
+        [
+          'A necromancer kingdom threatened by rampaging giants, with undead too weak to stop them, flayed hill giants whole, stuffed the skins with humanoid bodies, sewed them shut and filled them with necrotic energy until giant and zombies stirred. The ritual links the behemoth and the zombies inside into one hive mind, the zombies acting as extensions of its will. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -7270,6 +8010,18 @@ export default createPublicationMonsters({
       name: 'Green Abyss Orc',
       alignment: 'chaotic evil',
       languages: ['Orc'],
+      appearance: [
+        [
+          'A lean, rangy orc in plant camouflage, sometimes armour with spines and thorns, climbs through jungle branches at night.',
+        ],
+      ],
+      lore: [
+        [
+          'They live in the dim of deep jungles and canyons and shelter in caves by day, climbing out at night to hunt and wage war in the canopy. They ally with bloodthirsty druids and vine lords, being immune to the spore sacs. They spear prey from above using plant poisons, sleep in leafy nests like big apes, use simple traps, and steal food from man-eating plants. They eat large beetles, roaches and snakes.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7347,6 +8099,18 @@ export default createPublicationMonsters({
       name: 'Grindylow',
       alignment: 'chaotic evil',
       languages: ['Aquan'],
+      appearance: [
+        [
+          "A fish-like, nearly triangular head slopes to a wide mouth of small sharp teeth, with large unblinking eyes. A scrawny scaled chest carries two long wiry arms with three-clawed hands, and the lower body is an eel's tail.",
+        ],
+      ],
+      lore: [
+        [
+          'They live in bands of about a dozen in warm coastal waters, hunted by merfolk, so they curry favour with predators like sahuagin and often get absorbed into their cults. What they love is waiting at tide pools, rivers and lagoons until a gnome, halfling or child comes to the water, then springing out to haul the victim under. They eat their kills but the real pleasure is the fear. They mimic voices, mostly to replay screams of past victims.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Coastal waters'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -7444,6 +8208,18 @@ export default createPublicationMonsters({
       name: 'Gugalanna',
       alignment: 'chaotic good',
       languages: ["understands all but can't speak", 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A huge black bull gouges great heaps of soil, with pale wings from his shoulders and a blazing sun disc hovering between his white horns.',
+        ],
+      ],
+      lore: [
+        [
+          "His title means the Great Bull of Heaven, shaker of the earth, and he is heaven's instrument for trampling enemies. He answers the prayers of the poor or plague-stricken, foretold by shining clouds and midwinter flowers, including on dark gods' altars. He sometimes works with the animal lord Brother Ox, and most hates blood magic, shaking down temples where it is practised.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Heaven'],
       stats: {
         size: 'huge',
         type: 'celestial',
@@ -7590,6 +8366,18 @@ export default createPublicationMonsters({
       name: 'Gumienniki',
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal'],
+      appearance: [
+        [
+          'A stooped creature like an old human with cranberry-coloured skin and bright glowing eyes, wearing hay and foul leather strips.',
+        ],
+      ],
+      lore: [
+        [
+          'They bargain with willing farmers, guarding silos and barns against pests, robbers and blazes in exchange for animals, but when hungry make no distinction. They come from the Lower Planes at full moon and love sacrificing captives or livestock by starlight, and at harvest moon are said to grow flaming wings. They ally with dark fertility cults, roggenwolf or rattok demons, or serve vampires, spying in cat form.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Farmland'],
       stats: {
         size: 'small',
         type: 'fiend',
@@ -7689,6 +8477,17 @@ export default createPublicationMonsters({
       name: 'Hallowed Reed',
       alignment: 'neutral good',
       languages: [],
+      appearance: [
+        [
+          'Clumps of reeds in pale yellow-green, each stalk tipped in bright white, gleam softly across the land.',
+        ],
+      ],
+      lore: [
+        [
+          'They spread by merging with common grasses and weeds, slowly turning them into sentient stalks, and serve as feelers for a lustrating grove, stretching miles out from it. Good-aligned casters may be allowed to cut small pieces to dry and carry or fix to a holy symbol, which strengthen ritual spells or make them likelier to work, and the reeds can be spent in summoning rituals to keep the summoned creature obedient. Evil diabolists and elementalists therefore hunt them. They grow in threes or multiples of three, and when three reach maturity they frequently raise a young alabaster tree, that they guard until it matures.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -7770,6 +8569,17 @@ export default createPublicationMonsters({
       name: 'Haunted Giant',
       alignment: 'chaotic neutral',
       languages: ['Giant'],
+      appearance: [
+        [
+          'A sullen, dead-eyed giant trudges as if carrying the world, three huge ghostly shapes swirling around him while he glances at them with fear and hatred.',
+        ],
+      ],
+      lore: [
+        [
+          "A number of male hill giants and stone giants start hearing ancestral spirits as teens, and the endless whispering sends them wandering, alone or with a few relatives, to find and bury the ancestors' remains. Some give up breeding, so the ancestors push the race toward extinction, and as more die more ghosts return, so many tribes burn their dead, which many giants find vile. Spirits attach to a descendant's soul as flickering shades or looming apparitions. The giant defends them if attacked but is glad of a short break if they are driven off. One returns each hour, and a spirit is only truly put down when its bones are located and buried.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -7866,6 +8676,18 @@ export default createPublicationMonsters({
       name: 'Heavy Cavalry',
       alignment: 'lawful neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A dragonborn knight on a giant lizard in crimson heraldry looks like a mountain of armour and scales, lance couched, loading a heavy crossbow.',
+        ],
+      ],
+      lore: [
+        [
+          'Dragonborn heavy cavalry smash enemy lines with lance and mount weight like a moving rampart of metal and hide. In return for service they get the privileges of high society, which breeds a patriotism lasting as long as the gold does. In Midgard, dragonborn are associated with the Mharoti Dragon Empire and its conquests, and many resent that. Within the empire, scalykind get better education and military training and often become officers.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Midgard'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7993,6 +8815,17 @@ export default createPublicationMonsters({
       name: 'Ichneumon',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A weasel as big as a brown bear, with powerful jaws and teeth that shear scales from meat with ease.',
+        ],
+      ],
+      lore: [
+        [
+          "It lives in burrows and caves, likely after eating the old occupants. A cunning hunter that takes all kinds of prey, it goes far out of its way to eat dragon eggs or dragons. Its musky oily fur gives some protection, and with time to prepare it layers mud on itself that bonds with the oil into a hard thick armour. Dragons find it a humiliation, and while dragons avoid speaking of one killed by an ichneumon after settling the matter, any non-dragon who mentions an ichneumon within a dragon's hearing may vanish.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -8100,6 +8933,18 @@ export default createPublicationMonsters({
       name: 'Ijiraq',
       alignment: 'chaotic neutral',
       languages: ['Sylvan'],
+      appearance: [
+        [
+          'A bipedal caribou with spiked horns stalks the forest edge, calling in a sweet voice about clear springs, honeycomb and easy prey ahead.',
+        ],
+      ],
+      lore: [
+        [
+          'Most people cannot see what they truly are, so they roam as animals or as caribou-human hybrids. Seen truly they are short humans with horrifying features. They abduct humans for sport, carry skulls as trophies and like human meat. They sometimes pose as guides to lure hunters away from others, but think it bad form to attack humans who come to talk and treat them respectfully at a moot. They loathe open water, its creatures and goods from it, so villages near the shore are often safe.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Wilderness'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -8213,6 +9058,17 @@ export default createPublicationMonsters({
       name: 'Infernal Knight',
       alignment: 'lawful evil',
       languages: ['Infernal', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A figure in black plate whose seams leak the glow of hellfire. Its eyes burn the same colour inside the helm as it brings a heavy sword around.',
+        ],
+      ],
+      lore: [
+        [
+          'Few devils have the loyalty and temperament to rise to this rank, and a knight serves as an adviser and agent to a pit fiend or arch-devil. It collects the souls of its victims into its blade and delivers them to its master. When sent to recover someone who dodged an infernal contract, it hunts across the planes without rest. It needs no food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -8383,6 +9239,17 @@ export default createPublicationMonsters({
       name: 'Iron Sphere',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          "A smooth, bright iron ball about four feet across, studded with square plates each topped by a black dome. It looks like an ornament placed at a statue's feet.",
+        ],
+      ],
+      lore: [
+        [
+          'Owners often display spheres as art among statues, vases or stones. Once it activates, it rolls at a threat and uses pistons under its plates to open blades, spikes, firing ports or nozzles, so it is hard to predict. Its owner commands it through a gem that can hide in the plate at the top, or can set it to guard. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -8518,6 +9385,17 @@ export default createPublicationMonsters({
       name: 'Jiangshi',
       alignment: 'chaotic evil',
       languages: ["understands any languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A corpse with sickly green, glowing skin in ragged robes, hopping stiffly with clawed hands out. A slip of paper bearing small script dangles from its hat.',
+        ],
+      ],
+      lore: [
+        [
+          'A jiangshi arises when burial rites go wrong and the trapped soul reanimates the body after rigor mortis, giving the rigid, hopping gait. A burial prayer on a scroll at its forehead or hat guards it against magic. It makes huge leaps, grabs a victim, and sucks out their breath. It is blind and finds the living by listening to their breathing, so someone who holds their breath and keeps still can go unnoticed. It needs no air or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -8675,6 +9553,18 @@ export default createPublicationMonsters({
       name: 'Jinmenju',
       alignment: 'chaotic neutral',
       languages: ['all languages known by creatures within 120 feet'],
+      appearance: [
+        [
+          'A fine apple tree hung with dozens of white apples that shake in a breeze nobody feels. Each apple has a face roaring with laughter, and the air is full of giggling.',
+        ],
+      ],
+      lore: [
+        [
+          "Legend says the first one grew from a jester's severed head. If it is made to laugh heartily, by a spell or a joke told well, a fruit drops, rolls off and grows into a new tree over a few weeks. The tree cannot move and only wants to make others happy, but it sends dreams that call people to sit beneath it and eat its fruit, which has often ruined communities. It cannot speak, but the fruit pick up its thoughts and voice them a word at a time, with every fruit chorusing together for strong feeling. It likes shady groves and temperate rainforest, keeps an audience close without realising its magic holds them, and old lairs hide bones of those who starved under its spell.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Forest', 'Rainforest'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -8791,6 +9681,17 @@ export default createPublicationMonsters({
       name: 'Junk Shaman',
       alignment: 'lawful neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A short, thin kobold with dull yellow and copper scales, wrapped in filthy robes hung with scrap metal, chains and nails. It carries a pipe staff topped by a battered candelabra with hissing flames burning in it.',
+        ],
+      ],
+      lore: [
+        [
+          'The kobold community half-shuns the junk shaman as touched, yet everyone quietly seeks its advice, since it clearly channels divine power. It ignores mining, trapmaking and sorcery and instead collects broken weapons, useless tools and scrap, breathing a semblance of life into the refuse.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -8893,6 +9794,18 @@ export default createPublicationMonsters({
       name: 'Külmking',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A horse-like body with far too many legs, several clawed arms, and a misshapen head with a fanged maw. Its hooves on stone echo like a stampede.',
+        ],
+      ],
+      lore: [
+        [
+          'A creature that deliberately harms forests or wild places can be cursed by fey spirits into a külmking, forced to guard the land it spoiled. It must obey the wording of its curse, but it is vindictive and often hunts fey in its domain, enjoying frightening small sprites and gentle bearfolk. It drains souls with its mouth. Now and then two of them are found pulling a carriage for undead masters.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -9053,6 +9966,18 @@ export default createPublicationMonsters({
       name: 'Kappa',
       alignment: 'chaotic neutral or chaotic evil',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'A child-sized creature that mixes turtle, lizard and monkey, with a beaked mouth, scaly skin, clawed webbed hands, a shell on its back, and a bowl-shaped dip full of water on its head.',
+        ],
+      ],
+      lore: [
+        [
+          "Kappa are impish river, lake and swamp fey of the eastern lands who play crude pranks such as pulling down breeches or stealing swimmers' clothes. They are fond of horse and cattle meat and can drag big animals under, and the darker ones try to drown people. Their power sits in the head bowl, and if it empties the kappa weakens and hurries to refill it. Being very polite and none too bright, a kappa will return a deep bow and spill its water. They love cucumbers, so travellers toss in cucumbers marked with their names at river crossings. Farmers who befriend one with gifts may get irrigation, fish and bonesetting lessons.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['River', 'Lake', 'Swamp'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -9166,6 +10091,13 @@ export default createPublicationMonsters({
       name: 'Karakura',
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft.'],
+      appearance: [['A being of murk and shadow with a hypnotic, overwhelming presence.']],
+      lore: [
+        [
+          "Karakura are vampiric fiends who use wit and charm to lure prey, preferring to charm mortals and feed on their love and devotion, with flesh and blood as a fallback. They often serve demon lords as seducers and corruptors, tainting a mortal's soul so that it becomes a mane after death and feeds the lord. Many serve Alquam, the Demon Lord of Night, and his realm houses many of them.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -9316,6 +10248,18 @@ export default createPublicationMonsters({
       name: 'Knight of the Road',
       alignment: 'lawful evil',
       languages: ['Common', 'Elvish', 'Umbral'],
+      appearance: [
+        [
+          'A smiling, pale-skinned elf with raven hair who lifts one hand like an official to halt travellers.',
+        ],
+      ],
+      lore: [
+        [
+          'These shadow fey knights haunt the lands around shadow gates and the shadow roads, always looking to profit or rise in rank by robbery, ransom or murder. Often disgraced minor nobles, they learn every corner of their territory and turn that knowledge against victims, hoping wealth and notoriety will win favour from their betters. They prefer to fight, hunt and threaten in the Shadow Realm, but they operate anywhere that connects to it.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Shadow Realm'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -9469,6 +10413,18 @@ export default createPublicationMonsters({
       name: 'Korrigan',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Gnomish', 'Sylvan'],
+      appearance: [
+        [
+          'A pointy-eared fey a little under two feet tall, like a gnome or leprechaun, with flashing eyes and long hair braided with flowers. It wears a yellow robe and flower garlands and dances and sings barefoot. At night it is beautiful, but by day it is wizened and ugly, with scraggly white hair.',
+        ],
+      ],
+      lore: [
+        [
+          'Korrigan are shy forest dwellers who leave their grottoes at night to sing and dance among ancient standing stones, waterfalls and streams. At the full moon they dance hand in hand in circles, and their joyful songs pull others in, though dancing too long can kill mortals, especially stuffy pious types. Otherwise they like to make mortals do foolish things, and a victim without a sense of humour may be killed with poisonous breath. They are said to foretell the future, and some mortals brave the forest and possible humiliation to ask for advice.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -9595,6 +10551,17 @@ export default createPublicationMonsters({
       name: 'Lady in White',
       alignment: 'any alignment',
       languages: ['any languages it knew in life'],
+      appearance: [
+        [
+          'A woman wrapped in white robes and scarves who looks alive until she reveals her true, often horrifying, face.',
+        ],
+      ],
+      lore: [
+        [
+          'She is the ghost of a woman who died tragically, often killed by someone close, and she lingers near where she died. Encounters vary, but she seems living at first and rarely appears before more than a few people. Some seem lost and beg to be guided or taken home, vanishing en route with a scream at the death site. Others deceive people into danger, or suddenly show their wounds to scare victims into a hazard. The most famous cases expose the killers. She needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -9697,6 +10664,18 @@ export default createPublicationMonsters({
       name: 'Laestrigonian Giant',
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'A ten-foot giant in ragged skirts or togas made of sailcloth and human skin, with tangled beard and hair crusted with blood and filth and filed teeth. From afar it looks like a normal man, but up close madness shows in its eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'Laestrigonians live beside natural harbours with hidden reefs and shoals, and trick ships onto the rocks, often the same hazards that stranded them. When survivors try to wade ashore they are hunted down and slaughtered. They were once castaways who broke the taboo against cannibalism and were changed by an old curse that made them bigger and able to go long without food, but unable to digest much besides humanoid flesh. They die young from the diseases and parasites that come with their diet, usually killed by their own kind.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Coastal harbours'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -9780,6 +10759,18 @@ export default createPublicationMonsters({
       name: 'Lamassu',
       alignment: 'lawful good',
       languages: ['all', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          "A magnificent creature with a human head, lion's body and golden eagle wings, who smiles kindly at passing travellers.",
+        ],
+      ],
+      lore: [
+        [
+          'Lamassu fight evil and guard sites of historic and religious significance, usually in desert ruins and abandoned temples. They are kind to humanoids, though their regal manner and old-fashioned speech can seem superior. Sometimes one adopts a city by nesting in its main gatehouse and watching who passes, looking out for criminals, blessing the poor and pressing the rich to help beggars, widows and orphans. The post normally lasts a year and a day, though it can run to a decade, and no flattery, bribery or clever proclamation dislodges it. It needs no food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Desert', 'Ruins'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -9976,6 +10967,14 @@ export default createPublicationMonsters({
       name: 'Leonino',
       alignment: 'unaligned',
       languages: ['Elvish'],
+      appearance: [['A creature slightly bigger than a housecat with owl wings.']],
+      lore: [
+        [
+          'Leonino are rare, treasured pets in elven courts, kept by royal children, courtesans and gigolos, and sometimes serve as couriers for elven enchanters, nobles and rogues. Most are feral and live at the edges of halfling settlements, on warm coasts or in temperate forests, preying on rodents, frogs, salamanders and little birds. Those living among elves or halflings learn the local tongue but seldom speak, being proud, and are known for dry wit. They like harbours, ships and fisherfolk and may carry messages between elven ships, harbourmasters, captains, pirates and sea folk.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Coastal', 'Forest'],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -10051,6 +11050,18 @@ export default createPublicationMonsters({
       name: 'Light Cavalry',
       alignment: 'lawful neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          "A lithe red dragonborn with a curved cavalry sabre and a steel shield bearing its nation's crest, riding a cloth-draped warhorse.",
+        ],
+      ],
+      lore: [
+        [
+          "Dragonborn light cavalry scout and make fast, precise strikes on enemy infantry, and they support the army's wyvern knights from the ground. In Midgard many people picture the Mharoti Dragon Empire when they hear dragonborn, and see only death, though dragonborn are no more inclined to good or evil than anyone and are bound to the sultan's conquest ambitions. The empire favours scalykind, so dragonborn get better schooling and training and often become officers. Light cavalry belong to the akinji caste, who in peace are landholders, merchants, priests and the like.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Mharoti Dragon Empire'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -10137,6 +11148,14 @@ export default createPublicationMonsters({
       name: 'Light Dragon Wyrmling',
       alignment: 'neutral good',
       languages: ['Draconic'],
+      appearance: [['A young dragon of the light breed.']],
+      lore: [
+        [
+          'This text covers light dragons as a breed. Long ago some dragons that wandered the Ethereal, Astral and outer planes became a breed whose forms are only partly physical, who revere beauty in places like starry heights and dark voids and bask for years near celestial structures they like. Their young lack ethereal bodies, so they raise them in remote places known to other dragons, avoiding farmland and delicate vegetation, such as deserts and bare rocky coasts. They are kindly but distant. They keep in touch to share news and warn about void dragons, whom they despise and fear for their madness and dangerous knowledge, and band together to destroy them, which often kills them and makes them secretive.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Desert', 'Rocky coast', 'Astral Plane'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -10248,6 +11267,16 @@ export default createPublicationMonsters({
       name: 'Living Shade',
       alignment: 'neutral',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        ['A shadow on a wall that suddenly turns on its owner and reaches out a dark hand.'],
+      ],
+      lore: [
+        [
+          "A burst of magic can infuse a person's shadow with life, creating a fey spirit full of the Shadowfell's power, similar to an undead shadow but not undead. Some casters deliberately make their own shadow a servant, much like a familiar. A masterless one feels incomplete without someone to cast it and may serve another caster who treats it well. It is not malicious and likes mirroring its master's gestures, sometimes moving slightly out of step to tease onlookers, and even unbound ones like to play someone's shadow. It communicates by pantomime.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Plane of Shadow'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -10320,6 +11349,18 @@ export default createPublicationMonsters({
       name: 'Living Star',
       alignment: 'any alignment',
       languages: ['Celestial', 'Common'],
+      appearance: [
+        [
+          'A huge, glowing figure of crackling, churning energy that hovers over a battle and flares to knock two warriors senseless.',
+        ],
+      ],
+      lore: [
+        [
+          'As the sun crosses the sky it sheds motes of itself, most burning out within days, but a rare one lasts long enough to become sentient. A young living star roams the heavens watching the worlds below, and from what it sees takes on a personality and stands for a theme or domain, like a god. Some step into the mortal realm to collect worshippers and meddle in lives. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Sky'],
       stats: {
         size: 'huge',
         type: 'celestial',
@@ -10464,6 +11505,14 @@ export default createPublicationMonsters({
       name: 'Lost Minotaur',
       alignment: 'neutral evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [['The risen corpse of a minotaur who died trapped in a labyrinth.']],
+      lore: [
+        [
+          'Lost minotaurs are anguish, fury and humiliation made flesh, the worst death their people can picture. They have an indiscriminate malice and a persistent hatred of survivors, but may be talked into hunting a particular victim, usually in exchange for an arranged hunt of some sort. Minotaur parents tell frightening tales of them to keep children from old, unsafe labyrinths. In Midgard many arose three centuries ago when minotaurs sheltering in fortified labyrinths were starved or gassed during Mharoti invasions. Stories centre on the Great Labyrinth among the ruins of Roshgazi and, less often, on the old Cindass labyrinth, where treasure-seekers die by their axes. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Labyrinth'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -10580,6 +11629,18 @@ export default createPublicationMonsters({
       name: 'Lystrosaurus',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A hog-sized beast rooting in the soil with downward tusks from its upper jaw, with lizard-like sprawling forelimbs, thick grey hide with a thin cover of coarse hair along its spine, and a stubby tail. It mutters and grunts to itself.',
+        ],
+      ],
+      lore: [
+        [
+          'Kobolds in warm lands often keep lystrosaurs as guard animals, and they are known as sturdy, self-reliant companions. When not working one tears up plants and chews all day. After dark it scrapes out shallow burrows for sleeping, which its masters sometimes enlarge.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Warm lands'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -10649,6 +11710,17 @@ export default createPublicationMonsters({
       name: 'Mandrake',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A rosette of leaves like lettuce poking from the soil, twitching a little, with a faint muffled squealing from the ground.',
+        ],
+      ],
+      lore: [
+        [
+          'Herbalists can breed mandrakes, but in the wild one only appears when an innocent youth is hanged wrongly for theft and their blood, spit, sweat or urine falls on the ground. After lying dormant for twelve months it grows a thick root shaped like a young humanoid with leafy hair. Pulling it up makes it wail so piercingly that most ordinary people who hear it die. It is cultivated only for its medicinal value: ground up and steeped for twelve months and a day, the root turns into an elixir that cures all poisons and afflictions.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'tiny',
         type: 'plant',
@@ -10723,6 +11795,17 @@ export default createPublicationMonsters({
       name: 'Moon Nymph',
       alignment: 'chaotic neutral',
       languages: [],
+      appearance: [
+        [
+          'A shadow that gathers in spilling moonlight into a lovely, wraith-like figure with a distinct face, a dark smile and eyes sparkling like cold diamonds. Its colours are muted blacks, pale whites and yellows, with hazy edges.',
+        ],
+      ],
+      lore: [
+        [
+          'Moon nymphs use the moons as a bridge between the mortal world and elsewhere, sliding down moonbeams to haunt mortal dreams. They have no sex, and their face matches whatever the victim dreams of, an elf, a dwarf, even a sleek cat or an adorable dog, though the features are always sharp and mesmerising. Their strength follows the moon: stronger and tougher at the full moon and weaker at the new moon.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -10873,6 +11956,18 @@ export default createPublicationMonsters({
       name: 'Morko',
       alignment: 'chaotic evil',
       languages: ['Elvish', 'Sylvan'],
+      appearance: [
+        [
+          'A small, gnome-like creature, whose face shows through wiry brown hair only as mischievous eyes, a swollen nose and a fixed sneer, with the rest of it bundled in layers of grubby mismatched cloth.',
+        ],
+      ],
+      lore: [
+        [
+          "A morko is a freeloading nuisance that gorges on others' work and creates all the disorder it is able to, especially before winter. It eats its fill of chickens then tunnels into coops to let in foxes, and likes unravelling rope and tying livestock tails to things that will cause damage, then shouting in their ears. Fire cannot hurt it, so it wedges itself halfway down a chimney to sleep and pokes the embers with its spear, enjoying the smoke and curses below. It lurks near villages before dance festivals, remembering the dates, and gives a lone passer-by a withering stare that carries a cruel curse, then watches the festivities unfold.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Villages'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -10956,6 +12051,18 @@ export default createPublicationMonsters({
       name: 'Mountain Giant',
       alignment: 'neutral evil',
       languages: ['Common', 'Giant', 'Terran'],
+      appearance: [
+        [
+          'A large hill that uncurls and stands up, revealed as an unbelievably huge, craggy creature.',
+        ],
+      ],
+      lore: [
+        [
+          "Mountain giants were the first creatures born, children of Aurgelmir, and mountains rose to let them pass. They have ruled their birthplaces since, living on or inside the peaks. Not immortal but extremely long-lived, each feels the call to mate once, seeks the nearest active volcano and a partner there, and the child's birth comes with volcanic activity that makes it a home. A mountain giant regards smaller races as insects to be tolerated until annoying, then crushes whole towns like anthills, and even large stone giants are pets to it. Its lair is the whole mountain, from caverns to summit, and it patrols to stop harm such as mining.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Mountain', 'Volcano'],
       stats: {
         size: 'gargantuan',
         type: 'giant',
@@ -11184,6 +12291,17 @@ export default createPublicationMonsters({
       name: 'Nachzehrer',
       alignment: 'chaotic evil',
       languages: ['the languages it knew in life'],
+      appearance: [
+        [
+          'A walking corpse with skin stretched over its bones and dotted with oozing pustules, in burial clothes torn at the cuffs and sleeves. At a distance it can be mistaken for a ghoul.',
+        ],
+      ],
+      lore: [
+        [
+          'Nachzehrer rise when plague kills many people, the first victim perhaps rising as one, with a second appearing if it infects enough others. They crave the life essence of the living. Its shadow saps the strength of living things it falls across, and its grinding teeth drain life while passing on its disease. It especially hunts its own living relatives. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -11290,6 +12408,18 @@ export default createPublicationMonsters({
       name: 'Nalusa Falaya',
       alignment: 'neutral evil',
       languages: ['Umbral', 'Void Speech'],
+      appearance: [
+        [
+          'A lanky, thin humanoid with dark fur and a wolfish skull, tufted pointed ears, small black eyes that glow, a hunched back bristling with spines and frightful teeth.',
+        ],
+      ],
+      lore: [
+        [
+          'Mostly solitary, it mutters to itself and sometimes allies with zoogs or spiders, calling them its children. It prefers humanoid young, especially elven ones. It is evil and devious, and has been seen gliding snakelike between patches of shadow. Rumour says they were mortals corrupted by Void energy. They gather near portals leading to realms of shade, death and dark, which may look like dark ponds, echoing wells or caverns covered in spiral runes, and when losing a fight they may vanish into shadow for good.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Shadow portals'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -11400,6 +12530,18 @@ export default createPublicationMonsters({
       name: 'Nian',
       alignment: 'chaotic neutral',
       languages: ['Sylvan', 'telepathy 60 ft.'],
+      appearance: [
+        [
+          "A massive, powerful bull's body with the sleek, majestic head of a lion and one curved horn.",
+        ],
+      ],
+      lore: [
+        [
+          'It is said gods send nian to punish villages that fell from favour or committed a terrible crime, though others think they simply grab food and treasure that is not theirs and hoard them in underwater grottos or mountain caves. A nian hibernates for months and prefers to hunt as seasons change, so eastern villages treat its coming as a sign of changing times. Festivals of harvest or new year include things that ward them off: red decorations, fire displays and clanging instruments.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Underwater grottos', 'Mountain caverns'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -11522,6 +12664,18 @@ export default createPublicationMonsters({
       name: 'Nightgaunt',
       alignment: 'lawful evil',
       languages: ['understands Common', 'Abyssal', 'and Void Speech', "but can't speak"],
+      appearance: [
+        [
+          'A thin, bat-winged black shape dropping silently from above, faceless with smooth whale-like skin, inward-curving horns, a lashing barbed tail and clutching rubbery paws. Its wings and cold touch make no sound.',
+        ],
+      ],
+      lore: [
+        [
+          'They never speak or smile, showing only blankness where a face would be. These mindless aberrations are created by an ancient god of the Great Abyss that fights other gods and terrors from the Outer Void. They scout ahead of, and carry, the ghouls dwelling in the gloomiest parts of the Shadow Realm and in pure dream. At times they side with humans and good forces against worse chaos and especially loathed demon lords, but only until law returns and the rot is burned away, when they may depart or attack the weakened good side. It needs no breath, food, drink or air pressure.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Shadow Realm'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -11667,6 +12821,18 @@ export default createPublicationMonsters({
       name: 'Ningyo',
       alignment: 'neutral evil',
       languages: ['Aquan', 'Common', 'Deep Speech'],
+      appearance: [
+        [
+          'A small fish that leaps from the water and looks around frantically, shaking wet hair to show a human face under it and eight squirming tentacles where whiskers would be.',
+        ],
+      ],
+      lore: [
+        [
+          'Fishermen scream and drop their lines when they haul one up, because legend makes them omens of destruction and misfortune. Anyone who takes one home suffers bad luck, and a village that finds one dead on its shore is doomed. Legend also says that eating the raw flesh brings eternal life, as in a tale of a woman who ate some unknowingly given by her drunk father, stayed young while lovers died, and after 800 years returned to her hometown and ended her life.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Open sea'],
       stats: {
         size: 'small',
         type: 'aberration',

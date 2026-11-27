@@ -10,6 +10,14 @@ export default createPublicationMonsters({
     mercenary_envoy: {
       name: 'Mercenary Envoy',
       languages: ['Common'],
+      appearance: [['A rank-and-file mercenary of the Banner of Blades or the Iron Lions.']],
+      lore: [
+        [
+          "These warriors are at Tyreus's fortress and may not represent their armies. They show coordinated attacks and formations, but are neither the best lieutenants nor the rough masses. Mercenaries from both companies count each other as allies while they are at the fortress, unless the adventurers split them.",
+        ],
+        ['Sources: ', 'Adventures in the Forgotten Realms: From Cyan Depths'],
+      ],
+      habitats: ["Tyreus's fortress"],
       stats: {
         size: 'medium',
         type: 'humanoid',

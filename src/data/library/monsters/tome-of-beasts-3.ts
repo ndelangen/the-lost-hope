@@ -3741,6 +3741,14 @@ export default createPublicationMonsters({
       name: 'Necrotech Reaver',
       alignment: 'neutral evil',
       languages: ["understands Common and Darakhul but can't speak"],
+      appearance: [['A massive undead creation of necromancers.']],
+      lore: [
+        [
+          'Necrotech creations are built by groups of necromancers and in undead-ruled nations serve as siege weapons or transport. In Midgard the darakhul of the Ghoul Imperium build new servants and war machines from the corpses and bones of Underworld creatures to support their conquests. Under Emperor Nicoforus their necromancers, the Necrophagi, have prospered, and work has quickened in the past ten years because the vampires of Morgau and Doresh gave them eldritch books in exchange for help against Krakova.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Underworld'],
       stats: {
         size: 'huge',
         type: 'undead',

@@ -61,6 +61,18 @@ export default createPublicationMonsters({
       tags: ['dragonborn'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Elven', 'Infernal'],
+      appearance: [
+        [
+          'A dragonborn spellcaster, resting with a tiefling scout and four kobolds, still bearing the marks of a recent fight.',
+        ],
+      ],
+      lore: [
+        [
+          "This mage is among the Cult of the Dragon agents sent to Sorcerer's Isle. Having just fought and rested, the group is back to full strength and prepared to fight to the death, because they dread returning without any success. The mage has all his spells back.",
+        ],
+        ['Sources: ', "DDEX1-11 Dark Pyramid of Sorcerer's Isle, p. 19"],
+      ],
+      habitats: ['Island', 'Ruins'],
       stats: {
         size: 'medium',
         type: 'humanoid',

@@ -8058,6 +8058,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['Forest', 'grassland', 'hill'],
+      appearance: [['A hollow, bull-shaped automaton of metal that glows with fierce heat.']],
+      lore: [
+        [
+          'Devotees of the banished archdevil Moloch bent the gorgon-making rite to produce guardians of their own. They stand watch in profane places given over to Moloch, to other archdevils or to gods that thirst for blood. On a charge, the ribs of the frame spring apart into a cage that closes round a victim and roasts them.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -29829,6 +29836,15 @@ export default createPublicationMonsters({
       languages: ['Common plus one other language'],
       habitats: ['any'],
       tableNotes: [['Gear: greatsword, longbow, plate armor']],
+      appearance: [
+        ["A trained warrior in a knight's arms and gear, travelling on a personal mission."],
+      ],
+      lore: [
+        [
+          'Knights in general are battle-hardened fighters, many sworn to a ruler, a faith or an order. The questing kind roam in pursuit of a goal: killing a villain, beating a monster, retrieving an artifact or winning back lost honour.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

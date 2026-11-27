@@ -474,6 +474,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       habitats: ['any'],
+      appearance: [['The text offers no description of its looks.']],
+      lore: [
+        [
+          "An ancient spirit dragon has risen above the small worries of the present. After centuries studying an old empire's culture and beliefs, its personality and views are often hard to tell from that lost realm's.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -774,6 +781,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["understands Common but can't speak"],
       habitats: ['coastal', 'forest', 'hill', 'coastal', 'forest', 'hill'],
+      appearance: [
+        [
+          'A muscular, unnatural hunter with sleek black fur, red about the jaws and claws as if soaked in blood.',
+        ],
+      ],
+      lore: [
+        [
+          'Malar, lord of the savage hunt, occasionally turns a flicker of primal predation into a body. The beast has a land shape, a sea shape and a sky shape, and swaps freely to run prey down. Be it bat-like, wolverine-like or shark-like, nobody could take it for a natural animal. Normally there is just one, but Malar may produce several to track legendary quarry or simply to show off his savagery.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -901,6 +919,18 @@ export default createPublicationMonsters({
       tags: ['genie'],
       alignment: 'lawful evil',
       languages: ['Common', 'Primordial (Aquan)'],
+      appearance: [
+        [
+          "A coral-crowned marid whose body flows like the sea, with the lower half stretching into a long muscular eel's tail.",
+        ],
+      ],
+      lore: [
+        [
+          "Biha Babir governs Maran Saya, a city beneath the waves in Calimshan. Before ruling she was a spy, slipping into rival genie courts and destroying the last of the Twisted Rune, and some say she fought alongside Sultana Songal on the Night of Fleeing Shadows. She took over from her retired father. Her spy network is the best among Calishite genie leaders. She has hunted for years for the Calimemnon Crystal, prison of Calim and Memnon, believing it would let her wipe Calimshan out and seize the genie realm that follows. She seems calm like the sea's surface but is fierce underneath, prefers outwitting foes to fighting, loves wealth yet prizes learning equally, hears those who bring useful information and punishes liars harshly.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
+      habitats: ['Calimshan', 'Sea'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -1158,6 +1188,13 @@ export default createPublicationMonsters({
       languages: ['Common'],
       habitats: ['urban'],
       tableNotes: [['Gear: breastplate, holy symbol']],
+      appearance: [['A cultist devoted to command over the dead.']],
+      lore: [
+        [
+          "Bhaal, Bane and Myrkul were adventurers who took godhood, were killed for arrogance and came back as the Dead Three, whose cults heavily influence Faerûn, especially Baldur's Gate. Cultists getting orders straight from their god are the most driven and dangerous. Myrkul's followers command the dead, to raise undead servants, scare the living or wring out the secrets of the dead. Most want knowledge more than power or riches, and many are sinister schemers who stockpile necromantic lore and gather to swap it, enjoying the gruesome tests it requires.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1341,6 +1378,15 @@ export default createPublicationMonsters({
       languages: ['Common', 'Elvish', 'Undercommon'],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
       tableNotes: [['Gear: chain shirt, rapier']],
+      appearance: [
+        ['A drow worshipper of the Spider Queen, from one of the great Underdark cities.'],
+      ],
+      lore: [
+        [
+          'Plenty of drow, notably in Menzoberranzan, follow Lolth, the Spider Queen. Their ancestors were exiled from the surface long ago, and they now treat the Underdark as home. They plot against each other, raid the surface, and prepare for a final war.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1782,6 +1828,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ["understands Common plus one other language but can't speak"],
       habitats: ['urban'],
+      appearance: [['A massive four-armed construct with thick steel bolted to its frame.']],
+      lore: [
+        [
+          'Hulks serve as guards and sentinels. They are quicker and smarter than they look, which catches many thieves and trespassers out.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -1872,6 +1925,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['telepathy 30 ft.'],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A conical body that ripples through the air behind a broad flat mouth that is circled by four slender arms, narrowing to a poisonous stinger.',
+        ],
+      ],
+      lore: [
+        [
+          "Phaerimm are alien and spiteful creatures bent on ruling other intelligent species and prefer magic to the stinger. Ancient ones wrecked Netheril and were imprisoned beneath the Anauroch, where they plan to return. They guard their rare hatchlings zealously not from affection but to build up their race's strength.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -1936,6 +2000,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ["understands Primordial but can't speak"],
       habitats: ['arctic', 'underdark', 'arctic', 'underdark'],
+      appearance: [['A large white snake of mist and cold.']],
+      lore: [
+        [
+          'Polar serpents lurk in snowy places and chase warm-blooded prey through blizzards and fog, coiling around victims to drain their heat.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -2029,6 +2100,18 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common'],
       tableNotes: [['Gear: breastplate, greataxe, handaxe']],
+      appearance: [
+        [
+          'A powerful human woman with flowing red hair, her limbs turned mostly to metal by the rusting curse, commands the largest, best-armed ship in the Moonshaes, plated in rusty iron.',
+        ],
+      ],
+      lore: [
+        [
+          'A pirate queen and one of the most prominent victims of the Moonshae rusting curse. Her crew of bloodthirsty rusted berserkers follow her, and they say her endless hunger for plunder keeps her healthy, as she has so far avoided the weakness the curse normally brings.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
+      habitats: ['Moonshae Isles', 'Sea'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -2164,6 +2247,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Giant'],
       habitats: ['coastal', 'forest', 'coastal', 'forest'],
+      appearance: [
+        [
+          'A giant coated in coarse, sickly orange-grey iron, shedding clouds of toxic rust dust as blades and arrows glance off it.',
+        ],
+      ],
+      lore: [
+        [
+          'A giant overtaken by the Moonshae Rusting curse, which coats a creature in thin iron, hollows its mind and finally makes it a walking iron parody of itself. Rusted creatures hate unspoiled nature and are driven to destroy it. This one rampages in mindless rage, tearing up trees and hills and delighting in ruining wilderness. The text covers all Rusted, not just behemoths.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -2256,6 +2350,15 @@ export default createPublicationMonsters({
       languages: ['Common'],
       habitats: ['coastal', 'forest', 'coastal', 'forest'],
       tableNotes: [['Gear: greatsword, javelin']],
+      appearance: [
+        ['A human Norlander whose skin is a rusty orange-grey iron shell, flaking toxic rust.'],
+      ],
+      lore: [
+        [
+          'A Norlander changed by the Rusting curse of the Moonshae Isles, which hollows the mind and fills the victim with hatred of nature. Berserkers abandon the traditional Norlander way of life to rage against nature and those who guard it. The general description of the curse applies to all Rusted creatures.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -2335,6 +2438,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Draconic'],
       habitats: ['coastal', 'forest', 'coastal', 'forest'],
+      appearance: [
+        ['A draconic colossus covered in sickly orange-grey rusting iron, shedding toxic flakes.'],
+      ],
+      lore: [
+        [
+          'A dragonlike creature consumed by the Moonshae Rusting curse, which hollows the mind and breeds loathing of unspoiled nature. It can cause huge destruction: some dry up rivers and wreck springs, others go underwater to smash reefs and boil the sea. The general description of the curse applies to all Rusted creatures.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'construct',
@@ -2433,6 +2545,17 @@ export default createPublicationMonsters({
       name: 'Sammaster (Dracolich Form)',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic', 'Infernal'],
+      appearance: [
+        [
+          'He presents a charming, handsome face, but his obsession with undead dragons shows through before long.',
+        ],
+      ],
+      lore: [
+        [
+          'Sammaster founded the Cult of the Dragon and became a lich. He keeps a soul gem like a dracolich instead of a soul jar and, when his lich form dies, returns as a dracolich with the gem as its heart. He is only finished by destroying that form and then the gem. He rarely stays put, checks on key cult plots in person, and returns after every apparent defeat with more desperate plans.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -2633,6 +2756,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       habitats: ['any'],
+      appearance: [['A small dragon hatched from an egg found in ancient rubble.']],
+      lore: [
+        [
+          'If conditions are right, an egg buried in old rubble may hatch one. Left alone, it roams the ruins its egg came from.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -2715,6 +2845,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["understands Abyssal but can't speak"],
       habitats: ['forest', 'swamp', 'forest', 'swamp'],
+      appearance: [
+        ['A hulking, rotting heap of vegetation charged with the power of the dead god Moander.'],
+      ],
+      lore: [
+        [
+          "Spores form where Moander's influence lingers: primordial swamps, ancient forests and foul lagoons touched by the Abyss. A spore has no plan beyond spreading death and sorrow, though Moander's cultists revere each one as a window into their god's mind.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -2953,6 +3092,13 @@ export default createPublicationMonsters({
       languages: ['Common', "Draconic (can't speak in wyvern form)"],
       habitats: ['hill', 'mountain', 'hill', 'mountain'],
       tableNotes: [['Gear: javelin']],
+      appearance: [['A humanoid that turns into a slim wyvern or a dragon-humanoid hybrid.']],
+      lore: [
+        [
+          'One of the rarest lycanthropes, usually greedy and fierce like dragons, and often a bandit, hired sword or assassin. It likes ambushes and conceals its wyvern shape until it needs an advantage or to flee by air. Its venom spreads the curse, in unpredictable ways that often surprise even the werewyvern.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -3245,6 +3391,13 @@ export default createPublicationMonsters({
       languages: ['Common'],
       habitats: ['any'],
       tableNotes: [['Gear: plate armor']],
+      appearance: [['A Zhentilar holy warrior sworn to Bane.']],
+      lore: [
+        [
+          "The Zhentilar are the Zhentarim's militant wing, holding strongholds like Zhentil Keep and Darkhold, guarding powerful items and escorting leaders. They act like protective elder siblings to the organisation. Its most respected officers are often spellswords or holy warriors serving dark gods such as Bane.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3333,6 +3486,13 @@ export default createPublicationMonsters({
       languages: ['Common'],
       habitats: ['any'],
       tableNotes: [['Gear: leather armor, pistol, shortsword']],
+      appearance: [['A Zhentilar soldier at a Zhentarim fortress or outpost.']],
+      lore: [
+        [
+          "The Zhentilar are the Zhentarim's militant wing, guarding strongholds and acting as protective older siblings of the group. The penalty for betrayal is so severe that many soldiers would sooner die than abandon their post.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

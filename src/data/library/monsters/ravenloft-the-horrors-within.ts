@@ -68,6 +68,14 @@ export default createPublicationMonsters({
       name: 'Ankhtepot',
       alignment: 'lawful evil',
       languages: ['Celestial', 'Common', 'Draconic'],
+      appearance: [['The text gives no description of his looks.']],
+      lore: [
+        [
+          "Ankhtepot has seen treason, conquest, divinity and rulership, and is now weighed down by boredom and despair. He seeks the lost ka he knows is hidden in Har'Akir, hoping it will make him mortal once more so he can perish and be judged by his gods. Whether that brings peace or nothing at all is irrelevant to him. Until he gets it, his band will keep afflicting Har'Akir.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
+      habitats: ["Har'Akir"],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -247,6 +255,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['telepathy 120 ft.'],
       habitats: ['forest', 'grassland', 'hill', 'swamp', 'forest', 'grassland', 'hill', 'swamp'],
+      appearance: [['An alien plant whose podlings are eerie vegetable copies of local people.']],
+      lore: [
+        [
+          'Bodytaker plants are intelligent beings from a long-ruined planet, which scattered seeds, like meteors, across the stars to survive its death. Rarely, one lands on a fertile world and grows into a plant that wants to spread until its kind owns the entire planet. It grows podlings, strange plant copies of the locals, which slip into communities and replace those they mimic, then cut people off so they can feed the plant or make more podlings.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -376,6 +391,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Deep Speech plus one other language'],
       habitats: ['forest', 'grassland', 'hill', 'swamp', 'forest', 'grassland', 'hill', 'swamp'],
+      appearance: [['An eerie vegetable duplicate of a local inhabitant.']],
+      lore: [
+        [
+          "Podlings do the bodytaker plant's bidding by infiltrating communities and taking the place of the people they copy, then isolating the rest so they become fertiliser for the plant that made them or food for more podlings. The plant itself is an alien, intelligent organism that seeks to take over a whole world.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -418,6 +440,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["understands Common but can't speak"],
       habitats: ['any'],
+      appearance: [['An animate flayed skin of a humanoid, elastic and hateful.']],
+      lore: [
+        [
+          'Boneless are living skins of people who met brutal ends, such as being flayed, crushed or eaten. Spiteful, they may hunt vengeance by squeezing and smothering victims, or necromancers may raise them as sneaky assassins. Wicked casters sometimes hang one up like a ghastly flag or drape it on an undead servant, and it peels free when enemies come near.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -626,6 +655,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['swamp', 'underdark', 'urban', 'swamp', 'underdark', 'urban'],
+      appearance: [['A parasitic corpse-eater with maggot-like young and stingers.']],
+      lore: [
+        [
+          'Carrion stalkers infest bodies with larvae and ambush anything that disturbs them, drawn by movement. They sting living prey to implant larvae, which if the victim is not killed and eaten mature within a day and burst out lethally. They share a symbiosis with carrion crawlers, which avoid infested corpses but carry larvae around, spreading stalkers to sewers and graveyards, and the stalkers do not hunt crawlers. Battlefields and mass graves suit them, and they rarely reach the surface unless the infestation is huge.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'tiny',
         type: 'aberration',
@@ -709,6 +745,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common plus one other language'],
       habitats: ['urban'],
+      appearance: [['A doll or puppet, hidden among old toys.']],
+      lore: [
+        [
+          'When evil energy infests a toy chest, a once-loved toy can turn into a carrionette: a cursed, animate doll or puppet that casts a sinister spell to trade bodies with a living victim. It blends in among old toys or discarded knick-knacks and may wait for years to be taken home by someone, ideally an adventurer or merchant with freedom and a strong body, then slips out of their pack at night to strike by stealth.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -794,6 +837,14 @@ export default createPublicationMonsters({
       tags: ['lycanthrope'],
       alignment: 'neutral',
       languages: ["Common (can't speak in panther form)"],
+      appearance: [['A young werepanther who has the calm of an experienced executioner.']],
+      lore: [
+        [
+          "Chakuna is the deadliest hunter of Valachan, with cold cunning, lethal traps and packs of cat allies. She hunts from necessity, shielding Oselo's people from something worse, and likes to choose outsiders, forcing them into the Trial of Hearts. She relishes pursuing the arrogant and rude, and equally the talented and erratic. She is merciless, even to those she respects, and sparing only her own people, whose dread of her keeps growing.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
+      habitats: ['Oselo'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -970,6 +1021,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: [],
       habitats: ['forest', 'swamp', 'urban', 'forest', 'swamp', 'urban'],
+      appearance: [['A flying skull-like undead that harries victims.']],
+      lore: [
+        [
+          "The standard death's head forms from a human or beast, perhaps someone wrongly executed or the victim of a head-taker like a dullahan. It flies and bites and keeps harrying its victims until destroyed.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -1015,6 +1073,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: [],
       habitats: ['forest', 'swamp', 'urban', 'forest', 'swamp', 'urban'],
+      appearance: [
+        [
+          'A twisted tree stands in blighted ground, and where fruit should hang there are grinning skulls instead.',
+        ],
+      ],
+      lore: [
+        [
+          'A cursed plant that takes root where great death has soaked the earth: mass graves, old battlefields and the sites of terrible tragedies. Its roots wind through the remains buried there. Expect it wherever a place has been marked by atrocity.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -1110,6 +1179,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["understands Common plus one other language but can't speak"],
       habitats: ['grassland', 'hill', 'urban', 'grassland', 'hill', 'urban'],
+      appearance: [
+        [
+          'A headless, undying warrior hunts through the night, often on an undead or fiendish steed, and hurls flaming skulls of earlier victims.',
+        ],
+      ],
+      lore: [
+        [
+          'A vengeful undead that rises from a decapitated villain and wants its head back. It haunts places tied to its crimes or death, and beheads anyone it thinks responsible, or linked to those responsible. Besides its deadly blades, it frightens foes with terrible wails and thrown skulls.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1247,6 +1327,17 @@ export default createPublicationMonsters({
         'swamp',
         'urban',
       ],
+      appearance: [
+        [
+          'A churning storm of restless spirits wielding the weapons of the dead and shrieking with their death cries.',
+        ],
+      ],
+      lore: [
+        [
+          'It rises at the sites of mass tragedy or pointless bloody battles. It rages without end, pulling anyone who comes close into its suffering and uncontrollable violence.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -1356,6 +1447,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['all', 'telepathy 120 ft.'],
       habitats: ['any'],
+      appearance: [
+        [
+          'A colossal mass of violent flesh made from the meat and voices of everything the emissary has copied.',
+        ],
+      ],
+      lore: [
+        [
+          'Star spawn emissaries are scouts of alien realms, arriving under ominous astrological signs to prepare worlds for their masters. They use two malleable forms to erode order, trust and reality. Its lair takes on bodily features, so a ruined tower might become a pulsing spire of flesh or a mineshaft a maze of sticky innards. The greater form is the destructive one, and only destroying it defeats the emissary.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -1500,6 +1602,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["understands Common but can't speak"],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A small creature that destroys anything linked to a spellcaster, spellbooks, components and familiars especially.',
+        ],
+      ],
+      lore: [
+        [
+          'A magically unstable creation of misguided casters, a wildly destructive pest that loves tormenting mages. Magic makes a lone one burst into a swarm of copies.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'tiny',
         type: 'monstrosity',
@@ -1552,6 +1665,15 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["understands Deep Speech but can't speak"],
       habitats: ['underdark'],
+      appearance: [
+        ['A gigantic subterranean horror with a head split by a vertical, toothed mouth.'],
+      ],
+      lore: [
+        [
+          "A stealthy cavern predator preferring humanoid prey. Gugs dread and loathe ghouls, maybe because both want the Underdark's hidden cities of the dead, or because of the curse that confines gugs underground.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -1664,6 +1786,13 @@ export default createPublicationMonsters({
       languages: ['Common plus two other languages'],
       habitats: ['any'],
       tableNotes: [['Gear: breastplate, silvered longsword']],
+      appearance: [['A psychic inquisitor of the Order of Cosima, whose emblem is a burning eye.']],
+      lore: [
+        [
+          "Ulmed founded the Ulmist Inquisition in the city of Malitain to find and destroy evil buried in people's hearts, and its members travel the multiverse opposing cults and horrors. Sects exist in the Domains of Dread, either as hidden cabals or within other churches, for instance the Church of Ezra. The Order of Cosima draws on what it calls the Mind Fire, reading thoughts, rewriting memories and dominating the unwilling. Rivalry between the three orders is mostly friendly and set aside when evil must be fought.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1817,6 +1946,13 @@ export default createPublicationMonsters({
       languages: ['Common plus two other languages'],
       habitats: ['any'],
       tableNotes: [['Gear: breastplate, silvered longsword']],
+      appearance: [['A psionic inquisitor of the Order of Ansel, whose emblem is a sword.']],
+      lore: [
+        [
+          'The Ulmist Inquisition was founded by Ulmed in the city of Malitain to hunt the evil hidden in mortal hearts, and it operates across the multiverse and inside the Domains of Dread, sometimes in secret cabals. The Order of Ansel is its martial arm. Its members practise harsh self-denial to fill their bodies with psionic power. Orders may tease each other but cooperate against evil.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1903,6 +2039,13 @@ export default createPublicationMonsters({
       languages: ['Common plus two other languages'],
       habitats: ['any'],
       tableNotes: [['Gear: longsword']],
+      appearance: [['A psionic inquisitor of the Order of Tristian, whose emblem is a book.']],
+      lore: [
+        [
+          'This is one of the three orders of the Ulmist Inquisition, whose members hunt cults, horrors and wickedness across the multiverse from their base in Malitain. The Order of Tristian are the scholars. Their power comes from study and observation, and they use telekinesis to reshape surroundings, trap opponents and destroy evildoers. They sometimes work in hidden cabals in the Domains of Dread.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2021,6 +2164,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [
+        [
+          "A withered, ruined body that belongs to a man with a child's tastes, who talks and acts like a child.",
+        ],
+      ],
+      lore: [
+        [
+          'Ivan is a reclusive Borcan figure widely credited as an inventor and genius, though he is neither. He is a spoiled, selfish manipulator who affects childish speech for attention, and he fears being alone. He stays out of sight or sends deceptive letters so that people doubt reality and overrate his power, sending them on pointless errands or to spy on his cousin Ivana Boritsi, whom he blames for his decrepit state. He is surrounded by dangerous clockwork toys and mechanical servants that the Dark Powers supply, whatever he fancies.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
+      habitats: ['Borca'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2152,6 +2307,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['all', 'telepathy 120 ft.'],
       habitats: ['any'],
+      appearance: [['A creature that can pass as another creature, ideally an unremarkable one.']],
+      lore: [
+        [
+          'This text describes star spawn emissaries in general. Emissaries are alien colonists with a lesser and greater form, heralded by ominous astrological signs, who prepare worlds for their unfathomable masters by undermining order, trust and reality until revelations and apocalypse follow. Their lairs take on bodily features, so an old tower could turn into a pulsing column of flesh or a mine shaft a maze of sticky innards. The lesser form disguises itself as people or animals. If its true form is exposed and defeated, the greater form appears for revenge hours or days later.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -2288,6 +2450,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: [],
       habitats: ['any'],
+      appearance: [
+        [
+          'An animate cloud of vapour, barely visible in the Mists, that takes the shape of whatever its viewer fears most.',
+        ],
+      ],
+      lore: [
+        [
+          "The Mists between the Domains of Dread are neither safe nor empty. A mist horror's appearance is subjective, so each viewer sees what scares them most. Outside the Mists it quickly loses cohesion and turns into harmless vapour.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -2410,6 +2583,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['telepathy 120 ft.'],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
+      appearance: [['A being of sapient, reanimated blood.']],
+      lore: [
+        [
+          'Necrichors spring from magical taint, for example the blood of a foul deity or a lich that failed. They want to seize living bodies for grandiose ends, and each leaves a remnant of itself inside its hosts, which makes them hard to destroy.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2752,6 +2932,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common plus two other languages'],
       habitats: ['any'],
+      appearance: [['A necromancer marked with shadowy tattoos.']],
+      lore: [
+        [
+          "Priests of Osybus steal souls to power their magic and, through a foul bargain with dread powers, can defy death by becoming undead. Centuries ago the ambitious, evil Osybus founded the order seeking immortality through others' souls, striking pacts with anything offering power and turning to the Dark Powers in devotion. He shared secrets with disciples for worship and became a near-godlike lich, rewarding them with shadowy tattoos. The Ulmist Inquisition, which then counted mortal Strahd von Zarovich as an ally, fought him, and disciples fearing for their souls helped destroy his body. Dying, he laid a curse: their deathlessness would eventually give out and he himself would join the Dark Powers. To escape, they turned to the same Powers, who tasked them with finding a powerful noble to be the Powers' physical vessel for entering and taking over the world.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2856,6 +3043,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["understands all but can't speak"],
       habitats: ['any'],
+      appearance: [['A massive brute wielding specially made blades and blunt stones.']],
+      lore: [
+        [
+          "One kind of relentless killer, a fiend-twisted murderer that arises from a mortal's pact with dark powers. Juggernauts endlessly stalk their targets. Their exact powers depend on the obsession and the patron behind them.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -3232,6 +3426,13 @@ export default createPublicationMonsters({
         'urban',
       ],
       tableNotes: [['Gear: longsword, shield']],
+      appearance: [['A silent, capable skeletal soldier carrying a vampiric blade.']],
+      lore: [
+        [
+          'Vampires sometimes turn mortal servants not worthy of vampirism into these, named for Strahd, who first made them. When a blade is wet with blood, the skeleton often takes it to its master. Stories differ on whether vampires drink from those blades or just enjoy the sacrifice.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3344,6 +3545,15 @@ export default createPublicationMonsters({
         'swamp',
         'underdark',
         'urban',
+      ],
+      appearance: [
+        [
+          'A vampire-like horror, half humanoid and half stirge, trailed by stirges and mosquitoes.',
+        ],
+      ],
+      lore: [
+        ['It hunts humanoids by night, drains them and leaves bloodless corpses.'],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
       ],
       stats: {
         size: 'medium',
@@ -3766,6 +3976,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common plus one other language'],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A graceless feral hunter found in charnel caves, cursed ruins and defiled barrows, where mangled rats, butchered livestock and wrecked stables show it has fed.',
+        ],
+      ],
+      lore: [
+        [
+          'A nosferatu bears a primal form of the vampire curse and prowls the Domains of Dread hungry for the blood of any creature. Just after feeding it becomes lucid and recalls fragments of its life, but even then it stays treacherous and scheming.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'small',
         type: 'undead',
@@ -3911,6 +4132,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["understands Common but can't speak"],
       habitats: ['urban'],
+      appearance: [['A strikingly realistic wax statue of a person, alive.']],
+      lore: [
+        [
+          'Waxworks aim to kill the person they copy and take over their life, and generally think themselves the original. Shown proof they are not, one flies into a rage until either it or the original is dead. Rarely one lives like a person, vain and callous, and some want to replace many more people.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -4101,6 +4329,15 @@ export default createPublicationMonsters({
       name: 'Wilfred Godefroy',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        ['A spectral noble who haunts the House on Gryphon Hill among countless other spirits.'],
+      ],
+      lore: [
+        [
+          "Lord Godefroy rules the afterlife of everyone who dies in Mordent. He is arrogant, impatient and vengeful. He sends mobs of obedient spirits anywhere in the domain and threatens victims' dead loved ones to force obedience. He has found the hidden Apparatus, a mist-piercing machine, but cannot make it work.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',

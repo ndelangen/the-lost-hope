@@ -12,6 +12,18 @@ export default createPublicationMonsters({
       tags: ['archfey'],
       alignment: 'lawful good',
       languages: ['Common', 'Druidic', 'Sylvan'],
+      appearance: [
+        [
+          'A huge spider, kindly and obsessed with stories, who carries his storybooks in silk sacks.',
+        ],
+      ],
+      lore: [
+        [
+          "An archfey ruling Fablerise, a gloomy thicket of roots, thorny vines and creepers. His dreams cast a harmless ghostly double that talks to visitors and steers them. He builds a silk hut for guests who need shelter, provided they harm none of the domain's creatures. He reads aloud to the animals he has awakened.",
+        ],
+        ['Sources: ', 'Domains of Delight'],
+      ],
+      habitats: ['Fey domain'],
       stats: {
         size: 'huge',
         type: 'fey',

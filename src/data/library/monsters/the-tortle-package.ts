@@ -11,6 +11,17 @@ export default createPublicationMonsters({
       name: 'Decapus',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A long-limbed creature hangs from a branch or ceiling, with suckered tentacles dangling beneath it, each about ten feet long.',
+        ],
+      ],
+      lore: [
+        [
+          'A solitary carnivore that swings through trees and snatches prey with its tentacles. It climbs walls and ceilings the same way, and prefers to dangle from one tentacle by a high perch while striking with the rest. On flat ground it is far less dangerous, since half the tentacles must hold its body up. A marine variant exists that lives and breathes only in water and swims well.',
+        ],
+        ['Sources: ', 'The Tortle Package'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -80,6 +91,18 @@ export default createPublicationMonsters({
       name: 'Geonid',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'A small boulder with a hole in its underside from which limbs emerge. When the limbs are tucked in, it looks just like a rock.',
+        ],
+      ],
+      lore: [
+        [
+          'Also called rocklings or rock hermits, small intelligent beings from the Elemental Plane of Earth. Curled up it cannot see and relies on tremorsense. They dwell in natural caverns and passages, feeding on small vermin such as lizards, rats and slugs along with lichen and moss, and like hoarding coins and gems. They rarely face larger creatures except to rob or frighten them. They can read stone to sense who has recently passed, vaguely and without identity or exact timing, which they use for tracking prey and spotting trespassers.',
+        ],
+        ['Sources: ', 'The Tortle Package'],
+      ],
+      habitats: ['Caves'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -130,6 +153,17 @@ export default createPublicationMonsters({
       name: 'Topi',
       alignment: 'chaotic evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A tiny, spongy corpse that stands barely knee high and walks like a zombie. Something coils in its chest where the heart should be.',
+        ],
+      ],
+      lore: [
+        [
+          'A zombie variant made by evil priests and necromancers. The corpse is shrunk, and its heart is replaced by a leather pouch holding a living venomous snake that needs no food or air. The snake is what makes the claws poisonous, and it dies when the topi does. Topis shrug off blunt blows better than ordinary zombies and are harder to turn away.',
+        ],
+        ['Sources: ', 'The Tortle Package'],
+      ],
       stats: {
         size: 'small',
         type: 'undead',

@@ -11,6 +11,18 @@ export default createPublicationMonsters({
       name: 'Amphithere',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A long sea serpent with a barbed fin on its tail and two wide fins at its chest that flap to lift it into the air, flicking a forked tongue.',
+        ],
+      ],
+      lore: [
+        [
+          'It lives mainly at sea, eating shoals of fish, but flies inland over the coast to take any prey it can when fish run short. Its fangs carry venom, and the forked tongue helps it sense victims.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Coastal', 'Sea'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -112,6 +124,16 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A slime that can mould itself into everyday objects such as tables and benches.'],
+      ],
+      lore: [
+        [
+          'Slimes are magical oozes that digest almost anything, which gives them a useful role in many Humblewood ecosystems, and their bodies are sought for potion making. Animated slimes copy ordinary objects and have been used to furnish poor homes. Some have gone rogue, posing as plain furniture to lure prey within reach.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -222,6 +244,14 @@ export default createPublicationMonsters({
         'worms',
         'or other bugs',
       ],
+      appearance: [['A middle-aged hedge mage who lives in a lighthouse.']],
+      lore: [
+        [
+          "Arlowene dwells in Seawatch Tower, the big lighthouse at Saltar's Port. She is a skilled healer and caster who focuses on both protective wizardry and healing from the cleric tradition, and she detests violence.",
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ["Saltar's Port"],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -380,6 +410,14 @@ export default createPublicationMonsters({
       tags: ['jerbeen'],
       alignment: 'neutral good',
       languages: ['Birdfolk', 'Jerbeen'],
+      appearance: [['A jerbeen recruit in a small militia unit.']],
+      lore: [
+        [
+          'Bervis is one of three inexperienced recruits Bernice has gathered, with Connie, a maran raptor, and Lenny, a sable luma who is the youngest. Bernice cares about her young charges and does not want to put them in combat.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -428,6 +466,14 @@ export default createPublicationMonsters({
       tags: ['mapach'],
       alignment: 'neutral good',
       languages: ['Birdfolk', 'Mapach'],
+      appearance: [['A stout, cheerful mapach with a big chest and a famous chuckle.']],
+      lore: [
+        [
+          'Cackle is one of the Ragtaggers, three humblefolk hunters and old friends who team up to take down big game, with Snap, a lean and shrewd vulpin, and Podge, a grumpy hedge who leads. They look like bandits, but are loyal friends who will gladly help wanderers, even without payment.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -507,6 +553,18 @@ export default createPublicationMonsters({
       tags: ['mapach'],
       alignment: 'chaotic neutral',
       languages: ['Birdfolk', 'Jerbeen', 'Mapach'],
+      appearance: [
+        [
+          'A grey-and-black mapach in middle age with an undercoat of rust red that is greying here and there.',
+        ],
+      ],
+      lore: [
+        [
+          'Cathus runs The Last Stand, a modest woodland supply depot, to provide for a young jerbeen he looks after, called Finnan Softpad. He once worked as muscle for the Bandit Coalition and, though trying to leave crime behind, still secretly fences stolen goods for them.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -598,6 +656,13 @@ export default createPublicationMonsters({
       tags: ['corvum'],
       alignment: 'neutral evil',
       languages: ['Birdfolk', 'Jerbeen', 'Vulpin', "understands Auran but can't speak it"],
+      appearance: [['A thin, middle-aged corvum runs Moss Hall, the inn and tavern of Marshview.']],
+      lore: [
+        [
+          "She often overcharges customers and gets involved in shady schemes for profit. Most locals despise her, yet the perch is too small for a boycott. She is close to Sergeant Burlywhirl, who leads the town's Perch Guard.",
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -728,6 +793,13 @@ export default createPublicationMonsters({
       tags: ['strig'],
       alignment: 'neutral good',
       languages: ['Birdfolk', "understands Auran but can't speak it"],
+      appearance: [['Gerta Downyruff is a stout, warmhearted strig.']],
+      lore: [
+        [
+          "She was once Petra's navigator on the ship, and her grasp of sea lanes and how weather shapes shipping suits her to price the imported goods at The Crimson Rose. The staff there are close, almost family, to The Captain.",
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -822,6 +894,15 @@ export default createPublicationMonsters({
         'insects',
         'worms',
         'or other bugs',
+      ],
+      appearance: [
+        [
+          'Gurt is a little hedge with a green cast, wearing a coarse hide apron over a linen jumpsuit full of pockets, each for a different slime tool. Vials hang from a belt and bandolier, and large goggles caked with residue cover dark eyes. They are missing a ring finger on the right paw and two teeth, with a deep voice for their size.',
+        ],
+      ],
+      lore: [
+        ["Gurt runs Gurt's Emporium, a tiny slime store in Winnowing Reach."],
+        ['Sources: ', 'Humblewood Tales'],
       ],
       stats: {
         size: 'small',
@@ -932,6 +1013,15 @@ export default createPublicationMonsters({
       tags: ['strig'],
       alignment: 'chaotic neutral',
       languages: ['Birdfolk', 'Sylvan', "understands Auran but can't speak it"],
+      appearance: [
+        ['Hamlin is a stout, grizzled and grumpy strig, living in a remote forest cabin.'],
+      ],
+      lore: [
+        [
+          'A retired hunter once counted among the best in Humblewood, now seen as past his prime. His fame has been swamped by his obsession with the monsters he insists fill the forest.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1044,6 +1134,13 @@ export default createPublicationMonsters({
       tags: ['luma'],
       alignment: 'chaotic good',
       languages: ['Birdfolk', "understands Auran but can't speak it"],
+      appearance: [['Hannity is a youthful sable luma who swears freely and jokes crudely.']],
+      lore: [
+        [
+          'Rough with those who have not earned her trust, she turns warm and jolly toward people who can laugh at themselves. She works with Gerta as inventory manager for The Crimson Rose, tracking all stock through the shop.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1130,6 +1227,18 @@ export default createPublicationMonsters({
       name: 'Infant Amphithere',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A big sea serpent with a spiny fin on its tail and two broad side fins that beat like wings, carrying it into the air. A forked tongue flicks out ahead of venomous fangs.',
+        ],
+      ],
+      lore: [
+        [
+          'It normally lives in the sea and eats shoals of fish. When fish run short it flies inland over the coast to hunt anything it can catch. It uses its tongue to sense prey.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Coastal', 'Sea'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -1242,6 +1351,18 @@ export default createPublicationMonsters({
       name: 'Jerbeen Horror',
       alignment: 'neutral evil',
       languages: ['Birdfolk', 'Jerbeen'],
+      appearance: [
+        [
+          'An emaciated jerbeen wrapped in darkness, leaving pools of black ichor wherever it walks.',
+        ],
+      ],
+      lore: [
+        [
+          "This nightmare was conjured from Arrevis's grief at losing his friend Chimdry. Its cold touch drains both warmth and life.",
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -1331,6 +1452,14 @@ export default createPublicationMonsters({
       tags: ['capran'],
       alignment: 'neutral good',
       languages: ['Birdfolk', 'Capran', 'Eluran'],
+      appearance: [['A middle-aged capran who travels with a portable hut of wares.']],
+      lore: [
+        [
+          'Jonall is a capran merchant and explorer from Firnveldt who roams Wesden with her gargath companion Bello, selling goods as she goes. She is curious and observant and writes up her travels in guides for other travellers.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1434,6 +1563,14 @@ export default createPublicationMonsters({
       name: 'Kren’s Fang',
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft.'],
+      appearance: [['A ferocious, shadowy two-tailed fox with glistening fangs.']],
+      lore: [
+        [
+          "This nightmare was conjured from Arrevis's deep fear of the Amaranthine, whose anger he now dreads after cutting his ties with the devotees.",
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -1531,6 +1668,18 @@ export default createPublicationMonsters({
       tags: ['luma'],
       alignment: 'chaotic good',
       languages: ['Auran', 'Birdfolk', 'Jerbeen', 'Mapach', 'Vulpin'],
+      appearance: [
+        [
+          'Before his change, a sable luma with soft russet feathers, a dark band of colour over his eyes, and robes of blue silk. Now he is a horrible slime monster.',
+        ],
+      ],
+      lore: [
+        [
+          'Lendarick, a powerful mage and Avium graduate, was soft-spoken and kind and tried to help the poor of the Roots. His drive to do so turned him into the Slime King. Before that he was often seen jotting in a fine notebook with a cup of freshly made rose tea, sweetened twice.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1895,6 +2044,14 @@ export default createPublicationMonsters({
       tags: ['raptor'],
       alignment: 'lawful neutral',
       languages: ['Birdfolk', "understands Auran but can't speak it"],
+      appearance: [['An aging mistral raptor with a squint and a constant scowl.']],
+      lore: [
+        [
+          'Grand Inquisitor Phorosfeather is perceptive and naturally suspicious, heading the Inquisitors of Humblewood, an old Alderheart order with strictly traditional faith.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Alderheart'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2132,6 +2289,14 @@ export default createPublicationMonsters({
         'worms',
         'or bugs',
       ],
+      appearance: [['A very grumpy hedge, the leader of a trio of hunters.']],
+      lore: [
+        [
+          'Podge heads the Ragtaggers, three humblefolk hunters who take down big quarry together, alongside Snap, a lean, shrewd vulpin, and Cackle, a cheerful, broad-chested mapach famous for his chuckle. They look like scruffy bandits, but are devoted friends who help wanderers, sometimes free.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2342,6 +2507,14 @@ export default createPublicationMonsters({
       name: 'Slime Familiar',
       alignment: 'chaotic good',
       languages: [],
+      appearance: [['A magical ooze in a range of colours, intensely curious.']],
+      lore: [
+        [
+          'A harmless slime altered by magic into a familiar. Slimes in Humblewood digest nearly anything and their bodies are prized for potion making.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'small',
         type: 'ooze',
@@ -2423,6 +2596,16 @@ export default createPublicationMonsters({
       tags: ['raptor'],
       alignment: 'lawful good',
       languages: ['Birdfolk', "understands Auran but can't speak it"],
+      appearance: [
+        ['A stoic maran raptor with only his left eye, heads security aboard The Crimson Rose.'],
+      ],
+      lore: [
+        [
+          'A former Coast Guard quartermaster who followed Petra into retirement and is now an expert in weaponry and several birdfolk fighting styles, offering that skill to customers who need it. The crew is like family to The Captain.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['The Crimson Rose'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2513,6 +2696,14 @@ export default createPublicationMonsters({
       tags: ['jerbeen'],
       alignment: 'neutral good',
       languages: ['Birdfolk', 'Jerbeen'],
+      appearance: [['A slight, theatrical teenage jerbeen who loves to perform.']],
+      lore: [
+        [
+          'She can fly, so rumours say she is wind-touched, and a flock of believers have gathered in Marshview for her blessings.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Marshview'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2720,6 +2911,13 @@ export default createPublicationMonsters({
       tags: ['jerbeen'],
       alignment: 'chaotic good',
       languages: ['Birdfolk', 'Jerbeen'],
+      appearance: [['A young, talented jerbeen who speaks fast but gently, bright and cheerful.']],
+      lore: [
+        [
+          'Velma once tried everything from fishing to alchemy. After training under Arlowene Lum she decided to become a healer.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

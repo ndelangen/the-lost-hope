@@ -12,6 +12,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["understands Draconic but can't speak"],
       habitats: ['underdark', 'mountain', 'grassland', 'hill'],
+      appearance: [
+        [
+          'A chimera built from flat mosaic tiles that clacks and rattles as it moves and is thin when seen edge-on.',
+        ],
+      ],
+      lore: [
+        [
+          'This is an ordinary chimera in behaviour, animated by magic and made of tiles. It sprays loose tiles instead of blood when hurt. Its thinness gives it a combat edge. It flies up to a ledge to use fire breath from range, then swoops down to fight in melee until the breath is ready again.',
+        ],
+        ['Sources: ', 'Rise of Tiamat, p. 42'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -127,6 +138,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant'],
       habitats: ['underdark', 'mountain', 'forest', 'swamp', 'hill', 'arctic'],
+      appearance: [
+        [
+          'Scrags: troll-like predators that slide out of icy water to attack ships or lurk in dark hiding places.',
+        ],
+      ],
+      lore: [
+        [
+          'Scrags are aquatic trolls. In the Rise of Tiamat they can attack a ship on the ice, with one swimming under the hull and ripping out a plank to cause a leak. A group also guards the lair of the white dragon Arauthator, tolerated by him as long as they defend it while he is away. They hide when visitors approach, then ambush for an easy meal.',
+        ],
+        ['Sources: ', 'Rise of Tiamat, p. 26'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -438,6 +460,14 @@ export default createPublicationMonsters({
       name: 'Marfulb',
       alignment: 'neutral',
       languages: ['Ice Toad'],
+      appearance: [['An unusually clever ice toad that speaks Draconic.']],
+      lore: [
+        [
+          "Marfulb leads the ice toads that live in Arauthator's lair. He is far smarter than his kin and, after long conversations with the dragon, speaks fluent Draconic. Ice toads here eat what the Ice Hunters catch and do not start out unfriendly toward outsiders, and they may help characters who get into the lair.",
+        ],
+        ['Sources: ', 'Rise of Tiamat, p. 29'],
+      ],
+      habitats: ['Arctic', 'Cave'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -525,6 +555,13 @@ export default createPublicationMonsters({
         'swamp',
         'underdark',
         'desert',
+      ],
+      appearance: [['A coughing villager at the edge of the ice caves.']],
+      lore: [
+        [
+          'Mend-nets is a suspicious tribal warrior who is ill. If a character cures his disease with lesser restoration he becomes a trusty ally. He will do nothing to harm his village or tribe and despises the kobolds living in the caves. Ice toads disgust him, though they pay him no attention.',
+        ],
+        ['Sources: ', 'Rise of Tiamat, p. 30'],
       ],
       stats: {
         size: 'medium',

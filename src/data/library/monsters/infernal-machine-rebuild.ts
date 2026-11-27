@@ -553,6 +553,14 @@ export default createPublicationMonsters({
       tags: ['tiefling'],
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [['An undead agent of the Nine Hells carrying a relic.']],
+      lore: [
+        [
+          'Lynx Creatlach and Sir Ursas hold relics on loan from their infernal masters, who do not intend them to become loot. If either agent dies in the adventure, their equipment disappears and returns to Bel or Zariel.',
+        ],
+        ['Sources: ', 'Infernal Machine Rebuild'],
+      ],
+      habitats: ['Avernus'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1435,6 +1443,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Elvish', 'Primordial'],
+      appearance: [
+        [
+          'A master alchemist and monster-maker, vain and egotistical, whose own blood has become alchemically and magically potent.',
+        ],
+      ],
+      lore: [
+        [
+          'He began as a priest of Moloch, rose in rank and took over the temple as his laboratory. His experiments created the thessalhydra and the owlbear. He is ruthless in his research, now focused on extending his life, hoping to become a lich so work can go on forever. He uses his own blood as a base for many reagents.',
+        ],
+        ['Sources: ', 'Infernal Machine Rebuild'],
+      ],
+      habitats: ['Laboratory'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1589,6 +1609,18 @@ export default createPublicationMonsters({
         "and Primordial but can't speak",
         'telepathy 120 ft',
       ],
+      appearance: [
+        [
+          'A kraken-like titan a little smaller than the real thing, with a jagged-toothed mouth constantly dripping acid.',
+        ],
+      ],
+      lore: [
+        [
+          "One of the alchemist Thessalar's largest creations. It lairs far below the surface, typically in a drowned chasm or cave holding wreckage, treasure and the remains of victims offered to it.",
+        ],
+        ['Sources: ', 'Infernal Machine Rebuild'],
+      ],
+      habitats: ['Deep ocean'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',

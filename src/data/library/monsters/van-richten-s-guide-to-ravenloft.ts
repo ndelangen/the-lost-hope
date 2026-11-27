@@ -345,6 +345,18 @@ export default createPublicationMonsters({
       name: 'Elise',
       alignment: 'neutral',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'Elise is a confused, frustrated woman, the creation Dr. Mordenheim treats as his beloved and greatest achievement.',
+        ],
+      ],
+      lore: [
+        [
+          "She never wanted her situation. A device called the Unbreakable Heart replaced her heart, and she dies if it is removed, even if another heart is put in. She is horrified by what the doctor did and avoids him and every stranger, afraid they will kill her to learn the device's secret. She wanders without aim but keeps a secret refuge on the Isles of Agony. The Mists stop her leaving Lamordia, though she has tried.",
+        ],
+        ['Sources: ', 'Van Richten’s Guide to Ravenloft'],
+      ],
+      habitats: ['Lamordia'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -798,6 +810,13 @@ export default createPublicationMonsters({
       name: 'Loup Garou',
       tags: ['shapechanger'],
       languages: ["Common (can't speak in wolf form)"],
+      appearance: [['A lycanthrope of an especially virulent strain.']],
+      lore: [
+        [
+          'Loup garou carry a worse form of lycanthropy than ordinary werewolves and spread it aggressively. Victims turn into werewolves, and the curse cannot be lifted while the loup garou who inflicted it lives. After its death, remove curse cast on a full-moon night on one of its werewolves forces a saving throw: success breaks the curse and returns the victim to normal form, exhausted, and failure keeps the curse and prevents further attempts for a month.',
+        ],
+        ['Sources: ', 'Van Richten’s Guide to Ravenloft'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1115,6 +1134,13 @@ export default createPublicationMonsters({
     nosferatu: {
       name: 'Nosferatu',
       languages: ['the languages it knew in life'],
+      appearance: [["A vicious undead hunter with a vampire's thirst and none of its grace."]],
+      lore: [
+        [
+          'Its existence is a string of cold, desperate nights broken by brief flashes of warmth and clarity that cannot quench its blood addiction. It feeds on anything with blood, and heaps of mutilated rats or stables turned into slaughterhouses are early signs. When the sun ends a hunt it withdraws to ruins, sewers or caves, choosing filthy or hard-to-reach crevices over crypts. Just after a feeding it is briefly lucid and recalls glimpses of its past, and might talk with others, but is selfish and deceitful with faded memories and no respect for life.',
+        ],
+        ['Sources: ', 'Van Richten’s Guide to Ravenloft'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1879,6 +1905,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant'],
       habitats: ['underdark', 'mountain', 'forest', 'swamp', 'hill', 'arctic'],
+      appearance: [['The Bagman slips out of a random bag of holding at night.']],
+      lore: [
+        [
+          'An urban legend: an adventurer hid in a bag of holding to escape doom and got lost among ever-growing extradimensional spaces, which changed him into a monster. Each night he searches for his home, and if he fails he drags someone into the bag and leaves a trinket from his kingdom of lost junk. Speaking loudly over an open bag, or whispering follow my voice three times, may draw him. The DM decides whether he is real or a darklord.',
+        ],
+        ['Sources: ', 'Van Richten’s Guide to Ravenloft'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',

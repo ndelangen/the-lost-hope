@@ -653,6 +653,18 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Giant'],
+      appearance: [
+        [
+          'A fire giant queen who guards her wealth in a hot chamber hung with black leather and metal spikes.',
+        ],
+      ],
+      lore: [
+        [
+          "Hledh took over rule of the old drow city of Maerimydra from her father and is turning it into a shrine for her grandfather Graz'zt. She leads the fire giant and demonic forces gathering for an invasion of the surface. She seldom uses her quarters except to sleep, and keeps her wealth in a locked trapped chest there. Her personal guard of fiendborne fire giants fights to the death.",
+        ],
+        ['Sources: ', 'DDEX3-16 Assault on Maerimydra, p. 43'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'giant',

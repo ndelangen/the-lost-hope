@@ -408,6 +408,17 @@ export default createPublicationMonsters({
       name: 'Puppeteer Parasite',
       alignment: 'neutral evil',
       languages: ['telepathy 30 ft.'],
+      appearance: [
+        [
+          'A glossy, rubbery blob about as wide as a dinner plate clings to a wall or ceiling, its underside studded with bony hooks.',
+        ],
+      ],
+      lore: [
+        [
+          "It waits overhead until something suitable passes, then hooks onto any humanoid that touches it. It can feed on the host's life force, ride it around, or bend a nearby creature to its will. Parasites like to keep humanoid slaves as guards and as mounts.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 1: Spelljammer Creatures'],
+      ],
       stats: {
         size: 'tiny',
         type: 'aberration',
@@ -553,6 +564,18 @@ export default createPublicationMonsters({
       name: 'Yggdrasti',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A gigantic dead tree covered in barnacles, flying through space with its top branches ahead and withered roots trailing.',
+        ],
+      ],
+      lore: [
+        [
+          'Thought to be splinters of Yggdrasil, each carries its own gravity and air envelope, and creatures sometimes hitch a ride. It has trunk cavities where smaller creatures can hide. It attacks settlements and ships on sight with an innate hatred of living things, though speak with plants might talk one down. It may land disguised as an ordinary tree, and can uproot to shamble awkwardly.',
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 1: Spelljammer Creatures'],
+      ],
+      habitats: ['Wildspace', 'Astral Sea'],
       stats: {
         size: 'gargantuan',
         type: 'plant',

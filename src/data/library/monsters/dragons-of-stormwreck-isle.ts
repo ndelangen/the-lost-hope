@@ -11,6 +11,15 @@ export default createPublicationMonsters({
       name: 'Kobold Tinkerer',
       alignment: 'any alignment',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        ['A small, physically frail reptilian humanoid, which may have leathery wings.'],
+      ],
+      lore: [
+        [
+          'Kobolds often revere dragons. They are weak individually and rely on numbers. Now and then one hatches with leathery wings and is able to fly, which is commonly seen as favour from the dragon gods. This text describes kobolds in general rather than the tinkerer in particular.',
+        ],
+        ['Sources: ', 'Dragons of Stormwreck Isle'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -377,6 +386,16 @@ export default createPublicationMonsters({
       name: 'Spore Servant Octopus',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A dead giant octopus reanimated by fungal spores, flailing its tentacles clumsily.'],
+      ],
+      lore: [
+        [
+          'Before lapsing into a coma, the myconid leader of Seagrow Caves spent its last effort raising this guardian from a dead giant octopus. It only has crude control of its tentacles, so it clubs intruders instead of coiling around and holding them.',
+        ],
+        ['Sources: ', 'Dragons of Stormwreck Isle'],
+      ],
+      habitats: ['Cave'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -423,6 +442,12 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful neutral',
       languages: ['Common', 'Draconic', "Thieves' cant"],
+      appearance: [['A herbalist who is usually unarmed, though daggers are hidden in his cell.']],
+      lore: [
+        ["Once a criminal, he now studies herbs and medicine at Dragon's Rest."],
+        ['Sources: ', 'Dragons of Stormwreck Isle'],
+      ],
+      habitats: ["Dragon's Rest"],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -474,6 +499,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral good',
       languages: ['Common'],
+      appearance: [['A battle-hardened mercenary captain, usually unarmed.']],
+      lore: [
+        [
+          "Varnoth Wender is a veteran professional soldier, kept in a cell at Dragon's Rest. Her old sword is stashed under her mattress there.",
+        ],
+        ['Sources: ', 'Dragons of Stormwreck Isle'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

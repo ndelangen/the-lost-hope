@@ -12,6 +12,18 @@ export default createPublicationMonsters({
       tags: ['tiefling'],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Infernal'],
+      appearance: [
+        [
+          "A tiefling from a wealthy background, easy company, with a gambler's delight in stirring others up.",
+        ],
+      ],
+      lore: [
+        [
+          'Aeshma was born to a wealthy family tied to powerful houses in Waterdeep and has never faced consequences. He has washed out of magic study, bard colleges, church training and the army. His one real talent is talking people into gambling, always raising the stakes, since he enjoys their worry more than any winnings. Unknown to him, he is the soul the Halruaans name the Unmaker, and Asmodeus had the archdevil Abigor abduct him for his own plans.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -317,6 +329,14 @@ export default createPublicationMonsters({
       name: 'Barachiel',
       alignment: 'lawful good',
       languages: ['Celestial', 'Common', 'Infernal'],
+      appearance: [['An aasimar who became an angelic agent of Mount Celestia.']],
+      lore: [
+        [
+          'Barachiel was born in Elturel, a city that stands for justice, and the angel Zariel, patron of Elturel, was his mother. He grew up to be a Hellrider defending it, then surrendered his freedom to serve Mount Celestia, hoping to rescue his mother, whom Asmodeus had seduced and turned into the archdevil who now rules the uppermost of the Nine Hells. He believes in fairness, kindness, goodness and empathy. Since turning angelic, his old memories have faded, but he still remembers Ramius, the Hellrider who was his dear companion.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Elturel'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -794,6 +814,16 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft.'],
+      appearance: [
+        ['A huge devil with boil-and-wart-covered skin, a vast belly and leathery wings.'],
+      ],
+      lore: [
+        [
+          'Paeliryons are powerful greater devils devoted to corruption and the harvest of mortal souls. They are all over the Nine Hells but hold high office in Dis and Malbolge, managing lesser devils, steering the soul trade and playing infernal politics. They are skilled blackmailers and spies. They fight well but prefer to throw followers and lesser devils ahead. Now and then one outgrows the rest and becomes a sire of corruption, among the mightiest infernals below the archdevils, intent solely on corrupting, usually through plots to rot empires or religious groups. They are rare, one new sire every few centuries, usually solitary, though some serve archdevils.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1098,6 +1128,18 @@ export default createPublicationMonsters({
       name: 'Displacer Fiend',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        [
+          'A cat-like predator with a burst of writhing tentacles from its shoulders, each ending in a lamprey-like mouth lined with teeth. Its visible shape always sits a little away from where it truly is.',
+        ],
+      ],
+      lore: [
+        [
+          "The descendants of displacer beasts that came to the Nine Hells with a fey lord's hunt and became more fiendish. They prowl the edges of infernal communities, preying on mortals and devils, and drain life or infernal strength through their tentacle mouths. The drip from these mouths hurts mortals but numbs devils, so a devil can be fed on without waking. Packs tail travellers a long way and wait for ideal ground. They also twist victims' sense of distance, size and body position, so fighters strike friends or stumble into pits. Cities in the Hells hold feral populations that cull lesser devils and vermin, and a few devils even feed them as pets.",
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1842,6 +1884,16 @@ export default createPublicationMonsters({
       name: 'Halog',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A dog-sized, rat-and-dog-like vermin covered in burns, pustules and scars, but alive.'],
+      ],
+      lore: [
+        [
+          'Weak individually, halogs are a growing nuisance across the lower planes. Pairs breed fast, with big litters maturing in days when food is plentiful, and they eat nearly anything, including infernal flesh, plants and even minerals, so only barren rock and dust is useless to them. They do poorly where competition is strong but thrive in hostile planes that lack ordinary vermin and predators, and the harsher the surroundings the better they do.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -2004,6 +2056,17 @@ export default createPublicationMonsters({
       name: 'Jenevere',
       alignment: 'lawful good',
       languages: ['all', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A merciful celestial whose remarkable eyes were made by gods to perceive virtue across the realms.',
+        ],
+      ],
+      lore: [
+        [
+          'Jenevere was an observer of virtuous mortals, forbidden to intervene. After centuries she asked to be allowed to act, was refused, and went anyway, offering calm words and reminders of morality at crucial moments. The Nine Hells trapped her and she passed through ever lesser masters until she reached Vaness and Fling of the Eye Market. She is open, honest and endlessly merciful, forgiving the fiends who torment her, which burns them worse than they burn her. Her eyes were removed to put into fiends, but the goodness they let in proved unendurable to the patrons, and the pair now suspect they have taken on too much.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -2550,6 +2613,18 @@ export default createPublicationMonsters({
       name: 'Shredwing',
       alignment: 'lawful evil',
       languages: [],
+      appearance: [
+        [
+          'A flying fiend like a bat or pterodactyl, a spined body between two veined wings ending in a jagged head, with a seemingly open beak that is really a pair of spikes.',
+        ],
+      ],
+      lore: [
+        [
+          'Created in the Nine Hells from wings torn off devils by the overlord Malagard, now feral and common. They swoop in screeching flocks to torment the weak. They mob winged victims to rip off the wings, which become new shredwings. Against wingless prey they drive their head spikes between the shoulders, merge as false wings, slowly drain life, and take over the body, even attacking its companions. Some devils and the souls of evil rangers train packs as hunting beasts, but they remain mutinous.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -2731,6 +2806,17 @@ export default createPublicationMonsters({
       name: 'Vorvolaka',
       alignment: 'neutral evil',
       languages: ['the languages it knew in life'],
+      appearance: [
+        [
+          'A huge tusked bat with a humanoid twist, faint echoes of its former face still visible. It shrieks, jitters and claws at its neighbours or circles like a vulture.',
+        ],
+      ],
+      lore: [
+        [
+          'A vampire who tried to cheat the devils by pledging its soul, then was hauled to the Nine Hells and remade into a creature of endless hunger. Devils keep flocks as alarms that smell mortal blood from miles off, then loose them to hunt intruders with infernal huntsmen following. They swarm with no thought for safety, rip armour away, regenerate wounds, and are held back only by the strongest faith. Their screams convey such misery that survivors feel pity.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2844,6 +2930,17 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['Infernal', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A massive, horned devil with thick leathery wings and sharp teeth, its build varying from one to the next. It usually carries a polearm but is just as dangerous bare-handed.',
+        ],
+      ],
+      lore: [
+        [
+          'Made by sacrificing other devils, living and dead, so bigger ones tend to hold higher rank. War devils crave battle and are aggressive bullies to the weak, yet servile to stronger beings and higher-ranked devils. They are very loyal to their makers, obey nearly any order, and are clever enough to lead legions of lesser devils as generals.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
       stats: {
         size: 'huge',
         type: 'fiend',
