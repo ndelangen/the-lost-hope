@@ -13,6 +13,9 @@ export default createLocation({
       refs.locations.rustmoor,
       ' stands at its edge.',
     ],
+    [
+      'It is a garbage dump and a battlefield at once: huge crashed battleships, dead forests, sludge rivers, dust and desert.',
+    ],
   ],
   background: [
     [

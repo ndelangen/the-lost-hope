@@ -9,7 +9,7 @@ export default createLocation({
   at: [1085, 410],
   notes: [
     [
-      'A border town of scavengers at the edge of ',
+      'A city of scavengers at the edge of ',
       refs.locations.the_old_battlefield,
       '. Its people recycle the useful parts of the wrecks and trade them.',
     ],
