@@ -11546,6 +11546,7 @@ export default createPublicationMonsters({
     magmin: {
       name: 'Magmin',
       reprintedIn: [
+        refs.publications.ddep2_mulmaster_undone_v2,
         refs.publications.ddex2_02_embers_of_elmwood,
         refs.publications.ddex2_05_flames_of_kythorn,
         refs.publications.princes_of_the_apocalypse_online_supplement,

@@ -1344,6 +1344,7 @@ export default createPublicationMonsters({
     },
     apprentice_wizard: {
       name: 'Apprentice Wizard',
+      reprintedIn: [refs.publications.spelljammer_academy],
       page: 259,
       alignment: 'any alignment',
       languages: ['Any one language (usually Common).'],
@@ -6469,6 +6470,7 @@ export default createPublicationMonsters({
     },
     deep_scion: {
       name: 'Deep Scion',
+      reprintedIn: [refs.publications.ghosts_of_saltmarsh],
       page: 88,
       alignment: 'typically chaotic evil',
       languages: ['Aquan', 'Common', "Thieves' Cant."],
@@ -8998,6 +9000,7 @@ export default createPublicationMonsters({
     },
     duergar_mind_master: {
       name: 'Duergar Mind Master',
+      reprintedIn: [refs.publications.icewind_dale_rime_of_the_frostmaiden],
       tags: ['dwarf'],
       page: 108,
       alignment: 'any alignment',
@@ -11958,6 +11961,10 @@ export default createPublicationMonsters({
     },
     gazer: {
       name: 'Gazer',
+      reprintedIn: [
+        refs.publications.spelljammer_academy,
+        refs.publications.waterdeep_dragon_heist,
+      ],
       tags: ['beholder'],
       page: 134,
       alignment: 'typically neutral evil',
@@ -12840,6 +12847,7 @@ export default createPublicationMonsters({
     },
     giff: {
       name: 'Giff',
+      reprintedIn: [refs.publications.spelljammer_academy],
       page: 138,
       alignment: 'any alignment',
       languages: ['Common.'],
@@ -14460,6 +14468,7 @@ export default createPublicationMonsters({
     },
     grung: {
       name: 'Grung',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       page: 149,
       alignment: 'any alignment',
       languages: ['Grung.'],
@@ -19050,6 +19059,7 @@ export default createPublicationMonsters({
     },
     kobold_scale_sorcerer: {
       name: 'Kobold Scale Sorcerer',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       page: 165,
       alignment: 'any alignment',
       languages: ['Common', 'Draconic.'],
@@ -27515,6 +27525,7 @@ export default createPublicationMonsters({
     },
     storm_giant_quintessent: {
       name: 'Storm Giant Quintessent',
+      reprintedIn: [refs.publications.ghosts_of_saltmarsh],
       page: 235,
       alignment: 'typically chaotic good',
       languages: ['Common', 'Giant.'],
@@ -29068,6 +29079,7 @@ export default createPublicationMonsters({
     },
     ulitharid: {
       name: 'Ulitharid',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       tags: ['mind flayer'],
       page: 249,
       alignment: 'typically lawful evil',
@@ -29413,6 +29425,7 @@ export default createPublicationMonsters({
     },
     vegepygmy_chief: {
       name: 'Vegepygmy Chief',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       page: 253,
       alignment: 'typically neutral',
       languages: ['Vegepygmy.'],
@@ -31862,6 +31875,7 @@ export default createPublicationMonsters({
     },
     yuan_ti_broodguard: {
       name: 'Yuan-ti Broodguard',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       page: 273,
       alignment: 'typically neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic.'],
@@ -32081,6 +32095,7 @@ export default createPublicationMonsters({
     },
     yuan_ti_nightmare_speaker: {
       name: 'Yuan-ti Nightmare Speaker',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       tags: ['warlock'],
       page: 275,
       alignment: 'typically neutral evil',

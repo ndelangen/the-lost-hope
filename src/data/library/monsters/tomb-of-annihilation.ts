@@ -7238,6 +7238,7 @@ export default createPublicationMonsters({
     },
     volothamp_volo_geddarm: {
       name: 'Volothamp "Volo" Geddarm',
+      reprintedIn: [refs.publications.waterdeep_dragon_heist],
       tags: ['human'],
       alignment: 'chaotic good',
       languages: ['Common', 'Dwarvish', 'Elvish'],

@@ -758,6 +758,7 @@ export default createPublicationMonsters({
     },
     adult_blue_dracolich: {
       name: 'Adult Blue Dracolich',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       page: 83,
       alignment: 'lawful evil',
       languages: ['Common and Draconic.'],
@@ -3383,6 +3384,7 @@ export default createPublicationMonsters({
     },
     adult_white_dragon: {
       name: 'Adult White Dragon',
+      reprintedIn: [refs.publications.storm_king_s_thunder],
       page: 101,
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic.'],
@@ -6434,6 +6436,7 @@ export default createPublicationMonsters({
     },
     androsphinx: {
       name: 'Androsphinx',
+      reprintedIn: [refs.publications.plane_shift_amonkhet, refs.publications.plane_shift_zendikar],
       page: 280,
       alignment: 'lawful neutral',
       languages: ['Common', 'Sphinx.'],
@@ -6746,6 +6749,10 @@ export default createPublicationMonsters({
     },
     ankheg: {
       name: 'Ankheg',
+      reprintedIn: [
+        refs.publications.ddex2_01_city_of_danger,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       page: 21,
       alignment: 'unaligned',
       languages: ['None.'],
@@ -6879,6 +6886,14 @@ export default createPublicationMonsters({
     },
     arcanaloth: {
       name: 'Arcanaloth',
+      reprintedIn: [
+        refs.publications.curse_of_strahd,
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.tomb_of_annihilation,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['yugoloth'],
       page: 311,
       alignment: 'neutral evil',
@@ -7047,6 +7062,7 @@ export default createPublicationMonsters({
         refs.publications.ddal04_14_the_darklord,
         refs.publications.ddep2_mulmaster_undone_v2,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.journeys_through_the_radiant_citadel,
         refs.publications.princes_of_the_apocalypse_online_supplement,
         refs.publications.rise_of_tiamat_online_supplement,
       ],
@@ -8247,6 +8263,14 @@ export default createPublicationMonsters({
     },
     beholder: {
       name: 'Beholder',
+      reprintedIn: [
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.journeys_through_the_radiant_citadel,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.waterdeep_dragon_heist,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 26,
       alignment: 'lawful evil',
       habitats: ['Underdark'],
@@ -11180,6 +11204,11 @@ export default createPublicationMonsters({
     },
     clay_golem: {
       name: 'Clay Golem',
+      reprintedIn: [
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.ddex3_09_the_waydown,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       page: 167,
       alignment: 'unaligned',
       languages: ["Understands its creator's languages. It cannot speak."],
@@ -11426,7 +11455,10 @@ export default createPublicationMonsters({
     },
     cloud_giant: {
       name: 'Cloud Giant',
-      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
+      reprintedIn: [
+        refs.publications.plane_shift_zendikar,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       page: 151,
       alignment: 'neutral good (50%) or neutral evil (50%)',
       languages: ['Common', 'Giant.'],
@@ -12963,6 +12995,7 @@ export default createPublicationMonsters({
     },
     death_knight: {
       name: 'Death Knight',
+      reprintedIn: [refs.publications.ghosts_of_saltmarsh],
       page: 47,
       alignment: 'chaotic evil',
       languages: ['Abyssal and Common'],
@@ -13096,6 +13129,12 @@ export default createPublicationMonsters({
     },
     death_slaad: {
       name: 'Death Slaad',
+      reprintedIn: [
+        refs.publications.curse_of_strahd,
+        refs.publications.dragonlance_shadow_of_the_dragon_queen,
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['shapechanger'],
       page: 274,
       alignment: 'chaotic evil',
@@ -13419,6 +13458,7 @@ export default createPublicationMonsters({
     },
     death_tyrant: {
       name: 'Death Tyrant',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       page: 27,
       alignment: 'lawful evil',
       tableNotes: [
@@ -15184,6 +15224,15 @@ export default createPublicationMonsters({
     },
     drow_mage: {
       name: 'Drow Mage',
+      reprintedIn: [
+        refs.publications.ddex3_07_herald_of_the_moon,
+        refs.publications.ddex3_15_szith_morcane_unbound,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+        refs.publications.tomb_of_annihilation,
+        refs.publications.waterdeep_dragon_heist,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['Drow elf'],
       page: 129,
       alignment: 'neutral evil',
@@ -15317,7 +15366,10 @@ export default createPublicationMonsters({
     },
     drow_priestess_of_lolth: {
       name: 'Drow Priestess of Lolth',
-      reprintedIn: [refs.publications.out_of_the_abyss],
+      reprintedIn: [
+        refs.publications.out_of_the_abyss,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['elf'],
       page: 129,
       alignment: 'neutral evil',
@@ -15637,7 +15689,11 @@ export default createPublicationMonsters({
     },
     druid: {
       name: 'Druid',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.ddex3_02_shackles_of_blood,
+        refs.publications.rise_of_tiamat_online_supplement,
+        refs.publications.srd_5_1,
+      ],
       tags: ['any race'],
       page: 10,
       alignment: 'any alignment',
@@ -15709,6 +15765,7 @@ export default createPublicationMonsters({
     },
     dryad: {
       name: 'Dryad',
+      reprintedIn: [refs.publications.ddep1_corruption_in_kryptgarden],
       page: 121,
       alignment: 'neutral',
       languages: ['Elvish', 'Sylvan.'],
@@ -17000,6 +17057,10 @@ export default createPublicationMonsters({
     },
     empyrean: {
       name: 'Empyrean',
+      reprintedIn: [
+        refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['titan'],
       page: 130,
       alignment: 'chaotic good (75%) or neutral evil (25%)',
@@ -19997,6 +20058,12 @@ export default createPublicationMonsters({
     },
     fomorian: {
       name: 'Fomorian',
+      reprintedIn: [
+        refs.publications.journeys_through_the_radiant_citadel,
+        refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.the_wild_beyond_the_witchlight,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 136,
       alignment: 'chaotic evil',
       languages: ['Giant and Undercommon.'],
@@ -20089,6 +20156,7 @@ export default createPublicationMonsters({
     },
     frost_giant: {
       name: 'Frost Giant',
+      reprintedIn: [refs.publications.storm_king_s_thunder],
       page: 155,
       alignment: 'neutral evil',
       languages: ['Giant.'],
@@ -22951,6 +23019,12 @@ export default createPublicationMonsters({
     },
     githyanki_knight: {
       name: 'Githyanki Knight',
+      reprintedIn: [
+        refs.publications.ddex3_13_writhing_in_the_dark,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.spelljammer_adventures_in_space,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['gith'],
       page: 158,
       alignment: 'lawful evil',
@@ -23166,6 +23240,10 @@ export default createPublicationMonsters({
     },
     githzerai_zerth: {
       name: 'Githzerai Zerth',
+      reprintedIn: [
+        refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['gith'],
       page: 161,
       alignment: 'lawful neutral',
@@ -24338,6 +24416,11 @@ export default createPublicationMonsters({
     },
     gray_slaad: {
       name: 'Gray Slaad',
+      reprintedIn: [
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.the_wild_beyond_the_witchlight,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['shapechanger'],
       page: 274,
       alignment: 'chaotic neutral',
@@ -25481,6 +25564,7 @@ export default createPublicationMonsters({
     },
     guard: {
       name: 'Guard',
+      reprintedIn: [refs.publications.waterdeep_dragon_heist],
       tags: ['any race'],
       page: 347,
       alignment: 'any alignment',
@@ -29404,6 +29488,13 @@ export default createPublicationMonsters({
     },
     kuo_toa_archpriest: {
       name: 'Kuo-toa Archpriest',
+      reprintedIn: [
+        refs.publications.ddex3_03_the_occupation_of_szith_morcane,
+        refs.publications.ddex3_08_the_malady_of_elventree,
+        refs.publications.ddex3_09_the_waydown,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['kuo-toa'],
       page: 200,
       alignment: 'neutral evil',
@@ -29641,6 +29732,15 @@ export default createPublicationMonsters({
     },
     kuo_toa_whip: {
       name: 'Kuo-toa Whip',
+      reprintedIn: [
+        refs.publications.ddex3_03_the_occupation_of_szith_morcane,
+        refs.publications.ddex3_08_the_malady_of_elventree,
+        refs.publications.ddex3_09_the_waydown,
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+        refs.publications.waterdeep_dragon_heist,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['kuo-toa'],
       page: 200,
       alignment: 'neutral evil',
@@ -29823,6 +29923,7 @@ export default createPublicationMonsters({
     },
     lich: {
       name: 'Lich',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       page: 202,
       alignment: 'any evil alignment',
       tableNotes: [
@@ -30745,6 +30846,7 @@ export default createPublicationMonsters({
         refs.publications.ddex3_04_it_s_all_in_the_blood,
         refs.publications.ddex3_08_the_malady_of_elventree,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.journeys_through_the_radiant_citadel,
         refs.publications.princes_of_the_apocalypse,
         refs.publications.rise_of_tiamat,
         refs.publications.rise_of_tiamat_online_supplement,
@@ -30959,6 +31061,11 @@ export default createPublicationMonsters({
     },
     magma_mephit: {
       name: 'Magma Mephit',
+      reprintedIn: [
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.ddex2_02_embers_of_elmwood,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       page: 216,
       alignment: 'neutral evil',
       languages: ['Ignan', 'Terran.'],
@@ -32277,6 +32384,14 @@ export default createPublicationMonsters({
     },
     mind_flayer: {
       name: 'Mind Flayer',
+      reprintedIn: [
+        refs.publications.ddex3_03_the_occupation_of_szith_morcane,
+        refs.publications.ddex3_08_the_malady_of_elventree,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.waterdeep_dragon_heist,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 221,
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
@@ -32422,6 +32537,7 @@ export default createPublicationMonsters({
     },
     mind_flayer_arcanist: {
       name: 'Mind Flayer Arcanist',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       page: 222,
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
@@ -32963,6 +33079,7 @@ export default createPublicationMonsters({
       name: 'Mud Mephit',
       reprintedIn: [
         refs.publications.ddal04_11_the_donjon,
+        refs.publications.ddep2_mulmaster_undone_v2,
         refs.publications.ddex2_07_bounty_in_the_bog,
         refs.publications.ghosts_of_saltmarsh,
         refs.publications.journeys_through_the_radiant_citadel,
@@ -33176,6 +33293,7 @@ export default createPublicationMonsters({
     },
     mummy: {
       name: 'Mummy',
+      reprintedIn: [refs.publications.plane_shift_amonkhet],
       page: 227,
       alignment: 'lawful evil',
       languages: ['The languages it knew in life.'],
@@ -33287,6 +33405,10 @@ export default createPublicationMonsters({
     },
     mummy_lord: {
       name: 'Mummy Lord',
+      reprintedIn: [
+        refs.publications.plane_shift_amonkhet,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       page: 227,
       alignment: 'lawful evil',
       languages: ['The languages it knew in life.'],
@@ -34784,6 +34906,7 @@ export default createPublicationMonsters({
     },
     ogre: {
       name: 'Ogre',
+      reprintedIn: [refs.publications.ddex3_16_assault_on_maerimydra],
       page: 237,
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant.'],
@@ -35235,6 +35358,11 @@ export default createPublicationMonsters({
     },
     otyugh: {
       name: 'Otyugh',
+      reprintedIn: [
+        refs.publications.ddal04_11_the_donjon,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       page: 248,
       alignment: 'neutral',
       languages: ['Otyugh.'],
@@ -37316,6 +37444,11 @@ export default createPublicationMonsters({
     },
     quadrone: {
       name: 'Quadrone',
+      reprintedIn: [
+        refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.tomb_of_annihilation,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 226,
       alignment: 'lawful neutral',
       languages: ['Modron.'],
@@ -37610,6 +37743,10 @@ export default createPublicationMonsters({
     },
     quaggoth_thonot: {
       name: 'Quaggoth Thonot',
+      reprintedIn: [
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['quaggoth'],
       page: 256,
       alignment: 'chaotic neutral',
@@ -40416,6 +40553,13 @@ export default createPublicationMonsters({
     },
     shambling_mound: {
       name: 'Shambling Mound',
+      reprintedIn: [
+        refs.publications.ddal04_11_the_donjon,
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.ddex1_12_raiders_of_the_twilight_marsh,
+        refs.publications.ddex1_14_escape_from_phlan,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+      ],
       page: 270,
       alignment: 'unaligned',
       languages: ['None.'],
@@ -41430,6 +41574,7 @@ export default createPublicationMonsters({
     },
     sprite: {
       name: 'Sprite',
+      reprintedIn: [refs.publications.player_s_handbook_2014],
       page: 283,
       alignment: 'neutral good',
       languages: ['Common', 'Elvish', 'Sylvan.'],
@@ -41628,6 +41773,11 @@ export default createPublicationMonsters({
     },
     steam_mephit: {
       name: 'Steam Mephit',
+      reprintedIn: [
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.ddex2_02_embers_of_elmwood,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       page: 217,
       alignment: 'neutral evil',
       languages: ['Aquan', 'Ignan.'],
@@ -41893,7 +42043,9 @@ export default createPublicationMonsters({
         refs.publications.ddex1_13_pool_of_radiance_resurgent,
         refs.publications.ddex3_15_szith_morcane_unbound,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.plane_shift_kaladesh,
         refs.publications.srd_5_1,
+        refs.publications.storm_king_s_thunder,
       ],
       page: 152,
       alignment: 'neutral',
@@ -42003,6 +42155,7 @@ export default createPublicationMonsters({
     },
     stone_golem: {
       name: 'Stone Golem',
+      reprintedIn: [refs.publications.curse_of_strahd, refs.publications.plane_shift_zendikar],
       page: 167,
       alignment: 'unaligned',
       languages: ["Understands its creator's languages. It cannot speak."],
@@ -46353,7 +46506,10 @@ export default createPublicationMonsters({
     },
     veteran: {
       name: 'Veteran',
-      reprintedIn: [refs.publications.curse_of_strahd],
+      reprintedIn: [
+        refs.publications.curse_of_strahd,
+        refs.publications.journeys_through_the_radiant_citadel,
+      ],
       tags: ['any race'],
       page: 350,
       alignment: 'any alignment',
@@ -46448,6 +46604,7 @@ export default createPublicationMonsters({
       reprintedIn: [
         refs.publications.curse_of_strahd,
         refs.publications.ddal04_01_the_suits_of_the_mists,
+        refs.publications.ddal04_03_the_executioner,
         refs.publications.ddex1_14_escape_from_phlan,
         refs.publications.ddex3_07_herald_of_the_moon,
         refs.publications.explorer_s_guide_to_wildemount,
@@ -46540,6 +46697,10 @@ export default createPublicationMonsters({
     },
     vrock: {
       name: 'Vrock',
+      reprintedIn: [
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       tags: ['demon'],
       page: 50,
       alignment: 'chaotic evil',
@@ -47704,6 +47865,7 @@ export default createPublicationMonsters({
     },
     wereboar: {
       name: 'Wereboar',
+      reprintedIn: [refs.publications.ddal04_12_the_raven],
       tags: ['human', 'shapechanger'],
       page: 206,
       alignment: 'neutral evil',
@@ -48933,6 +49095,11 @@ export default createPublicationMonsters({
     },
     yochlol: {
       name: 'Yochlol',
+      reprintedIn: [
+        refs.publications.critical_role_call_of_the_netherdeep,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       tags: ['demon', 'shapechanger'],
       page: 54,
       alignment: 'chaotic evil',

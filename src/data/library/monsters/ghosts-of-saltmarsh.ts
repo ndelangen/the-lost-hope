@@ -515,6 +515,7 @@ export default createPublicationMonsters({
     },
     bullywug_royal: {
       name: 'Bullywug Royal',
+      reprintedIn: [refs.publications.the_wild_beyond_the_witchlight],
       tags: ['bullywug'],
       alignment: 'neutral evil',
       languages: ['Bullywug'],

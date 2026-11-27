@@ -574,6 +574,7 @@ export default createPublicationMonsters({
     },
     eternal_flame_guardian: {
       name: 'Eternal Flame Guardian',
+      reprintedIn: [refs.publications.ddep2_mulmaster_undone_v2],
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common'],
@@ -701,6 +702,7 @@ export default createPublicationMonsters({
     },
     fathomer: {
       name: 'Fathomer',
+      reprintedIn: [refs.publications.ddex2_03_the_drowned_tower],
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Aquan', 'Common'],

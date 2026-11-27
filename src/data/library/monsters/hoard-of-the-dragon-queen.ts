@@ -312,6 +312,10 @@ export default createPublicationMonsters({
     },
     dragonclaw: {
       name: 'Dragonclaw',
+      reprintedIn: [
+        refs.publications.ddex1_13_pool_of_radiance_resurgent,
+        refs.publications.hoard_of_the_dragon_queen_d_d_encounters,
+      ],
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic'],
@@ -733,6 +737,12 @@ export default createPublicationMonsters({
     },
     guard_drake: {
       name: 'Guard Drake',
+      reprintedIn: [
+        refs.publications.ddex1_10_tyranny_in_phlan,
+        refs.publications.ddex1_13_pool_of_radiance_resurgent,
+        refs.publications.hoard_of_the_dragon_queen_d_d_encounters,
+        refs.publications.rise_of_tiamat,
+      ],
       alignment: 'unaligned',
       languages: ['understands Draconic but can’t speak it'],
       stats: {
@@ -1145,6 +1155,7 @@ export default createPublicationMonsters({
     },
     rath_modar: {
       name: 'Rath Modar',
+      reprintedIn: [refs.publications.rise_of_tiamat],
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Infernal', 'Primordial', 'Thayan'],

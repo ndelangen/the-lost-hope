@@ -86,6 +86,7 @@ import hoard_of_the_dragon_queen_online_supplement from './hoard-of-the-dragon-q
 import hoard_of_the_dragon_queen from './hoard-of-the-dragon-queen.ts'
 import honor_among_thieves_thieves_gallery from './honor-among-thieves-thieves-gallery.ts'
 import humblewood_campaign_setting from './humblewood-campaign-setting.ts'
+import humblewood_tales from './humblewood-tales.ts'
 import hunt_for_the_thessalhydra from './hunt-for-the-thessalhydra.ts'
 import icewind_dale_rime_of_the_frostmaiden from './icewind-dale-rime-of-the-frostmaiden.ts'
 import infernal_machine_rebuild from './infernal-machine-rebuild.ts'
@@ -101,6 +102,7 @@ import misplaced_monsters_volume_1 from './misplaced-monsters-volume-1.ts'
 import monster_manual_2014 from './monster-manual-2014.ts'
 import monster_manual_2024 from './monster-manual-2024.ts'
 import monster_manual_2025 from './monster-manual-2025.ts'
+import monsters_of_drakkenheim from './monsters-of-drakkenheim.ts'
 import monstrous_compendium_vol_1_spelljammer_creatures from './monstrous-compendium-vol-1-spelljammer-creatures.ts'
 import monstrous_compendium_vol_2_dragonlance_creatures from './monstrous-compendium-vol-2-dragonlance-creatures.ts'
 import monstrous_compendium_vol_3_minecraft_creatures from './monstrous-compendium-vol-3-minecraft-creatures.ts'
@@ -258,6 +260,7 @@ export default [
   hoard_of_the_dragon_queen_online_supplement,
   honor_among_thieves_thieves_gallery,
   humblewood_campaign_setting,
+  humblewood_tales,
   hunt_for_the_thessalhydra,
   icewind_dale_rime_of_the_frostmaiden,
   infernal_machine_rebuild,
@@ -273,6 +276,7 @@ export default [
   monster_manual_2014,
   monster_manual_2024,
   monster_manual_2025,
+  monsters_of_drakkenheim,
   monstrous_compendium_vol_1_spelljammer_creatures,
   monstrous_compendium_vol_2_dragonlance_creatures,
   monstrous_compendium_vol_3_minecraft_creatures,

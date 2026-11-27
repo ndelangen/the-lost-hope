@@ -8136,6 +8136,7 @@ export default createPublicationMonsters({
     },
     githyanki_gish: {
       name: 'Githyanki Gish',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       tags: ['gith'],
       page: 205,
       alignment: 'lawful evil',

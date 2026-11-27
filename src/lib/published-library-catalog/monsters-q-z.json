@@ -282,170 +282,50 @@
       {
         "id": "printing-13a8c50f2796bdd6c93e4f1a",
         "label": "Planescape: Adventures in the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Passive Perception · 12",
-              "Initiative · 2",
-              "Str · 12",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Mechanus"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A cube-bodied modron with wings and four arms."]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Fist · melee · +3 to hit · reach 5 ft. · 1d4 + 1 bludgeoning",
-              "Shortbow · ranged · +4 to hit · range 80/320 ft. · 1d6 + 2 piercing"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Multiattack. Make two Fist attacks or four Shortbow attacks."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2014) index · https://5e.tools/bestiary.html#quadrone_mm"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17178-quadrone",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30833/513/1000/1000/638063865546404392.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30833/513/1000/1000/638063865546404392.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quadrone"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "planescape_adventures_in_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-c6b23cfba16efa429ae07f45",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Passive Perception · 12",
-              "Initiative · 2",
-              "Str · 12",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Mechanus"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A cube-bodied modron with wings and four arms."]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Fist · melee · +3 to hit · reach 5 ft. · 1d4 + 1 bludgeoning",
-              "Shortbow · ranged · +4 to hit · range 80/320 ft. · 1d6 + 2 piercing"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Multiattack. Make two Fist attacks or four Shortbow attacks."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2014) index · https://5e.tools/bestiary.html#quadrone_mm"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17178-quadrone",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30833/513/1000/1000/638063865546404392.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30833/513/1000/1000/638063865546404392.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quadrone"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       },
       {
         "id": "printing-e7b00560d23c051452ff7f4f",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Passive Perception · 12",
-              "Initiative · 2",
-              "Str · 12",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Mechanus"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A cube-bodied modron with wings and four arms."]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Fist · melee · +3 to hit · reach 5 ft. · 1d4 + 1 bludgeoning",
-              "Shortbow · ranged · +4 to hit · range 80/320 ft. · 1d6 + 2 piercing"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Multiattack. Make two Fist attacks or four Shortbow attacks."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2014) index · https://5e.tools/bestiary.html#quadrone_mm"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17178-quadrone",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30833/513/1000/1000/638063865546404392.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30833/513/1000/1000/638063865546404392.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quadrone"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Construct"],
@@ -737,68 +617,18 @@
       {
         "id": "printing-b1f208c2ca448500d406d153",
         "label": "Icewind Dale: Rime of the Frostmaiden",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 45",
-              "Hit dice · 6d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Passive Perception · 11",
-              "Initiative · 1",
-              "Str · 17",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 6",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A pale, shaggy cave humanoid with powerful arms and claws, distinguished by its psionic abilities."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Claw · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "Add innate Wisdom psionics at save DC 11. Use feather fall and invisible mage hand at will. Cure wounds, enlarge/reduce, heat metal, and mirror image are each usable once daily."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Quaggoth"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014) index · https://5e.tools/bestiary.html#quaggoth%20thonot_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/17194-quaggoth-thonot",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/31954/941/1000/1000/638107988625198735.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/31954/941/1000/1000/638107988625198735.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quaggoth_thonot"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "icewind_dale_rime_of_the_frostmaiden"
+          }
+        }
       },
       {
         "id": "printing-9afe313d7a00300f07ef05ca",
@@ -819,68 +649,18 @@
       {
         "id": "printing-37a7551c7c4c6ae34211c6ec",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 45",
-              "Hit dice · 6d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Passive Perception · 11",
-              "Initiative · 1",
-              "Str · 17",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 6",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A pale, shaggy cave humanoid with powerful arms and claws, distinguished by its psionic abilities."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Claw · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "Add innate Wisdom psionics at save DC 11. Use feather fall and invisible mage hand at will. Cure wounds, enlarge/reduce, heat metal, and mirror image are each usable once daily."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Quaggoth"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014) index · https://5e.tools/bestiary.html#quaggoth%20thonot_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/17194-quaggoth-thonot",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/31954/941/1000/1000/638107988625198735.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/31954/941/1000/1000/638107988625198735.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quaggoth_thonot"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Humanoid", "Monstrosity"],
@@ -3082,140 +2862,17 @@
       {
         "id": "printing-8c6e1cc6a4cbbe9e7500a3c2",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 296",
-              "Hit dice · 16d20 + 128",
-              "Challenge · 23",
-              "Size · Gargantuan",
-              "Type · Elemental",
-              "Speed · walk 60 ft.",
-              "Passive Perception · 20",
-              "XP in lair · 62000",
-              "Strength · 26",
-              "Dexterity · 19",
-              "Constitution · 27",
-              "Intelligence · 15",
-              "Wisdom · 16",
-              "Charisma · 23",
-              "Alignment · chaotic evil",
-              "Initiative · +18",
-              "Lair profile · Ragnaros",
-              "Legendary actions per round in lair · 4"
-            ]
+        "source": "https://5e.tools/bestiary.html#ragnaros_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ragnaros"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Gargantuan elemental with challenge rating 23. Named abilities include Empowered Burning, Fire Aura, Legendary Resistance (4/Day, or 5/Day in Lair)."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Dex +11",
-              "Con +15",
-              "Wis +10",
-              "Dexterity +11, Constitution +15, Wisdom +10"
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Sulfuras Smash · melee · +15 to hit · reach 30 ft. · 4d6 + 8 force · 4d6 fire",
-              "Elemental Fire · ranged · +15 to hit · range 150 ft. · 4d6 + 8 fire"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +10"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (WoW), Kalimag, Orcish"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, poisoned, prone, restrained, stunned, unconscious"
-            ]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Empowered Burning · 1d12 fire damage · Burning",
-              "Fire Aura · 2d6 fire damage · Emanation [Area of Effect] · Burning",
-              "Legendary Resistance (4/Day, or 5/Day in Lair)",
-              "Master of Flames · Damage · Resistance",
-              "Siege Monster"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Sulfuras Smash · Melee attack · +15 to hit · 4d6 + 8 force damage · 4d6 fire damage · Dexterity save · DC 23 · reach 30 ft. · Emanation [Area of Effect]",
-              "Elemental Fire · Ranged attack · +15 to hit · 4d6 + 8 fire damage · range 150 ft. · Burning",
-              "Magma Blast (Recharge 4–6) · Dexterity save · DC 23 · 12d6 fire damage · within 150 feet · Sphere [Area of Effect] · Burning"
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": [
-              "Submerge (1/Day) · within 150 feet · 30 Hit Points · Bloodied · Cover · Hit Points"
-            ]
-          },
-          {
-            "title": "Legendary actions reference",
-            "lines": [
-              "Elemental Barrage",
-              "Wrath of Ragnaros · Dexterity save · DC 23 · 2d10 force damage · 2d10 fire damage · within 150 feet · Sphere [Area of Effect]"
-            ]
-          },
-          {
-            "title": "Regional effects reference",
-            "lines": [
-              "Extreme Heat · within 1 mile",
-              "Sulfurous Vapors · DC 15 Constitution save · 1 hour · within 1 mile · Long Rest · Poisoned"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Ragnaros", "Ragnaros's Lair", "Extreme Heat", "Sulfurous Vapors"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft, p. 248 · https://5e.tools/bestiary.html#ragnaros_wow",
-              "Burning (hazard) · https://5e.tools/trapshazards.html#burning_xphb",
-              "Emanation [Area of Effect] (rule) · https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb",
-              "Damage (rule) · https://5e.tools/variantrules.html#damage_xphb",
-              "Resistance (rule) · https://5e.tools/variantrules.html#resistance_xphb",
-              "Sphere [Area of Effect] (rule) · https://5e.tools/variantrules.html#sphere%20%5Barea%20of%20effect%5D_xphb",
-              "Bloodied (status) · https://5e.tools/conditionsdiseases.html#bloodied_xphb",
-              "Cover (rule) · https://5e.tools/variantrules.html#cover_xphb",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Salamander (creature) · https://5e.tools/bestiary.html#salamander_xmm",
-              "Extreme heat (hazard) · https://5e.tools/trapshazards.html#extreme%20heat_xdmg",
-              "Long Rest (rule) · https://5e.tools/variantrules.html#long%20rest_xphb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ragnaros_wow"
+        }
       }
     ],
     "groups": ["Elemental"]
@@ -4545,14 +4202,17 @@
       {
         "id": "printing-a0b85684c36c672bee20452c",
         "label": "Humblewood Tales",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 2", "Type · Humanoid"]
+        "source": "https://www.dndbeyond.com/monsters/5174391-raptor-freebooter",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "raptor_freebooter"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_tales"
           }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "source": "https://www.dndbeyond.com/monsters/5174391-raptor-freebooter"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -4954,15 +4614,18 @@
       {
         "id": "printing-b8ce4ed1bfb7da0d5636ff5d",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 8", "Type · Aberration"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525087-rat-king",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/669/1000/1000/638844714179296923.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/669/1000/1000/638844714179296923.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rat_king"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       },
       {
         "id": "open5e-tob_rat-king",
@@ -5065,15 +4728,18 @@
       {
         "id": "printing-10cc664c6fff59af316ce4ac",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 3", "Type · Monstrosity"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525088-rat-prince",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/671/1000/1000/638844714182108920.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/671/1000/1000/638844714182108920.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rat_prince"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -5196,28 +4862,16 @@
       {
         "id": "printing-fccbc3762f4556f9fa2a8fc2",
         "label": "Rise of Tiamat",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 71",
-              "Hit dice · 11d8 + 22",
-              "Challenge · 6",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 11",
-              "Dex · 16",
-              "Con · 14",
-              "Int · 18",
-              "Wis · 14",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rath_modar"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -5281,15 +4935,18 @@
       {
         "id": "printing-bf0e2dfe16abe997ecb741d7",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1", "Type · Monstrosity"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525090-ratling-burrow-warden",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/675/1000/1000/638844714187253170.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/675/1000/1000/638844714187253170.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ratling_burrow_warden"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -5319,15 +4976,18 @@
       {
         "id": "printing-2f2746d234529f408706c9df",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 2", "Type · Monstrosity"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525091-ratling-guttersnipe",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/677/1000/1000/638844714189281244.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/677/1000/1000/638844714189281244.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ratling_guttersnipe"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -5365,15 +5025,18 @@
       {
         "id": "printing-e3270cee46d3829d8b8bad08",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1/8", "Type · Monstrosity"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525093-ratling-warrior",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/681/1000/1000/638844714193649200.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/681/1000/1000/638844714193649200.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ratling_warrior"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -5656,15 +5319,18 @@
       {
         "id": "printing-4d7219c81dc8cdef43f271a4",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1", "Type · Undead"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525095-ravenous-ghoul",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/685/1000/1000/638844714199889440.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/685/1000/1000/638844714199889440.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ravenous_ghoul"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -5988,15 +5654,18 @@
       {
         "id": "printing-d0e1566182bd42bcd9a8d804",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 2", "Type · Aberration"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525096-reality-cyst",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/687/1000/1000/638844714202388117.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/687/1000/1000/638844714202388117.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "reality_cyst"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Aberration"]
@@ -6292,15 +5961,18 @@
       {
         "id": "printing-3e6fff0e8c767b92009b4350",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 10", "Type · Construct"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525098-reautomata",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/691/1000/1000/638844714207065583.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/691/1000/1000/638844714207065583.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "reautomata"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Construct"]
@@ -6315,15 +5987,18 @@
       {
         "id": "printing-184ad14ad180d3c80593414b",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 13", "Type · Construct"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525097-reautomata-wrecker",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/689/1000/1000/638844714204260199.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/689/1000/1000/638844714204260199.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "reautomata_wrecker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Construct"]
@@ -6645,121 +6320,17 @@
       {
         "id": "printing-aa72553349ae109ccfda2dc5",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 21",
-              "Hit points · 296",
-              "Hit dice · 16d20 + 128",
-              "Challenge · 21",
-              "Size · Huge / Gargantuan",
-              "Type · Dragon",
-              "Speed · walk 40 ft., climb 40 ft., fly 80 ft.",
-              "Passive Perception · 28",
-              "Strength · 29",
-              "Dexterity · 14",
-              "Constitution · 27",
-              "Intelligence · 18",
-              "Wisdom · 18",
-              "Charisma · 25",
-              "Alignment · lawful good",
-              "Initiative · +16"
-            ]
+        "source": "https://5e.tools/bestiary.html#red%20dragonflight%20dragon_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "red_dragonflight_dragon"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge dragon with challenge rating 21. Listed habitats: any. Named abilities include Legendary Resistance (4/Day), Rend, Razing Fire Breath (Recharge 5–6)."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +9", "Wis +11", "Dexterity +9, Wisdom +11"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["any"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Rend · melee · +16 to hit · reach 15 ft. · 6d6 + 9 piercing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +18, Stealth +9"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 60 ft., Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (WoW), Draconic (WoW), Orcish, and two others"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["fire"]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["any"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Legendary Resistance (4/Day)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack · Command",
-              "Rend · Melee attack · +16 to hit · 6d6 + 9 piercing damage · reach 15 ft.",
-              "Razing Fire Breath (Recharge 5–6) · Dexterity save · DC 23 · 20d6 fire damage · 90-foot Cone · Cone [Area of Effect]"
-            ]
-          },
-          {
-            "title": "Legendary actions reference",
-            "lines": [
-              "Bellowing Roar · Constitution save · DC 23 · 5d8 thunder damage · 30-foot Cube · start of its next turn · Cube [Area of Effect]",
-              "Pounce · Speed",
-              "Renewing Flame · 6d6 · start of its next turn · Line [Area of Effect] · Temporary Hit Points · Blinded · Deafened · Paralyzed · Poisoned"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Charisma · DC 22 · Command · Detect Evil and Good · Shapechange · Temporary Hit Points · Flame Strike",
-              "At will · Command (level 2 version), Detect Evil and Good, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)",
-              "1/day · Flame Strike (level 8 version)"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Red Dragonflight", "Habitat:", "Treasure:"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft, p. 251 · https://5e.tools/bestiary.html#red%20dragonflight%20dragon_wow",
-              "Command (spell) · https://5e.tools/spells.html#command_xphb",
-              "Detect Evil and Good (spell) · https://5e.tools/spells.html#detect%20evil%20and%20good_xphb",
-              "Shapechange (spell) · https://5e.tools/spells.html#shapechange_xphb",
-              "Temporary Hit Points (rule) · https://5e.tools/variantrules.html#temporary%20hit%20points_xphb",
-              "Flame Strike (spell) · https://5e.tools/spells.html#flame%20strike_xphb",
-              "Cone [Area of Effect] (rule) · https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb",
-              "Cube [Area of Effect] (rule) · https://5e.tools/variantrules.html#cube%20%5Barea%20of%20effect%5D_xphb",
-              "Speed (rule) · https://5e.tools/variantrules.html#speed_xphb",
-              "Line [Area of Effect] (rule) · https://5e.tools/variantrules.html#line%20%5Barea%20of%20effect%5D_xphb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_xphb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_xphb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_xphb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#red%20dragonflight%20dragon_wow"
+        }
       }
     ],
     "groups": ["Dragon"]
@@ -6774,100 +6345,17 @@
       {
         "id": "printing-0007fc00b69239642daf2d74",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 250",
-              "Hit dice · 20d10 + 140",
-              "Challenge · 15",
-              "Size · Large",
-              "Type · Dragon",
-              "Speed · walk 40 ft., climb 40 ft., fly 80 ft.",
-              "Passive Perception · 22",
-              "Strength · 26",
-              "Dexterity · 14",
-              "Constitution · 24",
-              "Intelligence · 15",
-              "Wisdom · 15",
-              "Charisma · 22",
-              "Alignment · lawful good",
-              "Initiative · +12"
-            ]
+        "source": "https://5e.tools/bestiary.html#red%20dragonflight%20drake_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "red_dragonflight_drake"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large dragon with challenge rating 15. Listed habitats: any. Named abilities include Rend, Razing Fire Breath (Recharge 5–6)."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +7", "Wis +7", "Dexterity +7, Wisdom +7"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["any"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Rend · melee · +13 to hit · reach 10 ft. · 7d6 + 8 piercing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +12, Stealth +7"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 30 ft., Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (WoW), Draconic (WoW), Orcish"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["fire"]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["any"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack · Command",
-              "Rend · Melee attack · +13 to hit · 7d6 + 8 piercing damage · reach 10 ft.",
-              "Razing Fire Breath (Recharge 5–6) · Dexterity save · DC 20 · 20d6 fire damage · 60-foot Cone · Cone [Area of Effect]"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Charisma · DC 19 · Command · Detect Evil and Good · Flame Strike",
-              "At will · Command (level 2 version), Detect Evil and Good",
-              "1/day · Flame Strike (level 8 version)"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Red Dragonflight", "Habitat:", "Treasure:"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft, p. 250 · https://5e.tools/bestiary.html#red%20dragonflight%20drake_wow",
-              "Command (spell) · https://5e.tools/spells.html#command_xphb",
-              "Detect Evil and Good (spell) · https://5e.tools/spells.html#detect%20evil%20and%20good_xphb",
-              "Flame Strike (spell) · https://5e.tools/spells.html#flame%20strike_xphb",
-              "Cone [Area of Effect] (rule) · https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#red%20dragonflight%20drake_wow"
+        }
       }
     ],
     "groups": ["Dragon"]
@@ -6882,89 +6370,17 @@
       {
         "id": "printing-61328f77249a08e8fd9f2359",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 135",
-              "Hit dice · 18d8 + 54",
-              "Challenge · 8",
-              "Size · Medium",
-              "Type · Dragon",
-              "Speed · walk 30 ft., climb 30 ft., fly 60 ft.",
-              "Passive Perception · 16",
-              "Strength · 19",
-              "Dexterity · 14",
-              "Constitution · 17",
-              "Intelligence · 11",
-              "Wisdom · 11",
-              "Charisma · 15",
-              "Alignment · lawful good",
-              "Initiative · +5"
-            ]
+        "source": "https://5e.tools/bestiary.html#red%20dragonflight%20whelp_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "red_dragonflight_whelp"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium dragon with challenge rating 8. Listed habitats: any. Named abilities include Rend, Razing Fire Breath (Recharge 5–6)."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +5", "Wis +3", "Dexterity +5, Wisdom +3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["any"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Rend · melee · +7 to hit · reach 5 ft. · 5d6 + 4 piercing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +6, Stealth +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 10 ft., Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (WoW), Draconic (WoW), Orcish"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["fire"]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["any"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Rend · Melee attack · +7 to hit · 5d6 + 4 piercing damage · reach 5 ft.",
-              "Razing Fire Breath (Recharge 5–6) · Dexterity save · DC 14 · 12d6 fire damage · 15-foot Cone · Cone [Area of Effect]"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Red Dragonflight", "Habitat:", "Treasure:"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft, p. 250 · https://5e.tools/bestiary.html#red%20dragonflight%20whelp_wow",
-              "Cone [Area of Effect] (rule) · https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#red%20dragonflight%20whelp_wow"
+        }
       }
     ],
     "groups": ["Dragon"]
@@ -16758,15 +16174,18 @@
       {
         "id": "printing-f575ae6d03543697e4b4c31f",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 10", "Type · Humanoid"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525102-royal-assassin",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/699/1000/1000/638844714217829659.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/699/1000/1000/638844714217829659.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "royal_assassin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -20649,15 +20068,18 @@
       {
         "id": "printing-7100ed1b4faca42d542673ad",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 8", "Type · Undead"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525106-sanguine-witch",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/707/1000/1000/638844714226878450.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/707/1000/1000/638844714226878450.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sanguine_witch"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -22040,97 +21462,17 @@
       {
         "id": "printing-211da43221baf04e57f75765",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 209",
-              "Hit dice · 22d8 + 110",
-              "Challenge · 18",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 40 ft.",
-              "Passive Perception · 9",
-              "Strength · 20",
-              "Dexterity · 18",
-              "Constitution · 20",
-              "Intelligence · 7",
-              "Wisdom · 9",
-              "Charisma · 11",
-              "Creature tags · human",
-              "Alignment · lawful evil",
-              "Initiative · +10"
-            ]
+        "source": "https://5e.tools/bestiary.html#scarlet%20champion%20herod_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "scarlet_champion_herod"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 18. Named abilities include Bloodied Defiance, Legendary Resistance (3/Day), Greataxe."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +11", "Con +11", "Strength +11, Constitution +11"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Greataxe · melee · +11 to hit · reach 5 ft. · 2d12 + 5 slashing · 4d6 force"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +10, Insight +4, Intimidation +10"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (WoW), Orcish"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Bloodied Defiance · Bloodied · Resistance", "Legendary Resistance (3/Day)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Greataxe · Melee attack · +11 to hit · 2d12 + 5 slashing damage · 4d6 force damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Heroic Leap · up to 30 feet · Advantage"]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Vengeful Charge · Speed · Opportunity Attack"]
-          },
-          {
-            "title": "Legendary actions reference",
-            "lines": [
-              "Frenzied Strike",
-              "Ravager's Cleave · Dexterity save · DC 19 · 4d12 slashing damage · 4d6 force damage · Emanation [Area of Effect]"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Scarlet Champion Herod"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft, p. 204 · https://5e.tools/bestiary.html#scarlet%20champion%20herod_wow",
-              "Bloodied (status) · https://5e.tools/conditionsdiseases.html#bloodied_xphb",
-              "Resistance (rule) · https://5e.tools/variantrules.html#resistance_xphb",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Speed (rule) · https://5e.tools/variantrules.html#speed_xphb",
-              "Opportunity Attack (action) · https://5e.tools/actions.html#opportunity%20attack_xphb",
-              "Emanation [Area of Effect] (rule) · https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#scarlet%20champion%20herod_wow"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -23150,15 +22492,18 @@
       {
         "id": "printing-ce3759a41af565fd51484b7d",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 2", "Type · Undead"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525107-scrap-reautomata",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/709/1000/1000/638844714229842004.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/709/1000/1000/638844714229842004.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "scrap_reautomata"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -25813,67 +25158,17 @@
       {
         "id": "printing-cb17a31e483b1d726cf3933d",
         "label": "Waterdeep: Dragon Heist",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 12",
-              "Strength · 13",
-              "Dexterity · 12",
-              "Constitution · 12",
-              "Intelligence · 10",
-              "Wisdom · 11",
-              "Charisma · 10",
-              "Creature tags · any race",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#sergeant_wdh",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guard"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 1/8. Named abilities include Spear."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "mountain", "grassland", "hill", "urban", "forest", "desert"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +3 to hit · 1d6 + 1 piercing damage · 1d8 + 1 piercing damage · reach 5 ft. · range 20/60 ft."
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Guard"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Waterdeep: Dragon Heist, p. 197 · https://5e.tools/bestiary.html#sergeant_wdh",
-              "Chain shirt (item) · https://5e.tools/items.html#chain%20shirt_phb",
-              "Shield (item) · https://5e.tools/items.html#shield_phb",
-              "Guard (creature) · https://5e.tools/bestiary.html#guard_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dragon_heist"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#sergeant_wdh"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -26500,15 +25795,18 @@
       {
         "id": "printing-9a9a011913721f986a1af3c8",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 7", "Type · Plant"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525109-sewer-thing",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/713/1000/1000/638844714235302135.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/713/1000/1000/638844714235302135.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sewer_thing"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Plant"]
@@ -29585,92 +28883,17 @@
       {
         "id": "printing-5bc72ffef660ba9fc64de5ad",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 55",
-              "Hit dice · 10d8 + 10",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 13",
-              "Strength · 12",
-              "Dexterity · 17",
-              "Constitution · 13",
-              "Intelligence · 11",
-              "Wisdom · 13",
-              "Charisma · 14",
-              "Alignment · chaotic evil",
-              "Initiative · +5"
-            ]
+        "source": "https://5e.tools/bestiary.html#shadowstalker%20satyr_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shadowstalker_satyr"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium fiend with challenge rating 2. Listed habitats: forest. Named abilities include Fel Blade, Shadow Stealth."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +5", "Dexterity +5"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Fel Blade · melee or ranged · +5 to hit · reach 5 ft. · range 30 ft. · 1d6 + 3 piercing · 1d4 necrotic"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3, Stealth +7"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (WoW), Darnassian, Eredun, Orcish"]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["arcana"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Fel Blade · Melee or ranged attack · +5 to hit · 1d6 + 3 piercing damage · 1d4 necrotic damage · reach 5 ft. · range 30 ft."
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Shadow Stealth · Dim Light · Darkness · Hide"]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Satyrs", "Habitat:", "Treasure:"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft · https://5e.tools/bestiary.html#shadowstalker%20satyr_wow",
-              "Dim Light (rule) · https://5e.tools/variantrules.html#dim%20light_xphb",
-              "Darkness (rule) · https://5e.tools/variantrules.html#darkness_xphb",
-              "Hide (action) · https://5e.tools/actions.html#hide_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#shadowstalker%20satyr_wow"
+        }
       }
     ],
     "groups": ["Fiend"]
@@ -30787,152 +30010,72 @@
       {
         "id": "printing-b6ac6edbbd72a30c39f5387c",
         "label": "DDAL04-11 - The Donjon",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 136",
-              "Hit dice · 16d10 + 48",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Plant",
-              "Speed · walk 20 ft., swim 20 ft.",
-              "Str · 18",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shambling_mound"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +7 to hit · reach 5 ft. · 2d8 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_11_the_donjon"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-47f6984e2f94b79ad85cc02d",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 136",
-              "Hit dice · 16d10 + 48",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Plant",
-              "Speed · walk 20 ft., swim 20 ft.",
-              "Str · 18",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shambling_mound"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +7 to hit · reach 5 ft. · 2d8 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-7c9799597faba03478dc4951",
         "label": "DDEX1-12 - Raiders of the Twilight Marsh",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 136",
-              "Hit dice · 16d10 + 48",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Plant",
-              "Speed · walk 20 ft., swim 20 ft.",
-              "Str · 18",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shambling_mound"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +7 to hit · reach 5 ft. · 2d8 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_12_raiders_of_the_twilight_marsh"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-bcb0a0c85769e3ce0b920bdc",
         "label": "DDEX1-14 - Escape from Phlan",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 136",
-              "Hit dice · 16d10 + 48",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Plant",
-              "Speed · walk 20 ft., swim 20 ft.",
-              "Str · 18",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shambling_mound"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +7 to hit · reach 5 ft. · 2d8 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_14_escape_from_phlan"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-5880c3690aa98d7c1c95d034",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 136",
-              "Hit dice · 16d10 + 48",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Plant",
-              "Speed · walk 20 ft., swim 20 ft.",
-              "Str · 18",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shambling_mound"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +7 to hit · reach 5 ft. · 2d8 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-5fb5ddc57c4ea22ef1cbc4e3",
@@ -35669,15 +34812,18 @@
       {
         "id": "printing-56042586b6f3f1935fe60233",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 5", "Type · Humanoid"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525111-silver-order-cavalier",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/717/1000/1000/638844714240453641.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/717/1000/1000/638844714240453641.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "silver_order_cavalier"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -38903,15 +38049,18 @@
       {
         "id": "printing-e8debe520b630c246f786a76",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1", "Type · Undead"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525115-skeleton-archer",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/725/1000/1000/638844714249966411.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/725/1000/1000/638844714249966411.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "skeleton_archer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -39064,15 +38213,18 @@
       {
         "id": "printing-4680b838a3f13a0ff80a5114",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 3", "Type · Undead"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525116-skeleton-mage",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/727/1000/1000/638844714251999221.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/727/1000/1000/638844714251999221.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "skeleton_mage"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -39132,15 +38284,18 @@
       {
         "id": "printing-a5ffea81c5bf2aa9f0bb4ef4",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1", "Type · Undead"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525117-skeleton-soldier",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/729/1000/1000/638844714255740434.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/729/1000/1000/638844714255740434.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "skeleton_soldier"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -39662,15 +38817,18 @@
       {
         "id": "printing-7025cb57479b15938fb7e052",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 4", "Type · Monstrosity"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525119-skinwing",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/733/1000/1000/638844714260262647.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/733/1000/1000/638844714260262647.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "skinwing"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       },
       {
         "id": "printing-724976590eea5431d0d800eb",
@@ -39895,15 +39053,18 @@
       {
         "id": "printing-45c9d9109b4aba2bc6a06e21",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 3", "Type · Monstrosity"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525120-skretch",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/735/1000/1000/638844714263070628.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/735/1000/1000/638844714263070628.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "skretch"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -40946,15 +40107,18 @@
       {
         "id": "printing-72449a076a9fa399d1f77940",
         "label": "Humblewood Tales",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1/8", "Type · Ooze"]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5174399-slime-familiar",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/46988/316/1000/1000/638735984510918552.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/46988/316/1000/1000/638735984510918552.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "slime_familiar"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_tales"
+          }
+        }
       }
     ],
     "groups": ["Ooze"]
@@ -41015,14 +40179,17 @@
       {
         "id": "printing-84fe951e2b4f05cf945d2084",
         "label": "Humblewood Tales",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1", "Type · Humanoid"]
+        "source": "https://www.dndbeyond.com/monsters/5174402-slip-tideswell",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "slip_tideswell"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_tales"
           }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "source": "https://www.dndbeyond.com/monsters/5174402-slip-tideswell"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -42255,88 +41422,17 @@
       {
         "id": "printing-0b8aae780311f63b1fe5b3d1",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 93",
-              "Hit dice · 11d10 + 33",
-              "Challenge · 4",
-              "Size · Large",
-              "Type · Construct",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 19",
-              "Dexterity · 14",
-              "Constitution · 17",
-              "Intelligence · 1",
-              "Wisdom · 10",
-              "Charisma · 1",
-              "Alignment · unaligned",
-              "Initiative · +4"
-            ]
+        "source": "https://5e.tools/bestiary.html#sneed's%20shredder_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sneeds_shredder"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large construct with challenge rating 4. Named abilities include Eject Pilot, Headlamps, Magic Resistance."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +6", "Wis +2", "Strength +6, Wisdom +2"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Steamsaw · melee · +6 to hit · reach 5 ft. · 1d10 + 4 slashing"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison, psychic"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["exhaustion, frightened, poisoned, stunned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Eject Pilot · within 10 feet · 0 Hit Points · Hit Points",
-              "Headlamps · 20-foot Cone · Bright Light · Cone [Area of Effect] · Dim Light",
-              "Magic Resistance · Advantage"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Steamsaw · Melee attack · +6 to hit · 1d10 + 4 slashing damage · reach 5 ft.",
-              "Terrify (Recharge 5–6) · Wisdom save · DC 13 · within 20 feet · end of its next turn · Frightened"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Sneed's Shredder"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft, p. 182 · https://5e.tools/bestiary.html#sneed's%20shredder_wow",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Bright Light (rule) · https://5e.tools/variantrules.html#bright%20light_xphb",
-              "Cone [Area of Effect] (rule) · https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb",
-              "Dim Light (rule) · https://5e.tools/variantrules.html#dim%20light_xphb",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_xphb",
-              "Goblin Boss (creature) · https://5e.tools/bestiary.html#goblin%20boss_xmm",
-              "Edwin VanCleef (creature) · https://5e.tools/bestiary.html#edwin%20vancleef_wow"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#sneed's%20shredder_wow"
+        }
       }
     ],
     "groups": ["Construct"],
@@ -45685,142 +44781,17 @@
       {
         "id": "printing-defa4840b751cb7f8f5d088c",
         "label": "Plane Shift: Zendikar",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 199",
-              "Hit dice · 19d10 + 95",
-              "Challenge · 17",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 40 ft., fly 60 ft.",
-              "Passive Perception · 20",
-              "Strength · 22",
-              "Dexterity · 10",
-              "Constitution · 20",
-              "Intelligence · 16",
-              "Wisdom · 18",
-              "Charisma · 23",
-              "Alignment · lawful neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#sphinx%20(type%201)_psz",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "androsphinx"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large monstrosity with challenge rating 17. Named abilities include Inscrutable, Magic Weapons, Claw."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Dex +6",
-              "Con +11",
-              "Int +9",
-              "Wis +10",
-              "Dexterity +6, Constitution +11, Intelligence +9, Wisdom +10"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Claw · melee · +12 to hit · reach 5 ft. · 2d10 + 6 slashing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +9, Perception +10, Religion +15"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Sphinx"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["psychic, bludgeoning, piercing, slashing from nonmagical attacks"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["charmed, frightened"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Inscrutable · Insight", "Magic Weapons"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Claw · Melee attack · +12 to hit · 2d10 + 6 slashing damage · reach 5 ft.",
-              "Roar (3/Day) · within 500 feet",
-              "First Roar · DC 18 Wisdom save · 1 minute · Repeat the save at the end of each turn · Frightened",
-              "Second Roar · DC 18 Wisdom save · 1 minute · Repeat the save at the end of each turn · Deafened · Frightened · Paralyzed",
-              "Third Roar · DC 18 Constitution save · 8d10 thunder damage · Prone"
-            ]
-          },
-          {
-            "title": "Legendary actions reference",
-            "lines": [
-              "Claw Attack",
-              "Teleport (Costs 2 Actions) · up to 120 feet",
-              "Cast a Spell (Costs 3 Actions)"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Wisdom · DC 18 · +10 to hit · Sacred flame · Spare the dying · Thaumaturgy · Command · Detect evil and good · Detect magic · Lesser restoration · Zone of truth · Dispel magic · Tongues · Banishment · Freedom of movement · Flame strike · Greater restoration · Heroes' feast",
-              "Cantrips · sacred flame, spare the dying, thaumaturgy",
-              "Level 1 (4 slots) · command, detect evil and good, detect magic",
-              "Level 2 (3 slots) · lesser restoration, zone of truth",
-              "Level 3 (3 slots) · dispel magic, tongues",
-              "Level 4 (3 slots) · banishment, freedom of movement",
-              "Level 5 (2 slots) · flame strike, greater restoration",
-              "Level 6 (1 slots) · heroes' feast"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Androsphinx"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Plane Shift: Zendikar, p. 24 · https://5e.tools/bestiary.html#sphinx%20(type%201)_psz",
-              "Sacred flame (spell) · https://5e.tools/spells.html#sacred%20flame_phb",
-              "Spare the dying (spell) · https://5e.tools/spells.html#spare%20the%20dying_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Command (spell) · https://5e.tools/spells.html#command_phb",
-              "Detect evil and good (spell) · https://5e.tools/spells.html#detect%20evil%20and%20good_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Lesser restoration (spell) · https://5e.tools/spells.html#lesser%20restoration_phb",
-              "Zone of truth (spell) · https://5e.tools/spells.html#zone%20of%20truth_phb",
-              "Dispel magic (spell) · https://5e.tools/spells.html#dispel%20magic_phb",
-              "Tongues (spell) · https://5e.tools/spells.html#tongues_phb",
-              "Banishment (spell) · https://5e.tools/spells.html#banishment_phb",
-              "Freedom of movement (spell) · https://5e.tools/spells.html#freedom%20of%20movement_phb",
-              "Flame strike (spell) · https://5e.tools/spells.html#flame%20strike_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Heroes' feast (spell) · https://5e.tools/spells.html#heroes'%20feast_phb",
-              "Insight (skill) · https://5e.tools/skills.html#insight_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Androsphinx (creature) · https://5e.tools/bestiary.html#androsphinx_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "plane_shift_zendikar"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#sphinx%20(type%201)_psz"
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -46691,15 +45662,18 @@
       {
         "id": "printing-ca90dd70e13f0a966278d0fa",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1", "Type · Aberration"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525123-spined-dreg",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/739/1000/1000/638844714267594689.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/739/1000/1000/638844714267594689.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "spined_dreg"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Aberration"]
@@ -47409,101 +46383,17 @@
       {
         "id": "printing-6336f8f6103dbddbd83ac10f",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 5 ft., fly 50 ft.",
-              "Passive Perception · 10",
-              "Strength · 1",
-              "Dexterity · 14",
-              "Constitution · 11",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 14",
-              "Alignment · chaotic evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#springvale's%20specter_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "springvales_specter"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium undead with challenge rating 1. Named abilities include Incorporeal Movement, Sunlight Sensitivity, Life Drain."
-            ]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["Can hover", "fly · (hover)"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Life Drain · melee · +4 to hit · reach 5 ft. · 2d6 necrotic"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands Common (WoW), Forsaken, and Orcish but can't speak"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["acid, bludgeoning, cold, fire, lightning, piercing, slashing, thunder"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["necrotic, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
-            ]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Incorporeal Movement · 1d10 force damage · Difficult Terrain",
-              "Sunlight Sensitivity · Disadvantage"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Life Drain · Melee attack · +4 to hit · 2d6 necrotic damage · reach 5 ft. · Hit Points",
-              "Screams of the Past (Wailing Guard Only) · Constitution save · DC 12 · 2d6 psychic damage · Emanation [Area of Effect] · Concentration",
-              "Unholy Empowerment (Tormented Officer Only) · 1d6 · within 5 feet · Hit Points"
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Shield Wall (Tormented Officer Only) · within 5 feet"]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Commander Springvale"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft, p. 211 · https://5e.tools/bestiary.html#springvale's%20specter_wow",
-              "Difficult Terrain (rule) · https://5e.tools/variantrules.html#difficult%20terrain_xphb",
-              "Disadvantage (rule) · https://5e.tools/variantrules.html#disadvantage_xphb",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Emanation [Area of Effect] (rule) · https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb",
-              "Concentration (status) · https://5e.tools/conditionsdiseases.html#concentration_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#springvale's%20specter_wow"
+        }
       }
     ],
     "groups": ["Undead"],
@@ -47630,22 +46520,16 @@
       {
         "id": "printing-6b1ae79e1f559bb510cba891",
         "label": "Player's Handbook (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 1/4",
-              "Size · Tiny",
-              "Type · Fey",
-              "Speed · fly 40 ft."
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sprite"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "player_s_handbook_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-df12f781f707184d894cb65e",
@@ -49402,58 +48286,30 @@
       {
         "id": "printing-70ac1bd58723f81a5f997e97",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 21",
-              "Hit dice · 6d6",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Elemental",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 5",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "steam_mephit"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Claws · melee · +4 to hit · reach 5 ft. · 1d4 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-4c91c26802c224c19b8f4a14",
         "label": "DDEX2-02 - Embers of Elmwood",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 21",
-              "Hit dice · 6d6",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Elemental",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 5",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "steam_mephit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_02_embers_of_elmwood"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-38662baffd1fba5f703481ff",
@@ -49480,28 +48336,16 @@
       {
         "id": "printing-0b948d00c6567047cb52baa0",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 21",
-              "Hit dice · 6d6",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Elemental",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 5",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "steam_mephit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-995ed64c504a560c6d087f95",
@@ -52680,90 +51524,18 @@
       {
         "id": "printing-0374bcb140f72127a437db6c",
         "label": "Ghosts of Saltmarsh",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 230",
-              "Hit dice · 20d12 + 100",
-              "Challenge · 16",
-              "Type · Giant",
-              "Speed · 50 ft., fly 50 ft. (hover), swim 50 ft.",
-              "XP · 15000",
-              "Str · 29",
-              "Dex · 14",
-              "Con · 20",
-              "Int · 17",
-              "Wis · 20",
-              "Cha · 19"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Giant (storm giant), chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Strength saves +14, Constitution +10, Wisdom +10, Charisma +9. Arcana +8, History +8. Resists cold and nonmagical bludgeoning, piercing and slashing attacks. Immune to lightning and thunder. Truesight 60 ft., passive Perception 20. Common, Giant."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. It can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Use Lightning Sword twice or Wind Javelin twice.\nLightning Sword. Melee weapon attack +14, reach 15 ft., one target. Hit for 40 (9d6 + 9) lightning damage.\nWind Javelin. Choose one creature it sees within 600 ft. A magical javelin of wind hits without an attack roll for 19 (3d6 + 9) piercing damage and then vanishes."
-            ]
-          },
-          {
-            "title": "Legendary actions",
-            "lines": [
-              "It has three legendary actions each round and regains them when its turn starts. Use one option at a time at the end of another creature’s turn.\nGust (1 action). A creature it sees within 60 ft. must make a DC 18 Strength save or be pushed up to 20 ft. horizontally in a direction the giant chooses.\nThunderbolt (2 actions). A creature it sees within 600 ft. makes a DC 18 Dexterity save. Failure deals 22 (4d10) thunder damage and success halves it.\nOne with the Storm (3 actions). Disperse into the storm within its lair. Only lair actions remain available, and attacks, spells and other effects cannot target it. It can re-form anywhere within the lair at the start of its turn. It cannot disperse outside its lair or while Control Weather or comparable magic is calming the storm."
-            ]
-          },
-          {
-            "title": "Lair actions",
-            "lines": [
-              "At initiative count 20, after ties, choose one action. The giant can do this in either form and cannot repeat the same effect in consecutive rounds.\nThunderclap. Choose a point in the lair. Creatures within 20 ft. must pass a DC 18 Constitution save or be Deafened through the end of their next turn.\nFog or murk. Make a 20 ft. radius sphere of fog, or murky water underwater, at a point within the lair. It spreads around corners and heavily obscures the area until the giant dismisses it without an action. Wind cannot disperse it.\nGust or current. Make a 60 ft. by 10 ft. line of wind or underwater current in the lair. On a failed DC 18 Strength save, creatures in the line move 15 ft. in its direction. It disperses gas, extinguishes exposed flames and has a 50 percent chance of extinguishing protected flames."
-            ]
-          },
-          {
-            "title": "Regional effects",
-            "lines": [
-              "Within 1 mile, strong wind prevents fire from being lit unless sheltered and persistent precipitation or dust can flood waterways or create drifts. Lightning and thunder persist within 5 miles.\nWind, lightning and thunder stop at once if the giant dies. Precipitation and dust subside over 1d8 days."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": [
-              "Mountains, coasts, underwater, deserts and arctic regions. Its lair surrounds a persistent storm."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A giant that can spread its body into a living storm and coalesce again inside its lair."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Rules source: Volo's Guide to Monsters, p. 151."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters index · https://5e.tools/bestiary.html#storm%20giant%20quintessent_vgm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/17256-storm-giant-quintessent",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/671/1000/1000/636330346803974302.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/671/1000/1000/636330346803974302.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "storm_giant_quintessent"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ghosts_of_saltmarsh"
+          }
+        }
       },
       {
         "id": "printing-43a0831edb6a57e19868cefc",
@@ -54001,84 +52773,18 @@
       {
         "id": "printing-423a50a5ee49e5888231ec91",
         "label": "Humblewood Campaign Setting",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 65",
-              "Hit dice · 10d8 + 20",
-              "Challenge · 3",
-              "Type · Humanoid",
-              "Speed · 35 ft.",
-              "XP · 700",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 14",
-              "Int · 11",
-              "Wis · 15",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A woodland tracker who can search for a hidden creature while keeping pressure on a fight."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Humanoid (Strig), any neutral alignment"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Hide armor. Acrobatics +6, Perception +4, Survival +4. Darkvision 60 ft., passive Perception 15. Speaks Birdfolk and two other languages. Understands Auran."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Talons. The tracker has advantage on Strength (Athletics) checks to climb surfaces their talons can grip.\nPatterned Feathers. The tracker has advantage on Dexterity (Stealth) checks to hide in a forest."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one melee Longsword and one melee Handaxe attack, or two ranged Handaxe attacks.\nLongsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) when held in two hands.\nHandaxe. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": ["Reya's Keen Eye. Make a Wisdom (Perception) check to find hidden creatures."]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Glide. After falling at least 10 ft., the tracker can spend a reaction to glide up to their speed in one direction while descending. They land in a free space at the end and take no fall damage. They need to be free of heavy objects, heavy weapons, and shields to glide. They can drop anything held as part of the same reaction."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "The tracker casts as a 3rd-level Wisdom spellcaster (save DC 12, +4 to spell attacks). 1st level (3 slots) Elevated Sight, Hunter's Mark, Longstrider, Speak with Animals.\nElevated Sight takes one action and lasts up to 1 minute with concentration. A moving, invisible sensor gives the caster a 360-degree view from up to 120 ft. above them. They can change its height as a bonus action and switch to their own sight during their turn. Their own eyes are blind while they view through the sensor."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix B, p. 206. Elevated Sight, p. 49."]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "The printed passive Perception is 15 even though its Perception skill is listed as +4."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4237049-strig-tracker",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/798/1000/1000/638433706570380326.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/798/1000/1000/638433706570380326.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "strig_tracker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_campaign_setting"
+          }
+        }
       },
       {
         "id": "printing-579843ced31f6f1dca5f9314",
@@ -61828,15 +60534,18 @@
       {
         "id": "printing-8fea77365f83eaa22759447f",
         "label": "Humblewood Tales",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1", "Type · Humanoid"]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5174411-tempa-greenkeeper",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/46988/332/1000/1000/638735984531260964.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/46988/332/1000/1000/638735984531260964.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tempa_greenkeeper"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_tales"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -62261,15 +60970,18 @@
       {
         "id": "printing-9ace92a7480a3fd0ced21ce0",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 2", "Type · Aberration"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525131-tentacled-dreg",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/753/1000/1000/638844714285223030.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/753/1000/1000/638844714285223030.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tentacled_dreg"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Aberration"]
@@ -63235,15 +61947,18 @@
       {
         "id": "printing-f199932b752b8d787013277c",
         "label": "Humblewood Tales",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 6", "Type · Humanoid"]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5174412-the-godfeather",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/46988/334/1000/1000/638735984533439984.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/46988/334/1000/1000/638735984533439984.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "the_godfeather"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_tales"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -66177,28 +64892,18 @@
       {
         "id": "printing-12f29ee87331e8de1e94dac5",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 27",
-              "Hit dice · 5d8 + 5",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Plant",
-              "Speed · walk 30 ft."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +3 to hit · reach 5 ft. · 2d6 + 1 piercing"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17310-thorny",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/811/1000/1000/636332086384498148.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/811/1000/1000/636332086384498148.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "thorny"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       },
       {
         "id": "printing-8c3f06e2e94ba76804b2a332",
@@ -66426,103 +65131,17 @@
       {
         "id": "printing-a05cf6f073db80c12b2c3f5d",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 475",
-              "Hit dice · 50d8 + 250",
-              "Challenge · 22",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 23",
-              "Strength · 22",
-              "Dexterity · 16",
-              "Constitution · 20",
-              "Intelligence · 18",
-              "Wisdom · 22",
-              "Charisma · 20",
-              "Creature tags · barbarian, orc",
-              "Alignment · chaotic good",
-              "Initiative · +17"
-            ]
+        "source": "https://5e.tools/bestiary.html#thrall_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "thrall"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 22. Named abilities include Legendary Resistance (4/Day), Dra'gora, Lava Burst."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +10", "Dexterity +10"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Lava Burst · ranged · +13 to hit · range 120 ft. · 9d6 fire"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Nature +11, Perception +13, Survival +13"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (WoW), Kalimag, Orcish, Taur-ahe"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["cold, fire, lightning"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Legendary Resistance (4/Day)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Dra'gora · Melee attack · +13 to hit · 2d10 + 6 slashing damage · 4d8 · reach 5 ft.",
-              "Lava Burst · Ranged attack · +13 to hit · 9d6 fire damage · range 120 ft.",
-              "Chain Lightning (Recharge 4–6) · Dexterity save · DC 21 · 8d8 lightning damage · within 90 feet · within 30 feet"
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": [
-              "Charge · 10 Temporary Hit Points · Speed · Opportunity Attack · Temporary Hit Points"
-            ]
-          },
-          {
-            "title": "Legendary actions reference",
-            "lines": [
-              "Spirit Wolf Strike · Dexterity save · DC 21 · 8d8 force damage · within 60 feet · Advantage",
-              "Strike"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Thrall"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft, p. 255 · https://5e.tools/bestiary.html#thrall_wow",
-              "Speed (rule) · https://5e.tools/variantrules.html#speed_xphb",
-              "Opportunity Attack (action) · https://5e.tools/actions.html#opportunity%20attack_xphb",
-              "Temporary Hit Points (rule) · https://5e.tools/variantrules.html#temporary%20hit%20points_xphb",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#thrall_wow"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -71910,73 +70529,18 @@
       {
         "id": "printing-d9dc199062e2998406eae587",
         "label": "The Wild Beyond the Witchlight",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 92",
-              "Hit dice · 8d12 + 40",
-              "Challenge · 7",
-              "Size · Huge",
-              "Type · Plant",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Str · 23",
-              "Dex · 10",
-              "Con · 20",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Gulthias tree groves such as Yester Hill"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A dead-looking tree about 30 ft. tall, with thorny branches and trailing, rubbery roots."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Branch · melee · +9 to hit · reach 15 ft. · 3d6 + 6 bludgeoning",
-              "Grasping Root · melee · +9 to hit · reach 15 ft.",
-              "Bite (bonus action, Grappled target) · melee · +9 to hit · reach 5 ft. · 3d8 + 6 piercing"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["False Appearance", "Siege Monster"]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Multiattack", "Branch", "Grasping Root"]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Bite"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Curse of Strahd creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Grasping Root targets a creature the blight is not already grappling and deals no damage on impact. The creature is Grappled (escape DC 15) and takes 9 (1d6 + 6) bludgeoning at the start of each of its turns. A root has AC 15. One hit dealing at least 6 slashing severs it and ends the grapple without harming the blight.",
-              "Bite is a bonus action against a creature already Grappled by the blight."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Curse of Strahd index · https://5e.tools/bestiary.html#tree%20blight_cos"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17363-tree-blight",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/13270/407/1000/1000/637382194425388176.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/13270/407/1000/1000/637382194425388176.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tree_blight"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "the_wild_beyond_the_witchlight"
+          }
+        }
       }
     ],
     "groups": ["Plant"],
@@ -75755,104 +74319,17 @@
       {
         "id": "printing-2ad235d1a804e5060e5b6791",
         "label": "Plane Shift: Zendikar",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 200",
-              "Hit dice · 16d12 + 96",
-              "Challenge · 9",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · walk 40 ft.",
-              "Passive Perception · 17",
-              "Strength · 27",
-              "Dexterity · 10",
-              "Constitution · 22",
-              "Intelligence · 12",
-              "Wisdom · 16",
-              "Charisma · 16"
-            ]
+        "source": "https://5e.tools/bestiary.html#turntimber%20giant_psz",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cloud_giant"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge giant with challenge rating 9. Named abilities include Keen Smell, Morningstar, Rock."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +10", "Wis +7", "Cha +7", "Constitution +10, Wisdom +7, Charisma +7"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Morningstar · melee · +12 to hit · reach 10 ft. · 3d8 + 8 piercing",
-              "Rock · ranged · +12 to hit · range 60/240 ft. · 4d10 + 8 bludgeoning"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Insight +7, Perception +7"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Giant"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Keen Smell · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Morningstar · Melee attack · +12 to hit · 3d8 + 8 piercing damage · reach 10 ft.",
-              "Rock · Ranged attack · +12 to hit · 4d10 + 8 bludgeoning damage · range 60/240 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · Detect magic · Fog cloud · Light · Feather fall · Fly · Misty step · Telekinesis · Control weather · Gaseous form",
-              "At will · detect magic, fog cloud, light",
-              "3/day each · feather fall, fly, misty step, telekinesis",
-              "1/day each · control weather, gaseous form"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Cloud Giant"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Plane Shift: Zendikar, p. 30 · https://5e.tools/bestiary.html#turntimber%20giant_psz",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Fog cloud (spell) · https://5e.tools/spells.html#fog%20cloud_phb",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Feather fall (spell) · https://5e.tools/spells.html#feather%20fall_phb",
-              "Fly (spell) · https://5e.tools/spells.html#fly_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Telekinesis (spell) · https://5e.tools/spells.html#telekinesis_phb",
-              "Control weather (spell) · https://5e.tools/spells.html#control%20weather_phb",
-              "Gaseous form (spell) · https://5e.tools/spells.html#gaseous%20form_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Stone giant (creature) · https://5e.tools/bestiary.html#stone%20giant_mm",
-              "Cloud giant (creature) · https://5e.tools/bestiary.html#cloud%20giant_mm",
-              "Fomorian (creature) · https://5e.tools/bestiary.html#fomorian_mm",
-              "Cloud Giant (creature) · https://5e.tools/bestiary.html#cloud%20giant_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "plane_shift_zendikar"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#turntimber%20giant_psz"
+        }
       }
     ],
     "groups": ["Giant"]
@@ -77428,72 +75905,18 @@
       {
         "id": "printing-c50f8c89087c0d160a1ddf74",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 127",
-              "Hit dice · 17d10 + 14",
-              "Challenge · 9",
-              "Size · Large",
-              "Type · Aberration",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 18",
-              "Str · 15",
-              "Dex · 12",
-              "Con · 15",
-              "Int · 21",
-              "Wis · 19",
-              "Cha · 21"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +9", "Wis +8", "Cha +9"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tall mind flayer with six facial tentacles, two noticeably longer than the others."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Tentacles · melee · +9 to hit · reach 10 ft. · 4d10 + 5 psychic",
-              "Extract Brain · melee · +9 to hit · reach 5 ft. · 10d10 piercing"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Creature Sense", "Magic Resistance", "Psionic Hub"]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Tentacles", "Extract Brain", "Mind Blast (Recharge 5–6)"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Volo's Guide to Monsters creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters index · https://5e.tools/bestiary.html#ulitharid_vgm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17285-ulitharid",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/751/1000/1000/636331340815791689.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/751/1000/1000/636331340815791689.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ulitharid"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Aberration"],
@@ -78396,15 +76819,18 @@
       {
         "id": "printing-2f4c15029cd1947b2546b54b",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 8", "Type · Monstrosity"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525141-uncontained-growth",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/773/1000/1000/638844714311275701.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/773/1000/1000/638844714311275701.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uncontained_growth"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -79718,15 +78144,18 @@
       {
         "id": "printing-2029b49e3520bec094482663",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 7", "Type · Aberration"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525142-undulating-polyp",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/775/1000/1000/638844714313771816.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/775/1000/1000/638844714313771816.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "undulating_polyp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Aberration"]
@@ -86657,23 +85086,18 @@
       {
         "id": "printing-f7d0a9c8f14e0ae902d0934b",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 33",
-              "Challenge · 2",
-              "Size · Small",
-              "Type · Plant",
-              "Speed · walk 30 ft."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17309-vegepygmy-chief",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/809/1000/1000/636332076389004800.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/809/1000/1000/636332076389004800.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vegepygmy_chief"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       },
       {
         "id": "printing-23a061b8fc5055e68b7d89aa",
@@ -87023,14 +85447,17 @@
       {
         "id": "printing-a902b69235e68fa1d96e719a",
         "label": "Humblewood Tales",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1/4", "Type · Humanoid"]
+        "source": "https://www.dndbeyond.com/monsters/5174414-velma-leicester",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "velma_leicester"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_tales"
           }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "source": "https://www.dndbeyond.com/monsters/5174414-velma-leicester"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -89925,22 +88352,16 @@
       {
         "id": "printing-9fb1613a7d8d828eb72bd008",
         "label": "DDAL04-03 - The Executioner",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 26",
-              "Hit dice · 4d8 + 8",
-              "Challenge · 1/2",
-              "Size · Small",
-              "Type · Plant",
-              "Speed · walk 10 ft."
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vine_blight"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_03_the_executioner"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-150bddbc8ee238e6f0ee1800",
@@ -92110,15 +90531,18 @@
       {
         "id": "printing-158ffaefeee68fa0862180b5",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 9", "Type · Humanoid"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525143-void-pirate-captain",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/777/1000/1000/638844714316426114.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/777/1000/1000/638844714316426114.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "void_pirate_captain"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -92278,98 +90702,17 @@
       {
         "id": "printing-77ae3c1fba5c9fd18809783f",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 49",
-              "Hit dice · 9d8 + 9",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 40 ft.",
-              "Passive Perception · 11",
-              "Strength · 17",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 14",
-              "Wisdom · 12",
-              "Charisma · 19",
-              "Alignment · neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#voidcaller_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "voidcaller"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium fiend with challenge rating 3. Listed habitats: planar, twisting nether. Named abilities include Magic Resistance, Void Burst, Reactive Resistance (3/Day)."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Wis +3", "Wisdom +3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["planar, twisting nether"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Void Burst · melee or ranged · +6 to hit · reach 5 ft. · range 90 ft. · 1d6 + 4 force"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (WoW), Eredun, Orcish"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["necrotic"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["exhaustion, poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Magic Resistance · Advantage"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Void Burst · Melee or ranged attack · +6 to hit · 1d6 + 4 force damage · reach 5 ft. · range 90 ft."
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Reactive Resistance (3/Day) · start of its next turn · Immunity"]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Voidwalkers", "Habitat:", "Treasure:"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft, p. 256 · https://5e.tools/bestiary.html#voidcaller_wow",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Immunity (rule) · https://5e.tools/variantrules.html#immunity_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#voidcaller_wow"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -92446,91 +90789,17 @@
       {
         "id": "printing-a6afe637697a511e62b96b9f",
         "label": "D&D: World of Warcraft",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 40 ft.",
-              "Passive Perception · 11",
-              "Strength · 19",
-              "Dexterity · 11",
-              "Constitution · 13",
-              "Intelligence · 8",
-              "Wisdom · 12",
-              "Charisma · 14",
-              "Alignment · neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#voidwalker_wow",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "voidwalker"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium fiend with challenge rating 1. Listed habitats: planar, twisting nether. Named abilities include Magic Resistance, Threatening Presence, Consuming Shadows."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["planar, twisting nether"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Consuming Shadows · melee · +6 to hit · reach 5 ft. · 1d4 + 4 necrotic"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (WoW), Eredun, Orcish"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["necrotic"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["exhaustion, poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Magic Resistance · Advantage",
-              "Threatening Presence · within 5 feet · Disadvantage"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Consuming Shadows · Melee attack · +6 to hit · 1d4 + 4 necrotic damage · reach 5 ft. · 3 Hit Points · Hit Points"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Voidwalkers", "Habitat:", "Treasure:"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "D&D: World of Warcraft, p. 256 · https://5e.tools/bestiary.html#voidwalker_wow",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Disadvantage (rule) · https://5e.tools/variantrules.html#disadvantage_xphb",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "d_d_world_of_warcraft"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#voidwalker_wow"
+        }
       }
     ],
     "groups": ["Fiend"]
@@ -92620,64 +90889,17 @@
       {
         "id": "printing-2f5160bb43ee0b798e8f8acb",
         "label": "Waterdeep: Dragon Heist",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 31",
-              "Hit dice · 7d8",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 12",
-              "Str · 9",
-              "Dex · 12",
-              "Con · 10",
-              "Int · 15",
-              "Wis · 11",
-              "Cha · 16"
-            ]
+        "source": "https://www.dndbeyond.com/monsters/33269-volothamp-volo-geddarm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "volothamp_volo_geddarm"
           },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +2", "Wis +2"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Port Nyanzaru", "Urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A bearded, flamboyantly dressed human traveler and author."]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Dagger · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 1 piercing"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Dagger"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Tomb of Annihilation creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Tomb of Annihilation index · https://5e.tools/bestiary.html#volothamp%20%22volo%22%20geddarm_toa"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dragon_heist"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
-        "source": "https://www.dndbeyond.com/monsters/33269-volothamp-volo-geddarm"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -93043,35 +91265,16 @@
       {
         "id": "printing-378f1429b2526259270d7a62",
         "label": "DDEX3-04 - It's All in the Blood",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 104",
-              "Hit dice · 11d10 + 44",
-              "Challenge · 6",
-              "Size · Large",
-              "Type · Fiend",
-              "Speed · walk 40 ft., fly 60 ft.",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 18",
-              "Int · 8",
-              "Wis · 13",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vrock"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Beak · melee · +6 to hit · reach 5 ft. · 2d6 + 3 piercing",
-              "Talons · melee · +6 to hit · reach 5 ft. · 2d10 + 3 slashing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_04_it_s_all_in_the_blood"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-2d52e879173753065ce39c23",
@@ -93098,35 +91301,16 @@
       {
         "id": "printing-5e0c40c3fa4e5ceb285da384",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 104",
-              "Hit dice · 11d10 + 44",
-              "Challenge · 6",
-              "Size · Large",
-              "Type · Fiend",
-              "Speed · walk 40 ft., fly 60 ft.",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 18",
-              "Int · 8",
-              "Wis · 13",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vrock"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Beak · melee · +6 to hit · reach 5 ft. · 2d6 + 3 piercing",
-              "Talons · melee · +6 to hit · reach 5 ft. · 2d10 + 3 slashing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-213dff3d536b2297f563e7ac",
@@ -93574,14 +91758,17 @@
       {
         "id": "printing-838200cb94ff1770396b6698",
         "label": "Humblewood Tales",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 2", "Type · Humanoid"]
+        "source": "https://www.dndbeyond.com/monsters/5174415-vulpin-berserker",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vulpin_berserker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_tales"
           }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "source": "https://www.dndbeyond.com/monsters/5174415-vulpin-berserker"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -94141,15 +92328,18 @@
       {
         "id": "printing-2f0e4278ecadf003f7d6f1d3",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 5", "Type · Elemental"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525147-walking-delerium-geode",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/785/1000/1000/638844714327032010.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/785/1000/1000/638844714327032010.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "walking_delerium_geode"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Elemental"]
@@ -95496,15 +93686,18 @@
       {
         "id": "printing-0a144e3746da0fccde223cf1",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 3", "Type · Monstrosity"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525149-warlock-of-the-rat-god",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/789/1000/1000/638844714332960214.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/789/1000/1000/638844714332960214.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "warlock_of_the_rat_god"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -95703,15 +93896,18 @@
       {
         "id": "printing-bb8421bb76b420702fbe58a7",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 4", "Type · Undead"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525151-warp-witch",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/793/1000/1000/638844714338108133.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/793/1000/1000/638844714338108133.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "warp_witch"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -98136,28 +96332,16 @@
       {
         "id": "printing-3f56c418a9a72ec6c04f6205",
         "label": "DDAL04-12 - The Raven",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 78",
-              "Hit dice · 12d8 + 24",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 40 ft.",
-              "Str · 17",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wereboar"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_12_the_raven"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-87abea14cad8aa0418bd92ea",
@@ -104589,15 +102773,18 @@
       {
         "id": "printing-6d10a35dff62811bc619a54b",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 1", "Type · Aberration"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525153-wretched-patient",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/797/1000/1000/638844714342320326.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/797/1000/1000/638844714342320326.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wretched_patient"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Aberration"]
@@ -109551,67 +107738,18 @@
       {
         "id": "printing-2fd9aef1fcd1909a0d6a3e47",
         "label": "Critical Role: Call of the Netherdeep",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 136",
-              "Hit dice · 16d8 + 64",
-              "Challenge · 10",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Passive Perception · 12",
-              "Initiative · 2",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 18",
-              "Int · 13",
-              "Wis · 15",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6", "Wis +6", "Cha +6", "Int +5"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Demonweb Pits in the Abyss", "Temples of Lolth on the Material Plane"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "In its demon form, a pillar of yellow slime with one eye and flailing tentacles. It can resemble a drow or a giant spider."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Slam (Bite in Spider Form) · melee · +6 to hit · reach 5 ft. · 1d6 + 2 bludgeoning or piercing in spider form plus 6d6 poison"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Multiattack. Make two melee attacks. Slam has 10 ft. reach in demon form. In spider form it becomes a piercing Bite. Each hit adds the listed poison damage.",
-              "Shapechanger. An action lets it become a drow, a giant spider or its demon form. Its game statistics stay the same, and its gear does not transform. It reverts on death.",
-              "Mist Form. An action changes it between its demon form and toxic mist along with its gear. In mist it is Incapacitated and speechless, flies 30 ft. with hover, passes through anything that is not airtight, has Advantage on Strength, Dexterity and Constitution saves, and is immune to nonmagical damage. It reverts on death.",
-              "A creature that starts its turn sharing the mist’s space makes a DC 14 Constitution save. On failure it is Poisoned and Incapacitated until the start of its next turn.",
-              "Innate magic uses Charisma (save DC 14) with no material components. At will · Detect Thoughts, Web. Once per day · Dominate Person."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2014) index · https://5e.tools/bestiary.html#yochlol_mm"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17127-yochlol",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/651/1000/1000/638061932539092187.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/651/1000/1000/638061932539092187.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yochlol"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "critical_role_call_of_the_netherdeep"
+          }
+        }
       },
       {
         "id": "printing-584faf191ff47d82ba5b2fe5",
@@ -109632,132 +107770,34 @@
       {
         "id": "printing-963451909819ef9fd30f58f4",
         "label": "Phandelver and Below: The Shattered Obelisk",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 136",
-              "Hit dice · 16d8 + 64",
-              "Challenge · 10",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Passive Perception · 12",
-              "Initiative · 2",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 18",
-              "Int · 13",
-              "Wis · 15",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6", "Wis +6", "Cha +6", "Int +5"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Demonweb Pits in the Abyss", "Temples of Lolth on the Material Plane"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "In its demon form, a pillar of yellow slime with one eye and flailing tentacles. It can resemble a drow or a giant spider."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Slam (Bite in Spider Form) · melee · +6 to hit · reach 5 ft. · 1d6 + 2 bludgeoning or piercing in spider form plus 6d6 poison"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Multiattack. Make two melee attacks. Slam has 10 ft. reach in demon form. In spider form it becomes a piercing Bite. Each hit adds the listed poison damage.",
-              "Shapechanger. An action lets it become a drow, a giant spider or its demon form. Its game statistics stay the same, and its gear does not transform. It reverts on death.",
-              "Mist Form. An action changes it between its demon form and toxic mist along with its gear. In mist it is Incapacitated and speechless, flies 30 ft. with hover, passes through anything that is not airtight, has Advantage on Strength, Dexterity and Constitution saves, and is immune to nonmagical damage. It reverts on death.",
-              "A creature that starts its turn sharing the mist’s space makes a DC 14 Constitution save. On failure it is Poisoned and Incapacitated until the start of its next turn.",
-              "Innate magic uses Charisma (save DC 14) with no material components. At will · Detect Thoughts, Web. Once per day · Dominate Person."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2014) index · https://5e.tools/bestiary.html#yochlol_mm"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17127-yochlol",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/651/1000/1000/638061932539092187.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/651/1000/1000/638061932539092187.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yochlol"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "phandelver_and_below_the_shattered_obelisk"
+          }
+        }
       },
       {
         "id": "printing-7b9bde4831d3a5c0eb311442",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 136",
-              "Hit dice · 16d8 + 64",
-              "Challenge · 10",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Passive Perception · 12",
-              "Initiative · 2",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 18",
-              "Int · 13",
-              "Wis · 15",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6", "Wis +6", "Cha +6", "Int +5"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Demonweb Pits in the Abyss", "Temples of Lolth on the Material Plane"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "In its demon form, a pillar of yellow slime with one eye and flailing tentacles. It can resemble a drow or a giant spider."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Slam (Bite in Spider Form) · melee · +6 to hit · reach 5 ft. · 1d6 + 2 bludgeoning or piercing in spider form plus 6d6 poison"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Multiattack. Make two melee attacks. Slam has 10 ft. reach in demon form. In spider form it becomes a piercing Bite. Each hit adds the listed poison damage.",
-              "Shapechanger. An action lets it become a drow, a giant spider or its demon form. Its game statistics stay the same, and its gear does not transform. It reverts on death.",
-              "Mist Form. An action changes it between its demon form and toxic mist along with its gear. In mist it is Incapacitated and speechless, flies 30 ft. with hover, passes through anything that is not airtight, has Advantage on Strength, Dexterity and Constitution saves, and is immune to nonmagical damage. It reverts on death.",
-              "A creature that starts its turn sharing the mist’s space makes a DC 14 Constitution save. On failure it is Poisoned and Incapacitated until the start of its next turn.",
-              "Innate magic uses Charisma (save DC 14) with no material components. At will · Detect Thoughts, Web. Once per day · Dominate Person."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2014) index · https://5e.tools/bestiary.html#yochlol_mm"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17127-yochlol",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/651/1000/1000/638061932539092187.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/651/1000/1000/638061932539092187.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yochlol"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -113280,31 +111320,18 @@
       {
         "id": "printing-458a2d914fee862817081a7c",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 45",
-              "Hit dice · 7d8 + 14",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +4 to hit · reach 5 ft. · 1d8 + 2 piercing",
-              "Claws · melee · +4 to hit · reach 5 ft. · 1d6 + 2 slashing"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17316-yuan-ti-broodguard",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/827/1000/1000/636332209999033089.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/827/1000/1000/636332209999033089.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_broodguard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       },
       {
         "id": "printing-56650a8c352dd6085735d9f3",
@@ -114512,76 +112539,18 @@
       {
         "id": "printing-b916129343a1260ec2f8754f",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 71",
-              "Hit dice · 13d8 + 13",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 11",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Wis +3", "Cha +5"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark", "forest", "desert"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A snake-bodied yuan-ti priestess devoted to Dendar the Night Serpent."]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Scimitar (Yuan-ti Form Only) · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing",
-              "Constrict · melee · +5 to hit · reach 10 ft. · 2d6 + 3 bludgeoning"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Shapechanger", "Death Fangs (2/Day)", "Magic Resistance"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack (Yuan-ti Form Only)",
-              "Constrict",
-              "Scimitar (Yuan-ti Form Only)",
-              "Invoke Nightmare (Recharges after a Short or Long Rest)"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Volo's Guide to Monsters creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "A Large or smaller target hit by Constrict is Grappled (escape DC 14) and Restrained while held. The yuan-ti cannot constrict another target until the grapple ends."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters index · https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker_vgm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17318-yuan-ti-nightmare-speaker",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/834/1000/1000/636332227078313653.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/834/1000/1000/636332227078313653.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_nightmare_speaker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       },
       {
         "id": "printing-355501f1514c80c4c4a3ad81",
@@ -116723,15 +114692,18 @@
       {
         "id": "printing-802fcfd91aebc825e30802bd",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 3", "Type · Humanoid"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525156-zealot",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/803/1000/1000/638844714348560445.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/803/1000/1000/638844714348560445.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "zealot"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -116746,15 +114718,18 @@
       {
         "id": "printing-efaaba7f163a83526115b704",
         "label": "Monsters of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · 8", "Type · Undead"]
-          }
-        ],
-        "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525155-zealot-of-morrigan",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/801/1000/1000/638844714346695764.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/801/1000/1000/638844714346695764.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "zealot_of_morrigan"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monsters_of_drakkenheim"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -117049,83 +115024,17 @@
       {
         "id": "printing-d9bc49102fa9ce7aee0f9670",
         "label": "Plane Shift: Zendikar",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 178",
-              "Hit dice · 17d10 + 85",
-              "Challenge · 10",
-              "Size · Large",
-              "Type · Construct",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 22",
-              "Dexterity · 9",
-              "Constitution · 20",
-              "Intelligence · 3",
-              "Wisdom · 11",
-              "Charisma · 1",
-              "Alignment · unaligned"
-            ]
+        "source": "https://5e.tools/bestiary.html#zendikar%20golem_psz",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "stone_golem"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large construct with challenge rating 10. Named abilities include Immutable Form, Magic Resistance, Magic Weapons."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +10 to hit · reach 5 ft. · 3d8 + 6 bludgeoning"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages of its creator but can't speak"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": [
-              "poison, psychic, bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine"
-            ]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["charmed, exhaustion, frightened, paralyzed, petrified, poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Immutable Form", "Magic Resistance", "Magic Weapons"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Slam · Melee attack · +10 to hit · 3d8 + 6 bludgeoning damage · reach 5 ft.",
-              "Slow (Recharge 5–6) · DC 17 Wisdom save · 1 minute · within 10 feet · Repeat the save at the end of each turn · Half speed"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Stone Golem"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Plane Shift: Zendikar, p. 36 · https://5e.tools/bestiary.html#zendikar%20golem_psz",
-              "Stone golem (creature) · https://5e.tools/bestiary.html#stone%20golem_mm",
-              "Stone Golem (creature) · https://5e.tools/bestiary.html#stone%20golem_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "plane_shift_zendikar"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#zendikar%20golem_psz"
+        }
       }
     ],
     "groups": ["Construct"]

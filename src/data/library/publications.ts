@@ -450,6 +450,10 @@ export default createPublications({
     name: 'Humblewood Campaign Setting',
     ruleset: '5e-2014',
   },
+  humblewood_tales: {
+    name: 'Humblewood Tales',
+    ruleset: '5e-2014',
+  },
   humblewood_the_wakewyrm_s_fury: {
     name: "Humblewood: The Wakewyrm's Fury",
     ruleset: '5e-2014',
@@ -522,6 +526,10 @@ export default createPublications({
     year: 2025,
     ruleset: '5e-2024',
     pdf: 'D&D - 5th Edition (2014)/Rules/Monster Manual.pdf',
+  },
+  monsters_of_drakkenheim: {
+    name: 'Monsters of Drakkenheim',
+    ruleset: '5e-2024',
   },
   monstrous_compendium_vol_1_spelljammer_creatures: {
     name: 'Monstrous Compendium Vol. 1: Spelljammer Creatures',

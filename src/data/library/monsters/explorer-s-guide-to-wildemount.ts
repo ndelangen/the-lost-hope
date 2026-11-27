@@ -1303,6 +1303,7 @@ export default createPublicationMonsters({
     },
     gloomstalker: {
       name: 'Gloomstalker',
+      reprintedIn: [refs.publications.critical_role_call_of_the_netherdeep],
       alignment: 'neutral evil',
       languages: ["understands Common but can't speak"],
       habitats: ['Shadowfell', 'Barbed Fields of Xhorhas'],
@@ -1517,6 +1518,7 @@ export default createPublicationMonsters({
     },
     horizonback_tortoise: {
       name: 'Horizonback Tortoise',
+      reprintedIn: [refs.publications.critical_role_call_of_the_netherdeep],
       alignment: 'unaligned',
       languages: ["understands Goblin but can't speak"],
       habitats: ['Badlands and marshes of Eastern Wynandir'],

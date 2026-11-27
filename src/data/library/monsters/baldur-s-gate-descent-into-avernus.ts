@@ -2672,6 +2672,7 @@ export default createPublicationMonsters({
     },
     tressym: {
       name: 'Tressym',
+      reprintedIn: [refs.publications.storm_king_s_thunder],
       alignment: 'any alignment',
       languages: ["understands Common but can't speak"],
       stats: {

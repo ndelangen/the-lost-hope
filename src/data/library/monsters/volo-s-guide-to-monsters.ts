@@ -7311,6 +7311,7 @@ export default createPublicationMonsters({
     },
     grung_wildling: {
       name: 'Grung Wildling',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       tags: ['grung'],
       page: 157,
       alignment: 'lawful evil',
@@ -11275,6 +11276,7 @@ export default createPublicationMonsters({
     },
     neothelid: {
       name: 'Neothelid',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       page: 181,
       alignment: 'chaotic evil',
       languages: ['None.'],
@@ -13529,6 +13531,7 @@ export default createPublicationMonsters({
     },
     thorny: {
       name: 'Thorny',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       page: 197,
       alignment: 'neutral',
       languages: ['None.'],

@@ -417,6 +417,7 @@ export default createPublicationMonsters({
     },
     barovian_witch: {
       name: 'Barovian Witch',
+      reprintedIn: [refs.publications.ddal04_14_the_darklord],
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common'],
@@ -4496,6 +4497,7 @@ export default createPublicationMonsters({
     },
     tree_blight: {
       name: 'Tree Blight',
+      reprintedIn: [refs.publications.the_wild_beyond_the_witchlight],
       alignment: 'neutral evil',
       languages: ["understands Common and Druidic but doesn't speak"],
       habitats: ['Gulthias tree groves such as Yester Hill'],
