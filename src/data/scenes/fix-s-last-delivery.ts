@@ -15,6 +15,7 @@ const round = (dc: number) => ({
 export default createScene({
   name: 'Fix’s last delivery',
   location: refs.locations.skynet_s_second_best_inn,
+  illustrations: ['/assets/scenes/fix-s-last-delivery.png'],
   setup: [
     [
       'The next time the party stops in a town, ',

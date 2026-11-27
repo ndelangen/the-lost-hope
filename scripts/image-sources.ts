@@ -2987,6 +2987,54 @@ export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     logicalSource: '/assets/scenes/down-through-the-rubble.png',
     repositoryPath: 'assets/images/content/scenes/down-through-the-rubble.png',
   },
+  {
+    id: 'scenes-light-walks-auren-through-fajanet-night',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/light-walks-auren-through-fajanet-night.png',
+    repositoryPath: 'assets/images/content/scenes/light-walks-auren-through-fajanet-night.png',
+  },
+  {
+    id: 'scenes-questions-for-light',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/questions-for-light.png',
+    repositoryPath: 'assets/images/content/scenes/questions-for-light.png',
+  },
+  {
+    id: 'scenes-onana-sends-the-party-on',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/onana-sends-the-party-on.png',
+    repositoryPath: 'assets/images/content/scenes/onana-sends-the-party-on.png',
+  },
+  {
+    id: 'scenes-crowy-brings-up-onana-s-letter',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/crowy-brings-up-onana-s-letter.png',
+    repositoryPath: 'assets/images/content/scenes/crowy-brings-up-onana-s-letter.png',
+  },
+  {
+    id: 'scenes-bob-returns-cassian-s-ring',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/bob-returns-cassian-s-ring.png',
+    repositoryPath: 'assets/images/content/scenes/bob-returns-cassian-s-ring.png',
+  },
+  {
+    id: 'scenes-swift-s-silver-container-opens',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/swift-s-silver-container-opens.png',
+    repositoryPath: 'assets/images/content/scenes/swift-s-silver-container-opens.png',
+  },
+  {
+    id: 'scenes-fix-s-last-delivery',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/fix-s-last-delivery.png',
+    repositoryPath: 'assets/images/content/scenes/fix-s-last-delivery.png',
+  },
+  {
+    id: 'scenes-the-bard-s-new-song',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-bard-s-new-song.png',
+    repositoryPath: 'assets/images/content/scenes/the-bard-s-new-song.png',
+  },
 ]
 
 export const RESPONSIVE_IMAGE_SOURCES = ORIGINAL_IMAGE_SOURCES.filter((source) => !source.archived)

@@ -4,6 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'The bard’s new song',
   location: refs.locations.skynet_s_second_best_inn,
+  illustrations: ['/assets/scenes/the-bard-s-new-song.png'],
   npcs: [refs.npcs.tobin_reedwhistle],
   setup: [
     [

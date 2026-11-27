@@ -4,6 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Light walks Auren through Fajanet',
   location: refs.locations.fajanet,
+  illustrations: ['/assets/scenes/light-walks-auren-through-fajanet-night.png'],
   alternateLocations: [
     refs.locations.rare_animal_dealer_s_premises,
     refs.locations.fajanet_guildhall,

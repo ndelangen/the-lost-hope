@@ -4,6 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Questions for Light',
   location: refs.locations.fajanet_guildhall,
+  illustrations: ['/assets/scenes/questions-for-light.png'],
   npcs: [refs.npcs.light_13th_marshal],
   setup: [
     [

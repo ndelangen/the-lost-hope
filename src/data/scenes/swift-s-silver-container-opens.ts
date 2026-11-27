@@ -4,6 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Swift’s silver container opens',
   location: refs.locations.rustmoor,
+  illustrations: ['/assets/scenes/swift-s-silver-container-opens.png'],
   setup: [
     [
       'It is full moon when the party arrives in ',

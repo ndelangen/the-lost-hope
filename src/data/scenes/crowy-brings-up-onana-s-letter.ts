@@ -4,6 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Crowy brings up Onana’s letter',
   location: refs.locations.little_purple_decks,
+  illustrations: ['/assets/scenes/crowy-brings-up-onana-s-letter.png'],
   alternateLocations: [refs.locations.ride_the_lightning_main_deck],
   npcs: [refs.npcs.crowy],
   setup: [

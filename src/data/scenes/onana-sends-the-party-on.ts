@@ -4,6 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Onana sends the party on',
   location: refs.locations.master_of_puppets_commanders_office,
+  illustrations: ['/assets/scenes/onana-sends-the-party-on.png'],
   npcs: [refs.npcs.onana_tempest],
   setup: [
     [

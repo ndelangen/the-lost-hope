@@ -4,6 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Bob returns Cassian’s ring',
   location: refs.locations.rustmoor,
+  illustrations: ['/assets/scenes/bob-returns-cassian-s-ring.png'],
   alternateLocations: [refs.locations.bob_s_stall],
   setup: [
     [
