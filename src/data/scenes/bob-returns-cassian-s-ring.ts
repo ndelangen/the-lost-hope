@@ -9,9 +9,9 @@ export default createScene({
   setup: [
     [
       refs.npcs.bob_the_merchant,
-      ' has set up his stall in ',
+      ' is setting up his stall in ',
       refs.locations.rustmoor,
-      ' and is buying scavenged parts. The party meets him on the day they arrive, before nightfall: that night is the full moon, which is why his quest is for this evening.',
+      ' just as the party arrives, in the evening. It is clear that tonight will be a full moon, which is why his quest is for this evening.',
     ],
     [
       'The point of the scene is to end ',
@@ -27,6 +27,41 @@ export default createScene({
   ],
   npcs: [refs.npcs.bob_the_merchant],
   beats: [
+    {
+      title: 'A familiar face',
+      lines: [
+        {
+          do: [
+            [
+              'Evening in ',
+              refs.locations.rustmoor,
+              '. The sky is clear and the moon is rising: it will be full tonight. ',
+              refs.pcs.cassian_veyl,
+              ' is getting restless.',
+            ],
+          ],
+        },
+        {
+          do: [
+            [
+              'As the party heads out, they see someone familiar setting up: ',
+              refs.npcs.bob_the_merchant,
+              '. He drags a big chest into place, unfolds a whole stall out of it, and pulls out merchandise to put on display.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              refs.npcs.bob_the_merchant,
+              ' is excited to see them. This is ',
+              refs.pcs.cassian_veyl,
+              '’s chance to get his werewolf change reversed.',
+            ],
+          ],
+        },
+      ],
+    },
     {
       title: 'Buying scrap',
       lines: [
