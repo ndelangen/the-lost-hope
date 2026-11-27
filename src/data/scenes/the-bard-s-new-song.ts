@@ -3,14 +3,16 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'The bard’s new song',
-  location: refs.locations.skynet_s_second_best_inn,
+  location: refs.locations.rustmoor,
   illustrations: ['/assets/scenes/the-bard-s-new-song.png'],
   npcs: [refs.npcs.tobin_reedwhistle],
   setup: [
     [
-      'An evening in a tavern, any time after ',
+      'An evening in a tavern in ',
+      refs.locations.rustmoor,
+      ', any time after ',
       refs.events.n2_e217,
-      '. The inn is a stand-in: play it wherever the party sits down for a drink. ',
+      '. ',
       refs.npcs.tobin_reedwhistle,
       ' is by the hearth with a new song called “Still Alive”, written last night.',
     ],
@@ -40,7 +42,14 @@ export default createScene({
           do: [
             [
               refs.npcs.tobin_reedwhistle,
-              ' unfolds a small pipe, lights it, and smiles at the party over the bowl.',
+              ' unfolds a small pipe, lights it, and smiles at the party over the bowl. Something in the bowl glitters silver, and the smoke smells sweet and faintly of metal.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'He is smoking Arcane Dust. Do not name it or point it out: it is up to the players to pay attention.',
             ],
           ],
         },
