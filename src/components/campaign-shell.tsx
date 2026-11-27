@@ -140,7 +140,10 @@ export function CampaignShell({ initialPreferences }: { initialPreferences: UiPr
         onDismissNavigation={closeDrawer}
       >
         <DmModeContext value={dmMode}>
-          <Outlet />
+          {/* Room below the page so its last lines can scroll clear of the player-screen dock. */}
+          <div className={PlayerScreenDock ? 'pb-24' : undefined}>
+            <Outlet />
+          </div>
         </DmModeContext>
         {PlayerScreenDock ? (
           <Suspense fallback={null}>
