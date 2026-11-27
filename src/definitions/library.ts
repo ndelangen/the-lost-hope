@@ -191,6 +191,8 @@ export const ITEM_RARITIES = [
   'legendary',
   'artifact',
   'varies',
+  // The book prints no rarity, as for some adventure treasures.
+  'unknown',
 ] as const
 
 const itemEffectSchemas = statusEffectSchemas(

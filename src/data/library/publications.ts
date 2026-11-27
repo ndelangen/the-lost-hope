@@ -385,6 +385,11 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: "D&D - 5th Edition (2014)/Rules/Dungeon Master's Guide.pdf",
   },
+  dungeon_master_s_guide_2024: {
+    name: "Dungeon Master's Guide",
+    year: 2024,
+    ruleset: '5e-2024',
+  },
   dungeons_of_drakkenheim: {
     name: 'Dungeons of Drakkenheim',
     ruleset: '5e-2014',
