@@ -7,6 +7,7 @@ import { buildSceneScript, currentBeat, parseScriptProgress, setBeatStatus } fro
 const beat = (title: string, extra: Partial<SceneBeat> = {}): SceneBeat => ({
   title,
   lines: [{ do: [[title]] }],
+  illustrations: [],
   outcomes: [],
   ...extra,
 })
@@ -56,5 +57,15 @@ describe('progress through a script', () => {
     expect(parseScriptProgress(raw, 3)).toEqual({ 1: 'done', 2: 'skipped' })
     expect(parseScriptProgress('not json', 3)).toEqual({})
     expect(parseScriptProgress(null, 3)).toEqual({})
+  })
+})
+
+describe('beat pictures', () => {
+  it('places each picture by its position in the scene illustrations', () => {
+    const [first] = buildSceneScript(
+      [beat('Arrival', { illustrations: ['/b.png'] })],
+      ['/a.png', '/b.png'],
+    )
+    expect(first?.pictures).toEqual([{ src: '/b.png', index: 1 }])
   })
 })

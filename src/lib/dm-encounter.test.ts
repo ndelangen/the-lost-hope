@@ -18,6 +18,7 @@ const captive = { ref: 'npc', key: 'no-such-captive' } as const
 const beat = (title: string, extra: Partial<SceneBeat> = {}): SceneBeat => ({
   title,
   lines: [{ do: [[title]] }],
+  illustrations: [],
   outcomes: [],
   ...extra,
 })

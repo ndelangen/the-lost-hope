@@ -19,10 +19,16 @@ export type ScriptBeat = {
   fight: FightLineUp | undefined
   /** The "if" branches that belong to this moment. */
   branches: SceneBranch[]
+  /** The scene's illustrations shown at this moment, each with its place in the scene's list. */
+  pictures: { src: string; index: number }[]
 }
 
 /** One beat ready to display, with its place in the script. */
-export function buildScriptBeat(beat: SceneBeat, number: number): ScriptBeat {
+export function buildScriptBeat(
+  beat: SceneBeat,
+  number: number,
+  illustrations: readonly string[] = [],
+): ScriptBeat {
   return {
     number,
     title: beat.title,
@@ -31,12 +37,16 @@ export function buildScriptBeat(beat: SceneBeat, number: number): ScriptBeat {
     groupSave: beat.groupSave ? resolveGroupSave(beat.groupSave) : undefined,
     fight: beat.fight ? fightLineUp(beat.fight) : undefined,
     branches: buildSceneBranches(beat.outcomes, `${number}.`),
+    pictures: beat.illustrations.map((src) => ({ src, index: illustrations.indexOf(src) })),
   }
 }
 
-/** Number a scene's beats and prepare each one's branches. */
-export function buildSceneScript(beats: SceneBeat[]): ScriptBeat[] {
-  return beats.map((beat, index) => buildScriptBeat(beat, index + 1))
+/** Number a scene's beats and prepare each one's branches and pictures. */
+export function buildSceneScript(
+  beats: SceneBeat[],
+  illustrations: readonly string[] = [],
+): ScriptBeat[] {
+  return beats.map((beat, index) => buildScriptBeat(beat, index + 1, illustrations))
 }
 
 /** What became of a beat at the table. A beat without a status is still to play. */

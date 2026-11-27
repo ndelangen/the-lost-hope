@@ -152,47 +152,66 @@ export const SceneBeat = z.strictObject({
   lines: z.array(SceneLine).min(1),
   groupSave: SceneGroupSave.optional().describe('A save everyone listed makes during this beat'),
   fight: SceneBeatFight.optional().describe('Who joins the fight when this beat is played'),
+  illustrations: z
+    .array(MediaUrl)
+    .default([])
+    .describe(
+      "Which of the scene's illustrations to show at this moment, in order; each is also listed in the scene's `illustrations`",
+    ),
   outcomes: z.array(SceneOutcome).default([]),
 })
 
 export type SceneBeat = z.infer<typeof SceneBeat>
 
 export const Scene = deriveSlug(
-  z.strictObject({
-    name: z.string().trim().min(1),
-    location: entityRefOf('location'),
-    alternateLocations: z.array(entityRefOf('location')).default([]),
-    battleMaps: z.array(entityRefOf('location')).default([]),
-    illustrations: z.array(MediaUrl).default([]),
-    setup: DmContent.describe('The situation the scene opens on, in a paragraph or two'),
-    beats: z
-      .array(SceneBeat)
-      .refine(
-        (beats) => {
-          const titles = beats.filter((beat) => beat.fight).map((beat) => beat.title)
-          return new Set(titles).size === titles.length
-        },
-        {
-          message:
-            'Beats that bring a fight need different titles: the encounter tells them apart by title',
-        },
-      )
-      .default([])
-      .describe('The script: the moments of the scene in the order they are played'),
-    npcs: z.array(entityRefOf('npc')).default([]),
-    outcomes: z
-      .array(SceneOutcome)
-      .default([])
-      .describe('Branches that can happen at any moment of the scene'),
-    opponents: z
-      .array(SceneOpponent)
-      .default([])
-      .describe(
-        'The starting roster of the encounter run from this scene. Whoever joins later belongs to the `fight` of a beat',
-      ),
-    combat: SceneCombatNotes.optional(),
-    aboard: entityRefOf('item').optional().describe('The vessel the scene is fought aboard'),
-  }),
+  z
+    .strictObject({
+      name: z.string().trim().min(1),
+      location: entityRefOf('location'),
+      alternateLocations: z.array(entityRefOf('location')).default([]),
+      battleMaps: z.array(entityRefOf('location')).default([]),
+      illustrations: z.array(MediaUrl).default([]),
+      setup: DmContent.describe('The situation the scene opens on, in a paragraph or two'),
+      beats: z
+        .array(SceneBeat)
+        .refine(
+          (beats) => {
+            const titles = beats.filter((beat) => beat.fight).map((beat) => beat.title)
+            return new Set(titles).size === titles.length
+          },
+          {
+            message:
+              'Beats that bring a fight need different titles: the encounter tells them apart by title',
+          },
+        )
+        .default([])
+        .describe('The script: the moments of the scene in the order they are played'),
+      npcs: z.array(entityRefOf('npc')).default([]),
+      outcomes: z
+        .array(SceneOutcome)
+        .default([])
+        .describe('Branches that can happen at any moment of the scene'),
+      opponents: z
+        .array(SceneOpponent)
+        .default([])
+        .describe(
+          'The starting roster of the encounter run from this scene. Whoever joins later belongs to the `fight` of a beat',
+        ),
+      combat: SceneCombatNotes.optional(),
+      aboard: entityRefOf('item').optional().describe('The vessel the scene is fought aboard'),
+    })
+    .superRefine((scene, context) => {
+      scene.beats.forEach((beat, index) => {
+        beat.illustrations.forEach((src, picture) => {
+          if (!scene.illustrations.includes(src))
+            context.addIssue({
+              code: 'custom',
+              path: ['beats', index, 'illustrations', picture],
+              message: "A beat shows only pictures listed in the scene's illustrations",
+            })
+        })
+      })
+    }),
 )
 
 export const create = makeCreate(Scene)

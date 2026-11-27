@@ -90,7 +90,7 @@ function NowRoute() {
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [])
 
-  const script = scene ? buildSceneScript(scene.beats) : []
+  const script = scene ? buildSceneScript(scene.beats, scene.illustrations) : []
   const sceneImage: PlayerScreenImage | undefined = sceneKey
     ? { image: 'illustration', ref: { ref: 'scene', key: sceneKey }, index: 0 }
     : undefined

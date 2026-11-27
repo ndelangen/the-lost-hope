@@ -13,6 +13,7 @@ import { useEffect, useRef, useState } from 'react'
 import { ContentRenderer } from '#/components/content-renderer'
 import { FightLineUp } from '#/components/dm/fight-line-up'
 import { SceneBranches } from '#/components/dm/scene-branches'
+import { ImageViewer } from '#/components/image-viewer'
 import type { SceneLine } from '#/definitions/scene'
 import { groupSaveStorageKey } from '#/lib/group-save'
 import type { PlayerScreenImage } from '#/lib/player-screen-state'
@@ -106,6 +107,7 @@ export function SceneScript({
                       />
                     ) : null
                   }
+                  pictures={<BeatPictures sceneKey={sceneKey} beat={beat} />}
                   onDone={() => finish(beat.number, 'done')}
                   onSkip={() => finish(beat.number, 'skipped')}
                 />
@@ -141,6 +143,7 @@ function OpenBeat({
   current,
   compact,
   groupSave,
+  pictures,
   onDone,
   onSkip,
 }: {
@@ -149,6 +152,8 @@ function OpenBeat({
   compact: boolean
   /** The tracker of the beat's group save, when it has one. */
   groupSave: React.ReactNode
+  /** The scene's pictures shown at this moment, when it has any. */
+  pictures: React.ReactNode
   onDone: () => void
   onSkip: () => void
 }) {
@@ -180,6 +185,8 @@ function OpenBeat({
         ) : null}
       </header>
 
+      {pictures}
+
       <BeatBody beat={beat} groupSave={groupSave} />
 
       <footer className="flex flex-wrap gap-3">
@@ -201,6 +208,33 @@ function OpenBeat({
         ) : null}
       </footer>
     </article>
+  )
+}
+
+/** The scene's pictures a beat shows, each one ready to put on the player screen. */
+function BeatPictures({ sceneKey, beat }: { sceneKey: string; beat: ScriptBeat }) {
+  if (beat.pictures.length === 0) return null
+  return (
+    <div className={cn('grid gap-3', beat.pictures.length > 1 && 'sm:grid-cols-2')}>
+      {beat.pictures.map(({ src, index }) => (
+        <ImageViewer
+          key={src}
+          src={src}
+          alt={beat.title}
+          title={beat.title}
+          eyebrow="Scene illustration"
+          accessibleLabel={`illustration of ${beat.title}`}
+          previewSizes={
+            beat.pictures.length > 1
+              ? '(min-width: 640px) 400px, calc(100vw - 4rem)'
+              : '(min-width: 1024px) 800px, calc(100vw - 4rem)'
+          }
+          previewMaxWidth={960}
+          className="aspect-[3/2] w-full overflow-hidden rounded-lg"
+          playerScreen={{ image: 'illustration', ref: { ref: 'scene', key: sceneKey }, index }}
+        />
+      ))}
+    </div>
   )
 }
 

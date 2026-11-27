@@ -46,6 +46,7 @@ export default createScene({
   beats: [
     {
       title: 'Strange ships below',
+      illustrations: ['/assets/scenes/a-fleet-on-an-empty-sea.png'],
       lines: [
         {
           do: [
@@ -153,6 +154,7 @@ export default createScene({
     },
     {
       title: 'Alongside the fleet',
+      illustrations: ['/assets/scenes/a-fleet-on-an-empty-sea-subship.png'],
       lines: [
         {
           speaker: refs.npcs.caves_of_steel_fisher,
@@ -250,6 +252,11 @@ export default createScene({
     },
     {
       title: 'Welcomed like royalty',
+      illustrations: [
+        '/assets/locations/the-caves-of-steel-illustration.png',
+        '/assets/locations/the-abyss-illustration.png',
+        '/assets/locations/the-grand-hall-illustration.png',
+      ],
       onlyIf: [['The party goes down with the fleet.']],
       lines: [
         {
@@ -351,6 +358,10 @@ export default createScene({
     },
     {
       title: 'On the stage',
+      illustrations: [
+        '/assets/scenes/a-fleet-on-an-empty-sea-devan-on-stage.png',
+        '/assets/scenes/a-fleet-on-an-empty-sea-pearls.png',
+      ],
       onlyIf: [['The party goes down with the fleet.']],
       lines: [
         {

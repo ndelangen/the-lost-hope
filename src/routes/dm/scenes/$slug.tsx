@@ -54,7 +54,7 @@ function SceneRoute() {
   })
   const hasSecret = (item: EntityRef<'item'>) =>
     Object.hasOwn(itemRecords, item.key) && itemRecords[item.key]?.background !== undefined
-  const script = buildSceneScript(scene.beats)
+  const script = buildSceneScript(scene.beats, scene.illustrations)
   const branches = buildSceneBranches(scene.outcomes)
   // People and secret items are detailed once, in their own panel; the script only links to them.
   const briefs = sceneBriefs(scene, hasSecret)
