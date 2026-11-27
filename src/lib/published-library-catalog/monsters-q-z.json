@@ -989,94 +989,17 @@
       {
         "id": "printing-2988977bd26b9a352b51",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fiend",
-              "Creature tags · demon",
-              "Size · Tiny",
-              "Alignment · chaotic evil",
-              "Armor class · 13",
-              "Hit points · 7",
-              "Hit dice · 3d4",
-              "Speed · walk 40 ft.",
-              "Challenge · 1",
-              "Strength · 5",
-              "Dexterity · 17",
-              "Constitution · 10",
-              "Intelligence · 7",
-              "Wisdom · 10",
-              "Charisma · 10",
-              "Passive Perception · 10"
-            ]
+        "source": "https://5e.tools/bestiary.html#quasit%20familiar_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quasit_familiar"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Tiny fiend with challenge rating 1. Named abilities include Shapechanger, Magic Resistance, Familiar."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks"
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Shapechanger",
-              "Magic Resistance",
-              "Familiar · within 1 mile · within 10 feet"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Claw (Bite in Beast Form) · Melee attack · +4 to hit · 1d4 + 3 piercing damage · DC 10 Constitution save · 2d4 poison damage · reach 5 ft. · 1 minute · Repeat the save at the end of each turn · Poisoned",
-              "Scare (1/Day) · DC 10 Wisdom save · 1 minute · within 20 feet · Repeat the save at the end of each turn · Frightened",
-              "Invisibility · Invisible · Concentration"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Quasit"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Invisible (condition) · https://5e.tools/conditionsdiseases.html#invisible_phb",
-              "Concentration (status) · https://5e.tools/conditionsdiseases.html#concentration_phb",
-              "Quasit (creature) · https://5e.tools/bestiary.html#quasit_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#quasit%20familiar_mm"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -6187,86 +6110,17 @@
       {
         "id": "printing-00b8b4c6859ce6b80503",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · aberration",
-              "Size · Large",
-              "Alignment · chaotic neutral",
-              "Armor class · 14 · natural armor",
-              "Hit points · 93",
-              "Hit dice · 11d10 + 33",
-              "Speed · walk 30 ft.",
-              "Challenge · 5",
-              "Strength · 16",
-              "Dexterity · 12",
-              "Constitution · 16",
-              "Intelligence · 6",
-              "Wisdom · 6",
-              "Charisma · 7",
-              "Passive Perception · 11"
-            ]
+        "source": "https://5e.tools/bestiary.html#red%20slaad%20(control%20gem)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "red_slaad_control_gem"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large aberration with challenge rating 5. Named abilities include Magic Resistance, Regeneration, Control Gem."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +1"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Slaad, telepathy 60 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["acid, cold, fire, lightning, thunder"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Magic Resistance",
-              "Regeneration · 10 hit points",
-              "Control Gem · DC 20 · 4d10 psychic damage · 1 minute · Charmed · Imprisonment · Wish · Greater restoration · Medicine · Incapacitated"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Bite · Melee attack · +6 to hit · 2d4 + 3 piercing damage · reach 5 ft.",
-              "Claw · Melee attack · +6 to hit · 1d8 + 3 piercing damage · DC 14 Constitution save · reach 5 ft. · 1 round · Half speed · Slaad tadpole"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Red Slaad"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Imprisonment (spell) · https://5e.tools/spells.html#imprisonment_phb",
-              "Wish (spell) · https://5e.tools/spells.html#wish_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Medicine (skill) · https://5e.tools/skills.html#medicine_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Slaad tadpole (creature) · https://5e.tools/bestiary.html#slaad%20tadpole_mm",
-              "Red Slaad (creature) · https://5e.tools/bestiary.html#red%20slaad_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#red%20slaad%20(control%20gem)_mm"
+        }
       }
     ],
     "groups": ["Aberration"],
@@ -18994,81 +18848,17 @@
       {
         "id": "printing-faaef5e87d442a243027",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fey",
-              "Size · Medium",
-              "Alignment · chaotic neutral",
-              "Armor class · 14 · leather armor",
-              "Hit points · 31",
-              "Hit dice · 7d8",
-              "Speed · walk 40 ft.",
-              "Challenge · 1/2",
-              "Strength · 12",
-              "Dexterity · 16",
-              "Constitution · 11",
-              "Intelligence · 12",
-              "Wisdom · 10",
-              "Charisma · 14",
-              "Passive Perception · 12"
-            ]
+        "source": "https://5e.tools/bestiary.html#satyr%20piper_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "satyr_piper"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium fey with challenge rating 1/2. Listed habitats: forest. Named abilities include Magic Resistance, Panpipes, Charming Melody."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2, Performance +6, Stealth +5"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Elvish, Sylvan"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Magic Resistance",
-              "Panpipes · DC 13 Wisdom save · within 60 feet · 24 hours · Repeat the save at the end of each turn · Charmed",
-              "Charming Melody · 1 minute · Charmed",
-              "Frightening Strain · 1 minute · Frightened",
-              "Gentle Lullaby · 1 minute · Unconscious"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Ram · Melee attack · +3 to hit · 2d4 + 1 bludgeoning damage · reach 5 ft.",
-              "Shortsword · Melee attack · +5 to hit · 1d6 + 3 piercing damage · reach 5 ft.",
-              "Shortbow · Ranged attack · +5 to hit · 1d6 + 3 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Satyr"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb",
-              "Satyr (creature) · https://5e.tools/bestiary.html#satyr_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#satyr%20piper_mm"
+        }
       }
     ],
     "groups": ["Fey"],
@@ -28902,104 +28692,17 @@
       {
         "id": "printing-032bc39c576c22279db2fdb9",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 25 ft.",
-              "Passive Perception · 12",
-              "Initiative · 1",
-              "Strength · 13",
-              "Dexterity · 12",
-              "Constitution · 12",
-              "Intelligence · 10",
-              "Wisdom · 11",
-              "Charisma · 10",
-              "Creature tags · tag dwarf, prefix Shield",
-              "Alignment · lawful good"
-            ]
+        "source": "https://5e.tools/bestiary.html#shield%20dwarf%20guard_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shield_dwarf_guard"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1/8. Named abilities include Dwarven Resilience, Warhammer."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": [
-              "any one language (usually Common)",
-              "Dwarvish",
-              "any one language (usually Common), Dwarvish"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Base creature",
-            "lines": ["Guard"]
-          },
-          {
-            "title": "Applied templates",
-            "lines": ["Shield Dwarf"]
-          },
-          {
-            "title": "Traits mechanics",
-            "lines": ["Dwarven Resilience"]
-          },
-          {
-            "title": "Actions mechanics",
-            "lines": [
-              "Warhammer · melee · +3 to hit · reach 5 ft. · 1d8 + 1 bludgeoning (hit while wielding the weapon one-handed) · 1d10 + 1 bludgeoning (hit while wielding the weapon two-handed)"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Applied the named source templates to the base creature."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Dwarven Resilience"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Warhammer · Melee attack · +3 to hit · 1d8 + 1 bludgeoning damage · 1d10 + 1 bludgeoning damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Guard"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 78 · https://5e.tools/bestiary.html#shield%20dwarf%20guard_skt",
-              "Chain shirt (item) · https://5e.tools/items.html#chain%20shirt_phb",
-              "Shield (item) · https://5e.tools/items.html#shield_phb",
-              "Guard (creature) · https://5e.tools/bestiary.html#guard_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#shield%20dwarf%20guard_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -37177,92 +36880,17 @@
       {
         "id": "printing-d149c6c9f13d35e281a2",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · elemental",
-              "Size · Small",
-              "Alignment · neutral evil",
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d6 + 5",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Challenge · 1/4",
-              "Strength · 6",
-              "Dexterity · 14",
-              "Constitution · 12",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 11",
-              "Passive Perception · 12"
-            ]
+        "source": "https://5e.tools/bestiary.html#smoke%20mephit%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "smoke_mephit_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small elemental with challenge rating 1/4. Listed habitats: urban. Named abilities include Death Burst, Claws, Cinder Breath (Recharge 6)."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2, Stealth +4"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Auran, Ignan"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Death Burst · 1 minute"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Claws · Melee attack · +4 to hit · 1d4 + 2 slashing damage · reach 5 ft.",
-              "Cinder Breath (Recharge 6) · DC 10 Dexterity save · 15-foot cone · Blinded",
-              "Summon Mephits (1/Day) · 25 · 1d4 · 1 minute · within 60 feet"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting (1/Day) · Charisma · Dancing lights",
-              "At will · dancing lights"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Smoke Mephit"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Smoke Mephit (creature) · https://5e.tools/bestiary.html#smoke%20mephit_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#smoke%20mephit%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Elemental"],
@@ -44279,84 +43907,17 @@
       {
         "id": "printing-0e67a6a3bcc4d0aa9236",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · elemental",
-              "Size · Small",
-              "Alignment · neutral evil",
-              "Armor class · 10",
-              "Hit points · 21",
-              "Hit dice · 6d6",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Challenge · 1/4",
-              "Strength · 5",
-              "Dexterity · 11",
-              "Constitution · 10",
-              "Intelligence · 11",
-              "Wisdom · 10",
-              "Charisma · 12",
-              "Passive Perception · 10"
-            ]
+        "source": "https://5e.tools/bestiary.html#steam%20mephit%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "steam_mephit_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small elemental with challenge rating 1/4. Listed habitats: underwater. Named abilities include Death Burst, Claws, Steam Breath (Recharge 6)."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Aquan, Ignan"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underwater"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Death Burst · DC 10 Dexterity save · 1d8 fire damage · within 5 feet"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Claws · Melee attack · +2 to hit · 1d4 slashing damage · 1d4 fire damage · reach 5 ft.",
-              "Steam Breath (Recharge 6) · DC 10 Dexterity save · 1d8 fire damage · 15-foot cone · Half damage on a successful save",
-              "Summon Mephits (1/Day) · 25 · 1d4 · 1 minute · within 60 feet"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": ["Innate Spellcasting (1/Day) · Charisma · Blur", "At will · blur"]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Steam Mephit"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Blur (spell) · https://5e.tools/spells.html#blur_phb",
-              "Steam Mephit (creature) · https://5e.tools/bestiary.html#steam%20mephit_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#steam%20mephit%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Elemental"],
@@ -45919,87 +45480,17 @@
       {
         "id": "printing-79931bba15ffd2f22319",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · giant",
-              "Size · Huge",
-              "Alignment · neutral",
-              "Armor class · 17 · natural armor",
-              "Hit points · 126",
-              "Hit dice · 11d12 + 55",
-              "Speed · walk 40 ft.",
-              "Challenge · 7",
-              "Strength · 23",
-              "Dexterity · 15",
-              "Constitution · 20",
-              "Intelligence · 10",
-              "Wisdom · 12",
-              "Charisma · 9",
-              "Passive Perception · 14"
-            ]
+        "source": "https://5e.tools/bestiary.html#stone%20giant%20(optional%20actions)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "stone_giant_optional_actions"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge giant with challenge rating 7. Listed habitats: underdark, mountain, hill. Named abilities include Stone Camouflage, Greatclub, Rock."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dexterity +5, Constitution +8, Wisdom +4"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +12, Perception +4"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Giant"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark, mountain, hill"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Stone Camouflage · Stealth"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Greatclub · Melee attack · +9 to hit · 3d8 + 6 bludgeoning damage · reach 15 ft.",
-              "Rock · Ranged attack · +9 to hit · 4d10 + 6 bludgeoning damage · DC 17 Strength save · range 60/240 ft. · Prone",
-              "Fling · DC 17 Dexterity save · 1d6 bludgeoning damage · within 10 feet · up to 60 feet · Prone",
-              "Rolling Rock · DC 17 Dexterity save · 3d10 + 6 bludgeoning damage · 30-foot line · Prone"
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Rock Catching · DC 10 Dexterity save"]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Stone Giant"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Stealth (skill) · https://5e.tools/skills.html#stealth_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Stone Giant (creature) · https://5e.tools/bestiary.html#stone%20giant_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#stone%20giant%20(optional%20actions)_skt"
+        }
       }
     ],
     "groups": ["Giant"],
@@ -47261,101 +46752,17 @@
       {
         "id": "printing-92b24caec54c33a9b599",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · giant",
-              "Size · Huge",
-              "Alignment · chaotic good",
-              "Armor class · 16 · scale mail",
-              "Hit points · 230",
-              "Hit dice · 20d12 + 100",
-              "Speed · walk 50 ft., swim 50 ft.",
-              "Challenge · 13",
-              "Strength · 29",
-              "Dexterity · 14",
-              "Constitution · 20",
-              "Intelligence · 16",
-              "Wisdom · 18",
-              "Charisma · 18",
-              "Passive Perception · 19"
-            ]
+        "source": "https://5e.tools/bestiary.html#storm%20giant%20(optional%20actions)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "storm_giant_optional_actions"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge giant with challenge rating 13. Listed habitats: coastal, underwater. Named abilities include Amphibious, Greatsword, Rock."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Strength +14, Constitution +10, Wisdom +9, Charisma +9"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +8, Athletics +14, History +8, Perception +9"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Giant"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["cold"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["lightning, thunder"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal, underwater"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Amphibious"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Greatsword · Melee attack · +14 to hit · 6d6 + 9 slashing damage · reach 10 ft.",
-              "Rock · Ranged attack · +14 to hit · 4d12 + 9 bludgeoning damage · range 60/240 ft.",
-              "Lightning Strike (Recharge 5–6) · DC 17 Dexterity save · 12d8 lightning damage · within 500 feet · within 10 feet · Half damage on a successful save",
-              "Thunderous Stomp (Recharge 6) · DC 17 Constitution save · 6d10 thunder damage · within 15 feet · Deafened"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · DC 17 · Detect magic · Feather fall · Levitate · Light · Control weather · Water breathing",
-              "At will · detect magic, feather fall, levitate, light",
-              "3/day each · control weather, water breathing"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Storm Giant"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Scale mail (item) · https://5e.tools/items.html#scale%20mail_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Feather fall (spell) · https://5e.tools/spells.html#feather%20fall_phb",
-              "Levitate (spell) · https://5e.tools/spells.html#levitate_phb",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Control weather (spell) · https://5e.tools/spells.html#control%20weather_phb",
-              "Water breathing (spell) · https://5e.tools/spells.html#water%20breathing_phb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Storm Giant (creature) · https://5e.tools/bestiary.html#storm%20giant_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#storm%20giant%20(optional%20actions)_skt"
+        }
       }
     ],
     "groups": ["Giant"],
@@ -65644,86 +65051,17 @@
       {
         "id": "printing-2d3a641f4a99a1c25ead",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · giant",
-              "Size · Large",
-              "Alignment · chaotic evil",
-              "Armor class · 15 · natural armor",
-              "Hit points · 84",
-              "Hit dice · 8d10 + 40",
-              "Speed · walk 30 ft.",
-              "Challenge · 5",
-              "Strength · 18",
-              "Dexterity · 13",
-              "Constitution · 20",
-              "Intelligence · 7",
-              "Wisdom · 9",
-              "Charisma · 7",
-              "Passive Perception · 12"
-            ]
+        "source": "https://5e.tools/bestiary.html#troll%20(loathsome%20limbs)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "troll_loathsome_limbs"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large giant with challenge rating 5. Listed habitats: underdark, mountain, forest, swamp, hill, arctic. Named abilities include Keen Smell, Regeneration, Loathsome Limbs."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Giant"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark, mountain, forest, swamp, hill, arctic"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Keen Smell · Perception",
-              "Regeneration · 10 hit points · 0 hit points",
-              "Loathsome Limbs · d20 · 15 slashing damage · 10 hit points · Half speed · Blinded · Prone",
-              "1–10:",
-              "11–14:",
-              "15–18:",
-              "19–20:"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Bite · Melee attack · +7 to hit · 1d6 + 4 piercing damage · reach 5 ft.",
-              "Claw · Melee attack · +7 to hit · 2d6 + 4 slashing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Troll"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Troll (creature) · https://5e.tools/bestiary.html#troll_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#troll%20(loathsome%20limbs)_mm"
+        }
       }
     ],
     "groups": ["Giant"],
@@ -69156,114 +68494,17 @@
       {
         "id": "printing-b2c914875bafa563889e",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fiend",
-              "Creature tags · yugoloth",
-              "Size · Medium",
-              "Alignment · neutral evil",
-              "Armor class · 19 · natural armor",
-              "Hit points · 153",
-              "Hit dice · 18d8 + 72",
-              "Speed · walk 30 ft., fly 60 ft.",
-              "Challenge · 13",
-              "Strength · 16",
-              "Dexterity · 16",
-              "Constitution · 18",
-              "Intelligence · 18",
-              "Wisdom · 15",
-              "Charisma · 19",
-              "Passive Perception · 17"
-            ]
+        "source": "https://5e.tools/bestiary.html#ultroloth%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ultroloth_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium fiend with challenge rating 13. Named abilities include Magic Resistance, Magic Weapons, Longsword."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Intimidation +9, Perception +7, Stealth +8"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Infernal, telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks"
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["acid, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["charmed, frightened, poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Magic Resistance", "Magic Weapons"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Longsword · Melee attack · +8 to hit · 1d8 + 3 slashing damage · 1d10 + 3 slashing damage · reach 5 ft.",
-              "Hypnotic Gaze · DC 17 Wisdom save · 24 hours · within 30 feet · Charmed · Stunned",
-              "Teleport · up to 60 feet",
-              "Summon Yugoloth (1/Day) · 50 · 1d6 · 1d4 · 1 minute · within 60 feet · Mezzoloth · Nycaloth"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · DC 17 · Alter self · Clairvoyance · Darkness · Detect magic · Detect thoughts · Dispel magic · Invisibility · Suggestion · Dimension door · Fear · Wall of fire · Fire storm · Mass suggestion",
-              "At will · alter self, clairvoyance, darkness, detect magic, detect thoughts, dispel magic, invisibility (self only), suggestion",
-              "3/day each · dimension door, fear, wall of fire",
-              "1/day each · fire storm, mass suggestion"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Ultroloth"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Alter self (spell) · https://5e.tools/spells.html#alter%20self_phb",
-              "Clairvoyance (spell) · https://5e.tools/spells.html#clairvoyance_phb",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Dispel magic (spell) · https://5e.tools/spells.html#dispel%20magic_phb",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Suggestion (spell) · https://5e.tools/spells.html#suggestion_phb",
-              "Dimension door (spell) · https://5e.tools/spells.html#dimension%20door_phb",
-              "Fear (spell) · https://5e.tools/spells.html#fear_phb",
-              "Wall of fire (spell) · https://5e.tools/spells.html#wall%20of%20fire_phb",
-              "Fire storm (spell) · https://5e.tools/spells.html#fire%20storm_phb",
-              "Mass suggestion (spell) · https://5e.tools/spells.html#mass%20suggestion_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Stunned (condition) · https://5e.tools/conditionsdiseases.html#stunned_phb",
-              "Mezzoloth (creature) · https://5e.tools/bestiary.html#mezzoloth_mm",
-              "Nycaloth (creature) · https://5e.tools/bestiary.html#nycaloth_mm",
-              "Ultroloth (creature) · https://5e.tools/bestiary.html#ultroloth_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ultroloth%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -72158,87 +71399,17 @@
       {
         "id": "printing-4ee4a9f4d64edb446a9e03bd",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 31",
-              "Hit dice · 7d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 16",
-              "Strength · 10",
-              "Dexterity · 15",
-              "Constitution · 11",
-              "Intelligence · 13",
-              "Wisdom · 15",
-              "Charisma · 14",
-              "Creature tags · human, shapechanger",
-              "Alignment · lawful good"
-            ]
+        "source": "https://5e.tools/bestiary.html#urwin%20martikov_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "urwin_martikov"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Shapechanger, Mimicry, Regeneration."
-            ]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["walk · (fly 50 ft. in raven and hybrid forms)"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Shortsword (Human or Hybrid Form Only) · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing",
-              "Hand Crossbow (Human or Hybrid Form Only) · ranged · +4 to hit · range 30/120 ft. · 1d6 + 2 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Insight +4, Perception +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (can't speak in raven form)"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Shapechanger",
-              "Mimicry · DC 10 · Insight",
-              "Regeneration · 10 hit points · 0 hit points"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack (Human or Hybrid Form Only)",
-              "Beak (Raven or Hybrid Form Only) · Melee attack · +4 to hit · 1d4 + 2 piercing damage · DC 10 Constitution save · 1 piercing damage · reach 5 ft. · Player Characters as Lycanthropes",
-              "Shortsword (Human or Hybrid Form Only) · Melee attack · +4 to hit · 1d6 + 2 piercing damage · reach 5 ft.",
-              "Hand Crossbow (Human or Hybrid Form Only) · Ranged attack · +4 to hit · 1d6 + 2 piercing damage · range 30/120 ft."
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Wereraven"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 98 · https://5e.tools/bestiary.html#urwin%20martikov_cos",
-              "Insight (skill) · https://5e.tools/skills.html#insight_phb",
-              "Player Characters as Lycanthropes (rule) · https://5e.tools/variantrules.html#player%20characters%20as%20lycanthropes_mm",
-              "Wereraven (creature) · https://5e.tools/bestiary.html#wereraven_vrgr"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#urwin%20martikov_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -72328,92 +71499,17 @@
       {
         "id": "printing-5bac97940cd45b78af122bde",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(black%20lion)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_black_lion"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Chill touch · Feign death · Revivify",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, chill touch, feign death, revivify"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(black%20lion)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Chill touch (spell) · https://5e.tools/spells.html#chill%20touch_phb",
-              "Feign death (spell) · https://5e.tools/spells.html#feign%20death_phb",
-              "Revivify (spell) · https://5e.tools/spells.html#revivify_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(black%20lion)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -72428,91 +71524,17 @@
       {
         "id": "printing-d433e9bc1df0ec4e827b7391",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(black%20raven)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_black_raven"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Animal messenger · Polymorph",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, animal messenger (raven only), polymorph (self only; into a raven only)"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(black%20raven)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Animal messenger (spell) · https://5e.tools/spells.html#animal%20messenger_phb",
-              "Polymorph (spell) · https://5e.tools/spells.html#polymorph_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(black%20raven)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -72527,91 +71549,17 @@
       {
         "id": "printing-0a657f801252e4f6dd7a657a",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(blue%20bear)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_blue_bear"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Enhance ability · Heroism",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, enhance ability (bear's endurance only), heroism"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(blue%20bear)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Enhance ability (spell) · https://5e.tools/spells.html#enhance%20ability_phb",
-              "Heroism (spell) · https://5e.tools/spells.html#heroism_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(blue%20bear)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -72626,91 +71574,17 @@
       {
         "id": "printing-d03acabe3d8f6ecf5959b5da",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(elk)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_elk"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Find steed · Haste",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, find steed (cast as 1 action; elk only), haste"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(elk)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Find steed (spell) · https://5e.tools/spells.html#find%20steed_phb",
-              "Haste (spell) · https://5e.tools/spells.html#haste_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(elk)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -72725,92 +71599,17 @@
       {
         "id": "printing-c150e2a7b9a76ce8c5b700c3",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(gray%20wolf)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_gray_wolf"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Beast sense · Moonbeam · Speak with animals",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, beast sense (wolf or dire wolf only), moonbeam, speak with animals (wolf or dire wolf only)"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(gray%20wolf)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Beast sense (spell) · https://5e.tools/spells.html#beast%20sense_phb",
-              "Moonbeam (spell) · https://5e.tools/spells.html#moonbeam_phb",
-              "Speak with animals (spell) · https://5e.tools/spells.html#speak%20with%20animals_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(gray%20wolf)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -72825,91 +71624,17 @@
       {
         "id": "printing-3eafa1b71cc26403fb62db69",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(great%20worm)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_great_worm"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Crusader's mantle · Hypnotic pattern",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, crusader's mantle, hypnotic pattern"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(great%20worm)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Crusader's mantle (spell) · https://5e.tools/spells.html#crusader's%20mantle_phb",
-              "Hypnotic pattern (spell) · https://5e.tools/spells.html#hypnotic%20pattern_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(great%20worm)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -72924,91 +71649,17 @@
       {
         "id": "printing-da72fa38b986d3583c61d2d7",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(griffon)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_griffon"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Beast sense · Fly",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, beast sense (birds only), fly"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(griffon)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Beast sense (spell) · https://5e.tools/spells.html#beast%20sense_phb",
-              "Fly (spell) · https://5e.tools/spells.html#fly_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(griffon)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -73023,91 +71674,17 @@
       {
         "id": "printing-9384bc6963900569e4ea0852",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(red%20tiger)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_red_tiger"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Enhance ability · Jump",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, enhance ability (cat's grace only), jump"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(red%20tiger)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Enhance ability (spell) · https://5e.tools/spells.html#enhance%20ability_phb",
-              "Jump (spell) · https://5e.tools/spells.html#jump_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(red%20tiger)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -73122,91 +71699,17 @@
       {
         "id": "printing-7281258e5188e5ecc96c93b3",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(sky%20pony)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_sky_pony"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Gust of wind · Witch bolt",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, gust of wind, witch bolt"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(sky%20pony)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Gust of wind (spell) · https://5e.tools/spells.html#gust%20of%20wind_phb",
-              "Witch bolt (spell) · https://5e.tools/spells.html#witch%20bolt_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(sky%20pony)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -73221,91 +71724,17 @@
       {
         "id": "printing-adcbce90b661a629fd6865ee",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(thunderbeast)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_thunderbeast"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Enhance ability · Pass without trace",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, enhance ability (bull's strength only), pass without trace"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(thunderbeast)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Enhance ability (spell) · https://5e.tools/spells.html#enhance%20ability_phb",
-              "Pass without trace (spell) · https://5e.tools/spells.html#pass%20without%20trace_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(thunderbeast)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -73320,91 +71749,17 @@
       {
         "id": "printing-b266dd27eff5b8ef202d67e3",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 38",
-              "Hit dice · 7d8 + 7",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 15",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(tree%20ghost)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uthgardt_shaman_tree_ghost"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Spear, Shortbow, Spellcasting (Requires a Sacred Bundle)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Source variant of Uthgardt Shaman. Check the variant rules for changes to actions and traits."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Medicine +4, Nature +4, Perception +4, Survival +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Bothii, Common"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Spear · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Shortbow · Ranged attack · +3 to hit · 1d6 + 1 piercing damage · range 80/320 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting (Requires a Sacred Bundle) · Wisdom · DC 12 · +4 to hit · Dancing lights · Mage hand · Message · Thaumaturgy · Augury · Bestow curse · Cordon of arrows · Detect magic · Speak with dead · Spirit guardians · Barkskin · Speak with plants",
-              "At will · dancing lights, mage hand, message, thaumaturgy",
-              "1/day each · augury (cast as 1 action), bestow curse, cordon of arrows, detect magic, speak with dead, spirit guardians, barkskin, speak with plants"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Uthgardt Shaman"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 243 · https://5e.tools/bestiary.html#uthgardt%20shaman%20(tree%20ghost)_skt",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Bestow curse (spell) · https://5e.tools/spells.html#bestow%20curse_phb",
-              "Cordon of arrows (spell) · https://5e.tools/spells.html#cordon%20of%20arrows_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb",
-              "Barkskin (spell) · https://5e.tools/spells.html#barkskin_phb",
-              "Speak with plants (spell) · https://5e.tools/spells.html#speak%20with%20plants_phb",
-              "Uthgardt Shaman (creature) · https://5e.tools/bestiary.html#uthgardt%20shaman_skt"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#uthgardt%20shaman%20(tree%20ghost)_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -96949,112 +95304,17 @@
       {
         "id": "printing-d6c0f9e53d84b35a53a34528",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 49",
-              "Hit dice · 11d6 + 11",
-              "Challenge · 3",
-              "Size · Small",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 7",
-              "Strength · 9",
-              "Dexterity · 14",
-              "Constitution · 12",
-              "Intelligence · 18",
-              "Wisdom · 5",
-              "Charisma · 14",
-              "Creature tags · derro",
-              "Alignment · neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#y_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "y"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small humanoid with challenge rating 3. Named abilities include Insanity, Magic Resistance, Sunlight Sensitivity."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Hooked Shortspear · melee · +2 to hit · reach 5 ft. · 1d4 - 1 piercing",
-              "Light Repeating Crossbow · ranged · +4 to hit · range 40/160 ft. · 1d8 + 2 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +4"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Dwarvish, Undercommon, Elvish"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Insanity · Charmed · Frightened",
-              "Magic Resistance",
-              "Sunlight Sensitivity · Perception"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Hooked Shortspear · Melee attack · +2 to hit · 1d4 - 1 piercing damage · DC 9 Strength save · reach 5 ft. · Prone",
-              "Light Repeating Crossbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage · range 40/160 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Charisma · DC 12 · +4 to hit · Acid splash · Mage hand · Message · Ray of frost · Burning hands · Chromatic orb · Sleep · Invisibility · Spider climb · Blink · Lightning bolt",
-              "Cantrips · acid splash, mage hand, message, ray of frost",
-              "Level 1 (4 slots) · burning hands, chromatic orb, sleep",
-              "Level 2 (3 slots) · invisibility, spider climb",
-              "Level 3 (2 slots) · blink, lightning bolt",
-              "Innate Spellcasting · within 30 feet · Teleport",
-              "1/day each · teleport"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Derro Savant"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 29 · https://5e.tools/bestiary.html#y_oota",
-              "Acid splash (spell) · https://5e.tools/spells.html#acid%20splash_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Ray of frost (spell) · https://5e.tools/spells.html#ray%20of%20frost_phb",
-              "Burning hands (spell) · https://5e.tools/spells.html#burning%20hands_phb",
-              "Chromatic orb (spell) · https://5e.tools/spells.html#chromatic%20orb_phb",
-              "Sleep (spell) · https://5e.tools/spells.html#sleep_phb",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Spider climb (spell) · https://5e.tools/spells.html#spider%20climb_phb",
-              "Blink (spell) · https://5e.tools/spells.html#blink_phb",
-              "Lightning bolt (spell) · https://5e.tools/spells.html#lightning%20bolt_phb",
-              "Teleport (spell) · https://5e.tools/spells.html#teleport_phb",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Derro Savant (creature) · https://5e.tools/bestiary.html#derro%20savant_oota"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#y_oota"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -98523,104 +96783,17 @@
       {
         "id": "printing-11946ea9871fec890168",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fiend",
-              "Creature tags · demon, shapechanger",
-              "Size · Medium",
-              "Alignment · chaotic evil",
-              "Armor class · 15 · natural armor",
-              "Hit points · 136",
-              "Hit dice · 16d8 + 64",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Challenge · 10",
-              "Strength · 15",
-              "Dexterity · 14",
-              "Constitution · 18",
-              "Intelligence · 13",
-              "Wisdom · 15",
-              "Charisma · 15",
-              "Passive Perception · 12"
-            ]
+        "source": "https://5e.tools/bestiary.html#yochlol%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yochlol_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium fiend with challenge rating 10. Named abilities include Shapechanger, Magic Resistance, Spider Climb."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dexterity +6, Intelligence +5, Wisdom +6, Charisma +6"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +10, Insight +6"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Elvish, Undercommon"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks"
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Shapechanger", "Magic Resistance", "Spider Climb", "Web Walker"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Slam (Bite in Spider Form) · Melee attack · +6 to hit · 1d6 + 2 · 6d6 poison damage · reach 5 ft.",
-              "Mist Form · DC 14 Constitution save · start of its next turn · Incapacitated · Poisoned",
-              "Summon Demon (1/Day) · 50 · 1 minute · within 60 feet"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · DC 14 · Detect thoughts · Web · Dominate person",
-              "At will · detect thoughts, web",
-              "1/day · dominate person"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Yochlol"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Web (spell) · https://5e.tools/spells.html#web_phb",
-              "Dominate person (spell) · https://5e.tools/spells.html#dominate%20person_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Yochlol (creature) · https://5e.tools/bestiary.html#yochlol_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yochlol%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -102471,78 +100644,18 @@
       {
         "id": "printing-af5d696720ab825ca4d59536",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 11",
-              "Initiative · 2",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Desert", "Forest", "Swamp"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A humanoid body with a snake’s head."]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +5 to hit · reach 5 ft. · 1d4 + 3 piercing plus 2d6 poison",
-              "Scimitar (Yuan-ti Form) · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing",
-              "Longbow (Yuan-ti Form) · ranged · +4 to hit · range 150/600 ft. · 1d8 + 2 piercing plus 2d6 poison"
-            ]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "In yuan-ti form, make two ranged or two melee attacks. Use the bite at most once per Multiattack."
-            ]
-          },
-          {
-            "title": "Yuan-ti Malison Forms",
-            "lines": [
-              "Transform between yuan-ti form and a Medium snake as an action. Equipment does not transform. Only the yuan-ti form uses its innate spells.",
-              "The yuan-ti form uses animal friendship on snakes at will and suggestion three times daily, DC 13. It has advantage on saving throws against spells and other magical effects.",
-              "Use the attack list attached to the selected body type."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Yuan-ti Malison"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014) index · https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%201)_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301418-yuan-ti-malison-type-1",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/615/1000/1000/638063940602743569.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/615/1000/1000/638063940602743569.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_malison_type_1"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"],
@@ -102595,72 +100708,18 @@
       {
         "id": "printing-57e852b3eca1636bfc57d95b",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 11",
-              "Initiative · 2",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Desert", "Forest", "Swamp"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A humanoid whose arms end in snake heads instead of hands."]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +5 to hit · reach 5 ft. · 1d4 + 3 piercing plus 2d6 poison"]
-          },
-          {
-            "title": "Variant rules",
-            "lines": ["In yuan-ti form, Multiattack is two bites with its snake arms."]
-          },
-          {
-            "title": "Yuan-ti Malison Forms",
-            "lines": [
-              "Transform between yuan-ti form and a Medium snake as an action. Equipment does not transform. Only the yuan-ti form uses its innate spells.",
-              "The yuan-ti form uses animal friendship on snakes at will and suggestion three times daily, DC 13. It has advantage on saving throws against spells and other magical effects.",
-              "Use the attack list attached to the selected body type."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Yuan-ti Malison"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014) index · https://5e.tools/bestiary.html#yuan-ti%20malison%20(type%202)_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301421-yuan-ti-malison-type-2",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/624/1000/1000/638063940720763772.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/624/1000/1000/638063940720763772.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_malison_type_2"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"],
@@ -106320,119 +104379,17 @@
       {
         "id": "printing-b7b3153b0c65a84fd1f935ba",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 45",
-              "Hit dice · 10d8",
-              "Challenge · 7",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Strength · 9",
-              "Dexterity · 14",
-              "Constitution · 10",
-              "Intelligence · 17",
-              "Wisdom · 13",
-              "Charisma · 12",
-              "Creature tags · tag elf, prefix Drow",
-              "Alignment · neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#zilchyn%20q'leptin_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "zilchyn_qleptin"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 7. Named abilities include Fey Ancestry, Sunlight Sensitivity, Staff."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Alternate armor classes",
-            "lines": ["15 · with mage armor"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +6, Deception +4, Perception +4, Stealth +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Elvish, Undercommon"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Fey Ancestry · Charmed", "Sunlight Sensitivity · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Staff · Melee attack · +2 to hit · 1d6 - 1 bludgeoning damage · 1d8 - 1 bludgeoning damage · 1d6 poison damage · reach 5 ft.",
-              "Summon Demon (1/Day) · 50 · 10 minutes · within 60 feet · Quasit · Shadow demon"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · DC 12 · Dancing lights · Darkness · Faerie fire · Levitate",
-              "At will · dancing lights",
-              "1/day each · darkness, faerie fire, levitate (self only)",
-              "Spellcasting · Intelligence · DC 14 · +6 to hit · Mage hand · Minor illusion · Poison spray · Ray of frost · Mage armor · Magic missile · Shield · Witch bolt · Alter self · Misty step · Web · Fly · Lightning bolt · Evard's black tentacles · Greater invisibility · Cloudkill",
-              "Cantrips · mage hand, minor illusion, poison spray, ray of frost",
-              "Level 1 (4 slots) · mage armor, magic missile, shield, witch bolt",
-              "Level 2 (3 slots) · alter self, misty step, web",
-              "Level 3 (3 slots) · fly, lightning bolt",
-              "Level 4 (3 slots) · Evard's black tentacles, greater invisibility",
-              "Level 5 (2 slots) · cloudkill"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Drow Mage"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 137 · https://5e.tools/bestiary.html#zilchyn%20q'leptin_oota",
-              "Mage armor (spell) · https://5e.tools/spells.html#mage%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Faerie fire (spell) · https://5e.tools/spells.html#faerie%20fire_phb",
-              "Levitate (spell) · https://5e.tools/spells.html#levitate_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Minor illusion (spell) · https://5e.tools/spells.html#minor%20illusion_phb",
-              "Poison spray (spell) · https://5e.tools/spells.html#poison%20spray_phb",
-              "Ray of frost (spell) · https://5e.tools/spells.html#ray%20of%20frost_phb",
-              "Magic missile (spell) · https://5e.tools/spells.html#magic%20missile_phb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_phb",
-              "Witch bolt (spell) · https://5e.tools/spells.html#witch%20bolt_phb",
-              "Alter self (spell) · https://5e.tools/spells.html#alter%20self_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Web (spell) · https://5e.tools/spells.html#web_phb",
-              "Fly (spell) · https://5e.tools/spells.html#fly_phb",
-              "Lightning bolt (spell) · https://5e.tools/spells.html#lightning%20bolt_phb",
-              "Evard's black tentacles (spell) · https://5e.tools/spells.html#evard's%20black%20tentacles_phb",
-              "Greater invisibility (spell) · https://5e.tools/spells.html#greater%20invisibility_phb",
-              "Cloudkill (spell) · https://5e.tools/spells.html#cloudkill_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Quasit (creature) · https://5e.tools/bestiary.html#quasit_mm",
-              "Shadow demon (creature) · https://5e.tools/bestiary.html#shadow%20demon_mm",
-              "Drow Mage (creature) · https://5e.tools/bestiary.html#drow%20mage_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#zilchyn%20q'leptin_oota"
+        }
       }
     ],
     "groups": ["Humanoid"]

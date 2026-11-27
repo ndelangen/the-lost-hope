@@ -16298,87 +16298,17 @@
       {
         "id": "printing-5de976e96e7b125e5fa02ebc",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 17",
-              "Hit dice · 5d6",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Construct",
-              "Speed · walk 0 ft., fly 50 ft.",
-              "Passive Perception · 7",
-              "Strength · 12",
-              "Dexterity · 15",
-              "Constitution · 11",
-              "Intelligence · 1",
-              "Wisdom · 5",
-              "Charisma · 1",
-              "Alignment · unaligned"
-            ]
+        "source": "https://5e.tools/bestiary.html#animated%20halberd_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "animated_halberd"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small construct with challenge rating 1/4. Named abilities include Antimagic Susceptibility, False Appearance, Halberd."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +4", "Dexterity +4"]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["Can hover", "fly · (hover)"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Halberd · melee · +3 to hit · reach 5 ft. · 1d10 + 1 slashing"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 60 ft. (blind beyond this radius)"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison, psychic"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Antimagic Susceptibility · 1 minute · Incapacitated · Antimagic field · Dispel magic · Unconscious",
-              "False Appearance"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Halberd · Melee attack · +3 to hit · 1d10 + 1 slashing damage · reach 5 ft."]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Flying Sword"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 59 · https://5e.tools/bestiary.html#animated%20halberd_cos",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Antimagic field (spell) · https://5e.tools/spells.html#antimagic%20field_phb",
-              "Dispel magic (spell) · https://5e.tools/spells.html#dispel%20magic_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb",
-              "Flying Sword (creature) · https://5e.tools/bestiary.html#flying%20sword_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#animated%20halberd_cos"
+        }
       }
     ],
     "groups": ["Construct"]
@@ -20267,134 +20197,17 @@
       {
         "id": "printing-a3912afe80ffc6530b72",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fiend",
-              "Creature tags · yugoloth",
-              "Size · Medium",
-              "Alignment · neutral evil",
-              "Armor class · 17 · natural armor",
-              "Hit points · 104",
-              "Hit dice · 16d8 + 32",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Challenge · 12",
-              "Strength · 17",
-              "Dexterity · 12",
-              "Constitution · 14",
-              "Intelligence · 20",
-              "Wisdom · 16",
-              "Charisma · 17",
-              "Passive Perception · 17"
-            ]
+        "source": "https://5e.tools/bestiary.html#arcanaloth%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "arcanaloth_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium fiend with challenge rating 12. Named abilities include Magic Resistance, Magic Weapons, Claws."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dexterity +5, Intelligence +9, Wisdom +7, Charisma +7"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +13, Deception +11, Insight +11, Perception +7"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["all, telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks"
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["acid, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["charmed, poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Magic Resistance", "Magic Weapons"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Claws · Melee attack · +7 to hit · 2d4 + 3 slashing damage · DC 14 Constitution save · 3d6 poison damage · reach 5 ft. · Half damage on a successful save",
-              "Teleport · up to 60 feet",
-              "Summon Yugoloth (1/Day) · 40 · 1 minute · within 60 feet"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · DC 15 · Alter self · Darkness · Heat metal · Invisibility · Magic missile",
-              "At will · alter self, darkness, heat metal, invisibility (self only), magic missile",
-              "Spellcasting · Intelligence · DC 17 · +9 to hit · Fire bolt · Mage hand · Minor illusion · Prestidigitation · Detect magic · Identify · Shield · Tenser's floating disk · Detect thoughts · Mirror image · Phantasmal force · Suggestion · Counterspell · Fear · Fireball · Banishment · Dimension door · Contact other plane · Hold monster · Chain lightning · Finger of death · Mind blank",
-              "Cantrips · fire bolt, mage hand, minor illusion, prestidigitation",
-              "Level 1 (4 slots) · detect magic, identify, shield, Tenser's floating disk",
-              "Level 2 (3 slots) · detect thoughts, mirror image, phantasmal force, suggestion",
-              "Level 3 (3 slots) · counterspell, fear, fireball",
-              "Level 4 (3 slots) · banishment, dimension door",
-              "Level 5 (2 slots) · contact other plane, hold monster",
-              "Level 6 (1 slots) · chain lightning",
-              "Level 7 (1 slots) · finger of death",
-              "Level 8 (1 slots) · mind blank"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Arcanaloth"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Alter self (spell) · https://5e.tools/spells.html#alter%20self_phb",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Heat metal (spell) · https://5e.tools/spells.html#heat%20metal_phb",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Magic missile (spell) · https://5e.tools/spells.html#magic%20missile_phb",
-              "Fire bolt (spell) · https://5e.tools/spells.html#fire%20bolt_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Minor illusion (spell) · https://5e.tools/spells.html#minor%20illusion_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Identify (spell) · https://5e.tools/spells.html#identify_phb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_phb",
-              "Tenser's floating disk (spell) · https://5e.tools/spells.html#tenser's%20floating%20disk_phb",
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Mirror image (spell) · https://5e.tools/spells.html#mirror%20image_phb",
-              "Phantasmal force (spell) · https://5e.tools/spells.html#phantasmal%20force_phb",
-              "Suggestion (spell) · https://5e.tools/spells.html#suggestion_phb",
-              "Counterspell (spell) · https://5e.tools/spells.html#counterspell_phb",
-              "Fear (spell) · https://5e.tools/spells.html#fear_phb",
-              "Fireball (spell) · https://5e.tools/spells.html#fireball_phb",
-              "Banishment (spell) · https://5e.tools/spells.html#banishment_phb",
-              "Dimension door (spell) · https://5e.tools/spells.html#dimension%20door_phb",
-              "Contact other plane (spell) · https://5e.tools/spells.html#contact%20other%20plane_phb",
-              "Hold monster (spell) · https://5e.tools/spells.html#hold%20monster_phb",
-              "Chain lightning (spell) · https://5e.tools/spells.html#chain%20lightning_phb",
-              "Finger of death (spell) · https://5e.tools/spells.html#finger%20of%20death_phb",
-              "Mind blank (spell) · https://5e.tools/spells.html#mind%20blank_phb",
-              "Arcanaloth (creature) · https://5e.tools/bestiary.html#arcanaloth_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#arcanaloth%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -22295,130 +22108,17 @@
       {
         "id": "printing-990fd550427271b54d2661ef",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 78",
-              "Hit dice · 12d8 + 24",
-              "Challenge · 8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 13",
-              "Initiative · 3",
-              "Strength · 11",
-              "Dexterity · 16",
-              "Constitution · 14",
-              "Intelligence · 13",
-              "Wisdom · 11",
-              "Charisma · 10",
-              "Creature tags · human",
-              "Alignment · neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#arrigal_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "assassin"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 8. Named abilities include Assassinate, Evasion, Sneak Attack (1/Turn)."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6", "Int +4", "Dexterity +6, Intelligence +4"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Thieves' cant plus any two languages"]
-          },
-          {
-            "title": "Skills",
-            "lines": [
-              "Acrobatics +6",
-              "Deception +3",
-              "Perception +3",
-              "Stealth +9",
-              "Acrobatics +6, Deception +3, Perception +3, Stealth +9"
-            ]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Base creature",
-            "lines": ["Vistana Assassin"]
-          },
-          {
-            "title": "Applied templates",
-            "lines": ["Vistana"]
-          },
-          {
-            "title": "Traits mechanics",
-            "lines": [
-              "Assassinate",
-              "Evasion",
-              "Sneak Attack (1/Turn) · 1/Turn · 4d6 damage · incapacitated"
-            ]
-          },
-          {
-            "title": "Actions mechanics",
-            "lines": [
-              "Multiattack",
-              "Shortsword · melee · +6 to hit · reach 5 ft. · DC 15 Con · 1d6 + 3 piercing (hit) · 7d6 poison (hit)",
-              "Light Crossbow · ranged · +6 to hit · range 80/320 ft. · DC 15 Con · 1d8 + 3 piercing (hit) · 7d6 poison (hit)",
-              "Curse (Recharges After a Long Rest) · greater restoration · remove curse · DC 11 Wis · 1d6 psychic · 3d6 psychic · 5d6 psychic · blinded · deafened",
-              "Evil Eye (Recharges after a Short or Long Rest) · animal friendship · charm person · hold person · blinded"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Applied the named source templates to the base creature."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Assassinate · Surprised",
-              "Evasion",
-              "Sneak Attack (1/Turn) · 4d6 · within 5 feet · Incapacitated"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Shortsword · Melee attack · +6 to hit · 1d6 + 3 piercing damage · DC 15 Constitution save · 7d6 poison damage · reach 5 ft. · Half damage on a successful save",
-              "Light Crossbow · Ranged attack · +6 to hit · 1d8 + 3 piercing damage · DC 15 Constitution save · 7d6 poison damage · range 80/320 ft. · Half damage on a successful save",
-              "Curse (Recharges After a Long Rest) · DC 11 Wisdom save · within 30 feet · 1d6 psychic damage · 3d6 psychic damage · 5d6 psychic damage · Blinded · Deafened · Greater restoration · Remove curse",
-              "Evil Eye (Recharges after a Short or Long Rest) · DC 11 · within 10 feet · 24 hours · Animal friendship · Charm person · Hold person · Blinded"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Vistana Assassin"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 121 · https://5e.tools/bestiary.html#arrigal_cos",
-              "Studded leather armor (item) · https://5e.tools/items.html#studded%20leather%20armor_phb",
-              "Surprised (status) · https://5e.tools/conditionsdiseases.html#surprised_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Vistana Assassin (creature) · https://5e.tools/bestiary.html#vistana%20assassin_cos"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#arrigal_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -27302,105 +27002,17 @@
       {
         "id": "printing-975e4ae0f126de5e48930384",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 67",
-              "Hit dice · 9d8 + 27",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 25 ft.",
-              "Passive Perception · 12",
-              "Initiative · 1",
-              "Strength · 16",
-              "Dexterity · 13",
-              "Constitution · 16",
-              "Intelligence · 10",
-              "Wisdom · 11",
-              "Charisma · 10",
-              "Creature tags · tag dwarf, prefix Shield",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#axe%20of%20mirabar%20soldier_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "axe_of_mirabar_soldier"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 3. Named abilities include Dwarven Resilience, Battleaxe, Handaxe."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common", "Dwarvish", "Common, Dwarvish"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +5", "Perception +2", "Athletics +5, Perception +2"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Base creature",
-            "lines": ["Veteran"]
-          },
-          {
-            "title": "Applied templates",
-            "lines": ["Shield Dwarf"]
-          },
-          {
-            "title": "Traits mechanics",
-            "lines": ["Dwarven Resilience"]
-          },
-          {
-            "title": "Actions mechanics",
-            "lines": [
-              "Multiattack",
-              "Battleaxe · melee · +5 to hit · reach 5 ft. · 1d8 + 3 slashing (hit while wielding the weapon one-handed) · 1d10 + 3 slashing (hit while wielding the weapon two-handed)",
-              "Handaxe · melee or ranged · +5 to hit · reach 5 ft. · range 20/60 ft. · 1d6 + 3 slashing (hit)",
-              "Heavy Crossbow · ranged · +3 to hit · range 100/400 ft. · 1d10 + 1 piercing (hit)"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Applied the named source templates to the base creature."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Dwarven Resilience"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Battleaxe · Melee attack · +5 to hit · 1d8 + 3 slashing damage · 1d10 + 3 slashing damage · reach 5 ft.",
-              "Handaxe · Melee or ranged attack · +5 to hit · 1d6 + 3 slashing damage · reach 5 ft. · range 20/60 ft.",
-              "Heavy Crossbow · Ranged attack · +3 to hit · 1d10 + 1 piercing damage · range 100/400 ft."
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Veteran"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 98 · https://5e.tools/bestiary.html#axe%20of%20mirabar%20soldier_skt",
-              "Plate armor (item) · https://5e.tools/items.html#plate%20armor_phb",
-              "Veteran (creature) · https://5e.tools/bestiary.html#veteran_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#axe%20of%20mirabar%20soldier_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -30663,97 +30275,17 @@
       {
         "id": "printing-44b927e6e61b888c3002",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fiend",
-              "Creature tags · demon",
-              "Size · Huge",
-              "Alignment · chaotic evil",
-              "Armor class · 19 · natural armor",
-              "Hit points · 262",
-              "Hit dice · 21d12 + 126",
-              "Speed · walk 40 ft., fly 80 ft.",
-              "Challenge · 19",
-              "Strength · 26",
-              "Dexterity · 15",
-              "Constitution · 22",
-              "Intelligence · 20",
-              "Wisdom · 16",
-              "Charisma · 22",
-              "Passive Perception · 13"
-            ]
+        "source": "https://5e.tools/bestiary.html#balor%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "balor_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge fiend with challenge rating 19. Named abilities include Death Throes, Fire Aura, Magic Resistance."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Strength +14, Constitution +12, Wisdom +9, Charisma +12"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["cold, lightning, bludgeoning, piercing, slashing from nonmagical attacks"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Death Throes · DC 20 Dexterity save · 20d6 fire damage · within 30 feet · Half damage on a successful save",
-              "Fire Aura · 3d6 fire damage · within 5 feet",
-              "Magic Resistance",
-              "Magic Weapons"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Longsword · Melee attack · +14 to hit · 3d8 + 8 slashing damage · 3d8 lightning damage · reach 10 ft.",
-              "Whip · Melee attack · +14 to hit · 2d6 + 8 slashing damage · 3d6 fire damage · DC 20 Strength save · reach 30 ft. · up to 25 feet",
-              "Teleport · up to 120 feet",
-              "Summon Demon (1/Day) · 50 · 1d8 · 1d6 · 1d4 · 1d3 · 1d2 · 1 minute · within 60 feet · Vrock · Hezrou · Glabrezu · Nalfeshnee · Marilith · Goristro"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Balor"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Vrock (creature) · https://5e.tools/bestiary.html#vrock_mm",
-              "Hezrou (creature) · https://5e.tools/bestiary.html#hezrou_mm",
-              "Glabrezu (creature) · https://5e.tools/bestiary.html#glabrezu_mm",
-              "Nalfeshnee (creature) · https://5e.tools/bestiary.html#nalfeshnee_mm",
-              "Marilith (creature) · https://5e.tools/bestiary.html#marilith_mm",
-              "Goristro (creature) · https://5e.tools/bestiary.html#goristro_mm",
-              "Balor (creature) · https://5e.tools/bestiary.html#balor_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#balor%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -32250,90 +31782,17 @@
       {
         "id": "printing-a12d42a6055c79f5e41e",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fiend",
-              "Creature tags · devil",
-              "Size · Medium",
-              "Alignment · lawful evil",
-              "Armor class · 15 · natural armor",
-              "Hit points · 110",
-              "Hit dice · 13d8 + 52",
-              "Speed · walk 30 ft.",
-              "Challenge · 5",
-              "Strength · 16",
-              "Dexterity · 17",
-              "Constitution · 18",
-              "Intelligence · 12",
-              "Wisdom · 14",
-              "Charisma · 14",
-              "Passive Perception · 18"
-            ]
+        "source": "https://5e.tools/bestiary.html#barbed%20devil%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "barbed_devil_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium fiend with challenge rating 5. Named abilities include Barbed Hide, Devil's Sight, Magic Resistance."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Strength +6, Constitution +7, Wisdom +5, Charisma +5"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +5, Insight +5, Perception +8"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Infernal, telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered"
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Barbed Hide · 1d10 piercing damage", "Devil's Sight", "Magic Resistance"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Claw · Melee attack · +6 to hit · 1d6 + 3 piercing damage · reach 5 ft.",
-              "Tail · Melee attack · +6 to hit · 2d6 + 3 piercing damage · reach 5 ft.",
-              "Hurl Flame · Ranged attack · +5 to hit · 3d6 fire damage · range 150 ft.",
-              "Summon Devil (1/Day) · 30 · 1 minute · within 60 feet"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Barbed Devil"]
-          },
-          {
-            "title": "References",
-            "lines": ["Barbed Devil (creature) · https://5e.tools/bestiary.html#barbed%20devil_mm"]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#barbed%20devil%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -32807,104 +32266,17 @@
       {
         "id": "printing-49b904dcfc3a1975db5c",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fiend",
-              "Creature tags · demon",
-              "Size · Large",
-              "Alignment · chaotic evil",
-              "Armor class · 15 · natural armor",
-              "Hit points · 68",
-              "Hit dice · 8d10 + 24",
-              "Speed · walk 40 ft., climb 40 ft.",
-              "Challenge · 5",
-              "Strength · 18",
-              "Dexterity · 15",
-              "Constitution · 16",
-              "Intelligence · 7",
-              "Wisdom · 14",
-              "Charisma · 9",
-              "Passive Perception · 15"
-            ]
+        "source": "https://5e.tools/bestiary.html#barlgura%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "barlgura_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large fiend with challenge rating 5. Named abilities include Reckless, Running Leap, Bite."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dexterity +5, Constitution +6"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5, Stealth +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 30 ft., darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["cold, fire, lightning"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Reckless · start of its next turn",
-              "Running Leap · up to 40 feet · up to 20 feet"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Bite · Melee attack · +7 to hit · 2d6 + 4 piercing damage · reach 5 ft.",
-              "Fist · Melee attack · +7 to hit · 1d10 + 4 bludgeoning damage · reach 5 ft.",
-              "Summon Demon (1/Day) · 30 · 1 minute · within 60 feet"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Wisdom · DC 13 · Entangle · Phantasmal force · Disguise self · Invisibility",
-              "1/day each · entangle, phantasmal force",
-              "2/day each · disguise self, invisibility (self only)"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Barlgura"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Entangle (spell) · https://5e.tools/spells.html#entangle_phb",
-              "Phantasmal force (spell) · https://5e.tools/spells.html#phantasmal%20force_phb",
-              "Disguise self (spell) · https://5e.tools/spells.html#disguise%20self_phb",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Barlgura (creature) · https://5e.tools/bestiary.html#barlgura_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#barlgura%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -43315,87 +42687,17 @@
       {
         "id": "printing-4bfcc608a7e4bc6826e8",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · aberration",
-              "Size · Large",
-              "Alignment · chaotic neutral",
-              "Armor class · 15 · natural armor",
-              "Hit points · 123",
-              "Hit dice · 13d10 + 52",
-              "Speed · walk 30 ft.",
-              "Challenge · 7",
-              "Strength · 20",
-              "Dexterity · 15",
-              "Constitution · 18",
-              "Intelligence · 7",
-              "Wisdom · 7",
-              "Charisma · 9",
-              "Passive Perception · 11"
-            ]
+        "source": "https://5e.tools/bestiary.html#blue%20slaad%20(control%20gem)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "blue_slaad_control_gem"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large aberration with challenge rating 7. Named abilities include Magic Resistance, Regeneration, Control Gem."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +1"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Slaad, telepathy 60 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["acid, cold, fire, lightning, thunder"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Magic Resistance",
-              "Regeneration · 10 hit points",
-              "Control Gem · DC 20 · 4d10 psychic damage · 1 minute · Charmed · Imprisonment · Wish · Greater restoration · Medicine · Incapacitated"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Bite · Melee attack · +8 to hit · 2d6 + 5 piercing damage · reach 5 ft.",
-              "Claw · Melee attack · +8 to hit · 2d6 + 5 slashing damage · DC 15 Constitution save · 3d6 · reach 5 ft. · 24 hours · Red slaad · Green slaad · Wish"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Blue Slaad"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Imprisonment (spell) · https://5e.tools/spells.html#imprisonment_phb",
-              "Wish (spell) · https://5e.tools/spells.html#wish_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Medicine (skill) · https://5e.tools/skills.html#medicine_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Red slaad (creature) · https://5e.tools/bestiary.html#red%20slaad_mm",
-              "Green slaad (creature) · https://5e.tools/bestiary.html#green%20slaad_mm",
-              "Blue Slaad (creature) · https://5e.tools/bestiary.html#blue%20slaad_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#blue%20slaad%20(control%20gem)_mm"
+        }
       }
     ],
     "groups": ["Aberration"],
@@ -44452,93 +43754,17 @@
       {
         "id": "printing-bbacea1b2475a8a45fd4",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fiend",
-              "Creature tags · devil",
-              "Size · Large",
-              "Alignment · lawful evil",
-              "Armor class · 19 · natural armor",
-              "Hit points · 142",
-              "Hit dice · 15d10 + 60",
-              "Speed · walk 40 ft., fly 40 ft.",
-              "Challenge · 9",
-              "Strength · 18",
-              "Dexterity · 16",
-              "Constitution · 18",
-              "Intelligence · 13",
-              "Wisdom · 14",
-              "Charisma · 16",
-              "Passive Perception · 12"
-            ]
+        "source": "https://5e.tools/bestiary.html#bone%20devil%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bone_devil_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large fiend with challenge rating 9. Named abilities include Devil's Sight, Magic Resistance, Claw."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Intelligence +5, Wisdom +6, Charisma +7"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +7, Insight +6"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Infernal, telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered"
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Devil's Sight", "Magic Resistance"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Claw · Melee attack · +8 to hit · 1d8 + 4 slashing damage · reach 10 ft.",
-              "Sting · Melee attack · +8 to hit · 2d8 + 4 piercing damage · 5d6 poison damage · DC 14 Constitution save · reach 10 ft. · 1 minute · Repeat the save at the end of each turn · Poisoned",
-              "Summon Devil (1/Day) · 40 · 2d6 · 1 minute · within 60 feet · Spined devil"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Bone Devil"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Spined devil (creature) · https://5e.tools/bestiary.html#spined%20devil_mm",
-              "Bone Devil (creature) · https://5e.tools/bestiary.html#bone%20devil_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#bone%20devil%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -50190,88 +49416,17 @@
       {
         "id": "printing-39ff7fdc360dca623b954c68",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 13",
-              "Hit dice · 3d6 + 3",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 7",
-              "Strength · 9",
-              "Dexterity · 14",
-              "Constitution · 12",
-              "Intelligence · 11",
-              "Wisdom · 5",
-              "Charisma · 9",
-              "Creature tags · derro",
-              "Alignment · chaotic evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#buppido_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "buppido"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small humanoid with challenge rating 1/4. Named abilities include Insanity, Magic Resistance, Sunlight Sensitivity."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Hooked Shortspear · melee · +2 to hit · reach 5 ft. · 1d4 - 1 piercing",
-              "Light Repeating Crossbow · ranged · +4 to hit · range 40/160 ft. · 1d8 + 2 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +4"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Dwarvish, Undercommon"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Insanity · Charmed · Frightened",
-              "Magic Resistance",
-              "Sunlight Sensitivity · Perception"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Hooked Shortspear · Melee attack · +2 to hit · 1d4 - 1 piercing damage · DC 9 Strength save · reach 5 ft. · Prone",
-              "Light Repeating Crossbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage · range 40/160 ft."
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Derro"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 6 · https://5e.tools/bestiary.html#buppido_oota",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Derro (creature) · https://5e.tools/bestiary.html#derro_oota"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#buppido_oota"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -56069,94 +55224,17 @@
       {
         "id": "printing-7447edcabe36eb41298c",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fiend",
-              "Creature tags · demon",
-              "Size · Large",
-              "Alignment · chaotic evil",
-              "Armor class · 15 · natural armor",
-              "Hit points · 84",
-              "Hit dice · 13d10 + 13",
-              "Speed · walk 20 ft., fly 60 ft.",
-              "Challenge · 6",
-              "Strength · 15",
-              "Dexterity · 15",
-              "Constitution · 12",
-              "Intelligence · 11",
-              "Wisdom · 14",
-              "Charisma · 10",
-              "Passive Perception · 15"
-            ]
+        "source": "https://5e.tools/bestiary.html#chasme%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "chasme_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large fiend with challenge rating 6. Named abilities include Drone, Magic Resistance, Spider Climb."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dexterity +5, Wisdom +5"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 10 ft., darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["cold, fire, lightning"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Drone · DC 12 Constitution save · 10 minutes · 24 hours · within 30 feet · Unconscious · Holy Water (Flask)",
-              "Magic Resistance",
-              "Spider Climb"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Proboscis · Melee attack · +5 to hit · 4d6 + 2 piercing damage · 7d6 necrotic damage · reach 5 ft. · Greater restoration",
-              "Summon Demon (1/Day) · 30 · 1 minute · within 60 feet"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Chasme"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb",
-              "Holy Water (Flask) (item) · https://5e.tools/items.html#holy%20water%20(flask)_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Chasme (creature) · https://5e.tools/bestiary.html#chasme_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#chasme%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -60590,97 +59668,17 @@
       {
         "id": "printing-d532cf98771d2f197fbc",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · giant",
-              "Size · Huge",
-              "Armor class · 14 · natural armor",
-              "Hit points · 200",
-              "Hit dice · 16d12 + 96",
-              "Speed · walk 40 ft.",
-              "Challenge · 9",
-              "Strength · 27",
-              "Dexterity · 10",
-              "Constitution · 22",
-              "Intelligence · 12",
-              "Wisdom · 16",
-              "Charisma · 16",
-              "Passive Perception · 17"
-            ]
+        "source": "https://5e.tools/bestiary.html#cloud%20giant%20(optional%20actions)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cloud_giant_optional_actions"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge giant with challenge rating 9. Listed habitats: mountain. Named abilities include Keen Smell, Morningstar, Rock."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Constitution +10, Wisdom +7, Charisma +7"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Insight +7, Perception +7"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Giant"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Keen Smell · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Morningstar · Melee attack · +12 to hit · 3d8 + 8 piercing damage · reach 10 ft.",
-              "Rock · Ranged attack · +12 to hit · 4d10 + 8 bludgeoning damage · range 60/240 ft.",
-              "Fling · DC 20 Dexterity save · 1d8 bludgeoning damage · within 10 feet · up to 60 feet · Prone",
-              "Wind Aura · Concentration"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · Detect magic · Fog cloud · Light · Feather fall · Fly · Misty step · Telekinesis · Control weather · Gaseous form",
-              "At will · detect magic, fog cloud, light",
-              "3/day each · feather fall, fly, misty step, telekinesis",
-              "1/day each · control weather, gaseous form"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Cloud Giant"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Fog cloud (spell) · https://5e.tools/spells.html#fog%20cloud_phb",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Feather fall (spell) · https://5e.tools/spells.html#feather%20fall_phb",
-              "Fly (spell) · https://5e.tools/spells.html#fly_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Telekinesis (spell) · https://5e.tools/spells.html#telekinesis_phb",
-              "Control weather (spell) · https://5e.tools/spells.html#control%20weather_phb",
-              "Gaseous form (spell) · https://5e.tools/spells.html#gaseous%20form_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Concentration (status) · https://5e.tools/conditionsdiseases.html#concentration_phb",
-              "Cloud Giant (creature) · https://5e.tools/bestiary.html#cloud%20giant_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#cloud%20giant%20(optional%20actions)_skt"
+        }
       }
     ],
     "groups": ["Giant"],
@@ -71771,109 +70769,17 @@
       {
         "id": "printing-5b10e100577cdb56fe74",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · aberration",
-              "Creature tags · shapechanger",
-              "Size · Medium",
-              "Alignment · chaotic evil",
-              "Armor class · 18 · natural armor",
-              "Hit points · 170",
-              "Hit dice · 20d8 + 80",
-              "Speed · walk 30 ft.",
-              "Challenge · 10",
-              "Strength · 20",
-              "Dexterity · 15",
-              "Constitution · 19",
-              "Intelligence · 15",
-              "Wisdom · 10",
-              "Charisma · 16",
-              "Passive Perception · 18"
-            ]
+        "source": "https://5e.tools/bestiary.html#death%20slaad%20(control%20gem)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "death_slaad_control_gem"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium aberration with challenge rating 10. Named abilities include Shapechanger, Magic Resistance, Magic Weapons."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +6, Perception +8"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 60 ft., darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Slaad, telepathy 60 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["acid, cold, fire, lightning, thunder"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Shapechanger",
-              "Magic Resistance",
-              "Magic Weapons",
-              "Regeneration · 10 hit points",
-              "Control Gem · DC 20 · 4d10 psychic damage · 1 minute · Charmed · Imprisonment · Wish · Greater restoration · Medicine · Incapacitated"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Bite (Slaad Form Only) · Melee attack · +9 to hit · 1d8 + 5 piercing damage · 2d6 necrotic damage · reach 5 ft.",
-              "Claws (Slaad Form Only) · Melee attack · +9 to hit · 1d10 + 5 slashing damage · 2d6 necrotic damage · reach 5 ft.",
-              "Greatsword · Melee attack · +9 to hit · 2d6 + 5 slashing damage · 2d6 necrotic damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · DC 15 · +7 to hit · Detect magic · Detect thoughts · Invisibility · Mage hand · Major image · Fear · Fireball · Fly · Tongues · Cloudkill · Plane shift",
-              "At will · detect magic, detect thoughts, invisibility (self only), mage hand, major image",
-              "2/day each · fear, fireball, fly, tongues",
-              "1/day each · cloudkill, plane shift"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Death Slaad"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Major image (spell) · https://5e.tools/spells.html#major%20image_phb",
-              "Fear (spell) · https://5e.tools/spells.html#fear_phb",
-              "Fireball (spell) · https://5e.tools/spells.html#fireball_phb",
-              "Fly (spell) · https://5e.tools/spells.html#fly_phb",
-              "Tongues (spell) · https://5e.tools/spells.html#tongues_phb",
-              "Cloudkill (spell) · https://5e.tools/spells.html#cloudkill_phb",
-              "Plane shift (spell) · https://5e.tools/spells.html#plane%20shift_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Imprisonment (spell) · https://5e.tools/spells.html#imprisonment_phb",
-              "Wish (spell) · https://5e.tools/spells.html#wish_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Medicine (skill) · https://5e.tools/skills.html#medicine_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Death Slaad (creature) · https://5e.tools/bestiary.html#death%20slaad_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#death%20slaad%20(control%20gem)_mm"
+        }
       }
     ],
     "groups": ["Aberration"],
@@ -96204,93 +95110,17 @@
       {
         "id": "printing-0ea5b590315d6f1bdb76",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · elemental",
-              "Size · Small",
-              "Alignment · neutral evil",
-              "Armor class · 12",
-              "Hit points · 17",
-              "Hit dice · 5d6",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Challenge · 1/2",
-              "Strength · 5",
-              "Dexterity · 14",
-              "Constitution · 10",
-              "Intelligence · 9",
-              "Wisdom · 11",
-              "Charisma · 10",
-              "Passive Perception · 12"
-            ]
+        "source": "https://5e.tools/bestiary.html#dust%20mephit%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dust_mephit_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small elemental with challenge rating 1/2. Listed habitats: desert. Named abilities include Death Burst, Claws, Blinding Breath (Recharge 6)."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2, Stealth +4"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Auran, Terran"]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["fire"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Death Burst · DC 10 Constitution save · 1 minute · within 5 feet · Blinded"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Claws · Melee attack · +4 to hit · 1d4 + 2 slashing damage · reach 5 ft.",
-              "Blinding Breath (Recharge 6) · DC 10 Dexterity save · 15-foot cone · 1 minute · Repeat the save at the end of each turn · Blinded",
-              "Summon Mephits (1/Day) · 25 · 1d4 · 1 minute · within 60 feet"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": ["Innate Spellcasting (1/Day) · Charisma · Sleep", "At will · sleep"]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Dust Mephit"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Sleep (spell) · https://5e.tools/spells.html#sleep_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Dust Mephit (creature) · https://5e.tools/bestiary.html#dust%20mephit_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#dust%20mephit%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Elemental"],
@@ -103302,120 +102132,17 @@
       {
         "id": "printing-d14bf7917e7341a907435096",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 27",
-              "Hit dice · 5d8 + 5",
-              "Challenge · 2",
-              "Size · Small",
-              "Type · Humanoid",
-              "Speed · walk 25 ft.",
-              "Passive Perception · 13",
-              "Initiative · 0",
-              "Strength · 10",
-              "Dexterity · 10",
-              "Constitution · 12",
-              "Intelligence · 13",
-              "Wisdom · 16",
-              "Charisma · 13",
-              "Creature tags · tag gnome, prefix Rock",
-              "Alignment · chaotic neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#elister_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "elister"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small humanoid with challenge rating 2. Named abilities include Divine Eminence, Gnome Cunning, Mace."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any two languages", "Gnomish", "any two languages, Gnomish"]
-          },
-          {
-            "title": "Skills",
-            "lines": [
-              "Medicine +7",
-              "Persuasion +3",
-              "Religion +5",
-              "Medicine +7, Persuasion +3, Religion +5"
-            ]
-          },
-          {
-            "title": "Base creature",
-            "lines": ["Priest"]
-          },
-          {
-            "title": "Applied templates",
-            "lines": ["Rock Gnome"]
-          },
-          {
-            "title": "Traits mechanics",
-            "lines": ["Divine Eminence · 3d6 radiant · 1d6 damage", "Gnome Cunning"]
-          },
-          {
-            "title": "Actions mechanics",
-            "lines": ["Mace · melee · +2 to hit · reach 5 ft. · 1d6 bludgeoning (hit)"]
-          },
-          {
-            "title": "Spellcasting mechanics",
-            "lines": ["Spellcasting · +5 to hit"]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Applied the named source templates to the base creature."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Divine Eminence · 3d6 radiant damage · 1d6", "Gnome Cunning"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Mace · Melee attack · +2 to hit · 1d6 bludgeoning damage · reach 5 ft."]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Wisdom · DC 13 · +5 to hit · Light · Sacred flame · Thaumaturgy · Cure wounds · Guiding bolt · Sanctuary · Lesser restoration · Spiritual weapon · Dispel magic · Create food and water",
-              "Cantrips · light, sacred flame, thaumaturgy",
-              "Level 1 (4 slots) · cure wounds, guiding bolt, sanctuary",
-              "Level 2 (3 slots) · lesser restoration, spiritual weapon",
-              "Level 3 (2 slots) · dispel magic, create food and water"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Priest"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Storm King's Thunder, p. 154 · https://5e.tools/bestiary.html#elister_skt",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Sacred flame (spell) · https://5e.tools/spells.html#sacred%20flame_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Cure wounds (spell) · https://5e.tools/spells.html#cure%20wounds_phb",
-              "Guiding bolt (spell) · https://5e.tools/spells.html#guiding%20bolt_phb",
-              "Sanctuary (spell) · https://5e.tools/spells.html#sanctuary_phb",
-              "Lesser restoration (spell) · https://5e.tools/spells.html#lesser%20restoration_phb",
-              "Spiritual weapon (spell) · https://5e.tools/spells.html#spiritual%20weapon_phb",
-              "Dispel magic (spell) · https://5e.tools/spells.html#dispel%20magic_phb",
-              "Create food and water (spell) · https://5e.tools/spells.html#create%20food%20and%20water_phb",
-              "Chain shirt (item) · https://5e.tools/items.html#chain%20shirt_phb",
-              "Priest (creature) · https://5e.tools/bestiary.html#priest_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#elister_skt"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -106710,96 +105437,17 @@
       {
         "id": "printing-9493d5f6dee74c62ab46",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · fiend",
-              "Creature tags · devil",
-              "Size · Medium",
-              "Alignment · lawful evil",
-              "Armor class · 18 · plate armor",
-              "Hit points · 153",
-              "Hit dice · 18d8 + 72",
-              "Speed · walk 30 ft., fly 60 ft.",
-              "Challenge · 12",
-              "Strength · 18",
-              "Dexterity · 16",
-              "Constitution · 18",
-              "Intelligence · 14",
-              "Wisdom · 14",
-              "Charisma · 18",
-              "Passive Perception · 12"
-            ]
+        "source": "https://5e.tools/bestiary.html#erinyes%20(summoner)_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "erinyes_summoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium fiend with challenge rating 12. Named abilities include Hellish Weapons, Magic Resistance, Longsword."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dexterity +7, Constitution +8, Wisdom +6, Charisma +8"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Infernal, telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered"
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Hellish Weapons · 3d8 poison damage", "Magic Resistance"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Longsword · Melee attack · +8 to hit · 1d8 + 4 slashing damage · 1d10 + 4 slashing damage · 3d8 poison damage · reach 5 ft.",
-              "Longbow · Ranged attack · +7 to hit · 1d8 + 3 piercing damage · 3d8 poison damage · DC 14 Constitution save · range 150/600 ft. · Poisoned · Lesser restoration",
-              "Summon Devil (1/Day) · 50 · 3d6 · 1d6 · 1 minute · within 60 feet · Spined devil · Bearded devil · Erinyes"
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Parry"]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Erinyes"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Plate armor (item) · https://5e.tools/items.html#plate%20armor_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Lesser restoration (spell) · https://5e.tools/spells.html#lesser%20restoration_phb",
-              "Spined devil (creature) · https://5e.tools/bestiary.html#spined%20devil_mm",
-              "Bearded devil (creature) · https://5e.tools/bestiary.html#bearded%20devil_mm",
-              "Erinyes (creature) · https://5e.tools/bestiary.html#erinyes_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#erinyes%20(summoner)_mm"
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -116053,79 +114701,17 @@
       {
         "id": "printing-95bf3bebd08f8438a2e7",
         "label": "Storm King's Thunder",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · giant",
-              "Size · Huge",
-              "Alignment · lawful evil",
-              "Armor class · 18 · plate armor",
-              "Hit points · 162",
-              "Hit dice · 13d12 + 78",
-              "Speed · walk 30 ft.",
-              "Challenge · 9",
-              "Strength · 25",
-              "Dexterity · 9",
-              "Constitution · 23",
-              "Intelligence · 10",
-              "Wisdom · 14",
-              "Charisma · 13",
-              "Passive Perception · 16"
-            ]
+        "source": "https://5e.tools/bestiary.html#fire%20giant%20(optional%20actions)_skt",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fire_giant_optional_actions"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge giant with challenge rating 9. Listed habitats: underdark, mountain. Named abilities include Greatsword, Rock, Siege Monster."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dexterity +3, Constitution +10, Charisma +5"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +11, Perception +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Giant"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark, mountain"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Greatsword · Melee attack · +11 to hit · 6d6 + 7 slashing damage · reach 10 ft.",
-              "Rock · Ranged attack · +11 to hit · 4d10 + 7 bludgeoning damage · range 60/240 ft.",
-              "Siege Monster",
-              "Tackle · DC 19 Strength save · Prone"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Fire Giant"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Plate armor (item) · https://5e.tools/items.html#plate%20armor_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Fire Giant (creature) · https://5e.tools/bestiary.html#fire%20giant_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "storm_king_s_thunder"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#fire%20giant%20(optional%20actions)_skt"
+        }
       }
     ],
     "groups": ["Giant"],
