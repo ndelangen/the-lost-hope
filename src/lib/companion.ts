@@ -3,7 +3,7 @@ import type { PrintedStatBlock } from '#/definitions/stat-block'
 import type { AbilityId } from '#/lib/rules'
 
 import type { MonsterOwner } from './monster-printing'
-import { ownedStats, typicalOwner, type Owner } from './owned-creature'
+import { ownedStats, type OwnedCreature, type Owner } from './owned-creature'
 import { ownedCreatureOf } from './owned-creatures'
 import { modifier, proficiencyForLevel, withOptions } from './stat-block'
 
@@ -32,37 +32,23 @@ export function castingAbilityOf(pc: PC, companion: Companion): AbilityId {
  * The numbers a companion borrows from its PC: the level it is kept or summoned at (its own
  * `level`, else the character level for a class feature, else the spell's lowest slot), the PC's
  * proficiency bonus, ability modifiers, and spell attack and save DC from their casting ability.
- * A PC without a stat block lends a +3 in every ability, with their own proficiency bonus.
+ * A PC without ability scores cannot keep one: there is nothing true to borrow.
  */
-export function companionOwner(
-  pc: PC,
-  companion: Companion,
-  stats: PrintedStatBlock,
-): Owner | undefined {
-  const scaling = stats.scaling
-  if (!scaling) return undefined
+export function companionOwner(pc: PC, companion: Companion, creature: OwnedCreature): Owner {
   const characterLevel = pc.level ?? 1
+  const { min, max } = creature.levels
   const level = Math.min(
-    scaling.max,
-    Math.max(
-      scaling.min,
-      companion.level ?? (scaling.by === 'class' ? characterLevel : scaling.min),
-    ),
+    max,
+    Math.max(min, companion.level ?? (creature.follows.by === 'class' ? characterLevel : min)),
   )
-  const proficiencyBonus = proficiencyForLevel(characterLevel)
   const scores = pc.stats?.scores
-  if (!scores) {
-    const typical = typicalOwner(scaling, level)
-    return {
-      ...typical,
-      proficiencyBonus,
-      spellAttack: proficiencyBonus + 3,
-      spellSaveDc: 8 + proficiencyBonus + 3,
-    }
-  }
+  // A companion borrows its PC's real numbers: guessing them would print wrong ones.
+  if (!scores)
+    throw new Error(`${pc.name} needs ability scores to keep a ${companion.creature.key}`)
   const modifiers = Object.fromEntries(
     Object.entries(scores).map(([ability, score]) => [ability, modifier(score)]),
   ) as Record<AbilityId, number>
+  const proficiencyBonus = proficiencyForLevel(characterLevel)
   const casting = castingAbilityOf(pc, companion)
   return {
     level,
@@ -85,6 +71,7 @@ export function companionStats(
 ) {
   const picked = companion.options ?? []
   const creature = owned && ownedCreatureOf(owned.publication, owned.monster)
-  const owner = companionOwner(pc, companion, stats)
-  return creature && owner ? ownedStats(creature, stats, owner, picked) : withOptions(stats, picked)
+  return creature
+    ? ownedStats(creature, stats, companionOwner(pc, companion, creature), picked)
+    : withOptions(stats, picked)
 }

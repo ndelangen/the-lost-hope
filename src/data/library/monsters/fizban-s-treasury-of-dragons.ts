@@ -7928,7 +7928,6 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Draconic', 'understands the languages you speak'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Draconic Spirit', min: 5, max: 9 },
         options: [
           {
             key: 'chromatic',
@@ -7960,7 +7959,6 @@ export default createPublicationMonsters({
         ],
         size: 'large',
         type: 'dragon',
-        cr: '0',
         ac: 14,
         armor: 'natural armor',
         hitDice: '5d10',
@@ -9307,10 +9305,8 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Draconic'],
       stats: {
-        scaling: { by: 'class', of: 'Ranger', min: 3, max: 20 },
         size: 'small',
         type: 'dragon',
-        cr: '0',
         ac: 14,
         armor: 'natural armor',
         hitDice: '3d10',

@@ -37,16 +37,13 @@ export function useCreatureBlock(
     }
   }, [chosen, options, firstForm])
 
-  const scaling = printed.scaling
   const creature = owned ? ownedCreatureOf(owned.publication, owned.monster) : undefined
   const [level, setLevel] = useState<number | undefined>(undefined)
   const [overrides, setOverrides] = useState<Partial<Record<OwnerNumber, number>>>({})
   const owner = useMemo((): Owner | undefined => {
-    if (!scaling) return undefined
-    const typical = typicalOwner(
-      scaling,
-      Math.min(scaling.max, Math.max(scaling.min, level ?? scaling.min)),
-    )
+    if (!creature) return undefined
+    const { min, max } = creature.levels
+    const typical = typicalOwner(creature, Math.min(max, Math.max(min, level ?? min)))
     const { proficiencyBonus, spellAttack, spellSaveDc, ...modifiers } = overrides
     return {
       ...typical,
@@ -55,7 +52,7 @@ export function useCreatureBlock(
       spellSaveDc: spellSaveDc ?? typical.spellSaveDc,
       modifiers: { ...typical.modifiers, ...modifiers },
     }
-  }, [scaling, level, overrides])
+  }, [creature, level, overrides])
 
   // The creature works itself out from its owner first; the options it prints join after.
   const stats = useMemo(
@@ -66,8 +63,8 @@ export function useCreatureBlock(
     [printed, creature, owner, picked],
   )
   const reads = useMemo(
-    () => (creature && scaling ? ownerNumbersRead(creature, printed, scaling, picked) : []),
-    [creature, printed, scaling, picked],
+    () => (creature ? ownerNumbersRead(creature, printed, picked) : []),
+    [creature, printed, picked],
   )
   const derived = useMemo(
     () => (stats === printed ? printedDerived : deriveStatBlock(stats)),
@@ -96,7 +93,7 @@ export function useCreatureBlock(
     derived,
     picked,
     toggle,
-    scaling,
+    creature,
     owner,
     reads,
     // A new level starts from that level's typical owner again.

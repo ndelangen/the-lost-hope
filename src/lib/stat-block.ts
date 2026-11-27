@@ -69,12 +69,15 @@ export function proficiencyForLevel(level: number) {
   return Math.ceil(level / 4) + 1
 }
 
+/** A creature's stat block rather than a PC's: a PC's has their hit point maximum. */
+export function isCreature(stats: AnyStatBlock): stats is StatBlock | PrintedStatBlock {
+  return !('maxHp' in stats)
+}
+
 export function proficiencyOf(stats: AnyStatBlock) {
-  if (!('cr' in stats)) return proficiencyForLevel(stats.level)
-  // A summoned creature or companion uses its owner's.
-  return (
-    ('printed' in stats ? stats.printed?.proficiencyBonus : undefined) ?? proficiencyBonus(stats.cr)
-  )
+  if (!isCreature(stats)) return proficiencyForLevel(stats.level)
+  // A summoned creature or companion uses its owner's; one worked out without an owner, +2.
+  return stats.printed?.proficiencyBonus ?? (stats.cr ? proficiencyBonus(stats.cr) : 2)
 }
 
 const XP: Record<string, number> = {
@@ -177,7 +180,7 @@ export function withOptions<T extends PrintedStatBlock | StatBlock>(
 
 /** Every ability in the block, including legendary and lair actions. */
 export function allAbilities(stats: AnyStatBlock): readonly Ability[] {
-  if (!('cr' in stats)) return stats.abilities
+  if (!isCreature(stats)) return stats.abilities
   return [...stats.abilities, ...(stats.legendary?.actions ?? []), ...(stats.lairActions ?? [])]
 }
 
@@ -388,8 +391,11 @@ export function deriveStatBlock(stats: AnyStatBlock): DerivedStats {
   const passivePerception =
     printed?.passivePerception ??
     10 + modifiers.wis + pb * proficiencyMultiplier(stats.skills?.perception)
-  const derivedMaxHp =
-    'cr' in stats ? average(stats.hitDice, dice(stats.hitDice).count * modifiers.con) : stats.maxHp
+  const derivedMaxHp = !isCreature(stats)
+    ? stats.maxHp
+    : stats.hitDice
+      ? average(stats.hitDice, dice(stats.hitDice).count * modifiers.con)
+      : (printed?.hitPoints ?? 0)
   return {
     speed: stats.speed,
     abilities: Object.fromEntries(
@@ -421,18 +427,17 @@ export function deriveStatBlock(stats: AnyStatBlock): DerivedStats {
     proficiencyBonus: pb,
     maxHp: printed?.hitPoints ?? derivedMaxHp,
     // A printed total the dice don't produce stands alone: its formula would not add up.
-    hitPoints:
-      'cr' in stats
-        ? printed?.hitPointsOnly && printed.hitPoints
-          ? // A summoned creature has hit points but no hit dice.
-            String(printed.hitPoints)
-          : printed?.hitPoints !== undefined && printed.hitPoints !== derivedMaxHp
-            ? `${printed.hitPoints} (${stats.hitDice})`
-            : rollText(stats.hitDice, dice(stats.hitDice).count * modifiers.con)
-        : String(stats.maxHp),
+    hitPoints: !isCreature(stats)
+      ? String(stats.maxHp)
+      : !stats.hitDice
+        ? // A summoned creature has hit points but no hit dice.
+          String(derivedMaxHp)
+        : printed?.hitPoints !== undefined && printed.hitPoints !== derivedMaxHp
+          ? `${printed.hitPoints} (${stats.hitDice})`
+          : rollText(stats.hitDice, dice(stats.hitDice).count * modifiers.con),
     ac: stats.ac,
     initiative: printed?.initiative ?? modifiers.dex + pb * proficiencyMultiplier(stats.initiative),
-    experience: 'cr' in stats ? experience(stats.cr) : 0,
+    experience: isCreature(stats) && stats.cr ? experience(stats.cr) : 0,
     saves: Object.fromEntries(
       ABILITY_KEYS.map((id) => [
         id,

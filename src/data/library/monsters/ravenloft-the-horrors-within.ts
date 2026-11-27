@@ -5934,10 +5934,8 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: { by: 'class', of: 'Artificer', min: 3, max: 20 },
         size: 'medium',
         type: 'undead',
-        cr: '0',
         ac: 10,
         hitDice: '3d8',
         speed: { walk: 30 },

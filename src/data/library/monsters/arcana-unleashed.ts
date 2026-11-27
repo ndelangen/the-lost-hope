@@ -213,7 +213,6 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: { by: 'spell', of: 'Battle Familiar', min: 2, max: 9 },
         options: [
           {
             key: 'brute',
@@ -256,13 +255,12 @@ export default createPublicationMonsters({
         ],
         size: 'medium',
         type: 'fey',
-        cr: '0',
         ac: 11,
-        hitDice: '1d8',
         speed: { walk: 40, swim: 30 },
         scores: { str: 16, dex: 16, con: 12, int: 8, wis: 13, cha: 10 },
         senses: { darkvision: 60 },
         conditionImmunities: [rules.charmed, rules.frightened],
+        printed: { hitPoints: 20 },
         abilities: [
           {
             key: 'talented',
@@ -496,7 +494,6 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Dinosaur', min: 6, max: 9 },
         options: [
           {
             key: 'ankylosaur',
@@ -569,11 +566,10 @@ export default createPublicationMonsters({
         ],
         size: 'huge',
         type: 'beast',
-        cr: '0',
         ac: 11,
-        hitDice: '1d12',
         speed: { walk: 40 },
         scores: { str: 21, dex: 11, con: 15, int: 4, wis: 12, cha: 9 },
+        printed: { hitPoints: 60 },
         abilities: [
           {
             key: 'tough',
@@ -1710,7 +1706,6 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Plant', min: 5, max: 9 },
         options: [
           {
             key: 'fungus',
@@ -1805,12 +1800,11 @@ export default createPublicationMonsters({
         ],
         size: 'large',
         type: 'plant',
-        cr: '0',
         ac: 11,
         armor: 'natural armor',
-        hitDice: '1d10',
         speed: { walk: 40 },
         scores: { str: 17, dex: 13, con: 14, int: 10, wis: 13, cha: 10 },
+        printed: { hitPoints: 50 },
         abilities: [
           {
             key: 'multiattack',
@@ -2434,7 +2428,6 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['speaks the languages you know'],
       stats: {
-        scaling: { by: 'class', of: 'Warlock', min: 3, max: 20 },
         options: [
           {
             key: 'celestial',
@@ -2553,7 +2546,6 @@ export default createPublicationMonsters({
         ],
         size: 'small',
         type: 'celestial',
-        cr: '0',
         ac: 13,
         hitDice: '3d6',
         speed: { walk: 5, fly: 30 },

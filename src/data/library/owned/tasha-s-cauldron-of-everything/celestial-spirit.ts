@@ -2,6 +2,8 @@ import { ownedCreature, withOwnerNumbers } from '#/lib/owned-creature'
 
 /** Celestial Spirit, worked out from the spell slot it is summoned with and its owner's numbers. */
 export default ownedCreature({
+  follows: { by: 'spell', of: 'Summon Celestial' },
+  levels: { min: 5, max: 9 },
   stats: (printed, owner, picked) => {
     const level = owner.level
     return withOwnerNumbers(
@@ -12,7 +14,6 @@ export default ownedCreature({
           ...printed.printed,
           proficiencyBonus: owner.proficiencyBonus,
           hitPoints: 40 + 10 * (level - 5),
-          hitPointsOnly: true,
         },
       },
       {

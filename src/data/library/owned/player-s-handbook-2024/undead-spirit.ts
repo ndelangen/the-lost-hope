@@ -2,6 +2,8 @@ import { ownedCreature, withOwnerNumbers } from '#/lib/owned-creature'
 
 /** Undead Spirit, worked out from the spell slot it is summoned with and its owner's numbers. */
 export default ownedCreature({
+  follows: { by: 'spell', of: 'Summon Undead' },
+  levels: { min: 3, max: 9 },
   stats: (printed, owner, picked) => {
     const level = owner.level
     return withOwnerNumbers(
@@ -12,7 +14,6 @@ export default ownedCreature({
           ...printed.printed,
           proficiencyBonus: owner.proficiencyBonus,
           hitPoints: picked.includes('skeletal') ? 20 + 10 * (level - 3) : 30 + 10 * (level - 3),
-          hitPointsOnly: true,
         },
       },
       {

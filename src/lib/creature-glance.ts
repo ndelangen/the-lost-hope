@@ -24,7 +24,8 @@ export type CreatureGlance = {
   kind: string
   /** The shared creature's name when the record uses one, e.g. "Gladiator". */
   shared?: string
-  cr: string
+  /** Left out for a creature that follows its owner: the book gives it none. */
+  cr?: string
   /** "1,800" */
   xp: string
   ac: number

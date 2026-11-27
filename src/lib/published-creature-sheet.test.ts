@@ -122,6 +122,9 @@ test('types a scalable companion with the level it scales by', () => {
     { ref: 'monster', key: 'beast_of_the_land' },
     { ref: 'publication', key: 'player_s_handbook_2024' },
   )!
-  expect(land.printing.stats.scaling).toMatchObject({ by: 'class', of: 'Ranger' })
+  expect(land.owned).toEqual({
+    publication: 'player_s_handbook_2024',
+    monster: 'beast_of_the_land',
+  })
   expect(land.printing.stats.scores.str).toBe(14)
 })

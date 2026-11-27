@@ -52,9 +52,11 @@ export function DmCreatureGlance({
         <span className="grid min-w-0">
           <span className="flex flex-wrap items-baseline gap-x-2">
             <span className="text-base font-semibold">{name}</span>
-            <span className="text-muted-foreground font-semibold tabular-nums">
-              CR {glance.cr} · {glance.xp} XP
-            </span>
+            {glance.cr && (
+              <span className="text-muted-foreground font-semibold tabular-nums">
+                CR {glance.cr} · {glance.xp} XP
+              </span>
+            )}
           </span>
           <span className="text-muted-foreground flex flex-wrap items-center gap-x-1.5 text-xs">
             {glance.kind}

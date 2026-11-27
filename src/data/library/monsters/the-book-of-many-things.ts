@@ -1390,7 +1390,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["understands one of your languages but can't speak"],
       stats: {
-        scaling: { by: 'class', of: 'Character', min: 1, max: 20 },
         options: [
           {
             key: 'acrobat',
@@ -1460,7 +1459,6 @@ export default createPublicationMonsters({
         ],
         size: 'medium',
         type: 'construct',
-        cr: '0',
         ac: 16,
         armor: 'natural armor',
         hitDice: '1d8',
@@ -4884,13 +4882,10 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'spell', of: 'Spirit of Death', min: 4, max: 9 },
         size: 'medium',
         type: 'undead',
-        cr: '0',
         ac: 11,
         armor: 'natural armor',
-        hitDice: '1d8',
         speed: { walk: 30, fly: 30 },
         scores: { str: 16, dex: 16, con: 16, int: 16, wis: 16, cha: 16 },
         senses: { darkvision: 60 },
@@ -4902,6 +4897,7 @@ export default createPublicationMonsters({
           rules.paralyzed,
           rules.poisoned,
         ],
+        printed: { hitPoints: 40 },
         abilities: [
           {
             key: 'incorporeal-movement',

@@ -10,6 +10,7 @@ import {
   modifier,
   plainStatParts,
   allAbilities,
+  isCreature,
   proficiencyOf,
   type AnyStatBlock,
   signed,
@@ -50,7 +51,7 @@ const term = (key: RuleKey, label: string, area?: AreaSize): StepPart => ({
 
 /** A PC's block is read by its own player, so its steps say "you" where a creature's say "it". */
 function isPc(stats: AnyStatBlock) {
-  return !('cr' in stats)
+  return !isCreature(stats)
 }
 
 /** What using an ability costs the player: nothing to pick or roll yet, so no one is named. */
@@ -99,7 +100,7 @@ function timingStep(source: AbilitySource, stats: AnyStatBlock): DmStep {
         who: 'dm',
         parts: [
           text('At the end of another creature’s turn, spend 1 of its '),
-          value(String(('cr' in stats ? stats.legendary?.uses : undefined) ?? 1)),
+          value(String((isCreature(stats) ? stats.legendary?.uses : undefined) ?? 1)),
           text(' '),
           term('legendary_action', 'legendary actions'),
           text('. They refill at the start of its own turn.'),
@@ -439,7 +440,7 @@ export function abilitySteps(
   source: AbilitySource,
 ): DmStep[] {
   const attackKeys = new Set(
-    [...stats.abilities, ...('cr' in stats ? (stats.legendary?.actions ?? []) : [])]
+    [...stats.abilities, ...(isCreature(stats) ? (stats.legendary?.actions ?? []) : [])]
       .filter((candidate) => candidate.attack)
       .map((candidate) => candidate.key),
   )
@@ -475,10 +476,10 @@ function tidy(step: DmStep): DmStep {
 export function abilitySources(stats: AnyStatBlock): ReadonlyMap<string, AbilitySource> {
   return new Map<string, AbilitySource>([
     ...stats.abilities.map((ability) => [ability.key, ability.timing] as const),
-    ...('cr' in stats ? (stats.legendary?.actions ?? []) : []).map(
+    ...(isCreature(stats) ? (stats.legendary?.actions ?? []) : []).map(
       (ability) => [ability.key, 'legendary'] as const,
     ),
-    ...('cr' in stats ? (stats.lairActions ?? []) : []).map(
+    ...(isCreature(stats) ? (stats.lairActions ?? []) : []).map(
       (ability) => [ability.key, 'lair'] as const,
     ),
   ])

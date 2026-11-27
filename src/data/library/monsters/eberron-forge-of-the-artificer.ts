@@ -903,10 +903,8 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['telepathy 1 mile (works only with you)'],
       stats: {
-        scaling: { by: 'spell', of: 'Homunculus Servant', min: 2, max: 9 },
         size: 'tiny',
         type: 'construct',
-        cr: '0',
         ac: 13,
         hitDice: '2d4',
         speed: {
@@ -1903,10 +1901,8 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: { by: 'class', of: 'Artificer', min: 3, max: 20 },
         size: 'medium',
         type: 'construct',
-        cr: '0',
         ac: 12,
         hitDice: '3d8',
         speed: { walk: 40 },

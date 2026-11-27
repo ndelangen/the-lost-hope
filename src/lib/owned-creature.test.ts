@@ -7,37 +7,43 @@ import { ownedStats, ownerNumbersRead, typicalOwner } from './owned-creature'
 import { ownedCreatureKeys, ownedCreatureOf } from './owned-creatures'
 import { deriveStatBlock, withOptions } from './stat-block'
 
-const scaled = [...printingsByMonster].flatMap(([monster, printings]) =>
-  [...printings]
-    .filter(([, printing]) => printing.stats?.scaling)
-    .map(([publication, printing]) => ({ monster, publication, stats: printing.stats! })),
-)
+const scaled = ownedCreatureKeys.map((key) => {
+  const [publication, monster] = key.split('/') as [string, string]
+  const stats = printingsByMonster.get(monster)?.get(publication)?.stats
+  return { monster, publication, stats: stats!, creature: ownedCreatureOf(publication, monster)! }
+})
 
 function at(publication: string, monster: string, level: number, picked: string[] = []) {
-  const { stats } = scaled.find(
+  const { stats, creature } = scaled.find(
     (one) => one.monster === monster && one.publication === publication,
   )!
-  const creature = ownedCreatureOf(publication, monster)!
-  return ownedStats(creature, stats, typicalOwner(stats.scaling!, level), picked)
+  return ownedStats(creature, stats, typicalOwner(creature, level), picked)
 }
 
 describe('creatures that follow their owner', () => {
   it('each have their own function, and every function belongs to one', () => {
-    const keys = scaled.map(({ publication, monster }) => `${publication}/${monster}`)
-    expect(keys.toSorted()).toEqual(ownedCreatureKeys.toSorted())
+    // Every function is for a stat block the library holds.
+    for (const { publication, monster, stats } of scaled)
+      expect(stats, `${publication}/${monster}`).toBeDefined()
+    // A creature without a challenge rating is one that follows its owner.
+    const unrated = [...printingsByMonster].flatMap(([monster, printings]) =>
+      [...printings]
+        .filter(([, printing]) => printing.stats && !printing.stats.cr)
+        .map(([publication]) => `${publication}/${monster}`),
+    )
+    expect(unrated.toSorted()).toEqual(ownedCreatureKeys.toSorted())
     // Every function file beside the index is in it.
     const files = Object.keys(import.meta.glob('/src/data/library/owned/*/*.ts'))
     expect(files).toHaveLength(ownedCreatureKeys.length)
   })
 
   it('make a whole stat block at every level and in every form', () => {
-    for (const { monster, publication, stats } of scaled) {
-      const creature = ownedCreatureOf(publication, monster)!
+    for (const { monster, publication, stats, creature } of scaled) {
       const forms = stats.options?.filter((option) => option.form).map(({ key }) => [key]) ?? []
-      for (let level = stats.scaling!.min; level <= stats.scaling!.max; level++)
+      for (let level = creature.levels.min; level <= creature.levels.max; level++)
         for (const picked of forms.length ? forms : [[]]) {
           const label = `${publication}/${monster} at ${level} ${picked.join()}`
-          const worked = creature.stats(stats, typicalOwner(stats.scaling!, level), picked)
+          const worked = creature.stats(stats, typicalOwner(creature, level), picked)
           expect.soft(PrintedStatBlock.safeParse(worked).error?.message, label).toBeUndefined()
           expect.soft(deriveStatBlock(withOptions(worked, picked)).maxHp, label).toBeGreaterThan(0)
         }
@@ -60,9 +66,8 @@ describe('creatures that follow their owner', () => {
   })
 
   it('asks the page only for the owner numbers its function looks at', () => {
-    const { stats } = scaled.find(({ monster }) => monster === 'steel_defender')!
-    const defender = ownedCreatureOf('tasha_s_cauldron_of_everything', 'steel_defender')!
-    expect(ownerNumbersRead(defender, stats, stats.scaling!, [])).toEqual([
+    const { stats, creature } = scaled.find(({ monster }) => monster === 'steel_defender')!
+    expect(ownerNumbersRead(creature, stats, [])).toEqual([
       'proficiencyBonus',
       'spellAttack',
       'int',
@@ -72,12 +77,11 @@ describe('creatures that follow their owner', () => {
   it('give the armor class and hit points the book’s formula gives, at its lowest and highest level', () => {
     // Checked once against each book's printed formula, for an owner with these modifiers.
     const modifiers = { str: 1, dex: 2, con: 3, int: 4, wis: 5, cha: 0 }
-    const worked = scaled.flatMap(({ monster, publication, stats }) => {
-      const creature = ownedCreatureOf(publication, monster)!
+    const worked = scaled.flatMap(({ monster, publication, stats, creature }) => {
       const forms = stats.options?.filter((option) => option.form).map(({ key }) => key) ?? []
       return (forms.length ? forms : ['-']).flatMap((form) =>
-        [stats.scaling!.min, stats.scaling!.max].map((level) => {
-          const owner = { ...typicalOwner(stats.scaling!, level), modifiers }
+        [creature.levels.min, creature.levels.max].map((level) => {
+          const owner = { ...typicalOwner(creature, level), modifiers }
           const block = ownedStats(creature, stats, owner, form === '-' ? [] : [form])
           return `${publication}/${monster} ${form} ${level}: AC ${block.ac}, HP ${deriveStatBlock(block).maxHp}`
         }),

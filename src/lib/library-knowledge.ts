@@ -567,7 +567,7 @@ export function statBlockText(printing: MonsterPrinting): string {
   ]
   return [
     `${ruleName(stats.size)} ${stats.swarmOf ? `swarm of ${ruleName(stats.swarmOf)} ` : ''}${ruleName(stats.type)}${printing.tags ? ` (${printing.tags.join(', ')})` : ''}${printing.alignment ? `, ${printing.alignment}` : ''}`,
-    `CR ${stats.cr} (${derived.experience.toLocaleString('en')} XP), proficiency ${signed(derived.proficiencyBonus)}`,
+    `${stats.cr ? `CR ${stats.cr} (${derived.experience.toLocaleString('en')} XP)` : 'No challenge rating: it follows its owner, whose numbers it uses'}, proficiency ${signed(derived.proficiencyBonus)}`,
     `AC ${stats.ac}${stats.armor ? ` (${stats.armor})` : ''} · HP ${derived.hitPoints} · Speed ${formatSpeed(stats.speed)} · Initiative ${signed(derived.initiative)}`,
     (Object.keys(ABILITY_SHORT) as (keyof typeof ABILITY_SHORT)[])
       .map((id) => `${ABILITY_SHORT[id]} ${stats.scores[id]} (${signed(derived.modifier[id])})`)
@@ -745,7 +745,7 @@ function entrySheet(entry: Entry, typed?: TypedRef): string {
       const printing = monsterOf(ref)!
       const derived = deriveStatBlock(printing.stats)
       lines.push(
-        `${ruleName(printing.stats.size)} ${ruleName(printing.stats.type)}, CR ${printing.stats.cr}, AC ${printing.stats.ac}, HP ${derived.hitPoints}, speed ${formatSpeed(printing.stats.speed)}`,
+        `${ruleName(printing.stats.size)} ${ruleName(printing.stats.type)}, ${printing.stats.cr ? `CR ${printing.stats.cr}` : 'follows its owner'}, AC ${printing.stats.ac}, HP ${derived.hitPoints}, speed ${formatSpeed(printing.stats.speed)}`,
         `Abilities: ${allAbilities(printing.stats)
           .map(({ name }) => name)
           .join(', ')}`,

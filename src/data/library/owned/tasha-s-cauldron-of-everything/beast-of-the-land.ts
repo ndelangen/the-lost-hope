@@ -2,6 +2,8 @@ import { ownedCreature, withOwnerNumbers } from '#/lib/owned-creature'
 
 /** Beast of the Land, worked out from its Ranger's level and its owner's numbers. */
 export default ownedCreature({
+  follows: { by: 'class', of: 'Ranger' },
+  levels: { min: 3, max: 20 },
   stats: (printed, owner) => {
     const level = owner.level
     return withOwnerNumbers(

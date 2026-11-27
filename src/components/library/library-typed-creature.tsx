@@ -126,10 +126,10 @@ export function LibraryTypedCreature({
       ) : null}
       {dm ? (
         <section className="bg-card rounded-xl border p-4 sm:p-6">
-          {block.scaling && block.owner && (
+          {block.creature && block.owner && (
             <div className="mb-4">
               <ScalingControls
-                scaling={block.scaling}
+                creature={block.creature}
                 owner={block.owner}
                 reads={block.reads}
                 onLevel={block.setLevel}

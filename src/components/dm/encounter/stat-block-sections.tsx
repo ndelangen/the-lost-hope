@@ -6,6 +6,7 @@ import { refs } from '#/data/generated/refs'
 import type { AbilityTiming } from '#/definitions/stat-block'
 import { ABILITY_GROUP_LABEL } from '#/lib/ability-index'
 import { ABILITY_KEYS, ruleOf, ruleRef, type RuleRef } from '#/lib/rules'
+import { isCreature } from '#/lib/stat-block'
 import {
   formatSpeed,
   signed,
@@ -49,17 +50,15 @@ export function StatBlockHeadline({ stats, block }: { stats: AnyStatBlock; block
         </RuleTerm>
       )}{' '}
       ·{' '}
-      {'cr' in stats && stats.scaling ? (
-        // A summoned creature or companion has no challenge rating: it comes from its owner.
-        <>{stats.scaling.of}</>
-      ) : 'cr' in stats ? (
+      {!isCreature(stats) ? (
+        <>level {stats.level} · </>
+      ) : stats.cr ? (
         <>
-          <RuleTerm rule={refs.rules.challenge_rating} /> {stats.cr} ({block.experience} XP)
+          <RuleTerm rule={refs.rules.challenge_rating} /> {stats.cr} ({block.experience} XP) ·{' '}
         </>
-      ) : (
-        <>level {stats.level}</>
-      )}{' '}
-      · <RuleTerm rule={refs.rules.proficiency_bonus} /> {signed(block.proficiencyBonus)}
+      ) : // A summoned creature or companion has no challenge rating: it follows its owner.
+      null}
+      <RuleTerm rule={refs.rules.proficiency_bonus} /> {signed(block.proficiencyBonus)}
     </p>
   )
 }
@@ -178,7 +177,7 @@ export function StatFacts({ stats, block }: { stats: AnyStatBlock; block: Derive
 
 /** Which SRD creatures the block adapts, and what changed, or that it is homebrew. */
 export function StatSource({ stats }: { stats: AnyStatBlock }) {
-  if (!('cr' in stats))
+  if (!isCreature(stats))
     return (
       <p className="text-muted-foreground border-border border-t pt-2 text-xs">
         From the player’s character sheet.
@@ -216,7 +215,7 @@ export function StatSource({ stats }: { stats: AnyStatBlock }) {
 
 /** Damage a 2014 creature shrugs off only from nonmagical attacks, read as the book prints it. */
 function nonmagical(stats: AnyStatBlock, which: 'resistances' | 'immunities') {
-  if (!('cr' in stats)) return undefined
+  if (!isCreature(stats)) return undefined
   const types = which === 'resistances' ? stats.nonmagicalResistances : stats.nonmagicalImmunities
   const list = termList(types)
   if (!list) return undefined

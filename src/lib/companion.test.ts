@@ -5,6 +5,7 @@ import { PC } from '#/definitions/pc'
 
 import { castingAbilityOf, companionOwner, companionStats } from './companion'
 import { monsterPrinting } from './library-monsters'
+import { ownedCreatureOf } from './owned-creatures'
 import { deriveStatBlock } from './stat-block'
 
 const defender = {
@@ -54,7 +55,7 @@ describe('a PC’s companion', () => {
 
 describe('the numbers a companion borrows', () => {
   const printing = monsterPrinting(defender.creature, defender.publication)
-  const stats = printing!.printing.stats
+  const creature = ownedCreatureOf(printing!.owned!.publication, printing!.owned!.monster)!
 
   it('is found in the library', () => {
     expect(printing).toBeDefined()
@@ -62,8 +63,8 @@ describe('the numbers a companion borrows', () => {
 
   it('keeps a class level inside the levels the feature has', () => {
     const low = PC.parse({ ...artificer, level: 1 })
-    expect(companionOwner(low, defender, stats)?.level).toBe(3)
-    expect(companionOwner(artificer, { ...defender, level: 20 }, stats)?.level).toBe(20)
+    expect(companionOwner(low, defender, creature).level).toBe(3)
+    expect(companionOwner(artificer, { ...defender, level: 20 }, creature).level).toBe(20)
   })
 
   it('casts with the class ability unless the companion says otherwise, and never guesses', () => {
@@ -73,11 +74,11 @@ describe('the numbers a companion borrows', () => {
     expect(() => castingAbilityOf(multiclass, defender)).toThrow('needs a castingAbility')
   })
 
-  it('lends the PC’s proficiency bonus even when the PC has no stat block', () => {
+  it('needs the PC’s ability scores rather than guessing them', () => {
     const { stats: _, ...plain } = artificer
-    const inputs = companionOwner(PC.parse(plain), defender, stats)!
-    expect(inputs.proficiencyBonus).toBe(4)
-    expect(inputs.spellAttack).toBe(7)
+    expect(() => companionOwner(PC.parse(plain), defender, creature)).toThrow(
+      'needs ability scores',
+    )
   })
 })
 
@@ -90,7 +91,7 @@ describe('companions in the campaign', () => {
         for (const key of companion.options ?? [])
           expect(printing?.printing.stats.options?.map((option) => option.key)).toContain(key)
         // A companion that follows its PC needs the ability the PC casts with.
-        const follows = Boolean(printing?.printing.stats.scaling)
+        const follows = Boolean(printing?.owned)
         expect(() => follows && castingAbilityOf(pc, companion)).not.toThrow()
       }
   })

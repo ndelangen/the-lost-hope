@@ -9379,7 +9379,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: { by: 'spell', of: 'Giant Insect', min: 4, max: 9 },
         options: [
           {
             key: 'centipede',
@@ -9453,9 +9452,7 @@ export default createPublicationMonsters({
         ],
         size: 'large',
         type: 'beast',
-        cr: '0',
         ac: 11,
-        hitDice: '1d10',
         speed: {
           walk: 40,
           climb: 40,
@@ -9471,6 +9468,7 @@ export default createPublicationMonsters({
         senses: {
           darkvision: 60,
         },
+        printed: { hitPoints: 30 },
         abilities: [
           {
             key: 'spider-climb',

@@ -1,5 +1,4 @@
-import type { Scaling } from '#/definitions/stat-block'
-import type { Owner, OwnerNumber } from '#/lib/owned-creature'
+import type { OwnedCreature, Owner, OwnerNumber } from '#/lib/owned-creature'
 
 const LABELS: Record<OwnerNumber, string> = {
   proficiencyBonus: 'Owner’s proficiency bonus',
@@ -18,19 +17,21 @@ const LABELS: Record<OwnerNumber, string> = {
  * block reads: the spell slot or class level, then what it borrows from whoever summoned or keeps it.
  */
 export function ScalingControls({
-  scaling,
+  creature,
   owner,
   reads,
   onLevel,
   onNumber,
 }: {
-  scaling: Scaling
+  creature: OwnedCreature
   owner: Owner
   reads: readonly OwnerNumber[]
   onLevel: (level: number) => void
   onNumber: (field: OwnerNumber, value: number) => void
 }) {
-  const levels = Array.from({ length: scaling.max - scaling.min + 1 }, (_, i) => scaling.min + i)
+  const { follows } = creature
+  const { min, max } = creature.levels
+  const levels = Array.from({ length: max - min + 1 }, (_, i) => min + i)
   const valueOf = (field: OwnerNumber) =>
     field === 'proficiencyBonus' || field === 'spellAttack' || field === 'spellSaveDc'
       ? owner[field]
@@ -38,11 +39,11 @@ export function ScalingControls({
   return (
     <fieldset className="flex flex-wrap items-end gap-3 text-sm">
       <legend className="text-muted-foreground mb-2 font-semibold">
-        {scaling.by === 'spell' ? `Cast as ${scaling.of} at` : `${scaling.of} level`}
+        {follows.by === 'spell' ? `Cast as ${follows.of} at` : `${follows.of} level`}
       </legend>
       <label className="grid gap-1">
         <span className="text-muted-foreground text-xs">
-          {scaling.by === 'spell' ? 'Spell level' : 'Class level'}
+          {follows.by === 'spell' ? 'Spell level' : 'Class level'}
         </span>
         <select
           value={owner.level}

@@ -579,10 +579,6 @@ const PrintedNumbers = z
     passivePerception: z.number().int().optional(),
     saves: z.partialRecord(AbilityId, z.number().int()).optional(),
     skills: z.partialRecord(z.enum(SKILL_KEYS), z.number().int()).optional(),
-    hitPointsOnly: z
-      .literal(true)
-      .optional()
-      .describe('Hit points with no hit dice, as a summoned spirit has: set by its owner function'),
   })
   .refine(
     (printed) => Object.keys(printed).length > 0,
@@ -629,33 +625,24 @@ const CreatureOption = z.strictObject({
   abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).default([]),
 })
 
-/**
- * A creature a spell summons or a class feature gives a character: its statistics depend on its
- * owner. This says on what and over which levels; how is the creature's own function in
- * `src/data/library/owned/`, which may ignore the owner, work numbers out, or return the stat
- * block the book prints at that level.
- */
-const Scaling = z
-  .strictObject({
-    by: z.enum(['spell', 'class']).describe('What the level is: a spell slot, or a class level'),
-    of: z.string().trim().min(1).describe('The spell or class, e.g. `Summon Aberration`'),
-    min: z.number().int().min(1).max(20),
-    max: z.number().int().min(1).max(20),
-  })
-  .refine(({ min, max }) => min <= max, 'The lowest level comes first')
-
-export type Scaling = z.infer<typeof Scaling>
-
 const creatureShape = {
-  scaling: Scaling.optional(),
   ...statCore,
   options: z
     .array(CreatureOption)
     .min(1)
     .optional()
     .describe('Optional abilities the book prints for this creature; the DM picks them'),
-  cr: z.enum(CHALLENGE_RATINGS),
-  hitDice: z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use hit dice like `3d10`'),
+  cr: z
+    .enum(CHALLENGE_RATINGS)
+    .optional()
+    .describe(
+      'Left out only for a creature that follows its owner (src/data/library/owned/): the book gives it none',
+    ),
+  hitDice: z
+    .string()
+    .regex(/^\d+d(4|6|8|10|12|20)$/, 'Use hit dice like `3d10`')
+    .optional()
+    .describe('Left out when the book gives hit points alone, as for a summoned spirit'),
   printed: PrintedNumbers.optional().describe(
     'Numbers the book prints that its own statistics do not produce: the book wins',
   ),
@@ -675,13 +662,32 @@ const creatureShape = {
     ),
 }
 
+/** Hit points come from hit dice, or the book prints them alone. */
+function checkHitPoints(
+  block: { hitDice?: string; printed?: { hitPoints?: number } },
+  context: z.RefinementCtx,
+) {
+  if (!block.hitDice && block.printed?.hitPoints === undefined)
+    context.addIssue({
+      code: 'custom',
+      message: 'Give `hitDice`, or `printed.hitPoints` when the book has none',
+    })
+}
+
 /**
  * DM-only 5e statistics for an NPC, beast, or shared creature. Only base facts are stored:
  * proficiency bonus, hit points, save and skill bonuses, passive Perception, to-hit bonuses,
  * damage averages and save DCs are derived in `src/lib/stat-block.ts`.
+ * A campaign creature always has a challenge rating and hit dice: only a library creature that
+ * follows its owner goes without.
  */
 export const StatBlock = z
-  .strictObject({ ...creatureShape, source: Source })
+  .strictObject({
+    ...creatureShape,
+    cr: z.enum(CHALLENGE_RATINGS),
+    hitDice: z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use hit dice like `3d10`'),
+    source: Source,
+  })
   .superRefine(checkAbilities)
 
 /**
@@ -689,7 +695,10 @@ export const StatBlock = z
  * that holds it owns where it comes from, so it has no `source`. Derived numbers follow the same
  * rules as `StatBlock`, so the library and the encounter tracker read it the same way.
  */
-export const PrintedStatBlock = z.strictObject(creatureShape).superRefine(checkAbilities)
+export const PrintedStatBlock = z
+  .strictObject(creatureShape)
+  .superRefine(checkAbilities)
+  .superRefine(checkHitPoints)
 
 export type PrintedStatBlock = z.infer<typeof PrintedStatBlock>
 

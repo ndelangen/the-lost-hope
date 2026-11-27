@@ -13,7 +13,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Deep Speech', 'understands the languages you speak'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Aberration', min: 4, max: 9 },
         options: [
           {
             key: 'beholderkin',
@@ -109,14 +108,13 @@ export default createPublicationMonsters({
         ],
         size: 'medium',
         type: 'aberration',
-        cr: '0',
         ac: 11,
         armor: 'natural armor',
-        hitDice: '1d8',
         speed: { walk: 30 },
         scores: { str: 16, dex: 10, con: 15, int: 16, wis: 10, cha: 6 },
         senses: { darkvision: 60 },
         damageImmunities: [rules.psychic],
+        printed: { hitPoints: 40 },
         abilities: [
           {
             key: 'multiattack',
@@ -326,10 +324,8 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'class', of: 'Ranger', min: 3, max: 20 },
         size: 'medium',
         type: 'beast',
-        cr: '0',
         ac: 13,
         armor: 'natural armor',
         hitDice: '3d8',
@@ -382,10 +378,8 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'class', of: 'Ranger', min: 3, max: 20 },
         size: 'medium',
         type: 'beast',
-        cr: '0',
         ac: 13,
         armor: 'natural armor',
         hitDice: '3d8',
@@ -436,10 +430,8 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'class', of: 'Ranger', min: 3, max: 20 },
         size: 'small',
         type: 'beast',
-        cr: '0',
         ac: 13,
         armor: 'natural armor',
         hitDice: '3d6',
@@ -488,7 +480,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Beast', min: 2, max: 9 },
         options: [
           {
             key: 'air',
@@ -561,13 +552,12 @@ export default createPublicationMonsters({
         ],
         size: 'small',
         type: 'beast',
-        cr: '0',
         ac: 11,
         armor: 'natural armor',
-        hitDice: '1d6',
         speed: { walk: 30 },
         scores: { str: 18, dex: 11, con: 16, int: 4, wis: 14, cha: 5 },
         senses: { darkvision: 60 },
+        printed: { hitPoints: 30 },
         abilities: [
           {
             key: 'multiattack',
@@ -601,7 +591,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Celestial', 'understands the languages you speak'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Celestial', min: 5, max: 9 },
         options: [
           {
             key: 'avenger',
@@ -655,15 +644,14 @@ export default createPublicationMonsters({
         ],
         size: 'large',
         type: 'celestial',
-        cr: '0',
         ac: 11,
         armor: 'natural armor',
-        hitDice: '1d10',
         speed: { walk: 30, fly: 40 },
         scores: { str: 16, dex: 14, con: 16, int: 10, wis: 14, cha: 16 },
         senses: { darkvision: 60 },
         damageResistances: [rules.radiant],
         conditionImmunities: [rules.charmed, rules.frightened],
+        printed: { hitPoints: 40 },
         abilities: [
           {
             key: 'multiattack',
@@ -697,7 +685,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Construct', min: 4, max: 9 },
         options: [
           {
             key: 'clay',
@@ -770,10 +757,8 @@ export default createPublicationMonsters({
         ],
         size: 'medium',
         type: 'construct',
-        cr: '0',
         ac: 13,
         armor: 'natural armor',
-        hitDice: '1d8',
         speed: { walk: 30 },
         scores: { str: 18, dex: 10, con: 18, int: 14, wis: 11, cha: 5 },
         senses: { darkvision: 60 },
@@ -787,6 +772,7 @@ export default createPublicationMonsters({
           rules.petrified,
           rules.poisoned,
         ],
+        printed: { hitPoints: 40 },
         abilities: [
           {
             key: 'multiattack',
@@ -821,18 +807,16 @@ export default createPublicationMonsters({
       languages: ['understands the languages you speak'],
       tableNotes: [['Size: Large or smaller.'], ['Movement notes: Can hover\nfly · (hover)']],
       stats: {
-        scaling: { by: 'class', of: 'Bard', min: 6, max: 20 },
         size: 'large',
         type: 'construct',
-        cr: '0',
         ac: 16,
         armor: 'natural armor',
-        hitDice: '1d10',
         speed: { walk: 30, fly: 30 },
         scores: { str: 18, dex: 14, con: 16, int: 4, wis: 10, cha: 6 },
         senses: { darkvision: 60 },
         damageImmunities: [rules.poison, rules.psychic],
         conditionImmunities: [rules.charmed, rules.exhaustion, rules.poisoned, rules.frightened],
+        printed: { hitPoints: 40 },
         abilities: [
           {
             key: 'immutable-form',
@@ -875,7 +859,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Primordial', 'understands the languages you speak'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Elemental', min: 4, max: 9 },
         options: [
           {
             key: 'air',
@@ -1035,10 +1018,8 @@ export default createPublicationMonsters({
         ],
         size: 'medium',
         type: 'elemental',
-        cr: '0',
         ac: 11,
         armor: 'natural armor',
-        hitDice: '1d8',
         speed: {
           walk: 40,
         },
@@ -1061,6 +1042,7 @@ export default createPublicationMonsters({
           rules.poisoned,
           rules.unconscious,
         ],
+        printed: { hitPoints: 50 },
         abilities: [
           {
             key: 'multiattack',
@@ -1080,7 +1062,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Sylvan', 'understands the languages you speak'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Fey', min: 3, max: 9 },
         options: [
           {
             key: 'fuming',
@@ -1140,10 +1121,8 @@ export default createPublicationMonsters({
         ],
         size: 'small',
         type: 'fey',
-        cr: '0',
         ac: 12,
         armor: 'natural armor',
-        hitDice: '1d6',
         speed: {
           walk: 40,
         },
@@ -1159,6 +1138,7 @@ export default createPublicationMonsters({
           darkvision: 60,
         },
         conditionImmunities: [rules.charmed],
+        printed: { hitPoints: 30 },
         abilities: [
           {
             key: 'multiattack',
@@ -1215,7 +1195,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Abyssal', 'Infernal', 'telepathy 60 ft.'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Fiend', min: 6, max: 9 },
         options: [
           {
             key: 'demon',
@@ -1348,10 +1327,8 @@ export default createPublicationMonsters({
         ],
         size: 'large',
         type: 'fiend',
-        cr: '0',
         ac: 12,
         armor: 'natural armor',
-        hitDice: '1d10',
         speed: {
           walk: 40,
         },
@@ -1369,6 +1346,7 @@ export default createPublicationMonsters({
         damageResistances: [rules.fire],
         damageImmunities: [rules.poison],
         conditionImmunities: [rules.poisoned],
+        printed: { hitPoints: 50 },
         abilities: [
           {
             key: 'multiattack',
@@ -1397,10 +1375,8 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'class', of: 'Artificer', min: 3, max: 20 },
         size: 'tiny',
         type: 'construct',
-        cr: '0',
         ac: 13,
         armor: 'natural armor',
         hitDice: '3d4',
@@ -1590,7 +1566,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Shadowspawn', min: 3, max: 9 },
         options: [
           {
             key: 'despair',
@@ -1643,15 +1618,14 @@ export default createPublicationMonsters({
         ],
         size: 'medium',
         type: 'monstrosity',
-        cr: '0',
         ac: 11,
         armor: 'natural armor',
-        hitDice: '1d8',
         speed: { walk: 40 },
         scores: { str: 13, dex: 16, con: 15, int: 4, wis: 10, cha: 16 },
         senses: { darkvision: 120 },
         damageResistances: [rules.necrotic],
         conditionImmunities: [rules.frightened],
+        printed: { hitPoints: 35 },
         abilities: [
           {
             key: 'multiattack',
@@ -1705,10 +1679,8 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'class', of: 'Artificer', min: 3, max: 20 },
         size: 'medium',
         type: 'construct',
-        cr: '0',
         ac: 15,
         armor: 'natural armor',
         hitDice: '3d8',
@@ -1775,7 +1747,6 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'spell', of: 'Summon Undead', min: 3, max: 9 },
         options: [
           {
             key: 'ghostly',
@@ -1883,15 +1854,14 @@ export default createPublicationMonsters({
         ],
         size: 'medium',
         type: 'undead',
-        cr: '0',
         ac: 11,
         armor: 'natural armor',
-        hitDice: '1d8',
         speed: { walk: 30 },
         scores: { str: 12, dex: 16, con: 15, int: 4, wis: 10, cha: 9 },
         senses: { darkvision: 60 },
         damageImmunities: [rules.necrotic, rules.poison],
         conditionImmunities: [rules.exhaustion, rules.frightened, rules.paralyzed, rules.poisoned],
+        printed: { hitPoints: 30 },
         abilities: [
           {
             key: 'multiattack',
@@ -1911,13 +1881,10 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: { by: 'class', of: 'Druid', min: 2, max: 20 },
         size: 'small',
         type: 'elemental',
-        cr: '0',
         ac: 13,
         armor: 'natural armor',
-        hitDice: '2d6',
         speed: { walk: 30, fly: 30 },
         scores: { str: 10, dex: 14, con: 14, int: 13, wis: 15, cha: 11 },
         senses: { darkvision: 60 },
@@ -1929,6 +1896,7 @@ export default createPublicationMonsters({
           rules.prone,
           rules.restrained,
         ],
+        printed: { hitPoints: 15 },
         abilities: [
           {
             key: 'flame-seed',

@@ -1,4 +1,4 @@
-import type { Ability, PrintedStatBlock, Scaling } from '#/definitions/stat-block'
+import type { Ability, PrintedStatBlock } from '#/definitions/stat-block'
 
 import type { AbilityId } from './rules'
 import { proficiencyForLevel, withOptions } from './stat-block'
@@ -22,6 +22,10 @@ export type OwnerNumber = 'proficiencyBonus' | 'spellAttack' | 'spellSaveDc' | A
  * owner is its own: work numbers out, or return the stat block the book prints at that level.
  */
 export type OwnedCreature = {
+  /** What the level is: a spell slot of `of` (`Summon Aberration`), or a level in the class `of`. */
+  follows: { by: 'spell' | 'class'; of: string }
+  /** The levels it has, e.g. spell slots 4 to 9. */
+  levels: { min: number; max: number }
   stats: (printed: PrintedStatBlock, owner: Owner, picked: readonly string[]) => PrintedStatBlock
 }
 
@@ -32,7 +36,6 @@ export type OwnedCreature = {
 export function ownerNumbersRead(
   creature: OwnedCreature,
   printed: PrintedStatBlock,
-  scaling: Scaling,
   picked: readonly string[],
 ): OwnerNumber[] {
   const read = new Set<OwnerNumber>()
@@ -47,8 +50,8 @@ export function ownerNumbersRead(
         return Reflect.has(object, field)
       },
     })
-  for (let level = scaling.min; level <= scaling.max; level++) {
-    const owner = typicalOwner(scaling, level)
+  for (let level = creature.levels.min; level <= creature.levels.max; level++) {
+    const owner = typicalOwner(creature, level)
     creature.stats(
       printed,
       noting({ ...owner, modifiers: noting(owner.modifiers, Object.keys(owner.modifiers)) }, [
@@ -84,8 +87,8 @@ export function ownedStats(
   owner: Owner,
   picked: readonly string[],
 ): PrintedStatBlock {
-  const scaling = printed.scaling
-  const level = scaling ? Math.min(scaling.max, Math.max(scaling.min, owner.level)) : owner.level
+  const { min, max } = creature.levels
+  const level = Math.min(max, Math.max(min, owner.level))
   return withOptions(creature.stats(printed, { ...owner, level }, picked), picked)
 }
 
@@ -98,8 +101,8 @@ export function ownedCreature(creature: OwnedCreature) {
  * A typical owner at a level: a caster who can cast the spell at that slot (or a character of
  * that class level) with a +3 in every ability, for the library to show a creature nobody owns.
  */
-export function typicalOwner(scaling: Scaling, level: number): Owner {
-  const characterLevel = scaling.by === 'spell' ? Math.min(20, level * 2 - 1) : level
+export function typicalOwner(creature: OwnedCreature, level: number): Owner {
+  const characterLevel = creature.follows.by === 'spell' ? Math.min(20, level * 2 - 1) : level
   const pb = proficiencyForLevel(characterLevel)
   const modifiers = { str: 3, dex: 3, con: 3, int: 3, wis: 3, cha: 3 }
   return { level, proficiencyBonus: pb, spellAttack: pb + 3, spellSaveDc: 8 + pb + 3, modifiers }
