@@ -101,7 +101,7 @@ export default createScene({
             {
               icon: 'gi/GiStandingPotion',
               when: [['They ask whether the people ever use it as a drug.']],
-              response: [['“No, that’s forbidden by the Marshal.”']],
+              response: [['“No, that’s forbidden by the master.”']],
               followUps: [
                 {
                   icon: 'gi/GiConversation',
