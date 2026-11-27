@@ -213,6 +213,18 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiAirZigzag',
+          when: [['They ask where the fortress went.']],
+          response: [
+            ['“North. Then it dropped into the clouds.”'],
+            [
+              'That is all anyone saw. It is the same way he is sending them, so flying north can be the party chasing ',
+              refs.pcs.jim,
+              ' as well as leaving.',
+            ],
+          ],
+        },
+        {
           icon: 'gi/GiShrug',
           when: [['They ask why there is no guildhall on the sky islands.']],
           response: [
