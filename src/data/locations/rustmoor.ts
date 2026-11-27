@@ -16,6 +16,11 @@ export default createLocation({
     ],
   ],
   background: [
+    [
+      'It lies very far from ',
+      refs.locations.fajanet,
+      ': so far around the globe that the small hours of the night in Rustmoor are afternoon in Fajanet.',
+    ],
     ['Its map position is a guess.'],
     [
       'Arcane Dust use as a drug is high in Rustmoor. Users are easy to spot once you know the look, the same as the Dust-lost sailors on ',
