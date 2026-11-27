@@ -75,8 +75,9 @@ export default createScene({
             [
               'You must have heard by now that ',
               refs.npcs.light_13th_marshal,
-              ' is not allowed to have land, and can’t travel. Why are you not asking questions?!',
+              ' is not allowed to have land, and can’t travel.',
             ],
+            ['WHEN ARE YOU GOING TO START ASKING QUESTIONS?!'],
           ],
         },
         {
