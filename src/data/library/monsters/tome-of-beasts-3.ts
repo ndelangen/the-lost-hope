@@ -3890,6 +3890,18 @@ export default createPublicationMonsters({
       name: 'Npc: Frost-Afflicted',
       alignment: 'chaotic neutral',
       languages: ['any one language (usually Common)'],
+      appearance: [
+        [
+          'A humanoid whose hands are permanently frostbitten and coated in rime. It feels at home in snow and in ice.',
+        ],
+      ],
+      lore: [
+        [
+          'The frost-afflicted lived through the arctic wastes but were driven mad there. Afterward they rave about a shape in the snow that rescued them, marked them and changed them. They have a bond with ice and cold, can hurl little bolts of frost, and need less food and water than before. Some give their lives to punishing anyone who harms the tundra, some lead expeditions safely across the cold, and others retreat to live alone in the harshest frozen places.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4828,6 +4840,18 @@ export default createPublicationMonsters({
       name: 'Scarab, Ruin',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        [
+          'A large beetle with a bleached-bone shell that moves without a sound. Its cleaver-shaped mandibles slice through a heap of corpses with astonishing speed.',
+        ],
+      ],
+      lore: [
+        [
+          'Lords of undeath create these undead beetles and give them just enough wit to be trained. They carve up corpses, scrub the bones clean, and sort and store whatever parts are useful. They also guard mausoleums, necropolises and the domains of undead lords, sometimes using both talents on trespassers. Necromancers also dispatch them to collect uncommon components, such as a specific organ, eye, wing or pearl, directly from the source.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Planar'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -5402,6 +5426,18 @@ export default createPublicationMonsters({
       name: 'The Flesh',
       alignment: 'neutral evil',
       languages: ['those host knew in life'],
+      appearance: [
+        [
+          'A dog with yellow eyes barks at the far end of an alley. Its body then bulges outward, revealing a huge mouth in its chest and clawed limbs in place of its legs.',
+        ],
+      ],
+      lore: [
+        [
+          "The flesh is a shapeless parasite. It begins as a throbbing lump of tissue that moves into a dead creature and copies the way it acts. The one visible clue is a yellow glint in the host's eyes. It retains only simple memories, works its way into the host's circle of acquaintances, and kills them one at a time. When it attacks, it remakes the host's body into a living weapon, and afterward it must kill and infect someone else to gain a fresh disguise.",
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Farmland', 'Forest', 'Urban'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -5736,6 +5772,18 @@ export default createPublicationMonsters({
       name: 'Wilderness Crone',
       alignment: 'neutral',
       languages: ['Common', 'Sylvan'],
+      appearance: [
+        [
+          'An old woman whose skin is knotted like tree bark, wearing a cloak made of pine boughs, stands under the branches at the edge of the forest.',
+        ],
+      ],
+      lore: [
+        [
+          'People often take them for hags, but wilderness crones are not wicked. They protect their forests and are friendly to anyone who approaches with respect. They live by themselves deep in remote woods, befriend animals and plants, put up with most fey, and distrust outsiders. They scare off woodcutters and hunters, and meet them head-on if they stay. They have no use for gold and offer knowledge or power only once petitioners have defended or enlarged the forest. A crone reflects her surroundings, and the usual temperate kind is the pine crone.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Arctic', 'Forest', 'Mountain'],
       stats: {
         size: 'medium',
         type: 'fey',

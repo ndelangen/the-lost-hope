@@ -2774,6 +2774,14 @@ export default createPublicationMonsters({
           'Encounter context: A Ravager Stabby-Stabber can accompany a Slaughter Lord’s raiding party.',
         ],
       ],
+      appearance: [['A blood-hungry Ravager warlord at the head of a charging mass of cultists.']],
+      lore: [
+        [
+          'Wandering the Dividing Plains and spilling blood, the Ravagers form a death cult on behalf of the Ruiner, a god of betrayal. Slaughter Lords are the warlords in charge of them. Small settlements dread seeing them on the horizon. Lord Mayor Lysandra Kallos of Westruun suspects that something beyond the warlords gives the cult more order than they could manage themselves. That suggests a concealed leader whose goals are unknown.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Plains'],
       stats: {
         size: 'large',
         type: 'humanoid',
@@ -2909,6 +2917,18 @@ export default createPublicationMonsters({
         ['Tal’Dorei Campaign Setting Reborn, p. 250.'],
         ['Encounter context: A Ravager Slaughter Lord leads the warband these fighters serve.'],
       ],
+      appearance: [
+        [
+          'A frenzied Ravager cultist who rushes in with blades, part of the horde that sweeps across the plains.',
+        ],
+      ],
+      lore: [
+        [
+          'A death cult called the Ravagers thunders over the Dividing Plains for the Ruiner, a god of betrayal, spreading chaos and slaughter. Warlords known as Slaughter Lords lead them, and small settlements are afraid of them. The leaders of Westruun think something unseen guides the cult, because it is more organised than its warlords would explain.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Plains'],
       stats: {
         size: 'small',
         type: 'humanoid',

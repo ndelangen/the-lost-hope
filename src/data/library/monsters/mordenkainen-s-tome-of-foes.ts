@@ -3988,6 +3988,17 @@ export default createPublicationMonsters({
           'Optional demonic boon: Baphomet’s boon can grant these traits.\nUnerring Tracker. As a bonus action, the cambion magically links to a visible creature. For up to 1 hour, it can spend a bonus action to learn the target’s distance and direction if they are on the same plane. The link ends if the cambion becomes incapacitated or links to another target.\nIncite the Hunters (Recharges after a Short or Long Rest). As an action, the cambion lets each ally within 30 ft. that has Unerring Tracker spend its reaction to make one weapon attack against the creature that ally is tracking.\nLabyrinthine Recall. The cambion recalls any route it has traveled.',
         ],
       ],
+      appearance: [
+        [
+          'A humanoid with a pair of horns, wings of leather and a muscular tail, the offspring of a fiend.',
+        ],
+      ],
+      lore: [
+        [
+          "A cambion's parents are a humanoid, normally human, and a fiend, most often a succubus or an incubus. Its parentage explains the horns, the tail of sinew and the leathery wings. Cambions mature into merciless adults who think of themselves as mortals' overlords. They may stir up rebellions and muster bands made up of humanoids and minor devils. A cambion raised in the Nine Hells serves as a soldier, messenger or attendant for greater devils. In the Abyss, it has as much authority as its own strength and will can seize. This one is linked to Baphomet.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -4101,6 +4112,17 @@ export default createPublicationMonsters({
         [
           'Optional demonic boon: Orcus’s boon can grant these traits.\nUndying Soul (Recharges after a Short or Long Rest). When reduced to 0 hit points, the cambion immediately makes a DC 10 Constitution save. On a success, it drops to 1 hit point instead.\nAura of Death. While the cambion is not incapacitated, it projects an aura out to 30 ft. from its space. Total cover blocks it. Within the aura, the cambion and friendly undead are immune to being frightened and resist radiant damage. Enemies within the aura have disadvantage on death saving throws.',
         ],
+      ],
+      appearance: [
+        [
+          'A humanoid with a pair of horns, wings of leather and a muscular tail, the offspring of a fiend.',
+        ],
+      ],
+      lore: [
+        [
+          "A cambion's parents are a humanoid, normally human, and a fiend, most often a succubus or an incubus. Its parentage explains the horns, the tail of sinew and the leathery wings. Cambions mature into merciless adults who think of themselves as mortals' overlords. They may stir up rebellions and muster bands made up of humanoids and minor devils. A cambion raised in the Nine Hells serves as a soldier, messenger or attendant for greater devils. In the Abyss, it has as much authority as its own strength and will can seize. This one is linked to Orcus.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
       ],
       stats: {
         size: 'medium',
@@ -9785,6 +9807,13 @@ export default createPublicationMonsters({
         [
           'Infernal patron options: Use the listed spells for the standard Fury of the Nine profile. To customize an infernal cambion, the DM can replace an innate spell with a same-level signature spell from the parent’s cult. The cambion can cast each replacement once per day. A cambion tied to a specific archdevil typically also gains the traits that devil gives its cultists. Fury of the Nine replaces Fiendish Charm for the Zariel and Geryon examples.',
         ],
+      ],
+      appearance: [['A humanoid with a pair of horns, wings of leather and a muscular tail.']],
+      lore: [
+        [
+          "A cambion's parents are a humanoid, normally human, and a fiend, most often a succubus or an incubus. Its parentage explains the horns, the tail of sinew and the leathery wings. Cambions mature into merciless adults who think of themselves as mortals' overlords. They may stir up rebellions and muster bands made up of humanoids and minor devils. A cambion raised in the Nine Hells serves as a soldier, messenger or attendant for greater devils. In the Abyss, it has as much authority as its own strength and will can seize.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
       ],
       stats: {
         size: 'medium',

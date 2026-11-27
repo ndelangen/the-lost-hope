@@ -631,6 +631,18 @@ export default createPublicationMonsters({
         ['Base creature: Commoner'],
         ['Applied templates: Strongheart Halfling'],
       ],
+      appearance: [
+        [
+          'A honey seller who is a prisoner of the Xanathar Guild and has been put to work as a cook.',
+        ],
+      ],
+      lore: [
+        [
+          "A month ago, Bepis Honeymaker was taken from his home in the Trades Ward. The Xanathar Guild sought a ransom for him, but his wife's relatives burned the notes and informed his family that he had left them for another family. These days Ahmaergo keeps him cooking, and sometimes warns that he will hand him over to the mind flayer Nihiloor.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'small',
         type: 'humanoid',

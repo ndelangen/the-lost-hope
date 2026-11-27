@@ -1,13 +1,14 @@
 """Write researched looks, behaviour and lore into typed library creatures.
 
-Usage: python3 -I library-workers/lore/apply-lore.py <batch.json> <result.json>... [--dry]
+Usage: python3 -I library-workers/lore/apply-lore.py <batch.json> <result.json>... [--dry] [--replace]
 
 Each batch names a creature's key and the publication whose printing should carry it; each
 result gives, per key, `appearance` and `lore` written in our own words, optional `habitats`, and
 the `sources` read, or `review` when nothing reliable was found. The text goes on that one
 printing (a creature's looks and lore exist once, not on every reprint): `appearance`, then
 `lore` with a line linking its sources, and `habitats` when the printing has none. A printing
-that already has looks or lore is left alone. Reviews are printed for the human-review list.
+that already has looks or lore is left alone, unless `--replace` is given (for a rewrite of
+those two fields). Reviews are printed for the human-review list.
 """
 import json
 import os
@@ -17,6 +18,7 @@ import sys
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 args = [a for a in sys.argv[1:] if not a.startswith('--')]
 dry = '--dry' in sys.argv
+replace = '--replace' in sys.argv
 pairs = [(args[i], args[i + 1]) for i in range(0, len(args), 2)]
 DASH = re.compile(r'\s[—–]\s|—')
 MIRROR = re.compile(r'5etools|5e\.tools|githubusercontent', re.I)
@@ -43,6 +45,17 @@ def closing(s, i):
                 return i
         i += 1
     raise ValueError('unbalanced')
+
+
+def drop_field(block, name):
+    """Remove a top-level `name: [...]` field (and its trailing comma and line) from a creature block."""
+    m = re.search(r'\n(\s*)' + name + r': \[', block)
+    if not m or m.start() > block.index('stats: {'):
+        return block
+    end = closing(block, m.end() - 1) + 1
+    if block[end:end + 1] == ',':
+        end += 1
+    return block[:m.start()] + block[end:]
 
 
 def js(v):
@@ -92,7 +105,9 @@ for batch_path, result_path in pairs:
         block = source[open_:close + 1]
         head = block.split('stats: {')[0]
         if 'appearance:' in head or 'lore:' in head:
-            continue
+            if not replace:
+                continue
+            block = drop_field(drop_field(block, 'appearance'), 'lore')
         appearance = DASH.sub(', ', entry['appearance'].strip())
         lore = DASH.sub(', ', entry['lore'].strip())
         links = []

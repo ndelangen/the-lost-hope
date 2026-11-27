@@ -203,14 +203,15 @@ export default createPublicationMonsters({
       name: 'Adult Imperial Dragon',
       alignment: 'neutral',
       languages: ['all'],
+      habitats: ['Coastal', 'Underwater'],
       appearance: [
         [
-          'A long, serpentine, wingless dragon with shimmering, opalescent scales, serene and majestic.',
+          'A long, snake-like dragon without wings, its opalescent scales shimmering, calm and regal in bearing.',
         ],
       ],
       lore: [
         [
-          'Imperial dragons are tied to the world of celestials, fiends and spirits, and parley freely with them for knowledge of the outer planes. The most powerful become servants of the gods in exchange for wisdom. They can change colour and form, and are usually golden-yellow, though azure, jade, vermilion, white and black appear. A magical organ in the skull lets them fly without wings, and hunters seek it because it is rumoured to grant eternal life. They love the sea, guard sacred sites beneath the waves, and master wind and rain.',
+          'Imperial dragons are bound up with the world of spirits, fiends and celestials, and they bargain freely with such beings to learn about the outer planes. The mightiest serve the gods in return for wisdom. They can alter their colour and shape. Golden-yellow is the usual hue, but some are azure, jade, vermilion, white or black. An enchanted organ inside the skull keeps them aloft without wings, and hunters pursue it because rumour says it gives endless life. They adore the sea, watch over holy places under the waves, and command wind and rain.',
         ],
         [
           'Sources: ',
@@ -221,7 +222,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Coastal', 'Underwater'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -422,12 +422,12 @@ export default createPublicationMonsters({
       languages: [],
       appearance: [
         [
-          'A cloud of flat grey triangles in the rough shape of a mantis, flickering from place to place and clicking softly as its arm blades swing out.',
+          'A swarm of flat grey triangles arranged roughly like a mantis, blinking from one spot to the next and clicking quietly whenever the blades on its arms swing outward.',
         ],
       ],
       lore: [
         [
-          'Akaasits are constructs from a plane destroyed by a catastrophic misuse of time magic, and exist partly in the past and future. They are mindless, and always move toward some unknown destination, ignoring or attacking creatures at random. They defend themselves but rarely chase a fleeing foe. They are drawn to time-magic casters, but may protect or kill one, and their mood changes daily. When destroyed, the triangles fade within ten minutes, leaving the two blades.',
+          'These constructs come from a plane that was wrecked when time magic was disastrously abused, and they sit partly in the past and the future. They have no minds. They always drift toward a destination nobody knows, and they ignore or attack creatures by chance. They defend themselves but seldom pursue someone who runs. Time-magic casters attract them, yet an akaasit may guard such a caster or kill them, and its temper shifts from day to day. Once one is destroyed, the triangles vanish within ten minutes and only the two blades remain.',
         ],
         [
           'Sources: ',
@@ -1803,14 +1803,15 @@ export default createPublicationMonsters({
       name: 'Avalanche Screamer',
       alignment: 'chaotic evil',
       languages: [],
+      habitats: ['Mountain', 'Arctic'],
       appearance: [
         [
-          'Ice shards scrape together as it moves on many icicle-like legs. Its icy body parts to reveal several toothy maws, and a scream erupts from deep inside.',
+          'Shards of ice grind against one another as it moves on numerous icicle legs. Its frozen body splits open to expose several toothy mouths, and a shriek bursts from deep within.',
         ],
       ],
       lore: [
         [
-          "Avalanche screamers are ancient predators of an icier age that retreated to mountain peaks and polar regions. They hunt cleverly from below or from cliffs and trees above, picking off stragglers one at a time, and use their scream against groups. In unstable terrain the scream can trigger avalanches, which the screamer rides out, then it feels for survivors by vibration and tunnels to them. Warm weather makes them sluggish, so they hide through the short summers after fattening up or stocking their lairs, which are littered with victims' bones.",
+          'Avalanche screamers are old hunters from a colder era who withdrew to high peaks and the polar lands. They are cunning, striking from beneath the snow or from above on cliffs and trees, and taking stragglers one by one, while turning their shriek on groups. On shaky slopes the shriek can start avalanches, which the screamer survives, afterwards sensing survivors by vibration and burrowing to reach them. Heat makes them lethargic, so they fatten up or fill their lairs and then hide away through the brief summers. The lairs are strewn with the bones of victims.',
         ],
         [
           'Sources: ',
@@ -1821,7 +1822,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Mountain', 'Arctic'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2055,12 +2055,12 @@ export default createPublicationMonsters({
       languages: ['Common', 'Deep Speech', 'Void Speech'],
       appearance: [
         [
-          'A horrid biped with cracked, leathery skin, long limbs ending in flensing talons, and three unblinking purple eyes set in its chest. Its neck ends in a nest of lamprey-like heads, and it wears a kilt of bones that rattles as it moves.',
+          'A hideous two-legged thing with split, leathery skin and long limbs that end in flaying talons. Its chest holds three unblinking purple eyes, and a cluster of lamprey-like heads grows where a neck should be. A kilt of bones rattles at its waist.',
         ],
       ],
       lore: [
         [
-          'Avulzors come from a dimension soaked in necrotic energy, where they plot to dominate other planes. They send expeditions to other worlds to kidnap humanoids for experiments, steal magical devices or destroy threats, and they despise all living things. They know humanoid anatomy well and use it to strengthen their undead constructs, and they can shape bone like putty into furniture or instruments.',
+          'Avulzors hail from a dimension steeped in necrotic energy, where they scheme to rule other planes. They dispatch expeditions to far worlds to abduct humanoids for experiments, to steal magical devices, or to eliminate dangers, and they hate every living thing. They understand humanoid anatomy well and use that knowledge to strengthen their undead constructs. They can mould bone like clay into furniture or instruments.',
         ],
         [
           'Sources: ',
@@ -2554,10 +2554,10 @@ export default createPublicationMonsters({
       name: 'Blood Imp',
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
-      appearance: [['A crimson fiend with blood dripping from its lips.']],
+      appearance: [['A crimson fiend, with blood trickling off its mouth.']],
       lore: [
         [
-          "Blood imps are devilish servants of gods of blood, death and decay. On the Material Plane they hurry the deaths of sacrifices and drink spilled blood in their masters' names. They loathe temples of life and healing gods and, near the altar of such a deity, fly into a mad rage and try to defile or destroy it.",
+          "These small devilish attendants serve deities of blood, death and decay. Among mortals they speed up the deaths of sacrificial victims and lap up spilled blood on their masters' behalf. They hate temples of gods of life and healing, and when close to such an altar they become frenzied and try to desecrate or wreck it.",
         ],
         [
           'Sources: ',
@@ -2905,12 +2905,12 @@ export default createPublicationMonsters({
       languages: ['Common', 'Giant'],
       appearance: [
         [
-          'A humanoid with piercing blue eyes and ice-rimed weapons charges with a bloodcurdling battle cry, flinging spears. Their blood has frozen to ice and wintry runes mark the flesh.',
+          'Frost-coated weapons in hand, a humanoid with sharp blue eyes charges with a chilling war cry and throws spears. Ice runs in the veins in place of blood, and winter runes are etched into the skin.',
         ],
       ],
       lore: [
         [
-          "Any humanoid can become one of Boreas' chosen, and some are born marked with runes. Most face trials first: surviving the highest peaks in deep winter, beating a frost giant alone, and making a spear from the fang or claw of an icy beast. Even then Boreas may refuse. The chosen further his aims, guard his holy places, spread winter and honour the North Wind with every fallen foe.",
+          'Humanoids of any kind may become chosen of Boreas, and a few are born bearing the runes. Most must first pass tests: living through deep winter on the tallest peaks, defeating a frost giant single-handed, and crafting a spear from the tooth or talon of a frozen beast. Boreas may still turn them down. Once accepted, they pursue his goals, defend his sacred sites, bring on winter, and pay tribute to the North Wind by killing his enemies.',
         ],
         [
           'Sources: ',
@@ -3200,14 +3200,15 @@ export default createPublicationMonsters({
       name: 'Carnivorous Ship',
       alignment: 'neutral',
       languages: ["understands Common but can't speak"],
+      habitats: ['Ocean'],
       appearance: [
         [
-          "A ship's prow opens into a huge tooth-filled maw, while humanoid-shaped blobs of flesh swarm over the rails.",
+          'The bow of a vessel gapes open into an immense mouth lined with teeth, and lumps of flesh shaped like people crowd over the railings.',
         ],
       ],
       lore: [
         [
-          'A carnivorous ship is a giant cousin of the mimic and a cunning sea hunter, living and hunting alone. It prefers wood, metal, rope and cloth but readily eats whole ships with their crews. Careful captains carry tithes and offerings to placate it in known hunting grounds. It reproduces asexually after a good season, and the young are about the size of rowboats.',
+          'A carnivorous ship is an oversized relative of the mimic and a crafty hunter of the seas that lives and feeds alone. Wood, metal, rope and cloth are its favoured food, but it will happily devour entire ships and their crews. Wary captains bring gifts and tribute to appease one in waters where it is known to hunt. After a good season it breeds without a mate, and its offspring are roughly rowboat-sized.',
         ],
         [
           'Sources: ',
@@ -3218,7 +3219,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Ocean'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -3701,12 +3701,12 @@ export default createPublicationMonsters({
       languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft'],
       appearance: [
         [
-          'A fiend with a featureless grey head, large round eyes, a round mouth of needle teeth, a misshapen torso, short bandy legs and four arms that always hold woodworking tools.',
+          'A fiend with a smooth grey head, big round eyes and a circular mouth full of needle-like teeth, a lopsided body and short bowed legs. It has four arms, each one forever gripping a carpentry tool.',
         ],
       ],
       lore: [
         [
-          "Chatterlomes prey on scorned lovers, offering violent revenge. The supplicant receives a carved oak box with an obsidian heart inlay, which they must deliver to the one who wronged them. When it is opened the chatterlome springs out to take the victim's heart, and even unopened it tracks the victim relentlessly. The supplicant must then deliver the box to nine more victims or forfeit their own life. A run of deaths after mysterious boxes arrive is the warning sign.",
+          "Chatterlomes target jilted lovers, promising brutal revenge. The petitioner is given a carved oak box inlaid with an obsidian heart, to be handed over to whoever caused the hurt. When opened, the chatterlome leaps out and takes the victim's heart, and even a closed box hunts the victim without rest. The petitioner then has to deliver nine further boxes to nine further victims, or lose their own life. A string of deaths following the arrival of strange boxes is the sign to watch for.",
         ],
         [
           'Sources: ',
@@ -4357,14 +4357,15 @@ export default createPublicationMonsters({
       name: 'Crimson Shambler',
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Caves', 'Underdark'],
       appearance: [
         [
-          'A bloody corpse stands up dripping red slime, and each drop splatters into little red spores.',
+          'A bloodied corpse rises dripping red slime, and every drop bursts into tiny red spores when it lands.',
         ],
       ],
       lore: [
         [
-          'The crimson shambler is a mobile form of a hazardous slime mold from deep caverns. A slime mold animates a decaying corpse, so it is often mistaken for undead, wandering dark passages to infect creatures with spores until it finds a place to spawn, where it falls and becomes a new colony of crimson slime.',
+          'The crimson shambler is a walking version of a dangerous slime mold from the deepest caverns. The mold takes over a rotting corpse, so people often think it is undead. It roams dark tunnels infecting creatures with spores until it reaches a spot to reproduce, where it collapses and turns into a fresh colony of crimson slime.',
         ],
         [
           'Sources: ',
@@ -4375,7 +4376,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Caves', 'Underdark'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -5869,12 +5869,12 @@ export default createPublicationMonsters({
       languages: ['Common', 'Void Speech'],
       appearance: [
         [
-          'A muscled reptilian in banded or scaled armour, often with a glossy varnish, swinging a heavy axe, spear or polearm at angels and fiends alike.',
+          'A muscular reptilian clad in banded or scaled armour, frequently with a shiny lacquer, wielding a weighty axe, spear or polearm against angels and fiends alike.',
         ],
       ],
       lore: [
         [
-          'The largest and strongest of the satarre, destroyers hold the shield wall at the front of reptilian armies. In large groups they use void magic to throw up crackling violet shields and stand shoulder to shoulder so enemies cannot reach the mystics behind them. They know necromantic lore but do not cast it, and instead use items looted from victims or command undead through Void Speech.',
+          'Destroyers are the biggest and strongest of the satarre, and they form the shield wall at the head of reptilian armies. In numbers they call on void magic to raise crackling violet barriers and stand shoulder to shoulder, keeping foes away from the mystics at their backs. They know necromantic lore without casting it, relying instead on items taken from victims or on commanding undead through Void Speech.',
         ],
         [
           'Sources: ',
@@ -6023,14 +6023,15 @@ export default createPublicationMonsters({
       name: 'Dread Walker Excavator',
       alignment: 'neutral',
       languages: [],
+      habitats: ['Underwater', 'Wasteland', 'Ruins'],
       appearance: [
         [
-          'A glyph-covered metal spider that crawls slowly over the cracked temples of forgotten beings, its central eye projecting complex diagrams onto the stonework.',
+          'A spider of metal covered in glyphs creeps slowly across the broken temples of forgotten beings, its single central eye casting intricate diagrams on the stone.',
         ],
       ],
       lore: [
         [
-          'Built to protect and dig out ancient magical ruins, excavators are found deep underwater or in wastelands among monuments centuries old. Their minds and orders are indecipherable. They talk to one another, and perhaps to their masters, by a route no one has traced. Sages covet wrecked ones in the hope of recovering ancient magic and lost history, but none has succeeded and many have gone mad trying.',
+          'Made to guard and dig up ancient magical ruins, excavators turn up far below the waves or in barren lands among monuments centuries old. Their thoughts and instructions cannot be understood. They communicate with each other, and maybe with their makers, by a means nobody has traced. Sages covet damaged ones, hoping to recover ancient magic and forgotten history. Nobody has succeeded, and plenty have gone insane trying.',
         ],
         [
           'Sources: ',
@@ -6041,7 +6042,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Underwater', 'Wasteland', 'Ruins'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -6588,14 +6588,15 @@ export default createPublicationMonsters({
       name: 'Fennec Fox',
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Desert', 'Underworld'],
       appearance: [
         [
-          'A tiny fox with huge, half-upright ears and wide eyes that give it a disarmingly friendly look.',
+          'A tiny fox whose enormous ears stand half upright and whose wide eyes make it look charmingly friendly.',
         ],
       ],
       lore: [
         [
-          'A small canine that lives in the shallow parts of the Underworld and the deserts of the Southlands.',
+          'A small member of the dog family found in the upper reaches of the Underworld and in the deserts of the Southlands.',
         ],
         [
           'Sources: ',
@@ -6606,7 +6607,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Desert', 'Underworld'],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -7089,14 +7089,15 @@ export default createPublicationMonsters({
       name: 'Fragrant One',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan', 'telepathy 60 ft'],
+      habitats: ['Forest'],
       appearance: [
         [
-          'A pale yellow and green slug-like creature with a round, kindly human face sits on a large mushroom, long antennae waving above its bald head and its blue eyes calm.',
+          'A pale yellow and green fey like a slug, with a round, gentle human face, sits upon a big mushroom. Its long antennae sway above its hairless head and its blue eyes are serene.',
         ],
       ],
       lore: [
         [
-          'A playful, innocent-seeming fey with a cunning mind. It feeds on companionship and uses pheromones to charm its way into the lives of woodland humanoids and giants, though it understands nothing of real friendship and every bond is built on lies. Alone it is weak, but among several charmed companions it grows thick plates and longer antennae and becomes a real threat.',
+          'A fey that seems playful and innocent but has a sly mind. It lives on company and uses scent chemicals to insinuate itself among forest humanoids and giants, though it grasps nothing of real friendship and each bond rests on deceit. Alone it is feeble. Surrounded by a few charmed companions, though, it develops heavy armour plates and extended feelers, and turns into a real threat.',
         ],
         [
           'Sources: ',
@@ -7107,7 +7108,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Forest'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -9218,12 +9218,12 @@ export default createPublicationMonsters({
       languages: [],
       appearance: [
         [
-          'A cloud of coins clinks deafeningly through the air, swelling and contracting in jerky bursts as it hunts for more valuables.',
+          'A swarm of coins jangles noisily through the air, swelling and shrinking in sudden bursts as it searches for more treasure.',
         ],
       ],
       lore: [
         [
-          'A greed swarm is ordinary valuables animated by a master coin made in a dark ritual as a vessel of endless avarice. It haunts crowded places, sewers as much as streets, and can tell valuables from junk, absorbing the former to grow. If the master coin is destroyed or separated from the swarm, the rest fall as inert coins. It needs plenty of valuables nearby to work, so banks and vaults are particular targets.',
+          'A greed swarm is made of everyday valuables given life by a master coin, forged in a dark rite to hold boundless greed. It haunts busy places, whether sewers or streets, and can distinguish treasure from trash, absorbing treasure to get bigger. Destroying the master coin, or separating it from the swarm, leaves the remainder as lifeless coins on the ground. It needs plenty of valuables close by to function, so banks and vaults attract it especially.',
         ],
         [
           'Sources: ',
@@ -10948,12 +10948,15 @@ export default createPublicationMonsters({
       name: 'Howler Baboon',
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Forest', 'Hills'],
       appearance: [
-        ['Whooping calls ring from the trees as a troop of baboons shows itself, hurling rocks.'],
+        [
+          'Whooping cries echo through the branches as a troop of baboons appears and throws rocks.',
+        ],
       ],
       lore: [
         [
-          'Howler baboons are territorial primates that claim stretches of forest and hills in large troops. You usually hear them first, through the whooping calls they use to warn and call for help. Angered, they attack in ferocious packs, throwing rocks and pummelling the threat together.',
+          'Howler baboons are territorial monkeys that hold stretches of forest and hillside in big troops. You normally hear them before you see them, because they whoop to give warnings and summon help. When provoked they swarm as a fierce pack, hurling stones and beating on the danger as a group.',
         ],
         [
           'Sources: ',
@@ -10964,7 +10967,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Forest', 'Hills'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -11580,14 +11582,15 @@ export default createPublicationMonsters({
       name: 'Illhveli, Nauthveli',
       alignment: 'chaotic evil',
       languages: ["understands Common but can't speak"],
+      habitats: ['Ocean'],
       appearance: [
         [
-          'An enormous whale with a dappled black-and-white hide and a fanged, cow-like head, its eyes blazing with malice, bellows like a bull.',
+          'A huge whale with mottled black and white skin and a cow-like head full of fangs bellows like a bull, its eyes burning with spite.',
         ],
       ],
       lore: [
         [
-          'The nauthveli is one of the largest illhveli, a creature of pure hatred that haunts deep cold water and contests the depths with other sea monsters. Its bull-like bellow carries far, and it is a terror to ships.',
+          "The nauthveli ranks among the biggest of the illhveli, a being made of pure hate that lurks in cold, deep waters and fights other sea monsters for the depths. Its bellow, like a bull's, travels a long way, and ships dread it.",
         ],
         [
           'Sources: ',
@@ -11598,7 +11601,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Ocean'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -11775,14 +11777,15 @@ export default createPublicationMonsters({
       name: 'Imperial Dragon Wyrmling',
       alignment: 'neutral',
       languages: ['Draconic'],
+      habitats: ['Ocean', 'Coastal'],
       appearance: [
         [
-          'A long, wingless, serpentine dragon with shimmering opalescent scales looks serene and majestic.',
+          'A wingless, snake-like dragon with shimmering, opalescent scales that seems calm and regal.',
         ],
       ],
       lore: [
         [
-          'Imperial dragons are tied to the world of celestials, fiends and spirits and trade with them for knowledge of the outer planes. Eldest ones may serve the gods as go-betweens. They can change colour and form, are usually golden-yellow though azure, jade, vermillion, white and black are reported, and fly through a magical organ in the skull rather than wings. Hunters seek that organ, rumoured to grant eternal life. They love the sea and sometimes guard sacred sites near or beneath the waves.',
+          'Imperial dragons have ties to spirits, fiends and celestials, and they trade favours with them to learn about the outer planes. The eldest may act as go-betweens for the gods. They can change shape and colour. Golden-yellow is the common colour, with occasional reports of blue-green, jade, vermillion, pale and dark individuals. Instead of using wings they fly by means of an enchanted organ in the skull. Hunters pursue that organ because it is said to confer endless life. The dragons love the sea and at times watch over holy places on or under the waves.',
         ],
         [
           'Sources: ',
@@ -11793,7 +11796,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Ocean', 'Coastal'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -12209,14 +12211,15 @@ export default createPublicationMonsters({
       name: 'Keelbreaker Crab',
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Coastal'],
       appearance: [
         [
-          "Three figureheads rise from the tattered sails and anchor chain draped over an enormous crab's carapace. As its claws clack, the carved maidens begin to wail.",
+          'Three carved figureheads stick up from ragged sails and anchor chain hung over the shell of a vast crab. When its pincers snap, the wooden women start to wail.',
         ],
       ],
       lore: [
         [
-          "Keelbreaker crabs prey on ships in shallow water and decorate their shells with the wreckage. They go for ships with magical cargo and for enchanted living figureheads. The wails of the figureheads drive most listeners mad, though a figurehead taken intact from a crab might reveal hidden treasure or chart a course to its ship's home harbour.",
+          "Keelbreaker crabs hunt vessels in shallow seas and adorn their shells with the debris. They seek out ships carrying magical cargo and ships with enchanted living figureheads. The figureheads' cries send most who hear them mad, yet a figurehead recovered whole from a crab might point to buried treasure or plot a route back to the harbour its ship sailed from.",
         ],
         [
           'Sources: ',
@@ -12227,7 +12230,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Coastal'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -13694,14 +13696,15 @@ export default createPublicationMonsters({
       name: 'Magnetic Elemental',
       alignment: 'neutral',
       languages: ['Terran'],
+      habitats: ['Mountain'],
       appearance: [
         [
-          'A large, smooth rock walks with the air humming around it, and nearby daggers, lanterns and buckled boots drift after it.',
+          'A big, polished stone strides along while the air hums around it, and daggers, lanterns and buckled boots in the vicinity float along behind.',
         ],
       ],
       lore: [
         [
-          'Magnetic elementals appear where the Plane of Earth meets the Plane of Air, and the air wears them smooth. They fly using that air and, on the Material Plane, stay where wide stretches of rock are open to the sky, like peaks and deep canyons. A summoner has to mix iron shavings into the clay, and the elemental tends to pull in the armour and weapons of anyone nearby by accident.',
+          'Magnetic elementals come into being at the border of the Plane of Earth and the Plane of Air, and the winds polish them smooth. They fly on those winds and, in the Material Plane, remain in places where broad stretches of stone lie exposed to the sky, such as peaks and chasms. Anyone summoning one must knead iron filings into the clay, and the creature is liable to pull in nearby armour and weapons without meaning to.',
         ],
         [
           'Sources: ',
@@ -13712,7 +13715,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Mountain'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -14154,12 +14156,12 @@ export default createPublicationMonsters({
       languages: ['all', 'telepathy 60 ft'],
       appearance: [
         [
-          'An amber-skinned angelic figure in leather armour spreads white wings as it takes a long pull from an enormous drinking horn.',
+          'An angelic being with amber skin and leather armour opens white wings while draining a huge drinking horn.',
         ],
       ],
       lore: [
         [
-          "Mead archons are emissaries of gods who love battle and strong drink. They are good-natured, loud warriors who inspire others with courage and feats of strength, sent when a god needs to bolster mortal troops. After a win they stay to drink, sing and swap tales. They also coach a deity's mortal champion before a contest or key battle, tough but encouraging, celebrating wins and drinking away losses.",
+          "Mead archons serve as envoys of deities who relish combat and strong drink. They are jovial, noisy fighters who stir others to bravery and feats of strength, and they are dispatched when a god wants to lift the morale of mortal soldiers. After a victory they linger to feast, sing and trade stories. They also train a god's mortal champion ahead of a duel or major battle, stern but supportive, cheering victories and drowning defeats in drink.",
         ],
         [
           'Sources: ',
@@ -15694,11 +15696,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["understands the languages of its creator but can't speak"],
       appearance: [
-        ['A large, rotting heart floats forward, its hypnotic heartbeat echoing around it.'],
+        [
+          'A great decaying heart drifts forward, the hypnotic thump of its beat resounding all around.',
+        ],
       ],
       lore: [
         [
-          'An ortifex exists to absorb blood. It disorients prey with its heartbeat and magically drains them, leaving a shrivelled husk. Only large hearts work, from giants, dragons and huge beasts, and necromancers pay well for a big, fresh one. Blood cults, necromancers and intelligent undead send them to demoralise a village or collect a blood sacrifice.',
+          'An ortifex is made to soak up blood. Its heartbeat confuses prey, and it then drains them by magic until only a dried husk is left. Only large hearts will do, taken from giants, dragons and enormous beasts, and necromancers pay generously for a large, fresh specimen. Cults of blood, necromancers and intelligent undead dispatch ortifexes to terrorise a village or to gather blood for a sacrifice.',
         ],
         [
           'Sources: ',
@@ -16741,6 +16745,14 @@ export default createPublicationMonsters({
       name: "Pixie's Umbrella",
       alignment: 'unaligned',
       languages: [],
+      appearance: [['Many flat mushrooms with purple caps drift and turn in the air.']],
+      lore: [
+        [
+          'These mushrooms grow in enormous colonies in the Underworld. When danger approaches, they pump air into their caps to lift off, then release it and glide down on the broad flat caps. Drifting lets them settle on cliff faces and walls where nothing can reach them, and hungry travellers sometimes fall while trying to pick them. Hunters of the Underworld may use a migrating colony as cover while sneaking up on prey.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'plant',
@@ -17297,14 +17309,15 @@ export default createPublicationMonsters({
       name: 'Quoreq',
       alignment: 'chaotic evil',
       languages: ["understands Common but can't speak", 'telepathy 60 ft'],
+      habitats: ['Urban'],
       appearance: [
         [
-          'A faceless, vaguely humanoid creature with long raking claws and a jerking gait has mushroom-grey skin covered in bumps and eddies, as if something seethed under it.',
+          'A loosely human creature with no face, a lurching walk and long claws that rake. Its skin is the grey of mushrooms and covered in lumps and swirls, as though something boiled beneath.',
         ],
       ],
       lore: [
         [
-          'Quoreqs live on the edges of human society in abandoned buildings, polluted thickets and grimy alleys, born from misery and squalor as negative thoughts given form. They are drawn to people in despair or pain. They feel no fear or love and hurt victims to share the intense emotions, often asking them telepathically how it feels. With mouths hidden under rigid flesh, they must rip open their own bodies to eat.',
+          'Quoreqs dwell at the margins of human settlements, in empty buildings, fouled thickets and filthy alleys, and they are born out of misery and squalor as bad thoughts take shape. People in despair or pain draw them. They feel neither fear nor love, and they hurt victims to share in the strong feelings, often asking by telepathy how it feels. Their mouths lie beneath hard flesh, so they have to tear their own bodies open to eat.',
         ],
         [
           'Sources: ',
@@ -17315,7 +17328,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -17421,10 +17433,13 @@ export default createPublicationMonsters({
       name: 'Radiant Spark Swarm',
       alignment: 'neutral',
       languages: [],
-      appearance: [['A big cloud of tiny glowing sparks of fire floats silently through the air.']],
+      habitats: ['Planar'],
+      appearance: [
+        ['A large cloud of minuscule glowing sparks floats without a sound through the sky.'],
+      ],
       lore: [
         [
-          'Radiant spark swarms form when the border between the Plane of Fire and the Upper Planes is unstable, with thousands of sparks created at once, then they wander alone, usually on planar borders but sometimes into the Material Plane through portals. They are drawn to powerful magic, which seems to comfort them though they cannot use or eat it. They are not very intelligent or evil and are almost always destroyed eventually.',
+          'Radiant spark swarms are produced when the frontier where the Plane of Fire touches the Upper Planes turns unstable and throws off thousands of sparks in one moment. They then roam separately, normally along planar frontiers but sometimes entering the Material Plane through portals. Strong magic attracts them and seems to soothe them, though they can neither use it nor eat it. They have little intellect and no particular malice, and nearly all end up destroyed.',
         ],
         [
           'Sources: ',
@@ -17435,7 +17450,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Planar'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -17644,14 +17658,15 @@ export default createPublicationMonsters({
       name: 'Rock Roach',
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Underground'],
       appearance: [
         [
-          'An insect clings to a big rock and drips saliva on it, a puff of steam rises, and it laps at the liquid remains, leaving a pockmark in the stone.',
+          'An insect clings to a large boulder and drools onto it, steam puffs up, and it laps up the melted remnants, and a hollow is left in the rock.',
         ],
       ],
       lore: [
         [
-          'Rock roaches are giant relatives of roaches that eat rock deep underground, dissolving it with acidic saliva. A group can chew through a wall and open routes between caves, with little regard for stability, which can cause cave-ins. They are hostile to everything nearby including each other. Parents abandon eggs, and the young stay together for a few months, eating the rock they hatched in, then scatter. Their carapaces are valued by some groups.',
+          'Rock roaches are huge cousins of the common roach that feed on stone far below the surface, melting it with their acidic spit. A group can gnaw through a wall and link caverns, paying little heed to whether the rock stays up, so collapses can follow. They are hostile to everything around them, one another included. Parents leave their eggs, and the hatchlings remain together for some months feeding on the rock where they hatched before going their separate ways. Some groups prize their shells.',
         ],
         [
           'Sources: ',
@@ -17662,7 +17677,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Underground'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -17954,6 +17968,18 @@ export default createPublicationMonsters({
       name: 'Rum Lord',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A big gremlin sits up from a throne made from a hollowed barrel. It belches noisily. In one hand it waves a wooden tap like a royal staff, and in the other it clutches a smashed bottle.',
+        ],
+      ],
+      lore: [
+        [
+          'A rum lord rules a boozy court of lesser rum gremlins and entertains disreputable guests, wererats and ratfolk among them. Anyone who wants its help should arrive with a rare drink. It despises other creatures that move into taverns on its turf, above all fellow rum lords, clurichauns and alehouse drakes. Rum gremlins hate bells, but a rum lord does not, and it often strips bells from its territory. It keeps a single bell hidden away, and uses it to punish disobedient minions.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -18700,14 +18726,15 @@ export default createPublicationMonsters({
       name: 'Sasori Fukurowashi',
       alignment: 'neutral good',
       languages: ['Common', 'Sylvan'],
+      habitats: ['Forest'],
       appearance: [
         [
-          'A pair of glowing golden avian eyes in a tree, horn-like feathered ears on a muscular winged form, with insect-like claws beneath the wings, and a soft, echoing voice asks if you are lost.',
+          'Two glowing golden bird eyes peer from a tree. The body is muscular and winged, with feathered tufts like horns on the head and insect-like claws under the wings, and a gentle, echoing voice wonders whether you have lost your way.',
         ],
       ],
       lore: [
         [
-          'Sasori fukurowashi are kami born of reincarnated noble souls who protected nature. Unlike other kami they are not bound to a shrine and cannot be summoned. They act as divine agents, messengers or roaming guardians, generally peaceable, befriending non-evil humanoids, fey and others who do not defile nature. They rest or meditate by day and are active from dusk to dawn, and can shift to the Ethereal Plane to help nearby kami or respectful, contrite travellers.',
+          'Sasori fukurowashi are kami that arise from the reborn souls of honourable people who once shielded the natural world. Unlike other kami, they have no shrine to tie them down and cannot be called up. They serve as agents of the divine, as messengers or as wandering guardians, and are mostly peaceful, making friends of humanoids that are not evil, and of fey and any others who respect nature rather than defiling it. They rest or meditate through the day and are awake from dusk until dawn, and they can step into the Ethereal Plane to aid kami nearby or respectful, repentant travellers.',
         ],
         [
           'Sources: ',
@@ -18718,7 +18745,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -19645,14 +19671,15 @@ export default createPublicationMonsters({
       name: 'Shimmer Seal',
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Arctic coast'],
       appearance: [
         [
-          'A tusked seal is almost transparent, organs included, apart from a few spots on its hide. Against anything but water or ice it leaves a telltale shimmer.',
+          'A tusked seal that is nearly see-through, internal organs too, except for a few patches on its hide. Against any backdrop other than water or ice it gives off a faint glimmer.',
         ],
       ],
       lore: [
         [
-          'It blends into water and icy backgrounds, and loses its transparency only while eating fish or small mammals, so it feeds in hidden spots. Scholars think shimmer seals form when the spirit of someone devoted to protecting overhunted animals merges with an ordinary seal. When one dies defending a pod from hunters, another seal in the pod turns into a new shimmer seal within a minute. Arctic druids and rangers who befriend them use them as spies or as an advance wave of attack.',
+          'It blends in with water and ice, and only turns opaque while it is eating fish or little mammals, so it dines out of sight. Scholars suspect shimmer seals arise when the spirit of a devoted defender of overhunted animals joins with a regular seal. If one dies defending its group from hunters, another seal in that group becomes a new shimmer seal inside sixty seconds. Druids and rangers of the Arctic who befriend them employ them as scouts or as a first wave in an attack.',
         ],
         [
           'Sources: ',
@@ -19663,7 +19690,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Arctic coast'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -21152,14 +21178,15 @@ export default createPublicationMonsters({
       name: 'Stone Creeper',
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Ruins', 'Underground'],
       appearance: [
         [
-          'A cluster of vines with elongated tendrils and leaves, clear fluid dripping from its thorns onto the floor.',
+          'A knot of vines with long tendrils and leaves, clear liquid dripping from its thorns to the ground.',
         ],
       ],
       lore: [
         [
-          'Stone creepers are semi-intelligent plants that feed on the mortar holding walls together, dissolving it with acid. They hide deep in stonework in ruined castles and reinforced tunnels, passing for ordinary vines, and pull back when a threat is below, dropping loose bricks and stones on intruders. They live in groups of three to five, eating through a room until it collapses and then moving on.',
+          'Stone creepers are plants of middling intelligence that live on the mortar that binds walls together, eating it away with acid. They conceal themselves deep in masonry in ruined castles and braced tunnels, looking like regular vines, and they draw back when a threat comes beneath, letting loose bricks and rocks fall onto intruders. Groups of between three and five work through a room until it caves in, then move along.',
         ],
         [
           'Sources: ',
@@ -21170,7 +21197,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Ruins', 'Underground'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -21364,14 +21390,15 @@ export default createPublicationMonsters({
       name: 'Sulsha',
       alignment: 'lawful evil',
       languages: ['Common', 'Simian'],
+      habitats: ['Jungle'],
       appearance: [
         [
-          'A monstrous ape bigger than a gorilla with bright red fur, twin tufts of black hair rising like horns and a bony spur on its long tail. Its eyes glow with evil intelligence and it carries a bag of incendiary devices.',
+          'A monstrous ape larger than a gorilla, with vivid red fur, two black tufts standing up like horns, and a spur of bone on its long tail. The eyes shine with wicked cunning, and it carries a pouch of fire-making devices.',
         ],
       ],
       lore: [
         [
-          'Sulshas are tyrannical simian humanoids of thick jungles, especially in hilly or mountainous country. They are obsessed with conquering their neighbours and are in constant war with the other creatures of their homeland. They even force their simian cousins into service.',
+          'Sulshas are domineering ape-like humanoids living in dense jungle, especially where the land is hilly or mountainous. They are fixated on conquering their neighbours and fight constant wars against everything else native to their homeland. They also press their ape cousins into service.',
         ],
         [
           'Sources: ',
@@ -21382,7 +21409,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Jungle'],
       stats: {
         size: 'large',
         type: 'humanoid',
@@ -22075,6 +22101,18 @@ export default createPublicationMonsters({
       name: 'Tetomatli',
       alignment: 'chaotic evil',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A heavy construct of basalt, built like an ape but with bat wings where arms would be. Its head ends in a broad stone mallet, and it has no mouth, eyes or nose. It taps the ground with a ringing thwack.',
+        ],
+      ],
+      lore: [
+        [
+          'Worshippers of Mechuiti, the demon lord of apes, build tetomatlis as guardians for the holiest of their shrines and temples. Doing so calls for the sacrifice of a number of humans or apes, and the result carries a taint of chaos and evil. Cruel by nature, they enjoy crushing victims into paste. They can neither see nor hear, and find their way by knocking their heads against the ground. Because they are chaotic, a clever foe can sometimes draw them off their posts or trick them into a hazard. The technique has since reached other demon cults and wicked golem makers.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Forest', 'Urban'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -22309,14 +22347,15 @@ export default createPublicationMonsters({
       name: 'Trollkin Raider',
       alignment: 'neutral',
       languages: ['Common', 'Trollkin'],
+      habitats: ['Taiga', 'Forest'],
       appearance: [
         [
-          'Screams echo in the night as spears meet wood and flesh, and trollkin raiders strip a larder while their friends fight.',
+          'Screams ring out in the night as spears strike timber and flesh, and trollkin raiders empty a pantry while their companions fight.',
         ],
       ],
       lore: [
         [
-          'Trollkin raiders are greedy and efficient, moving under a leader to take apart a village, caravan or small fortress, mostly for food and portable wealth. They have little formal training but trust and fight for one another. They attack at night, using panicked animals or a fire as a diversion while the real assault comes elsewhere, and avoid daylight attacks over open ground. They can lope for miles but prefer to ride horses or row up rivers, which gives them speed and room for plunder.',
+          'Trollkin raiders are avaricious and efficient, advancing behind a leader to dismantle a village, caravan or small fort, chiefly seeking food and valuables they can carry. Their formal training is slight, but they trust each other and fight for each other. They strike at night, using frightened animals or a blaze as a distraction while the true assault comes from another side, and they steer clear of attacking over open ground in daylight. Running for miles is within their ability, but they would rather ride horses or row upriver, gaining speed and space for loot.',
         ],
         [
           'Sources: ',
@@ -22327,7 +22366,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Taiga', 'Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -22888,12 +22926,12 @@ export default createPublicationMonsters({
       languages: ['Void Speech'],
       appearance: [
         [
-          'A writhing mass of hundreds of rubbery blue-grey tentacles rises from a human-sized pair of legs ending in elephantine feet. Every tentacle ends in an eerily human mouth.',
+          "A squirming mass of hundreds of blue-grey rubbery tentacles grows from a pair of human-sized legs that end in feet like an elephant's. Each tentacle finishes in an unsettlingly human mouth.",
         ],
       ],
       lore: [
         [
-          'Vangsluagh make a din wherever they go, as the mouths scream, whistle, bleat, growl and cry, and this betrays them even when they want a quiet ambush. They despise pretty things, whether creatures, objects or buildings, and would rather smash beauty to bits. When nothing beautiful is left they are not always calmed and turn on living creatures first. Stories from their magic-blasted homeland say some can silence the noise around them.',
+          'Vangsluagh are noisy wherever they go, because every mouth is screaming, whistling, bleating, growling or sobbing, and that racket gives them away even when they want to ambush quietly. They loathe attractive things of any sort, living, made or built, and would sooner smash beauty to pieces. With nothing lovely left, they are not always soothed and will turn on living creatures first. Tales from their homeland, ruined by magic, say that some can hush the sound around them.',
         ],
         [
           'Sources: ',
@@ -24367,6 +24405,18 @@ export default createPublicationMonsters({
       name: 'Yavalnoi',
       alignment: 'chaotic evil',
       languages: ['Aquan', 'Primordial'],
+      appearance: [
+        [
+          'A horrifying creature climbs up from the sea floor. It resembles a bloated mermaid with a finned tail and claws, and its human-like head has a fishy mouth and big yellow eyes. A boat-anchor-shaped growth on its forehead casts a pale blue glow over shimmering crimson scales.',
+        ],
+      ],
+      lore: [
+        [
+          'These evil aberrations are able to mate with nearly any creature of the sea, whether sahuagin or kraken. A child usually takes after the other parent, though occasionally it is another yavalnoi or something quite unlike either, and that accounts for many of the odd beasts of the deep. Wicked sea dwellers such as sahuagin and scrags revere them nearly as deities, feeding and defending them. A yavalnoi therefore tends to come with a flock of adoring followers ready to die on its behalf.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Underwater'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -24711,12 +24761,12 @@ export default createPublicationMonsters({
       languages: [],
       appearance: [
         [
-          'A small house cat purrs and twitches its tail, then lets out a blood-curdling yowl and arches its back. An illusion falls away to show a rotting undead cat with glowing green eyes, long teeth and knife-like claws.',
+          'A little housecat purrs and twitches its tail before it lets out a bloodcurdling yowl and arches its back. Then an illusion falls away, uncovering a decaying undead cat with eyes that glow green, long fangs and claws like knives.',
         ],
       ],
       lore: [
         [
-          'Yowlers are undead house pets and familiars with a score to settle and a hatred of the living. Many were mistreated in life by terrible masters.',
+          'Yowlers are dead house cats and familiars with a grudge to settle and a loathing for the living. A lot of them were abused by cruel owners while alive.',
         ],
         [
           'Sources: ',
@@ -24840,12 +24890,12 @@ export default createPublicationMonsters({
       languages: ['all', 'telepathy 60 ft'],
       appearance: [
         [
-          'A slender, silvery-skinned creature moves delicately, as though unsure the world is real, with star-like motes of white light dancing in its black eyes.',
+          'A slender creature with silvery skin steps lightly, as if doubting the world is real, with white points of light like stars drifting within dark eyes.',
         ],
       ],
       lore: [
         [
-          "Yumerai are fey said to be born from the dreams of an ancient primeval being, and they walk in both the waking and dreaming worlds. They cannot sleep or dream themselves and think dreaming a gift. A yumerai can enter someone's dream and use it to travel to another sleeper's dream, so a shared dream may mean one passed through. They gather dream energy as currency in the fey realms, where it is used like paint or to make illusions. They struggle to tell dreams from reality.",
+          "Fey, said to arise from the dreaming of some ancient primal being, the yumerai walk in the waking and dreaming worlds alike. They cannot sleep or dream and regard dreaming as a gift. One can step into a person's dream and use it to cross into another sleeper's dream, so a dream that two people share may mean a yumerai passed between them. In the fey realms they collect dream energy as money, using it like pigment or to craft illusions. They have trouble telling dreams from reality.",
         ],
         [
           'Sources: ',

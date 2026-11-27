@@ -748,6 +748,18 @@ export default createPublicationMonsters({
           'Optional wager spells: For a giant that has won a wager for spellcasting power, add one or more of Circle of Death, Harm, Otiluke’s Freezing Sphere, and Sunbeam to Spellcasting. Each added spell is usable once per day.',
         ],
       ],
+      appearance: [
+        [
+          'A cloud giant wearing a half mask over its eyes, surrounded by treasures, with the relaxed air of someone who always wins.',
+        ],
+      ],
+      lore: [
+        [
+          'A cloud giant rises in the ordning by collecting valuable treasures, and gambling is a common route. A destiny gambler has beaten giants, smaller folk and even Outer Plane beings, each time for bigger stakes. Its runic half mask gives it normal sight and lets it pierce illusions, invisible things, darkness and any other trickery. So many wins have made it confident enough to let rivals set the terms of a bet. Anyone foolish enough to choose a fight will find that its magic has almost no equal.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Cloud giant courts'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3093,6 +3105,18 @@ export default createPublicationMonsters({
       page: 136,
       alignment: 'any alignment',
       languages: ['Common', 'Druidic', 'Giant.'],
+      appearance: [
+        [
+          'A firbolg, a far-off relative of giants, with the ancient magic of the forest in its soul.',
+        ],
+      ],
+      lore: [
+        [
+          "Firbolgs first wandered the old forests that exist across the multiverse. Their magic seeped into the firbolgs' souls, where it still hums. Many feel the pull of Diancastra, whose cunning and resourcefulness match their natural magic of concealment and trickery, or of Hiatea, because tradition among them stresses community and harmony.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3194,6 +3218,18 @@ export default createPublicationMonsters({
       page: 137,
       alignment: 'any alignment',
       languages: ['Common', 'Giant.'],
+      appearance: [
+        [
+          'A firbolg, a far-off relative of giants, with the ancient magic of the forest in its soul.',
+        ],
+      ],
+      lore: [
+        [
+          "Firbolgs first wandered the old forests that exist across the multiverse. Their magic seeped into the firbolgs' souls, where it still hums. Many feel the pull of Diancastra, whose cunning and resourcefulness match their natural magic of concealment and trickery, or of Hiatea, because tradition among them stresses community and harmony.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3820,6 +3856,18 @@ export default createPublicationMonsters({
           'Elemental core: The core is a Large object within the chest cavity with AC 16, 140 HP, and immunity to lightning, poison, and psychic damage. It sheds dim light in a 10-ft. radius. Destroying it makes the colossus berserk and prevents further swallowing. The colossus ejects all swallowed creatures, which land prone in spaces within 10 ft. If the colossus dies, swallowed creatures lose the restrained condition and can spend 10 ft. of movement to leave the corpse, exiting prone.',
         ],
       ],
+      appearance: [
+        [
+          'A huge construct of giant flesh sewn onto a skeleton of adamantine, with a stone sphere at its heart.',
+        ],
+      ],
+      lore: [
+        [
+          'In the early years of the giant empires, wizard giants stitched the bodies of dead giants onto a skeleton of adamantine so the fallen could go on serving. At the centre sits a stone sphere filled with spirits from every elemental plane. A few of these old colossi still watch over forgotten ruins, holy sites and lost treasures, and might also hold the secret of building more.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Ruins', 'Giant sacred sites'],
       stats: {
         size: 'gargantuan',
         type: 'construct',
@@ -4545,6 +4593,16 @@ export default createPublicationMonsters({
       page: 146,
       alignment: 'typically neutral evil',
       languages: ['Aquan', 'Common', 'Giant.'],
+      appearance: [
+        ['A frost giant whose armour carries giant crossbows that shoot barbed harpoons.'],
+      ],
+      lore: [
+        [
+          "Frost giants who turn from the Ordning to Elemental Evil more often give their service to Olhydra, the Princess of Evil Water, than to frost primordials like Cryonax. To them, water is a cruel force whose perfect form is ice. They conceal their loyalty for as long as they can while pushing their communities toward greater cruelty. If they are found out and driven away, they frequently head Olhydra's cults in colder regions. Olhydra lets them breathe underwater, and the harpoons drag enemies down into the water or across it.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Cold regions', 'Elemental Evil cults'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -6250,6 +6308,18 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic neutral',
       languages: ['Auran', 'Giant.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A two-legged figure of dark storm clouds. Some parts are more solid but still clear enough to show the swirling vapour within, and wisps are always seeping out. When it dies, it condenses and pours away as water.',
+        ],
+      ],
+      lore: [
+        [
+          "Mist hulks are descended from ancient cloud giants and reflect their blend of Air and Water. After long ages alone, frequently in a hidden demiplane or on one of the Elemental Planes, they retain little of the giants' shape and even less of their culture. Its temper is permanently gloomy. If threatened, it often wails in misery, and the sound magically reminds everyone who hears it of regrets from the past, whether genuine or imagined.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Elemental Plane', 'Sky'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -8457,6 +8527,17 @@ export default createPublicationMonsters({
       page: 179,
       alignment: 'typically neutral evil',
       languages: ['Common', 'Giant', 'Terran.'],
+      appearance: [
+        [
+          "A stone giant in thick armour modelled on the cult's patron, carrying a weapon that throbs with thunder.",
+        ],
+      ],
+      lore: [
+        [
+          "Cruel stone giants may turn from the Ordning's gods and worship Prince Ogrémoch of Evil Earth, seeing the world above as a horror that has to be smashed. They give their strength to cults that intend to grind the world to rubble, and serve as those cults' muscle.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -8703,6 +8784,18 @@ export default createPublicationMonsters({
       page: 181,
       alignment: 'unaligned',
       languages: ['Understands Giant but cannot speak.'],
+      appearance: [
+        [
+          'An enormous crab with four huge claws and a venomous stinger, able to spray a stream of water under pressure.',
+        ],
+      ],
+      lore: [
+        [
+          "Storm crabs are comfortable both in the water and on land. Giants on some worlds claim that Stronmaus, or one of his offspring, made them early in an ancient empire's history to battle dragon turtles and bronze dragons, among other enemies of the sea. On many worlds they ferociously defend ruined keeps that giants left behind, as well as the submerged strongholds of storm giants.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Coastal', 'Underwater'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',

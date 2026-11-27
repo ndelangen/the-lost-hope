@@ -262,6 +262,18 @@ export default createPublicationMonsters({
       name: 'Baba Lysaga’s Creeping Hut',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          "A rickety timber cottage perched on a stump. Its rotting roots dangle into the swamp like the legs of a spider, a giant's skull hangs inverted in the air beside the door, and ravens sit in cages under the roof edge. Once it wakes, the roots tear loose from the muck and the whole building stumbles forward, creaking and splintering as it goes.",
+        ],
+      ],
+      lore: [
+        [
+          'Baba Lysaga powers the hut with a gem of magic taken from the vineyard of the Wizard of Wines. The hut heeds nobody else. If visitors linger too long, she orders it to strike. It keeps fighting until someone wrecks it or pulls out the gem that drives it.',
+        ],
+        ['Sources: ', 'Curse of Strahd, pp. 163-166'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'gargantuan',
         type: 'construct',
@@ -422,6 +434,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'An old hag wearing a tall black hat and a sack-cloth dress blackened with soot. She rasps out calls for Grizzlegut, her black cat, which has gone missing.',
+        ],
+      ],
+      lore: [
+        [
+          'These witches serve Strahd and make their homes inside Castle Ravenloft. One of them prowls the halls in search of her lost cat. When adventurers confront her, she spits at them and starts to cast. Because she can see in the dark, ducking into shadow will not keep you hidden from her.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 49'],
+      ],
+      habitats: ['Castle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3627,6 +3651,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful good',
       languages: ['Abyssal', 'Common', 'Elvish', 'Infernal'],
+      appearance: [
+        [
+          'A flamboyant half-elf bard, who is in truth Rudolph van Richten, a vampire hunter, in disguise. He spins outrageous stories and says he runs a travelling carnival.',
+        ],
+      ],
+      lore: [
+        [
+          'For close to a month now Rictavio has been staying at the Blue Water Inn, where he performs for the patrons even though he cannot play music. He once had a monkey called Piccolo for company and passed it on to the local toymaker. His hat is a hat of disguise, his ring protects his mind, and a saber-toothed tiger he has tamed travels with him. On his person is the key that opens his carnival wagon.',
+        ],
+        ['Sources: ', 'Curse of Strahd, pp. 100-101'],
+      ],
+      habitats: ['Village'],
       stats: {
         size: 'medium',
         type: 'humanoid',

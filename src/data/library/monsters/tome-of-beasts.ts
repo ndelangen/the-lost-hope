@@ -1218,11 +1218,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Gnoll', 'Sylvan', 'Void Speech'],
       appearance: [
-        ['An ashen-faced fey with grey moth wings, sneering as it looses green-glowing arrows.'],
+        [
+          'A fey with ash-pale skin and grey moth wings, sneering while it fires arrows that glow green.',
+        ],
       ],
       lore: [
         [
-          'Aridni are rugged, ruthless and greedy pixie-kin who raid caravans for captives to enslave and sell, charming foes into servitude where they can. They prefer to fight at range and are hard to draw into melee, though a personal challenge or a charge of cowardice can sometimes do it. They take plunder from humans and dwarves mainly as proof of their power over mortals, whom they despise.',
+          'Aridni are tough, merciless and covetous cousins of pixies. They ambush caravans to take captives, whom they enslave and sell, and they charm opponents into servitude whenever they can. They fight from a distance and are not easily pulled into close combat, although a direct challenge or an accusation of cowardice can sometimes manage it. They loot humans and dwarves chiefly as proof of mastery over mortals, whom they hold in contempt.',
         ],
         [
           'Sources: ',
@@ -3850,14 +3852,15 @@ export default createPublicationMonsters({
       name: 'Cobbleswarm',
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Urban', 'Underdark'],
       appearance: [
         [
-          'Paving stones underfoot suddenly lurch and tumble as thousands of tiny limbs, pincers and stingers break from the stony surface and scuttle forward. Each cobble is a small, crablike creature with a smooth stony shell, six segmented legs, a whiplike stinger and a single eye.',
+          'Paving stones underfoot abruptly heave and roll as thousands of small legs, pincers and stingers burst out and swarm forward. Every cobble is a little crab-like creature with a smooth stone shell, six jointed legs, a lashing stinger and one eye.',
         ],
       ],
       lore: [
         [
-          'With eye shut and limbs tucked in, cobbles are nearly indistinguishable from paving stones, so victims are caught unaware when the floor writhes. Cobbleswarms have a rudimentary grasp of traps and hide where they can slide intruders into pits or across trapped areas, which kobold tribes prize them for.',
+          'With its eye closed and legs folded away, a cobble looks just like a paving stone, so victims are surprised when the ground begins to churn. Cobbleswarms have a basic sense of traps and lurk where they can drop intruders into pits or sweep them over rigged ground, a talent that makes kobold tribes value them.',
         ],
         [
           'Sources: ',
@@ -3868,7 +3871,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Urban', 'Underdark'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3969,12 +3971,12 @@ export default createPublicationMonsters({
       languages: ["Understands Common but can't speak"],
       appearance: [
         [
-          'A reeking pile of bodies and bones as large as a giant lurches forward, and corpses that tumble off it rise as undead and follow it.',
+          'A stinking heap of corpses and bones, as big as a giant, staggers forward, and bodies that roll off it get up as undead and trail after it.',
         ],
       ],
       lore: [
         [
-          'Corpse mounds rise from mass graves of plague and war when necromantic magic seeps in without sanctifying rites. It is driven by the anger and loneliness of the dead within to kill and absorb victims, attacking any living creature larger than a dog, humanoids especially. It never tires, and whole towns have been wiped out. It needs no air, food, drink or sleep.',
+          'Corpse mounds grow out of mass graves left behind by plague and warfare, when necromantic magic soaks in with no holy rites to cleanse it. The mound is driven by the rage and loneliness of the dead inside it to kill and absorb victims. It goes after any living creature bigger than a dog, and humanoids above all. It never grows tired, and entire towns have been destroyed by one. It requires no breath, food, drink or rest.',
         ],
         [
           'Sources: ',
@@ -4625,14 +4627,15 @@ export default createPublicationMonsters({
       name: 'Dipsa',
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Jungle'],
       appearance: [
         [
-          'A foot-long yellow-green worm that looks like a ropy tangle of slime-covered tubes and puddles of mucus, with only a pair of tiny fangs to show it has a head.',
+          'A worm about a foot long, yellow-green, resembling a tangle of slimy tubes and pools of mucus, with only two small fangs to show where the head is.',
         ],
       ],
       lore: [
         [
-          'Jungle clans often take it for an eyeless snake, but it is an ooze with no bones or organs. Its bite carries a numbing venom, so a victim may not notice the dipsa clinging on while it slowly liquefies the insides, until the numbness fades and the burning begins. Dipsas are hermaphroditic and lay about a hundred gelatinous eggs in a puddle of acid; the few that hatch eat the rest.',
+          "Jungle clans often mistake it for a snake without eyes, but it is an ooze that has neither bones nor organs. Its bite delivers a numbing venom, so the dipsa can hang on unnoticed while it slowly dissolves the victim's insides, until the numbness wears off and the burning starts. Each dipsa has both sexes and lays roughly a hundred jelly-like eggs in a pool of acid, and the handful that hatch devour their siblings.",
         ],
         [
           'Sources: ',
@@ -4643,7 +4646,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Jungle'],
       stats: {
         size: 'tiny',
         type: 'ooze',
@@ -4831,14 +4833,15 @@ export default createPublicationMonsters({
       name: 'Dogmole',
       alignment: 'neutral',
       languages: [],
+      habitats: ['Underdark', 'Mountain'],
       appearance: [
         [
-          'A mole-like beast the size of a large dog, with a thick barrel body as heavy as a dwarf, a ring of tentacles above spade-like incisors, and tiny cataract-clouded eyes.',
+          "A burrowing beast like a mole, big as a large hound, with a stout, barrel-shaped body as heavy as a dwarf's, a ring of tentacles over its spade-shaped front teeth, and tiny eyes clouded by cataracts.",
         ],
       ],
       lore: [
         [
-          'Mountain dwarves have domesticated these burrowers. They are energetic and obedient, and pull ore carts, sniff out foul gas and water, and help dig out trapped miners. They can sense a coming cave-in or a burrowing monster, and outside the mines they serve as pack animals, guards and trackers. Derro keep them too, but scar and brutalise them until they are barely controllable.',
+          'Dwarves of the mountains have tamed these diggers. The animals are lively and obedient, hauling ore carts, smelling out bad air and water, and helping rescue miners who are trapped. They can feel a cave-in or a tunnelling monster approaching, and above ground they serve as carriers, sentries and trackers. The derro keep them as well, but beat and scar them until they are almost impossible to control.',
         ],
         [
           'Sources: ',
@@ -4849,7 +4852,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Underdark', 'Mountain'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -5139,14 +5141,15 @@ export default createPublicationMonsters({
       name: 'Dune Mimic',
       alignment: 'neutral',
       languages: [],
+      habitats: ['Desert'],
       appearance: [
         [
-          'The sand surges and shifts, a sinkhole opens and sandy tendrils snatch at anyone nearby. Until it strikes it looks like an ordinary dune.',
+          'The sand heaves and slides, a sinkhole yawns and tendrils of sand grab at anyone close. Before it attacks, it looks like any normal dune.',
         ],
       ],
       lore: [
         [
-          'It can pass for a dune, a date palm grove, a riverbank, a boulder or other large landscape feature. A forgotten king built the first ones to guard his desert tomb, and dozens may still guard great wealth somewhere. They began producing spores on their own and now spread across the deserts, though each reproduces only about once a century.',
+          'It can imitate a dune, a grove of date palms, a riverbank, a boulder or some other big feature of the land. A forgotten king made the first of them to watch over his tomb in the desert, and dozens may still be guarding great riches somewhere. They have since learned to release spores unaided and have scattered over the arid lands, though each one reproduces only about once in a hundred years.',
         ],
         [
           'Sources: ',
@@ -5157,7 +5160,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Desert'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -5478,14 +5480,15 @@ export default createPublicationMonsters({
       name: 'Edimmu',
       alignment: 'chaotic evil',
       languages: ["Common but can't speak"],
+      habitats: ['Desert', 'Plains'],
       appearance: [
         [
-          'An evil wind sweeps out of the desert, drying out everything it touches and whispering wicked plans.',
+          'A malevolent wind blows out of the desert, parching all it touches and murmuring cruel schemes.',
         ],
       ],
       lore: [
         [
-          'When a criminal exiled by desert or plains tribes dies of thirst, it sometimes rises as an edimmu that hates every living thing for its fate. It lingers near its body and follows prey it has cursed, returning to its resting place once the victim is dead. It is nearly impossible to destroy unless its body is found and given a proper burial.',
+          'When a criminal banished by the tribes of the desert or plains dies of thirst, the dead one can rise as an edimmu, hating every living thing for what happened. It lingers close to its corpse and stalks any prey it has cursed, going back to its resting place when the victim dies. It is almost impossible to destroy unless someone locates its body and buries it properly.',
         ],
         [
           'Sources: ',
@@ -5496,7 +5499,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Desert', 'Plains'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5697,14 +5699,15 @@ export default createPublicationMonsters({
       name: 'Elder Shadow Drake',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic', 'Umbral'],
+      habitats: ['Cave', 'Forest', 'Ruins'],
       appearance: [
         [
-          'A large dragon-like creature with black scales and shadowy wings appears suddenly out of the darkness, its red eyes glowing like coals, and speaks in a flat, deep voice.',
+          'A big dragon-like beast with black scales and wings of shadow bursts out of the dark, its eyes glowing red like embers, speaking in a flat, low voice.',
         ],
       ],
       lore: [
         [
-          'Mischievous and greedy, it swallows whole goats and sheep and sometimes spells out messages with the bones. It makes a surprisingly good bandit and will ally with humanoid bands, so long as its share of the plunder is clearly the biggest. It lives alone in deep caves, dense forests and shadowy ruins, reaches about 250 years, and abandons its eggs just before they hatch. In dim light or darkness it magically turns invisible, and darkvision does not defeat this.',
+          'Playful but covetous, it gulps down entire goats and sheep and sometimes arranges the bones into written messages. It makes a surprisingly capable bandit and will join humanoid gangs, provided that its portion of the loot is plainly the largest. It lives by itself in deep caves, thick forests and gloomy ruins, lives about 250 years, and leaves its eggs behind just before hatching. In weak light or dark it turns invisible by magic, which darkvision cannot see through.',
         ],
         [
           'Sources: ',
@@ -5715,7 +5718,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Cave', 'Forest', 'Ruins'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -7374,12 +7376,12 @@ export default createPublicationMonsters({
       languages: [],
       appearance: [
         [
-          'Several pony-sized ants swarm around one the size of a draft horse, clacking their serrated mandibles and raising their stingers.',
+          'A cluster of pony-sized ants crowds around a larger one, as big as a draft horse, as they click their saw-edged jaws and lift their stingers.',
         ],
       ],
       lore: [
         [
-          'The queen rules a colony of giant ants and rarely leaves the nest, so meeting her usually means you have walked into the colony itself. Her scent makes the ants around her fight harder, and the whole nest turns on anything that threatens her. She is both predator and scavenger like her workers and fights with grappling bites and a heavily poisoned sting.',
+          'The queen presides over a giant ant colony and seldom leaves the nest, so if you meet her, you have most likely stumbled into the colony. The scent she gives off makes nearby ants fight with more ferocity, and the entire nest rises against anything that endangers her. Like her workers she hunts and scavenges, and she attacks by grabbing with her jaws and stinging with a strong poison.',
         ],
         [
           'Sources: ',
@@ -7604,14 +7606,15 @@ export default createPublicationMonsters({
       name: 'Gnoll Havoc Runner',
       alignment: 'chaotic evil',
       languages: ['Gnoll'],
+      habitats: ['Grassland', 'Desert'],
       appearance: [
         [
-          'A spotted, bristle-maned gnoll sprints past laughing, axe raised high, a mottled blur in the sun.',
+          'A spotted gnoll with a bristly mane races past laughing, its axe held high, a blurred shape of mottled fur in the sunlight.',
         ],
       ],
       lore: [
         [
-          "Havoc runners look like other gnolls until they explode into violence. They raid the trade routes across a tribe's territory, and can tell at a glance which goods in a loaded wagon or camel train are worth the most. They strike into a caravan, seize the best items and withdraw before the guards react, and they fight alongside the pack, harrying one target and then another.",
+          "A havoc runner is indistinguishable from other gnolls until it erupts into violence. It raids the trade routes that cross a tribe's land and can judge in a glance which cargo in a laden wagon or camel train is the most valuable. It dives into a caravan, snatches the best goods and pulls out before the guards can respond, and in a fight it stays with the pack, harassing one target after another.",
         ],
         [
           'Sources: ',
@@ -7622,7 +7625,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Grassland', 'Desert'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7822,14 +7824,15 @@ export default createPublicationMonsters({
       name: 'Hound Of The Night',
       alignment: 'unaligned',
       languages: ["understands Elvish and Umbral but can't speak"],
+      habitats: ['Feywild', 'Forest'],
       appearance: [
         [
-          'A huge black hound pants in the moonlight, steam rising from its muzzle, running with a nocturnal hunting party.',
+          'A massive black hound pants under the moon, vapour curling from its snout, running with a hunting party of the night.',
         ],
       ],
       lore: [
         [
-          'Hounds of the night are bred by the shadow fey as hunting companions and guardians, and are far smarter than other hounds. They track through phase shifts, ethereal travel and fey steps, though not teleport or plane shift. Part of the pack distracts prey while others use dimension door for a larger goal, such as stealing treasure or reaching a spellcaster in the back ranks. They are distant kin of winter wolves and share their cold breath.',
+          'The shadow fey breed hounds of the night to hunt beside them and to stand guard, and the dogs are much cleverer than other hounds. Their tracking survives phase shifts, trips through the ether and fey steps, though teleportation and plane shift lose them. In a pack, some members occupy the prey while the rest use dimension door toward a bigger prize, such as snatching treasure or getting at a caster behind the front line. Winter wolves are their remote relatives, and like them the hounds exhale frost.',
         ],
         [
           'Sources: ',
@@ -7840,7 +7843,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Feywild', 'Forest'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -8329,14 +8331,15 @@ export default createPublicationMonsters({
       name: "J'ba Fofi Spider",
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Jungle', 'Forest'],
       appearance: [
         [
-          'A large brown spider like a tarantula with exaggeratedly long legs gracefully emerges from the bushes, followed by smaller yellow ones.',
+          'A large brown spider resembling a tarantula, but with ridiculously long legs, steps gracefully out of the bushes, with several smaller yellow ones following behind.',
         ],
       ],
       lore: [
         [
-          "The j'ba fofi is an intelligent oversized tarantula. The young are yellow and turn brown with age, and immature ones draw ordinary spiders into a following that moves with them. Leaf litter on their bristles and woven into their webs hides them and their enclosed lairs in forest and jungle.",
+          "The j'ba fofi is a clever, oversized tarantula. Youngsters are yellow and darken to brown as they grow, and half-grown ones gather normal spiders into a retinue that travels along with them. Bits of leaf stuck to their bristles and worked into their webs conceal both the spiders and their closed-in lairs in forests and jungles.",
         ],
         [
           'Sources: ',
@@ -8347,7 +8350,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Jungle', 'Forest'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -10848,14 +10850,15 @@ export default createPublicationMonsters({
       name: 'Miremal',
       alignment: 'chaotic evil',
       languages: ['Sylvan', 'Umbral'],
+      habitats: ['Swamp'],
       appearance: [
         [
-          'A short, lean, pale creature steps from the swamp shadows with fungus and moss growing from its flesh and green eyes weeping bloody tears.',
+          'A short, thin, pale creature emerges from the swamp gloom, fungus and moss sprouting from its skin and its green eyes weeping blood.',
         ],
       ],
       lore: [
         [
-          "Miremals are savage, degenerate fey that hunt in packs of three to six and often serve a stronger, magical master. They build paths through swamps that look safe but are full of traps and ambush points, often leading travellers to a green hag coven or a black dragon's lair. Their legends say the bloody tears come from rage and grief at banishment from the forest. They loathe moss lurkers and hate being confused with them.",
+          'Miremals are brutal, debased fey that hunt in bands numbering from three up to six and often work for a more powerful, magical master. They lay out trails through marshes that seem safe but are riddled with traps and ambush spots, frequently steering travellers toward a green hag coven or the den of a black dragon. According to their own stories, the blood they weep comes from anger and sorrow at being driven from the forest. They detest moss lurkers and resent being mistaken for them.',
         ],
         [
           'Sources: ',
@@ -10866,7 +10869,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Swamp'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -10980,10 +10982,13 @@ export default createPublicationMonsters({
       name: 'Mngwa',
       alignment: 'neutral evil',
       languages: ['Common', 'Sylvan', 'can speak with felines'],
-      appearance: [['Wisps of grey smoke curl from the slate-coloured coat of a lion-like beast.']],
+      habitats: ['Rocky terrain', 'Savanna'],
+      appearance: [
+        ['Curls of grey smoke rise from the slate-coloured fur of a beast shaped like a lion.'],
+      ],
       lore: [
         [
-          'Mngwa, meaning the strange ones or smoke-cats, descend from a feline from the Ethereal Plane that mated with a lioness. They are strong, cunning hunters that slip into the ether briefly to escape pursuit or approach prey unseen. They hunt on rocky, treacherous ground, not crowded flatlands. The strongest recruit other great cats into short-lived prides and hunt with savage nkosi groups, though only a great pridelord can command one during a hunt, and sometimes take a young nkosi away to become a shaman.',
+          'Their name means strange ones, or smoke-cats. They descend from a cat out of the Ethereal Plane that bred with a lioness. Powerful, crafty hunters, they duck briefly into the ether to shake off pursuers or sneak up on prey. Their hunting ground is rugged, treacherous rock rather than open flat country. The most powerful ones draft other great cats into prides that last a short while, and hunt alongside savage nkosi bands, but just a mighty pridelord is able to lead one on a hunt, and a pridelord sometimes carries off a young nkosi to train as a shaman.',
         ],
         [
           'Sources: ',
@@ -10994,7 +10999,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Rocky terrain', 'Savanna'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -13610,14 +13614,15 @@ export default createPublicationMonsters({
         'none in its natural form',
         'knows the same languages as a creature it dominates',
       ],
+      habitats: ['Forest'],
       appearance: [
         [
-          'Milky amber fluid oozes from an axe wound on a maple and forms a small, vaguely humanoid shape that half walks and half flows after the axe wielder.',
+          'Cloudy amber liquid seeps from an axe cut in a maple and gathers into a small, roughly human shape that part walks and part flows after the person holding the axe.',
         ],
       ],
       lore: [
         [
-          'Sap demons are not true demons but intelligent oozes born when an enchanted tree is cut or hurt. Larger sources make larger creatures, typically Small. Over a few hours they pool into a faint, amber, featureless likeness of the attacker, perhaps with its hat. They pummel prey with partly crystallised fists and like to seize the weapon that wounded their tree to deliver a final blow, then most return to their tree.',
+          'Sap demons are not real demons but thinking oozes that form when a magical tree is chopped or harmed. A bigger source gives a bigger creature, though most are Small. Over several hours the sap collects into a dim, amber, featureless copy of the attacker, hat included on occasion. The oozes beat their prey with fists that have partly hardened to crystal, and they like to grab the weapon that hurt their tree and use it for the last blow, after which most go back to the tree.',
         ],
         [
           'Sources: ',
@@ -13628,7 +13633,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Forest'],
       stats: {
         size: 'small',
         type: 'ooze',
@@ -13737,6 +13741,18 @@ export default createPublicationMonsters({
       name: 'Scorpion Cultist',
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A follower of Selket dressed in traditional clothing, though a cell leader on a special mission may set it aside to slip into towns and cities.',
+        ],
+      ],
+      lore: [
+        [
+          'Part protector and part murderer, the scorpion cultist belongs to a cell. They are organised in cells that act in the name of Selket, the Scorpion Goddess. They keep watch for anyone who insults her name or desecrates her holy places, and they go after them with envenomed blades or staged accidents. Those who honour Selket or look after the desert nomads receive quiet help.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -14979,12 +14995,12 @@ export default createPublicationMonsters({
       languages: ['Common', 'Primordial'],
       appearance: [
         [
-          'A spiny ball with two huge black eyes and a dark mouth sits inside wisps of humid, whirling wind.',
+          'A prickly ball with a dark mouth and two huge black eyes sits inside curls of humid, whirling wind.',
         ],
       ],
       lore: [
         [
-          'A slow storm is a creature of chaos that inflicts the pains of old age on the young and fit, forcing them to choose between staying still and growing pain. Its vulnerable body is a small sphere at the centre of a larger cyclone, so melee attackers with short reach must step into the wind to hit it. It feeds on energy and moisture drained from opponents, and its quills build up static that it discharges as a shock.',
+          'The slow storm is a chaotic being that inflicts the aches of old age on those who are young and healthy, leaving them to choose between holding still and suffering more. Its fragile body is a small ball at the heart of a bigger whirlwind, so attackers with short reach have to move into the wind to strike it. It lives off the energy and moisture it draws from opponents, and static builds in its quills until it releases a shock.',
         ],
         [
           'Sources: ',
@@ -15858,14 +15874,15 @@ export default createPublicationMonsters({
       name: 'Stryx',
       alignment: 'neutral',
       languages: ['Common', 'Elvish'],
+      habitats: ['Plane of Shadow'],
       appearance: [
         [
-          'An owl in colours from pale grey to sooty black, with gleaming eyes, passes for an ordinary bird until it opens its beak. Behind it is a larger mouth full of gleaming human teeth.',
+          'An owl with plumage from pale grey to coal black and shining eyes, that passes for a normal bird until the beak parts. Inside is a bigger mouth lined with shining human teeth.',
         ],
       ],
       lore: [
         [
-          'Stryx came from mad experiments in the plane of Shadows that combined owls with kidnapped humans. They thrive there and on the Material Plane alike, and like to attach themselves to powerful beings as spies, servants and translators. Their loyalties are muddy, because they constantly report what they learn to their mad creator.',
+          'Stryx were produced by insane experiments in the plane of Shadows that merged owls with abducted humans. They do well both there and on the Material Plane, and they enjoy attaching themselves to mighty beings as spies, servants and interpreters. Their allegiances are murky, since they are forever passing on what they learn to their deranged maker.',
         ],
         [
           'Sources: ',
@@ -15876,7 +15893,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Plane of Shadow'],
       stats: {
         size: 'tiny',
         type: 'monstrosity',
@@ -16694,12 +16710,12 @@ export default createPublicationMonsters({
       languages: ['Tosculi'],
       appearance: [
         [
-          'A three-to-four-foot wasp-person with an iridescent blue carapace and gold abdomen and lower legs. Its wings are vestigial, enough to glide but not to fly.',
+          'A wasp-like humanoid three to four feet tall, with a shimmering blue shell, while the abdomen and lower legs are gold. The wings are stunted, enough for gliding but too small to fly.',
         ],
       ],
       lore: [
         [
-          "Tosculi share the Golden Song of the hive, which unites them under their queen's iron rule, and most hives turn to banditry, cattle theft and raids on small villages. Drones are the workers, the smallest, weakest, least intelligent and most numerous. In war they serve as expendable scouts and soldiers, and because warriors learn what a drone knows through the queen, a drone need not survive to deliver its report.",
+          "The tosculi join in the hive's Golden Song, which holds them together beneath the queen's harsh rule, and most hives take to banditry, rustling and raiding small villages. Drones are the labourers: the tiniest, feeblest, least bright and most plentiful. In war they act as disposable scouts and fighters, and since warriors learn through the queen whatever a drone knows, a drone does not need to survive to report back.",
         ],
         [
           'Sources: ',
@@ -16775,11 +16791,11 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Tosculi'],
       appearance: [
-        ['A four-to-five-foot wasp-person towers over the drones that gather around it.'],
+        ['A wasp-like humanoid four to five feet tall looms over the drones clustered around it.'],
       ],
       lore: [
         [
-          "Tosculi share the Golden Song of the hive, which unites them under their queen, and most hives are predatory, raiding and stealing cattle. Warriors oversee work crews and battle groups of drones and relay the hive queen's commands, though they can use their own judgement if told to. Their most important job is finding live hosts: creatures they paralyse are carried to the queen's chamber and implanted with eggs, and the larva eats its unconscious host alive when it hatches.",
+          "The Golden Song of the hive ties the tosculi to their queen, and most hives live as predators, raiding and stealing cattle. The warriors oversee labour crews and fighting bands of drones and pass on the queen's orders, though they may use their own judgement when allowed. Their chief duty is locating living hosts. Prey that they paralyse is hauled to the queen's chamber and seeded with eggs, and when the larva hatches, it devours its helpless host alive.",
         ],
         [
           'Sources: ',
@@ -16920,12 +16936,12 @@ export default createPublicationMonsters({
       languages: ['Common', 'Trollkin'],
       appearance: [
         [
-          'A trollkin with thick, knobby skin, wicked talons and tusks, announced by horns and howls that frighten the north at night.',
+          'A trollkin with thick, lumpy skin, cruel claws and tusks, heralded by horns and howls that terrify the north after dark.',
         ],
       ],
       lore: [
         [
-          'Reavers are the most savage of the trollkin and lead the worst raiding parties in search of wealth, slaves and supplies. They often recruit mercenaries and other creatures, so humans, gnolls or hobgoblins can turn up in their bands. They fear spirits and ghosts, listen to their clan shaman and to powerful fey or giants, and prefer to raid only when omens are good.',
+          "Reavers are the fiercest trollkin and head the worst raiding bands hunting for riches, captives and supplies. They often take on mercenaries of other kinds, so a band may include humans, gnolls or hobgoblins. Spirits and ghosts frighten them, they heed their clan's shaman and any strong fey or giants, and they would sooner raid only when the omens are favourable.",
         ],
         [
           'Sources: ',
@@ -17049,14 +17065,15 @@ export default createPublicationMonsters({
       name: 'Tusked Skyfish',
       alignment: 'lawful good',
       languages: [],
+      habitats: ['Sky'],
       appearance: [
         [
-          'An enormous flying jellyfish with long, wicked tusks curving from its gaping mouth and tentacle-whiskers trailing behind.',
+          'A giant airborne jellyfish with long, cruel tusks curling out of its open mouth and whisker-like tentacles streaming behind it.',
         ],
       ],
       lore: [
         [
-          'A tusked skyfish floats like a balloon, held up by internal alchemical reactions, and can rise almost straight up or drift with the wind to very great heights. It snares slow or inattentive prey in shocking tendrils and sometimes fishes shallow lakes and streams. It can suppress its electrical charge to handle objects or deal with creatures safely, and with a special saddle it can be ridden. Jinnborn and genies favour them as slow beasts of burden.',
+          'This creature floats like a balloon, kept aloft by chemical reactions inside its body, and can climb nearly vertically or ride the wind to great altitudes. It catches slow or careless prey in stinging tendrils and sometimes trawls the shallows of lakes and streams. It can hold back its electric charge to handle objects or to deal with creatures without harm, and it can carry a rider if given a purpose-made saddle. Jinnborn and genies like them as sluggish pack animals.',
         ],
         [
           'Sources: ',
@@ -17067,7 +17084,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Sky'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -17772,6 +17788,18 @@ export default createPublicationMonsters({
       name: 'Vine Lord',
       alignment: 'lawful neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A tall, long-armed humanoid sheathed in dark green bark and coiling tendrils, radiating an unmistakable air of dread.',
+        ],
+      ],
+      lore: [
+        [
+          'Vine lords arise when a fully grown tendril puppet joins with the forced-growth offspring of plantfolk. Most plants obey them, as do vine troll skeletons and tendril puppets. Forests and jungles grow at their hand, either for their divine or demonic patrons or for their own power, and they often force trees across grassland and farmland during moonless nights. Within Midgard they serve the Green Walker. They help the Living Jungle spread, gather jungle creatures as puppets and lure druid circles with offers of power.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -17902,6 +17930,18 @@ export default createPublicationMonsters({
       name: "Vine Lord's Tendril Puppet",
       alignment: 'lawful neutral',
       languages: [],
+      appearance: [
+        [
+          'A plant-like warrior that lurches in odd jerks. Slender green vines grow from its eyes, mouth and ears and loop about its skull, torso and limbs.',
+        ],
+      ],
+      lore: [
+        [
+          'A beast or humanoid that a vine lord has infected may turn into one. They attack without thought anything that endangers their forest or jungle, show no care for their own survival and fight until killed. Their vision is nearly useless beyond 30 feet. They share one mind, the root mind, so when one learns of a threat, all do. That includes enemies who killed other puppets, or whom their commander is hunting, be it a vine lord, a druid or a duskthorn dryad.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -18001,14 +18041,15 @@ export default createPublicationMonsters({
       name: 'Wampus Cat',
       alignment: 'chaotic neutral',
       languages: ['Common'],
+      habitats: ['Forest streams'],
       appearance: [
         [
-          "A raven-haired young woman rises from the water as she swims, singing softly, and her lower body is a mountain lion's. The song turns to a yowl of rage when she spots prey.",
+          'A young woman with raven hair comes up out of the water while swimming, singing under her breath, and her lower body belongs to a mountain lion. Her song turns into a furious yowl once she notices prey.',
         ],
       ],
       lore: [
         [
-          "Wampus cats all come from an ancient shaman's curse on people who practised forbidden magic. She stalks woodland shores, disguising her true shape to draw victims to the water, especially bathers and people drawing water. She prefers intelligent male humanoids and has a special hatred of holy men, and unless starving or provoked she will not kill women. She may befriend a woman troubled by men for as long as their shared enemies live, and some witches keep wampus cats as companions. Will-o'-wisps and miremals team up with them.",
+          "Every wampus cat traces back to the curse of an ancient shaman laid on people who dabbled in forbidden magic. She prowls wooded shorelines, hiding her real shape to lure victims toward the water, particularly bathers and those fetching water. She prefers clever male humanoids and bears a special hatred for holy men. Women are safe from her unless she is starving or provoked. She may befriend a woman who is bothered by men, staying friends while the shared foes live, and some witches keep one as a companion. Her kind find allies in will-o'-wisps and miremals.",
         ],
         [
           'Sources: ',
@@ -18019,7 +18060,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Forest streams'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -18112,14 +18152,15 @@ export default createPublicationMonsters({
       name: 'White Ape',
       alignment: 'neutral',
       languages: ['Common'],
+      habitats: ['Forest', 'Savannah'],
       appearance: [
         [
-          'A hulking primate looms over others of its kind, its filthy white fur matted and yellowed and a deranged look in its blood-red eyes.',
+          'A huge primate towers over its fellows, its dirty white fur matted and stained yellow and a crazed gleam in its eyes of blood red.',
         ],
       ],
       lore: [
         [
-          'White apes were once docile giants of forested hills and savannah. Two thousand years ago a kingdom of mages raised their intelligence to near-human level to serve as soldiers and servants, and when the mages died out the apes remained. The enchantment bleached their fur and made them carriers of the arcane wasting, which they resist but pass to others, and it spreads like plague among spellcasters. They still want to serve humans, but are violently driven off, and generations of exile have turned that loyalty into animosity, especially toward arcane casters.',
+          'White apes were once gentle giants of wooded hills and grassland. Two thousand years ago a realm of mages lifted their minds to near-human level so they could work as warriors and attendants, and the apes stayed on after the mages died out. The spell bleached their fur and left them carrying the arcane wasting, which they withstand themselves but pass along, spreading like a plague among spellcasters. They still long to serve humans but are driven off with violence, and generations of banishment have turned that devotion into hostility, especially toward arcane casters.',
         ],
         [
           'Sources: ',
@@ -18130,7 +18171,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Forest', 'Savannah'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -19056,12 +19096,12 @@ export default createPublicationMonsters({
       languages: ['Giant'],
       appearance: [
         [
-          'A swift, lanky humanoid with long arms ending in wicked claws and jaws that open impossibly wide.',
+          'A quick, lanky humanoid whose long arms finish in cruel claws and a jaw that gapes impossibly wide.',
         ],
       ],
       lore: [
         [
-          'Zimwi are distant relatives of trolls and a plague on southern lands, always hungry and ill-tempered, and fast enough to run down horses, so even a lone one may attack a large caravan. Its stomach is larger than its body and extends extradimensionally, so it feels as if it were starving. They are not clever and barely follow how a fight is going: it feels victorious as long as it keeps eating, and losing just means it has not eaten yet. Mage-crafters can turn zimwi stomachs into extradimensional containers like bags of holding.',
+          'Zimwi are far-off relatives of trolls and a scourge of the southern lands, forever hungry and foul-tempered, and quick enough to catch horses, so even one on its own may assault a big caravan. The stomach is bigger than its body and reaches into another dimension, so it always feels it is starving. Zimwi are dim and barely grasp the state of a battle. So long as food keeps going down, it believes it is winning, and losing only means a meal is still to come. Crafters of magic can convert the stomachs into extradimensional containers, much like bags of holding.',
         ],
         [
           'Sources: ',

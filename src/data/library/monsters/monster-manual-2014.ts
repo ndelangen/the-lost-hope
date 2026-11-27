@@ -524,6 +524,18 @@ export default createPublicationMonsters({
           'Variant spellcasting: Under the optional dragon spellcasting rule, the DM chooses 3 spells of level 4 or lower. The dragon can cast each once per day without material components. It uses Charisma, with spell save DC 16 and +8 to hit with spell attacks.',
         ],
       ],
+      appearance: [
+        [
+          "A fearsome dragon with curving horns and a shrivelled face that looks like a devil's skull. Its acid breath leaves the land scarred.",
+        ],
+      ],
+      lore: [
+        [
+          'Black dragons revel in misery and destruction. They want to pull everything down and then rule over the wreckage. They hide in stagnant swamps, falling ruins and tainted places, where their acid strips the features from statues and leaves festering sores on the landscape. Their hoards hold tarnished emblems of hope and relics of vanished empires. They prize most the pieces that others are seeking, above all when the dragon itself brought about the loss. Across its domain, an adult spreads gloomy rot through its territory and draws in morbid cultists and doomsayers, who arrive with undead to serve it.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -5702,6 +5714,18 @@ export default createPublicationMonsters({
           'Variant spellcasting: If using the optional dragon rule, choose 6 spells of level 8 or lower. The dragon can cast each once per day without material components. Its Charisma spell save DC is 21, and its spell attack bonus is +13. The DM chooses the spells.',
         ],
       ],
+      appearance: [
+        [
+          'An enormous red dragon whose lair opens onto volcanic depths and which scorches anything in its path.',
+        ],
+      ],
+      lore: [
+        [
+          "Red dragons seize whatever they desire and burn whatever blocks them. They are covetous and always hungry for more, and each is convinced that it is the greatest of dragons and of all creatures, with plunder and conquest as its birthright. Many can recall every item in their hoard and exactly where it lies. A theft drives them into a fury that lasts until the treasure is recovered and the thief is burned. An ancient red is counted among the multiverse's most feared and ruinous creatures. Its lair can reach down to volcanic depths and out to other planes, so it can summon followers out of the Lower Planes or the fiery plane. Such lairs are found amid volcanoes and cliffs, or in scorched wastelands and ruins taken by force.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Hill', 'Mountain'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -7976,6 +8000,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Barbed Devil'],
       ],
+      appearance: [
+        [
+          'A tall humanoid bristling with sharp barbs, spines and hooks. Its eyes gleam as it keeps watch for anything to take.',
+        ],
+      ],
+      lore: [
+        [
+          "Barbed devils are driven by boundless greed and desire, and they serve as guards for the Nine Hells' more powerful residents and for their treasuries. Any fight where victory brings a prize suits them. They are difficult to catch off guard and never tire of their duties. They attack with claws and throw fire at anyone who runs. It is the 2014 book's summoner variant, and it is able to call other devils like itself to join the fight.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Nine Hells)'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -10272,12 +10308,12 @@ export default createPublicationMonsters({
       languages: ['Abyssal', 'Common', 'Infernal.'],
       appearance: [
         [
-          'A humanoid with horns, leathery wings and a sinewy tail, the clear mark of fiendish blood.',
+          'A horned humanoid bearing leathery wings and a lean, sinewy tail, an unmistakable sign of fiendish blood.',
         ],
       ],
       lore: [
         [
-          'A cambion is the child of a fiend, usually a succubus or incubus, and a humanoid. It grows into a ruthless adult who sees itself as a natural overlord of mortals, and may stir up uprisings and gather gangs of humanoids and lesser devils. A cambion forced to serve its fiendish parent does so from admiration and dread, expecting to rise one day. In the Nine Hells they serve as soldiers, envoys and attendants; in the Abyss they hold only the authority they can win by force.',
+          'Cambions are born to a humanoid and a fiend, commonly a succubus or incubus. It matures into a pitiless adult who considers itself the natural ruler of mortals, and it may incite revolts and gather bands of humanoids and minor devils. When made to serve its fiendish parent, it does so out of awe and fear, expecting to climb higher in time. Cambions in the Nine Hells work as soldiers, envoys and servants, whereas in the Abyss they hold just the power they can seize by force.',
         ],
         ['Sources: ', 'Monster Manual (2014), p. 36'],
       ],
@@ -13307,6 +13343,13 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Death Slaad'],
       ],
+      appearance: [['A slaad charged with negative energy, a sign of chaos turned to cruelty.']],
+      lore: [
+        [
+          "Death slaadi are infused with the Negative Energy Plane's power and show how evil twists chaos. They enjoy causing pain. To breed, they force crowds of red and blue slaadi to invade other planes, and the survivors end up hosting new slaadi. Slaad lords create them by filling gray slaadi with chaotic energy. When slaadi behave with real purpose, a death slaad is often directing the scheme. The version described here is the one with a control gem.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -14766,6 +14809,15 @@ export default createPublicationMonsters({
           "Variant: This is the cleric example listed elsewhere in the library as Drider (variant). It keeps the Drider's base traits and adds cleric Spellcasting. Wisdom 16 raises Perception, passive Perception and the innate spell save DC by 1. The sidebar has no separate CR.",
         ],
       ],
+      appearance: [
+        ['A creature with the upper body of a drow and the lower body of a huge spider.'],
+      ],
+      lore: [
+        [
+          'Lolth summons drow of promise to the Demonweb Pits, where she tests their faith and strength. Those who succeed gain her favour, while those who fail are turned into driders, who stand as living proof of her might. Only drow can be transformed in this way. According to the 2024 book, Lolth may bestow the change as either a blessing or a curse. Some driders therefore become zealous servants, while others are crushed by the change and exist only to feed their predatory urges. This one casts spells.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -15384,6 +15436,18 @@ export default createPublicationMonsters({
           'Optional magic equipment: With the +3 scale mail from the p. 126 sidebar, AC is 19. The armor permanently loses its enhancement bonus after at least 1 hour of sunlight exposure.',
         ],
       ],
+      appearance: [
+        [
+          "A female drow of noble birth dressed in the vestments of Lolth's faith, who speaks with the Spider Queen's authority.",
+        ],
+      ],
+      lore: [
+        [
+          "Noble drow women are moulded and schooled from infancy to become Lolth's priestesses, a role she does not permit male drow to hold. They carry out the will of the Spider Queen and hold considerable sway over drow society. Strongest of all are the matron mothers at the head of drow houses, who must weigh their loyalty to Lolth against their loyalty to their own families.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -15545,6 +15609,17 @@ export default createPublicationMonsters({
         [
           'Magic equipment: An hour or more in sunlight strips the +3 bonus permanently. Afterward, use AC 16.',
         ],
+      ],
+      appearance: [
+        [
+          "A female drow of noble birth dressed in the vestments of Lolth's faith, who speaks with the Spider Queen's authority.",
+        ],
+      ],
+      lore: [
+        [
+          "Noble drow women are moulded and schooled from infancy to become Lolth's priestesses, a role she does not permit male drow to hold. They carry out the will of the Spider Queen and hold considerable sway over drow society. Strongest of all are the matron mothers at the head of drow houses, who must weigh their loyalty to Lolth against their loyalty to their own families. This version is equipped with magic items, so it is better armed than most.",
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -16093,6 +16168,13 @@ export default createPublicationMonsters({
         [
           'Variant: The Rogue Modron option removes Axiomatic Mind and allows any alignment except lawful neutral. All other duodrone statistics still apply.',
         ],
+      ],
+      appearance: [['A boxy modron that oversees monodrones and has broken away from its duties.']],
+      lore: [
+        [
+          'From Mechanus come the modrons, creatures of pure law. Primus sits atop their hive-like ranks, and none of them has any identity outside its duties. A duodrone oversees monodrones and can handle up to two tasks at once. A rogue modron is a faulty unit that decay or chaotic forces have damaged. It breaks laws, defies orders and may become violent.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -24328,6 +24410,17 @@ export default createPublicationMonsters({
           'Variant: Uses the Gray Ooze base profile with Intelligence 6 and the additional Psychic Crush action.',
         ],
       ],
+      appearance: [
+        [
+          'A grey slime that merges with stone and glides like a snake made of liquid, then lifts itself to strike.',
+        ],
+      ],
+      lore: [
+        [
+          "Gray oozes turn up in places where magic is unstable, or where a mage's attempt to put an elemental spirit into a construct went wrong. They are acidic predators that blend in with rocky surroundings. The 2014 book describes a gray ooze as stone that chaos has liquefied. Oozes shy from strong light, but warmth and motion attract them. A passage that is oddly clean may mean one is close. This is the psychic version.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -25752,6 +25845,17 @@ export default createPublicationMonsters({
       page: 280,
       alignment: 'lawful neutral',
       languages: ['Common', 'Sphinx.'],
+      appearance: [
+        [
+          "A sphinx whose body is a lion's but whose head is a woman's. Her face is often as dignified as a queen's, though sometimes she has wild, lion-like features.",
+        ],
+      ],
+      lore: [
+        [
+          'The eyes of a gynosphinx can see past the present moment and place, and they cut through invisibility and magic. Anyone who stares into them too deeply may be sent to a distant plane for a hard trial. Gynosphinxes hold vast stores of knowledge and test those who petition them with riddles and puzzles. Some will trade for treasure or service.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -27694,6 +27798,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Ice Devil'],
       ],
+      appearance: [
+        [
+          'An enormous two-legged insect whose hands and feet bear claws, with strong mandibles, and a long tail studded with razor-sharp spikes. It wields a barbed spear.',
+        ],
+      ],
+      lore: [
+        [
+          'Ice devils lead the armies of the Hells, and are mostly encountered on Stygia and Cania, the cold layers. They abuse lesser devils to let off their bitterness and anger, and they envy the authority held by the pit fiends over them. To win promotion, they butcher the foes of the Hells and take souls for their superiors. Certain ones bear barbed spears, and the frozen touch of the weapon leaves a victim nearly helpless.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Nine Hells)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -27855,6 +27971,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Ice Devil'],
       ],
+      appearance: [
+        [
+          'An enormous two-legged insect whose hands and feet bear claws, with strong mandibles, and a long tail studded with razor-sharp spikes.',
+        ],
+      ],
+      lore: [
+        [
+          "Ice devils lead the armies of the Hells, and are mostly encountered on Stygia and Cania, the cold layers. They abuse lesser devils to let off their bitterness and anger, and they envy the authority held by the pit fiends over them. To win promotion, they butcher the foes of the Hells and take souls for their superiors. This entry is the 2014 book's summoner variant, and it is able to summon more of its own kind.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Nine Hells)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -28317,6 +28445,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Imp'],
       ],
+      appearance: [
+        [
+          'A tiny red humanoid with a barbed tail, little horns and leathery wings. It can change into animal shapes.',
+        ],
+      ],
+      lore: [
+        [
+          "Imps act as errand runners for devilish masters, spy on rivals, and deceive or ambush mortals across the Lower Planes. Any wicked master can have an imp as a proud servant, and it serves with pride, though it cannot be counted on for speed or efficiency. It attacks with a venomous stinger while invisible. Human spellcasters keep imps as counsellors, spies and familiars. The imp pushes its master toward wickedness, in the hope of eventually taking the mortal's soul.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Lower Planes)'],
       stats: {
         size: 'tiny',
         type: 'fiend',
@@ -37101,6 +37241,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Pseudodragon'],
       ],
+      appearance: [
+        [
+          'A very small dragon, roughly the size of a big housecat. It has scales of reddish brown, along with horns and sharp teeth, and a playful streak.',
+        ],
+      ],
+      lore: [
+        [
+          'Pseudodragons settle in peaceful, pretty spots, ideally where life is easy and the prey is slight and sluggish. Their little dens, set in old trees and cliffs, are stocked with shiny stones, shells and any treasure left lying around, and they defend them fiercely. They keep away from other creatures and sting when attacked. Mages want them as familiars for their intelligence, telepathy and magic resistance, but pseudodragons are choosy and can sometimes be persuaded with presents. This is the familiar variant.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Coastal', 'Desert', 'Forest', 'Hill'],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -37874,6 +38026,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Quasit'],
       ],
+      appearance: [
+        [
+          'A green humanoid two feet tall, its tail barbed, its head horned, and its fingers and toes clawed. It can assume animal shapes.',
+        ],
+      ],
+      lore: [
+        [
+          'Quasits swarm over the Lower Planes. Being weak in body, they lurk in the dark and plot mischief. Mighty demons employ them as messengers and spies, unless they are busy eating them. The claws of a quasit are poisonous, and it likes to be unseen when it strikes. This is the familiar variant, which serves a mortal master.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Lower Planes)'],
       stats: {
         size: 'tiny',
         type: 'fiend',
@@ -40129,6 +40293,17 @@ export default createPublicationMonsters({
         [
           'Hag Eye: A coven can have one Hag Eye. A coven member on the same plane can spend an action to see through it. The eye has AC 10, 1 HP, and darkvision 60 ft. If it is destroyed, each coven member takes 3d10 psychic damage and becomes Blinded for 24 hours. All three hags must perform a 1-hour ritual to make a new eye. They cannot do so while Blinded, and an action outside the ritual makes them start over.',
         ],
+      ],
+      appearance: [
+        [
+          "A hag with slick scales on pale skin and a hairless-looking, wasted body draped in hair like seaweed. Her eyes are glassy like a doll's, but she can hide all this behind an illusion.",
+        ],
+      ],
+      lore: [
+        [
+          "Sea hags dwell in gloomy, foul underwater dens guarded by merrow and other creatures of the water. They despise calm and loveliness. Seeing something beautiful may push one to attack or ruin it, or to crush hopes and turn bravery into terror. They stir up chaos through elaborate trickery and wrap themselves in illusions. Their real appearance is so repulsive that a hag's stare can strike down anyone it frightens. In a coven, the hags work together.",
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -46535,14 +46710,15 @@ export default createPublicationMonsters({
       page: 350,
       alignment: 'any alignment',
       languages: ['Any one language', 'usually Common.'],
+      habitats: ['Arctic', 'Coastal', 'Forest', 'Grassland'],
       appearance: [
         [
-          'A seasoned fighter with a longsword and a shortsword on the hip looks you over, calm and alert.',
+          'A weathered warrior studies you, steady and watchful, a long blade and a short blade hanging at the belt.',
         ],
       ],
       lore: [
         [
-          'Veterans are professional fighters who take up arms for pay or to protect something they value. Many are retired soldiers or mercenaries who fight only for their own benefit. Expect two sword strikes a turn and a crossbow at range.',
+          'Veterans are trained soldiers who fight because they are paid or because something matters to them. Many are former soldiers or sellswords who now look out only for themselves. Expect them to land a pair of sword blows each round and to loose a crossbow bolt from afar.',
         ],
         [
           'Sources: ',
@@ -46553,7 +46729,6 @@ export default createPublicationMonsters({
           },
         ],
       ],
-      habitats: ['Arctic', 'Coastal', 'Forest', 'Grassland'],
       stats: {
         size: 'medium',
         type: 'humanoid',

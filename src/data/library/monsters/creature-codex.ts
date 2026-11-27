@@ -12239,6 +12239,17 @@ export default createPublicationMonsters({
       name: 'Ouroboros',
       alignment: 'neutral',
       languages: ['all'],
+      appearance: [
+        [
+          'A dragon without wings, with a serpentine body. Its fine scales are black toward one end and white toward the other, and the two shades merge in the middle.',
+        ],
+      ],
+      lore: [
+        [
+          'This deathless dragon stands for both the keeping of life and the ruin of everything. When it dies, it is born again from whatever energy its body gave off, with the two colours swapped and its temperament inverted. One that was violent returns gentle, while a gentle one returns violent.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -12783,6 +12794,13 @@ export default createPublicationMonsters({
       name: 'Phantom',
       alignment: 'any alignment',
       languages: ['any languages it knew in life'],
+      appearance: [['A shadowy, indistinct human shape wavers in the dimness.']],
+      lore: [
+        [
+          'Phantoms are the angry, unquiet spirits of people who met violent ends, and they swing between bewilderment, rage and sorrow. They hardly realise they have died and seem trapped in the moments surrounding their deaths. They come near the living as though harmless, then seize them and moan, apparently trying to say something. When the one they are tied to is destroyed, they drift away to look for another.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -13152,6 +13170,18 @@ export default createPublicationMonsters({
       name: 'Pishacha',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'Darakhul', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A ghoulish fiend, its skin a dark bluish black, with swollen red veins that shine like embers. It has a long, leering tongue and a mouth full of ragged teeth.',
+        ],
+      ],
+      lore: [
+        [
+          'Pishachas originate in eastern lands. They are formed from the souls of greedy and lustful people whom the gods find too wicked to be reborn, and they are doomed to remain on the Material Plane, feeding on the living. They lurk in lonely places and graveyards, tempt victims to ruin, and often settle near ghouls or darakhul communities. They also try to take over humanoid bodies and drive the hosts insane from within. On holy days, villagers set out offerings of rice at crossroads to keep them away.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Planar'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -13781,6 +13811,17 @@ export default createPublicationMonsters({
       name: 'Rattok',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'Void Speech'],
+      appearance: [
+        [
+          'Little rat-like demons in grimy hoods that conceal their snouts. They have mangy fur, keen whiskers, torn ears, charms hanging from their necks and long, twisted claws.',
+        ],
+      ],
+      lore: [
+        [
+          "These rat demons serve Chittr'k'k, the Demon Lord of Rats, although plenty of them answer to other demons. Toward weaker demons they are smug, oily bullies, but they fawn over stronger ones and occasionally prank their own masters. They mostly stay in tight tunnels, sewers and caves in the Abyss. They distil souls and bottle them as drinks much like potions, and a drinker loses part of their own soul while their mind is swamped with the memories of the one consumed. They have a name as torturers, cannibals and slavers, and they try to top one another in cruelty.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'small',
         type: 'fiend',
@@ -14641,6 +14682,18 @@ export default createPublicationMonsters({
       name: 'Serpentfolk of Yig',
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic', 'Infernal', 'Void Speech'],
+      appearance: [
+        [
+          'A cultist in a hood whose face dissolves like mist and gives way to the sneering head of a snake, with unblinking slit eyes. Its scaly hands trace spell gestures.',
+        ],
+      ],
+      lore: [
+        [
+          "The serpentfolk of Yig are an old race of snake-people who pass themselves off as a human cult devoted to the serpent god Yig. Illusions let them copy anyone's appearance, but a rank odour frequently exposes them. They live in hiding inside the cities of civilised lands and scheme to topple the warm-blooded heirs of the world once the stars align. Many hope to become strong spellcasters and assassins. They are abominations to the Queen of Serpents, whose followers oppose them.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -14884,6 +14937,18 @@ export default createPublicationMonsters({
       name: 'Shadow Blight',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        [
+          'The scorched, frost-bitten stump of a conifer balances on six root-legs and skitters sideways like a hermit crab. Dark shadows pool in a hollow low on the trunk.',
+        ],
+      ],
+      lore: [
+        [
+          'The origin of a shadow blight is a vampire that has become crimson mist and hidden itself in the shade of a big tree in the cold northern lowlands. It feeds on insects and small animals there until it can hunt again. Its necrotic energy kills the tree, and the dead trunk rises at the following sunset. The blight wants to spread its shadow into more dead trees, and it hunts for a way through to the Plane of Shadows. It kills anyone who tries to prevent that. Vampires, liches and necromancers sometimes raise them as guards. After a kill they flower pink for a short time.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Arctic', 'Forest'],
       stats: {
         size: 'small',
         type: 'plant',
@@ -15108,6 +15173,18 @@ export default createPublicationMonsters({
       name: 'Shadow Fey Poisoner',
       alignment: 'neutral',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        [
+          'A pale elf who becomes visible only after the victim is bleeding from an arrow and convulsing from venom.',
+        ],
+      ],
+      lore: [
+        [
+          'Shadow fey who grow up in the Shadow Realm are fast, smooth-tongued and agile, and a bit more training in poisons, weapons and magic turns them into assassins. A poisoner never reveals who hired it, is seldom captured alive, and will not kill its mark unless defending itself.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Underground', 'Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -15384,6 +15461,16 @@ export default createPublicationMonsters({
       name: 'Shadow Ooze',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A ball of pure black slides over the floor and swallows the light around it.'],
+      ],
+      lore: [
+        [
+          'Whenever part of the Plane of Shadow seeps into another world, shadow oozes result. They resent being away from home and try to devour almost anything, driven by an instinct that tells them enough growth would let them remake the world as another Plane of Shadow. If one is sent back to that plane, it melts into it. They leave shadow fey alone, and the fey use them to guard treasure and hidden strongholds. The fey feed prisoners to them and let them loose when intruders arrive or when other guards are resting.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -15633,6 +15720,13 @@ export default createPublicationMonsters({
       name: 'Shard Swarm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['Fragments of metal, clay and wood whirl together in a jerky tornado.']],
+      lore: [
+        [
+          'A frugal spellcaster builds a shard swarm out of the leftover magic in the remains of a wrecked construct guardian. The maker arranges it to resemble a pile of worthless junk so it can ambush trespassers. Its pieces can scatter widely and reunite in an instant, and some makers use them as living cages to hold intruders until questioning.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -16352,6 +16446,18 @@ export default createPublicationMonsters({
       name: 'Sooze',
       alignment: 'lawful neutral',
       languages: ['all', 'telepathy 100 ft'],
+      appearance: [
+        [
+          'A translucent figure that is roughly human in shape, and has two or three limbs, each holding a tool or a weapon. Inside its head you can see an odd sphere called the zom.',
+        ],
+      ],
+      lore: [
+        [
+          'Sooze are the main fighting strength of the shoth. They obey orders from the oth and droths without question. They keep a few personality traits from their earlier lives, but they are anxious to prove themselves and accept that they have only just been dissolved.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -16975,6 +17081,18 @@ export default createPublicationMonsters({
       name: 'The Barbed',
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A muscular kobold holds up a manticore spike that has been driven through its scaly hand.',
+        ],
+      ],
+      lore: [
+        [
+          "The barbed are kobold chiefs, bigger than ordinary kobolds and scarred from living close to manticores. They worship Mantik, whom they take for a god. In their belief he will lead them to triumph over the waste's drakes and the mountains' dragons. Each has a big tail spike from Mantik stuck through wrist and hand, and the venom still seeping from it cannot harm them.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Badlands'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -17059,6 +17177,17 @@ export default createPublicationMonsters({
       name: 'Thorned Sulfurlord',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A fiend built like a humanoid out of ash-grey briar. A roiling tangle of thorns takes the place of legs, a wooden mask shifts between torment, malice and ecstasy, yellow sulphur smoke curls around the hands, and a flame as hot as a forge burns in the chest.',
+        ],
+      ],
+      lore: [
+        [
+          'It is a cowardly destroyer, unlike many other fiendish plants, and it burns natural plant life down to cinders and then uses the land to grow foul shrubs and devil boughs. Its favourite lairs are its lair the towns and cities that fire has ruined. It pays no heed to the ranks of the Hells or the Abyss and cooperates only when doing so helps it burn and replace the natural world. It might strike a bargain with dark-hearted druids who offer a big grove to burn and reseed.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -17202,6 +17331,18 @@ export default createPublicationMonsters({
       name: 'Thread-Bound Constrictor Snake',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A snake stitched into a rug starts to ripple and slither, then swells and leaps off the fabric.',
+        ],
+      ],
+      lore: [
+        [
+          'Magic that soaks cloth with the essence of a creature that once lived produces thread-bound creatures, which seem ordinary until set off. When one is killed, it disappears and shows up on the fabric in the pose of its death, then takes up its living pattern again the next dawn. If the cloth is destroyed while the creature sits on it, the creature dies as well. To make one, a creator must perform a ritual sacrifice over the cloth materials and then meditate for seven days to fix the triggers.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -17465,6 +17606,17 @@ export default createPublicationMonsters({
       name: 'Tulpa',
       alignment: 'neutral evil',
       languages: ['the languages spoken by its creator'],
+      appearance: [
+        [
+          'A ghostly humanoid that looks much like the person it trails. Its eyes swirl with lights like stars, its pale skin hangs loose, and its long fingers end in oversized black claws.',
+        ],
+      ],
+      lore: [
+        [
+          'A tulpa is a clot of spite and fixation, pulled into existence by purely negative thoughts. It lasts for as long as its maker keeps brooding. It takes no orders, keeps its distance behind its maker, haunting them, and strikes anyone who gets too close. Each maker can have only one. Weaker undead and evil beasts gather around it, so its creator may end up trailed by a growing crowd of darkness.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -17936,6 +18088,18 @@ export default createPublicationMonsters({
       name: 'Vampire Patrician',
       alignment: 'lawful evil',
       languages: ['the languages it knew in life'],
+      appearance: [
+        [
+          'A good-looking young vampire with fair hair, slightly pointed ears and sharp blue eyes. He looks on everything with thinly veiled, haughty disdain.',
+        ],
+      ],
+      lore: [
+        [
+          'Patricians are weaker than other vampires but stronger than spawn, and they make up the difference with cruelty. On behalf of an undead overlord, they govern one small town or village, keeping the peasants afraid through beatings, killings and offerings to the Blood Goddess. The patrician and his guests also chase peasants through the woods for sport. Their homes are small castles or big manor houses, frequently perched on a steep hill, and vampire spawn and mindless undead watch over their resting places. Nearby plants twist into lovelier and deadlier shapes, and sound is dulled so that screams are barely heard.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -18606,6 +18770,18 @@ export default createPublicationMonsters({
       name: "Warlock's Trumpetbloom",
       alignment: 'neutral evil',
       languages: ["understands Void Speech but can't speak"],
+      appearance: [
+        [
+          "A plant that stands over an ogre's height lumbers along on a thick tangle of roots. A stinger slick with venom darts out of its mouth, mounted on a lashing tongue.",
+        ],
+      ],
+      lore: [
+        [
+          'A mage and his cabal made these by crossing jungle orchids and giant meat-eating plants with alien seed pods. The plants grew and multiplied quickly, were meant to become an army, and then burst out of the glasshouses and turned on their masters. They are fierce and clever meat-eaters that want to scatter their seed pods across the jungle. They feed on small deer, huge insects and snakes, and happily on humanoids, drawing nutrients from rotting bodies through their roots.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -18728,6 +18904,18 @@ export default createPublicationMonsters({
       name: 'Wasteland Dragon Wyrmling',
       alignment: 'chaotic evil',
       languages: ['Draconic'],
+      appearance: [
+        [
+          "Rust-red wings blot out the sky as a blast of bright energy bursts from the creature's mouth.",
+        ],
+      ],
+      lore: [
+        [
+          'Wasteland dragons reign over lands wrecked by magic, holding the wrecks of dead cities and formerly green country with merciless possessiveness. They count every other dragon as a foe, and they loathe spellcasters most of all, blaming them for the ruined land and for what they themselves have become. They were once other kinds of dragon, twisted by a magical disaster and by Void energy. Their scales have faded to colours of rust and soil, and those energies have replaced their natural defences. They attack intruders with no warning and no pity, and are crueller still to casters.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Badlands', 'Hill'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -19516,6 +19704,17 @@ export default createPublicationMonsters({
       name: 'Xenabsorber',
       alignment: 'chaotic neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A figure of pale blue crystal stands beside a dead antelope while two black horns slowly grow from its head.',
+        ],
+      ],
+      lore: [
+        [
+          'Its crystal body hums at the magical pitch of a creature close by, and takes on some trait of that creature. Given time it can turn into that creature, though small details escape it. It gets restless when it stays in one shape for long, so it keeps wandering in search of new creatures to imitate. It may appear as crystal, in a full disguise, or as a blend of many creatures, occasionally echoing whichever creatures crowd a busy place.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -19573,6 +19772,18 @@ export default createPublicationMonsters({
       name: 'Xiphus',
       alignment: 'chaotic evil',
       languages: ['Common', 'Elvish', 'Umbral'],
+      appearance: [
+        [
+          'You hear soft ticking and glimpse a streak of light and limbs. Close up, it is tiny, with silvery or white hair, gleaming bronze skin, tall pointed ears and slanted eyes. Where a heart belongs, gears, pistons and hourglasses of red sand spin.',
+        ],
+      ],
+      lore: [
+        [
+          'Xiphus are fey enhanced with clockwork, and they began life as quicksteps. When one comes of age, a ritual swaps its heart for a clockwork mechanism that ticks and gives it mastery over time. It considers quicksteps dull-witted for skipping this step, and the two kinds seldom get on. It talks so quickly that it says everything once or twice more for the benefit of slower listeners.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Forest', 'Urban'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -20137,6 +20348,18 @@ export default createPublicationMonsters({
       name: 'Young Wasteland Dragon',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          "Rust-red wings blot out the sky as a blast of bright energy bursts from the creature's mouth.",
+        ],
+      ],
+      lore: [
+        [
+          'Wasteland dragons reign over lands wrecked by magic, holding the wrecks of dead cities and formerly green country with merciless possessiveness. They count every other dragon as a foe, and they loathe spellcasters most of all, blaming them for the ruined land and for what they themselves have become. They were once other kinds of dragon, twisted by a magical disaster and by Void energy. Their scales have faded to colours of rust and soil, and those energies have replaced their natural defences. They attack intruders with no warning and no pity, and are crueller still to casters.',
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Badlands', 'Hill'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -20212,6 +20435,18 @@ export default createPublicationMonsters({
       name: 'Zoog',
       alignment: 'chaotic evil',
       languages: ['Deep Speech', 'Void Speech'],
+      appearance: [
+        [
+          'Little rodent-like creatures with startled, wide eyes and a collar of tendrils around the mouth.',
+        ],
+      ],
+      lore: [
+        [
+          "Zoogs move in tight family bands and steal food and treasure whenever they can. Sly and scheming, their masters are Chittr'k'k, who rules rats among the demons, Vardesain, who rules ghouls, and certain dark gods of the Void. For wicked masters they will steal, spy, and chew through old bindings and seals. They eat plants that grow underground and hunt for meat, particularly the flesh of thinking creatures, although their cowardice holds them back. Cats are their sworn enemies and hunt them in return.",
+        ],
+        ['Sources: ', 'Creature Codex'],
+      ],
+      habitats: ['Underground', 'Urban'],
       stats: {
         size: 'tiny',
         type: 'aberration',

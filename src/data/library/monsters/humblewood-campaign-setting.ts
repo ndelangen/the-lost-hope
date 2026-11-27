@@ -278,6 +278,18 @@ export default createPublicationMonsters({
       page: 180,
       alignment: 'lawful evil',
       languages: ['Understands Auran and Birdfolk without speaking'],
+      appearance: [
+        [
+          'The bare bones of a dead birdfolk, raised by necromancy, which still move with the habits of its former life.',
+        ],
+      ],
+      lore: [
+        [
+          'These skeletons keep no memories, but their bones remember how to do the jobs and use the weapons they knew in life, which makes them handy as guards or servants. The Avium forbids necromancy in practice, and its skeletons are mostly former staff of the college who decided to remain and help. Many see raising birdfolk who never agreed to it as an insult to their memory, though scholars dispute whether such consent should count.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood', 'The Avium'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1319,6 +1331,14 @@ export default createPublicationMonsters({
       page: 197,
       alignment: 'any neutral alignment',
       languages: ['Speaks Birdfolk, Druidic and Sylvan', 'Understands Auran without speaking it'],
+      appearance: [['A gallus druid who makes trees sprout and heals wounded animals by touch.']],
+      lore: [
+        [
+          'Gallus share a close tie with nature. Hanera teaches them to look at the world from the ground of the forest and not the canopy. Some serve as wardens of the Wood or as guides. Those who share an unusual link with plants and animals become druids. Both birdfolk and humblefolk honour them as spiritual leaders and sage counsellors.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2488,6 +2508,16 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Speaks Birdfolk and Mapach'],
       tableNotes: [['This printing gives the Short Sword slashing damage.']],
+      appearance: [
+        ['A mapach, one of the odd folk of Humblewood, who has joined a local gang of bandits.'],
+      ],
+      lore: [
+        [
+          'Birdfolk commonly mistrust mapachs because they are eccentric and quick to ignore tradition, and are often assumed to be dishonest at first glance. Some never find a place in birdfolk society, so they take up crime to get by. Local bandit gangs take advantage by providing shelter and a cut of what they steal.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',

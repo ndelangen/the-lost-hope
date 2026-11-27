@@ -2388,6 +2388,14 @@ export default createPublicationMonsters({
         ['Applied templates: Goblin'],
         ['Alternate armor classes: 15 · with mage armor'],
       ],
+      appearance: [['A goblin who practises warlock magic through a bond with a patron.']],
+      lore: [
+        [
+          "This goblin warlock answers to a patron. Should the goblin go back on a vow, the patron can take its payment in the goblin's flesh. Patrons are often a hag coven that rules the tribe, a fiend loose in the world, or an undead master, perhaps a lich or a vampire. Goblins seldom have the patience or wits for spellcraft, and what they know rarely lasts beyond two generations. They therefore label all magic booyahg and use the same word for those who wield it. A goblin who can cast joins the lashers and may become a boss.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
+      habitats: ['Goblin lairs'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2528,6 +2536,14 @@ export default createPublicationMonsters({
         ['Applied templates: Goblin'],
         ['Alternate armor classes: 15 · with mage armor'],
       ],
+      appearance: [['A goblin who practises warlock magic through a bond with a patron.']],
+      lore: [
+        [
+          "This goblin warlock answers to a patron. Should the goblin go back on a vow, the patron can take its payment in the goblin's flesh. Patrons are often a hag coven that rules the tribe, a fiend loose in the world, or an undead master, perhaps a lich or a vampire. Goblins seldom have the patience or wits for spellcraft, and what they know rarely lasts beyond two generations. They therefore label all magic booyahg and use the same word for those who wield it. A goblin who can cast joins the lashers and may become a boss.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
+      habitats: ['Goblin lairs'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3495,6 +3511,15 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [
+        ['A wizard who calls forth beings from other planes and produces matter from nothing.'],
+      ],
+      lore: [
+        [
+          'Conjurers bring creatures in from other planes and make substances out of thin air. Some use this to bolster armies or wipe out enemies in battle, and others use the creatures they call to defend their lairs.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -14698,10 +14723,10 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Any two languages.'],
       habitats: ['urban'],
-      appearance: [['A legendary battlefield commander, shouting exhortations to the troops.']],
+      appearance: [['A famed battlefield leader bellowing encouragement at the soldiers.']],
       lore: [
         [
-          'Warlords are famed commanders whose names are spoken with awe. After a string of decisive wins, a warlord can easily become a monarch or general and gather followers willing to die for the banner. A warlord urges troops into battle with shouted battle cries.',
+          'Warlords are renowned generals whose names inspire awe. After a run of crushing victories, one can readily rise to rule as a monarch or high commander and collect followers who would die for the banner. In battle a warlord drives the troops forward with roared battle cries.',
         ],
         ['Sources: ', "Volo's Guide to Monsters"],
       ],

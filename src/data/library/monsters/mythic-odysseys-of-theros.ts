@@ -4072,6 +4072,14 @@ export default createPublicationMonsters({
       name: 'Polukranos',
       page: 231,
       alignment: 'unaligned',
+      appearance: [['A huge, serpent-bodied hydra that goes by the title World Eater.']],
+      lore: [
+        [
+          "Polukranos is how the everlasting ideal of a hydra looks in mortal form. The first incarnation fell out of Nyx, and Nylea and Heliod bound it together in the depths of the Nessian Wood. The creature died then, but the ideal lives on. A new incarnation is a grim warning. It appears only when the world's pillars shake and the gods are caught up in terrible events, and its rampages often mark the start of a dangerous age for civilisation.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Nessian Wood', 'Theros'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -4517,6 +4525,18 @@ export default createPublicationMonsters({
       page: 242,
       alignment: 'chaotic neutral',
       languages: ['Common', 'Sylvan.'],
+      appearance: [
+        [
+          "A sturdy fey with goat legs and cloven hooves. Its horns can be little nubs or spiralling ram's horns, and it usually has a beard.",
+        ],
+      ],
+      lore: [
+        [
+          'Satyrs are rowdy fey who romp through untamed forests, ruled by curiosity and the pursuit of pleasure. They long for strong drink, fragrant spices and wild dancing, and they will go to great lengths to satisfy those cravings. They attend every festival they hear about, and never consider what happens as a result of the indulgence they stir up in others.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -5668,6 +5688,14 @@ export default createPublicationMonsters({
       page: 215,
       alignment: 'lawful evil',
       languages: ['Understands every language and cannot speak.'],
+      appearance: [['A hound of the Underworld with three heads.']],
+      lore: [
+        [
+          "Cerberi with three heads dwell far down in the Underworld, fearsome and sly. They watch over the portals between the Underworld's wards, the treasures of Erebos, and notable souls who might attempt an escape. Demons often command them. Left to themselves, though, they drive clever souls into mazelike wilds and hunt them for fun. They walk the shores on either side of the Tartyx River, and they spew streams of molten rock that scorch and trap intruders. Most of them hunger endlessly for fresh meat, humanoids above all, and villains have drawn them away from the river to set them on mortal towns.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Underworld'],
       stats: {
         size: 'large',
         type: 'monstrosity',

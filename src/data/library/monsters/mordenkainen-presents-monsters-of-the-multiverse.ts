@@ -2440,6 +2440,17 @@ export default createPublicationMonsters({
           'Regional effects: The lair can cause one or more of these effects. All end immediately when the balhannoth dies.\nSense Desires. Within 1 mile of itself, the balhannoth detects the strongest desires of Humanoids and learns whether those desires involve a place, such as a safe place to rest, a temple, or a home.\nSupernatural Lure. Creatures within 1 mile of the lair feel close to what they want most. The feeling strengthens as they approach the lair.',
         ],
       ],
+      appearance: [
+        [
+          'A hunter lurks somewhere that seems inviting yet is wrong in small ways, like an inn or a temple whose details fail to add up.',
+        ],
+      ],
+      lore: [
+        [
+          'The Shadowfell is the home of the balhannoth. It senses what its prey are hoping to find and twists its lair into that shape, but the imitation is always flawed. Once victims step inside, it grabs them and teleports off to feast on their terror and hopelessness. Rulers of the Underdark and builders of dungeons occasionally trap them and set them to watch passages and escape routes.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -3124,6 +3135,15 @@ export default createPublicationMonsters({
       languages: ['Abyssal', 'Common', 'Goblin', 'Infernal', 'telepathy 60 ft.'],
       habitats: ['forest', 'grassland', 'hill', 'mountain', 'underdark'],
       tableNotes: [['Movement notes: walk · (30 ft. in goblin form)']],
+      appearance: [
+        ['A big, fiendish dog in its natural shape, though it first presents itself as a goblin.'],
+      ],
+      lore: [
+        [
+          'Barghests are born goblins, to goblinoid parents, and only later learns to take its real shape, that of a dog. The General of Gehenna created them to eat goblinoid souls and keep them from Maglubiyet. They hide what they are. While young they hunt lone goblins, and as adults they seek the souls of leaders to raise their standing. A fire larger than the barghest itself works as a gate to Gehenna and sends it away.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -5465,6 +5485,17 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [
+        [
+          'A wizard who calls up creatures from other planes and can disappear and reappear in an instant.',
+        ],
+      ],
+      lore: [
+        [
+          'A conjurer calls creatures from beyond this world and can whisk itself or anyone else elsewhere in an instant. They share the general wizardly habit of studying arcane writings and hunting for rare books.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7383,12 +7414,12 @@ export default createPublicationMonsters({
       habitats: ['underdark'],
       appearance: [
         [
-          'An ogre-sized, four-armed biped with purple skin and pale hair, glowing red eyes and a doglike snout, with two heavy clawed arms and two slim, elf-like ones.',
+          "A four-armed creature as big as an ogre, with purple skin, light-coloured hair, burning red eyes and a muzzle like a dog's. Two of its arms are thick and clawed, while the other two are slender and look elvish.",
         ],
       ],
       lore: [
         [
-          "A draegloth results when an elf priest of Lolth merges their own fey essence with a glabrezu's fiendish essence, a ritual that rarely works. Among the drow of Menzoberranzan it is a weapon against rival houses and can swing a battle. Most resent orders but are taught to vent their anger on their creator's enemies, and an ambitious one may leave its creator and go its own way.",
+          'A draegloth is born when a priestess of Lolth, herself an elf, blends her fey essence with that of a glabrezu, a rite that seldom succeeds. In Menzoberranzan the drow use it against enemy houses, and one can tip a fight. Most chafe at commands, yet they are trained to turn their rage on the enemies of whoever made them, and a driven one may break away from its maker to follow its own path.',
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
@@ -13436,6 +13467,18 @@ export default createPublicationMonsters({
           'Regional effects: The anarch’s presence can cause one or both effects.\nForm Substance. In Limbo, spend 10 minutes stabilizing the unformed substance in a 5-mile area centered on the anarch. The anarch gives it any inanimate shapes and material composition it chooses.\nStabilize Object. An object created in Limbo and brought to the Material Plane remains stable while within 1 mile of the anarch, with no action required.\nAfter the anarch dies, the effects end in 1d6 rounds. Formed substances break down into unstable energy and matter and dissipate 1d6 rounds later.',
         ],
       ],
+      appearance: [
+        [
+          'A githzerai sage and mystic wielding great psionic power, who can shape the material of Limbo by thought alone.',
+        ],
+      ],
+      lore: [
+        [
+          'Anarchs are sages and mystics among the githzerai. They lead communities and look after the adamantine citadels, which act as fortified bases both in Limbo and elsewhere in the planes. In that plane, an anarch calls on psionic power to mould the formless. It lifts up mountains, lakes and buildings on which a community can rest, and carves out islands of calm in the turbulent plane. The githzerai are ascetics and kin to the githyanki, and they follow Zaerith Menyar-Ag-Gith.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Limbo'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -14100,6 +14143,18 @@ export default createPublicationMonsters({
         ],
         ['Cult: See Cult of Graz’zt for his followers’ encounter rules.'],
       ],
+      appearance: [
+        [
+          'A figure nine feet tall and disturbingly beautiful, with blazing eyes and six digits on every hand and foot. He wears unsettling but expensive silk and leather.',
+        ],
+      ],
+      lore: [
+        [
+          "Graz'zt can adopt whatever human-like shape will entice his audience, but a faint wrongness always remains. He favours charm and manipulation, and keeps the finest possessions and most beautiful servants around him. His lairs and those of his cults are palaces of pleasure, where only restraint and kindness are banned. His followers form secret cults devoted to indulgence, which operate through blackmail, addiction and manipulation, and their members wear alabaster masks with blissful faces. He carries Angdrelve, a greatsword that drips acid. He is based chiefly at Zelatar, in the Argent Palace.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['The Abyss'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -20769,6 +20824,13 @@ export default createPublicationMonsters({
         ['Unsinkable. The vessel stays afloat even if its hull is breached.'],
         ['The effects fade over 1d6 hours after the merrenoloth dies.'],
       ],
+      appearance: [['A grim, thin yugoloth ferryman holding an oar that burns.']],
+      lore: [
+        [
+          'Merrenoloths steer the ferries of the River Styx and are the complete masters of their boats. Occasionally one can be persuaded to leave the Lower Planes and take the helm of a different ship. They bond with the ship and bring it safely through the worst storms and along its course. They are able to fight but would rather not, and they usually write a clause into their contracts excusing them from doing so. The vessel comes first for them.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -21292,6 +21354,18 @@ export default createPublicationMonsters({
           "Demon summoning mechanics: Summon Demon (1/day, optional). As an action, choose 1d6 babaus, 1d4 chasmes, or one marilith. The attempt has a 50% chance to succeed. Each summoned demon appears in an unoccupied space within 60 ft. and acts as the molydeus's ally. It cannot summon other demons. It stays for 1 minute or until it dies, the molydeus dies, or the molydeus dismisses it as an action.",
         ],
       ],
+      appearance: [
+        [
+          "A biped twelve feet tall with two heads: a drooling wolf's head and a snake's head with fangs.",
+        ],
+      ],
+      lore: [
+        [
+          'A molydeus acts and talks on behalf of its demon lord, who can watch and speak through the snake head. It protects hoards, slays enemies and frightens armies into obeying. Its lord hands it a potent weapon, which melts away should the molydeus die.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['The Abyss'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -23339,10 +23413,10 @@ export default createPublicationMonsters({
       page: 197,
       alignment: 'typically lawful evil',
       habitats: ['swamp', 'underdark', 'urban'],
-      appearance: [['A small ooze that has just split from a larger oblex.']],
+      appearance: [['A little ooze that has newly budded off from a bigger oblex.']],
       lore: [
         [
-          'Spawn form when a full memory drain makes an oblex grow too large and shed a personality, making a new oblex. They are weaker than elders and only want to feed on memories and grow until they can impersonate their victims.',
+          'A spawn appears when an oblex drains so many memories that it swells too large and sheds a personality, which becomes a new oblex. Spawn are feebler than their elders. All they want is to devour memories and swell in size until they can pass as the people they fed on.',
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
@@ -23529,6 +23603,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Common', 'Giant.'],
       habitats: ['grassland', 'hill', 'mountain'],
+      appearance: [
+        [
+          'An ogre whirling a huge spiked chain around itself in a broad arc, with both hands on it.',
+        ],
+      ],
+      lore: [
+        [
+          'Ogres adore rushing into a fight, but a few pick up specialised skills, and the chain brute is such a one. It whips its spiked chain around in a broad sweep that knocks enemies off their feet, or heaves it down in a skull-crushing blow from above.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -30491,11 +30576,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral',
       languages: ['Aquan and one language chosen by its creator.'],
       appearance: [
-        ['A suit of ritually made plate armour animated by a water elemental, wielding a trident.'],
+        [
+          'A suit of plate armour, made by ritual and driven by a water elemental, carrying a three-pronged spear.',
+        ],
       ],
       lore: [
         [
-          "Elemental myrmidons are elementals conjured and bound by magic into plate armour made for the purpose. In this form they have no memory of being free and exist only to follow their creators' orders. The water myrmidon fights with a trident and can strike in a chilling flurry that slows those it hits.",
+          'Elemental myrmidons are elementals called up and bound by magic inside plate armour built just for them. Bound this way, they remember nothing of freedom and exist solely to obey those who made them. The water myrmidon wields a trident and can lash out in a freezing flurry that leaves its victims sluggish.',
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
@@ -31003,6 +31090,13 @@ export default createPublicationMonsters({
       page: 224,
       alignment: 'typically neutral evil',
       habitats: ['swamp', 'underdark', 'urban'],
+      appearance: [['Nasty small monsters that move in packs and have fangs for draining life.']],
+      lore: [
+        [
+          "The wretched kind of sorrowsworn roam the Shadowfell in packs hunting prey. They live on life force and dart in to bite and drink their fill. Sorrowsworn are the embodiment of the Shadowfell's anguish. Surrendering to the feeling a given one represents strengthens it, while fighting the feeling weakens it or sends it away.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -31530,6 +31624,13 @@ export default createPublicationMonsters({
       languages: ['Understands Common, Elvish, and Sylvan but cannot speak.'],
       habitats: ['forest', 'grassland', 'hill'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [['A hound that runs in a pack after dark and conceals itself when day breaks.']],
+      lore: [
+        [
+          'Mighty fey, including the fey Queen of Air and Darkness, grant yeth hounds to servants they favour, and the hounds serve as hunting dogs. They chase prey until it is too worn out to resist. Only sunrise makes them hide. The master can give them orders by telepathy over a distance. Once the master is dead, the hounds seek a replacement, frequently a wicked vampire, necromancer or green hag.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'fey',

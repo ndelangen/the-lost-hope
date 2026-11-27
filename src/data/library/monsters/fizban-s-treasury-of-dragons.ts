@@ -4447,6 +4447,18 @@ export default createPublicationMonsters({
           'Mythic actions: For 1 hour after Platinum Brilliance activates, the aspect can spend legendary actions on these options.\nCelestial Shield (2 actions). Seven spectral ancient gold dragons protect the aspect, giving him 77 temporary HP until the start of his next turn.\nCelestial Lances (3 actions). Pick four different points on the ground the aspect can see within 150 ft. Each creature in a 20-ft.-radius, 100-ft.-high cylinder centered on a point must succeed on a DC 27 Dexterity save or take 24 (7d6) force damage. Resolve the save once per creature, even where cylinders overlap.',
         ],
       ],
+      appearance: [
+        [
+          'A towering dragon with platinum scales, larger than any ancient dragon and combining traits of all five metallic dragons. It can also show up as a wise elder, a youthful monk or a small singing bird.',
+        ],
+      ],
+      lore: [
+        [
+          'In essence, this aspect is the Platinum Dragon given physical form. It holds his memories, his will and a large share of his power. It is sent in times of dire need, when a faithful follower gives up something huge, such as an enormous hoard or their own life. His justice falls on enemies and his mercy on friends, and its breath is able to heal as well as to wreck. Seven ancient gold dragons often travel with it, and they enjoy disguising themselves as canaries.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Mount Celestia'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -6195,6 +6207,15 @@ export default createPublicationMonsters({
         ],
         ['The Spellcasting section is printed as "Spellcasting (Psionics)", an action.'],
       ],
+      appearance: [
+        ['A gigantic dragon whose body is crystal and whose scales glitter like diamonds.'],
+      ],
+      lore: [
+        [
+          "Dragonsight absorbs gem dragons, as does the merging of the minds of their echoes throughout the Material Plane. Some see it as a way toward mending the broken mind of the Ruby Dragon, Sardior. A greatwyrm breathes a wave of force that crushes, and its greatest power is telekinesis on an enormous scale: it can pick up a whole crowd and carry it away to its lair. Hrodel, one of Sardior's five thanes, is a crystal greatwyrm.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -7872,6 +7893,13 @@ export default createPublicationMonsters({
       page: 184,
       alignment: 'typically lawful good',
       languages: ['Common', 'Draconic.'],
+      appearance: [['A dragonborn champion who serves a divine dragon ancestor.']],
+      lore: [
+        [
+          "A dragonborn champion's tie to its draconic forebears is as much spiritual as it is a matter of blood. Such champions pledge themselves to their dragon god, and they promote that god's cause among dragon-kind and also among other peoples.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7977,6 +8005,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral',
       languages: ['Common', 'Draconic.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [['A dragonborn champion who serves a divine dragon ancestor.']],
+      lore: [
+        [
+          "A dragonborn champion's tie to its draconic forebears is as much spiritual as it is a matter of blood. Such champions pledge themselves to their dragon god, and they promote that god's cause among dragon-kind and also among other peoples.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -8094,6 +8129,13 @@ export default createPublicationMonsters({
       page: 185,
       alignment: 'typically chaotic evil',
       languages: ['Common', 'Draconic.'],
+      appearance: [['A dragonborn champion who serves a divine dragon ancestor.']],
+      lore: [
+        [
+          "A dragonborn champion's tie to its draconic forebears is as much spiritual as it is a matter of blood. Such champions pledge themselves to their dragon god, and they promote that god's cause among dragon-kind and also among other peoples.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -8994,6 +9036,15 @@ export default createPublicationMonsters({
         ],
         ['The Spellcasting section is printed as "Spellcasting (Psionics)", an action.'],
       ],
+      appearance: [
+        ['A gigantic dragon whose body is crystal and whose scales glitter like diamonds.'],
+      ],
+      lore: [
+        [
+          'Dragonsight absorbs gem dragons, as does the merging of the minds of their echoes throughout the Material Plane. Some see it as a way toward mending the broken mind of the Ruby Dragon, Sardior. A greatwyrm breathes a wave of force that crushes, and its greatest power is telekinesis on an enormous scale: it can grab an entire crowd and carry it off to its lair.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -9249,6 +9300,17 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Deep Speech', 'Draconic.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A winged dragon-like creature with no real limbs. Its mouth is always open and holds a big eye, and its wings are made from eyestalks.',
+        ],
+      ],
+      lore: [
+        [
+          "If a beholder fixates on a rival dragon for long enough, its feverish dreams can take shape as an eyedrake. The eye in its mouth sends out a wave of antimagic like a breath, and each eyestalk in the wings fires rays that combine a dragon's breath with a beholder's eye ray. Left on its own, it behaves like a young dragon. It tries to build a lair and collect a hoard, and it fights to the death to hold on to even its tiniest trinket.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -10342,6 +10404,17 @@ export default createPublicationMonsters({
       page: 206,
       alignment: 'any alignment',
       languages: ['Common', 'Draconic.'],
+      appearance: [
+        [
+          "The empty shell of a metallic dragon's skin, packed with radiant energy. The energy appears as fire, lightning or mist, depending on which kind of dragon it was.",
+        ],
+      ],
+      lore: [
+        [
+          'A metallic dragon may agree to become undead so that it can protect an artifact or keep a vow. A hollow dragon never loses sight of its goal, and if it is destroyed its body re-forms. Once the job is done, most welcome death. A few look for new tasks, and others simply refuse to stop, from stubbornness or habit.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -10526,6 +10599,17 @@ export default createPublicationMonsters({
       page: 207,
       alignment: 'typically neutral',
       languages: ['Draconic.'],
+      appearance: [
+        [
+          "A beast with a brass dragon's wings and long neck but a lion's head and body. Males have a full mane, and the roar is terrifying.",
+        ],
+      ],
+      lore: [
+        [
+          'Liondrakes, which are also called dragonnes, are lone, possessive hunters. They depend on savagery and a dreadful roar to catch prey and chase off competitors. They range over inhabited lands and do not normally go after people, but anyone who strays into their domain becomes fair game. That is the root of their reputation for craving humanoid meat.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -11170,6 +11254,17 @@ export default createPublicationMonsters({
           'Optional customization: Fizban’s customization guidance (p. 34) allows changes to languages, skill and tool proficiencies, senses, and traits. Its examples include Change Shape, Flyby, Mimicry, Rejuvenation and Tunneler.',
         ],
         ['The printed ability name is "Spellcasting (Psionics)".'],
+      ],
+      appearance: [
+        [
+          'A dragon of the gem kind that has been transformed into crystal, its scales glittering like diamonds.',
+        ],
+      ],
+      lore: [
+        [
+          'Gem dragons are fascinated by joining together the minds of all their echoes on the Material Plane. Some view it as a route toward mending the broken mind of the Ruby Dragon, Sardior. A gem greatwyrm exhales a crushing surge of force. Its signature power is telekinesis at enormous scale: it can grab a whole crowd and take the helpless captives to its lair. Sapphire dragons especially are warlike and territorial, defending their lairs hard and ambushing trespassers.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
       ],
       stats: {
         size: 'gargantuan',
@@ -11885,6 +11980,17 @@ export default createPublicationMonsters({
           'Optional customization: Fizban’s customization guidance (p. 34) allows changes to languages, skill and tool proficiencies, senses, and traits. Its examples include Change Shape, Flyby, Mimicry, Rejuvenation and Tunneler.',
         ],
         ['The printed ability name is "Spellcasting (Psionics)".'],
+      ],
+      appearance: [
+        [
+          'A dragon of the gem kind that has been transformed into crystal, its scales glittering like diamonds.',
+        ],
+      ],
+      lore: [
+        [
+          'Gem dragons are fascinated by joining together the minds of all their echoes on the Material Plane. Some view it as a route toward mending the broken mind of the Ruby Dragon, Sardior. A gem greatwyrm exhales a crushing surge of force. Its signature power is telekinesis at enormous scale: it can grab a crowd and take the helpless captives to its lair. Topaz dragons overall tend to be gloomy and grumpy.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
       ],
       stats: {
         size: 'gargantuan',
@@ -12835,6 +12941,15 @@ export default createPublicationMonsters({
           'Optional lair guidance: Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.',
         ],
       ],
+      appearance: [
+        ['A young gem dragon that hides its presence so it can watch without being seen.'],
+      ],
+      lore: [
+        [
+          'Of all the gem dragons, emeralds are the most inquisitive, shrewd and scheming. They use psionics to spin illusions that mislead and confuse. They conceal themselves to study creatures and collect information on subjects ranging from local customs to supernatural happenings.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -12968,6 +13083,18 @@ export default createPublicationMonsters({
           'Optional lair guidance: Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.',
         ],
       ],
+      appearance: [
+        [
+          'A graceful, refined dragon whose scales are opalescent. Emerald-green fur forms ruffs at the chin and chest and along the back and tail. A horn rises from the rear of its skull and another from the end of its nose, and the pair together make a crescent moon.',
+        ],
+      ],
+      lore: [
+        [
+          'The Feywild is the home of moonstone dragons, said to descend from eggs that a clever dragon hid there. While young they are playful and prankish, and the finest mature as sage instructors and tellers of tales, who are the anchors of Feywild communities. They remain gentle with travellers and curious about them, and they can reach into the dreams of sleepers near their lairs to speak with them.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'large',
         type: 'dragon',

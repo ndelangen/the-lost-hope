@@ -4140,12 +4140,12 @@ export default createPublicationMonsters({
       habitats: ['Urban'],
       appearance: [
         [
-          'An empty suit of armour clanks forward, sometimes with a steady tread and sometimes with a lurching gait.',
+          'A hollow suit of armour advances with a clatter, its stride at times even and at times jerky.',
         ],
       ],
       lore: [
         [
-          'Magic can animate ordinary objects so they carry out simple orders from whoever made them. If left alone, they guard a place for ages or repeat a task until they wear out. Animated armour is often built from plate and is easy to mistake for a soldier or a helmed horror, though other armour or metal statues can be animated too. It only follows its instructions and does not bargain or flee.',
+          'Spellwork can give life to everyday objects and set them to carry out basic commands from their maker. Left on their own, such creations stand watch over a spot for centuries or keep repeating one chore until they fall apart. Animated armour is frequently built from plate, so people take it for a living soldier or a helmed horror, but other suits of armour and metal statues can be enchanted as well. It obeys its orders and nothing more, never haggling and never running away.',
         ],
         ['Sources: ', 'Monster Manual'],
       ],
@@ -7098,6 +7098,13 @@ export default createPublicationMonsters({
         ['Initiative details: +5 to the roll. Initiative score 15.'],
         ['Gear: Greataxe, 6 javelins.'],
       ],
+      appearance: [['A scarred, reckless leader of warriors, in the grip of battle fury.']],
+      lore: [
+        [
+          'Berserkers include rash raiders, arena fighters and other wild fighters who are carried along by the thrill of combat. A commander bears the marks of countless battles and pushes its followers to share its lethal zeal. It also draws on primal magic to heighten its strength.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -7396,6 +7403,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['None.'],
       habitats: ['Any'],
+      appearance: [
+        [
+          'A vast drifting mound of cosmic sludge that rolls across the land. Pieces of it break off and reach for victims to swallow.',
+        ],
+      ],
+      lore: [
+        [
+          'Cosmic entropy fused with the remains of slain gods makes up the blob. It usually wanders through Wildspace and other hostile voids. It becomes most dangerous when a catastrophe or a nihilistic spellcaster calls it into an inhabited realm, where it absorbs forests, villages and fortresses. Within it lies a space with no air or gravity where almost nothing survives. Magic items and the bodies of gods and titans can last there, which lures treasure seekers and theologians who hope to recover them.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'ooze',
@@ -10444,6 +10462,17 @@ export default createPublicationMonsters({
       languages: ['Celestial', 'Common.'],
       habitats: ['Any'],
       tableNotes: [['Gear: Breastplate, Holy Symbol.']],
+      appearance: [
+        [
+          "A high-ranking cult member who displays the cult's emblems on clothes and skin and presides over lesser followers.",
+        ],
+      ],
+      lore: [
+        [
+          "Hierophants lead cults. They govern the daily lives of their followers, issue the cult's commandments and explain what the patron wants. Their power comes from the patron, from other supernatural sources, or from their own zeal. They are privy to the cult's darkest secrets, and frequently control strange relics, mystic sites and monstrous servants.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -10922,6 +10951,17 @@ export default createPublicationMonsters({
       languages: ['Common.'],
       habitats: ['Any'],
       tableNotes: [['Gear: Splint Armor.']],
+      appearance: [
+        [
+          'A cultist wearing the emblems of their order, with the stern expression of someone who lives for doom.',
+        ],
+      ],
+      lore: [
+        [
+          "Death cultists see nihilistic forces as roads toward undeath, toward purity across the multiverse, or toward entropy's unavoidable end. Their masters are mighty undead, apocalyptic prophecies, or deathless beings who rule over dying, among them Orcus, Vecna, Kyuss, Wee Jas and Acererak.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -11311,6 +11351,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common.'],
       habitats: ['Any'],
+      appearance: [
+        [
+          "A warrior in black armour, either a skeleton or partly one, who follows a death knight and carries a share of its master's might.",
+        ],
+      ],
+      lore: [
+        [
+          "If the head of an evil order returns as a death knight, loyal followers can share its cursed state as aspirants. They hold a portion of their leader's power and keep serving as they once did, carrying out its commands and announcing its dreadful will.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'undead',
@@ -13957,12 +14008,12 @@ export default createPublicationMonsters({
       habitats: ['Nine Hells'],
       appearance: [
         [
-          'A winged devil in fiendish armour, carrying a magic rope; nobody sees what lies inside the armour.',
+          'A winged devil clad in infernal armour and holding an enchanted rope. No one has ever glimpsed what is beneath the plates.',
         ],
       ],
       lore: [
         [
-          'Erinyes, also called furies, are fallen-angel devils who deliver merciless justice. They hunt oath breakers and drag the damned to the Nine Hells in the grip of their ropes. They often serve archdevils and guard the Hells against trespassers and escapees, and they hunt in trios on occasion. They also hear oaths and curses sworn in their names, and a wronged mortal crying out for justice may draw one. A summoned erinyes does not leave without the soul of either its quarry or the summoner. They pursue targets across the multiverse for as long as it takes.',
+          "Erinyes, sometimes called furies, are devils descended from fallen angels, and they enforce justice without pity. Their quarry is the oath breaker, and they haul the damned off to the Nine Hells wrapped in their ropes. Many serve archdevils, patrol the Hells against intruders and escapees, and occasionally hunt as a group of three. They listen for vows and curses made in their names, so a mortal who has been wronged and cries out for justice may attract one. Once summoned, an erinyes stays until it has taken a soul, whether its target's or its summoner's. It will chase a victim through the whole multiverse for as long as the chase lasts.",
         ],
         ['Sources: ', 'Monster Manual'],
       ],
@@ -15420,12 +15471,10 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common.'],
       habitats: ['Swamp', 'Underdark', 'Urban'],
-      appearance: [
-        ['A reeking corpse, related to ghouls, that has an air of ruling over the dead.'],
-      ],
+      appearance: [['A stinking corpse akin to a ghoul, carrying itself like a lord of the dead.']],
       lore: [
         [
-          'Ghasts are foul undying corpses closely related to ghouls. They crave the vices they enjoyed in life as much as they crave rotting flesh. Their stench sickens those near them.',
+          'Ghasts are vile undead bodies, near relatives of ghouls. The appetites they had in life, for whatever vices they favoured, burn as hotly in them as their hunger for decaying meat. The stench they give off turns the stomachs of anyone close.',
         ],
         ['Sources: ', 'Monster Manual'],
       ],
@@ -15519,6 +15568,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common.'],
       habitats: ['Swamp', 'Underdark', 'urban'],
+      appearance: [
+        [
+          'A foul-smelling undead corpse that is a near relative of the ghoul, with a corrupt, starving manner.',
+        ],
+      ],
+      lore: [
+        [
+          'Ghasts are stinking corpses that will not die, and are closely tied to ghouls. They crave the vices they indulged in life every bit as much as they crave rotten meat. A gravecaller uses wicked magic and can talk to the dead. It might pretend to be a lich or a vampire.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -17368,6 +17428,17 @@ export default createPublicationMonsters({
       languages: ['Common', 'Draconic', 'Gith.'],
       habitats: ['Planar (Astral Plane)'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A thin, human-like githyanki with jagged ears and mottled skin in shades of yellow, green or brown.',
+        ],
+      ],
+      lore: [
+        [
+          "Githyanki are lean, human-like raiders from the Astral Plane, formed by years of rule by mind flayers and by the rift between Gith and Zerthimon. Near the end of her life, Gith arranged an alliance of the githyanki with the dragon goddess Tiamat. Since then Tiamat's consort Ephelomon, a red dragon, and his kind have counted as their friends. Dracomancers keep that pact alive and develop magic that suits red dragons.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -17638,12 +17709,12 @@ export default createPublicationMonsters({
       habitats: ['Planar (Limbo)'],
       appearance: [
         [
-          'A gaunt, humanlike figure, physically the same as a githyanki, fighting with psychic force rather than weapons.',
+          'A lean, humanlike figure, no different in body from a githyanki, who fights with force of mind and carries no weapon.',
         ],
       ],
       lore: [
         [
-          "Githzerai were physically and psychically changed by mind flayers, as were githyanki. They follow the teachings of their first leader, Zerthimon, and reshape mind and body to find peace instead of accepting their former masters' programming. They build serene hidden sanctuaries in chaotic parts of the multiverse, most drifting in Limbo, to hone psionic ability and avoid githyanki and mind flayers.",
+          'Mind flayers changed the githzerai in body and mind, just as they did the githyanki. The githzerai follow the teachings of Zerthimon, their founding leader, and refashion their bodies and minds in search of peace, refusing the conditioning their old masters imposed. Their calm, secret strongholds lie in the wild reaches of the multiverse, many drifting through Limbo, where they sharpen their psionic gifts and keep clear of githyanki and mind flayers.',
         ],
         ['Sources: ', 'Monster Manual'],
       ],
@@ -18277,11 +18348,13 @@ export default createPublicationMonsters({
       languages: ['Gnoll.'],
       habitats: ['Desert', 'Forest', 'Grassland', 'Hill'],
       appearance: [
-        ['A hyena-like humanoid warrior with a cackling voice, carrying a bow made of bone.'],
+        [
+          'A hyena-headed humanoid fighter with a laughing, shrieking voice, armed with a bow fashioned from bone.',
+        ],
       ],
       lore: [
         [
-          'Gnolls arose from hyenas that fed on flesh tainted by the Abyss, and the demon lord Yeenoghu spread them across the multiverse. They are his cackling servants, living to cause ruin and to feast on what is left. He sees them as maggots released to infest a despised carcass, not as his own brood.',
+          'Gnolls began as hyenas that ate meat corrupted by the Abyss, and the demon lord Yeenoghu scattered them through the multiverse. They serve him with shrieking laughter, existing to wreck settlements and gorge on the remains. Yeenoghu does not think of them as his children. To him they are vermin set loose to crawl over a carcass he hates.',
         ],
         ['Sources: ', 'Monster Manual'],
       ],
@@ -18871,13 +18944,11 @@ export default createPublicationMonsters({
       languages: ['Common plus two other languages.'],
       habitats: ['Forest', 'Swamp', 'Urban'],
       appearance: [
-        [
-          'A walking body animated by a wrathful spirit, intent on punishing the person who wronged it.',
-        ],
+        ['A walking corpse moved by a furious spirit, set on punishing whoever wronged it.'],
       ],
       lore: [
         [
-          'Revenants are wrathful spirits that possess corpses and other materials to take revenge on those who wronged them. They will not rest until their targets are dead, and if their body is destroyed they take a new one and carry on. This one returns after 24 hours unless Dispel Evil and Good is cast on its remains, and then it raises another set of corpses elsewhere.',
+          'Revenants are enraged spirits that seize dead bodies and other matter in order to avenge themselves on people who harmed them. They do not stop until their targets die, and if their body is ruined they just take a new one. This one comes back after a day, though casting Dispel Evil and Good on its remains prevents this. When it does return, it raises a different set of corpses somewhere else.',
         ],
         ['Sources: ', 'Monster Manual'],
       ],
@@ -19761,10 +19832,10 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Celestial', 'Common.'],
       habitats: ['Desert', 'forest', 'and Upper Planes'],
-      appearance: [['A serpentine scholar holding the memory of a whole culture.']],
+      appearance: [['A snake-bodied sage who carries the recollections of an entire people.']],
       lore: [
         [
-          'Guardian nagas are immortal, serpentine scholars with perfect memories. They collect the history and lore of the peoples they live among and pass it on accurately. If their host civilisation ends, one may stay in the ruins to keep its stories alive. It returns to life a few days after dying unless Dispel Evil and Good is cast on its remains.',
+          'Guardian nagas are deathless scholars with serpent bodies and flawless recall. They gather the histories and traditions of whatever peoples dwell around them and hand them down without error. When the society they lived beside falls, one may remain among its ruins so that the old tales do not die. A slain guardian naga revives within a few days. Casting Dispel Evil and Good on its remains prevents that.',
         ],
         ['Sources: ', 'Monster Manual'],
       ],
@@ -20179,10 +20250,12 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common plus two other languages.'],
       habitats: ['Forest', 'Swamp', 'Urban'],
-      appearance: [['A Gargantuan object or structure animated by a vengeful spirit.']],
+      appearance: [
+        ['A colossal object or building brought to life by a spirit seeking vengeance.'],
+      ],
       lore: [
         [
-          'Revenants are wrathful spirits that possess corpses and other materials to take revenge on those who wronged them. This one inhabits a huge object or structure, and it ruins spells cast inside its space and can swallow creatures by teleporting them into itself. It revives after 24 hours unless Dispel Evil and Good is cast on its remains, taking another large object or structure elsewhere.',
+          'Revenants are enraged spirits that seize dead bodies and other matter to punish whoever wronged them. This individual lives inside an enormous object or structure. Spells cast within its reach fail, and it can pull creatures inside itself by teleporting them in. It revives a day after being destroyed and moves into some other huge object or building elsewhere. Casting Dispel Evil and Good on its remains prevents that.',
         ],
         ['Sources: ', 'Monster Manual'],
       ],
@@ -20332,10 +20405,12 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ["Understands Infernal but can't speak."],
       habitats: ['Mountains', 'the Lower Planes', 'and the Underdark'],
-      appearance: [['A fiery canine with scorching jaws and breath, hunting in a pack.']],
+      appearance: [
+        ['A flame-wreathed dog with searing jaws and fiery breath that hunts with its pack.'],
+      ],
       lore: [
         [
-          "Hell hounds come from the pits of Acheron, Gehenna and the Nine Hells, where they stop souls escaping their afterlives. On the Material Plane they serve cruel masters such as fire giants and cultists, who value their viciousness and fire. They are cleverer than ordinary dogs, good trackers who use tricks and ambushes in packs, and they like to prolong their victims' terror. They serve as long as they get to hunt and kill, and they turn on anyone who treats them as mere animals.",
+          'Hell hounds come from Acheron, Gehenna and the Nine Hells, where their task is keeping souls from escaping the afterlife they were sentenced to. On the Material Plane, cruel masters like fire giants and cultists keep them, prizing their cruelty and heat. They are far sharper than normal dogs and track well, working in packs that rely on ambushes and feints, and they enjoy dragging out the fear of their prey. A hell hound stays loyal while it can hunt and kill, but it will attack anyone who handles it like a simple beast.',
         ],
         ['Sources: ', 'Monster Manual'],
       ],
@@ -21103,12 +21178,12 @@ export default createPublicationMonsters({
       habitats: ['Coasts and swamps'],
       appearance: [
         [
-          'A many-headed serpent, most often with five heads, hungry and quick to regrow what it loses.',
+          'A serpent with many heads, usually five, always ravenous and swift to grow back whatever is cut away.',
         ],
       ],
       lore: [
         [
-          'Hydras are legendary hero-slayers known for regeneration, and they eat anything they catch. When they empty an area of prey they often sink into a long torpor until more arrives. Elder hydras with more heads may become local legends. Many keep their own territory, and wicked deities might use them to guard treasures or magical sites. Most are found in coastal or swamp country.',
+          'The hydra is a famous slayer of heroes, known for healing itself and devouring whatever it can seize. When it has eaten every animal around, it will often settle into a deep, long sleep until new prey wanders in. Older hydras with extra heads can become the stuff of local tales. Many hold a territory of their own, and evil gods may set them to watch over hoards or magical places. Most are encountered along coasts or in swamps.',
         ],
         ['Sources: ', 'Monster Manual'],
       ],
@@ -24484,6 +24559,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Primordial (Aquan).'],
       habitats: ['Coastal', 'underwater'],
+      appearance: [
+        ['A sea dweller shaped like a person, whose body combines human and marine traits.'],
+      ],
+      lore: [
+        [
+          'Merfolk guard and explore the seas. Some are curious about people of the land, and others distrust them. Wavebenders are merfolk spellcasters, who use magic to command water, storms and sea creatures on their behalf.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -25807,6 +25891,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: Cursed Fate. When a creature other than the mummy lord or its allies casts a Divination spell within 1 mile of the lair, it makes a DC 15 Constitution save. On failure, the spell has no effect and the action, Bonus Action, or Reaction used to cast it is spent. The caster keeps the resources it would have spent on the spell.\nSoul Drain. Creatures within 1 mile of the lair have Disadvantage on Death Saving Throws.\nBoth effects stop immediately if the mummy lord is destroyed or relocates its lair. They resume when it forms a new body through Undead Restoration.',
         ],
+      ],
+      appearance: [
+        [
+          'A corpse bound in linen, dressed in mouldering robes and dulled finery that once belonged to a ruler or high priest long dead. Evil symbols are stitched into it, and a single look from it can shake even a courageous viewer.',
+        ],
+      ],
+      lore: [
+        [
+          'The mummy lord is a desperate figure who struck a dreadful deal with a wicked god. In return they gained command over death and an accursed immortality that traps the mind inside a dry corpse. No longer concerned with mortal matters, they chase obsessions through the centuries, usually amid the wreckage of the palace or temple where they once held sway. According to the 2014 book, they hold on to what they remembered and who they were while alive. Their old religion and their bond with death grant them frightful magic, which they use to spread ruin and raise undead followers. The heart that holds the pact is not stored inside the body.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'small',
@@ -33305,6 +33400,17 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Celestial', 'Common.'],
       habitats: ['Desert', 'Upper Planes'],
+      appearance: [
+        [
+          'A sphinx with bright plumage, small as a lion cub, bearing a one-of-a-kind sigil on its brow that hints at the sort of learning it adores.',
+        ],
+      ],
+      lore: [
+        [
+          'Whenever a truly original idea is born on the Material Plane, a sphinx of wonder appears. Each one is captivated by one kind of tale or area of study and learns everything it can about it. It sometimes forms a bond with a human scholar and assists with their research. As with other sphinxes, it offers its wisdom only to people who have earned it.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'tiny',
         type: 'celestial',
@@ -34358,12 +34464,12 @@ export default createPublicationMonsters({
       habitats: ['Any'],
       appearance: [
         [
-          'A heap of severed hands scuttling and climbing over each other across the floor, fingers scrabbling on stone.',
+          'A pile of cut-off hands scrambles and climbs over itself across the floor, fingers scratching at the stone.',
         ],
       ],
       lore: [
         [
-          'Crawling claws are the severed hands of murderers, animated by dark necromancy so the life force of the dead killer can keep killing. They cannot be turned and cannot be controlled by spells that command undead; they obey only the creator, and can follow only simple commands, such as killing everything in a place. Left alone they repeat the murders they committed in life, crawling from room to room and feeling their way past locks and door handles. Dark wizards and warlocks use them as extra hands.',
+          "Crawling claws are the cut-off hands of murderers, brought to life by dark necromancy so that the dead killer's life force can go on killing. Turning does not work on them, and spells that command undead have no hold on them. They obey only their maker and grasp only simple orders, for instance to kill every creature in a given spot. If left unattended they re-enact the killings they carried out when alive, creeping through rooms and groping past locks and handles. Dark wizards and warlocks keep them as spare hands.",
         ],
         ['Sources: ', 'Monster Manual (2014), p. 44'],
       ],
@@ -36477,6 +36583,17 @@ export default createPublicationMonsters({
       languages: ['Common plus one other language.'],
       habitats: ['Underdark', 'Urban'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A vampire that disguises itself as a mortal and conceals what it is. It carries the allure of something undying and cultured.',
+        ],
+      ],
+      lore: [
+        [
+          'Nightbringers come from necromantic rites and from planes drenched in negative energy. They bend shadows to their will and consume the unrefined vitality of living beings. As with other vampires, they pose as mortals, sleep through the day and maintain secret refuges.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'undead',
@@ -36912,6 +37029,17 @@ export default createPublicationMonsters({
       page: 126,
       alignment: 'neutral evil',
       habitats: ['Underdark'],
+      appearance: [
+        [
+          'A big mound of rot that a colony of violet fungus has taken over, with fungal growths spreading across its surface.',
+        ],
+      ],
+      lore: [
+        [
+          "When a colony of violet fungus infests a large heap of rot and brings it to life, the result is a necrohulk. It hunts prey and carries the colony's spores to new places. Violet fungi move slowly but can travel, and their whipping tendrils make flesh decay on contact.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'plant',
@@ -37528,12 +37656,12 @@ export default createPublicationMonsters({
       habitats: ['Underdark', 'Urban'],
       appearance: [
         [
-          'A serpentine coil of water that is invisible while in a pool or fountain and shows itself only when it rises to attack.',
+          'A serpentine coil of water, invisible whilst it lies in a pool or fountain, that reveals itself just as it rises to attack.',
         ],
       ],
       lore: [
         [
-          'A water weird is an elemental guardian bound to a specific water-filled place, such as a pool or fountain. It stays invisible in the water and emerges to crush intruders, sparing its summoner and anyone the summoner names. When it dies it becomes an ordinary puddle. It has no sense of good or evil, but one bound to a sacred or foul water source can drift to neutral good (scaring intruders away) or neutral evil (killing for pleasure and possibly turning on its summoner). Cleansing the water removes the evil.',
+          'This is an elemental guard tied to one water-filled place, a pool or fountain for example. It lies unseen in the water and rises to crush intruders, but it leaves its summoner alone, along with any person the summoner has named. When it dies, only an ordinary puddle remains. Morally it is blank, though one tied to a holy or tainted water source can slide toward neutral good, scaring intruders off, or neutral evil, killing for fun and perhaps attacking its summoner. Purifying the water cures the evil.',
         ],
         ['Sources: ', 'Monster Manual (2014), p. 299'],
       ],
@@ -38737,12 +38865,12 @@ export default createPublicationMonsters({
       habitats: ['The Abyss'],
       appearance: [
         [
-          'A pillar of yellow slime with a single malevolent eye in its true form. Outside the Abyss it often wears the guise of a female drow or a monstrous spider.',
+          'In its true form, a column of yellow slime with one hostile eye. Away from the Abyss it often appears as a female drow or a giant spider.',
         ],
       ],
       lore: [
         [
-          'Yochlols are the Handmaidens of Lolth, extensions of her will who act as spies, taskmasters and agents. They attend the goddess in the Demonweb Pits, and she sends them to guard her temples or help her devout priestesses on the Material Plane. They form only in her realm and serve no one else. Even in drow or spider form a yochlol keeps the venomous touch of its true form.',
+          'Known as the Handmaidens of Lolth, yochlols are carrying out her will as spies, overseers and agents. In the Demonweb Pits they attend the goddess, and she sends them to protect her temples or help her faithful priestesses on the Material Plane. Her own realm is the only place they form, and she is the only one they serve. Even as a drow or a spider, a yochlol still carries the poisonous touch that its real body has.',
         ],
         ['Sources: ', 'Monster Manual (2014), p. 54'],
       ],
@@ -39949,6 +40077,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic.'],
       habitats: ['Desert', 'forest', 'swamp', 'urban'],
+      appearance: [
+        [
+          'A being that passes for human, showing only scaly skin, a split tongue, or some other slight or hidden snakelike change.',
+        ],
+      ],
+      lore: [
+        [
+          'The yuan-ti gave up their humanity in exchange for the deadliness and cunning of serpents, through bargains with sinister powers. Infiltrators look the most human of them. They creep into rival groups as spies, manipulate others, and leave enemies open to schemes by stronger yuan-ti. Those stronger ones stay in fortresses and aim to rule over monarchs and the rich.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',

@@ -994,6 +994,18 @@ export default createPublicationMonsters({
       page: 204,
       alignment: 'unaligned',
       languages: ['Speaks Deep Speech'],
+      appearance: [
+        [
+          'A fire elemental of tumbling purple and green flames that spreads like wildfire. A contemptuous face shows in the blaze, heat warps the air, burning ozone and sulphur fill the nose, and cinders stream off it.',
+        ],
+      ],
+      lore: [
+        [
+          'The flames from the day Drakkenheim fell never fully died, and many turned into Entropic Flames, fire elementals tainted by the fall. They float among the ruins as if they were living embers, most commonly close to the Crater and in southern Drakkenheim. Those who follow the Falling Fire consider them something like angels that have fallen. Tainted elementals in general give the impression that the city itself is lashing out at those who enter.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins', 'Crater'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -2561,6 +2573,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A dreg shining with a gentle pale light that shifts among purple, orange, green and hues no one can name. Its mouth gapes with a stronger glow within, and its eyes burn like lamps.',
+        ],
+      ],
+      lore: [
+        [
+          'Lambent dregs have taken in so much contamination that they glow the way delerium does. They cluster around delerium crystals and in badly contaminated places. They grow especially aggressive toward creatures already suffering from mutation or contamination sickness, hunting them down and steering clear of clean targets when possible. If threatened, they dash into the middle of their enemies and let out a burst of contamination.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -2943,6 +2967,18 @@ export default createPublicationMonsters({
           'Wish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again.',
         ],
       ],
+      appearance: [
+        [
+          'An albino garmyr taller than twelve feet, with matted yellowish-white fur and armour assembled from scraps of leather, chain and blade-covered plate. Dried heads dangle from his belt. A crest of bony spikes descends his spine, ending in a tail braided with skulls. He carries an oversized longbow strung with sinew, loaded with barbed arrows, chained arrows and arrows tipped with delerium.',
+        ],
+      ],
+      lore: [
+        [
+          'As a warlord, he leads the garmyr and is dreaded as a hunter, tracker and fighter. He hunts for fun and displays his trophies in his bleak cathedral, with adventurers as his preferred quarry. In the pack he first appeared as a huge albino wolf named Ghost, and was sly enough to rein in his blood-lust. Patience, archery and altered arrows let him bring down far bigger creatures.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -4493,6 +4529,18 @@ export default createPublicationMonsters({
       page: 202,
       alignment: 'chaotic evil',
       languages: ['Speaks Common'],
+      appearance: [
+        [
+          'A small ratling in tattered old clothes. One claw grips a wand of bone, and the other a skull studded with delerium shards, and an eldritch gleam shows in its eyes under the hood.',
+        ],
+      ],
+      lore: [
+        [
+          'Many ratlings pray to the Rat God, who is a fiend, and a rare few say they have received magical gifts from it. Nobody knows if these come from an otherworldly pact or from contamination. Warlocks lie and exaggerate so that others believe they talk with the Rat God. Most ratlings fear them and do as they say. In combat a warlock keeps weaker ratlings between itself and its foes, sure that the Rat God shields it. When its defences are used up, it will often turn invisible.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Ruins', 'Tunnels'],
       stats: {
         size: 'small',
         type: 'monstrosity',

@@ -11,18 +11,18 @@ export default createPublicationMonsters({
       name: 'Adult Red Dragon',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      habitats: ['Mountain', 'Hill'],
       appearance: [
         [
-          'A dragon with swept-back horns and a spinal frill, smoke from its beaked snout, with scarlet scales that darken with age. The air smells of sulfur and pumice, and its eyes dance with flame when it is angry.',
+          'A dragon whose horns sweep back and whose frill runs down its spine, with smoke curling from its beak-like snout. Its scales are scarlet and grow darker with age. The air around it carries a reek of sulfur and pumice, and flames dance in its eyes whenever it is furious.',
         ],
       ],
       lore: [
         [
-          'Red dragons are the greediest true dragons, vain and arrogant, convinced Tiamat chose them to rule. They prefer mountains and badlands, and lair in caverns beneath snowy peaks, abandoned mines or volcanic caves. They fly into destructive rages and act on impulse when angry. They know each item in the hoard and where it is, and a missing coin can trigger a rampage. They force chaotic evil humanoids into service, kill leaders who refuse, and use lesser creatures as spies.',
+          'Red dragons are the most avaricious of the true dragons, proud and vain, certain that Tiamat picked them to rule. They favour mountains and badlands, making lairs in caves under snow-capped peaks, in disused mines or in volcanic caverns. Anger sends them into ruinous rages, and they act on impulse when furious. A red dragon knows every piece in its hoard and exactly where it lies, so one stolen coin can set off a rampage. Chaotic evil humanoids are pressed into its service, leaders who say no are killed, and smaller creatures serve as its spies.',
         ],
         ['Sources: ', 'Basic Rules'],
       ],
-      habitats: ['Mountain', 'Hill'],
       stats: {
         size: 'huge',
         type: 'dragon',

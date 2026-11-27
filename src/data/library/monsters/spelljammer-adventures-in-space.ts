@@ -18,6 +18,16 @@ export default createPublicationMonsters({
         ['Applied templates: Aarakocra'],
         ['Alternate armor classes: 15 · with mage armor'],
       ],
+      appearance: [
+        ['A bird-like humanoid from the Howling Gyre, a storm on the Elemental Plane of Air.'],
+      ],
+      lore: [
+        [
+          'The aarakocra defend the airy borders of their homeland from invaders coming out of the Elemental Plane of Earth, and gargoyles are their sworn enemies. They work for the Wind Dukes of Aaqa, searching the planes for shrines to Elemental Evil. When they find one, they either attack the evil elementals or bring word home.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Elemental Plane of Air', 'Sky'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1974,6 +1984,18 @@ export default createPublicationMonsters({
       alignment: 'typically neutral',
       languages: ['Common', 'Giant.'],
       tableNotes: [['Spellcasting is listed in the source as "Spellcasting (Psionics)".']],
+      appearance: [
+        [
+          'A tall, warm-blooded meat-eater that walks upright. It has a thick, jointed shell over its back, a boxy head topped with horny knobs, and heavy hands with thumbs. Its voice sounds human.',
+        ],
+      ],
+      lore: [
+        [
+          'Braxats hunt on their own or in pairs across deserts, arid canyons, barren lands and remote asteroids. They are able to spit acid but rarely do, as it spoils the meat they want. A braxat gives off an unseen psychic barrier that bolsters its armour, and it can also conjure rippling force shields that deflect attacks and soak up the magic missile spell.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Desert', 'Wasteland', 'Asteroids'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2232,6 +2254,18 @@ export default createPublicationMonsters({
       page: 18,
       alignment: 'typically neutral evil',
       languages: ['Deep Speech', 'telepathy 240 ft.'],
+      appearance: [
+        [
+          'A gigantic being about a hundred feet tall or long, a bewildering heap of eyes, mouths, wings and tentacles, plus organs that are harder to name. No two are the same.',
+        ],
+      ],
+      lore: [
+        [
+          "Cosmic horrors escape their confinement within the Far Realm and float out onto the Astral Plane. Starlight from afar attracts them, so they invade systems in Wildspace and ruin worlds. They consume the bodies and minds of a planet's inhabitants until sated. Once that is over they typically drift back into the void to sleep, waking only when hunger or some other prompt stirs them. They count among the strongest beings in the Far Realm.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Astral Plane', 'Far Realm'],
       stats: {
         size: 'gargantuan',
         type: 'aberration',
@@ -2383,6 +2417,18 @@ export default createPublicationMonsters({
       page: 19,
       alignment: 'any alignment',
       languages: ['Common', 'Dohwar', 'telepathy 30 ft. (see also Merging below).'],
+      appearance: [
+        [
+          'A pudgy flightless bird three feet tall with the look and the waddle of a penguin. Its plumage is a single bright colour of the rainbow, and it wears a gaudy jumble of clothes, often with a hood.',
+        ],
+      ],
+      lore: [
+        [
+          'Dohwars journey out of the Feywild into Wildspace, where most people run into them. They keep their dealings secret and gather in dark alleys and remote corners even when nothing improper is going on. Their feather colour can shift without warning, often when emotions run high. Instead of wings they have tiny hands, and they prefer a kind of telepathy known as merging, where a pair of dohwars link up with one other creature.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Feywild'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -3412,6 +3458,16 @@ export default createPublicationMonsters({
       page: 27,
       alignment: 'any alignment',
       languages: ['Common', 'Gith.'],
+      appearance: [
+        ['A githyanki raider from the Astral Plane who has escaped the rule of the Lich-Queen.'],
+      ],
+      lore: [
+        [
+          'Buccaneers sail the Astral Plane in search of wealth and bring it home to concealed strongholds deep in the Astral Plane. Many are fighters who no longer wished to serve Vlaakith, the Lich-Queen. They live by a code of their own, or just relish being free.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane', 'Deep Astral'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3705,6 +3761,14 @@ export default createPublicationMonsters({
       name: 'Gray Scavver',
       page: 49,
       alignment: 'unaligned',
+      appearance: [['A scavver six feet long that moves in packs.']],
+      lore: [
+        [
+          'The scent of blood sends gray scavvers wild with hunger. Hurting one, however, usually saps it enough that it gives up the attack.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3841,6 +3905,18 @@ export default createPublicationMonsters({
       page: 29,
       alignment: 'any alignment',
       languages: ['Common', 'Hadozee.'],
+      appearance: [
+        [
+          'A hadozee deckhand doing the chores of a ship, one of the many crew members that a spelljamming vessel carries.',
+        ],
+      ],
+      lore: [
+        [
+          "Some spelljamming ships rely on shipmates for much of their crew. These are simple sailors, not fighters or navigators, so they serve as the vessel's plain, everyday crew.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3895,6 +3971,18 @@ export default createPublicationMonsters({
       page: 29,
       alignment: 'any alignment',
       languages: ['Common', 'Hadozee.'],
+      appearance: [
+        [
+          'A hadozee fighter in mercenary gear, commonly one of a squad that has given itself a painted look or a showy name.',
+        ],
+      ],
+      lore: [
+        [
+          "Warriors hire out their blades as mercenaries, at times alongside pirates. Squads enjoy picking vivid names. Three examples are the Night Howlers, the Soaring Hadozees and the Jammin' Wingbats.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4628,6 +4716,18 @@ export default createPublicationMonsters({
         ],
         ['The printing labels its Spellcasting "(Psionics)".'],
       ],
+      appearance: [
+        [
+          "A swollen body on six legs like a crab's, with four protruding eyes and a toothy mouth. Lumps along its back each contain a brain it has eaten.",
+        ],
+      ],
+      lore: [
+        [
+          'Neh-thalggu, known as brain collectors, eat the brains of humanoids to strengthen their magic. They originate in the Far Realm. From there they have spread through the Astral Plane to Material worlds that are rich in brains. After a kill, one opens the skull with its pincers and gulps the brain down whole, keeping it in a pouch inside its head. At twelve brains an urge to go back to the Far Realm overtakes it, and it devotes all its effort to finding a route. The book proposes rolling a d12 to decide how many it holds.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Far Realm', 'Astral Plane'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -5650,6 +5750,16 @@ export default createPublicationMonsters({
           'Assumed identity: A Psurlon must eat the specific Medium Humanoid it wants to imitate, then spend 8 hours in a psionic trance. It takes the victim’s appearance, memories and languages. The victim’s class features and other abilities do not transfer. The ringer is still an Aberration, and other psurlons recognize it. Only Wish can reverse the permanent transformation.',
         ],
       ],
+      appearance: [
+        ['A psurlon that has taken the form of one particular medium-sized humanoid it has eaten.'],
+      ],
+      lore: [
+        [
+          "A psurlon does this by eating the creature it wishes to copy and then falling into a psionic trance that lasts eight hours. Afterward it has that creature's looks, memories and languages, though no class features or abilities come with them. The change is lasting, and only a wish can reverse it. The psurlon remains an aberration, and other psurlons can recognise it.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane', 'Material Plane'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -6438,6 +6548,14 @@ export default createPublicationMonsters({
         ['Spellcasting source label: (Psionics).'],
         ['Other ssurran: A Ssurran Poisoner has a shield, poisoned javelins, and gas bombs.'],
       ],
+      appearance: [['A ssurran that shrivels plants and saps the life of creatures nearby.']],
+      lore: [
+        [
+          'Ssurran defilers can ruin all the vegetation around them and pull vitality out of any other creature in range. Allied poisoners smear toxin on weapons and throw bombs of poison gas.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6553,6 +6671,16 @@ export default createPublicationMonsters({
       tableNotes: [
         ['Other ssurran: A Ssurran Defiler drains life instead of carrying poison bombs.'],
       ],
+      appearance: [
+        ['A ssurran that smears its weapons with venom and lugs bombs full of poison gas.'],
+      ],
+      lore: [
+        [
+          'Ssurran poisoners put toxin on their weapons and throw bombs that give off poisonous gas. The published source says little beyond this about them.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6963,6 +7091,18 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Thri-kreen and telepathy 60 ft.'],
       tableNotes: [['Spellcasting source label: (Psionics).']],
+      appearance: [
+        [
+          "A thri-kreen with a mantis's look that uses psychic power to disappear or to drain life.",
+        ],
+      ],
+      lore: [
+        [
+          'Thri-kreen mystics rely on psionics to cross rough terrain in Wildspace, to become invisible and to sap the life from prey. On thri-kreen ships they frequently act as the spelljammers.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -7162,6 +7302,18 @@ export default createPublicationMonsters({
           'Encounter context: The ship table puts Captain Veluna Valderak aboard the hammerhead Jander Sunstar with 13 Vampirates and one Priest.',
         ],
       ],
+      appearance: [
+        [
+          "A vampirate who commands a crew, frequently with a deathless companion, which may be a crawling claw or perhaps a will-o'-wisp.",
+        ],
+      ],
+      lore: [
+        [
+          'A vampirate crew behaves entirely as its captain dictates. One may be a bloodthirsty mob, while another follows an old code of chivalry. One captain may let the crew of a looted ship live, while another leaves nothing but wreckage.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'undead',

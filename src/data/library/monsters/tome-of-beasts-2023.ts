@@ -499,12 +499,12 @@ export default createPublicationMonsters({
       languages: ["understands Common but can't speak"],
       appearance: [
         [
-          'A remarkably ugly magical bird with a floppy dark grey comb, shapeless wattles on its throat and a long dull-grey beak. It seems unimposing.',
+          'A strikingly homely magical bird, with a droopy dark grey comb, loose wattles at its throat and a long, drab grey beak. It looks harmless.',
         ],
       ],
       lore: [
         [
-          'Cikavaks are conjured through a lengthy ritual, known to peasants and townsfolk as well as mages, and stay loyal to their master until death. They cannot speak but understand Common and can talk with animals to help their master, and often silence more tuneful birds by magic. Their beaks draw up nectar or stab like daggers, and their ventral pouches hold up to half a gallon of nearly any liquid without harm, so thieves use them to steal honey, milk, beer and wine.',
+          'A cikavak is called into being by a drawn-out ritual that peasants and townsfolk know as well as mages do, and it serves its master faithfully until death. It cannot talk but follows Common, and it can speak with animals to assist its master, often using magic to hush songbirds. Its beak can sip nectar or stab like a dagger. A pouch under its body can carry about half a gallon of almost any fluid unharmed, so thieves use it to pilfer honey, milk, beer or wine.',
         ],
         [
           'Sources: ',

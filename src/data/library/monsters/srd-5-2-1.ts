@@ -5674,18 +5674,18 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'lawful good',
       languages: ['Draconic'],
+      habitats: ['Coast'],
       appearance: [
         [
-          'A small dragon with yellow-green scales and a ribbed crest and curving horns on its head, webbed feet and smooth scales.',
+          'A small dragon with greenish-yellow scales, a ridged crest and curved horns on the head, webbed feet and a smooth hide.',
         ],
       ],
       lore: [
         [
-          "Bronze dragons live on coasts and eat mostly aquatic plants and fish. They take the shape of friendly animals, such as dolphins, gulls or rats, to inspect interesting creatures and ships. They are fascinated by warfare and eagerly join armies fighting for a just cause. A wyrmling's scales are yellow with a green tinge, deepening to rich bronze as it matures.",
+          "Bronze dragons inhabit coastlines and feed mostly on sea plants and fish. They assume the forms of friendly animals like dolphins, gulls or rats to examine interesting creatures and vessels. War fascinates them, and they readily join armies fighting for a righteous cause. A wyrmling's scales start yellowish with a hint of green, and darken to a deep bronze as it grows.",
         ],
         ['Sources: ', 'Monster Manual (2014), p. 109'],
       ],
-      habitats: ['Coast'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -19615,18 +19615,18 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'chaotic evil',
       languages: [],
+      habitats: ['Swamp', 'Hills'],
       appearance: [
         [
-          'A severed troll arm, leg or head that keeps moving on its own, crawling or snapping in the dirt.',
+          'A hacked-off arm, leg or head of a troll, still stirring on its own, crawling or biting at the ground.',
         ],
       ],
       lore: [
         [
-          "When a troll is badly hacked, dismembered parts can sometimes act with a life of their own, and a troll can even reattach them. If the troll rests without reattaching a part, the part regrows and the old one dies. Only acid and fire stop a troll's regeneration, and trolls attack those who use them first. Trolls eat anything they can catch and work as mercenaries for orcs, ogres, ettins, hags and giants, who must pay in food and treasure.",
+          'If a troll is hacked up badly, the severed pieces can sometimes act on their own, and the troll may even stick them back on. If the troll rests without rejoining a piece, that piece grows into a whole troll and the old body part perishes. Acid and fire alone stop a troll from regenerating, and trolls go for anyone who wields them first. Trolls devour anything they catch and sell their strength to ogres, orcs, ettins, hags and giants, though the price is meals and loot.',
         ],
         ['Sources: ', 'Monster Manual (2014), p. 291'],
       ],
-      habitats: ['Swamp', 'Hills'],
       stats: {
         size: 'small',
         type: 'giant',
@@ -20495,6 +20495,13 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common plus one other language'],
+      appearance: [['A hardened soldier with plenty of combat behind them.']],
+      lore: [
+        [
+          'Warriors are trained professionals who make their living by fighting, often within armies or small bands. Veterans have taken part in many battles and can stand up to weaker opponents and monsters.',
+        ],
+        ['Sources: ', 'System Reference Document 5.2.1'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -21622,18 +21629,18 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      habitats: ['Swamp', 'Ruins'],
       appearance: [
         [
-          'A young dragon with a skull-like face, deep-socketed eyes and curved bone-coloured horns darkening to black. Its scales are dull and thick, and it reeks of rot and swamp water.',
+          'A young dragon whose face resembles a skull, with sunken eye sockets and curved horns the colour of bone that turn black toward the tips. Its scales are dull and heavy, and it stinks of decay and stagnant water.',
         ],
       ],
       lore: [
         [
-          'Black dragons are the most evil-tempered and vile of the chromatic dragons, living in fetid swamps and ruins. They love to watch prey beg and will offer false hope before finishing it. They strike the weakest enemy first to terrify the rest. Cornered, it will try anything to survive, but will die rather than let another claim mastery. They hate and fear other dragons.',
+          'The black dragons are the nastiest and most foul-tempered of the chromatic dragons, dwelling in stinking swamps and ruins. They enjoy watching prey plead and will hold out false hope before killing. They hit the weakest foe first to frighten the others. Trapped, a black dragon will try anything to live, yet it would die before letting someone else claim mastery. It hates and fears other dragons.',
         ],
         ['Sources: ', 'Monster Manual (2014), p. 89'],
       ],
-      habitats: ['Swamp', 'Ruins'],
       stats: {
         size: 'large',
         type: 'dragon',

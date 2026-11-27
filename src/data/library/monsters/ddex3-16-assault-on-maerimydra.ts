@@ -576,6 +576,18 @@ export default createPublicationMonsters({
       name: 'Fiendborne Fire Giant',
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Giant'],
+      appearance: [
+        [
+          'A fire giant altered by the blood of Hledh Hellspawn, showing a few traits such as stunted leathery wings too small for flight, horns, additional eyes, extra fingers or a lengthy tail.',
+        ],
+      ],
+      lore: [
+        [
+          'Every fire giant of Maerimydra is fiendborne, filled with blood from Hledh Hellspawn. The taint gives them a fearsome look and makes them immune to poison. They also gain innate darkness, blindsight and the ability to speak Abyssal.',
+        ],
+        ['Sources: ', 'DDEX3-16 Assault on Maerimydra, PDF page 13'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'giant',

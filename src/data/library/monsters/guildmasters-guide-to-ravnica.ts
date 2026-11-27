@@ -575,6 +575,16 @@ export default createPublicationMonsters({
       page: 189,
       alignment: 'lawful good',
       languages: ['All.'],
+      appearance: [
+        ['A glowing Boros angel diving into battle, wrapped in the light of the Boros Legion.'],
+      ],
+      lore: [
+        [
+          "Battleforce angels command companies of human soldiers from the air, or fly out in front of skyknights on rocs. They plunge into the gore and chaos of a fight to deliver the orders of warleaders and to change tactics as the battle turns. Boros angels see themselves as the living form of their maker's intent and as fierce guardians of the weak. Their presence stirs soldiers up, though they can still be corrupted or pushed into political compromise.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica (Boros Legion)'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -2437,6 +2447,14 @@ export default createPublicationMonsters({
       page: 239,
       alignment: 'chaotic neutral',
       languages: ['Common', 'Druidic.'],
+      appearance: [['A wild and savage Gruul druid who follows the way of the beast gods.']],
+      lore: [
+        [
+          'Druids of the Old Ways uphold age-old Gruul customs that worship the untamed fury of animal gods, among them Kashath the Stalker and Ilharg the Raze-Boar. They are certain that scattered raids can never end civilisation, so they hold fast to an approaching apocalypse they call the End-Raze. In it Ilharg flattens the skyline of Ravnica into rubble, and a lawless creed of brawn and savagery returns.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Gruul Clans'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2503,6 +2521,18 @@ export default createPublicationMonsters({
       tableNotes: [
         ['Winged Felidars: A winged felidar uses this block and gains a flying speed of 40 ft.'],
       ],
+      appearance: [
+        [
+          'A huge cat with two pairs of horns that slope downward and conspicuous teeth. Its blue-grey hide bears a geometric pattern in silver, and a dense white mane lies in tidy order about the shoulders. It is a celestial that upholds law and order.',
+        ],
+      ],
+      lore: [
+        [
+          'Nearly all felidar bond closely with some other creature. Those with wings almost always team up with archons in the search for justice. Others work beside Azorius ministers and justiciars, helping to enforce the law and trace criminals. A few are assigned to key Azorius prisoners, to trail them should they get away.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Azorius Senate'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -4636,6 +4666,16 @@ export default createPublicationMonsters({
           'Winged variant: The Winged Kraul Warrior adds gossamer wings and a flying speed of 40 ft. It uses the same statistics and can serve as a scout or shock troop.',
         ],
       ],
+      appearance: [
+        ["A Golgari kraul with six legs and an insect's body, which hums and buzzes as it talks."],
+      ],
+      lore: [
+        [
+          'Within the Golgari Swarm, the kraul are growing in power. They were long confined to the fringes of the undercity, but today their droning voices are heard in the guildhall of the Golgari. They are stubborn and take everything literally, with scant understanding of metaphor or subtlety.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica undercity'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4705,6 +4745,18 @@ export default createPublicationMonsters({
       page: 228,
       alignment: 'lawful neutral',
       languages: ['Common and one other language.'],
+      appearance: [
+        [
+          'A spellcaster of the Azorius Senate, frequently a vedalken, who serves in the guild as an arrester, one who makes arrests.',
+        ],
+      ],
+      lore: [
+        [
+          "The Azorius Senate schools spellcasters in seizing lawbreakers and bringing them before justice. A lawmage's spells are meant to hold criminals still and to protect onlookers from danger during a pursuit. A fair number of the guild's vedalken become lawmages.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5622,6 +5674,18 @@ export default createPublicationMonsters({
       page: 216,
       alignment: 'unaligned',
       languages: ['Common and Giant.'],
+      appearance: [
+        [
+          'A cyclops fitted with plates of mizzium armour, gauntlets driven by pistons and a helmet with a telescope that compensates for its single eye.',
+        ],
+      ],
+      lore: [
+        [
+          "The Izzet League puts cyclopes to work guarding workshops, protecting individuals and doing heavy labour. Armour cuts down injuries from lab accidents, gauntlets give extra power for heavy lifting and for hitting, and helmets compensate for the lack of a second eye. Some call them monoclons, and others Nivix cyclopes, after the guildhall. As for the Gruul Clans' wild cyclopes, nobody can tame them.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -5877,6 +5941,16 @@ export default createPublicationMonsters({
       page: 202,
       alignment: 'lawful evil',
       languages: ['Common and Giant.'],
+      appearance: [
+        ['A giant employed as a guard, executioner or bruiser by the Orzhov Syndicate.'],
+      ],
+      lore: [
+        [
+          'Some giants sign on with the Orzhov Syndicate as muscle. Seeing them in the markets and streets is a nudge to shopkeepers to pay on time. Giants serve at least four guilds overall. The Orzhov Syndicate and the Boros Legion both get shrewd soldiers out of them, while the Gruul Clans and the Cult of Rakdos field giants who are equally effective but unruly.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -6602,6 +6676,18 @@ export default createPublicationMonsters({
       page: 239,
       alignment: 'chaotic neutral',
       languages: ['Any one language (usually Common).'],
+      appearance: [
+        [
+          'A Gruul scout who climbs easily over debris and rooftops, keeping out of reach until it chooses its moment.',
+        ],
+      ],
+      lore: [
+        [
+          'The Gruul clans use rubblebelt stalkers as scouts and skirmishers. They are skilled at getting across rough ground, whether threading through unstable ruins or going over rooftops. They like ambushes, steer clear of stronger forces and escape by moving fast.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ruins', 'Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7696,6 +7782,14 @@ export default createPublicationMonsters({
           'Innate Spellcasting (Psionics): Intelligence (spell save DC 13), with no components.\nAt will. Charm Person, Disguise Self, Encode Thoughts.\n1/day each. Blur, Detect Thoughts, Gaseous Form.',
         ],
       ],
+      appearance: [['A stealthy agent of House Dimir.']],
+      lore: [
+        [
+          "Thought spies form the core of House Dimir's secret operations. They are schooled in stealth and infiltration and have finely honed mental talents, and they get inside rival guilds so that nothing escapes Dimir's notice. Besides standard espionage, they use magic to read their targets' minds.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',

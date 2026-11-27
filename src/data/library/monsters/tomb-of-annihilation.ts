@@ -1502,6 +1502,17 @@ export default createPublicationMonsters({
           'Adventure encounter: Drufi patrols with two other Frost Giants and two Winter Wolves. A DC 10 Wisdom (Survival) check recognizes that the oversized tracks and broken vegetation are foreign to the jungle. Success by 5 or more identifies frost giants. A Chultan guide has advantage but does not infer that frost giants made the trail. Drufi first asks what the group knows about Artus Cimber. A DC 10 Wisdom (Insight) check picks up her interest in his magic item. She may attack if provoked or if she believes the party is withholding its whereabouts.',
         ],
       ],
+      appearance: [
+        [
+          'A frost giantess who captains the Hvalspyd, clearly uncomfortable in the steamy tropical jungle.',
+        ],
+      ],
+      lore: [
+        [
+          'Drufi commands a party of frost giants dispatched by Jarl Storvald to fetch the Ring of Winter. With it he hopes to freeze the whole world and usher in an age of endless ice, and she stays fixed on that goal. She travels with two male frost giants and two winter wolves. The giants consider the jungle a hellish place and leave a plain trail of flattened undergrowth and torn-up trees, yet none of them means to let the jarl down. The Soulmonger, the death curse and Acererak himself are all unknown to them.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 64'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -1560,6 +1571,18 @@ export default createPublicationMonsters({
           'Jungle encounter: While traveling, the party encounters 1d4 + 1 eblis in stilt huts over a marsh or pond. They attack wounded or weak-looking travelers. A strong, armed party can buy directions to nearby landmarks for 50 gp in gems. Following those directions grants advantage on navigation checks to reach the landmarks. If the party defeats the eblis and searches the huts, roll three times on Treasure Drops. At a campsite, the eblis try to sneak in and carry away one traveler.',
         ],
       ],
+      appearance: [
+        [
+          'A big monstrous creature that dwells in reed shelters raised on stilts over a boggy marsh or pond.',
+        ],
+      ],
+      lore: [
+        [
+          'Eblis go after travellers who look hurt or feeble. A tough, well-armed group can instead buy directions to nearby landmarks by handing over gems worth around 50 gp. If they find a party at camp, they creep in and try to haul one character off. Their shelters may hide buried valuables.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 199'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1742,6 +1765,17 @@ export default createPublicationMonsters({
           'Adventure encounter: Eku begins in her human guise. The printed adventure does not name a separate stat block for that guise. When a group needs direction, she suggests consulting the guardian naga of Orolunga. Near Mbala, she asks the party to help her confront Nanny Pu’pu, who destroyed the community there.',
         ],
       ],
+      appearance: [
+        [
+          'A couatl wearing the form of a slim, middle-aged Chultan woman, about five and a half feet tall. She dresses in pale blue robes and carries a staff carved to look like a couatl.',
+        ],
+      ],
+      lore: [
+        [
+          "Eku knows the location of Omu but keeps quiet about it. She seeks out adventurers of good alignment to help clear the jungle of its evils, and she will work with nobody else. The aarakocra of Kir Sabal are her friends, and she has often travelled to Nangalore to gather uncommon flowers. She is aware of the gargoyles that watch over Omu and suggests the guardian naga at Orolunga as a place to find answers. She was fond of the people of Mbala, whom the green hag Nanny Pu'pu deceived and devoured, and she wants help dealing with the hag.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 34'],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -1896,6 +1930,15 @@ export default createPublicationMonsters({
         [
           'Encounter context: At Jahaka Anchorage, the Dragonfang crew includes first mate Mad Kalita (a Spy), 15 Bandits, 3 Thugs, and Eye of the Deep (a Druid). Elok wants to break the pirates’ deal with Liara Portyr.',
         ],
+      ],
+      appearance: [
+        ['A Chultan human pirate captain who is short-tempered and has no humour at all.'],
+      ],
+      lore: [
+        [
+          'Jaharwon served as first mate on the Dragonfang until a year ago, when he led a mutiny and tossed the old captain into the sea. The other captains are still getting used to him. He means to bully his way to the title of pirate king and stop sending a cut of the profits to Fort Beluarian, a move that would end the pact with Liara Portyr. He is secretly a wereboar, and he is winning supporters among the ordinary crew members of all three ships.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 67'],
       ],
       stats: {
         size: 'medium',
@@ -3683,6 +3726,17 @@ export default createPublicationMonsters({
           "Encounter context: Ifan's merchants sell mounts and pets and report back to him. He sells Flying Snakes trained to carry messages only to the Zhentarim. Omu's yuan-ti secretly pay him to report expeditions. He suspects who receives his messages.",
         ],
       ],
+      appearance: [
+        [
+          'A grasping, scheming Chultan noble of Port Nyanzaru who keeps powerful Zhentarim allies.',
+        ],
+      ],
+      lore: [
+        [
+          "Talro'a trades in beasts that can be raised as mounts or pets, among them dinosaurs and flying monkeys. He sells through several dozen traders, every one of whom spies for him as well. His flying snakes are taught to carry messages, and their only recipients are Zhentarim. He also takes money from the yuan-ti in Omu, for whom he gives warning when treasure seekers travel south. He envies the magic of Wakanga O'tamu and the arena fame of Ekene-Afa. Family he has none, and he confides in nobody.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 25'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4878,6 +4932,17 @@ export default createPublicationMonsters({
         [
           'Moa’s tomb: She senses intruders and questions them by telepathy. A lie takes a DC 12 Charisma (Deception) check. Ignoring her, telling her she is only a skull, or failing three Deception checks makes her break out and attack. Six Swarms of Insects (Spiders) enter from the niches at the start of the following round. Use the ordinary spider swarm statistics and allow effects that target Undead to affect them. The passages admit Tiny creatures freely and Small creatures if they squeeze.',
         ],
+      ],
+      appearance: [
+        [
+          "A skull kept inside a crystal box. It is all that is left of Queen Napaka's granddaughter, a child of ten who lived in Omu.",
+        ],
+      ],
+      lore: [
+        [
+          'The box keeps her mind alive, but long ages alone and in terror have wiped away the particulars of what happened to her. She reaches out by telepathy to whichever character first steps into her section of the tomb.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 137'],
       ],
       stats: {
         size: 'tiny',

@@ -226,6 +226,14 @@ export default createPublicationMonsters({
           'The party meets Amidor, Pollenella, and the masked elf acrobat Gleam during the journey through Yon. Use Selenelion Twin for Gleam. Amidor is quick to fall in love, puts others first, and tends to guard Pollenella rather than take the lead in a fight.',
         ],
       ],
+      appearance: [['A talking dandelion three feet in height.']],
+      lore: [
+        [
+          'Amidor sees poetry in all things, tumbles into love fast and talks in flowery verse. Amidor is a modest idealist who never ranks its own wishes above those of others, and it is loyal to Pollenella. A pretty face or a sweet fragrance is something Amidor cannot resist.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'small',
         type: 'plant',
@@ -298,6 +306,18 @@ export default createPublicationMonsters({
           'Encounter context: Bavlorna must spend an hour submerged in brine each day. Without it she dries out and her body eventually locks up until she is submerged again. She uses a Bobbing Lily Pad to travel from her cottage, accompanied by lornlings. Witchlight’s appendix C uses the Quickling whose Blurred Movement ends when it is incapacitated or its speed becomes 0.',
         ],
       ],
+      appearance: [
+        [
+          'A hag with a gaping, drooping mouth that flies wander in and out of, which earned her the name Slack-jawed Lorna.',
+        ],
+      ],
+      lore: [
+        [
+          'Bavlorna stands for the present: the hag of this very moment. Those who look for her want relief from a persistent trouble or worry. She dislikes visitors who arrive without warning, but a sad, tragic story can put her in the mood to bargain. She will deal with an urgent problem if paid with something she can use.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -3101,6 +3121,18 @@ export default createPublicationMonsters({
           'Motherhorn encounter: Endelyn Moongrave cut off Gleam’s shadow with magic scissors and keeps Glister as a prisoner. When reunited, the twins plan to leave via the Fey Beacons and return to the Witchlight Carnival.',
         ],
       ],
+      appearance: [
+        [
+          'A masked high elf who did balancing and acrobatic acts at the Witchlight Carnival. Gleam wears a crescent moon and Glister a sun.',
+        ],
+      ],
+      lore: [
+        [
+          "Gleam and Glister are twin high elves born on the day of a selenelion, a lunar eclipse in which sun and moon appear together. Their magic is linked to moonlight for Gleam and sunlight for Glister. By Corellon's blessing, each can switch sex when a long rest ends, though one twin seldom does it unless the other does too. The pair adore each other. Gleam keeps to herself while Glister is outgoing, and both are warm and easygoing.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3351,6 +3383,14 @@ export default createPublicationMonsters({
           'Silver birdcage: While locked inside, Talavar cannot cast spells. His Euphoria Breath still works. The cage cannot be destroyed, and its lock cannot be picked. Jingle Jangle has the key. Knock or similar magic can also open it. If released, Talavar offers his tiny sword and departs to report to his queen.',
         ],
       ],
+      appearance: [['An elderly faerie dragon with an upbeat, anything-is-possible attitude.']],
+      lore: [
+        [
+          'Sir Talavar is a respected figure in the Seelie Court and a faithful vassal to the Summer Queen. Many squires trained by Talavar have gone on to be celebrated knights. The dragon holds to a firm code of honour.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -3615,6 +3655,14 @@ export default createPublicationMonsters({
           'Motherhorn workshop: The command word nocturli animates the eight props in M12. Use Animated Armor for each, with AC 19 for the stovepipe and gate, AC 15 for the coffin and wooden owlbear, AC 13 for the plaster elf king and cake, and AC 11 for the boar mannequin and stuffed golem. While they fight, Skylla takes Golmo and retreats toward the darklings in M2. If forced to surrender, she can say alfarian to return the props to normal.',
         ],
       ],
+      appearance: [['A warlock who at times uses the false name Charmay.']],
+      lore: [
+        [
+          "Skylla swore a pact as a warlock with Baba Yaga, an archfey, and gets her power from her. She is vindictive and untrustworthy, as apt to betray allies as to assist them. She persuaded Kelek to make her the go-between linking the Hourglass Coven with the League of Malevolence. Then a vision came to Endelyn Moongrave in which Skylla's allies betrayed her, so she backed away and now serves Endelyn. Rejoining the league is something she would do, though never with Kelek leading it.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3728,6 +3776,14 @@ export default createPublicationMonsters({
           'Refilling the oilcan: Squirt has too little oil to use the action when found at Little Oak. It stores up to three applications of slippery Boggle oil indefinitely. A character can spend 1 minute collecting 1d3 applications from a Boggle’s slippery puddle before it evaporates. A friendly Boggle supplies three applications for a small gift. An indifferent Boggle expects a more valuable gift. A hostile Boggle cooperates only if captured and compelled.',
         ],
       ],
+      appearance: [['A little living oilcan that is always after fun and always short of oil.']],
+      lore: [
+        [
+          'Squirt began as an ordinary oilcan that dwarves took to the Feywild, intending to gather boggle oil. Pixie magic put the dwarves to sleep. During the party that followed, an elf brought the can to life as a prank, and it was left craving fun. It is chaotic neutral and idle, and likes persuading others to do its jobs. To keep going it requires oil, and it will ask to be carried.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -4596,6 +4652,18 @@ export default createPublicationMonsters({
           'Carnival staff: On duty, the hands wear fake butterfly wings. They agree to never harm other staff and to spend no longer than one day at a time away from the carnival.',
         ],
       ],
+      appearance: [
+        [
+          'A carnival employee with false butterfly wings strapped on their back during working hours.',
+        ],
+      ],
+      lore: [
+        [
+          "Witchlight hands staff the carnival's stalls, fix what breaks, feed the creatures, keep an eye out for thieves and carry out whatever Mister Witch commands. A few also perform on the side. They know and care about no world but the carnival. They promise never to hurt another member of staff and never to be gone for longer than a day. Small helpings of pixie dust come to them from Mister Witch and Mister Light, and most know a few minor magic tricks. Wages are a modest cut of the profits, and some take extra work to pay off debts.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Witchlight Carnival'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4671,6 +4739,18 @@ export default createPublicationMonsters({
           'Carnival staff: On duty, the hands wear fake butterfly wings. They agree to never harm other staff and to spend no longer than one day at a time away from the carnival.',
         ],
       ],
+      appearance: [
+        [
+          'A carnival employee with false butterfly wings strapped on their back during working hours.',
+        ],
+      ],
+      lore: [
+        [
+          "Witchlight hands staff the carnival's stalls, fix what breaks, feed the creatures, keep an eye out for thieves and carry out whatever Mister Witch commands. A few also perform on the side. They know and care about no world but the carnival. They promise never to hurt another member of staff and never to be gone for longer than a day. Small helpings of pixie dust come to them from Mister Witch and Mister Light, and most know a few minor magic tricks. Wages are a modest cut of the profits, and some take extra work to pay off debts.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Witchlight Carnival'],
       stats: {
         size: 'small',
         type: 'humanoid',
