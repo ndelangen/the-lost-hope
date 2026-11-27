@@ -135,16 +135,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/goat.png"
   },
   {
-    "id": "library-14fc269cb0c5746a6082",
-    "logicalSource": "/assets/library/beasts/gutter-ray.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/gutter-ray.webp"
-  },
-  {
-    "id": "library-4df58114369511c156b9",
-    "logicalSource": "/assets/library/beasts/handrail-crawler.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/handrail-crawler.webp"
-  },
-  {
     "id": "library-1ca7918af66d2f5b9784",
     "logicalSource": "/assets/library/beasts/hawk.png",
     "repositoryPath": "assets/images/content/library-release/beasts/hawk.png"
@@ -220,11 +210,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/pony.png"
   },
   {
-    "id": "library-170d03c006833912ff86",
-    "logicalSource": "/assets/library/beasts/porch-sentinel.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/porch-sentinel.webp"
-  },
-  {
     "id": "library-b10ee08895edf0ca1fa8",
     "logicalSource": "/assets/library/beasts/quipper.png",
     "repositoryPath": "assets/images/content/library-release/beasts/quipper.png"
@@ -243,11 +228,6 @@
     "id": "library-52429ef13ba662e36f93",
     "logicalSource": "/assets/library/beasts/rhinoceros.png",
     "repositoryPath": "assets/images/content/library-release/beasts/rhinoceros.png"
-  },
-  {
-    "id": "library-35f911aa224b0f59abbb",
-    "logicalSource": "/assets/library/beasts/rivetback-eel.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/rivetback-eel.webp"
   },
   {
     "id": "library-b493c15e6f2dbf1de2b1",
@@ -270,19 +250,9 @@
     "repositoryPath": "assets/images/content/library-release/beasts/seahorse.png"
   },
   {
-    "id": "library-add4d82d001e3067ccf6",
-    "logicalSource": "/assets/library/beasts/sill-moth-colony.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/sill-moth-colony.webp"
-  },
-  {
     "id": "library-036b54df3da6210578f4",
     "logicalSource": "/assets/library/beasts/spider.png",
     "repositoryPath": "assets/images/content/library-release/beasts/spider.png"
-  },
-  {
-    "id": "library-695bcdaaf55a3abe0f17",
-    "logicalSource": "/assets/library/beasts/spooltail-tern.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/spooltail-tern.webp"
   },
   {
     "id": "library-54247adaabf3b13f89d6",
@@ -298,11 +268,6 @@
     "id": "library-3ba25907c5d511dfb81f",
     "logicalSource": "/assets/library/beasts/staged/alligator-3ba25907c5d5.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/alligator-3ba25907c5d5.png"
-  },
-  {
-    "id": "library-24c4c189d95d6a43964c",
-    "logicalSource": "/assets/library/beasts/staged/alligator-turtle-24c4c189d95d.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/alligator-turtle-24c4c189d95d.webp"
   },
   {
     "id": "library-bfd45c756e4462c0cb89",
@@ -355,11 +320,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/awakened-white-moose-8f1d93629cbd.png"
   },
   {
-    "id": "library-b225968ca3114ec3371c",
-    "logicalSource": "/assets/library/beasts/staged/baboon-howler-b225968ca311.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/baboon-howler-b225968ca311.webp"
-  },
-  {
     "id": "library-c74b6b4a727b99fec634",
     "logicalSource": "/assets/library/beasts/staged/baloth-c74b6b4a727b.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/baloth-c74b6b4a727b.png"
@@ -403,11 +363,6 @@
     "id": "library-a78e800e108aa4c1b189",
     "logicalSource": "/assets/library/beasts/staged/beast-of-the-sky-a78e800e108a.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/beast-of-the-sky-a78e800e108a.png"
-  },
-  {
-    "id": "library-008dd728f2c5eb4995a5",
-    "logicalSource": "/assets/library/beasts/staged/beetle-giant-bombardier-008dd728f2c5.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/beetle-giant-bombardier-008dd728f2c5.webp"
   },
   {
     "id": "library-59d89f960b0d45418606",
@@ -485,11 +440,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/brown-bear-84dd7b07d9e1.webp"
   },
   {
-    "id": "library-1fde3ddb189607a2349c",
-    "logicalSource": "/assets/library/beasts/staged/bull-1fde3ddb1896.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/bull-1fde3ddb1896.webp"
-  },
-  {
     "id": "library-08b0422f73b2faece20c",
     "logicalSource": "/assets/library/beasts/staged/camel-cavalry-08b0422f73b2.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/camel-cavalry-08b0422f73b2.png"
@@ -528,11 +478,6 @@
     "id": "library-31cf6434c41e3a28ac4b",
     "logicalSource": "/assets/library/beasts/staged/cerodon-31cf6434c41e.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/cerodon-31cf6434c41e.png"
-  },
-  {
-    "id": "library-253a3782fe008ff5bda0",
-    "logicalSource": "/assets/library/beasts/staged/cheetah-253a3782fe00.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/cheetah-253a3782fe00.webp"
   },
   {
     "id": "library-7d5b281a535eac98e634",
@@ -600,11 +545,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/cranium-rat-da0e610eda41.png"
   },
   {
-    "id": "library-033c73c9e3369952909c",
-    "logicalSource": "/assets/library/beasts/staged/deathjump-spider-033c73c9e336.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/deathjump-spider-033c73c9e336.webp"
-  },
-  {
     "id": "library-c295a1c3bb90af78ac2b",
     "logicalSource": "/assets/library/beasts/staged/deep-rothe-c295a1c3bb90.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/deep-rothe-c295a1c3bb90.png"
@@ -640,59 +580,9 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/dinosaur-spirit-tyrannosaur-b4e218fb4237.png"
   },
   {
-    "id": "library-4a5f84fff3f12fe2c7fd",
-    "logicalSource": "/assets/library/beasts/staged/dinosaur-velociraptor-4a5f84fff3f1.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dinosaur-velociraptor-4a5f84fff3f1.webp"
-  },
-  {
-    "id": "library-129fb4d7249a6a78c558",
-    "logicalSource": "/assets/library/beasts/staged/dire-ape-129fb4d7249a.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-ape-129fb4d7249a.webp"
-  },
-  {
-    "id": "library-32a67b10a55ed6aa9dc9",
-    "logicalSource": "/assets/library/beasts/staged/dire-badger-32a67b10a55e.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-badger-32a67b10a55e.webp"
-  },
-  {
-    "id": "library-cf197320afdbe323a8bf",
-    "logicalSource": "/assets/library/beasts/staged/dire-bat-cf197320afdb.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-bat-cf197320afdb.webp"
-  },
-  {
-    "id": "library-2cfb04880a3e62b70030",
-    "logicalSource": "/assets/library/beasts/staged/dire-bear-2cfb04880a3e.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-bear-2cfb04880a3e.webp"
-  },
-  {
     "id": "library-a2923e488874b6d31bab",
     "logicalSource": "/assets/library/beasts/staged/dire-bear-a2923e488874.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-bear-a2923e488874.png"
-  },
-  {
-    "id": "library-a7128942891a5e259740",
-    "logicalSource": "/assets/library/beasts/staged/dire-boar-a7128942891a.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-boar-a7128942891a.webp"
-  },
-  {
-    "id": "library-721cca6d4953ce7f76df",
-    "logicalSource": "/assets/library/beasts/staged/dire-lion-721cca6d4953.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-lion-721cca6d4953.webp"
-  },
-  {
-    "id": "library-b760bc30296688082fde",
-    "logicalSource": "/assets/library/beasts/staged/dire-rat-b760bc302966.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-rat-b760bc302966.webp"
-  },
-  {
-    "id": "library-1209bda61c6524eefc15",
-    "logicalSource": "/assets/library/beasts/staged/dire-shark-1209bda61c65.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-shark-1209bda61c65.webp"
-  },
-  {
-    "id": "library-a27de36b5fc3cf870645",
-    "logicalSource": "/assets/library/beasts/staged/dire-tiger-a27de36b5fc3.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-tiger-a27de36b5fc3.webp"
   },
   {
     "id": "library-6c2ffd11e1190753029b",
@@ -710,19 +600,9 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-wolf-d20eed104a14.webp"
   },
   {
-    "id": "library-9f193036f14876ad8eee",
-    "logicalSource": "/assets/library/beasts/staged/dire-wolverine-9f193036f148.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/dire-wolverine-9f193036f148.webp"
-  },
-  {
     "id": "library-04ad7363d846e0cd2519",
     "logicalSource": "/assets/library/beasts/staged/dolphin-04ad7363d846.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/dolphin-04ad7363d846.png"
-  },
-  {
-    "id": "library-f10a084216e4f77366b0",
-    "logicalSource": "/assets/library/beasts/staged/donkey-f10a084216e4.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/donkey-f10a084216e4.webp"
   },
   {
     "id": "library-34a08aa6cfebeeb61e19",
@@ -748,11 +628,6 @@
     "id": "library-ab83566d5bc3d712d7c3",
     "logicalSource": "/assets/library/beasts/staged/echyan-ab83566d5bc3.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/echyan-ab83566d5bc3.png"
-  },
-  {
-    "id": "library-6a90b8f752c662273e50",
-    "logicalSource": "/assets/library/beasts/staged/elasmosaurus-6a90b8f752c6.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/elasmosaurus-6a90b8f752c6.webp"
   },
   {
     "id": "library-5b76fb82634885297816",
@@ -785,16 +660,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/ferocidon-f69cff654030.png"
   },
   {
-    "id": "library-69935e2171f2c5a2383c",
-    "logicalSource": "/assets/library/beasts/staged/fire-beetles-69935e2171f2.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/fire-beetles-69935e2171f2.webp"
-  },
-  {
-    "id": "library-81dcd954b965016ada33",
-    "logicalSource": "/assets/library/beasts/staged/fire-stirge-81dcd954b965.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/fire-stirge-81dcd954b965.webp"
-  },
-  {
     "id": "library-eb61d1765250b9c69e1f",
     "logicalSource": "/assets/library/beasts/staged/fish-eb61d1765250.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/fish-eb61d1765250.png"
@@ -815,11 +680,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/flying-snake-c18f8bdfa42f.png"
   },
   {
-    "id": "library-1e53c70fcf1190fe22b6",
-    "logicalSource": "/assets/library/beasts/staged/forest-falcon-1e53c70fcf11.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/forest-falcon-1e53c70fcf11.webp"
-  },
-  {
     "id": "library-33fb5fe5a708eaffa1bd",
     "logicalSource": "/assets/library/beasts/staged/fox-33fb5fe5a708.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/fox-33fb5fe5a708.png"
@@ -833,11 +693,6 @@
     "id": "library-159e14474330fbeec814",
     "logicalSource": "/assets/library/beasts/staged/frilled-deathspitter-159e14474330.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/frilled-deathspitter-159e14474330.png"
-  },
-  {
-    "id": "library-7751179636ae562d8520",
-    "logicalSource": "/assets/library/beasts/staged/frog-giant-poisonous-7751179636ae.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/frog-giant-poisonous-7751179636ae.webp"
   },
   {
     "id": "library-9b0f85a5cfa152fa7879",
@@ -883,11 +738,6 @@
     "id": "library-d465c22a5df0bdf3ee7c",
     "logicalSource": "/assets/library/beasts/staged/giant-boar-d465c22a5df0.webp",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-boar-d465c22a5df0.webp"
-  },
-  {
-    "id": "library-65a717519a628b5b71df",
-    "logicalSource": "/assets/library/beasts/staged/giant-bumblebee-65a717519a62.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-bumblebee-65a717519a62.webp"
   },
   {
     "id": "library-895b42de5408c1d35cb8",
@@ -998,16 +848,6 @@
     "id": "library-49b758d06d9fc514b574",
     "logicalSource": "/assets/library/beasts/staged/giant-goat-49b758d06d9f.webp",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-goat-49b758d06d9f.webp"
-  },
-  {
-    "id": "library-a7ee4c181b196dedb320",
-    "logicalSource": "/assets/library/beasts/staged/giant-honey-bee-soldier-a7ee4c181b19.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-honey-bee-soldier-a7ee4c181b19.webp"
-  },
-  {
-    "id": "library-bd0d63cdfd57ecc5e151",
-    "logicalSource": "/assets/library/beasts/staged/giant-honey-bee-worker-bd0d63cdfd57.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/giant-honey-bee-worker-bd0d63cdfd57.webp"
   },
   {
     "id": "library-8d08d4181ef580c2acda",
@@ -1230,11 +1070,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/golden-stag-f08a64bca203.png"
   },
   {
-    "id": "library-665be0ad0fbc644e52f1",
-    "logicalSource": "/assets/library/beasts/staged/gray-wolves-665be0ad0fbc.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/gray-wolves-665be0ad0fbc.webp"
-  },
-  {
     "id": "library-517b7591ffcf480f2c97",
     "logicalSource": "/assets/library/beasts/staged/great-cat-517b7591ffcf.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/great-cat-517b7591ffcf.png"
@@ -1248,21 +1083,6 @@
     "id": "library-7a700ff016a101d30708",
     "logicalSource": "/assets/library/beasts/staged/griffon-mcdm-7a700ff016a1.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/griffon-mcdm-7a700ff016a1.png"
-  },
-  {
-    "id": "library-fd888bcd265eb669c682",
-    "logicalSource": "/assets/library/beasts/staged/grove-bear-fd888bcd265e.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/grove-bear-fd888bcd265e.webp"
-  },
-  {
-    "id": "library-55b5fbe4a9c23452a552",
-    "logicalSource": "/assets/library/beasts/staged/guard-dog-wolf-55b5fbe4a9c2.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/guard-dog-wolf-55b5fbe4a9c2.webp"
-  },
-  {
-    "id": "library-1c2e141487aad507b22f",
-    "logicalSource": "/assets/library/beasts/staged/guard-drake-1c2e141487aa.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/guard-drake-1c2e141487aa.webp"
   },
   {
     "id": "library-355da53aacf6b3acedd5",
@@ -1300,16 +1120,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/hellwasp-grub-b14e0af8ce6f.png"
   },
   {
-    "id": "library-3dcbb4ef9a9ad4a08448",
-    "logicalSource": "/assets/library/beasts/staged/herathian-voat-3dcbb4ef9a9a.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/herathian-voat-3dcbb4ef9a9a.webp"
-  },
-  {
-    "id": "library-92d835bad956a8a6f483",
-    "logicalSource": "/assets/library/beasts/staged/hippocampus-92d835bad956.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/hippocampus-92d835bad956.webp"
-  },
-  {
     "id": "library-b771e8e84024129c51d2",
     "logicalSource": "/assets/library/beasts/staged/horned-frog-b771e8e84024.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/horned-frog-b771e8e84024.png"
@@ -1318,11 +1128,6 @@
     "id": "library-a9018e3619dde13e86b7",
     "logicalSource": "/assets/library/beasts/staged/hound-hunting-a9018e3619dd.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/hound-hunting-a9018e3619dd.png"
-  },
-  {
-    "id": "library-66b340e9ff068327ace5",
-    "logicalSource": "/assets/library/beasts/staged/huge-shark-66b340e9ff06.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/huge-shark-66b340e9ff06.webp"
   },
   {
     "id": "library-87ad37d588f2dbe23955",
@@ -1340,11 +1145,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/hyena-de6073effa6b.png"
   },
   {
-    "id": "library-b792f018d221ce3ce890",
-    "logicalSource": "/assets/library/beasts/staged/ice-cat-b792f018d221.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/ice-cat-b792f018d221.webp"
-  },
-  {
     "id": "library-4422ce415581e93f257d",
     "logicalSource": "/assets/library/beasts/staged/ice-spider-4422ce415581.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/ice-spider-4422ce415581.png"
@@ -1355,24 +1155,9 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/insect-giant-fire-beetle-b389d8b02dd5.webp"
   },
   {
-    "id": "library-860f597874ee224daa52",
-    "logicalSource": "/assets/library/beasts/staged/insect-giant-scorpion-860f597874ee.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/insect-giant-scorpion-860f597874ee.webp"
-  },
-  {
-    "id": "library-6997e27e56ec82a2ab5e",
-    "logicalSource": "/assets/library/beasts/staged/insect-scorpion-6997e27e56ec.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/insect-scorpion-6997e27e56ec.webp"
-  },
-  {
     "id": "library-1b053afe35438d32c9a3",
     "logicalSource": "/assets/library/beasts/staged/jaculi-1b053afe3543.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/jaculi-1b053afe3543.png"
-  },
-  {
-    "id": "library-e77650da26cab97e9cd0",
-    "logicalSource": "/assets/library/beasts/staged/jorri-e77650da26ca.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/jorri-e77650da26ca.webp"
   },
   {
     "id": "library-9b8afecceb7ad3063d0d",
@@ -1400,34 +1185,9 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/koi-prawn-bb33da9e443f.png"
   },
   {
-    "id": "library-b6c76c4a1c5348a1a1e5",
-    "logicalSource": "/assets/library/beasts/staged/kruthik-adult-b6c76c4a1c53.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/kruthik-adult-b6c76c4a1c53.webp"
-  },
-  {
-    "id": "library-cd06c7118ae734ffed5a",
-    "logicalSource": "/assets/library/beasts/staged/kruthik-hatchling-cd06c7118ae7.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/kruthik-hatchling-cd06c7118ae7.webp"
-  },
-  {
-    "id": "library-d0c0f1ab6c4adde5beb2",
-    "logicalSource": "/assets/library/beasts/staged/kruthik-young-d0c0f1ab6c4a.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/kruthik-young-d0c0f1ab6c4a.webp"
-  },
-  {
     "id": "library-92c677ba863e25442532",
     "logicalSource": "/assets/library/beasts/staged/large-drake-92c677ba863e.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/large-drake-92c677ba863e.png"
-  },
-  {
-    "id": "library-e5251055902268c8d3a4",
-    "logicalSource": "/assets/library/beasts/staged/leech-giant-e52510559022.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/leech-giant-e52510559022.webp"
-  },
-  {
-    "id": "library-9646d6a7c1611b6e20c0",
-    "logicalSource": "/assets/library/beasts/staged/leopard-9646d6a7c161.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/leopard-9646d6a7c161.webp"
   },
   {
     "id": "library-2c5b9354701098d6759d",
@@ -1440,16 +1200,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/lizard-33bf94cdf874.png"
   },
   {
-    "id": "library-94c3df2b6326f550b844",
-    "logicalSource": "/assets/library/beasts/staged/lizard-giant-frilled-94c3df2b6326.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/lizard-giant-frilled-94c3df2b6326.webp"
-  },
-  {
-    "id": "library-51744344fa8e3a3d9105",
-    "logicalSource": "/assets/library/beasts/staged/lupasus-51744344fa8e.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/lupasus-51744344fa8e.webp"
-  },
-  {
     "id": "library-96a65a32c6831e96ba18",
     "logicalSource": "/assets/library/beasts/staged/macaw-96a65a32c683.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/macaw-96a65a32c683.png"
@@ -1460,54 +1210,14 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/male-steeder-6748921dc422.png"
   },
   {
-    "id": "library-530cc0a70fd264e533d9",
-    "logicalSource": "/assets/library/beasts/staged/manta-ray-530cc0a70fd2.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/manta-ray-530cc0a70fd2.webp"
-  },
-  {
-    "id": "library-d89d419a3c6541bfd0a2",
-    "logicalSource": "/assets/library/beasts/staged/margreve-hound-d89d419a3c65.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/margreve-hound-d89d419a3c65.webp"
-  },
-  {
-    "id": "library-d6bfbd388d02bd53e9e7",
-    "logicalSource": "/assets/library/beasts/staged/margreve-stag-d6bfbd388d02.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/margreve-stag-d6bfbd388d02.webp"
-  },
-  {
-    "id": "library-79b713a311443f1ea3da",
-    "logicalSource": "/assets/library/beasts/staged/marine-cat-79b713a31144.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/marine-cat-79b713a31144.webp"
-  },
-  {
     "id": "library-0f57b73c2f6ff540a45d",
     "logicalSource": "/assets/library/beasts/staged/mastiff-0f57b73c2f6f.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/mastiff-0f57b73c2f6f.png"
   },
   {
-    "id": "library-f6edf380dce6f8d97563",
-    "logicalSource": "/assets/library/beasts/staged/megaraptor-f6edf380dce6.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/megaraptor-f6edf380dce6.webp"
-  },
-  {
     "id": "library-04b635f652487a6d184d",
     "logicalSource": "/assets/library/beasts/staged/mohler-04b635f65248.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/mohler-04b635f65248.png"
-  },
-  {
-    "id": "library-dbc9d49bb467965f0f35",
-    "logicalSource": "/assets/library/beasts/staged/mongoose-giant-dbc9d49bb467.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/mongoose-giant-dbc9d49bb467.webp"
-  },
-  {
-    "id": "library-d3ae5a0f3e60edfc22a6",
-    "logicalSource": "/assets/library/beasts/staged/monitor-lizard-d3ae5a0f3e60.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/monitor-lizard-d3ae5a0f3e60.webp"
-  },
-  {
-    "id": "library-3c8e2379babcd62969f9",
-    "logicalSource": "/assets/library/beasts/staged/monkey-3c8e2379babc.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/monkey-3c8e2379babc.webp"
   },
   {
     "id": "library-4e3205d21ccd266ee5b0",
@@ -1530,29 +1240,14 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/niktoo-c41436a38d6e.png"
   },
   {
-    "id": "library-daa6992b4877a413ef9a",
-    "logicalSource": "/assets/library/beasts/staged/oliphant-daa6992b4877.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/oliphant-daa6992b4877.webp"
-  },
-  {
     "id": "library-4de27ef553a1564051de",
     "logicalSource": "/assets/library/beasts/staged/oliphant-warbeast-4de27ef553a1.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/oliphant-warbeast-4de27ef553a1.png"
   },
   {
-    "id": "library-d43d52b53f64e9c1b0a1",
-    "logicalSource": "/assets/library/beasts/staged/omm-wa-d43d52b53f64.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/omm-wa-d43d52b53f64.webp"
-  },
-  {
     "id": "library-32946c10ee166fb7d0e8",
     "logicalSource": "/assets/library/beasts/staged/onyx-32946c10ee16.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/onyx-32946c10ee16.png"
-  },
-  {
-    "id": "library-284e3edce207a7a61db1",
-    "logicalSource": "/assets/library/beasts/staged/owl-great-gray-284e3edce207.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/owl-great-gray-284e3edce207.webp"
   },
   {
     "id": "library-c3ff960383a3750a5b7c",
@@ -1615,11 +1310,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/pollenella-the-honeybee-a0680f2d8058.png"
   },
   {
-    "id": "library-9146ea9b0010a1a86d62",
-    "logicalSource": "/assets/library/beasts/staged/porpoise-9146ea9b0010.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/porpoise-9146ea9b0010.webp"
-  },
-  {
     "id": "library-0f0aabea20eb1bfb8e37",
     "logicalSource": "/assets/library/beasts/staged/quetzalcoatlus-0f0aabea20eb.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/quetzalcoatlus-0f0aabea20eb.png"
@@ -1640,11 +1330,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/rat-giant-73ea67873e36.png"
   },
   {
-    "id": "library-a9ecfc55941a4b3840f7",
-    "logicalSource": "/assets/library/beasts/staged/redspawn-firebelcher-a9ecfc55941a.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/redspawn-firebelcher-a9ecfc55941a.webp"
-  },
-  {
     "id": "library-60e9cdbb91fbbc824f11",
     "logicalSource": "/assets/library/beasts/staged/reef-shark-60e9cdbb91fb.webp",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/reef-shark-60e9cdbb91fb.webp"
@@ -1663,11 +1348,6 @@
     "id": "library-87cb1fa8a4008a51e758",
     "logicalSource": "/assets/library/beasts/staged/relic-sloth-87cb1fa8a400.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/relic-sloth-87cb1fa8a400.png"
-  },
-  {
-    "id": "library-8881f86a90d7acfc143a",
-    "logicalSource": "/assets/library/beasts/staged/riding-dog-8881f86a90d7.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/riding-dog-8881f86a90d7.webp"
   },
   {
     "id": "library-3aa832ecfa411b702bcb",
@@ -1800,11 +1480,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/spotted-lion-74a7b744511d.png"
   },
   {
-    "id": "library-8dcb2884bc0e384f0427",
-    "logicalSource": "/assets/library/beasts/staged/squid-8dcb2884bc0e.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/squid-8dcb2884bc0e.webp"
-  },
-  {
     "id": "library-06705c758d6020b76274",
     "logicalSource": "/assets/library/beasts/staged/steel-leaf-kavu-06705c758d60.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/steel-leaf-kavu-06705c758d60.png"
@@ -1828,11 +1503,6 @@
     "id": "library-6fa9bf97689e4aaddd30",
     "logicalSource": "/assets/library/beasts/staged/succulus-6fa9bf97689e.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/succulus-6fa9bf97689e.png"
-  },
-  {
-    "id": "library-e91fbf1ed393b3fc787d",
-    "logicalSource": "/assets/library/beasts/staged/swampmare-e91fbf1ed393.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/swampmare-e91fbf1ed393.webp"
   },
   {
     "id": "library-02360d39e5f8cff68fc1",
@@ -1920,16 +1590,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/trinket-a915bbe0663b.png"
   },
   {
-    "id": "library-c1e136bef79480466c4d",
-    "logicalSource": "/assets/library/beasts/staged/trosip-c1e136bef794.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/trosip-c1e136bef794.webp"
-  },
-  {
-    "id": "library-704b44eb2203060a0795",
-    "logicalSource": "/assets/library/beasts/staged/tsuchinoko-704b44eb2203.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/tsuchinoko-704b44eb2203.webp"
-  },
-  {
     "id": "library-feac625a082ac879c030",
     "logicalSource": "/assets/library/beasts/staged/two-headed-crocodile-feac625a082a.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/two-headed-crocodile-feac625a082a.png"
@@ -1950,21 +1610,6 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/velociraptor-921867b38a33.png"
   },
   {
-    "id": "library-7818ff5599db53331a67",
-    "logicalSource": "/assets/library/beasts/staged/voat-7818ff5599db.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/voat-7818ff5599db.webp"
-  },
-  {
-    "id": "library-d804139e1e1b3b5cd28f",
-    "logicalSource": "/assets/library/beasts/staged/vulturehound-d804139e1e1b.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/vulturehound-d804139e1e1b.webp"
-  },
-  {
-    "id": "library-b564a87e30cecf28608a",
-    "logicalSource": "/assets/library/beasts/staged/war-pony-b564a87e30ce.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/war-pony-b564a87e30ce.webp"
-  },
-  {
     "id": "library-31508f0d194524610554",
     "logicalSource": "/assets/library/beasts/staged/weasel-31508f0d1945.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/weasel-31508f0d1945.png"
@@ -1980,19 +1625,9 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/whirlwyrm-ff5ee12f7648.png"
   },
   {
-    "id": "library-d19643d63a07e4004727",
-    "logicalSource": "/assets/library/beasts/staged/wild-dog-alpha-d19643d63a07.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/wild-dog-alpha-d19643d63a07.webp"
-  },
-  {
     "id": "library-fbb0c2e35a467b8ca433",
     "logicalSource": "/assets/library/beasts/staged/wild-dog-fbb0c2e35a46.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/wild-dog-fbb0c2e35a46.png"
-  },
-  {
-    "id": "library-d77ef8deffb11436cb78",
-    "logicalSource": "/assets/library/beasts/staged/winter-wolf-d77ef8deffb1.png",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/winter-wolf-d77ef8deffb1.png"
   },
   {
     "id": "library-ab89fbdbf7d834b70454",
@@ -2005,24 +1640,9 @@
     "repositoryPath": "assets/images/content/library-release/beasts/staged/wolf-daa18511ed1b.png"
   },
   {
-    "id": "library-696bfc4e9a3dc6706926",
-    "logicalSource": "/assets/library/beasts/staged/wolverine-696bfc4e9a3d.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/wolverine-696bfc4e9a3d.webp"
-  },
-  {
     "id": "library-1a04ed8499f67dc0b103",
     "logicalSource": "/assets/library/beasts/staged/woodcrasher-baloth-1a04ed8499f6.png",
     "repositoryPath": "assets/images/content/library-release/beasts/staged/woodcrasher-baloth-1a04ed8499f6.png"
-  },
-  {
-    "id": "library-46ca43296a4dd52670d1",
-    "logicalSource": "/assets/library/beasts/staged/wynzet-46ca43296a4d.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/wynzet-46ca43296a4d.webp"
-  },
-  {
-    "id": "library-84dea5d07f564fa43767",
-    "logicalSource": "/assets/library/beasts/staged/wyverns-84dea5d07f56.webp",
-    "repositoryPath": "assets/images/content/library-release/beasts/staged/wyverns-84dea5d07f56.webp"
   },
   {
     "id": "library-a14d759892999b7ed8cf",
@@ -7065,11 +6685,6 @@
     "repositoryPath": "assets/images/content/library-release/monsters/ankylosaurus.webp"
   },
   {
-    "id": "library-5d765deaf5a395bd20a1",
-    "logicalSource": "/assets/library/monsters/archelon.webp",
-    "repositoryPath": "assets/images/content/library-release/monsters/archelon.webp"
-  },
-  {
     "id": "library-d8a781d6645d661a15fb",
     "logicalSource": "/assets/library/monsters/archmage.png",
     "repositoryPath": "assets/images/content/library-release/monsters/archmage.png"
@@ -7440,11 +7055,6 @@
     "repositoryPath": "assets/images/content/library-release/monsters/gnoll.png"
   },
   {
-    "id": "library-a21788213cfed5534c68",
-    "logicalSource": "/assets/library/monsters/gnome-deep-svirfneblin.webp",
-    "repositoryPath": "assets/images/content/library-release/monsters/gnome-deep-svirfneblin.webp"
-  },
-  {
     "id": "library-97aec8f9c71b1b83b46b",
     "logicalSource": "/assets/library/monsters/goblin-boss.png",
     "repositoryPath": "assets/images/content/library-release/monsters/goblin-boss.png"
@@ -7523,11 +7133,6 @@
     "id": "library-5e54316ca5bb322e92dc",
     "logicalSource": "/assets/library/monsters/half-dragon.png",
     "repositoryPath": "assets/images/content/library-release/monsters/half-dragon.png"
-  },
-  {
-    "id": "library-b85cab6a25c73e4b3431",
-    "logicalSource": "/assets/library/monsters/half-red-dragon-veteran.webp",
-    "repositoryPath": "assets/images/content/library-release/monsters/half-red-dragon-veteran.webp"
   },
   {
     "id": "library-34c729cd933cff2c6a19",
@@ -7990,11 +7595,6 @@
     "repositoryPath": "assets/images/content/library-release/monsters/storm-giant.png"
   },
   {
-    "id": "library-e5502ef902a87c27caf6",
-    "logicalSource": "/assets/library/monsters/succubus-incubus.webp",
-    "repositoryPath": "assets/images/content/library-release/monsters/succubus-incubus.webp"
-  },
-  {
     "id": "library-959d40966bc013e3db8d",
     "logicalSource": "/assets/library/monsters/swarm-of-bats.webp",
     "repositoryPath": "assets/images/content/library-release/monsters/swarm-of-bats.webp"
@@ -8300,19 +7900,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/aboleth-lasher-5d972637e927398f.png"
   },
   {
-    "id": "library-9e0f1b55b5403f69d9e1",
-    "logicalSource": "/assets/library/worker-art/aboleth-lasher-9e0f1b55b5403f69.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/aboleth-lasher-9e0f1b55b5403f69.webp"
-  },
-  {
     "id": "library-012f97a887b0accfc6c1",
     "logicalSource": "/assets/library/worker-art/aboleth-overseer-012f97a887b0accf.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/aboleth-overseer-012f97a887b0accf.png"
-  },
-  {
-    "id": "library-732285cc2c251c0e4883",
-    "logicalSource": "/assets/library/worker-art/aboleth-overseer-732285cc2c251c0e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/aboleth-overseer-732285cc2c251c0e.webp"
   },
   {
     "id": "library-37c05ac70baf5426c84b",
@@ -8320,19 +7910,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/aboleth-servitor-37c05ac70baf5426.png"
   },
   {
-    "id": "library-a3aa1b65192cdf9627ce",
-    "logicalSource": "/assets/library/worker-art/aboleth-servitor-a3aa1b65192cdf96.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/aboleth-servitor-a3aa1b65192cdf96.webp"
-  },
-  {
     "id": "library-9364b1480cc1b2402fc2",
     "logicalSource": "/assets/library/worker-art/aboleth-slime-mage-9364b1480cc1b240.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/aboleth-slime-mage-9364b1480cc1b240.png"
-  },
-  {
-    "id": "library-be1cbcf3d9f6aeee912f",
-    "logicalSource": "/assets/library/worker-art/aboleth-slime-mage-be1cbcf3d9f6aeee.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/aboleth-slime-mage-be1cbcf3d9f6aeee.webp"
   },
   {
     "id": "library-1411f7a7c25ea657dfd6",
@@ -8576,11 +8156,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/alhoon-50c39b41f21a9091.png"
   },
   {
-    "id": "library-1eae36240d9ddb81f5c3",
-    "logicalSource": "/assets/library/worker-art/alina-vaduva-werewolf-1eae36240d9ddb81.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/alina-vaduva-werewolf-1eae36240d9ddb81.webp"
-  },
-  {
     "id": "library-82bb4d4e0ba11251b780",
     "logicalSource": "/assets/library/worker-art/alina-vaduva-werewolf-82bb4d4e0ba11251.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/alina-vaduva-werewolf-82bb4d4e0ba11251.png"
@@ -8636,11 +8211,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/amalgam-b0419590d404b9b8.png"
   },
   {
-    "id": "library-f843b56785a57a501a15",
-    "logicalSource": "/assets/library/worker-art/amalgam-f843b56785a57a50.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/amalgam-f843b56785a57a50.webp"
-  },
-  {
     "id": "library-d6f6c021170951c1e02c",
     "logicalSource": "/assets/library/worker-art/amber-lotus-d6f6c021170951c1.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/amber-lotus-d6f6c021170951c1.webp"
@@ -8649,11 +8219,6 @@
     "id": "library-e2376c80652b3452b32e",
     "logicalSource": "/assets/library/worker-art/ambush-hag-e2376c80652b3452.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/ambush-hag-e2376c80652b3452.webp"
-  },
-  {
-    "id": "library-7c6fd06f081289617601",
-    "logicalSource": "/assets/library/worker-art/ambush-vine-7c6fd06f08128961.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/ambush-vine-7c6fd06f08128961.webp"
   },
   {
     "id": "library-d9bb88c4d5a4362cc7c3",
@@ -8684,11 +8249,6 @@
     "id": "library-968b85cf4cb483fd9799",
     "logicalSource": "/assets/library/worker-art/amnizu-summoner-968b85cf4cb483fd.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/amnizu-summoner-968b85cf4cb483fd.png"
-  },
-  {
-    "id": "library-f6fc3489808eba3897ae",
-    "logicalSource": "/assets/library/worker-art/amnizu-summoner-f6fc3489808eba38.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/amnizu-summoner-f6fc3489808eba38.webp"
   },
   {
     "id": "library-ffbaf1777473b8bb711c",
@@ -8740,11 +8300,6 @@
     "id": "library-2721a928e9b3f722c4fe",
     "logicalSource": "/assets/library/worker-art/ancient-lightning-eel-2721a928e9b3f722.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/ancient-lightning-eel-2721a928e9b3f722.png"
-  },
-  {
-    "id": "library-da274d913a21d188c98e",
-    "logicalSource": "/assets/library/worker-art/ancient-lightning-eel-da274d913a21d188.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/ancient-lightning-eel-da274d913a21d188.webp"
   },
   {
     "id": "library-e77681d8581e6c67dd27",
@@ -8828,11 +8383,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/angel-of-battle-00df4f8b5baf1e18.png"
   },
   {
-    "id": "library-3a39e8960ed1cae41990",
-    "logicalSource": "/assets/library/worker-art/angel-of-battle-3a39e8960ed1cae4.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/angel-of-battle-3a39e8960ed1cae4.webp"
-  },
-  {
     "id": "library-caafda21db1f71b425b3",
     "logicalSource": "/assets/library/worker-art/angel-void-caafda21db1f71b4.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/angel-void-caafda21db1f71b4.webp"
@@ -8883,11 +8433,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/animal-lord-50d89ad238450182.png"
   },
   {
-    "id": "library-413d2060f526f95aac4c",
-    "logicalSource": "/assets/library/worker-art/animal-lord-forager-413d2060f526f95a.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/animal-lord-forager-413d2060f526f95a.webp"
-  },
-  {
     "id": "library-653ce0d32b4cd7f06d5c",
     "logicalSource": "/assets/library/worker-art/animal-lord-forager-653ce0d32b4cd7f0.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/animal-lord-forager-653ce0d32b4cd7f0.png"
@@ -8903,11 +8448,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/animal-lord-hunter-08db0e9c088840b3.png"
   },
   {
-    "id": "library-93ed3409ff6d57e21031",
-    "logicalSource": "/assets/library/worker-art/animal-lord-hunter-93ed3409ff6d57e2.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/animal-lord-hunter-93ed3409ff6d57e2.webp"
-  },
-  {
     "id": "library-1a0398d2d01743232425",
     "logicalSource": "/assets/library/worker-art/animal-lord-sage-1a0398d2d0174323.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/animal-lord-sage-1a0398d2d0174323.png"
@@ -8916,11 +8456,6 @@
     "id": "library-74c70a650fc2d5c8d5bc",
     "logicalSource": "/assets/library/worker-art/animal-lord-sage-74c70a650fc2d5c8.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/animal-lord-sage-74c70a650fc2d5c8.png"
-  },
-  {
-    "id": "library-d79529eaf3b429acacc3",
-    "logicalSource": "/assets/library/worker-art/animal-lord-sage-d79529eaf3b429ac.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/animal-lord-sage-d79529eaf3b429ac.webp"
   },
   {
     "id": "library-eac7dd875be5a511773f",
@@ -9021,11 +8556,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/anomollusk-26eb015a80144b09.png"
   },
   {
-    "id": "library-9427f92e03c5c5e7b2bc",
-    "logicalSource": "/assets/library/worker-art/anomollusk-9427f92e03c5c5e7.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/anomollusk-9427f92e03c5c5e7.webp"
-  },
-  {
     "id": "library-18d06b7136b1758c4ca1",
     "logicalSource": "/assets/library/worker-art/anthracia-princess-of-venom-18d06b7136b1758c.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/anthracia-princess-of-venom-18d06b7136b1758c.webp"
@@ -9039,11 +8569,6 @@
     "id": "library-b9f152660701392918f7",
     "logicalSource": "/assets/library/worker-art/anvilwrought-raptor-familiar-b9f1526607013929.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/anvilwrought-raptor-familiar-b9f1526607013929.png"
-  },
-  {
-    "id": "library-ea92b64913e4f02512a3",
-    "logicalSource": "/assets/library/worker-art/anvilwrought-raptor-familiar-ea92b64913e4f025.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/anvilwrought-raptor-familiar-ea92b64913e4f025.webp"
   },
   {
     "id": "library-250cdf842117ba4a5183",
@@ -9060,11 +8585,6 @@
     "id": "library-8de280e3a6564d293165",
     "logicalSource": "/assets/library/worker-art/apex-8de280e3a6564d29.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/apex-8de280e3a6564d29.png"
-  },
-  {
-    "id": "library-dd4738c763881fc588ca",
-    "logicalSource": "/assets/library/worker-art/apex-dd4738c763881fc5.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/apex-dd4738c763881fc5.webp"
   },
   {
     "id": "library-584c01ddeadd85199a60",
@@ -9214,11 +8734,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/arena-guard-42419776fad75e1b.png"
   },
   {
-    "id": "library-c554240fe048cb528472",
-    "logicalSource": "/assets/library/worker-art/arena-guard-c554240fe048cb52.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/arena-guard-c554240fe048cb52.webp"
-  },
-  {
     "id": "library-4c031e55998b8ebe0a25",
     "logicalSource": "/assets/library/worker-art/argan-rael-4c031e55998b8ebe.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/argan-rael-4c031e55998b8ebe.webp"
@@ -9363,11 +8878,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/astral-elf-warrior-d9ec726b7fb066d6.png"
   },
   {
-    "id": "library-354b28b2f4cb4d9869f6",
-    "logicalSource": "/assets/library/worker-art/astral-stalker-354b28b2f4cb4d98.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/astral-stalker-354b28b2f4cb4d98.webp"
-  },
-  {
     "id": "library-c18af84dda9e9d42c32f",
     "logicalSource": "/assets/library/worker-art/astral-stalker-c18af84dda9e9d42.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/astral-stalker-c18af84dda9e9d42.png"
@@ -9494,11 +9004,6 @@
     "archived": true
   },
   {
-    "id": "library-4055e4c5273a08ba86e1",
-    "logicalSource": "/assets/library/worker-art/axolotl-giant-4055e4c5273a08ba.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/axolotl-giant-4055e4c5273a08ba.webp"
-  },
-  {
     "id": "library-632055c8d38a40a7bc05",
     "logicalSource": "/assets/library/worker-art/axolotl-giant-632055c8d38a40a7.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/axolotl-giant-632055c8d38a40a7.png"
@@ -9520,20 +9025,10 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/azer-acolyte-1085329bf2e3a138.png"
   },
   {
-    "id": "library-76d7629df85f1fe592e4",
-    "logicalSource": "/assets/library/worker-art/azer-acolyte-76d7629df85f1fe5.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/azer-acolyte-76d7629df85f1fe5.webp"
-  },
-  {
     "id": "library-d1d093f22e4a1f7a0d44",
     "logicalSource": "/assets/library/worker-art/azer-d1d093f22e4a1f7a.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/azer-d1d093f22e4a1f7a.png",
     "archived": true
-  },
-  {
-    "id": "library-884966dabb39bef128d4",
-    "logicalSource": "/assets/library/worker-art/azer-priest-884966dabb39bef1.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/azer-priest-884966dabb39bef1.webp"
   },
   {
     "id": "library-a2c0a2c3144e93407ab3",
@@ -9656,11 +9151,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/bandit-deceiver-40ad8bc700b5626a.png"
   },
   {
-    "id": "library-5c44bfebf816701d40b8",
-    "logicalSource": "/assets/library/worker-art/bandit-mage-5c44bfebf816701d.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/bandit-mage-5c44bfebf816701d.webp"
-  },
-  {
     "id": "library-7485f575d82dff03d911",
     "logicalSource": "/assets/library/worker-art/bandit-mage-7485f575d82dff03.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/bandit-mage-7485f575d82dff03.png"
@@ -9680,11 +9170,6 @@
     "id": "library-56b2bf4d714904eb5f73",
     "logicalSource": "/assets/library/worker-art/banshee-lady-marilena-fidatov-56b2bf4d714904eb.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/banshee-lady-marilena-fidatov-56b2bf4d714904eb.png"
-  },
-  {
-    "id": "library-742bd26c4d1983decf07",
-    "logicalSource": "/assets/library/worker-art/banshee-lady-marilena-fidatov-742bd26c4d1983de.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/banshee-lady-marilena-fidatov-742bd26c4d1983de.webp"
   },
   {
     "id": "library-ac761d30e1e68c7c8ff2",
@@ -9759,11 +9244,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/baron-silverlaine-92d539166e4fc522.webp"
   },
   {
-    "id": "library-07da10101df420d4730c",
-    "logicalSource": "/assets/library/worker-art/baron-urik-von-kharkov-07da10101df420d4.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/baron-urik-von-kharkov-07da10101df420d4.webp"
-  },
-  {
     "id": "library-b1064610284ece432fbe",
     "logicalSource": "/assets/library/worker-art/baron-urik-von-kharkov-b1064610284ece43.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/baron-urik-von-kharkov-b1064610284ece43.png"
@@ -9826,11 +9306,6 @@
     "id": "library-e3317c6f7453d1c87673",
     "logicalSource": "/assets/library/worker-art/bat-giant-e3317c6f7453d1c8.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/bat-giant-e3317c6f7453d1c8.png"
-  },
-  {
-    "id": "library-c3be9be12ae5d18ef5fa",
-    "logicalSource": "/assets/library/worker-art/bat-strossen-c3be9be12ae5d18e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/bat-strossen-c3be9be12ae5d18e.webp"
   },
   {
     "id": "library-cfa359910ba501730962",
@@ -9907,11 +9382,6 @@
     "id": "library-19ad27698cb74e393254",
     "logicalSource": "/assets/library/worker-art/beetle-giant-round-19ad27698cb74e39.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/beetle-giant-round-19ad27698cb74e39.png"
-  },
-  {
-    "id": "library-5e57b611579d07a83294",
-    "logicalSource": "/assets/library/worker-art/beetle-giant-round-5e57b611579d07a8.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/beetle-giant-round-5e57b611579d07a8.webp"
   },
   {
     "id": "library-ae0f068c510d7e255f37",
@@ -10011,19 +9481,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/birdfolk-farmer-81bab51d163aeba0.png"
   },
   {
-    "id": "library-b3070c7d6f8142c257db",
-    "logicalSource": "/assets/library/worker-art/birdfolk-farmer-b3070c7d6f8142c2.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/birdfolk-farmer-b3070c7d6f8142c2.webp"
-  },
-  {
     "id": "library-3d8811c03a02349fa64a",
     "logicalSource": "/assets/library/worker-art/birdfolk-guard-3d8811c03a02349f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/birdfolk-guard-3d8811c03a02349f.png"
-  },
-  {
-    "id": "library-95a89f7d94581905d61f",
-    "logicalSource": "/assets/library/worker-art/birdfolk-guard-95a89f7d94581905.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/birdfolk-guard-95a89f7d94581905.webp"
   },
   {
     "id": "library-78ccac877c8761607456",
@@ -10031,19 +9491,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/birdfolk-militia-78ccac877c876160.png"
   },
   {
-    "id": "library-bcbe2a4a8b2f89593c6a",
-    "logicalSource": "/assets/library/worker-art/birdfolk-militia-bcbe2a4a8b2f8959.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/birdfolk-militia-bcbe2a4a8b2f8959.webp"
-  },
-  {
     "id": "library-2a3550362e01baef6b22",
     "logicalSource": "/assets/library/worker-art/birdfolk-sailor-2a3550362e01baef.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/birdfolk-sailor-2a3550362e01baef.png"
-  },
-  {
-    "id": "library-a2a9aaf0da1e52b7e479",
-    "logicalSource": "/assets/library/worker-art/birdfolk-sailor-a2a9aaf0da1e52b7.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/birdfolk-sailor-a2a9aaf0da1e52b7.webp"
   },
   {
     "id": "library-d3949ad8a195575b4f7c",
@@ -10197,11 +9647,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/blood-elemental-513b16d1c4cde67f.webp"
   },
   {
-    "id": "library-ab27d6e3e9c05ab30413",
-    "logicalSource": "/assets/library/worker-art/blood-fiend-ab27d6e3e9c05ab3.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/blood-fiend-ab27d6e3e9c05ab3.webp"
-  },
-  {
     "id": "library-e68d644a846ee2518607",
     "logicalSource": "/assets/library/worker-art/blood-fiend-e68d644a846ee251.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/blood-fiend-e68d644a846ee251.png"
@@ -10222,11 +9667,6 @@
     "logicalSource": "/assets/library/worker-art/blood-hound-draft-69a2d95c00afdae3.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/blood-hound-draft-69a2d95c00afdae3.png",
     "archived": true
-  },
-  {
-    "id": "library-e3c3baafe7e624002056",
-    "logicalSource": "/assets/library/worker-art/blood-hound-e3c3baafe7e62400.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/blood-hound-e3c3baafe7e62400.webp"
   },
   {
     "id": "library-c604ffea58ea555ccce2",
@@ -10320,11 +9760,6 @@
     "id": "library-bde9f166b0b25c5071cd",
     "logicalSource": "/assets/library/worker-art/boar-giant-bde9f166b0b25c50.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/boar-giant-bde9f166b0b25c50.png"
-  },
-  {
-    "id": "library-3c1e512591f3cf171d08",
-    "logicalSource": "/assets/library/worker-art/boar-pit-fighter-3c1e512591f3cf17.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/boar-pit-fighter-3c1e512591f3cf17.webp"
   },
   {
     "id": "library-513d5aab576946db0db6",
@@ -10520,11 +9955,6 @@
     "id": "library-0a371b6ae007fc6233e8",
     "logicalSource": "/assets/library/worker-art/breex-vandermast-0a371b6ae007fc62.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/breex-vandermast-0a371b6ae007fc62.png"
-  },
-  {
-    "id": "library-15551fdb168e71a2e15c",
-    "logicalSource": "/assets/library/worker-art/breex-vandermast-15551fdb168e71a2.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/breex-vandermast-15551fdb168e71a2.webp"
   },
   {
     "id": "library-7a4909c988e351fd50de",
@@ -10737,11 +10167,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/burgomaster-ivan-randovich-8dd8bd2227502b0f.png"
   },
   {
-    "id": "library-aea4a2b9a51d0e961689",
-    "logicalSource": "/assets/library/worker-art/burgomaster-ivan-randovich-aea4a2b9a51d0e96.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/burgomaster-ivan-randovich-aea4a2b9a51d0e96.webp"
-  },
-  {
     "id": "library-5eb352d2eae6591495ee",
     "logicalSource": "/assets/library/worker-art/burlywhirl-5eb352d2eae65914.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/burlywhirl-5eb352d2eae65914.webp"
@@ -10750,11 +10175,6 @@
     "id": "library-5fbaf46298c0bc0f3d54",
     "logicalSource": "/assets/library/worker-art/burn-puncher-5fbaf46298c0bc0f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/burn-puncher-5fbaf46298c0bc0f.png"
-  },
-  {
-    "id": "library-97ec0d6ebcbb693f82d2",
-    "logicalSource": "/assets/library/worker-art/burn-puncher-97ec0d6ebcbb693f.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/burn-puncher-97ec0d6ebcbb693f.webp"
   },
   {
     "id": "library-bbd387126b40aba94133",
@@ -10831,11 +10251,6 @@
     "archived": true
   },
   {
-    "id": "library-20de7ac7eada408f4d09",
-    "logicalSource": "/assets/library/worker-art/captain-erlich-20de7ac7eada408f.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/captain-erlich-20de7ac7eada408f.webp"
-  },
-  {
     "id": "library-b99765721ff8037153f2",
     "logicalSource": "/assets/library/worker-art/captain-erlich-b99765721ff80371.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/captain-erlich-b99765721ff80371.png"
@@ -10884,11 +10299,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/carrion-nightmare-7e1f11a90749b15c.webp"
   },
   {
-    "id": "library-6e6c98fcb30c03add79c",
-    "logicalSource": "/assets/library/worker-art/cassyt-6e6c98fcb30c03ad.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/cassyt-6e6c98fcb30c03ad.webp"
-  },
-  {
     "id": "library-f2e2cfc9564337305b0f",
     "logicalSource": "/assets/library/worker-art/cassyt-f2e2cfc956433730.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/cassyt-f2e2cfc956433730.png"
@@ -10926,11 +10336,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/category-3-krasis-a04a72f95a44b4c8.png"
   },
   {
-    "id": "library-27fa47e59bcafb48a367",
-    "logicalSource": "/assets/library/worker-art/caterpede-27fa47e59bcafb48.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/caterpede-27fa47e59bcafb48.webp"
-  },
-  {
     "id": "library-e2f890f83f2557ba3f7a",
     "logicalSource": "/assets/library/worker-art/caterpede-e2f890f83f2557ba.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/caterpede-e2f890f83f2557ba.png"
@@ -10956,11 +10361,6 @@
     "logicalSource": "/assets/library/worker-art/cattle-28b0271b8d5c8d8e.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/cattle-28b0271b8d5c8d8e.png",
     "archived": true
-  },
-  {
-    "id": "library-49d256d261f429fab2b5",
-    "logicalSource": "/assets/library/worker-art/cavalry-camel-49d256d261f429fa.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/cavalry-camel-49d256d261f429fa.webp"
   },
   {
     "id": "library-f6dfadaf2d970f4c8549",
@@ -11037,11 +10437,6 @@
     "id": "library-2bbd82add042b74c3658",
     "logicalSource": "/assets/library/worker-art/cervan-priest-2bbd82add042b74c.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/cervan-priest-2bbd82add042b74c.png"
-  },
-  {
-    "id": "library-d916cd377040bdce3574",
-    "logicalSource": "/assets/library/worker-art/cervan-priest-d916cd377040bdce.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/cervan-priest-d916cd377040bdce.webp"
   },
   {
     "id": "library-d20f553a818b60cc80e0",
@@ -11242,11 +10637,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/chorus-2d517f359d590f05.png"
   },
   {
-    "id": "library-e5cd7ce2bb344b454953",
-    "logicalSource": "/assets/library/worker-art/chorus-e5cd7ce2bb344b45.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/chorus-e5cd7ce2bb344b45.webp"
-  },
-  {
     "id": "library-eeaa47f583b21be00f52",
     "logicalSource": "/assets/library/worker-art/christophe-laszlo-eeaa47f583b21be0.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/christophe-laszlo-eeaa47f583b21be0.webp"
@@ -11335,11 +10725,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/clockwork-cadaver-242b49a62ccb5f81.png"
   },
   {
-    "id": "library-e9c5ad00bcd4284c5fbb",
-    "logicalSource": "/assets/library/worker-art/clockwork-cadaver-e9c5ad00bcd4284c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/clockwork-cadaver-e9c5ad00bcd4284c.webp"
-  },
-  {
     "id": "library-5696a52892d0bf121e93",
     "logicalSource": "/assets/library/worker-art/clockwork-constructor-5696a52892d0bf12.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/clockwork-constructor-5696a52892d0bf12.webp"
@@ -11348,11 +10733,6 @@
     "id": "library-01353411811642f871e0",
     "logicalSource": "/assets/library/worker-art/clockwork-controller-01353411811642f8.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/clockwork-controller-01353411811642f8.png"
-  },
-  {
-    "id": "library-2298d0b5534d7f603e21",
-    "logicalSource": "/assets/library/worker-art/clockwork-controller-2298d0b5534d7f60.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/clockwork-controller-2298d0b5534d7f60.webp"
   },
   {
     "id": "library-4066455d76a31cb17b97",
@@ -11381,19 +10761,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/clockwork-parasite-4df1623fdba396bc.png"
   },
   {
-    "id": "library-89d12445556570ca4e31",
-    "logicalSource": "/assets/library/worker-art/clockwork-parasite-89d12445556570ca.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/clockwork-parasite-89d12445556570ca.webp"
-  },
-  {
     "id": "library-094dbfca2b573059d61a",
     "logicalSource": "/assets/library/worker-art/clockwork-queen-094dbfca2b573059.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/clockwork-queen-094dbfca2b573059.png"
-  },
-  {
-    "id": "library-0cbc71f5fc35474e5ae0",
-    "logicalSource": "/assets/library/worker-art/clockwork-queen-0cbc71f5fc35474e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/clockwork-queen-0cbc71f5fc35474e.webp"
   },
   {
     "id": "library-1737b7e955ae3d828331",
@@ -11424,11 +10794,6 @@
     "id": "library-92f300827082a297b00b",
     "logicalSource": "/assets/library/worker-art/cloud-giant-of-evil-air-92f300827082a297.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/cloud-giant-of-evil-air-92f300827082a297.png"
-  },
-  {
-    "id": "library-5560bb47571e16e7f16b",
-    "logicalSource": "/assets/library/worker-art/cloud-giant-optional-actions-5560bb47571e16e7.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/cloud-giant-optional-actions-5560bb47571e16e7.webp"
   },
   {
     "id": "library-3f5b1ba5230dbafad27f",
@@ -11505,11 +10870,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/cooshee-mastiff-080a5ecf68e58e9a.png"
   },
   {
-    "id": "library-818f50e36cee1f4e5d51",
-    "logicalSource": "/assets/library/worker-art/cooshee-mastiff-818f50e36cee1f4e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/cooshee-mastiff-818f50e36cee1f4e.webp"
-  },
-  {
     "id": "library-a15846de32bb55a17052",
     "logicalSource": "/assets/library/worker-art/copper-greatwyrm-a15846de32bb55a1.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/copper-greatwyrm-a15846de32bb55a1.png"
@@ -11550,11 +10910,6 @@
     "id": "library-9779249a7dd5e8ff9025",
     "logicalSource": "/assets/library/worker-art/corvum-9779249a7dd5e8ff.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/corvum-9779249a7dd5e8ff.png"
-  },
-  {
-    "id": "library-457f3b09f0118005bd25",
-    "logicalSource": "/assets/library/worker-art/corvum-assassin-457f3b09f0118005.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/corvum-assassin-457f3b09f0118005.webp"
   },
   {
     "id": "library-b22c85abc9cae339d770",
@@ -11664,11 +11019,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/cranium-rat-squeaker-swarm-e73cdd7e2dd79ecc.png"
   },
   {
-    "id": "library-4a501a9e437dfe08ad6a",
-    "logicalSource": "/assets/library/worker-art/crannak-smolderburn-4a501a9e437dfe08.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/crannak-smolderburn-4a501a9e437dfe08.webp"
-  },
-  {
     "id": "library-86fb2a878623dcae3784",
     "logicalSource": "/assets/library/worker-art/crannak-smolderburn-86fb2a878623dcae.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/crannak-smolderburn-86fb2a878623dcae.png"
@@ -11720,11 +11070,6 @@
     "id": "library-27a777dc845ddc5a2c83",
     "logicalSource": "/assets/library/worker-art/crocodile-giant-27a777dc845ddc5a.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/crocodile-giant-27a777dc845ddc5a.png"
-  },
-  {
-    "id": "library-63d020ba7330ed4ba31a",
-    "logicalSource": "/assets/library/worker-art/crushing-wave-deceiver-63d020ba7330ed4b.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/crushing-wave-deceiver-63d020ba7330ed4b.webp"
   },
   {
     "id": "library-65855ae9979df6d7f047",
@@ -11785,11 +11130,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/cult-prison-guard-4ba738f0b01a0d1b.png"
   },
   {
-    "id": "library-7ef75e644822f2dba701",
-    "logicalSource": "/assets/library/worker-art/cult-prison-guard-7ef75e644822f2db.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/cult-prison-guard-7ef75e644822f2db.webp"
-  },
-  {
     "id": "library-2440350be953e6a06714",
     "logicalSource": "/assets/library/worker-art/cultist-fanatic-2440350be953e6a0.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/cultist-fanatic-2440350be953e6a0.webp"
@@ -11815,11 +11155,6 @@
     "id": "library-247c90ae509ea7a6ce6c",
     "logicalSource": "/assets/library/worker-art/cultist-necrograft-247c90ae509ea7a6.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/cultist-necrograft-247c90ae509ea7a6.webp"
-  },
-  {
-    "id": "library-8f7a416cee3e3db19306",
-    "logicalSource": "/assets/library/worker-art/cultist-void-8f7a416cee3e3db1.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/cultist-void-8f7a416cee3e3db1.webp"
   },
   {
     "id": "library-d2d3e9c6e4dcccda460a",
@@ -11971,19 +11306,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/death-butterfly-swarm-60133ad99a6d3335.png"
   },
   {
-    "id": "library-62de7d6ea70e60fee69a",
-    "logicalSource": "/assets/library/worker-art/death-butterfly-swarm-62de7d6ea70e60fe.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/death-butterfly-swarm-62de7d6ea70e60fe.webp"
-  },
-  {
     "id": "library-3798a894dd867f92f47f",
     "logicalSource": "/assets/library/worker-art/death-butterfly-swarm-greater-3798a894dd867f92.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/death-butterfly-swarm-greater-3798a894dd867f92.png"
-  },
-  {
-    "id": "library-6b616fe2718401221937",
-    "logicalSource": "/assets/library/worker-art/death-butterfly-swarm-greater-6b616fe271840122.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/death-butterfly-swarm-greater-6b616fe271840122.webp"
   },
   {
     "id": "library-42413821be3312b83f55",
@@ -12053,11 +11378,6 @@
     "id": "library-d60fb6e02ade7284eae5",
     "logicalSource": "/assets/library/worker-art/deathhawk-d60fb6e02ade7284.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/deathhawk-d60fb6e02ade7284.png"
-  },
-  {
-    "id": "library-fb6a3e9d5f326f9104da",
-    "logicalSource": "/assets/library/worker-art/deathhawk-fb6a3e9d5f326f91.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/deathhawk-fb6a3e9d5f326f91.webp"
   },
   {
     "id": "library-100d3f5b7a69eee83040",
@@ -12280,11 +11600,6 @@
     "logicalSource": "/assets/library/worker-art/dendus-first-pass-8189d5b7f232952d.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/dendus-first-pass-8189d5b7f232952d.png",
     "archived": true
-  },
-  {
-    "id": "library-55f1b6cd562562f744de",
-    "logicalSource": "/assets/library/worker-art/dengor-bloodheart-55f1b6cd562562f7.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dengor-bloodheart-55f1b6cd562562f7.webp"
   },
   {
     "id": "library-5cd120243c9b37eeb9e7",
@@ -12550,19 +11865,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/dire-bear-c64904fb04d44703.png"
   },
   {
-    "id": "library-1dc8f7fe384f0125bedb",
-    "logicalSource": "/assets/library/worker-art/dire-bird-of-prey-large-1dc8f7fe384f0125.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dire-bird-of-prey-large-1dc8f7fe384f0125.webp"
-  },
-  {
     "id": "library-ad428db9c14850cee2e9",
     "logicalSource": "/assets/library/worker-art/dire-bird-of-prey-large-ad428db9c14850ce.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/dire-bird-of-prey-large-ad428db9c14850ce.png"
-  },
-  {
-    "id": "library-4639c1bf5db192c08e39",
-    "logicalSource": "/assets/library/worker-art/dire-bird-of-prey-medium-4639c1bf5db192c0.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dire-bird-of-prey-medium-4639c1bf5db192c0.webp"
   },
   {
     "id": "library-95713f719e1606c5055a",
@@ -12608,11 +11913,6 @@
     "id": "library-15387f838f80b17faecf",
     "logicalSource": "/assets/library/worker-art/dire-weasel-15387f838f80b17f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/dire-weasel-15387f838f80b17f.png"
-  },
-  {
-    "id": "library-de8c064b3ba84094a786",
-    "logicalSource": "/assets/library/worker-art/dire-weasel-de8c064b3ba84094.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dire-weasel-de8c064b3ba84094.webp"
   },
   {
     "id": "library-ac48fcaad689fae1a77b",
@@ -12705,11 +12005,6 @@
     "archived": true
   },
   {
-    "id": "library-f59535e5b07e07a6c452",
-    "logicalSource": "/assets/library/worker-art/dog-f59535e5b07e07a6.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dog-f59535e5b07e07a6.webp"
-  },
-  {
     "id": "library-3e1f840ab5cb395889be",
     "logicalSource": "/assets/library/worker-art/dohwar-3e1f840ab5cb3958.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/dohwar-3e1f840ab5cb3958.png"
@@ -12735,11 +12030,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/dolphin-heraldic-servant-1f4a7073e62afc75.webp"
   },
   {
-    "id": "library-883628bd505d3af9b22c",
-    "logicalSource": "/assets/library/worker-art/dominated-commoner-883628bd505d3af9.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dominated-commoner-883628bd505d3af9.webp"
-  },
-  {
     "id": "library-acecf4b60e07087fa00c",
     "logicalSource": "/assets/library/worker-art/dominated-commoner-acecf4b60e07087f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/dominated-commoner-acecf4b60e07087f.png"
@@ -12750,19 +12040,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/dominated-lumberjack-9ef405af27395d8f.png"
   },
   {
-    "id": "library-efdf435441018b97704b",
-    "logicalSource": "/assets/library/worker-art/dominated-lumberjack-efdf435441018b97.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dominated-lumberjack-efdf435441018b97.webp"
-  },
-  {
     "id": "library-80f63988ca593eb6df97",
     "logicalSource": "/assets/library/worker-art/dominated-militia-80f63988ca593eb6.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/dominated-militia-80f63988ca593eb6.png"
-  },
-  {
-    "id": "library-f3b44f4f4783c27002b0",
-    "logicalSource": "/assets/library/worker-art/dominated-militia-f3b44f4f4783c270.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dominated-militia-f3b44f4f4783c270.webp"
   },
   {
     "id": "library-18b82def0f547251600b",
@@ -12779,11 +12059,6 @@
     "id": "library-908f45a4191f66d79a3e",
     "logicalSource": "/assets/library/worker-art/doom-guard-908f45a4191f66d7.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/doom-guard-908f45a4191f66d7.png"
-  },
-  {
-    "id": "library-e6fdcd2032b280cfb1df",
-    "logicalSource": "/assets/library/worker-art/doom-guard-e6fdcd2032b280cf.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/doom-guard-e6fdcd2032b280cf.webp"
   },
   {
     "id": "library-71705cc679ef1ab8ebc4",
@@ -13201,11 +12476,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/dragonborn-e267d656abd1b1df.png"
   },
   {
-    "id": "library-0e4ae6a6bf4a31a62a6e",
-    "logicalSource": "/assets/library/worker-art/dragonborn-mage-0e4ae6a6bf4a31a6.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dragonborn-mage-0e4ae6a6bf4a31a6.webp"
-  },
-  {
     "id": "library-33d2f131c922e05d6392",
     "logicalSource": "/assets/library/worker-art/dragonborn-mage-33d2f131c922e05d.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/dragonborn-mage-33d2f131c922e05d.png"
@@ -13234,11 +12504,6 @@
     "id": "library-a0fa522e7758b4899188",
     "logicalSource": "/assets/library/worker-art/dragonborn-radiant-dragonborn-lightcaller-a0fa522e7758b489.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/dragonborn-radiant-dragonborn-lightcaller-a0fa522e7758b489.webp"
-  },
-  {
-    "id": "library-4ba3769228ee2e4369af",
-    "logicalSource": "/assets/library/worker-art/dragonborn-thug-4ba3769228ee2e43.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dragonborn-thug-4ba3769228ee2e43.webp"
   },
   {
     "id": "library-6e65f543a530afd589f0",
@@ -13480,11 +12745,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/drow-inquisitor-summoner-77f3d058eca09308.png"
   },
   {
-    "id": "library-eeab16aeb67a5ea60582",
-    "logicalSource": "/assets/library/worker-art/drow-inquisitor-summoner-eeab16aeb67a5ea6.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/drow-inquisitor-summoner-eeab16aeb67a5ea6.webp"
-  },
-  {
     "id": "library-95f085b2ab37e34fa2f7",
     "logicalSource": "/assets/library/worker-art/drow-inquisitor-summoner-variant-95f085b2ab37e34f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/drow-inquisitor-summoner-variant-95f085b2ab37e34f.png"
@@ -13527,11 +12787,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/drow-shadowblade-710d2761ab0feb8a.png"
   },
   {
-    "id": "library-2cf809391d5bc0ebf8da",
-    "logicalSource": "/assets/library/worker-art/drow-shadowblade-summoner-2cf809391d5bc0eb.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/drow-shadowblade-summoner-2cf809391d5bc0eb.webp"
-  },
-  {
     "id": "library-7f56dfe7e4aba448e440",
     "logicalSource": "/assets/library/worker-art/drow-shadowblade-summoner-7f56dfe7e4aba448.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/drow-shadowblade-summoner-7f56dfe7e4aba448.png"
@@ -13540,11 +12795,6 @@
     "id": "library-4efc95d53236ee1bf234",
     "logicalSource": "/assets/library/worker-art/drow-shadowblade-summoner-variant-4efc95d53236ee1b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/drow-shadowblade-summoner-variant-4efc95d53236ee1b.png"
-  },
-  {
-    "id": "library-7ebb42200000c36b34d9",
-    "logicalSource": "/assets/library/worker-art/drow-veteran-7ebb42200000c36b.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/drow-veteran-7ebb42200000c36b.webp"
   },
   {
     "id": "library-bdd743b11429cb9f65e9",
@@ -13698,11 +12948,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/dust-keeper-6e79e898a7f1349c.png"
   },
   {
-    "id": "library-94b5d02a1b1a4b3c27d1",
-    "logicalSource": "/assets/library/worker-art/dust-keeper-94b5d02a1b1a4b3c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/dust-keeper-94b5d02a1b1a4b3c.webp"
-  },
-  {
     "id": "library-145db5c65f0ff35b793e",
     "logicalSource": "/assets/library/worker-art/dustcloak-145db5c65f0ff35b.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/dustcloak-145db5c65f0ff35b.webp"
@@ -13780,11 +13025,6 @@
     "id": "library-83c9f4ea9807d957e755",
     "logicalSource": "/assets/library/worker-art/earth-spark-83c9f4ea9807d957.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/earth-spark-83c9f4ea9807d957.webp"
-  },
-  {
-    "id": "library-9a43566f0a7c4bc0a296",
-    "logicalSource": "/assets/library/worker-art/earthworm-giant-9a43566f0a7c4bc0.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/earthworm-giant-9a43566f0a7c4bc0.webp"
   },
   {
     "id": "library-e4d00ae8077d8f1bfc76",
@@ -13986,19 +13226,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/elf-drow-mystic-5ca303d843e6656e.webp"
   },
   {
-    "id": "library-b982508f681460ff13cb",
-    "logicalSource": "/assets/library/worker-art/elf-druid-b982508f681460ff.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/elf-druid-b982508f681460ff.webp"
-  },
-  {
     "id": "library-e95ba3d76174219ef831",
     "logicalSource": "/assets/library/worker-art/elf-druid-e95ba3d76174219e.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/elf-druid-e95ba3d76174219e.png"
-  },
-  {
-    "id": "library-f13ed3d2a818d0968805",
-    "logicalSource": "/assets/library/worker-art/elf-scout-f13ed3d2a818d096.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/elf-scout-f13ed3d2a818d096.webp"
   },
   {
     "id": "library-c90680982609ba077716",
@@ -14067,11 +13297,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/emerald-greatwyrm-840c397226ba4564.png"
   },
   {
-    "id": "library-94cb44356633a8654ee3",
-    "logicalSource": "/assets/library/worker-art/empowered-bog-body-94cb44356633a865.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/empowered-bog-body-94cb44356633a865.webp"
-  },
-  {
     "id": "library-a9bacf130040c9e786dd",
     "logicalSource": "/assets/library/worker-art/empowered-bog-body-a9bacf130040c9e7.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/empowered-bog-body-a9bacf130040c9e7.png"
@@ -14096,11 +13321,6 @@
     "id": "library-913dc4358e7c49a9425c",
     "logicalSource": "/assets/library/worker-art/empyrean-fiend-913dc4358e7c49a9.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/empyrean-fiend-913dc4358e7c49a9.png"
-  },
-  {
-    "id": "library-85f8c84d9f35373dd2b8",
-    "logicalSource": "/assets/library/worker-art/empyrean-iota-85f8c84d9f35373d.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/empyrean-iota-85f8c84d9f35373d.webp"
   },
   {
     "id": "library-8f401dbba130ca4b0546",
@@ -14185,11 +13405,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/ermordenung-6103b39efe886fdc.webp"
   },
   {
-    "id": "library-0fc9fd18e759fa67dba5",
-    "logicalSource": "/assets/library/worker-art/esmae-amarantha-0fc9fd18e759fa67.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/esmae-amarantha-0fc9fd18e759fa67.webp"
-  },
-  {
     "id": "library-e425ede43512cb5a40f6",
     "logicalSource": "/assets/library/worker-art/esmae-amarantha-e425ede43512cb5a.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/esmae-amarantha-e425ede43512cb5a.png"
@@ -14269,11 +13484,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/ettin-ceremorph-72e6b24c57153aab.png"
   },
   {
-    "id": "library-2eaf67c9db3c34fe40a7",
-    "logicalSource": "/assets/library/worker-art/eugen-adi-2eaf67c9db3c34fe.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/eugen-adi-2eaf67c9db3c34fe.webp"
-  },
-  {
     "id": "library-91ae0dce827ee09ae48c",
     "logicalSource": "/assets/library/worker-art/eugen-adi-91ae0dce827ee09a.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/eugen-adi-91ae0dce827ee09a.png"
@@ -14289,11 +13499,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/evil-sorcerer-26d04d6895951885.png"
   },
   {
-    "id": "library-280a3d1c556fe859e5d4",
-    "logicalSource": "/assets/library/worker-art/evil-sorcerer-280a3d1c556fe859.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/evil-sorcerer-280a3d1c556fe859.webp"
-  },
-  {
     "id": "library-977c3a65ed3748269aeb",
     "logicalSource": "/assets/library/worker-art/evoker-wizard-977c3a65ed374826.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/evoker-wizard-977c3a65ed374826.png"
@@ -14302,11 +13507,6 @@
     "id": "library-11f3726d242c0ab45124",
     "logicalSource": "/assets/library/worker-art/executioner-s-hood-11f3726d242c0ab4.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/executioner-s-hood-11f3726d242c0ab4.png"
-  },
-  {
-    "id": "library-c4b0aa823a5185b23c33",
-    "logicalSource": "/assets/library/worker-art/executioners-hood-c4b0aa823a5185b2.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/executioners-hood-c4b0aa823a5185b2.webp"
   },
   {
     "id": "library-031e7d30576fa7c1dcb3",
@@ -14430,11 +13630,6 @@
     "id": "library-170f36407e389fceba83",
     "logicalSource": "/assets/library/worker-art/farvnik-the-venomous-170f36407e389fce.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/farvnik-the-venomous-170f36407e389fce.png"
-  },
-  {
-    "id": "library-6a004b1f39ad78e76d65",
-    "logicalSource": "/assets/library/worker-art/farvnik-the-venomous-6a004b1f39ad78e7.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/farvnik-the-venomous-6a004b1f39ad78e7.webp"
   },
   {
     "id": "library-dd34d0161128a7cedf2b",
@@ -14581,11 +13776,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/feymount-raccoon-e18a5828240d63ba.png"
   },
   {
-    "id": "library-eaa57bb3e58f666a3c9e",
-    "logicalSource": "/assets/library/worker-art/feymount-raccoon-eaa57bb3e58f666a.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/feymount-raccoon-eaa57bb3e58f666a.webp"
-  },
-  {
     "id": "library-f5857193a31e70c66e97",
     "logicalSource": "/assets/library/worker-art/feyr-f5857193a31e70c6.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/feyr-f5857193a31e70c6.png"
@@ -14613,11 +13803,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/fiend-cultist-1679b80de9bd3b63.png"
   },
   {
-    "id": "library-7d32ef882568062df02f",
-    "logicalSource": "/assets/library/worker-art/fiendborne-fire-giant-7d32ef882568062d.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/fiendborne-fire-giant-7d32ef882568062d.webp"
-  },
-  {
     "id": "library-eaaf8699d27eb25d0e50",
     "logicalSource": "/assets/library/worker-art/fiendborne-fire-giant-eaaf8699d27eb25d.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/fiendborne-fire-giant-eaaf8699d27eb25d.png"
@@ -14626,11 +13811,6 @@
     "id": "library-2f3daa5c18a7ce4e00ba",
     "logicalSource": "/assets/library/worker-art/fiendish-doppelganger-2f3daa5c18a7ce4e.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/fiendish-doppelganger-2f3daa5c18a7ce4e.png"
-  },
-  {
-    "id": "library-b7f9a32448aabb8bdf3e",
-    "logicalSource": "/assets/library/worker-art/fiendish-doppelganger-b7f9a32448aabb8b.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/fiendish-doppelganger-b7f9a32448aabb8b.webp"
   },
   {
     "id": "library-af9fb47596d165f944c0",
@@ -14706,11 +13886,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/fire-giant-of-evil-fire-3dfb1906155081cc.png"
   },
   {
-    "id": "library-ae29f7298c1ea7efdbbb",
-    "logicalSource": "/assets/library/worker-art/fire-giant-optional-actions-ae29f7298c1ea7ef.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/fire-giant-optional-actions-ae29f7298c1ea7ef.webp"
-  },
-  {
     "id": "library-bca556273d67382d0147",
     "logicalSource": "/assets/library/worker-art/fire-giant-trooper-bca556273d67382d.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/fire-giant-trooper-bca556273d67382d.webp"
@@ -14719,11 +13894,6 @@
     "id": "library-5147f004384edca61c03",
     "logicalSource": "/assets/library/worker-art/fire-giant-whelp-5147f004384edca6.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/fire-giant-whelp-5147f004384edca6.png"
-  },
-  {
-    "id": "library-52d05e38eb24041e526d",
-    "logicalSource": "/assets/library/worker-art/fire-giant-whelp-52d05e38eb24041e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/fire-giant-whelp-52d05e38eb24041e.webp"
   },
   {
     "id": "library-479032a8c1ae63791e50",
@@ -15008,11 +14178,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/fomorian-warlock-of-the-dark-3768c203050ae404.png"
   },
   {
-    "id": "library-0e9af203ccd34b1c097b",
-    "logicalSource": "/assets/library/worker-art/font-simulacrum-cultist-0e9af203ccd34b1c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/font-simulacrum-cultist-0e9af203ccd34b1c.webp"
-  },
-  {
     "id": "library-e89305952ac0de7a6421",
     "logicalSource": "/assets/library/worker-art/font-simulacrum-cultist-e89305952ac0de7a.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/font-simulacrum-cultist-e89305952ac0de7a.png"
@@ -15098,11 +14263,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/fraz-urbluu-45d9135b941c393c.png"
   },
   {
-    "id": "library-b65b23c335988cb16c22",
-    "logicalSource": "/assets/library/worker-art/frederick-mastiff-b65b23c335988cb1.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/frederick-mastiff-b65b23c335988cb1.webp"
-  },
-  {
     "id": "library-d9b1b31e59afb31511b2",
     "logicalSource": "/assets/library/worker-art/frederick-mastiff-d9b1b31e59afb315.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/frederick-mastiff-d9b1b31e59afb315.png"
@@ -15169,11 +14329,6 @@
     "id": "library-99d8ed46cf33c3dc05bd",
     "logicalSource": "/assets/library/worker-art/frost-giant-of-evil-water-99d8ed46cf33c3dc.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/frost-giant-of-evil-water-99d8ed46cf33c3dc.png"
-  },
-  {
-    "id": "library-b26a9f895b997def8482",
-    "logicalSource": "/assets/library/worker-art/frost-giant-optional-actions-b26a9f895b997def.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/frost-giant-optional-actions-b26a9f895b997def.webp"
   },
   {
     "id": "library-020ded6d3780f7c43c49",
@@ -15297,11 +14452,6 @@
     "id": "library-42866012f570314d362b",
     "logicalSource": "/assets/library/worker-art/gallus-druid-42866012f570314d.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/gallus-druid-42866012f570314d.png"
-  },
-  {
-    "id": "library-47a5f13183a77c23ad67",
-    "logicalSource": "/assets/library/worker-art/gallus-druid-47a5f13183a77c23.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/gallus-druid-47a5f13183a77c23.webp"
   },
   {
     "id": "library-e59d7d851d975f086f51",
@@ -15507,11 +14657,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/ghamoo-ra-0ed942551c0d0721.png"
   },
   {
-    "id": "library-63e7ce48ba210776ec96",
-    "logicalSource": "/assets/library/worker-art/ghamoo-ra-63e7ce48ba210776.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/ghamoo-ra-63e7ce48ba210776.webp"
-  },
-  {
     "id": "library-e67207d65aa9eccfb697",
     "logicalSource": "/assets/library/worker-art/ghamoo-ra-first-e67207d65aa9eccf.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/ghamoo-ra-first-e67207d65aa9eccf.png",
@@ -15532,11 +14677,6 @@
     "id": "library-a9bdc45e690964569000",
     "logicalSource": "/assets/library/worker-art/ghost-dragon-a9bdc45e69096456.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/ghost-dragon-a9bdc45e69096456.png"
-  },
-  {
-    "id": "library-fad3464d7c186214b915",
-    "logicalSource": "/assets/library/worker-art/ghost-isabella-fad3464d7c186214.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/ghost-isabella-fad3464d7c186214.webp"
   },
   {
     "id": "library-32cf988efed925d61df0",
@@ -15908,11 +15048,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/giant-poisonous-frog-38e45608a182d9d4.png"
   },
   {
-    "id": "library-39b6a0e53ac206f5cf10",
-    "logicalSource": "/assets/library/worker-art/giant-poisonous-frog-39b6a0e53ac206f5.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/giant-poisonous-frog-39b6a0e53ac206f5.webp"
-  },
-  {
     "id": "library-3323ef190e2cd1d9b0bf",
     "logicalSource": "/assets/library/worker-art/giant-poisonous-frog-first-3323ef190e2cd1d9.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/giant-poisonous-frog-first-3323ef190e2cd1d9.png",
@@ -15962,11 +15097,6 @@
     "logicalSource": "/assets/library/worker-art/giant-scorpion-fa96827358128df1.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/giant-scorpion-fa96827358128df1.png",
     "archived": true
-  },
-  {
-    "id": "library-1b0f04f2dc2318c5290e",
-    "logicalSource": "/assets/library/worker-art/giant-scorpion-insect-1b0f04f2dc2318c5.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/giant-scorpion-insect-1b0f04f2dc2318c5.webp"
   },
   {
     "id": "library-cd1c1148d620abb962e2",
@@ -16055,11 +15185,6 @@
     "logicalSource": "/assets/library/worker-art/giant-tick-38c662d7cc206a73.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/giant-tick-38c662d7cc206a73.png",
     "archived": true
-  },
-  {
-    "id": "library-1c3a1007ee74d76320bc",
-    "logicalSource": "/assets/library/worker-art/giant-two-headed-goat-1c3a1007ee74d763.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/giant-two-headed-goat-1c3a1007ee74d763.webp"
   },
   {
     "id": "library-c91e105b98290c3c33ea",
@@ -16326,11 +15451,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/glassbeetle-2eb255fc890d4b58.png"
   },
   {
-    "id": "library-52ad7e3493afbc6dd2ed",
-    "logicalSource": "/assets/library/worker-art/glassbeetle-52ad7e3493afbc6d.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/glassbeetle-52ad7e3493afbc6d.webp"
-  },
-  {
     "id": "library-67efa039c5b8473950e4",
     "logicalSource": "/assets/library/worker-art/glasswork-golem-67efa039c5b84739.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/glasswork-golem-67efa039c5b84739.png"
@@ -16376,11 +15496,6 @@
     "logicalSource": "/assets/library/worker-art/gnarlborn-68bb10731352ebf1.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/gnarlborn-68bb10731352ebf1.png",
     "archived": true
-  },
-  {
-    "id": "library-7639319b5154e86c670f",
-    "logicalSource": "/assets/library/worker-art/gnawb-7639319b5154e86c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/gnawb-7639319b5154e86c.webp"
   },
   {
     "id": "library-dd2bc592aa27128f3ffe",
@@ -16466,11 +15581,6 @@
     "id": "library-032c3197c7138ff0ff42",
     "logicalSource": "/assets/library/worker-art/gnome-vampire-032c3197c7138ff0.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/gnome-vampire-032c3197c7138ff0.png"
-  },
-  {
-    "id": "library-7395140bc1390d567eac",
-    "logicalSource": "/assets/library/worker-art/gnome-vampire-7395140bc1390d56.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/gnome-vampire-7395140bc1390d56.webp"
   },
   {
     "id": "library-d7c37c5c08d6d71c1341",
@@ -16585,11 +15695,6 @@
     "id": "library-b08954f0f9d3d4d8aa97",
     "logicalSource": "/assets/library/worker-art/goblin-underboss-b08954f0f9d3d4d8.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/goblin-underboss-b08954f0f9d3d4d8.webp"
-  },
-  {
-    "id": "library-9be2d237f05bfdce83c9",
-    "logicalSource": "/assets/library/worker-art/goblin-underboss-slime-servant-9be2d237f05bfdce.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/goblin-underboss-slime-servant-9be2d237f05bfdce.webp"
   },
   {
     "id": "library-cbed07f69f9fae2d3157",
@@ -16715,11 +15820,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/grabber-forth-cf48657df7518db1.png"
   },
   {
-    "id": "library-e24aed9bc0b855aa3c1a",
-    "logicalSource": "/assets/library/worker-art/grabber-forth-e24aed9bc0b855aa.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/grabber-forth-e24aed9bc0b855aa.webp"
-  },
-  {
     "id": "library-14f458149a9c67548728",
     "logicalSource": "/assets/library/worker-art/grabstab-14f458149a9c6754.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/grabstab-14f458149a9c6754.png"
@@ -16738,11 +15838,6 @@
     "id": "library-d638e4cbc073429e5e6b",
     "logicalSource": "/assets/library/worker-art/granite-stone-giant-d638e4cbc073429e.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/granite-stone-giant-d638e4cbc073429e.webp"
-  },
-  {
-    "id": "library-2c61074182887bcf8893",
-    "logicalSource": "/assets/library/worker-art/grasping-shadow-2c61074182887bcf.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/grasping-shadow-2c61074182887bcf.webp"
   },
   {
     "id": "library-37925af2eaadf5f71333",
@@ -16974,11 +16069,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/grimshackle-jailer-3aa94702c53249ec.png"
   },
   {
-    "id": "library-5e690e601b6ce8989a6f",
-    "logicalSource": "/assets/library/worker-art/grimshackle-jailer-5e690e601b6ce898.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/grimshackle-jailer-5e690e601b6ce898.webp"
-  },
-  {
     "id": "library-87146967f56396175045",
     "logicalSource": "/assets/library/worker-art/grinning-cat-87146967f5639617.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/grinning-cat-87146967f5639617.png"
@@ -17161,11 +16251,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/guardian-giant-3170ba2b2bc4b889.png"
   },
   {
-    "id": "library-2a91e3170a68b5261827",
-    "logicalSource": "/assets/library/worker-art/guild-mage-2a91e3170a68b526.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/guild-mage-2a91e3170a68b526.webp"
-  },
-  {
     "id": "library-5aa50c5f842b7550cf80",
     "logicalSource": "/assets/library/worker-art/guild-mage-5aa50c5f842b7550.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/guild-mage-5aa50c5f842b7550.png"
@@ -17278,19 +16363,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/half-dragon-ettin-4aa83b3cfb1aeea4.png"
   },
   {
-    "id": "library-5e2e9a851a1b9ac5a5c2",
-    "logicalSource": "/assets/library/worker-art/half-dragon-ettin-5e2e9a851a1b9ac5.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/half-dragon-ettin-5e2e9a851a1b9ac5.webp"
-  },
-  {
     "id": "library-4a8ab5996980aa24b531",
     "logicalSource": "/assets/library/worker-art/half-dragon-troll-4a8ab5996980aa24.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/half-dragon-troll-4a8ab5996980aa24.png"
-  },
-  {
-    "id": "library-7d7de4b3bd27808285f7",
-    "logicalSource": "/assets/library/worker-art/half-dragon-troll-7d7de4b3bd278082.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/half-dragon-troll-7d7de4b3bd278082.webp"
   },
   {
     "id": "library-dc17fdd176cee58f6aa4",
@@ -17302,11 +16377,6 @@
     "id": "library-4c1d382220ad1b1cdd55",
     "logicalSource": "/assets/library/worker-art/half-elf-priest-4c1d382220ad1b1c.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/half-elf-priest-4c1d382220ad1b1c.png"
-  },
-  {
-    "id": "library-875b4e11793ff9381a37",
-    "logicalSource": "/assets/library/worker-art/half-elf-priest-875b4e11793ff938.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/half-elf-priest-875b4e11793ff938.webp"
   },
   {
     "id": "library-6210261fa94dec0b336b",
@@ -17362,11 +16432,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/halfling-bandits-276f6c4229855d50.png"
   },
   {
-    "id": "library-e4a08c67bf8817398632",
-    "logicalSource": "/assets/library/worker-art/halfling-bandits-e4a08c67bf881739.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/halfling-bandits-e4a08c67bf881739.webp"
-  },
-  {
     "id": "library-9150bad10e48611d2d52",
     "logicalSource": "/assets/library/worker-art/halfling-musician-9150bad10e48611d.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/halfling-musician-9150bad10e48611d.webp",
@@ -17416,11 +16481,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/hamingja-86cb7ad6d9c48452.webp"
   },
   {
-    "id": "library-3ca447a698df16cbe6ed",
-    "logicalSource": "/assets/library/worker-art/hammberbill-goose-3ca447a698df16cb.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/hammberbill-goose-3ca447a698df16cb.webp"
-  },
-  {
     "id": "library-668ed905e82976a2b6c2",
     "logicalSource": "/assets/library/worker-art/hammberbill-goose-668ed905e82976a2.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/hammberbill-goose-668ed905e82976a2.png"
@@ -17445,11 +16505,6 @@
     "id": "library-22eedbf4cf34bf4436b7",
     "logicalSource": "/assets/library/worker-art/hands-of-havoc-fire-starter-22eedbf4cf34bf44.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/hands-of-havoc-fire-starter-22eedbf4cf34bf44.png"
-  },
-  {
-    "id": "library-30bd75aeb2b000a358b6",
-    "logicalSource": "/assets/library/worker-art/hangman-tree-30bd75aeb2b000a3.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/hangman-tree-30bd75aeb2b000a3.webp"
   },
   {
     "id": "library-9045e494ed1dd5214ea5",
@@ -17549,11 +16604,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/head-hunter-59bb52d4d5abbc74.webp"
   },
   {
-    "id": "library-a9cacd684e9147078a44",
-    "logicalSource": "/assets/library/worker-art/hearth-crab-a9cacd684e914707.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/hearth-crab-a9cacd684e914707.webp"
-  },
-  {
     "id": "library-cbf82f4e8e178e3fd298",
     "logicalSource": "/assets/library/worker-art/hearth-crab-cbf82f4e8e178e3f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/hearth-crab-cbf82f4e8e178e3f.png"
@@ -17562,11 +16612,6 @@
     "id": "library-e5d1e5d98ab173926773",
     "logicalSource": "/assets/library/worker-art/hearth-fiend-e5d1e5d98ab17392.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/hearth-fiend-e5d1e5d98ab17392.webp"
-  },
-  {
-    "id": "library-90816d99ac98b188fe2d",
-    "logicalSource": "/assets/library/worker-art/heavy-horse-90816d99ac98b188.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/heavy-horse-90816d99ac98b188.webp"
   },
   {
     "id": "library-f5358f2615b30b91f29c",
@@ -17579,11 +16624,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/heavy-warhorse-412e7a162f914bd4.png"
   },
   {
-    "id": "library-c37e705b752e5cf81703",
-    "logicalSource": "/assets/library/worker-art/heavy-warhorse-c37e705b752e5cf8.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/heavy-warhorse-c37e705b752e5cf8.webp"
-  },
-  {
     "id": "library-9d02da772013f9ad48cf",
     "logicalSource": "/assets/library/worker-art/hebi-no-onna-9d02da772013f9ad.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/hebi-no-onna-9d02da772013f9ad.webp"
@@ -17592,11 +16632,6 @@
     "id": "library-1e766217a83078123716",
     "logicalSource": "/assets/library/worker-art/hedge-1e766217a8307812.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/hedge-1e766217a8307812.png"
-  },
-  {
-    "id": "library-39d1e69f1b339bbf18ac",
-    "logicalSource": "/assets/library/worker-art/hedgehog-giant-39d1e69f1b339bbf.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/hedgehog-giant-39d1e69f1b339bbf.webp"
   },
   {
     "id": "library-6f4cd777fb9f5e042224",
@@ -17712,11 +16747,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/hill-giant-clobberer-00b9f87680519bee.webp"
   },
   {
-    "id": "library-9f58e5c45db98b11e456",
-    "logicalSource": "/assets/library/worker-art/hill-giant-optional-actions-9f58e5c45db98b11.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/hill-giant-optional-actions-9f58e5c45db98b11.webp"
-  },
-  {
     "id": "library-416af8e403b761ef2a63",
     "logicalSource": "/assets/library/worker-art/hinn-416af8e403b761ef.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/hinn-416af8e403b761ef.webp"
@@ -17746,11 +16776,6 @@
     "id": "library-0b842a81f79cdd5ea499",
     "logicalSource": "/assets/library/worker-art/hivebound-0b842a81f79cdd5e.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/hivebound-0b842a81f79cdd5e.webp"
-  },
-  {
-    "id": "library-cbc8bd4fae430a57440b",
-    "logicalSource": "/assets/library/worker-art/hledh-hellspawn-cbc8bd4fae430a57.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/hledh-hellspawn-cbc8bd4fae430a57.webp"
   },
   {
     "id": "library-fb99211fe842c7f3aab4",
@@ -17896,16 +16921,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/honey-bee-giant-6f5ba034954e18e1.png"
   },
   {
-    "id": "library-f355fefc9f3ec9dd8259",
-    "logicalSource": "/assets/library/worker-art/honey-bee-giant-f355fefc9f3ec9dd.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/honey-bee-giant-f355fefc9f3ec9dd.webp"
-  },
-  {
-    "id": "library-270b3037baa64afa7f6f",
-    "logicalSource": "/assets/library/worker-art/honey-bee-swarm-of-bees-270b3037baa64afa.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/honey-bee-swarm-of-bees-270b3037baa64afa.webp"
-  },
-  {
     "id": "library-88f57d92c22e957791c9",
     "logicalSource": "/assets/library/worker-art/honey-bee-swarm-of-bees-88f57d92c22e9577.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/honey-bee-swarm-of-bees-88f57d92c22e9577.png"
@@ -17958,11 +16973,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/horse-riding-1a07a50b2b319e46.png"
   },
   {
-    "id": "library-aa42463d8e7abcb5eee4",
-    "logicalSource": "/assets/library/worker-art/horse-war-aa42463d8e7abcb5.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/horse-war-aa42463d8e7abcb5.webp"
-  },
-  {
     "id": "library-c06d1eb973c4e6d2ff31",
     "logicalSource": "/assets/library/worker-art/horse-war-c06d1eb973c4e6d2.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/horse-war-c06d1eb973c4e6d2.png"
@@ -17976,11 +16986,6 @@
     "id": "library-c6dc5fd709673c8e6f98",
     "logicalSource": "/assets/library/worker-art/hound-archon-c6dc5fd709673c8e.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/hound-archon-c6dc5fd709673c8e.png"
-  },
-  {
-    "id": "library-59b2e12b37e24b5e6304",
-    "logicalSource": "/assets/library/worker-art/hound-hunting-59b2e12b37e24b5e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/hound-hunting-59b2e12b37e24b5e.webp"
   },
   {
     "id": "library-c4e618a2ee8205608e4e",
@@ -18038,11 +17043,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/huge-viper-snake-4998519c56e7f971.png"
   },
   {
-    "id": "library-7fd3b69635b2c05dcfb7",
-    "logicalSource": "/assets/library/worker-art/huge-viper-snake-7fd3b69635b2c05d.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/huge-viper-snake-7fd3b69635b2c05d.webp"
-  },
-  {
     "id": "library-e34bf789e7bf04f3c775",
     "logicalSource": "/assets/library/worker-art/huge-viper-snake-first-e34bf789e7bf04f3.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/huge-viper-snake-first-e34bf789e7bf04f3.png",
@@ -18073,11 +17073,6 @@
     "id": "library-2c943bc0dbac6f2ae6bd",
     "logicalSource": "/assets/library/worker-art/human-brawler-slime-servant-2c943bc0dbac6f2a.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/human-brawler-slime-servant-2c943bc0dbac6f2a.png"
-  },
-  {
-    "id": "library-f595abc260007fc43235",
-    "logicalSource": "/assets/library/worker-art/human-brawler-slime-servant-f595abc260007fc4.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/human-brawler-slime-servant-f595abc260007fc4.webp"
   },
   {
     "id": "library-5f522f744b0e31b5ff3a",
@@ -18143,11 +17138,6 @@
     "id": "library-f452521075e43b62ad25",
     "logicalSource": "/assets/library/worker-art/human-trickshot-f452521075e43b62.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/human-trickshot-f452521075e43b62.png"
-  },
-  {
-    "id": "library-a666028a340c4d5e95e0",
-    "logicalSource": "/assets/library/worker-art/human-trickshot-slime-servant-a666028a340c4d5e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/human-trickshot-slime-servant-a666028a340c4d5e.webp"
   },
   {
     "id": "library-bf976b674587a84600f5",
@@ -18271,11 +17261,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/hythonia-01b7897bb8bcabe4.png"
   },
   {
-    "id": "library-5467b9fb01e96c4415b2",
-    "logicalSource": "/assets/library/worker-art/iarno-glasstaff-albrek-5467b9fb01e96c44.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/iarno-glasstaff-albrek-5467b9fb01e96c44.webp"
-  },
-  {
     "id": "library-80d7f791f6f7c5ca59fd",
     "logicalSource": "/assets/library/worker-art/iarno-glasstaff-albrek-80d7f791f6f7c5ca.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/iarno-glasstaff-albrek-80d7f791f6f7c5ca.png"
@@ -18375,11 +17360,6 @@
     "id": "library-1883ca2bd64e75243e29",
     "logicalSource": "/assets/library/worker-art/insect-giant-centipede-1883ca2bd64e7524.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/insect-giant-centipede-1883ca2bd64e7524.png"
-  },
-  {
-    "id": "library-92ee34f106714cb73a9b",
-    "logicalSource": "/assets/library/worker-art/insect-giant-centipede-92ee34f106714cb7.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/insect-giant-centipede-92ee34f106714cb7.webp"
   },
   {
     "id": "library-fc900e496f70aaaad10f",
@@ -18531,11 +17511,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/jacqueline-renier-63b6157a8f232f8b.png"
   },
   {
-    "id": "library-cad3700ee60543e28f22",
-    "logicalSource": "/assets/library/worker-art/jacqueline-renier-cad3700ee60543e2.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/jacqueline-renier-cad3700ee60543e2.webp"
-  },
-  {
     "id": "library-04442ce364aaca68ac09",
     "logicalSource": "/assets/library/worker-art/jaebrin-04442ce364aaca68.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/jaebrin-04442ce364aaca68.png",
@@ -18648,11 +17623,6 @@
     "id": "library-ba3f1a140cc87a9bb796",
     "logicalSource": "/assets/library/worker-art/juiblex-ba3f1a140cc87a9b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/juiblex-ba3f1a140cc87a9b.png"
-  },
-  {
-    "id": "library-10e2b11641fbecdd65eb",
-    "logicalSource": "/assets/library/worker-art/juvenile-forest-prowler-10e2b11641fbecdd.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/juvenile-forest-prowler-10e2b11641fbecdd.webp"
   },
   {
     "id": "library-2ed19e15844309369a8c",
@@ -18896,11 +17866,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/kobold-adeptus-7bc5c5a748734813.webp"
   },
   {
-    "id": "library-040a94b13a83bbac3b89",
-    "logicalSource": "/assets/library/worker-art/kobold-berserker-040a94b13a83bbac.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/kobold-berserker-040a94b13a83bbac.webp"
-  },
-  {
     "id": "library-f19fed9adf96e5c88d1c",
     "logicalSource": "/assets/library/worker-art/kobold-berserker-f19fed9adf96e5c8.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/kobold-berserker-f19fed9adf96e5c8.png"
@@ -18914,11 +17879,6 @@
     "id": "library-18541f0a7ca832728f65",
     "logicalSource": "/assets/library/worker-art/kobold-cult-fanatic-18541f0a7ca83272.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/kobold-cult-fanatic-18541f0a7ca83272.png"
-  },
-  {
-    "id": "library-6ff1fd1652d2419710f5",
-    "logicalSource": "/assets/library/worker-art/kobold-cult-fanatic-6ff1fd1652d24197.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/kobold-cult-fanatic-6ff1fd1652d24197.webp"
   },
   {
     "id": "library-f6586418ac9942a21657",
@@ -19260,11 +18220,6 @@
     "archived": true
   },
   {
-    "id": "library-2d5ce5a314140b052e2f",
-    "logicalSource": "/assets/library/worker-art/large-shark-2d5ce5a314140b05.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/large-shark-2d5ce5a314140b05.webp"
-  },
-  {
     "id": "library-e4f385eaf890271ff27a",
     "logicalSource": "/assets/library/worker-art/large-shark-e4f385eaf890271f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/large-shark-e4f385eaf890271f.png"
@@ -19274,11 +18229,6 @@
     "logicalSource": "/assets/library/worker-art/large-spider-6cf5d82b05865263.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/large-spider-6cf5d82b05865263.png",
     "archived": true
-  },
-  {
-    "id": "library-a3fa12459a5c3964c8cf",
-    "logicalSource": "/assets/library/worker-art/large-viper-snake-a3fa12459a5c3964.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/large-viper-snake-a3fa12459a5c3964.webp"
   },
   {
     "id": "library-ee7bd4ac0cad7f23681d",
@@ -19309,11 +18259,6 @@
     "id": "library-bacd17df580652c43b01",
     "logicalSource": "/assets/library/worker-art/laveeda-bacd17df580652c4.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/laveeda-bacd17df580652c4.png"
-  },
-  {
-    "id": "library-e645283b8bce2d7c5f45",
-    "logicalSource": "/assets/library/worker-art/laveeda-e645283b8bce2d7c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/laveeda-e645283b8bce2d7c.webp"
   },
   {
     "id": "library-5157b923daec53b3d052",
@@ -19351,11 +18296,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/lela-vampire-spawn-a5ea90f57e89175f.png"
   },
   {
-    "id": "library-a88f4c7df55fac6ce006",
-    "logicalSource": "/assets/library/worker-art/lela-vampire-spawn-a88f4c7df55fac6c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/lela-vampire-spawn-a88f4c7df55fac6c.webp"
-  },
-  {
     "id": "library-98e1aa4b0218464212bc",
     "logicalSource": "/assets/library/worker-art/leoformic-98e1aa4b02184642.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/leoformic-98e1aa4b02184642.webp"
@@ -19390,11 +18330,6 @@
     "id": "library-713e2b6a795de85ec8ad",
     "logicalSource": "/assets/library/worker-art/leticia-713e2b6a795de85e.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/leticia-713e2b6a795de85e.png"
-  },
-  {
-    "id": "library-bfbef89657951a683580",
-    "logicalSource": "/assets/library/worker-art/leticia-bfbef89657951a68.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/leticia-bfbef89657951a68.webp"
   },
   {
     "id": "library-84747e75f18923cea4c3",
@@ -19445,11 +18380,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/lich-mcdm-c2b690e4e69b536c.webp"
   },
   {
-    "id": "library-3f3b8ac387de6dcd0e9c",
-    "logicalSource": "/assets/library/worker-art/light-horse-3f3b8ac387de6dcd.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/light-horse-3f3b8ac387de6dcd.webp"
-  },
-  {
     "id": "library-dd2479f44752091fb388",
     "logicalSource": "/assets/library/worker-art/light-horse-dd2479f44752091f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/light-horse-dd2479f44752091f.png"
@@ -19458,11 +18388,6 @@
     "id": "library-3a5b332d014b112823f1",
     "logicalSource": "/assets/library/worker-art/light-warhorse-3a5b332d014b1128.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/light-warhorse-3a5b332d014b1128.png"
-  },
-  {
-    "id": "library-bc53071502404068c3e5",
-    "logicalSource": "/assets/library/worker-art/light-warhorse-bc53071502404068.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/light-warhorse-bc53071502404068.webp"
   },
   {
     "id": "library-91c45f9782c27465901e",
@@ -19499,11 +18424,6 @@
     "id": "library-9e30fa80a7dae52bd912",
     "logicalSource": "/assets/library/worker-art/lightning-quasi-elemental-9e30fa80a7dae52b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/lightning-quasi-elemental-9e30fa80a7dae52b.png"
-  },
-  {
-    "id": "library-f27d6883322363eacc53",
-    "logicalSource": "/assets/library/worker-art/lightning-quasi-elemental-f27d6883322363ea.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/lightning-quasi-elemental-f27d6883322363ea.webp"
   },
   {
     "id": "library-07d2c84205afb740c59c",
@@ -19569,16 +18489,6 @@
     "id": "library-7423ff599554a631dc27",
     "logicalSource": "/assets/library/worker-art/little-wildcat-small-7423ff599554a631.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/little-wildcat-small-7423ff599554a631.png"
-  },
-  {
-    "id": "library-83ebfdbd8392156e8388",
-    "logicalSource": "/assets/library/worker-art/little-wildcat-small-83ebfdbd8392156e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/little-wildcat-small-83ebfdbd8392156e.webp"
-  },
-  {
-    "id": "library-00fde35dd5f9b4b30dae",
-    "logicalSource": "/assets/library/worker-art/little-wildcat-tiny-00fde35dd5f9b4b3.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/little-wildcat-tiny-00fde35dd5f9b4b3.webp"
   },
   {
     "id": "library-cd29912b6f2e848bc998",
@@ -19652,11 +18562,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/lizardfolk-bloodeye-slime-servant-53ac23f94cb55541.png"
   },
   {
-    "id": "library-ca24fb5532d203f77103",
-    "logicalSource": "/assets/library/worker-art/lizardfolk-bloodeye-slime-servant-ca24fb5532d203f7.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/lizardfolk-bloodeye-slime-servant-ca24fb5532d203f7.webp"
-  },
-  {
     "id": "library-d5c1dbb9ee472c07f33d",
     "logicalSource": "/assets/library/worker-art/lizardfolk-ruler-d5c1dbb9ee472c07.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/lizardfolk-ruler-d5c1dbb9ee472c07.webp"
@@ -19682,19 +18587,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/lonely-sorrowsworn-388a9d47e4253c01.png"
   },
   {
-    "id": "library-6db5b3f52e56b176bb4d",
-    "logicalSource": "/assets/library/worker-art/lord-6db5b3f52e56b176.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/lord-6db5b3f52e56b176.webp"
-  },
-  {
     "id": "library-5ac1ec751158d74e6dd0",
     "logicalSource": "/assets/library/worker-art/lord-syuul-5ac1ec751158d74e.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/lord-syuul-5ac1ec751158d74e.png"
-  },
-  {
-    "id": "library-671d1b833e0f0914a139",
-    "logicalSource": "/assets/library/worker-art/lord-wilfred-godefroy-671d1b833e0f0914.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/lord-wilfred-godefroy-671d1b833e0f0914.webp"
   },
   {
     "id": "library-78fe947f893c8a852857",
@@ -19723,19 +18618,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/luca-barbu-commoner-35511591d391fbf7.png"
   },
   {
-    "id": "library-bea20a3d304f836182ea",
-    "logicalSource": "/assets/library/worker-art/luca-barbu-commoner-bea20a3d304f8361.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/luca-barbu-commoner-bea20a3d304f8361.webp"
-  },
-  {
     "id": "library-33e25dbf4e60117bd5d3",
     "logicalSource": "/assets/library/worker-art/luca-the-revenant-revenant-33e25dbf4e60117b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/luca-the-revenant-revenant-33e25dbf4e60117b.png"
-  },
-  {
-    "id": "library-f54bd65bc5b846ae8b88",
-    "logicalSource": "/assets/library/worker-art/luca-the-revenant-revenant-f54bd65bc5b846ae.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/luca-the-revenant-revenant-f54bd65bc5b846ae.webp"
   },
   {
     "id": "library-a14cbfde02fae0179062",
@@ -19791,11 +18676,6 @@
     "id": "library-78460e8be56bb7be64ce",
     "logicalSource": "/assets/library/worker-art/madcap-78460e8be56bb7be.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/madcap-78460e8be56bb7be.png"
-  },
-  {
-    "id": "library-a31b7e09a0dbaf0354da",
-    "logicalSource": "/assets/library/worker-art/madcap-a31b7e09a0dbaf03.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/madcap-a31b7e09a0dbaf03.webp"
   },
   {
     "id": "library-ac05f5178419e15937c0",
@@ -20137,19 +19017,9 @@
     "archived": true
   },
   {
-    "id": "library-5cae2963c6fb2467879d",
-    "logicalSource": "/assets/library/worker-art/medium-shark-5cae2963c6fb2467.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/medium-shark-5cae2963c6fb2467.webp"
-  },
-  {
     "id": "library-6075af7cdba3cdaf211b",
     "logicalSource": "/assets/library/worker-art/medium-shark-6075af7cdba3cdaf.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/medium-shark-6075af7cdba3cdaf.png"
-  },
-  {
-    "id": "library-239fde8e0a226c927ab2",
-    "logicalSource": "/assets/library/worker-art/medium-viper-snake-239fde8e0a226c92.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/medium-viper-snake-239fde8e0a226c92.webp"
   },
   {
     "id": "library-2b6ee3dcda4af21999e3",
@@ -20192,11 +19062,6 @@
     "id": "library-d94729f4775d2c9b0bed",
     "logicalSource": "/assets/library/worker-art/megaraptor-d94729f4775d2c9b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/megaraptor-d94729f4775d2c9b.png"
-  },
-  {
-    "id": "library-145371df65b019acfa34",
-    "logicalSource": "/assets/library/worker-art/meira-faerenduil-145371df65b019ac.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/meira-faerenduil-145371df65b019ac.webp"
   },
   {
     "id": "library-5b510f2f897f33c2d4b8",
@@ -20348,19 +19213,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/midnight-cat-06f694f70c94d48a.webp"
   },
   {
-    "id": "library-1263afc2b5cdc187227b",
-    "logicalSource": "/assets/library/worker-art/militiaman-bandit-1263afc2b5cdc187.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/militiaman-bandit-1263afc2b5cdc187.webp"
-  },
-  {
     "id": "library-1e72db60b99e83c62ff9",
     "logicalSource": "/assets/library/worker-art/militiaman-bandit-1e72db60b99e83c6.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/militiaman-bandit-1e72db60b99e83c6.png"
-  },
-  {
-    "id": "library-7054151507939e88a8a1",
-    "logicalSource": "/assets/library/worker-art/millipede-giant-7054151507939e88.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/millipede-giant-7054151507939e88.webp"
   },
   {
     "id": "library-d5bd68c571b59c60a04a",
@@ -20431,11 +19286,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/mind-leech-0bbc1a9fdecbc1fc.png"
   },
   {
-    "id": "library-3ba29452584f7c52441d",
-    "logicalSource": "/assets/library/worker-art/mind-leech-3ba29452584f7c52.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/mind-leech-3ba29452584f7c52.webp"
-  },
-  {
     "id": "library-801ab10456486ecc29f6",
     "logicalSource": "/assets/library/worker-art/mind-mage-801ab10456486ecc.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/mind-mage-801ab10456486ecc.png"
@@ -20470,11 +19320,6 @@
     "id": "library-0c7034a11f9084e62b24",
     "logicalSource": "/assets/library/worker-art/miner-0c7034a11f9084e6.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/miner-0c7034a11f9084e6.png"
-  },
-  {
-    "id": "library-31582b99609349d5b328",
-    "logicalSource": "/assets/library/worker-art/miner-31582b99609349d5.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/miner-31582b99609349d5.webp"
   },
   {
     "id": "library-97e515fd3c4ec5b6dc5e",
@@ -20521,11 +19366,6 @@
     "id": "library-c2d9676722614a705d4c",
     "logicalSource": "/assets/library/worker-art/mist-hulk-c2d9676722614a70.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/mist-hulk-c2d9676722614a70.png"
-  },
-  {
-    "id": "library-3542474c7c6ab156c611",
-    "logicalSource": "/assets/library/worker-art/mist-zombie-lesser-strahd-zombie-3542474c7c6ab156.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/mist-zombie-lesser-strahd-zombie-3542474c7c6ab156.webp"
   },
   {
     "id": "library-9a11f2307a02b59729ad",
@@ -20594,11 +19434,6 @@
     "id": "library-222721c706dfa9fc8ca3",
     "logicalSource": "/assets/library/worker-art/molydeus-222721c706dfa9fc.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/molydeus-222721c706dfa9fc.png"
-  },
-  {
-    "id": "library-053074806c9a21ee94c5",
-    "logicalSource": "/assets/library/worker-art/molydeus-summoner-053074806c9a21ee.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/molydeus-summoner-053074806c9a21ee.webp"
   },
   {
     "id": "library-636be132f8652e1f616d",
@@ -20704,11 +19539,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/moose-4d93b21e6397385d.png"
   },
   {
-    "id": "library-cf8867f3684ca8abd722",
-    "logicalSource": "/assets/library/worker-art/moose-cf8867f3684ca8ab.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/moose-cf8867f3684ca8ab.webp"
-  },
-  {
     "id": "library-e7960da89b43f57b6d59",
     "logicalSource": "/assets/library/worker-art/mordovermis-e7960da89b43f57b.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/mordovermis-e7960da89b43f57b.webp"
@@ -20728,11 +19558,6 @@
     "id": "library-f3ccddfbf4ede79fa964",
     "logicalSource": "/assets/library/worker-art/morte-f3ccddfbf4ede79f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/morte-f3ccddfbf4ede79f.png"
-  },
-  {
-    "id": "library-0149ec33d1dc5a79bd14",
-    "logicalSource": "/assets/library/worker-art/mother-0149ec33d1dc5a79.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/mother-0149ec33d1dc5a79.webp"
   },
   {
     "id": "library-192b0a2de64487a2ea0c",
@@ -20866,11 +19691,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/mutated-derro-savant-76534f7ae77052c5.png"
   },
   {
-    "id": "library-afa165f6ee6ed2f7e110",
-    "logicalSource": "/assets/library/worker-art/mutated-derro-savant-afa165f6ee6ed2f7.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/mutated-derro-savant-afa165f6ee6ed2f7.webp"
-  },
-  {
     "id": "library-e802f2ebec5fbbc9103b",
     "logicalSource": "/assets/library/worker-art/mwaxanare-e802f2ebec5fbbc9.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/mwaxanare-e802f2ebec5fbbc9.png"
@@ -20908,11 +19728,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/myconid-adult-additional-spore-effects-59c4bb834708df90.png"
   },
   {
-    "id": "library-cff20c14a4641ce6b93d",
-    "logicalSource": "/assets/library/worker-art/myconid-adult-additional-spore-effects-cff20c14a4641ce6.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/myconid-adult-additional-spore-effects-cff20c14a4641ce6.webp"
-  },
-  {
     "id": "library-27ddedd87435b304c0fc",
     "logicalSource": "/assets/library/worker-art/myconid-adult-pencil-draft-27ddedd87435b304.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/myconid-adult-pencil-draft-27ddedd87435b304.png",
@@ -20928,11 +19743,6 @@
     "id": "library-8071cd076edb15d2f9f0",
     "logicalSource": "/assets/library/worker-art/myconid-sovereign-8071cd076edb15d2.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/myconid-sovereign-8071cd076edb15d2.png"
-  },
-  {
-    "id": "library-97ec8642d3d3261b8561",
-    "logicalSource": "/assets/library/worker-art/myconid-sovereign-additional-spore-effects-97ec8642d3d3261b.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/myconid-sovereign-additional-spore-effects-97ec8642d3d3261b.webp"
   },
   {
     "id": "library-b1f733e6859843e167d1",
@@ -21274,11 +20084,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/nightwing-f895af17882bd122.png"
   },
   {
-    "id": "library-fca6bae4ba4cdc596958",
-    "logicalSource": "/assets/library/worker-art/nightwing-fca6bae4ba4cdc59.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/nightwing-fca6bae4ba4cdc59.webp"
-  },
-  {
     "id": "library-ec9a1b9737fec7ef73b2",
     "logicalSource": "/assets/library/worker-art/nilbog-ec9a1b9737fec7ef.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/nilbog-ec9a1b9737fec7ef.png"
@@ -21546,11 +20351,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/oliphant-1a81238a6d3be133.png"
   },
   {
-    "id": "library-f74dc5ef2ea94d2e0082",
-    "logicalSource": "/assets/library/worker-art/oliphaunt-warbeast-f74dc5ef2ea94d2e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/oliphaunt-warbeast-f74dc5ef2ea94d2e.webp"
-  },
-  {
     "id": "library-feb9751de7f948021a7e",
     "logicalSource": "/assets/library/worker-art/oliphaunt-warbeast-feb9751de7f94802.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/oliphaunt-warbeast-feb9751de7f94802.png"
@@ -21570,11 +20370,6 @@
     "id": "library-a28f6872823ff86300ba",
     "logicalSource": "/assets/library/worker-art/omm-wa-a28f6872823ff863.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/omm-wa-a28f6872823ff863.png"
-  },
-  {
-    "id": "library-d9641ed58e6b4f771b49",
-    "logicalSource": "/assets/library/worker-art/omou-d9641ed58e6b4f77.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/omou-d9641ed58e6b4f77.webp"
   },
   {
     "id": "library-edb0f380f8d63e0af885",
@@ -21632,19 +20427,9 @@
     "archived": true
   },
   {
-    "id": "library-366eefeb75d786d44c7e",
-    "logicalSource": "/assets/library/worker-art/opossum-366eefeb75d786d4.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/opossum-366eefeb75d786d4.webp"
-  },
-  {
     "id": "library-f98e7cea73ba1574ff06",
     "logicalSource": "/assets/library/worker-art/opossum-f98e7cea73ba1574.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/opossum-f98e7cea73ba1574.png"
-  },
-  {
-    "id": "library-bd0eecddf0ada9850b0b",
-    "logicalSource": "/assets/library/worker-art/opossum-giant-bd0eecddf0ada985.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/opossum-giant-bd0eecddf0ada985.webp"
   },
   {
     "id": "library-c452ee403997782754d4",
@@ -21682,11 +20467,6 @@
     "id": "library-027b02a71d57feec8989",
     "logicalSource": "/assets/library/worker-art/orc-blitzer-027b02a71d57feec.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/orc-blitzer-027b02a71d57feec.webp"
-  },
-  {
-    "id": "library-0bf542b630e84ee0f6f6",
-    "logicalSource": "/assets/library/worker-art/orc-blood-shaman-orc-war-chief-0bf542b630e84ee0.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/orc-blood-shaman-orc-war-chief-0bf542b630e84ee0.webp"
   },
   {
     "id": "library-d7f55ca6a00613a34758",
@@ -21729,11 +20509,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/orc-nurtured-one-of-yurtrus-e055826f4b0d6b6e.png"
   },
   {
-    "id": "library-4939abb3b3716d98de07",
-    "logicalSource": "/assets/library/worker-art/orc-rampart-slime-servant-4939abb3b3716d98.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/orc-rampart-slime-servant-4939abb3b3716d98.webp"
-  },
-  {
     "id": "library-bd03944665a92bea8558",
     "logicalSource": "/assets/library/worker-art/orc-rampart-slime-servant-bd03944665a92bea.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/orc-rampart-slime-servant-bd03944665a92bea.png"
@@ -21757,11 +20532,6 @@
     "id": "library-2f909525411e38eb91d9",
     "logicalSource": "/assets/library/worker-art/orc-warlord-2f909525411e38eb.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/orc-warlord-2f909525411e38eb.webp"
-  },
-  {
-    "id": "library-c80388326a25841d25d6",
-    "logicalSource": "/assets/library/worker-art/orca-c80388326a25841d.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/orca-c80388326a25841d.webp"
   },
   {
     "id": "library-d82243fdb0fb6816e60c",
@@ -22009,11 +20779,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/phane-0687d1bb9f95506f.png"
   },
   {
-    "id": "library-b30fe5f0fa81467245b0",
-    "logicalSource": "/assets/library/worker-art/phane-b30fe5f0fa814672.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/phane-b30fe5f0fa814672.webp"
-  },
-  {
     "id": "library-90885833bd3c2d4ec7bd",
     "logicalSource": "/assets/library/worker-art/phantasmid-90885833bd3c2d4e.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/phantasmid-90885833bd3c2d4e.webp"
@@ -22098,11 +20863,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/pigeon-homing-b47f835c0bd0a112.png"
   },
   {
-    "id": "library-ba9670f5e30a284ef922",
-    "logicalSource": "/assets/library/worker-art/pigeon-homing-ba9670f5e30a284e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/pigeon-homing-ba9670f5e30a284e.webp"
-  },
-  {
     "id": "library-ab3c5fbb3463c65b9aeb",
     "logicalSource": "/assets/library/worker-art/pike-trickfoot-ab3c5fbb3463c65b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/pike-trickfoot-ab3c5fbb3463c65b.png"
@@ -22163,11 +20923,6 @@
     "id": "library-870b1d06ca4f20ab48ec",
     "logicalSource": "/assets/library/worker-art/plains-cat-870b1d06ca4f20ab.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/plains-cat-870b1d06ca4f20ab.webp"
-  },
-  {
-    "id": "library-78a70413d9c089fb05a0",
-    "logicalSource": "/assets/library/worker-art/plainscow-78a70413d9c089fb.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/plainscow-78a70413d9c089fb.webp"
   },
   {
     "id": "library-9e2f5eb70b4af565f368",
@@ -22276,11 +21031,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/poltergeist-specter-variant-a01081f811cb6ba5.png"
   },
   {
-    "id": "library-e0818c5dd8b18babdb54",
-    "logicalSource": "/assets/library/worker-art/poltergeist-specter-variant-e0818c5dd8b18bab.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/poltergeist-specter-variant-e0818c5dd8b18bab.webp"
-  },
-  {
     "id": "library-2c19f041a25d199b3dcd",
     "logicalSource": "/assets/library/worker-art/polukranos-2c19f041a25d199b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/polukranos-2c19f041a25d199b.png"
@@ -22342,11 +21092,6 @@
     "logicalSource": "/assets/library/worker-art/promethean-d90fd37bd04041ac.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/promethean-d90fd37bd04041ac.png",
     "archived": true
-  },
-  {
-    "id": "library-41958751cd965326affa",
-    "logicalSource": "/assets/library/worker-art/pseudodragon-41958751cd965326.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/pseudodragon-41958751cd965326.webp"
   },
   {
     "id": "library-5367dd3e7c92165f3304",
@@ -22435,11 +21180,6 @@
     "id": "library-231f440c03af6da5375d",
     "logicalSource": "/assets/library/worker-art/qabara-231f440c03af6da5.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/qabara-231f440c03af6da5.png"
-  },
-  {
-    "id": "library-932569f8483f1e13738c",
-    "logicalSource": "/assets/library/worker-art/qabara-932569f8483f1e13.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/qabara-932569f8483f1e13.webp"
   },
   {
     "id": "library-b33ed0aa9f0a6144270c",
@@ -22716,11 +21456,6 @@
     "archived": true
   },
   {
-    "id": "library-33bce760304be13ec6a6",
-    "logicalSource": "/assets/library/worker-art/rattus-eel-33bce760304be13e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/rattus-eel-33bce760304be13e.webp"
-  },
-  {
     "id": "library-518bd005c23a6c1b650b",
     "logicalSource": "/assets/library/worker-art/rattus-eel-518bd005c23a6c1b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/rattus-eel-518bd005c23a6c1b.png"
@@ -22729,11 +21464,6 @@
     "id": "library-36bbd492f6e3e81f9060",
     "logicalSource": "/assets/library/worker-art/rattus-eel-swarm-of-rattus-eels-36bbd492f6e3e81f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/rattus-eel-swarm-of-rattus-eels-36bbd492f6e3e81f.png"
-  },
-  {
-    "id": "library-757c67dfcda081730e0e",
-    "logicalSource": "/assets/library/worker-art/rattus-eel-swarm-of-rattus-eels-757c67dfcda08173.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/rattus-eel-swarm-of-rattus-eels-757c67dfcda08173.webp"
   },
   {
     "id": "library-cac62ff07710f58b1caf",
@@ -22765,11 +21495,6 @@
     "id": "library-40dd9e3d3f631cf1db15",
     "logicalSource": "/assets/library/worker-art/razerblast-initiate-40dd9e3d3f631cf1.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/razerblast-initiate-40dd9e3d3f631cf1.png"
-  },
-  {
-    "id": "library-42502948e7de05bbd9c6",
-    "logicalSource": "/assets/library/worker-art/razerblast-initiate-42502948e7de05bb.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/razerblast-initiate-42502948e7de05bb.webp"
   },
   {
     "id": "library-70593455aa46b44c3024",
@@ -22822,29 +21547,14 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/red-plume-cavalry-officer-0e5917b47e9d7419.png"
   },
   {
-    "id": "library-0fcfb1e368bbc561c44c",
-    "logicalSource": "/assets/library/worker-art/red-plume-cavalry-officer-0fcfb1e368bbc561.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/red-plume-cavalry-officer-0fcfb1e368bbc561.webp"
-  },
-  {
     "id": "library-2074b44e75bf54e1d58b",
     "logicalSource": "/assets/library/worker-art/red-plume-patrol-2074b44e75bf54e1.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/red-plume-patrol-2074b44e75bf54e1.png"
   },
   {
-    "id": "library-f3e6a16b9c60a31f9bbc",
-    "logicalSource": "/assets/library/worker-art/red-plume-patrol-f3e6a16b9c60a31f.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/red-plume-patrol-f3e6a16b9c60a31f.webp"
-  },
-  {
     "id": "library-42b3b4fc8f79440f5520",
     "logicalSource": "/assets/library/worker-art/red-plume-soldier-thug-42b3b4fc8f79440f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/red-plume-soldier-thug-42b3b4fc8f79440f.png"
-  },
-  {
-    "id": "library-885a1ea862245dc21386",
-    "logicalSource": "/assets/library/worker-art/red-plume-soldier-thug-885a1ea862245dc2.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/red-plume-soldier-thug-885a1ea862245dc2.webp"
   },
   {
     "id": "library-b1ecafffb5e16658379a",
@@ -22883,11 +21593,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/reflection-guardian-296212ac55b50600.png"
   },
   {
-    "id": "library-36bdb6adaec7bc7e0e7d",
-    "logicalSource": "/assets/library/worker-art/reflection-guardian-36bdb6adaec7bc7e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/reflection-guardian-36bdb6adaec7bc7e.webp"
-  },
-  {
     "id": "library-5e3f7bbb05b06df2f557",
     "logicalSource": "/assets/library/worker-art/refrum-5e3f7bbb05b06df2.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/refrum-5e3f7bbb05b06df2.png"
@@ -22896,11 +21601,6 @@
     "id": "library-420191fdad9d3a19e3a0",
     "logicalSource": "/assets/library/worker-art/regisaur-420191fdad9d3a19.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/regisaur-420191fdad9d3a19.png"
-  },
-  {
-    "id": "library-046e56be66e9cdab99b7",
-    "logicalSource": "/assets/library/worker-art/regold-veteran-046e56be66e9cdab.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/regold-veteran-046e56be66e9cdab.webp"
   },
   {
     "id": "library-c048daf23d21a9591815",
@@ -22922,11 +21622,6 @@
     "id": "library-a26bf07d12119865c211",
     "logicalSource": "/assets/library/worker-art/remnant-a26bf07d12119865.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/remnant-a26bf07d12119865.png"
-  },
-  {
-    "id": "library-fb0d88625bf3e2a32792",
-    "logicalSource": "/assets/library/worker-art/remnant-fb0d88625bf3e2a3.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/remnant-fb0d88625bf3e2a3.webp"
   },
   {
     "id": "library-ffacdb62eac8c1ff8690",
@@ -23070,11 +21765,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/robot-warden-2bbf01959dae4956.webp"
   },
   {
-    "id": "library-86967e05f8faca4967f4",
-    "logicalSource": "/assets/library/worker-art/roc-86967e05f8faca49.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/roc-86967e05f8faca49.webp"
-  },
-  {
     "id": "library-fdc9f0a6410f31a3a277",
     "logicalSource": "/assets/library/worker-art/roc-fdc9f0a6410f31a3.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/roc-fdc9f0a6410f31a3.png",
@@ -23097,20 +21787,10 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/rogue-thought-860b5891dafa0fd4.png"
   },
   {
-    "id": "library-d1780c19c428541293a1",
-    "logicalSource": "/assets/library/worker-art/rogue-thought-d1780c19c4285412.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/rogue-thought-d1780c19c4285412.webp"
-  },
-  {
     "id": "library-bf9b39efed3639b4cfff",
     "logicalSource": "/assets/library/worker-art/roper-bf9b39efed3639b4.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/roper-bf9b39efed3639b4.png",
     "archived": true
-  },
-  {
-    "id": "library-c3ca8acfab394c2916bb",
-    "logicalSource": "/assets/library/worker-art/rorreth-red-wizard-c3ca8acfab394c29.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/rorreth-red-wizard-c3ca8acfab394c29.webp"
   },
   {
     "id": "library-fdb4a70e5b46031c2e1f",
@@ -23171,11 +21851,6 @@
     "id": "library-129b771bf5a159b4c83b",
     "logicalSource": "/assets/library/worker-art/rothe-zombie-129b771bf5a159b4.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/rothe-zombie-129b771bf5a159b4.png"
-  },
-  {
-    "id": "library-1d9ba4d060cafa631898",
-    "logicalSource": "/assets/library/worker-art/rothe-zombie-1d9ba4d060cafa63.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/rothe-zombie-1d9ba4d060cafa63.webp"
   },
   {
     "id": "library-9d9a6e6b3064b02fdec1",
@@ -23273,11 +21948,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/sahuagin-many-faced-bd66749f08e357dd.png"
   },
   {
-    "id": "library-d15c5d6f5a6a0284fe06",
-    "logicalSource": "/assets/library/worker-art/sahuagin-many-faced-d15c5d6f5a6a0284.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/sahuagin-many-faced-d15c5d6f5a6a0284.webp"
-  },
-  {
     "id": "library-55260043ce755fd028a3",
     "logicalSource": "/assets/library/worker-art/sahuagin-monarch-55260043ce755fd0.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/sahuagin-monarch-55260043ce755fd0.webp"
@@ -23286,11 +21956,6 @@
     "id": "library-0171f560d2159fc4c4e9",
     "logicalSource": "/assets/library/worker-art/sahuagin-mystic-0171f560d2159fc4.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/sahuagin-mystic-0171f560d2159fc4.png"
-  },
-  {
-    "id": "library-7a93fb2f11c87809d8a0",
-    "logicalSource": "/assets/library/worker-art/sahuagin-mystic-7a93fb2f11c87809.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/sahuagin-mystic-7a93fb2f11c87809.webp"
   },
   {
     "id": "library-af93ed5f25bafe3ca198",
@@ -23368,11 +22033,6 @@
     "archived": true
   },
   {
-    "id": "library-495a8d290bb8718ef77a",
-    "logicalSource": "/assets/library/worker-art/sarcophagus-slime-495a8d290bb8718e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/sarcophagus-slime-495a8d290bb8718e.webp"
-  },
-  {
     "id": "library-e9297bb440fcaaf20780",
     "logicalSource": "/assets/library/worker-art/sarcophagus-slime-e9297bb440fcaaf2.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/sarcophagus-slime-e9297bb440fcaaf2.png"
@@ -23444,11 +22104,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/scarab-beetle-d758405ca082ba71.png"
   },
   {
-    "id": "library-dc9975e755cc635ece79",
-    "logicalSource": "/assets/library/worker-art/scarab-beetle-dc9975e755cc635e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/scarab-beetle-dc9975e755cc635e.webp"
-  },
-  {
     "id": "library-7f3929d2aefcd394db66",
     "logicalSource": "/assets/library/worker-art/scarecrow-7f3929d2aefcd394.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/scarecrow-7f3929d2aefcd394.png"
@@ -23473,11 +22128,6 @@
     "id": "library-cb18ca73bce04c3d42f4",
     "logicalSource": "/assets/library/worker-art/scavenger-cb18ca73bce04c3d.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/scavenger-cb18ca73bce04c3d.webp"
-  },
-  {
-    "id": "library-a879736a57e5e288f6de",
-    "logicalSource": "/assets/library/worker-art/scavytt-a879736a57e5e288.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/scavytt-a879736a57e5e288.webp"
   },
   {
     "id": "library-bbeee676bc70b3dc21f4",
@@ -23535,11 +22185,6 @@
     "logicalSource": "/assets/library/worker-art/scorpion-fd2161f9d3937e26.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/scorpion-fd2161f9d3937e26.png",
     "archived": true
-  },
-  {
-    "id": "library-b937f3b86b2bd76cc6bc",
-    "logicalSource": "/assets/library/worker-art/scorpion-insect-b937f3b86b2bd76c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/scorpion-insect-b937f3b86b2bd76c.webp"
   },
   {
     "id": "library-c1e761617dc9aab5b0ac",
@@ -23623,11 +22268,6 @@
     "id": "library-9cf88a56a316ba7087aa",
     "logicalSource": "/assets/library/worker-art/sea-serpent-9cf88a56a316ba70.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/sea-serpent-9cf88a56a316ba70.png"
-  },
-  {
-    "id": "library-c1756ee9747831429fc6",
-    "logicalSource": "/assets/library/worker-art/sea-serpent-c1756ee974783142.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/sea-serpent-c1756ee974783142.webp"
   },
   {
     "id": "library-49800ef9eea6ec5d9f1e",
@@ -23798,11 +22438,6 @@
     "id": "library-1524c648a6ef833f8203",
     "logicalSource": "/assets/library/worker-art/shadow-demon-1524c648a6ef833f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/shadow-demon-1524c648a6ef833f.png"
-  },
-  {
-    "id": "library-671fb39a19766a4bb6d1",
-    "logicalSource": "/assets/library/worker-art/shadow-dragon-671fb39a19766a4b.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/shadow-dragon-671fb39a19766a4b.webp"
   },
   {
     "id": "library-6b18a04a9f1f2acb9570",
@@ -24099,11 +22734,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/sibriex-8c99347dff288a91.png"
   },
   {
-    "id": "library-12a0921a0d1ad0d67800",
-    "logicalSource": "/assets/library/worker-art/sibriex-flesh-warping-12a0921a0d1ad0d6.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/sibriex-flesh-warping-12a0921a0d1ad0d6.webp"
-  },
-  {
     "id": "library-d08f6da852ba00ff0192",
     "logicalSource": "/assets/library/worker-art/sibriex-flesh-warping-d08f6da852ba00ff.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/sibriex-flesh-warping-d08f6da852ba00ff.png"
@@ -24241,11 +22871,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/skeletal-bull-b7e5ba4ea6356b56.png"
   },
   {
-    "id": "library-b9437c68b1b806650cbc",
-    "logicalSource": "/assets/library/worker-art/skeletal-bull-b9437c68b1b80665.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/skeletal-bull-b9437c68b1b80665.webp"
-  },
-  {
     "id": "library-9db41261ebde9377f072",
     "logicalSource": "/assets/library/worker-art/skeleton-key-9db41261ebde9377.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/skeleton-key-9db41261ebde9377.png"
@@ -24259,11 +22884,6 @@
     "id": "library-3b153a488c71a34f01a4",
     "logicalSource": "/assets/library/worker-art/skeleton-sharkjaw-3b153a488c71a34f.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/skeleton-sharkjaw-3b153a488c71a34f.png"
-  },
-  {
-    "id": "library-3dd0c156ded860ed0175",
-    "logicalSource": "/assets/library/worker-art/skeleton-sharkjaw-3dd0c156ded860ed.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/skeleton-sharkjaw-3dd0c156ded860ed.webp"
   },
   {
     "id": "library-76a23c4b9dc5ad66d046",
@@ -24335,11 +22955,6 @@
     "archived": true
   },
   {
-    "id": "library-29cf78752fe9013686a2",
-    "logicalSource": "/assets/library/worker-art/skunk-29cf78752fe90136.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/skunk-29cf78752fe90136.webp"
-  },
-  {
     "id": "library-f3c5d0702a1a77a3a312",
     "logicalSource": "/assets/library/worker-art/skunk-f3c5d0702a1a77a3.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/skunk-f3c5d0702a1a77a3.png"
@@ -24348,11 +22963,6 @@
     "id": "library-17de8aaffffa3ec263e4",
     "logicalSource": "/assets/library/worker-art/skunk-giant-17de8aaffffa3ec2.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/skunk-giant-17de8aaffffa3ec2.png"
-  },
-  {
-    "id": "library-21ef1f3e5f4810c00c21",
-    "logicalSource": "/assets/library/worker-art/skunk-giant-21ef1f3e5f4810c0.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/skunk-giant-21ef1f3e5f4810c0.webp"
   },
   {
     "id": "library-99739985112561601aab",
@@ -24439,11 +23049,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/small-viper-snake-49154d83aa0d1882.png"
   },
   {
-    "id": "library-c438a562df2cb95ce0df",
-    "logicalSource": "/assets/library/worker-art/small-viper-snake-c438a562df2cb95c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/small-viper-snake-c438a562df2cb95c.webp"
-  },
-  {
     "id": "library-34e723d3a17c392a5f21",
     "logicalSource": "/assets/library/worker-art/smoke-mephit-34e723d3a17c392a.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/smoke-mephit-34e723d3a17c392a.png"
@@ -24517,11 +23122,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/sneed-s-shredder-2fa5f11e5b3c9984.webp"
   },
   {
-    "id": "library-2537381bfbf8e3cd0c80",
-    "logicalSource": "/assets/library/worker-art/snowfox-2537381bfbf8e3cd.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/snowfox-2537381bfbf8e3cd.webp"
-  },
-  {
     "id": "library-5d134845562f9550fb8a",
     "logicalSource": "/assets/library/worker-art/snowfox-5d134845562f9550.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/snowfox-5d134845562f9550.png"
@@ -24530,11 +23130,6 @@
     "id": "library-80f84235832de88702bd",
     "logicalSource": "/assets/library/worker-art/snowfox-familiar-variant-80f84235832de887.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/snowfox-familiar-variant-80f84235832de887.png"
-  },
-  {
-    "id": "library-9d5e7b25067349e8541c",
-    "logicalSource": "/assets/library/worker-art/snowfox-familiar-variant-9d5e7b25067349e8.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/snowfox-familiar-variant-9d5e7b25067349e8.webp"
   },
   {
     "id": "library-bb97194ae326a8481afb",
@@ -24575,11 +23170,6 @@
     "id": "library-1a9ca39ebefc544b3efa",
     "logicalSource": "/assets/library/worker-art/spark-dog-1a9ca39ebefc544b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/spark-dog-1a9ca39ebefc544b.png"
-  },
-  {
-    "id": "library-979675d33c26fe65bf39",
-    "logicalSource": "/assets/library/worker-art/spark-dog-979675d33c26fe65.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/spark-dog-979675d33c26fe65.webp"
   },
   {
     "id": "library-4e592374c671d2f3dd04",
@@ -24649,11 +23239,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/spell-leech-2623e737569b6b18.png"
   },
   {
-    "id": "library-4b0c2bbca927f4d82a72",
-    "logicalSource": "/assets/library/worker-art/spell-leech-4b0c2bbca927f4d8.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/spell-leech-4b0c2bbca927f4d8.webp"
-  },
-  {
     "id": "library-ff8d69b228bf601b48d9",
     "logicalSource": "/assets/library/worker-art/spellscale-ff8d69b228bf601b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/spellscale-ff8d69b228bf601b.png"
@@ -24667,11 +23252,6 @@
     "id": "library-daf01367c82996c484c4",
     "logicalSource": "/assets/library/worker-art/spernik-cult-fanatic-daf01367c82996c4.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/spernik-cult-fanatic-daf01367c82996c4.png"
-  },
-  {
-    "id": "library-fc7686bd0b70a3337211",
-    "logicalSource": "/assets/library/worker-art/spernik-cult-fanatic-fc7686bd0b70a333.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/spernik-cult-fanatic-fc7686bd0b70a333.webp"
   },
   {
     "id": "library-31264b12eca67dfc3560",
@@ -24781,11 +23361,6 @@
     "id": "library-59323ecb427a5c9d55ed",
     "logicalSource": "/assets/library/worker-art/spitting-drake-59323ecb427a5c9d.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/spitting-drake-59323ecb427a5c9d.png"
-  },
-  {
-    "id": "library-5dd7be62d62cee38057b",
-    "logicalSource": "/assets/library/worker-art/spitting-drake-5dd7be62d62cee38.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/spitting-drake-5dd7be62d62cee38.webp"
   },
   {
     "id": "library-e8aabdaaa9c993a17ae4",
@@ -24974,11 +23549,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/stone-giant-of-evil-earth-be056fe775e7fbad.png"
   },
   {
-    "id": "library-1f675f8648cd2eeb372c",
-    "logicalSource": "/assets/library/worker-art/stone-giant-optional-actions-1f675f8648cd2eeb.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/stone-giant-optional-actions-1f675f8648cd2eeb.webp"
-  },
-  {
     "id": "library-943937fa706a46e1a90a",
     "logicalSource": "/assets/library/worker-art/stone-giant-rockspeaker-943937fa706a46e1.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/stone-giant-rockspeaker-943937fa706a46e1.png"
@@ -25022,11 +23592,6 @@
     "archived": true
   },
   {
-    "id": "library-122a25ee7afb9d84a9ff",
-    "logicalSource": "/assets/library/worker-art/stonemelder-edo-122a25ee7afb9d84.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/stonemelder-edo-122a25ee7afb9d84.webp"
-  },
-  {
     "id": "library-a34a2b9772e79177b796",
     "logicalSource": "/assets/library/worker-art/stonemelder-edo-a34a2b9772e79177.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/stonemelder-edo-a34a2b9772e79177.png"
@@ -25041,11 +23606,6 @@
     "id": "library-bd65a51ebeb55d192744",
     "logicalSource": "/assets/library/worker-art/storm-crab-bd65a51ebeb55d19.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/storm-crab-bd65a51ebeb55d19.png"
-  },
-  {
-    "id": "library-9cf375dea34f7f2bfd68",
-    "logicalSource": "/assets/library/worker-art/storm-giant-optional-actions-9cf375dea34f7f2b.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/storm-giant-optional-actions-9cf375dea34f7f2b.webp"
   },
   {
     "id": "library-012ad70c530afc07a6e0",
@@ -25161,11 +23721,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-campestris-9ac3ccee1082ddbd.png"
   },
   {
-    "id": "library-7f5864853249440f4f93",
-    "logicalSource": "/assets/library/worker-art/swarm-of-contaminated-insects-7f5864853249440f.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-contaminated-insects-7f5864853249440f.webp"
-  },
-  {
     "id": "library-b73073ca47c334bf3a53",
     "logicalSource": "/assets/library/worker-art/swarm-of-contaminated-insects-b73073ca47c334bf.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-contaminated-insects-b73073ca47c334bf.png"
@@ -25181,11 +23736,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-dretches-23999288f154fbf3.png"
   },
   {
-    "id": "library-cadd4320db049b7b8731",
-    "logicalSource": "/assets/library/worker-art/swarm-of-emberbats-cadd4320db049b7b.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-emberbats-cadd4320db049b7b.webp"
-  },
-  {
     "id": "library-e8f304671b6357e909c5",
     "logicalSource": "/assets/library/worker-art/swarm-of-emberbats-e8f304671b6357e9.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-emberbats-e8f304671b6357e9.png"
@@ -25194,11 +23744,6 @@
     "id": "library-2d74677d15a9f540c682",
     "logicalSource": "/assets/library/worker-art/swarm-of-gimlet-larvae-2d74677d15a9f540.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-gimlet-larvae-2d74677d15a9f540.png"
-  },
-  {
-    "id": "library-e8c746f1007c6ebd0c52",
-    "logicalSource": "/assets/library/worker-art/swarm-of-gimlet-larvae-e8c746f1007c6ebd.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-gimlet-larvae-e8c746f1007c6ebd.webp"
   },
   {
     "id": "library-ab2637d6a500a4d31948",
@@ -25221,11 +23766,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-insects-bullet-ants-7fa74a5bbfed15ba.png"
   },
   {
-    "id": "library-9f1f8da8efe67628c80e",
-    "logicalSource": "/assets/library/worker-art/swarm-of-insects-bullet-ants-9f1f8da8efe67628.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-insects-bullet-ants-9f1f8da8efe67628.webp"
-  },
-  {
     "id": "library-c8d27a997750f79e5163",
     "logicalSource": "/assets/library/worker-art/swarm-of-insects-centipedes-c8d27a997750f79e.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-insects-centipedes-c8d27a997750f79e.png"
@@ -25234,11 +23774,6 @@
     "id": "library-136d58ed0646450a5599",
     "logicalSource": "/assets/library/worker-art/swarm-of-insects-mcdm-136d58ed0646450a.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-insects-mcdm-136d58ed0646450a.png"
-  },
-  {
-    "id": "library-5ac10cbd4b7cf59c68bf",
-    "logicalSource": "/assets/library/worker-art/swarm-of-insects-mcdm-5ac10cbd4b7cf59c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/swarm-of-insects-mcdm-5ac10cbd4b7cf59c.webp"
   },
   {
     "id": "library-3e5604dc0ca63eaeb870",
@@ -25328,11 +23863,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/syndra-silvane-7c6f8d16c5cb8650.png"
   },
   {
-    "id": "library-13380357afc70fe3ed82",
-    "logicalSource": "/assets/library/worker-art/tab-moth-13380357afc70fe3.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/tab-moth-13380357afc70fe3.webp"
-  },
-  {
     "id": "library-2cdadea71f1c0de8d94b",
     "logicalSource": "/assets/library/worker-art/tab-moth-2cdadea71f1c0de8.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/tab-moth-2cdadea71f1c0de8.png"
@@ -25367,11 +23897,6 @@
     "id": "library-6b101b84d5cff0b36095",
     "logicalSource": "/assets/library/worker-art/talisolvanar-tally-fellbranch-6b101b84d5cff0b3.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/talisolvanar-tally-fellbranch-6b101b84d5cff0b3.png"
-  },
-  {
-    "id": "library-f65c477ec89c348f840b",
-    "logicalSource": "/assets/library/worker-art/talisolvanar-tally-fellbranch-f65c477ec89c348f.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/talisolvanar-tally-fellbranch-f65c477ec89c348f.webp"
   },
   {
     "id": "library-362889796c9f2b5c1535",
@@ -25460,11 +23985,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/terracotta-warrior-1e4907a3af2369d5.png"
   },
   {
-    "id": "library-96dc3cb89113c635d8dd",
-    "logicalSource": "/assets/library/worker-art/testain-96dc3cb89113c635.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/testain-96dc3cb89113c635.webp"
-  },
-  {
     "id": "library-c75d12fc288706b0b03c",
     "logicalSource": "/assets/library/worker-art/testain-c75d12fc288706b0.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/testain-c75d12fc288706b0.png"
@@ -25491,19 +24011,9 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/the-sluagh-c4589ac35d15c11c.webp"
   },
   {
-    "id": "library-0efdfaee60f19ec4d9ee",
-    "logicalSource": "/assets/library/worker-art/the-stone-dwarf-0efdfaee60f19ec4.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/the-stone-dwarf-0efdfaee60f19ec4.webp"
-  },
-  {
     "id": "library-9d620ca7bba51ae4f854",
     "logicalSource": "/assets/library/worker-art/the-stone-dwarf-9d620ca7bba51ae4.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/the-stone-dwarf-9d620ca7bba51ae4.png"
-  },
-  {
-    "id": "library-2d8eeb76e864e1b467ac",
-    "logicalSource": "/assets/library/worker-art/the-visitor-2d8eeb76e864e1b4.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/the-visitor-2d8eeb76e864e1b4.webp"
   },
   {
     "id": "library-c3f7254044b4b6e315b2",
@@ -25514,11 +24024,6 @@
     "id": "library-9cb322f2124113b0ee19",
     "logicalSource": "/assets/library/worker-art/the-wild-hunt-9cb322f2124113b0.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/the-wild-hunt-9cb322f2124113b0.webp"
-  },
-  {
-    "id": "library-bb052e05a3b421305ff9",
-    "logicalSource": "/assets/library/worker-art/theara-gravelthumb-bb052e05a3b42130.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/theara-gravelthumb-bb052e05a3b42130.webp"
   },
   {
     "id": "library-be57c13f5b390706a58b",
@@ -25581,11 +24086,6 @@
     "id": "library-3e8351a070f78e4412eb",
     "logicalSource": "/assets/library/worker-art/three-crones-3e8351a070f78e44.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/three-crones-3e8351a070f78e44.png"
-  },
-  {
-    "id": "library-a9d09c07b1cdeebf11d3",
-    "logicalSource": "/assets/library/worker-art/three-crones-a9d09c07b1cdeebf.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/three-crones-a9d09c07b1cdeebf.webp"
   },
   {
     "id": "library-2fb035559c28caa3db62",
@@ -25681,11 +24181,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/tinder-wyrm-d5c6e39495d6a400.webp"
   },
   {
-    "id": "library-aad88c0c4213f82e21ee",
-    "logicalSource": "/assets/library/worker-art/tiny-viper-snake-aad88c0c4213f82e.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/tiny-viper-snake-aad88c0c4213f82e.webp"
-  },
-  {
     "id": "library-d4138b98aab988a1a751",
     "logicalSource": "/assets/library/worker-art/tiny-viper-snake-d4138b98aab988a1.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/tiny-viper-snake-d4138b98aab988a1.png"
@@ -25720,11 +24215,6 @@
     "id": "library-bf2f6a8c553ff30be2e0",
     "logicalSource": "/assets/library/worker-art/toad-bf2f6a8c553ff30b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/toad-bf2f6a8c553ff30b.png"
-  },
-  {
-    "id": "library-f7ae83e45509de00ced6",
-    "logicalSource": "/assets/library/worker-art/toad-f7ae83e45509de00.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/toad-f7ae83e45509de00.webp"
   },
   {
     "id": "library-a36337858704fa4b8d84",
@@ -25777,11 +24267,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/tosculi-library-94a8c87ecff98cd6.png"
   },
   {
-    "id": "library-5fa41a830d05a8f97d95",
-    "logicalSource": "/assets/library/worker-art/toxic-caterpede-5fa41a830d05a8f9.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/toxic-caterpede-5fa41a830d05a8f9.webp"
-  },
-  {
     "id": "library-86dfe4bef78a63455a76",
     "logicalSource": "/assets/library/worker-art/toxic-caterpede-86dfe4bef78a6345.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/toxic-caterpede-86dfe4bef78a6345.png"
@@ -25790,11 +24275,6 @@
     "id": "library-0e521856a071a6e5332f",
     "logicalSource": "/assets/library/worker-art/toy-soldier-0e521856a071a6e5.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/toy-soldier-0e521856a071a6e5.png"
-  },
-  {
-    "id": "library-98c1ff4d2c506de75074",
-    "logicalSource": "/assets/library/worker-art/toy-soldier-98c1ff4d2c506de7.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/toy-soldier-98c1ff4d2c506de7.webp"
   },
   {
     "id": "library-1e2be2dea8c6ca7315d2",
@@ -25859,11 +24339,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/tress-lizard-2dc1f94bf17fa0d0.png"
   },
   {
-    "id": "library-d3de829e1f87646c377d",
-    "logicalSource": "/assets/library/worker-art/tress-lizard-d3de829e1f87646c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/tress-lizard-d3de829e1f87646c.webp"
-  },
-  {
     "id": "library-050c46d2564d0fedd33c",
     "logicalSource": "/assets/library/worker-art/tri-flower-frond-050c46d2564d0fed.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/tri-flower-frond-050c46d2564d0fed.png"
@@ -25884,11 +24359,6 @@
     "id": "library-28d4651d3a04637bbd28",
     "logicalSource": "/assets/library/worker-art/tridrone-28d4651d3a04637b.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/tridrone-28d4651d3a04637b.png"
-  },
-  {
-    "id": "library-2c42a947772d878ceb31",
-    "logicalSource": "/assets/library/worker-art/tristessa-2c42a947772d878c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/tristessa-2c42a947772d878c.webp"
   },
   {
     "id": "library-8228ca9ddcba73e31a0e",
@@ -26079,11 +24549,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/tuberkith-943898ed4ad495ed.png"
   },
   {
-    "id": "library-b0ccb65b4440766ca888",
-    "logicalSource": "/assets/library/worker-art/tuberkith-b0ccb65b4440766c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/tuberkith-b0ccb65b4440766c.webp"
-  },
-  {
     "id": "library-9d33fbda1d3dca12de0b",
     "logicalSource": "/assets/library/worker-art/tunnel-rumbler-9d33fbda1d3dca12.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/tunnel-rumbler-9d33fbda1d3dca12.webp"
@@ -26145,11 +24610,6 @@
     "logicalSource": "/assets/library/worker-art/uktarl-krannoc-8f1728455e23f623.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/uktarl-krannoc-8f1728455e23f623.webp",
     "archived": true
-  },
-  {
-    "id": "library-27a2c51fe33de241cb5f",
-    "logicalSource": "/assets/library/worker-art/ulburto-scout-27a2c51fe33de241.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/ulburto-scout-27a2c51fe33de241.webp"
   },
   {
     "id": "library-eaa5c57a00f88493d4a4",
@@ -26242,11 +24702,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/unflamed-8a9bf7056d6df381.webp"
   },
   {
-    "id": "library-4b92f86a4e7821523586",
-    "logicalSource": "/assets/library/worker-art/unhatched-4b92f86a4e782152.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/unhatched-4b92f86a4e782152.webp"
-  },
-  {
     "id": "library-83616ec3eee9307d119c",
     "logicalSource": "/assets/library/worker-art/unhatched-83616ec3eee9307d.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/unhatched-83616ec3eee9307d.png"
@@ -26266,11 +24721,6 @@
     "id": "library-f3f63afed3ed7b22d820",
     "logicalSource": "/assets/library/worker-art/unska-f3f63afed3ed7b22.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/unska-f3f63afed3ed7b22.webp"
-  },
-  {
-    "id": "library-40ed1c0fbe16d4ad932b",
-    "logicalSource": "/assets/library/worker-art/unspeakable-horror-customized-40ed1c0fbe16d4ad.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/unspeakable-horror-customized-40ed1c0fbe16d4ad.webp"
   },
   {
     "id": "library-afc8931782f03bb15b14",
@@ -26631,11 +25081,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/voidling-lesser-bbe2f0cdf889e372.webp"
   },
   {
-    "id": "library-1904039b1a57e38b7720",
-    "logicalSource": "/assets/library/worker-art/volothamp-volo-geddarm-1904039b1a57e38b.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/volothamp-volo-geddarm-1904039b1a57e38b.webp"
-  },
-  {
     "id": "library-dbae6b7fbe52f2a49497",
     "logicalSource": "/assets/library/worker-art/volothamp-volo-geddarm-dbae6b7fbe52f2a4.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/volothamp-volo-geddarm-dbae6b7fbe52f2a4.png"
@@ -26729,11 +25174,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/vulture-troll-ce69baa0ca817ad4.png"
   },
   {
-    "id": "library-fff871e8e53fc26ce838",
-    "logicalSource": "/assets/library/worker-art/vulture-troll-fff871e8e53fc26c.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/vulture-troll-fff871e8e53fc26c.webp"
-  },
-  {
     "id": "library-d9f34d8dcc813dcc6478",
     "logicalSource": "/assets/library/worker-art/vulturehound-d9f34d8dcc813dcc.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/vulturehound-d9f34d8dcc813dcc.png"
@@ -26790,11 +25230,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/war-chaplain-ddc9a48795ab95bc.webp"
   },
   {
-    "id": "library-7ded40bd2e7457833f9a",
-    "logicalSource": "/assets/library/worker-art/war-horse-7ded40bd2e745783.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/war-horse-7ded40bd2e745783.webp"
-  },
-  {
     "id": "library-ba8f8eea0be786b82652",
     "logicalSource": "/assets/library/worker-art/war-horse-ba8f8eea0be786b8.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/war-horse-ba8f8eea0be786b8.png"
@@ -26804,11 +25239,6 @@
     "logicalSource": "/assets/library/worker-art/war-horse-first-0404ac8b63de9393.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/war-horse-first-0404ac8b63de9393.png",
     "archived": true
-  },
-  {
-    "id": "library-acec5c7ebef435b9bc75",
-    "logicalSource": "/assets/library/worker-art/war-pig-acec5c7ebef435b9.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/war-pig-acec5c7ebef435b9.webp"
   },
   {
     "id": "library-fbdb68a5613f6f0bd397",
@@ -26894,11 +25324,6 @@
     "id": "library-11451b4717c0779388fc",
     "logicalSource": "/assets/library/worker-art/warsh-11451b4717c07793.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/warsh-11451b4717c07793.png"
-  },
-  {
-    "id": "library-12688186e975b2530f6a",
-    "logicalSource": "/assets/library/worker-art/warsh-12688186e975b253.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/warsh-12688186e975b253.webp"
   },
   {
     "id": "library-5f3de2cf201f115c9f0e",
@@ -27048,11 +25473,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/white-guard-drake-342c06f759a84d01.png"
   },
   {
-    "id": "library-920f5abe768357cc91a2",
-    "logicalSource": "/assets/library/worker-art/whitevane-920f5abe768357cc.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/whitevane-920f5abe768357cc.webp"
-  },
-  {
     "id": "library-fcf3d97b8db5ca930b3d",
     "logicalSource": "/assets/library/worker-art/whitevane-fcf3d97b8db5ca93.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/whitevane-fcf3d97b8db5ca93.png"
@@ -27079,11 +25499,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/wight-laszlo-5b97d5a876bcebc7.png"
   },
   {
-    "id": "library-d79fcfb7637b66dc353b",
-    "logicalSource": "/assets/library/worker-art/wight-laszlo-d79fcfb7637b66dc.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/wight-laszlo-d79fcfb7637b66dc.webp"
-  },
-  {
     "id": "library-e364269c35efbb144816",
     "logicalSource": "/assets/library/worker-art/wight-siphoner-e364269c35efbb14.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/wight-siphoner-e364269c35efbb14.webp"
@@ -27107,11 +25522,6 @@
     "id": "library-bed075574e7781c70d18",
     "logicalSource": "/assets/library/worker-art/wild-warrior-bed075574e7781c7.webp",
     "repositoryPath": "assets/images/content/library-release/worker-art/wild-warrior-bed075574e7781c7.webp"
-  },
-  {
-    "id": "library-de2d30e3fea0f7046542",
-    "logicalSource": "/assets/library/worker-art/wildcat-medium-de2d30e3fea0f704.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/wildcat-medium-de2d30e3fea0f704.webp"
   },
   {
     "id": "library-f5d3353558d00b6c9d18",
@@ -27174,11 +25584,6 @@
     "archived": true
   },
   {
-    "id": "library-69df1c5105289fcc14d3",
-    "logicalSource": "/assets/library/worker-art/window-drake-69df1c5105289fcc.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/window-drake-69df1c5105289fcc.webp"
-  },
-  {
     "id": "library-eb6015e28ff85f924d72",
     "logicalSource": "/assets/library/worker-art/window-drake-eb6015e28ff85f92.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/window-drake-eb6015e28ff85f92.png"
@@ -27209,11 +25614,6 @@
     "repositoryPath": "assets/images/content/library-release/worker-art/winged-kobold-urd-0a0efe43d6366d1e.png"
   },
   {
-    "id": "library-9a2c364ae894c67062ae",
-    "logicalSource": "/assets/library/worker-art/winged-kobold-urd-9a2c364ae894c670.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/winged-kobold-urd-9a2c364ae894c670.webp"
-  },
-  {
     "id": "library-207bfbbbaecb81433b81",
     "logicalSource": "/assets/library/worker-art/winged-kraul-warrior-207bfbbbaecb8143.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/winged-kraul-warrior-207bfbbbaecb8143.png"
@@ -27238,11 +25638,6 @@
     "logicalSource": "/assets/library/worker-art/winter-wolf-c86355ad1c023956.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/winter-wolf-c86355ad1c023956.png",
     "archived": true
-  },
-  {
-    "id": "library-cee1873dc5e6bafd53c3",
-    "logicalSource": "/assets/library/worker-art/winter-wolf-cee1873dc5e6bafd.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/winter-wolf-cee1873dc5e6bafd.webp"
   },
   {
     "id": "library-d0e669c56d09d5d51469",
@@ -27383,11 +25778,6 @@
     "id": "library-6fafabb8c137d4cbab00",
     "logicalSource": "/assets/library/worker-art/wooly-hippopotamus-6fafabb8c137d4cb.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/wooly-hippopotamus-6fafabb8c137d4cb.png"
-  },
-  {
-    "id": "library-a774d0b29281741d50d6",
-    "logicalSource": "/assets/library/worker-art/wooly-hippopotamus-a774d0b29281741d.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/wooly-hippopotamus-a774d0b29281741d.webp"
   },
   {
     "id": "library-8d90ab7611d0bbb6f8ce",
@@ -27531,11 +25921,6 @@
     "id": "library-a930ff07f2d63fb6f5ad",
     "logicalSource": "/assets/library/worker-art/xok-utal-a930ff07f2d63fb6.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/xok-utal-a930ff07f2d63fb6.png"
-  },
-  {
-    "id": "library-b688da3eb0e000597634",
-    "logicalSource": "/assets/library/worker-art/xok-utal-b688da3eb0e00059.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/xok-utal-b688da3eb0e00059.webp"
   },
   {
     "id": "library-1865a64e754edcda623a",
@@ -27703,11 +26088,6 @@
     "id": "library-09b7fc493b2e1f036332",
     "logicalSource": "/assets/library/worker-art/young-amethyst-dragon-09b7fc493b2e1f03.png",
     "repositoryPath": "assets/images/content/library-release/worker-art/young-amethyst-dragon-09b7fc493b2e1f03.png"
-  },
-  {
-    "id": "library-ed9b462f2c6ab9eacbef",
-    "logicalSource": "/assets/library/worker-art/young-bulette-rhinoceros-ed9b462f2c6ab9ea.webp",
-    "repositoryPath": "assets/images/content/library-release/worker-art/young-bulette-rhinoceros-ed9b462f2c6ab9ea.webp"
   },
   {
     "id": "library-7838002ef5721894c4b8",
