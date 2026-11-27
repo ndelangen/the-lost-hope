@@ -39,6 +39,7 @@ import {
 } from '#/lib/shop'
 
 import { AddFromLibrary } from './add-from-library'
+import { NewGoodsForm } from './new-goods-form'
 import { StockList } from './stock-list'
 
 /** The SRD 5.1 copy of an item that SRD 5.2.1 also prints, which a shop should not offer twice. */
@@ -103,7 +104,11 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
   const [locked, setLocked] = useState<ReadonlySet<string>>(new Set())
   const [library, setLibrary] = useState<Library>()
   const [seed, setSeed] = useState(() => Date.now())
+  const [makingUp, setMakingUp] = useState<string>()
 
+  // Made-up goods regenerate the names, and their hot update brings a fresh loader with them, so
+  // the library loads again when the names object changes.
+  const libraryVersion = equipmentNames
   useEffect(() => {
     if (!dmMode) return
     let live = true
@@ -111,7 +116,7 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
     return () => {
       live = false
     }
-  }, [dmMode])
+  }, [dmMode, libraryVersion])
 
   // A save is done once the hot update brings the saved stock back from the file.
   useEffect(() => {
@@ -353,6 +358,7 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
                   item.ref === 'magicItem' ? { item, quantity: 1 } : { item },
                 ])
               }
+              onMakeUp={setMakingUp}
             />
           </div>
           {shop && !draft ? (
@@ -375,6 +381,18 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
                 Remove shop
               </Button>
             )
+          ) : null}
+          {makingUp !== undefined ? (
+            <div className="basis-full">
+              <NewGoodsForm
+                initialName={makingUp}
+                onCancel={() => setMakingUp(undefined)}
+                onCreated={(key) => {
+                  setMakingUp(undefined)
+                  setStock([...shown.stock, { item: { ref: 'equipment', key } }])
+                }}
+              />
+            </div>
           ) : null}
         </footer>
       ) : null}

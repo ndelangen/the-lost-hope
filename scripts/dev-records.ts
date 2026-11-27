@@ -15,10 +15,12 @@ import type { Plugin, ViteDevServer } from 'vite'
 
 import { generateRefs } from './generate-refs.ts'
 import {
+  addLibraryEntry,
   addToIndex,
   applyRecordEdits,
   Conflict,
   definitionModule,
+  libraryKey,
   NotEditable,
   readRecord,
   recordIdentity,
@@ -122,7 +124,13 @@ function oxfmt(file: string) {
   })
 }
 
-type EditRequest = { kind?: unknown; key?: unknown; edits?: unknown; create?: unknown }
+type EditRequest = {
+  kind?: unknown
+  key?: unknown
+  edits?: unknown
+  create?: unknown
+  library?: unknown
+}
 
 const isEdit = (edit: unknown): edit is RecordEdit => {
   if (!edit || typeof edit !== 'object') return false
@@ -151,7 +159,11 @@ async function handle(server: ViteDevServer, request: IncomingMessage, response:
   if (request.method !== 'POST') return send(response, 405, { error: 'POST edits here' })
   if (!allowed(request)) return send(response, 403, { error: 'Not allowed from this page' })
   try {
-    const { kind, key, edits, create: input } = (await readJson(request)) as EditRequest
+    const { kind, key, edits, create: input, library } = (await readJson(request)) as EditRequest
+    if (library !== undefined) {
+      const result = await createLibraryEntry(server, library, input)
+      return send(response, result.status, result.body)
+    }
     if (typeof kind === 'string' && input !== undefined) {
       const result = await createRecord(server, kind, input)
       return send(response, result.status, result.body)
@@ -285,5 +297,86 @@ async function createRecord(server: ViteDevServer, kind: string, input: unknown)
       throw error
     }
     return { status: 201, body: identity }
+  })
+}
+
+/** The library kinds the page may add homebrew to, and where the campaign's own entries live. */
+const HOMEBREW = {
+  equipment: {
+    file: 'src/data/library/equipment/the-lost-hope.ts',
+    helper: 'createEquipment',
+    names: { module: '/src/data/generated/equipment-names.ts', exported: 'equipmentNames' },
+  },
+} as const
+
+const issueMessage = (error: unknown) => {
+  const issues = (error as { issues?: { path: PropertyKey[]; message: string }[] }).issues
+  return issues
+    ? issues.map((issue) => `${issue.path.join('.')}: ${issue.message}`).join('; ')
+    : (error as Error).message
+}
+
+/**
+ * Adds a made-up entry to the campaign's own library publication (`the_lost_hope`): validates it
+ * with the library schema, refuses a name the library already has, writes it into the
+ * publication's file in key order and regenerates the library refs.
+ */
+async function createLibraryEntry(
+  server: ViteDevServer,
+  library: unknown,
+  input: unknown,
+): Promise<Outcome> {
+  const target =
+    typeof library === 'string' ? HOMEBREW[library as keyof typeof HOMEBREW] : undefined
+  if (!target) return { status: 404, body: { error: `Cannot add ${String(library)} here` } }
+  if (!input || typeof input !== 'object' || Array.isArray(input))
+    return { status: 422, body: { error: 'Send the new entry' } }
+  const entry: Record<string, unknown> = {
+    ...(input as Record<string, unknown>),
+    publication: { ref: 'publication', key: 'the_lost_hope' },
+  }
+  const definitions = (await server.ssrLoadModule('/src/definitions/library.ts')) as Record<
+    string,
+    (input: unknown) => Record<string, unknown>
+  >
+  let key: string
+  try {
+    key = libraryKey(String(entry.name ?? ''))
+    definitions[target.helper]!({ [key]: entry })
+  } catch (error) {
+    return { status: 422, body: { error: issueMessage(error) } }
+  }
+
+  return exclusive(async () => {
+    const names = (await server.ssrLoadModule(target.names.module)) as Record<
+      string,
+      Record<string, string>
+    >
+    const existing = names[target.names.exported]!
+    const name = String(entry.name).trim().toLowerCase()
+    const sameName = Object.entries(existing).find(([, other]) => other.toLowerCase() === name)
+    if (Object.hasOwn(existing, key) || sameName)
+      return {
+        status: 409,
+        body: {
+          error: `The library already has ${sameName?.[1] ?? key}`,
+          key: sameName?.[0] ?? key,
+        },
+      }
+    const file = path.join(ROOT, target.file)
+    const source = await readFile(file, 'utf8')
+    const next = addLibraryEntry(source, key, entry)
+    const temporary = file.replace(/\.ts$/u, `.${process.pid}.tmp.ts`)
+    await writeFile(temporary, next)
+    await oxfmt(temporary)
+    await rename(temporary, file)
+    try {
+      await generateRefs()
+    } catch (error) {
+      await writeFile(file, source)
+      await generateRefs()
+      throw error
+    }
+    return { status: 201, body: { ref: library, key } }
   })
 }

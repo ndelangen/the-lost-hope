@@ -1,10 +1,12 @@
 import { describe, expect, it } from 'vitest'
 
 import {
+  addLibraryEntry,
   addToIndex,
   applyRecordEdits,
   Conflict,
   definitionModule,
+  libraryKey,
   NotEditable,
   readRecord,
   recordModule,
@@ -145,5 +147,52 @@ describe('unused ref imports', () => {
     ])
     expect(removed).not.toContain('library-refs')
     expect(removed).toContain("import { refs } from '#/data/generated/refs.ts'")
+  })
+})
+
+const BOOK = `import { refs } from '#/data/generated/library-refs.ts'
+import { createEquipment } from '#/definitions/library.ts'
+
+export default createEquipment({
+  amber_piece: { name: 'Amber piece', publication: refs.publications.the_lost_hope },
+  zinc_dust: { name: 'Zinc dust', publication: refs.publications.the_lost_hope },
+})
+`
+
+describe('libraryKey', () => {
+  it('makes keys the way the books do', () => {
+    expect(libraryKey('Alchemist’s Fire')).toBe('alchemists_fire')
+    expect(libraryKey('Zinc dust (1 oz)')).toBe('zinc_dust_1_oz')
+    expect(libraryKey('  Crème brûlée  ')).toBe('creme_brulee')
+  })
+
+  it('refuses names without a leading letter', () => {
+    expect(() => libraryKey('!!!')).toThrow(NotEditable)
+    expect(() => libraryKey('10-foot pole')).toThrow(NotEditable)
+  })
+})
+
+describe('addLibraryEntry', () => {
+  const entry = {
+    name: 'Moss rope',
+    publication: { ref: 'publication', key: 'the_lost_hope' },
+  }
+
+  it('inserts the entry in key order with refs from the file’s own import', () => {
+    const next = addLibraryEntry(BOOK, 'moss_rope', entry)
+    expect(next).toContain(
+      `amber_piece: { name: 'Amber piece', publication: refs.publications.the_lost_hope },
+  moss_rope: { name: 'Moss rope', publication: refs.publications.the_lost_hope },
+  zinc_dust:`,
+    )
+  })
+
+  it('appends after the last key', () => {
+    const next = addLibraryEntry(BOOK, 'zzz', { ...entry, name: 'Zzz' })
+    expect(readRecord(next).zzz).toEqual({ ...entry, name: 'Zzz' })
+  })
+
+  it('refuses a key the publication already has', () => {
+    expect(() => addLibraryEntry(BOOK, 'zinc_dust', entry)).toThrow(Conflict)
   })
 })

@@ -1,4 +1,4 @@
-import { Package, Plus, Sparkles } from 'lucide-react'
+import { Package, PackagePlus, Plus, Sparkles } from 'lucide-react'
 import { useState } from 'react'
 
 import { SearchInput } from '#/components/ui/search-input'
@@ -18,9 +18,12 @@ export type StockMatch = { item: StockItem; view: StockLineView }
 export function AddFromLibrary({
   search,
   onAdd,
+  onMakeUp,
 }: {
   search: (query: string) => { matches: StockMatch[]; more: number }
   onAdd: (item: StockItem) => void
+  /** Starts making up new goods under this name, when the library lacks them. */
+  onMakeUp?: (name: string) => void
 }) {
   const [query, setQuery] = useState('')
   const [active, setActive] = useState(0)
@@ -115,6 +118,24 @@ export function AddFromLibrary({
             <p className="text-muted-foreground border-border border-t px-3 py-2 text-xs">
               {more} more. Keep typing to narrow it down.
             </p>
+          ) : null}
+          {onMakeUp ? (
+            <button
+              type="button"
+              tabIndex={-1}
+              className="hover:bg-accent border-border flex w-full cursor-pointer items-center gap-3 border-t px-3.5 py-2.5 text-left text-sm"
+              onPointerDown={(event) => event.preventDefault()}
+              onClick={() => {
+                onMakeUp(query.trim())
+                setQuery('')
+                setActive(0)
+              }}
+            >
+              <PackagePlus className="text-muted-foreground size-4 shrink-0" aria-hidden />
+              <span>
+                Make up <span className="font-medium">“{query.trim()}”</span> as new goods…
+              </span>
+            </button>
           ) : null}
         </div>
       ) : null}

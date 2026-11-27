@@ -426,3 +426,42 @@ export function addToIndex(index: string, { slug, key }: { slug: string; key: st
   if (close === -1) throw new NotEditable('Could not find the end of the registry')
   return `${withImport.slice(0, close)}\n  ${key},${withImport.slice(close)}`
 }
+
+/** A library entry's key from its name, as the books' keys are made: `Alchemist’s Fire` → `alchemists_fire`. */
+export function libraryKey(name: string): string {
+  const key = name
+    .normalize('NFKD')
+    .replace(/[̀-ͯ]/gu, '')
+    .toLowerCase()
+    .replace(/['’]/gu, '')
+    .replace(/[^a-z0-9]+/gu, '_')
+    .replace(/^_+|_+$/gu, '')
+  if (!key) throw new NotEditable('Give it a name with letters or numbers in it')
+  if (!/^[a-z]/u.test(key)) throw new NotEditable('Start the name with a letter')
+  return key
+}
+
+/**
+ * Adds one entry to a publication's library module (`export default createX({ key: { … } })`),
+ * in key order, so the books stay sorted.
+ */
+export function addLibraryEntry(source: string, key: string, entry: Record<string, unknown>) {
+  const file = parse(source)
+  const imports = refImports(file)
+  const names: Required<RefImports> = {
+    campaign: imports.campaign ?? 'campaignRefs',
+    library: imports.library ?? 'libraryRefs',
+  }
+  const object = recordObject(file)
+  if (findProperty(object, key)) throw new Conflict(`${key} is already in this publication`)
+  const used = new Set<keyof RefImports>()
+  const text = `${key}: ${print(entry, names, used)}`
+  const after = object.properties.find((property) => (propertyName(property) ?? '') > key)
+  const last = object.properties.at(-1)
+  const next = after
+    ? splice(source, after.getStart(file), after.getStart(file), `${text},\n  `)
+    : last
+      ? splice(source, last.end, last.end, `,\n  ${text}`)
+      : splice(source, object.getStart(file) + 1, object.getStart(file) + 1, ` ${text} `)
+  return withImports(next, used, names)
+}
