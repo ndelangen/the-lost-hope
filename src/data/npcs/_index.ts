@@ -66,6 +66,7 @@ import rustmoor_scavenger from './rustmoor-scavenger.ts'
 import ryan from './ryan.ts'
 import samantha from './samantha.ts'
 import sarogarth from './sarogarth.ts'
+import scrap_thief from './scrap-thief.ts'
 import selene_tempest from './selene-tempest.ts'
 import sergeant_bruna_kell from './sergeant-bruna-kell.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
@@ -185,4 +186,5 @@ export default {
   caves_of_steel_fisher,
   pell,
   old_murl,
+  scrap_thief,
 }

@@ -3,9 +3,12 @@ import chimera from './chimera.ts'
 import displacer_beast from './displacer-beast.ts'
 import dragon_children from './dragon-children.ts'
 import ent_guardians from './ent-guardians.ts'
+import giant_rat from './giant-rat.ts'
 import giant_spider from './giant-spider.ts'
 import mimic_chest from './mimic-chest.ts'
+import otyugh from './otyugh.ts'
 import phoenix_chick from './phoenix-chick.ts'
+import rust_monster from './rust-monster.ts'
 import serpent_eclipse_lake_serpent from './serpent-eclipse-lake-serpent.ts'
 import shambling_mound from './shambling-mound.ts'
 import shrieker_fungus from './shrieker-fungus.ts'
@@ -38,4 +41,7 @@ export default {
   thornwall_gate_tree,
   violet_fungus,
   wolfie,
+  rust_monster,
+  otyugh,
+  giant_rat,
 }

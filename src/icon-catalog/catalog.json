@@ -81573,6 +81573,7 @@
         "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
         "src/data/scenes/garran-comes-for-the-cruiser.ts",
+        "src/data/scenes/onana-sends-the-party-on.ts",
         "src/data/scenes/running-from-the-battle-cruiser.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -99756,6 +99757,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/breaking-chain.html",
       "usedIn": [
+        "src/data/beasts/rust-monster.ts",
         "src/data/beasts/thorn-creeper.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/silas-wren.ts",
@@ -104588,6 +104590,7 @@
         "src/data/scenes/boarding-ride-the-lightning.ts",
         "src/data/scenes/fix-s-last-delivery.ts",
         "src/data/scenes/questions-for-light.ts",
+        "src/data/scenes/the-bard-s-new-song.ts",
         "src/lib/outcome-icons.tsx"
       ]
     },
@@ -117311,7 +117314,6 @@
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
         "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
-        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/hex-loses-patience.ts",
         "src/data/scenes/onana-sends-the-party-on.ts",
@@ -117320,6 +117322,7 @@
         "src/data/scenes/the-bard-s-new-song.ts",
         "src/data/scenes/the-clogged-ferry-landing.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
+        "src/data/scenes/thieves-on-the-building-site.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/dm-campaign.test.ts",
         "src/lib/outcome-icons.tsx",
@@ -120369,12 +120372,12 @@
       "usedIn": [
         "src/data/organizations/adventurers-guild.ts",
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
-        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/fix-s-last-delivery.ts",
         "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/garran-comes-for-the-cruiser.ts",
         "src/data/scenes/onana-calls-the-party-to-war.ts",
         "src/data/scenes/running-from-the-battle-cruiser.ts",
+        "src/data/scenes/the-clogged-mill.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/data/scenes/the-hand-comes-for-jim.ts",
         "src/data/sessions/heroes-and-rivals.ts",
@@ -137664,8 +137667,11 @@
       "sourceUrl": "https://game-icons.net/1x1/skoll/fangs.html",
       "usedIn": [
         "src/data/beasts/chimera.ts",
+        "src/data/beasts/giant-rat.ts",
         "src/data/beasts/giant-spider.ts",
         "src/data/beasts/mimic-chest.ts",
+        "src/data/beasts/otyugh.ts",
+        "src/data/beasts/rust-monster.ts",
         "src/data/beasts/sir-fabulous-divine-steed.ts",
         "src/data/beasts/sir-fabulous.ts",
         "src/data/beasts/the-mossback.ts",
@@ -141636,7 +141642,6 @@
         "src/data/library/monsters/waterdeep-dungeon-of-the-mad-mage.ts",
         "src/data/library/monsters/where-evil-lives.ts",
         "src/data/library/monsters/world-of-warcraft-icecrown-citadel.ts",
-        "src/data/npcs/buried-war-machine.ts",
         "src/data/npcs/cloaked-snatcher.ts",
         "src/data/npcs/gruumsh-high-priest.ts",
         "src/data/npcs/hand-breaker.ts",
@@ -148624,7 +148629,6 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/gear-hammer.html",
       "usedIn": [
         "src/data/locations/giggles-and-gadgets.ts",
-        "src/data/npcs/buried-war-machine.ts",
         "src/data/npcs/mr-bumblefoot.ts",
         "src/data/npcs/rudolf-tempest.ts",
         "src/lib/ability-icons.tsx",
@@ -154238,8 +154242,8 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/hand.html",
       "usedIn": [
         "src/data/organizations/the-eyeless-hand.ts",
-        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/onana-sends-the-party-on.ts",
+        "src/data/scenes/salvage-escort.ts",
         "src/data/scenes/the-bard-s-new-song.ts",
         "src/lib/organization-icons.tsx",
         "src/lib/outcome-icons.tsx"
@@ -157262,7 +157266,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/heat-haze.html",
       "usedIn": [
-        "src/data/npcs/buried-war-machine.ts",
+        "src/data/beasts/rust-monster.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
@@ -161048,7 +161052,6 @@
         "src/data/pcs/jim.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
-        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/lib/ability-icons.tsx",
@@ -186155,6 +186158,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/night-sleep.html",
       "usedIn": [
         "src/data/scenes/fix-s-last-delivery.ts",
+        "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -186719,6 +186723,8 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/nose-side.html",
       "usedIn": [
+        "src/data/beasts/giant-rat.ts",
+        "src/data/beasts/rust-monster.ts",
         "src/data/beasts/wolfie.ts",
         "src/data/library/monsters/baldur-s-gate-descent-into-avernus.ts",
         "src/data/library/monsters/candlekeep-mysteries.ts",
@@ -192284,10 +192290,13 @@
         "src/data/events/n2-e027.ts",
         "src/data/events/n2-e120.ts",
         "src/data/events/n2-e218.ts",
+        "src/data/scenes/bob-returns-cassian-s-ring.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
         "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/hex-loses-patience.ts",
         "src/data/scenes/onana-sends-the-party-on.ts",
+        "src/data/scenes/the-bard-s-new-song.ts",
+        "src/data/scenes/the-rustmoor-job-board.ts",
         "src/lib/event-icons.tsx",
         "src/lib/outcome-icons.tsx"
       ]
@@ -198056,8 +198065,8 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/pointing.html",
       "usedIn": [
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
-        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/onana-sends-the-party-on.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
@@ -200063,6 +200072,7 @@
         "src/data/beasts/chimera.ts",
         "src/data/beasts/displacer-beast.ts",
         "src/data/beasts/dragon-children.ts",
+        "src/data/beasts/otyugh.ts",
         "src/data/beasts/serpent-eclipse-lake-serpent.ts",
         "src/data/beasts/shambling-mound.ts",
         "src/data/beasts/the-mossback.ts",
@@ -200137,7 +200147,6 @@
         "src/data/npcs/bob-the-gate-troll.ts",
         "src/data/npcs/bob-the-merchant.ts",
         "src/data/npcs/borris.ts",
-        "src/data/npcs/buried-war-machine.ts",
         "src/data/npcs/captain-garran.ts",
         "src/data/npcs/dragon-of-the-mountain.ts",
         "src/data/npcs/durgan-ashfang.ts",
@@ -201959,7 +201968,6 @@
         "src/data/locations/puzzle-room.ts",
         "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/bob-returns-cassian-s-ring.ts",
-        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/the-bard-s-new-song.ts",
@@ -208365,7 +208373,6 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/run.html",
       "usedIn": [
-        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/garran-comes-for-the-cruiser.ts",
         "src/lib/outcome-icons.tsx"
@@ -213358,6 +213365,8 @@
       "usedIn": [
         "src/data/scenes/onana-calls-the-party-to-war.ts",
         "src/data/scenes/picking-up-swift-at-nimbus.ts",
+        "src/data/scenes/the-bard-s-new-song.ts",
+        "src/data/scenes/the-clogged-mill.ts",
         "src/lib/outcome-icons.tsx"
       ]
     },
@@ -215391,6 +215400,7 @@
         "src/data/locations/skynet-airship-shipyard.ts",
         "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
+        "src/data/scenes/the-bard-s-new-song.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/data/sessions/the-tempest-bargain.ts",
         "src/lib/event-icons.tsx",
@@ -227079,6 +227089,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/standing-potion.html",
       "usedIn": [
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/onana-calls-the-party-to-war.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -229263,6 +229274,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/stomp.html",
       "usedIn": [
+        "src/data/beasts/otyugh.ts",
         "src/data/beasts/the-mossback.ts",
         "src/data/library/monsters/arcana-unleashed.ts",
         "src/data/library/monsters/bigby-presents-glory-of-the-giants.ts",
@@ -234416,9 +234428,12 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/take-my-money.html",
       "usedIn": [
-        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/onana-sends-the-party-on.ts",
+        "src/data/scenes/rats-in-the-hold.ts",
+        "src/data/scenes/salvage-escort.ts",
+        "src/data/scenes/the-clogged-mill.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
+        "src/data/scenes/thieves-on-the-building-site.ts",
         "src/lib/outcome-icons.tsx"
       ]
     },
@@ -236024,6 +236039,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/telepathy.html",
       "usedIn": [
+        "src/data/beasts/otyugh.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/the-11th-marshal.ts",
         "src/data/pcs/cassian-veyl.ts",
@@ -236934,6 +236950,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/tentacle-strike.html",
       "usedIn": [
         "src/data/beasts/displacer-beast.ts",
+        "src/data/beasts/otyugh.ts",
         "src/data/library/monsters/acquisitions-incorporated.ts",
         "src/data/library/monsters/adventures-in-the-forgotten-realms-deepest-night.ts",
         "src/data/library/monsters/bigby-presents-glory-of-the-giants.ts",
@@ -249226,6 +249243,7 @@
       "usedIn": [
         "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
+        "src/data/scenes/bob-returns-cassian-s-ring.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/fix-s-last-delivery.ts",
         "src/data/scenes/the-green-beam-over-the-sky-islands.ts",
@@ -301962,6 +301980,7 @@
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
         "src/components/dm/shop/add-from-library.tsx",
+        "src/components/dm/shop/stock-list.tsx",
         "src/lib/entity-kind-visuals.ts"
       ]
     },
@@ -306648,9 +306667,7 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/refresh-cw",
-      "usedIn": [
-        "src/components/dev-reload-notice.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/RefreshCwOff",
@@ -312399,6 +312416,7 @@
         "src/components/dm/shop/add-from-library.tsx",
         "src/components/dm/shop/new-item-prompt.tsx",
         "src/components/dm/shop/shop-panel.tsx",
+        "src/components/dm/shop/stock-list.tsx",
         "src/components/dm/stat-block-sheet.tsx",
         "src/components/foretold-list.tsx",
         "src/components/library/spell-browse.tsx",
