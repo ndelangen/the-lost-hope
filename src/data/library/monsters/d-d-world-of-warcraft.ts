@@ -1320,6 +1320,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish', 'and two others'],
       habitats: ['arctic'],
+      appearance: [['A blue dragon of Azeroth with huge claws and freezing breath.']],
+      lore: [
+        [
+          "The blue dragonflight was nearly destroyed by Deathwing's black flight and is recovering under Kalecgos, steward of magic. Its dragons see themselves as guardians of the arcane and look down on mortals who abuse magic. Kind ones act as wise mentors to mortal mages, as Kalecgos did with the Kirin Tor. Cruel, envious ones such as Cyanigosa instead seek to dominate mortals and punish them. They are found in mountains and arctic lands.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -5592,6 +5599,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Moonkin'],
       habitats: ['forest'],
+      appearance: [
+        ['A creature with antlers that mixes the body of a bear with that of a big owl.'],
+      ],
+      lore: [
+        [
+          "Many believe the goddess Elune made moonkin to guard her sanctuaries. They help night elves and the green dragons to cleanse moonwells, resist corrupted furbolgs and stop deforestation. They are usually peaceful but lash out when evil magic upsets nature, and Elune's blessing lets them call her power against those who oppose her purpose. Wildkin are a lesser, more animal kind.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'fey',
@@ -5794,6 +5810,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Nerglish'],
       habitats: ['coastal'],
+      appearance: [['A murloc leader with healing and protective magic.']],
+      lore: [
+        [
+          'Oracles lead other murlocs, using magic to protect and heal them. They are more ready than other murlocs to try to talk with those who do not speak Nerglish.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6078,6 +6101,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common (WoW)', 'Darnassian', 'Nazja', 'Orcish'],
       habitats: ['coastal', 'underwater', 'coastal', 'underwater'],
+      appearance: [
+        [
+          'A naga with a humanoid upper body and a long snaky tail. Female naga have human-like heads and often four or more arms.',
+        ],
+      ],
+      lore: [
+        [
+          "Naga were once Highborne night elves loyal to Queen Azshara. She later bound herself and them to N'Zoth, an Old God, who remade them as sea-dwelling servants. Sirens are among the strongest naga casters and channel the cold of the deep into frost magic.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -6545,6 +6579,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ["Shath'Yar", 'telepathy 120 ft'],
       habitats: ['any'],
+      appearance: [
+        [
+          "A hulking figure covered in chitinous plates, with heavy pincers for arms and crablike legs on its back that look almost like wings. Each shows features of its Old God, such as many eyes for N'Zoth or a mantle of teeth for C'Thun.",
+        ],
+      ],
+      lore: [
+        [
+          "Faceless generals, called C'Thraxxi, command armies for the Old Gods and defend their strongholds. Each has deep magic used to tear through the minds of those in its way, often leaving drained husks. Death is not final, since cultists try to awaken dead ones with rituals and blood.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -7170,6 +7215,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common (WoW)', 'Orcish', 'Quilboar'],
       habitats: ['desert', 'hill', 'desert', 'hill'],
+      appearance: [
+        [
+          'A boar-like humanoid with a row of sharp spines down its back and thorns it believes grew from its demigod ancestor.',
+        ],
+      ],
+      lore: [
+        [
+          'Quilboar are thought to descend from the demigod Agamaggan, and they live in thorny vine patches said to grow from his blood, sometimes attacking neighbours to expand. They are fearless and aggressive. Thornweavers use those thorns to call on nature spirits to protect their territory.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7515,6 +7571,13 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Orcish', 'and two others'],
       habitats: ['any'],
+      appearance: [['A red dragon of Azeroth, noble and fire-breathing.']],
+      lore: [
+        [
+          'The red flight, under Alexstrasza, is honourable and sees itself as the guardian of life, keeping sacred places and objects from lesser beings. It has helped fight the Old Gods, the undead tyrant of Northrend and the black dragon Deathwing, whom it hates above all. Reds are likely allies to Alliance and Horde heroes, though the Old Gods have corrupted a few. Their kindness is not weakness, as they can unleash terrible destruction.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',

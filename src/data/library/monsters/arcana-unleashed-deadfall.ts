@@ -576,6 +576,18 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['all'],
       tableNotes: [['Gear: component pouch']],
+      appearance: [
+        [
+          'Szass Tam is a lich, an ancient wizard of death magic who handles friend and foe with the calm of a chess player.',
+        ],
+      ],
+      lore: [
+        [
+          'Szass Tam rose among the Red Wizards as an inventive necromancer, became zulkir of necromancy, and not long after turned lich. He seized Thay as regent after a civil war, turning his rivals into undead servants, then tried to become a god, a ritual that failed badly. He rebuilt a zulkir council of loyalists, but new rivals toppled them and now sit as his equals. He is again moving to crush them with undead and rule Thay as before. He plans over lifetimes, shifts to backup plans quickly, uses diplomacy with outside allies, and is capable of both fury and cool appreciation of a clever move. His lair is the Citadel in Thaymount.',
+        ],
+        ['Sources: ', 'Arcana Unleashed: Deadfall'],
+      ],
+      habitats: ['Thay'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -801,6 +813,18 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Celestial', 'Common', 'Draconic', 'Infernal'],
       tableNotes: [['Gear: orb']],
+      appearance: [
+        [
+          'A powerful Red Wizard who radiates physical, political and magical might and hides her emotions.',
+        ],
+      ],
+      lore: [
+        [
+          "Xelnene is zulkir of evocation and, Szass Tam aside, the most powerful member of the council. She hates tyrants and wants Szass Tam destroyed. Her ancestor Aznar Thrul butchered many Thayans and raised huge armies in failed bids to conquer Rashemen. She loathes his record but trades on the family's frightening name when it helps. As a youth she apprenticed under the Red Wizard Sabeine, who encouraged her sense of justice and nudged her to do good among the Red Wizards, until Szass Tam executed Sabeine for treason, and she has kept her reformist wishes hidden ever since. She is shrewd and practical, shows no feeling that enemies could read as weakness, and directs a web of spies, allies and political operators working toward a better future for Thay's people.",
+        ],
+        ['Sources: ', 'Arcana Unleashed: Deadfall'],
+      ],
+      habitats: ['Thay'],
       stats: {
         size: 'medium',
         type: 'humanoid',

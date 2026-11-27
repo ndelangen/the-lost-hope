@@ -5014,6 +5014,16 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 1', '000 ft'],
+      appearance: [
+        ['An attractive male humanoid with dark hair, a neat goatee and pale white skin.'],
+      ],
+      lore: [
+        [
+          'Levistus, the Frozen Prince, is a hated archdevil though reputed honourable and chivalrous. He is among the best strategists in Hell and a likely candidate to topple the throne. Asmodeus locked him in the ice of Stygia after an unspeakable betrayal and later restored him as its ruler, and he plots revenge while publicly loyal. He is thought clever, charming, observant and treacherous, prefers single combat and only then uses magic and followers, and bargains with adventurers who can help free him. Honourable thieves and charlatans sometimes worship him.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Stygia'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -6332,6 +6342,13 @@ export default createPublicationMonsters({
       name: 'Ramius',
       alignment: 'neutral good',
       languages: ['Abyssal', 'Celestial', 'Common', 'Infernal'],
+      appearance: [['A natural horseman and athlete who leads the Hellriders of Elturel.']],
+      lore: [
+        [
+          "Ramius never wanted command but stepped up because so many of the order had died. His friend Barachiel helped him grow into the job, and Barachiel's imprisonment in the Nine Hells weighs on him. His soldiers say there is nothing he cannot ride, from horses to mammoths and machines. He values loyalty, honour and duty and fears only losing people he loves.",
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

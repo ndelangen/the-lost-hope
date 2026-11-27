@@ -5950,6 +5950,17 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus three other languages'],
+      appearance: [
+        [
+          'A leader of an academic research organisation, perhaps a headmaster or a secret solo operator.',
+        ],
+      ],
+      lore: [
+        [
+          "Scholarly masterminds plan and run operations digging up what the past kept hidden, and some pursue agendas far from their organisation's. The related Allegiance of Allsight works mainly in the Marquesian city of Ank'Harel, with mostly non-combat academics but field agents who are skilled archaeologists trained to handle Exandria's deep dangers.",
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

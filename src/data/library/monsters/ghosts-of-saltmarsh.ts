@@ -2274,6 +2274,13 @@ export default createPublicationMonsters({
       tags: ['goblinoid'],
       alignment: 'lawful evil',
       languages: ['Common', 'Goblin'],
+      appearance: [['A fierce koalinth officer, an amphibious reptilian soldier.']],
+      lore: [
+        [
+          'A koalinth sergeant is trusted with particular errands for its tribe, for instance the envoy party in Danger at Dunwater. In battle it singles out the biggest dangers and takes them down in turn.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5323,6 +5330,16 @@ export default createPublicationMonsters({
       tags: ['sahuagin'],
       alignment: 'lawful evil',
       languages: ['Sahuagin'],
+      appearance: [
+        ["A hunched, twisted sahuagin whose body has been warped by Sekolah's mutating magic."],
+      ],
+      lore: [
+        [
+          "Wave shapers bring elemental magic to sahuagin armies, appearing in The Final Enemy, and take pleasure in conjuring ruinous whirlpools. They gave up their bodies to Sekolah's mutating power.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'medium',
         type: 'humanoid',

@@ -557,6 +557,13 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic', 'Infernal', 'Thayan'],
+      appearance: [['A Red Wizard of Thay who hides her affiliation.']],
+      lore: [
+        [
+          "Sofina is an elite necromancer tied to Thay's tyrannical magocracy who uses death magic and fear. Red Wizards are shunned beyond Thay, so she conceals her ties and coldly rejects friendship. She is canny and has patiently placed pieces for grand designs now taking shape.",
+        ],
+        ['Sources: ', "Honor Among Thieves: Thieves' Gallery"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

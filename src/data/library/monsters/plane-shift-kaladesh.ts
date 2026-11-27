@@ -413,6 +413,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       habitats: ['mountain', 'hill'],
+      appearance: [
+        [
+          'A cross between lizard and tiger: a powerful feline body in striped fur, a reptilian head crowned with long horns, enormous leathery wings, and a chest marked with intricate filigree-like patterns.',
+        ],
+      ],
+      lore: [
+        [
+          'Kaladesh dragons are the top predators of the sky. They prefer rural country to avoid the airship and thopter traffic over cities. Their favourite prey is sky whales, and they also go after airships and big creatures such as leviathans, hydras, drakes and giants. A dragon waits motionless on a hilltop or promontory, then launches with one wingbeat and dives like an arrow. It often fights by keeping flame in its mouth and biting. Few reach great age on this plane. The book says red dragon stats suit them.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -771,6 +782,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['arctic'],
+      appearance: [
+        [
+          'A long, segmented, centipede-like body on countless short legs, with a toothy maw ringed by clawed, finger-like limbs.',
+        ],
+      ],
+      lore: [
+        [
+          'Hellions resemble wurms but are not kin to them. One has a long, segmented, centipede-like body with countless short legs that carry it above or below ground, and a huge toothy mouth ringed by six to twelve clawed, finger-like limbs that haul prey in. It lives in mountains and bursts from the rock to ambush prey. The book says remorhaz stats suit hellions of various sizes.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -848,6 +870,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['arctic'],
+      appearance: [
+        [
+          'A long, segmented, centipede-like body on countless short legs, with a toothy maw ringed by clawed, finger-like limbs.',
+        ],
+      ],
+      lore: [
+        [
+          'Hellions resemble wurms but are not kin to them. One has a long, segmented, centipede-like body with countless short legs that carry it above or below ground, and a huge toothy mouth ringed by six to twelve clawed, finger-like limbs that haul prey in. It lives in mountains and bursts from the rock to ambush prey. The book says remorhaz stats suit hellions of various sizes.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -896,6 +929,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['grassland'],
+      appearance: [
+        [
+          'A mechanical elephant that copies a real one in fine detail. Elven makers often work living wood and foliage into the design, so it may be a blend of plant and animal.',
+        ],
+      ],
+      lore: [
+        [
+          "Lifecraft creatures are automatons made by inventors, such as the Greenwheel Lifecrafters, who view nature as the finest artificer. They do useful work like real animals, so a lifecraft elephant may haul carts or carry passengers through Ghirapur's streets, but it cannot be spooked and leaves no mess. Any creature can have a lifecraft version.",
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -956,6 +1000,18 @@ export default createPublicationMonsters({
       name: 'Servo',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A tiny construct small enough to hold in one hand, powered by small gears and a little aether.',
+        ],
+      ],
+      lore: [
+        [
+          "Servos work as personal assistants and are often seen on their inventors' shoulders, partly as a fashion statement. They rarely roam far from their owners. They are one of four kinds of Ghirapur artifact creature, alongside constructs, thopters and lifecraft.",
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
+      habitats: ['City'],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -1144,6 +1200,18 @@ export default createPublicationMonsters({
       name: 'Thopter (Bat)',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A small clockwork bat that flies on spinning rotors and taut fabric wings, with intricate gears showing under glass and fine metalwork.',
+        ],
+      ],
+      lore: [
+        [
+          'Thopters are small flying automatons found all over Ghirapur and other Kaladesh towns. Some deliver messages the way carrier birds do, some are set after gremlins, some compete in races, and some act as remote eyes for officials and crime lords. The book suggests representing different thopter forms with the matching animal statistics. All are constructs, immune to poison and to being charmed or poisoned.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
+      habitats: ['City'],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -1192,6 +1260,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['mountain', 'grassland', 'forest', 'hill', 'coastal', 'arctic'],
+      appearance: [
+        [
+          'A clockwork hawk-like automaton that flies on spinning rotors and taut fabric wings, with intricate gears showing under glass and fine metalwork.',
+        ],
+      ],
+      lore: [
+        [
+          'Thopters are small flying automatons found all over Ghirapur and other Kaladesh towns. Some deliver messages the way carrier birds do, some are set after gremlins, some compete in races, and some act as remote eyes for officials and crime lords. The book suggests representing different thopter forms with the matching animal statistics. All are constructs, immune to poison and to being charmed or poisoned.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -1243,6 +1322,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['mountain', 'grassland', 'hill', 'coastal'],
+      appearance: [
+        [
+          'A large clockwork eagle that flies on spinning rotors and taut fabric wings, with intricate gears showing under glass and fine metalwork. The biggest thopters reach about this size.',
+        ],
+      ],
+      lore: [
+        [
+          'Thopters are small flying automatons found all over Ghirapur and other Kaladesh towns. Some deliver messages the way carrier birds do, some are set after gremlins, some compete in races, and some act as remote eyes for officials and crime lords. The book suggests representing different thopter forms with the matching animal statistics. All are constructs, immune to poison and to being charmed or poisoned.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -1282,6 +1372,18 @@ export default createPublicationMonsters({
       name: 'Thopter (Hawk)',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A clockwork hawk that flies on spinning rotors and taut fabric wings, with intricate gears showing under glass and fine metalwork.',
+        ],
+      ],
+      lore: [
+        [
+          'Thopters are small flying automatons found all over Ghirapur and other Kaladesh towns. Some deliver messages the way carrier birds do, some are set after gremlins, some compete in races, and some act as remote eyes for officials and crime lords. The book suggests representing different thopter forms with the matching animal statistics. All are constructs, immune to poison and to being charmed or poisoned.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
+      habitats: ['City'],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -1322,6 +1424,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['forest', 'arctic'],
+      appearance: [
+        [
+          'A clockwork owl that flies on spinning rotors and taut fabric wings, with intricate gears showing under glass and fine metalwork.',
+        ],
+      ],
+      lore: [
+        [
+          'Thopters are small flying automatons found all over Ghirapur and other Kaladesh towns. Some deliver messages the way carrier birds do, some are set after gremlins, some compete in races, and some act as remote eyes for officials and crime lords. The book suggests representing different thopter forms with the matching animal statistics. All are constructs, immune to poison and to being charmed or poisoned.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -1374,6 +1487,17 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ["understands Common and Draconic but can't speak"],
       habitats: ['mountain', 'forest', 'hill', 'urban', 'desert', 'coastal'],
+      appearance: [
+        [
+          'A tiny clockwork dragon that flies on spinning rotors and taut fabric wings, with intricate gears showing under glass and fine metalwork.',
+        ],
+      ],
+      lore: [
+        [
+          'Thopters are small flying automatons found all over Ghirapur and other Kaladesh towns. Some deliver messages the way carrier birds do, some are set after gremlins, some compete in races, and some act as remote eyes for officials and crime lords. The book suggests representing different thopter forms with the matching animal statistics. All are constructs, immune to poison and to being charmed or poisoned.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -1457,6 +1581,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['swamp', 'hill', 'urban'],
+      appearance: [
+        [
+          'A clockwork raven that flies on spinning rotors and taut fabric wings, with intricate gears showing under glass and fine metalwork.',
+        ],
+      ],
+      lore: [
+        [
+          'Thopters are small flying automatons found all over Ghirapur and other Kaladesh towns. Some deliver messages the way carrier birds do, some are set after gremlins, some compete in races, and some act as remote eyes for officials and crime lords. The book suggests representing different thopter forms with the matching animal statistics. All are constructs, immune to poison and to being charmed or poisoned.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -1499,6 +1634,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['grassland', 'hill', 'desert'],
+      appearance: [
+        [
+          'A clockwork vulture that flies on spinning rotors and taut fabric wings, with intricate gears showing under glass and fine metalwork.',
+        ],
+      ],
+      lore: [
+        [
+          'Thopters are small flying automatons found all over Ghirapur and other Kaladesh towns. Some deliver messages the way carrier birds do, some are set after gremlins, some compete in races, and some act as remote eyes for officials and crime lords. The book suggests representing different thopter forms with the matching animal statistics. All are constructs, immune to poison and to being charmed or poisoned.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',

@@ -4995,6 +4995,14 @@ export default createPublicationMonsters({
       name: 'Purple Wormling',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A rubbery baby purple worm, only a few weeks old.']],
+      lore: [
+        [
+          'A wormling cannot yet burrow through rock, and its tail poison and gullet acid are still weak. It is nevertheless a greedy feeder that attacks nearly anything it can get its mouth around, and it can swallow several small creatures.',
+        ],
+        ['Sources: ', "Storm King's Thunder"],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'large',
         type: 'monstrosity',

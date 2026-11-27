@@ -3690,6 +3690,14 @@ export default createPublicationMonsters({
       tags: ['warforged'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish'],
+      appearance: [['A warforged warlord who rules a fortress nation in the Mournland.']],
+      lore: [
+        [
+          "The Lord of Blades has cut every tie to his former makers and built a homeland for warforged in the Mournland, centred on a great fortress that draws warforged from across Khorvaire. Nobody knows his plans, though many fear he is raising a legion of zealots to march on the old masters. Stories differ: he may have led Cyre's warforged in the Last War, may be one of the last made in the Cannith forges before the Thronehold Accords, or may have caused Cyre's destruction and plan to repeat it in the remaining Five Nations. Either way, he is a beacon to warforged everywhere. He needs no air, food, drink or sleep.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Mournland'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4081,6 +4089,18 @@ export default createPublicationMonsters({
       name: 'Undying Councilor',
       alignment: 'neutral good',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        [
+          'A shrivelled, desiccated corpse wrapped in a faint shape of light that is a shadow of its soul. The glow gives off no heat but a sense of comfort and warmth.',
+        ],
+      ],
+      lore: [
+        [
+          "The undying are Aerenal's honoured dead: spirits that remain because the living cherish them, kept going by positive energy and by mortal devotion, and acting as guides and guardians of their community. Councilors rank highest among those who still have physical bodies. Many spend their days counselling the living, while others project their minds into the Astral Plane for years to bring back knowledge. Immortality can overwhelm a mind, and a councilor sometimes cracks and goes mad. Outside Aerenal one needs a community of elves, or some other well of positive energy, or its light dwindles and it dies. It needs no air, food, drink or sleep.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Aerenal'],
       stats: {
         size: 'medium',
         type: 'undead',

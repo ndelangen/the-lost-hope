@@ -255,6 +255,17 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'neutral evil',
       languages: ['all'],
+      appearance: [
+        [
+          'Before his court he shows an illusion of a dark-haired, haughty man in middle age. His true form is a decayed lich with eyes burning with blasphemous energy.',
+        ],
+      ],
+      lore: [
+        [
+          'Azalin was the tyrant wizard-king of Darkon, ruling over both the living and the dead. Since entering the Domains of Dread new magic has been beyond him, which galls a wizard who gave up mortality for study. He understands the Domains better than most Darklords and has repeatedly tried to escape, reshaping Darkon, only for his changes to revert. His latest plot culminated at the Hour of Ascension, when Castle Avernus was destroyed, after which he vanished. He carries a golden amulet as his current spirit jar. If it is destroyed, his original jar, a dragon skull in the ruins, revives him in Darkon.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3396,6 +3407,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'An eternally young-looking woman, which leads some to doubt her ability and credit her success to her older cousin.',
+        ],
+      ],
+      lore: [
+        [
+          'Ivana heads the most influential family in Borca and steers every part of society with ease, though unreliable servants and cousins force her to attend dull duties herself. She is bored by predictable people and retreats to alchemy and gardens of poisonous plants. Her expertise with poisons makes her an unmatched poisoner who makes people pliable or removes those she finds too tedious to live. Privately she wants someone who can match her mind, but she tires of even the cleverest quickly.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3856,6 +3878,18 @@ export default createPublicationMonsters({
       name: 'Lord Soth of Sithicus',
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [
+        [
+          'A death knight brooding on a throne in Nedragaard Keep, with banshees singing of his shame and decayed copies of his old knights around him.',
+        ],
+      ],
+      lore: [
+        [
+          'Soth hates Sithicus, which he finds chaotic and empty, with listless people and no worthy foes. He cares nothing for the domain but will try to crush or recruit remarkable visitors. The one thing that stirs him is the ghost of his betrayer Caradoc, whom his undead and his seneschal Azrael Dax, a werebadger, hunt. He keeps the borders sealed, so only those who rouse him or break into the keep may be let out. He still sees himself as a true knight, so honourable warriors or people who know his past may win his help.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
+      habitats: ['Haunted keep'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4735,6 +4769,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common plus one other language'],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A powerful, thoughtful creature stitched together from body parts, far more than an ordinary flesh golem.',
+        ],
+      ],
+      lore: [
+        [
+          'The Darklord of Lamordia, Dr. Viktra Mordenheim, perfected these beings while trying to recreate her masterpiece, the Unbreakable Heart. Each has its own will. Some can be persuaded to serve her, some chase fragments of remembered lives, and others think themselves something new and try to make a fresh life, even at the cost of communities that fear and shun them.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -4919,6 +4964,17 @@ export default createPublicationMonsters({
       name: 'Mother Lorinda',
       alignment: 'neutral evil',
       languages: ['Common', 'Elvish', 'Sylvan'],
+      appearance: [
+        [
+          'Disguised as Mother, she is an ancient, imposing woman in a cloak like moth wings, holding a branch with flaming limbs. Without the illusion she is a distracted yet cunning green hag who hugs ghastly dolls made to resemble her kin.',
+        ],
+      ],
+      lore: [
+        [
+          'Lorinda is an ancient green hag who wants a family above all and has wrecked every one she had. The villagers of Tepest see her as a fertility god, Mother, and offer willing sacrifices to her botched attempts at making life, and their worship calms the magical outbursts after each failure. She travels Tepest in the Gurgyl, a tower of bones that walks. She mourns her sisters Laveeda and Leticia, not admitting she keeps them captive, and gives her monstrous creations the name of her daughter Laoirse. In Viktal she demands proof of love through sacrifice, from food and crafts to left eyes or lives.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -5555,6 +5611,17 @@ export default createPublicationMonsters({
       name: 'Ramya Vasavadan',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common'],
+      appearance: [
+        [
+          'An undead horror hidden by illusion, giveaways being her chilled skin and a reflection that shows her withered and terrifying.',
+        ],
+      ],
+      lore: [
+        [
+          'Ramya fights to hold power over Kalakeri against her equally ruthless siblings, Arijani and Reeva, who stir up the rebellions and torment her. Unlike most Darklords she struggles to rule her domain, so she looks for allies against them and their treacherous friends.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5925,6 +5992,15 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["understands all but can't speak"],
       habitats: ['any'],
+      appearance: [
+        ['A fiend-twisted killer that puts victims into a restless sleep before attacking.'],
+      ],
+      lore: [
+        [
+          'Relentless killers are maniacs made by pacts with evil forces, their powers depending on their obsessions. A relentless nightmare casts a foul spell that sends victims into restless sleep before it strikes. Even destroyed, it can rebuild itself out of the dreams of anyone it cursed.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -6314,6 +6390,17 @@ export default createPublicationMonsters({
       name: "Saidra d'Honaire",
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'An undead duchess in a masquerade costume whom everyone can plainly see is not alive. At night she removes the mask and prowls as the Red Death.',
+        ],
+      ],
+      lore: [
+        [
+          'Saidra knows she is dead but ignores it for hollow, dazzling celebrations and a mockery of the life she once wanted. She terrorises Dementlieu and drains the life from anyone who exposes the flaws in her fantasy or reminds her of her past desperation. Servants and sycophants praise her poise and beauty. As the Red Death she hunts liars, the struggling and anyone who recalls her humble origins in Port-a-Lucine. She is overbearing and elitist yet unworldly, fears exposure as a fraud and accuses others of lying at the slightest vulgar sign.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -7646,6 +7733,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["understands Deep Speech but can't speak"],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A bestial mind flayer with viciously barbed tentacles, whose presence floods the area with nauseating, mentally jarring sensations.',
+        ],
+      ],
+      lore: [
+        [
+          'They originate in Bluetspur, an alien domain, where illithids, searching for a remedy for their failing elder brain, experimented wildly and produced tadpoles that carried vampirism. These grew into mind flayers able to feed on the psychic energy of thinking creatures, and after feeding they go home to be absorbed by the elder brain. They cannot direct their psychic power, so instead of precise blasts they radiate waves of sickening, disruptive sensation, and they drain mental energy with barbed tentacles. Normal mind flayers consider them abominations yet still press them into urgent tasks such as defending the elder brain.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -7969,6 +8067,14 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish', 'Goblin', 'Halfling'],
       tableNotes: [['Gear: studded leather armor']],
+      appearance: [['A brilliant scientist who works in her laboratory at Schloss Mordenheim.']],
+      lore: [
+        [
+          'From Schloss Mordenheim, Dr. Viktra Mordenheim turns her scientific brilliance to making horrors and marvels alike, and undead and constructs file out of her laboratory, though she finds them all inadequate. What she truly wants is to rebuild or reclaim the Unbreakable Heart, her finest work, a miraculous device that keeps Elise alive, the reanimated woman who evades her.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
+      habitats: ['Schloss Mordenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -8725,6 +8831,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Deep Speech', 'telepathy 120 ft'],
       habitats: ['desert', 'underdark', 'urban', 'desert', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A cone-shaped body with four limbs finishing in claws, sense organs and flute-like speaking organs.',
+        ],
+      ],
+      lore: [
+        [
+          "Yithians are scholars who travel the cosmos hunting secrets for their vast libraries. They research by swapping minds with inhabitants of other worlds, sometimes permanently, trapping the victim's mind in the yithian body, which is then teleported to their alien homeworld. The text describes them as fungous beings.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',

@@ -2732,6 +2732,18 @@ export default createPublicationMonsters({
       name: 'Swarm of Wharflings',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Hairless dogs with big webbed feet and finned claws scamper along a pier or beach in a wet, clicking mass, each with an oversized mouth, some carrying stolen fish.',
+        ],
+      ],
+      lore: [
+        [
+          'Wharflings are aquatic canines that den near seas, lakes and rivers, usually in family groups, and they are skilled at catching fish. Their needle-like teeth make a bite feared, but coastal folk resent them more for theft, since their dens are full of pilfered metal trinkets. Every so often they gather in huge numbers and race along the shore for miles before heading back home. Nobody knows why, and locals simply stay off the beach on those nights.',
+        ],
+        ['Sources: ', 'Tome of Beasts 1 (2023 Edition)'],
+      ],
+      habitats: ['Coastal', 'Riverbank'],
       stats: {
         size: 'large',
         type: 'beast',

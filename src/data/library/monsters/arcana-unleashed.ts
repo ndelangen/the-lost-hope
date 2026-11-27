@@ -1041,6 +1041,17 @@ export default createPublicationMonsters({
       languages: ['Common plus five other languages'],
       habitats: ['any'],
       tableNotes: [['Gear: rod']],
+      appearance: [
+        [
+          'A spellcaster whose illusions look solid and convincing, so that disguises, objects and even the ground around the party may be something other than what it seems.',
+        ],
+      ],
+      lore: [
+        [
+          'The book says only that these archmages have mastered the tactile side of illusion magic. Their effects feel vividly real and they can adjust the smallest details of illusory disguises, props and terrain. Treat anything the party touches near one as suspect.',
+        ],
+        ['Sources: ', 'Arcana Unleashed'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1342,6 +1353,13 @@ export default createPublicationMonsters({
       languages: ['Common plus five other languages'],
       habitats: ['any'],
       tableNotes: [['Gear: crystal']],
+      appearance: [['A spellcaster who drains life with necrotic magic and commands the dead.']],
+      lore: [
+        [
+          'This archmage draws life from enemies and strengthens undead. The book notes that many necromancers see nothing wrong with raising the dead for battle.',
+        ],
+        ['Sources: ', 'Arcana Unleashed'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1547,6 +1565,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['all', 'telepathy 120 ft'],
       habitats: ['any'],
+      appearance: [
+        [
+          'A quasi-corporeal being of raw magic, the bodiless remnant of a mage whose body has been stripped away.',
+        ],
+      ],
+      lore: [
+        [
+          'A taisus is a mage who glimpsed untamed magic and, through years of study and risky rituals, shed their body to merge their mind with it. At first it keeps its old personality and values, but its outlook slowly turns alien, with long-term thinking that seems cold to mortals. Most try to pull power from places rich in magic, like portals between planes or pools of quintessence, to craft strange items, remake magic itself, or lead others to follow them in ascension. Its final aim is beyond mortal understanding.',
+        ],
+        ['Sources: ', 'Arcana Unleashed'],
+      ],
       stats: {
         size: 'huge',
         type: 'aberration',

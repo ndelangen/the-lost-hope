@@ -8401,6 +8401,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'Undercommon'],
       habitats: ['underdark'],
+      appearance: [["A beholder, paranoid crime lord of Waterdeep's undercity."]],
+      lore: [
+        [
+          "Xanathar is a title borne by successive beholders. The current one is a suspicious despot who coerces and enchants underlings into serving, and the Xanathar Guild is made of Waterdeep's most unsavoury people along with monsters forced into obedience or tempted by the offer of loot, food or power. Backstabbing is common as members compete for its favour, and its trust never lasts. Its lair is a dungeon beneath Skullport, a cavern town linked to Undermountain's third level and patrolled by flameskulls. The one being it cares for apart from itself is a pet fish called Sylgar, and when the fish dies, minions panic and swap in another, since the beholder cannot tell fish apart. It adores gold, once stole the Stone of Golorr and opened a dwarven vault before a dragon drove it out, and it now blames the Black Network for the stone being stolen from it, treating anyone tied to Zhentarim agents as an enemy to destroy.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',

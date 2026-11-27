@@ -12,6 +12,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       habitats: ['mountain', 'hill'],
+      appearance: [
+        [
+          'A heavy, reptilian beast with a crocodile-like head and leathery wings, circling slowly over the sands.',
+        ],
+      ],
+      lore: [
+        [
+          "Amonkhet dragons are savage and dim, closer to red dragons in kind but without their cunning. They keep to the remote desert and drift in lazy circles while hunting. They breathe fire. Some are taken alive into the Hekma and used in the five gods' contests, above all the closing Trial of Zeal. The text covers all ages of these dragons together.",
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -291,6 +302,14 @@ export default createPublicationMonsters({
       name: 'Amonkhet Dragon Wyrmling',
       alignment: 'chaotic evil',
       languages: ['Draconic'],
+      appearance: [['A heavy, reptilian creature with a crocodile-like head and leathery wings.']],
+      lore: [
+        [
+          'Amonkhet dragons are savage and dim, closer to red dragons in kind but without their cunning. They breathe fire and favour the remote desert, though some are captured and put to work in the divine trials. The book describes the species as a whole and says nothing specific about wyrmlings.',
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -349,6 +368,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['swamp'],
+      appearance: [['A hydra whose heads look like those of cobras.']],
+      lore: [
+        [
+          "Amonkhet hydras live in the uncharted desert beyond the Hekma's protection, in the dune sea of Shefet or the parched Broken Lands past it. The bite of each head carries poison. The book says travellers into that wilderness rarely return to tell of it.",
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -444,6 +470,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       habitats: ['mountain', 'hill'],
+      appearance: [['A massive, reptilian beast with a crocodile-like head and leathery wings.']],
+      lore: [
+        [
+          'Amonkhet dragons are savage and dim, closer to red dragons in kind but without their cunning. They breathe fire, hunt over the remote desert by circling, and are sometimes captured and used in the divine trials, especially the last contest, the Trial of Zeal. The book describes the species as a whole, not the oldest ones in particular.',
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -726,6 +759,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["understands all languages it spoke in life but can't speak"],
       habitats: ['urban'],
+      appearance: [['A mummy wrapped in carefully bound cloth and decorated with cartouches.']],
+      lore: [
+        [
+          "The anointed are citizens of Naktamun who died before proving themselves worthy of the afterlife, such as acolytes, failed initiates and viziers. To spare them the Curse of Wandering, the God-Pharaoh has them embalmed and set to serve the worthy for another lifetime. Their cartouches do not hold their life essence, but instead guide them in a particular kind of service. They join the serving mummies who tend daily life in Amonkhet, and are promised an attendant's post in the afterlife for faithful work.",
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -858,6 +898,18 @@ export default createPublicationMonsters({
       name: 'Criosphinx',
       alignment: 'neutral',
       languages: ['understands Common', 'Sphinx'],
+      appearance: [
+        [
+          "A sphinx with a ram's head in place of a human face, on a lion's body with hawk-like wings and feathered forearms and tail.",
+        ],
+      ],
+      lore: [
+        [
+          'Criosphinxes are rare, and bear the same curse as all sphinxes: Nicol Bolas made them unable to communicate in any form so they cannot expose his lies. Compared with other sphinxes they are blunter and more combative, and go out into the desert to attack any angel, demon or other servant of Bolas they meet. They keep well away from Naktamun and have no interest in its people. Their hatred comes only from the curse.',
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1060,6 +1112,15 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Draconic'],
       habitats: ['underdark'],
+      appearance: [
+        ['Ranges from something like an enormous constrictor snake to a more monstrous form.'],
+      ],
+      lore: [
+        [
+          "Giant serpents lurk near the bottom of the Luxa river by Naktamun, among crocodiles, hippos and giant frogs. They are the river's most feared residents: an angry one can capsize whole fleets of fishing boats and send water over the shore.",
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -1329,6 +1390,18 @@ export default createPublicationMonsters({
       name: 'Manticore, Heart-Piercer',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          "A catlike creature with a scorpion's tail and armoured plates on its lower legs and feet.",
+        ],
+      ],
+      lore: [
+        [
+          'Manticores of Amonkhet live in the harsh desert, and their stingers carry the deadliest venom on the plane. They can sting very fast while still clawing and biting. Being so deadly, they are prized for the Trial of Zeal, for which they kill many initiates in a manner thought glorious.',
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1477,6 +1550,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['underdark', 'desert'],
+      appearance: [
+        [
+          'A huge predator that swims through dunes like a snake through water, with a lamprey-like head it can raise high enough to snatch flyers.',
+        ],
+      ],
+      lore: [
+        [
+          'Sandwurms are the biggest hunters of Shefet, the Scouring Sands on Amonkhet. They can move at amazing speed, yet can also wait beneath the sand for years until a faint tremor signals prey.',
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -1710,6 +1794,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       habitats: ['mountain', 'hill'],
+      appearance: [
+        [
+          'A heavy reptilian body with a crocodilian head and leathery wings, able to breathe fire.',
+        ],
+      ],
+      lore: [
+        [
+          "Nicol Bolas is a dragon himself, but feels no kinship with these savage and slow-witted beasts. They keep to the far reaches of the desert and wheel lazily overhead looking for prey. Now and then some are taken and brought into the Hekma to be used in the five gods' trials, particularly the closing battles of the Trial of Zeal. They are red dragons, though far less intelligent than the Monster Manual's.",
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',

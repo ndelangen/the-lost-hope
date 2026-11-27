@@ -3308,6 +3308,18 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A regal but permanently sodden figure with matted hair tangled in damp clothes, while her fiendish side shows in animal claws, shiny black eyes and a serpentine tail ending in a venomous barb.',
+        ],
+      ],
+      lore: [
+        [
+          'Hulgaz is a devil duchess from the swampy layer of the Nine Hells called Minauros. The self-styled Tempter ruins souls by offering tempting but costly boons. She dispatches a faithful retinue of incubi and succubi to the Material Plane to find vulnerable mortals, and may visit particularly pitiful souls herself with greater gifts. If her charm fails, she uses her natural weapons.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -4163,6 +4175,13 @@ export default createPublicationMonsters({
       name: 'Otherworldly Corrupter',
       alignment: 'chaotic evil',
       languages: ['Common', 'telepathy 120 ft'],
+      appearance: [['A horrific aberration that either infects a host or takes its place.']],
+      lore: [
+        [
+          'This villain keeps a lair that is secure and commanding, perhaps a concealed guildhall or a lavish manor, packed with clever defences that disorient, weaken and kill intruders. It is a tier 3 challenge and grows more dangerous inside its lair.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',

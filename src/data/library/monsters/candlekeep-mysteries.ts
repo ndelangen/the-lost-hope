@@ -1889,6 +1889,15 @@ export default createPublicationMonsters({
     lichen_lich: {
       name: 'Lichen Lich',
       languages: ['Common', 'Druidic', 'Sylvan'],
+      appearance: [
+        [
+          'A skeleton wearing a coat of fungus and bark-textured lichen, with vines in its chest cavity that ooze a thick poisonous black fluid.',
+        ],
+      ],
+      lore: [
+        ['Lichen liches are undead remains of powerful druids.'],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2658,6 +2667,17 @@ export default createPublicationMonsters({
       name: 'Nintra Siotta',
       alignment: 'chaotic evil',
       languages: ['Common', 'Elvish', 'Sylvan'],
+      appearance: [
+        [
+          'A nine-foot humanoid of smoky grey glass wrapped in a cloak of darkness that devours light, with eyes of green fire and a high, musical voice.',
+        ],
+      ],
+      lore: [
+        [
+          "Nintra is a chaotic evil archfey banished long ago from the Gloaming Court by its ruling queen. Faerun knows her by three titles, including Princess of the Shadow Glass. She lies easily, but imprisonment in The Scrivener's Tale has made her impatient, and she lets cruel thoughts slip in telepathic outbursts.",
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'large',
         type: 'fey',

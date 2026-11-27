@@ -10596,6 +10596,18 @@ export default createPublicationMonsters({
     kronen: {
       name: 'Kronen',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A pale, gaunt human with strange black cord-like hair who walks oddly, then reveals the real body: a cockroach-like torso on six scuttling legs, a glossy shell, long antennae, clawed human hands, small eyes dotting its forehead around large compound eyes, and mandibles instead of a tongue. Small roaches scurry through weeping holes in its torso.',
+        ],
+      ],
+      lore: [
+        [
+          "Kronen are survivors of Drakkenheim's fall who hid in cellars, closets and tunnels while the Haze rose. They lived on tainted water and vermin, but the vermin fed on them in turn, and the contamination turned them into insect-like monsters. Many are still stuck in their hiding places by flooded passages or rubble, confused about how much time has passed, and respond with panicked violence when found. Treasure hunters learn to check digs for hollows and sealed chambers where one might lurk.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruined city', 'Cellars'],
       stats: {
         size: 'large',
         type: 'aberration',

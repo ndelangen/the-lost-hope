@@ -1220,6 +1220,13 @@ export default createPublicationMonsters({
           "5etools Note. Ontharr Frume is presented in Hoard of the Dragon Queen and The Rise of Tiamat as a lawful good, human paladin of Torm. The war priest stat block from Volo's Guide to Monsters has been provided here for ease of use.",
         ],
       ],
+      appearance: [['A friendly but quick-tempered paladin figure.']],
+      lore: [
+        [
+          "Ontharr believes might exists to shield the vulnerable, at any price, and he can summon paladins and healers to help oppose Tiamat's armies.",
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

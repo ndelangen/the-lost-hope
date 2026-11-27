@@ -8634,6 +8634,14 @@ export default createPublicationMonsters({
           'Roleplaying: Zegana treats nature’s patterns as a guide for improving life. She commits her resources to Ravnica and struggles to understand anyone who rejects progress. See p. 254.',
         ],
       ],
+      appearance: [['A dignified, quiet merfolk who leads the Simic Combine.']],
+      lore: [
+        [
+          "Zegana is Prime Speaker of the Simic Combine and stands for the guild's traditions and its utopian ideal of nature and civilization in balance. Adaptationists and others say her approach is dated and the guild needs more practical leadership. She answers that she holds the post only with the Speakers' Chamber's consent and that they may replace her if they wish.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',

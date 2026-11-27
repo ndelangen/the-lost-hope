@@ -1045,6 +1045,17 @@ export default createPublicationMonsters({
       name: 'Neo-Otyugh',
       alignment: 'neutral',
       languages: ['Otyugh'],
+      appearance: [
+        [
+          'A three-legged aberration with snake-like tentacles and a constantly hungry mouth, hidden under a heap of filth and carrion.',
+        ],
+      ],
+      lore: [
+        [
+          'A neo-otyugh is a smarter, stronger otyugh. It ambushes from under refuse like its kin and uses innate spellcasting and control to cut a straggler off from a party before striking.',
+        ],
+        ['Sources: ', 'Infernal Machine Rebuild'],
+      ],
       stats: {
         size: 'huge',
         type: 'aberration',

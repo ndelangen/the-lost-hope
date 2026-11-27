@@ -933,6 +933,17 @@ export default createPublicationMonsters({
       name: 'Rudolph von Aubrecker',
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A technological monster whose handsome face is the one remaining part of his original body.',
+        ],
+      ],
+      lore: [
+        [
+          'Of the von Aubrecker siblings, Rudolph keeps the most charm despite his almost total transformation. Only his face and his brilliant mind survive from the original man, and cybernetic enhancements push that mind to supernatural strength.',
+        ],
+        ['Sources: ', 'Project_Lamordia'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',

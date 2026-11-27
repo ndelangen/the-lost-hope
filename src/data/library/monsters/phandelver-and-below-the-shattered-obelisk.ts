@@ -1127,6 +1127,13 @@ export default createPublicationMonsters({
       name: 'Encephalon Gemmule',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A misshapen, spindly-legged, pyramid-shaped lump of soft flesh.']],
+      lore: [
+        [
+          'Near a Far Realm rift, an illithid egg sac can mutate into an encephalon cluster, a hungry, slimy mass shaped like a brain that wields psionic power. Its eggs no longer hatch tadpoles. Each mature egg is expelled as a gemmule, which left alone becomes a new cluster within days and starts producing gemmules of its own.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'tiny',
         type: 'aberration',
@@ -3101,6 +3108,17 @@ export default createPublicationMonsters({
       name: 'Intellect Snare',
       alignment: 'neutral evil',
       languages: ['Deep Speech', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A writhing ball of tentacles that echoes with a babble of every thought it has swallowed.',
+        ],
+      ],
+      lore: [
+        [
+          'An intellect snare is born when shreds of thought torn loose by the Far Realm clump together. It scavenges, often turning up after a mind flayer attack to feed on the survivors. It coils a tentacle around a victim and draws out fragments of thought, leaving the mind in tatters.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -5436,6 +5454,13 @@ export default createPublicationMonsters({
       tags: ['mind flayer'],
       alignment: 'lawful evil',
       languages: ['Common', 'Deep Speech', 'telepathy 100 miles', 'Undercommon'],
+      appearance: [['A fragment of an aberrant godlet.']],
+      lore: [
+        [
+          'Ilvaash, the Dissonant Psyche, came from chunks of the God-Brain, the illithid deity, that broke away and became aware when it left the Far Realm. A refraction holds only a sliver of that power but is still a strong opponent.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'huge',
         type: 'aberration',

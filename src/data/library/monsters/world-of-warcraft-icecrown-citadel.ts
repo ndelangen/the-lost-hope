@@ -1889,6 +1889,13 @@ export default createPublicationMonsters({
       tags: ['elf', 'vampire'],
       alignment: 'lawful evil',
       languages: ['Common (WoW)', 'Forsaken', 'Orcish', 'Thalassian'],
+      appearance: [['A darkfallen vampire prince who can pass as a human adviser.']],
+      lore: [
+        [
+          "Valanar is brother to Keleseth and one of the Lich King's three darkfallen lieutenants. He governed the Borean Tundra out of a necropolis and manipulated the Alliance leaders while disguised as a human adviser, Counselor Talbot.",
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2257,6 +2264,13 @@ export default createPublicationMonsters({
       name: 'Professor Putricide, Phase 2',
       alignment: 'chaotic evil',
       languages: ['Common (WoW)', 'Forsaken', 'Orcish'],
+      appearance: [['A scientist of undeath, now changed by his own work.']],
+      lore: [
+        [
+          'Putricide is among the wicked minds inventing ways to spread the Scourge, kill the living and raise fresh undead troops to serve the Lich King. His alchemical work centres on poison gas and slimes that mutate.',
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -2766,6 +2780,14 @@ export default createPublicationMonsters({
       name: 'Sindragosa',
       alignment: 'lawful evil',
       languages: ['Common (WoW)', 'Draconic (WoW)', 'Forsaken', 'Orcish'],
+      appearance: [['An undead frost wyrm, once a blue dragon.']],
+      lore: [
+        [
+          "Sindragosa fell in the War of the Ancients on ground that became Icecrown Glacier, as Malygos's consort. Deathwing's betrayal killed her first, and the Lich King raised her as a frost wyrm and tore apart her whelps' spirits before her. She now guards the Lich King at his fortress on the glacier and carries him as a mount.",
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
+      habitats: ['Icecrown'],
       stats: {
         size: 'gargantuan',
         type: 'undead',

@@ -1341,6 +1341,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['any four languages'],
       habitats: ['urban'],
+      appearance: [
+        [
+          'An eccentric scientist with machinery that captures and uses the spirits of the dead for power, perhaps canisters on the back and a lightning weapon.',
+        ],
+      ],
+      lore: [
+        [
+          'Necro-alchemists, sometimes calling themselves geistmages, bind geists in elaborate contraptions to run laboratories and weapons. At best they fight the crazed angels, but even the most decent are known to take spirits of fallen allies to refuel a spent weapon.',
+        ],
+        ['Sources: ', 'Plane Shift: Innistrad'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1539,6 +1550,18 @@ export default createPublicationMonsters({
       name: 'Skaab',
       alignment: 'neutral',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A constructed zombie assembled from mismatched body parts. Most are humanlike, though some are winged, towering or unrecognisable.',
+        ],
+      ],
+      lore: [
+        [
+          'Skaabs are the often malformed result of skaberen, or stitchers, scientist-mages who try to create real life. Stitchers collect parts, join them, soak the body in life-giving fluid and implant a spark of life. Churchgoers call them blasphemers, so they work in remote places, often as obsessed hermits among scrolls, phials, jars of organs and anatomy charts.',
+        ],
+        ['Sources: ', 'Plane Shift: Innistrad'],
+      ],
+      habitats: ['Remote laboratories'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -1638,6 +1661,18 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Draconic', 'Elvish', 'Giant', 'Infernal'],
+      appearance: [
+        [
+          'Strefan is a vampire lord of Innistrad, presiding over his estate with the poise of an old aristocrat.',
+        ],
+      ],
+      lore: [
+        [
+          "Strefan's history mirrors Strahd's. After his father died he studied magic and bargained with the demon Shilgengar for immortality, then killed his brother Sergei and drank his blood. He later went to Markov Manor, where he and Edgar Markov worked with Shilgengar to make the twelve vampire bloodlines. His castle was never carried to a pocket realm because it was already on Innistrad, and he is not trapped there, so he does not need a successor to escape. Newcomers still catch his eye as possible consorts, and he suffers the weaknesses common to Innistrad vampires.",
+        ],
+        ['Sources: ', 'Plane Shift: Innistrad'],
+      ],
+      habitats: ['Innistrad'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1886,6 +1921,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['grassland', 'forest', 'urban', 'desert'],
+      appearance: [['A dead cat made to move again by a necromancer.']],
+      lore: [
+        [
+          'On Innistrad, ghoulcallers use black mana to raise the dead from graveyards, giving each risen creature a single purpose, and the outcome mocks real life. Necromancers often animate dead animals, usually cats, rats or snakes, to act as familiars. Since the Helvault held Avacyn, necromancers have found it easier to plunder graves, and ghouls now even rise by themselves across the plane.',
+        ],
+        ['Sources: ', 'Plane Shift: Innistrad'],
+      ],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -1926,6 +1968,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['swamp', 'urban'],
+      appearance: [['A dead rat made to move again by a necromancer.']],
+      lore: [
+        [
+          'On Innistrad, ghoulcallers use black mana to raise the dead from graveyards, giving each risen creature a single purpose, and the outcome mocks real life. Necromancers often animate dead animals, usually cats, rats or snakes, to act as familiars. Since the Helvault held Avacyn, necromancers have found it easier to plunder graves, and ghouls now even rise by themselves across the plane.',
+        ],
+        ['Sources: ', 'Plane Shift: Innistrad'],
+      ],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -1967,6 +2016,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['grassland', 'forest', 'swamp', 'hill', 'desert', 'coastal'],
+      appearance: [['A dead snake made to move again by a necromancer.']],
+      lore: [
+        [
+          'On Innistrad, ghoulcallers use black mana to raise the dead from graveyards, giving each risen creature a single purpose, and the outcome mocks real life. Necromancers often animate dead animals, usually cats, rats or snakes, to act as familiars. Since the Helvault held Avacyn, necromancers have found it easier to plunder graves, and ghouls now even rise by themselves across the plane.',
+        ],
+        ['Sources: ', 'Plane Shift: Innistrad'],
+      ],
       stats: {
         size: 'tiny',
         type: 'undead',

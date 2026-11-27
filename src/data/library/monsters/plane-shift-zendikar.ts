@@ -113,6 +113,17 @@ export default createPublicationMonsters({
       name: 'Archon of Redemption',
       alignment: 'lawful neutral',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A hooded human figure on a winged lion, though the two are one creature with a single mind.',
+        ],
+      ],
+      lore: [
+        [
+          'Archons embody the harsher side of white mana, namely rigid justice and ruthless punishment of lawbreakers. Like angels they serve the archangels. The book says its stats are close to those of a deva.',
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -390,6 +401,15 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['grassland', 'forest'],
+      appearance: [
+        ['A gigantic, ant-like creature that bores into stone, leaving strangely smooth walls.'],
+      ],
+      lore: [
+        [
+          "Black mana in Zendikar's swamps warps natural animals into large, deadly vermin. Caustic crawlers dig burrows in stone with acidic saliva, and the polished tunnels are easily taken for ancient construction. The book compares them to ankhegs. They are common in the swamps of Guul Draz.",
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1208,6 +1228,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['arctic'],
+      appearance: [
+        [
+          'A huge serpent-like creature something between a millipede and a crab or lobster, with small legs close to the body and six long jointed limbs around its head to drag prey in. It gives off infernal heat and its movement shakes the ground.',
+        ],
+      ],
+      lore: [
+        [
+          'Hellions live in the lava deep under Akoum. When an eruption sends lava up, they sometimes follow and, shocked by what feels like freezing air, rampage like a continuation of the flow. The book says remorhaz stats suit hellions of varied size.',
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -1285,6 +1316,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant'],
       habitats: ['hill'],
+      appearance: [
+        [
+          'A huge semi-humanoid that walks on enormously developed arms with tiny vestigial legs dangling beneath and a thick balancing tail.',
+        ],
+      ],
+      lore: [
+        [
+          "Hurdas are thought to be distant relatives of giants and mostly serve as heavy labourers, hauling stone, moving earth and pulling the Goma Fada caravan's carts. In effect they are pack animals, about as dull as a baloth though far easier to handle. Murasan hurdas are more aggressive and guard caravans, while Onduan ones are calmer. The book says hill giant stats work with a smash replacing the club.",
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -1982,6 +2024,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Giant'],
       habitats: ['forest', 'urban'],
+      appearance: [['A towering brute, perhaps with fire or necrotic magic.']],
+      lore: [
+        [
+          "Zendikar's ogres are cruel, greedy and savage, favouring the peaks of Akoum. Their leaders gather gangs of six to ten to pillage, extort or enslave. Rare cleverer ones master magic, such as red mana for fiery spells and volcanic forces, or black mana for necromancy and diabolism.",
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -2160,6 +2209,18 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A distorted, beastly humanoid with a grotesque head, long ears, spiky growths, large horns, spikes on back and arms, warped claws, leathery wings and glowing red or blue points for eyes. Skin may be dry and leathery or cold and stony. This describes Zendikar demons in general.',
+        ],
+      ],
+      lore: [
+        [
+          'Demons of Zendikar embody black mana, selfish desire and a hunger for power. Unlike angels they refuse society and alliances and hoard wealth, magic, land and slaves. They settle where black mana flows, often in ancient crypts or swampy ruins, and their presence defiles purity, spreads swamps and stirs restless dead. Horn size and number show age and power.',
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
+      habitats: ['Swamp', 'Crypts'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -2285,6 +2346,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: [],
       habitats: ['underdark', 'urban'],
+      appearance: [['A ghostly spirit trapped between life and death, destructive and hateful.']],
+      lore: [
+        [
+          'On Zendikar, black mana magic can strand spirits between the living and the dead, and these ghostly beings are as hateful as the magic that made them. Not every spirit is malevolent, and some linger to guard kin or sacred places.',
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2361,6 +2429,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Giant'],
       habitats: ['underdark', 'mountain', 'hill'],
+      appearance: [
+        [
+          'An enormous humanoid brigand of the Shatterskull tribe, more civilised than ogres but wilder than smaller peoples.',
+        ],
+      ],
+      lore: [
+        [
+          'The Shatterskull giants live among the Skyfang peaks of Murasa and are crude bandits, often extorting tolls from travellers on the dangerous pass that shares their name. They are stone giants and keep to tight-knit tribes far from other peoples.',
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2500,6 +2579,13 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Common', 'Sphinx'],
       habitats: ['desert'],
+      appearance: [['A mysterious sphinx of Zendikar, inscrutable and wise.']],
+      lore: [
+        [
+          'Sphinxes love gaining and keeping knowledge, not sharing or acting on it, and treat even conversation as an intellectual exercise, answering questions with questions or riddles. Their lairs are remote beautiful sites like waterfalls, high ledges and tiny islands, guarded from other sphinxes and big predators but not smaller visitors. A visitor who gets there may get an audience but is likely to leave without answers.',
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2773,6 +2859,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Draconic'],
       habitats: ['forest', 'swamp'],
+      appearance: [
+        [
+          'A hulking amphibian humanoid with broad shoulders and arms long enough to drag on the ground, webbed hands and feet, and long tusks jutting from a wide mouth.',
+        ],
+      ],
+      lore: [
+        [
+          'Surrakar come from Bala Ged and keep little in the way of culture and never wrote anything down. Some other peoples assume they are mere animals without real speech. The book compares them to lizardfolk.',
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3019,6 +3116,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: [],
       habitats: ['underdark', 'forest'],
+      appearance: [
+        [
+          "A creature lurking inside the hollow trunk of one of Zendikar's strange floating trees, which bursts out fast when prey comes near.",
+        ],
+      ],
+      lore: [
+        [
+          'Timbermaws live in hollow floating trees and ambush whatever wanders close. The book suggests running one with grick statistics, with its stone camouflage changed to blend into woodland.',
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3083,6 +3191,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant', 'Undercommon'],
       habitats: ['underdark'],
+      appearance: [['A deformed giant clambering up a canyon wall in search of prey.']],
+      lore: [
+        [
+          "Trench giants are exiles from the Turntimber tribe, driven out because the forest's mana twisted their bodies and minds. They live alone in Ondu's Makindi Trenches, do not consider themselves part of any tribe, and climb the canyon walls to hunt. The book says they can be played as fomorians, and their kin are like cloud giants.",
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3153,6 +3268,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["understands all languages it spoke in life but can't speak"],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A shrivelled, twisted body with unnatural strength and a featureless head except for a wide mouth of jagged teeth.',
+        ],
+      ],
+      lore: [
+        [
+          "When a vampire below bloodchief rank drains a living humanoid dry, the victim comes back as a null: a quicker, stronger sort of zombie that keeps the body's appetite but has lost its soul entirely. Nulls serve the vampire nobility without any will of their own, and the number a vampire commands signals status and power among the houses of Guul Draz.",
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3380,6 +3506,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       habitats: ['mountain', 'hill'],
+      appearance: [
+        [
+          'A huge reptile with tough scales and leathery wings, spines or plates down its back and usually large horns. It has a vaguely cat-like shape, with a long neck, a big head, a thick lashing tail, clawed limbs and a toothy mouth. A red glow like molten metal builds around its jaws before it breathes fire.',
+        ],
+      ],
+      lore: [
+        [
+          "Dragons embody red mana's chaos, ferocity and wild independence, and live in mountains where it is plentiful, especially Akoum, but never in large numbers. They are not clever, being only a little sharper than an ogre and ruled by instinct to hunt and guard territory. They are hot-tempered and tend to tear apart or burn anything they take for an enemy without asking questions. In flight one strafes the ground with fire to scorch as many foes as it can, and on the ground it sweeps its head back and forth, burning its enemies or laying a wall of burning earth to cover a retreat. Even young ones are bigger than a warhorse.",
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',

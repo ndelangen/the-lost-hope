@@ -350,6 +350,18 @@ export default createPublicationMonsters({
       name: 'Adult Sea Dragon',
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          "An aquamarine dragon with a shark's head, a sleek eel-like body, and broad fins that work as wings.",
+        ],
+      ],
+      lore: [
+        [
+          'Sea dragons see themselves as semi-divine children of the ocean and serve the sea god, often as his companions or mounts. They are playful, but their games can break hulls and drown crews. They hoard sturdy treasure from sunken ships and arrange wrecks around the lair as a kind of memorial, so they spot at once if anything is moved. Perishable loot is left on a reef altar as an offering. Many cast spells of water, weather, storms, divination or sea-creature summoning. In the Midgard setting they are offspring of the dragon god Seggotan and consider everything in the sea his property.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -550,6 +562,18 @@ export default createPublicationMonsters({
       name: 'Adult Void Dragon',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Draconic', 'Void Speech'],
+      appearance: [
+        [
+          'A dragon whose body looks like the night sky, with small stars glittering across it and two bright white stars for eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'Void dragons wander the empty reaches between the stars and mix only with otherworldly beings, barely noticing lesser visitors. They know a great deal, but staring into the void has eaten at them, and every one is unhinged. Their madness spills out in a rage and can break weaker minds. They hoard star-like gems and, most of all, forbidden and forgotten lore, and any violation of that collection sets off their madness. Their true lair lies in the airless dark between stars, and a void dragon living on the ground keeps a link to it. In Midgard they are the eldest children of the World Serpent Veles.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Mountain', 'Ruins'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -788,6 +812,18 @@ export default createPublicationMonsters({
       name: 'Al-Aeshma Genie',
       alignment: 'chaotic evil',
       languages: ['Auran', 'Common', 'Ignan'],
+      appearance: [
+        [
+          'A pitch-black genie whose lower body is a column of scorching wind, dust and sand, a cruel mockery of a djinni.',
+        ],
+      ],
+      lore: [
+        [
+          'Al-Aeshma are djinn who refused a wish, which broke the law of their kind. They lost their wish power, were handed to the efreet for 1,001 years of torment, and were then cast out onto the Material Plane. None has been forgiven. The ordeal left them mad, bitter and spiteful, and they torment every other genie, efreet included. They know many secrets and burn for revenge. Desert sand flows over their wounds and heals them, and only radiant or fire damage destroys one for good.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -957,6 +993,18 @@ export default createPublicationMonsters({
       name: 'Ala',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A hag-like upper body with wind-tossed hair and smoky black rags, set above a spinning funnel of air in place of legs. In a house, the walls groan as though a gale had hit.',
+        ],
+      ],
+      lore: [
+        [
+          'An ala is born when a treant dies of the gall she grew inside it, bursting out as a black whirlwind. She nests in lightning-struck hollow trees and is most active in thunderstorms, bringing hail and storms with her. Her appetite is huge, and she favours the flesh of innocents, so she hunts near settlements. Savage tribes may offer her captives to win favour. She fights on the move, clawing, biting with poison, or hurling lightning and hail, and storms overhead make her stronger. Six-fingered people can always see her whirlwind form.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -1391,6 +1439,18 @@ export default createPublicationMonsters({
       name: 'Ancient Sea Dragon',
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Infernal', 'Primordial'],
+      appearance: [
+        [
+          "An aquamarine dragon with a shark's head, a sleek eel-like body, and broad fins that work as wings.",
+        ],
+      ],
+      lore: [
+        [
+          'Sea dragons see themselves as semi-divine children of the ocean and serve the sea god, often as his companions or mounts. They are playful, but their games can break hulls and drown crews. They hoard sturdy treasure from sunken ships and arrange wrecks around the lair as a kind of memorial, so they spot at once if anything is moved. Perishable loot is left on a reef altar as an offering. Many cast spells of water, weather, storms, divination or sea-creature summoning. In the Midgard setting they are offspring of the dragon god Seggotan and consider everything in the sea his property.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1640,6 +1700,17 @@ export default createPublicationMonsters({
       name: 'Ancient Void Dragon',
       alignment: 'chaotic neutral',
       languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'Primordial', 'Void Speech'],
+      appearance: [
+        [
+          'A dragon whose body looks like the night sky, with small stars glittering across it and two bright white stars for eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'Void dragons wander the empty reaches between the stars and mix only with otherworldly beings, barely noticing lesser visitors. Having stared into the void, every one is unhinged, and the madness spills out when they rage. They hoard star-like gems and above all forbidden lore, and disturbing that collection inflames them. The book warns that an ancient void dragon is deadlier than its rating suggests: when it dies it can release a cosmic blast that may kill the party that slew it.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -2723,6 +2794,18 @@ export default createPublicationMonsters({
       name: 'Asanbosam',
       alignment: 'chaotic evil',
       languages: ['Giant'],
+      appearance: [
+        [
+          'A hairy hulk with bulging bloodshot eyes, like an ogre above the waist, but with long, flexible legs ending in iron hook-like talons. It often waits high in a tree.',
+        ],
+      ],
+      lore: [
+        [
+          "The asanbosam's hooks and fangs are iron, and they show its age: shiny grey in the young, rusty and discoloured in the old. It eats iron-rich foods and, when desperate, files iron from its own hooks. A taste for blood and flesh led folklore to call it a vampire, which is false. It lives in trees in nests or rough platforms of rope and plank. Tribes often include a spellcaster, so it does not fear magic.",
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -5587,6 +5670,18 @@ export default createPublicationMonsters({
       name: 'Crimson Drake',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic', 'telepathy 60 ft'],
+      appearance: [
+        [
+          "A drake whose scales match dried blood, with a lethal scorpion's sting on its tail and a wicked sparkle in its eye. It looks much like a pseudodragon or a tiny red dragon.",
+        ],
+      ],
+      lore: [
+        [
+          "Crimson drakes live in woods near small settlements and raid at night, setting fires and hunting those who run. Humanoid tribes prize them for it, and goblins adopt them as mascots. Red and flame dragons treat them as pets at best, and an insulted drake may set fires that lead hunters to the dragon's lair. It imitates a pseudodragon's call to draw victims close, then burns them. Some serve evil casters as familiars, too mischievous to trust but fierce in defence of a master.",
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -5963,6 +6058,18 @@ export default createPublicationMonsters({
       name: 'Deathcap Myconid',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        [
+          'A mushroom-headed being with white, grey or yellow-orange flesh and a cap that may be red with white spots, red with a brown edge, or blue-purple. Its fanged mouth looks vicious.',
+        ],
+      ],
+      lore: [
+        [
+          'Deathcaps are mainly farmers who tend fungal forests in the underworld and ally with darakhul ghouls, who cannot eat or convert them. Their fanged mouths only take in minerals and earth. The spores they release are poisonous and put creatures to sleep, which punishes attackers, but they are not very lethal alone, so they rely on allies such as beetles, ghouls or purple worms and run from constructs and undead. They live in clone groups called deathcap rings and are sometimes thought to be the mobile fruit of the forests they guard.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -6088,6 +6195,18 @@ export default createPublicationMonsters({
       name: 'Deep Drake',
       alignment: 'chaotic evil',
       languages: ['Common', 'Darakhul', 'Draconic', 'Undercommon'],
+      appearance: [
+        [
+          'A large drake with glassy black scales with purple undertones, elongated almost alien features, blank black eyes and a barbed stinger on a long tail.',
+        ],
+      ],
+      lore: [
+        [
+          "Deep drakes trade with the darakhul and other underworld peoples, and their poison keeps ghoul numbers up. Failed underlings become the drake's food. Unlike most drakes, they prefer aberrations and undead to humanoids, avoid sunlight and are nocturnal on the surface. They are rare and mate for life, laying a few eggs once every ten or twenty years. Underground cities sometimes raise the young as status symbols, and surface necromancers covet them.",
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -6217,6 +6336,18 @@ export default createPublicationMonsters({
       name: 'Degenerate Titan',
       alignment: 'chaotic evil',
       languages: ['Titan'],
+      appearance: [
+        [
+          'A giant that is still imposing despite its stooped posture, tattered clothes and mismatched scraps of armour.',
+        ],
+      ],
+      lore: [
+        [
+          'Degenerate titans are the fallen descendants of noble titans and haunt the ruins of their cities. They eat anything alive, including each other, are easily distracted and always find their way home. They are insane, moody and fiercely territorial, worshipping surviving magical devices and statues as gods. Their lairs are heaps of scavenged junk and treasure, which they cannot tell apart. They use crude earth-based magic rather than words of power.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -7048,6 +7179,18 @@ export default createPublicationMonsters({
       name: 'Drakon',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A winged snake of the coasts, easily mistaken for a dragon or wyvern, though it is neither.',
+        ],
+      ],
+      lore: [
+        [
+          "A drakon's attacks are boosted by acid constantly welling up from its stomach rather than venom. Its bites leave caustic drool, it can belch clouds of searing vapour, and its gaze can paralyse and dissolve creatures. Its lair stinks of acid fumes. It lairs on warm, mostly empty coasts, spending as much time over the waves as under them, and seldom goes far inland.",
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -8439,6 +8582,17 @@ export default createPublicationMonsters({
       name: 'Firegeist',
       alignment: 'neutral evil',
       languages: ['Primordial'],
+      appearance: [
+        [
+          'Wisps of black smoke and brighter flame gathered into a vague humanoid shape that always glows faintly, as a shuttered lantern does. It can burn bright or turn dark and smoky at will.',
+        ],
+      ],
+      lore: [
+        [
+          'A firegeist is what returns when a summoned fire elemental is destroyed in an especially humiliating way away from its home plane. It is spiteful and resentful, a lesser version of its proud former self, and exists for revenge. It cannot tell one humanoid from another, so burning any flammable creature will satisfy it.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -8728,6 +8882,17 @@ export default createPublicationMonsters({
       name: 'Flutterflesh',
       alignment: 'chaotic evil',
       languages: ['Common', 'Darakhul'],
+      appearance: [
+        [
+          'A mass of fused corpses shaped like a butterfly, with skin for wings, bone limbs and a head made of several skulls, wrapped in hungry dark magic.',
+        ],
+      ],
+      lore: [
+        [
+          'A flutterflesh is born when worshippers of a dark god, a lich or a madman merge their bodies and souls into a single wicked being. It fuses freshly severed limbs onto itself by some unknowable taste. Its cruelty is to offer prey a choice between death and losing a limb, so a place where many locals lack limbs may be its home.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -13356,6 +13521,18 @@ export default createPublicationMonsters({
       name: 'Mindrot Thrall',
       alignment: 'neutral',
       languages: ['understands Common but cannot speak'],
+      appearance: [
+        [
+          'A heavily cloaked figure that stinks of rot and trails a cloud of spores. Under the cloak its skin is tight and waxy with blisters beneath.',
+        ],
+      ],
+      lore: [
+        [
+          "Mindrot is a hive-mind fungus that eats creatures from inside, entering the brain through the spores a victim breathes. It takes over movement first while the victim stays awake and aware, then replaces flesh with fungal fibre until the host looks nothing like itself, so the thrall hides under robes to travel. Blisters the size of a child's fist burst and spray spores, and it tries to infect as many people as it can in the few weeks it lasts before shrivelling to a husk, though even that husk can infect for months.",
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -14882,6 +15059,17 @@ export default createPublicationMonsters({
       name: 'Ostinato',
       alignment: 'chaotic neutral',
       languages: ['telepathy 200 ft'],
+      appearance: [
+        [
+          'A catchy looping melody with no visible source, wandering and shifting through empty air as if it were dancing.',
+        ],
+      ],
+      lore: [
+        [
+          'Ostinatos are living music born from overwrought emotion, and they drain the life and character of mortals. They drift through the world as short repeating snatches of song, in search of hosts and plentiful prey. They slip into hosts unnoticed so they can feast as long as possible.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -16105,6 +16293,18 @@ export default createPublicationMonsters({
       name: 'Sand Silhouette',
       alignment: 'neutral evil',
       languages: ['all languages it knew in life'],
+      appearance: [
+        [
+          'A shadow stretched along the ground whose erratic movements are hard to follow. Disturbed, it whirls the sand into a loose vortex shaped like its living body.',
+        ],
+      ],
+      lore: [
+        [
+          'Sand silhouettes are spirits of people who died desperate in sandy ground: swallowed by sandstorms, dumped down dry wells or caught under collapsing dunes. They glide through sand leaving no sign, so they can strike travellers from below without warning.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -16688,6 +16888,18 @@ export default createPublicationMonsters({
       name: 'Sathaq Worm',
       alignment: 'neutral evil',
       languages: ['understands Deep Speech and Terran', "but can't speak"],
+      appearance: [
+        [
+          'A titanic worm with a stone-hard rocky hide studded with rocks, whose open gullet writhes with small worms like it.',
+        ],
+      ],
+      lore: [
+        [
+          "These terrifying hunters come from the elemental plane of earth and eat rock and meat equally. They are loners that meet only to mate. The young grow inside the parent's throat, so a swallowed victim is both digested and eaten by the brood. High-pitched sound and magical shudders that rend flesh around the creature make being near it very unpleasant on the Material Plane.",
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'huge',
         type: 'elemental',
@@ -16885,6 +17097,18 @@ export default createPublicationMonsters({
       name: 'Sea Dragon Wyrmling',
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Primordial'],
+      appearance: [
+        [
+          "An aquamarine dragon with a shark's head, a sleek eel-like body and large fins that double as wings.",
+        ],
+      ],
+      lore: [
+        [
+          'Sea dragons think themselves semi-divine, children of the ocean, and often accompany or carry sea gods. They are capricious and fun-loving, though a game can wreck a ship and drown its crew, and they hunt whales and tuna schools joyfully. They hoard treasure, especially sunken ships, preferring items that survive seawater, and put perishable items on a reef altar. All serve Seggotan, so many cast water, weather and storm spells. This text covers sea dragons generally.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -20334,6 +20558,17 @@ export default createPublicationMonsters({
       name: 'Uraeus',
       alignment: 'lawful neutral',
       languages: ["understands Celestial and Common but can't speak"],
+      appearance: [
+        [
+          'A flying cobra with rich blue scales flecked in gold, gleaming white eyes and a pair of feathered bronze wings. It glides with a watchful poise, flares its hood and hisses, throwing a spray of orange sparks.',
+        ],
+      ],
+      lore: [
+        [
+          'A uraeus is a celestial carrying a spark of divine fire, and it arrives on the Material Plane hungry for a purpose, whether it was called or drifted in. Protection is what it was made for. When it picks out a ward worth guarding, it lends that ward its fiery breath and burning venom, and is utterly devoted to it. Only terrible cruelty or true wickedness in the ward will make it abandon the bond.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'tiny',
         type: 'celestial',
@@ -20830,6 +21065,18 @@ export default createPublicationMonsters({
       name: 'Venomous Mummy',
       alignment: 'lawful evil',
       languages: ['the languages it knew in life'],
+      appearance: [
+        [
+          'A shambling warrior corpse in stained linen wrappings, with green liquid dripping from tears in the cloth.',
+        ],
+      ],
+      lore: [
+        [
+          'Priests of the scorpion goddess Selket make these mummies to watch over her sacred places and tombs and to act as her instruments of revenge. If she or her followers feel insulted by someone or a whole settlement, they carry out hazardous rites to rouse one from the crypts under her temples. It relishes punishing anyone who shows her disrespect. Normally only the guilty are hunted, but if the priests decide a whole town has turned heretical, mummies may be loosed on all its people. Setting one alight is unwise, because the smoke is poisonous.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Temple', 'Tomb'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -21486,6 +21733,18 @@ export default createPublicationMonsters({
       name: 'Water Leaper',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          "A legless, frog-headed creature with wide batlike wings, a gaping mouth, a shriek like a hawk's, and a long tapering tail ending in a venomous barb.",
+        ],
+      ],
+      lore: [
+        [
+          'Water leapers plague freshwater lakes and rivers, gliding below the surface on their membranous wings as well as taking to the air. They prey on animals coming to drink and on fishermen working their territory. Anglers tell of waters famous for snapped lines and vanished bait and keep clear. Anyone who disregards the warnings disappears, and all that is found afterwards is an empty boat drifting.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Lake', 'River'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -22006,6 +22265,18 @@ export default createPublicationMonsters({
       name: 'Xanka',
       alignment: 'unaligned',
       languages: ["Understands the languages of its creator but can't"],
+      appearance: [
+        [
+          'A small metal ball that scuttles on many-jointed legs, usually copper, brass or bronze, though nobles and rich merchants may own gold, silver or platinum ones.',
+        ],
+      ],
+      lore: [
+        [
+          'Gnomish tinkerers build xanka as cleaning constructs for messy workshops, and gnomes also use them to keep halls and streets free of rubbish. They obey only simple commands about waste removal and communicate with each other in a way nobody understands. Touching matter makes one absorb and break it down into energy so it can look for more. They are not made to fight, so they hide when threatened but defend themselves when cornered.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Workshop', 'City'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -22476,6 +22747,18 @@ export default createPublicationMonsters({
       name: 'Young Sea Dragon',
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          "An aquamarine dragon with a shark's head and a slim, eel-like body, its broad fins doubling as wings.",
+        ],
+      ],
+      lore: [
+        [
+          'Sea dragons regard themselves as semi-divine offspring of the ocean, deserving worship, and are often companions or mounts of sea gods. They are whimsical and playful, but their games can splinter hulls and drown sailors, and they surge through the waves joyfully while hunting whales and whole tuna shoals. They hoard treasure, above all in sunken ships, and prefer hardy goods such as precious metals and gems, laying perishable loot on a reef altar to melt away as an offering to the sea gods. Their lairs hold carefully arranged wrecks, so a dragon notices at once if its hoard is disturbed. They worship Seggotan, and favour spells of water, weather, storms, lightning, cold, divination and summoning sea creatures. In Midgard they back the Mharoti Empire. Lairs lie underwater, close to trade routes and fish, under stormy skies.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Ocean', 'Reef'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -22579,6 +22862,18 @@ export default createPublicationMonsters({
       name: 'Young Void Dragon',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Draconic', 'Void Speech'],
+      appearance: [
+        [
+          'A dragon that seems made of the night sky, with bright white stars for eyes and smaller stars glittering across its body.',
+        ],
+      ],
+      lore: [
+        [
+          'Void dragons wander the empty reaches beyond the mortal world, aloof, keeping company only with otherworldly beings and the living stars. Visitors barely register. They are deeply knowledgeable but have seen too much, and a fragment of the nothing outside eats at them. All are unhinged, and in a rage that madness spills out and breaks lesser minds. They hoard gems that sparkle like stars but prize knowledge above all, gathering fragments of banned and lost knowledge, and any violation of that hoard sets off their madness. In Midgard they are the first-born of Veles, the World Serpent, worshipped as divine, and some tales say they taught elves magic. The true lair is out in the cold, airless gulf between the stars, and a home taken elsewhere stays linked to it, so strange intrusions and a hunger for forbidden knowledge gather around it.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Void', 'High mountains'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -22714,6 +23009,16 @@ export default createPublicationMonsters({
       name: 'Zanskaran Viper',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['An enormous snake with dagger-sized fangs dripping green venom, showing little fear.'],
+      ],
+      lore: [
+        [
+          'Among the deadliest of snakes, and rare among serpents in being willing to hunt a grown human. A single bite can kill a healthy person within moments, and its tough skin means it is not quickly killed. It grows fast in the jungle, and some wander onto the savannah to hunt antelope and young giraffes. Its thick green venom sells for a great deal on the black market but is seldom on offer.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Jungle', 'Savannah'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -23073,6 +23378,18 @@ export default createPublicationMonsters({
       name: 'Zmey',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic', 'Elvish', 'Sylvan'],
+      appearance: [
+        [
+          'A three-headed dragon with dappled black and green scales that walks upright through the forest, spiked tail thrashing. Each head is identical and menacing, with frilled spiny membranes, long pale teeth, a forked tongue and eyes burning red.',
+        ],
+      ],
+      lore: [
+        [
+          "The zmey is both a vicious terror and a protector of nature, hunting under forest canopy, lurking in lakes and guarding treasure caves. It is single-mindedly destructive toward anyone who intrudes on the forest's heart. Rumour says the forest itself controls it, or that it has a pact with certain druids, and it is clever enough to destroy bridges, dams and logging camps in its territory. It avoids its own kind and hunts alone, eating any organic matter but preferring large birds and mammals, believing intelligent prey tastes better, so alseids, halflings and gnomes are favourites. A severed head grows a stunted body and claws, becomes a small zmey within days and in about two months regrows into a full three-headed adult.",
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Forest', 'Lake'],
       stats: {
         size: 'huge',
         type: 'dragon',

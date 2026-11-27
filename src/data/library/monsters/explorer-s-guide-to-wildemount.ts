@@ -5139,6 +5139,14 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['any two languages'],
       tableNotes: [['Applied the named source templates to the base creature.']],
+      appearance: [["A pale, spotted tabaxi, a bandit captain with a pirate's swagger."]],
+      lore: [
+        [
+          'Three Earrings holds a junior rank among the Revelry pirates. She sailed to Palma Flora after hearing a local sahuagin tribe had found an unusual treasure. She guessed they would raid the village and meant to loot whatever remained afterward. She did not expect Flora Isle to sink.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'medium',
         type: 'humanoid',

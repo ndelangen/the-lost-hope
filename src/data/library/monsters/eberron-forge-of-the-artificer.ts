@@ -891,6 +891,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Halfling'],
       tableNotes: [['Gear: breastplate']],
+      appearance: [
+        ['A medic from House Jorasco whose healing magic can flare into dazzling light.'],
+      ],
+      lore: [
+        [
+          'During the Last War, healers of House Jorasco accompanied the armies of every nation and treated the wounded. Nations regarded them as off limits to attack, and the medics learned to turn their healing power into blinding light to reach the injured and slip out of the thick of combat when needed.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -974,6 +983,13 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'neutral',
       languages: ['Common', 'Dwarvish'],
+      appearance: [['A dragonmarked dwarf, most likely, serving House Kundarak as a vault guard.']],
+      lore: [
+        [
+          "Some House Kundarak heirs guard its vaults, its storehouses and the prison Dreadhold. Some also work for the Ghorad'din, a secretive group of spies and assassins hardly known outside the house. Wardens are skilled at bypassing security as well as strengthening it.",
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1119,6 +1135,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Elvish'],
       tableNotes: [['Gear: wand']],
+      appearance: [
+        [
+          'A Khoravar of House Lyrandar who commands wind, thunder and lightning, whether as a sky captain or as a cultist of the Hurricane Harvest.',
+        ],
+      ],
+      lore: [
+        [
+          "House Lyrandar scions include dashing air captains, ocean adventurers and the Hurricane Harvest cult. The cult holds that the Mark of Storm belongs to the Devourer and was never the Sovereign Host's gift, and that great ancestors live on as krakens who send visions urging destruction and rule. It sometimes partners with deep-sea monsters such as kuo-toa and sahuagin.",
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1372,6 +1399,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common plus two other languages'],
       tableNotes: [['Gear: dagger, studded leather armor']],
+      appearance: [['A dragonmarked House Orien guard, most likely human.']],
+      lore: [
+        [
+          "Enforcers ride Orien carts, guard the lightning rail on long journeys and use Orien teleportation circles to move valuable parcels at once. They protect the house's interests and its name for reliability.",
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1490,6 +1524,13 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Common plus two other languages'],
       tableNotes: [['Gear: longsword, pistol, studded leather armor']],
+      appearance: [['A House Deneith lawman, typically human.']],
+      lore: [
+        [
+          "Sentinel Marshals carry the house's honour and, under the Treaty of Thronehold, may pursue criminals across borders. Only the most trusted heirs join, usually after years as bodyguards or mercenary officers or by special dispensation. They may not break laws but answer to no nation's authorities, and only Deneith leadership can punish a rogue one, though Darguun and Droaam ignore this.",
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1654,6 +1695,13 @@ export default createPublicationMonsters({
       tags: ['gnome'],
       alignment: 'neutral',
       languages: ['Common', 'Gnomish plus three other languages'],
+      appearance: [['A gnome scholar of magic with a dragonmark.']],
+      lore: [
+        [
+          'House Sivis heirs are usually accomplished gnome magic scholars who like to use sigils and power words in addition to their marks.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

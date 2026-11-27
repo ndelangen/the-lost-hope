@@ -185,6 +185,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['all'],
       habitats: ['any'],
+      appearance: [
+        ['A floating glyph, a mote of colour, an icon of divinity or some stranger shape.'],
+      ],
+      lore: [
+        [
+          "An iota is a fragment of a god's thinking, memory or passing notice that has been given shape and a degree of independence. They serve as messengers for the gods and assistants to their servants. Each has its own knowledge and personality, though it may know little beyond its creator's realms and wishes.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',

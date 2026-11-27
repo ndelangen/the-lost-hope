@@ -6762,6 +6762,18 @@ export default createPublicationMonsters({
       tags: ['vampire', 'wizard'],
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Draconic', 'Elvish', 'Giant', 'Infernal'],
+      appearance: [
+        [
+          'Strahd carries himself as the noble prince and conqueror he once was, a vampire lord who regards lesser folk with disinterest.',
+        ],
+      ],
+      lore: [
+        [
+          "Strahd von Zarovich is Barovia's Darklord, and little happens in the realm without his knowledge, though he ignores affairs he finds beneath him. In life he was a prince and soldier whose hunger for power led him to bargain with the Dark Powers for eternal life. In a jealous rage he killed his brother Sergei, and Sergei's betrothed Tatyana threw herself from a tower and vanished into the Mists. The Dark Powers now keep him bound to his domain, and he passes the time tormenting its people and enjoying their dread and worship.",
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Barovia'],
       stats: {
         size: 'medium',
         type: 'undead',

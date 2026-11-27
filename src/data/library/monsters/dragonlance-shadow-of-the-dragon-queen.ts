@@ -5085,6 +5085,16 @@ export default createPublicationMonsters({
       name: 'Wersten Kern',
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal', 'Solamnic'],
+      appearance: [
+        ['An undead knight carrying a wicked pike with a black rose banner streaming from it.'],
+      ],
+      lore: [
+        [
+          "Wersten is Lord Soth's champion and standard bearer. Like many of his knights she perished beside him in the Cataclysm and was cursed to remain undead. Her cries in battle can stop the hearts of mighty fighters. She obeys Soth absolutely and will serve him until she meets a second doom.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ["Knight's Spur"],
       stats: {
         size: 'medium',
         type: 'undead',

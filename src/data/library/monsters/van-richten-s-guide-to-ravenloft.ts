@@ -3068,6 +3068,18 @@ export default createPublicationMonsters({
     vampiric_mind_flayer: {
       name: 'Vampiric Mind Flayer',
       languages: ['telepathy 120 ft'],
+      appearance: [
+        [
+          'A ghoulish, feral mind flayer, horrifying to see, that bombards everything nearby with a static of vivid mental images.',
+        ],
+      ],
+      lore: [
+        [
+          "The mind flayers of Bluetspur could not cure their overlord's affliction, so the degenerating elder brain tried desperate measures and spawned these creatures from tadpoles infected with vampirism. Their single purpose is to drain cerebral fluid from thinking minds, after which they go back to the Elder Brain, which liquefies them to release the stolen essences in a hormone brine. That only delays its decline. They are unstable in body and mind, let nothing come between them and their compulsions, and cannot use telepathy properly, so they blast nearby creatures with chaotic mental noise. Other mind flayers find them abominations.",
+        ],
+        ['Sources: ', 'Van Richten’s Guide to Ravenloft'],
+      ],
+      habitats: ['Bluetspur'],
       stats: {
         size: 'medium',
         type: 'undead',

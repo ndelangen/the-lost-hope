@@ -734,6 +734,15 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['all', 'telepathy 120 ft'],
       habitats: ['grassland', 'forest', 'urban', 'desert'],
+      appearance: [
+        ["A winged serpent that twists through the air in the shape of a river's course."],
+      ],
+      lore: [
+        [
+          "River Heralds believe the sky and rivers' wisdom lives in coatls, immortal guardians of the sky that stay among the clouds. The wisest merfolk shamans may coax one down with earnest prayer. They are held to be wise beyond mortals and unable to lie, so desperate people seek their advice. Seeing one is thought to promise good winds, a belief now spreading to the Brazen Coalition's pirates.",
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -875,6 +884,14 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft'],
+      appearance: [['A demon like a twisted bat.']],
+      lore: [
+        [
+          "Ixalan's demons are spawn of a bat-god who is the source of all darkness, and they are enemies of the sun. Where the sun consumes in fire, they work through rot and decay. They are active at night, trying to stop the sun rising, and spread plague and corruption. They lurk in dark places such as ancient ruins and crypts. The book suggests the vrock as a stand-in.",
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1065,6 +1082,18 @@ export default createPublicationMonsters({
       tags: ['titan'],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Huge and scaled in dull grey, with bright golden feathers that match the city of Orazca.',
+        ],
+      ],
+      lore: [
+        [
+          'Elder dinosaurs are huge, ancient beasts revealed when the golden city of Orazca opened, seemingly preserved for centuries. They have duller grey scales than their smaller cousins and bright golden feathers matching the city. They are strong-willed and fierce, hard to command, but the Immortal Sun lets Sun Empire warriors bring them to heel.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -1210,6 +1239,18 @@ export default createPublicationMonsters({
       tags: ['titan'],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Huge and scaled in dull grey, with bright golden feathers that match the city of Orazca.',
+        ],
+      ],
+      lore: [
+        [
+          'Elder dinosaurs are huge, ancient beasts revealed when the golden city of Orazca opened, seemingly preserved for centuries. They have duller grey scales than their smaller cousins and bright golden feathers matching the city. They are strong-willed and fierce, hard to command, but the Immortal Sun lets Sun Empire warriors bring them to heel. This one is Etali, Primal Storm, one of the six; the book gives no separate description.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -1400,6 +1441,18 @@ export default createPublicationMonsters({
       tags: ['titan'],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Huge and scaled in dull grey, with bright golden feathers that match the city of Orazca.',
+        ],
+      ],
+      lore: [
+        [
+          'Elder dinosaurs are huge, ancient beasts revealed when the golden city of Orazca opened, seemingly preserved for centuries. They have duller grey scales than their smaller cousins and bright golden feathers matching the city. They are strong-willed and fierce, hard to command, but the Immortal Sun lets Sun Empire warriors bring them to heel. This one is Ghalta, Primal Hunger, one of the six; the book gives no separate description.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -1589,6 +1642,18 @@ export default createPublicationMonsters({
       tags: ['titan'],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Huge and scaled in dull grey, with bright golden feathers that match the city of Orazca.',
+        ],
+      ],
+      lore: [
+        [
+          'Elder dinosaurs are huge, ancient beasts revealed when the golden city of Orazca opened, seemingly preserved for centuries. They have duller grey scales than their smaller cousins and bright golden feathers matching the city. They are strong-willed and fierce, hard to command, but the Immortal Sun lets Sun Empire warriors bring them to heel. This one is Nezahal, Primal Tide, one of the six; the book gives no separate description.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -1758,6 +1823,18 @@ export default createPublicationMonsters({
       tags: ['titan'],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Huge and scaled in dull grey, with bright golden feathers that match the city of Orazca.',
+        ],
+      ],
+      lore: [
+        [
+          'Elder dinosaurs are huge, ancient beasts revealed when the golden city of Orazca opened, seemingly preserved for centuries. They have duller grey scales than their smaller cousins and bright golden feathers matching the city. They are strong-willed and fierce, hard to command, but the Immortal Sun lets Sun Empire warriors bring them to heel. This one is Tetzimoc, Primal Death, one of the six; the book gives no separate description.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -1984,6 +2061,18 @@ export default createPublicationMonsters({
       tags: ['titan'],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Huge and scaled in dull grey, with bright golden feathers that match the city of Orazca.',
+        ],
+      ],
+      lore: [
+        [
+          'Elder dinosaurs are huge, ancient beasts revealed when the golden city of Orazca opened, seemingly preserved for centuries. They have duller grey scales than their smaller cousins and bright golden feathers matching the city. They are strong-willed and fierce, hard to command, but the Immortal Sun lets Sun Empire warriors bring them to heel. This one is Zacama, Primal Calamity, one of the six; the book gives no separate description.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -2142,6 +2231,18 @@ export default createPublicationMonsters({
       tags: ['titan'],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Huge and scaled in dull grey, with bright golden feathers that match the city of Orazca.',
+        ],
+      ],
+      lore: [
+        [
+          'Elder dinosaurs are huge, ancient beasts revealed when the golden city of Orazca opened, seemingly preserved for centuries. They have duller grey scales than their smaller cousins and bright golden feathers matching the city. They are strong-willed and fierce, hard to command, but the Immortal Sun lets Sun Empire warriors bring them to heel. This one is Zetalpa, Primal Dawn, one of the six; the book gives no separate description.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -2766,6 +2867,15 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['mountain', 'grassland', 'hill', 'coastal', 'arctic'],
+      appearance: [
+        ["A griffin combining a jungle parrot's head and plumage with a jaguar's sleek body."],
+      ],
+      lore: [
+        [
+          "Ixalan's griffins are intelligent and noble. They share the River Heralds' wish that the Immortal Sun's power never be unleashed again.",
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3386,6 +3496,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['forest', 'swamp'],
+      appearance: [['An elemental formed of verdant growth, released when a jade totem opens.']],
+      lore: [
+        [
+          'The River Heralds make jade totems holding elementals dormant until trespassers trigger them, when the elemental assembles and kills the intruders. The book treats these as similar to ordinary elementals or plant creatures such as shambling mounds.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
       stats: {
         size: 'large',
         type: 'plant',
@@ -3462,6 +3579,18 @@ export default createPublicationMonsters({
       name: 'Stone Guardian (Animated Armor)',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A suit of carved stone armour stands motionless in a doorway or alcove, so still it passes for decoration until it turns its head.',
+        ],
+      ],
+      lore: [
+        [
+          'The priests of the old Sun Empire made these guardians to watch over their cities and temples, and the Immortal Sun lent them movement, sharp senses and enough thought to follow orders. They never tire and never leave their post. Most have gone inert as the magic faded, but any statue could be a dead one or a patient one that wakes only when a threat arrives and then drives it off. Treat this armour as one of those sentries.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Ruins', 'Temple'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3533,6 +3662,18 @@ export default createPublicationMonsters({
       name: 'Stone Guardian (Helmed Horror)',
       alignment: 'neutral',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A hulking figure of worked stone in a helm and war gear, standing like a monument in an ancient hall until something intrudes.',
+        ],
+      ],
+      lore: [
+        [
+          "This is one of the sentries the Sun Empire's priests raised to guard cities and temples, animated by the Immortal Sun with awareness and a limited ability to reason. It stays alert without rest and holds to its orders without wavering. Many of its kind have fallen dormant as the old magic drained away, so explorers cannot tell a broken statue from one that is merely waiting to act on a threat. If it does wake, its purpose is to drive intruders out.",
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Ruins', 'Temple'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3604,6 +3745,18 @@ export default createPublicationMonsters({
       name: 'Stone Guardian (Stone Golem)',
       alignment: 'unaligned',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A towering carved giant of stone, easily mistaken for part of the architecture, with a stillness that makes it seem a statue until it moves.',
+        ],
+      ],
+      lore: [
+        [
+          "The Sun Empire's priests built stone guardians like this one to protect their cities and temples, and the Immortal Sun gave them movement, keen senses and a limited capacity to think so they could carry out their orders. They watch without sleeping and do not waver from their duty. In far-off ruins and even parts of the golden city the magic has faded and most are inert. A statue could be lifeless stone, or a sentry that stays put until danger shows and only then moves to chase it off.",
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Ruins', 'Temple'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -3691,6 +3844,14 @@ export default createPublicationMonsters({
       name: 'Sunbird',
       alignment: 'unaligned',
       languages: ['Giant Owl', "understands Common but can't speak it"],
+      appearance: [['A great phoenix wreathed in sun fire, its plumage blazing like a small sun.']],
+      lore: [
+        [
+          "The Sun Empire treats phoenixes, called sunbirds, as messengers of Tilonalli, standing for both the sun's destructive side and the renewal that follows. Dinosaurs get their own reverence there, but the sunbird's role is this one. Legends say a scaled bird of sun fire named Xuatl sleeps in the mountains and sheds its skin and feathers in summer, often setting trees and slopes alight.",
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -3882,6 +4043,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic good',
       languages: ['Common', 'Druidic', 'Elvish', 'Sylvan'],
       habitats: ['forest'],
+      appearance: [
+        [
+          'A mass of living vegetation that assembles itself out of an opened jade totem to attack intruders.',
+        ],
+      ],
+      lore: [
+        [
+          "The River Heralds make jade totems that keep elementals dormant until trespassers trigger them. When a totem opens, the elemental forms and quickly deals with the intruders. They also use air, water and plant elementals. The book says Monster Manual elementals and plant creatures can represent Ixalan's, naming treants and blights among the options.",
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -4154,6 +4326,15 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Aquan'],
       habitats: ['underwater', 'swamp', 'coastal'],
+      appearance: [
+        ['Water gathers into a physical form out of an opened jade totem to attack intruders.'],
+      ],
+      lore: [
+        [
+          "The River Heralds carve jade totems that keep elementals dormant until trespassers set them off. Once a totem opens, the elemental's body takes shape and swiftly disposes of the intruders. The book suggests using Monster Manual elementals and plant creatures for Ixalan's, with ordinary air, earth and water elementals the nearest match for the totems.",
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',

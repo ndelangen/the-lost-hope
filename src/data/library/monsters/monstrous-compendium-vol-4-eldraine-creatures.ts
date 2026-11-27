@@ -1647,6 +1647,17 @@ export default createPublicationMonsters({
       name: 'Nightmare Haunt',
       alignment: 'neutral evil',
       languages: ['Deep Speech', 'telepathy 120 ft'],
+      appearance: [
+        [
+          "A horrifying shadow creature shaped by its victim's fears, often multi-limbed with an inhuman face like the Phyrexian invaders, with smoky purple energy rising from it.",
+        ],
+      ],
+      lore: [
+        [
+          "These are terrors drawn from the dreams of Eldraine's sleepers, made real by the planeswalker Ashiok. They harm bodies and attack the minds of those under the Wicked Slumber, a sleeping curse made by the fae monarch Talion and three witch sisters against the Phyrexians that still spreads, hindered by Ashiok and the witch Eriette.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',

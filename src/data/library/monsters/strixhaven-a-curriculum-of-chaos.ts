@@ -5248,6 +5248,18 @@ export default createPublicationMonsters({
       tags: ['human', 'warlock'],
       alignment: 'neutral evil',
       languages: ['Common plus any four languages'],
+      appearance: [
+        [
+          'A mage in a mask that hides their identity, enchanted to work only for its intended wearer.',
+        ],
+      ],
+      lore: [
+        [
+          "The Oriq are a hidden brotherhood of mages using forbidden magic for Extus Narr. The Founder Dragons chose Jadzi over him as Strixhaven's Oracle, and his resentment has no limit. He now directs the Oriq to collect the spells and magical energy needed to summon the Blood Avatar and wreck Strixhaven. They slip into the university to hunt for magic and for impressionable students and bitter staff to recruit. They hide their allegiance and wear masks. This is general text on the Oriq and says nothing specific about Y'demi.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'medium',
         type: 'humanoid',

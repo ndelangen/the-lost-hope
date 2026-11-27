@@ -7336,6 +7336,14 @@ export default createPublicationMonsters({
       tags: ['luma'],
       alignment: 'lawful neutral',
       languages: ['Birdfolk', 'Hedge', "understands Auran but can't speak it"],
+      appearance: [["A sera luma who flits about with a notepad, tending a boutique's stock."]],
+      lore: [
+        [
+          "Zifa runs the Zephyr and Co. shop for fine goods in Alderheart's Canopy Market, and is its standout manager. She looks after her most important customers in person, and otherwise checks inventory and prepares the shop for the next season's arrivals.",
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Alderheart'],
       stats: {
         size: 'small',
         type: 'humanoid',

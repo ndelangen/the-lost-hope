@@ -2527,6 +2527,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['telepathy 120 ft'],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A cone-shaped body that undulates through the air, with a wide flat mouth at the front surrounded by four slender arms and a venomous stinger at the tapering tail.',
+        ],
+      ],
+      lore: [
+        [
+          'Phaerimm are malevolent aliens who want to dominate other thinking species and are obsessed with magic. They ruined the Netherese empire long ago and were sealed beneath the Anauroch desert, where they plot a return. Agents go about the surface world looking for powerful magic they can use to rule others, using the stinger only when magic fails.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -3489,6 +3500,13 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic', 'Infernal'],
+      appearance: [['A charming, handsome facade over a morbid fascination with undead dragons.']],
+      lore: [
+        [
+          "Sammaster founded the Cult of the Dragon to turn living dragons into undead heirs to a lifeless world. A brilliant dragon-focused wizard, he studied under archmages including Elminster, then invented the dracolich process, bound dragons to himself and learned to drive them berserk. Slain centuries ago, he returned as a lich tied to a dracolich form, with a soul gem for a phylactery. He keeps moving, checks on key plots in person, and trusts only the cult's inner circle. He is fully destroyed only by killing the dracolich and then shattering the soul gem.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',

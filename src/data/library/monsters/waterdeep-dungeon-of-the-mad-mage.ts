@@ -5430,6 +5430,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['the languages it knew in life'],
       habitats: ['urban'],
+      appearance: [['A vampire cleric of Shar, once a Waterdeep street child turned adventurer.']],
+      lore: [
+        [
+          "Keresta grew up poor in Waterdeep and went to Undermountain for fortune, where a vampire killed her and made her its spawn. After Vanrak destroyed that vampire he took her in, and grief and darkness drew her to Shar until she rose to vampire cleric. She leads Shar's twisted cult in Vanrakdoom and wants to send the party against Lathander's temple in Waterdeep, the Spires of the Morning, and also hopes to ruin Selune's temple there, the House of the Moon, whom she blames for Vanrak Moonstar's destruction.",
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -8982,6 +8989,18 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Dwarvish'],
       tableNotes: [['Applied the named source templates to the base creature.']],
+      appearance: [
+        [
+          "A dwarf who was once a champion of the god of vigilance, now a grim executioner serving Undermountain's master.",
+        ],
+      ],
+      lore: [
+        [
+          "Thwad Underbrew was a champion of Gorm Gulthyn who set out to end Halaster Blackcloak's evil in Undermountain. Halaster beat him but offered his life in exchange for service as an enforcer who deals with other invaders. Afraid to die, Thwad agreed, and he persuaded himself his executions were mercy because the dead would never have to betray their beliefs as he did. In time the guilt faded and he began to take pleasure in the killing.",
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
+      habitats: ['Undermountain'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -10485,6 +10504,16 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common', 'Druidic', 'Elvish'],
       tableNotes: [['Applied the named source templates to the base creature.']],
+      appearance: [
+        [
+          'A moon elf druid whose eyes are the green of emeralds, with butterflies nesting among her black snarled hair and small critters crowding round her feet.',
+        ],
+      ],
+      lore: [
+        ['The text gives only her looks and no further background.'],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
+      habitats: ['Undermountain'],
       stats: {
         size: 'medium',
         type: 'humanoid',

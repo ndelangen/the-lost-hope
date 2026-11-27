@@ -657,6 +657,13 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common', 'Elvish', 'Sylvan'],
+      appearance: [['A dryad, supported at her side by a plant servant called Logger.']],
+      lore: [
+        [
+          'Anthracia attacked the first mortals to fell a forest for a road, and archfey imprisoned her for it in the crystal Gemhollow in Arcadia. Elves freed her after millennia, and she now leads the Wilderkith, a band that burns and razes civilisation so nature can reclaim it. The book warns that this is a terrorist theme and offers softer options. She is charming to followers and cruel to enemies, sees murder as part of nature, and treats even her followers as expendable. She guards her hidden dryad tree and commands the field from afar, using her bond with the earth to lock down ground and steer movement.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -818,6 +825,18 @@ export default createPublicationMonsters({
         ],
         ['Condition immunities also include Dazed and Flanked (MCDM conditions).'],
       ],
+      appearance: [
+        [
+          'A swarm of translucent, thumb-sized globules of oily colour, clumped together in standing water or sewer pools and easy to overlook.',
+        ],
+      ],
+      lore: [
+        [
+          "An amalgam forms in sewers where magical experiments' waste runs together. It lies still when no magic is nearby, but attacks anything that disturbs it. Passing arcane runoff makes it grow. Once it smells a spell or magic item, every droplet grows a hungry mouth and the swarm hunts the source relentlessly. After feeding it goes dormant again, and survivors may find spell components or magic items in what it leaves behind.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Sewer'],
       stats: {
         swarmOf: 'tiny',
         size: 'large',
@@ -1116,6 +1135,13 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common', 'Draconic', 'Elvish'],
+      appearance: [['A half-elf with the right eye of the dragon Qazyldrath set in his head.']],
+      lore: [
+        [
+          "Aronar and his twin Athmia were born under an eclipse and drank the blood of the gloom dragon Qazyldrath, becoming priests of the apocalypse cult called the Hallowed Dark. Aronar is a gifted caster rumoured to have stolen magic from the gods. He wears no holy symbol, scorns casters bound to deities, and thinks heaven's secrets belong to anyone clever enough to take them. The dragon's eye gives him a clear mind and draconic wisdom. The cult spreads terror through rituals, attacks and torture, hoping to wake Qazyldrath. The book notes how to tone this down.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1274,6 +1300,18 @@ export default createPublicationMonsters({
         ],
         ['Condition immunities also include Dazed (MCDM condition).'],
       ],
+      appearance: [
+        [
+          'A hulking construct of reinforced humanoid bones standing on four long bone legs, with articulated arms that carry tools and weapons, and sharp spikes on its back that carry impaled corpses.',
+        ],
+      ],
+      lore: [
+        [
+          "Necromancers build ashen hoarders to steal corpses from graveyards without risking themselves. The hoarder digs up a body, spears it on a back spike, and the spike charges it with necrotic energy for the necromancer's experiments. Cornered, it can raise the bodies it carries as zombie allies or blow them up in a necrotic blast.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Graveyard', 'Tomb'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -1598,6 +1636,17 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common', 'Draconic', 'Elvish'],
+      appearance: [
+        [
+          "A half-elf with one of the dragon Qazyldrath's eyes set in her head, and a ring given by the dragon.",
+        ],
+      ],
+      lore: [
+        [
+          "Athmia and her twin Aronar were born under an eclipse and haunted by visions of a dragon eating the sun. In a buried temple they came upon vials of the dragon Qazyldrath's blood, drank them, and received the dragon's eyes and rings. They became the first modern priests of the Hallowed Dark, a cult that wants to wake the dragon and plunge the world into darkness. The cult spreads terror and torture so that hope collapses, and carries out long rituals that need void-touched components. The book offers gentler alternatives to its violent themes.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2983,6 +3032,18 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Understands its languages from life, but cannot speak'],
       tableNotes: [['Role: Ambusher']],
+      appearance: [
+        [
+          'A humanoid corpse naturally mummified by the swamp, with tough, leathery skin. Hair and clothing often survive, so at a glance it can pass for a living person.',
+        ],
+      ],
+      lore: [
+        [
+          'When a swamp comes under threat, a new batch of bog bodies rises beside the earlier ones, so the oldest swamps hold so many that few can pass. They are patient stalkers that hide in plain sight among plants or under murky water, then burst out to surprise intruders.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3097,6 +3158,18 @@ export default createPublicationMonsters({
           'Utility Spells: With Charisma (spell save DC 16), cast Minor Illusion at will or Silent Image three times per day. Each casting takes an action.',
         ],
       ],
+      appearance: [
+        [
+          "A tall, unnervingly thin figure with a monstrous skull for a head and a jutting jaw. Its long arms are really black wings that cannot fly and end in clawed hands, and it carries victims' skulls tucked inside them.",
+        ],
+      ],
+      lore: [
+        [
+          'Bonestalkers haunt the darkest forests near villages and feed on the fear of both victims and whole communities, well before they kill. They isolate prey with illusions that lure travellers into the woods, then enjoy a long chase and slow death. When prey will not surrender to fear, the bonestalker attacks in a furious rush. Their trophy skulls give them power. They are treated as cryptids, so a murder mystery that ends in a skull-pulling fight suits them.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -3233,6 +3306,17 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common'],
+      appearance: [
+        [
+          'A powerful figure standing more than ten feet tall, one of the Abominations, whose bodies are stitched together from humanoid and animal parts.',
+        ],
+      ],
+      lore: [
+        [
+          "Boog is one of the Abominations. Their makers were a druid, N'shalla, and a mage, Evae Yawn, both exiled by their orders for experiments on unwilling subjects. Evae grew a lifeless husk and N'shalla fitted animal heads and limbs, and the pair destroyed any result they thought flawed. The Abominations enjoy butchering and eating humanoids. The book warns of body horror, cannibalism and torture and suggests ways to soften them. The supplied text breaks off before Boog's own entry.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3902,6 +3986,13 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common', 'Draconic', 'Infernal'],
+      appearance: [['A tiefling with wings, granted by the dragon Qazyldrath.']],
+      lore: [
+        [
+          "Caithas is one of five chosen servants of the gloom dragon Qazyldrath who form the apocalypse cult called the Hallowed Dark. Her wings are a gift from the dragon. The cult wants to wake the Sun Eater and bring suffocating darkness, using long rituals, visions from the dragon, and terror to crush hope. The book warns of violent themes and suggests softer versions. The supplied text breaks off before Caithas's own entry.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4265,6 +4356,17 @@ export default createPublicationMonsters({
         ['The bonus action is printed as "To Me, Sweetie (3/day)".'],
       ],
       languages: ['Common'],
+      appearance: [
+        [
+          'One of the Abominations, a predator with an animal head on a stitched-together humanoid body.',
+        ],
+      ],
+      lore: [
+        [
+          "Ceemal is one of the Abominations. N'shalla, a druid, and Evae Yawn, a mage, were both exiled and made these creatures to strike back at their former orders. The pair built bodies from raw material, fitted animal parts, brought them to life, and killed those they judged flawed. The Abominations hunt, torture and eat humanoids and can drive victims to their knees with mind-shattering pain. The book offers ways to tone down the body horror and cannibalism. The supplied text does not cover Ceemal individually.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -5082,6 +5184,14 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Ignan'],
       tableNotes: [['Role: Artillery']],
+      appearance: [['A fiery lizard, also called a blazecaster.']],
+      lore: [
+        [
+          'Cruxes of fire live in hot places where planes meet or where volcanoes are active. They are territorial and question intruders from a distance, and rain fire on those whose answers they dislike before they can come close. They are skilled storytellers, acting out their tales as silhouettes of flame.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Volcanic'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -5205,6 +5315,18 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Aquan, Common, and languages gained from Frosted Reflection'],
       tableNotes: [['Role: Controller']],
+      appearance: [
+        [
+          'A being of mirrored ice, usually covered in a frosted facade. It is nicknamed a frigid glintmask.',
+        ],
+      ],
+      lore: [
+        [
+          "A crux of frost imperfectly mimics creatures and fills those it reflects with supernatural terror. The fear leaves the target more vulnerable, its body and spirit turning brittle under the crux's gaze.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -5355,6 +5477,18 @@ export default createPublicationMonsters({
         ],
         ['Condition immunities also include Flanked (MCDM condition).'],
       ],
+      appearance: [
+        [
+          'An enormous plant hung with human-sized white flowers that look like figures in dresses, among large red and green leaves.',
+        ],
+      ],
+      lore: [
+        [
+          'The dancing lady looks like a ghostly vision in the mist but is real. It lurks near fey and other forest creatures with its flowers turning calmly. Once its allies are threatened, the oversized blooms whirl in dizzying dances that confuse and frighten foes.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -5498,6 +5632,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Understands Common but cannot speak it'],
       tableNotes: [['Role: Skirmisher']],
+      appearance: [
+        [
+          'A carrion bird with bone-white feathers and a wingspan close to eight feet, giving a blood-chilling shriek.',
+        ],
+      ],
+      lore: [
+        [
+          'Deathhawks eat rotting flesh, preferring it as decayed as possible. A group is called a foreboding, and an eerie instinct tells them when blood is about to be shed, so a flock wheeling overhead warns of violence below. Different cultures know them as flesh-eaters, scourgers or great devourers.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -5614,6 +5759,18 @@ export default createPublicationMonsters({
         ],
         ['Tendrils is a melee power attack.'],
       ],
+      appearance: [
+        [
+          'A fungal body on a network of barbed black filaments, looking like a vast sinister dandelion that drifts through the air on spores.',
+        ],
+      ],
+      lore: [
+        [
+          'A deep dreamer feeds on the psychic energy of dreaming creatures through its filaments and can lure them into dreams they never wake from. It drifts in its own reverie and often bumps into things unaware. When it notices others it shares dreams by spore to encourage pleasant dreams to feed on. Some collect followers lost in dreams who trail after it in a trance and even shield it, and a few are bound to its filaments.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -7026,6 +7183,13 @@ export default createPublicationMonsters({
         ['The Innate Spellcasting section is printed as "Utility Spells".'],
       ],
       languages: ['Common', 'Draconic'],
+      appearance: [["A human whose blood has been replaced with a dragon's."]],
+      lore: [
+        [
+          "Draven is a mage of blood, able to make his enemies' blood boil. He is one of five chosen servants of the gloom dragon Qazyldrath in the apocalypse cult called the Hallowed Dark, which wants to wake the dragon and bring suffocating darkness. The book suggests making his magic affect energy and vitality instead if the gore would bother anyone at the table. The supplied text ends before his own entry.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7358,6 +7522,18 @@ export default createPublicationMonsters({
       alignment: 'typically neutral good',
       languages: ['Speaks all languages'],
       tableNotes: [['Role: Support']],
+      appearance: [
+        [
+          'A stag with white fur dappled blue and eyes as dark as night. Its antlers glow gold when it helps an ally and white when it divines.',
+        ],
+      ],
+      lore: [
+        [
+          'Empyrean stags are celestial wardens of the forest that appear only to defend its inhabitants from great threats or warn mortals of coming disaster. Harming forest creatures draws their anger and a lethal attack with their allies, though repentant adventurers can make amends by helping defend the wood against something worse. Those who impress a stag by protecting the forest may ask it one question and get a truthful answer, and it can show visions of the present or future between its antlers.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -7468,6 +7644,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Aquan, Auran, and Common'],
       tableNotes: [['Role: Ambusher']],
+      appearance: [
+        [
+          'A cloaked, humanoid outline made of mist, which grows a savage weapon in its hand at the moment it attacks.',
+        ],
+      ],
+      lore: [
+        [
+          "Also called a breath lurker, an essence of mist is an elemental that took shape from a cold-blooded killer's breath. Its attacks leave victims short of breath. It belongs to the book's elementals, which live in family groups called ishkrars and reshape themselves with the world.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -8233,6 +8420,18 @@ export default createPublicationMonsters({
           "Also immune to the Dazed and Flanked conditions (the source lists them among its condition immunities; they are not in the converter's condition list).",
         ],
       ],
+      appearance: [
+        [
+          'Countless insects whose wings are as sharp and hard as flint, heard as a soft endless clatter like loose pebbles rolling downhill.',
+        ],
+      ],
+      lore: [
+        [
+          'Flintmoths are elemental insects that eat stone ruins over centuries and live for decades. They stay almost motionless for months, eating tiny amounts, and rarely move unless disturbed, then need to eat much faster. A single moth is harmless, but a swarm slices victims to pieces. They prefer built stonework and can eventually bring down structures from the bottom up, so big swarms usually live in abandoned ruins.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         swarmOf: 'tiny',
         size: 'huge',
@@ -9222,6 +9421,18 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Brute']],
+      appearance: [
+        [
+          'At rest it looks like a natural crystal formation, often apparently valuable, with an iridescent sheen that mirrors nearby crystals. When disturbed it lashes out with long, crystal-barbed pseudopods.',
+        ],
+      ],
+      lore: [
+        [
+          'Gem jellies live in caves with natural crystal and secrete acid that dissolves rock so they can feed on the minerals. They do not eat other creatures but are extremely territorial and attack intruders at once. They are tuned to psychic energy and pulse simple ideas such as food or danger to other minds. Some think they are sapient and seek them out for wisdom, though most such pilgrims do not return.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Underground'],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -10541,6 +10752,18 @@ export default createPublicationMonsters({
           'Printed as immune to bludgeoning, piercing, and slashing from mundane attacks, and also to the Dazed and Flanked conditions.',
         ],
       ],
+      appearance: [
+        [
+          'A titan of earth and storm, whose essence, if his body fails, takes the form of a colossal lizard made of living light.',
+        ],
+      ],
+      lore: [
+        [
+          "Goxomoc, the Terror Lord, sleeps beneath the volcano Ynixquichcauitl, a name that translates as the end of everything. The Oaxuatl of Ix believe its eruption will end the world and read the titan's mood from it. They revere him as protector in his earth and storm aspects, but do not pray to him or think he knows them. They believe he rouses only if the land is threatened. They believe he created the tetzahuitl, the huge lizards that rule their islands, and consider those animals holy. He fights with reality-bending psionics.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Volcano'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -13968,6 +14191,18 @@ export default createPublicationMonsters({
         ['Also immune to Flanked (printed in the same list as the condition immunities).'],
       ],
       languages: ['Common', 'Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          "A shifting shroud of tentacles twisted around each other, every one ending in a hungry toothed mouth topped by three eyes, the whole thing coated in foul slime. The text describes the olothec kind in general, and Ithu'rath is one of them.",
+        ],
+      ],
+      lore: [
+        [
+          "Ithu'rath, called the All-Seeing, is an olothec that its slime servants worship as a living god. It rose from the ocean depths centuries ago and settled in the ruins of Castle Wrathrock beside a lake. Below the castle, in drowned caves, it raises a slime-servant host and waits for the day to spill out and take the nearby lands, with a humanoid gang called the Havoc Host smuggling its agents into settlements. Slime coats the castle halls, which lets Ithu'rath swim through them to hunt intruders. Olothec hate the living, despise creatures that cannot reshape their own flesh, and feel they are restoring things to a primal state.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Flooded ruins'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -14968,6 +15203,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Draconic'],
       tableNotes: [['The Trait is printed as "Shield? Shield!".'], ['Role: Artillery']],
+      appearance: [
+        [
+          "A small scaly figure with sharp, angular features and a crest running down its back. Its scales are bright when young and fade and mottle with age, and a legion sworn to a dragon slowly takes on that dragon's colour.",
+        ],
+      ],
+      lore: [
+        [
+          "Kobolds live in communities called legions, found in nearly every kind of terrain, and tend to settle near powerful allies or easily held ground: city walls, temples, burrow networks, the lairs of dragons. Most legions try to be good neighbours or stay unnoticed, but a legion under a wicked dragon or an ambitious centurion becomes dangerous. They fight in tight, rehearsed formations that guard one another, they love traps and tinkering, and they hold that a foe who does not take them seriously will be outwitted. This is the book's text about kobolds in general, not this role specifically.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15062,6 +15308,17 @@ export default createPublicationMonsters({
         ],
         ['The Trait is printed as "Shield? Shield!".'],
       ],
+      appearance: [
+        [
+          "A small scaly figure with sharp, angular features and a crest running down its back. Its scales are bright when young and fade and mottle with age, and a legion sworn to a dragon slowly takes on that dragon's colour.",
+        ],
+      ],
+      lore: [
+        [
+          "Kobolds live in communities called legions, found in nearly every kind of terrain, and tend to settle near powerful allies or easily held ground: city walls, temples, burrow networks, the lairs of dragons. Most legions try to be good neighbours or stay unnoticed, but a legion under a wicked dragon or an ambitious centurion becomes dangerous. They fight in tight, rehearsed formations that guard one another, they love traps and tinkering, and they hold that a foe who does not take them seriously will be outwitted. This is the book's text about kobolds in general, not this role specifically. For the artifex specifically, the book says its trap tricks work best when it is already waiting at the battlefield, as if triggering traps it set earlier, perhaps by yanking hidden levers with a chain hook.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15142,6 +15399,17 @@ export default createPublicationMonsters({
         ['Role: Controller'],
         ['The trait Shield Shield is printed as "Shield? Shield!".'],
         ['The action Boom Pilum is printed as "Boom Pilum!!!".'],
+      ],
+      appearance: [
+        [
+          "A small scaly figure with sharp, angular features and a crest running down its back. Its scales are bright when young and fade and mottle with age, and a legion sworn to a dragon slowly takes on that dragon's colour. Warriors carry a shield painted with trophies and great deeds.",
+        ],
+      ],
+      lore: [
+        [
+          "Kobolds live in communities called legions, found in nearly every kind of terrain, and tend to settle near powerful allies or easily held ground: city walls, temples, burrow networks, the lairs of dragons. Most legions try to be good neighbours or stay unnoticed, but a legion under a wicked dragon or an ambitious centurion becomes dangerous. They fight in tight, rehearsed formations that guard one another, they love traps and tinkering, and they hold that a foe who does not take them seriously will be outwitted. This is the book's text about kobolds in general, not this role specifically.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
       ],
       stats: {
         size: 'small',
@@ -15247,6 +15515,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Draconic'],
       tableNotes: [['Role: Soldier'], ['The trait Shield Shield is printed as "Shield? Shield!".']],
+      appearance: [
+        [
+          "A small scaly figure with sharp, angular features and a crest running down its back. Its scales are bright when young and fade and mottle with age, and a legion sworn to a dragon slowly takes on that dragon's colour. Warriors carry a shield painted with trophies and great deeds.",
+        ],
+      ],
+      lore: [
+        [
+          "Kobolds live in communities called legions, found in nearly every kind of terrain, and tend to settle near powerful allies or easily held ground: city walls, temples, burrow networks, the lairs of dragons. Most legions try to be good neighbours or stay unnoticed, but a legion under a wicked dragon or an ambitious centurion becomes dangerous. They fight in tight, rehearsed formations that guard one another, they love traps and tinkering, and they hold that a foe who does not take them seriously will be outwitted. This is the book's text about kobolds in general, not this role specifically.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15345,6 +15624,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Draconic'],
       tableNotes: [['Role: Support'], ['The trait Shield Shield is printed as "Shield? Shield!".']],
+      appearance: [
+        [
+          "A small scaly figure with sharp, angular features and a crest running down its back. Its scales are bright when young and fade and mottle with age, and a legion sworn to a dragon slowly takes on that dragon's colour. Warriors carry a shield painted with trophies and great deeds.",
+        ],
+      ],
+      lore: [
+        [
+          "Kobolds live in communities called legions, found in nearly every kind of terrain, and tend to settle near powerful allies or easily held ground: city walls, temples, burrow networks, the lairs of dragons. Most legions try to be good neighbours or stay unnoticed, but a legion under a wicked dragon or an ambitious centurion becomes dangerous. They fight in tight, rehearsed formations that guard one another, they love traps and tinkering, and they hold that a foe who does not take them seriously will be outwitted. This is the book's text about kobolds in general, not this role specifically.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15433,6 +15723,17 @@ export default createPublicationMonsters({
         ['The trait Shield Shield is printed as "Shield? Shield!".'],
       ],
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          "A small scaly figure with sharp, angular features and a crest running down its back. Its scales are bright when young and fade and mottle with age, and a legion sworn to a dragon slowly takes on that dragon's colour. Warriors carry a shield painted with trophies and great deeds.",
+        ],
+      ],
+      lore: [
+        [
+          "Kobolds live in communities called legions, found in nearly every kind of terrain, and tend to settle near powerful allies or easily held ground: city walls, temples, burrow networks, the lairs of dragons. Most legions try to be good neighbours or stay unnoticed, but a legion under a wicked dragon or an ambitious centurion becomes dangerous. They fight in tight, rehearsed formations that guard one another, they love traps and tinkering, and they hold that a foe who does not take them seriously will be outwitted. This is the book's text about kobolds in general, not this role specifically.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15496,6 +15797,17 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          "A small scaly figure with sharp, angular features and a crest running down its back. Its scales are bright when young and fade and mottle with age, and a legion sworn to a dragon slowly takes on that dragon's colour. Warriors carry a shield painted with trophies and great deeds.",
+        ],
+      ],
+      lore: [
+        [
+          "Kobolds live in communities called legions, found in nearly every kind of terrain, and tend to settle near powerful allies or easily held ground: city walls, temples, burrow networks, the lairs of dragons. Most legions try to be good neighbours or stay unnoticed, but a legion under a wicked dragon or an ambitious centurion becomes dangerous. They fight in tight, rehearsed formations that guard one another, they love traps and tinkering, and they hold that a foe who does not take them seriously will be outwitted. This is the book's text about kobolds in general, not this role specifically.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15818,6 +16130,14 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Speaks Abyssal, Common, and Infernal'],
       tableNotes: [['Role: Skirmisher'], ['Also immune to the Dazed condition.']],
+      appearance: [['A cracked and crumbling statue with a face frozen in unbearable sorrow.']],
+      lore: [
+        [
+          'A lacuna is a fiend that lives off sorrow in forsaken sites, starting with lonely residents and visiting mourners, whose deaths start a cycle of grief that keeps it fed. It trails visitors for a while, enjoying any violence they commit against other hostile creatures. If the delvers find joy, say after treasure or a hard won fight, it strikes to cause and consume misery. It lives half in the mortal world and half in a lower plane, which lets it teleport and avoid harm.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Abandoned ruins'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -15962,6 +16282,13 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common'],
+      appearance: [["A noblewoman of Capital's old houses, wife of Lord Erasmus Deseo."]],
+      lore: [
+        [
+          "Avalla and her husband are leading members of the Black Iron Pact's High Command, a secret cult that includes nobles and guild leaders. They openly despise guilds and the middle class and hold that only human men should hold office, own property or learn to read. The pact is hunting for Ringwell, a lost vault of dangerous artifacts, to hand them to Ajax. The High Command strikes as a team after careful research, takes enemies by surprise, leaves no witnesses, and escapes through iron rings to its private demiplane if a plan goes wrong.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -16149,6 +16476,18 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common', 'Elvish'],
+      appearance: [
+        [
+          'A medusa living in an abandoned mountain keep fitted out with fashionable, comfortable furnishings. Her courtyard garden holds a collection of statues.',
+        ],
+      ],
+      lore: [
+        [
+          "Emer was a famed scout in the Order of the Ouroboros who boasted she would become a god, and the gods punished her words by transforming her. She treated it as an advantage and now works as the order's secret assassin, paid in coin and library access. She carries promising books home to look for ways to ascend. The statues in her garden are targets who needed to vanish but might be useful later. She is sociable and lonely, since order members rarely visit or stay, and hopes to gain enough power to lead the order openly.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Mountain keep'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -16369,6 +16708,18 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Ambusher']],
+      appearance: [
+        [
+          'A gray-scaled reptile with eight legs, as large as a grown human, a mix of lizard and spider.',
+        ],
+      ],
+      lore: [
+        [
+          'Probably the creation of a flesh-shaping mage or cult, the lamasombra preys on whatever lives in caves. Its scales bend darkness so that those with darkvision cannot see it except in bright light, while creatures without darkvision gain an odd edge in dim light. Its bones and foot pads deaden sound and vibration even at speed, so tremorsense does not find it.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Caves'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -16618,6 +16969,18 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Controller']],
+      appearance: [
+        [
+          'A slug-like creature whose spines arc with magical energy when it is full. Dormant, it curls into a rock-like cocoon that looks like a boulder.',
+        ],
+      ],
+      lore: [
+        [
+          'Leyleeches live in caves near underground ley lines and feed on magic with toothy mouths. Feeding on natural ley energy keeps them calm, but spells cast by living creatures send them into a reckless frenzy. Travellers may unknowingly sleep beside a dormant colony, and the cocoons wake hungry when magic is nearby.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Underdark caves'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -17146,6 +17509,18 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       tableNotes: [['Role: Controller']],
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A scaled reptilian humanoid whose colouring depends on its environment and diet. The bloodeye shoots blood from its eyes.',
+        ],
+      ],
+      lore: [
+        [
+          "Lizardfolk fight best in water, where they grapple foes and hold them under. They are not hostile unless their territory is threatened, and they speak bluntly and keep their promises. Many live in caverns or ruins and give one warning to trespassers. The bloodeye's eye attack is based on the horned lizard.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Swamp', 'Wetlands'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -17290,6 +17665,16 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       tableNotes: [['Role: Brute']],
       languages: ['Common', 'Draconic'],
+      appearance: [
+        ['A scaled reptilian humanoid whose colouring depends on its environment and diet.'],
+      ],
+      lore: [
+        [
+          'Lizardfolk fight best in water, where scaletooths grapple or restrain foes to keep them submerged. They are not hostile unless their territory is threatened, speak bluntly and keep their vows. Many live in caverns or ruins and give one warning before attacking.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Swamp', 'Wetlands'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -17377,6 +17762,16 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       tableNotes: [['Role: Skirmisher']],
       languages: ['Common', 'Draconic'],
+      appearance: [
+        ['A scaled reptilian humanoid that glides on wings of skin formed when its ribs fold out.'],
+      ],
+      lore: [
+        [
+          'Terrorsaurs patrol above the surface while other lizardfolk hold enemies underwater, hunting anyone who tries to flee. Their gliding is inspired by the draco lizard. Lizardfolk are not hostile unless their territory is threatened and give one warning before attacking.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Swamp', 'Wetlands'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -17696,6 +18091,13 @@ export default createPublicationMonsters({
         [
           'Villain Party Action: Wilderkith timing. The party can use each villain party action once per encounter, in any order, after an enemy finishes its turn. The party can take only one per round. Logger must be present and able to act.\nAction 2, Distracting Tendrils. Each enemy within 30 ft. of Logger makes a DC 17 Dexterity save. On a failure it takes 22 (4d10) slashing damage and has disadvantage on attack rolls until the end of its next turn. On a success it takes half damage and keeps its normal attacks.',
         ],
+      ],
+      appearance: [['A humanoid figure made of vines and branches, a plant person.']],
+      lore: [
+        [
+          "Logger is grown out of Anthracia's tree, all vine and bough, and tags along behind her loyally like a pet pup. Anthracia, who calls herself the Princess of Venom, leads the Wilderkith, nature's avengers, and Logger is the only creature she lets into the chamber holding her tree, deep in Gemhollow.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
       ],
       stats: {
         size: 'large',
@@ -18426,6 +18828,18 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Brute'], ['Also immune to the Flanked condition.']],
+      appearance: [
+        [
+          'A multi-headed serpent mass, usually showing five or six snake heads, formed from a swarm of snakes merged together.',
+        ],
+      ],
+      lore: [
+        [
+          'Swamp hags, bog witches and similar mages make marsh hydras with grafting spells as snake familiars with more flair. It is not a true hydra. New ones are close to uncontrollable because each snake mind fights for control, and the feral ones that fall into infighting are most of those adventurers meet. Those whose minds learn to work as one can serve their makers well. Instead of regrowing a lost head, it has spare heads folded inside its body, sometimes as many as two dozen.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -19341,6 +19755,16 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Controller']],
+      appearance: [
+        ['A spined pig-like beast that screws itself through the ground faster than it can run.'],
+      ],
+      lore: [
+        [
+          'Mohlers come from deserts and forests and dig shallow tunnel networks just under the surface. They follow orcs, who tame them in peacetime to plough and eat pests and use them in war to rearrange the battlefield and topple enemies. Orcs give one as a companion to someone who earns great thanks. Treated well it protects its keeper fiercely, but a mistreated one goes back to its den, and the orcs then track down whoever wronged it.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Desert', 'Forest'],
       stats: {
         size: 'small',
         type: 'beast',
@@ -20221,6 +20645,18 @@ export default createPublicationMonsters({
         ],
         ['Also immune to Flanked (printed in the same list as the condition immunities).'],
       ],
+      appearance: [
+        [
+          'A shifting mass of tentacles twisted together like a shroud. Each tentacle ends in a toothed mouth topped by three eyes, and the body is coated in foul slime.',
+        ],
+      ],
+      lore: [
+        [
+          'Olothec, or old ones, are very ancient psionic aberrations that think in alien geometry. They loathe the mortal world and all living things, see creatures that cannot reshape their flesh as abominations to destroy or transform, and see primordial chaos as the ideal state. They fight the voiceless talkers, and make lairs in lost ocean tunnels and beneath ruins, surrounded by slime servants. Their psionic slime can turn victims into mindless oozy thralls, and one power turns humanoids into fish folk.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Sea tunnels', 'Ruins'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -20574,6 +21010,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
       tableNotes: [['Role: Skirmisher']],
+      appearance: [
+        [
+          'An orc: tall and tough-skinned, with veins that stripe the face and brighten when excited or driven, hair falling over the shoulders like a mantle, and strong tusks jutting past the lips.',
+        ],
+      ],
+      lore: [
+        [
+          "Orcs of every kind live among other humanoids in villages, cities and caves, in hot and cold lands, and fill the same roles as any people, from mercenaries and guards to cultists and corrupt rulers. They are exceptionally enduring, and when near death the veins flare with a glowing blood fire, usually red, though blue for mountain orcs and white for underground ones, driving one last attack. This is the book's general text about orcs, not this role specifically.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -20677,6 +21124,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
       tableNotes: [['Role: Brute']],
+      appearance: [
+        [
+          'An orc: tall and tough-skinned, with veins that stripe the face and brighten when excited or driven, hair falling over the shoulders like a mantle, and strong tusks jutting past the lips.',
+        ],
+      ],
+      lore: [
+        [
+          "Orcs of every kind live among other humanoids in villages, cities and caves, in hot and cold lands, and fill the same roles as any people, from mercenaries and guards to cultists and corrupt rulers. They are exceptionally enduring, and when near death the veins flare with a glowing blood fire, usually red, though blue for mountain orcs and white for underground ones, driving one last attack. This is the book's general text about orcs, not this role specifically.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -20764,6 +21222,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
       tableNotes: [['Role: Ambusher']],
+      appearance: [
+        [
+          'An orc: tall and tough-skinned, with veins that stripe the face and brighten when excited or driven, hair falling over the shoulders like a mantle, and strong tusks jutting past the lips.',
+        ],
+      ],
+      lore: [
+        [
+          "Orcs of every kind live among other humanoids in villages, cities and caves, in hot and cold lands, and fill the same roles as any people, from mercenaries and guards to cultists and corrupt rulers. They are exceptionally enduring, and when near death the veins flare with a glowing blood fire, usually red, though blue for mountain orcs and white for underground ones, driving one last attack. This is the book's general text about orcs, not this role specifically.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -20873,6 +21342,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
       tableNotes: [['Role: Support']],
+      appearance: [
+        [
+          'An orc: tall and tough-skinned, with veins that stripe the face and brighten when excited or driven, hair falling over the shoulders like a mantle, and strong tusks jutting past the lips.',
+        ],
+      ],
+      lore: [
+        [
+          "Orcs of every kind live among other humanoids in villages, cities and caves, in hot and cold lands, and fill the same roles as any people, from mercenaries and guards to cultists and corrupt rulers. They are exceptionally enduring, and when near death the veins flare with a glowing blood fire, usually red, though blue for mountain orcs and white for underground ones, driving one last attack. This is the book's general text about orcs, not this role specifically. Godcallers use song to wake the magic the book says lives in every creature's spirit.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -21016,6 +21496,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
       tableNotes: [['Role: Controller']],
+      appearance: [
+        [
+          'An orc: tall and tough-skinned, with veins that stripe the face and brighten when excited or driven, hair falling over the shoulders like a mantle, and strong tusks jutting past the lips.',
+        ],
+      ],
+      lore: [
+        [
+          "Orcs of every kind live among other humanoids in villages, cities and caves, in hot and cold lands, and fill the same roles as any people, from mercenaries and guards to cultists and corrupt rulers. They are exceptionally enduring, and when near death the veins flare with a glowing blood fire, usually red, though blue for mountain orcs and white for underground ones, driving one last attack. This is the book's general text about orcs, not this role specifically. Terranovas send their innate magic down through their feet into the ground.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -21773,6 +22264,13 @@ export default createPublicationMonsters({
         [
           "Recoverable Magic Item: Crown of Majesty. Very rare. Attunement required. The wearer resists psychic damage and is immune to Charmed and Frightened. The crown holds 3 charges. Spend an action and 1 charge to cast Command or Charm Person, DC 18. It regains 1d3 spent charges at dawn.\nCursed Sentience. The item uses its Soulbinder's alignment, mental ability scores, and languages. It hears and sees in darkness within 60 ft. and can speak to its wearer telepathically. Break attunement with Remove Curse or equivalent magic. After seven days attuned and every 24 hours after that, make a DC 18 Wisdom save. Each failure reduces Wisdom by 1 while attuned. On the third failure, the Soulbinder takes control and changes the wearer's body, statistics, and equipment to match its own. The wearer remains aware. Breaking attunement restores the body and control. The Soulbinder returns to the item when attunement ends or the body dies. After 1d6 + 12 months of possession, the victim's soul and body are destroyed. The full group ritual for permanently lifting the curse is on p. 382.",
         ],
+      ],
+      appearance: [['A prince bound into a cursed item, as the Soulbinders all are.']],
+      lore: [
+        [
+          'Ellan led the mortal explorers who sought a scroll with an immortality ritual, which instead trapped their souls in their treasures. The Soulbinders must consume other souls, possessing victims until they burn out, and want godhood through forced worship. Argan Rael obeys only Ellan. The book does not describe Ellan himself beyond this.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
       ],
       stats: {
         size: 'medium',
@@ -22627,6 +23125,18 @@ export default createPublicationMonsters({
       alignment: 'typically lawful neutral',
       languages: ['Understands Celestial without speaking it and has telepathy 120 ft.'],
       tableNotes: [['Role: Skirmisher'], ['Also immune to Flanked.']],
+      appearance: [
+        [
+          'A floating black-and-brown mushroom five to six feet tall that drifts through the swamp like a jellyfish, with thirteen grasping eyestalks dangling under its cap.',
+        ],
+      ],
+      lore: [
+        [
+          'Rot angels are celestials that usually serve death gods and hunt for the newly dead. Contact with their stalk-shaped feeding tubes causes organic matter to decay fast.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -22709,6 +23219,16 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Brute']],
+      appearance: [
+        ["A faceless, fungus-covered creature with twisting stag horns and a bull's body."],
+      ],
+      lore: [
+        [
+          'A rotbeast turns fey paradise into festering decay just by passing through, spoiling the plants as it wanders the woods.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Forest', 'Fey woods'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -23223,6 +23743,18 @@ export default createPublicationMonsters({
           'Dazed (MCDM): On its turn a Dazed creature can move, take an action, or take a bonus action. It chooses one. Becoming Dazed during its turn ends the turn. Extra actions from effects such as Haste or Action Surge are still available. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed.',
         ],
       ],
+      appearance: [
+        [
+          'A giant two-legged lizard with trunk-like legs and claws and a battering head crest, wearing a huge harness that seats dozens of orcs.',
+        ],
+      ],
+      lore: [
+        [
+          'Orcs use scyzas to cross long distances and as battle mounts, since the lizards are fearless. Their tread kicks up dust storms, and their head crests give off a bone-shaking ringing. They come from the tropics.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Tropics'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -23521,6 +24053,18 @@ export default createPublicationMonsters({
           'Mundane Attacks (MCDM): For these resistances, a mundane attack uses neither magic nor psionics.',
         ],
       ],
+      appearance: [
+        [
+          'A valok construct with arms that hurl huge stones, a concrete tank on its back and a wrecking ball.',
+        ],
+      ],
+      lore: [
+        [
+          'The servoks are valok, constructs built by the vanished steel dwarves from silvery-white valiar, a truemetal no one can work now. Each valok draws its power from a prismacore gem. Steel dwarves used builders to raise buildings, roads and walls, and builders still clear ground in the caverns for projects only their makers knew, spewing concrete and wrecking old structures in the way.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Caverns'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -23680,6 +24224,16 @@ export default createPublicationMonsters({
           'Resists bludgeoning, piercing, and slashing damage from mundane attacks (see Mundane Attacks above). Also immune to the Dazed condition.',
         ],
       ],
+      appearance: [
+        ['A valok construct on tracks with a drill, a pneumatic pick and a front conveyor belt.'],
+      ],
+      lore: [
+        [
+          "The servoks are valok, constructs built by the vanished steel dwarves from silvery-white valiar, a truemetal no one can work now. Each valok draws its power from a prismacore gem. Miners dug the steel dwarves' legendary tunnels and a few still tunnel for ore, destroying whatever blocks the search.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Tunnels'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -23867,6 +24421,17 @@ export default createPublicationMonsters({
         [
           'Resists bludgeoning, piercing, and slashing damage from mundane attacks. Also immune to the Dazed condition.',
         ],
+      ],
+      appearance: [
+        [
+          'A rolling valok construct with a bladed rake and a huge gun, announced by quaking earth and arcane cannon booms.',
+        ],
+      ],
+      lore: [
+        [
+          'The servoks are valok, constructs built by the vanished steel dwarves from silvery-white valiar, a truemetal no one can work now. Each valok draws its power from a prismacore gem. It is made to crush through enemy lines with a bladed rake, and it can hit distant targets with a big cannon that fires both spell blasts and flaming oil.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
       ],
       stats: {
         size: 'huge',
@@ -24277,6 +24842,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Brute']],
+      appearance: [
+        [
+          "A draconic pangolin whose scales are painted with the same designs as the kobolds' shields.",
+        ],
+      ],
+      lore: [
+        [
+          "Kobolds train drangolins to dig living tunnels and break enemy defences, preferring to go under walls, then bursting up in an enemy camp so legionaries can pour out. A scale knocked off in battle becomes a warrior's shield, and a blocked blow on a painted scale is a good omen.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -24401,6 +24977,18 @@ export default createPublicationMonsters({
         ['Also resistant to bludgeoning, piercing, and slashing from mundane attacks.'],
       ],
       languages: ['Common', 'Giant', 'Infernal', 'Sylvan'],
+      appearance: [
+        [
+          'She can look like anyone. Some say she is a huge woman with rusty iron claws, others a soul-stealing cat or a beautiful woman cooking meat pies. Her hut walks on giant cat paws.',
+        ],
+      ],
+      lore: [
+        [
+          "Shtriga Nonna is an ancient hag high on a snowy mountain, unlike other hags in belonging to no forest, night or sea, and claiming to need no sisters. Rumour says she ate her old coven. She loves cats and cooking, eats any flesh, and prizes meat flavoured by the fear of those who made bad bargains with a hag. Desperate seekers climb to the hut's porch for tea and a deal.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Snowy mountains'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -25174,6 +25762,18 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Brute']],
+      appearance: [
+        [
+          'A bug the size of a big hunting dog lies half-submerged in a drain channel, its rocky plated back looking exactly like the stones around it. When it is threatened it rolls into a tight armoured ball.',
+        ],
+      ],
+      lore: [
+        [
+          'Stoneback isopods normally forage in leaf litter, but sewers let them grow far larger and nastier than their countryside kin. They feed on rot and anything slow, hiding in running water among the stones until a meal passes and then clamping on with strong jaws. They breed in great numbers, and the young hatch already grown, so a group is far likelier than a single animal. They tolerate any temperature, which is why filthy city drains suit them so well.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Sewer', 'Forest'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -26081,6 +26681,13 @@ export default createPublicationMonsters({
           'Villain Party Action: Grave Order. Once per encounter for each party action, after an enemy finishes its turn. The party can use the actions in any order, one per round. The creature performing the action must be present and must not be Incapacitated.\nAction 3, Threshing Flail. The Horror moves up to its speed without provoking opportunity attacks. When the movement ends, each enemy within 30 ft. makes a DC 14 Dexterity save. On a failure, the enemy takes 7 (2d6) piercing damage and falls Prone. On a success, it takes half as much damage and stays upright.',
         ],
       ],
+      appearance: [['A huge dead fighter assembled out of many corpses joined together.']],
+      lore: [
+        [
+          'The Horror is a dead fighter brought to motion by the Grave Order, necromancers who desecrate graves to gain power. Locked within it is the soul of an adventurer called Elyas Leodeir. The book notes that it can be run as a mindless undead or as a huge zombie instead, if a table dislikes spirit enslavement or the body horror. The Order raids burial grounds for fallen heroes and shows no mercy to anyone who interferes.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -26197,6 +26804,13 @@ export default createPublicationMonsters({
         [
           'The resistance to bludgeoning, piercing, and slashing is printed as "from mundane attacks". Also immune to the Dazed and Flanked conditions.',
         ],
+      ],
+      appearance: [['A huge tangle of living vines bristling with thorns, rooted in a dead body.']],
+      lore: [
+        [
+          "A thornblood sprouts from curse-empowered seeds planted in a dead body. The book describes it as nature's hatred made physical, a kind of antibody against civilization intruding on the wild. The text was cut off right after this point, so its specific triggers and tactics are not given here.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
       ],
       stats: {
         size: 'gargantuan',
@@ -26379,6 +26993,18 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common', "Kuran'zoi"],
+      appearance: [
+        [
+          'A humanoid with two pairs of arms and tough sensor-like eyes, armed with a psionic weapon and carrying melee and ranged arms at once.',
+        ],
+      ],
+      lore: [
+        [
+          "The kuran'zoi, or time raiders, live in the Astral Sea. Many guide travellers from other planes, and others pirate interplanar ships. Synlirii psionic aberrations made them as soldiers long ago, but they rebelled and fled. They sail mindships, use psionic weapons only their own people can activate, and do not age in the Sea of Stars, so many remember the Psychic Wars. They strike quickly, take what they want and leave. Pirates deliberately let some of a crew live so the ship can carry word home and be raided again. This is family-wide text, and specifics for the armiger rank were not in the text provided.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Astral Sea'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -26510,6 +27136,18 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common', "Kuran'zoi", 'telepathy 60 ft.'],
+      appearance: [
+        [
+          'A humanoid with two pairs of arms and tough sensor-like eyes, armed with a psionic weapon and carrying melee and ranged arms at once.',
+        ],
+      ],
+      lore: [
+        [
+          "The kuran'zoi, or time raiders, live in the Astral Sea. Many guide travellers from other planes, and others pirate interplanar ships. Synlirii psionic aberrations made them as soldiers long ago, but they rebelled and fled. They sail mindships, use psionic weapons only their own people can activate, and do not age in the Sea of Stars, so many remember the Psychic Wars. They strike quickly, take what they want and leave. Pirates deliberately let some of a crew live so the ship can carry word home and be raided again. This is family-wide text, and specifics for the nemesis rank were not in the text provided.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Astral Sea'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -26643,6 +27281,18 @@ export default createPublicationMonsters({
         ['The printed attack type of Psionic Slam is "Melee power attack".'],
       ],
       languages: ['Common', "Kuran'zoi", 'telepathy 120 ft.'],
+      appearance: [
+        [
+          "A four-armed kuran'zoi with durable sensor-like eyes, piloting a huge suit of psionic armour.",
+        ],
+      ],
+      lore: [
+        [
+          "The kuran'zoi, or time raiders, live in the Astral Sea. Many guide travellers from other planes, and others pirate interplanar ships. Synlirii psionic aberrations made them as soldiers long ago, but they rebelled and fled. Vertexes in particular learn to pilot big suits of psionic armour that empower their allies. They sail mindships, use psionic weapons only their people can activate, and do not age in the Sea of Stars. They strike fast, take what they want and leave, and pirates spare part of a crew so the ship can carry word home.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Astral Sea'],
       stats: {
         size: 'large',
         type: 'humanoid',
@@ -27282,6 +27932,17 @@ export default createPublicationMonsters({
         ['Resistant to bludgeoning, piercing, and slashing from mundane attacks.'],
         ['Starting souls: Use 2 souls or roll 1d4.'],
       ],
+      appearance: [
+        [
+          'An elephantine demon with no face at all, only a twisted crown of tusks ringing a ravenous maw.',
+        ],
+      ],
+      lore: [
+        [
+          'Tusker demons tower over a gnoll war band, serving as beasts of burden and war engines. They normally follow gnoll orders, but when soul-hunger builds they charge ahead and trample their own allies.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -27702,6 +28363,18 @@ export default createPublicationMonsters({
       page: 329,
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'An enormous yellow mushroom trudging through the muck on root-like strands, endlessly puffing spores from a gelatinous cap. The cap splits open to show a hungry maw, and the air around it reeks.',
+        ],
+      ],
+      lore: [
+        [
+          "A valochera sprouts in the grime of a city's waste and wanders the sewers. It can take nourishment from any organic matter but prefers flesh, which keeps it fed for days, and in practice it mostly eats rats and insects. Before attacking, it releases foul spores that sicken prey, then its mycelia secrete acid to dissolve larger victims so the maw can swallow them as liquid.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Sewer'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -28360,6 +29033,18 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A human whose body has been strengthened with dragon sinew, a gift from the gloom dragon Qazyldrath.',
+        ],
+      ],
+      lore: [
+        [
+          "Vivienn belongs to the Hallowed Dark, an apocalypse cult of five zealots who drank the blood of the gloom dragon Qazyldrath, the Sun Eater, and now work to bring back its reign of suffocating darkness. Vivienn's human body was granted dragon sinew after arriving at the sleeping wyrm's church. The cult stages terror attacks and atrocities, believing fear crushes hope and leaves people helpless when the end comes. This is the cult's shared text, and the portion cut off before Vivienn's own section.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Cult temple'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -29974,6 +30659,14 @@ export default createPublicationMonsters({
           'Printed as immune to bludgeoning, piercing, and slashing from mundane attacks, and also to the Dazed and Flanked conditions.',
         ],
       ],
+      appearance: [['An immense terror lizard whose body is living lightning.']],
+      lore: [
+        [
+          'Xogomoc is the essence of the titan Goxomoc, lord of lightning. Goxomoc fights with reality-warping psionics, but if his physical form is beaten, foes then meet Xogomoc. The Oaxuatl believe Goxomoc created the huge terror lizards that rule their islands and regard them as sacred avatars, his children.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Oaxuatl islands'],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -30670,6 +31363,18 @@ export default createPublicationMonsters({
           'Villain Actions: Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Forward! Aastrika and up to three creatures she sees can each move up to their speed without provoking opportunity attacks and make one melee attack.\n2. The Manifold Self. Teleport to an unoccupied space she sees within 30 ft. Five fire giant troopers appear in open spaces within 30 ft. of her departure point. They act immediately, then use that same initiative count in subsequent rounds.\n3. This. Ends. Now. Aastrika and each willing fire giant within 60 ft. release heat. A creature within 10 ft. of her or one of those giants makes a DC 18 Dexterity save, taking 55 (10d10) fire damage or half on a success.',
         ],
       ],
+      appearance: [
+        [
+          'A fire giant who does not wear armour, because her body heats up in battle until straps melt and metal bends.',
+        ],
+      ],
+      lore: [
+        [
+          'Aastrika was a lieutenant in the Sunlight Legion who rose fast through the ranks, and she suspected rivals above her resented that. Her unit was then sent far into the desert where she came upon evidence that a blue dragon claimed the area and realised she had been sent into a trap. She and her unit chose to desert and seek spiritual enlightenment on sunlit peaks and in volcanic caves. After hours in a magma crater, she came back saying her body had turned to fire and she had found new wisdom, and her unit became her first followers. She then returned, overthrew the leaders who had tried to get her killed, and now rules as warlord and spiritual leader, preaching balance in both roles. The book adds that fire giants are spiritual and introspective beneath a violent reputation, and that they treat their own bodies as weapons.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Desert', 'Volcano'],
       stats: {
         size: 'huge',
         type: 'giant',

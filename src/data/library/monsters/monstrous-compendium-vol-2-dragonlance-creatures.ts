@@ -11,6 +11,17 @@ export default createPublicationMonsters({
       name: 'Dream Eater',
       alignment: 'chaotic evil',
       languages: ['Deep Speech', 'telepathy 120 ft'],
+      appearance: [
+        [
+          "A hazy shape whose true form is hidden behind surreal illusions of its victim's worst fears, with a wide, permanently smiling mouth that it shows before swallowing prey in a waking nightmare.",
+        ],
+      ],
+      lore: [
+        [
+          'Dream eaters hail from Silvanesti, the elven land twisted by dreams, and are savage embodiments of nightmares and buried fears. Force is not the way to beat one: the key is seeing through its illusions and pulling its victims out of their terrors, which makes bards and other persuasive characters well suited to the fight.',
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 2: Dragonlance Creatures'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -922,6 +933,18 @@ export default createPublicationMonsters({
       name: 'Nevermind Gnome Mastermind',
       alignment: 'any alignment',
       languages: ['Common', 'Gnomish'],
+      appearance: [
+        [
+          'A rock gnome inventor, with at least one steadier clockwork device that gives extra movement, extra limbs, or both.',
+        ],
+      ],
+      lore: [
+        [
+          'The masterminds of Mount Nevermind pair their creativity with long experience. They still build wild gadgets on impulse. Their home is a hollow, sleeping volcano in Krynn, on the isle of Sancrist, full of tinkerers pursuing mechanical marvels.',
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 2: Dragonlance Creatures'],
+      ],
+      habitats: ['Volcano'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1166,6 +1189,18 @@ export default createPublicationMonsters({
       name: 'Traag Draconian',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A hulking draconian with weak vestigial wings and metallic scales streaked with a sickly patina.',
+        ],
+      ],
+      lore: [
+        [
+          'The Dragon Armies bred traag draconians while experimenting with corrupted dragon eggs, as a forerunner of the baaz. They are not much beyond bloodthirsty killing machines and endanger their allies as much as their enemies, and few commanders have turned their recklessness to account. Magic cannot tame them. Their wings only slightly slow a fall. In battle they fill their bodies with fire to burn everything around, and when one dies its body bursts into thick sludge.',
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 2: Dragonlance Creatures'],
+      ],
+      habitats: ['Battlefield'],
       stats: {
         size: 'large',
         type: 'monstrosity',

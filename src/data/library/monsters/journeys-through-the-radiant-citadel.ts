@@ -4592,6 +4592,16 @@ export default createPublicationMonsters({
       name: 'Tlexolotl',
       alignment: 'neutral',
       languages: ['Ignan'],
+      appearance: [
+        ['A gigantic salamander-like creature rising from molten rock, drenched in lava.'],
+      ],
+      lore: [
+        [
+          'A tlexolotl sleeps for centuries in the magma of a dormant volcano, surfacing seldom and only to gorge on animals and plants before sinking back to sleep. If disturbed by intruders or an eruption it erupts in fury and rampages until it has eaten its fill and the mountain has quieted. The ash it produces enriches the land, so nearby people often honour it as a protector.',
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
+      habitats: ['Volcano'],
       stats: {
         size: 'huge',
         type: 'elemental',
@@ -5094,6 +5104,18 @@ export default createPublicationMonsters({
       name: 'Whistler',
       alignment: 'neutral evil',
       languages: ['Deep Speech', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A shape that blurs and never rests at a single point, hard to look at directly. A dead one shows as a grey, blank, human-like figure with long arms and legs and slender fingers. Its victim hears a soundless tune that cannot be blocked out.',
+        ],
+      ],
+      lore: [
+        [
+          'Whistlers are enigmatic hunters from the screeching, windswept reaches of the Far Realm. Since they are not fixed in one place in space, they seem to shimmer and shift. A hunted victim cannot shut out its silent, otherworldly music, which tears at the mind. Few who meet one survive, and survivors stay haunted by the tune.',
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
+      habitats: ['Far Realm'],
       stats: {
         size: 'large',
         type: 'aberration',

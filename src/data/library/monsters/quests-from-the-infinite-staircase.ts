@@ -1226,6 +1226,18 @@ export default createPublicationMonsters({
       name: 'Froghemoth Elder',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A massive amphibian predator with four tentacles, rubbery hide, a long grasping tongue and three bulging eyes on an extendable stalk.',
+        ],
+      ],
+      lore: [
+        [
+          'Froghemoths have a starry origin and mostly hide in swamps. A few that grow up in unnatural places, or eat their weaker young, grow far stronger and hungrier, becoming elders with alien abilities that warp the local ecosystem. They settle where the surroundings help them grow, for example crashed spaceships, ancient bogs or irradiated pools.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -1620,6 +1632,18 @@ export default createPublicationMonsters({
       name: 'Horrid Plant',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'Ordinary-looking, vivid foliage when still. Varieties include dew drinkers like big cabbages that unfurl hair-tipped tendrils, treelike purple blossoms with cup-shaped flowers, and snapper saws that look like bushes with fragrant white berries.',
+        ],
+      ],
+      lore: [
+        [
+          'Horrid plants are meat-eating vegetation found in wetlands and jungles, and some botanists think they came from another world. Dew drinkers drain moisture and life with their tendrils. Purple blossoms spray acidic sap through their flowers. Snapper saws bury their razor-sharp outer leaves in the dirt to ambush prey.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Swamp', 'Jungle'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -2137,6 +2161,15 @@ export default createPublicationMonsters({
       name: 'Maschin-i-Bozorg',
       alignment: 'unaligned',
       languages: ["understands Gnomish but can't speak"],
+      appearance: [
+        ['A domed steam-driven construct that rolls on many wheels under its flat belly.'],
+      ],
+      lore: [
+        [
+          'The kagu-svirfneblin consider this their best invention. Machines are set as guards and sentries and patrol their posts without rest, obeying their maker. They crush enemies under their weight, shoot precise poison darts, jab with dart-tipped arms that fold back inside, and spray scalding steam at intruders.',
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -2393,6 +2426,14 @@ export default createPublicationMonsters({
       name: 'Nafas',
       alignment: 'chaotic good',
       languages: ['Auran', 'Common'],
+      appearance: [['A djinni attended by a cloud of twinkling stardust.']],
+      lore: [
+        [
+          "Nafas embodies the multiverse's breath, a noble djinni conceived by the winds between planes that blow past the Infinite Staircase's doors, and no vessel can hold him. He is tied to the Staircase, hears wishes from every world and cannot act on them, so he relies on adventurers to answer them. He hosts friendly guests with feasts, music and tales over tea, but anyone who abuses this or tries to bind him with an Iron Flask provokes fierce wrath. He normally grants Wish only to worthy creatures but will use it against great threats. He can be a group patron or a warlock's patron, and his lair is the Censer of Dreams.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Infinite Staircase'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -5092,6 +5133,18 @@ export default createPublicationMonsters({
       name: 'Zargon the Returner',
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A slime-covered, tentacled horror with one red eye and a horn that nothing can break, trailing slick ooze through a dripping cavern.',
+        ],
+      ],
+      lore: [
+        [
+          "Zargon is an ancient evil, a deathless horror from the distant past that can never be sated. It corrupts those it does not eat, reshaping victims into formless servants. Nobody knows its origin, but it was among the first things in the Nine Hells, older than Asmodeus, and devils and sages guess it came from another plane or reality. Asmodeus's legions destroyed most earlier inhabitants, but Zargon kept re-forming from its horn, so he finally threw the horn out of the Hells, which pinned Zargon under the ground on the Material Plane. Dreams and nightmares drew the people of Cynidicea to it until diggers broke into the prison, and it devoured and drowned many before the city fell. Survivors worshipped it and fed it sacrifices, and it settled in a dripping, slime-coated cave under the ruined city, where its cult grew.",
+        ],
+        ['Sources: ', 'Quests from the Infinite Staircase'],
+      ],
+      habitats: ['Underground', 'Nine Hells'],
       stats: {
         size: 'huge',
         type: 'aberration',
