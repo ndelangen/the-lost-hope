@@ -800,27 +800,46 @@ function bestNamed(name: string): Entry | undefined {
   )
 }
 
+const capitalised = (word: string) => /^\p{Lu}|^\d/u.test(word)
+const ARTICLES = new Set(['the', 'a', 'an'])
+
 /**
  * Library entries an idea names in capitalised words, such as "a Shambling Mound" or "casts
  * Fireball". Lowercase words are left alone, so "a light breeze" does not find the Light spell.
+ * A name must start its run of capitalised words, so "Onana Tempest" does not find the Tempest
+ * spell: the run names someone else.
  */
 export function libraryMentionsIn(text: string): Entry[] {
   const { longestName } = libraryIndex()
-  const tokens = text.split(/[^\p{L}\p{N}'’+-]+/u).filter(Boolean)
   const found = new Map<string, Entry>()
-  for (let start = 0; start < tokens.length; start++) {
-    if (!/^\p{Lu}/u.test(tokens[start]!)) continue
-    for (let length = Math.min(longestName, tokens.length - start); length >= 1; length--) {
-      const words = tokens.slice(start, start + length)
-      const last = words.at(-1)!
-      if (!/^\p{Lu}|^\d/u.test(last)) continue
-      if (words.some((word) => !/^\p{Lu}|^\d/u.test(word) && !JOINERS.has(word.toLowerCase())))
+  for (const clause of text.split(/[.,;:!?()"“”[\]]+/u)) {
+    const tokens = clause.split(/[^\p{L}\p{N}'’+-]+/u).filter(Boolean)
+    let start = 0
+    while (start < tokens.length) {
+      if (!capitalised(tokens[start]!)) {
+        start++
         continue
-      const best = bestNamed(words.join(' '))
-      if (!best) continue
-      found.set(best.id, best)
-      start += length - 1
-      break
+      }
+      // The run: capitalised words, with joiners such as "of" between them.
+      let end = start + 1
+      while (
+        end < tokens.length &&
+        (capitalised(tokens[end]!) ||
+          (JOINERS.has(tokens[end]!.toLowerCase()) && capitalised(tokens[end + 1] ?? '')))
+      )
+        end++
+      const run = tokens.slice(start, end)
+      if (run.length > 1 && ARTICLES.has(run[0]!.toLowerCase())) run.shift()
+      let matched = 0
+      for (let length = Math.min(longestName, run.length); length >= 1 && !matched; length--) {
+        const best = bestNamed(run.slice(0, length).join(' '))
+        if (best) {
+          found.set(best.id, best)
+          matched = length
+        }
+      }
+      // After a match the rest of the run may name another entry ("Fireball Shambling Mound").
+      start = matched ? end - run.length + matched : end
     }
   }
   return [...found.values()]

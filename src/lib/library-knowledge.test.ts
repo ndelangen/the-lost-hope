@@ -61,6 +61,11 @@ describe('library knowledge', () => {
       .map(({ id }) => id)
       .toSorted()
     expect(ids).toEqual(['monsters/shambling-mound', 'spells/fireball'])
+    // A run of capitals that names someone else is not a library name inside it.
+    expect(libraryMentionsIn('Onana Tempest sends word.').map(({ id }) => id)).toEqual([])
+    expect(libraryMentionsIn('The Aboleth waits.').map(({ id }) => id)).toEqual([
+      'monsters/aboleth',
+    ])
   })
 
   it('writes short sheets for the entries campaign records point at', () => {
