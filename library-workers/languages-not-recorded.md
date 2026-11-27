@@ -76,6 +76,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Flee, Mortals!: Kobold Veles
 - Flee, Mortals!: Kobold Venator
 - Flee, Mortals!: Lady Avalla Deseo
+- Flee, Mortals!: Lady Emer
 - Flee, Mortals!: Lestheris Soldrei
 - Flee, Mortals!: Lizardfolk Bloodeye
 - Flee, Mortals!: Lizardfolk Scaletooth
@@ -276,6 +277,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Where Evil Lives: Human Trickshot
 - Where Evil Lives: Infernal Chancellor Lazivos
 - Where Evil Lives: Ithu’rath
+- Where Evil Lives: Lady Emer
 - Where Evil Lives: Lord Syuul
 - Where Evil Lives: Mindkiller
 - Where Evil Lives: Night Hag (MCDM)

@@ -28,10 +28,12 @@ import ddex1_03_shadows_over_the_moonsea from './ddex1-03-shadows-over-the-moons
 import ddex1_04_dues_for_the_dead from './ddex1-04-dues-for-the-dead.ts'
 import ddex1_05_the_courting_of_fire from './ddex1-05-the-courting-of-fire.ts'
 import ddex1_06_the_scroll_thief from './ddex1-06-the-scroll-thief.ts'
+import ddex1_07_drums_in_the_marsh from './ddex1-07-drums-in-the-marsh.ts'
 import ddex1_08_tales_trees_tell from './ddex1-08-tales-trees-tell.ts'
 import ddex1_09_outlaws_of_the_iron_route from './ddex1-09-outlaws-of-the-iron-route.ts'
 import ddex1_10_tyranny_in_phlan from './ddex1-10-tyranny-in-phlan.ts'
 import ddex1_11_dark_pyramid_of_sorcerer_s_isle from './ddex1-11-dark-pyramid-of-sorcerer-s-isle.ts'
+import ddex1_12_raiders_of_the_twilight_marsh from './ddex1-12-raiders-of-the-twilight-marsh.ts'
 import ddex1_14_escape_from_phlan from './ddex1-14-escape-from-phlan.ts'
 import ddex2_01_city_of_danger from './ddex2-01-city-of-danger.ts'
 import ddex2_02_embers_of_elmwood from './ddex2-02-embers-of-elmwood.ts'
@@ -62,6 +64,7 @@ import flee_mortals_public_preview from './flee-mortals-public-preview.ts'
 import flee_mortals from './flee-mortals.ts'
 import ghosts_of_saltmarsh from './ghosts-of-saltmarsh.ts'
 import guildmasters_guide_to_ravnica from './guildmasters-guide-to-ravnica.ts'
+import hoard_of_the_dragon_queen_d_d_encounters from './hoard-of-the-dragon-queen-d-d-encounters.ts'
 import hoard_of_the_dragon_queen_online_supplement from './hoard-of-the-dragon-queen-online-supplement.ts'
 import hoard_of_the_dragon_queen from './hoard-of-the-dragon-queen.ts'
 import humblewood_campaign_setting from './humblewood-campaign-setting.ts'
@@ -151,10 +154,12 @@ export default [
   ddex1_04_dues_for_the_dead,
   ddex1_05_the_courting_of_fire,
   ddex1_06_the_scroll_thief,
+  ddex1_07_drums_in_the_marsh,
   ddex1_08_tales_trees_tell,
   ddex1_09_outlaws_of_the_iron_route,
   ddex1_10_tyranny_in_phlan,
   ddex1_11_dark_pyramid_of_sorcerer_s_isle,
+  ddex1_12_raiders_of_the_twilight_marsh,
   ddex1_14_escape_from_phlan,
   ddex2_01_city_of_danger,
   ddex2_02_embers_of_elmwood,
@@ -186,6 +191,7 @@ export default [
   ghosts_of_saltmarsh,
   guildmasters_guide_to_ravnica,
   hoard_of_the_dragon_queen,
+  hoard_of_the_dragon_queen_d_d_encounters,
   hoard_of_the_dragon_queen_online_supplement,
   humblewood_campaign_setting,
   icewind_dale_rime_of_the_frostmaiden,

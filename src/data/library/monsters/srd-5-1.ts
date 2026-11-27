@@ -8484,7 +8484,14 @@ export default createPublicationMonsters({
     },
     ghost: {
       name: 'Ghost',
-      reprintedIn: [refs.publications.ddep1_corruption_in_kryptgarden],
+      reprintedIn: [
+        refs.publications.ddep1_corruption_in_kryptgarden,
+        refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
+        refs.publications.ddex1_13_pool_of_radiance_resurgent,
+        refs.publications.ddex3_07_herald_of_the_moon,
+        refs.publications.ddex3_16_assault_on_maerimydra,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       alignment: 'any alignment',
       languages: ['any languages it knew in life'],
       stats: {

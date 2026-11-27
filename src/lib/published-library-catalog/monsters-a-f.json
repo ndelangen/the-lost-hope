@@ -8832,32 +8832,16 @@
       {
         "id": "printing-0bdc41ebc84dedb9e344c21b",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 117",
-              "Hit dice · 18d8 + 36",
-              "Challenge · 7",
-              "Size · Medium",
-              "Type · Elemental",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 18",
-              "Dex · 14",
-              "Con · 14",
-              "Int · 9",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "air_elemental_myrmidon"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Flail · melee · +7 to hit · reach 5 ft. · 1d8 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-d52db096b0a92abc8591b432",
@@ -42734,100 +42718,17 @@
       {
         "id": "printing-2b1989b2c9ea3670b343d54a",
         "label": "Hoard of the Dragon Queen",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 39",
-              "Hit dice · 6d8 + 12",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Creature tags · human",
-              "Alignment · lawful evil",
-              "Strength · 9",
-              "Dexterity · 16",
-              "Constitution · 14",
-              "Intelligence · 16",
-              "Wisdom · 13",
-              "Charisma · 11",
-              "Passive Perception · 11"
-            ]
+        "source": "https://5e.tools/bestiary.html#azbara%20jos_hotdq",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "azbara_jos"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 4. Named abilities include Special Equipment, Potent Cantrips, Sculpt Spells."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Dagger · melee or ranged · +5 to hit · reach 5 ft. · 1d4 + 3 piercing"]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Intelligence +5, Wisdom +3"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +5, Deception +2, Insight +3, Stealth +5"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Draconic, Infernal, Primordial, Thayan"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Special Equipment · Spell scroll (1st level) · Mage armor",
-              "Potent Cantrips",
-              "Sculpt Spells"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Dagger · Melee or ranged attack · +5 to hit · 1d4 + 3 piercing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Intelligence · DC 13 · +5 to hit · Mage hand · Prestidigitation · Ray of frost · Shocking grasp · Fog cloud · Magic missile · Shield · Thunderwave · Invisibility · Misty step · Scorching ray · Counterspell · Dispel magic · Fireball",
-              "Cantrips · mage hand, prestidigitation, ray of frost, shocking grasp",
-              "Level 1 (4 slots) · fog cloud, magic missile, shield, thunderwave",
-              "Level 2 (3 slots) · invisibility, misty step, scorching ray",
-              "Level 3 (3 slots) · counterspell, dispel magic, fireball"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Hoard of the Dragon Queen, p. 88 · https://5e.tools/bestiary.html#azbara%20jos_hotdq",
-              "Mage armor (spell) · https://5e.tools/spells.html#mage%20armor_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Ray of frost (spell) · https://5e.tools/spells.html#ray%20of%20frost_phb",
-              "Shocking grasp (spell) · https://5e.tools/spells.html#shocking%20grasp_phb",
-              "Fog cloud (spell) · https://5e.tools/spells.html#fog%20cloud_phb",
-              "Magic missile (spell) · https://5e.tools/spells.html#magic%20missile_phb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_phb",
-              "Thunderwave (spell) · https://5e.tools/spells.html#thunderwave_phb",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Scorching ray (spell) · https://5e.tools/spells.html#scorching%20ray_phb",
-              "Counterspell (spell) · https://5e.tools/spells.html#counterspell_phb",
-              "Dispel magic (spell) · https://5e.tools/spells.html#dispel%20magic_phb",
-              "Fireball (spell) · https://5e.tools/spells.html#fireball_phb",
-              "Spell scroll (1st level) (item) · https://5e.tools/items.html#spell%20scroll%20(1st%20level)_dmg"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#azbara%20jos_hotdq"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -47132,36 +47033,16 @@
       {
         "id": "printing-7c6ecbbd777a9947818d17d2",
         "label": "Rise of Tiamat - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 110",
-              "Hit dice · 13d8 + 52",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 18",
-              "Int · 12",
-              "Wis · 14",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "barbed_devil"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Claw · melee · +6 to hit · reach 5 ft. · 1d6 + 3 piercing",
-              "Tail · melee · +6 to hit · reach 5 ft. · 2d6 + 3 piercing",
-              "Hurl Flame · ranged · +5 to hit · range 150 ft. · 3d6 fire"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6ccc18d66168fdb41ceb5965",
@@ -47729,36 +47610,16 @@
       {
         "id": "printing-4527fac8974f6106dba2c344",
         "label": "DDEX3-16 - Assault on Maerimydra",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 68",
-              "Hit dice · 8d10 + 24",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Fiend",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 7",
-              "Wis · 14",
-              "Cha · 9"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "barlgura"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +7 to hit · reach 5 ft. · 2d6+4 piercing",
-              "Fist · melee · +7 to hit · reach 5 ft. · 1d10+4 bludgeoning",
-              "Fire Ray · ranged · +7 to hit · range 120 ft. · 3d6 fire"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_16_assault_on_maerimydra"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-db0db379b72556e14ab50aa4",
@@ -57293,32 +57154,16 @@
       {
         "id": "printing-8bd1972960064595561e6150",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 45",
-              "Hit dice · 7d8 + 14",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 15",
-              "Dex · 11",
-              "Con · 14",
-              "Int · 12",
-              "Wis · 10",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "black_earth_priest"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Glaive · melee · +4 to hit · reach 10 ft. · 1d10 + 2 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-0618d0cff53918a4001eb02b",
@@ -58646,99 +58491,17 @@
       {
         "id": "printing-b2167651070e098ded02b38a",
         "label": "Hoard of the Dragon Queen",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 138",
-              "Hit dice · 12d12 + 60",
-              "Challenge · 9",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · walk 40 ft.",
-              "Strength · 26",
-              "Dexterity · 13",
-              "Constitution · 20",
-              "Intelligence · 16",
-              "Wisdom · 15",
-              "Charisma · 15",
-              "Creature tags · cloud giant",
-              "Alignment · neutral evil",
-              "Passive Perception · 16"
-            ]
+        "source": "https://5e.tools/bestiary.html#blagothkus_hotdq",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "blagothkus"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge giant with challenge rating 9. Named abilities include Keen Smell, Morningstar, Innate Spellcasting."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Morningstar · melee · +10 to hit · reach 10 ft. · 3d8 + 8 piercing"]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Constitution +9, Wisdom +6, Charisma +6"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +7, Insight +6, Intimidation +6, Perception +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Draconic, Giant"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Keen Smell · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Morningstar · Melee attack · +10 to hit · 3d8 + 8 piercing damage · reach 10 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · DC 15 · Fog cloud · Levitate",
-              "3/day each · fog cloud, levitate",
-              "Spellcasting · Intelligence · DC 15 · +7 to hit · Light · Mage hand · Prestidigitation · Detect magic · Identify · Magic missile · Shield · Gust of wind · Misty step · Shatter · Fly · Lightning bolt",
-              "Cantrips · light, mage hand, prestidigitation",
-              "Level 1 (4 slots) · detect magic, identify, magic missile, shield",
-              "Level 2 (3 slots) · gust of wind, misty step, shatter",
-              "Level 3 (2 slots) · fly, lightning bolt"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Hoard of the Dragon Queen, p. 89 · https://5e.tools/bestiary.html#blagothkus_hotdq",
-              "Splint armor (item) · https://5e.tools/items.html#splint%20armor_phb",
-              "Fog cloud (spell) · https://5e.tools/spells.html#fog%20cloud_phb",
-              "Levitate (spell) · https://5e.tools/spells.html#levitate_phb",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Identify (spell) · https://5e.tools/spells.html#identify_phb",
-              "Magic missile (spell) · https://5e.tools/spells.html#magic%20missile_phb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_phb",
-              "Gust of wind (spell) · https://5e.tools/spells.html#gust%20of%20wind_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Shatter (spell) · https://5e.tools/spells.html#shatter_phb",
-              "Fly (spell) · https://5e.tools/spells.html#fly_phb",
-              "Lightning bolt (spell) · https://5e.tools/spells.html#lightning%20bolt_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#blagothkus_hotdq"
+        }
       }
     ],
     "groups": ["Giant"]
@@ -68043,64 +67806,17 @@
       {
         "id": "printing-2145bdfbf3b3c32535559212",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Plant",
-              "Speed · walk 20 ft.",
-              "Passive Perception · 9",
-              "Strength · 14",
-              "Dexterity · 11",
-              "Constitution · 11",
-              "Intelligence · 14",
-              "Wisdom · 8",
-              "Charisma · 18",
-              "Alignment · chaotic evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#bridesmaid%20of%20zuggtmoy_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bridesmaid_of_zuggtmoy"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium plant with challenge rating 1/8. Named abilities include Fungus Stride, Hallucination Spores, Infestation Spores (1/Day)."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands Abyssal but can't speak"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Fungus Stride · within 5 feet · within 60 feet"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Hallucination Spores · DC 10 Constitution save · 1 minute · within 5 feet · Repeat the save at the end of each turn · Poisoned · Incapacitated",
-              "Infestation Spores (1/Day) · DC 10 Constitution save · 1 minute · 24 hours"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 230 · https://5e.tools/bestiary.html#bridesmaid%20of%20zuggtmoy_oota",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#bridesmaid%20of%20zuggtmoy_oota"
+        }
       }
     ],
     "groups": ["Plant"]
@@ -74252,80 +73968,17 @@
       {
         "id": "printing-afcef446e30aa9b4c6f3b032",
         "label": "Hoard of the Dragon Queen",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 93",
-              "Hit dice · 11d10 + 33",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 15",
-              "Strength · 19",
-              "Dexterity · 10",
-              "Constitution · 16",
-              "Intelligence · 13",
-              "Wisdom · 14",
-              "Charisma · 12",
-              "Creature tags · human",
-              "Alignment · lawful evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#captain%20othelstan_hotdq",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "captain_othelstan"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 5. Named abilities include Action Surge (Recharges on a Short or Long Rest), Tiamat's Blessing of Retribution, Flail."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +7", "Con +6", "Strength +7, Constitution +6"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Flail · melee · +7 to hit · reach 5 ft. · 1d8 + 4 bludgeoning",
-              "Spear · melee or ranged · +7 to hit · reach 5 ft. · 1d6 + 4 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +7, Intimidation +7, Perception +5, Religion +4"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Draconic, Giant"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Action Surge (Recharges on a Short or Long Rest)",
-              "Tiamat's Blessing of Retribution · 0 hit points · 20 hit points"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Flail · Melee attack · +7 to hit · 1d8 + 4 bludgeoning damage · reach 5 ft.",
-              "Spear · Melee or ranged attack · +7 to hit · 1d6 + 4 piercing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Hoard of the Dragon Queen, p. 89 · https://5e.tools/bestiary.html#captain%20othelstan_hotdq",
-              "Splint armor (item) · https://5e.tools/items.html#splint%20armor_phb",
-              "Shield (item) · https://5e.tools/items.html#shield_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#captain%20othelstan_hotdq"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -78578,75 +78231,17 @@
       {
         "id": "printing-9b6f8f8a26db2d10c16d846c",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 45",
-              "Hit dice · 6d10 + 12",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Plant",
-              "Speed · walk 20 ft.",
-              "Passive Perception · 9",
-              "Strength · 17",
-              "Dexterity · 7",
-              "Constitution · 14",
-              "Intelligence · 11",
-              "Wisdom · 8",
-              "Charisma · 12",
-              "Alignment · chaotic evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#chamberlain%20of%20zuggtmoy_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "chamberlain_of_zuggtmoy"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large plant with challenge rating 2. Named abilities include Mushroom Portal, Poison Spores, Slam."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +5 to hit · reach 5 ft. · 2d6 + 3 bludgeoning"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Undercommon"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["bludgeoning, piercing"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Mushroom Portal",
-              "Poison Spores · DC 12 Constitution save · 1 minute · within 5 feet · Repeat the save at the end of each turn · Poisoned"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Slam · Melee attack · +5 to hit · 2d6 + 3 bludgeoning damage · reach 5 ft.",
-              "Infestation Spores (1/Day) · DC 12 Constitution save · 1 minute · 24 hours"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 230 · https://5e.tools/bestiary.html#chamberlain%20of%20zuggtmoy_oota",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#chamberlain%20of%20zuggtmoy_oota"
+        }
       }
     ],
     "groups": ["Plant"]
@@ -82748,61 +82343,17 @@
       {
         "id": "printing-c584e1d899d28784f2c2f9e7",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 93",
-              "Challenge · 4",
-              "Size · Large",
-              "Type · Plant",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Alignment · unaligned",
-              "Hit dice · 11d10 + 33",
-              "Strength · 19",
-              "Dexterity · 10",
-              "Constitution · 16",
-              "Intelligence · 2",
-              "Wisdom · 6",
-              "Charisma · 1",
-              "Passive Perception · 8"
-            ]
+        "source": "https://5e.tools/bestiary.html#chuul%20spore%20servant_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "chuul_spore_servant"
           },
-          {
-            "title": "Description",
-            "lines": ["A Large plant with challenge rating 4. Named abilities include Pincer."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 30 ft. (blind beyond this radius)"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["blinded, charmed, frightened, paralyzed, poisoned"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Pincer · Melee attack · +6 to hit · 2d6 + 4 bludgeoning damage · Escape DC 14 · reach 10 ft. · Grappled"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 228 · https://5e.tools/bestiary.html#chuul%20spore%20servant_oota",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#chuul%20spore%20servant_oota"
+        }
       }
     ],
     "groups": ["Plant"]
@@ -93995,34 +93546,16 @@
       {
         "id": "printing-93788eba4d13e5d86538b8a1",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 60",
-              "Hit dice · 8d8 + 24",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Str · 11",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 14",
-              "Wis · 10",
-              "Cha · 17"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "crushing_wave_deceiver"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Dagger · melee or ranged · +3 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 1 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -95643,35 +95176,16 @@
       {
         "id": "printing-380d0e5f408a6e4501ff66ce",
         "label": "DDEX1-10 - Tyranny in Phlan",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 57",
-              "Hit dice · 6d12 + 18",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 19",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 14",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cult_prison_guard"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatsword · melee · +6 to hit · reach 5 ft. · 2d6 + 4 slashing",
-              "Spear · melee or ranged · +6 to hit · reach 5 ft. · 1d6 + 4 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_10_tyranny_in_phlan"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -108776,35 +108290,16 @@
       {
         "id": "printing-a4e4129a3ebb48abf7ebd039",
         "label": "DDEX3-16 - Assault on Maerimydra",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 49",
-              "Hit dice · 11d6 + 11",
-              "Challenge · 3",
-              "Size · Small",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 9",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 11",
-              "Wis · 5",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "derro_savant"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Hooked Shortspear · melee · +2 to hit · reach 5 ft. · 1d4 − 1 piercing",
-              "Light Repeating Crossbow · ranged · +4 to hit · range 40/160 ft. · 1d8 + 2 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_16_assault_on_maerimydra"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-a635dc8ab842e02719471e5e",
@@ -120142,34 +119637,16 @@
       {
         "id": "printing-b0a5f3a93135366564dd2e3d",
         "label": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 40",
-              "Hit dice · 9d8",
-              "Challenge · 6",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 9",
-              "Dex · 14",
-              "Con · 11",
-              "Int · 17",
-              "Wis · 12",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dragonborn_mage"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Dagger · melee or ranged · +5 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_11_dark_pyramid_of_sorcerer_s_isle"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -120290,35 +119767,16 @@
       {
         "id": "printing-3dda03701f3a1fb926008f97",
         "label": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 32",
-              "Hit dice · 5d8 + 10",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 15",
-              "Dex · 11",
-              "Con · 14",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dragonborn_thug"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Mace · melee · +4 to hit · reach 5 ft. · 1d6 + 2 bludgeoning",
-              "Heavy Crossbow · ranged · +2 to hit · range 100/400 ft. · 1d10 piercing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_11_dark_pyramid_of_sorcerer_s_isle"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -120456,79 +119914,17 @@
       {
         "id": "printing-1ace09a92ea94d8dba138fc8",
         "label": "Hoard of the Dragon Queen",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 16",
-              "Hit dice · 3d8 + 3",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Creature tags · human",
-              "Alignment · lawful evil",
-              "Strength · 9",
-              "Dexterity · 16",
-              "Constitution · 13",
-              "Intelligence · 11",
-              "Wisdom · 10",
-              "Charisma · 12",
-              "Passive Perception · 10"
-            ]
+        "source": "https://5e.tools/bestiary.html#dragonclaw_hotdq",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dragonclaw"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1. Named abilities include Dragon Fanatic, Fanatic Advantage, Pack Tactics."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Scimitar · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Wisdom +2"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +3, Stealth +5"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Draconic"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Dragon Fanatic · Charmed · Frightened",
-              "Fanatic Advantage · 2d6",
-              "Pack Tactics · within 5 feet · Incapacitated"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Scimitar · Melee attack · +5 to hit · 1d6 + 3 slashing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Hoard of the Dragon Queen, p. 89 · https://5e.tools/bestiary.html#dragonclaw_hotdq",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#dragonclaw_hotdq"
+        }
       },
       {
         "id": "printing-42b628b498028b69c38eff6b",
@@ -120557,32 +119953,16 @@
       {
         "id": "printing-7caf28a462d4673fe5678c89",
         "label": "Rise of Tiamat",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 16",
-              "Hit dice · 3d8 + 3",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 9",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dragonclaw"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Scimitar · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -121748,100 +121128,17 @@
       {
         "id": "printing-acf2c9c20d9646ceaf3d5489",
         "label": "Hoard of the Dragon Queen",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 52",
-              "Hit dice · 7d10 + 14",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Strength · 18",
-              "Dexterity · 14",
-              "Constitution · 14",
-              "Intelligence · 16",
-              "Wisdom · 10",
-              "Charisma · 8",
-              "Creature tags · tag elf, prefix High",
-              "Alignment · neutral evil",
-              "Passive Perception · 12"
-            ]
+        "source": "https://5e.tools/bestiary.html#dralmorrer%20borngray_hotdq",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dralmorrer_borngray"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 3. Named abilities include Fey Ancestry, War Magic, Weapon Bond."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Longsword · melee · +6 to hit · reach 5 ft. · 1d8 +4 slashing",
-              "Dagger · melee or ranged · +6 to hit · reach 5 ft. · 1d4 +4 piercing"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Strength +6, Constitution +4"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +5, Deception +1, Insight +2, Perception +2, Religion +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Bullywug, Draconic, Elvish, Goblin, Sylvan"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Fey Ancestry · Charmed", "War Magic", "Weapon Bond"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Longsword · Melee attack · +6 to hit · 1d8 + 4 slashing damage · reach 5 ft.",
-              "Dagger · Melee or ranged attack · +6 to hit · 1d4 + 4 piercing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Intelligence · DC 13 · +5 to hit · Fire bolt · Prestidigitation · Shocking grasp · Longstrider · Magic missile · Shield · Thunderwave · Magic weapon · Misty step",
-              "Cantrips · fire bolt, prestidigitation, shocking grasp",
-              "Level 1 (4 slots) · longstrider, magic missile, shield, thunderwave",
-              "Level 2 (2 slots) · magic weapon, misty step"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Hoard of the Dragon Queen, p. 90 · https://5e.tools/bestiary.html#dralmorrer%20borngray_hotdq",
-              "Studded leather armor (item) · https://5e.tools/items.html#studded%20leather%20armor_phb",
-              "Shield (item) · https://5e.tools/items.html#shield_phb",
-              "Fire bolt (spell) · https://5e.tools/spells.html#fire%20bolt_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Shocking grasp (spell) · https://5e.tools/spells.html#shocking%20grasp_phb",
-              "Longstrider (spell) · https://5e.tools/spells.html#longstrider_phb",
-              "Magic missile (spell) · https://5e.tools/spells.html#magic%20missile_phb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_phb",
-              "Thunderwave (spell) · https://5e.tools/spells.html#thunderwave_phb",
-              "Magic weapon (spell) · https://5e.tools/spells.html#magic%20weapon_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#dralmorrer%20borngray_hotdq"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -124575,108 +123872,17 @@
       {
         "id": "printing-9064592de67a05fcae9b9279",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 31",
-              "Hit dice · 7d6 + 7",
-              "Challenge · 2",
-              "Size · Small",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 7",
-              "Strength · 11",
-              "Dexterity · 16",
-              "Constitution · 13",
-              "Intelligence · 10",
-              "Wisdom · 5",
-              "Charisma · 16",
-              "Creature tags · derro",
-              "Alignment · chaotic evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#droki_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "droki"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small humanoid with challenge rating 2. Named abilities include Special Equipment, Insanity, Sneak Attack (1/Turn)."
-            ]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["walk · (60 ft. with boots of speed)"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Shortsword · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Dwarvish, Undercommon"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Special Equipment · Boots of speed",
-              "Insanity · Charmed · Frightened",
-              "Sneak Attack (1/Turn) · 2d6 · within 5 feet · Incapacitated",
-              "Magic Resistance",
-              "Sunlight Sensitivity · Perception"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Shortsword · Melee attack · +5 to hit · 1d6 + 3 piercing damage · DC 11 Constitution save · 3d6 poison damage · reach 5 ft. · Half damage on a successful save"
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Parry"]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · DC 13 · Minor illusion · Darkness · Fear · Shatter",
-              "At will · minor illusion",
-              "1/day each · darkness, fear, shatter"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Roleplaying Droki"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 231 · https://5e.tools/bestiary.html#droki_oota",
-              "Studded leather armor (item) · https://5e.tools/items.html#studded%20leather%20armor_phb",
-              "Minor illusion (spell) · https://5e.tools/spells.html#minor%20illusion_phb",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Fear (spell) · https://5e.tools/spells.html#fear_phb",
-              "Shatter (spell) · https://5e.tools/spells.html#shatter_phb",
-              "Boots of speed (item) · https://5e.tools/items.html#boots%20of%20speed_dmg",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#droki_oota"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -129286,28 +128492,16 @@
       {
         "id": "printing-c211e4394d11dc15c525eaaf",
         "label": "DDEX1-13 - Pool of Radiance Resurgent",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 27",
-              "Hit dice · 5d8 + 5",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 10",
-              "Dex · 12",
-              "Con · 13",
-              "Int · 12",
-              "Wis · 15",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "druid"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_13_pool_of_radiance_resurgent"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-718036739070cc085a23d95e",
@@ -140579,28 +139773,16 @@
       {
         "id": "printing-84546bd0eada16c1effe8c71",
         "label": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 27",
-              "Hit dice · 5d8 + 5",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 10",
-              "Dex · 12",
-              "Con · 13",
-              "Int · 12",
-              "Wis · 15",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "elf_druid"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_11_dark_pyramid_of_sorcerer_s_isle"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -146667,28 +145849,16 @@
       {
         "id": "printing-287978c42da6397525270b88",
         "label": "DDAL04-14 - The Darklord",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 120",
-              "Hit dice · 16d8 + 48",
-              "Challenge · 11",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 10",
-              "Con · 16",
-              "Int · 20",
-              "Wis · 17",
-              "Cha · 18"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "esmae_amarantha"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_14_the_darklord"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -148691,32 +147861,16 @@
       {
         "id": "printing-2ce631b1c3e5f6e23d94afd0",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 9",
-              "Dex · 14",
-              "Con · 11",
-              "Int · 17",
-              "Wis · 12",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "evil_sorcerer"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Dagger · melee · +4 to hit · reach 5 ft. · 1d4 + 2 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-e276b5341bfd0b2f67854bf6",
@@ -156776,32 +155930,16 @@
       {
         "id": "printing-b22ccee2592c909851b7c0e0",
         "label": "DDEX3-16 - Assault on Maerimydra",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 162",
-              "Hit dice · 13d12 + 78",
-              "Challenge · 9",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · walk 30 ft.",
-              "Str · 25",
-              "Dex · 9",
-              "Con · 23",
-              "Int · 10",
-              "Wis · 14",
-              "Cha · 13"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fiendborne_fire_giant"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Greatsword · melee · +11 to hit · reach 10 ft. · 6d6 + 7 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_16_assault_on_maerimydra"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Giant"],
@@ -156915,32 +156053,16 @@
       {
         "id": "printing-24779c00c5d00a3dc38808c5",
         "label": "DDEX3-12 - Hillsfar Reclaimed",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 52",
-              "Hit dice · 8d8 + 16",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft.",
-              "Str · 11",
-              "Dex · 18",
-              "Con · 14",
-              "Int · 11",
-              "Wis · 12",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fiendish_doppelganger"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +6 to hit · reach 5 ft. · 1d6 + 4 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_12_hillsfar_reclaimed"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Monstrosity"],
@@ -164328,32 +163450,16 @@
       {
         "id": "printing-ffc5d49b8b7094013b25d111",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 9",
-              "Hit dice · 2d8",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 11",
-              "Dex · 12",
-              "Con · 10",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "font_simulacrum_cultist"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Slam · melee · +3 to hit · reach 5 ft. · 1d6 + 1 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -168287,118 +167393,31 @@
       {
         "id": "printing-46be153dfae0c2383b70a1ef",
         "label": "Hoard of the Dragon Queen",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 44",
-              "Hit dice · 8d8 + 8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Creature tags · human",
-              "Alignment · lawful evil",
-              "Strength · 14",
-              "Dexterity · 10",
-              "Constitution · 13",
-              "Intelligence · 11",
-              "Wisdom · 18",
-              "Charisma · 15",
-              "Passive Perception · 14"
-            ]
+        "source": "https://5e.tools/bestiary.html#frulam%20mondath_hotdq",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "frulam_mondath"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 2. Named abilities include Halberd."]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Halberd · melee · +5 to hit · reach 10 ft. · 1d10 + 2 bludgeoning"]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Wisdom +6, Charisma +4"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +4, History +2, Religion +2"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Draconic, Infernal"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Halberd · Melee attack · +5 to hit · 1d10 + 2 slashing damage · reach 10 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Wisdom · DC 14 · +6 to hit · Light · Sacred flame · Thaumaturgy · Command · Cure wounds · Healing word · Sanctuary · Calm emotions · Hold person · Spiritual weapon · Mass healing word · Spirit guardians",
-              "Cantrips · light, sacred flame, thaumaturgy",
-              "Level 1 (4 slots) · command, cure wounds, healing word, sanctuary",
-              "Level 2 (3 slots) · calm emotions, hold person, spiritual weapon",
-              "Level 3 (2 slots) · mass healing word, spirit guardians"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Hoard of the Dragon Queen, p. 90 · https://5e.tools/bestiary.html#frulam%20mondath_hotdq",
-              "Chain mail (item) · https://5e.tools/items.html#chain%20mail_phb",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Sacred flame (spell) · https://5e.tools/spells.html#sacred%20flame_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Command (spell) · https://5e.tools/spells.html#command_phb",
-              "Cure wounds (spell) · https://5e.tools/spells.html#cure%20wounds_phb",
-              "Healing word (spell) · https://5e.tools/spells.html#healing%20word_phb",
-              "Sanctuary (spell) · https://5e.tools/spells.html#sanctuary_phb",
-              "Calm emotions (spell) · https://5e.tools/spells.html#calm%20emotions_phb",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Spiritual weapon (spell) · https://5e.tools/spells.html#spiritual%20weapon_phb",
-              "Mass healing word (spell) · https://5e.tools/spells.html#mass%20healing%20word_phb",
-              "Spirit guardians (spell) · https://5e.tools/spells.html#spirit%20guardians_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#frulam%20mondath_hotdq"
+        }
       },
       {
         "id": "printing-4fa27c99cdab52ce1156bfc6",
         "label": "Hoard of the Dragon Queen - D&D Encounters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 44",
-              "Hit dice · 8d8 + 8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 14",
-              "Dex · 10",
-              "Con · 13",
-              "Int · 11",
-              "Wis · 18",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "frulam_mondath"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Halberd · melee · +5 to hit · reach 10 ft. · 1d10 + 2 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_d_d_encounters"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"]

@@ -6403,111 +6403,17 @@
       {
         "id": "printing-290899b52701a75b0d5dd3b7",
         "label": "Hoard of the Dragon Queen",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 71",
-              "Hit dice · 11d8 + 22",
-              "Challenge · 6",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Creature tags · human",
-              "Alignment · lawful evil",
-              "Strength · 11",
-              "Dexterity · 16",
-              "Constitution · 14",
-              "Intelligence · 18",
-              "Wisdom · 14",
-              "Charisma · 10",
-              "Passive Perception · 12"
-            ]
+        "source": "https://5e.tools/bestiary.html#rath%20modar_hotdq",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rath_modar"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 6. Named abilities include Special Equipment, Quarterstaff, Illusory Self (Recharges on a Short or Long Rest)."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Quarterstaff · melee · +4 to hit · reach 5 ft. · 1d8 bludgeoning"]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Intelligence +7, Wisdom +5"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +7, Deception +3, Insight +5, Stealth +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Draconic, Infernal, Primordial, Thayan"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Special Equipment · Staff of fire · Dimension door · Feather fall · Fireball"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Quarterstaff · Melee attack · +4 to hit · 1d8 bludgeoning damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Illusory Self (Recharges on a Short or Long Rest)"]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Intelligence · DC 15 · +7 to hit · Fire bolt · Minor illusion · Prestidigitation · Shocking grasp · Chromatic orb · Color spray · Mage armor · Magic missile · Detect thoughts · Mirror image · Phantasmal force · Counterspell · Fireball · Major image · Confusion · Greater invisibility · Mislead · Seeming · Globe of invulnerability",
-              "Cantrips · fire bolt, minor illusion, prestidigitation, shocking grasp",
-              "Level 1 (4 slots) · chromatic orb, color spray, mage armor, magic missile",
-              "Level 2 (3 slots) · detect thoughts, mirror image, phantasmal force",
-              "Level 3 (3 slots) · counterspell, fireball, major image",
-              "Level 4 (3 slots) · confusion, greater invisibility",
-              "Level 5 (2 slots) · mislead, seeming",
-              "Level 6 (1 slots) · globe of invulnerability"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Hoard of the Dragon Queen, p. 92 · https://5e.tools/bestiary.html#rath%20modar_hotdq",
-              "Mage armor (spell) · https://5e.tools/spells.html#mage%20armor_phb",
-              "Fire bolt (spell) · https://5e.tools/spells.html#fire%20bolt_phb",
-              "Minor illusion (spell) · https://5e.tools/spells.html#minor%20illusion_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Shocking grasp (spell) · https://5e.tools/spells.html#shocking%20grasp_phb",
-              "Chromatic orb (spell) · https://5e.tools/spells.html#chromatic%20orb_phb",
-              "Color spray (spell) · https://5e.tools/spells.html#color%20spray_phb",
-              "Magic missile (spell) · https://5e.tools/spells.html#magic%20missile_phb",
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Mirror image (spell) · https://5e.tools/spells.html#mirror%20image_phb",
-              "Phantasmal force (spell) · https://5e.tools/spells.html#phantasmal%20force_phb",
-              "Counterspell (spell) · https://5e.tools/spells.html#counterspell_phb",
-              "Fireball (spell) · https://5e.tools/spells.html#fireball_phb",
-              "Major image (spell) · https://5e.tools/spells.html#major%20image_phb",
-              "Confusion (spell) · https://5e.tools/spells.html#confusion_phb",
-              "Greater invisibility (spell) · https://5e.tools/spells.html#greater%20invisibility_phb",
-              "Mislead (spell) · https://5e.tools/spells.html#mislead_phb",
-              "Seeming (spell) · https://5e.tools/spells.html#seeming_phb",
-              "Globe of invulnerability (spell) · https://5e.tools/spells.html#globe%20of%20invulnerability_phb",
-              "Staff of fire (item) · https://5e.tools/items.html#staff%20of%20fire_dmg",
-              "Dimension door (spell) · https://5e.tools/spells.html#dimension%20door_phb",
-              "Feather fall (spell) · https://5e.tools/spells.html#feather%20fall_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#rath%20modar_hotdq"
+        }
       },
       {
         "id": "printing-fccbc3762f4556f9fa2a8fc2",
@@ -17087,119 +16993,18 @@
       {
         "id": "printing-1e7a6c95ea24a6b6a0d99fed",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 77",
-              "Hit dice · 14d8 + 14",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Creature tags · human",
-              "Alignment · lawful good",
-              "Strength · 9",
-              "Dexterity · 12",
-              "Constitution · 13",
-              "Intelligence · 16",
-              "Wisdom · 18",
-              "Charisma · 16",
-              "Passive Perception · 17"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 5. Named abilities include Special Equipment, Undead Slayer, Sword Cane."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Constitution +4, Wisdom +7"]
-          },
-          {
-            "title": "Skills",
-            "lines": [
-              "Arcana +9, Insight +7, Medicine +7, Perception +7, Religion +6, Sleight Of Hand +4"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common, Elvish, Infernal"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Special Equipment · Hat of disguise · Ring of mind shielding · Spell scroll (5th level) · Raise dead",
-              "Undead Slayer · 3d6"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Sword Cane · Melee attack · +4 to hit · 1d6 + 1 bludgeoning damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Wisdom · DC 15 · +7 to hit · Guidance · Light · Mending · Thaumaturgy · Cure wounds · Detect evil and good · Protection from evil and good · Sanctuary · Augury · Lesser restoration · Protection from poison · Magic circle · Remove curse · Speak with dead · Death ward · Freedom of movement · Dispel evil and good",
-              "Cantrips · guidance, light, mending, thaumaturgy",
-              "Level 1 (4 slots) · cure wounds, detect evil and good, protection from evil and good, sanctuary",
-              "Level 2 (3 slots) · augury, lesser restoration, protection from poison",
-              "Level 3 (3 slots) · magic circle, remove curse, speak with dead",
-              "Level 4 (3 slots) · death ward, freedom of movement",
-              "Level 5 (1 slots) · dispel evil and good"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": [
-              "Monster Hunter",
-              "The Waiting Game",
-              "Man with a Plan",
-              "Rictavio's Traits",
-              "Ideal",
-              "Bond",
-              "Flaw"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 238 · https://5e.tools/bestiary.html#rictavio_cos",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Guidance (spell) · https://5e.tools/spells.html#guidance_phb",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Mending (spell) · https://5e.tools/spells.html#mending_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Cure wounds (spell) · https://5e.tools/spells.html#cure%20wounds_phb",
-              "Detect evil and good (spell) · https://5e.tools/spells.html#detect%20evil%20and%20good_phb",
-              "Protection from evil and good (spell) · https://5e.tools/spells.html#protection%20from%20evil%20and%20good_phb",
-              "Sanctuary (spell) · https://5e.tools/spells.html#sanctuary_phb",
-              "Augury (spell) · https://5e.tools/spells.html#augury_phb",
-              "Lesser restoration (spell) · https://5e.tools/spells.html#lesser%20restoration_phb",
-              "Protection from poison (spell) · https://5e.tools/spells.html#protection%20from%20poison_phb",
-              "Magic circle (spell) · https://5e.tools/spells.html#magic%20circle_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Death ward (spell) · https://5e.tools/spells.html#death%20ward_phb",
-              "Freedom of movement (spell) · https://5e.tools/spells.html#freedom%20of%20movement_phb",
-              "Dispel evil and good (spell) · https://5e.tools/spells.html#dispel%20evil%20and%20good_phb",
-              "Hat of disguise (item) · https://5e.tools/items.html#hat%20of%20disguise_dmg",
-              "Ring of mind shielding (item) · https://5e.tools/items.html#ring%20of%20mind%20shielding_dmg",
-              "Spell scroll (5th level) (item) · https://5e.tools/items.html#spell%20scroll%20(5th%20level)_dmg",
-              "Raise dead (spell) · https://5e.tools/spells.html#raise%20dead_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#rictavio_cos",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/323/737/1000/1000/636623995708971736.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/323/737/1000/1000/636623995708971736.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rictavio"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -20257,28 +20062,16 @@
       {
         "id": "printing-bed36fca6b089ce387d5c770",
         "label": "DDEX1-04 - Dues for the Dead",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 9",
-              "Dex · 14",
-              "Con · 11",
-              "Int · 17",
-              "Wis · 12",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rorreth_red_wizard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_04_dues_for_the_dead"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -67545,161 +67338,18 @@
       {
         "id": "printing-40ad3eb9a5e0c26934996a2e",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 144",
-              "Hit dice · 17d8 + 68",
-              "Challenge · 15",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Creature tags · shapechanger",
-              "Alignment · lawful evil",
-              "Strength · 18",
-              "Dexterity · 18",
-              "Constitution · 18",
-              "Intelligence · 20",
-              "Wisdom · 15",
-              "Charisma · 18",
-              "Passive Perception · 22",
-              "Lair profile · Strahd von Zarovich"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium undead with challenge rating 15. Named abilities include Shapechanger, Legendary Resistance (3/Day), Misty Escape."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dexterity +9, Wisdom +7, Charisma +9"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +15, Perception +12, Religion +10, Stealth +14"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common, Draconic, Elvish, Giant, Infernal"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["necrotic, bludgeoning, piercing, slashing from nonmagical attacks"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Shapechanger",
-              "Legendary Resistance (3/Day)",
-              "Misty Escape · 0 hit points · 2 hours · 1 hour · Unconscious · Paralyzed",
-              "Regeneration · 20 hit points · Holy Water (Flask)",
-              "Spider Climb",
-              "Vampire Weaknesses",
-              "Forbiddance",
-              "Harmed by Running Water · 20 acid damage",
-              "Stake to the Heart · Incapacitated · Paralyzed",
-              "Sunlight Hypersensitivity · 20 radiant damage"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack (Vampire Form Only)",
-              "Unarmed Strike (Vampire or Wolf Form Only) · Melee attack · +9 to hit · 1d8 + 4 slashing damage · 4d6 necrotic damage · Escape DC 18 · reach 5 ft.",
-              "Bite · Melee attack · +9 to hit · 1d6 + 4 piercing damage · 3d6 necrotic damage · reach 5 ft. · Grappled · Incapacitated · Restrained · Vampire spawn",
-              "Charm · DC 17 Wisdom save · within 30 feet · 24 hours · Charmed",
-              "Children of the Night (1/Day) · 2d4 · 3d6 · 1d4 · 1 hour · Swarm of bats · Swarm of rats · Wolf"
-            ]
-          },
-          {
-            "title": "Legendary actions reference",
-            "lines": ["Move", "Unarmed Strike", "Bite (Costs 2 Actions)"]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Intelligence · DC 18 · +10 to hit · Mage hand · Prestidigitation · Ray of frost · Comprehend languages · Fog cloud · Sleep · Detect thoughts · Gust of wind · Mirror image · Animate dead · Fireball · Nondetection · Blight · Greater invisibility · Polymorph · Animate objects · Scrying",
-              "Cantrips · mage hand, prestidigitation, ray of frost",
-              "Level 1 (4 slots) · comprehend languages, fog cloud, sleep",
-              "Level 2 (3 slots) · detect thoughts, gust of wind, mirror image",
-              "Level 3 (3 slots) · animate dead, fireball, nondetection",
-              "Level 4 (3 slots) · blight, greater invisibility, polymorph",
-              "Level 5 (1 slots) · animate objects, scrying"
-            ]
-          },
-          {
-            "title": "Lair actions reference",
-            "lines": [
-              "Lair actions · Incapacitated",
-              "Lair actions · DC 20",
-              "Lair actions · Specter",
-              "Lair actions · DC 17 Charisma save · within 30 feet · Shadow · Greater restoration · Remove curse"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": [
-              "Strahd's Tactics",
-              "The Vampire's Minions",
-              "Strahd's Minions",
-              "Heart of Sorrow"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 240 · https://5e.tools/bestiary.html#strahd%20von%20zarovich_cos",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Ray of frost (spell) · https://5e.tools/spells.html#ray%20of%20frost_phb",
-              "Comprehend languages (spell) · https://5e.tools/spells.html#comprehend%20languages_phb",
-              "Fog cloud (spell) · https://5e.tools/spells.html#fog%20cloud_phb",
-              "Sleep (spell) · https://5e.tools/spells.html#sleep_phb",
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Gust of wind (spell) · https://5e.tools/spells.html#gust%20of%20wind_phb",
-              "Mirror image (spell) · https://5e.tools/spells.html#mirror%20image_phb",
-              "Animate dead (spell) · https://5e.tools/spells.html#animate%20dead_phb",
-              "Fireball (spell) · https://5e.tools/spells.html#fireball_phb",
-              "Nondetection (spell) · https://5e.tools/spells.html#nondetection_phb",
-              "Blight (spell) · https://5e.tools/spells.html#blight_phb",
-              "Greater invisibility (spell) · https://5e.tools/spells.html#greater%20invisibility_phb",
-              "Polymorph (spell) · https://5e.tools/spells.html#polymorph_phb",
-              "Animate objects (spell) · https://5e.tools/spells.html#animate%20objects_phb",
-              "Scrying (spell) · https://5e.tools/spells.html#scrying_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_phb",
-              "Holy Water (Flask) (item) · https://5e.tools/items.html#holy%20water%20(flask)_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Vampire spawn (creature) · https://5e.tools/bestiary.html#vampire%20spawn_mm",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Swarm of bats (creature) · https://5e.tools/bestiary.html#swarm%20of%20bats_mm",
-              "Swarm of rats (creature) · https://5e.tools/bestiary.html#swarm%20of%20rats_mm",
-              "Wolf (creature) · https://5e.tools/bestiary.html#wolf_mm",
-              "Dire wolf (creature) · https://5e.tools/bestiary.html#dire%20wolf_mm",
-              "Ghoul (creature) · https://5e.tools/bestiary.html#ghoul_mm",
-              "Strahd zombie (creature) · https://5e.tools/bestiary.html#strahd%20zombie_cos",
-              "Antimagic field (spell) · https://5e.tools/spells.html#antimagic%20field_phb",
-              "Specter (creature) · https://5e.tools/bestiary.html#specter_mm",
-              "Shadow (creature) · https://5e.tools/bestiary.html#shadow_mm",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#strahd%20von%20zarovich_cos",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/6567/359/1000/1000/636988936829621698.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/6567/359/1000/1000/636988936829621698.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "strahd_von_zarovich"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
+          }
+        }
       },
       {
         "id": "printing-ce4dc2b3e1a5677630ab718d",
@@ -68100,98 +67750,18 @@
       {
         "id": "printing-2d02cabb6f1110f0167a348f",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 21",
-              "Hit points · 112",
-              "Hit dice · 15d8 + 45",
-              "Challenge · 6",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft.",
-              "Alignment · lawful evil",
-              "Strength · 17",
-              "Dexterity · 13",
-              "Constitution · 16",
-              "Intelligence · 9",
-              "Wisdom · 10",
-              "Charisma · 9",
-              "Passive Perception · 13"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium construct with challenge rating 6. Named abilities include Constructed Nature, Antimagic Susceptibility, False Appearance."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Shocking Bolt · ranged · +4 to hit · range 60 ft. · 3d6 lightning"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 60 ft. (blind beyond this radius)"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands Common but can't speak"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["cold, fire"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["lightning, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned"
-            ]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Constructed Nature · 0 hit points",
-              "Antimagic Susceptibility · 1 minute · Incapacitated · Antimagic field · Dispel magic · Unconscious",
-              "False Appearance"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Greatsword · Melee attack · +6 to hit · 2d6 + 3 slashing damage · 1d6 lightning damage · reach 5 ft.",
-              "Shocking Bolt · Ranged attack · +4 to hit · 3d6 lightning damage · range 60 ft."
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Thing of Evil"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 227 · https://5e.tools/bestiary.html#strahd's%20animated%20armor_cos",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Antimagic field (spell) · https://5e.tools/spells.html#antimagic%20field_phb",
-              "Dispel magic (spell) · https://5e.tools/spells.html#dispel%20magic_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#strahd's%20animated%20armor_cos",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/323/659/1000/1000/636623960253938131.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/323/659/1000/1000/636623960253938131.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "strahds_animated_armor"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
+          }
+        }
       },
       {
         "id": "printing-e783ab4e4df94dab86169d24",
@@ -84552,32 +84122,16 @@
       {
         "id": "printing-ed072949d721d5a4e35a93e4",
         "label": "DDEX1-03 - Shadows over the Moonsea",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 9",
-              "Hit dice · 2d8",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 10",
-              "Dex · 10",
-              "Con · 11",
-              "Int · 10",
-              "Wis · 12",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "three_crones"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Dagger · melee · +2 to hit · reach 5 ft. · 1d4 piercing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_03_shadows_over_the_moonsea"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -91164,104 +90718,18 @@
       {
         "id": "printing-0bc266a190cb3a7c9590c831",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 92",
-              "Hit dice · 8d12 + 40",
-              "Challenge · 7",
-              "Size · Huge",
-              "Type · Plant",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 23",
-              "Dexterity · 10",
-              "Constitution · 20",
-              "Intelligence · 6",
-              "Wisdom · 10",
-              "Charisma · 3",
-              "Alignment · neutral evil"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge plant with challenge rating 7. Named abilities include False Appearance, Siege Monster, Branch."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Gulthias tree groves such as Yester Hill"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A dead-looking tree about 30 ft. tall, with thorny branches and trailing, rubbery roots."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Branch · melee · +9 to hit · reach 15 ft. · 3d6 + 6 bludgeoning",
-              "Grasping Root · melee · +9 to hit · reach 15 ft.",
-              "Bite (bonus action, Grappled target) · melee · +9 to hit · reach 5 ft. · 3d8 + 6 piercing"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Grasping Root targets a creature the blight is not already grappling and deals no damage on impact. The creature is Grappled (escape DC 15) and takes 9 (1d6 + 6) bludgeoning at the start of each of its turns. A root has AC 15. One hit dealing at least 6 slashing severs it and ends the grapple without harming the blight.",
-              "Bite is a bonus action against a creature already Grappled by the blight."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 60 ft. (blind beyond this radius)"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands Common and Druidic but doesn't speak"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["blinded, deafened"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["False Appearance", "Siege Monster"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Branch · Melee attack · +9 to hit · 3d6 + 6 bludgeoning damage · reach 15 ft.",
-              "Grasping Root · Melee attack · +9 to hit · Escape DC 15 · 1d6 + 6 bludgeoning damage · 6 slashing damage · reach 15 ft. · Grappled"
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": [
-              "Bite · Melee attack · +9 to hit · 3d8 + 6 piercing damage · reach 5 ft. · Grappled"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Vicious Carnivore", "Blight Animosity"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 230 · https://5e.tools/bestiary.html#tree%20blight_cos",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#tree%20blight_cos",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/13270/407/1000/1000/637382194425388176.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/13270/407/1000/1000/637382194425388176.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tree_blight"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
+          }
+        }
       },
       {
         "id": "printing-d9dc199062e2998406eae587",
@@ -97540,32 +97008,16 @@
       {
         "id": "printing-0f047acef853d08460712e31",
         "label": "DDEX1-03 - Shadows over the Moonsea",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 16",
-              "Hit dice · 3d8 + 3",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 11",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 11",
-              "Wis · 13",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ulburto_scout"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Shortsword · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_03_shadows_over_the_moonsea"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -98135,37 +97587,16 @@
       {
         "id": "printing-33b09e3135ac9f8044181b4e",
         "label": "DDEX3-16 - Assault on Maerimydra",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 93",
-              "Hit dice · 11d10 + 33",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft., burrow 20 ft.",
-              "Str · 20",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 9",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "umber_hulk"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Claw · melee · +8 to hit · reach 5 ft. · 1d8 + 5 slashing",
-              "Mandibles · melee · +8 to hit · reach 5 ft. · 2d8 + 5 slashing",
-              "Beak · melee · +6 to hit · reach 5 ft. · 2d6+3 piercing",
-              "Talons · melee · +6 to hit · reach 5 ft. · 2d10+3 slashing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_16_assault_on_maerimydra"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-178a5b3ad9b3881ab0e13e47",
@@ -111949,69 +111380,17 @@
       {
         "id": "printing-bec313585af49fc075ff38b3",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 58",
-              "Hit dice · 9d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 12",
-              "Strength · 16",
-              "Dexterity · 13",
-              "Constitution · 14",
-              "Intelligence · 10",
-              "Wisdom · 11",
-              "Charisma · 10",
-              "Creature tags · human",
-              "Alignment · lawful good"
-            ]
+        "source": "https://5e.tools/bestiary.html#veteran%20of%20the%20gauntlet_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "veteran_of_the_gauntlet"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 3. Named abilities include Longsword, Shortsword, Heavy Crossbow."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Shortsword · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing",
-              "Heavy Crossbow · ranged · +3 to hit · range 100/400 ft. · 1d10 + 1 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +5, Perception +2"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Dwarvish"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Longsword · Melee attack · +5 to hit · 1d8 + 3 slashing damage · 1d10 + 3 slashing damage · reach 5 ft.",
-              "Shortsword · Melee attack · +5 to hit · 1d6 + 3 piercing damage · reach 5 ft.",
-              "Heavy Crossbow · Ranged attack · +3 to hit · 1d10 + 1 piercing damage · range 100/400 ft."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 130 · https://5e.tools/bestiary.html#veteran%20of%20the%20gauntlet_oota",
-              "Splint armor (item) · https://5e.tools/items.html#splint%20armor_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#veteran%20of%20the%20gauntlet_oota"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -121914,28 +121293,16 @@
       {
         "id": "printing-5bbf1457339f96b56e3f0a03",
         "label": "DDEX1-03 - Shadows over the Moonsea",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 9",
-              "Dex · 14",
-              "Con · 11",
-              "Int · 17",
-              "Wis · 12",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "warsh"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_03_shadows_over_the_moonsea"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -124003,35 +123370,16 @@
       {
         "id": "printing-a5019fb86091c9a55838317e",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 78",
-              "Hit dice · 12d8 + 24",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 40 ft.",
-              "Str · 17",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wereboar"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Maul · melee · +5 to hit · reach 5 ft. · 2d6 + 3 bludgeoning",
-              "Tusks · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "art": [
@@ -143750,32 +143098,16 @@
       {
         "id": "printing-77d7f1bee6461c6bb2ffc4d3",
         "label": "Rise of Tiamat - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_malison"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Constrict · melee · +5 to hit · reach 5 ft. · 2d6 + 3 bludgeoning"]
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-14bc0dc41ef260f51c767ace",

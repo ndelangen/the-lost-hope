@@ -372,6 +372,11 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/Hoard of the Dragon Queen.pdf',
   },
+  hoard_of_the_dragon_queen_d_d_encounters: {
+    name: 'Hoard of the Dragon Queen - D&D Encounters',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/Hoard of the Dragon Queen - D&D Encounters.pdf',
+  },
   hoard_of_the_dragon_queen_online_supplement: {
     name: 'Hoard of the Dragon Queen - Online Supplement',
     ruleset: '5e-2014',
