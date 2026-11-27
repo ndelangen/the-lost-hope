@@ -13,18 +13,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Deep Speech', 'understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Aberration',
-          min: 4,
-          max: 9,
-          ac: { base: 11, level: 1 },
-          hitPoints: { base: 40, level: 10, above: 4 },
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 3, level: 1 },
-          saveDc: 'spell-save-dc',
-          attacks: { level: 0.5 },
-        },
+        scaling: { by: 'spell', of: 'Summon Aberration', min: 4, max: 9 },
         options: [
           {
             key: 'beholderkin',
@@ -148,15 +137,7 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Animate Objects',
-          min: 5,
-          max: 9,
-          hitPoints: { base: 10 },
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 3 },
-        },
+        scaling: { by: 'spell', of: 'Animate Objects', min: 5, max: 9 },
         options: [
           {
             key: 'medium-or-smaller',
@@ -186,7 +167,6 @@ export default createPublicationMonsters({
             name: 'Large',
             form: true,
             size: 'large',
-            hitPoints: { base: 20 },
             abilities: [
               {
                 key: 'slam-large',
@@ -211,7 +191,6 @@ export default createPublicationMonsters({
             name: 'Huge',
             form: true,
             size: 'huge',
-            hitPoints: { base: 40 },
             abilities: [
               {
                 key: 'slam-huge',
@@ -249,18 +228,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'class',
-          of: 'Ranger',
-          min: 3,
-          max: 20,
-          ac: { base: 13, owner: 'wis' },
-          hitPoints: { base: 5, level: 5 },
-          hitDie: 'd8',
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 2, owner: 'wis' },
-          saveDc: 'spell-save-dc',
-        },
+        scaling: { by: 'class', of: 'Ranger', min: 3, max: 20 },
         size: 'medium',
         type: 'beast',
         cr: '0',
@@ -309,18 +277,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'class',
-          of: 'Ranger',
-          min: 3,
-          max: 20,
-          ac: { base: 13, owner: 'wis' },
-          hitPoints: { base: 5, level: 5 },
-          hitDie: 'd8',
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 2, owner: 'wis' },
-          saveDc: 'spell-save-dc',
-        },
+        scaling: { by: 'class', of: 'Ranger', min: 3, max: 20 },
         size: 'medium',
         type: 'beast',
         cr: '0',
@@ -374,18 +331,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'class',
-          of: 'Ranger',
-          min: 3,
-          max: 20,
-          ac: { base: 13, owner: 'wis' },
-          hitPoints: { base: 4, level: 4 },
-          hitDie: 'd6',
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 3, owner: 'wis' },
-          saveDc: 'spell-save-dc',
-        },
+        scaling: { by: 'class', of: 'Ranger', min: 3, max: 20 },
         size: 'small',
         type: 'beast',
         cr: '0',
@@ -437,24 +383,12 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Beast',
-          min: 2,
-          max: 9,
-          ac: { base: 11, level: 1 },
-          hitPoints: { base: 30, level: 5, above: 2 },
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 4, level: 1 },
-          saveDc: 'spell-save-dc',
-          attacks: { level: 0.5 },
-        },
+        scaling: { by: 'spell', of: 'Summon Beast', min: 2, max: 9 },
         options: [
           {
             key: 'air',
             name: 'Air',
             form: true,
-            hitPoints: { base: 20, level: 5, above: 2 },
             speed: { fly: 60 },
             abilities: [
               {
@@ -563,18 +497,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Celestial', 'understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Celestial',
-          min: 5,
-          max: 9,
-          ac: { base: 11, level: 1 },
-          hitPoints: { base: 40, level: 10, above: 5 },
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 2, level: 1 },
-          saveDc: 'spell-save-dc',
-          attacks: { level: 0.5 },
-        },
+        scaling: { by: 'spell', of: 'Summon Celestial', min: 5, max: 9 },
         options: [
           {
             key: 'avenger',
@@ -601,7 +524,6 @@ export default createPublicationMonsters({
             key: 'defender',
             name: 'Defender',
             form: true,
-            ac: { base: 13, level: 1 },
             abilities: [
               {
                 key: 'radiant-mace',
@@ -674,18 +596,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Construct',
-          min: 4,
-          max: 9,
-          ac: { base: 13, level: 1 },
-          hitPoints: { base: 40, level: 15, above: 4 },
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 4, level: 1 },
-          saveDc: 'spell-save-dc',
-          attacks: { level: 0.5 },
-        },
+        scaling: { by: 'spell', of: 'Summon Construct', min: 4, max: 9 },
         options: [
           {
             key: 'clay',
@@ -815,30 +726,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Draconic', 'understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Dragon',
-          min: 5,
-          max: 9,
-          ac: {
-            base: 14,
-            level: 1,
-          },
-          hitPoints: {
-            base: 50,
-            level: 10,
-            above: 5,
-          },
-          attackBonus: 'spell-attack',
-          damageBonus: {
-            base: 4,
-            level: 1,
-          },
-          saveDc: 'spell-save-dc',
-          attacks: {
-            level: 0.5,
-          },
-        },
+        scaling: { by: 'spell', of: 'Summon Dragon', min: 5, max: 9 },
         options: [
           {
             key: 'acid',
@@ -1186,29 +1074,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Primordial', 'understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Elemental',
-          min: 4,
-          max: 9,
-          ac: {
-            base: 11,
-            level: 1,
-          },
-          hitPoints: {
-            base: 50,
-            level: 10,
-            above: 4,
-          },
-          attackBonus: 'spell-attack',
-          damageBonus: {
-            base: 4,
-            level: 1,
-          },
-          attacks: {
-            level: 0.5,
-          },
-        },
+        scaling: { by: 'spell', of: 'Summon Elemental', min: 4, max: 9 },
         options: [
           {
             key: 'air',
@@ -1406,30 +1272,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Sylvan', 'understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Fey',
-          min: 3,
-          max: 9,
-          ac: {
-            base: 12,
-            level: 1,
-          },
-          hitPoints: {
-            base: 30,
-            level: 10,
-            above: 3,
-          },
-          attackBonus: 'spell-attack',
-          damageBonus: {
-            base: 3,
-            level: 1,
-          },
-          saveDc: 'spell-save-dc',
-          attacks: {
-            level: 0.5,
-          },
-        },
+        scaling: { by: 'spell', of: 'Summon Fey', min: 3, max: 9 },
         options: [
           {
             key: 'fuming',
@@ -1574,36 +1417,12 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Abyssal', 'Infernal', 'Telepathy 60 ft.'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Fiend',
-          min: 6,
-          max: 9,
-          ac: {
-            base: 12,
-            level: 1,
-          },
-          hitPoints: {
-            base: 50,
-            level: 15,
-            above: 6,
-          },
-          attackBonus: 'spell-attack',
-          damageBonus: {
-            base: 3,
-            level: 1,
-          },
-          saveDc: 'spell-save-dc',
-          attacks: {
-            level: 0.5,
-          },
-        },
+        scaling: { by: 'spell', of: 'Summon Fiend', min: 6, max: 9 },
         options: [
           {
             key: 'demon',
             name: 'Demon',
             form: true,
-            hitPoints: { base: 50, level: 15, above: 6 },
             speed: {
               climb: 40,
             },
@@ -1664,7 +1483,6 @@ export default createPublicationMonsters({
             key: 'devil',
             name: 'Devil',
             form: true,
-            hitPoints: { base: 40, level: 15, above: 6 },
             speed: {
               fly: 60,
             },
@@ -1703,7 +1521,6 @@ export default createPublicationMonsters({
             key: 'yugoloth',
             name: 'Yugoloth',
             form: true,
-            hitPoints: { base: 60, level: 15, above: 6 },
             abilities: [
               {
                 key: 'claws',
@@ -1780,30 +1597,7 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Giant Insect',
-          min: 4,
-          max: 9,
-          ac: {
-            base: 11,
-            level: 1,
-          },
-          hitPoints: {
-            base: 30,
-            level: 10,
-            above: 4,
-          },
-          attackBonus: 'spell-attack',
-          damageBonus: {
-            base: 3,
-            level: 1,
-          },
-          saveDc: 'spell-save-dc',
-          attacks: {
-            level: 0.5,
-          },
-        },
+        scaling: { by: 'spell', of: 'Giant Insect', min: 4, max: 9 },
         options: [
           {
             key: 'centipede',
@@ -1947,18 +1741,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['telepathy 1 mile (works only with you)'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Find Steed',
-          min: 2,
-          max: 9,
-          ac: { base: 10, level: 1 },
-          hitPoints: { base: 5, level: 10 },
-          hitDie: 'd10',
-          attackBonus: 'spell-attack',
-          damageBonus: { level: 1 },
-          saveDc: 'spell-save-dc',
-        },
+        scaling: { by: 'spell', of: 'Find Steed', min: 2, max: 9 },
         options: [
           {
             key: 'celestial',
@@ -2104,18 +1887,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Undead',
-          min: 3,
-          max: 9,
-          ac: { base: 11, level: 1 },
-          hitPoints: { base: 30, level: 10, above: 3 },
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 3, level: 1 },
-          saveDc: 'spell-save-dc',
-          attacks: { level: 0.5 },
-        },
+        scaling: { by: 'spell', of: 'Summon Undead', min: 3, max: 9 },
         options: [
           {
             key: 'ghostly',
@@ -2201,7 +1973,6 @@ export default createPublicationMonsters({
             key: 'skeletal',
             name: 'Skeletal',
             form: true,
-            hitPoints: { base: 20, level: 10, above: 3 },
             abilities: [
               {
                 key: 'grave-bolt',

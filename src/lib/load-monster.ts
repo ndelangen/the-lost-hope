@@ -38,5 +38,5 @@ export async function loadMonsterPrinting(
   const printing = Object.hasOwn(held.monsters, monster.key)
     ? held.monsters[monster.key]
     : undefined
-  return printing ? typedMonsterPrinting(printing, holder) : undefined
+  return printing ? typedMonsterPrinting(printing, holder, monster.key) : undefined
 }

@@ -26,7 +26,7 @@ export function LibraryTypedCreature({
   printings: ReactNode
 }) {
   const { printing, heldBy, reprints } = typed
-  const block = useCreatureBlock(printing.stats, typed.derived)
+  const block = useCreatureBlock(printing.stats, typed.derived, typed.owned)
   const { stats, derived } = block
   const gallery = entry.art?.length ? entry.art : undefined
   const classification = [
@@ -126,14 +126,14 @@ export function LibraryTypedCreature({
       ) : null}
       {dm ? (
         <section className="bg-card rounded-xl border p-4 sm:p-6">
-          {block.scaling && block.inputs && (
+          {block.scaling && block.owner && (
             <div className="mb-4">
               <ScalingControls
                 scaling={block.scaling}
-                inputs={block.inputs}
                 owner={block.owner}
+                reads={block.reads}
                 onLevel={block.setLevel}
-                onInput={block.setInput}
+                onNumber={block.setOwnerNumber}
               />
             </div>
           )}

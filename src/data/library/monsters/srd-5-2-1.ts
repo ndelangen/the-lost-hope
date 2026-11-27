@@ -9379,30 +9379,7 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Giant Insect',
-          min: 4,
-          max: 9,
-          ac: {
-            base: 11,
-            level: 1,
-          },
-          hitPoints: {
-            base: 30,
-            level: 10,
-            above: 4,
-          },
-          attackBonus: 'spell-attack',
-          damageBonus: {
-            base: 3,
-            level: 1,
-          },
-          saveDc: 'spell-save-dc',
-          attacks: {
-            level: 0.5,
-          },
-        },
+        scaling: { by: 'spell', of: 'Giant Insect', min: 4, max: 9 },
         options: [
           {
             key: 'centipede',

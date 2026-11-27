@@ -32,5 +32,5 @@ export function monsterPrinting(
         candidate.reprintedIn?.some(({ key }) => key === publication.key),
       ) ?? [])
   if (!printing || !heldBy) return undefined
-  return typedMonsterPrinting(printing, heldBy)
+  return typedMonsterPrinting(printing, heldBy, monster.key)
 }

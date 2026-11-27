@@ -903,21 +903,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['telepathy 1 mile (works only with you)'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Homunculus Servant',
-          min: 2,
-          max: 9,
-          hitPoints: {
-            base: 5,
-            level: 5,
-          },
-          hitDie: 'd4',
-          attackBonus: 'spell-attack',
-          damageBonus: {
-            level: 1,
-          },
-        },
+        scaling: { by: 'spell', of: 'Homunculus Servant', min: 2, max: 9 },
         size: 'tiny',
         type: 'construct',
         cr: '0',
@@ -1917,17 +1903,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'class',
-          of: 'Artificer',
-          min: 3,
-          max: 20,
-          ac: { base: 12, owner: 'int' },
-          hitPoints: { base: 5, level: 5 },
-          hitDie: 'd8',
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 2, owner: 'int' },
-        },
+        scaling: { by: 'class', of: 'Artificer', min: 3, max: 20 },
         size: 'medium',
         type: 'construct',
         cr: '0',

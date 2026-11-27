@@ -7928,19 +7928,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Draconic', 'understands the languages you speak'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Draconic Spirit',
-          min: 5,
-          max: 9,
-          ac: { base: 14, level: 1 },
-          hitPoints: { base: 50, level: 10, above: 5 },
-          hitDie: 'd10',
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 4, level: 1 },
-          saveDc: 'spell-save-dc',
-          attacks: { level: 0.5 },
-        },
+        scaling: { by: 'spell', of: 'Summon Draconic Spirit', min: 5, max: 9 },
         options: [
           {
             key: 'chromatic',
@@ -9319,24 +9307,7 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Draconic'],
       stats: {
-        scaling: {
-          by: 'class',
-          of: 'Ranger',
-          min: 3,
-          max: 20,
-          ac: {
-            base: 14,
-            pb: 1,
-          },
-          hitPoints: {
-            base: 5,
-            level: 5,
-          },
-          hitDie: 'd10',
-          damageBonus: {
-            pb: 1,
-          },
-        },
+        scaling: { by: 'class', of: 'Ranger', min: 3, max: 20 },
         size: 'small',
         type: 'dragon',
         cr: '0',

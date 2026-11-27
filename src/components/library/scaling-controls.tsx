@@ -1,52 +1,40 @@
 import type { Scaling } from '#/definitions/stat-block'
-import type { ScaleInputs } from '#/lib/stat-block'
+import type { Owner, OwnerNumber } from '#/lib/owned-creature'
 
-const ABILITY_NAMES = {
-  str: 'Strength',
-  dex: 'Dexterity',
-  con: 'Constitution',
-  int: 'Intelligence',
-  wis: 'Wisdom',
-  cha: 'Charisma',
-} as const
+const LABELS: Record<OwnerNumber, string> = {
+  proficiencyBonus: 'Owner’s proficiency bonus',
+  spellAttack: 'Spell attack',
+  spellSaveDc: 'Spell save DC',
+  str: 'Owner’s Strength modifier',
+  dex: 'Owner’s Dexterity modifier',
+  con: 'Owner’s Constitution modifier',
+  int: 'Owner’s Intelligence modifier',
+  wis: 'Owner’s Wisdom modifier',
+  cha: 'Owner’s Charisma modifier',
+}
 
 /**
- * The level a summoned creature or companion is worked out at, and its owner's numbers: the
- * spell slot or class level, then what the stat block borrows from whoever summoned or keeps it.
+ * The level a summoned creature or companion is worked out at, and the owner's numbers its stat
+ * block reads: the spell slot or class level, then what it borrows from whoever summoned or keeps it.
  */
 export function ScalingControls({
   scaling,
-  inputs,
   owner,
+  reads,
   onLevel,
-  onInput,
+  onNumber,
 }: {
   scaling: Scaling
-  inputs: ScaleInputs
-  /** The owner's ability whose modifier the stat block adds, if it uses one. */
-  owner?: keyof typeof ABILITY_NAMES
+  owner: Owner
+  reads: readonly OwnerNumber[]
   onLevel: (level: number) => void
-  onInput: (
-    field: 'proficiencyBonus' | 'spellAttack' | 'spellSaveDc' | 'owner',
-    value: number,
-  ) => void
+  onNumber: (field: OwnerNumber, value: number) => void
 }) {
   const levels = Array.from({ length: scaling.max - scaling.min + 1 }, (_, i) => scaling.min + i)
-  const field = (label: string, value: number, onChange: (value: number) => void) => (
-    <label className="grid gap-1">
-      <span className="text-muted-foreground text-xs">{label}</span>
-      <input
-        type="number"
-        value={value}
-        onChange={(event) => {
-          if (event.target.value === '') return
-          const next = Number(event.target.value)
-          if (Number.isFinite(next)) onChange(next)
-        }}
-        className="bg-background w-20 rounded-md border px-2 py-1"
-      />
-    </label>
-  )
+  const valueOf = (field: OwnerNumber) =>
+    field === 'proficiencyBonus' || field === 'spellAttack' || field === 'spellSaveDc'
+      ? owner[field]
+      : owner.modifiers[field]
   return (
     <fieldset className="flex flex-wrap items-end gap-3 text-sm">
       <legend className="text-muted-foreground mb-2 font-semibold">
@@ -57,7 +45,7 @@ export function ScalingControls({
           {scaling.by === 'spell' ? 'Spell level' : 'Class level'}
         </span>
         <select
-          value={inputs.level}
+          value={owner.level}
           onChange={(event) => onLevel(Number(event.target.value))}
           className="bg-background rounded-md border px-2 py-1"
         >
@@ -68,17 +56,21 @@ export function ScalingControls({
           ))}
         </select>
       </label>
-      {field('Owner’s proficiency bonus', inputs.proficiencyBonus, (value) =>
-        onInput('proficiencyBonus', value),
-      )}
-      {scaling.attackBonus &&
-        field('Spell attack', inputs.spellAttack, (value) => onInput('spellAttack', value))}
-      {scaling.saveDc &&
-        field('Spell save DC', inputs.spellSaveDc, (value) => onInput('spellSaveDc', value))}
-      {owner &&
-        field(`Owner’s ${ABILITY_NAMES[owner]} modifier`, inputs.modifiers[owner], (value) =>
-          onInput('owner', value),
-        )}
+      {reads.map((field) => (
+        <label key={field} className="grid gap-1">
+          <span className="text-muted-foreground text-xs">{LABELS[field]}</span>
+          <input
+            type="number"
+            value={valueOf(field)}
+            onChange={(event) => {
+              if (event.target.value === '') return
+              const next = Number(event.target.value)
+              if (Number.isFinite(next)) onNumber(field, next)
+            }}
+            className="bg-background w-20 rounded-md border px-2 py-1"
+          />
+        </label>
+      ))}
     </fieldset>
   )
 }

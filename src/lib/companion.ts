@@ -2,14 +2,8 @@ import type { Companion, PC } from '#/definitions/pc'
 import type { PrintedStatBlock } from '#/definitions/stat-block'
 import type { AbilityId } from '#/lib/rules'
 
-import {
-  modifier,
-  proficiencyForLevel,
-  scaleCreature,
-  typicalInputs,
-  withOptions,
-  type ScaleInputs,
-} from './stat-block'
+import { typicalOwner, type OwnedCreature, type Owner } from './owned-creature'
+import { modifier, proficiencyForLevel, withOptions } from './stat-block'
 
 /** The ability each class casts with, for a companion that uses its owner's spell attack. */
 const CASTING_ABILITY: Record<string, AbilityId> = {
@@ -38,11 +32,11 @@ export function castingAbilityOf(pc: PC, companion: Companion): AbilityId {
  * proficiency bonus, ability modifiers, and spell attack and save DC from their casting ability.
  * A PC without a stat block lends a +3 in every ability, with their own proficiency bonus.
  */
-export function companionInputs(
+export function companionOwner(
   pc: PC,
   companion: Companion,
   stats: PrintedStatBlock,
-): ScaleInputs | undefined {
+): Owner | undefined {
   const scaling = stats.scaling
   if (!scaling) return undefined
   const characterLevel = pc.level ?? 1
@@ -56,7 +50,7 @@ export function companionInputs(
   const proficiencyBonus = proficiencyForLevel(characterLevel)
   const scores = pc.stats?.scores
   if (!scores) {
-    const typical = typicalInputs(scaling, level)
+    const typical = typicalOwner(scaling, level)
     return {
       ...typical,
       proficiencyBonus,
@@ -77,9 +71,17 @@ export function companionInputs(
   }
 }
 
-/** A PC's companion as the stat block the table runs: its options picked, worked out from the PC. */
-export function companionStats(pc: PC, companion: Companion, stats: PrintedStatBlock) {
-  const picked = withOptions(stats, companion.options ?? [])
-  const inputs = companionInputs(pc, companion, stats)
-  return inputs ? scaleCreature(picked, inputs) : picked
+/**
+ * A PC's companion as the stat block the table runs: worked out from the PC by its own function,
+ * if it has one, with its options joined in.
+ */
+export function companionStats(
+  pc: PC,
+  companion: Companion,
+  stats: PrintedStatBlock,
+  creature: OwnedCreature | undefined,
+) {
+  const picked = companion.options ?? []
+  const owner = companionOwner(pc, companion, stats)
+  return withOptions(creature && owner ? creature.stats(stats, owner, picked) : stats, picked)
 }

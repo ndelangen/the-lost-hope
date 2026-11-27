@@ -579,31 +579,15 @@ const PrintedNumbers = z
     passivePerception: z.number().int().optional(),
     saves: z.partialRecord(AbilityId, z.number().int()).optional(),
     skills: z.partialRecord(z.enum(SKILL_KEYS), z.number().int()).optional(),
+    hitPointsOnly: z
+      .literal(true)
+      .optional()
+      .describe('Hit points with no hit dice, as a summoned spirit has: set by its owner function'),
   })
   .refine(
     (printed) => Object.keys(printed).length > 0,
     'Leave out `printed` when nothing breaks the formula',
   )
-
-/**
- * A number that grows with the level a creature is summoned or kept at, and with its owner:
- * `base` + `level` × (the level − `above`) + the owner's `owner` modifier + `pb` × their
- * proficiency bonus. Fractions round down, as "half this spell's level" does.
- */
-const ScaledNumber = z.strictObject({
-  base: z.number().int().default(0),
-  level: z.number().positive().optional().describe('Times the level, e.g. `10` per spell level'),
-  above: z.number().int().nonnegative().optional().describe('Count only the levels above this'),
-  owner: AbilityId.optional().describe("Adds the owner's modifier, e.g. an artificer's `int`"),
-  pb: z.number().int().positive().optional().describe("Times the owner's proficiency bonus"),
-  steps: z
-    .array(z.strictObject({ from: z.number().int().min(1).max(20), add: z.number().int() }))
-    .min(1)
-    .optional()
-    .describe('Added once the level reaches `from`, e.g. +2 AC from artificer level 15'),
-})
-
-export type ScaledNumber = z.infer<typeof ScaledNumber>
 
 /**
  * An optional rule the book prints for a creature, such as a demon's Summon Demon action or a
@@ -642,19 +626,14 @@ const CreatureOption = z.strictObject({
     .array(RuleRef)
     .optional()
     .describe('Conditions this form is also immune to'),
-  ac: ScaledNumber.optional().describe(
-    'Its armor class in this form, worked out like `scaling.ac`',
-  ),
-  hitPoints: ScaledNumber.optional().describe(
-    'Its hit points in this form, like `scaling.hitPoints`',
-  ),
   abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).default([]),
 })
 
 /**
- * A creature a spell summons or a class feature gives a character, whose numbers follow the
- * spell's level or the class level and its owner's own numbers. The stat block holds what does
- * not change; these say how the rest is worked out.
+ * A creature a spell summons or a class feature gives a character: its statistics depend on its
+ * owner. This says on what and over which levels; how is the creature's own function in
+ * `src/data/library/owned/`, which may ignore the owner, work numbers out, or return the stat
+ * block the book prints at that level.
  */
 const Scaling = z
   .strictObject({
@@ -662,23 +641,6 @@ const Scaling = z
     of: z.string().trim().min(1).describe('The spell or class, e.g. `Summon Aberration`'),
     min: z.number().int().min(1).max(20),
     max: z.number().int().min(1).max(20),
-    ac: ScaledNumber.optional(),
-    hitPoints: ScaledNumber,
-    hitDie: z
-      .enum(['d4', 'd6', 'd8', 'd10', 'd12'])
-      .optional()
-      .describe('One hit die of this size per level, as a companion has'),
-    attackBonus: z
-      .literal('spell-attack')
-      .optional()
-      .describe("Its attacks use the owner's spell attack modifier"),
-    damageBonus: ScaledNumber.optional().describe(
-      'Added to each attack damage roll that adds a modifier, e.g. 3 + the spell level',
-    ),
-    saveDc: z.literal('spell-save-dc').optional().describe("Its saves use the owner's spell DC"),
-    attacks: ScaledNumber.optional().describe(
-      'How many attacks its Multiattack makes, e.g. half the spell level',
-    ),
   })
   .refine(({ min, max }) => min <= max, 'The lowest level comes first')
 

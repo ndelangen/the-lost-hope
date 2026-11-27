@@ -1,22 +1,42 @@
-import { useMemo, useState } from 'react'
+import { use, useMemo, useState } from 'react'
 
 import type { PrintedStatBlock } from '#/definitions/stat-block'
-import type { DerivedStats, ScaleInputs } from '#/lib/stat-block'
+import { loadOwnedCreature } from '#/lib/load-owned-creature'
+import type { MonsterOwner } from '#/lib/monster-printing'
 import {
-  deriveStatBlock,
-  scaleCreature,
-  scaledOwnerAbility,
-  typicalInputs,
-  withOptions,
-} from '#/lib/stat-block'
+  typicalOwner,
+  type Owner,
+  type OwnedCreature,
+  type OwnerNumber,
+} from '#/lib/owned-creature'
+import type { DerivedStats } from '#/lib/stat-block'
+import { deriveStatBlock, withOptions } from '#/lib/stat-block'
 
-type Field = 'proficiencyBonus' | 'spellAttack' | 'spellSaveDc' | 'owner'
+const loading = new Map<string, Promise<OwnedCreature | undefined>>()
+
+/** The owner function a creature follows, loaded once and shared by every page that shows it. */
+function ownedFunction({ publication, monster }: MonsterOwner) {
+  const key = `${publication}/${monster}`
+  const known = loading.get(key)
+  if (known) return known
+  // A failed load (a chunk gone after a deploy) is forgotten, so the next visit tries again.
+  const load = loadOwnedCreature(publication, monster).catch((error: unknown) => {
+    loading.delete(key)
+    throw error
+  })
+  loading.set(key, load)
+  return load
+}
 
 /**
- * The stat block a library page shows: the printed block with the options the DM picked, worked
- * out at the level they chose for a summoned creature or companion.
+ * The stat block a library page shows: the printed block at the level and owner the DM chose for
+ * a summoned creature or companion, with the options they picked.
  */
-export function useCreatureBlock(printed: PrintedStatBlock, printedDerived: DerivedStats) {
+export function useCreatureBlock(
+  printed: PrintedStatBlock,
+  printedDerived: DerivedStats,
+  owned: MonsterOwner | undefined,
+) {
   const options = printed.options
   const firstForm = options?.find((option) => option.form)?.key
   const [chosen, setChosen] = useState<readonly string[] | undefined>(undefined)
@@ -33,29 +53,30 @@ export function useCreatureBlock(printed: PrintedStatBlock, printedDerived: Deri
   }, [chosen, options, firstForm])
 
   const scaling = printed.scaling
-  const owner = scaledOwnerAbility(printed)
+  const creature = owned ? use(ownedFunction(owned)) : undefined
   const [level, setLevel] = useState<number | undefined>(undefined)
-  const [overrides, setOverrides] = useState<Partial<Record<Field, number>>>({})
-  const inputs = useMemo((): ScaleInputs | undefined => {
+  const [overrides, setOverrides] = useState<Partial<Record<OwnerNumber, number>>>({})
+  const owner = useMemo((): Owner | undefined => {
     if (!scaling) return undefined
-    const at = Math.min(scaling.max, Math.max(scaling.min, level ?? scaling.min))
-    const typical = typicalInputs(scaling, at)
+    const typical = typicalOwner(
+      scaling,
+      Math.min(scaling.max, Math.max(scaling.min, level ?? scaling.min)),
+    )
+    const { proficiencyBonus, spellAttack, spellSaveDc, ...modifiers } = overrides
     return {
       ...typical,
-      proficiencyBonus: overrides.proficiencyBonus ?? typical.proficiencyBonus,
-      spellAttack: overrides.spellAttack ?? typical.spellAttack,
-      spellSaveDc: overrides.spellSaveDc ?? typical.spellSaveDc,
-      modifiers:
-        owner && overrides.owner !== undefined
-          ? { ...typical.modifiers, [owner]: overrides.owner }
-          : typical.modifiers,
+      proficiencyBonus: proficiencyBonus ?? typical.proficiencyBonus,
+      spellAttack: spellAttack ?? typical.spellAttack,
+      spellSaveDc: spellSaveDc ?? typical.spellSaveDc,
+      modifiers: { ...typical.modifiers, ...modifiers },
     }
-  }, [scaling, level, overrides, owner])
+  }, [scaling, level, overrides])
 
-  const stats = useMemo(() => {
-    const withPicked = withOptions(printed, picked)
-    return inputs ? scaleCreature(withPicked, inputs) : withPicked
-  }, [printed, picked, inputs])
+  // The creature works itself out from its owner first; the options it prints join after.
+  const stats = useMemo(
+    () => withOptions(creature && owner ? creature.stats(printed, owner, picked) : printed, picked),
+    [printed, creature, owner, picked],
+  )
   const derived = useMemo(
     () => (stats === printed ? printedDerived : deriveStatBlock(stats)),
     [stats, printed, printedDerived],
@@ -84,14 +105,14 @@ export function useCreatureBlock(printed: PrintedStatBlock, printedDerived: Deri
     picked,
     toggle,
     scaling,
-    inputs,
     owner,
+    reads: creature?.reads ?? [],
     // A new level starts from that level's typical owner again.
     setLevel: (next: number) => {
       setLevel(next)
       setOverrides({})
     },
-    setInput: (field: Field, value: number) =>
+    setOwnerNumber: (field: OwnerNumber, value: number) =>
       setOverrides((current) => ({ ...current, [field]: value })),
   }
 }

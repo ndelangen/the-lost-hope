@@ -213,24 +213,12 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Battle Familiar',
-          min: 2,
-          max: 9,
-          ac: { base: 11, level: 1 },
-          hitPoints: { base: 20, level: 5, above: 2 },
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 3, level: 1 },
-          attacks: { level: 0.5 },
-        },
+        scaling: { by: 'spell', of: 'Battle Familiar', min: 2, max: 9 },
         options: [
           {
             key: 'brute',
             name: 'Brute',
             form: true,
-            ac: { base: 13, level: 1 },
-            hitPoints: { base: 30, level: 5, above: 2 },
           },
           {
             key: 'flyer',
@@ -508,24 +496,12 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Dinosaur',
-          min: 6,
-          max: 9,
-          ac: { base: 11, level: 1 },
-          hitPoints: { base: 60, level: 10, above: 6 },
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 5, level: 1 },
-          saveDc: 'spell-save-dc',
-          attacks: { level: 0.5 },
-        },
+        scaling: { by: 'spell', of: 'Summon Dinosaur', min: 6, max: 9 },
         options: [
           {
             key: 'ankylosaur',
             name: 'Ankylosaur',
             form: true,
-            ac: { base: 13, level: 1 },
             abilities: [
               {
                 key: 'siege-monster',
@@ -1734,18 +1710,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you know'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Summon Plant',
-          min: 5,
-          max: 9,
-          ac: { base: 11, level: 1 },
-          hitPoints: { base: 50, level: 10, above: 5 },
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 3, level: 1 },
-          saveDc: 'spell-save-dc',
-          attacks: { level: 0.5 },
-        },
+        scaling: { by: 'spell', of: 'Summon Plant', min: 5, max: 9 },
         options: [
           {
             key: 'fungus',
@@ -1782,7 +1747,6 @@ export default createPublicationMonsters({
             key: 'tree',
             name: 'Tree',
             form: true,
-            ac: { base: 13, level: 1 },
             damageVulnerabilities: [rules.fire],
             abilities: [
               {
@@ -2470,17 +2434,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['speaks the languages you know'],
       stats: {
-        scaling: {
-          by: 'class',
-          of: 'Warlock',
-          min: 3,
-          max: 20,
-          ac: { base: 13, owner: 'cha' },
-          hitPoints: { base: 4, level: 4 },
-          hitDie: 'd6',
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 3, owner: 'cha' },
-        },
+        scaling: { by: 'class', of: 'Warlock', min: 3, max: 20 },
         options: [
           {
             key: 'celestial',

@@ -1390,14 +1390,7 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["understands one of your languages but can't speak"],
       stats: {
-        scaling: {
-          by: 'class',
-          of: 'Level',
-          min: 1,
-          max: 20,
-          hitPoints: { base: 5, level: 5 },
-          hitDie: 'd8',
-        },
+        scaling: { by: 'class', of: 'Level', min: 1, max: 20 },
         options: [
           {
             key: 'acrobat',
@@ -4891,18 +4884,7 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['understands the languages you speak'],
       stats: {
-        scaling: {
-          by: 'spell',
-          of: 'Spirit of Death',
-          min: 4,
-          max: 9,
-          ac: { base: 11, level: 1 },
-          hitPoints: { base: 40, level: 10, above: 4 },
-          attackBonus: 'spell-attack',
-          damageBonus: { base: 3, level: 1 },
-          saveDc: 'spell-save-dc',
-          attacks: { level: 0.5 },
-        },
+        scaling: { by: 'spell', of: 'Spirit of Death', min: 4, max: 9 },
         size: 'medium',
         type: 'undead',
         cr: '0',
