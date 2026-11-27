@@ -5,10 +5,10 @@ import viteReact from '@vitejs/plugin-react'
 import { defineConfig, loadEnv } from 'vite'
 import type { Connect, Plugin } from 'vite'
 
-import { devIconModulesPlugin } from './scripts/dev-icon-modules.ts'
 import { devRecordsPlugin } from './scripts/dev-records.ts'
 import { dmAuthoringPlugin } from './scripts/dm-authoring.ts'
 import { generateRefs, REFERENCE_SOURCE_PATHS } from './scripts/generate-refs.ts'
+import { iconModulesPlugin } from './scripts/icon-modules.ts'
 import { libraryCatalogPlugin } from './scripts/library-catalog.ts'
 import { readPublicPagePaths } from './scripts/public-page-paths.ts'
 import { HANDOUT_PATHS } from './src/lib/handouts.ts'
@@ -125,7 +125,7 @@ const config = defineConfig(({ mode }) => {
       libraryCatalogPlugin(),
       dmAuthoringPlugin(),
       devRecordsPlugin(),
-      devIconModulesPlugin(),
+      iconModulesPlugin(),
       tanstackStart({
         pages: [
           ...publicPagePaths.map((path) => ({ path })),

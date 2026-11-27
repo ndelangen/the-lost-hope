@@ -5,17 +5,21 @@ import path from 'node:path'
 import type { Plugin } from 'vite'
 
 /**
+ * Rewrites named icon imports in app code to one small module per icon.
+ *
  * In development, Vite serves each icon library as one prebundled module, so naming three icons
- * from `react-icons/gi` makes the browser download and parse all 4,000 of them (17 MB), and Lucide
- * and Font Awesome add another 9 MB. Production builds tree-shake these imports, so this plugin is
- * dev-only: it rewrites named icon imports in app code to one small module per icon.
+ * from `react-icons/gi` would make the browser download and parse all 4,000 of them (17 MB), and
+ * Lucide and Font Awesome add another 9 MB. In production builds, a react-icons set is one module,
+ * so every icon the app uses anywhere landed in one shared chunk (about 240 KB gzip) that any page
+ * naming a single icon waited for before it could hydrate; one module per icon lets each icon sit
+ * with the pages that draw it.
  */
 
 const require = createRequire(import.meta.url)
 const REACT_ICON_SETS = ['gi', 'fa'] as const
 type ReactIconSet = (typeof REACT_ICON_SETS)[number]
 
-const VIRTUAL_PREFIX = '\0dev-icon:'
+const VIRTUAL_PREFIX = '\0icon:'
 const ICON_IMPORT = /import\s*\{([^}]*)\}\s*from\s*(["'])(react-icons\/(?:gi|fa)|lucide-react)\2;?/g
 
 /** One icon's `export function …` source per name, read from a react-icons set. */
@@ -59,7 +63,7 @@ function parseSpecifiers(list: string): Specifier[] {
     })
 }
 
-export function devIconModulesPlugin(): Plugin {
+export function iconModulesPlugin(): Plugin {
   const reactIcons = new Map<ReactIconSet, Map<string, string>>()
   let lucide: Map<string, string> | undefined
 
@@ -69,8 +73,7 @@ export function devIconModulesPlugin(): Plugin {
   }
 
   return {
-    name: 'dev-icon-modules',
-    apply: 'serve',
+    name: 'icon-modules',
     config: () => ({ optimizeDeps: { include: ['react-icons/lib'] } }),
     resolveId(id) {
       return id.startsWith(VIRTUAL_PREFIX) ? id : undefined
