@@ -2994,12 +2994,6 @@ export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/content/scenes/hex-loses-patience.png',
   },
   {
-    id: 'scenes-down-through-the-rubble',
-    role: 'illustration',
-    logicalSource: '/assets/scenes/down-through-the-rubble.png',
-    repositoryPath: 'assets/images/content/scenes/down-through-the-rubble.png',
-  },
-  {
     id: 'scenes-light-walks-auren-through-fajanet',
     role: 'illustration',
     logicalSource: '/assets/scenes/light-walks-auren-through-fajanet.png',
