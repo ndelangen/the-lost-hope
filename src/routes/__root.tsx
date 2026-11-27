@@ -24,9 +24,15 @@ const loadUiPreferences = createIsomorphicFn()
   .server(() => parseUiPreferences(getRequestHeader('cookie') ?? '', DM_MODE_AVAILABLE))
   .client(() => parseUiPreferences(document.cookie, DM_MODE_AVAILABLE))
 
-/** The server draws every entity icon in its HTML, so it loads the icon sets before rendering. */
-const loadServerIcons = createIsomorphicFn()
-  .server(() => loadEntityIcons())
+/**
+ * The server draws every entity icon and library picture in its HTML, so it loads the modules the
+ * browser defers until after hydration before rendering.
+ */
+const loadDeferredModules = createIsomorphicFn()
+  .server(async () => {
+    const { loadLibraryImages } = await import('#/components/library/library-image')
+    await Promise.all([loadEntityIcons(), loadLibraryImages()])
+  })
   .client(() => undefined)
 
 export const Route = createRootRoute({
@@ -38,7 +44,7 @@ export const Route = createRootRoute({
     links: [{ rel: 'icon', href: '/favicon.ico' }],
   }),
   loader: async () => {
-    await loadServerIcons()
+    await loadDeferredModules()
     return loadUiPreferences()
   },
   component: RootComponent,

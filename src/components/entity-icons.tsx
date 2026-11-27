@@ -1,7 +1,13 @@
-import { lazy, Suspense, type ComponentType } from 'react'
+import { Suspense, type ComponentType } from 'react'
 
 import type { CardSuit } from '#/definitions/card'
 import type { LocationType } from '#/definitions/location'
+import {
+  deferredModule,
+  lazyFrom,
+  loadAfterPageLoad,
+  type DeferredModule,
+} from '#/lib/deferred-module'
 
 /**
  * The icon of each kind of entity, as the shell and every page show them beside a name. Each kind's
@@ -14,25 +20,15 @@ import type { LocationType } from '#/definitions/location'
  * an empty square of the icon's size for that moment.
  */
 
-/** One icon set, loaded once and then read synchronously. */
-function iconSet<S>(load: () => Promise<S>) {
-  let set: S | undefined
-  let loading: Promise<S> | undefined
-  return {
-    load: () => (loading ??= load().then((loaded) => (set = loaded))),
-    get: () => set,
-  }
-}
-
 const sets = {
-  card: iconSet(() => import('#/lib/card-icons')),
-  effect: iconSet(() => import('#/lib/effect-icons')),
-  event: iconSet(() => import('#/lib/event-icons')),
-  item: iconSet(() => import('#/lib/item-icons')),
-  location: iconSet(() => import('#/lib/location-icons')),
-  organization: iconSet(() => import('#/lib/organization-icons')),
-  quest: iconSet(() => import('#/lib/quest-icons')),
-  session: iconSet(() => import('#/lib/session-icons')),
+  card: deferredModule(() => import('#/lib/card-icons')),
+  effect: deferredModule(() => import('#/lib/effect-icons')),
+  event: deferredModule(() => import('#/lib/event-icons')),
+  item: deferredModule(() => import('#/lib/item-icons')),
+  location: deferredModule(() => import('#/lib/location-icons')),
+  organization: deferredModule(() => import('#/lib/organization-icons')),
+  quest: deferredModule(() => import('#/lib/quest-icons')),
+  session: deferredModule(() => import('#/lib/session-icons')),
 }
 
 /** Load every icon set, so a render that follows draws every icon at once. */
@@ -40,37 +36,13 @@ export async function loadEntityIcons() {
   await Promise.all(Object.values(sets).map(({ load }) => load()))
 }
 
-// In the browser, fetch the remaining sets once the page has loaded, so a page opened later
-// already has its icons.
-if (typeof window !== 'undefined') {
-  if (document.readyState === 'complete') void loadEntityIcons()
-  else window.addEventListener('load', () => void loadEntityIcons(), { once: true })
-}
-
-/**
- * A component from an icon set, for React to render through `lazy`. Once the set has loaded, the
- * thenable resolves synchronously, so a render after `loadEntityIcons` never suspends and the
- * server's HTML has no fallbacks in it.
- */
-function lazyFrom<S, P extends object>(
-  set: ReturnType<typeof iconSet<S>>,
-  pick: (loaded: S) => ComponentType<P>,
-) {
-  return lazy<ComponentType<P>>(() => {
-    const loaded = set.get()
-    const module = (from: S) => ({ default: pick(from) })
-    if (!loaded) return set.load().then(module)
-    const ready: PromiseLike<{ default: ComponentType<P> }> = {
-      // oxlint-disable-next-line unicorn/no-thenable -- React reads a thenable that resolves at once synchronously
-      then: (resolve) => resolve?.(module(loaded)) as never,
-    }
-    return ready as Promise<{ default: ComponentType<P> }>
-  })
-}
+// The browser fetches the remaining sets once the page has loaded, so a page opened later already
+// has its icons.
+loadAfterPageLoad(loadEntityIcons)
 
 /** An icon from a set, holding its place with an empty square until the set arrives. */
 function lazyIcon<S, P extends { className?: string }>(
-  set: ReturnType<typeof iconSet<S>>,
+  set: DeferredModule<S>,
   pick: (loaded: S) => ComponentType<P>,
 ) {
   const Icon = lazyFrom(set, pick)
