@@ -452,9 +452,11 @@ export default createPC({
     [
       'Asked privately what he wants for his character, his player named connectedness. What Cassian cares about in the story is ',
       refs.pcs.jim,
-      ' and the unity of the party. His bond with ',
+      ' and the unity of the party. He held on to his bond with ',
       refs.pcs.jim,
-      ' is the only one the pulse did not break, and it may be how ',
+      ' through the pulse because he valued belonging to the party (',
+      refs.events.n2_e207,
+      '), and that bond may be how ',
       refs.pcs.jim,
       ' can be saved. ',
       refs.npcs.light_13th_marshal,
