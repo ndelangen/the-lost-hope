@@ -91,7 +91,80 @@ describe('creatures that follow their owner', () => {
   })
 })
 
+describe('Dragonlance sidekicks', () => {
+  const book = 'dragonlance_shadow_of_the_dragon_queen'
+  // Hit points at levels 1 to 11, as each sidekick's table prints them.
+  const tables: Record<string, number[]> = {
+    iriad: [11, 16, 22, 27, 33, 38, 44, 49, 55, 60, 66],
+    andir_valmakos: [11, 16, 22, 27, 33, 38, 44, 49, 55, 60, 66],
+    ayik_ur: [11, 16, 22, 27, 33, 38, 44, 49, 55, 60, 66],
+    hrigg_roundrook: [11, 16, 22, 27, 33, 38, 44, 49, 55, 60, 66],
+    levna_drakehorn: [13, 19, 26, 32, 39, 45, 52, 58, 65, 71, 78],
+    tem_temble: [11, 16, 22, 27, 33, 38, 44, 49, 55, 60, 66],
+  }
+
+  it('have the hit points their book’s table gives at every level', () => {
+    const worked = Object.fromEntries(
+      Object.entries(tables).map(([monster, hitPoints]) => [
+        monster,
+        hitPoints.map((_, index) => deriveStatBlock(at(book, monster, index + 1)).maxHp),
+      ]),
+    )
+    expect(worked).toEqual(tables)
+  })
+
+  it('gain each level’s features and keep the book’s own to-hit bonus as they grow', () => {
+    const ayik = (level: number) => at(book, 'ayik_ur', level)
+    const keys = (level: number) => ayik(level).abilities.map(({ key }) => key)
+    expect(keys(1)).not.toContain('second-wind')
+    expect(keys(2)).toContain('second-wind')
+    expect(keys(11)).toContain('indomitable')
+    // Attacker: +2 on top of Dexterity and proficiency, at 1st (+7) and at 11th level (+5 Dex, +4 PB).
+    const bow = (level: number) => ayik(level).abilities.find(({ key }) => key === 'longbow')!
+    expect(bow(1).attack?.printedBonus).toBe(7)
+    expect(bow(11).attack?.printedBonus).toBe(11)
+    expect(deriveStatBlock(ayik(11)).proficiencyBonus).toBe(4)
+  })
+
+  it('carry the book’s own save and Perception numbers up its table', () => {
+    const iriad = (level: number) => deriveStatBlock(at(book, 'iriad', level))
+    const levels = Array.from({ length: 11 }, (_, index) => index + 1)
+    // Dexterity save: +1 at the 4th- and 10th-level ASIs, +1 with each proficiency increase.
+    expect(levels.map((level) => iriad(level).saves.dex)).toEqual([4, 4, 4, 5, 6, 6, 6, 6, 7, 8, 8])
+    // Passive Perception: +2 with each proficiency increase (expertise), +1 at the 8th-level ASI.
+    expect(levels.map((level) => iriad(level).passivePerception)).toEqual([
+      13, 13, 13, 13, 15, 15, 15, 16, 18, 18, 18,
+    ])
+    // Tem's spell attack: +1 at each Wisdom ASI and proficiency increase.
+    const tem = (level: number) => deriveStatBlock(at(book, 'tem_temble', level))
+    expect(
+      [1, 4, 5, 8, 9].map((level) => tem(level).proficiencyBonus + tem(level).modifier.wis),
+    ).toEqual([4, 5, 6, 7, 8])
+  })
+
+  it('learn spells and gain slots as they level', () => {
+    const text = (level: number) =>
+      JSON.stringify(
+        at(book, 'andir_valmakos', level).abilities.find(({ key }) => key === 'spellcasting')?.text,
+      )
+    expect(text(1)).toContain('1st level (2 slots)')
+    expect(text(11)).toContain('3rd level (3 slots)')
+  })
+})
+
 const BOOK_VALUES = [
+  'dragonlance_shadow_of_the_dragon_queen/andir_valmakos - 1: AC 12, HP 11',
+  'dragonlance_shadow_of_the_dragon_queen/andir_valmakos - 11: AC 12, HP 66',
+  'dragonlance_shadow_of_the_dragon_queen/ayik_ur - 1: AC 15, HP 11',
+  'dragonlance_shadow_of_the_dragon_queen/ayik_ur - 11: AC 18, HP 66',
+  'dragonlance_shadow_of_the_dragon_queen/hrigg_roundrook - 1: AC 16, HP 11',
+  'dragonlance_shadow_of_the_dragon_queen/hrigg_roundrook - 11: AC 16, HP 66',
+  'dragonlance_shadow_of_the_dragon_queen/iriad - 1: AC 14, HP 11',
+  'dragonlance_shadow_of_the_dragon_queen/iriad - 11: AC 16, HP 66',
+  'dragonlance_shadow_of_the_dragon_queen/levna_drakehorn - 1: AC 18, HP 13',
+  'dragonlance_shadow_of_the_dragon_queen/levna_drakehorn - 11: AC 19, HP 78',
+  'dragonlance_shadow_of_the_dragon_queen/tem_temble - 1: AC 13, HP 11',
+  'dragonlance_shadow_of_the_dragon_queen/tem_temble - 11: AC 13, HP 66',
   'arcana_unleashed/battle_familiar brute 2: AC 15, HP 30',
   'arcana_unleashed/battle_familiar brute 9: AC 22, HP 65',
   'arcana_unleashed/battle_familiar flyer 2: AC 13, HP 20',

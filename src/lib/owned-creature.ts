@@ -1,7 +1,9 @@
-import type { Ability, PrintedStatBlock } from '#/definitions/stat-block'
+import type { z } from 'zod'
+
+import { CreatureAbility, type Ability, type PrintedStatBlock } from '#/definitions/stat-block'
 
 import type { AbilityId } from './rules'
-import { proficiencyForLevel, withOptions } from './stat-block'
+import { deriveStatBlock, modifier, proficiencyForLevel, withOptions } from './stat-block'
 
 /** What a creature borrows from whoever summons or keeps it: a level, and the owner's numbers. */
 export type Owner = {
@@ -156,5 +158,108 @@ export function withOwnerNumbers(
           })),
         }
       : {}),
+  }
+}
+
+/** What one level of a creature's own table changes, e.g. a sidekick's new feature at 3rd level. */
+export type LevelStep = { level: number; change: (stats: PrintedStatBlock) => PrintedStatBlock }
+
+/** Gains abilities; one with the key of an ability it has takes that one's place. */
+export const gain = (...gained: z.input<typeof CreatureAbility>[]) => {
+  const abilities = gained.map((ability) => CreatureAbility.parse(ability))
+  return (stats: PrintedStatBlock): PrintedStatBlock => ({
+    ...stats,
+    // A replaced ability keeps its place; a new one joins at the end.
+    abilities: [
+      ...stats.abilities.map(
+        (ability) => abilities.find(({ key }) => key === ability.key) ?? ability,
+      ),
+      ...abilities.filter(({ key }) => !stats.abilities.some((ability) => ability.key === key)),
+    ],
+  })
+}
+
+/** Raises ability scores, e.g. an Ability Score Improvement. */
+export const raise =
+  (by: Partial<Record<AbilityId, number>>) =>
+  (stats: PrintedStatBlock): PrintedStatBlock => ({
+    ...stats,
+    scores: Object.fromEntries(
+      Object.entries(stats.scores).map(([id, score]) => [id, score + (by[id as AbilityId] ?? 0)]),
+    ) as PrintedStatBlock['scores'],
+  })
+
+/** Steps applied one after another, as one level's change. */
+export const all =
+  (...changes: LevelStep['change'][]) =>
+  (stats: PrintedStatBlock): PrintedStatBlock =>
+    changes.reduce((block, change) => change(block), stats)
+
+/**
+ * A creature at a level of its own table: the printed stat block (its lowest level) with every
+ * step up to that level applied in order. A number the book prints that its scores do not give
+ * (a to-hit with a +2 from a feature, a save it prints lower) keeps its difference from them.
+ */
+export function withLevels(
+  printed: PrintedStatBlock,
+  level: number,
+  steps: readonly LevelStep[],
+): PrintedStatBlock {
+  const pb = (block: PrintedStatBlock) => block.printed?.proficiencyBonus ?? 2
+  const stepped = steps
+    .filter((step) => step.level <= level)
+    .reduce((block, step) => step.change(block), printed)
+  // The numbers its scores and proficiency give, before and after, without the book's own.
+  const formula = (block: PrintedStatBlock) => {
+    const derived = deriveStatBlock({
+      ...block,
+      printed: {
+        proficiencyBonus: pb(block),
+        ...(block.hitDice ? {} : { hitPoints: block.printed?.hitPoints ?? 1 }),
+      },
+    })
+    const skills = Object.fromEntries(derived.skills.map(({ skill, bonus }) => [skill, bonus]))
+    return { ...derived, skills }
+  }
+  const before = formula(printed)
+  const after = formula(stepped)
+  const book = stepped.printed
+  const shift = (
+    values: Partial<Record<string, number>> | undefined,
+    from: Record<string, number>,
+    to: Record<string, number>,
+  ) =>
+    values &&
+    Object.fromEntries(
+      Object.entries(values).map(([key, value]) => [key, value! + to[key]! - from[key]!]),
+    )
+  return {
+    ...stepped,
+    ...(book
+      ? {
+          printed: {
+            ...book,
+            ...(book.saves ? { saves: shift(book.saves, before.saves, after.saves) } : {}),
+            ...(book.skills ? { skills: shift(book.skills, before.skills, after.skills) } : {}),
+            ...(book.passivePerception !== undefined
+              ? {
+                  passivePerception:
+                    book.passivePerception + after.passivePerception - before.passivePerception,
+                }
+              : {}),
+          },
+        }
+      : {}),
+    abilities: stepped.abilities.map((ability) => {
+      const attack = ability.attack
+      const was = printed.abilities.find(({ key }) => key === ability.key)?.attack
+      if (attack?.printedBonus === undefined || !was) return ability
+      const gained =
+        modifier(stepped.scores[attack.ability]) -
+        modifier(printed.scores[attack.ability]) +
+        pb(stepped) -
+        pb(printed)
+      return { ...ability, attack: { ...attack, printedBonus: was.printedBonus! + gained } }
+    }),
   }
 }

@@ -351,6 +351,9 @@ const Source = z
     message: 'A homebrew stat block must describe itself in `changes`',
   })
 
+/** An ability as a stat block lists it, with when it is used. */
+export const CreatureAbility = Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })
+
 /** What every stat block has, a creature's or a PC's. */
 const statCore = {
   size: z.enum(SIZE_KEYS),
@@ -391,7 +394,7 @@ const statCore = {
     .optional()
     .describe('Weapons that get through those nonmagical defences anyway'),
   conditionImmunities: z.array(RuleRef).optional().describe('Conditions'),
-  abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).default([]),
+  abilities: z.array(CreatureAbility).default([]),
 }
 
 type AbilityBlock = {

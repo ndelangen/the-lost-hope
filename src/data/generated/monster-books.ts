@@ -899,6 +899,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_1: [],
     srd_5_2_1: ['monster_manual_2024'],
   },
+  andir_valmakos: {
+    dragonlance_shadow_of_the_dragon_queen: [],
+  },
   andras: {
     infernal_machine_rebuild: [],
   },
@@ -1580,6 +1583,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   axe_of_mirabar_soldier: {
     storm_king_s_thunder: [],
+  },
+  ayik_ur: {
+    dragonlance_shadow_of_the_dragon_queen: [],
   },
   ayo_jabe_tier_1: {
     critical_role_call_of_the_netherdeep: [],
@@ -8351,6 +8357,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   hraesvelgr_the_corpse_swallower: {
     tome_of_beasts: [],
   },
+  hrigg_roundrook: {
+    dragonlance_shadow_of_the_dragon_queen: [],
+  },
   hrossk: {
     waterdeep_dungeon_of_the_mad_mage: [],
   },
@@ -8770,6 +8779,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   ireena_kolyana: {
     curse_of_strahd: [],
+  },
+  iriad: {
+    dragonlance_shadow_of_the_dragon_queen: [],
   },
   irid: {
     tome_of_beasts_2: [],
@@ -9747,6 +9759,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   levistus: {
     chains_of_asmodeus: [],
+  },
+  levna_drakehorn: {
+    dragonlance_shadow_of_the_dragon_queen: [],
   },
   leyleech: {
     flee_mortals: [],
@@ -15382,6 +15397,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   telepathic_pentacle: {
     icewind_dale_rime_of_the_frostmaiden: [],
+  },
+  tem_temble: {
+    dragonlance_shadow_of_the_dragon_queen: [],
   },
   tembril: {
     tome_of_beasts_2: [],

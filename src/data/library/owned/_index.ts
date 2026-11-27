@@ -4,6 +4,12 @@ import arcana_unleashed__battle_familiar from './arcana-unleashed/battle-familia
 import arcana_unleashed__dinosaur_spirit from './arcana-unleashed/dinosaur-spirit.ts'
 import arcana_unleashed__plant_spirit from './arcana-unleashed/plant-spirit.ts'
 import arcana_unleashed__vestige_companion from './arcana-unleashed/vestige-companion.ts'
+import dragonlance_shadow_of_the_dragon_queen__andir_valmakos from './dragonlance-shadow-of-the-dragon-queen/andir-valmakos.ts'
+import dragonlance_shadow_of_the_dragon_queen__ayik_ur from './dragonlance-shadow-of-the-dragon-queen/ayik-ur.ts'
+import dragonlance_shadow_of_the_dragon_queen__hrigg_roundrook from './dragonlance-shadow-of-the-dragon-queen/hrigg-roundrook.ts'
+import dragonlance_shadow_of_the_dragon_queen__iriad from './dragonlance-shadow-of-the-dragon-queen/iriad.ts'
+import dragonlance_shadow_of_the_dragon_queen__levna_drakehorn from './dragonlance-shadow-of-the-dragon-queen/levna-drakehorn.ts'
+import dragonlance_shadow_of_the_dragon_queen__tem_temble from './dragonlance-shadow-of-the-dragon-queen/tem-temble.ts'
 import eberron_forge_of_the_artificer__homunculus_servant from './eberron-forge-of-the-artificer/homunculus-servant.ts'
 import eberron_forge_of_the_artificer__steel_defender from './eberron-forge-of-the-artificer/steel-defender.ts'
 import fizban_s_treasury_of_dragons__draconic_spirit from './fizban-s-treasury-of-dragons/draconic-spirit.ts'
@@ -43,7 +49,6 @@ import tasha_s_cauldron_of_everything__undead_spirit from './tasha-s-cauldron-of
 import tasha_s_cauldron_of_everything__wildfire_spirit from './tasha-s-cauldron-of-everything/wildfire-spirit.ts'
 import the_book_of_many_things__deck_defender from './the-book-of-many-things/deck-defender.ts'
 import the_book_of_many_things__reaper_spirit from './the-book-of-many-things/reaper-spirit.ts'
-
 /**
  * Every creature whose statistics follow its owner, by the publication holding its stat block and
  * its key. Each file beside this one is that creature's function; add a new one here too.
@@ -101,4 +106,14 @@ export const ownedCreatures: Readonly<Record<string, OwnedCreature>> = {
   'tasha_s_cauldron_of_everything/wildfire_spirit': tasha_s_cauldron_of_everything__wildfire_spirit,
   'the_book_of_many_things/deck_defender': the_book_of_many_things__deck_defender,
   'the_book_of_many_things/reaper_spirit': the_book_of_many_things__reaper_spirit,
+  'dragonlance_shadow_of_the_dragon_queen/andir_valmakos':
+    dragonlance_shadow_of_the_dragon_queen__andir_valmakos,
+  'dragonlance_shadow_of_the_dragon_queen/ayik_ur': dragonlance_shadow_of_the_dragon_queen__ayik_ur,
+  'dragonlance_shadow_of_the_dragon_queen/hrigg_roundrook':
+    dragonlance_shadow_of_the_dragon_queen__hrigg_roundrook,
+  'dragonlance_shadow_of_the_dragon_queen/iriad': dragonlance_shadow_of_the_dragon_queen__iriad,
+  'dragonlance_shadow_of_the_dragon_queen/levna_drakehorn':
+    dragonlance_shadow_of_the_dragon_queen__levna_drakehorn,
+  'dragonlance_shadow_of_the_dragon_queen/tem_temble':
+    dragonlance_shadow_of_the_dragon_queen__tem_temble,
 }
