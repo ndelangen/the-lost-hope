@@ -76,8 +76,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              ' for 1 hour.',
+              { effect: 'bite-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bite-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -110,8 +119,17 @@ export default createPublicationMonsters({
             },
             text: [
               'The amphithere exhales a blast of stinging venom in a 30-foot cone. A creature reduced to 0 hit points by this attack remains stable but is ',
-              rules.poisoned,
-              ' for 1 hour, even after regaining hit points. If a creature has total cover from the amphithere, it is not affected by the breath attack.',
+              { effect: 'breath-poisoned' },
+              ', even after regaining hit points. If a creature has total cover from the amphithere, it is not affected by the breath attack.',
+            ],
+            effects: [
+              {
+                key: 'breath-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -183,6 +201,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'occasionally-adhesive-object-form-only',
@@ -191,8 +210,19 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'The animated slime can use a bonus action to become sticky and adhere to anything that touches it. A Huge or smaller creature adhered to the animated slime is also ',
-              rules.grappled,
-              ' by it (escape DC 13). Ability checks made to escape this grapple have disadvantage. The animated slime can become non-adhesive at any time.',
+              { effect: 'adhesive-grappled' },
+              '. The animated slime can become non-adhesive at any time.',
+            ],
+            effects: [
+              {
+                key: 'adhesive-grappled',
+                name: 'Stuck to slime',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                text: ['Ability checks made to escape this grapple have disadvantage.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -307,6 +337,7 @@ export default createPublicationMonsters({
               '; 5th level (2 slots): ',
               refs.spells.greater_restoration_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'staff',
@@ -332,6 +363,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' in her space. Arlowene may uncurl herself at any point during her turn.',
             ],
+            effects: [],
           },
         ],
       },
@@ -494,6 +526,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Cackle has advantage on saving throws against being ', rules.poisoned, '.'],
+            effects: [],
           },
           {
             key: 'skulker',
@@ -589,8 +622,20 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               "As a bonus action, Cathus can attempt to intimidate a creature within 30 feet of him who can see him. The creature must succeed on a Wisdom (Insight) check opposed by Cathus's Charisma (Intimidation) check or become ",
-              rules.frightened,
-              ' of Cathus for up to 1 minute. The target can attempt a new opposed check at the end of each of its turns, ending the effect on a success.',
+              { effect: 'scowl-frightened' },
+              ' of Cathus.',
+            ],
+            effects: [
+              {
+                key: 'scowl-frightened',
+                name: 'Frightened',
+                lands: { on: 'use' },
+                conditions: [rules.frightened],
+                text: [
+                  'The target can attempt a new opposed check at the end of each of its turns, ending the effect on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -601,6 +646,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Cathus has advantage on saving throws against being ', rules.poisoned, '.'],
+            effects: [],
           },
           {
             key: 'skulker',
@@ -726,6 +772,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Elora doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -955,6 +1002,7 @@ export default createPublicationMonsters({
               '; 4th level (1 slot): ',
               refs.spells.polymorph_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'taunt',
@@ -964,7 +1012,18 @@ export default createPublicationMonsters({
             text: [
               'Gurt can use a bonus action on their turn to target one creature within 30 feet of them. If the target can hear Gurt, the target must succeed on a ',
               { dc: 'cha' },
-              " Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Gurt's next turn.",
+              ' Charisma saving throw or ',
+              { effect: 'taunt-disadvantage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'taunt-disadvantage',
+                name: 'Taunted',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: ['Disadvantage on ability checks, attack rolls, and saving throws.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -1184,6 +1243,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Hannity has advantage on saving throws against being ', rules.poisoned, '.'],
+            effects: [],
           },
           {
             key: 'wing-flap',
@@ -1292,8 +1352,17 @@ export default createPublicationMonsters({
             },
             text: [
               'The young amphithere exhales a blast of stinging venom in a 15-foot cone. A creature reduced to 0 hit points by this attack remains stable but is ',
-              rules.poisoned,
-              ' for 1 hour, even after regaining hit points. If a creature has total cover from the young amphithere, it is not affected by the breath attack.',
+              { effect: 'breath-poisoned' },
+              ', even after regaining hit points. If a creature has total cover from the young amphithere, it is not affected by the breath attack.',
+            ],
+            effects: [
+              {
+                key: 'breath-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1414,7 +1483,20 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+              ' Constitution saving throw or ',
+              { effect: 'frostbite-max-hp' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'frostbite-max-hp',
+                name: 'Frostbite',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {
@@ -1496,8 +1578,17 @@ export default createPublicationMonsters({
               'If Jonall moves at least 20 feet straight towards a creature and then hits it with a headbutt attack on the same turn, the target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'headbutt-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'headbutt-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1635,8 +1726,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bite-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1659,6 +1759,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1739,6 +1840,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mislead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fated-recharges-after-a-long-rest',
@@ -1797,6 +1899,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -1887,6 +1990,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Lucky doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1989,6 +2093,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.invisibility_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'soulful-rhapsody',
@@ -1999,8 +2104,17 @@ export default createPublicationMonsters({
               'Moonflower can use a bonus action on her turn to target one creature within 30 feet of her. If the target can hear Moonflower, the target must succeed on a ',
               { dc: 'cha', save: 'wis' },
               " Wisdom saving throw or become overcome with emotion from Moonflower's performance, becoming ",
-              rules.incapacitated,
-              " until the start of Moonflower's next turn.",
+              { effect: 'rhapsody-incapacitated' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'rhapsody-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -2035,6 +2149,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' in her space at the end of the turn. Moonflower may uncurl themselves at any point during her turn.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2094,6 +2209,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'glide',
@@ -2231,6 +2347,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'racket',
@@ -2240,9 +2357,21 @@ export default createPublicationMonsters({
             text: [
               'Pleasantpaw can use a bonus action on his turn to target any number of creatures within 30 feet of him. Any of these creatures that can hear Pleasantpaw play or croon his music must succeed on a ',
               { dc: 'cha' },
-              " Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws for one minute. A creature can attempt a new saving throw at the end of each of its turns, ending the effect on a success. A creature that succeeds on their saving throw against this effect, or has the effect ended for it, is immune to Pleasantpaw's racket for 24 hours. Creatures that are immune to being ",
+              ' Charisma saving throw or have ',
+              { effect: 'racket-disadvantage' },
+              ". A creature can attempt a new saving throw at the end of each of its turns, ending the effect on a success. A creature that succeeds on their saving throw against this effect, or has the effect ended for it, is immune to Pleasantpaw's racket for 24 hours. Creatures that are immune to being ",
               rules.frightened,
               ' are immune to this effect.',
+            ],
+            effects: [
+              {
+                key: 'racket-disadvantage',
+                name: 'Racket',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: ['Disadvantage on ability checks, attack rolls, and saving throws.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -2271,6 +2400,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' in his space at the end of the turn. Pleasantpaw may uncurl himself at any point during his turn.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2340,6 +2470,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.thunderwave_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shortsword',
@@ -2377,6 +2508,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' in his space at the end of the turn. Podge may uncurl himself at any point during his turn.',
             ],
+            effects: [],
           },
           {
             key: 'mocking-distraction',
@@ -2451,6 +2583,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the freebooter doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2574,6 +2707,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw or their weapon becomes stuck in the slime. The weapon can be wrenched out by using an action to make a DC 12 Strength (Athletics) check, freeing the weapon on a success. All weapons stuck in the slime can be retrieved once the slime is slain.',
             ],
+            effects: [],
           },
           {
             key: 'pseudopod',
@@ -2841,6 +2975,7 @@ export default createPublicationMonsters({
               refs.spells.dominate_person_srd_5_1,
               ' ** The Godfeather casts this spell on himself before combat',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2879,6 +3014,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wing-flap',
@@ -2951,6 +3087,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'standing-leap',

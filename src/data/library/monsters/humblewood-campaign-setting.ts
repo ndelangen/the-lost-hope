@@ -3303,6 +3303,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.speak_with_animals_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'glide',

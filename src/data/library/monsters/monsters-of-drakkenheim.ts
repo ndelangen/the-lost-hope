@@ -54,6 +54,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.magic_missile,
             ],
+            effects: [],
           },
           {
             key: 'force-dart',
@@ -151,6 +152,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_force,
             ],
+            effects: [],
           },
           {
             key: 'academy-rings',
@@ -216,6 +218,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -271,6 +274,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.slow,
             ],
+            effects: [],
           },
           {
             key: 'academy-rings',
@@ -382,6 +386,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.web,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -514,7 +519,20 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d4', type: rules.slashing, addModifier: true }],
             },
-            text: ['If the target is Medium or smaller, it has the ', rules.prone, ' condition.'],
+            text: [
+              'If the target is Medium or smaller, it has the ',
+              { effect: 'claw-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claw-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'gobble',
@@ -528,6 +546,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' creature.',
             ],
+            effects: [],
           },
         ],
       },
@@ -652,6 +671,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' condition while fully submerged in delerium sludge.',
             ],
+            effects: [],
           },
           {
             key: 'sludge-form',
@@ -677,7 +697,17 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              '. Failure: The target gains one Contamination level.',
+              '. Failure: ',
+              { effect: 'contamination' },
+            ],
+            effects: [
+              {
+                key: 'contamination',
+                name: 'Contamination',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['The target gains one Contamination level.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -689,16 +719,22 @@ export default createPublicationMonsters({
               'Strength Saving Throw: ',
               { dc: 'con' },
               ", each Large or smaller creature in the elemental's space. Success: The target is pushed out of the elemental's space. Failure: The target has the ",
-              rules.grappled,
-              ' condition (escape DC 15). While ',
-              rules.grappled,
-              ', the target has the ',
-              rules.restrained,
-              " condition. The elemental can grapple one Large creature or two Medium or smaller creatures at a time. At the start of each of the elemental's turns, the target takes ",
+              { effect: 'sludge-engulfed' },
+              ". The elemental can grapple one Large creature or two Medium or smaller creatures at a time. At the start of each of the elemental's turns, the target takes ",
               { roll: '8d6' },
               ' Necrotic damage and is subjected to the following effect. Constitution Saving Throw: ',
               { dc: 'con' },
               '. Failure: The target gains one Contamination level. A creature within 5 feet of the elemental can take an action to pull a creature or object out of it with a successful DC 15 Strength (Athletics) check.',
+            ],
+            effects: [
+              {
+                key: 'sludge-engulfed',
+                name: 'Engulfed',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'con', printed: 15 } },
+              },
             ],
           },
         ],
@@ -746,6 +782,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '), Minor Illusion',
             ],
+            effects: [],
           },
           {
             key: 'incorporeal-movement',
@@ -789,12 +826,25 @@ export default createPublicationMonsters({
               'Intelligence Saving Throw: ',
               { dc: 'int' },
               ', each creature in a 30-foot Cube centered on a point the arcane wraith can see. Failure: The target has the ',
-              rules.blinded,
-              ' condition (save ends). While ',
-              rules.blinded,
-              ', the target has the Immobilized condition. The effect ends for the target if it takes damage or another creature takes an action to shake it out of its nightmare. When the effect ends, the target takes ',
-              { roll: '4d6' },
-              ' Psychic damage.',
+              { effect: 'nightmare-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'nightmare-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.blinded],
+                text: [
+                  'While ',
+                  rules.blinded,
+                  ', the target has the Immobilized condition. The effect ends for the target if it takes damage or another creature takes an action to shake it out of its nightmare. When the effect ends, the target takes ',
+                  { roll: '4d6' },
+                  ' Psychic damage.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -865,12 +915,19 @@ export default createPublicationMonsters({
               'Or ',
               { roll: '4d10', mod: 'str' },
               ' Piercing damage if the beetle knight moved 20+ feet straight toward the target immediately before the hit. If the target is Medium or smaller, it has the ',
-              rules.grappled,
-              ' condition (escape DC 14). While ',
-              rules.grappled,
-              ', the target has the ',
-              rules.restrained,
-              " condition and the beetle knight can't use its Pincer Horn against another target.",
+              { effect: 'pincer-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'pincer-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["The beetle knight can't use its Pincer Horn against another target."],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -884,14 +941,30 @@ export default createPublicationMonsters({
               ', one creature ',
               rules.grappled,
               ' by the beetle knight. Failure: The target is thrown up to 1d6 × 10 feet, landing with the ',
-              rules.prone,
-              ' condition. If the target strikes a solid surface, it takes ',
+              { effect: 'fling-prone' },
+              '. If the target strikes a solid surface, it takes ',
               { roll: '1d6' },
               ' Bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a ',
               { dc: 'con', save: 'dex' },
               ' Dexterity saving throw or take the same damage and have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'fling-collision-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'fling-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'fling-collision-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1010,12 +1083,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.thunder, addModifier: true }],
-                also: ['The target has the Weakened condition (save ends).'],
+
+                also: [{ effect: 'sonic-weakened' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'sonic-weakened',
+                name: 'Weakened',
+                lands: { on: 'failed-save' },
+                text: ['The target has the Weakened condition.'],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
           {
             key: 'shadow-stealth',
@@ -1072,11 +1156,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.acid }],
-                also: ['Is Burning (2d4 Acid).'],
+
+                also: [{ effect: 'acid-burning' }],
               },
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'acid-burning',
+                name: 'Burning',
+                lands: { on: 'failed-save' },
+                text: ['Is Burning (2d4 Acid).'],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
       },
@@ -1210,8 +1304,17 @@ export default createPublicationMonsters({
               "A creature in Dim Light or Darkness has Disadvantage on ability checks to escape the body snatcher's grapple. Each time a creature attempts to escape the body snatcher's grapple while it is in Dim Light or Darkness, the creature takes ",
               { roll: '4d8' },
               ' Necrotic damage. If this Necrotic damage reduces the target to 0 Hit Points, the target is stabilized but has the ',
-              rules.paralyzed,
-              ' condition for 1 hour, even if it regains Hit Points.',
+              { effect: 'shadows-paralyzed' },
+              ', even if it regains Hit Points.',
+            ],
+            effects: [
+              {
+                key: 'shadows-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'use' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -1246,8 +1349,21 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              " condition (escape DC 15). Until this grapple ends, the body snatcher can't use this hand against another target. The body snatcher has four hands, each of which can grapple one target.",
+              { effect: 'hands-grappled' },
+              '. The body snatcher has four hands, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'hands-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: [
+                  "Until this grapple ends, the body snatcher can't use this hand against another target.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -1260,6 +1376,7 @@ export default createPublicationMonsters({
               { dc: 'wis', save: 'cha' },
               ' Charisma saving throw to resist being teleported. On a successful save, neither the creature nor the body snatcher Teleport.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1416,6 +1533,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1518,6 +1636,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' conditions.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1554,10 +1673,24 @@ export default createPublicationMonsters({
               'The cerebrograft reaches out with its mind to hold one creature or object it can see within 120 feet of it in its psychic grasp. If the target is a creature, it is subjected to the following effect. Strength Saving Throw: ',
               { dc: 'con' },
               '. Failure: The target is moved up to 30 feet in any direction and has the ',
-              rules.restrained,
-              " condition until the start of the cerebrograft's next turn or until the cerebrograft has the ",
-              rules.incapacitated,
-              " condition. If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The cerebrograft can also exert fine control on objects with its telekinesis, such as manipulating a simple tool or opening a door or a container.",
+              { effect: 'grip-restrained' },
+              ". If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The cerebrograft can also exert fine control on objects with its telekinesis, such as manipulating a simple tool or opening a door or a container.",
+            ],
+            effects: [
+              {
+                key: 'grip-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the start of the cerebrograft's next turn or until the cerebrograft has the ",
+                    rules.incapacitated,
+                    ' condition',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -1572,16 +1705,36 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 20 } },
               onFail: {
                 damage: [{ dice: '4d10', type: rules.psychic }],
+
                 also: [
-                  'The target has the Dazed condition (save ends). Failure by 5 or More: The target instead has the ',
-                  rules.stunned,
-                  ' condition (save ends).',
+                  { effect: 'crush-dazed' },
+                  ' Failure by 5 or More: The target instead has the ',
+                  { effect: 'crush-stunned' },
+                  '.',
                 ],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'crush-dazed',
+                name: 'Dazed',
+                lands: { on: 'failed-save' },
+                text: ['The target has the Dazed condition.'],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+              {
+                key: 'crush-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
         ],
       },
@@ -1650,6 +1803,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 15 },
               '). While it has the Frozen condition, it loses its Immunities to Bludgeoning, Piercing, and Slashing damage and its Resistance to Force damage, and it gains Vulnerability to Thunder damage. In addition to the normal means, the Frozen condition ends if the chemystral takes 20 points of Force, Piercing, Thunder, or Slashing damage.',
             ],
+            effects: [],
           },
           {
             key: 'elemental-reaction',
@@ -1695,10 +1849,15 @@ export default createPublicationMonsters({
             name: 'Poison',
             timing: 'trait',
             icon: 'gi/GiPoisonBottle',
-            text: [
-              'On a hit, the target has the ',
-              rules.poisoned,
-              ' condition until the end of its next turn.',
+            text: ['On a hit, the target has the ', { effect: 'poison-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'poison-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -1768,11 +1927,26 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ". Success: The creature can choose to be pushed 5 feet back or to the side of the chemystral. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. Failure: The chemystral enters the creature's space, and the creature takes ",
               { roll: '10d6' },
-              " Acid damage and is engulfed. The engulfed creature can't breathe, has the ",
-              rules.restrained,
-              ' condition, and takes ',
-              { roll: '10d6' },
-              " Acid damage at the start of each of the chemystral's turns. The engulfed creature has Total Cover from effects outside the chemystral. When the chemystral moves, the engulfed creature moves with it. The chemystral can hold only one Large creature or up to four Medium or smaller creatures inside it at a time. An engulfed creature can take an action to escape with a successful DC 17 Strength check, entering a space of its choice within 5 feet of the ooze.",
+              ' Acid damage and is ',
+              { effect: 'chemystral-engulfed' },
+              '. The chemystral can hold only one Large creature or up to four Medium or smaller creatures inside it at a time. An engulfed creature can take an action to escape with a successful DC 17 Strength check, entering a space of its choice within 5 feet of the ooze.',
+            ],
+            effects: [
+              {
+                key: 'chemystral-engulfed',
+                name: 'Engulfed',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.restrained],
+                text: [
+                  "The engulfed creature can't breathe, has the ",
+                  rules.restrained,
+                  ' condition, and takes ',
+                  { roll: '10d6' },
+                  " Acid damage at the start of each of the chemystral's turns. The engulfed creature has Total Cover from effects outside the chemystral. When the chemystral moves, the engulfed creature moves with it.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
         ],
@@ -1924,7 +2098,17 @@ export default createPublicationMonsters({
             text: [
               'Wisdom Saving Throw: ',
               { dc: 'con' },
-              ", each creature within 120 feet of the chitter that can hear it. Failure: The target has the Dazed condition until the end of the chitter's next turn.",
+              ', each creature within 120 feet of the chitter that can hear it. Failure: ',
+              { effect: 'chitter-dazed' },
+            ],
+            effects: [
+              {
+                key: 'chitter-dazed',
+                name: 'Dazed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: ['The target has the Dazed condition.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1948,6 +2132,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition. Response: The triggering damage is reduced to 0.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2063,12 +2248,8 @@ export default createPublicationMonsters({
               'If it is Large or smaller, the target is subjected to the following effect. Dexterity Saving Throw: ',
               { dc: 'str' },
               '. Failure: The target is swallowed by the wurm. The target has the ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' conditions, has Total Cover against effects originating from outside the wurm, and takes ',
-              { roll: '8d8' },
-              " Necrotic damage at the start of each of the wurm's turns. A creature that takes this Necrotic damage must also succeed on a ",
+              { effect: 'wurm-swallowed' },
+              '. A creature that takes this Necrotic damage must also succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or gain one Contamination level. If the wurm takes 30+ damage on a single turn from a creature inside it, it must succeed on a ',
               { dc: 'con', printed: 21 },
@@ -2079,6 +2260,20 @@ export default createPublicationMonsters({
               ' condition and can escape from the corpse using 20 feet of movement, exiting with the ',
               rules.prone,
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'wurm-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'has Total Cover against effects originating from outside the wurm, and takes ',
+                  { roll: '8d8' },
+                  " Necrotic damage at the start of each of the wurm's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2096,8 +2291,17 @@ export default createPublicationMonsters({
               '. Success: The target is pushed 5 feet away from the wurm into a space of its choice. If the target chooses not to move, it suffers the effects of a failure. Failure: ',
               { roll: '10d6' },
               ' Bludgeoning damage, and the target is pushed 10 feet away from the wurm and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'breach-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'breach-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2152,10 +2356,27 @@ export default createPublicationMonsters({
             },
             text: [
               'The target has the ',
-              rules.blinded,
-              " condition until the start of the dreg's next turn. If this attack deals a different damage type due to ",
+              { effect: 'beam-blinded' },
+              '. If this attack deals a different damage type due to ',
               { ability: 'refract-elements' },
-              ', it has additional effects: Acid or Fire. The target is also Burning (2d6) of the corresponding damage type.',
+              ', it has additional effects: Acid or Fire. ',
+              { effect: 'beam-burning' },
+            ],
+            effects: [
+              {
+                key: 'beam-blinded',
+                name: 'Blinded',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+              {
+                key: 'beam-burning',
+                name: 'Burning',
+                lands: { on: 'hit' },
+                text: ['The target is also Burning (2d6) of the corresponding damage type.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2163,7 +2384,16 @@ export default createPublicationMonsters({
             name: 'Cold',
             timing: 'action',
             icon: 'gi/GiIceBolt',
-            text: ['The target has the Frozen Condition (', { dc: 'str' }, ').'],
+            text: [{ effect: 'cold-frozen' }],
+            effects: [
+              {
+                key: 'cold-frozen',
+                name: 'Frozen',
+                lands: { on: 'use' },
+                text: ['The target has the Frozen Condition (', { dc: 'str' }, ').'],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'lightning',
@@ -2247,6 +2477,7 @@ export default createPublicationMonsters({
             text: [
               'Failure or Success: If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into a pile of fine delerium dust.',
             ],
+            effects: [],
           },
           {
             key: 'wink',
@@ -2320,6 +2551,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians,
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -2377,8 +2609,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 15).',
+              { effect: 'claws-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claws-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -2417,6 +2659,7 @@ export default createPublicationMonsters({
               },
               printedDc: 16,
             },
+            effects: [],
           },
           {
             key: 'unholy-light',
@@ -2433,12 +2676,22 @@ export default createPublicationMonsters({
                   { dice: '4d6', type: rules.necrotic },
                   { dice: '4d6', type: rules.fire },
                 ],
-                also: ['The target has the Staggered condition until the end of its next turn.'],
+
+                also: [{ effect: 'light-staggered' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'light-staggered',
+                name: 'Staggered',
+                lands: { on: 'failed-save' },
+                text: ['The target has the Staggered condition.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'blood-rebuke',
@@ -2450,7 +2703,18 @@ export default createPublicationMonsters({
               { dc: 'wis', printed: 17 },
               '. Failure: ',
               { roll: '4d8' },
-              ' Necrotic damage, and the target has the Bleeding condition (4d4). Success: Half damage only.',
+              ' Necrotic damage, and ',
+              { effect: 'rebuke-bleeding' },
+              '. Success: Half damage only.',
+            ],
+            effects: [
+              {
+                key: 'rebuke-bleeding',
+                name: 'Bleeding',
+                lands: { on: 'save', save: 'con', dc: 'wis', printed: 17 },
+                text: ['The target has the Bleeding condition (4d4).'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2528,12 +2792,16 @@ export default createPublicationMonsters({
               reach: 30,
               damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.grappled,
-              ' condition (escape DC 15) and the target has the ',
-              rules.restrained,
-              ' condition until the grapple ends.',
+            text: ['The target has the ', { effect: 'vines-grappled' }, '.'],
+            effects: [
+              {
+                key: 'vines-grappled',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -2551,7 +2819,29 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: ',
               { dc: 'con' },
-              ". Failure: The target is infected with a disease called Dark Decay. Instead of acting normally on its turn, the target must move toward the closest creature that isn't infected with Dark Decay and make one melee attack against it. If the attack hits, the target of that attack must also make a saving throw against Dark Decay. At the end of each of its turns, the target repeats the save. Subsequent Failures: The target gains one Contamination level. Third Success: The disease ends. An infected creature that dies or undergoes a Monstrous Transformation becomes a Dark Growth Shambler. A Lesser Restoration spell or similar magic that removes diseases ends Dark Decay, as does any magic that removes Contamination levels.",
+              '. Failure: The target is infected with a disease called ',
+              { effect: 'spores-dark-decay' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spores-dark-decay',
+                name: 'Dark Decay',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "Instead of acting normally on its turn, the target must move toward the closest creature that isn't infected with Dark Decay and make one melee attack against it. If the attack hits, the target of that attack must also make a saving throw against Dark Decay.",
+                  ' Subsequent Failures: The target gains one Contamination level.',
+                  ' An infected creature that dies or undergoes a Monstrous Transformation becomes a Dark Growth Shambler.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  repeatSave: ['end-of-turn'],
+                  successes: 3,
+                  cure: [
+                    'A Lesser Restoration spell or similar magic that removes diseases ends Dark Decay, as does any magic that removes Contamination levels.',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -2626,7 +2916,29 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: ',
               { dc: 'con' },
-              ". Failure: The target is infected with a disease called Dark Decay. Instead of acting normally on its turn, the target must move toward the closest creature that isn't infected with Dark Decay and make one melee attack against it. If the attack hits, the target of that attack must also make a saving throw against Dark Decay. At the end of each of its turns, the target repeats the save. Subsequent Failures: The target gains one Contamination level. Third Success: The disease ends. An infected creature that dies or undergoes a Monstrous Transformation becomes a Dark Growth Shambler. A Lesser Restoration spell or similar magic that removes diseases ends Dark Decay, as does any magic that removes Contamination levels.",
+              '. Failure: The target is infected with a disease called ',
+              { effect: 'bite-dark-decay' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bite-dark-decay',
+                name: 'Dark Decay',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "Instead of acting normally on its turn, the target must move toward the closest creature that isn't infected with Dark Decay and make one melee attack against it. If the attack hits, the target of that attack must also make a saving throw against Dark Decay.",
+                  ' Subsequent Failures: The target gains one Contamination level.',
+                  ' An infected creature that dies or undergoes a Monstrous Transformation becomes a Dark Growth Shambler.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  repeatSave: ['end-of-turn'],
+                  successes: 3,
+                  cure: [
+                    'A Lesser Restoration spell or similar magic that removes diseases ends Dark Decay, as does any magic that removes Contamination levels.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -2682,6 +2994,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2743,6 +3056,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               '. Failure: The target is pulled up to 20 feet toward the deep knight.',
             ],
+            effects: [],
           },
           {
             key: 'shield-bash',
@@ -2760,8 +3074,17 @@ export default createPublicationMonsters({
               'If the target is a Huge or smaller creature, it is subjected to the following effect. Strength Saving Throw: ',
               { dc: 'str' },
               '. Failure: The target has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'bash-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bash-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2810,6 +3133,7 @@ export default createPublicationMonsters({
               ' (water only), ',
               refs.spells.control_water,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2852,11 +3176,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.psychic }],
-                also: [
-                  'The target must roll 1d6 and subtract the result from each D20 Test it makes. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. It automatically succeeds after 1 minute.',
-                ],
+
+                also: [{ effect: 'song-penalty' }, ' It automatically succeeds after 1 minute.'],
               },
             },
+            effects: [
+              {
+                key: 'song-penalty',
+                name: 'Discordant song',
+                lands: { on: 'failed-save' },
+                text: [
+                  'The target must roll 1d6 and subtract the result from each D20 Test it makes.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
           {
             key: 'illusory-appearance',
@@ -2919,7 +3254,17 @@ export default createPublicationMonsters({
             text: [
               'Critical Hit: Constitution Saving Throw: ',
               { dc: 'con' },
-              '. Failure: The target gains one level of Contamination.',
+              '. Failure: ',
+              { effect: 'claws-contamination' },
+            ],
+            effects: [
+              {
+                key: 'claws-contamination',
+                name: 'Contamination',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['The target gains one level of Contamination.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -3001,7 +3346,17 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'int' },
-              ". Failure: The target has the Dazed condition until the end of the psyche's next turn.",
+              '. Failure: ',
+              { effect: 'electroshock-dazed' },
+            ],
+            effects: [
+              {
+                key: 'electroshock-dazed',
+                name: 'Dazed',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                text: ['The target has the Dazed condition.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -3013,10 +3368,23 @@ export default createPublicationMonsters({
               'Wisdom Saving Throw: ',
               { dc: 'int' },
               ", each creature of the psyche's choice in a 30-foot Emanation originating from the psyche. Failure: The target has the ",
-              rules.incapacitated,
-              ' condition (save ends). While ',
-              rules.incapacitated,
-              ', the target has the Immobilized condition.',
+              { effect: 'hypnotize-incapacitated' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'hypnotize-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.incapacitated],
+                text: [
+                  'While ',
+                  rules.incapacitated,
+                  ', the target has the Immobilized condition.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -3030,8 +3398,21 @@ export default createPublicationMonsters({
               'Intelligence Saving Throw: ',
               { dc: 'int' },
               ", one creature the psyche can see within 5 feet. Success: The target is immune to this psyche's Mental Possession for 24 hours. Failure: The target is possessed by the psyche; the psyche disappears, and the target has the ",
-              rules.incapacitated,
-              " condition and loses control of its body. The psyche now controls the body, but the target retains awareness. The psyche can't be targeted by any attack, spell, or other effect, except ones that specifically target Undead. The psyche's game statistics are the same, except it uses the possessed target's Speed, as well as the target's Strength, Dexterity, and Constitution modifiers. The possession lasts until the body drops to 0 Hit Points or the psyche leaves as a Bonus Action. Whenever the target takes damage, it repeats the save, ending the possession on a success. When the possession ends, the psyche appears in an unoccupied space within 5 feet of the target, and the target is immune to this psyche's Mental Possession for 24 hours.",
+              { effect: 'possession' },
+              " and loses control of its body. The psyche now controls the body, but the target retains awareness. The psyche can't be targeted by any attack, spell, or other effect, except ones that specifically target Undead. The psyche's game statistics are the same, except it uses the possessed target's Speed, as well as the target's Strength, Dexterity, and Constitution modifiers. The possession lasts until the body drops to 0 Hit Points or the psyche leaves as a Bonus Action. Whenever the target takes damage, it repeats the save, ending the possession on a success. When the possession ends, the psyche appears in an unoccupied space within 5 feet of the target, and the target is immune to this psyche's Mental Possession for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'possession',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.incapacitated],
+                lasts: {
+                  kind: 'until',
+                  text: ['the body drops to 0 Hit Points or the psyche leaves as a Bonus Action'],
+                },
+                ends: { repeatSave: ['damaged'] },
+              },
             ],
           },
           {
@@ -3097,6 +3478,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'hallucinogenic-bioluminescence',
@@ -3107,12 +3489,25 @@ export default createPublicationMonsters({
               'A creature that starts its turn within 60 feet of the cnidarian and can see it is subjected to the following effect unless the cnidarian chooses otherwise. Wisdom Saving Throw: ',
               { dc: 'wis' },
               '. Failure: The target has the ',
-              rules.charmed,
-              ' condition (save ends). While ',
-              rules.charmed,
-              ', the target regards all other creatures as enemies except the cnidarian, whom it regards as an ally. Whenever the target makes an attack or casts a detrimental spell, it must choose its target at random from the creatures it can see within range. If a creature provokes an Opportunity Attack action from the target, it must make the attack, if able. If the target ends its turn without taking an Attack or Magic action, it takes ',
-              { roll: '4d6' },
-              ' Psychic damage. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it has Disadvantage on attack rolls against the cnidarian until the start of its next turn. If the creature looks at the cnidarian in the meantime, that creature must immediately make the saving throw.',
+              { effect: 'bioluminescence-charmed' },
+              '. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it has Disadvantage on attack rolls against the cnidarian until the start of its next turn. If the creature looks at the cnidarian in the meantime, that creature must immediately make the saving throw.',
+            ],
+            effects: [
+              {
+                key: 'bioluminescence-charmed',
+                name: 'Charmed by the light',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed],
+                text: [
+                  'While ',
+                  rules.charmed,
+                  ', the target regards all other creatures as enemies except the cnidarian, whom it regards as an ally. Whenever the target makes an attack or casts a detrimental spell, it must choose its target at random from the creatures it can see within range. If a creature provokes an Opportunity Attack action from the target, it must make the attack, if able. If the target ends its turn without taking an Attack or Magic action, it takes ',
+                  { roll: '4d6' },
+                  ' Psychic damage.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3144,6 +3539,7 @@ export default createPublicationMonsters({
               damage: [{ dice: '6d8', type: rules.necrotic }],
             },
             text: ['Or 48 Necrotic damage if the target is ', rules.charmed, ' by the cnidarian.'],
+            effects: [],
           },
           {
             key: 'reflexive-flash',
@@ -3157,12 +3553,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.radiant }],
-                also: ['The target has the ', rules.blinded, ' condition (save ends).'],
+
+                also: [{ effect: 'blinded' }],
               },
               onSuccess: 'half',
             },
             text: [
               'Trigger: A creature the cnidarian can see within 30 feet deals damage to it. Response:',
+            ],
+            effects: [
+              {
+                key: 'blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.blinded],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -3210,6 +3617,7 @@ export default createPublicationMonsters({
               refs.spells.levitate,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3245,11 +3653,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 10 } },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.psychic }],
-                also: ['Has the Dazed condition (save ends).'],
+
+                also: [{ effect: 'dazed' }],
               },
             },
             text: [
               'The dreg unleashes a storm of psychic energy in a 10-foot-radius sphere centered on a point within 60 feet of it.',
+            ],
+            effects: [
+              {
+                key: 'dazed',
+                name: 'Dazed',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                text: ['Has the Dazed condition.'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -3262,7 +3681,23 @@ export default createPublicationMonsters({
             text: [
               'The dreg chooses a creature it can see within 60 feet of it and one of the following conditions: Addled, Clumsy, Enfeebled, or Sickened. Charisma Saving Throw: ',
               { dc: 'cha' },
-              ", the targeted creature. Failure: The target becomes cursed by the dreg for one minute or until the dreg dies or uses this ability again. While cursed in this manner, a creature becomes vulnerable to Psychic damage and gains the chosen condition (sane ends). Success: The target is immune to the dreg's Hazewarp Hex for 24 hours.",
+              ', the targeted creature. Failure: The target becomes ',
+              { effect: 'hazewarp-curse' },
+              ". Success: The target is immune to the dreg's Hazewarp Hex for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'hazewarp-curse',
+                name: 'Hazewarp curse',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                lasts: {
+                  kind: 'until',
+                  text: ['one minute or until the dreg dies or uses this ability again'],
+                },
+                text: [
+                  'While cursed in this manner, a creature becomes vulnerable to Psychic damage and gains the chosen condition (sane ends).',
+                ],
+              },
             ],
           },
         ],
@@ -3328,6 +3763,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               '. Failure: The target gains one level of Contamination.',
             ],
+            effects: [],
           },
           {
             key: 'claws',
@@ -3364,6 +3800,7 @@ export default createPublicationMonsters({
             text: ['The troll blasts a corrupting beam at a point it can see within 300 feet.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'forced-mutation',
@@ -3417,6 +3854,7 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiMagicSwirl',
             text: ['The troll has the ', rules.invisible, ' condition until it makes an attack.'],
+            effects: [],
           },
           {
             key: 'crystalized-carapace',
@@ -3593,12 +4031,24 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60, which: 'the exorcist can see' },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.necrotic }],
+
                 also: [
-                  "The target is moved 30 feet in a horizontal direction of the exorcist's choice. At the end of this movement, the target has the Immobilized condition until the end of the exorcist's next turn.",
+                  "The target is moved 30 feet in a horizontal direction of the exorcist's choice. At the end of this movement, ",
+                  { effect: 'immobilized' },
+                  '.',
                 ],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'immobilized',
+                name: 'Immobilized',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                text: ['The target has the Immobilized condition.'],
+              },
+            ],
           },
           {
             key: 'expel-evil',
@@ -3609,12 +4059,25 @@ export default createPublicationMonsters({
               'Wisdom Saving Throw: ',
               { dc: 'con' },
               ', each Celestial, Fey, Fiend, and Undead that can see and hear the exorcist. Failure: The target has the ',
-              rules.frightened,
-              ' and ',
-              rules.incapacitated,
-              ' conditions and must move as far from the exorcist as it can on its turns. The effect lasts for 1 minute or until the target takes damage, the exorcist has the ',
-              rules.incapacitated,
-              ' condition, or the exorcist dies.',
+              { effect: 'expel-evil' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'expel-evil',
+                name: 'Expel Evil',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '1 minute or until the target takes damage, the exorcist has the ',
+                    rules.incapacitated,
+                    ' condition, or the exorcist dies',
+                  ],
+                },
+                conditions: [rules.frightened, rules.incapacitated],
+                text: ['Must move as far from the exorcist as it can on its turns.'],
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -3644,6 +4107,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'spiritual-healing',
@@ -3718,6 +4182,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.major_image,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3754,16 +4219,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.psychic }],
-                also: [
-                  'The target has the ',
-                  rules.frightened,
-                  " condition until the end of the host's next turn.",
-                ],
+
+                also: [{ effect: 'frightened' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                conditions: [rules.frightened],
+              },
+            ],
           },
           {
             key: 'faerie-step',
@@ -3784,6 +4255,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' until the start of its next turn or until it makes an attack roll, deals damage, or casts a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3844,6 +4316,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians,
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -3871,14 +4344,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30, which: 'the flamekeeper can see' },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.radiant }],
-                also: [
-                  'The target has the ',
-                  rules.blinded,
-                  " condition until the start of the flamekeeper's next turn.",
-                ],
+
+                also: [{ effect: 'blinded' }],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+                conditions: [rules.blinded],
+              },
+            ],
           },
           {
             key: 'radiant-flames',
@@ -3896,6 +4375,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Failure or Success: Magical Darkness in the area is dispelled.'],
+            effects: [],
           },
         ],
       },
@@ -3950,6 +4430,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               '. Failure: The target gains one level of Contamination.',
             ],
+            effects: [],
           },
           {
             key: 'bounding-leap',
@@ -3999,11 +4480,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.psychic }],
-                also: ['Has the Weakened condition (save ends).'],
+
+                also: [{ effect: 'weakened' }],
               },
               onSuccess: 'half',
             },
             text: ['When the trolling dies, it explodes in a burst of mind-affecting spores.'],
+            effects: [
+              {
+                key: 'weakened',
+                name: 'Weakened',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                text: ['Has the Weakened condition.'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
           {
             key: 'spore-slam',
@@ -4065,6 +4557,7 @@ export default createPublicationMonsters({
               ", Crusader's Mantle; 1/day each: ",
               refs.spells.dispel_magic,
             ],
+            effects: [],
           },
           {
             key: 'pack-tactics',
@@ -4076,6 +4569,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'aura-of-the-blood-moon',
@@ -4087,6 +4581,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4182,6 +4677,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -4195,7 +4691,20 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
             },
-            text: ['If the target is Medium or smaller, it has the ', rules.prone, ' condition.'],
+            text: [
+              'If the target is Medium or smaller, it has the ',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
+            ],
           },
           {
             key: 'feast',
@@ -4236,6 +4745,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4346,10 +4856,16 @@ export default createPublicationMonsters({
                 { dice: '3d8', type: rules.necrotic },
               ],
             },
-            text: [
-              'Charisma Saving Throw: ',
-              { dc: 'con' },
-              '. Failure: The target has the Jinxed condition (1d6; save ends).',
+            text: ['Charisma Saving Throw: ', { dc: 'con' }, '. Failure: ', { effect: 'jinxed' }],
+            effects: [
+              {
+                key: 'jinxed',
+                name: 'Jinxed',
+                lands: { on: 'save', save: 'cha', dc: 'con' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Jinxed condition (1d6; save ends).'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4375,8 +4891,17 @@ export default createPublicationMonsters({
               'Strength Saving Throw: ',
               { dc: 'str' },
               ', one creature within 5 feet of the ghoul lord. Failure: The target is pushed 10 feet away from the ghoul lord and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
             ],
           },
           {
@@ -4391,6 +4916,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' condition.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4465,6 +4991,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.seeming,
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -4520,8 +5047,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 15).',
+              { effect: 'grabbed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled],
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -4544,6 +5081,7 @@ export default createPublicationMonsters({
                 also: ['The vampire regains Hit Points equal to the Necrotic damage dealt.'],
               },
             },
+            effects: [],
           },
           {
             key: 'shadow-step',
@@ -4605,10 +5143,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 10 } },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.acid }],
-                also: ['Are Burning (2d8 Acid).'],
+
+                also: [{ effect: 'burning' }],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'burning',
+                name: 'Burning',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                text: ['Are Burning (2d8 Acid).'],
+              },
+            ],
           },
           {
             key: 'hurl-fetid-flesh',
@@ -4630,6 +5178,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4673,7 +5222,16 @@ export default createPublicationMonsters({
               reach: 15,
               damage: [{ dice: '2d8', type: rules.bludgeoning, addModifier: true }],
             },
-            text: ['The target has the ', rules.prone, ' condition.'],
+            text: ['The target has the ', { effect: 'knocked-prone' }, '.'],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
+            ],
           },
           {
             key: 'flailing-guts',
@@ -4713,6 +5271,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               ' plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the hulk drops to 1 Hit Point instead.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4745,8 +5304,17 @@ export default createPublicationMonsters({
               ' attack against that creature. If the target is a creature, it is subject to the following effect. Strength Saving Throw: ',
               { dc: 'str' },
               '. Failure: The targeted creature has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4801,6 +5369,7 @@ export default createPublicationMonsters({
             text: [
               "Trigger: The haze husk is reduced to 0 Hit Points by damage that isn't Radiant or from a Critical Hit. Response:",
             ],
+            effects: [],
           },
         ],
       },
@@ -4846,6 +5415,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '. Failure: The target gains one Contamination level.',
             ],
+            effects: [],
           },
           {
             key: 'animate-haze-husk',
@@ -4965,6 +5535,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4987,8 +5558,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it has the ',
-              rules.grappled,
-              " condition (escape DC 15). Until the grapple ends, the harpy can't use its Grasping Talons on another target.",
+              { effect: 'grabbed' },
+              ". Until the grapple ends, the harpy can't use its Grasping Talons on another target.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled],
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -5068,7 +5649,18 @@ export default createPublicationMonsters({
             text: [
               'If the target has the ',
               rules.incapacitated,
-              ' condition, its Intelligence score is reduced by 1d4 until it finishes a Short or Long Rest. The target dies if this effect reduces its Intelligence score to 0.',
+              ' condition, ',
+              { effect: 'intelligence-drain' },
+              '. The target dies if this effect reduces its Intelligence score to 0.',
+            ],
+            effects: [
+              {
+                key: 'intelligence-drain',
+                name: 'Intelligence drain',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until', text: ['it finishes a Short or Long Rest'] },
+                text: ['Its Intelligence score is reduced by 1d4.'],
+              },
             ],
           },
           {
@@ -5083,11 +5675,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.radiant }],
-                also: ['The target has the Addled condition (save ends).'],
+
+                also: [{ effect: 'addled' }],
               },
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'addled',
+                name: 'Addled',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Addled condition.'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
           {
             key: 'hypnotic-flutter',
@@ -5097,9 +5700,21 @@ export default createPublicationMonsters({
             text: [
               'Intelligence Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 60-foot Emanation of the hazewing moth that can see it (hazewing moths automatically succeed). Failure: The target has the Slowed condition (save ends). If the target is already Slowed, it instead has the Immobilized condition (save ends). If the target is already Immobilized, it also has the ',
+              ', each creature in a 60-foot Emanation of the hazewing moth that can see it (hazewing moths automatically succeed). Failure: ',
+              { effect: 'slowed' },
+              ' If the target is already Slowed, it instead has the Immobilized condition (save ends). If the target is already Immobilized, it also has the ',
               rules.incapacitated,
               ' condition (save ends both).',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'int', dc: 'con' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Slowed condition (save ends).'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -5190,8 +5805,17 @@ export default createPublicationMonsters({
               'Constitution Saving Throw: ',
               { dc: 'con' },
               '. Failure: The target has the ',
-              rules.blinded,
-              ' condition until the end of its next turn.',
+              { effect: 'blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                conditions: [rules.blinded],
+              },
             ],
           },
           {
@@ -5277,6 +5901,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sunbeam,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5365,6 +5990,7 @@ export default createPublicationMonsters({
               refs.spells.protection_from_poison,
               ', Purge Contamination',
             ],
+            effects: [],
           },
           {
             key: 'shortsword',
@@ -5398,6 +6024,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' Poison damage. Success: Half damage.',
             ],
+            effects: [],
           },
           {
             key: 'medical-treatment',
@@ -5419,6 +6046,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'adrenaline-boost',
@@ -5483,8 +6111,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, the target has the ',
-              rules.grappled,
-              ' condition (escape DC 16). The hulk can grapple up to two creatures at once.',
+              { effect: 'grabbed' },
+              '. The hulk can grapple up to two creatures at once.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled],
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -5521,6 +6159,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it up to 25 feet straight toward it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -5567,6 +6206,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' by the eldritch blossom, it is hit automatically and has Disadvantage on its save.',
             ],
+            effects: [],
           },
           {
             key: 'hypnotic-pollen-recharges-after-a-short-or-long-rest',
@@ -5577,12 +6217,23 @@ export default createPublicationMonsters({
               'Wisdom Saving Throw: ',
               { dc: 'con' },
               ', each creature in a 30-foot Emanation originating from the eldritch blossom. Failure: The target has the ',
-              rules.charmed,
-              ' condition for 1 minute. While ',
-              rules.charmed,
-              ', the target has the ',
-              rules.incapacitated,
-              ' condition and must approach the eldritch blossom on its turns, taking the most direct path possible and moving through hazards. The effect ends early if a creature takes an action to shake the target out of its stupor.',
+              { effect: 'hypnotic-pollen' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'hypnotic-pollen',
+                name: 'Hypnotic pollen',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                conditions: [rules.charmed, rules.incapacitated],
+                text: [
+                  'must approach the eldritch blossom on its turns, taking the most direct path possible and moving through hazards.',
+                ],
+                ends: {
+                  cure: ['a creature takes an action to shake the target out of its stupor'],
+                },
+              },
             ],
           },
           {
@@ -5667,9 +6318,17 @@ export default createPublicationMonsters({
               { roll: '2d8' },
               ' Cold damage and is subjected to the following effect: Constitution Saving Throw: ',
               { dc: 'con', printed: 16 },
-              '. Failure: The target has the Frozen condition (',
-              { dc: 'con', printed: 16 },
-              ').',
+              '. Failure: ',
+              { effect: 'frozen' },
+            ],
+            effects: [
+              {
+                key: 'frozen',
+                name: 'Frozen',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 16 },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Frozen condition (', { dc: 'con', printed: 16 }, ').'],
+              },
             ],
           },
           {
@@ -5682,7 +6341,18 @@ export default createPublicationMonsters({
               { roll: '2d6' },
               ' Psychic damage and is subjected to the following effect: Intelligence Saving Throw: ',
               { dc: 'con', printed: 16 },
-              '. Failure: The target has the Bewildered condition (save ends).',
+              '. Failure: ',
+              { effect: 'bewildered' },
+            ],
+            effects: [
+              {
+                key: 'bewildered',
+                name: 'Bewildered',
+                lands: { on: 'save', save: 'int', dc: 'con', printed: 16 },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Bewildered condition.'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5695,7 +6365,18 @@ export default createPublicationMonsters({
               { roll: '2d8' },
               ' Necrotic damage and is subjected to the following effect: Strength Saving Throw: ',
               { dc: 'con', printed: 16 },
-              '. Failure: The target has the Weakened condition (save ends).',
+              '. Failure: ',
+              { effect: 'weakened' },
+            ],
+            effects: [
+              {
+                key: 'weakened',
+                name: 'Weakened',
+                lands: { on: 'save', save: 'str', dc: 'con', printed: 16 },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Weakened condition.'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5836,13 +6517,18 @@ export default createPublicationMonsters({
               { dc: 'con' },
               '. Failure: ',
               { roll: '8d6' },
-              ' Poison damage. Success: Half damage. Failure or Success: If this Poison damage reduces the target to 0 Hit Points, it is stabilized but has the ',
-              rules.poisoned,
-              ' condition for 1 hour, even if it regains Hit Points. While ',
-              rules.poisoned,
-              ', the target has the ',
-              rules.paralyzed,
-              ' condition.',
+              ' Poison damage. Success: Half damage. Failure or Success: If this Poison damage reduces the target to 0 Hit Points, it is stabilized but has ',
+              { effect: 'syringe-poison' },
+            ],
+            effects: [
+              {
+                key: 'syringe-poison',
+                name: 'Syringe poison',
+                lands: { on: 'use' },
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                text: ['even if it regains Hit Points.'],
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -5914,8 +6600,17 @@ export default createPublicationMonsters({
               'The hulk moves more than 10 feet in a straight line. Dexterity Saving Throw: ',
               { dc: 'str' },
               ', each creature within 5 feet of its path. Failure: The target is pushed 5 feet away from the hulk and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
             ],
           },
           {
@@ -5959,11 +6654,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 }, range: 10 },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.slashing, addModifier: true }],
-                also: ['The target has the ', rules.prone, ' condition.'],
+
+                also: ['The target has the ', { effect: 'whirlwind-prone' }, '.'],
               },
               onSuccess: 'half',
             },
             text: ['The hulk twirls its blades around it in a violent, heavy swing.'],
+            effects: [
+              {
+                key: 'whirlwind-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -5979,6 +6684,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' creature.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6072,11 +6778,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic }],
-                also: ['The target becomes Jinxed 1d6 (save ends).'],
+
+                also: [{ effect: 'jinxed' }],
               },
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'jinxed',
+                name: 'Jinxed',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target becomes Jinxed 1d6 (save ends).'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
         ],
       },
@@ -6129,6 +6846,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               '. Failure: The target gains one level of Contamination.',
             ],
+            effects: [],
           },
           {
             key: 'radiant-gaze',
@@ -6155,6 +6873,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -6368,6 +7087,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' Necrotic damage, and the target gains one Contamination level.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6459,12 +7179,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.acid }],
-                also: ['The target has the Burning condition (2d4 Acid).'],
+
+                also: [{ effect: 'burning' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [
+              {
+                key: 'burning',
+                name: 'Burning',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Burning condition (2d4 Acid).'],
+              },
+            ],
           },
           {
             key: 'bloat-burst',
@@ -6478,11 +7208,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.acid }],
-                also: ['The target has the Burning condition (2d4 Acid).'],
+
+                also: [{ effect: 'burning-burst' }],
               },
             },
             text: [
               'Trigger: The gag fly is reduced to 0 Hit Points or takes damage from a Critical Hit. Response:',
+            ],
+            effects: [
+              {
+                key: 'burning-burst',
+                name: 'Burning',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Burning condition (2d4 Acid).'],
+              },
             ],
           },
         ],
@@ -6569,9 +7309,20 @@ export default createPublicationMonsters({
             text: [
               "If the target is a creature, the egg sticks to the target's body, melding with its flesh. A creature within 5 feet of the egg can take an action to remove the egg, dealing ",
               { roll: '3d6' },
-              " Acid damage to the target in the process. If the egg is still attached to the target at the end of its next turn, the target is infected with a disease and has the Sickened condition until the disease ends. The disease can't be cured except by magic. Every hour, the target is subjected to the following effect. Constitution Saving Throw: ",
+              ' Acid damage to the target in the process. If the egg is still attached to the target at the end of its next turn, ',
+              { effect: 'frogspawn-disease' },
+              ". The disease can't be cured except by magic. Every hour, the target is subjected to the following effect. Constitution Saving Throw: ",
               { dc: 'dex' },
               ". Failure: The target gains one Contamination level. Contamination levels gained in this way can't be removed until the disease is cured. If the target suffers a Monstrous Transformation, it dies and its flesh falls away, birthing a Lob Frog.",
+            ],
+            effects: [
+              {
+                key: 'frogspawn-disease',
+                name: 'Frogspawn disease',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until', text: ['the disease ends'] },
+                text: ['The target is infected with a disease and has the Sickened condition'],
+              },
             ],
           },
         ],
@@ -6687,12 +7438,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Huge or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 16). While ',
-              rules.grappled,
-              ', the target has the ',
-              rules.restrained,
-              ' condition. The lurker has ten tendrils, each of which can grapple one creature.',
+              { effect: 'grabbed' },
+              '. The lurker has ten tendrils, each of which can grapple one creature.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled, rules.restrained],
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -6707,6 +7464,7 @@ export default createPublicationMonsters({
               { roll: '6d8' },
               ' Force damage. If this damage reduces the target to 0 Hit Points, it disintegrates into dust.',
             ],
+            effects: [],
           },
           {
             key: 'memory-lapse-ray',
@@ -6716,7 +7474,20 @@ export default createPublicationMonsters({
             text: [
               'Intelligence Saving Throw: ',
               { dc: 'str' },
-              ". Failure: The target's memories become distant for 1 minute. While its memories are distant, the target can't take the Magic action, use class features, or understand language, and has Disadvantage on ability checks. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success.",
+              '. Failure: ',
+              { effect: 'distant-memories' },
+            ],
+            effects: [
+              {
+                key: 'distant-memories',
+                name: 'Distant memories',
+                lands: { on: 'save', save: 'int', dc: 'str' },
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                text: [
+                  "The target's memories become distant for 1 minute. While its memories are distant, the target can't take the Magic action, use class features, or understand language, and has Disadvantage on ability checks.",
+                ],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -6731,6 +7502,7 @@ export default createPublicationMonsters({
               { roll: '3d10' },
               ' Necrotic damage, and the target gains one Contamination level. Success: Half damage only.',
             ],
+            effects: [],
           },
           {
             key: 'existential-dread-ray',
@@ -6872,11 +7644,9 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d10', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it is swallowed. A swallowed creature has the ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              " conditions, and has Total Cover from effects originating outside the maw vermin. At the start of each of the maw vermin's turns, a swallowed creature takes ",
+              'If the target is a Medium or smaller creature, it is ',
+              { effect: 'swallowed' },
+              ". At the start of each of the maw vermin's turns, a swallowed creature takes ",
               { roll: '3d6' },
               ' Acid damage and must succeed on a ',
               { dc: 'con', printed: 15 },
@@ -6889,6 +7659,16 @@ export default createPublicationMonsters({
               ' condition and can escape from the corpse using 10 feet of movement, exiting with the ',
               rules.prone,
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.blinded, rules.restrained],
+                text: ['has Total Cover from effects originating outside the maw vermin.'],
+              },
             ],
           },
           {
@@ -6905,8 +7685,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Huge or smaller, it has the ',
-              rules.grappled,
-              " condition (escape DC 16). Until the grapple ends, the maw vermin can't use this Claw on another target. The maw vermin has three Claws.",
+              { effect: 'grabbed' },
+              ". Until the grapple ends, the maw vermin can't use this Claw on another target. The maw vermin has three Claws.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled],
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -6919,6 +7709,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ', one Medium or smaller creature the maw vermin can see within 15 feet. Failure: The target is pulled into an unoccupied space within 5 feet of the maw vermin.',
             ],
+            effects: [],
           },
           {
             key: 'glob-launcher',
@@ -6932,16 +7723,27 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 }, range: 10 },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.acid }],
-                also: [
-                  'The target has the Burning condition (4d6 Acid). While Burning, the target has the ',
-                  rules.restrained,
-                  ' condition.',
-                ],
+
+                also: [{ effect: 'acid-burning' }],
               },
               printedDc: 15,
             },
             text: [
               'The maw vermin coats a swallowed creature in acidic goo and launches it at a point within 120 feet of it.',
+            ],
+            effects: [
+              {
+                key: 'acid-burning',
+                name: 'Burning',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.restrained],
+                text: [
+                  'The target has the Burning condition (4d6 Acid). While Burning, the target has the ',
+                  rules.restrained,
+                  ' condition.',
+                ],
+              },
             ],
           },
         ],
@@ -6977,6 +7779,7 @@ export default createPublicationMonsters({
               '; 2/day: ',
               refs.spells.enhance_ability,
             ],
+            effects: [],
           },
           {
             key: 'noxious-blood',
@@ -7028,12 +7831,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60, which: 'the mutagenist can see' },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.necrotic }],
+
                 also: [
-                  'The target gains a randomly determined mutation. The mutation lasts for 1 minute, and afterwards, any lost body parts are restored.',
+                  { effect: 'random-mutation' },
+                  ' Afterwards, any lost body parts are restored.',
                 ],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'random-mutation',
+                name: 'Random mutation',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                text: ['The target gains a randomly determined mutation.'],
+              },
+            ],
           },
           {
             key: 'transmogrifying-elixir-recharges-after-a-short-or-long-rest',
@@ -7151,8 +7965,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 16).',
+              { effect: 'grabbed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled],
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -7172,10 +7996,18 @@ export default createPublicationMonsters({
               "The target suffers one of the following effects of the vampire's choice (the vampire can't select the same option more than once per turn): Poison. The target takes an extra ",
               { roll: '2d8' },
               ' Poison damage and has the ',
-              rules.poisoned,
-              ' condition (save ends, Constitution Saving Throw: ',
-              { dc: 'dex' },
-              ').',
+              { effect: 'poisoned-weapon' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'poisoned-weapon',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.poisoned],
+                text: ['(save ends, Constitution Saving Throw: ', { dc: 'dex' }, ')'],
+              },
             ],
           },
           {
@@ -7190,10 +8022,19 @@ export default createPublicationMonsters({
             name: 'Mindmuddler',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'The target has the Bewildered condition (save ends, Intelligence Saving Throw: ',
-              { dc: 'dex' },
-              ').',
+            text: [{ effect: 'bewildered' }],
+            effects: [
+              {
+                key: 'bewildered',
+                name: 'Bewildered',
+                lands: { on: 'save', save: 'int', dc: 'dex' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'The target has the Bewildered condition (save ends, Intelligence Saving Throw: ',
+                  { dc: 'dex' },
+                  ').',
+                ],
+              },
             ],
           },
           {
@@ -7216,6 +8057,7 @@ export default createPublicationMonsters({
                 also: ['The vampire regains Hit Points equal to the Necrotic damage dealt.'],
               },
             },
+            effects: [],
           },
           {
             key: 'meld-into-shadow',
@@ -7321,8 +8163,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Large or smaller, it is pushed 10 feet and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
             ],
           },
           {
@@ -7339,12 +8190,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Large or smaller, it has the ',
-              rules.grappled,
-              ' condition (escape DC 16). While ',
-              rules.grappled,
-              ', the target has the ',
-              rules.restrained,
-              ' condition. The octarine tree can grapple up to four creatures at a time.',
+              { effect: 'grabbed' },
+              '. The octarine tree can grapple up to four creatures at a time.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled, rules.restrained],
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -7364,6 +8221,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               '. Failure: The target gains one Contamination level. Failure by 5 or More: The target triggers an Arcane Anomalies centered on itself.',
             ],
+            effects: [],
           },
           {
             key: 'take-root',
@@ -7381,6 +8239,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' conditions, and its AC increases to 20. These benefits end early if the tree takes Fire damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -7506,6 +8365,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' creature.',
             ],
+            effects: [],
           },
           {
             key: 'slam',
@@ -7528,15 +8388,25 @@ export default createPublicationMonsters({
             text: [
               'The abomination engulfs a Large or smaller creature ',
               rules.grappled,
-              ' by it. Until the grapple ends the target has the ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' conditions, is suffocating, and has Total Cover against attacks and other effects outside the abomination. If the abomination moves, the engulfed target moves with it. The abomination can have only one creature engulfed at a time. Constitution Saving Throw: ',
+              ' by it. ',
+              { effect: 'engulfed' },
+              '. If the abomination moves, the engulfed target moves with it. The abomination can have only one creature engulfed at a time. Constitution Saving Throw: ',
               { dc: 'con' },
               '. Failure: ',
               { roll: '3d8', mod: 'str' },
               " Bludgeoning damage. The engulfed creature repeats the save at the start of each of the abomination's turns Success: The target escapes and enters the nearest unoccupied space.",
+            ],
+            effects: [
+              {
+                key: 'engulfed',
+                name: 'Engulfed',
+                lands: { on: 'use' },
+                lasts: { kind: 'until', text: ['the grapple ends'] },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'is suffocating, and has Total Cover against attacks and other effects outside the abomination.',
+                ],
+              },
             ],
           },
         ],
@@ -7581,10 +8451,19 @@ export default createPublicationMonsters({
                 { dice: '2d6', type: rules.psychic },
               ],
             },
-            text: [
-              'The target has the Immobilized condition (Wisdom saving throw ',
-              { dc: 'dex' },
-              ' save ends).',
+            text: [{ effect: 'immobilized' }],
+            effects: [
+              {
+                key: 'immobilized',
+                name: 'Immobilized',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'The target has the Immobilized condition (Wisdom saving throw ',
+                  { dc: 'dex' },
+                  ' save ends).',
+                ],
+              },
             ],
           },
           {
@@ -7599,11 +8478,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '9d8', type: rules.psychic }],
-                also: ['The target has the ', rules.frightened, ' condition (save ends).'],
+
+                also: ['The target has the ', { effect: 'frightened' }, '.'],
               },
             },
             text: [
               "Success: Half damage, and the target is immune to this psychophant's Final Scream for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.frightened],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -7699,8 +8589,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it has the ',
-              rules.grappled,
-              ' condition (escape DC 13). The maunder has countless hands and can grapple any number of creatures.',
+              { effect: 'grabbed' },
+              '. The maunder has countless hands and can grapple any number of creatures.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled],
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -7720,6 +8620,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the maunder is Helpless against this attack.',
             ],
+            effects: [],
           },
           {
             key: 'eye-beam',
@@ -7746,10 +8647,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.psychic }],
-                also: ['The target has the Dazed condition until the start of its next turn.'],
+
+                also: [{ effect: 'dazed' }],
               },
               printedDc: 10,
             },
+            effects: [
+              {
+                key: 'dazed',
+                name: 'Dazed',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+                text: ['The target has the Dazed condition'],
+              },
+            ],
           },
         ],
       },
@@ -7786,6 +8697,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7818,7 +8730,17 @@ export default createPublicationMonsters({
             text: [
               'Intelligence Saving Throw: ',
               { dc: 'cha' },
-              ". Failure: The target has the Dazed and Slowed conditions until the end of the Rat King's next turn.",
+              '. Failure: ',
+              { effect: 'dazed-slowed' },
+            ],
+            effects: [
+              {
+                key: 'dazed-slowed',
+                name: 'Dazed and Slowed',
+                lands: { on: 'save', save: 'int', dc: 'cha' },
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                text: ['The target has the Dazed and Slowed conditions'],
+              },
             ],
           },
           {
@@ -7833,11 +8755,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.psychic }],
-                also: ['The target is Jinxed 1d10 (save ends).'],
+
+                also: [{ effect: 'jinxed' }],
               },
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'jinxed',
+                name: 'Jinxed',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target is Jinxed 1d10 (save ends).'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
         ],
       },
@@ -7882,6 +8815,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7927,6 +8861,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               '. Failure: The target gains one Contamination level.',
             ],
+            effects: [],
           },
           {
             key: 'hand-crossbow',
@@ -7997,6 +8932,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'poison-tipped-spear',
@@ -8037,8 +8973,17 @@ export default createPublicationMonsters({
               'Strength Saving Throw: ',
               { dc: 'con', printed: 13 },
               ', one creature within reach of the ratling. Failure: The target is pushed 5 feet away from the ratling and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'con', printed: 13 },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
             ],
           },
         ],
@@ -8078,6 +9023,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'contaminated-blade',
@@ -8098,6 +9044,7 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' Necrotic damage. Failure by 5 or More: The target also gains one Contamination level. Success: Half damage only.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -8171,6 +9118,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -8247,6 +9195,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'rancid-bite',
@@ -8322,7 +9271,20 @@ export default createPublicationMonsters({
             text: [
               'The reality cyst emits a 120-foot Emanation of unhinged reality. A creature that starts its turn in the Emanation is subjected to the following effect. Wisdom Saving Throw: ',
               { dc: 'cha' },
-              ". Failure: The target has the Immobilized condition until it leaves the Emanation. While Immobilized, the target believes itself to be in an altered and confused environment of shifting forms, and can't see or hear anything else. The target does not perceive itself to be stationary, and instead believes it is walking through a bizarre landscape. It can take an action on its turn to repeat the save, ending the effect on itself on a success. If the creature succeeds on its save or the effect ends for it, it is immune to the reality cyst's Unhinged Reality for 24 hours.",
+              '. Failure: ',
+              { effect: 'unhinged-reality' },
+              " If the creature succeeds on its save or the effect ends for it, it is immune to the reality cyst's Unhinged Reality for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'unhinged-reality',
+                name: 'Immobilized',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                lasts: { kind: 'until', text: ['it leaves the Emanation'] },
+                text: [
+                  "While Immobilized, the target believes itself to be in an altered and confused environment of shifting forms, and can't see or hear anything else. The target does not perceive itself to be stationary, and instead believes it is walking through a bizarre landscape. It can take an action on its turn to repeat the save, ending the effect on itself on a success.",
+                ],
+              },
             ],
           },
           {
@@ -8372,7 +9334,18 @@ export default createPublicationMonsters({
             text: [
               'Trigger: The reality cyst takes damage. Response:Intelligence Saving Throw: ',
               { dc: 'cha' },
-              ', each creature in a 60-foot Emanation originating from the reality cyst. Failure: The target has the Addled condition (save ends).',
+              ', each creature in a 60-foot Emanation originating from the reality cyst. Failure: ',
+              { effect: 'addled' },
+            ],
+            effects: [
+              {
+                key: 'addled',
+                name: 'Addled',
+                lands: { on: 'save', save: 'int', dc: 'cha' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Addled condition'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -8441,8 +9414,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Large or smaller, it is pushed up to 5 feet away from the reautomata and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
             ],
           },
           {
@@ -8459,12 +9441,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Large or smaller, it has the ',
-              rules.grappled,
-              ' condition (escape DC 17). While ',
-              rules.grappled,
-              ', the target has the ',
-              rules.restrained,
-              " condition and the reautomata can't make Entrapping Rend attacks against another target.",
+              { effect: 'grabbed' },
+              " and the reautomata can't make Entrapping Rend attacks against another target.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled, rules.restrained],
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -8545,9 +9533,28 @@ export default createPublicationMonsters({
             text: [
               'Strength Saving Throw: ',
               { dc: 'str' },
-              '. Failure: The target has the Dazed condition (save ends) and the ',
-              rules.prone,
-              ' condition.',
+              '. Failure: The target has the ',
+              { effect: 'dazed' },
+              ' and the ',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dazed',
+                name: 'Dazed',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Dazed condition'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
             ],
           },
           {
@@ -8590,6 +9597,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -8663,7 +9671,20 @@ export default createPublicationMonsters({
             text: [
               'Once per turn, the assassin can apply one of the following additional effects to the target: Silent Scream. Intelligence Saving Throw: ',
               { dc: 'dex' },
-              '. Failure: The target has the Bewildered condition (save ends). While Bewildered, the target is unable to speak.',
+              '. Failure: ',
+              { effect: 'silent-scream' },
+            ],
+            effects: [
+              {
+                key: 'silent-scream',
+                name: 'Silent Scream',
+                lands: { on: 'save', save: 'int', dc: 'dex' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'The target has the Bewildered condition (save ends). While Bewildered, the target is unable to speak.',
+                ],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -8674,11 +9695,19 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'dex' },
-              '. Failure: The target has the ',
-              rules.poisoned,
-              ' condition (save ends). While ',
-              rules.poisoned,
-              ', the target also has the Weakened condition.',
+              '. Failure: ',
+              { effect: 'sap-strength' },
+            ],
+            effects: [
+              {
+                key: 'sap-strength',
+                name: 'Sap strength',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.poisoned],
+                text: ['While ', rules.poisoned, ', the target also has the Weakened condition.'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -8689,7 +9718,20 @@ export default createPublicationMonsters({
             text: [
               'Strength Saving Throw: ',
               { dc: 'dex' },
-              '. Failure: The target has the Dazed condition (save ends). While Dazed, the target also has the Slowed condition.',
+              '. Failure: ',
+              { effect: 'sluggish-sinews' },
+            ],
+            effects: [
+              {
+                key: 'sluggish-sinews',
+                name: 'Sluggish sinews',
+                lands: { on: 'save', save: 'str', dc: 'dex' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'The target has the Dazed condition (save ends). While Dazed, the target also has the Slowed condition.',
+                ],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -8750,6 +9792,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion,
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -8805,9 +9848,21 @@ export default createPublicationMonsters({
               damage: [{ dice: '5d6', type: rules.necrotic, addModifier: true }],
             },
             text: [
-              'The vampire regains Hit Points equal to the damage dealt. The target has the Weakened condition (',
-              { dc: 'con' },
-              ' Constitution save ends).',
+              'The vampire regains Hit Points equal to the damage dealt. ',
+              { effect: 'weakened' },
+            ],
+            effects: [
+              {
+                key: 'weakened',
+                name: 'Weakened',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'The target has the Weakened condition (',
+                  { dc: 'con' },
+                  ' Constitution save ends).',
+                ],
+              },
             ],
           },
           {
@@ -8833,6 +9888,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'arcane-denial',
@@ -8844,6 +9900,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '. Failure: The spell fails, but no resources are wasted.',
             ],
+            effects: [],
           },
         ],
       },
@@ -8964,6 +10021,7 @@ export default createPublicationMonsters({
               { roll: '1d10' },
               ' Poison damage.',
             ],
+            effects: [],
           },
           {
             key: 'unexpected-appearance',
@@ -8993,7 +10051,17 @@ export default createPublicationMonsters({
               reach: 30,
               damage: [{ dice: '2d8', type: rules.bludgeoning, addModifier: true }],
             },
-            text: ['The target has the ', rules.grappled, ' condition (escape DC 16).'],
+            text: ['The target has the ', { effect: 'grabbed' }, '.'],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled],
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
+            ],
           },
           {
             key: 'reel',
@@ -9005,6 +10073,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it up to 20 feet straight toward it.',
             ],
+            effects: [],
           },
           {
             key: 'engulf',
@@ -9015,16 +10084,24 @@ export default createPublicationMonsters({
               'The sewer thing engulfs a Medium or smaller creature within 5 feet of it that is ',
               rules.grappled,
               ' by it. The grapple ends. The target has the ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              " conditions, is suffocating, and is subjected to the following effect at the start of each of the sewer thing's turns. Constitution Saving Throw: ",
+              { effect: 'engulfed' },
+              ", and is subjected to the following effect at the start of each of the sewer thing's turns. Constitution Saving Throw: ",
               { dc: 'con' },
               '. Failure: ',
               { roll: '2d10' },
               ' Poison damage plus ',
               { roll: '2d10' },
               ' Acid damage. If the sewer thing moves, the target moves with it. The sewer thing can have up to four creatures engulfed at a time. An engulfed creature can take an action to escape with a successful DC 16 Strength (Athletics) check, landing in an unoccupied space within 5 feet of the sewer thing.',
+            ],
+            effects: [
+              {
+                key: 'engulfed',
+                name: 'Engulfed',
+                lands: { on: 'use' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.blinded, rules.restrained],
+                text: ['is suffocating'],
+              },
             ],
           },
         ],
@@ -9196,7 +10273,16 @@ export default createPublicationMonsters({
                 { dice: '3d6', type: rules.cold },
               ],
             },
-            text: ['Critical Hit: The target has the Frozen condition (', { dc: 'con' }, ').'],
+            text: ['Critical Hit: ', { effect: 'frozen' }],
+            effects: [
+              {
+                key: 'frozen',
+                name: 'Frozen',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Frozen condition (', { dc: 'con' }, ').'],
+              },
+            ],
           },
           {
             key: 'steady-aim',
@@ -9270,7 +10356,18 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'cha' },
-              '. Failure: The target has the Shocked condition (save ends).',
+              '. Failure: ',
+              { effect: 'shocked' },
+            ],
+            effects: [
+              {
+                key: 'shocked',
+                name: 'Shocked',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                lasts: { kind: 'until-removed' },
+                text: ['The target has the Shocked condition (save ends).'],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -9291,6 +10388,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'teleport',
@@ -9357,8 +10455,17 @@ export default createPublicationMonsters({
               'Strength Saving Throw: ',
               { dc: 'str' },
               ', one creature within 5 feet of the skeleton soldier. Failure: The target is pushed 5 feet away from the skeleton soldier and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.prone],
+              },
             ],
           },
         ],
@@ -9400,6 +10507,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'disturbing-bleating',
@@ -9409,7 +10517,18 @@ export default createPublicationMonsters({
             text: [
               'A creature that starts its turn within 30 feet of the skinwing is subjected to the following effect. Wisdom Saving Throw: ',
               { dc: 'con' },
-              '. Failure: The target has the Staggered condition until the start of its next turn. Success: The target is immune to the Disturbing Bleating of all skinwings for 24 hours.',
+              '. Failure: ',
+              { effect: 'staggered' },
+              ' Success: The target is immune to the Disturbing Bleating of all skinwings for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'staggered',
+                name: 'Staggered',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+                text: ['The target has the Staggered condition'],
+              },
             ],
           },
           {
@@ -9524,14 +10643,24 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 10 } },
               onFail: {
                 damage: [{ dice: '8d4', type: rules.acid }],
-                also: [
-                  'The target has the Burning condition (4d4 Acid). Each time the target takes damage from this condition, it must succeed on a DC 13 Constitution saving throw or gain one Contamination level.',
-                ],
+
+                also: [{ effect: 'burning' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'burning',
+                name: 'Burning',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'The target has the Burning condition (4d4 Acid). Each time the target takes damage from this condition, it must succeed on a DC 13 Constitution saving throw or gain one Contamination level.',
+                ],
+              },
+            ],
           },
         ],
       },
@@ -9571,6 +10700,7 @@ export default createPublicationMonsters({
               { roll: '1d10' },
               " Piercing damage at the end of that creature's turn.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -9600,6 +10730,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               '. Failure: The target gains one level of Contamination.',
             ],
+            effects: [],
           },
         ],
       },
@@ -9663,14 +10794,22 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 13). Until this grapple ends, the target has the ',
-              rules.restrained,
-              ' condition, takes ',
+              { effect: 'grabbed' },
+              ', takes ',
               { roll: '2d6', mod: 'str' },
               ' Bludgeoning damage plus ',
               { roll: '2d6' },
               " Necrotic damage at the start of each of its turns, and the dreg can't make Constricting Tentacle attacks.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled, rules.restrained],
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
         ],
@@ -9733,11 +10872,9 @@ export default createPublicationMonsters({
             text: [
               'If the target is smaller than the growth, it is subjected to the following effect. Dexterity Saving Throw: ',
               { dc: 'str' },
-              '. Failure: The target is swallowed by the growth. A swallowed creature has the ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' conditions, has Total Cover from attacks and effects outside the growth, and takes ',
+              '. Failure: ',
+              { effect: 'swallowed' },
+              ', has Total Cover from attacks and effects outside the growth, and takes ',
               { roll: '4d8' },
               " Necrotic damage and the start of each of the growth's turns. The growth regains Hit Points equal to the amount of Necrotic damage dealt, and excess healing increases its Hit Point Maximum. If the growth takes 20 damage or more on a single turn from a creature inside it, the growth must succeed on a ",
               { dc: 'con', printed: 17 },
@@ -9748,6 +10885,16 @@ export default createPublicationMonsters({
               ' condition and can escape from the corpse using 20 feet of movement, exiting with the ',
               rules.prone,
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.blinded, rules.restrained],
+                text: ['The target is swallowed by the growth'],
+              },
             ],
           },
           {
@@ -9809,6 +10956,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' conditions or is otherwise unable to move.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -9837,6 +10985,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' Acid damage, and the target has the Burning condition (3d6 Acid).',
             ],
+            effects: [],
           },
           {
             key: 'slip-space',
@@ -9857,6 +11006,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The polyp teleports to an unoccupied space it can see within 20 feet.'],
+            effects: [],
           },
           {
             key: 'shift-step',
@@ -10008,6 +11158,7 @@ export default createPublicationMonsters({
             text: [
               "The elemental explodes when it dies and it hasn't taking Force, Radiant, or Thunder damage since its last turn.  Failure or Success: The explosion triggers a random Arcane Anomalies (see Appendix C)",
             ],
+            effects: [],
           },
           {
             key: 'earth-glide',
@@ -10044,6 +11195,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' Necrotic damage, and the target gains one Contamination level.',
             ],
+            effects: [],
           },
         ],
       },
@@ -10087,6 +11239,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.major_image,
             ],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -10216,9 +11369,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic }],
-                also: ['The target has the ', rules.frightened, ' condition (save ends).'],
+
+                also: ['The target has the ', { effect: 'frightened' }, '.'],
               },
             },
+            effects: [
+              {
+                key: 'frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.frightened],
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
           {
             key: 'possession',
@@ -10228,13 +11392,32 @@ export default createPublicationMonsters({
             text: [
               'Charisma Saving Throw: ',
               { dc: 'cha' },
-              ', one Humanoid the warp witch can see within 5 feet. Failure: The target is possessed by the Warp Witch. The witch disappears, and the target has the ',
-              rules.incapacitated,
-              " condition and loses control of its body. The witch controls the target's body but doesn't deprive the target of awareness. The witch can't be targeted by any attack, spell, or other effect, except ones that turn undead. The witch retains its alignment, Intelligence, Wisdom, Charisma, and Immunity to the ",
-              rules.charmed,
-              ' and ',
-              rules.frightened,
-              " conditions. It otherwise uses the possessed target's game statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 Hit Points, the witch ends it as a Bonus Action, or the witch is turned or forced out by an effect like the Dispel Evil and Good spell. When the possession ends, the witch reappears in an unoccupied space within 5 feet of the body. If the target succeeds on its save or the effect ends for it, it is immune to this warp witch's Possession for 24 hours.",
+              ', one Humanoid the warp witch can see within 5 feet. Failure: ',
+              { effect: 'possession' },
+              " When the possession ends, the witch reappears in an unoccupied space within 5 feet of the body. If the target succeeds on its save or the effect ends for it, it is immune to this warp witch's Possession for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'possession',
+                name: 'Possession',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 Hit Points, the witch ends it as a Bonus Action, or the witch is turned or forced out by an effect like the Dispel Evil and Good spell',
+                  ],
+                },
+                conditions: [rules.incapacitated],
+                text: [
+                  'The target is possessed by the Warp Witch. The witch disappears, and the target has the ',
+                  rules.incapacitated,
+                  " condition and loses control of its body. The witch controls the target's body but doesn't deprive the target of awareness. The witch can't be targeted by any attack, spell, or other effect, except ones that turn undead. The witch retains its alignment, Intelligence, Wisdom, Charisma, and Immunity to the ",
+                  rules.charmed,
+                  ' and ',
+                  rules.frightened,
+                  " conditions. It otherwise uses the possessed target's game statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+                ],
+              },
             ],
           },
           {
@@ -10247,6 +11430,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ', one creature the warp witch is possessing. Failure: The target gains one Contamination level and a mutation.',
             ],
+            effects: [],
           },
         ],
       },
@@ -10492,8 +11676,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 21).',
+              { effect: 'grabbed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until-removed' },
+                conditions: [rules.grappled],
+                ends: { escape: { dc: 'str', printed: 21 } },
+              },
             ],
           },
           {
@@ -10513,11 +11707,24 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.necrotic, addModifier: true }],
+
                 also: [
-                  "The target's Hit Point Maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount.",
+                  { effect: 'hit-point-maximum-drain' },
+                  ', and the vampire regains Hit Points equal to that amount.',
                 ],
               },
             },
+            effects: [
+              {
+                key: 'hit-point-maximum-drain',
+                name: 'Hit Point Maximum drain',
+                lands: { on: 'failed-save' },
+                lasts: { kind: 'until-removed' },
+                text: [
+                  "The target's Hit Point Maximum decreases by an amount equal to the Necrotic damage taken",
+                ],
+              },
+            ],
           },
           {
             key: 'morrigan-s-fury-1-short-rest',
@@ -10529,6 +11736,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition. As part of this Bonus Action, the vampire moves up to half its Speed toward a Hostile creature without provoking Opportunity Attack action.',
             ],
+            effects: [],
           },
         ],
       },

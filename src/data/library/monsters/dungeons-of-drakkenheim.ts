@@ -1552,6 +1552,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or has a speed of 0.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1607,8 +1608,17 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a Strength saving throw or take ',
               { roll: '10d6' },
               ' force damage, be pushed 20 feet away, and knocked ',
-              rules.prone,
+              { effect: 'forceful-blast-prone' },
               '. 3.',
+            ],
+            effects: [
+              {
+                key: 'forceful-blast-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1620,10 +1630,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a Constitution saving throw or take ',
               { roll: '10d6' },
               ' radiant damage and be ',
-              rules.blinded,
-              ' for 1 minute. A ',
-              rules.blinded,
-              ' creature can repeat the saving throw on each of its turns, ending the effect on itself on a success. 4.',
+              { effect: 'blinding-blast-blinded' },
+              '. 4.',
+            ],
+            effects: [
+              {
+                key: 'blinding-blast-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {

@@ -99,18 +99,22 @@ export default createPublicationMonsters({
                   { dice: '5d10', type: rules.piercing },
                   { dice: '10d10', type: rules.lightning },
                 ],
-                also: [
-                  'The target has the ',
-                  rules.blinded,
-                  ' and ',
-                  rules.deafened,
-                  " conditions until the start of the ancient's next turn.",
-                ],
+
+                also: ['The target is ', { effect: 'nature-s-fury-blind' }, '.'],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'nature-s-fury-blind',
+                name: 'Blinded and Deafened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded, rules.deafened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -161,6 +165,7 @@ export default createPublicationMonsters({
               { roll: '4d8' },
               ' Necrotic damage.',
             ],
+            effects: [],
           },
           {
             key: 'undead-fortitude',
@@ -172,6 +177,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               " plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, Anub'arak drops to 1 Hit Point instead.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -253,9 +259,19 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 10 }, range: 60 },
                 onFail: {
                   damage: [{ dice: '8d6', type: rules.piercing }],
-                  also: ['The target has the ', rules.prone, ' condition.'],
+
+                  also: ['The target is ', { effect: 'earth-spike-prone' }, '.'],
                 },
               },
+              effects: [
+                {
+                  key: 'earth-spike-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -300,6 +316,7 @@ export default createPublicationMonsters({
               '; 2/day: ',
               refs.spells.polymorph,
             ],
+            effects: [],
           },
           {
             key: 'arcane-bubble-recharges-after-a-short-or-long-rest',
@@ -372,6 +389,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'misty-step',
@@ -483,6 +501,7 @@ export default createPublicationMonsters({
                 also: ['The target is pushed up to 30 feet straight away from Silverlaine.'],
               },
             },
+            effects: [],
           },
         ],
         legendary: {
@@ -501,6 +520,7 @@ export default createPublicationMonsters({
                   damage: [{ dice: '2d6', type: rules.necrotic }],
                 },
               },
+              effects: [],
             },
             {
               key: 'odo-s-blinding-shadows',
@@ -513,15 +533,21 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 60, which: 'Silverlaine can see' },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.necrotic }],
-                  also: [
-                    'The target has the ',
-                    rules.blinded,
-                    " condition until the end of Silverlaine's next turn.",
-                  ],
+
+                  also: ['The target is ', { effect: 'blinding-shadows' }, '.'],
                 },
               },
               text: [
                 "The spirit of Odo the Blindwatcher hurls shadows at a foe.  Failure or Success: Silverlaine can't take this action again until the start of his next turn",
+              ],
+              effects: [
+                {
+                  key: 'blinding-shadows',
+                  name: 'Blinded',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.blinded],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
             {
@@ -535,15 +561,21 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 60, which: 'Silverlaine can see' },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.necrotic }],
-                  also: [
-                    'The target has the ',
-                    rules.restrained,
-                    " condition until the end of Silverlaine's next turn.",
-                  ],
+
+                  also: ['The target is ', { effect: 'soul-drain-restrained' }, '.'],
                 },
               },
               text: [
                 "The spirit of Rethilgore feasts on an enemy's soul.  Failure or Success: Silverlaine can't take this action again until the start of his next turn",
+              ],
+              effects: [
+                {
+                  key: 'soul-drain-restrained',
+                  name: 'Restrained',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.restrained],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
           ],
@@ -593,6 +625,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.incendiary_cloud,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -651,6 +684,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -680,12 +714,22 @@ export default createPublicationMonsters({
                     { dice: '3d6', type: rules.fire },
                     { dice: '3d6', type: rules.bludgeoning },
                   ],
-                  also: ['The target has the ', rules.prone, ' condition.'],
+
+                  also: ['The target is ', { effect: 'eruption-prone' }, '.'],
                 },
                 onSuccess: 'half',
               },
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn, and the ground in the affected area becomes molten for 1 minute. While molten, the ground is Difficult Terrain, and any creature that ends its turn there starts burning.",
+              ],
+              effects: [
+                {
+                  key: 'eruption-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -731,6 +775,7 @@ export default createPublicationMonsters({
               ' (level 7 version), ',
               refs.spells.stone_shape,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -780,6 +825,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -850,6 +896,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -893,6 +940,7 @@ export default createPublicationMonsters({
               '). 1/day: ',
               refs.spells.flame_strike,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -936,16 +984,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 10 }, range: 60 },
               onFail: {
                 damage: [{ dice: '6d8', type: rules.necrotic }],
-                also: [
-                  'The target has the ',
-                  rules.restrained,
-                  " condition until the start of Thalnos's next turn.",
-                ],
+
+                also: ['The target is ', { effect: 'spirit-gale-restrained' }, '.'],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'spirit-gale-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'protective-magic',
@@ -1009,6 +1063,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_ice,
               ' (level 8 version)',
             ],
+            effects: [],
           },
           {
             key: 'ice-walk',
@@ -1059,14 +1114,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '17d6', type: rules.cold }],
-                also: [
-                  "The target can't cast spells or take the Magic action until the start of the drake's next turn.",
-                ],
+
+                also: [{ effect: 'spellfreeze' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'spellfreeze',
+                name: 'Spellfrozen',
+                lands: { on: 'failed-save' },
+                text: ["The target can't cast spells or take the Magic action."],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -1138,14 +1201,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '9d6', type: rules.cold }],
-                also: [
-                  "The target can't cast spells or take the Magic action until the start of the whelp's next turn.",
-                ],
+
+                also: [{ effect: 'spellfreeze' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'spellfreeze',
+                name: 'Spellfrozen',
+                lands: { on: 'failed-save' },
+                text: ["The target can't cast spells or take the Magic action."],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -1199,6 +1270,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1257,6 +1329,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1283,14 +1356,26 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 10 }, range: 120 },
                 onFail: {
                   damage: [{ dice: '6d4', type: rules.slashing }],
-                  also: [
-                    'The target gains 1 Exhaustion level. While the target has any Exhaustion levels, it appears 3d10 years older.',
-                  ],
+
+                  also: [{ effect: 'sands-exhaustion' }],
                 },
                 onSuccess: 'half',
               },
               text: [
                 "The dragon creates a whirlwind of magic sand.    Failure or Success: The dragon can't take this action again until the start of its next turn.",
+              ],
+              effects: [
+                {
+                  key: 'sands-exhaustion',
+                  name: 'Aged and exhausted',
+                  lands: { on: 'failed-save' },
+                  text: [
+                    'The target gains 1 ',
+                    rules.exhaustion,
+                    ' level. While the target has any Exhaustion levels, it appears 3d10 years older.',
+                  ],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {
@@ -1356,6 +1441,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1405,6 +1491,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1477,6 +1564,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1516,6 +1604,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.zone_of_truth,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1624,6 +1713,7 @@ export default createPublicationMonsters({
               { roll: '1d6' },
               ' Necrotic damage when it ends its turn in the aura.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1671,6 +1761,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'repel-the-intruders',
@@ -1781,8 +1872,17 @@ export default createPublicationMonsters({
               'If the target is a Large or smaller creature and the doomguard moved 10+ feet straight toward it immediately before the hit, the target takes an extra ',
               { roll: '5d6' },
               ' Piercing damage and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'gore-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'gore-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1797,10 +1897,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '9d8', type: rules.thunder }],
-                also: ['The target has the ', rules.prone, ' condition.'],
+
+                also: ['The target is ', { effect: 'war-stomp-prone' }, '.'],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'war-stomp-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
       },
@@ -1834,6 +1944,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1857,9 +1968,22 @@ export default createPublicationMonsters({
             text: [
               "If the target is a creature and doesn't already have a rending wound, it is subjected to the following effect. Constitution Saving Throw: ",
               { dc: 'dex' },
-              '. Failure: The target receives a rending wound. While wounded, the target loses ',
-              { roll: '2d6' },
-              ' Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound and succeeds on a DC 15 Wisdom (Medicine) check.',
+              '. Failure: The target receives ',
+              { effect: 'rending-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'rending-wound',
+                name: 'Rending wound',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                text: [
+                  'While wounded, the target loses ',
+                  { roll: '2d6' },
+                  ' Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound and succeeds on a DC 15 Wisdom (Medicine) check.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -1974,6 +2098,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' conditions.',
             ],
+            effects: [],
           },
           {
             key: 'pack-tactics',
@@ -1985,6 +2110,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2075,6 +2201,7 @@ export default createPublicationMonsters({
               '). 1/day: ',
               refs.spells.fireball,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2208,11 +2335,19 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 5 }, range: 5 },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.thunder }],
-                also: [
-                  "The target can't take Reactions until the start of the furbolg's next turn.",
-                ],
+
+                also: [{ effect: 'thunder-stomp-reactions' }],
               },
             },
+            effects: [
+              {
+                key: 'thunder-stomp-reactions',
+                name: 'No Reactions',
+                lands: { on: 'failed-save' },
+                text: ["The target can't take Reactions."],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -2289,8 +2424,22 @@ export default createPublicationMonsters({
               'Dexterity Saving Throw: ',
               { dc: 'dex' },
               ', one Large or smaller creature Gelihast can see within 15 feet. Failure: The target has the ',
-              rules.restrained,
-              ' condition until the net is destroyed (AC 10; HP 5; Immunity to Bludgeoning, Poison, and Psychic damage). A creature can take an action to make a DC 10 Strength (Athletics) check to free itself or another creature in a net within 5 feet, destroying the net on a success.',
+              { effect: 'sticky-net-restrained' },
+              '. A creature can take an action to make a DC 10 Strength (Athletics) check to free itself or another creature in a net within 5 feet, destroying the net on a success.',
+            ],
+            effects: [
+              {
+                key: 'sticky-net-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the net is destroyed (AC 10; HP 5; Immunity to Bludgeoning, Poison, and Psychic damage)',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -2351,6 +2500,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.heat_metal,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2449,6 +2599,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.lesser_restoration,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2498,6 +2649,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2568,6 +2720,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2612,6 +2765,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               "). It can't take this action again until the start of its next turn.",
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2678,12 +2832,25 @@ export default createPublicationMonsters({
               'Constitution Saving Throw: ',
               { dc: 'con' },
               ", each creature of Hadronox's choice within 30 feet. Failure: The target has the ",
-              rules.poisoned,
-              ' condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. While the target is ',
-              rules.poisoned,
-              ', it takes ',
-              { roll: '4d6' },
-              ' Poison damage at the start of its turn, and Hadronox heals the same amount if it has at least 1 Hit Point.',
+              { effect: 'leech-poisoned' },
+              '. After 1 minute, it succeeds automatically.',
+            ],
+            effects: [
+              {
+                key: 'leech-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While the target is ',
+                  rules.poisoned,
+                  ', it takes ',
+                  { roll: '4d6' },
+                  ' Poison damage at the start of its turn, and Hadronox heals the same amount if it has at least 1 Hit Point.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2700,15 +2867,28 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60, which: 'Hadronox can see' },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.force }],
+
                 also: [
                   'The target has the ',
-                  rules.restrained,
-                  ' condition and is pulled up to 60 feet toward Hadronox. The target has the ',
-                  rules.restrained,
-                  ' condition until the web is destroyed (AC 10; HP 30; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage).',
+                  { effect: 'web-grab-restrained' },
+                  ' and is pulled up to 60 feet toward Hadronox.',
                 ],
               },
             },
+            effects: [
+              {
+                key: 'web-grab-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the web is destroyed (AC 10; HP 30; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage)',
+                  ],
+                },
+              },
+            ],
           },
         ],
         legendary: {
@@ -2769,6 +2949,7 @@ export default createPublicationMonsters({
               { roll: '1d10' },
               ' damage when it hits with an attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2897,10 +3078,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5, which: "Immol'thar can see" },
               onFail: {
                 damage: [{ dice: '3d12', type: rules.bludgeoning }],
-                also: ['The target has the ', rules.prone, ' condition.'],
+
+                also: ['The target is ', { effect: 'stomp-prone' }, '.'],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'stomp-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'summon-eyes-of-immol-thar',
@@ -2936,6 +3127,7 @@ export default createPublicationMonsters({
                 { roll: '2d6' },
                 " Fire damage. Success: Half damage. Failure or Success: Immol'thar can't take this action again until the start of its next turn.",
               ],
+              effects: [],
             },
             {
               key: 'withering-gaze',
@@ -2948,13 +3140,19 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 60, which: "Immol'thar can see" },
                 onFail: {
                   damage: [{ dice: '2d10', type: rules.necrotic }],
-                  also: [
-                    'The target has the ',
-                    rules.poisoned,
-                    ' condition until the end of its next turn.',
-                  ],
+
+                  also: ['The target is ', { effect: 'withering-gaze-poisoned' }, '.'],
                 },
               },
+              effects: [
+                {
+                  key: 'withering-gaze-poisoned',
+                  name: 'Poisoned',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.poisoned],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
+              ],
             },
           ],
         },
@@ -3014,6 +3212,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The infernal explodes when it dies.'],
+            effects: [],
           },
           {
             key: 'immutable-form',
@@ -3082,6 +3281,7 @@ export default createPublicationMonsters({
             text: ['The infernal hurls a ball of exploding felfire.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -3141,9 +3341,22 @@ export default createPublicationMonsters({
             text: [
               "If the target is a creature and doesn't already have a rending wound, it is subjected to the following effect. Constitution Saving Throw: ",
               { dc: 'str' },
-              '. Failure: The target receives a rending wound. While wounded, the target loses ',
-              { roll: '1d10' },
-              ' Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 20 Wisdom (Medicine) check.',
+              '. Failure: The target receives ',
+              { effect: 'blade-rending-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'blade-rending-wound',
+                name: 'Rending wound',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: [
+                  'While wounded, the target loses ',
+                  { roll: '1d10' },
+                  ' Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 20 Wisdom (Medicine) check.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -3160,8 +3373,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'boulder-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'boulder-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -3189,16 +3411,22 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '4d12', type: rules.bludgeoning }],
-                  also: [
-                    'The target has the ',
-                    rules.incapacitated,
-                    ' condition until the end of its next turn.',
-                  ],
+
+                  also: ['The target has the ', { effect: 'war-stomp-incapacitated' }, '.'],
                 },
                 onSuccess: 'half',
               },
               text: [
                 "Failure or Success: Gordok can't take this action again until the start of his next turn.",
+              ],
+              effects: [
+                {
+                  key: 'war-stomp-incapacitated',
+                  name: 'Incapacitated',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.incapacitated],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -3247,6 +3475,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mage_hand,
             ],
+            effects: [],
           },
           {
             key: 'freedom-of-movement',
@@ -3308,15 +3537,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 20 } },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.cold }],
-                also: [
-                  'The target has the ',
-                  rules.restrained,
-                  ' condition until the end of its next turn.',
-                ],
+
+                also: ['The target has the ', { effect: 'frost-nova-restrained' }, '.'],
               },
             },
             text: [
               'Trigger: An enemy Sarevess can see enters a space within 20 feet of her. Response:',
+            ],
+            effects: [
+              {
+                key: 'frost-nova-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -3419,13 +3654,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 20, which: 'that the murloc can see' },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.cold, addModifier: true }],
+
                 also: [
                   'If the target is a Large or smaller creature, it is pushed 10 feet straight away from the murloc and has the ',
-                  rules.prone,
-                  ' condition.',
+                  { effect: 'cold-burst-prone' },
+                  '.',
                 ],
               },
             },
+            effects: [
+              {
+                key: 'cold-burst-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
       },
@@ -3501,8 +3746,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, the naga pulls the target up to 15 feet straight toward itself, and the target has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'trident-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'trident-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3596,15 +3850,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 }, range: 60 },
               onFail: {
                 damage: [{ dice: '6d12', type: rules.poison }],
-                also: [
-                  'The target has the ',
-                  rules.restrained,
-                  ' condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage).',
-                ],
+
+                also: ['The target has the ', { effect: 'web-burst-restrained' }, '.'],
               },
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'web-burst-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage)',
+                  ],
+                },
+              },
+            ],
           },
           {
             key: 'venomsplash',
@@ -3733,13 +3998,24 @@ export default createPublicationMonsters({
                   { dice: '2d10', type: rules.bludgeoning },
                   { dice: '2d8', type: rules.acid },
                 ],
-                also: [
-                  'The target has the ',
-                  rules.restrained,
-                  ' condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage).',
-                ],
+
+                also: ['The target has the ', { effect: 'web-strand-restrained' }, '.'],
               },
             },
+            effects: [
+              {
+                key: 'web-strand-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage)',
+                  ],
+                },
+              },
+            ],
           },
           {
             key: 'reel',
@@ -3753,6 +4029,7 @@ export default createPublicationMonsters({
               { ability: 'web-strand' },
               ' up to 30 feet straight toward itself.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3826,10 +4103,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 17) and has the ',
-              rules.restrained,
-              ' condition until the grapple ends.',
+              { effect: 'massive-arm-grapple' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'massive-arm-grapple',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -3857,15 +4142,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.psychic }],
-                also: [
-                  'The target has the ',
-                  rules.incapacitated,
-                  " condition until the start of the n'raqi's next turn.",
-                ],
+
+                also: ['The target has the ', { effect: 'mind-snare-incapacitated' }, '.'],
               },
             },
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [
+              {
+                key: 'mind-snare-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -3972,8 +4263,17 @@ export default createPublicationMonsters({
               ' condition. Wisdom Saving Throw: ',
               { dc: 'cha' },
               ', any enemy that starts its turn in the aura. Failure: The target has the ',
-              rules.frightened,
-              " condition until the start of its next turn. Success: The target is immune to this pit lord's aura for 24 hours.",
+              { effect: 'fear-aura-frightened' },
+              ". Success: The target is immune to this pit lord's aura for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fear-aura-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -4035,6 +4335,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'trampling-charge',
@@ -4047,8 +4348,17 @@ export default createPublicationMonsters({
               '. Failure: ',
               { roll: '8d6', mod: 'str' },
               ' Bludgeoning damage, and the target has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'trampling-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'trampling-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4103,6 +4413,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               ' plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the monstrosity drops to 1 Hit Point instead.',
             ],
+            effects: [],
           },
           {
             key: 'slam',
@@ -4129,13 +4440,19 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30, which: 'the monstrosity can see' },
               onFail: {
                 damage: [{ dice: '1d6', type: rules.poison }],
-                also: [
-                  'The target has the ',
-                  rules.poisoned,
-                  ' condition until the end of its next turn.',
-                ],
+
+                also: ['The target has the ', { effect: 'spit-plague-poisoned' }, '.'],
               },
             },
+            effects: [
+              {
+                key: 'spit-plague-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
         ],
       },
@@ -4269,6 +4586,7 @@ export default createPublicationMonsters({
             text: [
               "Hit or Miss: Flames explode from the target's space, creating the following effect.",
             ],
+            effects: [],
           },
           {
             key: 'elemental-fire',
@@ -4299,7 +4617,16 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
-            text: ['Failure or Success: The target starts burning.'],
+            text: ['Failure or Success: ', { effect: 'magma-burning' }],
+            effects: [
+              {
+                key: 'magma-burning',
+                name: 'Burning',
+                lands: { on: 'use' },
+                text: ['The target starts burning.'],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 4–6',
           },
@@ -4346,6 +4673,7 @@ export default createPublicationMonsters({
               text: [
                 "Failure or Success: Ragnaros can't take this action again until the start of his next turn.",
               ],
+              effects: [],
             },
           ],
         },
@@ -4388,6 +4716,7 @@ export default createPublicationMonsters({
               refs.spells.flame_strike,
               ' (level 8 version)',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -4446,6 +4775,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -4469,6 +4799,7 @@ export default createPublicationMonsters({
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn.",
               ],
+              effects: [],
             },
             {
               key: 'pounce',
@@ -4497,6 +4828,7 @@ export default createPublicationMonsters({
                 rules.poisoned,
                 ". The dragon can't take this action again until the start of its next turn.",
               ],
+              effects: [],
             },
           ],
         },
@@ -4548,6 +4880,7 @@ export default createPublicationMonsters({
               refs.spells.flame_strike,
               ' (level 8 version)',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4597,6 +4930,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4669,6 +5003,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4780,6 +5115,7 @@ export default createPublicationMonsters({
               text: [
                 "Failure or Success: Herod can't use this action again until the start of his next turn.",
               ],
+              effects: [],
             },
           ],
         },
@@ -4929,8 +5265,17 @@ export default createPublicationMonsters({
               'Wisdom Saving Throw: ',
               { dc: 'con' },
               ', one creature within 20 feet. Failure: The target has the ',
-              rules.frightened,
-              ' condition until the end of its next turn.',
+              { effect: 'terrify-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'terrify-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -5025,6 +5370,7 @@ export default createPublicationMonsters({
                 also: ["The creature's Concentration is broken."],
               },
             },
+            effects: [],
           },
           {
             key: 'unholy-empowerment-tormented-officer-only',
@@ -5140,6 +5486,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'charge',
@@ -5165,14 +5512,22 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 60, which: 'Thrall can see' },
                 onFail: {
                   damage: [{ dice: '8d8', type: rules.force }],
-                  also: [
-                    'Thrall has Advantage on attack rolls against the target until the end of his next turn.',
-                  ],
+
+                  also: [{ effect: 'spirit-wolf-advantage' }],
                 },
                 onSuccess: 'half',
               },
               text: [
                 "Failure or Success: Thrall can't take this action again until the start of his next turn.",
+              ],
+              effects: [
+                {
+                  key: 'spirit-wolf-advantage',
+                  name: 'Spirit wolf mark',
+                  lands: { on: 'failed-save' },
+                  text: ['Thrall has Advantage on attack rolls against the target.'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
             {
