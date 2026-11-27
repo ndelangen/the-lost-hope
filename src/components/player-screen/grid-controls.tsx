@@ -169,7 +169,7 @@ function GridSlider({
   )
 }
 
-/** A small copy of the picture with its grid, which the DM drags to line the grid up. */
+/** A copy of the picture with its grid, which the DM drags to line the grid up. */
 function GridPreview({
   grid,
   src,
@@ -186,9 +186,13 @@ function GridPreview({
   const last = useRef<{ x: number; y: number } | null>(null)
   return (
     <div className="grid place-items-center rounded-lg bg-black p-1">
+      {/* As big as the drawer allows, at the picture's own shape. */}
       <div
-        className="relative max-w-full cursor-move touch-none overflow-hidden"
-        style={{ aspectRatio: `${width} / ${height}`, height: '7rem' }}
+        className="relative cursor-move touch-none overflow-hidden"
+        style={{
+          aspectRatio: `${width} / ${height}`,
+          width: `min(100%, 55dvh * ${width / height})`,
+        }}
         title="Drag to move the grid"
         onPointerDown={(event) => {
           event.currentTarget.setPointerCapture(event.pointerId)
@@ -212,7 +216,7 @@ function GridPreview({
         <ResponsiveImage
           src={src}
           alt=""
-          sizes="28rem"
+          sizes="48rem"
           maxWidth={1024}
           draggable={false}
           className="absolute inset-0 size-full select-none"
