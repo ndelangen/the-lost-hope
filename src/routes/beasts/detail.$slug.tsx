@@ -42,6 +42,7 @@ function BeastPage() {
         variant: 'avatar',
         content: (
           <ImageViewer
+            priority
             src={beast.avatar}
             fallbackSrc={DEFAULT_AVATAR}
             alt={beast.name}

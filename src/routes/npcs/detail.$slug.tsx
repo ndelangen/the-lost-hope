@@ -44,6 +44,7 @@ function NpcPage() {
         variant: 'avatar',
         content: (
           <ImageViewer
+            priority
             src={npc.avatar}
             fallbackSrc={DEFAULT_AVATAR}
             alt={npc.name}

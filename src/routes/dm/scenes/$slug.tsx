@@ -79,6 +79,7 @@ function SceneRoute() {
           return (
             <ImageViewer
               key={src}
+              priority={index === 0}
               src={src}
               alt={title}
               title={title}

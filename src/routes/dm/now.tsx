@@ -115,9 +115,10 @@ function NowRoute() {
   const mapList =
     maps.length > 0 ? (
       <ul className="grid gap-3">
-        {maps.map(({ ref, place, map }) => (
+        {maps.map(({ ref, place, map }, index) => (
           <li key={ref.key} className="grid min-w-0 gap-1">
             <ImageViewer
+              priority={index === 0}
               src={map.url}
               alt={place.name}
               title={place.name}

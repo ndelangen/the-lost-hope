@@ -53,6 +53,7 @@ function PcPage() {
         variant: 'avatar',
         content: (
           <ImageViewer
+            priority
             src={pc.avatar}
             fallbackSrc={DEFAULT_AVATAR}
             alt={pc.name}

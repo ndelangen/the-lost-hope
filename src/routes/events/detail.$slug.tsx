@@ -47,6 +47,7 @@ function EventPage() {
               variant: 'avatar',
               content: (
                 <ImageViewer
+                  priority
                   src={mark.url}
                   fallbackSrc={DEFAULT_AVATAR}
                   alt={event.name}

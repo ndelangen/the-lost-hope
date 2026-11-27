@@ -123,6 +123,7 @@ function LocationDetailPage() {
         <Stack as="section" gap="md" data-location-section="illustration">
           <SectionLabel>Location illustration</SectionLabel>
           <ImageViewer
+            priority
             src={location.illustration}
             alt={illustrationAlt}
             title={location.name}

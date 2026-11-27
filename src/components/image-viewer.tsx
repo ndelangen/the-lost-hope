@@ -20,6 +20,8 @@ type ImageViewerProps = {
   viewerSizes?: string
   /** The record and picture this is, so the DM can put it on the player screen in local dev. */
   playerScreen?: PlayerScreenImage
+  /** The page's main picture: it loads at once and ahead of other pictures, not when scrolled near. */
+  priority?: boolean
 }
 
 export function ImageViewer({
@@ -34,6 +36,7 @@ export function ImageViewer({
   previewMaxWidth = 384,
   viewerSizes = '100vw',
   playerScreen,
+  priority = false,
 }: ImageViewerProps) {
   const [open, setOpen] = useState(false)
   const dialogRef = useRef<HTMLDialogElement>(null)
@@ -104,7 +107,8 @@ export function ImageViewer({
             src={src}
             fallbackSrc={fallbackSrc}
             alt={alt}
-            loading="lazy"
+            loading={priority ? 'eager' : 'lazy'}
+            fetchPriority={priority ? 'high' : undefined}
             sizes={previewSizes}
             maxWidth={previewMaxWidth}
             className="size-full object-cover"
@@ -193,6 +197,7 @@ function ViewerImage({
   alt,
   className,
   loading,
+  fetchPriority,
   sizes,
   maxWidth,
 }: {
@@ -201,6 +206,7 @@ function ViewerImage({
   alt: string
   className: string
   loading?: 'eager' | 'lazy'
+  fetchPriority?: 'high'
   sizes: string
   maxWidth?: number
 }) {
@@ -210,6 +216,7 @@ function ViewerImage({
       fallbackSrc={fallbackSrc}
       alt={alt}
       loading={loading}
+      fetchPriority={fetchPriority}
       sizes={sizes}
       maxWidth={maxWidth}
       className={className}

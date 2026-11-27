@@ -76,7 +76,9 @@ function EntityNavRow({ kind, slug, name, active, avatar, meta, onNavigate }: En
                   src={avatar}
                   sizes="20px"
                   maxWidth={64}
-                  loading="eager"
+                  // The party sits at the top of the sidebar; the longer lists below load as they
+                  // scroll into view.
+                  loading={kind === 'pc' ? 'eager' : 'lazy'}
                   className="size-5"
                 />
               ) : null}
