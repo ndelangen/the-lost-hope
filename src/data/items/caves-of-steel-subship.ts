@@ -21,7 +21,10 @@ export default createItem({
   background: [
     ['The subships burn Arcane Dust for fuel.'],
     [
-      'The machine turns a person’s consciousness into a projectile. A skipper puts his head into it and projects his pain and suffering at the enemy, and then he dies. A hatch underneath drops the body into the fish hold, which can be emptied into the sea.',
+      'The machine turns a person’s consciousness into a projectile. A skipper puts his head into it and projects his pain and suffering at the enemy, and then he dies. A hatch underneath drops the body into the hold, which can be emptied into the sea.',
+    ],
+    [
+      'Each needs a crew of about 30, but carries about 230 people: the rest are ammunition. The cargo hold takes fish, or bodies.',
     ],
     [
       refs.pcs.auren,

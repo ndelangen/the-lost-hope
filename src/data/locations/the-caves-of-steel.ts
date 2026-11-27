@@ -19,7 +19,7 @@ export default createLocation({
     [
       'Ships come in from below, up ',
       refs.locations.the_abyss,
-      ', the shaft that runs the length of the sphere. The lower levels hold industry, storage, power and large docks with room for the whole subship fleet. Above them are rings of private dwellings and common rooms. At the top, mold farms flank the ',
+      ', the shaft that runs the length of the sphere. The lower levels hold industry, storage, power and large docks with room for the whole subship fleet: about a thousand of them would fit. Above them are rings of private dwellings and common rooms. At the top, mold farms flank the ',
       refs.locations.the_grand_hall,
       ', where everyone eats together. They live on fish, mold and seaweed.',
     ],
