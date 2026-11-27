@@ -26,6 +26,9 @@ export default createScene({
     [
       'There is no order to this scene. Let the players lead, and play whichever answer below fits what they ask. The second part of the test is not worked out yet.',
     ],
+    [
+      'The aim: by the time they get here, the players can guess what he will tell them, from the Dust-lost, the bard and the logbooks of Rustmoor. If they guess it before he says it, that is a win. Let him confirm it.',
+    ],
   ],
   beats: [
     {
