@@ -2268,9 +2268,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Large or smaller creature, it must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              ' Strength saving throw or have ',
+              { effect: 'slam-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slam-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2289,6 +2298,7 @@ export default createPublicationMonsters({
               { roll: '10d10' },
               ' bludgeoning damage on a failed save or half as much damage on a successful one.',
             ],
+            effects: [],
           },
         ],
       },

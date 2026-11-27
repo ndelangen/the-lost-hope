@@ -51,8 +51,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 11). The homarid has two claws, each of which can grapple only one target.',
+              { effect: 'grappled' },
+              '. The homarid has two claws, each of which can grapple only one target.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 11 } },
+              },
             ],
           },
         ],

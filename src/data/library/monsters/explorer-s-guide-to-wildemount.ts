@@ -3000,8 +3000,18 @@ export default createPublicationMonsters({
               "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+              { effect: 'presence-frightened' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'presence-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3031,6 +3041,7 @@ export default createPublicationMonsters({
             text: [
               "The dragon exhales an icy blast in a 90-foot cone. A humanoid reduced to 0 hit points by this damage dies, and an undead shadow rises from its corpse and acts immediately after the dragon in the initiative count. The shadow is under the dragon's control.",
             ],
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -3041,8 +3052,18 @@ export default createPublicationMonsters({
               'The dragon exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'breath-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'breath-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3084,11 +3105,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -3894,8 +3925,18 @@ export default createPublicationMonsters({
               "Each creature of Oracs's choice that is within 120 feet of Oracs and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Oracs's Frightful Presence for the next 24 hours.",
+              { effect: 'presence-frightened' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Oracs's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'presence-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3916,6 +3957,7 @@ export default createPublicationMonsters({
             text: ['Oracs exhales acid in a 90-foot line that is 10 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3945,10 +3987,20 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: ['Oracs beats its wings. Oracs can then fly up to half its flying speed.'],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -4067,6 +4119,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -4078,6 +4131,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'mask-of-the-wild',

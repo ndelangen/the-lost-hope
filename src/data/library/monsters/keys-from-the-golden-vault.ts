@@ -2399,6 +2399,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ". The two don't even need to be on the same plane of existence.",
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -2431,12 +2432,24 @@ export default createPublicationMonsters({
               'One humanoid Joster Mareet can see within 30 feet of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be magically ',
-              rules.charmed,
-              ' for 1 day. The ',
-              rules.charmed,
-              " target obeys Joster Mareet's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend's Charm for the next 24 hours. Joster Mareet can have only one target ",
+              { effect: 'mareet-charmed' },
+              ". If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend's Charm for the next 24 hours. Joster Mareet can have only one target ",
               rules.charmed,
               ' at a time. If it charms another, the effect on the previous target ends.',
+            ],
+            effects: [
+              {
+                key: 'mareet-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target obeys Joster Mareet's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'day' },
+              },
             ],
           },
           {
@@ -2451,7 +2464,21 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw against this magic, taking ',
               { roll: '5d10', mod: 'cha' },
-              " psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+              ' psychic damage on a failed save, or half as much damage on a successful one. ',
+              { effect: 'kiss-drained' },
+            ],
+            effects: [
+              {
+                key: 'kiss-drained',
+                name: 'Drained maximum',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                text: [
+                  "The target's hit point maximum is reduced by an amount equal to the damage taken.",
+                  ' This reduction lasts until the target finishes a long rest.',
+                  ' The target dies if this effect reduces its hit point maximum to 0.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {

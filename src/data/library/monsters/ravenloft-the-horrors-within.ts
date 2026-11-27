@@ -4260,10 +4260,15 @@ export default createPublicationMonsters({
               range: [60, 60],
               damage: [{ dice: '3d10', type: rules.radiant, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.blinded,
-              " condition until the start of Madam Eva's next turn.",
+            text: ['The target has the ', { effect: 'flame-blind' }, '.'],
+            effects: [
+              {
+                key: 'flame-blind',
+                name: 'Blinded by Madam Eva',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -4281,16 +4286,22 @@ export default createPublicationMonsters({
                   { dice: '7d6', type: rules.necrotic },
                   { dice: '7d6', type: rules.psychic },
                 ],
-                also: [
-                  'The target has the ',
-                  rules.frightened,
-                  " condition until the start of Madam Eva's next turn.",
-                ],
+
+                also: ['The target has the ', { effect: 'visions-fright' }, '.'],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'visions-fright',
+                name: 'Frightened by Madam Eva',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'evil-eye',
@@ -4354,6 +4365,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -4403,8 +4415,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 15) from one of two pincers.',
+              { effect: 'pincer-grapple' },
+              ' from one of two pincers.',
+            ],
+            effects: [
+              {
+                key: 'pincer-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'int', printed: 15 } },
+              },
             ],
           },
           {
@@ -4422,15 +4444,21 @@ export default createPublicationMonsters({
                   { dice: '4d10', type: rules.lightning },
                   { dice: '3d6', type: rules.force },
                 ],
-                also: [
-                  'The target has the ',
-                  rules.stunned,
-                  " condition until the end of the mi-go's next turn.",
-                ],
+
+                also: ['The target has the ', { effect: 'ray-stun' }, '.'],
               },
             },
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [
+              {
+                key: 'ray-stun',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'extract-brain-requires-silver-canister',
@@ -4448,6 +4476,7 @@ export default createPublicationMonsters({
               { roll: '14d10' },
               ' Piercing damage. Success: Half damage. Failure or Success: If this damage reduces the target to 0 Hit Points, the mi-go kills it, removes its brain, and places the brain in its silver canister.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4620,6 +4649,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mind_spike,
             ],
+            effects: [],
           },
           {
             key: 'death-curse',
@@ -4629,11 +4659,18 @@ export default createPublicationMonsters({
             text: [
               'Charisma Saving Throw: ',
               { dc: 'wis' },
-              ', each creature in a 5-foot Emanation originating from the wanderer when it dies. Failure: The target is cursed. While cursed, the target has the ',
-              rules.blinded,
-              ' and ',
-              rules.deafened,
-              ' conditions.',
+              ', each creature in a 5-foot Emanation originating from the wanderer when it dies. Failure: The target is ',
+              { effect: 'death-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'death-curse',
+                name: 'Cursed',
+                lands: { on: 'save', save: 'cha', dc: 'wis' },
+                conditions: [rules.blinded, rules.deafened],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4778,8 +4815,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 18) from one of two hands.',
+              { effect: 'hand-grapple' },
+              ' from one of two hands.',
+            ],
+            effects: [
+              {
+                key: 'hand-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -4799,10 +4846,18 @@ export default createPublicationMonsters({
               ' Bludgeoning damage plus ',
               { roll: '2d6' },
               ' Lightning damage, and the target has the ',
-              rules.restrained,
-              ' condition. While ',
-              rules.restrained,
-              ', the target is suffocating.',
+              { effect: 'crushed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'crushed',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.restrained],
+                text: ['While ', rules.restrained, ', the target is suffocating.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4818,8 +4873,17 @@ export default createPublicationMonsters({
               ', the creature thrown and each creature in the destination space. Failure: ',
               { roll: '2d6', mod: 'str' },
               ' Bludgeoning damage, and the target has the ',
-              rules.prone,
-              ' condition. Success: Half damage only.',
+              { effect: 'throw-prone' },
+              '. Success: Half damage only.',
+            ],
+            effects: [
+              {
+                key: 'throw-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4835,8 +4899,17 @@ export default createPublicationMonsters({
               ", each creature in the monster's destination space. Failure: ",
               { roll: '4d6' },
               ' Bludgeoning damage, and the target has the ',
-              rules.prone,
-              ' condition. Failure or Success: The target moves to the nearest unoccupied space.',
+              { effect: 'leap-prone' },
+              '. Failure or Success: The target moves to the nearest unoccupied space.',
+            ],
+            effects: [
+              {
+                key: 'leap-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -4895,6 +4968,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.unseen_servant,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -4979,10 +5053,22 @@ export default createPublicationMonsters({
               ' as a Bonus Action. Lorinda reverts to her true form if she drops to 50 Hit Points or fewer. When Lorinda reverts to her true form, each creature in a 30-foot Emanation originating from Lorinda is subjected to the following effect. Wisdom Saving Throw: ',
               { dc: 'wis' },
               ' (the target succeeds automatically if it is a Construct or an Undead). Failure: The target has the ',
-              rules.frightened,
-              ' condition for 1 minute. While ',
-              rules.frightened,
-              ', the target has Disadvantage on saving throws.',
+              { effect: 'visage-fright' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'visage-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                text: [
+                  'While ',
+                  rules.frightened,
+                  ', the target has Disadvantage on saving throws.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -5497,6 +5583,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.create_undead,
             ],
+            effects: [],
           },
           {
             key: 'darklord-restoration',
@@ -5535,6 +5622,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5579,6 +5667,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'dread-authority',
@@ -5608,11 +5697,24 @@ export default createPublicationMonsters({
               ' action. Intelligence (Investigation) checks to discern her true appearance are made with Disadvantage. When the disguise ends, each creature in a 30-foot Emanation originating from Ramya is subjected to the following effect. Wisdom Saving Throw: ',
               { dc: 'cha' },
               ' (the target succeeds automatically if it is a Construct or an Undead). Failure: The target has the ',
-              rules.frightened,
-              ' condition for 1 minute. While ',
-              rules.frightened,
-              ', the target has Disadvantage on saving throws. At will: ',
+              { effect: 'disguise-fright' },
+              '.',
+              ' At will: ',
               refs.spells.disguise_self,
+            ],
+            effects: [
+              {
+                key: 'disguise-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                text: [
+                  'While ',
+                  rules.frightened,
+                  ', the target has Disadvantage on saving throws.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -5649,12 +5751,22 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'Ramya can see' },
                 onFail: {
                   damage: [{ dice: '6d6', type: rules.psychic }],
-                  also: [
-                    "The target is cursed until the end of its next turn. Until the curse ends, the target can't speak or cast spells with a Verbal component.",
-                  ],
+
+                  also: ['The target is ', { effect: 'silence-curse' }, '.'],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'silence-curse',
+                  name: 'Cursed',
+                  lands: { on: 'failed-save' },
+                  text: [
+                    "Until the curse ends, the target can't speak or cast spells with a Verbal component.",
+                  ],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
+              ],
             },
           ],
         },
@@ -6250,6 +6362,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '):',
             ],
+            effects: [],
           },
           {
             key: 'darklord-restoration',
@@ -6333,7 +6446,8 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30, which: 'Saidra can see' },
               onFail: {
                 damage: [{ dice: '8d6', type: rules.necrotic }],
-                also: ['Its Hit Point maximum decreases by an amount equal to the damage taken.'],
+
+                also: [{ effect: 'drained-maximum' }],
               },
               onSuccess: 'half',
             },
@@ -6350,6 +6464,15 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ', with Disadvantage if the target lies). 1/day: ',
               refs.spells.disintegrate,
+            ],
+            effects: [
+              {
+                key: 'drained-maximum',
+                name: 'Hit Point maximum decreased',
+                lands: { on: 'failed-save' },
+                text: ['Its Hit Point maximum decreases by an amount equal to the damage taken.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6380,6 +6503,7 @@ export default createPublicationMonsters({
                 rules.invisible,
                 " condition until the start of her next turn and can fly up to half her Fly Speed. The condition ends early immediately after Saidra deals damage. Saidra can't take this action again until the start of her next turn.",
               ],
+              effects: [],
             },
           ],
         },
@@ -6698,6 +6822,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying,
             ],
+            effects: [],
           },
           {
             key: 'darklord-restoration',
@@ -6731,6 +6856,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' condition until he regains any Hit Points, and he regains 1 Hit Point after spending 1 hour there.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -6769,6 +6895,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' condition until the weapon is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight',
@@ -6810,9 +6937,20 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 14) from one of two hands.',
+              'If the target is a Large or smaller creature, ',
+              'it is ',
+              { effect: 'death-strike-grab' },
+              ' from one of two hands.',
+            ],
+            effects: [
+              {
+                key: 'death-strike-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -6835,11 +6973,24 @@ export default createPublicationMonsters({
                   { dice: '1d6', type: rules.piercing, addModifier: true },
                   { dice: '3d6', type: rules.necrotic },
                 ],
+
                 also: [
-                  "The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and Strahd regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage rises the following night as a Vampire Spawn under Strahd's control, unless the Humanoid is restored to life or its body is destroyed.",
+                  { effect: 'bite-hp-max' },
+                  " and Strahd regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage rises the following night as a Vampire Spawn under Strahd's control, unless the Humanoid is restored to life or its body is destroyed.",
                 ],
               },
             },
+            effects: [
+              {
+                key: 'bite-hp-max',
+                name: 'Hit Point maximum reduced',
+                lands: { on: 'failed-save' },
+                text: [
+                  "The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'count-s-command',
@@ -6880,6 +7031,7 @@ export default createPublicationMonsters({
               ' by Strahd. At will: ',
               refs.spells.charm_person,
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -7573,9 +7725,20 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 14).',
+              'If the target is a Medium or smaller creature, ',
+              'it is ',
+              { effect: 'tentacles-grab' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tentacles-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -7590,9 +7753,29 @@ export default createPublicationMonsters({
               rules.grappled,
               '. Failure: ',
               { roll: '6d6' },
-              ' Psychic damage, and the creature gains 1 ',
-              rules.exhaustion,
-              " level. The target's Hit Point maximum decreases by an amount equal to the Psychic damage taken, and the mind flayer regains Hit Points equal to that amount.",
+              ' Psychic damage, and ',
+              { effect: 'sapience-exhaustion' },
+              '. ',
+              { effect: 'sapience-hp-max' },
+              ', and the mind flayer regains Hit Points equal to that amount.',
+            ],
+            effects: [
+              {
+                key: 'sapience-exhaustion',
+                name: 'Exhaustion',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: ['the creature gains 1 ', rules.exhaustion, ' level'],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'sapience-hp-max',
+                name: 'Hit Point maximum reduced',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "The target's Hit Point maximum decreases by an amount equal to the Psychic damage taken",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -7603,9 +7786,20 @@ export default createPublicationMonsters({
             text: [
               'Intelligence Saving Throw: ',
               { dc: 'con' },
-              ', each creature in a 30-foot Emanation originating from the mind flayer. Failure: The target has the ',
-              rules.incapacitated,
-              ' condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              ', each creature in a 30-foot Emanation originating from the mind flayer. Failure: ',
+              'The target is ',
+              { effect: 'mind-burst-incapacitated' },
+              '. After 1 minute, it succeeds automatically.',
+            ],
+            effects: [
+              {
+                key: 'mind-burst-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'int', dc: 'con' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -7796,6 +7990,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'darklord-restoration',
@@ -7851,13 +8046,31 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'int' },
-              ', one creature Viktra can see within 5 feet. Failure: The target has the ',
-              rules.poisoned,
-              ' condition for 1 minute. While ',
-              rules.poisoned,
-              " in this way, the target suffers one of the following effects (Viktra's choice). The target repeats the save at the end of each of its turns, ending the effect on itself on a success. The target succeeds automatically after 1 minute: Corrosive Serum. The target takes ",
-              { roll: '4d4' },
-              ' Acid damage at the start of each of its turns, and its Speed decreases by 10 feet.',
+              ', one creature Viktra can see within 5 feet. Failure: ',
+              'The target is ',
+              { effect: 'syringe-poisoned' },
+              '. ',
+              'The target succeeds automatically after 1 minute',
+              '.',
+            ],
+            effects: [
+              {
+                key: 'syringe-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  ' ',
+                  "in this way, the target suffers one of the following effects (Viktra's choice).",
+                  ' Corrosive Serum. The target takes ',
+                  { roll: '4d4' },
+                  ' Acid damage at the start of each of its turns, and its Speed decreases by 10 feet.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -7933,6 +8146,7 @@ export default createPublicationMonsters({
                 },
                 onSuccess: 'half',
               },
+              effects: [],
             },
           ],
         },
@@ -8566,7 +8780,17 @@ export default createPublicationMonsters({
               reach: 10,
               damage: [{ dice: '4d6', type: rules.piercing, addModifier: true }],
             },
-            text: ['The creature has the ', rules.grappled, ' condition (escape DC 14).'],
+            text: ['The creature ', 'is ', { effect: 'pincer-grab' }, '.'],
+            effects: [
+              {
+                key: 'pincer-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
+            ],
           },
           {
             key: 'sup',
@@ -8584,11 +8808,24 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic, addModifier: true }],
+
                 also: [
-                  "The target's Hit Points maximum decreases by an amount equal to the damage taken, and the yithian regains Hit Points equal to that amount.",
+                  { effect: 'sup-hp-max' },
+                  ' and the yithian regains Hit Points equal to that amount.',
                 ],
               },
             },
+            effects: [
+              {
+                key: 'sup-hp-max',
+                name: 'Hit Points maximum reduced',
+                lands: { on: 'failed-save' },
+                text: [
+                  "The target's Hit Points maximum decreases by an amount equal to the damage taken",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'mind-swap',
@@ -8598,11 +8835,33 @@ export default createPublicationMonsters({
             text: [
               'Intelligence Saving Throw: ',
               { dc: 'int' },
-              ', one Humanoid the yithian can see within 5 feet. Failure: The target is possessed by the yithian; the yithian disappears, and the target has the ',
-              rules.incapacitated,
-              " condition and loses control of its body. The yithian now controls the body; the target has no awareness of the yithian's actions. The yithian can't be targeted by any attack, spell, or other effect. The yithian's game statistics are the same, except it uses the possessed target's Speed and Strength, Dexterity, and Constitution modifiers. It knows everything the target knew. The possession lasts until the body drops to 0 Hit Points or the yithian leaves as a Bonus Action. When the possession ends, the yithian returns to its body, which appears within 5 feet of the target. The target is ",
-              rules.stunned,
-              " for 1 minute by alien memories, and it is immune to this yithian's Mind Swap for 24 hours. Success: The target is immune to Mind Swap for 24 hours.",
+              ', one Humanoid the yithian can see within 5 feet. Failure: The target is possessed by the yithian; the yithian disappears, and ',
+              'the target is ',
+              { effect: 'mind-swap-possessed' },
+              " and loses control of its body. The yithian now controls the body; the target has no awareness of the yithian's actions. The yithian can't be targeted by any attack, spell, or other effect. The yithian's game statistics are the same, except it uses the possessed target's Speed and Strength, Dexterity, and Constitution modifiers. It knows everything the target knew.",
+              ' When the possession ends, the yithian returns to its body, which appears within 5 feet of the target. ',
+              'The target is ',
+              { effect: 'mind-swap-stunned' },
+              " by alien memories, and it is immune to this yithian's Mind Swap for 24 hours. Success: The target is immune to Mind Swap for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'mind-swap-possessed',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.incapacitated],
+                lasts: {
+                  kind: 'until',
+                  text: ['the body drops to 0 Hit Points or the yithian leaves as a Bonus Action'],
+                },
+              },
+              {
+                key: 'mind-swap-stunned',
+                name: 'Alien memories',
+                lands: { on: 'use' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -8632,6 +8891,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },

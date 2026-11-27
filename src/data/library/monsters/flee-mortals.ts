@@ -27735,8 +27735,18 @@ export default createPublicationMonsters({
               'A creature that starts its turn within 5 ft. of the valochera must make a ',
               { dc: 'con' },
               ' Constitution save. On a failure it is ',
-              rules.poisoned,
-              ' for 1 minute and can repeat the save at the end of each turn to end it.',
+              { effect: 'stench-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -27758,12 +27768,16 @@ export default createPublicationMonsters({
               reach: 10,
               damage: [{ dice: '3d8', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              'A Large or smaller target is ',
-              rules.grappled,
-              ' (escape DC 15) and stays ',
-              rules.restrained,
-              ' until the grapple ends.',
+            text: ['A Large or smaller target is ', { effect: 'mycelium-grappled' }, '.'],
+            effects: [
+              {
+                key: 'mycelium-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -27782,6 +27796,7 @@ export default createPublicationMonsters({
               { roll: '2d8', mod: 'str' },
               ' piercing damage on a failure or half of each on a success.',
             ],
+            effects: [],
           },
           {
             key: 'poison-glob',
@@ -27801,6 +27816,7 @@ export default createPublicationMonsters({
             text: ['Choose a visible point within 30 ft.'],
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
       },

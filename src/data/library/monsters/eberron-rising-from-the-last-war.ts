@@ -4166,6 +4166,7 @@ export default createPublicationMonsters({
               '; 7th level (1 slot): ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-radiance',
@@ -4233,6 +4234,7 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' radiant damage on a failed save, or half as much damage on a successful one. If the councilor casts this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (its choice) increases by 1d6 for each slot level above 5th.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -4255,8 +4257,17 @@ export default createPublicationMonsters({
                 ". Until the end of the councilor's next turn, it sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Any creature that starts its turn in the bright light must succeed on a ",
                 { dc: 'wis', save: 'con' },
                 ' Constitution saving throw or be ',
-                rules.blinded,
-                " until the end of the councilor's next turn.",
+                { effect: 'aura-blinded' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'aura-blinded',
+                  name: 'Blinded',
+                  lands: { on: 'save', save: 'con', dc: 'wis' },
+                  conditions: [rules.blinded],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
           ],

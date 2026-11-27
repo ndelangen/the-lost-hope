@@ -636,6 +636,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sending,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -684,10 +685,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '3d6', type: rules.cold, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.paralyzed,
-              " condition until the start of Szass Tam's next turn.",
+            text: ['The target is ', { effect: 'paralyzing-touch' }, '.'],
+            effects: [
+              {
+                key: 'paralyzing-touch',
+                name: 'Paralyzing touch',
+                lands: { on: 'hit' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'until', text: ["the start of Szass Tam's next turn"] },
+              },
             ],
           },
           {
@@ -765,14 +771,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 20 } },
                 onFail: {
                   damage: [{ dice: '4d6', type: rules.necrotic }],
-                  also: [
-                    "The creature's Hit Point maximum decreases by an amount equal to the damage taken.",
-                  ],
+
+                  also: [{ effect: 'hp-max-drain' }],
                 },
                 onSuccess: 'half',
               },
               text: [
                 "Failure or Success: Szass Tam can't take this action again until the start of his next turn.",
+              ],
+              effects: [
+                {
+                  key: 'hp-max-drain',
+                  name: 'Hit Point maximum decrease',
+                  lands: { on: 'failed-save' },
+                  text: [
+                    "The creature's Hit Point maximum decreases by an amount equal to the damage taken.",
+                  ],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -841,6 +857,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sunburst,
             ],
+            effects: [],
           },
           {
             key: 'evocation-sculptor',

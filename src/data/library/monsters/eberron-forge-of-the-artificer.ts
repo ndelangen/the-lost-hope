@@ -568,13 +568,22 @@ export default createPublicationMonsters({
               damage: [{ dice: '5d8', type: rules.psychic, addModifier: true }],
             },
             text: [
-              'The target has the ',
-              rules.frightened,
-              " condition until the start of the mindkiller's next turn. If the target is already ",
+              'The target is ',
+              { effect: 'whisper-frightened' },
+              '. If the target is already ',
               rules.frightened,
               ', it instead takes an extra ',
               { roll: '3d6' },
               ' Psychic damage.',
+            ],
+            effects: [
+              {
+                key: 'whisper-frightened',
+                name: 'Frightened',
+                lands: { on: 'hit' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -589,18 +598,27 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 30 }, range: 120 },
               onFail: {
                 damage: [{ dice: '10d6', type: rules.psychic }],
-                also: [
-                  'The target has the ',
-                  rules.frightened,
-                  " condition until the start of the mindkiller's next turn. While ",
-                  rules.frightened,
-                  ' in this way, the target can do only one of the following on each of its turns: move, take an action, or take a Bonus Action.',
-                ],
+
+                also: [{ effect: 'fear-frightened' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Long rest',
+            effects: [
+              {
+                key: 'fear-frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                text: [
+                  'While ',
+                  rules.frightened,
+                  ' in this way, the target can do only one of the following on each of its turns: move, take an action, or take a Bonus Action.',
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'slayer-s-puppet',
@@ -617,6 +635,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -918,10 +937,15 @@ export default createPublicationMonsters({
               thrown: [30, 30],
               damage: [{ dice: '2d6', type: rules.radiant }],
             },
-            text: [
-              'The creature has the ',
-              rules.blinded,
-              " condition until the start of the medic's next turn.",
+            text: ['The creature ', 'is ', { effect: 'burst-blinded' }, '.'],
+            effects: [
+              {
+                key: 'burst-blinded',
+                name: 'Blinded',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -984,6 +1008,7 @@ export default createPublicationMonsters({
               ' (included in AC); 1/day: ',
               refs.spells.dispel_magic,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1020,13 +1045,23 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d6', type: rules.force, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.prone,
-              ' condition. If the target already has the ',
+              'If the target is a Medium or smaller creature, it ',
+              'is ',
+              { effect: 'whip-prone' },
+              '. If the target already has the ',
               rules.prone,
               ' condition, the attack deals an extra ',
               { roll: '2d6' },
               ' Force damage.',
+            ],
+            effects: [
+              {
+                key: 'whip-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1037,13 +1072,20 @@ export default createPublicationMonsters({
             text: [
               'Strength Saving Throw: ',
               { dc: 'int' },
-              ', one creature the warden can see within 60 feet. Failure: The creature has the ',
-              rules.grappled,
-              ' condition (escape DC 14). While ',
-              rules.grappled,
-              ', the creature has the ',
-              rules.restrained,
-              ' condition.',
+              ', one creature the warden can see within 60 feet. Failure: The creature ',
+              'is ',
+              { effect: 'glyph-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'glyph-grappled',
+                name: 'Shackled',
+                lands: { on: 'save', save: 'str', dc: 'int' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'int', printed: 14 } },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -1105,6 +1147,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.thunderwave,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1136,9 +1179,19 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'Critical Hit: The creature also has the ',
-              rules.deafened,
-              ' condition for 1 minute.',
+              'Critical Hit: The creature also ',
+              'is ',
+              { effect: 'thunderbolt-deafened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'thunderbolt-deafened',
+                name: 'Deafened',
+                lands: { on: 'hit' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -1373,14 +1426,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 }, range: 60 },
               onFail: {
                 damage: [{ dice: '3d8', type: rules.lightning }],
-                also: [
-                  "The creature can't take Reactions until the end of the enforcer's next turn.",
-                ],
+
+                also: [{ effect: 'cage-no-reactions' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'cage-no-reactions',
+                name: "Can't take Reactions",
+                lands: { on: 'failed-save' },
+                text: ["The creature can't take Reactions."],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'misty-step',
@@ -1404,7 +1465,18 @@ export default createPublicationMonsters({
             text: [
               'Trigger: The enforcer takes damage from a melee attack. Response: The enforcer teleports up to 30 feet to an unoccupied space it can see. Each creature within 10 feet of the space the enforcer left must succeed on a ',
               { dc: 'int', save: 'con' },
-              " Constitution saving throw, or its Speed is halved until the start of the enforcer's next turn.",
+              ' Constitution saving throw, or ',
+              { effect: 'disrupted-speed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'disrupted-speed',
+                name: 'Speed halved',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                text: ['Its Speed is halved.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',

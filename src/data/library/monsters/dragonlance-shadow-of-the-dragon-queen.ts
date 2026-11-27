@@ -5112,6 +5112,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_stone_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'undead-fortitude',
@@ -5160,7 +5161,21 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it must succeed on a ',
               { dc: 'cha' },
-              " Charisma saving throw or be cursed. The curse lasts until it is lifted by remove curse or similar magic. Black, thorny rose stems sprout from the creature's body while it is cursed, imposing disadvantage on the creature's ability checks and attack rolls and halving its speed. A creature that succeeds on the saving throw against the curse is immune to it for 24 hours.",
+              ' Charisma saving throw or be ',
+              { effect: 'thorny-curse' },
+              '. A creature that succeeds on the saving throw against the curse is immune to it for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'thorny-curse',
+                name: 'Thorny curse',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: [
+                  "Black, thorny rose stems sprout from the creature's body while it is cursed, imposing disadvantage on the creature's ability checks and attack rolls and halving its speed.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['lifted by remove curse or similar magic'] },
+              },
             ],
           },
           {
@@ -5174,12 +5189,21 @@ export default createPublicationMonsters({
               ' Wisdom saving throw. On a failed save, the creature takes ',
               { roll: '4d10' },
               ' psychic damage and is ',
+              { effect: 'litany-frightened' },
+              ' of Wersten',
+              ". On a successful save, the creature takes half as much damage and isn't ",
               rules.frightened,
-              " of Wersten for 1 minute. On a successful save, the creature takes half as much damage and isn't ",
-              rules.frightened,
-              '. At the end of each of its turns, a ',
-              rules.frightened,
-              ' creature can repeat the saving throw, ending the effect on itself on a success.',
+              '.',
+            ],
+            effects: [
+              {
+                key: 'litany-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

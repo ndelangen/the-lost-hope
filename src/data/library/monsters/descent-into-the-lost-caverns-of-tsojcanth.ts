@@ -44,6 +44,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.greater_restoration_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -71,9 +72,19 @@ export default createPublicationMonsters({
               { ability: 'fortified-pickaxe' },
               ' attacks. If it hits a Large or smaller creature with both attacks, the target must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              ' Strength saving throw or ',
+              'be ',
+              { effect: 'pickaxe-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'pickaxe-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

@@ -175,6 +175,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disguise_self_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -231,7 +232,20 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or take ',
               { roll: '3d6' },
-              " psychic damage and have disadvantage on the next attack roll it makes before the start of Edgin's next turn.",
+              ' psychic damage and ',
+              { effect: 'words-disadvantage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'words-disadvantage',
+                name: 'Disadvantage on next attack',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                text: [
+                  "Disadvantage on the next attack roll it makes before the start of Edgin's next turn.",
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {

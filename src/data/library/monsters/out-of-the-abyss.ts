@@ -310,6 +310,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -349,6 +350,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1405,6 +1407,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sanctuary_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -1433,6 +1436,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1530,6 +1534,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the assassin doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -1541,6 +1546,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1580,6 +1586,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -1603,6 +1610,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -1650,6 +1658,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1731,6 +1740,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1803,6 +1813,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -1814,6 +1825,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1961,6 +1973,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -3371,6 +3384,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -3407,12 +3421,29 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 15) and must succeed on a ',
+              { effect: 'tentacles-grappled' },
+              ' and must succeed on a ',
               { dc: 'int' },
               ' Intelligence saving throw or be ',
-              rules.stunned,
-              ' until this grapple ends.',
+              { effect: 'tentacles-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tentacles-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'int', printed: 15 } },
+              },
+              {
+                key: 'tentacles-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ['this grapple ends'] },
+              },
             ],
           },
           {
@@ -3443,8 +3474,18 @@ export default createPublicationMonsters({
               ' Intelligence saving throw or take ',
               { roll: '4d8', mod: 'int' },
               ' psychic damage and be ',
-              rules.stunned,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'mind-blast-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mind-blast-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4275,6 +4316,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Khalessa doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -4286,6 +4328,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$title_short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4394,6 +4437,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Kinyel doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -4405,6 +4449,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -4444,6 +4489,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -4467,6 +4513,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -6247,8 +6294,17 @@ export default createPublicationMonsters({
               'Any creature other than a troglodyte that starts its turn within 5 feet of Skriss must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              " until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.",
+              { effect: 'stench-poisoned' },
+              '. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -6450,6 +6506,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -6480,6 +6537,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' or on the Ethereal Plane. It can pinpoint such a creature that is moving.',
             ],
+            effects: [],
           },
           {
             key: 'slippery',

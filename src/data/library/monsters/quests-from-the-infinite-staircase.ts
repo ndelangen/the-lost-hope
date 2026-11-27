@@ -686,6 +686,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mage_armor_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -723,8 +724,17 @@ export default createPublicationMonsters({
               "Dazzling light bursts from Cipolla's fingertips in a 15-foot cone. Each creature in that area must succeed on a ",
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or have the ',
-              rules.blinded,
-              " condition until the end of Cipolla's next turn.",
+              { effect: 'starry-blind' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'starry-blind',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1283,13 +1293,10 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d10', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'The target is swallowed if it is a Medium or smaller creature. A swallowed creature has the ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' conditions, has 3 against attacks and other effects outside the froghemoth, and takes ',
-              { roll: '3d6' },
-              " acid damage at the start of each of the froghemoth's turns. The froghemoth's gullet can hold up to three creatures at a time. If the froghemoth takes 25 damage or more on a single turn from a creature inside it, the froghemoth must succeed on a ",
+              'The target is ',
+              { effect: 'swallowed' },
+              ' if it is a Medium or smaller creature.',
+              " The froghemoth's gullet can hold up to three creatures at a time. If the froghemoth takes 25 damage or more on a single turn from a creature inside it, the froghemoth must succeed on a ",
               { dc: 'str', save: 'con' },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which lands in a space within 10 feet of the froghemoth and has the ',
               rules.prone,
@@ -1298,6 +1305,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse using 10 feet of movement, exiting with the ',
               rules.prone,
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'has 3 against attacks and other effects outside the froghemoth, and takes ',
+                  { roll: '3d6' },
+                  " acid damage at the start of each of the froghemoth's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1314,8 +1335,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target has the ',
-              rules.grappled,
-              " condition (escape DC 20). Until this grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles.",
+              { effect: 'tentacle-grapple' },
+              '. The froghemoth has four tentacles.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: ["the froghemoth can't use this tentacle on another target"],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -1328,6 +1360,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth.',
             ],
+            effects: [],
           },
           {
             key: 'alien-gaze',
@@ -1341,6 +1374,7 @@ export default createPublicationMonsters({
               { roll: '2d6' },
               ' psychic damage on a failed save or half as much damage on a successful one.',
             ],
+            effects: [],
           },
           {
             key: 'leap',
@@ -1351,8 +1385,17 @@ export default createPublicationMonsters({
               'Immediately after a creature the froghemoth can see ends its turn, the froghemoth jumps up to half its speed. Each creature within 5 feet of the froghemoth when it lands must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'leap-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'leap-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1627,10 +1670,20 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Huge or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 14), and the horrid plant can pull the target up to 25 feet closer to itself. Until the grapple ends, the target has the ',
-              rules.restrained,
-              " condition, and the horrid plant can't use the same tendril on another target. The horrid plant has two tendrils.",
+              { effect: 'tendril-grapple' },
+              ', and the horrid plant can pull the target up to 25 feet closer to itself.',
+              ' The horrid plant has two tendrils.',
+            ],
+            effects: [
+              {
+                key: 'tendril-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["the horrid plant can't use the same tendril on another target"],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -1645,13 +1698,28 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 15 },
               onFail: {
                 damage: [{ dice: '8d6', type: rules.acid }],
-                also: ['Become covered in acidic sap.'],
+
+                also: ['Become ', { effect: 'acidic-sap' }, '.'],
               },
             },
-            text: [
-              'The horrid plant targets one creature it can see within 15 feet of itself. This sap lasts for 1 minute or until a creature uses its action to scrape the sap off itself or another creature it can reach. A creature covered in sap takes ',
-              { roll: '4d6' },
-              ' acid damage at the start of each of its turns.',
+            text: ['The horrid plant targets one creature it can see within 15 feet of itself. '],
+            effects: [
+              {
+                key: 'acidic-sap',
+                name: 'Covered in acidic sap',
+                lands: { on: 'failed-save' },
+                text: [
+                  'A creature covered in sap takes ',
+                  { roll: '4d6' },
+                  ' acid damage at the start of each of its turns.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '1 minute or until a creature uses its action to scrape the sap off itself or another creature it can reach',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -1667,6 +1735,7 @@ export default createPublicationMonsters({
               { roll: '6d6' },
               ' slashing damage on a failed save or half as much damage on a successful one.',
             ],
+            effects: [],
           },
           {
             key: 'vampiric-tendril-dew-drinker-only',
@@ -1680,7 +1749,20 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution saving throw, taking ',
               { roll: '3d6' },
-              " necrotic damage on a failed save or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken, and the horrid plant regains hit points equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+              ' necrotic damage on a failed save or half as much damage on a successful one. ',
+              { effect: 'drained-maximum' },
+              ', and the horrid plant regains hit points equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+            ],
+            effects: [
+              {
+                key: 'drained-maximum',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "The target's hit point maximum is reduced by an amount equal to the damage taken",
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
         ],
@@ -2094,6 +2176,7 @@ export default createPublicationMonsters({
             text: [
               'When the maschin-i-bozorg is reduced to 0 hit points, its power source overloads, briefly superheating its outer shell.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2119,8 +2202,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'jab-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'jab-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2141,6 +2234,7 @@ export default createPublicationMonsters({
             text: ['The maschin-i-bozorg emits scalding steam in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'crushing-stride',
@@ -2153,14 +2247,38 @@ export default createPublicationMonsters({
               " Dexterity saving throw. On a successful save, the creature is pushed to the nearest unoccupied space out of the maschin-i-bozorg's path. On a failed save, the creature takes ",
               { roll: '3d6' },
               ' bludgeoning damage and has the ',
-              rules.prone,
+              { effect: 'crushed-prone' },
               ' condition. If the maschin-i-bozorg remains in the ',
               rules.prone,
               " creature's space, the creature also has the ",
-              rules.restrained,
-              " condition until it's no longer in the same space as the maschin-i-bozorg. While ",
-              rules.restrained,
-              ' in this way, the creature, or another creature within 5 feet of it, can use its action to make a DC 15 Strength (Athletics) check. On a successful check, the creature is shunted to an unoccupied space of its choice within 5 feet of the maschin-i-bozorg.',
+              { effect: 'crushed-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'crushed-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'crushed-restrained',
+                name: 'Restrained under it',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: ["it's no longer in the same space as the maschin-i-bozorg"],
+                },
+                ends: {
+                  cure: [
+                    'While ',
+                    rules.restrained,
+                    ' in this way, the creature, or another creature within 5 feet of it, can use its action to make a DC 15 Strength (Athletics) check. On a successful check, the creature is shunted to an unoccupied space of its choice within 5 feet of the maschin-i-bozorg.',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -2192,6 +2310,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the web takes the other half.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -2239,9 +2358,32 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ' Intelligence saving throw. Constructs, Oozes, Plants, and Undead succeed on the save automatically. On a failed save, the target takes ',
               { roll: '2d4' },
-              ' psychic damage and becomes memory drained until it finishes a long rest or the memory web is destroyed. While memory drained, the target must roll a d4 each time it makes an ability check or attack roll, subtracting the d4 roll from it. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target has the ',
-              rules.unconscious,
-              ' condition for 1 hour. If a memory drained creature is the target of the Greater Restoration or Heal spell, the memory drained effect ends on it. On a successful save, the target takes half as much damage only.',
+              ' psychic damage and becomes ',
+              { effect: 'memory-drained' },
+              '.',
+              ' On a successful save, the target takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'memory-drained',
+                name: 'Memory drained',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                text: [
+                  'While memory drained, the target must roll a d4 each time it makes an ability check or attack roll, subtracting the d4 roll from it. ',
+                  'Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target has the ',
+                  rules.unconscious,
+                  ' condition for 1 hour.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: ['it finishes a long rest or the memory web is destroyed'],
+                },
+                ends: {
+                  cure: [
+                    'If a memory drained creature is the target of the Greater Restoration or Heal spell, the memory drained effect ends on it.',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -2303,6 +2445,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wish_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dimensionally-bound',
@@ -2387,16 +2530,29 @@ export default createPublicationMonsters({
               ' Strength saving throw. On a failed save, a creature takes ',
               { roll: '8d8' },
               ' force damage and has the ',
-              rules.restrained,
-              " condition. On a successful save, a creature takes half as much damage only and moves to the nearest unoccupied space outside the vortex. On subsequent turns, Nafas can use this action to move the vortex up to 60 feet. When the vortex enters a creature's space for the first time on a turn, the creature must make the same saving throw as when the vortex first appeared. Creatures ",
-              rules.restrained,
-              ' by the vortex move with it. A creature ',
-              rules.restrained,
-              ' by the vortex, or another creature that can reach it, can use its action to make a DC 22 Strength check. On a successful check, the ',
-              rules.restrained,
-              ' creature is no longer ',
-              rules.restrained,
-              ' and moves to the nearest unoccupied space outside the vortex.',
+              { effect: 'vortex-restrained' },
+              " condition. On a successful save, a creature takes half as much damage only and moves to the nearest unoccupied space outside the vortex. On subsequent turns, Nafas can use this action to move the vortex up to 60 feet. When the vortex enters a creature's space for the first time on a turn, the creature must make the same saving throw as when the vortex first appeared.",
+            ],
+            effects: [
+              {
+                key: 'vortex-restrained',
+                name: 'Restrained by the vortex',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.restrained],
+                text: ['Creatures ', rules.restrained, ' by the vortex move with it.'],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'A creature ',
+                    rules.restrained,
+                    ' by the vortex, or another creature that can reach it, can use its action to make a DC 22 Strength check. On a successful check, the ',
+                    rules.restrained,
+                    ' creature is no longer ',
+                    rules.restrained,
+                    ' and moves to the nearest unoccupied space outside the vortex.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -2409,6 +2565,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be pushed up to 15 feet away from him.',
             ],
+            effects: [],
           },
           {
             key: 'zephyr-step',

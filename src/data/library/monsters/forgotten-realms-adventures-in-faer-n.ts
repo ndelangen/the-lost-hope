@@ -1433,6 +1433,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.create_undead,
             ],
+            effects: [],
           },
           {
             key: 'culling-aura',
@@ -1442,7 +1443,18 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'cha' },
-              ", each Bloodied creature in a 30-foot Emanation originating from the scion at the end of the scion's turn. Failure: The target can't regain Hit Points until the start of the scion's next turn.",
+              ", each Bloodied creature in a 30-foot Emanation originating from the scion at the end of the scion's turn. Failure: ",
+              { effect: 'culling-no-healing' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'culling-no-healing',
+                name: "Can't regain Hit Points",
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                text: ["The target can't regain Hit Points."],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1501,10 +1513,15 @@ export default createPublicationMonsters({
               range: [120, 120],
               damage: [{ dice: '6d6', type: rules.psychic }],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              " condition until the start of the scion's next turn.",
+            text: ['The target ', 'is ', { effect: 'bolt-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'bolt-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1683,6 +1700,7 @@ export default createPublicationMonsters({
               refs.spells.minor_illusion,
               '; 1/day: Summon Fiend (demon only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -1694,6 +1712,7 @@ export default createPublicationMonsters({
               rules.charmed,
               " condition, and magic can't put the drow to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2541,6 +2560,7 @@ export default createPublicationMonsters({
               refs.spells.major_image,
               ', Synaptic Static',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2592,10 +2612,15 @@ export default createPublicationMonsters({
               range: [120, 120],
               damage: [{ dice: '2d8', type: rules.psychic, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.charmed,
-              " condition until the start of the phaerimm's next turn.",
+            text: ['The target ', 'is ', { effect: 'mindwarp-charmed' }, '.'],
+            effects: [
+              {
+                key: 'mindwarp-charmed',
+                name: 'Charmed',
+                lands: { on: 'hit' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -3517,6 +3542,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.power_word_kill,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3594,10 +3620,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '3d6', type: rules.cold, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.paralyzed,
-              " condition until the start of Sammaster's next turn.",
+            text: ['The target ', 'is ', { effect: 'touch-paralyzed' }, '.'],
+            effects: [
+              {
+                key: 'touch-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'hit' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -3649,15 +3680,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 20 } },
                 onFail: {
                   damage: [{ dice: '2d12', type: rules.psychic }],
-                  also: [
-                    'The target has the ',
-                    rules.frightened,
-                    ' condition until the end of its next turn.',
-                  ],
+
+                  also: [{ effect: 'presence-frightened' }],
                 },
               },
               text: [
                 "Failure or Success: Sammaster can't take this action again until the start of his next turn",
+              ],
+              effects: [
+                {
+                  key: 'presence-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -4069,6 +4106,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -4131,10 +4169,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d8', type: rules.cold, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.paralyzed,
-              " condition until the start of Valindra's next turn.",
+            text: ['The target ', 'is ', { effect: 'touch-paralyzed' }, '.'],
+            effects: [
+              {
+                key: 'touch-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'hit' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -4147,11 +4190,22 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ', each creature in a 30-foot Emanation originating from Valindra. Failure by 1 or More: ',
               { roll: '6d12' },
-              ' Force damage and the target has the ',
-              rules.restrained,
-              ' condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. Subsequent Failures: ',
+              ' Force damage and the target ',
+              'is ',
+              { effect: 'grasp-restrained' },
+              '. After 1 minute, it succeeds automatically. Subsequent Failures: ',
               { roll: '6d12' },
               ' Necrotic damage, and Valindra gains 20 Temporary Hit Points.',
+            ],
+            effects: [
+              {
+                key: 'grasp-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4212,6 +4266,7 @@ export default createPublicationMonsters({
               text: [
                 "Failure or Success: Valindra can't take this action again until the start of her next turn.",
               ],
+              effects: [],
             },
             {
               key: 'eldritch-jaunt',
@@ -4234,14 +4289,20 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 30, which: 'Valindra can see' },
                 onFail: {
                   damage: [{ dice: '4d10', type: rules.necrotic }],
-                  also: [
-                    'The target has the ',
-                    rules.frightened,
-                    ' condition until the end of its next turn.',
-                  ],
+
+                  also: [{ effect: 'gaze-frightened' }],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'gaze-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
+              ],
             },
           ],
         },
@@ -4800,6 +4861,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disintegrate,
             ],
+            effects: [],
           },
           {
             key: 'chardalyn-sense',
@@ -4878,10 +4940,15 @@ export default createPublicationMonsters({
               range: [120, 120],
               damage: [{ dice: '4d10', type: rules.psychic, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.charmed,
-              ' condition until the end of its next turn.',
+            text: ['The target ', 'is ', { effect: 'bolt-charmed' }, '.'],
+            effects: [
+              {
+                key: 'bolt-charmed',
+                name: 'Charmed',
+                lands: { on: 'hit' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -4930,18 +4997,27 @@ export default createPublicationMonsters({
                 },
                 onFail: {
                   damage: [{ dice: '6d8', type: rules.psychic }],
-                  also: [
-                    'The target has the ',
-                    rules.charmed,
-                    ' condition for 1 minute or until Zlan dies. While ',
-                    rules.charmed,
-                    ", the target doesn't act as an ally to any creature.",
-                  ],
+
+                  also: [{ effect: 'paranoia-charmed' }],
                 },
                 onSuccess: 'half',
               },
               text: [
                 "Failure or Success: Zlan can't take this action again until the start of its next turn.",
+              ],
+              effects: [
+                {
+                  key: 'paranoia-charmed',
+                  name: 'Charmed',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.charmed],
+                  text: [
+                    'While ',
+                    rules.charmed,
+                    ", the target doesn't act as an ally to any creature.",
+                  ],
+                  lasts: { kind: 'until', text: ['1 minute or until Zlan dies'] },
+                },
               ],
             },
           ],

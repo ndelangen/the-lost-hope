@@ -1944,6 +1944,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.fire_storm_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1986,8 +1987,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'lich-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'lich-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2015,6 +2026,7 @@ export default createPublicationMonsters({
               { roll: '7d10' },
               " fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried. If the lich chooses, plant life in the area is unaffected by the spell.",
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -2036,10 +2048,17 @@ export default createPublicationMonsters({
                 ' creature it can see within 30 feet of it. The target must succeed on a ',
                 { dc: 'wis', save: 'con' },
                 ' Constitution saving throw or fall ',
-                rules.unconscious,
-                ' until the ',
-                rules.poisoned,
-                ' condition ends on it.',
+                { effect: 'poison-prick' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'poison-prick',
+                  name: 'Poison prick',
+                  lands: { on: 'save', save: 'con', dc: 'wis' },
+                  conditions: [rules.unconscious],
+                  lasts: { kind: 'until', text: ['the ', rules.poisoned, ' condition ends on it'] },
+                },
               ],
             },
             {
@@ -2059,6 +2078,7 @@ export default createPublicationMonsters({
               text: [
                 'The lich targets one creature it can see within 30 feet of it. The lich regains a number of hit points equal to the amount of damage that the creature takes.',
               ],
+              effects: [],
             },
           ],
         },

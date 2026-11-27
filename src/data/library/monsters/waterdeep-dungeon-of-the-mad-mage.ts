@@ -5281,6 +5281,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -5317,6 +5318,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -6202,6 +6204,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -6213,6 +6216,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$title_short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -6749,9 +6753,21 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 2.',
+              ' Constitution saving throw or ',
+              'be ',
+              { effect: 'ray-paralyzed' },
+              '.',
+              ' 2.',
+            ],
+            effects: [
+              {
+                key: 'ray-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -6762,9 +6778,21 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'con', save: 'wis' },
-              ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 3.',
+              ' Wisdom saving throw or ',
+              'be ',
+              { effect: 'ray-frightened' },
+              '.',
+              ' 3.',
+            ],
+            effects: [
+              {
+                key: 'ray-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -6779,6 +6807,7 @@ export default createPublicationMonsters({
               { roll: '8d8' },
               ' necrotic damage on a failed save, or half as much damage on a successful one. 4.',
             ],
+            effects: [],
           },
           {
             key: 'telekinetic-ray',
@@ -6788,11 +6817,27 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con', save: 'str' },
-              ' Strength saving throw, or the zombie moves it up to 30 feet in any direction. It is ',
-              rules.restrained,
-              " by the ray's telekinetic grip until the start of the zombie's next turn or until the zombie is ",
-              rules.incapacitated,
-              ". If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The zombie can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or container.",
+              ' Strength saving throw, or the zombie moves it up to 30 feet in any direction. ',
+              'It is ',
+              { effect: 'ray-restrained' },
+              '.',
+              " If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The zombie can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or container.",
+            ],
+            effects: [
+              {
+                key: 'ray-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the start of the zombie's next turn or until the zombie is ",
+                    rules.incapacitated,
+                  ],
+                },
+                text: ["by the ray's telekinetic grip"],
+              },
             ],
           },
         ],
@@ -7608,6 +7653,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ').',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7645,10 +7691,19 @@ export default createPublicationMonsters({
               'Plus ',
               { roll: '2d10', mod: 'str' },
               ' slashing damage. The target is ',
-              rules.grappled,
-              " (escape DC 16) if the behir isn't already constricting a creature, and the target is ",
-              rules.restrained,
-              ' until this grapple ends.',
+              { effect: 'constrict-grabbed' },
+              " if the behir isn't already constricting a creature",
+              '.',
+            ],
+            effects: [
+              {
+                key: 'constrict-grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -7665,6 +7720,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'swallow',
@@ -7673,12 +7729,9 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               'The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the behir, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time. If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a ",
+              { effect: 'behir-swallowed' },
+              '.',
+              ' A behir can have only one creature swallowed at a time. If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw at the end of that turn or regurgitate the creature, which falls ',
               rules.prone,
@@ -7687,6 +7740,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'behir-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'it has 3 against attacks and other effects outside the behir, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the behir's turns.",
+                ],
+              },
             ],
           },
           {
@@ -9041,6 +9108,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Torbit doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -9096,6 +9164,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -9119,6 +9188,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -9671,9 +9741,21 @@ export default createPublicationMonsters({
             text: [
               "Each creature of Umbraxakar's choice that is within 120 feet of Umbraxakar and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
-              ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Umbraxakar's Frightful Presence for the next 24 hours.",
+              ' Wisdom saving throw or ',
+              'become ',
+              { effect: 'frightful-presence-frightened' },
+              '.',
+              " If a creature's saving throw is successful or the effect ends for it, the creature is immune to Umbraxakar's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'frightful-presence-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -9703,6 +9785,7 @@ export default createPublicationMonsters({
             text: [
               "Umbraxakar exhales necrotic in a 90-foot line that is 5 feet wide. A humanoid reduced to 0 hit points by this damage dies, and an undead shadow rises from its corpse and acts immediately after Umbraxakar in the initiative count. The shadow is under Umbraxakar's control.",
             ],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -9714,6 +9797,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 60 feet away from Umbraxakar.',
             ],
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -9754,11 +9838,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'Umbraxakar beats its wings. Umbraxakar can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -9874,6 +9968,7 @@ export default createPublicationMonsters({
               { ability: 'engulf' },
               ' on it.',
             ],
+            effects: [],
           },
           {
             key: 'slam',
@@ -9897,14 +9992,24 @@ export default createPublicationMonsters({
               'The shambling mound engulfs a Medium or smaller creature ',
               rules.grappled,
               ' by it. The engulfed target is ',
-              rules.blinded,
-              ', ',
-              rules.restrained,
-              ', and unable to breathe, and it must succeed on a ',
-              { dc: 'con' },
-              " Constitution saving throw at the start of each of the mound's turns or take ",
-              { roll: '2d8', mod: 'str' },
-              ' bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time.',
+              { effect: 'mound-engulfed' },
+              ' The mound can have only one creature engulfed at a time.',
+            ],
+            effects: [
+              {
+                key: 'mound-engulfed',
+                name: 'Engulfed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'and unable to breathe, and it must succeed on a ',
+                  { dc: 'con' },
+                  " Constitution saving throw at the start of each of the mound's turns or take ",
+                  { roll: '2d8', mod: 'str' },
+                  ' bludgeoning damage. If the mound moves, the engulfed target moves with it.',
+                ],
+              },
             ],
           },
         ],
@@ -10455,6 +10560,7 @@ export default createPublicationMonsters({
               '; 9th level (1 slot): ',
               refs.spells.foresight_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -10466,6 +10572,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'mask-of-the-wild',
@@ -10501,6 +10608,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -10576,6 +10684,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Xarann doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -10587,6 +10696,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -10635,6 +10745,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -10658,6 +10769,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },

@@ -221,6 +221,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'darklord-restoration',
@@ -276,13 +277,27 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'int' },
-              ', one creature Viktra can see within 5 feet. Failure: The target has the ',
-              rules.poisoned,
-              ' condition for 1 minute. While ',
-              rules.poisoned,
-              " in this way, the target suffers one of the following effects (Viktra's choice). The target repeats the save at the end of each of its turns, ending the effect on itself on a success. The target succeeds automatically after 1 minute: Corrosive Serum. The target takes ",
-              { roll: '4d4' },
-              ' Acid damage at the start of each of its turns, and its Speed decreases by 10 feet.',
+              ', one creature Viktra can see within 5 feet. Failure: ',
+              { effect: 'corrosive-serum' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'corrosive-serum',
+                name: 'Poisoned by serum',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  " in this way, the target suffers one of the following effects (Viktra's choice). ",
+                  'The target succeeds automatically after 1 minute: Corrosive Serum. The target takes ',
+                  { roll: '4d4' },
+                  ' Acid damage at the start of each of its turns, and its Speed decreases by 10 feet.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -359,6 +374,7 @@ export default createPublicationMonsters({
                 },
                 onSuccess: 'half',
               },
+              effects: [],
             },
           ],
         },
@@ -947,6 +963,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.command,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -977,10 +994,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '4d6', type: rules.lightning }],
             },
-            text: [
-              'The target has the ',
-              rules.paralyzed,
-              " condition until the start of Rudolph's next turn.",
+            text: ['The target has the ', { effect: 'taser-paralysis' }, '.'],
+            effects: [
+              {
+                key: 'taser-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'hit' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -993,6 +1015,7 @@ export default createPublicationMonsters({
               rules.blinded,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'forcefield-generator',

@@ -221,6 +221,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -6203,6 +6204,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -6214,6 +6216,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$title_short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6258,6 +6261,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -7486,6 +7490,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',

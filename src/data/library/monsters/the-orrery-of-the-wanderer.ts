@@ -185,6 +185,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -1087,6 +1088,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Two Dry Cloaks doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'feline-agility',

@@ -381,9 +381,24 @@ export default createPublicationMonsters({
               },
             },
             text: [
-              "The creepy doll targets one creature it can see within 10 feet of it that has a brain. Also on a failure, roll 3d6. If the total equals or exceeds the target's Intelligence score, that score is reduced to 0. The target is ",
-              rules.stunned,
-              ' until it regains at least one point of Intelligence, as from the greater restoration spell or similar magic.',
+              "The creepy doll targets one creature it can see within 10 feet of it that has a brain. Also on a failure, roll 3d6. If the total equals or exceeds the target's Intelligence score, ",
+              { effect: 'intelligence-drained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'intelligence-drained',
+                name: 'Intelligence drained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                text: ['That score is reduced to 0.'],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'it regains at least one point of Intelligence, as from the greater restoration spell or similar magic',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -400,6 +415,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The target retains its alignment, Intelligence, Wisdom, and Charisma while inhabiting the creepy doll's body. The body exchange lasts until the doll's spirit is forced out by magic. (The dispel evil and good spell will accomplish this, though the doll is not one of the creature types whose possession that spell normally ends.) The body and the doll must be within 5 feet of each other for such an effect to work. The target is immune to this doll's Body Exchange for 24 hours after winning the Intelligence contest or after the exchange ends.",
             ],
+            effects: [],
           },
         ],
       },
@@ -482,11 +498,30 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature other than an undead or a construct, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or lose ',
-              { roll: '3d6' },
-              ' hit points at the start of each of its turns due to an infernal wound. Each time the demon hits the wounded target with this attack, the damage dealt by the wound increases by ',
-              { roll: '3d6' },
-              '. Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+              ' Constitution saving throw or ',
+              { effect: 'infernal-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'infernal-wound',
+                name: 'Infernal wound',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'lose ',
+                  { roll: '3d6' },
+                  ' hit points at the start of each of its turns due to an infernal wound. Each time the demon hits the wounded target with this attack, the damage dealt by the wound increases by ',
+                  { roll: '3d6' },
+                  '.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check.',
+                    ' The wound also closes if the target receives magical healing.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -909,13 +944,32 @@ export default createPublicationMonsters({
             text: [
               'One creature that the geist can see within 5 feet of it must succeed on a ',
               { dc: 'cha' },
-              ' Charisma saving throw or be possessed by the geist; the geist then disappears, and the target is ',
-              rules.incapacitated,
-              " and loses control of its body. The geist now controls the body but doesn't deprive the target of awareness. The geist can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
+              ' Charisma saving throw or be ',
+              { effect: 'possessed' },
+              ' by the geist; the geist then disappears',
+              '. ',
+              "The geist now controls the body but doesn't deprive the target of awareness. The geist can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
               rules.charmed,
               ' and ',
               rules.frightened,
-              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the geist ends it as a bonus action, or the geist is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the geist reappears in an unoccupied space within 5 feet of the body. The target is immune to this geist's Possession for 24 hours after succeeding on the saving throw or after the possession ends. The geist can instead target the corpse of a creature, effectively using its own life force to animate the corpse as a zombie. The animated corpse uses zombie statistics and returns to death if the geist ends the possession.",
+              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies",
+              '. ',
+              "When the possession ends, the geist reappears in an unoccupied space within 5 feet of the body. The target is immune to this geist's Possession for 24 hours after succeeding on the saving throw or after the possession ends. The geist can instead target the corpse of a creature, effectively using its own life force to animate the corpse as a zombie. The animated corpse uses zombie statistics and returns to death if the geist ends the possession.",
+            ],
+            effects: [
+              {
+                key: 'possessed',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: ['loses control of its body'],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 hit points, the geist ends it as a bonus action, or the geist is turned or forced out by an effect like the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -1200,6 +1254,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.barkskin_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -1340,6 +1395,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -1647,6 +1703,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -1680,6 +1737,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until he regains at least 1 hit point. After 1 hour in his coffin with 0 hit points, he regains 1 hit point.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -1762,10 +1820,27 @@ export default createPublicationMonsters({
               'Strefan targets one humanoid he can see within 30 feet of him. If the target can see Strefan, the target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              '. The ',
-              rules.charmed,
-              " target regards Strefan as a trusted friend to be heeded and protected. The target isn't under Strefan's control, but it takes Strefan's requests and actions in the most favorable way and lets Strefan bite it. Each time Strefan or his companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Strefan is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target regards Strefan as a trusted friend to be heeded and protected. The target isn't under Strefan's control, but it takes Strefan's requests and actions in the most favorable way and lets Strefan bite it. Each time Strefan or his companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until Strefan is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
           {

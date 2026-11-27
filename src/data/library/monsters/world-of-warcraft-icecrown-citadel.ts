@@ -535,6 +535,7 @@ export default createPublicationMonsters({
               { roll: '6d6' },
               ' Poison damage.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -596,13 +597,21 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: [
-              'The target gains 1 ',
-              rules.exhaustion,
-              ' level. If the target dies from ',
+              { effect: 'bloat-exhaustion' },
+              ' If the target dies from ',
               rules.exhaustion,
               ', it explodes, creating the following effect:    ',
               rules.exhaustion,
               ' levels gained from Gastric Bloat vanish when Festergut dies.',
+            ],
+            effects: [
+              {
+                key: 'bloat-exhaustion',
+                name: 'Exhaustion',
+                lands: { on: 'hit' },
+                lasts: { kind: 'until', text: ['Festergut dies'] },
+                text: ['The target gains 1 ', rules.exhaustion, ' level.'],
+              },
             ],
           },
           {
@@ -617,21 +626,24 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 }, range: 120 },
               onFail: {
                 damage: [{ dice: '10d6', type: rules.poison }],
-                also: [
-                  'The target has the ',
-                  rules.poisoned,
-                  ' condition until the end of its next turn. While ',
-                  rules.poisoned,
-                  ', the target has the ',
-                  rules.stunned,
-                  ' condition as it vomits uncontrollably.',
-                ],
+
+                also: [{ effect: 'vile-gas-poisoned' }],
               },
             },
             text: [
               'Success: Half damage, and the target has the ',
               rules.poisoned,
               ' condition until the end of its next turn.',
+            ],
+            effects: [
+              {
+                key: 'vile-gas-poisoned',
+                name: 'Poisoned and stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned, rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                text: ['as it vomits uncontrollably'],
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -675,6 +687,7 @@ export default createPublicationMonsters({
               { ability: 'gaseous-blight' },
               ' to full strength.',
             ],
+            effects: [],
           },
         ],
       },
@@ -922,6 +935,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -970,10 +984,15 @@ export default createPublicationMonsters({
               reach: 10,
               damage: [{ dice: '3d6', type: rules.cold, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.paralyzed,
-              " condition until the start of Deathwhisper's next turn.",
+            text: ['The target ', 'is ', { effect: 'touch-paralyzed' }, '.'],
+            effects: [
+              {
+                key: 'touch-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'hit' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1002,10 +1021,15 @@ export default createPublicationMonsters({
               range: [120, 120],
               damage: [{ dice: '2d12', type: rules.cold, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.restrained,
-              " condition until the start of Deathwhisper's next turn.",
+            text: ['The target ', 'is ', { effect: 'frostbolt-restrained' }, '.'],
+            effects: [
+              {
+                key: 'frostbolt-restrained',
+                name: 'Restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1056,14 +1080,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 20 }, range: 120 },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.necrotic }],
-                  also: [
-                    "The target is cursed until the end of Deathwhisper's next turn. A cursed creature takes an extra 1d6 Necrotic damage each time it takes damage from Deathwhisper's spell or attack roll.",
-                  ],
+
+                  also: ['The target is ', { effect: 'deathwhisper-curse' }, '.'],
                 },
                 onSuccess: 'half',
               },
               text: [
                 "Failure or Success: Deathwhisper can't take this action again until the start of her next turn.",
+              ],
+              effects: [
+                {
+                  key: 'deathwhisper-curse',
+                  name: 'Cursed',
+                  lands: { on: 'failed-save' },
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                  text: [
+                    "A cursed creature takes an extra 1d6 Necrotic damage each time it takes damage from Deathwhisper's spell or attack roll.",
+                  ],
+                },
               ],
             },
             {
@@ -2659,6 +2693,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.teleport,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2832,16 +2867,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '8d12', type: rules.cold }],
-                also: [
-                  'The target has the ',
-                  rules.restrained,
-                  " condition until the end of Sindragosa's next turn.",
-                ],
+
+                also: ['The target is ', { effect: 'breath-restrained' }, '.'],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'breath-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'ice-tombs',
@@ -2853,13 +2894,26 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ', each of two creatures Sindragosa can see within 60 feet. Failure: ',
               { roll: '6d8' },
-              ' Cold damage, and the target is entombed in ice. Success: Half damage only. An entombed creature is suffocating, has the ',
-              rules.restrained,
-              ' and ',
-              rules.stunned,
-              ' conditions, has Total Cover against attacks and other effects outside the tomb, and takes ',
-              { roll: '7d6' },
-              ' Cold damage at the start of each of its turns. The ice tomb is a Large object with AC 13; HP 27; and Immunity to Cold, Poison, and Psychic damage. Breaking the tomb ends the effect on an entombed creature.',
+              ' Cold damage, and the target is entombed in ice. Success: Half damage only. ',
+              { effect: 'ice-tomb' },
+            ],
+            effects: [
+              {
+                key: 'ice-tomb',
+                name: 'Entombed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained, rules.stunned],
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'An entombed creature is suffocating, has the ',
+                  rules.restrained,
+                  ' and ',
+                  rules.stunned,
+                  ' conditions, has Total Cover against attacks and other effects outside the tomb, and takes ',
+                  { roll: '7d6' },
+                  ' Cold damage at the start of each of its turns. The ice tomb is a Large object with AC 13; HP 27; and Immunity to Cold, Poison, and Psychic damage. Breaking the tomb ends the effect on an entombed creature.',
+                ],
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -2878,6 +2932,7 @@ export default createPublicationMonsters({
                 damage: [{ dice: '3d12', type: rules.cold }],
               },
             },
+            effects: [],
           },
           {
             key: 'unchained-magic',
@@ -2896,6 +2951,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
         legendary: {
@@ -2924,15 +2980,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d10', type: rules.psychic }],
-                  also: [
-                    'The target has the ',
-                    rules.frightened,
-                    ' condition until the end of its next turn.',
-                  ],
+
+                  also: ['The target is ', { effect: 'roar-frightened' }, '.'],
                 },
               },
               text: [
                 "Failure or Success: Sindragosa can't take this action again until the start of her next turn",
+              ],
+              effects: [
+                {
+                  key: 'roar-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],

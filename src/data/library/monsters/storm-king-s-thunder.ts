@@ -3744,6 +3744,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3789,6 +3790,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -4170,6 +4172,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Narbeck has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4214,6 +4217,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -5024,12 +5028,8 @@ export default createPublicationMonsters({
               'If the target is a Small or smaller creature, it must succeed on a ',
               { dc: 'con', save: 'dex' },
               ' Dexterity saving throw or be swallowed by the wormling. A swallowed creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has total cover against attacks and other effects outside the wormling, and it takes ',
-              { roll: '1d6' },
-              " acid damage at the start of each of the wormling's turns. If the wormling takes 10 damage or more on a single turn from a creature inside it, the wormling must succeed on a ",
+              { effect: 'wormling-swallowed' },
+              '. If the wormling takes 10 damage or more on a single turn from a creature inside it, the wormling must succeed on a ',
               { dc: 'con', printed: 21 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -5038,6 +5038,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 5 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'wormling-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has total cover against attacks and other effects outside the wormling, and it takes ',
+                  { roll: '1d6' },
+                  " acid damage at the start of each of the wormling's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5061,6 +5075,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -5119,6 +5134,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Rool doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'relentless-endurance',
@@ -5158,6 +5174,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -5181,6 +5198,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },

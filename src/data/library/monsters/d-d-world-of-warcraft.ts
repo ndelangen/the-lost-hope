@@ -1362,6 +1362,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_ice,
               ' (level 8 version)',
             ],
+            effects: [],
           },
           {
             key: 'ice-walk',
@@ -1421,14 +1422,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 90 } },
               onFail: {
                 damage: [{ dice: '17d6', type: rules.cold }],
-                also: [
-                  "The target can't cast spells or take the Magic action until the start of the dragon's next turn.",
-                ],
+
+                also: [{ effect: 'spellfreeze' }, '.'],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'spellfreeze',
+                name: 'Spellfreeze',
+                lands: { on: 'failed-save' },
+                text: ["The target can't cast spells or take the Magic action"],
+                lasts: { kind: 'until', text: ["the start of the dragon's next turn"] },
+              },
+            ],
           },
           {
             key: 'dispel',
@@ -2761,8 +2770,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'felhound-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'felhound-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2779,8 +2797,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 13) from both tentacles.',
+              { effect: 'tentacles-grabbed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tentacles-grabbed',
+                name: 'Grabbed by both tentacles',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -2795,7 +2823,18 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the felhound. Failure: ',
               { roll: '3d6' },
-              " Necrotic damage, and the target can't take the Magic action until the start of the felhound's next turn.",
+              ' Necrotic damage, and ',
+              { effect: 'drink-magic-no-magic' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'drink-magic-no-magic',
+                name: 'Drained of magic',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ["the target can't take the Magic action"],
+                lasts: { kind: 'until', text: ["the start of the felhound's next turn"] },
+              },
             ],
           },
         ],
@@ -2920,8 +2959,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 14) from one of two fists.',
+              { effect: 'fist-grabbed' },
+              ' from one of two fists.',
+            ],
+            effects: [
+              {
+                key: 'fist-grabbed',
+                name: 'Grabbed by a fist',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -2937,8 +2986,17 @@ export default createPublicationMonsters({
               ', the creature thrown and each creature in the destination space. Failure: ',
               { roll: '1d4' },
               ' Bludgeoning damage, and the target has the ',
-              rules.prone,
-              ' condition. Success: Half damage only.',
+              { effect: 'hurled-prone' },
+              '. Success: Half damage only.',
+            ],
+            effects: [
+              {
+                key: 'hurled-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2953,15 +3011,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '1d12', type: rules.bludgeoning, addModifier: true }],
+
                 also: [
                   'The target is pushed 10 feet away and has the ',
-                  rules.prone,
-                  ' condition.',
+                  { effect: 'maul-prone' },
+                  '.',
                 ],
               },
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'maul-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'no-sell',
@@ -3861,6 +3929,7 @@ export default createPublicationMonsters({
               '; 2/day: ',
               refs.spells.flame_strike,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3896,6 +3965,7 @@ export default createPublicationMonsters({
               { roll: '4d8' },
               ' Radiant damage. Success: Half damage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5552,6 +5622,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.tree_stride,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -5613,14 +5684,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.radiant }],
-                also: [
-                  'The target has the ',
-                  rules.blinded,
-                  ' condition until the end of its next turn.',
-                ],
+
+                also: [{ effect: 'elune-blinded' }],
               },
             },
             text: ['Trigger: The moonkin takes damage. Response:'],
+            effects: [
+              {
+                key: 'elune-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
             uses: 2,
             recharge: 'Long rest',
           },
@@ -5821,6 +5898,7 @@ export default createPublicationMonsters({
               { roll: '2d6' },
               ' Lightning damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6028,6 +6106,7 @@ export default createPublicationMonsters({
               refs.spells.ice_storm,
               ' (level 5 version)',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -6514,6 +6593,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -6562,9 +6642,20 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 18) from one of two pincers.',
+              'If the target is a Large or smaller creature, it ',
+              'is ',
+              { effect: 'pincer-grappled' },
+              ' from one of two pincers.',
+            ],
+            effects: [
+              {
+                key: 'pincer-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -6579,16 +6670,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.psychic, addModifier: true }],
-                also: [
-                  'The target has the ',
-                  rules.stunned,
-                  " condition until the end of the n'raqi's next turn.",
-                ],
+
+                also: [{ effect: 'mind-blast-stunned' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [
+              {
+                key: 'mind-blast-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'spell-erasure',
@@ -6617,9 +6714,18 @@ export default createPublicationMonsters({
                 { dc: 'int' },
                 ', each creature with the ',
                 rules.stunned,
-                " condition in a 60-foot Emanation originating from the n'raqi. Failure: The target gains 1 ",
-                rules.exhaustion,
-                " level. Failure or Success: The n'raqi can't take this action again until the start of its next turn.",
+                " condition in a 60-foot Emanation originating from the n'raqi. Failure: ",
+                { effect: 'drained-exhaustion' },
+                " Failure or Success: The n'raqi can't take this action again until the start of its next turn.",
+              ],
+              effects: [
+                {
+                  key: 'drained-exhaustion',
+                  name: 'Exhaustion',
+                  lands: { on: 'save', save: 'con', dc: 'int' },
+                  text: ['The target gains 1 ', rules.exhaustion, ' level.'],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {
@@ -7093,6 +7199,7 @@ export default createPublicationMonsters({
               ' (level 4 version), ',
               refs.spells.wall_of_thorns,
             ],
+            effects: [],
           },
           {
             key: 'bristlebacked',
@@ -8716,6 +8823,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sending,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',

@@ -13413,6 +13413,7 @@ export default createPublicationMonsters({
               { roll: '6d6' },
               ' fire damage, at most once per round. The cinder is immune to all damage and hatches a new phoenix after 1d6 days.',
             ],
+            effects: [],
           },
           {
             key: 'fire-form',

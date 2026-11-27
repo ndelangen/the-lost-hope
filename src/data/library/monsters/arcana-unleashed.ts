@@ -71,6 +71,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.guards_and_wards,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -133,10 +134,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d4', type: rules.cold, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.paralyzed,
-              " condition until the start of the baelnorn's next turn.",
+            text: ['The target is ', { effect: 'paralyzing-touch' }, '.'],
+            effects: [
+              {
+                key: 'paralyzing-touch',
+                name: 'Paralyzing touch',
+                lands: { on: 'hit' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'until', text: ["the start of the baelnorn's next turn"] },
+              },
             ],
           },
           {
@@ -185,6 +191,7 @@ export default createPublicationMonsters({
                 },
                 onSuccess: 'half',
               },
+              effects: [],
             },
             {
               key: 'recuperative-teleport',
@@ -250,6 +257,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.teleport,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -438,6 +446,7 @@ export default createPublicationMonsters({
               refs.spells.foresight,
               ' (cast before combat), Telepathy',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -547,6 +556,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.modify_memory,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -675,6 +685,7 @@ export default createPublicationMonsters({
               refs.spells.shatter,
               ' (level 3 version)',
             ],
+            effects: [],
           },
           {
             key: 'evocation-sculptor',
@@ -1080,6 +1091,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.weird,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1373,6 +1385,7 @@ export default createPublicationMonsters({
               ' (level 7 version), ',
               refs.spells.create_undead,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1393,6 +1406,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1582,6 +1596,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disintegrate,
             ],
+            effects: [],
           },
           {
             key: 'arcane-immortality',
@@ -1637,6 +1652,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ". Failure: The target's highest-level unexpended spell slot is expended.",
             ],
+            effects: [],
           },
           {
             key: 'protective-magic',
@@ -1729,6 +1745,7 @@ export default createPublicationMonsters({
               '; 2/day: ',
               refs.spells.gaseous_form,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1852,6 +1869,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.imprisonment,
             ],
+            effects: [],
           },
           {
             key: 'fiendish-restoration',
@@ -1888,6 +1906,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1981,14 +2000,20 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 60, which: 'Venger can see' },
                 onFail: {
                   damage: [{ dice: '4d6', type: rules.psychic }],
-                  also: [
-                    'The target has the ',
-                    rules.frightened,
-                    ' condition until the end of its next turn.',
-                  ],
+
+                  also: [{ effect: 'booming-frightened' }],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'booming-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
+              ],
             },
             {
               key: 'crimson-strike',
@@ -2010,10 +2035,18 @@ export default createPublicationMonsters({
                 'Dexterity Saving Throw: ',
                 { dc: 'cha' },
                 ', one creature Venger can see within 30 feet. Failure: The target has the ',
-                rules.restrained,
-                ' condition until the end of its next turn. While ',
-                rules.restrained,
-                ", the target can't take the Magic action. Failure or Success: Venger can't take this action again until the start of his next turn.",
+                { effect: 'binding-chains' },
+                ". Failure or Success: Venger can't take this action again until the start of his next turn.",
+              ],
+              effects: [
+                {
+                  key: 'binding-chains',
+                  name: 'Magic-binding chains',
+                  lands: { on: 'save', save: 'dex', dc: 'cha' },
+                  conditions: [rules.restrained],
+                  text: ['While ', rules.restrained, ", the target can't take the Magic action."],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],

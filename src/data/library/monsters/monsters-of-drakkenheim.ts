@@ -9726,6 +9726,7 @@ export default createPublicationMonsters({
               { roll: '8d6' },
               ' Fire damage. Success: Half damage.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -9755,9 +9756,19 @@ export default createPublicationMonsters({
             text: [
               "The target is subjected to one of the following effects of the trapper's choice: Bola Shot. Dexterity Saving Throw: ",
               { dc: 'str' },
-              '. Failure: The target has the ',
-              rules.prone,
-              ' condition.',
+              '. Failure: The target ',
+              'is ',
+              { effect: 'bola-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bola-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -9768,7 +9779,17 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'str' },
-              '. Failure: The target has the Dazed condition until the end of its next turn.',
+              '. Failure: ',
+              { effect: 'tranquilized' },
+            ],
+            effects: [
+              {
+                key: 'tranquilized',
+                name: 'Dazed',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: ['The target has the Dazed condition.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -9783,6 +9804,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'set-trap',
@@ -9798,16 +9820,22 @@ export default createPublicationMonsters({
             ],
             uses: 5,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'shock-trap',
             name: 'Shock Trap',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'Strength Saving Throw: ',
-              { dc: 'str' },
-              '. Failure: The target has the Shocked condition until the end of its next turn.',
+            text: ['Strength Saving Throw: ', { dc: 'str' }, '. Failure: ', { effect: 'shocked' }],
+            effects: [
+              {
+                key: 'shocked',
+                name: 'Shocked',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                text: ['The target has the Shocked condition.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -9822,6 +9850,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ').',
             ],
+            effects: [],
           },
           {
             key: 'smoke-bomb-recharges-after-a-short-or-long-rest',
@@ -10616,9 +10645,20 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ', each creature that can see the kronen. Failure: ',
               { roll: '4d8' },
-              ' Psychic damage, and the target has the ',
-              rules.frightened,
-              " condition for 1 minute (save ends). If the creature's saving throw is successful or the effect ends for it, it is immune to the kronen's Loathsome Presence for 24 hours.",
+              ' Psychic damage, and the target ',
+              'is ',
+              { effect: 'presence-frightened' },
+              ". If the creature's saving throw is successful or the effect ends for it, it is immune to the kronen's Loathsome Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'presence-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -10636,9 +10676,24 @@ export default createPublicationMonsters({
             text: [
               'Trigger: A creature ends its turn within 5 feet of the kronen. Response:Dexterity Saving Throw: ',
               { dc: 'con' },
-              '. Failure: The target is covered in cockroaches. It takes ',
-              { roll: '4d6' },
-              ' Piercing damage at the end of each of its turns until a creature takes an action to swipe the cockroaches off its body.',
+              '. Failure: ',
+              { effect: 'cockroaches' },
+            ],
+            effects: [
+              {
+                key: 'cockroaches',
+                name: 'Covered in cockroaches',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                text: [
+                  'The target is covered in cockroaches. It takes ',
+                  { roll: '4d6' },
+                  ' Piercing damage at the end of each of its turns',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: ['a creature takes an action to swipe the cockroaches off its body'],
+                },
+              },
             ],
           },
         ],

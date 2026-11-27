@@ -1641,6 +1641,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shield_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'gnome-cunning',
@@ -3881,6 +3882,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'halfling-nimbleness',
@@ -3899,6 +3901,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -4038,6 +4041,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'halfling-nimbleness',
@@ -4056,6 +4060,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -9020,6 +9025,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -9052,13 +9058,31 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'str' },
               " Strength saving throw or drop one item it is holding (adept's choice). The target must succeed on a ",
               { dc: 'dex' },
-              ' Dexterity saving throw or be knocked ',
-              rules.prone,
+              ' Dexterity saving throw or be ',
+              'knocked ',
+              { effect: 'strike-prone' },
               '. The target must succeed on a ',
               { dc: 'dex', save: 'con' },
-              ' Constitution saving throw or be ',
-              rules.stunned,
-              " until the end of the adept's next turn.",
+              ' Constitution saving throw or ',
+              'be ',
+              { effect: 'strike-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'strike-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'strike-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
