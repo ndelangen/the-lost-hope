@@ -33,7 +33,9 @@ export default createNPC({
     [
       'He hates pirates, but he is willing to put that aside to get out of ',
       refs.locations.rustmoor,
-      '.',
+      '. Staying on to work for one, as part of a crew for ',
+      refs.pcs.swift_starblade,
+      ', would take convincing.',
     ],
   ],
   stats: refs.creatures.commoner,

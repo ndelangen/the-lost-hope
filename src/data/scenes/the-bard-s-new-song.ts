@@ -248,6 +248,21 @@ export default createScene({
               'They join the party until the next place the ship docks, and will likely leave there. See how it goes.',
             ],
           ],
+          followUps: [
+            {
+              icon: 'gi/GiShipWheel',
+              when: [[refs.pcs.swift_starblade, ' wants them to stay on as his crew.']],
+              response: [
+                [
+                  'They could become his crew, which is what he wants. ',
+                  refs.npcs.flyn_etchersen,
+                  ' has to be convinced to stay and work for a pirate. He might accept it, since the party has only one pirate, and a paladin, ',
+                  refs.pcs.devan,
+                  ', to balance it out.',
+                ],
+              ],
+            },
+          ],
         },
         {
           icon: 'gi/GiCancel',
