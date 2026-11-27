@@ -11,6 +11,14 @@ export default createPublicationMonsters({
       name: 'Archaic',
       alignment: 'neutral',
       languages: ['all'],
+      appearance: [['A towering creature with many arms, brimming with magic.']],
+      lore: [
+        [
+          "Archaics live alone but know a vast amount about magic and history, and can bend the fabric of reality nearby. Scholars who visit for answers get tangled, sometimes contradictory replies, and only those who sort them out find what they sought. Each archaic is a reincarnated Strixhaven oracle: at death the soul travels back in time to the surge of magic that produced the Founder Dragons, and is caught up and wrapped in the world's own substance. Since their knowledge runs across time, they are careful what they tell mortals and speak in riddles.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'gargantuan',
         type: 'celestial',
@@ -304,6 +312,14 @@ export default createPublicationMonsters({
       tags: ['druid'],
       alignment: 'neutral good',
       languages: ['Common', 'Draconic', 'Druidic', 'Sylvan'],
+      appearance: [['A dragon who needs no food, drink or even air to live.']],
+      lore: [
+        [
+          'Beledros has mastered magic that joins life with death, drawing on the vital force in living things and in nature to heal and create or to kill and rot. She founded Witherbloom College to teach the natural cycle, hoping to raise stewards who would defend nature and aid others. True to her two-sided philosophy, she sees the harsher sides of nature, such as mortality and decay, as part of how things should be.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1088,6 +1104,18 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A dragon whose magic shows as flame, lightning and tides woven into displays that are both lovely and lethal.',
+        ],
+      ],
+      lore: [
+        [
+          'Galazeth personifies how magic travels from inspiration to artistic expression, whether in physical form or some other sense. He founded Prismari College so magic would never be studied purely for practical use. His teaching holds that the beauty of magic should feed a living culture and personal emotional growth. He thinks free expression and exact perfection are forces that must pull against each other, in individuals and in the wider world.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1264,6 +1292,18 @@ export default createPublicationMonsters({
       name: 'Groff',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A shaggy swamp creature with a dog-like face and glowing blue eyes, lying under what looks like a patch of moss.',
+        ],
+      ],
+      lore: [
+        [
+          'Students at Strixhaven who wander the bayou sometimes step on what seems to be an ordinary patch of moss and learn it is a hungry groff lying just under the surface. They are voracious meat-eaters and most like to eat pest mascots. A few bold Witherbloom mages track pest mascots by following groffs, but most have not yet found a way to catch the pests without a student getting eaten.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Swamp', 'Bayou'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -1453,6 +1493,14 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus any two languages'],
+      appearance: [['A student scholar, probably among dusty scrolls and old ruins.']],
+      lore: [
+        [
+          'The text describes Lorehold College in general. Its archaeomancers draw power from time and fate and how they shape history, and are divided between those who think history is random and those who think it follows a predictable pattern. Students begin as apprentices and later become pledgemages, studying past magic in crumbling ruins and heaps of scrolls, hunting arcane artifacts and talking to dead adventurers to recover lost secrets. Some bury themselves in books, others travel to watch history happen. Their magic runs from tampering with time to blasts that smash old ruins, and sometimes simply hitting things with a glowing scroll.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1542,6 +1590,14 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus any two languages'],
+      appearance: [['An advanced Lorehold student, likely surrounded by old texts and ruins.']],
+      lore: [
+        [
+          'The text describes Lorehold College in general. Its archaeomancers draw power from time and fate and how they shape history, and are divided between those who think history is random and those who think it follows a predictable pattern. Pledgemages are students past the apprentice stage, studying past magic in crumbling ruins and heaps of scrolls, hunting arcane artifacts and talking to dead adventurers to recover lost secrets. Some bury themselves in books, others travel to watch history happen. Their magic runs from tampering with time to blasts that smash old ruins, and sometimes simply hitting things with a glowing scroll.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1666,6 +1722,16 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus any four languages'],
+      appearance: [
+        ['A professor whose spells take the shape of flying volumes, scrolls and loose pages.'],
+      ],
+      lore: [
+        [
+          "Lorehold scholars draw power from time and fate. Professors of chaos follow the rise and fall of randomness, studying history for points where events could break and then forcing breaks that suit them, in a chain of events, in an obstacle or in an enemy, depending on need. They smother opponents' schemes beneath the pressure of passing time and strike with raw energy that tends to resemble paper.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1794,6 +1860,14 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus any four languages'],
+      appearance: [['A scholar who braces unsafe ruins and chooses safe routes through them.']],
+      lore: [
+        [
+          'Lorehold scholars draw power from time and fate. Professors of order hunt for patterns and predictable results in history, learning which events signal which outcomes and tracing magic along those chains of cause. In ruins they shore up dangerous structures and pick safe paths. When confronted they channel perfect stillness, raising tough barriers of force and snuffing out hostile magic.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2177,6 +2251,14 @@ export default createPublicationMonsters({
       tags: ['human', 'wizard'],
       alignment: 'neutral good',
       languages: ['all'],
+      appearance: [['An elderly human woman, a mage of long experience and calm bearing.']],
+      lore: [
+        [
+          "The Oracle is the guardian the Founder Dragons appointed to see that Strixhaven magic serves others and not evil. The role demands deep understanding of magic and flawless virtue. The present holder is Jadzi, a Quandrix graduate who later took up every school of spellcasting, pairing her early mathematical style with kindly divination and a return to magic's basics. She lives somewhere beyond the university's borders and is a natural ally against those who abuse its power.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Beyond Strixhaven'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2343,6 +2425,16 @@ export default createPublicationMonsters({
       tags: ['warlock'],
       alignment: 'neutral evil',
       languages: ['Common plus any four languages'],
+      appearance: [
+        ['A masked figure whose face is hidden, wielding weapons made from its own blood.'],
+      ],
+      lore: [
+        [
+          'Oriq members form a hidden order of mages loyal to Extus Narr, who was passed over for the post of Oracle and now plots to destroy Strixhaven by calling up the Blood Avatar. Members infiltrate the university to collect spells and magical energy and to spot students and faculty who are open to being turned. Their masks hide who they are and work only for the wearer they were made for. Blood mages are hard to surprise because they sense the life force of anyone nearby.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2611,6 +2703,16 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'any alignment',
       languages: ['Common plus any two languages'],
+      appearance: [
+        ['A young student mage whose elemental spells look like expressive performances.'],
+      ],
+      lore: [
+        [
+          'Prismari scholars regard art as spellcraft at its purest and see no line between magic and art. Each student casts in a personal style that expresses their character, turning fire and water spells into vivid displays. Mastering the elements demands exactness and poise, and a few students chase perfect control as a way to express what stirs inside them.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2690,6 +2792,18 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'any alignment',
       languages: ['Common plus any four languages'],
+      appearance: [
+        [
+          'A teacher who moves in flowing, continuous steps while wind, flame and lightning swirl around them.',
+        ],
+      ],
+      lore: [
+        [
+          'Professors of expression embody the flair of Prismari magic. Their spellcraft is quick and beautiful and, in a fight, quickly deadly, with lightning bolts and lashes of flame meeting enemies head on. They teach that magic should become art in the moment, whether as an unforgettable spectacle or a sudden killing stroke.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2918,6 +3032,14 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus any two languages'],
+      appearance: [['A young student mage absorbed in mathematical patterns.']],
+      lore: [
+        [
+          'Quandrix scholars study the mathematics underlying reality, using formulas to shape matter, space, minds, chance and the movement of magic. Apprentices are drawn to geometric and metaphysical magic. Their aim is to explore and widen knowledge without expecting firm answers, whether tracing patterns in nature or speculating about reality-bending topology.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2982,6 +3104,14 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus any two languages'],
+      appearance: [['A student mage deep in the study of geometry and metaphysics.']],
+      lore: [
+        [
+          'Quandrix scholars study the mathematics underlying reality, using formulas to shape matter, space, minds, chance and the movement of magic. Pledgemages are an advanced rank of student. Their projects explore and widen knowledge without expecting firm answers, blurring abstract numbers and the natural world.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3072,6 +3202,14 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus any four languages'],
+      appearance: [['A teacher who can change their own size and fold space into cutting edges.']],
+      lore: [
+        [
+          'Professors of substance favour the concrete side of Quandrix thought. They alter the equations describing the physical world, resizing themselves and others, forcing nature into rapid growth, teleporting and folding space into lethal blades. They teach that numbers exist physically in everything and that magic should be used for practical, tangible change.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3184,6 +3322,14 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus any four languages'],
+      appearance: [['A teacher whose spells shift perceptions and bend probability.']],
+      lore: [
+        [
+          "Professors of theory hold that math-magic is strongest in abstract realms: minds, chance and the weave of magic itself. In a fight they skew chance to blunt attacks, jam other spells as they form and strike at an opponent's resolve. They believe altering how a person meets the world can alter the world itself, and urge students to use magic to shape experience for the better.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3408,6 +3554,14 @@ export default createPublicationMonsters({
       tags: ['bard'],
       alignment: 'neutral',
       languages: ['all'],
+      appearance: [['A dragon whose words carry power.']],
+      lore: [
+        [
+          'Centuries ago Shadrix mastered light and shadow magic and channelled it through speech, so that his words inspired allies and disheartened foes. He founded Silverquill College on eloquence and leadership, hoping to train people who would go out and guide others.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4075,6 +4229,18 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'lawful neutral',
       languages: ['Common', 'Draconic', 'telepathy 120 ft'],
+      appearance: [
+        [
+          "A dragon whose magic shows as glowing geometric light: a lattice cage closing around a spell's target, or a wave of endlessly repeating fractal whorls from her breath.",
+        ],
+      ],
+      lore: [
+        [
+          'Tanazir is a master of the magic of physical reality and abstract theory, able to alter physical properties, gain basic insight and steer the flow of thought. She founded Quandrix College to nurture curiosity, hoping to train mages who chase understanding as an end in itself, following the mathematics that describes reality.',
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4261,6 +4427,18 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'lawful neutral',
       languages: ['all'],
+      appearance: [
+        [
+          'A dragon whose spells, legendary actions and breath come with tomes and scrolls of golden light, visible distortions as time doubles back, and thunderous sounds.',
+        ],
+      ],
+      lore: [
+        [
+          "Velomachus was the first Strixhaven dragon to master both order and chaos, how events unfold and can be predicted across time. Her magic works as a direct line to history. She founded Lorehold College so mortals would never forget history's lessons. After centuries of watching mistakes repeat, she hopes her college will teach people to foresee pitfalls or adapt their plans quickly when surprised.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4440,6 +4618,14 @@ export default createPublicationMonsters({
       tags: ['druid'],
       alignment: 'any alignment',
       languages: ['Common plus any two languages'],
+      appearance: [['A young student mage from the swamp college.']],
+      lore: [
+        [
+          "Witherbloom College studies the magic running through life's cycle of death and growth, deep in swamp fog and muck. Professors teach either from decay or growth. Students draw on life essence, the energy running through living things, and learn potions and talismans alongside spellcasting. Their magic spans necrotic shadow and withering poison to bursts of plant growth.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven', 'Swamp'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4539,6 +4725,14 @@ export default createPublicationMonsters({
       tags: ['druid'],
       alignment: 'any alignment',
       languages: ['Common plus any two languages'],
+      appearance: [['A student mage from the swamp college.']],
+      lore: [
+        [
+          "Witherbloom College studies the magic running through life's cycle of death and growth, deep in swamp fog and muck. Professors teach either from decay or growth. Students draw on life essence, the energy running through living things, and learn potions and talismans alongside spellcasting. Their magic spans necrotic shadow and withering poison to bursts of plant growth.",
+        ],
+        ['Sources: ', 'Strixhaven: A Curriculum of Chaos'],
+      ],
+      habitats: ['Strixhaven', 'Swamp'],
       stats: {
         size: 'small',
         type: 'humanoid',

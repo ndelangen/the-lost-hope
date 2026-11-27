@@ -1020,6 +1020,14 @@ export default createPublicationMonsters({
       name: 'Cthulhu',
       alignment: 'chaotic evil',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [['The text gives no description of its body, only its imprisonment.']],
+      lore: [
+        [
+          'Cthulhu was a danger to the whole multiverse and will be again. The Dark Powers have held it for ages, and unlike other prisoners in the Domains of Dread it suffers no ironic torment or thwarted ambition. It stays physically bound and can use only a fraction of its power, but its dreams escape the prison, steering minds and events towards its release and a new age of doom.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
+      habitats: ['Domains of Dread'],
       stats: {
         size: 'gargantuan',
         type: 'aberration',
@@ -1549,6 +1557,14 @@ export default createPublicationMonsters({
       name: 'Ebonbane',
       alignment: 'chaotic evil',
       languages: ['Common', 'telepathy 10 ft'],
+      appearance: [['A sapient evil blade that moves on its own inside Shadowborn Manor.']],
+      lore: [
+        [
+          "Ebonbane wants to erase everything left by the greatest hero of the Shadowlands and her allies, including everyone named Shadowborn and each member of the Circle. Only inside the manor does it act as a creature; elsewhere it needs a wielder. Many who try to attune to it are killed outright, and those who manage must bear the Darklord's endless demands and risk becoming a pawn. Left alone outside the manor it finds its way back, and if anyone tries to take it out of the Shadowlands it vanishes and reappears there. It is flamboyant, dramatic and sadistic, ignores life, loves raising foes' corpses and wrecking them as their allies watch, and mocks the grand speech of knights.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
+      habitats: ['Shadowlands'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -2192,6 +2208,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["Common (can't speak in dire wolf form)"],
       tableNotes: [['Gear: viol']],
+      appearance: [
+        [
+          'A charming man with a broad-brimmed hat and a necklace of wolf teeth, carrying a violin named Bleeding Heart.',
+        ],
+      ],
+      lore: [
+        [
+          "Harkon is a werewolf who manipulates others to feed his need for praise and control. He travels widely chasing fame, but every town he has performed in has forgotten him when he returns, so he believes the right song will finally make him unforgettable. He seeks talented protégés, nurtures their skills and then takes their work, securing loyalty with copies of his cursed necklace, Harkon's Bite, or by making them werewolves, and convincing them nobody else will take them in. He charms with flattery, and a gifted artist who turns him down becomes his fixation; the Darklord will go to extremes to claim such talent.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3946,6 +3973,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["understands all but can't speak"],
       habitats: ['any'],
+      appearance: [['A fiend-twisted killer that works in silence.']],
+      lore: [
+        [
+          'Relentless killers are maniacs who rise from mortals who made pacts with dark forces. A slasher follows its prey with single-minded fixation, does its bloody work quietly, then fades into shadow and infamy.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -4035,6 +4069,16 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Abyssal', 'Common', 'Elvish', 'Infernal'],
       tableNotes: [['Gear: hand crossbow, leather armor']],
+      appearance: [
+        ["A brash doctor turned monster hunter, now working from a modest herbalist's shop."],
+      ],
+      lore: [
+        [
+          "Rudolph once had a home near Rivalis in Darkon, shared with his wife Ingrid and their son Erasmus. After he refused to treat a dying member of the Radanavich brigand family, Irena Radanavich had his son kidnapped and sold to Baron Metus, a vampire. Rudolph broke the family's operation but was cursed to live among monsters and watch loved ones die. He staked his own son, now a vampire spawn, and Metus killed Ingrid in revenge before Rudolph destroyed him. Haunted, he hunts monsters, ends curses and arms others to do likewise. His books on vampires and werebeasts divide scholars, yet he has allies across the domains. He lives in Mordentshire in Mordent, corresponding with scholars and hunters.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
+      habitats: ['Mordentshire', 'Mordent'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4557,6 +4601,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ["understands Common but can't speak"],
       habitats: ['urban'],
+      appearance: [['A seething swarm of small, unstable creations.']],
+      lore: [
+        [
+          'Gremishkas are volatile creations of misguided spellcasters. They delight in tormenting magic users and try to destroy anything connected to them, especially spellbooks, components and familiars. A lone gremishka that meets magic bursts into a destructive swarm of copies.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -4806,6 +4857,13 @@ export default createPublicationMonsters({
         'underdark',
         'urban',
       ],
+      appearance: [['A swarm of crawling zombie limbs.']],
+      lore: [
+        [
+          "Ravenloft zombies take many monstrous forms, and dismemberment does not always end a zombie's rage. Swarms of limbs reanimate from the slough shed by zombie flesh molters and rush at monster hunters who wrongly thought they had finished.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -4876,6 +4934,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: [],
       habitats: ['any'],
+      appearance: [
+        [
+          'A shape that constantly shifts in ways that defy reality. Anyone who sees it knows at once that it is wrong.',
+        ],
+      ],
+      lore: [
+        [
+          'Unspeakable horrors are the opposite of every other living thing in the multiverse. That revelation is often the last thing a witness knows before discordant, destructive forces dissolve them.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -5563,6 +5632,13 @@ export default createPublicationMonsters({
         'underdark',
         'urban',
       ],
+      appearance: [['A stinking heap of decaying flesh that acts with one will.']],
+      lore: [
+        [
+          'Ravenloft zombies take many monstrous forms and foul and plague any living thing in their path. A clot forms when a mob of zombies becomes hopelessly tangled, or when several swarms of zombie limbs merge.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -5698,6 +5774,13 @@ export default createPublicationMonsters({
         'shadowfell',
         'underdark',
         'urban',
+      ],
+      appearance: [['A reanimated corpse made to spread toxins.']],
+      lore: [
+        [
+          'Ravenloft zombies take many monstrous forms and foul and plague any living thing in their path. Necromancers who want as much toxic chaos as possible make plague spreaders to do the dirty work.',
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
       ],
       stats: {
         size: 'medium',

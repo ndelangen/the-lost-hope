@@ -151,6 +151,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       habitats: ['any'],
+      appearance: [
+        [
+          'Most often seen not as a dragon but as an ordinary-looking person, since it uses magic to blend in among folk.',
+        ],
+      ],
+      lore: [
+        [
+          'An adult spirit dragon walks among people in magical disguise. It may pay adventurers to explore the remains of the homeland it lost.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -1112,6 +1123,13 @@ export default createPublicationMonsters({
       languages: ['Common'],
       habitats: ['urban'],
       tableNotes: [['Gear: holy symbol, studded leather armor']],
+      appearance: [['A fanatic who looks ordinary until the killing starts.']],
+      lore: [
+        [
+          "Bane, Bhaal and Myrkul seized godhood, were killed for their arrogance, and came back as the Dead Three, whose cults spread tyranny, murder and necromancy, especially around Baldur's Gate. Followers of Bhaal love bloodshed and enjoy murder, preferring inventive killings that frighten witnesses. Some form assassin cabals or hire themselves out as mercenaries, but they kill for love of slaughter and devotion rather than pay. They are clever and stay ahead of investigators until their bloodlust gets the better of them. Those taking orders directly from the god tend to be the most ambitious and dangerous.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1551,6 +1569,14 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Elvish', 'Infernal', "Thieves' cant"],
       tableNotes: [['Gear: studded leather armor']],
+      appearance: [['A ruthless assassin, heir to House Chembryl.']],
+      lore: [
+        [
+          "When patriarch Fzoul Chembryl died, the family scattered across Faerun. Some remain devoted to Bane, others try to escape his shadow, but none live the Chembryl tyranny as fully as Karas, whose worship of Bane, Bhaal and Myrkul made her known as the Auspice of the Dead Three. Her hideout lies deep under Baldur's Gate, holding shrines to the Dead Three and her studies of their lore and artifacts. Only her closest confidants know its location.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
+      habitats: ["Baldur's Gate"],
       stats: {
         size: 'medium',
         type: 'humanoid',

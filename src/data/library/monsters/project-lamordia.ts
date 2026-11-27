@@ -11,6 +11,17 @@ export default createPublicationMonsters({
       name: 'Adam',
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A hulking, unkempt automaton wanders the corridors of Mordenheim Kinetics, scarred from his last fight with his maker.',
+        ],
+      ],
+      lore: [
+        [
+          "Adam is an automaton carrying the imprinted neuroprint of Dr. Viktra Mordenheim's dead lover, her greatest invention and her worst mistake. His last struggle with her left him damaged and his memories corrupted. He haunts Mordenheim Kinetics hunting for clues to what he is and for the reason she is after him. The source points to a fuller treatment elsewhere in the adventure.",
+        ],
+        ['Sources: ', 'Project_Lamordia'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -376,6 +387,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['urban'],
+      appearance: [['A construct that wanders corridors in silence, then shrieks.']],
+      lore: [
+        [
+          "An echo stays empty until it receives its agent's neuroprint. Until then it has barely enough processing to move and do simple chores, and cannot reason, feel or remember. Left unsupervised, empty echoes tend to switch themselves on, leave their storage units and roam the halls of Mordenheim Kinetics. Their only way to communicate is an ear-splitting screech, so technicians are told to wear ear protection around them.",
+        ],
+        ['Sources: ', 'Project_Lamordia'],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -635,6 +653,15 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['urban'],
+      appearance: [
+        ['A mechanical hunting dog, hunting in packs and stalking the grounds like feral wolves.'],
+      ],
+      lore: [
+        [
+          "The Mordenheim Kinetics K-Nine was built as a combat machine for military operations and putting down unrest, programmed to be many times more vicious than a real hound. When the company's main projects ran short of money, Dr. Mordenheim began selling to buyers with fewer scruples, and the K-Nine became one of its biggest successes with military contractors and mercenary groups. Prototypes and spent units used to decorate the lobbies. Since the company's collapse, packs patrol the campus, hunting down runaway experiments and stray visitors and forcing them into shutdown.",
+        ],
+        ['Sources: ', 'Project_Lamordia'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',

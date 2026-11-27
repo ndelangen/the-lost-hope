@@ -853,6 +853,18 @@ export default createPublicationMonsters({
       name: 'Goose Mother',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A monstrous, many-headed goose of huge size that lives deep in the wilds and lays golden eggs.',
+        ],
+      ],
+      lore: [
+        [
+          "Eldraine's marshes are full of unusually aggressive geese, said to descend from a giant many-headed bird. Knights call it a myth, but wild folk know the Goose Mother is real. She was made centuries ago by a witch from a stew of hydra blood and goose feathers, grew enormous in days, and when the frightened witch tried to chop off her head, two grew back, so she ate the witch and fled into the wilds. She lays one golden egg on the hour, every hour. Some hatch into geese that torment the marshes, others hold trinkets or valuables. The fae there bring her fresh meat in return for the treasures.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Marsh', 'Wilds'],
       stats: {
         size: 'huge',
         type: 'fey',
@@ -1829,6 +1841,14 @@ export default createPublicationMonsters({
       name: 'Snapping Hydra',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A giant turtle-like hydra with many heads.']],
+      lore: [
+        [
+          "This rare hydra lives in the wilds of Eldraine, at the bottom of large lakes or on shores where the wilds meet the sea. Its bite can cleanly snap a giant's arm. It is long-lived and protective of itself: when a fight turns against it, it screeches hoarsely and pulls into its shell, and some curious or hungry creature usually arrives to join the fight against its foes while it slips away.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Lakes', 'Shoreline'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -2189,6 +2209,18 @@ export default createPublicationMonsters({
       name: 'Tempest Hart',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A colossal elk with antlers of living lightning and a long mane that ripples as if in a gale. Its patterned hide resembles twisting beanstalks, and real ones coil about its legs, shoulders and hindquarters.',
+        ],
+      ],
+      lore: [
+        [
+          'Tempest harts live in Stormkeld, the cloud realm above Eldraine where storm giants have huge cottages, keeps and towers amid beanstalks and storms. Giant hunters prize them as the worthiest quarry, for the meat and the pure lightning in their antlers. They defend themselves with strong elemental power.',
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Stormkeld', 'Eldraine'],
       stats: {
         size: 'huge',
         type: 'elemental',

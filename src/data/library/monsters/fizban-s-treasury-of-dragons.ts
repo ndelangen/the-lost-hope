@@ -3841,6 +3841,18 @@ export default createPublicationMonsters({
       page: 214,
       alignment: 'lawful neutral',
       languages: ['Common', 'Draconic', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A dragon in shades of blue from spring sky to deep glacier ice, scales glittering like starbursts. Its horns, spines and tail barbs hover separately in the air, drifting with its mood.',
+        ],
+      ],
+      lore: [
+        [
+          'Sapphire dragons are warlike and territorial, defending their lairs hard and planning ambushes and attacks on rivals. Their sonic breath leaves victims too weak to fight back. They plan around tunnelling and often study intruders before acting. They hunt for signs of the Far Realm, so they ally with emerald dragons for occult knowledge and sometimes befriend rock or deep gnomes who guard the surrounding land. Their prized hoard is weapons, armour, military history and tactics, and items that shield against psychic harm, kept in orderly catalogue. Their lairs are cave systems that grow into mazes of hidden passages, thin walls and secret rooms, and the safest may have no open entrance at all.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Underground', 'Caves'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4215,6 +4227,18 @@ export default createPublicationMonsters({
       page: 220,
       alignment: 'chaotic neutral',
       languages: ['Common', 'Draconic', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A wedge-shaped dragon, broad at the haunches and narrowing to the head, with translucent faceted scales from bright yellow to deep amber. Gem-like spines hover above its back and shift with its mood.',
+        ],
+      ],
+      lore: [
+        [
+          'Topaz dragons are shaped by necrotic energy and see decay as the natural way to clear space for new growth, so they turn crumbling buildings and sick plants to dust. They are gloomy, cranky and dislike company, though anyone who can bear their sharp tongue can win a lasting ally. They are strong swimmers who nevertheless hate water, yet love giant squid and so complain about being wet. They often clash with bronze dragons over coastal ground, and nature protectors dislike their destruction. They prize knowledge about creation and destruction, magic that makes things from nothing or raises the dead, and sometimes keep undead as curios. They live in sea cliff caves or beneath brackish salt marsh, keeping the inner rooms dry.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Coastal', 'Marsh'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4417,6 +4441,17 @@ export default createPublicationMonsters({
       page: 163,
       alignment: 'neutral evil',
       languages: ["understands Draconic but can't speak"],
+      appearance: [
+        [
+          "A walking figure made of a dragon's breath: for a red dragon it resembles a fire elemental, for a black one a foul, sticky water elemental, for green a billowing cloud of green gas, for white a walking ice sculpture swirling with cold, and for blue a restless shape of crackling lightning.",
+        ],
+      ],
+      lore: [
+        [
+          "With enough practice, chromatic dragons can pull on elemental magic to give their breath a walking, two-legged shape. They post these creatures as guards over the hoard or send them out to bring in treasure. The creature is made of the very energy the dragon breathes out. A blue dragon's version can blink out and reappear elsewhere, hitting like lightning from a clear sky.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -7286,6 +7321,17 @@ export default createPublicationMonsters({
       page: 178,
       alignment: 'any alignment',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A draconian that could be mistaken for a dragonborn at a glance, with wings that let it glide down from a fall.',
+        ],
+      ],
+      lore: [
+        [
+          'Draconians are two-legged monsters hatched from dragon eggs warped by powerful magic, usually on purpose by a would-be tyrant raising an army; one egg yields several of one kind. Infiltrators come from copper, black and topaz eggs and serve their makers as scouts and spies. Paralytic spit coats their weapons, which also makes them dangerous assassins. When one dies, its body melts into a pool of acid. On Krynn, those from copper eggs are called kapak draconians.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',

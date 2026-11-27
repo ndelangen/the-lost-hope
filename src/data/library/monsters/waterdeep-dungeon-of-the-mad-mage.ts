@@ -1253,6 +1253,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Deep Speech', 'Grell', 'Undercommon'],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A woman with dirty blonde hair and sharp dark eyes, two mouths stacked at a slant where one should be, and two pairs of arms from the shoulders. She wears a badly stitched robe made from scraps to fit her shape.',
+        ],
+      ],
+      lore: [
+        [
+          "Berlain and her brother Korva stepped briefly into the Far Realm just over a year ago and came out fused into one body. The merge destroyed most of Korva's body and mind, so she was left with his extra mouth and arms, a few of his organs and some of his traits. She can talk through one mouth or both.",
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',

@@ -6777,6 +6777,14 @@ export default createPublicationMonsters({
       page: 243,
       alignment: 'chaotic neutral',
       languages: ['Any one language (usually Common)'],
+      appearance: [['An Izzet blastseeker, a field operator who uses guild devices.']],
+      lore: [
+        [
+          "Chemisters invent the guild's tools and weapons, and blastseekers are the ones who deploy them. Not every device explodes, but the Izzet consider the best ones to do so.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',

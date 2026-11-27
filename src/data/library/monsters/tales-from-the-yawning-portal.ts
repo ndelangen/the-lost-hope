@@ -510,6 +510,13 @@ export default createPublicationMonsters({
       name: 'Centaur Mummy',
       alignment: 'lawful evil',
       languages: ['Common', 'Sylvan'],
+      appearance: [['A mummified centaur blocking the way deeper into a dungeon.']],
+      lore: [
+        [
+          'In The Hidden Shrine of Tamoachan the centaur mummy stands guard to stop intruders going further. It mixes the deadliest traits of two creature types: it strikes adjacent foes with its weapons while using a terrifying glare on any enemy that hangs back.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -3015,6 +3022,18 @@ export default createPublicationMonsters({
       tags: ['troglodyte'],
       alignment: 'chaotic evil',
       languages: ['Draconic', 'Troglodyte'],
+      appearance: [
+        [
+          'A troglodyte, savage and degenerate, from a tribe that lives in filth and marks its borders with bones, skulls or blood and dung pictographs.',
+        ],
+      ],
+      lore: [
+        [
+          'The book text here covers troglodytes in general. They squat in the shallows of the Underdark, constantly at war with neighbours and each other, and eat whatever they can stomach. Their culture is simple and communal, centred on finding food, and they cannot plan beyond a few days, so they raid and hunt non-stop and enjoy hunting weaker thinking creatures. The biggest and toughest lead hunts and the tribe, but a leader who falters is attacked and eaten. They make little and scavenge from prey, and fight over metal weapons and armour, so a tribe might split over one longsword. Some worship Laogzed, a fat demonic toad-lizard, hoping to become as fat and content.',
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5559,6 +5578,14 @@ export default createPublicationMonsters({
       name: 'Tarul Var',
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal', 'Primordial', 'Thayan'],
+      appearance: [['A lich hiding in the Doomvault, guarded by dread warriors.']],
+      lore: [
+        [
+          "After failing a task for the Red Wizards, Tarul Var hides in the Doomvault, trying to avoid Szass Tam's notice. Intruders who find his quarters face the lich and his guards. If he is nearly killed he may offer a deal in return for getting out of the dungeon.",
+        ],
+        ['Sources: ', 'Tales from the Yawning Portal'],
+      ],
+      habitats: ['Doomvault'],
       stats: {
         size: 'medium',
         type: 'undead',

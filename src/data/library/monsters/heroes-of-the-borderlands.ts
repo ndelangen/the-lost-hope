@@ -381,6 +381,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common'],
       tableNotes: [['Gear: chain shirt, mace']],
+      appearance: [['A feral, cringing lackey, whip in hand.']],
+      lore: [
+        [
+          'Narthus serves Ivlis from fear, not loyalty. He grovels to Ivlis and brutally whips new Cult of Chaos recruits into line. His wild manner leads some cultists to guess he was raised by animals. Ivlis values his servility and morbid interests, and uses him to grow the cult through macabre rites that press the dead into service.',
+        ],
+        ['Sources: ', 'Heroes of the Borderlands'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

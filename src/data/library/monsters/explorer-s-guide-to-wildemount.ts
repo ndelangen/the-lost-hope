@@ -496,6 +496,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Yeti'],
       habitats: ['arctic'],
+      appearance: [
+        [
+          'A hulking, snow-white ape-like creature that vanishes against the ice, though this one is unusual in its intelligence.',
+        ],
+      ],
+      lore: [
+        [
+          "When Aeor fell onto Foren, a purple crystal was flung miles away and pierced an abominable yeti named Allowak. Its magic preserved the corpse and took in his soul. Other yetis who touched the crystal grew cleverer and lost their urge to kill, and they now live in huts and herd mammoths for food, in a settlement known as Allowak's Sanctuary. They despise their savage kin. They hide their home, fearing that outsiders might steal the crystal and that removing it would undo their intellect. Patrols meet strangers by behaving like ordinary wild yetis, hurting intruders only as much as needed to protect the secret. They have collected books and journals from dead explorers and so know something of the world beyond Eiselcross. Ordinary yetis, by contrast, howl on the wind and hunt the high peaks.",
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -810,6 +821,13 @@ export default createPublicationMonsters({
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
+      appearance: [['A cold, expressionless stalker whose calm face hides turmoil.']],
+      lore: [
+        [
+          "Mortals and monsters alike treat the blood hunter as legend: a hunter said to have taken on monstrous power. Long ago some mortals performed dark rites and alchemical trials to gain the strength of the deadliest monsters so they could hunt them better. Beneath the steady surface lie animal rage and deep grief that fuel every sword stroke. A blood hunter's targets are usually in league with monsters, or victims of a dreadful mix-up, but sorting it out is hard because these hunters strike first and ask afterwards.",
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1232,6 +1250,18 @@ export default createPublicationMonsters({
       name: 'Core Spawn Emissary',
       alignment: 'chaotic evil',
       languages: ['telepathy 120 ft'],
+      appearance: [
+        [
+          'A droning insectoid wing-beat and a clicking of mandibles announce it before it arrives. Tubes in its head puff out clouds of crystal spores.',
+        ],
+      ],
+      lore: [
+        [
+          'Core spawn are subterranean aberrations, heralds, servants and soldiers of the Elder Evils, roused by the Betrayer Gods and their agents and often seen on the surface after earthquakes. They are numerous around the Blightshore, which makes them hard to study, and those who get back are often broken and speak of tunnel nests where Miskath Strand residents are taken below. Warlocks and cultists sometimes try to bring core spawn to the surface by focusing power on unstable ground. The flying emissary serves as assassin and sentinel for the core spawn, and its spores work like a contact poison that can kill if breathed in.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Underground', 'Blightshore'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -1340,6 +1370,18 @@ export default createPublicationMonsters({
       name: 'Core Spawn Worm',
       alignment: 'chaotic evil',
       languages: ["understands Deep Speech but can't speak"],
+      appearance: [
+        [
+          'A boneless horror with quivering barbed tentacles ringing a huge, toothy mouth. Its cracked, stony skin glows a dull orange, as though made of lava on the point of setting.',
+        ],
+      ],
+      lore: [
+        [
+          "Core spawn are aberrations from the depths, servants of the Elder Evils awakened by the Betrayer Gods and their followers, often surfacing after earthquakes such as the one that made the Miskath Pit. They are common in the Blightshore, and few researchers return. Warlocks and cultists sometimes gather on unstable ground to hasten their arrival when the omens suit. The text describes the worm's looks but not how it fights.",
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Underground', 'Blightshore'],
       stats: {
         size: 'gargantuan',
         type: 'aberration',
@@ -1684,6 +1726,18 @@ export default createPublicationMonsters({
       name: 'Frost Worm',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'The ground splits open as a vast worm erupts through snow, soil and ice, sounding a strange, drawing trill. Tunnels glazed with fresh ice mark where it hunts.',
+        ],
+      ],
+      lore: [
+        [
+          'Frost worms tunnel through frozen earth and stone in the far north of Wildemount, known as the Biting North, devouring any living thing their jaws can close on. One rests below the frozen ground for most of its life, saving its strength until prey crosses overhead. Travellers who notice freshly iced tunnels know they are in its hunting range. It detects vibrations from above and erupts upward. Anyone who survives that first strike must still resist its hypnotic trill, which roots creatures to the spot and leaves them helpless.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Arctic', 'Underground'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -2704,6 +2758,14 @@ export default createPublicationMonsters({
       name: 'Merrow Shallowpriest',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Aquan'],
+      appearance: [['A merrow that wields elemental magic.']],
+      lore: [
+        [
+          "Some of the merrow living in the murky waters off the Menagerie Coast learn to use elemental magic. They often guide hunting parties, and some become strong leaders who drive their clans to terrorise coastal towns and ships. Rumour says shallowpriests rule great underground merrow communities in flooded caverns under Wildemount, and that they want to flood the surface to drag people and goods down. Most serve no god, but some worship powers of the Elemental Plane of Water, hoping to extend their rule into Exandria's seas, and lead the building of shrines on the sea floor to prepare for planar doors to their master's realm.",
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Coastal', 'Underground waterways'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2849,6 +2911,13 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [['A fat, scaly and thoroughly repulsive devil.']],
+      lore: [
+        [
+          'Nergaliids lurk at the dark fringes of society and feed on the vitality of unsuspecting humanoids. Victims who die from feeding become corrupted undead husk zombies. It prefers to feed on sleepers, returning to the same victim each night while they stay unaware, giving it steady food and the victim awful nightmares. If found, it tries to bargain with the discoverer, perhaps offering wealth for freedom and silence, and attacks only if a deal looks unlikely.',
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -3205,6 +3274,14 @@ export default createPublicationMonsters({
       tags: ['sahuagin'],
       alignment: 'neutral evil',
       languages: ['Common', 'Sahuagin'],
+      appearance: [["A sahuagin that has taken a leviathan's dark gifts."]],
+      lore: [
+        [
+          "The sleeping leviathan Uk'otoa exploits the dread and ambition of humanoids who venture into the Lucidian Ocean. Ambitious sahuagin along the Menagerie Coast hear him call in their dreams, pressing them to claim his power. These warlocks mostly share a wish for vengeance on the Clovis Concord for sailing waters not theirs. Other sahuagin gather around them, drawn by their displays and looking for their own route to power. In time each warlock empties out into a vessel and puppet for Uk'otoa.",
+        ],
+        ['Sources: ', "Explorer's Guide to Wildemount"],
+      ],
+      habitats: ['Menagerie Coast', 'Lucidian Ocean'],
       stats: {
         size: 'medium',
         type: 'humanoid',

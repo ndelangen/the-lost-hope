@@ -192,6 +192,17 @@ export default createPublicationMonsters({
       name: 'Kyrilla, Accursed Gorgon',
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Primordial'],
+      appearance: [
+        [
+          'A gorgon with sickly pale skin, matte grey and green cable-like hair, glowing green eyes that light the space in front of her, four needle fangs, slicing claws and a long segmented tail instead of legs. She wears a bluish jade ring that reflects no light.',
+        ],
+      ],
+      lore: [
+        [
+          "Part of Kyrilla still hopes for forgiveness for her endless curse, but bitterness and malice have taken over, and she can only imagine escaping eternity by earning the gods' respect through sheer persistence. She wants fear and loathing, not pity, and since the death of her love Kathikon she has forgotten mercy. She judges others quickly, never admits fault and cares about nobody else. The powers her curse and a yuan-ti cult gave her mean little to her; she prefers to wallow in misery and hatred. She needs no food or drink but still breathes and sleeps. Her ring lets her cross water and was given long ago by an emissary of the Serpent Kingdoms. She reverts to her former looks on dying.",
+        ],
+        ['Sources: ', 'Adventures in the Forgotten Realms: Deepest Night'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',

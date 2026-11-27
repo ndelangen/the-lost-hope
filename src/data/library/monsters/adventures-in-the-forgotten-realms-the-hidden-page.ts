@@ -194,6 +194,17 @@ export default createPublicationMonsters({
       tags: ['shapeshifter'],
       alignment: 'lawful neutral',
       languages: ['all', 'telepathy 30 ft'],
+      appearance: [
+        [
+          'In its true form it is amorphous and invisible, and it shifts into shapes drawn from thoughts and memories it observes in other creatures.',
+        ],
+      ],
+      lore: [
+        [
+          'Usagt come from a calm, lawful plane where they live gentle, unhurried lives of centuries, enjoy experience in memory and practice, and have few ambitions. Some planar scholars think they are not true organisms but thinking beings composed of ideas and psychic substance. Shy by nature, they know themselves and each other by which shapes they take in what order. They love staging little improvised plays with their own kind, and watch other creatures to widen the cast they can portray. They do not reproduce and need neither food, drink nor sleep, though they enjoy them, and they do need air.',
+        ],
+        ['Sources: ', 'Adventures in the Forgotten Realms: The Hidden Page'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',

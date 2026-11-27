@@ -3274,6 +3274,14 @@ export default createPublicationMonsters({
       tableNotes: [
         ['The printed passive Perception is 15 even though its Perception skill is listed as +4.'],
       ],
+      appearance: [['A strig woodland scout, often with animal companions.']],
+      lore: [
+        [
+          'Trackers move quickly through the wilderness and help find people lost in the forest. They are skilled survivalists who know the hidden paths of the Wood, and many bond with woodland beasts that help them in searches. For Strigs, who are comfortable in harsh places, tracking is a satisfying pursuit. Some also work as bounty hunters for a more thrilling chase.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',

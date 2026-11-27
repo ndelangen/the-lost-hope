@@ -12,6 +12,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["understands commands given in any language but can't speak"],
       habitats: ['urban'],
+      appearance: [
+        [
+          'A mechanical guardian built in the shape of some animal or plant, its size and build differing from drone to drone.',
+        ],
+      ],
+      lore: [
+        [
+          'Detention drones differ in scale, power and form, though most take the shape of a mechanical beast or plant. This advanced model has no control amulet, so unlike other shield guardians it cannot be commanded by one.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -934,6 +945,18 @@ export default createPublicationMonsters({
       name: 'Breath Drinker',
       alignment: 'chaotic evil',
       languages: ['Deep Speech', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'Nothing visible: it floats through reality like a living void and stays unseen until it strikes.',
+        ],
+      ],
+      lore: [
+        [
+          "These aberrations come from the Far Realm and drift through creation after souls. A strike eats away the victim's personality and identity and finally pulls out and devours the soul. Necrotic energy repels them, as it deepens the void at their core until they devour themselves. They are cunning, usually lone stalkers, though some work for mighty Far Realm powers or Elder Evils, feeding them lives and souls. The first existed only once the Void card was drawn from the very first Deck of Many Things.",
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
+      habitats: ['Far Realm'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -1562,6 +1585,13 @@ export default createPublicationMonsters({
       name: 'Grim Champion of Bloodshed',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [['An undead commander wrapped in searing flame, riding a flaming steed.']],
+      lore: [
+        [
+          "Wynemar Brack was a farmer until mercenaries in a regional war burned her fields and plundered her village. Desperate, she listened to a smooth-talking travelling fortune teller and pulled a card from a Deck of Many Things; death's avatar struck her down instantly. Many centuries later she is a powerful, bloodthirsty undead commander in the Grim Harrow, and she personifies the chaos of war. The Harrow has three leaders called grim champions, each embodying a dreadful side of death: Jyn Corvis (desolation) is the eldest and strongest, and Wynemar (bloodshed) and Aleron (pestilence) both challenge her and can resist her together. They almost never agree and rarely share intelligence or resources, so the Harrow does not act as one.",
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1705,6 +1735,17 @@ export default createPublicationMonsters({
       name: 'Grim Champion of Desolation',
       alignment: 'lawful evil',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        [
+          'An undead woman on a hostile, dragon-like mount with pallid, leathery wings and gaunt skin. An eerie, hollow quiet comes before her.',
+        ],
+      ],
+      lore: [
+        [
+          "Jyn Corvis, once an adventurer, may have been the first to pull the Skull from a Deck of Many Things and be killed by death's avatar, though so much time has passed that she remembers almost none of her old life. Centuries have left her tormented, with nothing but nihilism driving her. More than anyone in the Grim Harrow she longs to wreck the deck and end her suffering, and given the means she would end the whole multiverse with her. Of the three grim champions she is the eldest and strongest, the embodiment of all-consuming nothing, and is nominally master of the demiplane's undead after leading the Harrow to the Gardens of Delight. Wynemar Brack and Aleron challenge her, can resist her jointly, and the trio seldom cooperate.",
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2320,6 +2361,13 @@ export default createPublicationMonsters({
       tags: ['warlock'],
       alignment: 'chaotic evil',
       languages: ['Common plus any two languages', 'telepathy 60 ft'],
+      appearance: [['A powerful warlock-priest of a cult that worships a comet.']],
+      lore: [
+        [
+          "Every world has exactly twenty-two hierophants, one for every card of a Deck of Many Things, and as a body they are called Sages. When one dies, the survivors pick a successor, favouring initiates from the longest-established broods. The newcomer goes through a rite with only other hierophants watching, is taught the leadership's hidden lore, and closes with a terrible vision of the Void, which they take to be the shapeless nothing before the cosmos and after it. As rulers of the Heralds of the Comet they are potent warlocks who can reach the strange intelligence of the All-Consuming Star, fire beams of eldritch force and call up manifestations of that entity to devour enemies.",
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2580,6 +2628,17 @@ export default createPublicationMonsters({
       name: 'Living Portent',
       alignment: 'lawful neutral',
       languages: ['all'],
+      appearance: [
+        [
+          'A streak of light crashes from the sky, leaving a huge crater, and then a luminous being steps out looking like an ordinary local.',
+        ],
+      ],
+      lore: [
+        [
+          'Living portents are celestial embodiments of prophecy sent by gods or other cosmic powers. They arrive on a world as falling stars, and though the impact digs a vast crater, nobody living nearby is harmed. They then take humanoid shape to blend in and search for people who will matter to the prophecy, passing scraps of it to those they meet.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'small',
         type: 'celestial',
@@ -3607,6 +3666,17 @@ export default createPublicationMonsters({
       name: 'Ruin Spider',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A giant spider with the card-back design of the Deck of Many Things marked on its carapace.',
+        ],
+      ],
+      lore: [
+        [
+          'Ruin spiders appear when the power of the Deck of Many Things, left sitting in one spot for ages, warps giant spiders into worse creatures. Their venom is acidic and disintegrates whatever it touches. Anyone who knows the deck will recognise one by the carapace marking.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',

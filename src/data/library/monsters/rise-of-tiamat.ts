@@ -993,6 +993,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Infernal'],
+      appearance: [['A cultist, usually with a small pseudodragon close by.']],
+      lore: [
+        [
+          "Severin keeps a neutral evil pseudodragon named Nelvik, which stays close. While the ritual calling Tiamat is under way, Nelvik crouches on a ledge inside the Dragon Queen's temple, high up its tallest tower. If Severin dies, Nelvik tries to befriend the killers and waits for a chance at revenge.",
+        ],
+        ['Sources: ', 'Rise of Tiamat'],
+      ],
+      habitats: ["Dragon Queen's temple"],
       stats: {
         size: 'medium',
         type: 'humanoid',

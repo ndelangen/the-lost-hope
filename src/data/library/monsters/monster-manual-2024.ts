@@ -30724,6 +30724,17 @@ export default createPublicationMonsters({
           'Give the cave a side passage out of reach. Put discarded gear where the party can see it before entering the main chamber.',
         ],
       ],
+      appearance: [
+        [
+          'What looks like a stalagmite or a hanging stalactite is quietly creeping along the cave wall or ceiling. A single eye opens in the rock, and sticky tendrils lash out while it makes wet, guttural noises.',
+        ],
+      ],
+      lore: [
+        [
+          "The roper is a grown-up piercer that hunts the Underdark by sitting motionless for hours, eye shut, passing for ordinary stone. It lets prey come close, then fires its tendrils, which draw the victim's strength away so the struggle is feeble, and hauls the catch to its toothed maw. It moves only slowly, on tiny sticky cilia, so it picks its ambush spot carefully. A severed tendril is regrown. After death its gut can hold undigested platinum, gems and magic items, and its digestive fluid sells well to alchemists as a solvent.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',

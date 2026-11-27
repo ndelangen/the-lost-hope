@@ -537,6 +537,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common', 'Sylvan'],
       habitats: ['planar', 'feywild'],
+      appearance: [['A donkey-like two-legged fey on the fringes of noggle society.']],
+      lore: [
+        [
+          "Noggles are mischievous thieves who steal on principle, summed up by a Sylvan phrase meaning 'that's mine!', and roam Shadowmoor causing chaos. Some have a strong link to the strange magic of Lorwyn-Shadowmoor and live as outcasts and drifters, their magic at its peak when they are in the worst straits, as in a fight.",
+        ],
+        ['Sources: ', 'Lorwyn: First Light'],
+      ],
       stats: {
         size: 'small',
         type: 'fey',
@@ -610,6 +617,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Giant'],
       habitats: ['planar', 'feywild'],
+      appearance: [
+        [
+          'An enormous giant, in Shadowmoor so long asleep that it has fused with the earth around it.',
+        ],
+      ],
+      lore: [
+        [
+          'The giants of this twin realm are old, wise wanderers, closely tied to nature but indifferent to smaller peoples. At best they are aloof, at worst they treat small folk as pests to crush. They have vivid dreams they treat as near-divine messages and mark sleeping places with huge stone arches. Careful adventurers avoid these arches, though treasure hunters seek abandoned ones full of relics. Angry giants can bring down mountain force and avalanches. In Shadowmoor they sleep nearly into hibernation, merge with the land and wield its wild magic.',
+        ],
+        ['Sources: ', 'Lorwyn: First Light'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',

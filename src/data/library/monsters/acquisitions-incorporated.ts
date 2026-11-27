@@ -11,6 +11,13 @@ export default createPublicationMonsters({
       name: 'Ancient Deep Crow',
       alignment: 'unaligned',
       languages: ['Deep Crow'],
+      appearance: [['A deep crow of enormous size, a leviathan far beyond its lesser relatives.']],
+      lore: [
+        [
+          "Very little is known about deep crows, and even less about these giant cousins. Nobody can say whether they are old deep crows that grew huge or a higher kind that commands the smaller ones. The book's advice is blunt: keep well away.",
+        ],
+        ['Sources: ', 'Acquisitions Incorporated'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',

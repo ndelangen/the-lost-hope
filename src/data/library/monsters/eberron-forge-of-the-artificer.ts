@@ -13,6 +13,14 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Halfling', "Thieves' cant"],
       tableNotes: [['Gear: leather armor, pistol, shortsword']],
+      appearance: [['A fast, slippery criminal, most often a halfling.']],
+      lore: [
+        [
+          'These smugglers work for the Boromar Clan, which runs contraband around Sharn, from narcotics to illegal arcane arms. They are known for being very hard to catch.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
+      habitats: ['Sharn'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -72,6 +80,14 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Halfling', "Thieves' cant"],
       tableNotes: [['Gear: studded leather armor']],
+      appearance: [['A hardened criminal, usually a halfling, calm about violence.']],
+      lore: [
+        [
+          "Underbosses run the Boromar Clan's larger operations, such as gambling dens and warehouses where smuggled goods wait to be shipped. Long used to a life of crime, they deal with threats coolly and efficiently.",
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
+      habitats: ['Sharn'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -423,6 +439,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Quori', 'telepathy 120 ft.'],
       tableNotes: [['Gear: chain shirt']],
+      appearance: [['A spy who looks unremarkable until it matters.']],
+      lore: [
+        [
+          "Dreaming Dark infiltrators are agents sent to collect intelligence. They seed their enemies' minds with psychic seeds that make the infiltrators more effective in fighting those enemies.",
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -661,6 +684,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Halfling'],
       tableNotes: [['Gear: dagger, leather armor']],
+      appearance: [['An inn employee, most often a halfling, who is there to keep the peace.']],
+      lore: [
+        [
+          "House Ghallanda runs inns intended as safe havens for quiet rest, and it hires troubleshooters to guard the guests' safety and calm.",
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -882,6 +912,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Elvish', "Thieves' cant"],
       tableNotes: [['Gear: studded leather armor']],
+      appearance: [['A mostly elven spy who also has performing-arts training.']],
+      lore: [
+        [
+          'Agents of Houses Phiarlan and Thuranni pair stealth and spying with performing-arts mastery, and the dragonmarked among them add shadow magic. This stat block fits either house. Phiarlan agents are not usually working entertainers but are trained in the arts anyway, while Thuranni agents invariably work as both artists and spies.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1161,6 +1198,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Orc plus one other language'],
       tableNotes: [['Gear: longbow, shortsword, studded leather armor']],
+      appearance: [['A human or orc bounty hunter at ease in the wild.']],
+      lore: [
+        [
+          "House Tharashk's heirs are inquisitives, shard prospectors and bounty hunters. These heirs prefer trackless wilds to crowded streets but can pursue prey anywhere. Hunters often work with Druids of the Gatekeepers and sometimes with the Dragon Below's aberrant cultists.",
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1507,6 +1551,13 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Elvish', 'Giant'],
       tableNotes: [['Gear: shortsword, studded leather armor']],
+      appearance: [['A drow warrior with scorpion-venom tattoos.']],
+      lore: [
+        [
+          'Vulkoori drow warriors coat weapons with the scorpion venom they use for tattooing. Heavy use has made them resistant to its full effects.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

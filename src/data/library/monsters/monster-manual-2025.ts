@@ -184,6 +184,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
       habitats: ['planar', 'shadowfell', 'underdark'],
+      appearance: [
+        [
+          'A dragon with charcoal scales that have lost their lustre, translucent leathery wings and pale, opalescent grey eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'Shadow dragons are true dragons born in or transformed by the Shadowfell. Some love its bleakness, while others want back into the Material Plane to spread its darkness. Portals open in forlorn places and deep caverns, and a sleeping dragon can be carried through unawares. The change takes years, and the dragon sees it happening but cannot stop it. They hate sunlight and fade toward a spectral shadow in darkness. Returning to the Material Plane does not undo the change.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',

@@ -3806,6 +3806,14 @@ export default createPublicationMonsters({
           'Delerium contamination: Printed source. Appendix C, pp. 222–223.\nAdd contamination levels from each exposure. A contaminated character rolls 1d20 at the end of each long rest and gains one level on a 1.\nSymptoms are cumulative. Level 1 has no symptom. Level 2 halves healing from Hit Dice. Level 3 prevents HP recovery from a long rest. Level 4 halves damage the creature deals with weapon attacks and spells. Level 5 makes it Incapacitated. Level 6 triggers Monstrous Transformation.\nAfter a character gains a level, roll 1d6. On a result at or below the current level, the GM chooses a new mutation or rolls on the printed mutations table. Replace or reroll duplicate mutations.\nContamination does not wear off. Purge Contamination can remove levels and causes Exhaustion. Heal removes all contamination and mutations. Each level removed also removes one random mutation. At level 0, all symptoms and mutations end.\nA contaminated humanoid rises as a Haze Husk 24 hours after death. It rises as a Haze Wight if it had at least six class levels or Hit Dice. Raising a creature from the dead reduces its contamination by one level.\nMonstrous Transformation. At level 6 or higher, the creature transforms after one round. Replace its statistics, hit points, and Hit Dice with those of a monster the GM chooses. Contamination resets to 0, and the GM controls the transformed creature.\nWish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again.',
         ],
       ],
+      appearance: [['A spirit tied to the chapel that bears her name.']],
+      lore: [
+        [
+          'Lucretia Mathias called Gresha back in spirit to look after the chapel named for her. When Gresha is destroyed, Lucretia calls her back again as soon as she can.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Gresha chapel'],
       stats: {
         size: 'medium',
         type: 'undead',

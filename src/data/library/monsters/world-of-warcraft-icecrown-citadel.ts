@@ -1715,6 +1715,14 @@ export default createPublicationMonsters({
       tags: ['angel'],
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft.'],
+      appearance: [["A val'kyr, an undead angelic being formed from a fallen vrykul warrior."]],
+      lore: [
+        [
+          "Svalna is the foremost of the Scourge's val'kyr. She had a hand in making Arthas's death knights of Acherus and, with other val'kyr, oversaw their training so that none died before it was complete.",
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
+      habitats: ['Icecrown Citadel'],
       stats: {
         size: 'large',
         type: 'undead',

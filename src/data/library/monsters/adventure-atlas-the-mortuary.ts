@@ -95,6 +95,18 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'neutral evil',
       languages: ['all'],
+      appearance: [
+        [
+          "Little more than a floating head and two hands, with a tattered cloak fluttering behind. He drifts through the Mortuary's empty halls, rasping to himself.",
+        ],
+      ],
+      lore: [
+        [
+          "Skall is the factol, and only ever leader, of the Heralds of Dust. Dusters say he is Sigil's oldest resident after the Lady of Pain, the first being to live and die there, and they idolise his stern face as their emblem. He is usually found studying his orrery of souls. After ages he is badly decayed, a once-spry lich now worn out. He rarely appears in person, sending undead proxies or sometimes an illusory double. He misses subtle social cues, since eternity has erased his memory of mortal life. His power has faded, but fighting him is still deadly. He grants his enemies lasting oblivion and guides friends and foes alike toward True Death.",
+        ],
+        ['Sources: ', 'Adventure Atlas: The Mortuary'],
+      ],
+      habitats: ['Sigil'],
       stats: {
         size: 'medium',
         type: 'undead',

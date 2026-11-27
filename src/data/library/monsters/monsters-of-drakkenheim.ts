@@ -10,6 +10,17 @@ export default createPublicationMonsters({
     aberrant_host: {
       name: 'Aberrant Host',
       languages: ['Common', 'telepathy 120 ft'],
+      appearance: [
+        [
+          "A person's face twists into an impossibly wide smile as horn-like lumps tear out of the forehead. Strange glowing runes flare across the skin, the air fills with the stink of burning flesh and brimstone, and the body floats upward wrapped in a spiral of flame.",
+        ],
+      ],
+      lore: [
+        [
+          "A Soulbound Host is the body of an apothecary who knowingly let an extraplanar being possess them, usually the desperate last move against a demon, fey or other outsider that cannot be killed for good on the Material Plane. The apothecary prepares the trap with implants, tinctures and rites, then flatters the creature into taking the body. Once in, the outsider is shut in a mortal frame; if the body dies, its spirit goes to the afterlife like any mortal's and its power is lost for ever. Hosts hate their makers, remain dangerous, and often escape to wander under stolen identities in search of a way to undo the curse. The source text was cut off, so what a trapped outsider can do to win freedom is not covered here.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -842,6 +853,17 @@ export default createPublicationMonsters({
     apex: {
       name: 'Apex',
       languages: ['all', 'telepathy 30 ft'],
+      appearance: [
+        [
+          'A flawless, heavily muscled human form with golden skin and bulging veins that glow in many colours. Its eyes pour out light, its voice booms like a chorus, and fire, ice and lightning crackle around it.',
+        ],
+      ],
+      lore: [
+        [
+          "The Apex is a Mutagenist who has taken the final, perfected transmogrifying formula, a permanent change after years of work and many failed test subjects. Its body adapts to threats and senses events with great precision, but the mind is broken, and it cannot see that. It sinks into hostile, raging madness while using scientific reasoning to excuse itself. Even now it nags at itself that it could be better, so many stay at their workshops kidnapping subjects to test. The source text was cut off before the Apex's tactics were described.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3811,6 +3833,17 @@ export default createPublicationMonsters({
     delerium_dragon_wyrmling: {
       name: 'Delerium Dragon Wyrmling',
       languages: ['Common', 'Draconic', 'telepathy 30 ft'],
+      appearance: [
+        [
+          'A crystalline young dragon whose angular, gem-like scales throb with octarine light and refract purple, yellow and green. Translucent wings with glowing crystal veins throw shifting patterns and make the air hum, crystal motes sprout into jagged growths where it steps, and its eyes swirl like faceted gems.',
+        ],
+      ],
+      lore: [
+        [
+          'Delerium dragons come from the Space Between Worlds, and nobody knows how they began; one idea is that they hatch from crystal eggs with octarine shells. Claws, bones and scales are all delerium shard, the flesh is incomprehensible matter and the blood is delerium sludge. Their breath is a storm of shards that burst, bringing madness, mutation and wild magic. They sense dimensions mortals cannot, so they seem distracted, and they are unstuck in time, some living their lives all at once or out of order. Many ponder existence, and many are nihilistic, doubting even their own reality. The text covers the whole kind rather than wyrmlings in particular.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -4291,6 +4324,18 @@ export default createPublicationMonsters({
     eldritch_crawler: {
       name: 'Eldritch Crawler',
       languages: [],
+      appearance: [
+        [
+          'A twisted, spider-like creature with a long body, fanged jaws and a spiny hide, clambering over a mosaic of broken glass. Faint ghostly echoes of movements it did not make flicker around each step.',
+        ],
+      ],
+      lore: [
+        [
+          'These creatures seem to stitch together fragments of reality, parallel worlds and other timelines, much as a spider builds a web. Those who fought one say attacking it feels like reality is cracked, because it shifts realities and shows every outcome of a strike at once. Whether one is truly dead is doubtful; it may only have been seen dying in one timeline and live on in the rest. In battle it shifts to realities where it survives, teleports and slips into the Space Between Worlds, making its own Thin Places to pass through. The text is cut off before it finishes describing how it attacks.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Space Between Worlds'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -5089,6 +5134,17 @@ export default createPublicationMonsters({
       name: 'Fiendish Host',
       tags: ['Demon'],
       languages: ['Abyssal', 'Common', 'Infernal'],
+      appearance: [
+        [
+          "A person's face twists into an unnaturally wide grin as horn-like lumps burst from the forehead. Glowing runes flare on the skin, the air stinks of scorched flesh and sulfur, and the body rises wrapped in flame.",
+        ],
+      ],
+      lore: [
+        [
+          "A Soulbound Host is an apothecary who knowingly let an extraplanar being possess them, trapping a powerful outsider in mortal flesh. Exorcists and Alienists make them, usually in desperation against a demon, fey or other being that would simply re-form if killed elsewhere. The apothecary prepares with implanted metals, tinctures and rites, then lures the creature in through its own ego. If the body dies, the spirit passes on like any mortal's and its power is gone for ever. Hosts hate their makers, remain dangerous, and often escape to wander in stolen identities seeking a way back to their home planes. The text is cut off before the rest of the account.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -6383,6 +6439,18 @@ export default createPublicationMonsters({
     hazewind_harpy_crone: {
       name: 'Hazewind Harpy Crone',
       languages: ['Common'],
+      appearance: [
+        [
+          'An armless harpy with a wide, shimmering wingspan of green, blue, violet and gold, perched on its taloned feet. Matted white hair falls over wrinkled flesh, the face on its long neck is warped with a hooked nose, pointed chin, too-wide grin, too-sharp teeth and big white eyes. It wears feather jewellery and a golden ivy crown and seems to glow as it sings.',
+        ],
+      ],
+      lore: [
+        [
+          'Crones are the senior members of harpy communities, and their songs preserve the wars, victories and griefs of the whole brood. Harpies regard them as oracles and sages, but to anyone who menaces harpies they are terrifying, since the songs instil mortals with a sense of approaching doom and few survive hearing them. In Drakkenheim, bell towers and spires that offer roosts often carry far-off, honeyed but subtly discordant music, which marks harpy territory. A crone avoids direct combat. She sits somewhere hard to reach while her songs strengthen her combat-minded sisters and worsen falls for enemies, and if anyone gets close she may sing a hypnotic tune and relocate. The text is cut off before the remaining notes.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', 'Ruins'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6920,6 +6988,14 @@ export default createPublicationMonsters({
       name: 'High Flamekeeper Ophelia Reed',
       languages: ['Common'],
       tableNotes: [['Gear: half plate armor, shield']],
+      appearance: [['A sturdy woman around her late forties, with deep brown skin.']],
+      lore: [
+        [
+          "The Silver Order is a Church-sanctioned elite force of paladins and ordained knights from Elyria, sworn to resist supernatural evil, otherworldly incursions and dark magic. Followers of the Sacred Flame, they see delerium as a dangerous blight, and under Knight-Captain Theodore Marshal they have come to remove Drakkenheim's corruption at its root. They keep strictly to the Edicts of Lumen, which balance church, mages and crown. They prefer force to subtlety, drill as a unit and use call signs, hand signals and fixed tactics. Each regiment includes a paladin, a Flamekeeper, or both, so healing, protective magic and divination are normally on hand, and the casters often carry fire spells.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -9157,6 +9233,18 @@ export default createPublicationMonsters({
     oak_troll: {
       name: 'Oak Troll',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'What looks like a heap of autumn leaves rises to show a grotesque face of carved wood and gnarled oak claws and feet, cloaked in orange, yellow and red leaves. It sounds like wind in a forest, with creaking boughs for grunts and branches thumping on the ground for steps.',
+        ],
+      ],
+      lore: [
+        [
+          'Oak trolls roam many forests, among them the Achtungwald and Trogrowth, tending and talking to the trees and defending them fiercely from outsiders. The leaf cloak protects them, and they look for a chance to burst the leaves off to blind enemies.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -10286,6 +10374,18 @@ export default createPublicationMonsters({
     ratling_pathogenist: {
       name: 'Ratling Pathogenist',
       languages: ['Common'],
+      appearance: [
+        [
+          'A ratling wearing a heavy leather coat and a rough, self-made respirator, carrying a satchel of poisons and potions. Its patchy fur is burnt away in places, and its skin shows sores and blisters. An acrid stench of burnt hair and rot hangs around it.',
+        ],
+      ],
+      lore: [
+        [
+          'Pathogenists are among the cleverest ratlings. They study what diseases do to their enemies and take pride in turning them into weapons, using diseased blades, needles and syringes. Even standing close risks sickness from the foul haze around them. It throws vials at its victims and enjoys riddling them with illness.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -10926,6 +11026,18 @@ export default createPublicationMonsters({
       name: 'Reborn Vladimir von Drakken',
       tags: ['Epic Boss'],
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A man nearly seven feet tall in ornate, blood-soaked plate with the von Drakken sigil on the breastplate. Deep red draconic wings spread from his back, and his fanged, predatory face has a trimmed salt-and-pepper beard. He points a greatsword and issues a challenge.',
+        ],
+      ],
+      lore: [
+        [
+          'This is Vladimir at full strength, his usual form, and in it he fights with calculation and strategy.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -11199,6 +11311,18 @@ export default createPublicationMonsters({
     ripper: {
       name: 'Ripper',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [
+        [
+          'A huge, lumbering heap of grafted and mutated body parts, in a medical apron and mask caked with blood. Its oversized arms carry a whirring bone saw that sprays gore.',
+        ],
+      ],
+      lore: [
+        [
+          "A Ripper is a former patient reduced to a mindless beast, nearly buried under its own growths, made by a mad apothecary as a supposed surgical assistant. Its real job is butchery: dismembering corpses and gathering parts to build more abominations. Extra limbs stitched on let it collect pieces and pin down subjects. It reacts to a victim's terror with adrenaline and bloodlust. Rarely seen outside an apothecary's laboratory, it makes a fine guardian.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', 'Apothecary laboratory'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -11799,6 +11923,18 @@ export default createPublicationMonsters({
     shardmaul_manticore: {
       name: 'Shardmaul Manticore',
       languages: ['Common'],
+      appearance: [
+        [
+          'A lion-like predator on thick leathery wings with a human head twisted in fury. Crystalline quills bristle through its mane, along its wingtips and down its spine, and its chitinous tail ends in a cluster of stingers that turn from black bone to glittering delerium shards.',
+        ],
+      ],
+      lore: [
+        [
+          'Before the meteor strike, manticores nesting in the Giantfrost Mountains flew south to feast on livestock and travellers, and the City Guard kept them in check. After Drakkenheim fell and the countryside emptied, hungry, bolder manticores entered the ruins. They preyed on contaminated people and monsters, and the tainted flesh mutated them into Shardmaul Manticores.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', 'Giantfrost Mountains'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -12031,6 +12167,14 @@ export default createPublicationMonsters({
       name: 'Silver Order Paladin',
       languages: ['Common and one other language'],
       tableNotes: [['Gear: javelin, longsword, plate armor']],
+      appearance: [['A church-sanctioned knight of the Silver Order.']],
+      lore: [
+        [
+          "This is a church-backed military order from Elyria, sworn to fight supernatural evil, otherworldly incursions and dark magic, and faithful to the Sacred Flame's church. Its members regard delerium as a contaminating blight, and the order is led by Knight-Captain Theodore Marshal, who has sent them to root out Drakkenheim's corruption. They have a reputation for sticking strictly to the Edicts of Lumen, the law balancing church, mages and crown. The text describes the whole order rather than this rank. In a fight they trade finesse for coordinated force, using call signs and hand signals, and a regiment is accompanied by a paladin or Flamekeeper.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -12135,6 +12279,14 @@ export default createPublicationMonsters({
       name: 'Silver Order Recruit',
       languages: ['Common'],
       tableNotes: [['Gear: breastplate, longsword, quiver, shield, shortbow']],
+      appearance: [['A church-sanctioned soldier of the Silver Order.']],
+      lore: [
+        [
+          "This is a church-backed military order from Elyria, sworn to fight supernatural evil, otherworldly incursions and dark magic, and faithful to the Sacred Flame's church. Its members regard delerium as a contaminating blight, and the order is led by Knight-Captain Theodore Marshal, who has sent them to root out Drakkenheim's corruption. They have a reputation for sticking strictly to the Edicts of Lumen, the law balancing church, mages and crown. The text describes the whole order rather than this rank. In a fight they trade finesse for coordinated force, using call signs and hand signals, and a regiment is accompanied by a paladin or Flamekeeper.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -12218,6 +12370,14 @@ export default createPublicationMonsters({
       name: 'Silver Order Squire',
       languages: ['Common'],
       tableNotes: [['Gear: quiver, shield, shortbow, shortsword, studded leather armor']],
+      appearance: [['A church-sanctioned soldier of the Silver Order.']],
+      lore: [
+        [
+          "This is a church-backed military order from Elyria, sworn to fight supernatural evil, otherworldly incursions and dark magic, and faithful to the Sacred Flame's church. Its members regard delerium as a contaminating blight, and the order is led by Knight-Captain Theodore Marshal, who has sent them to root out Drakkenheim's corruption. They have a reputation for sticking strictly to the Edicts of Lumen, the law balancing church, mages and crown. The text describes the whole order rather than this rank. In a fight they trade finesse for coordinated force, using call signs and hand signals, and a regiment is accompanied by a paladin or Flamekeeper.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -12548,6 +12708,18 @@ export default createPublicationMonsters({
     skin_crawler: {
       name: 'Skin Crawler',
       languages: ['Common'],
+      appearance: [
+        [
+          'A squishing, dragging sound out of the dark, then two sagging arms. Behind them comes a boneless bag of skin shaped like a person, with empty eye sockets, a gaping mouth and dragging legs, groaning hungrily.',
+        ],
+      ],
+      lore: [
+        [
+          'Skin crawlers come from people whose contamination causes mutations so rapid their bodies cannot cope: organs liquefy and they die vomiting black bile, leaving an empty sack of flesh lying in a pool of delerium sludge. The sack wakes starved, hunting living creatures for meat to refill itself. It can swallow a victim whole like a python and then take on its form, though signs of the disguise remain unpleasant and grotesque.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -12907,6 +13079,18 @@ export default createPublicationMonsters({
     stitcher: {
       name: 'Stitcher',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [
+        [
+          'A tall, emaciated construct with tight skin over lean muscle, a little hairless head with tiny black eyes, straps pinning its jaw open around a reel of thread. One hand is a cluster of scissors, blades and scalpels, the other a bank of piston-driven needles. Its ribcage is splayed open around a spool of bandages, and it drags a bloody burlap sack of severed limbs.',
+        ],
+      ],
+      lore: [
+        [
+          'A Stitcher is a lab assistant for an apothecary, built for fast limb attachment, wound closing and incisions, able to graft a limb in seconds. It has a single narrow focus, and even when defending itself it applies its needlework and surgery to sew foes up, often aiming its needles at the mouths of spellcasters.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', 'Apothecary laboratory'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -13153,6 +13337,18 @@ export default createPublicationMonsters({
           'Condition immunity as printed: burning (Monsters of Drakkenheim); the Special Immunities trait states it.',
         ],
       ],
+      appearance: [
+        [
+          'A hulking mass of corroded steel and pale flesh, a gas mask bolted over its face. A huge chemical drum forms its belly, with tubes and hoses running to metal nozzles in place of hands. It gives off a burning, eye-watering stink of mixed chemicals.',
+        ],
+      ],
+      lore: [
+        [
+          'Chemists and Pathogenists prefer the Tanker as a lab assistant. It is a construct built out of a human body as a walking barrel of reagents, meant to move large amounts of mixed compounds between vessels. Threatened, it fires globs of its contents from its hoses and gouts toxic fluid, and its fumes make staying close dangerous without protection. It opens by spraying a group, then finishes weakened foes with its slams.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', 'Alchemist laboratory'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -13376,6 +13572,18 @@ export default createPublicationMonsters({
     troll_hag: {
       name: 'Troll Hag',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'A hunched troll with rippling, warty flesh bearing molds and fungus on her back, scraggly black hair and beady red eyes. She is wrapped in tattered burlap and rotting plants, scurrying on swollen stumpy limbs with a huge cauldron and ladle.',
+        ],
+      ],
+      lore: [
+        [
+          "Troll hags tend mushroom gardens in Caspia's Trogrowth Forest and in swamps across the continent, brewing in iron cauldrons that turn plain fungus into Trollings. They treat the gardens as family and defend them to the death, so anyone trampling the mushrooms faces their wrath. Most live undisturbed in deep forests and swamps. Rarely they form covens of three, which spread fungus until forests and swamps decay and hordes of Fungal Trolls spill into nearby settlements.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Swamp', 'Forest', 'Trogrowth Forest'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -14121,6 +14329,18 @@ export default createPublicationMonsters({
     winter_troll: {
       name: 'Winter Troll',
       languages: ['Giant'],
+      appearance: [
+        [
+          'Blue and white skin crusted with icicles jutting from the elbows and knees and an icy mane circling its head, even its teeth like icicles. Its breath is a frosty, snow-laden wind.',
+        ],
+      ],
+      lore: [
+        [
+          'Winter trolls live on mountaintops, especially the Giantfrost Mountains, sharing the peaks with rivals: stone giants and frost giants. They hunt in packs across the Barren Expanse and hold part of the Glitter Peak ruins, rarely leaving snow. In deep winter they come down to look for food, a threat to settled lands. They hunt during heavy snowfall, often with swirling storms, opening with frost breath before mauling. Fire damage makes one flee to recover.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Mountains', 'Giantfrost Mountains', 'Barren Expanse'],
       stats: {
         size: 'large',
         type: 'giant',

@@ -165,6 +165,14 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [['An archdevil who was once an angel, now ruler of Avernus.']],
+      lore: [
+        [
+          'Zariel was an angel who watched over the Blood War before the Nine Hells corrupted her. Asmodeus admired her appetite for battle and offered her Avernus, turning her into an archdevil, which cost the pit fiend Bel his post. The two loathe each other, and she keeps Bel occupied forging weapons, armour and gruesome anti-demon engines. She needs mortal souls to make lemures to promote through the ranks, so she tempts mortals on the Material Plane with power and bargains to bind them after death. Recently she beat the demon lord Kostchtchie and claimed his hammer Matalotok, which makes her immune to cold; without it she is merely resistant.',
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Avernus', 'Nine Hells'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1397,6 +1405,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [
+        [
+          'A barrel-bodied woman in her late sixties with strong hands and forearms from manual work, now dressed in the finery of a duke.',
+        ],
+      ],
+      lore: [
+        [
+          "Thalamra is the sharp-tongued matriarch of the Vanthampur family and the most politically skilful member of Baldur's Gate's Council of Four, though its newest. She began with nothing, worked on the city's old sewers, rose to Master of Drains and Underways, and married three times and had three sons. Her aim has always been to haul her family up from the sewers into high society, and years of dealing, blame-shifting and bribery got her elected. She says little in council and prefers private offices and the family estate, but when she speaks her insults land close to hidden truths. She is devil-worshipping and cunning, and would not blink at a hell hound.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ["Baldur's Gate"],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1923,6 +1943,18 @@ export default createPublicationMonsters({
       name: 'Hollyphant',
       alignment: 'lawful good',
       languages: ['Celestial', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A miniature elephant with luminous golden fur and small, fast-fluttering wings that carry it quickly through the air, with pearly tusks.',
+        ],
+      ],
+      lore: [
+        [
+          'Hollyphants are gentle, loyal beings of the Upper Planes, used by good deities and angels as messengers and helpers. They prize friendship and honesty, and though kind they will not watch evil done without punishing the culprit. Their tusks are not much of a weapon, but a trumpet blast from the trunk can deafen creatures or cover wrongdoers in radiant, sparkling positive energy. They also have strong natural magic for fighting evil and protecting friends.',
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Upper Planes'],
       stats: {
         size: 'small',
         type: 'celestial',
@@ -3133,6 +3165,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A charming, disarming killer who turns bloodthirsty in a fight, carrying long-bladed knives.',
+        ],
+      ],
+      lore: [
+        [
+          "Bhaal's cultists commit gruesome murders to spread fear. Their god's magic makes stab wounds gush blood. Reapers rank above night blades and below death's heads, and can turn invisible and use Bhaal's magic to deflect suspicion. They kill from the shadows and thrive on terrorising the cities they live in.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Cities'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3223,6 +3267,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral',
       languages: ['Common', "Thieves' cant"],
+      appearance: [['The kingpin of the Guild in Little Calimshan, seen at her jewel emporium.']],
+      lore: [
+        [
+          'Rael runs the Guild from the Calim Jewel Emporium, a renowned jeweller that doubles as the place where thieves sell stolen stones. She hosts regular public forums in the shop and quietly controls the Garden of Whispers, a labyrinth of paper and wood screens where people trade secrets anonymously, with Guild agents or with one another.',
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ["Baldur's Gate"],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3490,6 +3542,14 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Elvish', 'Sylvan'],
+      appearance: [['An eladrin with an unsettling, constant smile.']],
+      lore: [
+        [
+          "Smiler is relentlessly optimistic and reckless, believing a positive attitude and a death-defying stunt can achieve anything, even bending the multiverse, though he admits others may die. He is quite mad. He likes to cast hallucinatory terrain to make a Feywild glade in Avernus where he meditates and schemes. Left behind in Avernus by his own companions, he roamed for seventy years making fiend deals, bargained his soul away with a pit fiend, and used the result to topple the nycaloth warlord Yarrasto and seize his warband. Three rivals teamed up to destroy Smiler's Defilers, but he escaped and rides a Devil's Ride seeking revenge on those three. Mad Maggie is his only ally, though he will not join her gang.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ['Avernus'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -4033,6 +4093,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [["A soldier and grand duke of Baldur's Gate."]],
+      lore: [
+        [
+          "Ravengard rose through the Flaming Fist to its supreme marshal, won a seat among the Council of Four, then became grand duke with the Parliament of Peers' backing after two council members fell to scandal. He kept command of the Fist, making him the city's most powerful figure and not a popular one, which does not trouble him. He cares only about the city's stability and prosperity and trusts no other duke. Backed by commoners and enemies of the old dukes, he has struggled against bureaucracy but is a voice of sense, resistant to corruption, though often outmanoeuvred. He enjoys surprise inspections of troops at Wyrm's Rock. His enemies recently tricked him into a summit in Elturel to remove him from power.",
+        ],
+        ['Sources: ', "Baldur's Gate: Descent Into Avernus"],
+      ],
+      habitats: ["Baldur's Gate"],
       stats: {
         size: 'medium',
         type: 'humanoid',

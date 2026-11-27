@@ -12,6 +12,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['grassland'],
+      appearance: [['A large predatory dinosaur shape, here as a mechanical construct.']],
+      lore: [
+        [
+          'The book text describes the real allosaurus, and the construct form is a mechanical copy of it. The real animal is a big, strong, fast hunter that can run down nearly any prey over open ground and pounce to drag creatures down with its claws.',
+        ],
+        ['Sources: ', 'Keys from the Golden Vault'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -2972,6 +2979,18 @@ export default createPublicationMonsters({
       tags: ['dwarf', 'monk'],
       alignment: 'neutral evil',
       languages: ['Common', 'Dwarvish', 'Elvish', "Thieves' cant", 'Undercommon'],
+      appearance: [
+        [
+          'A dwarf woman in a prison uniform that hides most of her tattoos, though more can be glimpsed on her neck and hands. Her skin carries flames, smoke, knotwork, mountains and a river.',
+        ],
+      ],
+      lore: [
+        [
+          "Prisoner 13 is Korda Glintstone, once an agent of Clan Axebreaker of Gauntlgrym. She built a spy network and tattooed a memorial of each success, infusing many with forge magic. Wanting power herself, she spent five years surveying the clan's wealth and then had her lieutenants steal nearly all of it. She is cunning, ruthless and patient, watches and listens closely and gives away as little as possible. Small sigils hidden among the tattoos each match one worn by an agent, and the runes on her fingers form the key to the Gauntlgrym vault.",
+        ],
+        ['Sources: ', 'Keys from the Golden Vault'],
+      ],
+      habitats: ['Gauntlgrym'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3448,6 +3467,13 @@ export default createPublicationMonsters({
       tags: ['bard', 'tiefling'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common'],
+      appearance: [["A music teacher carrying a bone conductor's wand and the Canaith mandolin."]],
+      lore: [
+        [
+          "Sythian carries a boon from the demon lord Graz'zt and can conjure demonic whispers that fray minds. As a boy he was swallowed by a giant toad and has feared frogs and toads since. His parents hoped he would be a great musician, but he is mediocre, and he resents that their spending on tutors left him in debt. With his parents dead he will do anything to keep his estate. He has attuned to the mandolin Golden Axe hoping to win the van Timmels' favour and money, but will trade it away to save himself, though his reputation depends on his students being safe. He is an impatient, demanding teacher who keeps students on a strict schedule.",
+        ],
+        ['Sources: ', 'Keys from the Golden Vault'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

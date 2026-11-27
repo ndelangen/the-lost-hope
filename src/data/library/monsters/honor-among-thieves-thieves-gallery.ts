@@ -12,6 +12,14 @@ export default createPublicationMonsters({
       tags: ['druid'],
       alignment: 'neutral good',
       languages: ['Common', 'Druidic', 'Elvish', 'Infernal', 'Sylvan'],
+      appearance: [['A tiefling druid of the Circle of the Moon, blunt in manner.']],
+      lore: [
+        [
+          'Abandoned as a child, Doric was taken in by wood elves of Neverwinter Wood and now defends them with the ferocity of nature. Her Circle of the Moon training taught her to trust her primal instincts, and they rarely mislead her. She can be brusque but will fight tooth and nail on behalf of a cause she holds dear. She has joined the Emerald Enclave, survivalists who watch the balance between civilisation and wilderness, and when the Lord of Neverwinter eyed her forest home as a source of materials, she rallied the resistance.',
+        ],
+        ['Sources: ', "Honor Among Thieves: Thieves' Gallery"],
+      ],
+      habitats: ['Neverwinter Wood'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -273,6 +281,13 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic', 'Elvish'],
+      appearance: [['A young mage whose spells misfire.']],
+      lore: [
+        [
+          "Simon is weighed down by his family name: he descends from an elf and the legendary Elminster Aumar. His wild sorcery is out of control and his spells blow up or fizzle at random. Doubt follows him, yet he has earned a place on Edgin's crew, and works best under pressure, when his magic comes out instinctively. What he will make of his volatile gift is open.",
+        ],
+        ['Sources: ', "Honor Among Thieves: Thieves' Gallery"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -528,6 +543,17 @@ export default createPublicationMonsters({
       tags: ['paladin'],
       alignment: 'lawful good',
       languages: ['Common', 'Thayan', 'Undercommon'],
+      appearance: [
+        [
+          'A knight in shining armour carrying a daggersword engraved in Celestial with a vow that neither virtue nor blade will break.',
+        ],
+      ],
+      lore: [
+        [
+          "Raised in Thay, Xenk has sworn an oath to protect the innocent and does best when inspiring goodness in allies. He ages more slowly than normal, a gift with the burden of perspective, linked to his narrow escape from Szass Tam's rise to power. He is based in Mornbryn's Shield and travels Faerun looking for evil to thwart. He treats problems with total seriousness, which clashes with Edgin's casual manner.",
+        ],
+        ['Sources: ', "Honor Among Thieves: Thieves' Gallery"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

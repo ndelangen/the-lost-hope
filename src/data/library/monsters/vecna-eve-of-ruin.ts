@@ -12,6 +12,18 @@ export default createPublicationMonsters({
       tags: ['human', 'wizard'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic', 'Elvish'],
+      appearance: [
+        [
+          'A woman who looks youthful and human, with silver hair and long robes, carrying a unicorn-headed staff.',
+        ],
+      ],
+      lore: [
+        [
+          "Lady Alustriel, the Shining Lady, has been a prominent wizard and force for good on Toril for centuries. She is among the Seven Sisters, daughters of the goddess Mystra, whose divine gift gives her enormous arcane strength. She promotes kindness, rewards virtue and encourages compassion, makes alliances easily and moves fast when good is threatened. Her influence is quiet and steady, and she has no interest in glory or wealth. She maintains safe houses across the planes, including a sanctum in Sigil. Like other Chosen of Mystra she safeguards the Weave. She governed Silverymoon for centuries, first as the wizard Elue Dualen and then openly, helped build its Moonbridge and founded the Lady's College with others, and left office more than a hundred years ago; her son Methrammar leads the city today. She has adventured with Drizzt and the Harpers.",
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Silver Marches'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -499,6 +511,14 @@ export default createPublicationMonsters({
       tags: ['warforged'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [['A warforged scout, a construct soldier of the Mournland.']],
+      lore: [
+        [
+          "Blade scouts explore and map parts of the Mournland the Lord of Blades has not yet taken over. They belong to the blades, a cult that grew up around the warforged Lord of Blades after Eberron's Last War, when he filled the power gap in the ruined land. The cult worships him and preaches that warforged are superior and that every non-warforged on Khorvaire must die.",
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Mournland'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -780,6 +800,18 @@ export default createPublicationMonsters({
       name: 'Borthak',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'A huge, wolf-shaped brute with powerful jaws and a fast, whipping tail, spitting acid. Wherever it has been, the ground has frozen into slush.',
+        ],
+      ],
+      lore: [
+        [
+          'Borthaks are bad-tempered giants that ravage northern marshes and mountain fens on Krynn, and few creatures of the heights can match one physically. They seldom gather in groups, which spares most wetland dwellers, yet one alone can devastate an ecosystem, because it draws warmth out of the ground until a mild glen becomes a freezing bog. Plants and animals seldom survive in its hunting ground. When the area is stripped, it moves on and starts again.',
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Wetland', 'Mountain'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -1340,6 +1372,14 @@ export default createPublicationMonsters({
       name: 'Deathwolf',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [['A werewolf in hybrid form reduced to bones and shadow.']],
+      lore: [
+        [
+          "A deathwolf blends werewolf strength, undeath and full-moon magic, and is most common on Krynn or where lycanthropy and necromancy are widespread. A necromancer makes one by raising a powerful werewolf's corpse in a profane lunar ritual. It cannot change shape but conjures dangerous illusions, and its bite leaves victims more open to them. On Krynn deathwolves are tied to Lunitari, the red moon and trickster god of neutral magic, so necromancers perform the rite by her light to give the creature illusion and trickery.",
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Krynn'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1509,6 +1549,14 @@ export default createPublicationMonsters({
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft'],
+      appearance: [['A massive blue bipedal demon with fists studded with razors.']],
+      lore: [
+        [
+          'Degloths are used as storm troops on the leading edge of battles across the Abyss and the other outer realms. They are drawn to violence without caring why the blood is being shed, and like tearing enemies apart with fists that slash as well as crush.',
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1679,6 +1727,13 @@ export default createPublicationMonsters({
         'Infernal',
         'Primordial',
         'Undercommon',
+      ],
+      appearance: [['An almost exact copy of a lich, with enchanted gems set in its eye sockets.']],
+      lore: [
+        [
+          "Liches sometimes make magical doubles to fool enemies, guard treasure or for obscure reasons. The lich tethers a sliver of its own life force to a body in a profane rite, producing a near copy with great necrotic power and some of the lich's magic. The gems in its eyes let it trap souls and pass them to its maker. A false lich may slowly gain its own sense of self; many stay loyal, but others resent being used and abandoned.",
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
       ],
       stats: {
         size: 'medium',
@@ -5663,6 +5718,14 @@ export default createPublicationMonsters({
       name: 'Spiderdragon',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Draconic', 'Undercommon'],
+      appearance: [['A spider-and-dragon monstrosity that weaves powerful webs.']],
+      lore: [
+        [
+          "Spiderdragons first appeared deep in the Underdark and descend from black dragon wyrmlings that ate lots of spiders. Lolth's faithful call them her gift, since they are most numerous in areas those worshippers hold, and may use them as guards or honoured guests. They are less powerful and less clever than black dragons, often draining enclave resources with selfish demands. They do not build lairs but weave webs, gorge on prey and move on, and some exploit their standing with Lolth's worshippers as long as they can.",
+        ],
+        ['Sources: ', 'Vecna: Eve of Ruin'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'monstrosity',

@@ -247,6 +247,18 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['Infernal', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'An insect-like devil with a brightly coloured shell, folding wings, many limbs and pincer hands. Its head is bug-like as well, with several mouth tubes, extra eyes some of them fake, and twitching antennae.',
+        ],
+      ],
+      lore: [
+        [
+          'Kocrachons rank among the more respected lesser devils of the Nine Hells, torturers whose aim is to break as many victims as possible in their lifetime, the larger and more dangerous the better. The best of them train with other torturers or at infernal academies so they understand how any body can be hurt. They avoid open fighting and will flee if they can. They inject a deadly venom and may cure it should the victim hand over what they wanted. Unlike most devils they shrug off cold, which makes them useful to the archdevils of Stygia and Cania for wringing answers out of prisoners, and the cold gives them further methods of torment.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -487,6 +499,18 @@ export default createPublicationMonsters({
       name: 'Anagwendol',
       alignment: 'lawful good',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A battle-worn angel, scarred by countless wounds, trapped inside a blazing stone labyrinth.',
+        ],
+      ],
+      lore: [
+        [
+          'Anagwendol was a ferocious champion of the Heavens who had cut down fiend after fiend without defeat, until her arrogance drew her into a snare laid by the archdevil Kordichai. She is stuck in Phlegethos, the fourth layer, at the heart of his hunting preserve of fiery elemental creatures. He sometimes sets devils on her, particularly underlings who displeased him, and enjoys watching them fail. An infernal curse makes her see everything as a loathsome devil to slaughter, so she believes she faces an endless swarm. It is wearing her down: spilling infernal blood is turning from grim duty into something she craves for its own sake.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -950,6 +974,18 @@ export default createPublicationMonsters({
       name: 'Ayperobo Swarm',
       alignment: 'lawful evil',
       languages: ['Celestial', 'Draconic', 'Infernal', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A thick cloud like mosquitoes or drifting blood, made of countless tiny devils with oversized heads, sparrow wings and razor teeth.',
+        ],
+      ],
+      lore: [
+        [
+          "A single ayperobo is almost harmless and larger devils sometimes eat them as treats. So they form telepathic colonies that are strong enough to hold their own against some greater devils. They use flight and perfect teamwork to finish jobs that bigger devils find hard, because they want to prove themselves and get revenge for the way they are treated. A swarm can eat a humanoid in seconds and likes to hide in clouds of mosquitoes or blood. Some can burrow under a host's skin and control it, even a devil.",
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -1062,6 +1098,14 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [['A powerful winged archdevil, or more often a hideous slug-like form.']],
+      lore: [
+        [
+          "Baalzebul is the archdevil of Maladomini, the Nine Hells' seventh layer, known as the Lord of Lies and Lord of the Flies for the web of intrigue in which even small things get caught. He began as the angel Triel, thrown out of Celestia for selfish pursuit of perfection, and Asmodeus promoted him into the devil nobility. He pushed aside the old ruler of Maladomini and governed Malbolge through Moloch. When he went after Asmodeus's own throne, the plot failed and he was punished: he must look like a slug for a year per lie told to a devil, every bargain with a mortal ends in ruin, his castle was turned to filth and Malbolge was taken. He is still shrewd and charming, and only fellow devils are immune to his deceit. Enemies and underlings tend to see a winged form, but the party will most likely meet the slug. His lair is whatever city he built most recently.",
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Maladomini', 'Nine Hells'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -2801,6 +2845,18 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'An impossibly beautiful archdevil, whose looks win people over and serve her sharp mind. Her palace is a crystalline stone tower wrapped in blue flame.',
+        ],
+      ],
+      lore: [
+        [
+          'Fierna governs Phlegethos jointly with her father Belial. She reads people well, and her charm has won her many allies and hardly any enemies in the Nine Hells. Some think her incompetent, but her brashness is a screen over her real aims. Belial played a key part in the Reckoning, which is why she was given leadership of the layer, though the two rule together and meet privately to plan. Some foolish archdevils see the bond as something to exploit or break, but father and daughter deeply respect each other.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Phlegethos', 'Nine Hells'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -3670,6 +3726,18 @@ export default createPublicationMonsters({
       name: 'Koh Tam',
       alignment: 'lawful neutral',
       languages: ['Abyssal', 'Celestial', 'Common', 'Infernal'],
+      appearance: [
+        [
+          'A head priest whose mind and body show the mark of long exposure to the Nine Hells, with habits and mannerisms that seem odd to others.',
+        ],
+      ],
+      lore: [
+        [
+          "Koh Tam is the senior priest of the death god Kelemvor at Waterdeep's cathedral. Eager to learn all the secrets of the afterlife realms, he asked his god's leave to explore the Nine Hells, where he saw sights beyond mortal imagination and met fiends far stronger than himself. It changed him, and instead of satisfying his curiosity it deepened his fascination. He studied arcane works, gathered many infernal relics and has since made further expeditions. He is now the leading expert on the Hells, has guided many adventurers there and has stopped several foul creatures reaching the mortal world, and though still loyal to Kelemvor's laws he has acquired strange habits shaped by his exposure.",
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3899,6 +3967,18 @@ export default createPublicationMonsters({
       name: 'Maelephant Nomad',
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal', 'Maelephant'],
+      appearance: [
+        [
+          "A two-legged devil with an elephant's head and legs, a trunk ending in a sharp spike, and clawed hands and feet.",
+        ],
+      ],
+      lore: [
+        [
+          'Maelephants were made purely to protect and are the most loyal devils. They own nothing and have no dreams or goals, finding contentment in finishing their duty. Other devils may think them slow, but many value their usefulness. They speak Infernal and Common and have a private language for each other. When threatened they release a toxic cloud that causes brain damage and memory loss. Their trustworthiness earns respect from lesser devils. This nomad has no current charge and may drift between layers for years looking for a new one.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -4066,6 +4146,18 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['Celestial', 'Common', 'Draconic', 'Infernal', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A devil whose lair is a tomb-like palace in Minauros, forever sinking into the swamp like most of the city.',
+        ],
+      ],
+      lore: [
+        [
+          'Mammon may be the richest being anywhere and loves wealth above everything. Where other devils crave souls and power, he is happy simply piling up possessions, and he is one of the few archdevils who will bargain with mortals for plain money, though whether he keeps his side is another matter. He is two-faced and will say or do anything that helps him, and fawns as readily as he schemes. After the Reckoning his punishment was light, supposedly because of his grovelling to Asmodeus; he was the first archdevil to give in and even betrayed fellow plotters. He also likes sport hunting and, when angry, which is often, calls up a steed and hounds for a trophy hunt, losing interest once the prey is caught. He is the best at managing and distributing souls, which even Asmodeus accepts.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Minauros', 'Nine Hells'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -4289,6 +4381,18 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'An archdevil whose lair, the Citadel of Mephistar, is an elegant carved ice palace in the glacier of Nargus.',
+        ],
+      ],
+      lore: [
+        [
+          "Mephistopheles rules Cania, the eighth layer, and is the strongest archdevil after Asmodeus. He is the Hells' greatest spellcaster and wields Hellfire, drawn from the unholy essence of the Nine Hells and unbearably hot, which he can shape at will. He is as old as Asmodeus and has often plotted to unseat him, most notably in an alliance with Dispater, Mammon and Geryon against Baalzebul, Zariel, Belial and Moloch, but Geryon secretly sided with Asmodeus and betrayed it. Despite the open revolt he suffered least, neither cursed nor cast down, so many suspect some old secret between him and Asmodeus. His citadel holds his private manor and quarters for many devils.",
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Cania', 'Nine Hells'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -4555,6 +4659,18 @@ export default createPublicationMonsters({
       name: 'Miasmorne',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A bulky wingless dragon-like beast with a broad head flanked by great fans that it spreads when challenged, dragging its belly across the ground.',
+        ],
+      ],
+      lore: [
+        [
+          'Avernus is a bleak wasteland, but to devils the real blemish is the battlefield scars where demon corpses, limbs and armour pile up and leak chaotic ichor that breeds new monsters. Devils engineered the miasmorne as a clean-up crew after Abyssal invasions, to eat demon flesh, armour, weapons and ruined war machines, and they have since multiplied and spread across many layers. They will eat flesh, but prefer minerals, mainly iron and steel but also gold, silver, adamantine or mithral, which opens holes in iron fortresses. The metal toughens their hide, bones and jaws, making them heavy, strong, proof against ordinary blades and heat-resistant. They are not naturally aggressive but dull and hard to turn aside once feeding. Their acidic spit corrodes metal and they often stop to lick up the flakes. Threatened, they fire metal spines from their fans with a spray of rusty saliva. The source text was cut off at the end.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Avernus', 'Nine Hells'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -4699,6 +4815,18 @@ export default createPublicationMonsters({
       name: 'Oneirovore',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          "A fearsome-looking but placid creature grazing among the Nine Hells' toxic foliage, with low-ranking devils and hell hounds nearby.",
+        ],
+      ],
+      lore: [
+        [
+          "The ancestors of dream eaters served divine and fey powers by eating mortals' nightmares to bring restful sleep. Devils brought them to the Nine Hells and bred them into a way to corrupt mortal minds subtly. At weak points between planes their spirits leak into the mortal world and graze on dreams, often consuming the hope and wonder that could push people to improve their lives. They are oddly passive: attacked, they lumber off slowly, crying out mournfully to draw every nearby devil, whose herdsmen arrive quickly. Forced to fight, they release stored dream imagery: nightmares make non-devils see everything, allies included, as terrifying while the dream eaters fade into the landscape, or hope and wonder leaves attackers dazed and euphoric and rushing off on reckless feats. The positive release burns devils the way a skunk's spray drives off predators.",
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -4795,6 +4923,18 @@ export default createPublicationMonsters({
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['Celestial', 'Common', 'Infernal', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A near-human-sized devil with pale white or red skin and no hair, wearing a leather mask decorated with spikes, horns or ridges.',
+        ],
+      ],
+      lore: [
+        [
+          'Excruciarchs are devils devoted to torture who also work as capable fighters and mercenaries. Other devils look down on them for torturing their own kind, sometimes beating or killing them, so they tend to travel in groups. They are greedy, serve no master and can only be bought. In battle they use a special power to spread pain, enjoy their own suffering and nearly always fight to the death.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -5373,6 +5513,15 @@ export default createPublicationMonsters({
       name: 'Tiax',
       alignment: 'chaotic neutral',
       languages: ['Celestial', 'Common', 'Gnomish'],
+      appearance: [
+        ['An absurd, unthreatening figure whose erratic behaviour borders on buffoonery.'],
+      ],
+      lore: [
+        [
+          "Tiax is a cleric of Cyric, god of lies, twenty years in the clergy and sure of many things that are false. Cyric always finds a way to rescue him, even from the Nine Hells, usually only just, which feeds his delusions of grandeur. He claims to be a powerful sorcerer and hides his devotion to Cyric despite knowing it is the god's doing. Exaggeration and deceit are his chief traits, and his seeming harmlessness lets him slip under guard, but he is dangerous. Koh Tam tolerates him for reasons unknown.",
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -6105,6 +6254,18 @@ export default createPublicationMonsters({
       name: 'Zythan',
       alignment: 'lawful neutral',
       languages: ['Celestial', 'Common', 'Draconic', 'Elvish', 'Infernal', 'Primordial'],
+      appearance: [
+        [
+          'A Halruaan mage with green hair and a third eye that appears to open whenever he works magic.',
+        ],
+      ],
+      lore: [
+        [
+          'Zythan studied arcane arts as a youth, showed talent for Divination and was recruited by the Conclave, under whom he became powerful. He is matter-of-fact, rarely talks about himself and looks to the future. He once glimpsed a forbidden ritual that could have killed many Halruaans, letting the Conclave stop it, and was promoted. Recently, with other diviners and a crystal ball, he pieced together a vision that Asmodeus will soon unleash a great evil, which is why the Conclave called the adventurers to Halruaa. His magic spans every school though he is untrained in martial combat. He is highly intelligent but socially awkward.',
+        ],
+        ['Sources: ', 'Chains of Asmodeus'],
+      ],
+      habitats: ['Halruaa'],
       stats: {
         size: 'medium',
         type: 'humanoid',

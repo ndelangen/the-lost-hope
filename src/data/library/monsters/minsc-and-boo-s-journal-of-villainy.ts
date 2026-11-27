@@ -4785,6 +4785,18 @@ export default createPublicationMonsters({
       name: 'Tasloi',
       alignment: 'chaotic evil',
       languages: ['Common', 'Sylvan', 'Tasloi'],
+      appearance: [
+        [
+          'A lanky, small goblin-like creature with bright green skin under a thin coat of coarse black hair. Golden, almost cat-like eyes give away its position as it blends into the leaves.',
+        ],
+      ],
+      lore: [
+        [
+          'Tasloi mostly live in the tropical forests of southern Faerun, though groups reach the Sword Coast, with a known enclave in the Cloakwood. They are cleverer than they seem, using numbers and pack tactics. They prefer dim jungle canopy and avoid direct sun, in thin forests staying active only around dawn and dusk. Expert climbers with long arms, they swing through the treetops and knuckle-walk awkwardly on the ground. They live in loose tribal bands in tree homes linked by platforms, dread being alone and have many superstitions. They raise giant rats and other vermin for food and mounts. Mostly using their own language, with a few knowing broken Common, they are vicious opportunists who can sometimes be reasoned with.',
+        ],
+        ['Sources: ', "Minsc and Boo's Journal of Villainy"],
+      ],
+      habitats: ['Jungle', 'Forest canopy', 'Cloakwood'],
       stats: {
         size: 'small',
         type: 'humanoid',

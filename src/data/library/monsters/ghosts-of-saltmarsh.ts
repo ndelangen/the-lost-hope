@@ -518,6 +518,16 @@ export default createPublicationMonsters({
       tags: ['bullywug'],
       alignment: 'neutral evil',
       languages: ['Bullywug'],
+      appearance: [
+        ['A bullywug who sings, its songs charged with magic, and who carries itself with pomp.'],
+      ],
+      lore: [
+        [
+          'A few bullywugs are born able to work magic into song. They are raised in guarded enclaves and taught to use it both to heal and to hurt. According to Danger at Dunwater, they rank among the most conceited of their kind.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1964,6 +1974,18 @@ export default createPublicationMonsters({
       tags: ['titan'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Celestial', 'Infernal', 'Primordial', 'telepathy 60 ft'],
+      appearance: [
+        [
+          "A kraken carrying the stain of the god Tharizdun's madness, lurking in a deep, lightless submarine pit.",
+        ],
+      ],
+      lore: [
+        [
+          'It lies close to the Styes and becomes more self-willed each day. Its dream is to break away from the aboleths who tend it and impose its own vile will on the seas.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Sea'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -2983,6 +3005,14 @@ export default createPublicationMonsters({
       tags: ['lizardfolk'],
       alignment: 'neutral',
       languages: ['Draconic'],
+      appearance: [['A lizardfolk priest carrying a dagger made from a huge crocodile tooth.']],
+      lore: [
+        [
+          "As seen in Danger at Dunwater, the subchief is a devoted servant of Semuanya and practises its faith much as a cleric would. The tooth-dagger has been blessed by Semuanya and stands for the subchief's skill in both fighting and devotion.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3092,6 +3122,14 @@ export default createPublicationMonsters({
       tags: ['locathah'],
       alignment: 'neutral',
       languages: ['Aquan', 'Common'],
+      appearance: [['A proud fish-person of the shallows.']],
+      lore: [
+        [
+          'Locathah are tough and prideful, and have suffered war, enslavement and abuse from other sea dwellers. They live in tribal settlements under the water along coasts and hunt both in the sea and on the surface.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Coastal', 'Underwater'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3375,6 +3413,16 @@ export default createPublicationMonsters({
       name: 'Maw of Sekolah',
       alignment: 'neutral evil',
       languages: ['Sahuagin', 'telepathy 100 ft'],
+      appearance: [
+        ['A huge two-headed shark, its fins ornamented with jewelled bands and polished skulls.'],
+      ],
+      lore: [
+        [
+          'The Maw is the avatar of the sahuagin god Sekolah, called up from the dark ocean depths by ritual and tidal magic, and appears in The Final Enemy. It is fed constantly on thinking creatures that the sahuagin capture and give as tribute, and their priestesses adorn it.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Deep ocean'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -3484,6 +3532,16 @@ export default createPublicationMonsters({
       tags: ['merfolk'],
       alignment: 'neutral',
       languages: ['Aquan', 'Common'],
+      appearance: [
+        ['A veteran merfolk warrior carrying a weapon like a rapier made of living coral.'],
+      ],
+      lore: [
+        [
+          'Salvagers have experience searching wrecks and ruins in the deepest water and use sharp senses to spot danger, guarding other merfolk who go scavenging and defending their kin. In Danger at Dunwater they ally with the lizardfolk.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Deep ocean'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3639,6 +3697,15 @@ export default createPublicationMonsters({
       name: 'Mr. Dory',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'Deep Speech', 'telepathy 60 ft'],
+      appearance: [
+        ['A man whose skin seems to react to liquids, which he passes off as a condition.'],
+      ],
+      lore: [
+        [
+          'Mr. Dory is one of four councillors who run the Styes and hides his curse openly. His supposed skin ailment is a milder form of the aboleth affliction that makes skum, and he has kept his free will.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -4018,6 +4085,14 @@ export default createPublicationMonsters({
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
+      appearance: [['A salt-encrusted spellcaster who steps magically from place to place.']],
+      lore: [
+        [
+          'Deck wizards are learned but superstitious, and ship crews give them plenty of room. They hop around the deck by magic and attack with briny spells. Punketah is the one aboard the Sea Ghost in the Saltmarsh adventure.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Coastal', 'At sea'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4092,6 +4167,14 @@ export default createPublicationMonsters({
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
+      appearance: [["A blunt, no-nonsense sailor of the sort found at a captain's side."]],
+      lore: [
+        [
+          'First mates are the trusted right hand of a pirate captain. Former soldiers and trained mercenaries often end up in the job. Bloody Bjorn serves as first mate on the Sea Ghost in the Saltmarsh adventure.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Coastal', 'At sea'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4215,6 +4298,16 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Aquan', 'Common'],
+      appearance: [
+        ['A cultist of the Rip Tide, one of a secret cabal that meets for dark water rituals.'],
+      ],
+      lore: [
+        [
+          "Rip Tide priests form hidden cabals devoted to Olhydra, evil water's elemental princess, whom they see as water's destructive nature made divine. They believe killing enemies with water, drowning above all, wins her favour.",
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4483,6 +4576,14 @@ export default createPublicationMonsters({
       tags: ['sahuagin'],
       alignment: 'lawful evil',
       languages: ['Sahuagin'],
+      appearance: [['A burly sahuagin fighter swinging a heavy hammer.']],
+      lore: [
+        [
+          'Coral smashers are picked from the strongest sahuagin warriors and serve as heavy front-line fighters in The Final Enemy. Their strength carries them through the drag of the water, and they pound structures and enemies with equal enthusiasm.',
+        ],
+        ['Sources: ', 'Ghosts of Saltmarsh'],
+      ],
+      habitats: ['Coastal', 'Underwater'],
       stats: {
         size: 'medium',
         type: 'humanoid',

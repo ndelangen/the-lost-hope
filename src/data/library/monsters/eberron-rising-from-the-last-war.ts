@@ -621,6 +621,18 @@ export default createPublicationMonsters({
       name: 'Dolgaunt',
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'Goblin'],
+      appearance: [
+        [
+          'A thin hobgoblin with sickly-coloured skin, empty gaping eye sockets and a worm-like tongue. Wriggling cilia cover its body, longer tendrils hang about the head, and two thin tentacles grow from the bare shoulders.',
+        ],
+      ],
+      lore: [
+        [
+          "Blind, a dolgaunt senses its surroundings through the cilia on its skin, and can drain the life from anyone its tentacles touch. Dyrrn the Corruptor made them from hobgoblins when the daelkyr invaded Khorvaire from Xoriat, turning them into cold, clever killers. After the daelkyr lost, the dolgaunts followed their masters into Khyber, where they train in cavern monasteries and shape their bodies into weapons for their masters' missions. They often command squads of dolgrims and work alongside the Dragon Below cults, especially those devoted to Dyrrn.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Khyber'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -1360,6 +1372,18 @@ export default createPublicationMonsters({
       name: 'Hashalaq Quori',
       alignment: 'lawful evil',
       languages: ['Common', 'Quori'],
+      appearance: [
+        [
+          'In its natural form, a mass of hundreds of translucent tendrils that can bunch into simple shapes, with a point of blue light moving through them as its sense organ.',
+        ],
+      ],
+      lore: [
+        [
+          "Dal Quor, the plane of dreams, is ruled by the Dreaming Dark, il-Lashtavar, served by the quori, aberrations that embody dreams and nightmares. As travel to and from Dal Quor is hard, quori on Eberron are normally met inside host bodies, often willing Inspired. Hashalaqs are the loremasters and judges, called dreamstealers. After centuries of studying mortals, partly by living in human bodies, they know the pull of pleasure and have developed many ways to control people through it, and have acquired a taste for it. Even those without vessels study Eberron and the planes, and are among the few quori who understand magic. At home they advise the kalaraq and act as judges, keeping tsucora rivalries from endangering the Dreaming Dark's wider plans.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Dal Quor'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -1977,6 +2001,18 @@ export default createPublicationMonsters({
       name: 'Kalaraq Quori',
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A figure of pure shadow outlined by a halo of energy, ringed by a whirling swarm of disembodied eyes, each reflecting a mind it has consumed.',
+        ],
+      ],
+      lore: [
+        [
+          "Dal Quor, the plane of dreams, is ruled by the Dreaming Dark, il-Lashtavar, whose servants are quori aberrations embodying dreams and nightmares. Since travel to and from Dal Quor is hard, quori on Eberron are usually met inside host bodies. Kalaraqs, or eyebinders, are the strongest and steer their kind, and the Devourer of Dreams, the Dreaming Dark's personal envoy, is one. They never openly fight one another, but each pursues private goals and hopes to take the Devourer's seat, so one seldom leaves Dal Quor to become one of the Inspired.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Dal Quor'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -2647,6 +2683,17 @@ export default createPublicationMonsters({
       name: 'Radiant Idol',
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'In true form a warped angel, perhaps with bloody stumps instead of wings or wings dragged down by chains. It normally hides this behind a disguise of celestial glory.',
+        ],
+      ],
+      lore: [
+        [
+          'A radiant idol is an angel cast out of Syrania for craving mortal worship. It usually gathers a cult around itself with silver words and shows of power. As the following grows, the facade cracks and it drags devotees toward ritualism, hedonism and fanatical ruin. It needs no food, drink or sleep.',
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -2986,6 +3033,14 @@ export default createPublicationMonsters({
       name: 'Sul Khatesh',
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 150 ft'],
+      appearance: [['An overlord imprisoned in Khyber with no physical form.']],
+      lore: [
+        [
+          "Overlords are the greatest of Khyber's fiends, who held sway over a world of dread, warfare and death until the offspring of Eberron and Siberys rebelled. They cannot be destroyed, but the couatl gave their lives to build the Silver Flame, which bound them again, so they cannot physically manifest. They grow stronger when mortals follow dark paths and when the Lords of Dust work to free them. Sul Khatesh, Keeper of Secrets and Queen of Shadows, embodies the fears and superstitions around magic, from malevolent warlocks and mad wizards to deadly curses and power that drags its wielders deeper into darkness. The stat block shows her power should she ever be freed. If killed, she reforms elsewhere in the multiverse at a time the DM chooses.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Khyber'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -4160,6 +4215,14 @@ export default createPublicationMonsters({
       tags: ['warforged'],
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [['A humanoid of wood and steel.']],
+      lore: [
+        [
+          'Warforged were built to fight the Last War and struggle to find their place afterwards. Most still serve former masters, protecting dragonmarked houses or merchant convoys. Many find it hard to leave the soldier they were made as and take jobs as doormen, court officers and bodyguards, while others use their tireless strength as labourers rebuilding towns they defended or destroyed.',
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Eberron'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4234,6 +4297,14 @@ export default createPublicationMonsters({
       name: 'Warforged Titan',
       alignment: 'lawful neutral',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [['A hulking construct built to cut paths through armies.']],
+      lore: [
+        [
+          "Warforged titans were some of the most dreaded fighters in the Last War and have only a faint mind, enough to obey orders. Back in the Age of Giants, the giants' artificers built mindless war golems against the quori. Adventurers later unearthed some, and House Cannith, studying them and their makers, created the first titans.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Eberron'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -4351,6 +4422,18 @@ export default createPublicationMonsters({
       name: 'Zakya Rakshasa',
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [
+        [
+          "A rakshasa dressed for war in much-used scale armour, a keen longsword and a weighty shield marked with its demonic master's emblem.",
+        ],
+      ],
+      lore: [
+        [
+          "Eberron's rakshasas ruled a civilization across Khorvaire millions of years before humanoids appeared, and fight with demonic fury hungry for revenge on whoever imprisoned their fiend lords. Zakya rakshasas are the horde's blood-hungry infantry, driven to free their rulers and to take vengeance on dragons and the couatls' worshippers. Unlike other rakshasas, who favour fine robes, they are nearly always dressed for war.",
+        ],
+        ['Sources: ', 'Eberron: Rising from the Last War'],
+      ],
+      habitats: ['Eberron'],
       stats: {
         size: 'medium',
         type: 'fiend',

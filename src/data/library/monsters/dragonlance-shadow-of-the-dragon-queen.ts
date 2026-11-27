@@ -193,6 +193,14 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [['A wingless draconian that seems to hum with magic.']],
+      lore: [
+        [
+          'Aurak draconians hatch from corrupted gold dragon eggs and are the strongest draconians. Lacking wings, they may lull foes into thinking them weak until they exhale noxious fumes like their dragon ancestors. They plan and command in the Dragon Armies, often leading smaller draconians. When one dies, its magic bursts out as lightning. The Dragon Armies keep the secret of draconian creation, letting metallic dragons believe their eggs are hostages so they do not oppose the Dragon Queen.',
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Krynn'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -2593,6 +2601,17 @@ export default createPublicationMonsters({
       name: 'Istarian Drone',
       alignment: 'unaligned',
       languages: ["understands the languages spoken by its creator but can't speak"],
+      appearance: [
+        [
+          'A short, stout, mantis-like construct of marble and gleaming metal set with crystals that spark with electricity, with four scuttling insect legs and curved, barbed blade arms for hauling and setting building materials.',
+        ],
+      ],
+      lore: [
+        [
+          "These old constructs were made to raise the wondrous buildings that once showed Istar's splendour. They secrete a sticky gel that hardens into crystal mortar and can be turned on attackers to pin them.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -2777,6 +2796,18 @@ export default createPublicationMonsters({
       tags: ['cleric', 'human'],
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Draconic'],
+      appearance: [
+        [
+          'A woman with a gem of seeing in place of her left eye, which smoulders and glows red when she uses magic.',
+        ],
+      ],
+      lore: [
+        [
+          "High Master Kansaldi leads the Red Dragon Army's attack in Solamnia. A zealot for the Dragon Queen, she was converted by Dragon High Lord Verminaard, and as a trial of faith she had her left eye replaced with a gem of seeing. Her followers say it exposes any lie. While Verminaard follows a vision south, he left her a strong contingent and ordered her to seize the Kalaman region for the Queen, and she carries this out with a fanatic's fervour. To her, defeat cannot happen; only the Dragon Queen's will counts.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Solamnia'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2908,6 +2939,14 @@ export default createPublicationMonsters({
       name: 'Kapak Draconian',
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [['A draconian with small wings too small for flight that only soften a drop.']],
+      lore: [
+        [
+          "Kapaks hatch from copper dragon eggs and are cunning, liking to strike foes who are distracted or unprepared. They smear their weapons with paralysing spit, which makes them capable assassins. When killed they liquefy into acid that can splash nearby creatures. In general, draconians are two-legged monsters made from metallic dragon eggs corrupted by twisted alchemy and the Dragon Queen's magic. The Dragon Armies keep the method secret, so Krynn's metallic dragons keep believing their eggs are hostages and do not resist her conquests.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Krynn'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3487,6 +3526,14 @@ export default createPublicationMonsters({
       tags: ['human', 'wizard'],
       alignment: 'neutral evil',
       languages: ['Common', 'Dwarvish', 'Elvish', 'Infernal'],
+      appearance: [['A mage in the black robes of High Sorcery.']],
+      lore: [
+        [
+          "Lohezet is a scholar fixated on vanished creatures and dead empires, and sees the Dragon Army as a route to bringing back Ansalon's old glories. While studying Istarian ruins during the invasions of Khur and Kendermore he learned where the flying city of Onyari lies, and he now accompanies the Red Dragon Army hoping to find the City of Lost Names and raise it into the sky again. In battle he copies the tactics of long-extinct venomous hunters, wearing down even tough opponents with magical poisons until he can slip away or leaves them as discoloured corpses.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Ansalon'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3626,6 +3673,14 @@ export default createPublicationMonsters({
       tags: ['paladin'],
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal', 'Solamnic'],
+      appearance: [['A death knight in a cursed castle.']],
+      lore: [
+        [
+          "Soth is Krynn's most powerful death knight. He was a Solamnic Knight of the Rose, a model of virtue and justice whose pride drew him toward evil. The gods offered him redemption by sending him to confront the Kingpriest of Istar and prevent the Cataclysm, but pride defeated him, he abandoned the task and the Cataclysm ruined Krynn. He died in it and rose from the ashes as undead. For ages he ignored the broken world from Dargaard Keep, but the Dragon Queen's call has stirred his evil. He fights terribly, using the last of the Cataclysm's flames, and normally casts spells only on legendary actions.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
+      habitats: ['Dargaard Keep'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4494,6 +4549,13 @@ export default createPublicationMonsters({
       name: 'Skeletal Knight',
       alignment: 'lawful evil',
       languages: ["understands the languages it knew in life but can't speak"],
+      appearance: [['An undead knight with a blade whose wounds leave blackened scars.']],
+      lore: [
+        [
+          "Skeletal knights rise to serve darker beings, often death knights. They were usually virtuous people who broke their oaths and met a disgraceful end, and now cannot rest and obey their masters unswervingly. If the master is destroyed, the knight's will returns and it pursues its own aims. They are relentless, hard to destroy, cling to the sins that cursed them and fight until their skulls are shattered. Their blades leave lingering wounds that drain life and scar even after magical healing.",
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4745,6 +4807,15 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       alignment: 'chaotic neutral',
       languages: ['Slaad', 'telepathy 60 ft'],
+      appearance: [
+        ['A swollen, draconian-like creature with green, warty skin and an outsized mouth.'],
+      ],
+      lore: [
+        [
+          'Days of odd experiments with draconian blood and time near the Spawning Shard changed Virruza into this form.',
+        ],
+        ['Sources: ', 'Dragonlance: Shadow of the Dragon Queen'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',

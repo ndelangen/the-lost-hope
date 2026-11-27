@@ -22,6 +22,15 @@ export default createPublicationMonsters({
         'Primordial',
         'Undercommon',
       ],
+      appearance: [
+        ['An archlich who takes cruel delight in the suffering of those who fall into his traps.'],
+      ],
+      lore: [
+        [
+          "Acererak is an archlich who moves between worlds and enjoys consuming the souls of adventurers. He draws them into deadly trapped dungeons, one being the Tomb of the Nine Gods beneath the lost city of Omu, where he sealed away nine false gods. Lately he built a necromantic device, the Soulmonger, and hid it at the tomb's heart. He would rather create gods than be one, and his weakness is underrating how determined his enemies are.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -643,6 +652,18 @@ export default createPublicationMonsters({
       page: 212,
       alignment: 'neutral good',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Goblin'],
+      appearance: [
+        [
+          'A weathered adventurer with the names of his lost animal companions, Byrt and Lugg, tattooed above his knuckles.',
+        ],
+      ],
+      lore: [
+        [
+          "Artus is an ex-Harper who guards the Ring of Winter, which he found in Chult, the place where he met Alisanda, later his wife. The ring stops its wearer ageing and blocks divination. He has spent the bulk of his life keeping it from evil hands, but now he wants to find Alisanda, who disappeared with the city of Mezro, and hopes the guardian naga Saja N'baza in the ruins of Orolunga can help. The saurial Dragonbait travels with him, so where the pair are is decided at random. He has never been to Omu, but if the party explains their purpose he will set his own search aside to help them wreck the Soulmonger. When he first has to use the ring, he cautions them that evil forces want it. He cares about knowledge and history and distrusts strangers, adventurers especially.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation'],
+      ],
+      habitats: ['Chult', 'Jungle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1807,6 +1828,13 @@ export default createPublicationMonsters({
         [
           'Shagambi’s shrine: Four cells hold one guardian apiece. At least 50 lb. on the pit’s pressure plate raises the cell gates and calls the guardians. A gladiator fights if attacked or called to the pit. It cannot leave the shrine. At 0 HP outside the pit, it and its gear disappear and it immediately reforms in its cell at full health with spear and shield. It can then return to the pit. A gladiator destroyed in the pit leaves its spear behind as it reforms. If a spear leaves the shrine, it returns to the gladiator’s hand. When no other creatures remain inside, the gladiators return to their cells and the gates close. Place one spear from each guardian in the four warrior statues to free Shagambi’s puzzle cube.',
         ],
+      ],
+      appearance: [['A clay warrior carrying a spear and shield.']],
+      lore: [
+        [
+          'A clay gladiator fights when attacked or when summoned to the arena pit. If it is beaten away from the pit, it vanishes with its belongings and returns undamaged to its cell with spear and shield, then goes back to the arena if it can. If it loses in the arena, it drops its spear before re-forming in the cell.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation'],
       ],
       stats: {
         size: 'medium',
@@ -6805,6 +6833,14 @@ export default createPublicationMonsters({
       page: 233,
       alignment: 'chaotic good',
       languages: ['Common and two other languages'],
+      appearance: [['A catfolk performer travelling with a small troupe.']],
+      lore: [
+        [
+          'Tabaxi are catfolk from Maztica and great wanderers, drawn to collect artifacts, tales and wonders, leaving no secret or legend undiscovered. They revere the fickle Cat Lord. Minstrels travel in small troupes and settle into any town, paying their way with songs and stories. A tabaxi usually has a single name set by clan and a complex formula of astrology, prophecy and history, often shortened to a nickname.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation'],
+      ],
+      habitats: ['Maztica'],
       stats: {
         size: 'medium',
         type: 'humanoid',

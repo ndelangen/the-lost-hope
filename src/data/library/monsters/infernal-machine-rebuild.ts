@@ -143,6 +143,13 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 60 ft.'],
       habitats: ['forest'],
+      appearance: [['A creature that resembles a white horse and glimmers like starlight.']],
+      lore: [
+        [
+          'The book text here describes unicorns and is used because this creature appears to be a unicorn variant. Unicorns are celestials unrelated to horses that wander forest realms. They let good-hearted creatures hunt or gather food in their woods but keep evil out.',
+        ],
+        ['Sources: ', 'Infernal Machine Rebuild'],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -825,6 +832,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [['An agent of an infernal master.']],
+      lore: [
+        [
+          'The powerful relics carried by Sir Ursas and Lynx Creatlach were lent by their infernal masters and are not treasure for the party. If either agent dies, the item vanishes and goes back to Bel or Zariel.',
+        ],
+        ['Sources: ', 'Infernal Machine Rebuild'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1779,6 +1793,13 @@ export default createPublicationMonsters({
       name: 'Thessalheart Construct',
       alignment: 'neutral',
       languages: ["understands the languages of its creator but can't speak"],
+      appearance: [["A construct linked to another creature's life energy."]],
+      lore: [
+        [
+          "Thessalar the artificer made this construct to link with a creature's life force so that creature can regenerate from death as long as it is intact. He uses it to empower his greater monstrous creations.",
+        ],
+        ['Sources: ', 'Infernal Machine Rebuild'],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',

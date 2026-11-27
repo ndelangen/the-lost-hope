@@ -373,6 +373,13 @@ export default createPublicationMonsters({
       tags: ['gallus'],
       alignment: 'lawful good',
       languages: ['Birdfolk', "understands Auran but can't speak it"],
+      appearance: [['A loud, protective gallus in militia kit, quick to bark orders.']],
+      lore: [
+        [
+          "Bernice captains the militia of Reya's Watch. She lost her husband Farnham, a tender, to a forest fire and treats her work with the militia as a way of carrying on what he began.",
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -701,6 +708,14 @@ export default createPublicationMonsters({
       name: 'Corrupted Rosselbuck',
       alignment: 'neutral evil',
       languages: ['telepathy 120 ft'],
+      appearance: [['A ghastly, beast-like thing, nothing like the gentle spirit it was.']],
+      lore: [
+        [
+          "The Rosselbuck is an old fey spirit of Humblewood, known to hunters as the Loper in tall tales. Normally it is docile, appearing briefly to aid lost or hurt travellers before bounding off at great speed. Under the thorn of kren's influence it turns monstrous and wants only to hunt and kill.",
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'huge',
         type: 'fey',
@@ -906,6 +921,13 @@ export default createPublicationMonsters({
       tags: ['corvum'],
       alignment: 'any non-lawful alignment',
       languages: ['Birdfolk', "understands Auran but can't speak it"],
+      appearance: [["A corvum with a captivating voice, able to hold a crowd's attention."]],
+      lore: [
+        [
+          'Songweavers lack the full magical gift of bards but have learned to draw a little of the magic that lives in song, in quiet but effective ways. A skilled one can keep an audience spellbound by voice alone.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1036,6 +1058,14 @@ export default createPublicationMonsters({
       name: 'Cursed Slime',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [['A fearsome-looking slime that has been twisted by a curse.']],
+      lore: [
+        [
+          "Slimes are magical oozes that can digest almost anything, which makes them useful in many Humblewood ecosystems, and their bodies are prized for potion-making. These ones were harmless until Lendarick's strange experiments warped and cursed them.",
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -2485,6 +2515,18 @@ export default createPublicationMonsters({
         'worms',
         'or bugs',
       ],
+      appearance: [
+        [
+          'A middle-aged street musician performing with a band of other buskers in the Trunk Market.',
+        ],
+      ],
+      lore: [
+        [
+          'Moonflower works in Alderheart. She is kind and likes to mentor students she thinks have promise, but has a spiteful streak that surfaces when she feels one has outdone her.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Alderheart'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2733,6 +2775,14 @@ export default createPublicationMonsters({
         'worms',
         'or bugs',
       ],
+      appearance: [['A gangly hedge bard who looks very young.']],
+      lore: [
+        [
+          'Inns across Humblewood have ejected Pleasantpaw. He buys new instruments from scroungecrafting competitions and plays them at every chance, though he is a dreadful musician and a worse judge of such inventions. Elora Quickwit pays him to smuggle contraband across the wood, and he is always welcome at her inn in Marshview.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3292,6 +3342,16 @@ export default createPublicationMonsters({
       tags: ['corvum'],
       alignment: 'lawful evil',
       languages: ['Birdfolk', 'Jerbeen', 'Tilia', "understands Auran but can't speak it"],
+      appearance: [
+        [
+          'A venerable, infamous pirate of the dusk corvum people, dark-feathered with grey flecks and a savage silver hook with three prongs where his right claw used to be.',
+        ],
+      ],
+      lore: [
+        ['Saltfeather hates Petra Cloudburst, who cut off his claw when they last met.'],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood', 'At sea'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3771,6 +3831,14 @@ export default createPublicationMonsters({
       tags: ['tilia'],
       alignment: 'neutral evil',
       languages: ['Birdfolk', 'Jerbeen', 'Mapach', 'Tilia', 'Vulpin'],
+      appearance: [['A brightly coloured tilia trader from the Gasparian Isles.']],
+      lore: [
+        [
+          'Spleck uses his novelty in Humblewood to cheat buyers with poor, dangerous goods sold as exotic. A narcissist and survivor, he sees most locals as easy marks. His daring often gets him into trouble, but charm and quick wit let him steer conversations and turn bad situations to his favour.',
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',

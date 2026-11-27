@@ -4135,6 +4135,18 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'lawful evil',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        [
+          'A dusk elf, the chamberlain of Castle Ravenloft. Anyone within a short distance hears howling screams of the people he has killed, though he cannot hear them himself.',
+        ],
+      ],
+      lore: [
+        [
+          "Rahadin has been in the von Zarovich family's service close to five centuries as comrade-in-arms, general and now castle chamberlain. He left his people in exile after he refused to kneel before a dusk elf prince he thought corrupt, later helped King Barov conquer the dusk elves and was made an honorary member of the family. He rules the staff through fear and floggings, and once punished the dusk elves for Patrina Velikovna's death. His whole concern is Strahd, whom he would die for.",
+        ],
+        ['Sources: ', 'Curse of Strahd'],
+      ],
+      habitats: ['Castle Ravenloft', 'Barovia'],
       stats: {
         size: 'medium',
         type: 'humanoid',

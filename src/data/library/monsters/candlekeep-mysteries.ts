@@ -160,6 +160,18 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Elvish', 'Undercommon'],
+      appearance: [
+        [
+          'A handsome, charismatic bard with quiet confidence, a scar running from his left cheekbone to his jaw.',
+        ],
+      ],
+      lore: [
+        [
+          'Quill says the scar comes from whoever torched his home village. He seems friendly but is driven by three selfish aims: to stay safe, to cure boredom and to get out of Wisteria Vale. He resents the Harpers and Ryllia for locking him up somewhere that recalls the people he lost as a child, though part of him enjoys living the life he might have had. Long solitude has led him to suspect the Harpers never intended a cure and were just waiting for him to relax before killing him. His corruption has convinced him they are a tyrannical power to be brought down. While he stays in the Vale he cannot be harmed, unless he chooses to lower that protection or goes near the beholder Renekor.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
+      habitats: ['Wisteria Vale'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2339,6 +2351,17 @@ export default createPublicationMonsters({
       name: 'Parasite-infested Behir',
       alignment: 'neutral evil',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'When it roars or breathes lightning, thousands of grey blood worms can be seen squirming in its mouth.',
+        ],
+      ],
+      lore: [
+        [
+          'This behir is undead and riddled with parasitic blood worms. Magic that cures disease kills the worms, so a party with the right spell has a way to hurt it.',
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -3318,6 +3341,14 @@ export default createPublicationMonsters({
       name: 'Valin Sarnaster',
       alignment: 'lawful evil',
       languages: ['The languages it knew in life'],
+      appearance: [['A mummy lord, formerly an oracle.']],
+      lore: [
+        [
+          "Visions of herself as immortal heir to Savras's realm corrupted Valin. The Canopic Being came to her years ago and her obsession with its dark rituals set her course. As the first step toward godhood she has turned into a powerful undead. She can use her lair actions anywhere in the tomb.",
+        ],
+        ['Sources: ', 'Candlekeep Mysteries'],
+      ],
+      habitats: ['Tomb'],
       stats: {
         size: 'medium',
         type: 'undead',

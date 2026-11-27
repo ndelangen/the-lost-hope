@@ -11,6 +11,13 @@ export default createPublicationMonsters({
       name: 'Fume Drake',
       alignment: 'neutral',
       languages: ['Draconic', 'Ignan'],
+      appearance: [['A small legless dragon shape made of greenish smoke.']],
+      lore: [
+        [
+          'Fume drakes are mischievous beings born from the magical energy left behind when a dragon dies. They enjoy causing pain and confusion in others.',
+        ],
+        ['Sources: ', 'Dragons of Stormwreck Isle'],
+      ],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -316,6 +323,13 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Common', 'Draconic'],
       habitats: ['coastal'],
+      appearance: [['A bronze dragon living in a mild, innocent-looking disguise.']],
+      lore: [
+        [
+          "Runara leads Dragon's Rest and is committed to peace. Behind the disguise she is an adult bronze dragon, formidable as an enemy and powerful as an ally, with abilities beyond what her stat block shows. Bronze dragons in general are often friendly coastal dwellers who like watching ships and sailors.",
+        ],
+        ['Sources: ', 'Dragons of Stormwreck Isle'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',

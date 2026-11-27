@@ -12,6 +12,17 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral good',
       languages: ['Common (WoW)', 'Darnassian', 'Thalassian'],
+      appearance: [
+        [
+          'An elf touched by the Void, eldest of the Windrunner sisters, whose power sits uneasily within her.',
+        ],
+      ],
+      lore: [
+        [
+          "Alleria was thought lost after the Second War, and a statue of her stands in Stormwind. She and her husband, the paladin Turalyon, became champions of the Light and fought on distant worlds across the Twisting Nether. There she dabbled in forbidden magic and took on the Void. She came home after forty years, though the time distortion made it feel like a millennium of battle, and she taught some elves to embrace shadow as void elves. She remains at odds with Turalyon and is trying to repair her bond with their son Arator and with Quel'Thalas. She craves closeness, yet her need for power to protect loved ones drives them off. She insists she controls the Void, but those near her fear her grip will slip.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3159,6 +3170,15 @@ export default createPublicationMonsters({
       name: 'Illidan Stormrage',
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Darnassian', 'Eredun', 'Nathrezim', 'Orcish'],
+      appearance: [
+        ['A demon hunter with ominous wings, spiralling horns and eyes that glow fel green.'],
+      ],
+      lore: [
+        [
+          "Illidan is the first demon hunter. Once a gifted night elf mage, he was named the Betrayer for aiding the Legion during the War of the Ancients, and his twin Archdruid Malfurion locked him away for ten millennia. Neither Malfurion nor his beloved Tyrande Whisperwind knew he wanted the Legion's power to turn it on them and rescue his people. Released, he escaped into the Twisting Nether, where he trains elves as demon hunters and strikes at the Burning Legion on worlds far and wide, trusting no one, mortal or demon.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -4396,6 +4416,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common (WoW)', 'Darnassian', 'Nazja', 'Orcish'],
       habitats: ['coastal', 'underwater', 'coastal', 'underwater'],
+      appearance: [
+        [
+          'A female naga with a human-like head, often four or more arms, and a long snaky tail below a humanoid torso.',
+        ],
+      ],
+      lore: [
+        [
+          "Nagas were once Highborne night elves loyal to Queen Azshara. After the War of the Ancients she bound herself and her people to the Old God N'Zoth, who turned them into aquatic servants. They faintly resemble their old forms, with male nagas having snake heads. Sea witches are female nagas who use the magic of stormy seas.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -4459,6 +4490,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common (WoW)', 'Nerubian', 'Orcish'],
       habitats: ['any'],
+      appearance: [['A nerubian wearing scraps of its mummy wrappings, raking with strong claws.']],
+      lore: [
+        [
+          "The Lich King could not give nerubians his undeath plague, so he raised many dead ones by necromancy as crypt fiends. They tangle enemies in webs charged with necrotic energy that saps the victims' life force.",
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -6317,6 +6355,14 @@ export default createPublicationMonsters({
       name: 'Sylvanas Windrunner',
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Darnassian', 'Forsaken', 'Orcish', 'Taur-ahe', 'Thalassian'],
+      appearance: [['The Banshee Queen, the undead Dark Lady of the Forsaken.']],
+      lore: [
+        [
+          'Vengeance festers in Sylvanas. Her first hatred is for the former prince Arthas Menethil, the Lich King, who murdered her and chained her soul to his service, then those who slaughtered her people, and finally all the living. Her cruelty deepened after the Lich King fell as she sank into nihilistic despair, and hundreds of thousands died on her orders to be raised as undead soldiers. In the end she repented and accepted judgment, and now lives in the Shadowlands, liberating souls as her penance.',
+        ],
+        ['Sources: ', 'D&D: World of Warcraft'],
+      ],
+      habitats: ['Shadowlands'],
       stats: {
         size: 'medium',
         type: 'undead',

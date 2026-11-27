@@ -1740,6 +1740,14 @@ export default createPublicationMonsters({
       tags: ['yugoloth'],
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 120 ft.'],
+      appearance: [['An ancient, withered-looking human, despite her fiendish powers.']],
+      lore: [
+        [
+          "Jijibisha is a cruel soul from this land's history who hides in the woods nearby. In the distant past she traded with sinister otherworldly powers for a very long life and fiendish gifts, and that deal brought about Manivarsha's downfall.",
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -4015,6 +4023,13 @@ export default createPublicationMonsters({
       name: 'Soul Shaker',
       alignment: 'chaotic evil',
       languages: ['telepathy 60 ft'],
+      appearance: [['A writhing, grasping tangle of humanoid arms and legs.']],
+      lore: [
+        [
+          'A soul shaker obsessively claims corpses and collects body parts. It forms when a ghoulish heap of severed limbs meets necromantic energy, or when many crawling claws start cooperating. Most victims are sapped of vitality and battered to pulp by its many arms, but an impressionable mind may be charmed into serving as bait for others. If beaten it breaks into skittering limbs, and it can only truly be ended by destroying them. If more than one piece escapes, it reforms in days and resumes hunting.',
+        ],
+        ['Sources: ', 'Journeys through the Radiant Citadel'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',

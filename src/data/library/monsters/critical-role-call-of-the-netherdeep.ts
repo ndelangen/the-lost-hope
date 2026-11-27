@@ -1894,6 +1894,14 @@ export default createPublicationMonsters({
       name: 'Corrupted Giant Shark',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A giant shark whose body is overgrown with corrupting crystals.']],
+      lore: [
+        [
+          'Besides a savage bite, the shark radiates a psychic field that gives nearby creatures agonising mental strain. The crystals that corrupt it let it heal itself, and only radiant energy or unusually devastating blows get past that defence.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Sea'],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -2618,6 +2626,13 @@ export default createPublicationMonsters({
       tags: ['elf', 'sorcerer'],
       alignment: 'neutral evil',
       languages: ['Celestial', 'Common', 'Elvish'],
+      appearance: [['A professor who seems a trusted friend to Insight.']],
+      lore: [
+        [
+          'For a long time Galeokaerda has passed as a teacher in the Allegiance of Allsight and become a friend to Insight, while secretly spying for the Consortium; Professor Acuere has no idea. The Consortium of the Vermilion Dream looks like a money-minded, mystical but harmless circle of ghost chasers and legend spreaders, which is partly fair, but its leaders are obsessed with tales of Ruidus, the ominous moon, and of ancient figures cursed by its alien influence. Handling ruidium-tainted items has sharpened the cruellest urges of the keenest agents. Galeokaerda is an occult extollant, driven by an unquenchable hunger to solve mysteries that destroyed other investigators.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4241,6 +4256,14 @@ export default createPublicationMonsters({
       tags: ['monk', 'wizard'],
       alignment: 'any alignment',
       languages: ['Common plus four other languages'],
+      appearance: [['A senior scholar-priest of the Cobalt Soul.']],
+      lore: [
+        [
+          "High curators gather knowledge and spread truth. They take on puzzling mysteries, spy on rival power structures to manipulate or weaken them, and give the oppressed chances to escape. They know their organisations' deepest secrets and what lesser agents are doing, and use energy manipulation to defend themselves and disrupt enemies. The Cobalt Soul's scholars, priests and ascetics follow Ioun, hold that power grows out of understanding one's surroundings, and each archive exposes lies and propaganda and fights corruption in its home society. The Library is based in Rexxentrum, with archives across Exandria. The Ank'Hareli branch sits in a library-shrine to Ioun, led by High Curator Jamil A'alithiya.",
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Wildemount'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4699,6 +4722,13 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'any alignment',
       languages: ['Common plus two other languages'],
+      appearance: [['A scholar drawn to ancient legends.']],
+      lore: [
+        [
+          'Occult extollants dig into old legends and try to solve mysteries that destroyed other investigators, driven by an insatiable need to know. The Consortium of the Vermilion Dream seems a profit-minded, mystical but harmless group of ghost hunters and urban legend spreaders, partly true, but its leaders obsess over legends of Ruidus, the ominous moon, and ancient figures cursed by its alien influence, and ruidium-tainted items have worsened the cruellest urges of its keenest agents.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4981,6 +5011,14 @@ export default createPublicationMonsters({
       name: 'Olara',
       alignment: 'neutral good',
       languages: ['Any one language (usually Common)'],
+      appearance: [['A survivor living on kelp in the Drowned City.']],
+      lore: [
+        [
+          "Olara speaks an old dialect that is the root of both Elvish and Orc, so anyone who knows either can talk to her, like some ghosts of her kin who haunt the ruins of Cael Morrow. She is no ghost but a rare mortal survivor of Gruumsh's attack centuries ago, and eats the kelp growing in the Drowned City.",
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Drowned City'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5151,6 +5189,14 @@ export default createPublicationMonsters({
       tags: ['wizard'],
       alignment: 'any alignment',
       languages: ['Common plus one other language'],
+      appearance: [['A junior member of an academic order.']],
+      lore: [
+        [
+          "Scholarly agents are low-ranking academics who know a few tricks for staying out of danger and study magic for decoding old secrets and identifying relics. They serve the Allegiance of Allsight, a learned faction centred on the Marquesian city of Ank'Harel whose field agents are trained archaeologists.",
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ["Ank'Harel"],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -5213,6 +5259,14 @@ export default createPublicationMonsters({
       name: 'Scholarly Excavator',
       alignment: 'any alignment',
       languages: ['Common plus two other languages'],
+      appearance: [['A field researcher trained for dangerous digs.']],
+      lore: [
+        [
+          "Excavators work in ruins full of ancient magic and monsters, and are good at shielding companions and clearing obstructions. They belong to the Allegiance of Allsight, a scholarly faction based in the Marquesian city of Ank'Harel whose field agents are trained archaeologists.",
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ["Ank'Harel", 'Ruins'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -5835,6 +5889,14 @@ export default createPublicationMonsters({
       name: 'Sorrowfish',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A deep-sea fish that gathers in swarms.']],
+      lore: [
+        [
+          'Sorrowfish live in deep ocean trenches and are seldom met by surface dwellers. Some claim the name comes from their taste, which sours the mood of whoever eats them. The real sorrow comes when they swarm, as malevolent presences in the ocean depths influence them and turn the swarms vicious.',
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Ocean trenches'],
       stats: {
         size: 'tiny',
         type: 'aberration',
@@ -5882,6 +5944,14 @@ export default createPublicationMonsters({
       name: 'Swarm of Sorrowfish',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A swarm of deep-sea fish, often lurking in the tendrils of a death embrace.']],
+      lore: [
+        [
+          "The swarm attacks out of hunger and has no fear, and often hides inside a death embrace's petrifying tendrils to keep other predators off. Sorrowfish live in deep trenches and are rarely met at the surface. Some say the name comes from their taste, which puts eaters in a gloomy mood, but the real sorrow is a swarm, since malevolent presences in the ocean depths twist them into vicious hordes.",
+        ],
+        ['Sources: ', 'Critical Role: Call of the Netherdeep'],
+      ],
+      habitats: ['Ocean trenches'],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',

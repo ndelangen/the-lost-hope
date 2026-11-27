@@ -11,6 +11,15 @@ export default createPublicationMonsters({
       name: 'Aberrant Zealot',
       alignment: 'chaotic evil',
       languages: ['Common', 'Deep Speech'],
+      appearance: [
+        ['A cultist who looks mostly like a person but is soaked in strange, unsettling energy.'],
+      ],
+      lore: [
+        [
+          'Aberrant zealots are cultists who reached toward the Far Realm and found that something reached back. They are saturated with the strange energy of that plane and borrow their savage power from the monstrous entities living in it.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -411,6 +420,17 @@ export default createPublicationMonsters({
         'understands Common',
         'Deep Speech',
         "and Undercommon but can't speak",
+      ],
+      appearance: [
+        [
+          'An enormous brain walking on stout legs, wearing steel armour built from interlocked Ilvaash runes, which look like tangles of tentacles, brains and jagged jaw-like lines.',
+        ],
+      ],
+      lore: [
+        [
+          "The supplied text only describes the brain breaker's appearance and armour, with no behaviour or tactics.",
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
       ],
       stats: {
         size: 'large',
@@ -1632,6 +1652,13 @@ export default createPublicationMonsters({
       tags: ['goblinoid'],
       alignment: 'any alignment',
       languages: ['Common', 'Goblin', 'telepathy 60 ft'],
+      appearance: [['A psionic goblin wielding a blade of pure psychic energy.']],
+      lore: [
+        [
+          'Psionic goblins come about in several ways: some are born altered by energy seeping out of the Far Realm, others reshape themselves with psionic power, and others strike bargains with aberrations who change them in return for service as shock troops. Whatever the route, the result is a goblin holding wild psychic power it can barely contain. Those who learn to channel it safely are dangerous in battle, often adding telekinesis to their weapon skills, and quiet squads can speak mind to mind, which suits ambushes and infiltration. Only a handful ever gain full command of their gift, and psi commanders are of that handful. They swing blades of raw psychic force, raise walls of mental energy and can knock foes down with one mind-splitting burst.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -2975,6 +3002,13 @@ export default createPublicationMonsters({
       tags: ['young gem'],
       alignment: 'neutral',
       languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
+      appearance: [['A young amethyst dragon, usually with a human mage named Gossa beside him.']],
+      lore: [
+        [
+          'Lowarnizel and Gossa, a human mage of lawful neutral outlook, both despise the Far Realm and anything it has tainted. The supplied text says nothing more about him.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -3204,6 +3238,16 @@ export default createPublicationMonsters({
       name: 'Mind Flayer Clairvoyant',
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'telepathy 120 ft'],
+      appearance: [
+        ['A mind flayer with purple-toned skin and an octopus-like head of writhing tentacles.'],
+      ],
+      lore: [
+        [
+          "A few mind flayers, trying to rebuild their lost empire, have turned to the Far Realm, their home plane, for answers. A clairvoyant looked into its starless depths and was rewarded with great power. It follows the whispers and whims of that plane's voices rather than an elder brain. As well as eating brains, it can summon tentacles that tear through reality and warp enemies' minds.",
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
+      habitats: ['Far Realm'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -3381,6 +3425,15 @@ export default createPublicationMonsters({
       name: 'Mind Flayer Prophet',
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'telepathy 120 ft'],
+      appearance: [
+        ['A mind flayer with purple-toned skin and an octopus-like head of writhing tentacles.'],
+      ],
+      lore: [
+        [
+          'Some mind flayers spend their lives drawing strange truths from beyond reality. The insight gives them unnaturally sharp senses and lets them focus their natural psionic power. Mind flayers, also called illithids, eat the brains of humanoids all over the multiverse.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -4163,6 +4216,18 @@ export default createPublicationMonsters({
       name: 'Otyugh Mutate',
       alignment: 'neutral',
       languages: ['Otyugh', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'Jet-black chitinous plates cover its limbs, over flesh so translucent that the filth it has eaten shows through.',
+        ],
+      ],
+      lore: [
+        [
+          'Mutates are creatures changed by Far Realm energy, either through long exposure or by choice. They often gain psionic powers, wings or an otherworldly slime coat, and may revert once the influence fades. Cloakers and otyughs are especially prone to it, and an otyugh mutate rises from carrion and refuse soaked in that energy. The mind flayers of old tried for centuries to breed armies of mutates and never succeeded.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -4308,6 +4373,14 @@ export default createPublicationMonsters({
       name: 'Psionic Ashenwight',
       alignment: 'neutral',
       languages: ['telepathy 120 ft'],
+      appearance: [['A desiccated undead humanoid with eyes that often glow with strange power.']],
+      lore: [
+        [
+          'Ashenwights rise when a cruel, enraged humanoid dies in ground tainted by the Far Realm. Near a crystal vein charged with aberrant power, one may gain psionic ability and become noticeably more sapient than its kin. That new mind is a fresh creation, not the person it once was. Some psionic ashenwights try to reconstruct their former life, and others try to awaken their fellows to psionic power.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
+      habitats: ['Far Realm-corrupted areas'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4522,6 +4595,14 @@ export default createPublicationMonsters({
       tags: ['mind flayer', 'warlock'],
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'telepathy 60 ft'],
+      appearance: [['A mind flayer warlock, always escorted by four grimlocks.']],
+      lore: [
+        [
+          'Qunbraxel is arrogant and has no elder brain it respects, so it wants to throw in with the fanatics of Ilvaash and gain strength and wisdom out of the Far Realm. Four loyal grimlocks always attend it, trading the duty with others nearby, and it can barely tell one from another.',
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -5016,6 +5097,14 @@ export default createPublicationMonsters({
       tags: ['goblinoid'],
       alignment: 'neutral evil',
       languages: ['Common', 'Goblin', 'telepathy 60 ft.'],
+      appearance: [['A goblin leader of the Sawplees.']],
+      lore: [
+        [
+          "Zorzula's Rest, once a duergar mining outpost, was conquered by mind flayers long ago, and the goblins there absorbed psionic powers from them. Those goblins stayed isolated after the illithids left, calling themselves Sawplees, until mind flayer fanatics contacted them. Ruxithid recently found a strange gem that lets him talk telepathically with the mind flayers, whom he thinks are gods. He does not know a new group of Far Realm-powered fanatics planted it for him.",
+        ],
+        ['Sources: ', 'Phandelver and Below: The Shattered Obelisk'],
+      ],
+      habitats: ['Underdark', "Zorzula's Rest"],
       stats: {
         size: 'medium',
         type: 'aberration',

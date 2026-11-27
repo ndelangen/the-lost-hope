@@ -1243,6 +1243,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'A two-headed horror stands before you, the heads snapping and sniping at each other without pause.',
+        ],
+      ],
+      lore: [
+        [
+          "The angry sorrowsworn is one of the Shadowfell's embodiments of despair, a being formed from the plane's gloom. It lives on violence and grows stronger the more its enemies hit back. If its foes hold their blows instead, it becomes confused and its attacks lose their strength. Its two heads quarrel constantly.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -26096,6 +26107,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: [],
       habitats: ['forest', 'hill', 'swamp'],
+      appearance: [
+        [
+          'Hounds slip through the gloom almost unseen, their forms blending with the shadows around them.',
+        ],
+      ],
+      lore: [
+        [
+          'Shadow mastiffs are hunting dogs of the Shadowfell that avoid sunlight and are usually met in packs. They travel unseen through darkness and are always searching for prey. Temples of gloomy or nocturnal gods, such as the faith of Shar in the Forgotten Realms, perform dark rites to summon them as guards and sentinels.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -26184,6 +26206,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: [],
       habitats: ['forest', 'hill', 'swamp'],
+      appearance: [
+        [
+          'A howl rolls out of the dark that makes your skin crawl, and a hound leads a pack of shadowy dogs out of the gloom.',
+        ],
+      ],
+      lore: [
+        [
+          "Every pack of shadow mastiffs has an alpha, its cleverest member. This hound's howl is dreaded, and hearing it is a reliable warning that the pack is out hunting. Like the rest of its kind it comes from the Shadowfell and is invisible in shadow. The book's text covers shadow mastiffs in general and does not describe the alpha's looks separately.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -27527,6 +27560,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Deep Speech'],
       habitats: ['mountain'],
+      appearance: [
+        [
+          "A figure with a mortal's body but something plainly not mortal inside it, alien in manner and unlike anyone it once was.",
+        ],
+      ],
+      lore: [
+        [
+          "A larva mage appears when a spellcasting devotee of a worm-like power such as Kyuss or Kezef is reached by a messenger from an Elder Evil, which arrives on a comet. The messenger fuses with the devotee's mind. Nothing of the former person endures, and the result thinks and acts in a wholly foreign way.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',

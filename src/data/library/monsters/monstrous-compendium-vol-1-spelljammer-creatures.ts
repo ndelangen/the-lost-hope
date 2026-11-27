@@ -11,6 +11,18 @@ export default createPublicationMonsters({
       name: 'Asteroid Spider',
       alignment: 'neutral evil',
       languages: [],
+      appearance: [
+        [
+          'A giant, lifeless-looking rock drifts in space until it unfolds eight huge legs. Its legs wrap tight around the body with the eyes shut.',
+        ],
+      ],
+      lore: [
+        [
+          'The asteroid spider is a Wildspace and Astral Sea predator whose body and legs are each around thirty feet across or long when fully grown. It carries its own gravity and air, and spins web strands. Its brain works like a spelljamming helm, so it can travel without a ship. It lurks among asteroid belts until a ship is close, then snares it with webbing, catches the crew and reels them to its jaws.',
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 1: Spelljammer Creatures'],
+      ],
+      habitats: ['Wildspace', 'Astral Sea'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',

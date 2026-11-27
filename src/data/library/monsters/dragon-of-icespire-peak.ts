@@ -334,6 +334,13 @@ export default createPublicationMonsters({
       tags: ['gnome'],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Gnomish'],
+      appearance: [['A gnome who lives apart from others, surrounded by gadgets.']],
+      lore: [
+        [
+          'Rock gnome recluses are gifted at arcane craft and make all sorts of wondrous inventions, though very few do what they were built to do.',
+        ],
+        ['Sources: ', 'Dragon of Icespire Peak'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

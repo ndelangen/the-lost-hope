@@ -557,6 +557,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful good',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Halfling'],
+      appearance: [['A prickly, reserved man, never far from his books.']],
+      lore: [
+        [
+          'Barnibus is an investigator of magical crimes with the Watchful Order of Magists and Protectors. His one confidant is Saeth Cromley, a former City Watch sergeant who lends a hand on many cases. He never married and lives in a neat little house in the Sea Ward left to him by his grandmother, where he spends free time reading and writing books. His spells are for investigation: extracting secrets from suspects and finding missing people. Violence disgusts him, and he would not harm anyone with magic, even someone who had hurt him.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -800,6 +808,18 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish'],
+      appearance: [
+        [
+          'A sun elf who lodges at the Yawning Portal, conducts every deal in its taproom and plays an elven lute.',
+        ],
+      ],
+      lore: [
+        [
+          "Davil is the Master of Opportunities and Negotiations for the Black Network's Waterdeep branch, with a nose for profitable deals and an easy way of making friends. Like many sun elves he is drawn to magic and has a long life's patience, but he is neither snobbish nor aloof. He bargains smoothly even when drunk. He can introduce the party to other Waterdeep leaders: Istrid Horn for loans, Skeemo Weirdbottle for magic, Tashlyn Yafeera for weapons or hired swords, and Ziraj the Hunter for a top assassin. The Doom Raiders, five adventurers who looted lich lairs, joined the Black Network and arrived three years ago intending to set up a Zhentarim base. They have made allies among nobles and guilds, offended others and kept Harper spies at bay.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2630,6 +2650,18 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'chaotic neutral',
       languages: ['Abyssal', 'Common', 'Draconic', 'Dwarvish', 'Elvish', 'Undercommon'],
+      appearance: [
+        [
+          'A flamboyant, swashbuckling drow, here disguised as the Illuskan human Captain Zardoz Zord, master of the Sea Maidens Faire carnival.',
+        ],
+      ],
+      lore: [
+        [
+          "Jarlaxle leads Bregan D'aerthe, a rebel drow company made mostly of males from ruined or disgraced houses. He is sharp, funny, deadly with a blade and loaded with useful magic, and took over lawless Luskan, bringing it order as its hidden ruler. His latest scheme is to give Luskan respectability by getting it into the Lords' Alliance, whose leaders have so far refused, some flatly. He means to win over Laeral Silverhand of Waterdeep even if other members leave, since linking Luskan to Waterdeep would increase his power on the Sword Coast. His carnival sails the coast on three ships and he mostly stays on the Eyecatcher. He has allied with Lantan, armed his lieutenants with Lantanese firearms and hidden a Lantanese submarine under his ship as an escape. He is loyal first to himself, then to Bregan D'aerthe.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Luskan', 'Sword Coast'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3263,6 +3295,13 @@ export default createPublicationMonsters({
       tags: ['tiefling'],
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [['A woman in flowing red robes.']],
+      lore: [
+        [
+          "Nana looks after and privately teaches the twins Terenzio and Elzerina, and tries to keep tabs on them, though they often escape her. When off duty she rests in the twins' playroom.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4029,6 +4068,13 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft'],
       habitats: ['underdark'],
+      appearance: [['An illithid with a thoroughly alien mind.']],
+      lore: [
+        [
+          "Nihiloor works for Xanathar, making intellect devourers and sending them into Waterdeep's sewers. Each takes over the first humanoid it meets and uses it as a puppet to spy and report back, sometimes seeking a particular target such as the City Guard or Watch, or capturing named Waterdavians for Skullport to be enslaved or ransomed. It thinks itself Xanathar's equal, but prefers working from the shadows on its own schemes to replacing the beholder.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -4170,6 +4216,17 @@ export default createPublicationMonsters({
       name: 'Nimblewright',
       alignment: 'unaligned',
       languages: ["understands one language known to its creator but can't speak"],
+      appearance: [
+        [
+          'A mostly light wooden figure that can pass for a person in clothes, plain or showy, with a face frozen in the expression its maker gave it.',
+        ],
+      ],
+      lore: [
+        [
+          'A magical construct built as a guard or assassin, it is emotionless. It moves gracefully and fights like a duelist, dodging and parrying while skewering foes. It needs no air, food, drink or sleep. Mending spells repair damage, but one reduced to zero is permanently destroyed.',
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -5649,6 +5706,14 @@ export default createPublicationMonsters({
       tags: ['gnome'],
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Gnomish', 'Undercommon'],
+      appearance: [['A rock gnome who runs a cramped little potion shop.']],
+      lore: [
+        [
+          "Skeemo is the Black Network's Master of Magic in Waterdeep, fronting as Weirdbottle's Concoctions in the Trades Ward. Most of his potions are mundane, but he brews magical ones for his Zhent allies. He sold out to House Gralhund and Manshoon's loyalists and sends paper-bird messages to old friends and new. He was one of the Doom Raiders, five unscrupulous adventurers who plundered lich lairs, then signed up with the Black Network and arrived in Waterdeep three years ago to build a Zhentarim foothold, making alliances, making enemies and dodging Harper spies.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep', 'Trades Ward'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -6367,6 +6432,16 @@ export default createPublicationMonsters({
       tags: ['tiefling'],
       alignment: 'lawful evil',
       languages: ['Common', 'Infernal'],
+      appearance: [
+        ['An aging tiefling wearing a floor-length black dress and a tasselled black headdress.'],
+      ],
+      lore: [
+        [
+          "Madame Khyret is Ammalia Cassalanter's personal attendant and the family's chief housemaid. She can usually be found in the master sitting room.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Cassalanter villa'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6977,6 +7052,14 @@ export default createPublicationMonsters({
       name: 'Walking Statue of Waterdeep',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['An enormous statue that can animate, each with a name and unique look.']],
+      lore: [
+        [
+          "Waterdeep holds eight vast statues able to protect the city in times of grave peril. They are so destructive that they are used only against armies or hopeless foes. The Swordmaiden is too damaged to move, and just the Blackstaff's wielder can wake the other seven. Over the years people have built structures on and around several, taking them for landmarks, and any structure attached is destroyed when its statue first animates.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Waterdeep'],
       stats: {
         size: 'gargantuan',
         type: 'construct',

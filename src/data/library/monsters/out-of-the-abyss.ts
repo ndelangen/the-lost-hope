@@ -588,6 +588,14 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'lawful evil',
       languages: ['Draconic', 'Giant', 'Dwarvish'],
+      appearance: [['A duergar ruler, shrewd and ruthless.']],
+      lore: [
+        [
+          'Horgar has ruled the duergar city for some years. He holds secret meetings with every council and clan in the city so that nobody knows his plans, hands out sudden favours, and makes it known he will use any trick to keep power, including hiring assassins through go-betweens to remove troublemakers. That keeps the factions fighting each other instead of him. Like many duergar there he has been afflicted by the madness of the demon lords, and the DM rolls on the indefinite madness table to find his flaw.',
+        ],
+        ['Sources: ', 'Out of the Abyss'],
+      ],
+      habitats: ['Gracklstugh'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1715,6 +1723,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['telepathy 60 ft.'],
       habitats: ['underdark'],
+      appearance: [['An ooze that is plainly curious and aware, probing visitors with questions.']],
+      lore: [
+        [
+          'Since Juiblex came to the Underdark, Glabbagool has had thought and self-awareness. It is sincerely inquisitive about everyone it meets and wants to understand the world. If attacked it fights back, but otherwise it does not try to harm visitors and instead quizzes them on their names, their homelands and their reason for entering the temple.',
+        ],
+        ['Sources: ', 'Out of the Abyss'],
+      ],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -2201,6 +2216,18 @@ export default createPublicationMonsters({
       name: 'Ixitxachitl',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Ixitxachitl'],
+      appearance: [
+        [
+          'A swimming creature like a manta ray, with little clawed hands at the wing tips and black eyes full of sly, malicious intelligence.',
+        ],
+      ],
+      lore: [
+        [
+          'Many creatures mistake them for plain manta rays, which can be a fatal error, for they are evil and clever and earn the nickname demon rays. They are found in lakes and seas alike, though their savagery keeps their ways largely unrecorded. They hatch as tiny things and struggle to survive throughout their lives, growing all the while; the ones that master survival gain regeneration and drain life from others. They hollow reefs and similar structures into mazelike lairs, often forcing captives of other species to labour, strip the surroundings and move on. Schools fight other aquatic creatures for territory. They serve demons, above all Demogorgon, whom they hold to be their patron and maker, and are bitter rivals of the merrow for his favour.',
+        ],
+        ['Sources: ', 'Out of the Abyss'],
+      ],
+      habitats: ['Ocean', 'Reef'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -2248,6 +2275,18 @@ export default createPublicationMonsters({
       name: 'Ixitxachitl Cleric',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Ixitxachitl'],
+      appearance: [
+        [
+          'A swimming creature like a manta ray, with little clawed hands at the wing tips and black eyes full of sly, malicious intelligence.',
+        ],
+      ],
+      lore: [
+        [
+          "The text covers ixitxachitl generally and does not describe the cleric's own role. They are mistaken for plain manta rays, which can be fatal, since they are evil and clever and known as demon rays. They hatch tiny and struggle to survive for life, and those that master survival gain regeneration and drain life from others. They hollow reefs into mazelike lairs, enslaving captives, and strip an area before moving on. They serve demons, especially Demogorgon, whom they hold to be their patron and maker, and bitterly rival the merrow for his favour.",
+        ],
+        ['Sources: ', 'Out of the Abyss'],
+      ],
+      habitats: ['Ocean', 'Reef'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -4163,6 +4202,14 @@ export default createPublicationMonsters({
       tags: ['troglodyte'],
       alignment: 'chaotic evil',
       languages: ['Troglodyte'],
+      appearance: [['A hulking troglodyte able to spew acid.']],
+      lore: [
+        [
+          'Occasionally a troglodyte tribe has a member who is unusually clever and strong with acid-spewing ability, which many troglodytes see as a gift from their demonic god Laogzed. These champions make fine chieftains.',
+        ],
+        ['Sources: ', 'Out of the Abyss'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4498,6 +4545,18 @@ export default createPublicationMonsters({
       name: 'Vampiric Ixitxachitl',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Ixitxachitl'],
+      appearance: [
+        [
+          'An aquatic creature like a manta ray, with tiny clawed hands on its wing tips and shining black eyes that show a sinister intelligence.',
+        ],
+      ],
+      lore: [
+        [
+          'Many mistake ixitxachitl for ordinary manta rays, which can be fatal. They are evil and cunning, nicknamed demon rays, and live in fresh and salt water, though their violence means little is known. They hatch tiny and struggle to survive all their lives, and those who master it gain regeneration and feed on life force. They hollow reefs into labyrinthine dens, often enslaving captured aquatic creatures, strip an area bare and move on. Schools war on other creatures for feeding grounds. They worship demons, above all Demogorgon, their patron and creator, and fiercely rival the merrow for his favour.',
+        ],
+        ['Sources: ', 'Out of the Abyss'],
+      ],
+      habitats: ['Coastal', 'Freshwater', 'Reefs'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -4564,6 +4623,18 @@ export default createPublicationMonsters({
       name: 'Vampiric Ixitxachitl Cleric',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Ixitxachitl'],
+      appearance: [
+        [
+          'An aquatic creature like a manta ray, with tiny clawed hands on its wing tips and shining black eyes that show a sinister intelligence.',
+        ],
+      ],
+      lore: [
+        [
+          'Many mistake ixitxachitl for ordinary manta rays, which can be fatal. They are evil and cunning, nicknamed demon rays, and live in fresh and salt water, though their violence means little is known. They hatch tiny and struggle to survive all their lives, and those who master it gain regeneration and feed on life force. They hollow reefs into labyrinthine dens, often enslaving captured aquatic creatures, strip an area bare and move on. Schools war on other creatures for feeding grounds. They worship demons, above all Demogorgon, their patron and creator, and fiercely rival the merrow for his favour.',
+        ],
+        ['Sources: ', 'Out of the Abyss'],
+      ],
+      habitats: ['Coastal', 'Freshwater', 'Reefs'],
       stats: {
         size: 'medium',
         type: 'aberration',

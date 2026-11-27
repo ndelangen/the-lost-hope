@@ -2343,6 +2343,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Giant', 'Infernal'],
+      appearance: [['A simulacrum that looks and acts like the wizard Dzaan.']],
+      lore: [
+        [
+          'Before his execution Dzaan made a simulacrum of himself with a scroll, and it waits in the sunken Netherese spire for him. It has half his vitality, cannot recover spent spell slots, has wasted its third-level slots on sending spells to reach him and others on staying alive, and spends what remains sparingly. A room in the tower can turn a simulacrum into a real person, making it an authentic clone. Dzaan was a Red Wizard of Thay and illusionist welcomed by the Arcane Brotherhood. He hired adventurers to find Netherese ruins in Icewind Dale, killed anyone who knew of the spire, and was recognised in Easthaven despite a disguise, gagged, stripped of his spellbook and condemned. His bodyguard, the Thayan wight Krintaas, was told to stay with the simulacrum.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2955,6 +2963,17 @@ export default createPublicationMonsters({
       name: 'Gnome Ceremorph',
       alignment: 'any alignment',
       languages: ['Deep Speech', 'Gnomish', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A mind flayer that stays small, gnome-sized, often carrying a homemade device that works as a laser pistol.',
+        ],
+      ],
+      lore: [
+        [
+          "Mind flayers are made when an illithid tadpole is put into a humanoid's brain and, after roughly a week, converts the host, who usually forgets everything before. For reasons nobody knows, the process can go wrong in a gnome, possibly because gnomes are a little magical or simply their peculiar way of thinking. When the distortion is mild, the mind flayer stays small and gets the name gnome ceremorph. It still knows Gnomish and can speak Deep Speech and Undercommon, keeps fragments of its earlier life and alignment, and keeps a taste for tinkering. Its pistol's power cell is fixed in place, so taking it out ruins the weapon, and the device is dead once the charge is spent.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -3471,6 +3490,14 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'lawful evil',
       languages: ['Common', 'Dwarvish', 'Undercommon'],
+      appearance: [['A duergar grand dame who guards herself with a chardalyn pseudodragon.']],
+      lore: [
+        [
+          'Grandolpha heads the Muzgardt duergar clan, based in Gracklstugh, which mass-produces a vile mushroom ale. Xardorok invited her to his fortress, hoping to take her as a fourth wife, and gave her a chardalyn pseudodragon, planning to put the Muzgardts in charge of the ale trade once he conquers Icewind Dale. She is too shrewd and weary to be seduced and has begun plotting with unhappy advisors and warriors to overthrow him, and he is too dazzled to notice. In a fight she first protects herself with stoneskin, then pulls back when her guards arrive and uses faerie fire so they can hit more easily. The pseudodragon defends her to the death.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Underdark', 'Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5394,6 +5421,13 @@ export default createPublicationMonsters({
         'underdark',
         'desert',
       ],
+      appearance: [['A tribal fighter from beyond civilization.']],
+      lore: [
+        [
+          'Reghed tribes live by fishing and hunting and follow their chief, who is the oldest or greatest warrior or someone favoured by the gods.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6635,6 +6669,18 @@ export default createPublicationMonsters({
       tags: ['dwarf'],
       alignment: 'lawful evil',
       languages: ['Common', 'Dwarvish'],
+      appearance: [
+        [
+          'A duergar chieftain wearing a crown of nine spires, a mail shirt and a barbed gauntlet, all of chardalyn. Two spires are whole and seven are partly broken.',
+        ],
+      ],
+      lore: [
+        [
+          'Xardorok leads the Sunblight clan, which lived deep under the Spine of the World until recently. Asmodeus, posing as the duergar god of conquest Deep Duerra, pushed him toward taking Icewind Dale, Ten-Towns first. He is obsessed with chardalyn, wants all of it and cannot bear anyone else having it, and is forging a dragon from it to loose on Ten-Towns. He has had three wives and nine children and has killed his first wife and eldest son for plotting against him. His second wife died in a tunnel collapse and his third in a raid on a mind flayer enclave. Two sons, Durth and Nildar, survive, which the two intact crown spires represent.',
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Underdark', 'Icewind Dale'],
       stats: {
         size: 'medium',
         type: 'humanoid',
