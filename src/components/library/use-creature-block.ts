@@ -4,6 +4,7 @@ import type { PrintedStatBlock } from '#/definitions/stat-block'
 import { loadOwnedCreature } from '#/lib/load-owned-creature'
 import type { MonsterOwner } from '#/lib/monster-printing'
 import {
+  ownerNumbersRead,
   typicalOwner,
   type Owner,
   type OwnedCreature,
@@ -77,6 +78,10 @@ export function useCreatureBlock(
     () => withOptions(creature && owner ? creature.stats(printed, owner, picked) : printed, picked),
     [printed, creature, owner, picked],
   )
+  const reads = useMemo(
+    () => (creature && scaling ? ownerNumbersRead(creature, printed, scaling, picked) : []),
+    [creature, printed, scaling, picked],
+  )
   const derived = useMemo(
     () => (stats === printed ? printedDerived : deriveStatBlock(stats)),
     [stats, printed, printedDerived],
@@ -106,7 +111,7 @@ export function useCreatureBlock(
     toggle,
     scaling,
     owner,
-    reads: creature?.reads ?? [],
+    reads,
     // A new level starts from that level's typical owner again.
     setLevel: (next: number) => {
       setLevel(next)

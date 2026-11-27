@@ -4,7 +4,7 @@ import { PrintedStatBlock } from '#/definitions/stat-block'
 
 import { printingsByMonster } from './library-monsters'
 import { loadOwnedCreature, ownedCreaturePath, ownedCreaturePaths } from './load-owned-creature'
-import { typicalOwner } from './owned-creature'
+import { ownerNumbersRead, typicalOwner } from './owned-creature'
 import { deriveStatBlock, withOptions } from './stat-block'
 
 const scaled = [...printingsByMonster].flatMap(([monster, printings]) =>
@@ -56,5 +56,15 @@ describe('creatures that follow their owner', () => {
     ).toBe('65')
     const defender = await at('tasha_s_cauldron_of_everything', 'steel_defender', 9)
     expect(defender.hitDice).toBe('9d8')
+  })
+
+  it('asks the page only for the owner numbers its function looks at', async () => {
+    const { stats } = scaled.find(({ monster }) => monster === 'steel_defender')!
+    const defender = (await loadOwnedCreature('tasha_s_cauldron_of_everything', 'steel_defender'))!
+    expect(ownerNumbersRead(defender, stats, stats.scaling!, [])).toEqual([
+      'proficiencyBonus',
+      'spellAttack',
+      'int',
+    ])
   })
 })

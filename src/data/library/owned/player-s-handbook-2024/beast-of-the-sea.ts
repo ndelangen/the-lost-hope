@@ -2,7 +2,6 @@ import { ownedCreature, withOwnerNumbers } from '#/lib/owned-creature'
 
 /** Beast of the Sea, worked out from its Ranger's level and its owner's numbers. */
 export default ownedCreature({
-  reads: ['proficiencyBonus', 'spellAttack', 'spellSaveDc', 'wis'],
   stats: (printed, owner) => {
     const level = owner.level
     return withOwnerNumbers(

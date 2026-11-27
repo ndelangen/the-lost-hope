@@ -2,7 +2,6 @@ import { ownedCreature, withOwnerNumbers } from '#/lib/owned-creature'
 
 /** Steel Defender, worked out from its Artificer's level and its owner's numbers. */
 export default ownedCreature({
-  reads: ['proficiencyBonus', 'spellAttack', 'int'],
   stats: (printed, owner) => {
     const level = owner.level
     return withOwnerNumbers(

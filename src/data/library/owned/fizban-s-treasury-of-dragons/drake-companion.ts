@@ -2,7 +2,6 @@ import { ownedCreature, withOwnerNumbers } from '#/lib/owned-creature'
 
 /** Drake Companion, worked out from its Ranger's level and its owner's numbers. */
 export default ownedCreature({
-  reads: ['proficiencyBonus'],
   stats: (printed, owner) => {
     const level = owner.level
     return withOwnerNumbers(

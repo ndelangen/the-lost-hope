@@ -2,7 +2,6 @@ import { ownedCreature, withOwnerNumbers } from '#/lib/owned-creature'
 
 /** Giant Insect, worked out from the spell slot it is summoned with and its owner's numbers. */
 export default ownedCreature({
-  reads: ['proficiencyBonus', 'spellAttack', 'spellSaveDc'],
   stats: (printed, owner) => {
     const level = owner.level
     return withOwnerNumbers(

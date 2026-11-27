@@ -22,9 +22,57 @@ export type OwnerNumber = 'proficiencyBonus' | 'spellAttack' | 'spellSaveDc' | A
  * owner is its own: work numbers out, or return the stat block the book prints at that level.
  */
 export type OwnedCreature = {
-  reads: readonly OwnerNumber[]
   stats: (printed: PrintedStatBlock, owner: Owner, picked: readonly string[]) => PrintedStatBlock
 }
+
+/**
+ * The owner's numbers a creature's function looks at, found by running it at each of its levels
+ * with an owner that notes each number read or checked for, so a page asks for those only.
+ */
+export function ownerNumbersRead(
+  creature: OwnedCreature,
+  printed: PrintedStatBlock,
+  scaling: Scaling,
+  picked: readonly string[],
+): OwnerNumber[] {
+  const read = new Set<OwnerNumber>()
+  const noting = <T extends object>(target: T, fields: readonly string[]) =>
+    new Proxy(target, {
+      get(object, field, receiver) {
+        if (typeof field === 'string' && fields.includes(field)) read.add(field as OwnerNumber)
+        return Reflect.get(object, field, receiver)
+      },
+      has(object, field) {
+        if (typeof field === 'string' && fields.includes(field)) read.add(field as OwnerNumber)
+        return Reflect.has(object, field)
+      },
+    })
+  for (let level = scaling.min; level <= scaling.max; level++) {
+    const owner = typicalOwner(scaling, level)
+    creature.stats(
+      printed,
+      noting({ ...owner, modifiers: noting(owner.modifiers, Object.keys(owner.modifiers)) }, [
+        'proficiencyBonus',
+        'spellAttack',
+        'spellSaveDc',
+      ]),
+      picked,
+    )
+  }
+  return OWNER_NUMBERS.filter((field) => read.has(field))
+}
+
+const OWNER_NUMBERS: readonly OwnerNumber[] = [
+  'proficiencyBonus',
+  'spellAttack',
+  'spellSaveDc',
+  'str',
+  'dex',
+  'con',
+  'int',
+  'wis',
+  'cha',
+]
 
 /** Declares a creature's owner function, checked against the shape every page runs. */
 export function ownedCreature(creature: OwnedCreature) {

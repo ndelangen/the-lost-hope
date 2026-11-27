@@ -2,7 +2,6 @@ import { ownedCreature, withOwnerNumbers } from '#/lib/owned-creature'
 
 /** Battle Familiar, worked out from the spell slot it is summoned with and its owner's numbers. */
 export default ownedCreature({
-  reads: ['proficiencyBonus', 'spellAttack'],
   stats: (printed, owner, picked) => {
     const level = owner.level
     return withOwnerNumbers(

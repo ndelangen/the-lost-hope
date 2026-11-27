@@ -2,7 +2,6 @@ import { ownedCreature, withOwnerNumbers } from '#/lib/owned-creature'
 
 /** Vestige Companion, worked out from its Warlock's level and its owner's numbers. */
 export default ownedCreature({
-  reads: ['proficiencyBonus', 'spellAttack', 'cha'],
   stats: (printed, owner) => {
     const level = owner.level
     return withOwnerNumbers(
