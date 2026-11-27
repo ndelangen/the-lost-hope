@@ -8,6 +8,7 @@ export default createScene({
   alternateLocations: [refs.locations.the_caves_of_steel],
   illustrations: [
     '/assets/scenes/a-fleet-on-an-empty-sea.png',
+    '/assets/locations/the-caves-of-steel-illustration.png',
     '/assets/scenes/a-fleet-on-an-empty-sea-subship.png',
     '/assets/scenes/a-fleet-on-an-empty-sea-devan-on-stage.png',
     '/assets/scenes/a-fleet-on-an-empty-sea-pearls.png',
