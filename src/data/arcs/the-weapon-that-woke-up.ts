@@ -4,14 +4,17 @@ import { create as createArc } from '#/definitions/arc.ts'
 export default createArc({
   name: 'The weapon that woke up',
   icon: 'gi/GiMechaHead',
-  direction: [
-    [
-      'Can a machine built to destroy the elves make amends, and what does ',
-      refs.pcs.auren,
-      ' do when he finds the master who built him?',
-    ],
-  ],
+  direction: [['Can a machine built to obey rid the world of its masters?']],
   notes: [
+    [
+      'Not a revenge arc: his own master, ',
+      refs.npcs.magister_orrin_valdrek,
+      ', is already dead. There are other masters: ',
+      refs.npcs.the_11th_marshal,
+      ', whose people call it master, and the twelve marshals who hold the world still. It runs alongside what ',
+      refs.npcs.light_13th_marshal,
+      ' wants.',
+    ],
     [
       'His backstory lives on ',
       refs.pcs.auren,
