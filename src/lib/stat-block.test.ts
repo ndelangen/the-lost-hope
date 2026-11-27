@@ -420,6 +420,6 @@ describe('numbers the book prints that its statistics do not produce', () => {
   })
 
   it('rejects an empty printed record', () => {
-    expect(() => PrintedStatBlock.parse({ ...printed, printed: {} })).toThrow()
+    expect(() => PrintedStatBlock.parse({ ...printed, printed: {} })).toThrow('Leave out `printed`')
   })
 })
