@@ -5,6 +5,10 @@ export default createScene({
   name: 'A fleet on an empty sea',
   location: refs.locations.the_marshal_s_waters,
   alternateLocations: [refs.locations.the_caves_of_steel],
+  illustrations: [
+    '/assets/scenes/a-fleet-on-an-empty-sea.png',
+    '/assets/scenes/a-fleet-on-an-empty-sea-subship.png',
+  ],
   npcs: [refs.npcs.caves_of_steel_fisher],
   setup: [
     [

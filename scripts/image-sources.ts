@@ -2909,6 +2909,42 @@ export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath:
       'assets/images/content/scenes/the-party-clears-ride-the-lightning-s-boarding-rooms.png',
   },
+  {
+    id: 'location-illustration-the-caves-of-steel',
+    role: 'illustration',
+    logicalSource: '/assets/locations/the-caves-of-steel-illustration.png',
+    repositoryPath: 'assets/images/content/locations/the-caves-of-steel-illustration.png',
+  },
+  {
+    id: 'location-illustration-the-grand-hall',
+    role: 'illustration',
+    logicalSource: '/assets/locations/the-grand-hall-illustration.png',
+    repositoryPath: 'assets/images/content/locations/the-grand-hall-illustration.png',
+  },
+  {
+    id: 'location-illustration-the-abyss',
+    role: 'illustration',
+    logicalSource: '/assets/locations/the-abyss-illustration.png',
+    repositoryPath: 'assets/images/content/locations/the-abyss-illustration.png',
+  },
+  {
+    id: 'location-illustration-the-marshal-s-waters',
+    role: 'illustration',
+    logicalSource: '/assets/locations/the-marshal-s-waters-illustration.png',
+    repositoryPath: 'assets/images/content/locations/the-marshal-s-waters-illustration.png',
+  },
+  {
+    id: 'scenes-a-fleet-on-an-empty-sea',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/a-fleet-on-an-empty-sea.png',
+    repositoryPath: 'assets/images/content/scenes/a-fleet-on-an-empty-sea.png',
+  },
+  {
+    id: 'scenes-a-fleet-on-an-empty-sea-subship',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/a-fleet-on-an-empty-sea-subship.png',
+    repositoryPath: 'assets/images/content/scenes/a-fleet-on-an-empty-sea-subship.png',
+  },
 ]
 
 export const RESPONSIVE_IMAGE_SOURCES = ORIGINAL_IMAGE_SOURCES.filter((source) => !source.archived)

@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'The Caves of Steel',
   icon: 'gi/GiBaseDome',
+  illustration: '/assets/locations/the-caves-of-steel-illustration.png',
   type: 'settlement',
   parent: refs.locations.the_marshal_s_waters,
   at: [525, 350],

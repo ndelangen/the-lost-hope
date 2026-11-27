@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'The Abyss',
   icon: 'gi/GiHole',
+  illustration: '/assets/locations/the-abyss-illustration.png',
   type: 'landmark',
   parent: refs.locations.the_caves_of_steel,
   at: [525, 620],

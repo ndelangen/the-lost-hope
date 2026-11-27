@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'The Marshal’s Waters',
   icon: 'gi/GiAtSea',
+  illustration: '/assets/locations/the-marshal-s-waters-illustration.png',
   type: 'region',
   parent: refs.locations.world,
   at: [1085, 90],
