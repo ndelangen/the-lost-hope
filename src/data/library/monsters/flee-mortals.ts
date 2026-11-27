@@ -2614,6 +2614,7 @@ export default createPublicationMonsters({
     },
     blood_borne_ooze: {
       name: 'Blood-Borne Ooze',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Ambusher'],
       alignment: 'neutral evil',
       languages: [],

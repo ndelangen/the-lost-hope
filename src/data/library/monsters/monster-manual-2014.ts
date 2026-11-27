@@ -317,6 +317,10 @@ export default createPublicationMonsters({
     },
     abominable_yeti: {
       name: 'Abominable Yeti',
+      reprintedIn: [
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 306,
       alignment: 'chaotic evil',
       stats: {
@@ -3634,6 +3638,10 @@ export default createPublicationMonsters({
     },
     air_elemental: {
       name: 'Air Elemental',
+      reprintedIn: [
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       page: 123,
       alignment: 'neutral',
       languages: ['Auran'],
@@ -6695,6 +6703,7 @@ export default createPublicationMonsters({
     },
     animated_armor: {
       name: 'Animated Armor',
+      reprintedIn: [refs.publications.ddex1_02_secrets_of_sokol_keep],
       page: 19,
       alignment: 'unaligned',
       languages: [],
@@ -8262,7 +8271,11 @@ export default createPublicationMonsters({
     },
     bandit: {
       name: 'Bandit',
-      reprintedIn: [refs.publications.curse_of_strahd, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.curse_of_strahd,
+        refs.publications.ddex1_03_shadows_over_the_moonsea,
+        refs.publications.srd_5_1,
+      ],
       tags: ['any race'],
       page: 343,
       alignment: 'any non-lawful alignment',
@@ -8975,6 +8988,7 @@ export default createPublicationMonsters({
     },
     behir: {
       name: 'Behir',
+      reprintedIn: [refs.publications.ddex3_15_szith_morcane_unbound],
       page: 25,
       alignment: 'neutral evil',
       languages: ['Draconic'],
@@ -9220,6 +9234,12 @@ export default createPublicationMonsters({
     },
     beholder_zombie: {
       name: 'Beholder Zombie',
+      reprintedIn: [
+        refs.publications.ddal04_10_the_artifact,
+        refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.waterdeep_dragon_heist,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 316,
       alignment: 'neutral evil',
       languages: ['Understands Deep Speech and Undercommon but cannot speak'],
@@ -12778,6 +12798,7 @@ export default createPublicationMonsters({
       name: 'Commoner',
       reprintedIn: [
         refs.publications.curse_of_strahd,
+        refs.publications.ddal04_04_the_marionette,
         refs.publications.ddex1_09_outlaws_of_the_iron_route,
         refs.publications.ddex2_02_embers_of_elmwood,
         refs.publications.ddex2_03_the_drowned_tower,
@@ -14062,6 +14083,8 @@ export default createPublicationMonsters({
       name: 'Death Dog',
       reprintedIn: [
         refs.publications.basic_rules_2018,
+        refs.publications.ddal04_02_the_beast,
+        refs.publications.ddal04_03_the_executioner,
         refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
         refs.publications.ddex1_13_pool_of_radiance_resurgent,
         refs.publications.ddex3_05_bane_of_the_tradeways,
@@ -15082,6 +15105,13 @@ export default createPublicationMonsters({
     },
     demilich: {
       name: 'Demilich',
+      reprintedIn: [
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.journeys_through_the_radiant_citadel,
+        refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 48,
       alignment: 'neutral evil',
       languages: [],
@@ -19735,6 +19765,11 @@ export default createPublicationMonsters({
     },
     ettercap: {
       name: 'Ettercap',
+      reprintedIn: [
+        refs.publications.ddal04_06_the_ghost,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       page: 131,
       alignment: 'neutral evil',
       languages: [],
@@ -22455,6 +22490,8 @@ export default createPublicationMonsters({
         refs.publications.ddal04_06_the_ghost,
         refs.publications.ddal04_07_the_innocent,
         refs.publications.ddal04_08_the_broken_one,
+        refs.publications.ddal04_09_the_tempter,
+        refs.publications.ddex1_05_the_courting_of_fire,
         refs.publications.srd_5_1,
       ],
       page: 148,
@@ -30469,6 +30506,7 @@ export default createPublicationMonsters({
     },
     ice_mephit: {
       name: 'Ice Mephit',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       page: 215,
       alignment: 'neutral evil',
       languages: ['Aquan', 'Auran'],
@@ -34367,6 +34405,11 @@ export default createPublicationMonsters({
     },
     marid: {
       name: 'Marid',
+      reprintedIn: [
+        refs.publications.dragonlance_shadow_of_the_dragon_queen,
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.journeys_through_the_radiant_citadel,
+      ],
       page: 146,
       alignment: 'chaotic neutral',
       languages: ['Aquan'],
@@ -40004,6 +40047,11 @@ export default createPublicationMonsters({
     },
     piercer: {
       name: 'Piercer',
+      reprintedIn: [
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Underdark', 'Caves', 'underdark'],
@@ -40804,6 +40852,10 @@ export default createPublicationMonsters({
     },
     poltergeist: {
       name: 'Poltergeist',
+      reprintedIn: [
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.planescape_adventures_in_the_multiverse,
+      ],
       page: 279,
       alignment: 'chaotic evil',
       languages: ['Understands all languages it knew in life but cannot speak'],
@@ -41538,6 +41590,7 @@ export default createPublicationMonsters({
     },
     purple_worm: {
       name: 'Purple Worm',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       page: 255,
       alignment: 'unaligned',
       languages: [],
@@ -43408,6 +43461,11 @@ export default createPublicationMonsters({
     },
     roper: {
       name: 'Roper',
+      reprintedIn: [
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       page: 261,
       alignment: 'neutral evil',
       languages: [],
@@ -45471,6 +45529,11 @@ export default createPublicationMonsters({
     },
     shield_guardian: {
       name: 'Shield Guardian',
+      reprintedIn: [
+        refs.publications.ddex1_10_tyranny_in_phlan,
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       page: 271,
       alignment: 'unaligned',
       languages: ['Understands commands in any language. It cannot speak'],
@@ -46077,6 +46140,7 @@ export default createPublicationMonsters({
     specter: {
       name: 'Specter',
       reprintedIn: [
+        refs.publications.ddex1_06_the_scroll_thief,
         refs.publications.ddex3_16_assault_on_maerimydra,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
         refs.publications.princes_of_the_apocalypse_online_supplement,
@@ -46561,6 +46625,7 @@ export default createPublicationMonsters({
         refs.publications.curse_of_strahd,
         refs.publications.ddep1_corruption_in_kryptgarden,
         refs.publications.ddex1_04_dues_for_the_dead,
+        refs.publications.ddex1_08_tales_trees_tell,
         refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
         refs.publications.ddex2_02_embers_of_elmwood,
         refs.publications.ddex2_05_flames_of_kythorn,
@@ -47371,6 +47436,11 @@ export default createPublicationMonsters({
     },
     succubus: {
       name: 'Succubus',
+      reprintedIn: [
+        refs.publications.ddex3_08_the_malady_of_elventree,
+        refs.publications.ddex3_16_assault_on_maerimydra,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       tags: ['shapechanger'],
       page: 284,
       alignment: 'neutral evil',
@@ -50806,7 +50876,13 @@ export default createPublicationMonsters({
     },
     umber_hulk: {
       name: 'Umber Hulk',
-      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
+      reprintedIn: [
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+        refs.publications.spelljammer_adventures_in_space,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 292,
       alignment: 'chaotic evil',
       languages: ['Umber Hulk'],
@@ -54034,7 +54110,14 @@ export default createPublicationMonsters({
     },
     worg: {
       name: 'Worg',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep1_corruption_in_kryptgarden,
+        refs.publications.ddex1_09_outlaws_of_the_iron_route,
+        refs.publications.ddex1_13_pool_of_radiance_resurgent,
+        refs.publications.ddex3_05_bane_of_the_tradeways,
+        refs.publications.srd_5_1,
+      ],
       page: 341,
       alignment: 'neutral evil',
       languages: ['Goblin and Worg'],
@@ -55125,6 +55208,7 @@ export default createPublicationMonsters({
     yuan_ti_abomination: {
       name: 'Yuan-ti Abomination',
       reprintedIn: [
+        refs.publications.ddal04_11_the_donjon,
         refs.publications.tomb_of_annihilation,
         refs.publications.waterdeep_dungeon_of_the_mad_mage,
       ],
@@ -55735,6 +55819,7 @@ export default createPublicationMonsters({
     },
     yuan_ti_malison_type_3: {
       name: 'Yuan-ti Malison (Type 3)',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       tags: ['shapechanger', 'yuan-ti'],
       page: 309,
       alignment: 'neutral evil',

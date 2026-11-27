@@ -65,6 +65,7 @@ import ddex3_13_writhing_in_the_dark from './ddex3-13-writhing-in-the-dark.ts'
 import ddex3_14_death_on_the_wall from './ddex3-14-death-on-the-wall.ts'
 import ddex3_15_szith_morcane_unbound from './ddex3-15-szith-morcane-unbound.ts'
 import ddex3_16_assault_on_maerimydra from './ddex3-16-assault-on-maerimydra.ts'
+import descent_into_the_lost_caverns_of_tsojcanth from './descent-into-the-lost-caverns-of-tsojcanth.ts'
 import domains_of_delight from './domains-of-delight.ts'
 import dragon_of_icespire_peak from './dragon-of-icespire-peak.ts'
 import dragonlance_shadow_of_the_dragon_queen from './dragonlance-shadow-of-the-dragon-queen.ts'
@@ -125,6 +126,7 @@ import out_of_the_abyss from './out-of-the-abyss.ts'
 import phandelver_and_below_the_shattered_obelisk from './phandelver-and-below-the-shattered-obelisk.ts'
 import plane_shift_amonkhet from './plane-shift-amonkhet.ts'
 import plane_shift_dominaria from './plane-shift-dominaria.ts'
+import plane_shift_innistrad from './plane-shift-innistrad.ts'
 import plane_shift_ixalan from './plane-shift-ixalan.ts'
 import plane_shift_kaladesh from './plane-shift-kaladesh.ts'
 import plane_shift_zendikar from './plane-shift-zendikar.ts'
@@ -240,6 +242,7 @@ export default [
   ddex3_14_death_on_the_wall,
   ddex3_15_szith_morcane_unbound,
   ddex3_16_assault_on_maerimydra,
+  descent_into_the_lost_caverns_of_tsojcanth,
   domains_of_delight,
   dragon_of_icespire_peak,
   dragonlance_shadow_of_the_dragon_queen,
@@ -300,6 +303,7 @@ export default [
   phandelver_and_below_the_shattered_obelisk,
   plane_shift_amonkhet,
   plane_shift_dominaria,
+  plane_shift_innistrad,
   plane_shift_ixalan,
   plane_shift_kaladesh,
   plane_shift_zendikar,

@@ -359,6 +359,10 @@ export default createPublications({
     license: 'ogl-1.0a',
     notice: 'Deep Magic Extended. © Open Design LLC d/b/a Kobold Press.',
   },
+  descent_into_the_lost_caverns_of_tsojcanth: {
+    name: 'Descent into the Lost Caverns of Tsojcanth',
+    ruleset: '5e-2014',
+  },
   domains_of_delight: {
     name: 'Domains of Delight',
     ruleset: '5e-2014',
@@ -624,6 +628,10 @@ export default createPublications({
   },
   plane_shift_dominaria: {
     name: 'Plane Shift: Dominaria',
+    ruleset: '5e-2014',
+  },
+  plane_shift_innistrad: {
+    name: 'Plane Shift: Innistrad',
     ruleset: '5e-2014',
   },
   plane_shift_ixalan: {
