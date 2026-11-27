@@ -9,6 +9,10 @@ export default createPublicationMonsters({
   monsters: {
     bone_naga: {
       name: 'Bone Naga',
+      reprintedIn: [
+        refs.publications.dragonlance_shadow_of_the_dragon_queen,
+        refs.publications.tomb_of_annihilation,
+      ],
       alignment: 'lawful evil',
       languages: ['Common plus one other language'],
       stats: {

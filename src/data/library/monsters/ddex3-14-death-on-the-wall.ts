@@ -46,6 +46,7 @@ export default createPublicationMonsters({
     },
     incubus: {
       name: 'Incubus',
+      reprintedIn: [refs.publications.monster_manual_2014],
       tags: ['shapechanger'],
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft.'],

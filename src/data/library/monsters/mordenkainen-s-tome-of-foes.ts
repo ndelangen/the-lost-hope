@@ -5758,6 +5758,7 @@ export default createPublicationMonsters({
     },
     drow_shadowblade: {
       name: 'Drow Shadowblade',
+      reprintedIn: [refs.publications.mordenkainen_presents_monsters_of_the_multiverse],
       tags: ['elf'],
       page: 187,
       alignment: 'neutral evil',
@@ -5916,6 +5917,7 @@ export default createPublicationMonsters({
     },
     drow_shadowblade_summoner_variant: {
       name: 'Drow Shadowblade (Summoner Variant)',
+      reprintedIn: [refs.publications.mordenkainen_presents_monsters_of_the_multiverse],
       tags: ['elf'],
       alignment: 'neutral evil',
       languages: ['Elvish', 'Undercommon'],
@@ -9984,6 +9986,7 @@ export default createPublicationMonsters({
     },
     hydroloth: {
       name: 'Hydroloth',
+      reprintedIn: [refs.publications.mordenkainen_presents_monsters_of_the_multiverse],
       tags: ['yugoloth'],
       page: 249,
       alignment: 'neutral evil',
@@ -15703,6 +15706,7 @@ export default createPublicationMonsters({
     },
     vampiric_mist: {
       name: 'Vampiric Mist',
+      reprintedIn: [refs.publications.mordenkainen_presents_monsters_of_the_multiverse],
       page: 246,
       alignment: 'chaotic evil',
       languages: [],

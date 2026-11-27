@@ -2197,6 +2197,7 @@ export default createPublicationMonsters({
     },
     fated_shaker: {
       name: 'Fated Shaker',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 56,
       alignment: 'any alignment',
       languages: ['Common plus two more languages'],
@@ -4129,6 +4130,7 @@ export default createPublicationMonsters({
     },
     nonaton_modron: {
       name: 'Nonaton Modron',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 38,
       alignment: 'typically lawful neutral',
       languages: ['Modron and telepathy 120 ft.'],

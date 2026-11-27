@@ -577,6 +577,10 @@ export default createPublications({
     name: "Morte's Planar Parade",
     ruleset: '5e-2014',
   },
+  muk_s_guide_to_everything_he_learned_from_tasha: {
+    name: "Muk's Guide To Everything He Learned From Tasha",
+    ruleset: '5e-2014',
+  },
   mythic_odysseys_of_theros: {
     name: 'Mythic Odysseys of Theros',
     ruleset: '5e-2014',

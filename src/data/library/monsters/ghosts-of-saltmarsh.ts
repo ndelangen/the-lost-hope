@@ -5444,6 +5444,11 @@ export default createPublicationMonsters({
     },
     sea_hag_coven_variant: {
       name: 'Sea Hag (Coven Variant)',
+      reprintedIn: [
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.tomb_of_annihilation,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       alignment: 'chaotic evil',
       habitats: ['Coasts and underwater', 'especially polluted lairs'],
       appearance: [

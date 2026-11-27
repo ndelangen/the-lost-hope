@@ -3591,6 +3591,7 @@ export default createPublicationMonsters({
     },
     animal_lord_forager: {
       name: 'Animal Lord (Forager)',
+      reprintedIn: [refs.publications.monster_manual_2025],
       page: 15,
       alignment: 'neutral',
       languages: ['All'],
@@ -3796,6 +3797,7 @@ export default createPublicationMonsters({
     },
     animal_lord_hunter: {
       name: 'Animal Lord (Hunter)',
+      reprintedIn: [refs.publications.monster_manual_2025],
       page: 15,
       alignment: 'neutral',
       languages: ['All'],
@@ -4001,6 +4003,7 @@ export default createPublicationMonsters({
     },
     animal_lord_sage: {
       name: 'Animal Lord (Sage)',
+      reprintedIn: [refs.publications.monster_manual_2025],
       page: 15,
       alignment: 'neutral',
       languages: ['All'],

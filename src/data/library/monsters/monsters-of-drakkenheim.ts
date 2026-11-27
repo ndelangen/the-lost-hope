@@ -9789,6 +9789,7 @@ export default createPublicationMonsters({
     },
     protean_abomination: {
       name: 'Protean Abomination',
+      reprintedIn: [refs.publications.dungeons_of_drakkenheim],
       languages: [],
       appearance: [
         [
@@ -10268,6 +10269,7 @@ export default createPublicationMonsters({
     },
     rat_prince: {
       name: 'Rat Prince',
+      reprintedIn: [refs.publications.dungeons_of_drakkenheim],
       languages: ['Common'],
       tableNotes: [['Gear: hand crossbow, leather armor, quiver, bolt, shortsword']],
       stats: {

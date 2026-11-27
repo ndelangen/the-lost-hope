@@ -196,6 +196,10 @@ export const refs = {
     ),
     mordenkainen_s_tome_of_foes: ref('publication', 'mordenkainen_s_tome_of_foes'),
     morte_s_planar_parade: ref('publication', 'morte_s_planar_parade'),
+    muk_s_guide_to_everything_he_learned_from_tasha: ref(
+      'publication',
+      'muk_s_guide_to_everything_he_learned_from_tasha',
+    ),
     mythic_odysseys_of_theros: ref('publication', 'mythic_odysseys_of_theros'),
     nerds_restoring_harmony_a_sticky_situation: ref(
       'publication',

@@ -2185,90 +2185,17 @@
       {
         "id": "printing-e4ab87e9873acd5d7518",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · aberration",
-              "Creature tags · beholder",
-              "Size · Tiny",
-              "Alignment · neutral evil",
-              "Armor class · 13",
-              "Hit points · 13",
-              "Hit dice · 3d4 + 6",
-              "Speed · walk 0 ft., fly 30 (hover) (hover)",
-              "Challenge · 1/2",
-              "Strength · 3",
-              "Dexterity · 17",
-              "Constitution · 14",
-              "Intelligence · 3",
-              "Wisdom · 10",
-              "Charisma · 7",
-              "Passive Perception · 14"
-            ]
+        "source": "https://5e.tools/bestiary.html#gazer%20familiar_mpmm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gazer_familiar"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Tiny aberration with challenge rating 1/2. Listed habitats: underdark. Named abilities include Mimicry, Familiar, Bite."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Wisdom +2"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4, Stealth +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["prone"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Mimicry · DC 10 · Insight", "Familiar · within 1 mile"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Bite · Melee attack · +5 to hit · 1 piercing damage · reach 5 ft.",
-              "Eye Rays · d4 · within 60 feet",
-              "1: Dazing Ray · DC 12 Wisdom save · Half speed · Charmed",
-              "2: Fear Ray · DC 12 Wisdom save · Frightened",
-              "3: Frost Ray · DC 12 Dexterity save · 3d6 cold damage",
-              "4: Telekinetic Ray · DC 12 Strength save · up to 30 feet"
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Aggressive"]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Gazer"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Insight (skill) · https://5e.tools/skills.html#insight_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Gazer (creature) · https://5e.tools/bestiary.html#gazer_mpmm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#gazer%20familiar_mpmm"
+        }
       },
       {
         "id": "printing-08000063b0cb9ab6b935ca7d",
@@ -9352,66 +9279,17 @@
       {
         "id": "printing-defe36279d769d7ecb322142",
         "label": "Spelljammer Academy",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 75",
-              "Hit dice · 10d8 + 30",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Passive Perception · 11",
-              "Str · 18",
-              "Dex · 14",
-              "Con · 17",
-              "Int · 11",
-              "Wis · 12",
-              "Cha · 12"
-            ]
+        "source": "https://www.dndbeyond.com/monsters/2771399-giff-shipmate",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giff_shipmate"
           },
-          {
-            "title": "Habitats",
-            "lines": ["Wildspace", "Spelljamming ships"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A hippo-headed sailor armed with a sword and musket."]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Musket · ranged · +4 to hit · range 40/120 ft. · 1d12 + 2 piercing",
-              "Longsword · melee · +6 to hit · reach 5 ft. · 1d8 + 4 slashing or 1d10 + 4 slashing"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Firearms Knowledge", "Steady as She Goes"]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Multiattack", "Longsword", "Musket", "Force Grenade"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Spelljammer: Adventures in Space creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Use the higher Longsword damage only in two-handed melee."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Spelljammer: Adventures in Space index · https://5e.tools/bestiary.html#giff%20shipmate_bam"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "spelljammer_academy"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
-        "source": "https://www.dndbeyond.com/monsters/2771399-giff-shipmate"
+        }
       },
       {
         "id": "printing-ab7585b0acbb7cbcf72fcdd2",
@@ -18660,132 +18538,34 @@
       {
         "id": "printing-14dafc8bdec759fa5a6b442b",
         "label": "Planescape: Adventures in the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 127",
-              "Hit dice · 17d8 + 51",
-              "Challenge · 9",
-              "Size · Medium",
-              "Type · Aberration",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 17",
-              "Initiative · 3",
-              "Str · 17",
-              "Dex · 17",
-              "Con · 16",
-              "Int · 13",
-              "Wis · 8",
-              "Cha · 14"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Limbo", "Urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A gray, toadlike shapeshifter that can adopt a humanoid guise. Its control gem is hidden in its head."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite (Slaad Form Only) · melee · +7 to hit · reach 5 ft. · 1d6 + 3 piercing",
-              "Claws (Slaad Form Only) · melee · +7 to hit · reach 5 ft. · 1d10 + 3 slashing",
-              "Greatsword · melee · +7 to hit · reach 5 ft. · 2d6 + 3 slashing"
-            ]
-          },
-          {
-            "title": "Slaad Control Gem",
-            "lines": [
-              "A slaad created by a Spawning Stone has a control gem. A slaad that was born another way develops one on contact with the stone. Whoever holds the extracted gem can command the slaad, which is immune to being Charmed while under that control.",
-              "Wish can recover a gem, Imprisonment can transfer it on a failed save, and Greater Restoration destroys it harmlessly. A trained healer can spend 1 minute attempting extraction from an Incapacitated slaad with a DC 20 Wisdom (Medicine) check. On failure the slaad takes 4d10 psychic damage."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Gray Slaad"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301511-gray-slaad-control-gem-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5736/346/1000/1000/636898197609134638.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5736/346/1000/1000/636898197609134638.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gray_slaad_control_gem_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "planescape_adventures_in_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-e24b2946f1defbc0e90595ba",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 127",
-              "Hit dice · 17d8 + 51",
-              "Challenge · 9",
-              "Size · Medium",
-              "Type · Aberration",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 17",
-              "Initiative · 3",
-              "Str · 17",
-              "Dex · 17",
-              "Con · 16",
-              "Int · 13",
-              "Wis · 8",
-              "Cha · 14"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Limbo", "Urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A gray, toadlike shapeshifter that can adopt a humanoid guise. Its control gem is hidden in its head."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite (Slaad Form Only) · melee · +7 to hit · reach 5 ft. · 1d6 + 3 piercing",
-              "Claws (Slaad Form Only) · melee · +7 to hit · reach 5 ft. · 1d10 + 3 slashing",
-              "Greatsword · melee · +7 to hit · reach 5 ft. · 2d6 + 3 slashing"
-            ]
-          },
-          {
-            "title": "Slaad Control Gem",
-            "lines": [
-              "A slaad created by a Spawning Stone has a control gem. A slaad that was born another way develops one on contact with the stone. Whoever holds the extracted gem can command the slaad, which is immune to being Charmed while under that control.",
-              "Wish can recover a gem, Imprisonment can transfer it on a failed save, and Greater Restoration destroys it harmlessly. A trained healer can spend 1 minute attempting extraction from an Incapacitated slaad with a DC 20 Wisdom (Medicine) check. On failure the slaad takes 4d10 psychic damage."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Gray Slaad"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301511-gray-slaad-control-gem-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5736/346/1000/1000/636898197609134638.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5736/346/1000/1000/636898197609134638.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gray_slaad_control_gem_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       }
     ],
     "groups": ["Aberration"],
@@ -41818,112 +41598,6 @@
       {
         "id": "printing-d3e5efa91a3b6a863dc5db7d",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 135",
-              "Hit dice · 18d8 + 54",
-              "Challenge · 9",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 20 ft., swim 40 ft.",
-              "Passive Perception · 14",
-              "XP · 5000",
-              "Str · 12",
-              "Dex · 21",
-              "Con · 16",
-              "Int · 19",
-              "Wis · 10",
-              "Cha · 14"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An amphibious yugoloth that steals memories and recovers things lost beneath the water. Hydroloths sometimes take contracts to sink ships or raid settlements."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Insight +4", "Perception +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (yugoloth), typically neutral evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 60 ft., darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Infernal, telepathy 60 ft."]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["Fire."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold, lightning. Bludgeoning, piercing, slashing from nonmagical attacks."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Acid, poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The hydroloth breathes air and water.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nSecure Memory. The hydroloth is immune to the River Styx’s waters and to effects that read or detect its thoughts or steal or change its memories.\nWatery Advantage. It has advantage on attack rolls while submerged in liquid."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks using Bite or Claw. Spellcasting can replace one attack.\nBite. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 16 (2d10 + 5) force damage plus 9 (2d10) psychic damage.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 14 (2d8 + 5) force damage plus 9 (2d10) psychic damage.\nSteal Memory (1/day). Choose a creature the hydroloth can see within 60 ft. It takes 14 (4d6) psychic damage and makes a DC 16 Intelligence save. Success grants 24-hour immunity to this hydroloth’s Steal Memory. On a failure the target loses all proficiencies, cannot cast spells or understand language, and has its Intelligence and Charisma scores reduced to 5 if they are higher. The target can repeat the save after each long rest and ends the effect on a success. Greater Restoration or Remove Curse ends it early.\nTeleport. The hydroloth teleports up to 60 ft. to an unoccupied space it can see, taking worn and carried gear."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast one listed spell using Intelligence (spell save DC 16) with no material components.\nAt will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only).\n3/day each. Control Water, Crown of Madness, Fear, Suggestion."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 158."]
-          },
-          {
-            "title": "Printed damage note",
-            "lines": [
-              "The Bite and Claw each list 9 fixed psychic damage, or 2d10 when rolled. The dice average 11."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 158 · https://5e.tools/bestiary.html#hydroloth_mpmm",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Dispel magic (spell) · https://5e.tools/spells.html#dispel%20magic_phb",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Control water (spell) · https://5e.tools/spells.html#control%20water_phb",
-              "Crown of madness (spell) · https://5e.tools/spells.html#crown%20of%20madness_phb",
-              "Fear (spell) · https://5e.tools/spells.html#fear_phb",
-              "Suggestion (spell) · https://5e.tools/spells.html#suggestion_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#hydroloth_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/465/1000/1000/637880557720148315.jpeg",
         "art": [
@@ -41931,7 +41605,17 @@
             "file": "/assets/library/worker-art/hydroloth-4648ef042cb82be9.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hydroloth"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-a8919aa7d08e24cb519f86c4",
@@ -44421,105 +44105,6 @@
       {
         "id": "printing-129747723c91956ff6b650cd",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 30 ft., fly 60 ft.",
-              "Passive Perception · 15",
-              "Initiative · 3",
-              "XP · 1100",
-              "Str · 8",
-              "Dex · 17",
-              "Con · 13",
-              "Int · 15",
-              "Wis · 12",
-              "Cha · 20"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A shapechanging fiend that starts by tempting mortals in their dreams, then visits them in a familiar guise."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +9", "Insight +5", "Perception +5", "Persuasion +9", "Stealth +7"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (shapechanger), neutral evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "Cold, fire, lightning, and poison. Bludgeoning, piercing, and slashing from nonmagical attacks."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft., passive Perception 15."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common, Infernal, and telepathy 60 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Telepathic Bond. The fiend can communicate telepathically with a creature under its Charm regardless of distance or plane.\nShapechanger. Use an action to take the shape of a Small or Medium humanoid, or resume true form. Only size and speed can change. The fiend loses its fly speed in a wingless form. Worn and carried gear keep their form. On death it resumes its true form."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claw (fiend form only). Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nCharm. Choose one visible humanoid within 30 ft. It makes a DC 15 Wisdom save or becomes magically Charmed for 1 day and follows the fiend's verbal or telepathic commands. A target that suffers harm or receives a suicidal command can repeat the save, ending the effect on a success. After a successful save against the effect or when it ends, the target is immune to this fiend's Charm for 24 hours. The fiend can charm only one target at once. Charming a new target ends the effect on the previous one.\nDraining Kiss. Kiss a willing creature or one under the fiend's Charm. It makes a DC 15 Constitution save against this magic, taking 32 (5d10 + 5) psychic damage on a failure or half on a success. Reduce its hit point maximum by the damage dealt until it finishes a long rest. It dies if this reduction brings its maximum to 0.\nEtherealness. The fiend uses magic to move between the Material Plane and the Ethereal Plane."
-            ]
-          },
-          {
-            "title": "Forms",
-            "lines": [
-              "A succubus and an incubus are forms of the same fiend. It can switch between them and typically prefers one. The book gives both forms a shared stat block."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Monster Manual (2014), pp. 284–285. Damage resistance wording follows the official errata."
-            ]
-          },
-          {
-            "title": "Incubus",
-            "lines": [
-              "Use the shared fiend profile. The name and form do not change the statistics."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Succubus"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 285 · https://5e.tools/bestiary.html#incubus_mm",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Cambion (creature) · https://5e.tools/bestiary.html#cambion_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#incubus_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30835/955/1000/1000/638063924845225613.png",
         "art": [
@@ -44527,7 +44112,17 @@
             "file": "/assets/library/monsters/incubus.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "incubus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-7c2d22f233949fe9c6f6935b",
@@ -99300,69 +98895,18 @@
       {
         "id": "printing-c2378c8a0a7d8d01148ed0ea",
         "label": "Planescape: Adventures in the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 161",
-              "Hit dice · 19d10 + 57",
-              "Challenge · 10",
-              "Size · Large",
-              "Type · Construct",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Passive Perception · 21",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 16",
-              "Wis · 16",
-              "Cha · 13"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +7", "Wis +7"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Mechanus"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A hovering hierarch modron with articulated arms used to enforce planar law."
-            ]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["Can hover", "fly · (hover)"]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Axiomatic Mind", "Combat Ready", "Disintegration"]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Multiattack", "Arm", "Pillar of Truth"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Morte's Planar Parade creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Morte's Planar Parade index · https://5e.tools/bestiary.html#nonaton%20modron_mpp"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/3883555-nonaton-modron",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/37204/502/1000/1000/638318543799511570.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/37204/502/1000/1000/638318543799511570.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "nonaton_modron"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "planescape_adventures_in_the_multiverse"
+          }
+        }
       }
     ],
     "groups": ["Construct"],
@@ -100359,67 +99903,18 @@
       {
         "id": "printing-65457381e4461d061c290323",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 123",
-              "Hit dice · 13d10 + 52",
-              "Challenge · 9",
-              "Size · Large",
-              "Type · Fiend",
-              "Speed · walk 40 ft., fly 60 ft.",
-              "Passive Perception · 14",
-              "Initiative · 0",
-              "Str · 20",
-              "Dex · 11",
-              "Con · 19",
-              "Int · 12",
-              "Wis · 10",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Gehenna", "Lower Planes"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A muscular bat-winged fiend with claws and a heavy greataxe."]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Claw · melee · +9 to hit · reach 5 ft. · 2d6 + 5 slashing",
-              "Greataxe · melee · +9 to hit · reach 5 ft. · 2d12 + 5 slashing"
-            ]
-          },
-          {
-            "title": "Variant rules",
-            "lines": ["50%: 1d4 mezzoloths or one nycaloth."]
-          },
-          {
-            "title": "Yugoloth Summoning",
-            "lines": [
-              "Once per day, roll the listed chance to summon the specified allies. They appear within 60 ft. and cannot summon in turn. They generally act independently except when summoned by an ultroloth. A summoned creature disappears after 1 minute, if it or its summoner dies, or if the summoner dismisses it as a bonus action."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Nycaloth"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/277215-nycaloth-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5552/639/1000/1000/636877778013679322.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5552/639/1000/1000/636877778013679322.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "nycaloth_summoner_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -117050,68 +116545,18 @@
       {
         "id": "printing-411d8cc46893843b892f2bca",
         "label": "Dungeons of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 168",
-              "Hit dice · 16d12 + 64",
-              "Challenge · 6",
-              "Type · Aberration",
-              "Speed · 30 ft., climb 10 ft.",
-              "XP · 2300",
-              "Str · 21",
-              "Dex · 8",
-              "Con · 18",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "This shapeless mutant drags prey into its body and can climb across a ceiling."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Aberration, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Immune to Charmed, Frightened, and Prone. Blindsight 60 ft., passive Perception 10. No languages."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Absorption. When the abomination kills a creature other than a Construct or Undead, it absorbs the corpse and regains 20 HP.\nAmorphous. Move through openings as narrow as 1 inch without squeezing.\nSpider Climb. Climb difficult surfaces and ceilings without a check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Slam attacks. If both hit the same Large or smaller target, it is Grappled (escape DC 15) and the abomination uses Engulf on it.\nSlam. Melee weapon attack, +8 to hit, 5-ft. reach, one target. Hit 19 (3d8 + 5) bludgeoning damage.\nEngulf. Engulf one Large or smaller creature the abomination is grappling. Until the grapple ends, the target is Blinded, Restrained, and unable to breathe, and moves with the abomination. At the start of each of the abomination’s turns, the target makes a DC 15 Constitution save or takes 19 (3d8 + 5) bludgeoning damage. Only one creature can be engulfed at a time."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix A, p. 201."]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "The printed fixed damage for Slam and Engulf is 19. The same entries list a roll of 3d8 + 5."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4086132-protean-abomination",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/38757/334/1000/1000/638386042667112406.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/38757/334/1000/1000/638386042667112406.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "protean_abomination"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "dungeons_of_drakkenheim"
+          }
+        }
       },
       {
         "id": "printing-580de3f0fb5a8aab02f4bcd4",
@@ -117598,126 +117043,34 @@
       {
         "id": "printing-de423542d3ec6b588bf3f788",
         "label": "Phandelver and Below: The Shattered Obelisk",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 22",
-              "Hit dice · 3d8 + 9",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Ooze",
-              "Speed · walk 10 ft., climb 10 ft.",
-              "Passive Perception · 8",
-              "Initiative · -2",
-              "Str · 12",
-              "Dex · 6",
-              "Con · 16",
-              "Int · 6",
-              "Wis · 6",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underground sites near psionic creatures"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A gray, liquid creature easily mistaken for wet stone. This variety can attack with its mind."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Pseudopod · melee · +3 to hit · reach 5 ft. · 1d6 + 1 bludgeoning · 2d6 acid"
-            ]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "Set Intelligence to 6. Add Psychic Crush, recharge 5–6. One sensed target within 60 feet attempts a DC 10 Intelligence save. It takes 3d6 psychic on failure, or half on success."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Gray Ooze"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/17186-psychic-gray-ooze",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/43/1000/1000/636322715531892401.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/43/1000/1000/636322715531892401.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "psychic_gray_ooze"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "phandelver_and_below_the_shattered_obelisk"
+          }
+        }
       },
       {
         "id": "printing-c292cfc6b3aa2cf3fe88b7c4",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 22",
-              "Hit dice · 3d8 + 9",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Ooze",
-              "Speed · walk 10 ft., climb 10 ft.",
-              "Passive Perception · 8",
-              "Initiative · -2",
-              "Str · 12",
-              "Dex · 6",
-              "Con · 16",
-              "Int · 6",
-              "Wis · 6",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underground sites near psionic creatures"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A gray, liquid creature easily mistaken for wet stone. This variety can attack with its mind."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Pseudopod · melee · +3 to hit · reach 5 ft. · 1d6 + 1 bludgeoning · 2d6 acid"
-            ]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "Set Intelligence to 6. Add Psychic Crush, recharge 5–6. One sensed target within 60 feet attempts a DC 10 Intelligence save. It takes 3d6 psychic on failure, or half on success."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Gray Ooze"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/17186-psychic-gray-ooze",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/43/1000/1000/636322715531892401.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/43/1000/1000/636322715531892401.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "psychic_gray_ooze"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Ooze"],

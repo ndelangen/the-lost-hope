@@ -6833,6 +6833,7 @@ export default createPublicationMonsters({
     },
     yeti_tyke: {
       name: 'Yeti Tyke',
+      reprintedIn: [refs.publications.muk_s_guide_to_everything_he_learned_from_tasha],
       alignment: 'chaotic evil',
       languages: ["understands Yeti but can't speak"],
       appearance: [['A young yeti, small, savage and mean.']],

@@ -144,6 +144,7 @@ export default createPublicationMonsters({
     },
     clockwork_horror: {
       name: 'Clockwork Horror',
+      reprintedIn: [refs.publications.spelljammer_academy],
       alignment: 'lawful evil',
       languages: ['Thri-kreen', 'Ziklight'],
       habitats: ['Wildspace', 'Spelljamming ships'],
@@ -623,6 +624,7 @@ export default createPublicationMonsters({
     },
     star_lancer: {
       name: 'Star Lancer',
+      reprintedIn: [refs.publications.spelljammer_academy],
       alignment: 'neutral',
       languages: ['Celestial', 'telepathy 120 ft.'],
       habitats: ['Astral Sea'],

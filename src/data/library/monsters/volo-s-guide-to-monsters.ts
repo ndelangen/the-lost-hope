@@ -1719,6 +1719,7 @@ export default createPublicationMonsters({
     },
     bheur_hag: {
       name: 'Bheur Hag',
+      reprintedIn: [refs.publications.mordenkainen_presents_monsters_of_the_multiverse],
       page: 160,
       alignment: 'chaotic evil',
       languages: ['Auran', 'Common', 'Giant'],
@@ -4909,6 +4910,7 @@ export default createPublicationMonsters({
     },
     fire_giant_dreadnought: {
       name: 'Fire Giant Dreadnought',
+      reprintedIn: [refs.publications.mordenkainen_presents_monsters_of_the_multiverse],
       tags: ['fire giant'],
       page: 147,
       alignment: 'lawful evil',
@@ -5842,6 +5844,7 @@ export default createPublicationMonsters({
     },
     gazer_familiar: {
       name: 'Gazer Familiar',
+      reprintedIn: [refs.publications.mordenkainen_presents_monsters_of_the_multiverse],
       alignment: 'neutral evil',
       languages: [],
       habitats: ['Underdark', 'Beholder lairs', 'underdark'],
@@ -15240,6 +15243,7 @@ export default createPublicationMonsters({
     },
     xvart_warlock_of_raxivort: {
       name: 'Xvart Warlock of Raxivort',
+      reprintedIn: [refs.publications.mordenkainen_presents_monsters_of_the_multiverse],
       tags: ['xvart'],
       page: 200,
       alignment: 'chaotic evil',

@@ -520,6 +520,11 @@ export default createPublicationMonsters({
     },
     yuan_ti_malison: {
       name: 'Yuan-ti Malison',
+      reprintedIn: [
+        refs.publications.ddal04_07_the_innocent,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.tomb_of_annihilation,
+      ],
       tags: ['shapechanger', 'yuan-ti'],
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic'],

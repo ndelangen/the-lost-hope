@@ -26429,6 +26429,7 @@ export default createPublicationMonsters({
     },
     sibriex: {
       name: 'Sibriex',
+      reprintedIn: [refs.publications.mordenkainen_s_tome_of_foes],
       tags: ['demon'],
       page: 217,
       alignment: 'typically chaotic evil',
@@ -28219,6 +28220,7 @@ export default createPublicationMonsters({
     },
     stone_cursed: {
       name: 'Stone Cursed',
+      reprintedIn: [refs.publications.mordenkainen_s_tome_of_foes],
       page: 233,
       alignment: 'typically lawful evil',
       languages: ['The languages it knew in life'],
@@ -33243,6 +33245,7 @@ export default createPublicationMonsters({
     },
     yuan_ti_pit_master: {
       name: 'Yuan-ti Pit Master',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       tags: ['warlock'],
       page: 276,
       alignment: 'typically neutral evil',

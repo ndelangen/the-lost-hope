@@ -490,6 +490,7 @@ export default createPublicationMonsters({
     },
     female_steeder: {
       name: 'Female Steeder',
+      reprintedIn: [refs.publications.out_of_the_abyss],
       page: 54,
       alignment: 'unaligned',
       languages: [],

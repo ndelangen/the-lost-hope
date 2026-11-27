@@ -10248,6 +10248,7 @@ export default createPublicationMonsters({
     },
     bone_devil_polearm_variant: {
       name: 'Bone Devil (Polearm Variant)',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       tags: ['devil'],
       page: 71,
       alignment: 'lawful evil',
@@ -16587,6 +16588,7 @@ export default createPublicationMonsters({
     },
     drider_variant: {
       name: 'Drider (variant)',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       page: 120,
       alignment: 'chaotic evil',
       habitats: ['Underdark'],
@@ -20425,6 +20427,11 @@ export default createPublicationMonsters({
     },
     faerie_dragon_older: {
       name: 'Faerie Dragon (Older)',
+      reprintedIn: [
+        refs.publications.explorer_s_guide_to_wildemount,
+        refs.publications.the_wild_beyond_the_witchlight,
+        refs.publications.waterdeep_dragon_heist,
+      ],
       page: 133,
       alignment: 'chaotic good',
       habitats: ['Forest'],
@@ -26667,6 +26674,10 @@ export default createPublicationMonsters({
     },
     gray_slaad_control_gem_variant: {
       name: 'Gray Slaad (control gem variant)',
+      reprintedIn: [
+        refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.tomb_of_annihilation,
+      ],
       tags: ['shapechanger'],
       page: 274,
       alignment: 'chaotic neutral',
@@ -38541,6 +38552,7 @@ export default createPublicationMonsters({
     },
     nycaloth_summoner_variant: {
       name: 'Nycaloth (summoner variant)',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       tags: ['yugoloth'],
       page: 311,
       alignment: 'neutral evil',
@@ -41432,6 +41444,10 @@ export default createPublicationMonsters({
     },
     psychic_gray_ooze: {
       name: 'Psychic Gray Ooze',
+      reprintedIn: [
+        refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 240,
       alignment: 'unaligned',
       languages: [],
@@ -50188,6 +50204,7 @@ export default createPublicationMonsters({
     },
     troll_variant: {
       name: 'Troll (variant)',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       page: 291,
       alignment: 'chaotic evil',
       languages: ['Giant'],
@@ -50715,6 +50732,7 @@ export default createPublicationMonsters({
     },
     ultroloth_summoner_variant: {
       name: 'Ultroloth (summoner variant)',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       tags: ['yugoloth'],
       page: 311,
       alignment: 'neutral evil',

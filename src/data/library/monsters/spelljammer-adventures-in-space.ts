@@ -3234,6 +3234,7 @@ export default createPublicationMonsters({
     },
     giff_shipmate: {
       name: 'Giff Shipmate',
+      reprintedIn: [refs.publications.spelljammer_academy],
       page: 24,
       alignment: 'any alignment',
       languages: ['Common'],

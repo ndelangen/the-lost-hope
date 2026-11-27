@@ -3576,76 +3576,18 @@
       {
         "id": "printing-2fdc1a2014609348f04a6450",
         "label": "Dungeons of Drakkenheim",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 3",
-              "Type · Monstrosity",
-              "Speed · 30 ft., swim 30 ft., climb 30 ft.",
-              "XP · 700",
-              "Str · 12",
-              "Dex · 19",
-              "Con · 13",
-              "Int · 9",
-              "Wis · 15",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["An armored ratling raider who carries delerium-laced bolts."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Monstrosity, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Leather armor. Acrobatics +6, Athletics +3, Perception +6, Stealth +8. Darkvision 60 ft., passive Perception 15. Common."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. Advantage on Wisdom (Perception) checks that use smell.\nPack Tactics. Advantage against a target if a non-Incapacitated ally is within 5 ft. of it.\nContaminated Ammunition. Carries 2d6 contaminated projectiles. A hit with one adds 1d6 damage and forces a DC 10 Constitution save. Failure adds one level of Contamination."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Shortsword attacks and one Contaminated Bite attack.\nShortsword. Melee weapon attack +6, reach 5 ft., one target, 7 (1d6 + 4) piercing.\nContaminated Bite. Melee weapon attack +6, reach 5 ft., one target, 4 (1d4 + 4) piercing plus 10 (3d6) necrotic. DC 11 Constitution save or one level of Contamination.\nHand Crossbow. Ranged weapon attack +6, range 30/120 ft., one target, 7 (1d6 + 4) piercing."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": ["Cunning Action. Dash, Disengage, or Hide."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix A, p. 213"]
-          },
-          {
-            "title": "Delerium contamination",
-            "lines": [
-              "Printed source. Appendix C, pp. 222–223.\nAdd contamination levels from each exposure. A contaminated character rolls 1d20 at the end of each long rest and gains one level on a 1.\nSymptoms are cumulative. Level 1 has no symptom. Level 2 halves healing from Hit Dice. Level 3 prevents HP recovery from a long rest. Level 4 halves damage the creature deals with weapon attacks and spells. Level 5 makes it Incapacitated. Level 6 triggers Monstrous Transformation.\nAfter a character gains a level, roll 1d6. On a result at or below the current level, the GM chooses a new mutation or rolls on the printed mutations table. Replace or reroll duplicate mutations.\nContamination does not wear off. Purge Contamination can remove levels and causes Exhaustion. Heal removes all contamination and mutations. Each level removed also removes one random mutation. At level 0, all symptoms and mutations end.\nA contaminated humanoid rises as a Haze Husk 24 hours after death. It rises as a Haze Wight if it had at least six class levels or Hit Dice. Raising a creature from the dead reduces its contamination by one level.\nMonstrous Transformation. At level 6 or higher, the creature transforms after one round. Replace its statistics, hit points, and Hit Dice with those of a monster the GM chooses. Contamination resets to 0, and the GM controls the transformed creature.\nWish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "The printed Contaminated Bite lists 4 piercing damage and a roll of 1d4 + 4. Use the formula when rolling."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4086134-rat-prince",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/38757/338/1000/1000/638386042675068548.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/38757/338/1000/1000/638386042675068548.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rat_prince"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "dungeons_of_drakkenheim"
+          }
+        }
       },
       {
         "id": "printing-10cc664c6fff59af316ce4ac",
@@ -20175,206 +20117,50 @@
       {
         "id": "printing-d5fd1825df52a0f1f00065af",
         "label": "Icewind Dale: Rime of the Frostmaiden",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 52",
-              "Hit dice · 7d8 + 21",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fey",
-              "Speed · walk 30 ft., swim 40 ft.",
-              "Passive Perception · 11",
-              "Initiative · 1",
-              "Str · 16",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 12",
-              "Wis · 12",
-              "Cha · 13"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Coastal", "Underwater"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "An amphibious hag with a gaunt, hideous true face who can disguise herself with an illusion."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing"]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "The standard coven spells use DC 13 and +5 to spell attacks for this hag. Some published encounters may specify substitutions."
-            ]
-          },
-          {
-            "title": "Hag Coven",
-            "lines": [
-              "When all three coven members are within 30 ft. of one another, each casts with Intelligence as a 12th-level caster. The coven shares the spell slots. Each hag has save DC 12 plus her Intelligence modifier and spell attack bonus 4 plus that modifier.",
-              "Slots and spells by tier: 1st (4) identify, ray of sickness. 2nd (3) hold person, locate object. 3rd (3) bestow curse, counterspell, lightning bolt. 4th (3) phantasmal killer, polymorph. 5th (2) contact other plane, scrying. 6th (1) eyebite.",
-              "The three can create one hag eye in an uninterrupted hour. A hag can spend an action to see through it from the same plane. It has AC 10, 1 HP and Darkvision 60 ft. Destroying it deals 3d10 psychic damage to each member and Blinds them for 24 hours."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Sea Hag"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301760-sea-hag-coven-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/126/1000/1000/636898362624716539.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/126/1000/1000/636898362624716539.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sea_hag_coven_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "icewind_dale_rime_of_the_frostmaiden"
+          }
+        }
       },
       {
         "id": "printing-dee5afc31bd64f5b4f41908f",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 52",
-              "Hit dice · 7d8 + 21",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fey",
-              "Speed · walk 30 ft., swim 40 ft.",
-              "Passive Perception · 11",
-              "Initiative · 1",
-              "Str · 16",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 12",
-              "Wis · 12",
-              "Cha · 13"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Coastal", "Underwater"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "An amphibious hag with a gaunt, hideous true face who can disguise herself with an illusion."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing"]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "The standard coven spells use DC 13 and +5 to spell attacks for this hag. Some published encounters may specify substitutions."
-            ]
-          },
-          {
-            "title": "Hag Coven",
-            "lines": [
-              "When all three coven members are within 30 ft. of one another, each casts with Intelligence as a 12th-level caster. The coven shares the spell slots. Each hag has save DC 12 plus her Intelligence modifier and spell attack bonus 4 plus that modifier.",
-              "Slots and spells by tier: 1st (4) identify, ray of sickness. 2nd (3) hold person, locate object. 3rd (3) bestow curse, counterspell, lightning bolt. 4th (3) phantasmal killer, polymorph. 5th (2) contact other plane, scrying. 6th (1) eyebite.",
-              "The three can create one hag eye in an uninterrupted hour. A hag can spend an action to see through it from the same plane. It has AC 10, 1 HP and Darkvision 60 ft. Destroying it deals 3d10 psychic damage to each member and Blinds them for 24 hours."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Sea Hag"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301760-sea-hag-coven-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/126/1000/1000/636898362624716539.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/126/1000/1000/636898362624716539.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sea_hag_coven_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       },
       {
         "id": "printing-0e8955e63b79a3ab2ca9678f",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 52",
-              "Hit dice · 7d8 + 21",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fey",
-              "Speed · walk 30 ft., swim 40 ft.",
-              "Passive Perception · 11",
-              "Initiative · 1",
-              "Str · 16",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 12",
-              "Wis · 12",
-              "Cha · 13"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Coastal", "Underwater"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "An amphibious hag with a gaunt, hideous true face who can disguise herself with an illusion."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Claws · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing"]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "The standard coven spells use DC 13 and +5 to spell attacks for this hag. Some published encounters may specify substitutions."
-            ]
-          },
-          {
-            "title": "Hag Coven",
-            "lines": [
-              "When all three coven members are within 30 ft. of one another, each casts with Intelligence as a 12th-level caster. The coven shares the spell slots. Each hag has save DC 12 plus her Intelligence modifier and spell attack bonus 4 plus that modifier.",
-              "Slots and spells by tier: 1st (4) identify, ray of sickness. 2nd (3) hold person, locate object. 3rd (3) bestow curse, counterspell, lightning bolt. 4th (3) phantasmal killer, polymorph. 5th (2) contact other plane, scrying. 6th (1) eyebite.",
-              "The three can create one hag eye in an uninterrupted hour. A hag can spend an action to see through it from the same plane. It has AC 10, 1 HP and Darkvision 60 ft. Destroying it deals 3d10 psychic damage to each member and Blinds them for 24 hours."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Sea Hag"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301760-sea-hag-coven-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/126/1000/1000/636898362624716539.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/126/1000/1000/636898362624716539.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sea_hag_coven_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Fey"],
@@ -28468,136 +28254,6 @@
       {
         "id": "printing-8174cd76bfeb91a5fd2beddd",
         "label": "Mordenkainen’s Tome of Foes",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 150",
-              "Hit dice · 12d12 + 72",
-              "Challenge · 18",
-              "Size · Huge",
-              "Type · Fiend",
-              "Speed · 0 ft., fly 20 ft. (hover)",
-              "Passive Perception · 23",
-              "XP · 20000",
-              "Str · 10",
-              "Dex · 3",
-              "Con · 23",
-              "Int · 25",
-              "Wis · 24",
-              "Cha · 25"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A floating demon that twists living flesh. Its corrupted ground and poisonous aura make it dangerous to approach."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +13", "Cha +13"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +13", "History +13", "Perception +13"]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["Can hover", "fly · (hover)"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge fiend (demon), chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["All languages. Telepathy 120 ft."]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks."
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Contamination. Noncreature plants wither within 30 ft. of the sibriex, and the ground within that radius is difficult terrain for other creatures. A creature starting its turn there must succeed on a DC 20 Constitution save or take 14 (4d6) poison damage. Success grants immunity to that sibriex’s Contamination for 24 hours.\nLegendary Resistance (3/day). The sibriex can choose to succeed when it fails a saving throw.\nMagic Resistance. The sibriex has advantage on saves against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Innate Spellcasting",
-            "lines": [
-              "Charisma sets the spell save DC at 21. The sibriex needs no material components.\nAt will. Charm Person, Command, Dispel Magic, Hold Monster.\n3/day. Feeblemind."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Use Squirt Bile once and make three attacks in any combination of Chain and Bite.\nChain. Melee weapon attack, +6 to hit, reach 15 ft., one target. A hit deals 20 (2d12 + 7) piercing damage.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d8) piercing damage plus 9 (2d8) acid damage.\nSquirt Bile. Choose one visible creature within 120 ft. It must succeed on a DC 20 Dexterity save or take 35 (10d6) acid damage.\nWarp Creature. Choose up to three visible creatures within 120 ft. Each makes a DC 20 Constitution save. A creature that succeeds on this initial save becomes immune to this sibriex’s Warp Creature. A creature that fails becomes poisoned and gains one level of exhaustion. While poisoned this way, it repeats the save at the start of each of its turns. Each failure adds one level of exhaustion. Three successes end the poison and remove exhaustion from this effect. At six levels of exhaustion, the creature dies and becomes a living Abyssal Wretch under the sibriex’s control. Only Wish can undo the body’s transformation."
-            ]
-          },
-          {
-            "title": "Legendary actions",
-            "lines": [
-              "The sibriex can spend up to 3 legendary actions between its turns and regains them at the start of its turn. Use one option at the end of another creature’s turn.\nCast a Spell (1 action). Cast one of its spells.\nSpray Bile (1 action). Use Squirt Bile.\nWarp (2 actions). Use Warp Creature."
-            ]
-          },
-          {
-            "title": "Flesh Warping variant",
-            "lines": [
-              "On each failed Warp Creature save, the DM can roll d100 and apply the corresponding extra effect. It lasts until Warp Creature ends on that target or becomes permanent if the target turns into an Abyssal Wretch. A willing creature can instead remain within 30 ft. of the sibriex for at least 1 hour. It permanently gains one rolled or chosen effect.\n01–05. Hair, skin, and eyes become blue, red, yellow, or patterned.\n06–10. The eyes extend on stalks.\n11–15. Hand claws can be used as daggers.\n16–20. Uneven legs reduce walking speed by 10 ft.\n21–25. Open eyes cast dim light in a 15-ft. cone.\n26–30. Back wings grant a flying speed of 30 ft.\n31–35. The ears tear away. The target is deafened.\n36–40. Two teeth grow into tusks.\n41–45. Scabbed skin raises AC by 1 and reduces Charisma by 2, to a minimum of 1.\n46–50. Arms and legs trade places. The target can move only by crawling.\n51–55. Tentacle arms add 5 ft. of reach.\n56–60. Springy legs increase walking speed by 10 ft.\n61–65. A new tail works as a whip.\n66–70. Blackened eyes gain darkvision 120 ft.\n71–75. The body swells to three times its weight.\n76–80. The skeletal body weighs half as much.\n81–85. The head doubles in size.\n86–90. Wings replace the ears and grant a flying speed of 5 ft.\n91–95. A brittle body grants vulnerability to bludgeoning, piercing, and slashing damage.\n96–100. An extra head grants advantage on saves against being charmed, frightened, or stunned."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen’s Tome of Foes, pp. 137–138."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen's Tome of Foes, p. 137 · https://5e.tools/bestiary.html#sibriex_mtf",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Command (spell) · https://5e.tools/spells.html#command_phb",
-              "Dispel magic (spell) · https://5e.tools/spells.html#dispel%20magic_phb",
-              "Hold monster (spell) · https://5e.tools/spells.html#hold%20monster_phb",
-              "Feeblemind (spell) · https://5e.tools/spells.html#feeblemind_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Exhaustion (condition) · https://5e.tools/conditionsdiseases.html#exhaustion_phb",
-              "Abyssal wretch (creature) · https://5e.tools/bestiary.html#abyssal%20wretch_mtf",
-              "Wish (spell) · https://5e.tools/spells.html#wish_phb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Whip (item) · https://5e.tools/items.html#whip_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Stunned (condition) · https://5e.tools/conditionsdiseases.html#stunned_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#sibriex_mtf",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/267/923/1000/1000/636597440324412596.png",
         "art": [
@@ -28605,7 +28261,17 @@
             "file": "/assets/library/worker-art/sibriex-8c99347dff288a91.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sibriex"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_s_tome_of_foes"
+          }
+        }
       }
     ],
     "groups": ["Fiend"]
@@ -40871,70 +40537,18 @@
       {
         "id": "printing-3c5859e1386195fd0afec5b8",
         "label": "Spelljammer Academy",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 60",
-              "Hit dice · 8d10 + 16",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Celestial",
-              "Speed · walk 0 ft., fly 50 ft.",
-              "Passive Perception · 13",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 15",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +4", "Con +4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Astral Sea"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A shark-like creature with four wings, a long tail and a sharp projection on its head."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Horn · melee · +6 to hit · reach 5 ft. · 1d6 + 4 piercing"]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Flyby"]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Horn", "Invisibility Cloak (3/Day)"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monstrous Compendium Vol. 1: Spelljammer Creatures creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Horn adds 10 (3d6) piercing damage if it moved at least 20 ft. straight toward the target immediately before hitting."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monstrous Compendium Vol. 1: Spelljammer Creatures index · https://5e.tools/bestiary.html#star%20lancer_mcv1sc"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/2506150-star-lancer",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25265/562/1000/1000/637861450530101041.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25265/562/1000/1000/637861450530101041.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "star_lancer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "spelljammer_academy"
+          }
+        }
       }
     ],
     "groups": ["Celestial"],
@@ -42866,99 +42480,6 @@
       {
         "id": "printing-dbbbfc393a79d440b8600682",
         "label": "Mordenkainen’s Tome of Foes",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 19",
-              "Hit dice · 3d8 + 4",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · 10 ft.",
-              "Passive Perception · 9",
-              "XP · 200",
-              "Str · 16",
-              "Dex · 5",
-              "Con · 14",
-              "Int · 5",
-              "Wis · 8",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An alchemist can animate a petrified humanoid as a loyal guardian. Fragments of the victim’s memories survive in an obsidian skull inside it."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert", "mountain", "urban"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium construct, lawful evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["The languages it knew in life."]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["Bludgeoning."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, exhaustion, frightened, petrified, poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Cunning Opportunist. The stone cursed has advantage on opportunity attack rolls.\nFalse Appearance. While motionless, it is indistinguishable from an ordinary statue."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Petrifying Claws. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 8 (1d10 + 3) slashing damage, or 14 (2d10 + 3) if the attack roll had advantage. A creature hit must make a DC 12 Constitution save. On a failure, it begins turning to stone and is restrained until the end of its next turn, when it repeats the save. A second failure petrifies it for 24 hours. A success ends the effect."
-            ]
-          },
-          {
-            "title": "Cryptic Whispers",
-            "lines": [
-              "When the stone cursed dies, its body shatters and reveals its obsidian skull. At the end of a short rest, a character can ask the skull a question aloud and try a DC 20 Intelligence (Arcana) check. On a success, a memory answers the question. The skull can be used this way only once, even if the check fails."
-            ]
-          },
-          {
-            "title": "Constructed nature",
-            "lines": ["The stone cursed needs no air, food, drink or sleep."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen’s Tome of Foes, p. 240."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen's Tome of Foes, p. 240 · https://5e.tools/bestiary.html#stone%20cursed_mtf",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Petrified (condition) · https://5e.tools/conditionsdiseases.html#petrified_phb",
-              "Arcana (skill) · https://5e.tools/skills.html#arcana_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#stone%20cursed_mtf",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/268/263/1000/1000/636597595877441750.png",
         "art": [
@@ -42966,7 +42487,17 @@
             "file": "/assets/library/worker-art/stone-cursed-4204c4c11d8c8d41.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "stone_cursed"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_s_tome_of_foes"
+          }
+        }
       }
     ],
     "groups": ["Construct"]
@@ -60829,69 +60360,18 @@
       {
         "id": "printing-38391de6f6649660e7aa50e4",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 84",
-              "Hit dice · 8d10 + 40",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Giant",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 11",
-              "Initiative · 1",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 20",
-              "Int · 7",
-              "Wis · 9",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest", "Swamp", "Mountain", "Underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A lanky, long-nosed giant. Even separated limbs remain active while they can regenerate."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +7 to hit · reach 5 ft. · 1d6 + 4 piercing",
-              "Claw · melee · +7 to hit · reach 5 ft. · 2d6 + 4 slashing"
-            ]
-          },
-          {
-            "title": "Loathsome Limbs",
-            "lines": [
-              "On taking at least 15 slashing damage at once, roll a d20. On 1–10 nothing changes. On 11–14 it loses a leg, 15–18 an arm, or 19–20 its head, if that part remains. It dies from decapitation only if it cannot regenerate.",
-              "A separated part has AC 13, 10 HP and the troll’s Regeneration. It acts on the same initiative. A part left unattached dies when a replacement grows at the end of a short or long rest.",
-              "Each missing arm removes one Claw. A loose arm moves 5 ft. and makes one Claw with Disadvantage unless the troll sees both arm and target. A loose leg moves 5 ft. and cannot attack.",
-              "With its head detached the body loses Bite and is Blinded unless the head sees the body. The head cannot move and can Bite only within its own space.",
-              "Losing one leg halves the body’s speed. Losing both makes it Prone and crawling only. With one arm that crawl is at half speed. With neither arms nor legs it cannot move."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Troll"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301476-troll-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/178/1000/1000/638063930355508806.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/178/1000/1000/638063930355508806.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "troll_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Giant"],
@@ -63904,68 +63384,18 @@
       {
         "id": "printing-0e2adb293acd1403f1e77267",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 153",
-              "Hit dice · 18d8 + 72",
-              "Challenge · 13",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft., fly 60 ft.",
-              "Passive Perception · 17",
-              "Initiative · 3",
-              "Str · 16",
-              "Dex · 16",
-              "Con · 18",
-              "Int · 18",
-              "Wis · 15",
-              "Cha · 19"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Gehenna", "Lower Planes"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A slender, gray-skinned fiend with an elongated head and two oval eyes in an otherwise blank face."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Longsword · melee · +8 to hit · reach 5 ft. · 1d8 + 3 slashing · 1d10 + 3 slashing"
-            ]
-          },
-          {
-            "title": "Variant rules",
-            "lines": ["50%: 1d6 mezzoloths, 1d4 nycaloths, or one ultroloth."]
-          },
-          {
-            "title": "Yugoloth Summoning",
-            "lines": [
-              "Once per day, roll the listed chance to summon the specified allies. They appear within 60 ft. and cannot summon in turn. They generally act independently except when summoned by an ultroloth. A summoned creature disappears after 1 minute, if it or its summoner dies, or if the summoner dismisses it as a bonus action."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Ultroloth"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301447-ultroloth-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5735/986/1000/1000/636898155508573997.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5735/986/1000/1000/636898155508573997.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ultroloth_summoner_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -69736,104 +69166,6 @@
       {
         "id": "printing-d783f3a45e93eaba3b11aa8b",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 30",
-              "Hit dice · 4d8 + 12",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · 0 ft., fly 30 ft. (hover)",
-              "Passive Perception · 11",
-              "XP · 700",
-              "Str · 6",
-              "Dex · 16",
-              "Con · 16",
-              "Int · 6",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A vampire that fails to return to its resting place can disintegrate into a blood-drinking mist. The mist senses blood from up to 1 mile away and favors injured prey."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Wis +3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": [
-              "arctic",
-              "coastal",
-              "forest",
-              "grassland",
-              "mountain",
-              "swamp",
-              "underdark",
-              "urban"
-            ]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["Can hover", "fly · (hover)"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium undead, typically chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "Acid, cold, lightning, necrotic, thunder. Bludgeoning, piercing, and slashing from nonmagical attacks."
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "Charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Life Sense. The mist knows the location of every creature within 60 ft. except Constructs and Undead.\nForbiddance. The mist can enter a residence only with an occupant’s invitation.\nMisty Form. The mist and other creatures can occupy each other’s spaces. It can pass without squeezing wherever air can pass. Moving through water costs 2 extra feet for each foot moved. It cannot manipulate objects that require fingers or manual dexterity.\nSunlight Hypersensitivity. The mist takes 10 radiant damage if it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.\nUnusual Nature. The mist needs neither air nor sleep."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Life Drain. The mist touches one creature in its space. Constructs and Undead automatically succeed on the DC 13 Constitution save. On a failed save, the target takes 10 (2d6 + 3) necrotic damage, the mist regains 10 HP, and the target’s maximum HP drops by the necrotic damage taken. The reduction ends when the target finishes a long rest. The creature dies if its maximum reaches 0."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 250."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 250 · https://5e.tools/bestiary.html#vampiric%20mist_mpmm",
-              "Vampire (creature) · https://5e.tools/bestiary.html#vampire_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#vampiric%20mist_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/730/1000/1000/637880558120363350.jpeg",
         "art": [
@@ -69841,7 +69173,17 @@
             "file": "/assets/library/worker-art/vampiric-mist-cdfab549599c0414.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vampiric_mist"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-473f7359a36bf81eb6212e81",
@@ -89112,107 +88454,23 @@
       {
         "id": "printing-a6dff4eb4b5a3cc99e63e2e6",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d6 + 5",
-              "Challenge · 1",
-              "Size · Small",
-              "Type · Monstrosity",
-              "Speed · 30 ft.",
-              "Passive Perception · 10",
-              "XP · 200",
-              "Str · 8",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 8",
-              "Wis · 11",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Raxivort's warlocks can speak to bats and rats, and their patron rewards them for felling enemies."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["hill", "underdark"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small monstrosity, typically chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 30 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Raxivort's Blessing. When the xvart reduces an enemy to 0 hit points, it gains 4 temporary hit points.\nRaxivort's Tongue. The xvart can communicate with bats, giant bats, rats, and giant rats."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks using Scimitar or Raxivort's Bite.\nScimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nRaxivort's Bite. Ranged spell attack, +3 to hit, range 30 ft., one creature. A hit deals 7 (1d10 + 2) poison damage."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast one listed spell using Charisma (spell save DC 11). No material components are required.\nAt will. Detect Magic, Mage Armor (self only), Mage Hand, Minor Illusion, Prestidigitation.\n1/day each. Burning Hands, Invisibility."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Low Cunning. Take the Disengage action."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 267."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 267 · https://5e.tools/bestiary.html#xvart%20warlock%20of%20raxivort_mpmm",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Mage armor (spell) · https://5e.tools/spells.html#mage%20armor_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Minor illusion (spell) · https://5e.tools/spells.html#minor%20illusion_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Burning hands (spell) · https://5e.tools/spells.html#burning%20hands_phb",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Bat (creature) · https://5e.tools/bestiary.html#bat_mm",
-              "Rat (creature) · https://5e.tools/bestiary.html#rat_mm",
-              "Giant bat (creature) · https://5e.tools/bestiary.html#giant%20bat_mm",
-              "Giant rat (creature) · https://5e.tools/bestiary.html#giant%20rat_mm",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#xvart%20warlock%20of%20raxivort_mpmm",
         "art": [
           {
             "file": "/assets/library/worker-art/xvart-warlock-of-raxivort-d04a21b54652601f.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "xvart_warlock_of_raxivort"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-9188a5289759cfac2bb1794c",
@@ -90440,70 +89698,17 @@
       {
         "id": "printing-fc5055704c9ad3ff4e4f22f0",
         "label": "Muk's Guide To Everything He Learned From Tasha",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 9",
-              "Hit dice · 2d6 + 2",
-              "Challenge · 1/8",
-              "Size · Small",
-              "Type · Monstrosity",
-              "Speed · walk 20 ft., climb 20 ft.",
-              "Passive Perception · 9",
-              "Strength · 10",
-              "Dexterity · 11",
-              "Constitution · 12",
-              "Intelligence · 6",
-              "Wisdom · 8",
-              "Charisma · 5"
-            ]
+        "source": "https://5e.tools/bestiary.html#yeti%20tyke_mgelft",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yeti_tyke"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small monstrosity with challenge rating 1/8. Named abilities include Keen Smell, Snow Camouflage, Claw."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Claw · melee · +2 to hit · reach 5 ft. · 1d4 + 1 slashing · 1d4 cold"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands Yeti but can't speak"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["cold"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Keen Smell · Perception", "Snow Camouflage · Stealth"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Claw · Melee attack · +2 to hit · 1d4 + 1 slashing damage · 1d4 cold damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Muk's Guide To Everything He Learned From Tasha, p. 34 · https://5e.tools/bestiary.html#yeti%20tyke_mgelft",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Stealth (skill) · https://5e.tools/skills.html#stealth_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "muk_s_guide_to_everything_he_learned_from_tasha"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yeti%20tyke_mgelft"
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -94390,54 +93595,30 @@
       {
         "id": "printing-0ef4ba6c4418d5d9248d75d7",
         "label": "DDAL04-07 - The Innocent",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_malison"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_07_the_innocent"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-a0755ee76e38d8c9e902b75e",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_malison"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-77d7f1bee6461c6bb2ffc4d3",
@@ -94456,55 +93637,18 @@
       {
         "id": "printing-14bc0dc41ef260f51c767ace",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 11",
-              "Initiative · 2",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Desert", "Forest", "Swamp"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A snake-human hybrid whose serpentine head, arms or lower body depend on its type."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite (Snake Form) · melee · +5 to hit · reach 5 ft. · 1d4 + 3 piercing plus 2d6 poison"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Use the type-specific entry for attacks other than the snake-form bite."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17122-yuan-ti-malison",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/603/1000/1000/638063940498823482.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/603/1000/1000/638063940498823482.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_malison"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"],
@@ -95473,132 +94617,6 @@
       {
         "id": "printing-3de66613f02bbf5c48864c22",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 88",
-              "Hit dice · 16d8 + 16",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · 30 ft.",
-              "Passive Perception · 11",
-              "XP · 1800",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A priest of Merrshaulk with snakes for arms. Pit masters favor long schemes and seek to rouse their god from sleep."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Wis +3", "Cha +5"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark", "forest", "desert"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +5", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium monstrosity (shapechanger, yuan-ti), neutral evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft. (penetrates magical darkness)."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common, Draconic."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Shapechanger. As an action, the yuan-ti becomes a Medium snake or returns to its true form. Its statistics stay the same, its gear keeps its shape, and death leaves it in its current form.\nMagic Resistance. The yuan-ti has advantage on saves against spells and other magical effects.\nPoison's Disciple (2/day). On its first melee hit on its turn, the yuan-ti can deal an extra 16 (3d10) poison damage."
-            ]
-          },
-          {
-            "title": "Innate Spellcasting",
-            "lines": [
-              "In yuan-ti form, it can cast these spells without material components. Charisma sets the save DC at 13.\nAt will. Animal Friendship (snakes only).\n3/day. Suggestion."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "In yuan-ti form, the yuan-ti casts as a 6th-level warlock using Charisma (save DC 13, +5 to hit with spell attacks). It has two 3rd-level slots for its 1st- through 3rd-level spells and recovers both slots after a short or long rest.\nCantrips (at will). Eldritch Blast (300 ft. range, +3 to each damage roll), Friends, Guidance, Mage Hand, Message, Poison Spray.\n1st through 3rd level. Command, Counterspell, Hellish Rebuke, Invisibility, Misty Step, Unseen Servant, Vampiric Touch."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack (Yuan-ti Form Only). Make two Bite attacks with the snake arms.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.\nMerrshaulk's Slumber (1/day). Choose up to five creatures the yuan-ti can see within 60 ft. Each must pass a DC 13 Constitution save or fall unconscious in magical sleep for 10 minutes. A sleeping target wakes if damaged or if someone spends an action to shake or slap it awake. Creatures immune to being charmed are unaffected."
-            ]
-          },
-          {
-            "title": "Optional yuan-ti traits (p. 98)",
-            "lines": [
-              "Acid Slime. As a bonus action, the yuan-ti coats itself in acid for 1 minute. A creature takes 5 (1d10) acid damage if it touches the yuan-ti or hits it with a melee attack from within 5 ft.\nChameleon Skin. The yuan-ti has advantage on Dexterity (Stealth) checks to hide.\nShed Skin (1/day). As a bonus action, it sheds its skin to slip out of a grapple, shackles, or other restraints. Eating its discarded skin for 1 minute restores half its maximum hit points."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Volo's Guide to Monsters, p. 206. Uses the listed attack bonus, save DCs, saving throws, and skill bonuses."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 206 · https://5e.tools/bestiary.html#yuan-ti%20pit%20master_vgm",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Suggestion (spell) · https://5e.tools/spells.html#suggestion_phb",
-              "Eldritch blast (spell) · https://5e.tools/spells.html#eldritch%20blast_phb",
-              "Friends (spell) · https://5e.tools/spells.html#friends_phb",
-              "Guidance (spell) · https://5e.tools/spells.html#guidance_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Message (spell) · https://5e.tools/spells.html#message_phb",
-              "Poison spray (spell) · https://5e.tools/spells.html#poison%20spray_phb",
-              "Command (spell) · https://5e.tools/spells.html#command_phb",
-              "Counterspell (spell) · https://5e.tools/spells.html#counterspell_phb",
-              "Hellish rebuke (spell) · https://5e.tools/spells.html#hellish%20rebuke_phb",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Unseen servant (spell) · https://5e.tools/spells.html#unseen%20servant_phb",
-              "Vampiric touch (spell) · https://5e.tools/spells.html#vampiric%20touch_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Stealth (skill) · https://5e.tools/skills.html#stealth_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#yuan-ti%20pit%20master_vgm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/837/1000/1000/636332235645703720.jpeg",
         "art": [
@@ -95606,7 +94624,17 @@
             "file": "/assets/library/worker-art/yuan-ti-pit-master-a22b18d0d46beb1e.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_pit_master"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]

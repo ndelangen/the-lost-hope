@@ -14389,129 +14389,17 @@
       {
         "id": "printing-9027673ca286f11e0fe7",
         "label": "Monster Manual (2025)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · celestial",
-              "Size · Medium",
-              "Alignment · neutral",
-              "Armor class · 19",
-              "Hit points · 323",
-              "Hit dice · 34d8 + 170",
-              "Speed · walk 60 ft., fly 60 (hover), swim 60 ft. (hover)",
-              "Challenge · 20",
-              "Initiative · +19",
-              "Strength · 24",
-              "Dexterity · 25",
-              "Constitution · 20",
-              "Intelligence · 19",
-              "Wisdom · 23",
-              "Charisma · 22",
-              "Passive Perception · 28"
-            ]
+        "source": "https://5e.tools/bestiary.html#animal%20lord%3B%20forager_xmm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "animal_lord_forager"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium celestial with challenge rating 20. Listed habitats: planar, beastlands. Named abilities include Animal Lordship, Legendary Resistance (4/Day), Lordly Presence."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Constitution +11, Wisdom +12"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +13, Athletics +13, Perception +18, Stealth +13"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["all"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["cold, fire, necrotic, psychic, radiant"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["charmed, frightened, stunned"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["planar, beastlands"]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["relics"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Animal Lordship",
-              "Legendary Resistance (4/Day)",
-              "Lordly Presence · Wisdom save · DC 20 · end of its next turn · Emanation [Area of Effect] · Charmed · Incapacitated",
-              "Magic Resistance · Advantage"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Rend · Melee attack · +13 to hit · 2d6 + 7 slashing damage · 2d6 force damage · reach 5 ft.",
-              "Radiant Ray · Ranged attack · +12 to hit · 4d6 + 6 radiant damage · range 120 ft.",
-              "Animal Spirit · Dexterity save · DC 20 · 4d10 + 6 radiant damage · within 120 feet · 20 Temporary Hit Points · Temporary Hit Points"
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Shape-Shift"]
-          },
-          {
-            "title": "Legendary actions reference",
-            "lines": ["Feral Strike · Speed · Opportunity Attack", "Radiant Strike"]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Wisdom · DC 20 · Animal Friendship · Animal Messenger · Speak with Animals · Awaken · Greater Restoration · Animal Shapes · Sunburst",
-              "At will · Animal Friendship, Animal Messenger, Speak with Animals",
-              "2/day each · Awaken, Greater Restoration",
-              "1/day each · Animal Shapes, Sunburst"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Animal Lord"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Animal Friendship (spell) · https://5e.tools/spells.html#animal%20friendship_xphb",
-              "Animal Messenger (spell) · https://5e.tools/spells.html#animal%20messenger_xphb",
-              "Speak with Animals (spell) · https://5e.tools/spells.html#speak%20with%20animals_xphb",
-              "Awaken (spell) · https://5e.tools/spells.html#awaken_xphb",
-              "Greater Restoration (spell) · https://5e.tools/spells.html#greater%20restoration_xphb",
-              "Animal Shapes (spell) · https://5e.tools/spells.html#animal%20shapes_xphb",
-              "Sunburst (spell) · https://5e.tools/spells.html#sunburst_xphb",
-              "Emanation [Area of Effect] (rule) · https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_xphb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_xphb",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Temporary Hit Points (rule) · https://5e.tools/variantrules.html#temporary%20hit%20points_xphb",
-              "Speed (rule) · https://5e.tools/variantrules.html#speed_xphb",
-              "Opportunity Attack (action) · https://5e.tools/actions.html#opportunity%20attack_xphb",
-              "Animal Lord (creature) · https://5e.tools/bestiary.html#animal%20lord_xmm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2025"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#animal%20lord%3B%20forager_xmm"
+        }
       }
     ],
     "groups": ["Celestial"],
@@ -14536,127 +14424,17 @@
       {
         "id": "printing-b7bb2ea5f92ff4dd4dd6",
         "label": "Monster Manual (2025)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · celestial",
-              "Size · Medium",
-              "Alignment · neutral",
-              "Armor class · 19",
-              "Hit points · 323",
-              "Hit dice · 34d8 + 170",
-              "Speed · walk 60 ft., fly 60 (hover), swim 60 ft. (hover)",
-              "Challenge · 20",
-              "Initiative · +19",
-              "Strength · 24",
-              "Dexterity · 25",
-              "Constitution · 20",
-              "Intelligence · 19",
-              "Wisdom · 23",
-              "Charisma · 22",
-              "Passive Perception · 28"
-            ]
+        "source": "https://5e.tools/bestiary.html#animal%20lord%3B%20hunter_xmm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "animal_lord_hunter"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium celestial with challenge rating 20. Listed habitats: planar, beastlands. Named abilities include Animal Lordship, Legendary Resistance (4/Day), Lordly Presence."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Constitution +11, Wisdom +12"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +13, Athletics +13, Perception +18, Stealth +13"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["all"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["cold, fire, necrotic, psychic, radiant"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["charmed, frightened, stunned"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["planar, beastlands"]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["relics"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Animal Lordship",
-              "Legendary Resistance (4/Day)",
-              "Lordly Presence · Wisdom save · DC 20 · end of its next turn · Emanation [Area of Effect] · Frightened",
-              "Magic Resistance · Advantage"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Rend · Melee attack · +13 to hit · 2d6 + 7 slashing damage · 2d6 force damage · reach 5 ft.",
-              "Radiant Ray · Ranged attack · +12 to hit · 4d6 + 6 radiant damage · range 120 ft.",
-              "Animal Spirit · Dexterity save · DC 20 · 4d10 + 6 radiant damage · within 120 feet · Advantage"
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Shape-Shift"]
-          },
-          {
-            "title": "Legendary actions reference",
-            "lines": ["Feral Strike · Speed · Opportunity Attack", "Radiant Strike"]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Wisdom · DC 20 · Animal Friendship · Animal Messenger · Speak with Animals · Awaken · Greater Restoration · Animal Shapes · Sunburst",
-              "At will · Animal Friendship, Animal Messenger, Speak with Animals",
-              "2/day each · Awaken, Greater Restoration",
-              "1/day each · Animal Shapes, Sunburst"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Animal Lord"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Animal Friendship (spell) · https://5e.tools/spells.html#animal%20friendship_xphb",
-              "Animal Messenger (spell) · https://5e.tools/spells.html#animal%20messenger_xphb",
-              "Speak with Animals (spell) · https://5e.tools/spells.html#speak%20with%20animals_xphb",
-              "Awaken (spell) · https://5e.tools/spells.html#awaken_xphb",
-              "Greater Restoration (spell) · https://5e.tools/spells.html#greater%20restoration_xphb",
-              "Animal Shapes (spell) · https://5e.tools/spells.html#animal%20shapes_xphb",
-              "Sunburst (spell) · https://5e.tools/spells.html#sunburst_xphb",
-              "Emanation [Area of Effect] (rule) · https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_xphb",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Speed (rule) · https://5e.tools/variantrules.html#speed_xphb",
-              "Opportunity Attack (action) · https://5e.tools/actions.html#opportunity%20attack_xphb",
-              "Animal Lord (creature) · https://5e.tools/bestiary.html#animal%20lord_xmm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2025"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#animal%20lord%3B%20hunter_xmm"
+        }
       }
     ],
     "groups": ["Celestial"],
@@ -14681,127 +14459,17 @@
       {
         "id": "printing-d378276947ce7c3a4bcf",
         "label": "Monster Manual (2025)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · celestial",
-              "Size · Medium",
-              "Alignment · neutral",
-              "Armor class · 19",
-              "Hit points · 323",
-              "Hit dice · 34d8 + 170",
-              "Speed · walk 60 ft., fly 60 (hover), swim 60 ft. (hover)",
-              "Challenge · 20",
-              "Initiative · +19",
-              "Strength · 24",
-              "Dexterity · 25",
-              "Constitution · 20",
-              "Intelligence · 19",
-              "Wisdom · 23",
-              "Charisma · 22",
-              "Passive Perception · 28"
-            ]
+        "source": "https://5e.tools/bestiary.html#animal%20lord%3B%20sage_xmm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "animal_lord_sage"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium celestial with challenge rating 20. Listed habitats: planar, beastlands. Named abilities include Animal Lordship, Legendary Resistance (4/Day), Lordly Presence."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Constitution +11, Wisdom +12"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +13, Athletics +13, Perception +18, Stealth +13"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["all"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["cold, fire, necrotic, psychic, radiant"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["charmed, frightened, stunned"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["planar, beastlands"]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["relics"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Animal Lordship",
-              "Legendary Resistance (4/Day)",
-              "Lordly Presence · Wisdom save · DC 20 · 3d6 psychic damage · 1d4 · end of its next turn · Emanation [Area of Effect]",
-              "Magic Resistance · Advantage"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Rend · Melee attack · +13 to hit · 2d6 + 7 slashing damage · 2d6 force damage · reach 5 ft.",
-              "Radiant Ray · Ranged attack · +12 to hit · 4d6 + 6 radiant damage · range 120 ft.",
-              "Animal Spirit · Dexterity save · DC 20 · 4d10 + 6 radiant damage · within 120 feet · end of its next turn · Disadvantage"
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Shape-Shift"]
-          },
-          {
-            "title": "Legendary actions reference",
-            "lines": ["Feral Strike · Speed · Opportunity Attack", "Radiant Strike"]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Wisdom · DC 20 · Animal Friendship · Animal Messenger · Speak with Animals · Awaken · Greater Restoration · Animal Shapes · Sunburst",
-              "At will · Animal Friendship, Animal Messenger, Speak with Animals",
-              "2/day each · Awaken, Greater Restoration",
-              "1/day each · Animal Shapes, Sunburst"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Animal Lord"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Animal Friendship (spell) · https://5e.tools/spells.html#animal%20friendship_xphb",
-              "Animal Messenger (spell) · https://5e.tools/spells.html#animal%20messenger_xphb",
-              "Speak with Animals (spell) · https://5e.tools/spells.html#speak%20with%20animals_xphb",
-              "Awaken (spell) · https://5e.tools/spells.html#awaken_xphb",
-              "Greater Restoration (spell) · https://5e.tools/spells.html#greater%20restoration_xphb",
-              "Animal Shapes (spell) · https://5e.tools/spells.html#animal%20shapes_xphb",
-              "Sunburst (spell) · https://5e.tools/spells.html#sunburst_xphb",
-              "Emanation [Area of Effect] (rule) · https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Disadvantage (rule) · https://5e.tools/variantrules.html#disadvantage_xphb",
-              "Speed (rule) · https://5e.tools/variantrules.html#speed_xphb",
-              "Opportunity Attack (action) · https://5e.tools/actions.html#opportunity%20attack_xphb",
-              "Animal Lord (creature) · https://5e.tools/bestiary.html#animal%20lord_xmm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2025"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#animal%20lord%3B%20sage_xmm"
+        }
       }
     ],
     "groups": ["Celestial"],
@@ -35547,111 +35215,6 @@
       {
         "id": "printing-21a188d9a378f4b88f4d7262",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 91",
-              "Hit dice · 14d8 + 28",
-              "Challenge · 7",
-              "Size · Medium",
-              "Type · Fey",
-              "Speed · 30 ft., fly 50 ft. (hover, Graystaff Magic)",
-              "Passive Perception · 14",
-              "XP · 2900",
-              "Str · 13",
-              "Dex · 16",
-              "Con · 14",
-              "Int · 12",
-              "Wis · 13",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A winter hag who rides a flying staff and can turn a grisly feast into a weapon."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Wis +4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Nature +4", "Perception +4", "Stealth +6", "Survival +4"]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["Can hover", "fly · (hover, Graystaff magic)"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fey, typically chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Auran, Common, Giant."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Cold."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Control Weather (1/day). Cast Control Weather using Charisma and without material components.\nGraystaff Magic. The hag can use her flying speed only while riding her magical graystaff. Only a bheur hag can use the staff. If it is lost or destroyed, she must make another, which takes a year and a day.\nIce Walk. The hag can move and climb across ice without an ability check. Difficult terrain caused by ice or snow costs her no extra movement."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks using Slam or Frost Shard.\nSlam. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 10 (2d8 + 1) bludgeoning damage and 18 (4d8) cold damage.\nFrost Shard. Ranged spell attack, +6 to hit, range 60 ft., one target. A hit deals 30 (6d8 + 3) cold damage and reduces the target's speed by 10 ft. until the start of the hag's next turn.\nHorrific Feast. Feed on the corpse of an enemy within reach that died within the last minute. Choose any creatures within 60 ft. that can see the hag feeding. Each makes a DC 15 Wisdom save or becomes frightened of the hag for 1 minute. While frightened this way, the creature is incapacitated, cannot read or understand others' speech, and can speak only gibberish. It repeats the save at the end of each of its turns, ending the effect on a success. If it succeeds on a save or the effect ends, it is immune to this hag's Horrific Feast for 24 hours."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "While holding or riding the graystaff, cast one listed spell as an action using Charisma (spell save DC 14). Material components are waived.\nAt will. Hold Person.\n1/day each. Cone of Cold, Ice Storm, Wall of Ice."
-            ]
-          },
-          {
-            "title": "Coven challenge",
-            "lines": ["CR 9 (5,000 XP) when part of a coven."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 62."]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 62 · https://5e.tools/bestiary.html#bheur%20hag_mpmm",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Cone of cold (spell) · https://5e.tools/spells.html#cone%20of%20cold_phb",
-              "Ice storm (spell) · https://5e.tools/spells.html#ice%20storm_phb",
-              "Wall of ice (spell) · https://5e.tools/spells.html#wall%20of%20ice_phb",
-              "Control weather (spell) · https://5e.tools/spells.html#control%20weather_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#bheur%20hag_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/177/1000/1000/637880557199740417.jpeg",
         "art": [
@@ -35659,7 +35222,17 @@
             "file": "/assets/library/worker-art/bheur-hag-0a257c0134aa1605.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bheur_hag"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-248657009f297c851288cc03",
@@ -41745,71 +41318,18 @@
       {
         "id": "printing-c527818c18db626c6cecb728",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 142",
-              "Hit dice · 15d10 + 60",
-              "Challenge · 9",
-              "Size · Large",
-              "Type · Fiend",
-              "Speed · walk 40 ft., fly 40 ft.",
-              "Passive Perception · 12",
-              "Initiative · 3",
-              "Str · 18",
-              "Dex · 16",
-              "Con · 18",
-              "Int · 13",
-              "Wis · 14",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +5", "Wis +6", "Cha +7"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Nine Hells"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A skeletal, skull-faced devil with wings, a scorpion tail and a hooked polearm made of bone."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Hooked Polearm · melee · +8 to hit · reach 10 ft. · 2d12 + 4 piercing",
-              "Sting · melee · +8 to hit · reach 10 ft. · 2d8 + 4 piercing plus 5d6 poison"
-            ]
-          },
-          {
-            "title": "Bone Devil Polearm",
-            "lines": [
-              "Multiattack makes one Hooked Polearm attack and one Sting instead of the usual Claw attacks.",
-              "A Huge or smaller creature hit by the polearm is Grappled (escape DC 14). The devil cannot use the polearm against another creature until the grapple ends.",
-              "On a Sting hit the target must also pass a DC 14 Constitution save or become Poisoned for 1 minute. It can repeat the save at the end of each turn to end the condition."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Bone Devil"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/301694-bone-devil-polearm-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5737/638/1000/1000/636898323914261539.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5737/638/1000/1000/636898323914261539.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bone_devil_polearm_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Fiend"],
@@ -42224,47 +41744,18 @@
       {
         "id": "printing-8514e005c8998bf808d16942",
         "label": "Dragonlance: Shadow of the Dragon Queen",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 58",
-              "Hit dice · 9d10 + 9",
-              "Challenge · 4",
-              "Size · Large",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 12",
-              "Initiative · 3",
-              "Str · 15",
-              "Dex · 16",
-              "Con · 12",
-              "Int · 15",
-              "Wis · 15",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["The animated skeleton of a naga, with a serpentine spine and a fanged head."]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +5 to hit · reach 10 ft. · 2d6 + 3 piercing plus 3d6 poison"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Choose the guardian or spirit version for its spell list. The listed defenses and Bite apply to both."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17118-bone-naga",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30833/674/1000/1000/638063870143811930.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30833/674/1000/1000/638063870143811930.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bone_naga"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "dragonlance_shadow_of_the_dragon_queen"
+          }
+        }
       },
       {
         "id": "printing-28adf4936e5530939552449d",
@@ -42285,47 +41776,18 @@
       {
         "id": "printing-a799b950f67ec1312e3ee33f",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 58",
-              "Hit dice · 9d10 + 9",
-              "Challenge · 4",
-              "Size · Large",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 12",
-              "Initiative · 3",
-              "Str · 15",
-              "Dex · 16",
-              "Con · 12",
-              "Int · 15",
-              "Wis · 15",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["The animated skeleton of a naga, with a serpentine spine and a fanged head."]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +5 to hit · reach 10 ft. · 2d6 + 3 piercing plus 3d6 poison"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
-              "Choose the guardian or spirit version for its spell list. The listed defenses and Bite apply to both."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/17118-bone-naga",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30833/674/1000/1000/638063870143811930.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30833/674/1000/1000/638063870143811930.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bone_naga"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       }
     ],
     "groups": ["Undead"],
@@ -56762,79 +56224,18 @@
       {
         "id": "printing-12d0529d39ac983021dd7edf",
         "label": "Spelljammer Academy",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 60",
-              "Hit dice · 8d6 + 32",
-              "Challenge · 2",
-              "Size · Small",
-              "Type · Construct",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Passive Perception · 16",
-              "Str · 14",
-              "Dex · 14",
-              "Con · 18",
-              "Int · 13",
-              "Wis · 14",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +4", "Wis +4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Wildspace", "Spelljamming ships"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A small metallic insect with a crystal eye, sharp mandibles and rotating saws on its forelimbs."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +4 to hit · reach 5 ft. · 1d8 + 2 piercing",
-              "Rotating Saw · melee · +4 to hit · reach 5 ft. · 1d4 + 2 slashing",
-              "Lightning Jolt · ranged · +4 to hit · range 120 ft. · 1d10 + 2 lightning"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Shutdown", "Unusual Nature"]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack",
-              "Bite",
-              "Rotating Saw",
-              "Lightning Jolt",
-              "Spelljamming Helm Interface"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monstrous Compendium Vol. 1: Spelljammer Creatures creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monstrous Compendium Vol. 1: Spelljammer Creatures index · https://5e.tools/bestiary.html#clockwork%20horror_mcv1sc"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/2506149-clockwork-horror",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25265/559/1000/1000/637861450525090464.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25265/559/1000/1000/637861450525090464.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clockwork_horror"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "spelljammer_academy"
+          }
+        }
       }
     ],
     "groups": ["Construct"],
@@ -84392,69 +83793,18 @@
       {
         "id": "printing-54a458dc4b6ae5a10fe48ab3",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 123",
-              "Hit dice · 13d10 + 52",
-              "Challenge · 6",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Passive Perception · 15",
-              "Initiative · 3",
-              "Str · 16",
-              "Dex · 16",
-              "Con · 18",
-              "Int · 13",
-              "Wis · 16",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A drow spellcaster’s upper body joined to the body of a giant spider."]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +6 to hit · reach 5 ft. · 1d4 piercing plus 2d8 poison",
-              "Longsword · melee · +6 to hit · reach 5 ft. · 1d8 + 3 slashing or 1d10 + 3 slashing",
-              "Longbow · ranged · +6 to hit · range 120/600 ft. · 1d8 + 3 piercing plus 1d8 poison"
-            ]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "The published divine example retains its innate spells and adds 7th-level cleric spellcasting. Wisdom 16, save DC 14 and +6 to spell attacks.",
-              "At will · Poison Spray, Thaumaturgy.",
-              "1st (4 slots) · Bane, Detect Magic, Sanctuary.",
-              "2nd (3 slots) · Hold Person, Silence.",
-              "3rd (3 slots) · Clairvoyance, Dispel Magic.",
-              "4th (2 slots) · Divination, Freedom of Movement."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Drider"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/272279-drider-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5513/868/1000/1000/636873138753623835.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5513/868/1000/1000/636873138753623835.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "drider_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"],
@@ -86761,115 +86111,6 @@
       {
         "id": "printing-adf8d954665c3ff220f3c4b8",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 150",
-              "Hit dice · 20d8 + 60",
-              "Challenge · 11",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 16",
-              "XP · 7200",
-              "Str · 14",
-              "Dex · 21",
-              "Con · 16",
-              "Int · 12",
-              "Wis · 14",
-              "Cha · 13"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An Underdark spy or assassin whose power over shadows comes from trapping the essence of a Shadow Demon."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +9", "Con +7", "Wis +6"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +6", "Stealth +9"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (drow elf), any alignment"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Elvish, Undercommon."]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Studded leather armor."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Devil's Sight. Magical darkness doesn't obstruct the drow's darkvision.\nFey Ancestry. The drow has advantage on saves against being charmed. Magic can't put the drow to sleep.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and Wisdom (Perception) checks that depend on sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make three Shadow Sword attacks. The shadowblade can replace one of them with a Hand Crossbow attack. It can also use Spellcasting to cast Darkness as part of this action.\nShadow Sword. Melee or ranged weapon attack, +9 to hit, reach 5 ft. or range 30/60 ft., one target. A hit deals 27 (7d6 + 5) necrotic damage.\nHand Crossbow. Ranged weapon attack, +9 to hit, range 30/120 ft., one target. A hit deals 8 (1d6 + 5) piercing damage. The target must pass a DC 13 Constitution save or be poisoned for 1 hour. On a failure by 5 or more it is also unconscious while this poison lasts. Damage or another creature spending an action to shake it awake ends the unconsciousness."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast one of these spells using Charisma (spell save DC 13). Material components are waived.\nAt will. Dancing Lights, Darkness.\n1/day each. Faerie Fire, Levitate (self only)."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Shadow Step. From dim light or darkness, teleport with worn or carried equipment up to 60 ft. to a visible unoccupied space in dim light or darkness. The shadowblade has advantage on its first melee attack before the turn ends."
-            ]
-          },
-          {
-            "title": "Optional action",
-            "lines": [
-              "Summon Shadow Demon (1/day). Make a magical summoning attempt with a 50 percent chance of success. On a failure, the drow takes 5 (1d10) psychic damage. On a success, a Shadow Demon appears in an unoccupied space within 60 ft. It acts as an ally and can't summon other demons. It stays for 10 minutes, until it or the shadowblade dies, or until the shadowblade dismisses it as an action."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 105."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 105 · https://5e.tools/bestiary.html#drow%20shadowblade_mpmm",
-              "Studded leather armor (item) · https://5e.tools/items.html#studded%20leather%20armor_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Faerie fire (spell) · https://5e.tools/spells.html#faerie%20fire_phb",
-              "Levitate (spell) · https://5e.tools/spells.html#levitate_phb",
-              "Darkvision (sense) · https://5e.tools/senses.html#darkvision_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb",
-              "Shadow demon (creature) · https://5e.tools/bestiary.html#shadow%20demon_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#drow%20shadowblade_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/317/1000/1000/637880557438272297.jpeg",
         "art": [
@@ -86877,7 +86118,17 @@
             "file": "/assets/library/worker-art/drow-shadowblade-710d2761ab0feb8a.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "drow_shadowblade"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-d658bf97f23c79c0d191d257",
@@ -86913,85 +86164,18 @@
       {
         "id": "printing-32c9c4ed158b5d44b6240962",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 150",
-              "Hit dice · 20d8 + 60",
-              "Challenge · 11",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "XP · 7200",
-              "Str · 14",
-              "Dex · 21",
-              "Con · 16",
-              "Int · 12",
-              "Wis · 14",
-              "Cha · 13"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark", "Deep caverns"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A drow assassin in studded leather with a blade drawn through shadow."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Humanoid (elf), any alignment"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Studded leather armor. Saves Dex +9, Con +7, Wis +6. Skills Perception +6, Stealth +9. Senses: darkvision 120 ft.. Languages: Elvish, Undercommon. Passive Perception 16."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Devil's Sight. Magical Darkness does not block its Darkvision.\nFey Ancestry. Advantage on saves against being Charmed, and magic cannot put the drow to sleep.\nSunlight Sensitivity. In sunlight, the drow has Disadvantage on attack rolls and sight-based Wisdom (Perception) checks."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make three Shadow Sword attacks. One can be replaced by a Hand Crossbow attack. The shadowblade can also cast Darkness with Spellcasting.\nShadow Sword. Melee or ranged weapon attack +9, reach 5 ft. or range 30/60 ft. Hit: 27 (7d6 + 5) necrotic.\nHand Crossbow. Ranged weapon attack +9, range 30/120 ft. Hit: 8 (1d6 + 5) piercing, plus a DC 13 Constitution save to avoid being Poisoned for 1 hour. Failure by 5 or more also makes the target Unconscious while Poisoned this way. Damage or another creature using an action to shake it ends the Unconscious condition.\nSummon Shadow Demon (1/day). There is a 50% chance to summon one Shadow Demon in an open space within 60 ft. Failure deals 5 (1d10) psychic damage to the shadowblade. The demon is an ally and cannot summon other demons. It remains for 10 minutes or until it or the shadowblade dies or the shadowblade dismisses it as an action."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": [
-              "Shadow Step. In dim light or Darkness, teleport with gear up to 60 ft. to a visible empty space also in dim light or Darkness. Gain Advantage on the first melee attack made before the turn ends."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "Charisma, DC 13, no material components.\nAt will · Dancing Lights, Darkness.\n1/day each · Faerie Fire, Levitate (self only)."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Rules source: Mordenkainen Presents: Monsters of the Multiverse, p. 105. This variant uses the Drow Shadowblade base rules with the printed changes."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Drow Shadowblade (monster) · https://5e.tools/bestiary.html#drow%20shadowblade_mpmm",
-              "Shadow Demon (monster) · https://5e.tools/bestiary.html#shadow%20demon_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/2560789-drow-shadowblade-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/314/1000/1000/637880557430491649.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/314/1000/1000/637880557430491649.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "drow_shadowblade_summoner_variant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-c4fd2e30362150016c29598a",
@@ -103029,209 +102213,50 @@
       {
         "id": "printing-d01cacb394fd9fa49079bf5e",
         "label": "Explorer's Guide to Wildemount",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 14",
-              "Hit dice · 4d4 + 4",
-              "Challenge · 2",
-              "Size · Tiny",
-              "Type · Dragon",
-              "Speed · walk 10 ft., fly 60 ft.",
-              "Passive Perception · 13",
-              "Initiative · 5",
-              "Str · 3",
-              "Dex · 20",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A cat-sized dragon with butterfly wings. Older forms range from green through blue and indigo to violet."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +7 to hit · reach 5 ft. · 1 piercing"]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "Superior Invisibility is a bonus action and requires Concentration. Worn and carried gear also becomes Invisible.",
-              "Euphoria Breath (Recharge 5–6) targets one creature within 5 ft. It must pass a DC 11 Wisdom save or lose reactions for 1 minute. At each turn start roll a d6. On 1–4 it takes no action or bonus action and uses all its movement in a random direction. On 5–6 it stays still and can only repeat the save to end the effect."
-            ]
-          },
-          {
-            "title": "Faerie Dragon Color and Age",
-            "lines": [
-              "Age by color. Red up to 5 years, orange 6–10, yellow 11–20, green 21–30, blue 31–40, indigo 41–50, and violet 51 or more.",
-              "Each spell is usable once per day. Red gains Dancing Lights, Mage Hand and Minor Illusion. Orange adds Color Spray and yellow adds Mirror Image. Green adds Suggestion, blue Major Image, indigo Hallucinatory Terrain and violet Polymorph. Each color keeps all spells of younger colors.",
-              "Red through yellow are CR 1. Green through violet are CR 2. Innate spell save DC 13."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Faerie Dragon (Younger)"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/17108-faerie-dragon-older",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30783/784/1000/1000/638062018575789713.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30783/784/1000/1000/638062018575789713.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "faerie_dragon_older"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "explorer_s_guide_to_wildemount"
+          }
+        }
       },
       {
         "id": "printing-b5b1fff36d4d622529bb0b0b",
         "label": "The Wild Beyond the Witchlight",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 14",
-              "Hit dice · 4d4 + 4",
-              "Challenge · 2",
-              "Size · Tiny",
-              "Type · Dragon",
-              "Speed · walk 10 ft., fly 60 ft.",
-              "Passive Perception · 13",
-              "Initiative · 5",
-              "Str · 3",
-              "Dex · 20",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A cat-sized dragon with butterfly wings. Older forms range from green through blue and indigo to violet."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +7 to hit · reach 5 ft. · 1 piercing"]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "Superior Invisibility is a bonus action and requires Concentration. Worn and carried gear also becomes Invisible.",
-              "Euphoria Breath (Recharge 5–6) targets one creature within 5 ft. It must pass a DC 11 Wisdom save or lose reactions for 1 minute. At each turn start roll a d6. On 1–4 it takes no action or bonus action and uses all its movement in a random direction. On 5–6 it stays still and can only repeat the save to end the effect."
-            ]
-          },
-          {
-            "title": "Faerie Dragon Color and Age",
-            "lines": [
-              "Age by color. Red up to 5 years, orange 6–10, yellow 11–20, green 21–30, blue 31–40, indigo 41–50, and violet 51 or more.",
-              "Each spell is usable once per day. Red gains Dancing Lights, Mage Hand and Minor Illusion. Orange adds Color Spray and yellow adds Mirror Image. Green adds Suggestion, blue Major Image, indigo Hallucinatory Terrain and violet Polymorph. Each color keeps all spells of younger colors.",
-              "Red through yellow are CR 1. Green through violet are CR 2. Innate spell save DC 13."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Faerie Dragon (Younger)"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/17108-faerie-dragon-older",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30783/784/1000/1000/638062018575789713.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30783/784/1000/1000/638062018575789713.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "faerie_dragon_older"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "the_wild_beyond_the_witchlight"
+          }
+        }
       },
       {
         "id": "printing-d93a6e63e1b9ebd44b760bea",
         "label": "Waterdeep: Dragon Heist",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 14",
-              "Hit dice · 4d4 + 4",
-              "Challenge · 2",
-              "Size · Tiny",
-              "Type · Dragon",
-              "Speed · walk 10 ft., fly 60 ft.",
-              "Passive Perception · 13",
-              "Initiative · 5",
-              "Str · 3",
-              "Dex · 20",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A cat-sized dragon with butterfly wings. Older forms range from green through blue and indigo to violet."
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +7 to hit · reach 5 ft. · 1 piercing"]
-          },
-          {
-            "title": "Variant rules",
-            "lines": [
-              "Superior Invisibility is a bonus action and requires Concentration. Worn and carried gear also becomes Invisible.",
-              "Euphoria Breath (Recharge 5–6) targets one creature within 5 ft. It must pass a DC 11 Wisdom save or lose reactions for 1 minute. At each turn start roll a d6. On 1–4 it takes no action or bonus action and uses all its movement in a random direction. On 5–6 it stays still and can only repeat the save to end the effect."
-            ]
-          },
-          {
-            "title": "Faerie Dragon Color and Age",
-            "lines": [
-              "Age by color. Red up to 5 years, orange 6–10, yellow 11–20, green 21–30, blue 31–40, indigo 41–50, and violet 51 or more.",
-              "Each spell is usable once per day. Red gains Dancing Lights, Mage Hand and Minor Illusion. Orange adds Color Spray and yellow adds Mirror Image. Green adds Suggestion, blue Major Image, indigo Hallucinatory Terrain and violet Polymorph. Each color keeps all spells of younger colors.",
-              "Red through yellow are CR 1. Green through violet are CR 2. Innate spell save DC 13."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Faerie Dragon (Younger)"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Variant summary",
         "source": "https://www.dndbeyond.com/monsters/17108-faerie-dragon-older",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30783/784/1000/1000/638062018575789713.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30783/784/1000/1000/638062018575789713.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "faerie_dragon_older"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dragon_heist"
+          }
+        }
       }
     ],
     "groups": ["Dragon"],
@@ -104282,74 +103307,18 @@
       {
         "id": "printing-bfb6bdf3e6a4218d8b87f9e8",
         "label": "Planescape: Adventures in the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 76",
-              "Hit dice · 17d8",
-              "Challenge · 5",
-              "Size · Small / Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 16",
-              "Str · 10",
-              "Dex · 16",
-              "Con · 10",
-              "Int · 15",
-              "Wis · 16",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +5", "Wis +6"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Sigil", "Planar settlements"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A planar faction enforcer in street attire, armed for a confrontation."]
-          },
-          {
-            "title": "Alternate armor classes",
-            "lines": ["16 · with mage armor"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Golden Rod · melee · +6 to hit · reach 5 ft. · 1d6 + 3 bludgeoning · 2d8 radiant",
-              "Radiant Bolt · ranged · +6 to hit · range 120 ft. · 2d10 + 3 radiant"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": ["Multiattack", "Golden Rod", "Radiant Bolt"]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Commanding Words"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "This is the base Morte's Planar Parade creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Morte's Planar Parade index · https://5e.tools/bestiary.html#fated%20shaker_mpp"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "source": "https://www.dndbeyond.com/monsters/3883535-fated-shaker",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/37204/441/1000/1000/638318543669408448.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/37204/441/1000/1000/638318543669408448.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fated_shaker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "planescape_adventures_in_the_multiverse"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -104976,97 +103945,23 @@
       {
         "id": "printing-e333ae082821ce97aa322aef",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 30",
-              "Hit dice · 4d10 + 8",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 10",
-              "XP · 200",
-              "Str · 15",
-              "Dex · 16",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A broad-bodied tarantula with bristled legs, clustered eyes, and dark pads at the tips of its feet."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +7"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Stealth +7. Darkvision 120 ft.. Passive Perception 10. No languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, Appendix C, Creatures, Steeders, p. 231. https://www.dndbeyond.com/monsters/17401-female-steeder"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The steeder climbs difficult surfaces and crosses ceilings upside down without an ability check.\nLeap. If its speed is at least 30 ft., the steeder can spend all its movement for the turn to jump up to 90 ft. vertically or horizontally."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +5 to hit, 5 ft. reach, one creature. A hit deals 7 (1d8 + 3) piercing damage and calls for a DC 12 Constitution saving throw. A creature takes 9 (2d8) acid damage on a failure or half on a success.\nSticky Leg. Melee weapon attack, +5 to hit, 5 ft. reach, one Medium or smaller creature. A hit sticks the creature to a leg and grapples it until it escapes, DC 12. The action recharges when the steeder has no creatures grappled."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "Duergar use the larger female steeders as mounts. The animals grip walls, ceilings, and prey with a sticky secretion from their legs."
-            ]
-          },
-          {
-            "title": "Encounter placement",
-            "lines": [
-              "When a Duergar Kavalrachni hits with a melee attack while riding a female steeder, the steeder can use its reaction to make a melee attack against the same target."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "Appendix C p. 231 gives a Large Beast. The encounter-specific Cavalry Training on p. 226 belongs to the Duergar Kavalrachni rider."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#female%20steeder_oota",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/female-steeder-b11c39c63ec3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "female_steeder"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
+          }
+        }
       },
       {
         "id": "printing-f9bfcb735f9e71d20c3f2a41",
@@ -108802,89 +107697,6 @@
       {
         "id": "printing-673ec71911be20b57b118deb",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 21",
-              "Hit points · 187",
-              "Hit dice · 15d12 + 90",
-              "Challenge · 14",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · 30 ft.",
-              "Passive Perception · 15",
-              "XP · 11500",
-              "Str · 27",
-              "Dex · 9",
-              "Con · 23",
-              "Int · 8",
-              "Wis · 10",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Fire giant foundries put their strongest workers to use moving coal and ore. In battle, a dreadnought fills its two spiked shields with hot coals and drives forward behind them."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +4", "Con +11", "Cha +5"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "underdark"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +13", "Perception +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge giant, typically lawful evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Plate armor and dual shields."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Giant."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Fire."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Dual Shields. The pair grants a total +3 bonus to AC, already included in the giant's AC."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks in any combination of Fireshield and Rock.\nFireshield. Melee weapon attack, +13 to hit, reach 5 ft., one target. A hit deals 22 (4d6 + 8) bludgeoning damage, 7 (2d6) fire damage, and 7 (2d6) piercing damage.\nRock. Ranged weapon attack, +13 to hit, range 60/240 ft., one target. A hit deals 30 (4d10 + 8) bludgeoning damage.\nShield Charge (Recharge 5–6). Move up to 30 ft. in a straight line. The giant can pass through the spaces of creatures smaller than Huge. The first time it enters each creature's space during the move, that creature makes a DC 21 Strength save. On a failure, the creature takes 36 (8d6 + 8) bludgeoning damage and 14 (4d6) fire damage, is pushed up to 30 ft., and falls prone."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 124."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 124 · https://5e.tools/bestiary.html#fire%20giant%20dreadnought_mpmm",
-              "Plate armor (item) · https://5e.tools/items.html#plate%20armor_phb",
-              "Shield (item) · https://5e.tools/items.html#shield_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#fire%20giant%20dreadnought_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/363/1000/1000/637880557515509375.jpeg",
         "art": [
@@ -108892,7 +107704,17 @@
             "file": "/assets/library/worker-art/fire-giant-dreadnought-79b4bafe7d4dae3f.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fire_giant_dreadnought"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-2e66dca4e3839519038fc2e2",
