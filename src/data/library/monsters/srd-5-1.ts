@@ -8374,6 +8374,7 @@ export default createPublicationMonsters({
     },
     ghost: {
       name: 'Ghost',
+      reprintedIn: [refs.publications.ddep1_corruption_in_kryptgarden],
       alignment: 'any alignment',
       languages: ['any languages it knew in life'],
       stats: {

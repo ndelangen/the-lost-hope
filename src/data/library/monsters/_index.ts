@@ -20,6 +20,7 @@ import ddal04_11_the_donjon from './ddal04-11-the-donjon.ts'
 import ddal04_12_the_raven from './ddal04-12-the-raven.ts'
 import ddal04_13_the_horseman from './ddal04-13-the-horseman.ts'
 import ddal04_14_the_darklord from './ddal04-14-the-darklord.ts'
+import ddep1_corruption_in_kryptgarden from './ddep1-corruption-in-kryptgarden.ts'
 import ddep2_mulmaster_undone_v2 from './ddep2-mulmaster-undone-v2.ts'
 import ddex1_01_defiance_in_phlan from './ddex1-01-defiance-in-phlan.ts'
 import ddex1_02_secrets_of_sokol_keep from './ddex1-02-secrets-of-sokol-keep.ts'
@@ -51,6 +52,7 @@ import ddex3_13_writhing_in_the_dark from './ddex3-13-writhing-in-the-dark.ts'
 import ddex3_14_death_on_the_wall from './ddex3-14-death-on-the-wall.ts'
 import ddex3_15_szith_morcane_unbound from './ddex3-15-szith-morcane-unbound.ts'
 import ddex3_16_assault_on_maerimydra from './ddex3-16-assault-on-maerimydra.ts'
+import dragonlance_shadow_of_the_dragon_queen from './dragonlance-shadow-of-the-dragon-queen.ts'
 import dungeon_master_s_guide_2014 from './dungeon-master-s-guide-2014.ts'
 import dungeons_of_drakkenheim from './dungeons-of-drakkenheim.ts'
 import eberron_rising_from_the_last_war from './eberron-rising-from-the-last-war.ts'
@@ -66,6 +68,7 @@ import humblewood_campaign_setting from './humblewood-campaign-setting.ts'
 import icewind_dale_rime_of_the_frostmaiden from './icewind-dale-rime-of-the-frostmaiden.ts'
 import infernal_machine_rebuild from './infernal-machine-rebuild.ts'
 import journeys_through_the_radiant_citadel from './journeys-through-the-radiant-citadel.ts'
+import lost_mine_of_phandelver from './lost-mine-of-phandelver.ts'
 import minsc_and_boo_s_journal_of_villainy from './minsc-and-boo-s-journal-of-villainy.ts'
 import monster_manual_2014 from './monster-manual-2014.ts'
 import monster_manual_2024 from './monster-manual-2024.ts'
@@ -90,6 +93,7 @@ import planescape_adventures_in_the_multiverse from './planescape-adventures-in-
 import princes_of_the_apocalypse_d_d_encounters from './princes-of-the-apocalypse-d-d-encounters.ts'
 import princes_of_the_apocalypse_online_supplement from './princes-of-the-apocalypse-online-supplement.ts'
 import princes_of_the_apocalypse from './princes-of-the-apocalypse.ts'
+import quests_from_the_infinite_staircase from './quests-from-the-infinite-staircase.ts'
 import ravenloft_the_horrors_within from './ravenloft-the-horrors-within.ts'
 import rise_of_tiamat_online_supplement from './rise-of-tiamat-online-supplement.ts'
 import rise_of_tiamat from './rise-of-tiamat.ts'
@@ -109,6 +113,7 @@ import tome_of_beasts_2023 from './tome-of-beasts-2023.ts'
 import tome_of_beasts from './tome-of-beasts.ts'
 import turn_of_fortune_s_wheel from './turn-of-fortune-s-wheel.ts'
 import van_richten_s_guide_to_ravenloft from './van-richten-s-guide-to-ravenloft.ts'
+import vecna_eve_of_ruin from './vecna-eve-of-ruin.ts'
 import volo_s_guide_to_monsters from './volo-s-guide-to-monsters.ts'
 import waterdeep_dragon_heist from './waterdeep-dragon-heist.ts'
 import waterdeep_dungeon_of_the_mad_mage from './waterdeep-dungeon-of-the-mad-mage.ts'
@@ -138,6 +143,7 @@ export default [
   ddal04_12_the_raven,
   ddal04_13_the_horseman,
   ddal04_14_the_darklord,
+  ddep1_corruption_in_kryptgarden,
   ddep2_mulmaster_undone_v2,
   ddex1_01_defiance_in_phlan,
   ddex1_02_secrets_of_sokol_keep,
@@ -169,6 +175,7 @@ export default [
   ddex3_14_death_on_the_wall,
   ddex3_15_szith_morcane_unbound,
   ddex3_16_assault_on_maerimydra,
+  dragonlance_shadow_of_the_dragon_queen,
   dungeon_master_s_guide_2014,
   dungeons_of_drakkenheim,
   eberron_rising_from_the_last_war,
@@ -184,6 +191,7 @@ export default [
   icewind_dale_rime_of_the_frostmaiden,
   infernal_machine_rebuild,
   journeys_through_the_radiant_citadel,
+  lost_mine_of_phandelver,
   minsc_and_boo_s_journal_of_villainy,
   monster_manual_2014,
   monster_manual_2024,
@@ -208,6 +216,7 @@ export default [
   princes_of_the_apocalypse,
   princes_of_the_apocalypse_d_d_encounters,
   princes_of_the_apocalypse_online_supplement,
+  quests_from_the_infinite_staircase,
   ravenloft_the_horrors_within,
   rise_of_tiamat,
   rise_of_tiamat_online_supplement,
@@ -227,6 +236,7 @@ export default [
   tome_of_beasts_3,
   turn_of_fortune_s_wheel,
   van_richten_s_guide_to_ravenloft,
+  vecna_eve_of_ruin,
   volo_s_guide_to_monsters,
   waterdeep_dragon_heist,
   waterdeep_dungeon_of_the_mad_mage,

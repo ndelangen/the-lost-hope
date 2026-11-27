@@ -4947,85 +4947,23 @@
       {
         "id": "printing-c57b9605c74eb20efacf714e",
         "label": "Minsc and Boo's Journal of Villainy",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 351",
-              "Hit dice · 26d12 + 182",
-              "Challenge · 24",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 20",
-              "XP · 62000",
-              "Str · 28",
-              "Dex · 24",
-              "Con · 24",
-              "Int · 14",
-              "Wis · 16",
-              "Cha · 14"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +16", "Dex +14", "Cha +9"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "Bhaal's huge, spined Beast avatar has a biting maw, claws, and a spiked carapace."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Saves Str +16, Dex +14, Cha +9. Skills Athletics +16, Perception +10, Stealth +14. Resists necrotic. Immune to acid, cold, fire, lightning, poison, and bludgeoning, piercing, and slashing from nonmagical attacks. Immune to charmed, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned, stunned, and unconscious. Darkvision 120 ft., truesight 60 ft., passive Perception 20. Abyssal, Common, Primordial, and Undercommon."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Minsc and Boo's Journal of Villainy, chapter 3, Campaign Villains, p. 95."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Avatar of Bhaal. At 0 HP, the form breaks apart. The Slayer returns within 24 hours, 2d6 miles from the place the Ravager fell. Cull the Weak. After Ravager melee damage leaves a creature at 20 HP or less, it must pass a DC 21 Constitution save or fall to 0 HP. Immutable Form. Effects cannot change its form. Legendary Resistance, three per day. The Ravager can turn a failed save into a success. Magic Resistance. It has advantage on saves against magic. Magic Weapons. Claw, Bite, and Spines are magical attacks. Spiked Hide. At the start of the Ravager’s turn, any creature grappling it or in its grip takes 16 (3d10) piercing damage."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Use the referenced Fear aura if available, then make one Bite and two Claws, or make two Spines attacks. Claw. +16 to hit, reach 5 ft., one target. Deals 22 (3d8 + 9) slashing plus 7 (2d6) necrotic damage. Bite. +16 to hit, reach 5 ft., one target. Deals 25 (3d10 + 9) piercing plus 7 (2d6) necrotic damage. A Large or smaller creature damaged by Bite is grappled, escape DC 20. While the grapple remains, the Ravager has no other Bite attack. When either hit damages a creature, it makes a DC 21 Constitution save. Failure subtracts the damage taken from its HP maximum until Greater Restoration or comparable magic removes the reduction. It dies if that maximum falls to 0. Spines. +14 to hit at 60/120 ft., one target. Deals 17 (3d6 + 7) piercing damage. A failed DC 19 Constitution save stuns the target through the end of its next turn."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The Ravager has three legendary actions. It can use one option at the end of another creature’s turn and regains spent actions when its own turn starts. Detect. Make a Wisdom (Perception) check. Smash. Creatures in a 10-ft. cube originating from the Ravager make DC 20 Constitution saves. Failure deals 36 (8d8) thunder damage and pushes a target 5 ft. Success halves the damage and prevents the push. The sound carries 100 ft. Spiky Carapace, costs two actions. The Ravager extends its spines. A creature that starts its turn within 5 ft. makes a DC 21 Dexterity save or takes 44 (8d10) piercing damage, half on a success."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The 2021 Multiattack refers to a Fear aura with no rules in the block. Spiky Carapace has no stated end time. The separate Slayer avatar on p. 93 is Humanoid."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#bhaal%2c%20ravager_mabjov",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/bhaal-ravager-43b589aa5f43.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bhaal_ravager"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "minsc_and_boo_s_journal_of_villainy"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -6739,175 +6677,44 @@
       {
         "id": "printing-6d2678f6bef4856d1abd5dda",
         "label": "Critical Role: Call of the Netherdeep",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 52",
-              "Hit dice · 7d10 + 14",
-              "Challenge · 3",
-              "Type · Beast",
-              "Speed · 70 ft.",
-              "Passive Perception · 11",
-              "XP · 700",
-              "Str · 18",
-              "Dex · 14",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 13",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Marsh", "Foothills"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A muscular, tusked hunter with rows of long blade-shaped bristles along its back and sides."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Darkvision 60 ft. Passive Perception 11. No languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast and Critical Role, Critical Role: Call of the Netherdeep, first printing, March 2022, Appendix A, Creatures, Moorbounders, p. 203. https://www.dndbeyond.com/sources/cotn/creatures#Moorbounders"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Bladed Hide. At the start of the moorbounder’s turn, each creature that is grappling it takes 5 (2d4) piercing damage.\nStanding Leap. The moorbounder can long jump up to 40 ft. or high jump up to 20 ft. from a standstill or after a run."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Blades attack and one Claw attack.\nBlades. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 11 (2d6 + 4) slashing damage.\nClaw. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 14 (4d4 + 4) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "The bristled offshoot hunts in the marshes and muddy foothills of Xhorhas. Its sharp hide makes it a poor mount."
-            ]
-          },
-          {
-            "title": "Encounter application",
-            "lines": [
-              "In Moorbounder Mayhem on p. 43, two bristled moorbounders threaten a mounted scout. A character can spend an action to frighten one away with a successful DC 21 Charisma (Intimidation) check."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The adventure prints a standalone Beast block on p. 203. The attack is Claw in this printing."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://www.dndbeyond.com/sources/cotn/creatures#Moorbounders",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/bristled-moorbounder-30cf8b745118.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bristled_moorbounder"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "critical_role_call_of_the_netherdeep"
+          }
+        }
       },
       {
         "id": "printing-21b5f2793a2b098c29344d36",
         "label": "Explorer's Guide to Wildemount",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 52",
-              "Hit dice · 7d10 + 14",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 70 ft.",
-              "Passive Perception · 11",
-              "XP · 700",
-              "Str · 18",
-              "Dex · 14",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 13",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Muddy foothills of Xhorhas"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A bounding feline predator covered in blade-like bristles."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Darkvision 60 ft. Passive Perception 11. No languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Explorer's Guide to Wildemount, March 2020 first printing, Wildemount Bestiary, Moorbounders, p. 295. https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Bladed Hide. At the start of the moorbounder’s turn, each creature that is grappling it takes 5 (2d4) piercing damage.\nStanding Leap. The moorbounder can long jump up to 40 ft. or high jump up to 20 ft. from a standstill or after a run."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Blades attack and one Claws attack.\nBlades. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 11 (2d6 + 4) slashing damage.\nClaws. Melee weapon attack, +6 to hit, 5 ft. reach, one target. A hit deals 14 (4d4 + 4) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "The bristled offshoot hunts in the marshes and muddy foothills of Xhorhas. Its sharp hide makes it a poor mount."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "Wildemount labels the attack Claws. The later Call of the Netherdeep sheet uses Claw for the same roll."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Multiattack. Make one Blades and one Claws attack."]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#bristled%20moorbounder_egw",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/bristled-moorbounder-30cf8b745118.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bristled_moorbounder"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "explorer_s_guide_to_wildemount"
+          }
+        }
       }
     ],
     "art": [
@@ -8358,89 +8165,23 @@
       {
         "id": "printing-74a53b6ab08b506b1a590d56",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 13",
-              "Hit dice · 2d8 + 4",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 30 ft., burrow 15 ft.",
-              "Passive Perception · 11",
-              "XP · 50",
-              "Str · 13",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A low, broad badger with a striped face, coarse fur, and heavy digging claws."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Darkvision 30 ft., tremorsense 60 ft.. Passive Perception 11. No languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, Chapter 6, Blingdenstone, p. 96. Use the Giant Badger base block in the 2014 Monster Manual, p. 323, with the adventure changes below. https://www.dndbeyond.com/monsters/274103-cave-badger"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The badger has advantage on Wisdom (Perception) checks based on smell.\nTunneling. The badger leaves tunnels behind as it burrows."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +3 to hit, 5 ft. reach, one target. A hit deals 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, 5 ft. reach, one target. A hit deals 6 (2d4 + 1) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": ["The svirfneblin put these badgers to work digging in Blingdenstone."]
-          },
-          {
-            "title": "Encounter placement",
-            "lines": ["A 12 on the Blingdenstone encounter table produces 1d4 + 2 cave badgers."]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The adventure gives AC 12 from natural armor, 60 ft. tremorsense, and a 15-ft. burrow speed. Darkvision comes from the inherited Giant Badger block."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#cave%20badger_oota",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-badger-73873c0bfe4e.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cave_badger"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -9165,87 +8906,23 @@
       {
         "id": "printing-a197664d8346ec11dee8f933",
         "label": "Eberron: Rising from the Last War",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 19",
-              "Hit dice · 3d8 + 6",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 13",
-              "XP · 200",
-              "Str · 12",
-              "Dex · 16",
-              "Con · 14",
-              "Int · 4",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Grassland", "Talenta Plains", "Q’barra"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A tall-human-sized bipedal dinosaur with sharp teeth, a stiff tail, and large sickle-shaped toe claws."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3", "Stealth +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Perception +3, Stealth +5. Passive Perception 13. No languages."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Eberron: Rising from the Last War, Chapter 6, Friends and Foes, Dinosaurs, p. 289. https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The clawfoot has advantage on an attack roll against a creature if an ally is within 5 ft. of that target and the ally is not incapacitated.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claws on the same turn. It falls prone if it fails a DC 11 Strength save. The clawfoot can then Bite that target once as a bonus action if it is prone."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 7 (1d8 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit, 5 ft. reach, one target. A hit deals 7 (1d8 + 3) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "Clawfoots hunt larger prey, often in packs. Talenta halflings train these dinosaurs as war mounts."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": ["Charisma is 6 (−2) in the printed block. The indexed summary gives 10."]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#clawfoot_erlw",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/clawfoot-906e39e0317f.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clawfoot"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "eberron_rising_from_the_last_war"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -13024,71 +12701,17 @@
       {
         "id": "printing-4943b515f2bd985e1b52a985",
         "label": "Flee, Mortals!",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 68",
-              "Hit dice · 8d10 + 24",
-              "Challenge · 3",
-              "Type · Beast",
-              "Speed · 20 ft., fly 90 ft.",
-              "XP · 700",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 6",
-              "Wis · 12",
-              "Cha · 5"
-            ]
+        "source": "https://www.dndbeyond.com/monsters/4485822-dire-bird-of-prey-large",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dire_bird_of_prey_large"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Athletics +5, Perception +5. Passive Perception 15. No languages."
-            ]
-          },
-          {
-            "title": "Role",
-            "lines": ["Skirmisher"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Exceptional Vision. Add +10 to Wisdom (Perception) checks that use sight.\nFlyby. Flying out of an enemy’s reach provokes no opportunity attack.\nHigh-Speed Dive (recharges after a short or long rest). After descending at least 30 ft. on its turn, the bird can Dash as a bonus action. If it does, it has advantage on its next attack that turn."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks, choosing Heavy Beak or Rending Talons for each.\nHeavy Beak. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage. A critical hit leaves the target Dazed until the start of the bird’s next turn.\nRending Talons. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage. The bird grapples a Medium or smaller creature it hits (escape DC 13). While grappling, the bird can attack only that target and has advantage on Heavy Beak attacks against it. The target takes 4 (1d8) slashing damage each time it makes a check to end the grapple.\nCrushing Grip. One target the bird is grappling makes a DC 13 Strength save against 17 (5d6) bludgeoning damage. It takes half on a success. Failure by 5 or more also leaves the target Dazed until the end of its next turn."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": ["Spot. Make a Wisdom (Perception) check."]
-          },
-          {
-            "title": "Dazed (MCDM)",
-            "lines": [
-              "A Dazed creature can do one of the following on its turn: move, take an action, or take a bonus action. If it becomes Dazed during its turn, the turn ends. Extra actions granted by effects such as Haste or Action Surge remain available. Cure Ailment, Lesser Restoration, and Greater Restoration remove the condition. The GM can allow other remedies."
-            ]
-          },
-          {
-            "title": "Optional Bird Features",
-            "lines": [
-              "Alternate Crushing Grip (eagle or falcon). If you choose this version, use it in place of the built-in Crushing Grip. As an action, choose a creature the bird is grappling or attached to. The target makes a DC 13 Strength save against 7 (2d6) bludgeoning damage, taking half on a success.\nAerial Pursuit (merlin, replaces High-Speed Dive, recharges after a short or long rest). When the bird starts its turn airborne, it can triple its flying speed for that turn. If it descends at least 30 ft., it has advantage on its next attack that turn.\nAgile Flyer (kite, harrier, or hawk). While airborne, add +5 to Dexterity saves and Dexterity (Acrobatics) checks.\nDecapitating Strike (eagle or owl). A critical hit against a Tiny target removes its head. The target dies if it needs that head to survive.\nGlide (condor or golden eagle). The bird can finish a short rest while flying horizontally.\nNight Hunter (owl or letter-winged kite). Gain darkvision 120 ft. and +5 to Dexterity (Stealth) checks.\nOcean Hunter (osprey). If the bird starts its turn above water, underwater combat imposes no disadvantage on its attacks until that turn ends.\nPowerful Impact (falcon, +1 CR). Descending at least 20 ft. immediately before hitting with Talons or Rending Talons on that turn adds 7 (2d6) bludgeoning damage.\nScavenger’s Resilience (vulture or caracara). Gain advantage on Constitution saves and resistance to poison damage.\nWind Hover (kestrel or osprey). The bird can hover."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "flee_mortals"
           }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
-        "source": "https://www.dndbeyond.com/monsters/4485822-dire-bird-of-prey-large"
+        }
       }
     ],
     "groups": ["Beast"],
@@ -13113,71 +12736,17 @@
       {
         "id": "printing-bb800d3edde48a5b3c8130d8",
         "label": "Flee, Mortals!",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 68",
-              "Hit dice · 8d10 + 24",
-              "Challenge · 3",
-              "Type · Beast",
-              "Speed · 20 ft., fly 90 ft.",
-              "XP · 700",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 6",
-              "Wis · 12",
-              "Cha · 5"
-            ]
+        "source": "https://www.dndbeyond.com/monsters/4485823-dire-bird-of-prey-medium",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dire_bird_of_prey_medium"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Athletics +5, Perception +5. Passive Perception 15. No languages."
-            ]
-          },
-          {
-            "title": "Role",
-            "lines": ["Skirmisher"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Exceptional Vision. Add +10 to Wisdom (Perception) checks that use sight.\nFlyby. Flying out of an enemy’s reach provokes no opportunity attack.\nHigh-Speed Dive (recharges after a short or long rest). After descending at least 30 ft. on its turn, the bird can Dash as a bonus action. If it does, it has advantage on its next attack that turn."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks, choosing Heavy Beak or Rending Talons for each.\nHeavy Beak. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage. A critical hit leaves the target Dazed until the start of the bird’s next turn.\nRending Talons. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage. The bird grapples a Medium or smaller creature it hits (escape DC 13). While grappling, the bird can attack only that target and has advantage on Heavy Beak attacks against it. The target takes 4 (1d8) slashing damage each time it makes a check to end the grapple.\nCrushing Grip. One target the bird is grappling makes a DC 13 Strength save against 17 (5d6) bludgeoning damage. It takes half on a success. Failure by 5 or more also leaves the target Dazed until the end of its next turn."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": ["Spot. Make a Wisdom (Perception) check."]
-          },
-          {
-            "title": "Dazed (MCDM)",
-            "lines": [
-              "A Dazed creature can do one of the following on its turn: move, take an action, or take a bonus action. If it becomes Dazed during its turn, the turn ends. Extra actions granted by effects such as Haste or Action Surge remain available. Cure Ailment, Lesser Restoration, and Greater Restoration remove the condition. The GM can allow other remedies."
-            ]
-          },
-          {
-            "title": "Optional Bird Features",
-            "lines": [
-              "Alternate Crushing Grip (eagle or falcon). If you choose this version, use it in place of the built-in Crushing Grip. As an action, choose a creature the bird is grappling or attached to. The target makes a DC 13 Strength save against 7 (2d6) bludgeoning damage, taking half on a success.\nAerial Pursuit (merlin, replaces High-Speed Dive, recharges after a short or long rest). When the bird starts its turn airborne, it can triple its flying speed for that turn. If it descends at least 30 ft., it has advantage on its next attack that turn.\nAgile Flyer (kite, harrier, or hawk). While airborne, add +5 to Dexterity saves and Dexterity (Acrobatics) checks.\nDecapitating Strike (eagle or owl). A critical hit against a Tiny target removes its head. The target dies if it needs that head to survive.\nGlide (condor or golden eagle). The bird can finish a short rest while flying horizontally.\nNight Hunter (owl or letter-winged kite). Gain darkvision 120 ft. and +5 to Dexterity (Stealth) checks.\nOcean Hunter (osprey). If the bird starts its turn above water, underwater combat imposes no disadvantage on its attacks until that turn ends.\nPowerful Impact (falcon, +1 CR). Descending at least 20 ft. immediately before hitting with Talons or Rending Talons on that turn adds 7 (2d6) bludgeoning damage.\nScavenger’s Resilience (vulture or caracara). Gain advantage on Constitution saves and resistance to poison damage.\nWind Hover (kestrel or osprey). The bird can hover."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "flee_mortals"
           }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
-        "source": "https://www.dndbeyond.com/monsters/4485823-dire-bird-of-prey-medium"
+        }
       }
     ],
     "groups": ["Beast"],
@@ -17456,103 +17025,23 @@
       {
         "id": "printing-97c9ca2523db72282a9522ae",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 40 ft., climb 40 ft.",
-              "Passive Perception · 13",
-              "XP · 100",
-              "Str · 12",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "forest", "hill", "desert", "coastal"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A mottled brown hunting spider with striped legs. The adventure describes the former drow servants as burning with baleful energy."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3", "Stealth +7"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +3, Stealth +7. Blindsight 10 ft., darkvision 60 ft.. Passive Perception 13. No languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, Chapter 6, Blingdenstone, p. 97. Use the Giant Wolf Spider base block in the 2014 Monster Manual, p. 330, with the adventure changes below. https://www.dndbeyond.com/monsters/274108-fiendish-giant-spider"
-            ]
-          },
-          {
-            "title": "Defenses",
-            "lines": [
-              "Resists cold, fire, and lightning damage. Immune to poison damage and the poisoned condition."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The spider climbs difficult surfaces and crosses ceilings upside down without an ability check.\nWeb Sense. Touching a web tells the spider the exact location of every other creature touching that web.\nWeb Walker. Webbing imposes no movement restrictions on the spider."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +3 to hit, 5 ft. reach, one creature. A hit deals 4 (1d6 + 1) piercing damage. The creature makes a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failure or half on a success. If this poison drops it to 0 HP, it is stable and poisoned for 1 hour, even if it regains HP. It is paralyzed while poisoned this way."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "Former servants of the drow turn up among the tunnels and ruins of Blingdenstone."
-            ]
-          },
-          {
-            "title": "Encounter placement",
-            "lines": [
-              "A 15 on the Blingdenstone encounter table produces 1d4 + 2 fiendish giant spiders."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The adventure changes challenge and defenses. The 2014 Giant Wolf Spider base retains the Medium Beast type and unaligned alignment. D&D Beyond independently lists the adventure entry as a Beast."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#fiendish%20giant%20spider_oota",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-wolf-spider-771ba99eb9e4.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fiendish_giant_spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -38599,109 +38088,23 @@
       {
         "id": "printing-f326e5a5976ba719b5d67a45",
         "label": "Critical Role: Call of the Netherdeep",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 126",
-              "Hit dice · 11d12 + 55",
-              "Challenge · 5",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 0 ft., swim 50 ft.",
-              "Passive Perception · 13",
-              "XP · 1800",
-              "Str · 23",
-              "Dex · 11",
-              "Con · 21",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underwater"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A massive slate-gray shark with a silver spear lodged in its side. A thick rope holds a gold-and-emerald amulet to its body."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Perception +3. Blindsight 60 ft. Passive Perception 13. No languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast and Critical Role, Critical Role: Call of the Netherdeep, first printing, March 2022, Chapter 1, A Fateful Competition, E10 Moonshark Lair, p. 33. Use the Giant Shark base block in the 2014 Monster Manual, p. 328. https://www.dndbeyond.com/sources/cotn/a-fateful-competition#TheEmeraldGrotto"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Blood Frenzy. The shark has advantage on melee attack rolls against creatures below their hit point maximum.\nWater Breathing. The shark breathes only underwater.\nSilver Spear. While the spear is lodged in its side, the shark sheds bright silver light within 10 ft. and dim light for another 10 ft. A character within 5 ft. can use an action to dislodge the spear with a successful DC 13 Strength (Athletics) check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +9 to hit, 5 ft. reach, one target. A hit deals 22 (3d10 + 6) piercing damage."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Spear-assisted swim. While the spear is embedded, if the shark uses its action to Bite and misses, it can spend a bonus action to swim up to 25 ft. This movement does not provoke opportunity attacks."
-            ]
-          },
-          {
-            "title": "Emerald Eye",
-            "lines": [
-              "The rope holding the amulet has AC 17 and 5 HP, and characters can attack it to cut the amulet free. If the shark is dead or incapacitated, a character can remove the rope as an action."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "The Moonshark prowls the final chamber of Jigow’s Emerald Grotto. It attacks creatures entering its chamber."
-            ]
-          },
-          {
-            "title": "Encounter application",
-            "lines": [
-              "If the party crossed the grotto in 10 rounds or fewer, the rivals arrive after the shark encounter. At 11 to 15 rounds, the rivals enter and roll initiative in round 3. Unless hostile to the characters, they help fight the shark. Hostile rivals pursue the amulet or interfere with the characters without intentionally killing them. At 16 rounds or more, the rivals arrive first and reduce the shark to 75 HP before the characters roll initiative. At 0 HP the shark knocks over the southern pillar, breaking open the passage to E11."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The adventure inherits the Giant Shark block and gives effects tied to a removable spear. The Huge Beast classification comes from the 2014 parent block."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#moonshark_crcotn",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/moonshark-4e3205d21ccd.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "moonshark"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "critical_role_call_of_the_netherdeep"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -52243,97 +51646,23 @@
       {
         "id": "printing-8b6554c5a7e35587263bcbd4",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 20 ft., burrow 5 ft., climb 20 ft.",
-              "Passive Perception · 8",
-              "Initiative · 1",
-              "XP · 100",
-              "Str · 3",
-              "Dex · 13",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 7",
-              "Cha · 1"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Leaf litter", "Rotting wood", "Burrows"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A mass of dark, bronze-backed beetles with hard rounded wing cases and low scrambling legs."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium swarm of Tiny Beasts, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Resistant to bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. Blindsight 10 ft. Passive Perception 8. No listed languages or skills."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, first printing (September 2014), p. 338. https://www.dndbeyond.com/sources/dnd/mm-2014 Use the Swarm of Insects block with the sidebar’s Swarm of Beetles variant."
-            ]
-          },
-          {
-            "title": "Errata",
-            "lines": [
-              "Monster Manual errata v2.0 adds immunity to grappled for swarms on pp. 337–339."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Swarm. Other creatures can share the swarm’s space, and it can share theirs. It can pass through any opening that admits a Tiny insect. The swarm cannot regain HP or gain temporary HP."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bites. Melee weapon attack, +3 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) when the swarm has half its HP or fewer."
-            ]
-          },
-          {
-            "title": "Insect swarm variant",
-            "lines": ["Burrowing speed 5 ft. The swarm keeps its 20-ft. walk and 20-ft. climb."]
-          },
-          {
-            "title": "Insect Swarm Subtypes",
-            "lines": [
-              "Beetles add a 10-foot burrow speed. Centipedes can poison and paralyze a creature reduced to 0 hit points by their bites for one hour and leave it stable.",
-              "Spiders gain a 20-foot climb speed and web sensing, web walking, and wall climbing. Wasps walk 5 feet, fly 30 feet, and lose the climb speed."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Swarm of Insects"]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://www.dndbeyond.com/monsters/301407-swarm-of-insects-beetles",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/swarm-of-beetles-02360d39e5f8.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "swarm_of_insects_beetles"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       }
     ],
     "art": [
@@ -52393,99 +51722,23 @@
       {
         "id": "printing-4f1dfce9eb882c70650a2081",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 20 ft., climb 20 ft.",
-              "Passive Perception · 8",
-              "Initiative · 1",
-              "XP · 100",
-              "Str · 3",
-              "Dex · 13",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 7",
-              "Cha · 1"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Leaf litter", "Damp crevices", "Caves"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A mass of amber-brown centipedes with long segmented bodies, fine antennae and many quick legs."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium swarm of Tiny Beasts, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Resistant to bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. Blindsight 10 ft. Passive Perception 8. No listed languages or skills."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, first printing (September 2014), p. 338. https://www.dndbeyond.com/sources/dnd/mm-2014 Use the Swarm of Insects block with the sidebar’s Swarm of Centipedes variant."
-            ]
-          },
-          {
-            "title": "Errata",
-            "lines": [
-              "Monster Manual errata v2.0 adds immunity to grappled for swarms on pp. 337–339."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Swarm. Other creatures can share the swarm’s space, and it can share theirs. It can pass through any opening that admits a Tiny insect. The swarm cannot regain HP or gain temporary HP."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bites. Melee weapon attack, +3 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) when the swarm has half its HP or fewer."
-            ]
-          },
-          {
-            "title": "Insect swarm variant",
-            "lines": [
-              "A creature this swarm reduces to 0 HP becomes stable and poisoned for 1 hour. The poison persists if the creature regains HP. The creature is paralyzed while poisoned by this effect."
-            ]
-          },
-          {
-            "title": "Insect Swarm Subtypes",
-            "lines": [
-              "Beetles add a 10-foot burrow speed. Centipedes can poison and paralyze a creature reduced to 0 hit points by their bites for one hour and leave it stable.",
-              "Spiders gain a 20-foot climb speed and web sensing, web walking, and wall climbing. Wasps walk 5 feet, fly 30 feet, and lose the climb speed."
-            ]
-          },
-          {
-            "title": "Base profiles",
-            "lines": ["Swarm of Insects"]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://www.dndbeyond.com/monsters/301411-swarm-of-insects-centipedes",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/swarm-of-centipedes-577be4022202.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "swarm_of_insects_centipedes"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       }
     ],
     "art": [
@@ -55056,91 +54309,23 @@
       {
         "id": "printing-b6540d749e445b9d86cbdde3",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 10",
-              "Hit dice · 3d4 + 3",
-              "Challenge · 1/4",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 30 ft.",
-              "Passive Perception · 13",
-              "XP · 50",
-              "Str · 6",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 4",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "grassland"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A feathered, rust-and-cream biped with a narrow snout and long, nearly level tail."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast (Dinosaur), unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Proficiency bonus +2. Perception +3. Passive Perception 13. No languages."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, October 2021, Chapter 2, Dinosaurs, stat block p. 96, creature account p. 95. https://www.dndbeyond.com/monsters/2560950-velociraptor"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The velociraptor rolls with advantage to attack a creature if it has an ally within 5 ft. of that creature and that ally is not incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite attack and one Claw attack.\nBite. Melee weapon attack, +4 to hit, 5 ft. reach, one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 4 (1d4 + 2) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "About the size of a large turkey, this feathered predator often hunts in packs to take larger prey."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The creature account begins in the right column of p. 95. The full stat block is in the lower right column of p. 96."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#velociraptor_mpmm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/velociraptor-921867b38a33.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "velociraptor"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-18d239ca9a3f242bde5ab901",
@@ -58664,95 +57849,23 @@
       {
         "id": "printing-366ecc8dd97b4e7ca2b1c729",
         "label": "Critical Role: Call of the Netherdeep",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 68",
-              "Hit dice · 8d12 + 16",
-              "Challenge · 3",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 30 ft.",
-              "Passive Perception · 11",
-              "XP · 700",
-              "Str · 19",
-              "Dex · 11",
-              "Con · 15",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Wetlands", "Fields"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A fifteen-foot-tall tortoise with a high dome of overlapping shell plates, a thick beaked head, and sturdy legs."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Passive Perception 11. Understands Goblin but cannot speak."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast and Critical Role, Critical Role: Call of the Netherdeep, first printing, March 2022, Chapter 1, A Fateful Competition, J6 Herding the Horizonbacks, p. 26. Use the Ankylosaurus base block in the 2014 Monster Manual, p. 79. https://www.dndbeyond.com/sources/cotn/a-fateful-competition#AdventureStart"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The tortoise can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +7 to hit, 10 ft. reach, one target. A hit deals 18 (4d6 + 4) piercing damage. A creature hit must succeed on a DC 14 Strength save or fall prone."
-            ]
-          },
-          {
-            "title": "Base-block action",
-            "lines": [
-              "The inherited Ankylosaurus Tail is a +7 melee weapon attack with 10 ft. reach against one target. It deals 18 (4d6 + 4) bludgeoning damage. A creature hit must succeed on a DC 14 Strength save or fall prone."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "Jigow’s young horizonbacks move from a paddock to fields west of the Jumble, where they start training as mounts and mobile buildings."
-            ]
-          },
-          {
-            "title": "Encounter application",
-            "lines": [
-              "Maneuvering a tortoise takes three successful Wisdom (Animal Handling) checks, starting at DC 12 and increasing by 1 after each check. On a failed check, it bucks the rider, who must make a DC 13 Dexterity save or fall for 3 (1d6) bludgeoning damage. Remounting requires a DC 15 Dexterity (Acrobatics) check. Failure prompts a Bite. A tortoise charmed through animal friendship or a similar effect does not buck its handler on a failed check, and the handler has advantage on checks to guide it."
-            ]
-          },
-          {
-            "title": "Source notes",
-            "lines": [
-              "The printed variant gives the tortoise a Bite modeled on the 2014 Ankylosaurus Tail. The adventure describes use of Bite and never expressly removes Tail. The indexed summary presents Bite alone. The Huge Beast classification comes from the parent block."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#young%20horizonback%20tortoise_crcotn",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/young-horizonback-tortoise-c0476e776f50.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_horizonback_tortoise"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "critical_role_call_of_the_netherdeep"
+          }
+        }
       }
     ],
     "groups": ["Beast"]

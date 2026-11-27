@@ -1,0 +1,71 @@
+import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
+import { createPublicationMonsters } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
+
+export default createPublicationMonsters({
+  publication: refs.publications.ddep1_corruption_in_kryptgarden,
+  monsters: {
+    red_wizard: {
+      name: 'Red Wizard',
+      tags: ['human'],
+      alignment: 'chaotic neutral',
+      languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish'],
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '2',
+        ac: 12,
+        hitDice: '5d8',
+        speed: { walk: 30 },
+        scores: { str: 9, dex: 14, con: 11, int: 17, wis: 12, cha: 11 },
+        saves: { int: 'proficient', wis: 'proficient' },
+        skills: { arcana: 'proficient', history: 'proficient' },
+        abilities: [
+          {
+            key: 'spellcasting',
+            name: 'Spellcasting',
+            timing: 'trait',
+            icon: 'gi/GiWizardStaff',
+            text: [
+              'Spellcasting. The red wizard is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save ',
+              { dc: 'int' },
+              ', ',
+              { toHit: 'int' },
+              ' to hit with spell attacks). The mage has the following wizard spells prepared: Cantrips (at will): ',
+              refs.spells.light_srd_5_1,
+              ', ',
+              refs.spells.mage_hand_srd_5_1,
+              ', ',
+              refs.spells.shocking_grasp_srd_5_1,
+              '; 1st level (4 slots): ',
+              refs.spells.charm_person_srd_5_1,
+              ', ',
+              refs.spells.mage_armor_srd_5_1,
+              ', ',
+              refs.spells.magic_missile_srd_5_1,
+              '; 2nd level (3 slots): ',
+              refs.spells.hold_person_srd_5_1,
+              ', ',
+              refs.spells.misty_step_srd_5_1,
+            ],
+          },
+          {
+            key: 'quarterstaff',
+            name: 'Quarterstaff',
+            timing: 'action',
+            icon: 'gi/GiWizardStaff',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d8', type: rules.bludgeoning, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
+  },
+})

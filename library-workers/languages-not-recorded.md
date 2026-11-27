@@ -6,68 +6,114 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Bigby Presents: Glory of the Giants: Giant Ram
 - Bigby Presents: Glory of the Giants: Gigant
 - Bigby Presents: Glory of the Giants: Regisaur
+- Curse of Strahd: Cat Skeleton
+- Dungeons of Drakkenheim: Eoghan Ghostweaver
 - Dungeons of Drakkenheim: Gutbuster Haze Hulk
 - Dungeons of Drakkenheim: Haze Hulk
 - Dungeons of Drakkenheim: Hunter Haze Hulk
 - Dungeons of Drakkenheim: Juggernaut Haze Hulk
+- Dungeons of Drakkenheim: Lenore von Kessel
 - Dungeons of Drakkenheim: Lord of the Feast
+- Dungeons of Drakkenheim: Minazorond
 - Dungeons of Drakkenheim: Scoundrel
 - Dungeons of Drakkenheim: Wall Gargoyle
+- Dungeons of Drakkenheim: Warp Witch
 - Flee, Mortals! public preview: Overmind
+- Flee, Mortals! public preview: Xorannox
 - Flee, Mortals!: Angulotl Blade
 - Flee, Mortals!: Angulotl Needler
 - Flee, Mortals!: Angulotl Seer
+- Flee, Mortals!: Anthracia, Princess of Venom
 - Flee, Mortals!: Aronar Valkys
 - Flee, Mortals!: Athmia Valkys
+- Flee, Mortals!: Aurumvas
 - Flee, Mortals!: Bloodlord Varrox
+- Flee, Mortals!: Boog
 - Flee, Mortals!: Bredbeddle
 - Flee, Mortals!: Caithas
+- Flee, Mortals!: Canon Athenodorus
+- Flee, Mortals!: Ceemal
 - Flee, Mortals!: Chimeron
+- Flee, Mortals!: Count Rhodar von Glauer
 - Flee, Mortals!: Devil Adjudicator
 - Flee, Mortals!: Devil Jurist
 - Flee, Mortals!: Devil Legate
 - Flee, Mortals!: Devil Magistrate
 - Flee, Mortals!: Dohma Raskovar
+- Flee, Mortals!: Draven Malas
+- Flee, Mortals!: Durixaviinox
 - Flee, Mortals!: Excess
+- Flee, Mortals!: Forzaantilirys
 - Flee, Mortals!: Frost Giant Wind Sprinter
 - Flee, Mortals!: Gnoll Abyssal Archer
 - Flee, Mortals!: Gnoll Abyssal Summoner
 - Flee, Mortals!: Gnoll Bonesplitter
 - Flee, Mortals!: Gnoll Cackler
 - Flee, Mortals!: Gnoll Marauder
+- Flee, Mortals!: Green Hag (MCDM)
 - Flee, Mortals!: Grilp
 - Flee, Mortals!: Halorin Yandres
+- Flee, Mortals!: Harlo Honeygrin
 - Flee, Mortals!: Harpy (MCDM)
+- Flee, Mortals!: Hobgoblin Death Captain
+- Flee, Mortals!: Hobgoblin Firerunner
+- Flee, Mortals!: Hobgoblin Incendiarist
+- Flee, Mortals!: Hobgoblin Smokebinder
+- Flee, Mortals!: Hobgoblin Trooper
+- Flee, Mortals!: Hobgoblin War Mage
 - Flee, Mortals!: Hulking Brain
 - Flee, Mortals!: Human Brawler
 - Flee, Mortals!: Human Death Cultist
 - Flee, Mortals!: Human Knave
 - Flee, Mortals!: Human Raider
 - Flee, Mortals!: Human Scoundrel
+- Flee, Mortals!: Human Storm Wizard
 - Flee, Mortals!: Human Trickshot
+- Flee, Mortals!: Infernal Chancellor Lazivos
+- Flee, Mortals!: Ithu’rath
 - Flee, Mortals!: Jedar Pike
 - Flee, Mortals!: Klar
 - Flee, Mortals!: Kobold Veles
+- Flee, Mortals!: Kobold Venator
+- Flee, Mortals!: Lady Avalla Deseo
 - Flee, Mortals!: Lestheris Soldrei
 - Flee, Mortals!: Lizardfolk Bloodeye
 - Flee, Mortals!: Lizardfolk Scaletooth
 - Flee, Mortals!: Lizardfolk Terrorsaur
 - Flee, Mortals!: Lord Erasmus Deseo
+- Flee, Mortals!: Lord Syuul
 - Flee, Mortals!: Marvorok
 - Flee, Mortals!: Medusa (MCDM)
 - Flee, Mortals!: Mindkiller
 - Flee, Mortals!: Minotaur (MCDM)
+- Flee, Mortals!: Night Hag (MCDM)
 - Flee, Mortals!: Otyugh (MCDM)
+- Flee, Mortals!: Overmind
 - Flee, Mortals!: Qar, Master of Jackals
+- Flee, Mortals!: Ruinant
+- Flee, Mortals!: Sair
+- Flee, Mortals!: Sea Hag (MCDM)
+- Flee, Mortals!: Shtriga Nonna
+- Flee, Mortals!: Slaughter Demon
+- Flee, Mortals!: Swamp Dryad
+- Flee, Mortals!: Sylphise
 - Flee, Mortals!: Time Raider Armiger
 - Flee, Mortals!: Time Raider Nemesis
+- Flee, Mortals!: Time Raider Vertex
+- Flee, Mortals!: Tormenauk
 - Flee, Mortals!: Troll (MCDM)
 - Flee, Mortals!: Vali
 - Flee, Mortals!: Vivienn Dirroze
+- Flee, Mortals!: Voiceless Talker
+- Flee, Mortals!: Voiceless Talker Artillerist
+- Flee, Mortals!: Wobalas
+- Flee, Mortals!: Xorannox
+- Ghosts of Saltmarsh: Bodak
 - Ghosts of Saltmarsh: Fathomer
 - Ghosts of Saltmarsh: Sea Hag (Coven Variant)
 - Guildmasters’ Guide to Ravnica: Skyswimmer
 - Humblewood Campaign Setting: Cervan Bandit General
+- Minsc and Boo's Journal of Villainy: Bhaal, Ravager
 - Monster Manual (2014): Abominable Yeti
 - Monster Manual (2014): Adult Red Dragon
 - Monster Manual (2014): Beholder
@@ -89,6 +135,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2014): Goblin Boss
 - Monster Manual (2014): Gorgon
 - Monster Manual (2014): Hippogriff
+- Monster Manual (2014): Lich
 - Monster Manual (2014): Orog
 - Monster Manual (2014): Phase Spider
 - Monster Manual (2024): Animated Broom
@@ -99,6 +146,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2024): Cockatrice
 - Monster Manual (2024): Cockatrice Regent
 - Monster Manual (2024): Darkmantle
+- Monster Manual (2024): Demilich
 - Monster Manual (2024): Ettercap
 - Monster Manual (2024): Flying Snake
 - Monster Manual (2024): Gas Spore Fungus
@@ -126,6 +174,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2024): Wyvern
 - Mordenkainen Presents: Monsters of the Multiverse: Catoblepas
 - Mordenkainen Presents: Monsters of the Multiverse: Cave Fisher
+- Mordenkainen Presents: Monsters of the Multiverse: Elder Tempest
 - Mordenkainen Presents: Monsters of the Multiverse: Female Steeder
 - Mordenkainen Presents: Monsters of the Multiverse: Flail Snail
 - Mordenkainen Presents: Monsters of the Multiverse: Giant Strider
@@ -141,6 +190,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Mythic Odysseys of Theros: Polukranos
 - Mythic Odysseys of Theros: Two-Headed Cerberus
 - Plane Shift: Zendikar: Drake (Large)
+- Plane Shift: Zendikar: Emrakul
 - Planescape: Adventures in the Multiverse: Pixie
 - Spelljammer: Adventures in Space: Brown Scavver
 - Spelljammer: Adventures in Space: Chwinga Astronaut
@@ -170,6 +220,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - The Wild Beyond the Witchlight: Displacer Beast Kitten
 - The Wild Beyond the Witchlight: Glasswork Golem
 - The Wild Beyond the Witchlight: Gloam
+- The Wild Beyond the Witchlight: Jabberwock
 - The Wild Beyond the Witchlight: Paper Bird
 - The Wild Beyond the Witchlight: Pixie
 - Tomb of Annihilation: Chwinga
@@ -195,23 +246,47 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Waterdeep: Dragon Heist: Terenzio Cassalanter
 - Waterdeep: Dungeon of the Mad Mage: Haungharassk
 - Where Evil Lives: Amalgam
+- Where Evil Lives: Aurumvas
 - Where Evil Lives: Bloodlord Varrox
 - Where Evil Lives: Chimeron
+- Where Evil Lives: Count Rhodar von Glauer
 - Where Evil Lives: Devil Adjudicator
 - Where Evil Lives: Devil Jurist
 - Where Evil Lives: Devil Legate
 - Where Evil Lives: Devil Magistrate
 - Where Evil Lives: Dohma Raskovar
+- Where Evil Lives: Durixaviinox
+- Where Evil Lives: Forzaantilirys
 - Where Evil Lives: Frost Giant Wind Sprinter
 - Where Evil Lives: Gnoll Bonesplitter
 - Where Evil Lives: Grilp
+- Where Evil Lives: Hobgoblin Death Captain
+- Where Evil Lives: Hobgoblin Firerunner
+- Where Evil Lives: Hobgoblin Incendiarist
+- Where Evil Lives: Hobgoblin Smokebinder
+- Where Evil Lives: Hobgoblin Trooper
+- Where Evil Lives: Hobgoblin War Mage
 - Where Evil Lives: Hulking Brain
 - Where Evil Lives: Human Brawler
 - Where Evil Lives: Human Death Cultist
 - Where Evil Lives: Human Knave
 - Where Evil Lives: Human Raider
 - Where Evil Lives: Human Scoundrel
+- Where Evil Lives: Human Storm Wizard
 - Where Evil Lives: Human Trickshot
+- Where Evil Lives: Infernal Chancellor Lazivos
+- Where Evil Lives: Ithu’rath
+- Where Evil Lives: Lord Syuul
 - Where Evil Lives: Mindkiller
+- Where Evil Lives: Night Hag (MCDM)
+- Where Evil Lives: Ruinant
+- Where Evil Lives: Shtriga Nonna
+- Where Evil Lives: Slaughter Demon
+- Where Evil Lives: Swamp Dryad
 - Where Evil Lives: Time Raider Nemesis
+- Where Evil Lives: Tormenauk
 - Where Evil Lives: Troll (MCDM)
+- Where Evil Lives: Voiceless Talker
+- Where Evil Lives: Voiceless Talker Artillerist
+- Where Evil Lives: Wobalas
+- Where Evil Lives: Xorannox

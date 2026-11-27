@@ -7,6 +7,64 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.infernal_machine_rebuild,
   monsters: {
+    tiefling_muralist: {
+      name: 'Tiefling Muralist',
+      alignment: 'lawful neutral chaotic neutral evil',
+      languages: [
+        'any one language (usually Common)',
+        'Infernal',
+        'any one language (usually Common)',
+        'Infernal',
+      ],
+      tableNotes: [
+        ['Applied the named source templates to the base creature.'],
+        ['Base creature: Cultist'],
+        ['Applied templates: Tiefling'],
+      ],
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '1/8',
+        ac: 12,
+        hitDice: '2d8',
+        speed: { walk: 30 },
+        scores: { str: 11, dex: 12, con: 10, int: 10, wis: 11, cha: 10 },
+        skills: { deception: 'proficient', religion: 'proficient' },
+        senses: { darkvision: 60 },
+        damageResistances: [rules.fire],
+        abilities: [
+          {
+            key: 'dark-devotion',
+            name: 'Dark Devotion',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The cultist has advantage on saving throws against being ',
+              rules.charmed,
+              ' or ',
+              rules.frightened,
+              '.',
+            ],
+          },
+          {
+            key: 'scimitar',
+            name: 'Scimitar',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.slashing, addModifier: true }],
+            },
+            text: [
+              'Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices.',
+            ],
+          },
+        ],
+      },
+    },
     two_headed_crocodile: {
       name: 'Two-Headed Crocodile',
       page: 89,

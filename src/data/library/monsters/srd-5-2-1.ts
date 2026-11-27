@@ -15626,6 +15626,99 @@ export default createPublicationMonsters({
         ],
       },
     },
+    rakshasa: {
+      name: 'Rakshasa',
+      alignment: 'lawful evil',
+      languages: ['Common', 'Infernal'],
+      tableNotes: [
+        [
+          'Vulnerabilities: Piercing damage from weapons wielded by creatures under the effect of a Bless spell.',
+        ],
+      ],
+      stats: {
+        size: 'medium',
+        type: 'fiend',
+        cr: '13',
+        ac: 17,
+        hitDice: '26d8',
+        speed: { walk: 40 },
+        scores: { str: 14, dex: 17, con: 18, int: 13, wis: 16, cha: 20 },
+        initiative: 'proficient',
+        skills: { deception: 'proficient', insight: 'proficient', perception: 'proficient' },
+        senses: { truesight: 60 },
+        conditionImmunities: [rules.charmed, rules.frightened],
+        abilities: [
+          {
+            key: 'greater-magic-resistance',
+            name: 'Greater Magic Resistance',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The rakshasa automatically succeeds on saving throws against spells and other magical effects, and the attack rolls of spells automatically miss it. Without the rakshasa’s permission, no spell can observe the rakshasa remotely or detect its thoughts, creature type, or alignment.',
+            ],
+          },
+          {
+            key: 'fiendish-restoration',
+            name: 'Fiendish Restoration',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'If the rakshasa dies outside the Nine Hells, its body turns to ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['The rakshasa makes three ', { ability: 'cursed-touch' }, ' attacks.'],
+          },
+          {
+            key: 'cursed-touch',
+            name: 'Cursed Touch',
+            timing: 'action',
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'cha',
+              reach: 5,
+              damage: [
+                { dice: '2d6', type: rules.slashing, addModifier: true },
+                { dice: '3d12', type: rules.necrotic },
+              ],
+            },
+            text: [
+              'If the target is a creature, it is cursed. While cursed, the target gains no benefit from finishing a Short or Long Rest.',
+            ],
+          },
+          {
+            key: 'baleful-command',
+            name: 'Baleful Command',
+            timing: 'action',
+            icon: 'gi/GiMagicSwirl',
+            intent: 'damage',
+            save: {
+              ability: 'wis',
+              dc: 'cha',
+              target: { area: { shape: rules.emanation, size: 30 } },
+              onFail: {
+                damage: [{ dice: '8d6', type: rules.psychic }],
+                also: [
+                  'The target has the ',
+                  rules.frightened,
+                  ' and ',
+                  rules.incapacitated,
+                  ' conditions until the start of the rakshasa’s next turn.',
+                ],
+              },
+            },
+            uses: 1,
+            recharge: 'Recharge 5–6',
+          },
+        ],
+      },
+    },
     rat: {
       name: 'Rat',
       reprintedIn: [refs.publications.monster_manual_2024],
@@ -20835,6 +20928,7 @@ export default createPublicationMonsters({
     },
     will_o_wisp: {
       name: 'Will-o’-Wisp',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'chaotic evil',
       languages: ['Common plus one other language'],
       stats: {
@@ -20938,7 +21032,7 @@ export default createPublicationMonsters({
     },
     winter_wolf: {
       name: 'Winter Wolf',
-      reprintedIn: [refs.publications.monster_manual_2024],
+      reprintedIn: [refs.publications.ddal04_12_the_raven, refs.publications.monster_manual_2024],
       alignment: 'neutral evil',
       languages: ['Common', 'Giant'],
       appearance: [['A snow-white wolf with pale eyes, as big as a dire wolf.']],

@@ -398,6 +398,11 @@ export default createPublications({
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
   },
+  lost_mine_of_phandelver: {
+    name: 'Lost Mine of Phandelver',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/Lost Mine of Phandelver.pdf',
+  },
   minsc_and_boo_s_journal_of_villainy: {
     name: "Minsc and Boo's Journal of Villainy",
     ruleset: '5e-2014',
@@ -525,6 +530,10 @@ export default createPublications({
     name: 'Princes of the Apocalypse - Online Supplement',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Reference/Princes of the Apocalypse - Online Supplement.pdf',
+  },
+  quests_from_the_infinite_staircase: {
+    name: 'Quests from the Infinite Staircase',
+    ruleset: '5e-2014',
   },
   ravenloft_the_horrors_within: {
     name: 'Ravenloft: The Horrors Within',
@@ -687,6 +696,10 @@ export default createPublications({
     license: 'ogl-1.0a',
     notice:
       'Vault of Magic. © 2021 Open Design LLC; Authors: Phillip Larwood, Jeff Lee, and Christopher Lockey.',
+  },
+  vecna_eve_of_ruin: {
+    name: 'Vecna: Eve of Ruin',
+    ruleset: '5e-2014',
   },
   volo_s_guide_to_monsters: {
     name: "Volo's Guide to Monsters",

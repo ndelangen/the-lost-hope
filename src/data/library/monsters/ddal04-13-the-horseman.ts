@@ -7,6 +7,49 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddal04_13_the_horseman,
   monsters: {
+    dominated_commoner: {
+      name: 'Dominated Commoner',
+      tags: ['human'],
+      alignment: 'any alignment',
+      languages: ['Common'],
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '1/8',
+        ac: 10,
+        hitDice: '2d8',
+        speed: { walk: 30 },
+        scores: { str: 11, dex: 12, con: 10, int: 10, wis: 11, cha: 10 },
+        abilities: [
+          {
+            key: 'dark-devotion',
+            name: 'Dark Devotion',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The dominated commoner has advantage on saving throws against being ',
+              rules.charmed,
+              ' or ',
+              rules.frightened,
+              '.',
+            ],
+          },
+          {
+            key: 'improvised-weapon',
+            name: 'Improvised Weapon',
+            timing: 'action',
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     dominated_lumberjack: {
       name: 'Dominated Lumberjack',
       tags: ['human'],
@@ -48,8 +91,53 @@ export default createPublicationMonsters({
         ],
       },
     },
+    dominated_militia: {
+      name: 'Dominated Militia',
+      tags: ['human'],
+      alignment: 'any alignment',
+      languages: ['Common'],
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '1/8',
+        ac: 12,
+        armor: 'leather armor',
+        hitDice: '2d8',
+        speed: { walk: 30 },
+        scores: { str: 11, dex: 12, con: 12, int: 10, wis: 10, cha: 10 },
+        abilities: [
+          {
+            key: 'scimitar',
+            name: 'Scimitar',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+          {
+            key: 'light-crossbow',
+            name: 'Light Crossbow',
+            timing: 'action',
+            icon: 'gi/GiCrossbow',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'dex',
+              range: [80, 320],
+              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     treant: {
       name: 'Treant',
+      reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'chaotic good',
       languages: ['Common', 'Druidic', 'Elvish', 'Sylvan'],
       stats: {
