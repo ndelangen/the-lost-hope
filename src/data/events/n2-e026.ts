@@ -26,6 +26,10 @@ export default createEvent({
       refs.npcs.light_13th_marshal,
       ' to ask to be handsome and became the most handsome orc.',
     ],
+    [
+      refs.pcs.devan,
+      ' left his old squad to join the party, with the approval of his commanding officer.',
+    ],
     [refs.pcs.swift_starblade, ' — Half-Elf Rogue. Session notes called him "a human-elf pirate."'],
     [
       'Session notes used role descriptors before names were confirmed. Both are active roster PCs.',

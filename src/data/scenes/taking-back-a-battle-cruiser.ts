@@ -443,6 +443,15 @@ export default createScene({
               refs.locations.fajanet,
               ', so he cannot have walked out on the squad in the middle of the fight.',
             ],
+            [
+              'The strongest gap: ',
+              refs.npcs.korrag_stonevow,
+              ' himself approved ',
+              refs.pcs.devan,
+              ' leaving the squad, as his commanding officer, in ',
+              refs.events.n2_e026,
+              '. The man calling him a coward is the one who let him go.',
+            ],
           ],
         },
         {
