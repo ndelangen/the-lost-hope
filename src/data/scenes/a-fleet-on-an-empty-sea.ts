@@ -9,6 +9,8 @@ export default createScene({
   illustrations: [
     '/assets/scenes/a-fleet-on-an-empty-sea.png',
     '/assets/locations/the-caves-of-steel-illustration.png',
+    '/assets/locations/the-abyss-illustration.png',
+    '/assets/locations/the-grand-hall-illustration.png',
     '/assets/scenes/a-fleet-on-an-empty-sea-subship.png',
     '/assets/scenes/a-fleet-on-an-empty-sea-devan-on-stage.png',
     '/assets/scenes/a-fleet-on-an-empty-sea-pearls.png',
