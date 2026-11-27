@@ -22,7 +22,7 @@ export function AddFromLibrary({
 }: {
   search: (query: string) => { matches: StockMatch[]; more: number }
   onAdd: (item: StockItem) => void
-  /** Starts making up new goods under this name, when the library lacks them. */
+  /** Starts making up a new item from what was typed, when the library lacks it. */
   onMakeUp?: (name: string) => void
 }) {
   const [query, setQuery] = useState('')
@@ -133,7 +133,7 @@ export function AddFromLibrary({
             >
               <PackagePlus className="text-muted-foreground size-4 shrink-0" aria-hidden />
               <span>
-                Make up <span className="font-medium">“{query.trim()}”</span> as new goods…
+                Create <span className="font-medium">“{query.trim()}”</span> as a new item…
               </span>
             </button>
           ) : null}

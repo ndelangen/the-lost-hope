@@ -2,7 +2,8 @@
  * Dev-only write-back: `POST /__dev/records` edits one campaign record in its data file. The page
  * sends field edits (see `./record-source.ts`); the server checks each against the file text,
  * validates the edited record with its schema and checks its references, then splices only the
- * changed fields into the file. Vite's hot update brings the change back to the page.
+ * changed fields into the file. Vite's hot update brings the change back to the page. It also
+ * makes up library items from the DM's words (`make`): an agent drafts, this server writes.
  *
  * The plugin applies only to `vite dev`, so nothing here reaches the static deployment.
  */
@@ -14,6 +15,7 @@ import path from 'node:path'
 import type { Plugin, ViteDevServer } from 'vite'
 
 import { generateRefs } from './generate-refs.ts'
+import { draftLibraryItem, type ItemDraft, type LibraryItemKind } from './library-item-agent.ts'
 import {
   addLibraryEntry,
   addToIndex,
@@ -129,7 +131,7 @@ type EditRequest = {
   key?: unknown
   edits?: unknown
   create?: unknown
-  library?: unknown
+  make?: unknown
 }
 
 const isEdit = (edit: unknown): edit is RecordEdit => {
@@ -159,9 +161,9 @@ async function handle(server: ViteDevServer, request: IncomingMessage, response:
   if (request.method !== 'POST') return send(response, 405, { error: 'POST edits here' })
   if (!allowed(request)) return send(response, 403, { error: 'Not allowed from this page' })
   try {
-    const { kind, key, edits, create: input, library } = (await readJson(request)) as EditRequest
-    if (library !== undefined) {
-      const result = await createLibraryEntry(server, library, input)
+    const { kind, key, edits, create: input, make } = (await readJson(request)) as EditRequest
+    if (make !== undefined) {
+      const result = await makeLibraryItem(server, make)
       return send(response, result.status, result.body)
     }
     if (typeof kind === 'string' && input !== undefined) {
@@ -300,12 +302,17 @@ async function createRecord(server: ViteDevServer, kind: string, input: unknown)
   })
 }
 
-/** The library kinds the page may add homebrew to, and where the campaign's own entries live. */
+/** The library kinds an agent may add to, and the campaign's own book of each. */
 const HOMEBREW = {
   equipment: {
     file: 'src/data/library/equipment/the-lost-hope.ts',
     helper: 'createEquipment',
     names: { module: '/src/data/generated/equipment-names.ts', exported: 'equipmentNames' },
+  },
+  magicItem: {
+    file: 'src/data/library/magic-items/the-lost-hope.ts',
+    helper: 'createMagicItems',
+    names: { module: '/src/data/generated/magic-item-names.ts', exported: 'magicItemNames' },
   },
 } as const
 
@@ -316,67 +323,109 @@ const issueMessage = (error: unknown) => {
     : (error as Error).message
 }
 
+type Checked =
+  | { problem: string }
+  | { problem?: undefined; key: string; entry: Record<string, unknown> }
+
 /**
- * Adds a made-up entry to the campaign's own library publication (`the_lost_hope`): validates it
- * with the library schema, refuses a name the library already has, writes it into the
- * publication's file in key order and regenerates the library refs.
+ * Checks a library entry for the campaign's own publication (`the_lost_hope`): its schema, its
+ * references, and that no book in the library already has its name.
  */
-async function createLibraryEntry(
+async function checkLibraryEntry(
   server: ViteDevServer,
-  library: unknown,
-  input: unknown,
-): Promise<Outcome> {
-  const target =
-    typeof library === 'string' ? HOMEBREW[library as keyof typeof HOMEBREW] : undefined
-  if (!target) return { status: 404, body: { error: `Cannot add ${String(library)} here` } }
-  if (!input || typeof input !== 'object' || Array.isArray(input))
-    return { status: 422, body: { error: 'Send the new entry' } }
+  { kind, entry: input }: ItemDraft,
+): Promise<Checked> {
+  const target = HOMEBREW[kind]
+  if (!target) return { problem: `The library takes no ${String(kind)} from here` }
   const entry: Record<string, unknown> = {
-    ...(input as Record<string, unknown>),
+    ...input,
     publication: { ref: 'publication', key: 'the_lost_hope' },
   }
   const definitions = (await server.ssrLoadModule('/src/definitions/library.ts')) as Record<
     string,
-    (input: unknown) => Record<string, unknown>
+    (input: unknown) => unknown
   >
   let key: string
   try {
     key = libraryKey(String(entry.name ?? ''))
     definitions[target.helper]!({ [key]: entry })
   } catch (error) {
-    return { status: 422, body: { error: issueMessage(error) } }
+    return { problem: issueMessage(error) }
   }
+  const missing = await missingRefs(server, entry)
+  if (missing.length > 0)
+    return { problem: `Unknown references: ${missing.map((r) => `${r.ref} ${r.key}`).join(', ')}` }
+  const names = (await server.ssrLoadModule(target.names.module)) as Record<
+    string,
+    Record<string, string>
+  >
+  const existing = names[target.names.exported]!
+  const name = String(entry.name).trim().toLowerCase()
+  const sameName = Object.values(existing).find((other) => other.toLowerCase() === name)
+  if (Object.hasOwn(existing, key) || sameName)
+    return { problem: `The library already has ${sameName ?? key}; give it another name` }
+  return { key, entry }
+}
 
+/** Writes a checked entry into its book, in key order, and regenerates the library refs. */
+async function writeLibraryEntry(
+  kind: LibraryItemKind,
+  key: string,
+  entry: Record<string, unknown>,
+) {
+  const file = path.join(ROOT, HOMEBREW[kind].file)
+  const source = await readFile(file, 'utf8')
+  const next = addLibraryEntry(source, key, entry)
+  const temporary = file.replace(/\.ts$/u, `.${process.pid}.tmp.ts`)
+  await writeFile(temporary, next)
+  await oxfmt(temporary)
+  await rename(temporary, file)
+  try {
+    await generateRefs()
+  } catch (error) {
+    await writeFile(file, source)
+    await generateRefs()
+    throw error
+  }
+}
+
+/** The shop a location keeps, for the agent's brief. */
+async function shopContext(server: ViteDevServer, location: unknown) {
+  if (typeof location !== 'string') return undefined
+  const { SOURCE_REGISTRIES } = (await server.ssrLoadModule('/src/lib/campaign-registries.ts')) as {
+    SOURCE_REGISTRIES: Record<string, Record<string, { name: string; shop?: { type: string } }>>
+  }
+  const { SHOP_TYPE_LABELS } = (await server.ssrLoadModule('/src/definitions/shop.ts')) as {
+    SHOP_TYPE_LABELS: Record<string, string>
+  }
+  const record = SOURCE_REGISTRIES.location?.[location]
+  if (!record) return undefined
+  const type = record.shop?.type
+  return {
+    location: record.name,
+    shopType: type ? (SHOP_TYPE_LABELS[type] ?? type).toLowerCase() : 'general',
+  }
+}
+
+/**
+ * Makes up a library item from the DM's words: an agent drafts it, the server checks it (the
+ * agent gets one go at fixing what fails) and writes it into the campaign's own book.
+ */
+async function makeLibraryItem(server: ViteDevServer, input: unknown): Promise<Outcome> {
+  const { request, location } = (input ?? {}) as { request?: unknown; location?: unknown }
+  if (typeof request !== 'string' || !request.trim())
+    return { status: 422, body: { error: 'Describe the item first' } }
+  const shop = await shopContext(server, location)
+  const draft = await draftLibraryItem(
+    request,
+    shop,
+    async (candidate) => (await checkLibraryEntry(server, candidate)).problem,
+  )
   return exclusive(async () => {
-    const names = (await server.ssrLoadModule(target.names.module)) as Record<
-      string,
-      Record<string, string>
-    >
-    const existing = names[target.names.exported]!
-    const name = String(entry.name).trim().toLowerCase()
-    const sameName = Object.entries(existing).find(([, other]) => other.toLowerCase() === name)
-    if (Object.hasOwn(existing, key) || sameName)
-      return {
-        status: 409,
-        body: {
-          error: `The library already has ${sameName?.[1] ?? key}`,
-          key: sameName?.[0] ?? key,
-        },
-      }
-    const file = path.join(ROOT, target.file)
-    const source = await readFile(file, 'utf8')
-    const next = addLibraryEntry(source, key, entry)
-    const temporary = file.replace(/\.ts$/u, `.${process.pid}.tmp.ts`)
-    await writeFile(temporary, next)
-    await oxfmt(temporary)
-    await rename(temporary, file)
-    try {
-      await generateRefs()
-    } catch (error) {
-      await writeFile(file, source)
-      await generateRefs()
-      throw error
-    }
-    return { status: 201, body: { ref: library, key } }
+    // Check again inside the lock: another save may have taken the name meanwhile.
+    const checked = await checkLibraryEntry(server, draft)
+    if (checked.problem !== undefined) return { status: 409, body: { error: checked.problem } }
+    await writeLibraryEntry(draft.kind, checked.key, checked.entry)
+    return { status: 201, body: { ref: draft.kind, key: checked.key, name: checked.entry.name } }
   })
 }

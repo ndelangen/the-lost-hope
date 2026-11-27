@@ -1,4 +1,4 @@
-import { Check, Dices, Loader2, Store, TriangleAlert } from 'lucide-react'
+import { Check, Dices, Loader2, Sparkles, Store, TriangleAlert } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 
 import { useDmMode } from '#/components/dm-mode'
@@ -39,7 +39,7 @@ import {
 } from '#/lib/shop'
 
 import { AddFromLibrary } from './add-from-library'
-import { NewGoodsForm } from './new-goods-form'
+import { NewItemPrompt } from './new-item-prompt'
 import { StockList } from './stock-list'
 
 /** The SRD 5.1 copy of an item that SRD 5.2.1 also prints, which a shop should not offer twice. */
@@ -106,9 +106,10 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
   const [seed, setSeed] = useState(() => Date.now())
   const [makingUp, setMakingUp] = useState<string>()
 
-  // Made-up goods regenerate the names, and their hot update brings a fresh loader with them, so
+  // A made-up item regenerates the names, and their hot update brings a fresh loader with them, so
   // the library loads again when the names object changes.
-  const libraryVersion = equipmentNames
+  const equipmentIndex = equipmentNames
+  const magicItemIndex = magicItemNames
   useEffect(() => {
     if (!dmMode) return
     let live = true
@@ -116,7 +117,7 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
     return () => {
       live = false
     }
-  }, [dmMode, libraryVersion])
+  }, [dmMode, equipmentIndex, magicItemIndex])
 
   // A save is done once the hot update brings the saved stock back from the file.
   useEffect(() => {
@@ -361,6 +362,12 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
               onMakeUp={setMakingUp}
             />
           </div>
+          {makingUp === undefined ? (
+            <Button onClick={() => setMakingUp('')}>
+              <Sparkles className="size-4" aria-hidden />
+              Create new item for sale
+            </Button>
+          ) : null}
           {shop && !draft ? (
             removing === 'asked' ? (
               <div className="flex items-center gap-2 text-sm">
@@ -384,12 +391,16 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
           ) : null}
           {makingUp !== undefined ? (
             <div className="basis-full">
-              <NewGoodsForm
-                initialName={makingUp}
+              <NewItemPrompt
+                locationKey={locationKey}
+                initialRequest={makingUp}
                 onCancel={() => setMakingUp(undefined)}
-                onCreated={(key) => {
+                onCreated={(item) => {
                   setMakingUp(undefined)
-                  setStock([...shown.stock, { item: { ref: 'equipment', key } }])
+                  setStock([
+                    ...shown.stock,
+                    item.ref === 'magicItem' ? { item, quantity: 1 } : { item },
+                  ])
                 }}
               />
             </div>

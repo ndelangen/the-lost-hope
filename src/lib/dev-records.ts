@@ -63,24 +63,26 @@ export async function createRecord(
 }
 
 /**
- * Adds a made-up entry to the campaign's own library publication through the dev server, and
- * resolves with its key. The refs regenerate, which may want a full reload; that is held while the
- * request runs, so the page keeps the editor it was made from.
+ * Makes up a library item from the DM's own words: an agent on the dev server drafts it and the
+ * server writes it into the campaign's own book. Resolves with its library ref. The refs
+ * regenerate, which may want a full reload; that is held while the request runs, so the page keeps
+ * the shop it was asked from.
  */
-export async function createLibraryEntry(
-  library: 'equipment',
-  entry: Record<string, unknown>,
-): Promise<{ key: string }> {
+export async function makeLibraryItem(
+  request: string,
+  location: string,
+): Promise<{ ref: 'equipment' | 'magicItem'; key: string; name: string }> {
   const release = holdReload()
   const response = await fetch('/__dev/records', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ library, create: entry }),
+    body: JSON.stringify({ make: { request, location } }),
   }).catch(() => undefined)
   const body = (await response?.json().catch(() => undefined)) as
-    | { key?: string; error?: string }
+    | { ref?: 'equipment' | 'magicItem'; key?: string; name?: string; error?: string }
     | undefined
   release()
-  if (response?.ok && body?.key) return { key: body.key }
-  throw new Error(body?.error ?? 'Not created. Is the dev server running?')
+  if (response?.ok && body?.ref && body.key)
+    return { ref: body.ref, key: body.key, name: body.name ?? body.key }
+  throw new Error(body?.error ?? 'Nothing was made. Is the dev server running?')
 }
