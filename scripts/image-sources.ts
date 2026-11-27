@@ -2945,6 +2945,18 @@ export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     logicalSource: '/assets/scenes/a-fleet-on-an-empty-sea-subship.png',
     repositoryPath: 'assets/images/content/scenes/a-fleet-on-an-empty-sea-subship.png',
   },
+  {
+    id: 'scenes-a-fleet-on-an-empty-sea-devan-on-stage',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/a-fleet-on-an-empty-sea-devan-on-stage.png',
+    repositoryPath: 'assets/images/content/scenes/a-fleet-on-an-empty-sea-devan-on-stage.png',
+  },
+  {
+    id: 'scenes-a-fleet-on-an-empty-sea-pearls',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/a-fleet-on-an-empty-sea-pearls.png',
+    repositoryPath: 'assets/images/content/scenes/a-fleet-on-an-empty-sea-pearls.png',
+  },
 ]
 
 export const RESPONSIVE_IMAGE_SOURCES = ORIGINAL_IMAGE_SOURCES.filter((source) => !source.archived)
