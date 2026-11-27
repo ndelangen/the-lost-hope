@@ -284,7 +284,11 @@ function referencePresentation(
       const name = label ?? item?.name ?? slug
       const owner = item?.currentOwner ? refLink(item.currentOwner) : undefined
       const carrier = item?.carriedBy ? refLink(item.carriedBy) : undefined
-      const icon = item ? <ItemIcon icon={item.icon} className="size-3.5" /> : null
+      const icon = item?.avatar ? (
+        <Avatar src={item.avatar} sizes="14px" maxWidth={32} className="size-3.5" />
+      ) : (
+        item && <ItemIcon icon={item.icon} className="size-3.5" />
+      )
       return {
         label: name,
         icon,

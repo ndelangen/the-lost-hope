@@ -15,6 +15,7 @@ export type EntityCardItem = {
   kind: EntityKind
   slug: string
   name: string
+  avatar?: string
   description?: string
   meta?: string
 }
@@ -24,6 +25,7 @@ export function entityCollectionItems(kind: EntityCollectionKind): EntityCardIte
     kind: entity.kind,
     slug: entity.slug,
     name: entity.data.name,
+    ...(entity.kind === 'item' && entity.data.avatar ? { avatar: entity.data.avatar } : {}),
     description: entityTeaser(entity),
   }))
 }

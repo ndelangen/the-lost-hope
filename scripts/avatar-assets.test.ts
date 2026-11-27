@@ -5,6 +5,7 @@ import sharp from 'sharp'
 import { describe, expect, it } from 'vitest'
 
 import beasts from '../src/data/beasts/_index'
+import items from '../src/data/items/_index'
 import locations from '../src/data/locations/_index'
 import npcs from '../src/data/npcs/_index'
 import pcs from '../src/data/pcs/_index'
@@ -18,6 +19,7 @@ const avatars = [
     ...[...Object.values(pcs), ...Object.values(npcs), ...Object.values(beasts)].map(
       (entity) => entity.avatar,
     ),
+    ...Object.values(items).flatMap((item) => (item.avatar ? [item.avatar] : [])),
     ...Object.values(pcs).flatMap((pc) =>
       (pc.previousPortraits ?? []).map((portrait) => portrait.url),
     ),
