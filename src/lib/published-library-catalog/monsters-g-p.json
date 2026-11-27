@@ -1748,7 +1748,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "gazer_familiar_variant"
+            "key": "gazer"
           },
           "publication": {
             "ref": "publication",
@@ -2902,7 +2902,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "geryon_summoner_variant"
+            "key": "geryon"
           },
           "publication": {
             "ref": "publication",
@@ -17619,7 +17619,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "gray_slaad_control_gem_variant"
+            "key": "gray_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -17635,7 +17635,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "gray_slaad_control_gem_variant"
+            "key": "gray_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -17651,7 +17651,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "gray_slaad_control_gem_variant"
+            "key": "gray_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -17682,7 +17682,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "gray_slaad_control_gem"
+            "key": "gray_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -19309,7 +19309,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "green_slaad_control_gem_variant"
+            "key": "green_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -19334,7 +19334,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "green_slaad_control_gem"
+            "key": "green_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -30757,7 +30757,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "hezrou_summoner_variant"
+            "key": "hezrou"
           },
           "publication": {
             "ref": "publication",
@@ -30782,7 +30782,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "hezrou_summoner"
+            "key": "hezrou"
           },
           "publication": {
             "ref": "publication",
@@ -31307,7 +31307,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "hill_giant_optional_actions"
+            "key": "hill_giant"
           },
           "publication": {
             "ref": "publication",
@@ -34610,7 +34610,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "horned_devil_summoner_variant"
+            "key": "horned_devil"
           },
           "publication": {
             "ref": "publication",
@@ -34635,7 +34635,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "horned_devil_summoner"
+            "key": "horned_devil"
           },
           "publication": {
             "ref": "publication",
@@ -39539,7 +39539,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "ice_devil_summoner_variant"
+            "key": "ice_devil"
           },
           "publication": {
             "ref": "publication",
@@ -40805,7 +40805,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "imp_familiar_variant"
+            "key": "imp"
           },
           "publication": {
             "ref": "publication",
@@ -69787,7 +69787,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "marid_wishes"
+            "key": "marid"
           },
           "publication": {
             "ref": "publication",
@@ -70212,7 +70212,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "marilith_summoner_variant"
+            "key": "marilith"
           },
           "publication": {
             "ref": "publication",
@@ -70237,7 +70237,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "marilith_summoner"
+            "key": "marilith"
           },
           "publication": {
             "ref": "publication",
@@ -74586,7 +74586,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "mezzoloth_summoner_variant"
+            "key": "mezzoloth"
           },
           "publication": {
             "ref": "publication",
@@ -74611,7 +74611,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "mezzoloth_summoner"
+            "key": "mezzoloth"
           },
           "publication": {
             "ref": "publication",
@@ -78547,7 +78547,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "molydeus_summoner_variant"
+            "key": "molydeus"
           },
           "publication": {
             "ref": "publication",
@@ -78562,7 +78562,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "molydeus_summoner_variant"
+            "key": "molydeus"
           },
           "publication": {
             "ref": "publication",
@@ -80761,7 +80761,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "mud_mephit_summoner_variant"
+            "key": "mud_mephit"
           },
           "publication": {
             "ref": "publication",
@@ -80786,7 +80786,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "mud_mephit_summoner"
+            "key": "mud_mephit"
           },
           "publication": {
             "ref": "publication",
@@ -83447,7 +83447,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "nalfeshnee_summoner_variant"
+            "key": "nalfeshnee"
           },
           "publication": {
             "ref": "publication",
@@ -83472,7 +83472,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "nalfeshnee_summoner"
+            "key": "nalfeshnee"
           },
           "publication": {
             "ref": "publication",
@@ -88960,7 +88960,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "nycaloth_summoner_variant"
+            "key": "nycaloth"
           },
           "publication": {
             "ref": "publication",
@@ -88976,7 +88976,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "nycaloth_summoner_variant"
+            "key": "nycaloth"
           },
           "publication": {
             "ref": "publication",
@@ -89007,7 +89007,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "nycaloth_summoner"
+            "key": "nycaloth"
           },
           "publication": {
             "ref": "publication",
@@ -99745,7 +99745,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "pit_fiend_summoner_variant"
+            "key": "pit_fiend"
           },
           "publication": {
             "ref": "publication",
@@ -99770,7 +99770,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "pit_fiend_summoner"
+            "key": "pit_fiend"
           },
           "publication": {
             "ref": "publication",
@@ -104313,7 +104313,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "pseudodragon_familiar_variant"
+            "key": "pseudodragon"
           },
           "publication": {
             "ref": "publication",

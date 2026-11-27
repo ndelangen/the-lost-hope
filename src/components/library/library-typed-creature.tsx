@@ -1,11 +1,13 @@
 import { Link } from '@tanstack/react-router'
-import type { ReactNode } from 'react'
+import { useMemo, useState, type ReactNode } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { StatBlockSheet } from '#/components/dm/stat-block-sheet'
 import type { TypedMonsterPrinting } from '#/lib/monster-printing'
 import type { getLibraryEntry } from '#/lib/published-library'
+import { deriveStatBlock, withOptions } from '#/lib/stat-block'
 
+import { CreatureOptionToggles } from './creature-option-toggles'
 import { LibraryGallery } from './library-gallery'
 
 /** A library monster whose printing is typed data: the same stat block the encounter runs. */
@@ -22,8 +24,19 @@ export function LibraryTypedCreature({
   dm: boolean
   printings: ReactNode
 }) {
-  const { printing, heldBy, reprints, derived } = typed
-  const { stats } = printing
+  const { printing, heldBy, reprints } = typed
+  // The book's optional abilities join the stat block when the DM picks them.
+  const [chosen, setPicked] = useState<readonly string[]>([])
+  // Picks only count for options this printing has, so moving to another creature starts clean.
+  const picked = useMemo(
+    () => chosen.filter((key) => printing.stats.options?.some((option) => option.key === key)),
+    [chosen, printing.stats.options],
+  )
+  const stats = useMemo(() => withOptions(printing.stats, picked), [printing.stats, picked])
+  const derived = useMemo(
+    () => (picked.length ? deriveStatBlock(stats) : typed.derived),
+    [picked.length, stats, typed.derived],
+  )
   const gallery = entry.art?.length ? entry.art : undefined
   const classification = [
     `${cap(stats.size)} ${stats.swarmOf ? `swarm of ${cap(stats.swarmOf)} ${cap(stats.type)}s` : cap(stats.type)}${printing.tags ? ` (${printing.tags.join(', ')})` : ''}`,
@@ -122,6 +135,19 @@ export function LibraryTypedCreature({
       ) : null}
       {dm ? (
         <section className="bg-card rounded-xl border p-4 sm:p-6">
+          {printing.stats.options && (
+            <div className="mb-4">
+              <CreatureOptionToggles
+                options={printing.stats.options}
+                picked={picked}
+                onToggle={(key) =>
+                  setPicked((keys) =>
+                    keys.includes(key) ? keys.filter((other) => other !== key) : [...keys, key],
+                  )
+                }
+              />
+            </div>
+          )}
           <StatBlockSheet stats={stats} block={derived} />
         </section>
       ) : null}

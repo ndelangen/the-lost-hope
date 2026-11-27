@@ -11,6 +11,7 @@ import {
   formatSpeed,
   proficiencyBonus,
   proficiencyOf,
+  withOptions,
 } from './stat-block'
 
 /** SRD 5.2.1 Dire Wolf: the derived numbers must match the printed stat block. */
@@ -421,5 +422,80 @@ describe('numbers the book prints that its statistics do not produce', () => {
 
   it('rejects an empty printed record', () => {
     expect(() => PrintedStatBlock.parse({ ...printed, printed: {} })).toThrow('Leave out `printed`')
+  })
+})
+
+describe('optional abilities', () => {
+  const summoner = PrintedStatBlock.parse({
+    size: 'large',
+    type: 'fiend',
+    cr: '5',
+    ac: 15,
+    hitDice: '10d10',
+    speed: { walk: 30 },
+    scores: { str: 18, dex: 12, con: 10, int: 8, wis: 10, cha: 10 },
+    options: [
+      {
+        key: 'summoner',
+        name: 'Summoner',
+        abilities: [
+          { key: 'summon', name: 'Summon Demon', timing: 'action', icon: 'gi/GiMagicSwirl' },
+        ],
+      },
+    ],
+    abilities: [{ key: 'claw', name: 'Claw', timing: 'action', icon: 'gi/GiClaws' }],
+  })
+
+  it('leaves the stat block as printed until the DM picks an option', () => {
+    expect(withOptions(summoner, []).abilities.map(({ key }) => key)).toEqual(['claw'])
+  })
+
+  it('joins a picked option’s abilities to the stat block', () => {
+    expect(withOptions(summoner, ['summoner']).abilities.map(({ key }) => key)).toEqual([
+      'claw',
+      'summon',
+    ])
+  })
+
+  it('rejects an option ability whose key the block already uses', () => {
+    const clash = {
+      ...summoner,
+      options: [{ ...summoner.options![0]!, abilities: [{ ...summoner.abilities[0]! }] }],
+    }
+    expect(() => PrintedStatBlock.parse(clash)).toThrow('Duplicate ability key')
+  })
+})
+
+describe('option checks', () => {
+  const block = {
+    size: 'large',
+    type: 'fiend',
+    cr: '5',
+    ac: 15,
+    hitDice: '10d10',
+    speed: { walk: 30 },
+    scores: { str: 18, dex: 12, con: 10, int: 8, wis: 10, cha: 10 },
+    abilities: [{ key: 'claw', name: 'Claw', timing: 'action', icon: 'gi/GiClaws' }],
+  } as const
+  const option = (key: string, abilityKey: string) => ({
+    key,
+    name: key,
+    abilities: [{ key: abilityKey, name: abilityKey, timing: 'action', icon: 'gi/GiClaws' }],
+  })
+
+  it('rejects two options with one key', () => {
+    expect(() =>
+      PrintedStatBlock.parse({ ...block, options: [option('a', 'x'), option('a', 'y')] }),
+    ).toThrow('Duplicate option key')
+  })
+
+  it('rejects printed text that points at an option’s ability', () => {
+    expect(() =>
+      PrintedStatBlock.parse({
+        ...block,
+        abilities: [{ ...block.abilities[0], text: ['Then ', { ability: 'x' }] }],
+        options: [option('a', 'x')],
+      }),
+    ).toThrow('refers to a missing ability')
   })
 })

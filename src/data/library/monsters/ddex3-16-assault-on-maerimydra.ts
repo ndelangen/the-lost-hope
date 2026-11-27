@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     barlgura: {
       name: 'Barlgura',
+      reprintedIn: [refs.publications.monster_manual_2014],
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft.'],
@@ -26,6 +27,25 @@ export default createPublicationMonsters({
         damageResistances: [rules.cold, rules.fire, rules.lightning],
         damageImmunities: [rules.poison],
         conditionImmunities: [rules.poisoned],
+        options: [
+          {
+            key: 'summoner',
+            name: 'Summoner',
+            abilities: [
+              {
+                key: 'summon-demon',
+                name: 'Summon Demon',
+                timing: 'action',
+                icon: 'gi/GiMagicSwirl',
+                text: [
+                  "The demon chooses what to summon and attempts a magical summoning. A barlgura has a 30 percent chance of summoning one barlgura. A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
+                ],
+                uses: 1,
+                recharge: 'Long rest',
+              },
+            ],
+          },
+        ],
         abilities: [
           {
             key: 'innate-spellcasting',

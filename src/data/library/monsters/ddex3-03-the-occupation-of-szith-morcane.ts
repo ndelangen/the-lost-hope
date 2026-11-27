@@ -524,6 +524,7 @@ export default createPublicationMonsters({
     },
     fire_giant: {
       name: 'Fire Giant',
+      reprintedIn: [refs.publications.storm_king_s_thunder],
       alignment: 'lawful evil',
       languages: ['Giant'],
       stats: {
@@ -538,6 +539,43 @@ export default createPublicationMonsters({
         saves: { dex: 'proficient', con: 'proficient', cha: 'proficient' },
         skills: { athletics: 'proficient', perception: 'proficient' },
         damageImmunities: [rules.fire],
+        options: [
+          {
+            key: 'optional-actions',
+            name: 'Optional Actions',
+            abilities: [
+              {
+                key: 'siege-monster',
+                name: 'Siege Monster',
+                timing: 'trait',
+                icon: 'gi/GiPaw',
+                text: ['The giant deals double damage to objects and structures.'],
+              },
+              {
+                key: 'tackle',
+                name: 'Tackle',
+                timing: 'trait',
+                icon: 'gi/GiPaw',
+                text: [
+                  "When the giant enters any enemy's space for the first time on a turn, the enemy must succeed on a ",
+                  { dc: 'str' },
+                  ' Strength saving throw or be knocked ',
+                  { effect: 'tackle-prone' },
+                  '.',
+                ],
+                effects: [
+                  {
+                    key: 'tackle-prone',
+                    name: 'Prone',
+                    lands: { on: 'save', save: 'str', dc: 'str' },
+                    conditions: [rules.prone],
+                    lasts: { kind: 'until-removed' },
+                  },
+                ],
+              },
+            ],
+          },
+        ],
         abilities: [
           {
             key: 'multiattack',

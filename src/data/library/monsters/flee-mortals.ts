@@ -6969,114 +6969,39 @@ export default createPublicationMonsters({
         scores: { str: 5, dex: 16, con: 12, int: 15, wis: 12, cha: 13 },
         skills: { arcana: 'proficient', insight: 'proficient', perception: 'proficient' },
         senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'arcane-acumen',
-            name: 'Arcane Acumen',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'Gain advantage on Intelligence (Arcana) checks to learn about visible supernatural effects and objects. The dragonet always knows when something senses its emotions or reads its thoughts, or when a divination spell targets or observes it.',
-            ],
-          },
-          {
-            key: 'true-words',
-            name: 'True Words',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: ['Gain advantage on Wisdom (Insight) checks to detect lies spoken in Draconic.'],
-          },
-          {
-            key: 'claw',
-            name: 'Claw',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '1d4', type: rules.slashing, addModifier: true }],
-            },
-          },
-          {
-            key: 'revealing-breath-recharges-after-a-short-or-long-rest',
-            name: 'Revealing Breath (Recharges after a Short or Long Rest)',
-            timing: 'action',
-            icon: 'gi/GiDragonBreath',
-            text: [
-              'Light coats every object in a 15-ft. cone for 1 minute. A creature in the cone is also ',
-              { effect: 'revealing-breath-outlined' },
-              ' unless it succeeds on a ',
-              { dc: 'dex' },
-              ' Dexterity save.',
-              ' By looking at an outlined target that bears magic, the dragonet can identify the school, if any.',
-            ],
-            effects: [
-              {
-                key: 'revealing-breath-outlined',
-                name: 'Outlined',
-                lands: { on: 'save', save: 'dex', dc: 'dex' },
-                text: [
-                  'Outlined targets shed dim light for 5 ft. and cannot benefit from being ',
-                  rules.invisible,
-                  '. Attacks against an outlined target have advantage if the attacker can see it.',
-                ],
-                lasts: { kind: 'time', amount: '1', unit: 'minute' },
-              },
-            ],
-          },
-          {
-            key: 'truesight-recharges-after-a-long-rest',
-            name: 'Truesight (Recharges after a Long Rest)',
-            timing: 'action',
-            icon: 'lucide/Eye',
-            text: ['Gain Truesight out to 60 ft. for 1 minute.'],
-          },
-        ],
-      },
-    },
-    dragonet_familiar_variant: {
-      name: 'Dragonet (Familiar Variant)',
-      alignment: 'typically neutral good',
-      languages: ['Speaks Draconic'],
-      tableNotes: [['Role: Support']],
-      stats: {
-        size: 'tiny',
-        type: 'dragon',
-        cr: '1/4',
-        ac: 15,
-        armor: 'natural armor',
-        hitDice: '4d4',
-        speed: { walk: 10, fly: 30, swim: 20 },
-        scores: { str: 5, dex: 16, con: 12, int: 15, wis: 12, cha: 13 },
-        skills: { arcana: 'proficient', insight: 'proficient', perception: 'proficient' },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'arcane-acumen',
-            name: 'Arcane Acumen',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'Gain advantage on Intelligence (Arcana) checks to learn about visible supernatural effects and objects. The dragonet always knows when something senses its emotions or reads its thoughts, or when a divination spell targets or observes it.',
-            ],
-          },
-          {
-            key: 'true-words',
-            name: 'True Words',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: ['Gain advantage on Wisdom (Insight) checks to detect lies spoken in Draconic.'],
-          },
+        options: [
           {
             key: 'familiar',
             name: 'Familiar',
+            abilities: [
+              {
+                key: 'familiar',
+                name: 'Familiar',
+                timing: 'trait',
+                icon: 'gi/GiPaw',
+                text: [
+                  'The dragonet can enter a telepathic bond with a willing companion. While the pair are within 1 mile, the companion can perceive what the dragonet perceives. When the dragonet uses Truesight, the companion shares that Truesight while touching the dragonet. Either creature can break the bond at any time.',
+                ],
+              },
+            ],
+          },
+        ],
+        abilities: [
+          {
+            key: 'arcane-acumen',
+            name: 'Arcane Acumen',
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: [
-              'The dragonet can enter a telepathic bond with a willing companion. While the pair are within 1 mile, the companion can perceive what the dragonet perceives. When the dragonet uses Truesight, the companion shares that Truesight while touching the dragonet. Either creature can break the bond at any time.',
+              'Gain advantage on Intelligence (Arcana) checks to learn about visible supernatural effects and objects. The dragonet always knows when something senses its emotions or reads its thoughts, or when a divination spell targets or observes it.',
             ],
+          },
+          {
+            key: 'true-words',
+            name: 'True Words',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ['Gain advantage on Wisdom (Insight) checks to detect lies spoken in Draconic.'],
           },
           {
             key: 'claw',
@@ -25239,112 +25164,39 @@ export default createPublicationMonsters({
         skills: { perception: 'expert', stealth: 'proficient', survival: 'proficient' },
         senses: { darkvision: 120, tremorsense: 15 },
         damageResistances: [rules.cold],
-        abilities: [
-          {
-            key: 'natural-camouflage',
-            name: 'Natural Camouflage',
-            timing: 'trait',
-            icon: 'gi/GiInvisible',
-            text: [
-              'The snowfox has advantage on Dexterity (Stealth) checks in snowy terrain or cloudy skies.',
-            ],
-          },
-          {
-            key: 'nimble-escape',
-            name: 'Nimble Escape',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: ["The snowfox provokes no opportunity attacks when it leaves an enemy's reach."],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '4', type: rules.piercing }],
-            },
-            text: [
-              'The snowfox attaches to the target. While attached, it has advantage on ',
-              { ability: 'claw' },
-              ' attacks against the target and cannot attack another creature. The target or a creature that can reach it can spend an action to detach the snowfox with a successful DC 13 Strength (Athletics) check. The snowfox can detach by spending 5 ft. of movement.',
-            ],
-          },
-          {
-            key: 'claw',
-            name: 'Claw',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '4', type: rules.slashing }],
-            },
-          },
-          {
-            key: 'burrow',
-            name: 'Burrow',
-            timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
-            text: ['Burrow up to 5 ft. through snow.'],
-          },
-          {
-            key: 'listen',
-            name: 'Listen',
-            timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
-            text: ['Make a Wisdom (Perception) check.'],
-          },
-        ],
-      },
-    },
-    snowfox_familiar_variant: {
-      name: 'Snowfox (Familiar Variant)',
-      alignment: 'unaligned',
-      languages: [],
-      tableNotes: [['Role: Ambusher']],
-      stats: {
-        size: 'tiny',
-        type: 'beast',
-        cr: '1/4',
-        ac: 13,
-        hitDice: '3d4',
-        speed: { walk: 30, burrow: 10, fly: 30 },
-        scores: { str: 5, dex: 16, con: 14, int: 6, wis: 12, cha: 10 },
-        skills: { perception: 'expert', stealth: 'proficient', survival: 'proficient' },
-        senses: { darkvision: 120, tremorsense: 15 },
-        damageResistances: [rules.cold],
-        abilities: [
-          {
-            key: 'natural-camouflage',
-            name: 'Natural Camouflage',
-            timing: 'trait',
-            icon: 'gi/GiInvisible',
-            text: [
-              'The snowfox has advantage on Dexterity (Stealth) checks in snowy terrain or cloudy skies.',
-            ],
-          },
-          {
-            key: 'nimble-escape',
-            name: 'Nimble Escape',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: ["The snowfox provokes no opportunity attacks when it leaves an enemy's reach."],
-          },
+        options: [
           {
             key: 'familiar',
             name: 'Familiar',
+            abilities: [
+              {
+                key: 'familiar',
+                name: 'Familiar',
+                timing: 'trait',
+                icon: 'gi/GiPaw',
+                text: [
+                  "The snowfox can form a telepathic bond with a willing creature it serves. Within 1 mile, the companion can share the snowfox's senses. While bonded, the fox may use the companion's proficiency bonus for ability checks. It gains temporary HP equal to that bonus at the end of a long rest. Either creature can end the bond at any time.",
+                ],
+              },
+            ],
+          },
+        ],
+        abilities: [
+          {
+            key: 'natural-camouflage',
+            name: 'Natural Camouflage',
+            timing: 'trait',
+            icon: 'gi/GiInvisible',
+            text: [
+              'The snowfox has advantage on Dexterity (Stealth) checks in snowy terrain or cloudy skies.',
+            ],
+          },
+          {
+            key: 'nimble-escape',
+            name: 'Nimble Escape',
             timing: 'trait',
             icon: 'gi/GiPaw',
-            text: [
-              "The snowfox can form a telepathic bond with a willing creature it serves. Within 1 mile, the companion can share the snowfox's senses. While bonded, the fox may use the companion's proficiency bonus for ability checks. It gains temporary HP equal to that bonus at the end of a long rest. Either creature can end the bond at any time.",
-            ],
+            text: ["The snowfox provokes no opportunity attacks when it leaves an enemy's reach."],
           },
           {
             key: 'bite',

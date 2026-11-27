@@ -49271,7 +49271,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "snowfox_familiar_variant"
+            "key": "snowfox"
           },
           "publication": {
             "ref": "publication",

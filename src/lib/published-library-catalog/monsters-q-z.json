@@ -968,7 +968,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "quasit_familiar_variant"
+            "key": "quasit"
           },
           "publication": {
             "ref": "publication",
@@ -5410,7 +5410,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "red_slaad_control_gem_variant"
+            "key": "red_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -5435,7 +5435,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "red_slaad_control_gem"
+            "key": "red_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -31816,7 +31816,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "smoke_mephit_summoner_variant"
+            "key": "smoke_mephit"
           },
           "publication": {
             "ref": "publication",
@@ -31841,7 +31841,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "smoke_mephit_summoner"
+            "key": "smoke_mephit"
           },
           "publication": {
             "ref": "publication",
@@ -38357,7 +38357,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "steam_mephit_summoner_variant"
+            "key": "steam_mephit"
           },
           "publication": {
             "ref": "publication",
@@ -38382,7 +38382,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "steam_mephit_summoner"
+            "key": "steam_mephit"
           },
           "publication": {
             "ref": "publication",
@@ -39705,7 +39705,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "stone_giant_optional_actions"
+            "key": "stone_giant"
           },
           "publication": {
             "ref": "publication",
@@ -40694,7 +40694,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "storm_giant_optional_actions"
+            "key": "storm_giant"
           },
           "publication": {
             "ref": "publication",
@@ -58513,7 +58513,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "ultroloth_summoner_variant"
+            "key": "ultroloth"
           },
           "publication": {
             "ref": "publication",
@@ -58529,7 +58529,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "ultroloth_summoner_variant"
+            "key": "ultroloth"
           },
           "publication": {
             "ref": "publication",
@@ -58560,7 +58560,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "ultroloth_summoner"
+            "key": "ultroloth"
           },
           "publication": {
             "ref": "publication",
@@ -69175,7 +69175,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "vrock_summoner_variant"
+            "key": "vrock"
           },
           "publication": {
             "ref": "publication",
@@ -82261,7 +82261,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "yochlol_summoner_variant"
+            "key": "yochlol"
           },
           "publication": {
             "ref": "publication",
@@ -82286,7 +82286,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "yochlol_summoner"
+            "key": "yochlol"
           },
           "publication": {
             "ref": "publication",

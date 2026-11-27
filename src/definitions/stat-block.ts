@@ -397,6 +397,7 @@ const statCore = {
 type AbilityBlock = {
   speed: Partial<Record<z.infer<typeof SpeedMode>, number>>
   abilities: readonly Ability[]
+  options?: readonly { key: string; abilities: readonly Ability[] }[]
   legendary?: { actions: readonly Ability[] }
   lairActions?: readonly Ability[]
 }
@@ -407,10 +408,35 @@ function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
     ...block.abilities,
     ...(block.legendary?.actions ?? []),
     ...(block.lairActions ?? []),
+    // An option's abilities join the block when the DM picks it, so they are checked with it.
+    ...(block.options ?? []).flatMap((option) => option.abilities),
   ]
   const keys = new Set<string>()
   // Effects are keyed across the whole stat block, so a ref names one by creature and key.
   const effectKeys = new Set<string>()
+  // What each ability's text may point at: the printed block, plus its own option when it has one.
+  const base = all.slice(0, all.length - (block.options ?? []).flatMap((o) => o.abilities).length)
+  const keysOf = (abilities: readonly Ability[]) => ({
+    abilities: new Set(abilities.map(({ key }) => key)),
+    effects: new Set(
+      abilities.flatMap(({ effects }) =>
+        (effects ?? []).flatMap((effect) => [
+          effect.key,
+          ...(effect.becomes ? [effect.becomes.key] : []),
+        ]),
+      ),
+    ),
+  })
+  const scope = new Map<Ability, ReturnType<typeof keysOf>>()
+  for (const ability of base) scope.set(ability, keysOf(base))
+  const optionKeys = new Set<string>()
+  for (const option of block.options ?? []) {
+    if (optionKeys.has(option.key))
+      context.addIssue({ code: 'custom', message: `Duplicate option key: ${option.key}` })
+    optionKeys.add(option.key)
+    const visible = keysOf([...base, ...option.abilities])
+    for (const ability of option.abilities) scope.set(ability, visible)
+  }
   // A later stage is an effect of its own, so the text and the tracker can point at it.
   for (const effect of all.flatMap((ability) =>
     (ability.effects ?? []).flatMap((effect) => [
@@ -477,12 +503,12 @@ function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
     }
     for (const token of [...ability.text, ...(save?.onFail.also ?? [])]) {
       if (typeof token === 'string') continue
-      if ('effect' in token && !effectKeys.has(token.effect))
+      if ('effect' in token && !scope.get(ability)?.effects.has(token.effect))
         context.addIssue({
           code: 'custom',
           message: `${ability.name} refers to a missing effect: ${token.effect}`,
         })
-      if ('ability' in token && !keys.has(token.ability))
+      if ('ability' in token && !scope.get(ability)?.abilities.has(token.ability))
         context.addIssue({
           code: 'custom',
           message: `${ability.name} refers to a missing ability: ${token.ability}`,
@@ -510,8 +536,23 @@ const PrintedNumbers = z
     'Leave out `printed` when nothing breaks the formula',
   )
 
+/**
+ * An optional rule the book prints for a creature, such as a demon's Summon Demon action or a
+ * slaad's control gem: abilities that join the stat block when the DM picks it.
+ */
+const CreatureOption = z.strictObject({
+  key: z.string().regex(/^[a-z0-9-]+$/),
+  name: z.string().trim().min(1).describe('As the book names the variant, e.g. `Summoner`'),
+  abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).min(1),
+})
+
 const creatureShape = {
   ...statCore,
+  options: z
+    .array(CreatureOption)
+    .min(1)
+    .optional()
+    .describe('Optional abilities the book prints for this creature; the DM picks them'),
   cr: z.enum(CHALLENGE_RATINGS),
   hitDice: z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use hit dice like `3d10`'),
   printed: PrintedNumbers.optional().describe(

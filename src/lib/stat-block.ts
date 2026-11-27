@@ -128,6 +128,19 @@ function rollText(notation: string, bonus: number) {
   return `${average(notation, bonus)} (${notation}${flat})`
 }
 
+/** The stat block with the abilities of the options the DM picked joined in. */
+export function withOptions<T extends PrintedStatBlock | StatBlock>(
+  stats: T,
+  picked: readonly string[],
+): T {
+  const chosen = (stats.options ?? []).filter(({ key }) => picked.includes(key))
+  if (!chosen.length) return stats
+  return {
+    ...stats,
+    abilities: [...stats.abilities, ...chosen.flatMap(({ abilities }) => abilities)],
+  }
+}
+
 /** Every ability in the block, including legendary and lair actions. */
 export function allAbilities(stats: AnyStatBlock): readonly Ability[] {
   if (!('cr' in stats)) return stats.abilities

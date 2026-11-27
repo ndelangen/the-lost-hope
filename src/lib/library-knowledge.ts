@@ -474,8 +474,14 @@ function ruleName(key: string) {
   return (rules as Readonly<Record<string, { name: string }>>)[key]?.name ?? key
 }
 
+/** Every ability the creature can have, its optional ones included. */
 function allAbilities(stats: PrintedStatBlock): readonly Ability[] {
-  return [...stats.abilities, ...(stats.legendary?.actions ?? []), ...(stats.lairActions ?? [])]
+  return [
+    ...stats.abilities,
+    ...(stats.legendary?.actions ?? []),
+    ...(stats.lairActions ?? []),
+    ...(stats.options ?? []).flatMap(({ abilities }) => abilities),
+  ]
 }
 
 const ABILITY_SHORT = {
@@ -554,6 +560,10 @@ export function statBlockText(printing: MonsterPrinting): string {
       stats.legendary?.actions ?? [],
     ],
     ['Lair actions (initiative 20)', stats.lairActions ?? []],
+    ...(stats.options ?? []).map(({ name, abilities }): [string, readonly Ability[]] => [
+      `Option: ${name}`,
+      abilities,
+    ]),
   ]
   return [
     `${ruleName(stats.size)} ${stats.swarmOf ? `swarm of ${ruleName(stats.swarmOf)} ` : ''}${ruleName(stats.type)}${printing.tags ? ` (${printing.tags.join(', ')})` : ''}${printing.alignment ? `, ${printing.alignment}` : ''}`,

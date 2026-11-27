@@ -7898,7 +7898,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "amnizu_summoner_variant"
+            "key": "amnizu"
           },
           "publication": {
             "ref": "publication",
@@ -7914,7 +7914,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "amnizu_summoner_variant"
+            "key": "amnizu"
           },
           "publication": {
             "ref": "publication",
@@ -18033,7 +18033,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "arcanaloth_summoner_variant"
+            "key": "arcanaloth"
           },
           "publication": {
             "ref": "publication",
@@ -18064,7 +18064,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "arcanaloth_summoner"
+            "key": "arcanaloth"
           },
           "publication": {
             "ref": "publication",
@@ -26619,7 +26619,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "balor_summoner_variant"
+            "key": "balor"
           },
           "publication": {
             "ref": "publication",
@@ -26644,7 +26644,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "balor_summoner"
+            "key": "balor"
           },
           "publication": {
             "ref": "publication",
@@ -28050,7 +28050,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "barbed_devil_summoner_variant"
+            "key": "barbed_devil"
           },
           "publication": {
             "ref": "publication",
@@ -28075,7 +28075,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "barbed_devil_summoner"
+            "key": "barbed_devil"
           },
           "publication": {
             "ref": "publication",
@@ -28534,7 +28534,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "barlgura_summoner_variant"
+            "key": "barlgura"
           },
           "publication": {
             "ref": "publication",
@@ -28559,7 +28559,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "barlgura_summoner"
+            "key": "barlgura"
           },
           "publication": {
             "ref": "publication",
@@ -30932,7 +30932,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "bearded_devil_summoner_variant"
+            "key": "bearded_devil"
           },
           "publication": {
             "ref": "publication",
@@ -37407,7 +37407,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "blue_slaad_control_gem_variant"
+            "key": "blue_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -37432,7 +37432,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "blue_slaad_control_gem"
+            "key": "blue_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -38348,7 +38348,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "bone_devil_summoner_variant"
+            "key": "bone_devil"
           },
           "publication": {
             "ref": "publication",
@@ -38373,7 +38373,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "bone_devil_summoner"
+            "key": "bone_devil"
           },
           "publication": {
             "ref": "publication",
@@ -48553,7 +48553,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "chasme_summoner_variant"
+            "key": "chasme"
           },
           "publication": {
             "ref": "publication",
@@ -48578,7 +48578,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "chasme_summoner"
+            "key": "chasme"
           },
           "publication": {
             "ref": "publication",
@@ -52429,7 +52429,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "cloud_giant_optional_actions"
+            "key": "cloud_giant"
           },
           "publication": {
             "ref": "publication",
@@ -62203,7 +62203,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "death_slaad_control_gem_variant"
+            "key": "death_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -62228,7 +62228,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "death_slaad_control_gem"
+            "key": "death_slaad"
           },
           "publication": {
             "ref": "publication",
@@ -75103,7 +75103,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "dragonet_familiar_variant"
+            "key": "dragonet"
           },
           "publication": {
             "ref": "publication",
@@ -79623,7 +79623,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "drow_inquisitor_summoner_variant"
+            "key": "drow_inquisitor"
           },
           "publication": {
             "ref": "publication",
@@ -79638,7 +79638,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "drow_inquisitor_summoner_variant"
+            "key": "drow_inquisitor"
           },
           "publication": {
             "ref": "publication",
@@ -80408,7 +80408,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "drow_shadowblade_summoner_variant"
+            "key": "drow_shadowblade"
           },
           "publication": {
             "ref": "publication",
@@ -80423,7 +80423,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "drow_shadowblade_summoner_variant"
+            "key": "drow_shadowblade"
           },
           "publication": {
             "ref": "publication",
@@ -92084,7 +92084,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "erinyes_summoner_variant"
+            "key": "erinyes"
           },
           "publication": {
             "ref": "publication",
@@ -92109,7 +92109,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "erinyes_summoner"
+            "key": "erinyes"
           },
           "publication": {
             "ref": "publication",
@@ -100146,7 +100146,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "fire_giant_optional_actions"
+            "key": "fire_giant"
           },
           "publication": {
             "ref": "publication",

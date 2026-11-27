@@ -95,7 +95,15 @@ export function browseLibrary(
           printing.typed &&
           'monster' in printing.typed &&
           typedMonsterPrinting?.(printing.typed.monster, printing.typed.publication)
-        if (typed) searchable.push(...allAbilities(typed.printing.stats).map(({ name }) => name))
+        if (typed)
+          searchable.push(
+            ...allAbilities(typed.printing.stats).map(({ name }) => name),
+            // Its optional abilities too, such as Summoner and its Summon Demon action.
+            ...(typed.printing.stats.options ?? []).flatMap((option) => [
+              option.name,
+              ...option.abilities.map((ability) => ability.name),
+            ]),
+          )
       }
       const text = normalize(searchable.join(' '))
       if (!words.every((word) => text.includes(word))) return []

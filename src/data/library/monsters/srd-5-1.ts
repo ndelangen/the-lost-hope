@@ -11856,6 +11856,25 @@ export default createPublicationMonsters({
         damageImmunities: [rules.poison],
         conditionImmunities: [rules.poisoned],
         nonmagicalResistances: [rules.bludgeoning, rules.piercing, rules.slashing],
+        options: [
+          {
+            key: 'summoner',
+            name: 'Summoner',
+            abilities: [
+              {
+                key: 'summon-demon',
+                name: 'Summon Demon',
+                timing: 'action',
+                icon: 'gi/GiMagicSwirl',
+                text: [
+                  "The demon chooses what to summon and attempts a magical summoning. A marilith has a 50 percent chance of summoning 1d6 vrocks, 1d4 hezrous, 1d3 glabrezus, 1d2 nalfeshnees, or one marilith. A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
+                ],
+                uses: 1,
+                recharge: 'Long rest',
+              },
+            ],
+          },
+        ],
         abilities: [
           {
             key: 'magic-resistance',

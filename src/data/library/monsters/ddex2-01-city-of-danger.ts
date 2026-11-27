@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     quasit: {
       name: 'Quasit',
+      reprintedIn: [refs.publications.monster_manual_2014],
       tags: ['demon', 'shapechanger'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common'],
@@ -26,6 +27,25 @@ export default createPublicationMonsters({
         damageImmunities: [rules.poison],
         conditionImmunities: [rules.poisoned],
         nonmagicalResistances: [rules.bludgeoning, rules.piercing, rules.slashing],
+        options: [
+          {
+            key: 'familiar',
+            name: 'Familiar',
+            abilities: [
+              {
+                key: 'familiar',
+                name: 'Familiar',
+                timing: 'trait',
+                icon: 'gi/GiPaw',
+                text: [
+                  "The quasit can agree to serve a willing master and form a telepathic bond. While within 1 mile of one another, the master can perceive through the quasit's senses. Within 10 ft. of the quasit, the master also benefits from the quasit's ",
+                  { ability: 'magic-resistance' },
+                  '. The quasit can end its service and break the bond at any time.',
+                ],
+              },
+            ],
+          },
+        ],
         abilities: [
           {
             key: 'shapechanger',
