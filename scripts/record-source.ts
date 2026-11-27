@@ -326,7 +326,32 @@ function applyEdit(source: string, edit: RecordEdit): string {
 
 /** Applies edits in order, each against the text the previous one left. */
 export function applyRecordEdits(source: string, edits: readonly RecordEdit[]): string {
-  return edits.reduce(applyEdit, source)
+  return withoutUnusedRefImports(edits.reduce(applyEdit, source))
+}
+
+/** Drops a generated-refs import that an edit left with nothing to refer to. */
+function withoutUnusedRefImports(source: string): string {
+  const file = parse(source)
+  let next = source
+  for (const statement of file.statements.toReversed()) {
+    if (!ts.isImportDeclaration(statement) || !ts.isStringLiteral(statement.moduleSpecifier))
+      continue
+    const from = statement.moduleSpecifier.text.replace(/\.ts$/u, '')
+    if (
+      ![CAMPAIGN_REFS_MODULE, LIBRARY_REFS_MODULE].some(
+        (module) => module.replace(/\.ts$/u, '') === from,
+      )
+    )
+      continue
+    const bindings = statement.importClause?.namedBindings
+    if (!bindings || !ts.isNamedImports(bindings) || bindings.elements.length !== 1) continue
+    const local = bindings.elements[0]!.name.text
+    const rest = source.slice(0, statement.getStart(file)) + source.slice(statement.end)
+    if (new RegExp(`\\b${local}\\.`, 'u').test(rest)) continue
+    const end = next.slice(statement.end).startsWith('\n') ? statement.end + 1 : statement.end
+    next = next.slice(0, statement.getStart(file)) + next.slice(end)
+  }
+  return next
 }
 
 /** The record the file holds, as plain values with refs as `{ ref, key }`. */

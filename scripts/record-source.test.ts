@@ -134,3 +134,16 @@ describe('addToIndex', () => {
     )
   })
 })
+
+describe('unused ref imports', () => {
+  it('drops the library refs import once the last library ref is removed', () => {
+    const withShop = applyRecordEdits(BADESH, [
+      { op: 'set', path: ['shop'], value: { type: 'alchemist', stock: [{ item: potion }] } },
+    ])
+    const removed = applyRecordEdits(withShop, [
+      { op: 'remove', path: ['shop'], expected: { type: 'alchemist', stock: [{ item: potion }] } },
+    ])
+    expect(removed).not.toContain('library-refs')
+    expect(removed).toContain("import { refs } from '#/data/generated/refs.ts'")
+  })
+})
