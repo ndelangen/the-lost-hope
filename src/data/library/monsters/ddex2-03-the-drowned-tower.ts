@@ -9,6 +9,10 @@ export default createPublicationMonsters({
   monsters: {
     bandit_captain: {
       name: 'Bandit Captain',
+      reprintedIn: [
+        refs.publications.ddex3_05_bane_of_the_tradeways,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       tags: ['any race'],
       alignment: 'any non-lawful alignment',
       languages: ['any two languages'],
@@ -74,7 +78,10 @@ export default createPublicationMonsters({
     },
     crushing_wave_reaver: {
       name: 'Crushing Wave Reaver',
-      reprintedIn: [refs.publications.princes_of_the_apocalypse],
+      reprintedIn: [
+        refs.publications.princes_of_the_apocalypse,
+        refs.publications.princes_of_the_apocalypse_d_d_encounters,
+      ],
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],

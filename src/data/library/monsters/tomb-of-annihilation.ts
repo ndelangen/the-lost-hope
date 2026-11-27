@@ -4055,49 +4055,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    hadrosaurus: {
-      name: 'Hadrosaurus',
-      page: 224,
-      alignment: 'unaligned',
-      languages: [],
-      habitats: ['Chultan jungles', 'Rivers', 'Swamps'],
-      appearance: [
-        [
-          'A crested duck-billed dinosaur with shorter forelimbs, a long balancing tail, and a muted rust crest.',
-        ],
-      ],
-      tableNotes: [
-        [
-          'Use the appendix Tail attack. A hadrosaurus raised from a hatchling can learn to carry a Small or Medium rider.',
-        ],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1/4',
-        ac: 11,
-        armor: 'natural armor',
-        hitDice: '3d10',
-        speed: { walk: 40 },
-        scores: { str: 15, dex: 10, con: 13, int: 2, wis: 10, cha: 5 },
-        skills: { perception: 'proficient' },
-        abilities: [
-          {
-            key: 'tail',
-            name: 'Tail',
-            timing: 'action',
-            icon: 'gi/GiWhiplash',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d10', type: rules.bludgeoning, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
     hew_hackinstone: {
       name: 'Hew Hackinstone',
       tags: ['dwarf'],

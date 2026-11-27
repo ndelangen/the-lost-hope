@@ -551,7 +551,10 @@ export default createPublicationMonsters({
     },
     chwinga: {
       name: 'Chwinga',
-      reprintedIn: [refs.publications.tomb_of_annihilation],
+      reprintedIn: [
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.tomb_of_annihilation,
+      ],
       alignment: 'neutral',
       languages: [],
       stats: {

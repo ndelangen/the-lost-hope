@@ -1943,6 +1943,7 @@ export default createPublicationMonsters({
     },
     aurumvas: {
       name: 'Aurumvas',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Demon', 'Category 6'],
       alignment: 'chaotic evil',
       habitats: ['Abyssal Wasteland', 'Abyssal vaults'],
@@ -2082,6 +2083,7 @@ export default createPublicationMonsters({
     },
     baron_uthrak: {
       name: 'Baron Uthrak',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Human'],
       alignment: 'lawful evil',
       habitats: ['Mercenary camps', 'Fortified hideouts'],
@@ -2916,6 +2918,7 @@ export default createPublicationMonsters({
     },
     bloodlord_varrox: {
       name: 'Bloodlord Varrox',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Hobgoblin'],
       alignment: 'lawful evil',
       habitats: ['Camp Firefield', 'Battlefields'],
@@ -3722,6 +3725,7 @@ export default createPublicationMonsters({
     },
     bugbear_commander: {
       name: 'Bugbear Commander',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Bugbear'],
       alignment: 'any alignment',
       languages: ['Speaks Common and Goblin'],
@@ -6895,6 +6899,7 @@ export default createPublicationMonsters({
     },
     dohma_raskovar: {
       name: 'Dohma Raskovar',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Orc'],
       page: 213,
       alignment: 'lawful evil',
@@ -7556,6 +7561,7 @@ export default createPublicationMonsters({
     },
     empyrean_stag: {
       name: 'Empyrean Stag',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically neutral good',
       languages: ['Speaks all languages'],
       tableNotes: [['Role: Support']],
@@ -8118,6 +8124,7 @@ export default createPublicationMonsters({
     },
     fire_giant_lightbearer: {
       name: 'Fire Giant Lightbearer',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'any alignment',
       languages: ['Speaks Giant'],
       tableNotes: [['Role: Support'], ['The bonus action is printed as "Travel by Fire (3/day)".']],
@@ -8242,6 +8249,7 @@ export default createPublicationMonsters({
     },
     fire_giant_red_fist: {
       name: 'Fire Giant Red Fist',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'any alignment',
       languages: ['Speaks Giant'],
       tableNotes: [['Role: Soldier']],
@@ -8572,6 +8580,7 @@ export default createPublicationMonsters({
     },
     force_of_blood: {
       name: 'Force of Blood',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Earth', 'Fire', 'Water'],
       page: 94,
       alignment: 'any alignment',
@@ -8803,6 +8812,7 @@ export default createPublicationMonsters({
     },
     force_of_iron: {
       name: 'Force of Iron',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Earth', 'Fire'],
       page: 96,
       alignment: 'any alignment',
@@ -8948,6 +8958,7 @@ export default createPublicationMonsters({
     },
     forzaantilirys: {
       name: 'Forzaantilirys',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'lawful evil',
       habitats: ['Volcanoes', 'Lava lakes', 'Mount Brazen'],
       appearance: [
@@ -8968,6 +8979,7 @@ export default createPublicationMonsters({
         ],
         ['Also immune to the Dazed condition.'],
       ],
+      languages: ['Common', 'Draconic'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -9469,6 +9481,7 @@ export default createPublicationMonsters({
     },
     gem_jelly: {
       name: 'Gem Jelly',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Brute']],
@@ -10262,6 +10275,7 @@ export default createPublicationMonsters({
     },
     goblin_assassin: {
       name: 'Goblin Assassin',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Goblin'],
       alignment: 'any alignment',
       languages: ['Common and Goblin'],
@@ -10471,6 +10485,7 @@ export default createPublicationMonsters({
     },
     goblin_sniper: {
       name: 'Goblin Sniper',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Goblin'],
       alignment: 'any alignment',
       languages: ['Common and Goblin'],
@@ -10550,6 +10565,7 @@ export default createPublicationMonsters({
     },
     goblin_spinecleaver: {
       name: 'Goblin Spinecleaver',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Goblin'],
       alignment: 'any alignment',
       languages: ['Common and Goblin'],
@@ -10626,6 +10642,7 @@ export default createPublicationMonsters({
     },
     goblin_underboss: {
       name: 'Goblin Underboss',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Goblin'],
       alignment: 'any alignment',
       languages: ['Common and Goblin'],
@@ -10730,6 +10747,7 @@ export default createPublicationMonsters({
     },
     goblin_warrior: {
       name: 'Goblin Warrior',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Goblin'],
       alignment: 'any alignment',
       languages: ['Common and Goblin'],
@@ -12659,6 +12677,7 @@ export default createPublicationMonsters({
     },
     hobgoblin_firerunner: {
       name: 'Hobgoblin Firerunner',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Hobgoblin'],
       alignment: 'any alignment',
       habitats: ['Camp Firefield', 'War camps', 'Desert settlements'],
@@ -12973,6 +12992,7 @@ export default createPublicationMonsters({
     },
     hobgoblin_trooper: {
       name: 'Hobgoblin Trooper',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Hobgoblin'],
       alignment: 'any alignment',
       habitats: ['Camp Firefield', 'War camps', 'Fortified settlements'],
@@ -13057,6 +13077,7 @@ export default createPublicationMonsters({
     },
     hobgoblin_war_mage: {
       name: 'Hobgoblin War Mage',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Hobgoblin'],
       alignment: 'any alignment',
       habitats: ['Camp Firefield', 'War camps', 'Desert and tropical settlements'],
@@ -13416,6 +13437,7 @@ export default createPublicationMonsters({
     },
     human_death_cultist: {
       name: 'Human Death Cultist',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Human'],
       alignment: 'any alignment',
       habitats: ['Crypts', 'Graveyards', 'Desecrated temples'],
@@ -13660,6 +13682,7 @@ export default createPublicationMonsters({
     },
     human_raider: {
       name: 'Human Raider',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Human'],
       alignment: 'any alignment',
       habitats: ['Woodland roads', 'Remote settlements', 'Bandit camps'],
@@ -13754,6 +13777,7 @@ export default createPublicationMonsters({
     },
     human_scoundrel: {
       name: 'Human Scoundrel',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Human'],
       alignment: 'any alignment',
       habitats: ['Settlements', 'Back alleys', 'Warehouse districts'],
@@ -13836,6 +13860,7 @@ export default createPublicationMonsters({
     },
     human_storm_wizard: {
       name: 'Human Storm Wizard',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Human'],
       alignment: 'any alignment',
       habitats: ['Settlements', 'Coastal towers', 'Arcane colleges'],
@@ -13947,6 +13972,7 @@ export default createPublicationMonsters({
     },
     human_trickshot: {
       name: 'Human Trickshot',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Human'],
       alignment: 'any alignment',
       habitats: ['Settlements', 'Rooftops', 'Woodland roads'],
@@ -14692,6 +14718,7 @@ export default createPublicationMonsters({
     },
     kingfissure_worm: {
       name: 'Kingfissure Worm',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Underground tunnels', 'Fissures', 'Burrows beneath roads and settlements'],
@@ -21103,6 +21130,7 @@ export default createPublicationMonsters({
     },
     orc_bloodrunner: {
       name: 'Orc Bloodrunner',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Orc'],
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
@@ -21435,6 +21463,7 @@ export default createPublicationMonsters({
     },
     orc_godcaller: {
       name: 'Orc Godcaller',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Orc'],
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
@@ -21522,6 +21551,7 @@ export default createPublicationMonsters({
     },
     orc_rampart: {
       name: 'Orc Rampart',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Orc'],
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
@@ -21589,6 +21619,7 @@ export default createPublicationMonsters({
     },
     orc_terranova: {
       name: 'Orc Terranova',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Orc'],
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
@@ -22972,6 +23003,7 @@ export default createPublicationMonsters({
     },
     queen_bargnot: {
       name: 'Queen Bargnot',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Goblin'],
       alignment: 'neutral evil',
       languages: ['Common and Goblin'],
@@ -23469,6 +23501,7 @@ export default createPublicationMonsters({
     },
     ruinant: {
       name: 'Ruinant',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Demon', 'Category 2'],
       alignment: 'typically chaotic evil',
       habitats: ['Abyssal Wasteland'],
@@ -25682,6 +25715,7 @@ export default createPublicationMonsters({
     },
     specter_mcdm: {
       name: 'Specter (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Incorporeal'],
       alignment: 'typically chaotic evil',
       languages: ['Speaks the languages it knew in life'],
@@ -26549,6 +26583,7 @@ export default createPublicationMonsters({
     },
     swarm_of_spiders_mcdm: {
       name: 'Swarm of Spiders (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Caves', 'Ruins', 'Forests', 'Jagged Edge Hideaway'],
@@ -26894,6 +26929,7 @@ export default createPublicationMonsters({
     },
     thornblood: {
       name: 'Thornblood',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically neutral',
       languages: ['Speaks Sylvan'],
       tableNotes: [
@@ -27895,6 +27931,7 @@ export default createPublicationMonsters({
     },
     troll_mcdm: {
       name: 'Troll (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically chaotic evil',
       habitats: ['Underground', 'Psionic lairs', 'Terminal Excrescence'],
       appearance: [['A large, long-limbed troll with claws and a hide that knits back together.']],
@@ -29848,6 +29885,7 @@ export default createPublicationMonsters({
     },
     wight_mcdm: {
       name: 'Wight (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically neutral evil',
       languages: ['Speaks the languages it knew in life'],
       tableNotes: [['Role: Soldier']],

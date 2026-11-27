@@ -9,6 +9,10 @@ export default createPublicationMonsters({
   monsters: {
     orog: {
       name: 'Orog',
+      reprintedIn: [
+        refs.publications.ddex3_16_assault_on_maerimydra,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       tags: ['orc'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Orc'],

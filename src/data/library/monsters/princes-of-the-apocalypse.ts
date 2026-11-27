@@ -1212,7 +1212,10 @@ export default createPublicationMonsters({
     },
     fathomer: {
       name: 'Fathomer',
-      reprintedIn: [refs.publications.ddex2_03_the_drowned_tower],
+      reprintedIn: [
+        refs.publications.ddex2_03_the_drowned_tower,
+        refs.publications.princes_of_the_apocalypse_d_d_encounters,
+      ],
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Aquan', 'Common'],
@@ -3623,6 +3626,7 @@ export default createPublicationMonsters({
     },
     oreioth: {
       name: 'Oreioth',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_d_d_encounters],
       tags: ['human'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common'],

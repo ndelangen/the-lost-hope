@@ -147,6 +147,7 @@ export default createPublicationMonsters({
     },
     khargra: {
       name: 'Khargra',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio_volume_1],
       alignment: 'neutral',
       languages: ['Terran'],
       habitats: ['Elemental Plane of Earth', 'Mines', 'Ore veins'],
@@ -214,6 +215,7 @@ export default createPublicationMonsters({
     },
     mite: {
       name: 'Mite',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio_volume_1],
       alignment: 'lawful evil',
       languages: ['Sylvan', 'Undercommon'],
       habitats: ['Feywild', 'Underground', 'Caves', 'Dungeons'],
@@ -269,6 +271,7 @@ export default createPublicationMonsters({
     },
     norker_war_leader: {
       name: 'Norker War Leader',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio_volume_1],
       tags: ['goblinoid'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Goblin'],

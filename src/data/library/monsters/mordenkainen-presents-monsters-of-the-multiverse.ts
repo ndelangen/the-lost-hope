@@ -18427,6 +18427,10 @@ export default createPublicationMonsters({
     },
     hadrosaurus: {
       name: 'Hadrosaurus',
+      reprintedIn: [
+        refs.publications.tomb_of_annihilation,
+        refs.publications.volo_s_guide_to_monsters,
+      ],
       tags: ['Dinosaur'],
       page: 96,
       alignment: 'unaligned',
@@ -18434,6 +18438,11 @@ export default createPublicationMonsters({
       habitats: ['grassland', 'swamp'],
       appearance: [
         ['A gray-green, duck-billed dinosaur with a curved reddish head crest and a long tail.'],
+      ],
+      tableNotes: [
+        [
+          'Use the appendix Tail attack. A hadrosaurus raised from a hatchling can learn to carry a Small or Medium rider.',
+        ],
       ],
       stats: {
         size: 'large',
@@ -24363,6 +24372,7 @@ export default createPublicationMonsters({
     },
     ogre_bolt_launcher: {
       name: 'Ogre Bolt Launcher',
+      reprintedIn: [refs.publications.mordenkainen_s_tome_of_foes],
       page: 200,
       alignment: 'typically chaotic evil',
       languages: ['Common', 'Giant'],
@@ -28738,7 +28748,10 @@ export default createPublicationMonsters({
     },
     stegosaurus: {
       name: 'Stegosaurus',
-      reprintedIn: [refs.publications.tomb_of_annihilation],
+      reprintedIn: [
+        refs.publications.tomb_of_annihilation,
+        refs.publications.volo_s_guide_to_monsters,
+      ],
       tags: ['Dinosaur'],
       page: 96,
       alignment: 'unaligned',

@@ -4642,6 +4642,7 @@ export default createPublicationMonsters({
     },
     phantom_warrior: {
       name: 'Phantom Warrior',
+      reprintedIn: [refs.publications.ddal04_09_the_tempter],
       alignment: 'any alignment',
       languages: ['any languages it knew in life'],
       appearance: [

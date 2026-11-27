@@ -8575,44 +8575,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    hadrosaurus: {
-      name: 'Hadrosaurus',
-      page: 140,
-      alignment: 'unaligned',
-      habitats: ['grassland', 'swamp'],
-      appearance: [
-        [
-          'A heavy-bodied, crested herbivore with a broad beak, a long tapering tail, and muted olive skin.',
-        ],
-      ],
-      languages: [],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1/4',
-        ac: 11,
-        armor: 'natural armor',
-        hitDice: '3d10',
-        speed: { walk: 40 },
-        scores: { str: 15, dex: 10, con: 13, int: 2, wis: 10, cha: 5 },
-        skills: { perception: 'proficient' },
-        abilities: [
-          {
-            key: 'tail',
-            name: 'Tail',
-            timing: 'action',
-            icon: 'gi/GiWhiplash',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d10', type: rules.bludgeoning, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
     hobgoblin_devastator: {
       name: 'Hobgoblin Devastator',
       tags: ['goblinoid'],
@@ -13078,43 +13040,6 @@ export default createPublicationMonsters({
                 { dice: '1d6', type: rules.slashing, addModifier: true },
                 { dice: '2d6', type: rules.necrotic },
               ],
-            },
-          },
-        ],
-      },
-    },
-    stegosaurus: {
-      name: 'Stegosaurus',
-      page: 140,
-      alignment: 'unaligned',
-      habitats: ['grassland', 'forest'],
-      appearance: [
-        [
-          'A low, stocky dinosaur with tall russet back plates, thick legs, and a long tail tipped with spikes.',
-        ],
-      ],
-      languages: [],
-      stats: {
-        size: 'huge',
-        type: 'beast',
-        cr: '4',
-        ac: 13,
-        armor: 'natural armor',
-        hitDice: '8d12',
-        speed: { walk: 40 },
-        scores: { str: 20, dex: 9, con: 17, int: 2, wis: 11, cha: 5 },
-        abilities: [
-          {
-            key: 'tail',
-            name: 'Tail',
-            timing: 'action',
-            icon: 'gi/GiWhiplash',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 10,
-              damage: [{ dice: '6d6', type: rules.piercing, addModifier: true }],
             },
           },
         ],

@@ -965,6 +965,16 @@ export default createPublicationMonsters({
     },
     veteran: {
       name: 'Veteran',
+      reprintedIn: [
+        refs.publications.ddex1_10_tyranny_in_phlan,
+        refs.publications.ddex1_14_escape_from_phlan,
+        refs.publications.ddex2_02_embers_of_elmwood,
+        refs.publications.ddex2_04_mayhem_in_the_earthspur_mines,
+        refs.publications.ddex3_02_shackles_of_blood,
+        refs.publications.ddex3_08_the_malady_of_elventree,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],

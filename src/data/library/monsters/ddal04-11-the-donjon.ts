@@ -10,8 +10,10 @@ export default createPublicationMonsters({
     bullywug: {
       name: 'Bullywug',
       reprintedIn: [
+        refs.publications.ddex2_01_city_of_danger,
         refs.publications.explorer_s_guide_to_wildemount,
         refs.publications.ghosts_of_saltmarsh,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
         refs.publications.the_wild_beyond_the_witchlight,
         refs.publications.waterdeep_dungeon_of_the_mad_mage,
       ],

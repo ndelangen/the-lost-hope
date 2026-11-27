@@ -1916,78 +1916,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    chwinga: {
-      name: 'Chwinga',
-      alignment: 'neutral',
-      languages: [],
-      stats: {
-        size: 'tiny',
-        type: 'elemental',
-        cr: '0',
-        ac: 15,
-        hitDice: '2d4',
-        speed: { walk: 20, climb: 20, swim: 20 },
-        scores: { str: 1, dex: 20, con: 10, int: 14, wis: 16, cha: 16 },
-        skills: { acrobatics: 'proficient', perception: 'expert', stealth: 'proficient' },
-        senses: { blindsight: 60 },
-        abilities: [
-          {
-            key: 'innate-spellcasting',
-            name: 'Innate spellcasting',
-            timing: 'trait',
-            icon: 'gi/GiWizardStaff',
-            text: [
-              "The chwinga's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material or verbal components: At will: ",
-              refs.spells.druidcraft_srd_5_1,
-              ', ',
-              refs.spells.guidance_srd_5_1,
-              ', ',
-              refs.spells.pass_without_trace_srd_5_1,
-              ', ',
-              refs.spells.resistance_srd_5_1,
-            ],
-          },
-          {
-            key: 'unusual-nature',
-            name: 'Unusual Nature',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              "The chwinga doesn't require air, food, or drink. When it dies, it turns into a handful of flower petals, a cloud of pollen, a stone statuette resembling its former self, a tiny sphere of smooth stone, or a puddle of fresh water (your choice).",
-            ],
-          },
-          {
-            key: 'evasion',
-            name: 'Evasion',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.',
-            ],
-          },
-          {
-            key: 'magical-gift',
-            name: 'Magical Gift',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              "The chwinga targets a humanoid it can see within 5 feet of it. The target gains a type=charm of the DM's choice. See 7 of the Dungeon Masters Guide for more information on supernatural charms.",
-            ],
-            uses: 1,
-            recharge: 'Long rest',
-          },
-          {
-            key: 'natural-shelter',
-            name: 'Natural Shelter',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              "The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed.",
-            ],
-          },
-        ],
-      },
-    },
     coldlight_walker: {
       name: 'Coldlight Walker',
       alignment: 'chaotic evil',
@@ -6592,6 +6520,7 @@ export default createPublicationMonsters({
     },
     sheep: {
       name: 'Sheep',
+      reprintedIn: [refs.publications.storm_king_s_thunder],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Grassland', 'Hills', 'Mountains', 'Livestock pens', 'Good Mead'],

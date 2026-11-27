@@ -145,6 +145,7 @@ export default createPublicationMonsters({
     },
     gundren_rockseeker: {
       name: 'Gundren Rockseeker',
+      reprintedIn: [refs.publications.phandelver_and_below_the_shattered_obelisk],
       alignment: 'any alignment',
       languages: [
         'any one language (usually Common)',
@@ -397,6 +398,7 @@ export default createPublicationMonsters({
     },
     nundro_rockseeker: {
       name: 'Nundro Rockseeker',
+      reprintedIn: [refs.publications.phandelver_and_below_the_shattered_obelisk],
       alignment: 'any alignment',
       languages: [
         'any one language (usually Common)',

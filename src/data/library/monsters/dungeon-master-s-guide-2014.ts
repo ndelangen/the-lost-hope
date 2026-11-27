@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     larva: {
       name: 'Larva',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       alignment: 'neutral evil',
       languages: ["understands the languages it knew in life but can't speak"],
       habitats: ['Hades', 'Lower Planes'],

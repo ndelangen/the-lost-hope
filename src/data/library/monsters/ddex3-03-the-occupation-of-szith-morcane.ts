@@ -11,7 +11,9 @@ export default createPublicationMonsters({
       name: 'Barlgura',
       reprintedIn: [
         refs.publications.critical_role_call_of_the_netherdeep,
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
         refs.publications.monster_manual_2014,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
         refs.publications.waterdeep_dragon_heist,
         refs.publications.waterdeep_dungeon_of_the_mad_mage,
       ],
@@ -303,6 +305,7 @@ export default createPublicationMonsters({
     },
     drow: {
       name: 'Drow',
+      reprintedIn: [refs.publications.ddex3_07_herald_of_the_moon],
       tags: ['elf'],
       alignment: 'neutral evil',
       languages: ['Elvish', 'Undercommon'],

@@ -979,6 +979,7 @@ export default createPublicationMonsters({
     },
     langdedrosa_cyanwrath: {
       name: 'Langdedrosa Cyanwrath',
+      reprintedIn: [refs.publications.hoard_of_the_dragon_queen_d_d_encounters],
       tags: ['half-dragon'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],

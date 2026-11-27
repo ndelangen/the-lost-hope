@@ -5371,7 +5371,12 @@ export default createPublicationMonsters({
     },
     berserker: {
       name: 'Berserker',
-      reprintedIn: [refs.publications.hoard_of_the_dragon_queen_online_supplement],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex1_12_raiders_of_the_twilight_marsh,
+        refs.publications.ddex2_03_the_drowned_tower,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+      ],
       tags: ['any race'],
       alignment: 'any chaotic alignment',
       languages: ['any one language (usually Common)'],
@@ -6215,6 +6220,13 @@ export default createPublicationMonsters({
     },
     chimera: {
       name: 'Chimera',
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
+        refs.publications.ddex2_04_mayhem_in_the_earthspur_mines,
+        refs.publications.monster_manual_2014,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       alignment: 'chaotic evil',
       languages: ['understands Draconic but can’t speak'],
       stats: {
@@ -6943,6 +6955,8 @@ export default createPublicationMonsters({
     cultist: {
       name: 'Cultist',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep2_mulmaster_undone_v2,
         refs.publications.ddex2_02_embers_of_elmwood,
         refs.publications.ddex2_05_flames_of_kythorn,
         refs.publications.ddex3_01_harried_in_hillsfar,
@@ -8139,6 +8153,7 @@ export default createPublicationMonsters({
     fire_giant: {
       name: 'Fire Giant',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddep2_mulmaster_undone_v2,
         refs.publications.ddex3_04_it_s_all_in_the_blood,
         refs.publications.ddex3_15_szith_morcane_unbound,
@@ -8300,6 +8315,7 @@ export default createPublicationMonsters({
     flying_sword: {
       name: 'Flying Sword',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddex1_09_outlaws_of_the_iron_route,
         refs.publications.ddex2_05_flames_of_kythorn,
       ],
@@ -8402,6 +8418,7 @@ export default createPublicationMonsters({
     },
     frost_giant: {
       name: 'Frost Giant',
+      reprintedIn: [refs.publications.basic_rules_2018],
       alignment: 'neutral evil',
       languages: ['Giant'],
       stats: {
@@ -8872,9 +8889,24 @@ export default createPublicationMonsters({
     },
     giant_lizard: {
       name: 'Giant Lizard',
-      reprintedIn: [refs.publications.hoard_of_the_dragon_queen_online_supplement],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.monster_manual_2014,
+      ],
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Underdark', 'Caverns', 'Woodland', 'Wetlands'],
+      appearance: [
+        [
+          'A low, mount-sized lizard with pebbled olive-gray scales, four clawed limbs, a wedge-shaped head, and a long tapering tail.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Residents of the Underdark and reptilian humanoids use giant lizards as riding and draft animals.',
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -9255,6 +9287,7 @@ export default createPublicationMonsters({
     },
     gnoll: {
       name: 'Gnoll',
+      reprintedIn: [refs.publications.basic_rules_2018],
       tags: ['gnoll'],
       alignment: 'chaotic evil',
       languages: ['Gnoll'],
@@ -9436,6 +9469,7 @@ export default createPublicationMonsters({
     goblin: {
       name: 'Goblin',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddal04_01_the_suits_of_the_mists,
         refs.publications.ddex1_01_defiance_in_phlan,
         refs.publications.ddex1_12_raiders_of_the_twilight_marsh,
@@ -9827,6 +9861,7 @@ export default createPublicationMonsters({
     },
     guard: {
       name: 'Guard',
+      reprintedIn: [refs.publications.basic_rules_2018],
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],
@@ -10110,6 +10145,14 @@ export default createPublicationMonsters({
     },
     hell_hound: {
       name: 'Hell Hound',
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddal04_09_the_tempter,
+        refs.publications.ddex1_13_pool_of_radiance_resurgent,
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.ddex3_15_szith_morcane_unbound,
+        refs.publications.monster_manual_2014,
+      ],
       alignment: 'lawful evil',
       languages: ['understands Infernal but can’t speak it'],
       stats: {
@@ -10279,6 +10322,11 @@ export default createPublicationMonsters({
     },
     hobgoblin: {
       name: 'Hobgoblin',
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep1_corruption_in_kryptgarden,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+      ],
       tags: ['goblinoid'],
       alignment: 'lawful evil',
       languages: ['Common', 'Goblin'],
@@ -11023,6 +11071,7 @@ export default createPublicationMonsters({
     knight: {
       name: 'Knight',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddex1_04_dues_for_the_dead,
         refs.publications.ddex1_14_escape_from_phlan,
         refs.publications.ddex3_14_death_on_the_wall,
@@ -11865,6 +11914,7 @@ export default createPublicationMonsters({
     },
     merfolk: {
       name: 'Merfolk',
+      reprintedIn: [refs.publications.basic_rules_2018],
       tags: ['merfolk'],
       alignment: 'neutral',
       languages: ['Aquan', 'Common'],
@@ -12586,6 +12636,7 @@ export default createPublicationMonsters({
     ochre_jelly: {
       name: 'Ochre Jelly',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
         refs.publications.ddex3_07_herald_of_the_moon,
       ],
@@ -12937,6 +12988,7 @@ export default createPublicationMonsters({
     orc: {
       name: 'Orc',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddal04_01_the_suits_of_the_mists,
         refs.publications.ddal04_07_the_innocent,
         refs.publications.ddal04_12_the_raven,
@@ -13999,7 +14051,10 @@ export default createPublicationMonsters({
     },
     satyr: {
       name: 'Satyr',
-      reprintedIn: [refs.publications.ddep1_corruption_in_kryptgarden],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep1_corruption_in_kryptgarden,
+      ],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan'],
       stats: {
@@ -14562,6 +14617,7 @@ export default createPublicationMonsters({
     skeleton: {
       name: 'Skeleton',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddal04_11_the_donjon,
         refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
         refs.publications.ddex2_03_the_drowned_tower,
@@ -18395,6 +18451,7 @@ export default createPublicationMonsters({
     },
     young_green_dragon: {
       name: 'Young Green Dragon',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.monster_manual_2014],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
       stats: {

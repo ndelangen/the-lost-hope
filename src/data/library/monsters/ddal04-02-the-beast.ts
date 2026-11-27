@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     blood_hawk: {
       name: 'Blood Hawk',
+      reprintedIn: [refs.publications.ddal04_03_the_executioner],
       page: 27,
       alignment: 'unaligned',
       languages: [],

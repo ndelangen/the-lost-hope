@@ -9,6 +9,10 @@ export default createPublicationMonsters({
   monsters: {
     skeleton: {
       name: 'Skeleton',
+      reprintedIn: [
+        refs.publications.ddex1_04_dues_for_the_dead,
+        refs.publications.ddex1_05_the_courting_of_fire,
+      ],
       alignment: 'lawful evil',
       languages: ['understands all languages it knew in life but can’t speak'],
       stats: {

@@ -2026,6 +2026,7 @@ export default createPublicationMonsters({
     },
     giant_mimic: {
       name: 'Giant Mimic',
+      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
       tags: ['shapechanger'],
       alignment: 'neutral',
       languages: [],

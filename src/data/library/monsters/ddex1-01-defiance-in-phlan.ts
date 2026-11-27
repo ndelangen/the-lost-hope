@@ -9,6 +9,22 @@ export default createPublicationMonsters({
   monsters: {
     guard: {
       name: 'Guard',
+      reprintedIn: [
+        refs.publications.ddex1_03_shadows_over_the_moonsea,
+        refs.publications.ddex1_06_the_scroll_thief,
+        refs.publications.ddex1_09_outlaws_of_the_iron_route,
+        refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
+        refs.publications.ddex2_01_city_of_danger,
+        refs.publications.ddex2_02_embers_of_elmwood,
+        refs.publications.ddex2_05_flames_of_kythorn,
+        refs.publications.ddex3_05_bane_of_the_tradeways,
+        refs.publications.ddex3_12_hillsfar_reclaimed,
+        refs.publications.ddex3_14_death_on_the_wall,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.monster_manual_2024,
+        refs.publications.rise_of_tiamat_online_supplement,
+        refs.publications.stranger_things_welcome_to_the_hellfire_club,
+      ],
       tags: ['any race'],
       alignment: 'any alignment',
       languages: ['any one language (usually Common)'],

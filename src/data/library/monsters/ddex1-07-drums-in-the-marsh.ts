@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     lizardfolk_shaman: {
       name: 'Lizardfolk Shaman',
+      reprintedIn: [refs.publications.ddex1_12_raiders_of_the_twilight_marsh],
       tags: ['lizardfolk'],
       alignment: 'neutral',
       languages: ['Draconic'],
