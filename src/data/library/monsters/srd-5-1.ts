@@ -8913,6 +8913,7 @@ export default createPublicationMonsters({
         refs.publications.basic_rules_2018,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
         refs.publications.monster_manual_2014,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
       ],
       alignment: 'unaligned',
       languages: [],
@@ -8937,6 +8938,23 @@ export default createPublicationMonsters({
         speed: { walk: 30, climb: 30 },
         scores: { str: 15, dex: 12, con: 13, int: 2, wis: 10, cha: 5 },
         senses: { darkvision: 30 },
+        options: [
+          {
+            key: 'variant',
+            name: 'Variant',
+            abilities: [
+              {
+                key: 'spider-climb',
+                name: 'Spider Climb',
+                timing: 'trait',
+                icon: 'lucide/MoveUp',
+                text: [
+                  'The creature can traverse difficult surfaces, including ceilings, without an ability check.',
+                ],
+              },
+            ],
+          },
+        ],
         abilities: [
           {
             key: 'bite',

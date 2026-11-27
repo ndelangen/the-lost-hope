@@ -132,6 +132,7 @@ import plane_shift_ixalan from './plane-shift-ixalan.ts'
 import plane_shift_kaladesh from './plane-shift-kaladesh.ts'
 import plane_shift_zendikar from './plane-shift-zendikar.ts'
 import planescape_adventures_in_the_multiverse from './planescape-adventures-in-the-multiverse.ts'
+import player_s_handbook_2024 from './player-s-handbook-2024.ts'
 import princes_of_the_apocalypse_d_d_encounters from './princes-of-the-apocalypse-d-d-encounters.ts'
 import princes_of_the_apocalypse_online_supplement from './princes-of-the-apocalypse-online-supplement.ts'
 import princes_of_the_apocalypse from './princes-of-the-apocalypse.ts'
@@ -309,6 +310,7 @@ export default [
   plane_shift_ixalan,
   plane_shift_kaladesh,
   plane_shift_zendikar,
+  player_s_handbook_2024,
   planescape_adventures_in_the_multiverse,
   princes_of_the_apocalypse,
   princes_of_the_apocalypse_d_d_encounters,

@@ -1731,38 +1731,6 @@
   },
   {
     "type": "monsters",
-    "slug": "gazer-familiar-variant",
-    "name": "Gazer (Familiar Variant)",
-    "summary": "",
-    "group": "Aberration",
-    "printings": [
-      {
-        "id": "printing-62c617e5f301c3aec41db770",
-        "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "source": "https://www.dndbeyond.com/monsters/2560820-gazer-familiar-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/392/1000/1000/637880557564043770.jpeg",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "gazer"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "mordenkainen_presents_monsters_of_the_multiverse"
-          }
-        }
-      }
-    ],
-    "groups": ["Aberration"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/gazer-familiar-variant-4d5ad34bddb79be6.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
     "slug": "gazer-familiar",
     "name": "Gazer Familiar",
     "summary": "",
@@ -2883,37 +2851,6 @@
       }
     ],
     "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "geryon-summoner-variant",
-    "name": "Geryon (Summoner Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-31962d474735b2931eeb1f04",
-        "label": "Mordenkainen’s Tome of Foes",
-        "source": "https://www.dndbeyond.com/monsters/302941-geryon-summoner-variant",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "geryon"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "mordenkainen_s_tome_of_foes"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/geryon-summoner-7deafefeccc3b962.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
   },
   {
     "type": "monsters",
@@ -4814,31 +4751,6 @@
       }
     ],
     "groups": ["Unclassified"]
-  },
-  {
-    "type": "monsters",
-    "slug": "giant",
-    "name": "Giant",
-    "summary": "",
-    "group": "Giant",
-    "printings": [
-      {
-        "id": "printing-295e34a2df549c9af9eb80ca",
-        "label": "Plane Shift: Kaladesh",
-        "source": "https://5e.tools/bestiary.html#giant_psk",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "stone_giant"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "plane_shift_kaladesh"
-          }
-        }
-      }
-    ],
-    "groups": ["Giant"]
   },
   {
     "type": "monsters",
@@ -17562,38 +17474,6 @@
             "key": "waterdeep_dungeon_of_the_mad_mage"
           }
         }
-      }
-    ],
-    "groups": ["Aberration"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/gray-slaad-a26a1408374cfa7b.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "gray-slaad-control-gem-variant",
-    "name": "Gray Slaad (control gem variant)",
-    "summary": "",
-    "group": "Aberration",
-    "printings": [
-      {
-        "id": "printing-3e8f0e2425aa1dc6d4926bbb",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301511-gray-slaad-control-gem-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5736/346/1000/1000/636898197609134638.jpeg",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "gray_slaad"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
       },
       {
         "id": "printing-14dafc8bdec759fa5a6b442b",
@@ -17631,38 +17511,7 @@
     "groups": ["Aberration"],
     "art": [
       {
-        "file": "/assets/library/worker-art/gray-slaad-control-gem-8d2b98c3b5064893.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "gray-slaad-control-gem",
-    "name": "Gray Slaad (Control Gem)",
-    "summary": "",
-    "group": "Aberration",
-    "printings": [
-      {
-        "id": "printing-312f2033facdc856d009",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#gray%20slaad%20(control%20gem)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "gray_slaad"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Aberration"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/gray-slaad-control-gem-78267ee1e9c1b110.webp",
+        "file": "/assets/library/worker-art/gray-slaad-a26a1408374cfa7b.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -19197,7 +19046,13 @@
             "ref": "publication",
             "key": "monster_manual_2014"
           }
-        }
+        },
+        "art": [
+          {
+            "file": "/assets/library/worker-art/green-slaad-18739d5d1376e4b2.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-fd7a918978b1b5ba66337f79",
@@ -19252,69 +19107,6 @@
     "art": [
       {
         "file": "/assets/library/worker-art/green-slaad-18739d5d1376e4b2.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "green-slaad-control-gem-variant",
-    "name": "Green Slaad (control gem variant)",
-    "summary": "",
-    "group": "Aberration",
-    "printings": [
-      {
-        "id": "printing-4764e9cde92fe482f2edebe8",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301513-green-slaad-control-gem-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5736/364/1000/1000/636898199867760230.jpeg",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/green-slaad-18739d5d1376e4b2.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "green_slaad"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Aberration"]
-  },
-  {
-    "type": "monsters",
-    "slug": "green-slaad-control-gem",
-    "name": "Green Slaad (Control Gem)",
-    "summary": "",
-    "group": "Aberration",
-    "printings": [
-      {
-        "id": "printing-e16336264b831e4485c7",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#green%20slaad%20(control%20gem)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "green_slaad"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Aberration"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/green-slaad-control-gem-827820f7f610cb80.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -30662,69 +30454,6 @@
   },
   {
     "type": "monsters",
-    "slug": "hezrou-summoner-variant",
-    "name": "Hezrou (Summoner Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-7137d7e77be4d7e20d6b758d",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301636-hezrou-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/765/1000/1000/638061937385102404.png",
-        "art": [
-          {
-            "file": "/assets/library/monsters/hezrou.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "hezrou"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "hezrou-summoner",
-    "name": "Hezrou (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-a7ddad3967862d6a821a",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#hezrou%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "hezrou"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/hezrou-summoner-d4baa24927f3d528.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
     "slug": "hieracosphinx",
     "name": "Hieracosphinx",
     "summary": "",
@@ -31208,22 +30937,7 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/hill-giant.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "hill-giant-optional-actions",
-    "name": "Hill Giant (Optional Actions)",
-    "summary": "",
-    "group": "Giant",
-    "printings": [
+      },
       {
         "id": "printing-dd27f1086994fdf3ef6e",
         "label": "Storm King's Thunder",
@@ -31240,7 +30954,6 @@
         }
       }
     ],
-    "groups": ["Giant"],
     "art": [
       {
         "file": "/assets/library/monsters/hill-giant.png",
@@ -34501,69 +34214,6 @@
     "art": [
       {
         "file": "/assets/library/monsters/horned-devil.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "horned-devil-summoner-variant",
-    "name": "Horned Devil (Summoner Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-754faa6de67f601d0d616397",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301714-horned-devil-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30782/161/1000/1000/638061952666888744.png",
-        "art": [
-          {
-            "file": "/assets/library/monsters/horned-devil.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "horned_devil"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "horned-devil-summoner",
-    "name": "Horned Devil (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-3191eaed82c8c0f4fe27",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#horned%20devil%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "horned_devil"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/horned-devil-summoner-30a9135dee76eaba.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -39420,38 +39070,6 @@
   },
   {
     "type": "monsters",
-    "slug": "ice-devil-summoner-variant",
-    "name": "Ice Devil (Summoner Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-7a10b4e774c5ab38feb4d922",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301718-ice-devil-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30782/166/1000/1000/638061952768978785.png",
-        "art": [
-          {
-            "file": "/assets/library/monsters/ice-devil.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "ice_devil"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
     "slug": "ice-devil-summoner",
     "name": "Ice Devil (Summoner)",
     "summary": "",
@@ -39705,38 +39323,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
-  },
-  {
-    "type": "monsters",
-    "slug": "ice-mephit-summoner-variant",
-    "name": "Ice Mephit (Summoner Variant)",
-    "summary": "",
-    "group": "Elemental",
-    "printings": [
-      {
-        "id": "printing-2d6284b8d3cb228736f2a217",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301790-ice-mephit-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/310/1000/1000/636898380705533053.jpeg",
-        "art": [
-          {
-            "file": "/assets/library/monsters/ice-mephit.webp",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "ice_mephit_summoner_variant"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Elemental"]
   },
   {
     "type": "monsters",
@@ -40675,6 +40261,21 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
+      },
+      {
+        "id": "printing-e00402ccfad2d818a57e99c5",
+        "label": "Curse of Strahd",
+        "source": "https://5e.tools/bestiary.html#majesto_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "imp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
+          }
+        }
       }
     ],
     "art": [
@@ -40683,38 +40284,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
-  },
-  {
-    "type": "monsters",
-    "slug": "imp-familiar-variant",
-    "name": "Imp (Familiar Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-e045f210001a2b2ef1f15918",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301723-imp-familiar-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5737/861/1000/1000/636898342833024339.jpeg",
-        "art": [
-          {
-            "file": "/assets/library/monsters/imp.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "imp"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
   },
   {
     "type": "monsters",
@@ -66751,6 +66320,51 @@
             "key": "rise_of_tiamat_online_supplement"
           }
         }
+      },
+      {
+        "id": "printing-3a28020f55ec972f9bb8bded",
+        "label": "Journeys through the Radiant Citadel",
+        "source": "https://5e.tools/bestiary.html#ashen%20heir%20mage_jttrc",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mage"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "journeys_through_the_radiant_citadel"
+          }
+        }
+      },
+      {
+        "id": "printing-7186de78191f2a05fca851e1",
+        "label": "Princes of the Apocalypse",
+        "source": "https://5e.tools/bestiary.html#cavil%20zaltobar_pota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mage"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse"
+          }
+        }
+      },
+      {
+        "id": "printing-e33f1d9870e15b6c706555ba",
+        "label": "Curse of Strahd",
+        "source": "https://5e.tools/bestiary.html#victor%20vallakovich_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mage"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
+          }
+        }
       }
     ],
     "art": [
@@ -66759,37 +66373,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
-  },
-  {
-    "type": "monsters",
-    "slug": "mage-familiar",
-    "name": "Mage (Familiar)",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
-      {
-        "id": "printing-0a6d9d6b1e03fede0a2dbf47",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#mage%20(familiar)_mm",
-        "art": [
-          {
-            "file": "/assets/library/monsters/mage.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "mage_familiar"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Humanoid"]
   },
   {
     "type": "monsters",
@@ -67387,38 +66970,6 @@
   },
   {
     "type": "monsters",
-    "slug": "magma-mephit-summoner-variant",
-    "name": "Magma Mephit (Summoner Variant)",
-    "summary": "",
-    "group": "Elemental",
-    "printings": [
-      {
-        "id": "printing-85915bef4119f4190eb4cf89",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301798-magma-mephit-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/375/1000/1000/636898386061477300.jpeg",
-        "art": [
-          {
-            "file": "/assets/library/monsters/magma-mephit.webp",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "magma_mephit_summoner_variant"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Elemental"]
-  },
-  {
-    "type": "monsters",
     "slug": "magma-mephit-summoner",
     "name": "Magma Mephit (Summoner)",
     "summary": "",
@@ -67877,31 +67428,6 @@
         "edition": "2014 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#mahadi%20the%20rakshasa_bgdia"
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "majesto",
-    "name": "Majesto",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-e00402ccfad2d818a57e99c5",
-        "label": "Curse of Strahd",
-        "source": "https://5e.tools/bestiary.html#majesto_cos",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "imp"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "curse_of_strahd"
-          }
-        }
       }
     ],
     "groups": ["Fiend"]
@@ -69509,7 +69035,13 @@
             "ref": "publication",
             "key": "monster_manual_2014"
           }
-        }
+        },
+        "art": [
+          {
+            "file": "/assets/library/worker-art/marid-989643ca1c977051.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-fab70ca83fd9b577dea48ae3",
@@ -69583,68 +69115,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
-  },
-  {
-    "type": "monsters",
-    "slug": "marid-disguises",
-    "name": "Marid (Disguises)",
-    "summary": "",
-    "group": "Elemental",
-    "printings": [
-      {
-        "id": "printing-10106c815fe877d47e7d02a8",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#marid%20(disguises)_mm",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/marid-989643ca1c977051.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "marid_disguises"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Elemental"]
-  },
-  {
-    "type": "monsters",
-    "slug": "marid-wishes",
-    "name": "Marid (Wishes)",
-    "summary": "",
-    "group": "Elemental",
-    "printings": [
-      {
-        "id": "printing-a8ff7dd5188c39ace62746c9",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#marid%20(wishes)_mm",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/marid-989643ca1c977051.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "marid"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Elemental"]
   },
   {
     "type": "monsters",
@@ -70032,69 +69502,6 @@
         "status": "Combat summary"
       }
     ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/marilith.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "marilith-summoner-variant",
-    "name": "Marilith (Summoner Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-47515f2aecc0789c15bf9398",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301638-marilith-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/769/1000/1000/638061937521702417.png",
-        "art": [
-          {
-            "file": "/assets/library/monsters/marilith.webp",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "marilith"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "marilith-summoner",
-    "name": "Marilith (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-f35e77a44e69397635df",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#marilith%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "marilith"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/monsters/marilith.webp",
@@ -74290,7 +73697,13 @@
             "ref": "publication",
             "key": "monster_manual_2014"
           }
-        }
+        },
+        "art": [
+          {
+            "file": "/assets/library/worker-art/mezzoloth-ec3dd0b64601db1d.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-f944eba24e5ddae19a9a9d63",
@@ -74405,69 +73818,6 @@
     "art": [
       {
         "file": "/assets/library/worker-art/mezzoloth-ec3dd0b64601db1d.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "mezzoloth-summoner-variant",
-    "name": "Mezzoloth (summoner variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-4377436bfc47ac4865085053",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301437-mezzoloth-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5735/914/1000/1000/636898146502424763.png",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/mezzoloth-ec3dd0b64601db1d.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "mezzoloth"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "mezzoloth-summoner",
-    "name": "Mezzoloth (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-183c7e7f77d7fcd49c00",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#mezzoloth%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "mezzoloth"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/mezzoloth-summoner-bd23de3b50691ed2.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -78362,53 +77712,6 @@
   },
   {
     "type": "monsters",
-    "slug": "molydeus-summoner-variant",
-    "name": "Molydeus (Summoner Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-cb9a6843558a539ffda7c2be",
-        "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "source": "https://www.dndbeyond.com/monsters/2560876-molydeus-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/540/1000/1000/637880557836408940.jpeg",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "molydeus"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "mordenkainen_presents_monsters_of_the_multiverse"
-          }
-        }
-      },
-      {
-        "id": "printing-ccebc700bcdc74525c5fbf5b",
-        "label": "Mordenkainen’s Tome of Foes",
-        "source": "https://www.dndbeyond.com/monsters/302926-molydeus-summoner-variant",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "molydeus"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "mordenkainen_s_tome_of_foes"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/molydeus-summoner-variant-64d8b44b938f33a3.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
     "slug": "molydeus-summoner",
     "name": "Molydeus (Summoner)",
     "summary": "",
@@ -78851,7 +78154,13 @@
             "ref": "publication",
             "key": "monster_manual_2014"
           }
-        }
+        },
+        "art": [
+          {
+            "file": "/assets/library/worker-art/monodrone-50b27a7e49c157e1.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-306885727c43605dba00ec22",
@@ -78893,37 +78202,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
-  },
-  {
-    "type": "monsters",
-    "slug": "monodrone-rogue",
-    "name": "Monodrone (Rogue)",
-    "summary": "",
-    "group": "Construct",
-    "printings": [
-      {
-        "id": "printing-288dc997b30466f73e2a4fd0",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#monodrone%20(rogue)_mm",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/monodrone-50b27a7e49c157e1.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "monodrone_rogue"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Construct"]
   },
   {
     "type": "monsters",
@@ -80397,7 +79675,13 @@
             "ref": "publication",
             "key": "monster_manual_2014"
           }
-        }
+        },
+        "art": [
+          {
+            "file": "/assets/library/worker-art/mud-mephit-cbdbb7deae8d8d70.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-ab7a83381bfdb7d915da57c3",
@@ -80556,69 +79840,6 @@
     "art": [
       {
         "file": "/assets/library/worker-art/mud-mephit-cbdbb7deae8d8d70.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "mud-mephit-summoner-variant",
-    "name": "Mud Mephit (Summoner Variant)",
-    "summary": "",
-    "group": "Elemental",
-    "printings": [
-      {
-        "id": "printing-472c07b76921cab278868f3a",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301808-mud-mephit-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/389/1000/1000/636898387526026419.jpeg",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/mud-mephit-cbdbb7deae8d8d70.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "mud_mephit"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Elemental"]
-  },
-  {
-    "type": "monsters",
-    "slug": "mud-mephit-summoner",
-    "name": "Mud Mephit (Summoner)",
-    "summary": "",
-    "group": "Elemental",
-    "printings": [
-      {
-        "id": "printing-209f5a930ecfab34366e",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#mud%20mephit%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "mud_mephit"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Elemental"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/mud-mephit-summoner-eab3b321ecdacd39.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -83230,69 +82451,6 @@
     "art": [
       {
         "file": "/assets/library/monsters/nalfeshnee.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "nalfeshnee-summoner-variant",
-    "name": "Nalfeshnee (Summoner Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-76e108eb4c56a0da6389a42f",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301651-nalfeshnee-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/774/1000/1000/638061937683772456.png",
-        "art": [
-          {
-            "file": "/assets/library/monsters/nalfeshnee.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "nalfeshnee"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "nalfeshnee-summoner",
-    "name": "Nalfeshnee (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-7bf7d137a960ce4328fd",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#nalfeshnee%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "nalfeshnee"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/nalfeshnee-summoner-408266de2321cacb.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -88745,85 +87903,6 @@
     "art": [
       {
         "file": "/assets/library/worker-art/nycaloth-b14dd6f81df98a74.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "nycaloth-summoner-variant",
-    "name": "Nycaloth (summoner variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-998170a5d92adbd9923f05f2",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/277215-nycaloth-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5552/639/1000/1000/636877778013679322.jpeg",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "nycaloth"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      },
-      {
-        "id": "printing-65457381e4461d061c290323",
-        "label": "Waterdeep: Dungeon of the Mad Mage",
-        "source": "https://www.dndbeyond.com/monsters/277215-nycaloth-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5552/639/1000/1000/636877778013679322.jpeg",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "nycaloth"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "waterdeep_dungeon_of_the_mad_mage"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/nycaloth-summoner-02b2e2d67eb073f3.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "nycaloth-summoner",
-    "name": "Nycaloth (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-2762f7b17fd587961001",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#nycaloth%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "nycaloth"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/nycaloth-summoner-ac283f02284a87ab.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -99514,69 +98593,6 @@
   },
   {
     "type": "monsters",
-    "slug": "pit-fiend-summoner-variant",
-    "name": "Pit Fiend (Summoner Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-e0a47fc9653d7bd2bfb9cdbe",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301721-pit-fiend-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30782/172/1000/1000/638061952913568878.png",
-        "art": [
-          {
-            "file": "/assets/library/monsters/pit-fiend.webp",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "pit_fiend"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "pit-fiend-summoner",
-    "name": "Pit Fiend (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-f43ae6cb5b83809ec73f",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#pit%20fiend%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "pit_fiend"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/monsters/pit-fiend.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
     "slug": "pit-lord",
     "name": "Pit Lord",
     "summary": "",
@@ -104071,38 +103087,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
-  },
-  {
-    "type": "monsters",
-    "slug": "pseudodragon-familiar-variant",
-    "name": "Pseudodragon (familiar variant)",
-    "summary": "",
-    "group": "Dragon",
-    "printings": [
-      {
-        "id": "printing-77b59e2f3f098fb5201bba0b",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301548-pseudodragon-familiar-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30834/747/1000/1000/638063895946207580.png",
-        "art": [
-          {
-            "file": "/assets/library/monsters/pseudodragon.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "pseudodragon"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Dragon"]
   },
   {
     "type": "monsters",

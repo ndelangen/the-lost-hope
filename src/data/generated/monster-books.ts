@@ -147,6 +147,7 @@ export const monsterBooks: Readonly<Record<string, string>> = {
   plane_shift_kaladesh: 'plane-shift-kaladesh',
   plane_shift_zendikar: 'plane-shift-zendikar',
   planescape_adventures_in_the_multiverse: 'planescape-adventures-in-the-multiverse',
+  player_s_handbook_2024: 'player-s-handbook-2024',
   princes_of_the_apocalypse_d_d_encounters: 'princes-of-the-apocalypse-d-d-encounters',
   princes_of_the_apocalypse_online_supplement: 'princes-of-the-apocalypse-online-supplement',
   princes_of_the_apocalypse: 'princes-of-the-apocalypse',
@@ -241,6 +242,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   aberrant_host: {
     monsters_of_drakkenheim: [],
+  },
+  aberrant_spirit: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
   },
   aberrant_zealot: {
     phandelver_and_below_the_shattered_obelisk: [],
@@ -2854,9 +2859,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   centaur_skeleton: {
     tal_dorei_campaign_setting_reborn: [],
   },
-  centaur_skeleton_variant: {
-    tal_dorei_campaign_setting_reborn: [],
-  },
   centaur_trooper: {
     srd_5_2_1: ['monster_manual_2024'],
   },
@@ -3775,12 +3777,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     ],
     monster_manual_2024: [],
   },
-  dao_disguises: {
-    monster_manual_2014: [],
-  },
-  dao_wishes: {
-    monster_manual_2014: [],
-  },
   darakhul_captain: {
     tome_of_beasts_2: [],
   },
@@ -4339,12 +4335,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2024: [],
     srd_5_2_1: [],
   },
-  djinni_disguises: {
-    monster_manual_2014: [],
-  },
-  djinni_wishes: {
-    monster_manual_2014: [],
-  },
   dogmole: {
     tome_of_beasts: [],
   },
@@ -4874,9 +4864,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   duodrone: {
     monster_manual_2014: [],
   },
-  duodrone_rogue: {
-    monster_manual_2014: [],
-  },
   durixaviinox: {
     flee_mortals: ['where_evil_lives'],
   },
@@ -4914,9 +4901,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: [],
   },
   dust_mephit_summoner: {
-    monster_manual_2014: [],
-  },
-  dust_mephit_summoner_variant: {
     monster_manual_2014: [],
   },
   dvarapala: {
@@ -5004,12 +4988,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
       'srd_5_1',
     ],
     srd_5_2_1: ['monster_manual_2024'],
-  },
-  efreeti_disguises: {
-    monster_manual_2014: [],
-  },
-  efreeti_wishes: {
-    monster_manual_2014: [],
   },
   egg_hunter_adult: {
     fizban_s_treasury_of_dragons: [],
@@ -6609,14 +6587,11 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
       'basic_rules_2018',
       'hoard_of_the_dragon_queen_online_supplement',
       'monster_manual_2014',
+      'waterdeep_dungeon_of_the_mad_mage',
     ],
   },
   giant_lizard_hold_breath_and_spider_climb: {
     monster_manual_2014: [],
-  },
-  giant_lizard_variant: {
-    monster_manual_2014: [],
-    waterdeep_dungeon_of_the_mad_mage: [],
   },
   giant_lynx: {
     bigby_presents_glory_of_the_giants: [],
@@ -8494,9 +8469,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   ice_mephit_summoner: {
     monster_manual_2014: [],
   },
-  ice_mephit_summoner_variant: {
-    monster_manual_2014: [],
-  },
   ice_spider: {
     storm_king_s_thunder: [],
   },
@@ -10150,9 +10122,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   mage_apprentice: {
     monster_manual_2024: [],
   },
-  mage_familiar: {
-    monster_manual_2014: [],
-  },
   mage_hunter: {
     strixhaven_a_curriculum_of_chaos: [],
   },
@@ -10188,9 +10157,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: [],
   },
   magma_mephit_summoner: {
-    monster_manual_2014: [],
-  },
-  magma_mephit_summoner_variant: {
     monster_manual_2014: [],
   },
   magma_octopus: {
@@ -10321,9 +10287,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
       'journeys_through_the_radiant_citadel',
     ],
     monster_manual_2024: [],
-  },
-  marid_disguises: {
-    monster_manual_2014: [],
   },
   marilith: {
     monster_manual_2024: [],
@@ -10827,9 +10790,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   monodrone: {
     monster_manual_2014: ['planescape_adventures_in_the_multiverse', 'tomb_of_annihilation'],
-  },
-  monodrone_rogue: {
-    monster_manual_2014: [],
   },
   monstrous_peryton: {
     ghosts_of_saltmarsh: [],
@@ -12535,9 +12495,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   quadrone_detention_drone: {
     the_book_of_many_things: [],
   },
-  quadrone_rogue: {
-    monster_manual_2014: [],
-  },
   quaggoth: {
     monster_manual_2014: [
       'ddex3_03_the_occupation_of_szith_morcane',
@@ -13460,9 +13417,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   satyr_thornbearer: {
     mythic_odysseys_of_theros: [],
-  },
-  satyr_variant: {
-    monster_manual_2014: [],
   },
   sauriv: {
     ghosts_of_saltmarsh: [],
@@ -14771,6 +14725,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   steel_crane: {
     candlekeep_mysteries: [],
   },
+  steel_defender: {
+    tasha_s_cauldron_of_everything: [],
+  },
   steel_leaf_kavu: {
     plane_shift_dominaria: [],
   },
@@ -15889,9 +15846,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   tridrone: {
     monster_manual_2014: [],
   },
-  tridrone_rogue: {
-    monster_manual_2014: [],
-  },
   trilobite: {
     plane_shift_ixalan: [],
   },
@@ -15927,6 +15881,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
       'hoard_of_the_dragon_queen_online_supplement',
       'rise_of_tiamat_online_supplement',
       'srd_5_1',
+      'waterdeep_dungeon_of_the_mad_mage',
     ],
     monster_manual_2024: ['srd_5_2_1'],
   },
@@ -15953,9 +15908,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   troll_tumor: {
     tome_of_beasts_3: [],
-  },
-  troll_variant: {
-    monster_manual_2014: ['waterdeep_dungeon_of_the_mad_mage'],
   },
   trollkin_ironmonger: {
     tome_of_beasts_3: [],

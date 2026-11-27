@@ -273,7 +273,13 @@
             "ref": "publication",
             "key": "monster_manual_2014"
           }
-        }
+        },
+        "art": [
+          {
+            "file": "/assets/library/worker-art/quadrone-e3e18cb67846ecd3.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-13a8c50f2796bdd6c93e4f1a",
@@ -331,37 +337,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
-  },
-  {
-    "type": "monsters",
-    "slug": "quadrone-rogue",
-    "name": "Quadrone (Rogue)",
-    "summary": "",
-    "group": "Construct",
-    "printings": [
-      {
-        "id": "printing-78904939870f9d1186c82db9",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#quadrone%20(rogue)_mm",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/quadrone-e3e18cb67846ecd3.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "quadrone_rogue"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Construct"]
   },
   {
     "type": "monsters",
@@ -942,38 +917,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
-  },
-  {
-    "type": "monsters",
-    "slug": "quasit-familiar-variant",
-    "name": "Quasit (familiar variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-bf017d1e83dd6f9d63e48405",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301663-quasit-familiar-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/822/1000/1000/638061940562576460.png",
-        "art": [
-          {
-            "file": "/assets/library/monsters/quasit.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "quasit"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
   },
   {
     "type": "monsters",
@@ -5232,7 +5175,13 @@
             "ref": "publication",
             "key": "monster_manual_2014"
           }
-        }
+        },
+        "art": [
+          {
+            "file": "/assets/library/worker-art/red-slaad-b1ecafffb5e16658.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-54b2f22dc2b31f8f064c072e",
@@ -5365,69 +5314,6 @@
     "art": [
       {
         "file": "/assets/library/worker-art/red-slaad-b1ecafffb5e16658.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "red-slaad-control-gem-variant",
-    "name": "Red Slaad (control gem variant)",
-    "summary": "",
-    "group": "Aberration",
-    "printings": [
-      {
-        "id": "printing-7719f5745e4bad66449efc08",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301498-red-slaad-control-gem-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5736/283/1000/1000/636898191273441832.jpeg",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/red-slaad-b1ecafffb5e16658.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "red_slaad"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Aberration"]
-  },
-  {
-    "type": "monsters",
-    "slug": "red-slaad-control-gem",
-    "name": "Red Slaad (Control Gem)",
-    "summary": "",
-    "group": "Aberration",
-    "printings": [
-      {
-        "id": "printing-00b8b4c6859ce6b80503",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#red%20slaad%20(control%20gem)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "red_slaad"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Aberration"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/red-slaad-control-gem-a2d4bc3a661e195f.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -16676,38 +16562,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
-  },
-  {
-    "type": "monsters",
-    "slug": "satyr-variant",
-    "name": "Satyr (Variant)",
-    "summary": "",
-    "group": "Fey",
-    "printings": [
-      {
-        "id": "printing-49e97c5cb60f754d73d34b90",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/781675-satyr-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30835/814/1000/1000/638063922056915858.png",
-        "art": [
-          {
-            "file": "/assets/library/monsters/satyr.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "satyr_variant"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fey"]
   },
   {
     "type": "monsters",
@@ -31578,7 +31432,13 @@
             "ref": "publication",
             "key": "monster_manual_2014"
           }
-        }
+        },
+        "art": [
+          {
+            "file": "/assets/library/worker-art/smoke-mephit-34e723d3a17c392a.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-5fe73950b61a07b4924f2dd9",
@@ -31707,69 +31567,6 @@
     "art": [
       {
         "file": "/assets/library/worker-art/smoke-mephit-34e723d3a17c392a.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "smoke-mephit-summoner-variant",
-    "name": "Smoke Mephit (Summoner Variant)",
-    "summary": "",
-    "group": "Elemental",
-    "printings": [
-      {
-        "id": "printing-650e2ddf49f10caf02134d7b",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301811-smoke-mephit-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/407/1000/1000/636898388905773989.jpeg",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/smoke-mephit-34e723d3a17c392a.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "smoke_mephit"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Elemental"]
-  },
-  {
-    "type": "monsters",
-    "slug": "smoke-mephit-summoner",
-    "name": "Smoke Mephit (Summoner)",
-    "summary": "",
-    "group": "Elemental",
-    "printings": [
-      {
-        "id": "printing-d149c6c9f13d35e281a2",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#smoke%20mephit%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "smoke_mephit"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Elemental"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/smoke-mephit-summoner-13b7f1f9b44ab05f.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -38242,69 +38039,6 @@
   },
   {
     "type": "monsters",
-    "slug": "steam-mephit-summoner-variant",
-    "name": "Steam Mephit (Summoner Variant)",
-    "summary": "",
-    "group": "Elemental",
-    "printings": [
-      {
-        "id": "printing-0731f08c936e686124e79b98",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301813-steam-mephit-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5738/423/1000/1000/636898390006200877.jpeg",
-        "art": [
-          {
-            "file": "/assets/library/monsters/steam-mephit.webp",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "steam_mephit"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Elemental"]
-  },
-  {
-    "type": "monsters",
-    "slug": "steam-mephit-summoner",
-    "name": "Steam Mephit (Summoner)",
-    "summary": "",
-    "group": "Elemental",
-    "printings": [
-      {
-        "id": "printing-0e67a6a3bcc4d0aa9236",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#steam%20mephit%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "steam_mephit"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Elemental"],
-    "art": [
-      {
-        "file": "/assets/library/monsters/steam-mephit.webp",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
     "slug": "steel-crane",
     "name": "Steel Crane",
     "summary": "",
@@ -38422,91 +38156,17 @@
       {
         "id": "printing-557299b61bd94aa73603fe0e",
         "label": "Tasha's Cauldron of Everything",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Construct",
-              "Size · Medium",
-              "Armor class · 15 · natural armor",
-              "Hit points · 2 + your Intelligence modifier + five times your artificer level (the defender has a number of Hit Dice [d8s] equal to your artificer level)",
-              "Speed · walk 40 ft.",
-              "Proficiency bonus · equals your bonus",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 14",
-              "Intelligence · 4",
-              "Wisdom · 10",
-              "Charisma · 6",
-              "Passive Perception · 10 + (PB × 2)"
-            ]
+        "source": "https://5e.tools/bestiary.html#steel%20defender_tce",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "steel_defender"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium construct. Named abilities include Vigilant, Force-Empowered Rend, Repair (3/Day)."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Steel Defender · Artificer · --spell-attack, --proficiency, --intelligence, --level"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dexterity +1 plus PB, Constitution +2 plus PB"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +2 plus PB, Perception +0 plus PB × 2"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you speak"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["charmed, exhaustion, poisoned"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Artificer"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Vigilant · Surprised"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Force-Empowered Rend · Melee attack · 1d8 + PB force damage · reach 5 ft.",
-              "Repair (3/Day) · 2d8 + PB · within 5 feet"
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Deflect Attack · within 5 feet"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Tasha's Cauldron of Everything, p. 19 · https://5e.tools/bestiary.html#steel%20defender_tce",
-              "Surprised (status) · https://5e.tools/conditionsdiseases.html#surprised_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "tasha_s_cauldron_of_everything"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#steel%20defender_tce"
+        }
       }
     ],
     "groups": ["Construct"]
@@ -39586,26 +39246,11 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
-      }
-    ],
-    "art": [
+      },
       {
-        "file": "/assets/library/monsters/stone-giant.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "stone-giant-optional-actions",
-    "name": "Stone Giant (Optional Actions)",
-    "summary": "",
-    "group": "Giant",
-    "printings": [
-      {
-        "id": "printing-79931bba15ffd2f22319",
+        "id": "printing-1aa11ec3a88dfe8a1cfa3978",
         "label": "Storm King's Thunder",
-        "source": "https://5e.tools/bestiary.html#stone%20giant%20(optional%20actions)_skt",
+        "source": "https://5e.tools/bestiary.html#braxow_skt",
         "typed": {
           "monster": {
             "ref": "monster",
@@ -39616,9 +39261,23 @@
             "key": "storm_king_s_thunder"
           }
         }
+      },
+      {
+        "id": "printing-295e34a2df549c9af9eb80ca",
+        "label": "Plane Shift: Kaladesh",
+        "source": "https://5e.tools/bestiary.html#giant_psk",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "stone_giant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "plane_shift_kaladesh"
+          }
+        }
       }
     ],
-    "groups": ["Giant"],
     "art": [
       {
         "file": "/assets/library/monsters/stone-giant.png",
@@ -40567,22 +40226,7 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/monsters/storm-giant.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "storm-giant-optional-actions",
-    "name": "Storm Giant (Optional Actions)",
-    "summary": "",
-    "group": "Giant",
-    "printings": [
+      },
       {
         "id": "printing-92b24caec54c33a9b599",
         "label": "Storm King's Thunder",
@@ -40599,7 +40243,6 @@
         }
       }
     ],
-    "groups": ["Giant"],
     "art": [
       {
         "file": "/assets/library/monsters/storm-giant.png",
@@ -54553,37 +54196,6 @@
   },
   {
     "type": "monsters",
-    "slug": "tridrone-rogue",
-    "name": "Tridrone (Rogue)",
-    "summary": "",
-    "group": "Construct",
-    "printings": [
-      {
-        "id": "printing-25e30f66c03ff6d09b74b350",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#tridrone%20(rogue)_mm",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/tridrone-28d4651d3a04637b.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "tridrone_rogue"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Construct"]
-  },
-  {
-    "type": "monsters",
     "slug": "tristessa",
     "name": "Tristessa",
     "summary": "",
@@ -55186,6 +54798,22 @@
             "key": "rise_of_tiamat_online_supplement"
           }
         }
+      },
+      {
+        "id": "printing-38391de6f6649660e7aa50e4",
+        "label": "Waterdeep: Dungeon of the Mad Mage",
+        "source": "https://www.dndbeyond.com/monsters/301476-troll-variant",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/178/1000/1000/638063930355508806.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "troll"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
+          }
+        }
       }
     ],
     "art": [
@@ -55518,54 +55146,6 @@
     "art": [
       {
         "file": "/assets/library/worker-art/troll-mcdm-868efca3e6da6f0a.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "troll-variant",
-    "name": "Troll (variant)",
-    "summary": "",
-    "group": "Giant",
-    "printings": [
-      {
-        "id": "printing-f4105867f97e1af3982ca947",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301476-troll-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/178/1000/1000/638063930355508806.png",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "troll_variant"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      },
-      {
-        "id": "printing-38391de6f6649660e7aa50e4",
-        "label": "Waterdeep: Dungeon of the Mad Mage",
-        "source": "https://www.dndbeyond.com/monsters/301476-troll-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/178/1000/1000/638063930355508806.png",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "troll_variant"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "waterdeep_dungeon_of_the_mad_mage"
-          }
-        }
-      }
-    ],
-    "groups": ["Giant"],
-    "art": [
-      {
-        "file": "/assets/library/monsters/troll.png",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -56989,31 +56569,6 @@
   },
   {
     "type": "monsters",
-    "slug": "turntimber-giant",
-    "name": "Turntimber Giant",
-    "summary": "",
-    "group": "Giant",
-    "printings": [
-      {
-        "id": "printing-2ad235d1a804e5060e5b6791",
-        "label": "Plane Shift: Zendikar",
-        "source": "https://5e.tools/bestiary.html#turntimber%20giant_psz",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "cloud_giant"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "plane_shift_zendikar"
-          }
-        }
-      }
-    ],
-    "groups": ["Giant"]
-  },
-  {
-    "type": "monsters",
     "slug": "turvy",
     "name": "Turvy",
     "summary": "",
@@ -58338,85 +57893,6 @@
     "art": [
       {
         "file": "/assets/library/worker-art/ultroloth-1aa3d48f75ea4312.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "ultroloth-summoner-variant",
-    "name": "Ultroloth (summoner variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-1be5f0d6d7d0ba38b7189a61",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301447-ultroloth-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5735/986/1000/1000/636898155508573997.jpeg",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "ultroloth"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      },
-      {
-        "id": "printing-0e2adb293acd1403f1e77267",
-        "label": "Waterdeep: Dungeon of the Mad Mage",
-        "source": "https://www.dndbeyond.com/monsters/301447-ultroloth-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/5735/986/1000/1000/636898155508573997.jpeg",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "ultroloth"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "waterdeep_dungeon_of_the_mad_mage"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/ultroloth-summoner-907ee159ac1b9cdd.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "ultroloth-summoner",
-    "name": "Ultroloth (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-b2c914875bafa563889e",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#ultroloth%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "ultroloth"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/ultroloth-summoner-b1ad3b444e1c580e.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
@@ -65876,31 +65352,6 @@
   },
   {
     "type": "monsters",
-    "slug": "victor-vallakovich",
-    "name": "Victor Vallakovich",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
-      {
-        "id": "printing-e33f1d9870e15b6c706555ba",
-        "label": "Curse of Strahd",
-        "source": "https://5e.tools/bestiary.html#victor%20vallakovich_cos",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "mage"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "curse_of_strahd"
-          }
-        }
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
     "slug": "victoro-cassalanter",
     "name": "Victoro Cassalanter",
     "summary": "",
@@ -66290,31 +65741,6 @@
           "publication": {
             "ref": "publication",
             "key": "out_of_the_abyss"
-          }
-        }
-      }
-    ],
-    "groups": ["Humanoid"]
-  },
-  {
-    "type": "monsters",
-    "slug": "vilnius",
-    "name": "Vilnius",
-    "summary": "",
-    "group": "Humanoid",
-    "printings": [
-      {
-        "id": "printing-13f66e09b8b1909e886ae9fb",
-        "label": "Curse of Strahd",
-        "source": "https://5e.tools/bestiary.html#vilnius_cos",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "mage"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "curse_of_strahd"
           }
         }
       }
@@ -68981,38 +68407,6 @@
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]
-  },
-  {
-    "type": "monsters",
-    "slug": "vrock-summoner-variant",
-    "name": "Vrock (Summoner Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-08297858bad3bf414e1803d8",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301654-vrock-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/777/1000/1000/638061937822682446.png",
-        "art": [
-          {
-            "file": "/assets/library/monsters/vrock.webp",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "vrock"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
   },
   {
     "type": "monsters",
@@ -81961,7 +81355,13 @@
             "ref": "publication",
             "key": "monster_manual_2014"
           }
-        }
+        },
+        "art": [
+          {
+            "file": "/assets/library/worker-art/yochlol-35e8a4449cd2e71d.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-2fd9aef1fcd1909a0d6a3e47",
@@ -82032,69 +81432,6 @@
     "art": [
       {
         "file": "/assets/library/worker-art/yochlol-35e8a4449cd2e71d.png",
-        "credit": "OpenAI ImageGen · The Lost Hope"
-      }
-    ]
-  },
-  {
-    "type": "monsters",
-    "slug": "yochlol-summoner-variant",
-    "name": "Yochlol (Summoner Variant)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-33e180ac98ced789c93d2aaa",
-        "label": "Monster Manual (2014)",
-        "source": "https://www.dndbeyond.com/monsters/301662-yochlol-summoner-variant",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30781/781/1000/1000/638061937983602483.png",
-        "art": [
-          {
-            "file": "/assets/library/worker-art/yochlol-35e8a4449cd2e71d.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ],
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "yochlol"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"]
-  },
-  {
-    "type": "monsters",
-    "slug": "yochlol-summoner",
-    "name": "Yochlol (Summoner)",
-    "summary": "",
-    "group": "Fiend",
-    "printings": [
-      {
-        "id": "printing-11946ea9871fec890168",
-        "label": "Monster Manual (2014)",
-        "source": "https://5e.tools/bestiary.html#yochlol%20(summoner)_mm",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "yochlol"
-          },
-          "publication": {
-            "ref": "publication",
-            "key": "monster_manual_2014"
-          }
-        }
-      }
-    ],
-    "groups": ["Fiend"],
-    "art": [
-      {
-        "file": "/assets/library/worker-art/yochlol-summoner-6045e1656c11a645.webp",
         "credit": "OpenAI ImageGen · The Lost Hope"
       }
     ]

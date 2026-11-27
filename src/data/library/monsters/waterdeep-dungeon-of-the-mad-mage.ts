@@ -3893,62 +3893,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    giant_lizard_variant: {
-      name: 'Giant Lizard (variant)',
-      page: 147,
-      alignment: 'unaligned',
-      languages: [],
-      habitats: ['Underdark', 'Forest', 'Swamp', 'Desert'],
-      appearance: [
-        [
-          'A large, low-slung lizard with a scaly hide and clawed toes. Some can cling to ceilings or swim.',
-        ],
-      ],
-      tableNotes: [
-        [
-          'Encounter: The docile lizards are drow mounts. Two wear riding gear in the hall. More are ridden by the cavern patrol.',
-        ],
-        [
-          'Giant Lizard Traits: Choose either or both options. Hold Breath gives a 15-minute breath hold and swim speed 30 feet. Spider Climb allows difficult climbs and ceiling movement without checks.',
-        ],
-        ['Base profiles: Giant Lizard'],
-      ],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1/4',
-        ac: 12,
-        armor: 'natural armor',
-        hitDice: '3d10',
-        speed: { walk: 30, climb: 30 },
-        scores: { str: 15, dex: 12, con: 13, int: 2, wis: 10, cha: 5 },
-        senses: { darkvision: 30 },
-        abilities: [
-          {
-            key: 'spider-climb',
-            name: 'Spider Climb',
-            timing: 'trait',
-            icon: 'lucide/MoveUp',
-            text: [
-              'The creature can traverse difficult surfaces, including ceilings, without an ability check.',
-            ],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
     glyster: {
       name: 'Glyster',
       alignment: 'lawful good',

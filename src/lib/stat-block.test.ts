@@ -11,6 +11,7 @@ import {
   formatSpeed,
   proficiencyBonus,
   proficiencyOf,
+  scaledValue,
   withOptions,
 } from './stat-block'
 
@@ -497,5 +498,44 @@ describe('option checks', () => {
         options: [option('a', 'x')],
       }),
     ).toThrow('refers to a missing ability')
+  })
+})
+
+describe('level-scaled creatures', () => {
+  const inputs = (level: number) => ({
+    level,
+    proficiencyBonus: 5,
+    spellAttack: 9,
+    spellSaveDc: 17,
+    modifiers: { str: 0, dex: 0, con: 0, int: 4, wis: 0, cha: 0 },
+  })
+
+  it('works a number out from the level, the owner and steps it reaches', () => {
+    expect(scaledValue({ base: 40, level: 10, above: 4 }, inputs(7))).toBe(70)
+    expect(scaledValue({ base: 0, level: 0.5 }, inputs(7))).toBe(3)
+    expect(scaledValue({ base: 2, owner: 'int', level: 5 }, inputs(9))).toBe(51)
+    expect(scaledValue({ base: 15, steps: [{ from: 15, add: 2 }] }, inputs(14))).toBe(15)
+    expect(scaledValue({ base: 15, steps: [{ from: 15, add: 2 }] }, inputs(15))).toBe(17)
+  })
+
+  it('rejects two options the DM can pick together adding one ability', () => {
+    const add = (key: string) => ({
+      key,
+      name: key,
+      abilities: [{ key: 'x', name: 'X', timing: 'action', icon: 'gi/GiClaws' }],
+    })
+    expect(() =>
+      PrintedStatBlock.parse({
+        size: 'large',
+        type: 'fiend',
+        cr: '5',
+        ac: 15,
+        hitDice: '10d10',
+        speed: { walk: 30 },
+        scores: { str: 18, dex: 12, con: 10, int: 8, wis: 10, cha: 10 },
+        options: [add('a'), add('b')],
+        abilities: [],
+      }),
+    ).toThrow('Two options add ability x')
   })
 })

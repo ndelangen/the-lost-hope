@@ -664,6 +664,12 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: "D&D - 5th Edition (2014)/Rules/Player's Handbook.pdf",
   },
+  player_s_handbook_2024: {
+    name: "Player's Handbook",
+    publisher: 'Wizards of the Coast',
+    year: 2024,
+    ruleset: '5e-2024',
+  },
   princes_of_the_apocalypse: {
     name: 'Princes of the Apocalypse',
     publisher: 'Wizards of the Coast',

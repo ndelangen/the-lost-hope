@@ -23114,7 +23114,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "giant_lizard_variant"
+            "key": "giant_lizard"
           },
           "publication": {
             "ref": "publication",
@@ -23135,7 +23135,7 @@
         "typed": {
           "monster": {
             "ref": "monster",
-            "key": "giant_lizard_variant"
+            "key": "giant_lizard"
           },
           "publication": {
             "ref": "publication",

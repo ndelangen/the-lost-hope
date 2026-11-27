@@ -397,7 +397,12 @@ const statCore = {
 type AbilityBlock = {
   speed: Partial<Record<z.infer<typeof SpeedMode>, number>>
   abilities: readonly Ability[]
-  options?: readonly { key: string; abilities: readonly Ability[] }[]
+  options?: readonly {
+    key: string
+    form?: boolean
+    replaces?: readonly string[]
+    abilities: readonly Ability[]
+  }[]
   legendary?: { actions: readonly Ability[] }
   lairActions?: readonly Ability[]
 }
@@ -434,24 +439,67 @@ function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
     if (optionKeys.has(option.key))
       context.addIssue({ code: 'custom', message: `Duplicate option key: ${option.key}` })
     optionKeys.add(option.key)
-    const visible = keysOf([...base, ...option.abilities])
+    const visible = keysOf([
+      ...base.filter(({ key }) => !option.replaces?.includes(key)),
+      ...option.abilities,
+    ])
     for (const ability of option.abilities) scope.set(ability, visible)
   }
   // A later stage is an effect of its own, so the text and the tracker can point at it.
-  for (const effect of all.flatMap((ability) =>
-    (ability.effects ?? []).flatMap((effect) => [
-      effect,
-      ...(effect.becomes ? [effect.becomes] : []),
-    ]),
-  )) {
+  const effectsOf = (abilities: readonly Ability[]) =>
+    abilities.flatMap((ability) =>
+      (ability.effects ?? []).flatMap((effect) => [
+        effect,
+        ...(effect.becomes ? [effect.becomes] : []),
+      ]),
+    )
+  for (const effect of effectsOf(base)) {
     if (effectKeys.has(effect.key))
       context.addIssue({ code: 'custom', message: `Duplicate effect key: ${effect.key}` })
     effectKeys.add(effect.key)
   }
-  for (const ability of all) {
+  // An option's effects are checked against the block it makes: the printed one without what it replaces.
+  for (const option of block.options ?? []) {
+    const kept = new Set(
+      effectsOf(base.filter(({ key }) => !option.replaces?.includes(key))).map(({ key }) => key),
+    )
+    for (const effect of effectsOf(option.abilities)) {
+      if (kept.has(effect.key))
+        context.addIssue({ code: 'custom', message: `Duplicate effect key: ${effect.key}` })
+      kept.add(effect.key)
+    }
+  }
+  for (const ability of base) {
     if (keys.has(ability.key))
       context.addIssue({ code: 'custom', message: `Duplicate ability key: ${ability.key}` })
     keys.add(ability.key)
+  }
+  // An option's ability may reuse the key of a printed ability only when it replaces it, and
+  // options the DM can pick together (any but forms, of which one is picked) never share a key.
+  const printedKeys = new Set(block.abilities.map(({ key }) => key))
+  const together = new Set<string>()
+  for (const option of block.options ?? []) {
+    if (!option.form)
+      for (const { key } of option.abilities) {
+        if (together.has(key))
+          context.addIssue({ code: 'custom', message: `Two options add ability ${key}` })
+        together.add(key)
+      }
+    for (const key of option.replaces ?? [])
+      if (!printedKeys.has(key))
+        context.addIssue({
+          code: 'custom',
+          message: `${option.key} replaces a missing ability: ${key}`,
+        })
+    const own = new Set<string>()
+    for (const ability of option.abilities) {
+      if (
+        own.has(ability.key) ||
+        (keys.has(ability.key) && !option.replaces?.includes(ability.key))
+      )
+        context.addIssue({ code: 'custom', message: `Duplicate ability key: ${ability.key}` })
+      own.add(ability.key)
+    }
   }
   for (const ability of all) {
     const save = ability.save
@@ -525,6 +573,7 @@ function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
 /** The book's own numbers where they break the formula; everything else is derived. */
 const PrintedNumbers = z
   .strictObject({
+    proficiencyBonus: z.number().int().positive().optional(),
     hitPoints: z.number().int().positive().optional(),
     initiative: z.number().int().optional(),
     passivePerception: z.number().int().optional(),
@@ -543,10 +592,79 @@ const PrintedNumbers = z
 const CreatureOption = z.strictObject({
   key: z.string().regex(/^[a-z0-9-]+$/),
   name: z.string().trim().min(1).describe('As the book names the variant, e.g. `Summoner`'),
-  abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).min(1),
+  form: z
+    .literal(true)
+    .optional()
+    .describe('One of the forms it takes, e.g. a spirit summoned as Slaad: pick one of these'),
+  speed: z
+    .partialRecord(SpeedMode, z.number().nonnegative())
+    .optional()
+    .describe('Speeds this option adds, e.g. a beholderkin spirit’s fly speed'),
+  replaces: z
+    .array(z.string().min(1))
+    .min(1)
+    .optional()
+    .describe(
+      'Keys of printed abilities this option swaps out, e.g. spellcasting with more spells',
+    ),
+  abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).default([]),
 })
 
+/**
+ * A number that grows with the level a creature is summoned or kept at, and with its owner:
+ * `base` + `level` × (the level − `above`) + the owner's `owner` modifier + `pb` × their
+ * proficiency bonus. Fractions round down, as "half this spell's level" does.
+ */
+const ScaledNumber = z.strictObject({
+  base: z.number().int().default(0),
+  level: z.number().positive().optional().describe('Times the level, e.g. `10` per spell level'),
+  above: z.number().int().nonnegative().optional().describe('Count only the levels above this'),
+  owner: AbilityId.optional().describe("Adds the owner's modifier, e.g. an artificer's `int`"),
+  pb: z.number().int().positive().optional().describe("Times the owner's proficiency bonus"),
+  steps: z
+    .array(z.strictObject({ from: z.number().int().min(1).max(20), add: z.number().int() }))
+    .min(1)
+    .optional()
+    .describe('Added once the level reaches `from`, e.g. +2 AC from artificer level 15'),
+})
+
+export type ScaledNumber = z.infer<typeof ScaledNumber>
+
+/**
+ * A creature a spell summons or a class feature gives a character, whose numbers follow the
+ * spell's level or the class level and its owner's own numbers. The stat block holds what does
+ * not change; these say how the rest is worked out.
+ */
+const Scaling = z
+  .strictObject({
+    by: z.enum(['spell', 'class']).describe('What the level is: a spell slot, or a class level'),
+    of: z.string().trim().min(1).describe('The spell or class, e.g. `Summon Aberration`'),
+    min: z.number().int().min(1).max(20),
+    max: z.number().int().min(1).max(20),
+    ac: ScaledNumber.optional(),
+    hitPoints: ScaledNumber,
+    hitDie: z
+      .enum(['d6', 'd8', 'd10', 'd12'])
+      .optional()
+      .describe('One hit die of this size per level, as a companion has'),
+    attackBonus: z
+      .literal('spell-attack')
+      .optional()
+      .describe("Its attacks use the owner's spell attack modifier"),
+    damageBonus: ScaledNumber.optional().describe(
+      'Added to each attack damage roll that adds a modifier, e.g. 3 + the spell level',
+    ),
+    saveDc: z.literal('spell-save-dc').optional().describe("Its saves use the owner's spell DC"),
+    attacks: ScaledNumber.optional().describe(
+      'How many attacks its Multiattack makes, e.g. half the spell level',
+    ),
+  })
+  .refine(({ min, max }) => min <= max, 'The lowest level comes first')
+
+export type Scaling = z.infer<typeof Scaling>
+
 const creatureShape = {
+  scaling: Scaling.optional(),
   ...statCore,
   options: z
     .array(CreatureOption)

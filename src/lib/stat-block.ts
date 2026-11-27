@@ -5,6 +5,8 @@ import {
   type PcStatBlock,
   type PrintedStatBlock,
   type Save,
+  type ScaledNumber,
+  type Scaling,
   type StatBlock,
 } from '#/definitions/stat-block'
 import { stageOf } from '#/definitions/status-effect'
@@ -65,7 +67,109 @@ export type AnyStatBlock = StatBlock | PrintedStatBlock | PlayablePcStats
 
 /** Proficiency bonus from a creature's challenge rating or a PC's level. */
 export function proficiencyOf(stats: AnyStatBlock) {
-  return 'cr' in stats ? proficiencyBonus(stats.cr) : Math.ceil(stats.level / 4) + 1
+  if (!('cr' in stats)) return Math.ceil(stats.level / 4) + 1
+  // A summoned creature or companion uses its owner's.
+  return (
+    ('printed' in stats ? stats.printed?.proficiencyBonus : undefined) ?? proficiencyBonus(stats.cr)
+  )
+}
+
+/** What a level-scaled creature's numbers come from: its level and its owner's numbers. */
+export type ScaleInputs = {
+  level: number
+  proficiencyBonus: number
+  spellAttack: number
+  spellSaveDc: number
+  modifiers: Record<AbilityId, number>
+}
+
+/** A scaled number at these inputs; fractions of a level round down. */
+export function scaledValue(value: ScaledNumber, inputs: ScaleInputs) {
+  const levels = Math.max(0, inputs.level - (value.above ?? 0))
+  return (
+    (value.base ?? 0) +
+    Math.floor((value.level ?? 0) * levels) +
+    (value.owner ? inputs.modifiers[value.owner] : 0) +
+    (value.pb ?? 0) * inputs.proficiencyBonus +
+    (value.steps ?? []).reduce((sum, step) => sum + (inputs.level >= step.from ? step.add : 0), 0)
+  )
+}
+
+/** The owner's ability a level-scaled creature adds, e.g. an artificer's Intelligence. */
+export function scaledOwnerAbility(stats: PrintedStatBlock | StatBlock): AbilityId | undefined {
+  const scaling = stats.scaling
+  if (!scaling) return undefined
+  return [scaling.ac, scaling.hitPoints, scaling.damageBonus].find((value) => value?.owner)?.owner
+}
+
+/**
+ * Typical owner's numbers for a level: a caster who can cast the spell at that slot (or a
+ * character of that class level) with a +3 in the ability that matters, for the library to show
+ * a level-scaled creature before anyone owns it.
+ */
+export function typicalInputs(scaling: Scaling, level: number): ScaleInputs {
+  const characterLevel = scaling.by === 'spell' ? Math.min(20, level * 2 - 1) : level
+  const pb = Math.ceil(characterLevel / 4) + 1
+  const modifiers = { str: 3, dex: 3, con: 3, int: 3, wis: 3, cha: 3 }
+  return { level, proficiencyBonus: pb, spellAttack: pb + 3, spellSaveDc: 8 + pb + 3, modifiers }
+}
+
+/**
+ * A level-scaled creature at one level, as an ordinary stat block: its armor class, hit points,
+ * attack and damage bonuses and save DCs worked out from the level and its owner's numbers, kept
+ * as the numbers it prints at that level.
+ */
+export function scaleCreature<T extends PrintedStatBlock | StatBlock>(
+  stats: T,
+  inputs: ScaleInputs,
+): T {
+  const scaling = stats.scaling
+  if (!scaling) return stats
+  const hitPoints = scaledValue(scaling.hitPoints, inputs)
+  const damage = scaling.damageBonus && scaledValue(scaling.damageBonus, inputs)
+  const scaleAbility = <A extends Ability>(ability: A): A => ({
+    ...ability,
+    ...(ability.attack
+      ? {
+          attack: {
+            ...ability.attack,
+            ...(scaling.attackBonus ? { printedBonus: inputs.spellAttack } : {}),
+            damage: ability.attack.damage.map((roll) =>
+              roll.addModifier && damage !== undefined ? { ...roll, printedBonus: damage } : roll,
+            ),
+          },
+        }
+      : {}),
+    ...(ability.save && scaling.saveDc
+      ? { save: { ...ability.save, printedDc: inputs.spellSaveDc } }
+      : {}),
+    text: [
+      ...ability.text.map((token) =>
+        typeof token === 'object' && 'dc' in token && scaling.saveDc
+          ? { ...token, printed: inputs.spellSaveDc }
+          : token,
+      ),
+      // How many that is at this level, beside the book's own rule.
+      ...(ability.key === 'multiattack' && scaling.attacks
+        ? [` At this level: ${scaledValue(scaling.attacks, inputs)} attacks.`]
+        : []),
+    ],
+  })
+  return {
+    ...stats,
+    ac: scaling.ac ? scaledValue(scaling.ac, inputs) : stats.ac,
+    hitDice: scaling.hitDie ? `${inputs.level}${scaling.hitDie}` : stats.hitDice,
+    printed: { ...stats.printed, proficiencyBonus: inputs.proficiencyBonus, hitPoints },
+    abilities: stats.abilities.map(scaleAbility),
+    ...(stats.options
+      ? {
+          options: stats.options.map((option) => ({
+            ...option,
+            abilities: option.abilities.map(scaleAbility),
+          })),
+        }
+      : {}),
+  }
 }
 
 const XP: Record<string, number> = {
@@ -137,7 +241,14 @@ export function withOptions<T extends PrintedStatBlock | StatBlock>(
   if (!chosen.length) return stats
   return {
     ...stats,
-    abilities: [...stats.abilities, ...chosen.flatMap(({ abilities }) => abilities)],
+    speed: Object.assign({}, stats.speed, ...chosen.map(({ speed }) => speed ?? {})),
+    // An option can swap a printed ability for its own, e.g. spellcasting with more spells.
+    abilities: [
+      ...stats.abilities.filter(
+        ({ key }) => !chosen.some((option) => option.replaces?.includes(key)),
+      ),
+      ...chosen.flatMap(({ abilities }) => abilities),
+    ],
   }
 }
 
@@ -389,9 +500,12 @@ export function deriveStatBlock(stats: AnyStatBlock): DerivedStats {
     // A printed total the dice don't produce stands alone: its formula would not add up.
     hitPoints:
       'cr' in stats
-        ? printed?.hitPoints !== undefined && printed.hitPoints !== derivedMaxHp
-          ? `${printed.hitPoints} (${stats.hitDice})`
-          : rollText(stats.hitDice, dice(stats.hitDice).count * modifiers.con)
+        ? 'scaling' in stats && stats.scaling && !stats.scaling.hitDie && printed?.hitPoints
+          ? // A summoned creature has hit points but no hit dice.
+            String(printed.hitPoints)
+          : printed?.hitPoints !== undefined && printed.hitPoints !== derivedMaxHp
+            ? `${printed.hitPoints} (${stats.hitDice})`
+            : rollText(stats.hitDice, dice(stats.hitDice).count * modifiers.con)
         : String(stats.maxHp),
     ac: stats.ac,
     initiative: printed?.initiative ?? modifiers.dex + pb * proficiencyMultiplier(stats.initiative),

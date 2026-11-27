@@ -178,6 +178,8 @@ function LibraryEntryPage() {
       </div>
       {typed ? (
         <LibraryTypedCreature
+          // A new creature or printing starts with nothing picked and its lowest level.
+          key={`${entry.name}:${entry.selected.id}`}
           entry={entry}
           typed={typed}
           category={libraryTypes[type]}

@@ -49,7 +49,10 @@ export function StatBlockHeadline({ stats, block }: { stats: AnyStatBlock; block
         </RuleTerm>
       )}{' '}
       ·{' '}
-      {'cr' in stats ? (
+      {'cr' in stats && stats.scaling ? (
+        // A summoned creature or companion has no challenge rating: it comes from its owner.
+        <>{stats.scaling.of}</>
+      ) : 'cr' in stats ? (
         <>
           <RuleTerm rule={refs.rules.challenge_rating} /> {stats.cr} ({block.experience} XP)
         </>
