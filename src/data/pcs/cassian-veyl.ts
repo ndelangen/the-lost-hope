@@ -449,5 +449,16 @@ export default createPC({
       refs.npcs.light_13th_marshal,
       ' may have noticed.',
     ],
+    [
+      'Asked privately what he wants for his character, his player named connectedness. What Cassian cares about in the story is ',
+      refs.pcs.jim,
+      ' and the unity of the party. His bond with ',
+      refs.pcs.jim,
+      ' is the only one the pulse did not break, and it may be how ',
+      refs.pcs.jim,
+      ' can be saved: see “Still connected” in ',
+      refs.scenes.questions_for_light,
+      '.',
+    ],
   ],
 })
