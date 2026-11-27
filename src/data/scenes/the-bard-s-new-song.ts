@@ -13,11 +13,11 @@ export default createScene({
   ],
   setup: [
     [
-      'An evening in a tavern in ',
+      'The full-moon evening the party arrives in ',
       refs.locations.rustmoor,
-      ', any time after ',
-      refs.events.n2_e217,
-      '. ',
+      ', after ',
+      refs.scenes.hex_loses_patience,
+      ', while they kill time before the maze at midnight. They end up in a tavern. ',
       refs.npcs.tobin_reedwhistle,
       ' is by the hearth with a new song called “Still Alive”, written last night.',
     ],
@@ -282,6 +282,21 @@ export default createScene({
             ],
           ],
         },
+      ],
+    },
+  ],
+  outcomes: [
+    {
+      icon: 'gi/GiPathDistance',
+      when: [['They have wasted enough time here.']],
+      response: [
+        [
+          'It is nearly midnight. They head out for the quest of ',
+          refs.npcs.bob_the_merchant,
+          ': run ',
+          refs.scenes.four_stomps_under_the_moon,
+          '.',
+        ],
       ],
     },
   ],

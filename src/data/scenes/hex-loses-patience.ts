@@ -54,6 +54,15 @@ export default createScene({
       refs.npcs.hex,
       ' was let in only recently, remembers standing where the party stands now, and may not explain anything.',
     ],
+    [
+      'After this, the party has time to kill until midnight: some shopping, and a tavern. Lead them to the tavern and run ',
+      refs.scenes.the_bard_s_new_song,
+      '. At midnight they head out for the quest of ',
+      refs.npcs.bob_the_merchant,
+      ': ',
+      refs.scenes.four_stomps_under_the_moon,
+      '.',
+    ],
   ],
   beats: [
     {
