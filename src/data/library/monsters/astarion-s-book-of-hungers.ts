@@ -632,6 +632,7 @@ export default createPublicationMonsters({
               '). At will: ',
               refs.spells.compulsion,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -670,6 +671,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' condition until the weapon is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight',
@@ -692,6 +694,7 @@ export default createPublicationMonsters({
               rules.petrified,
               ' condition for 1 hour.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -722,9 +725,19 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 16) from one of two claws.',
+              'If the target is a Large or smaller creature, it has ',
+              { effect: 'claw-grapple' },
+              ' from one of two claws.',
+            ],
+            effects: [
+              {
+                key: 'claw-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -747,12 +760,25 @@ export default createPublicationMonsters({
                   { dice: '1d4', type: rules.piercing, addModifier: true },
                   { dice: '2d6', type: rules.necrotic },
                 ],
+
                 also: [
-                  "The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount.",
+                  { effect: 'hp-max-drain' },
+                  ', and the vampire regains Hit Points equal to that amount.',
                 ],
               },
               printedDc: 16,
             },
+            effects: [
+              {
+                key: 'hp-max-drain',
+                name: 'Hit Point maximum drained',
+                lands: { on: 'failed-save' },
+                text: [
+                  "The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'resilient-flesh',

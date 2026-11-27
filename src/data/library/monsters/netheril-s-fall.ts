@@ -261,6 +261,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mirage_arcane,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',

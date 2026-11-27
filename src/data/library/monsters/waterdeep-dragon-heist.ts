@@ -766,6 +766,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sneak-attack-1-turn',
@@ -779,6 +780,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the Black Viper doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -848,6 +850,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The troll is wearing an eyeless helm, and is ', rules.blinded, '.'],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -3635,6 +3638,7 @@ export default createPublicationMonsters({
               '; 9th level (1 slot): ',
               refs.spells.time_stop_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -3679,8 +3683,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'silver-hair-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'silver-hair-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3722,6 +3736,7 @@ export default createPublicationMonsters({
               { roll: '4d12' },
               ' fire damage on a failed save, or half as much damage on a successful one. After Laeral takes this action, roll a d6. On a roll of 1-3, the silver fire disappears.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4172,6 +4187,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.power_word_kill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -4295,6 +4311,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_force_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'metal-fist',
@@ -4356,6 +4373,7 @@ export default createPublicationMonsters({
               { toHit: 'int', printed: 11 },
               " to hit with spell attacks. Cantrips (at will) · Fire Bolt, Light, Mage Hand, Prestidigitation, Shocking Grasp. 1st level (4 slots) · Detect Magic, Mage Armor, Magic Missile, Shield. 2nd level (3 slots) · Detect Thoughts, Mirror Image, Misty Step. 3rd level (3 slots) · Counterspell, Lightning Bolt, Sending. 4th level (3 slots) · Fire Shield, Greater Invisibility, Polymorph. 5th level (3 slots) · Bigby's Hand, Scrying, Wall of Force.",
             ],
+            effects: [],
           },
           {
             key: 'customized-simulacrum',
@@ -7424,6 +7442,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -7734,6 +7753,7 @@ export default createPublicationMonsters({
               '; 9th level (1 slot): ',
               refs.spells.imprisonment_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',

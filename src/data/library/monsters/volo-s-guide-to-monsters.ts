@@ -2255,6 +2255,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -2275,6 +2276,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.conjure_fey_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'nimble-escape',
@@ -2311,6 +2313,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' until the start of its next turn or until it attacks, makes a damage roll, or casts a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -12498,6 +12501,7 @@ export default createPublicationMonsters({
               { toHit: 'cha' },
               ' to hit with spell attacks). It regains all spent slots after a short or long rest. Cantrips (at will). Dancing Lights, Eldritch Blast, Friends, Mage Hand, Minor Illusion, Prestidigitation, Vicious Mockery. 1st–5th level (3 5th-level slots). Blink, Charm Person, Dimension Door, Dominate Beast, Faerie Fire, Fear, Hold Monster, Misty Step, Phantasmal Force, Seeming, Sleep.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -12519,6 +12523,7 @@ export default createPublicationMonsters({
               refs.spells.conjure_fey_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -12546,6 +12551,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' until the start of its next turn or until it attacks, makes a damage roll, or casts a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -14284,6 +14290,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.vampiric_touch_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -14298,6 +14305,7 @@ export default createPublicationMonsters({
               ' (snakes only); 3/day: ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -14362,10 +14370,19 @@ export default createPublicationMonsters({
               'The yuan-ti targets up to five creatures that it can see within 60 feet of it. Each target must succeed on a ',
               { dc: 'dex', save: 'con' },
               ' Constitution saving throw or fall into a magical sleep and be ',
-              rules.unconscious,
-              ' for 10 minutes. A sleeping target awakens if it takes damage or if someone uses an action to shake or slap it awake. This magical sleep has no effect on a creature immune to being ',
+              { effect: 'merrshaulk-sleep' },
+              '. A sleeping target awakens if it takes damage or if someone uses an action to shake or slap it awake. This magical sleep has no effect on a creature immune to being ',
               rules.charmed,
               '.',
+            ],
+            effects: [
+              {
+                key: 'merrshaulk-sleep',
+                name: 'Magical sleep',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',

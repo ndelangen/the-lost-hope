@@ -526,7 +526,18 @@ export default createPublicationMonsters({
             text: [
               'The fractine targets one creature of its size or smaller in its space. The target must succeed on a ',
               { dc: 'wis', save: 'dex' },
-              " Dexterity saving throw or be imprisoned in a demiplane. While the creature is imprisoned, a distorted image of it can be seen on the fractine's two-dimensional surface. The demiplane moves with the fractine, has indestructible and opaque walls, and is only as big as it needs to be to contain the target, which doesn't suffer from hunger or thirst while imprisoned. No other creature can enter the demiplane, and the fractine can't be harmed from within the demiplane. The fractine can imprison only one creature at a time and can release that creature as a bonus action. If the fractine is reduced to 0 hit points, any creature in the fractine's demiplane is released instantly. A released creature reappears in an unoccupied space as close to the fractine (or where it died) as possible. A creature can leave the demiplane on its own by using magic that enables planar travel, such as the plane shift spell.",
+              ' Dexterity saving throw or be ',
+              { effect: 'imprisoned' },
+              ". While the creature is imprisoned, a distorted image of it can be seen on the fractine's two-dimensional surface. The demiplane moves with the fractine, has indestructible and opaque walls, and is only as big as it needs to be to contain the target, which doesn't suffer from hunger or thirst while imprisoned. No other creature can enter the demiplane, and the fractine can't be harmed from within the demiplane. The fractine can imprison only one creature at a time and can release that creature as a bonus action. If the fractine is reduced to 0 hit points, any creature in the fractine's demiplane is released instantly. A released creature reappears in an unoccupied space as close to the fractine (or where it died) as possible. A creature can leave the demiplane on its own by using magic that enables planar travel, such as the plane shift spell.",
+            ],
+            effects: [
+              {
+                key: 'imprisoned',
+                name: 'Imprisoned',
+                lands: { on: 'save', save: 'dex', dc: 'wis' },
+                text: ['imprisoned in a demiplane'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -542,6 +553,7 @@ export default createPublicationMonsters({
               { roll: '8d6', printed: 24 },
               ' force damage. On a successful save, the creature takes half as much damage.',
             ],
+            effects: [],
           },
           {
             key: 'split',
@@ -624,10 +636,20 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'The gadabout enters the space of a willing Medium or Small creature within 5 feet of itself and gently wraps its branches around the target. The target is ',
-              rules.grappled,
-              ' (escape DC 0). Any attempt by the target to escape the grapple causes the gadabout to use its reaction to move into the nearest unoccupied space. While ',
+              { effect: 'wrapped' },
+              '. Any attempt by the target to escape the grapple causes the gadabout to use its reaction to move into the nearest unoccupied space. While ',
               rules.grappled,
               " by the gadabout, the target determines where the gadabout moves on the gadabout's turns and accompanies the gadabout wherever it goes.",
+            ],
+            effects: [
+              {
+                key: 'wrapped',
+                name: 'Wrapped',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 0 } },
+              },
             ],
           },
         ],
@@ -789,8 +811,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'claw-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'claw-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -834,6 +865,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'teleport',
@@ -876,8 +908,18 @@ export default createPublicationMonsters({
                 'The beast howls as it exhales a cloud of magical fear gas in a 120-foot cone. Any creature in that area must succeed on a ',
                 { dc: 'con', save: 'wis' },
                 ' Wisdom saving throw or be ',
-                rules.frightened,
-                ' of the beast for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+                { effect: 'howl-frightened' },
+                ' of the beast.',
+              ],
+              effects: [
+                {
+                  key: 'howl-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'con' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
           ],

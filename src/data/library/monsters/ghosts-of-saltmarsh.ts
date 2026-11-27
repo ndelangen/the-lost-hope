@@ -3924,7 +3924,21 @@ export default createPublicationMonsters({
             text: [
               'The peryton chooses up to three creatures within 60 feet of it that it can see. Each creature must succeed on a ',
               { dc: 'wis' },
-              " Wisdom saving throw or become cursed. While cursed, whenever the creature makes an attack roll, an ability check, or a saving throw, it must roll a d4 and subtract that number from the roll. A cursed creature can repeat this saving throw at the end of each of its turns, ending the effect on itself with a success. A creature that succeeds on this saving throw is immune to this peryton's Warp Shadow for 24 hours.",
+              ' Wisdom saving throw or become ',
+              { effect: 'warp-shadow-curse' },
+              ". A creature that succeeds on this saving throw is immune to this peryton's Warp Shadow for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'warp-shadow-curse',
+                name: 'Warp Shadow curse',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  'While cursed, whenever the creature makes an attack roll, an ability check, or a saving throw, it must roll a d4 and subtract that number from the roll.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -6208,6 +6222,7 @@ export default createPublicationMonsters({
                 { dc: 'con', save: 'str' },
                 ' Strength save or be pushed up to 20 ft. horizontally in a direction the giant chooses.',
               ],
+              effects: [],
             },
             {
               key: 'thunderbolt',
@@ -6224,6 +6239,7 @@ export default createPublicationMonsters({
                   also: ['Success halves it.'],
                 },
               },
+              effects: [],
             },
             {
               key: 'one-with-the-storm',
@@ -6244,13 +6260,22 @@ export default createPublicationMonsters({
             text: [
               'Choose a point in the lair. Creatures within 20 ft. must pass a ',
               { dc: 'con' },
-              ' Constitution save or be ',
-              rules.deafened,
+              ' Constitution save or',
+              { effect: 'clap-deafened' },
               ' through the end of their next turn. Fog or murk. Make a 20 ft. radius sphere of fog, or murky water underwater, at a point within the lair. It spreads around corners and heavily obscures the area until the giant dismisses it without an action. Wind cannot disperse it. ',
               { ability: 'gust' },
               ' or current. Make a 60 ft. by 10 ft. line of wind or underwater current in the lair. On a failed ',
               { dc: 'con', save: 'str' },
               ' Strength save, creatures in the line move 15 ft. in its direction. It disperses gas, extinguishes exposed flames and has a 50 percent chance of extinguishing protected flames.',
+            ],
+            effects: [
+              {
+                key: 'clap-deafened',
+                name: 'Deafened',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'until', text: ['through the end of their next turn'] },
+              },
             ],
           },
         ],

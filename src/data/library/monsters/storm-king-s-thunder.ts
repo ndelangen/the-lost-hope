@@ -44,6 +44,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 17 },
               '), it reverts to ice and snow and is destroyed.',
             ],
+            effects: [],
           },
           {
             key: 'talon',
@@ -300,10 +301,29 @@ export default createPublicationMonsters({
               'Chief Kartha-Kaya attempts to magically possess a humanoid or giant. Chief Kartha-Kaya must touch the target throughout a short rest, or the attempt fails. At the end of the rest, the target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be possessed by Chief Kartha-Kaya, which disappears with everything it is carrying and wearing. Until the possession ends, the target is ',
-              rules.incapacitated,
-              ", loses control of its body, and is unaware of its surroundings. Chief Kartha-Kaya now controls the body and can't be targeted by any attack, spell, or other effect, and it retains its alignment; its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies. The possession lasts until either the body drops to 0 hit points, Chief Kartha-Kaya ends the possession as an action, or Chief Kartha-Kaya is forced out of the body by an effect such as the dispel evil and good spell. When the possession ends, Chief Kartha-Kaya reappears in an unoccupied space within 5 feet of the body and is ",
+              { effect: 'possessed' },
+              '. When the possession ends, Chief Kartha-Kaya reappears in an unoccupied space within 5 feet of the body and is ',
               rules.stunned,
               " until the end of its next turn. If the host body dies while it is possessed by Chief Kartha-Kaya, Chief Kartha-Kaya dies as well, and its body doesn't reappear.",
+            ],
+            effects: [
+              {
+                key: 'possessed',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                text: [
+                  'loses control of its body, and is unaware of its surroundings. ',
+                  "Chief Kartha-Kaya now controls the body and can't be targeted by any attack, spell, or other effect, and it retains its alignment; its Intelligence, Wisdom, and Charisma scores; and its proficiencies. ",
+                  "It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'either the body drops to 0 hit points, Chief Kartha-Kaya ends the possession as an action, or Chief Kartha-Kaya is forced out of the body by an effect such as the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -685,6 +705,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'hooves',
@@ -1580,8 +1601,17 @@ export default createPublicationMonsters({
               "When Zalto enters any enemy's space for the first time on a turn, the enemy must succeed on a ",
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'tackled' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tackled',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2817,6 +2847,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2879,6 +2910,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -3396,6 +3428,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -3460,6 +3493,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'thunderous-stomp',
@@ -3473,13 +3507,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 } },
               onFail: {
                 damage: [{ dice: '6d10', type: rules.thunder }],
-                also: ['Be ', rules.deafened, " until the start of Hekaton's next turn."],
+
+                also: [{ effect: 'deafened-by-stomp' }],
               },
             },
             text: [
               "Hekaton stomps the ground, triggering a thunderclap. On a successful save, a creature takes half as much damage and isn't ",
               rules.deafened,
               '. The thunderclap can be heard out to a range of 1,200 feet.',
+            ],
+            effects: [
+              {
+                key: 'deafened-by-stomp',
+                name: 'Deafened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -3553,6 +3597,7 @@ export default createPublicationMonsters({
               ' (cast as 1 action), ',
               refs.spells.prismatic_spray_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3646,8 +3691,18 @@ export default createPublicationMonsters({
               "Each creature of Klauth's choice that is within 120 feet of Klauth and aware of him must succeed on a ",
               { dc: 'wis', printed: 21 },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Klauth's Frightful Presence for the next 24 hours.",
+              { effect: 'frightful-presence' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Klauth's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'frightful-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 21 },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3669,6 +3724,7 @@ export default createPublicationMonsters({
             text: ['Klauth exhales fire in a 90-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3698,11 +3754,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
                 printedDc: 25,
               },
               text: ['Klauth beats his wings. Klauth can then fly up to half his flying speed.'],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -4926,6 +4992,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -4987,6 +5054,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -6438,6 +6506,7 @@ export default createPublicationMonsters({
               rules.petrified,
               ' and gains tremorsense out to a range of 30 feet, as well as a measure of innate spellcasting ability for the next 24 hours.',
             ],
+            effects: [],
           },
           {
             key: 'fling',
@@ -6448,8 +6517,17 @@ export default createPublicationMonsters({
               'The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a ',
               { dc: 'str', save: 'dex' },
               " Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice. and land ",
-              rules.prone,
+              { effect: 'flung-prone' },
               ', taking 1d6 bludgeoning damage for every 10 feet it was thrown.',
+            ],
+            effects: [
+              {
+                key: 'flung-prone',
+                name: 'Flung prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6464,8 +6542,17 @@ export default createPublicationMonsters({
               ' Dexterity saving throw, taking ',
               { roll: '3d10', mod: 'str' },
               ' bludgeoning damage and falling ',
-              rules.prone,
+              { effect: 'rock-prone' },
               ' on a failed save Multiattack. The giant makes two adamantine greatclub attacks.',
+            ],
+            effects: [
+              {
+                key: 'rock-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6497,8 +6584,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'rock-knocked-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'rock-knocked-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6511,6 +6607,7 @@ export default createPublicationMonsters({
               { dc: 'dex', printed: 10 },
               ' Dexterity saving throw, catch the missile and take no bludgeoning damage from it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6878,6 +6975,7 @@ export default createPublicationMonsters({
               refs.spells.hallucinatory_terrain_srd_5_1,
               ' (cast as 1 action)',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',

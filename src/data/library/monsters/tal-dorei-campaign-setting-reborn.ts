@@ -126,6 +126,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -161,6 +162,7 @@ export default createPublicationMonsters({
               { toHit: 'wis' },
               '. Cantrips at will · Druidcraft, Mending, Produce Flame (2d8). 1st level, 4 slots · Cure Wounds, Faerie Fire, Jump. 2nd level, 3 slots · Flame Blade, Heat Metal, Lesser Restoration. 3rd level, 3 slots · Daylight, Dispel Magic, Protection from Energy. 4th level, 3 slots · Freedom of Movement, Wall of Fire. 5th level, 1 slot · Conjure Elemental.',
             ],
+            effects: [],
           },
           {
             key: 'scimitar',
@@ -746,6 +748,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ', +10 to spell attacks. No material components required. At will · Bane, Bless, Druidcraft. 1/day · Greater Invisibility.',
             ],
+            effects: [],
           },
           {
             key: 'assassinate',
@@ -850,9 +853,21 @@ export default createPublicationMonsters({
             text: [
               'Plus ',
               { roll: '1d8' },
-              ' psychic. A critical hit Frightens the target of him for 1 minute unless it passes a ',
+              ' psychic. ',
+              { effect: 'whisper-fright' },
+              ' unless it passes a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom save. When he throws Whisper, he can teleport with it to within 5 ft. of the target on a hit or to a random space within 30 ft. of it on a miss.',
+            ],
+            effects: [
+              {
+                key: 'whisper-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.frightened],
+                text: ['A critical hit Frightens the target of him for 1 minute'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -869,6 +884,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Dexterity save.',
             ],
+            effects: [],
           },
           {
             key: 'cunning-action',
@@ -3426,6 +3442,7 @@ export default createPublicationMonsters({
               { toHit: 'cha' },
               '. At will · Chill Touch (4d8), Dancing Lights, Mage Hand, Message, Shocking Grasp (4d8). 1st level, 4 slots · Charm Person, Mage Armor, Shield. 2nd level, 3 slots · Blindness/Deafness, Detect Thoughts. 3rd level, 3 slots · Counterspell, Fly, Hypnotic Pattern. 4th level, 3 slots · Greater Invisibility. 5th level, 3 slots · Dominate Person, Seeming. 6th level, 1 slot · Eyebite. 7th level, 1 slot · Finger of Death. 8th level, 1 slot · Power Word Stun. 9th level, 1 slot · Power Word Kill.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -3879,6 +3896,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ", +11 to spell attacks. Cantrips · Mage Hand, Message, Minor Illusion, Vicious Mockery. 1st (4 slots) · Healing Word, Thunderwave. 2nd (3 slots) · Blindness/Deafness, Hold Person, Invisibility, Suggestion. 3rd (3 slots) · Counterspell, Lightning Bolt, Stinking Cloud. 4th (3 slots) · Dimension Door, Polymorph, Resilient Sphere. 5th (3 slots) · Bigby's Hand (Arcane Hand in the book), Dominate Person, Modify Memory, Seeming. 6th (2 slots) · Eyebite. 7th (2 slots) · Mordenkainen's Magnificent Mansion, Reverse Gravity. 8th (1 slot) · Dominate Monster. 9th (1 slot) · True Polymorph.",
             ],
+            effects: [],
           },
           {
             key: 'gnome-cunning',
@@ -4016,6 +4034,7 @@ export default createPublicationMonsters({
               { ability: 'hunter-s-mark' },
               '. 2nd level, 3 slots. Pass without Trace, Protection from Poison. 3rd level, 3 slots. Lightning Arrow, Nondetection. 4th level, 1 slot. Freedom of Movement, Grasping Vine.',
             ],
+            effects: [],
           },
           {
             key: 'assassinate',
@@ -4045,6 +4064,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magical sleep does not work on her.',
             ],
+            effects: [],
           },
           {
             key: 'ranged-master',
@@ -4067,6 +4087,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' is within 5 ft. of the target and Vex did not have disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'equipment',
@@ -4129,8 +4150,18 @@ export default createPublicationMonsters({
               ' hit. The target must pass a ',
               { dc: 'wis', save: 'str' },
               ' Strength save or become ',
-              rules.restrained,
+              { effect: 'bramble-restrained' },
               ', repeating the save at the end of each turn.',
+            ],
+            effects: [
+              {
+                key: 'bramble-restrained',
+                name: 'Restrained by brambles',
+                lands: { on: 'save', save: 'str', dc: 'wis' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {

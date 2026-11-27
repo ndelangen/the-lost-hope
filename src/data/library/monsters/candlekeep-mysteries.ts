@@ -382,10 +382,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.deafened,
-              ' and ',
-              rules.stunned,
-              " until the start of Bak Mei's next turn.",
+              { effect: 'thunder-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'thunder-stunned',
+                name: 'Deafened and stunned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.deafened, rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1647,8 +1654,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.stunned,
-              " until the end of Jade Tigress's next turn.",
+              { effect: 'force-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'force-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ["the end of Jade Tigress's next turn"] },
+              },
             ],
           },
           {
@@ -1669,9 +1685,18 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'str', save: 'con' },
-              ' Constitution saving throw or gain 1 level of ',
-              rules.exhaustion,
+              ' Constitution saving throw or gain ',
+              { effect: 'dart-exhaustion' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'dart-exhaustion',
+                name: 'Exhaustion',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: ['1 level of ', rules.exhaustion],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2607,8 +2632,19 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also ',
-              rules.grappled,
-              ' by it (escape DC 10). Ability checks made to escape this grapple have disadvantage.',
+              { effect: 'adhered-grapple' },
+              ' by it.',
+            ],
+            effects: [
+              {
+                key: 'adhered-grapple',
+                name: 'Grappled',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                text: ['Ability checks made to escape this grapple have disadvantage.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 10 } },
+              },
             ],
           },
           {
@@ -2630,6 +2666,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'pseudopod',

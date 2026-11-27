@@ -1058,6 +1058,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',

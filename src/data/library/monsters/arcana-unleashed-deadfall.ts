@@ -224,6 +224,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'shape-control',
@@ -275,6 +276,7 @@ export default createPublicationMonsters({
               ' (level 6 version), ',
               refs.spells.wall_of_stone,
             ],
+            effects: [],
           },
           {
             key: 'demonic-restoration',
@@ -330,13 +332,22 @@ export default createPublicationMonsters({
               damage: [{ dice: '4d6', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition. If the target already has the ',
+              'If the target is a Large or smaller creature, it has ',
+              { effect: 'hammer-prone' },
+              ' If the target already has the ',
               rules.prone,
               ' condition, it instead takes an extra ',
               { roll: '2d6' },
               " Bludgeoning damage. Hit or Miss: The hammer magically returns to the rendelith's hand immediately after a ranged attack.",
+            ],
+            effects: [
+              {
+                key: 'hammer-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

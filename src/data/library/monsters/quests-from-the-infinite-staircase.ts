@@ -1181,9 +1181,18 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.paralyzed,
-              " condition until the start of Drelnza's next turn. Celestials have disadvantage on the saving throw.",
+              ' Constitution saving throw or have ',
+              { effect: 'heretic-paralysis' },
+              '. Celestials have disadvantage on the saving throw.',
+            ],
+            effects: [
+              {
+                key: 'heretic-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1195,10 +1204,27 @@ export default createPublicationMonsters({
               'Drelnza targets one Humanoid she can see within 30 feet of herself. The target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.charmed,
-              ' condition. While ',
-              rules.charmed,
-              " in this way, the target regards Drelnza as a trusted friend to be heeded and protected. The target isn't under Drelnza's control, but it takes her requests and actions in the most favorable way. Each time Drelnza or her allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Drelnza is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'drelnza-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'drelnza-charm',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  'While ',
+                  rules.charmed,
+                  " in this way, the target regards Drelnza as a trusted friend to be heeded and protected. The target isn't under Drelnza's control, but it takes her requests and actions in the most favorable way. Each time Drelnza or her allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until Drelnza is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -2868,6 +2894,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mage_armor_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2913,9 +2940,18 @@ export default createPublicationMonsters({
             text: [
               "Dazzling light bursts from Piyarz's fingertips in a 15-foot cone. Each creature in that area must succeed on a ",
               { dc: 'int', save: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.blinded,
-              " condition until the end of Piyarz's next turn.",
+              ' Constitution saving throw or have ',
+              { effect: 'starry-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'starry-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2967,6 +3003,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mage_armor_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'halfling-nimbleness',
@@ -2985,6 +3022,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'stout-resilience',
@@ -3028,9 +3066,18 @@ export default createPublicationMonsters({
             text: [
               "Dazzling light bursts from Porro's fingertips in a 15-foot cone. Each creature in that area must succeed on a ",
               { dc: 'int', save: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.blinded,
-              " condition until the end of Porro's next turn.",
+              ' Constitution saving throw or have ',
+              { effect: 'starry-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'starry-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -3186,6 +3233,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mage_armor_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3222,9 +3270,18 @@ export default createPublicationMonsters({
             text: [
               "Dazzling light bursts from Shalfey's fingertips in a 15-foot cone. Each creature in that area must succeed on a ",
               { dc: 'int', save: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.blinded,
-              " condition until the end of Shalfey's next turn.",
+              ' Constitution saving throw or have ',
+              { effect: 'starry-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'starry-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -5116,8 +5173,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
+              { effect: 'grappled' },
               ' condition (escape DC 20), and Zargon can pull the creature up to 20 feet straight toward itself. Zargon has six tentacles, each of which can grapple one creature. Zargon can move at its full speed while dragging creatures it is grappling.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5153,6 +5219,7 @@ export default createPublicationMonsters({
               rules.invisible,
               " sphere of antimagic, like that created by an Antimagic Field spell, surrounds the target. The sphere is centered on the target, moves with the target, and lasts until the end of Zargon's next turn.",
             ],
+            effects: [],
           },
           {
             key: 'slime-wave',
@@ -5165,11 +5232,21 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution saving throw. On a failed save, the creature takes ',
               { roll: '7d10' },
-              ' acid damage and has the ',
-              rules.poisoned,
-              ' condition for 1 minute. On a successful save, the creature takes half as much damage only. A ',
+              ' acid damage and has ',
+              { effect: 'slime-poisoned' },
+              '. On a successful save, the creature takes half as much damage only. A ',
               rules.poisoned,
               " creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature reduced to 0 hit points by the acid damage dies and dissolves into a puddle of slime that rises as a gibbering mouther at the start of Zargon's next turn. The creature obeys Zargon's commands and takes its turn immediately after Zargon's. Only a Wish spell can reverse this transformation and restore the creature to life.",
+            ],
+            effects: [
+              {
+                key: 'slime-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -5186,6 +5263,7 @@ export default createPublicationMonsters({
               { roll: '1d12' },
               ' force damage, and the spell it cast fails and is wasted.',
             ],
+            effects: [],
           },
           {
             key: 'slime-spray',
@@ -5201,6 +5279,7 @@ export default createPublicationMonsters({
               { roll: '2d6' },
               ' poison damage. On a successful save, it takes half as much damage.',
             ],
+            effects: [],
           },
         ],
       },

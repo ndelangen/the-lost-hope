@@ -2074,6 +2074,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wish_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'boon-of-immortality',
@@ -2134,8 +2135,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' by Iggwilv until the start of her next turn.',
+              { effect: 'bolt-charmed' },
+              ' by Iggwilv.',
+            ],
+            effects: [
+              {
+                key: 'bolt-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -2152,6 +2162,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'fey-step',
@@ -2174,6 +2185,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
         legendary: {
@@ -2203,11 +2215,22 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 60 },
                 onFail: {
                   damage: [{ dice: '2d10', type: rules.psychic }],
-                  also: ['Be ', rules.frightened, ' of Iggwilv for 1 minute.'],
+
+                  also: ['Be ', { effect: 'dark-speech-fear' }, ' of Iggwilv.'],
                 },
               },
               text: [
                 "Iggwilv utters a phrase in a forbidden language and targets one or two creatures she can see within 60 feet of her. A target can repeat the save at the end of each of its turns, ending the effect on itself on a success and thereby becoming immune to Iggwilv's Dark Speech for 24 hours.",
+              ],
+              effects: [
+                {
+                  key: 'dark-speech-fear',
+                  name: 'Frightened of Iggwilv',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
             {
@@ -2218,7 +2241,22 @@ export default createPublicationMonsters({
               text: [
                 'Iggwilv targets one creature she can see within 60 feet of her. The target must succeed on a ',
                 { dc: 'int', save: 'cha' },
-                " Charisma saving throw or be possessed by a fey spirit. While possessed, the target must obey Iggwilv's commands. The target can repeat the saving throw at the end of each of its turns, banishing the fey spirit and ending the effect on itself on a success.",
+                ' Charisma saving throw or be ',
+                { effect: 'fey-possessed' },
+                ' The target can repeat the saving throw at the end of each of its turns, banishing the fey spirit and ending the effect on itself on a success.',
+              ],
+              effects: [
+                {
+                  key: 'fey-possessed',
+                  name: 'Possessed by a fey spirit',
+                  lands: { on: 'save', save: 'cha', dc: 'int' },
+                  text: [
+                    'possessed by a fey spirit. ',
+                    "While possessed, the target must obey Iggwilv's commands.",
+                  ],
+                  lasts: { kind: 'until-removed' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
           ],
@@ -2539,6 +2577,7 @@ export default createPublicationMonsters({
               refs.spells.web_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2623,6 +2662,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'arcane-defense',
@@ -2636,6 +2676,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -4219,6 +4260,7 @@ export default createPublicationMonsters({
               refs.spells.zone_of_truth_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -4252,8 +4294,17 @@ export default createPublicationMonsters({
             },
             text: [
               'Once on each of his turns when he hits, Strongheart can make the blade flare and leave the target ',
-              rules.blinded,
-              ' until the start of his next turn.',
+              { effect: 'steel-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'steel-blinded',
+                name: 'Blinded',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {

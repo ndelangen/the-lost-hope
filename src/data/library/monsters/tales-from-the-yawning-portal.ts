@@ -1332,6 +1332,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'longsword',
@@ -2906,6 +2907,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.inflict_wounds_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'nimble-escape',
@@ -3336,6 +3338,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '. The magic works only for this crab and the band has no treasure value.',
             ],
+            effects: [],
           },
           {
             key: 'claw',
@@ -4094,6 +4097,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -4160,6 +4164,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -4256,6 +4261,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_ice_srd_5_1,
               '* *Evocation spell',
             ],
+            effects: [],
           },
           {
             key: 'sculpt-spells',
@@ -4453,6 +4459,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -5356,6 +5363,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Obmi doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'dwarven-resilience',
@@ -5395,6 +5403,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -5418,6 +5427,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -6459,6 +6469,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.stinking_cloud_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -6502,7 +6513,17 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'dex', save: 'con' },
-              ' Constitution saving throw or be cursed with werewolf lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'werewolf-lycanthropy' },
+            ],
+            effects: [
+              {
+                key: 'werewolf-lycanthropy',
+                name: 'Werewolf lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                text: ['cursed with werewolf lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6826,6 +6847,7 @@ export default createPublicationMonsters({
               { roll: '2d4', bonus: 2 },
               ' fire damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
         ],
       },
@@ -7552,6 +7574,7 @@ export default createPublicationMonsters({
               ') at will, requiring no components, but his target must be able to see him. At will: ',
               refs.spells.hold_person_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -7590,6 +7613,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' in its resting place.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',

@@ -1152,6 +1152,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.detect_thoughts,
             ],
+            effects: [],
           },
           {
             key: 'determined-survivor',
@@ -1942,6 +1943,7 @@ export default createPublicationMonsters({
               rules.charmed,
               " condition, and magic can't put the drow to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1985,16 +1987,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 20 } },
               onFail: {
                 damage: [{ dice: '6d10', type: rules.piercing }],
-                also: [
-                  'The target has the ',
-                  rules.restrained,
-                  " condition until the start of the drow's next turn.",
-                ],
+
+                also: ['The target has the ', { effect: 'vortex-restrained' }, '.'],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'vortex-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until', text: ["the start of the drow's next turn"] },
+              },
+            ],
           },
           {
             key: 'lolth-s-blessing',
@@ -2501,6 +2509,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'hooves',
@@ -2519,9 +2528,18 @@ export default createPublicationMonsters({
             text: [
               'If the nimblewright moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra ',
               { roll: '1d8' },
-              ' Bludgeoning damage and, if it is Huge or smaller, has the ',
-              rules.prone,
-              ' condition.',
+              ' Bludgeoning damage and, if it is Huge or smaller, has ',
+              { effect: 'hooves-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'hooves-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

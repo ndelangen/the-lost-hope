@@ -55,6 +55,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ', no components. At will, Detect Thoughts and Dispel Magic.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -117,9 +118,7 @@ export default createPublicationMonsters({
               'A Large or smaller target already ',
               rules.grappled,
               ' by the amalgamation is Swallowed, ending that grapple. Inside, it is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
+              { effect: 'swallowed' },
               ', has total cover from outside, takes ',
               { roll: '12d6' },
               " acid damage, and gains one level of Contamination at the start of the amalgamation's turns. If the amalgamation takes 50 or more damage in a single turn from a creature inside it, it makes a ",
@@ -131,6 +130,15 @@ export default createPublicationMonsters({
               ' and can spend 15 ft. of movement to exit ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -146,11 +154,18 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d6', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'Grapple the target (escape DC 18). It is ',
-              rules.restrained,
-              ' while ',
-              rules.grappled,
+              { effect: 'tentacle-grapple' },
               '. Each of twelve tentacles can hold one target.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -162,14 +177,30 @@ export default createPublicationMonsters({
               'Throw one Large or smaller held object or ',
               rules.grappled,
               ' creature up to 60 ft. A thrown creature lands ',
-              rules.prone,
+              { effect: 'thrown-prone' },
               '. Against a solid surface, it takes ',
               { roll: '1d6' },
               ' bludgeoning per 10 ft. thrown. A creature the target is thrown at must pass a ',
               { dc: 'dex', printed: 18 },
               ' Dexterity save or take the same damage and fall ',
-              rules.prone,
+              { effect: 'struck-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'thrown-prone',
+                name: 'Prone',
+                lands: { on: 'use' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'struck-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 18 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -184,11 +215,22 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120 },
               onFail: {
                 damage: [{ dice: '10d6', type: rules.psychic }],
-                also: ['Become insane until it finishes a long rest.'],
+
+                also: ['Become ', { effect: 'insanity' }, '.'],
               },
             },
-            text: [
-              'It cannot take actions, understand speech, or read, and can only speak gibberish. Greater Restoration ends the effect.',
+            text: [],
+            effects: [
+              {
+                key: 'insanity',
+                name: 'Insane',
+                lands: { on: 'failed-save' },
+                text: [
+                  'It cannot take actions, understand speech, or read, and can only speak gibberish.',
+                ],
+                lasts: { kind: 'until', text: ['it finishes a long rest'] },
+                ends: { cure: ['Greater Restoration ends the effect.'] },
+              },
             ],
           },
           {
@@ -201,7 +243,18 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '. Targets: each humanoid within 120 ft. Failure: ',
               { roll: '3d6' },
-              ' necrotic damage, and the target gains one level of Contamination.',
+              ' necrotic damage, and ',
+              { effect: 'contamination-presence' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'contamination-presence',
+                name: 'Contamination',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                text: ['the target gains one level of Contamination'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -566,6 +619,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' by the Queen of Thieves and generally obeys her spoken commands.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -595,10 +649,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Medium or smaller target is ',
-              rules.grappled,
-              ' (escape DC 17) and ',
-              rules.restrained,
-              ' until the grapple ends. Big Linda cannot Bite a different target during that grapple.',
+              { effect: 'bite-grapple' },
+              '. Big Linda cannot Bite a different target during that grapple.',
+            ],
+            effects: [
+              {
+                key: 'bite-grapple',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -633,6 +695,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -917,6 +980,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.flame_strike_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'devotion',
@@ -930,6 +994,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -3063,6 +3128,7 @@ export default createPublicationMonsters({
               refs.spells.hallow_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3576,6 +3642,7 @@ export default createPublicationMonsters({
               refs.spells.tree_stride_srd_5_1,
               ' (works on buildings instead of trees)',
             ],
+            effects: [],
           },
           {
             key: 'survivor',
@@ -3661,6 +3728,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -4032,6 +4100,7 @@ export default createPublicationMonsters({
               refs.spells.gate_srd_5_1,
               ', Sacrament of the Falling Fire.',
             ],
+            effects: [],
           },
           {
             key: 'prescient',
@@ -4075,6 +4144,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Wisdom save. On a failure, it chooses another target or loses the attack or spell. Area effects bypass this protection. If Lucretia attacks, casts a spell affecting an enemy, or damages another creature, Divine Grace stops until the start of her next turn.',
             ],
+            effects: [],
           },
           {
             key: 'pacifying-touch',
@@ -4092,8 +4162,17 @@ export default createPublicationMonsters({
               'If this damage drops the target to 0 HP, it is stable. The target makes a ',
               { dc: 'wis' },
               ' Wisdom save or is ',
-              rules.incapacitated,
-              ' for 1 minute. Any damage ends this condition early.',
+              { effect: 'touch-incapacitated' },
+              '. Any damage ends this condition early.',
+            ],
+            effects: [
+              {
+                key: 'touch-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -4595,6 +4674,7 @@ export default createPublicationMonsters({
               refs.spells.cloudkill_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'haze-adaptation',
@@ -4700,6 +4780,7 @@ export default createPublicationMonsters({
               refs.spells.antimagic_field_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -4741,7 +4822,16 @@ export default createPublicationMonsters({
               printedBonus: 8,
               damage: [{ dice: '3d6', type: rules.necrotic }],
             },
-            text: [{ dc: 'con' }, ' Constitution save or one level of Contamination.'],
+            text: [{ dc: 'con' }, ' Constitution save or ', { effect: 'touch-contamination' }, '.'],
+            effects: [
+              {
+                key: 'touch-contamination',
+                name: 'Contamination',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['one level of Contamination'],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'infest-the-flesh',
@@ -4753,9 +4843,24 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'dex' },
               ' Dexterity save. Failure deals ',
               { roll: '5d8' },
-              ' necrotic and Restrains the creature. It takes ',
-              { roll: '5d8' },
-              " necrotic at the start of each of the Pale Man's turns. It repeats the save at the end of its own turns to end the effect.",
+              ' necrotic and ',
+              { effect: 'infested-flesh' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'infested-flesh',
+                name: 'Infested flesh',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.restrained],
+                text: [
+                  'Restrains the creature. It takes ',
+                  { roll: '5d8' },
+                  " necrotic at the start of each of the Pale Man's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'recharge 6',
@@ -4789,7 +4894,18 @@ export default createPublicationMonsters({
                 { ability: 'infest-the-flesh' },
                 ' makes a ',
                 { dc: 'con' },
-                ' Constitution save or gains one level of Contamination.',
+                ' Constitution save or ',
+                { effect: 'contaminate-level' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'contaminate-level',
+                  name: 'Contamination',
+                  lands: { on: 'save', save: 'con', dc: 'con' },
+                  text: ['gains one level of Contamination'],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -4896,6 +5012,7 @@ export default createPublicationMonsters({
               refs.spells.foresight_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -4940,6 +5057,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally of the Queen within 5 ft. and she has no disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'memory-thief',
@@ -4953,6 +5071,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' by her. Heal or similar magic restores these memories.',
             ],
+            effects: [],
           },
           {
             key: 'rapier-3',
@@ -5001,6 +5120,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' and teleport 60 ft. to a visible empty space, leaving a double in her previous space for 1 minute. Invisibility ends if she attacks, casts a spell, or after 1 minute.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -5853,6 +5973,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales lightning in a 60-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -5864,6 +5985,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 40 feet away from the dragon.',
             ],
+            effects: [],
           },
         ],
       },

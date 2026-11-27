@@ -458,8 +458,17 @@ export default createPublicationMonsters({
             },
             text: [
               'The horror crashes into foes like a wave before quickly reforming. A creature that fails this saving throw is also knocked ',
-              rules.prone,
+              { effect: 'knocked-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Knocked prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

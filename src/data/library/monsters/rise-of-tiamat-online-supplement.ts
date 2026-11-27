@@ -261,6 +261,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' while it can see an allied creature within 30 feet of it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -285,10 +286,19 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. While ',
-              rules.poisoned,
-              ' in this way, the target can’t regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'devil-beard' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'devil-beard',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: ['the target can’t regain hit points.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -312,6 +322,7 @@ export default createPublicationMonsters({
               { roll: '1d10' },
               '. Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
             ],
+            effects: [],
           },
         ],
       },
@@ -408,6 +419,7 @@ export default createPublicationMonsters({
             text: ['The veteran exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'parry',

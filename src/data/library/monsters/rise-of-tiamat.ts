@@ -419,6 +419,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_stone_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -467,9 +468,23 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by ",
-              { roll: '3d6' },
-              " for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic.",
+              ' Constitution saving throw or be cursed with ',
+              { effect: 'mummy-rot' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mummy-rot',
+                name: 'Mummy rot',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "The cursed target can't regain hit points, and its hit point maximum decreases by ",
+                  { roll: '3d6' },
+                  " for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['the remove curse spell or other magic.'] },
+              },
             ],
           },
           {
@@ -481,10 +496,26 @@ export default createPublicationMonsters({
               'Diderius targets one creature it can see within 60 feet of it. If the target can see Diderius, it must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or become ',
-              rules.frightened,
-              " until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also ",
-              rules.paralyzed,
+              { effect: 'glare-frightened' },
+              '. If the target fails the saving throw by 5 or more, it is also ',
+              { effect: 'glare-paralyzed' },
               ' for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'glare-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+              {
+                key: 'glare-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
         ],
@@ -509,8 +540,17 @@ export default createPublicationMonsters({
                 'Blinding dust and sand swirls magically around Diderius. Each creature within 5 feet of Diderius must succeed on a ',
                 { dc: 'con' },
                 ' Constitution saving throw or be ',
-                rules.blinded,
-                " until the end of the creature's next turn.",
+                { effect: 'blinding-dust' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'blinding-dust',
+                  name: 'Blinded',
+                  lands: { on: 'save', save: 'con', dc: 'con' },
+                  conditions: [rules.blinded],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -522,8 +562,17 @@ export default createPublicationMonsters({
                 'Diderius utters a blasphemous word. Each non-undead creature within 10 feet of Diderius that can hear the magical utterance must succeed on a ',
                 { dc: 'con' },
                 ' Constitution saving throw or be ',
-                rules.stunned,
-                " until the end of Diderius's next turn.",
+                { effect: 'blasphemous-stun' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'blasphemous-stun',
+                  name: 'Stunned',
+                  lands: { on: 'save', save: 'con', dc: 'con' },
+                  conditions: [rules.stunned],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
             {
@@ -553,6 +602,7 @@ export default createPublicationMonsters({
                 rules.stunned,
                 '. Equipment worn or carried by Diderius remain in its possession.',
               ],
+              effects: [],
             },
           ],
         },
@@ -1472,7 +1522,22 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain by this attack rises 24 hours later as a zombie under Naergoth's control, unless the humanoid is restored to life or its body is destroyed. Naergoth can have no more than twelve zombies under his control at one time.",
+              ' Constitution saving throw or ',
+              { effect: 'life-drain' },
+              " A humanoid slain by this attack rises 24 hours later as a zombie under Naergoth's control, unless the humanoid is restored to life or its body is destroyed. Naergoth can have no more than twelve zombies under his control at one time.",
+            ],
+            effects: [
+              {
+                key: 'life-drain',
+                name: 'Life Drain',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'Its hit point maximum is reduced by an amount equal to the damage taken. ',
+                  'This reduction lasts until the target finishes a long rest. ',
+                  'The target dies if this effect reduces its hit point maximum to 0.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

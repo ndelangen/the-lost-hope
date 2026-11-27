@@ -782,6 +782,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wish_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'antimagic-aura',
@@ -820,13 +821,22 @@ export default createPublicationMonsters({
             text: [
               'When a creature moves to be within 120 feet of Asmodeus, they must succeed on a ',
               { dc: 'int', save: 'wis' },
-              ' Wisdom saving throw or have the ',
-              rules.frightened,
-              ' condition until they leave the aura. While ',
+              ' Wisdom saving throw or have ',
+              { effect: 'submission-frightened' },
+              '. While ',
               rules.frightened,
               ", creatures kneel before Asmodeus, taking no actions unless he commands otherwise. If Asmodeus deals damage to a kneeling creature, the creature's ",
               rules.frightened,
               ' condition ends. A creature that succeeds the saving throw is immune to this effect for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'submission-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'until', text: ['they leave the aura'] },
+              },
             ],
           },
           {
@@ -894,10 +904,18 @@ export default createPublicationMonsters({
               ' Intelligence saving throw, taking ',
               { roll: '10d8' },
               ' force damage on a failed save, or half as much damage on a successful one. A creature that failed the save is ',
-              rules.stunned,
-              ' for up to 1 minute. The ',
-              rules.stunned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success, but taking the damage again on a failed save.',
+              { effect: 'infernal-stunned' },
+              ', but taking the damage again on a failed save.',
+            ],
+            effects: [
+              {
+                key: 'infernal-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -910,13 +928,22 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'cha' },
               ' Charisma saving throw, taking ',
               { roll: '8d10' },
-              ' psychic damage on a failed save, or half as much damage on a successful one. A creature that failed the save has the ',
-              rules.charmed,
-              ' condition for up to 1 minute. While ',
-              rules.charmed,
-              ', a creature is controlled by Asmodeus, performing only actions that he suggests. A ',
-              rules.charmed,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success, but taking the damage again on a failed save.',
+              ' psychic damage on a failed save, or half as much damage on a successful one. A creature that failed the save has ',
+              { effect: 'suggestion-charmed' },
+              ', but taking the damage again on a failed save.',
+            ],
+            effects: [
+              {
+                key: 'suggestion-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'cha', dc: 'int' },
+                conditions: [rules.charmed],
+                text: [
+                  'a creature is controlled by Asmodeus, performing only actions that he suggests.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -936,6 +963,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'ruby-absorption',
@@ -1986,9 +2014,18 @@ export default createPublicationMonsters({
             text: [
               'When a creature starts their turn within 120 feet of Belial, they must succeed on a ',
               { dc: 'wis' },
-              ' Wisdom saving throw or have the ',
-              rules.frightened,
-              ' condition until they leave the aura. A creature that succeeds on the saving throw is immune to this effect for 1 hour.',
+              ' Wisdom saving throw or have ',
+              { effect: 'fear-frightened' },
+              '. A creature that succeeds on the saving throw is immune to this effect for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'fear-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'until', text: ['they leave the aura'] },
+              },
             ],
           },
           {
@@ -2044,7 +2081,18 @@ export default createPublicationMonsters({
             text: [
               'The target must make a ',
               { dc: 'str', save: 'con' },
-              " Constitution saving throw. On a failed save, the target's movement speed is reduced by 5 feet until the end of their next turn. This penalty can stack.",
+              ' Constitution saving throw. On a failed save, ',
+              { effect: 'ranseur-slowed' },
+              '. This penalty can stack.',
+            ],
+            effects: [
+              {
+                key: 'ranseur-slowed',
+                name: 'Reduced speed',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: ["the target's movement speed is reduced by 5 feet"],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -2059,6 +2107,7 @@ export default createPublicationMonsters({
               { roll: '8d8' },
               ' fire damage on a failed save, or half as much damage on a successful one. A creature that ends its turn inside the wall, or within 5 feet of it, must repeat the save.',
             ],
+            effects: [],
           },
           {
             key: 'symbol-of-insanity',
@@ -2075,6 +2124,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'pleasure-in-pain',
@@ -2108,6 +2158,7 @@ export default createPublicationMonsters({
                 { roll: '8d6' },
                 ' fire damage on a failed save, or half as much damage on a successful one.',
               ],
+              effects: [],
             },
             {
               key: 'call-underling',
@@ -2614,6 +2665,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'defensive-trip',
@@ -2623,7 +2675,20 @@ export default createPublicationMonsters({
             text: [
               'Buer attempts to slow the actions of a creature she can see within 60 feet of her. The target must succeed on a ',
               { dc: 'int', save: 'wis' },
-              " Wisdom saving throw or be slowed until the end of its next turn. A slowed creature's speed is halved, it takes a-2 penalty to AC and Dexterity saving throws, and it can't use its reactions. Regardless of the slowed creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.",
+              ' Wisdom saving throw or be ',
+              { effect: 'defensive-slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'defensive-slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                text: [
+                  "A slowed creature's speed is halved, it takes a-2 penalty to AC and Dexterity saving throws, and it can't use its reactions. Regardless of the slowed creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2638,6 +2703,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Wisdom saving throw. On a failed save, the creature and Buer swap positions, and the spell now targets the creature instead of Buer.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -4126,11 +4192,22 @@ export default createPublicationMonsters({
             text: [
               'When a creature moves to be within 120 feet of Glasya, they must succeed on a ',
               { dc: 'wis' },
-              ' Wisdom saving throw or have the ',
-              rules.charmed,
-              ' condition, treating Glasya as an ally, until they leave the aura. A creature that succeeds the saving throw is immune to this effect for 1 hour. Whenever a ',
+              ' Wisdom saving throw or have ',
+              { effect: 'charm-aura-charmed' },
+              '. A creature that succeeds the saving throw is immune to this effect for 1 hour. Whenever a ',
               rules.charmed,
               ' creature takes damage, they may repeat the saving throw, ending the effect on a success.',
+            ],
+            effects: [
+              {
+                key: 'charm-aura-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed],
+                text: ['treating Glasya as an ally'],
+                lasts: { kind: 'until', text: ['they leave the aura'] },
+                ends: { repeatSave: ['damaged'] },
+              },
             ],
           },
           {
@@ -4145,6 +4222,7 @@ export default createPublicationMonsters({
               rules.charmed,
               " creature, and her attacks don't break charms.",
             ],
+            effects: [],
           },
           {
             key: 'fiendish-regeneration',
@@ -4220,6 +4298,7 @@ export default createPublicationMonsters({
               { roll: '2d10', mod: 'dex' },
               ' necrotic damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
           {
             key: 'mesmerizing-gaze',
@@ -4229,11 +4308,21 @@ export default createPublicationMonsters({
             text: [
               'Glasya focuses her gaze in a 60-foot cone in front of her. Each creature of her choice within the cone must make a ',
               { dc: 'wis', save: 'cha' },
-              ' Charisma saving throw or have the ',
-              rules.charmed,
-              ' condition until the end of their next turn. While ',
-              rules.charmed,
-              ', creatures automatically fail saving throws from abilities used by Glasya and move to be as close to her as possible.',
+              ' Charisma saving throw or have ',
+              { effect: 'gaze-charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'gaze-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'cha', dc: 'wis' },
+                conditions: [rules.charmed],
+                text: [
+                  'creatures automatically fail saving throws from abilities used by Glasya and move to be as close to her as possible.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -4250,6 +4339,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
         legendary: {
@@ -4273,6 +4363,7 @@ export default createPublicationMonsters({
                 { dc: 'dex' },
                 "), but only lasting until the end of Glasya's next turn.",
               ],
+              effects: [],
             },
             {
               key: 'call-underling',
@@ -6605,6 +6696,7 @@ export default createPublicationMonsters({
             text: ['The orthoclath exhales poisonous gas in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

@@ -2271,6 +2271,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2345,6 +2346,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2381,6 +2383,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'duergar-resilience',
@@ -2394,6 +2397,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2454,6 +2458,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2502,6 +2507,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spiritual_weapon_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -2516,6 +2522,7 @@ export default createPublicationMonsters({
               '; 1/day each: ',
               refs.spells.command_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'duergar-resilience',
@@ -2529,6 +2536,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2589,6 +2597,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4061,7 +4070,21 @@ export default createPublicationMonsters({
             text: [
               'The spider targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, ',
+              { effect: 'slow' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slow',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4705,8 +4728,21 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' by the beholder for 1 hour, or until the beholder harms the creature. 2.',
+              { effect: 'charm-ray' },
+              '. 2.',
+            ],
+            effects: [
+              {
+                key: 'charm-ray',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: ['by the beholder'],
+                lasts: {
+                  kind: 'until',
+                  text: ['1 hour, or until the beholder harms the creature'],
+                },
+              },
             ],
           },
           {
@@ -4718,8 +4754,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 3.',
+              { effect: 'paralyzing-ray' },
+              '. 3.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-ray',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4731,8 +4777,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 4.',
+              { effect: 'fear-ray' },
+              '. 4.',
+            ],
+            effects: [
+              {
+                key: 'fear-ray',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4743,7 +4799,21 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'con', save: 'dex' },
-              " Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 5.",
+              ' Dexterity saving throw. On a failed save, ',
+              { effect: 'slowing-ray' },
+              '. 5.',
+            ],
+            effects: [
+              {
+                key: 'slowing-ray',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                text: [
+                  "the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4758,6 +4828,7 @@ export default createPublicationMonsters({
               { roll: '8d8' },
               ' necrotic damage on a failed save, or half as much damage on a successful one. 6.',
             ],
+            effects: [],
           },
           {
             key: 'telekinetic-ray',
@@ -4768,10 +4839,24 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'con', save: 'str' },
               ' Strength saving throw or the beholder moves it up to 30 feet in any direction. It is ',
-              rules.restrained,
-              " by the ray's telekinetic grip until the start of the beholder's next turn or until the beholder is ",
-              rules.incapacitated,
+              { effect: 'telekinetic-grip' },
               ". If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The beholder can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container.",
+            ],
+            effects: [
+              {
+                key: 'telekinetic-grip',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.restrained],
+                text: ["by the ray's telekinetic grip"],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the start of the beholder's next turn or until the beholder is ",
+                    rules.incapacitated,
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -5605,6 +5690,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.zone_of_truth_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -5624,6 +5710,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -5635,6 +5722,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Quenthel to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -5704,7 +5792,21 @@ export default createPublicationMonsters({
             text: [
               'If she hits a target with all three tentacles, it must make a ',
               { dc: 'str', save: 'con' },
-              " Constitution saving throw. On a failure, the creature's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions for 1 minute. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success.",
+              ' Constitution saving throw. On a failure, ',
+              { effect: 'tentacle-rod-slow' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-rod-slow',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: [
+                  "the creature's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions for 1 minute. Moreover, on each of its turns, it can take either an action or a bonus action, but not both.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5719,6 +5821,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '). A target that fails its saving throw takes 10d6 + 40 force damage. If this damage reduces the target to 0 hit points, it is disintegrated.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6872,6 +6975,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cloudkill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -6890,6 +6994,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disguise_self_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'stone-camouflage',
@@ -6921,6 +7026,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'war-pick',
@@ -7821,6 +7927,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put <$short_name$> to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -8362,6 +8469,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.sending_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'stone-camouflage',
@@ -8410,8 +8518,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success',
+              { effect: 'poisoned-dart' },
+            ],
+            effects: [
+              {
+                key: 'poisoned-dart',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],

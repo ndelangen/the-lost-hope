@@ -27769,13 +27769,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5 },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.necrotic }],
-                also: ['Become ', rules.poisoned, ' until the end of its next turn.'],
+
+                also: ['Become ', { effect: 'splash-poisoned' }, '.'],
               },
             },
             text: [
               'When a creature the Yaga goo can see targets it with a melee attack while within 5 feet of the goo, the goo can teleport to a puddle created by its ',
               { ability: 'foul-transit' },
               ", if that puddle's space is unoccupied, negating the damage from the attack.",
+            ],
+            effects: [
+              {
+                key: 'splash-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],

@@ -248,6 +248,7 @@ export default createPublicationMonsters({
               refs.spells.hold_monster_srd_5_1,
               '* *Enchantment spell of 1st level or higher',
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -273,6 +274,7 @@ export default createPublicationMonsters({
               { dc: 'wis', printed: 15 },
               ' Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than Morwena or itself. If multiple creatures are closest, the attacker chooses which one to target.',
             ],
+            effects: [],
           },
         ],
       },

@@ -9134,6 +9134,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -9152,6 +9153,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ". Magic can't put the drow to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -9211,10 +9213,31 @@ export default createPublicationMonsters({
               'The target must pass a ',
               { dc: 'cha', save: 'con' },
               ' Constitution save or be ',
-              rules.poisoned,
-              ' for 1 hour. On a failure by 5 or more it is also ',
-              rules.unconscious,
-              ' while this poison lasts. Damage or another creature spending an action to shake it awake ends the unconsciousness.',
+              { effect: 'bolt-poisoned' },
+              '. On a failure by 5 or more it is also ',
+              { effect: 'bolt-unconscious' },
+              ' while this poison lasts.',
+            ],
+            effects: [
+              {
+                key: 'bolt-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
+              {
+                key: 'bolt-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.unconscious],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'Damage or another creature spending an action to shake it awake ends the unconsciousness',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -19446,6 +19469,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -19536,7 +19560,25 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' psychic damage, and it must make a ',
               { dc: 'int' },
-              " Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target loses all proficiencies; it can't cast spells; it can't understand language; and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A greater restoration or remove curse spell cast on the target ends this effect early.",
+              " Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target ",
+              { effect: 'memory-stolen' },
+            ],
+            effects: [
+              {
+                key: 'memory-stolen',
+                name: 'Stolen memory',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                text: [
+                  "loses all proficiencies; it can't cast spells; it can't understand language; and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  repeatSave: ['long-rest'],
+                  cure: [
+                    'A greater restoration or remove curse spell cast on the target ends this effect early.',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -24838,6 +24880,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               '). The wand holds up to 7 charges and regains 1d4 + 3 charges each dawn. At will from the wand. Animate Dead, Blight, Speak with Dead. 1 charge each. Circle of Death or Finger of Death. 2 charges. Power Word Kill.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -24993,8 +25036,20 @@ export default createPublicationMonsters({
               'Conjure skeletal arms in a visible 20-ft. square of ground until the next initiative count 20. Each creature in the square when the arms appear makes a ',
               { dc: 'cha', save: 'str' },
               ' Strength save. On a failure, it is ',
-              rules.restrained,
-              ' until the arms vanish or Orcus releases it, which requires no action.',
+              { effect: 'arms-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'arms-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'cha' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: ['the arms vanish or Orcus releases it, which requires no action'],
+                },
+              },
             ],
           },
           {

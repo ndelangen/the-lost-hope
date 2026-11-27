@@ -1950,8 +1950,17 @@ export default createPublicationMonsters({
               'The walker sheds bright light in a 20-foot radius and dim light for an additional 20 feet. As a bonus action, the walker can target one creature in its bright light that it can see and force it to succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.blinded,
-              " until the start of the walker's next turn.",
+              { effect: 'light-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'light-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'until', text: ["the start of the walker's next turn"] },
+              },
             ],
           },
           {
@@ -2528,6 +2537,7 @@ export default createPublicationMonsters({
               refs.spells.phantasmal_force,
               ' *See "Actions" below.',
             ],
+            effects: [],
           },
           {
             key: 'shocking-grasp-cantrip',
@@ -2560,6 +2570,7 @@ export default createPublicationMonsters({
             text: [
               'The simulacrum hurls a bubble of acid at one creature it can see within 60 feet of it, or at two such creatures that are within 5 feet of each other.',
             ],
+            effects: [],
           },
           {
             key: 'magic-missile-1st-level-spell-requires-a-spell-slot',
@@ -2931,6 +2942,7 @@ export default createPublicationMonsters({
             text: ['The magen discharges a lightning bolt in a 60-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4062,6 +4074,7 @@ export default createPublicationMonsters({
               rules.deafened,
               ", giving it disadvantage on all its attack rolls, and it can't use its Poison Breath.",
             ],
+            effects: [],
           },
           {
             key: 'fire-absorption',
@@ -4158,6 +4171,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Hengar has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'brute',
@@ -4206,8 +4220,17 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bash-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bash-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5235,12 +5258,25 @@ export default createPublicationMonsters({
               'The living spell attempts to grab a Huge or smaller creature within 5 feet of it. The target must succeed on a ',
               { dc: 'con', save: 'dex' },
               ' Dexterity saving throw or be ',
-              rules.grappled,
-              ' (escape DC 15). Until the grapple ends, the target takes ',
-              { roll: '2d6', mod: 'str' },
-              " bludgeoning damage at the start of each of its turns. The living spell can grapple only one creature at a time and can't use ",
+              { effect: 'grabbed' },
+              ". The living spell can grapple only one creature at a time and can't use ",
               { ability: 'force-fist' },
               ' until the grapple ends.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.grappled],
+                text: [
+                  'Until the grapple ends, the target takes ',
+                  { roll: '2d6', mod: 'str' },
+                  ' bludgeoning damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
         ],
@@ -5504,10 +5540,20 @@ export default createPublicationMonsters({
               'Each non-undead creature within 60 feet of the banshee that can see her must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. A ',
+              { effect: 'visage-frightened' },
+              '. A ',
               rules.frightened,
               " target can repeat the saving throw at the end of each of its turns, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Horrifying Visage for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'visage-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5525,6 +5571,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -5968,6 +6015,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'brute',
@@ -6016,8 +6064,17 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'knocked-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6061,6 +6118,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'brute',
@@ -6109,8 +6167,17 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'knocked-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

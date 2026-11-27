@@ -352,6 +352,7 @@ export default createPublicationMonsters({
               '; 2nd level (2 slots): ',
               refs.spells.locate_animals_or_plants_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'rust-monster-cloak',
@@ -407,10 +408,31 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 hour. If the saving throw fails by 5 or more, the target is also ',
-              rules.unconscious,
-              '. The target regains consciousness if it takes damage or if another creature takes an action to shake it.',
+              { effect: 'bolt-poisoned' },
+              '. If the saving throw fails by 5 or more, the target is also ',
+              { effect: 'bolt-unconscious' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bolt-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
+              {
+                key: 'bolt-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'The target regains consciousness if it takes damage or if another creature takes an action to shake it',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -425,6 +447,7 @@ export default createPublicationMonsters({
               { ability: 'rust-monster-cloak' },
               ' trait.',
             ],
+            effects: [],
           },
         ],
       },
@@ -946,6 +969,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.creation_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -1004,6 +1028,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'disintegrate-1-7-days',
@@ -1033,7 +1058,20 @@ export default createPublicationMonsters({
               },
             },
             text: [
-              "Moghadam overloads the thoughts of one creature within 5 feet of either himself or his artificial mind. , and the next attack roll made against the target before the end of Moghadam's next turn has advantage.",
+              'Moghadam overloads the thoughts of one creature within 5 feet of either himself or his artificial mind. , and ',
+              { effect: 'overload-advantage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'overload-advantage',
+                name: 'Information overload',
+                lands: { on: 'failed-save' },
+                text: [
+                  "the next attack roll made against the target before the end of Moghadam's next turn has advantage",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1712,6 +1750,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.vampiric_touch_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -1736,6 +1775,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.true_seeing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'whispering-aura',
@@ -1756,6 +1796,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'talons',

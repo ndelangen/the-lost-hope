@@ -494,6 +494,7 @@ export default createPublicationMonsters({
               rules.poisoned,
               ' Longbow in any combination.',
             ],
+            effects: [],
           },
           {
             key: 'coral-scepter',
@@ -536,7 +537,20 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ', up to three creatures the merrow can see within 60 feet. Failure: ',
               { roll: '4d6' },
-              " Psychic damage, and the creature has Disadvantage on its next attack roll before the end of the merrow's next turn. Success: Half damage only.",
+              ' Psychic damage, and ',
+              { effect: 'invective-disadvantage' },
+              '. Success: Half damage only.',
+            ],
+            effects: [
+              {
+                key: 'invective-disadvantage',
+                name: 'Invective',
+                lands: { on: 'save', save: 'wis', dc: 'str' },
+                text: [
+                  "the creature has Disadvantage on its next attack roll before the end of the merrow's next turn.",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
         ],

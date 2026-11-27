@@ -44,6 +44,7 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' Poison damage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -89,13 +90,23 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d10', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 13) from one of two arms. While ',
+              'If the target is a Large or smaller creature, it has ',
+              { effect: 'crush-grapple' },
+              ' from one of two arms. While ',
               rules.grappled,
               ', the target has the ',
               rules.restrained,
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'crush-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -114,9 +125,18 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Large or smaller creature, it has ',
+              { effect: 'flesh-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'flesh-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -131,7 +151,20 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the abomination. Failure: ',
               { roll: '2d10' },
-              " Necrotic damage. The target's Hit Point maximum is reduced by an amount equal to the Necrotic damage taken, and the abomination regains Hit Points equal to that amount.",
+              ' Necrotic damage. ',
+              { effect: 'life-drained' },
+              ', and the abomination regains Hit Points equal to that amount.',
+            ],
+            effects: [
+              {
+                key: 'life-drained',
+                name: 'Hit Point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "The target's Hit Point maximum is reduced by an amount equal to the Necrotic damage taken",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2060,6 +2093,7 @@ export default createPublicationMonsters({
               { ability: 'pistol' },
               ' in any combination.',
             ],
+            effects: [],
           },
           {
             key: 'poisoned-harpoon',
@@ -3399,6 +3433,7 @@ export default createPublicationMonsters({
               '; 2/day: ',
               refs.spells.dream,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3457,6 +3492,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'emerald-restoration',
@@ -3511,15 +3547,26 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '3d6', type: rules.force }],
+
                   also: [
                     'The target has the ',
-                    rules.incapacitated,
-                    " condition and is transported to a harmless demiplane resembling the Emerald Dream until the start of the dragon's next turn, at which point it reappears in the space it left or the nearest unoccupied space.",
+                    { effect: 'dream-banished' },
+                    ', at which point it reappears in the space it left or the nearest unoccupied space.',
                   ],
                 },
               },
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn",
+              ],
+              effects: [
+                {
+                  key: 'dream-banished',
+                  name: 'Banished to the Emerald Dream',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.incapacitated],
+                  text: ['is transported to a harmless demiplane resembling the Emerald Dream'],
+                  lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+                },
               ],
             },
             {
@@ -4927,6 +4974,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -4947,6 +4995,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               " plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, Krik'thir drops to 1 Hit Point instead.",
             ],
+            effects: [],
           },
           {
             key: 'web-walker',
@@ -5015,16 +5064,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '5d10', type: rules.psychic }],
-                also: [
-                  'The target has the ',
-                  rules.stunned,
-                  " condition. Krik'thir maintains Concentration on this ability; the ",
-                  rules.stunned,
-                  ' condition ends when his Concentration is broken.',
-                ],
+
+                also: ['The target has ', { effect: 'web-stunned' }, '.'],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'web-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                text: ["Krik'thir maintains Concentration on this ability"],
+                lasts: { kind: 'until', text: ['his Concentration is broken'] },
+              },
+            ],
           },
           {
             key: 'sacrifice',
@@ -5062,11 +5116,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '4d6', type: rules.necrotic }],
-                  also: [
-                    "The target is cursed until Krik'thir dies. While cursed, it can take either an Action or a Bonus Action on its turn, not both, and it can't take Reactions.",
-                  ],
+
+                  also: ['The target is ', { effect: 'fatigue-curse' }],
                 },
               },
+              effects: [
+                {
+                  key: 'fatigue-curse',
+                  name: 'Curse of fatigue',
+                  lands: { on: 'failed-save' },
+                  text: [
+                    "While cursed, it can take either an Action or a Bonus Action on its turn, not both, and it can't take Reactions.",
+                  ],
+                  lasts: { kind: 'until', text: ["Krik'thir dies"] },
+                },
+              ],
             },
             {
               key: 'lunge',
@@ -5247,6 +5311,7 @@ export default createPublicationMonsters({
               '), some of which require charges; the helm has 8 charges to fuel these spells, and it regains 1d4 + 4 charges daily at dawn: At will: ',
               refs.spells.speak_with_dead,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -5276,6 +5341,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -5332,6 +5398,7 @@ export default createPublicationMonsters({
               { roll: '6d6' },
               " Force damage. The target dies if it is reduced to 0 Hit Points, and its soul is trapped in Frostmourne. The target can't be raised from the dead until its soul is released.",
             ],
+            effects: [],
           },
           {
             key: 'suffering-wave',
@@ -5347,6 +5414,7 @@ export default createPublicationMonsters({
                 damage: [{ dice: '3d6', type: rules.necrotic }],
               },
             },
+            effects: [],
           },
           {
             key: 'ice-burst',
@@ -5378,6 +5446,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.finger_of_death,
             ],
+            effects: [],
           },
           {
             key: 'rush',
@@ -5417,12 +5486,22 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '7d6', type: rules.cold }],
-                  also: ['The creature gains 1 Exhaustion level.'],
+
+                  also: ['The creature gains ', { effect: 'winter-exhaustion' }, '.'],
                 },
                 onSuccess: 'half',
               },
               text: [
                 "Failure or Success: Arthas can't take this action again until the start of his next turn.",
+              ],
+              effects: [
+                {
+                  key: 'winter-exhaustion',
+                  name: 'Exhaustion',
+                  lands: { on: 'failed-save' },
+                  text: ['1 ', rules.exhaustion, ' level'],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {

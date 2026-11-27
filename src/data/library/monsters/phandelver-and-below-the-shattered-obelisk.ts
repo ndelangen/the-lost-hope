@@ -3729,11 +3729,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.psychic, addModifier: true }],
-                also: ['Have the ', rules.stunned, ' condition until the end of its next turn.'],
+
+                also: [{ effect: 'nothic-stun' }],
               },
               printedDc: 12,
             },
             text: ['The nothic magically emits psychic energy in a 30-foot cone.'],
+            effects: [
+              {
+                key: 'nothic-stun',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -3747,6 +3757,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4093,6 +4104,7 @@ export default createPublicationMonsters({
               { roll: '2d4' },
               '. Any creature can take an action to stanch the wound with a successful DC 13 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
             ],
+            effects: [],
           },
           {
             key: 'greataxe',
@@ -4114,6 +4126,7 @@ export default createPublicationMonsters({
               { dc: 'str', printed: 15 },
               ' Strength saving throw or its grapple ends.',
             ],
+            effects: [],
           },
           {
             key: 'teleport',
@@ -4423,6 +4436,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'eye-beam',
@@ -4445,7 +4459,18 @@ export default createPublicationMonsters({
             text: [
               'The oculorb releases a wave of negative emotions, choosing one of the following options: Weeping Eyes. The oculorb weeps, releasing a wave of crushing despair. Each creature within 30 feet of the oculorb must make a ',
               { dc: 'cha', save: 'con' },
-              " Constitution saving throw. On a failed save, a creature's speed is reduced to 0 feet until the end of the oculorb's next turn, and if the creature was concentrating, its concentration is broken.",
+              ' Constitution saving throw. On a failed save, ',
+              { effect: 'weeping-eyes' },
+              ', and if the creature was concentrating, its concentration is broken.',
+            ],
+            effects: [
+              {
+                key: 'weeping-eyes',
+                name: 'Speed reduced to 0',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                text: ["a creature's speed is reduced to 0 feet"],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4462,15 +4487,24 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '6d10', type: rules.necrotic }],
-                also: ['Has the ', rules.frightened, ' condition for 1 minute.'],
+
+                also: [{ effect: 'withering-glare' }],
               },
             },
             text: [
               "The oculorb's eyes unleash furious scarlet energy in a 60-foot cone. On a successful save, a creature takes half as much damage and isn't ",
               rules.frightened,
-              '. A ',
-              rules.frightened,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.',
+              '.',
+            ],
+            effects: [
+              {
+                key: 'withering-glare',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4486,6 +4520,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' psychic damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6006,6 +6041,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

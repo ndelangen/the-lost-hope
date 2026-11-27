@@ -1172,6 +1172,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shatter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -1190,6 +1191,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.faerie_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -1212,6 +1214,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2005,6 +2008,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.silence_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'brave',
@@ -2012,6 +2016,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Rosie has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'halfling-nimbleness',
@@ -2032,6 +2037,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shadow-step',

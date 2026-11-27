@@ -236,12 +236,21 @@ export default createPublicationMonsters({
               'Move at least 20 ft. straight toward a creature and hit it with ',
               { ability: 'claw' },
               ' on that turn. The creature falls ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               ' on a failed ',
               { dc: 'str' },
               ' Strength save. A ',
               rules.prone,
               ' target can then be bitten once as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1976,7 +1985,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with werewolf lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'werewolf-lycanthropy-emil' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'werewolf-lycanthropy-emil',
+                name: 'werewolf lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with werewolf lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2178,6 +2198,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.ray_of_frost_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2223,8 +2244,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con', printed: 18 },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'touch-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'touch-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 18 },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -2253,10 +2284,18 @@ export default createPublicationMonsters({
                 'Exethanter fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a ',
                 { dc: 'wis', printed: 18 },
                 ' Wisdom saving throw against this magic or become ',
-                rules.frightened,
-                ' for 1 minute. The ',
-                rules.frightened,
-                " target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Exethanter's gaze for the next 24 hours.",
+                { effect: 'gaze-frightened' },
+                ". If a target's saving throw is successful or the effect ends for it, the target is immune to Exethanter's gaze for the next 24 hours.",
+              ],
+              effects: [
+                {
+                  key: 'gaze-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'wis', printed: 18 },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
             {
@@ -2271,6 +2310,7 @@ export default createPublicationMonsters({
                 { roll: '6d6' },
                 ' necrotic damage on a failed save, or half as much damage on a successful one.',
               ],
+              effects: [],
             },
           ],
         },
@@ -3187,7 +3227,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with werewolf lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'werewolf-lycanthropy-kiril' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'werewolf-lycanthropy-kiril',
+                name: 'werewolf lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with werewolf lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4225,6 +4276,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -5499,10 +5551,19 @@ export default createPublicationMonsters({
               'If Sangzor moves 20 ft. or more in a straight line toward a target and hits with Ram on the same turn, the attack deals ',
               { roll: '2d4' },
               ' extra bludgeoning damage. A creature hit falls ',
-              rules.prone,
+              { effect: 'charge-prone' },
               ' if it fails a ',
               { dc: 'str' },
               ' Strength save.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5515,6 +5576,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'ram',

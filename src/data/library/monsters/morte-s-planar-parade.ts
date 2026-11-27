@@ -4045,7 +4045,20 @@ export default createPublicationMonsters({
             text: [
               'One visible creature within 30 ft. makes a ',
               { dc: 'wis', save: 'cha' },
-              ' Charisma save, with disadvantage if it is below its maximum HP. Failure leaves it magically cursed for 24 hours. The bloodhound senses the creature’s direction and distance on the same plane. Across planes, the bloodhound knows only which plane the creature is on.',
+              ' Charisma save, with disadvantage if it is below its maximum HP. Failure leaves it magically ',
+              { effect: 'marked-cursed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'marked-cursed',
+                name: 'Cursed',
+                lands: { on: 'save', save: 'cha', dc: 'wis' },
+                text: [
+                  'The bloodhound senses the creature’s direction and distance on the same plane. Across planes, the bloodhound knows only which plane the creature is on.',
+                ],
+                lasts: { kind: 'time', amount: '24', unit: 'hour' },
+              },
             ],
             uses: 3,
             recharge: 'Long rest',

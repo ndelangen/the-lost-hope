@@ -65,8 +65,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success 2.',
+              { effect: 'ray-paralyzed' },
+              '. 2.',
+            ],
+            effects: [
+              {
+                key: 'ray-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -78,8 +88,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 3.',
+              { effect: 'ray-frightened' },
+              '. 3.',
+            ],
+            effects: [
+              {
+                key: 'ray-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -94,6 +114,7 @@ export default createPublicationMonsters({
               { roll: '8d8' },
               ' necrotic damage on a failed save, or half as much damage on a successful one. 4.',
             ],
+            effects: [],
           },
           {
             key: 'disintegration-ray',
@@ -107,6 +128,7 @@ export default createPublicationMonsters({
               { roll: '10d8' },
               ' force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger nonmagical object or creation of magical force, this ray disintegrates a 10-foot cube of it.',
             ],
+            effects: [],
           },
         ],
       },

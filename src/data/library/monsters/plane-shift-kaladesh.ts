@@ -42,6 +42,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -153,6 +154,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -527,8 +529,18 @@ export default createPublicationMonsters({
               "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+              { effect: 'frightful-presence' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'frightful-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -549,6 +561,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales fire in a 60-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'fiery-bite',
@@ -597,11 +610,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'wing-prone' }],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -853,10 +876,19 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it is ',
-              rules.grappled,
+              { effect: 'grappled' },
               ' (escape DC 17). Until this grapple ends, the target is ',
               rules.restrained,
               ", and the hellion can't bite another target.",
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -866,12 +898,8 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               "The hellion makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is ",
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the hellion, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the hellion's turns. If the hellion takes 30 damage or more on a single turn from a creature inside it, the hellion must succeed on a ",
+              { effect: 'swallowed' },
+              '. If the hellion takes 30 damage or more on a single turn from a creature inside it, the hellion must succeed on a ',
               { dc: 'con', printed: 15 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -880,6 +908,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside the hellion, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the hellion's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -986,6 +1028,7 @@ export default createPublicationMonsters({
               rules.prone,
               ', the elephant can make one stomp attack against it as a bonus action.',
             ],
+            effects: [],
           },
           {
             key: 'gore',
@@ -1250,6 +1293,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ["The thopter can't use its blindsight while ", rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -1320,6 +1364,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'beak',
@@ -1587,10 +1632,26 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              ' for 1 hour. If the saving throw fails by 5 or more, the target falls ',
-              rules.unconscious,
+              { effect: 'sting-poisoned' },
+              '. If the saving throw fails by 5 or more, the target falls ',
+              { effect: 'sting-unconscious' },
               ' for the same duration, or until it takes damage or another creature uses an action to shake it awake.',
+            ],
+            effects: [
+              {
+                key: 'sting-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
+              {
+                key: 'sting-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
         ],
@@ -1696,6 +1757,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'beak',

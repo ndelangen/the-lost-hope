@@ -4611,6 +4611,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['Zala Morphus targets one creature it can see within 30 feet of it.'],
+            effects: [],
           },
           {
             key: 'weird-insight',
@@ -4622,6 +4623,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '.',
             ],
+            effects: [],
           },
         ],
       },

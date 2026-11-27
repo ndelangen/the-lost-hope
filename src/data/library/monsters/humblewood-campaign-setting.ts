@@ -48,8 +48,17 @@ export default createPublicationMonsters({
               'When it emerges from a burrow, any creature within 5 ft. that is at least one size smaller must succeed on a ',
               { dc: 'dex', printed: 14 },
               ' Dexterity save or fall ',
-              rules.prone,
+              { effect: 'eruption-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'eruption-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 14 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -95,13 +104,20 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'Grapple the target (escape DC 14). While ',
-              rules.grappled,
-              ' this way, the target is ',
-              rules.restrained,
+              { effect: 'snake-constrict' },
               ', and the ashsnake cannot use Constrict or ',
               { ability: 'crush' },
               ' on another target. It can release the target at any time during its turn.',
+            ],
+            effects: [
+              {
+                key: 'snake-constrict',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -133,6 +149,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -248,10 +265,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target falls ',
-              rules.prone,
+              { effect: 'stomp-prone' },
               ' on a failed ',
               { dc: 'str', save: 'con' },
               ' Constitution save.',
+            ],
+            effects: [
+              {
+                key: 'stomp-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -272,6 +298,7 @@ export default createPublicationMonsters({
             text: ['Choose a point within 60 ft.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3739,6 +3766,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'talon-grapple',

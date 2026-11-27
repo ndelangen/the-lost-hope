@@ -42,6 +42,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -153,6 +154,7 @@ export default createPublicationMonsters({
               '; 1/day each: destructive wave, ',
               refs.spells.geas_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -384,8 +386,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'rock-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'rock-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -398,6 +409,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'dex' },
               ' Dexterity saving throw, catch the missile and take no bludgeoning damage from it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -444,10 +456,19 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it is ',
-              rules.grappled,
+              { effect: 'grappled' },
               ' (escape DC 13). Until this grapple ends, the crawler can bite only the ',
               rules.grappled,
               ' creature and has advantage on attack rolls to do so.',
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -466,6 +487,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -748,6 +770,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.dispel_evil_and_good_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'pounce',
@@ -758,10 +781,19 @@ export default createPublicationMonsters({
               'If the felidar moves at least 20 feet straight toward a creature and then hits it with a claws attack on the same turn, the target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               '. If the target is ',
               rules.prone,
               ', the felidar can make one bite attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1170,10 +1202,19 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it is ',
-              rules.grappled,
+              { effect: 'grappled' },
               ' (escape DC 17). Until this grapple ends, the target is ',
               rules.restrained,
               ", and the hellion can't bite another target.",
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1183,12 +1224,8 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               "The hellion makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is ",
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the hellion, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the hellion's turns. If the hellion takes 30 damage or more on a single turn from a creature inside it, the hellion must succeed on a ",
+              { effect: 'swallowed' },
+              '. If the hellion takes 30 damage or more on a single turn from a creature inside it, the hellion must succeed on a ',
               { dc: 'con', printed: 15 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -1197,6 +1234,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside the hellion, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the hellion's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1309,6 +1360,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.control_weather_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -1376,6 +1428,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 15 },
               ' Constitution saving throw or die.',
             ],
+            effects: [],
           },
           {
             key: 'flying-sword',
@@ -1430,6 +1483,7 @@ export default createPublicationMonsters({
                 { roll: '4d6' },
                 ' radiant damage on a failed save, or half as much damage on a successful one.',
               ],
+              effects: [],
             },
             {
               key: 'blinding-gaze',
@@ -1440,8 +1494,20 @@ export default createPublicationMonsters({
                 'Iona targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a ',
                 { dc: 'con', printed: 15 },
                 ' Constitution saving throw or be ',
-                rules.blinded,
-                ' until magic such as the lesser restoration spell removes the blindness.',
+                { effect: 'blinding-gaze' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'blinding-gaze',
+                  name: 'Blinded',
+                  lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                  conditions: [rules.blinded],
+                  lasts: {
+                    kind: 'until',
+                    text: ['magic such as the lesser restoration spell removes the blindness'],
+                  },
+                },
               ],
             },
           ],
@@ -1845,6 +1911,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.insect_plague_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',

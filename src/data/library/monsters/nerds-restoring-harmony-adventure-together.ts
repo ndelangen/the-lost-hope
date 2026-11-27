@@ -359,6 +359,7 @@ export default createPublicationMonsters({
               rules.stunned,
               ', or put to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

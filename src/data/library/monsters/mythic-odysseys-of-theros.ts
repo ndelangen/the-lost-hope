@@ -1335,8 +1335,17 @@ export default createPublicationMonsters({
               ' piercing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength save or be pushed up to 10 ft. away and knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1402,10 +1411,19 @@ export default createPublicationMonsters({
             },
             text: [
               'If the amphora is empty, the target is ',
-              rules.restrained,
+              { effect: 'amphora-restrained' },
               ' inside. A ',
               rules.restrained,
               ' creature can use an action to make a DC 14 Dexterity (Acrobatics) check, escaping on a success. Destroying the amphora also ends the restraint. The amphora has AC 8, 20 HP, and immunity to poison and psychic damage.',
+            ],
+            effects: [
+              {
+                key: 'amphora-restrained',
+                name: 'Restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

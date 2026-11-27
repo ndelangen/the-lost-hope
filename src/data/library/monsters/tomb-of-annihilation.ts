@@ -4242,6 +4242,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4272,6 +4273,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -4295,6 +4297,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -4579,6 +4582,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' creatures and objects as if they were visible.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -4614,10 +4618,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 17). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'bite-grapple' },
               ", and the tyrannosaurus can't bite another target.",
+            ],
+            effects: [
+              {
+                key: 'bite-grapple',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -6945,6 +6957,7 @@ export default createPublicationMonsters({
               refs.spells.mind_blank_srd_5_1,
               ' on herself before a fight when able.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',

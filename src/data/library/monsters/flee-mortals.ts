@@ -2188,6 +2188,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength save, the target is pulled up to 15 ft. toward Uthrak.',
             ],
+            effects: [],
           },
           {
             key: 'kneel-peasant',
@@ -2200,8 +2201,17 @@ export default createPublicationMonsters({
               '). On a failure it takes ',
               { roll: '1d4', mod: 'str' },
               ' bludgeoning damage and falls ',
-              rules.prone,
+              { effect: 'kneel-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'kneel-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4840,7 +4850,16 @@ export default createPublicationMonsters({
                 { dice: '1d6', type: rules.poison },
               ],
             },
-            text: ['The target is ', rules.poisoned, ' until the start of Cloak’s next turn.'],
+            text: ['The target is ', { effect: 'shortsword-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'shortsword-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until', text: ['the start of Cloak’s next turn'] },
+              },
+            ],
           },
           {
             key: 'light-crossbow',
@@ -8098,6 +8117,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' or be pushed 10 ft. away.',
             ],
+            effects: [],
           },
           {
             key: 'living-blaze',
@@ -8133,6 +8153,7 @@ export default createPublicationMonsters({
                 ],
               },
             },
+            effects: [],
           },
           {
             key: 'travel-by-fire',
@@ -8176,9 +8197,18 @@ export default createPublicationMonsters({
             text: [
               'An enemy leaving the red fist’s reach makes a ',
               { dc: 'con' },
-              ' Constitution save or gains one level of ',
-              rules.exhaustion,
+              ' Constitution save or ',
+              { effect: 'heat-exhaustion' },
               '. Resistance or immunity to fire damage prevents this effect.',
+            ],
+            effects: [
+              {
+                key: 'heat-exhaustion',
+                name: 'Exhaustion',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['gains one level of ', rules.exhaustion],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -8216,8 +8246,17 @@ export default createPublicationMonsters({
             },
             text: [
               'A creature hit twice by Unarmed Strike on the same turn is ',
-              rules.blinded,
-              ' until the end of its next turn.',
+              { effect: 'strike-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'strike-blinded',
+                name: 'Blinded',
+                lands: { on: 'use' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -8589,6 +8628,7 @@ export default createPublicationMonsters({
               { roll: '2d10' },
               ' fire damage on a hit.',
             ],
+            effects: [],
           },
           {
             key: 'essence-thief',
@@ -8608,6 +8648,7 @@ export default createPublicationMonsters({
             text: [
               'The Elemental can then teleport to a visible unoccupied space within 5 ft. of either target.',
             ],
+            effects: [],
           },
         ],
       },
@@ -8694,6 +8735,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'stone-armor',
@@ -8709,6 +8751,7 @@ export default createPublicationMonsters({
               rules.stunned,
               ' conditions.',
             ],
+            effects: [],
           },
         ],
       },

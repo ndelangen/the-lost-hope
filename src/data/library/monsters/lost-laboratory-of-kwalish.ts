@@ -973,6 +973,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.unseen_servant_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -983,10 +984,26 @@ export default createPublicationMonsters({
               'Mary wears Bracers of Defense and a Ring of Protection, and carries a Deck of Several Things Fey Presence (Recharges after a Short Rest). Mary can cause each creature within 10 feet of her to succeed on a ',
               { dc: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.charmed,
+              { effect: 'fey-charmed' },
               ' or ',
-              rules.frightened,
-              " by her (Mary's choice) until the end of her next turn.",
+              { effect: 'fey-frightened' },
+              " by her (Mary's choice)",
+            ],
+            effects: [
+              {
+                key: 'fey-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+              {
+                key: 'fey-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -999,6 +1016,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',

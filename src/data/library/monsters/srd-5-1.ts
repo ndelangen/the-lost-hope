@@ -4666,6 +4666,7 @@ export default createPublicationMonsters({
               refs.spells.time_stop,
               '; *The archmage casts these spells on itself before combat.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',

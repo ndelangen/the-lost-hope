@@ -4984,6 +4984,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ", and magic can't put the neogi to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -5026,8 +5027,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              ' for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'neogi-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'neogi-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {

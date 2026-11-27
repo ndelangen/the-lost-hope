@@ -404,6 +404,7 @@ export default createPublicationMonsters({
               rules.stunned,
               ' until the end of his next turn.',
             ],
+            effects: [],
           },
           {
             key: 'glide',
@@ -535,9 +536,18 @@ export default createPublicationMonsters({
             text: [
               'When Aster hits with a melee attack, he can spend a bonus action to either take the Disengage action or attempt to trip the target of his attack. A creature he attempts to trip must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or be knocked ',
-              rules.prone,
+              ' Strength saving throw or be',
+              { effect: 'trip-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'trip-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -611,6 +621,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' in his space at the end of the turn. Aster may uncurl himself at any point during his turn.',
             ],
+            effects: [],
           },
         ],
       },
@@ -949,6 +960,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1082,6 +1094,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.speak_with_animals_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2890,6 +2903,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw or be pushed 10 feet away from Horns.',
             ],
+            effects: [],
           },
           {
             key: 'surge-of-vigor-recharges-after-a-long-rest',
@@ -3835,6 +3849,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'resilience',
@@ -3842,6 +3857,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The thug has advantage on saving throws against being ', rules.poisoned, '.'],
+            effects: [],
           },
           {
             key: 'skulker',
@@ -5069,7 +5085,7 @@ export default createPublicationMonsters({
               'If the Rosselbuck jumps or glides at least 30 feet as part of its movement, it can land on its feet in a space occupied by one or more other creatures. Each of these creatures must succeed on a ',
               { dc: 'dex', printed: 16 },
               ' Dexterity saving throw or be knocked ',
-              rules.prone,
+              { effect: 'leap-prone' },
               ' and take ',
               { roll: '6d6', bonus: 5 },
               " bludgeoning damage. On a successful save, the creature takes only half the damage, isn't knocked ",
@@ -5077,6 +5093,15 @@ export default createPublicationMonsters({
               ", and is pushed 5 feet out of the Rosselbuck's space into an adjacent unoccupied space of its choice. If no unoccupied space is within range, the creature instead falls ",
               rules.prone,
               " in the Rosselbuck's space.",
+            ],
+            effects: [
+              {
+                key: 'leap-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 16 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -5147,6 +5172,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.pass_without_trace_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'glide',
@@ -5588,12 +5614,24 @@ export default createPublicationMonsters({
               'Skopps commands a beast or monstrosity within 80 feet of him that can hear him. The target must succeed on a ',
               { dc: 'wis', printed: 15 },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' of Skopps until the end of his next turn. While the target is ',
-              rules.frightened,
-              " and Skopps is conscious, Skopps has a telepathic link with it, and can use this link to mentally control the creature. At the start of the controlled creature's turn, Skopps can decide what actions and movement the creature takes on its turn. The target takes only the actions Skopps commands, and doesn't do anything that Skopps doesn't allow it to do. Skopps can cause the creature to use a reaction at any time, but this requires Skopps to use his reaction as well. Each time the controlled creature takes damage, it makes a Wisdom saving throw against being ",
-              rules.frightened,
-              '. If the saving throw succeeds, this effect ends. Beast Command is a magical effect.',
+              { effect: 'command-frightened' },
+              '. Beast Command is a magical effect.',
+            ],
+            effects: [
+              {
+                key: 'command-frightened',
+                name: 'Frightened of Skopps',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 15 },
+                conditions: [rules.frightened],
+                text: [
+                  'While the target is ',
+                  rules.frightened,
+                  " and Skopps is conscious, Skopps has a telepathic link with it, and can use this link to mentally control the creature. At the start of the controlled creature's turn, Skopps can decide what actions and movement the creature takes on its turn. The target takes only the actions Skopps commands, and doesn't do anything that Skopps doesn't allow it to do. Skopps can cause the creature to use a reaction at any time, but this requires Skopps to use his reaction as well. Each time the controlled creature takes damage, it makes a Wisdom saving throw against being ",
+                  rules.frightened,
+                  '. If the saving throw succeeds, this effect ends.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
         ],
@@ -5729,6 +5767,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.stinking_cloud_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiple-heads',
@@ -5750,6 +5789,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wakeful',
@@ -5819,8 +5859,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the Slime King attacks a creature and rolls a 20 on its attack roll, the target is ',
-              rules.paralyzed,
-              ' until the end of its next turn.',
+              { effect: 'crit-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'crit-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'use' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -5856,6 +5905,7 @@ export default createPublicationMonsters({
                 refs.spells.bestow_curse_srd_5_1,
                 ' on any creature that failed its saving throw.',
               ],
+              effects: [],
             },
           ],
         },
@@ -5901,6 +5951,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'dead-accurate',
@@ -6953,6 +7004,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spiritual_weapon_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'evasive',
@@ -6975,6 +7027,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7054,6 +7107,7 @@ export default createPublicationMonsters({
               '; 1/day each: ambush prey*, ',
               refs.spells.fear_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'death-in-shadow',
@@ -7181,6 +7235,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mirror_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'death-in-shadow',
@@ -7287,6 +7342,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the spy doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

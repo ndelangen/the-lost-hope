@@ -42,6 +42,7 @@ export default createPublicationMonsters({
               ' attacks. 1/day: ',
               refs.spells.fear,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -62,6 +63,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' condition for 1 hour, after which she regains 1 Hit Point.',
             ],
+            effects: [],
           },
           {
             key: 'shroud-of-sorrow',
@@ -75,6 +77,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-weakness',
@@ -131,10 +134,15 @@ export default createPublicationMonsters({
                 { dice: '4d10', type: rules.psychic, addModifier: true, printedAverage: 22 },
               ],
             },
-            text: [
-              'The target has the ',
-              rules.frightened,
-              " condition until the end of Lana'thel's next turn.",
+            text: ['The target has the ', { effect: 'bloodbolt-frightened' }, '.'],
+            effects: [
+              {
+                key: 'bloodbolt-frightened',
+                name: 'Frightened',
+                lands: { on: 'hit' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -149,6 +157,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               "). Lana'thel can't take this action again until the start of her next turn.",
             ],
+            effects: [],
           },
           {
             key: 'blood-mirror',
@@ -188,6 +197,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
         legendary: {
@@ -1341,6 +1351,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'plague-stench',
@@ -1354,13 +1365,19 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '3d12', type: rules.poison }],
-                also: [
-                  'The target has the ',
-                  rules.poisoned,
-                  ' condition until the start of its next turn.',
-                ],
+
+                also: ['The target has the ', { effect: 'stench-poisoned' }, '.'],
               },
             },
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'multiattack',
@@ -1407,6 +1424,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'eerie-howl',
@@ -1420,18 +1438,32 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.psychic }],
+
                 also: [
                   'The target has the ',
-                  rules.frightened,
-                  ' condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically. While ',
-                  rules.frightened,
-                  ', the target can do only one of the following on each of its turns: move, take an action, or take a Bonus Action.',
+                  { effect: 'howl-frightened' },
+                  '. After 1 minute, it succeeds automatically.',
                 ],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'howl-frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                text: [
+                  'While ',
+                  rules.frightened,
+                  ', the target can do only one of the following on each of its turns: move, take an action, or take a Bonus Action.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
           },
         ],
       },
@@ -1572,6 +1604,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ').',
             ],
+            effects: [],
           },
           {
             key: 'invocation-of-blood',
@@ -1656,6 +1689,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               "). The vampire can't take this action again until the start of its next turn.",
             ],
+            effects: [],
           },
           {
             key: 'sanguine-drain',
@@ -1673,11 +1707,21 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.necrotic }],
-                also: [
-                  "The target's Hit Point maximum decreases by an amount equal to the damage taken, and the vampire regains Hit Points equal to that amount.",
-                ],
+
+                also: [{ effect: 'sanguine-drained' }],
               },
             },
+            effects: [
+              {
+                key: 'sanguine-drained',
+                name: 'Hit Point maximum decreased',
+                lands: { on: 'failed-save' },
+                text: [
+                  "The target's Hit Point maximum decreases by an amount equal to the damage taken, and the vampire regains Hit Points equal to that amount.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
         legendary: {
@@ -3273,6 +3317,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.phantom_steed,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-bravery',
@@ -3286,6 +3331,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' conditions while there.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

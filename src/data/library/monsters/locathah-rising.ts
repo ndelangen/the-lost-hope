@@ -351,6 +351,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               " *Circle spells don't count against spells prepared.",
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -411,8 +412,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              " (escape DC 16). Until the grapple ends, Gar can't attack other creatures with his claw.",
+              { effect: 'grabbed' },
+              ". Until the grapple ends, Gar can't attack other creatures with his claw.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -444,7 +455,21 @@ export default createPublicationMonsters({
             text: [
               'Power ripples out in a 60-foot radius sphere from a point within range (150 ft.) as the will of Umberlee affects all in her watery embrace. Each creature in that area must succeed on a ',
               { dc: 'wis', save: 'con' },
-              " Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. This only affects targets that are submerged or floating in water. Gar Shatterkeel and any undead serving him are immune to this effect.",
+              ' Constitution saving throw. On a failed save, the creature ',
+              { effect: 'umberlees-wake' },
+              '. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. This only affects targets that are submerged or floating in water. Gar Shatterkeel and any undead serving him are immune to this effect.',
+            ],
+            effects: [
+              {
+                key: 'umberlees-wake',
+                name: 'Umberlee’s wake',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                text: [
+                  "can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -526,6 +551,7 @@ export default createPublicationMonsters({
               refs.spells.lightning_bolt_srd_5_1,
               ', tidal wave; 4th level (1 slot): watery sphere',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -540,6 +566,7 @@ export default createPublicationMonsters({
               ' to hit with spell attacks). He can innately cast the following spells: At will: shape water; 1/day: ',
               refs.spells.create_or_destroy_water_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -727,13 +754,9 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Medium or smaller creature ',
               rules.grappled,
-              ' by the kraken, that creature is swallowed and the grapple ends. While swallowed, the creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the kraken, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the kraken's turns. One Medium or two smaller creatures can be swallowed at the same time. If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a ",
+              ' by the kraken, that creature is swallowed and the grapple ends. ',
+              { effect: 'swallowed' },
+              ' One Medium or two smaller creatures can be swallowed at the same time. If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a ',
               { dc: 'con', printed: 23 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -742,6 +765,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse using 10 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside the kraken, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the kraken's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -758,10 +795,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 20). Until the grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'grabbed' },
               '. The kraken has ten tentacles, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -773,14 +818,30 @@ export default createPublicationMonsters({
               'One Medium or smaller object held or creature ',
               rules.grappled,
               ' by the kraken is thrown up to 40 feet in a random direction and knocked ',
-              rules.prone,
+              { effect: 'flung-prone' },
               '. If a thrown target strikes a solid surface, the target takes ',
               { roll: '1d6' },
               ' bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a ',
               { dc: 'dex' },
               ' Dexterity saving throw or take the same damage and be knocked ',
-              rules.prone,
+              { effect: 'struck-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'flung-prone',
+                name: 'Prone',
+                lands: { on: 'use' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'struck-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -795,6 +856,7 @@ export default createPublicationMonsters({
               { roll: '4d10' },
               ' lightning damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
         ],
       },

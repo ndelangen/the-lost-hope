@@ -7306,6 +7306,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks. Cantrips (at will). Fire Bolt, Mage Hand, Minor Illusion, Prestidigitation. 1st level (4 slots). Detect Magic, Identify, Shield, Tenser’s Floating Disk. 2nd level (3 slots). Detect Thoughts, Mirror Image, Phantasmal Force, Suggestion. 3rd level (3 slots). Counterspell, Fear, Fireball. 4th level (3 slots). Banishment, Dimension Door. 5th level (2 slots). Contact Other Plane, Hold Monster. 6th level (1 slot). Chain Lightning. 7th level (1 slot). Finger of Death. 8th level (1 slot). Mind Blank.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -7327,6 +7328,7 @@ export default createPublicationMonsters({
               refs.spells.magic_missile_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -7372,6 +7374,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'teleport',
@@ -9168,6 +9171,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' while it can see an allied creature within 30 feet of it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -9192,10 +9196,23 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. While ',
-              rules.poisoned,
-              " in this way, the target can't regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              { effect: 'beard-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'beard-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  " in this way, the target can't regain hit points.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -9213,11 +9230,29 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature other than an undead or a construct, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or lose ',
-              { roll: '1d10' },
-              ' hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by ',
-              { roll: '1d10' },
-              '. Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+              ' Constitution saving throw or ',
+              { effect: 'infernal-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'infernal-wound',
+                name: 'Infernal wound',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'lose ',
+                  { roll: '1d10' },
+                  ' hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by ',
+                  { roll: '1d10' },
+                  '.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -9278,6 +9313,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' while it can see an ally within 30 ft.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -9308,8 +9344,19 @@ export default createPublicationMonsters({
               'The target makes a ',
               { dc: 'con' },
               ' Constitution save. On a failure it is ',
-              rules.poisoned,
-              ' for 1 minute and cannot regain HP while affected. At the end of each of its turns, it can repeat the save and ends the effect on a success.',
+              { effect: 'beard-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'beard-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: ['cannot regain HP while affected'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -9327,11 +9374,29 @@ export default createPublicationMonsters({
             text: [
               'A creature hit by the glaive makes a ',
               { dc: 'con' },
-              ' Constitution save unless it is a Construct or Undead. On a failure it suffers an infernal wound that costs it ',
-              { roll: '1d10' },
-              ' HP at the start of each of its turns. Each further Glaive hit against the wounded target adds ',
-              { roll: '1d10' },
-              ' to that ongoing loss. Any creature can spend an action and pass a DC 12 Wisdom (Medicine) check to close the wound. Magical healing received by the target also closes it.',
+              ' Constitution save unless it is a Construct or Undead. On a failure it suffers ',
+              { effect: 'infernal-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'infernal-wound',
+                name: 'Infernal wound',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'an infernal wound that costs it ',
+                  { roll: '1d10' },
+                  ' HP at the start of each of its turns. Each further Glaive hit against the wounded target adds ',
+                  { roll: '1d10' },
+                  ' to that ongoing loss.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'Any creature can spend an action and pass a DC 12 Wisdom (Medicine) check to close the wound. Magical healing received by the target also closes it.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -29049,6 +29114,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -38900,6 +38966,7 @@ export default createPublicationMonsters({
               refs.spells.sleep_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -56351,6 +56418,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

@@ -426,6 +426,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-hate',
@@ -437,6 +438,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ", he and all fiends and undead within 30 feet of him deal 4 extra damage whenever they hit with a melee weapon attack (already factored into Arkhan's attacks). This extra damage is of the same type as the weapon's damage type.",
             ],
+            effects: [],
           },
           {
             key: 'hand-of-vecna',
@@ -456,6 +458,7 @@ export default createPublicationMonsters({
               refs.spells.teleport_srd_5_1,
               ' (3 charges).',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -467,6 +470,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' condition on him.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1670,10 +1674,19 @@ export default createPublicationMonsters({
               'Each non-undead creature within 60 feet of the dryad that can see her must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. A ',
-              rules.frightened,
-              " target can repeat the saving throw at the end of each of its turns, with disadvantage if the dryad is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the dryad's Horrifying Visage for the next 24 hours.",
+              { effect: 'dryad-frightened' },
+              ". If a target's saving throw is successful or the effect ends for it, the target is immune to the dryad's Horrifying Visage for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'dryad-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                text: ['with disadvantage if the dryad is within line of sight'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1691,6 +1704,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -2964,6 +2978,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -3103,6 +3118,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.fireball_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'grave-magic',
@@ -3171,8 +3187,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              " until the end of the master of souls' next turn. If the master of souls casts this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+              { effect: 'ray-poisoned' },
+              '. If the master of souls casts this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.',
+            ],
+            effects: [
+              {
+                key: 'ray-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until', text: ["the end of the master of souls' next turn"] },
+              },
             ],
           },
           {
@@ -3770,8 +3795,17 @@ export default createPublicationMonsters({
               ' slashing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'tusk-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tusk-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3818,7 +3852,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wereboar lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wereboar-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wereboar-lycanthropy',
+                name: 'Wereboar lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wereboar lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

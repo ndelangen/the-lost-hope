@@ -42,6 +42,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ', each creature in a 5-foot Emanation originating from the rat. Failure: 1 Acid damage.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -683,6 +684,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'shape-shift',
@@ -737,10 +739,15 @@ export default createPublicationMonsters({
                 { dice: '2d6', type: rules.poison },
               ],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              " condition until the start of Korex's next turn.",
+            text: ['The target has the ', { effect: 'rancid-poison' }, '.'],
+            effects: [
+              {
+                key: 'rancid-poison',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -755,14 +762,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120, which: 'Korex can see' },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.psychic }],
-                also: [
-                  'The target has the ',
-                  rules.charmed,
-                  " condition until the start of Korex's next turn.",
-                ],
+
+                also: ['The target has the ', { effect: 'entranced' }, '.'],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'entranced',
+                name: 'Charmed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'skitter',
@@ -815,15 +828,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60, which: 'Rilly June can see' },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic }],
-                also: [
-                  'The target has the ',
-                  rules.frightened,
-                  ' condition until the end of its next turn.',
-                ],
+
+                also: ['The target has the ', { effect: 'hayfork-fright' }, '.'],
               },
               onSuccess: 'half',
             },
             text: ["G'wan, Git! (1/Day)."],
+            effects: [
+              {
+                key: 'hayfork-fright',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
         ],
       },
@@ -865,6 +884,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ', each creature in a 10-foot Emanation originating from the rat. Failure: 2d4 Acid Damage. Success: Half damage.',
             ],
+            effects: [],
           },
           {
             key: 'swarm',
@@ -922,8 +942,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 12) from one of three vines.',
+              { effect: 'vine-grapple' },
+              ' from one of three vines.',
+            ],
+            effects: [
+              {
+                key: 'vine-grapple',
+                name: 'Grappled by a vine',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
           {
@@ -935,8 +965,17 @@ export default createPublicationMonsters({
               "Grasping vines momentarily appear on each enemy in a 10-foot-radius Sphere centered on a point of the blight's choice within 60 feet of it. Each target must succeed on a ",
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.restrained,
-              " condition until the start of the blight's next turn.",
+              { effect: 'tangled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tangled',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

@@ -2158,6 +2158,7 @@ export default createPublicationMonsters({
               refs.spells.simulacrum_srd_5_1,
               ' of herself at all times.',
             ],
+            effects: [],
           },
           {
             key: 'lightning-affinity',
@@ -2213,6 +2214,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'shocking-rebuke',
@@ -2226,6 +2228,7 @@ export default createPublicationMonsters({
               { roll: '2d10', mod: 'cha' },
               ' lightning damage on a failed save, half as much damage on a successful one.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2414,6 +2417,7 @@ export default createPublicationMonsters({
               ', elemental weapon, ',
               refs.spells.fire_shield_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'battle-smith',
@@ -2481,6 +2485,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'summon-steel-defender',
@@ -2494,6 +2499,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'flash-of-genius',
@@ -2677,6 +2683,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.stoneskin_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2688,6 +2695,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Jaheira to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2723,8 +2731,17 @@ export default createPublicationMonsters({
               ' Constitution saving throw, taking ',
               { roll: '8d10' },
               ' piercing damage on a failed save, or half as much damage on a successful one. If the target fails their saving throw they are also ',
-              rules.blinded,
-              ' until the end of their next turn.',
+              { effect: 'plague-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'plague-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -2828,6 +2845,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.time_stop_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2921,6 +2939,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'draining-counterspell',
@@ -2934,6 +2953,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' necrotic damage if the spell fails.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -2950,6 +2970,7 @@ export default createPublicationMonsters({
                 { roll: '4d6' },
                 ' necrotic damage, and Jon regains a number of hit points equal to half that necrotic damage.',
               ],
+              effects: [],
             },
             {
               key: 'paralyze',
@@ -2959,8 +2980,18 @@ export default createPublicationMonsters({
                 'Jon Irenicus makes a paralyze attack with his rod of lordly might. If he hits a creature with his rod, the creature must make a ',
                 { dc: 'wis', save: 'str' },
                 ' Strength saving throw. On a failed save, the creature has the ',
-                rules.paralyzed,
-                ' condition for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.',
+                { effect: 'rod-paralyzed' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'rod-paralyzed',
+                  name: 'Paralyzed',
+                  lands: { on: 'save', save: 'str', dc: 'wis' },
+                  conditions: [rules.paralyzed],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
             {
@@ -3352,6 +3383,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'mimicry',
@@ -3398,7 +3430,18 @@ export default createPublicationMonsters({
             text: [
               'In hybrid form. If the target is Humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wereraven lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'lycanthropy',
+                name: 'Wereraven lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wereraven lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4044,6 +4087,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.greater_invisibility_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -4107,10 +4151,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 16) and until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'grabbed' },
               ", and Pelyious can't Bite another target.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -5851,6 +5903,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Vellin has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'fiend-slayer',
@@ -5960,6 +6013,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.holy_aura_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -5971,6 +6025,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Viconia to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'living-shadow',
@@ -6046,6 +6101,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -6104,6 +6160,7 @@ export default createPublicationMonsters({
               refs.spells.finger_of_death_srd_5_1,
               '* *Necromancy spell of 1st level or higher',
             ],
+            effects: [],
           },
           {
             key: 'chaos-phage',
@@ -6167,6 +6224,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },

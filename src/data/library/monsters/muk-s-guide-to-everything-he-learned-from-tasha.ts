@@ -36,6 +36,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -54,7 +55,20 @@ export default createPublicationMonsters({
             text: [
               "The duergar unleashes a string of insults laced with subtle enchantments at a creature they can see within 60 feet. If the creature can hear them (it doesn't need to understand them), it must succeed on a ",
               { dc: 'con', save: 'wis' },
-              ' Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.',
+              ' Wisdom saving throw or take 1d4 psychic damage and ',
+              { effect: 'jab-disadvantage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'jab-disadvantage',
+                name: 'Verbal jab',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  'have disadvantage on the next attack roll it makes before the end of its next turn',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -119,10 +133,20 @@ export default createPublicationMonsters({
               "Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a ",
               { dc: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              ' for 1 minute. A ',
+              { effect: 'poisoned-skin' },
+              '. A ',
               rules.poisoned,
               ' creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+            ],
+            effects: [
+              {
+                key: 'poisoned-skin',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -143,8 +167,17 @@ export default createPublicationMonsters({
               'A ferocious gurgling issues from the throat of the Dankwood grung, warning those within 15 feet that they are indeed grumpy. Creatures in that area must succeed at a ',
               { dc: 'cha' },
               ' Charisma saving throw or be ',
-              rules.frightened,
-              ' until the end of their next turn.',
+              { effect: 'growl-fear' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'growl-fear',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -169,6 +202,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['In melee, or ', { roll: '1d4', bonus: 1 }, ' piercing damage at range.'],
+            effects: [],
           },
         ],
       },
@@ -212,10 +246,20 @@ export default createPublicationMonsters({
               "Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a ",
               { dc: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              ' for 1 minute. A ',
+              { effect: 'poisoned-skin' },
+              '. A ',
               rules.poisoned,
               ' creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+            ],
+            effects: [
+              {
+                key: 'poisoned-skin',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -236,8 +280,17 @@ export default createPublicationMonsters({
               'A ferocious gurgling issues from the throat of the Dankwood grung, warning those within 15 feet that they are indeed grumpy. Creatures in that area must succeed at a ',
               { dc: 'cha' },
               ' Charisma saving throw or be ',
-              rules.frightened,
-              ' until the end of their next turn.',
+              { effect: 'growl-fear' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'growl-fear',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -262,6 +315,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['In melee, or ', { roll: '1d4', bonus: 1 }, ' piercing damage at range.'],
+            effects: [],
           },
           {
             key: 'shortbow',
@@ -283,6 +337,7 @@ export default createPublicationMonsters({
                 damage: [{ dice: '2d4', type: rules.poison }],
               },
             },
+            effects: [],
           },
         ],
       },
@@ -324,6 +379,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               '). She can innately cast the following spells, requiring no material components.',
             ],
+            effects: [],
           },
           {
             key: 'amorphous',

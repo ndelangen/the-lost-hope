@@ -34,6 +34,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'surprise-attack',
@@ -1727,9 +1728,20 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              "If the target is a creature, it can't regain hit points for 1 minute. The target can make a ",
+              'If the target is a creature, ',
+              { effect: 'hazirawn-no-healing' },
+              '. The target can make a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw at the end of each of its turns, ending this effect early on a success.',
+            ],
+            effects: [
+              {
+                key: 'hazirawn-no-healing',
+                name: "Can't regain hit points",
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: ["it can't regain hit points"],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -1764,6 +1776,7 @@ export default createPublicationMonsters({
             text: ['Rezmir breathes acid in a 30-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -2085,6 +2098,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.insect_plague_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2103,6 +2117,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'winter-strike',

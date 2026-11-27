@@ -680,6 +680,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -723,10 +724,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
+              { effect: 'grappled' },
               ' (escape DC 17). Until this grapple ends, the target is ',
               rules.restrained,
               ", and the angel can't attack another target with its staff.",
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

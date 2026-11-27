@@ -160,8 +160,19 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also ',
-              rules.grappled,
-              ' by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.',
+              { effect: 'adhesive-grapple' },
+              ' by it.',
+            ],
+            effects: [
+              {
+                key: 'adhesive-grapple',
+                name: 'Adhered and grappled',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                text: ['Ability checks made to escape this grapple have disadvantage.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -183,6 +194,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

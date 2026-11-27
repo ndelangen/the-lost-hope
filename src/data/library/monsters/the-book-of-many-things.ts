@@ -842,7 +842,22 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or be cursed with lycanthropy. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the werewolf stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends. A Remove Curse spell or similar magic ends this curse.",
+              ' Constitution saving throw or be ',
+              { effect: 'lycanthropy' },
+            ],
+            effects: [
+              {
+                key: 'lycanthropy',
+                name: 'Lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'cursed with lycanthropy. ',
+                  "While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the werewolf stat block, excluding actions that require equipment the target doesn't have. ",
+                  "During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['A Remove Curse spell or similar magic ends this curse.'] },
+              },
             ],
           },
           {
@@ -861,8 +876,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'claw-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claw-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1988,6 +2012,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.dispel_magic_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'ethereal-sight',
@@ -2060,6 +2085,7 @@ export default createPublicationMonsters({
               { roll: '2d8' },
               ' hit points.',
             ],
+            effects: [],
           },
           {
             key: 'possession',
@@ -2070,12 +2096,28 @@ export default createPublicationMonsters({
               'One Humanoid Gremorly can see within 5 feet of himself must succeed on a ',
               { dc: 'cha' },
               ' Charisma saving throw or be possessed by him; Gremorly disappears, and the target has the ',
-              rules.incapacitated,
-              " condition and loses control of its body. Gremorly can't be targeted by any attack, spell, or other effect, except ones that turn Undead, and he retains his alignment, Intelligence, Wisdom, Charisma, and immunity to the ",
+              { effect: 'gremorly-possession' },
+              ". Gremorly can't be targeted by any attack, spell, or other effect, except ones that turn Undead, and he retains his alignment, Intelligence, Wisdom, Charisma, and immunity to the ",
               rules.charmed,
               ' and ',
               rules.frightened,
-              " conditions. He otherwise uses the target's game statistics, but Gremorly doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the target drops to 0 hit points, Gremorly ends it as a bonus action, or Gremorly is turned or forced out by an effect like the Dispel Evil and Good spell. When the possession ends, Gremorly reappears in an unoccupied space within 5 feet of the target. The target is immune to this Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+              " conditions. He otherwise uses the target's game statistics, but Gremorly doesn't gain access to the target's knowledge, class features, or proficiencies. ",
+              'When the possession ends, Gremorly reappears in an unoccupied space within 5 feet of the target. The target is immune to this Possession for 24 hours after succeeding on the saving throw or after the possession ends.',
+            ],
+            effects: [
+              {
+                key: 'gremorly-possession',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: ['loses control of its body.'],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the target drops to 0 hit points, Gremorly ends it as a bonus action, or Gremorly is turned or forced out by an effect like the Dispel Evil and Good spell',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -5039,6 +5081,7 @@ export default createPublicationMonsters({
               refs.spells.sanctuary_srd_5_1,
               ' is the Solar Bastion)',
             ],
+            effects: [],
           },
           {
             key: 'aura-of-protection',
@@ -5050,6 +5093,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5089,8 +5133,17 @@ export default createPublicationMonsters({
               ' Dexterity saving throw. On a failed save, a creature takes ',
               { roll: '4d10' },
               ' radiant damage and has the ',
-              rules.blinded,
-              ' condition until the end of its next turn. On a successful save, a creature takes half as much damage only. For the next minute, the affected area is filled with bright light that is sunlight.',
+              { effect: 'solar-blinded' },
+              '. On a successful save, a creature takes half as much damage only. For the next minute, the affected area is filled with bright light that is sunlight.',
+            ],
+            effects: [
+              {
+                key: 'solar-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

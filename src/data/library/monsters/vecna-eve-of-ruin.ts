@@ -1201,14 +1201,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 10 } },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.acid }],
-                also: [
-                  'Have the ',
-                  rules.restrained,
-                  " condition until the start of the spider's next turn.",
-                ],
+
+                also: ['Have the ', { effect: 'web-bomb-restrained' }, '.'],
               },
             },
             text: ['The target and all creatures within 10 feet of'],
+            effects: [
+              {
+                key: 'web-bomb-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'absorb-blow',
@@ -2695,6 +2701,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -2920,6 +2927,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3039,8 +3047,17 @@ export default createPublicationMonsters({
               'Kas targets one creature he can see within 60 feet of himself. The target must succeed on a ',
               { dc: 'str', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.frightened,
-              " condition until the start of Kas's next turn.",
+              { effect: 'glare-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'glare-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'str' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -3745,6 +3762,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4060,6 +4078,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.teleport_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'foul-ichor',
@@ -4147,14 +4166,19 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition for 1 minute. While ',
-              rules.poisoned,
-              ' in this way, a creature has the ',
-              rules.incapacitated,
-              " condition and can't regain hit points. A ",
-              rules.poisoned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'lupine-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'lupine-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned, rules.incapacitated],
+                text: ["can't regain hit points."],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4185,6 +4209,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' conditions on himself and on any of his allies within 120 feet of himself.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -4206,6 +4231,7 @@ export default createPublicationMonsters({
               text: [
                 "Miska utters a bloodthirsty howl at one creature within 120 feet of himself that isn't a Fiend.",
               ],
+              effects: [],
             },
             {
               key: 'skitter',
@@ -7092,6 +7118,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -7158,15 +7185,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 90 },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.psychic }],
-                also: [
-                  'Has the ',
-                  rules.stunned,
-                  " condition until the start of Tasha's next turn.",
-                ],
+
+                also: ['Has the ', { effect: 'whip-stunned' }, '.'],
               },
             },
             text: [
               'Tasha psychically lashes out at one creature she can see within 90 feet of herself. On a successful save, the target takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'whip-stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -7183,6 +7216,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'arcane-rebuff',
@@ -7202,6 +7236,7 @@ export default createPublicationMonsters({
             text: [
               'Immediately after Tasha takes damage, she unleashes arcane energy in a 10-foot-radius sphere centered on herself. Tasha then teleports, along with any equipment she is wearing or carrying, to an unoccupied space she can see within 60 feet of herself.',
             ],
+            effects: [],
           },
         ],
       },
@@ -7733,6 +7768,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -7798,12 +7834,21 @@ export default createPublicationMonsters({
                 { dice: '2d8', type: rules.necrotic },
               ],
             },
-            text: [
-              'If the target is a creature, it is afflicted by entropic magic, taking ',
-              { roll: '2d8' },
-              ' necrotic damage at the start of each of its turns. Immediately after taking this damage on its turn, the target must make a ',
-              { dc: 'con' },
-              " Constitution saving throw, ending the effect on itself on a success. Until it succeeds on this save, the afflicted target can't regain hit points.",
+            text: ['If the target is a creature, it is ', { effect: 'entropic-affliction' }, '.'],
+            effects: [
+              {
+                key: 'entropic-affliction',
+                name: 'Entropic affliction',
+                lands: { on: 'hit' },
+                text: [
+                  'afflicted by entropic magic, taking ',
+                  { roll: '2d8' },
+                  ' necrotic damage at the start of each of its turns. Immediately after taking this damage on its turn, the target must make a ',
+                  { dc: 'con' },
+                  " Constitution saving throw, ending the effect on itself on a success. Until it succeeds on this save, the afflicted target can't regain hit points.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -7817,10 +7862,18 @@ export default createPublicationMonsters({
               ' Constitution saving throw. On a failed save, the creature takes ',
               { roll: '8d8' },
               ' necrotic damage and has the ',
-              rules.frightened,
-              ' condition for 1 minute. On a successful save, the creature takes half as much damage only. A ',
-              rules.frightened,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'damned-fright' },
+              '. On a successful save, the creature takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'damned-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -7845,6 +7898,7 @@ export default createPublicationMonsters({
             text: [
               "Vecna causes necrotic magic to engulf one creature he can see within 120 feet of himself. A Humanoid killed by this magic rises as a zombie at the start of Vecna's next turn and acts immediately after Vecna in the initiative order. The zombie is under Vecna's control.",
             ],
+            effects: [],
           },
           {
             key: 'vile-teleport',
@@ -7869,6 +7923,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' psychic damage if the spell fails.',
             ],
+            effects: [],
           },
           {
             key: 'fell-rebuke',
@@ -8457,6 +8512,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

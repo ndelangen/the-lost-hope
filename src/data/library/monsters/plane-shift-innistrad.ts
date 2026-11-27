@@ -51,6 +51,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.control_weather_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -87,6 +88,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 15 },
               ' Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -131,6 +133,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 15 },
               ' Constitution saving throw or die.',
             ],
+            effects: [],
           },
           {
             key: 'flying-sword',
@@ -185,6 +188,7 @@ export default createPublicationMonsters({
                 { roll: '4d6' },
                 ' radiant damage on a failed save, or half as much damage on a successful one.',
               ],
+              effects: [],
             },
             {
               key: 'blinding-gaze',
@@ -195,8 +199,20 @@ export default createPublicationMonsters({
                 'The Avacyn targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a ',
                 { dc: 'con', printed: 15 },
                 ' Constitution saving throw or be ',
-                rules.blinded,
-                ' until magic such as the lesser restoration spell removes the blindness.',
+                { effect: 'blinding-gaze' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'blinding-gaze',
+                  name: 'Blinded',
+                  lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                  conditions: [rules.blinded],
+                  lasts: {
+                    kind: 'until',
+                    text: ['magic such as the lesser restoration spell removes the blindness'],
+                  },
+                },
               ],
             },
           ],
@@ -250,6 +266,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.insect_plague_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -584,6 +601,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -686,6 +704,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -712,8 +731,18 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               "As an action, an angel of Flight Goldnight can strike fear into the hearts of its enemies. Each creature of the angel's choice that is within 120 feet of it and is aware of it must succeed on a Wisdom saving throw or become ",
-              rules.frightened,
-              " for 1 minute. The DC for this saving throw is the same as for the angel's Innate Spellcasting trait. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to that angel's Goldnight Menace for the next 24 hours.",
+              { effect: 'goldnight-menace' },
+              ". The DC for this saving throw is the same as for the angel's Innate Spellcasting trait. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to that angel's Goldnight Menace for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'goldnight-menace',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -799,6 +828,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -828,6 +858,7 @@ export default createPublicationMonsters({
               { dc: 'int', save: 'con' },
               ' Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1037,6 +1068,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.insect_plague_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -1070,8 +1102,18 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               "As an action, an angel of Flight Goldnight can strike fear into the hearts of its enemies. Each creature of the angel's choice that is within 120 feet of it and is aware of it must succeed on a Wisdom saving throw or become ",
-              rules.frightened,
-              " for 1 minute. The DC for this saving throw is the same as for the angel's Innate Spellcasting trait. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to that angel's Goldnight Menace for the next 24 hours.",
+              { effect: 'goldnight-menace' },
+              ". The DC for this saving throw is the same as for the angel's Innate Spellcasting trait. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to that angel's Goldnight Menace for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'goldnight-menace',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1148,6 +1190,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -1485,6 +1528,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.insect_plague_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',

@@ -110,6 +110,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition. The printed line names a vulture’s ally. This summary reads that reference as the wolf’s ally.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -127,8 +128,17 @@ export default createPublicationMonsters({
               'A creature hit must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'bite-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

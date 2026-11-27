@@ -7941,6 +7941,7 @@ export default createPublicationMonsters({
               refs.spells.mass_cure_wounds_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -8011,10 +8012,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The creature is ',
-              rules.grappled,
-              ' (escape DC 19) and ',
-              rules.restrained,
-              ' until that grapple ends. Trostani can hold up to three targets at once.',
+              { effect: 'constrict-grapple' },
+              '. Trostani can hold up to three targets at once.',
+            ],
+            effects: [
+              {
+                key: 'constrict-grapple',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'wis', printed: 19 } },
+              },
             ],
           },
           {
@@ -8054,6 +8063,7 @@ export default createPublicationMonsters({
             text: ['Choose a visible point within 60 ft.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {

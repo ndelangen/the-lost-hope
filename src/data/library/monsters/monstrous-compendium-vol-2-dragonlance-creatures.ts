@@ -183,8 +183,17 @@ export default createPublicationMonsters({
               ' Constitution saving throw. On a failed save, a creature takes ',
               { roll: '2d6' },
               ' fire damage and is ',
-              rules.frightened,
-              ' of Ember until the start of its next turn.',
+              { effect: 'aura-frightened' },
+              ' of Ember.',
+            ],
+            effects: [
+              {
+                key: 'aura-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -257,11 +266,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 90 } },
               onFail: {
                 damage: [{ dice: '16d6', type: rules.fire }],
-                also: ['Is pushed up to 30 feet away from Ember and knocked ', rules.prone, '.'],
+
+                also: [
+                  'Is pushed up to 30 feet away from Ember and knocked ',
+                  { effect: 'firestorm-prone' },
+                  '.',
+                ],
               },
             },
             text: [
               'Ember exhales roiling flames and ash in a 90-foot cone. On a successful save, a creature takes half as much damage with no other effects. If a creature is reduced to 0 hit points by this effect, the creature immediately dies, and its body is reduced to ash.',
+            ],
+            effects: [
+              {
+                key: 'firestorm-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1365,6 +1388,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.revivify_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'draconic-command',
@@ -1398,6 +1422,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' conditions (included above).',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1432,8 +1457,17 @@ export default createPublicationMonsters({
               'If the target is a creature, the target must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.blinded,
-              " until the start of Verminaard's next turn.",
+              { effect: 'nightbringer-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'nightbringer-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1455,6 +1489,7 @@ export default createPublicationMonsters({
               { roll: '2d10' },
               ' radiant damage on a failed save or half as much damage on a successful one.',
             ],
+            effects: [],
           },
           {
             key: 'dragon-queen-s-favor',

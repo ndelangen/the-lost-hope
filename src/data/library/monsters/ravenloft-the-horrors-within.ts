@@ -338,6 +338,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.power_word_kill,
             ],
+            effects: [],
           },
           {
             key: 'darklord-restoration',
@@ -396,10 +397,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '3d6', type: rules.cold, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.paralyzed,
-              " condition until the start of Azalin's next turn.",
+            text: ['The target has ', { effect: 'paralyzing-touch' }, '.'],
+            effects: [
+              {
+                key: 'paralyzing-touch',
+                name: 'Paralyzed',
+                lands: { on: 'hit' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -443,9 +449,18 @@ export default createPublicationMonsters({
                 { dc: 'int' },
                 ', up to three creatures Azalin can see within 60 feet. Failure: ',
                 { roll: '8d6' },
-                ' Psychic damage, and the target has the ',
-                rules.stunned,
-                " condition until the end of Azalin's next turn. Success: Half damage only. Failure or Success: Azalin can't take this action again until the start of his next turn.",
+                ' Psychic damage, and the target has ',
+                { effect: 'forbidden-stun' },
+                ". Success: Half damage only. Failure or Success: Azalin can't take this action again until the start of his next turn.",
+              ],
+              effects: [
+                {
+                  key: 'forbidden-stun',
+                  name: 'Stunned',
+                  lands: { on: 'save', save: 'int', dc: 'int' },
+                  conditions: [rules.stunned],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
           ],
@@ -1978,6 +1993,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.magic_circle,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2038,7 +2054,18 @@ export default createPublicationMonsters({
             text: [
               'Ez chooses a damage type. Wisdom Saving Throw: ',
               { dc: 'int' },
-              ', one target within 30 feet that Ez can see. Failure: The target is cursed. Until the curse ends, the target has Vulnerability to the chosen damage type. The curse ends early if Ez uses this action again. If the target drops to 0 Hit Points before the curse ends, Ez can take a Bonus Action on a later turn to curse a new creature.',
+              ', one target within 30 feet that Ez can see. Failure: The target is cursed. ',
+              { effect: 'eye-curse' },
+              '. The curse ends early if Ez uses this action again. If the target drops to 0 Hit Points before the curse ends, Ez can take a Bonus Action on a later turn to curse a new creature.',
+            ],
+            effects: [
+              {
+                key: 'eye-curse',
+                name: 'Curse of the all-seeing eye',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                text: ['the target has Vulnerability to the chosen damage type.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -2248,6 +2275,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.protection_from_poison,
             ],
+            effects: [],
           },
           {
             key: 'suppressed-lycanthropy',
@@ -2322,6 +2350,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'occult-aid',
@@ -3503,6 +3532,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'tree-stride',
@@ -3527,6 +3557,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3545,11 +3576,19 @@ export default createPublicationMonsters({
               text: [
                 'Dexterity Saving Throw: ',
                 { dc: 'int' },
-                ', each creature in a 15-foot Cone. Failure: The target has the ',
-                rules.poisoned,
-                ' condition until the end of its next turn. While ',
-                rules.poisoned,
-                ", the target subtracts 1d6 from its damage rolls. Failure or Success: Ivana can't take this action again until the start of her next turn.",
+                ', each creature in a 15-foot Cone. Failure: The target has ',
+                { effect: 'toxin-poison' },
+                ". Failure or Success: Ivana can't take this action again until the start of her next turn.",
+              ],
+              effects: [
+                {
+                  key: 'toxin-poison',
+                  name: 'Poisoned',
+                  lands: { on: 'save', save: 'dex', dc: 'int' },
+                  conditions: [rules.poisoned],
+                  text: ['the target subtracts 1d6 from its damage rolls.'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -3602,6 +3641,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3647,6 +3687,7 @@ export default createPublicationMonsters({
             text: [
               "Failure or Success: The jiangshi regains Hit Points equal to the Necrotic damage taken, the jiangshi's Fly Speed increases to 20 feet until the end of its next turn, and it can take its Hungering Stride Bonus Action. A Humanoid reduced to 0 Hit Points by this damage rises at the end of the jiangshi's turn as a Wight under the jiangshi's control. If this wight kills a Humanoid with its Life Drain action, the wight transforms into an independent Jiangshi 5 days later.",
             ],
+            effects: [],
           },
           {
             key: 'hungering-stride-requires-consume-energy',
@@ -3953,6 +3994,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3997,6 +4039,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'face-of-death',
@@ -4010,12 +4053,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d10', type: rules.psychic }],
-                also: ['The creature has the ', rules.frightened, ' condition.'],
+
+                also: [{ effect: 'face-of-death-fear' }],
               },
               onSuccess: 'half',
             },
             text: [
               'Failure or Success: If this damage reduces the target to 0 Hit Points, the target dies.',
+            ],
+            effects: [
+              {
+                key: 'face-of-death-fear',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -4044,6 +4097,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
         legendary: {
@@ -4133,7 +4187,20 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: ',
               { dc: 'con' },
-              ". Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werewolf under the DM's control and has 10 Hit Points. The curse can't be removed until this loup garou dies. Success: The target is immune to this loup garou's curse for 24 hours.",
+              '. Failure: The target is ',
+              { effect: 'loup-garou-curse' },
+              ". The curse can't be removed until this loup garou dies. Success: The target is immune to this loup garou's curse for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'loup-garou-curse',
+                name: 'Cursed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "If the cursed target drops to 0 Hit Points, it instead becomes a Werewolf under the DM's control and has 10 Hit Points.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4165,9 +4232,18 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d8', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Medium or smaller creature, it has ',
+              { effect: 'rend-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'rend-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4255,6 +4331,7 @@ export default createPublicationMonsters({
               refs.spells.spirit_guardians,
               ' (level 8 version)',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -8335,10 +8412,22 @@ export default createPublicationMonsters({
             },
             text: [
               "The target is impaled on Vladeska's spear. While impaled, the creature has the ",
-              rules.restrained,
-              ' condition and takes ',
-              { roll: '1d6' },
-              ' Piercing damage at the start of each of its turns. The target or a creature within 5 feet of it can take an action to remove it from the spear.',
+              { effect: 'impaled' },
+              '. The target or a creature within 5 feet of it can take an action to remove it from the spear.',
+            ],
+            effects: [
+              {
+                key: 'impaled',
+                name: 'Impaled',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                text: [
+                  'takes ',
+                  { roll: '1d6' },
+                  ' Piercing damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -8375,6 +8464,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'redirect-attack',
@@ -8408,9 +8498,18 @@ export default createPublicationMonsters({
                 { ability: 'impaling-spear' },
                 ' attack. If the attack hits and the target is a creature, each ally of the target within 30 feet is subjected to the following effect. Wisdom Saving Throw: ',
                 { dc: 'cha' },
-                '. Failure: The target has the ',
-                rules.frightened,
-                " condition until the end of its next turn. Failure or Success: Vladeska can't take this action again until the start of her next turn.",
+                '. Failure: The target has ',
+                { effect: 'impaling-fright' },
+                ". Failure or Success: Vladeska can't take this action again until the start of her next turn.",
+              ],
+              effects: [
+                {
+                  key: 'impaling-fright',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'cha' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -8429,6 +8528,7 @@ export default createPublicationMonsters({
                   also: ["The target's Speed is halved until the end of its next turn."],
                 },
               },
+              effects: [],
             },
           ],
         },

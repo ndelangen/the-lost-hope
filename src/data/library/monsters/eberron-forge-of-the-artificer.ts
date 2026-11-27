@@ -1937,6 +1937,7 @@ export default createPublicationMonsters({
               refs.spells.thaumaturgy,
               '; 1/day: Witch Bolt',
             ],
+            effects: [],
           },
           {
             key: 'aberrant-surge',

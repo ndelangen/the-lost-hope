@@ -71,6 +71,7 @@ export default createPublicationMonsters({
               ' (cast each day); 6th level (1 slot): ',
               refs.spells.chain_lightning_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -82,6 +83,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'howling-defeat',
@@ -258,6 +260,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.hold_monster_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -274,6 +277,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.burning_hands_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -454,8 +458,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -478,6 +491,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1626,6 +1640,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.scrying_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -1684,8 +1699,17 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
+              { effect: 'grappled' },
               " (escape DC 13). Until the grapple ends, Gar can't attack other creatures with his claw.",
+            ],
+            effects: [
+              {
+                key: 'grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2328,6 +2352,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.teleport_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'empowered-attacks',
@@ -2437,9 +2462,18 @@ export default createPublicationMonsters({
                 { roll: '2d8' },
                 " fire damage. Each creature in the area that isn't resistant or immune to fire damage must make a ",
                 { dc: 'dex', save: 'con' },
-                ' Constitution saving throw or gain one level of ',
-                rules.exhaustion,
+                ' Constitution saving throw or gain ',
+                { effect: 'heat-exhaustion' },
                 '.',
+              ],
+              effects: [
+                {
+                  key: 'heat-exhaustion',
+                  name: 'Exhaustion',
+                  lands: { on: 'save', save: 'con', dc: 'dex' },
+                  text: ['one level of ', rules.exhaustion],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {
@@ -2465,6 +2499,7 @@ export default createPublicationMonsters({
                 { roll: '3d6' },
                 " fire damage when it starts its turn, and remains on fire until it or another creature takes an action to douse the flames. On a successful save, the target takes half as much damage and doesn't catch fire.",
               ],
+              effects: [],
             },
           ],
         },
@@ -3204,6 +3239,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_stone_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'empowered-attacks',
@@ -3279,8 +3315,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'boulder-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'boulder-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3307,6 +3352,7 @@ export default createPublicationMonsters({
                 rules.invisible,
                 '.',
               ],
+              effects: [],
             },
             {
               key: 'stomp',
@@ -3317,8 +3363,17 @@ export default createPublicationMonsters({
                 'Ogrémoch stomps the ground, creating an earth tremor that extends in a 30-foot radius. Other creatures standing on the ground in that radius must succeed on a ',
                 { dc: 'con', save: 'dex' },
                 ' Dexterity saving throw or fall ',
-                rules.prone,
+                { effect: 'stomp-prone' },
                 '.',
+              ],
+              effects: [
+                {
+                  key: 'stomp-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'save', save: 'dex', dc: 'con' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {
@@ -3815,6 +3870,7 @@ export default createPublicationMonsters({
               { roll: '1d10' },
               " fire damage at the end of that creature's turn.",
             ],
+            effects: [],
           },
           {
             key: 'shrapnel-explosion',
@@ -3829,6 +3885,7 @@ export default createPublicationMonsters({
               { roll: '6d6' },
               ' piercing damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4253,6 +4310,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.lightning_bolt_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -4343,7 +4401,21 @@ export default createPublicationMonsters({
             text: [
               'The golem targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'wis', printed: 17 },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, ',
+              { effect: 'slow' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slow',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 17 },
+                text: [
+                  "a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4501,6 +4573,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.haste_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4702,6 +4775,7 @@ export default createPublicationMonsters({
               '; 5th level (2 slots): ',
               refs.spells.dominate_person_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'funeral-pyre',
@@ -5271,8 +5345,17 @@ export default createPublicationMonsters({
               ' piercing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 10 feet away and knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5309,6 +5392,7 @@ export default createPublicationMonsters({
             text: ['Zegdar exhales a cloud of burning embers in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'greataxe',

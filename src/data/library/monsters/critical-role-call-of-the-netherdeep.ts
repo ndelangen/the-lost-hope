@@ -5586,6 +5586,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -6811,6 +6812,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -6822,6 +6824,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -6878,6 +6881,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'reposition',

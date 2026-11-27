@@ -213,6 +213,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.insect_plague_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -311,6 +312,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.raise_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -422,6 +424,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.control_weather_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -491,6 +494,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 15 },
               ' Constitution saving throw or die.',
             ],
+            effects: [],
           },
           {
             key: 'flying-sword',
@@ -545,6 +549,7 @@ export default createPublicationMonsters({
                 { roll: '4d6' },
                 ' radiant damage on a failed save, or half as much damage on a successful one.',
               ],
+              effects: [],
             },
             {
               key: 'blinding-gaze',
@@ -555,8 +560,20 @@ export default createPublicationMonsters({
                 'Shalai targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a ',
                 { dc: 'con', printed: 15 },
                 ' Constitution saving throw or be ',
-                rules.blinded,
-                ' until magic such as the lesser restoration spell removes the blindness.',
+                { effect: 'blinding-gaze' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'blinding-gaze',
+                  name: 'Blinded',
+                  lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                  conditions: [rules.blinded],
+                  lasts: {
+                    kind: 'until',
+                    text: ['magic such as the lesser restoration spell removes the blindness'],
+                  },
+                },
               ],
             },
           ],
