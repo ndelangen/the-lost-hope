@@ -39,6 +39,13 @@ export default createScene({
       refs.npcs.onana_tempest,
       ' wants it back.',
     ],
+    [
+      'Whenever a ',
+      refs.npcs.dust_lost_sailor,
+      ' comes into view, describe the look: Silver glitter sits in their glassy eyes, and those eyes never really look at another person. They are emotionally and intellectually absent, almost like zombies, but they are not dead. Make it stick: the party will see the same look again in ',
+      refs.locations.rustmoor,
+      '.',
+    ],
   ],
   beats: [
     {
@@ -374,7 +381,7 @@ export default createScene({
         {
           say: [
             [
-              'The orc coming down the stairs is Korrag, your old commander, the one who taught you to fight. Behind him walks Durgan, your best mate in the old squad. Durgan’s eyes are veined with grey, and they pass over you like you are a stranger. Korrag’s do not. He knows you.',
+              'The orc coming down the stairs is Korrag, your old commander, the one who taught you to fight. Behind him walks Durgan, your best mate in the old squad. Durgan’s eyes are glassy, with silver glitter in them, and they pass over you like you are a stranger. Korrag’s do not. He knows you.',
             ],
           ],
         },
@@ -527,7 +534,7 @@ export default createScene({
           when: [['They kill ', refs.npcs.durgan_ashfang, '.']],
           response: [
             [
-              'He falls a stranger. His grey eyes pass over ',
+              'He falls a stranger. His glassy, glittering eyes pass over ',
               refs.pcs.devan,
               ' one last time, and there is nothing in them.',
             ],

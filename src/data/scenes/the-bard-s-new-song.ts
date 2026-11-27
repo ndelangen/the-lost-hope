@@ -41,6 +41,15 @@ export default createScene({
         {
           do: [
             [
+              'Around the tavern sit several people with the same look as the Dust-lost sailors on ',
+              refs.items.ride_the_lightning,
+              ': silver glitter in glassy eyes that never really look at anyone, absent, almost like zombies, but alive.',
+            ],
+          ],
+        },
+        {
+          do: [
+            [
               refs.npcs.tobin_reedwhistle,
               ' unfolds a small pipe, lights it, and smiles at the party over the bowl. Something in the bowl glitters silver, and the smoke smells sweet and faintly of metal.',
             ],

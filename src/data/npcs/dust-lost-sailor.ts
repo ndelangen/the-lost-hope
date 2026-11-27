@@ -11,7 +11,7 @@ export default createNPC({
     [
       'A sailor of the ',
       refs.organizations.tempest_family,
-      ' with grey-veined eyes, who fights without fear and without a word.',
+      ', who fights without fear and without a word. Silver glitter sits in the glassy eyes, and they never really look at another person. Emotionally and intellectually absent, almost like a zombie, but not dead.',
     ],
   ],
   background: [
