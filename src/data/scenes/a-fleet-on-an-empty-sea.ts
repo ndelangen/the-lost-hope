@@ -100,6 +100,15 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiPointing',
+          when: [['They are chasing the flying fortress and ask the fishers about it.']],
+          response: [
+            [
+              'The fishers saw it pass over, low in the clouds, and they point the way it went. Only if the party is chasing it: nobody brings it up otherwise.',
+            ],
+          ],
+        },
+        {
           icon: 'gi/GiShipBow',
           when: [['They choose to land.']],
           response: [['Play on.']],
