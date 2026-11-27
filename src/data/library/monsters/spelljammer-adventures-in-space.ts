@@ -99,6 +99,18 @@ export default createPublicationMonsters({
       page: 8,
       alignment: 'typically lawful evil',
       languages: ['Aartuk.'],
+      appearance: [
+        [
+          'A five-pointed star of thick, flexible bark with suction-cup tips and a head on a 6-foot extendable stalk.',
+        ],
+      ],
+      lore: [
+        [
+          'Aartuks are intelligent plant creatures bent on war, whose homeworld was destroyed by beholders so survivors formed nomadic cells across Wildspace, sometimes taking over spelljamming ships. They shoot out a gooey tongue to drag enemies in for a beating, and can spit radiant pellets. They speak with rustles, snaps, pops and hisses and have no writing.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -210,6 +222,18 @@ export default createPublicationMonsters({
       page: 9,
       alignment: 'typically lawful evil',
       languages: ['Aartuk.'],
+      appearance: [
+        [
+          'A five-pointed star of thick, flexible bark with suction-cup tips and a head on a 6-foot extendable stalk.',
+        ],
+      ],
+      lore: [
+        [
+          'Aartuks are intelligent plant creatures bent on war, whose homeworld was destroyed by beholders so survivors formed nomadic cells across Wildspace, sometimes taking over spelljamming ships. They shoot out a gooey tongue to drag enemies in for a beating, and can spit radiant pellets. They speak with rustles, snaps, pops and hisses and have no writing.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -451,6 +475,18 @@ export default createPublicationMonsters({
           'Regional effects: Choose one or more effects near the lair.\nBlack Frost. This frost coats the ground and kills ordinary plants within 3 miles of the lair.\nHaunting Moan. The dragon chooses whether the moan grows louder or fainter as visitors approach. It is audible within 3 miles.\nMoon Devils. Funnels of dust and frost intercept creatures within 1 mile of the lair. Each moon devil uses the Air Elemental stat block, acts independently, and deals cold damage in place of bludgeoning.\nThe moan and moon devils vanish when the dragon dies. The frost fades over 1d10 days and plants can recover.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon, alabaster white when young and darkening to slate with age, able to turn half-spectral and dark.',
+        ],
+      ],
+      lore: [
+        [
+          'Lunar dragons are capricious, xenophobic dragons that burrow lairs into desolate moons. A mother stocks her lair with food and stays until the eggs have hatched and the young can cope. They like denying others treasure as much as getting it, and their hoards often hold spelljamming helms taken from ships that intruded. A lunar dragon can become semi-incorporeal, though not so as to pass through creatures or solid objects.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Moons', 'Wildspace'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -625,6 +661,18 @@ export default createPublicationMonsters({
           'Regional effects: Blinding Radiance. A creature inside the star or within 10 miles of it is blinded unless it wears eye protection such as Goggles of Night.\nStellar Incineration. A creature takes 132 (24d10) radiant damage when it enters the star or starts its turn inside it.',
         ],
       ],
+      appearance: [
+        [
+          'A serpentine dragon with long finned ventral limbs, nebulous light-giving wings and gleaming multicoloured scales.',
+        ],
+      ],
+      lore: [
+        [
+          'Solar dragons are born in the hearts of stars and patrol and hunt in Wildspace, valuing food above treasure there. They are territorial carnivores that avoid humanoids, whom they find violent and tiresome. They may mistake a distant spelljamming ship for prey and veer off, but if fired on they may batter the ship apart, and intruders in a lair face hostility, especially if eggs are present.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -946,6 +994,18 @@ export default createPublicationMonsters({
           'Regional effects: Choose one or more effects near the lair.\nBlack Frost. This frost coats the ground and kills ordinary plants within 6 miles of the lair.\nHaunting Moan. The dragon chooses whether the moan grows louder or fainter as visitors approach. It is audible within 6 miles.\nMoon Devils. Funnels of dust and frost intercept creatures within 1 mile of the lair. Each moon devil uses the Air Elemental stat block, acts independently, and deals cold damage in place of bludgeoning.\nThe moan and moon devils vanish when the dragon dies. The frost fades over 1d10 days and plants can recover.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon, alabaster white when young and darkening to slate with age, able to turn half-spectral and dark.',
+        ],
+      ],
+      lore: [
+        [
+          'Lunar dragons are capricious, xenophobic dragons that burrow lairs into desolate moons. A mother stocks her lair with food and stays until the eggs have hatched and the young can cope. They like denying others treasure as much as getting it, and their hoards often hold spelljamming helms taken from ships that intruded. A lunar dragon can become semi-incorporeal, though not so as to pass through creatures or solid objects.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Moons', 'Wildspace'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1152,6 +1212,18 @@ export default createPublicationMonsters({
           'Regional effects: Blinding Radiance. A creature inside the star or within 10 miles of it is blinded unless it wears eye protection such as Goggles of Night.\nStellar Incineration. A creature takes 132 (24d10) radiant damage when it enters the star or starts its turn inside it.',
         ],
       ],
+      appearance: [
+        [
+          'A serpentine dragon with long finned ventral limbs, nebulous light-giving wings and gleaming multicoloured scales.',
+        ],
+      ],
+      lore: [
+        [
+          'Solar dragons are born in the hearts of stars and patrol and hunt in Wildspace, valuing food above treasure there. They are territorial carnivores that avoid humanoids, whom they find violent and tiresome. They may mistake a distant spelljamming ship for prey and veer off, but if fired on they may batter the ship apart, and intruders in a lair face hostility, especially if eggs are present.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -1311,6 +1383,14 @@ export default createPublicationMonsters({
           'Xaryxian Empire: Light of Xaryxis features an astral elf empire based in Xaryxispace. Its central star is Xaryxis.',
         ],
       ],
+      appearance: [['An astral elf in a faceless visor, a highborn leader.']],
+      lore: [
+        [
+          "The aristocrat is a brilliant, highborn leader with magic, including channelling sunlight and summoning a solar dragon. Astral elves are elves who went to the Astral Plane long ago to be near their gods and stopped aging, needing no food. They clash with psurlons, mind flayers and githyanki, wear ornate visors when dealing with others so they seem faceless extensions of their gods, and are repaid for their devotion with divine power. They sail crystal-and-ceramic-like ships, make floating citadels from dead gods' petrified bodies, pact with solar dragons and gather starlight near stars, and many are thousands of years old.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane', 'Wildspace'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1453,6 +1533,14 @@ export default createPublicationMonsters({
           'Astral Elf society: Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.',
         ],
       ],
+      appearance: [['An astral elf in a faceless visor, a battle leader.']],
+      lore: [
+        [
+          "The commander leads warriors in battle and usually has one or more spelljamming ships. It channels starlight through weapons and can teleport warriors out of danger with divine power. Astral elves are elves who went to the Astral Plane long ago to be near their gods and stopped aging, needing no food. They clash with psurlons, mind flayers and githyanki, wear ornate visors when dealing with others so they seem faceless extensions of their gods, and are repaid for their devotion with divine power. They sail crystal-and-ceramic-like ships, make floating citadels from dead gods' petrified bodies, pact with solar dragons and gather starlight near stars, and many are thousands of years old.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane', 'Wildspace'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1562,6 +1650,14 @@ export default createPublicationMonsters({
           'Astral Elf society: Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.',
         ],
       ],
+      appearance: [['An astral elf in a faceless visor, highly trained for guard duty.']],
+      lore: [
+        [
+          "Honor guards protect important people and places and can hold their own in combat. Astral elves are elves who went to the Astral Plane long ago to be near their gods and stopped aging, needing no food. They clash with psurlons, mind flayers and githyanki, wear ornate visors when dealing with others so they seem faceless extensions of their gods, and are repaid for their devotion with divine power. They sail crystal-and-ceramic-like ships, make floating citadels from dead gods' petrified bodies, pact with solar dragons and gather starlight near stars, and many are thousands of years old.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane', 'Wildspace'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1653,6 +1749,14 @@ export default createPublicationMonsters({
           'Astral Elf society: Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.',
         ],
       ],
+      appearance: [['An astral elf in a faceless visor, a priest of the elven pantheon.']],
+      lore: [
+        [
+          "Star priests draw their strength from the elven gods and oversee religious practice; they often serve aboard spelljamming ships both as emissaries of the gods and as spelljammers. Astral elves are elves who went to the Astral Plane long ago to be near their gods and stopped aging, needing no food. They clash with psurlons, mind flayers and githyanki, wear ornate visors when dealing with others so they seem faceless extensions of their gods, and are repaid for their devotion with divine power. They sail crystal-and-ceramic-like ships, make floating citadels from dead gods' petrified bodies, pact with solar dragons and gather starlight near stars, and many are thousands of years old.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane', 'Wildspace'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1773,6 +1877,14 @@ export default createPublicationMonsters({
           'Astral Elf society: Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.',
         ],
       ],
+      appearance: [['An astral elf in a faceless visor, a ship-crew fighter.']],
+      lore: [
+        [
+          "Warriors operate elven spelljamming ships and defend elven strongholds across the Astral Plane. Astral elves are elves who went to the Astral Plane long ago to be near their gods and stopped aging, needing no food. They clash with psurlons, mind flayers and githyanki, wear ornate visors when dealing with others so they seem faceless extensions of their gods, and are repaid for their devotion with divine power. They sail crystal-and-ceramic-like ships, make floating citadels from dead gods' petrified bodies, pact with solar dragons and gather starlight near stars, and many are thousands of years old.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane', 'Wildspace'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1961,6 +2073,16 @@ export default createPublicationMonsters({
       name: 'Brown Scavver',
       page: 49,
       alignment: 'unaligned',
+      appearance: [
+        ['A ten-foot-long scavenger with a sun-dappled golden-brown to dark umber hide.'],
+      ],
+      lore: [
+        [
+          'Brown scavvers swallow prey whole, and their stomachs are full of poison gas that kills anything that survives the swallowing. A meal takes days to digest, and during that time the scavver attacks only in self-defence.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2029,6 +2151,18 @@ export default createPublicationMonsters({
           'Spelljammer charms: Charm of Air Bubbles. The recipient can cast Air Bubble as an action. They lose this charm after casting it three times.\nCharm of Instant Tools. The recipient conjures one set of Artisan’s Tools, Navigator’s Tools, or Thieves’ Tools in hand or in their space. The charm ends after one use. The tools stay.',
         ],
       ],
+      appearance: [
+        [
+          'A tiny elemental spirit of a chwinga, a Wildspace dweller that may be seen on a moon, asteroid, spelljamming ship or riding a space guppy.',
+        ],
+      ],
+      lore: [
+        [
+          'Chwingas in Wildspace usually live on habitable moons and asteroids, though some stow away on ships or ride space guppies. A chwinga astronaut can grant a charm through its Magical Gift ability, including the Wildspace charms of air bubbles and instant tools.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Moons', 'Asteroids'],
       stats: {
         size: 'tiny',
         type: 'elemental',
@@ -2308,6 +2442,18 @@ export default createPublicationMonsters({
           'Passengers and creator: There is room for the Reigar and up to six Medium passengers. The Reigar can open or close the hatch by touching it. The esthetic can live indefinitely on the Astral Plane while its creator lives. If its creator dies, the esthetic sickens and dies after 1d12 days.',
         ],
       ],
+      appearance: [
+        [
+          'A living ship that may look like a giant space jellyfish or cephalopod from afar, with a bioluminescent resin shell, in shapes that differ for each one.',
+        ],
+      ],
+      lore: [
+        [
+          "An esthetic is a symbiotic organic ship made by a reigar, with barely any awareness of its own. Hostile reigar use one as a warship, disabling a target ship's helm with a magical vibration and having it grab crew and dissolve their flesh with acid tentacles. It has room for its reigar and up to six Medium passengers, who enter through a hatch only the reigar can open. It survives indefinitely on the Astral Plane while its creator lives, and without the reigar becomes a nearly mindless creature that acts on self-preservation.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Astral Plane'],
       stats: {
         size: 'gargantuan',
         type: 'aberration',
@@ -2419,6 +2565,18 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Deep Speech.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A twelve-foot asteroid with a large eye and mouth that stay closed until it senses vibrations.',
+        ],
+      ],
+      lore: [
+        [
+          'An eye monger opens its eye when it detects vibrations in space and reveals itself. It has no use for treasure, but its belly may hold coins, metal weapons, gems and magic items from swallowed creatures that it cannot digest. Magic is suppressed inside its gullet, so swallowed creatures cannot use it to escape.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Asteroids'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2597,6 +2755,14 @@ export default createPublicationMonsters({
       page: 22,
       alignment: 'typically chaotic evil',
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [['A tentacled horror that slips aboard ships and stays hidden.']],
+      lore: [
+        [
+          "A feyr feeds quietly on strong emotions, preferring to eat the nightmares of sleepers to keep itself safe. It avoids bright light without being harmed by it, so it is as at home in Wildspace as in dark alleys and dungeons. It tries to stow away in a ship's air envelope, hiding unseen until it finds a sleeper, and retreats rather than die in a fight.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Dungeons'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2868,6 +3034,18 @@ export default createPublicationMonsters({
       page: 23,
       alignment: 'typically neutral evil',
       languages: ['Understands all languages and cannot speak.'],
+      appearance: [
+        [
+          'A hideous six-legged insectoid hunter with a spongy two-foot globe of a head, three feathery antennae, six compound eyes and six finger-like appendages over its mouth.',
+        ],
+      ],
+      lore: [
+        [
+          "Gaj prey on other intelligent beings. They ambush by burying themselves in sand or silt, or lurk in dark caves and on stone ledges where they blend in, and attack with mandibles. They have no language but can understand the speech of others, and can try to read minds by wrapping the antennae around a victim's head, a painful probe that harms the victim whether or not it works.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Caves', 'Desert', 'Wildspace'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -3110,6 +3288,13 @@ export default createPublicationMonsters({
       page: 25,
       alignment: 'any alignment',
       languages: ['Common.'],
+      appearance: [['A giff soldier with a firearm, trained for assaults on strongholds.']],
+      lore: [
+        [
+          'Shock troopers are trained to attack enemy strongholds, softening the defenders from a distance with firearms before charging to finish off those still standing.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3402,6 +3587,14 @@ export default createPublicationMonsters({
       page: 27,
       alignment: 'any alignment',
       languages: ['Gith plus any four languages.'],
+      appearance: [['A githyanki scholar who studies and catalogues creatures it has never seen.']],
+      lore: [
+        [
+          'A xenomancer travels to the far edges of Wildspace and the Astral Sea, sometimes to Material Plane worlds, to study unknown creatures. Friendly contact calls for diplomacy, hostile contact tests survival skill. Research sometimes means capturing a specimen to study its behaviour or killing and dissecting it, and many prefer to do this in laboratories on the Astral Plane.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane', 'Wildspace'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3551,6 +3744,18 @@ export default createPublicationMonsters({
       page: 28,
       alignment: 'any alignment',
       languages: ['Common', 'Hadozee.'],
+      appearance: [
+        [
+          "A hadozee in light travelling gear with a navigator's tools, comfortable on a ship's rigging and watching the stars and the glow of the Astral Plane with open curiosity.",
+        ],
+      ],
+      lore: [
+        [
+          'Explorers search Wildspace systems for riches and adventure. Many work as navigators aboard spelljamming ships, and to them the Astral Plane is a mostly unmapped expanse that is worth charting. Expect a restless scout who would rather push on than sit still.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Astral Plane'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3776,6 +3981,18 @@ export default createPublicationMonsters({
           'Ecology: Spores settle on hulls, then puncture them after a few days and grow shells about 1 ft. across. A mated pair produces 1d6 spores per month.',
         ],
       ],
+      appearance: [
+        [
+          'A barnacle-like shell about a foot across, matching the hull colour of the ship it clings to. Inside is a reddish-purple snail-like body with one watery eye and a spiked tentacle.',
+        ],
+      ],
+      lore: [
+        [
+          "A spore sticks to a spelljamming ship, punctures the hull and grows a shell, glued on by the leech. It damages the hull and soaks up magic from the helm, which it can discharge defensively. Crews scrape them off rather than fight them, because killing one while it is attached can weaken and incapacitate the ship's spelljammer. A mated pair makes 1d6 spores a month, some of which settle on the same ship.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'tiny',
         type: 'plant',
@@ -3887,6 +4104,18 @@ export default createPublicationMonsters({
           "Ecology: A kindori has its own air envelope and gravity plane. Scavvers can live on it and eat the parasites growing there. A dead kindori's skeleton can carry a spelljamming helm and become a ship. Lunar dragons and solar dragons prey on kindori.",
         ],
       ],
+      appearance: [
+        [
+          'A huge space creature with no visible mouth and small eyes along its leading edge. Moss, mould and vines grow on its body, and smaller creatures may live on it.',
+        ],
+      ],
+      lore: [
+        [
+          "Kindori feed on the light of suns and stars and talk to one another with flashes from their eyes, which can also shoot bright beams to blind predators so they can flee. Each is big enough to have its own gravity plane and air, so smaller creatures can live on it, and it tolerates scavvers that eat its parasites. A very old or sick one is thickly overgrown. A dead kindori's skeleton can become a spelljamming ship with a helm placed inside. They are peaceful but are hunted by lunar dragons, solar dragons and several peoples of Wildspace.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'gargantuan',
         type: 'celestial',
@@ -3956,6 +4185,18 @@ export default createPublicationMonsters({
           'Lunar dragon ages: Young Lunar Dragon, Adult Lunar Dragon, and Ancient Lunar Dragon are the older forms.',
         ],
       ],
+      appearance: [
+        [
+          'A newly hatched lunar dragon, alabaster white, which darkens with age. In its half-incorporeal state about half its body becomes a dark, indistinct spectral shape.',
+        ],
+      ],
+      lore: [
+        [
+          'Lunar dragons, also called moon or phase dragons, are capricious and xenophobic, and they burrow lairs into desolate moons. A mother stocks her lair with food before laying stony pale eggs and stays until the young can fend for themselves. They like denying others treasure more than gaining it, and their hoards often hold spelljamming helms taken from ships that trespassed.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Moons', 'Wildspace'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -4047,6 +4288,18 @@ export default createPublicationMonsters({
       name: 'Megapede',
       page: 36,
       alignment: 'unaligned',
+      appearance: [
+        [
+          'An enormous fur-covered centipede, usually 100 to 120 feet long and sometimes up to 150, with dozens of five-foot legs tipped with flexible claws.',
+        ],
+      ],
+      lore: [
+        [
+          "Megapedes may bury themselves in sand and wait for prey, or nest in underground caverns. The bite is poisonous, and they have magical abilities: an invisible aura of life-draining energy, or a gaze that plants a psychic bomb in a creature's mind. A female attaches eggs to her body with sticky saliva and carries them on her back. Hatchlings reach full size within weeks by eating as much as possible, including each other when food is short.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Desert', 'Underground'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -4141,6 +4394,18 @@ export default createPublicationMonsters({
       page: 37,
       alignment: 'typically lawful neutral',
       languages: ['Common', 'Giant', 'telepathy 60 ft. (see also Mercane telepathy).'],
+      appearance: [
+        [
+          'A lanky blue figure twelve feet tall, in elegant robes, with an elongated head and long spindly fingers. It is rarely alone, but may come with underlings or bodyguards.',
+        ],
+      ],
+      lore: [
+        [
+          'Mercanes are magical creations of deities of fair commerce, trading in Wildspace and the Astral Sea. They deal in goods, services, ideas and information, and are best known for selling magic items such as artifacts and spelljamming helms. They deal fairly and reliably with anyone who has not harmed or cheated a mercane, and they warn each other telepathically across the multiverse about dangerous people. Once offended, a mercane is almost impossible to win back.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Astral Sea'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -4233,6 +4498,16 @@ export default createPublicationMonsters({
           "Creator-bound form: A creator can bind their spirit to the comet and take its form, becoming ageless and immortal. The comet bears the creator's face. Use the creator's Intelligence, Wisdom, Charisma, alignment, and languages in place of the base comet's.",
         ],
       ],
+      appearance: [
+        ['A screaming stone head wreathed in flame, trailing fire as it flies through Wildspace.'],
+      ],
+      lore: [
+        [
+          "Evil spellcasters make murder comets by combining the essences of earth and fire elementals. They fly alone or in a posse looking for ships, crews and other targets to destroy. A creator can bind their spirit to the comet, becoming ageless and immortal, and the comet's face takes on the creator's likeness while the creator's mind replaces the comet's.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -4475,6 +4750,14 @@ export default createPublicationMonsters({
       page: 40,
       alignment: 'typically lawful evil',
       tableNotes: [['Adult neogi: Neogi Pirate and Neogi Void Hunter are adult forms.']],
+      appearance: [['A skittering swarm of newborn neogi.']],
+      lore: [
+        [
+          'When an old neogi grows weak, its group poisons it into a bloated mass, lays eggs on it, and the hatchlings eat it and each other until a few strong ones remain. Sometimes the newborns, united by one evil purpose, form a swarm instead. Adult neogi make no distinction between individuals beyond the power to control others, and they do not understand emotions like love or hatred.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -4561,6 +4844,18 @@ export default createPublicationMonsters({
           'Encounter context: The ship encounters table has Yeshk, a void hunter, captain a Nightspider crewed by 24 Neogi Pirates and 5 Umber Hulks.',
         ],
       ],
+      appearance: [
+        [
+          'A neogi bigger than a typical adult, often marked with dyes and magic to show rank, achievements and its leader.',
+        ],
+      ],
+      lore: [
+        [
+          "Void hunters often captain a nightspider ship. The void hunter pledges fealty to stellar entities such as Acamar, Caiphon, Gibbeth and Hadar, star-like embodiments of evil, in return for some of their power. Neogi society is a strict hierarchy: they read each other's marks, defer to higher station or face punishment, and think loyalty without authority is foolish.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -4735,6 +5030,18 @@ export default createPublicationMonsters({
           'Encounter context: In the Wildspace encounter table, a night scavver hunts with 2d6 Gray Scavvers.',
         ],
       ],
+      appearance: [
+        [
+          'A fifteen-foot creature coloured like Wildspace, with white star-like spots amid dark patches.',
+        ],
+      ],
+      lore: [
+        [
+          'Night scavvers fearlessly enter the air envelope of spelljamming ships and attack crew on deck. Cooked meat is a popular tavern offering across Wildspace.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -4780,6 +5087,14 @@ export default createPublicationMonsters({
           'Allies: Use a Plasmoid Warrior for an armed bodyguard or a Plasmoid Explorer for a scout.',
         ],
       ],
+      appearance: [['A plasmoid that swelled to a much larger size on reaching adulthood.']],
+      lore: [
+        [
+          'Occasionally a plasmoid balloons in size at around twenty years old. Using its size and strength to dominate smaller creatures, it can end up in power with loyal underlings, sycophants and would-be usurpers. It might lead a guild, a criminal enterprise, a plasmoid community or a spelljamming ship, and needs charm and wit as well as strength to keep its post.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -4851,6 +5166,16 @@ export default createPublicationMonsters({
           'Other plasmoids: See the Plasmoid Boss for a leader or the Plasmoid Warrior for an armed escort.',
         ],
       ],
+      appearance: [
+        ['A plasmoid travelling light, with its belongings in a backpack or similar container.'],
+      ],
+      lore: [
+        [
+          'Wanderlust drives some plasmoids to explore the Astral Plane and other Material worlds. An explorer travels light.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane'],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -4932,6 +5257,12 @@ export default createPublicationMonsters({
           'Other plasmoids: A Plasmoid Boss might employ a warrior as a guard. Use a Plasmoid Explorer for a scout.',
         ],
       ],
+      appearance: [['A battle-hardened plasmoid with a toughened outer surface.']],
+      lore: [
+        ['Warriors harden their outer surface to give protection like light armour.'],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -5033,6 +5364,18 @@ export default createPublicationMonsters({
           'Life cycle: Other psurlons hide the corpse of one of their own and lay eggs in it. Tiny worms hatch after 24 hours and feed on the corpse and one another. After seven days, the lone survivor emerges as an adult.',
         ],
       ],
+      appearance: [
+        [
+          'A seven-foot wormlike creature with hooved legs, three-fingered hands, an eyeless earthworm-like head ringed with a toothy maw, and richly coloured robes. It seldom wears armour or carries weapons.',
+        ],
+      ],
+      lore: [
+        [
+          "Psurlons live on the Astral Plane for thousands of years, mostly in the Deep Astral. Every hundred years or so they leave their strongholds, invade Wildspace systems and hold a seven-year Feast of Worlds, eating as many sentient beings as possible, preferring human and halfling flesh. They use spellcasting to infiltrate victims' settlements. They sometimes work with mind flayers, who take the brains while the psurlons take the rest, so githyanki hate them and raid their strongholds. They lay eggs in a dead psurlon's corpse, and the hatched worms eat each other until one emerges as an adult.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane', 'Wildspace'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -5134,6 +5477,14 @@ export default createPublicationMonsters({
           'Followers: Use Psurlon for a rank-and-file follower or Psurlon Ringer for an infiltrator in an assumed identity.',
         ],
       ],
+      appearance: [['A two-headed psurlon with a head at each end of its body.']],
+      lore: [
+        [
+          'One psurlon in a hundred is a two-headed mutant with a superior mind, and the others look to them for leadership.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Astral Plane'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -5387,6 +5738,18 @@ export default createPublicationMonsters({
           'Encounter context: At sea, look for a living Esthetic ship built by its reigar. Only the creator can attune to its Talarith. A lost or destroyed one takes 1d10 + 20 days to replace.',
         ],
       ],
+      appearance: [
+        [
+          'A once-octopus creature with bioluminescent freckles and skin that shifts colour, surrounded by a halo of twinkling, colour-changing motes.',
+        ],
+      ],
+      lore: [
+        [
+          'Reigar began as octopus-like cephalopods in the stormy seas of Ysgard until the gods there transformed them. They are bold, left the seas to test themselves on land, and some later went to the Astral Sea and Wildspace seeking glory. Many are driven by art, though each has their own idea of it, and for some war is the highest art. They travel in symbiotic organic ships, and each has a talarith, a magic item only that reigar can attune to, which takes weeks to remake if lost.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Astral Sea', 'Ysgard'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -5524,6 +5887,18 @@ export default createPublicationMonsters({
           'Solar dragon ages: Light from the wyrmling’s wings shows through the black shell just before the egg hatches. See Young Solar Dragon, Adult Solar Dragon, and Ancient Solar Dragon for later ages.',
         ],
       ],
+      appearance: [
+        [
+          'A young solar dragon with a serpentine body, a pair of long-finned ventral limbs, nebulous wings that give off light and gleaming multicoloured scales.',
+        ],
+      ],
+      lore: [
+        [
+          'A solar dragon is born in the heart of a star, splits its time between patrolling its territory and hunting, and sees clearly even in blinding light. It loves treasure like any dragon but, in the airless void of Wildspace, values food more, feeding on kindori, scavvers and other space-dwelling wildlife. It may mistake a spelljamming ship for prey and drift into weapon range before veering off, so an approach is not necessarily hostile, but a ship that fires on one may get battered to pieces. Solar dragons are territorial carnivores.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -5622,6 +5997,18 @@ export default createPublicationMonsters({
           'Encounter context: Dohwar merchants supplied the first Clownspace ships with spelljamming helms. The clowns lure prey into carnival tents on settled worlds. Their ray guns are harmless in anyone else’s hands.',
         ],
       ],
+      appearance: [
+        [
+          'A fiendish, clown-like creature in a garishly decorated ship, carrying a colourfully painted ray gun.',
+        ],
+      ],
+      lore: [
+        [
+          "Space clowns come from Clownspace, whose people worshipped a god of revelry and grew addicted to an elixir called Thrill Joy, distilled by their priests from demonic ichor and bozo flower nectar. It turned them into fiendish creatures with clown-like looks. They feed on humanoid flesh, and sometimes settle on populated worlds, setting up carnival tents to draw in the curious. Their ray guns work only for them and are harmless in anyone else's hands.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -6250,6 +6637,18 @@ export default createPublicationMonsters({
       alignment: 'typically neutral good',
       languages: ['Languages it knew while alive.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A luminous, incorporeal figure that looks like the dead person it was, with glowing eyes.',
+        ],
+      ],
+      lore: [
+        [
+          "A starlight apparition is a spectral copy that the soul of someone who died in Wildspace or the Astral Sea projects across a great distance with a deity's or celestial's help. Unlike a ghost, it is not bound to a place by unfinished business. Its goal is to help someone else avoid or overcome a peril or finish a hard task, and it fades away for good once that task is done.",
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Astral Sea'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -6377,6 +6776,17 @@ export default createPublicationMonsters({
       page: 60,
       alignment: 'any alignment',
       languages: ['Thri-kreen and telepathy 60 ft.'],
+      appearance: [
+        [
+          'A mantis-like thri-kreen whose carapace colour matches its home, rocky for desert dwellers and brighter for those of green lands.',
+        ],
+      ],
+      lore: [
+        [
+          'Thri-kreen are mantis-like wanderers who survive through innate camouflage and psychic ability. They often speak by telepathy, and groups can share detailed information in silence. Their speech has an insectile quality.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6460,6 +6870,14 @@ export default createPublicationMonsters({
       page: 61,
       alignment: 'any alignment',
       languages: ['Thri-kreen and telepathy 60 ft.'],
+      appearance: [['A mantis-like thri-kreen foraging or stalking.']],
+      lore: [
+        [
+          'Thri-kreen hunters are skilled foragers and stalkers. One met in Wildspace may be tracking a fugitive or leading a gang of pirates.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6849,6 +7267,14 @@ export default createPublicationMonsters({
       page: 63,
       alignment: 'typically lawful evil',
       languages: ['the languages it knew in life.'],
+      appearance: [['A vampirate spellcaster seated at the helm of its ship.']],
+      lore: [
+        [
+          'A ship of vampirates needs a spellcaster to run its spelljamming helm, and the mage rarely if ever leaves the helm.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -6970,6 +7396,14 @@ export default createPublicationMonsters({
           'Encounter context: The Wildspace encounters table can place a lone Void Scavver in the party’s path. Smaller varieties include the Brown Scavver, Gray Scavver, and Night Scavver.',
         ],
       ],
+      appearance: [['A 20-foot-long creature with a pitch-black hide.']],
+      lore: [
+        [
+          'Void scavvers are solitary menaces. Where other scavvers are content with kitchen scraps, a void scavver goes after the cook. It can fire an invisible ray from its eye that fills the target with fear more intense than its size and nature would normally cause.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -7071,6 +7505,14 @@ export default createPublicationMonsters({
           'Lunar dragon ages: The Lunar Dragon Wyrmling is alabaster white. Its scales darken as it ages into an Adult Lunar Dragon, then turn slate-colored as an Ancient Lunar Dragon. During Phase, part of the dragon looks spectral, but it still cannot move through creatures or solid objects.',
         ],
       ],
+      appearance: [['A young lunar dragon, alabaster white at hatching and darkening with age.']],
+      lore: [
+        [
+          'Lunar dragons are capricious, xenophobic creatures that burrow lairs into desolate moons. A mother stocks her lair with food and stays until the eggs hatch and the young can fend for themselves. They like denying others treasure more than gaining it, and hoards often hold spelljamming helms taken from ships that invaded their territory. A lunar dragon can become semi-incorporeal.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace', 'Moon'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -7199,6 +7641,18 @@ export default createPublicationMonsters({
           'Solar dragon ages: The Solar Dragon Wyrmling hatches from an obsidian egg. An Adult Solar Dragon typically nests in a star, while an Ancient Solar Dragon may hunt throughout an entire Wildspace system. A solar dragon sometimes approaches a spelljamming ship after mistaking it for prey.',
         ],
       ],
+      appearance: [
+        [
+          'A solar dragon with a serpentine body, a pair of long-finned ventral limbs, nebulous light-giving wings and gleaming multicoloured scales.',
+        ],
+      ],
+      lore: [
+        [
+          'A solar dragon is born in the heart of a star, patrols its territory and hunts, and sees clearly in blinding light. In Wildspace it prizes food over treasure, hunting kindori, scavvers and other space wildlife. It may mistake a distant spelljamming ship for prey and veer off on realising its error, so approach is not always hostile, but ships that fire on one can be battered to pieces.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -7303,6 +7757,18 @@ export default createPublicationMonsters({
       alignment: 'typically neutral',
       languages: ['See Disembodied Voice.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A bipedal figure in an obsidian exoskeleton with no features but two narrow vertical eye-slits, showing no pain or emotion.',
+        ],
+      ],
+      lore: [
+        [
+          'Under its armour a zodar is tight muscle fibre, making it very strong and heavy, about 1,500 pounds. Nobody knows how many exist or where they came from, though a popular guess is the creations of a forgotten god. They hover silently around other beings, and their actions are often unexplained: perhaps each has a mission it pursues relentlessly and behaves oddly outside it, or all work together toward a master goal.',
+        ],
+        ['Sources: ', 'Spelljammer: Adventures in Space'],
+      ],
+      habitats: ['Wildspace'],
       stats: {
         size: 'medium',
         type: 'aberration',

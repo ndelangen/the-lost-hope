@@ -210,6 +210,14 @@ export default createPublicationMonsters({
       name: 'Bridesmaid of Zuggtmoy',
       alignment: 'chaotic evil',
       languages: ["understands Abyssal but can't speak"],
+      appearance: [['A fungal attendant carrying a veil and train made of lacy mycelia.']],
+      lore: [
+        [
+          'Twelve bridesmaids, with six chamberlains, attend Zuggtmoy as she prepares to wed Araumycos. They are lost in their own reverie, performing something like a grotesque parody of a wedding rehearsal. They can poison and incapacitate a nearby creature with hallucinogenic spores and release a cloud of infectious spores.',
+        ],
+        ['Sources: ', 'Out of the Abyss, PDF pages 212, 231'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -366,6 +374,18 @@ export default createPublicationMonsters({
       name: 'Chamberlain of Zuggtmoy',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Undercommon'],
+      appearance: [
+        [
+          'A vaguely bipedal mass of blue mold with the barest hint of a face deep inside a messy cowl.',
+        ],
+      ],
+      lore: [
+        [
+          "Chamberlains are fungal servants that help Zuggtmoy prepare for her wedding to Araumycos. Six of them join twelve bridesmaids in a parody of a wedding ritual in the heart of Araumycos's territory, lost in their own reverie. They fight by pummeling enemies with mossy fists.",
+        ],
+        ['Sources: ', 'Out of the Abyss, PDF pages 212, 232'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -462,6 +482,14 @@ export default createPublicationMonsters({
       name: 'Chuul Spore Servant',
       alignment: 'unaligned',
       languages: [],
+      appearance: [["An undead chuul reanimated by Zuggtmoy's spores."]],
+      lore: [
+        [
+          "Spore servants are creatures killed and reanimated by Zuggtmoy's spores. They observe passers-by in silence and do not communicate. They attack only in self-defence.",
+        ],
+        ['Sources: ', 'Out of the Abyss, PDF page 31'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -645,6 +673,18 @@ export default createPublicationMonsters({
       tags: ['derro'],
       alignment: 'chaotic evil',
       languages: ['Dwarvish', 'Undercommon'],
+      appearance: [
+        [
+          'A derro in rags styled to imitate a fancy jacket, wearing a wide-brimmed hat with two displacer beast tentacles sewn into the crown. A large satchel hangs from his shoulder and he mutters constantly to himself.',
+        ],
+      ],
+      lore: [
+        [
+          'Droki darts between the stalls and shops of the Blade Bazaar in Gracklstugh. Duergar merchants glare at him, and some will discuss him if asked. Despite living in the West Cleft district, he keeps avoiding capture by Stone Guard patrols as if he knows where they will be. Captain Errde Blackskull wants someone to follow him, see where he goes, and report back, or grab him if the chance arises.',
+        ],
+        ['Sources: ', 'Out of the Abyss, PDF pages 61-64'],
+      ],
+      habitats: ['Underdark', 'City'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1063,6 +1103,16 @@ export default createPublicationMonsters({
         ['Base creature: Scout'],
         ['Applied templates: Mountain Dwarf'],
       ],
+      appearance: [
+        ['A female shield dwarf from Gauntlgrym, high-spirited and proud of her people.'],
+      ],
+      lore: [
+        [
+          'Eldeth is stubborn, defiant and self-sacrificing, and she hates the drow and other corrupt dark dwellers such as derro and duergar. She wants to get home and suggests Gauntlgrym as a destination for escape from the Underdark. She is among the prisoner companions most likely to die in the escape, and if so she asks a trusted character to carry word of her fate and her shield and warhammer to her family.',
+        ],
+        ['Sources: ', 'Out of the Abyss, PDF page 7'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1606,6 +1656,16 @@ export default createPublicationMonsters({
       tags: ['Damaran human'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Undercommon'],
+      appearance: [
+        ['A cult leader who rules the gnoll settlement of Filthriddens with an iron fist.'],
+      ],
+      lore: [
+        [
+          "Grisha named Yeenoghu protector of Filthriddens and exiled or killed anyone who opposed it. He senses the demon lord's power in everything, especially in the way his cultists begin to rise as ghouls after death.",
+        ],
+        ['Sources: ', 'Out of the Abyss, PDF page 183'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3122,6 +3182,18 @@ export default createPublicationMonsters({
         ['Base creature: Wererat'],
         ['Applied templates: Deep Gnome'],
       ],
+      appearance: [
+        [
+          'A Small wererat belonging to Clan Goldwhisker, with innate spellcasting of a deep gnome.',
+        ],
+      ],
+      lore: [
+        [
+          'Svirfneblin wererats of Clan Goldwhisker are looking for new places to settle in the ruins of the former city. They are always hostile and attack unless they can flee. They resist magic and can disguise themselves and blend in with stone.',
+        ],
+        ['Sources: ', 'Out of the Abyss, PDF page 98'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'humanoid',

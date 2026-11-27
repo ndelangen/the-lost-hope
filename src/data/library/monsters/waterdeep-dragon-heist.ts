@@ -1103,6 +1103,18 @@ export default createPublicationMonsters({
         ['Applied templates: Wood Elf'],
         ['Alternate armor classes: 16 · with barkskin'],
       ],
+      appearance: [
+        [
+          'An outgoing wood elf with long braided hair, neither male nor female, who gently asks to be called "they" or by name.',
+        ],
+      ],
+      lore: [
+        [
+          "Fala runs Corellon's Crown, a herbalist shop in Trollskull Alley. They are friends with Ziraj, a Zhentarim who saved their life and sometimes visits, and have set aside a room upstairs for him.",
+        ],
+        ['Sources: ', 'Waterdeep: Dragon Heist'],
+      ],
+      habitats: ['Trollskull Alley'],
       stats: {
         size: 'medium',
         type: 'humanoid',

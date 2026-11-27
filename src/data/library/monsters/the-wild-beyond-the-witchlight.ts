@@ -127,6 +127,14 @@ export default createPublicationMonsters({
           'The Fey Beacons show the route home only if Alagarthas lights all eight himself. It takes him 8 hours once the Perytons stop snuffing them out. Their flock was once a troupe of actors that performed for Endelyn Moongrave.',
         ],
       ],
+      appearance: [['A fey prince living under a bargain.']],
+      lore: [
+        [
+          'Alagarthas made a bargain with Endelyn Moongrave and is paying for it. He wants to go home to the Misty Forest and deal with an evil green dragon nesting there.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -449,6 +457,18 @@ export default createPublicationMonsters({
           'Encounter context: A mortal’s nonmagical wish can leave an echo inside a stone deep in the Feywild. Brigganocks keep and cut stones with kindly wishes and discard malicious ones. Powerful fey can use a wish stone to scry on the person who wished, power a supernatural charm, or awaken an animated object.',
         ],
       ],
+      appearance: [
+        [
+          'A frantic, mouse-sized creature with a pale bulb of light floating beside it, which lights its way in the dark.',
+        ],
+      ],
+      lore: [
+        [
+          "Brigganocks live in mines and hunt for wish stones, formed in the Feywild when mortals make nonmagical wishes. They keep stones holding good wishes and discard ill-willed ones, refine them into gems for their buildings and crafts, or trade them to other fey. A brigganock's soul lives outside its body as the floating light. It has minor spellcasting, can speed up time to finish hour-long jobs in seconds (then must rest), and eats a lot of soft food such as cheese and lettuce.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild', 'Mines'],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -553,6 +573,14 @@ export default createPublicationMonsters({
       page: 231,
       alignment: 'typically lawful good',
       languages: ['Bullywug', 'Common.'],
+      appearance: [['A noble bullywug knight, honour-bound, standing on a point of chivalry.']],
+      lore: [
+        [
+          'Bullywug knights follow a code of chivalry. Their sense of honour makes them fight fairly and insist their opponents do too.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild swamp'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -641,6 +669,18 @@ export default createPublicationMonsters({
           'Encounter context: A campestri remembers a song after three or four rehearsals. Several may sing and dance together. Use Swarm of Campestris for an attacking group.',
         ],
       ],
+      appearance: [
+        [
+          'A small mushroom-like creature, white to dark brown with a red or purple speckled cap, standing on a base of mycelium it manipulates to move.',
+        ],
+      ],
+      lore: [
+        [
+          'Campestris are cheerful and carefree and love music, though they cannot tell good playing from bad. They sing along in nasal falsetto and dance around the player, and once they have practised a tune three or four times they remember it for good. They eat salty soil and excrete purified soil, and the salt makes them taste unpleasant to most, though bullywugs find them a delicacy.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'tiny',
         type: 'plant',
@@ -714,6 +754,18 @@ export default createPublicationMonsters({
           'Guide to Thither: Clapperclaw will guide the party from Hither to Thither if they help recover its skull. Agdon Longscarf stole it and gave it to Bavlorna Blightstraw, who keeps it in her cottage’s treasure room (B19). Clapperclaw avoids the hags and waits outside the cottage.',
         ],
       ],
+      appearance: [
+        [
+          'A three-foot scarecrow with a hollow gourd for a head that sits askew and rattles with coins whenever it nods or turns.',
+        ],
+      ],
+      lore: [
+        [
+          "Granny Nightshade made Clapperclaw using a tormented child's soul from Gehenna, and it ran away rather than do her evil work. After it fled, Agdon Longscarf and his harengon brigands stole its head, which it remembers as a glorious stag skull. It badly wants the head back and is self-conscious about the gourd with eight copper coins sealed inside.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild', 'Thither'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -960,6 +1012,13 @@ export default createPublicationMonsters({
           'Valor’s Call: Elkhorn is Strongheart’s longtime companion. His challenge rating assumes he uses Feint to improve his sword attacks. He is especially dangerous to larger foes.',
         ],
       ],
+      appearance: [['An old dwarf who has lost much of his strength to age.']],
+      lore: [
+        [
+          "Elkhorn has long been Strongheart's most loyal companion, optimistic and devoted to destroying evil, though not especially bright and so fighting with heart rather than wits. Strongheart has urged him to retire, but he refuses.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1066,6 +1125,18 @@ export default createPublicationMonsters({
           'Orrery of Tragedies (M14): Creatures on the balcony and on the floor below have three-quarters cover against attacks from the other level. Touching the central lightning rod, entering the device’s space for the first time on a turn, or starting a turn there triggers a DC 15 Dexterity save. Take 44 (8d10) lightning damage on a failed save or half on a success. Make the save with disadvantage in metal armor.\nAt least eight components must be destroyed to wreck the device. Each is a Large object with AC 19, 27 HP, and immunity to lightning, poison, and psychic damage. The central rod has eight segments, each AC 17 and 25 HP with the same immunities. Destroying a segment drops the ones above it. If at least three are lost, the orrery shuts down after 1 minute until the rod is rebuilt. Antimagic Field suppresses the device while in contact. Dispel Magic (DC 19) shuts it down for 1 minute, but it stays charged.',
         ],
       ],
+      appearance: [
+        [
+          'The youngest of the Hourglass Coven, known as Creeping Lyn and Bitter End, who stages grim theatrical pageants.',
+        ],
+      ],
+      lore: [
+        [
+          "People visit Endelyn to learn their futures, which she shows through grotesque theatre. As payment she takes part of a client's free will so they cannot avoid certain courses, and clients often learn of a dreadful fate but cannot prevent it because of the cursed deal. She is obsessed with tragedy and has foreseen her own death during a solar eclipse. In her castle, a lightning-powered device, the Orrery of Tragedies, turns day and night to show her glimpses of that fate.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -1169,6 +1240,14 @@ export default createPublicationMonsters({
           'Crown of needles: Placing the silver crown on Envy banishes it and the crown to its demiplane until Zybilna recalls them. Wrath turns the silver crown to gold. Gold on Envy unlocks lion-marked palace doors even if Envy is dead. To borrow the gold crown, offer a lei of palace flowers. It takes 1 hour for one person to make, divided among contributors. Each contributor may make a DC 15 Intelligence (Nature) check. A success earns the crown temporarily. A total of 25 or higher earns it whenever requested.',
         ],
       ],
+      appearance: [['An iron lion that speaks Common and Sylvan and calls itself "we".']],
+      lore: [
+        [
+          "Envy is one of two guardians Zybilna made for her garden, and it appeared from its demiplane when she was frozen in time. It dislikes its counterpart Wrath, but Zybilna's magic stops them harming each other. It demands that visitors kneel; those who do may stay, and those who do not are told to leave the tower and are attacked if they refuse.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ["Zybilna's tower"],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1739,6 +1818,18 @@ export default createPublicationMonsters({
           'Encounter context: Brigands demand tolls for safe passage and are quick to flee if outnumbered or beaten. At Agdon Longscarf’s camp, 1d4 brigands and 1d4 Harengon Snipers are present at any given time.',
         ],
       ],
+      appearance: [
+        [
+          "A rabbit-folk traveller with a bully's swagger, travelling on foot with others of the same sort.",
+        ],
+      ],
+      lore: [
+        [
+          'Harengons come from the Feywild but often wander to the Material Plane, and they like to move on foot and rarely settle. These brigands are mean-spirited bullies, which the book stresses is not typical of the people, whose temperaments follow their own paths and the company they keep.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1810,6 +1901,16 @@ export default createPublicationMonsters({
           'Encounter context: Snipers position themselves above trails or behind shelter to cover Harengon Brigands, then Hide as soon as they fire.',
         ],
       ],
+      appearance: [
+        ['A rabbit-folk ambusher in the brush, one of a group of mean-minded harengons.'],
+      ],
+      lore: [
+        [
+          'Harengons come from the Feywild but often wander to the Material Plane, and they like to travel on foot and rarely settle. Snipers are part of the bullying harengon bands in the adventure, which the book says is not how all harengons behave, as each follows a personal path shaped by the company they keep.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1874,6 +1975,18 @@ export default createPublicationMonsters({
           'Palace encounter: The jabberwock sleeps around Iggwilv’s Cauldron in P22. Loud noise, an attack against it, or disturbing the cauldron wakes it. It follows prey or music out of the palace. If the great owl Bloodybeak does not attack it as soon as it leaves, it hunts for 1d6 + 2 hours before returning. Food may distract it long enough to slip away. It is friendly to Iggwilv the Witch Queen and hostile to others. Snicker-Snock, the Vorpal Sword in P50, exploits its damage vulnerability.',
         ],
       ],
+      appearance: [
+        [
+          'A sinewy, dragon-like creature that walks upright or on all fours, with eyes that can fire beams of flame. Survivors recall only fragments, never the whole beast.',
+        ],
+      ],
+      lore: [
+        [
+          'A jabberwock is a lone, temperamental predator in unspoiled forests and ancient ruins. It picks one target and attacks it until the victim is dead and eaten, the jabberwock is slain, or the victim escapes, for example by teleporting. If one dies, another appears 3d8 years later within a thousand miles. No young one has ever been seen and they do not seem to age.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Forest', 'Ruins'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -2070,6 +2183,18 @@ export default createPublicationMonsters({
           'Encounter context: Jingle Jangle lives on Telemy Hill and always refers to herself in the third person. Bavlorna’s bargain traded her fear of being trapped by a locked door for a compulsion to collect keys. Harengon Brigands recently roughed her up and stole her truffles. She willingly gives visitors the silver key to Sir Talavar’s cage.',
         ],
       ],
+      appearance: [
+        [
+          'A goblin woman who carries and collects keys, and who speaks of herself in the third person.',
+        ],
+      ],
+      lore: [
+        [
+          'Jingle Jangle once feared being caught behind a locked door and asked the hag Bavlorna Blightstraw to lift the fear. Bavlorna instead took the fear away and left an overwhelming need to collect keys, and Jingle Jangle lost her sense of self. She is kind, good at finding keys, delighted to add to her collection, and gives keys to those who need them. She wants a quiet life away from locked doors and fey court politics, and has settled on Telemy Hill for its company and protection.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2116,6 +2241,18 @@ export default createPublicationMonsters({
           'Encounter notes: After an hour searching the carnival, a character can see through her disguise with a successful DC 13 Intelligence (Investigation) check. She flees to break line of sight and may talk to adventurers who say they are investigating the carnival. Her pact prevents her from entering Prismeer. She presses Mister Witch and Mister Light for answers and asks adventurers to find out what happened to Zybilna. Untie the thorny stem around her cornhusk doll to restore Candlefoot’s voice. A successful DC 12 Charisma (Intimidation or Persuasion) check persuades her to hand over the doll.',
         ],
       ],
+      appearance: [
+        [
+          'A kenku who hides behind a disguise self spell and speaks in a soft, silky borrowed voice.',
+        ],
+      ],
+      lore: [
+        [
+          'Kettlesteam snoops around the carnival looking to cause trouble. She stole the voice of the human mime Candlefoot, and as long as she keeps it, she can speak clearly in that voice.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Carnival'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2220,6 +2357,13 @@ export default createPublicationMonsters({
       page: 238,
       alignment: 'typically neutral evil',
       languages: ['Common.'],
+      appearance: [['An object that looks like an ordinary doll or stuffed toy until it moves.']],
+      lore: [
+        [
+          'A mean spirit is trapped inside each living doll and urges people nearby to treat others badly. It enjoys tormenting the guilt-ridden and despondent, pushing them toward depression or paranoia. It fears being destroyed, so it seldom does direct harm. When it has to defend itself, it uses a maniacal cackle to debilitate foes and turns their worst fears against them.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -2326,6 +2470,18 @@ export default createPublicationMonsters({
           'Encounter notes: Light and Mister Witch want Zybilna back. Their pact gives the Hourglass Coven permission to steal from unticketed guests. Use the Witchlight Vane’s Sense Mood to find the happiest creature on the carnival grounds as an action.',
         ],
       ],
+      appearance: [
+        [
+          'A shadar-kai partner of the carnival, formerly Urmius Umbrage, with a taste for strange costumes and outlandish makeup.',
+        ],
+      ],
+      lore: [
+        [
+          "Urmius grew up rich in a crumbling mansion in Gloomwrought, surrounded by cold, mean-spirited relatives, and he made life miserable for them, especially his parents. He met the clock tower keeper Naeryx Krumple at a family dinner and was struck by Naeryx's ability to find joy in work. With money he bought a sad little carnival and asked Naeryx to help run it, giving up his inheritance for the life, fashions and friends he wanted. They are now Mister Light and Mister Witch.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Shadowfell', 'Carnival'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2442,6 +2598,18 @@ export default createPublicationMonsters({
           'Encounter notes: Witch and Mister Light keep the carnival running under the Hourglass Coven’s pact. The Witchlight Watch lets Witch start a one-hour magical setup or takedown as an action while he and the carnival are on the same plane. This moves the carnival’s objects and leaves creatures free to move safely.',
         ],
       ],
+      appearance: [
+        [
+          'A former homeless orphan from Gloomwrought, formerly Naeryx Krumple, who wore one fine suit to family dinners.',
+        ],
+      ],
+      lore: [
+        [
+          "Naeryx sold broadsheets and swept floors on the foggy streets of Gloomwrought until an old clock tower keeper took him on. He found a sliver of joy repairing the clock and replaced the keeper when he died. He liked the eldest son of the tower's owning family, Urmius Umbrage, and years later Urmius persuaded him to help run a run-down carnival. They call themselves Mister Witch and Mister Light and have been partners since.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Shadowfell', 'Carnival'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2541,6 +2709,13 @@ export default createPublicationMonsters({
       page: 226,
       alignment: 'chaotic good',
       languages: ['Common.'],
+      appearance: [['A thief with a ready jibe or acid remark.']],
+      lore: [
+        [
+          'Molliver gives most of what they steal to the destitute and keeps a few choice items. They will put themselves in danger to see justice beat tyranny and inequality. They do not think through consequences and count on friends to rescue them. Their cavalier manner does not always suit more cautious companions.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2653,6 +2828,13 @@ export default createPublicationMonsters({
         [
           'Base stat block: This encounter uses the 2014 Hawk rules, with the type, defenses and attack changes included above.',
         ],
+      ],
+      appearance: [['A bird folded from enchanted parchment.']],
+      lore: [
+        [
+          'Endelyn writes letters on enchanted parchment and folds them into paper birds that fly to the recipient. If the recipient is on another plane or unreachable, the bird bursts into flames on takeoff and is destroyed. They are hostile to all creatures except the hags of the Hourglass Coven.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
       ],
       stats: {
         size: 'tiny',
@@ -2797,6 +2979,14 @@ export default createPublicationMonsters({
           'Base stat block: The adventure uses the 2014 Spy with the elf’s languages, darkvision and Fey Ancestry.',
         ],
       ],
+      appearance: [['A petrified high elf statue, the form in which she is first found.']],
+      lore: [
+        [
+          "Raezil Uthemar was Zybilna's spy in other fey courts. She returned to find nearly everyone in the palace in temporal stasis, accused Kelek of plotting against Zybilna, and his cockatrices petrified her. She does not know the name Iggwilv, having joined Zybilna soon after the archfey made her domain, and spends most time abroad, so she is out of step with Prismeer's politics. Once freed, she must help the characters with any outstanding quests under the rule of reciprocity. Her highborn family has influence in the Summer Court, which makes her a useful retainer.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3286,6 +3476,18 @@ export default createPublicationMonsters({
           'Loomlurch encounter: When her clockwork key stops, Skabatha lashes out at anything nearby until a victory or other good turn lifts her mood. Each time she flies into such a rage, 1d3 redcaps sprout in the garden at L15. The key is part of her body and cannot be removed while she lives. Loomlurch’s other defenders try to capture intruders alive. If the fight goes badly, Skabatha rides her Flying Rocking Horse to Motherhorn. Bavlorna Blightstraw goes there too if present. If Skabatha dies, a beetle tells her killer that Endelyn Moongrave can be killed permanently during a real or symbolic eclipse.',
         ],
       ],
+      appearance: [
+        [
+          'An old toymaker with a hunched back, part toy herself, with a windup key between her shoulders that spins fast when she is pleased, slows as her mood sours and stops dead when she is furious.',
+        ],
+      ],
+      lore: [
+        [
+          "Skabatha, known as Granny Nightshade, is the oldest member of the Hourglass Coven. She offers help to people haunted by regret, but her deals end in cruel twists, such as turning someone who wants a lost love back into one of that person's treasured items, like a favourite bonnet. Watch her key as a gauge of her mood.",
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -3582,6 +3784,18 @@ export default createPublicationMonsters({
       page: 232,
       alignment: 'unaligned',
       languages: ['Understands Common. It speaks only through Mimicry.'],
+      appearance: [
+        [
+          'A crowd of little mushroom-like creatures with red or purple speckled caps, in shades from white to tan to dark brown, singing along in nasal falsetto and dancing around whoever makes music.',
+        ],
+      ],
+      lore: [
+        [
+          'Campestris are cheerful and carefree and love music, though they cannot tell good playing from bad. Once they have practised a tune three or four times they remember it for ever, and they mimic lyrics easily. They move on mycelium growing from the stem base. They eat salty soil and excrete a slippery paste, and eating salt is also a defence.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -3776,6 +3990,14 @@ export default createPublicationMonsters({
           'Animated Drum: Small animated object, AC 16, 25 HP, speed 30 ft., blindsight 30 ft., no effective attacks. Str 6, Dex 14, Con 10, Int 3, Wis 3, Cha 1. Immune to poison and psychic damage and the blinded, charmed, deafened, frightened, paralyzed, petrified, and poisoned conditions. Its beat carries 60 ft.',
         ],
       ],
+      appearance: [['An automaton shaped like a stout infantry soldier.']],
+      lore: [
+        [
+          'Tin soldiers obey Skabatha without question. They charge off to investigate anything suspicious they see or hear, which makes them easy to distract.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -3930,6 +4152,17 @@ export default createPublicationMonsters({
         [
           'Palace encounter: At the throne room in area P31, Warduke stands beside Kelek with his sword already aflame. Treasure worth at least 2,500 gp buys his service for the remainder of the adventure. While he is with the party, Kelek and Zargash leave them alone. He can be persuaded to destroy Iggwilv’s Cauldron with his sword.',
         ],
+      ],
+      appearance: [
+        [
+          'An evil swordsman in a dread helm that he never removes; under it is said to be the face of a grim, hideously scarred gladiator.',
+        ],
+      ],
+      lore: [
+        [
+          'Warduke is a remorseless killer-for-hire whose services are easy to buy. He serves Kelek as a cohort and companion from time to time. He is not very bright and leaves plotting to others.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
       ],
       stats: {
         size: 'medium',
@@ -4495,6 +4728,17 @@ export default createPublicationMonsters({
         [
           'Wayward Pool encounter: Kelek sent Zarak after the horn of Lamorna, the unicorn. At the shore he uses a fake unicorn horn to follow the party in. He attacks at the end of their conversation. Creatures with passive Perception of at least 17 avoid surprise. Lamorna teleports away on her first turn after the ambush. Zarak may withdraw or accept gold to abandon the hunt.',
         ],
+      ],
+      appearance: [
+        [
+          'An unusually short, ugly, beardless-looking orcish assassin with rotting tusks and a gray pallor, who could pass for a dwarf.',
+        ],
+      ],
+      lore: [
+        [
+          'Zarak is an assassin with no honour or conscience. The only thing he loves is money, and he would stab allies in the back if they stood between him and riches.',
+        ],
+        ['Sources: ', 'The Wild Beyond the Witchlight'],
       ],
       stats: {
         size: 'medium',

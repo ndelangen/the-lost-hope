@@ -73,6 +73,16 @@ export default createPublicationMonsters({
       tags: ['lizardfolk'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Draconic'],
+      appearance: [
+        ['The leader of the combined survivors of three lizardfolk tribes in the Twilight Marsh.'],
+      ],
+      lore: [
+        [
+          "He survived the events of Drums in the Marsh and now commands the remnants of three tribes. Hearing that the dragon Velvet is absent, he sees a chance for revenge for the tribes' destruction. He knows his clan alone is too weak, so he sends an envoy to recruit the adventurers.",
+        ],
+        ['Sources: ', 'DDEX1-12 Raiders of the Twilight Marsh, PDF page 5'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'humanoid',

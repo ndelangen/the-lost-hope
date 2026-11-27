@@ -12,6 +12,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [["A frightened villager moving under Omou's compulsion."]],
+      lore: [
+        [
+          "Dominated villagers are ordinary folk of the village under Omou's control. They break out of it when enough of them are subdued or knocked out, or after ten minutes. Characters get XP for restraining or subduing each rather than killing them.",
+        ],
+        ['Sources: ', 'DDAL04-13 The Horseman, PDF pages 11-12'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -56,6 +63,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [['A villager lumberjack with bloodied hands, chopping at trees and buildings.']],
+      lore: [
+        [
+          "Dominated lumberjacks chop relentlessly at any standing tree, hands bloody, and some have felled buildings, including a shopfront. They are under Omou's compulsion, and the effect fades after the dominated villagers are subdued or ten minutes pass.",
+        ],
+        ['Sources: ', 'DDAL04-13 The Horseman, PDF pages 11-12'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -97,6 +111,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [
+        [
+          "A villager of Omou's village, once a militia member, now moving under magical compulsion.",
+        ],
+      ],
+      lore: [
+        [
+          "Dominated militia first killed their one sergeant and then hunted the villagers, shooting people as they fled. They eventually hunt one another until only one hunter is left. When Omou's hold weakens, the survivors come out of it and can describe a stunted figure on a horse.",
+        ],
+        ['Sources: ', 'DDAL04-13 The Horseman, PDF pages 11-12'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

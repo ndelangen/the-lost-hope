@@ -4201,6 +4201,18 @@ export default createPublicationMonsters({
           'Adventure variant: For the fixed fiend form used in Turn of Fortune’s Wheel, see Modron Planar Incarnate.',
         ],
       ],
+      appearance: [
+        [
+          'A primal embodiment of a plane, appearing as roiling energies shaped by that plane. Lower Planes versions might look like waves of fiendish flame, and Upper Planes ones like blooms of light and wild growth.',
+        ],
+      ],
+      lore: [
+        [
+          "In dire and fateful circumstances, the Upper and Lower Planes can manifest incarnates of their might. They are like natural disasters that defend and advance their plane's virtues or vices, protect their home from antithetical forces, then merge back into the plane. On other planes they may take either form or a unique one.",
+        ],
+        ['Sources: ', "Morte's Planar Parade"],
+      ],
+      habitats: ['Outer Planes'],
       stats: {
         size: 'gargantuan',
         type: 'celestial',

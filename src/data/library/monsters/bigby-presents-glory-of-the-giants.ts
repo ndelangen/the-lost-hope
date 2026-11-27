@@ -12,6 +12,18 @@ export default createPublicationMonsters({
       page: 128,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [
+        [
+          'A pterosaur the size of an ancient dragon with a wingspan close to 200 feet, elemental energy tracing lightning-like patterns across its scales.',
+        ],
+      ],
+      lore: [
+        [
+          "Dinosaurs were created by Annam, the All-Father, as companions for his children, and the primeval magic that made them still shows in scar-like coloured lines on their bodies. The aerosaur's wingbeats carry extra thunderous force from the elemental energy in its scales. Some ancient dinosaurs survive in timeless jungles and hidden enclaves.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Jungle', 'Sky'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -214,6 +226,14 @@ export default createPublicationMonsters({
       page: 120,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [["An olive-coloured ooze with an adhesive surface, found in a giant's bag."]],
+      lore: [
+        [
+          'Bag jellies are olive oozes like dungeon scavengers, usually found in bags carried by giants, where they eat organic material. They survive being thrown, sat on or used as a club. Dwarves say a curse made them. Some giants keep bags clean to avoid them, and others use them to catch thieves, who stick to the jelly and wake the giant with the noise.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ["Giant's bag"],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -264,6 +284,14 @@ export default createPublicationMonsters({
       page: 121,
       alignment: 'typically chaotic evil',
       languages: ['Giant.'],
+      appearance: [['An animated hill giant corpse with thick toxic ichor and a noxious stench.']],
+      lore: [
+        [
+          'A hill giant who dies hungry, angry and full of regret may fill with Negative Plane energy and rise as a barrowghast, driven by spite and malice. It no longer wants food, only life energy, and often goes after former family and allies though it feeds on anything. Humanoids drained by it rise as zombies.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Hill giant lands'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -386,6 +414,18 @@ export default createPublicationMonsters({
       page: 122,
       alignment: 'typically neutral',
       languages: ['Giant.'],
+      appearance: [
+        [
+          'A stone giant, emaciated and caked in lichen and mineral deposits that help it blend into its cavern tomb.',
+        ],
+      ],
+      lore: [
+        [
+          "A stone giant who dies while absorbed in a carving can rise as a cairnwight and carry on the work, then stays as its undying guardian. If anyone interferes with the project, damages the art or steals from it, the cairnwight petrifies them, places the statue outside as a warning and reseals its vault. It stems from the stone giants' belief that Skoraeus Stonebones inspires their best carving.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Caverns'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -592,6 +632,18 @@ export default createPublicationMonsters({
       page: 123,
       alignment: 'typically chaotic evil',
       languages: ['Giant and Ignan.'],
+      appearance: [
+        [
+          'A giant-shaped elemental of smoke and cinders half the size of a fire giant, ash and embers billowing around a barely cohesive body.',
+        ],
+      ],
+      lore: [
+        [
+          "Cinder hulks descend from fire giants who cut themselves off and steeped in elemental energy for centuries until they turned into smoke-and-cinder Elementals. They live in isolated enclaves in fiery places on the Material Plane, the Elemental Planes of Air and Fire, and especially the Great Conflagration between them. They keep none of their ancestors' skills or goals and simply want to burn what they can until their own flames die. A dead hulk collapses into a cloud of searing smoke.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Fiery enclaves', 'Great Conflagration'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -823,6 +875,14 @@ export default createPublicationMonsters({
       page: 125,
       alignment: 'typically neutral evil',
       languages: ['Auran', 'Common', 'Giant.'],
+      appearance: [['A cloud giant in a vest decorated with roc-feather wings that lets it fly.']],
+      lore: [
+        [
+          "Cloud giants who leave the Ordning often serve Yan-C-Bin, Prince of Evil Air. Their cunning, charm and physical and magical power fit them for leading Elemental Evil cults, and the wealth they bring swells the cult's funds. A cult led by one is a formidable force of corruption. The enchanted vest works only for the giant who wears it.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Elemental Evil cults'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -939,6 +999,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: One or more of the regional effects listed under Scion of Memnor can begin while the scion still sleeps inside the cradle.',
         ],
+      ],
+      appearance: [
+        [
+          'A powerful cloud Elemental, a living cradle that holds a slumbering giant-god scion in stasis.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, enormously powerful beings who fill the world around them with primeval magic. On many worlds they sleep and have become part of the landscape, each held in stasis inside an Elemental called a cradle. The cradle guards the sleeper and acts on its subconscious wishes, including driving off intruders. If the cradle is destroyed, the scion inside fully awakens.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
       ],
       stats: {
         size: 'gargantuan',
@@ -1139,6 +1210,17 @@ export default createPublicationMonsters({
           'Regional effects: One or more of the regional effects listed under Scion of Surtur can begin while the scion still sleeps inside the cradle.',
         ],
       ],
+      appearance: [
+        [
+          'A powerful fire Elemental, a living cradle that holds a slumbering giant-god scion in stasis.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, enormously powerful beings who fill the world around them with primeval magic. On many worlds they sleep and have become part of the landscape, each held in stasis inside an Elemental called a cradle. The cradle guards the sleeper and acts on its subconscious wishes, including driving off intruders. If the cradle is destroyed, the scion inside fully awakens.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -1293,6 +1375,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: One or more of the regional effects listed under Scion of Thrym can begin while the scion still sleeps inside the cradle.',
         ],
+      ],
+      appearance: [
+        [
+          'A powerful frost Elemental, a living cradle that holds a slumbering giant-god scion in stasis.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, enormously powerful beings who fill the world around them with primeval magic. On many worlds they sleep and have become part of the landscape, each held in stasis inside an Elemental called a cradle. The cradle guards the sleeper and acts on its subconscious wishes, including driving off intruders. If the cradle is destroyed, the scion inside fully awakens.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
       ],
       stats: {
         size: 'gargantuan',
@@ -1497,6 +1590,17 @@ export default createPublicationMonsters({
           'Regional effects: One or more of the regional effects listed under Scion of Grolantor can begin while the scion still sleeps inside the cradle.',
         ],
       ],
+      appearance: [
+        [
+          'A powerful hill Elemental, a living cradle that holds a slumbering giant-god scion in stasis.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, enormously powerful beings who fill the world around them with primeval magic. On many worlds they sleep and have become part of the landscape, each held in stasis inside an Elemental called a cradle. The cradle guards the sleeper and acts on its subconscious wishes, including driving off intruders. If the cradle is destroyed, the scion inside fully awakens.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -1668,6 +1772,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: One or more of the regional effects listed under Scion of Skoraeus can begin while the scion still sleeps inside the cradle.',
         ],
+      ],
+      appearance: [
+        [
+          'A powerful stone Elemental, a living cradle that holds a slumbering giant-god scion in stasis.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, enormously powerful beings who fill the world around them with primeval magic. On many worlds they sleep and have become part of the landscape, each held in stasis inside an Elemental called a cradle. The cradle guards the sleeper and acts on its subconscious wishes, including driving off intruders. If the cradle is destroyed, the scion inside fully awakens.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
       ],
       stats: {
         size: 'gargantuan',
@@ -1854,6 +1969,17 @@ export default createPublicationMonsters({
           'Regional effects: One or more of the regional effects listed under Scion of Stronmaus can begin while the scion still sleeps inside the cradle.',
         ],
       ],
+      appearance: [
+        [
+          'A powerful storm Elemental, a living cradle that holds a slumbering giant-god scion in stasis.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, enormously powerful beings who fill the world around them with primeval magic. On many worlds they sleep and have become part of the landscape, each held in stasis inside an Elemental called a cradle. The cradle guards the sleeper and acts on its subconscious wishes, including driving off intruders. If the cradle is destroyed, the scion inside fully awakens.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -2021,6 +2147,16 @@ export default createPublicationMonsters({
       page: 126,
       alignment: 'any alignment',
       languages: ['Giant.'],
+      appearance: [
+        ['A shrivelled, deep-purple giant of the Shadowfell, descended from cloud giants.'],
+      ],
+      lore: [
+        [
+          'Long ago a large band of cloud giants went to the Shadowfell to save their failing empire and lost a collective wager to the Raven Queen, god of death and memory. The Shadowfell became their home and they serve her grudgingly. It shrivelled their bodies and turned their skin deep purple, and their descendants search the Shadowfell and the Material Plane for souls to please her. Accounts differ on how the bet was lost.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Shadowfell'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2122,6 +2258,16 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Common', 'Giant.'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [
+        ['A shrivelled, deep-purple giant of the Shadowfell, descended from cloud giants.'],
+      ],
+      lore: [
+        [
+          'Long ago a large band of cloud giants went to the Shadowfell to save their failing empire and lost a collective wager to the Raven Queen, god of death and memory. The Shadowfell became their home and they serve her grudgingly. It shrivelled their bodies and turned their skin deep purple, and their descendants search the Shadowfell and the Material Plane for souls to please her. Accounts differ on how the bet was lost.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Shadowfell'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2256,6 +2402,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic neutral',
       languages: ['Giant', 'Terran.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A cloud of gravel and dust that barely holds a shape, flying on wind currents or blowing through tunnels like a living sandstorm.',
+        ],
+      ],
+      lore: [
+        [
+          "Dust hulks descend from stone giants who lived isolated in extreme places, whose bodies were worn away by Plane of Air energy until they became Elementals. They keep their ancestors' love of art but treat their bodies as living works, making mesmerising dances with their shifting shapes. A dead one disperses into a dust cloud.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -2367,6 +2524,17 @@ export default createPublicationMonsters({
       page: 132,
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'Giant', 'Orc.'],
+      appearance: [
+        [
+          'An ettin whose arms have become powerful tentacles and whose two heads look more bestial, in a rage.',
+        ],
+      ],
+      lore: [
+        [
+          'Some legends say the first ettins were orcs transformed by Demogorgon, others tie them to Grolantor or another Ordning god. Ettins sometimes see a kindred soul in two-headed Demogorgon and serve him, and especially useful ones are given a "blessing" that turns them into monstrous echoes. The change leaves the echo in a frenzy, its heads howling at each other with demonic fury that spreads discord, and nearby creatures suffer psychic pain or join in and attack their allies.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -2455,6 +2623,18 @@ export default createPublicationMonsters({
       page: 133,
       alignment: 'typically lawful evil',
       languages: ['Deep Speech', 'Giant', 'telepathy 60 ft.', 'Undercommon.'],
+      appearance: [
+        [
+          'An ettin transformed by ceremorphosis, one head sunk into the body and the other devoted to thought and psionics.',
+        ],
+      ],
+      lore: [
+        [
+          "Mind flayers found giants too big for one tadpole to take over, but an ettin's two brains feed two tadpoles that can transform the whole body. One head sinks into the body to control it, the other handles thought and psionic power, though less than a mind flayer. Ceremorphs guard elder brains and treasure in mind flayer colonies and remember nothing of their lives as ettins.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Underdark', 'Mind flayer colonies'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2601,6 +2781,18 @@ export default createPublicationMonsters({
       page: 135,
       alignment: 'typically chaotic neutral',
       languages: ['Common', 'Giant.'],
+      appearance: [
+        [
+          'A giant smaller than most frost or stone giants, with a prominent nose and a touch of green in the skin, armed and armoured like other fighters on Ysgard.',
+        ],
+      ],
+      lore: [
+        [
+          "A band of frost giants once led trolls to conquer Ysgard to win Annam's favour. The conquest failed, but they found that creatures slain on Ysgard return at the next dawn, so the raiders joined the eternal battle. Constant regeneration and rebirth slowly changed the trolls into fensirs. Their regeneration fails in sunlight, which can turn them to stone.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Ysgard'],
       stats: {
         size: 'huge',
         type: 'celestial',
@@ -2727,6 +2919,18 @@ export default createPublicationMonsters({
       page: 135,
       alignment: 'any alignment',
       languages: ['Common', 'Giant.'],
+      appearance: [
+        [
+          'A giant smaller than most frost or stone giants, with a prominent nose and a touch of green in the skin, armed and armoured like other fighters on Ysgard.',
+        ],
+      ],
+      lore: [
+        [
+          "A band of frost giants once led trolls to conquer Ysgard to win Annam's favour. The conquest failed, but they found that creatures slain on Ysgard return at the next dawn, so the raiders joined the eternal battle. Constant regeneration and rebirth slowly changed the trolls into fensirs. Their regeneration fails in sunlight, which can turn them to stone.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Ysgard'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -3107,6 +3311,18 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Common', 'Giant.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A fire giant in plate armour from head to foot that barely holds in heat and billowing smoke.',
+        ],
+      ],
+      lore: [
+        [
+          "Forgecallers are fire giants who master rune magic and can control the heat of a volcanic setting and call raw fire and magma. In a community they oversee forges and defence, often in Surtur's name; some live alone, seeking the hottest fires of volcanic hearts or the Plane of Fire for their studies. They conjure waves of magma and fly on jets of fire from their bodies.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Volcano', 'Plane of Fire'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3269,6 +3485,16 @@ export default createPublicationMonsters({
       page: 139,
       alignment: 'typically lawful evil',
       languages: ['Common', 'Giant', 'Ignan.'],
+      appearance: [
+        ['A fire giant wearing armour that has welded to the flesh, wreathed in flames.'],
+      ],
+      lore: [
+        [
+          "A fire giant who stares too long into flame may see Imix, Prince of Evil Fire, staring back. Some corrupted giants leave to join cultists, while others stay in their communities to push Imix's destructive plans. The giant forges armour and weapons in flame blessed by Imix and calls on it to strike the foes of the Eternal Flame. The armour cannot be removed once donned, though the giant is not burned, and explodes when the giant dies.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Volcano', 'Elemental Evil cults'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3383,6 +3609,14 @@ export default createPublicationMonsters({
       page: 140,
       alignment: 'typically lawful evil',
       languages: ['Common', 'Giant', 'Infernal.'],
+      appearance: [['A fire giant with horns, cloven hooves and a forked tail.']],
+      lore: [
+        [
+          "Fire giants who study war may become fascinated with the Blood War, and one may make a pact with a devil to learn its tactics and gain magical gifts. In time the giant becomes a fiend. The devil teaches it to forge with infernal iron and hellfire, making weapons that funnel slain souls to Avernus, so the devil gains souls from the giant's enemies and the giant is promised a smith's post in the Nine Hells after death.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Nine Hells', 'Avernus'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -3470,6 +3704,17 @@ export default createPublicationMonsters({
       page: 137,
       alignment: 'typically lawful evil',
       languages: ['Giant.'],
+      appearance: [
+        [
+          'What looks like a badly burned corpse with crimson flames flowing through its veins and bursting from its wounds and mouth.',
+        ],
+      ],
+      lore: [
+        [
+          'A fire giant whose burning hatred keeps it from the afterlife rises as a firegaunt. Born of deep rancour, it hunts the living to destroy them. Like a spectre it seeks no redemption, only as much destruction as possible before final oblivion.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -3727,6 +3972,14 @@ export default createPublicationMonsters({
       page: 142,
       alignment: 'any alignment',
       languages: ['Giant', 'Undercommon.'],
+      appearance: [['A fomorian, a giant twisted by the Underdark.']],
+      lore: [
+        [
+          "Fomorians descend from Annam's son Karontor and once ranked between hill and stone giants in the ordning. They were scholars of magic with sharp minds but swollen egos and a sense of entitlement. Karontor tempted them with higher rank and led them in a failed assault on the Feywild, after which they were banished to the Underdark and he was imprisoned. The magic of the Underdark twisted their bodies and souls into what they are now.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3838,6 +4091,14 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Giant plus any three languages.'],
       tableNotes: [['Alternate armor classes: 17 · with mage armor']],
+      appearance: [['A fomorian, a giant twisted by the Underdark.']],
+      lore: [
+        [
+          "Fomorians descend from Annam's son Karontor and once ranked between hill and stone giants in the ordning. They were scholars of magic with sharp minds but swollen egos and a sense of entitlement. Karontor tempted them with higher rank and led them in a failed assault on the Feywild, after which they were banished to the Underdark and he was imprisoned. The magic of the Underdark twisted their bodies and souls into what they are now.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3932,6 +4193,14 @@ export default createPublicationMonsters({
       page: 144,
       alignment: 'any alignment',
       languages: ['Giant', 'Undercommon.'],
+      appearance: [['A fomorian, a giant twisted by the Underdark.']],
+      lore: [
+        [
+          "Fomorians descend from Annam's son Karontor and once ranked between hill and stone giants in the ordning. They were scholars of magic with sharp minds but swollen egos and a sense of entitlement. Karontor tempted them with higher rank and led them in a failed assault on the Feywild, after which they were banished to the Underdark and he was imprisoned. The magic of the Underdark twisted their bodies and souls into what they are now.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -4144,6 +4413,14 @@ export default createPublicationMonsters({
       page: 145,
       alignment: 'any alignment',
       languages: ['Common', 'Giant.'],
+      appearance: [['A frost giant in a cloak of icy armour, with ice wolves at its side.']],
+      lore: [
+        [
+          'Frost giants who master rune magic are ice shapers, and their power often speeds a rise in the ordning to jarl or adviser, sometimes the real power behind the throne. They usually follow Thrym. They use air and water energy for ice attack and defence, call ice elementals shaped like wolves, wear armour of ice and turn it quickly into a hail of shards.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Frost giant halls'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -4360,6 +4637,18 @@ export default createPublicationMonsters({
       page: 147,
       alignment: 'typically neutral evil',
       languages: ['Giant.'],
+      appearance: [
+        [
+          'A frost giant corpse mummified by the cold, bearing the mark of its death, either a wound leaking frosty vapour or vivid purple veins from poison.',
+        ],
+      ],
+      lore: [
+        [
+          'A frost giant murdered dishonourably, by poison, a stab in the back or while sleeping, can rise as a frostmourn driven to vengeance. It can turn the living to frozen statues with a touch or blast them with cold wind, and can dissolve into a swirling blizzard to avoid harm and re-form at a distance. Taking vengeance does not always let it rest; its hatred of the living often keeps it wandering the wilds for years.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Wilderness', 'Cold lands'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -4482,6 +4771,18 @@ export default createPublicationMonsters({
       page: 148,
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'Giant.'],
+      appearance: [
+        [
+          'A frost giant fiend with swollen muscles, arms hanging past the knees and bitter cold around it.',
+        ],
+      ],
+      lore: [
+        [
+          "Frost giants who struggle to rise in the ordning, or reject Annam, sometimes worship the demon lord Kostchtchie, who in their myths was a giant so strong he killed a demon lord and took its Abyssal realm. His gifts give strength and bloodlust, but cost the giant's soul, which burns away to fuel the power. The burning in the chest grows and drives the giant into a frenzy, and only combat dulls it.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -4583,6 +4884,14 @@ export default createPublicationMonsters({
       page: 149,
       alignment: 'typically chaotic neutral',
       languages: ['Giant.'],
+      appearance: [['A purple-skinned, horned giant towering 40 feet or more.']],
+      lore: [
+        [
+          "Once in a while, perhaps once a generation under certain stars or at some malicious god's whim, a giant couple has a gargantua child that looks normal until adulthood, when its skin turns purplish and horns grow. It grows quickly to 40 feet or more. Most do not fit in with giant communities and seek homes big enough, such as ancient forests, deep canyons or huge caverns in the Underdark. Some want only peace, others lash out at a world that fears them. Giants disagree on the cause, blaming a Far Realm pact, Karontor, or Annam.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Ancient forest', 'Canyon', 'Underdark'],
       stats: {
         size: 'gargantuan',
         type: 'aberration',
@@ -4798,6 +5107,16 @@ export default createPublicationMonsters({
         ],
         ['8–12. Empty.'],
       ],
+      appearance: [
+        ['A goose far bigger than an ordinary one, from fey stock, with a very loud honk.'],
+      ],
+      lore: [
+        [
+          "Giants keep geese for eggs and as sentries, thanks to their keen senses and loud voices. The honk is a strong defence against intruders. On its keeper's command, a giant goose lays a hollow golden egg a foot long that is worth 100 gp, sometimes holding a small trinket or minor magic item, and cannot lay another for a year and a day.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Giant farmsteads'],
       stats: {
         size: 'large',
         type: 'fey',
@@ -4906,6 +5225,16 @@ export default createPublicationMonsters({
       page: 151,
       alignment: 'typically neutral',
       languages: ['Giant', 'Sylvan.'],
+      appearance: [
+        ['A large lynx whose coat turns lighter in winter to blend into snowy woodland.'],
+      ],
+      lore: [
+        [
+          'Giant lynxes are magical creatures from the snowy woods of the Feywild, often mistaken for ordinary cats. They are crafty hunters that work in small groups to trap prey, sometimes using a magical gift to scout, and outwit fur hunters, enjoying spoiling traps in their territory. Frost and cloud giants sometimes keep them as beloved companions, and as long as their intelligence and independence are respected, they share their divination magic. A lynx staring into space is likely watching something that is not there.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Feywild', 'Snowy woodland'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -4979,6 +5308,18 @@ export default createPublicationMonsters({
       page: 152,
       alignment: 'unaligned',
       languages: ['Understands Giant and Sylvan but cannot speak.'],
+      appearance: [
+        [
+          'A huge ox with a thick, shaggy hide often in bright colours such as sky blue or deep violet.',
+        ],
+      ],
+      lore: [
+        [
+          'Giant oxen are draught animals for giants of all kinds, pulling ploughs and hauling oversized carts with their great strength.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Giant farmsteads'],
       stats: {
         size: 'huge',
         type: 'fey',
@@ -5039,6 +5380,14 @@ export default createPublicationMonsters({
           'Magic fleece: Fleece shorn without harming the ram can be woven into a Cloak of Protection or used to line Armor of Resistance to cold, fire, or lightning.',
         ],
       ],
+      appearance: [['A large ram with a fleece that stores magical energy.']],
+      lore: [
+        [
+          'Giants prize these rams. The fleece soaks up ambient magic and the power of spells, and while the ram lives unshorn it channels that into a magical blast to drive off predators. Fleece shorn without hurting the animal can be woven into a cloak of protection or into armour lining to make armour of resistance against cold, fire or lightning.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Giant farmsteads'],
       stats: {
         size: 'large',
         type: 'fey',
@@ -5125,6 +5474,13 @@ export default createPublicationMonsters({
       page: 153,
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A tick the size of a boar.']],
+      lore: [
+        [
+          "Such ticks have fed on giants' blood for ages. They are a painful nuisance to giants but a serious threat to smaller folk, since a hungry tick will drain any creature it can catch.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -5171,6 +5527,17 @@ export default createPublicationMonsters({
       name: 'Gigant',
       page: 154,
       alignment: 'unaligned',
+      appearance: [
+        [
+          'A towering insectile creature like an enormous beetle, with sharp-taloned legs and huge mandibles, its wings folded under its carapace.',
+        ],
+      ],
+      lore: [
+        [
+          'Gigants are variously seen as harbingers of doom, defenders of nature and divine messengers. Giants see them as a plague, since gigants prefer giants as food. The talons pull prey to the mandibles, strong enough to carry a giant to the nest. It is a fast flier that can beat its wings to make a horrible noise or spread toxic dust. Some giants claim the strange aura around a gargantua creates them.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -5310,6 +5677,16 @@ export default createPublicationMonsters({
       page: 155,
       alignment: 'any alignment',
       languages: ['Common', 'Giant.'],
+      appearance: [
+        ['A goliath rarely over eight feet tall, who lives with and copies a clan of giants.'],
+      ],
+      lore: [
+        [
+          "Goliaths are distant kin of giants, and their strength comes from their ancestors' mountain home. Giant-kin communities live close to giants, copy them and are accepted as kin, and often liaise between the clans and other peoples. They can match ogres in strength contests and channel giant magic into melee hits. They tend to honour Annam's daughters Diancastra, Hiatea and Iallanis, and praise the same virtues as their giants: might near frost giants, artistry near stone giants.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Mountains', 'Giant clans'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5369,6 +5746,18 @@ export default createPublicationMonsters({
           'Enchanted whiskers: A cat can be persuaded to give someone a whisker. A creature holding one can cast Misty Step with it once, after which the whisker goes up in smoke. A slain cat yields 2d12 of these whiskers.',
         ],
       ],
+      appearance: [
+        [
+          'A cat bigger than a house cat, with long needle-like claws and a wide toothy grin, often invisible.',
+        ],
+      ],
+      lore: [
+        [
+          "Grinning cats are mischievous fey who like to pester and mislead travellers, often living in or near giants' enclaves. They spend much time invisible on branches until prey or a conversation partner passes, then trade riddles or witticisms and reveal the grin, tail or whole head to confuse or intimidate. One can be talked into giving a whisker that works as one casting of misty step; a slain cat yields 2d12 whiskers.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Giant enclaves', 'Forest'],
       stats: {
         size: 'large',
         type: 'fey',
@@ -5476,6 +5865,16 @@ export default createPublicationMonsters({
       page: 157,
       alignment: 'any alignment',
       languages: ['Common', 'Giant.'],
+      appearance: [
+        ['A hill giant hung with boulders on chains or ropes, which it uses as weapons.'],
+      ],
+      lore: [
+        [
+          'Hill giants who master rune magic gain a bond with earth and stone, and that magic plus their size and strength helps them rise quickly into leadership. An avalancher hurls and swings its chained stones to knock down and batter foes, then devours the prey as fast as a rockslide, which is how other giants came to name it.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Hills', 'Mountain'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -5626,6 +6025,18 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic neutral',
       languages: ['Auran', 'Giant.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A living bolt of lightning with a vague face at its head. It rarely forms a brief bipedal shape like a storm giant, and near metal or solid earth it seems about to break apart.',
+        ],
+      ],
+      lore: [
+        [
+          'Lightning hulks descend from storm giants who withdrew from the world long ago. Their elemental nature, boosted by energy from the Elemental Planes, slowly took over and freed them from flesh. A hulk rushes from place to place with little purpose and none of the contemplation of its giant cousins.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Sky', 'Storm'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -5714,6 +6125,18 @@ export default createPublicationMonsters({
       page: 159,
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'Giant.'],
+      appearance: [
+        [
+          'A hill giant gone gnoll-like: hunched, maned, with a widened jaw full of rows of ever-growing sharp teeth. It charges on all fours with its mouth open, scraping the ground like a plow.',
+        ],
+      ],
+      lore: [
+        [
+          "A cruel hill giant with a huge appetite can draw Yeenoghu's attention. It may ask the demon lord for help, eat an evil artifact that changes it, or hear his promises in dreams. The result is a ravenous monster wholly devoted to him. The teeth keep growing and drive it to chew anything in reach. Some tear the teeth out for relief and they regrow, and cunning maws throw clusters of teeth as weapons.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Hills'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -5939,6 +6362,18 @@ export default createPublicationMonsters({
       page: 161,
       alignment: 'typically chaotic evil',
       languages: ['Giant', 'Terran.'],
+      appearance: [
+        [
+          'A vaguely giant-shaped body of wet mud that constantly sloughs off, leaving thick pools wherever it goes.',
+        ],
+      ],
+      lore: [
+        [
+          "Mud hulks come from hill giants who lived in isolation and ate everything nearby until they were left eating the earth, so their elemental nature turned them into living mud. They keep a hill giant's hunger and swallow anything vaguely edible directly into their bodies. When threatened, one throws masses of mud to hold enemies in place long enough to consume them.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Hills', 'Elemental Plane'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -6133,6 +6568,18 @@ export default createPublicationMonsters({
       page: 162,
       alignment: 'typically neutral evil',
       languages: ['Aquan', 'Giant.'],
+      appearance: [
+        [
+          'A rough giant-shaped mass of frost and ice that keeps breaking apart and reforming, with clouds of frost billowing off it and a trail of ice behind it.',
+        ],
+      ],
+      lore: [
+        [
+          'Rime hulks are a withered branch of the frost giants, descended from ancient giants who withdrew and gave in to their elemental nature. Most live in the Frostfell, with others in isolated rifts in polar glaciers. They are smaller and weaker than their ancestors, mostly hostile, and explode in frost when they die.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Frostfell', 'Glacier'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -6216,6 +6663,18 @@ export default createPublicationMonsters({
       page: 163,
       alignment: 'unaligned',
       languages: ["understands Giant but can't speak."],
+      appearance: [
+        [
+          'A 30-foot guardian of living stone, jointed and plated with metal and carved with runes.',
+        ],
+      ],
+      lore: [
+        [
+          'In giant tales, giants of several kinds joined to guard their empire from a vicious dragon: stone and hill giants shaped the stone body, cloud and frost giants gathered metals, fire giants worked them into joints and armour, and storm giants cut the runes that animate it. The colossus regards all non-giants as threats and attacks them on sight unless ordered otherwise. The craft is lost to modern giants, though stories hint that the method lies buried in ancient ruins.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'gargantuan',
         type: 'construct',
@@ -6390,6 +6849,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: Use one or more of these effects around the scion.\nAbundant Food. Crops and livestock grow and reproduce unusually fast within 6 miles.\nEmpowered Hill Giants. Hill giants within 1,000 ft. gain +7 to attack and damage rolls.\nFarming Weather. Within 6 miles the weather stays warm and sunny, with occasional showers that favor farming.\nOn the scion’s death, all of these effects end immediately.',
         ],
+      ],
+      appearance: [
+        [
+          'A towering giant of primeval power, its presence bending the land and magic around it as if the world itself leans toward it.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, and they hold a privileged place among giants. On many worlds a scion sleeps in stasis inside a powerful elemental called a cradle, which drives off intruders at the scion's unconscious wish. If the cradle is destroyed, the scion wakes fully, so a DM should treat the cradle fight as the trigger for the real danger.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
       ],
       stats: {
         size: 'gargantuan',
@@ -6579,6 +7049,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: Use one or more of these effects around the scion.\nCompulsory Offering. The first time a sapient creature comes within 6 miles, it makes a DC 15 Wisdom save. On a failure, it feels compelled to hide an offering worth at least 5 gp. Cloud giants within 6 miles of the cradle or scion immediately sense where the gift is. A creature can be affected by the compulsion only once.\nEmpowered Cloud Giants. Cloud giants within 1,000 ft. gain +8 to attack and damage rolls.\nMischievous Whispers. Within 1 mile, the wind carries indistinct whispers. A creature with Intelligence 5 or higher takes them as directions for a prank it can play on someone else.\nOn the scion’s death, all of these effects end immediately.',
         ],
+      ],
+      appearance: [
+        [
+          'A towering giant of primeval power, its presence bending the land and magic around it as if the world itself leans toward it.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, and they hold a privileged place among giants. On many worlds a scion sleeps in stasis inside a powerful elemental called a cradle, which drives off intruders at the scion's unconscious wish. If the cradle is destroyed, the scion wakes fully, so a DM should treat the cradle fight as the trigger for the real danger.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
       ],
       stats: {
         size: 'gargantuan',
@@ -6770,6 +7251,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: Use one or more of these effects around the scion.\nAbundant Stone and Minerals. Smooth stone and gemstones grow within 6 miles.\nEdible Moss. Cavern walls within 6 miles grow carpets of golden moss that stone giants enjoy eating.\nEmpowered Stone Giants. Stone giants within 1,000 ft. gain +7 to attack and damage rolls.\nOn the scion’s death, the bonus ends immediately and new moss and minerals stop forming. Existing moss dies in 1d10 days.',
         ],
+      ],
+      appearance: [
+        [
+          'A towering giant of primeval power, its presence bending the land and magic around it as if the world itself leans toward it.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, and they hold a privileged place among giants. On many worlds a scion sleeps in stasis inside a powerful elemental called a cradle, which drives off intruders at the scion's unconscious wish. If the cradle is destroyed, the scion wakes fully, so a DM should treat the cradle fight as the trigger for the real danger.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
       ],
       stats: {
         size: 'gargantuan',
@@ -6974,6 +7466,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: Use one or more of these effects around the scion.\nElemental Portals. Two-way portals within 1 mile of the cradle or scion admit elemental creatures. They connect to the Elemental Plane of Air if the scion is in the sky, or the Elemental Plane of Water if it is in the ocean.\nEmpowered Storm Giants. Storm giants within 1,000 ft. gain +8 to attack and damage rolls.\nExtreme Weather. Within 1 mile, the weather swings sharply from day to day, from bright sunshine to punishing hail.\nOn the scion’s death, all of these effects end immediately.',
         ],
+      ],
+      appearance: [
+        [
+          'A towering giant of primeval power, its presence bending the land and magic around it as if the world itself leans toward it.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, and they hold a privileged place among giants. On many worlds a scion sleeps in stasis inside a powerful elemental called a cradle, which drives off intruders at the scion's unconscious wish. If the cradle is destroyed, the scion wakes fully, so a DM should treat the cradle fight as the trigger for the real danger.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
       ],
       stats: {
         size: 'gargantuan',
@@ -7218,6 +7721,17 @@ export default createPublicationMonsters({
           'Regional effects: Use one or more of these effects around the scion.\nAbundant Ore. Precious metals and ore are unusually common within 6 miles.\nDesertification. Almost no precipitation falls within 6 miles, drying the land and withering most plants.\nEmpowered Fire Giants. Fire giants within 1,000 ft. gain +8 to attack and damage rolls.\nOn the scion’s death, ore veins stop forming and the other effects end immediately. Existing ore remains.',
         ],
       ],
+      appearance: [
+        [
+          'A towering giant of primeval power, its presence bending the land and magic around it as if the world itself leans toward it.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, and they hold a privileged place among giants. On many worlds a scion sleeps in stasis inside a powerful elemental called a cradle, which drives off intruders at the scion's unconscious wish. If the cradle is destroyed, the scion wakes fully, so a DM should treat the cradle fight as the trigger for the real danger.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'giant',
@@ -7416,6 +7930,17 @@ export default createPublicationMonsters({
           'Regional effects: Use one or more of these effects around the scion.\nBiting Chill. Extreme cold covers the land within 6 miles. If the region already had extreme cold, creatures without cold resistance or immunity there also have disadvantage on Strength and Dexterity checks.\nEmpowered Frost Giants. Frost giants within 1,000 ft. gain +7 to attack and damage rolls.\nThriving Wildlife. Beasts within 6 miles reproduce quickly and flourish.\nOn the scion’s death, all of these effects end immediately.',
         ],
       ],
+      appearance: [
+        [
+          'A towering giant of primeval power, its presence bending the land and magic around it as if the world itself leans toward it.',
+        ],
+      ],
+      lore: [
+        [
+          "Scions of the giants' gods are grandchildren of the All-Father Annam, and they hold a privileged place among giants. On many worlds a scion sleeps in stasis inside a powerful elemental called a cradle, which drives off intruders at the scion's unconscious wish. If the cradle is destroyed, the scion wakes fully, so a DM should treat the cradle fight as the trigger for the real danger.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'giant',
@@ -7584,6 +8109,18 @@ export default createPublicationMonsters({
       alignment: 'typically neutral',
       languages: ['Common', 'Giant.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A thick cloud or fog bank with a shadowy bipedal shape inside, and at its heart the skeletal corpse of a cloud giant.',
+        ],
+      ],
+      lore: [
+        [
+          'A cloud giant who dies through betrayal or a lost wager sometimes returns as a spectral cloud. Tales say some cloud giants choose this fate over the end of their long lives, using a ritual that transplants the heart into a cloud so the body dissolves and the spirit animates the cloud.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Sky'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -7782,6 +8319,16 @@ export default createPublicationMonsters({
       page: 178,
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'Giant.'],
+      appearance: [
+        ['A stone giant with an elaborate crown of six horns, carrying a magic glaive.'],
+      ],
+      lore: [
+        [
+          'Stone giants rarely worship demons, since destruction runs against their love of art, but some are drawn to Baphomet, who is a merciless hunter yet builds intricate mazes as hunting grounds. Such giants keep making art by crafting mazes and satisfy bloodlust hunting in them. Baphomet rewards the most faithful with transformation into stalkers, a six-horned crown, a magic glaive and the power to raise stone horns from the ground.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Mazes'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -8003,6 +8550,17 @@ export default createPublicationMonsters({
       page: 180,
       alignment: 'any alignment',
       languages: ['Common', 'Giant', 'Terran.'],
+      appearance: [
+        [
+          'A stone giant with crystals and stones worked into its clothing and embedded in its skin, which flash with coloured light when it invokes its runes.',
+        ],
+      ],
+      lore: [
+        [
+          'Stone giants practise rune magic more than other giants, perhaps because of their skill at carving stone. Those who add great artistic skill become rockspeakers, who lead and act as oracles in their communities. In a fight they make their crystals fire intense, brilliantly coloured beams that sear flesh and hinder enemies.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -8269,6 +8827,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Common', 'Giant', 'Primordial.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A storm giant with crystal balls inscribed with the storm rune implanted in its forehead or eye sockets.',
+        ],
+      ],
+      lore: [
+        [
+          "Tempest callers proudly claim a place at the top of the ordning, and few challenge them. They combine rune magic with innate giant magic and are highly respected; if anyone can draw Annam's attention to the world, it is likely one of them. The implanted crystals let them see through magical deception, and they can whip up a brief vortex of freezing wind and storm cloud around themselves.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -8424,6 +8993,14 @@ export default createPublicationMonsters({
       page: 183,
       alignment: 'typically lawful evil',
       languages: ['Common', 'Giant', 'telepathy 120 ft.'],
+      appearance: [['A storm giant with fins and tentacles, giving it a monstrous look.']],
+      lore: [
+        [
+          "Storm giants withdrawing from the world sometimes drift into the orbit of ancient things in the deep, such as krakens, aboleths and Great Old Ones, who corrupt them into storm heralds. The herald's mind is wholly under its master's sway and it gains psychic powers to further the master's plans. When it dies it reverts to its earlier appearance. It may try to win other storm giants over or gather cults of lesser creatures.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -8604,6 +9181,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Common', 'Giant.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A figure like a djinni, with a storm cloud for a lower body, sometimes mistaken for one.',
+        ],
+      ],
+      lore: [
+        [
+          'A storm giant can escape death by a ritual that turns it into a semiconscious storm. If done where the Shadowfell is close, negative energy warps the result: the soul does not disperse but absorbs the elemental energy around it. Some tempest spirits reject their new form and seek solitude to undo it, others rage and destroy. Hailstones and necrotic lightning fall on anyone who gets too near.',
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -8825,6 +9413,13 @@ export default createPublicationMonsters({
       page: 186,
       alignment: 'typically chaotic evil',
       languages: ['Giant', 'Undercommon.'],
+      appearance: [['A bizarrely transformed troll, its form reshaped by regrowth from scraps.']],
+      lore: [
+        [
+          "Trolls that are nearly destroyed but regenerate from scraps can come back strangely altered, especially when they regrow near magical emanations, planar energy, disease or mass death, or after elemental damage. Evil spellcasters' rituals and trolls' own practices can also shape such forms. Some trolls fear and venerate Vaprak the Destroyer, a greenish, misshapen, troll-like entity said to devour the souls of those killed by fire or acid. This is the general troll entry, not specific to this variant.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'giant',
@@ -8931,6 +9526,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Giant', 'telepathy 60 ft.'],
       tableNotes: [['Movement notes: fly · (winged form only)']],
+      appearance: [['A bizarrely transformed troll, its form reshaped by regrowth from scraps.']],
+      lore: [
+        [
+          "Trolls that are nearly destroyed but regenerate from scraps can come back strangely altered, especially when they regrow near magical emanations, planar energy, disease or mass death, or after elemental damage. Evil spellcasters' rituals and trolls' own practices can also shape such forms. Some trolls fear and venerate Vaprak the Destroyer, a greenish, misshapen, troll-like entity said to devour the souls of those killed by fire or acid. This is the general troll entry, not specific to this variant.",
+        ],
+        ['Sources: ', 'Bigby Presents: Glory of the Giants'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',

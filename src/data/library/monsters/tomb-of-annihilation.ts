@@ -18,6 +18,18 @@ export default createPublicationMonsters({
           'The printed spirit warrior uses the Albino Dwarf Warrior block with innate spellcasting and challenge 1.',
         ],
       ],
+      appearance: [
+        [
+          'A stocky albino dwarf dressed in armour made from dinosaur hide, with bone, flint and wood weapons and ornate jewellery of feathers, tusks and stone beads.',
+        ],
+      ],
+      lore: [
+        [
+          "Albino dwarves of Chult were driven out of their underground homes by volcanic activity and learned to live in the jungle. A spirit warrior is one whose bond with the land caught the notice of a kindly nature spirit, which granted it a few innate spells. These dwarves devote themselves to protecting Chult's natural beauty and fighting unnatural threats. They are usually found guarding or advising their kin, and they stop fighting if someone speaks Dwarvish to them or shows peaceful intent.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 210'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -133,6 +145,18 @@ export default createPublicationMonsters({
           'When disturbed, aldani try to scare off visitors without killing them. If threats fail, they may offer a treasure or information in exchange for privacy.',
         ],
       ],
+      appearance: [
+        [
+          'A giant lobster that walks upright, its face mostly armoured and almost humanoid except for long eyestalks.',
+        ],
+      ],
+      lore: [
+        [
+          'Aldani are the cursed descendants of Chultan fishers who trapped every lobster in the rivers, so Ubtao turned them into lobsterfolk. They are reclusive and xenophobic, living in the lakes of the Aldani Basin, and most Chultans think they died out. If disturbed they try to scare intruders away without killing them, and they offer bribes of treasure collected from the lake bottoms to be left alone.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 210', ', ', 'Tomb of Annihilation, p. 211'],
+      ],
+      habitats: ['Lakes and rivers', 'Jungle'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -318,6 +342,14 @@ export default createPublicationMonsters({
           'Encounter context: Asharra offers the rite to travelers heading to Omu to destroy the Soulmonger. She directs them to find the orchid in Nangalore, whose Eblis have kept her people away. Kir Sabal also shelters Mwaxanaré and Na.',
         ],
       ],
+      appearance: [['An incredibly old aarakocra, revered by her people as a living saint.']],
+      lore: [
+        [
+          "Asharra leads the 56 aarakocra of Kir Sabal, who call her Teacher. She is intelligent and ambitious, somewhat manipulative but never cruel or insensitive. She lives in the elder's house, attended by an elderly servant, and visitors enter only by invitation. She has also taught the Chultan princess Mwaxanare much of what the princess believes about the world, and she can be asked to perform the Dance of the Seven Winds.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 69'],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -515,6 +547,17 @@ export default createPublicationMonsters({
           'Soulmonger tentacles: Once per turn, the Soulmonger responds to a melee weapon hit on the cylinder or a strut with one tentacle attack against the attacker. Reach 30 ft., +7 to hit, 24 (4d8 + 6) bludgeoning damage. It can grapple in place of damage (escape DC 16). If the grappled creature weighs up to 330 lb., the tentacle can also move it to an empty space within reach or drop it into the lava. Each tentacle is a Huge animated object (Strength 22, AC 15, 30 HP) immune to poison and psychic damage.',
         ],
       ],
+      appearance: [
+        [
+          'A wet, wrinkled, bloated body topped by a hairless, oversized head with glassy, vacant eyes, drooling foul ichor while it mouths obscenities. Its arms are too thin, its hands tiny with cruel nails, and it floats with its dead legs dangling.',
+        ],
+      ],
+      lore: [
+        [
+          'An atropal is an unfinished creation of an evil god, cast adrift long ago and never truly alive, so it cannot be raised or resurrected. A shrivelled umbilical cord links it to the Negative Plane, which gives it power over death and undeath and lets it call up wraiths as servants. Severing the cord with a vorpal weapon weakens that link. In Tomb of Annihilation one is nursed toward godhood by the Soulmonger and guarded by three night hags, and if it survives it draws nihilistic followers of Acererak.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 215', ', ', 'Tomb of Annihilation, p. 190'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -687,6 +730,17 @@ export default createPublicationMonsters({
           'Adventure encounter: Azaka guides the party for free if they agree to recover her Mask of the Beast from the pterafolk. She avoids spreading her curse and refuses situations where a fall of more than 60 ft. is likely. At Firefinger she urges an attack under cover of dark or rain. She leaves if the party refuses to attack the pterafolk. See the Firefinger encounter and handout 2.',
         ],
       ],
+      appearance: [
+        [
+          'A tall Chultan woman, about 6 feet and 150 pounds, who looks like a normal guide while hiding that she is a weretiger.',
+        ],
+      ],
+      lore: [
+        [
+          "Azaka works as a guide out of Port Nyanzaru and hides her lycanthropy for as long as she can. She will guide the party for free if they help recover her family heirloom, a tiger-faced wooden mask stolen by the pterafolk of Firefinger. She has roamed the jungle widely in tiger form and knows the naga Saja N'baza, to whom she gladly leads those seeking guidance. She will not willingly pass on her curse and is afraid of heights.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 33'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -831,6 +885,25 @@ export default createPublicationMonsters({
           'Fallen Tree ambush: Bag of Nails begins hidden on the east bank, 150 ft. from the fallen tree bridge (DC 22 Wisdom (Perception) to spot him). He shoots when someone crosses and tries to hide at a new firing position after each shot. Below 39 HP, he surrenders and invites his enemies into his lair for stew. A successful DC 15 Wisdom (Insight) check exposes his intent. The stew contains Midnight Tears. If it has not been neutralized by midnight, the eater makes a DC 17 Constitution save, taking 31 (9d6) poison damage on a failure or half on a success. Five more doses can be found in the lair.',
         ],
       ],
+      appearance: [
+        [
+          'An elderly tabaxi hunter, his mind gone with senility, who leaps across rooftops to new firing positions.',
+        ],
+      ],
+      lore: [
+        [
+          "Bag of Nails is one of three tabaxi hunters in ruined Omu who know the city but keep clear of its shrines and avoid explorers. He came looking for the Navel of the Moon and failed to find it. Now he yearns for a hunter's death and sees every creature as prey. He ambushes anyone fording the river by the fallen tree, firing from a hidden spot and relocating after each shot.",
+        ],
+        [
+          'Sources: ',
+          'Tomb of Annihilation, p. 94',
+          ', ',
+          'Tomb of Annihilation, p. 102',
+          ', ',
+          'Tomb of Annihilation, p. 128',
+        ],
+      ],
+      habitats: ['Jungle ruins'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -968,6 +1041,17 @@ export default createPublicationMonsters({
         [
           'Adventure encounter: Three Blind Artists paint in area 52 of the Tomb of the Nine Gods. Turning or destroying any of them brings a Tyrannosaurus Zombie up through the floor to attack. It leaves a 20-ft.-wide hole and can use the wide passage east, but cannot fit through 5-ft. corridors.',
         ],
+      ],
+      appearance: [
+        [
+          'An undead servant of Acererak, blind but able to paint scenes of pain and death that happened in the Tomb of the Nine Gods.',
+        ],
+      ],
+      lore: [
+        [
+          "Three blind artists skulk in a room of the tomb. One paints over scenes of the fall of the Company of the Yellow Banner, while the other two paint the party's own harrowing moments in the tomb. They have no real attacks. Destroying or turning one causes a tyrannosaurus zombie to burst up from beneath the floor.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 164'],
       ],
       stats: {
         size: 'medium',
@@ -1130,6 +1214,17 @@ export default createPublicationMonsters({
           'Adventure encounter: At area 6A, Bosco uses his ring to keep the Deinonychus Knuckles in check. At any time, 2d6 pirates use the Bandit profile while drinking in the tavern. Another 1d6 have passed out.',
         ],
       ],
+      appearance: [
+        [
+          'A human tavern-keeper who never shakes a hand without his other hand resting on the dagger in his sash.',
+        ],
+      ],
+      lore: [
+        [
+          "Bosco runs Bosco's Bilge at Jahaka Anchorage, and the handful of pirates there answer to him only because he controls the ale. He wears a ring of animal influence and keeps a semi-tame deinonychus named Knuckles as a guard animal. Pirates are drinking or passed out in his tavern at any hour.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, pp. 65, 68'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1200,6 +1295,18 @@ export default createPublicationMonsters({
           'Encounter context: In Omu, a chwinga shelters in a mossy disk beneath an overturned wagon. It comes out if travelers leave an offering or follows them secretly if they pass by. It favors curly hair or beards. Vegepygmies flee once they notice it with the party. It stays outside shrines and dungeons.',
         ],
       ],
+      appearance: [
+        [
+          'A 6-inch-tall animated doll with a strange mask, spindly limbs and wild hair. Cool breezes, the scent of flowers and dancing fireflies often announce one.',
+        ],
+      ],
+      lore: [
+        [
+          'A chwinga is a tiny elemental spirit living in plants, rocks and rivers far from civilisation. It is painfully shy and prefers to stay unseen, taking shelter in a different plant, rock or pool from any others nearby. Its presence makes a place lusher. It is fascinated by the trappings of civilisation and may steal something from a pack, always leaving a small gift such as a shell, nuts or an uncut gem.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 217', ', ', 'Tomb of Annihilation, p. 197'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'tiny',
         type: 'elemental',
@@ -1515,6 +1622,17 @@ export default createPublicationMonsters({
         [
           'Business: Wakanga O’tamu enchants selected items for her shop. Listed prices are 50 gp per piece of +1 ammunition, 450 gp for a wooden +1 shield, and 500 gp for a +1 dagger or +1 yklwa. These are shop stock.',
         ],
+      ],
+      appearance: [
+        [
+          'A Chultan woman who was a gladiator champion, now a merchant dealing in weapons, shields, travel gear and canoes.',
+        ],
+      ],
+      lore: [
+        [
+          "Ekene-Afa won many contests in Port Nyanzaru's arena and used the winnings to finance her first trade deals, so she is a legend among the common people who watched her fight. She is married to the painter Kura and has twin teenage sons, a city guard and a popular dinosaur racer. She sells mundane weapons and shields of every kind, and is envied by the noble Ifan Talro'a for her arena fame.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 25'],
       ],
       stats: {
         size: 'medium',
@@ -1905,6 +2023,13 @@ export default createPublicationMonsters({
           'Encounter context: Faroul boasts of his fighting skill but draws his sword only in emergencies. Gondolo bought an accurate map to Needle’s Bones, where the pair expect to find a dragon hoard. They use their slow racing triceratops, Zongo, as a pack animal.',
         ],
       ],
+      appearance: [['A spoiled, pompous Calishite dandy down on his luck in Port Nyanzaru.']],
+      lore: [
+        [
+          "Faroul's exasperated parents shipped him to Port Nyanzaru to make his fortune. He brought his carousing friend Gondolo, and the two expected a life of luxury. After a few months they are down on their luck, incompetent fortune hunters looking for a break. If hired as a guide, he becomes an NPC party member.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 34'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1980,6 +2105,13 @@ export default createPublicationMonsters({
         [
           'If prisoners serve a day of labor without incident, she offers freedom and any of Ras Nsi’s puzzle cubes in exchange for taking him down. The agreement can open the armory and start an uprising. She means to betray the party if she can.',
         ],
+      ],
+      appearance: [['A cruel yuan-ti malison, high priest of the yuan-ti temple in Omu.']],
+      lore: [
+        [
+          "Fenthaza is second in power only to Ras Nsi. She is one of Dendar's nightmare speakers, interpreting the serpent god's dream visions and pleasing her with torture and sacrifice. She resents Ras Nsi for clinging to his humanity and wants to murder him and take the crown from the tomb. She is patient and cunning and will not act unless the odds favour her, and captive characters can become pawns in her coup.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 111', ', ', 'Tomb of Annihilation, p. 112'],
       ],
       stats: {
         size: 'medium',
@@ -2409,6 +2541,18 @@ export default createPublicationMonsters({
           'Encounter context: Flask and River Mist quietly hire out in Malar’s Throat and Tiryki Anchorage. They can guide travelers to Firefinger or Dungrunglung. The Zhentarim pay attention to what the two learn about Artus Cimber, and the pair report back unless given a reason to keep quiet.',
         ],
       ],
+      appearance: [
+        [
+          "A tall, lanky tabaxi, 5 foot 8 and 140 pounds, who repeats the last words of his sister's sentences with a slight lisp.",
+        ],
+      ],
+      lore: [
+        [
+          "Flask and his sister River Mist are tabaxi hunters in league with the Zhentarim, so they owe no fees to any merchant prince and meet clients only in seedy places like Malar's Throat. Flask seldom speaks except to agree with River, but he enjoys company and is quite sociable for a tabaxi.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 35'],
+      ],
+      habitats: ['City', 'Jungle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2680,6 +2824,18 @@ export default createPublicationMonsters({
           'Gargoyle Guardians: Four guardians perch around the shaft in Tomb of the Nine Gods area 45. Each humanoid owes a separate payment to each pedestal before leaving: 1 cp north, 1 sp east, 1 gp south, and 1 pp west. Higher-value coins or multiple coins of sufficient total value also work. Unpaid guardians animate when the humanoid leaves and attack that humanoid. A guardian also attacks if it or its pedestal takes damage. These triggers belong to the room.',
         ],
       ],
+      appearance: [
+        [
+          'A stony elemental about 8 to 9 feet tall, around five thousand pounds, with four arms, fangs and claws, indistinguishable from a statue while motionless.',
+        ],
+      ],
+      lore: [
+        [
+          'Giant four-armed gargoyles are typically used as tomb guardians, rending intruders with fangs and claws. Eku knows that evil gargoyles guard Omu.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 221', ', ', 'Tomb of Annihilation, p. 34'],
+      ],
+      habitats: ['Tomb', 'Ruins'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -2897,6 +3053,14 @@ export default createPublicationMonsters({
           'Jungle encounter: On a 6 or 7 on the Appendix B zombie encounter d10, the party encounters 1d4 girallon zombies. The smell of death and the sound of the zombies moving through the undergrowth give warning.',
         ],
       ],
+      appearance: [['An undead four-armed ape with white fur.']],
+      lore: [
+        [
+          'Girallons are four-armed white-furred apes. Their zombies are slower than living ones but just as fierce, driven by necromantic energy and a hunger for living flesh. A random Omu encounter may bring one or a few.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 240'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -2982,6 +3146,14 @@ export default createPublicationMonsters({
         ['Base creature: Scout'],
         ['Applied templates: Stout Halfling'],
       ],
+      appearance: [['A carousing lightfoot halfling dandy, down on his luck in Port Nyanzaru.']],
+      lore: [
+        [
+          'Gondolo came to Port Nyanzaru with his friend Faroul expecting to live the high life. The pair are incompetent fortune hunters who ran short of money within months. If hired as a guide, he becomes an NPC party member.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 34'],
+      ],
+      habitats: ['City'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3077,6 +3249,15 @@ export default createPublicationMonsters({
           'Village launch: Cut the anchor vine to spring the village’s net. The vine has AC 15 and 15 HP, vulnerability to slashing, resistance to fire and piercing, and immunity to bludgeoning, poison, psychic, and thunder. In daylight, a DC 18 Wisdom (Perception) check reveals how the mechanism works. Proficiency in Survival grants advantage on the check. Anyone caught in the net when it lands makes a DC 15 Dexterity save, taking 28 (8d6) bludgeoning damage on a failure or half on a success.',
         ],
       ],
+      appearance: [
+        ['A goblin boss, queen of the Batiri goblins in a jungle village of forty goblins.'],
+      ],
+      lore: [
+        [
+          'Queen Grabstab rules a village of twenty-four adult goblins and fifteen children. Sentries wear vine-and-leaf ponchos that help them hide when still, and they ring the village with tripwires tied to shells and skulls filled with pebbles; if they sense danger the whole village goes on alert, so sneaking in is impossible.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 89'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3152,6 +3333,13 @@ export default createPublicationMonsters({
         [
           'Encounter context: At the party’s first visit three Zhentarim Assassins offer a ruby worth 500 gp for help finding Artus Cimber. Zitembe turns them away. The interruption leaves him inclined to help the party.\nA convincing argument or a donation of at least 25 gp secures a 24-hour divination. He sees a southern jungle city ringed by cliffs and full of snakes, along with a vine-covered black obelisk. He urges the party to look for those landmarks.',
         ],
+      ],
+      appearance: [['Head of the temple of Savras in Port Nyanzaru.']],
+      lore: [
+        [
+          'Zitembe is one of three beings in the adventure who know the cause of the death curse lies in Omu. He has many other worries and gives his permission to the priestess Inete to investigate wizards in the Aldani Basin.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 6', ', ', 'Tomb of Annihilation, p. 17'],
       ],
       stats: {
         size: 'medium',
@@ -3405,6 +3593,14 @@ export default createPublicationMonsters({
           'Encounter context: Hew offers his services in Port Nyanzaru and claims he can guide the party anywhere. If hired, he takes them to Wyrmheart Mine, where Tinder (Tzindelor) drove off his expedition. Use the Young Red Dragon profile for Tinder.',
         ],
       ],
+      appearance: [['A shield dwarf berserker missing his left arm, lost to a dragon.']],
+      lore: [
+        [
+          'Three years ago Hew joined a dwarf expedition to reopen Wyrmheart Mine and met Tinder the red dragon; he alone escaped, minus his arm. He wants to go back and slay her but needs stout adventurers. As a guide he will lead anywhere, but he only wants to go to Wyrmheart Mine.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 34'],
+      ],
+      habitats: ['City', 'Mountain'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3597,6 +3793,17 @@ export default createPublicationMonsters({
           "Encounter context: Aazon can introduce the party to Port Nyanzaru's wilderness guides. Jobal charges the party nothing up front because the guides owe him a share of their earnings. If he learns about Syndra Silvane's map, he wants to buy it and may turn to theft or murder if refused.",
         ],
       ],
+      appearance: [
+        [
+          'A scarred Chultan scout turned wealthy guide-broker, with many marks from his jungle adventures.',
+        ],
+      ],
+      lore: [
+        [
+          "Jobal grew rich when a party he guided found a cache of Chultan gold and jewels; he alone survived the undead and dinosaurs and canoed home laden with treasure. His closest confidant, spy and consort is Aazon Talieri, whose loyalty is complete. He deals with explorers, so he is intensely interested in maps of Chult and would pay well for Syndra Silvane's map, resorting to theft and eventually murder if refused. He can direct visitors to his guides in Port Nyanzaru.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 26'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3660,6 +3867,16 @@ export default createPublicationMonsters({
           'Hunting tactics: A kamadan opens with Sleep Breath if it can, then attacks conscious enemies before turning on sleeping ones.',
         ],
       ],
+      appearance: [
+        ['A feline predator resembling a leopard with six snakes sprouting from its shoulders.'],
+      ],
+      lore: [
+        [
+          "Kamadans hunt alone or in mated pairs and exhale clouds of sleep gas before closing to melee. With both awake and sleeping foes in reach, they kill the conscious ones first. A lair may hold up to three house-cat-sized cubs whose snakes have not yet grown, so they look like leopard cubs, and Ifan Talro'a pays for a live cub. They look somewhat like displacer beasts but are unrelated.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 225', ', ', 'Tomb of Annihilation, p. 201'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3808,6 +4025,15 @@ export default createPublicationMonsters({
           'Encounter context: Kupalué travels with Qawasha, a guide from Fort Beluarian who deliberately seeks undead to clear them out. Kupalué stands about 3 ft. tall and weighs about 30 lb. dry or 50 lb. wet.',
         ],
       ],
+      appearance: [
+        ['A vegepygmy, a walking mold creature whose name means walking weed in Chultan.'],
+      ],
+      lore: [
+        [
+          'Kupalue travels with the Chultan druid Qawasha, who usually just calls him Weed. The two talk using their own sign language. Qawasha deliberately leads adventurers through undead-infested regions to help clear the jungle of undead.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 35'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -3879,6 +4105,17 @@ export default createPublicationMonsters({
         [
           "Encounter context: Her consorts, the Succubus Ixis and the Incubus Indar, pass for Chultan humans. Both are fiends. She undermines Zhanthi's family and business.",
         ],
+      ],
+      appearance: [
+        [
+          'A calm, contemplative Chultan woman with a vaguely menacing air, wearing a ring of fire resistance.',
+        ],
+      ],
+      lore: [
+        [
+          "Kwayothe trades in fruit, wine, ale, oil, perfume and insect repellent in Port Nyanzaru. She worships the fire god Kossuth and enjoys torturing others, especially with fire and hot coals. Her two consorts, a succubus named Ixis and an incubus named Indar, take the form of beautiful Chultans. She grew up poor and wants to destroy the Chultan royal families, regards Zhanthi as her mortal enemy and meddles constantly in Zhanthi's affairs.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 26'],
       ],
       stats: {
         size: 'medium',
@@ -3972,6 +4209,15 @@ export default createPublicationMonsters({
           'Encounter context: Heel, a half-orc Gladiator, is his first mate. The Stirge carries twelve Bandits, six Thugs, and Caldos Hellingskorn, a Priest of Umberlee. The Anchorage captains have a pact with Liara Portyr.',
         ],
       ],
+      appearance: [
+        ['A flamboyant, rakish Tethyrian human pirate captain wearing a cape of the mountebank.'],
+      ],
+      lore: [
+        [
+          "Laskilar is tired of chasing merchant ships and listening to captains plead over lost revenue and spilled blood. He would rather hunt lost treasures and magic items, not by digging into ruins but by chasing adventurers across jungle and ocean to steal their plunder. His ship is the Stirge, crewed by scoundrels, and he keeps wealthy patrons in Port Nyanzaru and distant ports who pay a king's ransom for the rarest loot.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 67'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4062,6 +4308,16 @@ export default createPublicationMonsters({
           'Roleplaying: She values obedience, has sworn to hold the fort for Grand Duke Ulder Ravengard, and has little pity for those unable to defend themselves.',
         ],
       ],
+      appearance: [
+        ['A Flaming Fist blaze, 47 years old, commander of Fort Beluarian for three years.'],
+      ],
+      lore: [
+        [
+          "Portyr feels her Chult posting is a test, though many of her troops feel it as banishment. She answers to Grand Duke Ulder Ravengard of Baldur's Gate, but secretly she works with pirates at Jahaka Anchorage and takes a share of their profits. Her spies in Port Nyanzaru supply ship manifests and sailing schedules, which she passes on by sending stone.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 54', ', ', 'Tomb of Annihilation, p. 227'],
+      ],
+      habitats: ['Fort', 'Coastal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4138,6 +4394,14 @@ export default createPublicationMonsters({
       name: 'Mantrap',
       page: 227,
       alignment: 'unaligned',
+      appearance: [['A giant carnivorous plant like an oversized flytrap.']],
+      lore: [
+        [
+          'A mantrap releases a magical pollen that draws creatures towards it, then snaps shut on any warm-blooded creature within reach, preferring humanoid prey. Mantraps can be undetectable until they attack and grow in patches spaced about 10 feet apart.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 227', ', ', 'Tomb of Annihilation, p. 201'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -4330,6 +4594,14 @@ export default createPublicationMonsters({
           'Equipment note: The encounter gives Musharib Skullbash, a wooden Maul. The Albino Dwarf Spirit Warrior profile supplies the Handaxe action. If you use Skullbash instead, apply the normal 2014 Maul rule (2d6 bludgeoning plus Strength), adding proficiency to hit if you treat him as proficient with his personal weapon.',
         ],
       ],
+      appearance: [['An albino dwarf who will guide visitors out of Port Nyanzaru.']],
+      lore: [
+        [
+          "Musharib is secretly looking for adventurers able to help him reclaim his clan's ancestral forge, Hrakhamar, or at least reach its treasury to retrieve Moradin's Gauntlet, a dwarven relic. He is lawful good and appeals especially to dwarves in the party, directing most questions to them.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 34'],
+      ],
+      habitats: ['City'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4395,6 +4667,18 @@ export default createPublicationMonsters({
           'Roleplaying: She insists on the respect due her station and sees her pact as a way to protect Na and the aarakocra who sheltered them.',
         ],
       ],
+      appearance: [
+        [
+          'A vain, headstrong Chultan princess, eldest living descendant of the royal families of Omu.',
+        ],
+      ],
+      lore: [
+        [
+          "Mwaxanare lives at Kir Sabal with her six-year-old brother Na as the aarakocra's wards. She already considers herself Queen of Chult, is impatient to claim her throne and does not tolerate backtalk. Her view of the world is sheltered and distorted, mostly taught by Asharra. She wants the Skull Chalice of Ch'gakare and is lonely, so she may fixate on a visitor.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 69'],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4464,6 +4748,13 @@ export default createPublicationMonsters({
         [
           'Rite of Stolen Life: The rite takes one hour and uses an intact or mostly intact humanoid corpse, a gemstone worth 100 gp or more, and the sacrifice of another humanoid. The sacrifice’s spirit reanimates the corpse and takes on its knowledge and personality. Restore the returned character to full HP and keep its statistics. Change its type to Undead and remove the need to eat, drink, breathe, or sleep. Reduce its maximum HP by 1d4 at each dawn, and no effect can stop or reverse this decay. At a maximum of 0 HP, the gemstone breaks and the body dies again. If later raised or resurrected, the character keeps levels and XP earned during the rite’s effect and forgets that period. The hag asks the party to deal with the Pterafolk and may demand a token from Niles Breakbone or Saja N’baza as well.',
         ],
+      ],
+      appearance: [['A green hag living in a small hut in Mbala.']],
+      lore: [
+        [
+          "Nanny Pu'pu worships Myrkul and knows a ritual that turns a dead humanoid into a zombie-like creature, though she demands payment, such as wiping out the pterafolk nest. She can whistle up 2d6 flying monkeys that gather food but will not fight for her, and a flesh golem buried near her hut will rise to defend her. She tricked and ate the people of Mbala, which makes Eku regard her as a great evil.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 73', ', ', 'Tomb of Annihilation, p. 34'],
       ],
       stats: {
         size: 'medium',
@@ -4889,6 +5180,14 @@ export default createPublicationMonsters({
           'Firefinger: Four elders in the level 3 nest have 13 hit points each. Six pterafolk occupy the pinnacle, including Nrak with 40 hit points. The flock can shove foes near the edge or circle the tower to set up a Terror Dive.',
         ],
       ],
+      appearance: [['A 10-foot-tall winged reptilian biped with a 20-foot wingspan.']],
+      lore: [
+        [
+          'Pterafolk are malevolent isolationists native to Chult who regard most creatures as enemies. Chultans call them terror folk because they swoop down to snatch whatever they can and carry it to their roosts. They give birth to live young. Old rituals once let them turn into pteranodons and wingless lizardfolk, but these are forgotten. They keep prisoners in their cave roosts.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 229', ', ', 'Tomb of Annihilation, p. 53'],
+      ],
+      habitats: ['Mountain', 'Jungle'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -5002,6 +5301,13 @@ export default createPublicationMonsters({
         [
           "Guide: Qawasha knows the jungle's plants and animals and can find campsites near Chwingas. When he guides an expedition, he deliberately seeks out undead-infested areas to clear them. He recommends buying an exploration charter before leaving Fort Beluarian because the Flaming Fist mistreats unlicensed explorers.",
         ],
+      ],
+      appearance: [['A Chultan druid of the Emerald Enclave based at Fort Beluarian.']],
+      lore: [
+        [
+          'Qawasha travels with the vegepygmy Kupalue, whom he calls Weed, and the two talk in their own sign language. He wants to rid the jungle of undead and deliberately steers adventurers through undead-infested areas. As he walks he calls out the names of unusual plants and animals.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 35'],
       ],
       stats: {
         size: 'medium',
@@ -5124,6 +5430,18 @@ export default createPublicationMonsters({
           "Guide: The siblings meet clients discreetly in Malar's Throat or Tiryki Anchorage and can lead a group to Firefinger and Dungrunglung. The Zhentarim ask them to gather information on Artus Cimber. Unless given a reason to keep quiet, they report what they learn on their next visit to Port Nyanzaru.",
         ],
       ],
+      appearance: [
+        [
+          'A tabaxi woman about 5 foot 5 and 100 pounds, in leather armour and an eye patch after losing her right eye to a sling in childhood.',
+        ],
+      ],
+      lore: [
+        [
+          'River Mist and her brother Flask of Wine are tabaxi hunters in league with the Zhentarim, so they pay fees to no merchant prince and meet clients quietly in seedy houses. River is furtive and uncomfortable in crowds and is truly at home only in the jungle.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 35'],
+      ],
+      habitats: ['City', 'Jungle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5217,6 +5535,17 @@ export default createPublicationMonsters({
         [
           'Equipment and allegiance: Salida carries one of a pair of Sending Stones in a pouch. She uses it to report expedition activity to Ras Nsi.',
         ],
+      ],
+      appearance: [
+        [
+          'A fit Chultan woman of 5 foot 4 and 120 pounds who looks like a seasoned explorer, with clothing covering scaly patches that would reveal her nature.',
+        ],
+      ],
+      lore: [
+        [
+          'Salida is a yuan-ti pureblood posing as a human guide in Port Nyanzaru while working for Ras Nsi. She reports on everyone heading south to find Omu through a sending stone she keeps in a pouch, and tries to join expeditions as guide, warrior or even a bearer. She is witty, good at colourful insults and convincing lies, and makes a pleasant travelling companion.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 35'],
       ],
       stats: {
         size: 'medium',
@@ -5314,6 +5643,14 @@ export default createPublicationMonsters({
           'Throne room: By day Sekelok guards Ras Nsi in area 11 with three Yuan-ti Broodguards. After Ras Nsi retires to area 12 at night, Sekelok usually stays at his post but sometimes slips away to see Neema in area 10. If the gong in area 9 sounds, he and the other yuan-ti guards investigate while the ghouls stay behind the throne and Ras Nsi withdraws.',
         ],
       ],
+      appearance: [['A yuan-ti champion in the temple of Omu.']],
+      lore: [
+        [
+          "Sekelok is infatuated with the concubine Neema and risks disaster by visiting her at night. A doppelganger spy posing as the yuan-ti Ishmakahl has been eavesdropping on their private talk. He appears in the temple's roster as a champion variant.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 113', ', ', 'Tomb of Annihilation, p. 120'],
+      ],
+      habitats: ['Temple', 'Ruins'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5433,6 +5770,13 @@ export default createPublicationMonsters({
         [
           'Guide: While Shago guides the party, characters have advantage on Charisma checks to influence Flaming Fist members. He works closely with the faction while presenting himself as independent. He shares little useful information with his mother.',
         ],
+      ],
+      appearance: [['A Chultan gladiator, 6 foot 3 and about 220 pounds.']],
+      lore: [
+        [
+          'Shago is the only son of merchant prince Zhanthi and works out of Fort Beluarian with the Flaming Fist while presenting himself as independent. He has led many expeditions into the jungle to clear undead despite a great personal fear of becoming a zombie or ghoul. His mother thinks she placed him to spy on the Fist, but his sympathies lie with the mercenaries and he gives her little of use.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 35'],
       ],
       stats: {
         size: 'medium',
@@ -5708,6 +6052,18 @@ export default createPublicationMonsters({
       name: 'Su-monster',
       page: 232,
       alignment: 'chaotic evil',
+      appearance: [
+        [
+          'A medium monstrosity that sleeps hanging upside down by its tail and can strike with all four claws from that position.',
+        ],
+      ],
+      lore: [
+        [
+          "Su-monsters communicate silently, using their prehensile tails for gestures. They typically kill more than they can eat, bury the leftovers and mark the spot with the victim's possessions. They also use a psychic attack that can stun a creature.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 232'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -5795,6 +6151,14 @@ export default createPublicationMonsters({
       page: 232,
       alignment: 'chaotic good',
       languages: ['Common and one other language.'],
+      appearance: [['A tabaxi hunter, a catfolk of leather armour who climbs well.']],
+      lore: [
+        [
+          'Tabaxi come from Maztica and are great wanderers who collect artifacts, stories and wonders, driven by curiosity to uncover every secret. They revere a fickle deity called the Cat Lord. The tabaxi hunters of Omu know the city but hunt alone and avoid explorers.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 232', ', ', 'Tomb of Annihilation, p. 94'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5971,6 +6335,18 @@ export default createPublicationMonsters({
           "Shagambi's tomb: Forty-eight warriors stand guard. Loud noise makes them draw their swords partway as a warning. On any further noise, they attack every creature in the tomb. Moving quietly without magic takes a DC 12 Dexterity (Stealth) check, at disadvantage when crossing pottery shards. Opening Shagambi's coffin can set off a music box that rouses them even if the room was quiet. A DC 14 Wisdom (Perception) check while carefully lifting the lid spots the wire. Cut it with thieves' tools and a successful DC 12 Dexterity check. Failure sets off the music.",
         ],
       ],
+      appearance: [
+        [
+          'A guardian of the tomb that uses animated armour statistics, wielding a shortsword and standing perfectly still.',
+        ],
+      ],
+      lore: [
+        [
+          'Forty-eight terracotta warriors guard the tomb. They remain motionless while the tomb is quiet. If any character talks loudly or steps on broken pottery, they all turn their heads together and pull their swords partly out as one warning. If another noise follows, they attack. A critical hit shatters one.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 130'],
+      ],
+      habitats: ['Tomb'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -6057,6 +6433,18 @@ export default createPublicationMonsters({
           'Base stat block: The adventure uses the 2014 Wight with a Battleaxe and Light Crossbow. Its Multiattack uses those weapons in the roles of the Wight’s original weapons.',
         ],
       ],
+      appearance: [
+        [
+          "A hunched figure in a mask that copies the devil face at the tomb's entrance, wielding a battleaxe and light crossbow.",
+        ],
+      ],
+      lore: [
+        [
+          'Tomb dwarves serve Acererak in the Tomb of the Nine Gods and use wight statistics. They stitch the bodies of dead adventurers together and bolt them into suits of armour to make tomb guardians. One watches intruders from a balcony without a word, then slips through a secret door and seems to vanish. At dawn after a flood, Withers sends tomb dwarves to clean up.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 134', ', ', 'Tomb of Annihilation, p. 141'],
+      ],
+      habitats: ['Tomb'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -6171,6 +6559,14 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ["understands the languages of its creator but can't speak"],
       tableNotes: [['This is the spike-armored guardian. Each Slam adds 2d6 piercing damage.']],
+      appearance: [['A shambling flesh golem clad in plate armour.']],
+      lore: [
+        [
+          'Tomb dwarves stitch the corpses of adventurers who died in the tomb together and bolt them into armour, then release these guardians to hunt intruders. One or two can be used whenever a fight is needed.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 190'],
+      ],
+      habitats: ['Tomb'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -6277,6 +6673,18 @@ export default createPublicationMonsters({
           'Encounters: On the trail, a patch of 1d4 fronds passes for harmless plants until it strikes. Around a camp, the fronds creep closer and use Orange Blossom to incapacitate targets before attacking with the others. Three fronds grow in the garden at area 5B of Nangalore.',
         ],
       ],
+      appearance: [
+        [
+          'A 6 to 7 foot plant with three trumpet-shaped flowers, each as big as a human head, one intense red, one vivid orange and one bright yellow.',
+        ],
+      ],
+      lore: [
+        [
+          'Each flower harms a creature in a different dreadful way. Tri-flower fronds are often found with vegepygmies.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 234'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -6509,6 +6917,16 @@ export default createPublicationMonsters({
           'Base stat block: The adventure uses the 2014 Lich, with the alignment, languages, spell preparation, Mask, and lair restriction given here.',
         ],
       ],
+      appearance: [
+        ['An elven lich who can mask her shrivelled flesh with a spell to look like a living elf.'],
+      ],
+      lore: [
+        [
+          'Valindra is a neutral evil elven lich found at the Heart of Ubtao. She knows the cause of the death curse and where Omu lies. She can swap any prepared spell for another of the same level. The Red Wizards of Thay will not pass up a chance to take the Ring of Winter by force.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 58'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -6978,6 +7396,17 @@ export default createPublicationMonsters({
           "Waard's journal: If the party befriends him, Wakanga gives them the journal and marks the hex where Vorn, a Shield Guardian, was found. The journal depicts the control amulet. For recovering Vorn and returning that amulet, Wakanga offers a spellbook with 15 random spells. Roll a d6 for each spell's level.",
         ],
       ],
+      appearance: [
+        [
+          'A Chultan mage and a dandy, easily charmed by clever women, perhaps only as a public image.',
+        ],
+      ],
+      lore: [
+        [
+          "Wakanga is the only arcane spellcaster among the merchant princes and deals in knowledge, lost lore, potions and scrolls. He is secretly sympathetic to the Harpers and lets them use his villa as a safe house. He knows of the death curse and will help anyone who seems set on ending it, selling minor magic items in coin, gems or jewellery only. He is a friend of Syndra Silvane and is envied by Ifan Talro'a.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 27'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7063,6 +7492,15 @@ export default createPublicationMonsters({
           'False tomb encounter: The entrance seals 1 round after the coffin is opened if the illusory sunlight strikes its plaque. Dispel Magic on the light prevents the trigger. Once the entrance seals, the wine rises 1 ft. a round and everyone rolls initiative. On round 3, three wine weirds emerge from the northwest, northeast, and southeast cisterns and attack everyone in the room. On round 12, the room fills. Apply underwater combat with 5 ft. of visibility. Water breathing gives no protection against drowning in wine. The block rises and the wine drains after 10 minutes.',
         ],
       ],
+      appearance: [
+        ['A water-weird-like creature of wine that is invisible while fully immersed in it.'],
+      ],
+      lore: [
+        [
+          'Wine weirds flow into the tomb of the vintner Withers from cisterns when the trap is sprung and attack everyone inside. After 12 rounds the wine fills the chamber, limiting sight to 5 feet. When the stone block rises back, the wine cascades down the tunnel and stairs.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 141'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -7146,6 +7584,18 @@ export default createPublicationMonsters({
           'Base stat block: The adventure uses the 2014 Wight. Withers gains the printed Intelligence, CR, amulet, and Spellcasting changes and does not carry a longbow.',
         ],
       ],
+      appearance: [
+        [
+          'A wizard with a passion for learning, working at his desk with seven crawling claws following him about.',
+        ],
+      ],
+      lore: [
+        [
+          'Withers is fiercely loyal to Acererak. His love of study followed him into undeath and gave him an eternity to learn. He wears an amulet of the black skull and commands crawling claws and tomb dwarves.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 145'],
+      ],
+      habitats: ['Tomb'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -7304,6 +7754,18 @@ export default createPublicationMonsters({
           'Encounter context: She plans to use Dominate Person to make Artus surrender the Ring of Winter, then escape with Fly. Her companion Summerwise is a Pseudodragon who thinks the quest is reckless. Good-aligned characters can win Summerwise over. Xandala trusts her draconic ancestry to carry her to greatness and treats others as fools.',
         ],
       ],
+      appearance: [
+        [
+          "A half-elf who claims to be Artus Cimber's daughter, with a pet pseudodragon named Summerwise.",
+        ],
+      ],
+      lore: [
+        [
+          'Xandala feigns worry to enlist the party in finding Artus, but she wants the Ring of Winter he owns. She does not share this. Summerwise thinks the quest too dangerous and has given up arguing with her. A good-aligned character might turn the pseudodragon against her to gain information. She shows up when the party is travelling with Artus and tries to capture him.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 17', ', ', 'Tomb of Annihilation, p. 38'],
+      ],
+      habitats: ['City'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7407,6 +7869,18 @@ export default createPublicationMonsters({
           'Wilderness encounter: Place the creeper deep in a ruin and give it 3d6 Yellow Musk Zombies, scattered or clustered to suit the terrain. At camp, the zombies emerge from a nearby ruin and try to knock the characters unconscious and drag them to the plant.',
         ],
       ],
+      appearance: [
+        [
+          'An unholy vine with bright yellow, purple-splashed flowers like orchids, clinging to walls, pillars, gravestones or statuary in shadow.',
+        ],
+      ],
+      lore: [
+        [
+          'Its flowers give off a musk that attracts prey, and it stays still until it strikes. It destroys the minds of humanoids and implants bulbs in those it kills. A day later the bulb sprouts a vine that animates the corpse as a yellow musk zombie, which guards the plant and feeds it. After seven days the grown creeper bursts out of its host. If the zombie dies first, the young creeper withers.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 237'],
+      ],
+      habitats: ['Jungle', 'Ruins'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -7495,6 +7969,16 @@ export default createPublicationMonsters({
           'Host and creeper: An implanted bulb animates the corpse after 24 hours. The zombie protects the growing Yellow Musk Creeper and feeds it. After seven days the mature creeper breaks free and the host collapses. If the zombie is destroyed first, the immature creeper dies with it.',
         ],
       ],
+      appearance: [
+        ['A humanoid corpse animated by a young yellow musk creeper vine growing inside it.'],
+      ],
+      lore: [
+        [
+          'The zombie guards the creeper and acts as fertiliser. After about seven days the creeper bursts out and the zombie collapses into a mound of offal. Destroying the zombie first kills the young vine.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 237'],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -7973,6 +8457,17 @@ export default createPublicationMonsters({
           'Emerald Eye: Only Zaroum can use his eye gem to see ghostly paths to treasure. He carries a Sending Stone paired with Liara Portyr’s. His jeweled coat is worth 750 gp and his jeweled Scimitar 1,250 gp. Voltan, a Berserker, is his first mate. The crew includes twelve Bandits, two Thugs, and five Tribal Warriors.',
         ],
       ],
+      appearance: [
+        [
+          'A Calishite human pirate captain with a coat sewn with glittering gems, a gem-hilted scimitar, a scarred X across his face and a magical gem in place of his left eye.',
+        ],
+      ],
+      lore: [
+        [
+          "Al-Saryak loves gemstones and has a habit of beheading those who displease him and hanging the heads from his ship's mermaid figurehead. His ship, the Emerald Eye, has cabins decorated like a Calishite pasha's palace. The gem in his eye socket shows ghostly paths to treasure and works for no one else. He holds the sending stone matching Liara Portyr's.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 67'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -8094,6 +8589,15 @@ export default createPublicationMonsters({
           'Port Nyanzaru: Zhanthi belongs to the Ytepka Society and cultivated Zhentarim contacts to keep watch on that group. Her son Shago guides travelers from Fort Beluarian and sends her reports about the fort. Her goods include nonmagical Leather Armor, Studded Leather Armor, and Hide Armor.',
         ],
       ],
+      appearance: [
+        ['An old Chultan noblewoman of royal blood, a wise trader whom few dare dispute.'],
+      ],
+      lore: [
+        [
+          "Zhanthi is a secret member of the Ytepka Society and has built ties to the Zhentarim in order to monitor them. She trades in gems, jewellery, colourful cloth and hide and leather armour. Her son Shago reports to her from Fort Beluarian. She has discovered Liara Portyr's deal with the pirates but keeps it to herself. Kwayothe considers her a mortal enemy.",
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 27'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -8140,6 +8644,14 @@ export default createPublicationMonsters({
           "Encounter context: Zindar is secretly part of the Ytepka Society. Messages left at his office receive a reply in 1d6 hours. He offers 2,000 gp for each pirate ship brought back to port and 500 gp more for each captured captain. The targets are the Dragonfang, the Emerald Eye, and the Stirge. Zhanthi funds the bounty and has privately uncovered evidence of Liara Portyr's arrangement with the pirates.",
         ],
       ],
+      appearance: [['The half-dragon harbormaster of Port Nyanzaru.']],
+      lore: [
+        [
+          'Zindar is well paid by the merchant princes, is a key member of the Ytepka Society and a good source of information about the city. He has a soft spot for adventurers but knows most who explore the jungle never return. He uses spells constantly in his work, such as message, detect thoughts, knock and clairvoyance to inspect cargo. He wants adventurers to deal with the pirates.',
+        ],
+        ['Sources: ', 'Tomb of Annihilation, p. 27', ', ', 'Tomb of Annihilation, p. 238'],
+      ],
+      habitats: ['City', 'Coastal'],
       stats: {
         size: 'medium',
         type: 'humanoid',

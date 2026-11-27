@@ -12,6 +12,16 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.out_of_the_abyss],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ["A drow infected with Zuggtmoy's spores and transformed into a fungal thrall."],
+      ],
+      lore: [
+        [
+          'Drow spore servants silently watch the party. They do not attack unless threatened. They appear in groups of several along Underdark tunnels.',
+        ],
+        ['Sources: ', 'Out of the Abyss, PDF page 193'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -45,6 +55,14 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.out_of_the_abyss],
       alignment: 'unaligned',
       languages: [],
+      appearance: [["A duergar infected with Zuggtmoy's spores and made into a fungal thrall."]],
+      lore: [
+        [
+          'Spore servants observe passers-by without communicating and attack only in self-defence. A random Underdark encounter may bring one or more duergar spore servants.',
+        ],
+        ['Sources: ', 'Out of the Abyss, PDF page 31'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'plant',

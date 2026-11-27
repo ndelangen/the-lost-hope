@@ -12,6 +12,18 @@ export default createPublicationMonsters({
       page: 219,
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Infernal.'],
+      appearance: [
+        [
+          'A gaunt, bipedal demon with grey leathery skin, decked in gleaming Underworld gold jewellery.',
+        ],
+      ],
+      lore: [
+        [
+          'Abhorrent overlords love pain and death but love treasure even more, delighting in hunting riches and killing anyone in the way. Related Theran demons include the bitter eater of hope, who lets victims stew in terror before eating them, and the nightmare shepherd, a gaunt, winged fiend with a crook that herds wandering dead.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Underworld'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -335,6 +347,14 @@ export default createPublicationMonsters({
           "Variant familiar: Some raptors are built to be familiars and gain the following trait.\nFamiliar. The raptor can form a magical telepathic bond with a willing master. The master can share the raptor's senses while they are within 1 mile of each other.",
         ],
       ],
+      appearance: [['A metal bird, hawk or owl shaped, crafted by Meletis thaumaturges.']],
+      lore: [
+        [
+          'Anvilwroughts were first made by the forge god Purphoros, who shared the secret of giving metal life with his devoted followers. Raptors are often hawk or owl shaped and mostly serve as messengers and spies, flying over streets or the land carrying or seeking information for their masters. Anvilwroughts as a whole serve as guardians of shrines, familiars, messengers or beauty, each with abilities suited to its role.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros', 'Meletis'],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -406,6 +426,14 @@ export default createPublicationMonsters({
       page: 226,
       alignment: 'chaotic evil',
       languages: ['Common.'],
+      appearance: [['A Nyxborn harpy whose shrill song enthrals undead.']],
+      lore: [
+        [
+          'Aphemia prowls the marshes around the necropolis of Asphodel, and her songs enthral the undead there, which she leads on raids against travellers and settlements. Harpies in general are cruel corpse-eaters who attack the living or rob graves, and carry treasures and bones back to reeking nests in caves or rotten trees.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Marsh', 'Asphodel'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -557,6 +585,18 @@ export default createPublicationMonsters({
           "Regional effects: One or both of these effects can shape the area within 1 mile of Arasta's lair.\nSpiders and insects spy for Arasta. Birds and other flying creatures vanish from the skies, although some turn up trapped in webs.\nWebs fill 10-ft. cubes of open space wherever two solid surfaces can anchor them. They burn away in 1 round when exposed to fire. Destroyed webs magically repair themselves at the next dawn.\nOn Arasta's death, the spiders and insects lose their link to her. The webs dissolve within 1d10 days.",
         ],
       ],
+      appearance: [
+        [
+          'A gigantic spiderlike creature whose few humanoid features were twisted by cruel magic, in a lair webbed with her own hair.',
+        ],
+      ],
+      lore: [
+        [
+          "Arasta was once Nylea's beloved dryad companion, turned into an arachnid by Phenax's bitterness and driven into the Nessian Wood. She broods on the unfairness of the gods. Countless arachnids fawn on her, act as her eyes across the wilderness, dispose of victims caught in her hair, and give their lives to defend her.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Nessian Wood'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -782,6 +822,18 @@ export default createPublicationMonsters({
       page: 212,
       alignment: 'lawful good',
       languages: ['All.'],
+      appearance: [
+        [
+          'An armoured archon riding a fearsome winged mount, carrying a spear of great brilliance.',
+        ],
+      ],
+      lore: [
+        [
+          "Archons were armoured warlords who ruled empires with merciless justice, until the empires fell. The first archon of falling stars was a defeated archon at the world's eastern edge whom Heliod spared, and who swore to uphold justice in wild places, getting a brilliant spear as a sign of mercy. Archons ride winged mounts, usually bulls or lions, and some stories say the mount is their will made flesh so the pair act as one.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros wilds'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -956,6 +1008,16 @@ export default createPublicationMonsters({
       tableNotes: [
         ['Archon mounts: Winged Bull and Winged Lion are the most common archon mounts.'],
       ],
+      appearance: [
+        ['A broken, twisted archon in armour on a winged mount, riding out of the Underworld.'],
+      ],
+      lore: [
+        [
+          'Ashen riders are archons who retreated to the Underworld to escape the spread of human civilisation, and whose minds, bodies and spirits were broken by its horrors. They ride into the mortal world and delight in turning the great figures of the mortal world to ash, showing no mercy, though terrified mortals leave offerings to appease them. Archons ride winged mounts such as bulls and lions.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Underworld'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -1144,6 +1206,18 @@ export default createPublicationMonsters({
       page: 227,
       alignment: 'chaotic evil',
       languages: ['Common.'],
+      appearance: [
+        [
+          'A cruel, scavenging harpy, found with gangs of its kind in grim places, carrying bones and stolen valuables back to a reeking nest.',
+        ],
+      ],
+      lore: [
+        [
+          'Gangs of harpies gather in grim places across Theros and prey on passers-by, which is why merchants speak of losses to them as a blood toll. They eat the living and the dead alike, setting on travellers or clawing open fresh graves to strip bodies of riches and flesh. They take treasure and appealing bones to nests in cramped caves or rotten trees.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros', 'Caves', 'Rotten trees'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1224,6 +1298,18 @@ export default createPublicationMonsters({
       page: 210,
       alignment: 'unaligned',
       languages: ["Understands one language of its creator but can't speak."],
+      appearance: [
+        [
+          'A nimble metal beast crafted by a smith, an anvilwrought animal that looks poised and alert.',
+        ],
+      ],
+      lore: [
+        [
+          "Purphoros gave the first bronze sables to Karametra as guardians for her temples, though later ones are also used as quick scouts, always alert to danger. Anvilwroughts are metal creatures whose makers learned the secret of animating them from the god of the forge, and each one's abilities suit its role.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros', 'Temples'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -1309,6 +1395,14 @@ export default createPublicationMonsters({
       page: 211,
       alignment: 'unaligned',
       languages: ["Understands one language of its creator but can't speak."],
+      appearance: [['An elegant, anvilwrought stag of metal.']],
+      lore: [
+        [
+          'Among the first anvilwroughts Purphoros forged, burnished harts roam the mortal world looking for new sights to carry back to the god of the forge at Mount Velus. They seek the far reaches to witness beauty in all its forms, then return to their creator with tales of how life keeps developing. A few extremely valuable ones were made by Purphoros himself and are now royal heirlooms, lost, or guarded by ancient monsters.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -1434,6 +1528,16 @@ export default createPublicationMonsters({
       page: 218,
       alignment: 'unaligned',
       languages: ["Understands Common and Celestial but can't speak."],
+      appearance: [
+        ['An enormous golem of bronze and iron standing on two plinths over the path to Akros.'],
+      ],
+      lore: [
+        [
+          'The colossus rarely has to fight, because the sight of it calms the people of Akros. In desperate times, priests of Purphoros work magic to wake it, and the ground rumbles as it steps down to stand between the polis and the threat.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros', 'Akros'],
       stats: {
         size: 'gargantuan',
         type: 'construct',
@@ -1603,6 +1707,14 @@ export default createPublicationMonsters({
       page: 224,
       alignment: 'lawful evil',
       languages: ['Giant.'],
+      appearance: [['A massive Nyxborn giant, a fear made flesh.']],
+      lore: [
+        [
+          "Doomwake giants arise when a city or region dreads destruction long enough that the terror takes giant form. Once loose, one goes on a rampage that fulfils the prophecy people believed into being, then wanders to the world's edges and either fades or becomes a legend with a terrible life of its own.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -1713,6 +1825,14 @@ export default createPublicationMonsters({
       page: 220,
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Infernal.'],
+      appearance: [['A bitter demon, resentful of life and joy.']],
+      lore: [
+        [
+          'An eater of hope can kill most foes but prefers to let fear and despair take over its victims first and let them marinate before devouring them.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1816,6 +1936,14 @@ export default createPublicationMonsters({
       page: 223,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [['A lion twice the normal size with a resplendent silvery or golden mane.']],
+      lore: [
+        [
+          'Fleecemane lions prowl and guard places charged with the power of Nyx. Myths often show them stalking mortals and spreading fear until a brave hunter beats them, so defeating one is seen as an early step toward becoming a hero. How exactly they relate to Nyx is unclear.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros', 'Nyx sites'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1959,6 +2087,14 @@ export default createPublicationMonsters({
       page: 222,
       alignment: 'any alignment',
       languages: ['The languages the eidolon knew in life.'],
+      appearance: [['A spirit-like eidolon that wanders with no purpose.']],
+      lore: [
+        [
+          'When a mortal soul traumatically gives up its identity to escape the Underworld as a Returned, that identity appears as an eidolon. It keeps the skills and details of its past life but is detached from that life, and wanders or broods in haunts that draw it. It cares nothing for reunions with its body or Returned remains. Flitterstep eidolons are the most common kind.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2076,6 +2212,14 @@ export default createPublicationMonsters({
       page: 211,
       alignment: 'unaligned',
       languages: ['Understands one language of its creator and cannot speak.'],
+      appearance: [['A metal anvilwrought, often seen standing like a statue in high places.']],
+      lore: [
+        [
+          "Its original purpose is a mystery, and of Purphoros's first anvilwroughts it is the hardest to control. It often acts without a master, stalking the high places of the world or standing still as a statue for decades before waking to carry out its unexplained purpose. A few anvilwroughts made by Purphoros himself are royal heirlooms, lost, or guarded by ancient monsters.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros', 'High places'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -2183,6 +2327,16 @@ export default createPublicationMonsters({
       page: 227,
       alignment: 'chaotic good',
       languages: ['None.'],
+      appearance: [
+        ['A horse-fronted sea creature built for speed, wary but curious, usually seen in a herd.'],
+      ],
+      lore: [
+        [
+          "Hippocamps are celebrated in Theros as guides and mounts for tritons and other sea heroes. They live in herds, and some hold valued places in triton society. They are seen as servants of Thassa, and are often unpredictable, though their speed and strength can look awe-inspiring when channelled by the god's will.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Ocean', 'Coastal'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2260,6 +2414,18 @@ export default createPublicationMonsters({
       page: 225,
       alignment: 'lawful neutral',
       languages: ['Giant.'],
+      appearance: [
+        [
+          'A titanic giant with extra pairs of arms that orbit its body by magic, often found beside carved cliffs and ruined temples covered in reliefs.',
+        ],
+      ],
+      lore: [
+        [
+          'Hundred-handed ones are nearly forgotten artisans. They keep to remote mountains and seaside cliffs, carving their memories into old stone and filling their territory with detailed reliefs and huge statues. Some linger around ancient temples and palaces they raised long ago for the gods or archons.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Mountain', 'Coastal'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -2368,6 +2534,18 @@ export default createPublicationMonsters({
           'Regional effects: One or more effects can manifest around the lair.\nSnakes are abundant in the region.\nTrees within 1 mile are petrified wood. A plant that remains within 500 ft. of the lair for a day turns to stone.\nSmall bodies of water within 1 mile are poisonous. A creature that drinks the water must make a DC 19 Constitution save or be poisoned for 8 hours. It can repeat the save at the end of each hour to end the poison early.',
         ],
       ],
+      appearance: [
+        [
+          'A medusa on the island of Skathos, seated on a throne woven from the petrified bodies of her followers.',
+        ],
+      ],
+      lore: [
+        [
+          'Hythonia is an artist, not just a collector of stone victims. When she arrived on Skathos, the islanders worshipped her as an avatar of Pharika and offered themselves to her gaze. She encouraged wild rituals, then began petrifying her followers to build a throne. Her victims have dwindled, but she still trades the divine secrets she holds and asks for a beautiful person to add to the throne each time.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Island', 'Coastal'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2622,6 +2800,16 @@ export default createPublicationMonsters({
       page: 231,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [
+        ['A five-headed hydra that lurks in wild country, most often in lakes and boggy caverns.'],
+      ],
+      lore: [
+        [
+          'Ironscale hydras are common foes for heroes testing their mettle in Theros. They live mostly in lakes and bog caves, hunting creatures that come to drink or swim. In Theros hydras hold the place that krakens have at sea and dragons in the sky, and the largest live deep in the wilderness.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Lake', 'Swamp', 'Wilderness'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -2719,6 +2907,16 @@ export default createPublicationMonsters({
       page: 235,
       alignment: 'neutral evil',
       languages: ['Common', 'Sylvan.'],
+      appearance: [
+        ['A nymph of Theros, a divine servant found in an unspoiled corner of the world.'],
+      ],
+      lore: [
+        [
+          "This entry only has family lore for Theros nymphs. They protect places of natural power and fill them with the magic of Nyx. Some help those who live off the land, others embody nature's violence, and most avoid sapient creatures to tend natural cycles. Same-kind nymphs sometimes gather at places of power or beauty, and gods of nature may use them as messengers, guardians or scouts. They need no food, drink or sleep.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Wilderness'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -2816,6 +3014,18 @@ export default createPublicationMonsters({
       page: 232,
       alignment: 'any alignment',
       languages: ['Common', 'Leonin.'],
+      appearance: [
+        [
+          'A leonin hunter of the Oreskos plains, a tribal warrior whose prey is the servants of the gods.',
+        ],
+      ],
+      lore: [
+        [
+          'Leonin accept that the gods exist but mostly denounce them, expecting doom rather than peace. Iconoclasts devote themselves to thwarting the gods by hunting their followers and any Nyx-born things that threaten Oreskos and the prides. Prides roam the plains protecting land and creatures, largely avoid other peoples after suffering under archon tyrants, and find strength in each other and the land.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Plains', 'Oreskos'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3045,6 +3255,14 @@ export default createPublicationMonsters({
       page: 229,
       alignment: 'any alignment',
       languages: ['Common.'],
+      appearance: [['A Theran citizen-soldier, a highly trained warrior in a unit.']],
+      lore: [
+        [
+          "Hoplites are trained in strategy and tactics and in glorifying the warrior's spirit, an ethos that bonds a unit together. They usually fight in groups with coordinated tactics. The source supplies unit-name tables for each of the great poleis that can name military units in play. This entry only has family lore, nothing specific to Meletian hoplites.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3165,6 +3383,13 @@ export default createPublicationMonsters({
       page: 236,
       alignment: 'chaotic neutral',
       languages: ['Common', 'Sylvan.'],
+      appearance: [['A Theran nymph, a divine servant of an unspoiled corner of the world.']],
+      lore: [
+        [
+          "Nymphs are divine servants of unspoiled places who guard sites of natural power and fill them with the magic of Nyx. Some help those who live off the land and others embody nature's violence, but most avoid sapient creatures to mind natural cycles. Same-kind nymphs sometimes gather at places of power or beauty, and nature deities may use them as messengers, guardians or scouts. They need no food, drink or sleep. The source gives lore only for the whole family.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -3258,6 +3483,14 @@ export default createPublicationMonsters({
       page: 221,
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Infernal.'],
+      appearance: [["A gaunt, ashen fiend with leathery wings, holding a shepherd's crook."]],
+      lore: [
+        [
+          'It uses the crook to herd a flock of wandering dead, which it torments and sometimes feeds on.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Underworld'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -3397,6 +3630,14 @@ export default createPublicationMonsters({
           'Powers of the Fleece: Shear the ram unharmed and turn its wool into a garment. Roll a d6 for the new garment’s power. A wearer must attune to it to gain the benefit.\n1. Protection. Gain +1 to AC and saving throws.\n2. Power of Nyx. Gain advantage on Charisma (Persuasion) checks.\n3. Calming Presence. Cast Calm Emotions once per day (save DC 13).\n4. Trail of Flowers. Flowers magically grow wherever the wearer walks and wilt after 1 hour.\n5. Animal Affinity. A non-evil wearer can cast Animal Friendship once per day (save DC 13).\n6. Abundance of Food. Cast Create Food and Water once per day.',
         ],
       ],
+      appearance: [['A ram with remarkable magical wool.']],
+      lore: [
+        [
+          "The gods have touched these rams, whose wool is valued by heroes and scoundrels for protection or profit. The few herds live among Theros's highest peaks, guarded by divine servants who keep the wool from unworthy hands.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Mountain', 'Theros'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3475,6 +3716,14 @@ export default createPublicationMonsters({
       page: 238,
       alignment: 'any alignment',
       languages: ['Celestial', 'Common.'],
+      appearance: [['A mortal gifted, or cursed, with the sight to read the patterns of Nyx.']],
+      lore: [
+        [
+          'Oracles interpret the patterns and language of Nyx to divine fate and the will of the gods. Most speak with one god and interpret intentions for others. Others, without a god, read the night sky as a cryptic scroll for insights.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3561,6 +3810,13 @@ export default createPublicationMonsters({
       page: 237,
       alignment: 'chaotic evil',
       languages: ['Common', 'Sylvan.'],
+      appearance: [['A Theran nymph, a divine servant of an unspoiled corner of the world.']],
+      lore: [
+        [
+          "Nymphs are divine servants of unspoiled places who guard sites of natural power and fill them with the magic of Nyx. Some help those who live off the land and others embody nature's violence, but most avoid sapient creatures to mind natural cycles. Same-kind nymphs sometimes gather at places of power or beauty, and nature deities may use them as messengers, guardians or scouts. They need no food, drink or sleep. The source gives lore only for the whole family.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -3683,6 +3939,14 @@ export default createPublicationMonsters({
       page: 239,
       alignment: 'lawful neutral',
       languages: ['All.'],
+      appearance: [['An armoured skeletal spirit standing guard at a border of the Underworld.']],
+      lore: [
+        [
+          'Phylaskia guard the borders of the Underworld and its wards. They never sleep and show no mercy, scrutinise everyone who tries to pass, and kill those who defy them.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Underworld'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -3986,6 +4250,18 @@ export default createPublicationMonsters({
           'Returned nature: Those who follow the Path of Phenax escape the Underworld as undead. Their lost identities take shape as separate eidolons. Returned hide their blank faces behind gold masks and can form only short-lived new memories. A mask is worth about 100 gp, depending on the metal and workmanship, but many Therans refuse to trade in them.',
         ],
       ],
+      appearance: [
+        [
+          'A figure whose face is a blank, expressionless surface with empty eye sockets and a gaping mouth, hidden behind a distinctive golden mask.',
+        ],
+      ],
+      lore: [
+        [
+          'The Returned have escaped the Underworld by following the Path of Phenax and live among the living again, undead and blank. Their identities split off as separate beings called eidolons, and they cannot form long-term memories, so they rarely build relationships or new lives. They mostly feel fleeting emotions and follow hollow routines.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4061,6 +4337,18 @@ export default createPublicationMonsters({
           'Variant: The Returned Kakomantis uses these statistics and replaces Multiattack with Underworld Bolt.',
         ],
       ],
+      appearance: [
+        [
+          'A figure whose face is a blank, expressionless surface with empty eye sockets and a gaping mouth, hidden behind a distinctive golden mask.',
+        ],
+      ],
+      lore: [
+        [
+          'The Returned have escaped the Underworld by following the Path of Phenax and live among the living again, undead and blank. Their identities split off as separate beings called eidolons, and they cannot form long-term memories, so they rarely build relationships or new lives. They mostly feel fleeting emotions and follow hollow routines.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4138,6 +4426,18 @@ export default createPublicationMonsters({
           'Returned nature: Those who follow the Path of Phenax escape the Underworld as undead. Their lost identities take shape as separate eidolons. Returned hide their blank faces behind gold masks and can form only short-lived new memories. A mask is worth about 100 gp, depending on the metal and workmanship, but many Therans refuse to trade in them.',
         ],
       ],
+      appearance: [
+        [
+          'A figure whose face is a blank, expressionless surface with empty eye sockets and a gaping mouth, hidden behind a distinctive golden mask.',
+        ],
+      ],
+      lore: [
+        [
+          'The Returned have escaped the Underworld by following the Path of Phenax and live among the living again, undead and blank. Their identities split off as separate beings called eidolons, and they cannot form long-term memories, so they rarely build relationships or new lives. They mostly feel fleeting emotions and follow hollow routines.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4310,6 +4610,16 @@ export default createPublicationMonsters({
       page: 243,
       alignment: 'chaotic neutral',
       languages: ['Common', 'Sylvan.'],
+      appearance: [
+        ['A satyr with a bow, ready to strike from the trees and melt back into the forest.'],
+      ],
+      lore: [
+        [
+          "Not all satyrs are carefree. When their friends and homes are threatened, thornbearers take up bows and cooperate in loose teams using guerrilla tactics, especially in the Skola Vale. Nylea's blessing aids their defence, and a single arrow might fall like a volley. They prefer talking or distracting their way out of trouble but are clever tacticians who end a fight quickly.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Forest', 'Skola Vale'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -4398,6 +4708,16 @@ export default createPublicationMonsters({
       page: 229,
       alignment: 'any alignment',
       languages: ['Common.'],
+      appearance: [
+        ['A drilled soldier of a Setessan polis, standing shoulder to shoulder with comrades.'],
+      ],
+      lore: [
+        [
+          'Hoplites are highly trained warriors steeped in strategy and in a warrior ethos that bonds a unit together. In battle they fight in groups with coordinated tactics. The book offers tables of unit names for hoplite contingents from the great poleis.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Theros'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4491,6 +4811,18 @@ export default createPublicationMonsters({
           'Tail Attacks (d4): 1. Venomous Tail. The tail deals piercing damage. A creature hit by Tail must pass a DC 15 Constitution save or become poisoned for 1 minute. It can repeat the save at the end of each of its turns to end the effect.\n2. Perplexing Tail. Replace the tail with a second head. Multiattack uses Claws and two Head attacks. Use the Head Attacks table to determine the added head. The breath substitution remains available.\n3. Shark Tail. When Tail hits a creature, the fin also pushes it up to 10 ft. away.\n4. Constricting Tail. Tail also grapples a Large or smaller creature it hits (escape DC 15). That creature is restrained while grappled and the tail stays occupied until it escapes or is released.',
         ],
       ],
+      appearance: [
+        [
+          'A beast combining parts of several animals, often a lion, a ram and a dragon, though the combinations vary endlessly.',
+        ],
+      ],
+      lore: [
+        [
+          "Chimeras roam the deep wilds looking for a lair that suits one head but is unsatisfying to the other two-thirds of the creature. A hungry chimera may drop out of a clear sky to take prey almost anywhere. The Akroans say the god Keranos made the first one to test Nylea's champion Renata of Setessa, who killed it easily and every deadlier beast after.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Wilderness'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -4599,6 +4931,18 @@ export default createPublicationMonsters({
       page: 245,
       alignment: 'neutral',
       languages: ['Common', 'Primordial.'],
+      appearance: [
+        [
+          'A triton mage whose arrival is usually heralded by deadly winds and waves, with living currents and deep-sea cold bending to its will.',
+        ],
+      ],
+      lore: [
+        [
+          "Masters of waves sculpt storms and shift tides, using the ocean as an ally to defend their people or carry out Thassa's wishes. Most stay in the deep, though threats from land can bring them to the shallows. Many resent land-dwellers and strike at trespassers, but most are devout, and people who share their faith or bring sincere offerings to Thassa may calm their anger if they survive the storm first.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4715,6 +5059,18 @@ export default createPublicationMonsters({
       page: 244,
       alignment: 'neutral evil',
       languages: ['Common', 'Primordial.'],
+      appearance: [
+        [
+          'A triton assassin that slips into shallow water, often unnoticed, so victims put disappearances down to the dangers of the sea.',
+        ],
+      ],
+      lore: [
+        [
+          "Shorestalkers take vengeance when surface dwellers threaten triton communities, intrude on Thassa's holiest depths or steal the sea's treasures. They rely on speed and poison taken from deadly sea beasts and strike when least expected.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Coastal', 'Ocean'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5070,6 +5426,14 @@ export default createPublicationMonsters({
       name: 'Two-Headed Cerberus',
       page: 215,
       alignment: 'lawful evil',
+      appearance: [['A two-headed hound, smaller than its three-headed kin.']],
+      lore: [
+        [
+          "Two-headed cerberi are thought to be a lesser breed that interbred with mortal wolves. They usually roam the mortal bank of the Tartyx River, ignoring the dead or menacing them only mildly, but they eagerly attack mortals who come near the Underworld's borders. Like other cerberi they are multiheaded hounds of the Underworld that patrol both banks of the Tartyx River and breathe gouts of molten rock that sear and imprison trespassers. Most have a boundless hunger for fresh meat, especially humanoid flesh, and villains have lured them from the river to loose them on mortal settlements.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Underworld border'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -5186,6 +5550,14 @@ export default createPublicationMonsters({
       page: 246,
       alignment: 'chaotic evil',
       languages: ['Common.'],
+      appearance: [['A titanic horror of writhing flesh and gnashing maws.']],
+      lore: [
+        [
+          'Typhons form from the souls of mortal warlords and cruel tyrants, twisted by ages of bitterness and rage into eternally ravenous monsters. They slither through the Underworld consuming souls by the thousand. The Underworld is their prison, and most would love to escape and slaughter the living again.',
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Underworld'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -5418,6 +5790,14 @@ export default createPublicationMonsters({
           'Archon riders: Archon of Falling Stars and Ashen Rider are two Theran archons that can ride a winged bull.',
         ],
       ],
+      appearance: [['A fearsome winged mount of an archon.']],
+      lore: [
+        [
+          "Archons always ride to battle on winged mounts, and some legends say the mount is a physical form of the archon's will so the two act with a single mind. Winged bulls and winged lions are the two commonest.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Celestial'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -5466,6 +5846,14 @@ export default createPublicationMonsters({
           'Archon riders: Archon of Falling Stars and Ashen Rider are two Theran archons that can ride a winged lion.',
         ],
       ],
+      appearance: [['A fearsome winged mount of an archon.']],
+      lore: [
+        [
+          "Archons always ride to battle on winged mounts, and some legends say the mount is a physical form of the archon's will so the two act with a single mind. Winged bulls and winged lions are the two commonest.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
+      habitats: ['Celestial'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -5537,6 +5925,13 @@ export default createPublicationMonsters({
       page: 247,
       alignment: 'chaotic evil',
       languages: ['Telepathy 120 ft.'],
+      appearance: [['A hunched, long-limbed horror whose cries make reality shudder.']],
+      lore: [
+        [
+          "Woe striders form over centuries from the souls of those who broke the bonds of destiny. They are sadistic and try to reweave themselves into destiny's tapestry by searching other beings' innards for their lost cosmic purpose in murderous haruspicy. When they fail, their unnatural cries undermine magic and sane minds alike.",
+        ],
+        ['Sources: ', 'Mythic Odysseys of Theros'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',

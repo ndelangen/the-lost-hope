@@ -12,6 +12,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Infernal', 'Primordial', 'Thayan'],
+      appearance: [
+        [
+          'A male human Red Wizard of Thay with a shaved, tattooed head, hidden under a wool cap with ear and neck flaps. The tattoo edges peek out from under the cap.',
+        ],
+      ],
+      lore: [
+        [
+          'Jos joins the caravan at Daggerford and tries to pass himself off as an ordinary Thayan refugee, since Red Wizards are widely disliked. He claims to have fled his homeland because it is ruled by undead, but he is in fact a Red Wizard and is not what he seems. A perceptive character can spot the tattoo edges, though many Thayans shave and tattoo their heads.',
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, PDF page 32'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -115,6 +126,14 @@ export default createPublicationMonsters({
       tags: ['cloud giant'],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Giant'],
+      appearance: [['A cloud giant, lord of Skyreach Castle, a flying fortress of opaque ice.']],
+      lore: [
+        [
+          "Blagothkus owns the castle that the Cult of the Dragon has bargained with, and he holds no special hatred of dragonkind. He hopes the threat of Tiamat will push the giants to unite, and is gathering his own army in the north to fight the dragons once they are drawn out. The spirit of his dead wife, Esclarotta, controls the castle's movement, so the cult cannot afford to cross him. He has no quarrel with small folk and will tell the party the cult is carrying a vast treasure to the Well of Dragons.",
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, PDF pages 76-78'],
+      ],
+      habitats: ['Sky', 'Arctic'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -219,6 +238,15 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Giant'],
+      appearance: [
+        ['A cult veteran of the rank of dragonsoul, an officer with little time for strangers.'],
+      ],
+      lore: [
+        [
+          "Othelstan is Rezmir's deputy and commands the Cult of the Dragon forces in Parnast. He watches every visitor and all merchandise passing through the village. Villagers send characters who ask for the person in charge to him, but warn that he has no patience for outlaws. The cult keeps trained wyverns in Parnast's stables, which it uses to reach Skyreach Castle while it is in the air.",
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, PDF pages 73-74'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -287,6 +315,17 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A Cult of the Dragon member, the lowest cult rank above ordinary initiates, who has chosen an affinity to one colour of dragon.',
+        ],
+      ],
+      lore: [
+        [
+          'Dragonclaw is the first rank above the rank-and-file members; higher ranks are dragonwing, dragonfang, dragonsoul and wyrmspeaker. Dragonclaws lead small raiding parties of cultists and kobolds. In a raid, they command the group while cultists and kobolds do the work, and they set ambushes if they spot approaching enemies. Captured cultists refuse to talk unless intimidated.',
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, PDF pages 12, 15, 22'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -561,6 +600,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Infernal'],
+      appearance: [['A Cult of the Dragon leader who runs the cultist camp near Greenest.']],
+      lore: [
+        [
+          'Frulam Mondath sits in judgment on captured adventurers and sentences anyone recognised from the fighting at Greenest to execution the next morning, tying them to posts beside the monk Leosin overnight. She orders the night assault on the keep, knowing the adventurers are there, using the dragon Lennithon as a weapon.',
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, PDF pages 10, 19'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -927,6 +973,14 @@ export default createPublicationMonsters({
       tags: ['bullywug'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Bullywug'],
+      appearance: [['A rare bullywug who has mastered shaman magic.']],
+      lore: [
+        [
+          'His religion is a mix of confused tradition, borrowed mysticism, hallucinogens and invented lore that serves mainly as a route to personal power. His spellcasting holds his followers together, which makes him useful to Rezmir. He hopes to take over Castle Naerytar and rule the Mere of Dead Men when Tiamat returns, and sees Dralmorrer Borngray as the only obstacle.',
+        ],
+        ['Sources: ', 'Hoard of the Dragon Queen, PDF page 47'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'humanoid',

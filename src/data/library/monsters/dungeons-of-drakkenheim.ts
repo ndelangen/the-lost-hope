@@ -17,6 +17,18 @@ export default createPublicationMonsters({
           'Delerium contamination: Printed source. Appendix C, pp. 222–223.\nAdd contamination levels from each exposure. A contaminated character rolls 1d20 at the end of each long rest and gains one level on a 1.\nSymptoms are cumulative. Level 1 has no symptom. Level 2 halves healing from Hit Dice. Level 3 prevents HP recovery from a long rest. Level 4 halves damage the creature deals with weapon attacks and spells. Level 5 makes it Incapacitated. Level 6 triggers Monstrous Transformation.\nAfter a character gains a level, roll 1d6. On a result at or below the current level, the GM chooses a new mutation or rolls on the printed mutations table. Replace or reroll duplicate mutations.\nContamination does not wear off. Purge Contamination can remove levels and causes Exhaustion. Heal removes all contamination and mutations. Each level removed also removes one random mutation. At level 0, all symptoms and mutations end.\nA contaminated humanoid rises as a Haze Husk 24 hours after death. It rises as a Haze Wight if it had at least six class levels or Hit Dice. Raising a creature from the dead reduces its contamination by one level.\nMonstrous Transformation. At level 6 or higher, the creature transforms after one round. Replace its statistics, hit points, and Hit Dice with those of a monster the GM chooses. Contamination resets to 0, and the GM controls the transformed creature.\nWish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again.',
         ],
       ],
+      appearance: [
+        [
+          'A mound of iridescently streaked black muck rises into a roughly human shape with slimy arms, thick unsteady legs and a bubbling head with a drooling maw and an oddly cheerful expression.',
+        ],
+      ],
+      lore: [
+        [
+          "Animated delerium sludge is a contaminated water elemental found in Drakkenheim's cisterns, sewers and other watery places. It often lies dormant in water before engulfing an unsuspecting creature, and if badly hurt it tries to slip back into the sludge and hide. It roars gleefully and barrels through debris.",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim sewers'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -178,6 +190,18 @@ export default createPublicationMonsters({
       tableNotes: [
         ['Base stat block: Wraith, SRD 5.1. Add the sorcerer spellcasting below and use CR 6.'],
       ],
+      appearance: [
+        [
+          'A skeleton in tattered purple robes drifts silently, its rune-covered skull chanting, with points of coloured light in its eye sockets and five Academy rings jangling on a raised hand.',
+        ],
+      ],
+      lore: [
+        [
+          'An arcane wraith is the spirit of a spellcaster who died violently in Drakkenheim, turned undead by delerium and bound to the Haze while keeping some arcane power. It hungers for magical essence and life force, is especially aggressive toward living casters, and attacks anyone carrying magic items, spell components or delerium crystals. It haunts highly magical places such as the Inscrutable Tower, potion shops and old mage homes. Left alone it studies arcane phenomena, often reaching paradoxical conclusions, and collects scrolls and spellbooks with rambling notes.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', 'Ruins'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -303,6 +327,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A rotund, sagging figure with dripping, wet skin covered in boils and sores, acidic saliva burning trails down its chin, and one arm a mass of writhing tentacles. It gurgles as it comes.',
+        ],
+      ],
+      lore: [
+        [
+          "People submerged in contaminated water often become Bloated Dregs. They are found near sewers and the river, having absorbed so much tainted water that it mixes with their stomach acid into corrosive bile they hurl at foes. They tend to stay out of the water only a few hours before seeking another pool of sludge. (Source entry is the book's Bloated Dreg.)",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Sewers', 'Riverbanks'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -388,6 +424,14 @@ export default createPublicationMonsters({
       page: 218,
       alignment: 'any alignment',
       languages: ['Any two languages'],
+      appearance: [['A righteous knight in heavy armour on a heavy steed or winged griffon.']],
+      lore: [
+        [
+          "These knights ride heavily armoured steeds or griffons into battle. Related Silver Order knights belong to a church-sanctioned military order sworn against supernatural evil and dark magic, loyal to the Sacred Flame and sent to purge Drakkenheim's corruption. They are better known for force than subtlety. (The Cavalier entry is a short line; the Silver Order detail comes from the related Silver Order Cavalier.)",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -497,6 +541,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A mutated wretch covered in thick knobby bone plates that have torn through the skin, ribs fused into one armour-like plate and forearms reshaped into long serrated bone blades caked with gore.',
+        ],
+      ],
+      lore: [
+        [
+          'Heavy mutation of the skeleton gives these Dregs a plated exoskeleton that shrugs off most attacks. They charge into battle in a frenzy of blade-like strikes, often into the front line, standing between other Dregs and their foes as if defending them.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -558,6 +614,18 @@ export default createPublicationMonsters({
           'Delerium contamination: Printed source. Appendix C, pp. 222–223.\nAdd contamination levels from each exposure. A contaminated character rolls 1d20 at the end of each long rest and gains one level on a 1.\nSymptoms are cumulative. Level 1 has no symptom. Level 2 halves healing from Hit Dice. Level 3 prevents HP recovery from a long rest. Level 4 halves damage the creature deals with weapon attacks and spells. Level 5 makes it Incapacitated. Level 6 triggers Monstrous Transformation.\nAfter a character gains a level, roll 1d6. On a result at or below the current level, the GM chooses a new mutation or rolls on the printed mutations table. Replace or reroll duplicate mutations.\nContamination does not wear off. Purge Contamination can remove levels and causes Exhaustion. Heal removes all contamination and mutations. Each level removed also removes one random mutation. At level 0, all symptoms and mutations end.\nA contaminated humanoid rises as a Haze Husk 24 hours after death. It rises as a Haze Wight if it had at least six class levels or Hit Dice. Raising a creature from the dead reduces its contamination by one level.\nMonstrous Transformation. At level 6 or higher, the creature transforms after one round. Replace its statistics, hit points, and Hit Dice with those of a monster the GM chooses. Contamination resets to 0, and the GM controls the transformed creature.\nWish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again.',
         ],
       ],
+      appearance: [
+        [
+          'The ground shakes and a titanic wurm breaks through the stone, with a petal-like mouth of jagged crystal teeth, muddy purple plates with octarine spines and hot breath spraying octarine slime.',
+        ],
+      ],
+      lore: [
+        [
+          'Crater Wurms are seen only in the Crater Basin and swallow creatures in their path. They mostly eat the minerals in the dirt, mud and rock they tunnel through, needing little living food, and their gullets crystallise what they take in and pass out delerium as waste. They spend most of their lives underground, digging miles of glittering tunnels, and surface in the Crater Basin to reproduce.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Crater Basin', 'Underground'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -778,6 +846,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A wretched figure twisted by contamination, with purple-grey flesh, sores and bulging veins, limbs bent wrongly, a face fixed in confused agony and sunken eyes glowing octarine. It moans and lunges.',
+        ],
+      ],
+      lore: [
+        [
+          'Most Delerium Dregs are piteous, disorderly wanderers in the ruins with harmless mutations and no special abilities. Many were once friends, comrades or loved ones. Most are gripped by despair, fear and madness and turn violent, though a rare few are lucid and know their state. The Haze magic sustains their emaciated bodies.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -831,6 +911,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A mutated Dreg that strobes through reality in a blur, moving with a stunted, skipping gait as if moments are missing.',
+        ],
+      ],
+      lore: [
+        [
+          "These Dregs often result from contamination leaking from Thin Places, shifting gateways between realms, which splits a creature so it is both present and on some distant plane. It is never fully there and uses its broken reality when threatened. (Source entry is the book's Displacer Dreg.)",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins', 'Thin Places'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -1017,6 +1109,16 @@ export default createPublicationMonsters({
         ],
         ['Resistance to damage from spells was printed with the defenses.'],
       ],
+      appearance: [
+        [
+          'An ancient elvish hermit with a sallow face and skin stretched thin over his cheekbones, in black feathered robes, carrying a staff of the woodlands.',
+        ],
+      ],
+      lore: [
+        ["Eoghan is a priest of Morrigan who tends a shrine and keeps his goddess's old faith."],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', 'Shrine'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1150,6 +1252,18 @@ export default createPublicationMonsters({
           'Delerium contamination: Printed source. Appendix C, pp. 222–223.\nAdd contamination levels from each exposure. A contaminated character rolls 1d20 at the end of each long rest and gains one level on a 1.\nSymptoms are cumulative. Level 1 has no symptom. Level 2 halves healing from Hit Dice. Level 3 prevents HP recovery from a long rest. Level 4 halves damage the creature deals with weapon attacks and spells. Level 5 makes it Incapacitated. Level 6 triggers Monstrous Transformation.\nAfter a character gains a level, roll 1d6. On a result at or below the current level, the GM chooses a new mutation or rolls on the printed mutations table. Replace or reroll duplicate mutations.\nContamination does not wear off. Purge Contamination can remove levels and causes Exhaustion. Heal removes all contamination and mutations. Each level removed also removes one random mutation. At level 0, all symptoms and mutations end.\nA contaminated humanoid rises as a Haze Husk 24 hours after death. It rises as a Haze Wight if it had at least six class levels or Hit Dice. Raising a creature from the dead reduces its contamination by one level.\nMonstrous Transformation. At level 6 or higher, the creature transforms after one round. Replace its statistics, hit points, and Hit Dice with those of a monster the GM chooses. Contamination resets to 0, and the GM controls the transformed creature.\nWish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again.',
         ],
       ],
+      appearance: [
+        [
+          "A massive construct like a huge suit of armour made of steel plates and gears, dragging a guillotine blade that grinds on the stone, glowing octarine from inside, with victims' souls seeming to cling to it.",
+        ],
+      ],
+      lore: [
+        [
+          'The Executioner is a hulking clockwork knight that carried out public death sentences in Slaughterstone Square. Dwarves of Glitter Peak made it in distant antiquity; it lay buried under the avalanches that destroyed their capital until an expedition dug it out decades ago. The Amethyst Academy repaired it and altered its programming to obey the monarch of Westemar. It still paces the square.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim', 'Slaughterstone Square'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -1321,6 +1435,18 @@ export default createPublicationMonsters({
           'Delerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A muscular Dreg that bounds on all fours, with talon-like claws, a foaming open mouth and eyes mad with bloodlust.',
+        ],
+      ],
+      lore: [
+        [
+          'A faster, stronger cousin of the shambling Dregs, the Frenzied Dreg actively hunts the streets of Drakkenheim from dark ruins, sometimes the sewers or building walls. Groups herd lesser Dregs into the streets as bait to draw adventurers in, then strike. In a fight they leap in, chase foes and claw in a flurry, howling.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins', 'Sewers'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -1391,6 +1517,18 @@ export default createPublicationMonsters({
           'Delerium contamination: Printed source. Appendix C, pp. 222–223.\nAdd contamination levels from each exposure. A contaminated character rolls 1d20 at the end of each long rest and gains one level on a 1.\nSymptoms are cumulative. Level 1 has no symptom. Level 2 halves healing from Hit Dice. Level 3 prevents HP recovery from a long rest. Level 4 halves damage the creature deals with weapon attacks and spells. Level 5 makes it Incapacitated. Level 6 triggers Monstrous Transformation.\nAfter a character gains a level, roll 1d6. On a result at or below the current level, the GM chooses a new mutation or rolls on the printed mutations table. Replace or reroll duplicate mutations.\nContamination does not wear off. Purge Contamination can remove levels and causes Exhaustion. Heal removes all contamination and mutations. Each level removed also removes one random mutation. At level 0, all symptoms and mutations end.\nA contaminated humanoid rises as a Haze Husk 24 hours after death. It rises as a Haze Wight if it had at least six class levels or Hit Dice. Raising a creature from the dead reduces its contamination by one level.\nMonstrous Transformation. At level 6 or higher, the creature transforms after one round. Replace its statistics, hit points, and Hit Dice with those of a monster the GM chooses. Contamination resets to 0, and the GM controls the transformed creature.\nWish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again.',
         ],
       ],
+      appearance: [
+        [
+          'A mutated human of tremendous size, with delerium shards merged into its disfigured body and muscles pulsing with arcane energy.',
+        ],
+      ],
+      lore: [
+        [
+          'Grotesque gargants are fiercely territorial. They are sometimes seen hauling large delerium crystals out of the crater and setting them up like obelisks in the ruins.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins', 'Crater'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -1515,6 +1653,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A massive creature on stocky legs with bloated bleeding feet, a huge gut dragging on the ground with weeping sores, a face buried in chins and acidic drool.',
+        ],
+      ],
+      lore: [
+        [
+          "The Gutbuster Hulk is a grotesque product of contamination whose body keeps growing more rotting flesh, which it tears at and replaces. It pulls pus-covered flesh from its sores to throw at foes and vomits bile on them. (Source entry is the book's Gutbuster Hulk.)",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -1578,6 +1728,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A mutant over ten feet tall with a swollen body, thin discoloured skin split open in places over bulging sinew, and a small head with a furious flat face. It plods on huge feet with its hands curled into fists.',
+        ],
+      ],
+      lore: [
+        [
+          'Contamination can swell a delerium dreg far past human size, and the largest are called haze hulks. They are found among other dregs and share their general temper, but a hulk that feels threatened is far fiercer. It charges head first, tramples and pounds with its fists, and almost never flees. Each can carry its own mutations, as other dregs do.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -1626,6 +1788,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A walking corpse in ragged clothes from its last day, with putrid flesh sliding over the bones, black hollow eyes, a gaping groaning mouth and eldritch light seeping from its wounds. Delerium shards poke out of its skin.',
+        ],
+      ],
+      lore: [
+        [
+          'The Haze raises those who died in Drakkenheim as mindless wanderers, most of them victims of the meteor strike or of later ruin-delving. They stay near where they fell, ignore contaminated monsters, and attack everyone else without tactics or self-preservation. Over time their bones crystallise into delerium, and the crystals break and spray contamination when the husk is hurt. Haze wights and arcane wraiths can command them as a retinue.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1695,6 +1869,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'An undead warrior with stretched, bruised purple skin and broken armour, a deep wound in its breastplate that leaks eldritch magic, and burning dead eyes. It shouts a cracked challenge to rally others against the monsters.',
+        ],
+      ],
+      lore: [
+        [
+          'A wight raised by the Haze keeps part of its former mind, twisted by delusion and malice. Many believe they are heroes rallying the city against invaders and see every humanoid as a monster, while treating contaminated creatures as fair citizens. They fight like soldiers, mages or archers, often with a retinue of haze husks and sometimes an arcane wraith, and think of raising husks as a rousing command or a call for help. Only a surprising foe makes them fight more carefully.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -1800,6 +1986,18 @@ export default createPublicationMonsters({
       page: 219,
       alignment: 'any alignment',
       languages: ['Any two languages'],
+      appearance: [
+        [
+          'A former Amethyst Academy student living quietly outside the institution, practising magic on their own terms.',
+        ],
+      ],
+      lore: [
+        [
+          "Not every graduate of the Amethyst Academy stays with it. A few leave to pursue their own aims, and as long as they obey the academy's edicts and laws, they can work magic undisturbed.",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1869,6 +2067,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A hunched, bloated form with two huge tentacle arms ending in hooks, two big octarine eyes and no mouth on the face, but a snarling toothed maw in its belly. It often turns invisible.',
+        ],
+      ],
+      lore: [
+        [
+          'Unlike most dregs, hunter hulks seek out prey, and their hunger never lets up. A mutation lets them turn invisible, so they wait in the shadows of Drakkenheim, then lash out, hook a victim and reel it toward the belly mouth. Listen for the hungry squeal.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -1981,6 +2191,18 @@ export default createPublicationMonsters({
           'Wish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again.',
         ],
       ],
+      appearance: [
+        [
+          'A large lotus-like flower with multicoloured petals that open slowly, its light shifting through colours that are hard to name. Looking at it brings confusion and loss of time.',
+        ],
+      ],
+      lore: [
+        [
+          "These blossoms grew from the mutated gardens of Queen's Park in Drakkenheim. They mimic the eldritch lily to draw prey close, then hypnotise with pollen and contaminate with nectar until the victim changes into a monster. They grow near delerium growths, tainted water or sludge, usually where access is hard, and use the surroundings against threats. Apothecaries suspect the blossoms are a network speaking to delerium and seeking to turn the living into more useful creatures.",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -2065,6 +2287,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A mass of muscle strapped with rusted armour pieces, its head sealed in a metal dome with no face, a heavy breath audible inside. It carries a crude blade in each hand, cut from scrap metal and caked with rust and dried blood.',
+        ],
+      ],
+      lore: [
+        [
+          "No one knows if the helm is made by the hulk itself or by an eldritch experiment. These hulks have been found near the Kleinberg Estates, which feeds rumours about the Pale Man. Despite the helm, they are keenly aware of their surroundings. A juggernaut acts as a sentinel, sometimes bodyguarding other dregs, and is seen near the Pale Man's estate. Rarely one wanders near the city walls, drawn to dreg groups or strong contamination.",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2321,6 +2555,18 @@ export default createPublicationMonsters({
           'Delerium contamination: Printed source. Appendix C, pp. 222–223.\nAdd contamination levels from each exposure. A contaminated character rolls 1d20 at the end of each long rest and gains one level on a 1.\nSymptoms are cumulative. Level 1 has no symptom. Level 2 halves healing from Hit Dice. Level 3 prevents HP recovery from a long rest. Level 4 halves damage the creature deals with weapon attacks and spells. Level 5 makes it Incapacitated. Level 6 triggers Monstrous Transformation.\nAfter a character gains a level, roll 1d6. On a result at or below the current level, the GM chooses a new mutation or rolls on the printed mutations table. Replace or reroll duplicate mutations.\nContamination does not wear off. Purge Contamination can remove levels and causes Exhaustion. Heal removes all contamination and mutations. Each level removed also removes one random mutation. At level 0, all symptoms and mutations end.\nA contaminated humanoid rises as a Haze Husk 24 hours after death. It rises as a Haze Wight if it had at least six class levels or Hit Dice. Raising a creature from the dead reduces its contamination by one level.\nMonstrous Transformation. At level 6 or higher, the creature transforms after one round. Replace its statistics, hit points, and Hit Dice with those of a monster the GM chooses. Contamination resets to 0, and the GM controls the transformed creature.\nWish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again.',
         ],
       ],
+      appearance: [
+        [
+          'A six-foot figure in a tattered, muddy green gown with gold filigree and a tarnished gold necklace of eleven emeralds. Her limbs are long, thin and cracked like stone, her hair a writhing mass of tendrils ending in toothed mouths, and an emotionless porcelain mask hides her face.',
+        ],
+      ],
+      lore: [
+        [
+          "Queen Lenore fled Castle Drakken for the Queen's Park Gardens and hid in a grotto, where the Haze disfigured her and her retinue. She fears her reflection, so she wears the mask, and she waits for her guards to say the danger is over. She believes she came through unharmed apart from facial scarring. Once vain and narcissistic but kind to her servants, she now speaks softly in a daydream, casts others in her fairytale, loves her garden and lilies, and flies into rage at her likeness or the names of her lost family.",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ["Queen's Park Gardens"],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -2417,6 +2663,18 @@ export default createPublicationMonsters({
           'Delerium contamination: Printed source. Appendix C, pp. 222–223.\nAdd contamination levels from each exposure. A contaminated character rolls 1d20 at the end of each long rest and gains one level on a 1.\nSymptoms are cumulative. Level 1 has no symptom. Level 2 halves healing from Hit Dice. Level 3 prevents HP recovery from a long rest. Level 4 halves damage the creature deals with weapon attacks and spells. Level 5 makes it Incapacitated. Level 6 triggers Monstrous Transformation.\nAfter a character gains a level, roll 1d6. On a result at or below the current level, the GM chooses a new mutation or rolls on the printed mutations table. Replace or reroll duplicate mutations.\nContamination does not wear off. Purge Contamination can remove levels and causes Exhaustion. Heal removes all contamination and mutations. Each level removed also removes one random mutation. At level 0, all symptoms and mutations end.\nA contaminated humanoid rises as a Haze Husk 24 hours after death. It rises as a Haze Wight if it had at least six class levels or Hit Dice. Raising a creature from the dead reduces its contamination by one level.\nMonstrous Transformation. At level 6 or higher, the creature transforms after one round. Replace its statistics, hit points, and Hit Dice with those of a monster the GM chooses. Contamination resets to 0, and the GM controls the transformed creature.\nWish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again.',
         ],
       ],
+      appearance: [
+        [
+          'A dense mass of octarine fog that forms a ghostly face twisted in anguish, with flashes of contaminated energy crackling inside it.',
+        ],
+      ],
+      lore: [
+        [
+          "This contaminated air elemental lurks in the thickest Haze and blends in with it. It exists to spread contaminating mist and enjoys causing mutation and monstrous transformation. It moves quickly into an uncontaminated creature's space and stays there to expose it to the haze, and it knocks victims unconscious so they wake as mutant horrors. Contaminated elementals appear across Drakkenheim, wherever eldritch magic is strong.",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -2724,6 +2982,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A figure in a dark hooded cloak who paces and watches you, with pale flesh, a toothy smirk and softly glowing eyes under the hood.',
+        ],
+      ],
+      lore: [
+        [
+          'It is not obvious that a lurking dreg is contaminated, since it keeps most of its old looks and personality. It is driven by a mad urge to deceive friends and loved ones into places or situations that will contaminate them too. Clues are discoloured skin and a slight octarine glow in the eyes. Apothecaries found that inside the corpses are entirely mutated, with unrecognisable organs.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Drakkenheim ruins'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -2803,6 +3073,18 @@ export default createPublicationMonsters({
           'Encounter notes: He attacks intruders who approach within 150 ft. of the palace. He cannot follow them inside and stops pursuit at the castle grounds. He ignores creatures attuned to a Seal of Drakkenheim unless they attack him or cast a spell on him, in which case he ignores that protection for 24 hours. An action presenting a seal within 30 ft. can rebuke him if he can see or hear the presenter and loses a contested Charisma check. He cannot move or take actions or reactions for 1 minute or until he takes damage. If he wins the check, he is immune to that creature’s rebuke for 24 hours. He obeys the wearer of the Crown of Westemär. Wish alone restores his sanity.',
         ],
       ],
+      appearance: [
+        [
+          'A statue of a huge dragon coiled on the tallest tower of Castle Drakken, in brass and bronze with glittering scales, diamond eyes and jewelled wings. When it wakes it trembles and cracks of octarine energy pulse through it.',
+        ],
+      ],
+      lore: [
+        [
+          'Minazorond was built by the Liberio artist Nicoletti, who said the dragon emperor came to him in a dream wanting to watch over Drakkenheim. The artist died when a pulley snapped hoisting the last piece. Now bound as guardian of the castle, the dragon believes the monsters inside belong there and that humanoids are trespassers. It wakes with a roar heard for miles, attacks anyone within 150 feet of the palace, does not speak or parley, and will not chase beyond the grounds. It is too big to enter buildings. A Seal of Drakkenheim can rebuke it, and only a wish cures its madness.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Castle Drakken'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -3072,6 +3354,18 @@ export default createPublicationMonsters({
       page: 202,
       alignment: 'chaotic evil',
       languages: ['Speaks Common'],
+      appearance: [
+        [
+          'Yellow-purple eyes glint down a dark tunnel, then a surging mass of furry bodies in mud-spattered cloth and greasy leather rushes forward, chittering and squealing with rust-caked blades in their claws.',
+        ],
+      ],
+      lore: [
+        [
+          'Ratlings are oversized mutated rats driven by malice and a mad compulsion to eat and multiply. They are torn between cowardly survival instinct and violent impulse, and they will eat anything but prefer people, taking captives back to the lair as fresh food. Thousands live in the city in warring colonies, digging mazes of burrows with many entrances and tight looping passages. Colonies grow fast, since ratlings mature in weeks when food and delerium are plentiful.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Ruins', 'Tunnels'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -3148,6 +3442,18 @@ export default createPublicationMonsters({
           'Base stat block: Spy, SRD 5.1 (2014 fifth-edition rules), with traits and Bite from the adventure’s Ratling. The variant changes the creature type to Monstrosity and adds climb and swim speeds. Size, alignment, and remaining statistics follow Spy.',
         ],
       ],
+      appearance: [
+        [
+          'A cloaked ratling steps out of the shadows with a wicked blade of delerium in its claws and a hand crossbow with poisoned bolts at its side. It shoots, then darts away from cover before lunging in.',
+        ],
+      ],
+      lore: [
+        [
+          'Guttersnipes survive the ruins by stealth, cunning and dirty tricks, and other ratlings respect and fear them. They plan ambushes, set deadly traps and lure prey into bad ground, and they arm themselves from the corpses of faction agents and explorers. They sneak out of the ruins to steal supplies and sometimes break into isolated homes and farms at night. Having seen what delerium does to humanoids, they use it as a weapon, relying on contamination as much as the blade.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3410,6 +3716,14 @@ export default createPublicationMonsters({
           'The printed level and slots are retained, including four 1st-level slots for the 3rd-level caster.',
         ],
       ],
+      appearance: [['A hard-bitten Drakkenheim survivor who takes whatever comes to hand.']],
+      lore: [
+        [
+          "The scoundrel's outlook in the source is that you grab anything you can, since it might fund the next big score or just keep you alive another day. This is a street survivor of the ruined city rather than a monster, so expect opportunism and quick exits over a stand-up fight.",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Urban', 'Ruins'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3506,6 +3820,18 @@ export default createPublicationMonsters({
           'Haze-native creatures: Printed source. Appendix A, pp. 196–197. These traits leave the creature’s CR as printed. They apply to Haze natives and exclude creatures recruited or summoned by the party.\nFully Contaminated. Immune to contamination and has advantage on saves against contaminated spells.\nHaze Adaptation. Can benefit from a long rest in the Haze. It can see twice as far through the Haze and Deep Haze.\nHaze Dependence. Gains one Exhaustion level for each 24 hours outside the Haze. It can remove those levels only in the Haze.\nDelerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'An emaciated Dreg with long barbs of overgrown bone and delerium shards bursting from its spine and spindly limbs, gaunt cheeks pushing through the flesh and eyes that shimmer with a warped glow.',
+        ],
+      ],
+      lore: [
+        [
+          'Contamination warped the skeleton of these Dregs so spiked barbs burst from the flesh, which they launch or use as spurs to climb. A spined dreg prefers low roofs and second storeys, attacking at range or leaping onto enemies to grapple, and avoids open streets. It climbs away if hurt below half strength and outnumbered.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -3601,6 +3927,18 @@ export default createPublicationMonsters({
           'Delerium Healing. As an action, touch a delerium shard to regain 10 (3d6) HP. That shard cannot heal this way again for 24 hours.',
         ],
       ],
+      appearance: [
+        [
+          'A wet, saggy-skinned creature with masses of deep purple tentacles in place of arms, four more on its back, a long purple tongue and weeping wounds sprouting small tendrils, wobbling as it slops forward.',
+        ],
+      ],
+      lore: [
+        [
+          'Tentacles are one of the commonest mutations in Drakkenheim, and Academy researchers cannot say why; one theory is that the Haze comes from a watery plane, another that tentacles help creatures survive in it. A tentacled dreg climbs and swims well and likes to wait on a perch or in water, then constricts its prey. It retreats by climbing or swimming if outnumbered and below half strength.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -3681,6 +4019,18 @@ export default createPublicationMonsters({
       page: 220,
       alignment: 'any alignment',
       languages: ['Any two languages'],
+      appearance: [
+        [
+          'A grizzled, grim ranger who stalks streets and rooftops, leaping between buildings and scaling walls.',
+        ],
+      ],
+      lore: [
+        [
+          "Urban rangers train daily to survive Drakkenheim's horrors, hunting among the ruins the way woodland rangers hunt forest paths and treetops. They depend on never missing a shot, a turn or a lurking monster, since lives beyond their own rest on it.",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3765,6 +4115,18 @@ export default createPublicationMonsters({
           'Arcane anomalies (Drakkenheim): Printed source. Appendix D, p. 225. Roll 1d20 for the anomaly.\n1. Gravity fails in a 100-ft. radius for 1 hour. Unattended objects drift. Creatures float and can move as if climbing by pushing or pulling against surfaces or fixed objects.\n2. The nearest creature is subject to Hideous Laughter, save DC 15. It babbles instead of laughing.\n3. Creatures within 60 ft. are Stunned for 1 round, with no save.\n4. The nearest creature gains Blink for 1 minute and slips through time when it vanishes.\n5. In a 20-ft. radius, creatures make a DC 15 Constitution save. Failure deals 8d6 radiant damage and Blinds for 1 round. Wood turns into glass.\n6. For 1 minute, attacks that hit within 60 ft. show a vision of the target dying from the hit.\n7. Creatures within 30 ft. are subject to Irresistible Dance, save DC 15.\n8. Part of the surroundings becomes a delerium elemental appropriate to its element.\n9. The GM chooses or randomly determines an extraplanar creature. It stays for 1 hour and is friendly to whoever triggered the anomaly.\n10. Humanoid corpses within 120 ft. rise as hostile Haze Husks.\n11. The shadows of 1d6 random creatures come alive and attack their owners. Destroying a shadow leaves its owner without one for 24 hours.\n12. Creatures within 60 ft. become Invisible for 1 minute, ending for each creature when it attacks or casts a spell.\n13. The nearest creature makes a DC 15 Constitution save against 8d8 necrotic damage, halved on success. The next three nearest creatures within 60 ft. each heal the damage it took.\n14. Hypnotic Pattern appears, save DC 15. Those Incapacitated by it weep.\n15. Black Tentacles appears in the area for 1 hour, escape DC 15.\n16. Objects within 60 ft. animate for 1 hour as under Animate Objects. They speak and remain nonhostile.\n17. The nearest creature becomes an awakened shrub for 1 hour or until it drops to 0 HP, with no save.\n18. Up to six random creatures within 120 ft. are subject to Slow for 1 minute, save DC 15.\n19. One random creature within 60 ft. gains Haste for 1 minute.\n20. A bowl of flowers and an aquatic mammal appear 100 ft. overhead.',
         ],
       ],
+      appearance: [
+        [
+          'A hunched, bulky humanoid of stone and crystal on short rubble legs, with boulder-and-brick arms ending in fists bristling with delerium spikes and an elongated crystal head whose fractures form a sorrowful face.',
+        ],
+      ],
+      lore: [
+        [
+          'This contaminated earth elemental rises from collapsed ruins that look like delerium deposits, and prospectors have mistaken it for one and died. It is common near large deposits. It waits until someone tries to harvest its crystals, then batters targets with its shards. Part of the Drakkenheim elementals that make the city seem alive and hostile.',
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -3852,6 +4214,18 @@ export default createPublicationMonsters({
           'Base stat block: Gargoyle, SRD 5.1. Add truesight, Faultless Tracker, Keen Sight, Magic Weapons and Rejuvenation.',
         ],
       ],
+      appearance: [
+        [
+          'A winged stone creature like a fiendish bat with a grotesque grin or snarl, perfectly still, yet it seems to have turned to look at you.',
+        ],
+      ],
+      lore: [
+        [
+          "Wall gargoyles were set every fifty feet around Drakkenheim's wall as a defence made with dwarven stonework and Amethyst Academy magic. The Haze has corrupted them, so they now attack anyone, friend or foe, who climbs more than halfway up the walls or towers, flies within 150 feet of them or lingers on them for ten minutes. They attack directly, tear apart a downed victim, and chase quarry into the city until one side is destroyed.",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['City walls'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -4034,6 +4408,18 @@ export default createPublicationMonsters({
           'Delerium contamination: Printed source. Appendix C, pp. 222–223.\nAdd contamination levels from each exposure. A contaminated character rolls 1d20 at the end of each long rest and gains one level on a 1.\nSymptoms are cumulative. Level 1 has no symptom. Level 2 halves healing from Hit Dice. Level 3 prevents HP recovery from a long rest. Level 4 halves damage the creature deals with weapon attacks and spells. Level 5 makes it Incapacitated. Level 6 triggers Monstrous Transformation.\nAfter a character gains a level, roll 1d6. On a result at or below the current level, the GM chooses a new mutation or rolls on the printed mutations table. Replace or reroll duplicate mutations.\nContamination does not wear off. Purge Contamination can remove levels and causes Exhaustion. Heal removes all contamination and mutations. Each level removed also removes one random mutation. At level 0, all symptoms and mutations end.\nA contaminated humanoid rises as a Haze Husk 24 hours after death. It rises as a Haze Wight if it had at least six class levels or Hit Dice. Raising a creature from the dead reduces its contamination by one level.\nMonstrous Transformation. At level 6 or higher, the creature transforms after one round. Replace its statistics, hit points, and Hit Dice with those of a monster the GM chooses. Contamination resets to 0, and the GM controls the transformed creature.\nWish or similar magic can restore one transformed creature, clearing its madness and contamination. Using Wish this way gives the caster a 33 percent chance of losing the ability to cast it again.',
         ],
       ],
+      appearance: [
+        [
+          'A lone figure in ethereal robes glides through the air with a wrought-iron lantern burning with eldritch light, and draws back its hood to show furious eyes before it screams.',
+        ],
+      ],
+      lore: [
+        [
+          "Warp witches are ghostly spirits that haunt the places where they died, grasping for memories of who they were. The Haze weakens the barriers between planes and has strengthened the pull that draws the dead back. A witch opens with a psychic scream, then possesses a foe, tricks the host's allies and urges bizarre useless actions as a cure, while mutating the host, and leaves when the host undergoes a monstrous transformation.",
+        ],
+        ['Sources: ', 'Dungeons of Drakkenheim'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'medium',
         type: 'undead',

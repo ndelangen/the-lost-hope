@@ -3637,6 +3637,16 @@ export default createPublicationMonsters({
         ['Base creature: Cult Fanatic'],
         ['Applied templates: Tiefling'],
       ],
+      appearance: [
+        ['A cult leader who sits long hours behind a desk, watching a burning fireplace.'],
+      ],
+      lore: [
+        [
+          "Kadroth runs the Ten-Towns cult from an office he took, claiming a connection to Levistus. He rules by force of personality and resents that Hethyl Arkorran has more respect and influence. He keeps Avarice out of cult affairs because he fears her magic and Arcane Brotherhood ties. He is a visionary who has strengthened the cult, is easily upset by disturbances, and keeps Speaker Crannoc Siever on show as the nominal leader to calm Caer-Dineval's townsfolk.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Ten-Towns', 'Caer-Dineval'],
       stats: {
         size: 'medium',
         type: 'humanoid',

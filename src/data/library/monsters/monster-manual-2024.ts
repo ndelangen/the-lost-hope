@@ -514,6 +514,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Yeti.'],
       habitats: ['Arctic'],
+      appearance: [
+        [
+          'A huge ape-like brute with pale, snow-coloured fur and ram-like horns rises out of the snow and ice, announced by a bone-chilling howl just before it strikes.',
+        ],
+      ],
+      lore: [
+        [
+          'Yetis hunt anyone who trespasses on their frozen ground, reclusive and merciless, blending into snow and ice until a howl announces the attack. They can freeze prey with a look and hurl ice, and they shy from fire, which is why mountain settlements burn bonfires. The abominable kind is bigger, stronger and bloodthirstier, claims whole regions as hunting ground and may track trespassers for days. It throws boulders of ice and snow before closing in, can exhale arctic cold, and lairs in frigid ruins or abandoned monster dens atop infamous peaks.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -3025,6 +3036,17 @@ export default createPublicationMonsters({
       languages: ['All.'],
       habitats: ['Planar (Beastlands)'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'Animal lords look like hybrids of a person and the animal they guard, and they can swell into a giant, idealised version of that animal with glowing eyes. Among people they often take a humanlike form with only subtle animal features.',
+        ],
+      ],
+      lore: [
+        [
+          "An animal lord is the immortal spirit of a legendary animal and acts as divine protector of that animal's kind. It has the instincts of its animal, shaped by intellect and long experience. Most live in the Beastlands and sometimes the Feywild, and they come to the Material Plane only when an environmental disaster or mass threat to animals demands it. They can call spectral animals and channel spiritual power.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -3283,6 +3305,17 @@ export default createPublicationMonsters({
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
       ],
+      appearance: [
+        [
+          'Animal lords look like hybrids of a person and the animal they guard, and they can swell into a giant, idealised version of that animal with glowing eyes. Among people they often take a humanlike form with only subtle animal features. A forager is tied to the gathering, grazing or burrowing traits of its animal.',
+        ],
+      ],
+      lore: [
+        [
+          "An animal lord is the immortal spirit of a legendary animal and acts as divine protector of that animal's kind. It has the instincts of its animal, shaped by intellect and long experience. Most live in the Beastlands and sometimes the Feywild, and they come to the Material Plane only when an environmental disaster or mass threat to animals demands it. They can call spectral animals and channel spiritual power. Foragers draw on the traits of animals known for gathering and sustaining, and their powers follow that bent.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -3477,6 +3510,17 @@ export default createPublicationMonsters({
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
       ],
+      appearance: [
+        [
+          'Animal lords look like hybrids of a person and the animal they guard, and they can swell into a giant, idealised version of that animal with glowing eyes. Among people they often take a humanlike form with only subtle animal features. A hunter takes on the predatory look of its animal.',
+        ],
+      ],
+      lore: [
+        [
+          "An animal lord is the immortal spirit of a legendary animal and acts as divine protector of that animal's kind. It has the instincts of its animal, shaped by intellect and long experience. Most live in the Beastlands and sometimes the Feywild, and they come to the Material Plane only when an environmental disaster or mass threat to animals demands it. They can call spectral animals and channel spiritual power. Hunters draw on the traits of predatory animals, and they read fear in those who call themselves hunters.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -3670,6 +3714,17 @@ export default createPublicationMonsters({
         ],
         ['Movement notes: Can hover'],
         ['fly · (hover)'],
+      ],
+      appearance: [
+        [
+          'Animal lords look like hybrids of a person and the animal they guard, and they can swell into a giant, idealised version of that animal with glowing eyes. Among people they often take a humanlike form with only subtle animal features. A sage carries the watchful, wise bearing of its animal.',
+        ],
+      ],
+      lore: [
+        [
+          "An animal lord is the immortal spirit of a legendary animal and acts as divine protector of that animal's kind. It has the instincts of its animal, shaped by intellect and long experience. Most live in the Beastlands and sometimes the Feywild, and they come to the Material Plane only when an environmental disaster or mass threat to animals demands it. They can call spectral animals and channel spiritual power. Sages draw on the traits of animals known for wisdom and insight, and their powers follow that bent.",
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -3937,6 +3992,17 @@ export default createPublicationMonsters({
         ['fly · (hover)'],
         ['Initiative details: +5 to the roll. Initiative score 15.'],
       ],
+      appearance: [
+        [
+          'An ordinary household broom hovers upright or sweeps about on its own, with no one holding it.',
+        ],
+      ],
+      lore: [
+        [
+          'Magic can make mundane objects do simple tasks and defend what their maker wants kept safe. A broom keeps its surroundings tidy and defends them when needed, launching into the air and darting about to attack from unexpected angles. Left unattended it may guard a place for ages or repeat its chore until it wears out. Other flying objects, such as tools or staffs, might use the same stat block.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'construct',
@@ -4105,6 +4171,17 @@ export default createPublicationMonsters({
       languages: ['All languages and telepathy 120 ft.'],
       habitats: ['Lower Planes'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A sly, jackal-headed humanoid in fine robes, well groomed, which can take any humanoid shape to win trust, replacing the snarl with a winning smile.',
+        ],
+      ],
+      lore: [
+        [
+          "Arcanaloths are yugoloths of magical manipulation who hoard and trade on secrets. They command lesser yugoloths and keep their kind's contracts, records and accounts, speak and write every language, and make cunning negotiators who broker treaties for the right price. They prefer servants and other yugoloths to do the fighting, and in a fight can banish foes into their tomb's pages.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -4290,6 +4367,17 @@ export default createPublicationMonsters({
         [
           "Regional effects: Lapsus Linguae. Within 1 mile of the lair, creatures other than the hag and her allies subtract 1d10 from ability checks made as part of the Influence action.\nMeddlesome Magic. When a creature other than the hag or an ally finishes a Long Rest within 1 mile of the lair, its next spell cast with a spell slot also casts Confusion centered on that creature. Confusion uses the creature's spellcasting ability and requires no Concentration.\nBoth effects end immediately when the arch-hag is destroyed or relocates her lair.",
         ],
+      ],
+      appearance: [
+        [
+          'An immortal hag with odd affectations, who may show up wearing one of her bizarre fascinations as readily as her power.',
+        ],
+      ],
+      lore: [
+        [
+          'Arch-hags hoard forbidden and multiversal secrets and make magical bargains, bending fate to suit their whims. They are unpredictable, selfish and greedy, but they strike deals to advance their plots. Knowledge always has a price, such as an odd errand, a magic item, or something intangible like a memory or a year of life. Most avoid fights and flee by magic if beaten to plot revenge. Each has a secret weakness tied to a past encounter or to something opposed to its magic, and it can be destroyed only while that weakness is near.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'large',
@@ -4548,6 +4636,17 @@ export default createPublicationMonsters({
         ['Gear: Wand.'],
         ['Immune to Charmed while under Mind Blank.'],
       ],
+      appearance: [
+        [
+          'A powerful, usually elderly spellcaster, often found in a remote tower or at the side of a ruler, with apprentices nearby.',
+        ],
+      ],
+      lore: [
+        [
+          'Archmages have mastered immense magical power and use it very differently. Some protect the world, some become tyrants or chase forbidden secrets and lichdom, and some shut themselves away in remote towers. They tend to keep magical servants, apprentices, and collections of magic items and occult lore, and their homes are full of wards and guardians that discourage visitors.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4671,6 +4770,15 @@ export default createPublicationMonsters({
       languages: ['Common plus two other languages.'],
       habitats: ['Any'],
       tableNotes: [['Gear: Chain Mail, Holy Symbol.']],
+      appearance: [
+        ['A senior holy figure whose dress and symbols reflect the faith or creed they serve.'],
+      ],
+      lore: [
+        [
+          "Archpriests have forged ties with divine beings and mastered mystical truths, so they act as conduits for godly will. Their magic works wonders, whether to share their faith's kindness or to vent divine wrath. Some gather vast followings by claiming to speak for the divine, and others go on personal spiritual journeys and aim to transcend mortal concerns.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4909,6 +5017,17 @@ export default createPublicationMonsters({
       habitats: ['mountain', 'planar', 'fire'],
       tableNotes: [
         ['Flame Burst is printed as a Melee or Ranged Attack Roll (Wisdom-based, +7 to hit).'],
+      ],
+      appearance: [
+        [
+          'A living-bronze figure of an azer, a smith of the Plane of Fire, who works in and with flame.',
+        ],
+      ],
+      lore: [
+        [
+          "Azers are living bronze folk who craft weapons and magical wonders amid the multiverse's greatest fires. A pyromancer calls flame from the Elemental Plane of Fire to defend itself and to stoke magical forges.",
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -5323,6 +5442,17 @@ export default createPublicationMonsters({
         ['Initiative details: +9 to the roll. Initiative score 19.'],
         ['Gear: 2 pistols, scimitar, studded leather armor.'],
       ],
+      appearance: [
+        [
+          'A criminal boss who rules a gang, dressed and armed better than the ruffians who serve it.',
+        ],
+      ],
+      lore: [
+        [
+          'Bandits take what they want by threat of violence, and not all do it for greed: some are pushed by unjust laws, desperation or merciless leaders. A crime lord manipulates a shadowy organisation and puts its own survival above any single lackey or scheme, treating the world as something to rule one piece at a time.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -5503,6 +5633,17 @@ export default createPublicationMonsters({
       languages: ['Common', 'Elvish.'],
       habitats: ['any'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          "A luminous, wispy form that faintly recalls an elf's face, wreathed in wild hair and wisps of rags that flutter around it, with a faint wailing cry.",
+        ],
+      ],
+      lore: [
+        [
+          'A banshee is a spirit consumed by unresolved bitterness or sorrow, heralding doom and killing those who see it or hear its wail. In the 2014 book it is the undead remnant of a beautiful elf who used her gift to corrupt others, bound to the place of her death. It covets fine art and jewellery and flies into a rage at its own reflection. Some elven communities fear that those who hoard or destroy beauty may return as banshees.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -7987,6 +8128,17 @@ export default createPublicationMonsters({
       languages: ['Bullywug', 'Common.'],
       habitats: ['swamp'],
       tableNotes: [['Gear: Component Pouch.']],
+      appearance: [
+        [
+          "A frog-like humanoid with mottled skin who moves through the swamp as if it owned it, trailed by the swamp's own creatures.",
+        ],
+      ],
+      lore: [
+        [
+          'Bullywugs are fey embodiments of swamplands who guard the murk and believe they are cosmically favoured to do it, and they keep close ties with swamp creatures. A bog sage channels swamp magic to sicken foes and to speak with plants. The 2014 book adds that bullywugs are evil, use grand titles, grovel to their betters and raid for treasure to impress their lords, fleeing from serious threats.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -9322,6 +9474,17 @@ export default createPublicationMonsters({
       page: 75,
       alignment: 'unaligned',
       habitats: ['Grassland'],
+      appearance: [
+        [
+          'A cockatrice that looks like an angry rooster crossed with a starving reptile, bigger and more imposing than its lesser kin.',
+        ],
+      ],
+      lore: [
+        [
+          'Cockatrices turn flesh to stone through a bite or peck. A regent is bolder than its smaller cousins and brims with unstable magical energy that it uses to restrain distant foes. The 2014 book describes cockatrices as eating small prey and berries, but attacking in a frenzied rush at any hint of danger, wings beating and head darting in to peck.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -9439,6 +9602,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["Understands Celestial and Common, and can't speak."],
       habitats: ['Any'],
+      appearance: [
+        [
+          'A towering statue-like construct shaped to honour a deity, with a large crystal at its heart that glows with divine power.',
+        ],
+      ],
+      lore: [
+        [
+          "Colossi are huge constructs built by the devout to reflect a deity's nature, good or evil. Many artisans work for decades, then call on the god to give the statue life, and if the god approves the heart crystal pulses and the colossus rises. Most were made in ages past and now lie dormant in remote wilderness, waking when disturbed or called to serve again.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'construct',
@@ -9966,6 +10140,17 @@ export default createPublicationMonsters({
       languages: ['Common.'],
       habitats: ['Any'],
       tableNotes: [['Gear: Holy Symbol, Leather Armor.']],
+      appearance: [
+        [
+          'A zealot dressed and marked with the symbols of their cult, which may mean something only to the cult itself.',
+        ],
+      ],
+      lore: [
+        [
+          "Cults use magic and extreme measures to spread radical beliefs, follow obscure traditions or prophecies, and take orders from those with greater supernatural power. Fanatics lead small cults or cells within larger ones. They know more of the cult's mysteries than the rank and file and gain magical power from their patrons.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -10703,6 +10888,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common.'],
       habitats: ['any'],
+      appearance: [
+        [
+          'A skeletal warlord in fearsome plate armour, with pinpoints of malevolent light burning in the eye sockets of its skull.',
+        ],
+      ],
+      lore: [
+        [
+          'Death knights are deadly fighters and domineering commanders with grim histories. In the 2014 book they rise when a paladin who falls from grace dies without atoning. They lead undead or fiendish followers and ride skeletal horses or nightmares. Some try to end the curse that binds them, though their selfish souls keep them shackled, while others, like Lord Soth, brood in ruins for centuries and wake only when something rekindles their evil. A destroyed one can rise again until it atones.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'undead',
@@ -11160,6 +11356,17 @@ export default createPublicationMonsters({
           'In its lair: 13,000 XP. The traits and Legendary actions sections give the increased resource limits.',
         ],
       ],
+      appearance: [
+        [
+          'A huge bare skull floating in the air with a single red point of light in its hollow eye socket and ten spectral eyes hovering above it.',
+        ],
+      ],
+      lore: [
+        [
+          'A death tyrant is a beholder that goes on beyond death. Beholders become them when their dreams fixate on death, when they are slain, or through strange magic. It keeps its cunning and rules over others, and its central eye turns enemies and slaves into undead servants. It often lurks in the Underdark in its old lair or one it conquered, and it uses zombies as guards and bait. Its goals are extreme and beyond the reason of the living.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -11477,6 +11684,17 @@ export default createPublicationMonsters({
           'In its lair: 22,000 XP. The traits and Legendary actions sections give the increased resource limits.',
         ],
       ],
+      appearance: [
+        [
+          'A skull, often set with gems or arcane sigils, that rises into the air and takes on a wraith-like form when disturbed.',
+        ],
+      ],
+      lore: [
+        [
+          'A demilich is the last remnant of a lich that has turned inward and let its body rot, left with a fragment of its malevolent life force. It guards its trap-filled sanctum and, when disturbed, wails to terrify or kill. Left alone it sinks back to quiet. Its phylactery still survives, and it can regain strength while that phylactery lasts. The most famous demilich is Acererak in the Tomb of Horrors.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -11630,6 +11848,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Goblin', 'Sylvan', 'Worg.'],
       habitats: ['Forest', 'grassland', 'hill', 'Feywild'],
+      appearance: [
+        [
+          'A wolf as big as a horse, sometimes taken for a giant wolf at first glance, with a sapient, malicious look.',
+        ],
+      ],
+      lore: [
+        [
+          'Dire worgs are bigger than ordinary worgs and have a supernaturally terrifying howl. They often hunt alongside ettins, ogres and trolls. Like other worgs they are sapient, speak, taunt prey and enjoy its fear.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'fey',
@@ -12100,6 +12329,15 @@ export default createPublicationMonsters({
         [
           'Regional effects: Sapping Mist. Pale fog makes the area within 1 mile of the lair Lightly Obscured. A creature that finishes a Long Rest in that area must pass a DC 15 Constitution save or gain 1 Exhaustion level. The dracolich and its allies are exempt from this save.\nSoul Drain. Creatures within 1 mile of the lair make Death Saving Throws with Disadvantage.\nBoth effects end immediately if the dracolich is destroyed or moves its lair. They resume if it gains a new body.',
         ],
+      ],
+      appearance: [
+        ['A skeletal dragon with rotting remains, its breath a chilling blast of necrotic energy.'],
+      ],
+      lore: [
+        [
+          'A dracolich is a dragon that has escaped death by binding its spirit to a gem and animating its own corpse. It continues the plots it pursued in life and seeks revenge on those who brought it down. It slowly sickens the land around its lair and draws undead and cultists. Living dragons of every kind hate dracoliches as perversions of draconic magic.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'huge',
@@ -12755,6 +12993,17 @@ export default createPublicationMonsters({
       languages: ['Common', 'Druidic', 'Sylvan.'],
       habitats: ['Any'],
       tableNotes: [['Gear: Studded Leather Armor.']],
+      appearance: [
+        [
+          'A hermit or tribal sage of the wild places, dressed for the weather and often in the company of animals.',
+        ],
+      ],
+      lore: [
+        [
+          'Druids use primal magic, traditional teaching and bonds with animals and eldritch beings to guard nature and heal its wounds. They may be recluses devoted to one land or part of a mystic order. They protect the wild from monsters and from encroaching civilisation, and some serve as tribal shamans who heal the sick and guide spiritually.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -13044,6 +13293,17 @@ export default createPublicationMonsters({
       languages: ['Primordial.'],
       habitats: ['Planar', 'elemental chaos'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A being of dissonant elemental forces, raw and violent, howling condemnations as it destroys.',
+        ],
+      ],
+      lore: [
+        [
+          'Elemental cataclysms are born of the primal clash in the Elemental Chaos and destroy nearly everything they meet, leaving ruins ready for new creation. They rarely leave the Chaos, typically through a planar disruption or the summons of nihilistic cultists. On the Material Plane they wreck cities and shake nations. They hate anything that visibly marks nature, such as mines, monuments and cities, and most of all works of metal and clockwork, chanting words of unmaking as they go.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -13941,6 +14201,15 @@ export default createPublicationMonsters({
       languages: ['Abyssal', 'Common', 'Infernal.'],
       habitats: ['Any'],
       tableNotes: [['Gear: Breastplate.']],
+      appearance: [
+        ['A cultist marked with symbols of a fiendish patron, carrying out its dark will.'],
+      ],
+      lore: [
+        [
+          'Fiend cultists worship fiends or evil deities and often work to ruin innocents or to summon their patron into the world. Their patrons may be archdevils, demon lords or foul immortals such as Demogorgon, Pazuzu, Iuz, Zariel or Zuggtmoy.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -14193,6 +14462,13 @@ export default createPublicationMonsters({
         ['4. Returns to familiar work such as cleaning, cooking, mining, or praying.'],
         ['5. Reenacts its final moments.'],
         ['6. Guards the post it held in life.'],
+      ],
+      appearance: [['A skeleton burning with blazing necromantic energy, its bones lit by flame.']],
+      lore: [
+        [
+          'Skeletons rise at the call of necromancers and foul spirits and serve as guardians, soldiers or labourers. A flaming skeleton burns with unbridled necromantic energy, which gives it blazing attacks and greater awareness that it uses to command lesser undead.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -14821,6 +15097,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       habitats: ['Underdark'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A hollow, balloon-like sphere that floats and looks like a beholder from a distance, with one blind central eye and rhizome growths like eyestalks on top.',
+        ],
+      ],
+      lore: [
+        [
+          "Gas spores float, orbicular fungi that mimic a beholder's stalks and eyes. If destroyed, one bursts in a poisonous cloud that infects creatures and can kill them within hours. Infected corpses sprout new gas spores that reach full size within days. The 2014 book says the first grew from dead beholders, and a spore from a beholder corpse may carry fragments of the parent's memories, which survivors of the spores may inherit.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'plant',
@@ -15119,6 +15406,17 @@ export default createPublicationMonsters({
       languages: ['Common plus one other language.'],
       habitats: ['underdark', 'urban'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A semitransparent version of the person it was in life, sometimes showing the wounds that killed it or a nightmarish distortion of its form, with a cold, sad or oppressive feel around it.',
+        ],
+      ],
+      lore: [
+        [
+          'A ghost is a soul bound to a place, creature or object that mattered to it, usually because it died in extreme emotion or with a task undone. It may seek revenge, keep an oath or deliver a message, or may not realise it has died. It reacts strongly to things tied to its life, and a desperate or vengeful one may possess the living. The surest way to remove it is to settle its unfinished business, and a weakness tied to its past life can destroy it.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -17203,6 +17501,17 @@ export default createPublicationMonsters({
       languages: ['Common', 'Gith.'],
       habitats: ['planar', 'limbo'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A gaunt, humanlike githzerai, physically the same as a githyanki, with the calm of someone trained to reshape the mind.',
+        ],
+      ],
+      lore: [
+        [
+          "Githzerai follow Zerthimon's teaching and remake their minds and bodies to find peace, building hidden sanctuaries mostly in Limbo but also in the Abyss, Elemental Chaos and Feywild. Psions oversee those sanctuaries, study odd planar events and lead rrakkma, hostile raids into mind flayer colonies to kill illithids and learn how the ancient gith were changed.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -17474,6 +17783,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'Gnoll.'],
       habitats: ['Deserts', 'forests', 'grasslands', 'and hills'],
+      appearance: [
+        [
+          'A gnoll remade by Abyssal power, a fiend in feral flesh with the usual cackling hyena look of its kind.',
+        ],
+      ],
+      lore: [
+        [
+          "Gnolls come from hyenas that fed on Abyss-tainted flesh and serve the demon lord Yeenoghu. A demoniac is a berserker that arises from a gnoll that has ritually fed on Abyss-corrupted flesh. It embodies the demon lord's ruinous hunger and throws itself into battle regardless of odds or survival, and in a frenzy it may devour other gnolls.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -17850,6 +18170,15 @@ export default createPublicationMonsters({
         'underdark',
       ],
       tableNotes: [['Initiative details: +3 to the roll. Initiative score 13.']],
+      appearance: [
+        ['A goblin dressed and acting theatrically, in exaggerated mimicry of an archmage.'],
+      ],
+      lore: [
+        [
+          'Goblins love loud, convoluted wreckage and follow whoever pulls off the wildest plan. Hexers use flashy, disruptive magic, and many are theatrical, dressing and behaving in exaggerated imitation of archmages.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'fey',
@@ -19336,6 +19665,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common', 'Druidic.'],
       habitats: ['Forest'],
+      appearance: [
+        [
+          'A gnarled plant with limb-like growths and a vicious maw, lurking among ordinary vegetation.',
+        ],
+      ],
+      lore: [
+        [
+          "Gulthias blights are ancient plants twisted by evil. They feed on blood, despoil the surrounding land, and often give rise to subservient blights. The first was a tree that grew from the stake through the vampire Gulthias's heart. They treat every creature as either a servant or fertiliser for their corruption.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'plant',
@@ -19450,6 +19790,17 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Common', 'Draconic.'],
       habitats: ['Any'],
+      appearance: [
+        [
+          'A warrior with draconic traits, such as scales or the look of a chromatic or metallic dragon.',
+        ],
+      ],
+      lore: [
+        [
+          "Half-dragons are made by magical rites using dragon essence, most often by chromatic dragons wanting servants with a trace of their might. They lead a dragon's servants or act as its agents where it would draw attention. They share the personality and aims of their source dragon, though those like chromatic dragons often hate their creator. Metallic half-dragons are rare, arising through accidents, reckless mages or a dying dragon's last act.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -20338,6 +20689,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Infernal and telepathy 120 ft..'],
       habitats: ['Nine Hells'],
+      appearance: [
+        [
+          'A winged devil as tall as an ogre, with huge sweeping horns and iron-tough scales, dropping from the sky wielding a fork and lashing its tail.',
+        ],
+      ],
+      lore: [
+        [
+          'Horned devils, also called cornugons or malebranche, are the flying infantry of the infernal legions and follow orders to the letter. They are lazy to the point of belligerence, reluctant to risk themselves, and hate and fear anything stronger than themselves, though provoked, their fury is terrifying. They torment foes with hellish flame and pernicious wounds, and lead other devils in battle for diabolical generals.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -20911,6 +21273,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal. Telepathy 60 ft.'],
       habitats: ['Lower Planes and urban'],
+      appearance: [
+        [
+          "A dark-winged fiend that slips in as an ethereal presence beside a sleeper's bed and whispers forbidden suggestions before taking a form that suits its victim.",
+        ],
+      ],
+      lore: [
+        [
+          "Incubi feed on mortal dreams and replace them with nightmares, visiting a victim nightly until the victim dies, and then moving on to new prey, often the victim's loved ones. They can become succubi and back again, whichever form serves their manipulation. They serve devils, demons, night hags, rakshasas and yugoloths, and Asmodeus and Graz'zt use them to tempt mortals to evil. Mortals seldom see their true form, as the fiend corrupts in veiled, insidious ways.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -21401,6 +21774,17 @@ export default createPublicationMonsters({
       languages: ['Common', 'Draconic.'],
       habitats: ['Shadowfell', 'Underdark'],
       tableNotes: [['Damage resistances: Conditional resistance from Living Shadow.']],
+      appearance: [
+        [
+          'A dragon drained of its former colour or lustre, dark and shadowy, haunting lightless forgotten places.',
+        ],
+      ],
+      lore: [
+        [
+          'Shadow dragons may once have been other dragons, stripped of colour by planar forces, negative energy or sinister magic. Their breath saps life, and creatures it kills rise as shades obedient to the dragon. They live in the Underdark, especially near links to the Shadowfell, and may lurk in dark, corrupted parts of their old territory. The 2014 book adds that some were born in the Shadowfell or changed by long stays there, and that some embrace its bleakness while others want to return and spread its darkness.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -21883,6 +22267,13 @@ export default createPublicationMonsters({
       languages: ['Undercommon'],
       habitats: ['Coastal', 'Underdark'],
       tableNotes: [['Gear: Spear.']],
+      appearance: [['A slimy humanoid with the goggle-eyed head of a deep-sea fish.']],
+      lore: [
+        [
+          'Kuo-toa say they once ruled lands and seas under fish gods, and blame elves, humans, mind flayers and their own gods for its end. They now live in Underdark trenches and seas, brooding and plotting revenge for slights that may never have happened. The 2014 book explains that mind flayers enslaved them and their minds broke, giving rise to fanatic religion; they cannot stand daylight. Kuo-toa loot ruins, raid nearby communities, use slime-coated shields to disarm foes and slimy nets to trap them, and usually try to take captives alive to drag back to hidden lairs. Most obey stronger leaders from a mix of faith and fear.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -22426,6 +22817,17 @@ export default createPublicationMonsters({
           'In its lair: 41,000 XP. The traits and Legendary actions sections give the increased resource limits.',
         ],
       ],
+      appearance: [
+        [
+          'A gaunt, skeletal humanoid in rotted finery, withered skin drawn over its bones and points of light burning in empty eye sockets. Older liches are little more than brittle bone.',
+        ],
+      ],
+      lore: [
+        [
+          'A lich is a spellcaster who severed its soul from its body through forbidden necromancy and keeps the soul in a hidden relic, puppeting its corpse. It pursues arcane secrets, the secrets of life, the multiverse and godhood, with no regard for mortal lives. Being deathless, it plans over years, decades or centuries, hungers for forgotten knowledge, and is scheming and often insane.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -22938,6 +23340,13 @@ export default createPublicationMonsters({
         ['Initiative details: +2 to the roll. Initiative score 12.'],
         ['Gear: Component Pouch.'],
       ],
+      appearance: [['A young spellcaster working under a master, eager to learn.']],
+      lore: [
+        [
+          'Mages study mystical secrets and know monsters, legends and omens. Apprentices are spellcasters of humble skill, either students of accomplished mages or people with innate talent.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -23351,6 +23760,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Primordial (Aquan).'],
       habitats: ['Coasts', 'Elemental Plane of Water', 'underwater'],
+      appearance: [
+        [
+          'A fishlike genie in finely stitched vests and colourful pantaloons, with a body in the colours of the waves, fins and scales; in flight its lower half turns into a column of foamy water.',
+        ],
+      ],
+      lore: [
+        [
+          'Marids come from the Elemental Plane of Water and think themselves above other genies. They live in or near water, gentle ones around springs and oases, tempestuous ones around sea stacks, whirlpools and dangerous coasts. They lend power and knowledge of the sea to those who defend their waters or give pleasing gifts, such as rare pearls, shell instruments or delicacies from far seas. They can walk on water and breathe beneath it.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -25580,6 +26000,13 @@ export default createPublicationMonsters({
           'Creation: A Myconid Sovereign can use Animating Spores three times per day. It chooses a Small or Medium corpse within 5 ft. that was neither a Construct nor Undead. After 24 hours the corpse rises using this stat block. It stays animate for 1d4 + 1 weeks or until destroyed and cannot be raised by Animating Spores again.',
         ],
       ],
+      appearance: [['A corpse overgrown with fungus, walking again under the will of a myconid.']],
+      lore: [
+        [
+          "Spore servants are dead bodies overgrown and reanimated by a myconid sovereign's spores. They are extensions of the sovereign and obey its will. Myconids live in remote Underdark places overgrown with fungus and avoid other creatures' conflicts.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -26024,6 +26451,13 @@ export default createPublicationMonsters({
       languages: ['Common plus two other languages.'],
       habitats: ['any'],
       tableNotes: [['Initiative details: +7 to the roll. Initiative score 17.']],
+      appearance: [['A young person of social influence, richly dressed and confident.']],
+      lore: [
+        [
+          'Nobles are rulers, wealthy merchants, callous bureaucrats or the idle elite. A prodigy traces its lineage to a legendary hero, demigod, dragon or other ancestor that grants magical talent, and in some noble houses the source of that talent is a family secret.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -26116,6 +26550,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Undercommon.'],
       habitats: ['Underdark'],
+      appearance: [
+        [
+          'A once-human scholar warped into an otherworldly shape, with a head dominated by one huge, unblinking eye.',
+        ],
+      ],
+      lore: [
+        [
+          'Nothics are lore seekers cursed by secrets never meant to be known, and they remember nothing of their past lives. They search ruins for revelations, watch before acting, and fight only when driven to it, rotting flesh with their gaze and stealing secrets. The 2014 book traces the curse to Vecna. Some seek an end to it, but many neither know nor care.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -26479,6 +26924,17 @@ export default createPublicationMonsters({
         'Underdark',
       ],
       tableNotes: [['Gear: Battleaxe and three javelins.']],
+      appearance: [
+        [
+          'A hulking figure over eight feet tall that looks much like the person it once was but with ogre-like features, seething with anger.',
+        ],
+      ],
+      lore: [
+        [
+          'Ogrillons arise from humanoids cursed by foul magic or by the will of wrathful deities. They look like their former selves but grow past eight feet tall and gain ogre features, and they constantly seethe with supernatural anger, which they may struggle to control or deliberately vent on others. Ogres in general are selfish raiders and gluttons who covet food and treasure and spitefully destroy delicate or lovingly made things.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -26665,6 +27121,17 @@ export default createPublicationMonsters({
         [
           'Otyugh lures: Roll 1d4 or choose the bait.\n1. Puppet shapes made of trash hide its tentacles.\n2. It sings a song in Otyugh.\n3. It sends a telepathic plea for help or promises a find.\n4. It sends an image of a gem, a damaged weapon, or a snack.',
         ],
+      ],
+      appearance: [
+        [
+          'A grotesque, bulbous creature on three legs with a vine-like stalk of eyes and nose and two rubbery tentacles ending in spiky leaf-like pads.',
+        ],
+      ],
+      lore: [
+        [
+          'Otyughs live to eat and find disgusting meals best. They bury themselves in garbage or carrion in dumps, sewers and polluted ruins, leaving only the stalk showing, then lure creatures closer with glittering trash and telepathic urging before bursting out. Some creatures feed them refuse to use them as guards.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'large',
@@ -26996,6 +27463,17 @@ export default createPublicationMonsters({
         ['Initiative details: +3 to the roll. Initiative score 13.'],
         ['Gear: Shortsword.'],
       ],
+      appearance: [
+        [
+          'An entertainer such as an acrobat, juggler, minstrel or actor, in costume or with props.',
+        ],
+      ],
+      lore: [
+        [
+          'Common performers include travelling storytellers, tavern musicians, local entertainers and chorus members. They may be self-taught or early in formal training, usually have a modest celebrity, and have two or three instruments or talents they do well.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -27039,6 +27517,13 @@ export default createPublicationMonsters({
       languages: ['Common plus one other language.'],
       habitats: ['any'],
       tableNotes: [['Initiative details: +7 to the roll. Initiative score 17.'], ['Gear: Rapier.']],
+      appearance: [['A master entertainer, polished and used to commanding an audience.']],
+      lore: [
+        [
+          'Maestros are headlining performers with considerable renown, such as marquee theatre actors, astonishing daredevils or jesters practised at entertaining fickle royals. Some teach their techniques to apprentices, while others guard their secrets jealously.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -27427,6 +27912,17 @@ export default createPublicationMonsters({
         ['Initiative details: +10 to the roll. Initiative score 20.'],
         ['Gear: Pistol, scimitar.'],
       ],
+      appearance: [
+        [
+          "A commanding pirate, flying a crew's distinctive flag and giving orders to many ships and crews.",
+        ],
+      ],
+      lore: [
+        [
+          'Admirals command whole pirate fleets. They take audacious ventures, like challenging coastal navies, hunting legendary sea creatures or carving out pirate kingdoms, and may launch from hidden fortresses where they hoard treasure or keep maps to it. Some ally with followers of sea deities, underwater dwellers and sea monsters as well as other pirates.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -27533,6 +28029,13 @@ export default createPublicationMonsters({
       languages: ['Common plus one other language.'],
       habitats: ['Any'],
       tableNotes: [['Gear: Pistol, Rapier.']],
+      appearance: [['A seafaring raider commanding a crew under a distinctive flag.']],
+      lore: [
+        [
+          'Captains command pirate crews and pick destinations and targets. They cultivate a fearsome, theatrical reputation, painting themselves as larger than life to terrify foes, keep crews obedient and attract followers, and many have colourful nicknames from signature traits or deeds.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -27894,6 +28397,17 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Common', 'Elvish', 'Sylvan.'],
       habitats: ['Forest', 'Feywild'],
+      appearance: [
+        [
+          'A creature barely a foot tall that looks like a tiny elf with gossamer wings, usually unseen.',
+        ],
+      ],
+      lore: [
+        [
+          'Pixies are barely a foot tall and watch the woods unseen, revealing themselves to the friendly and pranking the unfriendly. Wonderbringers are energetic entertainers who use their magic to defend the wilderness when they must.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'tiny',
         type: 'fey',
@@ -28237,6 +28751,15 @@ export default createPublicationMonsters({
       languages: ['Common.'],
       habitats: ['Any'],
       tableNotes: [['Gear: Chain Shirt, Holy Symbol, Mace.']],
+      appearance: [
+        ['A devout religious figure whose clothing and holy symbol mark the faith followed.'],
+      ],
+      lore: [
+        [
+          'Acolytes have great faith but modest magical skill. They might be trainees in religious bodies, soldiers in zealous armies, faith leaders in small communities or pilgrims on the road.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -29087,6 +29610,17 @@ export default createPublicationMonsters({
           'Damage vulnerabilities: Piercing damage from weapons wielded by creatures affected by Bless.',
         ],
       ],
+      appearance: [
+        [
+          'In its true form a human-tiger hybrid with palms where the backs of the hands should be; it seldom shows it, preferring to pass as a noble, cardinal or rich merchant.',
+        ],
+      ],
+      lore: [
+        [
+          'Rakshasas are manipulators who infiltrate communities for power. They disguise their nature while kidnapping victims and indulging a hunger for flesh. Legends say blessed warriors have felled them with crossbow bolts, arrows and similar weapons. They began in the Nine Hells, when devils made a ritual to free their essence from fiendish bodies and escape the Lower Planes.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -29898,6 +30432,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Sahuagin.'],
       habitats: ['Coastal and underwater'],
+      appearance: [
+        [
+          "A fiendish sea raider, one of the 'sea devils' coastal folk fear, here a priest of its shark-god.",
+        ],
+      ],
+      lore: [
+        [
+          'Sahuagin priests serve Sekolah or other fiendish masters, directing and supporting other sahuagin. They count every fighter who falls in battle, enemy or ally, as a sacrifice to their fierce gods.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -30625,6 +31170,15 @@ export default createPublicationMonsters({
         ['Initiative details: +5 to the roll. Initiative score 15.'],
         ['Gear: Longbow, shortsword, studded leather armor.'],
       ],
+      appearance: [
+        ['A wilderness warrior trained in hunting and tracking, in practical travelling gear.'],
+      ],
+      lore: [
+        [
+          'Scouts are wilderness warriors trained in hunting and tracking. A captain is an experienced explorer and sharpshooter who may lead a band of scouts or vanish into the wilds alone for months at a time.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -31031,6 +31585,17 @@ export default createPublicationMonsters({
         ],
         ['Damage resistances: Conditional resistance from Living Shadow.'],
       ],
+      appearance: [
+        [
+          'A dragon drained of its former colour or lustre, dark and shadowy, haunting lightless forgotten places.',
+        ],
+      ],
+      lore: [
+        [
+          'Shadow dragons may once have been other dragons, stripped of colour by planar forces, negative energy or sinister magic. Their breath saps life, and creatures it kills rise as shades obedient to the dragon. They live in the Underdark, especially near links to the Shadowfell, and may lurk in dark, corrupted parts of their old territory. The 2014 book adds that some were born in the Shadowfell or changed by long stays there, and that some embrace its bleakness while others want to return and spread its darkness.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -31295,6 +31860,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["Understands commands given in any language but can't speak."],
       habitats: ['Urban'],
+      appearance: [["An intimidating magical automaton that walks at its master's side."]],
+      lore: [
+        [
+          "A shield guardian is a magical bodyguard linked to a command amulet, and whoever holds the amulet can control it. Spellcasters can place a spell in it to release under set conditions. Its aim is to protect the amulet's bearer, escorting them and stepping between them and threats. It is not mindless but has little sense of self preservation. If the amulet is destroyed, the guardian is incapacitated until a new one is made.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -31800,6 +32372,17 @@ export default createPublicationMonsters({
       languages: ['Deep Speech. Undercommon. telepathy 120 ft.'],
       habitats: ['Underdark'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A floating, spherical body about four feet across with a central eye and four eyestalks, a smaller cousin of a beholder.',
+        ],
+      ],
+      lore: [
+        [
+          "A spectator is called by a ritual that consumes four beholder eyestalks and serves its summoner for 101 years, guarding a place or treasure of the summoner's choosing and letting no one else in unless told otherwise. It never leaves its post, and it vanishes if what it guards is stolen or destroyed before the term ends. It can talk, and may openly discuss its orders and the summoner.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -32135,6 +32718,17 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Celestial', 'Common.'],
       habitats: ['Desert', 'Upper Planes'],
+      appearance: [
+        [
+          'A sphinx, with the body of a great cat, found in places of knowledge, a keeper of cosmic secrets.',
+        ],
+      ],
+      lore: [
+        [
+          'Sphinxes protect the secrets of the multiverse and share wisdom only with those who prove wise or pass tests such as riddles or fights with dangerous beasts. Sphinxes of secrets are usually tied to a site of great magic or learning and, being immortal, often outlive it and guard its ruins while continuing their studies. They fiercely guard their homes and research.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -32941,6 +33535,13 @@ export default createPublicationMonsters({
         ['Initiative details: +9 to the roll. Initiative score 19.'],
         ["Gear: Hand crossbow, rapier, thieves' tools."],
       ],
+      appearance: [['A smooth, forgettable figure who may be using a disguise or code name.']],
+      lore: [
+        [
+          'Spies gather information and spread lies, manipulating people for their patrons. A spy master has long experience collecting secrets without leaving evidence that it was ever present.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -33399,6 +34000,17 @@ export default createPublicationMonsters({
           'Succubus temptations: Roll 1d6 or choose a tactic.\n1. Impersonate a loved one the target has lost.\n2. Charm someone the target trusts.\n3. Separate the target from family or friends.\n4. Arrange a piece of unexpected good fortune.\n5. Pass as an eager subordinate who flatters the target.\n6. Pose as someone the target wants to protect.',
         ],
       ],
+      appearance: [
+        [
+          'A lovely, dark-winged fiend that usually shows itself only in a veiled or assumed form, first as an ethereal whisper beside a bed.',
+        ],
+      ],
+      lore: [
+        [
+          'Succubi prey on mortals in waking life and exploit their desires. They enjoy corrupting virtuous souls and the pain of a downfall, and once a target is at its lowest, they kill with an essence-draining kiss. They can turn into incubi to work on dreams as well, and they can change shape. They dominate humanoids mostly to reinforce a manipulation or defend themselves. They serve devils, demons, night hags, rakshasas and yugoloths.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -33773,6 +34385,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ["Understands all languages but can't speak."],
       habitats: ['The Lower Planes'],
+      appearance: [
+        [
+          'A writhing mass of repulsive, maggot-like creatures whose twisted features recall the faces they had in life.',
+        ],
+      ],
+      lore: [
+        [
+          'Larvae are condemned souls of the Lower Planes. Alone they are little threat, but in large numbers they can overwhelm vulnerable creatures. Out of desperation they band into grotesque swarms, their squirming rush heralded by wordless whimpers and sickening worm noises. Fiends eat them, evil mages use them in rituals, and night hags herd and trade them.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         swarmOf: 'medium',
         size: 'large',
@@ -34397,6 +35020,17 @@ export default createPublicationMonsters({
       languages: ['Thri-kreen', 'telepathy 120 ft.'],
       habitats: ['Desert', 'grassland'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A mantis-like wanderer whose carapace matches its land, from rocky desert shades to vivid hues in green regions.',
+        ],
+      ],
+      lore: [
+        [
+          'Thri-kreen are mantis-like wanderers who survive by camouflage and psychic power. Psions use theirs to avoid danger and move objects from afar. Groups use telepathy to share detail silently.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -35525,6 +36159,17 @@ export default createPublicationMonsters({
           'Condition immunities: the Charmed immunity does not apply when the source is its vampire master.',
         ],
       ],
+      appearance: [
+        [
+          "A living person with a corpse-like complexion and signs of their master's repeated feedings, quick and uncanny in movement.",
+        ],
+      ],
+      lore: [
+        [
+          'Familiars are living people who serve vampires, willingly or under coercion. They channel deathly energy through their weapons, incapacitating targets and leaving victims helpless for their masters. Many hope to become vampires; others are charmed or bound by a terrible bargain. A familiar loses its supernatural abilities if its vampire master dies.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -35695,6 +36340,13 @@ export default createPublicationMonsters({
         [
           'Regional effects: Children of the Night. From dusk to dawn, Beasts of Medium size or smaller are Charmed while within 1 mile of the lair.\nLooming Shadows. Shadows appear to move on their own. A creature that finishes a Short Rest within 1 mile must pass a DC 15 Wisdom save to benefit from that rest. The vampire and its allies are exempt.\nMists. Persistent fog makes the area within 1 mile Lightly Obscured. The vampire and creatures it chooses ignore the fog.\nAll three effects end as soon as the vampire dies or moves its lair.',
         ],
+      ],
+      appearance: [['An old, cunning vampire at ease in the shadows, often posing as a mortal.']],
+      lore: [
+        [
+          'Umbral lords embrace the darkness and devote themselves to sinister powers in exchange for forbidden magic. Like other vampires they pass as mortals, lie dormant by day and keep sanctuaries apart from the living, in cities or old ruins.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'small',
@@ -36419,6 +37071,13 @@ export default createPublicationMonsters({
       languages: ['Common plus one other language.'],
       habitats: ['Any'],
       tableNotes: [['Gear: Greatsword, Longbow, Plate Armor.']],
+      appearance: [['A professional soldier leading others, armed and armoured for a fight.']],
+      lore: [
+        [
+          'Warriors are professional fighters who work in armies or in teams with set goals. A commander is skilled in combat and leadership and wins through martial skill and clever tactics.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -36511,6 +37170,17 @@ export default createPublicationMonsters({
         [
           'Appearance (1d4): 1. Frigid or near boiling. 2. Bubbling. 3. Clear, muddy, or polluted. 4. Carrying seaweed or small aquatic creatures.',
         ],
+      ],
+      appearance: [
+        [
+          'A shapeless mass of water that takes the form of the liquid it rises from, with limb-like geysers that crush.',
+        ],
+      ],
+      lore: [
+        [
+          'Water elementals come from the Elemental Plane of Water. They are as mutable as liquid, so they crash into foes and seep through narrow cracks, and they can flood over creatures to drown them. They show up near nexuses of elemental power such as deep abysses, magic springs and whirlpools. The 2014 book notes that wild elementals just course through their own element and have little culture or sense of self, and spells or items can summon them to do tasks.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'large',
@@ -36850,6 +37520,17 @@ export default createPublicationMonsters({
       languages: ["Common (can't speak in boar form)."],
       habitats: ['Forest', 'Grassland', 'Hill'],
       tableNotes: [['Gear: Six Javelins.']],
+      appearance: [
+        [
+          'In humanoid form looks ordinary; in boar or hybrid form, a powerful boar whose eyes show a faint unnatural intelligence.',
+        ],
+      ],
+      lore: [
+        [
+          'Wereboars shape-shift between humanoid, boar and hybrid forms. Many suffer it as a curse and some change involuntarily whenever they act greedily or selfishly. In the 2014 book they are ill-tempered, vulgar brutes, stocky and muscular with short stiff hair, who spread the curse with a goring attack. They live in small family groups in remote forest areas, are suspicious of strangers, and sometimes ally with orcs.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -37270,6 +37951,13 @@ export default createPublicationMonsters({
         'Swamp',
         'Underdark',
         'Urban',
+      ],
+      appearance: [['A small scaly kobold with wings, in colours of nearby chromatic dragons.']],
+      lore: [
+        [
+          'Some kobolds are born with wings. Other kobolds call them urds and think a dragon or Tiamat has blessed them. Winged kobolds are as cowardly as the rest and mostly use flight to stay out of reach. Kobolds in general serve chromatic dragons, copy their masters, and are good at traps and ambushes.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'small',

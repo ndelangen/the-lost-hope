@@ -225,6 +225,18 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral',
       languages: ['Common', 'Druidic', 'Elvish'],
+      appearance: [
+        [
+          'An elf druid hiding in bushes with two elf veterans and three elf spies near a scene of slain cultists.',
+        ],
+      ],
+      lore: [
+        [
+          'The elves were investigating the Cult of the Dragon on the island and were attacked, so they killed the cultists. The party arrives while they recover, and the elves, taking the party for more cultists, attack. The druid stays at the back and opens with entangle while the veterans engage in melee and the spies shoot from range.',
+        ],
+        ['Sources: ', "DDEX1-11 Dark Pyramid of Sorcerer's Isle, PDF page 13"],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',

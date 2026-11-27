@@ -14,6 +14,13 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor class: 15 with mage armor']],
+      appearance: [['A wizard hung about with shimmering protective wards.']],
+      lore: [
+        [
+          'Abjurers specialise in protective wards, and monarchs, nobles and other wealthy people hire them for protection. This one is a school specialist among the general run of wizards, who study arcane texts, travel for rare tomes, train apprentices or work with colleagues on new spells.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -122,6 +129,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Kruthik.'],
       habitats: ['desert', 'mountain', 'underdark'],
+      appearance: [
+        [
+          'A horse-sized, chitin-plated reptile scuttles in on spiked limbs, hissing and chittering, often alongside many more of its kind. Dagger-sized spikes grow from its legs.',
+        ],
+      ],
+      lore: [
+        [
+          'Kruthiks hunt in packs and burrow warrens near heat sources such as forges and lava, leaving tunnels that are often the first sign of a hive. They talk in hisses and chitters, and guards raise an alarm by tapping the stone floor with their legs. Adults fling the spikes on their legs at enemies out of claw reach. They avoid areas that smell of many dead kruthiks, so heavy losses can drive a hive away. They prefer live prey. A young kruthik takes about six months of steady eating to reach adult size, and adults live about seven years.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -201,6 +219,17 @@ export default createPublicationMonsters({
         [
           'Choose one of Arcana, History, Nature, or Religion. The oblex has a +7 bonus in that skill.',
         ],
+      ],
+      appearance: [
+        [
+          'A shuddering pool of dark jelly draws itself up from the ground, with a faint sulphurous smell.',
+        ],
+      ],
+      lore: [
+        [
+          'Mind flayers bred oblexes from Underdark slimes to hunt minds, and oblexes crave memories because they are hollow without them. Adults and elders have eaten so many that they form duplicates of eaten creatures, tethered to the slime by tendrils of goo and indistinguishable from the originals except for a faint sulphurous smell. They send these copies to lure prey or to infiltrate settlements and find better victims, and prefer sharp-minded prey such as wizards.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -343,6 +372,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral',
       languages: ['Auran and one language chosen by its creator.'],
       tableNotes: [['Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A suit of ritually forged plate armour moves with a restless, windy energy, as if a gale were trapped inside it.',
+        ],
+      ],
+      lore: [
+        [
+          "An elemental myrmidon is an elemental bound by magic into a made suit of plate armour. It remembers nothing of its free existence and only follows its creators' orders. It fights with a flail and can unleash a lightning strike.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -426,6 +466,17 @@ export default createPublicationMonsters({
         [
           'Periapt of mind trapping: The periapt is a fist-sized container made of silver, emerald, and amethyst. At least three mind flayer arcanists create the periapt and sacrifice an equal number of living victims in a three-day ritual. Each alhoon remains undead for the lifespan remaining to its victim, and the rite can be repeated with new victims. When an alhoon is destroyed, its mind enters the periapt alongside the sacrificed souls. Destroying the periapt destroys the minds and souls trapped inside. Its holder has advantage on attacks, saves, and checks against the associated alhoons, and those alhoons have disadvantage on attacks, saves, and checks against the holder. The holder can speak telepathically with the trapped victims or silence them. Alhoons inside can speak telepathically to the holder without permission.',
         ],
+      ],
+      appearance: [
+        [
+          'A withered mind flayer in tattered robes, tentacles dry and shrunken, eyes burning with cold hunger.',
+        ],
+      ],
+      lore: [
+        [
+          "Alhoons are mind flayer arcanists who were cast out for studying wizardry, and who chose a shortcut to lichdom because the elder brain will not take their minds after death. Several arcanists must cooperate to make the periapt that binds them, and an alhoon needs souls to avoid shriveling. They combine arcane spells with psionics and have a lich's fear of oblivion.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -852,6 +903,18 @@ export default createPublicationMonsters({
           "Optional action: Summon Devil (1/day). Some amnizus can summon either 2d4 bearded devils or 1d4 barbed devils. The devils appear in unoccupied spaces within 60 ft. and act as allies. Summoned devils can't summon other devils. They remain for 1 minute, until the amnizu dies, or until it uses an action to dismiss them.",
         ],
       ],
+      appearance: [
+        [
+          'An arrogant infernal officer commanding lemures, with the bearing of a battlefield general.',
+        ],
+      ],
+      lore: [
+        [
+          'Amnizus lead infernal legions and guard the gateways of the Hells. They are bullying and ruthless but also clever tacticians and fiercely loyal, which the archdukes value. Some watch the River Styx, collecting the lemures that arrive there and drilling them into legions.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['The Nine Hells'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1185,6 +1248,15 @@ export default createPublicationMonsters({
         [
           'Iron token: The hag spends 1 minute shaping one of her own iron teeth or nails into a coin, ring, or tiny mirror. Its holder and the hag can whisper to each other within 10 miles. Neither hears other sounds at the opposite end. The hag can keep up to three tokens active, use an action to sense their direction and approximate distance, or deactivate one at any distance without an action. A deactivated token keeps its shape but loses its magic.',
         ],
+      ],
+      appearance: [
+        ['A hunchbacked, hump-shouldered hag about eight feet tall, towering over a grown person.'],
+      ],
+      lore: [
+        [
+          'Annis hags lair in hills and mountains and favour the flesh of the young. They leave grim tokens at the edge of the places they claim to spread fear in nearby villages. An annis may pose as a kindly elder and give a child an iron token, then coax the child into worse and worse deeds. They may also rule over ogres, trolls or similar brutes by strength, insults and superstition.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'large',
@@ -1529,6 +1601,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft.'],
       habitats: ['underdark'],
+      appearance: [
+        [
+          'A hoofed, clawed demon with a long, serrated whip-like tail, thundering across the Abyss in a herd.',
+        ],
+      ],
+      lore: [
+        [
+          'Armanites race across the Abyss in herds, driven by bloodlust, either commanded by stronger demons or charging for its own sake. They serve as heavy cavalry, hitting the flanks of enemy armies, and fight each other when no foe is near. They tear with claws, hooves and tail, and can loose lightning to break up tough formations.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1653,6 +1736,18 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['None.'],
       tableNotes: [['Movement notes: Can hover\nfly · (hover)']],
+      appearance: [
+        [
+          'A colossal armoured, spiked monstrosity glides through the silver void with pincer claws and one huge eye swirling with stars.',
+        ],
+      ],
+      lore: [
+        [
+          'Astral dreadnoughts drift through the Astral Plane and try to devour everything they meet. They are solitary and fight one another on the rare occasions they meet. Its single eye is a continuous antimagic field and is feared by spellcasters. Anything it swallows is held in a private demiplane, which vanishes when the dreadnought dies and spills its contents back into the Astral Plane.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Astral Plane'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -2664,6 +2759,18 @@ export default createPublicationMonsters({
           'Regional effects: Choose one or more effects for the area around the lair.\nBeguiling Realm. Within 6 miles, Charisma (Persuasion) and Charisma (Performance) checks have disadvantage. Charisma (Deception) and Charisma (Intimidation) checks have advantage.\nHedge Mazes. Vegetation within 1 mile forms dense barriers around small mazes.\nPanicked Beasts. Beasts within 1 mile are frightened and disoriented. They may panic or lash out even without a visible threat.\nThe effects fade over 1d10 days after Baphomet dies.',
         ],
       ],
+      appearance: [
+        [
+          'A 20-foot-tall minotaur with six iron horns and red eyes lit by a fiendish glow, carrying the great glaive Heartcleaver.',
+        ],
+      ],
+      lore: [
+        [
+          'Baphomet, the Horned King and Prince of Beasts, preaches that civilisation is weakness and brutality is strength. His cults use mazes and knots as symbols, build labyrinths, and slowly gain bloodshot eyes, coarse hair and horns, with the final gift being to become a minotaur. For all his bloodlust he is cunning and bent on subverting civilisation. He gores, tramples and rends, and uses his glaive.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['The Abyss'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -3848,6 +3955,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Common plus one language spoken by its master.'],
       habitats: ['arctic', 'desert', 'urban'],
+      appearance: [
+        [
+          'A cackling skeletal horror with long, bony limbs ending in claws lurks in a shadowy recess.',
+        ],
+      ],
+      lore: [
+        [
+          "A boneclaw is what remains when a wizard fails to become a lich: the soul seeks out a hate-filled person nearby and becomes that person's servant. It can serve only evil and is destroyed if its master truly turns from evil, and it cannot be destroyed while the master lives, re-forming within hours. It waits in shadow like a spider, impales victims on its long limbs, and drags them into the dark to be cut apart.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -4318,6 +4436,17 @@ export default createPublicationMonsters({
       page: 70,
       alignment: 'unaligned',
       habitats: ['swamp'],
+      appearance: [
+        [
+          'A bloated tangle of buffalo, dinosaur, warthog and hippo parts, reeking of death, swamp gas and musk.',
+        ],
+      ],
+      lore: [
+        [
+          'Catoblepases behave like animals, wandering swamps to graze, eat carrion and wallow, sometimes with a lifelong mate and a calf. They attack anything that comes too close, especially when guarding young. A glare from its bloodshot eyes rots flesh, and its clubbed tail can leave a victim helpless. Its territory grows gloomy and fetid, spoiling healing herbs and clean water.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -4791,6 +4920,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["Understands one language of its creator but can't speak."],
       habitats: ['forest', 'grassland', 'hill', 'mountain'],
+      appearance: [
+        [
+          'A segmented bronze construct that stays mostly buried, with telescoping eyestalks peeking out.',
+        ],
+      ],
+      lore: [
+        [
+          'Clockworks come from gnomish tinkering with magic and machines, and gnome builders favour unique designs. A bronze scout rarely leaves the underground, watches foes from close range with its eyestalks, and, if detected, sends electric shocks through the ground at pursuers as it retreats.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -4972,6 +5112,15 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["Understands one language of its creator but can't speak."],
       habitats: ['forest', 'grassland', 'hill', 'mountain'],
+      appearance: [
+        ['A wooden clockwork construct built to launch bolts, ticking and creaking as it moves.'],
+      ],
+      lore: [
+        [
+          'Clockworks come from gnomish tinkering with magic and machines. The oaken bolter is a long-range construct whose bolts rend flesh, destroy armour or drag enemies toward traps or melee clockworks, and burst explosively at shorter range.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -5098,6 +5247,13 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["Understands one language of its creator but can't speak."],
       habitats: ['forest', 'grassland', 'hill', 'mountain'],
+      appearance: [['A clockwork construct with thick plates of stone riveted onto its body.']],
+      lore: [
+        [
+          "Clockworks come from gnomish tinkering with magic and machines. The stone defender's thick riveted plates give strong protection, and its main job is as a bodyguard.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -5673,6 +5829,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic neutral',
       languages: ['Elvish', 'Sylvan.'],
       habitats: ['forest', 'swamp', 'underdark', 'urban'],
+      appearance: [['A tall, elf-like fey marked with glowing tattoos.']],
+      lore: [
+        [
+          "A darkling that proves wise and respected can undergo a ritual in which other elders mark it with glowing tattoos to channel off some of its absorbed light, and it grows into a taller, elf-like form; if the ritual fails it dies. Darklings descend from a seelie fey who betrayed the Summer Queen, and live in hidden caverns beneath other peoples' towns, working as thieves and assassins.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -5763,6 +5926,17 @@ export default createPublicationMonsters({
       languages: ['Deep Speech', 'Undercommon.'],
       habitats: ['underdark'],
       tableNotes: [['Movement notes: Can hover\nfly · (hover)']],
+      appearance: [
+        [
+          'A beholder-like floater with muted colouring and ten long tentacles, each ending in a toothy mouth, speaking in a high nasal voice.',
+        ],
+      ],
+      lore: [
+        [
+          "A death kiss is a lesser beholder born from a true beholder's nightmare about losing blood. It fears true beholders and serves them, but tries to slip away when they are distracted. It drains blood to heal and to power electricity, is terrified of starving, and drains even rats. It feels its way underground with its tentacles and, on the surface, keeps them hidden until it strikes. It toys with weak prey when it has the advantage.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -6300,6 +6474,17 @@ export default createPublicationMonsters({
       languages: ['Aquan', 'Common', "Thieves' Cant."],
       habitats: ['coastal', 'underwater'],
       tableNotes: [['Movement notes: walk · (20 ft. and swim 40 ft. in hybrid form)']],
+      appearance: [
+        [
+          'An ordinary-looking person who somehow feels slightly off, worn like a mask over an aquatic shapeshifter.',
+        ],
+      ],
+      lore: [
+        [
+          'Deep scions were people taken from shore or shipwreck and forced to choose between submission and drowning, then remade by an ancient ritual into aquatic shapeshifters. They serve an undersea master such as a kraken, and their job is to infiltrate air-breathing society and report back. They may return to their old homes or take new identities, befriending or romancing their targets while their emotions are acted rather than felt.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6500,6 +6685,15 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Dwarvish', 'Undercommon.'],
       habitats: ['underdark'],
+      appearance: [
+        ['A twisted, dwarf-kin sorcerer, wild-eyed and cackling, leading a pack of derro.'],
+      ],
+      lore: [
+        [
+          'Derro are the mutated descendants of dwarves, warped by mind flayer experiments, and live in fear and spite in the Underdark. They bully the weak, grovel before the strong, and are cautious and distrustful, which has kept them alive. Some develop sorcerous power and become leaders called savants.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -6591,6 +6785,15 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft.'],
       habitats: ['underdark'],
+      appearance: [
+        ['A tall, mummy-like undead with a desiccated body and a hollowed-out ribcage.'],
+      ],
+      lore: [
+        [
+          "Devourers are among Orcus's most feared creations, made from demons that proved themselves and filled with hunger for souls. They hunt humanoids, bring them near death, then pull the body into the ribcage to consume it. Orcus often sends them to the Material Plane to raise and lead a plague of undead, and undead such as skeletons, zombies, ghouls and shadows are drawn to them.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'undead',
@@ -6695,6 +6898,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 60 ft.'],
       habitats: ['underdark'],
+      appearance: [
+        [
+          'A squat, barrel-bodied yugoloth with five sets of claws, its torso whirling while its head and legs move separately.',
+        ],
+      ],
+      lore: [
+        [
+          'Dhergoloths charge in like whirlwinds, taking contracts to crush uprisings, clear rabble and kill scouts, and they laugh gleefully over the slaughter. They are brutish, so employers must give simple, short orders; anything complex they forget, ignore or bungle.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -6792,6 +7006,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Giant.'],
       habitats: ['arctic', 'forest', 'hill', 'mountain', 'underdark'],
+      appearance: [
+        [
+          'An unusually huge troll with extra arms, eyes, claws and organs grafted on from victims.',
+        ],
+      ],
+      lore: [
+        [
+          'Trolls eat almost anything, including other trolls, and a troll that does so grows unusually large. Dire trolls crave troll flesh to keep growing and bind slabs of it against fresh wounds so their regeneration absorbs it, tearing arms, eyes, claws and organs from victims to graft on. They may also revere Vaprak the Destroyer. They fight with bite and claws and can spin into a whirlwind of claws.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -6881,6 +7106,17 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [
+        [
+          'A wizard who either hints cryptically at omens and secrets or eagerly shows off what it knows.',
+        ],
+      ],
+      lore: [
+        [
+          'Diviners look into the future and hold that knowledge is power. Some act aloof and mysterious, others are know-it-alls who share insights to raise their own standing.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7244,6 +7480,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Elvish', 'Undercommon', 'can speak with spiders.'],
       habitats: ['underdark'],
+      appearance: [
+        [
+          'A drow spellcaster who channels magic from the Demonweb Pits through a link to its ancient spiders.',
+        ],
+      ],
+      lore: [
+        [
+          'Arachnomancers are drow casters who give body and soul to Lolth and gain power and a link to the ancient spiders of the Demonweb Pits. They draw their magic from that place.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7417,6 +7664,15 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Elvish', 'Undercommon.'],
       habitats: ['underdark'],
+      appearance: [
+        ['An attractive, poised drow, equally at ease in a conversation and in a fight.'],
+      ],
+      lore: [
+        [
+          "Priestesses of Lolth take consorts chosen for beauty and magical strength, who act as advisor, protector and beloved. Some are content to support their priestess while others scheme to rule through or over her. A consort's place is never secure because the priestesses are fickle and rivals are common. Some quietly undermine Lolth's evils or live in Underdark cities free of her influence and fight her tyranny.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7557,6 +7813,13 @@ export default createPublicationMonsters({
         [
           'Variant action: Summon Demon (1/day). The inquisitor magically attempts to summon a yochlol with a 50 percent chance of success. On a failure, the inquisitor takes 5 (1d10) psychic damage. On a success, the yochlol appears in an unoccupied space within 60 ft., acts as the inquisitor’s ally, and cannot summon other demons. It remains for 10 minutes or until either creature dies or the inquisitor dismisses it as an action.',
         ],
+      ],
+      appearance: [['A drow priest of Lolth who carries the authority to judge other drow.']],
+      lore: [
+        [
+          "Inquisitors are chosen from Lolth's priesthood to root out traitors, since the Spider Queen encourages treachery but too much would wreck a community. Their authority equals that of a matron mother, and anyone they decide is a threat to the hierarchy faces painful interrogation and usually a cruel death.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -9221,6 +9484,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Dwarvish', 'Undercommon.'],
       habitats: ['mountain', 'underdark'],
+      appearance: [
+        [
+          'A dour dwarf of the deep Underdark, passionate in everything it does even if it rarely smiles.',
+        ],
+      ],
+      lore: [
+        [
+          'Xarrorn are duergar specialists who build weapons by mixing alchemy and psionics. Duergar are shaped by mind flayer captivity, which gave them psionic power and a deep gloom that shows as melancholy art in some and rage in others. They are always on guard against raids and plots from neighbours.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -9335,6 +9609,17 @@ export default createPublicationMonsters({
         [
           'Movement interpretation: The printed speed gives 0 ft. on land and 40 ft. with hover but leaves the second movement mode unnamed. Use a flying speed for its natural form, which the book describes moving through the air.',
         ],
+      ],
+      appearance: [
+        [
+          'A translucent flying jellyfish trailing tentacles, or more often a corpse jerking and vomiting blood or maggots.',
+        ],
+      ],
+      lore: [
+        [
+          'Dybbuks are demons that torment mortals by possessing corpses and animating them. They enjoy making the bodies do horrifying things such as spewing blood, producing writhing maggots and twisting limbs unnaturally as they scuttle. They seldom travel in their natural floating form.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -9561,6 +9846,17 @@ export default createPublicationMonsters({
           'Rock. Ranged weapon attack, +8 to hit, range 60/240 ft., one target. A hit deals 37 (6d10 + 4) bludgeoning damage.',
         ],
       ],
+      appearance: [
+        [
+          'A ghostly guardian spirit that slides into a sacred statue to animate it against intruders.',
+        ],
+      ],
+      lore: [
+        [
+          "Eidolons are gods' guardians of holy sites, ghostly spirits forged from the souls of the unwaveringly devout. They stalk temples and vaults to stop defiling or looting. When enemies enter, the eidolon plunges into a statue prepared to house it and uses the effigy to drive them out.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -9676,6 +9972,17 @@ export default createPublicationMonsters({
         [
           'Telepathic Eavesdropping. The brain can overhear telepathic conversations within 5 miles. When contact begins, its initiator makes a DC 18 Wisdom save. On a success, the initiator notices the eavesdropping without learning who is listening.',
         ],
+      ],
+      appearance: [
+        [
+          'A huge brain in a vat of brine, tended by mind flayer servants, its mind reaching out to others.',
+        ],
+      ],
+      lore: [
+        [
+          'An elder brain is the centre of a mind flayer colony, linking the illithids into one organism. It considers itself the most important thing in the multiverse and rules by its own personality, as a tyrant, a sage or a counsellor. It eats brains, either brought by its mind flayers or lured by its thoughts. When a mind flayer dies its brain is fed to the elder brain, which its kind consider a sacred afterlife.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'large',
@@ -10102,6 +10409,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral',
       habitats: ['arctic', 'coastal', 'grassland', 'hill', 'mountain'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A snake-shaped storm of cloud, wind, rain and lightning coils through the sky, wind screaming around it.',
+        ],
+      ],
+      lore: [
+        [
+          'Elder tempests are storm beings carved from clouds, wind, rain and lightning that take serpent shape and slither across the sky. They drown the land in rain and stab the ground with lightning while screaming winds feed the chaos they cause.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -10287,6 +10605,13 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [['A wizard whose speech and manner are tuned to influencing minds.']],
+      lore: [
+        [
+          'Enchanters know how to sway minds with magic. Benign ones use it to defuse violence and promote peace, while malevolent ones count among the most evil casters.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -10371,6 +10696,13 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [['A wizard ready to unleash raw arcane energy.']],
+      lore: [
+        [
+          'Evokers harness arcane energy to destroy, and many armies employ them to rain destruction on enemy forces.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -10793,6 +11125,17 @@ export default createPublicationMonsters({
           'Using the shell: An intact shell weighs about 250 pounds and can sell for 5,000 gp. A skilled armorer can cut it into three shields. For 1 month, each shield grants its wielder Antimagic Shell. A shield whose magic has faded can form the base for a Spellguard Shield. Ground shell can also go into the dye and serve as a ritual component for a Robe of Scintillating Colors.',
         ],
       ],
+      appearance: [
+        [
+          'A slow snail with a many-coloured shell and mace-like tentacles that flashes light when threatened.',
+        ],
+      ],
+      lore: [
+        [
+          "Flail snails are elemental earth creatures prized for their multihued shells. They graze on rock, sand and soil and stop for crystals and minerals, leaving a glassy trail that people harvest for window panes. A big creature that gets too close is dazzled with a flash and clubbed. Their shells weigh about 250 pounds, sell for around 5,000 gp, and can be made into shields that carry the snail's antimagic.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -11174,6 +11517,17 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       languages: ['Giant.'],
       habitats: ['coastal'],
+      appearance: [
+        [
+          'A frost giant with discoloured skin, warty scars and extra fingers, limbs or even heads.',
+        ],
+      ],
+      lore: [
+        [
+          "An everlasting one is a frost giant who accepted Vaprak the Destroyer's gift: after dreams of glory and cannibal nightmares, a troll offers itself to be eaten whole. This gives the giant great strength, a foul temper and a troll's regeneration, helping it become jarl and beat rivals for decades. Vaprak's gift leaves its injuries healing wrongly and its body deformed.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -11279,6 +11633,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['Primordial.'],
       habitats: ['arctic'],
+      appearance: [
+        [
+          'A cold-dwelling salamander that burrows into ice and is drawn toward any source of heat.',
+        ],
+      ],
+      lore: [
+        [
+          'Frost salamanders come from the Frostfell and are drawn to heat, sometimes attacking forges and campfires that other predators would avoid. Azer lure them with large fires into traps to harvest hides and fangs. They like to dig through ice and rolling in it, carving large ice cave networks that can house a small army.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'huge',
         type: 'elemental',
@@ -11377,6 +11742,17 @@ export default createPublicationMonsters({
       languages: ['Deep Speech', 'Undercommon.'],
       habitats: ['underdark'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A floating, roughly 4-foot sphere with six eyestalks, a large central eye and four small grasping tentacles by its mouth, coloured like a true beholder.',
+        ],
+      ],
+      lore: [
+        [
+          'A gauth is a hungry, tyrannical beholder-kin that feeds on magic and demands tribute from weaker creatures. It lives on magic drained from items, and if it goes weeks without feeding it is dragged back to its home plane, so it constantly looks for new items. It may arrive through a failed ritual meant to summon a spectator and pose as a beholder or a spectator to bluff its way. True beholders usually drive off or kill gauths but may enslave them as lieutenants.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -11865,6 +12241,16 @@ export default createPublicationMonsters({
           'Sound the Horn (optional): Once per day, Geryon can sound his horn as an action, summoning 5d4 minotaurs into unoccupied spaces he chooses within 600 ft. They roll initiative on arrival and obey him. Each remains until it dies or until Geryon uses an action to dismiss some or all of them.',
         ],
       ],
+      appearance: [
+        ['An archdevil of Stygia who fights with claws and joins his troops in battle.'],
+      ],
+      lore: [
+        [
+          "Geryon is locked in a long struggle with Levistus over Stygia, and is currently trying to exploit Levistus being trapped in ice on Asmodeus's orders. Known for martial skill, he is a ferocious hunter and relentless tracker who joins his troops in battle. His ferocity has hurt his ability to gather souls and build a strong hierarchy. He has recently retaken his fortress, Coldsteel, in the icy heart of Stygia.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Stygia (the Nine Hells)'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -13599,6 +13985,17 @@ export default createPublicationMonsters({
           'Gray Render Quirks: Choose a quirk or roll 1d12.\n1. Detests riding animals.\n2. Roars if another creature touches its master.\n3. Wants to cuddle.\n4. Pulls up trees to chew them.\n5. Produces gas strong enough to make eyes water.\n6. Offers meat to its master.\n7. Digs wherever it goes.\n8. Treats wagons and carts as enemies.\n9. Howls in the rain.\n10. Whimpers in darkness.\n11. Buries any treasure it finds.\n12. Leaps after birds even if it wrecks whatever is nearby.',
         ],
       ],
+      appearance: [
+        [
+          'A hulking, fierce brute with a huge appetite that approaches a chosen person with strange warbling cries and scratching at the ground.',
+        ],
+      ],
+      lore: [
+        [
+          "A gray render wants above all to bond with an intelligent master and to die protecting it. Renders reproduce by growing nodules that break off as young, feel no tie to their young or other renders, and sing to a suitable master with a show of deference. In a fight it is vicious and never willingly harms its master, but it is strong and not clever, so away from battle it can be a handful: following when told to stay, wrecking the master's home, and other trouble.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -14072,6 +14469,17 @@ export default createPublicationMonsters({
           'Optional Grung poison mechanics: If using this option, choose the grung’s color. A creature poisoned by the grung also suffers that color’s effect for as long as that poisoning lasts.\nBlue. The poisoned creature must make a loud noise at the start and end of each of its turns.\nGold. The poisoned creature is charmed by the grung and can speak Grung.\nGreen. The poisoned creature can move only by climbing or standing jumps. While flying, it cannot take actions or reactions unless it lands.\nOrange. The poisoned creature is frightened of its allies.\nPurple. The poisoned creature can move or act only to soak itself in liquid or mud or to reach a place where it can do so.\nRed. If food is within reach, the poisoned creature must use its action to eat.',
         ],
       ],
+      appearance: [
+        [
+          'A frog-like humanoid that prefers shade and trees, coloured by its caste and secreting poison.',
+        ],
+      ],
+      lore: [
+        [
+          "The grung stat block stands for a typical warrior or hunter, met at home or abroad as a mercenary, game warden, guard or bandit. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile. Grungs are born dull greenish grey and take on their caste's colour as they mature.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -14170,6 +14578,15 @@ export default createPublicationMonsters({
         [
           'Optional Grung poison mechanics: If using this option, apply the blue effect for as long as the creature remains poisoned by this grung. The poisoned creature must make a loud noise at the start and end of each of its turns.',
         ],
+      ],
+      appearance: [
+        ['A frog-like humanoid with blue-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          'The grung stat block stands for a typical warrior or hunter, met at home or abroad as a mercenary, game warden, guard or bandit. In grung society blue is the caste of artisans and domestic workers. Grung society is a strict caste system and most grungs stay in their caste for life, though great deeds can win promotion by tonics and ritual. In the variant poison rules, a victim poisoned by blue grung venom is compelled to shout or make loud noise at the start and end of its turns. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -14406,6 +14823,13 @@ export default createPublicationMonsters({
           'Source variant of Grung Elite Warrior. Check the variant rules for changes to actions and traits.',
         ],
       ],
+      appearance: [['A blue-skinned frog-like warrior, a tougher fighter than the common grung.']],
+      lore: [
+        [
+          'A grung elite warrior usually leads grung and other warriors into battle, often with a grung wildling alongside. In grung society blue is the caste of artisans and domestic workers. In the variant poison rules, a victim poisoned by blue grung venom is compelled to shout or make loud noise at the start and end of its turns. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -14545,6 +14969,13 @@ export default createPublicationMonsters({
         [
           'Source variant of Grung Elite Warrior. Check the variant rules for changes to actions and traits.',
         ],
+      ],
+      appearance: [['A gold-skinned frog-like warrior, a tougher fighter than the common grung.']],
+      lore: [
+        [
+          "A grung elite warrior usually leads grung and other warriors into battle, often with a grung wildling alongside. Gold grungs hold the highest leadership, and a tribe's sovereign is always gold. In the variant poison rules, gold venom leaves a victim charmed and able to speak Grung. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -14688,6 +15119,13 @@ export default createPublicationMonsters({
           'Source variant of Grung Elite Warrior. Check the variant rules for changes to actions and traits.',
         ],
       ],
+      appearance: [['A green-skinned frog-like warrior, a tougher fighter than the common grung.']],
+      lore: [
+        [
+          'A grung elite warrior usually leads grung and other warriors into battle, often with a grung wildling alongside. Green is the warrior, hunter and labourer caste. In the variant poison rules, green venom keeps a victim from moving except to climb or jump in place, and grounds fliers. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -14827,6 +15265,15 @@ export default createPublicationMonsters({
         [
           'Source variant of Grung Elite Warrior. Check the variant rules for changes to actions and traits.',
         ],
+      ],
+      appearance: [
+        ['A orange-skinned frog-like warrior, a tougher fighter than the common grung.'],
+      ],
+      lore: [
+        [
+          'A grung elite warrior usually leads grung and other warriors into battle, often with a grung wildling alongside. Orange grungs are elite warriors with authority over lesser castes. In the variant poison rules, orange venom makes a victim afraid of its own allies. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -14970,6 +15417,15 @@ export default createPublicationMonsters({
           'Source variant of Grung Elite Warrior. Check the variant rules for changes to actions and traits.',
         ],
       ],
+      appearance: [
+        ['A purple-skinned frog-like warrior, a tougher fighter than the common grung.'],
+      ],
+      lore: [
+        [
+          'A grung elite warrior usually leads grung and other warriors into battle, often with a grung wildling alongside. Purple grungs administer and command the blue and green castes. In the variant poison rules, purple venom drives a victim to soak itself in liquid or mud. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15109,6 +15565,13 @@ export default createPublicationMonsters({
         [
           'Source variant of Grung Elite Warrior. Check the variant rules for changes to actions and traits.',
         ],
+      ],
+      appearance: [['A red-skinned frog-like warrior, a tougher fighter than the common grung.']],
+      lore: [
+        [
+          'A grung elite warrior usually leads grung and other warriors into battle, often with a grung wildling alongside. Red grungs are the scholars and magic users, respected even by higher castes. In the variant poison rules, red venom forces a victim to eat if food is within reach. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -15250,6 +15713,15 @@ export default createPublicationMonsters({
           'Optional Grung poison mechanics: If using this option, apply the gold effect for as long as the creature remains poisoned by this grung. The poisoned creature is charmed by the grung and can speak Grung.',
         ],
       ],
+      appearance: [
+        ['A frog-like humanoid with gold-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          "The grung stat block stands for a typical warrior or hunter, met at home or abroad as a mercenary, game warden, guard or bandit. Gold grungs hold the highest leadership, and a tribe's sovereign is always gold. Grung society is a strict caste system and most grungs stay in their caste for life, though great deeds can win promotion by tonics and ritual. In the variant poison rules, gold venom leaves a victim charmed and able to speak Grung. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15348,6 +15820,15 @@ export default createPublicationMonsters({
         [
           'Optional Grung poison mechanics: If using this option, apply the green effect for as long as the creature remains poisoned by this grung. The poisoned creature can move only by climbing or standing jumps. While flying, it cannot take actions or reactions unless it lands.',
         ],
+      ],
+      appearance: [
+        ['A frog-like humanoid with green-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          'The grung stat block stands for a typical warrior or hunter, met at home or abroad as a mercenary, game warden, guard or bandit. Green is the warrior, hunter and labourer caste. Grung society is a strict caste system and most grungs stay in their caste for life, though great deeds can win promotion by tonics and ritual. In the variant poison rules, green venom keeps a victim from moving except to climb or jump in place, and grounds fliers. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -15448,6 +15929,15 @@ export default createPublicationMonsters({
           'Optional Grung poison mechanics: If using this option, apply the orange effect for as long as the creature remains poisoned by this grung. The poisoned creature is frightened of its allies.',
         ],
       ],
+      appearance: [
+        ['A frog-like humanoid with orange-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          'The grung stat block stands for a typical warrior or hunter, met at home or abroad as a mercenary, game warden, guard or bandit. Orange grungs are elite warriors with authority over lesser castes. Grung society is a strict caste system and most grungs stay in their caste for life, though great deeds can win promotion by tonics and ritual. In the variant poison rules, orange venom makes a victim afraid of its own allies. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15546,6 +16036,15 @@ export default createPublicationMonsters({
         [
           'Optional Grung poison mechanics: If using this option, apply the purple effect for as long as the creature remains poisoned by this grung. The poisoned creature can move or act only to soak itself in liquid or mud or to reach a place where it can do so.',
         ],
+      ],
+      appearance: [
+        ['A frog-like humanoid with purple-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          'The grung stat block stands for a typical warrior or hunter, met at home or abroad as a mercenary, game warden, guard or bandit. Purple grungs administer and command the blue and green castes. Grung society is a strict caste system and most grungs stay in their caste for life, though great deeds can win promotion by tonics and ritual. In the variant poison rules, purple venom drives a victim to soak itself in liquid or mud. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -15646,6 +16145,15 @@ export default createPublicationMonsters({
           'Optional Grung poison mechanics: If using this option, apply the red effect for as long as the creature remains poisoned by this grung. If food is within reach, the poisoned creature must use its action to eat.',
         ],
       ],
+      appearance: [
+        ['A frog-like humanoid with red-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          'The grung stat block stands for a typical warrior or hunter, met at home or abroad as a mercenary, game warden, guard or bandit. Red grungs are the scholars and magic users, respected even by higher castes. Grung society is a strict caste system and most grungs stay in their caste for life, though great deeds can win promotion by tonics and ritual. In the variant poison rules, red venom forces a victim to eat if food is within reach. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -15743,6 +16251,15 @@ export default createPublicationMonsters({
         [
           "Optional Grung poison mechanics: Optional rule. Choose the effect that matches the wildling's color. When the wildling poisons a creature, that creature suffers the chosen effect until its poisoned condition from this wildling ends.\nBlue. The creature must make a loud noise at both the start and the end of each of its turns.\nGold. The creature is charmed by the wildling and gains the ability to speak Grung.\nGreen. The creature can move only by climbing or making standing jumps. While flying, it can take actions or reactions only after it lands.\nOrange. The creature is frightened of its allies.\nPurple. The creature feels compelled to soak in liquid or mud. It can move and take actions only to soak or reach liquid or mud.\nRed. If food is within reach, the creature must use its action to eat.",
         ],
+      ],
+      appearance: [
+        ['A frog-like humanoid with druidic magic, the colour of its caste, secreting poison.'],
+      ],
+      lore: [
+        [
+          'A grung wildling has druidic magic and typically serves as adviser, healer and crop tender, often alongside elite warriors. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -15884,6 +16401,15 @@ export default createPublicationMonsters({
           'Optional Grung poison mechanics: Optional rule, blue wildling. When the wildling poisons a creature, apply this effect until its poisoned condition from the wildling ends. The creature must make a loud noise at both the start and the end of each of its turns.',
         ],
       ],
+      appearance: [
+        ['A frog-like humanoid with blue-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          'A grung wildling has druidic magic and typically serves as adviser, healer and crop tender. In grung society blue is the caste of artisans and domestic workers. In the variant poison rules, a victim poisoned by blue grung venom is compelled to shout or make loud noise at the start and end of its turns. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -16023,6 +16549,15 @@ export default createPublicationMonsters({
         [
           'Optional Grung poison mechanics: Optional rule, gold wildling. When the wildling poisons a creature, apply this effect until its poisoned condition from the wildling ends. The creature is charmed by the wildling and gains the ability to speak Grung.',
         ],
+      ],
+      appearance: [
+        ['A frog-like humanoid with gold-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          "A grung wildling has druidic magic and typically serves as adviser, healer and crop tender. Gold grungs hold the highest leadership, and a tribe's sovereign is always gold. In the variant poison rules, gold venom leaves a victim charmed and able to speak Grung. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -16164,6 +16699,15 @@ export default createPublicationMonsters({
           'Optional Grung poison mechanics: Optional rule, green wildling. When the wildling poisons a creature, apply this effect until its poisoned condition from the wildling ends. The creature can move only by climbing or making standing jumps. While flying, it can take actions or reactions only after it lands.',
         ],
       ],
+      appearance: [
+        ['A frog-like humanoid with green-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          'A grung wildling has druidic magic and typically serves as adviser, healer and crop tender. Green is the warrior, hunter and labourer caste. In the variant poison rules, green venom keeps a victim from moving except to climb or jump in place, and grounds fliers. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -16303,6 +16847,15 @@ export default createPublicationMonsters({
         [
           'Optional Grung poison mechanics: Optional rule, orange wildling. When the wildling poisons a creature, apply this effect until its poisoned condition from the wildling ends. The creature is frightened of its allies.',
         ],
+      ],
+      appearance: [
+        ['A frog-like humanoid with orange-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          'A grung wildling has druidic magic and typically serves as adviser, healer and crop tender. Orange grungs are elite warriors with authority over lesser castes. In the variant poison rules, orange venom makes a victim afraid of its own allies. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -16444,6 +16997,15 @@ export default createPublicationMonsters({
           'Optional Grung poison mechanics: Optional rule, purple wildling. When the wildling poisons a creature, apply this effect until its poisoned condition from the wildling ends. The creature feels compelled to soak in liquid or mud. It can move and take actions only to soak or reach liquid or mud.',
         ],
       ],
+      appearance: [
+        ['A frog-like humanoid with purple-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          'A grung wildling has druidic magic and typically serves as adviser, healer and crop tender. Purple grungs administer and command the blue and green castes. In the variant poison rules, purple venom drives a victim to soak itself in liquid or mud. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -16583,6 +17145,15 @@ export default createPublicationMonsters({
         [
           'Optional Grung poison mechanics: Optional rule, red wildling. When the wildling poisons a creature, apply this effect until its poisoned condition from the wildling ends. If food is within reach, the creature must use its action to eat.',
         ],
+      ],
+      appearance: [
+        ['A frog-like humanoid with red-skinned skin, tree-dwelling, secreting poison.'],
+      ],
+      lore: [
+        [
+          'A grung wildling has druidic magic and typically serves as adviser, healer and crop tender. Red grungs are the scholars and magic users, respected even by higher castes. In the variant poison rules, red venom forces a victim to eat if food is within reach. Grungs are aggressive, territorial, frog-like folk of rain forests and jungles, who think themselves superior to others. They live in trees, keep guarded ground-level hatching pools, and need to soak in water for at least an hour a day or suffer exhaustion. They secrete a poison they use on weapons, and like to capture and enslave other creatures, feeding them lightly poisoned food to keep them docile.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -17173,6 +17744,16 @@ export default createPublicationMonsters({
       page: 152,
       alignment: 'typically lawful evil',
       languages: ['Understands Infernal and cannot speak.'],
+      appearance: [
+        ['A magical-mechanical war machine of infernal make, built to mow down foes in waves.'],
+      ],
+      lore: [
+        [
+          'Hellfire engines are semi-independent devices held in reserve by amnizus and other devil generals to repel demon or crusader incursions. They take many forms but share one purpose, destroying enemies in waves, with no subtlety or trickery. Occasionally one runs loose and goes berserk. Mortals killed by one are doomed to join the infernal legions within hours unless powerful magic intervenes.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['The Nine Hells'],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -17693,6 +18274,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Common.'],
       habitats: ['forest', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A horror with grasping claws and distended jaws, bright eyes searching for the next thing to eat.',
+        ],
+      ],
+      lore: [
+        [
+          "Hungry sorrowsworn, the Hungry, do whatever it takes to sate their appetite, cramming their maws with flesh and drinking in victims' screams, then lurching off to look for more. Sorrowsworn are Shadowfell embodiments of suffering, and giving in to the emotion each stands for makes them deadlier while resisting it weakens them or drives them off.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -17788,6 +18380,14 @@ export default createPublicationMonsters({
       page: 157,
       alignment: 'lawful evil',
       languages: ['All', 'telepathy 120 ft.'],
+      appearance: [['A pit-fiend-commanding duke of Cania, radiating contempt for mortals.']],
+      lore: [
+        [
+          'Hutijin, a duke of Cania, is loyal to Mephistopheles and commands two companies of pit fiends, enough to challenge his lord though he never does. He hates mortals, has no cults, and kills anyone who summons him with a long, agonising death. Mephistopheles limits his visits to the Material Plane because it leaves Cania exposed, and rival archdevils have spread ways to summon him to draw him away.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['The Nine Hells (Cania)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -18053,6 +18653,17 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [
+        [
+          'A wizard who bends light, sound and thought into illusions, either a delightful entertainer or a devilish trickster.',
+        ],
+      ],
+      lore: [
+        [
+          'Illusionists twist light, sound and even thought to make illusory effects. Some are charming performers and some are tricksters.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -18144,6 +18755,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: Each effect can occur up to 3 miles from the lair.\nBlessed Nature. Beasts, Plants, and Celestials become more vigorous and approach idealized forms. They rarely attack creatures they would not normally hunt.\nControlled Weather. The ki-rin can cast Control Weather in this area. The spell originates outdoors at the point nearest the lair’s center. It requires neither a clear path to the sky nor concentration to persist.\nPure Waters. The water runs pure. Deliberate contamination clears within 3 minutes.\nRealm of Respite. Curses, diseases, and poisons are suppressed while affected creatures remain in the area, except for Aberrations, Fiends, and Undead.\nSafe Descents. Creatures whose falls were not caused by the ki-rin or its allies descend at 60 ft. per round and take no falling damage. Aberrations, Fiends, and Undead fall normally.\nOn the ki-rin’s death, these effects end immediately, except the extra vigor of local flora and fauna lasts 3 years.',
         ],
+      ],
+      appearance: [
+        [
+          'A muscular, stag-like celestial in golden scales and fur, with a long mane and tail, coppery hooves, a spiral coppery horn and luminous violet eyes, appearing to blaze with golden fire in a breeze.',
+        ],
+      ],
+      lore: [
+        [
+          'Ki-rins are noble celestials who serve good gods, heralds of destiny, guardians of the sacred and a counter to evil. Their form varies with their deity and role: some resemble huge unicorns and guard, others have draconic features and hunt evil fiercely, and a few have two horns or antlers. Common folk take a ki-rin overhead or at a ceremony as a blessing and a sign of good fortune.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'large',
@@ -18331,6 +18953,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Common', 'Draconic.'],
       habitats: ['forest', 'hill', 'mountain', 'underdark'],
+      appearance: [
+        [
+          'A kobold champion with a shield made of dragon scales and the scars of desperate fights.',
+        ],
+      ],
+      lore: [
+        [
+          "Dragonshields are chosen by dragons to guard the dragon's eggs, though once every few years a kobold is born with the abilities. They fight well hand to hand and rally others in the face of death, but being kobolds most feel unworthy of their honoured place and keep trying to prove themselves.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'dragon',
@@ -18534,6 +19167,17 @@ export default createPublicationMonsters({
         [
           "Magical hair: When cut, hair from a korred's head turns into the material of the cutting tool. A korred uses iron shears to make strands it can weave into iron ropes.",
         ],
+      ],
+      appearance: [
+        [
+          'A fey creature with hair all over its body, wielding a club, hooves beating a rhythm on stone.',
+        ],
+      ],
+      lore: [
+        [
+          'Korreds are secretive earth-and-stone fey who are sought by treasure-hunting dwarves because of their magic hair and knowledge of minerals. They prefer their own company, may consort with earth elementals such as galeb duhr, gather for dances on stone, and flee others unless insulted or annoyed by mining noise. They hurl big boulders, shape stone like clay, and swim through rock. Cut hair becomes whatever it was cut with, and korreds twist iron-cut strands into ropes they animate; they are proud and offended by uninvited cutting.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'small',
@@ -18895,6 +19539,15 @@ export default createPublicationMonsters({
       page: 171,
       alignment: 'typically neutral',
       habitats: ['coastal', 'underwater'],
+      appearance: [
+        ['A towering wall of water that rises from the sea into the form of an immense serpent.'],
+      ],
+      lore: [
+        [
+          'A leviathan arises from a large body of water when called, dragging ships down and washing away coastal settlements. It normally lives on the Elemental Plane of Water but sometimes comes through a portal, where tritons, sea elves and other aquatic folk try to contain it. Nihilistic cults can summon one to destroy coastal communities and see drowning in its waters as a blessing.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -19060,6 +19713,15 @@ export default createPublicationMonsters({
       tableNotes: [
         ['Damage resistances: Bludgeoning, piercing, slashing while in dim light or darkness.'],
       ],
+      appearance: [
+        ['A Shadowfell horror with harpoon-like arms that shoot out to haul victims closer.'],
+      ],
+      lore: [
+        [
+          "Lonely sorrowsworn, the Lonely, feel a keen need for company when they see other creatures and launch their harpoon-like arms to pull victims in. Sorrowsworn are embodiments of the Shadowfell's suffering, and giving in to the emotion each stands for makes them deadlier, while resisting it weakens them or drives them off.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -19137,6 +19799,15 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Common.'],
       habitats: ['arctic', 'desert', 'forest', 'mountain', 'swamp', 'underdark', 'urban'],
+      appearance: [
+        ['A desperate, panicked-looking Shadowfell horror that grasps at anything within reach.'],
+      ],
+      lore: [
+        [
+          "Lost sorrowsworn, the Lost, embody the fear of being unable to find one's way, which the Shadowfell encourages by turning visitors around. They grab at any creature they reach, flooding it with panic, and the harder allies fight to break the grip the more the victim suffers. Sorrowsworn grow deadlier when given in to and weaker when resisted.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -19362,6 +20033,18 @@ export default createPublicationMonsters({
           'Contract enforcement: The Kolyarut accepts enforceable contracts, records the agreed terms on a gold plate, and places it in the marut. The marut follows the written terms until the contract is fulfilled, including punishment for breaches. It uses lethal force only if the terms require it, the contract is completely broken, or someone attacks the marut.',
         ],
       ],
+      appearance: [
+        [
+          'A towering inevitable, a construct of law that carries a gold contract sheet in its chest.',
+        ],
+      ],
+      lore: [
+        [
+          "Maruts enforce contracts agreed in the Hall of Concordance in Sigil, where the terms are chiselled on gold and placed in the marut's chest. It is bound to enforce them and punish any party who breaks them, using lethal force only if the contract demands it, if the contract is wholly broken, or if it is attacked. It cares only about the letter of an agreement, not the intent.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Sigil', 'Mechanus'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -19480,6 +20163,17 @@ export default createPublicationMonsters({
         [
           'Optional calling card: Roll a d10 or pick a calling card. 1, a tiny origami cat. 2, a red feather. 3, a rose petal. 4, a twig-and-twine figurine. 5, a handwritten farewell. 6, a glass eye bead. 7, pistachio shells. 8, two playing cards leaned together. 9, a bitten coin with no value. 10, a charcoal or chalk sketch of a domino mask.',
         ],
+      ],
+      appearance: [
+        [
+          'Rarely seen directly; a master thief is more often noticed by the calling card left after a daring heist.',
+        ],
+      ],
+      lore: [
+        [
+          "Master thieves become romanticised for audacious heists. They may retire to run a thieves' guild, lead a covert operation or live in luxury. After a hard heist they often leave a calling card to taunt the victims.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -19860,6 +20554,17 @@ export default createPublicationMonsters({
           "A Humanoid reduced to 0 hit points by this damage immediately becomes a full-health meenlock under the DM's control. Wish or divine intervention can reverse the transformation.",
         ],
       ],
+      appearance: [
+        [
+          "A biped with a crustacean's head and claws lurks in shadow, its presence making those nearby afraid.",
+        ],
+      ],
+      lore: [
+        [
+          'Meenlocks are fey born from terror in the Feywild or places it influences, and they want to destroy whatever is good, innocent and beautiful. A group makes a lair of narrow twisting tunnels with a central den, covered in sound-muffling black moss. They sense dark places and teleport between shadows to stalk prey or flee. Up to four can telepathically torment an incapacitated victim with dreadful sounds and images.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'fey',
@@ -20213,6 +20918,15 @@ export default createPublicationMonsters({
           "Eye Ray outcomes mechanics: Aversion Ray (1). On a failed DC 13 Charisma save, the creature has disadvantage on attack rolls for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.\nFear Ray (2). On a failed DC 13 Wisdom save, the creature is frightened for 1 minute. It can repeat the save at the end of each of its turns, ending the fear on a success.\nPsychic Ray (3). The target takes 27 (6d8) psychic damage on a failed DC 13 Intelligence save.\nSlowing Ray (4). On a failed DC 13 Dexterity save, the creature's speed is halved for 1 minute. During that time, it cannot take reactions and can take at most one action or one bonus action on each turn. It can repeat the save at the end of each of its turns, ending the effect on a success.\nStunning Ray (5). On a failed DC 13 Constitution save, the creature is stunned for 1 minute. It can repeat the save at the end of each of its turns, ending the stun on a success.\nTelekinetic Ray (6). On a failed DC 13 Strength save, move a creature up to 30 ft. in any direction and restrain it until the start of the mindwitness's next turn or until the mindwitness is incapacitated. An unworn and uncarried object of up to 300 lb. can be moved up to 30 ft. in any direction. The ray can also manipulate an object precisely, such as opening a door or using a simple tool.",
         ],
       ],
+      appearance: [
+        ['A beholder-like creature with four eyestalks turned into mind-flayer tentacles.'],
+      ],
+      lore: [
+        [
+          "A mindwitness is a stunned beholder converted in an elder brain's brine pool, with some eye rays changed and four eyestalks turned to tentacles, and imprinted with devotion to the elder brain. It improves telepathic communication in a colony, relaying messages to as many as seven others it can see. Separated from its masters, it looks for another telepathic creature to give it orders and may ally with flumphs or planar beings and adopt their outlook.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -20326,6 +21040,14 @@ export default createPublicationMonsters({
           'Nine Hells transformation mechanics: When he enters the Nine Hells, he becomes an imp and cannot recover his usual powers until he leaves.',
         ],
       ],
+      appearance: [['An exiled archdevil of Malbolge, bitter over lost rank.']],
+      lore: [
+        [
+          'Moloch earned rulership of Malbolge by driving demons out of the Hells, but his night hag adviser Malagard talked him into a plot against Asmodeus that failed. He escaped execution through a planar portal, raised an army, then became trapped on the Material Plane while seeking an artifact, and his army was destroyed. He is obsessed with what he lost and schemes to reclaim his place.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['The Nine Hells (exiled)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -20936,6 +21658,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: The effects below end immediately if the morkoth dies.\nAlter Water. With no action, the morkoth can change the water in its lair. One minute later, it becomes clear and breathable like air or returns to normal water of any clarity.\nLocate Creatures and Objects. The morkoth notices new creatures and objects on the island or in its sanctum. As an action, it can locate one creature or object on the island. Visitors feel watched.\nLost Possessions. A creature that has been on the island for under a year must make a DC 10 Intelligence save after each short or long rest. On a failure, it misplaces a possession. A player chooses what their character loses. A DC 15 Wisdom (Perception) check can recover the concealed item nearby. After 1 hour, any unrecovered item reaches the lair, where its owner easily recognizes it.\nSupernatural Lure. While in its lair and not incapacitated, the morkoth can switch the lure at its entrances on or off at any time. A creature within 30 ft. of an enchanted entrance that can see it must make a DC 15 Wisdom save. On a failure, it must use its movement each turn to enter and head straight toward the morkoth without realizing that it is approaching a creature. It can repeat the save when it first sees the morkoth, at the end of each of its turns, and whenever it takes damage. A success ends the effect.',
         ],
+      ],
+      appearance: [
+        [
+          'A tentacled monstrosity brimming with malice, riding a strange drifting island lit by twilight.',
+        ],
+      ],
+      lore: [
+        [
+          'Morkoths are ancient, greedy collectors who float the planes on mobile islands crammed with treasure, knowledge and captives, some of whom are descendants of long-ago prisoners who know nothing else. A morkoth may bargain away something it holds if offered something it wants more, but it is merciless to those who cheat it. It knows everything in its collection. They arose in the Astral Plane from the petrified flesh of a god of greed and strife.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'large',
@@ -21608,6 +22341,13 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['desert', 'urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [['A wizard of death and undeath, perhaps trailed by raised servitors.']],
+      lore: [
+        [
+          'Necromancers study the interplay of life, death and undeath. Some dig up or buy corpses to raise as undead servants, while a few use their power for good as hunters of the undead.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -22234,6 +22974,13 @@ export default createPublicationMonsters({
           'Negative Plane crossing mechanics: A creature that survives entering the Negative Plane is trapped there as a nightwalker emerges in its place. To escape, it needs the nightwalker lured back with living prey. If the nightwalker is destroyed, the trapped creature cannot escape.',
         ],
       ],
+      appearance: [['A terrifying undead from the Negative Plane that devours all life it meets.']],
+      lore: [
+        [
+          'Nightwalkers appear when someone enters the Negative Plane and a nightwalker is released to take their place. A trapped creature can only escape if the nightwalker is lured back with offerings of life to eat, and if it is destroyed the creature is lost for good. On the Material Plane it tends to be drawn to things linked to the creature that made it, which can hint at who is trapped, but it exists only to end life.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -22379,6 +23126,13 @@ export default createPublicationMonsters({
           'Nilbog possession mechanics: Without a host, the spirit is invisible, flies 30 ft., cannot be attacked, and is immune to all damage and conditions. On initiative count 20, losing ties, it can only try to possess a goblin within 5 ft. The goblin makes a DC 15 Charisma save. On a failure it is possessed and uses the nilbog stat block. On a success, the spirit cannot possess that goblin for 24 hours. If the host dies or a spell such as Hallow, Magic Circle, or Protection from Evil and Good ends the possession, the spirit seeks another goblin. It can leave voluntarily at any time but does so only if another potential host is nearby. A freed goblin returns to its usual statistics and loses the traits granted by the spirit.',
         ],
       ],
+      appearance: [['A wisecracking, impish goblin, fearless of reprisal.']],
+      lore: [
+        [
+          'A nilbog is a goblin possessed by the splintered spirit of a goblin trickster god broken by Maglubiyet. It can appear when goblinoids gather, especially if they are mistreated. It has strange powers that push others to do the opposite of what they want. Killing it only sends the spirit into another goblin, and the only remedy is to treat it well with respect and praise. Fey courts keep a goblin jester to head off nilbogs.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'fey',
@@ -22497,6 +23251,18 @@ export default createPublicationMonsters({
       page: 196,
       alignment: 'typically lawful evil',
       languages: ['Understands Infernal but cannot speak.'],
+      appearance: [
+        [
+          'A shambling, pitiful devil wrapped in a reeking swarm of stinging insects, stirges and other vermin.',
+        ],
+      ],
+      lore: [
+        [
+          'Nupperibos are the souls of those whose evil came from carelessness and inaction, too worthless to climb the infernal ranks. They shuffle about until the swarm finds prey or a greater devil gives orders. They know only the wish to destroy non-fiends and pursue prey until one side is dead or something else distracts them. They obey any telepathic command from a devil, and are weak singly but dangerous in packs.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['The Nine Hells'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -22900,6 +23666,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Abyssal', 'Infernal', 'telepathy 60 ft.'],
       habitats: ['desert', 'underdark'],
+      appearance: [['A grim spectre of death that brings plague with it.']],
+      lore: [
+        [
+          'Oinoloths are hired as a last resort to end sieges or break strong armies, solving problems by killing everyone involved. Armies that recognise one often break and run. They poison the ground and sicken creatures they meet. They can be hired to lift plagues they spread, at a high price, and those cured end up debilitated.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -23080,6 +23853,13 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Common', 'Infernal', 'telepathy 120 ft.'],
       habitats: ['desert', 'underdark', 'urban'],
+      appearance: [['An infernal bounty hunter that can turn invisible at will.']],
+      lore: [
+        [
+          'Orthons are devils sent by archdukes to track down and kill or capture targets across the multiverse. They have sharp senses and become invisible, though attacking it can break the invisibility, so a strong counterattack works well. They like the chase and one-on-one duels, are loyal first to their archduke, and may work for anyone who offers a worthy fight. They make good guides through the Hells.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -24286,6 +25066,17 @@ export default createPublicationMonsters({
           "Purple Rocks: In the Forgotten Realms, the kraken Slarkrethel claims the islands' infants and sends them back as followers. In old age they become sea spawn and return to the depths. Some have to hide partial transformations before then. Kraken priests tend the flock.",
         ],
       ],
+      appearance: [
+        [
+          'A drowned person remade into a fishlike form, crusted in coral and barnacles, with parts such as tentacles, shark jaws, urchin spines or seaweed hair.',
+        ],
+      ],
+      lore: [
+        [
+          'Sea spawn are people lost to the sea who live on as tormented versions of themselves, served by a kraken, morkoth, sea hag, marid, storm giant, dragon turtle or similar master through a bargain or curse. They breathe water as well as air, but cannot stay out of water for long without risking death. They vary widely, and some body parts give special abilities.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -24540,6 +25331,17 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Common', 'Elvish.'],
       habitats: ['forest', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A lithe, acrobatic, ashen-skinned elf that seems to step out of any dim alcove, whipping out chains.',
+        ],
+      ],
+      lore: [
+        [
+          'Fighting shadow dancers is said to be like fighting living darkness: they ambush from every dim nook and attack from all angles with entangling chains that hold fast and corrupt flesh, then loot the helpless, especially anything colourful and lively. Shadar-kai are elves of the Shadowfell descended from servants of the Raven Queen, often joyless and mournful, and pale with a deathly ashen hue.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -24889,6 +25691,15 @@ export default createPublicationMonsters({
       languages: ['All languages', 'telepathy 120 ft.'],
       habitats: ['underdark'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        ['A demon that pours rivulets of blood and bile, polluting the land around it.'],
+      ],
+      lore: [
+        [
+          'Sibriexes are thought to be as old as the Abyss, haunting remote parts of it and hoarding lore from across the planes. Even demon lords seek them out. They can make new demons from other creatures and graft on new body parts for demons that ask, always demanding a service or treasure in return. Some act as advisers or oracles and manipulate demons, others give lore only when it suits their plans.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -25073,6 +25884,17 @@ export default createPublicationMonsters({
         [
           'Summoning mechanics: A ritual can call a skulk from the Shadowfell. For 30 days it obeys the summoner and, when visible, looks vaguely like them. It can return to the Shadowfell only when it dies.',
         ],
+      ],
+      appearance: [
+        [
+          'Usually invisible; when seen, a drab, featureless, hairless biped, and children can see it.',
+        ],
+      ],
+      lore: [
+        [
+          "Skulks are the soulless shells of travellers lost in the Shadowfell, so empty of self that they are permanently invisible, visible only to children or via a mirror or special candle. A ritual can summon one for 30 days, during which it obeys and takes on a vague likeness of its summoner. Cruel and chaotic, it carries out orders violently and cannot leave until dead, so many throw themselves into mayhem. After killing someone, some silently imitate that person's life.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -26085,6 +26907,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Common', 'Deep Speech', 'Undercommon.'],
       habitats: ['mountain', 'swamp', 'urban'],
+      appearance: [
+        [
+          'A mortal body overgrown with whorls of tumorous skin, flipper-like hands gripping a staff of flesh, bone and star stuff.',
+        ],
+      ],
+      lore: [
+        [
+          "A star spawn seer usually leads a cult of an Elder Evil and is often the only member who grasps the true horror it worships, working to tap big energy sources and perform rites that bridge to the Elder Evil's realm. The seer-entity arrives disembodied and takes over a mortal, often a warlock or caster who contacted it, whose identity mostly vanishes. It is nearly always accompanied by star spawn hulks. Star spawn serve the Elder Evils and often arrive after a comet.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -26208,6 +27041,13 @@ export default createPublicationMonsters({
       alignment: 'typically lawful neutral',
       languages: ["Understands Modron and the language of its owner but can't speak."],
       habitats: ['urban'],
+      appearance: [['A merciless metal construct that bounds off the moment it is made.']],
+      lore: [
+        [
+          'A steel predator is made in a Sigil shop run by an exiled rogue modron, using something that identifies the target, such as hair or a well-worn glove. It senses its target across planes to within a thousand yards, then closes by sight and smell. It kills its target and returns to Sigil to be broken down, but battle damage can break that instinct, leaving a rogue that kills similar or nearby creatures.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -26441,6 +27281,13 @@ export default createPublicationMonsters({
         [
           'Cryptic Whispers mechanics: At the end of a short rest, a character can ask the obsidian skull a question aloud and make a DC 20 Intelligence (Arcana) check. On a success, the skull yields a memory that answers the question. The skull yields no further memories after the attempt, regardless of the result.',
         ],
+      ],
+      appearance: [['A stone statue animated with claws that drip grey sludge.']],
+      lore: [
+        [
+          "A stone cursed is a petrified humanoid animated by an alchemical ritual using basilisk blood and burned cockatrice feather ashes, which wakes a dim echo of the victim's spirit. It wants to kill the living but is wholly loyal to whoever raised it. Its claws drip sludge that turns those it cuts to statue. A fist-sized obsidian skull inside the torso falls out when it shatters and holds a faint echo of the victim's memories.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -26685,6 +27532,17 @@ export default createPublicationMonsters({
           'When the giant dies, lightning, thunder, and high winds cease immediately. Rain, snow, and blowing dust taper off within 1d8 days.',
         ],
       ],
+      appearance: [
+        [
+          'A semiconscious storm that makes weapons from thin air, able to take temporary giant form.',
+        ],
+      ],
+      lore: [
+        [
+          'A quintessent is a storm giant near death who escaped it by dispersing into nature as a storm, such as an endless blizzard on a peak or a vortex around an island. It drops armour and weapons but forms makeshift weapons from air that vanish when no longer needed. It can briefly revert to giant form to talk with a mortal, do a short task or defend its home. Its lair is a secluded region or landmark.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -26847,6 +27705,15 @@ export default createPublicationMonsters({
         [
           "Changeable Natures mechanics: After finishing a long rest, an eladrin that is not incapacitated can adopt another season's stat block. Carry over its damage taken, conditions, and other ongoing effects.",
         ],
+      ],
+      appearance: [
+        ['An eladrin in the season of summer, a burning, tempestuous aggressive warrior.'],
+      ],
+      lore: [
+        [
+          'Eladrin enter summer when angered, becoming aggressive warriors eager to vent their wrath. Their magic amplifies their fury, letting them move astonishingly fast and strike hard. Eladrin are emotion-ruled Feywild elf-kin whose bodies and behaviour shift with seasonal aspects tied to mood.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -28023,6 +28890,13 @@ export default createPublicationMonsters({
         ],
         ["Speed. Increase the wizard's walking speed by 10 ft."],
       ],
+      appearance: [['A wizard who transforms physical forms.']],
+      lore: [
+        [
+          'Transmuters are masters of changing physical form and usually see transmutation as a path to riches, enlightenment or apotheosis.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -28548,6 +29422,17 @@ export default createPublicationMonsters({
           'Spore infection mechanics: If a creature dies while infected by the chief’s spores, its corpse produces vegepygmies under the Russet Mold rules. A Humanoid or Giant corpse produces one or more vegepygmies after one day. A Beast corpse can produce a Thorny Vegepygmy instead.',
         ],
       ],
+      appearance: [
+        [
+          'A fungus creature with spore clusters on its body, hissing and gesturing rather than speaking.',
+        ],
+      ],
+      lore: [
+        [
+          'Vegepygmies live in simple bands in dark, damp places, hunting and spreading spores to reproduce. As they age they grow tougher and sprout spore clusters, and the others defer to these chiefs. A chief can burst its spores to infect nearby creatures, and a creature that dies while infected produces vegepygmies, as with russet mold. They eat fresh meat, bone and blood, and get along with myconids, shriekers and violet fungi.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -28889,6 +29774,13 @@ export default createPublicationMonsters({
           'Holy symbol ideas: Choose a symbol or roll a d8. 1, a vial of shimmering fluid. 2, a broken sword’s hilt. 3, a fragment of shrine glass. 4, a clay model of a ki-rin or another Celestial. 5, a torch carved like a hand cradling fire. 6, a reed circlet. 7, carved bone. 8, a vessel such as a cup or urn.',
         ],
       ],
+      appearance: [['A priest of a war, protection or strategy god, carrying a holy symbol.']],
+      lore: [
+        [
+          "War priests plan tactics, lead soldiers in battle, face enemy casters and tend the wounded. One may command an army or serve as a warlord's right hand on the field, and usually wears a symbol of its faith.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -29017,6 +29909,15 @@ export default createPublicationMonsters({
       languages: ['Any two languages', 'usually including Sylvan.'],
       habitats: ['arctic', 'forest', 'mountain', 'swamp', 'urban'],
       tableNotes: [['Alternate armor classes: 16 · with mage armor']],
+      appearance: [
+        ['A warlock with a pact to a lord of the Feywild, often found among lesser fey.'],
+      ],
+      lore: [
+        [
+          'Warlocks of the Archfey get power from pacts with Feywild lords and commonly keep company with lesser fey such as boggles, quicklings and redcaps, or even satyrs and sprites.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -29144,6 +30045,13 @@ export default createPublicationMonsters({
       languages: ['Any two languages', 'usually including Abyssal or Infernal.'],
       habitats: ['arctic', 'desert', 'underdark', 'urban'],
       tableNotes: [['Alternate armor classes: 16 · with mage armor']],
+      appearance: [['A warlock with a pact to an archfiend, often with an imp or quasit nearby.']],
+      lore: [
+        [
+          'Warlocks of the Fiend get power from pacts with archfiends of the Lower Planes. They often keep an imp or quasit as a companion and tend to extremes: either consorting with fiendish cults or devoting themselves to destroying them.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -29276,6 +30184,13 @@ export default createPublicationMonsters({
       languages: ['Any two languages', 'telepathy 30 ft.'],
       habitats: ['arctic', 'hill', 'mountain', 'underdark', 'urban'],
       tableNotes: [['Alternate armor classes: 16 · with mage armor']],
+      appearance: [['A warlock with a pact to an eldritch entity from beyond.']],
+      lore: [
+        [
+          'Warlocks of the Great Old One get power from pacts with eldritch entities from distant realms. Some associate with cultists and aberrations that share their goals, while others hunt down the chaos and wickedness these beings inspire.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -29410,6 +30325,13 @@ export default createPublicationMonsters({
         [
           'Optional Abyssal corruption mechanics: Use the 2014 Dungeon Master’s Guide’s optional Abyssal Corruption rule if you want the poisoned creature to risk corruption after drinking the foul water.',
         ],
+      ],
+      appearance: [['A water demon whose presence fouls the water around it.']],
+      lore: [
+        [
+          'Wastriliths rule polluted Abyssal waters as cruel lords of the deep. Their corruption taints nearby water even when on land, and the water obeys them by hardening to trap foes or surging to pull victims in. Drinking it risks the soul: victims may waste away or live on as thralls of chaos and evil.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'large',
@@ -29632,6 +30554,13 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Draconic', 'Infernal', 'telepathy 120 ft.'],
       habitats: ['urban'],
+      appearance: [['A draconic devil that fights with reckless fury.']],
+      lore: [
+        [
+          "Each abishai was a mortal who won Tiamat's favour and became a draconic devil after death, tied to one of her five heads, here white. White abishais fight without fear and become whirlwinds of destruction, which suits them to Tiamat's armies. Abishais are her agents, fanatically loyal, outside the Hells' usual hierarchy, and other archdevils rarely use them since it is unclear whether an abishai follows Tiamat's interests or theirs.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -29816,6 +30745,17 @@ export default createPublicationMonsters({
         [
           "Changeable Natures mechanics: After finishing a long rest, an eladrin that is not incapacitated can adopt another season's stat block. Carry over its damage taken, conditions, and other ongoing effects.",
         ],
+      ],
+      appearance: [
+        [
+          'An eladrin in the season of winter, a melancholy figure with frozen tears on its cheeks and sadness radiating as icy cold.',
+        ],
+      ],
+      lore: [
+        [
+          'Eladrin enter winter when sorrow distresses them, becoming figures of melancholy. Eladrin are emotion-ruled Feywild elf-kin whose bodies and behaviour shift with seasonal aspects tied to mood, some staying in one for years, others cycling weekly.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
       stats: {
         size: 'medium',
@@ -30741,6 +31681,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic.'],
       habitats: ['desert', 'forest', 'underdark'],
+      appearance: [['A yuan-ti abomination transformed into a greater, painful-born form.']],
+      lore: [
+        [
+          "An anathema is an abomination remade by a ritual that needs hundreds of sacrificed snakes and a bath in enemies' blood. Anathemas consider themselves demigods heading for divinity. They demand obeisance and war on neighbours for captives, sacrifices, glory and riches. They do not age, and powerful ones can rule several yuan-ti cities.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -31315,6 +32262,13 @@ export default createPublicationMonsters({
       alignment: 'typically neutral evil',
       languages: ['Abyssal', 'Common', 'Draconic.'],
       habitats: ['desert', 'forest', 'underdark'],
+      appearance: [['A yuan-ti malison priest with snakes for arms.']],
+      lore: [
+        [
+          "Pit masters made a pact with Merrshaulk and want to wake him by sacrificing humanoids. They are the most traditional yuan-ti and think they best serve their people's aims. They are central to the plan to take over humanoid governments and to keeping their cities hidden from enemies. They oppose reckless action and favour slow, careful approaches.",
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -31463,6 +32417,14 @@ export default createPublicationMonsters({
           "Regional effects: Choose one or more effects around Zariel's basalt citadel in Avernus.\nHellscape. Screams and the smell of burning meat fill the area within 9 miles of the lair.\nPyres. Within 1 mile, jets of flame 10 ft. high rise every 60 ft. A creature or object touching a flame takes 7 (2d6) fire damage at most once per round.\nSmoke. From 500 ft. out to 2 miles, persistent smoke heavily obscures the area and cannot be dispersed.\nAfter Zariel dies, the effects fade over 1d10 days.",
         ],
       ],
+      appearance: [['A fallen angel turned archdevil, ruler of Avernus.']],
+      lore: [
+        [
+          'Zariel was an angel watching the Blood War until the Hells corrupted her, and Asmodeus made her an archdevil and ruler of Avernus. She displaced the pit fiend Bel, whom she hates and keeps busy forging weapons, armour and demon-slaying machines. She needs mortal souls to make lemures for her legions, especially from great warriors, and bargains hard with pacts that are very hard to escape. She expects the best from servants.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['Avernus (the Nine Hells)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -31706,6 +32668,18 @@ export default createPublicationMonsters({
           "Regional effects: Choose one or more effects around Zuggtmoy's lair.\nCorrupted Nature. Within 6 miles, Wisdom (Medicine) and Wisdom (Survival) checks have disadvantage.\nFungal Infestation. Within 6 miles, molds and fungi grow even on surfaces where they would not normally take hold.\nMutating Vegetation. Within 1 mile, parasitic fungi slowly alter the vegetation they infest.\nAfter Zuggtmoy dies, the effects fade over 1d10 days.",
         ],
       ],
+      appearance: [
+        [
+          'A fungoid figure shaped as a skeletal-thin humanoid draped and veiled in mycelia and lichen.',
+        ],
+      ],
+      lore: [
+        [
+          'Zuggtmoy, Demon Queen of Fungi, wants only to infect the living with spores, make them mindless servants, and eventually turn them into rotting hosts for her fungi. Her cultists often follow unwittingly, infected by her spores to varying degrees, starting with the promise of exotic mushrooms. Her appearance and manner mock mortal life.',
+        ],
+        ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      habitats: ['The Abyss'],
       stats: {
         size: 'large',
         type: 'fiend',

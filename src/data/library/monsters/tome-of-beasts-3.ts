@@ -3783,6 +3783,18 @@ export default createPublicationMonsters({
       name: 'Npc: Atavist',
       alignment: 'lawful evil',
       languages: ['any two languages'],
+      appearance: [
+        [
+          'A cultist whose body has been reshaped by blood rites: fingernails grown into blades, bone ridges and spurs pushing through the skin, limbs bent into an odd, adapted build.',
+        ],
+      ],
+      lore: [
+        [
+          "Atavists believe the universe's secrets are written in the body, and use blood magic to call up the legacies of forgotten ancestors. They turn nails into blades, bones into missiles and their bodies into forms suited to their surroundings. The least stable need regular blood transfusions or arcane stabilisation to survive, so they are close to thralls. The more stable still owe debts to blood mages, alchemists or other atavists, often the only people who will accept them in a society that sees them as monstrous.",
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3813,6 +3825,18 @@ export default createPublicationMonsters({
       name: 'Npc: Cultist Psychophant',
       alignment: 'any non-good alignment',
       languages: ['any two languages'],
+      appearance: [
+        [
+          'A cultist with a commanding, magnetic presence whose gaze and bearing make others want to obey.',
+        ],
+      ],
+      lore: [
+        [
+          "Psychophants have pushed their minds far past the ordinary, through profane pacts, experiments gone wrong or awakened inner potential. They influence and control others without caring what it does to them. Followers gather around them, and many lead cults, thieves' guilds or other illicit groups, while some dabble in politics. In a fight they make others defend them while they batter foes with psychic attacks.",
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3917,6 +3941,17 @@ export default createPublicationMonsters({
       name: 'Npc: Infested Duelist',
       alignment: 'chaotic neutral',
       languages: ['any one language (usually Common)'],
+      appearance: [
+        [
+          'A fighter whose body is covered by a spreading fungal growth that is slowly turning it into a huge sporing fruit.',
+        ],
+      ],
+      lore: [
+        [
+          "Ivory bloom fungus only makes dinosaurs mildly ill but is far more dangerous in humanoids, growing across the body and boosting the host's physique as it turns the body into a fruiting mass. Magical treatment can hold this stage for a year or more. An infested duelist has chosen to nurture the fungus to this terminal stage, trading a short life for raw strength. Most are chasing a goal, hunting a hated enemy or making a last stand, and having made peace with dying they never surrender.",
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3976,6 +4011,18 @@ export default createPublicationMonsters({
       name: 'Npc: Warlock Of The Genie Lord',
       alignment: 'any alignment',
       languages: ['Common', 'Primordial'],
+      appearance: [
+        [
+          'A warlock with an air of superiority and a commanding presence, often with a summoned elemental nearby.',
+        ],
+      ],
+      lore: [
+        [
+          'These warlocks draw power from pacts with powerful djinni and efreeti lords. They often summon lesser elementals to do their bidding, and whatever their alignment they carry themselves as if they are above others.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Desert', 'Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4013,6 +4060,18 @@ export default createPublicationMonsters({
       name: 'Nullicorn',
       alignment: 'chaotic evil',
       languages: ['Celestial', 'Elvish', 'Sylvan', "telepathy 60'"],
+      appearance: [
+        [
+          'A unicorn reduced to scraps of hide that dissolve and reappear, leaving muscle and bone showing. Its dark horn flickers in and out of existence and its eyes are empty voids.',
+        ],
+      ],
+      lore: [
+        [
+          'A nullicorn is what a unicorn becomes when trapped in an eldritch wasteland, where its flesh is burned away and its magic corrupted into something maddening. Its body repels magic, and being near it can pass that resistance to others. It hates magic and rages over the power it lost. It will fight anything in its way but hunts spellcasters and bearers of enchanted items first.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Badlands'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -4092,6 +4151,18 @@ export default createPublicationMonsters({
       name: 'Oaken Sentinel',
       alignment: 'unaligned',
       languages: ['Sylvan'],
+      appearance: [
+        [
+          'An enormous oak with wide-reaching boughs, often with piles of rocks stacked near its trunk.',
+        ],
+      ],
+      lore: [
+        [
+          'A druid circle grants an oak wisdom so that it will guard a place for them, though some wander. It is not truly awakened. It waits for trespassers to step under its boughs and then strikes. The rock piles nearby are its ammunition, thrown at ranged attackers and fleeing intruders, sometimes along with rotting corpses. It does not attack someone who shows a token from its druids, and trespassers who convince it their aims match can pass. It must pull its roots free to move, so it is slow.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -4132,6 +4203,18 @@ export default createPublicationMonsters({
       name: 'Ogre, Rockchewer',
       alignment: 'lawful neutral',
       languages: ['Giant'],
+      appearance: [
+        [
+          'A towering giant whose skin is rough stone, a bag of rocks slung over its shoulder. It bites into rocks like fruit and gravel spurts from its mouth when it speaks.',
+        ],
+      ],
+      lore: [
+        [
+          'Rockchewers roam hills, mountains and badlands with exposed stone, often near stone giants, who see them as an infestation but tolerate them as distant relatives. They compulsively eat natural and worked stone, including castle walls and foundations, and take their time doing it, even in a fight. They play by throwing rocks at each other, greet newcomers the same way, and apologise quickly if harm is answered with harsh words rather than weapons.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Badlands', 'Hill', 'Mountain'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -4181,6 +4264,18 @@ export default createPublicationMonsters({
       name: 'Ooze, Leavesrot',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A heap of red, yellow, orange and brown rotting leaves that rustles and scuttles over the ground.',
+        ],
+      ],
+      lore: [
+        [
+          'A leavesrot forms when sentient mould grows on fallen leaves and makes them act together. As the heap rots it gives off acid strong enough to strip flesh. It lies in ambush on the forest floor, drags travellers down and eats them. It goes dormant for a while after eating seven creatures in a month, so travellers in its area bring livestock to feed it. Druids sometimes use these oozes to speed the rotting of corpses.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -4250,6 +4345,14 @@ export default createPublicationMonsters({
       name: 'Ooze, Manure',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A sludgy brown mass with fine particles and unidentifiable lumps in it.']],
+      lore: [
+        [
+          'Manure oozes arise where refuse, water and fertiliser combine, especially in farmland soaked in arcane energy, such as old battlefields. They can lie still for days like an ordinary compost heap until a farmer or unattended livestock comes close, then move on to the next farm when food runs out. They can grow to the size of a large pond. Their trail enriches soil, and a destroyed one leaves lush ground behind. In Midgard they are most common in the Magocracy of Alain, where some families breed them in secret.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Farmland'],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -4332,6 +4435,18 @@ export default createPublicationMonsters({
       name: 'Ooze, Shoal',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A huge, almost invisible ooze with a tight sphere of hundreds of small silver fish swimming inside it.',
+        ],
+      ],
+      lore: [
+        [
+          "The shoal ooze lives in symbiosis with a school of acid-resistant fish. The ooze protects them, and the fish lure prey in, swimming in mesmerising spirals so the ooze can surprise sharks and other hunters. The fish eat scraps from the ooze's victims, live and breed entirely inside it, and when the school grows too big part of it splits off to start a new ooze. Small shoal oozes may merge for safety.",
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Underwater'],
       stats: {
         size: 'gargantuan',
         type: 'ooze',
@@ -4389,6 +4504,18 @@ export default createPublicationMonsters({
       name: 'Peri',
       alignment: 'chaotic good',
       languages: ['Auran', 'Common'],
+      appearance: [
+        [
+          'A small humanoid with fine elfin features, shimmering pale blue skin, long flowing hair and elegant insect wings nearly as large as its body.',
+        ],
+      ],
+      lore: [
+        [
+          'Peris are minor genies of elemental air, often mistaken for fey. Once spiteful, they were exiled from the Plane of Air by the djinni calipha and now do penance by doing good, such as helping lost travellers in the mountains. They cannot resist small pranks, particularly on hunters who kill too much game: hiding belongings, giving false directions or scaring people off, without physical harm unless attacked. Genies sometimes send them with messages, which they shout from mid-air. Evil genies cage them, and peris may ask adventurers to help free them.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -4418,6 +4545,18 @@ export default createPublicationMonsters({
       name: 'Pescavitus',
       alignment: 'neutral good',
       languages: ['Celestial', "telepathy 60'"],
+      appearance: [
+        [
+          'A fish with iridescent scales that flash through a spectrum of light, long fine fins like billowing cloud and a symmetrical, almost humanoid face.',
+        ],
+      ],
+      lore: [
+        [
+          "Sailors call pescavituses the fish of life, because they heal injured creatures, help stranded land-dwellers reach shore and deal with threats to the sea such as fiendish activity or a malign artefact. They come from the ordered oceans of the Upper Planes, swim alone or in groups of up to three, and often ally with incandescent ones against big threats in shallow water. They respect the sea's harsh natural cycles but will heal beasts that escaped a predator. They are often mistaken for ningyo, and those who eat their flesh hoping for immortality tend to die sooner.",
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Underwater'],
       stats: {
         size: 'small',
         type: 'celestial',
@@ -4489,6 +4628,18 @@ export default createPublicationMonsters({
       name: 'Puffinfolk',
       alignment: 'neutral',
       languages: ['Aquan', 'Common'],
+      appearance: [
+        [
+          'A small, stocky bird-person with short black and white feathers, a bright orange bill and wings ending in clawed hands, wearing a simple leather vest and often holding a smoking pipe.',
+        ],
+      ],
+      lore: [
+        [
+          'Puffinfolk live in close-knit colonies in cliffs or hillsides on rocky coasts and small islands. They eat fish caught by diving from the air, never use boats and rarely nets, have great endurance on long flights and always find their way home or back to a favourite fishing spot. They trade fish and odd objects found in remote waters. They give tribute to all sea gods and powerful sea creatures without taking sides, sometimes with goods or blood rituals but never by sacrificing sentient creatures.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4539,6 +4690,18 @@ export default createPublicationMonsters({
       name: 'Pyrrhic Podthrower',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A patch of crabgrass with four radial blades, a seedpod flickering with flame at the tip of each.',
+        ],
+      ],
+      lore: [
+        [
+          'A weed that survives by aggression, incendiary seeds and regeneration. Some farmers tolerate it because it harms crop pests. Its blades are bitter with flammable oil, but the core is edible. It lets grazing animals chew it and then sets them alight, using the ashes to fertilise itself. Otherwise it needs sun and water like any plant, and stops regenerating after a week without water or if blighted. It can live up to forty years, burrows away from strong opposition and reproduces rarely.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Farmland', 'Forest', 'Grassland'],
       stats: {
         size: 'small',
         type: 'plant',
@@ -4603,6 +4766,18 @@ export default createPublicationMonsters({
       name: 'Rock Salamander',
       alignment: 'unaligned',
       languages: ["understands Terran but can't speak"],
+      appearance: [
+        [
+          'A lizard-like shape rises from mottled stone, its legs sunk into the rock, grey tongue flickering. It pulls free without leaving claw marks on the stone.',
+        ],
+      ],
+      lore: [
+        [
+          'Earth elementals that live in mountains, hills and stony wastes, preferring the Material Plane where they can eat insects and small rodents and avoid larger earth elementals that eat them. Stone giants also treat them as a delicacy. They are attuned to the stone of their lair and sense creatures touching it. Pairs lay eggs deep in the stone. A salamander attacks prey it can overwhelm, harries stronger foes by moving through stone, and flees from a foe that can also move through stone.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Badlands', 'Hill', 'Mountain'],
       stats: {
         size: 'tiny',
         type: 'elemental',
@@ -4728,6 +4903,18 @@ export default createPublicationMonsters({
       name: 'Shadow Lurker',
       alignment: 'chaotic evil',
       languages: ['Common', 'Elvish'],
+      appearance: [
+        [
+          'A slim humanoid in a tattered suit stands in an alley with shadowy mist at its feet, tipping a tattered top hat and bowing while the shadows on the walls move by themselves.',
+        ],
+      ],
+      lore: [
+        [
+          'A shadow lurker was once a humanoid that traded its own shadow for fey riches and found being shadowless horrible. It envies those who still have theirs and approaches sleepers at night to convince their shadows that their owner does not appreciate them. On full-moon nights it stalks small towns and cities and leads its collected shadows on rampages of vandalism and terror.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Farmland', 'Urban'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -4779,6 +4966,18 @@ export default createPublicationMonsters({
       name: 'Sinstar Thrall',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A cactus-like humanoid figure, one of many human-shaped cacti around a tiny spiny cactus with star-shaped pink blooms.',
+        ],
+      ],
+      lore: [
+        [
+          'Sinstars come from between the stars, travelling as seed-spores in rocky shells, and are highly intelligent. Their goal of assimilation puts them at odds with local life. They spread by turning humanoid victims into star thralls, cactus-like servants and guards driven to bring more victims, some roaming miles from their parent. Their lairs are on hills and mountainsides below the treeline in most climates, marked by many eerily human-like cacti.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Hill', 'Mountain'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -4840,6 +5039,16 @@ export default createPublicationMonsters({
       name: 'Stone-Eater Slime',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A translucent orange blob scoots across smooth stone, leaving pits and scores behind.'],
+      ],
+      lore: [
+        [
+          'Stone-eater slimes came from a pit of vitriolic acid that earth elementals call the Great Dissolution, and infest caverns and mountains. They eat stone, favouring petrified creatures and worked stone, and can petrify prey unreliably, so they lurk in the lairs of basilisks, medusas and similar creatures. Medusas hate them because they ruin their statues. They avoid busy areas but wear pits and weaken ceilings into traps and deadfalls. Their paths cross mineral oozes, which they sometimes eat.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Mountain', 'Underground'],
       stats: {
         size: 'small',
         type: 'ooze',
@@ -4961,6 +5170,18 @@ export default createPublicationMonsters({
       name: 'Swarm, Ice Borers',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'What looks like an icicle unfurls delicate icy wings and opens a gnawing mouth full of piercing teeth, and dozens more follow.',
+        ],
+      ],
+      lore: [
+        [
+          'Ice borers come from the elemental planes and look like ice shards, with membranous wings wrapped tight and mouths like cracks in ice. They turn red from blood after eating. They wait above cave entrances and on eaves among ordinary icicles, sense the warmth of a creature passing beneath and drop on it. If threatened by a powerful foe or if the meal is not easy, the swarm flies off to hunt elsewhere.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -5034,6 +5255,18 @@ export default createPublicationMonsters({
       name: 'Swarm, Swamp Slirghs',
       alignment: 'neutral',
       languages: ['Aquan', 'Terran'],
+      appearance: [
+        [
+          'A slithering mass of eel-like creatures writhes together, slick with mud and oozing dark ichor, giving off a powerful stench.',
+        ],
+      ],
+      lore: [
+        [
+          'Slirghs are lesser earth elementals that resemble eels. Their sulphur smell is easily mistaken for bog peat. They are devious pranksters that magically pull creatures across the swamp, sometimes stranding them miles away, but are not malicious and can be persuaded to return a creature or even ferry a group through the swamp for something tasty. They live in writhing masses and defend together by biting or spitting poisonous sludge.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -5232,6 +5465,18 @@ export default createPublicationMonsters({
       name: 'Torch Mimic',
       alignment: 'neutral',
       languages: ['understands Common', "can't speak"],
+      appearance: [
+        [
+          'A seemingly ordinary torch is sparked, two drowsy eyes open, stare briefly and it bursts into flames.',
+        ],
+      ],
+      lore: [
+        [
+          'A wizard bred torch mimics because he tired of carrying torches, and adventurers often find them by accident. They bite hands that hold them with splinter-like teeth, and once dropped fire blasts at their attackers to drive them off. They are not shapechangers. They understand a little Common, some can speak short sentences, and cunning adventurers have tricked, bribed or persuaded them into guiding them through dungeons.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Underground', 'Urban'],
       stats: {
         size: 'tiny',
         type: 'monstrosity',
@@ -5279,6 +5524,18 @@ export default createPublicationMonsters({
       name: 'Troll, Tumor',
       alignment: 'chaotic evil',
       languages: ['Giant'],
+      appearance: [
+        [
+          'A troll with bulging, swollen flesh and vestigial limbs, teeth and heads sprouting at random, rearing back and screaming at the sky.',
+        ],
+      ],
+      lore: [
+        [
+          'A troll with a disease that poisons its blood and disrupts its regeneration, so even shed skin grows new limbs and flesh, leaving it covered in teratomas and in endless pain. Feeding is one of the few things that eases the pain, so it is more aggressive than other trolls. Troll tribes shun them, or throw them on funeral pyres or into deep pits as a mercy. They also arise from magical experiments on trolls, and a surviving experimenter may leash one as a guard, which is easier than managing troll mercenaries.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -5342,6 +5599,18 @@ export default createPublicationMonsters({
       name: 'Trollkin Ironmonger',
       alignment: 'neutral',
       languages: ['Common', 'Trollkin'],
+      appearance: [
+        [
+          'A wizened trollkin in thick robes and religious trinkets raises a staff as fire gathers around its hands, while an ironclad trollkin beside it roars and charges with a large sword.',
+        ],
+      ],
+      lore: [
+        [
+          'Ironmongers are veteran trollkin armour and weapon smiths who wear their own work and act as vanguards for the desert trollkin. Desert trollkin live in badlands and deserts, a harsh life that demands strength, cunning and hardiness.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Badlands', 'Desert'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5400,6 +5669,18 @@ export default createPublicationMonsters({
       name: 'Vorthropod',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A fiery-tempered crustacean with oversized foreclaws and a muscular tail, hiding in lava flows, its shell topped with cooled lava that looks like a stepping stone.',
+        ],
+      ],
+      lore: [
+        [
+          'Vorthropods are byproducts of residual energy and magic from the Elemental Planes of Fire, Earth or Water. When it molts, the old shell fuses with nearby lava, so it must stay hot and submerged to move and hunts only briefly and near heat. It sleeps motionless under the lava surface, resembling a foothold. Out of lava too long, its shell hardens until it entombs the creature in basalt, and it hibernates until lava softens it, dying if that lasts too long. It prefers basking and is hard to tell from small islands.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -5500,6 +5781,18 @@ export default createPublicationMonsters({
       name: 'Xecha',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'Infernal', "telepathy 120'"],
+      appearance: [
+        [
+          'An approximate humanoid made of translucent slime in iridescent greens and blues, with a humanoid skull and spine floating upright inside.',
+        ],
+      ],
+      lore: [
+        [
+          'Xecha are fiends that serve as spies and infiltrators for stronger masters or as mercenaries. Between missions they merge into large slimy masses in rocky hollows on their home plane, losing themselves in it until called, though they stay argumentative. Being formless they pour into a corpse, dissolve its organs and wear it as a disguise for espionage and sabotage. The shells last days, though some enjoy long missions using multiple bodies.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Planar'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -5569,6 +5862,18 @@ export default createPublicationMonsters({
       name: 'Zilaq',
       alignment: 'neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A tiny purple two-headed dragon: one head chats amicably while the other stays focused on a book.',
+        ],
+      ],
+      lore: [
+        [
+          "Zilaqs are minor dragons that love books, language and stories, and build impressive libraries over long lives. Some entomb themselves in them and use agents to buy more books. They are among the more approachable dragons and will do a service for a story. They are social, well-informed conversationalists who prefer company, though one head is often reading and only pauses to ask a question or correct the other head. They may equally be chatting in a scriptorium or attacking adventurers while leaving a looted wizard's lair.",
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -5619,6 +5924,18 @@ export default createPublicationMonsters({
       name: 'Zombie, Smokeplume',
       alignment: 'chaotic evil',
       languages: ['[em/]'],
+      appearance: [
+        [
+          'A massive, bloated zombie whose flesh has hardened into cracked plates of charcoal, smoke seeping from the seams and orifices and a heat haze around it.',
+        ],
+      ],
+      lore: [
+        [
+          'A magical fire from Hell rages inside its belly, burning its guts and threatening to burst it. It howls in pain and belches acrid smoke, and its waddling gait comes from the pressure. It is more aggressive than other zombies because attacking releases some of that energy and eases its torment. When it dies the stored power becomes a giant smoke cloud. Cults use them as shock troops in large assaults and as terror weapons, not near temples, and do not expect them to last long.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Farmland', 'Urban'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -5676,6 +5993,18 @@ export default createPublicationMonsters({
       name: 'Zombie, Voidclaw',
       alignment: 'chaotic evil',
       languages: ['Common', 'Void Speech'],
+      appearance: [
+        [
+          'Faint black waves of energy surround a zombie that seems agitated and then is gone. It has a shortened frame, odd proportions and overly large clawed hands.',
+        ],
+      ],
+      lore: [
+        [
+          'Voidclaws are suffused with Void magic, which twists their bodies, sharpens their intellect and makes them fast. They are made in rituals invoking the Void. They are efficient killers that clear areas of life, used by Void and doomsday cults, and lesser undead defer to them and follow them into combat. They speak with odd authority and some cult leaders treat their words as the Void speaking. Some have a private mission imprinted at creation, and cultists wait for it to finish before asking for help.',
+        ],
+        ['Sources: ', 'Tome of Beasts 3'],
+      ],
+      habitats: ['Farmland', 'Urban'],
       stats: {
         size: 'small',
         type: 'undead',

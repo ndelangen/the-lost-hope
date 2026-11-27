@@ -282,6 +282,14 @@ export default createPublicationMonsters({
       name: 'Ice Toad',
       alignment: 'neutral',
       languages: ['Ice Toad'],
+      appearance: [["A giant toad of the Ice Hunter tribe's lands in the far north."]],
+      lore: [
+        [
+          "The Ice Hunters keep ice toads, which examine the adventurers' belongings when they arrive in Oyaviggaton.",
+        ],
+        ['Sources: ', 'Rise of Tiamat, PDF page 30'],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -550,6 +558,14 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Elvish', 'Infernal'],
+      appearance: [["The lost son of Melandrach, the cult's Green Wyrmspeaker."]],
+      lore: [
+        [
+          "Neronvain was a headstrong elf who rushed into his own pursuits, unlike his father. When it is revealed that he has become the Green Wyrmspeaker of the Cult of the Dragon, it finally changes his father's cautious stance.",
+        ],
+        ['Sources: ', 'Rise of Tiamat, PDF page 16'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',

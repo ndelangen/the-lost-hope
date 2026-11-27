@@ -1155,6 +1155,13 @@ export default createPublicationMonsters({
         ['Base creature: Scout'],
         ['Applied templates: Shield Dwarf'],
       ],
+      appearance: [['A skilled hunter and tracker who sells their services.']],
+      lore: [
+        [
+          'Scouts are hunters and trackers who work for a fee. Most hunt game, but some are bounty hunters, guides or military scouts. (The source covers scouts generally, not this stormforge in particular.)',
+        ],
+        ['Sources: ', 'Waterdeep: Dungeon of the Mad Mage'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

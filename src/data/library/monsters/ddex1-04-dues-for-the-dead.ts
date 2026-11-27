@@ -12,6 +12,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish'],
+      appearance: [["A Red Wizard in the service of Thay's interests in Phlan."]],
+      lore: [
+        [
+          'Rorreth Monforoth is an advisor sent to Phlan with a handful of cult advisors. He is to find a way to locate the dormant Pool of Radiance beneath Phlan and reconnect it to the Weave, and to seek a means of entry into the ruins under Valjevo Castle.',
+        ],
+        ['Sources: ', 'DDEX1-04 Dues for the Dead, PDF page 5'],
+      ],
+      habitats: ['City'],
       stats: {
         size: 'medium',
         type: 'humanoid',

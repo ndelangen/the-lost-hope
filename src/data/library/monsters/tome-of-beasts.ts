@@ -122,6 +122,25 @@ export default createPublicationMonsters({
       name: 'Adult Flame Dragon',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic', 'Giant', 'Ignan', 'Infernal', 'Orc'],
+      appearance: [
+        [
+          'Charred black scales cover the dragon, with dull red cracks between them. When it rears up and roars, the cracks flare orange and flames pour from it from tail to jaws.',
+        ],
+      ],
+      lore: [
+        [
+          'Flame dragons are proud, jealous and cruel, and they treat rage, deceit and despair as playthings. They tease victims like cats and, as they age, move from blunt cruelty to long political and magical schemes that never truly end, so even killing the mastermind may not stop the trouble it began. They collect a souvenir of every victory, from scorched skulls to the melted treasures of fallen empires, and display them in lairs near volcanoes, sulfur mines or geysers, often with a large mirror because the dragon adores itself. They crave constant attention, so humiliating one is unwise unless you kill it, and its death is taken as the gravest insult by its kin.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Adult Flame Dragon (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/adult-flame-dragon/',
+          },
+        ],
+      ],
+      habitats: ['Volcano', 'Mountain', 'Underground'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -2597,6 +2616,25 @@ export default createPublicationMonsters({
       name: 'Bukavac',
       alignment: 'neutral evil',
       languages: ['Sylvan'],
+      appearance: [
+        [
+          'A toad-like brute with two gnarled horns and wicked claws bursts from the water on six legs, unleashing a bone-shaking roar. It is about 11 feet long including its horns.',
+        ],
+      ],
+      lore: [
+        [
+          'A solitary ambusher, the bukavac lurks under the surface of deep forest ponds and lakes, holding its breath for minutes, and prefers intelligent prey to animals. It charges horns first, grabs a victim and claws it to death, saving its roar for organised foes or overwhelming numbers. If the roar routs its enemies it picks off stragglers, otherwise it retreats to its hiding place underwater. Bukavacs pair up briefly in spring, when males bellow so loudly that villages ten miles away hear it for a week, and hunting parties drawn by the noise often cut their lives short.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Bukavac (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/bukavac/',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Lake', 'Pond'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3078,6 +3116,25 @@ export default createPublicationMonsters({
       name: 'Cave Dragon Wyrmling',
       alignment: 'neutral evil',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'An eyeless dragon head covered in black spikes sweeps from side to side, and darkness seeps off its eel-like hide like ink spreading in water.',
+        ],
+      ],
+      lore: [
+        [
+          'Cave dragons are apex predators of the underworld. They speak but value silence, talking mostly to bargain for food, and they are always hungry, eating undead, plants and anything else organic. Wyrmlings and young dragons can fly, poorly, with stunted wings that mostly act as feelers, and they use their spikes to feel their way and to wedge themselves into tunnels, often ambushing from vertical chimneys. They can be bribed with food as readily as with gold, and any alliance, such as with derro or drow against the darakhul, lasts only while allies stay clear of the dragon when it feeds.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Cave Dragon Wyrmling (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/cave-dragon-wyrmling/',
+          },
+        ],
+      ],
+      habitats: ['Underdark', 'Caves'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -11931,6 +11988,18 @@ export default createPublicationMonsters({
       name: 'Ogre Chieftain, Corrupted',
       alignment: 'chaotic evil',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'An ogre leader whose body is twisted and mutated, bigger and more savage-looking than the ogres around it.',
+        ],
+      ],
+      lore: [
+        [
+          'Wild magic, fiendish power or an arcane disease has warped this chieftain, and it has turned the mutation to its advantage. The corruption makes it stronger and crueller than the ogres it bullies and leads.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Badlands', 'Hill', 'Ruins', 'Underground'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -14101,6 +14170,18 @@ export default createPublicationMonsters({
       name: 'Shadow Fey Forest Hunter',
       alignment: 'lawful evil',
       languages: ['Common', 'Elvish', 'Umbral'],
+      appearance: [
+        [
+          'A black-skinned elf hidden in the gloom, in fine mail and leather, with only a slight flicker of shadow before a hail of arrows.',
+        ],
+      ],
+      lore: [
+        [
+          'Forest hunters are lithe, graceful shadow fey who roam deep woods tied to shadow roads and the dark reflections in the plane of Shadows, tracking animals and more dangerous game. Many serve in the Wild Hunt, and one that once rode beside the Lord of the Hunt is treated with respect and fear, because it is believed to be able to ask the Lord to notice an enemy. Shadow fey were once elves who were driven into darkness by an ancient catastrophe and are tied to the plane of Shadows.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
+      habitats: ['Forest', 'Shadow'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -14212,6 +14293,17 @@ export default createPublicationMonsters({
       name: 'Shadow Fey Guardian',
       alignment: 'neutral evil',
       languages: ['Common', 'Elvish', 'Umbral'],
+      appearance: [
+        [
+          'A hulking, nearly ten-foot fey brute with huge weapons, patches of its body swallowed by crawling black shadow and eyes like hollow black pits.',
+        ],
+      ],
+      lore: [
+        [
+          'Guardians are bred and trained for battle, shadow-corrupted into ogrish size and strength. They are fanatically loyal and serve as house guards or personal bodyguards to important shadow fey. The shadow reaches into their minds, so not even powerful magic bends their hearts or breaks their resolve. They are not independent thinkers but carry out their duty with single-minded dedication.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'large',
         type: 'humanoid',
@@ -15111,6 +15203,17 @@ export default createPublicationMonsters({
       name: 'Spawn Of Arbeyach',
       alignment: 'lawful evil',
       languages: ['Infernal'],
+      appearance: [
+        [
+          'An insectile humanoid with dripping mandibles poorly hidden behind an ill-fitting flesh mask, compound-iris eyes, and barbed stingers between the fingers of long segmented limbs.',
+        ],
+      ],
+      lore: [
+        [
+          'Roughly humanoid with a hard carapace and oddly jointed limbs, covered by a mostly decorative skin that stretches and tears to show the insect parts beneath. They scavenge and hunt, eating both living creatures and carrion in their territory. They live in hives of natural growth and rigid architecture in isolated, defensible places such as hilltops, forest canopies and cliffs, sometimes shared with the tosculi. They stand 4 to 6 feet tall.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -18246,6 +18349,17 @@ export default createPublicationMonsters({
       name: 'Wolf Reaver Dwarf',
       alignment: 'any chaotic',
       languages: ['Common', 'Dwarvish'],
+      appearance: [
+        [
+          'A dwarf fighter who travels in a pack with his brothers in arms, in the manner of his wolf totem.',
+        ],
+      ],
+      lore: [
+        [
+          'Wolf reaver dwarves travel in packs looking for worthy challenges to prove themselves. They rush into battle beside their allies for glory as much as plunder and fight with no care for their own safety.',
+        ],
+        ['Sources: ', 'Tome of Beasts'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

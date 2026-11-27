@@ -2406,6 +2406,17 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["Understands one language of its creator but can't speak."],
       habitats: ['forest', 'grassland', 'hill', 'mountain'],
+      appearance: [
+        [
+          'A segmented, wormlike clockwork that stays mostly buried, with telescoping eyestalks peeking out.',
+        ],
+      ],
+      lore: [
+        [
+          'A bronze scout seldom leaves the ground, observing enemies at close range with its eyestalks, and if spotted it retreats while sending electric shocks through the earth at pursuers. Clockworks are gnome-made constructs, each built to an individual design.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -3050,6 +3061,13 @@ export default createPublicationMonsters({
           'Patron-specific spells: This profile applies the full example spell list from its patron. The sidebar also allows a DM to replace only some of the base Deathlock’s listed warlock spells. Cantrips, slots, rest recharge and innate spells are inherited from the Deathlock.',
         ],
       ],
+      appearance: [['A warlock who failed its pact, risen as an undead servant.']],
+      lore: [
+        [
+          "A warlock who breaks a bargain with an evil patron may rise as a deathlock, or a powerful necromancer may make one and become its patron. A deathlock is consumed by the urge to serve and drops any goal its patron would not like, picking up its patron's aims at once. A fiend's deathlock might try to destroy a good temple; a Great Old One's might hunt for materials to call forth an entity. It may serve others or gather servants to reach its goal. This one's patron is an archfey.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3140,6 +3158,13 @@ export default createPublicationMonsters({
           'Patron-specific spells: This profile applies the full example spell list from its patron. The sidebar also allows a DM to replace only some of the base Deathlock’s listed warlock spells. Cantrips, slots, rest recharge and innate spells are inherited from the Deathlock.',
         ],
       ],
+      appearance: [['A warlock who failed its pact, risen as an undead servant.']],
+      lore: [
+        [
+          "A warlock who breaks a bargain with an evil patron may rise as a deathlock, or a powerful necromancer may make one and become its patron. A deathlock is consumed by the urge to serve and drops any goal its patron would not like, picking up its patron's aims at once. A fiend's deathlock might try to destroy a good temple; a Great Old One's might hunt for materials to call forth an entity. It may serve others or gather servants to reach its goal. This one's patron is a fiend.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3229,6 +3254,13 @@ export default createPublicationMonsters({
         [
           'Patron-specific spells: This profile applies the full example spell list from its patron. The sidebar also allows a DM to replace only some of the base Deathlock’s listed warlock spells. Cantrips, slots, rest recharge and innate spells are inherited from the Deathlock.',
         ],
+      ],
+      appearance: [['A warlock who failed its pact, risen as an undead servant.']],
+      lore: [
+        [
+          "A warlock who breaks a bargain with an evil patron may rise as a deathlock, or a powerful necromancer may make one and become its patron. A deathlock is consumed by the urge to serve and drops any goal its patron would not like, picking up its patron's aims at once. A fiend's deathlock might try to destroy a good temple; a Great Old One's might hunt for materials to call forth an entity. It may serve others or gather servants to reach its goal. This one's patron is a Great Old One.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
       ],
       stats: {
         size: 'medium',
@@ -3444,6 +3476,13 @@ export default createPublicationMonsters({
           'Patron-specific spells: This profile uses the full example list for its patron. The sidebar also lets a DM replace only some of the leveled warlock spells. Keep the original cantrips, innate spells, and spell slots.',
         ],
       ],
+      appearance: [['A powerful deathlock at the head of a web of lesser servants.']],
+      lore: [
+        [
+          "Deathlocks serve their patrons but keep freedom in tactics and plans. Powerful ones recruit lesser creatures and become the masterminds behind wide conspiracies that end in great evil. A deathlock is a warlock who failed its pact and rose as a servant, obsessed with its patron's aims. This one's patron is an archfey.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3569,6 +3608,13 @@ export default createPublicationMonsters({
           'Patron-specific spells: This profile uses the full example list for its patron. The sidebar also lets a DM replace only some of the leveled warlock spells. Keep the original cantrips, innate spells, and spell slots.',
         ],
       ],
+      appearance: [['A powerful deathlock at the head of a web of lesser servants.']],
+      lore: [
+        [
+          "Deathlocks serve their patrons but keep freedom in tactics and plans. Powerful ones recruit lesser creatures and become the masterminds behind wide conspiracies that end in great evil. A deathlock is a warlock who failed its pact and rose as a servant, obsessed with its patron's aims. This one's patron is a fiend.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3693,6 +3739,13 @@ export default createPublicationMonsters({
         [
           'Patron-specific spells: This profile uses the full example list for its patron. The sidebar also lets a DM replace only some of the leveled warlock spells. Keep the original cantrips, innate spells, and spell slots.',
         ],
+      ],
+      appearance: [['A powerful deathlock at the head of a web of lesser servants.']],
+      lore: [
+        [
+          "Deathlocks serve their patrons but keep freedom in tactics and plans. Powerful ones recruit lesser creatures and become the masterminds behind wide conspiracies that end in great evil. A deathlock is a warlock who failed its pact and rose as a servant, obsessed with its patron's aims. This one's patron is a Great Old One.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
       ],
       stats: {
         size: 'medium',
@@ -5462,6 +5515,15 @@ export default createPublicationMonsters({
         [
           'Variant rules: Summon Shadow Demon (1/day). Some drow of this kind can attempt to summon a Shadow Demon as an action. The magical summon has a 50% chance to work. Failure deals 5 (1d10) psychic damage to the drow. On success, the demon appears in an unoccupied space within 60 ft. of the drow. It acts as the drow’s ally and cannot summon other demons. It departs after 10 minutes, if it or the drow dies, or if the drow uses an action to dismiss it.',
         ],
+      ],
+      appearance: [
+        ['A drow assassin who moves unseen through the dark until the moment of attack.'],
+      ],
+      lore: [
+        [
+          'Shadowblades are ruthless Underdark killers hired by noble houses, often to eliminate a rival house, and also guard enclaves and track thieves. Their shadow magic is said to come from a fiendish ritual in which a drow kills a lesser demon and keeps it from re-forming in the Abyss, creating a shadow demon and infusing the drow.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
       ],
       stats: {
         size: 'medium',
@@ -8448,6 +8510,15 @@ export default createPublicationMonsters({
       languages: ['Common', 'Elvish.'],
       habitats: ['underdark', 'urban'],
       tableNotes: [['Alternate armor classes: 17 · with mage armor']],
+      appearance: [
+        ['A shadowy figure whose oppressive aura makes those near feel death approaching.'],
+      ],
+      lore: [
+        [
+          'A gloom weaver is a Raven Queen servant happy to hide in shadow and watch its aura weigh down hearts with the sense of death. That alone satisfies its master, but if found it uses shadow magic to leave enemies as ghastly corpses.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -11901,6 +11972,13 @@ export default createPublicationMonsters({
           'Clockwork malfunctions: 1. Faulty Sensors. Roll a d6 at turn start. On a 1, the clockwork is blinded until turn end.\n2. Flawed Targeting. Roll a d6 at turn start. On a 1, its attack rolls have disadvantage until turn end.\n3. Ground Fault. Gain vulnerability to lightning damage.\n4. Imprinting Loop. Roll a d6 at turn start. On a 1, it mistakes a visible creature within 30 ft. for its maker. It avoids harming that creature for 1 minute or until the creature attacks or damages it.\n5. Leaking Lubricant. Roll a d6 at turn start. On a 1, it gains one level of exhaustion despite immunity.\n6. Limited Steering. It moves in straight lines, turning up to 90 degrees before moving and once at the halfway point. It can rotate freely on a turn when it uses none of its speeds.\n7. Overactive Sense of Self-Preservation. At the start of a combat turn while at half HP or less, roll a d6. On a 1, the clockwork retreats if it can. If it cannot retreat, it keeps fighting.\n8. Overheats. Roll a d6 at turn start. On a 1, it is incapacitated until turn end.\n9. Rusty Gears. It has disadvantage on initiative rolls and its speed drops by 10 ft.\n10. Weak Armor. Remove its immunity to bludgeoning, piercing and slashing damage from nonmagical, non-adamantine attacks.',
         ],
       ],
+      appearance: [['A wooden clockwork that works like a ballista.']],
+      lore: [
+        [
+          'An oaken bolter is a long-range construct whose bolts rend flesh, destroy armour or drag enemies toward traps or melee clockworks, and burst with force at shorter range. Clockworks are gnomish constructs, each built to an individual design.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -14014,6 +14092,15 @@ export default createPublicationMonsters({
           'Clockwork malfunctions: 1. Faulty Sensors. Roll a d6 at turn start. On a 1, the clockwork is blinded until turn end.\n2. Flawed Targeting. Roll a d6 at turn start. On a 1, its attack rolls have disadvantage until turn end.\n3. Ground Fault. Gain vulnerability to lightning damage.\n4. Imprinting Loop. Roll a d6 at turn start. On a 1, it mistakes a visible creature within 30 ft. for its maker. It avoids harming that creature for 1 minute or until the creature attacks or damages it.\n5. Leaking Lubricant. Roll a d6 at turn start. On a 1, it gains one level of exhaustion despite immunity.\n6. Limited Steering. It moves in straight lines, turning up to 90 degrees before moving and once at the halfway point. It can rotate freely on a turn when it uses none of its speeds.\n7. Overactive Sense of Self-Preservation. At the start of a combat turn while at half HP or less, roll a d6. On a 1, the clockwork retreats if it can. If it cannot retreat, it keeps fighting.\n8. Overheats. Roll a d6 at turn start. On a 1, it is incapacitated until turn end.\n9. Rusty Gears. It has disadvantage on initiative rolls and its speed drops by 10 ft.\n10. Weak Armor. Remove its immunity to bludgeoning, piercing and slashing damage from nonmagical, non-adamantine attacks.',
         ],
       ],
+      appearance: [
+        ['A clockwork with thick riveted stone plates, able to hide against stonework.'],
+      ],
+      lore: [
+        [
+          "The stone defender's plates give it strong protection and let it blend in with stone, though its main job is as a bodyguard for gnomes and other clockworks. Clockworks are gnomish constructs, each built to an individual design.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -14274,6 +14361,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common.'],
       habitats: ['underdark', 'urban'],
+      appearance: [
+        [
+          'A two-headed Shadowfell horror whose heads bicker until something gives them an outlet for their rage.',
+        ],
+      ],
+      lore: [
+        [
+          'The Angry live on violence and grow stronger when foes fight back; if a creature chooses not to attack, the Angry grows confused and its blows weaken. Each has two heads that squabble with each other until they find something else to vent on. Sorrowsworn are Shadowfell embodiments of suffering, growing deadlier when the feeling is given in to and weaker when resisted.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -14359,6 +14457,17 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common.'],
       habitats: ['forest', 'underdark', 'urban'],
+      appearance: [
+        [
+          'A horrid beast with grasping claws and yawning mouths, bright eyes searching for the next meal.',
+        ],
+      ],
+      lore: [
+        [
+          'The Hungry do whatever it takes to feed, devouring all life and energy they meet, stuffing flesh into their maws and drinking in screams, then lurching off to find more. Sorrowsworn embody Shadowfell suffering, growing deadlier when given in to and weaker when resisted.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -14458,6 +14567,15 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common.'],
       habitats: ['arctic', 'desert', 'forest', 'mountain', 'swamp', 'underdark', 'urban'],
+      appearance: [
+        ['A desperate, panicked-looking Shadowfell thing that tries to embrace anyone in reach.'],
+      ],
+      lore: [
+        [
+          "The Lost embody the fear of being unable to find one's way, which the Shadowfell encourages by turning visitors around. They try to embrace any creature they can reach to find comfort, flooding the victim with fear and panic, and the harder allies try to free the victim the worse it gets. Sorrowsworn grow deadlier when given in to and weaker when resisted.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -14555,6 +14673,13 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['None.'],
       habitats: ['swamp', 'underdark', 'urban'],
+      appearance: [['A horrid little monster that arrives in a large pack with fangs ready.']],
+      lore: [
+        [
+          "The Wretched gather in big packs to scour the Shadowfell for prey. They live on life force, rushing in to bite and drink their victims' life energy and fear. Sorrowsworn embody Shadowfell suffering, growing deadlier when given in to and weaker when resisted.",
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -15043,6 +15168,17 @@ export default createPublicationMonsters({
         [
           'Tactics: The mist can smell blood from up to 1 mile away and concentrates on wounded targets. Its feeding can go unnoticed by a sleeping victim.',
         ],
+      ],
+      appearance: [
+        [
+          'A bank of fog that gradually turns pink, then red, then deep scarlet as it feeds, with a charnel reek.',
+        ],
+      ],
+      lore: [
+        [
+          'Vampiric mists are what remains of vampires that could not return to their resting places after defeat or mishap; their bodies dissolve into mist and lose all intellect and personality, leaving only a thirst for blood. They hide in fog and descend on a creature, drawing blood out through its pores or eyes, nose and mouth as crimson smoke. The feeding is painless, so sleepers do not wake. They can smell blood from up to a mile away.',
+        ],
+        ['Sources: ', 'Mordenkainen’s Tome of Foes'],
       ],
       stats: {
         size: 'medium',

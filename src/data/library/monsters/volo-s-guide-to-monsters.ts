@@ -15,6 +15,13 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor class: 15 with mage armor']],
+      appearance: [['A wizard surrounded by layers of protective magic.']],
+      lore: [
+        [
+          'Abjurers specialise in wards and feel safe behind layers of magical protection. Kings, nobles and the wealthy hire them to ward homes and vaults.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -369,6 +376,15 @@ export default createPublicationMonsters({
           'Hag Eye mechanics: A coven can keep one Hag Eye at a time. A hag can spend an action to see through it while on the same plane. The eye has AC 10, 1 HP, and darkvision 60 ft. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours. All three hags must perform the 1-hour crafting ritual together and none of them can be blinded. Taking an unrelated action during it forces them to restart.',
         ],
       ],
+      appearance: [
+        ['A hunchbacked, hump-shouldered hag eight feet tall, the largest of her kind.'],
+      ],
+      lore: [
+        [
+          'Annis hags lair in hills and mountains and delight in hunting children. They use skin from their victims for leather, leave tokens of cruelty at the edge of the lands they claim to frighten nearby settlements, and sometimes pose as a kindly old person to give a child an iron token and corrupt it step by step. They also adopt ogres, trolls or other brutes and rule them with strength, abuse and superstition. An annis can make an iron token from one of her teeth or nails so she can whisper to its holder from up to ten miles away.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'large',
         type: 'fey',
@@ -523,6 +539,15 @@ export default createPublicationMonsters({
         [
           'Hag Eye mechanics: A coven can keep one Hag Eye at a time. A hag can spend an action to see through it while on the same plane. The eye has AC 10, 1 HP, and darkvision 60 ft. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours. All three hags must perform the 1-hour crafting ritual together and none of them can be blinded. Taking an unrelated action during it forces them to restart.',
         ],
+      ],
+      appearance: [
+        ['A hunchbacked, hump-shouldered hag eight feet tall, the largest of her kind.'],
+      ],
+      lore: [
+        [
+          'Annis hags lair in hills and mountains and delight in hunting children. They use skin from their victims for leather, leave tokens of cruelty at the edge of the lands they claim to frighten nearby settlements, and sometimes pose as a kindly old person to give a child an iron token and corrupt it step by step. They also adopt ogres, trolls or other brutes and rule them with strength, abuse and superstition. An annis can make an iron token from one of her teeth or nails so she can whisper to its holder from up to ten miles away.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
       ],
       stats: {
         size: 'large',
@@ -679,6 +704,15 @@ export default createPublicationMonsters({
           'Hag Eye mechanics: A coven can keep one Hag Eye at a time. A hag can spend an action to see through it while on the same plane. The eye has AC 10, 1 HP, and darkvision 60 ft. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours. All three hags must perform the 1-hour crafting ritual together and none of them can be blinded. Taking an unrelated action during it forces them to restart.',
         ],
       ],
+      appearance: [
+        ['A hunchbacked, hump-shouldered hag eight feet tall, the largest of her kind.'],
+      ],
+      lore: [
+        [
+          'Annis hags lair in hills and mountains and love hunting children. They use the skin of their victims for leather, leave tokens of cruelty at the edge of the lands they claim to spread fear in nearby settlements, and sometimes pose as a kindly old person to give a child an iron token and corrupt it step by step. They also adopt ogres, trolls or other brutes and rule them with strength, abuse and superstition. An annis can shape an iron token from one of her teeth or nails so she can whisper to its holder from up to ten miles away.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'large',
         type: 'fey',
@@ -833,6 +867,15 @@ export default createPublicationMonsters({
         [
           'Hag Eye mechanics: A coven can keep one Hag Eye at a time. A hag can spend an action to see through it while on the same plane. The eye has AC 10, 1 HP, and darkvision 60 ft. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours. All three hags must perform the 1-hour crafting ritual together and none of them can be blinded. Taking an unrelated action during it forces them to restart.',
         ],
+      ],
+      appearance: [
+        ['A hunchbacked, hump-shouldered hag eight feet tall, the largest of her kind.'],
+      ],
+      lore: [
+        [
+          'Annis hags lair in hills and mountains and love hunting children. They use the skin of their victims for leather, leave tokens of cruelty at the edge of the lands they claim to spread fear in nearby settlements, and sometimes pose as a kindly old person to give a child an iron token and corrupt it step by step. They also adopt ogres, trolls or other brutes and rule them with strength, abuse and superstition. An annis can shape an iron token from one of her teeth or nails so she can whisper to its holder from up to ten miles away.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
       ],
       stats: {
         size: 'large',
@@ -1688,6 +1731,17 @@ export default createPublicationMonsters({
           "Regional effects: Pick regional effects for the hag's lair. A typical hag lair has three to five. Powerful hags and covens usually have more than a lone hag. If an effect calls for a save without giving a DC, use that of the hag's most powerful ability. When the hag dies or abandons the lair, effects can end immediately or fade within 2d10 days.\nA grandmother's lair can produce any of the following within 1 mile. Appropriate small animals become unusually abundant. Beasts with Intelligence 2 or lower are charmed by the hag and act aggressively toward intruders at her direction. Carved figures, twig fetishes, or rag dolls appear in trees.\nA powerful bheur hag can add any of the following within 1 mile. Snow slides can block routes or bury creatures, leaving them restrained and holding their breath until dug out. Human-sized blocks of ice contain bodies that can break out as zombies or release specters. Blizzards strike once every 2d12 hours and last 1d3 hours, halving overland speed and reducing normal visibility to 30 ft. Routes can loop back on themselves, making navigation difficult.",
         ],
       ],
+      appearance: [
+        [
+          'A hag with blue-white skin like a person frozen to death, pale white hair and an emaciated frame, pale eyes ringed with bruise-coloured flesh, carrying a twisted grey wooden staff she can ride like a broom.',
+        ],
+      ],
+      lore: [
+        [
+          'Bheur hags live in snowy mountains and are most active in winter, using ice and weather magic to torment settlements. They are drawn to selfish acts excused by the cold, such as killing a traveller for a coat, and enjoy seeding such thoughts. They batter villages with snow and freezing weather to turn people against each other, and delight in watching the unprepared suffer. After a kill in battle she may stop to tear at the corpse, and witnesses may be driven temporarily mad.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -2189,6 +2243,14 @@ export default createPublicationMonsters({
           'Wild Magic mechanics: Every spell the goblin casts, including a cantrip, triggers a roll on the 2014 Wild Magic Surge table.',
         ],
       ],
+      appearance: [['A goblin sorcerer, every spell accompanied by a surge of wild magic.']],
+      lore: [
+        [
+          'This goblin is a wild magic sorcerer whose every casting, even cantrips, brings a wild magic surge. Goblins rarely have the patience or intelligence for magic, and the knowledge seldom lasts more than a couple of generations, so they call all magic booyahg and give that name to its users. A goblin with magic joins the lashers and can rise to boss.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
+      habitats: ['Goblin lairs'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2674,6 +2736,13 @@ export default createPublicationMonsters({
         [
           'Magic item mechanics: Choose one magic item the wielder knows how to operate, such as a Necklace of Fireballs or Circlet of Blasting. Use the selected item’s own activation, range, attack or save, and uses. The source leaves the item and any remaining charges to the DM.',
         ],
+      ],
+      appearance: [['A goblin carrying a magic item it has learned to use.']],
+      lore: [
+        [
+          'This goblin found a magic item, such as a necklace of fireballs or a circlet of blasting, and worked out how to use it. Goblins rarely have the patience or intelligence for magic, and the knowledge seldom lasts more than a couple of generations, so they call all magic booyahg and give that name to its users. A goblin with magic joins the lashers and can rise to boss.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
       ],
       stats: {
         size: 'small',
@@ -3164,6 +3233,17 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Undercommon.'],
       habitats: ['underdark'],
+      appearance: [
+        [
+          'A spider-like monstrosity with a form resembling Lolth in her spider shape, in charge of a web-shrouded chitine colony.',
+        ],
+      ],
+      lore: [
+        [
+          "Drow made chitines from elf captives, and a choldrith is a failed or unintended result that belongs body and soul to Lolth. They are born fanatically devoted, have some divine magic, lay eggs for more chitines, and lead the colony as its top rank. They preach that chitines are Lolth's favoured people and that choldriths are her representatives sent to free them, and led the revolt against the drow. Drow destroy a choldrith on sight. Colonies behave like ants, with workers and warriors willing to die for choldriths, rear spiders and cave fishers, and fill the area with webs and traps.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -4183,6 +4263,17 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [
+        [
+          'A wizard who is either aloof and mysterious about omens and secrets, or a know-it-all spilling them.',
+        ],
+      ],
+      lore: [
+        [
+          'Diviners know that knowledge is power. Some hint at omens and secrets from a distance, while others reveal them freely to raise their own status or reputation.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4658,6 +4749,17 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [
+        [
+          'A wizard who is either personable and interesting or rude and demanding, with charmed followers.',
+        ],
+      ],
+      lore: [
+        [
+          'Enchanters alter and control minds with magic. The friendlier kind use it only when conversation and persuasion fail, while the demanding kind rely on charmed, obedient minions.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4720,6 +4822,15 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [
+        ['A wizard ready to blast, either hot-headed and aggressive or cold and reserved.'],
+      ],
+      lore: [
+        [
+          "Evokers channel magical energy and elemental forces to destroy. Many are hot-headed and aggressive, while others are cold and reserved, striking at the moment that exploits an enemy's weakness.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4778,6 +4889,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Giant.'],
       habitats: ['underdark', 'mountain'],
+      appearance: [
+        [
+          'A massively powerful fire giant carrying two huge, spiked, plough-blade-like shields with hollow interiors filled with hot coals.',
+        ],
+      ],
+      lore: [
+        [
+          'Fire giant society ranks by strength and forgecraft, with the foundry at its heart. Dreadnoughts are the strongest, low-brain giants who can rise through rank by this role. At the first sign of danger the dreadnought pours hot coals into its shields to make a fiery wall, and often leaves only a smoking smear of its foes. Between fights it keeps in shape shoving coal, stone and ore around the foundry, and may accompany war or diplomatic delegations to present a fierce face.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -8505,6 +8627,17 @@ export default createPublicationMonsters({
           'Lich variant: Use the 2014 Monster Manual lich for the base rules. This variant changes its CR, languages, and legendary actions, and adds Magic Resistance, Innate Spellcasting (Psionics), Tentacles, Extract Brain, and Mind Blast. Creating a phylactery and casting Imprisonment are prerequisites to becoming an illithilich. Feeding captured souls to its phylactery maintains its tentacle strength and ability to extract brains.',
         ],
       ],
+      appearance: [
+        [
+          'A withered mind flayer, dry and cracked, with empty eye sockets glowing with cold pinpricks of light.',
+        ],
+      ],
+      lore: [
+        [
+          "An illithilich is an alhoon pushed to a higher stage of mind flayer lichdom. Alhoons are cast-out arcanist mind flayers who keep from oblivion with a periapt of mind trapping that needs several casters and ties their undeath to a sacrificed victim's lifespan; they can extend it by repeating the ritual. Their flesh withers and their eyes burn cold, and destroying the periapt consigns those trapped in it to oblivion.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -8802,6 +8935,13 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [['A wizard who is either flamboyant and spectacular or quiet and subtle.']],
+      lore: [
+        [
+          'Illusionists twist light, sound, shadow and minds into false and quasi-real effects. Some show off openly, while others use illusion to hide the truth.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -10088,6 +10228,17 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
       habitats: ['underdark'],
+      appearance: [
+        [
+          'A mind flayer, an octopus-headed humanoid with four tentacles flexing in hungry anticipation, its skin mauve and coated in mucus when well fed.',
+        ],
+      ],
+      lore: [
+        [
+          'Mind flayers are psionic tyrants and slavers who once ruled empires and now mostly live in Underdark colonies tied to an elder brain, which can speak telepathically with those within 5 miles. They give orders by telepathy and use thralls such as grimlocks, quaggoths and ogres to block foes while they escape. Psions have studied their innate psionics more deeply and can copy spellcasting with it. They eat humanoid brains and may harvest some for experiments or intellect devourers.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -10676,6 +10827,13 @@ export default createPublicationMonsters({
       languages: ['Any four languages.'],
       habitats: ['desert', 'urban'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [['A wizard of death and undeath.']],
+      lore: [
+        [
+          'Necromancers study how life, death and undeath interact. Some dig up corpses to make undead slaves, while a few use their powers for good as undead hunters.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -11362,6 +11520,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Orc.'],
       habitats: ['underdark', 'mountain', 'grassland', 'forest', 'hill'],
+      appearance: [['An orc war leader who wades into the fight and barks orders.']],
+      lore: [
+        [
+          "Ilneval is Gruumsh's battle captain, a devious tactician. His followers learn to command in unpredictable but winning ways, and the wisest become blades, tactical advisers to the chief. Blades lead from the front, fearlessly, bellowing orders, and know how to use orc ferocity and get warriors to work together.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -11456,6 +11621,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Orc.'],
       habitats: ['underdark', 'mountain'],
+      appearance: [['An orc female with long, lacquered nails used as weapons.']],
+      lore: [
+        [
+          "Luthic is Gruumsh's wife, the Cave Mother, whose symbol is the cave bear, and orc females raise bears with their whelps. Followers grow and lacquer long nails to use as claws, run the stronghold's defence and upkeep, and are often healers. Claws of Luthic are the most powerful disciples, using her magic to heal, protect and curse.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -11524,6 +11696,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Understands Common and Orc. Cannot speak.'],
       habitats: ['underdark', 'mountain', 'grassland', 'forest', 'hill'],
+      appearance: [['An orc priest in pale gloves made of bleached humanoid skin, tongueless.']],
+      lore: [
+        [
+          "Yurtrus is the orc god of death and disease, rotten except for his perfect white hands. His priests watch the line between life and death, live on the fringes of the lair and usually talk to others through Luthic's followers. They are the tribe's gateway to the ancestors, and cut out their tongues to be like their silent god.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -11586,6 +11765,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Orc.'],
       habitats: ['underdark', 'mountain', 'grassland', 'forest', 'hill'],
+      appearance: [['A diseased orc, kept sick on purpose.']],
+      lore: [
+        [
+          "When plague strikes, Yurtrus's hands separate the sick and nurse those who can be saved but not cured, then cultivate the disease to make them defensive tools and weapons. Nurtured ones may charge in first in battle to spread Yurtrus's blessing among the enemy.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -11677,6 +11863,13 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Common', 'Orc.'],
       habitats: ['underdark', 'mountain', 'forest', 'hill', 'urban'],
+      appearance: [['An orc assassin or thief, often riding or accompanied by giant bats.']],
+      lore: [
+        [
+          "Shargaas is the orc god of darkness and stealth, favoured by outcasts who live in the deepest, most remote parts of the tribe's domain. The Red Fang cult are the elite assassins and thieves, carrying out killings, stealth raids and covert missions through intense training and Shargaas's magic. Their enclaves keep giant bats, sacred to him, and ride them on raids.",
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -13535,6 +13728,13 @@ export default createPublicationMonsters({
       tableNotes: [
         ['The printed stat block gives the transmuter three 4th-level spell slots.'],
         ['Alternate armor classes: 15 · with mage armor'],
+      ],
+      appearance: [['A wizard who embraces change and rails against the status quo.']],
+      lore: [
+        [
+          'Transmuters embrace change and see transmutation as a path to riches, enlightenment or godhood.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
       ],
       stats: {
         size: 'medium',
@@ -15430,6 +15630,17 @@ export default createPublicationMonsters({
           'Optional yuan-ti traits (p. 98): Acid Slime. As a bonus action, the yuan-ti coats itself in acid for 1 minute. A creature takes 5 (1d10) acid damage if it touches the yuan-ti or hits it with a melee attack from within 5 ft.\nChameleon Skin. The yuan-ti has advantage on Dexterity (Stealth) checks to hide.\nShed Skin (1/day). As a bonus action, it sheds its skin to slip out of a grapple, shackles, or other restraints. Eating its discarded skin for 1 minute restores half its maximum hit points.',
         ],
       ],
+      appearance: [
+        [
+          'A yuan-ti malison, a blend of human and serpentine features, among the lowest-ranking of its caste.',
+        ],
+      ],
+      lore: [
+        [
+          'Malisons are the middle caste of yuan-ti society, and types 4 and 5 are the rarer, lowest-ranking kinds, with no venom in their yuan-ti form. Malisons hunt with arrows tipped with their own venom and use suggestion to force surrenders. Yuan-ti are devious serpent folk from remote jungle, swamp and desert temples who plot to supplant other races and become gods.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -15542,6 +15753,17 @@ export default createPublicationMonsters({
         [
           'Optional yuan-ti traits (p. 98): Acid Slime. As a bonus action, the yuan-ti coats itself in acid for 1 minute. A creature takes 5 (1d10) acid damage if it touches the yuan-ti or hits it with a melee attack from within 5 ft.\nChameleon Skin. The yuan-ti has advantage on Dexterity (Stealth) checks to hide.\nShed Skin (1/day). As a bonus action, it sheds its skin to slip out of a grapple, shackles, or other restraints. Eating its discarded skin for 1 minute restores half its maximum hit points.',
         ],
+      ],
+      appearance: [
+        [
+          'A yuan-ti malison, a blend of human and serpentine features, among the lowest-ranking of its caste.',
+        ],
+      ],
+      lore: [
+        [
+          'Malisons are the middle caste of yuan-ti society, and types 4 and 5 are the rarer, lowest-ranking kinds, with no venom in their yuan-ti form. Malisons hunt with arrows tipped with their own venom and use suggestion to force surrenders. Yuan-ti are devious serpent folk from remote jungle, swamp and desert temples who plot to supplant other races and become gods.',
+        ],
+        ['Sources: ', "Volo's Guide to Monsters"],
       ],
       stats: {
         size: 'medium',

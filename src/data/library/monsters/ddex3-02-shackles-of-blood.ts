@@ -12,6 +12,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [['A Red Plume captain commanding a patrol company near Hillsfar.']],
+      lore: [
+        [
+          'Erlich leads a Red Plume squad that raids small villages around Hillsfar, kidnapping non-humans and selling them to the Arena as desperate fighters. His company camps in the Cormathor Forest and holds prisoners in caged wagons. He also told his poor brother Deirk about an emptied valley, so Deirk settled it with his family.',
+        ],
+        ['Sources: ', 'DDEX3-02 Shackles of Blood, PDF pages 6, 10'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',

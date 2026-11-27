@@ -122,6 +122,18 @@ export default createPublicationMonsters({
       tags: ['human', 'shapechanger'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'Draconic', 'Dwarvish', 'Giant'],
+      appearance: [
+        [
+          "A very old hermit of the Berez marsh, living in a ramshackle hut on a giant tree stump, with caged ravens at her door, scarecrows about her and a hollowed-out giant's skull that she flies.",
+        ],
+      ],
+      lore: [
+        [
+          "Baba Lysaga is an almost mythic figure tied to Strahd's ancient past. She spends her time making and animating scarecrows to kill the ravens and wereravens of Barovia, and she sacrifices beasts to Mother Night, bathing in their blood on new-moon nights to hold off extreme old age. She stole a magic gemstone from the Wizard of Wines vineyard as bait for her enemies, and it gives her hut a semblance of life. The squawking of her caged ravens drowns out sounds of intruders.",
+        ],
+        ['Sources: ', 'Curse of Strahd, pp. 161-163'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -706,6 +718,14 @@ export default createPublicationMonsters({
       name: 'Broom of Animated Attack',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A broom that looks like an ordinary flying broom.']],
+      lore: [
+        [
+          'It is easily mistaken for a broom of flying and attacks anyone who grabs or tries to ride it. Some of these brooms let their creators ride them, and then they fly like a normal broom, but they carry only half the weight. A broom of animated attack is found loose in Castle Ravenloft among its random encounters.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 226'],
+      ],
+      habitats: ['Castle'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -791,6 +811,18 @@ export default createPublicationMonsters({
         ['Base creature: Cat'],
         ['Applied templates: Skeleton'],
       ],
+      appearance: [
+        [
+          'An animated skeleton of a cat, one of six that Victor Wachter dug up behind the Wachter estate.',
+        ],
+      ],
+      lore: [
+        [
+          'Victor Wachter animated the six cat skeletons for practice and for fun. They attack only when Victor orders them to.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 109'],
+      ],
+      habitats: ['Ruins'],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -1761,6 +1793,18 @@ export default createPublicationMonsters({
       name: 'Guardian Portrait',
       alignment: 'unaligned',
       languages: ['Common', 'plus up to two other languages'],
+      appearance: [
+        [
+          'A finely painted, beautifully framed portrait of someone important, whose eyes follow creatures moving in front of it.',
+        ],
+      ],
+      lore: [
+        [
+          'Frame and picture are bound with powerful magic and cannot be separated. When it attacks, the painted figure moves as if alive, although in two dimensions. It has no real melee attack but uses innate spells.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 227'],
+      ],
+      habitats: ['Castle'],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -2058,6 +2102,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [['A neutral evil man missing his right arm, born without a soul.']],
+      lore: [
+        [
+          'Izek was born in Vallaki. A dire wolf bit off his right arm when he was a child, and his sister vanished. Born without a soul, he forgot her over time, and when his parents died of grief he turned into an orphaned killer, mocked by other children. He covets Ireena Kolyana, who was adopted in the village of Barovia.',
+        ],
+        ['Sources: ', 'Curse of Strahd, pp. 230-231'],
+      ],
+      habitats: ['Village'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2535,6 +2587,14 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'chaotic neutral',
       languages: ['Abyssal', 'Common', 'Elvish', 'Infernal'],
+      appearance: [['A Vistani woman who looks about seventy but is far older.']],
+      lore: [
+        [
+          'Madam Eva is secretly Katarina, half-sister to Strahd through King Barov and a Vistani mother. More than four hundred years ago she came to Barovia and worked as a maid in Castle Ravenloft, learning the castle thoroughly. Strahd does not know of the kinship, and she has told no one.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 233'],
+      ],
+      habitats: ['Village'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2881,6 +2941,14 @@ export default createPublicationMonsters({
       tags: ['mongrelfolk'],
       alignment: 'any alignment',
       languages: ['Common'],
+      appearance: [['A maniacal human with bestial deformities and traits.']],
+      lore: [
+        [
+          "Mongrelfolk are the product of the Abbot's experiments at Krezk. The Belviews were turned into them with forbidden lore from the Amber Temple supplied by Vasili von Holtz, who was in truth Strahd. The Belviews were happy but insane.",
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 145'],
+      ],
+      habitats: ['Abbey'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3392,6 +3460,18 @@ export default createPublicationMonsters({
       name: 'Pidlwick II',
       alignment: 'neutral evil',
       languages: ["understands Common but doesn't speak and can't read or write"],
+      appearance: [
+        [
+          "A small, spindly figure in a fool's costume with a jack-o'-lantern face painted in soot, a clockwork effigy of the real Pidlwick.",
+        ],
+      ],
+      lore: [
+        [
+          'Pidlwick II lurks in the rafters of Castle Ravenloft. In bright light it is clear he is no living man but a mockery of one: dyed leather stitched over an articulated frame, with gears clicking inside. He is modelled on the real Pidlwick, who lies entombed in the catacombs.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 73'],
+      ],
+      habitats: ['Castle'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -4001,6 +4081,13 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Draconic', 'Elvish', 'Giant', 'Infernal'],
+      appearance: [['A vampire and wizard, once a count, prince, soldier and conqueror.']],
+      lore: [
+        [
+          'Strahd conquered a mountain valley, named it Barovia, and built Castle Ravenloft there. Envy of his brother Sergei and obsession with Tatyana drove him to murder Sergei on the wedding day, sealing a pact with the Dark Powers that made him a vampire. The castle and valley were sealed away in a demiplane. He is a cold, clever foe who strikes at the best moment from the best position.',
+        ],
+        ['Sources: ', 'Curse of Strahd, chapter 1 and appendix D'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',

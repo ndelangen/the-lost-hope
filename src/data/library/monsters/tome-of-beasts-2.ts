@@ -3322,6 +3322,25 @@ export default createPublicationMonsters({
       name: 'Carrier Mosquito',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A huge insect with a nine-foot wingspan whips through the air at speed, its wings beating so often that the drone is loud and distracting.',
+        ],
+      ],
+      lore: [
+        [
+          'Carrier mosquitos are enormous swamp-dwelling insects that stay aloft and manoeuvre with a speed that seems to defy logic. The source text available stops after this, so nothing further on their diet or tactics is confirmed.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Carrier Mosquito (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/carrier-mosquito/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -4750,6 +4769,25 @@ export default createPublicationMonsters({
       name: 'Darakhul Captain',
       alignment: 'lawful evil',
       languages: ['Common', 'Darakhul', 'Undercommon'],
+      appearance: [
+        [
+          'A stoic, steely darakhul in the gear of a city officer, picked out from the ranks to lead others.',
+        ],
+      ],
+      lore: [
+        [
+          'Darakhul captains lead the law enforcement units of undead cities, hand-picked by the city leadership for the post. They go out with patrol teams. The available text cuts off before it says how those patrols are mounted or fight.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: Darakhul Captain (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/darakhul-captain/',
+          },
+        ],
+      ],
+      habitats: ['Underdark', 'Undead city'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -15898,6 +15936,18 @@ export default createPublicationMonsters({
       name: 'Overshadow',
       alignment: 'chaotic evil',
       languages: ['the languages it knew in life'],
+      appearance: [
+        [
+          'Several humanoid shadow shapes reach out with dark claws, joined together by a great mass of flowing darkness.',
+        ],
+      ],
+      lore: [
+        [
+          'An overshadow forms when travellers lost underground die slowly in the dark, and the shared psychic trauma seeds the darkness with undead energy, a collective mind and malice. It hates life that clings to light. It enjoys toying with prey, using displays of power and whispered threats from the dark to drive victims to panic before it devours them. The shadows of those it kills merge into it, and anyone raised by anything short of resurrection casts no shadow until it is destroyed. The overshadow knows when such a creature returns, and ordinary shadows are drawn to attack it.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -17015,6 +17065,16 @@ export default createPublicationMonsters({
       name: 'Qiqirn',
       alignment: 'neutral',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        ['A strange dog, hairless except for thick dark fur along its bony, ridged back.'],
+      ],
+      lore: [
+        [
+          'Arctic tales say qiqirn are drawn to warm hearths, enraged by music and laughter, and jealous enough of dogs to kill them, which sometimes gets them trapped near sled dogs. Northern children are told that shouting its name drives one off. It fears settled people in turn and flees when threatened, often returning at night to steal the food or livestock it was denied. If a community hunts it, it moves on. It is an unwilling vessel for damned souls that torment it and fill it with necrotic power, and one that lives long enough near civilisation changes painfully as more gather.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -20253,6 +20313,18 @@ export default createPublicationMonsters({
       name: 'Snow Giant',
       alignment: 'neutral',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'A gigantic humanoid that seems made of snow, flurries drifting off it, in simple clothes and carrying a huge icicle as a club.',
+        ],
+      ],
+      lore: [
+        [
+          "Snow giants share territory with frost giants but are much smaller. They serve the frost giants as domestic servants and crafters, are sent as a vanguard against tough foes and used as proxies in clan disputes. They rarely think of rebelling, reasoning they would be worse off without the frost giants' protection. Left alone they are playful and mirthful and like snowball fights with anyone they meet.",
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -20770,6 +20842,14 @@ export default createPublicationMonsters({
       name: 'Sporous Crab',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A crab caked in the filth of sewers and brackish ponds.']],
+      lore: [
+        [
+          'Sporous crabs spend much of their lives in sewers and brackish ponds, and are toxic to nearly every creature they meet. They are usually found near brachyura shamblers, which they are probably related to. The shamblers are far more intelligent and have a society, while the crabs are more like pets, guardians or parasites that protect and support them without being equals.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Swamp', 'Urban'],
       stats: {
         size: 'small',
         type: 'beast',
@@ -21703,6 +21783,18 @@ export default createPublicationMonsters({
       name: 'Swarm of Compsognathus',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A curious bipedal lizard chirps, and more chirps answer from the nearby grass, growing into a sinister chorus.',
+        ],
+      ],
+      lore: [
+        [
+          'One of the smallest carnivorous dinosaurs, easily underestimated. They live in large packs and, hunting as a swarm, are not afraid of larger prey. They are stealthy and blend into terrain, spreading out through tall grass or dense foliage to surround prey before attacking. Kobolds keep them as pets and feed them with traps such as hidden pits or cages dropped on adventurers.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Farmland', 'Grassland'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -24072,6 +24164,18 @@ export default createPublicationMonsters({
       name: 'Wicked Skull',
       alignment: 'chaotic neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A skull chatters eerily, rocking gently as it comes to life, calling out a warning in a hauntingly musical voice.',
+        ],
+      ],
+      lore: [
+        [
+          'A shape-changing monstrosity of unknown origin, named for its favourite form, possibly inspired by skull lanterns. It craves entertainment and does not think its tricks are malicious: posing as a transformed person, an object or a monster, giving confusing directions or speaking only in rhymes. It avoids direct combat and prefers mind games, sometimes scaring townsfolk as an undead before fleeing harmlessly. It can become a faithful familiar to an adventurer who humours it.',
+        ],
+        ['Sources: ', 'Tome of Beasts 2'],
+      ],
+      habitats: ['Underdark', 'Urban'],
       stats: {
         size: 'tiny',
         type: 'monstrosity',

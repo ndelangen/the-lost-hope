@@ -12,6 +12,14 @@ export default createPublicationMonsters({
       languages: ['Auran', 'Common', 'Druidic'],
       tags: ['any'],
       tableNotes: [['Tal’Dorei Campaign Setting Reborn, p. 227.']],
+      appearance: [['A graceful Air Ashari who flies, at once an artist, performer and warrior.']],
+      lore: [
+        [
+          'Skydancers are the beloved heroes of the Air Ashari of Zephrah in the Summit Peaks, defending their people in danger. Their isolated home has made the tribe reckless, which the Earth Ashari of Terrah scorn, while all guard their elemental rift. Air Ashari children learn to fly before walking on skysails.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Summit Peaks'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -107,6 +115,14 @@ export default createPublicationMonsters({
       name: 'Ashari Stoneguard',
       tags: ['any'],
       tableNotes: [['Tal’Dorei Campaign Setting Reborn, p. 229.']],
+      appearance: [['An Earth Ashari druid in arms and armour crafted from granite.']],
+      lore: [
+        [
+          "The Earth Ashari of Terrah are stoic and favour defensive fights, and stoneguards embody that, combining druidic training with ancient combat techniques to hold against many foes. They make weapons and armour from the surrounding granite with stonecraft rivalling dwarves'. Legend says two stoneguards held all of Terrah for ten days and nights against elemental armies. Today they guard key defensive points in the Cliffkeep Mountains against the dwarves of Kraghammer.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Cliffkeep Mountains'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -186,6 +202,18 @@ export default createPublicationMonsters({
         ['Tal’Dorei Campaign Setting Reborn, p. 230.'],
         ['Fishform is printed as a reaction without a specified trigger.'],
       ],
+      appearance: [
+        [
+          'A Water Ashari of Vesrah, a healer and aquatic empath who shifts into a shark or octopus form.',
+        ],
+      ],
+      lore: [
+        [
+          'Waveriders protect seafarers from storms, pirates and sea monsters and rescue survivors of marine disasters. They are healers rather than warriors and turn to violence only as a last resort, preferring shapechanged fishforms, using hit-and-run tactics as a shark or camouflage as a giant octopus. They sometimes bring wounded survivors to Vesrah, which the isolationist Water Ashari condemn, and they accept the scorn.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Open ocean', 'Vesrah'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -264,6 +292,18 @@ export default createPublicationMonsters({
         ['Tal’Dorei Campaign Setting Reborn, p. 256.'],
         ['Variant: The Centaur Skeleton (Variant) adds the printed Spirit Away customization.'],
       ],
+      appearance: [
+        [
+          'Ancient bones draped in rusted armour scraps, rising on a centaur frame with old weapons.',
+        ],
+      ],
+      lore: [
+        [
+          "Vampires raise skeletons from crypts of long-dead thralls, prisoners and slayers, and arm them with bows or spears. They need no feeding and can be stored in tombs until needed. They are mindless foot soldiers that feel no pain and fight to the death on their masters' orders; some keep arcane ability from life and lead as mages. (Source covers Skeletons generally.)",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Crypts', 'Vampire strongholds'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -368,6 +408,18 @@ export default createPublicationMonsters({
         ],
         ['Base creature: This version adds Spirit Away to the Centaur Skeleton.'],
       ],
+      appearance: [
+        [
+          'Ancient bones draped in rusted armour scraps, rising on a centaur frame with old weapons.',
+        ],
+      ],
+      lore: [
+        [
+          "Vampires raise skeletons from crypts of long-dead thralls, prisoners and slayers, and arm them with bows or spears. They need no feeding and can be stored in tombs until needed. They are mindless foot soldiers that feel no pain and fight to the death on their masters' orders; some keep arcane ability from life and lead as mages. (Source covers Skeletons generally.)",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Crypts', 'Vampire strongholds'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -467,6 +519,18 @@ export default createPublicationMonsters({
           'Encounter context: An Ashari Firetamer can be an ally at Thordak’s Crater. The Fire Ashari have worked to contain the elemental damage there.',
         ],
       ],
+      appearance: [
+        [
+          'A mindless elemental of slag and ash, born in places scorched by dragonfire, with a gaze that melts steel and stone.',
+        ],
+      ],
+      lore: [
+        [
+          "Cinderslag elementals are manifestations of the hatred of the dead red dragon Thordak, the Cinder King. They arise where his flames turned the ground to pits of slag and ash, such as under Emon, the ruins of Serpent's Head and the Ashen Gorge. Their Molten Gaze can melt steel and stone, and several together could level a city, but they are mindless and incapable of acting together unless someone bends them to their will.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Emon', 'Cliffkeep Mountains', 'Stormcrest Mountains'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -600,6 +664,18 @@ export default createPublicationMonsters({
           'Encounter context: A Clasp Enforcer collects debts or applies pressure in the open. The cutthroat handles jobs that require stealth.',
         ],
       ],
+      appearance: [
+        [
+          'A quiet operative of the Clasp who slips through night and shadow, hailed as a folk hero by some and feared as a scoundrel by others.',
+        ],
+      ],
+      lore: [
+        [
+          "The Clasp is a stealthy organisation of spies, thieves, assassins and smugglers, both folk heroes of song and sinister outlaws of infamous legend. They do illegal work discreetly for the wealthy, but also saved countless common people of Tal'Dorei during the Cinder King's tyranny. They now present themselves as the clasp that holds society together, since an organised criminal syndicate needs a working civilised economy.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ["Tal'Dorei", 'Cities'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -688,6 +764,18 @@ export default createPublicationMonsters({
           'Encounter context: Use a Clasp Cutthroat when the Clasp needs the job done unseen. An enforcer comes when it wants the target to know who sent it.',
         ],
       ],
+      appearance: [
+        [
+          'A quiet operative of the Clasp who slips through night and shadow, hailed as a folk hero by some and feared as a scoundrel by others.',
+        ],
+      ],
+      lore: [
+        [
+          "The Clasp is a stealthy organisation of spies, thieves, assassins and smugglers, both folk heroes of song and sinister outlaws of infamous legend. They do illegal work discreetly for the wealthy, but also saved countless common people of Tal'Dorei during the Cinder King's tyranny. They now present themselves as the clasp that holds society together, since an organised criminal syndicate needs a working civilised economy.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ["Tal'Dorei", 'Cities'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -757,6 +845,16 @@ export default createPublicationMonsters({
       name: 'Cobalt Golem',
       languages: ['Understands its creator’s languages but cannot speak'],
       tableNotes: [['Tal’Dorei Campaign Setting Reborn, p. 240.']],
+      appearance: [
+        ['A vaguely humanoid construct, unfailingly obedient and feeling no pain or pity.'],
+      ],
+      lore: [
+        [
+          "Golems are ageless guardians crafted to carry out their owner's every command without question. They need no food or sleep and ignore bribes and bargains. The dwarves first made them in the Age of Arcanum by joining divine gifts with technical skill, and other peoples later stole and expanded the craft, increasingly to protect life, wealth and secrets from others. (Source covers golems generally.)",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ["Tal'Dorei"],
       stats: {
         size: 'huge',
         type: 'construct',
@@ -894,6 +992,14 @@ export default createPublicationMonsters({
       name: 'Cold Snap Spirit',
       languages: [],
       tableNotes: [['Tal’Dorei Campaign Setting Reborn, p. 234.']],
+      appearance: [['A drifting spirit of elemental frost, animal in its instincts.']],
+      lore: [
+        [
+          "Cold snap spirits are echoes of the armies of the elemental Errevon the Rimelord, from the Icelost Years. They linger in the Frostweald, on the Cliffkeep peaks and on the Neverfields plains. Without a master they are instinct-driven and drift harmlessly about cold places, but heat, even a living creature's warmth, drives them into a murderous rage, and they calm again once the heat is gone. They make good berserker troops for ambitious elemental leaders.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Frostweald', 'Cliffkeep Mountains', 'Neverfields'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -986,6 +1092,18 @@ export default createPublicationMonsters({
       name: 'Cyclops Stormcaller',
       languages: ['Common', 'Elvish', 'Giant'],
       tableNotes: [['Tal’Dorei Campaign Setting Reborn, p. 235.']],
+      appearance: [
+        [
+          'A small, sickly-looking cyclops, born under a raging storm and sparking with magic its kin find awesome and terrifying.',
+        ],
+      ],
+      lore: [
+        [
+          'Cyclopes born beneath a storm are sometimes smaller and weaker and are bullied, and many die young. Survivors live thanks to magic the Stormlord grants, deliberately or not. Other cyclopes often take them for gods. A cabal meets at the elven temple Skyneedle in the Daggerbay Mountains to commune with the "Eye of the Storm", which is really a vengeful storm giant named Eyvindr posing as a demigod to raise an army against the Council of Seven Scepters.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Daggerbay Mountains'],
       stats: {
         size: 'large',
         type: 'giant',
@@ -1064,6 +1182,18 @@ export default createPublicationMonsters({
         ['Tal’Dorei Campaign Setting Reborn, p. 237.'],
         ['Encounter context: Use the Demonfeed Spider block for the adult.'],
       ],
+      appearance: [
+        [
+          'A young demonfeed spider, one of a brood of burning-blooded spiders from a sulphurous nest of web and ash.',
+        ],
+      ],
+      lore: [
+        [
+          'Demonfeed spiders are spawn of the Spider Queen that gorged on demon ichor from the early days of the Calamity. They descend from ordinary large spiders and mostly live on the Material Plane, so when killed they stay dead, unlike banished fiends. They love demon ichor most, and without it will drink the fluids of any living creature.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ["Tal'Dorei caverns and depths"],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1128,6 +1258,18 @@ export default createPublicationMonsters({
           'The encounter lore describes the roc seizing prey. The printed Talons action deals damage without an automatic grapple.',
         ],
       ],
+      appearance: [
+        [
+          'A bird of prey as large as the oldest dragons, with a wingspan that blots out the sky and flames bursting from every feather, bright as the sun.',
+        ],
+      ],
+      lore: [
+        [
+          'Centuries old and born of primordial chaos, ember rocs hunt only the deadliest game. The Fire Ashari of Pyrah lure rocs to elemental rifts to eat creatures trying to escape into the Material Plane, and after years of feeding on fire elementals, salamanders and fire giants the roc takes fire into itself. An ember roc watches prey for hours, then seizes it with iron talons, ignoring counterattacks, and flies to its nest, often inside an active volcano. It drops prey that is too much trouble from a great height.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Volcano', 'Mountains'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -1341,6 +1483,16 @@ export default createPublicationMonsters({
           'The printed Dexterity score is 10 with a listed modifier of +1. Both values are retained.',
         ],
       ],
+      appearance: [
+        ["A vaguely humanoid construct of metal that stands unmoving until its owner's command."],
+      ],
+      lore: [
+        [
+          "Golems are ageless guardians built to carry out their owner's orders without question, with no pain, pity or need for food and sleep, ignoring bribes and bargains. Dwarves made the first in the Age of Arcanum by pairing divine gifts with technique, and the craft spread to others, increasingly to protect life, wealth and secrets from others. (Source covers golems generally.)",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ["Tal'Dorei"],
       stats: {
         size: 'gargantuan',
         type: 'construct',
@@ -1601,6 +1753,18 @@ export default createPublicationMonsters({
       tags: ['Drow'],
       alignment: 'chaotic evil',
       tableNotes: [['Tal’Dorei Campaign Setting Reborn, p. 245.']],
+      appearance: [
+        [
+          'A shadowy wraith with hair like fire, wielding poison-dripping daggers and passing through walls and mountains as if through water.',
+        ],
+      ],
+      lore: [
+        [
+          'Jourrael is an assassin queen from the Calamity, an ancient specter that stalks a target tirelessly and cannot be stopped by wall, gate or door. The Spider Queen named her the Caedogeist, the specter of silent death, and a contract between the Lord of the Hells and the Spider Queen forbids death from taking her. After the Calamity, armies split her body into parts and hid them. The fiend Obann revived her, believing he could control her, and she killed him.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ["Tal'Dorei"],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1779,6 +1943,18 @@ export default createPublicationMonsters({
           'Mount: Use the linked Goat-Knight Steed block for the celestial mount summoned by Find Steed.',
         ],
       ],
+      appearance: [
+        [
+          'A knight of Kraghammer riding a summoned giant goat steed across cliff faces and mountain roads.',
+        ],
+      ],
+      lore: [
+        [
+          "The Peakclimber Knights of Kraghammer enforce peace and justice across the Cliffkeep Mountains, whose cliffs and winding roads are hard to cross. They trust giant goat steeds to master the slopes and have led many lost travellers to safety. They serve the All-Hammer and sometimes find enforcing Kraghammer's laws and their god's edicts in conflict. The steed vanishes when it falls and is summoned again by find steed.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Mountain', 'Cliffkeep Mountains'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1856,6 +2032,16 @@ export default createPublicationMonsters({
       name: 'Mage Hunter Golem',
       languages: ['Understands its creator’s languages but cannot speak'],
       tableNotes: [['Tal’Dorei Campaign Setting Reborn, p. 242.']],
+      appearance: [
+        ['A vaguely humanoid construct that follows orders without hesitation or remorse.'],
+      ],
+      lore: [
+        [
+          "Golems are ageless guardians built to carry out their owners' orders. They feel no pain or sympathy, need no food or sleep, and ignore bribes. Dwarves made the first, animating wardens for their ancestral halls, and other peoples copied the craft, increasingly to protect life, wealth and secrets from others. This entry only has family lore, nothing specific to the mage hunter.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ["Tal'Dorei"],
       stats: {
         size: 'large',
         type: 'construct',
@@ -2002,6 +2188,18 @@ export default createPublicationMonsters({
         ['The source gives Lava Pool no duration.'],
         ['Related creature: Use Young Magma Landshark for the juvenile encounter.'],
       ],
+      appearance: [
+        [
+          'A fiery, armoured predator that looks like a bulette but is full of churning elemental power, and which burns through rock.',
+        ],
+      ],
+      lore: [
+        [
+          'Magma landsharks live in volcanoes, magma pits and the seas of flame on the Elemental Plane of Fire, and they exist only to eat. They sense slight movement in the ground, and when hungry (always) they erupt from below, heedless of obstacles, tearing up trees and roads, setting off avalanches and leaving sinkholes. They swallow prey whole, and survivors face an aura of intense heat.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Volcano', 'Elemental Plane of Fire', 'Underground'],
       stats: {
         size: 'huge',
         type: 'elemental',
@@ -2151,6 +2349,18 @@ export default createPublicationMonsters({
         ],
         ['Resists damage from spells.'],
       ],
+      appearance: [
+        [
+          'A winged feline construct of raw arcane energy, fuchsia and flecked with stars, with mithral claws, a mithral face and rune-inscribed mithral braces that hold its form together.',
+        ],
+      ],
+      lore: [
+        [
+          "Adranachs are the iconic servants of the League of Miracles, made by the Wonderworker and spellwrights, and the method is a closely guarded secret. They are loyal to their makers. Tal'Dorei knows them for letting cities razed by the Chroma Conclave be rebuilt in weeks, but they are also strong fighters used as hunters, bodyguards and assassins. Their bodies are Astral energy, which the mithral parts keep from falling apart.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ["Tal'Dorei"],
       stats: {
         size: 'gargantuan',
         type: 'construct',
@@ -2358,6 +2568,14 @@ export default createPublicationMonsters({
       name: 'Plainscow',
       languages: [],
       tableNotes: [['Tal’Dorei Campaign Setting Reborn, p. 248.']],
+      appearance: [['A hulking beast of burden six feet tall and about two tons.']],
+      lore: [
+        [
+          "Plainscows are tough beasts native to the Dividing Plains and used by central Tal'Dorei people for centuries. Wild herds remain, but most are domesticated as mounts, pack animals and livestock. They are unusually empathetic and often bond with one rider for life. They live about 70 years, cost 200 gp in Westruun, and can carry 1,500 pounds.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Plains', 'Dividing Plains'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -2866,6 +3084,18 @@ export default createPublicationMonsters({
           'Encounter context: The Rivermaw Stormborn uses the separate storm magic and greataxe block.',
         ],
       ],
+      appearance: [
+        [
+          'A hardy member of the nomadic Rivermaw herd, most likely a goliath, ready to fight for the people of the plains.',
+        ],
+      ],
+      lore: [
+        [
+          'The Rivermaw herd is a nomadic society, mostly goliaths, and a force for good on the Dividing Plains. It was once ruled by the goliath tyrant Kevdak until Vox Machina defeated him, and it now sees it as its duty to stop any new tyrant from conquering the plains. Its ranks also include orcs, humans, halflings and others who prefer to live outside the walls of Westruun and the plains towns.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Plains'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3006,6 +3236,18 @@ export default createPublicationMonsters({
         ['Tal’Dorei Campaign Setting Reborn, p. 254.'],
         ['Encounter context: Use the Rivermaw Brawler block for the herd’s unarmed warriors.'],
       ],
+      appearance: [
+        [
+          'A member of the Rivermaw herd, most likely a goliath, marked out among the warriors as one of its stormborn.',
+        ],
+      ],
+      lore: [
+        [
+          "The Rivermaw herd is a nomadic society, mostly goliaths, and a force for good on the Dividing Plains. After Kevdak's tyranny ended with his defeat by Vox Machina, the herd made it its duty to prevent any tyrant from conquering the plains again. Its ranks also include orcs, humans, halflings and others who prefer life outside Westruun and the plains towns.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Plains'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3306,6 +3548,16 @@ export default createPublicationMonsters({
       name: 'Wraithroot Tree',
       alignment: 'neutral evil',
       tableNotes: [['Tal’Dorei Campaign Setting Reborn, p. 259.']],
+      appearance: [
+        ['An awakened tree with mobile roots, twisted by necromancy into a thing of rage.'],
+      ],
+      lore: [
+        [
+          "Ancient or nefarious beings bury objects of grave importance, especially ones tied to their immortality, beside wraithroot trees, and people avoid the places. Foul necromancy and transmutation first awakens a tree, giving it intelligence and mobile roots, then floods it with necromantic energy so its brief joy turns to a longing to destroy the life it enjoyed. In Tal'Dorei they are found at the Parchwood Timberlands, the Torian Forest, the Grey Valley and the Moldered Grove.",
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -3409,6 +3661,18 @@ export default createPublicationMonsters({
         ['Tal’Dorei Campaign Setting Reborn, p. 248.'],
         ['Related creature: Use Magma Landshark for the adult encounter.'],
       ],
+      appearance: [
+        [
+          'A bulette-like armoured predator filled with churning elemental power, its jaws wide enough to swallow prey whole.',
+        ],
+      ],
+      lore: [
+        [
+          'Magma landsharks lurk in volcanoes, magma pits and the Plane of Fire and live only to eat. Always hungry, one erupts from the ground regardless of obstacles, uprooting trees, wrecking roads, causing avalanches and leaving sinkholes. It burrows and burns through rock, senses slight movement underground, and surrounds its victims with intense heat.',
+        ],
+        ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
+      ],
+      habitats: ['Volcano', 'Elemental Plane of Fire'],
       stats: {
         size: 'large',
         type: 'elemental',

@@ -153,6 +153,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Terran'],
+      appearance: [['A priest of the Cult of the Black Earth.']],
+      lore: [
+        [
+          "In Mulmaster Undone, a black earth priest oversees a supply room and directs four sacred stone monks and a pair of young bulettes. The cult is devoted to the Black Lord, Bane, in this adventure's earth track.",
+        ],
+        ['Sources: ', 'DDEP2 Mulmaster Undone, PDF page 46'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -372,6 +379,13 @@ export default createPublicationMonsters({
       tags: ['any race'],
       alignment: 'neutral evil',
       languages: ['Common', 'Ignan'],
+      appearance: [['A vaguely humanoid being made of mud and bits of stone.']],
+      lore: [
+        [
+          "Font simulacrums guard a gate in the Cult of the Black Earth's holdings, rising from mud pools; extra ones or mud mephits can emerge each round. A character can disrupt the pools with Arcana checks. They fight alongside mud mephits and an earth priest, who rallies the defence and retreats through the font if the fight turns.",
+        ],
+        ['Sources: ', 'DDEP2 Mulmaster Undone, PDF page 48'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -859,6 +873,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
+      appearance: [['A monk of the Cult of the Black Earth, fighting to the death.']],
+      lore: [
+        [
+          "Sacred stone monks serve the elemental cult dedicated to Ogremoch, the Prince of Evil Earth. A captured monk laughs grimly and says the city will be crushed beneath Ogremoch's fists. They fight alongside black earth priests and young bulettes.",
+        ],
+        ['Sources: ', 'DDEP2 Mulmaster Undone, PDF pages 42, 46'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

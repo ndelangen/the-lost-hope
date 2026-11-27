@@ -13,6 +13,14 @@ export default createPublicationMonsters({
       page: 239,
       alignment: 'chaotic neutral',
       languages: ['Any one language', 'usually Common.'],
+      appearance: [['A scavenger in hide armour, with weapons picked from the rubble.']],
+      lore: [
+        [
+          'Anarchs are rank-and-file members of the Gruul Clans, who despise civilisation and have sworn to tear down its buildings and institutions. They scavenge everything, from armour to weapons, and sometimes find magic items and treasure in the rubble of the rubblebelts.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica rubblebelts'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -64,6 +72,18 @@ export default createPublicationMonsters({
           'Mount stat block: Use Felidar for the usual mount and add a fly speed of 40 ft. as described in the Winged Felidars sidebar.',
         ],
       ],
+      appearance: [
+        [
+          'An armoured humanoid, nearly always mounted, with its face hidden under a large hood, though a celestially beautiful, stern face with blank white eyes has been glimpsed.',
+        ],
+      ],
+      lore: [
+        [
+          'Archons embody the harshest aspects of law and order, preach rigid justice and punish lawbreakers ruthlessly, so they align with the Azorius Senate and circle the Azorius guildhall on winged felidars. An archon and its mount are so close they are treated as one being, and an archon thrown from the saddle can instantly return to it.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica (Azorius)'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -248,6 +268,18 @@ export default createPublicationMonsters({
       page: 193,
       alignment: 'chaotic neutral',
       languages: ['None.'],
+      appearance: [
+        [
+          'A bird of prey formed from electrical energy with lightning fanning out behind it as it bolts across the sky.',
+        ],
+      ],
+      lore: [
+        [
+          'The arclight phoenix is said to come from a lightning strike on an aviary, a failed translocation device, or a deliberate attempt to make an elemental bird. It trades grace for speed, seems happiest in thunderstorms among the clouds and alongside thunderbolts, and needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Thunderstorms'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -625,6 +657,14 @@ export default createPublicationMonsters({
       page: 256,
       alignment: 'neutral good',
       languages: ['Common plus any one language.'],
+      appearance: [['A Simic specialist working in the fusing and changing of creatures.']],
+      lore: [
+        [
+          'Nearly all Simic bioengineering progress comes from biomancers, who hybridise and alter creatures with a mix of science and magic and have created many hybrids and krasis seeking the perfect union of nature and civilisation.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica (Simic)'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -691,6 +731,18 @@ export default createPublicationMonsters({
       page: 207,
       alignment: 'chaotic neutral',
       languages: ['Draconic.'],
+      appearance: [
+        [
+          'A brutish, vaguely human form of water and molten rock, its ooze-like body swelling as it soaks up fire.',
+        ],
+      ],
+      lore: [
+        [
+          'An Izzet weird is the product of a League experiment to merge opposed elements into something steadier than a normal elemental, and the result was the opposite: wilder and less predictable. The blistercoil weird swells by absorbing magical fire, and one once filled a six-storey workshop before releasing the excess in a huge explosion and shrinking back. It makes a potent guardian and can be urged to fight for its makers. It needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Izzet League'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -796,6 +848,14 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['The languages the vampire knew in life.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [['An ageless, elegant predator whose sophistication hides a hungry mouth.']],
+      lore: [
+        [
+          'Ravnican vampires live on the blood of the living and mask their thirst behind sophistication and sensuality. Those who sip from golden chalices are as ravenous as those who tear throats, they just hide it better. They differ from Monster Manual vampires in lacking both the powers and the weaknesses, and share only an unquenchable need for blood.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -914,6 +974,16 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal and one other language', 'usually Common.'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [
+        ['A smart, charismatic Rakdos cultist who carries a grand title and an air of importance.'],
+      ],
+      lore: [
+        [
+          'Blood witches see themselves as go-betweens for Rakdos and his cult, trusted advisors and messengers of his will to the scattered troupes. The cult recognises only Rakdos, who needs no advisors, but the witches are capable enough that their words carry some weight. They protect the cult from outside interference and punish those who harm the guild, and take mocking titles to taunt their intended victims.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Cult of Rakdos'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1036,6 +1106,18 @@ export default createPublicationMonsters({
       page: 200,
       alignment: 'chaotic evil',
       languages: ['Giant.'],
+      appearance: [
+        [
+          'A towering Rakdos giant, a bouncer and enforcer, watching a violent show with rapt attention.',
+        ],
+      ],
+      lore: [
+        [
+          "Giants in the Cult of Rakdos serve as enforcers, bouncers and sometimes the pillars that hold up mobile stage platforms. They love the violence of the cult's performances and seem entranced by it, yet react fast and brutally to any interruption. Rakdos and Gruul giants are effective but lack discipline.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Cult of Rakdos'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -1108,6 +1190,18 @@ export default createPublicationMonsters({
       page: 238,
       alignment: 'chaotic neutral',
       languages: ['Common', 'Giant.'],
+      appearance: [
+        [
+          'An enormous cyclops, burning with rage at the city, usually surrounded by members of his clan from burly giants to cowering goblins.',
+        ],
+      ],
+      lore: [
+        [
+          "Borborygmos has led the Gruul's Burning Tree clan, the largest and most varied, for decades by beating every challenger. He embodies the fire the Gruul feel in their bellies and his wrath at Ravnican civilisation is limitless. He is rarely alone, less because he needs guards than because his clan may need him. The Gruul follow strength, so he holds his place only while he stays stronger than whoever challenges him.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Gruul Clans'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -1310,6 +1404,16 @@ export default createPublicationMonsters({
       page: 195,
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common.'],
+      appearance: [
+        ['A small, mischievous demon of the Rakdos cult, the sort Ravnica calls a devil.'],
+      ],
+      lore: [
+        [
+          'Ravnican "devils" are minor demons akin to quasits, which reflect the whimsical, chaotic side of Rakdos and his cult. Their antics cause disorder and destruction out of all proportion to their size. Demons here are strongly tied to the Cult of Rakdos, claim his authority and fear only him, because he tolerates no rivals and hates to be upstaged. (Source covers Ravnica demons generally, not the cackler by name.)',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Cult of Rakdos'],
       stats: {
         size: 'small',
         type: 'fiend',
@@ -1414,6 +1518,18 @@ export default createPublicationMonsters({
           'Minor adaptations: 1. Amorphous Structure. The krasis can pass through a 1-inch gap without squeezing.\n2. Aquatic. A swimming speed equal to its walking speed (30 ft.).\n3. Climbing Speed. A climbing speed equal to its walking speed (30 ft.).\n4. Cryptic Skin. The krasis can shift its color to blend in. It has advantage on Dexterity (Stealth) checks to hide.\n5. Heightened Awareness. Enhanced sensory organs prevent the krasis from being surprised.\n6. Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can spend a bonus action to release ink and then move up to its speed. The ink stays in a 20-ft.-radius sphere centered on a point in the space the krasis occupied before moving. The sphere is heavily obscured until the ink disperses after 1 minute or a strong current clears it.\n7. Leaping Legs. The krasis can long jump 20 ft. and high jump 10 ft., with or without a running start.\n8. Stabilizing Legs. Extra crablike legs grant advantage on Strength and Dexterity saves against effects that would knock the krasis prone.',
         ],
       ],
+      appearance: [
+        [
+          "A grafted, unnatural beast, a patchwork of features from more than one creature, bred in the biomancers' sinkhole laboratories.",
+        ],
+      ],
+      lore: [
+        [
+          "Krasis are life forms made by the Simic Combine, whose biomancers use magic and method to reshape existing creatures or fuse traits from several. Some are one-off creatures that cannot breed, while a few multiply and join the guild's standard stock. Each carries extra adaptations that set one krasis apart from another.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Simic sinkholes', 'Ravnica'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1489,6 +1605,18 @@ export default createPublicationMonsters({
           'Minor adaptations: 1. Amorphous Structure. The krasis can pass through a 1-inch gap without squeezing.\n2. Aquatic. A swimming speed equal to its walking speed (40 ft.).\n3. Climbing Speed. A climbing speed equal to its walking speed (40 ft.).\n4. Cryptic Skin. The krasis can shift its color to blend in. It has advantage on Dexterity (Stealth) checks to hide.\n5. Heightened Awareness. Enhanced sensory organs prevent the krasis from being surprised.\n6. Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can spend a bonus action to release ink and then move up to its speed. The ink stays in a 20-ft.-radius sphere centered on a point in the space the krasis occupied before moving. The sphere is heavily obscured until the ink disperses after 1 minute or a strong current clears it.\n7. Leaping Legs. The krasis can long jump 30 ft. and high jump 20 ft., with or without a running start.\n8. Stabilizing Legs. Extra crablike legs grant advantage on Strength and Dexterity saves against effects that would knock the krasis prone.',
         ],
       ],
+      appearance: [
+        [
+          "A grafted, unnatural beast, a patchwork of features from more than one creature, bred in the biomancers' sinkhole laboratories.",
+        ],
+      ],
+      lore: [
+        [
+          "Krasis are life forms made by the Simic Combine, whose biomancers use magic and method to reshape existing creatures or fuse traits from several. Some are one-off creatures that cannot breed, while a few multiply and join the guild's standard stock. Each carries extra adaptations that set one krasis apart from another.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Simic sinkholes', 'Ravnica'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1564,6 +1692,18 @@ export default createPublicationMonsters({
           'Minor adaptations: 1. Amorphous Structure. The krasis can pass through a 1-inch gap without squeezing.\n2. Aquatic. A swimming speed equal to its walking speed (40 ft.).\n3. Climbing Speed. A climbing speed equal to its walking speed (40 ft.).\n4. Cryptic Skin. The krasis can shift its color to blend in. It has advantage on Dexterity (Stealth) checks to hide.\n5. Heightened Awareness. Enhanced sensory organs prevent the krasis from being surprised.\n6. Ink Cloud (Recharges after a Short or Long Rest). While underwater, the krasis can spend a bonus action to release ink and then move up to its speed. The ink stays in a 20-ft.-radius sphere centered on a point in the space the krasis occupied before moving. The sphere is heavily obscured until the ink disperses after 1 minute or a strong current clears it.\n7. Leaping Legs. The krasis can long jump 40 ft. and high jump 30 ft., with or without a running start.\n8. Stabilizing Legs. Extra crablike legs grant advantage on Strength and Dexterity saves against effects that would knock the krasis prone.',
         ],
       ],
+      appearance: [
+        [
+          "A grafted, unnatural beast, a patchwork of features from more than one creature, bred in the biomancers' sinkhole laboratories.",
+        ],
+      ],
+      lore: [
+        [
+          "Krasis are life forms made by the Simic Combine, whose biomancers use magic and method to reshape existing creatures or fuse traits from several. Some are one-off creatures that cannot breed, while a few multiply and join the guild's standard stock. Each carries extra adaptations that set one krasis apart from another.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Simic sinkholes', 'Ravnica'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -1659,6 +1799,16 @@ export default createPublicationMonsters({
       page: 194,
       alignment: 'lawful good',
       languages: ['Common', 'Elvish', 'Sylvan.'],
+      appearance: [
+        ['A Selesnya dryad, who may ride a mount woven of living branches, vines and grasses.'],
+      ],
+      lore: [
+        [
+          "Ravnica's forests are gone but dryads remain, working to bring the city and nature into harmony as the will of Mat'Selesnya, the world's soul. They are respected spiritual leaders and visionaries for the Selesnya Conclave and also act as architects, working with stonemasons and woodshapers on enclaves. In battle one leads its guild on a summoned mount of branches, vines and grasses with a fey spirit.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Selesnya enclaves'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -1804,6 +1954,14 @@ export default createPublicationMonsters({
       page: 242,
       alignment: 'chaotic neutral',
       languages: ['Any one language', 'usually Common.'],
+      appearance: [["An Izzet field operative carrying the guild's latest devices."]],
+      lore: [
+        [
+          'Where chemisters invent tools and weapons for the Izzet League, blastseekers put them to use. Not every device explodes, but the ones that Izzet find most interesting all do.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Izzet League'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1876,6 +2034,14 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common plus one other language.'],
       tableNotes: [['Alternate armor classes: 16 · with mage armor']],
+      appearance: [["An Izzet field operative carrying the guild's latest devices."]],
+      lore: [
+        [
+          'Where chemisters invent tools and weapons for the Izzet League, blastseekers put them to use. Not every device explodes, but the ones that Izzet find most interesting all do.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Izzet League'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1948,6 +2114,18 @@ export default createPublicationMonsters({
           'Debts Paid: A deathpact angel may offer an indentured spirit release from its debt. If the spirit sees the angel fall to 0 HP, the spirit can destroy itself to bring the angel back to life with 1 HP.',
         ],
       ],
+      appearance: [
+        [
+          'An angel in a grand Orzhov cathedral, surrounded by riches and fawning, bound followers.',
+        ],
+      ],
+      lore: [
+        [
+          'Deathpact angels pose as kindly gods and draw petitioners asking for wealth, rank, health or revenge. The angel thinks itself generous and tries to grant requests from its own powers and hoard or by extorting other guild members, but only to win fanatical followers who owe it a life debt. Those helped carry the debt with devotion, bring offerings, offer their lives and, after death, keep serving as indentured spirits.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Orzhov cathedrals'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -2089,6 +2267,18 @@ export default createPublicationMonsters({
       page: 198,
       alignment: 'neutral evil',
       languages: ['Common', 'Elvish', 'Kraul.'],
+      appearance: [
+        [
+          'A graceful Devkarin elf in slow decay, with fungus growing through the rotting flesh to hold it together.',
+        ],
+      ],
+      lore: [
+        [
+          'A powerful Devkarin caster steeped in Golgari magic can overcome death and become a lich, finding great power where life and death meet, which earns awe, envy and fear. Unlike the zombies it commands, it keeps its memories, personality and especially its ambition.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Golgari undercity'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2420,6 +2610,16 @@ export default createPublicationMonsters({
       page: 231,
       alignment: 'lawful good',
       languages: ['Any one language (usually Common).'],
+      appearance: [
+        ['A Boros battle-mage whose fighting skill and magic inspire the soldiers beside them.'],
+      ],
+      lore: [
+        [
+          'Firefists combine strong magic with exceptional fighting ability and often act as the link between the Boros Legion and its angelic leaders.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Boros Legion'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2482,6 +2682,14 @@ export default createPublicationMonsters({
       page: 190,
       alignment: 'chaotic good',
       languages: ['All.'],
+      appearance: [['A Boros angel, a fierce warrior and commander.']],
+      lore: [
+        [
+          "Boros angels see themselves as what their creator intended, warriors of justice who protect the weak. Their presence in battle fires up the legion's soldiers. Soldiers assume angels are paragons, but they can be corrupted and compromised by politics. The wisest plan the legion's strategy over centuries and will accept decades of losses for a bigger win later. (The source covers Boros angels generally.)",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Boros Legion'],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -2578,6 +2786,14 @@ export default createPublicationMonsters({
       alignment: 'chaotic neutral',
       languages: ['Common plus one other language.'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [["An Izzet field operative carrying the guild's latest devices."]],
+      lore: [
+        [
+          'Where chemisters invent tools and weapons for the Izzet League, blastseekers put them to use. Not every device explodes, but the ones that Izzet find most interesting all do.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Izzet League'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2655,6 +2871,18 @@ export default createPublicationMonsters({
       page: 208,
       alignment: 'chaotic neutral',
       languages: ['Draconic.'],
+      appearance: [
+        [
+          'A weird with a mizzium frame that suggests an angel, and a faceplate with a solemn, unblinking stare most find unnerving.',
+        ],
+      ],
+      lore: [
+        [
+          'Izzet mages bound elemental lightning, fire and smoke into a mizzium framework to make a weird that would be easier to control. It was partly successful: it does not explode, but is smarter and more headstrong. Like all weirds it needs no air, food, drink or sleep and can serve as a guardian or fight for its makers.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Izzet League'],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -2784,6 +3012,14 @@ export default createPublicationMonsters({
           'Horrors and Madness: If you use the book’s optional madness rule, track each failed save against a Flying Horror’s Frightening Screech, a Shadow Horror’s claw attack, or a Skittering Horror’s Maddening Presence. After the encounter, each character with any such failures makes a DC 13 Wisdom save. Failure causes short-term madness after one tracked failure, long-term madness after two or three, or indefinite madness after four or more. Consult the Dungeon Master’s Guide for the corresponding madness rules.',
         ],
       ],
+      appearance: [['A winged horror of the dark, lurking in the night sky and the undercity.']],
+      lore: [
+        [
+          "Horrors are evil creatures with dim reason and uncanny cunning, embodying the deepest fears of Ravnica's people, and they stalk, fly and scuttle in dark corners from the undercity to the blackest sky. Several guilds compel them to serve; House Dimir uses them to spread fear and despair and for assassinations. A flying horror's Frightening Screech can bring on madness in those who fail to resist it. (Source covers horrors generally.)",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Undercity', 'Night sky'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -2870,6 +3106,14 @@ export default createPublicationMonsters({
       page: 231,
       alignment: 'lawful good',
       languages: ['Any one language', 'usually Common.'],
+      appearance: [['A Boros healer working close to the fighting.']],
+      lore: [
+        [
+          'Boros Legion soldiers rely on skilled healers, and frontline medics mix magical healing with ordinary medicine to keep comrades alive.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Boros Legion'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2920,6 +3164,14 @@ export default createPublicationMonsters({
       page: 243,
       alignment: 'chaotic neutral',
       languages: ['Common', 'Primordial', 'and one other language.'],
+      appearance: [["An Izzet field operative carrying the guild's latest devices."]],
+      lore: [
+        [
+          'Where chemisters invent tools and weapons for the Izzet League, blastseekers put them to use. Not every device explodes, but the ones that Izzet find most interesting all do.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Izzet League'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3007,6 +3259,14 @@ export default createPublicationMonsters({
       page: 209,
       alignment: 'chaotic neutral',
       languages: ['None.'],
+      appearance: [['A rigid body of elemental ice animated by a core of lightning.']],
+      lore: [
+        [
+          'Galvanice weirds are the picture of weird technology and serve cheerfully and stupidly as guardians and labourers in Izzet workshops. When one is destroyed, the ice shatters and lightning bursts out in a dangerous explosion, a risk most researchers accept for their usefulness. Like all weirds it needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Izzet workshops'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -3106,6 +3366,18 @@ export default createPublicationMonsters({
           'Rider: The Nightveil Specter’s Mount trait grants both creatures advantage on Dexterity saves while the specter is mounted and not incapacitated. See the rider’s profile for its mounting and replacement-mount rules.',
         ],
       ],
+      appearance: [
+        [
+          'A ratlike head with prominent teeth, tight leathery skin over the skull with empty eye sockets, a body mottled with bony plates and great wings from the shoulders.',
+        ],
+      ],
+      lore: [
+        [
+          "The source gives only its appearance, as an undead horror of Ravnica's dark places, and no behaviour or lore.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -3205,6 +3477,18 @@ export default createPublicationMonsters({
           'Regional effects: A Golgari lair produces one or both of these effects, only belowground. Moss and fungi cover underground surfaces within half a mile. When a Small or Medium humanoid dies within the lair, roll any die. On an odd result the corpse rises as a fungus drudge using the 2014 Zombie stat block after 1d8 hours, unless the body is destroyed first. If all Golgari in the lair die, its effects fade over 1d10 days.',
         ],
       ],
+      appearance: [
+        [
+          'A Golgari spiritual leader with face paint that makes extra eyes on the cheeks and chin, in clothes decorated with beetle shells, spiderwebs or shelf fungus.',
+        ],
+      ],
+      lore: [
+        [
+          "Shamans teach the Swarm's beliefs about the cycles of nature and use necromantic magic to show how life grows from death. They sometimes use magical moodmark paint to communicate through the face marks. When at least six Golgari defend their territory together with a shaman or other leader, they can call on the environment to help.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Golgari undercity'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3381,6 +3665,16 @@ export default createPublicationMonsters({
       page: 201,
       alignment: 'lawful neutral',
       languages: ['Common and Giant.'],
+      appearance: [
+        ['A giant like an enormous human with huge muscles and a comparatively small head.'],
+      ],
+      lore: [
+        [
+          'Most Boros Legion giants come from the Skorskal clan, long at odds with the Gruul. They guard and keep gates, are well represented in the Sunhome Guard, and add muscle to Boros missions. They are assigned to garrisons and forts across Ravnica, are keen-eyed, vigilant sentinels, and act as living walls protecting smaller soldiers.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica', 'Boros garrisons'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3443,6 +3737,18 @@ export default createPublicationMonsters({
       page: 253,
       alignment: 'lawful good',
       languages: ['Common plus any one language.'],
+      appearance: [
+        [
+          'A Selesnya shaman with a horn and animals about them, as at home in a park as in a battle line.',
+        ],
+      ],
+      lore: [
+        [
+          'Horncallers are shamans who use magic to call wild beasts to fight beside Selesnya troops. In calmer times they tend the animals that belong to Selesnya enclaves and parks.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3525,6 +3831,18 @@ export default createPublicationMonsters({
       page: 217,
       alignment: 'neutral good',
       languages: ['Common and one other language.'],
+      appearance: [
+        [
+          'A Simic guardian hybrid built for brute force, grown from a volunteer human, vedalken or elf.',
+        ],
+      ],
+      lore: [
+        [
+          'The Guardian Project came from rising tension in the Simic Combine. Biomancers made soldiers to defend the guild in the coming conflict between guilds. Hybrids, also called guardians, come from human, vedalken and elf guild members who volunteered for the change.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3571,6 +3889,16 @@ export default createPublicationMonsters({
       page: 217,
       alignment: 'neutral good',
       languages: ['Common and one other language.'],
+      appearance: [
+        ['A Simic guardian hybrid adapted to fly, from a volunteer human, vedalken or elf.'],
+      ],
+      lore: [
+        [
+          'The Guardian Project came from rising tension in the Simic Combine. Biomancers made soldiers to defend the guild in the coming conflict between guilds. Hybrids, also called guardians, come from human, vedalken and elf guild members who volunteered for the change.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3630,6 +3958,16 @@ export default createPublicationMonsters({
       page: 217,
       alignment: 'neutral good',
       languages: ['Common and one other language.'],
+      appearance: [
+        ['A Simic guardian hybrid shaped for venom, from a volunteer human, vedalken or elf.'],
+      ],
+      lore: [
+        [
+          'The Guardian Project came from rising tension in the Simic Combine. Biomancers made soldiers to defend the guild in the coming conflict between guilds. Hybrids, also called guardians, come from human, vedalken and elf guild members who volunteered for the change.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3710,6 +4048,18 @@ export default createPublicationMonsters({
       page: 218,
       alignment: 'neutral good',
       languages: ['Common and one other language.'],
+      appearance: [
+        [
+          'A Simic guardian hybrid grown to deliver shocks, from a volunteer human, vedalken or elf.',
+        ],
+      ],
+      lore: [
+        [
+          'The Guardian Project came from rising tension in the Simic Combine. Biomancers made soldiers to defend the guild in the coming conflict between guilds. Hybrids, also called guardians, come from human, vedalken and elf guild members who volunteered for the change.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3791,6 +4141,16 @@ export default createPublicationMonsters({
       page: 218,
       alignment: 'neutral good',
       languages: ['Common and one other language.'],
+      appearance: [
+        ['A Simic guardian hybrid built for stealth, from a volunteer human, vedalken or elf.'],
+      ],
+      lore: [
+        [
+          'The Guardian Project came from rising tension in the Simic Combine. Biomancers made soldiers to defend the guild in the coming conflict between guilds. Hybrids, also called guardians, come from human, vedalken and elf guild members who volunteered for the change.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3853,6 +4213,18 @@ export default createPublicationMonsters({
           'Debts Paid: If a Deathpact Angel has granted the spirit this clause, the spirit can destroy itself when it sees that angel drop to 0 HP. This clears the debt and restores the angel to life with 1 HP. This optional pact appears on p. 191.',
         ],
       ],
+      appearance: [
+        [
+          'An incorporeal figure in ghostly black robes and a hood that hides any face. Chains hang around its chest and arms.',
+        ],
+      ],
+      lore: [
+        [
+          'Anyone who dies owing the Orzhov Syndicate is not let off: the spirit serves the guild until the debt is worked off, which can take years or millennia. The chains mark that servitude permanently.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -3913,6 +4285,18 @@ export default createPublicationMonsters({
           'Golgari lairs: Jarad Vod Savo or a Kraul Death Priest can qualify a group of at least six Golgari defending their territory for the shared lair actions. See Golgari Shaman for the encounter rules and regional effects on p. 236.',
         ],
       ],
+      appearance: [
+        [
+          'A Devkarin elf lich, once an archer and hunter, who does not breathe, eat, drink or sleep.',
+        ],
+      ],
+      lore: [
+        [
+          'Jarad Vod Savo leads the Golgari Swarm. In life he was the brother of the ambitious Savra, the previous guildmaster. He learned necromancy so that he could rise as a lich after giving his life to save his son from the demon Rakdos. He commands elf and medusa assassins, kraul legions, trolls and many undercity creatures, and has survived several assassination attempts with the support of loyal guards.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4369,6 +4753,18 @@ export default createPublicationMonsters({
       page: 232,
       alignment: 'neutral evil',
       languages: ['Common', "Thieves' Cant."],
+      appearance: [
+        [
+          'A shapechanger who is never seen as himself: he might be an elderly widow at the bazaar, a vedalken hussar at a checkpoint or a Tin Street merchant. Nobody has seen his true form.',
+        ],
+      ],
+      lore: [
+        [
+          'Lazav is the Dimir guildmaster, a mysterious genius shaped by agents across the whole Dimir network. He takes whatever guise his plans need to eavesdrop, bypass guards or deceive nobles. His real form may be a doppelganger or something else.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -4525,6 +4921,18 @@ export default createPublicationMonsters({
       page: 196,
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
+      appearance: [
+        [
+          'A Ravnican demon, a monstrous winged figure of human-like form, possibly with fiery attacks.',
+        ],
+      ],
+      lore: [
+        [
+          "This entry only has the family lore for Ravnica's demons, who embody depraved impulses such as selfishness, cruelty, hatred, greed and lust for power. They are tied to the Cult of Rakdos and may have been made by Rakdos, who claims authority over all of them, though some rebel. They work terror in plain sight under the Cult, with bloody performances and mob riots that raze city blocks, and fear only Rakdos, who does not tolerate rivals or being upstaged.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -4647,6 +5055,18 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['The languages the vampire knew in life.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A Ravnican vampire, a predator that hides its thirst behind sophistication and sensuality.',
+        ],
+      ],
+      lore: [
+        [
+          'This entry only has family lore. Ravnican vampires are ageless undead living on blood, fierce predators who hide their hunger behind refined manners, whether sipping from a golden chalice or tearing out a throat. They lack the powers and also the weaknesses of Monster Manual vampires, and keep the unquenchable thirst.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4777,6 +5197,14 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common plus any four languages.'],
       tableNotes: [['Alternate armor classes: 15 · with mage armor']],
+      appearance: [['A Dimir spellcaster wrapped in mystery.']],
+      lore: [
+        [
+          'Mind mages are among the most feared casters in Ravnica thanks to the mystery around their work. Their power to read and alter memories earns respect in House Dimir and is useful across its activities. Many lead cells of their own.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4855,6 +5283,18 @@ export default createPublicationMonsters({
           'Gloamwing mount: The Gloamwing is destroyed if its specter rider drops to 0 HP. If the Gloamwing is killed first, the surviving specter becomes fixated on destroying those responsible. It can create a replacement over one month, during which the specter is incapacitated.',
         ],
       ],
+      appearance: [
+        [
+          'A hooded undead guardian riding a gloamwing, a ratlike-headed creature with stretched leathery skin over its skull, empty eye sockets, bony plates and large wings.',
+        ],
+      ],
+      lore: [
+        [
+          "Nightveil specters guard House Dimir's territory, especially the Nightveil neighbourhood. They drive off people who wander near secret rooftop meetings, kill infiltrators and hunt thieves of guild secrets, wiping the secrets from their minds. A specter is made when Dimir mind magic erases a person's identity, leaving a broken mind with no memory of its past, but clever enough to follow orders creatively. If its gloamwing dies, the specter fixates on the killers, and it can make a new mount over a month, during which it is incapacitated.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4976,6 +5416,14 @@ export default createPublicationMonsters({
           'Roleplaying: Niv-Mizzet values invention, has spent more than ten thousand years studying the world, and quickly loses patience with people he thinks lack imagination.',
         ],
       ],
+      appearance: [['An ancient fire-breathing dragon with sword-like teeth.']],
+      lore: [
+        [
+          'Niv-Mizzet founded and still controls the Izzet League, working from a private laboratory at the top of its guildhall. He is arrogant and vain, as intelligent as he is powerful, and directs many seemingly unrelated experiments toward some mysterious end. His hoard is scientific and magical knowledge. The other guildmasters fear his ambition but would hardly dare confront him given his magic and physical threat.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -5249,6 +5697,14 @@ export default createPublicationMonsters({
           'Council of Five: Enezesku: Enfeebling Ray. Add Ray of Enfeeblement to his at-will innate spells.\nFautomni: Undead Fortitude. If damage drops him to 0 HP, make a Constitution save with a DC of 5 plus the damage taken. On a success he drops to 1 HP. Radiant damage and critical hits bypass this trait.\nKarlov: Unnatural Vigor. Whenever he regains HP, he has advantage on attack rolls during his next turn.\nVuliev: Teleportation. Add Misty Step to his at-will innate spells.\nXil Xaxosz: Lingering Spite. When he drops to 0 HP, each creature within 5 ft. makes a DC 16 Constitution save against the burst. Failure deals 14 (4d6) necrotic damage. Success halves the damage.',
         ],
       ],
+      appearance: [['A ghost of an Orzhov patriarch, male or female, dead for centuries.']],
+      lore: [
+        [
+          'The Obzedat are the oldest, richest and most influential oligarchs of the Orzhov Syndicate. They refuse to give up the fortunes they made in life, are addicted to power and prestige, and keep dominating the guild. They act as a unit, driven to gather more wealth, and in a dispute the eldest leans on his seniority. The council head, Karlov, called Grandfather, gives final approval and breaks ties, and was the greediest oligarch in life. Their outlook is that influence is power, status and mostly money, and everyone has a price.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5485,6 +5941,14 @@ export default createPublicationMonsters({
       alignment: 'lawful neutral',
       languages: ['Common plus any one language.'],
       tableNotes: [['Alternate armor classes: 14 · with mage armor']],
+      appearance: [['A rare Azorius spellcaster who glimpses the future.']],
+      lore: [
+        [
+          'Precognitive mages are uncommon among Azorius casters. They are typically used to predict the moves of wanted criminals, helping catch them.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5578,6 +6042,18 @@ export default createPublicationMonsters({
           'Lair context: Rakdos sometimes withdraws for months or years to his lair below the guildhall. The book describes the retreat on p. 246.',
         ],
       ],
+      appearance: [
+        [
+          'A demon thirty feet tall with huge wings, a crown of fire and a flaming scythe. His entrance is staged like grisly performance art.',
+        ],
+      ],
+      lore: [
+        [
+          "Rakdos, whom the Cult of Rakdos is named for, embodies hedonism and is the consummate entertainer. After a grand entrance he sometimes crouches to watch his worshippers' acts, a demanding and jaded audience of thousands of years who has no patience for half effort, and his scythe has ended more than one weak show. He rarely attends and often retreats for months or years to his lair under the guildhall, but he may appear at any time.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -5768,6 +6244,16 @@ export default createPublicationMonsters({
       page: 248,
       alignment: 'chaotic evil',
       languages: ['Common plus any one language.'],
+      appearance: [
+        ['A Rakdos performer with masks, marionettes or effigies, mocking public figures.'],
+      ],
+      lore: [
+        [
+          "Satire is one of the Cult of Rakdos's most effective weapons, and the lampooner is its virtuoso. They generally save mockery for those and guilds who have taken too much power, rather than for people already struggling. They caricature with masks, puppets or effigies, and sometimes prank targets directly in the street.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Ravnica'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5814,6 +6300,18 @@ export default createPublicationMonsters({
       page: 249,
       alignment: 'chaotic evil',
       languages: ['Any one language (usually Common).'],
+      appearance: [
+        [
+          'A costumed street entertainer keeps a ring of blades spinning through the air, grinning at the crowd.',
+        ],
+      ],
+      lore: [
+        [
+          "A performer of the Cult of Rakdos, one of the artists the cult has gathered alongside its other members. This one works with blades, turning stage skill into a weapon. Performers carry the cult's message into the streets, urging people to throw off social restraint and give in to their desires.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5871,6 +6369,18 @@ export default createPublicationMonsters({
       page: 249,
       alignment: 'chaotic evil',
       languages: ['Any one language (usually Common).'],
+      appearance: [
+        [
+          'A costumed entertainer with a gleaming, soot-streaked grin plays with open flame in front of a gathering crowd.',
+        ],
+      ],
+      lore: [
+        [
+          "A performer of the Cult of Rakdos, one of the artists the cult has gathered alongside its other members. This one works with flame, turning a crowd-pleasing act into a weapon. Performers carry the cult's message into the streets, urging people to throw off social restraint and give in to their desires.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5946,6 +6456,16 @@ export default createPublicationMonsters({
       page: 249,
       alignment: 'chaotic evil',
       languages: ['Any one language (usually Common).'],
+      appearance: [
+        ['A costumed acrobat balances above the crowd on a cord or ledge, relaxed and showy.'],
+      ],
+      lore: [
+        [
+          "A performer of the Cult of Rakdos, one of the artists the cult has gathered alongside its other members. This one works from height, using agility as a weapon. Performers carry the cult's message into the streets, urging people to throw off social restraint and give in to their desires.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6005,6 +6525,18 @@ export default createPublicationMonsters({
       page: 231,
       alignment: 'lawful neutral',
       languages: ['Common plus any one language.'],
+      appearance: [
+        [
+          'A Boros shock trooper crackling with stored lightning, often a minotaur, charging at a mob or a defended line.',
+        ],
+      ],
+      lore: [
+        [
+          'Reckoners combine physical power with magic and serve as the shock troops of the Boros legion. They are good at breaking up mobs and organised lines of defence. Their bodies are charged with lightning that flares in their spells and lashes back at anyone who hurts them, so they have been called living thunderstorms. Many are minotaurs.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6214,6 +6746,18 @@ export default createPublicationMonsters({
       page: 221,
       alignment: 'unaligned',
       languages: ['Understands Common but cannot speak.'],
+      appearance: [
+        [
+          'A shambling servant whose ghastly features are hidden behind a faceplate forged from devalued coinage.',
+        ],
+      ],
+      lore: [
+        [
+          'Thrulls are made by the Orzhov Syndicate from the discarded bodies of people whose souls were ripped out to become spirits. Fleshmages liquefy the corpse with necromancy and reshape it into an obedient slave used for labour, messages, carrying loads and even as a fashion accessory for the elite. A thrull needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -6274,6 +6818,18 @@ export default createPublicationMonsters({
           'Optional madness: If you use the optional madness rule on p. 203, record each time a character fails the save against Claw. See Flying Horror for the shared end-of-encounter save and severity table.',
         ],
       ],
+      appearance: [
+        [
+          'A creature of the dark corners of the undercity and night, whose claws and presence inspire madness.',
+        ],
+      ],
+      lore: [
+        [
+          "Horrors are terror and madness given form, evil creatures of dim reason that lurk in the undercity and the darkest parts of Ravnica's night. They embody the deepest fears of Ravnica's people. The book suggests tracking who fails saves against horror effects and rolling for madness at the end of the encounter.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban', 'Undercity'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -6447,6 +7003,16 @@ export default createPublicationMonsters({
       page: 197,
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
+      appearance: [
+        ['A demon of Ravnica, an agent of destruction at home among the Cult of Rakdos.'],
+      ],
+      lore: [
+        [
+          'Demons on Ravnica embody depraved impulses such as selfishness, cruelty, hatred, greed and lust for power, and they are strongly tied to the Cult of Rakdos, whose founder claims authority over them. They work terror in plain sight, from bloody performances to riots that raze city blocks. The only thing they fear is Rakdos, who tolerates no rivals and hates being upstaged. This is the general demon entry, not one specific to the Sire.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -6576,6 +7142,14 @@ export default createPublicationMonsters({
           'Optional madness: If you use the optional madness rule on p. 203, record each time a character fails the save against Maddening Presence. See Flying Horror for the shared end-of-encounter save and severity table.',
         ],
       ],
+      appearance: [['A scuttling creature of the dark whose presence plants madness in the mind.']],
+      lore: [
+        [
+          "Horrors are terror and madness given form, evil creatures of dim reason that lurk in the undercity and the darkest parts of Ravnica's night. They embody the deepest fears of Ravnica's people. The book suggests tracking who fails saves against horror effects and rolling for madness at the end of the encounter.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban', 'Undercity'],
       stats: {
         size: 'huge',
         type: 'aberration',
@@ -6679,6 +7253,16 @@ export default createPublicationMonsters({
       page: 219,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [
+        ['A saddled roc with armour plating on its head and chest, carrying a Boros skyknight.'],
+      ],
+      lore: [
+        [
+          "Skyjek rocs are the mounts of the Boros Legion's skyknights, who fly alongside the angels. Riders use them for reconnaissance, for bombing enemies on the ground and for fighting flyers. The roc's body is easy to saddle and ride. They are headstrong and impulsive but brave, which suits the knights.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban', 'Sky'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -6743,6 +7327,14 @@ export default createPublicationMonsters({
       name: 'Skyswimmer',
       page: 220,
       alignment: 'unaligned',
+      appearance: [['An enormous predatory leviathan swimming through the clouds above Ravnica.']],
+      lore: [
+        [
+          'Skyswimmers soar through the clouds above Ravnica and feed on drakes, rocs, griffins and anything else they meet.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Sky'],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -6986,6 +7578,18 @@ export default createPublicationMonsters({
       page: 202,
       alignment: 'chaotic neutral',
       languages: ['Giant.'],
+      appearance: [
+        [
+          'An angry giant in armour made of building fragments, wielding columns or other architecture as clubs.',
+        ],
+      ],
+      lore: [
+        [
+          'Gruul sunder shamans channel rage into brutal blows that wreck foes and structures alike. They sometimes lead hill and stone giants among the Gruul clans, occasionally joined by cyclopes, ettins, fomorians and ogres. They hate the urban growth that crowds out the wilds and love destroying it, walking through buildings, trampling people and causing as much chaos as they can.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban', 'Rubblebelt'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -7167,6 +7771,18 @@ export default createPublicationMonsters({
           'Named example: Ludmilla, the Tunnel Viper, survived the other Sisters of Stone Death. She keeps her petrified victims in the undercity and plots against Jarad Vod Savo.',
         ],
       ],
+      appearance: [
+        [
+          'A woman-like creature with black serpentine cables for hair, scaly claws for hands and glowing eyes whose gaze turns living flesh to stone.',
+        ],
+      ],
+      lore: [
+        [
+          "Ravnica's medusas, often called gorgons, petrify victims into statues frozen in fear or agony, which they keep as trophies. The medusa must will the effect, so a surprised or friendly one has a harmless gaze. This power gives them influence in the Golgari guild beyond their numbers, and many command smaller cells; at least one is thought to be angling for control of the whole guild. Others simply stalk the undercity as predators.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Undercity'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -7477,6 +8093,18 @@ export default createPublicationMonsters({
       page: 221,
       alignment: 'unaligned',
       languages: ['Understands Common but cannot speak.'],
+      appearance: [
+        [
+          'A winged servant whose ghastly features are hidden behind a faceplate forged from devalued coinage.',
+        ],
+      ],
+      lore: [
+        [
+          'Thrulls are made by the Orzhov Syndicate from the discarded bodies of people whose souls were ripped out to become spirits. Fleshmages liquefy the corpse with necromancy and reshape it into an obedient slave used for labour, messages, carrying loads and even as a fashion accessory. A thrull needs no air, food, drink or sleep.',
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'small',
         type: 'construct',
@@ -7540,6 +8168,14 @@ export default createPublicationMonsters({
       page: 225,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [['A huge limbless, wingless dragon-like creature.']],
+      lore: [
+        [
+          "Wurms burrow through the earth eating nearly anything, and their movement causes much of the destruction in Ravnica's rubblebelt. They liquefy loose earth with deep sonic vibrations and swim through it, with the soil hardening again behind them; rock is slower and leaves a tunnel. The Gruul clans prize the devastation they cause and sometimes lure them into civilised areas.",
+        ],
+        ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
+      ],
+      habitats: ['Rubblebelt'],
       stats: {
         size: 'huge',
         type: 'monstrosity',

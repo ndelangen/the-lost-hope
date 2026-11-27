@@ -18,6 +18,14 @@ export default createPublicationMonsters({
           'The Dagger line calls it a melee attack and lists a thrown range of 20/60 ft. Treat that range as its thrown range.',
         ],
       ],
+      appearance: [["A birdfolk working the docks and ships of Saltar's Port."]],
+      lore: [
+        [
+          'Seafaring is a way of life for some birdfolk, who find the work as well paid as it is hard. Dockmasters run their jobs seriously, since a badly stowed barrel or poorly lashed line can cause disaster at sea; life on the water is about order and efficiency.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ["Saltar's Port", 'Docks'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -107,6 +115,16 @@ export default createPublicationMonsters({
       page: 190,
       alignment: 'any alignment',
       languages: ['Understands Auran without speaking it'],
+      appearance: [
+        ['A birdfolk farmer working a canopy farm of moss gardens, fruit vines or insect pens.'],
+      ],
+      lore: [
+        [
+          'Farmers across the Wood supply food and goods to the cities. Digging large amounts of soil is often impractical or harmful in the forest, so most farms are in the canopy, with flowering moss gardens or fruit vines on perch-tree branches, and sometimes large edible insects or silkworms.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood canopy'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -153,6 +171,14 @@ export default createPublicationMonsters({
           'The guard’s Glide text lists heavy objects and heavy weapons as restrictions. Its listed AC includes a shield.',
         ],
       ],
+      appearance: [['A birdfolk member of the Perch Guard.']],
+      lore: [
+        [
+          "Recruits from across the Wood join the Perch Guard in Alderheart, then return home to serve as their perch's first line of defence. Under the Humblefolk Treaty they help nearby forest-floor villages when needed, and in larger cities they handle robbery, bar fights, investigations and arrests.",
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood', 'Alderheart'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -201,6 +227,18 @@ export default createPublicationMonsters({
           'Encounter notes: Cara Stormsinger of Meadowfen uses this block with swift strig traits and a lawful good alignment.',
         ],
       ],
+      appearance: [
+        [
+          'Local volunteers from a small perch, ordinary upstanding citizens carrying weapons and wearing whatever kit the community has gathered.',
+        ],
+      ],
+      lore: [
+        [
+          'In smaller perches with a minimal or absent guard, a locally organised militia keeps the peace. Any upstanding citizen can enlist. The Perch Guard can call on them for duties from policing the streets to supporting military efforts.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood perches'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -298,6 +336,18 @@ export default createPublicationMonsters({
       page: 191,
       alignment: 'any lawful alignment',
       languages: ['Understands Auran without speaking it'],
+      appearance: [
+        [
+          'A light infantry birdfolk with a polearm, as at home leaping between branches as on the ground.',
+        ],
+      ],
+      lore: [
+        [
+          "Skirmishers make up most of the Perch Guard's military force and are known as the Spears. They drill constantly with polearms suited to fighting branch to branch, and many can also throw them and dive on enemies below. In peacetime they serve as hunters, following trackers to feed whole villages.",
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood perches'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -435,6 +485,16 @@ export default createPublicationMonsters({
           'Encounter notes: For Benna Seridan, use a Blade of the Wood scimitar in her main hand (+1 to attack and damage rolls) and a shortsword in her off hand (1d6 + 3 piercing damage).',
         ],
       ],
+      appearance: [
+        ['A battle-hardened cervan with a commanding presence and a sharp, practical manner.'],
+      ],
+      lore: [
+        [
+          'Bandit clans are led by generals, who are both seasoned fighters and strategists and the only ones able to coordinate a band of thieves and outlaws. Keeping order takes a dominating personality and a persuasive voice as well as a quick blade. Cervans rarely turn to banditry, but their practical skills and ability to survive in harsh conditions suit those with loose morals and dubious ambitions.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -525,6 +585,16 @@ export default createPublicationMonsters({
       page: 193,
       alignment: 'any alignment',
       languages: ['Birdfolk', 'Cervan'],
+      appearance: [
+        ['A wise village elder of the cervan, storyteller and keeper of local history.'],
+      ],
+      lore: [
+        [
+          'Cervan villages are usually led by an elder who is wise in politics and in the ways of the Amaranthine. Priests guide the community, make sure rituals are observed and customs kept, and are trusted with the myths and folktales that carry the knowledge needed to survive the forest.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood villages'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -613,6 +683,16 @@ export default createPublicationMonsters({
       languages: [
         'Understands Auran, Birdfolk, and its other languages from life without speaking',
       ],
+      appearance: [
+        ['A large and robust undead figure stitched together from five or six birdfolk skeletons.'],
+      ],
+      lore: [
+        [
+          "The mad necromancer Lathrus of the Night's Call is rumoured to have devised cobblefrights, built by linking several birdfolk skeletons. A cobblefright has the strength of about a dozen birdfolk and tougher bones, but needs a great deal of necromantic energy to sustain itself, and records note that it unexpectedly learned to drain the life force of living creatures to feed. Only the reckless have tried to build their own, usually with disastrous results.",
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -711,6 +791,16 @@ export default createPublicationMonsters({
         "Speaks Birdfolk, Thieves' Cant, and one other language",
         'Understands Auran without speaking it',
       ],
+      appearance: [
+        ['A cunning corvum killer who keeps hidden in the canopy and along the branchroads.'],
+      ],
+      lore: [
+        [
+          "Contract killers turn up in the Wood's largest and most politically tangled perches, often in criminal groups, serving powerful and unscrupulous figures with plenty of coin. They train from youth to skulk the branchroads and time ambushes. Corvums, being clever, make the best assassins.",
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood perches', 'Canopy'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -865,6 +955,14 @@ export default createPublicationMonsters({
           'The printing grants two 2nd-level slots. The spell name Magic Missile corrects a spelling error in the printed list.',
         ],
       ],
+      appearance: [['A corvum spellcaster who reads the threads of fate.']],
+      lore: [
+        [
+          'Diviners specialise in esoteric spells and rituals that show the threads of fate. Even failed predictions usually give useful information. Corvums prize all kinds of knowledge and trade in secrets, so many take up divination.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -941,6 +1039,14 @@ export default createPublicationMonsters({
       tableNotes: [
         ['Encounter notes: Odwald Ebonhart uses this stat block with a chaotic neutral alignment.'],
       ],
+      appearance: [['A corvum scholar who has gone down the path of the dark arts.']],
+      lore: [
+        [
+          'Necromancy tempts any thinking being, with the promise of lost loved ones or armies of minions. At the Avium, professors teach only necromantic theory, but some bold students practise it in secret. Corvums, sure of their intellect and willing to challenge tradition for knowledge, are often among those who wander into it.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood', 'The Avium'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1097,6 +1203,18 @@ export default createPublicationMonsters({
       page: 183,
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A spotted, cat-like beast with leaves and moss growing on its fur, so it blends into the canopy.',
+        ],
+      ],
+      lore: [
+        [
+          'Forest prowlers feature in Humblewood folktales as monsters. They are elusive ambush predators of the canopy, and few who see one live to tell. Killing one is a rite of passage in some beast hunter communities, and fangs and fur cloaks are trophies. They are apex predators, usually taking deer, elk and other large herbivores, and drag kills up to tree nests with strong bodies and gripping claws.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Forest canopy', 'Humblewood'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -1339,6 +1457,18 @@ export default createPublicationMonsters({
       page: 197,
       alignment: 'any alignment',
       languages: ['Speaks Birdfolk and understands Auran without speaking it'],
+      appearance: [
+        [
+          'A gallus who has trained at a secluded monastery and travels to test what they have learned.',
+        ],
+      ],
+      lore: [
+        [
+          'Gallus who dislike settling into village life go to remote monasteries for a routine of physical discipline and spiritual reflection under old masters. After years, initiates travel to test themselves. Most return to the monastery after a revelation, while others keep wandering, sometimes with trusted companions, seeking new meaning.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood monasteries'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1448,6 +1578,14 @@ export default createPublicationMonsters({
       page: 198,
       alignment: 'any nonlawful alignment',
       languages: ['Speaks Birdfolk, Hedge and Sylvan', 'Understands Auran without speaking it'],
+      appearance: [['A gallus scholar of the Avium who studies the darker side of magic.']],
+      lore: [
+        [
+          'Gallus are rarely drawn to necromancy, but a few mavericks with arcane talent have succeeded at the Avium. More often, they study it in theory to learn how it upsets the balance of life and death, so their students can learn to counter such spells.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood', 'The Avium'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1555,6 +1693,16 @@ export default createPublicationMonsters({
       alignment: 'neutral good',
       languages: ['Speaks Birdfolk, Druidic, and Sylvan', 'Understands Auran without speaking it'],
       tableNotes: [['Use the printed Intelligence save bonus of +7.']],
+      appearance: [
+        ['A frail huden gallus with pheasant-like plumage, looking too delicate for the road.'],
+      ],
+      lore: [
+        [
+          'Havel is a courageous but sickly healer, a Summerblossom, which is a rank for experienced members of the Tenders. He works at their headquarters in the Trunk district of Alderheart, aiding refugees, and he is close to Tevor, with whom he has fallen in love. He is skilled in natural magic and, though normally too ill to adventure, could help a party with his talents.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Alderheart'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1643,6 +1791,18 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Birdfolk and Hedge'],
       tableNotes: [['The rapier uses the printed 1d6 damage die.']],
+      appearance: [
+        [
+          "A hedge, one of the diplomatic Humblewood folk, with a performer's charm and a touch of talent for magic.",
+        ],
+      ],
+      lore: [
+        [
+          'Hedges are known as good diplomats and mediators, and the gifted ones among them turn that charm to entertaining. Some performers have magical talent. Most use it well, but some turn bardic gifts to cheating, duping or robbing ordinary people.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1775,6 +1935,14 @@ export default createPublicationMonsters({
       page: 198,
       alignment: 'any chaotic alignment',
       languages: ['Speaks Abyssal, Birdfolk and Hedge'],
+      appearance: [['A self-taught hedge spellcaster of Humblewood, at ease among forest magic.']],
+      lore: [
+        [
+          'Many who apply to the Avium are refused, and some then teach themselves arcane craft. Strongly attuned to the magic of the forest, they often draw on those forces and strike pacts with powerful fey or elemental beings, learning secrets that formal students never reach.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1867,6 +2035,14 @@ export default createPublicationMonsters({
       page: 200,
       alignment: 'neutral evil',
       languages: ['Speaks Birdfolk and Jerbeen'],
+      appearance: [['A small, quick and charming jerbeen, easy to overlook in a crowd.']],
+      lore: [
+        [
+          'Pickpockets are common in large perch cities, but only the most successful are recruited by the Bandit Coalition. A jerbeen\'s small size lets it move unnoticed, and its speed gave rise to the saying "quick as a jerbeen". Its charm completes a talent for theft.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1936,6 +2112,15 @@ export default createPublicationMonsters({
       languages: ['Speaks Abyssal'],
       tableNotes: [
         ['The Foul Odor entry gives a 20-ft. sphere without specifying radius or diameter.'],
+      ],
+      appearance: [
+        ['A vile and off-putting little demon, what shows up when a summoning goes wrong.'],
+      ],
+      lore: [
+        [
+          'When a novice tries to conjure something great and fumbles, a lesser demon often appears instead. They are lowly and vexing and eager to sow discord wherever they have been called. They are not powerful, but they can seriously threaten inexperienced conjurers and bystanders.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
       ],
       stats: {
         size: 'small',
@@ -2016,6 +2201,14 @@ export default createPublicationMonsters({
         'Speaks Birdfolk and one other language',
         'Understands Auran without speaking it',
       ],
+      appearance: [['A luma cleric on pilgrimage through the Wood to sacred groves.']],
+      lore: [
+        [
+          "Clerics of Ardea travel the Wood to groves that thrive under the Dawnmother. They spread her message of kindness, take on protecting all life, and serve the communities they pass as healers, mediators and sometimes defenders. Lumas find their natural charisma and mystic gifts suit the cleric's path.",
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2135,6 +2328,14 @@ export default createPublicationMonsters({
       page: 201,
       alignment: 'any alignment',
       languages: ['Speaks Auran, Birdfolk and three other languages'],
+      appearance: [['A luma, one of the birdfolk, at ease with magical forces.']],
+      lore: [
+        [
+          'Birdfolk believe only focused minds can master subtle magic. For reasons nobody knows, perhaps a link with fate or a particular way of engaging with the world, lumas can tap magical forces with ease.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2348,6 +2549,14 @@ export default createPublicationMonsters({
       page: 202,
       alignment: 'chaotic evil',
       languages: ['Speaks Birdfolk and Mapach'],
+      appearance: [['A ruthless mapach enforcer in the bandit coalition.']],
+      lore: [
+        [
+          'Many in the Bandit Coalition follow noble ideals, but some members care only for their own advancement. Brutes are scoundrels ready to seize power in the coalition by any means. Mapachs do not have more villains than other peoples, but the infamy of a few has worsened their name with perch-dwellers.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2435,6 +2644,14 @@ export default createPublicationMonsters({
       tableNotes: [
         ['The printed Grease Balloon entry leaves the duration of the grease unspecified.'],
       ],
+      appearance: [['A mapach craftsperson with a workshop mind, always adjusting past designs.']],
+      lore: [
+        [
+          'Tinkerers have a passion for innovation that tradition does not hold back. Constantly improving earlier work gets them labelled as eccentrics. Their methods are unconventional but practical, with carefully considered designs, and some inventions eventually spread across the Wood.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Humblewood'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2564,6 +2781,16 @@ export default createPublicationMonsters({
       page: 184,
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A mountain lion covered in rocky protrusions that protect and camouflage it.'],
+      ],
+      lore: [
+        [
+          "Humblewood's Crest Mountain lions have ties to elemental earth that give them special powers. They are natural climbers and prefer ambushing prey to long chases over cliffs. A pride is led and protected by a large female, and males compete to mate and hunt together. A few working together can take on dangerous creatures like basilisks and griffons. Their roar can control nearby rock, causing rockslides to trap or hurt prey, but it costs energy so they use it sparingly.",
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Mountain', 'Crest Mountains'],
       stats: {
         size: 'large',
         type: 'beast',
@@ -2675,6 +2902,18 @@ export default createPublicationMonsters({
       page: 204,
       alignment: 'any neutral alignment',
       languages: ['Understands Auran and speaks Birdfolk'],
+      appearance: [
+        [
+          'A bird-folk traveller of the raptor people, dressed for the road and carrying the gear of someone used to remote ruins and far vistas.',
+        ],
+      ],
+      lore: [
+        [
+          'Explorers are common among the raptors of Humblewood. Many set out out of reverence for the Amaranthine Reya, guide and protector of travellers, or to find themselves through the journey. They go after distant ruins and far places, and long experience makes them sought-after guides.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3176,6 +3415,16 @@ export default createPublicationMonsters({
       page: 208,
       alignment: 'neutral evil',
       languages: ['Speaks Birdfolk and Vulpin'],
+      appearance: [
+        ['A fox-folk vulpin bandit leader, among the better warriors of the coalition.'],
+      ],
+      lore: [
+        [
+          "Captains lead raids and ambushes and sometimes run a whole camp. Daily involvement gives them rapport even with low-ranking bandits, and with their prowess it lets them rally or cow anyone who thinks of deserting. Vulpins' ambition, cunning and force of personality often carry them to this rank.",
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3258,6 +3507,14 @@ export default createPublicationMonsters({
       page: 209,
       alignment: 'any alignment',
       languages: ['Speaks Birdfolk and Vulpin'],
+      appearance: [["A fox-folk vulpin of Alderheart's high society."]],
+      lore: [
+        [
+          'Alderheart was founded by birdfolk but is home to several noble families of influential humblefolk, including vulpins whose charm and wiles suit its political intrigue. Some vulpin nobles trace their lines back to ancient royalty.',
+        ],
+        ['Sources: ', 'Humblewood Campaign Setting'],
+      ],
+      habitats: ['City'],
       stats: {
         size: 'medium',
         type: 'humanoid',

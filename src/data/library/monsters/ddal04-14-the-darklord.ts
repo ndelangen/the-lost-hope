@@ -548,6 +548,16 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.curse_of_strahd, refs.publications.ddal04_09_the_tempter],
       alignment: 'lawful evil',
       languages: ["Understands Common but can't speak"],
+      appearance: [
+        ['A headless suit of burgundy plate armour adorned with golden angelic motifs.'],
+      ],
+      lore: [
+        [
+          'It is the armour Strahd wore in life, now animated and carrying a sliver of his being, which gives it a malevolence unusual in animated objects. It was strengthened with permanent spell effects to defend the castle. It understands Common but obeys only its master.',
+        ],
+        ['Sources: ', 'Curse of Strahd, p. 227'],
+      ],
+      habitats: ['Castle'],
       stats: {
         size: 'medium',
         type: 'construct',

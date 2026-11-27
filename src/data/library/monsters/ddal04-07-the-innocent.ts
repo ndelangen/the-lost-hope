@@ -92,6 +92,13 @@ export default createPublicationMonsters({
       tags: ['human'],
       alignment: 'lawful neutral',
       languages: ['Common'],
+      appearance: [['A veteran tricked into killing his own bride and her companion.']],
+      lore: [
+        [
+          'Regold was persuaded to murder two people on what would have been his wedding night while the Visitor watched, hoping the Dark Powers would respond. The sacrifice failed, as only a willing one counts, so the Visitor pins his hopes on poor, hapless Regold and leads him towards the Vault of the Honored Dead, an ancient yuan-ti temple.',
+        ],
+        ['Sources: ', 'DDAL04-07 The Innocent, PDF page 7'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

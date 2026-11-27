@@ -769,6 +769,18 @@ export default createPublicationMonsters({
           "Lair options: The printed example has no listed lair actions. The template lets the DM keep, remove, or replace the base dragon's lair actions.",
         ],
       ],
+      appearance: [
+        [
+          'A skeletal blue dragon with rotting remains still clinging to the bone, whose breath is now a chilling necrotic blast.',
+        ],
+      ],
+      lore: [
+        [
+          'A dracolich is a dragon that bound its spirit to a gem and animated its own corpse to escape death. This one was a lightning-spitting blue dragon in life, and it continues the plots it pursued then and seeks revenge on those who brought it low. It slowly sickens the land near its lair and draws undead and cultists. Living dragons hate dracoliches as distortions of draconic magic, and a destroyed one can return while its gem survives.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Any'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -1503,6 +1515,16 @@ export default createPublicationMonsters({
           'Variant spellcasting: Under the optional dragon spellcasting rule, the DM chooses 4 spells of 5th level or lower. The dragon can cast each once per day without material components. It uses Charisma, with spell save DC 17 and +9 to hit with spell attacks.',
         ],
       ],
+      appearance: [
+        ['A metallic dragon with glimmering bronze scales, usually near or beneath the sea.'],
+      ],
+      lore: [
+        [
+          'Bronze dragons preserve and share wonders and help others achieve all they can. They prefer to win shorter-lived folk over through conversation but will fight villains who hold others back. They like the sea, make lairs in places of beauty or in communities they want to keep safe, and hoard things they think will be useful someday, including treasure salvaged from the sea. Adults often live near the places they defend and may become patrons of whole cities, advising leaders.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -2010,6 +2032,18 @@ export default createPublicationMonsters({
           'Variant spellcasting: Under the optional dragon spellcasting rule, choose 7 spells of 5th level or lower. The dragon uses Charisma to cast each once per day without material components. Its spell save DC is 21 and its spell attack bonus is +13. The DM chooses the spells.',
         ],
       ],
+      appearance: [
+        [
+          'A powerful metallic dragon, awe-inspiring in form, that often hides as a harmless animal or common person.',
+        ],
+      ],
+      lore: [
+        [
+          'Gold dragons try to make the world better, protecting what is good and bending fate toward a brighter future, and they fight when they must with brilliant fire and weakening magic. They live in grasslands and pristine forests, often near natural wonders or guarding ancient monuments. They spend their hoard on rare lore books, informants and patronage of idealistic adventurers. Adults act subtly, taking animal shapes or personas to pass as common people.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Forest', 'Grassland'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -2560,6 +2594,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Adult Red Dragon'],
       ],
+      appearance: [
+        [
+          'A skeletal red dragon with rotting remains still clinging to the bone, whose breath is now a chilling necrotic blast.',
+        ],
+      ],
+      lore: [
+        [
+          'A dracolich is a dragon that bound its spirit to a gem and animated its own corpse to escape death. This one was a fire-breathing red dragon in life, and it continues the plots it pursued then and seeks revenge on those who brought it low. It slowly sickens the land near its lair and draws undead and cultists. Living dragons hate dracoliches as distortions of draconic magic, and a destroyed one can return while its gem survives.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Any'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -3078,6 +3124,18 @@ export default createPublicationMonsters({
           'Variant spellcasting: Under the optional dragon spellcasting rule, choose 5 spells of 5th level or lower. The dragon uses Charisma to cast each once per day without material components. Its spell save DC is 18 and its spell attack bonus is +10. The DM chooses the spells.',
         ],
       ],
+      appearance: [
+        [
+          'A silver dragon, often seen in disguise as a humanoid among cities and mountain communities.',
+        ],
+      ],
+      lore: [
+        [
+          "Silver dragons work to preserve peace and encourage greatness, living as examples of decency while watching for evil. They live among snowy mountains, or in cosmopolitan societies if drawn there, and ally with artists, historians, knights and humble leaders. Adults like being among many peoples and back ambitious individuals or revivals of universities, festivals and civic institutions rather than steering politics. They collect histories, ancient art and champions' gear, and lair in mountain retreats or cloud islands.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Mountain', 'Urban'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -3565,6 +3623,17 @@ export default createPublicationMonsters({
       page: 123,
       alignment: 'neutral',
       languages: ['Auran.'],
+      appearance: [
+        [
+          'A funnel of whirling air with a vague face, racing over the ground and picking up dust, or flying and attacking from above.',
+        ],
+      ],
+      lore: [
+        [
+          'Air elementals are incarnations of the element of air, bodiless on their home plane and shaped by magic into a physical form. In the 2014 book, one can turn into a screaming cyclone that batters creatures and flings them away. Wild elementals have no desire beyond coursing through their element and no culture, but spells and items can summon them to do tasks.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -3767,6 +3836,18 @@ export default createPublicationMonsters({
           'Variant spellcasting: Under the optional dragon spellcasting rule, the DM chooses 4 spells of level 7 or lower. The dragon can cast each once per day without material components. It uses Charisma, with spell save DC 19 and +11 to hit with spell attacks.',
         ],
       ],
+      appearance: [
+        [
+          'A huge, horned dragon with a withered, skull-like face, its acid breath leaving lands scarred.',
+        ],
+      ],
+      lore: [
+        [
+          'Black dragons delight in suffering and ruin. An ancient one plots the ruin of whole realms, hunting magic to corrupt land, raise undead hordes, bind fiends and copy magical disasters, with the aim of a vast, dead domain where it is the greatest thing left. It lurks in dismal ruins and polluted bogs and hoards tarnished symbols of hope and relics of fallen empires.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4550,6 +4631,16 @@ export default createPublicationMonsters({
           'Variant spellcasting: Under the optional dragon spellcasting rule, the DM chooses 5 spells of 7th level or lower. The dragon can cast each once per day without material components. It uses Charisma, with spell save DC 20 and +12 to hit with spell attacks.',
         ],
       ],
+      appearance: [
+        ['A huge bronze dragon whose glimmering scales have developed a dramatic patina.'],
+      ],
+      lore: [
+        [
+          'Bronze dragons preserve and share wonders and help others reach their potential. Ancient ones try to protect regions, continents or whole planets, seek answers to planar calamities and multiversal perils, and oppose the evil of great chromatic dragons. They tend to make homes near or under the sea.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -5067,6 +5158,14 @@ export default createPublicationMonsters({
           'Variant spellcasting: Under the optional dragon spellcasting rule, choose 9 spells of 8th level or lower. The dragon uses Charisma to cast each once per day without material components. Its spell save DC is 24 and its spell attack bonus is +16. The DM chooses the spells.',
         ],
       ],
+      appearance: [['A huge, majestic gold dragon, usually seen only when stakes are highest.']],
+      lore: [
+        [
+          'Gold dragons try to make the world better and are the most powerful of the metallic dragons. Ancient ones are wise and mysterious, guiding or patronising virtuous groups from afar in secret, and showing their full majesty only when the stakes are at their highest. They like grasslands and pristine forests.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Forest', 'Grassland'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -5844,6 +5943,14 @@ export default createPublicationMonsters({
           'Variant spellcasting: Under the optional dragon spellcasting rule, choose 6 spells of 7th level or lower. The dragon uses Charisma to cast each once per day without material components. Its spell save DC is 21 and its spell attack bonus is +13. The DM chooses the spells.',
         ],
       ],
+      appearance: [['A huge silver dragon who may have guises in several societies.']],
+      lore: [
+        [
+          'Silver dragons work to preserve peace and encourage greatness. Ancient ones pursue world-wide change, defend communities and allies and push them to legendary deeds. Some look to other worlds and planes, making extraplanar alliances or fighting multiplanar threats, and they may keep guises in many societies and build friendships across generations with heroic families or groups.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Mountain', 'Urban'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -6330,6 +6437,15 @@ export default createPublicationMonsters({
       page: 280,
       alignment: 'lawful neutral',
       languages: ['Common', 'Sphinx.'],
+      appearance: [
+        ["A sphinx with a lion's body and a male humanoid's head, outwardly gruff and downcast."],
+      ],
+      lore: [
+        [
+          'An androsphinx often opens conversation with insults or negative remarks, but it has a noble heart and does not like to lie or deceive. It does not give away information easily and chooses its words as carefully as it guards secrets. It tests the courage and valour of supplicants with quests and its terrible roar, which echoes for miles and terrifies and deafens nearby creatures. Those who pass may be rewarded with a feast for heroes.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -7512,6 +7628,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Balor'],
       ],
+      appearance: [
+        [
+          'A huge, ancient demon wielding a flaming whip and a storm-charged longsword, filled with hatred and rage.',
+        ],
+      ],
+      lore: [
+        [
+          'Balors are figures of ancient, terrible evil who rule demonic armies as generals, wanting power and the destruction of any who oppose them. Their battle prowess runs on hatred and rage, and when one dies it falls in a burst of fire that can destroy even sturdy foes. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Abyss)'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -7953,6 +8081,17 @@ export default createPublicationMonsters({
           'Demon Summoning: Once per day as an action, try to summon the creatures allowed for the particular demon. Roll the printed chance. The allies appear within 60 feet and remain until dismissed, killed, the summoner dies, or one minute passes. They cannot summon more allies.',
         ],
         ['Base profiles: Barlgura'],
+      ],
+      appearance: [
+        [
+          'A hulking orangutan-like demon just under eight feet tall with a drooping face, tusks jutting from its jaw and broad shoulders, moving apishly on the ground but climbing fast.',
+        ],
+      ],
+      lore: [
+        [
+          'Barlguras embody the savagery and brutality of the Abyss. They hunt in packs to bring down tougher foes and keep gruesome trophies, which they use to decorate their territory. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'large',
@@ -8829,6 +8968,15 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Blue Slaad'],
       ],
+      appearance: [
+        ['A muscular slaad brute with bone hooks protruding from the backs of its claws.'],
+      ],
+      lore: [
+        [
+          'Blue slaadi are nearly as many as red slaadi and travel with them. Their hooked claws carry chaos phage, a curse that turns victims into red slaadi, or green slaadi if the victim was a spellcaster. They instinctively know the signs of the curse and avoid killing those who carry it. This is the control gem variant from the 2014 book, where a gem implanted in the slaad lets a master command it.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -9270,6 +9418,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Bone Devil'],
       ],
+      appearance: [
+        [
+          "A humanoid husk of tight dried skin over a skeletal frame, with a skull-like head and a scorpion's tail, wreathed in the smell of decay.",
+        ],
+      ],
+      lore: [
+        [
+          'Bone devils are the cruel taskmasters of the Nine Hells, driven by hate, lust and envy. They set weaker devils to work and enjoy seeing defiant fiends demoted, while longing for promotion themselves and resenting their superiors. They fight with claws and a hooked bone polearm used to subdue foes. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Nine Hells)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -10804,6 +10964,17 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Chasme'],
       ],
+      appearance: [
+        [
+          'A loathsome mix of humanoid and fly on four spindly legs that grip walls and ceilings, announced by a droning sound.',
+        ],
+      ],
+      lore: [
+        [
+          'Chasmes are lowly demons who serve as interrogators and taskmasters for more powerful masters. The drone leaves foes lethargic and open to attack. A chasme enjoys dealing out torture, and has a knack for spotting demons that deserted their lords, whom it can then drag back and torment without fear of reprisal. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -12306,6 +12477,17 @@ export default createPublicationMonsters({
           'Variant: Disguises. The genie can cast Disguise Self innately at will to pass for a similarly shaped creature. For a mightier genie, choose whether it can also cast True Polymorph and choose 1 to 3 uses per day. A genie with this spell normally changes only its own shape. A rare genie can also target other creatures and objects. The DM can lengthen the duration of either spell for this genie.',
         ],
       ],
+      appearance: [
+        [
+          'A greedy genie in jewellery of precious gems and rare metals, its lower body a column of swirling sand when it flies.',
+        ],
+      ],
+      lore: [
+        [
+          "Dao are greedy, malicious genies of the Elemental Plane of Earth who must be the envy of other dao. They live in twisting tunnels and ore-veined caverns that they keep digging and reshaping, care nothing for others' poverty, and may even grind gems and gold over food as spice. In this variant the genie can disguise its appearance.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -12454,6 +12636,17 @@ export default createPublicationMonsters({
         [
           "Variant: Wishes are a power of exceptionally potent genies. Choose a limit of one to three wishes for this genie. The requester must be a non-genie creature within 60 ft. and state the desired effect to the genie. The genie can cast Wish on that creature's behalf. Once it grants its limit, choose how long before it can grant wishes again. A year is typical. The same genie can spend its entire allotment on a particular creature only once in that creature's lifetime. A genie may exploit loose wording to its own benefit.",
         ],
+      ],
+      appearance: [
+        [
+          'A greedy genie in jewellery of precious gems and rare metals, its lower body a column of swirling sand when it flies.',
+        ],
+      ],
+      lore: [
+        [
+          "Dao are greedy, malicious genies of the Elemental Plane of Earth who must be the envy of other dao. They live in twisting tunnels and ore-veined caverns that they keep digging and reshaping, and care nothing for others' poverty. In this variant the genie can grant wishes.",
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'large',
@@ -13890,6 +14083,15 @@ export default createPublicationMonsters({
           'Variant: Disguises. The genie can cast Disguise Self innately at will to pass for a similarly shaped creature. For a mightier genie, choose whether it can also cast True Polymorph and choose 1 to 3 uses per day. A genie with this spell normally changes only its own shape. A rare genie can also target other creatures and objects. The DM can lengthen the duration of either spell for this genie.',
         ],
       ],
+      appearance: [
+        ['A tall, well-muscled humanoid with blue skin and dark eyes, in airy shimmering silks.'],
+      ],
+      lore: [
+        [
+          'Djinn are proud, sensuous genies of the Elemental Plane of Air who rule floating islands of cloud with pavilions and gardens. They enjoy fruit, wine, perfume and music, are mischievous, and are generally friendly to mortals. They treat efreet and marids coolly and despise dao. In this variant the genie can disguise its appearance.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -14009,6 +14211,15 @@ export default createPublicationMonsters({
         [
           "Variant: Wishes are a power of exceptionally potent genies. Choose a limit of one to three wishes for this genie. The requester must be a non-genie creature within 60 ft. and state the desired effect to the genie. The genie can cast Wish on that creature's behalf. Once it grants its limit, choose how long before it can grant wishes again. A year is typical. The same genie can spend its entire allotment on a particular creature only once in that creature's lifetime. A genie may exploit loose wording to its own benefit.",
         ],
+      ],
+      appearance: [
+        ['A tall, well-muscled humanoid with blue skin and dark eyes, in airy shimmering silks.'],
+      ],
+      lore: [
+        [
+          'Djinn are proud, sensuous genies of the Elemental Plane of Air who rule floating islands of cloud with pavilions and gardens. They enjoy fruit, wine, perfume and music, are mischievous, and are generally friendly to mortals. In this variant the genie can grant wishes.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'large',
@@ -16005,6 +16216,14 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Dust Mephit'],
       ],
+      appearance: [['A small being of earth and air, a whirl of fine dust.']],
+      lore: [
+        [
+          'Dust mephits are drawn to forsaken places and catacombs, and they find death morbidly funny. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Elemental)'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -16380,6 +16599,17 @@ export default createPublicationMonsters({
           "Variant: The Genie Powers sidebar adds this option to the efreeti's regular abilities. It gives no separate challenge rating or experience award.",
         ],
       ],
+      appearance: [
+        [
+          'A hulking genie with magma-red or coal-black skin, draped in silk and bedecked with brass and gold set with jewels; its lower body becomes smoke and embers in flight.',
+        ],
+      ],
+      lore: [
+        [
+          'Efreet are masters of flame from the Elemental Plane of Fire, immune to it and able to make it at will. They are deceptive, cunning and ruthless, resent servitude and pursue vengeance relentlessly against those who wrong them, while seeing their own race as fair and orderly. In this variant the genie can disguise its appearance.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -16493,6 +16723,17 @@ export default createPublicationMonsters({
         [
           "Variant: The Genie Powers sidebar adds this option to the efreeti's regular abilities. It gives no separate challenge rating or experience award.",
         ],
+      ],
+      appearance: [
+        [
+          'A hulking genie with magma-red or coal-black skin, draped in silk and bedecked with brass and gold set with jewels; its lower body becomes smoke and embers in flight.',
+        ],
+      ],
+      lore: [
+        [
+          'Efreet are masters of flame from the Elemental Plane of Fire, immune to it and able to make it at will. They are deceptive, cunning and ruthless, resent servitude and pursue vengeance relentlessly against those who wrong them. In this variant the genie can grant wishes.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'large',
@@ -17086,6 +17327,16 @@ export default createPublicationMonsters({
           'The erinyes can release the creature by speaking a second command word as a bonus action. A Restrained target can spend an action and pass a DC 15 Strength or Dexterity check of its choice to escape.',
         ],
       ],
+      appearance: [
+        ['A statuesque winged devil in horned helm and stylised armour, carrying a coiled rope.'],
+      ],
+      lore: [
+        [
+          'Erinyes are the most beautiful devils and fierce, disciplined warriors who swoop down to punish those who wronged their masters or defied Asmodeus. A few use ropes of entanglement to catch powerful foes. Legend says the first were fallen angels, and they take advantage of being mistaken for celestials.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Nine Hells)'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -17235,6 +17486,16 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Erinyes'],
       ],
+      appearance: [
+        ['A statuesque winged devil in horned helm and stylised armour, carrying a coiled rope.'],
+      ],
+      lore: [
+        [
+          'Erinyes are the most beautiful devils and fierce, disciplined warriors who swoop down to punish those who wronged their masters or defied Asmodeus. A few use ropes of entanglement to catch powerful foes. Legend says the first were fallen angels, and they take advantage of being mistaken for celestials.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Nine Hells)'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -17379,6 +17640,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Erinyes'],
       ],
+      appearance: [
+        [
+          'A statuesque, male or female humanoid with large feathery wings, usually in stylised armour and a horned helm, with a fine sword and bow.',
+        ],
+      ],
+      lore: [
+        [
+          'Erinyes are the most beautiful of the devils and fierce, disciplined warriors who swoop down to punish those who wronged their masters or defied Asmodeus. Legend says the first were angels who fell through temptation or misdeed. They readily exploit being mistaken for celestials. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Nine Hells)'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -24656,6 +24929,13 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Green Slaad'],
       ],
+      appearance: [["A slaad that can look like a humanoid, usually its host's form."]],
+      lore: [
+        [
+          'Green slaadi come from red or blue slaad infection of spellcasters of 3rd level or higher. They are more intelligent than their kin, can cast spells innately and change shape into a humanoid. Years or decades in, one may unlock the means to turn itself permanently into a gray slaad. They often steer their kin toward portals where gray slaadi have found ripe humanoid communities. This is the control gem variant.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -25984,6 +26264,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Hezrou'],
       ],
+      appearance: [
+        [
+          'A demon whose foul stench presses forward with it, a powerful foot soldier of the Abyss.',
+        ],
+      ],
+      lore: [
+        [
+          "Hezrous are foot soldiers in the demonic hordes. They are physically powerful but weak-minded, and stronger demons can easily trick them into sacrificing themselves. As they press into an enemy's centre, their stench can sicken even tough opponents. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Abyss)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -26826,6 +27118,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Horned Devil'],
       ],
+      appearance: [
+        [
+          'A winged devil as tall as an ogre, sheathed in iron-tough scales with huge sweeping horns.',
+        ],
+      ],
+      lore: [
+        [
+          'Horned devils are the flying infantry of the infernal legions and follow orders to the letter. They are lazy to the point of belligerence, reluctant to risk themselves, and hate and fear anything stronger. Provoked, their fury is terrifying. They drop from the sky and strike with forks and lashing tails. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Nine Hells)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -27697,6 +28001,14 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Ice Mephit'],
       ],
+      appearance: [['A small being of frigid air and frozen water, aloof and cold.']],
+      lore: [
+        [
+          "Ice mephits are aloof and cold and are the most pitiless and cruel of the mephits. They delight in freezing things and dropping ice into people's clothes. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Elemental)'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -30555,6 +30867,15 @@ export default createPublicationMonsters({
           "Variant: Familiar: The sidebar says a spellcaster who can cast Find Familiar is likely to have a familiar. Choose a form listed in the spell or another Tiny monster, such as a Crawling Claw, Imp, Pseudodragon, or Quasit. For this encounter, the DM chooses the form and can place the familiar with the caster at the start. Use the chosen creature's profile for its statistics. The sidebar leaves the bond mechanics open. The DM can use Find Familiar or the creature's own independent familiar trait, if it has one. The sidebar leaves the caster's prepared spells and challenge rating as printed. Decide separately whether it can cast Find Familiar during play.",
         ],
       ],
+      appearance: [
+        ['A spellcaster who has bonded a familiar, usually a small creature at their side.'],
+      ],
+      lore: [
+        [
+          'Mages spend their lives studying and practising magic. In the 2014 book, good ones advise nobles and others in power while evil ones live in isolated places to carry out unspeakable experiments in peace. In 2024 they are accomplished spellcasters shaped by magic who may defend or dominate others, or work on research and mystical secrets.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -30750,6 +31071,14 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Magma Mephit'],
       ],
+      appearance: [['A small, dull red being that perspires beads of molten lava.']],
+      lore: [
+        [
+          "Magma mephits are slow to grasp the meaning of others' words and actions. They love melting things and hate magmin, attacking them on sight. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Elemental)'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -31090,6 +31419,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Marilith'],
       ],
+      appearance: [
+        [
+          "A demon with a great serpent's lower body and the upper body of a six-armed woman, a blade in each hand.",
+        ],
+      ],
+      lore: [
+        [
+          'Mariliths have keen minds and a refined sense of tactics, and can lead and unite other demons. They are often captains at the head of a demonic horde and rush into battle when given the chance, a devastating foe that few can match. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Abyss)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -31693,6 +32034,17 @@ export default createPublicationMonsters({
           'Yugoloth Summoning: Once per day, roll the listed chance to summon the specified allies. They appear within 60 ft. and cannot summon in turn. They generally act independently except when summoned by an ultroloth. A summoned creature disappears after 1 minute, if it or its summoner dies, or if the summoner dismisses it as a bonus action.',
         ],
         ['Base profiles: Mezzoloth'],
+      ],
+      appearance: [
+        [
+          'A human-sized insect creature in dense chitinous plates, its wide-set eyes glowing red as it advances, usually with a trident in two of its four arms.',
+        ],
+      ],
+      lore: [
+        [
+          'Mezzoloths make up most of the yugoloth population and serve as foot soldiers in yugoloth armies. They are driven by violence and reward and are easily hired by powerful beings who promise either. When surrounded, one exhales toxic fumes that can kill groups of creatures. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -32553,6 +32905,13 @@ export default createPublicationMonsters({
           'Variant: Use the statistics and actions for this rank. A rogue loses Axiomatic Mind and may have any alignment except lawful neutral.',
         ],
       ],
+      appearance: [['A modron that can do one simple task at a time and has gone rogue.']],
+      lore: [
+        [
+          'Modrons are beings of absolute law from Mechanus with a hive-like hierarchy under Primus and no sense of self beyond their duties. A monodrone does one simple task at a time and can relay one message of up to forty-eight words. A rogue modron is a defective unit damaged by decay or chaotic forces, breaking laws, disobeying orders and sometimes turning violent.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -32713,6 +33072,13 @@ export default createPublicationMonsters({
           'Mephit Summoning: Once per day, roll 25%. On success summon 1d4 mephits of the same kind. They appear within 60 feet, cannot summon more allies, and remain for one minute at most.',
         ],
         ['Base profiles: Mud Mephit'],
+      ],
+      appearance: [['A slow, unctuous creature of earth and water, dripping with muck.']],
+      lore: [
+        [
+          'Mud mephits drone complaints at anyone who will listen and beg endlessly for attention and treasure. They ruin objects and foul food at every chance. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'small',
@@ -33631,6 +33997,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Nalfeshnee'],
       ],
+      appearance: [
+        [
+          "A corpulent mockery of ape and boar twice a human's height, with feathered wings that look too small for its bloated body.",
+        ],
+      ],
+      lore: [
+        [
+          'Nalfeshnees hide a remarkable intelligence and cunning behind brutish looks. In battle they use their wings to rise above the front ranks and reach vulnerable foes, telepathically bellow orders to lesser demons from the thick of it, and inspire dread that scatters enemies. They feed on hatred and despair but crave humanoid flesh above all. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Abyss)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -35354,6 +35732,17 @@ export default createPublicationMonsters({
           'Variant: Use the statistics and actions for this rank. A rogue loses Axiomatic Mind and may have any alignment except lawful neutral.',
         ],
       ],
+      appearance: [
+        [
+          "A modron that oversees Mechanus's workers and can improvise to new situations, now rogue.",
+        ],
+      ],
+      lore: [
+        [
+          'Modrons are beings of absolute law from Mechanus with a hive-like hierarchy and no sense of self beyond their duties. Pentadrones oversee the worker population and can improvise when something new comes up. A rogue modron is a defective unit damaged by decay or chaotic forces, breaking laws, disobeying orders and sometimes turning violent.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -35849,6 +36238,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Pit Fiend'],
       ],
+      appearance: [
+        [
+          'A hulking devil with a whip-like tail and huge wings wrapped around itself like a cloak, armoured in scales.',
+        ],
+      ],
+      lore: [
+        [
+          "Pit fiends are the undisputed lords of other devils, attending the archdukes and archduchesses and carrying out their wishes. They are the Nine Hells' generals, leading its legions, with an inflated sense of superiority that makes them a grotesque aristocracy of manipulative tyrants who scheme against anything in their way. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.",
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Nine Hells)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -37003,6 +37404,15 @@ export default createPublicationMonsters({
           'Variant: Use the statistics and actions for this rank. A rogue loses Axiomatic Mind and may have any alignment except lawful neutral.',
         ],
       ],
+      appearance: [
+        ['A modron that serves as artillery and field officer in modron armies, now rogue.'],
+      ],
+      lore: [
+        [
+          'Modrons are beings of absolute law from Mechanus with a hive-like hierarchy and no sense of self beyond their duties. Quadrones are astute combatants who serve as artillery and field officers in modron regiments. A rogue modron is a defective unit damaged by decay or chaotic forces, breaking laws, disobeying orders and sometimes turning violent.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -37697,6 +38107,13 @@ export default createPublicationMonsters({
           'Wish can recover a gem, Imprisonment can transfer it on a failed save, and Greater Restoration destroys it harmlessly. A trained healer can spend 1 minute attempting extraction from an Incapacitated slaad with a DC 20 Wisdom (Medicine) check. On failure the slaad takes 4d10 psychic damage.',
         ],
         ['Base profiles: Red Slaad'],
+      ],
+      appearance: [['A hulking slaad that implants eggs with a gland under one claw.']],
+      lore: [
+        [
+          'Red slaadi gather in vast throngs in Limbo, wrestling and croak-singing as they take apart and rebuild islands of drifting planar matter. They play with, telepathically talk to or devour other creatures, changing their minds from moment to moment. Their eggs grow into tadpoles that eat their way out of the host and become blue slaadi, or green slaadi if the host was a spellcaster of 3rd level or higher. They avoid harming those carrying slaad eggs or curses. This is the control gem variant.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'large',
@@ -39041,6 +39458,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Satyr'],
       ],
+      appearance: [
+        [
+          "A stout humanoid with a goat's furry lower body and cloven hooves, with horns from small nubs to large curling rams' horns, and usually facial hair.",
+        ],
+      ],
+      lore: [
+        [
+          'Satyrs are raucous fey who frolic in wild forests, driven equally by curiosity and hedonism. They crave strong drink, fragrant spice and dizzying dances, and go to great lengths to satisfy their appetites, such as kidnapping a fine minstrel or slipping into a garden or palace. They join any festival and like physical contests, evicting party poopers and defending Fey realms.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Forest', 'Planar (Feywild)'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -39995,6 +40424,18 @@ export default createPublicationMonsters({
           'Encounter notes: The living root-stem can feign death by collapsing its outer mound. A surviving root-stem may root itself and slowly regrow at an unspecified rate.',
         ],
       ],
+      appearance: [
+        [
+          'A rotting heap of animated vegetation, half again as tall as a human, tapering to a faceless head.',
+        ],
+      ],
+      lore: [
+        [
+          'Shambling mounds consume organic matter as they move through swamps, marshes and rainforests, ensnaring creatures that come in reach and burying them in their bodies as compost. Their rarity and slow pace alone stop them overwhelming whole ecosystems. Where one lives, an unsettling quiet hangs over the place. They can arise from magical lightning, nature defending itself or druidic curses.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Forest', 'Swamp'],
       stats: {
         size: 'large',
         type: 'plant',
@@ -40352,6 +40793,13 @@ export default createPublicationMonsters({
           'Mephit Summoning: Once per day, roll 25%. On success summon 1d4 mephits of the same kind. They appear within 60 feet, cannot summon more allies, and remain for one minute at most.',
         ],
         ['Base profiles: Smoke Mephit'],
+      ],
+      appearance: [['A crude creature of fiery cinders and hot air that billows smoke.']],
+      lore: [
+        [
+          'Smoke mephits are lazy and crude, rarely tell the truth and love to mock and mislead creatures, mocking them for being gullible. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'small',
@@ -41276,6 +41724,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Steam Mephit'],
       ],
+      appearance: [
+        [
+          'A creature of fire and water that hisses tendrils of steam and leaves trails of hot water behind it.',
+        ],
+      ],
+      lore: [
+        [
+          'Steam mephits are bossy, hypersensitive and arrogant, the self-appointed overlords of mephits. They trick creatures into favours, then renege on the promised reward. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Elemental)'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -42971,6 +43431,17 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Thri-kreen'],
       ],
+      appearance: [
+        [
+          'A mantis-like humanoid with a carapace in the colours of its land and mandibles that clack and antennae that wave.',
+        ],
+      ],
+      lore: [
+        [
+          'Thri-kreen wander deserts and savannas, avoiding other races. They speak without words, clacking their mandibles and waving antennae, which other creatures find hard to read or copy. With outsiders, they draw pictures in sand or with twigs. They feel the full range of emotion but are less given to outbursts than humans, and psionic ones often show a wider range. Their carapace colour matches their land, and they often use telepathy to share detail silently. This variant has psionic powers.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -43102,6 +43573,17 @@ export default createPublicationMonsters({
         [
           'Variant: This profile uses both optional packages. The sidebar gives no separate challenge rating. This profile keeps CR 1.',
         ],
+      ],
+      appearance: [
+        [
+          'A mantis-like humanoid with a carapace in the colours of its land and mandibles that clack and antennae that wave.',
+        ],
+      ],
+      lore: [
+        [
+          'Thri-kreen wander deserts and savannas, avoiding other races. They speak without words, clacking their mandibles and waving antennae, which other creatures find hard to read or copy. With outsiders, they draw pictures in sand or with twigs. They feel the full range of emotion but are less given to outbursts than humans, and psionic ones often show a wider range. Their carapace colour matches their land, and they often use telepathy to share detail silently. This variant has both weapons and psionic powers.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -43280,6 +43762,17 @@ export default createPublicationMonsters({
           'Thri-kreen Weapons: With gythka and chatkcha, it can make two attacks of the same weapon type. Gythka uses +3 and 1d8 + 1 slashing at 5 feet. Chatkcha uses +4 and 1d6 + 2 slashing at 30/120 feet.',
         ],
         ['Base profiles: Thri-kreen'],
+      ],
+      appearance: [
+        [
+          'A mantis-like humanoid with a carapace in the colours of its land and mandibles that clack and antennae that wave.',
+        ],
+      ],
+      lore: [
+        [
+          'Thri-kreen wander deserts and savannas, avoiding other races. They speak without words, clacking their mandibles and waving antennae, which other creatures find hard to read or copy. With outsiders, they draw pictures in sand or with twigs. They feel the full range of emotion but are less given to outbursts than humans, and psionic ones often show a wider range. Their carapace colour matches their land, and they often use telepathy to share detail silently. This variant uses weapons.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -43941,6 +44434,13 @@ export default createPublicationMonsters({
         [
           'Variant: The Rogue Modron variant removes Axiomatic Mind and changes the alignment to any except lawful neutral. Use the tridrone statistics for all other rules.',
         ],
+      ],
+      appearance: [['A pyramid-shaped modron that leads lesser modrons in battle, now rogue.']],
+      lore: [
+        [
+          'Modrons are beings of absolute law from Mechanus with a hive-like hierarchy and no sense of self beyond their duties. Tridrones, shaped like inverted pyramids, lead lesser modrons in battle. A rogue modron is a defective unit damaged by decay or chaotic forces, breaking laws, disobeying orders and sometimes turning violent.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -45359,6 +45859,13 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Vampire'],
       ],
+      appearance: [['A pale undead who casts no reflection or shadow, keeping to the dark.']],
+      lore: [
+        [
+          'Vampires hunger for the life they lost and drink the blood of the living. They hate sunlight, which burns them, and cast no shadow or reflection, so one moving unnoticed among the living keeps to the dark and away from mirrors. Their emotions wither and twist: love becomes hungry obsession and friendship bitter jealousy, and a vampire fixates on a physical symbol of what it craves. This one is a spellcaster.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -45600,6 +46107,13 @@ export default createPublicationMonsters({
         ],
         ['Variant rules: Wears plate. Its added sword Multiattack is two greatsword attacks.'],
         ['Base profiles: Vampire'],
+      ],
+      appearance: [['A pale undead who casts no reflection or shadow, keeping to the dark.']],
+      lore: [
+        [
+          'Vampires hunger for the life they lost and drink the blood of the living. They hate sunlight, which burns them, and cast no shadow or reflection, so one moving unnoticed among the living keeps to the dark and away from mirrors. Their emotions wither and twist: love becomes hungry obsession and friendship bitter jealousy, and a vampire fixates on a physical symbol of what it craves. This one is a fighter.',
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',
@@ -46172,6 +46686,18 @@ export default createPublicationMonsters({
         ],
         ['Base profiles: Vrock'],
       ],
+      appearance: [
+        [
+          'A giant hybrid of humanoid and vulture with a gnarled body and broad wings that stink of offal.',
+        ],
+      ],
+      lore: [
+        [
+          'Vrocks are dull-witted, capricious fiends that live to cause pain and carnage. They eat humanoid flesh when they can, stunning prey with a shriek before swooping in with beak and claw, and release toxic spores from their wings. They covet pretty things and turn on each other over cheap jewellery, but are hard to bribe, as they can just take what they want. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
+      habitats: ['Planar (Abyss)'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -48571,6 +49097,17 @@ export default createPublicationMonsters({
           'Demon Summoning: Once per day as an action, try to summon the creatures allowed for the particular demon. Roll the printed chance. The allies appear within 60 feet and remain until dismissed, killed, the summoner dies, or one minute passes. They cannot summon more allies.',
         ],
         ['Base profiles: Yochlol'],
+      ],
+      appearance: [
+        [
+          'A pillar of yellow slime with one malevolent eye, or a female drow or monstrous spider in disguise.',
+        ],
+      ],
+      lore: [
+        [
+          "Yochlols are Lolth's Handmaidens, extensions of the Spider Queen's will that act as spies, taskmasters and agents. They attend her in the Demonweb Pits and she sometimes sends them to guard her temples and help her most devout priestesses. They form only in her realm and serve no demon lord but her. This is the summoner variant from the 2014 book, which can call others of its kind to the fight.",
+        ],
+        ['Sources: ', 'Monster Manual'],
       ],
       stats: {
         size: 'medium',

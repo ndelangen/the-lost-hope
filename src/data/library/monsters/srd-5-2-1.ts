@@ -10898,6 +10898,13 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [['A seasoned guard with ample professional experience.']],
+      lore: [
+        [
+          'Guards protect people, places and things for pay or from duty, some vigilant and some distracted, some raising the alarm and standing firm and others fleeing if pay does not match the danger. A captain has ample experience, such as a bodyguard, protector of magic treasures or veteran watch member.',
+        ],
+        ['Sources: ', 'System Reference Document 5.2.1'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -14859,6 +14866,13 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common plus one other language'],
+      appearance: [["A competent seafarer in worn sailing gear, armed and used to a ship's deck."]],
+      lore: [
+        [
+          "Pirates are competent warriors and accomplished seafarers who can sail and maintain a ship. Some follow their captains loyally, while others put greed, superstition or self-preservation ahead of duty. Crews fly distinctive flags to spread their reputation and terrify opponents, and they know the sea's secrets and how to avoid aquatic threats.",
+        ],
+        ['Sources: ', 'System Reference Document 5.2.1'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -18960,6 +18974,17 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A writhing mass of snakes moving as one, with an unnatural aggressiveness that druids cannot charm away.',
+        ],
+      ],
+      lore: [
+        [
+          'The 2014 book says its swarms are not ordinary: they form from a sinister or unwholesome influence, and a yuan-ti abomination might have snakes slithering in its wake. Even druids cannot charm them, and their aggression is almost unnatural.',
+        ],
+        ['Sources: ', 'System Reference Document 5.2.1'],
+      ],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -19321,6 +19346,17 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [
+        [
+          'A brawny person using strength to intimidate, perhaps a criminal, rowdy drinker or seasoned labourer.',
+        ],
+      ],
+      lore: [
+        [
+          "Toughs are bodyguards, belligerents and labourers who rely on physical strength. They may work in groups at a leader's direction, or bully weaker people alone into doing what they say.",
+        ],
+        ['Sources: ', 'System Reference Document 5.2.1'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -19376,6 +19412,13 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common plus one other language'],
+      appearance: [['A brawler with a hard reputation who commands others to follow.']],
+      lore: [
+        [
+          'Toughs are bodyguards, belligerents and labourers who rely on physical strength. A boss uses street smarts, brawling skill and reputation to make others follow its demands.',
+        ],
+        ['Sources: ', 'System Reference Document 5.2.1'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -20402,6 +20445,13 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common'],
+      appearance: [['A trainee or rank-and-file soldier in basic kit.']],
+      lore: [
+        [
+          'Warriors are professionals who earn a living by combat and often work in armies or teams. Infantry are trainees or rank and file, good at dealing with common non-magical threats.',
+        ],
+        ['Sources: ', 'System Reference Document 5.2.1'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

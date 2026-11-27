@@ -132,6 +132,18 @@ export default createPublicationMonsters({
       tags: ['half-dragon'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          "A Cult of the Dragon guard at Valjevo Castle's stockade; one guard's gauntlet comes off to reveal blue scales on his hand.",
+        ],
+      ],
+      lore: [
+        [
+          'Cult prison guards watch the prisoners held at Valjevo Castle, under the cambion Surasiel, who leads the prisoner operation. They bring prisoners inside in groups when told it is time. A character who speaks Draconic can overhear them talking.',
+        ],
+        ['Sources: ', 'DDEX1-10 Tyranny in Phlan, PDF pages 19-20'],
+      ],
+      habitats: ['Castle'],
       stats: {
         size: 'medium',
         type: 'humanoid',

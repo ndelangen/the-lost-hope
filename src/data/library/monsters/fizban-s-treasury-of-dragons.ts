@@ -24,6 +24,18 @@ export default createPublicationMonsters({
           'Optional dragon customization: Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon with rich purple, crystal-like scales that refract light into an inner glow, with crystalline horns hovering behind its head.',
+        ],
+      ],
+      lore: [
+        [
+          'Amethyst dragons are the mightiest gem dragons, using psionics to study and bend the principles of the multiverse, including gravity, so they fly without relying on their wings alone. They are fascinated by other worlds and the pull of the Outer Planes, and give counsel to those wise enough to take it. They loathe Far Realm corruption, yet are fond of flumphs. Their hoards focus on planar and cosmic knowledge and items that allow travel between planes, and their lairs are caves by quiet pools, often with an underwater entrance.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Caves by lakes'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -278,6 +290,18 @@ export default createPublicationMonsters({
         ],
         ['The spellcasting is printed under the label (Psionics).'],
       ],
+      appearance: [
+        [
+          'A dragon with snow-white to near-transparent scales that glow with starlight, with spines and horns hovering close to its back and head and shifting with its mood.',
+        ],
+      ],
+      lore: [
+        [
+          'Crystal dragons are psionically tied to the Positive Plane and are among the friendliest dragons, nurturing and optimistic, preferring cold, desolate regions and sometimes adopting abandoned eggs or hatchlings. Many study the stars and read omens in them, and they eagerly look at the futures of peaceful visitors. Their hoards favour diamonds, light-refracting trinkets, star charts and divination and healing magic, and their lairs are open-roofed ice castles with burrowed tunnels and secret passages.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Cold regions'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -519,6 +543,18 @@ export default createPublicationMonsters({
           'Optional dragon customization: Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.',
         ],
       ],
+      appearance: [
+        [
+          'A serpentine dragon whose skin is pitted with fungal growth, differing from every other deep dragon; it may pose as a snake or dragonborn.',
+        ],
+      ],
+      lore: [
+        [
+          "Deep dragons slither through the wet, lightless Underdark and covet treasure and lore, and fungi flourish around them. Adults fight with great strength, ambushes or fungal poison, and some raid the surface for treasure and knowledge. They can take animal or humanoid form, often posing as snakes or dragonborn, but lack the metallic dragons' flexible shapeshifting. Their breath carries terror-inducing spores.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -762,6 +798,17 @@ export default createPublicationMonsters({
           'Optional dragon customization: Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.',
         ],
         ['The spellcasting is printed under the label (Psionics).'],
+      ],
+      appearance: [
+        [
+          'A dragon whose green scales shimmer and ripple, becoming translucent with age, with horns and spines hovering above its body and moving with its mood.',
+        ],
+      ],
+      lore: [
+        [
+          'Emerald dragons are the shyest and most curious gem dragons, cunning and manipulative, using psionics to cloak themselves and weave illusions while they watch settlements from afar, sometimes taking a local guise. They take a strong interest in magical phenomena and help sapphire dragons track Far Realm incursions.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
       ],
       stats: {
         size: 'huge',
@@ -1031,6 +1078,18 @@ export default createPublicationMonsters({
           'Optional dragon customization: Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.',
         ],
       ],
+      appearance: [
+        [
+          'A graceful dragon with opalescent scales, emerald-green fur along chin, chest, back and tail, and two horns, one arcing from the skull and one on the nose, together like a crescent moon.',
+        ],
+      ],
+      lore: [
+        [
+          'Moonstone dragons are playful, impetuous Feywild dragons who tend to mature into wise teachers and storytellers, and even the worst are gentle and curious. They can project into dreams to inspire artists, thinkers and adventurers and sometimes ask for help. They like silver, platinum and mithral and cherish things like songs or a lock of hair. They favour moonlit places for lairs, often keep several linked by portals, and move between the Feywild, Material Plane and Ethereal Plane.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -1272,6 +1331,18 @@ export default createPublicationMonsters({
           'Optional dragon customization: Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon whose scales and wing membranes range from sky blue to deep sapphire, glittering, with tail barbs and horn tips floating as separate pieces held by psychic energy.',
+        ],
+      ],
+      lore: [
+        [
+          'Sapphire dragons are militant, territorial and warlike, planning ambushes and moving underground, and often assessing intruders before striking. They watch for Far Realm influence, often working with emerald dragons, and may ally with rock or deep gnomes to guard their territory. They prize weapons, armour and military records, and their lairs are huge caverns and tunnel systems.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Underdark', 'Caverns'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -1532,6 +1603,18 @@ export default createPublicationMonsters({
           'Optional dragon customization: Fizban’s p. 34 permits optional languages, skill or tool proficiencies, and tailored traits. Use the stat block’s listed traits and actions as the default.',
         ],
       ],
+      appearance: [
+        [
+          'A wedge-shaped dragon, broader at the haunches, with bright yellow to amber faceted translucent scales and gem-like spines hovering along its back.',
+        ],
+      ],
+      lore: [
+        [
+          'Topaz dragons embody decay and see destruction as the clearing of ground for new growth, turning crumbling structures and diseased plants to dust. They are morbid and grumpy, dislike company, and hate water despite living on coasts and in brackish marshes and loving giant squid. They often clash with bronze dragons and with nature-minded druids. They prize knowledge of creation and destruction and are fascinated by undead and negative-energy magic.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Coastal', 'Marsh'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -1787,6 +1870,16 @@ export default createPublicationMonsters({
         ],
         ['The Spellcasting section is printed as "Spellcasting (Psionics)".'],
       ],
+      appearance: [
+        ['A young dragon with dull, opaque purple scales that will grow vibrant and translucent.'],
+      ],
+      lore: [
+        [
+          'Amethyst dragons hatch with dull opaque purple scales and brighten over time. Amethyst dragons are the mightiest gem dragons, using psionics to study and bend the principles of the multiverse, including gravity, so they fly without relying on their wings alone. They are fascinated by other worlds and the pull of the Outer Planes, and give counsel to those wise enough to take it. They loathe Far Realm corruption, yet are fond of flumphs. Their hoards focus on planar and cosmic knowledge and items that allow travel between planes, and their lairs are caves by quiet pools, often with an underwater entrance.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Caves by lakes'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -1894,6 +1987,18 @@ export default createPublicationMonsters({
         ],
         ['The Spellcasting section is printed as "Spellcasting (Psionics)".'],
       ],
+      appearance: [
+        [
+          'A dragon with rich purple, crystal-like scales that refract light into an inner glow, with crystalline horns hovering behind its head. As an old dragon its eyes have lost their pupils and glow white or pale lavender.',
+        ],
+      ],
+      lore: [
+        [
+          'Amethyst dragons are the mightiest gem dragons, using psionics to study and bend the principles of the multiverse, including gravity, so they fly without relying on their wings alone. They are fascinated by other worlds and the pull of the Outer Planes, and give counsel to those wise enough to take it. They loathe Far Realm corruption, yet are fond of flumphs. Their hoards focus on planar and cosmic knowledge and items that allow travel between planes, and their lairs are caves by quiet pools, often with an underwater entrance.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Caves by lakes'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -2161,6 +2266,18 @@ export default createPublicationMonsters({
         ],
         ['The Spellcasting section is printed as "Spellcasting (Psionics)".'],
       ],
+      appearance: [
+        [
+          'A dragon with rich purple, crystal-like scales that refract light into an inner glow, with crystalline horns hovering behind its head. As an ancient dragon its eyes have lost their pupils and glow white or pale lavender.',
+        ],
+      ],
+      lore: [
+        [
+          'Amethyst dragons are the mightiest gem dragons, using psionics to study and bend the principles of the multiverse, including gravity, so they fly without relying on their wings alone. They are fascinated by other worlds and the pull of the Outer Planes, and give counsel to those wise enough to take it. They loathe Far Realm corruption, yet are fond of flumphs. Their hoards focus on planar and cosmic knowledge and items that allow travel between planes, and their lairs are caves by quiet pools, often with an underwater entrance.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Caves by lakes'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -2416,6 +2533,18 @@ export default createPublicationMonsters({
           "Optional dragon customization: Adjust languages, skills or tool proficiencies to suit the individual dragon. Double selected skill proficiency bonuses where appropriate.\nSpellcasting. The Monster Manual's optional innate casting rule grants a number of spells equal to the dragon's Charisma modifier (minimum one). Each is usable once per day without material components. A spell's level cannot exceed one-third of the dragon's challenge rating rounded down. Use Charisma for spell save DC and spell attack rolls. Consider increasing CR for stronger spells that deal damage or impose conditions.\nOther traits. Consider giving a younger dragon the Change Shape action, granting Flyby or Mimicry, or binding the dragon's essence to an object so it can return after destruction. You can upgrade blindsight to truesight or grant a burrower tremorsense or Tunneler. One example of damage absorption lets a fire-immune dragon recover HP from fire.",
         ],
       ],
+      appearance: [
+        [
+          'A dragon with snow-white to near-transparent scales that glow with starlight, with spines and horns hovering close to its back and head and shifting with its mood. The oldest are perfectly clear and bend light, sometimes hard to see.',
+        ],
+      ],
+      lore: [
+        [
+          'Crystal dragons are psionically tied to the Positive Plane and are among the friendliest dragons, nurturing and optimistic, preferring cold, desolate regions and sometimes adopting abandoned eggs or hatchlings. Many study the stars and read omens in them, and they eagerly look at the futures of peaceful visitors. Their hoards favour diamonds, light-refracting trinkets, star charts and divination and healing magic, and their lairs are open-roofed ice castles with burrowed tunnels and secret passages.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Cold regions'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -2664,6 +2793,14 @@ export default createPublicationMonsters({
           'Optional innate spellcasting: The p. 107 example uses Charisma (save DC 19, +11 to hit with spell attacks). Once per day each, without material components: Command, Dissonant Whispers, Faerie Fire, Passwall, Water Breathing.',
         ],
       ],
+      appearance: [['A serpentine dragon riddled with fungal rot, especially around the face.']],
+      lore: [
+        [
+          'Ancient deep dragons often hide away for years among libraries, fungal gardens and collections of esoterica. When they go hunting, their appetite and love of destruction can remake Underdark trade routes or coastal communities. Deep dragons covet treasure and knowledge and breathe terror-inducing spores.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -2924,6 +3061,14 @@ export default createPublicationMonsters({
           'Optional innate spellcasting: The p. 110 example uses Charisma (save DC 17, +9 to hit with spell attacks). Choose up to two suggested spells: Control Water, Control Weather, or Fog Cloud. The turtle casts each selected spell once per day without material components. Control Weather has a casting time longer than one action.',
         ],
       ],
+      appearance: [['A dragon turtle as big as an island, with vegetation growing on its shell.']],
+      lore: [
+        [
+          'Ancient dragon turtles are mythic, rivalling greatwyrms, and may sleep for years afloat on the surface in the sun, and sailors have mistaken them for land. An angry one heats its shell to boil the surrounding water, and magical storms appear to protect it and strike its foes. Dragon turtle magic is closely linked to the oceans of the Material Plane.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -3165,6 +3310,17 @@ export default createPublicationMonsters({
         [
           'Regional effects: The dragon’s magic causes one or more of these effects around its lair.\nCrystal Profusion. Natural stone within 6 miles develops crystals and emerald veins.\nFiery Sight. As an action, the dragon can cast Clairvoyance without components, targeting fire or lava within 6 miles.\nSubtle Obstruction. Within 6 miles, rock can shift by itself to block routes, topple markers, or send unwary travelers tumbling.\nThriving Wildlife. Giant Lizards gather within 6 miles.\nWhen the dragon dies, the rock stops moving immediately and the lizard population returns to normal over 1d10 days. Existing crystals and emeralds remain, and new ones form at their usual rate.',
         ],
+      ],
+      appearance: [
+        [
+          'A dragon whose green scales shimmer and ripple, becoming translucent with age, with horns and spines hovering above its body and moving with its mood.',
+        ],
+      ],
+      lore: [
+        [
+          'Emerald dragons are the shyest and most curious gem dragons, cunning and manipulative, using psionics to cloak themselves and weave illusions while they watch settlements from afar, sometimes taking a local guise. They take a strong interest in magical phenomena and help sapphire dragons track Far Realm incursions.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
       ],
       stats: {
         size: 'gargantuan',
@@ -3436,6 +3592,18 @@ export default createPublicationMonsters({
           'Regional effects: The dragon’s magic causes one or more of these effects around its lair.\nDream Communication. Within 6 miles, the dragon can speak telepathically through dreams with creatures that understand a language and are sleeping, in a trance, or in reverie. They remember the conversation when they wake.\nPlanar Transition. Portals within 6 miles link the Material Plane, Feywild, and Border Ethereal. Crossing a portal in either direction costs 5 ft. of movement.\nThe portals close immediately when the dragon dies.',
         ],
       ],
+      appearance: [
+        [
+          'A graceful dragon with opalescent scales, emerald-green fur along chin, chest, back and tail, and two horns, one arcing from the skull and one on the nose, together like a crescent moon.',
+        ],
+      ],
+      lore: [
+        [
+          'Moonstone dragons are playful, impetuous Feywild dragons who tend to mature into wise teachers and storytellers, and even the worst are gentle and curious. They can project into dreams to inspire artists, thinkers and adventurers and sometimes ask for help. They like silver, platinum and mithral and cherish things like songs or a lock of hair. They favour moonlit places for lairs, often keep several linked by portals, and move between the Feywild, Material Plane and Ethereal Plane.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -3672,6 +3840,14 @@ export default createPublicationMonsters({
       page: 219,
       alignment: 'typically neutral',
       languages: ['Common', 'Draconic.'],
+      appearance: [['An enormous fast-swimming serpent with strong fins.']],
+      lore: [
+        [
+          "Sea serpents rank beside dragon turtles among the deep's most feared predators. Young ones hide in reefs and pick off crew one by one, while ancient ones can wreck whole ships and feed on sailors in the water. They are as territorial as dragons, resent ships crossing their domain without permission, and demand treasure or a crew sacrifice. They collect cargo and trinkets from ships they sink, and some breathe frost that leaves corpses frozen amid the wreckage.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4503,6 +4679,18 @@ export default createPublicationMonsters({
           'Mythic actions: For 1 hour after Chromatic Wrath activates, the aspect can spend legendary actions on these options.\nHurl Through Avernus (2 actions). Choose a creature the aspect is grappling. On a failed DC 25 Charisma save, it takes 44 (8d10) psychic damage and is banished to Avernus. At the start of the aspect’s next turn, it reappears in an unoccupied space within 10 ft. of the aspect.\nChromatic Flare (3 actions). Each creature the aspect chooses in a 60-ft.-radius sphere centered on her makes a DC 27 Dexterity save, taking 39 (6d12) damage on a failure or half on a success. The aspect chooses acid, cold, fire, lightning, or poison for the damage type.',
         ],
       ],
+      appearance: [
+        [
+          'A titanic dragon with five heads, each shaped and coloured like a different chromatic dragon.',
+        ],
+      ],
+      lore: [
+        [
+          'The aspect of Tiamat is sent from the Nine Hells when a powerful, angry follower sacrifices a hoard worthy of ancient dragons. Each head may speak and act differently but all are Tiamat. Once loose it rampages, grabbing any treasure and destroying all who cross it.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['The Nine Hells (Avernus)'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4703,6 +4891,18 @@ export default createPublicationMonsters({
           'Dragon customization: Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon of vast size, its breath energy rippling across its body and glowing beneath the scales while elemental forces churn around it in anger.',
+        ],
+      ],
+      lore: [
+        [
+          'A greatwyrm is a chromatic dragon that has survived more than twelve hundred years and amassed a hoard worth millions, reaching a near-divine power close to an aspect of Tiamat. Few get there, because rival dragons and meddling adventurers stop most before then. Some ascend by absorbing the echoes of themselves from other worlds. It no longer needs food or drink, since its hoard sustains it, and its power can level a city with its defenders. The black greatwyrm Chronepsis is said to have stalked many worlds, devoured many of his echoes, and withdrawn to a planar lair in the Outlands.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Planar lair'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4915,6 +5115,18 @@ export default createPublicationMonsters({
           'Dragon customization: Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon of vast size, its breath energy rippling across its body and glowing beneath the scales while elemental forces churn around it in anger.',
+        ],
+      ],
+      lore: [
+        [
+          'A greatwyrm is a chromatic dragon that has survived more than twelve hundred years and amassed a hoard worth millions, reaching a near-divine power close to an aspect of Tiamat. Few get there, because rival dragons and meddling adventurers stop most before then. Some ascend by absorbing the echoes of themselves from other worlds. It no longer needs food or drink, since its hoard sustains it, and its power can level a city with its defenders.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Planar lair'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -5126,6 +5338,17 @@ export default createPublicationMonsters({
         [
           'Dragon customization: Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.',
         ],
+      ],
+      appearance: [
+        [
+          'A dragon larger than almost anything else in the multiverse, with elemental forces swirling about it at its whim.',
+        ],
+      ],
+      lore: [
+        [
+          'A metallic greatwyrm is one of the oldest and wisest metallic dragons, transformed by a miraculous change often credited to Bahamut, who is proud to raise his worthiest children. The change can merge the minds, magic and even bodies of several echoes of the same dragon across worlds. Its breath can drain the strength from whole armies or lay waste to regions. Aasterinian, a brass dragon god, is among the greatwyrms who merged forms to reach godlike status.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
       ],
       stats: {
         size: 'gargantuan',
@@ -5373,6 +5596,17 @@ export default createPublicationMonsters({
           'Dragon customization: Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon larger than almost anything else in the multiverse, with elemental forces swirling about it at its whim.',
+        ],
+      ],
+      lore: [
+        [
+          'A metallic greatwyrm is one of the oldest and wisest metallic dragons, transformed by a miraculous change often credited to Bahamut, who is proud to raise his worthiest children. The change can merge the minds, magic and even bodies of several echoes of the same dragon across worlds. Its breath can drain the strength from whole armies or lay waste to regions. Lendys and Tamara, both silver greatwyrms, show the range among them: one a pitiless judge of dragons, the other the embodiment of mercy.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -5619,6 +5853,17 @@ export default createPublicationMonsters({
           'Dragon customization: Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon larger than almost anything else in the multiverse, with elemental forces swirling about it at its whim.',
+        ],
+      ],
+      lore: [
+        [
+          'A metallic greatwyrm is one of the oldest and wisest metallic dragons, transformed by a miraculous change often credited to Bahamut, who is proud to raise his worthiest children. The change can merge the minds, magic and even bodies of several echoes of the same dragon across worlds. Its breath can drain the strength from whole armies or lay waste to regions.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -5862,6 +6107,14 @@ export default createPublicationMonsters({
           'Optional customization: Fizban’s customization guidance (p. 34) allows changes to languages, skill and tool proficiencies, senses, and traits. Its examples include Change Shape, Flyby, Mimicry, Rejuvenation and Tunneler.',
         ],
       ],
+      appearance: [['A young crystal dragon shimmering with radiant energy.']],
+      lore: [
+        [
+          'Crystal dragons are psionically linked to the Positive Plane, which fills their bodies and moods with light. They prefer desolate, frigid places, yet many are among the friendliest dragons, nurturing and optimistic.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Cold wastes'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -6198,6 +6451,18 @@ export default createPublicationMonsters({
           'Optional customization: Fizban’s customization guidance (p. 34) allows changes to languages, skill and tool proficiencies, senses, and traits. Its examples include Change Shape, Flyby, Mimicry, Rejuvenation and Tunneler. The chapter 3 spellcasting variant is optional. This printed block has no spell actions.',
         ],
       ],
+      appearance: [
+        [
+          "A young deep dragon with smooth black-and-grey hide like a salamander's and pale eyes. Wings fold in close to the body.",
+        ],
+      ],
+      lore: [
+        [
+          'Deep dragons live in the Underdark, nightmarish cousins of chromatic dragons, and exhale magical spores that frighten and scar the mind. With age, fungi sprout across their skin, especially round the head and neck. They hoard secrets and enjoy knowledge of far lands, preferring manipulation and crafty deals to fighting, and look down on anyone not useful to them, though they will bargain for knowledge they lack.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -6269,6 +6534,17 @@ export default createPublicationMonsters({
       page: 177,
       alignment: 'any alignment',
       languages: ['Common', 'Draconic.'],
+      appearance: [
+        [
+          'A bipedal draconic monster that might pass for a dragonborn at a glance, and usually has wings.',
+        ],
+      ],
+      lore: [
+        [
+          'Draconians hatch from dragon eggs corrupted or warped by powerful magic, usually on purpose by an aspiring tyrant who wants an army from stolen eggs. One corrupted egg yields several draconians of the same kind. When one dies, its body releases a last burst of magical violence.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -6371,6 +6647,17 @@ export default createPublicationMonsters({
       page: 178,
       alignment: 'any alignment',
       languages: ['Common', 'Draconic.'],
+      appearance: [
+        [
+          'A bipedal draconic monster that might pass for a dragonborn at a glance, and usually has wings.',
+        ],
+      ],
+      lore: [
+        [
+          'Draconians hatch from dragon eggs corrupted or warped by powerful magic, usually on purpose by an aspiring tyrant who wants an army from stolen eggs. One corrupted egg yields several draconians of the same kind. When one dies, its body releases a last burst of magical violence.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6449,6 +6736,17 @@ export default createPublicationMonsters({
       page: 179,
       alignment: 'any alignment',
       languages: ['Common', 'Draconic.'],
+      appearance: [
+        [
+          'A bipedal draconic monster that might pass for a dragonborn at a glance, and usually has wings.',
+        ],
+      ],
+      lore: [
+        [
+          'Draconians hatch from dragon eggs corrupted or warped by powerful magic, usually on purpose by an aspiring tyrant who wants an army from stolen eggs. One corrupted egg yields several draconians of the same kind. When one dies, its body releases a last burst of magical violence.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6557,6 +6855,17 @@ export default createPublicationMonsters({
       page: 180,
       alignment: 'any alignment',
       languages: ['Common', 'Draconic.'],
+      appearance: [
+        [
+          'A bipedal draconic monster that might pass for a dragonborn at a glance, and usually has wings.',
+        ],
+      ],
+      lore: [
+        [
+          'Draconians hatch from dragon eggs corrupted or warped by powerful magic, usually on purpose by an aspiring tyrant who wants an army from stolen eggs. One corrupted egg yields several draconians of the same kind. When one dies, its body releases a last burst of magical violence.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -6707,6 +7016,17 @@ export default createPublicationMonsters({
       alignment: 'typically neutral',
       languages: ['Common', 'Draconic', 'telepathy 120 ft.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        [
+          'A shimmering, spectral image of a gem dragon, or a voice and presence inside an object from its hoard such as a weapon.',
+        ],
+      ],
+      lore: [
+        [
+          "When a powerful gem dragon dies, its psionic will sometimes refuses to pass on and lingers as a draconic shard. It often hides in an item the dragon had filled with psionic power, and continues the dragon's interests and struggles, even accompanying adventurers as an intelligent item and steering them toward the dragon's plans. Destroying the form or item forces the spirit into a cracked gemstone while it slowly regains strength; only destroying the stone puts it to rest.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -6914,6 +7234,15 @@ export default createPublicationMonsters({
           'Dragon followers: Dragon followers take cues from their patron dragon. Some serve it directly, while others follow it to learn the secrets of dragonkind. A Blessed can support a Dragon Chosen guarding a Dragon Speaker.',
         ],
       ],
+      appearance: [
+        ['A human or other mortal devotee of a dragon, marked out by borrowed magical power.'],
+      ],
+      lore: [
+        [
+          'Dragon followers are servants whose devotion to a dragon is close to fanatical reverence, and who gain magical power from it. Their behaviour and beliefs mirror the dragon they serve. Many tell of kind dragons who shared knowledge, protected a town or spared them on a foolish adventure; others try to understand draconic nature and dream of dragons ruling among them.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7003,6 +7332,15 @@ export default createPublicationMonsters({
       page: 189,
       alignment: 'any alignment',
       languages: ['Common', 'Draconic.'],
+      appearance: [
+        ['A human or other mortal devotee of a dragon, marked out by borrowed magical power.'],
+      ],
+      lore: [
+        [
+          'Dragon followers are servants whose devotion to a dragon is close to fanatical reverence, and who gain magical power from it. Their behaviour and beliefs mirror the dragon they serve. Many tell of kind dragons who shared knowledge, protected a town or spared them on a foolish adventure; others try to understand draconic nature and dream of dragons ruling among them.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7078,6 +7416,15 @@ export default createPublicationMonsters({
       page: 189,
       alignment: 'any alignment',
       languages: ['Common', 'Draconic', 'and two other languages.'],
+      appearance: [
+        ['A human or other mortal devotee of a dragon, marked out by borrowed magical power.'],
+      ],
+      lore: [
+        [
+          'Dragon followers are servants whose devotion to a dragon is close to fanatical reverence, and who gain magical power from it. Their behaviour and beliefs mirror the dragon they serve. Many tell of kind dragons who shared knowledge, protected a town or spared them on a foolish adventure; others try to understand draconic nature and dream of dragons ruling among them.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -7156,6 +7503,14 @@ export default createPublicationMonsters({
           'Optional dragon customization: Chapter 3 (p. 34) offers optional changes to languages, skill and tool proficiencies, senses, and traits.',
         ],
       ],
+      appearance: [['A young dragon turtle, tied to the ocean.']],
+      lore: [
+        [
+          'Dragon turtles have inherent magic linked to the oceans, and an ancient one is a mythic creature as large as an island: sailors have mistaken sleeping ones for land. Ancient ones can sleep for years on the surface with plants growing on their shells, and an angry one boils the water around it with heat from its shell. Magical storms rise to shield and strike for it.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -7219,6 +7574,17 @@ export default createPublicationMonsters({
       page: 182,
       alignment: 'unaligned',
       languages: ['Understands Draconic and its creator’s languages. It cannot speak.'],
+      appearance: [
+        [
+          'A heap of congealed dragon blood that keeps trying to take a draconic shape and collapsing, and tries to breathe by spewing part of itself out and reeling it back in.',
+        ],
+      ],
+      lore: [
+        [
+          'Magic-minded artisans have long used dragon parts, and alchemists use the blood, but careless experiments have produced dragonblood oozes: congealed dragon blood given movement and hunger.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -7333,6 +7699,15 @@ export default createPublicationMonsters({
       page: 183,
       alignment: 'unaligned',
       languages: ['Understands Draconic and its creator’s languages. It cannot speak.'],
+      appearance: [
+        ['A dragon-shaped frame of dragon bones linked by adamantine wire, etched with glyphs.'],
+      ],
+      lore: [
+        [
+          "A dragonbone golem is animated by the bones' own magic, with glyphs that let animating power flow through it. Powerful dragons usually make them from the bones of defeated rivals. They are tough, obedient lair guardians, and their unnerving presence discourages intruders.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -7802,6 +8177,13 @@ export default createPublicationMonsters({
       page: 187,
       alignment: 'typically neutral evil',
       languages: ['Understands Common and Draconic but cannot speak.'],
+      appearance: [['A scarred horror stitched with dragon scales, teeth, flesh and wings.']],
+      lore: [
+        [
+          "Dragonflesh grafters use forbidden rituals to become like their dragons by attaching dragon parts. Most die or are scarred, but a few survive as abominations, their minds twisted by magical malevolence; the worst keep nothing of the person and are ruled by a dragon's lust for treasure.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -7945,6 +8327,17 @@ export default createPublicationMonsters({
       page: 186,
       alignment: 'typically neutral evil',
       languages: ['Common', 'Draconic.'],
+      appearance: [
+        [
+          'A person who has stitched, implanted or swallowed dragon parts, scales, teeth, skin, flesh, wings and bone, into their own body.',
+        ],
+      ],
+      lore: [
+        [
+          "Dragonflesh grafters use forbidden rituals and risky self-experiments to become like the dragons they revere, collecting parts from lairs, corpses, merchants and adventurers to absorb a corpse's lingering magic. Most end up scarred or dead. A few survive as twisted horrors, and in the worst cases the abomination keeps nothing of the person and is ruled by a dragon's lust for treasure.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -8030,6 +8423,17 @@ export default createPublicationMonsters({
           'Dragonnel Steeds: With the DM’s permission, a paladin can use Find Greater Steed to summon a spirit in dragonnel form.',
         ],
       ],
+      appearance: [
+        [
+          'A winged, dragon-like creature that cannot speak but follows what is said, with a beak and claws.',
+        ],
+      ],
+      lore: [
+        [
+          'Dragonnels are distant relatives of chromatic, gem and metallic dragons. They are willful, driven by food and amusement, picky eaters with mercurial moods that toy with prey before killing. In some regions they are hatched and raised as aerial mounts, loyal and over-protective of riders, while taming wild ones is risky because they fake obedience then throw riders from a height. They fight with flyby swoops, striking with beak and claws then pulling out of reach.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -8079,6 +8483,13 @@ export default createPublicationMonsters({
       page: 193,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [['A parasitic creature that sneaks into dragon nests.']],
+      lore: [
+        [
+          'Egg hunters are parasites that look for dragon eggs and eat the contents. They then lay their own eggs in the emptied shells, hiding them from dragon parents and guardians who do not notice the swap.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -8185,6 +8596,13 @@ export default createPublicationMonsters({
       page: 193,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [['A parasitic creature that sneaks into dragon nests.']],
+      lore: [
+        [
+          'Egg hunters are parasites that look for dragon eggs and eat the contents. They then lay their own eggs in the emptied shells, hiding them from dragon parents and guardians who do not notice the swap.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'tiny',
         type: 'monstrosity',
@@ -8243,6 +8661,16 @@ export default createPublicationMonsters({
       alignment: 'typically lawful evil',
       languages: ['Deep Speech', 'Draconic', 'telepathy 5 miles.'],
       tableNotes: [['Movement notes: Can hover'], ['fly · (hover)']],
+      appearance: [
+        ['A dragon with an elder brain clamped to its back, tentacles dug into its skull.'],
+      ],
+      lore: [
+        [
+          'A mind flayer colony normally reaches only as far as its elder brain, but when a colony captures a dragon, its minders bind it and the elder brain attaches to its back, turning it into an elder brain dragon. Free of the brine pool, the elder brain acts as a general for illithid armies. The dragon is psychic as well as physical, thick with aberrant influence and psionic power, and its breath becomes a stream of brine full of illithid tadpoles that can quickly kill victims and turn them into mind flayers, growing its own roving colony.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'gargantuan',
         type: 'aberration',
@@ -8449,6 +8877,13 @@ export default createPublicationMonsters({
         [
           'Optional customization: Page 34 gives options for changing languages, proficiencies, senses, and traits to suit the individual dragon.',
         ],
+      ],
+      appearance: [['A young emerald dragon that hides itself from observers.']],
+      lore: [
+        [
+          'Emerald dragons are the most curious, cunning and manipulative gem dragons, weaving psionic illusions to deceive and disorient. They hide their own presence to watch other creatures, gathering information on everything from local customs to supernatural events.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
       ],
       stats: {
         size: 'medium',
@@ -9336,6 +9771,17 @@ export default createPublicationMonsters({
           'Dragon customization: Page 34 offers language and proficiency changes, alternate senses, and traits such as Flyby, Mimicry, Rejuvenation, and Tunneler. For an innate spellcasting variant, the general rule permits up to ten spells of 9th level or lower, once per day each, without material components. Charisma gives a spell save DC of 26 and a spell attack bonus of +18. This profile uses the printed actions unless you choose a variant.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon larger than almost anything else in the multiverse, with elemental forces swirling about it at its whim.',
+        ],
+      ],
+      lore: [
+        [
+          'A metallic greatwyrm is one of the oldest and wisest metallic dragons, transformed by a miraculous change often credited to Bahamut, who is proud to raise his worthiest children. The change can merge the minds, magic and even bodies of several echoes of the same dragon across worlds. Its breath can drain the strength from whole armies or lay waste to regions.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -9588,6 +10034,18 @@ export default createPublicationMonsters({
           'Dragon customization: Page 34 offers language and proficiency changes, alternate senses, and traits such as Flyby, Mimicry, Rejuvenation, and Tunneler. For an innate spellcasting variant, the general rule permits up to eight spells of 9th level or lower, once per day each, without material components. Charisma gives a spell save DC of 24 and a spell attack bonus of +16. This profile uses the printed actions unless you choose a variant.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon of vast size, its breath energy rippling across its body and glowing beneath the scales while elemental forces churn around it in anger.',
+        ],
+      ],
+      lore: [
+        [
+          'A greatwyrm is a chromatic dragon that has survived more than twelve hundred years and amassed a hoard worth millions, reaching a near-divine power close to an aspect of Tiamat. Few get there, because rival dragons and meddling adventurers stop most before then. Some ascend by absorbing the echoes of themselves from other worlds. It no longer needs food or drink, since its hoard sustains it.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Planar lair'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -9797,6 +10255,18 @@ export default createPublicationMonsters({
       page: 205,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [
+        [
+          'A beetle that blends in perfectly with a pile of gold coins, shedding a glittering metallic dust from its wings.',
+        ],
+      ],
+      lore: [
+        [
+          'Hoard scarabs eat the tiny mites that infest a dragon and its lair, and their painful bite deters thieves. The dust from their wings coats anyone who gets too close and, through its magic, lets the dragon owner sense where intruders are moving in the lair.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Dragon lair'],
       stats: {
         size: 'tiny',
         type: 'monstrosity',
@@ -10163,6 +10633,15 @@ export default createPublicationMonsters({
       page: 210,
       alignment: 'typically neutral good',
       languages: ['Common', 'Draconic', 'telepathy 30 ft.'],
+      appearance: [
+        ['A guardian made of the metal of its dragon creator, sculpted in elegant filigree.'],
+      ],
+      lore: [
+        [
+          'Metallic dragons create sentinels powered by their breath energy and forged from their own metal. A sentinel is dedicated to defusing tensions that could turn violent. The source only gives lore for the whole sentinel family.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -10252,6 +10731,15 @@ export default createPublicationMonsters({
       page: 210,
       alignment: 'typically neutral good',
       languages: ["Understands Common and Draconic but can't speak."],
+      appearance: [
+        ["A small guardian made of its dragon creator's metal, sculpted in elegant filigree."],
+      ],
+      lore: [
+        [
+          'Metallic dragons create sentinels powered by their breath energy and forged from their own metal. A sentinel is dedicated to defusing tensions that could turn violent. The source only gives lore for the whole sentinel family.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -10343,6 +10831,17 @@ export default createPublicationMonsters({
         [
           'Dragon customization: Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.',
         ],
+      ],
+      appearance: [
+        [
+          'A dragon larger than an ancient one, its breath energy running over its body and glowing under its scales as elemental forces rage around it.',
+        ],
+      ],
+      lore: [
+        [
+          "Chromatic greatwyrms are the most ancient chromatic dragons, past twelve hundred years old with hoards worth millions, approaching the power of Tiamat's aspect. They no longer need food or drink since the hoard sustains them, and their power can raze a city. The red greatwyrm Ashardalon is the book's example: he ritually drained the power of his own echoes with a balor and infused it by implanting the balor where his heart had been. Few dragons reach this stage because rivals and adventurers get in the way.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
       ],
       stats: {
         size: 'gargantuan',
@@ -10553,6 +11052,13 @@ export default createPublicationMonsters({
         [
           "Optional customization: Fizban's customization guidance (p. 34) allows changes to languages, skill and tool proficiencies, senses, and traits. Its examples include Change Shape, Flyby, Mimicry, Rejuvenation and Tunneler.",
         ],
+      ],
+      appearance: [['A young sapphire dragon; its breath is a sonic pulse.']],
+      lore: [
+        [
+          'Sapphire dragons are militant and territorial, fiercely guarding their lairs, ambushing intruders and plotting assaults on rivals. Conflict is part of their nature. Their sonic breath leaves victims too weak to fight back.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
       ],
       stats: {
         size: 'medium',
@@ -10915,6 +11421,17 @@ export default createPublicationMonsters({
           'Dragon customization: Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.',
         ],
       ],
+      appearance: [
+        [
+          'One of the largest creatures in the multiverse, with mighty elemental forces swirling about it at its wish.',
+        ],
+      ],
+      lore: [
+        [
+          "Metallic dragons can become greatwyrms through a transformation often wrought by Bahamut, who raises his worthiest children toward his own greatness; it may fuse the minds and sometimes bodies of a dragon's echoes across worlds. Their breath can sap the strength of armies or lay waste to regions. The silver greatwyrms Lendys and Tamara are opposites: Lendys is an impartial, lawful neutral judge and executioner of dragons who commit grave injustices, and Tamara embodies mercy, healing the sick and easing dragons toward a peaceful death while loathing dracoliches and draconic undead.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -11152,6 +11669,18 @@ export default createPublicationMonsters({
       page: 205,
       alignment: 'unaligned',
       languages: ['None.'],
+      appearance: [
+        [
+          'Beetle-like creatures that blend perfectly into piles of gold coins, shedding a glittering metallic dust from their wings.',
+        ],
+      ],
+      lore: [
+        [
+          'Hoard scarabs eat the tiny mites that infest a dragon and its lair, and their painful bite deters treasure thieves. The dust from their wings coats intruders who come close, and by its magic the dragon owner of the lair can sense where those intruders are.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Dragon lair'],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -11250,6 +11779,13 @@ export default createPublicationMonsters({
         [
           "Optional customization: Fizban's customization guidance (p. 34) allows changes to languages, skill and tool proficiencies, senses, and traits. Its examples include Change Shape, Flyby, Mimicry, Rejuvenation and Tunneler.",
         ],
+      ],
+      appearance: [['A young topaz dragon, suffused with necrotic energy.']],
+      lore: [
+        [
+          'Topaz dragons are shaped by decay and despair, from the necrotic energy of the Negative Plane. Their psionics express the idea that mortals and their works end in death and decomposition, and they tend to be morbid and curmudgeonly.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
       ],
       stats: {
         size: 'medium',
@@ -11600,6 +12136,17 @@ export default createPublicationMonsters({
           'Dragon customization: Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.',
         ],
       ],
+      appearance: [
+        [
+          'A dragon larger than an ancient one, its breath energy glowing under its scales as elemental forces rage around it.',
+        ],
+      ],
+      lore: [
+        [
+          "Chromatic greatwyrms are the most ancient chromatic dragons, over twelve hundred years old with hoards worth millions, near the power of Tiamat's aspect. They no longer need food or drink, and their power can raze a city. Few reach this stage because rivals and adventurers get in the way.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -11814,6 +12361,13 @@ export default createPublicationMonsters({
           'Optional lair guidance: Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.',
         ],
       ],
+      appearance: [['A young gem dragon with amethyst crystals, which it spits at foes.']],
+      lore: [
+        [
+          "Amethyst dragons are the mightiest gem dragons. They study and psionically manipulate the multiverse's basic principles, from gravity to emanations of the Outer Planes. They fly without relying only on their wings, and gravitational force powers both their breath and the exploding amethyst crystals they spit.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -11943,6 +12497,14 @@ export default createPublicationMonsters({
           'Optional lair guidance: Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.',
         ],
       ],
+      appearance: [['A young dragon that shimmers with radiant energy.']],
+      lore: [
+        [
+          'Crystal dragons have an innate psionic link to the Positive Plane that fills their bodies and temperaments with light. They prefer desolate, frigid regions, and many are among the friendliest dragons, nurturing and optimistic.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -12052,6 +12614,18 @@ export default createPublicationMonsters({
           'Optional lair guidance: Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.',
         ],
       ],
+      appearance: [
+        [
+          "A young dragon with smooth black-and-gray hide like a salamander's and pale eyes, with wings attached to the forelegs that fold close to the body; fungi bloom on its head and neck as it ages.",
+        ],
+      ],
+      lore: [
+        [
+          'Deep dragons live in the Underdark and breathe magical spores that cause fear and scar the mind. They hoard secrets and enjoy knowledge of far lands, prefer social manipulation and deals to fighting, and look down on anyone not useful, though they will bargain for knowledge they lack.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -12158,6 +12732,16 @@ export default createPublicationMonsters({
           'Optional lair guidance: Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions. The dragon turtle’s specific lair action list on p. 112 applies to adults and ancients.',
         ],
       ],
+      appearance: [
+        ['A dragon turtle, with a shell that can radiate heat to boil the water around it.'],
+      ],
+      lore: [
+        [
+          'Dragon turtles have inherent magic tied to the oceans. Ancient ones can be as big as islands, and sailors have wrecked after mistaking a sleeping one for land. Magical storms shield them and strike at foes once their defences are worn down.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -12521,6 +13105,13 @@ export default createPublicationMonsters({
         ],
         ['The Spellcasting section is printed as "Spellcasting (Psionics)".'],
       ],
+      appearance: [['A young sapphire dragon; its breath is a sonic pulse.']],
+      lore: [
+        [
+          'Sapphire dragons are militant and territorial, fiercely guarding lairs, ambushing intruders and plotting assaults on rivals. Their sonic breath leaves victims too weak to fight back.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -12652,6 +13243,16 @@ export default createPublicationMonsters({
       page: 219,
       alignment: 'typically neutral',
       languages: ['Common', 'Draconic.'],
+      appearance: [
+        ['A fast, finned serpent that hides in reefs and by camouflage before striking.'],
+      ],
+      lore: [
+        [
+          "Young sea serpents are agile hunters that pick off a ship's crew one by one. They bite, lash, constrict and breathe frost, and are as territorial as any dragon, resenting ships that cross their waters without permission. Some can be appeased with treasure. Sea serpents collect cargo from the ships they sink.",
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -12804,6 +13405,13 @@ export default createPublicationMonsters({
           'Optional lair guidance: Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.',
         ],
         ['The Spellcasting section is printed as "Spellcasting (Psionics)".'],
+      ],
+      appearance: [['A young topaz dragon, suffused with necrotic energy.']],
+      lore: [
+        [
+          'Topaz dragons are shaped by decay and despair, from the necrotic energy of the Negative Plane. Their psionics express the idea that mortals and their works end in death and decomposition, and they tend to be morbid and curmudgeonly.',
+        ],
+        ['Sources: ', "Fizban's Treasury of Dragons"],
       ],
       stats: {
         size: 'large',

@@ -15137,6 +15137,18 @@ export default createPublicationMonsters({
       tags: ['shapechanger'],
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal', 'telepathy 60 ft'],
+      appearance: [
+        [
+          "A lascivious, dark-winged fiend that seldom shows its true form and first appears as an ethereal presence beside a sleeper's bed.",
+        ],
+      ],
+      lore: [
+        [
+          "Any succubus can become an incubus and the reverse, though most prefer one form. They serve devils, demons, night hags, rakshasas and yugoloths. Asmodeus uses them to tempt mortals to evil, and Graz'zt keeps them as advisers and consorts. The fiend begins corrupting in veiled, insidious ways. Incubi feed on dreams and replace them with nightmares, while succubi exploit waking desires and finish victims with an essence-draining kiss.",
+        ],
+        ['Sources: ', 'System Reference Document 5.1'],
+      ],
+      habitats: ['Planar (Lower Planes)'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -15269,6 +15281,15 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A seething mass of insects that moves as one, with an aggression that seems unnatural.'],
+      ],
+      lore: [
+        [
+          "The 2014 book says its swarms are not ordinary: they form from a sinister or unwholesome influence, such as scarab beetles boiling up around a mummy lord's tomb. Even druids cannot charm them, and their aggression is almost unnatural.",
+        ],
+        ['Sources: ', 'System Reference Document 5.1'],
+      ],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
