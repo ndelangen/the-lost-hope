@@ -1,7 +1,10 @@
 import { z } from 'zod'
 
+import { ABILITY_KEYS } from '#/lib/rules'
+
 import { Background, Content } from './content'
 import { makeCreate } from './create'
+import { entityRefOf } from './kind'
 import { DEFAULT_AVATAR, MediaUrl, Portrait } from './media'
 import { Membership } from './organization'
 import { deriveSlug } from './slug'
@@ -21,6 +24,38 @@ const PreviousPortrait = Portrait.extend({
 })
 
 export type PreviousPortrait = z.infer<typeof PreviousPortrait>
+
+const AbilityId = z.enum(ABILITY_KEYS)
+
+/**
+ * A level-scaled creature a PC keeps or summons (a ranger's beast, an artificer's steel defender,
+ * a familiar): the library's stat block, worked out from the PC's level and numbers.
+ */
+export const Companion = z.strictObject({
+  creature: entityRefOf('monster').describe(
+    'The library creature, e.g. `refs.monsters.steel_defender`',
+  ),
+  publication: entityRefOf('publication').describe('Which printing of it the PC uses'),
+  name: z.string().trim().min(1).optional().describe('What the PC calls it, e.g. `Bolt`'),
+  options: z
+    .array(z.string().min(1))
+    .optional()
+    .describe('Keys of the options or form it has, e.g. `land` for a Beast of the Land'),
+  level: z
+    .number()
+    .int()
+    .min(1)
+    .max(20)
+    .optional()
+    .describe(
+      'The spell slot it is summoned with, or the class level when that differs from the character level',
+    ),
+  castingAbility: AbilityId.optional().describe(
+    "The PC's spellcasting ability for its spell attack and save DC, when the class doesn't say",
+  ),
+})
+
+export type Companion = z.infer<typeof Companion>
 
 export const PC = deriveSlug(
   z.strictObject({
@@ -48,6 +83,13 @@ export const PC = deriveSlug(
       .array(Membership)
       .optional()
       .describe('DM only: memberships the party has not discovered'),
+    companions: z
+      .array(Companion)
+      .min(1)
+      .optional()
+      .describe(
+        'DM only: creatures the character keeps or summons whose numbers follow theirs, e.g. a steel defender',
+      ),
     stats: PcStatBlock.optional().describe(
       'DM only: the character sheet as a stat block, so the encounter runs the PC like any creature',
     ),

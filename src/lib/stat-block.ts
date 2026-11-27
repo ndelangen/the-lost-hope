@@ -66,8 +66,13 @@ export type PlayablePcStats = PcStatBlock & {
 export type AnyStatBlock = StatBlock | PrintedStatBlock | PlayablePcStats
 
 /** Proficiency bonus from a creature's challenge rating or a PC's level. */
+/** Proficiency bonus at a character level. */
+export function proficiencyForLevel(level: number) {
+  return Math.ceil(level / 4) + 1
+}
+
 export function proficiencyOf(stats: AnyStatBlock) {
-  if (!('cr' in stats)) return Math.ceil(stats.level / 4) + 1
+  if (!('cr' in stats)) return proficiencyForLevel(stats.level)
   // A summoned creature or companion uses its owner's.
   return (
     ('printed' in stats ? stats.printed?.proficiencyBonus : undefined) ?? proficiencyBonus(stats.cr)
@@ -109,7 +114,7 @@ export function scaledOwnerAbility(stats: PrintedStatBlock | StatBlock): Ability
  */
 export function typicalInputs(scaling: Scaling, level: number): ScaleInputs {
   const characterLevel = scaling.by === 'spell' ? Math.min(20, level * 2 - 1) : level
-  const pb = Math.ceil(characterLevel / 4) + 1
+  const pb = proficiencyForLevel(characterLevel)
   const modifiers = { str: 3, dex: 3, con: 3, int: 3, wis: 3, cha: 3 }
   return { level, proficiencyBonus: pb, spellAttack: pb + 3, spellSaveDc: 8 + pb + 3, modifiers }
 }

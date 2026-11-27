@@ -1,0 +1,85 @@
+import type { Companion, PC } from '#/definitions/pc'
+import type { PrintedStatBlock } from '#/definitions/stat-block'
+import type { AbilityId } from '#/lib/rules'
+
+import {
+  modifier,
+  proficiencyForLevel,
+  scaleCreature,
+  typicalInputs,
+  withOptions,
+  type ScaleInputs,
+} from './stat-block'
+
+/** The ability each class casts with, for a companion that uses its owner's spell attack. */
+const CASTING_ABILITY: Record<string, AbilityId> = {
+  artificer: 'int',
+  bard: 'cha',
+  cleric: 'wis',
+  druid: 'wis',
+  paladin: 'cha',
+  ranger: 'wis',
+  sorcerer: 'cha',
+  warlock: 'cha',
+  wizard: 'int',
+}
+
+/** The ability a PC casts with: the companion's own setting, or their class's. */
+export function castingAbilityOf(pc: PC, companion: Companion): AbilityId {
+  const ability = companion.castingAbility ?? CASTING_ABILITY[(pc.class ?? '').toLowerCase()]
+  // A multiclass or subclass caster says which ability it uses: guessing would print wrong numbers.
+  if (!ability) throw new Error(`${pc.name}'s ${companion.creature.key} needs a castingAbility`)
+  return ability
+}
+
+/**
+ * The numbers a companion borrows from its PC: the level it is kept or summoned at (its own
+ * `level`, else the character level for a class feature, else the spell's lowest slot), the PC's
+ * proficiency bonus, ability modifiers, and spell attack and save DC from their casting ability.
+ * A PC without a stat block lends a +3 in every ability, with their own proficiency bonus.
+ */
+export function companionInputs(
+  pc: PC,
+  companion: Companion,
+  stats: PrintedStatBlock,
+): ScaleInputs | undefined {
+  const scaling = stats.scaling
+  if (!scaling) return undefined
+  const characterLevel = pc.level ?? 1
+  const level = Math.min(
+    scaling.max,
+    Math.max(
+      scaling.min,
+      companion.level ?? (scaling.by === 'class' ? characterLevel : scaling.min),
+    ),
+  )
+  const proficiencyBonus = proficiencyForLevel(characterLevel)
+  const scores = pc.stats?.scores
+  if (!scores) {
+    const typical = typicalInputs(scaling, level)
+    return {
+      ...typical,
+      proficiencyBonus,
+      spellAttack: proficiencyBonus + 3,
+      spellSaveDc: 8 + proficiencyBonus + 3,
+    }
+  }
+  const modifiers = Object.fromEntries(
+    Object.entries(scores).map(([ability, score]) => [ability, modifier(score)]),
+  ) as Record<AbilityId, number>
+  const casting = castingAbilityOf(pc, companion)
+  return {
+    level,
+    proficiencyBonus,
+    spellAttack: proficiencyBonus + modifiers[casting],
+    spellSaveDc: 8 + proficiencyBonus + modifiers[casting],
+    modifiers,
+  }
+}
+
+/** A PC's companion as the stat block the table runs: its options picked, worked out from the PC. */
+export function companionStats(pc: PC, companion: Companion, stats: PrintedStatBlock) {
+  const picked = withOptions(stats, companion.options ?? [])
+  const inputs = companionInputs(pc, companion, stats)
+  return inputs ? scaleCreature(picked, inputs) : picked
+}
