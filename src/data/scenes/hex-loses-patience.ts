@@ -18,9 +18,9 @@ export default createScene({
       ' a single hard question.',
     ],
     [
-      'The guildhall is not operational yet. Its booth has no standing connection to ',
+      'The guildhall is up and its job board is out, but its booth has no standing connection to ',
       refs.locations.fajanet,
-      ': establishing the portal is something only ',
+      ' yet: establishing the portal is something only ',
       refs.npcs.light_13th_marshal,
       ' can do, and he is a very, very busy person. ',
       refs.locations.the_flying_whale,
@@ -33,7 +33,13 @@ export default createScene({
     [
       'It is the party’s second day in ',
       refs.locations.rustmoor,
-      ', the day after the full moon. ',
+      ', the day after the full moon. They come back from a job off ',
+      refs.scenes.the_rustmoor_job_board,
+      ', pleased with themselves, and ',
+      refs.npcs.hex,
+      ' is waiting for them: taking a simple job is what makes ',
+      refs.npcs.hex,
+      ' lose patience. ',
       refs.pcs.auren,
       ' is not with them: ',
       refs.npcs.hex,
@@ -53,15 +59,15 @@ export default createScene({
   ],
   beats: [
     {
-      title: 'A busy guildhall',
+      title: 'Hex is waiting',
       lines: [
         {
           do: [
             [
               refs.npcs.hex,
-              ' greets the party, a bit happy to see them, but busy: the guildhall is going up around them. ',
+              ' is waiting for the party when they come back from their job. ',
               refs.npcs.sneeve,
-              ' is running errands.',
+              ' is running errands around them.',
             ],
           ],
         },

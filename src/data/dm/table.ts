@@ -30,6 +30,7 @@ export default createTable({
     refs.scenes.four_stomps_under_the_moon,
     refs.scenes.swift_s_silver_container_opens,
     refs.scenes.light_walks_auren_through_fajanet,
+    refs.scenes.the_rustmoor_job_board,
     refs.scenes.hex_loses_patience,
     refs.scenes.questions_for_light,
     refs.scenes.fix_s_last_delivery,
