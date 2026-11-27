@@ -449,6 +449,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 21 },
               ' Constitution save or fall to 0 HP.',
             ],
+            effects: [],
           },
           {
             key: 'immutable-form',
@@ -537,10 +538,32 @@ export default createPublicationMonsters({
             },
             text: [
               'A Large or smaller creature damaged by Bite is ',
-              rules.grappled,
-              ', escape DC 20. While the grapple remains, the Ravager has no other Bite attack. When either hit damages a creature, it makes a ',
+              { effect: 'bite-grab' },
+              '. While the grapple remains, the Ravager has no other Bite attack. When either hit damages a creature, it makes a ',
               { dc: 'con', printed: 21 },
-              ' Constitution save. Failure subtracts the damage taken from its HP maximum until Greater Restoration or comparable magic removes the reduction. It dies if that maximum falls to 0.',
+              ' Constitution save. ',
+              { effect: 'bite-hp-max' },
+            ],
+            effects: [
+              {
+                key: 'bite-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
+              {
+                key: 'bite-hp-max',
+                name: 'HP maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 21 },
+                text: [
+                  'subtracts the damage taken from its HP maximum.',
+                  ' It dies if that maximum falls to 0.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['Greater Restoration or comparable magic removes the reduction'] },
+              },
             ],
           },
           {
@@ -558,7 +581,18 @@ export default createPublicationMonsters({
             text: [
               'A failed ',
               { dc: 'con', printed: 19 },
-              ' Constitution save stuns the target through the end of its next turn.',
+              ' Constitution save ',
+              { effect: 'spines-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spines-stun',
+                name: 'Stuns through the end of its next turn',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 19 },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -593,6 +627,7 @@ export default createPublicationMonsters({
                 { roll: '8d10' },
                 ' piercing damage, half on a success.',
               ],
+              effects: [],
             },
           ],
         },

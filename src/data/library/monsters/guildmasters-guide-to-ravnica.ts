@@ -3947,6 +3947,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               " to hit with spell attacks). Cantrips (at will). Acid Splash, Chill Touch, Mage Hand, Poison Spray, Prestidigitation. Level 1 (4 slots). Entangle, Ray of Sickness, Sleep. Level 2 (3 slots). Melf's Acid Arrow, Ray of Enfeeblement, Spider Climb, Web. Level 3 (3 slots). Animate Dead, Plant Growth, Vampiric Touch. Level 4 (3 slots). Blight, Giant Insect, Grasping Vine. Level 5 (2 slots). Cloudkill, Insect Plague. Level 6 (1 slot). Circle of Death, Create Undead. Level 7 (1 slot). Finger of Death, Forcecage.",
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3992,6 +3993,7 @@ export default createPublicationMonsters({
               { dc: 'int', printed: 5 },
               ' + the damage taken. On a success, he drops to 1 HP. This trait does not apply to radiant damage or damage from a critical hit.',
             ],
+            effects: [],
           },
           {
             key: 'undead-nature',
@@ -4029,8 +4031,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'noxious-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'noxious-poison',
+                name: 'Noxious poison',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4094,6 +4106,7 @@ export default createPublicationMonsters({
                 },
                 onSuccess: 'half',
               },
+              effects: [],
             },
           ],
         },
@@ -6330,8 +6343,18 @@ export default createPublicationMonsters({
               'The target must make a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or become ',
-              rules.frightened,
-              ' of the horror until the end of the target’s next turn.',
+              { effect: 'horror-fear' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'horror-fear',
+                name: 'Horror fear',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                text: ['of the horror'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -6351,6 +6374,7 @@ export default createPublicationMonsters({
             text: ['Other horrors are not affected.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'shadow-stealth',
@@ -7659,6 +7683,7 @@ export default createPublicationMonsters({
               { ability: 'enlarge' },
               '/Reduce, Gust of Wind. 3rd level (3 slots). Counterspell, Fly, Slow. 4th level (3 slots). Control Water, Ice Storm, Polymorph. 5th level (2 slots). Conjure Elemental, Creation. 6th level (1 slot). Move Earth, Wall of Ice. 7th level (1 slot). Prismatic Spray, Teleport. 8th level (1 slot). Control Weather, Dominate Monster.',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -7705,6 +7730,7 @@ export default createPublicationMonsters({
               { roll: '3d8' },
               ' to a creature underwater, and pushes the creature 10 ft. away from Zegana. Success halves the thunder damage and prevents the push.',
             ],
+            effects: [],
           },
           {
             key: 'deluge',
@@ -7717,8 +7743,17 @@ export default createPublicationMonsters({
               '). Failure deals ',
               { roll: '4d8' },
               ' bludgeoning damage and knocks it ',
-              rules.prone,
+              { effect: 'deluge-prone' },
               '. Success halves the damage and prevents the knockdown. The water puts out unprotected flames it touches before vanishing.',
+            ],
+            effects: [
+              {
+                key: 'deluge-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',

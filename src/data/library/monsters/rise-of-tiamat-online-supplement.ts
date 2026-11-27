@@ -558,6 +558,7 @@ export default createPublicationMonsters({
               ' (snakes only); 3/day: ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -674,10 +675,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 13). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'constrict-grapple' },
               ', and the yuan‑ti can’t constrict another target.',
+            ],
+            effects: [
+              {
+                key: 'constrict-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {

@@ -299,10 +299,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it is ',
-              rules.grappled,
-              ' (escape DC 20). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'bite-grapple' },
               ', and the tarrasque can’t bite another target.',
+            ],
+            effects: [
+              {
+                key: 'bite-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -347,8 +355,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str', printed: 20 },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str', printed: 20 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -360,8 +377,19 @@ export default createPublicationMonsters({
               'Each creature of the tarrasque’s choice within 120 feet of it and aware of it must succeed on a ',
               { dc: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the tarrasque is within line of sight, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the tarrasque’s Frightful Presence for the next 24 hours.',
+              { effect: 'frightful-presence' },
+              '. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the tarrasque’s Frightful Presence for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'frightful-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                text: ['with disadvantage if the tarrasque is within line of sight'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -371,12 +399,8 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               'The tarrasque makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite’s damage, the target is swallowed, and the grapple ends. While swallowed, the creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has total cover against attacks and other effects outside the tarrasque, and it takes ',
-              { roll: '16d6' },
-              ' acid damage at the start of each of the tarrasque’s turns. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a ',
+              { effect: 'swallowed' },
+              '. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a ',
               { dc: 'con', printed: 20 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -385,6 +409,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 30 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has total cover against attacks and other effects outside the tarrasque, and it takes ',
+                  { roll: '16d6' },
+                  ' acid damage at the start of each of the tarrasque’s turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -606,6 +644,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'siege-monster',
@@ -641,12 +680,8 @@ export default createPublicationMonsters({
               'If the target is a Large or smaller creature ',
               rules.grappled,
               ' by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has total cover against attacks and other effects outside the kraken, and it takes ',
-              { roll: '12d6' },
-              ' acid damage at the start of each of the kraken’s turns. If the kraken takes 50 damage or more on a single turn from a creature inside it, the kraken must succeed on a ',
+              { effect: 'swallowed' },
+              '. If the kraken takes 50 damage or more on a single turn from a creature inside it, the kraken must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -655,6 +690,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has total cover against attacks and other effects outside the kraken, and it takes ',
+                  { roll: '12d6' },
+                  ' acid damage at the start of each of the kraken’s turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -671,10 +720,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 18). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'tentacle-grapple' },
               '. The kraken has ten tentacles, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -686,14 +743,30 @@ export default createPublicationMonsters({
               'One Large or smaller object held or creature ',
               rules.grappled,
               ' by the kraken is thrown up to 60 feet in a random direction and knocked ',
-              rules.prone,
+              { effect: 'fling-prone' },
               '. If a thrown target strikes a solid surface, the target takes ',
               { roll: '1d6' },
               ' bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a ',
               { dc: 'dex', printed: 18 },
               ' Dexterity saving throw or take the same damage and be knocked ',
-              rules.prone,
+              { effect: 'fling-prone-save' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'fling-prone',
+                name: 'Prone',
+                lands: { on: 'use' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'fling-prone-save',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 18 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -715,6 +788,7 @@ export default createPublicationMonsters({
             text: [
               'The kraken magically creates three bolts of lightning, each of which can strike a target the kraken can see within 120 feet of it.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -746,6 +820,7 @@ export default createPublicationMonsters({
               text: [
                 'While underwater, the kraken expels an ink cloud in a 60-foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than the kraken. A strong current disperses the cloud, which otherwise disappears at the end of the kraken’s next turn.',
               ],
+              effects: [],
             },
           ],
         },

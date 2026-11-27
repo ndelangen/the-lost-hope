@@ -169,6 +169,7 @@ export default createPublicationMonsters({
               '; 7th level (1 slot): ',
               refs.spells.finger_of_death_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'darkness-breeds-darkness',
@@ -207,6 +208,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', blessing of the Mother Night, and two legendary actions per turn. In addition, her kiss no longer heals her.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -231,10 +233,27 @@ export default createPublicationMonsters({
               'The target must succeed in a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              '. The ',
-              rules.charmed,
-              " target regards Esmae as his or her true love to be heeded and protected, through violence against others if need be. Although the target isn't under Esmae's control, it takes Esmae's requests or actions in the most favorable way it can. Each time Esmae or Esmae's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Esmae is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect. Esmae heals half of the psychic damage done.",
+              { effect: 'esmae-kiss-charm' },
+              '. Esmae heals half of the psychic damage done.',
+            ],
+            effects: [
+              {
+                key: 'esmae-kiss-charm',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target regards Esmae as his or her true love to be heeded and protected, through violence against others if need be. Although the target isn't under Esmae's control, it takes Esmae's requests or actions in the most favorable way it can. Each time Esmae or Esmae's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until Esmae is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -287,8 +306,17 @@ export default createPublicationMonsters({
               "All candles in the room flare brightly. Esmae's enemies who can see must make a ",
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.blinded,
-              ' until the end of their action.',
+              { effect: 'candle-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'candle-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'until', text: ['the end of their action'] },
+              },
             ],
           },
           {
@@ -304,7 +332,19 @@ export default createPublicationMonsters({
             text: [
               'Moonlight fills the room. All creatures that were ',
               rules.charmed,
-              ' by Esmae but no longer are, stare longingly at her until the end of their next turn; granting enemies advantage on attacks rolls. These victims may still act normally.',
+              ' by Esmae but no longer are, stare longingly at her ',
+              { effect: 'longing-stare' },
+            ],
+            effects: [
+              {
+                key: 'longing-stare',
+                name: 'Longing stare',
+                lands: { on: 'use' },
+                text: [
+                  'granting enemies advantage on attacks rolls. These victims may still act normally.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -348,6 +388,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',

@@ -55,6 +55,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               '. These spells require no components. At will · Detect Thoughts, Minor Illusion. 1/day each · Arcane Gate, Hunger of Hadar.',
             ],
+            effects: [],
           },
           {
             key: 'aberrant-form',
@@ -73,6 +74,7 @@ export default createPublicationMonsters({
             text: [
               'The aura affects a creature other than an Aberration that starts its turn within 5 ft. of the zealot.',
             ],
+            effects: [],
           },
           {
             key: 'weirdly-pliable',
@@ -113,8 +115,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'dex', save: 'wis' },
               ' Wisdom save or become ',
-              rules.stunned,
-              " until the start of the zealot's next turn.",
+              { effect: 'psychic-rend' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'psychic-rend',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -145,16 +156,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.psychic, addModifier: true }],
-                also: [
-                  'The target becomes ',
-                  rules.stunned,
-                  ' for 1 minute. A ',
-                  rules.stunned,
-                  ' target can repeat the save at the end of each of its turns, ending the condition on a success.',
-                ],
+
+                also: [{ effect: 'mind-blast-stun' }],
               },
             },
             text: ['The zealot emits magical psychic energy in a 60-ft. cone.'],
+            effects: [
+              {
+                key: 'mind-blast-stun',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -179,6 +195,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1211,6 +1228,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sanctuary_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dwarven-resilience',

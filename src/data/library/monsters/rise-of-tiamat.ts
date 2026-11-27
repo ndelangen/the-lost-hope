@@ -230,6 +230,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fanatic-advantage',
@@ -252,6 +253,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -336,8 +338,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it is ',
-              rules.grappled,
-              " (escape DC 11). Until this grapple ends, the toad can't bite another target.",
+              { effect: 'bite-grapple' },
+              ". Until this grapple ends, the toad can't bite another target.",
+            ],
+            effects: [
+              {
+                key: 'bite-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 11 } },
+              },
             ],
           },
         ],
@@ -618,8 +630,18 @@ export default createPublicationMonsters({
               "Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain's next turn. Each creature that starts its turn in the gas must succeed on a ",
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'poisonous-cloud' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'poisonous-cloud',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',

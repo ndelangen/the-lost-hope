@@ -58,6 +58,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -166,6 +167,7 @@ export default createPublicationMonsters({
             text: ['Langdedrosa breathes lightning in a 30-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

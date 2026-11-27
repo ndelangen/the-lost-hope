@@ -67,6 +67,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.fireball_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -165,6 +166,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.lightning_bolt_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -179,6 +181,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.levitate_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -311,6 +314,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fanatical-advantage',
@@ -333,6 +337,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -412,6 +417,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.misty_step_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -423,6 +429,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic can’t put him to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'war-magic',
@@ -600,6 +607,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
         ],
       },
@@ -909,6 +917,7 @@ export default createPublicationMonsters({
             text: ['Langdedrosa breathes lightning in a 30-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -960,6 +969,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_walk_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -1149,6 +1159,7 @@ export default createPublicationMonsters({
               '; 6th level (1 slot): ',
               refs.spells.globe_of_invulnerability_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',

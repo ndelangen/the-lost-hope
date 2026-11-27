@@ -927,6 +927,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -1023,6 +1024,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'gnome-cunning',
@@ -1041,6 +1043,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ', with no material components. At will: nondetection (self only). 1/day each: blindness/deafness, blur, disguise self.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',

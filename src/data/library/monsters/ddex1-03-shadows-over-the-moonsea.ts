@@ -75,6 +75,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.inflict_wounds_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dark-devotion',
@@ -88,6 +89,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -209,6 +211,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.misty_step_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',

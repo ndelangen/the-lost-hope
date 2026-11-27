@@ -64,8 +64,17 @@ export default createPublicationMonsters({
               ' lightning damage, and the target must succeed on a ',
               { dc: 'con', printed: 14 },
               ' Constitution saving throw or be ',
-              rules.stunned,
-              " until the end of the myrmidon's next turn.",
+              { effect: 'lightning-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'lightning-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 14 },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -182,6 +191,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.slow_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment-1-cloak-of-protection',
@@ -267,6 +277,7 @@ export default createPublicationMonsters({
               ', tidal wave*, ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'actor',
@@ -338,6 +349,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scorching_ray_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -697,6 +709,7 @@ export default createPublicationMonsters({
               '; 2nd level (2 slots): ',
               refs.spells.gust_of_wind_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'unarmored-defense',
@@ -793,6 +806,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.fear_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'chilling-mist',
@@ -822,10 +836,18 @@ export default createPublicationMonsters({
               'Eye of Frost*. The one-eyed shiver casts ',
               refs.spells.ray_of_frost_srd_5_1,
               ' from its missing eye. If It hits, the target is also ',
-              rules.restrained,
-              '. A target ',
-              rules.restrained,
-              ' in this way can end the condition by using an action, succeeding on a DC 13 Strength check.',
+              { effect: 'frost-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'frost-restrained',
+                name: 'Restrained by frost',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['using an action, succeeding on a DC 13 Strength check'] },
+              },
             ],
           },
         ],

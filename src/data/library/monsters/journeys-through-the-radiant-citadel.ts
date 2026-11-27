@@ -1145,6 +1145,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally is within 5 feet of the target.',
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -1845,6 +1846,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally is within 5 feet of the target.',
             ],
+            effects: [],
           },
           {
             key: 'rapier',
@@ -2604,6 +2606,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -3076,6 +3079,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the spy doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -3407,6 +3411,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',

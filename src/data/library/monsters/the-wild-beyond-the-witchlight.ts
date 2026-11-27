@@ -1906,7 +1906,19 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '. A creature that starts its turn within 30 ft. and can hear it must make a ',
               { dc: 'con', save: 'cha' },
-              ' Charisma save. On a failure, it has no reactions until its next turn starts, and rolls 1d4 for its current turn. On 1–2, it does nothing. On 3, it only spends all its movement in a random direction. On 4, it makes one melee attack against a random visible creature in reach, or does nothing if none is in reach.',
+              ' Charisma save. On a failure, ',
+              { effect: 'confusing-burble' },
+            ],
+            effects: [
+              {
+                key: 'confusing-burble',
+                name: 'Confused',
+                lands: { on: 'save', save: 'cha', dc: 'con' },
+                text: [
+                  'it has no reactions until its next turn starts, and rolls 1d4 for its current turn. On 1–2, it does nothing. On 3, it only spends all its movement in a random direction. On 4, it makes one melee attack against a random visible creature in reach, or does nothing if none is in reach.',
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -1998,6 +2010,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -2028,9 +2041,19 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Falls ', rules.prone, '.'],
+
+                  also: [{ effect: 'wing-attack-prone' }],
                 },
               },
+              effects: [
+                {
+                  key: 'wing-attack-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },

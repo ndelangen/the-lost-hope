@@ -45,6 +45,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'reckless',
@@ -149,6 +150,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): crown of madness, ',
               refs.spells.lightning_bolt_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'insanity',
@@ -162,6 +164,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -198,8 +201,17 @@ export default createPublicationMonsters({
               'If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or fall ',
-              rules.prone,
+              { effect: 'shortspear-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'shortspear-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -667,6 +679,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shield_of_faith_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -1067,7 +1080,21 @@ export default createPublicationMonsters({
               { dc: 'cha', printed: 15 },
               ' Charisma saving throw, unless the umber hulk is ',
               rules.incapacitated,
-              '. On a failed saving throw, the creature can’t take reactions until the start of its next turn and rolls a d8 to determine what it does during that turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, the creature makes one melee attack against a random creature, or it does nothing if no creature is within reach. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can’t see the umber hulk until the start of its next turn, when it can avert its eyes again. If the creature looks at the umber hulk in the meantime, it must immediately make the save.',
+              '. On a failed saving throw, the creature ',
+              { effect: 'confused-gaze' },
+              ' Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can’t see the umber hulk until the start of its next turn, when it can avert its eyes again. If the creature looks at the umber hulk in the meantime, it must immediately make the save.',
+            ],
+            effects: [
+              {
+                key: 'confused-gaze',
+                name: 'Confused by the gaze',
+                lands: { on: 'save', save: 'cha', dc: 'cha', printed: 15 },
+                text: [
+                  'can’t take reactions',
+                  ' and rolls a d8 to determine what it does during that turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, the creature makes one melee attack against a random creature, or it does nothing if no creature is within reach.',
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {

@@ -83,16 +83,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '8d8', type: rules.force }],
-                also: [
+
+                also: [{ effect: 'time-breath-weakened' }],
+              },
+              onSuccess: 'half',
+            },
+            text: ['A cone turns nonmagical unattended objects and vegetation to dust.'],
+            effects: [
+              {
+                key: 'time-breath-weakened',
+                name: 'Weakened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                text: [
                   'It is weakened. Attacks against a weakened creature have Advantage, and it is ',
                   rules.poisoned,
                   '.',
                 ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'], successes: 3 },
               },
-              onSuccess: 'half',
-            },
-            text: [
-              'A cone turns nonmagical unattended objects and vegetation to dust.    A weakened target may repeat the save at each turn end. Its third successful repeat ends the effect.',
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -143,12 +153,22 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.psychic }],
-                also: [
-                  'Disappears for one round, then returns to its space or the nearest available space.',
-                ],
+
+                also: [{ effect: 'temporal-fling-vanish' }],
               },
               printedDc: 18,
             },
+            effects: [
+              {
+                key: 'temporal-fling-vanish',
+                name: 'Vanished',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Disappears for one round, then returns to its space or the nearest available space.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'round' },
+              },
+            ],
           },
           {
             key: 'temporal-lag',
@@ -254,16 +274,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 90 } },
               onFail: {
                 damage: [{ dice: '8d12', type: rules.force }],
-                also: [
+
+                also: [{ effect: 'time-breath-weakened' }],
+              },
+              onSuccess: 'half',
+            },
+            text: ['A cone turns nonmagical unattended objects and vegetation to dust.'],
+            effects: [
+              {
+                key: 'time-breath-weakened',
+                name: 'Weakened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                text: [
                   'It is weakened. Attacks against a weakened creature have Advantage, and it is ',
                   rules.poisoned,
                   '. Other creatures also resist all damage it deals.',
                 ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'], successes: 3 },
               },
-              onSuccess: 'half',
-            },
-            text: [
-              'A cone turns nonmagical unattended objects and vegetation to dust.    A weakened target may repeat the save at each turn end. Its third successful repeat ends the effect.',
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -325,11 +355,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.psychic }],
-                also: [
-                  'Disappears for one round, then returns to its space or the nearest available space.',
-                ],
+
+                also: [{ effect: 'temporal-fling-vanish' }],
               },
             },
+            effects: [
+              {
+                key: 'temporal-fling-vanish',
+                name: 'Vanished',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Disappears for one round, then returns to its space or the nearest available space.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'round' },
+              },
+            ],
           },
           {
             key: 'temporal-lag',
@@ -401,6 +441,7 @@ export default createPublicationMonsters({
               refs.spells.suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -461,6 +502,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or dies, or when it spends a bonus action to dismiss it.',
             ],
+            effects: [],
           },
           {
             key: 'invoke-weakness',
@@ -470,13 +512,24 @@ export default createPublicationMonsters({
             text: [
               'Wisdom Saving Throw: ',
               { dc: 'int' },
-              ', one creature the aurumach can see within 120 feet. Failure: The creature is cursed until the end of the aurumach’s next turn. The next ',
+              ', one creature the aurumach can see within 120 feet. Failure: ',
+              { effect: 'invoke-weakness' },
+              ' The next ',
               { ability: 'manifested-blade' },
               ' or ',
               { ability: 'gleaming-ray' },
               ' hit against it while cursed adds ',
               { roll: '6d8' },
               ' force damage.',
+            ],
+            effects: [
+              {
+                key: 'invoke-weakness',
+                name: 'Cursed',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                text: ['The creature is cursed until the end of the aurumach’s next turn.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -687,8 +740,17 @@ export default createPublicationMonsters({
               ' bludgeoning and forces a ',
               { dc: 'str' },
               ' Strength save to avoid falling ',
-              rules.prone,
+              { effect: 'ram-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'ram-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3783,10 +3845,19 @@ export default createPublicationMonsters({
               'Choose an option or roll a d4. 1–2 · Chains. A visible target within 30 ft. makes a ',
               { dc: 'cha', save: 'dex' },
               ' Dexterity save or becomes ',
-              rules.restrained,
-              " until the end of its next turn. 3–4 · Magic Shield. Gain a bonus of 5 to AC until the start of the matter smith's next turn. The first creature that misses it with a melee attack while the shield is present takes ",
+              { effect: 'chains' },
+              ". 3–4 · Magic Shield. Gain a bonus of 5 to AC until the start of the matter smith's next turn. The first creature that misses it with a melee attack while the shield is present takes ",
               { roll: '2d6' },
               ' force.',
+            ],
+            effects: [
+              {
+                key: 'chains',
+                name: 'Chains',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -4249,15 +4320,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '8d12', type: rules.radiant }],
-                also: [
-                  'The target is ',
-                  rules.blinded,
-                  ' until the end of the incarnate’s next turn.',
-                ],
+
+                also: ['The target is ', { effect: 'planar-exhalation-blind' }, '.'],
               },
               onSuccess: 'half',
             },
             text: ['The damage is radiant in celestial form or necrotic in fiend form.'],
+            effects: [
+              {
+                key: 'planar-exhalation-blind',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -4278,6 +4355,7 @@ export default createPublicationMonsters({
             text: [
               'When hit by an attack roll, choose a creature the incarnate can see within 120 ft.',
             ],
+            effects: [],
           },
           {
             key: 'teleport',
@@ -5387,14 +5465,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '7d8', type: rules.force }],
-                also: [
-                  'The creature becomes magically weakened. Attacks against it have advantage while weakened.',
-                ],
+
+                also: [{ effect: 'time-breath-weakened' }],
               },
               onSuccess: 'half',
             },
             text: [
-              'The dragon exhales a 30-ft. cone that reduces unworn and uncarried nonmagical objects and vegetation to dust.    A weakened creature can repeat the save at the end of each of its turns. Its second successful repeat ends the effect.',
+              'The dragon exhales a 30-ft. cone that reduces unworn and uncarried nonmagical objects and vegetation to dust.',
+            ],
+            effects: [
+              {
+                key: 'time-breath-weakened',
+                name: 'Weakened',
+                lands: { on: 'failed-save' },
+                text: [
+                  'The creature becomes magically weakened. Attacks against it have advantage while weakened.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'], successes: 2 },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

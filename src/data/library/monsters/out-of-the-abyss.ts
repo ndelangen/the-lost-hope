@@ -239,12 +239,18 @@ export default createPublicationMonsters({
               'The bridesmaid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. While ',
-              rules.poisoned,
-              ' in this way, the target is ',
-              rules.incapacitated,
-              '. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'hallucination-spores' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'hallucination-spores',
+                name: 'Hallucination spores',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned, rules.incapacitated],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -255,7 +261,19 @@ export default createPublicationMonsters({
             text: [
               'The bridesmaid releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a ',
               { dc: 'con' },
-              " Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual).",
+              " Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is ",
+              { effect: 'spores-of-zuggtmoy' },
+            ],
+            effects: [
+              {
+                key: 'spores-of-zuggtmoy',
+                name: 'Spores of Zuggtmoy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual).",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -378,8 +396,18 @@ export default createPublicationMonsters({
               'Whenever the chamberlain takes damage, it releases a cloud of spores. Creatures within 5 feet of the chamberlain when this happens must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'poison-spores' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'poison-spores',
+                name: 'Poison spores',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -410,7 +438,19 @@ export default createPublicationMonsters({
             text: [
               'The chamberlain releases spores that burst out in a cloud that fills a 10-foot-radius sphere centered on it, and the cloud lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a ',
               { dc: 'con' },
-              " Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual).",
+              " Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is ",
+              { effect: 'spores-of-zuggtmoy' },
+            ],
+            effects: [
+              {
+                key: 'spores-of-zuggtmoy',
+                name: 'Spores of Zuggtmoy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "infected with a disease called the spores of Zuggtmoy and also gains a random form of indefinite madness (determined by rolling on the Madness of Zuggtmoy table in appendix D) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual).",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -462,10 +502,20 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              " (escape DC 14) if it is a Large or smaller creature and the spore servant doesn't have two other creatures ",
+              { effect: 'pincer-grapple' },
+              " if it is a Large or smaller creature and the spore servant doesn't have two other creatures ",
               rules.grappled,
               '.',
+            ],
+            effects: [
+              {
+                key: 'pincer-grapple',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
         ],
@@ -624,6 +674,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shatter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -644,6 +695,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -666,6 +718,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Droki doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -705,6 +758,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The sword is coated with serpent venom that wears off after the first hit.'],
+            effects: [],
           },
           {
             key: 'parry',
@@ -762,6 +816,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ', with no material components. At will: dancing lights. 1/day each: darkness, faerie fire, levitate (self only).',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -837,6 +892,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ', with no material components. At will: dancing lights. 1/day each: darkness, faerie fire, levitate (self only).',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -933,6 +989,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the spy doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -951,6 +1008,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ', with no material components. At will: dancing lights. 1/day each: darkness, faerie fire, levitate (self only).',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1150,12 +1208,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If this poison drops it to 0 HP, it is stable and ',
-              rules.poisoned,
-              ' for 1 hour, even if it regains HP. It is ',
-              rules.paralyzed,
-              ' while ',
-              rules.poisoned,
-              ' this way.',
+              { effect: 'spider-poison' },
+              ', even if it regains HP.',
+            ],
+            effects: [
+              {
+                key: 'spider-poison',
+                name: 'Poisoned and paralyzed',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
         ],
@@ -1498,6 +1561,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sanctuary_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'gnome-cunning',
@@ -1516,6 +1580,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ', with no material components. At will: nondetection (self only). 1/day each: blindness/deafness, blur, disguise self.',
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -1594,6 +1659,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1863,6 +1929,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the spy doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'gnome-cunning',
@@ -1881,6 +1948,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ', with no material components. At will: nondetection (self only). 1/day each: blindness/deafness, blur, disguise self.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2063,6 +2131,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the spy doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2146,6 +2215,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ', with no material components. At will: nondetection (self only). 1/day each: blindness/deafness, blur, disguise self.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2244,6 +2314,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spider_climb_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'insanity',
@@ -2257,6 +2328,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2306,6 +2378,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '. He remains so until he moves or takes an action or reaction.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2368,6 +2441,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the spy doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'gnome-cunning',
@@ -2386,6 +2460,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ', with no material components. At will: nondetection (self only). 1/day each: blindness/deafness, blur, disguise self.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2935,6 +3010,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.barkskin_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -3092,6 +3168,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ', with no material components. At will: nondetection (self only). 1/day each: blindness/deafness, blur, disguise self.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack-humanoid-or-hybrid-form-only',
@@ -3115,7 +3192,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wererat lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wererat-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wererat-lycanthropy',
+                name: 'Wererat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wererat lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3202,6 +3290,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ', with no material components. At will: nondetection (self only). 1/day each: blindness/deafness, blur, disguise self.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack-humanoid-or-hybrid-form-only',
@@ -3225,7 +3314,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wererat lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wererat-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wererat-lycanthropy',
+                name: 'Wererat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wererat lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3312,6 +3412,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ', with no material components. At will: nondetection (self only). 1/day each: blindness/deafness, blur, disguise self.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack-humanoid-or-hybrid-form-only',
@@ -3335,7 +3436,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wererat lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wererat-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wererat-lycanthropy',
+                name: 'Wererat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wererat lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

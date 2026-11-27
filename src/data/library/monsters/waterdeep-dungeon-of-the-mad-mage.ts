@@ -683,9 +683,18 @@ export default createPublicationMonsters({
               { roll: '2d6' },
               ' damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or be knocked ',
-              rules.prone,
+              ' Strength saving throw or be ',
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3304,6 +3313,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',

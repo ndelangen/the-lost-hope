@@ -531,12 +531,16 @@ export default createPublicationMonsters({
             name: 'Charm Beam',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'Wisdom ',
-              { dc: 'con' },
-              ' or ',
-              rules.charmed,
-              ' for 1 hour, ending if he harms the creature or one of its allies.',
+            text: ['Wisdom ', { dc: 'con' }, ' or ', { effect: 'charm-beam' }, '.'],
+            effects: [
+              {
+                key: 'charm-beam',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: ['Ending if he harms the creature or one of its allies.'],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -551,6 +555,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' prevents it.',
             ],
+            effects: [],
           },
           {
             key: 'memory-beam',
@@ -560,7 +565,19 @@ export default createPublicationMonsters({
             text: [
               'Intelligence ',
               { dc: 'con' },
-              ' or waste the highest remaining spell slot. If none remain, lose proficiency with one weapon held or carried for 1 minute, save ends at end of turn.',
+              ' or waste the highest remaining spell slot. If none remain, ',
+              { effect: 'memory-lost-proficiency' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'memory-lost-proficiency',
+                name: 'Lost weapon proficiency',
+                lands: { on: 'save', save: 'int', dc: 'con' },
+                text: ['lose proficiency with one weapon held or carried'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -572,8 +589,18 @@ export default createPublicationMonsters({
               'At a visible point within 120 ft., creatures within 10 ft. make Constitution ',
               { dc: 'con' },
               ' or are ',
-              rules.poisoned,
-              ' for 1 minute, save ends at end of turn.',
+              { effect: 'toxic-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'toxic-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -588,6 +615,7 @@ export default createPublicationMonsters({
               { roll: '2d6' },
               ' force. Move an unattended object within the same area up to 30 ft. if it weighs at most 300 lb., or operate a simple object.',
             ],
+            effects: [],
           },
           {
             key: 'lightning-bolt',
@@ -601,6 +629,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' halves.',
             ],
+            effects: [],
           },
           {
             key: 'explosion',
@@ -614,6 +643,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' halves.',
             ],
+            effects: [],
           },
           {
             key: 'necrosis-beam',
@@ -625,9 +655,19 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' or take ',
               { roll: '10d10' },
-              ' necrotic and lose ',
-              { roll: '2d6' },
-              ' HP at each turn start. Reducing the target to 0 HP this way kills it. Ends if he dies or loses sight of the target. He cannot use it again while it persists.',
+              ' necrotic and ',
+              { effect: 'necrosis' },
+              '. Reducing the target to 0 HP this way kills it.',
+              ' He cannot use it again while it persists.',
+            ],
+            effects: [
+              {
+                key: 'necrosis',
+                name: 'Necrosis',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['lose ', { roll: '2d6' }, ' HP at each turn start.'],
+                lasts: { kind: 'until', text: ['he dies or loses sight of the target'] },
+              },
             ],
           },
           {
@@ -650,8 +690,18 @@ export default createPublicationMonsters({
               ' or takes ',
               { roll: '6d6' },
               ' psychic and becomes ',
-              rules.frightened,
-              ' of him for 1 minute, save ends at end of turn.',
+              { effect: 'cower-fear' },
+              ' of him.',
+            ],
+            effects: [
+              {
+                key: 'cower-fear',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],

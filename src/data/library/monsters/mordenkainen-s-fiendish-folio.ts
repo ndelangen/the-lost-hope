@@ -327,6 +327,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ', +15 to spell attacks, no material components. Shield retains its normal reaction trigger. At will · Blight, Blink, Chaos Bolt, Detect Magic, Fly, Shield. 3/day each · Circle of Death, Enervation, Symbol (discord). 2/day each · Finger of Death, Harm, Mental Prison. 1/day each · Power Word Kill, Power Word Stun, Symbol (death), Weird.',
             ],
+            effects: [],
           },
           {
             key: 'entropic-aura',
@@ -397,12 +398,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d8', type: rules.necrotic, addModifier: true }],
             },
-            text: [
-              'A ',
-              { dc: 'con' },
-              ' Constitution save avoids one ',
-              rules.exhaustion,
-              ' level.',
+            text: ['A ', { dc: 'con' }, ' Constitution save avoids ', { effect: 'entropic-touch' }],
+            effects: [
+              {
+                key: 'entropic-touch',
+                name: 'Entropic touch',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['one ', rules.exhaustion, ' level.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -455,6 +459,7 @@ export default createPublicationMonsters({
                 { roll: '12d6' },
                 ' necrotic, halved on success. Ygorl heals for half the total damage those creatures take.',
               ],
+              effects: [],
             },
           ],
         },

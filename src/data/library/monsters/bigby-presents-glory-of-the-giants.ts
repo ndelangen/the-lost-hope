@@ -5544,10 +5544,19 @@ export default createPublicationMonsters({
               'Throw three stones linked by magical force at a visible creature within 60 ft. It makes a Dexterity saving throw (',
               { dc: 'wis' },
               '). On a failure, it is ',
-              rules.restrained,
-              ' until the start of the giant’s next turn and the stones erupt, dealing ',
+              { effect: 'bolas-restrained' },
+              ' and the stones erupt, dealing ',
               { roll: '4d6' },
               ' thunder damage to the target and each creature within 10 ft. of it. On a success, the stones vanish without erupting.',
+            ],
+            effects: [
+              {
+                key: 'bolas-restrained',
+                name: 'Restrained by stone bolas',
+                lands: { on: 'save', save: 'dex', dc: 'wis' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -5561,8 +5570,17 @@ export default createPublicationMonsters({
               '). On a failure, it takes ',
               { roll: '8d6' },
               ' bludgeoning damage and falls ',
-              rules.prone,
+              { effect: 'avalanche-prone' },
               '. On a success, it takes half damage. The rocks make the ground in the area difficult terrain until the start of the giant’s next turn, when they vanish.',
+            ],
+            effects: [
+              {
+                key: 'avalanche-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'wis' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5583,6 +5601,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_stone_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'hill-rebuff-requires-hill-rune',
@@ -5596,6 +5615,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' force damage and be pushed 10 ft. horizontally away from the giant.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6653,10 +6673,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target falls ',
-              rules.prone,
+              { effect: 'javelin-prone' },
               ' unless it makes a ',
               { dc: 'str' },
               ' Strength save.',
+            ],
+            effects: [
+              {
+                key: 'javelin-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6683,10 +6712,19 @@ export default createPublicationMonsters({
               ' Strength save or be pulled straight toward the center, stopping in the nearest unoccupied space to that point. Then the scion releases thunder in a 30-ft.-radius sphere at that same point. Each creature in the smaller sphere must pass a ',
               { dc: 'cha', save: 'con' },
               ' Constitution save or be ',
-              rules.stunned,
-              ' until the end of its next turn, and takes ',
+              { effect: 'vortex-stunned' },
+              ', and takes ',
               { roll: '8d12' },
               ' thunder damage.',
+            ],
+            effects: [
+              {
+                key: 'vortex-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -6700,8 +6738,20 @@ export default createPublicationMonsters({
               'Center a 30-ft.-radius magical cloud on a visible point within 90 ft. Each creature in the cloud makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.charmed,
-              ' until the end of its next turn. It must use its action for a melee attack against another creature the scion chooses. If none is within reach, it instead makes a ranged attack against a creature the scion chooses, throwing its weapon if necessary. Success makes the creature immune to this scion’s Fog of Deception for 24 hours.',
+              { effect: 'fog-charmed' },
+              '. Success makes the creature immune to this scion’s Fog of Deception for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'fog-charmed',
+                name: 'Charmed by the fog',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: [
+                  'It must use its action for a melee attack against another creature the scion chooses. If none is within reach, it instead makes a ranged attack against a creature the scion chooses, throwing its weapon if necessary.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -6797,10 +6847,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30, which: 'it hits' },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.radiant }],
-                also: ['Is ', rules.blinded, ' until the start of the scion’s next turn.'],
+
+                also: [{ effect: 'club-blinded' }],
               },
             },
             text: ['Hit or miss, the scion can make its club flash.'],
+            effects: [
+              {
+                key: 'club-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'slam',
@@ -6834,13 +6894,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '3d12', type: rules.force }],
-                also: ['Knocks the creature ', rules.prone, '.'],
+
+                also: ['Knocks the creature ', { effect: 'boulder-prone' }, '.'],
               },
             },
             text: [
               'Hit or miss, the boulder explodes. Success halves the force damage and does not knock the creature ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'boulder-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6854,12 +6924,22 @@ export default createPublicationMonsters({
               '), it takes ',
               { roll: '8d6' },
               ' force damage and is ',
-              rules.grappled,
-              ' (escape DC 19). At the start of the scion’s next turn, the target is ',
+              { effect: 'entombing-grappled' },
+              '. At the start of the scion’s next turn, the target is ',
               rules.petrified,
               ' if still ',
               rules.grappled,
               '.',
+            ],
+            effects: [
+              {
+                key: 'entombing-grappled',
+                name: 'Entombed',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 19 } },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -6874,6 +6954,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'con' },
               ' Constitution save.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6997,10 +7078,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target falls ',
-              rules.prone,
+              { effect: 'hailstone-prone' },
               ' unless it passes a ',
               { dc: 'str' },
               ' Strength save.',
+            ],
+            effects: [
+              {
+                key: 'hailstone-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -7035,9 +7125,27 @@ export default createPublicationMonsters({
             text: [
               'Each creature in the cylinder makes a Constitution saving throw (',
               { dc: 'wis' },
-              '). On a failure, acid coats it for 1 minute or until a creature uses an action to remove the acid from itself or another creature. A coated creature takes ',
-              { roll: '4d12' },
-              ' acid damage at the start of each of its turns.',
+              '). On a failure, acid coats it ',
+              { effect: 'acid-coating' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'acid-coating',
+                name: 'Acid coating',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                text: [
+                  'A coated creature takes ',
+                  { roll: '4d12' },
+                  ' acid damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: {
+                  cure: [
+                    'a creature uses an action to remove the acid from itself or another creature',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -7050,7 +7158,23 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               '). Failure deals ',
               { roll: '8d6' },
-              ' cold damage and reduces its speed to 0 for 1 minute. The creature, or another creature within reach, can use an action to break away the ice and end the effect.',
+              ' cold damage and reduces its speed to 0',
+              { effect: 'ice-bound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'ice-bound',
+                name: 'Frozen',
+                lands: { on: 'save', save: 'dex', dc: 'wis' },
+                text: ['Its speed is 0.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: {
+                  cure: [
+                    'The creature, or another creature within reach, can use an action to break away the ice',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -7064,8 +7188,17 @@ export default createPublicationMonsters({
               '). On a failure, it takes ',
               { roll: '4d8' },
               ' lightning damage and is ',
-              rules.stunned,
-              ' until the end of its next turn.',
+              { effect: 'bolts-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bolts-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'dex', dc: 'wis' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -7391,10 +7524,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target falls ',
-              rules.prone,
+              { effect: 'glacier-prone' },
               ' unless it makes a ',
               { dc: 'str' },
               ' Strength save.',
+            ],
+            effects: [
+              {
+                key: 'glacier-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -7419,6 +7561,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'earth-shaking-movement',
@@ -7430,6 +7573,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'con' },
               ' Constitution save.',
             ],
+            effects: [],
           },
         ],
       },

@@ -212,6 +212,7 @@ export default createPublicationMonsters({
             text: ['Langdedrosa breathes lightning in a 30-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

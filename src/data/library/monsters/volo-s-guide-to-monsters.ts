@@ -398,6 +398,7 @@ export default createPublicationMonsters({
               refs.spells.fog_cloud_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -452,10 +453,23 @@ export default createPublicationMonsters({
             },
             text: [
               'A Large or smaller creature is also ',
-              rules.grappled,
-              ' (escape DC 15) and takes another ',
-              { roll: '9d6', mod: 'str' },
-              ' bludgeoning damage at the start of each of the hag’s turns until the grapple ends. The hag cannot make attacks while she grapples it this way.',
+              { effect: 'crushing-hug' },
+              '. The hag cannot make attacks while she grapples it this way.',
+            ],
+            effects: [
+              {
+                key: 'crushing-hug',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: [
+                  'takes another ',
+                  { roll: '9d6', mod: 'str' },
+                  ' bludgeoning damage at the start of each of the hag’s turns until the grapple ends.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
         ],
@@ -539,6 +553,7 @@ export default createPublicationMonsters({
               refs.spells.fog_cloud_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -593,10 +608,23 @@ export default createPublicationMonsters({
             },
             text: [
               'A Large or smaller creature is also ',
-              rules.grappled,
-              ' (escape DC 15) and takes another ',
-              { roll: '9d6', mod: 'str' },
-              ' bludgeoning damage at the start of each of the hag’s turns until the grapple ends. The hag cannot make attacks while she grapples it this way.',
+              { effect: 'crushing-hug' },
+              '. The hag cannot make attacks while she grapples it this way.',
+            ],
+            effects: [
+              {
+                key: 'crushing-hug',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: [
+                  'takes another ',
+                  { roll: '9d6', mod: 'str' },
+                  ' bludgeoning damage at the start of each of the hag’s turns until the grapple ends.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
         ],
@@ -680,6 +708,7 @@ export default createPublicationMonsters({
               refs.spells.fog_cloud_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -734,10 +763,23 @@ export default createPublicationMonsters({
             },
             text: [
               'A Large or smaller creature is also ',
-              rules.grappled,
-              ' (escape DC 15) and takes another ',
-              { roll: '9d6', mod: 'str' },
-              ' bludgeoning damage at the start of each of the hag’s turns until the grapple ends. The hag cannot make attacks while she grapples it this way.',
+              { effect: 'crushing-hug' },
+              '. The hag cannot make attacks while she grapples it this way.',
+            ],
+            effects: [
+              {
+                key: 'crushing-hug',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: [
+                  'takes another ',
+                  { roll: '9d6', mod: 'str' },
+                  ' bludgeoning damage at the start of each of the hag’s turns until the grapple ends.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
         ],
@@ -821,6 +863,7 @@ export default createPublicationMonsters({
               refs.spells.fog_cloud_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -875,10 +918,23 @@ export default createPublicationMonsters({
             },
             text: [
               'A Large or smaller creature is also ',
-              rules.grappled,
-              ' (escape DC 15) and takes another ',
-              { roll: '9d6', mod: 'str' },
-              ' bludgeoning damage at the start of each of the hag’s turns until the grapple ends. The hag cannot make attacks while she grapples it this way.',
+              { effect: 'crushing-hug' },
+              '. The hag cannot make attacks while she grapples it this way.',
+            ],
+            effects: [
+              {
+                key: 'crushing-hug',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: [
+                  'takes another ',
+                  { roll: '9d6', mod: 'str' },
+                  ' bludgeoning damage at the start of each of the hag’s turns until the grapple ends.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
         ],
@@ -2071,10 +2127,29 @@ export default createPublicationMonsters({
               'Cover the ground in the boggle’s space with either slippery or sticky oil, regardless of its current coating. The puddle is 1 inch deep and lasts 1 hour. It is difficult terrain except for boggles. Each creature entering or starting its turn there makes a ',
               { dc: 'con' },
               ' save. Slippery oil calls for Dexterity and knocks the creature ',
-              rules.prone,
-              ' on a failure. Sticky oil calls for Strength and restrains it on a failure. A ',
+              { effect: 'oil-prone' },
+              ' on a failure. Sticky oil calls for Strength and ',
+              { effect: 'oil-restrained' },
+              ' on a failure. A ',
               rules.restrained,
               ' creature can spend its action on a DC 11 Strength check to free itself and move into the nearest safe, empty space.',
+            ],
+            effects: [
+              {
+                key: 'oil-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'oil-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.restrained],
+                text: ['restrains it'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2094,6 +2169,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ', stationary passage in a visible frame or opening within 5 ft. that measures at most 10 ft. on each side. Choose an exit within 30 ft. of that opening by sight or by direction and distance. Until the end of its next turn, only the boggle can use the passage. It can look, reach, strike, or move through it as if next to the exit.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2137,6 +2213,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks). The build uses the prepared wizard spells and slots listed below. Cantrips (at will). Fire Bolt, Light, Mage Hand, Prestidigitation. 1st level (4 slots). Detect Magic, Mage Armor, Magic Missile, Shield. 2nd level (3 slots). Misty Step, Suggestion. 3rd level (3 slots). Counterspell, Fireball, Fly. 4th level (3 slots). Greater Invisibility, Ice Storm. 5th level (1 slot). Cone of Cold.',
             ],
+            effects: [],
           },
           {
             key: 'nimble-escape',
@@ -2312,6 +2389,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_fire_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -2339,6 +2417,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dark-one-s-own-luck-recharges-after-a-short-or-long-rest',
@@ -2442,6 +2521,7 @@ export default createPublicationMonsters({
               refs.spells.vampiric_touch_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -2467,6 +2547,7 @@ export default createPublicationMonsters({
               refs.spells.true_seeing_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'whispering-aura',
@@ -2486,6 +2567,7 @@ export default createPublicationMonsters({
             text: [
               "At the start of each of the goblin's turns, the aura affects each creature it chooses within 5 ft.",
             ],
+            effects: [],
           },
           {
             key: 'nimble-escape',
@@ -5359,8 +5441,17 @@ export default createPublicationMonsters({
               " Wisdom save if it can see that creature and isn't ",
               rules.incapacitated,
               '. On a failure, the creature is ',
-              rules.stunned,
-              ' until the start of its next turn. A creature that is not surprised can look away at the start of its turn to skip the save. It then cannot see the gauth until its next turn begins and must make the save immediately if it looks at the gauth sooner.',
+              { effect: 'stunning-gaze-stun' },
+              '. A creature that is not surprised can look away at the start of its turn to skip the save. It then cannot see the gauth until its next turn begins and must make the save immediately if it looks at the gauth sooner.',
+            ],
+            effects: [
+              {
+                key: 'stunning-gaze-stun',
+                name: 'Stunned by the central eye',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -5379,6 +5470,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['When the gauth dies, the following applies.'],
+            effects: [],
           },
           {
             key: 'bite',
@@ -5413,6 +5505,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'dex' },
               " Dexterity save, one randomly chosen magic item the target has loses its magical properties until the start of the gauth's next turn. Exclude single-use items such as potions and scrolls. If the item uses charges, it also loses 1d4 charges. 2.",
             ],
+            effects: [],
           },
           {
             key: 'enervation-ray',
@@ -5426,6 +5519,7 @@ export default createPublicationMonsters({
               { roll: '4d8' },
               ' necrotic damage on a failure or half on a success. 3.',
             ],
+            effects: [],
           },
           {
             key: 'pushing-ray',
@@ -5435,7 +5529,18 @@ export default createPublicationMonsters({
             text: [
               'On a failed ',
               { dc: 'con', save: 'str' },
-              " Strength save, the target moves up to 15 ft. straight away from the gauth and its speed drops by half until the start of the gauth's next turn. 4.",
+              ' Strength save, the target moves up to 15 ft. straight away from the gauth and ',
+              { effect: 'pushing-ray-slow' },
+              '. 4.',
+            ],
+            effects: [
+              {
+                key: 'pushing-ray-slow',
+                name: 'Speed halved',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                text: ['its speed drops by half'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -5450,6 +5555,7 @@ export default createPublicationMonsters({
               { roll: '4d10' },
               ' fire damage. 5.',
             ],
+            effects: [],
           },
           {
             key: 'paralyzing-ray',
@@ -5460,8 +5566,18 @@ export default createPublicationMonsters({
               'On a failed ',
               { dc: 'con' },
               ' Constitution save, the target is ',
-              rules.paralyzed,
-              ' for 1 minute. It repeats the save at the end of each of its turns, ending the paralysis on a success. 6.',
+              { effect: 'paralyzing-ray-paralysis' },
+              '. 6.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-ray-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5473,8 +5589,17 @@ export default createPublicationMonsters({
               'On a failed ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save, the target falls ',
-              rules.unconscious,
-              ' for 1 minute. Damage or another creature spending an action to wake the target ends the sleep. Constructs and undead are unaffected.',
+              { effect: 'sleep-ray-sleep' },
+              '. Damage or another creature spending an action to wake the target ends the sleep. Constructs and undead are unaffected.',
+            ],
+            effects: [
+              {
+                key: 'sleep-ray-sleep',
+                name: 'Asleep',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -5636,18 +5761,35 @@ export default createPublicationMonsters({
               'Randomly select two different rays and direct them at one or two targets the gazer can see within 60 ft. 1 · Dazing Ray. The target makes a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save. On a failure it is ',
-              rules.charmed,
-              " until the start of the gazer's next turn, with half speed and Disadvantage on attack rolls. 2 · Fear Ray. The target makes a ",
+              { effect: 'dazing-ray-charm' },
+              '. 2 · Fear Ray. The target makes a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save or becomes ',
-              rules.frightened,
-              " until the start of the gazer's next turn. 3 · Frost Ray. The target makes a ",
+              { effect: 'fear-ray-fright' },
+              '. 3 · Frost Ray. The target makes a ',
               { dc: 'con', save: 'dex' },
               ' Dexterity save or takes ',
               { roll: '3d6' },
               ' cold damage. 4 · Telekinetic Ray. A Medium or smaller creature makes a ',
               { dc: 'con', save: 'str' },
               ' Strength save or moves up to 30 ft. directly away from the gazer. The gazer can move an object weighing 10 pounds or less that nobody is wearing or carrying up to 30 ft. in any direction. It can also use the ray for fine work such as manipulating a simple tool or opening a container.',
+            ],
+            effects: [
+              {
+                key: 'dazing-ray-charm',
+                name: 'Dazed by the ray',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: ['half speed and Disadvantage on attack rolls'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+              {
+                key: 'fear-ray-fright',
+                name: 'Frightened by the ray',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -8402,6 +8544,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               " to hit with spell attacks). Cantrips (at will). Mage Hand, Prestidigitation, Ray of Frost. Level 1 (4 slots). Detect Magic, Magic Missile, Shield, Thunderwave. Level 2 (3 slots). Detect Thoughts, Invisibility, Melf's Acid Arrow, Mirror Image. Level 3 (3 slots). Animate Dead, Counterspell, Dispel Magic, Fireball. Level 4 (3 slots). Blight, Dimension Door. Level 5 (3 slots). Cloudkill, Scrying. Level 6 (1 slot). Disintegrate, Globe of Invulnerability. Level 7 (1 slot). Finger of Death, Plane Shift. Level 8 (1 slot). Dominate Monster, Power Word Stun. Level 9 (1 slot). Power Word Kill.",
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -8421,6 +8564,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -8472,8 +8616,18 @@ export default createPublicationMonsters({
               'The target must make a ',
               { dc: 'con' },
               ' Constitution save or be ',
-              rules.paralyzed,
-              ' for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'paralyzing-touch-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-touch-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -8490,12 +8644,29 @@ export default createPublicationMonsters({
             },
             text: [
               'A target of Large size or smaller is ',
-              rules.grappled,
-              ' (escape DC 15) and must make a ',
+              { effect: 'tentacles-grab' },
+              ' and must make a ',
               { dc: 'int' },
               ' Intelligence save or be ',
-              rules.stunned,
-              ' until the grapple ends.',
+              { effect: 'tentacles-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tentacles-grab',
+                name: 'Grappled by tentacles',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
+              {
+                key: 'tentacles-stun',
+                name: 'Stunned by tentacles',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ['the grapple ends'] },
+              },
             ],
           },
           {
@@ -8526,15 +8697,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '5d8', type: rules.psychic, addModifier: true }],
-                also: [
-                  'The creature is ',
-                  rules.stunned,
-                  ' for 1 minute. It can repeat the save at the end of each of its turns, ending the stun on a success.',
-                ],
+
+                also: ['The creature is ', { effect: 'mind-blast-stun' }, '.'],
               },
               printedDc: 18,
             },
             text: ['The illithilich releases a 60 ft. cone of magical psychic energy.'],
+            effects: [
+              {
+                key: 'mind-blast-stun',
+                name: 'Stunned by mind blast',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -8592,6 +8770,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution save. On a failure, the illithilich takes half the damage (rounded down) and the target takes the rest. The tether ends on initiative count 20 in the next round or when either creature leaves the lair.',
             ],
+            effects: [],
           },
           {
             key: 'attack-of-the-dead',
@@ -8610,6 +8789,7 @@ export default createPublicationMonsters({
             text: [
               'Spirits of creatures that died in the lair strike one visible creature within 60 ft. and disappear.',
             ],
+            effects: [],
           },
         ],
       },
@@ -13571,6 +13751,7 @@ export default createPublicationMonsters({
               refs.spells.telekinesis_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'creature-sense',
@@ -13615,12 +13796,29 @@ export default createPublicationMonsters({
             },
             text: [
               'A Large or smaller creature hit is ',
-              rules.grappled,
-              ' (escape DC 14) and must pass a ',
+              { effect: 'tentacles-grab' },
+              ' and must pass a ',
               { dc: 'int' },
               ' Intelligence save or be ',
-              rules.stunned,
-              ' until the grapple ends.',
+              { effect: 'tentacles-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tentacles-grab',
+                name: 'Grappled by tentacles',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
+              {
+                key: 'tentacles-stun',
+                name: 'Stunned by tentacles',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ['the grapple ends'] },
+              },
             ],
           },
           {
@@ -13649,14 +13847,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.psychic, addModifier: true }],
-                also: [
-                  'The creature becomes ',
-                  rules.stunned,
-                  ' for 1 minute. It repeats the save at the end of each of its turns, ending the stun on a success.',
-                ],
+
+                also: ['The creature becomes ', { effect: 'mind-blast-stun' }, '.'],
               },
             },
             text: ['The ulitharid emits magical psychic energy in a 60-foot cone.'],
+            effects: [
+              {
+                key: 'mind-blast-stun',
+                name: 'Stunned by mind blast',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },

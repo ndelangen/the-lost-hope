@@ -136,6 +136,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'pounce',
@@ -146,7 +147,7 @@ export default createPublicationMonsters({
               'Move at least 20 ft. straight toward a creature and hit it with ',
               { ability: 'claws' },
               ' on the same turn. It falls ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               ' if it fails a ',
               { dc: 'str' },
               ' Strength save. The clawfoot can then ',
@@ -154,6 +155,15 @@ export default createPublicationMonsters({
               ' that target once as a bonus action if it is ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -241,6 +251,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the spy doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'halfling-nimbleness',
@@ -671,6 +682,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ').',
             ],
+            effects: [],
           },
           {
             key: 'dual-mind',
@@ -722,11 +734,21 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '1d4', type: rules.psychic }],
-                also: [
-                  'The creature has Disadvantage on its next attack roll before the end of its next turn.',
-                ],
+
+                also: [{ effect: 'mockery-disadvantage' }],
               },
             },
+            effects: [
+              {
+                key: 'mockery-disadvantage',
+                name: 'Vicious Mockery',
+                lands: { on: 'failed-save' },
+                text: [
+                  'The creature has Disadvantage on its next attack roll before the end of its next turn.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
         ],
       },
@@ -770,6 +792,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               '. These spells require no material components. At will · Mage Hand, Vicious Mockery. 1/day each · Charm Person, Dissonant Whispers, Hex, Hold Person, Mage Armor. 3/day · Arcane Eye.',
             ],
+            effects: [],
           },
           {
             key: 'dual-mind',
@@ -828,11 +851,21 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '1d4', type: rules.psychic }],
-                also: [
-                  'The creature has Disadvantage on its next attack roll before the end of its next turn.',
-                ],
+
+                also: [{ effect: 'mockery-disadvantage' }],
               },
             },
+            effects: [
+              {
+                key: 'mockery-disadvantage',
+                name: 'Vicious Mockery',
+                lands: { on: 'failed-save' },
+                text: [
+                  'The creature has Disadvantage on its next attack roll before the end of its next turn.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
         ],
       },
@@ -878,6 +911,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ').',
             ],
+            effects: [],
           },
           {
             key: 'dual-mind',
@@ -929,11 +963,21 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '1d4', type: rules.psychic }],
-                also: [
-                  'The creature has Disadvantage on its next attack roll before the end of its next turn.',
-                ],
+
+                also: [{ effect: 'mockery-disadvantage' }],
               },
             },
+            effects: [
+              {
+                key: 'mockery-disadvantage',
+                name: 'Vicious Mockery',
+                lands: { on: 'failed-save' },
+                text: [
+                  'The creature has Disadvantage on its next attack roll before the end of its next turn.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
         ],
       },

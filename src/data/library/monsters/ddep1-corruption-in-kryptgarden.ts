@@ -52,6 +52,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.animate_dead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -112,6 +113,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.misty_step_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',

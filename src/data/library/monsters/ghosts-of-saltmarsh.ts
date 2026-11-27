@@ -450,6 +450,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ', it drops to 0 HP instead. A creature that is not Surprised can avoid the save by averting its eyes, taking Disadvantage to attack the bodak until its next turn starts. Looking at it sooner triggers the save immediately.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -498,6 +499,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'aura-of-annihilation',
@@ -693,6 +695,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -3090,6 +3093,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' and +5 to spell attacks. Cantrips · Light, Sacred Flame, Thaumaturgy. 1st (4 slots) · Cure Wounds, Guiding Bolt, Sanctuary. 2nd (3 slots) · Lesser Restoration, Spiritual Weapon. 3rd (2 slots) · Dispel Magic, Speak with Dead.',
             ],
+            effects: [],
           },
           {
             key: 'unarmed-strike',

@@ -620,8 +620,18 @@ export default createPublicationMonsters({
               'Each creature the dragon chooses within 120 ft. that is aware of it makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.frightened,
-              " for 1 minute. It repeats the save at the end of each of its turns, ending the fear on a success. A successful save or the end of the fear grants immunity to the dragon's Frightful Presence for 24 hours.",
+              { effect: 'fright-presence' },
+              ". A successful save or the end of the fear grants immunity to the dragon's Frightful Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -641,6 +651,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -670,14 +681,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Falls ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -690,8 +711,17 @@ export default createPublicationMonsters({
               'Every pool the dragon can see within 120 ft. surges. Each creature on the ground within 20 ft. of any surging pool must succeed on a ',
               { dc: 'dex', save: 'str' },
               ' Strength save or be pulled up to 20 ft. into the water and knocked ',
-              rules.prone,
+              { effect: 'pool-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'pool-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -713,6 +743,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' piercing damage. The cloud ends when the dragon dismisses it as an action, uses Insect Cloud again, or dies.',
             ],
+            effects: [],
           },
           {
             key: 'darkness',
@@ -1038,8 +1069,18 @@ export default createPublicationMonsters({
               'Each creature the dragon chooses within 120 ft. that is aware of it makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.frightened,
-              " for 1 minute. It repeats the save at the end of each of its turns, ending the fear on a success. A successful save or the end of the fear grants immunity to the dragon's Frightful Presence for 24 hours.",
+              { effect: 'fright-presence' },
+              ". A successful save or the end of the fear grants immunity to the dragon's Frightful Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1059,6 +1100,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1088,14 +1130,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Falls ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -1110,10 +1162,32 @@ export default createPublicationMonsters({
               ') or take ',
               { roll: '3d6' },
               ' bludgeoning damage, fall ',
-              rules.prone,
-              ', and become buried. While buried, it is ',
-              rules.restrained,
-              ' and cannot breathe or stand up. A creature can use an action to make a DC 10 Strength check. A success ends the burial.',
+              { effect: 'cave-in-prone' },
+              ', and become ',
+              { effect: 'cave-in-buried' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'cave-in-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'wis' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'cave-in-buried',
+                name: 'Buried',
+                lands: { on: 'save', save: 'dex', dc: 'wis' },
+                conditions: [rules.restrained],
+                text: ['cannot breathe or stand up.'],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'A creature can use an action to make a DC 10 Strength check. A success ends the burial.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -1124,8 +1198,18 @@ export default createPublicationMonsters({
               'Choose a point the dragon can see within 120 ft. A 20-ft.-radius sphere of sand spreads around corners. Each creature in the cloud makes a ',
               { dc: 'wis', save: 'con' },
               ' Constitution save or becomes ',
-              rules.blinded,
-              ' for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'sand-blind' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sand-blind',
+                name: 'Blinded (affected by sand cloud)',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1139,6 +1223,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' lightning damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2023,8 +2108,18 @@ export default createPublicationMonsters({
               'Choose any creatures within 120 ft. that are aware of the dragon. Each makes a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save or becomes ',
-              rules.frightened,
-              " for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.",
+              { effect: 'fright-presence' },
+              ". A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Affected by Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2051,6 +2146,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'weakening-breath',
@@ -2060,7 +2156,21 @@ export default createPublicationMonsters({
             text: [
               'Each creature in a 60-ft. cone makes a ',
               { dc: 'con', save: 'str' },
-              ' Strength save. A creature that fails has disadvantage on Strength-based attack rolls, Strength checks, and Strength saves for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.',
+              ' Strength save. A creature that fails ',
+              { effect: 'weakening-breath' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'weakening-breath',
+                name: 'Affected by Weakening Breath',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                text: [
+                  'has disadvantage on Strength-based attack rolls, Strength checks, and Strength saves',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2102,14 +2212,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Falls ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -2129,7 +2249,23 @@ export default createPublicationMonsters({
             text: [
               'One creature the dragon can see within 120 ft. makes a ',
               { dc: 'cha', printed: 15 },
-              " Charisma save. On a failure it is banished to a dream plane the dragon imagines. The creature can use its action to make a Charisma check contested by the dragon's, escaping if it wins. The banishment also ends on the next round's initiative count 20. The creature returns to the space it left or the nearest unoccupied space if that space is occupied.",
+              ' Charisma save. On a failure it is ',
+              { effect: 'banished' },
+              '. The creature returns to the space it left or the nearest unoccupied space if that space is occupied.',
+            ],
+            effects: [
+              {
+                key: 'banished',
+                name: 'Dream banishment',
+                lands: { on: 'save', save: 'cha', dc: 'cha', printed: 15 },
+                text: ['banished to a dream plane the dragon imagines.'],
+                lasts: { kind: 'until', text: ["the next round's initiative count 20"] },
+                ends: {
+                  cure: [
+                    "The creature can use its action to make a Charisma check contested by the dragon's, escaping if it wins.",
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -2248,8 +2384,18 @@ export default createPublicationMonsters({
               "Each creature of the dragon's choice within 120 ft. that is aware of it makes a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On failure it is ',
-              rules.frightened,
-              " for 1 minute and can repeat the save at the end of each of its turns to end the effect. A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.",
+              { effect: 'fright-presence' },
+              ". A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2269,6 +2415,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -2298,15 +2445,25 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Knocks the creature ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon may then fly up to half its flying speed (40 ft.',
                   ],
                 },
                 onSuccess: 'half',
               },
               text: [').'],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -2319,8 +2476,18 @@ export default createPublicationMonsters({
               'Choose a visible point on the ground within 120 ft. The ground within 20 ft. becomes difficult terrain. Each creature there must pass a ',
               { dc: 'wis', save: 'str' },
               ' Strength save or become ',
-              rules.restrained,
+              { effect: 'roots-restrained' },
               '. The creature or another creature can use an action to free it with a DC 15 Strength check. The growth wilts if the dragon chooses this effect again or dies.',
+            ],
+            effects: [
+              {
+                key: 'roots-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'wis' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -2338,6 +2505,7 @@ export default createPublicationMonsters({
               { roll: '4d8' },
               ' piercing damage, halved on success. Each 10-ft. section has AC 5, 15 HP, fire vulnerability, bludgeoning and piercing resistance, and psychic immunity. The wall sinks into the ground if the dragon chooses this effect again or dies.',
             ],
+            effects: [],
           },
           {
             key: 'beguiling-fog',
@@ -2347,8 +2515,17 @@ export default createPublicationMonsters({
               'Choose one visible creature within 120 ft. It makes a ',
               { dc: 'wis' },
               ' Wisdom save or is ',
-              rules.charmed,
-              ' by the dragon until initiative count 20 of the next round.',
+              { effect: 'beguiling-charm' },
+              ' by the dragon.',
+            ],
+            effects: [
+              {
+                key: 'beguiling-charm',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'until', text: ['initiative count 20 of the next round'] },
+              },
             ],
           },
         ],
@@ -2494,8 +2671,18 @@ export default createPublicationMonsters({
               'Choose any creatures within 120 ft. that are aware of the dracolich. Each makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or is ',
-              rules.frightened,
-              " for 1 minute. A target can repeat the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends is immune to this dracolich's Frightful Presence for 24 hours.",
+              { effect: 'fright-presence' },
+              ". A creature that saves or whose fear ends is immune to this dracolich's Frightful Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2515,6 +2702,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -2544,14 +2732,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Falls ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dracolich can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -2572,6 +2770,7 @@ export default createPublicationMonsters({
             text: [
               'Choose a ground point the dracolich can see within 120 ft. Magma erupts in a 5-ft.-radius, 20-ft.-high column. Success halves it.',
             ],
+            effects: [],
           },
           {
             key: 'tremor',
@@ -2581,8 +2780,17 @@ export default createPublicationMonsters({
               'Each other creature on the ground within 60 ft. of the dracolich makes a ',
               { dc: 'wis', save: 'dex' },
               ' Dexterity save or falls ',
-              rules.prone,
+              { effect: 'tremor-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tremor-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'wis' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2593,12 +2801,17 @@ export default createPublicationMonsters({
               'Choose a visible point within 120 ft. A 20-ft.-radius sphere of gas spreads around corners and is lightly obscured. It lasts until initiative count 20 of the next round. Each creature starting its turn inside makes a ',
               { dc: 'con', printed: 13 },
               ' Constitution save or is ',
-              rules.poisoned,
-              ' until the end of its turn. A creature ',
-              rules.poisoned,
-              ' this way is also ',
-              rules.incapacitated,
+              { effect: 'gas-poison' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'gas-poison',
+                name: 'Poisoned and incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 13 },
+                conditions: [rules.poisoned, rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -2956,8 +3169,18 @@ export default createPublicationMonsters({
               'Choose any creatures within 120 ft. that are aware of the dragon. Each makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or becomes ',
-              rules.frightened,
-              " for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.",
+              { effect: 'fright-presence' },
+              ". A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Affected by Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2984,6 +3207,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -2994,8 +3218,18 @@ export default createPublicationMonsters({
               'Each creature in a 60-ft. cone makes a ',
               { dc: 'con' },
               ' Constitution save or becomes ',
-              rules.paralyzed,
-              ' for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'paralyzing-breath' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-breath',
+                name: 'Paralyzed (affected by breath)',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3037,14 +3271,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Falls ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -3074,6 +3318,7 @@ export default createPublicationMonsters({
             text: [
               'The wind disperses gases and vapors and snuffs exposed flames. Each protected flame, such as a lantern, has a 50 percent chance of going out.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3189,8 +3434,18 @@ export default createPublicationMonsters({
               "Each creature of the dragon's choice within 120 ft. that is aware of it makes a ",
               { dc: 'wis' },
               ' Wisdom save. On failure it is ',
-              rules.frightened,
-              " for 1 minute and can repeat the save at the end of each of its turns to end the effect. A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.",
+              { effect: 'fright-presence' },
+              ". A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3210,6 +3465,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3239,15 +3495,25 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Knocks the creature ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon may then fly up to half its flying speed (40 ft.',
                   ],
                 },
                 onSuccess: 'half',
               },
               text: [').'],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -3271,6 +3537,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' cold damage. A wind of at least 20 mph disperses the fog. It otherwise lasts until the dragon uses this effect again or dies.',
             ],
+            effects: [],
           },
           {
             key: 'falling-ice',
@@ -3596,8 +3863,18 @@ export default createPublicationMonsters({
               'Each creature the dragon chooses within 120 ft. that is aware of it makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.frightened,
-              " for 1 minute. It repeats the save at the end of each of its turns, ending the fear on a success. A successful save or the end of the fear grants immunity to the dragon's Frightful Presence for 24 hours.",
+              { effect: 'fright-presence' },
+              ". A successful save or the end of the fear grants immunity to the dragon's Frightful Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3617,6 +3894,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3646,14 +3924,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Falls ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -3666,8 +3954,17 @@ export default createPublicationMonsters({
               'Every pool the dragon can see within 120 ft. surges. Each creature on the ground within 20 ft. of any surging pool must succeed on a ',
               { dc: 'str', printed: 15 },
               ' Strength save or be pulled up to 20 ft. into the water and knocked ',
-              rules.prone,
+              { effect: 'pool-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'pool-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str', printed: 15 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3690,6 +3987,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' piercing damage. The cloud ends when the dragon dismisses it as an action, uses Insect Cloud again, or dies.',
             ],
+            effects: [],
           },
           {
             key: 'darkness',
@@ -3807,8 +4105,18 @@ export default createPublicationMonsters({
               'Each creature the dragon chooses within 120 ft. that is aware of it makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.frightened,
-              " for 1 minute. It repeats the save at the end of each of its turns, ending the fear on a success. A successful save or the end of the fear grants immunity to the dragon's Frightful Presence for 24 hours.",
+              { effect: 'fright-presence' },
+              ". A successful save or the end of the fear grants immunity to the dragon's Frightful Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3828,6 +4136,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3857,14 +4166,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Falls ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -3879,10 +4198,32 @@ export default createPublicationMonsters({
               ') or take ',
               { roll: '3d6' },
               ' bludgeoning damage, fall ',
-              rules.prone,
-              ', and become buried. While buried, it is ',
-              rules.restrained,
-              ' and cannot breathe or stand up. A creature can use an action to make a DC 10 Strength check. A success ends the burial.',
+              { effect: 'cave-in-prone' },
+              ', and become ',
+              { effect: 'cave-in-buried' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'cave-in-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'cave-in-buried',
+                name: 'Buried',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.restrained],
+                text: ['cannot breathe or stand up.'],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'A creature can use an action to make a DC 10 Strength check. A success ends the burial.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -3893,8 +4234,18 @@ export default createPublicationMonsters({
               'Choose a point the dragon can see within 120 ft. A 20-ft.-radius sphere of sand spreads around corners. Each creature in the cloud makes a ',
               { dc: 'dex', save: 'con' },
               ' Constitution save or becomes ',
-              rules.blinded,
-              ' for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'sand-blind' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sand-blind',
+                name: 'Blinded (affected by sand cloud)',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3908,6 +4259,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' lightning damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4813,8 +5165,18 @@ export default createPublicationMonsters({
               'Choose any creatures within 120 ft. that are aware of the dragon. Each makes a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save or becomes ',
-              rules.frightened,
-              " for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.",
+              { effect: 'fright-presence' },
+              ". A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Affected by Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4841,6 +5203,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'weakening-breath',
@@ -4850,7 +5213,21 @@ export default createPublicationMonsters({
             text: [
               'Each creature in a 90-ft. cone makes a ',
               { dc: 'con', save: 'str' },
-              ' Strength save. A creature that fails has disadvantage on Strength-based attack rolls, Strength checks, and Strength saves for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.',
+              ' Strength save. A creature that fails ',
+              { effect: 'weakening-breath' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'weakening-breath',
+                name: 'Affected by Weakening Breath',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                text: [
+                  'has disadvantage on Strength-based attack rolls, Strength checks, and Strength saves',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4892,14 +5269,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Falls ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -4919,7 +5306,23 @@ export default createPublicationMonsters({
             text: [
               'One creature the dragon can see within 120 ft. makes a ',
               { dc: 'cha', printed: 15 },
-              " Charisma save. On a failure it is banished to a dream plane the dragon imagines. The creature can use its action to make a Charisma check contested by the dragon's, escaping if it wins. The banishment also ends on the next round's initiative count 20. The creature returns to the space it left or the nearest unoccupied space if that space is occupied.",
+              ' Charisma save. On a failure it is ',
+              { effect: 'banished' },
+              '. The creature returns to the space it left or the nearest unoccupied space if that space is occupied.',
+            ],
+            effects: [
+              {
+                key: 'banished',
+                name: 'Dream banishment',
+                lands: { on: 'save', save: 'cha', dc: 'cha', printed: 15 },
+                text: ['banished to a dream plane the dragon imagines.'],
+                lasts: { kind: 'until', text: ["the next round's initiative count 20"] },
+                ends: {
+                  cure: [
+                    "The creature can use its action to make a Charisma check contested by the dragon's, escaping if it wins.",
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -5038,8 +5441,18 @@ export default createPublicationMonsters({
               "Each creature of the dragon's choice within 120 ft. that is aware of it makes a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On failure it is ',
-              rules.frightened,
-              " for 1 minute and can repeat the save at the end of each of its turns to end the effect. A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.",
+              { effect: 'fright-presence' },
+              ". A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5059,6 +5472,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -5088,15 +5502,25 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Knocks the creature ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon may then fly up to half its flying speed (40 ft.',
                   ],
                 },
                 onSuccess: 'half',
               },
               text: [').'],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -5109,8 +5533,18 @@ export default createPublicationMonsters({
               'Choose a visible point on the ground within 120 ft. The ground within 20 ft. becomes difficult terrain. Each creature there must pass a ',
               { dc: 'str', printed: 15 },
               ' Strength save or become ',
-              rules.restrained,
+              { effect: 'roots-restrained' },
               '. The creature or another creature can use an action to free it with a DC 15 Strength check. The growth wilts if the dragon chooses this effect again or dies.',
+            ],
+            effects: [
+              {
+                key: 'roots-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'str', printed: 15 },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -5128,6 +5562,7 @@ export default createPublicationMonsters({
               { roll: '4d8' },
               ' piercing damage, halved on success. Each 10-ft. section has AC 5, 15 HP, fire vulnerability, bludgeoning and piercing resistance, and psychic immunity. The wall sinks into the ground if the dragon chooses this effect again or dies.',
             ],
+            effects: [],
           },
           {
             key: 'beguiling-fog',
@@ -5137,8 +5572,17 @@ export default createPublicationMonsters({
               'Choose one visible creature within 120 ft. It makes a ',
               { dc: 'wis', printed: 15 },
               ' Wisdom save or is ',
-              rules.charmed,
-              ' by the dragon until initiative count 20 of the next round.',
+              { effect: 'beguiling-charm' },
+              ' by the dragon.',
+            ],
+            effects: [
+              {
+                key: 'beguiling-charm',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 15 },
+                conditions: [rules.charmed],
+                lasts: { kind: 'until', text: ['initiative count 20 of the next round'] },
+              },
             ],
           },
         ],
@@ -5246,8 +5690,18 @@ export default createPublicationMonsters({
               'The dragon chooses creatures within 120 ft. that are aware of it. They must pass a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or become ',
-              rules.frightened,
-              ' for 1 minute, repeating the save at the end of each of their turns to end the effect. A successful initial or repeat save or any other end to the effect grants immunity to this dragon’s Frightful Presence for 24 hours.',
+              { effect: 'fright-presence' },
+              '. A successful initial or repeat save or any other end to the effect grants immunity to this dragon’s Frightful Presence for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Frightened (repeating the save)',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5267,6 +5721,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -5296,14 +5751,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Fall ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -5319,6 +5784,7 @@ export default createPublicationMonsters({
               { roll: '6d6' },
               ' fire damage. Success: Half damage.',
             ],
+            effects: [],
           },
           {
             key: 'tremor',
@@ -5328,8 +5794,17 @@ export default createPublicationMonsters({
               'Other creatures on the ground within 60 ft. of the dragon must make a ',
               { dc: 'dex' },
               ' Dexterity save or fall ',
-              rules.prone,
+              { effect: 'tremor-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tremor-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5340,12 +5815,17 @@ export default createPublicationMonsters({
               'Choose a point the dragon can see within 120 ft. Gas fills a 20-ft.-radius sphere, spreads around corners, and lightly obscures the area until initiative count 20 next round. A creature starting its turn there must pass a ',
               { dc: 'con', printed: 13 },
               ' Constitution save or become ',
-              rules.poisoned,
-              ' until the end of that turn. It is also ',
-              rules.incapacitated,
-              ' while ',
-              rules.poisoned,
-              ' in this way.',
+              { effect: 'gas-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'gas-poison',
+                name: 'Poisoned and incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 13 },
+                conditions: [rules.poisoned, rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -5455,8 +5935,18 @@ export default createPublicationMonsters({
               'Choose any creatures within 120 ft. that are aware of the dragon. Each makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or becomes ',
-              rules.frightened,
-              " for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.",
+              { effect: 'fright-presence' },
+              ". A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Affected by Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5483,6 +5973,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -5493,8 +5984,18 @@ export default createPublicationMonsters({
               'Each creature in a 90-ft. cone makes a ',
               { dc: 'con' },
               ' Constitution save or becomes ',
-              rules.paralyzed,
-              ' for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'paralyzing-breath' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-breath',
+                name: 'Paralyzed (affected by breath)',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5536,14 +6037,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Falls ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon can then fly up to half its flying speed.',
                   ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -5572,6 +6083,7 @@ export default createPublicationMonsters({
             text: [
               'The wind disperses gases and vapors and snuffs exposed flames. Each protected flame, such as a lantern, has a 50 percent chance of going out.',
             ],
+            effects: [],
           },
         ],
       },
@@ -5687,8 +6199,18 @@ export default createPublicationMonsters({
               "Each creature of the dragon's choice within 120 ft. that is aware of it makes a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On failure it is ',
-              rules.frightened,
-              " for 1 minute and can repeat the save at the end of each of its turns to end the effect. A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.",
+              { effect: 'fright-presence' },
+              ". A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.",
+            ],
+            effects: [
+              {
+                key: 'fright-presence',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5708,6 +6230,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -5737,15 +6260,25 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+
                   also: [
                     'Knocks the creature ',
-                    rules.prone,
+                    { effect: 'wing-prone' },
                     '. The dragon may then fly up to half its flying speed (40 ft.',
                   ],
                 },
                 onSuccess: 'half',
               },
               text: [').'],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -5769,6 +6302,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' cold damage. A wind of at least 20 mph disperses the fog. It otherwise lasts until the dragon uses this effect again or dies.',
             ],
+            effects: [],
           },
           {
             key: 'falling-ice',
@@ -7011,6 +7545,7 @@ export default createPublicationMonsters({
             text: [
               "When it dies, the following applies.    The blast destroys the balor's weapons and ignites flammable objects in the area that no one is wearing or carrying.",
             ],
+            effects: [],
           },
           {
             key: 'fire-aura',
@@ -7089,6 +7624,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength save. On a failure, the balor can pull it up to 25 ft. closer.',
             ],
+            effects: [],
           },
           {
             key: 'teleport',
@@ -16779,8 +17315,18 @@ export default createPublicationMonsters({
               ' poison damage. The target rolls a ',
               { dc: 'wis', save: 'con' },
               ' Constitution save. On a failure, it becomes ',
-              rules.poisoned,
-              ' until Lesser Restoration or similar magic removes the poison.',
+              { effect: 'poison-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'poison-wound',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['Lesser Restoration or similar magic removes the poison.'] },
+              },
             ],
           },
           {
@@ -16792,8 +17338,17 @@ export default createPublicationMonsters({
               'Hold one end of the rope and speak its command word as an action, or spend two attacks from Multiattack to use it. Choose one visible creature within 20 ft. It must pass a ',
               { dc: 'dex' },
               ' Dexterity save or become ',
-              rules.restrained,
+              { effect: 'rope-restrained' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'rope-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -16900,8 +17455,18 @@ export default createPublicationMonsters({
               ' poison damage. The target rolls a ',
               { dc: 'wis', save: 'con' },
               ' Constitution save. On a failure, it becomes ',
-              rules.poisoned,
-              ' until Lesser Restoration or similar magic removes the poison.',
+              { effect: 'poison-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'poison-wound',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['Lesser Restoration or similar magic removes the poison.'] },
+              },
             ],
           },
           {
@@ -25450,8 +26015,17 @@ export default createPublicationMonsters({
               'A creature that starts its turn within 10 ft. makes a ',
               { dc: 'dex', save: 'con' },
               ' Constitution save. On a failure, it is ',
-              rules.poisoned,
-              " until the start of its next turn. On a success, it is immune to this hezrou's Stench for 24 hours.",
+              { effect: 'stench-poison' },
+              ". On a success, it is immune to this hezrou's Stench for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'stench-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -26324,11 +26898,29 @@ export default createPublicationMonsters({
             text: [
               'A creature other than an undead or construct must pass a ',
               { dc: 'con' },
-              ' Constitution save or suffer an infernal wound. It loses ',
-              { roll: '3d6' },
-              ' HP at the start of each of its turns. Each Tail hit against that wounded target increases the loss by ',
-              { roll: '3d6' },
-              '. Any creature can spend an action to stanch the wound with a DC 12 Wisdom (Medicine) check. Magical healing also closes it.',
+              ' Constitution save or suffer ',
+              { effect: 'infernal-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'infernal-wound',
+                name: 'Infernal wound',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'It loses ',
+                  { roll: '3d6' },
+                  ' HP at the start of each of its turns. Each Tail hit against that wounded target increases the loss by ',
+                  { roll: '3d6' },
+                  '.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'Any creature can spend an action to stanch the wound with a DC 12 Wisdom (Medicine) check. Magical healing also closes it.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -26767,7 +27359,21 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' cold damage. If the target is a creature, it rolls a ',
               { dc: 'dex', save: 'con' },
-              ' Constitution save. On a failure, for 1 minute its speed drops by 10 ft., it cannot take reactions, and it can take either an action or a bonus action on each of its turns. It repeats the save at the end of each of its turns, ending the effect on a success.',
+              ' Constitution save. On a failure, ',
+              { effect: 'spear-chill' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spear-chill',
+                name: 'Slowed by ice spear',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                text: [
+                  'its speed drops by 10 ft., it cannot take reactions, and it can take either an action or a bonus action on each of its turns',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -26834,6 +27440,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -26963,6 +27570,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'summon-devil',
@@ -27130,6 +27738,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['When the mephit dies, flying ice shards burst out.'],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -27178,6 +27787,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'summon-mephits',
@@ -28947,6 +29557,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               " to hit with spell attacks). The following spells are prepared. At will (cantrips). Mage Hand, Prestidigitation, Ray of Frost. 1st level (4 slots). Detect Magic, Magic Missile, Shield, Thunderwave. 2nd level (3 slots). Detect Thoughts, Invisibility, Melf's Acid Arrow, Mirror Image. 3rd level (3 slots). Animate Dead, Counterspell, Dispel Magic, Fireball. 4th level (3 slots). Blight, Dimension Door. 5th level (3 slots). Cloudkill, Scrying. 6th level (1 slot). Disintegrate, Globe of Invulnerability. 7th level (1 slot). Finger of Death, Plane Shift. 8th level (1 slot). Dominate Monster, Power Word Stun. 9th level (1 slot). Power Word Kill.",
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -28996,8 +29607,18 @@ export default createPublicationMonsters({
               'The target makes a ',
               { dc: 'con' },
               ' Constitution save or is ',
-              rules.paralyzed,
-              ' for 1 minute. It can repeat the save at the end of each of its turns, ending the paralysis on a success.',
+              { effect: 'touch-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'touch-paralysis',
+                name: 'Paralysis',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -29030,8 +29651,18 @@ export default createPublicationMonsters({
                 'Choose one visible creature within 10 ft. It makes a ',
                 { dc: 'con', save: 'wis' },
                 ' Wisdom save against this magic or is ',
-                rules.frightened,
-                ' for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success. After it succeeds or the effect ends, it is immune to this gaze for 24 hours.',
+                { effect: 'gaze-fright' },
+                '. After it succeeds or the effect ends, it is immune to this gaze for 24 hours.',
+              ],
+              effects: [
+                {
+                  key: 'gaze-fright',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'con' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
             {
@@ -29050,6 +29681,7 @@ export default createPublicationMonsters({
                 onSuccess: 'half',
               },
               text: ['This magic affects only non-undead creatures.'],
+              effects: [],
             },
           ],
         },
@@ -29066,10 +29698,24 @@ export default createPublicationMonsters({
             key: 'negative-energy-tether',
             name: 'Negative Energy Tether',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'Link to a visible creature within 30 ft. Whenever the lich takes damage, the target makes a ',
-              { dc: 'con' },
-              ' Constitution save. On a failure the lich takes half the damage, rounded down, and the target takes the remainder. The link ends on initiative count 20 of the next round or when either creature leaves the lair.',
+            text: ['Link to a visible creature within 30 ft. ', { effect: 'tether' }],
+            effects: [
+              {
+                key: 'tether',
+                name: 'Negative energy tether',
+                lands: { on: 'use' },
+                text: [
+                  'Whenever the lich takes damage, the target makes a ',
+                  { dc: 'con' },
+                  ' Constitution save. On a failure the lich takes half the damage, rounded down, and the target takes the remainder.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'initiative count 20 of the next round or when either creature leaves the lair',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -29089,6 +29735,7 @@ export default createPublicationMonsters({
             text: [
               'Call apparitions of creatures that died in the lair to attack one visible creature within 60 ft.    The apparitions vanish after the attack.',
             ],
+            effects: [],
           },
         ],
       },
@@ -30129,6 +30776,7 @@ export default createPublicationMonsters({
               refs.spells.heat_metal_srd_5_1,
               ' without material components.',
             ],
+            effects: [],
           },
           {
             key: 'death-burst',
@@ -30146,6 +30794,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['When the mephit dies, a lava burst erupts.'],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -30194,6 +30843,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'summon-mephits',
@@ -30516,10 +31166,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Medium or smaller target becomes ',
-              rules.grappled,
-              ' (escape DC 19) and ',
-              rules.restrained,
-              ' until the grapple ends. During the grapple, Tail attacks automatically hit that target and cannot target anyone else.',
+              { effect: 'tail-grab' },
+              '. During the grapple, Tail attacks automatically hit that target and cannot target anyone else.',
+            ],
+            effects: [
+              {
+                key: 'tail-grab',
+                name: 'Grabbed and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 19 } },
+              },
             ],
           },
           {
@@ -31495,6 +32153,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_force_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -31514,6 +32173,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -31538,12 +32198,29 @@ export default createPublicationMonsters({
             },
             text: [
               'If the creature is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 15) and makes a ',
+              { effect: 'tentacle-grab' },
+              ' and makes a ',
               { dc: 'int' },
               ' Intelligence save. On failure it is ',
-              rules.stunned,
-              ' until this grapple ends.',
+              { effect: 'tentacle-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
+              {
+                key: 'tentacle-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'int', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ['this grapple ends'] },
+              },
             ],
           },
           {
@@ -31574,11 +32251,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.psychic, addModifier: true }],
-                also: ['Is ', rules.stunned, ' for 1 minute.'],
+
+                also: ['Is ', { effect: 'blast-stun' }, '.'],
               },
             },
-            text: [
-              'It repeats the save at the end of each of its turns, ending the stun on a success.',
+            text: [],
+            effects: [
+              {
+                key: 'blast-stun',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'recharge 5–6',
@@ -35196,6 +35882,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_fire_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fear-aura',
@@ -35208,8 +35895,17 @@ export default createPublicationMonsters({
               ', a hostile creature starting its turn within 20 ft. of it makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. Failure leaves the creature ',
-              rules.frightened,
-              " until the start of its next turn. Success grants immunity to this pit fiend's Fear Aura for 24 hours.",
+              { effect: 'aura-fright' },
+              ". Success grants immunity to this pit fiend's Fear Aura for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'aura-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -35259,10 +35955,23 @@ export default createPublicationMonsters({
               'The target makes a Constitution saving throw (',
               { dc: 'cha' },
               '). On a failure it is ',
-              rules.poisoned,
-              ', cannot regain HP, and takes ',
-              { roll: '6d6' },
-              ' poison damage at the start of each of its turns. It can repeat the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'fiend-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'fiend-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned],
+                text: [
+                  'cannot regain HP, and takes ',
+                  { roll: '6d6' },
+                  ' poison damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -35541,6 +36250,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['It is ', rules.invisible, '.'],
+            effects: [],
           },
           {
             key: 'incorporeal-movement',
@@ -38975,8 +39685,28 @@ export default createPublicationMonsters({
               'A humanoid that starts its turn within 30 ft. and sees the hag’s true form makes a ',
               { dc: 'wis' },
               ' Wisdom save or becomes ',
-              rules.frightened,
-              ' for 1 minute. It can save again at the end of each turn, with disadvantage if the hag is in its line of sight. A success ends the condition. Once the creature saves or the effect ends for it, it is immune to this hag’s Horrific Appearance for 24 hours. The creature can avert its eyes to skip the initial save unless it is Surprised or the hag reveals her true form suddenly. A creature that averts its eyes has disadvantage on attack rolls against her until the start of its next turn.',
+              { effect: 'horrific-fright' },
+              '. Once the creature saves or the effect ends for it, it is immune to this hag’s Horrific Appearance for 24 hours. The creature can avert its eyes to skip the initial save unless it is Surprised or the hag reveals her true form suddenly. A creature that averts its eyes ',
+              { effect: 'averted-eyes' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'horrific-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                text: ['with disadvantage if the hag is in its line of sight.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+              {
+                key: 'averted-eyes',
+                name: 'Averted eyes',
+                lands: { on: 'use' },
+                text: ['has disadvantage on attack rolls against her'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -39004,6 +39734,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ' Wisdom save against the magic or drop to 0 HP.',
             ],
+            effects: [],
           },
           {
             key: 'illusory-appearance',
@@ -42402,6 +43133,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'chameleon-carapace',
@@ -42453,12 +43185,27 @@ export default createPublicationMonsters({
               'The target makes a ',
               { dc: 'con' },
               ' Constitution save or is ',
-              rules.poisoned,
-              ' for 1 minute. If it fails by 5 or more, it is also ',
-              rules.paralyzed,
-              ' while this poison lasts. A ',
-              rules.poisoned,
-              ' target repeats the save at the end of each of its turns and ends the effect on a success.',
+              { effect: 'kreen-poison' },
+              '. If it fails by 5 or more, it is also ',
+              { effect: 'kreen-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'kreen-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+              {
+                key: 'kreen-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'until', text: ['this poison lasts'] },
+              },
             ],
           },
           {
@@ -42596,12 +43343,27 @@ export default createPublicationMonsters({
               'The target makes a ',
               { dc: 'con' },
               ' Constitution save or is ',
-              rules.poisoned,
-              ' for 1 minute. If it fails by 5 or more, it is also ',
-              rules.paralyzed,
-              ' while this poison lasts. A ',
-              rules.poisoned,
-              ' target repeats the save at the end of each of its turns and ends the effect on a success.',
+              { effect: 'kreen-poison' },
+              '. If it fails by 5 or more, it is also ',
+              { effect: 'kreen-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'kreen-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+              {
+                key: 'kreen-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'until', text: ['this poison lasts'] },
+              },
             ],
           },
           {
@@ -44653,6 +45415,7 @@ export default createPublicationMonsters({
               refs.spells.dominate_person_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -44684,6 +45447,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it has at least 1 HP. An hour spent there at 0 HP restores 1 HP.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -44759,8 +45523,25 @@ export default createPublicationMonsters({
               'Choose one humanoid the vampire sees within 30 ft. If the target sees it, the target makes a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save against magic. Failure leaves the target ',
-              rules.charmed,
-              ", treating the vampire as a trusted friend to protect and heed. The target interprets the vampire's actions and requests as favorably as it can and is willing to be bitten. It retains control of its own actions. Each harmful act by the vampire or its allies lets the target repeat the save, ending the effect on success. The charm ends after 24 hours, if the vampire is destroyed, if the two are on different planes, or if the vampire uses a Bonus Action to end it.",
+              { effect: 'vampire-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'vampire-charm',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  "treating the vampire as a trusted friend to protect and heed. The target interprets the vampire's actions and requests as favorably as it can and is willing to be bitten. It retains control of its own actions. Each harmful act by the vampire or its allies lets the target repeat the save, ending the effect on success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'The charm ends after 24 hours, if the vampire is destroyed, if the two are on different planes, or if the vampire uses a Bonus Action to end it.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -44863,6 +45644,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it has at least 1 HP. An hour spent there at 0 HP restores 1 HP.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -44957,8 +45739,25 @@ export default createPublicationMonsters({
               'Choose one humanoid the vampire sees within 30 ft. If the target sees it, the target makes a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save against magic. Failure leaves the target ',
-              rules.charmed,
-              ", treating the vampire as a trusted friend to protect and heed. The target interprets the vampire's actions and requests as favorably as it can and is willing to be bitten. It retains control of its own actions. Each harmful act by the vampire or its allies lets the target repeat the save, ending the effect on success. The charm ends after 24 hours, if the vampire is destroyed, if the two are on different planes, or if the vampire uses a Bonus Action to end it.",
+              { effect: 'vampire-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'vampire-charm',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  "treating the vampire as a trusted friend to protect and heed. The target interprets the vampire's actions and requests as favorably as it can and is willing to be bitten. It retains control of its own actions. Each harmful act by the vampire or its allies lets the target repeat the save, ending the effect on success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'The charm ends after 24 hours, if the vampire is destroyed, if the two are on different planes, or if the vampire uses a Bonus Action to end it.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -45443,10 +46242,26 @@ export default createPublicationMonsters({
               'Toxic spores fill the area within 15 ft. of the vrock and spread around corners. Each creature in that area makes a Constitution saving throw (',
               { dc: 'str' },
               ') or becomes ',
-              rules.poisoned,
-              '. An affected creature takes ',
-              { roll: '1d10' },
-              ' poison damage at the start of each of its turns. It repeats the save at the end of each of its turns, ending the effect on a success. Emptying a vial of Holy Water over the creature also ends the effect.',
+              { effect: 'spore-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spore-poison',
+                name: 'Poisoned (affected by spores)',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.poisoned],
+                text: [
+                  'takes ',
+                  { roll: '1d10' },
+                  ' poison damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  repeatSave: ['end-of-turn'],
+                  cure: ['Emptying a vial of Holy Water over the creature also ends the effect.'],
+                },
+              },
             ],
             uses: 1,
             recharge: 'recharge 6',
@@ -45460,8 +46275,17 @@ export default createPublicationMonsters({
               'Each non-demon within 20 ft. that can hear the vrock makes a ',
               { dc: 'str', save: 'con' },
               ' Constitution save or becomes ',
-              rules.stunned,
-              " until the end of the vrock's next turn.",
+              { effect: 'screech-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'screech-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -47780,6 +48604,7 @@ export default createPublicationMonsters({
               refs.spells.dominate_person_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -47843,12 +48668,17 @@ export default createPublicationMonsters({
               ' and cannot speak. It can hover, fly 30 ft., and pass through any gap that isn’t airtight. It has advantage on Strength, Dexterity, and Constitution saves and is immune to nonmagical damage. It can enter and stop in a creature’s space. Each time that creature starts its turn sharing the space, it makes a ',
               { dc: 'str', save: 'con' },
               ' Constitution save or is ',
-              rules.poisoned,
-              ' until its next turn starts. It remains ',
-              rules.incapacitated,
-              ' while ',
-              rules.poisoned,
-              ' in this way.',
+              { effect: 'mist-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mist-poison',
+                name: 'Poisoned and incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.poisoned, rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -48470,6 +49300,7 @@ export default createPublicationMonsters({
               refs.spells.suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -48592,6 +49423,7 @@ export default createPublicationMonsters({
               refs.spells.suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -48683,6 +49515,7 @@ export default createPublicationMonsters({
               refs.spells.suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -48741,10 +49574,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 13) and remains ',
-              rules.restrained,
-              ' until this grapple ends. The malison cannot constrict a second target while this grapple lasts.',
+              { effect: 'constrict-grab' },
+              '. The malison cannot constrict a second target while this grapple lasts.',
+            ],
+            effects: [
+              {
+                key: 'constrict-grab',
+                name: 'Grabbed and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {

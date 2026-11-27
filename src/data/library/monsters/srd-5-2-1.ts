@@ -16035,17 +16035,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '8d6', type: rules.psychic }],
-                also: [
-                  'The target has the ',
-                  rules.frightened,
-                  ' and ',
-                  rules.incapacitated,
-                  ' conditions until the start of the rakshasa’s next turn.',
-                ],
+
+                also: [{ effect: 'baleful-command' }],
               },
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'baleful-command',
+                name: 'Baleful Command',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened, rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },

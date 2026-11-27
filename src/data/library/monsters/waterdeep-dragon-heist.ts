@@ -1143,6 +1143,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.barkskin_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -4069,6 +4070,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the spy doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'halfling-nimbleness',

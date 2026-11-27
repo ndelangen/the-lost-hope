@@ -1647,6 +1647,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spiritual_weapon_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dark-devotion',
@@ -1660,6 +1661,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.  Dwarven Resilience. Roll poison saves with advantage. Poison damage is resisted.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1793,6 +1795,7 @@ export default createPublicationMonsters({
               { dc: 'con', printed: 5 },
               ' + damage taken). Radiant damage and critical hits bypass this save.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1839,6 +1842,7 @@ export default createPublicationMonsters({
             text: [
               'The burster destroys itself.    A humanoid killed by Burst rises as a Husk Zombie 1 minute later.',
             ],
+            effects: [],
           },
         ],
       },

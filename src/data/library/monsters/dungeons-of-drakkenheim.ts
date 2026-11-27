@@ -340,6 +340,7 @@ export default createPublicationMonsters({
             text: [
               'When the dreg dies, it triggers the following save.    A failure by at least 5 also adds one level of contamination.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -377,6 +378,7 @@ export default createPublicationMonsters({
             text: ['A failure by at least 5 also adds one level of contamination.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -601,13 +603,9 @@ export default createPublicationMonsters({
             text: [
               'A Large or smaller target must pass a Dexterity saving throw (',
               { dc: 'con' },
-              ') or be swallowed. A swallowed creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', has total cover against effects outside the wurm, and takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the wurm's turns. If a creature inside deals at least 30 damage to the wurm in one turn, the wurm makes a ",
+              ') or be swallowed. ',
+              { effect: 'swallowed-by-wurm' },
+              ' If a creature inside deals at least 30 damage to the wurm in one turn, the wurm makes a ',
               { dc: 'con', printed: 21 },
               " Constitution save at that turn's end. On a failure it expels all swallowed creatures, which land ",
               rules.prone,
@@ -616,6 +614,20 @@ export default createPublicationMonsters({
               ' and can spend 20 ft. of movement to leave the corpse and land ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed-by-wurm',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'has total cover against effects outside the wurm, and takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the wurm's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -629,12 +641,21 @@ export default createPublicationMonsters({
               "). On success, the creature can choose to be moved to the side of the wurm's space. On failure, or if it succeeds and declines that movement, it takes ",
               { roll: '10d6' },
               ' bludgeoning damage, is pushed 10 ft., and falls ',
-              rules.prone,
+              { effect: 'breach-prone' },
               '. After finishing this movement, the wurm can make one ',
               { ability: 'bite' },
               ' attack against a ',
               rules.prone,
               ' target as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'breach-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1069,6 +1090,7 @@ export default createPublicationMonsters({
               refs.spells.foresight_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1636,6 +1658,7 @@ export default createPublicationMonsters({
             text: [
               'When the husk takes damage that drops it to 0 HP, delerium bursts from its body unless the damage is radiant or comes from a critical hit.',
             ],
+            effects: [],
           },
           {
             key: 'slam',
@@ -2336,6 +2359,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and can see it.',
             ],
+            effects: [],
           },
           {
             key: 'avert-eyes',
@@ -2358,6 +2382,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' for 1d6 hours.',
             ],
+            effects: [],
           },
           {
             key: 'tentacle-hair',
@@ -2377,6 +2402,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ' Constitution save and gains one contamination level on failure.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2933,8 +2959,18 @@ export default createPublicationMonsters({
               'Chosen creatures within 120 ft. who know he is there make a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or are ',
-              rules.frightened,
-              ' for 1 minute. Repeat at the end of each turn. Once a creature succeeds or the effect ends, it is immune to this presence for 24 hours.',
+              { effect: 'minazorond-fright' },
+              '. Once a creature succeeds or the effect ends, it is immune to this presence for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'minazorond-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2967,6 +3003,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -2978,6 +3015,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength save or are pushed 60 ft. away.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -3006,10 +3044,24 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Fall ', rules.prone, '. He can then fly up to half his flying speed.'],
+
+                  also: [
+                    'Fall ',
+                    { effect: 'wing-prone' },
+                    '. He can then fly up to half his flying speed.',
+                  ],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -3286,6 +3338,7 @@ export default createPublicationMonsters({
               refs.spells.holy_aura_srd_5_1,
               ', Sacrament of the Falling Fire.',
             ],
+            effects: [],
           },
           {
             key: 'incorporeal-movement',
@@ -3322,7 +3375,18 @@ export default createPublicationMonsters({
             text: [
               'On a failed ',
               { dc: 'con' },
-              " Constitution save, reduce the target's maximum HP by the necrotic damage taken until it finishes a long rest. The target dies if the reduction brings its maximum to 0.",
+              ' Constitution save, ',
+              { effect: 'drained-maximum' },
+              '. The target dies if the reduction brings its maximum to 0.',
+            ],
+            effects: [
+              {
+                key: 'drained-maximum',
+                name: 'Life drain',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ["reduce the target's maximum HP by the necrotic damage taken"],
+                lasts: { kind: 'until', text: ['it finishes a long rest'] },
+              },
             ],
           },
           {
@@ -4055,15 +4119,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic }],
-                also: [
-                  'Makes the target ',
-                  rules.incapacitated,
-                  ' until the end of the witch’s next turn.',
-                ],
+
+                also: ['Makes the target ', { effect: 'wail-incapacitated' }, '.'],
               },
             },
             uses: 1,
             recharge: 'recharge 5–6',
+            effects: [
+              {
+                key: 'wail-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'possession',
@@ -4073,13 +4143,32 @@ export default createPublicationMonsters({
             text: [
               'One visible humanoid within 5 ft. makes a ',
               { dc: 'cha' },
-              ' Charisma save. On failure the witch vanishes and controls the target’s body. The target stays aware, is ',
-              rules.incapacitated,
-              ', and cannot control its body. The witch keeps its own alignment, Intelligence, Wisdom, Charisma, and ',
-              rules.charmed,
-              ' and ',
-              rules.frightened,
-              ' immunities. It otherwise uses the target’s statistics without its knowledge, proficiencies, or class features. Only effects that turn Undead can target it during possession. The effect also ends if the body falls to 0 HP, the witch ends it as a bonus action, or it is turned or expelled by a spell such as Dispel Evil and Good. On ending, the witch appears in a vacant space within 5 ft. A humanoid that succeeds or is freed is immune to this witch’s Possession for 24 hours.',
+              ' Charisma save. On failure ',
+              { effect: 'witch-possession' },
+              '. On ending, the witch appears in a vacant space within 5 ft. A humanoid that succeeds or is freed is immune to this witch’s Possession for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'witch-possession',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: [
+                  'the witch vanishes and controls the target’s body. The target stays aware, is ',
+                  rules.incapacitated,
+                  ', and cannot control its body. The witch keeps its own alignment, Intelligence, Wisdom, Charisma, and ',
+                  rules.charmed,
+                  ' and ',
+                  rules.frightened,
+                  ' immunities. It otherwise uses the target’s statistics without its knowledge, proficiencies, or class features. Only effects that turn Undead can target it during possession.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body falls to 0 HP, the witch ends it as a bonus action, or it is turned or expelled by a spell such as Dispel Evil and Good',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'recharge 6',
@@ -4094,6 +4183,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ' Charisma save. On failure it gains one contamination level and automatically acquires a random mutation in place of the normal mutation check.',
             ],
+            effects: [],
           },
         ],
       },

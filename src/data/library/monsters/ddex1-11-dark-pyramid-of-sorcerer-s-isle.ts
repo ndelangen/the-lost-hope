@@ -115,6 +115,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'breath-weapon',
@@ -170,6 +171,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -262,6 +264,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.barkskin_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -273,6 +276,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic can’t put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',

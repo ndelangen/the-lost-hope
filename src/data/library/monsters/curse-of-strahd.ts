@@ -192,6 +192,7 @@ export default createPublicationMonsters({
               '; 8th level (1 slot): ',
               refs.spells.power_word_stun_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'blessing-of-mother-night',
@@ -282,6 +283,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'siege-monster',
@@ -444,6 +446,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.invisibility_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'claws-requires-alter-self',
@@ -737,6 +740,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -1578,6 +1582,7 @@ export default createPublicationMonsters({
               '; 4th level (1 slot): ',
               refs.spells.greater_invisibility_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -1646,7 +1651,25 @@ export default createPublicationMonsters({
             text: [
               'Ezmerelda targets one creature that she can see within 30 feet of her. The target must succeed on a ',
               { dc: 'int', save: 'wis' },
-              " Wisdom saving throw or be cursed. While cursed, the target has vulnerability to one type of damage of Ezmerelda's choice. The curse lasts until ended with a greater restoration spell, a remove curse spell, or similar magic. When the curse ends, Ezmerelda takes 3d6 psychic damage.",
+              ' Wisdom saving throw or be cursed. ',
+              { effect: 'ezmerelda-curse' },
+              '. When the curse ends, Ezmerelda takes 3d6 psychic damage.',
+            ],
+            effects: [
+              {
+                key: 'ezmerelda-curse',
+                name: 'Ezmerelda’s curse',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                text: [
+                  "While cursed, the target has vulnerability to one type of damage of Ezmerelda's choice.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'ended with a greater restoration spell, a remove curse spell, or similar magic',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -1667,6 +1690,7 @@ export default createPublicationMonsters({
               rules.blinded,
               ' until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1774,6 +1798,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'antimagic-susceptibility',
@@ -1787,6 +1812,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -2588,6 +2614,7 @@ export default createPublicationMonsters({
               '; 8th level (1 slot): ',
               refs.spells.earthquake_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -2610,11 +2637,23 @@ export default createPublicationMonsters({
             text: [
               'Madam Eva targets one creature that she can see within 30 feet of her. The target must succeed on a ',
               { dc: 'wis' },
-              ' Wisdom saving throw or be cursed. While cursed, the target is ',
-              rules.blinded,
-              ' and ',
-              rules.deafened,
-              '. The curse lasts until ended with a greater restoration spell, a remove curse spell, or similar magic. When the curse ends, Madam Eva takes 5d6 psychic damage.',
+              ' Wisdom saving throw or be cursed. ',
+              { effect: 'eva-curse' },
+              '. When the curse ends, Madam Eva takes 5d6 psychic damage.',
+            ],
+            effects: [
+              {
+                key: 'eva-curse',
+                name: 'Madam Eva’s curse',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.blinded, rules.deafened],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'ended with a greater restoration spell, a remove curse spell, or similar magic',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -2635,6 +2674,7 @@ export default createPublicationMonsters({
               rules.blinded,
               ' until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2872,6 +2912,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'mimicry',
@@ -3471,6 +3512,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.dispel_evil_and_good_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -3626,13 +3668,31 @@ export default createPublicationMonsters({
             text: [
               'Choose one visible humanoid within 5 ft. The humanoid must succeed on a ',
               { dc: 'cha' },
-              ' Charisma save or the ghost disappears into its body. The host remains aware. Normally the host is ',
-              rules.incapacitated,
-              ' and the ghost controls its body. Apply the Death House exception below when the host is a player character. The ghost cannot be targeted except by effects that turn undead. It retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ',
-              rules.charmed,
-              ' and ',
-              rules.frightened,
-              ". It uses the host's other statistics without gaining its knowledge, class features, or proficiencies. The possession ends if the host drops to 0 HP, the ghost ends it as a bonus action, it is turned, or magic such as Dispel Evil and Good forces it out. The ghost reappears in an unoccupied space within 5 ft. of the host. After a successful save or after the possession ends, the host is immune to this ghost's Possession for 24 hours.",
+              ' Charisma save or the ghost disappears into its body. ',
+              { effect: 'rose-possession' },
+              ". The ghost reappears in an unoccupied space within 5 ft. of the host. After a successful save or after the possession ends, the host is immune to this ghost's Possession for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'rose-possession',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: [
+                  'The host remains aware. Normally the host is ',
+                  rules.incapacitated,
+                  ' and the ghost controls its body. Apply the Death House exception below when the host is a player character. The ghost cannot be targeted except by effects that turn undead. It retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ',
+                  rules.charmed,
+                  ' and ',
+                  rules.frightened,
+                  ". It uses the host's other statistics without gaining its knowledge, class features, or proficiencies.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the host drops to 0 HP, the ghost ends it as a bonus action, it is turned, or magic such as Dispel Evil and Good forces it out',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -4006,6 +4066,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -4039,6 +4100,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until he regains at least 1 hit point. After 1 hour in his coffin with 0 hit points, he regains 1 hit point.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -4079,6 +4141,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until the stake is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -4143,10 +4206,27 @@ export default createPublicationMonsters({
               'Strahd targets one humanoid he can see within 30 feet of him. If the target can see Strahd, the target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              '. The ',
-              rules.charmed,
-              " target regards Strahd as a trusted friend to be heeded and protected. The target isn't under Strahd's control, but it takes Strahd's requests and actions in the most favorable way and lets Strahd bite it. Each time Strahd or his companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Strahd is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'strahd-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'strahd-charm',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target regards Strahd as a trusted friend to be heeded and protected. The target isn't under Strahd's control, but it takes Strahd's requests and actions in the most favorable way and lets Strahd bite it. Each time Strahd or his companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until Strahd is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -4295,13 +4375,31 @@ export default createPublicationMonsters({
             text: [
               'Choose one visible humanoid within 5 ft. The humanoid must succeed on a ',
               { dc: 'cha' },
-              ' Charisma save or the ghost disappears into its body. The host remains aware. Normally the host is ',
-              rules.incapacitated,
-              ' and the ghost controls its body. Apply the Death House exception below when the host is a player character. The ghost cannot be targeted except by effects that turn undead. It retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ',
-              rules.charmed,
-              ' and ',
-              rules.frightened,
-              ". It uses the host's other statistics without gaining its knowledge, class features, or proficiencies. The possession ends if the host drops to 0 HP, the ghost ends it as a bonus action, it is turned, or magic such as Dispel Evil and Good forces it out. The ghost reappears in an unoccupied space within 5 ft. of the host. After a successful save or after the possession ends, the host is immune to this ghost's Possession for 24 hours.",
+              ' Charisma save or the ghost disappears into its body. ',
+              { effect: 'thorn-possession' },
+              ". The ghost reappears in an unoccupied space within 5 ft. of the host. After a successful save or after the possession ends, the host is immune to this ghost's Possession for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'thorn-possession',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: [
+                  'The host remains aware. Normally the host is ',
+                  rules.incapacitated,
+                  ' and the ghost controls its body. Apply the Death House exception below when the host is a player character. The ghost cannot be targeted except by effects that turn undead. It retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ',
+                  rules.charmed,
+                  ' and ',
+                  rules.frightened,
+                  ". It uses the host's other statistics without gaining its knowledge, class features, or proficiencies.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the host drops to 0 HP, the ghost ends it as a bonus action, it is turned, or magic such as Dispel Evil and Good forces it out',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -4363,6 +4461,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ', the blight can also make a bite attack against that target as a bonus action.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
