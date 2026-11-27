@@ -56,6 +56,72 @@ export default createScene({
       ],
     },
     {
+      title: 'Still connected',
+      lines: [
+        {
+          note: [
+            [
+              'Before he sends them off, ',
+              refs.npcs.light_13th_marshal,
+              ' turns to ',
+              refs.pcs.cassian_veyl,
+              '. The pulse broke the bonds of the others with ',
+              refs.pcs.jim,
+              ' (',
+              refs.effects.severed_bond_with_jim,
+              '), but not his.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['Am I correct in assuming you still hold your connection to ', refs.pcs.jim, '?']],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['Tell me, Cassian. Is it just because of the contract?']],
+        },
+        {
+          do: [
+            [
+              'He asks ',
+              refs.pcs.devan,
+              ' to recite the passage of the contract: ',
+              refs.pcs.cassian_veyl,
+              ' must do everything he can to prevent more deaths (',
+              refs.events.n2_e077,
+              ').',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            [
+              'If the reason for staying connected to ',
+              refs.pcs.jim,
+              ' is the contract, and only the contract, then I’ll have that removed.',
+            ],
+            [
+              'But I suspect you do actually care about this party. It’s more than a job for you now. Is this true?',
+            ],
+          ],
+        },
+        {
+          note: [['Let ', refs.pcs.cassian_veyl, '’s player answer.']],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            [
+              'If you can hold on to this connection, you might, just might, be able to save him, Cassian.',
+            ],
+            ['I do not blame you for losing him, Cassian. This was not your fault.'],
+          ],
+        },
+      ],
+    },
+    {
       title: 'Back to work',
       lines: [
         {
