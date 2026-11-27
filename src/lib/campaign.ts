@@ -732,7 +732,8 @@ export function eventMarkVisual(event: Pick<Event, 'mark' | 'day'>): EventMarkVi
   const { mark } = event
   if (mark.type === 'icon') return mark
   const subject = resolveRef(mark.of)
-  if (!subject || !('avatar' in subject.data)) return { type: 'avatar', url: DEFAULT_AVATAR }
+  if (subject?.kind !== 'pc' && subject?.kind !== 'npc' && subject?.kind !== 'beast')
+    return { type: 'avatar', url: DEFAULT_AVATAR }
   const earlier =
     subject.kind === 'pc'
       ? (subject.data.previousPortraits ?? [])

@@ -4,6 +4,7 @@ import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { Foretold } from './foretold'
 import { EntityRefSchema } from './kind'
+import { MediaUrl } from './media'
 import { deriveSlug } from './slug'
 
 export const ITEM_STATUSES = ['under-construction', 'destroyed'] as const
@@ -43,6 +44,7 @@ export type ShipHull = z.infer<typeof ShipHull>
 const Item = deriveSlug(
   z.strictObject({
     name: z.string().describe('The canonical name of the item'),
+    avatar: MediaUrl.optional().describe('The square artwork for this item'),
     icon: z
       .string()
       .describe(
