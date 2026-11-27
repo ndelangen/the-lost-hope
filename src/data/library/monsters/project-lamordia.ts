@@ -200,6 +200,12 @@ export default createPublicationMonsters({
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish', 'Goblin', 'Halfling'],
       tableNotes: [['Gear: studded leather armor']],
+      lore: [
+        [
+          'Viktra runs Mordenheim Kinetics, which she founded. She is an eccentric visionary and gifted technologist who rarely shows herself. The book points to the Ravenloft: The Horrors Within entry for more detail on her and her control over her domain.',
+        ],
+        ['Sources: ', 'Project_Lamordia'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

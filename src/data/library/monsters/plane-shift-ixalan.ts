@@ -179,6 +179,12 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Auran'],
       habitats: ['mountain', 'desert'],
+      lore: [
+        [
+          'On Ixalan, the River Heralds carve jade totems that hold elementals dormant. When trespassers disturb a totem it opens, the elemental assembles its body from wind and swiftly kills the intruders. The book says ordinary air, earth or water elementals can stand in for them.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -387,6 +393,12 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ['one language known by its creator'],
       habitats: ['forest'],
+      lore: [
+        [
+          'On Ixalan, River Heralds bind elementals into jade totems and release them when trespassers arrive, and some take plant form. The book says ordinary treants, blights, shambling mounds and awakened plants can stand in for them.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
       stats: {
         size: 'small',
         type: 'plant',
@@ -1017,6 +1029,12 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Terran'],
       habitats: ['underdark'],
+      lore: [
+        [
+          'On Ixalan, the River Heralds make jade totems that keep elementals dormant. When trespassers trigger one, the elemental assembles itself and dispatches the intruders. The book says ordinary earth elementals can stand in for them.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -2505,6 +2523,12 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Ignan'],
       habitats: ['desert'],
+      lore: [
+        [
+          'Long ago, when the Sun Empire and the River Heralds were allies, they turned fire elementals into sentinels that still watch over certain forgotten ruins. The book says ordinary fire elementals can stand in for them.',
+        ],
+        ['Sources: ', 'Plane Shift: Ixalan'],
+      ],
       stats: {
         size: 'large',
         type: 'elemental',

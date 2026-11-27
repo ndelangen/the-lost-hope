@@ -319,6 +319,12 @@ export default createPublicationMonsters({
       name: 'Creepy Doll',
       alignment: 'lawful evil',
       languages: ['speaks and understands the languages known by its creator'],
+      lore: [
+        [
+          'On Innistrad, some of the worst horrors are made by human hands. Haunted dolls are among the objects given life, either by the magic of necro-alchemists and witches or by hostile spirits and other malign forces that move in. The same group includes gargoyles, scarecrows, animated armour and stone golems.',
+        ],
+        ['Sources: ', 'Plane Shift: Innistrad'],
+      ],
       stats: {
         size: 'tiny',
         type: 'construct',
@@ -875,6 +881,13 @@ export default createPublicationMonsters({
       name: 'Geist',
       alignment: 'any alignment',
       languages: ['any languages it knew in life'],
+      lore: [
+        [
+          'Innistrad is full of the ghosts of dead humans, called geists. A few watch over their descendants, some are merely stuck between the two states, and others are vengeful, set on finishing quarrels they never resolved. With Avacyn gone, many linger rather than going on to the Blessed Sleep. Geists can pass through walls or vanish, yet can affect the world: some briefly turn solid to cut throats, others plant terror or false senses in the mind so victims injure themselves, some chill the lost on moors and bogs, and some wield wrapped brambles, chains or shards by telekinesis.',
+        ],
+        ['Sources: ', 'Plane Shift: Innistrad'],
+      ],
+      habitats: ['Moor', 'Bog'],
       stats: {
         size: 'medium',
         type: 'undead',

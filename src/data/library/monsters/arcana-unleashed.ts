@@ -214,6 +214,12 @@ export default createPublicationMonsters({
       languages: ['Common plus five other languages'],
       habitats: ['any'],
       tableNotes: [['Gear: crystal']],
+      lore: [
+        [
+          'Distance means nothing to a conjurer archmage. It can teleport itself and others across nations and between planes in an instant, and it creates magical effects from nothing or draws them from other planes.',
+        ],
+        ['Sources: ', 'Arcana Unleashed'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -648,6 +654,12 @@ export default createPublicationMonsters({
       languages: ['Common plus five other languages'],
       habitats: ['any'],
       tableNotes: [['Gear: orb']],
+      lore: [
+        [
+          'Evoker archmages unleash ruinous magic with great accuracy. Inside an explosion they can leave safe pockets, protecting themselves and allies while wiping out foes.',
+        ],
+        ['Sources: ', 'Arcana Unleashed'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

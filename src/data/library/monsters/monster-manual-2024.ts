@@ -18475,6 +18475,12 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft.'],
       habitats: ['Abyss'],
+      lore: [
+        [
+          'A demon that would rather corrupt a mortal than simply kill one. It is among the few demons that will serve a summoner, but the service is bait: it offers power or wealth and leads the client toward ruin. It keeps a hoard to pay out on its bargains and wins through cunning and crooked deals. When talk fails it is strong enough to fight and win.',
+        ],
+        ['Sources: ', 'Monster Manual'],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',

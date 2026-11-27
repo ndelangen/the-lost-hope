@@ -320,6 +320,12 @@ export default createPublicationMonsters({
       alignment: 'neutral',
       languages: ['Giant'],
       habitats: ['underdark', 'mountain', 'hill'],
+      lore: [
+        [
+          "Boulderfoot giants live in the mountains of Akoum and are known for trampling enemies underfoot. Zendikar's giants form close tribes far from other peoples and are more civilised and clever than ogres, though wilder than the smaller races. Boulderfoot giants count as stone giants in the rules.",
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -1055,6 +1061,12 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['mountain', 'grassland', 'hill', 'coastal', 'arctic'],
+      lore: [
+        [
+          "Zendikar's griffins have less intellect and magic than felidars, but share their noble nature and tie to white mana. The larger kinds are horse-sized and can be ridden, and are often the only dependable way to remote places, especially in Akoum. Smaller kinds range from donkey to large dog size and are trained to deliver messages or goods unaccompanied. They resemble ordinary griffons and hippogriffs.",
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1114,6 +1126,12 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: [],
       habitats: ['mountain', 'grassland', 'hill'],
+      lore: [
+        [
+          "Zendikar's griffins have less intellect and magic than felidars, but share their noble nature and tie to white mana. The larger kinds are horse-sized and can be ridden, and are often the only dependable way to remote places, especially in Akoum. Smaller kinds range from donkey to large dog size and are trained to deliver messages or goods unaccompanied. They resemble ordinary griffons and hippogriffs.",
+        ],
+        ['Sources: ', 'Plane Shift: Zendikar'],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',

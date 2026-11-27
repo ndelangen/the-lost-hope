@@ -1395,6 +1395,12 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['Common'],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
+      lore: [
+        [
+          "A scion is an evil mortal whose soul is tied to the three gods Bane, Bhaal and Myrkul, and who has gained a share of each god's power, through a ritual, a malign artefact or divine will. They combine cruelty, bloodlust and necromantic power. A scion leads cults to one or all of the three, either as one uneasy mixed cult or as separate cults played against each other from the shadows to spread the most misery in a region.",
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -1668,6 +1674,12 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common', 'Elvish', 'Undercommon'],
       habitats: ['underdark', 'urban', 'underdark', 'urban'],
+      lore: [
+        [
+          'The book describes the Lolth-worshipping drow generally. They serve the Spider Queen in cities such as Menzoberranzan, regard the Underdark as their true home after being exiled from the surface long ago, raid above, scheme against each other and prepare for a final war. Some study magic and summon fiends from the Abyss in her name.',
+        ],
+        ['Sources: ', 'Forgotten Realms: Adventures in Faerûn'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

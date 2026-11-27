@@ -1895,6 +1895,12 @@ export default createPublicationMonsters({
       tags: ['luma'],
       alignment: 'neutral evil',
       languages: ['Birdfolk', 'Mapach', 'Vulpin', "understands Auran but can't speak it"],
+      lore: [
+        [
+          "Drella is a cheerful sera luma who can chat with anyone. She is a swindler who torched her relationships in Alderheart and has joined the hunters of Reya's Watch, hoping to swindle them out of their best trophies.",
+        ],
+        ['Sources: ', 'Humblewood Tales'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

@@ -1364,6 +1364,12 @@ export default createPublicationMonsters({
       name: 'Enchanting Infiltrator',
       alignment: 'neutral evil',
       languages: ['Common', "thieves' cant", 'plus any one language'],
+      lore: [
+        [
+          "A fey antagonist built for mid-tier play that beguiles and misdirects. It dwells somewhere safe and powerful, perhaps a secret thieves' guildhall or a luxurious manor, and the lair is fitted with cunning defences designed to confuse, sap and slay trespassers. It becomes more dangerous when fought there.",
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'small',
         type: 'fey',
@@ -1515,6 +1521,12 @@ export default createPublicationMonsters({
       tags: ['druid', 'medusa'],
       alignment: 'neutral good',
       languages: ['Common', 'Druidic'],
+      lore: [
+        [
+          'Euryale is a medusa and an ancient, powerful druid who has retired from adventuring to Cair Ophidian, a small retreat in the Outlands, where she tends a garden. She would cross the multiverse to protect her sister Asteria. Like other medusas she has snakes for hair and a gaze that turns people to stone, but controls the gaze so precisely that it cannot affect her and she can use it outside her medusa form. When threatened she often takes the shape of a huge serpent. At heart she remains a healer and caretaker.',
+        ],
+        ['Sources: ', 'The Book of Many Things'],
+      ],
       stats: {
         size: 'medium',
         type: 'monstrosity',

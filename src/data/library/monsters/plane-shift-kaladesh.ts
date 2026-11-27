@@ -113,6 +113,12 @@ export default createPublicationMonsters({
       name: 'Construct (Animated Armor)',
       alignment: 'unaligned',
       languages: [],
+      lore: [
+        [
+          'On Kaladesh, inventors build artifact creatures that act on their own according to detailed instructions, and constructs are the broadest group. The book says animated armor can serve as one. Some constructs are battle automatons or shield-bearing guards escorting their makers, while others do foundry work, carry messages or cargo, or scan crowds for fugitives. The text speaks of constructs in general, not this one.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -184,6 +190,12 @@ export default createPublicationMonsters({
       name: 'Construct (Helmed Horror)',
       alignment: 'neutral',
       languages: ["understands the languages of its creator but can't speak"],
+      lore: [
+        [
+          'On Kaladesh, inventors build artifact creatures that act on their own according to detailed instructions, and constructs are the broadest group. The book says helmed horrors can serve as one. Some constructs are battle automatons or guards that escort their makers like watchdogs, while others do workshop duties, deliveries or crowd scanning. The text speaks of constructs in general, not this one.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -255,6 +267,12 @@ export default createPublicationMonsters({
       name: 'Construct (Modron)',
       alignment: 'lawful neutral',
       languages: ['Modron'],
+      lore: [
+        [
+          'On Kaladesh, inventors build artifact creatures that act on their own according to detailed instructions, and constructs are the broadest group. The book says modrons can serve as one. Many perform workshop and foundry tasks, fetch tools or carry cargo. The text speaks of constructs in general, not this one.',
+        ],
+        ['Sources: ', 'Plane Shift: Kaladesh'],
+      ],
       stats: {
         size: 'medium',
         type: 'construct',

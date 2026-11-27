@@ -141,6 +141,12 @@ export default createPublicationMonsters({
       tags: ['bard'],
       alignment: 'chaotic good',
       languages: ['Common'],
+      lore: [
+        [
+          'Edgin is a musician and storyteller who relies on charm and improvisation more than magic or muscle. A former Harper, he broke his oath and became a thief to support his family, and only robs people he thinks deserve to lose money and dignity. Confident and rakish, he leads his crew with well-chosen words. Now his past mistakes catch up with him, and he wants to make amends to those he wronged and face those who wronged him.',
+        ],
+        ['Sources: ', "Honor Among Thieves: Thieves' Gallery"],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

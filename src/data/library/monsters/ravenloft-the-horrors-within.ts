@@ -12,6 +12,12 @@ export default createPublicationMonsters({
       alignment: 'chaotic evil',
       languages: [],
       habitats: ['forest', 'swamp', 'urban', 'forest', 'swamp', 'urban'],
+      lore: [
+        [
+          "A death's head can rise from the remains of an aberration such as a nothic or a mind flayer. When it does, it may keep some of the warping mental influence the creature had in life.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -2202,6 +2208,12 @@ export default createPublicationMonsters({
       alignment: 'lawful good',
       languages: ['Common', 'Draconic', 'Infernal'],
       tableNotes: [['Gear: component pouch, dagger']],
+      lore: [
+        [
+          "Gennifer and her twin Laurie are monster hunters, daughters of Mordentshire's mayor, and are often at Heather House or with their adopted uncle Rudolph van Richten. They exposed their uncle George's fiancee Natalia Vhorishkova as a werewolf and, once trained, have aided van Richten and have teamed up with Ez d'Avenir and Savra Sunstar. Gennifer learned medicinal and spiritual practices from van Richten and has studied lycanthropy closely. She secretly fears the werewolf infected her, takes a remedy of her own making, and keeps quietly researching cures.",
+        ],
+        ['Sources: ', 'Ravenloft: The Horrors Within'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

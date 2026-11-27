@@ -66,6 +66,9 @@ def check(entry):
     problems = []
     for field in ('appearance', 'lore'):
         text = entry.get(field)
+        # Looks are optional: a source that never describes them leaves them out.
+        if field == 'appearance' and text is None:
+            continue
         if not isinstance(text, str) or len(text.split()) < 6:
             problems.append(f'{field} missing or too short')
         elif re.search(r'\d+ \(\d+d\d+|\bDC \d+|\bAC \d+|\+\d+ to hit|\bhit points?\b', text, re.I):
@@ -108,7 +111,7 @@ for batch_path, result_path in pairs:
             if not replace:
                 continue
             block = drop_field(drop_field(block, 'appearance'), 'lore')
-        appearance = DASH.sub(', ', entry['appearance'].strip())
+        appearance = DASH.sub(', ', entry['appearance'].strip()) if entry.get('appearance') else None
         lore = DASH.sub(', ', entry['lore'].strip())
         links = []
         cited = []
@@ -125,7 +128,7 @@ for batch_path, result_path in pairs:
             if i:
                 links.append(js(', '))
             links.append('{ type: "link", label: ' + js(s['label']) + ', url: ' + js(s['url']) + ' }' if s['url'] else js(s['label']))
-        fields = [f'appearance: [[{js(appearance)}]],', f'lore: [[{js(lore)}], [{js("Sources: ")}, {", ".join(links)}]],']
+        fields = ([f'appearance: [[{js(appearance)}]],'] if appearance else []) + [f'lore: [[{js(lore)}], [{js("Sources: ")}, {", ".join(links)}]],']
         if entry.get('habitats') and 'habitats:' not in head:
             fields.append('habitats: ' + js([h.strip() for h in entry['habitats'] if h.strip()][:4]) + ',')
         at = block.index('stats: {')

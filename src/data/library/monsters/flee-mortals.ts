@@ -982,6 +982,12 @@ export default createPublicationMonsters({
           "Recoverable Magic Item: Bracers of the Spellbreaker. Very rare. Spellcaster attunement required. The wearer has advantage on saves against spells and magical effects, and their spell attacks bypass damage resistance.\nCursed Sentience. The item uses its Soulbinder's alignment, mental ability scores, and languages. It hears and sees in darkness within 60 ft. and can speak to its wearer telepathically. Break attunement with Remove Curse or equivalent magic. After seven days attuned and every 24 hours after that, make a DC 18 Wisdom save. Each failure reduces Wisdom by 1 while attuned. On the third failure, the Soulbinder takes control and changes the wearer's body, statistics, and equipment to match its own. The wearer remains aware. Breaking attunement restores the body and control. The Soulbinder returns to the item when attunement ends or the body dies. After 1d6 + 12 months of possession, the victim's soul and body are destroyed. The full group ritual for permanently lifting the curse is on p. 382.",
         ],
       ],
+      lore: [
+        [
+          'Argan Rael is a tiefling mage shunned by every circle he asked for help, who promised Prince Ellan Farra the secret of immortality. Thrilled by the idea of ruling forever, the prince backed him. He is now one of the Soulbinders, mortals whose souls were trapped in cursed items when an immortality ritual went wrong. His bracers hold his soul. He loves forbidden knowledge but enjoys causing suffering and domination more, obeys only the prince, and prefers possessing other spellcasters. The Soulbinders feed on the souls of those they ride, and seek godhood through forced worship.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2211,6 +2217,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Giant'],
       tableNotes: [['Role: Controller']],
+      lore: [
+        [
+          'The book describes giants as a family. They suit harsh places, and stone giant villages sit on the highest mountains, often unnoticed by nearby humanoids. Giants resemble their surroundings. Stone giants rarely get on with hill giants, who dislike stone craftsmanship. The supplied text is general and says nothing specific about basalt stone giants.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -3557,6 +3570,12 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Goblin'],
       tableNotes: [['Role: Controller']],
+      lore: [
+        [
+          'The book covers bugbears generally. They are the oldest and largest goblinoids, quiet and strong, and they inspire other goblinoids and humanoids to keep fighting against bad odds. Their tradition stresses preparation: they choose the battlefield, set traps, and keep reinforcements and escape routes ready. In a fight they focus on healers first, and if losing they fall back to a stocked, trapped second position. They share magic items freely with allies. The text does not single out the channeler.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3707,6 +3726,12 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Goblin'],
       tableNotes: [['Role: Support']],
+      lore: [
+        [
+          'The book covers bugbears generally. They are the oldest and largest goblinoids, silent and strong, and they inspire goblinoids and humanoid allies to fight on against odds. A commander directs allies to pile onto healers first. Bugbears prefer ambushes from prepared ground with traps, and retreat to a hidden fallback stocked with supplies if beaten. They lend or give magic items to allies mid-battle. Beating the bugbear first makes the rest of the force far easier to break.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3907,6 +3932,12 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Common and Goblin'],
       tableNotes: [['Role: Brute']],
+      lore: [
+        [
+          'The book covers bugbears generally. They are the oldest and largest goblinoids, quiet but strong, and they inspire allies to hold on against overwhelming odds. They like to ambush from a spot they have trapped in advance, and fall back to a secret fortified site stocked with supplies if a fight goes badly. They readily hand magic items to friends. The text does not single out the roughneck.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6997,6 +7028,12 @@ export default createPublicationMonsters({
       alignment: 'typically neutral good',
       languages: ['Speaks Draconic'],
       tableNotes: [['Role: Support']],
+      lore: [
+        [
+          'Dragonets are small cousins of true dragons, far less powerful and proud. They are omnivores that live about a century and need to eat. Each has a traditional Draconic name and a nickname reserved for its clutch and close friends. They rarely cast spells but understand magic well and sense truth from falsehood easily, so they avoid lying to friends and call out untruths with varying tact. True dragons treat them as kin and usually protect them. Many believe dragons made them long ago. Adventurous ones become familiars: curious, sociable and loyal, fond of fresh fruit, fish and spiced or sweet nuts.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'tiny',
         type: 'dragon',
@@ -7931,6 +7968,13 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common'],
+      lore: [
+        [
+          'Excess is an ogre, and the book describes ogres generally. They are huge, bull-necked and indulgent, living in the wild where they make their own rules. Their feelings run to extremes, from wild joy over small wins to murderous rage over minor annoyances. Ogres can be bought by evil masters who promise food, riches or friendship, while good ones devote themselves to protecting chosen people or places. Many tell tales of lost wealth stolen by tricksters, which cruel ones use to excuse selfishness. The text does not describe Excess specifically.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Wilderness'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -9197,6 +9241,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Giant'],
       tableNotes: [['Role: Artillery']],
+      lore: [
+        [
+          'The book covers giants as a family. Frost giants are born on tall, frozen peaks, dominate whole mountain chains and raise fortresses of solid ice. When they march, a blizzard gathers overhead like a war banner. Fighting, comradeship and glory make up their way of life. They harvest a flowering crystalline ice called issenblau and shape it into weapons that stay hard and sharp in any climate, and they happily recruit hill giants as front-line raiders. The text says nothing specific about storm hurlers.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -9761,6 +9812,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       tableNotes: [['Role: Support']],
       languages: ['Abyssal', 'Gnoll'],
+      lore: [
+        [
+          "The book treats gnolls as hyena-faced fiends rather than humanoids, born from a dead demon lord. They came from the Abyssal Wasteland, where abyssal hyenas feed on demon corpses. According to the book, the first gnolls were hyenas that drank from As'sylrak the Warper as that demon prince lay dying. In return he gave them fiendish cunning and hands, linked his malice to their own, and they promptly ate him. They roam deserts and plains in hungry hunting packs, announce attacks with a wild cackle, and war with each other over territory, which keeps their numbers down. The text does not single out the summoner.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Desert', 'Plains'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -10007,6 +10065,13 @@ export default createPublicationMonsters({
       alignment: 'typically chaotic evil',
       tableNotes: [['Role: Controller']],
       languages: ['Abyssal', 'Gnoll'],
+      lore: [
+        [
+          "The book treats gnolls as hyena-faced fiends rather than humanoids, born from a dead demon lord. They came from the Abyssal Wasteland and spread across the world, thriving in deserts and plains. The first gnolls were hyenas that drank from the wounds of the dying demon prince As'sylrak the Warper, who gave them fiendish cunning and hands, and whom they then devoured. Packs hunt travellers and raid settlements, and their wild cackle warns of a night of terror. Gnoll war bands fight each other, thinning their numbers. The text does not single out the cackler.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Desert', 'Plains'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -10994,6 +11059,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Giant'],
       tableNotes: [['Role: Soldier']],
+      lore: [
+        [
+          'The book covers giants as a family. They thrive in harsh places, and stone giants keep villages on the highest peaks, frequently unknown to humanoids living nearby. Giants take on the character of their lands. Relations between stone giants and hill giants are usually poor, because hill giants tend to look down on stone artistry. The text does not describe granite stone giants specifically.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -11473,6 +11545,12 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common', 'Elvish'],
+      lore: [
+        [
+          "Halorin trained as a soldier from youth and became bodyguard to the young mage Lestheris Soldrei, who showed him kindness. He supports her macabre interests partly from devotion and partly because he enjoys killing. He fell protecting her from the adventuring party Golden Valor, and she raised him as undead with his mind intact. His bloodlust and loyalty are unchanged, and he leads the Grave Order's lesser undead in battle. The book warns about themes of an enslaved spirit and body horror.",
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -11582,6 +11660,12 @@ export default createPublicationMonsters({
         ['Mind Splinter is a power attack.'],
       ],
       languages: ['Common', 'Dwarvish', 'Elvish', 'Halfling', "thieves' cant", 'telepathy 120 ft.'],
+      lore: [
+        [
+          'Harlo is a halfling actor and adventurer who led an expedition to an ancient ruin. The five survivors shattered a purple crystal dagger and gained psionic powers and a telepathic link. He then revealed he already headed a small criminal group and talked the others into using their powers to grow it, promising them a cut of the money and power. They renamed it the Amethyst Knife, and it now seeks wealth, influence and control.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -12283,6 +12367,13 @@ export default createPublicationMonsters({
       alignment: 'any alignment',
       languages: ['Speaks Giant'],
       tableNotes: [['Role: Brute']],
+      lore: [
+        [
+          'The book covers giants as a family. Hill giants are the giants most likely to deal with humanoids. They tend to despise stone craftsmanship, so they get along poorly with stone giants, while frost giants happily recruit them as front-line raiders. The text does not describe clobberers specifically.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
+      habitats: ['Hills'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -18207,6 +18298,12 @@ export default createPublicationMonsters({
         ],
       ],
       languages: ['Common'],
+      lore: [
+        [
+          'Erasmus is the thirteenth Earl Deseo, of a minor house under House Navarr, the oldest noble family in Capital. He ranks highest among the leaders of the Black Iron Pact, the High Command, and speaks for a small but influential bloc of nobles with bigoted views. The High Command strikes together with overwhelming force after careful research, catches foes unprepared, and leaves no witnesses, since its members are secret cultists. If things turn bad, they flee through iron rings to their private demiplane, the Cyst.',
+        ],
+        ['Sources: ', 'Flee, Mortals!'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',

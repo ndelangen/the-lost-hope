@@ -1257,6 +1257,13 @@ export default createPublicationMonsters({
       tags: ['sorcerer'],
       alignment: 'any alignment',
       languages: ['Common', 'Sylvan'],
+      lore: [
+        [
+          "High fae are ageless, inhuman and the oldest beings in Eldraine, embodying the wilderness's beauty and danger. They ignore mortal ideas of honour and law but obey firm laws of their own: a gift has to be repaid, a promise kept, and an outright lie is never told, though riddles and misdirection are welcome. They amuse themselves with deceptions and wit games. Most stay deep in the wilds, drawing power from motes of light and using illusion magic to empower their weapons. Their ruler is Talion, the Kindly Lord, who is ancient, strange and fickle, demands loyalty, and sometimes follows whims to far corners out of curiosity.",
+        ],
+        ['Sources: ', 'Monstrous Compendium Vol. 4: Eldraine Creatures'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'fey',

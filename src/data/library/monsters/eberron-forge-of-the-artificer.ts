@@ -294,6 +294,12 @@ export default createPublicationMonsters({
       tags: ['gnoll'],
       alignment: 'neutral evil',
       languages: ['Common', 'Gnoll'],
+      lore: [
+        [
+          'Bruisers lead Daask operations that call for a violent, decisive show of force. These enforcers enjoy the brutality of the work.',
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -528,6 +534,12 @@ export default createPublicationMonsters({
       name: 'Dreaming Dark Mindkiller',
       alignment: 'lawful evil',
       languages: ['Common', 'Quori', 'telepathy 120 ft'],
+      lore: [
+        [
+          "The Dreaming Dark uses mindkillers as its killers. They frighten their targets before moving in to kill, and can force foes to turn on their own allies, causing both bodily and emotional harm that feeds the organisation's power.",
+        ],
+        ['Sources: ', 'Eberron: Forge of the Artificer'],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',

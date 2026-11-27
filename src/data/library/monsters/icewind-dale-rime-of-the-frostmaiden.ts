@@ -3576,6 +3576,13 @@ export default createPublicationMonsters({
       tags: ['goliath'],
       alignment: 'any alignment',
       languages: ['Common', 'Giant'],
+      lore: [
+        [
+          "Goliaths dwell on the Spine of the World and prove themselves against foes such as orcs, ogres, remorhazes, frost giants, ice trolls, young white dragons, harsh mountain terrain and nature's indifference.",
+        ],
+        ['Sources: ', 'Icewind Dale: Rime of the Frostmaiden'],
+      ],
+      habitats: ['Mountain'],
       stats: {
         size: 'medium',
         type: 'humanoid',

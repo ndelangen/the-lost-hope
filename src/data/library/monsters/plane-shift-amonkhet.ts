@@ -1007,6 +1007,12 @@ export default createPublicationMonsters({
       alignment: 'neutral evil',
       languages: ['the languages it knew in life'],
       habitats: ['underdark', 'swamp', 'urban', 'desert'],
+      lore: [
+        [
+          "Eternals are the elite soldiers of Amonkhet's army, made so that an ordinary zombie host would not be worthy of the God-Pharaoh. They keep a living soldier's skill and prowess but lack emotions, hesitation and disloyalty. Nicol Bolas shaped Amonkhet itself to produce them, and they are fearsome alone and terrifying marching in endless ranks.",
+        ],
+        ['Sources: ', 'Plane Shift: Amonkhet'],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',

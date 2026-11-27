@@ -11,6 +11,13 @@ export default createPublicationMonsters({
       name: 'Homarid',
       alignment: 'chaotic evil',
       languages: ['Homarid'],
+      lore: [
+        [
+          "Homarids are a cryptic, cold-loving crustacean people who fought the merfolk of Vodalia for generations. When the ice age came they flooded up toward the surface and almost brought down the first Vodalian Empire. They now fill the deep, cold trenches west of the Voda Sea. They seem to understand only their own language and may barely realise others' sounds carry meaning, and they regard themselves as the most advanced species and everything else as animals. In the Homarid Wars they treated merfolk like cattle, feeding the dead to hatchlings. Viscerids are warm-water kin.",
+        ],
+        ['Sources: ', 'Plane Shift: Dominaria'],
+      ],
+      habitats: ['Ocean'],
       stats: {
         size: 'medium',
         type: 'monstrosity',

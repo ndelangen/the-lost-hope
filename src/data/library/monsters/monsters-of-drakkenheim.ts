@@ -9637,6 +9637,13 @@ export default createPublicationMonsters({
       name: 'Hooded Lantern Scout',
       languages: ['Common'],
       tableNotes: [['Gear: longbow, quiver, shortsword, studded leather armor']],
+      lore: [
+        [
+          "The Hooded Lanterns are a ragtag army made up of ex-Drakkenheim City Watch and Westemar Civil War veterans, commanded by the stern Lord Commander Elias Drexel. They want to clear the capital of monsters and outlaws, find an heir and restore the realm. They hold the city in three regiments: Support, Watch and Vanguard. The Watch Regiment guards walls and gates, holds newly won positions, and acts as the Lanterns' eyes and ears, scouting and clearing stray monsters near their bases.",
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruined city'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -9701,6 +9708,13 @@ export default createPublicationMonsters({
       name: 'Hooded Lantern Trapper',
       languages: ['Common'],
       tableNotes: [['Gear: dagger, heavy crossbow, leather armor']],
+      lore: [
+        [
+          'The Hooded Lanterns are a ragtag army made up of ex-Drakkenheim City Watch and Westemar Civil War veterans, commanded by the stern Lord Commander Elias Drexel. They want to clear the capital of monsters and outlaws, find an heir and restore the realm. They hold the city in three regiments: Support, Watch and Vanguard. The supplied text does not say which regiment trappers serve in.',
+        ],
+        ['Sources: ', 'Monsters of Drakkenheim'],
+      ],
+      habitats: ['Ruined city'],
       stats: {
         size: 'medium',
         type: 'humanoid',

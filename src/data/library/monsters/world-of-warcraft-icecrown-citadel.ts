@@ -503,6 +503,12 @@ export default createPublicationMonsters({
       name: 'Festergut',
       alignment: 'neutral evil',
       languages: ['Common (WoW)', 'Forsaken', 'Orcish'],
+      lore: [
+        [
+          "Professor Putricide made two abominations, and Festergut is one of them. Its mind is that of a child. It addresses Putricide as 'Daddy' and seems fond of its plague-dog Stinky, yet shares its maker's hatred of all living things.",
+        ],
+        ['Sources: ', 'World of Warcraft: Icecrown Citadel'],
+      ],
       stats: {
         size: 'huge',
         type: 'construct',
