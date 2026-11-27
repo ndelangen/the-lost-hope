@@ -5,7 +5,12 @@ export default createScene({
   name: 'The bard’s new song',
   location: refs.locations.rustmoor,
   illustrations: ['/assets/scenes/the-bard-s-new-song.png'],
-  npcs: [refs.npcs.tobin_reedwhistle],
+  npcs: [
+    refs.npcs.tobin_reedwhistle,
+    refs.npcs.hagel_boos,
+    refs.npcs.flyn_etchersen,
+    refs.npcs.jake_kinner,
+  ],
   setup: [
     [
       'An evening in a tavern in ',
@@ -202,9 +207,15 @@ export default createScene({
         {
           do: [
             [
-              'A few old sailors at a corner table have been watching the party. They are ex-navy, and they come over: they want to talk, and they want out of ',
+              'Three old sailors at a corner table have been watching the party: ',
+              refs.npcs.hagel_boos,
+              ', ',
+              refs.npcs.flyn_etchersen,
+              ' and ',
+              refs.npcs.jake_kinner,
+              '. They are ex-navy, and they come over: they want to talk, and they want out of ',
               refs.locations.rustmoor,
-              '.',
+              '. They call each other by their last names, except Kinner, who is Boozy.',
             ],
           ],
         },

@@ -29,17 +29,20 @@ import durgan_ashfang from './durgan-ashfang.ts'
 import dust_lost_sailor from './dust-lost-sailor.ts'
 import esia from './esia.ts'
 import faceless_shadow from './faceless-shadow.ts'
+import flyn_etchersen from './flyn-etchersen.ts'
 import frog_medicine_man_of_verdant_haven from './frog-medicine-man-of-verdant-haven.ts'
 import giggles from './giggles.ts'
 import goblin_grass_keepers from './goblin-grass-keepers.ts'
 import gridswald from './gridswald.ts'
 import grimgor_the_bloody from './grimgor-the-bloody.ts'
 import gruumsh_high_priest from './gruumsh-high-priest.ts'
+import hagel_boos from './hagel-boos.ts'
 import hand_breaker from './hand-breaker.ts'
 import hand_spellbinder from './hand-spellbinder.ts'
 import hex from './hex.ts'
 import hollin_slowbough from './hollin-slowbough.ts'
 import ilsa_corrow from './ilsa-corrow.ts'
+import jake_kinner from './jake-kinner.ts'
 import knukkles from './knukkles.ts'
 import korrag_stonevow from './korrag-stonevow.ts'
 import light_13th_marshal from './light-13th-marshal.ts'
@@ -106,6 +109,9 @@ export default {
   cloaked_snatcher,
   ilsa_corrow,
   korrag_stonevow,
+  hagel_boos,
+  flyn_etchersen,
+  jake_kinner,
   durgan_ashfang,
   dust_lost_sailor,
   rustmoor_scavenger,
