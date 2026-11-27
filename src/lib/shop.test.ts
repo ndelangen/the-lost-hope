@@ -15,6 +15,7 @@ import {
   withQuantity,
   withShopPrice,
   type StockCandidate,
+  picturesByItem,
 } from './shop'
 
 const candidate = (
@@ -229,5 +230,21 @@ describe('searchStockItems', () => {
   it('reports how many more matched than fit, and waits for two letters', () => {
     expect(searchStockItems('o', entries, [], 5).matches).toEqual([])
     expect(searchStockItems('po', entries, [], 1)).toMatchObject({ more: 1 })
+  })
+})
+
+describe('picturesByItem', () => {
+  it('keys each typed printing’s picture like a stock line', () => {
+    const pictures = picturesByItem([
+      {
+        art: [{ file: '/assets/library/items/sugarflame.png' }],
+        printings: [{ typed: { magicItem: { key: 'sugarflame' } } }],
+      },
+      { art: [{ file: '/assets/library/items/rope.png' }], printings: [{}] },
+      { printings: [{ typed: { equipment: { key: 'no_picture' } } }] },
+    ])
+    expect([...pictures]).toEqual([
+      ['magicItem:sugarflame', '/assets/library/items/sugarflame.png'],
+    ])
   })
 })

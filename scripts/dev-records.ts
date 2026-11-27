@@ -16,6 +16,7 @@ import type { Plugin, ViteDevServer } from 'vite'
 
 import { generateRefs } from './generate-refs.ts'
 import { draftLibraryItem, type ItemDraft, type LibraryItemKind } from './library-item-agent.ts'
+import { addCatalogEntry, itemArtJobs, paintItem } from './library-item-art.ts'
 import {
   addLibraryEntry,
   addToIndex,
@@ -132,6 +133,7 @@ type EditRequest = {
   edits?: unknown
   create?: unknown
   make?: unknown
+  art?: unknown
 }
 
 const isEdit = (edit: unknown): edit is RecordEdit => {
@@ -161,7 +163,8 @@ async function handle(server: ViteDevServer, request: IncomingMessage, response:
   if (request.method !== 'POST') return send(response, 405, { error: 'POST edits here' })
   if (!allowed(request)) return send(response, 403, { error: 'Not allowed from this page' })
   try {
-    const { kind, key, edits, create: input, make } = (await readJson(request)) as EditRequest
+    const { kind, key, edits, create: input, make, art } = (await readJson(request)) as EditRequest
+    if (typeof art === 'string') return send(response, 200, artState(art))
     if (make !== undefined) {
       const result = await makeLibraryItem(server, make)
       return send(response, result.status, result.body)
@@ -432,8 +435,40 @@ async function makeLibraryItem(server: ViteDevServer, input: unknown): Promise<O
     await writeLibraryEntry(draft.kind, checked.key, checked.entry)
     const item = { ref: draft.kind, key: checked.key }
     if (typeof location === 'string') await shelve(location, item, shopType)
-    return { status: 201, body: { ...item, name: checked.entry.name } }
+    await addCatalogEntry({
+      kind: draft.kind,
+      key: checked.key,
+      entry: checked.entry,
+      group: await shopLabel(server, shopType),
+    })
+    // The data is saved; the picture follows in the background and loads in when it is done.
+    paintItem(
+      {
+        key: checked.key,
+        name: String(checked.entry.name),
+        description: [request.trim(), ...paragraphs(checked.entry.text)].join('\n'),
+      },
+      exclusive,
+    )
+    return { status: 201, body: { ...item, name: checked.entry.name, painting: true } }
   })
+}
+
+const paragraphs = (text: unknown) =>
+  Array.isArray(text)
+    ? text.map((paragraph) =>
+        Array.isArray(paragraph)
+          ? paragraph.filter((atom) => typeof atom === 'string').join('')
+          : '',
+      )
+    : []
+
+/** A shop kind's label, e.g. `Confectioner`, for the catalog group of what it sells. */
+async function shopLabel(server: ViteDevServer, shopType: unknown) {
+  const { SHOP_TYPE_LABELS } = (await server.ssrLoadModule('/src/definitions/shop.ts')) as {
+    SHOP_TYPE_LABELS: Record<string, string>
+  }
+  return (typeof shopType === 'string' && SHOP_TYPE_LABELS[shopType]) || 'Made up at the table'
 }
 
 /**
@@ -458,4 +493,12 @@ async function shelve(
   await writeFile(temporary, next)
   await oxfmt(temporary)
   await rename(temporary, file)
+}
+
+/** Where a made-up item's background painting is. An item with no job is treated as failed. */
+function artState(key: string) {
+  const job = itemArtJobs.get(key)
+  if (job?.state === 'done') return { state: 'done', picture: job.picture, sizes: job.sizes }
+  if (job?.state === 'painting') return { state: 'painting' }
+  return { state: 'failed', ...(job?.state === 'failed' ? { error: job.error } : {}) }
 }

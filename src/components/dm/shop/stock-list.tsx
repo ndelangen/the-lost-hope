@@ -1,7 +1,10 @@
-import { Lock, LockOpen, X } from 'lucide-react'
+import { Loader2, Lock, LockOpen, Package, Sparkles, X } from 'lucide-react'
 
+import { LibraryImage } from '#/components/library/library-image'
+import { ResponsiveImage } from '#/components/responsive-image'
 import { Button } from '#/components/ui/button'
 import type { StockLine } from '#/definitions/shop'
+import type { ResponsiveImageSizes } from '#/lib/dev-records'
 import {
   isSoldOut,
   stockLineKey,
@@ -16,6 +19,8 @@ import { PriceCell } from './price-cell'
 import { QuantityStepper } from './quantity-stepper'
 import { RarityChip } from './rarity-chip'
 
+const NONE: readonly string[] = []
+
 /** How the DM changes the stock; left out where the shop is only read. */
 export type StockEditing = {
   locked: ReadonlySet<string>
@@ -29,11 +34,17 @@ export function StockList({
   describe,
   ready,
   editing,
+  painting = NONE,
+  freshSizes,
 }: {
   stock: readonly StockLine[]
   describe: (line: StockLine) => StockLineView
   ready: boolean
   editing?: StockEditing
+  /** Lines whose picture is still being painted. */
+  painting?: readonly string[]
+  /** Sizes of pictures painted since the page loaded, by picture. */
+  freshSizes?: ReadonlyMap<string, ResponsiveImageSizes>
 }) {
   const { goods, magic } = stockShelves(stock)
   const shelves = [
@@ -58,6 +69,8 @@ export function StockList({
                   view={describe(line)}
                   ready={ready}
                   editing={editing}
+                  painting={painting.includes(stockLineKey(line))}
+                  freshSizes={freshSizes}
                 />
               ))}
             </ul>
@@ -73,11 +86,15 @@ function StockRow({
   view,
   ready,
   editing,
+  painting,
+  freshSizes,
 }: {
   line: StockLine
   view: StockLineView
   ready: boolean
   editing: StockEditing | undefined
+  painting: boolean
+  freshSizes: ReadonlyMap<string, ResponsiveImageSizes> | undefined
 }) {
   const key = stockLineKey(line)
   const locked = editing?.locked.has(key) ?? false
@@ -93,19 +110,27 @@ function StockRow({
         soldOut && 'bg-muted/40',
       )}
     >
-      <div className={cn('min-w-0', soldOut && 'opacity-60')}>
-        <p className="flex items-center gap-2 text-sm font-medium">
-          <span className={cn('truncate', soldOut && 'line-through')}>{view.name}</span>
-          {soldOut ? (
-            <span className="bg-muted text-muted-foreground shrink-0 rounded-full px-2 py-0.5 text-[0.7rem] font-semibold tracking-wide uppercase no-underline">
-              Sold out
-            </span>
-          ) : null}
-        </p>
-        <p className="text-muted-foreground flex items-center gap-2 text-xs">
-          {view.rarity ? <RarityChip rarity={view.rarity} /> : null}
-          {view.category ? <span className="truncate">{view.category}</span> : null}
-        </p>
+      <div className={cn('flex min-w-0 items-center gap-3', soldOut && 'opacity-60')}>
+        <ItemPicture
+          view={view}
+          magic={line.item.ref === 'magicItem'}
+          painting={painting}
+          sizes={view.picture ? freshSizes?.get(view.picture) : undefined}
+        />
+        <div className="min-w-0">
+          <p className="flex items-center gap-2 text-sm font-medium">
+            <span className={cn('truncate', soldOut && 'line-through')}>{view.name}</span>
+            {soldOut ? (
+              <span className="bg-muted text-muted-foreground shrink-0 rounded-full px-2 py-0.5 text-[0.7rem] font-semibold tracking-wide uppercase no-underline">
+                Sold out
+              </span>
+            ) : null}
+          </p>
+          <p className="text-muted-foreground flex items-center gap-2 text-xs">
+            {view.rarity ? <RarityChip rarity={view.rarity} /> : null}
+            {view.category ? <span className="truncate">{view.category}</span> : null}
+          </p>
+        </div>
       </div>
       {editing ? (
         <>
@@ -157,5 +182,53 @@ function StockRow({
         </>
       )}
     </li>
+  )
+}
+
+/** A line's library picture, a spinner while a new one is painted, or the kind of item. */
+function ItemPicture({
+  view,
+  magic,
+  painting,
+  sizes,
+}: {
+  view: StockLineView
+  magic: boolean
+  painting: boolean
+  /** Sizes for a picture painted after the page loaded its library sizes. */
+  sizes: ResponsiveImageSizes | undefined
+}) {
+  const box = 'bg-muted size-10 shrink-0 rounded-md'
+  if (view.picture && sizes)
+    return (
+      <ResponsiveImage
+        src={view.picture}
+        image={sizes}
+        alt=""
+        sizes="40px"
+        maxWidth={128}
+        className={cn(box, 'object-contain')}
+      />
+    )
+  if (view.picture)
+    return (
+      <LibraryImage
+        src={view.picture}
+        alt=""
+        sizes="40px"
+        maxWidth={128}
+        loading="lazy"
+        className={cn(box, 'object-contain')}
+      />
+    )
+  const Icon = painting ? Loader2 : magic ? Sparkles : Package
+  return (
+    <span
+      className={cn(box, 'text-muted-foreground grid place-items-center')}
+      title={painting ? 'Painting its picture…' : undefined}
+    >
+      <Icon className={cn('size-4 opacity-60', painting && 'animate-spin')} aria-hidden />
+      {painting ? <span className="sr-only">Painting its picture</span> : null}
+    </span>
   )
 }

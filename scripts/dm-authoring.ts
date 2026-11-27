@@ -66,18 +66,22 @@ export async function runCodex({
   schema,
   cwd = ROOT,
   timeoutMs,
+  effort,
 }: {
   prompt: string
   sandbox: 'read-only' | 'workspace-write'
   schema?: object
   cwd?: string
   timeoutMs: number
+  /** How hard the model thinks; leave it out for Codex's default. */
+  effort?: 'minimal' | 'low' | 'medium' | 'high'
 }): Promise<string> {
   const scratch = await mkdtemp(path.join(tmpdir(), 'dm-codex-'))
   try {
     const out = path.join(scratch, 'last-message.txt')
     const args = ['exec', '--sandbox', sandbox, '--output-last-message', out]
     if (cwd !== ROOT) args.push('--skip-git-repo-check')
+    if (effort) args.push('-c', `model_reasoning_effort="${effort}"`)
     if (schema) {
       const schemaFile = path.join(scratch, 'schema.json')
       await writeFile(schemaFile, JSON.stringify(schema))

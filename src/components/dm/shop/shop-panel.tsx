@@ -18,15 +18,22 @@ import {
   type StockItem,
   type StockLine,
 } from '#/definitions/shop'
-import { canSaveRecords, saveRecordEdits } from '#/lib/dev-records'
+import {
+  canSaveRecords,
+  itemArtState,
+  saveRecordEdits,
+  type ResponsiveImageSizes,
+} from '#/lib/dev-records'
 import { useHoldReloadWhile } from '#/lib/dev-reload-guard'
 import { loadAllEquipment } from '#/lib/library-equipment'
 import { loadAllMagicItems } from '#/lib/library-magic-items'
+import { libraryRecords, loadLibraryIndex } from '#/lib/published-library-data'
 import {
   SETTLEMENT_SIZES,
   SETTLEMENT_SIZE_LABELS,
   describeStockLine,
   orderedShop,
+  picturesByItem,
   rerollStock,
   rollStock,
   sameShop,
@@ -75,6 +82,7 @@ type Library = {
   magicItems: ReadonlyMap<string, MagicItem>
   equipment: ReadonlyMap<string, Equipment>
   assortments: ShopAssortments
+  pictures: ReadonlyMap<string, string>
 }
 
 async function loadLibrary(): Promise<Library> {
@@ -82,8 +90,36 @@ async function loadLibrary(): Promise<Library> {
     loadAllMagicItems(),
     loadAllEquipment(),
     import('#/data/library/shop-assortments'),
+    loadLibraryIndex(['items']),
   ])
-  return { magicItems, equipment, assortments }
+  return {
+    magicItems,
+    equipment,
+    assortments,
+    pictures: picturesByItem(libraryRecords(['items'])),
+  }
+}
+
+type StockKey = string
+
+/** A picture painted since the page loaded, with the sizes the page could not know yet. */
+type PaintedPicture = { src: string; sizes?: ResponsiveImageSizes }
+
+const paintingStore = (locationKey: string) => `shop-paintings:${locationKey}`
+
+/** The items whose pictures this tab saw start painting at a location, across page reloads. */
+function paintingSince(locationKey: string): StockKey[] {
+  try {
+    const keys: unknown = JSON.parse(sessionStorage.getItem(paintingStore(locationKey)) ?? '[]')
+    return Array.isArray(keys) ? keys.filter((key) => typeof key === 'string') : []
+  } catch {
+    return []
+  }
+}
+
+function rememberPainting(locationKey: string, keys: readonly StockKey[]) {
+  if (keys.length > 0) sessionStorage.setItem(paintingStore(locationKey), JSON.stringify(keys))
+  else sessionStorage.removeItem(paintingStore(locationKey))
 }
 
 const count = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`
@@ -105,6 +141,41 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
   const [library, setLibrary] = useState<Library>()
   const [seed, setSeed] = useState(() => Date.now())
   const [makingUp, setMakingUp] = useState<string>()
+  /** Pictures of made-up items: `painting` until the background job brings back its file. */
+  // Creating an item can reload the page; the paintings in progress are kept for the session.
+  const [painted, setPainted] = useState<ReadonlyMap<StockKey, PaintedPicture | 'painting'>>(
+    new Map(),
+  )
+  useEffect(() => {
+    const kept = paintingSince(locationKey)
+    if (kept.length > 0) setPainted(new Map(kept.map((key) => [key, 'painting'])))
+  }, [locationKey])
+  const painting = [...painted].filter(([, state]) => state === 'painting').map(([key]) => key)
+
+  // A painting finishes in the background; ask after it until it is done.
+  const waiting = painting.join(' ')
+  const [restored, setRestored] = useState(false)
+  useEffect(() => {
+    if (restored) rememberPainting(locationKey, waiting ? waiting.split(' ') : [])
+    else setRestored(true)
+  }, [locationKey, waiting, restored])
+  useEffect(() => {
+    if (!waiting) return
+    const timer = setInterval(() => {
+      for (const key of waiting.split(' ')) {
+        void itemArtState(key.slice(key.indexOf(':') + 1)).then((art) => {
+          if (art.state === 'painting') return
+          setPainted((current) => {
+            const next = new Map(current)
+            if (art.state === 'done') next.set(key, { src: art.picture, sizes: art.sizes })
+            else next.delete(key)
+            return next
+          })
+        })
+      }
+    }, 4000)
+    return () => clearInterval(timer)
+  }, [waiting])
 
   // A made-up item regenerates the names, and their hot update brings a fresh loader with them, so
   // the library loads again when the names object changes.
@@ -164,8 +235,15 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
     )
   }
 
+  const pictures = new Map(library?.pictures)
+  const freshSizes = new Map<string, ResponsiveImageSizes>()
+  for (const [key, picture] of painted) {
+    if (picture === 'painting') continue
+    pictures.set(key, picture.src)
+    if (picture.sizes) freshSizes.set(picture.src, picture.sizes)
+  }
   const describe = (line: Pick<StockLine, 'item'> & Partial<StockLine>) =>
-    describeStockLine(line, library ?? {}, NAMES)
+    describeStockLine(line, { ...library, pictures }, NAMES)
   const setStock = (stock: StockLine[]) => edit({ ...shown, stock })
   const roll = () => {
     if (!library) return
@@ -313,6 +391,8 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
       {shown.stock.length > 0 ? (
         <StockList
           stock={shown.stock}
+          painting={painting}
+          freshSizes={freshSizes}
           describe={describe}
           ready={library !== undefined}
           editing={
@@ -398,6 +478,7 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
                 onCancel={() => setMakingUp(undefined)}
                 onCreated={(item) => {
                   setMakingUp(undefined)
+                  setPainted((current) => new Map(current).set(stockLineKey({ item }), 'painting'))
                   // The server already saved it onto the shop; an open draft gets it too, so saving
                   // the draft keeps it.
                   if (draft)

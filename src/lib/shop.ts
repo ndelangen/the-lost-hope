@@ -194,6 +194,8 @@ export const priceInCopper = ({ amount, coin }: Price) => amount * COIN_IN_CP[co
 /** A stock line as the shop table shows it. */
 export type StockLineView = {
   name: string
+  /** The item's library picture, as a logical image source. */
+  picture?: string
   category?: string
   rarity?: string
   price?: Price
@@ -209,6 +211,8 @@ export function describeStockLine(
   library: {
     magicItems?: ReadonlyMap<string, MagicItem>
     equipment?: ReadonlyMap<string, Equipment>
+    /** Library pictures by item, keyed by `stockLineKey`. */
+    pictures?: ReadonlyMap<string, string>
   },
   names: {
     magicItem: Readonly<Record<string, string>>
@@ -216,11 +220,13 @@ export function describeStockLine(
   },
 ): StockLineView {
   const name = names[line.item.ref][line.item.key] ?? line.item.key
+  const picture = library.pictures?.get(stockLineKey(line))
   if (line.item.ref === 'magicItem') {
     const item = library.magicItems?.get(line.item.key)
     const market = item ? magicItemPrice(item) : undefined
     return {
       name,
+      picture,
       category: item?.category,
       rarity: item?.rarity,
       price: line.price ?? market,
@@ -231,6 +237,7 @@ export function describeStockLine(
   const item = library.equipment?.get(line.item.key)
   return {
     name,
+    picture,
     category: item?.category,
     price: line.price ?? item?.price,
     listPrice: item?.price,
@@ -343,4 +350,29 @@ export function searchStockItems<Entry extends { item: StockItem; name: string }
     matches: ranked.slice(0, limit).map(({ entry }) => entry),
     more: Math.max(0, ranked.length - limit),
   }
+}
+
+/**
+ * Each typed item's library picture, keyed like a stock line, from the catalog's item entries: the
+ * first picture of the entry whose printing is typed to that magic item or piece of equipment.
+ */
+export function picturesByItem(
+  records: readonly {
+    art?: readonly { file: string }[]
+    printings: readonly { typed?: object }[]
+  }[],
+): ReadonlyMap<string, string> {
+  const pictures = new Map<string, string>()
+  for (const record of records) {
+    const file = record.art?.[0]?.file
+    if (!file) continue
+    for (const printing of record.printings) {
+      const typed = printing.typed as
+        | { magicItem?: { key: string }; equipment?: { key: string } }
+        | undefined
+      if (typed?.magicItem) pictures.set(`magicItem:${typed.magicItem.key}`, file)
+      if (typed?.equipment) pictures.set(`equipment:${typed.equipment.key}`, file)
+    }
+  }
+  return pictures
 }

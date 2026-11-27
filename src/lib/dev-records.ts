@@ -1,4 +1,8 @@
 import { expectOwnChange } from '#/lib/dev-reload-guard'
+import type { responsiveImageFor } from '#/lib/public-media'
+
+/** A picture's responsive sizes, as the generated image modules hold them. */
+export type ResponsiveImageSizes = NonNullable<ReturnType<typeof responsiveImageFor>>
 
 /** One field edit for the dev server's record endpoint (see `scripts/dev-records.ts`). */
 export type RecordEdit =
@@ -76,4 +80,21 @@ export async function makeLibraryItem(
   if (response?.ok && body?.ref && body.key)
     return { ref: body.ref, key: body.key, name: body.name ?? body.key }
   throw new Error(body?.error ?? 'Nothing was made. Is the dev server running?')
+}
+
+/** Where a made-up item's background painting is: still going, done with its picture, or failed. */
+export async function itemArtState(
+  key: string,
+): Promise<
+  | { state: 'painting' }
+  | { state: 'done'; picture: string; sizes?: ResponsiveImageSizes }
+  | { state: 'failed' }
+> {
+  const response = await fetch('/__dev/records', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ art: key }),
+  }).catch(() => undefined)
+  if (!response?.ok) return { state: 'painting' }
+  return (await response.json()) as Awaited<ReturnType<typeof itemArtState>>
 }

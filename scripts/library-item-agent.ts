@@ -4,6 +4,8 @@
  * server validates the draft and writes it. The agent never writes files itself.
  */
 /* oxlint-disable no-await-in-loop -- each try feeds the agent what the last one got wrong */
+import { EQUIPMENT_CATEGORIES, ITEM_CATEGORIES, ITEM_RARITIES } from '../src/definitions/library.ts'
+import { COINS } from '../src/definitions/price.ts'
 import { runCodex } from './dm-authoring.ts'
 
 export type LibraryItemKind = 'equipment' | 'magicItem'
@@ -25,9 +27,11 @@ const DRAFT_TIMEOUT_MS = 4 * 60_000
 
 export type ShopContext = { location: string; shopType: string }
 
+const list = (values: readonly string[]) => values.map((value) => `"${value}"`).join(', ')
+
 export function itemPrompt(request: string, shop: ShopContext | undefined, problems?: string) {
   return [
-    'You are making up one item for the library of The Lost Hope, a D&D 5e (2024) campaign, so a shop can sell it.',
+    'You are making up one item for the library of The Lost Hope, a D&D 5e (2024) campaign, so a shop can sell it. Answer straight away: everything you need is below, so only open files for the rare item that leaves a lasting effect on a creature.',
     shop
       ? `It goes on sale at ${shop.location}, a ${shop.shopType} shop.`
       : 'It goes on sale in a shop.',
@@ -35,18 +39,13 @@ export function itemPrompt(request: string, shop: ShopContext | undefined, probl
     'The DM asked for:',
     request.trim(),
     '',
-    'Keep every rule the DM gave exactly (dice, bonuses, damage types, charges). Fill in only what they left out, in the plain voice the library books use.',
+    'Keep every rule the DM gave exactly (dice, bonuses, damage types, charges). Fill in only what they left out, in the plain voice of the 2024 rulebooks. Use the name the DM gave; otherwise make up a short, fitting one.',
     '',
-    'Decide what kind of entry it is:',
-    '- `magicItem`: anything magical, with a bonus, extra damage, charges, a spell or a power. Pick the rarity the 2024 DMG would give it; a +3 weapon is legendary.',
-    '- `equipment`: plain goods with no magic. It needs a `price` as `{ "amount": number, "coin": "cp" | "sp" | "ep" | "gp" | "pp" }`.',
-    '',
-    'Read before writing:',
-    '- `Equipment` and `MagicItem` in `src/definitions/library.ts` (the entry must match exactly; leave out `publication`, the server sets it).',
-    '- Examples: `src/data/library/equipment/the-lost-hope.ts` and `src/data/library/magic-items/srd-5-2-1.ts`.',
-    '- `text` is a list of paragraphs, each a list of strings: `[["First paragraph."], ["Second."]]`.',
-    '- If using it leaves something lasting on a creature (a condition, a curse), follow `.claude/skills/extract-item-effects/SKILL.md` for `effects`. Otherwise leave `effects` out. Write references as `{ "ref": "rule", "key": "frightened" }`.',
-    '- The name must be new: check it is not in `src/data/generated/equipment-names.ts` or `src/data/generated/magic-item-names.ts`.',
+    'Pick the kind:',
+    `- "magicItem": anything magical (a bonus, extra damage, charges, a spell, a power). Fields: name; category, one of ${list(ITEM_CATEGORIES)}; detail (optional, e.g. "Longsword"); rarity, one of ${list(ITEM_RARITIES)} (as the 2024 DMG would rate it; a +3 weapon is legendary); attunement (optional: true, or e.g. "by a Wizard"); text.`,
+    `- "equipment": plain goods with no magic. Fields: name; category, one of ${list(EQUIPMENT_CATEGORIES)}; detail (optional); price, { "amount": number, "coin": ${list(COINS)} }; weight (optional, pounds); text.`,
+    '`text` is a list of paragraphs, each a list of strings: [["First paragraph."], ["Second."]]. Leave out every other field.',
+    'Only if using the item leaves a condition or curse that lasts on a creature, add `effects` following `.claude/skills/extract-item-effects/SKILL.md`, with references written as { "ref": "rule", "key": "frightened" }.',
     '',
     'Answer with `kind` and `entry`, where `entry` is the entry object as JSON text.',
     ...(problems ? ['', 'Your last draft was refused for these reasons. Fix them:', problems] : []),
@@ -67,6 +66,7 @@ export async function draftLibraryItem(
     const message = await runCodex({
       sandbox: 'read-only',
       timeoutMs: DRAFT_TIMEOUT_MS,
+      effort: 'low',
       schema: ITEM_DRAFT_JSON_SCHEMA,
       prompt: itemPrompt(request, shop, problems),
     })
