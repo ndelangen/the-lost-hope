@@ -196,5 +196,31 @@ export default createScene({
         },
       ],
     },
+    {
+      title: 'The navy men',
+      lines: [
+        {
+          do: [
+            [
+              'A few old sailors at a corner table have been watching the party. They are ex-navy, and they come over: they want to talk, and they want out of ',
+              refs.locations.rustmoor,
+              '.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'Who they are is in the background of ',
+              refs.locations.rustmoor,
+              ': they have always kept logbooks, they do not know why it helps, and they take Arcane Dust to dim the pain of the mates they lost. Let them tell how those mates lost interest in shipping and drifted here.',
+            ],
+          ],
+        },
+        {
+          do: [['Before the talk ends, they ask to come with the party when it leaves.']],
+        },
+      ],
+    },
   ],
 })
