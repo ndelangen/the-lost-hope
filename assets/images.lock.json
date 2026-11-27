@@ -5421,7 +5421,7 @@
   "assets/images/content/scenes/jim-wakes-william-with-light-s-unidentified-drops.png": {"sha256":"ebdfb24cbdd0a49d43586983d3df24c848b2081bcc4b4de4a6198f53f20eda78","bytes":1802537},
   "assets/images/content/scenes/light-instructs-the-party-to-use-the-trapdoor.png": {"sha256":"a6339375ef1c6474a4d267f201d0ab1d2c56a107a7d9ebf297f0e555b040aa09","bytes":2479772},
   "assets/images/content/scenes/light-sends-cassian-to-watch-over-the-party.png": {"sha256":"062cef0e7c6dce5e148520077e7a23d51cf9641d4aeab6d95209648740ee86b1","bytes":3262984},
-  "assets/images/content/scenes/light-walks-auren-through-fajanet-night.png": {"sha256":"4d4f5b22d53f53d2631fa3ca4a3e2dca0c139db9192135b5fe065ccf0e4a4669","bytes":3393608},
+  "assets/images/content/scenes/light-walks-auren-through-fajanet-night.png": {"sha256":"3b4860d88d941bd705e568ed71698982763a709986b9690d61f0aee33e65bf6a","bytes":3128431},
   "assets/images/content/scenes/light-walks-auren-through-fajanet.png": {"sha256":"196ae0f205b2c6a4344df761dd1e8b02a80ca5a206ea5fdc98de165a439468f7","bytes":3187605},
   "assets/images/content/scenes/lost-in-the-shadow-realm.png": {"sha256":"5e6f8ca70b4ce019a322d80c26b7dc51821c55337032ffe6b834cc6d8fcddcfa","bytes":1820935},
   "assets/images/content/scenes/meet-bob-the-gate-troll.png": {"sha256":"76a125c805c36efbd6d27f0008d37192cf09188e8dd843214aa4bb5a52cf10bd","bytes":3785176},
